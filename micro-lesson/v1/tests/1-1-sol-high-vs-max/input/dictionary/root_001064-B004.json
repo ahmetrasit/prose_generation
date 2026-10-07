@@ -1,0 +1,397 @@
+{
+  "root_ar": "ع و ن",
+  "branch_ref": "root_001064/B004",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_001064.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_001064.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+      "entry_id": "root_001064/tr",
+      "status": "reviewed",
+      "review_verdict": "repair",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_001064/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, yardım ve karşılıklı desteğin yanı sıra orta yaş, yinelenmiş savaş, yaşlı hurma, bedensel olgunluk, yaban eşeği sürüsü, kasık kılları ve bir yerle ilişkilendirilen şarap gibi birbirinden belirgin biçimde ayrılan anlam dalları taşır. Düzen, bazı yaş ve olgunluk bağlantılarına karşın tek bir çekirdekten açıklanamayacak ölçüde çok kolludur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_001064/B004",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Tek kaynak ifadesi sözü doğrudan yaşlı bir hurma ağacı için verir. Geçici çerçeve hem varlığı hem de ağaç türüne bağlı sınırı değiştirmeden yansıtır.",
+      "boundary_note": "Bu dal genel yaşlılık adı değil, yaşlı hurma ağacını adlandıran yalın bir sözlük birimidir."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "bare",
+      "note": "Tanım yalın birimin yaşlı hurma ağacı anlamıyla sınırlıdır ve komşu yaş, bitki ya da eskilik anlamlarını içeri almaz."
+    },
+    "concept_map": {
+      "definition": "Yaşı ilerlemiş, eski bir hurma ağacını adlandıran sözdür.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Gönderge, yaşı ilerlemiş ve eski sayılan bir hurma ağacıdır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Bu dal için kaynaklar arası ortak bir özet yoktur; anlam tek bir sözlük tanıklığına dayanır.",
+      "common_claim_ids": [],
+      "source_details": [
+        {
+          "claim_ids": [
+            "bc_001"
+          ],
+          "kind": "sole_attestation",
+          "summary": "Tek tanıklık, bu birimi yalnızca yaşlı ve eski bir hurma ağacının adı olarak verir."
+        }
+      ],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "yaşlı hurma ağacı",
+      "applicability": "Yalın birimin ağaç türünü ve yaşlılık niteliğini birlikte koruyan doğrudan karşılıktır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Hurma ağacı olma ve yaşlı sayılma özelliklerinin ikisini de korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "eski hurma",
+        "usage_role": "contextual",
+        "applicability": "Ağacın yaşı ve eskiliği bağlamdan açıkça anlaşıldığında daha kısa bir karşılık olarak kullanılabilir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hurma türünü ve eskilik niteliğini doğal bağlam içinde korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_016",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yaşlı hurma ağacı"
+      }
+    ],
+    "excluded_glosses": [],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000979/B003",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yalnızca yaşlı bir hurma ağacını adlandırır.",
+        "neighbor_only": "Komşu dal uzun zaman geçmiş her tür şeyi, yiyeceği, içeceği, aracı veya yapıyı kapsar.",
+        "gloss": "eskimiş ve köklü",
+        "shared_zone": "Her iki dalda da zaman geçmesi sonucunda eski sayılma niteliği vardır.",
+        "distinction": "Odak dalın hurma ağacına bağlı sözlüksel sınırı vardır; komşu dal ise tür ayrımı yapmadan genel eskiliği bildirir."
+      },
+      {
+        "neighbor_ref": "root_000832/B006",
+        "relation_type": "antonym",
+        "boundary_match": "opposed",
+        "focus_only": "Odak dal yaşı ilerlemiş tek bir hurma ağacını belirtir.",
+        "neighbor_only": "Komşu dal küçük ve genç hurma ağaçlarını toplu bir adla belirtir.",
+        "gloss": "genç hurma ağaçları",
+        "shared_zone": "İki dal da hurma ağacını yaşam evresine göre adlandırır.",
+        "distinction": "Aynı bitki türünün yaş ekseninde odak dal yaşlı ucu, komşu dal genç ucu gösterir."
+      },
+      {
+        "neighbor_ref": "root_000985/B003",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yaşlılığı hurma ağacına özgü bir adla ifade eder.",
+        "neighbor_only": "Komşu dal insanın yaşlanmasını ve eskilik nedeniyle yaşlı sayılan başka nesneleri de kapsar.",
+        "gloss": "yaşlanıp eski olma",
+        "shared_zone": "İki dal yaş ilerlemesi veya uzun zaman geçmesi sonucu eski sayılmayı paylaşır.",
+        "distinction": "Komşu dal genel yaşlanma ve eskime alanıdır; odak dal ise yalnızca hurma ağacına ait tek bir adlandırmadır."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel eskilik, genç hurma karşıtlığı ve genel yaşlanma en belirgin sınırları verir, öteki adaylar ağacın bölümü, ürünü veya gelişim kusuruyla ilgilidir.",
+    "branch_image_ar": "النخلة العَوانة القديمة",
+    "what_is_ar": "العوانة للنخلة القديمة",
+    "what_is_not_ar": "ليس العوان في سن الحيوان ولا الحرب العوان",
+    "source_phrase_ar": "وقيل العوانة للنخلة القديمة (mufradat)",
+    "sources": [
+      "MU"
+    ],
+    "source_note": {
+      "MU": "Tek tanıklık, bu birimi yalnızca yaşlı ve eski bir hurma ağacının adı olarak verir."
+    }
+  },
+  "finalized_branch": {
+    "root_id": "root_001064",
+    "branch_id": "B004",
+    "branch_image_ar": "النخلة العَوانة القديمة",
+    "what_is_ar": "العوانة للنخلة القديمة",
+    "what_is_not_ar": "ليس العوان في سن الحيوان ولا الحرب العوان",
+    "source_phrase_ar": "وقيل العوانة للنخلة القديمة (mufradat)",
+    "image_transliteration": "alnkhlh al'wanh alqdymh",
+    "summary": "Yaşı ilerlemiş, eski bir hurma ağacını adlandıran sözdür.",
+    "concept_map": {
+      "definition": "Yaşı ilerlemiş, eski bir hurma ağacını adlandıran sözdür.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Gönderge, yaşı ilerlemiş ve eski sayılan bir hurma ağacıdır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Tek kaynak ifadesi sözü doğrudan yaşlı bir hurma ağacı için verir. Geçici çerçeve hem varlığı hem de ağaç türüne bağlı sınırı değiştirmeden yansıtır.",
+      "boundary_note": "Bu dal genel yaşlılık adı değil, yaşlı hurma ağacını adlandıran yalın bir sözlük birimidir."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "bare",
+      "note": "Tanım yalın birimin yaşlı hurma ağacı anlamıyla sınırlıdır ve komşu yaş, bitki ya da eskilik anlamlarını içeri almaz."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "bare",
+      "has_non_bare": false,
+      "has_collocation": false,
+      "unit_kind_counts": {
+        "form": 1
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_016",
+        "expression_ar": "العوانة",
+        "unit_kind": "form",
+        "sense_ar": "النخلة القديمة",
+        "target_gloss": "yaşlı hurma ağacı",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Bu dal için kaynaklar arası ortak bir özet yoktur; anlam tek bir sözlük tanıklığına dayanır.",
+      "evidence_refs": [
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+      ],
+      "details": [
+        {
+          "kind": "sole_attestation",
+          "summary": "Tek tanıklık, bu birimi yalnızca yaşlı ve eski bir hurma ağacının adı olarak verir.",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+          ],
+          "source_ids": [
+            "mufradat"
+          ]
+        }
+      ],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 1,
+      "passage_count": 1,
+      "sources": [
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Yaşı ilerlemiş, eski bir hurma ağacını adlandıran sözdür.",
+      "concept": {
+        "rank": 1,
+        "text": "yaşlı hurma ağacı",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Yalın birimin ağaç türünü ve yaşlılık niteliğini birlikte koruyan doğrudan karşılıktır.",
+        "facet_ids": [
+          "F001"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hurma ağacı olma ve yaşlı sayılma özelliklerinin ikisini de korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "eski hurma",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Ağacın yaşı ve eskiliği bağlamdan açıkça anlaşıldığında daha kısa bir karşılık olarak kullanılabilir.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Hurma türünü ve eskilik niteliğini doğal bağlam içinde korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": []
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000979",
+        "neighbor_branch_id": "B003",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yalnızca yaşlı bir hurma ağacını adlandırır.",
+        "neighbor_only": "Komşu dal uzun zaman geçmiş her tür şeyi, yiyeceği, içeceği, aracı veya yapıyı kapsar.",
+        "expression_transliteration": "rswkh alqdm wtqadm alzmn",
+        "gloss": "eskimiş ve köklü",
+        "shared_zone": "Her iki dalda da zaman geçmesi sonucunda eski sayılma niteliği vardır.",
+        "distinction": "Odak dalın hurma ağacına bağlı sözlüksel sınırı vardır; komşu dal ise tür ayrımı yapmadan genel eskiliği bildirir.",
+        "expression_ar": "رسوخ القدم وتقادم الزمن",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2411",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A111:headword=%D8%B9%D8%AA%D9%82:root=%D8%B9%20%D8%AA%20%D9%82:sha=1ede4a166cddc431",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A994%3Asubentry%3A0%3A%D8%B9%D8%AA%D9%82:headword=%D8%B9%D8%AA%D9%82:root=%D8%B9%20%D8%AA%20%D9%82:sha=58cf312538b914f8",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A966:headword=%D8%B9%D8%AA%D9%82:root=%D8%B9%20%D8%AA%20%D9%82:sha=c691836ff13e7b60",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3647:headword=%D8%B9%D8%AA%D9%82:root=%D8%B9%20%D8%AA%20%D9%82:sha=0fe90bb40e045686",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D54%3Bsegment_index%3D2:headword=%D8%B9%D8%AA%D9%82:root=%D8%B9%20%D8%AA%20%D9%82:sha=f1cc1f127264fde3"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000832",
+        "neighbor_branch_id": "B006",
+        "relation_type": "antonym",
+        "boundary_match": "opposed",
+        "focus_only": "Odak dal yaşı ilerlemiş tek bir hurma ağacını belirtir.",
+        "neighbor_only": "Komşu dal küçük ve genç hurma ağaçlarını toplu bir adla belirtir.",
+        "expression_transliteration": "sghar alnkhl",
+        "gloss": "genç hurma ağaçları",
+        "shared_zone": "İki dal da hurma ağacını yaşam evresine göre adlandırır.",
+        "distinction": "Aynı bitki türünün yaş ekseninde odak dal yaşlı ucu, komşu dal genç ucu gösterir.",
+        "expression_ar": "صغار النخل",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D603%3Bsegment_index%3D16:headword=%D8%B4%D9%8A%D8%A3:root=%D8%B4%20%D9%8A%20%D8%A3:sha=0f9b757e0394f59a"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000985",
+        "neighbor_branch_id": "B003",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yaşlılığı hurma ağacına özgü bir adla ifade eder.",
+        "neighbor_only": "Komşu dal insanın yaşlanmasını ve eskilik nedeniyle yaşlı sayılan başka nesneleri de kapsar.",
+        "expression_transliteration": "kbr wqdm hta ysma 'jwza",
+        "gloss": "yaşlanıp eski olma",
+        "shared_zone": "İki dal yaş ilerlemesi veya uzun zaman geçmesi sonucu eski sayılmayı paylaşır.",
+        "distinction": "Komşu dal genel yaşlanma ve eskime alanıdır; odak dal ise yalnızca hurma ağacına ait tek bir adlandırmadır.",
+        "expression_ar": "كبر وقدم حتى يسمى عجوزا",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2424",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A232:headword=%D8%B9%D8%AC%D8%B2:root=%D8%B9%20%D8%AC%20%D8%B2:sha=7ce87edc5320f99d",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1252%3Asubentry%3A2%3A%D8%B9%D8%AC%D8%B2:headword=%D8%B9%D8%AC%D8%B2:root=%D8%B9%20%D8%AC%20%D8%B2:sha=e747aac8a44b994f",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A972:headword=%D8%B9%D8%AC%D8%B2:root=%D8%B9%20%D8%AC%20%D8%B2:sha=0616cf9a2b8cb9d2",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A2061:headword=%D8%B9%D8%AC%D8%B2:root=%D8%B9%20%D8%AC%20%D8%B2:sha=8d9ffa42baa35ba2",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D81%3Bsegment_index%3D2:headword=%D8%B9%D8%AC%D8%B2:root=%D8%B9%20%D8%AC%20%D8%B2:sha=08a434c4f36755c2"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; genel eskilik, genç hurma karşıtlığı ve genel yaşlanma en belirgin sınırları verir, öteki adaylar ağacın bölümü, ürünü veya gelişim kusuruyla ilgilidir."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_001064/B004",
+    "concept_gloss": {
+      "text": "yaşlı hurma ağacı",
+      "facet_ids": [
+        "F001"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "eski hurma ağacı",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_016"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_016": {
+        "text": "yaşlı hurma ağacı",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    }
+  }
+}

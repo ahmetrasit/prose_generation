@@ -1,0 +1,556 @@
+{
+  "root_ar": "و س م",
+  "branch_ref": "root_001650/B002",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_001650/tr/output/root_001650_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_001650.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_001650.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_001650/tr/output/root_001650_entry.json",
+      "entry_id": "root_001650/tr",
+      "status": "reviewed",
+      "review_verdict": "pass",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_001650/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Bu kök, fiziksel bir işaret koyma ve ortaya çıkan iz merkezinden; belirtiden kişilik veya durum sezme, toprağı bitkilendiren ilk yağmur, belirlenmiş toplu buluşma, kişide görünen güzellik ve yaprakları boya veren bir bitki anlamlarına açılan çok anlamlı bir yapı gösterir. Dalların çoğu belirgin iz veya belirlenmişlik düşüncesiyle ilişkilendirilebilirken bitki adı daha bağımsız bir adlandırma olarak durur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_001650/B002",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi, bir kişide görülen belirtiyi okuyarak iyilik, kötülük veya genel durum hakkında sonuç çıkarma eylemini açıkça anlatır. Dal çerçevesindeki bakma, belirti ve çıkarım ilişkisi bu anlamı doğru korur.",
+      "boundary_note": "Burada belirtiyi yalnızca görmek yetmez; görünür izden kişinin niteliği veya durumu hakkında çıkarım yapılması gerekir."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım, kişideki belirtiyi yorumlama çekirdeğini verir; iyilik veya kötülükle kurulan özel yapılar bu çekirdeğin bağlama bağlı gerçekleşmeleridir."
+    },
+    "concept_map": {
+      "definition": "Bir kişide görülen belirti veya izlere dikkatle bakarak onun iyiliği, kötülüğü, niteliği ya da durumu hakkında sezgisel bir sonuca varmaktır. Anlam, belirtinin kendisinden çok onu okuyup görünmeyen bir niteliği çıkarma eylemine dayanır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Kişide görülen bir belirti, görünmeyen bir nitelik veya durumun göstergesi olarak okunur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Gözlemden hareketle sezgisel bir değerlendirme ve çıkarım yapılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "Çıkarılan nitelik iyilik de kötülük de olabilir; anlam yalnızca olumlu bir yargıyla sınırlı değildir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Ortak çekirdek, kişideki görünür bir izin onun iyiliğine, kötülüğüne veya durumuna işaret ettiğini fark etmek ve bu işaretten sezgisel bir sonuç çıkarmaktır. Bakan kişi, belirtiyi anlam taşıyan bir gösterge olarak değerlendirir.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "belirtiden karakter veya durum sezme",
+      "applicability": "Bir kişideki görünür işaretten onun görünmeyen niteliği hakkında çıkarım yapma çekirdeğinin tamamında kullanılabilir.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Belirtiyi gözlemleme, onu gösterge sayma ve kişilik ya da durum hakkında sonuç çıkarma aşamalarını korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "işaretlerden anlam çıkarmak",
+        "usage_role": "explanatory",
+        "applicability": "Görünür belirtilerin okunması ve bunlardan bir kişinin durumu hakkında sonuç çıkarılması vurgulandığında uygundur.",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Gözlenen belirtileri anlamlı göstergeler olarak yorumlama ve sonuç çıkarma sürecini korur.",
+          "loses": null,
+          "adds": "Tek başına kullanıldığında kişi dışındaki nesne ve olaylardan yapılan çıkarımları da kapsayabilir.",
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      {
+        "text": "sezmek",
+        "usage_role": "contextual",
+        "applicability": "Kişideki belirtilerden onun iyiliği, kötülüğü veya genel niteliği hakkında hızlı bir yargıya varıldığında doğaldır.",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Açıkça söylenmeyen bir niteliğe dolaylı yoldan ulaşma sonucunu korur.",
+          "loses": null,
+          "adds": "Görünür bir belirtiye dayanmayan içgüdüsel tahminleri de kapsayabilir.",
+          "collision": null
+        },
+        "facet_ids": [
+          "F002",
+          "F003"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_008",
+        "rendering_kind": "ordinary",
+        "target_gloss": "bir kimsede iyilik ya da kötülük belirtisi görüp niteliğini sezmek"
+      },
+      {
+        "lexical_unit_id": "lu_009",
+        "rendering_kind": "ordinary",
+        "target_gloss": "duruma işaret eden belirtileri okuyup sonuç çıkaranlar"
+      },
+      {
+        "lexical_unit_id": "lu_010",
+        "rendering_kind": "ordinary",
+        "target_gloss": "üzerinde iyilik ya da kötülük belirtisi bulunan"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "tahmin etmek",
+        "category": "alternative",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Kesin olmayan bir sonuca varma yönünü korur.",
+          "loses": null,
+          "adds": "Herhangi bir görünür belirtiye veya kişiye dayanmayan bütün kestirimleri kapsar.",
+          "collision": "Genel olasılık hesabı ve gelecek öngörüsü anlamlarıyla karışır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000448/B010",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Kişide iyiliğin yanı sıra kötülük veya başka bir durum belirtisini okuyup çıkarım yapmayı da kapsar.",
+        "neighbor_only": null,
+        "gloss": "kişide iyilik sezme",
+        "shared_zone": "Her iki dalda da bir kişide görülen belirtilerden onun iyiliği hakkında sezgisel sonuç çıkarılır.",
+        "distinction": "Komşu dal olumlu niteliği sezmekle sınırlıdır; odak dal ise olumlu veya olumsuz işaretleri okuyabilen daha geniş, fakat yine kişiye bağlı bir çıkarım alanıdır."
+      },
+      {
+        "neighbor_ref": "root_001002/B003",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Görünür belirtiden kişinin karakteri veya durumu hakkında sezgisel çıkarım yapmayı merkez alır.",
+        "neighbor_only": "Tanıma, karşılıklı tanışma, bir şeyi bildirme ve haber araştırma gibi geniş bilgi edinme işlemlerini kapsar.",
+        "gloss": "belirtiden tanıma ve ayırt etme",
+        "shared_zone": "İki dalda da bir iz veya gösterge, kişi ya da şey hakkında bilgi edinmeye yardım eder.",
+        "distinction": "Odak dal, belirtinin yorumlanmasıyla görünmeyen niteliğe ulaşır; komşu dalın çekirdeği ise daha genel tanıma ve bilinir kılma işlemleridir."
+      },
+      {
+        "neighbor_ref": "root_000484/B001",
+        "relation_type": "near_neighbor",
+        "boundary_match": "field_only",
+        "focus_only": "Belirtiyi okuyanın kişilik veya durum hakkında sezgisel yargıya varmasını gerektirir.",
+        "neighbor_only": "Yola yöneltme dahil olmak üzere bir şeyi bildiren her türlü göstergeyi ve gösterme ilişkisini kapsar.",
+        "gloss": "göstergeyle bildirme",
+        "shared_zone": "Her ikisinde de görünür bir belirti, doğrudan görünmeyen başka bir şeye ulaşmayı sağlar.",
+        "distinction": "Odak dal psikolojik bir okuma ve çıkarım eylemidir; komşu dal ise göstergenin bilgi verme işlevini genel olarak adlandırır."
+      }
+    ],
+    "neighbor_coverage_note": "Adayların tümü değerlendirildi; olumlu nitelik sezme, izden tanıma ve genel gösterge ilişkileri okurun karıştırabileceği üç ayrı sınırı gösterdiği için seçildi.",
+    "branch_image_ar": "سمة يرى بها الناظر دلالة الحال",
+    "what_is_ar": "يدخل فيه التوسم والتفرس، ورؤية أثر الخير أو الشر في الشخص، والآيات للمتوسمين بوصفهم ناظرين في السمة الدالة.",
+    "what_is_not_ar": "لا يدخل فيه مجرد الكي الحسي أو اسم المطر أو الموسم إلا إذا كان المعنى هو قراءة الدلالة من الأثر.",
+    "source_phrase_ar": "الناظرين في السمة الدالة (maqayis)؛ توسمت فيه الخير والشر أي رأيت فيه أثرا (ayn)؛ فلان موسوم بالخير، وقد توسمت فيه الخير أي تفرست (sihah)؛ توسمت في فلان خيرا أي رأيت فيه أثرا منه، وتوسمت فيه الخير أي تفرست (tahdhib)",
+    "sources": [
+      "MQ",
+      "AY",
+      "SI",
+      "TA"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_001650",
+    "branch_id": "B002",
+    "branch_image_ar": "سمة يرى بها الناظر دلالة الحال",
+    "what_is_ar": "يدخل فيه التوسم والتفرس، ورؤية أثر الخير أو الشر في الشخص، والآيات للمتوسمين بوصفهم ناظرين في السمة الدالة.",
+    "what_is_not_ar": "لا يدخل فيه مجرد الكي الحسي أو اسم المطر أو الموسم إلا إذا كان المعنى هو قراءة الدلالة من الأثر.",
+    "source_phrase_ar": "الناظرين في السمة الدالة (maqayis)؛ توسمت فيه الخير والشر أي رأيت فيه أثرا (ayn)؛ فلان موسوم بالخير، وقد توسمت فيه الخير أي تفرست (sihah)؛ توسمت في فلان خيرا أي رأيت فيه أثرا منه، وتوسمت فيه الخير أي تفرست (tahdhib)",
+    "image_transliteration": "smh yra bha alnazr dlalh alhal",
+    "summary": "Bir kişide görülen belirti veya izlere dikkatle bakarak onun iyiliği, kötülüğü, niteliği ya da durumu hakkında sezgisel bir sonuca varmaktır. Anlam, belirtinin kendisinden çok onu okuyup görünmeyen bir niteliği çıkarma eylemine dayanır.",
+    "concept_map": {
+      "definition": "Bir kişide görülen belirti veya izlere dikkatle bakarak onun iyiliği, kötülüğü, niteliği ya da durumu hakkında sezgisel bir sonuca varmaktır. Anlam, belirtinin kendisinden çok onu okuyup görünmeyen bir niteliği çıkarma eylemine dayanır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Kişide görülen bir belirti, görünmeyen bir nitelik veya durumun göstergesi olarak okunur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Gözlemden hareketle sezgisel bir değerlendirme ve çıkarım yapılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "Çıkarılan nitelik iyilik de kötülük de olabilir; anlam yalnızca olumlu bir yargıyla sınırlı değildir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi, bir kişide görülen belirtiyi okuyarak iyilik, kötülük veya genel durum hakkında sonuç çıkarma eylemini açıkça anlatır. Dal çerçevesindeki bakma, belirti ve çıkarım ilişkisi bu anlamı doğru korur.",
+      "boundary_note": "Burada belirtiyi yalnızca görmek yetmez; görünür izden kişinin niteliği veya durumu hakkında çıkarım yapılması gerekir."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım, kişideki belirtiyi yorumlama çekirdeğini verir; iyilik veya kötülükle kurulan özel yapılar bu çekirdeğin bağlama bağlı gerçekleşmeleridir."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 1,
+        "form": 2
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_008",
+        "expression_ar": "تَوَسَّم في فلان",
+        "unit_kind": "form",
+        "sense_ar": "رأى فيه أثرا يدل على الخير أو الشر وتفرس فيه",
+        "target_gloss": "bir kimsede iyilik ya da kötülük belirtisi görüp niteliğini sezmek",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_009",
+        "expression_ar": "المُتَوَسِّمون",
+        "unit_kind": "form",
+        "sense_ar": "الناظرون في السمة الدالة والآثار التي تدل على الحال",
+        "target_gloss": "duruma işaret eden belirtileri okuyup sonuç çıkaranlar",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_010",
+        "expression_ar": "مَوْسوم بالخير والشر",
+        "unit_kind": "collocation",
+        "sense_ar": "عليه علامة الخير أو الشر",
+        "target_gloss": "üzerinde iyilik ya da kötülük belirtisi bulunan",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Ortak çekirdek, kişideki görünür bir izin onun iyiliğine, kötülüğüne veya durumuna işaret ettiğini fark etmek ve bu işaretten sezgisel bir sonuç çıkarmaktır. Bakan kişi, belirtiyi anlam taşıyan bir gösterge olarak değerlendirir.",
+      "evidence_refs": [
+        "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002",
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 4,
+      "passage_count": 4,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002"
+          ]
+        },
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Bir kişide görülen belirti veya izlere dikkatle bakarak onun iyiliği, kötülüğü, niteliği ya da durumu hakkında sezgisel bir sonuca varmaktır. Anlam, belirtinin kendisinden çok onu okuyup görünmeyen bir niteliği çıkarma eylemine dayanır.",
+      "concept": {
+        "rank": 1,
+        "text": "belirtiden karakter veya durum sezme",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Bir kişideki görünür işaretten onun görünmeyen niteliği hakkında çıkarım yapma çekirdeğinin tamamında kullanılabilir.",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Belirtiyi gözlemleme, onu gösterge sayma ve kişilik ya da durum hakkında sonuç çıkarma aşamalarını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "işaretlerden anlam çıkarmak",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "Görünür belirtilerin okunması ve bunlardan bir kişinin durumu hakkında sonuç çıkarılması vurgulandığında uygundur.",
+          "facet_ids": [
+            "F001",
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Gözlenen belirtileri anlamlı göstergeler olarak yorumlama ve sonuç çıkarma sürecini korur.",
+            "loses": null,
+            "adds": "Tek başına kullanıldığında kişi dışındaki nesne ve olaylardan yapılan çıkarımları da kapsayabilir.",
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "sezmek",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Kişideki belirtilerden onun iyiliği, kötülüğü veya genel niteliği hakkında hızlı bir yargıya varıldığında doğaldır.",
+          "facet_ids": [
+            "F002",
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Açıkça söylenmeyen bir niteliğe dolaylı yoldan ulaşma sonucunu korur.",
+            "loses": null,
+            "adds": "Görünür bir belirtiye dayanmayan içgüdüsel tahminleri de kapsayabilir.",
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "tahmin etmek",
+          "category": "alternative",
+          "exclusion_reason": "Herhangi bir görünür belirtiye veya kişiye dayanmayan bütün kestirimleri kapsar. Genel olasılık hesabı ve gelecek öngörüsü anlamlarıyla karışır.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Kesin olmayan bir sonuca varma yönünü korur.",
+            "loses": null,
+            "adds": "Herhangi bir görünür belirtiye veya kişiye dayanmayan bütün kestirimleri kapsar.",
+            "collision": "Genel olasılık hesabı ve gelecek öngörüsü anlamlarıyla karışır."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000448",
+        "neighbor_branch_id": "B010",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Kişide iyiliğin yanı sıra kötülük veya başka bir durum belirtisini okuyup çıkarım yapmayı da kapsar.",
+        "neighbor_only": null,
+        "expression_transliteration": "twsm alkhyr fy alinsan",
+        "gloss": "kişide iyilik sezme",
+        "shared_zone": "Her iki dalda da bir kişide görülen belirtilerden onun iyiliği hakkında sezgisel sonuç çıkarılır.",
+        "distinction": "Komşu dal olumlu niteliği sezmekle sınırlıdır; odak dal ise olumlu veya olumsuz işaretleri okuyabilen daha geniş, fakat yine kişiye bağlı bir çıkarım alanıdır.",
+        "expression_ar": "توسم الخير في الإنسان",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3991:headword=%D8%AE%D9%88%D9%84:root=%D8%AE%20%D9%88%20%D9%84:sha=4d2f6bb57be7af60"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001002",
+        "neighbor_branch_id": "B003",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Görünür belirtiden kişinin karakteri veya durumu hakkında sezgisel çıkarım yapmayı merkez alır.",
+        "neighbor_only": "Tanıma, karşılıklı tanışma, bir şeyi bildirme ve haber araştırma gibi geniş bilgi edinme işlemlerini kapsar.",
+        "expression_transliteration": "m'rfh wtmyyz b'd athr aw 'lamh",
+        "gloss": "belirtiden tanıma ve ayırt etme",
+        "shared_zone": "İki dalda da bir iz veya gösterge, kişi ya da şey hakkında bilgi edinmeye yardım eder.",
+        "distinction": "Odak dal, belirtinin yorumlanmasıyla görünmeyen niteliğe ulaşır; komşu dalın çekirdeği ise daha genel tanıma ve bilinir kılma işlemleridir.",
+        "expression_ar": "معرفة وتمييز بعد أثر أو علامة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2451",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A779:headword=%D8%B9%D8%B1%D9%81:root=%D8%B9%20%D8%B1%20%D9%81:sha=a655176fd617f736",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A991:headword=%D8%B9%D8%B1%D9%81:root=%D8%B9%20%D8%B1%20%D9%81:sha=68e449e1738c76c9",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3390:headword=%D8%B9%D8%B1%D9%81:root=%D8%B9%20%D8%B1%20%D9%81:sha=3fa0d1c0cfe8847c",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D172%3Bsegment_index%3D2:headword=%D8%B9%D8%B1%D9%81:root=%D8%B9%20%D8%B1%20%D9%81:sha=87fd037c0cec8585"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000484",
+        "neighbor_branch_id": "B001",
+        "relation_type": "near_neighbor",
+        "boundary_match": "field_only",
+        "focus_only": "Belirtiyi okuyanın kişilik veya durum hakkında sezgisel yargıya varmasını gerektirir.",
+        "neighbor_only": "Yola yöneltme dahil olmak üzere bir şeyi bildiren her türlü göstergeyi ve gösterme ilişkisini kapsar.",
+        "expression_transliteration": "ibânetü'ş-şey'i bi-emâretin",
+        "gloss": "göstergeyle bildirme",
+        "shared_zone": "Her ikisinde de görünür bir belirti, doğrudan görünmeyen başka bir şeye ulaşmayı sağlar.",
+        "distinction": "Odak dal psikolojik bir okuma ve çıkarım eylemidir; komşu dal ise göstergenin bilgi verme işlevini genel olarak adlandırır.",
+        "expression_ar": "إبانة الشيء بأمارة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1034",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A487:headword=%D8%AF%D9%84:root=%D8%AF%20%D9%84:sha=8b1fe6b695c08e41",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4007:headword=%D8%AF%D9%84%D9%84:root=%D8%AF%20%D9%84%20%D9%84:sha=26cda71ce1dd6b87",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D713%3Bsegment_index%3D4:headword=%D8%AF%D9%84:root=%D8%AF%20%D9%84:sha=19e2d7b388b48ec1"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 13,
+      "assessment": "complete",
+      "note": "Adayların tümü değerlendirildi; olumlu nitelik sezme, izden tanıma ve genel gösterge ilişkileri okurun karıştırabileceği üç ayrı sınırı gösterdiği için seçildi."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_001650/B002",
+    "concept_gloss": {
+      "text": "belirti okuyarak sezgisel nitelik çıkarımı",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [],
+    "lexical_glosses": {
+      "lu_008": {
+        "text": "bir kimsede iyilik ya da kötülük belirtisi görüp niteliğini sezmek",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_009": {
+        "text": "duruma işaret eden belirtileri okuyup sonuç çıkaranlar",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_010": {
+        "text": "üzerinde iyilik ya da kötülük belirtisi bulunan",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    }
+  }
+}

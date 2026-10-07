@@ -1,0 +1,697 @@
+{
+  "root_ar": "س م و",
+  "branch_ref": "root_000745/B001",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_000745.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_000745.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+      "entry_id": "root_000745/tr",
+      "status": "reviewed",
+      "review_verdict": "editorial_review",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_000745/tr/repair/editorial/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, somut ve toplumsal yükselme çekirdeğinden uzaktan beliren yüksek görünüşe, üstteki gök ve örtüye, adlandırmaya ve iyi üne uzanır; ayrıca erkek devenin sürüye girişi, ava çıkma ve karşılıklı yarışma gibi kalıplaşmış dallar taşır. Bu yapı, anlamca bağlantılı uzantılarla daha bağımsız eski kullanımları birlikte barındırır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_000745/B001",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi dalın çekirdeğini hem somut yükselme hem de kişinin değerinin ve anılma düzeyinin yükselmesi olarak açıkça kurar. Bakışın yukarı yönelmesi bu çekirdeğin özel bir gerçekleşmesidir.",
+      "boundary_note": "Dal genel yükselmeyi kapsar; gök, ad, av ve yarışma dallarının kalıplaşmış anlamlarını kendi içine almaz."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Genel yükselme çekirdeği ile bakış, toplumsal konum ve gururlu duruşa bağlı özel kullanımlar ayrı tutulur."
+    },
+    "concept_map": {
+      "definition": "Bir şeyin fiziksel olarak yukarı çıkması veya bir kişinin toplumsal değerinin ve anılma düzeyinin yükselmesidir. Bakışın yukarı kaldırılması bu hareketin özel bir uygulamasıdır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir şey bulunduğu düzeyden yukarı çıkar veya yüksek duruma gelir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Bir kişinin değeri, saygınlığı ya da toplumdaki yeri yükselir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "Bakış bir şeye doğru yukarı kaldırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynaklar yükselmeyi dalın ortak çekirdeği sayar; bunu fiziksel yükselişe, bakışın kaldırılmasına ve değerli kişinin toplumdaki yerinin yükselmesine uygular.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "fiziksel ya da toplumsal yükselme",
+      "applicability": "Dalın somut yükselme çekirdeğini ve kişinin değer ya da saygınlık bakımından yükselmesini birlikte karşılar.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Yukarı çıkma ile toplumsal değer artışını aynı yükselme ekseninde korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "yükselmek",
+        "usage_role": "general",
+        "applicability": "Bir şeyin fiziksel olarak daha yüksek bir düzeye çıkmasını anlatan genel bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Fiziksel yukarı çıkma hareketini doğrudan korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "saygınlığı yükselmek",
+        "usage_role": "contextual",
+        "applicability": "Bir kişinin toplumdaki değerinin veya konumunun yükseldiği bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kişinin toplumsal değer bakımından yükselmesini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002"
+        ]
+      },
+      {
+        "text": "bakışını yukarı kaldırmak",
+        "usage_role": "contextual",
+        "applicability": "Bakışın daha yüksekteki bir şeye yöneltildiği özel bağlamda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bakışın yukarı doğru kaldırılması işlemini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F003"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_001",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yükselme, yücelme"
+      },
+      {
+        "lexical_unit_id": "lu_002",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yükselmek, yücelmek"
+      },
+      {
+        "lexical_unit_id": "lu_003",
+        "rendering_kind": "ordinary",
+        "target_gloss": "bakışı yukarı yönelmek"
+      },
+      {
+        "lexical_unit_id": "lu_004",
+        "rendering_kind": "ordinary",
+        "target_gloss": "toplumdaki yeri ve değeri yükselmiş olmak"
+      },
+      {
+        "lexical_unit_id": "lu_029",
+        "rendering_kind": "ordinary",
+        "target_gloss": "gururla başını ve bakışını kaldırmak"
+      }
+    ],
+    "excluded_glosses": [],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_001567/B001",
+        "relation_type": "synonym",
+        "boundary_match": "exact",
+        "focus_only": null,
+        "neighbor_only": null,
+        "gloss": "yükselme ve yücelme",
+        "shared_zone": "Her iki dal bir şeyin yükselmesi ve yüksek duruma gelmesi yönündeki aynı genel çekirdeği anlatır.",
+        "distinction": "Kanıtta çekirdek kapsamı ayıran bir koşul görünmez; bakış, toplumsal değer ve dağın en yüksek yeriyle ilgili bağımlı kullanımlar bu genel yükselme eşdeğerliğini bozmaz."
+      },
+      {
+        "neighbor_ref": "root_000742/B001",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı kişinin değer kazanmasını ve bakışın yukarı yönelmesini kapsar.",
+        "neighbor_only": "Komşu dal bir şeyi kaldırma eylemini ve uzunluk gibi ek yüksek görünüşleri kapsar.",
+        "gloss": "yükselme ve kaldırma",
+        "shared_zone": "İki dal da yükseklik kazanma ve yukarı yönelme alanında buluşur.",
+        "distinction": "Odak dalında temel işlem öznenin yükselmesidir; komşuda bunun yanında bir nesneyi yükseltme ve başka yüksek görünüşler de çekirdeğe girer."
+      },
+      {
+        "neighbor_ref": "root_000745/B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Bu dalda yükselme, uzaktan görünür hale gelme koşulu olmadan da gerçekleşir.",
+        "neighbor_only": "Komşu dalda yüksek bir görünüşün uzaktan belirmesi ve seçilmesi zorunludur.",
+        "gloss": "yükselme ve uzaktan belirme",
+        "shared_zone": "Her iki dalda da yükseklik kazanmış bir şey bulunur.",
+        "distinction": "Odak dalı genel yükselme sürecini anlatır; komşu dal ise yükselen şeyin uzaktan görünür ve seçilebilir bir görünüş oluşturmasını anlatır."
+      }
+    ],
+    "neighbor_coverage_note": "Adayların tümü değerlendirildi; yalnız dalın genel yükselme sınırını en açık biçimde gösteren üç karşılaştırma yayımlandı.",
+    "branch_image_ar": "العلو والارتفاع",
+    "what_is_ar": "يدخل فيه سمو الشيء وعلوه، وارتفاع البصر، وعلو الحسيب والشريف، ورفعة الذكر.",
+    "what_is_not_ar": "لا يدخل فيه استعمال السماء للسقف أو المطر، ولا باب الاسم إلا من جهة اشتقاقه.",
+    "source_phrase_ar": "أصل يدل على العلو؛ سموت إذا علوت (maqayis)؛ سما الشيء يسمو سموا أي ارتفع (ayn)؛ السمو الارتفاع والعلو (sihah)؛ سما الشيء يسمو سموا وهو ارتفاعه، ويقال للحسيب والشريف قد سما (tahdhib)؛ أصله من السمو وهو الذي به رفع ذكر المسمى (mufradat)",
+    "sources": [
+      "MQ",
+      "AY",
+      "SI",
+      "TA",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_000745",
+    "branch_id": "B001",
+    "branch_image_ar": "العلو والارتفاع",
+    "what_is_ar": "يدخل فيه سمو الشيء وعلوه، وارتفاع البصر، وعلو الحسيب والشريف، ورفعة الذكر.",
+    "what_is_not_ar": "لا يدخل فيه استعمال السماء للسقف أو المطر، ولا باب الاسم إلا من جهة اشتقاقه.",
+    "source_phrase_ar": "أصل يدل على العلو؛ سموت إذا علوت (maqayis)؛ سما الشيء يسمو سموا أي ارتفع (ayn)؛ السمو الارتفاع والعلو (sihah)؛ سما الشيء يسمو سموا وهو ارتفاعه، ويقال للحسيب والشريف قد سما (tahdhib)؛ أصله من السمو وهو الذي به رفع ذكر المسمى (mufradat)",
+    "image_transliteration": "al'lw walartfa'",
+    "summary": "Bir şeyin fiziksel olarak yukarı çıkması veya bir kişinin toplumsal değerinin ve anılma düzeyinin yükselmesidir. Bakışın yukarı kaldırılması bu hareketin özel bir uygulamasıdır.",
+    "concept_map": {
+      "definition": "Bir şeyin fiziksel olarak yukarı çıkması veya bir kişinin toplumsal değerinin ve anılma düzeyinin yükselmesidir. Bakışın yukarı kaldırılması bu hareketin özel bir uygulamasıdır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir şey bulunduğu düzeyden yukarı çıkar veya yüksek duruma gelir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Bir kişinin değeri, saygınlığı ya da toplumdaki yeri yükselir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "Bakış bir şeye doğru yukarı kaldırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi dalın çekirdeğini hem somut yükselme hem de kişinin değerinin ve anılma düzeyinin yükselmesi olarak açıkça kurar. Bakışın yukarı yönelmesi bu çekirdeğin özel bir gerçekleşmesidir.",
+      "boundary_note": "Dal genel yükselmeyi kapsar; gök, ad, av ve yarışma dallarının kalıplaşmış anlamlarını kendi içine almaz."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Genel yükselme çekirdeği ile bakış, toplumsal konum ve gururlu duruşa bağlı özel kullanımlar ayrı tutulur."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 1,
+        "form": 2,
+        "lexical_unit": 2
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_001",
+        "expression_ar": "السمو",
+        "unit_kind": "form",
+        "sense_ar": "الارتفاع والعلو، حسا أو معنى.",
+        "target_gloss": "yükselme, yücelme",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_002",
+        "expression_ar": "سما",
+        "unit_kind": "form",
+        "sense_ar": "ارتفع وعلا.",
+        "target_gloss": "yükselmek, yücelmek",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_003",
+        "expression_ar": "سما بصره",
+        "unit_kind": "collocation",
+        "sense_ar": "ارتفع بصره إلى الشيء.",
+        "target_gloss": "bakışı yukarı yönelmek",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_004",
+        "expression_ar": "قد سما الحسيب والشريف",
+        "unit_kind": "lexical_unit",
+        "sense_ar": "علا قدره وارتفعت منزلته.",
+        "target_gloss": "toplumdaki yeri ve değeri yükselmiş olmak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_029",
+        "expression_ar": "سامى طرفه",
+        "unit_kind": "lexical_unit",
+        "sense_ar": "رفع طرفه أو نفسه على جهة النخوة والعلو.",
+        "target_gloss": "gururla başını ve bakışını kaldırmak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynaklar yükselmeyi dalın ortak çekirdeği sayar; bunu fiziksel yükselişe, bakışın kaldırılmasına ve değerli kişinin toplumdaki yerinin yükselmesine uygular.",
+      "evidence_refs": [
+        "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 5,
+      "passage_count": 5,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667"
+          ]
+        },
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Bir şeyin fiziksel olarak yukarı çıkması veya bir kişinin toplumsal değerinin ve anılma düzeyinin yükselmesidir. Bakışın yukarı kaldırılması bu hareketin özel bir uygulamasıdır.",
+      "concept": {
+        "rank": 1,
+        "text": "fiziksel ya da toplumsal yükselme",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Dalın somut yükselme çekirdeğini ve kişinin değer ya da saygınlık bakımından yükselmesini birlikte karşılar.",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yukarı çıkma ile toplumsal değer artışını aynı yükselme ekseninde korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "yükselmek",
+          "loanword_status": "none",
+          "usage_role": "general",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir şeyin fiziksel olarak daha yüksek bir düzeye çıkmasını anlatan genel bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Fiziksel yukarı çıkma hareketini doğrudan korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "saygınlığı yükselmek",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir kişinin toplumdaki değerinin veya konumunun yükseldiği bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kişinin toplumsal değer bakımından yükselmesini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 4,
+          "text": "bakışını yukarı kaldırmak",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bakışın daha yüksekteki bir şeye yöneltildiği özel bağlamda kullanılır.",
+          "facet_ids": [
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bakışın yukarı doğru kaldırılması işlemini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": []
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_001567",
+        "neighbor_branch_id": "B001",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Bu dal bakışın ve kişinin toplumsal değerinin yükselmesini de açıkça kapsar.",
+        "neighbor_only": "Komşu dal, dağdaki en yüksek yere verilen özel adı ayrıca içerir.",
+        "expression_transliteration": "alsmw walartfa'",
+        "gloss": "yükselme çekirdekleri",
+        "shared_zone": "Her iki dalın merkezinde bir şeyin yükselmesi ve yüksek duruma gelmesi vardır.",
+        "distinction": "Ortak fiziksel çekirdeğe rağmen odak dalı bakış ve toplumsal değer uzantılarını taşır; komşu dal ise dağın en yüksek yerine ilişkin özel bir adlandırmayı içerir.",
+        "expression_ar": "السُّمُوّ والارتفاع",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:3490",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3724:headword=%D9%86%D9%88%D9%82:root=%D9%86%20%D9%88%20%D9%82:sha=8a69eead628ac36c"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000742",
+        "neighbor_branch_id": "B001",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı kişinin değer kazanmasını ve bakışın yukarı yönelmesini kapsar.",
+        "neighbor_only": "Komşu dal bir şeyi kaldırma eylemini ve uzunluk gibi ek yüksek görünüşleri kapsar.",
+        "expression_transliteration": "al'lw walrf'",
+        "gloss": "yükselme ve kaldırma",
+        "shared_zone": "İki dal da yükseklik kazanma ve yukarı yönelme alanında buluşur.",
+        "distinction": "Odak dalında temel işlem öznenin yükselmesidir; komşuda bunun yanında bir nesneyi yükseltme ve başka yüksek görünüşler de çekirdeğe girer.",
+        "expression_ar": "العلو والرفع",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1676",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A3682:headword=%D8%B3%D9%85%D9%83:root=%D8%B3%20%D9%85%20%D9%83:sha=04a4ceddfc5fcdba",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A735:headword=%D8%B3%D9%85%D9%83:root=%D8%B3%20%D9%85%20%D9%83:sha=de9c20bcf37c504d",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3809:headword=%D8%B3%D9%85%D9%83:root=%D8%B3%20%D9%85%20%D9%83:sha=8081443e421718f0",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D516%3Bsegment_index%3D96:headword=%D8%B3%D9%85%D9%83:root=%D8%B3%20%D9%85%20%D9%83:sha=b7e51994cac8f482"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000745",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Bu dalda yükselme, uzaktan görünür hale gelme koşulu olmadan da gerçekleşir.",
+        "neighbor_only": "Komşu dalda yüksek bir görünüşün uzaktan belirmesi ve seçilmesi zorunludur.",
+        "expression_transliteration": "alshkhs almrtf' alzahr",
+        "gloss": "yükselme ve uzaktan belirme",
+        "shared_zone": "Her iki dalda da yükseklik kazanmış bir şey bulunur.",
+        "distinction": "Odak dalı genel yükselme sürecini anlatır; komşu dal ise yükselen şeyin uzaktan görünür ve seçilebilir bir görünüş oluşturmasını anlatır.",
+        "expression_ar": "الشخص المرتفع الظاهر",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Adayların tümü değerlendirildi; yalnız dalın genel yükselme sınırını en açık biçimde gösteren üç karşılaştırma yayımlandı."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_000745/B001",
+    "concept_gloss": {
+      "text": "fiziksel, toplumsal veya bakışta yükselme",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "bulunduğu düzeyden yukarı çıkmak",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_001",
+          "lu_002"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "saygınlığı veya toplumsal yeri yükselmek",
+        "facet_ids": [
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_001",
+          "lu_002",
+          "lu_004"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "bakışı yukarı kaldırmak veya yöneltmek",
+        "facet_ids": [
+          "F003"
+        ],
+        "lexical_unit_ids": [
+          "lu_003",
+          "lu_029"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_001": {
+        "text": "yükselme veya yücelme",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Gloss yalnız belirtilen anlam yönünü karşılıyor; diğer facetler bu ifadede açık değil."
+        }
+      },
+      "lu_002": {
+        "text": "yükselmek veya yücelmek",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Gloss yalnız belirtilen anlam yönünü karşılıyor; diğer facetler bu ifadede açık değil."
+        }
+      },
+      "lu_003": {
+        "text": "bakışı yukarı yönelmek",
+        "facet_ids": [
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss yalnız bakışın yukarı yönelmesini verir; genel fiziksel yükselme ve toplumsal yücelme kapsamlarını dışarıda bırakır."
+        }
+      },
+      "lu_004": {
+        "text": "toplumsal değeri ve konumu yükselmiş olmak",
+        "facet_ids": [
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss toplumsal yükselme kullanımına odaklanır; genel fiziksel yükselme ve bakışın yukarı kaldırılması kapsamlarını vermez."
+        }
+      },
+      "lu_029": {
+        "text": "gururla başını ve bakışını yukarı kaldırmak",
+        "facet_ids": [
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss gururlu bakış kaldırma kullanımını verir; genel yükselme ve toplumsal yücelme anlamlarını dışarıda bırakır."
+        }
+      }
+    }
+  }
+}

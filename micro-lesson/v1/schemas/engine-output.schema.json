@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Engine output 1.1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.1"
+    },
+    "page_id": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "paragraph_id": {
+            "type": "string"
+          },
+          "lessons": {
+            "type": "array",
+            "items": {
+              "$ref": "lesson.schema.json"
+            }
+          },
+          "deferred": {
+            "type": "array",
+            "items": {
+              "$ref": "lesson.schema.json#/$defs/deferred"
+            }
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "paragraph_id",
+          "lessons",
+          "deferred"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "engine": {
+      "enum": [
+        "grammar",
+        "semantics",
+        "mapping"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "page_id",
+    "paragraphs",
+    "engine"
+  ],
+  "additionalProperties": false
+}

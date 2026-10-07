@@ -139,6 +139,12 @@ def build(a):
     d = run_dir(a.run)
     if d.exists():
         raise SystemExit(f'{d} exists; choose a new run name')
+    if bool(a.ayat) == bool(a.page):
+        raise SystemExit('give either --ayat, or --page with --ayah')
+    if a.page:
+        import write  # late import: write imports this module
+        a.ayat = write.page_verses(a.page, a.ayah)
+        print(f'{a.ayah}: own ayah + {len(a.ayat) - 1} cited verses from {a.page}')
     ayat = [parse_ayah(x) for x in a.ayat]
     src, segments, skipped = gather(ayat)
     if a.skip_done:
@@ -203,12 +209,14 @@ def build(a):
               + ' '.join(c['sources']))
     routine = defaultdict(int)
     for s in skipped:
-        if s['reason'].startswith(('kind meal', 'kind translation', 'kind quran', 'already digested')):
-            routine[s['ayah'], s['reason']] += 1
+        if '-FULL covers' in s['reason']:
+            routine['short edition where the FULL edition covers the verse'] += 1
+        elif s['reason'].startswith(('kind meal', 'kind translation', 'kind quran', 'already digested')):
+            routine[s['reason'].split(':')[0].split(' (')[0]] += 1
         else:
             print(f"SKIPPED {s['ayah']} {s['loc']}: {s['reason']}")
-    for (ayah, reason), k in sorted(routine.items()):
-        print(f"SKIPPED {ayah}: {k} segment(s), {reason} (listed in manifest.json)")
+    for reason, k in sorted(routine.items()):
+        print(f"SKIPPED {k} segment(s): {reason} (each listed in manifest.json)")
 
 
 def check_chunk(d, tag, c):
@@ -274,6 +282,40 @@ def check(a):
         print(f'{tag}: {len(result)} chunks checked, {bad} with problems, {sum(v["rows"] for v in result.values())} rows')
 
 
+_SESSIONS = None
+
+
+def usage(runs_dir, agent):
+    """Usage of one Codex agent: run.json when run_codex.py ran it, else the native session whose agent_path is
+    the agent name (agents spawned by a Codex orchestrator). None when neither exists."""
+    global _SESSIONS
+    r = runs_dir / agent.rsplit('/', 1)[1] / 'run.json'
+    if r.exists():
+        x = json.loads(r.read_text())
+        return {'usd': x.get('usd_equivalent', 0), 'requests': x.get('requests', 0),
+                'peak': x.get('max_request_input_tokens') or 0,
+                'completed': bool(x.get('turn_completed')) and not x.get('returncode'), 'via': 'run.json'}
+    if _SESSIONS is None:
+        _SESSIONS = {}
+        for f in (Path.home() / '.codex/sessions').glob('2026/*/*/*.jsonl'):
+            try:
+                with f.open() as h:
+                    meta = json.loads(h.readline()).get('payload', {})
+            except (ValueError, OSError):
+                continue
+            if meta.get('agent_path'):
+                _SESSIONS.setdefault(meta['agent_path'], []).append(f)
+    files = _SESSIONS.get(agent, [])
+    if not files:
+        return None
+    if len(files) > 1:
+        print(f'WARNING {agent}: {len(files)} native sessions; costing the latest')
+    import account  # enrichment/v5
+    rec = account.session(sorted(files)[-1], agent)
+    return {'usd': rec['usd'], 'requests': rec['requests'], 'peak': rec['max_request_input'],
+            'completed': rec['completed'], 'via': 'native session'}
+
+
 def report(a):
     d = run_dir(a.run)
     man = json.loads((d / 'manifest.json').read_text())
@@ -281,15 +323,19 @@ def report(a):
     for tag in sorted(p.name for p in (d / 'out').iterdir()):
         usd = reqs = peak = done = 0
         for c in man['chunks']:
-            r = d / 'runs' / f"v7d_{a.run}_{tag}_c{c['chunk']:02d}" / 'run.json'
-            if r.exists():
-                x = json.loads(r.read_text())
-                done += 1
-                usd += x.get('usd_equivalent', 0)
-                reqs += x.get('requests', 0)
-                peak = max(peak, x.get('max_request_input_tokens') or 0)
-                if not x.get('turn_completed') or x.get('returncode'):
-                    print(f"WARNING {tag} c{c['chunk']:02d}: rc {x.get('returncode')}, completed {x.get('turn_completed')}")
+            agent = f"/root/v7d_{a.run}_{tag}_c{c['chunk']:02d}"
+            x = usage(d / 'runs', agent)
+            if x is None:
+                print(f"WARNING {tag} c{c['chunk']:02d}: no run.json and no native session named {agent}")
+                continue
+            done += 1
+            usd += x['usd']
+            reqs += x['requests']
+            peak = max(peak, x['peak'])
+            if not x['completed']:
+                print(f"WARNING {tag} c{c['chunk']:02d}: did not complete ({x['via']})")
+            if x['peak'] > 120_000:
+                print(f"WARNING {tag} c{c['chunk']:02d}: peak request {x['peak']:,} tokens, over the 120k cap")
         out_chars = sum(len(f.read_text()) for f in (d / 'out' / tag).glob('c*.jsonl'))
         chk = d / 'out' / tag / 'check.json'
         rows_n = sum(v['rows'] for v in json.loads(chk.read_text()).values()) if chk.exists() else '?'
@@ -300,7 +346,9 @@ def report(a):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest='cmd', required=True)
-    p = sub.add_parser('build'); p.add_argument('run'); p.add_argument('--ayat', nargs='+', required=True)
+    p = sub.add_parser('build'); p.add_argument('run'); p.add_argument('--ayat', nargs='+')
+    p.add_argument('--page', help="a frozen page: digest its own ayah (--ayah) and every verse it cites")
+    p.add_argument('--ayah')
     p.add_argument('--models', nargs='+', required=True)
     p.add_argument('--skip-done', metavar='TAG', help='skip segments already digested by this model tag in any run')
     p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--chunk', type=int)

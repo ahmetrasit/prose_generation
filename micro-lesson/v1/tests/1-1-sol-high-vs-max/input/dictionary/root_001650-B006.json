@@ -1,0 +1,425 @@
+{
+  "root_ar": "و س م",
+  "branch_ref": "root_001650/B006",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_001650/tr/output/root_001650_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_001650.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_001650.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_001650/tr/output/root_001650_entry.json",
+      "entry_id": "root_001650/tr",
+      "status": "reviewed",
+      "review_verdict": "pass",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_001650/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Bu kök, fiziksel bir işaret koyma ve ortaya çıkan iz merkezinden; belirtiden kişilik veya durum sezme, toprağı bitkilendiren ilk yağmur, belirlenmiş toplu buluşma, kişide görünen güzellik ve yaprakları boya veren bir bitki anlamlarına açılan çok anlamlı bir yapı gösterir. Dalların çoğu belirgin iz veya belirlenmişlik düşüncesiyle ilişkilendirilebilirken bitki adı daha bağımsız bir adlandırma olarak durur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_001650/B006",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi, yaprakları boyar madde olarak kullanılan bir bitki veya küçük ağaç adını açıkça verir. Dal çerçevesi bitkinin kimliğini kesinleştirmeden yapraklarının boyama işlevini doğru biçimde korur.",
+      "boundary_note": "Dal, boya maddesinin genel adını değil; yaprakları boyama ve saç ya da beden boyası hazırlamada kullanılan belirli bir bitkiyi anlatır."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "bare",
+      "note": "Tanım doğrudan bitki adının yalın anlamını verir; işaretleme, güzellik, yağmur veya toplu buluşma anlamlarından hiçbirini içeri almaz."
+    },
+    "concept_map": {
+      "definition": "Yaprakları renk verici madde sağlayan ve boyama amacıyla kullanılan belirli bir bitki veya küçük ağaçtır. Bitki, özellikle yapraklarından hazırlanan boya işleviyle tanımlanır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Referans, belirli bir bitki veya küçük ağaç türüdür.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Bitkinin yaprakları renk verici madde sağlar ve boyama amacıyla kullanılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Ortak anlatım, belirli bir bitkiyi veya küçük ağacı yapraklarının boya vermesiyle tanımlar. Yapraklardan elde edilen renk verici madde boyama amacıyla kullanılır; dalın ayırt edici noktası bitki ile bu kullanımın birlikte bulunmasıdır.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "yaprakları boya olarak kullanılan bitki",
+      "applicability": "Belirli bitkinin hem bitkisel kimliği hem de yapraklarından boya elde edilmesi birlikte anlatıldığında tam karşılıktır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Bitki olma niteliğini, yaprakların renk vermesini ve boyama kullanımını birlikte korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "boya bitkisi",
+        "usage_role": "contextual",
+        "applicability": "Bitkinin yapraklarından renk verici madde elde edilmesi bağlam içinde zaten açık olduğunda kısa karşılık olarak kullanılabilir.",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Bitkinin boyama amacıyla kullanılan bir renk kaynağı olmasını korur.",
+          "loses": null,
+          "adds": "Yaprak yerine kök, çiçek veya başka bölümleri kullanılan bütün boya bitkilerini kapsayabilir.",
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_024",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yaprakları boya olarak kullanılan bitki veya küçük ağaç"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "çivit",
+        "category": "confusable",
+        "error_profile": {
+          "fit": "displacement",
+          "preserves": "Bitkisel bir boya maddesiyle ilişkili olma yönünü korur.",
+          "loses": "Kaynağın verdiği bitkiyi yalnızca yapraklarının boyama işleviyle tanımlayan ihtiyatlı kapsamı siler.",
+          "adds": "Belirli bir mavi boya maddesini ve onun özel bitkisel kaynağını doğrulanmadan ekler.",
+          "collision": "Başka boya bitkileri ve hazır boya maddeleriyle karışır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_001284/B005",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Yaprakları boya sağlayan bu belirli bitkiyi adlandırır.",
+        "neighbor_only": "Başka bir boya bitkisini, onun kına veya odak bitkiyle karıştırılmasını ve kırmızı ya da siyah renk sonucunu kapsar.",
+        "gloss": "karışımlarda kullanılan başka bir boya bitkisi",
+        "shared_zone": "Her iki dal, yaprak veya bitki maddesi boyama amacıyla kullanılan bir boya bitkisini anlatır.",
+        "distinction": "Ortak kullanım alanına rağmen iki dal farklı bitki adlarıdır; komşu dal karışım ve renk sonucu ayrıntılarıyla, odak dal ise kendi yapraklarının boya vermesiyle tanımlanır."
+      },
+      {
+        "neighbor_ref": "root_000350/B012",
+        "relation_type": "thematic",
+        "boundary_match": "thematic_only",
+        "focus_only": "Yaprakları doğrudan boya veren temel bitkiyi adlandırır.",
+        "neighbor_only": "Ekşi yapraklı başka bir bitkiyi ve onun odak bitkiyle karıştırılarak kullanılmasını adlandırır.",
+        "gloss": "boya karışımına katılan ekşi yapraklı bitki",
+        "shared_zone": "İki bitki aynı boyama hazırlığında bir araya getirilebilir.",
+        "distinction": "Anlamsal çekirdekleri ortak değildir; ilişki, komşu bitkinin odak bitkiyle birlikte boya hazırlığında kullanılmasından doğan kullanım ortaklığıdır."
+      },
+      {
+        "neighbor_ref": "root_000329/B006",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Yaprakları renk kaynağı olan belirli bir bitkiyi adlandırır.",
+        "neighbor_only": "Safran ve benzeri sarı renk veren boya maddelerini adlandırır.",
+        "gloss": "sarı renk veren boya maddesi",
+        "shared_zone": "Her iki dal da bitkisel kökenli olabilen ve nesnelere renk vermede kullanılan maddeler alanındadır.",
+        "distinction": "Odak dal boya sağlayan bitkinin kendisini yapraklarıyla tanımlar; komşu dal ise belirli sarı boya maddelerini adlandırır."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; başka bir boya bitkisi, karışıma katılan bitki ve sarı boya maddesiyle yapılan karşılaştırmalar bitki kimliği ile kullanım alanını yeterince sınırlar.",
+    "branch_image_ar": "وسمة يخضب بورقها",
+    "what_is_ar": "يدخل فيه الوسم أو الوسمة اسم شجرة أو نبات ورقه خضاب، والعظلم الذي يختضب به.",
+    "what_is_not_ar": "لا يدخل فيه فعل الوسم بالكي أو العلامة، ولا الوسامة بمعنى الجمال، ولا الوسمي المطر.",
+    "source_phrase_ar": "الوسم والوسمة الواحدة شجرة ورقها خضاب (ayn;tahdhib)؛ الوسمة والعظلم يختضب به (sihah)",
+    "sources": [
+      "AY",
+      "SI",
+      "TA"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_001650",
+    "branch_id": "B006",
+    "branch_image_ar": "وسمة يخضب بورقها",
+    "what_is_ar": "يدخل فيه الوسم أو الوسمة اسم شجرة أو نبات ورقه خضاب، والعظلم الذي يختضب به.",
+    "what_is_not_ar": "لا يدخل فيه فعل الوسم بالكي أو العلامة، ولا الوسامة بمعنى الجمال، ولا الوسمي المطر.",
+    "source_phrase_ar": "الوسم والوسمة الواحدة شجرة ورقها خضاب (ayn;tahdhib)؛ الوسمة والعظلم يختضب به (sihah)",
+    "image_transliteration": "wsmh ykhdb bwrqha",
+    "summary": "Yaprakları renk verici madde sağlayan ve boyama amacıyla kullanılan belirli bir bitki veya küçük ağaçtır. Bitki, özellikle yapraklarından hazırlanan boya işleviyle tanımlanır.",
+    "concept_map": {
+      "definition": "Yaprakları renk verici madde sağlayan ve boyama amacıyla kullanılan belirli bir bitki veya küçük ağaçtır. Bitki, özellikle yapraklarından hazırlanan boya işleviyle tanımlanır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Referans, belirli bir bitki veya küçük ağaç türüdür.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Bitkinin yaprakları renk verici madde sağlar ve boyama amacıyla kullanılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi, yaprakları boyar madde olarak kullanılan bir bitki veya küçük ağaç adını açıkça verir. Dal çerçevesi bitkinin kimliğini kesinleştirmeden yapraklarının boyama işlevini doğru biçimde korur.",
+      "boundary_note": "Dal, boya maddesinin genel adını değil; yaprakları boyama ve saç ya da beden boyası hazırlamada kullanılan belirli bir bitkiyi anlatır."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "bare",
+      "note": "Tanım doğrudan bitki adının yalın anlamını verir; işaretleme, güzellik, yağmur veya toplu buluşma anlamlarından hiçbirini içeri almaz."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "bare",
+      "has_non_bare": false,
+      "has_collocation": false,
+      "unit_kind_counts": {
+        "form": 1
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_024",
+        "expression_ar": "الوَسْمَة",
+        "unit_kind": "form",
+        "sense_ar": "شجرة أو نبات ورقه خضاب يستعمل للصبغ",
+        "target_gloss": "yaprakları boya olarak kullanılan bitki veya küçük ağaç",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Ortak anlatım, belirli bir bitkiyi veya küçük ağacı yapraklarının boya vermesiyle tanımlar. Yapraklardan elde edilen renk verici madde boyama amacıyla kullanılır; dalın ayırt edici noktası bitki ile bu kullanımın birlikte bulunmasıdır.",
+      "evidence_refs": [
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 3,
+      "passage_count": 3,
+      "sources": [
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Yaprakları renk verici madde sağlayan ve boyama amacıyla kullanılan belirli bir bitki veya küçük ağaçtır. Bitki, özellikle yapraklarından hazırlanan boya işleviyle tanımlanır.",
+      "concept": {
+        "rank": 1,
+        "text": "yaprakları boya olarak kullanılan bitki",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Belirli bitkinin hem bitkisel kimliği hem de yapraklarından boya elde edilmesi birlikte anlatıldığında tam karşılıktır.",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bitki olma niteliğini, yaprakların renk vermesini ve boyama kullanımını birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "boya bitkisi",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bitkinin yapraklarından renk verici madde elde edilmesi bağlam içinde zaten açık olduğunda kısa karşılık olarak kullanılabilir.",
+          "facet_ids": [
+            "F001",
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Bitkinin boyama amacıyla kullanılan bir renk kaynağı olmasını korur.",
+            "loses": null,
+            "adds": "Yaprak yerine kök, çiçek veya başka bölümleri kullanılan bütün boya bitkilerini kapsayabilir.",
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "çivit",
+          "category": "confusable",
+          "exclusion_reason": "Kaynağın verdiği bitkiyi yalnızca yapraklarının boyama işleviyle tanımlayan ihtiyatlı kapsamı siler. Belirli bir mavi boya maddesini ve onun özel bitkisel kaynağını doğrulanmadan ekler. Başka boya bitkileri ve hazır boya maddeleriyle karışır.",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Bitkisel bir boya maddesiyle ilişkili olma yönünü korur.",
+            "loses": "Kaynağın verdiği bitkiyi yalnızca yapraklarının boyama işleviyle tanımlayan ihtiyatlı kapsamı siler.",
+            "adds": "Belirli bir mavi boya maddesini ve onun özel bitkisel kaynağını doğrulanmadan ekler.",
+            "collision": "Başka boya bitkileri ve hazır boya maddeleriyle karışır."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_001284",
+        "neighbor_branch_id": "B005",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Yaprakları boya sağlayan bu belirli bitkiyi adlandırır.",
+        "neighbor_only": "Başka bir boya bitkisini, onun kına veya odak bitkiyle karıştırılmasını ve kırmızı ya da siyah renk sonucunu kapsar.",
+        "expression_transliteration": "nbat alsbgh alktm",
+        "gloss": "karışımlarda kullanılan başka bir boya bitkisi",
+        "shared_zone": "Her iki dal, yaprak veya bitki maddesi boyama amacıyla kullanılan bir boya bitkisini anlatır.",
+        "distinction": "Ortak kullanım alanına rağmen iki dal farklı bitki adlarıdır; komşu dal karışım ve renk sonucu ayrıntılarıyla, odak dal ise kendi yapraklarının boya vermesiyle tanımlanır.",
+        "expression_ar": "نبات الصبغ الكتم",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:3050",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A3743:headword=%D9%83%D8%AA%D9%85:root=%D9%83%20%D8%AA%20%D9%85:sha=07a012ad749a1854",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1025%3Asubentry%3A1%3A%D9%83%D8%AA%D9%85:headword=%D9%83%D8%AA%D9%85:root=%D9%83%20%D8%AA%20%D9%85:sha=fed494825a934053",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4684:headword=%D9%83%D8%AA%D9%85:root=%D9%83%20%D8%AA%20%D9%85:sha=8a5afc09dae971d2",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D516%3Bsegment_index%3D179:headword=%D9%83%D8%AA%D9%85:root=%D9%83%20%D8%AA%20%D9%85:sha=036dc921b9152ef1"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000350",
+        "neighbor_branch_id": "B012",
+        "relation_type": "thematic",
+        "boundary_match": "thematic_only",
+        "focus_only": "Yaprakları doğrudan boya veren temel bitkiyi adlandırır.",
+        "neighbor_only": "Ekşi yapraklı başka bir bitkiyi ve onun odak bitkiyle karıştırılarak kullanılmasını adlandırır.",
+        "expression_transliteration": "nbat alhlq",
+        "gloss": "boya karışımına katılan ekşi yapraklı bitki",
+        "shared_zone": "İki bitki aynı boyama hazırlığında bir araya getirilebilir.",
+        "distinction": "Anlamsal çekirdekleri ortak değildir; ilişki, komşu bitkinin odak bitkiyle birlikte boya hazırlığında kullanılmasından doğan kullanım ortaklığıdır.",
+        "expression_ar": "نبات الحلق",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1388:headword=%D8%AD%D9%84%D9%82:root=%D8%AD%20%D9%84%20%D9%82:sha=817e8acf54a72382"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000329",
+        "neighbor_branch_id": "B006",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Yaprakları renk kaynağı olan belirli bir bitkiyi adlandırır.",
+        "neighbor_only": "Safran ve benzeri sarı renk veren boya maddelerini adlandırır.",
+        "expression_transliteration": "alhs llwrs walz'fran",
+        "gloss": "sarı renk veren boya maddesi",
+        "shared_zone": "Her iki dal da bitkisel kökenli olabilen ve nesnelere renk vermede kullanılan maddeler alanındadır.",
+        "distinction": "Odak dal boya sağlayan bitkinin kendisini yapraklarıyla tanımlar; komşu dal ise belirli sarı boya maddelerini adlandırır.",
+        "expression_ar": "الحُصّ للورس والزعفران",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1345:headword=%D8%AD%D8%B5:root=%D8%AD%20%D8%B5:sha=37f856c5770075ae",
+          "maqayis:root=%D8%AD%20%D8%B5:headword=%D8%AD%D8%B5:sha=b4e19db0f6f58e34",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A2538:headword=%D8%AD%D8%B5%D8%B5:root=%D8%AD%20%D8%B5%20%D8%B5:sha=b3c56716a911ce5c",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D221%3Bsegment_index%3D4:headword=%D8%AD%D8%B5:root=%D8%AD%20%D8%B5:sha=b0094e47968350d9"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 13,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; başka bir boya bitkisi, karışıma katılan bitki ve sarı boya maddesiyle yapılan karşılaştırmalar bitki kimliği ile kullanım alanını yeterince sınırlar."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_001650/B006",
+    "concept_gloss": {
+      "text": "yaprakları boya veren bitki veya küçük ağaç",
+      "facet_ids": [
+        "F001",
+        "F002"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [],
+    "lexical_glosses": {
+      "lu_024": {
+        "text": "yaprakları boya olarak kullanılan bitki veya küçük ağaç",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    }
+  }
+}

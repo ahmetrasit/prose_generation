@@ -1,0 +1,5099 @@
+{
+  "version": "1.1.0",
+  "status": "authored-for-defined-scope",
+  "scope": "Quranic Arabic reading through Turkish commentary: reading distinctions, morphology, syntax, discourse, lexical semantics and Arabic–Turkish mapping. Not a tajwid certification, Arabic composition course, or theological ontology.",
+  "annotation_model": "Multiple direct concept annotations per lesson, across topics and parents. Broader is pedagogical inclusion; requires/helped_by are separate learning relations. No ancestor annotation or mastery is inferred.",
+  "example_policy": "Concept examples are illustrative teaching examples, not new verse quotations. Production lessons require their supplied paragraph evidence. Pattern placeholders and invented gloss comparisons are not Quran quotations.",
+  "sources": [
+    {
+      "label": "QAC morphology inventory",
+      "path": "https://corpus.quran.com/documentation/morphologicalfeatures.jsp"
+    },
+    {
+      "label": "QAC parts of speech",
+      "path": "https://corpus.quran.com/documentation/tagset.jsp"
+    },
+    {
+      "label": "QAC syntax inventory",
+      "path": "https://corpus.quran.com/documentation/grammar.jsp"
+    },
+    {
+      "label": "Dictionary branch and gloss contracts",
+      "path": "../dictionary/v2/schema/encyclopedia-entry.schema.json"
+    },
+    {
+      "label": "Reviewed Turkish gloss profiles",
+      "path": "../dictionary/v2/gloss_generation/README.md"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ML:T001",
+      "keyword": "foundations",
+      "label_tr": "Okumaya hazırlık",
+      "definition": "Arapça bilmeden ilk gözlemleri yapmaya yardım eden okuma ayrımları.",
+      "parents": []
+    },
+    {
+      "id": "ML:T002",
+      "keyword": "grammar",
+      "label_tr": "Dilbilgisi",
+      "definition": "Kelime biçimleri ile cümledeki görevleri anlamayı sağlayan dilbilgisi becerileri.",
+      "parents": []
+    },
+    {
+      "id": "ML:T003",
+      "keyword": "semantics",
+      "label_tr": "Kök, biçim ve anlam",
+      "definition": "Kök, kelime, anlam dalı ve bağlam arasındaki belgeli ilişkileri okuma.",
+      "parents": []
+    },
+    {
+      "id": "ML:T004",
+      "keyword": "mapping",
+      "label_tr": "Türkçe anlam eşleştirme",
+      "definition": "Arapça kullanımın anlamını Türkçe karşılıkların olanak ve sınırlarıyla anlama.",
+      "parents": []
+    },
+    {
+      "id": "ML:T005",
+      "keyword": "word_structure",
+      "label_tr": "Kelimenin yapısı",
+      "definition": "Yazılı kelimenin anlam parçalarını, gövdesini ve kuruluşunu ayırma.",
+      "parents": [
+        "ML:T002"
+      ]
+    },
+    {
+      "id": "ML:T006",
+      "keyword": "sentence_relations",
+      "label_tr": "Cümlede ilişkiler",
+      "definition": "İsim, fiil, öbek ve cümlelerin birbirine nasıl bağlandığını izleme.",
+      "parents": [
+        "ML:T002"
+      ]
+    },
+    {
+      "id": "ML:T007",
+      "keyword": "endings",
+      "label_tr": "Son sesler ve görev",
+      "definition": "Son ses veya harflerin gösterdiği isim durumu ve çekim ayrımları.",
+      "parents": [
+        "ML:T002"
+      ]
+    },
+    {
+      "id": "ML:T008",
+      "keyword": "discourse",
+      "label_tr": "Söyleyiş ve cümle işlevi",
+      "definition": "Cümle yapısının hitap, vurgu ve metin akışı içindeki işini anlama.",
+      "parents": [
+        "ML:T002"
+      ]
+    },
+    {
+      "id": "ML:T009",
+      "keyword": "roots",
+      "label_tr": "Kök ve akrabalık",
+      "definition": "Kök kimliği, kelime ailesi ve anlam dallarının bağlantılarını sınırlarıyla tanıma.",
+      "parents": [
+        "ML:T003"
+      ]
+    },
+    {
+      "id": "ML:T010",
+      "keyword": "forms",
+      "label_tr": "Biçim ve türetim",
+      "definition": "Kök üzerinde kurulan biçimleri gerçek kullanımlarıyla karşılaştırma.",
+      "parents": [
+        "ML:T003"
+      ]
+    },
+    {
+      "id": "ML:T011",
+      "keyword": "usage",
+      "label_tr": "Bağlam ve kullanım",
+      "definition": "Bir kelimenin sözlük kapsamını belirli cümledeki etkin anlamından ayırma.",
+      "parents": [
+        "ML:T003"
+      ]
+    },
+    {
+      "id": "ML:T012",
+      "keyword": "gloss_fit",
+      "label_tr": "Karşılıkların anlam kapsamı",
+      "definition": "Türkçe karşılığın anlam kapsamını Arapça kullanımla karşılaştırma.",
+      "parents": [
+        "ML:T004"
+      ]
+    },
+    {
+      "id": "ML:T013",
+      "keyword": "loanword_history",
+      "label_tr": "Ödünç kelimeler ve anlam tarihi",
+      "definition": "Ödünç kelimenin bugünkü etkisini belgeli tarihsel değişimden ayırma.",
+      "parents": [
+        "ML:T004"
+      ]
+    },
+    {
+      "id": "ML:T014",
+      "keyword": "script",
+      "label_tr": "Yazı ve okunuş",
+      "definition": "Harf, ses ve yazımın anlamı izlemeye yarayan ayrımları.",
+      "parents": [
+        "ML:T001"
+      ]
+    },
+    {
+      "id": "ML:T015",
+      "keyword": "nominal_morphology",
+      "label_tr": "İsimlerin biçimi",
+      "definition": "İsimlerde sayı, cinsiyet, belirlilik ve çekim.",
+      "parents": [
+        "ML:T002"
+      ]
+    },
+    {
+      "id": "ML:T016",
+      "keyword": "pronouns",
+      "label_tr": "Zamirler ve gönderim",
+      "definition": "Kişi, işaret ve bağlama zamirlerinin gösterdiği unsur.",
+      "parents": [
+        "ML:T002",
+        "ML:T008"
+      ]
+    },
+    {
+      "id": "ML:T017",
+      "keyword": "verb_inflection",
+      "label_tr": "Fiil çekimi",
+      "definition": "Fiillerde kişi, görünüş, kip ve çatı.",
+      "parents": [
+        "ML:T002"
+      ]
+    },
+    {
+      "id": "ML:T018",
+      "keyword": "verb_patterns",
+      "label_tr": "Fiil kalıpları",
+      "definition": "Üçlü ve dörtlü köklerin belgeli kalıp karşılaştırmaları.",
+      "parents": [
+        "ML:T010",
+        "ML:T002"
+      ]
+    },
+    {
+      "id": "ML:T019",
+      "keyword": "derived_nominals",
+      "label_tr": "Türemiş isimler",
+      "definition": "Fiille ilişkili isim ve nitelik kalıpları.",
+      "parents": [
+        "ML:T010",
+        "ML:T015"
+      ]
+    },
+    {
+      "id": "ML:T020",
+      "keyword": "clause_structure",
+      "label_tr": "Cümlenin kuruluşu",
+      "definition": "Yüklem, özne, nesne ve cümle türleri.",
+      "parents": [
+        "ML:T006"
+      ]
+    },
+    {
+      "id": "ML:T021",
+      "keyword": "complements",
+      "label_tr": "Tamlayıcılar ve zarflar",
+      "definition": "Eyleme bağlanan nesne, durum, zaman ve amaç bilgileri.",
+      "parents": [
+        "ML:T006"
+      ]
+    },
+    {
+      "id": "ML:T022",
+      "keyword": "complex_clauses",
+      "label_tr": "Birleşik yapılar",
+      "definition": "Şart, bağlama, yan cümle ve aktarılan söz.",
+      "parents": [
+        "ML:T006",
+        "ML:T008"
+      ]
+    },
+    {
+      "id": "ML:T023",
+      "keyword": "particles",
+      "label_tr": "Edat ve bağlayıcı işlevleri",
+      "definition": "Küçük kelimelerin cümleye kattığı farklı ilişkiler.",
+      "parents": [
+        "ML:T002",
+        "ML:T008"
+      ]
+    },
+    {
+      "id": "ML:T024",
+      "keyword": "pragmatics",
+      "label_tr": "Sözün bağlamdaki işi",
+      "definition": "Vurgu, kısıtlama, hitap ve söylem akışı.",
+      "parents": [
+        "ML:T008"
+      ]
+    },
+    {
+      "id": "ML:T025",
+      "keyword": "semantic_relations",
+      "label_tr": "Anlam ilişkileri",
+      "definition": "Anlam dalları, yakınlıklar ve sözcük birleşimleri.",
+      "parents": [
+        "ML:T003"
+      ]
+    },
+    {
+      "id": "ML:T026",
+      "keyword": "gloss_profiles",
+      "label_tr": "Türkçe karşılık profilleri",
+      "definition": "Bir glossun koruduğu ve değiştirdiği anlam yönleri.",
+      "parents": [
+        "ML:T004",
+        "ML:T011"
+      ]
+    },
+    {
+      "id": "ML:T027",
+      "keyword": "translation_structure",
+      "label_tr": "Türkçeye yapı aktarımı",
+      "definition": "Arapça biçim ve ilişkilerin doğal Türkçede görünmesi.",
+      "parents": [
+        "ML:T004",
+        "ML:T002"
+      ]
+    },
+    {
+      "id": "ML:T028",
+      "keyword": "evidence",
+      "label_tr": "Dilsel dayanağı okuma",
+      "definition": "Kaynakta söylenen ile yorum ve olasılığı ayırma.",
+      "parents": [
+        "ML:T003",
+        "ML:T004"
+      ]
+    },
+    {
+      "id": "ML:T029",
+      "keyword": "figurative",
+      "label_tr": "İmge ve dolaylı anlatım",
+      "definition": "Benzetme ve dolaylı anlatımın yerel dayanağı.",
+      "parents": [
+        "ML:T003",
+        "ML:T008"
+      ]
+    },
+    {
+      "id": "ML:T030",
+      "keyword": "numbers",
+      "label_tr": "Sayı ve nicelik",
+      "definition": "Sayı ifadeleri ve sayılan adla ilişkileri.",
+      "parents": [
+        "ML:T015",
+        "ML:T006"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "ML:C001",
+      "keyword": "word_parts",
+      "label_tr": "Kelimenin parçaları",
+      "definition": "Bir yazılı kelimede gövde ile eklenen parçaları ayırt etme.",
+      "topics": [
+        "ML:T005"
+      ],
+      "intro_tr": "Arapçada tek yazılan bir kelime birkaç anlam parçası taşıyabilir. Önüne veya sonuna eklenen parçaları ayırmak, kelimenin cümlede ne yaptığını görmeyi kolaylaştırır.",
+      "example_tr": "bi-ism ifadesinde bi- ile ism ayrı görevler taşır.",
+      "boundary_tr": "Yazılı kelimeyi anlam parçalarına ayırırken kullan; her parçayı kök harfi sayma."
+    },
+    {
+      "id": "ML:C002",
+      "keyword": "short_vowels",
+      "label_tr": "Kısa sesler ve harekeler",
+      "definition": "Kısa ünlü işaretlerini kelimenin harflerinden ayırma.",
+      "topics": [
+        "ML:T001"
+      ],
+      "intro_tr": "Harekeler, harflerin çevresindeki küçük ses işaretleridir. Kelimenin sonundaki hareke de okumaya ve bazen cümledeki göreve dair bilgi verir.",
+      "example_tr": "بِ içindeki küçük alt işaret, bi okunuşundaki kısa i sesini gösterir.",
+      "boundary_tr": "Hareke tanımayı etiketle; transliterasyondaki bir son sesi anlamak için bunu otomatik önkoşul yapma.",
+      "aliases": [
+        "hareke",
+        "fetha",
+        "kesre",
+        "damme"
+      ]
+    },
+    {
+      "id": "ML:C003",
+      "keyword": "noun_verb_particle",
+      "label_tr": "İsim, fiil ve edat",
+      "definition": "Adlandıran, bir oluş/eylem bildiren ve ilişki kuran ifadeleri ayırt etme.",
+      "topics": [
+        "ML:T005"
+      ],
+      "intro_tr": "İsim bir şeyi adlandırır; fiil bir oluşu veya eylemi bildirir. Edatlar ise kelimeler arasında ilişki kurmaya yardım eder.",
+      "example_tr": "İsm bir ad, naʿbüdü bir fiil, bi- ise bir ilişki kuran edattır.",
+      "boundary_tr": "Üç temel sınıf ayrımı içindir; belirli bir edat işlevini ayrıca etiketle."
+    },
+    {
+      "id": "ML:C004",
+      "keyword": "preposition",
+      "label_tr": "Edatın kurduğu ilişki",
+      "definition": "Edatın anlamını bağlamdaki ilişki üzerinden tanıma.",
+      "topics": [
+        "ML:T006"
+      ],
+      "intro_tr": "Küçük bir edat, iki ifade arasında araç, yön veya başka bir ilişki kurabilir. Türkçe karşılığını seçerken bu ilişkide ne yaptığını izleriz.",
+      "example_tr": "Bismi ifadesindeki bi-, burada adıyla karşılığında görünür.",
+      "boundary_tr": "Edatın yerel ilişkisi içindir; bütün edatları Türkçe bir ekle özdeşleştirme."
+    },
+    {
+      "id": "ML:C005",
+      "keyword": "case_endings",
+      "label_tr": "Kelime sonu ve cümledeki görev",
+      "definition": "İsim sonlarının cümledeki göreve göre değişebileceğini tanıma.",
+      "topics": [
+        "ML:T007"
+      ],
+      "intro_tr": "Arapçada bazı isimlerin sonundaki ses, cümledeki görevleriyle birlikte değişir. Aynı kelimenin farklı sonlarla görünmesi her zaman yeni bir kelime olduğu anlamına gelmez.",
+      "example_tr": "İsmü, isme ve ismi biçimlerinde son ses değişebilir; kök bundan dolayı değişmez.",
+      "boundary_tr": "İsim çekimi içindir; fiil kipini ve türetimi ayır.",
+      "helped_by": [
+        "ML:C002"
+      ],
+      "aliases": [
+        "i‘rab",
+        "الإعراب"
+      ]
+    },
+    {
+      "id": "ML:C006",
+      "keyword": "genitive_after_preposition",
+      "label_tr": "Edattan sonra isim",
+      "definition": "Cer edatının ardından gelen ismin cer durumunu tanıma; her cer işaretini kesreye indirgememe.",
+      "topics": [
+        "ML:T006"
+      ],
+      "intro_tr": "Cer edatından sonra gelen isim cer durumundadır; bu, birçok isimde son sesin -i olmasıyla görünür. İşaret her isim türünde aynı değildir.",
+      "example_tr": "Bi-ism birleşimindeki ism, edatın ardından cer durumundadır.",
+      "boundary_tr": "Cer edatı etkisi içindir; tamlamadan doğan cerri ayrı etiketle.",
+      "helped_by": [
+        "ML:C004",
+        "ML:C005"
+      ],
+      "aliases": [
+        "harf-i cer"
+      ]
+    },
+    {
+      "id": "ML:C007",
+      "keyword": "definiteness",
+      "label_tr": "Belirli bir şeyi gösterme",
+      "definition": "Belirliliğin bağlamda hangi varlığa işaret ettiğini tanıma.",
+      "topics": [
+        "ML:T006"
+      ],
+      "intro_tr": "Bir ifade bazen herhangi bir şeyi, bazen de belirli bir şeyi gösterir. Arapçadaki belirlilik işaretinin Türkçede ayrı bir kelime olarak görünmesi gerekmez.",
+      "example_tr": "El-kitâb ifadesindeki el-, adın belirli kullanımını işaretler.",
+      "boundary_tr": "Belirlilik içindir; her el- için aynı Türkçe işaret sözcüğünü gerektirme."
+    },
+    {
+      "id": "ML:C008",
+      "keyword": "attached_pronoun",
+      "label_tr": "Kelimeye eklenen zamir",
+      "definition": "Ekli zamirin bağlamdaki kişi ve görevini belirleme.",
+      "topics": [
+        "ML:T005"
+      ],
+      "intro_tr": "Kelimenin sonuna eklenen küçük bir parça, kimi zaman “biz”, “bizi” veya “bizim” gibi bir kişi bilgisini taşır. Türkçe karşılığı, hangi kelimeye ve nasıl bağlandığına göre belirlenir.",
+      "example_tr": "Rabbike içindeki -ke, senin; ihdinâ içindeki -nâ, bizi ilişkisine katılır.",
+      "boundary_tr": "Ekli zamiri etiketle; biçimdeki her nâ parçasına aynı cümle görevini verme.",
+      "helped_by": [
+        "ML:C001"
+      ]
+    },
+    {
+      "id": "ML:C009",
+      "keyword": "person_number",
+      "label_tr": "Kişi ve sayı",
+      "definition": "Konuşan, muhatap ve anılan kişiyi; tekil, ikil ve çoğulu ayırt etme.",
+      "topics": [
+        "ML:T005"
+      ],
+      "intro_tr": "Arapça ifadeler kimin konuştuğunu veya eylemi kimin yaptığını gösterebilir. Bir kişi, iki kişi ve daha çok kişi arasındaki fark da kelimenin biçiminde görülebilir.",
+      "example_tr": "Naʿbüdü ifadesinde konuşan kişi bizdir; tek bir kişi okumaya devam etse de biçim çoğuldur.",
+      "boundary_tr": "Kişi ve sayı ayrımı içindir; çoğulun söylemdeki amacını ayrıca ele al."
+    },
+    {
+      "id": "ML:C010",
+      "keyword": "noun_adjective",
+      "label_tr": "İsim ve sıfat",
+      "definition": "Niteleyici ifadenin hangi isme bağlandığını izleme.",
+      "topics": [
+        "ML:T006",
+        "ML:T015"
+      ],
+      "intro_tr": "Sıfat, bir ismin niteliğini söyler. Önce hangi ismi nitelediğini bulmak, iki kelimeyi birlikte anlamayı kolaylaştırır.",
+      "example_tr": "Es-sırâta el-müstakîme birleşiminde ikinci kelime yolu niteler.",
+      "boundary_tr": "Niteleme ilişkisi içindir; isim tamlaması ve yüklem sıfatından ayır.",
+      "helped_by": [
+        "ML:C003"
+      ]
+    },
+    {
+      "id": "ML:C011",
+      "keyword": "idafa",
+      "label_tr": "İsim tamlaması",
+      "definition": "İki isim arasındaki tamlama ilişkisini tanıma.",
+      "topics": [
+        "ML:T006"
+      ],
+      "intro_tr": "İki isim bir tamlama içinde birbirini tamamlayabilir. Aralarındaki ilişkiyi bağlama göre “...ın ...ı” gibi bir Türkçe ifadeyle karşılarız.",
+      "example_tr": "İsmi llâh ifadesi Allah’ın adı ilişkisini kurar.",
+      "boundary_tr": "İsimler arasındaki tamlama içindir; ilişkinin mutlaka mülkiyet olduğunu söyleme.",
+      "helped_by": [
+        "ML:C003"
+      ],
+      "aliases": [
+        "izafet",
+        "إضافة"
+      ]
+    },
+    {
+      "id": "ML:C012",
+      "keyword": "verbal_sentence",
+      "label_tr": "Fiil ve katılanlar",
+      "definition": "Fiilin özne ve nesne gibi katılanlarla ilişkisini izleme.",
+      "topics": [
+        "ML:T006"
+      ],
+      "intro_tr": "Bir eylemi okurken kimin yaptığını ve kim ya da ne üzerinde gerçekleştiğini sorabiliriz. Bu bilgiler bazen ayrı kelimelerle, bazen fiilin içindeki parçalarla verilir.",
+      "example_tr": "Naʿbüdü fiilinde yapan bizdir; iyyâke ifadesi yönelinen muhatabı gösterir.",
+      "boundary_tr": "Fiille katılan ilişkisi içindir; ayrıntılı özne/nesne dersini özgül kavramla işaretle.",
+      "helped_by": [
+        "ML:C003"
+      ]
+    },
+    {
+      "id": "ML:C013",
+      "keyword": "imperative_request",
+      "label_tr": "Emir biçimi ve rica",
+      "definition": "Fiilin dilbilgisel biçimi ile konuşma işlevini ayırt etme.",
+      "topics": [
+        "ML:T008"
+      ],
+      "intro_tr": "Emir biçimindeki bir fiil her durumda buyurma anlamı taşımaz. Kimin kime söylediğine göre istek veya dua işlevi de görebilir.",
+      "example_tr": "İhdinâ emir biçimindedir; Fâtiha’daki hitapta dua olarak kullanılır.",
+      "boundary_tr": "Dilbilgisel emir ile dua/rica ayrımı içindir; her emri dua sayma.",
+      "helped_by": [
+        "ML:C091"
+      ]
+    },
+    {
+      "id": "ML:C014",
+      "keyword": "negation",
+      "label_tr": "Olumsuzluk",
+      "definition": "Olumsuzluk ifadesinin kapsamını bağlamdan belirleme.",
+      "topics": [
+        "ML:T008"
+      ],
+      "intro_tr": "Olumsuzluk bildiren parçayı bulduktan sonra neyi olumsuzladığına bakarız. Bazen bütün yargı, bazen belirli bir unsur öne çıkar.",
+      "example_tr": "Lâ taḳnaṭû ifadesinde olumsuzluk bir yasaklama içinde yer alır.",
+      "boundary_tr": "Olumsuzluğun kapsamı içindir; olumsuz bildirim ile yasaklamayı ayır."
+    },
+    {
+      "id": "ML:C015",
+      "keyword": "word_order",
+      "label_tr": "Kelime sırası",
+      "definition": "Öne alma gibi sıralama değişikliklerinin yerel işlevini tanıma.",
+      "topics": [
+        "ML:T008"
+      ],
+      "intro_tr": "Bir kelimenin öne gelmesi, okuyucunun dikkatini ona yöneltebilir. Bunun vurguya veya sınırlamaya katkısını cümlenin tamamıyla birlikte değerlendiririz.",
+      "example_tr": "İyyâke naʿbüdü ifadesinde nesne fiilden önce gelir.",
+      "boundary_tr": "Sıra ve yerel etkisi içindir; her öne almanın zorunlu kısıtlama olduğunu söyleme.",
+      "helped_by": [
+        "ML:C138"
+      ],
+      "aliases": [
+        "takdim",
+        "tehir"
+      ]
+    },
+    {
+      "id": "ML:C016",
+      "keyword": "root_word",
+      "label_tr": "Kök ile kelime farkı",
+      "definition": "Kökü somut kelimeden ve onun bütün anlamından ayırma.",
+      "topics": [
+        "ML:T009"
+      ],
+      "intro_tr": "Kök, bir kelime ailesini tanımaya yardım eder; kelimenin kendisi değildir. Kelimenin buradaki anlamını biçimi ve kullanıldığı cümleyle birlikte belirleriz.",
+      "example_tr": "k-t-b bir kök gösterimidir; kitâb ise bu ailedeki belirli bir kelimedir.",
+      "boundary_tr": "Kök ve kelime ayrımı içindir; sözlükteki bütün anlamları tek kullanıma yükleme."
+    },
+    {
+      "id": "ML:C017",
+      "keyword": "root_pattern",
+      "label_tr": "Kök ile kalıp farkı",
+      "definition": "Kök harfleri ile kelimeyi biçimlendiren kalıbı ayırt etme.",
+      "topics": [
+        "ML:T010"
+      ],
+      "intro_tr": "Kök ile kalıp farklı şeylerdir: kök akraba kelimeleri ilişkilendirir, kalıp kelimenin nasıl kurulduğunu gösterir. Anlamı görmek için ikisini kullanım bağlamıyla birlikte okuruz.",
+      "example_tr": "ʿÂlim ile maʿlûm, ʿ-l-m harflerini paylaşır; kelimelerin kuruluşları farklıdır.",
+      "boundary_tr": "Kök/kalıp ayrımı içindir; tek bir kalıbın katkısını özgül kavramla da işaretle.",
+      "helped_by": [
+        "ML:C016"
+      ],
+      "aliases": [
+        "vezin",
+        "sarf kalıbı"
+      ]
+    },
+    {
+      "id": "ML:C018",
+      "keyword": "semantic_branch",
+      "label_tr": "Kökün anlam dalları",
+      "definition": "Bir kökün farklı kullanımlarını birbirine karıştırmadan ayırt etme.",
+      "topics": [
+        "ML:T009"
+      ],
+      "intro_tr": "Aynı kökün birden fazla anlam dalı olabilir. Bir ayette hangi dalın kullanıldığını, yalnız köke bakarak değil cümledeki kullanımı izleyerek belirleriz.",
+      "example_tr": "Bir dal genel yol alanını, başka bir dal yalnız belirli bir birleşimin anlamını açıklayabilir.",
+      "boundary_tr": "Sözlük dalı ayrımı içindir; her dalı ayrı tarihsel köken sayma.",
+      "helped_by": [
+        "ML:C016"
+      ]
+    },
+    {
+      "id": "ML:C019",
+      "keyword": "contextual_sense",
+      "label_tr": "Bağlamdaki anlam",
+      "definition": "Bir kelimenin mümkün anlamları ile bu kullanımda etkin anlamını ayırt etme.",
+      "topics": [
+        "ML:T011"
+      ],
+      "intro_tr": "Bir kelimenin sözlükteki bütün anlamları her kullanımda birlikte bulunmaz. Bu cümlede hangi anlamın işlediğini çevresindeki ifadeler gösterir.",
+      "example_tr": "Bir karşılık bu cümlede uygunken aynı kelimenin başka kullanımında yetersiz kalabilir.",
+      "boundary_tr": "Bağlamın anlam seçmesi içindir; belirli kelimenin öğrenilmesini bu genel beceriye indirgeme."
+    },
+    {
+      "id": "ML:C020",
+      "keyword": "derived_forms",
+      "label_tr": "Türemiş biçimleri karşılaştırma",
+      "definition": "Belgelenmiş akraba biçimler arasındaki biçim ve anlam farkını karşılaştırma.",
+      "topics": [
+        "ML:T010"
+      ],
+      "intro_tr": "Aynı kökten kurulan farklı biçimler, anlamı farklı yönlerde geliştirebilir. Kalıbın katkısını görmek için gerçekten kullanılmış kelimeleri karşılaştırırız.",
+      "example_tr": "ʿAlime ile ʿalleme arasındaki biçim farkı, öğrenilen yerel anlam farkıyla birlikte gösterilir.",
+      "boundary_tr": "Belgeli türemiş biçim karşılaştırması içindir; çekim farkını türetim sayma.",
+      "helped_by": [
+        "ML:C017",
+        "ML:C019"
+      ]
+    },
+    {
+      "id": "ML:C021",
+      "keyword": "participle",
+      "label_tr": "Eylem ile nitelik bildiren biçim",
+      "definition": "İsm-i fâil ve ism-i mefûl gibi biçimlerin bağlamdaki görevini tanıma.",
+      "topics": [
+        "ML:T010"
+      ],
+      "intro_tr": "Bazı türemiş kelimeler eylemi yapanı veya eylemden etkileneni niteler. Bu bağlantıyı tanımak, fiil ile ona akraba isimleri birlikte görmeyi sağlar.",
+      "example_tr": "Kâtib yazanı, mektûb yazılanı gösterebilir; kullanım cümlede belirlenir.",
+      "boundary_tr": "İsm-i fâil/mefûl ailesi içindir; mümkünse özgül alt kavramı kullan.",
+      "helped_by": [
+        "ML:C017"
+      ],
+      "aliases": [
+        "ism-i fâil/mefûl ailesi"
+      ]
+    },
+    {
+      "id": "ML:C022",
+      "keyword": "verbal_noun",
+      "label_tr": "Eylemin adı",
+      "definition": "Mastar ile çekimli fiili ayırt etme.",
+      "topics": [
+        "ML:T010"
+      ],
+      "intro_tr": "Bir eylemin adı ile o eylemi bir kişiye bağlayan fiil aynı şey değildir. Mastar, eylemi ad olarak ele almayı sağlar.",
+      "example_tr": "Kitâbe yazma eyleminin adı, ketebe ise çekimli bir fiildir.",
+      "boundary_tr": "Mastar/çekimli fiil ayrımı içindir; mastardan tek başına zaman çıkarma.",
+      "helped_by": [
+        "ML:C003"
+      ],
+      "aliases": [
+        "masdar",
+        "mastar"
+      ]
+    },
+    {
+      "id": "ML:C023",
+      "keyword": "voice",
+      "label_tr": "Yapan ve etkilenen",
+      "definition": "Etken ve edilgen biçimlerin anlatımdaki odağını ayırt etme.",
+      "topics": [
+        "ML:T008"
+      ],
+      "intro_tr": "Bir anlatım eylemi yapanı, başka bir anlatım eylemden etkileneni öne çıkarabilir. Etken ve edilgen biçimleri karşılaştırırken bu görev değişimini izleriz.",
+      "example_tr": "Ketebe ile kütibe karşılaştırmasında yapanın cümlede sunuluşu değişir.",
+      "boundary_tr": "Etken/edilgen karşılaştırması içindir; her öznesiz çeviriyi edilgen sayma.",
+      "helped_by": [
+        "ML:C138"
+      ]
+    },
+    {
+      "id": "ML:C024",
+      "keyword": "attested_relation",
+      "label_tr": "Belgeli kelime akrabalığı",
+      "definition": "Ses benzerliği, kök kimliği ve belgelenmiş türetimi birbirinden ayırma.",
+      "topics": [
+        "ML:T009",
+        "ML:T028"
+      ],
+      "intro_tr": "İki kelimenin birbirine benzemesi aynı kökten geldiklerini kanıtlamaz. Akrabalık kurarken sözlük ve biçim bilgisindeki dayanağa bakarız.",
+      "example_tr": "ʿÂlim ile maʿlûmun akrabalığı harf benzerliğine değil belgeli kök çözümüne dayanır.",
+      "boundary_tr": "Belgeli akrabalık ile benzeşmeyi ayırırken kullan; sadece kök adı vermek yetmez.",
+      "helped_by": [
+        "ML:C016"
+      ]
+    },
+    {
+      "id": "ML:C025",
+      "keyword": "root_image_limits",
+      "label_tr": "Kök imgesi ve sınırları",
+      "definition": "Kök imgesini yardımcı açıklama olarak kullanma; her kullanıma zorlamama.",
+      "topics": [
+        "ML:T009"
+      ],
+      "intro_tr": "Bir kök imgesi, bazı anlamlar arasındaki bağlantıyı görmeye yardım edebilir. Bu imgeyi kökün her kelimesinde zorunlu olarak var saymayız.",
+      "example_tr": "Yol imgesi bir açıklamaya yardım edebilir; her türevin mutlaka yürümek anlamına geldiğini göstermez.",
+      "boundary_tr": "Kök imgesinin sınırı öğretiliyorsa kullan; her imge anılışına ekleme.",
+      "helped_by": [
+        "ML:C018",
+        "ML:C019"
+      ]
+    },
+    {
+      "id": "ML:C026",
+      "keyword": "collocation",
+      "label_tr": "Birlikte kullanılan kelimeler",
+      "definition": "Anlamın belirli bir kelime birleşimine bağlı olabileceğini tanıma.",
+      "topics": [
+        "ML:T011",
+        "ML:T006"
+      ],
+      "intro_tr": "Bazı anlamlar kelime tek başınayken değil, belirli başka kelimelerle birlikte kullanıldığında ortaya çıkar. Böyle bir ifadeyi parçalarına ayırırken birleşimin anlamını koruruz.",
+      "example_tr": "Bir fiilin belirli bir edatla kullanımı, tek başına sözlük karşılığından farklı bir ilişki kurabilir.",
+      "boundary_tr": "Birleşime bağlı anlam içindir; yan yana gelen her iki kelimeyi kalıplaşmış sayma.",
+      "helped_by": [
+        "ML:C019"
+      ]
+    },
+    {
+      "id": "ML:C027",
+      "keyword": "loanword",
+      "label_tr": "Türkçedeki ödünç kelime",
+      "definition": "Tanıdık Türkçe kelime ile Arapça kullanımın anlamlarının ayrı incelenmesi.",
+      "topics": [
+        "ML:T013"
+      ],
+      "intro_tr": "Türkçede tanıdığımız bir Arapça kökenli kelimenin anlamı, Arapçadaki her kullanımı kapsamayabilir. Tanıdıklığı başlangıç noktası olarak kullanıp ayetteki anlamı ayrıca kontrol ederiz.",
+      "example_tr": "Türkçede tanıdık bir dinî terim, ilgili Arapça dalın bütün kapsamını taşımayabilir.",
+      "boundary_tr": "Ödünç kelimenin yerel etkisi içindir; tarihsel değişim iddiası ayrıca dayanak ister."
+    },
+    {
+      "id": "ML:C028",
+      "keyword": "semantic_narrowing",
+      "label_tr": "Karşılığın daha dar kalması",
+      "definition": "Hedef dildeki karşılığın kaynak anlamın yalnız bir bölümünü taşımasını tanıma.",
+      "topics": [
+        "ML:T012"
+      ],
+      "intro_tr": "Bir Türkçe karşılık, Arapça dalın ilgili anlam yönlerinden yalnız bir bölümünü açıkça taşıyabilir. Bunun bu cümlede eksiklik olup olmadığını bağlam belirler.",
+      "example_tr": "Yol karşılığı, sözlüğün bu dalda öne çıkardığı düzlük yönünü açıkça söylemeyebilir.",
+      "boundary_tr": "Glossa göre dar kapsam içindir; bunu tek başına tarihsel anlam daralması sayma.",
+      "helped_by": [
+        "ML:C019"
+      ],
+      "aliases": [
+        "narrowing",
+        "yerel kapsam daralması"
+      ]
+    },
+    {
+      "id": "ML:C029",
+      "keyword": "semantic_broadening",
+      "label_tr": "Karşılığın daha geniş kalması",
+      "definition": "Hedef dil karşılığının bu kaynak kullanımın ötesine uzanmasını tanıma.",
+      "topics": [
+        "ML:T012"
+      ],
+      "intro_tr": "Bir Türkçe karşılık, ayetteki ifadenin burada söylediğinden daha geniş bir alanı düşündürebilir. Bağlam, bu geniş alanın hangi kısmının ilgili olduğunu belirlemeye yardım eder.",
+      "example_tr": "Bir Türkçe karşılık, kaynak dalın dışarıda bıraktığı durumları da kapsıyorsa burada daha geniştir.",
+      "boundary_tr": "Glossa göre geniş kapsam içindir; sözlükte geniş olup burada doğru daralan kullanımı hata sayma.",
+      "helped_by": [
+        "ML:C019"
+      ],
+      "aliases": [
+        "broadening"
+      ]
+    },
+    {
+      "id": "ML:C030",
+      "keyword": "semantic_shift",
+      "label_tr": "Karşılığın anlam odağını kaydırması",
+      "definition": "Tanıdık karşılığın farklı bir anlam veya çağrışım odağına yöneltmesini tanıma.",
+      "topics": [
+        "ML:T012"
+      ],
+      "intro_tr": "Tanıdık bir kelime, okuyucuyu kaynak ifadenin buradaki anlamından başka bir anlam odağına götürebilir. Bu farkı fark etmek, kelimeyi otomatik olarak bildiğimiz anlamla okumamızı önler.",
+      "example_tr": "Fiziksel düzlüğü anlatan yerde doğru karşılığı, değer yargısı çağrıştırabilir.",
+      "boundary_tr": "Anlam odağının yer değiştirmesi içindir; daralma ve genişlemeyi otomatik eş anlamlı sayma.",
+      "helped_by": [
+        "ML:C019"
+      ],
+      "aliases": [
+        "displacement",
+        "gloss_displacement"
+      ]
+    },
+    {
+      "id": "ML:C031",
+      "keyword": "gloss_tradeoff",
+      "label_tr": "Karşılığın kazancı ve kaybı",
+      "definition": "Türkçe karşılığın koruduğu, eksilttiği veya eklediği anlamı ayırt etme.",
+      "topics": [
+        "ML:T012"
+      ],
+      "intro_tr": "Bir Türkçe karşılık anlamın bir yönünü iyi taşırken başka bir yönünü görünmez bırakabilir. Karşılığı değerlendirirken neyi koruduğunu ve neyi ekleyip eksilttiğini ayrı ayrı sorarız.",
+      "example_tr": "Yol doğal ve kısa bir karşılıktır; gerekli olduğunda düz yol açıklaması görünmeyen yönü açar.",
+      "boundary_tr": "Somut kazanç/kayıp karşılaştırması içindir; her çeviri dersine genel etiket ekleme.",
+      "helped_by": [
+        "ML:C019"
+      ]
+    },
+    {
+      "id": "ML:C032",
+      "keyword": "translation_history",
+      "label_tr": "Çeviri farkı ile tarihsel değişim",
+      "definition": "Yerel çeviri uyumsuzluğu ile belgelenmiş tarihsel anlam değişimini ayırma.",
+      "topics": [
+        "ML:T013"
+      ],
+      "intro_tr": "Bir çeviri karşılığının burada yetersiz kalması, kelimenin tarih içinde değiştiğini tek başına kanıtlamaz. Tarihsel değişim için farklı dönemlerdeki kullanımlara da bakmak gerekir.",
+      "example_tr": "Bir glossun bugün bu ayette dar kalması, geçmişte daha geniş kullanıldığını kanıtlamaz.",
+      "boundary_tr": "Yerel fark ile belgeli tarihsel değişim ayrımı içindir; tarih yoksa değişim öyküsü kurma.",
+      "helped_by": [
+        "ML:C027",
+        "ML:C031"
+      ]
+    },
+    {
+      "id": "ML:C033",
+      "keyword": "sense_boundary",
+      "label_tr": "Yakın anlamların sınırı",
+      "definition": "Yakın karşılıklar arasındaki ilgili ayrımı koruma.",
+      "topics": [
+        "ML:T012"
+      ],
+      "intro_tr": "Yakın anlamlı iki karşılık her cümlede birbirinin yerine geçmeyebilir. Bu ayette hangi farkın önemli olduğunu belirlemek, kelimeyi daha kesin anlamayı sağlar.",
+      "example_tr": "İki yol kelimesi ortak bir alan taşıyabilir; sözlük birinde açıklık, diğerinde başka bir sınır belirtebilir.",
+      "boundary_tr": "Dayanaklı yakın anlam ayrımı içindir; farklı kökleri zorunlu karşıt sayma.",
+      "helped_by": [
+        "ML:C019"
+      ]
+    },
+    {
+      "id": "ML:C034",
+      "keyword": "pause_connected",
+      "label_tr": "Durarak ve bağlayarak okuma",
+      "definition": "Durak okuması ile bağlantılı okumadaki son sesleri ayırt etme.",
+      "topics": [
+        "ML:T001"
+      ],
+      "intro_tr": "Bir kelimenin sonunda durarak okumak ile onu sonraki kelimeye bağlamak aynı sesleri duyurmayabilir. Son sesleri karşılaştırırken okumanın nerede durduğuna da bakarız.",
+      "example_tr": "Sonunda durulan kelimede duyulmayan kısa son ses, bağlayarak okumada duyulabilir.",
+      "boundary_tr": "Vakıf/vasıl farkı içindir; yazılı harekeyi her durumda aynı sesle okundu sanma.",
+      "helped_by": [
+        "ML:C002"
+      ]
+    },
+    {
+      "id": "ML:C035",
+      "keyword": "agreement",
+      "label_tr": "Uyum işaretleri",
+      "definition": "Sayı, cinsiyet, belirlilik veya durum uyumunu yerel örnekte tanıma.",
+      "topics": [
+        "ML:T006"
+      ],
+      "intro_tr": "Birbirine bağlı kelimeler bazı biçim özelliklerini paylaşabilir. Bu uyum işaretleri hangi kelimelerin birlikte okunacağını bulmaya yardım eder.",
+      "example_tr": "Es-sırâta el-müstakîme birleşiminde isim ile sıfatın belirlilik ve durum özellikleri uyuşur.",
+      "boundary_tr": "Uyumun hangi ilişkide kurulduğunu belirt; bütün çoğullar için aynı uyum kuralını çıkarma.",
+      "helped_by": [
+        "ML:C010"
+      ]
+    },
+    {
+      "id": "ML:C036",
+      "keyword": "form_not_formula",
+      "label_tr": "Kalıp ve kullanım",
+      "definition": "Bir kalıbın katkısını sabit ve istisnasız bir anlam formülü saymama.",
+      "topics": [
+        "ML:T010"
+      ],
+      "intro_tr": "Bir kelime kalıbı anlamı tanımaya yardım eder ama her kelimeye aynı hazır çeviriyi vermez. Kalıbın bu kelimedeki katkısını belgelenmiş kullanımından öğreniriz.",
+      "example_tr": "İstefʿale biçimini tanımak yararlıdır; her X. bâb kelimesini istemek diye çeviremeyiz.",
+      "boundary_tr": "Kalıp eğilimi ile gerçek kullanım sınırı içindir; yalnız kalıp adı öğretirken otomatik ekleme.",
+      "helped_by": [
+        "ML:C017"
+      ]
+    },
+    {
+      "id": "ML:C037",
+      "keyword": "letter_sound",
+      "label_tr": "Harf ile ses",
+      "definition": "Yazı işareti ile okunan sesi ayırt etme.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "Ses farkından tek başına kök veya anlam farkı çıkarma.",
+      "intro_tr": "Arapça yazıdaki her işaret ayrı bir kelime parçası değildir. Okunuş ile yazımı birlikte izleriz.",
+      "example_tr": "ب harfi b sesini, altındaki hareke ise bi içindeki kısa ünlüyü gösterir."
+    },
+    {
+      "id": "ML:C038",
+      "keyword": "long_vowels",
+      "label_tr": "Kısa ve uzun ünlü",
+      "definition": "Ünlü uzunluğunu kelimenin biçiminde tanıma.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "Uzunluğu vurgu veya Türkçe ek sayma.",
+      "intro_tr": "Kısa ve uzun ünlüler aynı değildir. Türkçe okunuşta â, î ve û uzunluğu görünür kılar.",
+      "example_tr": "Ketebe ile kitâb karşılaştırmasında â uzun okunur; bu karşılaştırma tek başına türetim kuralı değildir.",
+      "helped_by": [
+        "ML:C002"
+      ]
+    },
+    {
+      "id": "ML:C039",
+      "keyword": "sukun",
+      "label_tr": "Sükûn",
+      "definition": "Ünsüzden sonra kısa ünlü bulunmamasını tanıma.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "Sükûnu sesin tamamen yok olmasıyla karıştırma.",
+      "intro_tr": "Sükûn, harften sonra kısa ünlü eklemeden okumayı gösterir. Harfin kendi sesi korunur.",
+      "example_tr": "مِنْ, min diye okunur; n sonuna ayrıca bir ünlü eklenmez.",
+      "broader": [
+        "ML:C002"
+      ]
+    },
+    {
+      "id": "ML:C040",
+      "keyword": "shadda",
+      "label_tr": "Şedde",
+      "definition": "Çift ünsüzü şeddeyle tanıma.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "Her şeddeyi türetme veya yoğunluk anlamı sayma.",
+      "intro_tr": "Şedde bir ünsüzün çift okunduğunu gösterir. Bunun kelimenin anlamındaki işi ayrıca incelenir.",
+      "example_tr": "رَبّ, rabb diye okunur; b sesi çifttir."
+    },
+    {
+      "id": "ML:C041",
+      "keyword": "tanwin_sound",
+      "label_tr": "Tenvinin okunuşu",
+      "definition": "Tenvinin bağlantılı okumada duyulan n sesini tanıma.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "Tenvini her zaman belirsizlik veya yazılı n harfi sayma.",
+      "intro_tr": "Tenvin bağlantılı okumada son ünlüye n sesi katar. Kelimenin köküne yeni bir n harfi eklemez.",
+      "example_tr": "Kitâbun sonundaki n, bu kelimenin kök harfi değildir.",
+      "broader": [
+        "ML:C002"
+      ]
+    },
+    {
+      "id": "ML:C042",
+      "keyword": "hamza_wasl",
+      "label_tr": "Bağlantıda düşen başlangıç sesi",
+      "definition": "Vasıl hemzesinin başlangıç ve bağlantıdaki farkını izleme.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "Sesin bağlantıda düşmesini yeni bir kök sayma.",
+      "intro_tr": "Bazı kelimelerin başındaki yardımcı ünlü, önceki kelimeye bağlanınca duyulmaz. Tek başına başlarken yeniden okunur.",
+      "example_tr": "El-hamdü tek başına başlar; önceki sözle bağlantıda başlangıç ünlüsü aynı biçimde duyulmayabilir.",
+      "broader": [
+        "ML:C034"
+      ],
+      "helped_by": [
+        "ML:C034"
+      ]
+    },
+    {
+      "id": "ML:C043",
+      "keyword": "hamza_qat",
+      "label_tr": "Korunan hemze",
+      "definition": "Kat‘ hemzesini vasıl hemzesinden ayırma.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "Elif şekillerinin tümünü aynı kök harfi kabul etme.",
+      "intro_tr": "Bazı hemzeler bağlantılı okumada da korunur. Hemzenin hangi tür olduğu kelimenin biçimini okumaya yardım eder.",
+      "example_tr": "أَنْ içindeki hemze, önceki sözle bağlantıda da kelimenin parçasıdır."
+    },
+    {
+      "id": "ML:C044",
+      "keyword": "article_assimilation",
+      "label_tr": "El- takısının ses uyumu",
+      "definition": "Güneş harfleri önünde belirli tanımlığın okunuşunu tanıma.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "Eş-/er- gibi okunuşları ayrı tanımlıklar sanma.",
+      "intro_tr": "El- takısının l sesi bazı harflerin önünde sonraki sese katılır. Yazılı tanımlık aynı kalır.",
+      "example_tr": "Eş-şems ve el-kamer aynı el- tanımlığını taşır.",
+      "helped_by": [
+        "ML:C063",
+        "ML:C040"
+      ]
+    },
+    {
+      "id": "ML:C045",
+      "keyword": "ta_marbuta",
+      "label_tr": "Tâ-i merbûta",
+      "definition": "Kelime sonundaki ة biçiminin okunuşlarını izleme.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "Her ة için biyolojik dişilik veya her bağlantıda aynı Türkçe yazımı varsayma.",
+      "intro_tr": "Kelime sonundaki ة, duruşta ve bağlantıda farklı duyulabilir. Tamlama içinde t sesi belirginleşebilir.",
+      "example_tr": "Rahme diye durulan kelime, rahmetu llâh bağlantısında t ile duyulur.",
+      "broader": [
+        "ML:C034"
+      ]
+    },
+    {
+      "id": "ML:C046",
+      "keyword": "alif_maqsura",
+      "label_tr": "Son elif ve yâ görünüşü",
+      "definition": "ى ile yâ harfini ayırma.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "ى biçimini otomatik y ünsüzü olarak okuma.",
+      "intro_tr": "Kelime sonundaki noktasız ى uzun â gösterebilir. Bu yazım tek başına y sesi demek değildir.",
+      "example_tr": "هُدَى, hüdâ diye okunur; son işaret ayrı bir y sesi değildir."
+    },
+    {
+      "id": "ML:C047",
+      "keyword": "uthmani_spelling",
+      "label_tr": "Mushaf yazımı ve okunuş",
+      "definition": "Mushafın özel yazım işaretlerini ses ve kökten ayırma.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "Küçük elif veya yazım farkından yeni bir kelime anlamı çıkarma.",
+      "intro_tr": "Mushaf yazımı bazı uzun sesleri küçük işaretlerle gösterebilir. Kelimenin okunuşu yalnız büyük harfleri sayarak bulunmaz.",
+      "example_tr": "ٱلرَّحْمَٰن içinde küçük elif uzun â okunuşuna yardım eder."
+    },
+    {
+      "id": "ML:C048",
+      "keyword": "pause_boundary",
+      "label_tr": "Durak ve anlam bağı",
+      "definition": "Durmanın cümle bağını nasıl görünür kıldığını izleme.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "Her ayet sonunu bağımsız cümle sonu sayma.",
+      "intro_tr": "Okumada durulan yer ile dilbilgisel cümle sonu her zaman örtüşmez. Anlam bağını komşu ifadelerle birlikte izleriz.",
+      "example_tr": "Bir sıfat sonraki ayette sürüyorsa ayet sınırı sıfatın bağını koparmaz.",
+      "broader": [
+        "ML:C034"
+      ]
+    },
+    {
+      "id": "ML:C049",
+      "keyword": "reading_variant",
+      "label_tr": "Kıraat farkının yerel etkisi",
+      "definition": "Belgeli kıraat farkını biçim ve anlamla ilişkilendirme.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "Farklı okunuşları tek bir sessizce birleştirilmiş metne dönüştürme.",
+      "intro_tr": "Belgeli iki kıraat farklı biçimleri koruyabilir. Her okunuşun açıklamasını kendi metniyle birlikte veririz.",
+      "example_tr": "Mâlik ve melik karşılaştırması yapılacaksa hangi kıraatin okunduğu belirtilir."
+    },
+    {
+      "id": "ML:C050",
+      "keyword": "disconnected_letters",
+      "label_tr": "Mukattaa harfleri",
+      "definition": "Ayrık harflerin kelime gibi çözümlenmemesini tanıma.",
+      "topics": [
+        "ML:T014"
+      ],
+      "boundary_tr": "Harflerden dayanıksız kök veya gizli anlam üretme.",
+      "intro_tr": "Bazı sûre başlangıçları kelime olarak değil harf adlarıyla okunur. Bu görünüm tek başına bir sözlük anlamı vermez.",
+      "example_tr": "الم, elif lâm mîm diye okunur; sıradan bir üç harfli kelime sayılmaz."
+    },
+    {
+      "id": "ML:C051",
+      "keyword": "stem_lemma",
+      "label_tr": "Gövde ve sözlük biçimi",
+      "definition": "Çekimli biçim ile sözlükteki başlığı ayırma.",
+      "topics": [
+        "ML:T005"
+      ],
+      "boundary_tr": "Sözlük başlığını kök harfleriyle karıştırma.",
+      "intro_tr": "Bir kelime farklı eklerle görünebilir. Sözlükte onu bulurken bu biçimleri temsil eden başlığa gideriz.",
+      "example_tr": "Kitâbuhu içindeki kitâb gövdesi, -hu ise ekli zamirdir.",
+      "broader": [
+        "ML:C001"
+      ]
+    },
+    {
+      "id": "ML:C052",
+      "keyword": "inflection_derivation",
+      "label_tr": "Çekim ve türetim",
+      "definition": "Görev değişikliği ile yeni kelime kuruluşunu ayırma.",
+      "topics": [
+        "ML:T005"
+      ],
+      "boundary_tr": "Her ses değişmesini yeni kelime sayma.",
+      "intro_tr": "Çekim aynı kelimenin cümledeki biçimini değiştirir. Türetim ise akraba başka bir kelime kurabilir.",
+      "example_tr": "Kitâbü/kitâbi çekim; kâtib/mektûb farklı türemiş biçimlerdir.",
+      "broader": [
+        "ML:C001",
+        "ML:C017"
+      ]
+    },
+    {
+      "id": "ML:C053",
+      "keyword": "clitic_stack",
+      "label_tr": "Birleşen küçük parçalar",
+      "definition": "Bir yazılı kelimedeki ardışık edat ve zamirleri çözme.",
+      "topics": [
+        "ML:T005"
+      ],
+      "boundary_tr": "Her ön parçayı fiil kalıbının parçası sayma.",
+      "intro_tr": "Bir kelimenin önünde ve sonunda birkaç küçük parça bulunabilir. Her birinin görevini sırayla ayırırız.",
+      "example_tr": "Ve-bi-kitâbihi içinde ve-, bi-, kitâb ve -hi farklı işler yapar.",
+      "broader": [
+        "ML:C001"
+      ]
+    },
+    {
+      "id": "ML:C054",
+      "keyword": "grammatical_gender",
+      "label_tr": "Dilbilgisel cinsiyet",
+      "definition": "Müzekker/müennes biçimi doğal cinsiyetten ayırma.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "Türkçede cinsiyet görünmüyor diye Arapçadaki uyumu yok sayma.",
+      "intro_tr": "Arapçada isimlerin dilbilgisel cinsiyeti vardır. Bu özellik her zaman canlıların cinsiyetini anlatmaz.",
+      "example_tr": "Şems kelimesi dilbilgisel olarak müennestir; güneşe biyolojik cinsiyet yüklemez."
+    },
+    {
+      "id": "ML:C055",
+      "keyword": "feminine_markers",
+      "label_tr": "Müenneslik işaretleri",
+      "definition": "Müennes biçimlerin farklı işaretlerini tanıma.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "Her müennes kelimenin ة taşımasını bekleme.",
+      "intro_tr": "Bazı müennes isimler sonlarından tanınır, bazıları kullanım yoluyla öğrenilir. Tek bir yazım bütün örnekleri kapsamaz.",
+      "example_tr": "Rahme sonundaki ة bir ipucudur; şems aynı işareti taşımaz.",
+      "broader": [
+        "ML:C054"
+      ]
+    },
+    {
+      "id": "ML:C056",
+      "keyword": "dual",
+      "label_tr": "İkil biçim",
+      "definition": "İki varlığı bildiren isim ve zamir biçimlerini tanıma.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "İkili genel çoğulla veya -ayn sesini her yerde ikille eşitleme.",
+      "intro_tr": "Arapçada tam iki varlık için ayrı biçimler bulunur. Türkçede bunu çoğunlukla iki sözüyle açarız.",
+      "example_tr": "Kitâbân iki kitap demektir; kitâb kelimesinin tekilinden ayrılır.",
+      "broader": [
+        "ML:C009"
+      ],
+      "helped_by": [
+        "ML:C009"
+      ],
+      "aliases": [
+        "tesniye"
+      ]
+    },
+    {
+      "id": "ML:C057",
+      "keyword": "sound_masculine_plural",
+      "label_tr": "Düzenli müzekker çoğul",
+      "definition": "Ûn/în sonlarıyla kurulan çoğulu tanıma.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "Sonunda în bulunan her kelimeyi bu çoğuldan sayma.",
+      "intro_tr": "Bazı çoğullar kelimenin gövdesini koruyup sonuna parça ekler. Sonun ûn veya în olması cümledeki göreve bağlanabilir.",
+      "example_tr": "Mü’minûn ve mü’minîn aynı çoğulun farklı durum biçimleri olabilir.",
+      "broader": [
+        "ML:C009"
+      ],
+      "helped_by": [
+        "ML:C009",
+        "ML:C005"
+      ]
+    },
+    {
+      "id": "ML:C058",
+      "keyword": "sound_feminine_plural",
+      "label_tr": "Düzenli müennes çoğul",
+      "definition": "Ât ile kurulan çoğulu tanıma.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "Ât sonunu tek başına biyolojik dişilik kanıtı sayma.",
+      "intro_tr": "Bazı çoğullar ât ile kurulur. Bu biçimin anlamını ve uyumunu kelimenin kendi kullanımıyla okuruz.",
+      "example_tr": "Âyet ve âyât karşılaştırması tekil ile çoğulu gösterir.",
+      "broader": [
+        "ML:C009"
+      ],
+      "helped_by": [
+        "ML:C009"
+      ]
+    },
+    {
+      "id": "ML:C059",
+      "keyword": "broken_plural",
+      "label_tr": "Kırık çoğul",
+      "definition": "Gövde içi değişimle kurulan çoğulu tanıma.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "Farklı gövde görünüşünü yeni kök sayma.",
+      "intro_tr": "Arapçada çoğul her zaman sona ek getirilerek yapılmaz. Kelimenin iç kuruluşu da değişebilir.",
+      "example_tr": "Kitâb ile kütüb aynı kelimenin tekil ve çoğul biçimleridir.",
+      "broader": [
+        "ML:C009",
+        "ML:C052"
+      ],
+      "helped_by": [
+        "ML:C052"
+      ]
+    },
+    {
+      "id": "ML:C060",
+      "keyword": "collective_noun",
+      "label_tr": "Topluluk ve tür adı",
+      "definition": "Topluluk/tür anlamını biçimsel tekil-çoğuldan ayırma.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "Her topluluğu mutlaka çoğul çekimli sayma.",
+      "intro_tr": "Bir kelime biçimce tekil görünürken bir türü veya topluluğu gösterebilir. Kaç bireyden söz edildiğini yalnız son ek belirlemez.",
+      "example_tr": "Şecer ağaç topluluğunu veya türünü, şecere bir ağacı gösterebilir.",
+      "broader": [
+        "ML:C009"
+      ]
+    },
+    {
+      "id": "ML:C061",
+      "keyword": "human_plural_agreement",
+      "label_tr": "İnsan dışı çoğulla uyum",
+      "definition": "İnsan dışı çoğulların müennes tekil uyumunu tanıma.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "Bu eğilimi istisnasız bütün çoğullara yayma.",
+      "intro_tr": "İnsan dışı çoğullar bazı yapılarda müennes tekil gibi uyum alır. Bu, çoğul anlamın kaybolduğu demek değildir.",
+      "example_tr": "Kütübün cedîdetün örneğinde kitaplar çoğuldur; sıfat müennes tekil biçimdedir.",
+      "broader": [
+        "ML:C035"
+      ],
+      "helped_by": [
+        "ML:C054",
+        "ML:C035"
+      ]
+    },
+    {
+      "id": "ML:C062",
+      "keyword": "proper_noun",
+      "label_tr": "Özel ad",
+      "definition": "Özel adın belirliliğini ve ad olma işlevini tanıma.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "El- bulunmamasını belirsizlik kanıtı sayma.",
+      "intro_tr": "Özel ad, bir kişiyi veya yeri adlandırabilir. Başında el- olmasa da belirli olabilir.",
+      "example_tr": "İbrâhîm bir özel addır; başına el- gelmesi gerekmez.",
+      "broader": [
+        "ML:C007"
+      ]
+    },
+    {
+      "id": "ML:C063",
+      "keyword": "article_definiteness",
+      "label_tr": "El- ile belirlilik",
+      "definition": "Tanımlığın belirli kullanıma katkısını izleme.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "El- biçimini her yerde o diye çevirmeye zorlama.",
+      "intro_tr": "El- bir ismin belirli kullanımını işaretleyebilir. Türkçe aynı bilgiyi bağlamla verebilir.",
+      "example_tr": "El-kitâb için bağlama göre kitap demek yeterli olabilir.",
+      "broader": [
+        "ML:C007"
+      ]
+    },
+    {
+      "id": "ML:C064",
+      "keyword": "generic_article",
+      "label_tr": "Tür bildiren el-",
+      "definition": "Tanımlığın türü veya kapsamı gösteren kullanımını tanıma.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "Belirli tanımlığı her zaman tek bir önceden anılmış bireye bağlama.",
+      "intro_tr": "El- bazen tek bir nesneyi değil bir türü veya genel alanı gösterir. Hangi kullanımın bulunduğunu cümle belirler.",
+      "example_tr": "El-insân bir bağlamda insan türünden söz edebilir.",
+      "broader": [
+        "ML:C063"
+      ]
+    },
+    {
+      "id": "ML:C065",
+      "keyword": "indefiniteness",
+      "label_tr": "Belirsiz isim",
+      "definition": "Belirsiz adlandırmayı bağlam içinde tanıma.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "Tenvini her durumda Türkçe bir sözcüğüne çevirme.",
+      "intro_tr": "Belirsiz bir isim henüz tek bir bilinen varlığa bağlanmayabilir. Türkçe bunu bazen bir ile, bazen yalın isimle verir.",
+      "example_tr": "Kitâbun için bağlama göre bir kitap veya kitap karşılığı seçilir.",
+      "broader": [
+        "ML:C007"
+      ]
+    },
+    {
+      "id": "ML:C066",
+      "keyword": "tanwin_limits",
+      "label_tr": "Tenvin ve belirlilik sınırı",
+      "definition": "Tenvinin belirsizlikle bire bir olmadığını tanıma.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "Tenvin taşıyan özel adı belirsiz sayma.",
+      "intro_tr": "Tenvin çoğu örnekte belirsiz isimlerle görülür, fakat özel adlarda da bulunabilir. Bu yüzden belirliliği yalnız son sesten çıkarmayız.",
+      "example_tr": "Muḥammedun özel ad olduğu halde tenvin alabilir.",
+      "broader": [
+        "ML:C041",
+        "ML:C007"
+      ],
+      "helped_by": [
+        "ML:C041",
+        "ML:C062"
+      ]
+    },
+    {
+      "id": "ML:C067",
+      "keyword": "nominative",
+      "label_tr": "İsimde ref durumu",
+      "definition": "Merfû ismin cümle görevini yerel örnekte izleme.",
+      "topics": [
+        "ML:T007"
+      ],
+      "boundary_tr": "Refi yalnız özneye veya yalnız -u sesine indirgeme.",
+      "intro_tr": "İsimler bazı görevlerde ref durumunda bulunur. Görünen işaret isim türüne göre değişebilir.",
+      "example_tr": "Basit bir örnekte özne kitâbu biçiminde görünür; ref yalnız bu sona sahip değildir.",
+      "broader": [
+        "ML:C005"
+      ],
+      "helped_by": [
+        "ML:C138"
+      ],
+      "aliases": [
+        "merfû",
+        "NOM"
+      ]
+    },
+    {
+      "id": "ML:C068",
+      "keyword": "accusative",
+      "label_tr": "İsimde nasb durumu",
+      "definition": "Mansûb ismin nesne ve diğer görevlerini ayırma.",
+      "topics": [
+        "ML:T007"
+      ],
+      "boundary_tr": "Nasbı her yerde nesne ya da Türkçe -i eki sayma.",
+      "intro_tr": "Nasb durumu yalnız nesnelerde görülmez. Cümlede zaman, durum veya başka bir göreve de eşlik edebilir.",
+      "example_tr": "Ketebtü kitâben örneğinde kitâben nesnedir; başka bir mansûbun görevi ayrıca aranır.",
+      "broader": [
+        "ML:C005"
+      ],
+      "helped_by": [
+        "ML:C138"
+      ],
+      "aliases": [
+        "mansûb isim",
+        "ACC"
+      ]
+    },
+    {
+      "id": "ML:C069",
+      "keyword": "genitive",
+      "label_tr": "İsimde cer durumu",
+      "definition": "Cer durumunun edat ve tamlama bağını tanıma.",
+      "topics": [
+        "ML:T007"
+      ],
+      "boundary_tr": "Cerri yalnız kesreye veya Türkçe -in ekine eşitleme.",
+      "intro_tr": "İsim bir cer edatından sonra veya tamlamada cer durumuna girebilir. Bu ilişkiyi kelimenin türüyle birlikte okuruz.",
+      "example_tr": "Bi-kitâbin ve kitâbu ṭâlibin örneklerinde cerin nedeni aynı değildir.",
+      "broader": [
+        "ML:C005"
+      ],
+      "helped_by": [
+        "ML:C004",
+        "ML:C011"
+      ],
+      "aliases": [
+        "mecrûr",
+        "GEN"
+      ]
+    },
+    {
+      "id": "ML:C070",
+      "keyword": "case_letters",
+      "label_tr": "Harfle görünen durum",
+      "definition": "İkil ve bazı çoğullarda durumun harflerle görünmesini tanıma.",
+      "topics": [
+        "ML:T007"
+      ],
+      "boundary_tr": "Her çekim işaretini kısa son ünlü sanma.",
+      "intro_tr": "Bazı isimlerde cümle görevi kısa ünlü yerine harf değişimiyle görünür. İkil ve düzenli müzekker çoğul bunun örnekleridir.",
+      "example_tr": "Kitâbân/kitâbeyn karşılaştırması ikildeki durum farkını gösterir.",
+      "requires": [
+        "ML:C005"
+      ],
+      "broader": [
+        "ML:C005"
+      ]
+    },
+    {
+      "id": "ML:C071",
+      "keyword": "diptote",
+      "label_tr": "Gayr-i munsarif isim",
+      "definition": "Tenvin almayan ve özel cer işareti bulunan çekim türünü tanıma.",
+      "topics": [
+        "ML:T007"
+      ],
+      "boundary_tr": "Bütün cerlerin -i olduğunu veya her özel adın aynı çekildiğini söyleme.",
+      "intro_tr": "Bazı isimler tenvin almaz; belirli şartlarda cer durumunda da fetha gösterir. El- ve tamlama bu görünümü değiştirebilir.",
+      "example_tr": "İbrâhîme, uygun yapıda cer halinde de fethalı olabilir.",
+      "requires": [
+        "ML:C005"
+      ],
+      "broader": [
+        "ML:C005"
+      ],
+      "aliases": [
+        "gayr-i munsarif",
+        "memnû mine’s-sarf"
+      ]
+    },
+    {
+      "id": "ML:C072",
+      "keyword": "estimated_case",
+      "label_tr": "Görünmeyen durum işareti",
+      "definition": "Sonunda açıkça duyulmayan çekim görevini tanıma.",
+      "topics": [
+        "ML:T007"
+      ],
+      "boundary_tr": "Ses değişmiyor diye kelimenin cümle görevi yok sanma.",
+      "intro_tr": "Bazı son sesler çekim farkını açıkça göstermez. Görevi cümledeki bağlantıdan belirleriz.",
+      "example_tr": "Mûsâ farklı görevlerde görünse de sonundaki â aynı kalabilir.",
+      "requires": [
+        "ML:C005"
+      ],
+      "broader": [
+        "ML:C005"
+      ],
+      "aliases": [
+        "takdirî i‘rab"
+      ]
+    },
+    {
+      "id": "ML:C073",
+      "keyword": "indeclinable",
+      "label_tr": "Değişmeyen son biçim",
+      "definition": "Mebnî sözcüğün sabit sonunu görevinden ayırma.",
+      "topics": [
+        "ML:T007"
+      ],
+      "boundary_tr": "Sabit biçimi tek bir cümle görevine kilitleme.",
+      "intro_tr": "Bazı kelimelerin son biçimi değişmez. Yine de cümlede özne, nesne veya başka görev üstlenebilirler.",
+      "example_tr": "Hâzâ biçimi farklı yerlerde aynı kalırken cümle görevi değişebilir.",
+      "broader": [
+        "ML:C005"
+      ],
+      "aliases": [
+        "mebnî"
+      ]
+    },
+    {
+      "id": "ML:C074",
+      "keyword": "five_nouns",
+      "label_tr": "Özel çekilen akrabalık adları",
+      "definition": "Eb/ah gibi adların şartlı harf çekimini tanıma.",
+      "topics": [
+        "ML:T007"
+      ],
+      "boundary_tr": "Kuralı her akrabalık adına veya her kullanımına yayma.",
+      "intro_tr": "Bazı akrabalık adları uygun tamlama şartlarında uzun harflerle çekilir. Şartlar değişince aynı görünüm beklenmez.",
+      "example_tr": "Ebûke, ebâke ve ebîke aynı adın farklı cümle görevlerini gösterebilir.",
+      "requires": [
+        "ML:C005"
+      ],
+      "broader": [
+        "ML:C070"
+      ],
+      "aliases": [
+        "esmâ-i hamse"
+      ]
+    },
+    {
+      "id": "ML:C075",
+      "keyword": "construct_nun_drop",
+      "label_tr": "Tamlamada nûn düşmesi",
+      "definition": "İkil ve düzenli müzekker çoğulda tamlama sonunu tanıma.",
+      "topics": [
+        "ML:T007"
+      ],
+      "boundary_tr": "Nûn düşmesini çoğul veya ikil anlamının kaybı sayma.",
+      "intro_tr": "İkil ve bazı çoğullar tamlamanın ilk öğesi olunca son nûnlarını bırakır. Sayı bilgisi yine biçimde kalır.",
+      "example_tr": "Müʿallimûne, bir tamlamada müʿallimû biçiminde görünebilir.",
+      "requires": [
+        "ML:C011"
+      ],
+      "broader": [
+        "ML:C011",
+        "ML:C070"
+      ]
+    },
+    {
+      "id": "ML:C076",
+      "keyword": "independent_pronoun",
+      "label_tr": "Ayrı yazılan kişi zamiri",
+      "definition": "Bağımsız kişi zamirini cümlede tanıma.",
+      "topics": [
+        "ML:T016"
+      ],
+      "boundary_tr": "Zamirin görünmesini her yerde karşıtlık veya vurgu sayma.",
+      "intro_tr": "Kişi bilgisi bazen ayrı bir kelimeyle verilir. Bu zamirin neden açıkça söylendiğini bağlam gösterir.",
+      "example_tr": "Ene ben, ente sen, hüve o kişisini gösterebilir.",
+      "broader": [
+        "ML:C009"
+      ]
+    },
+    {
+      "id": "ML:C077",
+      "keyword": "object_pronoun_independent",
+      "label_tr": "Ayrı nesne zamiri",
+      "definition": "İyyâ- dizisinin nesne görevini tanıma.",
+      "topics": [
+        "ML:T016"
+      ],
+      "boundary_tr": "İyyâke biçiminin kendisini her bağlamda yalnız sen diye çözme.",
+      "intro_tr": "Nesne zamiri ayrı bir kelime halinde söylenebilir. Cümledeki yeri ve bağlamı ayrıca anlam taşır.",
+      "example_tr": "İyyâke naʿbüdü ifadesinde iyyâke nesnedir ve fiilden önce gelir.",
+      "broader": [
+        "ML:C076"
+      ]
+    },
+    {
+      "id": "ML:C078",
+      "keyword": "possessive_pronoun",
+      "label_tr": "İsme eklenen zamir",
+      "definition": "Ekli zamirin isimle kurduğu tamlama ilişkisini tanıma.",
+      "topics": [
+        "ML:T016"
+      ],
+      "boundary_tr": "İlişkiyi her zaman maddi mülkiyet sayma.",
+      "intro_tr": "Bir isme eklenen zamir, o ismi bir kişiyle ilişkilendirir. Türkçede çoğu kez benim, senin veya onun ile açılır.",
+      "example_tr": "Rabbike, Rabbin anlamını taşır; -ke muhatabı gösterir.",
+      "broader": [
+        "ML:C008",
+        "ML:C011"
+      ],
+      "helped_by": [
+        "ML:C011"
+      ]
+    },
+    {
+      "id": "ML:C079",
+      "keyword": "object_suffix",
+      "label_tr": "Fiile eklenen nesne zamiri",
+      "definition": "Fiile bağlı etkilenen/yönelinen kişi zamirini tanıma.",
+      "topics": [
+        "ML:T016"
+      ],
+      "boundary_tr": "Aynı sesli özne ekleriyle karıştırma.",
+      "intro_tr": "Fiile eklenen zamir bazen eylemi yapanı değil eylemin yöneldiği kişiyi gösterir. Görev, fiilin biçimiyle birlikte anlaşılır.",
+      "example_tr": "İhdinâ içindeki -nâ, bizi gösterir.",
+      "broader": [
+        "ML:C008"
+      ],
+      "helped_by": [
+        "ML:C157"
+      ]
+    },
+    {
+      "id": "ML:C080",
+      "keyword": "subject_suffix",
+      "label_tr": "Fiile eklenen özne zamiri",
+      "definition": "Fiil sonundaki yapan kişi bilgisini tanıma.",
+      "topics": [
+        "ML:T016"
+      ],
+      "boundary_tr": "Her -nâ biçimini bizi sayma.",
+      "intro_tr": "Bazı fiillerin sonundaki parça eylemi kimin yaptığını gösterir. Aynı ses başka bir yapıda nesne olabilir.",
+      "example_tr": "Ketebnâ içindeki -nâ yazan biz kişisidir.",
+      "broader": [
+        "ML:C008",
+        "ML:C009"
+      ],
+      "helped_by": [
+        "ML:C144"
+      ]
+    },
+    {
+      "id": "ML:C081",
+      "keyword": "prepositional_pronoun",
+      "label_tr": "Edata eklenen zamir",
+      "definition": "Cer edatına bağlı kişi zamirini tanıma.",
+      "topics": [
+        "ML:T016"
+      ],
+      "boundary_tr": "Türkçe karşılığı tek bir sahiplik ekiyle sınırlama.",
+      "intro_tr": "Bir edata zamir eklenince ilişki doğrudan bir kişiye bağlanır. Türkçe ilişkiyi farklı eklerle verebilir.",
+      "example_tr": "Lehû onun için/ona, bihî onunla gibi bağlama bağlı karşılıklar alabilir.",
+      "broader": [
+        "ML:C008",
+        "ML:C004"
+      ]
+    },
+    {
+      "id": "ML:C082",
+      "keyword": "implicit_subject",
+      "label_tr": "Fiilden anlaşılan özne",
+      "definition": "Ayrı söylenmeyen özneyi fiil çekiminden bulma.",
+      "topics": [
+        "ML:T016"
+      ],
+      "boundary_tr": "Yazılmamış zamiri metinde gerçekten bulunan kelime gibi alıntılama.",
+      "intro_tr": "Fiil kimin yaptığını gösterdiğinde ayrıca zamir söylemek gerekmeyebilir. Türkçede de geldim derken ben sözü anlaşılır.",
+      "example_tr": "İhdi emrinde muhatap sen, fiilin biçiminden anlaşılır.",
+      "broader": [
+        "ML:C009"
+      ],
+      "helped_by": [
+        "ML:C092"
+      ]
+    },
+    {
+      "id": "ML:C083",
+      "keyword": "pronoun_antecedent",
+      "label_tr": "Zamirin gönderdiği unsur",
+      "definition": "Zamiri bağlamdaki uygun ad veya ifadeye bağlama.",
+      "topics": [
+        "ML:T016"
+      ],
+      "boundary_tr": "En yakın ismi otomatik gönderim hedefi sayma.",
+      "intro_tr": "Bir zamirin kimi veya neyi gösterdiği önceki sözden anlaşılabilir. Anlam ve uyum birlikte yol gösterir.",
+      "example_tr": "-Hû zamirini açıklarken önceki uygun adı buluruz; yalnız mesafeye bakmayız."
+    },
+    {
+      "id": "ML:C084",
+      "keyword": "demonstrative",
+      "label_tr": "İşaret sözcüğü",
+      "definition": "Bu/o gibi işaretlerin metindeki hedefini tanıma.",
+      "topics": [
+        "ML:T016"
+      ],
+      "boundary_tr": "Uzak işareti her durumda fiziksel uzaklık sanma.",
+      "intro_tr": "İşaret sözcükleri kişiyi, nesneyi veya önceki bir sözü gösterebilir. Yakınlık bazen söylem içinde kurulur.",
+      "example_tr": "Hâzâ bu, zâlike o diye açılabilir; gösterilen şey bağlamda bulunur.",
+      "aliases": [
+        "ism-i işaret"
+      ]
+    },
+    {
+      "id": "ML:C085",
+      "keyword": "relative_pronoun",
+      "label_tr": "Bağlama zamiri",
+      "definition": "Ellezî türü öğenin takip eden açıklamayı isme bağlamasını tanıma.",
+      "topics": [
+        "ML:T016"
+      ],
+      "boundary_tr": "Ellezîyi tek başına tamamlanmış açıklama sayma.",
+      "intro_tr": "Bazı sözcükler bir adı, ardından gelen cümleyle tanıtır. Açıklama bitmeden bağlantı tamamlanmaz.",
+      "example_tr": "Ellezî ḫalaḳ, yaratan diye açılabilir.",
+      "aliases": [
+        "ism-i mevsûl"
+      ]
+    },
+    {
+      "id": "ML:C086",
+      "keyword": "resumptive_pronoun",
+      "label_tr": "Yan cümlede geri bağlayan zamir",
+      "definition": "Sıla cümlesindeki zamirin başa dönüşünü tanıma.",
+      "topics": [
+        "ML:T016"
+      ],
+      "boundary_tr": "Türkçede görünmüyor diye Arapça zamiri gereksiz sayma.",
+      "intro_tr": "Bir yan cümledeki zamir, açıklanan ada geri bağlanabilir. Türkçe bu bağı ayrı zamir kullanmadan kurabilir.",
+      "example_tr": "Ellezî raeytühû ifadesindeki -hû, gördüğüm kişi bağına katılır.",
+      "requires": [
+        "ML:C085"
+      ],
+      "broader": [
+        "ML:C083"
+      ],
+      "helped_by": [
+        "ML:C083"
+      ]
+    },
+    {
+      "id": "ML:C087",
+      "keyword": "separating_pronoun",
+      "label_tr": "Ayırıcı zamir",
+      "definition": "Fasl zamirinin isim ile yüklem arasındaki işini tanıma.",
+      "topics": [
+        "ML:T016"
+      ],
+      "boundary_tr": "Her hüve/hüm kullanımını fasl sayma.",
+      "intro_tr": "Bazı yapılarda bir zamir, sonrasının sıfat değil yargının yüklemi olduğunu belirginleştirir. Karar bütün cümleye dayanır.",
+      "example_tr": "Ülâike hümü l-müfliḥûn türü yapıda hüm, yüklem bağlantısını belirginleştirebilir.",
+      "broader": [
+        "ML:C076",
+        "ML:C139"
+      ],
+      "helped_by": [
+        "ML:C141"
+      ],
+      "aliases": [
+        "zamîr-i fasl"
+      ]
+    },
+    {
+      "id": "ML:C088",
+      "keyword": "anticipatory_pronoun",
+      "label_tr": "Şan zamiri",
+      "definition": "Ardından gelen yargıya hazırlık yapan zamiri tanıma.",
+      "topics": [
+        "ML:T016"
+      ],
+      "boundary_tr": "Her gönderimsiz zamir için aynı çözümü uydurma.",
+      "intro_tr": "Bazı zamirler daha önceki bir ada değil ardından açıklanan duruma işaret eder. Bu çözümün dilbilgisel dayanağı gösterilmelidir.",
+      "example_tr": "Bir hüve kullanımını şan zamiri sayarken sonraki cümlenin açıklayıcı bağı aranır.",
+      "broader": [
+        "ML:C083"
+      ],
+      "aliases": [
+        "zamîr-i şân"
+      ]
+    },
+    {
+      "id": "ML:C089",
+      "keyword": "perfect",
+      "label_tr": "Mâzi biçimi",
+      "definition": "Tamamlanmış görünüşlü fiili bağlamdaki zamanından ayırma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Her mâziyi Türkçe geçmiş zamanla mekanik eşleme.",
+      "intro_tr": "Mâzi biçimi olayı tamamlanmış bir bütün olarak sunabilir. Cümledeki gerçek zaman ve işlev bağlamla belirlenir.",
+      "example_tr": "Ketebe temel örnekte yazdı diye açılır; her mâzi kullanımının zamanı aynı değildir.",
+      "aliases": [
+        "mâzi",
+        "PERF"
+      ]
+    },
+    {
+      "id": "ML:C090",
+      "keyword": "imperfect",
+      "label_tr": "Muzâri biçimi",
+      "definition": "Muzâri fiilin kişi işaretini ve bağlamsal zamanını tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Muzâriyi yalnız şimdiki zaman sayma.",
+      "intro_tr": "Muzâri biçimi şimdiki, alışılmış veya gelecek bir olayı anlatabilir. Önündeki öğeler ve bağlam hangi okumanın uygun olduğunu gösterir.",
+      "example_tr": "Yektübü, bağlama göre yazar veya yazıyor diye açılabilir.",
+      "aliases": [
+        "muzâri",
+        "IMPF"
+      ]
+    },
+    {
+      "id": "ML:C091",
+      "keyword": "imperative_form",
+      "label_tr": "Emir biçimi",
+      "definition": "Muhataba yönelen fiil biçimini tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Biçimi doğrudan buyurma niyetiyle özdeşleştirme.",
+      "intro_tr": "Emir biçimi muhataba yönelir. Sözün emir, rica veya dua olarak anlaşılması konuşma bağlamına bağlıdır.",
+      "example_tr": "İhdi biçimi muhataba yönelir; ihdinâ ifadesinde bizi öğesi eklenir.",
+      "aliases": [
+        "emir",
+        "IMPV"
+      ]
+    },
+    {
+      "id": "ML:C092",
+      "keyword": "verb_person_affixes",
+      "label_tr": "Fiilde kişi işaretleri",
+      "definition": "Fiil başı ve sonundaki kişi/sayı işaretlerini ayırma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Her n- başlangıcını biz eki sayma.",
+      "intro_tr": "Fiillerde kişi bilgisi baştaki veya sondaki parçalarla görülebilir. Parçayı ancak o kelimenin çözümü destekliyorsa ayırırız.",
+      "example_tr": "Naʿbüdü içindeki n-, bu muzâri çekiminde biz kişisini gösterir.",
+      "broader": [
+        "ML:C009",
+        "ML:C001"
+      ]
+    },
+    {
+      "id": "ML:C093",
+      "keyword": "tense_aspect",
+      "label_tr": "Zaman ve görünüş",
+      "definition": "Olay zamanı ile olayın sunuluşunu ayırma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Bir çekim etiketiyle bütün zaman yorumunu bitirme.",
+      "intro_tr": "Zaman olayın ne zaman olduğunu, görünüş ise nasıl sunulduğunu ilgilendirir. Arapça biçim ile Türkçe zaman eki her kullanımda bire bir örtüşmez.",
+      "example_tr": "Tamamlanmış biçimde anlatılan bir vaat, bağlamda geleceğe ilişkin olabilir.",
+      "broader": [
+        "ML:C089",
+        "ML:C090"
+      ],
+      "helped_by": [
+        "ML:C089",
+        "ML:C090"
+      ]
+    },
+    {
+      "id": "ML:C094",
+      "keyword": "habitual",
+      "label_tr": "Alışılmış eylem",
+      "definition": "Tek bir olayla düzenli/tekrarlanan eylemi ayırma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Muzâri biçiminden tek başına sürekli tekrar çıkarma.",
+      "intro_tr": "Bir fiil belli bir anı veya alışılmış davranışı anlatabilir. Çevresindeki ifadeler tekrar okumasını belirler.",
+      "example_tr": "Yektübü bir bağlamda şimdi yazıyor, başka bir bağlamda düzenli yazar olabilir.",
+      "broader": [
+        "ML:C093"
+      ]
+    },
+    {
+      "id": "ML:C095",
+      "keyword": "future_marking",
+      "label_tr": "Gelecek göstergeleri",
+      "definition": "Se-/sevfe ve bağlamla gelecek anlamını tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Geleceği yalnız bu iki göstergeye bağlama.",
+      "intro_tr": "Se- ve sevfe gibi öğeler fiilin gelecek yönünü belirginleştirebilir. Gelecek anlamı bazen bağlamdan da anlaşılır.",
+      "example_tr": "Se-yaʿlemûne ifadesindeki se-, bilecekler karşılığına katkı verir.",
+      "broader": [
+        "ML:C090"
+      ]
+    },
+    {
+      "id": "ML:C096",
+      "keyword": "mood",
+      "label_tr": "Muzâri kip durumu",
+      "definition": "Ref, nasb ve cezmi fiil çevresindeki yapıyla ilişkilendirme.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "İsim durumuyla fiil kipini veya Türkçe dilek kipini eşitleme.",
+      "intro_tr": "Muzâri fiilin sonu önündeki bazı öğelere göre değişebilir. Bu biçim farkını cümledeki ilişkiyle birlikte okuruz.",
+      "example_tr": "Yektübü, en yektübe ve lem yektüb farklı yapılarda görünür.",
+      "broader": [
+        "ML:C090"
+      ],
+      "helped_by": [
+        "ML:C090"
+      ]
+    },
+    {
+      "id": "ML:C097",
+      "keyword": "indicative",
+      "label_tr": "Muzâride ref",
+      "definition": "Nasb/cezm etkisi olmayan muzâri biçimini tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Her merfû fiilin sonunu yalnız -u sanma.",
+      "intro_tr": "Muzâri, nasb veya cezm ettiren bir yapı yoksa ref durumunda bulunabilir. İşaret fiilin çekim türüne göre değişir.",
+      "example_tr": "Yektübü basit örneğinde son damme refi gösterir.",
+      "requires": [
+        "ML:C090"
+      ],
+      "broader": [
+        "ML:C096"
+      ],
+      "aliases": [
+        "merfû muzâri",
+        "IND"
+      ]
+    },
+    {
+      "id": "ML:C098",
+      "keyword": "subjunctive",
+      "label_tr": "Muzâride nasb",
+      "definition": "Nasb ettiren yapının fiile etkisini tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Nasbı tek bir sabit istek anlamıyla açıklama.",
+      "intro_tr": "En ve len gibi öğelerden sonra muzâri nasb durumuna girebilir. Yapının anlamını da ilgili öğe belirler.",
+      "example_tr": "Len yektübe ifadesinde son biçim yektübüden farklıdır.",
+      "requires": [
+        "ML:C090"
+      ],
+      "broader": [
+        "ML:C096"
+      ],
+      "aliases": [
+        "mansûb muzâri",
+        "SUBJ"
+      ]
+    },
+    {
+      "id": "ML:C099",
+      "keyword": "jussive",
+      "label_tr": "Muzâride cezm",
+      "definition": "Cezm ettiren yapı ve son değişimini tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Cezmi her fiilde sükûnla sınırlama.",
+      "intro_tr": "Lem ve yasaklayıcı lâ gibi öğeler muzâriyi cezm edebilir. Bazı fiillerde bu, sesin veya nûnun düşmesiyle görünür.",
+      "example_tr": "Lem yektüb örneğinde son kısa ünlü bulunmaz.",
+      "requires": [
+        "ML:C090"
+      ],
+      "broader": [
+        "ML:C096"
+      ],
+      "aliases": [
+        "meczûm",
+        "JUS"
+      ]
+    },
+    {
+      "id": "ML:C100",
+      "keyword": "five_verbs",
+      "label_tr": "Beş fiil biçimi",
+      "definition": "İkil/çoğul/muhatap ekli muzârilerde nûn işaretini tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Her nûnu aynı kişi veya vurgu işareti sayma.",
+      "intro_tr": "Bazı muzâri çekimlerinde ref nûnla, nasb ve cezm nûnun düşmesiyle görünür. Kişi bilgisi diğer parçalarla korunur.",
+      "example_tr": "Yektübûne ile len yektübû karşılaştırmasında nûn düşer.",
+      "requires": [
+        "ML:C096"
+      ],
+      "broader": [
+        "ML:C092",
+        "ML:C096"
+      ],
+      "aliases": [
+        "ef‘âl-i hamse"
+      ]
+    },
+    {
+      "id": "ML:C101",
+      "keyword": "emphatic_nun",
+      "label_tr": "Vurgu nûnu",
+      "definition": "Fiile katılan tekit nûnunu tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Vurgu nûnunu özne eki veya kök harfi sayma.",
+      "intro_tr": "Bazı fiiller sonlarına gelen nûnla pekiştirilir. Bu nûn kişi veya sayı ekinden ayrı değerlendirilir.",
+      "example_tr": "Bir emrin nûnlu biçimini açıklarken tekit ile muhatap bilgisini ayırırız."
+    },
+    {
+      "id": "ML:C102",
+      "keyword": "active_voice",
+      "label_tr": "Etken fiil",
+      "definition": "Fiilin yapanla kurduğu etken bağı tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Etkenliği mutlaka ayrı yazılmış özneye bağlama.",
+      "intro_tr": "Etken yapıda fiil, yapanı özne olarak sunar. Yapan bazen yalnız çekimden anlaşılır.",
+      "example_tr": "Ketebe ifadesi yazan kişiyle etken bağ kurar.",
+      "broader": [
+        "ML:C023"
+      ],
+      "helped_by": [
+        "ML:C144"
+      ]
+    },
+    {
+      "id": "ML:C103",
+      "keyword": "passive_voice",
+      "label_tr": "Edilgen fiil",
+      "definition": "İç seslerle veya biçimle görünen edilgenliği tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Edilgenliği yapanın bilinmediği iddiasına indirgeme.",
+      "intro_tr": "Edilgen yapıda yapan cümlede özne olarak sunulmaz. Bu seçim yapanın mutlaka bilinmediği anlamına gelmez.",
+      "example_tr": "Kütibe yazıldı diye açılabilir; biçimi ketebeden farklıdır.",
+      "broader": [
+        "ML:C023"
+      ],
+      "helped_by": [
+        "ML:C144"
+      ]
+    },
+    {
+      "id": "ML:C104",
+      "keyword": "transitivity",
+      "label_tr": "Geçişlilik",
+      "definition": "Fiilin doğrudan nesne alıp almamasını tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Arapça geçişliliği Türkçe karşılığın ekinden çıkarma.",
+      "intro_tr": "Bazı fiiller doğrudan nesneyle, bazıları başka bağlantılarla tamamlanır. Türkçe karşılık aynı yapıyı kullanmak zorunda değildir.",
+      "example_tr": "Arapça doğrudan nesne alan bir fiil Türkçede -e ekiyle çevrilebilir.",
+      "broader": [
+        "ML:C012"
+      ]
+    },
+    {
+      "id": "ML:C105",
+      "keyword": "valency",
+      "label_tr": "Fiilin katılan düzeni",
+      "definition": "Fiilin hangi kişi/nesne/edat bağlantılarını kabul ettiğini karşılaştırma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Bir edatın yokluğundan tek başına yeni bir imge üretme.",
+      "intro_tr": "Bir fiil farklı yapılarla farklı ilişkileri öne çıkarabilir. Her yapı için belgeli kullanım aranır.",
+      "example_tr": "Hedâ fiilinin doğrudan nesneli ve ilâ ile kurulan kullanımları ayrı ayrı incelenir.",
+      "broader": [
+        "ML:C104",
+        "ML:C004"
+      ],
+      "helped_by": [
+        "ML:C157",
+        "ML:C159"
+      ]
+    },
+    {
+      "id": "ML:C106",
+      "keyword": "weak_initial",
+      "label_tr": "İlk kökü zayıf fiil",
+      "definition": "İlk kök harfi vâv/yâ olan biçimlerin değişmesini tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Yüzeyde görünmeyen harfi rastgele tamamlama.",
+      "intro_tr": "Bazı fiillerin ilk kök harfi çekimde görünmeyebilir. Kelime ailesini incelerken belgeli kök çözümü gerekir.",
+      "example_tr": "Vaʿade ile yaʿidü karşılaştırmasında başlangıçtaki v her biçimde görünmez.",
+      "broader": [
+        "ML:C017"
+      ],
+      "aliases": [
+        "misâl"
+      ]
+    },
+    {
+      "id": "ML:C107",
+      "keyword": "weak_hollow",
+      "label_tr": "Ortası zayıf fiil",
+      "definition": "Orta kök harfindeki değişimi tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Uzun ünlüyü her zaman ek veya ayrı kök sayma.",
+      "intro_tr": "Kökün ortasındaki vâv veya yâ bazı biçimlerde uzun ünlüyle görünür. Çekim değişince başka bir görünüm alabilir.",
+      "example_tr": "Ḳâle ile ḳultü aynı fiilin farklı biçimleridir.",
+      "broader": [
+        "ML:C017"
+      ],
+      "aliases": [
+        "ecvef"
+      ]
+    },
+    {
+      "id": "ML:C108",
+      "keyword": "weak_final",
+      "label_tr": "Sonu zayıf fiil",
+      "definition": "Son kök harfinin çekimdeki değişimini tanıma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Son harfin düşmesini yeni kök veya yeni kişi sanma.",
+      "intro_tr": "Sonu vâv veya yâ ile ilişkili fiiller bazı çekimlerde kısalabilir. Cezm ve emir biçimleri bunu görünür kılabilir.",
+      "example_tr": "Yedʿû ile lem yedʿu karşılaştırması son değişimini gösterir.",
+      "broader": [
+        "ML:C017"
+      ],
+      "aliases": [
+        "nâkıs fiil"
+      ]
+    },
+    {
+      "id": "ML:C109",
+      "keyword": "weak_multiple",
+      "label_tr": "Birden çok zayıf kök harfi",
+      "definition": "Birden fazla zayıf harf içeren fiilin çözümünü izleme.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Her kısa yüzey biçimini eksik veri sayma.",
+      "intro_tr": "Bir kökte birden fazla zayıf harf bulunabilir. Kısa görünen bir çekim yine belgeli bir kelime ailesine bağlıdır.",
+      "example_tr": "Veḳâ ile ḳi karşılaştırması ancak kök ve çekim çözümü birlikte verilince açıklanır.",
+      "broader": [
+        "ML:C017"
+      ],
+      "aliases": [
+        "lefîf"
+      ]
+    },
+    {
+      "id": "ML:C110",
+      "keyword": "doubled_root",
+      "label_tr": "İki aynı kök harfi",
+      "definition": "Tekrarlanan kök harflerini türetme şeddesinden ayırma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Her şeddeyi II. bâb göstergesi sayma.",
+      "intro_tr": "Bir kökün iki harfi aynı olabilir ve birleşerek şeddeli görünebilir. Bu, eklenen türetme şeddesinden farklıdır.",
+      "example_tr": "Medde içindeki çift d kökün parçasıdır; yalnız şeddeye bakarak II. bâb denmez.",
+      "broader": [
+        "ML:C017",
+        "ML:C040"
+      ],
+      "aliases": [
+        "muzâaf"
+      ]
+    },
+    {
+      "id": "ML:C111",
+      "keyword": "hamzated_root",
+      "label_tr": "Hemzeli kök",
+      "definition": "Hemzenin kökteki kimliğini değişen yazımından ayırma.",
+      "topics": [
+        "ML:T017"
+      ],
+      "boundary_tr": "Elif/vâv/yâ taşıyıcılarını ayrı kök harfi sayma.",
+      "intro_tr": "Hemze farklı taşıyıcılarla yazılabilir. Kök kimliğinde hemze ile taşıyıcının görünüşünü ayırırız.",
+      "example_tr": "Seele ailesindeki hemzenin yazılışı değişse de harfin kimliği ayrıca izlenir.",
+      "broader": [
+        "ML:C016"
+      ],
+      "aliases": [
+        "mehmûz"
+      ]
+    },
+    {
+      "id": "ML:C112",
+      "keyword": "form_i",
+      "label_tr": "I. bâb",
+      "definition": "Yalın üçlü fiil kuruluşunu tanıma.",
+      "topics": [
+        "ML:T018"
+      ],
+      "boundary_tr": "Yalın biçime tek ve zorunlu bir anlam yükleme.",
+      "intro_tr": "I. bâb üçlü kökün temel fiil kuruluşlarından biridir. İç ünlüler ve gerçek anlam kelimeye göre öğrenilir.",
+      "example_tr": "Ketebe bir I. bâb örneğidir; bütün I. bâb fiiller yazmak gibi davranmaz.",
+      "broader": [
+        "ML:C020"
+      ],
+      "helped_by": [
+        "ML:C017"
+      ]
+    },
+    {
+      "id": "ML:C113",
+      "keyword": "form_ii",
+      "label_tr": "II. bâb",
+      "definition": "Faʿʿale kuruluşunu ve yerel katkısını tanıma.",
+      "topics": [
+        "ML:T018"
+      ],
+      "boundary_tr": "Her şeddeyi yoğunluk ya da her II. bâbı ettirgen sayma.",
+      "intro_tr": "II. bâbda ikinci kök harfi çift görünür. Bunun anlam katkısı kelimenin kullanımından anlaşılır.",
+      "example_tr": "ʿAlleme, ʿalime ile karşılaştırılabilir; öğretme ilişkisi bu kelimede belgelenir.",
+      "broader": [
+        "ML:C020"
+      ],
+      "helped_by": [
+        "ML:C017",
+        "ML:C040"
+      ]
+    },
+    {
+      "id": "ML:C114",
+      "keyword": "form_iii",
+      "label_tr": "III. bâb",
+      "definition": "Fâʿale kuruluşunu ve katılan ilişkisini tanıma.",
+      "topics": [
+        "ML:T018"
+      ],
+      "boundary_tr": "Her III. bâbı zorunlu karşılıklılık diye çevirme.",
+      "intro_tr": "III. bâbda ilk kök harfinden sonra uzun â bulunur. Anlamı ve katılan düzeni her kelimede ayrıca incelenir.",
+      "example_tr": "Ḳâtele biçiminde uzun â kalıbı tanımaya yardım eder.",
+      "broader": [
+        "ML:C020"
+      ],
+      "helped_by": [
+        "ML:C017",
+        "ML:C038"
+      ]
+    },
+    {
+      "id": "ML:C115",
+      "keyword": "form_iv",
+      "label_tr": "IV. bâb",
+      "definition": "Efʿale kuruluşunu tanıma.",
+      "topics": [
+        "ML:T018"
+      ],
+      "boundary_tr": "Başlangıç hemzesini her yerde IV. bâb veya aynı anlam sayma.",
+      "intro_tr": "IV. bâb, başlangıçtaki hemzeyle tanınabilen bir kuruluştur. Hangi anlamı kattığı sözlük kullanımıyla belirlenir.",
+      "example_tr": "Aḫrace, çıkarma anlamıyla ḫaraceye bağlanabilir.",
+      "broader": [
+        "ML:C020"
+      ],
+      "helped_by": [
+        "ML:C017"
+      ]
+    },
+    {
+      "id": "ML:C116",
+      "keyword": "form_v",
+      "label_tr": "V. bâb",
+      "definition": "Tefaʿʿale kuruluşunu tanıma.",
+      "topics": [
+        "ML:T018"
+      ],
+      "boundary_tr": "T- ve şeddeyi tek başına kendi kendine anlamına bağlama.",
+      "intro_tr": "V. bâbda t- ile ikinci kök harfinin çiftliği birlikte görülür. Kelimenin anlamı bu biçimden tek başına çıkarılmaz.",
+      "example_tr": "Teʿalleme biçimi, ʿalleme ile belgeli bir öğrenme/öğretme karşılaştırmasına girer.",
+      "broader": [
+        "ML:C020"
+      ],
+      "helped_by": [
+        "ML:C113"
+      ]
+    },
+    {
+      "id": "ML:C117",
+      "keyword": "form_vi",
+      "label_tr": "VI. bâb",
+      "definition": "Tefâʿale kuruluşunu tanıma.",
+      "topics": [
+        "ML:T018"
+      ],
+      "boundary_tr": "Her VI. bâbda iki ayrı kişinin karşılıklı eylemini varsayma.",
+      "intro_tr": "VI. bâb t- ve uzun â ile tanınabilir. Karşılıklılık gibi katkılar ancak yerel kullanım destekliyorsa öğretilir.",
+      "example_tr": "Teʿâvenû biçimi yardımlaşma anlamıyla incelenebilir.",
+      "broader": [
+        "ML:C020"
+      ],
+      "helped_by": [
+        "ML:C114"
+      ]
+    },
+    {
+      "id": "ML:C118",
+      "keyword": "form_vii",
+      "label_tr": "VII. bâb",
+      "definition": "İnfeʿale kuruluşunu tanıma.",
+      "topics": [
+        "ML:T018"
+      ],
+      "boundary_tr": "Başlangıç in- unsurunu olumsuzluk veya her kelimeyi edilgen sayma.",
+      "intro_tr": "VII. bâbın in- parçası kelimenin kuruluşuna aittir. Türkçede hangi fiille karşılanacağı kullanımdan öğrenilir.",
+      "example_tr": "İnḳalebe biçimindeki in-, bağımsız bir olumsuzluk edatı değildir.",
+      "broader": [
+        "ML:C020"
+      ],
+      "helped_by": [
+        "ML:C017"
+      ]
+    },
+    {
+      "id": "ML:C119",
+      "keyword": "form_viii",
+      "label_tr": "VIII. bâb",
+      "definition": "İfteʿale kuruluşunu ve ses uyumunu tanıma.",
+      "topics": [
+        "ML:T018"
+      ],
+      "boundary_tr": "Eklenen t her yüzeyde açık görünür sanma.",
+      "intro_tr": "VIII. bâbda kök harfleri arasına giren t, komşu sesle değişebilir. Yüzey biçimi belgeli çözümle okunur.",
+      "example_tr": "İtteḳâ biçiminin kökü, görünen ilk iki t sayılarak belirlenmez.",
+      "broader": [
+        "ML:C020"
+      ],
+      "helped_by": [
+        "ML:C017",
+        "ML:C125"
+      ]
+    },
+    {
+      "id": "ML:C120",
+      "keyword": "form_ix",
+      "label_tr": "IX. bâb",
+      "definition": "İfʿalle kuruluşunu tanıma.",
+      "topics": [
+        "ML:T018"
+      ],
+      "boundary_tr": "Bütün şeddeli sonları IX. bâb veya bütün durumları renk sayma.",
+      "intro_tr": "IX. bâbın son kök harfi çift görünür. Renk ve durum bildiren örneklerde biçim ile yerel anlam birlikte izlenir.",
+      "example_tr": "İsvedde siyahlaşma anlamında bu kuruluşu örnekler.",
+      "broader": [
+        "ML:C020"
+      ],
+      "helped_by": [
+        "ML:C017"
+      ]
+    },
+    {
+      "id": "ML:C121",
+      "keyword": "form_x",
+      "label_tr": "X. bâb",
+      "definition": "İstefʿale kuruluşunu tanıma.",
+      "topics": [
+        "ML:T018"
+      ],
+      "boundary_tr": "İste- başlangıcını istisnasız istemek diye çözme.",
+      "intro_tr": "X. bâbda ist- parçası görülür. İsteme gibi anlamlar bazı kelimelerde bulunur; her kelimeye taşınmaz.",
+      "example_tr": "İstağfera bağışlanma istemeyi anlatabilir; kalıp bütün örnekler için aynı çeviri değildir.",
+      "broader": [
+        "ML:C020"
+      ],
+      "helped_by": [
+        "ML:C017"
+      ]
+    },
+    {
+      "id": "ML:C122",
+      "keyword": "rare_triliteral_forms",
+      "label_tr": "Seyrek üçlü kalıplar",
+      "definition": "Yaygın onlu dizinin dışındaki belgeli kuruluşları tanıma.",
+      "topics": [
+        "ML:T018"
+      ],
+      "boundary_tr": "Seyrek biçimi yakın görünen yaygın bâba zorla yerleştirme.",
+      "intro_tr": "Bazı üçlü kök biçimleri yaygın on kalıbın dışında ele alınır. Adlandırmayı kullanılan çözüm kaynağıyla birlikte veririz.",
+      "example_tr": "Bir XI veya XII etiketi görüldüğünde somut kelime ve çözüm dayanağı gösterilir.",
+      "broader": [
+        "ML:C020"
+      ]
+    },
+    {
+      "id": "ML:C123",
+      "keyword": "quadriliteral",
+      "label_tr": "Dört harfli kök ve kalıp",
+      "definition": "Dörtlü kökü üçlü köke ek sanmadan tanıma.",
+      "topics": [
+        "ML:T018"
+      ],
+      "boundary_tr": "Dört ünsüzlü her yüzeyi dört kök harfi sayma.",
+      "intro_tr": "Bazı kelime aileleri dört kök harfiyle kurulur. Türetme parçaları ile kök harflerini yine ayırmak gerekir.",
+      "example_tr": "Vesvese, dörtlü kuruluşla açıklanan bir örnektir.",
+      "broader": [
+        "ML:C017"
+      ]
+    },
+    {
+      "id": "ML:C124",
+      "keyword": "quadriliteral_derived",
+      "label_tr": "Dörtlü kökün türemiş biçimi",
+      "definition": "Dörtlü kök üzerindeki ekli kuruluşu tanıma.",
+      "topics": [
+        "ML:T018"
+      ],
+      "boundary_tr": "Üçlü kök bâb numaralarını aynı anlamla aktarma.",
+      "intro_tr": "Dörtlü kökler de farklı kuruluşlara girebilir. Bir biçimin numarasını kendi dörtlü dizisi içinde okuruz.",
+      "example_tr": "İḳşaʿarra çözümünde kök ve dörtlü kalıp birlikte gösterilir.",
+      "broader": [
+        "ML:C123",
+        "ML:C020"
+      ]
+    },
+    {
+      "id": "ML:C125",
+      "keyword": "pattern_sound_change",
+      "label_tr": "Kalıpta ses değişimi",
+      "definition": "Kalıp işaretini örten birleşme/düşmeyi tanıma.",
+      "topics": [
+        "ML:T018",
+        "ML:T014"
+      ],
+      "boundary_tr": "Ses değişmesinden dayanıksız anlam farkı çıkarma.",
+      "intro_tr": "Bir kalıbın parçaları konuşmada birleşebilir veya değişebilir. Görünmeyen yapıyı ancak belgeli çözümle gösteririz.",
+      "example_tr": "İtteḳâ gibi bir biçimi tanırken sözlük biçimi ile yüzey okunuşu birlikte kullanılır.",
+      "broader": [
+        "ML:C017"
+      ]
+    },
+    {
+      "id": "ML:C126",
+      "keyword": "active_participle",
+      "label_tr": "İsm-i fâil",
+      "definition": "Yapanı/niteliği bildiren türemiş ismi tanıma.",
+      "topics": [
+        "ML:T019"
+      ],
+      "boundary_tr": "Biçimden tek başına şimdiki zaman veya sürekli nitelik çıkarma.",
+      "intro_tr": "İsm-i fâil eylemi yapanı veya onunla niteleneni gösterebilir. Zaman ve kullanım cümleyle belirlenir.",
+      "example_tr": "Kâtib yazan kişi veya yazar olarak kullanılabilir.",
+      "broader": [
+        "ML:C021"
+      ],
+      "helped_by": [
+        "ML:C017"
+      ],
+      "aliases": [
+        "ism-i fâil"
+      ]
+    },
+    {
+      "id": "ML:C127",
+      "keyword": "passive_participle",
+      "label_tr": "İsm-i mefûl",
+      "definition": "Etkileneni bildiren türemiş ismi tanıma.",
+      "topics": [
+        "ML:T019"
+      ],
+      "boundary_tr": "Her me-/mü- başlangıcını ism-i mefûl sanma.",
+      "intro_tr": "İsm-i mefûl, eylemin yöneldiği veya etkilediği şeyi niteleyebilir. Kalıp çözümü gerçek kelimeyle desteklenir.",
+      "example_tr": "Mektûb yazılmış olanı gösterebilir.",
+      "broader": [
+        "ML:C021"
+      ],
+      "helped_by": [
+        "ML:C126"
+      ],
+      "aliases": [
+        "ism-i mefûl"
+      ]
+    },
+    {
+      "id": "ML:C128",
+      "keyword": "intensive_noun",
+      "label_tr": "Mübalağa biçimi",
+      "definition": "Yoğunluk/çokluk anlatabilen isim kuruluşunu tanıma.",
+      "topics": [
+        "ML:T019"
+      ],
+      "boundary_tr": "Bir kalıptan sınırsızlık veya kesin tekrar sayısı çıkarma.",
+      "intro_tr": "Bazı isim kalıpları bir niteliğin güçlü görünümünü anlatabilir. Katkı, kelimenin yerel kullanımıyla açıklanır.",
+      "example_tr": "Ğaffâr gibi bir biçimde yoğunluk anlatımı ele alınabilir; sayısal miktar çıkarılmaz.",
+      "broader": [
+        "ML:C020"
+      ],
+      "aliases": [
+        "sîga-i mübalağa"
+      ]
+    },
+    {
+      "id": "ML:C129",
+      "keyword": "qualitative_adjective",
+      "label_tr": "Sıfat-ı müşebbehe",
+      "definition": "Niteliği bildiren türemiş sıfatı tanıma.",
+      "topics": [
+        "ML:T019"
+      ],
+      "boundary_tr": "Kalıptan tek başına değişmezlik veya ebedilik çıkarma.",
+      "intro_tr": "Bazı sıfatlar bir niteliği kişi veya şeye bağlar. Bu ilişkinin sürekliliği bağlamın söylediği kadar açıklanır.",
+      "example_tr": "Kerîm gibi bir sıfat nitelik bildirir; yalnız biçiminden sınırsız zaman sonucu çıkmaz.",
+      "broader": [
+        "ML:C020"
+      ]
+    },
+    {
+      "id": "ML:C130",
+      "keyword": "elative",
+      "label_tr": "Üstünlük ve karşılaştırma biçimi",
+      "definition": "Efʿal kuruluşunun karşılaştırma kullanımını tanıma.",
+      "topics": [
+        "ML:T019"
+      ],
+      "boundary_tr": "Her efʿal biçimini daha/en sayma.",
+      "intro_tr": "Bazı efʿal biçimleri iki şeyi karşılaştırır veya üstünlük bildirir. Aynı görünüşteki başka kelimeler farklı görevde olabilir.",
+      "example_tr": "Ekber, bağlama göre daha büyük veya en büyük diye açılabilir.",
+      "broader": [
+        "ML:C020"
+      ],
+      "helped_by": [
+        "ML:C010"
+      ],
+      "aliases": [
+        "ism-i tafdîl"
+      ]
+    },
+    {
+      "id": "ML:C131",
+      "keyword": "place_time_noun",
+      "label_tr": "Yer ve zaman ismi",
+      "definition": "Eylemle ilişkili yer/zaman kuruluşunu tanıma.",
+      "topics": [
+        "ML:T019"
+      ],
+      "boundary_tr": "Her me- başlangıcını yer adı sayma.",
+      "intro_tr": "Bazı türemiş isimler eylemin yerini veya zamanını gösterebilir. Hangi anlamın etkin olduğu kullanımda anlaşılır.",
+      "example_tr": "Mescid, secdeyle ilişkili yer adı olarak incelenebilir.",
+      "broader": [
+        "ML:C020"
+      ],
+      "aliases": [
+        "ism-i mekân",
+        "ism-i zaman"
+      ]
+    },
+    {
+      "id": "ML:C132",
+      "keyword": "instrument_noun",
+      "label_tr": "Araç ismi",
+      "definition": "Eylemle ilişkili araç adını tanıma.",
+      "topics": [
+        "ML:T019"
+      ],
+      "boundary_tr": "Araç anlamını yalnız başlangıç sesinden çıkarma.",
+      "intro_tr": "Bazı isim kuruluşları bir işin aracını adlandırır. Her kelimenin kullanımı ayrıca belgelenir.",
+      "example_tr": "Miftâḥ, açma eylemiyle ilişkili anahtar adıdır.",
+      "broader": [
+        "ML:C020"
+      ],
+      "aliases": [
+        "ism-i âlet"
+      ]
+    },
+    {
+      "id": "ML:C133",
+      "keyword": "nisba",
+      "label_tr": "Nispet sıfatı",
+      "definition": "Bir yere/gruba/özelliğe bağlılık bildiren kuruluşu tanıma.",
+      "topics": [
+        "ML:T019"
+      ],
+      "boundary_tr": "Her son -î sesini nispet eki sayma.",
+      "intro_tr": "Nispet kuruluşu bir kelimeyi bir alanla ilişkilendirebilir. İlişkinin ne olduğu kelimenin kullanımında belirlenir.",
+      "example_tr": "ʿArabî, Arapçayla veya Araplarla ilgili olma bağını gösterebilir.",
+      "broader": [
+        "ML:C020"
+      ]
+    },
+    {
+      "id": "ML:C134",
+      "keyword": "diminutive",
+      "label_tr": "Küçültme kuruluşu",
+      "definition": "Küçültme biçiminin boyut ve hitap etkisini ayırma.",
+      "topics": [
+        "ML:T019"
+      ],
+      "boundary_tr": "Her küçültme biçimini fiziksel küçüklük sayma.",
+      "intro_tr": "Küçültme kuruluşu boyutun yanında yakınlık veya hitap tonu da taşıyabilir. Yerel işlevi konuşma bağlamından anlarız.",
+      "example_tr": "Büneyye hitabı oğul için yakınlık taşıyabilir.",
+      "broader": [
+        "ML:C020"
+      ]
+    },
+    {
+      "id": "ML:C135",
+      "keyword": "verbal_noun_unit",
+      "label_tr": "Bir defalık oluş adı",
+      "definition": "Eylemin tek gerçekleşmesini adlandıran biçimi tanıma.",
+      "topics": [
+        "ML:T019"
+      ],
+      "boundary_tr": "Her ة sonunu bir defalık eylem sayma.",
+      "intro_tr": "Bazı mastar kuruluşları bir eylemin tek oluşunu adlandırır. Bu çözüm için hem biçim hem kullanım gerekir.",
+      "example_tr": "Ḍarbetün, uygun kullanımda bir vuruş diye açılabilir.",
+      "broader": [
+        "ML:C022"
+      ]
+    },
+    {
+      "id": "ML:C136",
+      "keyword": "verbal_noun_manner",
+      "label_tr": "Yapılış tarzı adı",
+      "definition": "Eylemin yapılış biçimini adlandıran kuruluşu tanıma.",
+      "topics": [
+        "ML:T019"
+      ],
+      "boundary_tr": "Biçim adını eylemin sayısıyla karıştırma.",
+      "intro_tr": "Bir ad eylemin kendisini değil nasıl yapıldığını gösterebilir. Biçim ve sözlük kullanımı birlikte aranır.",
+      "example_tr": "Cilsetün, uygun kullanımda oturuş tarzını anlatabilir.",
+      "broader": [
+        "ML:C022"
+      ]
+    },
+    {
+      "id": "ML:C137",
+      "keyword": "verbal_noun_governance",
+      "label_tr": "Mastarın katılanları",
+      "definition": "Mastara bağlı özne/nesne ilişkisini izleme.",
+      "topics": [
+        "ML:T019"
+      ],
+      "boundary_tr": "Mastar isim diye fiille ilişkili katılanları yok sayma.",
+      "intro_tr": "Eylemin adı, eylemi yapan veya ondan etkileneni de yanına alabilir. Bu ilişkiler tamlama ve durumla görünür.",
+      "example_tr": "Bir yazma ifadesinde kimin yazdığı ve neyi yazdığı mastara bağlanabilir.",
+      "requires": [
+        "ML:C022"
+      ],
+      "broader": [
+        "ML:C022",
+        "ML:C012"
+      ]
+    },
+    {
+      "id": "ML:C138",
+      "keyword": "clause_roles",
+      "label_tr": "Cümlede temel görevler",
+      "definition": "Özne, yüklem ve nesneyi biçim sınıfından ayırma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "İsim olan her kelimeyi özne sayma.",
+      "intro_tr": "Kelimenin türü ile cümledeki işi ayrı sorulardır. Bir isim bir yerde özne, başka yerde nesne olabilir.",
+      "example_tr": "Kitâb isimdir; cümleye göre hakkında konuşulan veya okunan şey olabilir."
+    },
+    {
+      "id": "ML:C139",
+      "keyword": "nominal_clause",
+      "label_tr": "İsim cümlesi",
+      "definition": "Mübteda ve haberin kurduğu yargıyı tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Açık fiil yok diye ifadeyi anlamsız eksik cümle sayma.",
+      "intro_tr": "Bir yargı açık fiil olmadan da kurulabilir. Bir unsur hakkında başka bir bilgi söylenir.",
+      "example_tr": "Allâhu eḥad ifadesinde Allah hakkında tek olma yargısı verilir.",
+      "broader": [
+        "ML:C138"
+      ],
+      "helped_by": [
+        "ML:C138"
+      ]
+    },
+    {
+      "id": "ML:C140",
+      "keyword": "topic_subject",
+      "label_tr": "Mübteda",
+      "definition": "İsim cümlesinde hakkında yargı verilen unsuru tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Her ilk kelimeyi mübteda sayma.",
+      "intro_tr": "İsim cümlesinde bir unsur hakkında bilgi verilir. Bu unsur her zaman cümlenin en başında bulunmak zorunda değildir.",
+      "example_tr": "El-kitâbu cedîdün örneğinde hakkında konuşulan el-kitâbdır.",
+      "broader": [
+        "ML:C139"
+      ],
+      "aliases": [
+        "mübteda"
+      ]
+    },
+    {
+      "id": "ML:C141",
+      "keyword": "predicate",
+      "label_tr": "Haber",
+      "definition": "İsim cümlesindeki yargı bilgisini tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Her sıfatı haber veya her haberi tek kelime sayma.",
+      "intro_tr": "Haber, hakkında konuşulan unsur için verilen bilgidir. Bir kelime, söz öbeği veya cümle olabilir.",
+      "example_tr": "El-kitâbu cedîdün örneğinde cedîdün yeni olma yargısıdır.",
+      "broader": [
+        "ML:C139"
+      ],
+      "aliases": [
+        "haber"
+      ]
+    },
+    {
+      "id": "ML:C142",
+      "keyword": "prepositional_predicate",
+      "label_tr": "Edat öbeğiyle haber",
+      "definition": "Yer/ilişki bildiren öbeğin yüklem olmasını tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Edat öbeğini her durumda fiile bağlama.",
+      "intro_tr": "Bir edat öbeği tek başına yargının haber kısmını oluşturabilir. Türkçe bunu eklerle veya var gibi ifadelerle açabilir.",
+      "example_tr": "El-kitâbu fi l-beyt örneği kitabın evde olduğu bilgisini verir.",
+      "broader": [
+        "ML:C141",
+        "ML:C004"
+      ]
+    },
+    {
+      "id": "ML:C143",
+      "keyword": "verbal_clause",
+      "label_tr": "Fiil cümlesi",
+      "definition": "Fiil merkezli yargının kuruluşunu tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Yüzeyde ilk sözcük edat diye fiil merkezini gözden kaçırma.",
+      "intro_tr": "Fiil cümlesinde olay veya oluş, katılanlarıyla birlikte verilir. Önündeki bağlayıcılar bu merkez yapıyı ortadan kaldırmaz.",
+      "example_tr": "Câe Zeydün örneğinde gelme fiili cümlenin merkezidir.",
+      "broader": [
+        "ML:C012"
+      ],
+      "helped_by": [
+        "ML:C138"
+      ]
+    },
+    {
+      "id": "ML:C144",
+      "keyword": "subject",
+      "label_tr": "Fâil",
+      "definition": "Etken fiilin öznesini açık veya çekimde bulma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Özneyi mutlaka istemli bir insan sayma.",
+      "intro_tr": "Fiilin öznesi olayı yapan veya oluşun bağlandığı unsurdur. İnsan olmak veya bilinçli davranmak zorunda değildir.",
+      "example_tr": "Câe Zeydün örneğinde Zeydün gelme fiilinin öznesidir.",
+      "broader": [
+        "ML:C138",
+        "ML:C012"
+      ],
+      "aliases": [
+        "fâil"
+      ]
+    },
+    {
+      "id": "ML:C145",
+      "keyword": "passive_subject",
+      "label_tr": "Nâib-i fâil",
+      "definition": "Edilgen yapıda özne konumundaki unsuru tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Türkçe nesne anlamını Arapça cümle göreviyle karıştırma.",
+      "intro_tr": "Edilgen yapıda etkileneni gösteren unsur özne konumuna geçebilir. Onu etken cümlenin nesnesiyle aynı görev adıyla bırakmayız.",
+      "example_tr": "Kütibe l-kitâbu örneğinde el-kitâbu edilgen yapının özne konumundadır.",
+      "requires": [
+        "ML:C103"
+      ],
+      "broader": [
+        "ML:C144"
+      ],
+      "aliases": [
+        "nâib-i fâil"
+      ]
+    },
+    {
+      "id": "ML:C146",
+      "keyword": "verb_subject_agreement",
+      "label_tr": "Fiil ile özne uyumu",
+      "definition": "Sıralamaya bağlı sayı/cinsiyet uyumunu izleme.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Özne çoğulsa fiil her sırada çoğul olmalı deme.",
+      "intro_tr": "Fiil ile öznenin uyumu, kelime sırasına ve yapı türüne bağlı olabilir. Biçim farkını yerel cümlede açıklarız.",
+      "example_tr": "Önce fiil, sonra çoğul özne gelen yapıda fiilin tekil görünmesi mümkündür.",
+      "broader": [
+        "ML:C035",
+        "ML:C143"
+      ]
+    },
+    {
+      "id": "ML:C147",
+      "keyword": "kana",
+      "label_tr": "Kâne ve benzeri fiiller",
+      "definition": "İsim cümlesine zaman/durum katan fiilin görevlerini tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Her kâneyi aynı geçmiş zaman çevirisine sıkıştırma.",
+      "intro_tr": "Kâne türü fiiller bir özne ile onun hakkında verilen bilgiyi ilişkilendirir. Haberlerinin durumu ve bağlamsal anlamları ayrıca izlenir.",
+      "example_tr": "Kâne Zeydün ḳâimen örneğinde ḳâimen haber görevindedir.",
+      "broader": [
+        "ML:C139"
+      ]
+    },
+    {
+      "id": "ML:C148",
+      "keyword": "laysa",
+      "label_tr": "Leyse ile olumsuz yargı",
+      "definition": "İsim cümlesini olumsuzlayan leysenin yapısını tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Leyseyi değişmeyen basit bir hayır sözü sayma.",
+      "intro_tr": "Leyse bir yargının geçerli olmadığını bildirir ve kişi biçimleri alabilir. İsim ve haber ilişkisi korunur.",
+      "example_tr": "Leyse Zeydün ḳâimen örneği ayakta olma yargısını olumsuzlar.",
+      "broader": [
+        "ML:C147",
+        "ML:C014"
+      ]
+    },
+    {
+      "id": "ML:C149",
+      "keyword": "inna",
+      "label_tr": "İnne ve benzeri öğeler",
+      "definition": "İsim cümlesindeki nasb ve vurgu/bağ ilişkisini tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Hepsini aynı kesinlikle karşılığına indirgeme.",
+      "intro_tr": "İnne ailesindeki öğeler isim cümlesine bağlanır ve ilk unsurun durumunu etkileyebilir. Her öğenin anlamı farklıdır.",
+      "example_tr": "İnne Zeyden ḳâimün örneğinde Zeyden mansûb, ḳâimün haberdir.",
+      "broader": [
+        "ML:C139"
+      ]
+    },
+    {
+      "id": "ML:C150",
+      "keyword": "la_genus",
+      "label_tr": "Türü dışlayan lâ",
+      "definition": "Lâ ile genel olumsuz isim yapısını tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Her lâ+noun dizisini aynı çözümle okuma.",
+      "intro_tr": "Bazı lâ yapıları bir türün ilgili kapsamda bulunmadığını bildirir. Sonraki istisna ve bağlam kapsamı belirler.",
+      "example_tr": "Lâ raybe fîh ifadesindeki lâ ile rayb arasındaki özel yapı incelenir.",
+      "broader": [
+        "ML:C014",
+        "ML:C139"
+      ]
+    },
+    {
+      "id": "ML:C151",
+      "keyword": "idafa_relations",
+      "label_tr": "Tamlamanın anlam ilişkisi",
+      "definition": "Tamlamada sahiplik, parça, tür veya başka ilişkiyi ayırma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Bütün tamlamaları mülkiyet diye açıklama.",
+      "intro_tr": "İsim tamlaması iki adı bağlar ama bağın türünü tek başına söylemez. İlişki cümle ve kullanımla belirlenir.",
+      "example_tr": "Yevmi d-dîn ifadesindeki bağ, bir kişinin bir nesneye sahip olması değildir.",
+      "broader": [
+        "ML:C011"
+      ]
+    },
+    {
+      "id": "ML:C152",
+      "keyword": "idafa_definiteness",
+      "label_tr": "Tamlamada belirlilik",
+      "definition": "İlk ismin belirliliğinin ikinci unsurla ilişkisini tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "İlk isimde el- yok diye belirsiz sayma.",
+      "intro_tr": "Bir tamlamanın ilk ismi, bağlı olduğu belirli unsurdan belirlilik kazanabilir. Bu yüzden el- tek ölçüt değildir.",
+      "example_tr": "Kitâbu Zeydin, belirli bir kişinin kitabını gösterebilir.",
+      "requires": [
+        "ML:C011"
+      ],
+      "broader": [
+        "ML:C011",
+        "ML:C007"
+      ]
+    },
+    {
+      "id": "ML:C153",
+      "keyword": "adjective_predicate",
+      "label_tr": "Sıfat ile haberi ayırma",
+      "definition": "Niteleme ile yeni yargıyı bağlam ve biçimle ayırma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Her yan yana isim-sıfat dizisini aynı yapı sayma.",
+      "intro_tr": "Bir sıfat adı niteleyebilir veya onun hakkında yargı verebilir. Belirlilik ve cümlenin bütünü ayrımı gösterir.",
+      "example_tr": "El-kitâbu l-cedîd yeni kitap; el-kitâbu cedîdün kitap yenidir diye açılabilir.",
+      "broader": [
+        "ML:C010",
+        "ML:C141"
+      ],
+      "helped_by": [
+        "ML:C010",
+        "ML:C141"
+      ]
+    },
+    {
+      "id": "ML:C154",
+      "keyword": "apposition",
+      "label_tr": "Bedel ve açıklayıcı ad",
+      "definition": "Yan yana adların aynı unsuru açıklama ilişkisini tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Her ikinci adı sıfat veya yeni özne sayma.",
+      "intro_tr": "Bir adın ardından gelen başka bir ad aynı unsuru daha açık gösterebilir. İlişki, ayrı iki varlık sayılmadan okunur.",
+      "example_tr": "Bir kişinin adı ardından unvanıyla açıklanıyorsa iki farklı kişi varsayılmaz.",
+      "broader": [
+        "ML:C138"
+      ]
+    },
+    {
+      "id": "ML:C155",
+      "keyword": "verbal_emphasis",
+      "label_tr": "Lafzî ve manevî tekit",
+      "definition": "Tekrar veya küll/nefs gibi öğelerle pekiştirmeyi tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Her tekrarın aynı vurgu derecesini verdiğini varsayma.",
+      "intro_tr": "Bir söz tekrar edilerek veya kapsamı belirginleştiren bir öğeyle pekiştirilebilir. Tekit edilen unsur cümlede bulunur.",
+      "example_tr": "Küllühüm ifadesi uygun bağlamda onların tümünü belirginleştirir."
+    },
+    {
+      "id": "ML:C156",
+      "keyword": "vocative_construction",
+      "label_tr": "Seslenme yapısı",
+      "definition": "Münâdâyı ve seslenmenin biçimini tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Her yâ sonrası öğeyi normal nesne sayma.",
+      "intro_tr": "Seslenme, bir muhatabı doğrudan çağırır. Seslenilen adın biçimi özel kurallara bağlı olabilir.",
+      "example_tr": "Yâ Rabbi ifadesi Rabbine doğrudan seslenmedir."
+    },
+    {
+      "id": "ML:C157",
+      "keyword": "direct_object",
+      "label_tr": "Doğrudan nesne",
+      "definition": "Fiilin doğrudan bağlandığı nesneyi tanıma.",
+      "topics": [
+        "ML:T021"
+      ],
+      "boundary_tr": "Türkçedeki ek biçiminden Arapça görevi çıkarma.",
+      "intro_tr": "Bir fiil eylemin yöneldiği şeyi doğrudan nesne olarak alabilir. Türkçe aynı ilişkiyi başka bir ekle verebilir.",
+      "example_tr": "İyyâke naʿbüdü ifadesinde iyyâke doğrudan nesne görevindedir.",
+      "broader": [
+        "ML:C138",
+        "ML:C012"
+      ],
+      "aliases": [
+        "mefûl bih"
+      ]
+    },
+    {
+      "id": "ML:C158",
+      "keyword": "multiple_objects",
+      "label_tr": "Birden çok nesne",
+      "definition": "Fiilin birden fazla nesneyle kurduğu ilişkiyi ayırma.",
+      "topics": [
+        "ML:T021"
+      ],
+      "boundary_tr": "Yan yana her iki mansûbu iki nesne sayma.",
+      "intro_tr": "Bazı fiiller birden fazla nesneye bağlanabilir. Her nesnenin fiile nasıl katıldığını ayrı açıklarız.",
+      "example_tr": "Birine bir şeyi verme yapısında alıcı ile verilen şey farklı katılanlardır.",
+      "broader": [
+        "ML:C157",
+        "ML:C105"
+      ]
+    },
+    {
+      "id": "ML:C159",
+      "keyword": "prepositional_attachment",
+      "label_tr": "Edat öbeğinin bağlandığı unsur",
+      "definition": "Cer öbeğinin hangi fiil veya ada bağlı olduğunu bulma.",
+      "topics": [
+        "ML:T021"
+      ],
+      "boundary_tr": "En yakın kelimeyi otomatik bağlanma hedefi sayma.",
+      "intro_tr": "Bir edat öbeği cümledeki bir fiili veya adı tamamlayabilir. Bağlandığı unsur anlamı etkiler.",
+      "example_tr": "Bi-smi öbeğinin hangi işe bağlandığı açık fiil veya bağlamla anlaşılır.",
+      "broader": [
+        "ML:C004",
+        "ML:C138"
+      ]
+    },
+    {
+      "id": "ML:C160",
+      "keyword": "circumstantial_hal",
+      "label_tr": "Hâl",
+      "definition": "Olay sırasındaki durumu bildiren unsuru tanıma.",
+      "topics": [
+        "ML:T021"
+      ],
+      "boundary_tr": "Hâli kalıcı sıfatla veya Türkçe ad durumuyla karıştırma.",
+      "intro_tr": "Hâl, olay gerçekleşirken bir katılanın durumunu anlatır. Aynı kişiye her zaman ait bir nitelik olması gerekmez.",
+      "example_tr": "Ḍâḥiken gibi bir öğe uygun cümlede gülerek karşılığını alabilir.",
+      "broader": [
+        "ML:C068",
+        "ML:C138"
+      ],
+      "helped_by": [
+        "ML:C138"
+      ],
+      "aliases": [
+        "hâl",
+        "حال"
+      ]
+    },
+    {
+      "id": "ML:C161",
+      "keyword": "specification_tamyiz",
+      "label_tr": "Temyiz",
+      "definition": "Belirsiz ölçü veya ilişkinin hangi bakımdan olduğunu açıklama.",
+      "topics": [
+        "ML:T021"
+      ],
+      "boundary_tr": "Temyizi doğrudan nesne veya sıradan sıfat sayma.",
+      "intro_tr": "Bazı ifadeler miktarı veya üstünlüğü söyler ama hangi bakımdan olduğunu açık bırakır. Temyiz bu açıklığı tamamlar.",
+      "example_tr": "Daha fazla denilen yerde mal bakımından öğesi karşılaştırmanın alanını belirtir.",
+      "broader": [
+        "ML:C068"
+      ],
+      "helped_by": [
+        "ML:C138"
+      ],
+      "aliases": [
+        "temyiz",
+        "تمييز"
+      ]
+    },
+    {
+      "id": "ML:C162",
+      "keyword": "cognate_accusative",
+      "label_tr": "Mefûl-i mutlak",
+      "definition": "Fiille ilişkili mastarın pekiştirme/tür/sayı işini tanıma.",
+      "topics": [
+        "ML:T021"
+      ],
+      "boundary_tr": "Her mastarı ayrı ikinci eylem sayma.",
+      "intro_tr": "Fiille aynı aileden bir eylem adı, olayı pekiştirebilir veya nasıl/kaç kez olduğunu anlatabilir. Yerel görevini cümle belirler.",
+      "example_tr": "Kelleme ... teklîmen türü yapıda mastar aynı konuşma olayını pekiştirebilir.",
+      "broader": [
+        "ML:C022",
+        "ML:C068"
+      ],
+      "helped_by": [
+        "ML:C022"
+      ],
+      "aliases": [
+        "mefûl mutlak"
+      ]
+    },
+    {
+      "id": "ML:C163",
+      "keyword": "purpose_accusative",
+      "label_tr": "Amaç bildiren mastar",
+      "definition": "Eylemin yapılma nedenini açıklayan mastarı tanıma.",
+      "topics": [
+        "ML:T021"
+      ],
+      "boundary_tr": "Her mansûb mastarı amaç sayma.",
+      "intro_tr": "Bir eylem adı başka bir işin hangi amaçla yapıldığını gösterebilir. Bu ilişki, nesne ilişkisiyle karıştırılmaz.",
+      "example_tr": "Ḫavfen uygun yapıda korku nedeniyle diye açıklanabilir.",
+      "broader": [
+        "ML:C022",
+        "ML:C068"
+      ],
+      "aliases": [
+        "mefûl leh",
+        "mefûl li-eclih"
+      ]
+    },
+    {
+      "id": "ML:C164",
+      "keyword": "time_adverb",
+      "label_tr": "Zaman belirten unsur",
+      "definition": "Olayı bir zamanla ilişkilendiren adı/öbeği tanıma.",
+      "topics": [
+        "ML:T021"
+      ],
+      "boundary_tr": "Zaman adı geçen her yeri zarf görevi sayma.",
+      "intro_tr": "Bir zaman ifadesi olayın ne zaman gerçekleştiğini gösterebilir. Kelimenin cümlede gerçekten bu işi yapıp yapmadığına bakarız.",
+      "example_tr": "Yevmen uygun bir fiile bağlandığında bir gün/zaman bilgisi verebilir.",
+      "broader": [
+        "ML:C138"
+      ]
+    },
+    {
+      "id": "ML:C165",
+      "keyword": "place_adverb",
+      "label_tr": "Yer belirten unsur",
+      "definition": "Olayın konumunu bildiren adı/öbeği tanıma.",
+      "topics": [
+        "ML:T021"
+      ],
+      "boundary_tr": "Yer adı ile yer zarfı görevini özdeşleştirme.",
+      "intro_tr": "Bir yer ifadesi olayın nerede olduğunu gösterebilir. Aynı kelime başka cümlede farklı görev alabilir.",
+      "example_tr": "Taḥte aşağıda/altında ilişkisi kurabilir.",
+      "broader": [
+        "ML:C138"
+      ]
+    },
+    {
+      "id": "ML:C166",
+      "keyword": "comitative",
+      "label_tr": "Birliktelik tamamlayıcısı",
+      "definition": "Vâvın birlikte olma bağlantısını ayırma.",
+      "topics": [
+        "ML:T021"
+      ],
+      "boundary_tr": "Her vâvı eş görevli iki öğeyi bağlayan ve sayma.",
+      "intro_tr": "Bazı vâvlar ikinci bir özne eklemek yerine birlikte olmayı anlatır. Çözüm bütün yapıdan anlaşılır.",
+      "example_tr": "Birliktelik vâvı Türkçede ile diye açılabilir; sıradan ve bağlantısıyla aynı değildir.",
+      "broader": [
+        "ML:C138"
+      ],
+      "aliases": [
+        "mefûl maah"
+      ]
+    },
+    {
+      "id": "ML:C167",
+      "keyword": "exception",
+      "label_tr": "İstisna",
+      "definition": "Bir kapsamdan ayrılan öğeyi tanıma.",
+      "topics": [
+        "ML:T021"
+      ],
+      "boundary_tr": "İllâ bulunan her yerde aynı çekim ve kapsam çözümünü dayatma.",
+      "intro_tr": "İstisna, önce kurulan kapsamdan bir öğeyi ayırır. Olumlu ve olumsuz yapılar farklı biçimde çözümlenebilir.",
+      "example_tr": "Herkes ... illâ ... türü bir cümlede ayrılan unsur ile temel kapsam birlikte okunur."
+    },
+    {
+      "id": "ML:C168",
+      "keyword": "disconnected_exception",
+      "label_tr": "Bağlantısız istisna",
+      "definition": "Önceki sınıfa girmeyen öğeyle kurulan istisna yorumunu tanıma.",
+      "topics": [
+        "ML:T021"
+      ],
+      "boundary_tr": "Her anlam güçlüğünü bağlantısız istisna diye çözme.",
+      "intro_tr": "Bazı istisna çözümlerinde sonraki unsur önceki sınıfın üyesi değildir. Bu yorumun yerel dayanağı açıkça gösterilir.",
+      "example_tr": "İllâ için ancak/fakat karşılığı öneriliyorsa öğelerin aynı sınıfta olup olmadığı incelenir.",
+      "requires": [
+        "ML:C167"
+      ],
+      "broader": [
+        "ML:C167"
+      ]
+    },
+    {
+      "id": "ML:C169",
+      "keyword": "restriction_exception",
+      "label_tr": "Olumsuzlukla kısıtlama",
+      "definition": "Olumsuzluk ve illânın yalnızlık kapsamını tanıma.",
+      "topics": [
+        "ML:T021"
+      ],
+      "boundary_tr": "Kısıtlanan unsuru cümlenin tamamına rastgele yayma.",
+      "intro_tr": "Olumsuzlukla birlikte istisna, bir yargıyı belirli bir unsurla sınırlandırabilir. Yalnız sözü hangi parçaya aitse orada açıklanır.",
+      "example_tr": "Mâ ... illâ ... yapısı bağlama göre ancak ... diye açılabilir.",
+      "broader": [
+        "ML:C167",
+        "ML:C014"
+      ],
+      "helped_by": [
+        "ML:C229"
+      ]
+    },
+    {
+      "id": "ML:C170",
+      "keyword": "coordination",
+      "label_tr": "Eş görevli bağlama",
+      "definition": "Kelime, öbek veya cümlelerin bağlanmasını tanıma.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Bağlaçtan tek başına zaman sırası çıkarma.",
+      "intro_tr": "Bir bağlaç iki kelimeyi, iki öbeği veya iki cümleyi bağlayabilir. Hangi düzeyde bağ kurduğunu buluruz.",
+      "example_tr": "Naʿbüdü ve nestaʿîn örneğinde iki fiil yargısı bağlanır."
+    },
+    {
+      "id": "ML:C171",
+      "keyword": "relative_clause",
+      "label_tr": "Sıla cümlesi",
+      "definition": "Bağlama zamirini tamamlayan cümlenin sınırını izleme.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Sıla içindeki özneyi ana cümlenin öznesiyle karıştırma.",
+      "intro_tr": "Bir bağlama zamirinin ardından onu açıklayan cümle gelir. Bu cümlenin kendi fiili ve katılanları olabilir.",
+      "example_tr": "Ellezî ḫalaḳ ifadesinde ḫalaḳ, bağlama zamirini açıklayan parçadır.",
+      "broader": [
+        "ML:C085"
+      ],
+      "helped_by": [
+        "ML:C085"
+      ]
+    },
+    {
+      "id": "ML:C172",
+      "keyword": "nominalized_clause",
+      "label_tr": "Mastar anlamlı yan cümle",
+      "definition": "En/en­ne gibi yapılarla cümlenin ad görevine gelmesini tanıma.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Bütün en/en­ne görünümlerini aynı yapı sayma.",
+      "intro_tr": "Bir cümle başka bir cümlede ad gibi görev alabilir. Türkçe bunu -mek veya -diği gibi biçimlerle karşılayabilir.",
+      "example_tr": "En yektübe uygun yapıda yazması/yazmak diye açılabilir.",
+      "broader": [
+        "ML:C138"
+      ]
+    },
+    {
+      "id": "ML:C173",
+      "keyword": "conditional",
+      "label_tr": "Şart ve sonuç",
+      "definition": "Koşul ile ona bağlanan sonucu ayırma.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Şartı tek başına geleceğin kesin haberi sayma.",
+      "intro_tr": "Şart cümlesi bir durumu başka bir sonuca bağlar. Koşul ile sonuç bölümünü ayrı buluruz.",
+      "example_tr": "İn ... fe ... türü yapıda önce şart, sonra ona bağlanan sonuç aranır.",
+      "helped_by": [
+        "ML:C138"
+      ]
+    },
+    {
+      "id": "ML:C174",
+      "keyword": "conditional_in",
+      "label_tr": "İn ile şart",
+      "definition": "İn edatının koşul işlevini tanıma.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Benzer yazımlı olumsuz in ile karıştırma.",
+      "intro_tr": "İn bazı kullanımlarda eğer ilişkisi kurar. Aynı görünüşün görevini takip eden yapıdan belirleriz.",
+      "example_tr": "İn küntüm ifadesi uygun bağlamda eğer ... iseniz diye açılır.",
+      "broader": [
+        "ML:C173"
+      ],
+      "helped_by": [
+        "ML:C173"
+      ]
+    },
+    {
+      "id": "ML:C175",
+      "keyword": "conditional_idha",
+      "label_tr": "İzâ ile zamanlı şart",
+      "definition": "İzânın zaman ve koşul bağlantısını tanıma.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "İzâya her yerde kesinlik yüzdesi yükleme.",
+      "intro_tr": "İzâ, bir durumun gerçekleştiği zamanla sonuç arasında bağ kurabilir. Türkçe bunu olduğunda veya eğer ile karşılayabilir.",
+      "example_tr": "İzâ câe ... ifadesinde geldiğinde okuması bağlamla değerlendirilir.",
+      "broader": [
+        "ML:C173",
+        "ML:C164"
+      ],
+      "helped_by": [
+        "ML:C173"
+      ]
+    },
+    {
+      "id": "ML:C176",
+      "keyword": "conditional_law",
+      "label_tr": "Lev ile varsayım",
+      "definition": "Lev yapısındaki varsayımsal veya karşıolgusal ilişkiyi tanıma.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Her levi aynı gerçekleşmemiş geçmiş diye okuma.",
+      "intro_tr": "Lev bir varsayım üzerinden sonuç kurabilir. Zaman ve gerçekleşme durumu bütün cümleden anlaşılır.",
+      "example_tr": "Lev ... le ... biçiminde varsayım ve sonucu ayrı izleriz.",
+      "broader": [
+        "ML:C173"
+      ],
+      "helped_by": [
+        "ML:C173"
+      ]
+    },
+    {
+      "id": "ML:C177",
+      "keyword": "conditional_man_ma",
+      "label_tr": "Koşul kuran men/mâ",
+      "definition": "Kim/ne kapsamının şart içinde genelleşmesini tanıma.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Men/mâyı her durumda soru veya bağlama zamiri sayma.",
+      "intro_tr": "Men ve mâ bazı yapılarda kim ... ise/ne ... ise ilişkisi kurar. Görevleri devamındaki cümleyle anlaşılır.",
+      "example_tr": "Men yaʿmel ... örneğinde kim yaparsa bağlantısı kurulabilir.",
+      "broader": [
+        "ML:C173"
+      ]
+    },
+    {
+      "id": "ML:C178",
+      "keyword": "result_fa",
+      "label_tr": "Şart sonucunu bağlayan fe-",
+      "definition": "Sonuç cümlesinin fe- ile bağlanmasını tanıma.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Her fe- için şart sonucu çözümü verme.",
+      "intro_tr": "Şarttan sonraki bazı sonuç cümleleri fe- ile bağlanır. Fe-nin burada neye cevap verdiği bulunur.",
+      "example_tr": "Bir koşulun ardından fe- ile başlayan emir, o koşula bağlı sonucu verebilir.",
+      "broader": [
+        "ML:C173"
+      ]
+    },
+    {
+      "id": "ML:C179",
+      "keyword": "oath_answer",
+      "label_tr": "Yemin ve cevabı",
+      "definition": "Yemin ifadesi ile pekiştirilen yargıyı ayırma.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Yemindeki nesneyi asıl yargının öznesi sayma.",
+      "intro_tr": "Yemin bir yargıyı güçlendirmek üzere kurulabilir. Yemin edilen unsurla ardından vurgulanan sözü ayrı okuruz.",
+      "example_tr": "Ve-l-ʿaṣr ifadesinden sonra hangi yargının pekiştirildiği izlenir.",
+      "helped_by": [
+        "ML:C138"
+      ]
+    },
+    {
+      "id": "ML:C180",
+      "keyword": "reported_speech",
+      "label_tr": "Aktarılan söz",
+      "definition": "Anlatıcı ile alıntı içindeki konuşanı ayırma.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Alıntıdaki ben/biz sözlerini anlatıcıya otomatik bağlama.",
+      "intro_tr": "Bir metin başka birinin sözünü doğrudan aktarabilir. Zamirleri o konuşanın bakış açısından çözeriz.",
+      "example_tr": "Ḳâlû sonrasında gelen biz sözü, alıntı içindeki konuşanlara aittir.",
+      "broader": [
+        "ML:C083"
+      ]
+    },
+    {
+      "id": "ML:C181",
+      "keyword": "parenthesis",
+      "label_tr": "Ara söz",
+      "definition": "Ana yapı içine giren açıklayıcı cümleyi tanıma.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Ara sözü görev ve anlamı olmayan ek sayma.",
+      "intro_tr": "Bir açıklama ana cümlenin arasına girebilir. Ara söz bittikten sonra asıl yapının devamını yeniden buluruz.",
+      "example_tr": "İki bağlı öğe arasındaki açıklama cümlesi, onların bağını kesmek zorunda değildir.",
+      "broader": [
+        "ML:C138"
+      ]
+    },
+    {
+      "id": "ML:C182",
+      "keyword": "ellipsis",
+      "label_tr": "Eksiltili unsur",
+      "definition": "Söylenmeyen ama yapıca anlaşılan unsuru ayırt etme.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Tahmin edilen unsuru ayetin açık sözü gibi alıntılama.",
+      "intro_tr": "Bazı ifadelerde bir unsur açıkça söylenmez. Tamamlama önerisi, dilbilgisi ve bağlamın izin verdiği ölçüde tutulur.",
+      "example_tr": "Bismi llâh ifadesinde ilişkilendirilen iş açıkça söylenmemiş olabilir.",
+      "aliases": [
+        "hazif"
+      ]
+    },
+    {
+      "id": "ML:C183",
+      "keyword": "clause_attachment",
+      "label_tr": "Yan cümlenin bağı",
+      "definition": "Bir cümlenin önceki isim veya yargıyla ilişkisini belirleme.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Noktalama ya da ayet sınırından tek başına bağ çıkarma.",
+      "intro_tr": "Ardışık iki cümle arasında açıklama, niteleme veya sonuç bağı bulunabilir. Hangi bağın kurulduğunu yapı ve anlam birlikte gösterir.",
+      "example_tr": "Bir cümle önceki belirsiz ismi açıklıyorsa bağımsız yeni konu gibi okunmayabilir."
+    },
+    {
+      "id": "ML:C184",
+      "keyword": "bi_relations",
+      "label_tr": "Bi- edatının yerel ilişkileri",
+      "definition": "Araç, eşlik ve başka belgeli bi- ilişkilerini ayırma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her bi-yi yalnız ile ya da bütün anlamları birlikte diye açma.",
+      "intro_tr": "Bi- farklı cümlelerde farklı ilişkiler kurabilir. Bu kullanımda hangi ilişkinin çalıştığını gösteririz.",
+      "example_tr": "Bismi örneğindeki adıyla ilişkisi, başka bi- örneklerine otomatik taşınmaz.",
+      "broader": [
+        "ML:C004"
+      ]
+    },
+    {
+      "id": "ML:C185",
+      "keyword": "lam_relations",
+      "label_tr": "Li- edatının yerel ilişkileri",
+      "definition": "Aidiyet, yarar ve yönelim gibi li- ilişkilerini ayırma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Cer lâmını vurgu veya emir lâmıyla karıştırma.",
+      "intro_tr": "Li- bir şeyi bir kişi veya amaçla ilişkilendirebilir. Türkçe karşılığı yerel bağlantıya göre değişir.",
+      "example_tr": "Lehû bağlama göre ona, onun için veya ona ait diye açıklanabilir.",
+      "broader": [
+        "ML:C004"
+      ]
+    },
+    {
+      "id": "ML:C186",
+      "keyword": "min_relations",
+      "label_tr": "Min edatının yerel ilişkileri",
+      "definition": "Başlangıç, kaynak, parça ve açıklama ilişkilerini ayırma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her mini yalnız -den ile açıklama.",
+      "intro_tr": "Min bazen çıkış noktasını, bazen bir bütünün parçasını belirtir. İlişkiyi cümlenin söylediği kadar daraltırız.",
+      "example_tr": "Mine n-nâs ifadesi uygun bağlamda insanlardan bir kısmını gösterebilir.",
+      "broader": [
+        "ML:C004"
+      ]
+    },
+    {
+      "id": "ML:C187",
+      "keyword": "ila_relation",
+      "label_tr": "İlâ ile yön ve sınır",
+      "definition": "Yönelişin veya uzanışın son noktasını tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her ilâ için fiziksel varışı veya içeri girmeyi garanti etme.",
+      "intro_tr": "İlâ bir yönelişin hedefini veya sınırını gösterebilir. Hedefe varıldığı sonucu her cümlede kendiliğinden çıkmaz.",
+      "example_tr": "İlâ ṣırâṭin ifadesi bir yola yöneliş ilişkisi kurabilir.",
+      "broader": [
+        "ML:C004"
+      ]
+    },
+    {
+      "id": "ML:C188",
+      "keyword": "fi_relation",
+      "label_tr": "Fî ile içinde olma",
+      "definition": "Mekânsal ve bağlamsal içerme ilişkisini tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Soyut kullanımı zorunlu fiziksel kap sayma.",
+      "intro_tr": "Fî bir şeyin içinde bulunma ilişkisini kurabilir. Bu ilişki yer kadar bir durum veya alan için de kullanılabilir.",
+      "example_tr": "Fî ḳulûbihim ifadesindeki bağ, hangi durumdan söz edildiğiyle açıklanır.",
+      "broader": [
+        "ML:C004"
+      ]
+    },
+    {
+      "id": "ML:C189",
+      "keyword": "ala_relation",
+      "label_tr": "Alâ ile üstünde/yükümlülük",
+      "definition": "Alânın yerel konum ve ilişki katkısını tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her alâyı fiziksel üst üste olma sayma.",
+      "intro_tr": "Alâ, üzerinde olma yanında bağlama bağlı başka ilişkiler kurabilir. Türkçe karşılığı ilişkiye göre seçilir.",
+      "example_tr": "Bir yükümlülük anlatımında alâ, üzerinde sorumluluk bulunmasını ifade edebilir.",
+      "broader": [
+        "ML:C004"
+      ]
+    },
+    {
+      "id": "ML:C190",
+      "keyword": "an_relation",
+      "label_tr": "An ile ayrılma ve konu",
+      "definition": "An edatının uzaklaşma veya hakkında olma ilişkisini tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "An ile mini bütün bağlamlarda eş anlamlı sayma.",
+      "intro_tr": "An bazı kullanımlarda uzaklaşmayı, bazılarında bir sözün konusunu gösterir. Fiille kurduğu ilişki önemlidir.",
+      "example_tr": "Seele an ... yapısında hakkında sorma ilişkisi görülebilir.",
+      "broader": [
+        "ML:C004"
+      ]
+    },
+    {
+      "id": "ML:C191",
+      "keyword": "comparison_ka",
+      "label_tr": "Ke- ile benzetme",
+      "definition": "Benzetme edatının iki unsuru hangi yönden bağladığını tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Benzeyen şeyleri bütün özelliklerde özdeş sayma.",
+      "intro_tr": "Ke- bir şeyi başka bir şeye benzetebilir. Benzetmenin hangi yönle sınırlı olduğunu bağlamdan buluruz.",
+      "example_tr": "Ke- ifadesiyle kurulan karşılaştırma ortak bir yön gösterir; tam özdeşlik kurmaz.",
+      "broader": [
+        "ML:C004",
+        "ML:C233"
+      ]
+    },
+    {
+      "id": "ML:C192",
+      "keyword": "wa_functions",
+      "label_tr": "Vâvın farklı görevleri",
+      "definition": "Ve, hâl, yemin ve başka vâv kullanımlarını ayırma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her vâvdan sıra veya nedensellik çıkarma.",
+      "intro_tr": "Aynı vâv farklı yapılarda farklı görevler alabilir. Bağladığı öğeler hangi görevin uygun olduğunu gösterir.",
+      "example_tr": "Ve iki fiili bağlayabilir; ve-l-ʿaṣr içindeki vâv yemin işlevinde incelenir.",
+      "helped_by": [
+        "ML:C170"
+      ]
+    },
+    {
+      "id": "ML:C193",
+      "keyword": "fa_functions",
+      "label_tr": "Fe-nin farklı görevleri",
+      "definition": "Bağlama, sonuç, sebep ve yeni söz ilişkilerini ayırma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her fe-yi aynı sonra sözüyle çevirme.",
+      "intro_tr": "Fe- cümleler arasında farklı bağlar kurabilir. Sonuç mu, sıra mı, başka bir bağ mı olduğu yerel yapıdan anlaşılır.",
+      "example_tr": "Bir emrin ardından fe- ile gelen yargı, uygun bağlamda ona bağlı sonucu gösterebilir.",
+      "helped_by": [
+        "ML:C170"
+      ]
+    },
+    {
+      "id": "ML:C194",
+      "keyword": "thumma",
+      "label_tr": "Sümme ile sıralama",
+      "definition": "Sümmenin sıra ve söylem geçişini tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her kullanımda ölçülebilir zaman aralığı icat etme.",
+      "intro_tr": "Sümme iki olay veya anlatım arasında sıra kurabilir. Aranın süresi kelimeden tek başına öğrenilmez.",
+      "example_tr": "Sümme ile bağlanan iki olayın arasında kaç yıl olduğu ayrıca verilmedikçe söylenmez.",
+      "broader": [
+        "ML:C170"
+      ]
+    },
+    {
+      "id": "ML:C195",
+      "keyword": "aw_am",
+      "label_tr": "Ev ve em ile seçenek",
+      "definition": "Alternatif ve soru seçeneklerini ayırma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her evi belirsizlik veya her emi basit veya sayma.",
+      "intro_tr": "Seçenek bildiren öğelerin görevi soru ve bağlama göre değişebilir. Hangi ihtimallerin karşılaştırıldığını açıklarız.",
+      "example_tr": "E ... em ... yapısı iki soru seçeneğini karşılaştırabilir.",
+      "broader": [
+        "ML:C170"
+      ]
+    },
+    {
+      "id": "ML:C196",
+      "keyword": "bal_lakin",
+      "label_tr": "Bel ve lâkin ile yön değiştirme",
+      "definition": "Önceki sözü düzeltme veya sınırlama bağını tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her dönüşü önceki bütün cümlenin yanlışlanması sayma.",
+      "intro_tr": "Bazı bağlayıcılar sözü başka yöne çevirir veya önceki yargıyı sınırlar. Düzeltmenin kapsamı dikkatle belirlenir.",
+      "example_tr": "Bel uygun bağlamda aksine/hayır, lâkin fakat ilişkisi kurabilir.",
+      "broader": [
+        "ML:C170"
+      ]
+    },
+    {
+      "id": "ML:C197",
+      "keyword": "qad",
+      "label_tr": "Ḳadın fiile katkısı",
+      "definition": "Ḳadın zaman ve bağlama bağlı etkisini tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her ḳadı aynı kesinlik derecesiyle çevirme.",
+      "intro_tr": "Ḳadın katkısı ardından gelen fiilin biçimi ve bağlamla değişebilir. Türkçede her zaman ayrı bir kelime olarak görünmez.",
+      "example_tr": "Mâzi önündeki ḳad ile muzâri önündeki ḳad aynı açıklamayla geçiştirilmez."
+    },
+    {
+      "id": "ML:C198",
+      "keyword": "lam_emphasis",
+      "label_tr": "Vurgu lâmı",
+      "definition": "Pekiştiren lâmı cer ve amaç lâmından ayırma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her lâmı için diye çevirme.",
+      "intro_tr": "Bazı lâmlar bir yargıyı pekiştirir. Bu işlev, kelimeler arasında sahiplik veya yön bağı kurmaktan farklıdır.",
+      "example_tr": "Le- başlayan bir haber, uygun yapıda yargının pekiştirilmesine katılabilir."
+    },
+    {
+      "id": "ML:C199",
+      "keyword": "purpose_particles",
+      "label_tr": "Amaç öğeleri",
+      "definition": "Li-/key/en ile kurulan amaç bağını tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her lâmı amaç veya sonucu niyet sayma.",
+      "intro_tr": "Bir yapı eylemin hangi amaçla yapıldığını gösterebilir. Amaç ile sonradan ortaya çıkan sonuç aynı şey değildir.",
+      "example_tr": "Li-yaʿleme türü yapıda amaç ilişkisi ancak bağlam destekliyorsa öğretilir.",
+      "broader": [
+        "ML:C172"
+      ]
+    },
+    {
+      "id": "ML:C200",
+      "keyword": "imperative_lam",
+      "label_tr": "Emir lâmı",
+      "definition": "Li- ile yöneltilen talebi tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Bu lâmı isim önündeki cer lâmıyla karıştırma.",
+      "intro_tr": "Emir lâmı bir muzâriyi talep veya yönlendirme içinde kullanır. Ardındaki fiilin biçimi de buna göre değişebilir.",
+      "example_tr": "Li-yektüb, yazsın diye açılabilir.",
+      "broader": [
+        "ML:C091",
+        "ML:C099"
+      ]
+    },
+    {
+      "id": "ML:C201",
+      "keyword": "prohibitive_la",
+      "label_tr": "Yasaklayıcı lâ",
+      "definition": "Yapmama talebini olumsuz bildirimden ayırma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her lâ+fiil için yasaklama çıkarma.",
+      "intro_tr": "Yasaklayıcı lâ bir işin yapılmamasını ister. Bu, o işin yapılmadığını haber vermekten farklıdır.",
+      "example_tr": "Lâ taḳnaṭû, umutsuzluğa düşmeyin yönlendirmesidir.",
+      "broader": [
+        "ML:C014",
+        "ML:C091"
+      ]
+    },
+    {
+      "id": "ML:C202",
+      "keyword": "negative_la_ma",
+      "label_tr": "Lâ ve mâ ile olumsuz bildirim",
+      "definition": "Olumsuz haber veren kullanımı tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Mânın bütün görevlerini olumsuzluk sanma.",
+      "intro_tr": "Lâ ve mâ bazı cümlelerde bir yargıyı olumsuzlar. Hangi unsurun olumsuzlandığını devamındaki yapı belirler.",
+      "example_tr": "Mâ ... türü bir cümlede soru mu olumsuzluk mu olduğu yalnız yazımdan seçilmez.",
+      "broader": [
+        "ML:C014"
+      ]
+    },
+    {
+      "id": "ML:C203",
+      "keyword": "negative_lam_lamma",
+      "label_tr": "Lem ve lemmâ ile olumsuzluk",
+      "definition": "Cezmli muzârinin geçmiş/henüz ilişkisini tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Lemmânın bütün kullanımlarını olumsuzluk sayma.",
+      "intro_tr": "Lem ile muzâri geçmişte gerçekleşmeyen bir olayı anlatabilir. Olumsuz lemmâ, henüz gerçekleşmeme yönünü taşıyabilir.",
+      "example_tr": "Lem yelid ifadesindeki muzâri yalnız şimdiki zaman diye çevrilmez.",
+      "broader": [
+        "ML:C014",
+        "ML:C099"
+      ]
+    },
+    {
+      "id": "ML:C204",
+      "keyword": "negative_lan",
+      "label_tr": "Len ile olumsuzluk",
+      "definition": "Muzârinin geleceğe dönük olumsuz kullanımını tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Len sözcüğünden tek başına sonsuz süre çıkarma.",
+      "intro_tr": "Len muzâriyi olumsuzlar ve nasb yapısına sokar. Olumsuzluğun zaman kapsamını bütün bağlam belirler.",
+      "example_tr": "Len yektübe yazmayacak diye açılabilir; tek başına ebedîlik iddiası kurmaz.",
+      "broader": [
+        "ML:C014",
+        "ML:C098"
+      ]
+    },
+    {
+      "id": "ML:C205",
+      "keyword": "interrogative_particles",
+      "label_tr": "Soru öğeleri",
+      "definition": "Hemze, hel ve soru adlarının kapsamını tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Soru biçimini her zaman bilgi eksikliği sayma.",
+      "intro_tr": "Bir soru öğesi cümlede neyin sorulduğunu gösterir. Sorunun konuşmadaki amacı ayrıca belirlenir.",
+      "example_tr": "Hel ile kurulan soru, yargının doğruluğunu sorabilir."
+    },
+    {
+      "id": "ML:C206",
+      "keyword": "answer_particles",
+      "label_tr": "Cevap öğeleri",
+      "definition": "Neʿam ve belâ gibi cevapların önceki soruyla bağını tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Türkçe evet/hayır karşılığını sorudan bağımsız seçme.",
+      "intro_tr": "Kısa bir cevap, önceki olumlu veya olumsuz soruya göre anlaşılır. Türkçe karşılığı da bu bağla seçilir.",
+      "example_tr": "Belâ, olumsuz soruda reddedilen olumlu yargıyı onaylayabilir."
+    },
+    {
+      "id": "ML:C207",
+      "keyword": "wish_hope",
+      "label_tr": "Dilek ve beklenti",
+      "definition": "Leyte/leʿalle türü öğelerin yerel söz işini tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Biçimden konuşana bilgisizlik veya belirsizlik yükleme.",
+      "intro_tr": "Bazı öğeler dilek veya beklenti şeklinde sunulan bir yargı kurar. Bu sunuşun konuşma işlevi bağlamla açıklanır.",
+      "example_tr": "Leyte ile dile getirilen arzu ile leʿalleli bir yönlendirme aynı işlevde olmayabilir."
+    },
+    {
+      "id": "ML:C208",
+      "keyword": "exhortation",
+      "label_tr": "Teşvik ve sitem",
+      "definition": "Hel­lâ/levlâ gibi öğelerin eyleme çağıran kullanımını tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Levlânın şart kullanımını teşvikle karıştırma.",
+      "intro_tr": "Bazı soruya benzeyen yapılar eyleme çağırır veya yapılmamış işi gündeme getirir. İşlevi cümlenin bütünü gösterir.",
+      "example_tr": "Levlâ ... yapısı uygun bağlamda neden yapmıyorsunuz çağrısı taşıyabilir."
+    },
+    {
+      "id": "ML:C209",
+      "keyword": "aversion",
+      "label_tr": "Kellâ ile reddetme",
+      "definition": "Kellânın önceki söyleme karşı duruşunu tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her kellâyı tek bir sabit Türkçe ünleme bağlama.",
+      "intro_tr": "Kellâ, önceki söze veya tutuma karşı güçlü bir dönüş kurabilir. Neye karşı çıktığı bağlamda bulunur.",
+      "example_tr": "Kellâdan sonraki cümleyle önceki iddia arasındaki sınır açıkça gösterilir."
+    },
+    {
+      "id": "ML:C210",
+      "keyword": "explanation_particle",
+      "label_tr": "Açıklama öğesi",
+      "definition": "Ey/en gibi açıklayıcı bağlantıyı tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Açıklayıcı en ile mastar kuran eni karıştırma.",
+      "intro_tr": "Bazı küçük öğeler önceki sözün ne demek olduğunu açar. Açıklama ilişkisini yapıdan belirleriz.",
+      "example_tr": "Ey uygun bir açıklamada yani ilişkisi kurabilir."
+    },
+    {
+      "id": "ML:C211",
+      "keyword": "preventive_ma",
+      "label_tr": "Kâffe mâ",
+      "definition": "Mânın önceki öğenin görevini sınırlamasını tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Mâyı burada olumsuzluk veya bağımsız ne sayma.",
+      "intro_tr": "Mâ bazı birleşimlerde önceki öğenin dilbilgisel etkisini değiştirir. Birleşimi parçaların bağımsız anlamlarını toplayarak açıklamayız.",
+      "example_tr": "İnnemâ çözümünde mâ, sıradan olumsuz mâ gibi okunmaz.",
+      "broader": [
+        "ML:C149"
+      ]
+    },
+    {
+      "id": "ML:C212",
+      "keyword": "supplemental_particle",
+      "label_tr": "Zâid diye adlandırılan öğe",
+      "definition": "Teknik zâid terimini anlamsızlık iddiasından ayırma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Kaynak zâid diyor diye sözcüğü metinden silme.",
+      "intro_tr": "Dilbilgisinde zâid denilen öğe, belirli bir çözümde temel göreve eklenmiş olabilir. Bu ad, sözcüğün hiçbir anlatım katkısı olmadığı anlamına gelmez.",
+      "example_tr": "Bir edata zâid denmişse hangi çözüm bakımından söylendiği açıklanır."
+    },
+    {
+      "id": "ML:C213",
+      "keyword": "surprise_particle",
+      "label_tr": "Ansızınlık öğesi",
+      "definition": "İzâ/iz gibi öğelerin ansızınlık kullanımını ayırma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her izâyı aynı şart yapısı sayma.",
+      "intro_tr": "Bazı ifadeler beklenmedik bir durumun birden görünmesini anlatır. Bu işlev, zamanlı şarttan ayrı incelenir.",
+      "example_tr": "Fe-izâ ... yapısında birden karşılaşılan durum okuması bağlamla desteklenebilir."
+    },
+    {
+      "id": "ML:C214",
+      "keyword": "equalization",
+      "label_tr": "Seçenekleri eşitleme",
+      "definition": "Sevâun ve soru biçimiyle kurulan eşitlik bağlantısını tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Soru biçimini gerçek cevap bekleyen soru sanma.",
+      "intro_tr": "Bazı yapılar iki seçeneğin sonuç bakımından fark etmediğini söyler. Soru biçimi burada seçenekleri sıralar.",
+      "example_tr": "Sevâun ... e ... em ... yapısı iki seçeneği aynı sonuçta birleştirebilir."
+    },
+    {
+      "id": "ML:C215",
+      "keyword": "restriction_innama",
+      "label_tr": "İnnemâ ile sınırlama",
+      "definition": "İnnemânın yargıdaki kısıtlama kapsamını tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Yalnız vurgusunu yanlış öğeye yerleştirme.",
+      "intro_tr": "İnnemâ bir yargının kapsamını sınırlandırabilir. Sınırlamanın hangi unsura ait olduğunu cümleden buluruz.",
+      "example_tr": "İnnemâ içeren bir cümlede yalnız sözü hangi parçayı daraltıyorsa oraya bağlanır."
+    },
+    {
+      "id": "ML:C216",
+      "keyword": "hatta",
+      "label_tr": "Hattânın sınır ve bağlantısı",
+      "definition": "Hattânın edat, bağlayıcı ve fiil bağlantısını ayırma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her hattâyı Türkçe hatta anlamında kullanma.",
+      "intro_tr": "Hattâ bir sınıra kadar uzanışı veya başka bir bağ kurabilir. Ardındaki yapı görevini belirler.",
+      "example_tr": "Hattâ ile başlayan bir zaman sınırı Türkçede -e kadar diye açılabilir."
+    },
+    {
+      "id": "ML:C217",
+      "keyword": "multiple_function_word",
+      "label_tr": "Çok görevli küçük kelime",
+      "definition": "Mâ/men/in/iz gibi biçimlerin yerel türünü ayırma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Yüzey eşitliğini görev eşitliği sayma.",
+      "intro_tr": "Aynı küçük kelime soru, şart veya başka görevde bulunabilir. Görevini komşu yapı ve anlam belirler.",
+      "example_tr": "Mâ bir cümlede ne, başka bir cümlede olumsuzluk işlevinde olabilir.",
+      "helped_by": [
+        "ML:C003"
+      ]
+    },
+    {
+      "id": "ML:C218",
+      "keyword": "verbal_noun_imperative",
+      "label_tr": "İsm-i fiil",
+      "definition": "Fiil çekimi taşımayan eylem çağrısını tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "İsim biçimini normal özne/nesne gibi zorla çözme.",
+      "intro_tr": "Bazı ifadeler fiil gibi bir iş görürken normal fiil çekimini taşımaz. Görevleri kendi kullanımları içinde öğrenilir.",
+      "example_tr": "Heyhât, uzak olma yargısı taşıyan ism-i fiil örnekleri arasında ele alınır.",
+      "broader": [
+        "ML:C003"
+      ]
+    },
+    {
+      "id": "ML:C219",
+      "keyword": "fronting",
+      "label_tr": "Öne alma",
+      "definition": "Beklenen sıradan farklı konumun yerel etkisini tanıma.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Öne almayı her zaman yalnızlık veya tek bir retorik amaç sayma.",
+      "intro_tr": "Bir öğeyi öne almak dikkati ona yöneltebilir. Bunun vurguya mı kısıtlamaya mı hizmet ettiğini bağlam belirler.",
+      "example_tr": "İyyâke naʿbüdü ifadesinde nesnenin fiilden önce gelişi açıklanır.",
+      "broader": [
+        "ML:C015"
+      ],
+      "helped_by": [
+        "ML:C138"
+      ]
+    },
+    {
+      "id": "ML:C220",
+      "keyword": "restriction_focus",
+      "label_tr": "Vurgu ve kısıtlama",
+      "definition": "Dikkat odağı ile alternatifleri dışlamayı ayırma.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Her vurguyu başka ihtimallerin dışlanması sayma.",
+      "intro_tr": "Bir öğenin öne çıkması ile yalnız onun geçerli olması aynı değildir. Kısıtlama iddiası için yapının ve bağlamın desteği gerekir.",
+      "example_tr": "Yalnız sana açıklaması yapılırken hangi alternatifin dışlandığı belirtilir.",
+      "helped_by": [
+        "ML:C229"
+      ],
+      "aliases": [
+        "hasr",
+        "kasr"
+      ]
+    },
+    {
+      "id": "ML:C221",
+      "keyword": "address_shift",
+      "label_tr": "Hitap yönünün değişmesi",
+      "definition": "Üçüncü kişiden muhataba veya başka bakışa geçişi tanıma.",
+      "topics": [
+        "ML:T024",
+        "ML:T016"
+      ],
+      "boundary_tr": "Her kişi değişimini aynı yorum kalıbına bağlama.",
+      "intro_tr": "Metin birinden söz ederken doğrudan ona seslenmeye geçebilir. Zamir ve fiil biçimleri bu dönüşü gösterir.",
+      "example_tr": "Fâtiha’da önce Allah’tan söz edilirken iyyâke ile doğrudan sana hitabı kurulur.",
+      "broader": [
+        "ML:C009",
+        "ML:C083"
+      ],
+      "helped_by": [
+        "ML:C009"
+      ],
+      "aliases": [
+        "iltifat"
+      ]
+    },
+    {
+      "id": "ML:C222",
+      "keyword": "rhetorical_question",
+      "label_tr": "Soru biçiminin söz işi",
+      "definition": "Bilgi istemeyen soru işlevini tanıma.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Bütün soruları retorik sayma.",
+      "intro_tr": "Soru biçimi bazen bilgi istemek yerine hatırlatma, uyarma veya itiraz işlevi görür. Hangi işlevin bulunduğunu konuşma bağlamı gösterir.",
+      "example_tr": "Elestü ... türü bir soru bağlamda muhatabın kabulünü hatırlatabilir.",
+      "broader": [
+        "ML:C205"
+      ],
+      "helped_by": [
+        "ML:C205"
+      ]
+    },
+    {
+      "id": "ML:C223",
+      "keyword": "command_functions",
+      "label_tr": "Emrin farklı söz işleri",
+      "definition": "Emir biçiminin yönlendirme, izin, uyarı gibi işlerini ayırma.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Biçimden tek başına fıkhî hüküm çıkarma.",
+      "intro_tr": "Emir biçimi farklı konuşma işlerinde kullanılabilir. Dilsel açıklama biçimi ve bağlamı gösterir; hüküm tartışmasını kendiliğinden çözmez.",
+      "example_tr": "Bir emir bazı bağlamlarda izin veya tehdit olarak anlaşılabilir.",
+      "broader": [
+        "ML:C091"
+      ]
+    },
+    {
+      "id": "ML:C224",
+      "keyword": "vocative_effect",
+      "label_tr": "Seslenmenin söylem etkisi",
+      "definition": "Muhatap çağırmanın dikkat ve yakınlık işini tanıma.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Seslenme biçiminden tek başına sevgi veya öfke çıkarma.",
+      "intro_tr": "Seslenme muhatabı açıkça konuşmaya dahil eder. Yakınlık, uyarı veya başka tonlar yerel bağlamdan anlaşılır.",
+      "example_tr": "Yâ eyyühe ... ifadesi ardından gelen sözün muhatabını belirginleştirir.",
+      "broader": [
+        "ML:C156"
+      ]
+    },
+    {
+      "id": "ML:C225",
+      "keyword": "repetition",
+      "label_tr": "Tekrarın yerel işi",
+      "definition": "Tekrarın yenilediği bağ veya vurguyu tanıma.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Aynı kelimenin her tekrarını gereksiz veya aynı ders sayma.",
+      "intro_tr": "Tekrar bazen aynı ilişkiyi yeni bir öğe için yeniden kurar. Her tekrarın neyi yeniden bağladığı sorulur.",
+      "example_tr": "İyyâke iki fiilin önünde ayrı ayrı tekrar edilerek her fiilin nesne bağını görünür kılar."
+    },
+    {
+      "id": "ML:C226",
+      "keyword": "parallelism",
+      "label_tr": "Paralel kuruluş",
+      "definition": "Benzer yapıların benzer ve farklı yönlerini izleme.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Biçim benzerliğinden anlamların tümüyle aynı olduğu sonucunu çıkarma.",
+      "intro_tr": "Yan yana benzer kuruluşlar bir karşılaştırmayı kolaylaştırır. Ortak çerçeve içinde değişen öğe özellikle önemlidir.",
+      "example_tr": "İyyâke naʿbüdü ve iyyâke nestaʿîn aynı çerçevede farklı iki fiil taşır."
+    },
+    {
+      "id": "ML:C227",
+      "keyword": "contrast_structure",
+      "label_tr": "Karşıt kurulum",
+      "definition": "İki yargı arasındaki karşıtlığı dilsel ipuçlarıyla tanıma.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Her iki farklı sözcüğü sözlük karşıtı sayma.",
+      "intro_tr": "Metin iki durumu karşı karşıya getirebilir. Karşıtlık bazen kelimelerin sözlük anlamından, bazen kurulan bağdan doğar.",
+      "example_tr": "Bir olumlu ve bir olumsuz cümlede aynı unsurun farklı sunuluşu karşılaştırılabilir."
+    },
+    {
+      "id": "ML:C228",
+      "keyword": "cohesion",
+      "label_tr": "Metin içi bağ",
+      "definition": "Zamir, tekrar ve bağlayıcıların metni bağlamasını tanıma.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Bütün bağları yakın cümleyle sınırlama.",
+      "intro_tr": "Bir metindeki ifadeler önceki sözlere zamir veya tekrar yoluyla bağlanabilir. Bağı izlemek yeni bir konuyla devam eden konuyu ayırır.",
+      "example_tr": "Bir zamirin önceki paragraftaki kişiye dönüşü metnin sürekliliğini korur."
+    },
+    {
+      "id": "ML:C229",
+      "keyword": "scope",
+      "label_tr": "Anlam kapsamı",
+      "definition": "Olumsuzluk, nicelik veya odak öğesinin hangi parçaya etki ettiğini ayırma.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Bir öğenin etkisini bütün cümleye otomatik yayma.",
+      "intro_tr": "Küçük bir sözcük bütün yargıyı veya yalnız bir parçasını etkileyebilir. Etkinin sınırını göstermek yanlış okumayı önler.",
+      "example_tr": "Yalnız veya değil karşılığının hangi ifadeye bağlandığı ayrı ayrı gösterilir."
+    },
+    {
+      "id": "ML:C230",
+      "keyword": "deixis",
+      "label_tr": "Konuşma konumuna bağlı anlam",
+      "definition": "Ben/sen/burada/şimdi gibi ifadelerin konuşma merkezini bulma.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Alıntı veya sahne değişiminde merkezi sabit tutma.",
+      "intro_tr": "Bazı ifadelerin anlamı kimin nerede konuştuğuna bağlıdır. Konuşan değişince aynı sözcüğün gösterdiği şey de değişebilir.",
+      "example_tr": "Aktarılan bir sözde burası, anlatıcının değil konuşanın bulunduğu yer olabilir."
+    },
+    {
+      "id": "ML:C231",
+      "keyword": "plural_speaker",
+      "label_tr": "Biz kullanımının bağlamı",
+      "definition": "Birinci çoğulun katılımcı ve söylem kapsamını tanıma.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Biz biçiminden otomatik sayısal veya teolojik sonuç çıkarma.",
+      "intro_tr": "Biz biçimi konuşanın kendisini nasıl sunduğunu gösterir. Kimleri kapsadığı ve anlatım işlevi bağlamdan belirlenir.",
+      "example_tr": "Naʿbüdü çoğul konuşmayı kurar; tek kişinin okuması biçimi tekile çevirmez.",
+      "broader": [
+        "ML:C009"
+      ]
+    },
+    {
+      "id": "ML:C232",
+      "keyword": "register",
+      "label_tr": "Üslup ve kullanım alanı",
+      "definition": "Gündelik, teknik veya yüksek üslup farkını tanıma.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Üslup farkını zorunlu kavramsal fark sayma.",
+      "intro_tr": "Yakın karşılıklar aynı anlamı farklı kullanım alanlarında taşıyabilir. Okurun bildiği alan ile ayetin bağlamını ayırırız.",
+      "example_tr": "Teknik bir terimin gündelik Türkçedeki çağrışımı, sözlükteki kullanım sınırıyla karşılaştırılır."
+    },
+    {
+      "id": "ML:C233",
+      "keyword": "simile",
+      "label_tr": "Benzetme",
+      "definition": "Benzeyen, benzetilen ve ortak yönü ayırma.",
+      "topics": [
+        "ML:T029"
+      ],
+      "boundary_tr": "Benzetilenin bütün özelliklerini aktarılacak anlam sayma.",
+      "intro_tr": "Benzetme iki şeyi belli bir yönden birlikte düşünmeye çağırır. Ortak yönü metnin verdiği ölçüde belirleriz.",
+      "example_tr": "Bir şey ışığa benzetiliyorsa ışığın bütün fiziksel özellikleri o şeye yüklenmez.",
+      "aliases": [
+        "teşbih"
+      ]
+    },
+    {
+      "id": "ML:C234",
+      "keyword": "metaphor",
+      "label_tr": "Mecazî aktarım",
+      "definition": "Bir imgenin başka bir alanı açıklamakta kullanılmasını tanıma.",
+      "topics": [
+        "ML:T029"
+      ],
+      "boundary_tr": "Her kök imgesini mecaz veya gizli anlam sayma.",
+      "intro_tr": "Bir ifade bir alana ait imgeyi başka bir alanı anlatmak için kullanabilir. Aktarım, sözlük kullanımı ve yerel bağlamla desteklenmelidir.",
+      "example_tr": "Yolun bir yaşayış yönünü anlatması bağlamla desteklenen bir aktarım olabilir.",
+      "broader": [
+        "ML:C019"
+      ],
+      "aliases": [
+        "istiare"
+      ]
+    },
+    {
+      "id": "ML:C235",
+      "keyword": "metonymy",
+      "label_tr": "İlişkiyle dolaylı gönderim",
+      "definition": "Bir unsurun ilişkili başka bir şeyi göstermesini tanıma.",
+      "topics": [
+        "ML:T029"
+      ],
+      "boundary_tr": "Her sıra dışı birleşimi dolaylı anlatım sayma.",
+      "intro_tr": "Bir söz bazen doğrudan andığı unsur üzerinden onunla ilişkili bir şeyi gösterir. İlişkinin türü açıkça belirtilir.",
+      "example_tr": "Yer adının oradaki topluluğu göstermesi öneriliyorsa bağlamdaki dayanak gösterilir.",
+      "broader": [
+        "ML:C019"
+      ],
+      "aliases": [
+        "mecaz-ı mürsel"
+      ]
+    },
+    {
+      "id": "ML:C236",
+      "keyword": "kinaya",
+      "label_tr": "Dolaylı nitelik anlatımı",
+      "definition": "Söylenen ifade üzerinden anlaşılan niteliği ayırma.",
+      "topics": [
+        "ML:T029"
+      ],
+      "boundary_tr": "Çağrışımı metnin kesin açık anlamı olarak sunma.",
+      "intro_tr": "Bir özellik doğrudan adı verilmeden ilişkili bir anlatımla sezdirilebilir. Açık söz ile ondan çıkarılan nitelik ayrı tutulur.",
+      "example_tr": "Bir davranıştan cömertlik çıkarılıyorsa davranış ifadesi ile yorum birbirine karıştırılmaz.",
+      "broader": [
+        "ML:C019"
+      ],
+      "aliases": [
+        "kinaye"
+      ]
+    },
+    {
+      "id": "ML:C237",
+      "keyword": "image_boundary",
+      "label_tr": "İmgenin taşıdığı sınır",
+      "definition": "Somut imgenin hangi yönünün etkin olduğunu ayırma.",
+      "topics": [
+        "ML:T029"
+      ],
+      "boundary_tr": "İmgeye yeni hikâye ve ayrıntılar ekleme.",
+      "intro_tr": "Bir imge bazı yönleri görünür kılar, başka yönleri açıklamanın dışında bırakır. Ders yalnız metinde desteklenen yönü taşır.",
+      "example_tr": "Yol imgesi varsa metin söylemedikçe yolun taşları veya uzunluğu hakkında anlam kurulmaz.",
+      "broader": [
+        "ML:C025"
+      ]
+    },
+    {
+      "id": "ML:C238",
+      "keyword": "sound_effect",
+      "label_tr": "Ses örüntüsünün etkisi",
+      "definition": "Tekrar eden ses ve ritmi anlam iddiasından ayırma.",
+      "topics": [
+        "ML:T029"
+      ],
+      "boundary_tr": "Ses benzerliğini kök akrabalığı veya etimoloji kanıtı sayma.",
+      "intro_tr": "Ses tekrarı ifadeyi belirginleştirebilir. Bunun gözlenmesi, kelimelerin aynı kökten geldiğini göstermez.",
+      "example_tr": "Benzer son sesler ritim kurabilir; ortak kök ayrıca belgelenmelidir."
+    },
+    {
+      "id": "ML:C239",
+      "keyword": "cardinal_number",
+      "label_tr": "Asıl sayı",
+      "definition": "Sayı ile sayılan unsurun bağlantısını tanıma.",
+      "topics": [
+        "ML:T030"
+      ],
+      "boundary_tr": "Bütün sayı gruplarına aynı uyum kuralını uygulama.",
+      "intro_tr": "Arapça sayıların isimle bağlantısı sayı grubuna göre değişir. Kaç tane söylendiği ile ismin biçimi birlikte okunur.",
+      "example_tr": "Üç kitap türü bir ifadede sayının ve sayılan adın biçimi ayrı izlenir."
+    },
+    {
+      "id": "ML:C240",
+      "keyword": "number_gender",
+      "label_tr": "Sayıda cinsiyet ilişkisi",
+      "definition": "Sayı gruplarındaki cinsiyet bağlantısını tanıma.",
+      "topics": [
+        "ML:T030"
+      ],
+      "boundary_tr": "Bütün sayılar isimle aynı cinsiyette olmalı deme.",
+      "intro_tr": "Bazı sayı gruplarında sayının biçimi ile sayılan adın cinsiyeti ters ilişki gösterebilir. Kural ilgili sayı grubuyla sınırlanır.",
+      "example_tr": "Üç ile on arasındaki temel sayılar incelenirken sayılan adın tekil cinsiyeti dikkate alınır.",
+      "requires": [
+        "ML:C239"
+      ],
+      "broader": [
+        "ML:C239",
+        "ML:C054"
+      ]
+    },
+    {
+      "id": "ML:C241",
+      "keyword": "number_specification",
+      "label_tr": "Sayının tamamlayıcısı",
+      "definition": "Sayıdan sonraki adın tekil/çoğul ve durum biçimini tanıma.",
+      "topics": [
+        "ML:T030"
+      ],
+      "boundary_tr": "Bütün sayı sonrası adları aynı görevde ve aynı biçimde sayma.",
+      "intro_tr": "Sayı, ardından gelen adı farklı biçimlerde yönetebilir. Sayı grubu değişince tamamlayıcının biçimi de değişebilir.",
+      "example_tr": "Yirmi kitap türü yapıyla üç kitap türü yapı aynı sonlandırmayla açıklanmaz.",
+      "requires": [
+        "ML:C239"
+      ],
+      "broader": [
+        "ML:C239",
+        "ML:C161"
+      ]
+    },
+    {
+      "id": "ML:C242",
+      "keyword": "ordinal_number",
+      "label_tr": "Sıra sayısı",
+      "definition": "Kaçıncı bilgisini miktardan ayırma.",
+      "topics": [
+        "ML:T030"
+      ],
+      "boundary_tr": "Birinci/ikinciyi kaç tane anlamıyla karıştırma.",
+      "intro_tr": "Sıra sayısı miktarı değil dizideki yeri bildirir. Çoğu kullanımda bir adı niteler.",
+      "example_tr": "Sânî ikinci sırayı gösterir; iki tane anlamıyla aynı değildir.",
+      "broader": [
+        "ML:C010"
+      ]
+    },
+    {
+      "id": "ML:C243",
+      "keyword": "quantification",
+      "label_tr": "Nicelik ve kapsam",
+      "definition": "Küll/baʿḍ ve benzeri ifadelerin kapsamını tanıma.",
+      "topics": [
+        "ML:T030"
+      ],
+      "boundary_tr": "Bütün/kimi karşılığının hangi kümeye ait olduğunu belirsiz bırakma.",
+      "intro_tr": "Nicelik bildiren bir sözcük belli bir grubun tümünü veya bir kısmını gösterebilir. Grubun sınırı bağlamdan bulunur.",
+      "example_tr": "Küll sözü her geçtiğinde evrendeki her şeyi değil ilgili kapsamı gösterebilir.",
+      "broader": [
+        "ML:C229"
+      ]
+    },
+    {
+      "id": "ML:C244",
+      "keyword": "distributive",
+      "label_tr": "Paylaştırılan sayı",
+      "definition": "Sayı ifadesinin grup grup dağılımını tanıma.",
+      "topics": [
+        "ML:T030"
+      ],
+      "boundary_tr": "Dağıtıcı sayıları basit toplama işlemi gibi okuma.",
+      "intro_tr": "Bazı sayı biçimleri miktarı gruplar halinde dağıtır. İkişer ile iki tane aynı bilgi değildir.",
+      "example_tr": "Mesnâ uygun kullanımda ikişer dağılımını gösterebilir.",
+      "broader": [
+        "ML:C239"
+      ]
+    },
+    {
+      "id": "ML:C245",
+      "keyword": "lexical_unit",
+      "label_tr": "Dal içindeki kelime birimi",
+      "definition": "Aynı daldaki belirli kelime/kalıp birimini ayırma.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Dalın bütün kelimelerine aynı glossu dağıtma.",
+      "intro_tr": "Bir anlam dalı birden fazla kelime veya birleşimi içerebilir. Hangi birimin bu ayette kullanıldığını ayrıca buluruz.",
+      "example_tr": "Bir dalda isim ve fiil bulunuyorsa ayetin fiiline ismin glossu doğrudan aktarılmaz.",
+      "broader": [
+        "ML:C018"
+      ]
+    },
+    {
+      "id": "ML:C246",
+      "keyword": "branch_applicability",
+      "label_tr": "Dalın uygulanma şartı",
+      "definition": "Dal sınırının belirli kullanımda karşılanmasını değerlendirme.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Kök eşleşmesini dal eşleşmesi için yeterli sayma.",
+      "intro_tr": "Aynı köke bağlı olmak, aynı anlam dalında kullanılmak demek değildir. Dalın şartları ile cümledeki kullanım birlikte okunur.",
+      "example_tr": "Bir dal yalnız belirli bir edatla kuruluyorsa yalın fiile otomatik uygulanmaz.",
+      "broader": [
+        "ML:C018",
+        "ML:C019"
+      ],
+      "helped_by": [
+        "ML:C018"
+      ]
+    },
+    {
+      "id": "ML:C247",
+      "keyword": "semantic_facets",
+      "label_tr": "Anlamın yönleri",
+      "definition": "Çekirdek, özel yön ve kaynak varyantını ayırma.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Her sözlük facetini her ayette etkin zorunlu anlam sayma.",
+      "intro_tr": "Bir tanımda temel anlam ile yalnız bazı kullanımlarda öne çıkan yönler bulunabilir. Bunların yerel ağırlığını ayırırız.",
+      "example_tr": "Yol çekirdeği ile düz yol özelleşmesi aynı kapsamda zorunlu değildir.",
+      "helped_by": [
+        "ML:C018"
+      ]
+    },
+    {
+      "id": "ML:C248",
+      "keyword": "polysemy",
+      "label_tr": "Bir kelimenin anlam çeşitliliği",
+      "definition": "Bir kelimenin bağlantılı farklı kullanımlarını ayırma.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Sözlükte çok anlam var diye hepsini bu ayette etkin sayma.",
+      "intro_tr": "Bir kelime farklı bağlamlarda farklı anlamlar taşıyabilir. Bu cümlede hangisinin çalıştığını ayrıca belirleriz.",
+      "example_tr": "Aynı başlık altında verilen iki kullanım, tek bir ayetin ikisini de söylediğini kanıtlamaz.",
+      "broader": [
+        "ML:C019"
+      ],
+      "helped_by": [
+        "ML:C019"
+      ]
+    },
+    {
+      "id": "ML:C249",
+      "keyword": "live_ambiguity",
+      "label_tr": "Bağlamda birden çok okuma",
+      "definition": "Aynı kullanımda desteklenen anlam seçeneklerini koruma.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Çözülemeyen her veri eksikliğini anlam zenginliği sayma.",
+      "intro_tr": "Bazen bağlam birden fazla dilsel okumaya izin verir. Desteklenen seçenekler belirtilir, eksik kanıt ise ayrı tutulur.",
+      "example_tr": "İki çözüm de dayanaklıysa ders yalnız birini kesinmiş gibi sunmaz.",
+      "broader": [
+        "ML:C019"
+      ],
+      "helped_by": [
+        "ML:C019"
+      ]
+    },
+    {
+      "id": "ML:C250",
+      "keyword": "homonymy",
+      "label_tr": "Benzeşen ayrı kelimeler",
+      "definition": "Aynı görünen/seslenen ayrı sözlük kimliklerini ayırma.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Ses benzerliğini belgeli akrabalık yerine koyma.",
+      "intro_tr": "İki kelime aynı görünebilir ama ayrı sözlük kimliklerine sahip olabilir. Kimlik kararı kaynak çözümüne dayanır.",
+      "example_tr": "Aynı Latin yazımıyla verilen iki Arapça biçimin harfleri ve kökleri ayrıca incelenir.",
+      "broader": [
+        "ML:C024"
+      ]
+    },
+    {
+      "id": "ML:C251",
+      "keyword": "lexicalization",
+      "label_tr": "Yerleşmiş kelime anlamı",
+      "definition": "Kalıp katkısıyla yerleşik sözlük anlamını ayırma.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Kelimeyi yalnız parçaların tahminî toplamıyla çevirme.",
+      "intro_tr": "Bir kelimenin kullanımı zamanla yerleşmiş özel bir anlam taşıyabilir. Kalıp bu anlamı anlamaya yardım eder ama onun yerine geçmez.",
+      "example_tr": "Bir yer adı kalıbından türemiş kelimenin yerleşik karşılığı sözlükten öğrenilir.",
+      "broader": [
+        "ML:C036"
+      ],
+      "helped_by": [
+        "ML:C017"
+      ]
+    },
+    {
+      "id": "ML:C252",
+      "keyword": "idiom",
+      "label_tr": "Kalıplaşmış ifade",
+      "definition": "Birleşimin bütün anlamını tek tek parçalardan ayırma.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Her mecazı deyim veya her birleşimi kalıplaşmış sayma.",
+      "intro_tr": "Bazı birleşimler bütün olarak yerleşmiş anlam taşır. Her kelimenin sözlük karşılığını yan yana koymak bu anlamı vermeyebilir.",
+      "example_tr": "Bir deyim açıklanırken bütün anlam ile parçaların görünür anlamı ayrı gösterilir.",
+      "broader": [
+        "ML:C026"
+      ]
+    },
+    {
+      "id": "ML:C253",
+      "keyword": "near_synonym",
+      "label_tr": "Yakın anlam ayrımı",
+      "definition": "Ortak alanı paylaşan kelimelerin belgeli sınırlarını ayırma.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Sözlük ayrımını her ayette zorunlu karşıtlık haline getirme.",
+      "intro_tr": "Yakın kelimeler aynı alanı paylaşırken farklı yönleri öne çıkarabilir. Ders yalnız bu bağlamda işe yarayan farkı gösterir.",
+      "example_tr": "İki yol dalı arasındaki açıklık veya kesintisizlik farkı kaynağın sınırlarıyla öğretilir.",
+      "broader": [
+        "ML:C033"
+      ],
+      "helped_by": [
+        "ML:C033"
+      ]
+    },
+    {
+      "id": "ML:C254",
+      "keyword": "antonym",
+      "label_tr": "Karşıt anlam",
+      "definition": "Karşıtlığın hangi anlam ekseninde kurulduğunu tanıma.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Farklı kelimeleri otomatik sözlük karşıtı sayma.",
+      "intro_tr": "İki kelime belli bir anlam yönünde karşıt olabilir. Karşıtlığın bütün kullanımları kapsaması gerekmez.",
+      "example_tr": "Hayat ve ölüm karşılaştırmasında hangi yerel kullanımın karşı karşıya geldiği belirtilir.",
+      "broader": [
+        "ML:C033"
+      ]
+    },
+    {
+      "id": "ML:C255",
+      "keyword": "semantic_inclusion",
+      "label_tr": "Üst ve alt anlam",
+      "definition": "Bir anlamın başka bir anlamın kapsamına girmesini tanıma.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Alt anlamın özelliklerini bütün üst alana yükleme.",
+      "intro_tr": "Bir kelime daha genel, diğeri onun belirli bir türünü gösterebilir. Türün özelliği genel kelimenin her kullanımında bulunmaz.",
+      "example_tr": "Düz yol, yol alanının bir türü olarak ele alınabilir; her yol mutlaka düz değildir.",
+      "broader": [
+        "ML:C247"
+      ]
+    },
+    {
+      "id": "ML:C256",
+      "keyword": "part_whole",
+      "label_tr": "Parça ve bütün",
+      "definition": "Parça ile bütün arasındaki anlamsal ilişkiyi ayırma.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Parça adını her yerde bütünün eş anlamlısı sayma.",
+      "intro_tr": "Bir kelime başka bir şeyin parçasını adlandırabilir. Parça-bütün ilişkisi ile aynı anlama gelmek farklıdır.",
+      "example_tr": "El ile beden ilişkisi parça-bütündür; iki ad eş anlamlı değildir."
+    },
+    {
+      "id": "ML:C257",
+      "keyword": "semantic_field",
+      "label_tr": "Aynı anlam alanı",
+      "definition": "Aynı konudaki kelimeleri eş anlamlılıktan ayırma.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Tematik komşuluğu sözlük eş anlamlılığı sayma.",
+      "intro_tr": "Kelimeler aynı sahnede yer aldığı için ilişkili olabilir. Bu, birbirlerinin yerine geçebilecekleri anlamına gelmez.",
+      "example_tr": "Yol, yolcu ve kılavuz aynı alanda bulunabilir ama farklı şeyleri adlandırır."
+    },
+    {
+      "id": "ML:C258",
+      "keyword": "root_relation_qualified",
+      "label_tr": "İhtilaflı akrabalık",
+      "definition": "Alternatif kök/türetim açıklamasını nitelikli sunma.",
+      "topics": [
+        "ML:T025",
+        "ML:T028"
+      ],
+      "boundary_tr": "Bir kaynağın ihtimalini yerleşik kimlik diye anlatma.",
+      "intro_tr": "Bazı kelime ilişkileri kaynaklarda farklı açıklanır. Böyle bir ilişki öğretilirse hangi çözümün öneri olduğu açık kalır.",
+      "example_tr": "Bir yol adının başka bir fiilden türetildiği önerisi, sözlükteki kesin yerel anlamın yerine geçmez.",
+      "broader": [
+        "ML:C024"
+      ],
+      "helped_by": [
+        "ML:C024"
+      ]
+    },
+    {
+      "id": "ML:C259",
+      "keyword": "rootless_headword",
+      "label_tr": "Kök atanmayan başlık",
+      "definition": "Edat ve özel başlıkları zorla kökleştirmeme.",
+      "topics": [
+        "ML:T025"
+      ],
+      "boundary_tr": "Her Arapça kelimenin mutlaka üçlü kökü var sanma.",
+      "intro_tr": "Bazı başlıklar kök ailesi üzerinden açıklanmaz. Kelimenin görevini öğrenmek için uydurma kök atamaya gerek yoktur.",
+      "example_tr": "Bir cer edatı için sözlük başlığı kullanılabilir; zorunlu bir üçlü kök aranmaz.",
+      "broader": [
+        "ML:C016"
+      ]
+    },
+    {
+      "id": "ML:C260",
+      "keyword": "concept_context_gloss",
+      "label_tr": "Kavram karşılığı ve bağlam karşılığı",
+      "definition": "Dal tanımıyla ayette kullanılacak kısa karşılığı ayırma.",
+      "topics": [
+        "ML:T026",
+        "ML:T011"
+      ],
+      "boundary_tr": "Kavramsal tanımı her ayetin doğrudan meali sayma.",
+      "intro_tr": "Kavram karşılığı dalın kapsamını açar; bağlam karşılığı bu cümledeki kullanımı doğal Türkçeyle verir. İkisinin uzunluğu ve görevi farklı olabilir.",
+      "example_tr": "Yol, özellikle düz yol bir tanımı açarken ayette yol karşılığı yeterli olabilir.",
+      "broader": [
+        "ML:C031"
+      ],
+      "helped_by": [
+        "ML:C018",
+        "ML:C019"
+      ]
+    },
+    {
+      "id": "ML:C261",
+      "keyword": "gloss_preservation",
+      "label_tr": "Korunan anlam yönü",
+      "definition": "Türkçe glossun doğru taşıdığı yönü gösterme.",
+      "topics": [
+        "ML:T026"
+      ],
+      "boundary_tr": "Dersi yalnız kayıp ve hata uyarısına çevirme.",
+      "intro_tr": "Bir karşılık anlamın önemli bir yönünü başarıyla taşıyabilir. Önce bu ortak yönü göstermek ayrımı anlaşılır kılar.",
+      "example_tr": "Yol karşılığı üzerinde ilerlenen güzergâh yönünü korur.",
+      "broader": [
+        "ML:C031"
+      ]
+    },
+    {
+      "id": "ML:C262",
+      "keyword": "gloss_omission",
+      "label_tr": "Görünmeyen anlam yönü",
+      "definition": "Glossta açıkça görünmeyen ilgili yönü tanıma.",
+      "topics": [
+        "ML:T026"
+      ],
+      "boundary_tr": "Kaydedilen her kaybı yerel çeviri hatası sayma.",
+      "intro_tr": "Bir karşılık bazı yönleri açıkça söylemeyebilir. Bunların bu cümlede gerekli olup olmadığını bağlam belirler.",
+      "example_tr": "Sözlük düzlük kaybını kaydediyorsa bunun ayette başka bir sıfatla verilip verilmediğine de bakılır.",
+      "broader": [
+        "ML:C028",
+        "ML:C031"
+      ],
+      "helped_by": [
+        "ML:C247"
+      ]
+    },
+    {
+      "id": "ML:C263",
+      "keyword": "gloss_addition",
+      "label_tr": "Eklenen anlam yönü",
+      "definition": "Türkçe karşılığın kaynak kullanımın ötesinde çağrıştırdığını ayırma.",
+      "topics": [
+        "ML:T026"
+      ],
+      "boundary_tr": "Okurun aklına gelebilecek her çağrışımı kesin ek anlam sayma.",
+      "intro_tr": "Bir karşılık, kaynak ifadenin burada söylemediği bir yönü düşündürebilir. Bu ek yönü somut ve ihtiyatlı biçimde açıklarız.",
+      "example_tr": "Fiziksel düzlüğün doğru ile karşılanması ahlakî doğruluk çağrıştırabilir.",
+      "broader": [
+        "ML:C029",
+        "ML:C031"
+      ],
+      "helped_by": [
+        "ML:C019"
+      ]
+    },
+    {
+      "id": "ML:C264",
+      "keyword": "gloss_collision",
+      "label_tr": "Türkçe anlam çakışması",
+      "definition": "Aynı Türkçe karşılığın farklı Arapça ayrımları örtmesini tanıma.",
+      "topics": [
+        "ML:T026"
+      ],
+      "boundary_tr": "Çakışmadan kelimelerin her yerde farklı çevrilmesi gerektiğini çıkarma.",
+      "intro_tr": "İki ayrı Arapça ayrım Türkçede aynı sözcükle görünebilir. Gerektiğinde kısa açıklama ayrımı geri kazandırır.",
+      "example_tr": "İki farklı dal yol diye çevrildiğinde sözlükteki ilgili sınır ayrıca açılabilir.",
+      "broader": [
+        "ML:C033",
+        "ML:C031"
+      ],
+      "helped_by": [
+        "ML:C033"
+      ],
+      "aliases": [
+        "collision"
+      ]
+    },
+    {
+      "id": "ML:C266",
+      "keyword": "drifted_loanword",
+      "label_tr": "Ödünç kelimenin ayrılan çağrışımı",
+      "definition": "Türkçedeki tanıdık terimin yerel Arapça kullanımdan ayrılmasını tanıma.",
+      "topics": [
+        "ML:T026"
+      ],
+      "boundary_tr": "Profil etiketinden tek başına tarihsel değişimin seyrini çıkarma.",
+      "intro_tr": "Tanıdık bir ödünç kelime Türkçede farklı bir anlam odağı taşıyabilir. Burada yalnız kaynakta belgelenen fark açıklanır.",
+      "example_tr": "Bir dinî terimin dar gündelik çağrışımı, dalın geniş tanımıyla karşılaştırılabilir.",
+      "broader": [
+        "ML:C027",
+        "ML:C030"
+      ],
+      "aliases": [
+        "drifted_loanword"
+      ]
+    },
+    {
+      "id": "ML:C267",
+      "keyword": "contextual_narrowing_valid",
+      "label_tr": "Bağlama uygun dar karşılık",
+      "definition": "Geniş dalın yalnız etkin yönünü çevirmenin yeterli olmasını tanıma.",
+      "topics": [
+        "ML:T026",
+        "ML:T011"
+      ],
+      "boundary_tr": "Narrowing etiketini otomatik yanlış çeviri damgası sayma.",
+      "intro_tr": "Dalın bütün kapsamı tek bir ayette etkin olmayabilir. Yalnız etkin yönü taşıyan kısa karşılık burada yeterli olabilir.",
+      "example_tr": "Genel yol kullanımında düzlüğü açıkça söylemeyen yol karşılığı uygun kalabilir.",
+      "broader": [
+        "ML:C028",
+        "ML:C019"
+      ],
+      "helped_by": [
+        "ML:C247"
+      ]
+    },
+    {
+      "id": "ML:C268",
+      "keyword": "conceptual_gap",
+      "label_tr": "Kısa karşılık bulunmaması",
+      "definition": "Türkçede tek kısa kelimeyle korunamayan kavramı tanıma.",
+      "topics": [
+        "ML:T026"
+      ],
+      "boundary_tr": "Türkçe o anlamı hiç ifade edemez deme.",
+      "intro_tr": "Bir Arapça kavramı Türkçede tek kelimeyle taşımak zor olabilir. Kısa bir açıklama aynı anlamı görünür kılabilir.",
+      "example_tr": "Tek sözcük yetersizse iki sözcüklü bir açıklama, yeni anlam eklemeden kullanılabilir.",
+      "broader": [
+        "ML:C031"
+      ]
+    },
+    {
+      "id": "ML:C269",
+      "keyword": "excluded_gloss",
+      "label_tr": "Dışlanan karşılığın nedeni",
+      "definition": "Sözlükte uygun bulunmayan glossun yerel sınırını açıklama.",
+      "topics": [
+        "ML:T026"
+      ],
+      "boundary_tr": "Dışlanmayı bütün kök ve bütün bağlamlara genelleme.",
+      "intro_tr": "Bir karşılık belirli bir dal veya kullanım için dışlanmış olabilir. Nedenini ve kapsamını birlikte okuruz.",
+      "example_tr": "Bir glossun bu dalda yanlış yönlendirmesi, aynı Türkçe kelimeyi başka dallarda yasaklamaz.",
+      "broader": [
+        "ML:C246",
+        "ML:C031"
+      ]
+    },
+    {
+      "id": "ML:C270",
+      "keyword": "gloss_facet_scope",
+      "label_tr": "Glossta etkin özellikler",
+      "definition": "Glossa bağlanan anlam yönlerini ayetin etkin yönleriyle karşılaştırma.",
+      "topics": [
+        "ML:T026",
+        "ML:T025"
+      ],
+      "boundary_tr": "Kaynak varyantını zorunlu anlamsal özellik sanma.",
+      "intro_tr": "Glossta taşınan özelliklerle ayetin ihtiyaç duyduğu özellikler aynı olmayabilir. Çekirdek ve özel yönler ayrı değerlendirilir.",
+      "example_tr": "Kaynakta alternatif söyleniş kaydı bulunması, çevirinin o söylenişleri anlatmasını gerektirmez.",
+      "broader": [
+        "ML:C247"
+      ],
+      "helped_by": [
+        "ML:C247"
+      ]
+    },
+    {
+      "id": "ML:C271",
+      "keyword": "historical_change",
+      "label_tr": "Belgeli tarihsel değişim",
+      "definition": "Dönemler arası kullanım farkını kanıtıyla tanıma.",
+      "topics": [
+        "ML:T026"
+      ],
+      "boundary_tr": "Bugünkü gloss farkını tarih anlatısına dönüştürme.",
+      "intro_tr": "Tarihsel anlam değişimi farklı dönemlerdeki kullanımlarla gösterilir. Yalnız iki dildeki bugünkü fark bunun yerine geçmez.",
+      "example_tr": "Eski ve yeni kullanım örnekleri verilmeden eskiden şöyleydi denmez.",
+      "broader": [
+        "ML:C032"
+      ]
+    },
+    {
+      "id": "ML:C272",
+      "keyword": "case_translation",
+      "label_tr": "Durum ilişkisini Türkçeye aktarma",
+      "definition": "Arapça durum ile Türkçe ekin farklı örgütlenmesini tanıma.",
+      "topics": [
+        "ML:T027",
+        "ML:T007"
+      ],
+      "boundary_tr": "Cer=-in, nasb=-i gibi sabit eşleme kurma.",
+      "intro_tr": "İki dil aynı ilişkiyi farklı ek veya söz dizimiyle kurabilir. Arapça görev adını Türkçe ek adıyla özdeşleştirmeyiz.",
+      "example_tr": "Arapça doğrudan nesne olan ifade Türkçede sana diye karşılanabilir.",
+      "broader": [
+        "ML:C005"
+      ],
+      "helped_by": [
+        "ML:C138"
+      ]
+    },
+    {
+      "id": "ML:C273",
+      "keyword": "possessive_translation",
+      "label_tr": "Tamlama ve zamirin Türkçesi",
+      "definition": "Arapça tamlama ilişkisini doğal Türkçe sırayla açma.",
+      "topics": [
+        "ML:T027",
+        "ML:T016"
+      ],
+      "boundary_tr": "Her tamlamaya gerçek sahiplik yükleme.",
+      "intro_tr": "Arapça ile Türkçe tamlama öğelerini farklı sırada verebilir. Bağlanan kişi ve şeyi koruyarak doğal Türkçe kurarız.",
+      "example_tr": "Rabbike için senin Rabbin açılımı kişi bağını görünür kılar.",
+      "broader": [
+        "ML:C011",
+        "ML:C008"
+      ]
+    },
+    {
+      "id": "ML:C274",
+      "keyword": "word_order_translation",
+      "label_tr": "Sıra etkisini Türkçeye aktarma",
+      "definition": "Arapça odağı Türkçede koruyacak açıklamayı tanıma.",
+      "topics": [
+        "ML:T027",
+        "ML:T024"
+      ],
+      "boundary_tr": "Arapça sırayı zorla kopyalayarak bozuk Türkçe üretme.",
+      "intro_tr": "Türkçe aynı odağı aynı kelime sırasıyla kurmak zorunda değildir. Gerekirse kısa bir açıklama öne çıkarılan unsuru gösterir.",
+      "example_tr": "İyyâke naʿbüdü açıklanırken nesnenin önde oluşu doğal Türkçe içinde anlatılır.",
+      "broader": [
+        "ML:C015"
+      ],
+      "helped_by": [
+        "ML:C219"
+      ]
+    },
+    {
+      "id": "ML:C275",
+      "keyword": "tense_translation",
+      "label_tr": "Zamanı Türkçeye aktarma",
+      "definition": "Fiil görünüşünün bağlama uygun Türkçe zamanla karşılanmasını tanıma.",
+      "topics": [
+        "ML:T027",
+        "ML:T017"
+      ],
+      "boundary_tr": "Mâziyi her yerde -di, muzâriyi her yerde -yor yapma.",
+      "intro_tr": "Türkçe zaman eki seçilirken Arapça biçim ve olay bağlamı birlikte düşünülür. Tek biçim etiketi bütün çeviriyi belirlemez.",
+      "example_tr": "Alışılmış bir muzâri kullanımı Türkçede geniş zamanla açılabilir.",
+      "broader": [
+        "ML:C093"
+      ],
+      "helped_by": [
+        "ML:C093"
+      ]
+    },
+    {
+      "id": "ML:C276",
+      "keyword": "voice_translation",
+      "label_tr": "Çatıyı Türkçeye aktarma",
+      "definition": "Etken/edilgen sunuş farkını doğal Türkçede koruma.",
+      "topics": [
+        "ML:T027",
+        "ML:T017"
+      ],
+      "boundary_tr": "Türkçe doğal olsun diye yapan bilgisini uydurma.",
+      "intro_tr": "Çeviri, eylemi yapanın metinde nasıl sunulduğunu korumalıdır. Açıkça verilmeyen yapanı gereksiz yere eklemeyiz.",
+      "example_tr": "Yazıldı karşılığını bir kişi yazdı diye genişletmek için ayrıca bağlam gerekir.",
+      "broader": [
+        "ML:C023"
+      ]
+    },
+    {
+      "id": "ML:C277",
+      "keyword": "gender_translation",
+      "label_tr": "Cinsiyet ve sayıyı Türkçede açma",
+      "definition": "Türkçede görünmeyen uyum bilgisini gerektiğinde açıklama.",
+      "topics": [
+        "ML:T027",
+        "ML:T015"
+      ],
+      "boundary_tr": "Her müennes biçimi kadın diye çevirme.",
+      "intro_tr": "Türkçe bazı cinsiyet ayrımlarını dilbilgisel olarak göstermez. Gerekli olduğunda anlamı kısa açıklamayla görünür kılarız.",
+      "example_tr": "Müennes bir sıfatın biçimi her kullanımda kadınlara gönderim demek değildir.",
+      "broader": [
+        "ML:C054",
+        "ML:C009"
+      ]
+    },
+    {
+      "id": "ML:C278",
+      "keyword": "speech_act_translation",
+      "label_tr": "Söz işini Türkçede koruma",
+      "definition": "Emir/soru gibi biçimlerin yerel işlevini Türkçede açıklama.",
+      "topics": [
+        "ML:T027",
+        "ML:T024"
+      ],
+      "boundary_tr": "Dilsel işlev açıklamasını metnin yerine yeni hitap yazmaya çevirme.",
+      "intro_tr": "Çeviride biçim kadar sözün kime ve ne amaçla söylendiği de önemlidir. Dua işlevi bu nedenle ayrıca açıklanabilir.",
+      "example_tr": "İhdinâ emir biçiminin Fâtiha’da yakarış olarak kullanılması Türkçe açıklamada belirtilir.",
+      "broader": [
+        "ML:C013"
+      ]
+    },
+    {
+      "id": "ML:C279",
+      "keyword": "explanatory_gloss",
+      "label_tr": "Açıklayıcı karşılık",
+      "definition": "Kısa gloss ile öğretici açılımı ayırma.",
+      "topics": [
+        "ML:T027"
+      ],
+      "boundary_tr": "Öğretici açıklamayı kelimenin değişmez bire bir anlamı sayma.",
+      "intro_tr": "Bir açıklama kısa karşılığın görünmeyen yönünü açabilir. Bu açılım yeni bir olay veya yorum eklememelidir.",
+      "example_tr": "Yol karşılığı korunup yalnız ilgili bağlamda düz olma yönü açıklanabilir.",
+      "broader": [
+        "ML:C031"
+      ]
+    },
+    {
+      "id": "ML:C280",
+      "keyword": "observation_interpretation",
+      "label_tr": "Gözlem ve yorum",
+      "definition": "Görülen biçim ile ona verilen işlevi ayırma.",
+      "topics": [
+        "ML:T028"
+      ],
+      "boundary_tr": "Yorumu metinde açıkça yazılı unsur gibi gösterme.",
+      "intro_tr": "Kelimenin önde olduğunu görmek ile bunun nedenini açıklamak iki ayrı adımdır. İkinci adım bağlam ve dayanak ister.",
+      "example_tr": "İyyâkenin fiilden önce gelmesi gözlemdir; kısıtlama etkisi yerel çözümle açıklanır."
+    },
+    {
+      "id": "ML:C281",
+      "keyword": "source_scope",
+      "label_tr": "Kaynak ifadesinin sınırı",
+      "definition": "Kaynağın gerçekten desteklediği iddiayı sınırlama.",
+      "topics": [
+        "ML:T028"
+      ],
+      "boundary_tr": "Tek örneği bütün dil için kural sayma.",
+      "intro_tr": "Bir kaynak belirli kelime veya kullanım hakkında konuşabilir. Açıklamayı kaynağın kapsamını aşmadan kurarız.",
+      "example_tr": "Bir gloss profili bir dal için verilmişse aynı kökün bütün dallarına taşınmaz."
+    },
+    {
+      "id": "ML:C282",
+      "keyword": "analysis_alternatives",
+      "label_tr": "Birden fazla dilbilgisel çözüm",
+      "definition": "Belgeli alternatif çözümlemeleri ayırma.",
+      "topics": [
+        "ML:T028"
+      ],
+      "boundary_tr": "Alternatifleri birbiriyle bağdaşmayan tek bir açıklamada birleştirme.",
+      "intro_tr": "Bir yapı için birden fazla dilbilgisel çözüm bulunabilir. Ortak gözlem korunur, ayrılan yorumlar belirtilir.",
+      "example_tr": "Bir öbeğin iki bağlanma çözümü varsa her çözümün neyi değiştirdiği ayrı gösterilir."
+    },
+    {
+      "id": "ML:C283",
+      "keyword": "quotation_context",
+      "label_tr": "Alıntı ile ayet bağlamı",
+      "definition": "Sözlük örneğini ayet alıntısından ayırma.",
+      "topics": [
+        "ML:T028"
+      ],
+      "boundary_tr": "Arapça yazılan her örneği Kur’an sözü sanma.",
+      "intro_tr": "Sözlük bir kelimeyi açıklamak için başka Arapça örnekler verebilir. Bunlar ayetin içinde bulunuyormuş gibi sunulmaz.",
+      "example_tr": "Bir sözlük cümlesi açıkça sözlük örneği olarak tanıtılır."
+    },
+    {
+      "id": "ML:C284",
+      "keyword": "etymology_usage",
+      "label_tr": "Köken ve yaşayan kullanım",
+      "definition": "Etimolojik öneri ile yerel anlamı ayırma.",
+      "topics": [
+        "ML:T028"
+      ],
+      "boundary_tr": "Köken hikâyesini kelimenin tek gerçek anlamı sayma.",
+      "intro_tr": "Bir kelimenin kökeni hakkında öneri, bugünkü yerel kullanımını tek başına belirlemez. Anlamı belgeli kullanımla birlikte okuruz.",
+      "example_tr": "Bir adın eski bir fiilden türemiş olabileceği, her kullanımın o fiili anlattığını göstermez.",
+      "broader": [
+        "ML:C024",
+        "ML:C019"
+      ],
+      "helped_by": [
+        "ML:C019"
+      ]
+    },
+    {
+      "id": "ML:C285",
+      "keyword": "imperative_result",
+      "label_tr": "Talebe bağlanan sonuç",
+      "definition": "Emir veya başka talebin ardından gelen sonucu tanıma.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Her ardışık fiili şart-cevap ilişkisine sokma.",
+      "intro_tr": "Bir talebin ardından ona bağlı bir sonuç gelebilir. Bu bağı fiilin biçimi ve cümlenin anlamı birlikte gösterir.",
+      "example_tr": "Yap ... bulursun türü bir yapıda ikinci eylem ilk talebin sonucu olarak sunulabilir.",
+      "broader": [
+        "ML:C173"
+      ],
+      "helped_by": [
+        "ML:C091"
+      ]
+    },
+    {
+      "id": "ML:C286",
+      "keyword": "circumstantial_clause",
+      "label_tr": "Hâl cümlesi",
+      "definition": "Bir cümlenin olay sırasındaki durumu vermesini tanıma.",
+      "topics": [
+        "ML:T022"
+      ],
+      "boundary_tr": "Her ve ile başlayan cümleyi hâl sayma.",
+      "intro_tr": "Olay sırasındaki durum tek kelime yerine bir cümleyle anlatılabilir. Bu cümlenin kime bağlandığı açıkça bulunur.",
+      "example_tr": "Ve hüm ... ile başlayan bir parça uygun bağlamda onlar ... haldeyken ilişkisi kurar.",
+      "broader": [
+        "ML:C160"
+      ]
+    },
+    {
+      "id": "ML:C287",
+      "keyword": "resumption",
+      "label_tr": "Yeni yargıya geçiş",
+      "definition": "İsti’nâf bağını eş görevli bağlamadan ayırma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Yeni cümleyi önceki söylemden tamamen kopuk sayma.",
+      "intro_tr": "Bir bağlayıcı önceki yargıyı tamamlayıp yeni bir yargıya geçirebilir. Söylem bağı sürerken dilbilgisel görev değişebilir.",
+      "example_tr": "Bir vâv isti’nâf olarak çözümleniyorsa ardından gelen cümle önceki öğeye aynı görevle eklenmez."
+    },
+    {
+      "id": "ML:C288",
+      "keyword": "inceptive_particle",
+      "label_tr": "Başlatıcı ve dikkat çekici öğe",
+      "definition": "Yeni yargının başlangıcını belirginleştiren öğeyi tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her elâ görünüşünü aynı görevde sayma.",
+      "intro_tr": "Bazı öğeler ardından gelen söze dikkat çeker veya yeni yargıyı başlatır. Yerel görev, öğenin yapısıyla birlikte açıklanır.",
+      "example_tr": "Elâ uygun bir kullanımda ardından gelen yargıya dikkat çekebilir."
+    },
+    {
+      "id": "ML:C289",
+      "keyword": "causal_fa",
+      "label_tr": "Sebep-sonuç fe-si",
+      "definition": "Önceki talep/olumsuzlukla sonuç fiilini bağlayan fe-yi tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Her fe- için nasb veya nedensellik varsayma.",
+      "intro_tr": "Bazı yapılarda fe-, önceki sözle bir sonuç fiili arasında bağ kurar. Fiilin nasb çözümü için ilgili yapı şartları aranır.",
+      "example_tr": "Bir talep ardından fe- ile gelen mansûb muzâri, o talebe bağlı sonucu gösterebilir.",
+      "requires": [
+        "ML:C098"
+      ],
+      "broader": [
+        "ML:C193"
+      ]
+    },
+    {
+      "id": "ML:C290",
+      "keyword": "explication_amma",
+      "label_tr": "Emmâ ile bölümleme",
+      "definition": "Bir konu başlığını ayırıp karşılığını vermeyi tanıma.",
+      "topics": [
+        "ML:T023"
+      ],
+      "boundary_tr": "Emmâyı yalnız soru veya sıradan eğer sözü sayma.",
+      "intro_tr": "Emmâ bir konuyu diğerlerinden ayırarak onun hakkında söylenecek söze hazırlar. Ardındaki karşılıkla birlikte okunur.",
+      "example_tr": "Emmâ ... fe ... yapısı ...e gelince ... ilişkisini kurabilir."
+    },
+    {
+      "id": "ML:C291",
+      "keyword": "cognition_verbs",
+      "label_tr": "Bilme ve sanma fiillerinin yapısı",
+      "definition": "Bir yargının zihinsel fiile bağlanmasını tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Bütün bilme/sanma fiillerine tek nesne düzeni dayatma.",
+      "intro_tr": "Bazı fiiller bir kişi hakkında kurulan yargıyı kendi tamamlayıcısı yapabilir. Fiilin hangi anlamda kullanıldığı nesne düzenini etkiler.",
+      "example_tr": "Birini bir nitelikte sanma yapısında kişi ile nitelik ayrı katılanlardır.",
+      "broader": [
+        "ML:C158"
+      ]
+    },
+    {
+      "id": "ML:C292",
+      "keyword": "inchoative_verbs",
+      "label_tr": "Başlama ve yaklaşma fiilleri",
+      "definition": "Bir eylemin başlangıç/yakınlık sunuşunu tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Kâdeyi eylemin mutlaka gerçekleştiği kanıtı sayma.",
+      "intro_tr": "Bazı fiiller ardından gelen eylemin başladığını veya yaklaşmakta olduğunu anlatır. Gerçekleşip gerçekleşmediği bağlamdan belirlenir.",
+      "example_tr": "Kâde ... yapısı neredeyse ... diye açılabilir.",
+      "broader": [
+        "ML:C147"
+      ]
+    },
+    {
+      "id": "ML:C293",
+      "keyword": "praise_blame",
+      "label_tr": "Övme ve yerme kuruluşu",
+      "definition": "Niʿme/bi’se gibi yerleşik değerlendirme yapılarını tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Sözlükteki tek kelime karşılığıyla cümle kuruluşunu atlama.",
+      "intro_tr": "Bazı kuruluşlar bir şeyi övmek veya yermek için kullanılır. Değerlendirilen unsur ile yapıdaki görevler ayrı bulunur.",
+      "example_tr": "Niʿme ... ve bi’se ... ifadeleri olumlu ve olumsuz değerlendirmeler kurabilir."
+    },
+    {
+      "id": "ML:C294",
+      "keyword": "exclamative",
+      "label_tr": "Hayret kuruluşu",
+      "definition": "Taaccüp biçiminin değerlendirme işini tanıma.",
+      "topics": [
+        "ML:T020"
+      ],
+      "boundary_tr": "Her mâ ile başlayan ifadeyi soru/olumsuzluk sayma.",
+      "intro_tr": "Bazı biçimler soru sormadan hayret veya güçlü değerlendirme bildirir. Kalıp ancak yerel çözüm destekliyorsa bu adla açıklanır.",
+      "example_tr": "Mâ efʿale ... kuruluşu uygun kullanımda ne kadar ... anlamına gelebilir."
+    },
+    {
+      "id": "ML:C295",
+      "keyword": "incomplete_noun",
+      "label_tr": "Sonu yâ veya elifli isim",
+      "definition": "Menkus/maksur adların görünen sonunu çekimden ayırma.",
+      "topics": [
+        "ML:T015"
+      ],
+      "boundary_tr": "Son harfin her düşmesini yeni kelime sayma.",
+      "intro_tr": "Bazı isimlerin sonundaki yâ veya elif, çekim işaretinin görünmesini değiştirir. İsim türü ve belirlilik birlikte değerlendirilir.",
+      "example_tr": "Ḳâḍin ile el-ḳâḍî karşılaştırmasında son görünüş farkı, farklı kök demek değildir.",
+      "broader": [
+        "ML:C072"
+      ]
+    },
+    {
+      "id": "ML:C296",
+      "keyword": "compound_number",
+      "label_tr": "Birleşik sayı",
+      "definition": "Birden fazla parçanın tek sayı oluşturmasını tanıma.",
+      "topics": [
+        "ML:T030"
+      ],
+      "boundary_tr": "Her yan yana sayıyı ayrı miktar sayma.",
+      "intro_tr": "Bazı sayılar birkaç kelimeyle kurulsa da tek bir miktar bildirir. Parçaları tek sayı ilişkisi içinde okuruz.",
+      "example_tr": "Eḥade ʿaşera, bir ve on diye ayrı iki miktar yerine on bir sayısını kurar.",
+      "broader": [
+        "ML:C239"
+      ]
+    },
+    {
+      "id": "ML:C297",
+      "keyword": "exhaustive_vs_contextual",
+      "label_tr": "Genellik ve bağlamsal sınır",
+      "definition": "Genel görünen ifadenin konuşmadaki alanını belirleme.",
+      "topics": [
+        "ML:T024"
+      ],
+      "boundary_tr": "Dilsel genellikten bağlamsız hukuk veya inanç hükmü çıkarma.",
+      "intro_tr": "Her ve hiçbir gibi karşılıkların hangi alanı kapsadığı bağlamla anlaşılır. Dilsel kapsam ile başka disiplinlerin çıkarımları ayrılır.",
+      "example_tr": "Her şey ifadesini açıklarken konuşulan alanın ne olduğu ayrıca belirtilir.",
+      "broader": [
+        "ML:C229",
+        "ML:C243"
+      ]
+    },
+    {
+      "id": "ML:C298",
+      "keyword": "lexical_pronunciation_variant",
+      "label_tr": "Sözlükte söyleyiş çeşidi",
+      "definition": "Aynı sözlük biriminin belgeli farklı söyleyişlerini tanıma.",
+      "topics": [
+        "ML:T025",
+        "ML:T014"
+      ],
+      "boundary_tr": "Sözlük söyleyişini kendiliğinden belirli bir kıraat atfı veya yeni kök kimliği sayma.",
+      "intro_tr": "Sözlük bir kelime için birden fazla söyleyiş kaydedebilir. Bu kayıt, her söyleyişin hangi ayette ve hangi kıraatte kullanıldığını tek başına söylemez.",
+      "example_tr": "Sırât, sirât ve zırât aynı yol dalında kaydedilebilir; kıraat atfı ayrıca kaynak ister.",
+      "broader": [
+        "ML:C037"
+      ]
+    }
+  ],
+  "source_paths_relative_to": "repository root"
+}

@@ -1,0 +1,524 @@
+{
+  "root_ar": "ع و ن",
+  "branch_ref": "root_001064/B006",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_001064.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_001064.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+      "entry_id": "root_001064/tr",
+      "status": "reviewed",
+      "review_verdict": "repair",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_001064/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, yardım ve karşılıklı desteğin yanı sıra orta yaş, yinelenmiş savaş, yaşlı hurma, bedensel olgunluk, yaban eşeği sürüsü, kasık kılları ve bir yerle ilişkilendirilen şarap gibi birbirinden belirgin biçimde ayrılan anlam dalları taşır. Düzen, bazı yaş ve olgunluk bağlantılarına karşın tek bir çekirdekten açıklanamayacak ölçüde çok kolludur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_001064/B006",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi birimi tutarlı biçimde yaban eşeklerinden oluşan bir sürü olarak tanımlar ve iki çoğul biçim bildirir. Geçici çerçeve hayvan türü ile topluluk anlamını doğru korur.",
+      "boundary_note": "Bu dal genel sürü adı veya eşek adı değildir; özellikle yaban eşeklerinden oluşan topluluğu belirtir."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "bare",
+      "note": "Tanım yalın birimin yaban eşeği sürüsü anlamıyla sınırlıdır; başka hayvan toplulukları veya kökün öteki dalları içeri alınmaz."
+    },
+    "concept_map": {
+      "definition": "Yaban eşeklerinden oluşan bir sürüyü adlandıran sözdür; aynı anlam için iki ayrı çoğul biçim kullanılır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Gönderge, üyeleri yaban eşeği olan bir hayvan sürüsüdür.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Sürü adının kaynaklarda iki ayrı çoğul biçimi bulunur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynaklar yalın birimi yaban eşeği sürüsü olarak ortak biçimde tanımlar ve bu sürü adı için iki çoğul biçimi birlikte bildirir.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "yaban eşeği sürüsü",
+      "applicability": "Hayvan türünü ve topluluk olma özelliğini eksiksiz veren doğrudan kavram karşılığıdır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Yaban eşeği türünü ve sürü olma çekirdeğini birlikte korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "bir sürü yaban eşeği",
+        "usage_role": "contextual",
+        "applicability": "Bir anlatıda topluluğu doğal Türkçe söz dizimiyle belirtmek için kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Sürü miktarını ve yaban eşeği üyelerini açık biçimde korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_019",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yaban eşeği sürüsü"
+      },
+      {
+        "lexical_unit_id": "lu_020",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yaban eşeği sürüleri"
+      },
+      {
+        "lexical_unit_id": "lu_021",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yaban eşeği sürüleri"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "eşekler",
+        "category": "alternative",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Hayvan türünün eşek olma yönünü kısmen korur.",
+          "loses": null,
+          "adds": "Evcil eşekleri ve sürü oluşturmayan bireyleri de kapsama ekler.",
+          "collision": "Genel eşek adıyla ve evcil eşek topluluğuyla karışır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000532/B014",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yalnızca yaban eşeklerinden oluşan sürüyü belirtir.",
+        "neighbor_only": "Komşu dal yaban sığırı sürüsünü, bazı kullanımlarda ise sığır veya deve topluluğunu belirtir.",
+        "gloss": "yaban sığırı sürüsü",
+        "shared_zone": "Her iki dal belirli büyük otçul hayvanlardan oluşan bir sürüyü adlandırır.",
+        "distinction": "Topluluk yapısı ortak olsa da hayvan türü sınırı farklıdır; bu nedenle iki sürü adı birbirinin yerine kullanılamaz."
+      },
+      {
+        "neighbor_ref": "root_000524/B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yaban eşeği türüne bağlıdır ve belirli bir küçük sayı koşulu taşımaz.",
+        "neighbor_only": "Komşu dal çoğunlukla dişi olan az sayıdaki develerden oluşan bir topluluğu belirtir.",
+        "gloss": "az sayıda deve topluluğu",
+        "shared_zone": "İki dal da hayvanlardan oluşan sayılabilir bir topluluğa özel ad verir.",
+        "distinction": "Odak dalda belirleyici özellik yaban eşeği türüdür; komşu dalda deve türüne ek olarak azlık ve bazen dişilik sınırı bulunur."
+      },
+      {
+        "neighbor_ref": "root_000453/B007",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yaban eşeği sürüsünü adlandırır.",
+        "neighbor_only": "Komşu dal deve kuşlarından oluşan sürüyü adlandırır.",
+        "gloss": "deve kuşu sürüsü",
+        "shared_zone": "Her iki dal vahşi hayvanlardan oluşan bir sürü için özel topluluk adıdır.",
+        "distinction": "Sürü olma özelliği ortaktır, fakat biri yaban eşeklerine, diğeri deve kuşlarına özgüdür."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yaban sığırı, az sayıdaki deve ve deve kuşu toplulukları tür sınırını en açık biçimde gösterir, kalanlar da başka hayvanları veya dağınık topluluk yapısını belirtir.",
+    "branch_image_ar": "العانة قطيع الحمر",
+    "what_is_ar": "العانة للقطيع من حمر الوحش وجمعها عانات وعون",
+    "what_is_not_ar": "ليس عانة الرجل ولا عانة الموضع",
+    "source_phrase_ar": "العانة القطيع من حمر الوحش وتجمع على عانات وعون (ayn); العانة القطيع من حمر الوحش والجمع عون (sihah); العانة قطيع من حمر الوحش وجمع على عانات وعون (mufradat)",
+    "sources": [
+      "AY",
+      "SI",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_001064",
+    "branch_id": "B006",
+    "branch_image_ar": "العانة قطيع الحمر",
+    "what_is_ar": "العانة للقطيع من حمر الوحش وجمعها عانات وعون",
+    "what_is_not_ar": "ليس عانة الرجل ولا عانة الموضع",
+    "source_phrase_ar": "العانة القطيع من حمر الوحش وتجمع على عانات وعون (ayn); العانة القطيع من حمر الوحش والجمع عون (sihah); العانة قطيع من حمر الوحش وجمع على عانات وعون (mufradat)",
+    "image_transliteration": "al'anh qty' alhmr",
+    "summary": "Yaban eşeklerinden oluşan bir sürüyü adlandıran sözdür; aynı anlam için iki ayrı çoğul biçim kullanılır.",
+    "concept_map": {
+      "definition": "Yaban eşeklerinden oluşan bir sürüyü adlandıran sözdür; aynı anlam için iki ayrı çoğul biçim kullanılır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Gönderge, üyeleri yaban eşeği olan bir hayvan sürüsüdür.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Sürü adının kaynaklarda iki ayrı çoğul biçimi bulunur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi birimi tutarlı biçimde yaban eşeklerinden oluşan bir sürü olarak tanımlar ve iki çoğul biçim bildirir. Geçici çerçeve hayvan türü ile topluluk anlamını doğru korur.",
+      "boundary_note": "Bu dal genel sürü adı veya eşek adı değildir; özellikle yaban eşeklerinden oluşan topluluğu belirtir."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "bare",
+      "note": "Tanım yalın birimin yaban eşeği sürüsü anlamıyla sınırlıdır; başka hayvan toplulukları veya kökün öteki dalları içeri alınmaz."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "bare",
+      "has_non_bare": false,
+      "has_collocation": false,
+      "unit_kind_counts": {
+        "form": 3
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_019",
+        "expression_ar": "العانة",
+        "unit_kind": "form",
+        "sense_ar": "القطيع من حمر الوحش",
+        "target_gloss": "yaban eşeği sürüsü",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_020",
+        "expression_ar": "عانات",
+        "unit_kind": "form",
+        "sense_ar": "جمع عانة للقطيع من حمر الوحش",
+        "target_gloss": "yaban eşeği sürüleri",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_021",
+        "expression_ar": "عون",
+        "unit_kind": "form",
+        "sense_ar": "جمع عانة للقطيع من حمر الوحش",
+        "target_gloss": "yaban eşeği sürüleri",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynaklar yalın birimi yaban eşeği sürüsü olarak ortak biçimde tanımlar ve bu sürü adı için iki çoğul biçimi birlikte bildirir.",
+      "evidence_refs": [
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 3,
+      "passage_count": 3,
+      "sources": [
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Yaban eşeklerinden oluşan bir sürüyü adlandıran sözdür; aynı anlam için iki ayrı çoğul biçim kullanılır.",
+      "concept": {
+        "rank": 1,
+        "text": "yaban eşeği sürüsü",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Hayvan türünü ve topluluk olma özelliğini eksiksiz veren doğrudan kavram karşılığıdır.",
+        "facet_ids": [
+          "F001"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yaban eşeği türünü ve sürü olma çekirdeğini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "bir sürü yaban eşeği",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir anlatıda topluluğu doğal Türkçe söz dizimiyle belirtmek için kullanılır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Sürü miktarını ve yaban eşeği üyelerini açık biçimde korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "eşekler",
+          "category": "alternative",
+          "exclusion_reason": "Evcil eşekleri ve sürü oluşturmayan bireyleri de kapsama ekler. Genel eşek adıyla ve evcil eşek topluluğuyla karışır.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Hayvan türünün eşek olma yönünü kısmen korur.",
+            "loses": null,
+            "adds": "Evcil eşekleri ve sürü oluşturmayan bireyleri de kapsama ekler.",
+            "collision": "Genel eşek adıyla ve evcil eşek topluluğuyla karışır."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000532",
+        "neighbor_branch_id": "B014",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yalnızca yaban eşeklerinden oluşan sürüyü belirtir.",
+        "neighbor_only": "Komşu dal yaban sığırı sürüsünü, bazı kullanımlarda ise sığır veya deve topluluğunu belirtir.",
+        "expression_transliteration": "Rebrab: kati'",
+        "gloss": "yaban sığırı sürüsü",
+        "shared_zone": "Her iki dal belirli büyük otçul hayvanlardan oluşan bir sürüyü adlandırır.",
+        "distinction": "Topluluk yapısı ortak olsa da hayvan türü sınırı farklıdır; bu nedenle iki sürü adı birbirinin yerine kullanılamaz.",
+        "expression_ar": "رَبْرَب قطيع",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1255",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A276:headword=%D8%B1%D8%A8%D8%A8:root=%D8%B1%20%D8%A8%20%D8%A8:sha=62ad7dd9cbca56b2",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D782%3Bsegment_index%3D4:headword=%D8%B1%D8%A8:root=%D8%B1%20%D8%A8:sha=159a0a66eaf2304b"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000524",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yaban eşeği türüne bağlıdır ve belirli bir küçük sayı koşulu taşımaz.",
+        "neighbor_only": "Komşu dal çoğunlukla dişi olan az sayıdaki develerden oluşan bir topluluğu belirtir.",
+        "expression_transliteration": "katiun kalil minel ibil",
+        "gloss": "az sayıda deve topluluğu",
+        "shared_zone": "İki dal da hayvanlardan oluşan sayılabilir bir topluluğa özel ad verir.",
+        "distinction": "Odak dalda belirleyici özellik yaban eşeği türüdür; komşu dalda deve türüne ek olarak azlık ve bazen dişilik sınırı bulunur.",
+        "expression_ar": "قطيع قليل من الإبل",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1225",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A528:headword=%D8%B0%D9%88%D8%AF:root=%D8%B0%20%D9%88%20%D8%AF:sha=e4f78ef1efa2b6a6",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1269:headword=%D8%B0%D9%88%D8%AF:root=%D8%B0%20%D9%88%20%D8%AF:sha=083c07e7647021c9",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D720%3Bsegment_index%3D2:headword=%D8%B0%D9%88%D8%AF:root=%D8%B0%20%D9%88%20%D8%AF:sha=d0cc1fcadda0519b"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000453",
+        "neighbor_branch_id": "B007",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yaban eşeği sürüsünü adlandırır.",
+        "neighbor_only": "Komşu dal deve kuşlarından oluşan sürüyü adlandırır.",
+        "expression_transliteration": "khyt aln'am",
+        "gloss": "deve kuşu sürüsü",
+        "shared_zone": "Her iki dal vahşi hayvanlardan oluşan bir sürü için özel topluluk adıdır.",
+        "distinction": "Sürü olma özelliği ortaktır, fakat biri yaban eşeklerine, diğeri deve kuşlarına özgüdür.",
+        "expression_ar": "خيط النعام",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1000",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2819:headword=%D8%AE%D9%8A%D8%B7:root=%D8%AE%20%D9%8A%20%D8%B7:sha=b0c2b2bdccf79913",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1619%3Asubentry%3A0%3A%D8%AE%D9%8A%D8%B7:headword=%D8%AE%D9%8A%D8%B7:root=%D8%AE%20%D9%8A%20%D8%B7:sha=af77f24ec25fcea7",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A455:headword=%D8%AE%D9%8A%D8%B7:root=%D8%AE%20%D9%8A%20%D8%B7:sha=26675c111c492301",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A2744:headword=%D8%AE%D9%8A%D8%B7:root=%D8%AE%20%D9%8A%20%D8%B7:sha=49ed7cbcc36322f3"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; yaban sığırı, az sayıdaki deve ve deve kuşu toplulukları tür sınırını en açık biçimde gösterir, kalanlar da başka hayvanları veya dağınık topluluk yapısını belirtir."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_001064/B006",
+    "concept_gloss": {
+      "text": "yaban eşeği sürüsü adı",
+      "facet_ids": [
+        "F001",
+        "F002"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "yaban eşeği sürüsü",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_019"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "yaban eşeği sürüleri",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_020",
+          "lu_021"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_019": {
+        "text": "yaban eşeği sürüsü",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss tekil sürü adını verir; kaynaklarda geçen iki çoğul biçim bilgisini taşımaz."
+        }
+      },
+      "lu_020": {
+        "text": "yaban eşeği sürüleri",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_021": {
+        "text": "yaban eşeği sürüleri",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    }
+  }
+}

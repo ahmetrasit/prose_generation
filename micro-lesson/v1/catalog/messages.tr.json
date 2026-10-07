@@ -1,0 +1,16 @@
+{
+  "version": "1.1.0",
+  "id_format": "ML:R<concept-number>:<relation>",
+  "concept_format": "ML:C<concept-number>",
+  "relations": {
+    "requires": {
+      "text_tr": "Bu açıklamanın dayandığı “{label_tr}” konusuna göz atabilirsiniz.",
+      "intro": "concept.intro_tr + concept.example_tr"
+    },
+    "helped_by": {
+      "text_tr": "İsterseniz “{label_tr}” örneği bu noktayı açabilir.",
+      "intro": "concept.intro_tr + concept.example_tr"
+    }
+  },
+  "note": "Resolve the numeric portion against ontology concepts. IDs stay stable; template edits never reset dismissal. No per-concept message generation."
+}

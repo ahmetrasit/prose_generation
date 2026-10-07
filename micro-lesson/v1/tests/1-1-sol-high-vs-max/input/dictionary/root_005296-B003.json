@@ -1,0 +1,125 @@
+{
+  "root_ar": "و ل ه",
+  "branch_ref": "root_005296/B003",
+  "source_status": {
+    "upstream_entry": "../quran-data/data/dictionary/tr/root_005296_entry.json",
+    "finalized_entry": null,
+    "reviewed_gloss_file": null,
+    "gloss_status": null,
+    "source_entry_review": null,
+    "review_response_locator": null
+  },
+  "root_profile": {
+    "summary": "Bu kökün anlam alanı üç dala ayrılır: güçlü duyguyla aklın karışması ve özlem, anne ile yavruyu ayırarak annede bu durumu doğurma ve açık araziye salınan suyun akıp kaybolması. Dallar, düzenin bozulması veya bir şeyin yerinden uzaklaşıp yitmesi gibi genel bir bağ taşısa da katılımcıları ve olay türleri açıkça ayrıdır.",
+    "polysemy": "polysemic",
+    "organization": "multi_branch"
+  },
+  "branch": {
+    "branch_ref": "root_005296/B003",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak sözü, bir kaynaktan ya da başka bir yerden salınan suyun açık ve ıssız arazide akarak gözden yitmesini açıkça anlatır. Dalın geçici çerçevesi bu fiziksel hareketi ve sonucu doğru biçimde korur.",
+      "boundary_note": "Bu dal suyun salınması, açık arazide akması ve kaybolmasıyla sınırlıdır; duygusal şaşkınlık, özlem veya anne-yavruyu ayırma anlamı taşımaz."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "unresolved",
+      "note": "Veri, anlamın yalın bir sözlük birimine mi yoksa belirli bir yapıya mı bağlı olduğunu kesinleştirmediği için tanım yalnızca kaynakta verilen su ve açık arazi koşuluyla sınırlıdır."
+    },
+    "concept_map": {
+      "definition": "Açık ve ıssız araziye salınan suyun orada akıp gözden yitmesi ve suyu bu biçimde salınmış kaynağın bu sonuçla nitelenmesidir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Su, kaynağından açık ve ıssız araziye doğru serbest bırakılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Serbest bırakılan su arazide akıp dağılır ve sonunda gözden yiter.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "Suyu bu biçimde salınmış bir su kaynağı da ortaya çıkan durum üzerinden nitelenir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynakların ortak çekirdeği, suyun açık ve ıssız araziye bırakılması ve orada akıp kaybolmasıdır. Anlatım hem salınan suyu hem de suyu bu biçimde akıtılmış kaynağı kapsar.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "salınan suyun açık arazide akıp kaybolması",
+      "applicability": "Suyun serbest bırakılmasını, açık arazi koşulunu, akışını ve kaybolma sonucunu birlikte veren tam karşılıktır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Suyun salınmasını, açık arazide akmasını ve gözden yitmesini eksiksiz korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "açık araziye salınınca akıp kaybolan su",
+        "usage_role": "contextual",
+        "applicability": "Suyun açık ve ıssız araziye salındıktan sonra akarak kaybolduğu bağlamda uygundur.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Suyu salma eylemini, açık araziyi ve suyun kaybolma sonucunu birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      }
+    ],
+    "lexical_glosses": [],
+    "excluded_glosses": [
+      {
+        "text": "kaybolmak",
+        "category": "alternative",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Suyun sonunda gözden yitmesi sonucunu korur.",
+          "loses": null,
+          "adds": "Herhangi bir varlığın herhangi bir yerde kaybolmasını kapsayarak su, salma ve açık arazi koşullarını kaldırır.",
+          "collision": "Genel yitme ve bulunamama anlamıyla karışır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [],
+    "neighbor_coverage_note": "Her iki komşu değerlendirildi. Duygusal sarsıntı yalnızca çok genel bir yitme düşüncesini paylaşır; anne ile yavruyu ayırma eylemiyle doğrudan anlam örtüşmesi yoktur, bu yüzden ikisi de yararlı bir karşılaştırma olarak yayımlanmadı.",
+    "branch_image_ar": "ماء مُولَه ذاهب",
+    "what_is_ar": "الماء أو العين إذا أرسل ماؤها في الصحراء فذهب",
+    "what_is_not_ar": "ليس ذهاب العقل أو الحيرة؛ وليس حنين الوالدة أو الناقة؛ وليس التوليه بالتفريق",
+    "source_phrase_ar": "عين مولهة إذا أرسل ماؤها فذهب في الصحارى (maqayis)؛ ماء موله وموله أرسل في الصحراء فذهب (sihah)",
+    "sources": [
+      "MQ",
+      "SI"
+    ],
+    "source_note": {}
+  }
+}

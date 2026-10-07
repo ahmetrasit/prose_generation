@@ -1,0 +1,630 @@
+{
+  "root_ar": "س م و",
+  "branch_ref": "root_000745/B002",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_000745.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_000745.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+      "entry_id": "root_000745/tr",
+      "status": "reviewed",
+      "review_verdict": "editorial_review",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_000745/tr/repair/editorial/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, somut ve toplumsal yükselme çekirdeğinden uzaktan beliren yüksek görünüşe, üstteki gök ve örtüye, adlandırmaya ve iyi üne uzanır; ayrıca erkek devenin sürüye girişi, ava çıkma ve karşılıklı yarışma gibi kalıplaşmış dallar taşır. Bu yapı, anlamca bağlantılı uzantılarla daha bağımsız eski kullanımları birlikte barındırır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_000745/B002",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi yalnız yükselmeyi değil, yükselen şeyin uzaktan belirip seçilebilir hale gelmesini de şart koşar. Ayın ince yayının ufuk üstündeki görünüşü bu çekirdeğin belirtilmiş örneğidir.",
+      "boundary_note": "Dal, görünür bir yüksek gövde ya da çizgi gerektirir; görünmeden gerçekleşen genel yükselme bu dala girmez."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Uzaktan belirme çekirdeği, belirli görünme kalıpları ve ayın ufuk üstündeki görünüşüyle birlikte fakat ayrı kapsamlarla verilir."
+    },
+    "concept_map": {
+      "definition": "Bir şeyin ya da kişinin yükselerek uzaktan görünür ve seçilebilir hale gelmesi, yahut bir şeyin yüksekte beliren gövdesi veya çizgisidir. Ayın ince yayının ufuk üstünde belirmesi bunun özel bir örneğidir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir şey yükselir ve uzaktan bakıldığında görünür, ayırt edilir hale gelir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Bir şeyin yüksekte görünen gövdesi, dış çizgisi ya da belirgin yanı anlatılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "example",
+          "statement": "Ayın ince yayı ufuktan biraz yükseldiğinde görünen biçimiyle örneklenir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynaklar, yükselen bir şeyin uzaktan belirip seçilmesini ve yüksekte görünen gövde ya da çizgisini ortak anlam olarak verir; ayın ufuktan yükselen görünüşünü örnekler.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "yükselerek uzaktan beliren görünüş",
+      "applicability": "Yükselme, görünür olma ve uzaktan seçilebilme koşullarını birlikte taşıyan bütün dal için uygundur.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Yükseklik ile uzaktan görünür hale gelme bağını korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "uzakta yükselip görünmek",
+        "usage_role": "general",
+        "applicability": "Bir kişi ya da nesne yükselerek uzaktan seçilebilir hale geldiğinde kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yükselme ile uzaktan görünme aşamalarını birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "yüksekte görünen dış çizgi",
+        "usage_role": "explanatory",
+        "applicability": "Bir şeyin yüksek ve görünür gövdesi ya da dış çizgisi kastedildiğinde kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Görünür yüksek gövde veya çizgi anlamını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002"
+        ]
+      },
+      {
+        "text": "ayın ufuktan yükselen ince yayı",
+        "usage_role": "contextual",
+        "applicability": "Ayın ince yayının ufkun üzerine çıkıp görünür hale geldiği özel bağlamda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Ayın ufuktan yükselerek beliren görünüşünü korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F003"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_005",
+        "rendering_kind": "ordinary",
+        "target_gloss": "uzakta yükselip görünür olmak"
+      },
+      {
+        "lexical_unit_id": "lu_006",
+        "rendering_kind": "ordinary",
+        "target_gloss": "bir şeyin yüksekte görünen gövdesi veya dış çizgisi"
+      },
+      {
+        "lexical_unit_id": "lu_007",
+        "rendering_kind": "ordinary",
+        "target_gloss": "ayın ince yayının ufuktan yükselen görünüşü"
+      }
+    ],
+    "excluded_glosses": [],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000781/B001",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalında görünür gövdenin yükselmiş veya ufkun üstüne çıkmış olması gerekir.",
+        "neighbor_only": "Komşu dal, uzaktan görülen gövdeyi yükseklik şartı olmadan ve geniş cüssesiyle de kapsar.",
+        "gloss": "uzaktan görünen gövde",
+        "shared_zone": "İki dal da uzaktan seçilen bir kişi ya da nesne görünüşünü anlatır.",
+        "distinction": "Odak dalı görünürlüğü yükselmenin sonucu olarak sınırlar; komşu dalın görünen gövde kavramı yükselme gerektirmeden daha geniştir."
+      },
+      {
+        "neighbor_ref": "root_000757/B002",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalında yüksek konum ve yükselerek belirme anlamın kurucu parçasıdır.",
+        "neighbor_only": "Komşu dal görülen kişinin, eşyanın veya gece seçilen nesnenin genel siluetini kapsar.",
+        "gloss": "görünür siluet",
+        "shared_zone": "Her iki dal bir şeyin gözle seçilen gövdesini veya görünüşünü içerir.",
+        "distinction": "Odak dalının silueti yüksek ve beliren bir siluettir; komşu dal ise yüksekliğe bağlı olmayan genel görünür gövdeyi anlatır."
+      },
+      {
+        "neighbor_ref": "root_000097/B001",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı yükselmiş bir gövdenin uzaktan seçilmesini özellikle gerektirir.",
+        "neighbor_only": "Komşu dal gizliyken ortaya çıkan her tür görünüşü ve bir şeyi görünür kılmayı kapsar.",
+        "gloss": "belirme ve görünme",
+        "shared_zone": "İki dalda da daha önce seçilmeyen bir şey görünür hale gelir.",
+        "distinction": "Komşu dal genel ortaya çıkışı anlatırken odak dalı bu görünürlüğü yükselmiş ve uzaktan seçilen bir gövdeyle sınırlar."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar karşılaştırıldı; yükseklik, uzaktan görünürlük ve gövde sınırlarını en iyi ayıran üç komşu seçildi.",
+    "branch_image_ar": "الشخص المرتفع الظاهر",
+    "what_is_ar": "يدخل فيه الشيء أو الشخص الذي يرتفع فيلوح من بعيد، وسماوة الهلال أو كل شيء بمعنى شخصه العالي الظاهر.",
+    "what_is_not_ar": "لا يدخل فيه مطلق العلو بلا ظهور، ولا السماء بمعنى السقف أو المطر.",
+    "source_phrase_ar": "سما لي شخص ارتفع حتى استثبته؛ سماوة الهلال وكل شيء شخصه (maqayis)؛ سما لي شيء؛ سماوة الهلال شخصه إذا ارتفع عن الأفق شيئا (ayn)؛ سما لي شخص؛ سماوة كل شيء شخصه (sihah)؛ سما لي شيء؛ سماوته أي شخصه؛ سماوة الهلال شخصه (tahdhib)؛ السماوة الشخص العالي؛ وسما لي شخص (mufradat)",
+    "sources": [
+      "MQ",
+      "AY",
+      "SI",
+      "TA",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_000745",
+    "branch_id": "B002",
+    "branch_image_ar": "الشخص المرتفع الظاهر",
+    "what_is_ar": "يدخل فيه الشيء أو الشخص الذي يرتفع فيلوح من بعيد، وسماوة الهلال أو كل شيء بمعنى شخصه العالي الظاهر.",
+    "what_is_not_ar": "لا يدخل فيه مطلق العلو بلا ظهور، ولا السماء بمعنى السقف أو المطر.",
+    "source_phrase_ar": "سما لي شخص ارتفع حتى استثبته؛ سماوة الهلال وكل شيء شخصه (maqayis)؛ سما لي شيء؛ سماوة الهلال شخصه إذا ارتفع عن الأفق شيئا (ayn)؛ سما لي شخص؛ سماوة كل شيء شخصه (sihah)؛ سما لي شيء؛ سماوته أي شخصه؛ سماوة الهلال شخصه (tahdhib)؛ السماوة الشخص العالي؛ وسما لي شخص (mufradat)",
+    "image_transliteration": "alshkhs almrtf' alzahr",
+    "summary": "Bir şeyin ya da kişinin yükselerek uzaktan görünür ve seçilebilir hale gelmesi, yahut bir şeyin yüksekte beliren gövdesi veya çizgisidir. Ayın ince yayının ufuk üstünde belirmesi bunun özel bir örneğidir.",
+    "concept_map": {
+      "definition": "Bir şeyin ya da kişinin yükselerek uzaktan görünür ve seçilebilir hale gelmesi, yahut bir şeyin yüksekte beliren gövdesi veya çizgisidir. Ayın ince yayının ufuk üstünde belirmesi bunun özel bir örneğidir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir şey yükselir ve uzaktan bakıldığında görünür, ayırt edilir hale gelir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Bir şeyin yüksekte görünen gövdesi, dış çizgisi ya da belirgin yanı anlatılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "example",
+          "statement": "Ayın ince yayı ufuktan biraz yükseldiğinde görünen biçimiyle örneklenir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi yalnız yükselmeyi değil, yükselen şeyin uzaktan belirip seçilebilir hale gelmesini de şart koşar. Ayın ince yayının ufuk üstündeki görünüşü bu çekirdeğin belirtilmiş örneğidir.",
+      "boundary_note": "Dal, görünür bir yüksek gövde ya da çizgi gerektirir; görünmeden gerçekleşen genel yükselme bu dala girmez."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Uzaktan belirme çekirdeği, belirli görünme kalıpları ve ayın ufuk üstündeki görünüşüyle birlikte fakat ayrı kapsamlarla verilir."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 2,
+        "form": 1
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_005",
+        "expression_ar": "سما لي شيء",
+        "unit_kind": "collocation",
+        "sense_ar": "ارتفع فظهر من بعيد حتى استبان.",
+        "target_gloss": "uzakta yükselip görünür olmak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_006",
+        "expression_ar": "السماوة",
+        "unit_kind": "form",
+        "sense_ar": "الشخص أو الجانب العالي الظاهر من الشيء.",
+        "target_gloss": "bir şeyin yüksekte görünen gövdesi veya dış çizgisi",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_007",
+        "expression_ar": "سماوة الهلال",
+        "unit_kind": "collocation",
+        "sense_ar": "شخص الهلال إذا ارتفع عن الأفق فظهر.",
+        "target_gloss": "ayın ince yayının ufuktan yükselen görünüşü",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynaklar, yükselen bir şeyin uzaktan belirip seçilmesini ve yüksekte görünen gövde ya da çizgisini ortak anlam olarak verir; ayın ufuktan yükselen görünüşünü örnekler.",
+      "evidence_refs": [
+        "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 5,
+      "passage_count": 5,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667"
+          ]
+        },
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Bir şeyin ya da kişinin yükselerek uzaktan görünür ve seçilebilir hale gelmesi, yahut bir şeyin yüksekte beliren gövdesi veya çizgisidir. Ayın ince yayının ufuk üstünde belirmesi bunun özel bir örneğidir.",
+      "concept": {
+        "rank": 1,
+        "text": "yükselerek uzaktan beliren görünüş",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Yükselme, görünür olma ve uzaktan seçilebilme koşullarını birlikte taşıyan bütün dal için uygundur.",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yükseklik ile uzaktan görünür hale gelme bağını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "uzakta yükselip görünmek",
+          "loanword_status": "none",
+          "usage_role": "general",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir kişi ya da nesne yükselerek uzaktan seçilebilir hale geldiğinde kullanılır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yükselme ile uzaktan görünme aşamalarını birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "yüksekte görünen dış çizgi",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir şeyin yüksek ve görünür gövdesi ya da dış çizgisi kastedildiğinde kullanılır.",
+          "facet_ids": [
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Görünür yüksek gövde veya çizgi anlamını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 4,
+          "text": "ayın ufuktan yükselen ince yayı",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Ayın ince yayının ufkun üzerine çıkıp görünür hale geldiği özel bağlamda kullanılır.",
+          "facet_ids": [
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Ayın ufuktan yükselerek beliren görünüşünü korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": []
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000781",
+        "neighbor_branch_id": "B001",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalında görünür gövdenin yükselmiş veya ufkun üstüne çıkmış olması gerekir.",
+        "neighbor_only": "Komşu dal, uzaktan görülen gövdeyi yükseklik şartı olmadan ve geniş cüssesiyle de kapsar.",
+        "expression_transliteration": "alshkhs almryy",
+        "gloss": "uzaktan görünen gövde",
+        "shared_zone": "İki dal da uzaktan seçilen bir kişi ya da nesne görünüşünü anlatır.",
+        "distinction": "Odak dalı görünürlüğü yükselmenin sonucu olarak sınırlar; komşu dalın görünen gövde kavramı yükselme gerektirmeden daha geniştir.",
+        "expression_ar": "الشَّخْص المرئي",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1919",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2562:headword=%D8%B4%D8%AE%D8%B5:root=%D8%B4%20%D8%AE%20%D8%B5:sha=69d807d1c7feaaee",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1575%3Asubentry%3A0%3A%D8%B4%D8%AE%D8%B5:headword=%D8%B4%D8%AE%D8%B5:root=%D8%B4%20%D8%AE%20%D8%B5:sha=7b64dd40e6c4d622",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A770:headword=%D8%B4%D8%AE%D8%B5:root=%D8%B4%20%D8%AE%20%D8%B5:sha=e976f6ca8f2fbf9a",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A2571:headword=%D8%B4%D8%AE%D8%B5:root=%D8%B4%20%D8%AE%20%D8%B5:sha=22ffbc8de4e5e438",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D349%3Bsegment_index%3D57:headword=%D8%B4%D8%AE%D8%B5:root=%D8%B4%20%D8%AE%20%D8%B5:sha=c5ce0c21d3555b29"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000757",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalında yüksek konum ve yükselerek belirme anlamın kurucu parçasıdır.",
+        "neighbor_only": "Komşu dal görülen kişinin, eşyanın veya gece seçilen nesnenin genel siluetini kapsar.",
+        "expression_transliteration": "alswad shkhs alshy' almryy",
+        "gloss": "görünür siluet",
+        "shared_zone": "Her iki dal bir şeyin gözle seçilen gövdesini veya görünüşünü içerir.",
+        "distinction": "Odak dalının silueti yüksek ve beliren bir siluettir; komşu dal ise yüksekliğe bağlı olmayan genel görünür gövdeyi anlatır.",
+        "expression_ar": "السواد شخص الشيء المرئي",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1703",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A4945:headword=%D8%B3%D9%88%D8%AF:root=%D8%B3%20%D9%88%20%D8%AF:sha=1804dd97b4585812",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1309:headword=%D8%B3%D9%88%D8%AF:root=%D8%B3%20%D9%88%20%D8%AF:sha=9f323777c29ad088",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D654%3Bsegment_index%3D2:headword=%D8%B3%D9%88%D8%AF:root=%D8%B3%20%D9%88%20%D8%AF:sha=98f87e65049d3200"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000097",
+        "neighbor_branch_id": "B001",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı yükselmiş bir gövdenin uzaktan seçilmesini özellikle gerektirir.",
+        "neighbor_only": "Komşu dal gizliyken ortaya çıkan her tür görünüşü ve bir şeyi görünür kılmayı kapsar.",
+        "expression_transliteration": "zuhûru'ş-şey'i ve burûzuhû",
+        "gloss": "belirme ve görünme",
+        "shared_zone": "İki dalda da daha önce seçilmeyen bir şey görünür hale gelir.",
+        "distinction": "Komşu dal genel ortaya çıkışı anlatırken odak dalı bu görünürlüğü yükselmiş ve uzaktan seçilen bir gövdeyle sınırlar.",
+        "expression_ar": "ظهور الشيء وبروزه",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:226",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A91:headword=%D8%A8%D8%AF%D8%A7:root=%D8%A8%20%D8%AF%20%D8%A7:sha=dfa79032d49b859f",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5225:headword=%D8%A8%D8%AF%D8%A7:root=%D8%A8%20%D8%AF%20%D8%A7:sha=002975cedb7d90fd",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D726%3Bsegment_index%3D4:headword=%D8%A8%D8%AF%D8%A7:root=%D8%A8%20%D8%AF%20%D8%A7:sha=5fcc7ceb81cfbe63"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün adaylar karşılaştırıldı; yükseklik, uzaktan görünürlük ve gövde sınırlarını en iyi ayıran üç komşu seçildi."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_000745/B002",
+    "concept_gloss": {
+      "text": "yüksekte belirip uzaktan seçilen görünüş",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "yükselerek uzaktan görünür olmak",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_005"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "yüksekte görünen gövde veya dış çizgi",
+        "facet_ids": [
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_006"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "hilalin ufuk üstünde beliren ince yayı",
+        "facet_ids": [
+          "F003"
+        ],
+        "lexical_unit_ids": [
+          "lu_007"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_005": {
+        "text": "uzakta yükselip seçilir hale gelmek",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss yükselip uzaktan seçilme eylemini verir; yüksekte görünen gövdeyi ve hilal örneğini ayrıca karşılamaz."
+        }
+      },
+      "lu_006": {
+        "text": "bir şeyin yüksekte beliren gövdesi veya çizgisi",
+        "facet_ids": [
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss görünen yüksek gövdeyi adlandırır; yükselip uzaktan seçilme sürecini ve hilal örneğini dışarıda bırakır."
+        }
+      },
+      "lu_007": {
+        "text": "hilalin ufuktan yükselince görünen ince yayı",
+        "facet_ids": [
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss hilal örneğine özgüdür; genel uzaktan belirme ve her nesnenin yüksek görünüşü kapsamlarını daraltır."
+        }
+      }
+    }
+  }
+}

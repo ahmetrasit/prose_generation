@@ -1,0 +1,748 @@
+{
+  "root_ar": "و س م",
+  "branch_ref": "root_001650/B001",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_001650/tr/output/root_001650_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_001650.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_001650.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_001650/tr/output/root_001650_entry.json",
+      "entry_id": "root_001650/tr",
+      "status": "reviewed",
+      "review_verdict": "pass",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_001650/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Bu kök, fiziksel bir işaret koyma ve ortaya çıkan iz merkezinden; belirtiden kişilik veya durum sezme, toprağı bitkilendiren ilk yağmur, belirlenmiş toplu buluşma, kişide görünen güzellik ve yaprakları boya veren bir bitki anlamlarına açılan çok anlamlı bir yapı gösterir. Dalların çoğu belirgin iz veya belirlenmişlik düşüncesiyle ilişkilendirilebilirken bitki adı daha bağımsız bir adlandırma olarak durur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_001650/B001",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi, bir şeyi ya da hayvanı tanınmasını sağlayacak görünür bir izle işaretleme eylemini, bu eylemin bıraktığı izi ve işaretlemede kullanılan kızgın aracı birlikte verir. Sağlanan dal çerçevesi bu çekirdeği doğru biçimde yansıtır.",
+      "boundary_note": "Dal, her türlü soyut belirtiyi değil; yakma, kulak kesme veya çentikleme gibi yollarla bırakılan tanıtıcı fiziksel izi kapsar."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım, ortak fiziksel işaretleme çekirdeğiyle sınırlıdır; zırhın alt bölümündeki süslemeyi anlatan özel tamlama yalnızca kendi sözlüksel karşılığında korunur."
+    },
+    "concept_map": {
+      "definition": "Bir şeyi ya da hayvanı, tanınmasını veya ayırt edilmesini sağlayan kalıcı ve görünür bir fiziksel iz oluşturacak biçimde işaretlemektir; iz yakma, kulak kesme ya da çentikleme yoluyla bırakılabilir. Anlam alanı, oluşan işareti ve özellikle hayvanı işaretlemeye yarayan kızgın aracı da kapsar.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir nesne veya hayvan üzerinde onu tanıtmaya ve başkalarından ayırmaya yarayan görünür bir fiziksel iz oluşturulur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "specialization",
+          "statement": "İşaret, kızgın araçla yakılarak, kulağın bir bölümü kesilerek veya çentik açılarak bırakılabilir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "extension",
+          "statement": "Eylemin sonucunda kalan tanıtıcı iz de aynı anlam alanında adlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "associated_use",
+          "statement": "Özellikle hayvanlara bu izi koymak için kullanılan kızgın işaretleme aracı da bu dala bağlıdır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Ortak anlatımda temel ilişki, tanınacak şey üzerinde kasıtlı ve kalıcı bir iz oluşturma ilişkisidir. Yakma, kulak kesme ve çentikleme bu işlemin yollarıdır; sonuçtaki iz ile onu koyan kızgın araç da anlam alanına dahildir.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "tanıtıcı fiziksel iz koyma, iz ve araç",
+      "applicability": "Eylem, ortaya çıkan kalıcı işaret ve işaretleme aracı birlikte kastedildiğinde dalın bütün çekirdeğini karşılar.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Tanıtma amacıyla fiziksel iz oluşturmayı, kalan izi ve kullanılan aracı birlikte korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "damgalamak",
+        "usage_role": "contextual",
+        "applicability": "Kızgın bir araçla hayvan veya nesne üzerinde tanıtıcı iz bırakma bağlamında doğal karşılıktır.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Kasıtlı biçimde görünür ve tanıtıcı bir iz bırakma eylemini korur.",
+          "loses": "Kulak kesme ve çentikleme yollarını, sonuçtaki izin adını ve işaretleme aracını tek başına karşılamaz.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      {
+        "text": "ayırt edici işaret",
+        "usage_role": "contextual",
+        "applicability": "Eylemden çok nesne veya hayvan üzerinde kalan ve tanınmayı sağlayan sonuç öne çıktığında kullanılır.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Görünür izin tanıtma ve ayırt etme işlevini açık biçimde korur.",
+          "loses": "İşareti oluşturma işlemini, özel oluşturma yollarını ve kullanılan aracı dışarıda bırakır.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F003"
+        ]
+      },
+      {
+        "text": "damga demiri",
+        "usage_role": "contextual",
+        "applicability": "Hayvana kızdırılarak işaret basmak için kullanılan araç doğrudan kastedildiğinde uygundur.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Fiziksel işaret bırakmada kullanılan kızgın aracı tam olarak belirtir.",
+          "loses": "İşaretleme eylemini, kesme ve çentikleme yollarını ve ortaya çıkan işareti karşılamaz.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F004"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_001",
+        "rendering_kind": "ordinary",
+        "target_gloss": "bir şeyi tanıtıcı bir iz bırakarak işaretlemek"
+      },
+      {
+        "lexical_unit_id": "lu_002",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yakma veya kesme yoluyla bırakılmış tanıtıcı iz"
+      },
+      {
+        "lexical_unit_id": "lu_003",
+        "rendering_kind": "ordinary",
+        "target_gloss": "tanınmayı sağlayan görünür işaret"
+      },
+      {
+        "lexical_unit_id": "lu_004",
+        "rendering_kind": "ordinary",
+        "target_gloss": "üzerine tanıtıcı işaret konmuş"
+      },
+      {
+        "lexical_unit_id": "lu_005",
+        "rendering_kind": "ordinary",
+        "target_gloss": "hayvan damgalamaya yarayan kızgın demir"
+      },
+      {
+        "lexical_unit_id": "lu_006",
+        "rendering_kind": "ordinary",
+        "target_gloss": "kendine tanınacağı bir işaret edinmek"
+      },
+      {
+        "lexical_unit_id": "lu_007",
+        "rendering_kind": "ordinary",
+        "target_gloss": "alt bölümü pirinçle süslenmiş zırh"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "mühürlemek",
+        "category": "confusable",
+        "error_profile": {
+          "fit": "displacement",
+          "preserves": "Bir araçla iz bırakma düşüncesini kısmen korur.",
+          "loses": "Hayvanı yakma, kulak kesme veya çentikleme yoluyla tanıtıcı biçimde işaretleme alanını siler.",
+          "adds": "Kapatma, onaylama ve belgeleme işlevlerini gereksiz biçimde ekler.",
+          "collision": "Mühür basma ve kapatma anlamlarıyla karışır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_001040/B002",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "İşaretin yakma, kulak kesme veya çentikleme yoluyla kasıtlı olarak oluşturulmasını ve kullanılan kızgın aracı kapsar.",
+        "neighbor_only": "Bayrak, dağ, yol sınırı, giysi işareti ve benzeri çok daha geniş gösterge türlerini kapsar.",
+        "gloss": "ayırt edici işaret",
+        "shared_zone": "Her iki dalda da bir şeyi tanıtan ve benzerlerinden ayıran görünür bir belirti bulunur.",
+        "distinction": "Odak dal, fiziksel izin koyulma işlemi ve aracıyla sınırlandırılmıştır; komşu dal ise işaretin nasıl oluştuğunu şart koşmadan geniş bir gösterge alanını adlandırır."
+      },
+      {
+        "neighbor_ref": "root_000393/B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Hayvan üzerinde yakma veya kesme yoluyla kalıcı tanıtıcı iz oluşturmayı da içerir.",
+        "neighbor_only": "Bir yüzeye kalıp ya da mühür basmayı, mühürlü nesneyi ve kapatma aracını kapsar.",
+        "gloss": "iz basma ve mühürleme",
+        "shared_zone": "İki dalda da bir araçla yüzey üzerinde ayırt edici bir iz oluşturulabilir.",
+        "distinction": "Odak dalın çekirdeği tanıtıcı fiziksel işaret koymaktır; komşu dalın çekirdeği ise kalıp veya mühürle basma ve kapatmadır, bu yüzden olağan kullanımda birbirinin yerine geçmezler."
+      },
+      {
+        "neighbor_ref": "root_000995/B017",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "İzi oluşturma eylemini, tanıtma amacını ve işaretleme aracını birlikte kapsar.",
+        "neighbor_only": "Yara izini ve hayvanı ayıran çizgi biçimindeki özel bir izi de adlandırır.",
+        "gloss": "bedensel iz veya hayvan işareti",
+        "shared_zone": "Her iki dal, bedende ya da hayvanda görülen ayırt edici fiziksel iz alanına girebilir.",
+        "distinction": "Odak dal kasıtlı işaretleme sürecini ve sonucunu merkez alır; komşu dal ise iz türünün kendisini adlandırır ve aynı oluşturma işlemini gerektirmez."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; fiziksel işaretin genel gösterge, mühür izi ve bedensel izden ayrıldığı üç karşılaştırma sınırı en açık biçimde gösterdiği için yayımlandı.",
+    "branch_image_ar": "أثر وسم ظاهر يجعل الشيء معروفا",
+    "what_is_ar": "يدخل فيه وسم الشيء أو الدابة بسمة أو كي أو قطع أذن، والميسم أو المكواة، وكل علامة حسية للتعريف أو التمييز.",
+    "what_is_not_ar": "لا يدخل فيه الوسمي المطر، ولا الموسم المجمع، ولا الوسامة الجمال إلا من جهة أصل الأثر.",
+    "source_phrase_ar": "ووسمت الشيء وسما: أثرت فيه بسمة (maqayis;sihah)؛ الوسم أثر كي وبعير موسوم وسم بسمة يعرف بها من قطع أذن أو كي (ayn)؛ أثر كية، إما كية أو قطع في أذنه أو قرمة تكون علامة له (tahdhib)؛ الميسم المكواة أو الشيء الذي يوسم به الدواب (ayn;sihah;tahdhib)",
+    "sources": [
+      "MQ",
+      "AY",
+      "SI",
+      "TA"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_001650",
+    "branch_id": "B001",
+    "branch_image_ar": "أثر وسم ظاهر يجعل الشيء معروفا",
+    "what_is_ar": "يدخل فيه وسم الشيء أو الدابة بسمة أو كي أو قطع أذن، والميسم أو المكواة، وكل علامة حسية للتعريف أو التمييز.",
+    "what_is_not_ar": "لا يدخل فيه الوسمي المطر، ولا الموسم المجمع، ولا الوسامة الجمال إلا من جهة أصل الأثر.",
+    "source_phrase_ar": "ووسمت الشيء وسما: أثرت فيه بسمة (maqayis;sihah)؛ الوسم أثر كي وبعير موسوم وسم بسمة يعرف بها من قطع أذن أو كي (ayn)؛ أثر كية، إما كية أو قطع في أذنه أو قرمة تكون علامة له (tahdhib)؛ الميسم المكواة أو الشيء الذي يوسم به الدواب (ayn;sihah;tahdhib)",
+    "image_transliteration": "eserü vesmin zahirin yec'alü'ş-şey'e ma'rufen",
+    "summary": "Bir şeyi ya da hayvanı, tanınmasını veya ayırt edilmesini sağlayan kalıcı ve görünür bir fiziksel iz oluşturacak biçimde işaretlemektir; iz yakma, kulak kesme ya da çentikleme yoluyla bırakılabilir. Anlam alanı, oluşan işareti ve özellikle hayvanı işaretlemeye yarayan kızgın aracı da kapsar.",
+    "concept_map": {
+      "definition": "Bir şeyi ya da hayvanı, tanınmasını veya ayırt edilmesini sağlayan kalıcı ve görünür bir fiziksel iz oluşturacak biçimde işaretlemektir; iz yakma, kulak kesme ya da çentikleme yoluyla bırakılabilir. Anlam alanı, oluşan işareti ve özellikle hayvanı işaretlemeye yarayan kızgın aracı da kapsar.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir nesne veya hayvan üzerinde onu tanıtmaya ve başkalarından ayırmaya yarayan görünür bir fiziksel iz oluşturulur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "specialization",
+          "statement": "İşaret, kızgın araçla yakılarak, kulağın bir bölümü kesilerek veya çentik açılarak bırakılabilir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "extension",
+          "statement": "Eylemin sonucunda kalan tanıtıcı iz de aynı anlam alanında adlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "associated_use",
+          "statement": "Özellikle hayvanlara bu izi koymak için kullanılan kızgın işaretleme aracı da bu dala bağlıdır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi, bir şeyi ya da hayvanı tanınmasını sağlayacak görünür bir izle işaretleme eylemini, bu eylemin bıraktığı izi ve işaretlemede kullanılan kızgın aracı birlikte verir. Sağlanan dal çerçevesi bu çekirdeği doğru biçimde yansıtır.",
+      "boundary_note": "Dal, her türlü soyut belirtiyi değil; yakma, kulak kesme veya çentikleme gibi yollarla bırakılan tanıtıcı fiziksel izi kapsar."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım, ortak fiziksel işaretleme çekirdeğiyle sınırlıdır; zırhın alt bölümündeki süslemeyi anlatan özel tamlama yalnızca kendi sözlüksel karşılığında korunur."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 1,
+        "form": 6
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_001",
+        "expression_ar": "وَسَم الشيء",
+        "unit_kind": "form",
+        "sense_ar": "أثر في الشيء بسمة أو كي أو علامة تعرف بها",
+        "target_gloss": "bir şeyi tanıtıcı bir iz bırakarak işaretlemek",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_002",
+        "expression_ar": "الوَسْم",
+        "unit_kind": "form",
+        "sense_ar": "أثر الكي أو العلامة الظاهرة التي يعرف بها الشيء",
+        "target_gloss": "yakma veya kesme yoluyla bırakılmış tanıtıcı iz",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_003",
+        "expression_ar": "السِمَة",
+        "unit_kind": "form",
+        "sense_ar": "علامة ظاهرة يعرف بها الشيء أو الدابة",
+        "target_gloss": "tanınmayı sağlayan görünür işaret",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_004",
+        "expression_ar": "مَوْسوم",
+        "unit_kind": "form",
+        "sense_ar": "عليه سمة أو علامة يعرف بها",
+        "target_gloss": "üzerine tanıtıcı işaret konmuş",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_005",
+        "expression_ar": "المِيسَم",
+        "unit_kind": "form",
+        "sense_ar": "المكواة أو الآلة التي يوسم بها الدواب",
+        "target_gloss": "hayvan damgalamaya yarayan kızgın demir",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_006",
+        "expression_ar": "اتَّسَم الرجل",
+        "unit_kind": "form",
+        "sense_ar": "جعل لنفسه سمة يعرف بها",
+        "target_gloss": "kendine tanınacağı bir işaret edinmek",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_007",
+        "expression_ar": "دِرع مَوْسومة",
+        "unit_kind": "collocation",
+        "sense_ar": "درع مزينة بالشبه في أسفلها",
+        "target_gloss": "alt bölümü pirinçle süslenmiş zırh",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Ortak anlatımda temel ilişki, tanınacak şey üzerinde kasıtlı ve kalıcı bir iz oluşturma ilişkisidir. Yakma, kulak kesme ve çentikleme bu işlemin yollarıdır; sonuçtaki iz ile onu koyan kızgın araç da anlam alanına dahildir.",
+      "evidence_refs": [
+        "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002",
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 4,
+      "passage_count": 4,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002"
+          ]
+        },
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Bir şeyi ya da hayvanı, tanınmasını veya ayırt edilmesini sağlayan kalıcı ve görünür bir fiziksel iz oluşturacak biçimde işaretlemektir; iz yakma, kulak kesme ya da çentikleme yoluyla bırakılabilir. Anlam alanı, oluşan işareti ve özellikle hayvanı işaretlemeye yarayan kızgın aracı da kapsar.",
+      "concept": {
+        "rank": 1,
+        "text": "tanıtıcı fiziksel iz koyma, iz ve araç",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Eylem, ortaya çıkan kalıcı işaret ve işaretleme aracı birlikte kastedildiğinde dalın bütün çekirdeğini karşılar.",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Tanıtma amacıyla fiziksel iz oluşturmayı, kalan izi ve kullanılan aracı birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "damgalamak",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Kızgın bir araçla hayvan veya nesne üzerinde tanıtıcı iz bırakma bağlamında doğal karşılıktır.",
+          "facet_ids": [
+            "F001",
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kasıtlı biçimde görünür ve tanıtıcı bir iz bırakma eylemini korur.",
+            "loses": "Kulak kesme ve çentikleme yollarını, sonuçtaki izin adını ve işaretleme aracını tek başına karşılamaz.",
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "ayırt edici işaret",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Eylemden çok nesne veya hayvan üzerinde kalan ve tanınmayı sağlayan sonuç öne çıktığında kullanılır.",
+          "facet_ids": [
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Görünür izin tanıtma ve ayırt etme işlevini açık biçimde korur.",
+            "loses": "İşareti oluşturma işlemini, özel oluşturma yollarını ve kullanılan aracı dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 4,
+          "text": "damga demiri",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Hayvana kızdırılarak işaret basmak için kullanılan araç doğrudan kastedildiğinde uygundur.",
+          "facet_ids": [
+            "F004"
+          ],
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Fiziksel işaret bırakmada kullanılan kızgın aracı tam olarak belirtir.",
+            "loses": "İşaretleme eylemini, kesme ve çentikleme yollarını ve ortaya çıkan işareti karşılamaz.",
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "mühürlemek",
+          "category": "confusable",
+          "exclusion_reason": "Hayvanı yakma, kulak kesme veya çentikleme yoluyla tanıtıcı biçimde işaretleme alanını siler. Kapatma, onaylama ve belgeleme işlevlerini gereksiz biçimde ekler. Mühür basma ve kapatma anlamlarıyla karışır.",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Bir araçla iz bırakma düşüncesini kısmen korur.",
+            "loses": "Hayvanı yakma, kulak kesme veya çentikleme yoluyla tanıtıcı biçimde işaretleme alanını siler.",
+            "adds": "Kapatma, onaylama ve belgeleme işlevlerini gereksiz biçimde ekler.",
+            "collision": "Mühür basma ve kapatma anlamlarıyla karışır."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_001040",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "İşaretin yakma, kulak kesme veya çentikleme yoluyla kasıtlı olarak oluşturulmasını ve kullanılan kızgın aracı kapsar.",
+        "neighbor_only": "Bayrak, dağ, yol sınırı, giysi işareti ve benzeri çok daha geniş gösterge türlerini kapsar.",
+        "expression_transliteration": "athr ymyz alshy' wyhdy ilyh",
+        "gloss": "ayırt edici işaret",
+        "shared_zone": "Her iki dalda da bir şeyi tanıtan ve benzerlerinden ayıran görünür bir belirti bulunur.",
+        "distinction": "Odak dal, fiziksel izin koyulma işlemi ve aracıyla sınırlandırılmıştır; komşu dal ise işaretin nasıl oluştuğunu şart koşmadan geniş bir gösterge alanını adlandırır.",
+        "expression_ar": "أثر يميز الشيء ويهدي إليه",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2332",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A847:headword=%D8%B9%D9%84%D9%85:root=%D8%B9%20%D9%84%20%D9%85:sha=76c94f4e5b6a3876",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1031:headword=%D8%B9%D9%84%D9%85:root=%D8%B9%20%D9%84%20%D9%85:sha=3436e085f1accef2",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4616:headword=%D8%B9%D9%84%D9%85:root=%D8%B9%20%D9%84%20%D9%85:sha=6b9bb14dfbddae42",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D178%3Bsegment_index%3D2:headword=%D8%B9%D9%84%D9%85:root=%D8%B9%20%D9%84%20%D9%85:sha=66c534c18926883f"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000393",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Hayvan üzerinde yakma veya kesme yoluyla kalıcı tanıtıcı iz oluşturmayı da içerir.",
+        "neighbor_only": "Bir yüzeye kalıp ya da mühür basmayı, mühürlü nesneyi ve kapatma aracını kapsar.",
+        "expression_transliteration": "altb' balkhatm wathrh",
+        "gloss": "iz basma ve mühürleme",
+        "shared_zone": "İki dalda da bir araçla yüzey üzerinde ayırt edici bir iz oluşturulabilir.",
+        "distinction": "Odak dalın çekirdeği tanıtıcı fiziksel işaret koymaktır; komşu dalın çekirdeği ise kalıp veya mühürle basma ve kapatmadır, bu yüzden olağan kullanımda birbirinin yerine geçmezler.",
+        "expression_ar": "الطبع بالخاتم وأثره",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1020",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2727:headword=%D8%AE%D8%AA%D9%85:root=%D8%AE%20%D8%AA%20%D9%85:sha=10da2320be405fd0",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A908%3Asubentry%3A0%3A%D8%AE%D8%AA%D9%85:headword=%D8%AE%D8%AA%D9%85:root=%D8%AE%20%D8%AA%20%D9%85:sha=458d6bdd6ec31717",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A398:headword=%D8%AE%D8%AA%D9%85:root=%D8%AE%20%D8%AA%20%D9%85:sha=f77be5924f1aad87",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4431:headword=%D8%AE%D8%AA%D9%85:root=%D8%AE%20%D8%AA%20%D9%85:sha=c403d0664ffc06aa"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000995",
+        "neighbor_branch_id": "B017",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "İzi oluşturma eylemini, tanıtma amacını ve işaretleme aracını birlikte kapsar.",
+        "neighbor_only": "Yara izini ve hayvanı ayıran çizgi biçimindeki özel bir izi de adlandırır.",
+        "expression_transliteration": "al'adhr wal'adhwr athra wsmh",
+        "gloss": "bedensel iz veya hayvan işareti",
+        "shared_zone": "Her iki dal, bedende ya da hayvanda görülen ayırt edici fiziksel iz alanına girebilir.",
+        "distinction": "Odak dal kasıtlı işaretleme sürecini ve sonucunu merkez alır; komşu dal ise iz türünün kendisini adlandırır ve aynı oluşturma işlemini gerektirmez.",
+        "expression_ar": "العاذر والعاذور أثرا وسمة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1808:headword=%D8%B9%D8%B0%D8%B1:root=%D8%B9%20%D8%B0%20%D8%B1:sha=fa6c7a52c6b3bce9",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D158%3Bsegment_index%3D2:headword=%D8%B9%D8%B0%D8%B1:root=%D8%B9%20%D8%B0%20%D8%B1:sha=05f8cb274decdc4b"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 13,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; fiziksel işaretin genel gösterge, mühür izi ve bedensel izden ayrıldığı üç karşılaştırma sınırı en açık biçimde gösterdiği için yayımlandı."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_001650/B001",
+    "concept_gloss": {
+      "text": "tanıtıcı fiziksel iz bırakarak işaretleme",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [],
+    "lexical_glosses": {
+      "lu_001": {
+        "text": "bir şeyi tanıtıcı bir iz bırakarak işaretlemek",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_002": {
+        "text": "yakma veya kesme yoluyla bırakılmış tanıtıcı iz",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_003": {
+        "text": "tanınmayı sağlayan görünür işaret",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_004": {
+        "text": "üzerine tanıtıcı işaret konmuş",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_005": {
+        "text": "hayvan damgalamaya yarayan kızgın demir",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_006": {
+        "text": "kendine tanınacağı bir işaret edinmek",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_007": {
+        "text": "alt bölümü pirinçle süslenmiş zırh",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    }
+  }
+}

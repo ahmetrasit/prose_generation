@@ -1,0 +1,676 @@
+{
+  "root_ar": "ر ح م",
+  "branch_ref": "root_000552/B002",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_000552/tr/output/root_000552_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_000552.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_000552.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_000552/tr/output/root_000552_entry.json",
+      "entry_id": "root_000552/tr",
+      "status": "reviewed",
+      "review_verdict": "repair",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_000552/tr/repair/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Bu kök, acımanın iyilik ve esirgemeye dönüşmesini anlatan bir dal ile ortak soydan doğan yakın ilişkiyi anlatan ayrı bir dalı bir araya getirir. Bedensel tarafta yavrunun geliştiği döl yatağı ve bu organa özgü ağrı, hastalık, şişme ya da doğum sonrası bozukluklar birbirinden ayrılır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_000552/B002",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Yetkili kaynak anlatımı, ortak soydan gelmeye dayanan yakın ilişkiyi dalın çekirdeği olarak verir ve organ adının ortak doğum kaynağı düşüncesiyle bu ilişkiye aktarıldığını açıklar. Hazırlanan çerçeve, bedensel organı bu daldan ayırırken soy bağını, çoğul bağları ve bu bağın sürdürülüp koparılmasını doğru yerde tutar.",
+      "boundary_note": "Dal, bedensel organı değil ortak soydan doğan yakın ilişkiyi anlatır; bağı sürdürme ya da koparma eylemleri ancak ilgili kalıplarda bu çekirdeğe eklenir."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Yalın biçimler yakın soy bağını adlandırır; bu bağı sürdürme veya koparma anlamı ise yalnızca eylem kalıbına bağlıdır ve yalın dal tanımına katılmaz."
+    },
+    "concept_map": {
+      "definition": "İnsanları ortak bir soydan gelmeleri yoluyla birbirine bağlayan yakın ilişkidir. Organ adı, birden çok kişinin aynı doğum kaynağından çıkması düşüncesiyle bu toplumsal bağa aktarılmıştır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Bedensel organın adı, aynı doğum kaynağından çıkmış olma düşüncesi üzerinden soy ilişkisine aktarılmıştır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "associated_use",
+          "statement": "Soy bağını sürdürmek veya koparmak, ilişkinin kendisini değil ona karşı takınılan eylemli tutumu anlatır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Ortak anlatım, aynı atadan ya da yakın bir soy çizgisinden gelen kişileri birbirine bağlayan ilişkiyi öne çıkarır. Çoğul kullanım bu bağların ve soy yollarının bütününü, eylemli kullanım ise bağın sürdürülmesini veya kesilmesini bildirir; organla bağlantı ortak doğum kaynağına dayanan bir aktarımdır.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "yakın soy bağı",
+      "applicability": "Ortak soydan gelmeye dayanan yakın ve kalıcı ilişkiyi kısa biçimde adlandırmak için uygundur.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Yakınlık derecesini, ortak soy temelini ve kişiler arasındaki bağ niteliğini korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "aynı soydan gelenler arasındaki yakınlık",
+        "usage_role": "explanatory",
+        "applicability": "İlişkinin ortak soy temelini açıkça belirtmenin tek sözcüklü karşılıktan daha önemli olduğu bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Ortak soy temelini, tarafları ve ilişkinin yakınlık niteliğini açıkça korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "soy bağını sürdürmek ya da koparmak",
+        "usage_role": "contextual",
+        "applicability": "Yakın soy ilişkisine karşı gösterilen bağlılık veya ilişkiyi kesme eylemi açıkça söz konusu olduğunda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bağın varlığını ve ona yönelik sürdürme ya da koparma eylemini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F003"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_014",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yakın soy bağı"
+      },
+      {
+        "lexical_unit_id": "lu_015",
+        "rendering_kind": "ordinary",
+        "target_gloss": "soy ve yakınlık bağları"
+      },
+      {
+        "lexical_unit_id": "lu_016",
+        "rendering_kind": "ordinary",
+        "target_gloss": "soy bağını sürdürmek ya da koparmak"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "aile",
+        "category": "confusable",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Yakın kişilerden oluşan toplumsal çevre çağrışımını korur.",
+          "loses": null,
+          "adds": "Evlilik, aynı evde yaşama ve soy bağı bulunmayan ev halkını da kapsama ekler.",
+          "collision": "Soy ilişkisi ile evlilik veya ortak yaşam temelindeki aile birimini birbirine karıştırır."
+        }
+      },
+      {
+        "text": "yakınlık",
+        "category": "alternative",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "İki kişi arasındaki bağın sıkı oluşunu korur.",
+          "loses": null,
+          "adds": "Duygusal, uzamsal ve düşünsel yakınlığı da soy bağı aranmadan kapsar.",
+          "collision": "Soydan gelen ilişkiyi başka yakınlık türlerinden ayıramaz."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_001212/B003",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal, yakın soy ilişkisini organ adından ortak doğum kaynağı düşüncesiyle kurulmuş özel bir bağ olarak adlandırır.",
+        "neighbor_only": "Komşu dal, genel olarak soy yakınlığını, yakın kişileri ve yakınlık derecelerini daha geniş bir adlandırma alanında kapsar.",
+        "gloss": "özel soy bağı ile genel soy yakınlığı",
+        "shared_zone": "Her iki dal da ortak soydan gelen kişiler arasındaki yakın ilişkiyi ve bu kişilerin birbirine bağlılığını anlatır.",
+        "distinction": "Komşu dal soyca yakın olmayı ve yakın kişileri genel biçimde adlandırabilir. Odak ise ortak doğum kaynağı imgesine bağlanan belirli ilişki adını öne çıkarır; bu nedenle çekirdekleri çok yakın olsa da kapsamları tam olarak eşit değildir."
+      },
+      {
+        "neighbor_ref": "root_001655/B004",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak, soy ilişkisinin kendisini adlandırır; bağ sürdürülmese bile ilişki türü varlığını korur.",
+        "neighbor_only": "Komşu, bir ilişkiyi etkin biçimde sürdürmeyi ve kopukluktan kaçınmayı anlatır; soy dışındaki bağlara da uygulanabilir.",
+        "gloss": "soy bağı ile bağı sürdürme",
+        "shared_zone": "İki dal, soyca yakın kişiler arasındaki ilişkinin korunması bağlamında birlikte görülebilir.",
+        "distinction": "Odak dal taraflar arasındaki soy bağının adıdır, komşu ise bu veya başka bir bağı sürdürme eylemidir. İlişki ile ilişkiye yönelik davranış ayrımı, birbirlerinin yerine kullanılmalarını engeller."
+      },
+      {
+        "neighbor_ref": "root_000080/B004",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak, yakın soy ilişkisinin kendisini ve hem sürdürülme hem de koparılma olasılığını kapsar.",
+        "neighbor_only": "Komşu, yalnızca soy bağını kesen kişiyi ve bağın koparılması davranışını öne çıkarır.",
+        "gloss": "soy bağı ile onu kesme",
+        "shared_zone": "Her iki dal da yakın soy ilişkisini ve bu ilişkinin koparılması durumunu konu edinir.",
+        "distinction": "Odak anlam tarafları bağlayan ilişkinin adıdır; koparma bunun yalnızca bir olası durumudur. Komşu ise ilişkinin kendisini değil, onu kesen kişinin belirleyici davranışını adlandırır."
+      },
+      {
+        "neighbor_ref": "root_000313/B011",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dal, evlenme yasağı veya cinsiyet ayrımı olmadan yakın soy ilişkisini genel biçimde anlatır.",
+        "neighbor_only": "Komşu dal, aile içindeki kadınları ve özellikle evlenilmesi yasak olan yakınları sınıflandırır.",
+        "gloss": "soy ilişkisi ile yasaklı yakın sınıfı",
+        "shared_zone": "İki dal da aile ve soy çevresindeki yakın kişileri konu edinir.",
+        "distinction": "Odak, kişiler arasında bulunan soy bağını adlandırır. Komşu ise bu bağdan doğabilen belirli bir hukukî ve toplumsal kişi sınıfını öne çıkarır; aynı alanı paylaşsalar da çekirdekleri farklıdır."
+      },
+      {
+        "neighbor_ref": "root_000001/B011",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak, kişiler arasındaki ortak soy ilişkisini soyut bir bağ olarak adlandırır.",
+        "neighbor_only": "Komşu, sevilen yakın kişiyi veya kişinin kendi ailesinden özel çevresini somut kişiler olarak öne çıkarır.",
+        "gloss": "soy bağı ile yakın kişi",
+        "shared_zone": "Her iki dal yakın soy çevresini ve bu çevredeki kişiler arasındaki bağı kapsayan bağlamlarda kesişir.",
+        "distinction": "Odak anlam ilişkinin kendisidir; komşu ise bu ilişkinin tarafı olan yakın ve sevilen kişiyi adlandırır. Kişi ile kişiler arasındaki bağ birbirinin yerine geçmez."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi. Genel soy yakınlığı, bağı sürdürme, bağı kesme, evlenilmesi yasak yakınlar ve yakın kişi ayrımları yayımlandı; özel soy derecesi, soyun doğruluğu, daha seyrek bir yakınlık adı ve aynı kökün duygu, organ ve hastalık dalları sınırı daha az aydınlattığı veya seçilenlerle yinelendiği için dışarıda bırakıldı.",
+    "branch_image_ar": "الرَّحِم والقرابة",
+    "what_is_ar": "يدخل فيه الرَّحِم بمعنى القرابة القريبة وأسباب النسب وصلة الرحم وقطعها والأرحام.",
+    "what_is_not_ar": "ليس المراد هنا رَحِم الأنثى نفسه ولا الرحمة العامة إلا إذا صرح المصدر بانتقال أو استعارة.",
+    "source_phrase_ar": "الرَّحِم علاقة القرابة (maqayis)؛ بينهما رَحِم أي قرابة قريبة والرحم القرابة تجمع بني أب (ayn)؛ صارت أسباب القرابة أرحاما (jamhara)؛ الرحم أيضا القرابة والرحم بالكسر مثله ووصال رحم (sihah)؛ الرحم القرابة تجمع بني أب وبينهما رحم أي قرابة قريبة (tahdhib)؛ استعير الرحم للقرابة لكونهم خارجين من رحم واحدة (mufradat)",
+    "sources": [
+      "MQ",
+      "AY",
+      "JA",
+      "SI",
+      "TA",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_000552",
+    "branch_id": "B002",
+    "branch_image_ar": "الرَّحِم والقرابة",
+    "what_is_ar": "يدخل فيه الرَّحِم بمعنى القرابة القريبة وأسباب النسب وصلة الرحم وقطعها والأرحام.",
+    "what_is_not_ar": "ليس المراد هنا رَحِم الأنثى نفسه ولا الرحمة العامة إلا إذا صرح المصدر بانتقال أو استعارة.",
+    "source_phrase_ar": "الرَّحِم علاقة القرابة (maqayis)؛ بينهما رَحِم أي قرابة قريبة والرحم القرابة تجمع بني أب (ayn)؛ صارت أسباب القرابة أرحاما (jamhara)؛ الرحم أيضا القرابة والرحم بالكسر مثله ووصال رحم (sihah)؛ الرحم القرابة تجمع بني أب وبينهما رحم أي قرابة قريبة (tahdhib)؛ استعير الرحم للقرابة لكونهم خارجين من رحم واحدة (mufradat)",
+    "image_transliteration": "er-rahim ve'l-karâbe",
+    "summary": "İnsanları ortak bir soydan gelmeleri yoluyla birbirine bağlayan yakın ilişkidir. Organ adı, birden çok kişinin aynı doğum kaynağından çıkması düşüncesiyle bu toplumsal bağa aktarılmıştır.",
+    "concept_map": {
+      "definition": "İnsanları ortak bir soydan gelmeleri yoluyla birbirine bağlayan yakın ilişkidir. Organ adı, birden çok kişinin aynı doğum kaynağından çıkması düşüncesiyle bu toplumsal bağa aktarılmıştır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Bedensel organın adı, aynı doğum kaynağından çıkmış olma düşüncesi üzerinden soy ilişkisine aktarılmıştır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "associated_use",
+          "statement": "Soy bağını sürdürmek veya koparmak, ilişkinin kendisini değil ona karşı takınılan eylemli tutumu anlatır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Yetkili kaynak anlatımı, ortak soydan gelmeye dayanan yakın ilişkiyi dalın çekirdeği olarak verir ve organ adının ortak doğum kaynağı düşüncesiyle bu ilişkiye aktarıldığını açıklar. Hazırlanan çerçeve, bedensel organı bu daldan ayırırken soy bağını, çoğul bağları ve bu bağın sürdürülüp koparılmasını doğru yerde tutar.",
+      "boundary_note": "Dal, bedensel organı değil ortak soydan doğan yakın ilişkiyi anlatır; bağı sürdürme ya da koparma eylemleri ancak ilgili kalıplarda bu çekirdeğe eklenir."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Yalın biçimler yakın soy bağını adlandırır; bu bağı sürdürme veya koparma anlamı ise yalnızca eylem kalıbına bağlıdır ve yalın dal tanımına katılmaz."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 1,
+        "form": 2
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_014",
+        "expression_ar": "الرَّحِم",
+        "unit_kind": "form",
+        "sense_ar": "القرابة القريبة وعلاقة النسب",
+        "target_gloss": "yakın soy bağı",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "maqayis:root=%D8%B1%20%D8%AD%20%D9%85:headword=%D8%B1%D8%AD%D9%85:sha=69fde5b7480adec0",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1390%3Asubentry%3A1%3A%D8%B1%D8%AD%D9%85:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=28642cbb0931f478",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4479:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=33c0be0aa0beb127",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A551:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=6dc67499bd5c4b32"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_015",
+        "expression_ar": "الأرحام",
+        "unit_kind": "form",
+        "sense_ar": "أسباب القرابة والأنساب",
+        "target_gloss": "soy ve yakınlık bağları",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1390%3Asubentry%3A1%3A%D8%B1%D8%AD%D9%85:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=28642cbb0931f478",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A551:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=6dc67499bd5c4b32"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_016",
+        "expression_ar": "وصل الرحم وقطعها",
+        "unit_kind": "collocation",
+        "sense_ar": "صلة القرابة أو قطيعتها",
+        "target_gloss": "soy bağını sürdürmek ya da koparmak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4479:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=33c0be0aa0beb127",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A551:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=6dc67499bd5c4b32"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Ortak anlatım, aynı atadan ya da yakın bir soy çizgisinden gelen kişileri birbirine bağlayan ilişkiyi öne çıkarır. Çoğul kullanım bu bağların ve soy yollarının bütününü, eylemli kullanım ise bağın sürdürülmesini veya kesilmesini bildirir; organla bağlantı ortak doğum kaynağına dayanan bir aktarımdır.",
+      "evidence_refs": [
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d",
+        "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1390%3Asubentry%3A1%3A%D8%B1%D8%AD%D9%85:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=28642cbb0931f478",
+        "maqayis:root=%D8%B1%20%D8%AD%20%D9%85:headword=%D8%B1%D8%AD%D9%85:sha=69fde5b7480adec0",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A551:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=6dc67499bd5c4b32",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4479:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=33c0be0aa0beb127",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 6,
+      "passage_count": 6,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "maqayis:root=%D8%B1%20%D8%AD%20%D9%85:headword=%D8%B1%D8%AD%D9%85:sha=69fde5b7480adec0"
+          ]
+        },
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d"
+          ]
+        },
+        {
+          "source_id": "jamhara",
+          "dictionary_name": "Jamharat al-Lugha",
+          "source_refs": [
+            "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1390%3Asubentry%3A1%3A%D8%B1%D8%AD%D9%85:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=28642cbb0931f478"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4479:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=33c0be0aa0beb127"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A551:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=6dc67499bd5c4b32"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "İnsanları ortak bir soydan gelmeleri yoluyla birbirine bağlayan yakın ilişkidir. Organ adı, birden çok kişinin aynı doğum kaynağından çıkması düşüncesiyle bu toplumsal bağa aktarılmıştır.",
+      "concept": {
+        "rank": 1,
+        "text": "yakın soy bağı",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Ortak soydan gelmeye dayanan yakın ve kalıcı ilişkiyi kısa biçimde adlandırmak için uygundur.",
+        "facet_ids": [
+          "F001"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yakınlık derecesini, ortak soy temelini ve kişiler arasındaki bağ niteliğini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "aynı soydan gelenler arasındaki yakınlık",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "İlişkinin ortak soy temelini açıkça belirtmenin tek sözcüklü karşılıktan daha önemli olduğu bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Ortak soy temelini, tarafları ve ilişkinin yakınlık niteliğini açıkça korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "soy bağını sürdürmek ya da koparmak",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Yakın soy ilişkisine karşı gösterilen bağlılık veya ilişkiyi kesme eylemi açıkça söz konusu olduğunda kullanılır.",
+          "facet_ids": [
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bağın varlığını ve ona yönelik sürdürme ya da koparma eylemini birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "aile",
+          "category": "confusable",
+          "exclusion_reason": "Evlilik, aynı evde yaşama ve soy bağı bulunmayan ev halkını da kapsama ekler. Soy ilişkisi ile evlilik veya ortak yaşam temelindeki aile birimini birbirine karıştırır.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Yakın kişilerden oluşan toplumsal çevre çağrışımını korur.",
+            "loses": null,
+            "adds": "Evlilik, aynı evde yaşama ve soy bağı bulunmayan ev halkını da kapsama ekler.",
+            "collision": "Soy ilişkisi ile evlilik veya ortak yaşam temelindeki aile birimini birbirine karıştırır."
+          }
+        },
+        {
+          "text": "yakınlık",
+          "category": "alternative",
+          "exclusion_reason": "Duygusal, uzamsal ve düşünsel yakınlığı da soy bağı aranmadan kapsar. Soydan gelen ilişkiyi başka yakınlık türlerinden ayıramaz.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "İki kişi arasındaki bağın sıkı oluşunu korur.",
+            "loses": null,
+            "adds": "Duygusal, uzamsal ve düşünsel yakınlığı da soy bağı aranmadan kapsar.",
+            "collision": "Soydan gelen ilişkiyi başka yakınlık türlerinden ayıramaz."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_001212",
+        "neighbor_branch_id": "B003",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal, yakın soy ilişkisini organ adından ortak doğum kaynağı düşüncesiyle kurulmuş özel bir bağ olarak adlandırır.",
+        "neighbor_only": "Komşu dal, genel olarak soy yakınlığını, yakın kişileri ve yakınlık derecelerini daha geniş bir adlandırma alanında kapsar.",
+        "expression_transliteration": "qrabh alrhm walnsb",
+        "gloss": "özel soy bağı ile genel soy yakınlığı",
+        "shared_zone": "Her iki dal da ortak soydan gelen kişiler arasındaki yakın ilişkiyi ve bu kişilerin birbirine bağlılığını anlatır.",
+        "distinction": "Komşu dal soyca yakın olmayı ve yakın kişileri genel biçimde adlandırabilir. Odak ise ortak doğum kaynağı imgesine bağlanan belirli ilişki adını öne çıkarır; bu nedenle çekirdekleri çok yakın olsa da kapsamları tam olarak eşit değildir.",
+        "expression_ar": "قرابة الرحم والنسب",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2920",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A729%3Asubentry%3A4%3A%D9%82%D8%B1%D8%A8:headword=%D9%82%D8%B1%D8%A8:root=%D9%82%20%D8%B1%20%D8%A8:sha=f7f0e0a837e0b5cb",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1201:headword=%D9%82%D8%B1%D8%A8:root=%D9%82%20%D8%B1%20%D8%A8:sha=2bf026e6ec48649b",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A411:headword=%D9%82%D8%B1%D8%A8:root=%D9%82%20%D8%B1%20%D8%A8:sha=b036214a21abf9e0",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D466%3Bsegment_index%3D142:headword=%D9%82%D8%B1%D8%A8:root=%D9%82%20%D8%B1%20%D8%A8:sha=fab2a287ff404430"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001655",
+        "neighbor_branch_id": "B004",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak, soy ilişkisinin kendisini adlandırır; bağ sürdürülmese bile ilişki türü varlığını korur.",
+        "neighbor_only": "Komşu, bir ilişkiyi etkin biçimde sürdürmeyi ve kopukluktan kaçınmayı anlatır; soy dışındaki bağlara da uygulanabilir.",
+        "expression_transliteration": "idamh alslh wtrk alhjran",
+        "gloss": "soy bağı ile bağı sürdürme",
+        "shared_zone": "İki dal, soyca yakın kişiler arasındaki ilişkinin korunması bağlamında birlikte görülebilir.",
+        "distinction": "Odak dal taraflar arasındaki soy bağının adıdır, komşu ise bu veya başka bir bağı sürdürme eylemidir. İlişki ile ilişkiye yönelik davranış ayrımı, birbirlerinin yerine kullanılmalarını engeller.",
+        "expression_ar": "إدامة الصلة وترك الهجران",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4022",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1644:headword=%D9%88%D8%B5%D9%84:root=%D9%88%20%D8%B5%20%D9%84:sha=6f41613cb3d91cc4",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4285:headword=%D9%88%D8%B5%D9%84:root=%D9%88%20%D8%B5%20%D9%84:sha=2d5ec794b7badb49",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D633%3Bsegment_index%3D2:headword=%D9%88%D8%B5%D9%84:root=%D9%88%20%D8%B5%20%D9%84:sha=5835dc68b325511c"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000080",
+        "neighbor_branch_id": "B004",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak, yakın soy ilişkisinin kendisini ve hem sürdürülme hem de koparılma olasılığını kapsar.",
+        "neighbor_only": "Komşu, yalnızca soy bağını kesen kişiyi ve bağın koparılması davranışını öne çıkarır.",
+        "expression_transliteration": "Akrabalık bağını kesme",
+        "gloss": "soy bağı ile onu kesme",
+        "shared_zone": "Her iki dal da yakın soy ilişkisini ve bu ilişkinin koparılması durumunu konu edinir.",
+        "distinction": "Odak anlam tarafları bağlayan ilişkinin adıdır; koparma bunun yalnızca bir olası durumudur. Komşu ise ilişkinin kendisini değil, onu kesen kişinin belirleyici davranışını adlandırır.",
+        "expression_ar": "قطع الرحم",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "maqayis:root=%D8%A8%20%D8%AA%20%D8%B1:headword=%D8%A8%D8%AA%D8%B1:sha=264ff931d05c107c",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A78:headword=%D8%A8%D8%AA%D8%B1:root=%D8%A8%20%D8%AA%20%D8%B1:sha=b145be920e35e779",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1539:headword=%D8%A8%D8%AA%D8%B1:root=%D8%A8%20%D8%AA%20%D8%B1:sha=8d2317ca764cb69b"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000313",
+        "neighbor_branch_id": "B011",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dal, evlenme yasağı veya cinsiyet ayrımı olmadan yakın soy ilişkisini genel biçimde anlatır.",
+        "neighbor_only": "Komşu dal, aile içindeki kadınları ve özellikle evlenilmesi yasak olan yakınları sınıflandırır.",
+        "expression_transliteration": "almharm walqrabh walnsa'",
+        "gloss": "soy ilişkisi ile yasaklı yakın sınıfı",
+        "shared_zone": "İki dal da aile ve soy çevresindeki yakın kişileri konu edinir.",
+        "distinction": "Odak, kişiler arasında bulunan soy bağını adlandırır. Komşu ise bu bağdan doğabilen belirli bir hukukî ve toplumsal kişi sınıfını öne çıkarır; aynı alanı paylaşsalar da çekirdekleri farklıdır.",
+        "expression_ar": "المحارم والقرابة والنساء",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1703:headword=%D8%AD%D8%B1%D9%85:root=%D8%AD%20%D8%B1%20%D9%85:sha=a0cc5d9f69955b19",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4414:headword=%D8%AD%D8%B1%D9%85:root=%D8%AD%20%D8%B1%20%D9%85:sha=00243dc4e1823a9e",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D2:headword=%D8%AD%D8%B1%D9%85:root=%D8%AD%20%D8%B1%20%D9%85:sha=1e059315b7bf9306"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000001",
+        "neighbor_branch_id": "B011",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak, kişiler arasındaki ortak soy ilişkisini soyut bir bağ olarak adlandırır.",
+        "neighbor_only": "Komşu, sevilen yakın kişiyi veya kişinin kendi ailesinden özel çevresini somut kişiler olarak öne çıkarır.",
+        "expression_transliteration": "el-hamîm ve'l-hâmme fi'l-kurbâ",
+        "gloss": "soy bağı ile yakın kişi",
+        "shared_zone": "Her iki dal yakın soy çevresini ve bu çevredeki kişiler arasındaki bağı kapsayan bağlamlarda kesişir.",
+        "distinction": "Odak anlam ilişkinin kendisidir; komşu ise bu ilişkinin tarafı olan yakın ve sevilen kişiyi adlandırır. Kişi ile kişiler arasındaki bağ birbirinin yerine geçmez.",
+        "expression_ar": "الحميم والحامة في القربى",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1363:headword=%D8%AD%D9%85:root=%D8%AD%20%D9%85:sha=285afe4b812bf3b8",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4427:headword=%D8%AD%D9%85%D9%85:root=%D8%AD%20%D9%85%20%D9%85:sha=ddbea74e0442b135",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D235%3Bsegment_index%3D4:headword=%D8%AD%D9%85:root=%D8%AD%20%D9%85:sha=d9308ea97f9a2598"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 11,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi. Genel soy yakınlığı, bağı sürdürme, bağı kesme, evlenilmesi yasak yakınlar ve yakın kişi ayrımları yayımlandı; özel soy derecesi, soyun doğruluğu, daha seyrek bir yakınlık adı ve aynı kökün duygu, organ ve hastalık dalları sınırı daha az aydınlattığı veya seçilenlerle yinelendiği için dışarıda bırakıldı."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_000552/B002",
+    "concept_gloss": {
+      "text": "yakın soy bağı",
+      "facet_ids": [
+        "F001",
+        "F002"
+      ],
+      "error": {
+        "fit": "narrowing",
+        "loses_facet_ids": [
+          "F003"
+        ],
+        "adds": null,
+        "collision": null,
+        "reason": "Etiket ilişkinin adını verir; bu bağı sürdürme veya koparma eylemini ayrıca göstermez."
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "soy bağını sürdürmek ya da koparmak",
+        "facet_ids": [
+          "F003"
+        ],
+        "lexical_unit_ids": [
+          "lu_016"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_014": {
+        "text": "yakın soy bağı",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Gloss ilişkinin adını verir; bağı sürdürme veya koparma eylemini belirtmez."
+        }
+      },
+      "lu_015": {
+        "text": "soy ve akrabalık bağları",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Gloss soy bağlarını adlandırır; bu bağları sürdürme ya da kesme tutumunu göstermez."
+        }
+      },
+      "lu_016": {
+        "text": "soy bağını sürdürmek ya da koparmak",
+        "facet_ids": [
+          "F001",
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Gloss soy bağına yönelik eylemi verir; organ adından ortak doğum kaynağına aktarım yönünü ayrıca belirtmez."
+        }
+      }
+    }
+  }
+}

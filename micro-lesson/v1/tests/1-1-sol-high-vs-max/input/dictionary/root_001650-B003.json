@@ -1,0 +1,560 @@
+{
+  "root_ar": "و س م",
+  "branch_ref": "root_001650/B003",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_001650/tr/output/root_001650_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_001650.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_001650.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_001650/tr/output/root_001650_entry.json",
+      "entry_id": "root_001650/tr",
+      "status": "reviewed",
+      "review_verdict": "pass",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_001650/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Bu kök, fiziksel bir işaret koyma ve ortaya çıkan iz merkezinden; belirtiden kişilik veya durum sezme, toprağı bitkilendiren ilk yağmur, belirlenmiş toplu buluşma, kişide görünen güzellik ve yaprakları boya veren bir bitki anlamlarına açılan çok anlamlı bir yapı gösterir. Dalların çoğu belirgin iz veya belirlenmişlik düşüncesiyle ilişkilendirilebilirken bitki adı daha bağımsız bir adlandırma olarak durur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_001650/B003",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi, yılın veya ilkbahar döneminin ilk yağmurunu ve bu yağmurun toprağı bitkiyle görünür biçimde değiştirmesini birlikte temel alır. Sağlanan dal imgesi hem zaman koşulunu hem de bitkisel sonucu doğru yansıtır.",
+      "boundary_note": "Dal genel olarak yağmuru değil, erken dönemde yağan ve toprağı bitkilendirerek iz bırakan ilk yağmuru anlatır."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım yalnızca erken dönemin ilk yağmuru anlamını kapsar; bu yağmuru almış toprak ve onun çıkardığı otu arama kullanımları ayrı sözlüksel yapılardır."
+    },
+    "concept_map": {
+      "definition": "Yılın başlangıcında veya ilkbaharın ilk döneminde yağan ve toprağı bitkilendirerek üzerinde görünür bir etki bırakan ilk yağmurdur. Bu yağmuru alıp etkisini taşıyan toprak da dala bağlı bir sonuç durumudur.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Yağmur, yılın ya da ilkbaharın ilk döneminde görülen ilk yağış olarak zaman bakımından sınırlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Bu ilk yağmur toprağın bitki çıkarmasını sağlar ve yerde görünür bir etki bırakır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "extension",
+          "statement": "İlk yağmuru almış ve onun bitkisel etkisini taşıyan toprak sonuç durumuyla adlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kayıtlar yağmuru kimi yerde yılın ilk yağışı, kimi yerde ilkbaharın ilk yağışı olarak sınırlar. Ortak nokta, bu erken yağmurun toprağı bitkiyle değiştirmesi ve yağmurun etkisini yerde görünür kılmasıdır.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "toprağı bitkilendiren yılın ilk yağmuru",
+      "applicability": "Erken yağışın zamanını, toprağa etkisini ve bitkiyle görünür iz bırakmasını birlikte anlatan bağlamlarda tam karşılıktır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "İlk yağmur olma koşulunu, toprağı bitkilendirmeyi ve görünür sonuç bırakmayı birlikte korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "ilkbaharın ilk yağmuru",
+        "usage_role": "contextual",
+        "applicability": "Zaman sınırı ilkbaharın başlangıcı olarak açıkça verildiğinde doğal ve kısa bir karşılıktır.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Yağmurun erken ve ilk olma koşulunu korur.",
+          "loses": "Toprağı bitkilendirme ve yerde görünür bir etki bırakma sonucunu söylemez.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "ilk yağmurla bitkilenmiş toprak",
+        "usage_role": "contextual",
+        "applicability": "Yağışın kendisi değil, bu yağışı almış ve bitkisel etkisini taşıyan arazi kastedildiğinde kullanılır.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "İlk yağmurun toprak üzerinde bıraktığı bitkisel sonuç durumunu korur.",
+          "loses": "Yağmur olayını ve yılın ya da ilkbaharın başlangıcındaki zaman koşulunu doğrudan adlandırmaz.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002",
+          "F003"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_011",
+        "rendering_kind": "ordinary",
+        "target_gloss": "toprağı bitkilendiren yılın veya ilkbaharın ilk yağmuru"
+      },
+      {
+        "lexical_unit_id": "lu_012",
+        "rendering_kind": "ordinary",
+        "target_gloss": "ilk yağmuru alıp etkisini taşıyan toprak"
+      },
+      {
+        "lexical_unit_id": "lu_013",
+        "rendering_kind": "ordinary",
+        "target_gloss": "ilk yağmurun çıkardığı otu aramak"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "bahar yağmuru",
+        "category": "alternative",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Yağmurun ilkbaharla bağlantısını korur.",
+          "loses": null,
+          "adds": "İlk olmayan bütün ilkbahar yağmurlarını da kapsar.",
+          "collision": "Genel ilkbahar yağışı anlamıyla karışır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000566/B004",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Yılın veya ilkbaharın ilk yağmurunun toprağı bitkiyle işaretleyen etkisini zorunlu kılar.",
+        "neighbor_only": "İlk yağışın bir hamlesini, az miktardaki yağmuru veya otu ve bitki vermesi umulan araziyi de kapsar.",
+        "gloss": "ilk yağış ve onun otu",
+        "shared_zone": "Her iki dal erken yağmurla, onun çıkardığı otla ve yağmur alan araziyle ilişkilidir.",
+        "distinction": "Odak dalın zaman ve sonuç sınırı daha belirgindir: yılın ya da ilkbaharın ilk yağmuru toprağı bitkilendirir. Komşu dal ise ilk yağış hamlesi, az yağmur ve beklenen ot alanına yayılır."
+      },
+      {
+        "neighbor_ref": "root_000899/B002",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Yılın veya ilkbaharın başındaki ilk yağmuru ve onun erken bitkisel izini anlatır.",
+        "neighbor_only": "Yaz yağmurunu ve onu izleyen bitki ile otlak sonucunu anlatır.",
+        "gloss": "yaz yağmuru ve bitkisi",
+        "shared_zone": "İki dal da belirli bir dönemin yağmurunu, bu yağmurun bitkisini ve yağmur alan toprağı kapsar.",
+        "distinction": "Ortak alan mevsime bağlı yağış ve bitkilenmedir; odak dal erken dönemin ilk yağmuruna, komşu dal ise yaz yağmuruna özgüdür."
+      },
+      {
+        "neighbor_ref": "root_000383/B002",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "İlk yağmur olma zaman koşulunu ve bu yağmurun yerde bıraktığı bitkisel izi gerektirir.",
+        "neighbor_only": "Yağmur, toprağın verimliliği, taze bitki ve yağmurla canlanma alanını genel olarak kapsar.",
+        "gloss": "yağmurla toprağın canlanması",
+        "shared_zone": "Her iki dalda yağmur toprağı bitkilendirir ve araziyi görünür biçimde değiştirir.",
+        "distinction": "Odak dal belirli bir ilk yağış türünün adıdır; komşu dal ise yağmurla canlanma ve verimlilik sürecini zaman sınırı olmadan anlatır."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; ilk yağış, yaz yağmuru ve yağmurla genel canlanma karşılaştırmaları dalın hem zaman hem sonuç sınırını en yararlı biçimde açıklar.",
+    "branch_image_ar": "مطر أول يسم الأرض بالنبات",
+    "what_is_ar": "يدخل فيه الوسمي، وهو المطر الأول أو مطر أول السنة أو الربيع الأول، وتسميته لأنه يسم الأرض بالنبات، والأرض الموسومة التي أصابها الوسمي.",
+    "what_is_not_ar": "لا يدخل فيه مطلق المطر إذا لم يسم وسميًا، ولا الموسم بوصفه مجمعا، ولا التوسم بمعنى التفرس.",
+    "source_phrase_ar": "الوسمى أول المطر لأنه يسم الأرض بالنبات (maqayis)؛ الوسمي أول مطر السنة يسم الأرض بالنبات، وأرض موسومة أصابها الوسمي (ayn)؛ الوسمي مطر الربيع الأول لأنه يسم الأرض بالنبات، والأرض موسومة (sihah)؛ سمي الوسمي من المطر وسميا لأنه يسم الأرض بالنبات فيصير فيها أثرا في أول السنة (tahdhib)",
+    "sources": [
+      "MQ",
+      "AY",
+      "SI",
+      "TA"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_001650",
+    "branch_id": "B003",
+    "branch_image_ar": "مطر أول يسم الأرض بالنبات",
+    "what_is_ar": "يدخل فيه الوسمي، وهو المطر الأول أو مطر أول السنة أو الربيع الأول، وتسميته لأنه يسم الأرض بالنبات، والأرض الموسومة التي أصابها الوسمي.",
+    "what_is_not_ar": "لا يدخل فيه مطلق المطر إذا لم يسم وسميًا، ولا الموسم بوصفه مجمعا، ولا التوسم بمعنى التفرس.",
+    "source_phrase_ar": "الوسمى أول المطر لأنه يسم الأرض بالنبات (maqayis)؛ الوسمي أول مطر السنة يسم الأرض بالنبات، وأرض موسومة أصابها الوسمي (ayn)؛ الوسمي مطر الربيع الأول لأنه يسم الأرض بالنبات، والأرض موسومة (sihah)؛ سمي الوسمي من المطر وسميا لأنه يسم الأرض بالنبات فيصير فيها أثرا في أول السنة (tahdhib)",
+    "image_transliteration": "mtr awl ysm alard balnbat",
+    "summary": "Yılın başlangıcında veya ilkbaharın ilk döneminde yağan ve toprağı bitkilendirerek üzerinde görünür bir etki bırakan ilk yağmurdur. Bu yağmuru alıp etkisini taşıyan toprak da dala bağlı bir sonuç durumudur.",
+    "concept_map": {
+      "definition": "Yılın başlangıcında veya ilkbaharın ilk döneminde yağan ve toprağı bitkilendirerek üzerinde görünür bir etki bırakan ilk yağmurdur. Bu yağmuru alıp etkisini taşıyan toprak da dala bağlı bir sonuç durumudur.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Yağmur, yılın ya da ilkbaharın ilk döneminde görülen ilk yağış olarak zaman bakımından sınırlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Bu ilk yağmur toprağın bitki çıkarmasını sağlar ve yerde görünür bir etki bırakır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "extension",
+          "statement": "İlk yağmuru almış ve onun bitkisel etkisini taşıyan toprak sonuç durumuyla adlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi, yılın veya ilkbahar döneminin ilk yağmurunu ve bu yağmurun toprağı bitkiyle görünür biçimde değiştirmesini birlikte temel alır. Sağlanan dal imgesi hem zaman koşulunu hem de bitkisel sonucu doğru yansıtır.",
+      "boundary_note": "Dal genel olarak yağmuru değil, erken dönemde yağan ve toprağı bitkilendirerek iz bırakan ilk yağmuru anlatır."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım yalnızca erken dönemin ilk yağmuru anlamını kapsar; bu yağmuru almış toprak ve onun çıkardığı otu arama kullanımları ayrı sözlüksel yapılardır."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 1,
+        "form": 1,
+        "lexical_unit": 1
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_011",
+        "expression_ar": "الوَسْمِيّ",
+        "unit_kind": "form",
+        "sense_ar": "أول المطر أو مطر الربيع الأول الذي يسم الأرض بالنبات",
+        "target_gloss": "toprağı bitkilendiren yılın veya ilkbaharın ilk yağmuru",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_012",
+        "expression_ar": "أرض مَوْسومة",
+        "unit_kind": "collocation",
+        "sense_ar": "أرض أصابها الوَسْمِيّ وصار فيها أثر المطر",
+        "target_gloss": "ilk yağmuru alıp etkisini taşıyan toprak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_013",
+        "expression_ar": "تَوَسَّم الكلأ الوَسْمِيّ",
+        "unit_kind": "lexical_unit",
+        "sense_ar": "طلب الكلأ الذي أنبته الوَسْمِيّ",
+        "target_gloss": "ilk yağmurun çıkardığı otu aramak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kayıtlar yağmuru kimi yerde yılın ilk yağışı, kimi yerde ilkbaharın ilk yağışı olarak sınırlar. Ortak nokta, bu erken yağmurun toprağı bitkiyle değiştirmesi ve yağmurun etkisini yerde görünür kılmasıdır.",
+      "evidence_refs": [
+        "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002",
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 4,
+      "passage_count": 4,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002"
+          ]
+        },
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Yılın başlangıcında veya ilkbaharın ilk döneminde yağan ve toprağı bitkilendirerek üzerinde görünür bir etki bırakan ilk yağmurdur. Bu yağmuru alıp etkisini taşıyan toprak da dala bağlı bir sonuç durumudur.",
+      "concept": {
+        "rank": 1,
+        "text": "toprağı bitkilendiren yılın ilk yağmuru",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Erken yağışın zamanını, toprağa etkisini ve bitkiyle görünür iz bırakmasını birlikte anlatan bağlamlarda tam karşılıktır.",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "İlk yağmur olma koşulunu, toprağı bitkilendirmeyi ve görünür sonuç bırakmayı birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "ilkbaharın ilk yağmuru",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Zaman sınırı ilkbaharın başlangıcı olarak açıkça verildiğinde doğal ve kısa bir karşılıktır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Yağmurun erken ve ilk olma koşulunu korur.",
+            "loses": "Toprağı bitkilendirme ve yerde görünür bir etki bırakma sonucunu söylemez.",
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "ilk yağmurla bitkilenmiş toprak",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Yağışın kendisi değil, bu yağışı almış ve bitkisel etkisini taşıyan arazi kastedildiğinde kullanılır.",
+          "facet_ids": [
+            "F002",
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "İlk yağmurun toprak üzerinde bıraktığı bitkisel sonuç durumunu korur.",
+            "loses": "Yağmur olayını ve yılın ya da ilkbaharın başlangıcındaki zaman koşulunu doğrudan adlandırmaz.",
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "bahar yağmuru",
+          "category": "alternative",
+          "exclusion_reason": "İlk olmayan bütün ilkbahar yağmurlarını da kapsar. Genel ilkbahar yağışı anlamıyla karışır.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Yağmurun ilkbaharla bağlantısını korur.",
+            "loses": null,
+            "adds": "İlk olmayan bütün ilkbahar yağmurlarını da kapsar.",
+            "collision": "Genel ilkbahar yağışı anlamıyla karışır."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000566",
+        "neighbor_branch_id": "B004",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Yılın veya ilkbaharın ilk yağmurunun toprağı bitkiyle işaretleyen etkisini zorunlu kılar.",
+        "neighbor_only": "İlk yağışın bir hamlesini, az miktardaki yağmuru veya otu ve bitki vermesi umulan araziyi de kapsar.",
+        "expression_transliteration": "mtr alrsd wklwh",
+        "gloss": "ilk yağış ve onun otu",
+        "shared_zone": "Her iki dal erken yağmurla, onun çıkardığı otla ve yağmur alan araziyle ilişkilidir.",
+        "distinction": "Odak dalın zaman ve sonuç sınırı daha belirgindir: yılın ya da ilkbaharın ilk yağmuru toprağı bitkilendirir. Komşu dal ise ilk yağış hamlesi, az yağmur ve beklenen ot alanına yayılır.",
+        "expression_ar": "مطر الرَّصَد وكلؤه",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1290",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A4687:headword=%D8%B1%D8%B5%D8%AF:root=%D8%B1%20%D8%B5%20%D8%AF:sha=cd9168b01cc0f3fc",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1277:headword=%D8%B1%D8%B5%D8%AF:root=%D8%B1%20%D8%B5%20%D8%AF:sha=ea8f7ac1416a8c95",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D627%3Bsegment_index%3D10:headword=%D8%B1%D8%B5%D8%AF:root=%D8%B1%20%D8%B5%20%D8%AF:sha=31065aabebea5843"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000899",
+        "neighbor_branch_id": "B002",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Yılın veya ilkbaharın başındaki ilk yağmuru ve onun erken bitkisel izini anlatır.",
+        "neighbor_only": "Yaz yağmurunu ve onu izleyen bitki ile otlak sonucunu anlatır.",
+        "expression_transliteration": "mtr alsyf",
+        "gloss": "yaz yağmuru ve bitkisi",
+        "shared_zone": "İki dal da belirli bir dönemin yağmurunu, bu yağmurun bitkisini ve yağmur alan toprağı kapsar.",
+        "distinction": "Ortak alan mevsime bağlı yağış ve bitkilenmedir; odak dal erken dönemin ilk yağmuruna, komşu dal ise yaz yağmuruna özgüdür.",
+        "expression_ar": "مطر الصَّيف",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2040",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A4775:headword=%D8%B5%D9%8A%D9%81:root=%D8%B5%20%D9%8A%20%D9%81:sha=45a5e319aa4c77bf",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A886:headword=%D8%B5%D9%8A%D9%81:root=%D8%B5%20%D9%8A%20%D9%81:sha=dd6e9c7223d58a47",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3368:headword=%D8%B5%D9%8A%D9%81:root=%D8%B5%20%D9%8A%20%D9%81:sha=22ae3f50b28c7e06",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D635%3Bsegment_index%3D7:headword=%D8%B5%D9%8A%D9%81:root=%D8%B5%20%D9%8A%20%D9%81:sha=451e6e27cd6e001e"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000383",
+        "neighbor_branch_id": "B002",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "İlk yağmur olma zaman koşulunu ve bu yağmurun yerde bıraktığı bitkisel izi gerektirir.",
+        "neighbor_only": "Yağmur, toprağın verimliliği, taze bitki ve yağmurla canlanma alanını genel olarak kapsar.",
+        "expression_transliteration": "hyah alard balmtr walnbat",
+        "gloss": "yağmurla toprağın canlanması",
+        "shared_zone": "Her iki dalda yağmur toprağı bitkilendirir ve araziyi görünür biçimde değiştirir.",
+        "distinction": "Odak dal belirli bir ilk yağış türünün adıdır; komşu dal ise yağmurla canlanma ve verimlilik sürecini zaman sınırı olmadan anlatır.",
+        "expression_ar": "حياة الأرض بالمطر والنبات",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:832",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1871:headword=%D8%AD%D9%8A%D9%88:root=%D8%AD%20%D9%8A%20%D9%88:sha=ca528c99093ec5a7",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A387:headword=%D8%AD%D9%8A%D9%89:root=%D8%AD%20%D9%8A%20%D9%8A:sha=f2edf2e5671a248e",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5289:headword=%D8%AD%D9%8A%D8%A7:root=%D8%AD%20%D9%8A%20%D8%A7:sha=48d8cd824e33271b",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D257%3Bsegment_index%3D12:headword=%D8%AD%D9%8A%D8%A7:root=%D8%AD%20%D9%8A%20%D8%A7:sha=5979bd1f6621cbb2"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 13,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; ilk yağış, yaz yağmuru ve yağmurla genel canlanma karşılaştırmaları dalın hem zaman hem sonuç sınırını en yararlı biçimde açıklar."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_001650/B003",
+    "concept_gloss": {
+      "text": "toprağı bitkilendiren ilk yağmur ve etkili toprak",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [],
+    "lexical_glosses": {
+      "lu_011": {
+        "text": "toprağı bitkilendiren yılın veya ilkbaharın ilk yağmuru",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_012": {
+        "text": "ilk yağmuru alıp etkisini taşıyan toprak",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_013": {
+        "text": "ilk yağmurun çıkardığı otu aramak",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    }
+  }
+}

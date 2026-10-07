@@ -1,0 +1,564 @@
+{
+  "root_ar": "ع و ن",
+  "branch_ref": "root_001064/B007",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_001064.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_001064.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+      "entry_id": "root_001064/tr",
+      "status": "reviewed",
+      "review_verdict": "repair",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_001064/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, yardım ve karşılıklı desteğin yanı sıra orta yaş, yinelenmiş savaş, yaşlı hurma, bedensel olgunluk, yaban eşeği sürüsü, kasık kılları ve bir yerle ilişkilendirilen şarap gibi birbirinden belirgin biçimde ayrılan anlam dalları taşır. Düzen, bazı yaş ve olgunluk bağlantılarına karşın tek bir çekirdekten açıklanamayacak ölçüde çok kolludur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_001064/B007",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi çekirdeği erkeğin üreme organı çevresinde çıkan kıl olarak verir, ayrıca küçültme biçimini ve bu kılları tıraş etme eylemini bildirir. Geçici çerçeve göndergenin kıl olduğunu doğru biçimde korur.",
+      "boundary_note": "Gönderge organın kendisi veya bütün kasık bölgesi değil, o bölgede çıkan kıllardır."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım kıl göndergesini çekirdek tutar; erkeğe bağlı adlandırma, küçültme biçimi ve tıraş eylemi birbirine karıştırılmadan ayrı yönler olarak verilir."
+    },
+    "concept_map": {
+      "definition": "Erkeğin üreme organı çevresinde ve kasık bölgesinde çıkan kılları adlandırır. Aynı dalda bu adın küçültme biçimi ile söz konusu kılları tıraş etmeyi bildiren bir eylem biçimi de bulunur.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Gönderge, erkeğin üreme organı çevresinde ve kasık bölgesinde çıkan kıllardır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Kıl adının aynı göndergeyi küçük gösteren bir küçültme biçimi vardır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "associated_use",
+          "statement": "Aynı biçim ailesindeki bir eylem, kişinin kasık kıllarını tıraş etmesini bildirir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynaklar çekirdeği erkeğin üreme organı çevresindeki kıllar olarak ortaklaştırır ve küçültme biçimini destekler; toplu kanıt ayrıca bu kılları tıraş etmeyi bildiren eylemi içerir.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "erkekte kasık kılları",
+      "applicability": "Kıl göndergesini, beden bölgesini ve erkekle kurulan sınırı birlikte veren çekirdek karşılıktır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Kıl olma, kasık bölgesinde bulunma ve erkeğe ait olma özelliklerini korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "kasık kıllarını tıraş etmek",
+        "usage_role": "contextual",
+        "applicability": "Türemiş eylem biçiminin kişinin söz konusu kılları kesmesini anlattığı bağlamda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Eylemin nesnesini ve tıraş etme işlemini açıkça korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F003"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_022",
+        "rendering_kind": "ordinary",
+        "target_gloss": "erkeğin kasık kılları"
+      },
+      {
+        "lexical_unit_id": "lu_023",
+        "rendering_kind": "ordinary",
+        "target_gloss": "kasık kıllarını küçülterek söyleyen biçim"
+      },
+      {
+        "lexical_unit_id": "lu_024",
+        "rendering_kind": "ordinary",
+        "target_gloss": "kasık kıllarını tıraş etti"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "kasık",
+        "category": "confusable",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "İlgili beden bölgesini genel olarak korur.",
+          "loses": null,
+          "adds": "Kıllar yerine bölgenin tamamını ve çevredeki dokuları kapsama ekler.",
+          "collision": "Beden bölgesi adıyla o bölgede çıkan kılların adı birbirine karışır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000589/B006",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal erkeğin ilgili bölgesinde çıkan kılları belirtir.",
+        "neighbor_only": "Komşu dal kasık bölgesini, o bölgenin etini veya kadın üreme organını dolaylı biçimde belirtir.",
+        "gloss": "kasık bölgesi veya dokusu",
+        "shared_zone": "İki dal aynı genel beden bölgesine gönderimde bulunabilir.",
+        "distinction": "Odak dalın göndergesi kıldır; komşu dalın göndergesi bölge, doku veya dolaylı olarak organdır."
+      },
+      {
+        "neighbor_ref": "root_000691/B008",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal erkeğin üreme organı çevresindeki kılları bir bütün olarak adlandırır.",
+        "neighbor_only": "Komşu dal göğsün ortasından göbeğe veya kasığa uzanan kıl çizgisini ve başka iz yollarını kapsar.",
+        "gloss": "gövdedeki kıl çizgisi",
+        "shared_zone": "Her iki dal gövdenin alt bölümüne uzanan beden kıllarıyla ilişkilidir.",
+        "distinction": "Komşu dal çizgi biçimindeki bir uzanışı ve başka yol izlerini içerir; odak dal ise kasık bölgesindeki kıl topluluğudur."
+      },
+      {
+        "neighbor_ref": "root_001350/B002",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dal kasık bölgesindeki kılları ve bunların tıraş edilmesini kapsar.",
+        "neighbor_only": "Komşu dal yüzde çıkan sakal kıllarını, bunların uzunluğunu ve sakallanmayı kapsar.",
+        "gloss": "sakal kılları",
+        "shared_zone": "İki dal insan bedenindeki belirli bir bölgede çıkan kılları adlandırır.",
+        "distinction": "Ortak alan beden kılıdır, ancak beden bölgesi ve ilişkili eylemler farklıdır; biri kasık, diğeri yüz bölgesine aittir."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; kasık bölgesinin kendisi, gövdedeki kıl çizgisi ve sakal kılları gönderge sınırını en iyi açıklar, kalanlar organ, sünnet derisi veya başka beden bölümleridir.",
+    "branch_image_ar": "عانة الرجل",
+    "what_is_ar": "عانة الرجل للشعر النابت على فرجه وما يتصل بحلقه",
+    "what_is_not_ar": "ليس العانة قطيع الحمر ولا عانة الموضع",
+    "source_phrase_ar": "عانة الرجل إسبه من الشعر على فرجه وتصغيره عوينة (ayn); العانة شعر الركب واستعان فلان حلق عانته (sihah); عانة الرجل شعره النابت على فرجه وتصغيره عوينة (mufradat)",
+    "sources": [
+      "AY",
+      "SI",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_001064",
+    "branch_id": "B007",
+    "branch_image_ar": "عانة الرجل",
+    "what_is_ar": "عانة الرجل للشعر النابت على فرجه وما يتصل بحلقه",
+    "what_is_not_ar": "ليس العانة قطيع الحمر ولا عانة الموضع",
+    "source_phrase_ar": "عانة الرجل إسبه من الشعر على فرجه وتصغيره عوينة (ayn); العانة شعر الركب واستعان فلان حلق عانته (sihah); عانة الرجل شعره النابت على فرجه وتصغيره عوينة (mufradat)",
+    "image_transliteration": "'anh alrjl",
+    "summary": "Erkeğin üreme organı çevresinde ve kasık bölgesinde çıkan kılları adlandırır. Aynı dalda bu adın küçültme biçimi ile söz konusu kılları tıraş etmeyi bildiren bir eylem biçimi de bulunur.",
+    "concept_map": {
+      "definition": "Erkeğin üreme organı çevresinde ve kasık bölgesinde çıkan kılları adlandırır. Aynı dalda bu adın küçültme biçimi ile söz konusu kılları tıraş etmeyi bildiren bir eylem biçimi de bulunur.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Gönderge, erkeğin üreme organı çevresinde ve kasık bölgesinde çıkan kıllardır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Kıl adının aynı göndergeyi küçük gösteren bir küçültme biçimi vardır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "associated_use",
+          "statement": "Aynı biçim ailesindeki bir eylem, kişinin kasık kıllarını tıraş etmesini bildirir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi çekirdeği erkeğin üreme organı çevresinde çıkan kıl olarak verir, ayrıca küçültme biçimini ve bu kılları tıraş etme eylemini bildirir. Geçici çerçeve göndergenin kıl olduğunu doğru biçimde korur.",
+      "boundary_note": "Gönderge organın kendisi veya bütün kasık bölgesi değil, o bölgede çıkan kıllardır."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım kıl göndergesini çekirdek tutar; erkeğe bağlı adlandırma, küçültme biçimi ve tıraş eylemi birbirine karıştırılmadan ayrı yönler olarak verilir."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 1,
+        "form": 2
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_022",
+        "expression_ar": "عانة الرجل",
+        "unit_kind": "collocation",
+        "sense_ar": "شعر الرجل النابت على فرجه",
+        "target_gloss": "erkeğin kasık kılları",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_023",
+        "expression_ar": "عوينة",
+        "unit_kind": "form",
+        "sense_ar": "تصغير عانة الرجل",
+        "target_gloss": "kasık kıllarını küçülterek söyleyen biçim",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_024",
+        "expression_ar": "استعان",
+        "unit_kind": "form",
+        "sense_ar": "حلق عانته",
+        "target_gloss": "kasık kıllarını tıraş etti",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynaklar çekirdeği erkeğin üreme organı çevresindeki kıllar olarak ortaklaştırır ve küçültme biçimini destekler; toplu kanıt ayrıca bu kılları tıraş etmeyi bildiren eylemi içerir.",
+      "evidence_refs": [
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 3,
+      "passage_count": 3,
+      "sources": [
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Erkeğin üreme organı çevresinde ve kasık bölgesinde çıkan kılları adlandırır. Aynı dalda bu adın küçültme biçimi ile söz konusu kılları tıraş etmeyi bildiren bir eylem biçimi de bulunur.",
+      "concept": {
+        "rank": 1,
+        "text": "erkekte kasık kılları",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Kıl göndergesini, beden bölgesini ve erkekle kurulan sınırı birlikte veren çekirdek karşılıktır.",
+        "facet_ids": [
+          "F001"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kıl olma, kasık bölgesinde bulunma ve erkeğe ait olma özelliklerini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "kasık kıllarını tıraş etmek",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Türemiş eylem biçiminin kişinin söz konusu kılları kesmesini anlattığı bağlamda kullanılır.",
+          "facet_ids": [
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Eylemin nesnesini ve tıraş etme işlemini açıkça korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "kasık",
+          "category": "confusable",
+          "exclusion_reason": "Kıllar yerine bölgenin tamamını ve çevredeki dokuları kapsama ekler. Beden bölgesi adıyla o bölgede çıkan kılların adı birbirine karışır.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "İlgili beden bölgesini genel olarak korur.",
+            "loses": null,
+            "adds": "Kıllar yerine bölgenin tamamını ve çevredeki dokuları kapsama ekler.",
+            "collision": "Beden bölgesi adıyla o bölgede çıkan kılların adı birbirine karışır."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000589",
+        "neighbor_branch_id": "B006",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal erkeğin ilgili bölgesinde çıkan kılları belirtir.",
+        "neighbor_only": "Komşu dal kasık bölgesini, o bölgenin etini veya kadın üreme organını dolaylı biçimde belirtir.",
+        "expression_transliteration": "alrkb mwd' al'anh",
+        "gloss": "kasık bölgesi veya dokusu",
+        "shared_zone": "İki dal aynı genel beden bölgesine gönderimde bulunabilir.",
+        "distinction": "Odak dalın göndergesi kıldır; komşu dalın göndergesi bölge, doku veya dolaylı olarak organdır.",
+        "expression_ar": "الرُّكْب موضع العانة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1355",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A3779:headword=%D8%B1%D9%83%D8%A8:root=%D8%B1%20%D9%83%20%D8%A8:sha=25ab09ed41395deb",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A730%3Asubentry%3A1%3A%D8%B1%D9%83%D8%A8:headword=%D8%B1%D9%83%D8%A8:root=%D8%B1%20%D9%83%20%D8%A8:sha=8c8a9e1ef9441991",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A588:headword=%D8%B1%D9%83%D8%A8:root=%D8%B1%20%D9%83%20%D8%A8:sha=83d375bb90398d05",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A288:headword=%D8%B1%D9%83%D8%A8:root=%D8%B1%20%D9%83%20%D8%A8:sha=a645cde5ddc9b543",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D516%3Bsegment_index%3D234:headword=%D8%B1%D9%83%D8%A8:root=%D8%B1%20%D9%83%20%D8%A8:sha=4dd0cf90a1e5e039"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000691",
+        "neighbor_branch_id": "B008",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal erkeğin üreme organı çevresindeki kılları bir bütün olarak adlandırır.",
+        "neighbor_only": "Komşu dal göğsün ortasından göbeğe veya kasığa uzanan kıl çizgisini ve başka iz yollarını kapsar.",
+        "expression_transliteration": "almsrbh wmsarb alajsam walathar",
+        "gloss": "gövdedeki kıl çizgisi",
+        "shared_zone": "Her iki dal gövdenin alt bölümüne uzanan beden kıllarıyla ilişkilidir.",
+        "distinction": "Komşu dal çizgi biçimindeki bir uzanışı ve başka yol izlerini içerir; odak dal ise kasık bölgesindeki kıl topluluğudur.",
+        "expression_ar": "المسربة ومسارب الأجسام والآثار",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1779",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A4892:headword=%D8%B3%D8%B1%D8%A8:root=%D8%B3%20%D8%B1%20%D8%A8:sha=5f63ee4b684b087a",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A720%3Asubentry%3A3%3A%D8%B3%D8%B1%D8%A8:headword=%D8%B3%D8%B1%D8%A8:root=%D8%B3%20%D8%B1%20%D8%A8:sha=9aae276e6ae1c858",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A684:headword=%D8%B3%D8%B1%D8%A8:root=%D8%B3%20%D8%B1%20%D8%A8:sha=55dd501e7dc29e31",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A308:headword=%D8%B3%D8%B1%D8%A8:root=%D8%B3%20%D8%B1%20%D8%A8:sha=902fd175296fa742",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D648%3Bsegment_index%3D86:headword=%D8%B3%D8%B1%D8%A8:root=%D8%B3%20%D8%B1%20%D8%A8:sha=5ce724d0da7cb152"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001350",
+        "neighbor_branch_id": "B002",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dal kasık bölgesindeki kılları ve bunların tıraş edilmesini kapsar.",
+        "neighbor_only": "Komşu dal yüzde çıkan sakal kıllarını, bunların uzunluğunu ve sakallanmayı kapsar.",
+        "expression_transliteration": "sh'r allhyh",
+        "gloss": "sakal kılları",
+        "shared_zone": "İki dal insan bedenindeki belirli bir bölgede çıkan kılları adlandırır.",
+        "distinction": "Ortak alan beden kılıdır, ancak beden bölgesi ve ilişkili eylemler farklıdır; biri kasık, diğeri yüz bölgesine aittir.",
+        "expression_ar": "شعر اللحية",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:3199",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1836:headword=%D9%84%D8%AD%D9%89:root=%D9%84%20%D8%AD%20%D9%8A:sha=c464c333d2d55740",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5532:headword=%D9%84%D8%AD%D9%89:root=%D9%84%20%D8%AD%20%D9%8A:sha=af1375833968a641",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D253%3Bsegment_index%3D4:headword=%D9%84%D8%AD%D9%89:root=%D9%84%20%D8%AD%20%D9%89:sha=0bf6d29f8bcefc59"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; kasık bölgesinin kendisi, gövdedeki kıl çizgisi ve sakal kılları gönderge sınırını en iyi açıklar, kalanlar organ, sünnet derisi veya başka beden bölümleridir."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_001064/B007",
+    "concept_gloss": {
+      "text": "erkeğin kasık kılları, küçültmesi ve tıraşı",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "erkeğin kasık kılları",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_022"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "kasık kılları için küçültme adı",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_023"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "kasık kıllarını tıraş etmek",
+        "facet_ids": [
+          "F003"
+        ],
+        "lexical_unit_ids": [
+          "lu_024"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_022": {
+        "text": "erkeğin kasık kılları",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss kıl göndergesini verir; küçültme biçimi ve tıraş eylemi yönlerini kapsamaz."
+        }
+      },
+      "lu_023": {
+        "text": "kasık kılları için küçültme biçimi",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss küçültme adını verir; kasık kıllarını tıraş etme eylemini kapsamaz."
+        }
+      },
+      "lu_024": {
+        "text": "kasık kıllarını tıraş etmek",
+        "facet_ids": [
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss tıraş eylemini verir; kıl adı ve küçültme biçimi yönlerini kapsamaz."
+        }
+      }
+    }
+  }
+}

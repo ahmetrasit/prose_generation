@@ -23,6 +23,7 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+import digest
 from digest import PART_CHARS, ROOT, V7, connect, contains, dump, run_dir
 import merge
 
@@ -69,6 +70,12 @@ def page(path, ayah):
         lo = paras[p][0]
         numbered = numbered[:lo] + f'[¶{p}] ' + numbered[lo:]
     return text, paras, numbered, {p: [f'{s}:{a}' for s, a in v] for p, v in cites.items()}
+
+
+def page_verses(path, ayah):
+    """The own ayah plus every verse the page's paragraphs cite, sorted (for digest.py and merge.py --page)."""
+    cites = page(path, ayah)[3]
+    return sorted({v for vs in cites.values() for v in vs}, key=lambda x: tuple(map(int, x.split(':'))))
 
 
 def own_text(ayah, rows_tag, views_tag):
@@ -336,12 +343,11 @@ def report(a):
                 p = agentrun.parse(hits[-1])
                 usd, note = p['cost_usd'] or 0, f"stop {p.get('stop_reason')}"
             else:
-                r = d / 'runs' / f"v7w_{a.run}_{tag}_g{c['group']:02d}" / 'run.json'
-                if not r.exists():
-                    print(f"WARNING {tag} g{c['group']:02d}: no run.json")
+                x = digest.usage(d / 'runs', f"/root/v7w_{a.run}_{tag}_g{c['group']:02d}")
+                if x is None:
+                    print(f"WARNING {tag} g{c['group']:02d}: no run.json and no native session")
                     continue
-                x = json.loads(r.read_text())
-                usd, note = x.get('usd_equivalent', 0), f"{x.get('requests')} requests, peak {x.get('max_request_input_tokens')}"
+                usd, note = x['usd'], f"{x['requests']} requests, peak {x['peak']}, {x['via']}"
             total += usd
             print(f"{tag} g{c['group']:02d}: ${usd:.2f} ({note})")
         print(f'{tag}: ${total:.2f} total')

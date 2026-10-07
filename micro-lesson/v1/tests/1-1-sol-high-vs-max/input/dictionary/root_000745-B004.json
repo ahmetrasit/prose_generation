@@ -1,0 +1,879 @@
+{
+  "root_ar": "س م و",
+  "branch_ref": "root_000745/B004",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_000745.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_000745.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+      "entry_id": "root_000745/tr",
+      "status": "reviewed",
+      "review_verdict": "editorial_review",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_000745/tr/repair/editorial/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, somut ve toplumsal yükselme çekirdeğinden uzaktan beliren yüksek görünüşe, üstteki gök ve örtüye, adlandırmaya ve iyi üne uzanır; ayrıca erkek devenin sürüye girişi, ava çıkma ve karşılıklı yarışma gibi kalıplaşmış dallar taşır. Bu yapı, anlamca bağlantılı uzantılarla daha bağımsız eski kullanımları birlikte barındırır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_000745/B004",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi üstte bulunup örten şey çekirdeğini gök ve tavanla verir; bulut, yağmur, bitki, atın sırtı ve her şeyin üst yanı kullanımlarını da açıkça ekler. Dal çerçevesi bu çekirdeği ve ona bağlı aktarmaları doğru ayırmaya elverişlidir.",
+      "boundary_note": "Üstte olma ve örtme çekirdeği önde tutulur; bulut, yağmur, bitki ve at sırtı kullanımları genel yükselme anlamına dönüştürülmez."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Gök ve üst örtü çekirdeği ile bulut, yağmur, bitki, at sırtı ve genel üst yan kullanımları ayrı kapsamlarla korunur."
+    },
+    "concept_map": {
+      "definition": "Bir şeyin üzerinde bulunan ve onu örten gök, tavan ya da genel üst yandır. Bu ad buluta, yukarıdan gelen yağmura, yağmurla çıkan veya yükselen bitkiye ve atın sırtına da aktarılır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir şeyin üzerinde yükselen ve onu örten gök, tavan veya üst yan anlatılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Üstte bulunan ve örten bulut aynı adla anılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "extension",
+          "statement": "Yukarıdaki kaynağından gelen yağmur aynı adla anılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "extension",
+          "statement": "Yağmurdan çıkan veya yerden yükselen bitkiye aynı ad aktarılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F005",
+          "role": "specialization",
+          "statement": "Atın sırtı ve genel olarak bir şeyin en üst yanı bu yüksek üst yüzey kapsamında adlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynaklar gök, tavan ve üst yan anlamlarını yüksekte bulunup örtme çekirdeğinde birleştirir; bulut, yağmur, bitki ve at sırtı kullanımlarını buna bağlı uzantılar olarak verir.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler",
+      "applicability": "Gök ve tavan çekirdeğinin yanı sıra bulut, yağmur, bitki ve bir şeyin üst yanı için belirtilen bağlı kullanımları kapsar.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Üstte bulunma ve örtme çekirdeğiyle ona bağlı uzantıları korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004",
+        "F005"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "gök veya tavan",
+        "usage_role": "general",
+        "applicability": "Bir şeyin üzerinde bulunan, yükselen ve onu örten üst alan veya yapı kastedildiğinde kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Üstte bulunma ve örtme çekirdeğini doğrudan korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "bulut veya yağmur",
+        "usage_role": "contextual",
+        "applicability": "Gökteki bulut ya da yukarıdan gelen yağmur için aktarmalı kullanım gerektiğinde kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bulut ve ondan geldiği düşünülen yağmur uzantılarını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002",
+          "F003"
+        ]
+      },
+      {
+        "text": "yağmurla çıkan bitki",
+        "usage_role": "contextual",
+        "applicability": "Yağmurun ürünü veya yerden yükselen bitki için kullanılan özel aktarımda geçerlidir.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bitkinin yağmurla veya yükselmesiyle kurulan bağını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F004"
+        ]
+      },
+      {
+        "text": "bir şeyin üst yanı",
+        "usage_role": "explanatory",
+        "applicability": "Atın sırtı dahil bir nesnenin en üst yüzeyi ya da yanı anlatıldığında kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "At sırtını ve genel üst yüzey anlamını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F005"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_009",
+        "rendering_kind": "ordinary",
+        "target_gloss": "gök, tavan veya bir şeyin üst yanı"
+      },
+      {
+        "lexical_unit_id": "lu_010",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yağmur"
+      },
+      {
+        "lexical_unit_id": "lu_011",
+        "rendering_kind": "ordinary",
+        "target_gloss": "bulut"
+      },
+      {
+        "lexical_unit_id": "lu_012",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yağmurla çıkan veya yerden yükselen bitki"
+      },
+      {
+        "lexical_unit_id": "lu_013",
+        "rendering_kind": "ordinary",
+        "target_gloss": "atın sırtı veya üst yanı"
+      },
+      {
+        "lexical_unit_id": "lu_014",
+        "rendering_kind": "ordinary",
+        "target_gloss": "evin tavanı"
+      },
+      {
+        "lexical_unit_id": "lu_015",
+        "rendering_kind": "ordinary",
+        "target_gloss": "her şeyin en üst yanı"
+      }
+    ],
+    "excluded_glosses": [],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000720/B001",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı gök ve tavan yanında bulut, yağmur, bitki ve at sırtı uzantılarını kapsar.",
+        "neighbor_only": "Komşu dal özellikle yapı tavanını ve bir nesnenin üstüne yapılmış yüksek örtüyü merkez alır.",
+        "gloss": "üstteki örtü ve tavan",
+        "shared_zone": "İki dal da bir şeyin üstünde bulunan yüksek tavan veya örtüyü anlatır.",
+        "distinction": "Komşu dal yapısal tavan alanında daha dardır; odak dalı gökten başlayarak doğal ve aktarmalı birçok üst unsuruna yayılır."
+      },
+      {
+        "neighbor_ref": "root_001116/B010",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı kalıcı gök ve tavanı, ayrıca yağmur, bitki ve üst yüzey aktarmalarını içerir.",
+        "neighbor_only": "Komşu dal bulut, toz veya kaldırılmış silah gibi baş üstünde geçici gölge yapan şeyleri kapsar.",
+        "gloss": "üstten örten şey",
+        "shared_zone": "Her iki dal başın veya bir nesnenin üstünde bulunup örten şeyi kapsar.",
+        "distinction": "Odak dalı gök ve üst yapı çekirdeğinden çeşitli ad aktarmalarına uzanır; komşu dalın çekirdeği üstte gölge yapan geçici örtüdür."
+      },
+      {
+        "neighbor_ref": "root_001000/B002",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı doğal göğü, bulutu, yağmuru, bitkiyi ve bir şeyin üst yanını da kapsar.",
+        "neighbor_only": "Komşu dal insanların veya hayvanların altında barındığı yapılmış çatı, çardak ve barınakları kapsar.",
+        "gloss": "tavan ve barınak örtüsü",
+        "shared_zone": "İki dalda da üstte bulunan ve altında kalanı örten bir yapı vardır.",
+        "distinction": "Odak dalı doğal gök ve aktarmalı uzantılar bakımından geniştir; komşu dal yapılmış barınak örtülerini ve koruma işlevini merkez alır."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; gök, tavan ve gölge yapan örtü arasındaki kapsam farkını en iyi gösteren üç komşu yayımlandı.",
+    "branch_image_ar": "السماء وما علا فأظل",
+    "what_is_ar": "يدخل فيه السماء لما علا وأظل، والسقف، والسحاب، والمطر، والنبات المنسوب إلى المطر، وظهر الفرس أو أعلى الشيء.",
+    "what_is_not_ar": "لا يدخل فيه الارتفاع المجرد، ولا الاسم، ولا الشخص الظاهر إلا من جهة كونه عاليا.",
+    "source_phrase_ar": "العرب تسمى السحاب سماء والمطر سماء؛ السماء سقف البيت وكل عال مطل سماء؛ يسموا النبات سماء (maqayis)؛ السماء كل ما علاك فأظلك؛ السماء المطر؛ السماء ظهر الفرس؛ سماوة البيت سقفه (sihah)؛ السماء سقف كل شيء وكل بيت؛ السماء السحاب؛ السماء المطر (tahdhib)؛ سماء كل شيء أعلاه؛ سمي المطر سماء؛ سمي النبات سماء (mufradat)",
+    "sources": [
+      "MQ",
+      "SI",
+      "TA",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_000745",
+    "branch_id": "B004",
+    "branch_image_ar": "السماء وما علا فأظل",
+    "what_is_ar": "يدخل فيه السماء لما علا وأظل، والسقف، والسحاب، والمطر، والنبات المنسوب إلى المطر، وظهر الفرس أو أعلى الشيء.",
+    "what_is_not_ar": "لا يدخل فيه الارتفاع المجرد، ولا الاسم، ولا الشخص الظاهر إلا من جهة كونه عاليا.",
+    "source_phrase_ar": "العرب تسمى السحاب سماء والمطر سماء؛ السماء سقف البيت وكل عال مطل سماء؛ يسموا النبات سماء (maqayis)؛ السماء كل ما علاك فأظلك؛ السماء المطر؛ السماء ظهر الفرس؛ سماوة البيت سقفه (sihah)؛ السماء سقف كل شيء وكل بيت؛ السماء السحاب؛ السماء المطر (tahdhib)؛ سماء كل شيء أعلاه؛ سمي المطر سماء؛ سمي النبات سماء (mufradat)",
+    "image_transliteration": "alsma' wma 'la fazl",
+    "summary": "Bir şeyin üzerinde bulunan ve onu örten gök, tavan ya da genel üst yandır. Bu ad buluta, yukarıdan gelen yağmura, yağmurla çıkan veya yükselen bitkiye ve atın sırtına da aktarılır.",
+    "concept_map": {
+      "definition": "Bir şeyin üzerinde bulunan ve onu örten gök, tavan ya da genel üst yandır. Bu ad buluta, yukarıdan gelen yağmura, yağmurla çıkan veya yükselen bitkiye ve atın sırtına da aktarılır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir şeyin üzerinde yükselen ve onu örten gök, tavan veya üst yan anlatılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Üstte bulunan ve örten bulut aynı adla anılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "extension",
+          "statement": "Yukarıdaki kaynağından gelen yağmur aynı adla anılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "extension",
+          "statement": "Yağmurdan çıkan veya yerden yükselen bitkiye aynı ad aktarılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F005",
+          "role": "specialization",
+          "statement": "Atın sırtı ve genel olarak bir şeyin en üst yanı bu yüksek üst yüzey kapsamında adlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi üstte bulunup örten şey çekirdeğini gök ve tavanla verir; bulut, yağmur, bitki, atın sırtı ve her şeyin üst yanı kullanımlarını da açıkça ekler. Dal çerçevesi bu çekirdeği ve ona bağlı aktarmaları doğru ayırmaya elverişlidir.",
+      "boundary_note": "Üstte olma ve örtme çekirdeği önde tutulur; bulut, yağmur, bitki ve at sırtı kullanımları genel yükselme anlamına dönüştürülmez."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Gök ve üst örtü çekirdeği ile bulut, yağmur, bitki, at sırtı ve genel üst yan kullanımları ayrı kapsamlarla korunur."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 4,
+        "form": 3
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_009",
+        "expression_ar": "السماء",
+        "unit_kind": "form",
+        "sense_ar": "ما علا وأظل، ومنه السماء العليا والسقف وما كان فوق الشيء.",
+        "target_gloss": "gök, tavan veya bir şeyin üst yanı",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_010",
+        "expression_ar": "السماء",
+        "unit_kind": "form",
+        "sense_ar": "المطر.",
+        "target_gloss": "yağmur",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_011",
+        "expression_ar": "السماء",
+        "unit_kind": "form",
+        "sense_ar": "السحاب.",
+        "target_gloss": "bulut",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_012",
+        "expression_ar": "النبات سماء",
+        "unit_kind": "collocation",
+        "sense_ar": "يطلق السماء على النبات لكونه من المطر أو لارتفاعه.",
+        "target_gloss": "yağmurla çıkan veya yerden yükselen bitki",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_013",
+        "expression_ar": "سماء الفرس",
+        "unit_kind": "collocation",
+        "sense_ar": "ظهر الفرس أو أعلاه.",
+        "target_gloss": "atın sırtı veya üst yanı",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_014",
+        "expression_ar": "سماوة البيت",
+        "unit_kind": "collocation",
+        "sense_ar": "سقف البيت.",
+        "target_gloss": "evin tavanı",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_015",
+        "expression_ar": "سماء كل شيء",
+        "unit_kind": "collocation",
+        "sense_ar": "أعلى كل شيء.",
+        "target_gloss": "her şeyin en üst yanı",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynaklar gök, tavan ve üst yan anlamlarını yüksekte bulunup örtme çekirdeğinde birleştirir; bulut, yağmur, bitki ve at sırtı kullanımlarını buna bağlı uzantılar olarak verir.",
+      "evidence_refs": [
+        "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 4,
+      "passage_count": 4,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Bir şeyin üzerinde bulunan ve onu örten gök, tavan ya da genel üst yandır. Bu ad buluta, yukarıdan gelen yağmura, yağmurla çıkan veya yükselen bitkiye ve atın sırtına da aktarılır.",
+      "concept": {
+        "rank": 1,
+        "text": "üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Gök ve tavan çekirdeğinin yanı sıra bulut, yağmur, bitki ve bir şeyin üst yanı için belirtilen bağlı kullanımları kapsar.",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004",
+          "F005"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Üstte bulunma ve örtme çekirdeğiyle ona bağlı uzantıları korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "gök veya tavan",
+          "loanword_status": "none",
+          "usage_role": "general",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir şeyin üzerinde bulunan, yükselen ve onu örten üst alan veya yapı kastedildiğinde kullanılır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Üstte bulunma ve örtme çekirdeğini doğrudan korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "bulut veya yağmur",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Gökteki bulut ya da yukarıdan gelen yağmur için aktarmalı kullanım gerektiğinde kullanılır.",
+          "facet_ids": [
+            "F002",
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bulut ve ondan geldiği düşünülen yağmur uzantılarını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 4,
+          "text": "yağmurla çıkan bitki",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Yağmurun ürünü veya yerden yükselen bitki için kullanılan özel aktarımda geçerlidir.",
+          "facet_ids": [
+            "F004"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bitkinin yağmurla veya yükselmesiyle kurulan bağını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 5,
+          "text": "bir şeyin üst yanı",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "Atın sırtı dahil bir nesnenin en üst yüzeyi ya da yanı anlatıldığında kullanılır.",
+          "facet_ids": [
+            "F005"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "At sırtını ve genel üst yüzey anlamını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": []
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000720",
+        "neighbor_branch_id": "B001",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı gök ve tavan yanında bulut, yağmur, bitki ve at sırtı uzantılarını kapsar.",
+        "neighbor_only": "Komşu dal özellikle yapı tavanını ve bir nesnenin üstüne yapılmış yüksek örtüyü merkez alır.",
+        "expression_transliteration": "es-sakfu'l-ali",
+        "gloss": "üstteki örtü ve tavan",
+        "shared_zone": "İki dal da bir şeyin üstünde bulunan yüksek tavan veya örtüyü anlatır.",
+        "distinction": "Komşu dal yapısal tavan alanında daha dardır; odak dalı gökten başlayarak doğal ve aktarmalı birçok üst unsuruna yayılır.",
+        "expression_ar": "السقف العالي",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1645",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A3181:headword=%D8%B3%D9%82%D9%81:root=%D8%B3%20%D9%82%20%D9%81:sha=7ca1f26bfee645fc",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A712:headword=%D8%B3%D9%82%D9%81:root=%D8%B3%20%D9%82%20%D9%81:sha=f06fe97f6a973cb6",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3341:headword=%D8%B3%D9%82%D9%81:root=%D8%B3%20%D9%82%20%D9%81:sha=6a1293d1718cb59a",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D464%3Bsegment_index%3D37:headword=%D8%B3%D9%82%D9%81:root=%D8%B3%20%D9%82%20%D9%81:sha=35f11b17d8bd2f6a"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001116",
+        "neighbor_branch_id": "B010",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı kalıcı gök ve tavanı, ayrıca yağmur, bitki ve üst yüzey aktarmalarını içerir.",
+        "neighbor_only": "Komşu dal bulut, toz veya kaldırılmış silah gibi baş üstünde geçici gölge yapan şeyleri kapsar.",
+        "expression_transliteration": "ghyayh tzll mn fwq",
+        "gloss": "üstten örten şey",
+        "shared_zone": "Her iki dal başın veya bir nesnenin üstünde bulunup örten şeyi kapsar.",
+        "distinction": "Odak dalı gök ve üst yapı çekirdeğinden çeşitli ad aktarmalarına uzanır; komşu dalın çekirdeği üstte gölge yapan geçici örtüdür.",
+        "expression_ar": "غياية تظلل من فوق",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2553",
+          "maqayis:root=%D8%BA%20%D9%88%20%D9%8A:headword=%D8%BA%D9%88%D9%8A:sha=b59167727ef92018",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D431%3Bsegment_index%3D8:headword=%D8%BA%D9%88%D9%8A:root=%D8%BA%20%D9%88%20%D9%8A:sha=679683606518bc3d"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001000",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı doğal göğü, bulutu, yağmuru, bitkiyi ve bir şeyin üst yanını da kapsar.",
+        "neighbor_only": "Komşu dal insanların veya hayvanların altında barındığı yapılmış çatı, çardak ve barınakları kapsar.",
+        "expression_transliteration": "alsqf walmzlh almrfw'h",
+        "gloss": "tavan ve barınak örtüsü",
+        "shared_zone": "İki dalda da üstte bulunan ve altında kalanı örten bir yapı vardır.",
+        "distinction": "Odak dalı doğal gök ve aktarmalı uzantılar bakımından geniştir; komşu dal yapılmış barınak örtülerini ve koruma işlevini merkez alır.",
+        "expression_ar": "السقف والمظلّة المرفوعة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2448",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A989:headword=%D8%B9%D8%B1%D8%B4:root=%D8%B9%20%D8%B1%20%D8%B4:sha=f1aec8b38d894b6e",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A2463:headword=%D8%B9%D8%B1%D8%B4:root=%D8%B9%20%D8%B1%20%D8%B4:sha=89809906c68c1d1a",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D96%3Bsegment_index%3D3:headword=%D8%B9%D8%B1%D8%B4:root=%D8%B9%20%D8%B1%20%D8%B4:sha=ba917cc898b68c1e"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; gök, tavan ve gölge yapan örtü arasındaki kapsam farkını en iyi gösteren üç komşu yayımlandı."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_000745/B004",
+    "concept_gloss": {
+      "text": "üstte örten gök, tavan ve buna bağlı üst kaynaklı adlandırmalar",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004",
+        "F005"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "gök, tavan veya üst yan",
+        "facet_ids": [
+          "F001",
+          "F005"
+        ],
+        "lexical_unit_ids": [
+          "lu_009",
+          "lu_014",
+          "lu_015"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "üstte örten bulut",
+        "facet_ids": [
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_011"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "yukarıdan gelen yağmur",
+        "facet_ids": [
+          "F003"
+        ],
+        "lexical_unit_ids": [
+          "lu_010"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "yağmurla çıkan veya yerden yükselen bitki",
+        "facet_ids": [
+          "F004"
+        ],
+        "lexical_unit_ids": [
+          "lu_012"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "atın sırtı veya bir şeyin en üst yüzeyi",
+        "facet_ids": [
+          "F005"
+        ],
+        "lexical_unit_ids": [
+          "lu_013",
+          "lu_015"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_009": {
+        "text": "gök, tavan veya bir şeyin üst yanı",
+        "facet_ids": [
+          "F001",
+          "F005"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss gök, tavan ve üst yan çekirdeğini verir; bulut, yağmur ve yağmurla bitki uzantılarını ayrıca kapsamaz."
+        }
+      },
+      "lu_010": {
+        "text": "yukarıdan gelen yağmur",
+        "facet_ids": [
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F004",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss yağmur kullanımına özgüdür; gök veya tavan, bulut, bitki ve üst yüzey anlamlarını dışarıda bırakır."
+        }
+      },
+      "lu_011": {
+        "text": "üstte örten bulut",
+        "facet_ids": [
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003",
+            "F004",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss bulut uzantısına özgüdür; gök veya tavan, yağmur, bitki ve üst yüzey kapsamlarını vermez."
+        }
+      },
+      "lu_012": {
+        "text": "yağmurla çıkan veya yükselen bitki",
+        "facet_ids": [
+          "F004"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F003",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss bitki aktarımına özgüdür; gök veya tavan, bulut, yağmur ve üst yüzey anlamlarını dışarıda bırakır."
+        }
+      },
+      "lu_013": {
+        "text": "atın sırtı veya üst yanı",
+        "facet_ids": [
+          "F005"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss üst yüzey kullanımına özgüdür; gök veya tavan, bulut, yağmur ve bitki uzantılarını vermez."
+        }
+      },
+      "lu_014": {
+        "text": "evin tavanı",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003",
+            "F004",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss ev tavanına özgüdür; bulut, yağmur, bitki ve genel üst yüzey uzantılarını karşılamaz."
+        }
+      },
+      "lu_015": {
+        "text": "her şeyin en üst yanı",
+        "facet_ids": [
+          "F005"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss genel üst yan kullanımına özgüdür; gök veya tavan, bulut, yağmur ve bitki kapsamlarını dışarıda bırakır."
+        }
+      }
+    }
+  }
+}

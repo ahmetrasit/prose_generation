@@ -1,0 +1,515 @@
+{
+  "root_ar": "ع و ن",
+  "branch_ref": "root_001064/B008",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_001064.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_001064.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+      "entry_id": "root_001064/tr",
+      "status": "reviewed",
+      "review_verdict": "repair",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_001064/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, yardım ve karşılıklı desteğin yanı sıra orta yaş, yinelenmiş savaş, yaşlı hurma, bedensel olgunluk, yaban eşeği sürüsü, kasık kılları ve bir yerle ilişkilendirilen şarap gibi birbirinden belirgin biçimde ayrılan anlam dalları taşır. Düzen, bazı yaş ve olgunluk bağlantılarına karşın tek bir çekirdekten açıklanamayacak ölçüde çok kolludur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_001064/B008",
+    "identity_judgment": {
+      "status": "qualified",
+      "rationale": "Kaynak ifadesi iki yakın yer adı biçimini ve bu yere bağlanarak adlandırılan şarabı aynı dalda toplar. Ancak anlatımlardan biri yeri bir bölgenin yöresinde, diğeri bir ırmak üzerindeki köy olarak gösterdiğinden bunların aynı coğrafi nokta olduğu kanıttan kesinleşmez.",
+      "boundary_note": "Dal hem yer adını hem o yere bağlanan şarap adını kapsar; iki yer anlatımının özdeşliği kesin sayılmaz."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım yer adı birimlerini ve yalnızca şarapla kurulan köken bildiren yapıyı ayırır; şaraba özgü değer yalın yer adına genellenmez."
+    },
+    "concept_map": {
+      "definition": "Dal, iki yakın yer adı biçimi ile bunlardan geldiği belirtilen şarap adlandırmasını birlikte kapsar. Kanıt, bir bölgenin yöresindeki yer ile bir ırmak üzerindeki köy anlatımının aynı coğrafi noktayı gösterdiğini kesinleştirmez.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "İki yakın ad biçimi, biri bir bölgenin yöresindeki yer, diğeri bir ırmak üzerindeki köy olarak tanımlanan coğrafi göndergeleri adlandırır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "associated_use",
+          "statement": "Şarap, söz konusu yerden geldiği belirtilerek o yere bağlı bir nitelemeyle adlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Toplu kanıt yakın biçimli bir yer adını ve o yere bağlanan şarap nitelemesini ortaklaştırır; yerin bir bölge yöresi mi yoksa bir ırmak kıyısındaki köy mü olduğu anlatımlar arasında kesinleşmez.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "bir yer adı ve o yere bağlanan şarap adı",
+      "applicability": "Yer göndergesini ve şarabın o yerden geldiğini bildiren bağlı adlandırmayı birlikte veren açıklayıcı karşılıktır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Yer adı ile o yere bağlanan şarap nitelemesinin ikisini de korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "o yöreden gelen şarap",
+        "usage_role": "contextual",
+        "applicability": "Şarabın söz konusu coğrafi yerle köken ilişkisi içinde anıldığı bağlamda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Şarap ile belirtilen yer arasındaki köken ilişkisini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_025",
+        "rendering_kind": "ordinary",
+        "target_gloss": "şarabıyla ilişkilendirilen bir yer veya köy adı"
+      },
+      {
+        "lexical_unit_id": "lu_026",
+        "rendering_kind": "ordinary",
+        "target_gloss": "aynı yer adıyla ilişkili değişken ad biçimi"
+      },
+      {
+        "lexical_unit_id": "lu_027",
+        "rendering_kind": "ordinary",
+        "target_gloss": "söz konusu yerden geldiği belirtilen şarap"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "yerel şarap",
+        "category": "alternative",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Şarap ile bir yer arasındaki bağlantıyı genel olarak korur.",
+          "loses": null,
+          "adds": "Herhangi bir yerde üretilen bütün yerel şarapları kapsama ekler.",
+          "collision": "Belirli yer adına bağlı olmayan genel bölgesel şaraplarla karışır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000422/B004",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal belirli bir yer adı ile o yere bağlanan şarap adını kapsar.",
+        "neighbor_only": "Komşu dal başka bir bölge veya yöre adı ile o yere bağlanan mızrakları kapsar.",
+        "gloss": "yer adı ve oraya bağlanan mızrak",
+        "shared_zone": "İki dalda da bir coğrafi ad ve o coğrafyaya köken yoluyla bağlanan ürün bulunur.",
+        "distinction": "İlişki düzeni benzer olsa da coğrafi gönderge ve bağlı ürün farklıdır; odak dal şarapla, komşu dal mızrakla sınırlıdır."
+      },
+      {
+        "neighbor_ref": "root_001238/B013",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yakın biçimli iki yer adı anlatımıyla ve şarap nitelemesiyle sınırlıdır.",
+        "neighbor_only": "Komşu dal başka bir yere bağlanan kumaş, binek hayvanı ve deve kuşu adlarını kapsar.",
+        "gloss": "yer kökenli ürün ve hayvan adları",
+        "shared_zone": "Her iki dal bir yer adından hareketle nesne veya ürünün coğrafi kökenini bildirir.",
+        "distinction": "Odak dalın bağlı ürünü şaraptır ve yer anlatımı belirsizlik taşır; komşu dal başka bir yer ile birden çok ürün ve hayvan türünü kapsar."
+      },
+      {
+        "neighbor_ref": "root_000965/B012",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal bir yer adı biçimlerini ve o yere bağlanan şarabı içerir.",
+        "neighbor_only": "Komşu dal başka bir şehir adını ve o şehre bağlanan taş ya da güzel kokulu odun adlarını içerir.",
+        "gloss": "şehir adı ve oraya bağlanan ürünler",
+        "shared_zone": "İki dal coğrafi ad ile o coğrafyadan geldiği belirtilen ürün adlarını birlikte taşır.",
+        "distinction": "Yapısal benzerliğe karşın yerler ve ürün türleri ayrıdır; odak dal şarap, komşu dal taş ve odunla ilişkilidir."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yer adı ile ürünü ilişkilendiren mızrak, kumaş ve şehir ürünü dalları en yararlı karşılaştırmalardır, kalanlar yalnızca yer adı taşır veya farklı bir coğrafi adlandırma yapısı gösterir.",
+    "branch_image_ar": "النسبة إلى عانة",
+    "what_is_ar": "عانة موضع أو قرية وينسب إليها بالخمر العانية",
+    "what_is_not_ar": "ليس العانة قطيع الحمر ولا عانة الرجل",
+    "source_phrase_ar": "عانات موضع من ناحية الجزيرة تنسب إليه الخمر العانية (ayn); عانة قرية على الفرات تنسب إليها الخمر فيقال عانية (sihah)",
+    "sources": [
+      "AY",
+      "SI"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_001064",
+    "branch_id": "B008",
+    "branch_image_ar": "النسبة إلى عانة",
+    "what_is_ar": "عانة موضع أو قرية وينسب إليها بالخمر العانية",
+    "what_is_not_ar": "ليس العانة قطيع الحمر ولا عانة الرجل",
+    "source_phrase_ar": "عانات موضع من ناحية الجزيرة تنسب إليه الخمر العانية (ayn); عانة قرية على الفرات تنسب إليها الخمر فيقال عانية (sihah)",
+    "image_transliteration": "alnsbh ila 'anh",
+    "summary": "Dal, iki yakın yer adı biçimi ile bunlardan geldiği belirtilen şarap adlandırmasını birlikte kapsar. Kanıt, bir bölgenin yöresindeki yer ile bir ırmak üzerindeki köy anlatımının aynı coğrafi noktayı gösterdiğini kesinleştirmez.",
+    "concept_map": {
+      "definition": "Dal, iki yakın yer adı biçimi ile bunlardan geldiği belirtilen şarap adlandırmasını birlikte kapsar. Kanıt, bir bölgenin yöresindeki yer ile bir ırmak üzerindeki köy anlatımının aynı coğrafi noktayı gösterdiğini kesinleştirmez.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "İki yakın ad biçimi, biri bir bölgenin yöresindeki yer, diğeri bir ırmak üzerindeki köy olarak tanımlanan coğrafi göndergeleri adlandırır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "associated_use",
+          "statement": "Şarap, söz konusu yerden geldiği belirtilerek o yere bağlı bir nitelemeyle adlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "qualified",
+      "rationale": "Kaynak ifadesi iki yakın yer adı biçimini ve bu yere bağlanarak adlandırılan şarabı aynı dalda toplar. Ancak anlatımlardan biri yeri bir bölgenin yöresinde, diğeri bir ırmak üzerindeki köy olarak gösterdiğinden bunların aynı coğrafi nokta olduğu kanıttan kesinleşmez.",
+      "boundary_note": "Dal hem yer adını hem o yere bağlanan şarap adını kapsar; iki yer anlatımının özdeşliği kesin sayılmaz."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım yer adı birimlerini ve yalnızca şarapla kurulan köken bildiren yapıyı ayırır; şaraba özgü değer yalın yer adına genellenmez."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 1,
+        "lexical_unit": 2
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_025",
+        "expression_ar": "عانة",
+        "unit_kind": "lexical_unit",
+        "sense_ar": "موضع أو قرية على الفرات تنسب إليها الخمر",
+        "target_gloss": "şarabıyla ilişkilendirilen bir yer veya köy adı",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_026",
+        "expression_ar": "عانات",
+        "unit_kind": "lexical_unit",
+        "sense_ar": "اسم موضع يقال في عانة أو معها",
+        "target_gloss": "aynı yer adıyla ilişkili değişken ad biçimi",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_027",
+        "expression_ar": "الخمر العانية",
+        "unit_kind": "collocation",
+        "sense_ar": "الخمر المنسوبة إلى عانة",
+        "target_gloss": "söz konusu yerden geldiği belirtilen şarap",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Toplu kanıt yakın biçimli bir yer adını ve o yere bağlanan şarap nitelemesini ortaklaştırır; yerin bir bölge yöresi mi yoksa bir ırmak kıyısındaki köy mü olduğu anlatımlar arasında kesinleşmez.",
+      "evidence_refs": [
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 2,
+      "passage_count": 2,
+      "sources": [
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Dal, iki yakın yer adı biçimi ile bunlardan geldiği belirtilen şarap adlandırmasını birlikte kapsar. Kanıt, bir bölgenin yöresindeki yer ile bir ırmak üzerindeki köy anlatımının aynı coğrafi noktayı gösterdiğini kesinleştirmez.",
+      "concept": {
+        "rank": 1,
+        "text": "bir yer adı ve o yere bağlanan şarap adı",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Yer göndergesini ve şarabın o yerden geldiğini bildiren bağlı adlandırmayı birlikte veren açıklayıcı karşılıktır.",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yer adı ile o yere bağlanan şarap nitelemesinin ikisini de korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "o yöreden gelen şarap",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Şarabın söz konusu coğrafi yerle köken ilişkisi içinde anıldığı bağlamda kullanılır.",
+          "facet_ids": [
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Şarap ile belirtilen yer arasındaki köken ilişkisini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "yerel şarap",
+          "category": "alternative",
+          "exclusion_reason": "Herhangi bir yerde üretilen bütün yerel şarapları kapsama ekler. Belirli yer adına bağlı olmayan genel bölgesel şaraplarla karışır.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Şarap ile bir yer arasındaki bağlantıyı genel olarak korur.",
+            "loses": null,
+            "adds": "Herhangi bir yerde üretilen bütün yerel şarapları kapsama ekler.",
+            "collision": "Belirli yer adına bağlı olmayan genel bölgesel şaraplarla karışır."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000422",
+        "neighbor_branch_id": "B004",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal belirli bir yer adı ile o yere bağlanan şarap adını kapsar.",
+        "neighbor_only": "Komşu dal başka bir bölge veya yöre adı ile o yere bağlanan mızrakları kapsar.",
+        "expression_transliteration": "kht almwd' wnsbth",
+        "gloss": "yer adı ve oraya bağlanan mızrak",
+        "shared_zone": "İki dalda da bir coğrafi ad ve o coğrafyaya köken yoluyla bağlanan ürün bulunur.",
+        "distinction": "İlişki düzeni benzer olsa da coğrafi gönderge ve bağlı ürün farklıdır; odak dal şarapla, komşu dal mızrakla sınırlıdır.",
+        "expression_ar": "خط الموضع ونسبته",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:874",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2495:headword=%D8%AE%D8%B7:root=%D8%AE%20%D8%B7:sha=7724e66e9f693110",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A424:headword=%D8%AE%D8%B7:root=%D8%AE%20%D8%B7:sha=8c878a25b097c458",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A2740:headword=%D8%AE%D8%B7%D8%B7:root=%D8%AE%20%D8%B7%20%D8%B7:sha=e35d64905f708c9d",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D338%3Bsegment_index%3D4:headword=%D8%AE%D8%B7:root=%D8%AE%20%D8%B7:sha=d6123725b20d536f"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001238",
+        "neighbor_branch_id": "B013",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yakın biçimli iki yer adı anlatımıyla ve şarap nitelemesiyle sınırlıdır.",
+        "neighbor_only": "Komşu dal başka bir yere bağlanan kumaş, binek hayvanı ve deve kuşu adlarını kapsar.",
+        "expression_transliteration": "alnsbh ila qtr",
+        "gloss": "yer kökenli ürün ve hayvan adları",
+        "shared_zone": "Her iki dal bir yer adından hareketle nesne veya ürünün coğrafi kökenini bildirir.",
+        "distinction": "Odak dalın bağlı ürünü şaraptır ve yer anlatımı belirsizlik taşır; komşu dal başka bir yer ile birden çok ürün ve hayvan türünü kapsar.",
+        "expression_ar": "النسبة إلى قطر",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1875:headword=%D9%82%D8%B7%D8%B1:root=%D9%82%20%D8%B7%20%D8%B1:sha=0acc495376af4453",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D466%3Bsegment_index%3D7:headword=%D9%82%D8%B7%D8%B1:root=%D9%82%20%D8%B7%20%D8%B1:sha=a1f172e82c439a5e"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000965",
+        "neighbor_branch_id": "B012",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal bir yer adı biçimlerini ve o yere bağlanan şarabı içerir.",
+        "neighbor_only": "Komşu dal başka bir şehir adını ve o şehre bağlanan taş ya da güzel kokulu odun adlarını içerir.",
+        "expression_transliteration": "zfar asm mwd'",
+        "gloss": "şehir adı ve oraya bağlanan ürünler",
+        "shared_zone": "İki dal coğrafi ad ile o coğrafyadan geldiği belirtilen ürün adlarını birlikte taşır.",
+        "distinction": "Yapısal benzerliğe karşın yerler ve ürün türleri ayrıdır; odak dal şarap, komşu dal taş ve odunla ilişkilidir.",
+        "expression_ar": "ظَفار اسم موضع",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2268",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1798:headword=%D8%B8%D9%81%D8%B1:root=%D8%B8%20%D9%81%20%D8%B1:sha=dd301147cdd02547",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D748%3Bsegment_index%3D5:headword=%D8%B8%D9%81%D8%B1:root=%D8%B8%20%D9%81%20%D8%B1:sha=39dd082eb0fa6baa"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; yer adı ile ürünü ilişkilendiren mızrak, kumaş ve şehir ürünü dalları en yararlı karşılaştırmalardır, kalanlar yalnızca yer adı taşır veya farklı bir coğrafi adlandırma yapısı gösterir."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_001064/B008",
+    "concept_gloss": {
+      "text": "yer adı ve ona bağlı şarap adı",
+      "facet_ids": [
+        "F001",
+        "F002"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "şarapla ilişkilendirilen yer adı",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_025",
+          "lu_026"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "o yerden geldiği belirtilen şarap",
+        "facet_ids": [
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_027"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_025": {
+        "text": "şarabıyla ilişkilendirilen yer veya köy adı",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_026": {
+        "text": "aynı yer adına bağlı değişken ad biçimi",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss değişken yer adı biçimini verir; şarapla kurulan köken nitelemesini açıkça taşımaz."
+        }
+      },
+      "lu_027": {
+        "text": "o yerden geldiği belirtilen şarap",
+        "facet_ids": [
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss şarap nitelemesini verir; yer adının kendi coğrafi göndergesini gloss olarak vermez."
+        }
+      }
+    }
+  }
+}

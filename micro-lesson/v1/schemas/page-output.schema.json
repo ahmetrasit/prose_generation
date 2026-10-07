@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Assembled page 1.1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.1"
+    },
+    "page_id": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "paragraph_id": {
+            "type": "string"
+          },
+          "lessons": {
+            "type": "array",
+            "items": {
+              "allOf": [
+                {
+                  "$ref": "lesson.schema.json"
+                },
+                {
+                  "required": [
+                    "id",
+                    "engine",
+                    "rank"
+                  ]
+                }
+              ]
+            }
+          },
+          "deferred": {
+            "type": "array",
+            "items": {
+              "allOf": [
+                {
+                  "$ref": "lesson.schema.json#/$defs/deferred"
+                },
+                {
+                  "required": [
+                    "engine"
+                  ]
+                }
+              ]
+            }
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "paragraph_id",
+          "lessons",
+          "deferred"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ontology_version": {
+      "type": "string"
+    },
+    "completed_engines": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "grammar",
+          "semantics",
+          "mapping"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "page_id",
+    "paragraphs",
+    "ontology_version",
+    "completed_engines"
+  ],
+  "additionalProperties": false
+}

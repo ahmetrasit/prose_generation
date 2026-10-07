@@ -1,0 +1,517 @@
+{
+  "schema_version": "1.1",
+  "ontology_version": "1.1.0",
+  "page_id": "example-1-6",
+  "completed_engines": [
+    "grammar",
+    "semantics",
+    "mapping"
+  ],
+  "paragraphs": [
+    {
+      "paragraph_id": "p09",
+      "lessons": [
+        {
+          "key": "ihdina-bizi",
+          "concepts": [
+            {
+              "id": "ML:C079",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C009",
+              "role": "teaches"
+            }
+          ],
+          "level": 0,
+          "sentences_tr": [
+            "İhdinâ sözünün sonundaki -nâ, burada “bizi” anlamını taşır; yardım istenen kişiyle yardım isteyenleri ayırır."
+          ],
+          "anchors": [
+            {
+              "source_ref": "Quran:1:6",
+              "arabic": "ٱهْدِنَا",
+              "reading_tr": "ihdinâ",
+              "word_ref": "1:6:1"
+            }
+          ],
+          "evidence_refs": [
+            "QAC:1:6:1:1",
+            "QAC:1:6:1:2",
+            "Construction:1:6"
+          ],
+          "reminder_ids": [],
+          "id": "example-1-6:p09:grammar:ihdina-bizi",
+          "engine": "grammar",
+          "rank": 1
+        },
+        {
+          "key": "emir-bicimi-dua",
+          "concepts": [
+            {
+              "id": "ML:C091",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C013",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C278",
+              "role": "teaches"
+            }
+          ],
+          "level": 1,
+          "sentences_tr": [
+            "İhdinâ biçimce muhataba yönelen bir emirdir; bu ayette dua işlevi görür. “Bizi ilet” karşılığını okurken bunun bir yakarış olduğunu da göz önünde tutarız."
+          ],
+          "anchors": [
+            {
+              "source_ref": "Quran:1:6",
+              "arabic": "ٱهْدِنَا",
+              "reading_tr": "ihdinâ",
+              "word_ref": "1:6:1"
+            }
+          ],
+          "evidence_refs": [
+            "QAC:1:6:1:1",
+            "Construction:1:6"
+          ],
+          "reminder_ids": [],
+          "id": "example-1-6:p09:grammar:emir-bicimi-dua",
+          "engine": "grammar",
+          "merged_from": [
+            "example-1-6:p09:mapping:dua-islevi-turkce"
+          ],
+          "rank": 2
+        },
+        {
+          "key": "emirde-gizli-sen",
+          "concepts": [
+            {
+              "id": "ML:C082",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C091",
+              "role": "reinforces"
+            }
+          ],
+          "level": 1,
+          "sentences_tr": [
+            "İhdi fiilindeki emir biçimi, yönelinen kişinin “sen” olduğunu zaten gösterir. Bu yüzden “sen” anlamı için ayrıca bir zamir söylenmesi gerekmez."
+          ],
+          "anchors": [
+            {
+              "source_ref": "Quran:1:6",
+              "arabic": "ٱهْدِنَا",
+              "reading_tr": "ihdinâ",
+              "word_ref": "1:6:1"
+            }
+          ],
+          "evidence_refs": [
+            "QAC:1:6:1:1",
+            "Construction:1:6"
+          ],
+          "reminder_ids": [],
+          "id": "example-1-6:p09:grammar:emirde-gizli-sen",
+          "engine": "grammar",
+          "rank": 3
+        },
+        {
+          "key": "bizden-bize",
+          "concepts": [
+            {
+              "id": "ML:C092",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C079",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C009",
+              "role": "reinforces"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "Naʿbüdü ile nestaʿînin başındaki n-, işi yapan “biz”i gösterir; ihdinâ sonundaki -nâ ise işin yöneldiği “bizi” gösterir."
+          ],
+          "anchors": [
+            {
+              "source_ref": "Quran:1:5",
+              "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+              "reading_tr": "iyyâke naʿbüdü ve iyyâke nestaʿîn"
+            },
+            {
+              "source_ref": "Quran:1:6",
+              "arabic": "ٱهْدِنَا",
+              "reading_tr": "ihdinâ",
+              "word_ref": "1:6:1"
+            }
+          ],
+          "evidence_refs": [
+            "QAC:1:5:2:1",
+            "QAC:1:5:4:1",
+            "QAC:1:6:1:2",
+            "Construction:1:6"
+          ],
+          "reminder_ids": [],
+          "id": "example-1-6:p09:grammar:bizden-bize",
+          "engine": "grammar",
+          "rank": 4
+        },
+        {
+          "key": "ortak-n-farkli-kok",
+          "concepts": [
+            {
+              "id": "ML:C016",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C024",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C092",
+              "role": "reinforces"
+            }
+          ],
+          "level": 1,
+          "sentences_tr": [
+            "Naʿbüdü ile nestaʿîn aynı n- sesiyle başlasa da kökleri farklıdır. Bu ortak başlangıç, bu iki çekimde “biz” kişisini gösterir; kelime akrabalığını kanıtlamaz."
+          ],
+          "anchors": [
+            {
+              "source_ref": "Quran:1:5",
+              "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+              "reading_tr": "iyyâke naʿbüdü ve iyyâke nestaʿîn"
+            }
+          ],
+          "evidence_refs": [
+            "QAC:1:5:2:1",
+            "QAC:1:5:4:1",
+            "Construction:1:6"
+          ],
+          "reminder_ids": [],
+          "id": "example-1-6:p09:semantics:ortak-n-farkli-kok",
+          "engine": "semantics",
+          "rank": 5
+        },
+        {
+          "key": "iyyake-onde",
+          "concepts": [
+            {
+              "id": "ML:C077",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C219",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "İyyâke, iki fiilin de önünde ayrı ayrı söylenen nesne zamiridir. Her tekrarda, ardından gelen eylemin kime yöneldiği yeniden öne çıkarılır."
+          ],
+          "anchors": [
+            {
+              "source_ref": "Quran:1:5",
+              "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+              "reading_tr": "iyyâke naʿbüdü ve iyyâke nestaʿîn"
+            }
+          ],
+          "evidence_refs": [
+            "QAC:1:5:1:1",
+            "QAC:1:5:3:2",
+            "Construction:1:5"
+          ],
+          "reminder_ids": [],
+          "id": "example-1-6:p09:grammar:iyyake-onde",
+          "engine": "grammar",
+          "rank": 6
+        }
+      ],
+      "deferred": []
+    },
+    {
+      "paragraph_id": "p12",
+      "lessons": [
+        {
+          "key": "yol-ve-duz-yol",
+          "concepts": [
+            {
+              "id": "ML:C247",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C255",
+              "role": "teaches"
+            }
+          ],
+          "level": 1,
+          "sentences_tr": [
+            "Sözlük bu dalda “yol” anlamını temel alır, “düz yol” yönünü de özellikle belirtir. Bu yüzden düzlük, kelimenin her kullanımına zorunlu olarak yüklenmemelidir."
+          ],
+          "anchors": [
+            {
+              "source_ref": "Quran:1:6",
+              "arabic": "ٱلصِّرَٰطَ",
+              "reading_tr": "es-sırâta",
+              "word_ref": "1:6:2",
+              "reading_note_tr": "Bu örnekte sonraki sıfata bağlanarak okunur."
+            }
+          ],
+          "evidence_refs": [
+            "Dictionary:root_000858/B001#identity_judgment",
+            "Dictionary:root_000858/B001#concept_map"
+          ],
+          "reminder_ids": [],
+          "branch_refs": [
+            "root_000858/B001"
+          ],
+          "id": "example-1-6:p12:semantics:yol-ve-duz-yol",
+          "engine": "semantics",
+          "rank": 1,
+          "rank_reason": "Paragrafın merkezindeki yol anlamını, biçim ayrıntılarından önce açıklar."
+        },
+        {
+          "key": "kavram-ve-kisa-karsilik",
+          "concepts": [
+            {
+              "id": "ML:C260",
+              "role": "teaches"
+            }
+          ],
+          "level": 1,
+          "sentences_tr": [
+            "Sözlükteki “yol, özellikle düz yol” açıklaması dalın kapsamını gösterir. Ayetteki kısa Türkçe karşılık, bu açıklamanın bütün parçalarını her seferinde tekrarlamak zorunda değildir."
+          ],
+          "anchors": [
+            {
+              "source_ref": "Quran:1:6",
+              "arabic": "ٱلصِّرَٰطَ",
+              "reading_tr": "es-sırâta",
+              "word_ref": "1:6:2",
+              "reading_note_tr": "Bu örnekte sonraki sıfata bağlanarak okunur."
+            }
+          ],
+          "evidence_refs": [
+            "Dictionary:root_000858/B001#concept_gloss",
+            "Dictionary:root_000858/B001#contextual_glosses"
+          ],
+          "reminder_ids": [],
+          "branch_refs": [
+            "root_000858/B001"
+          ],
+          "id": "example-1-6:p12:mapping:kavram-ve-kisa-karsilik",
+          "engine": "mapping",
+          "rank": 2
+        },
+        {
+          "key": "el-es-okunusu",
+          "concepts": [
+            {
+              "id": "ML:C044",
+              "role": "teaches"
+            }
+          ],
+          "level": 1,
+          "sentences_tr": [
+            "Es-sırât diye okunan kelimenin başında yazılı olarak el- bulunur; l sesi sonraki s sesine katıldığı için ayrı duyulmaz."
+          ],
+          "anchors": [
+            {
+              "source_ref": "Quran:1:6",
+              "arabic": "ٱلصِّرَٰطَ",
+              "reading_tr": "es-sırâta",
+              "word_ref": "1:6:2",
+              "reading_note_tr": "Bu örnekte sonraki sıfata bağlanarak okunur."
+            }
+          ],
+          "evidence_refs": [
+            "QAC:1:6:2:1",
+            "Reading:1:6:article"
+          ],
+          "reminder_ids": [],
+          "id": "example-1-6:p12:grammar:el-es-okunusu",
+          "engine": "grammar",
+          "rank": 3
+        },
+        {
+          "key": "soyleyis-ve-anlam",
+          "concepts": [
+            {
+              "id": "ML:C298",
+              "role": "teaches"
+            }
+          ],
+          "level": 1,
+          "sentences_tr": [
+            "Sözlük, sırât, sirât ve zırât söyleyişlerini aynı yol anlamı altında kaydeder. Ses farkı tek başına her birine ayrı bir anlam vermeyi gerektirmez."
+          ],
+          "anchors": [
+            {
+              "source_ref": "Quran:1:6",
+              "arabic": "ٱلصِّرَٰطَ",
+              "reading_tr": "es-sırâta",
+              "word_ref": "1:6:2",
+              "reading_note_tr": "Bu örnekte sonraki sıfata bağlanarak okunur."
+            }
+          ],
+          "evidence_refs": [
+            "Dictionary:root_000858/B001#what_is_ar",
+            "Dictionary:root_000858/B001#source_phrase_ar"
+          ],
+          "reminder_ids": [],
+          "branch_refs": [
+            "root_000858/B001"
+          ],
+          "id": "example-1-6:p12:semantics:soyleyis-ve-anlam",
+          "engine": "semantics",
+          "rank": 4
+        },
+        {
+          "key": "yolun-sifati",
+          "concepts": [
+            {
+              "id": "ML:C010",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C035",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "El-müstakîm, es-sırât kelimesini niteler; ikisindeki belirlilik ve nasb uyumu, hangi kelimelerin birlikte okunacağını görmeye yardım eder."
+          ],
+          "anchors": [
+            {
+              "source_ref": "Quran:1:6",
+              "arabic": "ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+              "reading_tr": "es-sırâta l-müstakîme",
+              "word_ref": "1:6:2–3",
+              "reading_note_tr": "Sıfatla bağlantılı okunuş; sonundaki duruş biçimi ayrı gösterilebilir."
+            }
+          ],
+          "evidence_refs": [
+            "QAC:1:6:2:1",
+            "QAC:1:6:2:2",
+            "QAC:1:6:3:1",
+            "QAC:1:6:3:2",
+            "Attachment:1:6:2-3"
+          ],
+          "reminder_ids": [
+            "ML:R007:helped_by",
+            "ML:R005:helped_by"
+          ],
+          "id": "example-1-6:p12:grammar:yolun-sifati",
+          "engine": "grammar",
+          "rank": 5
+        },
+        {
+          "key": "yol-karsiliginin-siniri",
+          "concepts": [
+            {
+              "id": "ML:C262",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C267",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C010",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "“Yol” karşılığı düzlük yönünü tek başına açık etmez; bu ayette el-müstakîm sıfatı o niteliği ayrıca görünür kılar. Bu yüzden sözlüğün kayıp notu, “yol” karşılığını burada kendiliğinden yanlış yapmaz."
+          ],
+          "anchors": [
+            {
+              "source_ref": "Quran:1:6",
+              "arabic": "ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+              "reading_tr": "es-sırâta l-müstakîme",
+              "word_ref": "1:6:2–3",
+              "reading_note_tr": "Sıfatla bağlantılı okunuş; sonundaki duruş biçimi ayrı gösterilebilir."
+            }
+          ],
+          "evidence_refs": [
+            "Dictionary:root_000858/B001#contextual_glosses[0].error_profile",
+            "Dictionary:root_000858/B001#concept_map",
+            "Attachment:1:6:2-3"
+          ],
+          "reminder_ids": [],
+          "branch_refs": [
+            "root_000858/B001"
+          ],
+          "id": "example-1-6:p12:mapping:yol-karsiliginin-siniri",
+          "engine": "mapping",
+          "rank": 6
+        },
+        {
+          "key": "siratin-son-sesi",
+          "concepts": [
+            {
+              "id": "ML:C034",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C068",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "Sırât kelimesi tek başına anılırken duyulmayan son -a, ayette sonraki sıfata bağlanınca duyulur. Burada ismin nasb durumunu gösteren bu sesi farklı bir kök sanmamak gerekir."
+          ],
+          "anchors": [
+            {
+              "source_ref": "Quran:1:6",
+              "arabic": "ٱلصِّرَٰطَ",
+              "reading_tr": "es-sırâta",
+              "word_ref": "1:6:2",
+              "reading_note_tr": "Bu örnekte sonraki sıfata bağlanarak okunur."
+            }
+          ],
+          "evidence_refs": [
+            "QAC:1:6:2:2",
+            "Reading:1:6:article"
+          ],
+          "reminder_ids": [],
+          "id": "example-1-6:p12:grammar:siratin-son-sesi",
+          "engine": "grammar",
+          "rank": 7
+        }
+      ],
+      "deferred": [
+        {
+          "opportunity": "Sırât/sirât/zırât farkını belirli bir kıraat üzerinden öğretmek.",
+          "blocker": "evidence",
+          "question": "1:6 için hangi okuyuş hangi kıraat/rivayet kaynağıyla belgeleniyor? Sözlükteki söyleyiş listesi bu atfın yerine geçmiyor.",
+          "anchors": [
+            {
+              "source_ref": "Quran:1:6",
+              "arabic": "ٱلصِّرَٰطَ",
+              "reading_tr": "es-sırâta",
+              "word_ref": "1:6:2",
+              "reading_note_tr": "Bu örnekte sonraki sıfata bağlanarak okunur."
+            }
+          ],
+          "evidence_refs": [
+            "Dictionary:root_000858/B001#source_phrase_ar"
+          ],
+          "engine": "grammar"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Complete worked pass for the two assigned excerpts only; authored editorial example, not an automated production run."
+  ]
+}

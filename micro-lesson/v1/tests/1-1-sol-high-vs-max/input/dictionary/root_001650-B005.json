@@ -1,0 +1,689 @@
+{
+  "root_ar": "و س م",
+  "branch_ref": "root_001650/B005",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_001650/tr/output/root_001650_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_001650.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_001650.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_001650/tr/output/root_001650_entry.json",
+      "entry_id": "root_001650/tr",
+      "status": "reviewed",
+      "review_verdict": "pass",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_001650/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Bu kök, fiziksel bir işaret koyma ve ortaya çıkan iz merkezinden; belirtiden kişilik veya durum sezme, toprağı bitkilendiren ilk yağmur, belirlenmiş toplu buluşma, kişide görünen güzellik ve yaprakları boya veren bir bitki anlamlarına açılan çok anlamlı bir yapı gösterir. Dalların çoğu belirgin iz veya belirlenmişlik düşüncesiyle ilişkilendirilebilirken bitki adı daha bağımsız bir adlandırma olarak durur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_001650/B005",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi kişide, özellikle yüzde görülen güzelliği, yerleşik hoş görünüşü ve güzelliğin kişi üzerindeki belirgin etkisini birlikte anlatır. Dal çerçevesi bu görünür güzellik çekirdeğini doğru biçimde korur.",
+      "boundary_note": "Dal, her türlü iyilik işaretini değil; kişide görünen güzelliği, hoş yüzü ve zarafet etkisini kapsar."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım kişideki görünür güzellik çekirdeğini verir; kadın için kurulan güzellik tamlaması ve güzellikte üstün gelme eylemi kendi sözlüksel sınırlarında tutulur."
+    },
+    "concept_map": {
+      "definition": "Bir kişinin, özellikle yüzünde, yerleşik ve belirgin bir güzellik, hoş görünüş veya zarafet taşımasıdır. Anlam, güzelliğin kişide bıraktığı görünür etkiyi ve bu etkiyle güzel sayılmayı da kapsar.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Kişide dışarıdan fark edilen güzellik ve hoş görünüş bulunur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "specialization",
+          "statement": "Güzellik özellikle yüzün güzelliği veya kişide yerleşmiş kalıcı bir hoşluk olarak ifade edilir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "extension",
+          "statement": "Güzellik ve zarafetin kişi üzerinde bıraktığı görünür etki de aynı anlam alanında adlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Ortak anlatım, kişide görülen güzelliği ve hoş yüzü temel alır; güzellik kimi ifadelerde kişide yerleşmiş bir nitelik, kimi ifadelerde ise onun üzerinde görülen güzellik ve zarafet etkisi olarak sunulur.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "kişide görünen yerleşik güzellik ve zarafet",
+      "applicability": "Kişinin özellikle yüzünde fark edilen, kalıcı nitelik taşıyan güzellik ve onun görünür etkisi birlikte kastedildiğinde uygundur.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Kişiye bağlı görünür güzelliği, hoş yüzü, yerleşik niteliği ve zarafet etkisini birlikte korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "yakışıklılık",
+        "usage_role": "contextual",
+        "applicability": "Özellikle bir erkeğin yüz güzelliği ve hoş görünüşü anlatıldığında doğal bir karşılıktır.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Kişide ve özellikle yüzde görülen güzellik ile hoş görünüşü korur.",
+          "loses": "Kadın için kullanılan biçimleri, genel zarafet etkisini ve güzelliğin yerleşikliği vurgusunu sınırlar.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      {
+        "text": "güzellik izi taşıyan",
+        "usage_role": "explanatory",
+        "applicability": "Güzelliğin kişi üzerinde bıraktığı fark edilir etki özellikle vurgulandığında kullanılır.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Güzelliğin kişide görünür bir etki olarak bulunması düşüncesini korur.",
+          "loses": "Yüz güzelliğini ve yerleşik hoşluk niteliğini tek başına tam belirtmez.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F003"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_017",
+        "rendering_kind": "ordinary",
+        "target_gloss": "güzellik; kişide görünen hoşluk"
+      },
+      {
+        "lexical_unit_id": "lu_018",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yüzü güzel ve hoş görünümlü"
+      },
+      {
+        "lexical_unit_id": "lu_019",
+        "rendering_kind": "ordinary",
+        "target_gloss": "güzel ve hoş görünümlü kadın"
+      },
+      {
+        "lexical_unit_id": "lu_020",
+        "rendering_kind": "ordinary",
+        "target_gloss": "üzerinde güzellik ve zarafet etkisi bulunan kadın"
+      },
+      {
+        "lexical_unit_id": "lu_021",
+        "rendering_kind": "ordinary",
+        "target_gloss": "kişide görünen güzellik ve hoşluk"
+      },
+      {
+        "lexical_unit_id": "lu_022",
+        "rendering_kind": "ordinary",
+        "target_gloss": "güzelleşmek ve hoş bir görünüş kazanmak"
+      },
+      {
+        "lexical_unit_id": "lu_023",
+        "rendering_kind": "ordinary",
+        "target_gloss": "birini güzellikte geçmek"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "iyilik",
+        "category": "confusable",
+        "error_profile": {
+          "fit": "displacement",
+          "preserves": "Olumlu bir nitelik bildirme yönünü çok genel biçimde korur.",
+          "loses": "Kişide dışarıdan görünen güzellik, hoş yüz ve zarafet etkisini siler.",
+          "adds": "Ahlaki doğruluk, yarar ve yardım anlamlarını ekler.",
+          "collision": "Ahlaki değer ve yarar alanlarıyla karışır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000615/B009",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Kişide, özellikle yüzde yerleşik güzelliği ve güzelliğin bıraktığı zarafet etkisini kapsar.",
+        "neighbor_only": "Genel görünüşü ve dolgun, canlı görünmenin güzelliğe benzetildiği kullanımı da kapsar.",
+        "gloss": "güzel ve canlı görünüş",
+        "shared_zone": "Her iki dalda da kişinin dışarıdan fark edilen hoş ve güzel görünüşü öne çıkar.",
+        "distinction": "Odak dal güzelliği kişide yerleşik bir nitelik ve görünür etki olarak kurar; komşu dal genel görünüşe ve canlı, dolgun görünme çağrışımına da açılır."
+      },
+      {
+        "neighbor_ref": "root_001226/B001",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Kişinin genel hoş görünüşünü, yerleşik güzelliğini ve zarafet etkisini kapsar.",
+        "neighbor_only": "Güzelliğin yüzdeki biçimli dağılımını ve yüz bölümlerinin uyumunu özellikle vurgular.",
+        "gloss": "yüz güzelliği ve biçim uyumu",
+        "shared_zone": "Her iki dal, kişinin özellikle yüzünde görülen güzelliği anlatabilir.",
+        "distinction": "Odak dal yüzü aşan genel ve yerleşik hoşluğu da kapsar; komşu dal güzelliğin yüzdeki biçimlenişine ve uyumuna daha sıkı bağlıdır."
+      },
+      {
+        "neighbor_ref": "root_001149/B003",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Kişideki güzellik izini, hoş yüzü ve yerleşik zarafeti anlatır.",
+        "neighbor_only": "İnsan yanında hayvanı da kapsar ve görünür güzelliğe genel kalite ile üstünlük değerini ekleyebilir.",
+        "gloss": "güzellik ve üstün görünür nitelik",
+        "shared_zone": "Her iki dalda bir varlığın dışarıdan fark edilen güzelliği ve hoş niteliği anlatılır.",
+        "distinction": "Odak dal kişide görünen güzellik ve zarafete bağlıdır; komşu dalın katılımcı alanı daha geniştir ve güzelliği genel kaliteyle birleştirebilir."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel güzel görünüş, yüz biçimi güzelliği ve güzellikle birleşen kalite anlamları odak dalın kişi, yüz ve yerleşik zarafet sınırlarını en iyi gösterdi.",
+    "branch_image_ar": "حسن عليه أثر الجمال",
+    "what_is_ar": "يدخل فيه الوسامة، والوسيم والوسيمة، وذات ميسم، أي الحسن أو أثر الجمال والعتق الظاهر على الشخص.",
+    "what_is_not_ar": "لا يدخل فيه الميسم بمعنى المكواة إلا باشتراك اللفظ، ولا علامة الخير والشر إلا إذا كان المقصود أثر الجمال.",
+    "source_phrase_ar": "فلانة ذات ميسم إذا كان عليها أثر الجمال، والوسامة الجمال (maqayis)؛ ذات ميسم وجمال وميسمها أثر الجمال فيها وهي وسيمة (ayn)؛ الميسم الجمال، وفلان وسيم أي حسن الوجه، ووسم الرجل وسامة ووساما (sihah)؛ فلانة لذات ميسم وميسمها أثر الجمال والعتق، والوسامة والميسم الحسن، والوسيم الثابت الحسن (tahdhib)",
+    "sources": [
+      "MQ",
+      "AY",
+      "SI",
+      "TA"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_001650",
+    "branch_id": "B005",
+    "branch_image_ar": "حسن عليه أثر الجمال",
+    "what_is_ar": "يدخل فيه الوسامة، والوسيم والوسيمة، وذات ميسم، أي الحسن أو أثر الجمال والعتق الظاهر على الشخص.",
+    "what_is_not_ar": "لا يدخل فيه الميسم بمعنى المكواة إلا باشتراك اللفظ، ولا علامة الخير والشر إلا إذا كان المقصود أثر الجمال.",
+    "source_phrase_ar": "فلانة ذات ميسم إذا كان عليها أثر الجمال، والوسامة الجمال (maqayis)؛ ذات ميسم وجمال وميسمها أثر الجمال فيها وهي وسيمة (ayn)؛ الميسم الجمال، وفلان وسيم أي حسن الوجه، ووسم الرجل وسامة ووساما (sihah)؛ فلانة لذات ميسم وميسمها أثر الجمال والعتق، والوسامة والميسم الحسن، والوسيم الثابت الحسن (tahdhib)",
+    "image_transliteration": "hsn 'lyh athr aljmal",
+    "summary": "Bir kişinin, özellikle yüzünde, yerleşik ve belirgin bir güzellik, hoş görünüş veya zarafet taşımasıdır. Anlam, güzelliğin kişide bıraktığı görünür etkiyi ve bu etkiyle güzel sayılmayı da kapsar.",
+    "concept_map": {
+      "definition": "Bir kişinin, özellikle yüzünde, yerleşik ve belirgin bir güzellik, hoş görünüş veya zarafet taşımasıdır. Anlam, güzelliğin kişide bıraktığı görünür etkiyi ve bu etkiyle güzel sayılmayı da kapsar.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Kişide dışarıdan fark edilen güzellik ve hoş görünüş bulunur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "specialization",
+          "statement": "Güzellik özellikle yüzün güzelliği veya kişide yerleşmiş kalıcı bir hoşluk olarak ifade edilir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "extension",
+          "statement": "Güzellik ve zarafetin kişi üzerinde bıraktığı görünür etki de aynı anlam alanında adlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi kişide, özellikle yüzde görülen güzelliği, yerleşik hoş görünüşü ve güzelliğin kişi üzerindeki belirgin etkisini birlikte anlatır. Dal çerçevesi bu görünür güzellik çekirdeğini doğru biçimde korur.",
+      "boundary_note": "Dal, her türlü iyilik işaretini değil; kişide görünen güzelliği, hoş yüzü ve zarafet etkisini kapsar."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım kişideki görünür güzellik çekirdeğini verir; kadın için kurulan güzellik tamlaması ve güzellikte üstün gelme eylemi kendi sözlüksel sınırlarında tutulur."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 1,
+        "form": 5,
+        "lexical_unit": 1
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_017",
+        "expression_ar": "الوَسامَة",
+        "unit_kind": "form",
+        "sense_ar": "الجمال أو الحسن الظاهر على الشخص",
+        "target_gloss": "güzellik; kişide görünen hoşluk",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_018",
+        "expression_ar": "وَسيم",
+        "unit_kind": "form",
+        "sense_ar": "حسن الوجه أو ثابت الحسن",
+        "target_gloss": "yüzü güzel ve hoş görünümlü",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_019",
+        "expression_ar": "وَسيمة",
+        "unit_kind": "form",
+        "sense_ar": "حسنة يظهر فيها أثر الجمال",
+        "target_gloss": "güzel ve hoş görünümlü kadın",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_020",
+        "expression_ar": "ذات مِيسَم",
+        "unit_kind": "collocation",
+        "sense_ar": "عليها أثر الجمال والعتق",
+        "target_gloss": "üzerinde güzellik ve zarafet etkisi bulunan kadın",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_021",
+        "expression_ar": "المِيسَم",
+        "unit_kind": "form",
+        "sense_ar": "الجمال أو الحسن الظاهر في الشخص",
+        "target_gloss": "kişide görünen güzellik ve hoşluk",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_022",
+        "expression_ar": "وَسُم الرجل",
+        "unit_kind": "form",
+        "sense_ar": "صار ذا وسامة وحسن",
+        "target_gloss": "güzelleşmek ve hoş bir görünüş kazanmak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_023",
+        "expression_ar": "واسَم فلانا فوسمه",
+        "unit_kind": "lexical_unit",
+        "sense_ar": "غلبه بالحسن",
+        "target_gloss": "birini güzellikte geçmek",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Ortak anlatım, kişide görülen güzelliği ve hoş yüzü temel alır; güzellik kimi ifadelerde kişide yerleşmiş bir nitelik, kimi ifadelerde ise onun üzerinde görülen güzellik ve zarafet etkisi olarak sunulur.",
+      "evidence_refs": [
+        "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002",
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 4,
+      "passage_count": 4,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:4002"
+          ]
+        },
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5015:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=6962e32216e0f367"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4749:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=d377e45434bebf33"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D4:headword=%D9%88%D8%B3%D9%85:root=%D9%88%20%D8%B3%20%D9%85:sha=837229ce5e73e7cf"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Bir kişinin, özellikle yüzünde, yerleşik ve belirgin bir güzellik, hoş görünüş veya zarafet taşımasıdır. Anlam, güzelliğin kişide bıraktığı görünür etkiyi ve bu etkiyle güzel sayılmayı da kapsar.",
+      "concept": {
+        "rank": 1,
+        "text": "kişide görünen yerleşik güzellik ve zarafet",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Kişinin özellikle yüzünde fark edilen, kalıcı nitelik taşıyan güzellik ve onun görünür etkisi birlikte kastedildiğinde uygundur.",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kişiye bağlı görünür güzelliği, hoş yüzü, yerleşik niteliği ve zarafet etkisini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "yakışıklılık",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Özellikle bir erkeğin yüz güzelliği ve hoş görünüşü anlatıldığında doğal bir karşılıktır.",
+          "facet_ids": [
+            "F001",
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kişide ve özellikle yüzde görülen güzellik ile hoş görünüşü korur.",
+            "loses": "Kadın için kullanılan biçimleri, genel zarafet etkisini ve güzelliğin yerleşikliği vurgusunu sınırlar.",
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "güzellik izi taşıyan",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "Güzelliğin kişi üzerinde bıraktığı fark edilir etki özellikle vurgulandığında kullanılır.",
+          "facet_ids": [
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Güzelliğin kişide görünür bir etki olarak bulunması düşüncesini korur.",
+            "loses": "Yüz güzelliğini ve yerleşik hoşluk niteliğini tek başına tam belirtmez.",
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "iyilik",
+          "category": "confusable",
+          "exclusion_reason": "Kişide dışarıdan görünen güzellik, hoş yüz ve zarafet etkisini siler. Ahlaki doğruluk, yarar ve yardım anlamlarını ekler. Ahlaki değer ve yarar alanlarıyla karışır.",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Olumlu bir nitelik bildirme yönünü çok genel biçimde korur.",
+            "loses": "Kişide dışarıdan görünen güzellik, hoş yüz ve zarafet etkisini siler.",
+            "adds": "Ahlaki doğruluk, yarar ve yardım anlamlarını ekler.",
+            "collision": "Ahlaki değer ve yarar alanlarıyla karışır."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000615",
+        "neighbor_branch_id": "B009",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Kişide, özellikle yüzde yerleşik güzelliği ve güzelliğin bıraktığı zarafet etkisini kapsar.",
+        "neighbor_only": "Genel görünüşü ve dolgun, canlı görünmenin güzelliğe benzetildiği kullanımı da kapsar.",
+        "expression_transliteration": "alrwa' mnzr whsn",
+        "gloss": "güzel ve canlı görünüş",
+        "shared_zone": "Her iki dalda da kişinin dışarıdan fark edilen hoş ve güzel görünüşü öne çıkar.",
+        "distinction": "Odak dal güzelliği kişide yerleşik bir nitelik ve görünür etki olarak kurar; komşu dal genel görünüşe ve canlı, dolgun görünme çağrışımına da açılır.",
+        "expression_ar": "الرُّوَاء منظر وحسن",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A619:headword=%D8%B1%D9%88%D9%89:root=%D8%B1%20%D9%88%20%D9%8A:sha=ab25cd98f25c926f",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5350:headword=%D8%B1%D9%88%D9%89:root=%D8%B1%20%D9%88%20%D9%8A:sha=4f373d5846b5939d"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001226",
+        "neighbor_branch_id": "B001",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Kişinin genel hoş görünüşünü, yerleşik güzelliğini ve zarafet etkisini kapsar.",
+        "neighbor_only": "Güzelliğin yüzdeki biçimli dağılımını ve yüz bölümlerinin uyumunu özellikle vurgular.",
+        "expression_transliteration": "hsn mwz' fy alwjh",
+        "gloss": "yüz güzelliği ve biçim uyumu",
+        "shared_zone": "Her iki dal, kişinin özellikle yüzünde görülen güzelliği anlatabilir.",
+        "distinction": "Odak dal yüzü aşan genel ve yerleşik hoşluğu da kapsar; komşu dal güzelliğin yüzdeki biçimlenişine ve uyumuna daha sıkı bağlıdır.",
+        "expression_ar": "حسن موزع في الوجه",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2928",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A3192:headword=%D9%82%D8%B3%D9%85:root=%D9%82%20%D8%B3%20%D9%85:sha=045b4decbcb4819d",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1216:headword=%D9%82%D8%B3%D9%85:root=%D9%82%20%D8%B3%20%D9%85:sha=851c445487e22ba0",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4670:headword=%D9%82%D8%B3%D9%85:root=%D9%82%20%D8%B3%20%D9%85:sha=345f70786ff8e75d",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D464%3Bsegment_index%3D45:headword=%D9%82%D8%B3%D9%85:root=%D9%82%20%D8%B3%20%D9%85:sha=8ddfd935248d7ecb"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001149",
+        "neighbor_branch_id": "B003",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Kişideki güzellik izini, hoş yüzü ve yerleşik zarafeti anlatır.",
+        "neighbor_only": "İnsan yanında hayvanı da kapsar ve görünür güzelliğe genel kalite ile üstünlük değerini ekleyebilir.",
+        "expression_transliteration": "hsn alfrahh wjwdtha",
+        "gloss": "güzellik ve üstün görünür nitelik",
+        "shared_zone": "Her iki dalda bir varlığın dışarıdan fark edilen güzelliği ve hoş niteliği anlatılır.",
+        "distinction": "Odak dal kişide görünen güzellik ve zarafete bağlıdır; komşu dalın katılımcı alanı daha geniştir ve güzelliği genel kaliteyle birleştirebilir.",
+        "expression_ar": "حسن الفَراهة وجودتها",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2749",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2168:headword=%D9%81%D8%B1%D9%87:root=%D9%81%20%D8%B1%20%D9%87:sha=5a52d5f1282cb0ed",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5158:headword=%D9%81%D8%B1%D9%87:root=%D9%81%20%D8%B1%20%D9%87:sha=a00be076ec5b1a34",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D295%3Bsegment_index%3D234:headword=%D9%81%D8%B1%D9%87:root=%D9%81%20%D8%B1%20%D9%87:sha=86f02f538ce3bd64"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 13,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; genel güzel görünüş, yüz biçimi güzelliği ve güzellikle birleşen kalite anlamları odak dalın kişi, yüz ve yerleşik zarafet sınırlarını en iyi gösterdi."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_001650/B005",
+    "concept_gloss": {
+      "text": "yüzde veya kişide belirgin güzellik ve zarafet",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [],
+    "lexical_glosses": {
+      "lu_017": {
+        "text": "güzellik; kişide görünen hoşluk",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_018": {
+        "text": "yüzü güzel ve hoş görünümlü",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_019": {
+        "text": "güzel ve hoş görünümlü kadın",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_020": {
+        "text": "üzerinde güzellik ve zarafet etkisi bulunan kadın",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_021": {
+        "text": "kişide görünen güzellik ve hoşluk",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_022": {
+        "text": "güzelleşmek ve hoş bir görünüş kazanmak",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_023": {
+        "text": "birini güzellikte geçmek",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    }
+  }
+}

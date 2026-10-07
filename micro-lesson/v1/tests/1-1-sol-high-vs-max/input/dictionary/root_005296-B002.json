@@ -1,0 +1,136 @@
+{
+  "root_ar": "و ل ه",
+  "branch_ref": "root_005296/B002",
+  "source_status": {
+    "upstream_entry": "../quran-data/data/dictionary/tr/root_005296_entry.json",
+    "finalized_entry": null,
+    "reviewed_gloss_file": null,
+    "gloss_status": null,
+    "source_entry_review": null,
+    "review_response_locator": null
+  },
+  "root_profile": {
+    "summary": "Bu kökün anlam alanı üç dala ayrılır: güçlü duyguyla aklın karışması ve özlem, anne ile yavruyu ayırarak annede bu durumu doğurma ve açık araziye salınan suyun akıp kaybolması. Dallar, düzenin bozulması veya bir şeyin yerinden uzaklaşıp yitmesi gibi genel bir bağ taşısa da katılımcıları ve olay türleri açıkça ayrıdır.",
+    "polysemy": "polysemic",
+    "organization": "multi_branch"
+  },
+  "branch": {
+    "branch_ref": "root_005296/B002",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak sözü, anne ile çocuğunu birbirinden ayırma eylemini açıkça dalın çekirdeği yapar ve bu ayrılığı satış ile tutsaklar bağlamında örnekler. Ayrılan annenin ağır özleme düşmesi eylemin sonucu olarak korunur.",
+      "boundary_note": "Bu dal genel özlem ya da şaşkınlık durumunu değil, anne ile yavruyu ayırıp anneyi özleme düşüren geçişli eylemi anlatır."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "unresolved",
+      "note": "Veri, anlamın yalın bir sözlük birimine mi yoksa belirli bir yapıya mı bağlı olduğunu kesinleştirmediği için tanım yalnızca kaynakta verilen geçişli ayırma eylemiyle sınırlıdır."
+    },
+    "concept_map": {
+      "definition": "Bir anneyi yavrusundan ayırarak onu ağır özleme ve duygusal sarsıntıya düşürmektir. Satışta ya da tutsakların paylaşılmasında yapılan ayrılık, bu eylemin özellikle belirtilen uygulamalarıdır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir kişi, anne ile yavrusunu birbirinden ayıran geçişli bir eylemde bulunur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Ayrılık, annenin yavrusuna karşı ağır özlem ve duygusal sarsıntı yaşamasına yol açar.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "example",
+          "statement": "Satışta veya tutsakların paylaşılmasında anne ile yavrunun ayrılması bu eylemin özellikle belirtilen uygulamasıdır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynakların ortak anlatımı, anne ile yavruyu ayıran kişinin anneyi ağır özleme düşürdüğünü belirtir. Satış ve tutsakların paylaşılması, bu geçişli eylemin öne çıkan bağlamlarıdır; yavrusundan ayrılan her dişi için sonuçtaki özlem durumu ayrıca belirtilir.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "anneyi yavrusundan ayırıp özleme düşürme",
+      "applicability": "Geçişli ayırma eylemini ve bunun annede doğurduğu güçlü özlem sonucunu birlikte veren genel karşılıktır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Anne ile yavrunun ayrılmasını, dışarıdan yapan kişiyi ve annede oluşan özlemi birlikte korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "anne ile yavruyu birbirinden ayırmak",
+        "usage_role": "general",
+        "applicability": "Eylemin temel katılımcılarını açıkça belirtmenin yeterli olduğu genel bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Ayırma eylemini ve anne-yavru ilişkisini açıkça korur.",
+          "loses": "Ayrılığın annede doğurduğu ağır özlem sonucunu doğrudan söylemez.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      }
+    ],
+    "lexical_glosses": [],
+    "excluded_glosses": [
+      {
+        "text": "ayrılmak",
+        "category": "confusable",
+        "error_profile": {
+          "fit": "displacement",
+          "preserves": "Tarafların artık birlikte olmaması sonucunu sınırlı biçimde korur.",
+          "loses": "Dışarıdan birinin anne ile yavruyu ayırması ve anneyi özleme düşürmesi çekirdeğini kaybeder.",
+          "adds": "Eylemi, ayıran bir özne gerektirmeyen kendiliğinden ayrılma gibi gösterebilir.",
+          "collision": "Geçişsiz ayrılma eylemiyle karışır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_005296/B001",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Bu dalda bir kişi anne ile yavruyu ayırır ve böylece annede ağır özlem doğurur.",
+        "neighbor_only": "Komşu dal, bir ayırma eylemi gerektirmeden insanın veya hayvanın yoğun duygu, şaşkınlık ve özlem durumunu anlatır.",
+        "gloss": "anne-yavruyu ayırma ile özlemden sarsılma",
+        "shared_zone": "Her iki dal da anne veya dişi hayvanın yavrusundan ayrılması üzerine yaşadığı yoğun özlem durumuna dokunur.",
+        "distinction": "Bu dalın çekirdeği, duygusal durumu doğuran geçişli ayırma eylemidir. Komşu dalın çekirdeği ise o durumu yaşayan varlıktaki akıl karışması ve özlemdir; belirli bir ayırıcı kişi ya da anne-yavru ilişkisi şart değildir."
+      }
+    ],
+    "neighbor_coverage_note": "Her iki komşu değerlendirildi. Duygusal sarsıntı dalı, eylem ile sonuç arasındaki sınırı aydınlattığı için yayımlandı; suyun açık arazide akıp yitmesi dalıyla anlam örtüşmesi yararlı bir karşılaştırma kurmayacak kadar zayıftır.",
+    "branch_image_ar": "تَوْلِيه الوالدة عن ولدها",
+    "what_is_ar": "التوليه المتعدي: التفريق بين المرأة أو الوالدة وولدها حتى تصير والهة، وخاصة في البيع أو السبي",
+    "what_is_not_ar": "ليس مطلق الحيرة أو الوجد؛ وليس كل فقد للأليف بغير فعل التفريق؛ وليس ذهاب الماء في الصحراء",
+    "source_phrase_ar": "التوليه أن يفرق بين المرأة وولدها (maqayis;sihah)؛ لا توله والدة عن ولدها (maqayis;tahdhib)؛ التوليه أن يفرق بينهما في البيع وكل أنثى فارقت ولدها فهي واله (tahdhib)؛ لا تجعل والها وذلك في السبايا (sihah)",
+    "sources": [
+      "MQ",
+      "SI",
+      "TA"
+    ],
+    "source_note": {}
+  }
+}

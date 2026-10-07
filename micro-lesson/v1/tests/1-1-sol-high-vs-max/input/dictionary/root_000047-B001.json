@@ -1,0 +1,956 @@
+{
+  "root_ar": "ء ل ه",
+  "branch_ref": "root_000047/B001",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_000047/tr/output/root_000047_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_000047.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_000047.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_000047/tr/output/root_000047_entry.json",
+      "entry_id": "root_000047/tr",
+      "status": "reviewed",
+      "review_verdict": "pass",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_000047/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kökün anlam örgüsü, tapınma eylemi ile tapınılan varlığı adlandıran türevlerden Yaratıcıya özgü adın ve bu adla kurulan seslenme ile ant biçimlerinin özel alanına uzanır. İkinci dal ilk dalın varlık anlamıyla kökensel bağını korurken biçim ve kullanım bakımından ayrılaşır.",
+    "polysemy": "polysemic",
+    "organization": "radial"
+  },
+  "branch": {
+    "branch_ref": "root_000047/B001",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi tapınma eylemini, kişinin kendini tapınmaya vermesini, bir varlığı tapınılır kılmayı ve tapınılan varlığı aynı anlam örgüsü içinde açıkça birleştirir. Geçici dal çerçevesi bu çekirdeği ve ondan türeyen varlık adlarını doğru biçimde temsil eder.",
+      "boundary_note": "Dal, tapınma eylemi ile bundan türeyen tapınılan veya tapınılır kılınan varlık anlamlarını kapsar; şaşkınlık, yoğun üzüntü ve salt özel ad kullanımları bu sınırın dışındadır."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım, yalın eylem çekirdeğini türemiş eylem ve varlık adlarından ayırır; türemiş biçimlerin kapsamı yalın eylemin tamamına aktarılmaz."
+    },
+    "concept_map": {
+      "definition": "Bir varlığa tapınma eylemini ve kişinin kendini tapınmaya vermesini anlatır. Türemiş kullanımlarda bir varlığı tapınılır kılmayı, tapınılan varlığı ve tapınma konusu sayılan varlıkları da adlandırır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Temel eylem, bir varlığa tapınmak ve kişinin kendini bu tapınmaya vermesidir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "Ettirgen kullanım, bir varlığı başkalarınca tapınılır duruma getirme veya öyle sunma işlemini bildirir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "example",
+          "statement": "Güneşe kimi topluluklarca tapınılması nedeniyle ona tapınılan varlık anlamındaki bir ad verilmesi, varlık anlamının tarihsel bir örneğidir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynakların ortak çizgisi, tapınmayı anlamın temeli sayar; kişinin tapınmaya yönelmesini, tapınılan varlığı ve tapınılır kılma işlemini bu temelden türetir. Tapınma konusu sayılan yontular ve güneş örneği, varlık anlamının belirli uygulamalarıdır.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "tapınma ve tapınılan varlık",
+      "applicability": "Eylem çekirdeğiyle ondan türeyen tapınılan varlık anlamının birlikte temsil edilmesi gereken genel açıklamalarda kullanılır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Tapınma eylemini ve bu eylemin yöneldiği varlığı birlikte korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "tapınmak",
+        "usage_role": "general",
+        "applicability": "Bir kişinin tapınma eylemini veya kendini tapınmaya vermesini bildiren eylem bağlamlarında kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Eylem olarak tapınma çekirdeğini eksiksiz korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "tapınılan varlık",
+        "usage_role": "contextual",
+        "applicability": "Bir topluluğun kendisine tapındığı varlık veya nesneden söz edilen ad bağlamlarında kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Tapınmanın yöneldiği varlık veya nesne anlamını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002"
+        ]
+      },
+      {
+        "text": "tapınılır kılmak",
+        "usage_role": "explanatory",
+        "applicability": "Bir varlığın başkalarına tapınma konusu olarak benimsetilmesini anlatan ettirgen bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bir varlığı tapınma konusu durumuna getirme işlemini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F003"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_001",
+        "rendering_kind": "ordinary",
+        "target_gloss": "tapınmak"
+      },
+      {
+        "lexical_unit_id": "lu_002",
+        "rendering_kind": "ordinary",
+        "target_gloss": "kendini tapınmaya vermek"
+      },
+      {
+        "lexical_unit_id": "lu_003",
+        "rendering_kind": "ordinary",
+        "target_gloss": "tapınılır kılmak"
+      },
+      {
+        "lexical_unit_id": "lu_004",
+        "rendering_kind": "ordinary",
+        "target_gloss": "tapınılan varlık, tanrı"
+      },
+      {
+        "lexical_unit_id": "lu_005",
+        "rendering_kind": "ordinary",
+        "target_gloss": "tapınılan varlık"
+      },
+      {
+        "lexical_unit_id": "lu_006",
+        "rendering_kind": "ordinary",
+        "target_gloss": "tanrılar, tapınılan nesneler"
+      },
+      {
+        "lexical_unit_id": "lu_007",
+        "rendering_kind": "ordinary",
+        "target_gloss": "tapınma"
+      },
+      {
+        "lexical_unit_id": "lu_008",
+        "rendering_kind": "ordinary",
+        "target_gloss": "kimi toplulukların tapındığı için bu adla anılan güneş"
+      },
+      {
+        "lexical_unit_id": "lu_009",
+        "rendering_kind": "ordinary",
+        "target_gloss": "senin tapınman"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "tanrı",
+        "category": "alternative",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Tapınılan varlık anlamını kısa ve doğal biçimde korur.",
+          "loses": "Tapınma eylemini, kişinin tapınmaya yönelmesini ve tapınılır kılma işlemini karşılamaz.",
+          "adds": null,
+          "collision": "Yalnızca belirli bir varlık türünü adlandırdığı için bütün dalın karşılığı sanılabilir."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_001498/B001",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Tapınılan varlığı ve bir varlığı tapınılır kılma işlemini de adlandırır.",
+        "neighbor_only": "Tapınmayla birlikte yaklaşma ve kendini bu işe verme yönünü öne çıkarır.",
+        "gloss": "tapınma ve yaklaşarak yönelme",
+        "shared_zone": "İki dal da tapınma eylemini ve kişinin bu eyleme yönelmesini kapsar.",
+        "distinction": "Komşu dal eylem ve yaklaşma yönünde yoğunlaşırken bu dal aynı çekirdekten tapınılan varlık ile ettirgen kılma anlamlarını da türetir; bu yüzden yalnızca eylem bağlamında yakınlaşırlar."
+      },
+      {
+        "neighbor_ref": "root_000604/B003",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Tapınmayı korku, inziva veya aşırı uygulama koşuluna bağlamaz ve tapınılan varlığı da adlandırabilir.",
+        "neighbor_only": "Korkudan doğan, inziva veya ek yüklenme biçimindeki özel bir tapınma yaşayışını bildirir.",
+        "gloss": "korkuyla yoğunlaşan özel tapınma yaşayışı",
+        "shared_zone": "Her iki dalda da kişinin kendini tapınmaya vermesi bulunur.",
+        "distinction": "Bu dal genel tapınma çekirdeğini ve ondan türeyen varlık anlamlarını kapsar; komşu dal ise korku, inziva ve olağanın üstündeki uygulamalarla sınırlı özel bir yaşayışı anlatır."
+      },
+      {
+        "neighbor_ref": "root_000047/B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Genel tapınma eylemini, tapınılan varlığı ve tapınılır kılmayı kapsar.",
+        "neighbor_only": "Yaratıcıya özgü adı ve bu adla kurulan seslenme, dilek ve ant kalıplarını kapsar.",
+        "gloss": "Yaratıcıya özgü ad ve kullanım kalıpları",
+        "shared_zone": "Özel ad, tapınılan yüce varlık düşüncesi üzerinden bu dalın varlık anlamıyla bağlantılıdır.",
+        "distinction": "Bu dal genel anlam örgüsünü verir; komşu dal ise o örgüden türemiş özel adı ve adın belirli söz kalıplarındaki kullanımını ayrı bir biçim alanı olarak sınırlar."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi. Tapınma eylemi, korkuya bağlı özel tapınma yaşayışı ve aynı kökün özel ad dalı sınırı keskinleştirdi; peygamberlik, büyücülük, belirli tapınma nesneleri, sahiplik ve tarihsel hizmet grubu adayları ise yalnızca aynı dinsel alana veya tekil örneklere temas ettiği için yayımlanmadı.",
+    "branch_image_ar": "التعبد والمعبود",
+    "what_is_ar": "يدخل فيه أله وتأله بمعنى عبد وتنسك، والتأليه بمعنى التعبيد، والإله والآلهة والإلاهة لما جعل معبودا.",
+    "what_is_not_ar": "لا يدخل فيه أله بمعنى تحير، ولا ألهت على فلان بمعنى اشتد جزعي عليه، ولا أسماء المواضع أو الحية أو الهلال إلا من جهة التسمية لا معنى العبادة.",
+    "source_phrase_ar": "أصل واحد وهو التعبد، فالإله الله تعالى لأنه معبود، وتأله الرجل إذا تعبد، والإلاهة الشمس سميت بذلك لأن قوما كانوا يعبدونها (maqayis)؛ التأله التعبد (ayn)؛ أله بالفتح إلاهة أي عبد عبادة، مألوه أي معبود، الآلهة الأصنام، التأليه التعبيد، التأله التنسك والتعبد (sihah)؛ لا يكون إلاها حتى يكون معبودا، معبوداتهم من الأصنام والأوثان آلهة، الإلاهة الشمس، وإلاهتك وعبادتك (tahdhib)؛ إله اسما لكل معبود، أله فلان يأله الآلهة عبد، فالإله على هذا هو المعبود (mufradat)",
+    "sources": [
+      "MQ",
+      "AY",
+      "SI",
+      "TA",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_000047",
+    "branch_id": "B001",
+    "branch_image_ar": "التعبد والمعبود",
+    "what_is_ar": "يدخل فيه أله وتأله بمعنى عبد وتنسك، والتأليه بمعنى التعبيد، والإله والآلهة والإلاهة لما جعل معبودا.",
+    "what_is_not_ar": "لا يدخل فيه أله بمعنى تحير، ولا ألهت على فلان بمعنى اشتد جزعي عليه، ولا أسماء المواضع أو الحية أو الهلال إلا من جهة التسمية لا معنى العبادة.",
+    "source_phrase_ar": "أصل واحد وهو التعبد، فالإله الله تعالى لأنه معبود، وتأله الرجل إذا تعبد، والإلاهة الشمس سميت بذلك لأن قوما كانوا يعبدونها (maqayis)؛ التأله التعبد (ayn)؛ أله بالفتح إلاهة أي عبد عبادة، مألوه أي معبود، الآلهة الأصنام، التأليه التعبيد، التأله التنسك والتعبد (sihah)؛ لا يكون إلاها حتى يكون معبودا، معبوداتهم من الأصنام والأوثان آلهة، الإلاهة الشمس، وإلاهتك وعبادتك (tahdhib)؛ إله اسما لكل معبود، أله فلان يأله الآلهة عبد، فالإله على هذا هو المعبود (mufradat)",
+    "image_transliteration": "Kulluk ve tapınılan varlık",
+    "summary": "Bir varlığa tapınma eylemini ve kişinin kendini tapınmaya vermesini anlatır. Türemiş kullanımlarda bir varlığı tapınılır kılmayı, tapınılan varlığı ve tapınma konusu sayılan varlıkları da adlandırır.",
+    "concept_map": {
+      "definition": "Bir varlığa tapınma eylemini ve kişinin kendini tapınmaya vermesini anlatır. Türemiş kullanımlarda bir varlığı tapınılır kılmayı, tapınılan varlığı ve tapınma konusu sayılan varlıkları da adlandırır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Temel eylem, bir varlığa tapınmak ve kişinin kendini bu tapınmaya vermesidir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "Ettirgen kullanım, bir varlığı başkalarınca tapınılır duruma getirme veya öyle sunma işlemini bildirir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "example",
+          "statement": "Güneşe kimi topluluklarca tapınılması nedeniyle ona tapınılan varlık anlamındaki bir ad verilmesi, varlık anlamının tarihsel bir örneğidir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi tapınma eylemini, kişinin kendini tapınmaya vermesini, bir varlığı tapınılır kılmayı ve tapınılan varlığı aynı anlam örgüsü içinde açıkça birleştirir. Geçici dal çerçevesi bu çekirdeği ve ondan türeyen varlık adlarını doğru biçimde temsil eder.",
+      "boundary_note": "Dal, tapınma eylemi ile bundan türeyen tapınılan veya tapınılır kılınan varlık anlamlarını kapsar; şaşkınlık, yoğun üzüntü ve salt özel ad kullanımları bu sınırın dışındadır."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım, yalın eylem çekirdeğini türemiş eylem ve varlık adlarından ayırır; türemiş biçimlerin kapsamı yalın eylemin tamamına aktarılmaz."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": false,
+      "unit_kind_counts": {
+        "form": 8,
+        "lexical_unit": 1
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_001",
+        "expression_ar": "أله يأله",
+        "unit_kind": "form",
+        "sense_ar": "عبد عبادة",
+        "target_gloss": "tapınmak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A54:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=6230d35b9f3ffb13"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_002",
+        "expression_ar": "تأله",
+        "unit_kind": "form",
+        "sense_ar": "تعبد وتنسك",
+        "target_gloss": "kendini tapınmaya vermek",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "maqayis:root=%D8%A1%20%D9%84%20%D9%87:headword=%D8%A3%D9%84%D9%87:sha=218aad57ec16f061",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2303:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=0d66a56288b510fe",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_003",
+        "expression_ar": "التأليه",
+        "unit_kind": "form",
+        "sense_ar": "التعبيد",
+        "target_gloss": "tapınılır kılmak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_004",
+        "expression_ar": "إله",
+        "unit_kind": "form",
+        "sense_ar": "معبود يعتقد أو يجعل مستحقا للعبادة",
+        "target_gloss": "tapınılan varlık, tanrı",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "maqayis:root=%D8%A1%20%D9%84%20%D9%87:headword=%D8%A3%D9%84%D9%87:sha=218aad57ec16f061",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A54:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=6230d35b9f3ffb13"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_005",
+        "expression_ar": "مألوه",
+        "unit_kind": "form",
+        "sense_ar": "معبود",
+        "target_gloss": "tapınılan varlık",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_006",
+        "expression_ar": "الآلهة",
+        "unit_kind": "form",
+        "sense_ar": "الأصنام أو المعبودات التي يعتقد أن العبادة تحق لها",
+        "target_gloss": "tanrılar, tapınılan nesneler",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A54:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=6230d35b9f3ffb13"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_007",
+        "expression_ar": "إِلاهة",
+        "unit_kind": "form",
+        "sense_ar": "عبادة",
+        "target_gloss": "tapınma",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_008",
+        "expression_ar": "الإِلاهة",
+        "unit_kind": "form",
+        "sense_ar": "الشمس المسماة بذلك لأن قوما عبدوها",
+        "target_gloss": "kimi toplulukların tapındığı için bu adla anılan güneş",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "maqayis:root=%D8%A1%20%D9%84%20%D9%87:headword=%D8%A3%D9%84%D9%87:sha=218aad57ec16f061",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A54:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=6230d35b9f3ffb13"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_009",
+        "expression_ar": "إلاهتك",
+        "unit_kind": "lexical_unit",
+        "sense_ar": "عبادتك",
+        "target_gloss": "senin tapınman",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynakların ortak çizgisi, tapınmayı anlamın temeli sayar; kişinin tapınmaya yönelmesini, tapınılan varlığı ve tapınılır kılma işlemini bu temelden türetir. Tapınma konusu sayılan yontular ve güneş örneği, varlık anlamının belirli uygulamalarıdır.",
+      "evidence_refs": [
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2303:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=0d66a56288b510fe",
+        "maqayis:root=%D8%A1%20%D9%84%20%D9%87:headword=%D8%A3%D9%84%D9%87:sha=218aad57ec16f061",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A54:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=6230d35b9f3ffb13",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 5,
+      "passage_count": 5,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "maqayis:root=%D8%A1%20%D9%84%20%D9%87:headword=%D8%A3%D9%84%D9%87:sha=218aad57ec16f061"
+          ]
+        },
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2303:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=0d66a56288b510fe"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A54:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=6230d35b9f3ffb13"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Bir varlığa tapınma eylemini ve kişinin kendini tapınmaya vermesini anlatır. Türemiş kullanımlarda bir varlığı tapınılır kılmayı, tapınılan varlığı ve tapınma konusu sayılan varlıkları da adlandırır.",
+      "concept": {
+        "rank": 1,
+        "text": "tapınma ve tapınılan varlık",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Eylem çekirdeğiyle ondan türeyen tapınılan varlık anlamının birlikte temsil edilmesi gereken genel açıklamalarda kullanılır.",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Tapınma eylemini ve bu eylemin yöneldiği varlığı birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "tapınmak",
+          "loanword_status": "none",
+          "usage_role": "general",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir kişinin tapınma eylemini veya kendini tapınmaya vermesini bildiren eylem bağlamlarında kullanılır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Eylem olarak tapınma çekirdeğini eksiksiz korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "tapınılan varlık",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir topluluğun kendisine tapındığı varlık veya nesneden söz edilen ad bağlamlarında kullanılır.",
+          "facet_ids": [
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Tapınmanın yöneldiği varlık veya nesne anlamını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 4,
+          "text": "tapınılır kılmak",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir varlığın başkalarına tapınma konusu olarak benimsetilmesini anlatan ettirgen bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bir varlığı tapınma konusu durumuna getirme işlemini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "tanrı",
+          "category": "alternative",
+          "exclusion_reason": "Tapınma eylemini, kişinin tapınmaya yönelmesini ve tapınılır kılma işlemini karşılamaz. Yalnızca belirli bir varlık türünü adlandırdığı için bütün dalın karşılığı sanılabilir.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Tapınılan varlık anlamını kısa ve doğal biçimde korur.",
+            "loses": "Tapınma eylemini, kişinin tapınmaya yönelmesini ve tapınılır kılma işlemini karşılamaz.",
+            "adds": null,
+            "collision": "Yalnızca belirli bir varlık türünü adlandırdığı için bütün dalın karşılığı sanılabilir."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_001498",
+        "neighbor_branch_id": "B001",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Tapınılan varlığı ve bir varlığı tapınılır kılma işlemini de adlandırır.",
+        "neighbor_only": "Tapınmayla birlikte yaklaşma ve kendini bu işe verme yönünü öne çıkarır.",
+        "expression_transliteration": "Kulluk ve yakınlaşma",
+        "gloss": "tapınma ve yaklaşarak yönelme",
+        "shared_zone": "İki dal da tapınma eylemini ve kişinin bu eyleme yönelmesini kapsar.",
+        "distinction": "Komşu dal eylem ve yaklaşma yönünde yoğunlaşırken bu dal aynı çekirdekten tapınılan varlık ile ettirgen kılma anlamlarını da türetir; bu yüzden yalnızca eylem bağlamında yakınlaşırlar.",
+        "expression_ar": "عبادة وتقرب",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:3594",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A3672:headword=%D9%86%D8%B3%D9%83:root=%D9%86%20%D8%B3%20%D9%83:sha=13c2d2bf61e7ba60",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1491:headword=%D9%86%D8%B3%D9%83:root=%D9%86%20%D8%B3%20%D9%83:sha=6006f80134a555e2",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3857:headword=%D9%86%D8%B3%D9%83:root=%D9%86%20%D8%B3%20%D9%83:sha=085e6c7aed07724a",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D516%3Bsegment_index%3D85:headword=%D9%86%D8%B3%D9%83:root=%D9%86%20%D8%B3%20%D9%83:sha=64f96c94ba12ffd7"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000604",
+        "neighbor_branch_id": "B003",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Tapınmayı korku, inziva veya aşırı uygulama koşuluna bağlamaz ve tapınılan varlığı da adlandırabilir.",
+        "neighbor_only": "Korkudan doğan, inziva veya ek yüklenme biçimindeki özel bir tapınma yaşayışını bildirir.",
+        "expression_transliteration": "Korkudan doğan kulluk",
+        "gloss": "korkuyla yoğunlaşan özel tapınma yaşayışı",
+        "shared_zone": "Her iki dalda da kişinin kendini tapınmaya vermesi bulunur.",
+        "distinction": "Bu dal genel tapınma çekirdeğini ve ondan türeyen varlık anlamlarını kapsar; komşu dal ise korku, inziva ve olağanın üstündeki uygulamalarla sınırlı özel bir yaşayışı anlatır.",
+        "expression_ar": "تعبد من رهبة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1385",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2171:headword=%D8%B1%D9%87%D8%A8:root=%D8%B1%20%D9%87%20%D8%A8:sha=dd4c6f6793b9adea",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A735%3Asubentry%3A4%3A%D8%B1%D9%87%D8%A8:headword=%D8%B1%D9%87%D8%A8:root=%D8%B1%20%D9%87%20%D8%A8:sha=ff6dbd5b60e562b3",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A602:headword=%D8%B1%D9%87%D8%A8:root=%D8%B1%20%D9%87%20%D8%A8:sha=399c1de573c072a3",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A290:headword=%D8%B1%D9%87%D8%A8:root=%D8%B1%20%D9%87%20%D8%A8:sha=86e26bd03edd37d7",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D295%3Bsegment_index%3D244:headword=%D8%B1%D9%87%D8%A8:root=%D8%B1%20%D9%87%20%D8%A8:sha=ac651ba61143e901"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000047",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Genel tapınma eylemini, tapınılan varlığı ve tapınılır kılmayı kapsar.",
+        "neighbor_only": "Yaratıcıya özgü adı ve bu adla kurulan seslenme, dilek ve ant kalıplarını kapsar.",
+        "expression_transliteration": "Tanrı adının ant ve seslenmede kullanımı",
+        "gloss": "Yaratıcıya özgü ad ve kullanım kalıpları",
+        "shared_zone": "Özel ad, tapınılan yüce varlık düşüncesi üzerinden bu dalın varlık anlamıyla bağlantılıdır.",
+        "distinction": "Bu dal genel anlam örgüsünü verir; komşu dal ise o örgüden türemiş özel adı ve adın belirli söz kalıplarındaki kullanımını ayrı bir biçim alanı olarak sınırlar.",
+        "expression_ar": "اسم الله في القسم والنداء",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2303:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=0d66a56288b510fe",
+          "maqayis:root=%D8%A1%20%D9%84%20%D9%87:headword=%D8%A3%D9%84%D9%87:sha=218aad57ec16f061",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A54:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=6230d35b9f3ffb13",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 9,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi. Tapınma eylemi, korkuya bağlı özel tapınma yaşayışı ve aynı kökün özel ad dalı sınırı keskinleştirdi; peygamberlik, büyücülük, belirli tapınma nesneleri, sahiplik ve tarihsel hizmet grubu adayları ise yalnızca aynı dinsel alana veya tekil örneklere temas ettiği için yayımlanmadı."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_000047/B001",
+    "concept_gloss": {
+      "text": "tapınma, tapınılır kılma ve tapınılan varlık",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "bir varlığa tapınmak",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız tapınma eylemini verir; tapınılan varlık, tapınılır kılma ve güneş örneği dışarıda kalır."
+        }
+      },
+      {
+        "text": "kendini ibadete vermek",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız kişinin ibadete yönelişini verir; tapınılan varlık, tapınılır kılma ve güneş örneği dışarıda kalır."
+        }
+      },
+      {
+        "text": "bir şeyi tapınılır göstermek",
+        "facet_ids": [
+          "F003"
+        ],
+        "lexical_unit_ids": [
+          "lu_003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız ettirgen sunma anlamını verir; tapınma eylemi, tapınılan varlık ve güneş örneği dışarıda kalır."
+        }
+      },
+      {
+        "text": "tapınılan tanrısal varlık",
+        "facet_ids": [
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_004",
+          "lu_005"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız tapınılan varlığı verir; tapınma eylemi, tapınılır kılma ve güneş örneği dışarıda kalır."
+        }
+      },
+      {
+        "text": "tapınma konusu sayılan putlar",
+        "facet_ids": [
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_006"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız tapınma konusu nesneleri verir; tapınma eylemi, tapınılır kılma ve güneş örneği dışarıda kalır."
+        }
+      },
+      {
+        "text": "tapınıldığı için adlandırılan güneş",
+        "facet_ids": [
+          "F004"
+        ],
+        "lexical_unit_ids": [
+          "lu_008"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız tarihsel güneş adlandırmasını verir; tapınma eylemi, tapınılan varlık ve tapınılır kılma dışarıda kalır."
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_001": {
+        "text": "tapınmak",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız tapınma eylemini verir; tapınılan varlık, tapınılır kılma ve güneş örneği dışarıda kalır."
+        }
+      },
+      "lu_002": {
+        "text": "kendini ibadete vermek",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız kişinin ibadete yönelişini verir; tapınılan varlık, tapınılır kılma ve güneş örneği dışarıda kalır."
+        }
+      },
+      "lu_003": {
+        "text": "tapınılır kılmak",
+        "facet_ids": [
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız ettirgen kılma anlamını verir; tapınma eylemi, tapınılan varlık ve güneş örneği dışarıda kalır."
+        }
+      },
+      "lu_004": {
+        "text": "tapınılan tanrısal varlık",
+        "facet_ids": [
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız tapınılan varlığı verir; tapınma eylemi, tapınılır kılma ve güneş örneği dışarıda kalır."
+        }
+      },
+      "lu_005": {
+        "text": "tapınılan varlık",
+        "facet_ids": [
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız tapınılan varlığı verir; tapınma eylemi, tapınılır kılma ve güneş örneği dışarıda kalır."
+        }
+      },
+      "lu_006": {
+        "text": "tanrılar ve tapınılan nesneler",
+        "facet_ids": [
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız tapınma konusu varlıkları verir; tapınma eylemi, tapınılır kılma ve güneş örneği dışarıda kalır."
+        }
+      },
+      "lu_007": {
+        "text": "tapınma",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız tapınma adını verir; tapınılan varlık, tapınılır kılma ve güneş örneği dışarıda kalır."
+        }
+      },
+      "lu_008": {
+        "text": "tapınıldığı için böyle anılan güneş",
+        "facet_ids": [
+          "F004"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız tarihsel güneş adlandırmasını verir; tapınma eylemi, tapınılan varlık ve tapınılır kılma dışarıda kalır."
+        }
+      },
+      "lu_009": {
+        "text": "senin tapınman",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız sahipli tapınma adını verir; tapınılan varlık, tapınılır kılma ve güneş örneği dışarıda kalır."
+        }
+      }
+    }
+  }
+}

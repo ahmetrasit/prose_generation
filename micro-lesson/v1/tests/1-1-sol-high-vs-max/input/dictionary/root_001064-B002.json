@@ -1,0 +1,637 @@
+{
+  "root_ar": "ع و ن",
+  "branch_ref": "root_001064/B002",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_001064.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_001064.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+      "entry_id": "root_001064/tr",
+      "status": "reviewed",
+      "review_verdict": "repair",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_001064/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, yardım ve karşılıklı desteğin yanı sıra orta yaş, yinelenmiş savaş, yaşlı hurma, bedensel olgunluk, yaban eşeği sürüsü, kasık kılları ve bir yerle ilişkilendirilen şarap gibi birbirinden belirgin biçimde ayrılan anlam dalları taşır. Düzen, bazı yaş ve olgunluk bağlantılarına karşın tek bir çekirdekten açıklanamayacak ölçüde çok kolludur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_001064/B002",
+    "identity_judgment": {
+      "status": "qualified",
+      "rationale": "Kaynak ifadesinin ortak çekirdeği küçük ile ileri yaşlı arasındaki orta yaş evresidir ve sığır, at ile kadın örnekleri bunu destekler. Bununla birlikte kadın kullanımında evlilik durumu veya ileri yaş çağrışımı da bulunduğundan geçici çerçeve bu özel sınırla nitelendirilmelidir.",
+      "boundary_note": "Anlam sayısal bir yaş ortalaması değil, gençlik ile ileri yaşlılık arasındaki göreli evredir."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım genel orta yaş niteliğini hayvan ve insanla kurulan özel yapılardan ayırır; bu yapıların koşulları yalın kullanıma genellenmez."
+    },
+    "concept_map": {
+      "definition": "Bir canlıyı yaş bakımından küçük ya da genç olmayan, fakat henüz ileri yaşlı da sayılmayan orta evrede nitelemektir. Kadın için kullanılan özel biçim, bağlama göre evlenmiş olmayı veya daha ileri bir yaş çağrışımını da taşıyabilir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Canlı, kendi türünün gençlik ve ileri yaşlılık uçları arasında bulunan orta yaş evresindedir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "source_variant",
+          "statement": "Kadın kullanımında orta yaş niteliğine evlenmiş olma veya yaşlılığa yaklaşmış olma çağrışımı eklenebilir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynaklar niteliği genç ile ileri yaşlı arasındaki orta yaş olarak ortaklaştırır; sığır ve at örnekleri açıkken kadın kullanımında orta yaş, evlenmişlik veya yaşlılığa yaklaşma yorumları yan yana bulunur.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "yaşça orta evrede olan",
+      "applicability": "Gençlik ile ileri yaşlılık arasındaki göreli evreyi türden bağımsız biçimde anlatan çekirdek karşılıktır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Genç ile ileri yaşlı arasındaki göreli yaş sınırını korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "ne genç ne yaşlı",
+        "usage_role": "explanatory",
+        "applicability": "Özellikle bir hayvanın iki yaş ucu arasındaki konumunu açıklamak için uygundur.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "İki yaş ucu arasında bulunma koşulunu açıkça korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "orta yaşlı kadın",
+        "usage_role": "contextual",
+        "applicability": "Kadın için kullanılan özel yapıda temel yaş değerini verir; bağlam ek çağrışımları belirleyebilir.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Kadının gençlik ile ileri yaşlılık arasındaki yaş konumunu korur.",
+          "loses": "Bazı tanıklıklardaki evlenmişlik veya yaşlılığa yaklaşma çağrışımını tek başına göstermez.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_010",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yaşça orta evrede olan"
+      },
+      {
+        "lexical_unit_id": "lu_011",
+        "rendering_kind": "ordinary",
+        "target_gloss": "ne genç ne yaşlı sığır"
+      },
+      {
+        "lexical_unit_id": "lu_012",
+        "rendering_kind": "ordinary",
+        "target_gloss": "orta yaşlı veya evlenmiş kadın"
+      },
+      {
+        "lexical_unit_id": "lu_013",
+        "rendering_kind": "ordinary",
+        "target_gloss": "orta yaşlı at"
+      },
+      {
+        "lexical_unit_id": "lu_014",
+        "rendering_kind": "ordinary",
+        "target_gloss": "orta yaşta olanlar"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "tam olgun",
+        "category": "alternative",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Gençlikten çıkmış olma düşüncesini kısmen korur.",
+          "loses": null,
+          "adds": "Yaş dışındaki gelişim ve yetkinlik alanlarını da gereksiz biçimde anlama ekler.",
+          "collision": null
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_001511/B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yalnızca canlıların yaş bakımından genç ile ileri yaşlı arasındaki evresini belirtir.",
+        "neighbor_only": "Komşu dal miktar, zaman veya yer bakımından herhangi bir şeyin yarısına ya da ortasına ulaşmasını kapsar.",
+        "gloss": "yarıya veya ortaya ulaşma",
+        "shared_zone": "Her iki dalda da iki uç arasında bir orta konum düşüncesi vardır.",
+        "distinction": "Odak dal türün yaş evresine bağlı bir nitelemedir; komşu dal ise yaşla sınırlı olmayan genel bir ölçü, zaman veya konum ortalığıdır."
+      },
+      {
+        "neighbor_ref": "root_000517/B004",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dal, canlıyı henüz ileri yaşlı olmadan orta yaş evresinde gösterir.",
+        "neighbor_only": "Komşu dal, hayvanın yaş ve gelişim bakımından belirli bir tamamlanma noktasına varmasını belirtir.",
+        "gloss": "yaşın tamamlanması",
+        "shared_zone": "İki dal da hayvanın yaşına bağlı gelişim evrelerini sınıflandırır.",
+        "distinction": "Orta evre ile gelişimin tamamlanması aynı sınır değildir; biri iki uç arasındaki konumu, diğeri belirli bir sona erişmeyi anlatır."
+      },
+      {
+        "neighbor_ref": "root_000733/B012",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal kadın dışında sığır ve atı da kapsayan göreli bir orta yaş niteliğidir.",
+        "neighbor_only": "Komşu dal yalnızca kadını ve yaklaşık belirli bir ileri yaşı adlandırır.",
+        "gloss": "yaklaşık kırk beş yaşındaki kadın",
+        "shared_zone": "Her iki dal kadınların gençlik sonrasındaki yaş evresini niteleyebilir.",
+        "distinction": "Odak dal göreli ve türler arası bir orta evredir; komşu dal kadınla ve yaklaşık belirli bir yaş eşiğiyle sınırlıdır."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; orta konum, yaşın tamamlanması ve kadına özgü yaş eşiği en açıklayıcı karşılaştırmalardır, öteki adaylar farklı gelişim aşamalarını veya ayrı kök dallarını gösterir.",
+    "branch_image_ar": "العَوان بين السنين",
+    "what_is_ar": "العوان لما كان نصفا أو متوسطا في السن كالبقرة والمرأة والفرس",
+    "what_is_not_ar": "ليس العون بمعنى الإعانة ولا الحرب العوان",
+    "source_phrase_ar": "العوان البقرة النصف في سنها ويقال للمرأة النصف عوان (ayn); العوان النصف في سنها من كل شيء وبقرة عوان لا فارض مسنة ولا بكر صغيرة (sihah); العوان النصف التي بين الفارض وهي المسنة وبين البكر وهي الصغيرة ويقال فرس عوان وخيل عون (tahdhib); العوان المتوسط بين السنين وجعل كناية عن المسنة من النساء (mufradat)",
+    "sources": [
+      "AY",
+      "SI",
+      "TA",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_001064",
+    "branch_id": "B002",
+    "branch_image_ar": "العَوان بين السنين",
+    "what_is_ar": "العوان لما كان نصفا أو متوسطا في السن كالبقرة والمرأة والفرس",
+    "what_is_not_ar": "ليس العون بمعنى الإعانة ولا الحرب العوان",
+    "source_phrase_ar": "العوان البقرة النصف في سنها ويقال للمرأة النصف عوان (ayn); العوان النصف في سنها من كل شيء وبقرة عوان لا فارض مسنة ولا بكر صغيرة (sihah); العوان النصف التي بين الفارض وهي المسنة وبين البكر وهي الصغيرة ويقال فرس عوان وخيل عون (tahdhib); العوان المتوسط بين السنين وجعل كناية عن المسنة من النساء (mufradat)",
+    "image_transliteration": "al'wan byn alsnyn",
+    "summary": "Bir canlıyı yaş bakımından küçük ya da genç olmayan, fakat henüz ileri yaşlı da sayılmayan orta evrede nitelemektir. Kadın için kullanılan özel biçim, bağlama göre evlenmiş olmayı veya daha ileri bir yaş çağrışımını da taşıyabilir.",
+    "concept_map": {
+      "definition": "Bir canlıyı yaş bakımından küçük ya da genç olmayan, fakat henüz ileri yaşlı da sayılmayan orta evrede nitelemektir. Kadın için kullanılan özel biçim, bağlama göre evlenmiş olmayı veya daha ileri bir yaş çağrışımını da taşıyabilir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Canlı, kendi türünün gençlik ve ileri yaşlılık uçları arasında bulunan orta yaş evresindedir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "source_variant",
+          "statement": "Kadın kullanımında orta yaş niteliğine evlenmiş olma veya yaşlılığa yaklaşmış olma çağrışımı eklenebilir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "qualified",
+      "rationale": "Kaynak ifadesinin ortak çekirdeği küçük ile ileri yaşlı arasındaki orta yaş evresidir ve sığır, at ile kadın örnekleri bunu destekler. Bununla birlikte kadın kullanımında evlilik durumu veya ileri yaş çağrışımı da bulunduğundan geçici çerçeve bu özel sınırla nitelendirilmelidir.",
+      "boundary_note": "Anlam sayısal bir yaş ortalaması değil, gençlik ile ileri yaşlılık arasındaki göreli evredir."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım genel orta yaş niteliğini hayvan ve insanla kurulan özel yapılardan ayırır; bu yapıların koşulları yalın kullanıma genellenmez."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 3,
+        "form": 2
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_010",
+        "expression_ar": "العوان",
+        "unit_kind": "form",
+        "sense_ar": "النصف أو المتوسط في السن بين الصغير والكبير",
+        "target_gloss": "yaşça orta evrede olan",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_011",
+        "expression_ar": "بقرة عوان",
+        "unit_kind": "collocation",
+        "sense_ar": "بقرة لا فارض مسنة ولا بكر صغيرة بل بين ذلك",
+        "target_gloss": "ne genç ne yaşlı sığır",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_012",
+        "expression_ar": "امرأة عوان",
+        "unit_kind": "collocation",
+        "sense_ar": "امرأة نصف أو ثيب بلغت وسط السن",
+        "target_gloss": "orta yaşlı veya evlenmiş kadın",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_013",
+        "expression_ar": "فرس عوان",
+        "unit_kind": "collocation",
+        "sense_ar": "فرس في وسط سنه لا صغير ولا مسن",
+        "target_gloss": "orta yaşlı at",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_014",
+        "expression_ar": "عون",
+        "unit_kind": "form",
+        "sense_ar": "جمع عوان في وصف ما كان متوسط السن",
+        "target_gloss": "orta yaşta olanlar",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynaklar niteliği genç ile ileri yaşlı arasındaki orta yaş olarak ortaklaştırır; sığır ve at örnekleri açıkken kadın kullanımında orta yaş, evlenmişlik veya yaşlılığa yaklaşma yorumları yan yana bulunur.",
+      "evidence_refs": [
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 4,
+      "passage_count": 4,
+      "sources": [
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Bir canlıyı yaş bakımından küçük ya da genç olmayan, fakat henüz ileri yaşlı da sayılmayan orta evrede nitelemektir. Kadın için kullanılan özel biçim, bağlama göre evlenmiş olmayı veya daha ileri bir yaş çağrışımını da taşıyabilir.",
+      "concept": {
+        "rank": 1,
+        "text": "yaşça orta evrede olan",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Gençlik ile ileri yaşlılık arasındaki göreli evreyi türden bağımsız biçimde anlatan çekirdek karşılıktır.",
+        "facet_ids": [
+          "F001"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Genç ile ileri yaşlı arasındaki göreli yaş sınırını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "ne genç ne yaşlı",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "Özellikle bir hayvanın iki yaş ucu arasındaki konumunu açıklamak için uygundur.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "İki yaş ucu arasında bulunma koşulunu açıkça korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "orta yaşlı kadın",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Kadın için kullanılan özel yapıda temel yaş değerini verir; bağlam ek çağrışımları belirleyebilir.",
+          "facet_ids": [
+            "F001",
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Kadının gençlik ile ileri yaşlılık arasındaki yaş konumunu korur.",
+            "loses": "Bazı tanıklıklardaki evlenmişlik veya yaşlılığa yaklaşma çağrışımını tek başına göstermez.",
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "tam olgun",
+          "category": "alternative",
+          "exclusion_reason": "Yaş dışındaki gelişim ve yetkinlik alanlarını da gereksiz biçimde anlama ekler.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Gençlikten çıkmış olma düşüncesini kısmen korur.",
+            "loses": null,
+            "adds": "Yaş dışındaki gelişim ve yetkinlik alanlarını da gereksiz biçimde anlama ekler.",
+            "collision": null
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_001511",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal yalnızca canlıların yaş bakımından genç ile ileri yaşlı arasındaki evresini belirtir.",
+        "neighbor_only": "Komşu dal miktar, zaman veya yer bakımından herhangi bir şeyin yarısına ya da ortasına ulaşmasını kapsar.",
+        "expression_transliteration": "buluğu'n-nısf ve'l-vasat",
+        "gloss": "yarıya veya ortaya ulaşma",
+        "shared_zone": "Her iki dalda da iki uç arasında bir orta konum düşüncesi vardır.",
+        "distinction": "Odak dal türün yaş evresine bağlı bir nitelemedir; komşu dal ise yaşla sınırlı olmayan genel bir ölçü, zaman veya konum ortalığıdır.",
+        "expression_ar": "بلوغ النصف والوسط",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:3616",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A4740:headword=%D9%86%D8%B5%D9%81:root=%D9%86%20%D8%B5%20%D9%81:sha=eceb7a8eeee1a6de",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1505:headword=%D9%86%D8%B5%D9%81:root=%D9%86%20%D8%B5%20%D9%81:sha=e03e547e06c9bd23",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3459:headword=%D9%86%D8%B5%D9%81:root=%D9%86%20%D8%B5%20%D9%81:sha=40718065f8cc8294",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D628%3Bsegment_index%3D68:headword=%D9%86%D8%B5%D9%81:root=%D9%86%20%D8%B5%20%D9%81:sha=584bacd11e5c60eb"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000517",
+        "neighbor_branch_id": "B004",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dal, canlıyı henüz ileri yaşlı olmadan orta yaş evresinde gösterir.",
+        "neighbor_only": "Komşu dal, hayvanın yaş ve gelişim bakımından belirli bir tamamlanma noktasına varmasını belirtir.",
+        "expression_transliteration": "tmam alsn",
+        "gloss": "yaşın tamamlanması",
+        "shared_zone": "İki dal da hayvanın yaşına bağlı gelişim evrelerini sınıflandırır.",
+        "distinction": "Orta evre ile gelişimin tamamlanması aynı sınır değildir; biri iki uç arasındaki konumu, diğeri belirli bir sona erişmeyi anlatır.",
+        "expression_ar": "تمام السن",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1210",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5325:headword=%D8%B0%D9%83%D8%A7:root=%D8%B0%20%D9%83%20%D8%A7:sha=a90da3d6435f4810",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D518%3Bsegment_index%3D8:headword=%D8%B0%D9%83%D8%A7:root=%D8%B0%20%D9%83%20%D8%A7:sha=fded46388ff9bc5a"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000733",
+        "neighbor_branch_id": "B012",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal kadın dışında sığır ve atı da kapsayan göreli bir orta yaş niteliğidir.",
+        "neighbor_only": "Komşu dal yalnızca kadını ve yaklaşık belirli bir ileri yaşı adlandırır.",
+        "expression_transliteration": "almrah almslf",
+        "gloss": "yaklaşık kırk beş yaşındaki kadın",
+        "shared_zone": "Her iki dal kadınların gençlik sonrasındaki yaş evresini niteleyebilir.",
+        "distinction": "Odak dal göreli ve türler arası bir orta evredir; komşu dal kadınla ve yaklaşık belirli bir yaş eşiğiyle sınırlıdır.",
+        "expression_ar": "المرأة المسلف",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A4907:headword=%D8%B3%D9%84%D9%81:root=%D8%B3%20%D9%84%20%D9%81:sha=decdb0c30713aad9",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3343:headword=%D8%B3%D9%84%D9%81:root=%D8%B3%20%D9%84%20%D9%81:sha=06d69c1af5aa9cd5",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D648%3Bsegment_index%3D100:headword=%D8%B3%D9%84%D9%81:root=%D8%B3%20%D9%84%20%D9%81:sha=2cbc9c90b479ef14"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; orta konum, yaşın tamamlanması ve kadına özgü yaş eşiği en açıklayıcı karşılaştırmalardır, öteki adaylar farklı gelişim aşamalarını veya ayrı kök dallarını gösterir."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_001064/B002",
+    "concept_gloss": {
+      "text": "yaşça orta evre",
+      "facet_ids": [
+        "F001",
+        "F002"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "ne genç ne yaşlı",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_010",
+          "lu_011",
+          "lu_013",
+          "lu_014"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "orta yaşlı kadın",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_012"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_010": {
+        "text": "yaşça orta evrede olan",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_011": {
+        "text": "ne genç ne yaşlı sığır",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss sığırdaki orta yaş niteliğini verir; kadın kullanımındaki evlenmişlik veya ileri yaş çağrışımı yoktur."
+        }
+      },
+      "lu_012": {
+        "text": "orta yaşlı ya da evlenmiş kadın",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_013": {
+        "text": "orta yaşlı at",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss at için orta yaş evresini verir; kadın kullanımındaki ek çağrışımları taşımaz."
+        }
+      },
+      "lu_014": {
+        "text": "orta yaşta olanlar",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu çoğul gloss genel orta yaş niteliğini verir; kadın kullanımına özgü çağrışımlar belirtilmez."
+        }
+      }
+    }
+  }
+}

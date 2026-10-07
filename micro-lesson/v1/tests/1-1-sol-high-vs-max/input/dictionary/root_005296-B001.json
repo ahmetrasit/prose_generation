@@ -1,0 +1,161 @@
+{
+  "root_ar": "و ل ه",
+  "branch_ref": "root_005296/B001",
+  "source_status": {
+    "upstream_entry": "../quran-data/data/dictionary/tr/root_005296_entry.json",
+    "finalized_entry": null,
+    "reviewed_gloss_file": null,
+    "gloss_status": null,
+    "source_entry_review": null,
+    "review_response_locator": null
+  },
+  "root_profile": {
+    "summary": "Bu kökün anlam alanı üç dala ayrılır: güçlü duyguyla aklın karışması ve özlem, anne ile yavruyu ayırarak annede bu durumu doğurma ve açık araziye salınan suyun akıp kaybolması. Dallar, düzenin bozulması veya bir şeyin yerinden uzaklaşıp yitmesi gibi genel bir bağ taşısa da katılımcıları ve olay türleri açıkça ayrıdır.",
+    "polysemy": "polysemic",
+    "organization": "multi_branch"
+  },
+  "branch": {
+    "branch_ref": "root_005296/B001",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak sözü, yoğun duygunun aklı karıştırması ya da gidermesi ile kaybedilen veya sevilen varlığa duyulan güçlü özlemi aynı dalda toplar. İnsanlarda üzüntü ve sevinç, hayvanlarda yavru ya da eşten ayrı kalma, bir yerde ise insanı şaşırtma bu çekirdeğin ayrı görünümleridir.",
+      "boundary_note": "Bu dal duygusal sarsıntı, şaşkınlık ve özlem durumudur; anne ile yavruyu ayıran geçişli eylemi veya açık araziye salınan suyun yitmesini anlatmaz."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "unresolved",
+      "note": "Veri, anlamın yalın bir sözlük birimine mi yoksa belirli bir yapıya mı bağlı olduğunu kesinleştirmediği için tanım yalnızca kaynak sözünün gösterdiği alanla sınırlıdır."
+    },
+    "concept_map": {
+      "definition": "Yoğun sevgi, üzüntü veya sevinç yüzünden aklın karışması ya da sağlıklı işleyişini yitirmesi; ayrıca kaybedilen yahut sevilen varlığa güçlü özlem ve yöneliş duyulmasıdır. Bu görünümler insanlarda ve yakınından ayrılan hayvanlarda görülür; insanı şaşırtan bir yer için de aktarılabilir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Yoğun bir duygulanma aklı karıştırır veya sağlıklı düşünme gücünü ortadan kaldırır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Kaybedilen ya da sevilen varlığa karşı güçlü özlem ve yöneliş duyulur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "Yavrusundan ayrılan dişinin veya eşlerinden ayrı kalan devenin çektiği özlem bu durumun hayvanlara özgü görünümüdür.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "associated_use",
+          "statement": "İnsanın yönünü ya da düşüncesini karıştıran bir yer de aynı şaşırtma fikriyle nitelenebilir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynakların birleşen anlatımı, güçlü duygunun aklı bozması veya gidermesiyle özlem ve şaşkınlığı bir arada verir. Üzüntü kadar sevinç de bu durumu doğurabilir; insan, yavrusunu arayan dişi hayvan ve eşlerini arayan deve örnekleri aynı çekirdeğin kapsamını gösterir.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "yoğun duygudan aklı karışma veya ayrılıktan özlem çekme",
+      "applicability": "Dalın yoğun duygudan doğan akıl karışması ile kaybedilen veya sevilen varlığa yönelen güçlü özlemi ayrı görünümleriyle kapsayan kısa karşılıktır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Yoğun duygudan doğan akıl karışmasını ve kaybedilene duyulan güçlü özlemi ayrı görünümler olarak korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "kendini kaybedip şaşırmak",
+        "usage_role": "contextual",
+        "applicability": "Yoğun üzüntü ya da sevinç yüzünden düşünme gücünün sarsıldığı insan bağlamlarında doğal bir karşılıktır.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Duygusal sarsıntıyı ve aklın karışmasını açık biçimde korur.",
+          "loses": "Kaybedilen ya da sevilen varlığa yönelen özlem boyutunu tek başına belirtmez.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "özlemden perişan olmak",
+        "usage_role": "contextual",
+        "applicability": "Bir insanın veya yakınından ayrılan hayvanın yoğun özlem yaşadığı bağlamlara uygundur.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Ayrılık kaynaklı güçlü özlemi ve onun sarsıcı etkisini korur.",
+          "loses": "Sevinçten doğan akıl karışmasını ve yerlerin şaşırtıcı oluşunu kapsamaz.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002",
+          "F003"
+        ]
+      }
+    ],
+    "lexical_glosses": [],
+    "excluded_glosses": [
+      {
+        "text": "şaşkınlık",
+        "category": "alternative",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Aklın karışması ve ne yapacağını bilememe yönünü korur.",
+          "loses": "Güçlü duygunun aklı gideren etkisini ve kaybedilene duyulan özlemi siler.",
+          "adds": null,
+          "collision": null
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_005296/B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Bu dal, sebebi ayrılık, üzüntü veya sevinç olabilen akıl karışması ve özlem durumunu anlatır; yaşayanın insan ya da hayvan olması mümkündür.",
+        "neighbor_only": "Komşu dal, özellikle bir anne ile yavrusunu ayıran geçişli eylemi ve bunun anneyi özlemli duruma düşürmesini anlatır.",
+        "gloss": "duygusal sarsıntı ile anne-yavruyu ayırma",
+        "shared_zone": "Her iki dalda da ayrılık yüzünden yoğun özlem yaşayan bir anne veya dişi hayvan bulunabilir.",
+        "distinction": "Burada odak, özlem ve akıl karışıklığını yaşayan varlığın durumudur. Komşu dalda odak, bu durumu doğuracak biçimde anne ile yavruyu birbirinden ayıran kişinin eylemidir; bu yüzden birbirlerinin yerine kullanılamazlar."
+      }
+    ],
+    "neighbor_coverage_note": "Gösterilen iki komşu da incelendi. Anne ile yavruyu ayırma, sonuçtaki özlem nedeniyle gerekli bir karşıtlık sunar; suyun akıp yitmesiyle ortaklık ise yalnızca çok genel bir uzaklaşma fikrinde kalır.",
+    "branch_image_ar": "الوَلَه والحيرة",
+    "what_is_ar": "ذهاب العقل أو اضطرابه من شدة الوجد، والحيرة، والحنين إلى المفقود أو المحبوب في الرجل والمرأة والناقة والجمل",
+    "what_is_not_ar": "ليس التفريق المتعدي بين الوالدة وولدها؛ وليس الماء المرسل في الصحراء",
+    "source_phrase_ar": "أصل صحيح يدل على اضطراب شيء أو ذهابه (maqayis)؛ رجل واله وامرأة واله ووالهة (maqayis;sihah)؛ الوله ذهاب العقل والتحير من شدة الوجد (sihah)؛ ولهت إليه تله أن تحن إليه (tahdhib)؛ الوله يكون من الحزن والسرور مثل الطرب (tahdhib)؛ ناقة واله إذا اشتد وجدها على ولدها (sihah)؛ الجمل إذا فقد ألافه فحن إليها واله (tahdhib)؛ البلاد التي توله الإنسان أي تحيره (sihah)",
+    "sources": [
+      "MQ",
+      "SI",
+      "TA"
+    ],
+    "source_note": {}
+  }
+}

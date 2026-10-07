@@ -1,0 +1,1238 @@
+{
+  "schema_version": "1.1",
+  "page_id": "1:1",
+  "engine": "grammar",
+  "paragraphs": [
+    {
+      "paragraph_id": "p01",
+      "lessons": [
+        {
+          "key": "bi-name",
+          "concepts": [
+            {
+              "id": "ML:C001",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C004",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C184",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C273",
+              "role": "teaches"
+            }
+          ],
+          "level": 1,
+          "sentences_tr": [
+            "بِسْمِ (bi-smi) tek yazılır; bi- “ile” ilişkisini kurar, ism ise “ad”dır. “Adıyla” Türkçesi bu bağı doğal biçimde verir."
+          ],
+          "anchors": [
+            {
+              "source_ref": "1:1",
+              "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "reading_tr": "bismillâhi'r-rahmâni'r-rahîm"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p01",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/1-1.json#morphemes",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/1-1.json#1:1:1:1",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/1-1.json#1:1:1:2"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        },
+        {
+          "key": "name-chain",
+          "concepts": [
+            {
+              "id": "ML:C011",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C010",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C069",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "بِسْمِ ٱللَّهِ (bismillâh) “Allah’ın adıyla” tamlamasıdır; ardından gelen ٱلرَّحْمَٰنِ ve ٱلرَّحِيمِ aynı adı niteler. Sondaki -i sesleri bu bağların izidir."
+          ],
+          "anchors": [
+            {
+              "source_ref": "1:1",
+              "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "reading_tr": "bismillâhi'r-rahmâni'r-rahîm"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p01",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/1-1.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        },
+        {
+          "key": "unsaid-action",
+          "concepts": [
+            {
+              "id": "ML:C182",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C280",
+              "role": "teaches"
+            }
+          ],
+          "level": 1,
+          "sentences_tr": [
+            "بِسْمِ ٱللَّهِ (bismillâh) sözünde yapılan işi söyleyen bir fiil yoktur. “Başlıyorum” gibi bir fiil bağlamdan anlaşılabilir; ayetin açık kelimesi diye okunmaz."
+          ],
+          "anchors": [
+            {
+              "source_ref": "1:1",
+              "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "reading_tr": "bismillâhi'r-rahmâni'r-rahîm"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p01",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/1-1.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p02",
+      "lessons": [
+        {
+          "key": "stated-verbs",
+          "concepts": [
+            {
+              "id": "ML:C091",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C159",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C184",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "ٱقْرَأْ (ikra’, “oku”) ve فَسَبِّحْ (fe-sebbih, “tesbih et”) açık fiillerdir; iki cümlede de بِٱسْمِ (bismi) onlara bağlanır. Bu karşılaştırma Fâtiha’daki söylenmemiş işi görünür kılar."
+          ],
+          "anchors": [
+            {
+              "source_ref": "96:1",
+              "arabic": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+              "reading_tr": "ikra' bismi rabbikellezî halak"
+            },
+            {
+              "source_ref": "56:74",
+              "arabic": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+              "reading_tr": "fe-sebbih bismi rabbike'l-azîm"
+            },
+            {
+              "source_ref": "1:1",
+              "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "reading_tr": "bismillâhi'r-rahmâni'r-rahîm"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p02",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/96-1.json#morphemes",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/56-74.json#morphemes",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/1-1.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p03",
+      "lessons": [
+        {
+          "key": "ride-and-possessives",
+          "concepts": [
+            {
+              "id": "ML:C091",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C078",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C170",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "ٱرْكَبُوا۟ (irkebû) birden çok kişiye “binin” der; مَجْر۪ىٰهَا ve مُرْسَىٰهَآ (mecrâhâ, mürsâhâ) sonundaki -hâ gemiye döner. Yürüme ve durma aynı geminin iki hâlidir."
+          ],
+          "anchors": [
+            {
+              "source_ref": "11:41",
+              "arabic": "ٱرْكَبُوا۟ فِيهَا بِسْمِ ٱللَّهِ مَجْر۪ىٰهَا وَمُرْسَىٰهَآ ۚ إِنَّ رَبِّى لَغَفُورٌۭ رَّحِيمٌۭ",
+              "reading_tr": "irkebû fîhâ bismillâhi mecrâhâ ve mürsâhâ, inne rabbî le-gafûrun rahîm"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p03",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/11-41.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        },
+        {
+          "key": "no-protector",
+          "concepts": [
+            {
+              "id": "ML:C150",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C167",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C229",
+              "role": "teaches"
+            }
+          ],
+          "level": 3,
+          "sentences_tr": [
+            "لَا عَاصِمَ ... إِلَّا مَن رَّحِمَ (lâ âsıme ... illâ men rahim) önce koruyucuyu dışlar, sonra merhamet edilen kişiyi ayırır. “Kimse korunamaz” sözü bu istisnayla birlikte okunur."
+          ],
+          "anchors": [
+            {
+              "source_ref": "11:43",
+              "arabic": "لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن رَّحِمَ",
+              "reading_tr": "lâ âsıme'l-yevme min emrillâhi illâ men rahim"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p03",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/11-43.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p04",
+      "lessons": [
+        {
+          "key": "named-and-unnamed",
+          "concepts": [
+            {
+              "id": "ML:C103",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C201",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C203",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C226",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "ذُكِرَ (zükire, “anıldı”) ile لَمْ يُذْكَرِ (lem yüzker, “anılmadı”) edilgen biçimlerdir; ikisinde de anılan veya anılmayan şey ٱسْمُ ٱللَّهِ’dir. Karşıtlık, failden çok adın anılmasına odaklanır."
+          ],
+          "anchors": [
+            {
+              "source_ref": "6:118",
+              "arabic": "فَكُلُوا۟ مِمَّا ذُكِرَ ٱسْمُ ٱللَّهِ عَلَيْهِ",
+              "reading_tr": "fe-külû mimmâ zükirasmullâhi aleyh"
+            },
+            {
+              "source_ref": "6:121",
+              "arabic": "وَلَا تَأْكُلُوا۟ مِمَّا لَمْ يُذْكَرِ ٱسْمُ ٱللَّهِ عَلَيْهِ",
+              "reading_tr": "ve lâ te'külû mimmâ lem yüzkerismullâhi aleyh"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p04",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/6-118.json#morphemes",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/6-121.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        },
+        {
+          "key": "mention-command",
+          "concepts": [
+            {
+              "id": "ML:C091",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C157",
+              "role": "teaches"
+            }
+          ],
+          "level": 1,
+          "sentences_tr": [
+            "وَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ (vezkürüsmellâh) “Allah’ın adını anın” emridir; burada ٱسْمَ, anma fiilinin nesnesidir. Öteki iki alıntıdaki edilgen “ad anıldı” yapısından görevce ayrılır."
+          ],
+          "anchors": [
+            {
+              "source_ref": "5:4",
+              "arabic": "فَكُلُوا۟ مِمَّآ أَمْسَكْنَ عَلَيْكُمْ وَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهِ",
+              "reading_tr": "fe-külû mimmâ emsekne aleyküm vezkürüsmellâhi aleyh"
+            },
+            {
+              "source_ref": "6:118",
+              "arabic": "فَكُلُوا۟ مِمَّا ذُكِرَ ٱسْمُ ٱللَّهِ عَلَيْهِ",
+              "reading_tr": "fe-külû mimmâ zükirasmullâhi aleyh"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p04",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/5-4.json#morphemes",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/6-118.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p05",
+      "lessons": [],
+      "deferred": [],
+      "notes": [
+        "Bu paragrafın baskın işi sözlük anlamı veya yorumla karşılaştırmadır; bağımsız, güvenli yeni bir dilbilgisi dersi çıkmadı."
+      ]
+    },
+    {
+      "paragraph_id": "p06",
+      "lessons": [],
+      "deferred": [],
+      "notes": [
+        "Bu paragrafın baskın işi sözlük anlamı veya yorumla karşılaştırmadır; bağımsız, güvenli yeni bir dilbilgisi dersi çıkmadı."
+      ]
+    },
+    {
+      "paragraph_id": "p07",
+      "lessons": [
+        {
+          "key": "name-as-object",
+          "concepts": [
+            {
+              "id": "ML:C157",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C273",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "سَبِّحِ ٱسْمَ رَبِّكَ (sebbihisme rabbik) sözünde “ad”, tesbih et fiilinin nesnesidir. Türkçedeki “Rabbinin adını tesbih et” sırası bu ilişkiyi açıklar."
+          ],
+          "anchors": [
+            {
+              "source_ref": "87:1",
+              "arabic": "سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+              "reading_tr": "sebbihisme rabbike'l-a'lâ"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p07",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/87-1.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p08",
+      "lessons": [],
+      "deferred": [],
+      "notes": [
+        "Bu paragrafın baskın işi sözlük anlamı veya yorumla karşılaştırmadır; bağımsız, güvenli yeni bir dilbilgisi dersi çıkmadı."
+      ]
+    },
+    {
+      "paragraph_id": "p09",
+      "lessons": [
+        {
+          "key": "question-of-equal",
+          "concepts": [
+            {
+              "id": "ML:C205",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C222",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C081",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "هَلْ تَعْلَمُ لَهُۥ سَمِيًّۭا (hel ta’lemü lehû semiyyâ) biçimce sorudur; lehû “O’na” bağını kurar. Bağlamdaki soru, adını hak edecek bir denkin bulunup bulunmadığını düşündürür."
+          ],
+          "anchors": [
+            {
+              "source_ref": "19:65",
+              "arabic": "رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا فَٱعْبُدْهُ وَٱصْطَبِرْ لِعِبَٰدَتِهِۦ ۚ هَلْ تَعْلَمُ لَهُۥ سَمِيًّۭا",
+              "reading_tr": "rabbü's-semâvâti ve'l-ardı ve mâ beynehümâ fa'büdhü vastabir li-ibâdetih, hel ta'lemü lehû semiyyâ"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p09",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/19-65.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p10",
+      "lessons": [
+        {
+          "key": "either-name",
+          "concepts": [
+            {
+              "id": "ML:C091",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C195",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C226",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ (id’ullâhe evi’d’u’r-rahmân) aynı “çağırın” fiilini iki adla yineler; أَوِ (ev) iki sesleniş seçeneğini bağlar."
+          ],
+          "anchors": [
+            {
+              "source_ref": "17:110",
+              "arabic": "قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ ۖ أَيًّۭا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ",
+              "reading_tr": "kuli'd'ullâhe evi'd'u'r-rahmân, eyyen mâ ted'û fe-lehü'l-esmâü'l-hüsnâ"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p10",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/17-110.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        },
+        {
+          "key": "names-plural",
+          "concepts": [
+            {
+              "id": "ML:C059",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C010",
+              "role": "teaches"
+            }
+          ],
+          "level": 1,
+          "sentences_tr": [
+            "ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ (el-esmâü’l-hüsnâ) “en güzel adlar”dır. أَسْمَآءُ (esmâ) ism’in iç yapısı değişerek kurulmuş çoğuludur; ٱلْحُسْنَىٰ onu niteler."
+          ],
+          "anchors": [
+            {
+              "source_ref": "7:180",
+              "arabic": "وَلِلَّهِ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ فَٱدْعُوهُ بِهَا",
+              "reading_tr": "ve lillâhi'l-esmâü'l-hüsnâ fed'ûhü bihâ"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p10",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/7-180.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p11",
+      "lessons": [
+        {
+          "key": "only-names",
+          "concepts": [
+            {
+              "id": "ML:C169",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C229",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "مَا تَعْبُدُونَ ... إِلَّآ أَسْمَآءًۭ (mâ ta’büdûne ... illâ esmâen) olumsuzluk ile illâ’yı birleştirir: “kulluk ettikleriniz yalnızca adlardır.” Kısıtlama, adları gerçek bir yetki dayanağı sayma iddiasını hedefler."
+          ],
+          "anchors": [
+            {
+              "source_ref": "12:40",
+              "arabic": "مَا تَعْبُدُونَ مِن دُونِهِۦٓ إِلَّآ أَسْمَآءًۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ",
+              "reading_tr": "mâ ta'büdûne min dûnihî illâ esmâen semmeytümûhâ entüm ve âbâüküm mâ enzelallâhü bihâ min sultân"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p11",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/12-40.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p12",
+      "lessons": [],
+      "deferred": [],
+      "notes": [
+        "Bu paragrafın baskın işi sözlük anlamı veya yorumla karşılaştırmadır; bağımsız, güvenli yeni bir dilbilgisi dersi çıkmadı."
+      ]
+    },
+    {
+      "paragraph_id": "p13",
+      "lessons": [
+        {
+          "key": "letter-opening",
+          "concepts": [
+            {
+              "id": "ML:C149",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C225",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C182",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "إِنَّهُۥ مِن سُلَيْمَٰنَ وَإِنَّهُۥ بِسْمِ ٱللَّهِ (innehû min Süleymân ... innehû bismillâh) iki kez “o” diyerek mektuba döner. İkinci sözde bismillâh açık bir mektup cümlesine bağlanır."
+          ],
+          "anchors": [
+            {
+              "source_ref": "27:30",
+              "arabic": "إِنَّهُۥ مِن سُلَيْمَٰنَ وَإِنَّهُۥ بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "reading_tr": "innehû min Süleymâne ve innehû bismillâhi'r-rahmâni'r-rahîm"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p13",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/27-30.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        },
+        {
+          "key": "do-not-exalt",
+          "concepts": [
+            {
+              "id": "ML:C201",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C091",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "أَلَّا تَعْلُوا۟ عَلَىَّ وَأْتُونِى (ellâ ta’lû aleyye ve’tûnî) önce “üstünlük taslamayın”, sonra “gelin” der. Birinci fiil yasak, ikincisi olumlu istek kurar."
+          ],
+          "anchors": [
+            {
+              "source_ref": "27:31",
+              "arabic": "أَلَّا تَعْلُوا۟ عَلَىَّ وَأْتُونِى مُسْلِمِينَ",
+              "reading_tr": "ellâ ta'lû aleyye ve'tûnî müslimîn"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p13",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/27-31.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p14",
+      "lessons": [
+        {
+          "key": "mark-him",
+          "concepts": [
+            {
+              "id": "ML:C079",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C095",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "سَنَسِمُهُ (se-nesimuhû) fiilindeki -hû “onu” gösterir; işaretlenen kişi fiilin sonundadır. Başındaki se- gelecek yönünü gösterir: “onu damgalayacağız.”"
+          ],
+          "anchors": [
+            {
+              "source_ref": "68:16",
+              "arabic": "سَنَسِمُهُۥ عَلَى ٱلْخُرْطُومِ",
+              "reading_tr": "se-nesimuhû ale'l-hurtûm"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p14",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/68-16.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p15",
+      "lessons": [
+        {
+          "key": "you-alone",
+          "concepts": [
+            {
+              "id": "ML:C219",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C220",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C157",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "إِيَّاكَ نَعْبُدُ (iyyâke na’büdü) “sana kulluk ederiz” sözünde muhatabı fiilin önüne getirir. Bu sıra, kulluğun yöneldiği kişiyi öne çıkarıp “yalnız sana” okumasını destekler."
+          ],
+          "anchors": [
+            {
+              "source_ref": "1:5",
+              "arabic": "إِيَّاكَ نَعْبُدُ",
+              "reading_tr": "iyyâke na'büdü"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p15",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/1-5.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p16",
+      "lessons": [
+        {
+          "key": "call-and-oath",
+          "concepts": [
+            {
+              "id": "ML:C156",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C179",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C278",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "Sözlükte يا ألله (yâ Allâh) doğrudan sesleniş, الله ما فعلت (Allâhi mâ fealtü) ise antla başlayan bildiridir. Aynı ad, yapısına göre başka söz işi görür."
+          ],
+          "anchors": [
+            {
+              "source_ref": "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/dictionary/root_000047-B002.json#branch.source_phrase_ar",
+              "arabic": "يا ألله اغفر لي",
+              "reading_tr": "yâ allâhü'ğfir lî"
+            },
+            {
+              "source_ref": "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/dictionary/root_000047-B002.json#branch.source_phrase_ar",
+              "arabic": "الله ما فعلت ذاك تريد والله ما فعلته",
+              "reading_tr": "Allâhi mâ fealtü zâke, türîdü vallâhi mâ fealtüh"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p16",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/dictionary/root_000047-B002.json#branch.source_phrase_ar"
+          ],
+          "reminder_ids": [],
+          "branch_refs": [
+            "root_000047/B002"
+          ]
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p17",
+      "lessons": [
+        {
+          "key": "no-other-god",
+          "concepts": [
+            {
+              "id": "ML:C169",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C226",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "لَّآ إِلَٰهَ إِلَّا هُوَ (lâ ilâhe illâ hüve) olumsuzluk ve istisnayla “O’ndan başka ilah yok” anlamını kurar. Aynı yapı 2:163 ile 59:22’de iki adı izleyen bağlamı birleştirir."
+          ],
+          "anchors": [
+            {
+              "source_ref": "2:163",
+              "arabic": "وَإِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ",
+              "reading_tr": "ve ilâhüküm ilâhün vâhid, lâ ilâhe illâ hüve'r-rahmânü'r-rahîm"
+            },
+            {
+              "source_ref": "59:22",
+              "arabic": "هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَٰهَ إِلَّا هُوَ ۖ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۖ هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ",
+              "reading_tr": "hüvallâhüllezî lâ ilâhe illâ hüv, âlimü'l-gaybi ve'ş-şehâdeh, hüve'r-rahmânü'r-rahîm"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p17",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/2-163.json#morphemes",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/59-22.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p18",
+      "lessons": [],
+      "deferred": [],
+      "notes": [
+        "Bu paragrafın baskın işi sözlük anlamı veya yorumla karşılaştırmadır; bağımsız, güvenli yeni bir dilbilgisi dersi çıkmadı."
+      ]
+    },
+    {
+      "paragraph_id": "p19",
+      "lessons": [],
+      "deferred": [],
+      "notes": [
+        "Bu paragrafın baskın işi sözlük anlamı veya yorumla karşılaştırmadır; bağımsız, güvenli yeni bir dilbilgisi dersi çıkmadı."
+      ]
+    },
+    {
+      "paragraph_id": "p20",
+      "lessons": [
+        {
+          "key": "two-adjectives",
+          "concepts": [
+            {
+              "id": "ML:C010",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C035",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C024",
+              "role": "teaches"
+            }
+          ],
+          "level": 1,
+          "sentences_tr": [
+            "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ (er-rahmâni’r-rahîm) 1:1’de aynı adı niteleyen iki ayrı sözcüktür. İkisinin ر ح م kökü ortaktır; farklı sözcük oluşları anlamlarını tek bir biçime indirmez."
+          ],
+          "anchors": [
+            {
+              "source_ref": "1:1",
+              "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "reading_tr": "bismillâhi'r-rahmâni'r-rahîm"
+            },
+            {
+              "source_ref": "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/dictionary/root_000552-B001.json#branch.source_phrase_ar",
+              "arabic": "والرحمن الرحيم مشتقان من الرحمة",
+              "reading_tr": "ve'r-rahmânü'r-rahîmü müştakkâni mine'r-rahme"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p20",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/1-1.json#morphemes",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/dictionary/root_000552-B001.json#branch.source_phrase_ar"
+          ],
+          "reminder_ids": [],
+          "branch_refs": [
+            "root_000552/B001"
+          ]
+        },
+        {
+          "key": "anger-directed",
+          "concepts": [
+            {
+              "id": "ML:C127",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C189",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "ٱلْمَغْضُوبِ عَلَيْهِمْ (el-mağdûbi aleyhim) “gazaba uğrayanlar” der; عَلَيْهِمْ (aleyhim) yönelmenin kime olduğunu belirtir. Bu, 1:1’deki merhamet adlarının biçimsel karşıtı değildir."
+          ],
+          "anchors": [
+            {
+              "source_ref": "1:7",
+              "arabic": "ٱلْمَغْضُوبِ عَلَيْهِمْ",
+              "reading_tr": "el-mağdûbi aleyhim"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p20",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/1-7.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p21",
+      "lessons": [
+        {
+          "key": "to-believers",
+          "concepts": [
+            {
+              "id": "ML:C159",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C184",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "بِٱلْمُؤْمِنِينَ رَحِيمًۭا (bi’l-mü’minîne rahîmâ) ifadesinde bi- merhametin yöneldiği topluluğu belirtir. “İnananlara karşı merhametli” Türkçesi bu bağlantıyı görünür kılar."
+          ],
+          "anchors": [
+            {
+              "source_ref": "33:43",
+              "arabic": "وَكَانَ بِٱلْمُؤْمِنِينَ رَحِيمًۭا",
+              "reading_tr": "ve kâne bi'l-mü'minîne rahîmâ"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p21",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/33-43.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        },
+        {
+          "key": "rahman-opening",
+          "concepts": [
+            {
+              "id": "ML:C139",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C182",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C280",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "ٱلرَّحْمَٰنُ (er-rahmân) 55:1’de tek başına durur; ardından عَلَّمَ ٱلْقُرْءَانَ (alleme’l-kur’ân) gelir. Bölünmüş ayetler arasında aynı öznenin sürdüğünü okumak bağlamsal bir çözümlemedir."
+          ],
+          "anchors": [
+            {
+              "source_ref": "55:1",
+              "arabic": "ٱلرَّحْمَٰنُ",
+              "reading_tr": "er-rahmân"
+            },
+            {
+              "source_ref": "55:2",
+              "arabic": "عَلَّمَ ٱلْقُرْءَانَ",
+              "reading_tr": "alleme'l-kur'ân"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p21",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/55-1.json#morphemes",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/55-2.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p22",
+      "lessons": [
+        {
+          "key": "my-mercy",
+          "concepts": [
+            {
+              "id": "ML:C078",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C080",
+              "role": "teaches"
+            }
+          ],
+          "level": 1,
+          "sentences_tr": [
+            "رَحْمَتِى (rahmetî) “rahmetim”deki -î konuşanın kendisine döner; وَسِعَتْ (vesiat, “kuşattı”) bu rahmete yüklenen fiildir. Sahibi gösteren ek, merhametin kapsamını tek başına belirlemez."
+          ],
+          "anchors": [
+            {
+              "source_ref": "7:156",
+              "arabic": "عَذَابِىٓ أُصِيبُ بِهِۦ مَنْ أَشَآءُ ۖ وَرَحْمَتِى وَسِعَتْ كُلَّ شَىْءٍۢ",
+              "reading_tr": "azâbî usîbü bihî men eşâ', ve rahmetî vesiat külle şey'"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p22",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/7-156.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        },
+        {
+          "key": "upon-himself",
+          "concepts": [
+            {
+              "id": "ML:C189",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C081",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ (ketebe alâ nefsihi’r-rahme) sözünde عَلَىٰ نَفْسِهِ “kendi üzerine” ilişkisini kurar. Türkçe “rahmeti kendi üzerine yazdı” deyişi bu edatlı kuruluşu taşır."
+          ],
+          "anchors": [
+            {
+              "source_ref": "6:12",
+              "arabic": "كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ",
+              "reading_tr": "ketebe alâ nefsihi'r-rahme"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p22",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/6-12.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p23",
+      "lessons": [
+        {
+          "key": "help-same-root",
+          "concepts": [
+            {
+              "id": "ML:C024",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C121",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C016",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "ٱلْمُسْتَعَانُ (el-müste’ân, “yardımı istenen”) ile نَسْتَعِينُ (neste’în, “yardım isteriz”) ع و ن ailesindedir. Biri yardım istenen kişiyi niteler, öteki isteği fiille söyler."
+          ],
+          "anchors": [
+            {
+              "source_ref": "21:112",
+              "arabic": "وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
+              "reading_tr": "ve rabbüne'r-rahmânü'l-müste'ânü alâ mâ tesifûn"
+            },
+            {
+              "source_ref": "1:5",
+              "arabic": "وَإِيَّاكَ نَسْتَعِينُ",
+              "reading_tr": "ve iyyâke neste'în"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p23",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/21-112.json#morphemes",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/1-5.json#morphemes",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/dictionary/root_001064-B001.json#branch.concept_map"
+          ],
+          "reminder_ids": [],
+          "branch_refs": [
+            "root_001064/B001"
+          ]
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p24",
+      "lessons": [],
+      "deferred": [],
+      "notes": [
+        "Bu paragrafın baskın işi sözlük anlamı veya yorumla karşılaştırmadır; bağımsız, güvenli yeni bir dilbilgisi dersi çıkmadı."
+      ]
+    },
+    {
+      "paragraph_id": "p25",
+      "lessons": [
+        {
+          "key": "mercy-traces",
+          "concepts": [
+            {
+              "id": "ML:C011",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C159",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "ءَاثَٰرِ رَحْمَتِ ٱللَّهِ (âsâri rahmetillâh) “Allah’ın rahmetinin izleri” diye iç içe tamlanır. İzler görülebilir; ayet bu ifadeyle toprağın dirilişine bakmayı ister."
+          ],
+          "anchors": [
+            {
+              "source_ref": "30:50",
+              "arabic": "فَٱنظُرْ إِلَىٰٓ ءَاثَٰرِ رَحْمَتِ ٱللَّهِ كَيْفَ يُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ",
+              "reading_tr": "fenzur ilâ âsâri rahmetillâhi keyfe yuhyi'l-arda ba'de mevtihâ"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p25",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/30-50.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p26",
+      "lessons": [
+        {
+          "key": "god-and-kin",
+          "concepts": [
+            {
+              "id": "ML:C170",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C081",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "وَٱلْأَرْحَامَ (ve’l-erhâm) önceki “Allah’tan sakının” buyruğuna vâv ile bağlanır. Türkçede “Allah’tan ve rahimlerden” diyerek iki ilişkiyi açmak gerekir."
+          ],
+          "anchors": [
+            {
+              "source_ref": "4:1",
+              "arabic": "وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ",
+              "reading_tr": "vettekullâhellezî tesâelûne bihî ve'l-erhâm"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p26",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/4-1.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        },
+        {
+          "key": "in-wombs",
+          "concepts": [
+            {
+              "id": "ML:C188",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C059",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "فِى ٱلْأَرْحَامِ (fi’l-erhâm) “rahimlerde”dir; فِى (fî) yer ilişkisini kurar, أَرْحَامِ (erhâm) rahim sözünün çoğuludur. Burada organ adı kullanılır."
+          ],
+          "anchors": [
+            {
+              "source_ref": "3:6",
+              "arabic": "هُوَ ٱلَّذِى يُصَوِّرُكُمْ فِى ٱلْأَرْحَامِ كَيْفَ يَشَآءُ ۚ لَآ إِلَٰهَ إِلَّا هُوَ",
+              "reading_tr": "hüvellezî yusavvirukum fi'l-erhâmi keyfe yeşâ', lâ ilâhe illâ hüv"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p26",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/3-6.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": [
+            "root_000552/B003"
+          ]
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    },
+    {
+      "paragraph_id": "p27",
+      "lessons": [
+        {
+          "key": "enter-mercy",
+          "concepts": [
+            {
+              "id": "ML:C091",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C079",
+              "role": "teaches"
+            },
+            {
+              "id": "ML:C188",
+              "role": "teaches"
+            }
+          ],
+          "level": 2,
+          "sentences_tr": [
+            "وَأَدْخِلْنَا فِى رَحْمَتِكَ (ve edhilnâ fî rahmetik) “bizi rahmetinin içine al” isteğidir. -nâ “bizi”, fî “içine”, -ke ise “senin” bağını taşır."
+          ],
+          "anchors": [
+            {
+              "source_ref": "7:151",
+              "arabic": "وَأَدْخِلْنَا فِى رَحْمَتِكَ",
+              "reading_tr": "ve edhilnâ fî rahmetik"
+            }
+          ],
+          "evidence_refs": [
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/paragraphs.json#p27",
+            "micro-lesson/v1/tests/1-1-sol-high-vs-max/input/ayat/7-151.json#morphemes"
+          ],
+          "reminder_ids": [],
+          "branch_refs": []
+        }
+      ],
+      "deferred": [],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "Her paragraf incelendi; dilbilgisi adayları yalnız yerel Arapça biçim veya yapıya bağlandı."
+  ]
+}

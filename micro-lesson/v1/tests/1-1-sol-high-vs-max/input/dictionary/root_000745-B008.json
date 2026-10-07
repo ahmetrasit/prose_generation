@@ -1,0 +1,465 @@
+{
+  "root_ar": "س م و",
+  "branch_ref": "root_000745/B008",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_000745.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_000745.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+      "entry_id": "root_000745/tr",
+      "status": "reviewed",
+      "review_verdict": "editorial_review",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_000745/tr/repair/editorial/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, somut ve toplumsal yükselme çekirdeğinden uzaktan beliren yüksek görünüşe, üstteki gök ve örtüye, adlandırmaya ve iyi üne uzanır; ayrıca erkek devenin sürüye girişi, ava çıkma ve karşılıklı yarışma gibi kalıplaşmış dallar taşır. Bu yapı, anlamca bağlantılı uzantılarla daha bağımsız eski kullanımları birlikte barındırır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_000745/B008",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi anlamı insanlar arasında yayılan ses ya da ünle sınırlar ve bunun yalnız iyi yönde olduğunu açıkça belirtir. Geçici dal tanımı yayılma, toplumsal alan ve olumlu değer koşullarını eksiksiz korur.",
+      "boundary_note": "Dal yalnız insanlar arasında yayılan iyi ünü kapsar; kötü ün, her türlü ses veya dilsel ad bu sınıra girmez."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "bare",
+      "note": "Tanım, başka bir söz yapısından anlam taşımadan yalnız dalın insanlar arasında yayılan iyi ün çekirdeğini verir."
+    },
+    "concept_map": {
+      "definition": "Bir kişi hakkında insanlar arasında yayılan ve yalnız iyi yönde olan ün veya sözdür.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir kişi hakkındaki söz veya ün insanlar arasında yayılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Yayılan ün yalnız iyi yöndedir ve kötü ünü dışarıda bırakır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynaklar arasında ortaklaştırılacak ayrı bir iddia bulunmaz; dal tek tanıklığın koyduğu olumlu ün sınırına dayanır.",
+      "common_claim_ids": [],
+      "source_details": [
+        {
+          "claim_ids": [
+            "bc_001"
+          ],
+          "kind": "sole_attestation",
+          "summary": "Tek tanıklık, insanlar arasında yayılan sözün yalnız iyi yöndeki ün olduğunu ve kötü ünü kapsamadığını belirtir."
+        }
+      ],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "insanlar arasında yayılan iyi ün",
+      "applicability": "Yayılma, insanlar arasındaki dolaşım ve yalnız olumlu olma koşullarını birlikte taşıyan dalın tamamı için uygundur.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Ünün insanlar arasında yayılmasını ve yalnız iyi yönde olmasını korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "iyi ünü yayılmak",
+        "usage_role": "general",
+        "applicability": "Bir kişinin iyi yöndeki ününün insanlar arasında duyulup yayıldığı bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "İyi ünün toplumsal çevrede yayılması sürecini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      },
+      {
+        "text": "hakkında iyi söz dolaşmak",
+        "usage_role": "contextual",
+        "applicability": "Bir kişi hakkında yalnız olumlu sözlerin insanlar arasında dolaştığı bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kişi hakkındaki olumlu sözün insanlar arasında dolaşmasını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001",
+          "F002"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_030",
+        "rendering_kind": "ordinary",
+        "target_gloss": "insanlar arasında yayılan iyi ün veya iyi söz"
+      }
+    ],
+    "excluded_glosses": [],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000890/B002",
+        "relation_type": "synonym",
+        "boundary_match": "exact",
+        "focus_only": null,
+        "neighbor_only": null,
+        "gloss": "yayılan iyi ün",
+        "shared_zone": "Her iki dal insanlar arasında yayılan iyi ve güzel ünü aynı olumlu sınırla anlatır.",
+        "distinction": "Kanıtta anlamlı bir kapsam, koşul veya değer farkı görünmez; iki dal aynı iyi ün çekirdeğinde birbirinin yerine kullanılabilir."
+      },
+      {
+        "neighbor_ref": "root_000804/B004",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı iyi ünün insanlar arasında yayılıp yerleşmesini özellikle gerektirir.",
+        "neighbor_only": "Komşu dal kişiye yöneltilen güzel anma ve övgü eylemini, yaygın ün oluşmasa da kapsar.",
+        "gloss": "iyi ün ve övgü",
+        "shared_zone": "İki dal da bir kişinin insanlarca iyi biçimde anılmasını içerir.",
+        "distinction": "Odak dalında iyi anılma yayılmış bir üne dönüşür; komşu dalda doğrudan övgü ve güzel anma, yayılma şartı olmadan yeterlidir."
+      },
+      {
+        "neighbor_ref": "root_000741/B005",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı yayılan ünü yalnız iyi ve olumlu sözle sınırlar.",
+        "neighbor_only": "Komşu dal iyi veya kötü yaygın ünü, gösterişi ve birini açıkça kötü tanıtmayı da kapsar.",
+        "gloss": "iyi ün ve genel şöhret",
+        "shared_zone": "Her iki dal bir kişi hakkındaki sözün insanlar arasında yayılmasını anlatır.",
+        "distinction": "Odak dalı kesin biçimde olumlu değerlidir; komşu dal olumlu ya da olumsuz yayılmaya ve gösteriş amaçlı duyurmaya açıktır."
+      },
+      {
+        "neighbor_ref": "root_000823/B002",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı yalnız bir kişi hakkında yayılan iyi ünü kapsar.",
+        "neighbor_only": "Komşu dal kişi veya şeyin iyi ya da kötü biçimde tanınmasını, rezillik ve kötü şöhreti de kapsar.",
+        "gloss": "iyi ün ve değer bakımından nötr şöhret",
+        "shared_zone": "İki dal bir kişi ya da şeyin insanlar arasında tanınır hale gelmesini içerir.",
+        "distinction": "Odak dalı kişi ve olumlu değerle sınırlıdır; komşu dal nesnelere uzanır ve olumlu ün yanında kötü şöhret ile rezilliği de içerir."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; tam eşdeğer iyi ün dalı ile övgü ve olumlu ya da olumsuz şöhret sınırlarını gösteren dört ilişki yayımlandı.",
+    "branch_image_ar": "الصيت الحسن المنتشر",
+    "what_is_ar": "يدخل فيه سماه بمعنى صوته أو صيته في الخير لا في الشر.",
+    "what_is_not_ar": "لا يدخل فيه الاسم الاصطلاحي، ولا مطلق الصوت إذا لم يكن صيتا في الخير.",
+    "source_phrase_ar": "ذهب صيته في الناس وسماه، أي صوته في الخير لا في الشر (tahdhib)",
+    "sources": [
+      "TA"
+    ],
+    "source_note": {
+      "TA": "Tek tanıklık, insanlar arasında yayılan sözün yalnız iyi yöndeki ün olduğunu ve kötü ünü kapsamadığını belirtir."
+    }
+  },
+  "finalized_branch": {
+    "root_id": "root_000745",
+    "branch_id": "B008",
+    "branch_image_ar": "الصيت الحسن المنتشر",
+    "what_is_ar": "يدخل فيه سماه بمعنى صوته أو صيته في الخير لا في الشر.",
+    "what_is_not_ar": "لا يدخل فيه الاسم الاصطلاحي، ولا مطلق الصوت إذا لم يكن صيتا في الخير.",
+    "source_phrase_ar": "ذهب صيته في الناس وسماه، أي صوته في الخير لا في الشر (tahdhib)",
+    "image_transliteration": "alsyt alhsn almntshr",
+    "summary": "Bir kişi hakkında insanlar arasında yayılan ve yalnız iyi yönde olan ün veya sözdür.",
+    "concept_map": {
+      "definition": "Bir kişi hakkında insanlar arasında yayılan ve yalnız iyi yönde olan ün veya sözdür.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir kişi hakkındaki söz veya ün insanlar arasında yayılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Yayılan ün yalnız iyi yöndedir ve kötü ünü dışarıda bırakır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi anlamı insanlar arasında yayılan ses ya da ünle sınırlar ve bunun yalnız iyi yönde olduğunu açıkça belirtir. Geçici dal tanımı yayılma, toplumsal alan ve olumlu değer koşullarını eksiksiz korur.",
+      "boundary_note": "Dal yalnız insanlar arasında yayılan iyi ünü kapsar; kötü ün, her türlü ses veya dilsel ad bu sınıra girmez."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "bare",
+      "note": "Tanım, başka bir söz yapısından anlam taşımadan yalnız dalın insanlar arasında yayılan iyi ün çekirdeğini verir."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "bare",
+      "has_non_bare": false,
+      "has_collocation": false,
+      "unit_kind_counts": {
+        "form": 1
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_030",
+        "expression_ar": "سماه",
+        "unit_kind": "form",
+        "sense_ar": "صيته أو صوته في الخير لا في الشر.",
+        "target_gloss": "insanlar arasında yayılan iyi ün veya iyi söz",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynaklar arasında ortaklaştırılacak ayrı bir iddia bulunmaz; dal tek tanıklığın koyduğu olumlu ün sınırına dayanır.",
+      "evidence_refs": [
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+      ],
+      "details": [
+        {
+          "kind": "sole_attestation",
+          "summary": "Tek tanıklık, insanlar arasında yayılan sözün yalnız iyi yöndeki ün olduğunu ve kötü ünü kapsamadığını belirtir.",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+          ],
+          "source_ids": [
+            "tahdhib"
+          ]
+        }
+      ],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 1,
+      "passage_count": 1,
+      "sources": [
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Bir kişi hakkında insanlar arasında yayılan ve yalnız iyi yönde olan ün veya sözdür.",
+      "concept": {
+        "rank": 1,
+        "text": "insanlar arasında yayılan iyi ün",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Yayılma, insanlar arasındaki dolaşım ve yalnız olumlu olma koşullarını birlikte taşıyan dalın tamamı için uygundur.",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Ünün insanlar arasında yayılmasını ve yalnız iyi yönde olmasını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "iyi ünü yayılmak",
+          "loanword_status": "none",
+          "usage_role": "general",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir kişinin iyi yöndeki ününün insanlar arasında duyulup yayıldığı bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F001",
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "İyi ünün toplumsal çevrede yayılması sürecini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "hakkında iyi söz dolaşmak",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir kişi hakkında yalnız olumlu sözlerin insanlar arasında dolaştığı bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F001",
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kişi hakkındaki olumlu sözün insanlar arasında dolaşmasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": []
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000890",
+        "neighbor_branch_id": "B002",
+        "relation_type": "synonym",
+        "boundary_match": "exact",
+        "focus_only": null,
+        "neighbor_only": null,
+        "expression_transliteration": "alsyt alhsn",
+        "gloss": "yayılan iyi ün",
+        "shared_zone": "Her iki dal insanlar arasında yayılan iyi ve güzel ünü aynı olumlu sınırla anlatır.",
+        "distinction": "Kanıtta anlamlı bir kapsam, koşul veya değer farkı görünmez; iki dal aynı iyi ün çekirdeğinde birbirinin yerine kullanılabilir.",
+        "expression_ar": "الصيت الحسن",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2028",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A4753:headword=%D8%B5%D9%88%D8%AA:root=%D8%B5%20%D9%88%20%D8%AA:sha=e0361d9fe9dc2c2c",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A877:headword=%D8%B5%D9%88%D8%AA:root=%D8%B5%20%D9%88%20%D8%AA:sha=68c7f30cd10ff90a",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A571:headword=%D8%B5%D9%88%D8%AA:root=%D8%B5%20%D9%88%20%D8%AA:sha=9d18f9f0fd096fea"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000804",
+        "neighbor_branch_id": "B004",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı iyi ünün insanlar arasında yayılıp yerleşmesini özellikle gerektirir.",
+        "neighbor_only": "Komşu dal kişiye yöneltilen güzel anma ve övgü eylemini, yaygın ün oluşmasa da kapsar.",
+        "expression_transliteration": "alshfh alhsnh fy alnas",
+        "gloss": "iyi ün ve övgü",
+        "shared_zone": "İki dal da bir kişinin insanlarca iyi biçimde anılmasını içerir.",
+        "distinction": "Odak dalında iyi anılma yayılmış bir üne dönüşür; komşu dalda doğrudan övgü ve güzel anma, yayılma şartı olmadan yeterlidir.",
+        "expression_ar": "الشفة الحسنة في الناس",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5145:headword=%D8%B4%D9%81%D9%87:root=%D8%B4%20%D9%81%20%D9%87:sha=046ba92fcad203be",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D295%3Bsegment_index%3D43:headword=%D8%B4%D9%81%D9%87:root=%D8%B4%20%D9%81%20%D9%87:sha=4c330f47dc8e7f51"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000741",
+        "neighbor_branch_id": "B005",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı yayılan ünü yalnız iyi ve olumlu sözle sınırlar.",
+        "neighbor_only": "Komşu dal iyi veya kötü yaygın ünü, gösterişi ve birini açıkça kötü tanıtmayı da kapsar.",
+        "expression_transliteration": "alsyt walshyw' byn alnas",
+        "gloss": "iyi ün ve genel şöhret",
+        "shared_zone": "Her iki dal bir kişi hakkındaki sözün insanlar arasında yayılmasını anlatır.",
+        "distinction": "Odak dalı kesin biçimde olumlu değerlidir; komşu dal olumlu ya da olumsuz yayılmaya ve gösteriş amaçlı duyurmaya açıktır.",
+        "expression_ar": "الصيت والشيوع بين الناس",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A526:headword=%D8%B3%D9%85%D8%B9:root=%D8%B3%20%D9%85%20%D8%B9:sha=35d655ceaade19bf",
+          "maqayis:root=%D8%B3%20%D9%85%20%D8%B9:headword=%D8%B3%D9%85%D8%B9:sha=63ce4e2247df0858",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3013:headword=%D8%B3%D9%85%D8%B9:root=%D8%B3%20%D9%85%20%D8%B9:sha=35717b7fc0045be6",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D123%3Bsegment_index%3D5:headword=%D8%B3%D9%85%D8%B9:root=%D8%B3%20%D9%85%20%D8%B9:sha=34df140d38a85d05"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000823",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı yalnız bir kişi hakkında yayılan iyi ünü kapsar.",
+        "neighbor_only": "Komşu dal kişi veya şeyin iyi ya da kötü biçimde tanınmasını, rezillik ve kötü şöhreti de kapsar.",
+        "expression_transliteration": "shhrh alshy' wzhwrh",
+        "gloss": "iyi ün ve değer bakımından nötr şöhret",
+        "shared_zone": "İki dal bir kişi ya da şeyin insanlar arasında tanınır hale gelmesini içerir.",
+        "distinction": "Odak dalı kişi ve olumlu değerle sınırlıdır; komşu dal nesnelere uzanır ve olumlu ün yanında kötü şöhret ile rezilliği de içerir.",
+        "expression_ar": "شهرة الشيء وظهوره",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1858",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2089:headword=%D8%B4%D9%87%D8%B1:root=%D8%B4%20%D9%87%20%D8%B1:sha=afba8a00a21b3946",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A814:headword=%D8%B4%D9%87%D8%B1:root=%D8%B4%20%D9%87%20%D8%B1:sha=26c5c65c18f91136",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1757:headword=%D8%B4%D9%87%D8%B1:root=%D8%B4%20%D9%87%20%D8%B1:sha=6c31cfc402764b57",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D295%3Bsegment_index%3D37:headword=%D8%B4%D9%87%D8%B1:root=%D8%B4%20%D9%87%20%D8%B1:sha=8e42fccf95f8fdce"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; tam eşdeğer iyi ün dalı ile övgü ve olumlu ya da olumsuz şöhret sınırlarını gösteren dört ilişki yayımlandı."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_000745/B008",
+    "concept_gloss": {
+      "text": "insanlar arasında yayılan iyi ün",
+      "facet_ids": [
+        "F001",
+        "F002"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [],
+    "lexical_glosses": {
+      "lu_030": {
+        "text": "insanlar arasında yayılan iyi ün veya iyi söz",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    }
+  }
+}

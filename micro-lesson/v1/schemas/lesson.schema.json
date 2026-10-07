@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Micro-lesson content 1.1",
+  "type": "object",
+  "properties": {
+    "key": {
+      "type": "string"
+    },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^ML:C[0-9]{3}$"
+          },
+          "role": {
+            "enum": [
+              "teaches",
+              "reinforces",
+              "contrasts"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "role"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "contains": {
+        "type": "object",
+        "properties": {
+          "role": {
+            "const": "teaches"
+          }
+        },
+        "required": [
+          "role"
+        ]
+      }
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 4
+    },
+    "sentences_tr": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "maxItems": 2
+    },
+    "anchors": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/anchor"
+      },
+      "minItems": 1
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "reminder_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^ML:R[0-9]{3}:(requires|helped_by)$"
+      }
+    },
+    "branch_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "id": {
+      "type": "string"
+    },
+    "engine": {
+      "enum": [
+        "grammar",
+        "semantics",
+        "mapping"
+      ]
+    },
+    "rank": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "merged_from": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rank_reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "key",
+    "concepts",
+    "level",
+    "sentences_tr",
+    "anchors",
+    "evidence_refs",
+    "reminder_ids"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "anchor": {
+      "type": "object",
+      "properties": {
+        "source_ref": {
+          "type": "string"
+        },
+        "arabic": {
+          "type": "string"
+        },
+        "reading_tr": {
+          "type": "string"
+        },
+        "word_ref": {
+          "type": "string"
+        },
+        "reading_note_tr": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_ref",
+        "arabic",
+        "reading_tr"
+      ],
+      "additionalProperties": false
+    },
+    "deferred": {
+      "type": "object",
+      "properties": {
+        "opportunity": {
+          "type": "string"
+        },
+        "blocker": {
+          "enum": [
+            "evidence",
+            "conflict",
+            "catalog"
+          ]
+        },
+        "question": {
+          "type": "string"
+        },
+        "anchors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/anchor"
+          },
+          "minItems": 1
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "draft_sentences_tr": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 2
+        },
+        "proposed_concepts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "keyword": {
+                "type": "string"
+              },
+              "definition": {
+                "type": "string"
+              },
+              "topic_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              },
+              "broader_concept_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^ML:C[0-9]{3}$"
+                }
+              },
+              "prerequisite_concept_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^ML:C[0-9]{3}$"
+                }
+              }
+            },
+            "required": [
+              "keyword",
+              "definition",
+              "topic_ids"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "engine": {
+          "enum": [
+            "grammar",
+            "semantics",
+            "mapping"
+          ]
+        }
+      },
+      "required": [
+        "opportunity",
+        "blocker",
+        "question",
+        "anchors"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

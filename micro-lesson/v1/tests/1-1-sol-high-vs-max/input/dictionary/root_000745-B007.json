@@ -1,0 +1,684 @@
+{
+  "root_ar": "س م و",
+  "branch_ref": "root_000745/B007",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_000745.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_000745.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+      "entry_id": "root_000745/tr",
+      "status": "reviewed",
+      "review_verdict": "editorial_review",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_000745/tr/repair/editorial/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, somut ve toplumsal yükselme çekirdeğinden uzaktan beliren yüksek görünüşe, üstteki gök ve örtüye, adlandırmaya ve iyi üne uzanır; ayrıca erkek devenin sürüye girişi, ava çıkma ve karşılıklı yarışma gibi kalıplaşmış dallar taşır. Bu yapı, anlamca bağlantılı uzantılarla daha bağımsız eski kullanımları birlikte barındırır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_000745/B007",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi karşılıklı yarışma, övünerek boy ölçüşme ve birbirine karşı koymayı aynı dalda birleştirir; kimsenin yarışamadığı kişi ifadesi de bu karşılaştırma eksenine dayanır. Geçici dal çerçevesi bu yapıyı doğru karşılar.",
+      "boundary_note": "Dal karşılıklı yarışma ve denk gelme alanındadır; yalnız aynı adı taşıma ya da genel üstünlük bu karşılıklılık olmadan dala girmez."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Karşılıklı yarışma çekirdeği, övünerek boy ölçüşme, karşı koyma ve kimsenin yarışamaması bildiren özel biçimlerle karıştırılmadan verilir."
+    },
+    "concept_map": {
+      "definition": "İki tarafın üstün gelmek için birbiriyle yarışması, övünerek boy ölçüşmesi veya birbirine karşı koymasıdır. Bir kimseyle hiç kimsenin yarışamaması, onun bu karşılaştırmada erişilemez üstünlüğünü bildirir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "İki veya daha çok taraf üstün gelmek için karşılıklı olarak yarışır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "specialization",
+          "statement": "Taraflar sahip oldukları üstünlüklerle övünerek birbirleriyle boy ölçüşür.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "extension",
+          "statement": "Taraflardan biri ötekine karşı koyar, onunla aynı düzeye gelmeye veya onu geçmeye çalışır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "associated_use",
+          "statement": "Kimsenin bir kişiyle yarışamaması, o kişinin erişilemez ölçüde üstün olduğunu bildirir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynaklar karşılıklı yarışma, övünerek boy ölçüşme ve karşı koyma anlamlarını birleştirir; bir kişiyle kimsenin yarışamaması ifadesini onun üstünlüğünün sonucu olarak verir.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "yarışma, övünerek boy ölçüşme ve karşı koyma",
+      "applicability": "Karşılıklı üstünlük yarışını, övünme biçimini, denk gelme çabasını ve yarışılmaz olma sonucunu kapsayan dal için uygundur.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Karşılıklı yarışma, övünme ve rakibe karşı koyma bileşenlerini korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "birbiriyle yarışmak",
+        "usage_role": "general",
+        "applicability": "Tarafların üstün gelmek için karşılıklı yarıştığı genel bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Karşılıklılık ve üstün gelme amaçlı yarışmayı korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "övünerek boy ölçüşmek",
+        "usage_role": "contextual",
+        "applicability": "Tarafların sahip oldukları üstünlükleri öne sürerek yarıştığı bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Övünme yoluyla yapılan karşılıklı üstünlük yarışını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002"
+        ]
+      },
+      {
+        "text": "karşı koyup denk gelmeye çalışmak",
+        "usage_role": "explanatory",
+        "applicability": "Bir tarafın ötekine karşı durup onun düzeyine erişmeye ya da onu geçmeye çalıştığı bağlamda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Karşı koyma ve rakibin düzeyine erişme çabasını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F003"
+        ]
+      },
+      {
+        "text": "kimsenin boy ölçüşemediği",
+        "usage_role": "contextual",
+        "applicability": "Bir kişinin karşısına çıkacak veya onunla yarışacak kimse bulunmadığını anlatan bağlamda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kişinin yarışmada erişilemez üstünlüğünü korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F004"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_026",
+        "rendering_kind": "ordinary",
+        "target_gloss": "birbiriyle yarışmak ve karşı koymak"
+      },
+      {
+        "lexical_unit_id": "lu_027",
+        "rendering_kind": "ordinary",
+        "target_gloss": "övünerek yarışma, boy ölçüşme ve karşı koyma"
+      },
+      {
+        "lexical_unit_id": "lu_028",
+        "rendering_kind": "ordinary",
+        "target_gloss": "kimsenin kendisiyle yarışamadığı veya boy ölçüşemediği kişi"
+      }
+    ],
+    "excluded_glosses": [],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000454/B008",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı yarışmanın yanında övünme, karşı koyma ve yarışılmaz üstünlük sonucunu kapsar.",
+        "neighbor_only": "Komşu dal yalnız genel karşılıklı yarışma anlamıyla verilmiştir.",
+        "gloss": "karşılıklı yarışma",
+        "shared_zone": "Her iki dalın merkezinde iki tarafın birbiriyle yarışması vardır.",
+        "distinction": "Komşu dal yalın yarışma çekirdeğinde kalır; odak dalı aynı çekirdeği övünme, karşı koyma ve rakipsizlik sonuçlarıyla daha geniş sınırlar."
+      },
+      {
+        "neighbor_ref": "root_000762/B011",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalında yarışmanın konusu güçle sınırlı değildir ve karşı koyma anlamı da bulunur.",
+        "neighbor_only": "Komşu dal tarafların hangisinin daha güçlü olduğuyla övünerek yarışmasını özellikle gerektirir.",
+        "gloss": "övünerek güç yarışı",
+        "shared_zone": "İki dal da tarafların övünerek birbirine üstün gelmeye çalışmasını anlatır.",
+        "distinction": "Odak dalı genel yarışma ve karşı koymayı kapsar; komşu dal övünmenin konusunu özellikle güç derecesiyle sınırlar."
+      },
+      {
+        "neighbor_ref": "root_001398/B002",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı her tür yarışma, karşı koyma ve rakibe denk gelme çabasını kapsar.",
+        "neighbor_only": "Komşu dal yarışmayı özellikle yücelik ve onur iddiasında üstün gelmeye bağlar.",
+        "gloss": "övünme ve üstünlük yarışı",
+        "shared_zone": "Her iki dal övünme yoluyla rakibe üstün gelme çabasını içerir.",
+        "distinction": "Odak dalının konu alanı geneldir; komşu dal yücelik ve onur üzerinden yapılan övünme yarışını merkez alır."
+      },
+      {
+        "neighbor_ref": "root_001648/B006",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı rakibi geçmeye yönelik yarışmayı ve övünerek üstün gelme çabasını kapsar.",
+        "neighbor_only": "Komşu dal rakibin dengi olup ondan aşağı kalmama ve ona karşı durma sonucunu özellikle vurgular.",
+        "gloss": "karşı koyma ve denk kalma",
+        "shared_zone": "İki dal da bir rakibe karşı durmayı ve onun düzeyine erişmeyi içerir.",
+        "distinction": "Odak dalı yarışma sürecini ve üstün gelme yönünü taşır; komşu dal eşitliği koruyup rakibin altında kalmama durumunu öne çıkarır."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel yarışma, güç veya onurla övünme ve rakibe denk kalma sınırlarını gösteren dört komşu seçildi.",
+    "branch_image_ar": "المساماة والمباراة",
+    "what_is_ar": "يدخل فيه تسامى القوم إذا تباروا، والمساماة بمعنى المفاخرة والمباراة والمعارضة، ومن لا يسامى إذا لا يقدر على مجاراته.",
+    "what_is_not_ar": "لا يدخل فيه السمي بمعنى موافق الاسم أو النظير إلا إذا كان في سياق المساماة والمباراة.",
+    "source_phrase_ar": "فلان لا يسامى؛ تساموا أي تباروا؛ قد علا من ساماه (sihah)؛ معنى تساميها تباريها وتعارضها؛ المساماة المفاخرة (tahdhib)",
+    "sources": [
+      "SI",
+      "TA"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_000745",
+    "branch_id": "B007",
+    "branch_image_ar": "المساماة والمباراة",
+    "what_is_ar": "يدخل فيه تسامى القوم إذا تباروا، والمساماة بمعنى المفاخرة والمباراة والمعارضة، ومن لا يسامى إذا لا يقدر على مجاراته.",
+    "what_is_not_ar": "لا يدخل فيه السمي بمعنى موافق الاسم أو النظير إلا إذا كان في سياق المساماة والمباراة.",
+    "source_phrase_ar": "فلان لا يسامى؛ تساموا أي تباروا؛ قد علا من ساماه (sihah)؛ معنى تساميها تباريها وتعارضها؛ المساماة المفاخرة (tahdhib)",
+    "image_transliteration": "almsamah walmbarah",
+    "summary": "İki tarafın üstün gelmek için birbiriyle yarışması, övünerek boy ölçüşmesi veya birbirine karşı koymasıdır. Bir kimseyle hiç kimsenin yarışamaması, onun bu karşılaştırmada erişilemez üstünlüğünü bildirir.",
+    "concept_map": {
+      "definition": "İki tarafın üstün gelmek için birbiriyle yarışması, övünerek boy ölçüşmesi veya birbirine karşı koymasıdır. Bir kimseyle hiç kimsenin yarışamaması, onun bu karşılaştırmada erişilemez üstünlüğünü bildirir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "İki veya daha çok taraf üstün gelmek için karşılıklı olarak yarışır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "specialization",
+          "statement": "Taraflar sahip oldukları üstünlüklerle övünerek birbirleriyle boy ölçüşür.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "extension",
+          "statement": "Taraflardan biri ötekine karşı koyar, onunla aynı düzeye gelmeye veya onu geçmeye çalışır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "associated_use",
+          "statement": "Kimsenin bir kişiyle yarışamaması, o kişinin erişilemez ölçüde üstün olduğunu bildirir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi karşılıklı yarışma, övünerek boy ölçüşme ve birbirine karşı koymayı aynı dalda birleştirir; kimsenin yarışamadığı kişi ifadesi de bu karşılaştırma eksenine dayanır. Geçici dal çerçevesi bu yapıyı doğru karşılar.",
+      "boundary_note": "Dal karşılıklı yarışma ve denk gelme alanındadır; yalnız aynı adı taşıma ya da genel üstünlük bu karşılıklılık olmadan dala girmez."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Karşılıklı yarışma çekirdeği, övünerek boy ölçüşme, karşı koyma ve kimsenin yarışamaması bildiren özel biçimlerle karıştırılmadan verilir."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": false,
+      "unit_kind_counts": {
+        "form": 2,
+        "lexical_unit": 1
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_026",
+        "expression_ar": "تساموا",
+        "unit_kind": "form",
+        "sense_ar": "تباروا وتنافسوا.",
+        "target_gloss": "birbiriyle yarışmak ve karşı koymak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_027",
+        "expression_ar": "المساماة",
+        "unit_kind": "form",
+        "sense_ar": "المفاخرة والمباراة والمعارضة.",
+        "target_gloss": "övünerek yarışma, boy ölçüşme ve karşı koyma",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_028",
+        "expression_ar": "فلان لا يسامى",
+        "unit_kind": "lexical_unit",
+        "sense_ar": "لا يقدر أحد على مجاراته أو مباراته.",
+        "target_gloss": "kimsenin kendisiyle yarışamadığı veya boy ölçüşemediği kişi",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynaklar karşılıklı yarışma, övünerek boy ölçüşme ve karşı koyma anlamlarını birleştirir; bir kişiyle kimsenin yarışamaması ifadesini onun üstünlüğünün sonucu olarak verir.",
+      "evidence_refs": [
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 2,
+      "passage_count": 2,
+      "sources": [
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "İki tarafın üstün gelmek için birbiriyle yarışması, övünerek boy ölçüşmesi veya birbirine karşı koymasıdır. Bir kimseyle hiç kimsenin yarışamaması, onun bu karşılaştırmada erişilemez üstünlüğünü bildirir.",
+      "concept": {
+        "rank": 1,
+        "text": "yarışma, övünerek boy ölçüşme ve karşı koyma",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Karşılıklı üstünlük yarışını, övünme biçimini, denk gelme çabasını ve yarışılmaz olma sonucunu kapsayan dal için uygundur.",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Karşılıklı yarışma, övünme ve rakibe karşı koyma bileşenlerini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "birbiriyle yarışmak",
+          "loanword_status": "none",
+          "usage_role": "general",
+          "selection_role": "contextual_gloss",
+          "applicability": "Tarafların üstün gelmek için karşılıklı yarıştığı genel bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Karşılıklılık ve üstün gelme amaçlı yarışmayı korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "övünerek boy ölçüşmek",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Tarafların sahip oldukları üstünlükleri öne sürerek yarıştığı bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Övünme yoluyla yapılan karşılıklı üstünlük yarışını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 4,
+          "text": "karşı koyup denk gelmeye çalışmak",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir tarafın ötekine karşı durup onun düzeyine erişmeye ya da onu geçmeye çalıştığı bağlamda kullanılır.",
+          "facet_ids": [
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Karşı koyma ve rakibin düzeyine erişme çabasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 5,
+          "text": "kimsenin boy ölçüşemediği",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir kişinin karşısına çıkacak veya onunla yarışacak kimse bulunmadığını anlatan bağlamda kullanılır.",
+          "facet_ids": [
+            "F004"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kişinin yarışmada erişilemez üstünlüğünü korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": []
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000454",
+        "neighbor_branch_id": "B008",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı yarışmanın yanında övünme, karşı koyma ve yarışılmaz üstünlük sonucunu kapsar.",
+        "neighbor_only": "Komşu dal yalnız genel karşılıklı yarışma anlamıyla verilmiştir.",
+        "expression_transliteration": "almkhaylh mbarah",
+        "gloss": "karşılıklı yarışma",
+        "shared_zone": "Her iki dalın merkezinde iki tarafın birbiriyle yarışması vardır.",
+        "distinction": "Komşu dal yalın yarışma çekirdeğinde kalır; odak dalı aynı çekirdeği övünme, karşı koyma ve rakipsizlik sonuçlarıyla daha geniş sınırlar.",
+        "expression_ar": "المخايلة مباراة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3992:headword=%D8%AE%D9%8A%D9%84:root=%D8%AE%20%D9%8A%20%D9%84:sha=5ad6c38840e153fc"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000762",
+        "neighbor_branch_id": "B011",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalında yarışmanın konusu güçle sınırlı değildir ve karşı koyma anlamı da bulunur.",
+        "neighbor_only": "Komşu dal tarafların hangisinin daha güçlü olduğuyla övünerek yarışmasını özellikle gerektirir.",
+        "expression_transliteration": "almsawqh fy almfakhrh balshdh",
+        "gloss": "övünerek güç yarışı",
+        "shared_zone": "İki dal da tarafların övünerek birbirine üstün gelmeye çalışmasını anlatır.",
+        "distinction": "Odak dalı genel yarışma ve karşı koymayı kapsar; komşu dal övünmenin konusunu özellikle güç derecesiyle sınırlar.",
+        "expression_ar": "المساوقة في المفاخرة بالشدة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3619:headword=%D8%B3%D9%88%D9%82:root=%D8%B3%20%D9%88%20%D9%82:sha=375a5cbd2f33bc16"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001398",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı her tür yarışma, karşı koyma ve rakibe denk gelme çabasını kapsar.",
+        "neighbor_only": "Komşu dal yarışmayı özellikle yücelik ve onur iddiasında üstün gelmeye bağlar.",
+        "expression_transliteration": "almfakhrh balmjd walghlbh bh",
+        "gloss": "övünme ve üstünlük yarışı",
+        "shared_zone": "Her iki dal övünme yoluyla rakibe üstün gelme çabasını içerir.",
+        "distinction": "Odak dalının konu alanı geneldir; komşu dal yücelik ve onur üzerinden yapılan övünme yarışını merkez alır.",
+        "expression_ar": "المفاخرة بالمجد والغلبة به",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1217%3Asubentry%3A3%3A%D9%85%D8%AC%D8%AF:headword=%D9%85%D8%AC%D8%AF:root=%D9%85%20%D8%AC%20%D8%AF:sha=45c835fc32a6a854",
+          "maqayis:root=%D9%85%20%D8%AC%20%D8%AF:headword=%D9%85%D8%AC%D8%AF:sha=84476c1207da1e28",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1420:headword=%D9%85%D8%AC%D8%AF:root=%D9%85%20%D8%AC%20%D8%AF:sha=122fde07d9151c08"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001648",
+        "neighbor_branch_id": "B006",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı rakibi geçmeye yönelik yarışmayı ve övünerek üstün gelme çabasını kapsar.",
+        "neighbor_only": "Komşu dal rakibin dengi olup ondan aşağı kalmama ve ona karşı durma sonucunu özellikle vurgular.",
+        "expression_transliteration": "mwasqh almthl wmnahdh",
+        "gloss": "karşı koyma ve denk kalma",
+        "shared_zone": "İki dal da bir rakibe karşı durmayı ve onun düzeyine erişmeyi içerir.",
+        "distinction": "Odak dalı yarışma sürecini ve üstün gelme yönünü taşır; komşu dal eşitliği koruyup rakibin altında kalmama durumunu öne çıkarır.",
+        "expression_ar": "مواسقة المثل ومناهده",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D472%3Bsegment_index%3D6:headword=%D9%88%D8%B3%D9%82:root=%D9%88%20%D8%B3%20%D9%82:sha=96e4ef2ebe8401a7"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; genel yarışma, güç veya onurla övünme ve rakibe denk kalma sınırlarını gösteren dört komşu seçildi."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_000745/B007",
+    "concept_gloss": {
+      "text": "üstünlük için yarışma, övünerek boy ölçüşme ve karşı koyma",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "üstün gelmek için karşılıklı yarışmak",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_026",
+          "lu_027"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "övünerek boy ölçüşmek",
+        "facet_ids": [
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_027"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "rakibe karşı koyup onu geçmeye çalışmak",
+        "facet_ids": [
+          "F003"
+        ],
+        "lexical_unit_ids": [
+          "lu_026",
+          "lu_027"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "kimsenin yarışamayacağı kadar üstün olmak",
+        "facet_ids": [
+          "F004"
+        ],
+        "lexical_unit_ids": [
+          "lu_028"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_026": {
+        "text": "birbiriyle yarışmak ve karşı koymak",
+        "facet_ids": [
+          "F001",
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss yarışma ve karşı koymayı verir; övünerek boy ölçüşmeyi ve erişilemez üstünlük sonucunu ayrıca karşılamaz."
+        }
+      },
+      "lu_027": {
+        "text": "övünerek yarışma, boy ölçüşme ve karşı koyma",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss yarışma, övünme ve karşı koymayı verir; kimsenin yarışamamasıyla bildirilen erişilemez üstünlük sonucunu dışarıda bırakır."
+        }
+      },
+      "lu_028": {
+        "text": "kimsenin kendisiyle yarışamadığı kişi",
+        "facet_ids": [
+          "F004"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss rakipsiz üstünlük sonucuna özgüdür; karşılıklı yarışma, övünerek boy ölçüşme ve karşı koyma süreçlerini vermez."
+        }
+      }
+    }
+  }
+}

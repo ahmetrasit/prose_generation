@@ -1,0 +1,821 @@
+{
+  "root_ar": "س م و",
+  "branch_ref": "root_000745/B005",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_000745.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_000745.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+      "entry_id": "root_000745/tr",
+      "status": "reviewed",
+      "review_verdict": "editorial_review",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_000745/tr/repair/editorial/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, somut ve toplumsal yükselme çekirdeğinden uzaktan beliren yüksek görünüşe, üstteki gök ve örtüye, adlandırmaya ve iyi üne uzanır; ayrıca erkek devenin sürüye girişi, ava çıkma ve karşılıklı yarışma gibi kalıplaşmış dallar taşır. Bu yapı, anlamca bağlantılı uzantılarla daha bağımsız eski kullanımları birlikte barındırır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_000745/B005",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi adı bir şeyi tanıtan gösterge olarak tanımlar; ad verme, ad edinme, adaşlık ve aynı adı ya da niteliği hak eden denklik anlamlarını açıkça bağlar. Adın anılmayı yükselttiğine ilişkin açıklama anlamın tarihsel gerekçesi olarak tutulur.",
+      "boundary_note": "Dal dilsel adlandırma ve adla kurulan denklikle sınırlıdır; gök ya da fiziksel yükselme anlamı yalnız açıklayıcı köken bağıdır."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Ad çekirdeği; ad verme, ad edinme, adaşlık ve ad ya da nitelik bakımından denklik bildiren özel biçimlerden ayrılarak tanımlanır."
+    },
+    "concept_map": {
+      "definition": "Bir şeyi tanıtan ad, bu adı verme veya edinme ve başka biriyle aynı adı taşıma ilişkisidir. Ayrıca aynı adı ya da niteliği hak edecek ölçüde denk olmayı anlatır; kaynaklar adlandırmayı anılmayı yükseltme düşüncesiyle açıklar.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Birine ad verilir veya kişi kendisi için bir ad edinir ve o adla çağrılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "İki kişi aynı adı taşıdığında birbirinin adaşı olur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "extension",
+          "statement": "Bir kişi, aynı adı veya niteliği hak edecek ölçüde başkasının dengi sayılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F005",
+          "role": "source_variant",
+          "statement": "Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynaklar adı bir varlığı tanıtan unsur sayar; ad verme, ad edinme, aynı adı taşıma ve ada ya da niteliğe layık denklik anlamlarını birleştirir. Adın anılmayı yükselttiği yönündeki köken açıklamasını da paylaşır.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+      "applicability": "Bir şeyi tanıtan ad çekirdeğini, ad verme ve edinme işlemlerini, adaşlığı ve adı hak eden denkliği birlikte kapsar.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Adlandırma çekirdeğini ve ad üzerinden kurulan denklik ilişkilerini korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "ad",
+        "usage_role": "general",
+        "applicability": "Bir varlığı tanıtan söz veya anlam kastedildiğinde kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bir varlığı tanıtma ve ondan söz etmeyi sağlama işlevini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "ad vermek veya ad edinmek",
+        "usage_role": "contextual",
+        "applicability": "Birinin adlandırıldığı ya da kendisi için bir ad alıp o adla anıldığı bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Adın verilmesi ve kişi tarafından edinilmesi işlemlerini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002"
+        ]
+      },
+      {
+        "text": "adaş",
+        "usage_role": "contextual",
+        "applicability": "İki kişinin aynı adı taşıdığı ilişkiyi anlatmak için kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Aynı adı taşıyan kişiler arasındaki ilişkiyi korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F003"
+        ]
+      },
+      {
+        "text": "aynı adı veya niteliği hak eden denk",
+        "usage_role": "explanatory",
+        "applicability": "Birinin başkasının adını ya da niteliğini hak edecek ölçüde ona denk olduğu bağlamda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Ad veya nitelik bakımından hak edilmiş denklik anlamını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F004"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_016",
+        "rendering_kind": "ordinary",
+        "target_gloss": "bir şeyi tanıtan ad"
+      },
+      {
+        "lexical_unit_id": "lu_017",
+        "rendering_kind": "ordinary",
+        "target_gloss": "birine bir ad vermek veya onu o adla çağırmak"
+      },
+      {
+        "lexical_unit_id": "lu_018",
+        "rendering_kind": "ordinary",
+        "target_gloss": "bir adı edinmek ve o adla anılmak"
+      },
+      {
+        "lexical_unit_id": "lu_019",
+        "rendering_kind": "ordinary",
+        "target_gloss": "aynı adı taşıyan kişi, adaş"
+      },
+      {
+        "lexical_unit_id": "lu_020",
+        "rendering_kind": "ordinary",
+        "target_gloss": "aynı adı veya niteliği hak eden denk"
+      },
+      {
+        "lexical_unit_id": "lu_021",
+        "rendering_kind": "ordinary",
+        "target_gloss": "varlıkları tanıtan tekli veya birleşik sözler ve anlamlar"
+      }
+    ],
+    "excluded_glosses": [],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000764/B004",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı dilsel adları, ad verme işlemini ve aynı ad üzerinden kurulan ilişkileri kapsar.",
+        "neighbor_only": "Komşu dal hayvan, taş veya başka nesneler üzerindeki görülebilir işaretleri ve işaretleme eylemini kapsar.",
+        "gloss": "ad ve tanıtıcı işaret",
+        "shared_zone": "Her iki dal bir şeyi başkalarından ayırıp tanımayı sağlayan bir belirleyici içerir.",
+        "distinction": "Odak dalının belirleyicisi dilsel addır ve adlandırma ilişkileri kurar; komşu dalın belirleyicisi görülebilir işaret veya damgadır."
+      },
+      {
+        "neighbor_ref": "root_000353/B002",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dalı varlığı tanıtan adı ve bu adın verilmesi ya da paylaşılması ilişkilerini anlatır.",
+        "neighbor_only": "Komşu dal bir şeyin nasıl olduğunu bildiren özellik ve betimlemeyi anlatır.",
+        "gloss": "ad ve betimleme",
+        "shared_zone": "Ad ve betimleme bir varlığı başkalarına tanıtmak için birlikte kullanılabilir.",
+        "distinction": "Ad varlığa gönderme yapan tanıtıcı birimdir; betimleme ise varlığın niteliğini bildirir ve aynı adı taşıma ilişkisi kurmaz."
+      },
+      {
+        "neighbor_ref": "root_000990/B005",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dalı genel ad kavramını, ad verme eylemini, adaşlığı ve ad bakımından denkliği kapsar.",
+        "neighbor_only": "Komşu dal yalnız belirli bir sözün kişi veya topluluk için özel ad olarak kullanımını içerir.",
+        "gloss": "genel adlandırma ve özel ad",
+        "shared_zone": "Her iki dal insan veya toplulukların bir adla tanınması alanındadır.",
+        "distinction": "Odak dalı adlandırmanın genel kavramsal yapısını verir; komşu dal ise belirli bir sözün özel ad olarak kullanıldığı sınırlı örnektir."
+      }
+    ],
+    "neighbor_coverage_note": "Adayların tamamı değerlendirildi; adın işaret, betimleme ve belirli özel ad örneklerinden farkını gösteren üç komşu seçildi.",
+    "branch_image_ar": "الاسم تنويه ودلالة",
+    "what_is_ar": "يدخل فيه الاسم والتسمية والتسمي والأسامي، والسمي بمعنى الموافق في الاسم أو النظير المستحق للاسم.",
+    "what_is_not_ar": "لا يدخل فيه السماء الحسية، ولا مطلق العلو إلا من جهة الاشتقاق والتعليل.",
+    "source_phrase_ar": "أصل اسم سمو وهو من العلو لأنه تنويه ودلالة على المعنى (maqayis)؛ الاسم أصل تأسيسه السمو؛ سميت وأسميت وتسميت (ayn)؛ سميت فلانا زيدا؛ هذا سمي فلان؛ الاسم مشتق من سموت لأنه تنويه ورفعة (sihah)؛ الاسم مشتق من السمو وهو الرفعة؛ تنويها على الدلالة على المعنى (tahdhib)؛ الاسم ما يعرف به ذات الشيء وأصله سمو؛ به رفع ذكر المسمى؛ سميا أي نظيرا له يستحق اسمه (mufradat)",
+    "sources": [
+      "MQ",
+      "AY",
+      "SI",
+      "TA",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_000745",
+    "branch_id": "B005",
+    "branch_image_ar": "الاسم تنويه ودلالة",
+    "what_is_ar": "يدخل فيه الاسم والتسمية والتسمي والأسامي، والسمي بمعنى الموافق في الاسم أو النظير المستحق للاسم.",
+    "what_is_not_ar": "لا يدخل فيه السماء الحسية، ولا مطلق العلو إلا من جهة الاشتقاق والتعليل.",
+    "source_phrase_ar": "أصل اسم سمو وهو من العلو لأنه تنويه ودلالة على المعنى (maqayis)؛ الاسم أصل تأسيسه السمو؛ سميت وأسميت وتسميت (ayn)؛ سميت فلانا زيدا؛ هذا سمي فلان؛ الاسم مشتق من سموت لأنه تنويه ورفعة (sihah)؛ الاسم مشتق من السمو وهو الرفعة؛ تنويها على الدلالة على المعنى (tahdhib)؛ الاسم ما يعرف به ذات الشيء وأصله سمو؛ به رفع ذكر المسمى؛ سميا أي نظيرا له يستحق اسمه (mufradat)",
+    "image_transliteration": "alasm tnwyh wdlalh",
+    "summary": "Bir şeyi tanıtan ad, bu adı verme veya edinme ve başka biriyle aynı adı taşıma ilişkisidir. Ayrıca aynı adı ya da niteliği hak edecek ölçüde denk olmayı anlatır; kaynaklar adlandırmayı anılmayı yükseltme düşüncesiyle açıklar.",
+    "concept_map": {
+      "definition": "Bir şeyi tanıtan ad, bu adı verme veya edinme ve başka biriyle aynı adı taşıma ilişkisidir. Ayrıca aynı adı ya da niteliği hak edecek ölçüde denk olmayı anlatır; kaynaklar adlandırmayı anılmayı yükseltme düşüncesiyle açıklar.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Birine ad verilir veya kişi kendisi için bir ad edinir ve o adla çağrılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "İki kişi aynı adı taşıdığında birbirinin adaşı olur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "extension",
+          "statement": "Bir kişi, aynı adı veya niteliği hak edecek ölçüde başkasının dengi sayılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F005",
+          "role": "source_variant",
+          "statement": "Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi adı bir şeyi tanıtan gösterge olarak tanımlar; ad verme, ad edinme, adaşlık ve aynı adı ya da niteliği hak eden denklik anlamlarını açıkça bağlar. Adın anılmayı yükselttiğine ilişkin açıklama anlamın tarihsel gerekçesi olarak tutulur.",
+      "boundary_note": "Dal dilsel adlandırma ve adla kurulan denklikle sınırlıdır; gök ya da fiziksel yükselme anlamı yalnız açıklayıcı köken bağıdır."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Ad çekirdeği; ad verme, ad edinme, adaşlık ve ad ya da nitelik bakımından denklik bildiren özel biçimlerden ayrılarak tanımlanır."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 1,
+        "form": 5
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_016",
+        "expression_ar": "الاسم",
+        "unit_kind": "form",
+        "sense_ar": "ما يعرف به الشيء، وأصله عند هذه المصادر من السمو والرفعة والتنويه.",
+        "target_gloss": "bir şeyi tanıtan ad",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_017",
+        "expression_ar": "سميت فلانا زيدا",
+        "unit_kind": "collocation",
+        "sense_ar": "جعلت زيدا اسما له أو دعوته به.",
+        "target_gloss": "birine bir ad vermek veya onu o adla çağırmak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_018",
+        "expression_ar": "تسمى بكذا",
+        "unit_kind": "form",
+        "sense_ar": "اتخذ ذلك اسما أو دعي به.",
+        "target_gloss": "bir adı edinmek ve o adla anılmak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_019",
+        "expression_ar": "سمي فلان",
+        "unit_kind": "form",
+        "sense_ar": "من وافق غيره في اسمه.",
+        "target_gloss": "aynı adı taşıyan kişi, adaş",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_020",
+        "expression_ar": "سمي",
+        "unit_kind": "form",
+        "sense_ar": "نظير أو مسام يستحق مثل الاسم أو الصفة.",
+        "target_gloss": "aynı adı veya niteliği hak eden denk",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_021",
+        "expression_ar": "الأسماء",
+        "unit_kind": "form",
+        "sense_ar": "الألفاظ والمعاني التي يعرف بها المسميات.",
+        "target_gloss": "varlıkları tanıtan tekli veya birleşik sözler ve anlamlar",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynaklar adı bir varlığı tanıtan unsur sayar; ad verme, ad edinme, aynı adı taşıma ve ada ya da niteliğe layık denklik anlamlarını birleştirir. Adın anılmayı yükselttiği yönündeki köken açıklamasını da paylaşır.",
+      "evidence_refs": [
+        "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 5,
+      "passage_count": 5,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667"
+          ]
+        },
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Bir şeyi tanıtan ad, bu adı verme veya edinme ve başka biriyle aynı adı taşıma ilişkisidir. Ayrıca aynı adı ya da niteliği hak edecek ölçüde denk olmayı anlatır; kaynaklar adlandırmayı anılmayı yükseltme düşüncesiyle açıklar.",
+      "concept": {
+        "rank": 1,
+        "text": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Bir şeyi tanıtan ad çekirdeğini, ad verme ve edinme işlemlerini, adaşlığı ve adı hak eden denkliği birlikte kapsar.",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Adlandırma çekirdeğini ve ad üzerinden kurulan denklik ilişkilerini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "ad",
+          "loanword_status": "none",
+          "usage_role": "general",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir varlığı tanıtan söz veya anlam kastedildiğinde kullanılır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bir varlığı tanıtma ve ondan söz etmeyi sağlama işlevini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "ad vermek veya ad edinmek",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Birinin adlandırıldığı ya da kendisi için bir ad alıp o adla anıldığı bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Adın verilmesi ve kişi tarafından edinilmesi işlemlerini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 4,
+          "text": "adaş",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "İki kişinin aynı adı taşıdığı ilişkiyi anlatmak için kullanılır.",
+          "facet_ids": [
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Aynı adı taşıyan kişiler arasındaki ilişkiyi korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 5,
+          "text": "aynı adı veya niteliği hak eden denk",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "Birinin başkasının adını ya da niteliğini hak edecek ölçüde ona denk olduğu bağlamda kullanılır.",
+          "facet_ids": [
+            "F004"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Ad veya nitelik bakımından hak edilmiş denklik anlamını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": []
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000764",
+        "neighbor_branch_id": "B004",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı dilsel adları, ad verme işlemini ve aynı ad üzerinden kurulan ilişkileri kapsar.",
+        "neighbor_only": "Komşu dal hayvan, taş veya başka nesneler üzerindeki görülebilir işaretleri ve işaretleme eylemini kapsar.",
+        "expression_transliteration": "Tanımayı sağlayan işaret",
+        "gloss": "ad ve tanıtıcı işaret",
+        "shared_zone": "Her iki dal bir şeyi başkalarından ayırıp tanımayı sağlayan bir belirleyici içerir.",
+        "distinction": "Odak dalının belirleyicisi dilsel addır ve adlandırma ilişkileri kurar; komşu dalın belirleyicisi görülebilir işaret veya damgadır.",
+        "expression_ar": "علامة تعرف بها",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1710",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A758:headword=%D8%B3%D8%A7%D9%85:root=%D8%B3%20%D8%A7%20%D9%85:sha=1849666318d06987",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4532:headword=%D8%B3%D9%88%D9%85:root=%D8%B3%20%D9%88%20%D9%85:sha=071a1135cf983cc2",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D2:headword=%D8%B3%D9%88%D9%85:root=%D8%B3%20%D9%88%20%D9%85:sha=737f1ee58f7c6f08"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000353",
+        "neighbor_branch_id": "B002",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dalı varlığı tanıtan adı ve bu adın verilmesi ya da paylaşılması ilişkilerini anlatır.",
+        "neighbor_only": "Komşu dal bir şeyin nasıl olduğunu bildiren özellik ve betimlemeyi anlatır.",
+        "expression_transliteration": "alhlyh walsfh",
+        "gloss": "ad ve betimleme",
+        "shared_zone": "Ad ve betimleme bir varlığı başkalarına tanıtmak için birlikte kullanılabilir.",
+        "distinction": "Ad varlığa gönderme yapan tanıtıcı birimdir; betimleme ise varlığın niteliğini bildirir ve aynı adı taşıma ilişkisi kurmaz.",
+        "expression_ar": "الحِلْية والصفة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:789",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1834:headword=%D8%AD%D9%84%D9%8A:root=%D8%AD%20%D9%84%20%D9%8A:sha=8531506c031e2af2"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000990",
+        "neighbor_branch_id": "B005",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dalı genel ad kavramını, ad verme eylemini, adaşlığı ve ad bakımından denkliği kapsar.",
+        "neighbor_only": "Komşu dal yalnız belirli bir sözün kişi veya topluluk için özel ad olarak kullanımını içerir.",
+        "expression_transliteration": "'ds 'lma wasma",
+        "gloss": "genel adlandırma ve özel ad",
+        "shared_zone": "Her iki dal insan veya toplulukların bir adla tanınması alanındadır.",
+        "distinction": "Odak dalı adlandırmanın genel kavramsal yapısını verir; komşu dal ise belirli bir sözün özel ad olarak kullanıldığı sınırlı örnektir.",
+        "expression_ar": "عدس علما واسما",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A459:headword=%D8%B9%D8%AF%D8%B3:root=%D8%B9%20%D8%AF%20%D8%B3:sha=ea74fda667105470",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A2266:headword=%D8%B9%D8%AF%D8%B3:root=%D8%B9%20%D8%AF%20%D8%B3:sha=7c05afd13231d6db",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D116%3Bsegment_index%3D3:headword=%D8%B9%D8%AF%D8%B3:root=%D8%B9%20%D8%AF%20%D8%B3:sha=a8cab00f6e704e4f"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Adayların tamamı değerlendirildi; adın işaret, betimleme ve belirli özel ad örneklerinden farkını gösteren üç komşu seçildi."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_000745/B005",
+    "concept_gloss": {
+      "text": "tanıtıcı ad, adlandırma ve adaşlık-denklik ilişkisi",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004",
+        "F005"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "bir varlığı tanıtan ad",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_016",
+          "lu_021"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "birine ad vermek veya bir ad edinmek",
+        "facet_ids": [
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_017",
+          "lu_018"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "aynı adı taşıyan adaş",
+        "facet_ids": [
+          "F003"
+        ],
+        "lexical_unit_ids": [
+          "lu_019"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "aynı adı veya niteliği hak eden denk",
+        "facet_ids": [
+          "F004"
+        ],
+        "lexical_unit_ids": [
+          "lu_020"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_016": {
+        "text": "bir şeyi tanıtan ad",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003",
+            "F004",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss adın tanıtıcı işlevini verir; ad verme, adaşlık, denklik ve kaynak köken açıklamasını dışarıda bırakır."
+        }
+      },
+      "lu_017": {
+        "text": "birine ad vermek veya onu o adla çağırmak",
+        "facet_ids": [
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003",
+            "F004",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss ad verme eylemine özgüdür; ad kavramını, adaşlığı, denklik ilişkisini ve köken açıklamasını ayrıca vermez."
+        }
+      },
+      "lu_018": {
+        "text": "bir adı edinip o adla anılmak",
+        "facet_ids": [
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003",
+            "F004",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss ad edinme kullanımına özgüdür; ad kavramını, adaşlığı, denklik ilişkisini ve köken açıklamasını dışarıda bırakır."
+        }
+      },
+      "lu_019": {
+        "text": "aynı adı taşıyan kişi, adaş",
+        "facet_ids": [
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F004",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss adaşlık ilişkisine özgüdür; genel ad kavramı, ad verme, denklik ve köken açıklaması kapsamlarını vermez."
+        }
+      },
+      "lu_020": {
+        "text": "aynı adı veya niteliği hak eden denk",
+        "facet_ids": [
+          "F004"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F003",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss denklik kullanımına özgüdür; ad kavramını, ad verme eylemini, adaşlığı ve köken açıklamasını dışarıda bırakır."
+        }
+      },
+      "lu_021": {
+        "text": "varlıkları tanıtan adlar ve anlamlar",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003",
+            "F004",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss çoğul ad alanını verir; ad verme, adaşlık, denklik ve köken açıklamasını ayrıca karşılamaz."
+        }
+      }
+    }
+  }
+}

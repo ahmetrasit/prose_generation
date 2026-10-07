@@ -1,0 +1,531 @@
+{
+  "version": "1.1.0",
+  "note": "Seven authored routes, grouped into teaching modules. Shared concepts can recur across routes; membership does not imply prerequisites or mastery. Every concept is reachable from launch. Start from the current commentary observation, not necessarily module one. Within a module, recognition can precede a detailed explanation of the same concept.",
+  "routes": [
+    {
+      "id": "ML:PATH:reading",
+      "label_tr": "Yazıdan ifadeye",
+      "intro_tr": "Önce kelimenin parçalarını, sonra anlamaya yardımcı okunuş ayrımlarını görün. Arapça harfleri henüz okuyamıyorsanız Türkçe okunuşla başlayabilirsiniz.",
+      "modules": [
+        {
+          "label_tr": "Kelimeyi ve parçalarını tanıma",
+          "concept_ids": [
+            "ML:C001",
+            "ML:C003",
+            "ML:C051",
+            "ML:C053",
+            "ML:C052"
+          ]
+        },
+        {
+          "label_tr": "Sesleri yazıda izleme",
+          "concept_ids": [
+            "ML:C037",
+            "ML:C002",
+            "ML:C038",
+            "ML:C039",
+            "ML:C040",
+            "ML:C041"
+          ]
+        },
+        {
+          "label_tr": "Bağlantı ve yazım",
+          "concept_ids": [
+            "ML:C034",
+            "ML:C042",
+            "ML:C043",
+            "ML:C044",
+            "ML:C045",
+            "ML:C046",
+            "ML:C047"
+          ]
+        },
+        {
+          "label_tr": "Okuyuşun ve alıntının sınırı",
+          "concept_ids": [
+            "ML:C048",
+            "ML:C049",
+            "ML:C050",
+            "ML:C298"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ML:PATH:nominals",
+      "label_tr": "İsimleri ve gönderimi izleme",
+      "intro_tr": "Adın neyi gösterdiğini öğrenin; sayı, cinsiyet, belirlilik ve son işaretler bu bağı açar.",
+      "modules": [
+        {
+          "label_tr": "Sayı ve cinsiyet",
+          "concept_ids": [
+            "ML:C009",
+            "ML:C054",
+            "ML:C055",
+            "ML:C056",
+            "ML:C057",
+            "ML:C058",
+            "ML:C059",
+            "ML:C060"
+          ]
+        },
+        {
+          "label_tr": "Belirlilik",
+          "concept_ids": [
+            "ML:C007",
+            "ML:C062",
+            "ML:C063",
+            "ML:C064",
+            "ML:C065",
+            "ML:C066"
+          ]
+        },
+        {
+          "label_tr": "Zamir ve gönderim",
+          "concept_ids": [
+            "ML:C008",
+            "ML:C076",
+            "ML:C077",
+            "ML:C078",
+            "ML:C079",
+            "ML:C080",
+            "ML:C081",
+            "ML:C082",
+            "ML:C083",
+            "ML:C084",
+            "ML:C085",
+            "ML:C086",
+            "ML:C087",
+            "ML:C088"
+          ]
+        },
+        {
+          "label_tr": "Cümledeki görevi gösteren sonlar",
+          "concept_ids": [
+            "ML:C005",
+            "ML:C006",
+            "ML:C067",
+            "ML:C068",
+            "ML:C069",
+            "ML:C070",
+            "ML:C071",
+            "ML:C072",
+            "ML:C073",
+            "ML:C074",
+            "ML:C075"
+          ]
+        },
+        {
+          "label_tr": "Bağlanan isimler",
+          "concept_ids": [
+            "ML:C010",
+            "ML:C035",
+            "ML:C061",
+            "ML:C011",
+            "ML:C151",
+            "ML:C152",
+            "ML:C153",
+            "ML:C295"
+          ]
+        },
+        {
+          "label_tr": "Sayı ifadeleri",
+          "concept_ids": [
+            "ML:C239",
+            "ML:C240",
+            "ML:C241",
+            "ML:C242",
+            "ML:C243",
+            "ML:C244",
+            "ML:C296"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ML:PATH:verbs",
+      "label_tr": "Fiilin biçiminden katılanlara",
+      "intro_tr": "Önce kimin ne yaptığını izleyin; zaman, çatı ve türetim farklarını somut örneklerle açın.",
+      "modules": [
+        {
+          "label_tr": "Kişi ve olay",
+          "concept_ids": [
+            "ML:C012",
+            "ML:C092",
+            "ML:C089",
+            "ML:C090",
+            "ML:C091",
+            "ML:C093",
+            "ML:C094",
+            "ML:C095"
+          ]
+        },
+        {
+          "label_tr": "Kip ve çekim",
+          "concept_ids": [
+            "ML:C096",
+            "ML:C097",
+            "ML:C098",
+            "ML:C099",
+            "ML:C100",
+            "ML:C101"
+          ]
+        },
+        {
+          "label_tr": "Çatı ve katılanlar",
+          "concept_ids": [
+            "ML:C023",
+            "ML:C102",
+            "ML:C103",
+            "ML:C104",
+            "ML:C105"
+          ]
+        },
+        {
+          "label_tr": "Kök ile yüzey biçimi",
+          "concept_ids": [
+            "ML:C016",
+            "ML:C017",
+            "ML:C106",
+            "ML:C107",
+            "ML:C108",
+            "ML:C109",
+            "ML:C110",
+            "ML:C111"
+          ]
+        },
+        {
+          "label_tr": "Belgeli kalıp karşılaştırmaları",
+          "concept_ids": [
+            "ML:C020",
+            "ML:C036",
+            "ML:C112",
+            "ML:C113",
+            "ML:C114",
+            "ML:C115",
+            "ML:C116",
+            "ML:C117",
+            "ML:C118",
+            "ML:C119",
+            "ML:C120",
+            "ML:C121",
+            "ML:C122",
+            "ML:C123",
+            "ML:C124",
+            "ML:C125"
+          ]
+        },
+        {
+          "label_tr": "Fiille ilişkili isimler",
+          "concept_ids": [
+            "ML:C021",
+            "ML:C022",
+            "ML:C126",
+            "ML:C127",
+            "ML:C128",
+            "ML:C129",
+            "ML:C130",
+            "ML:C131",
+            "ML:C132",
+            "ML:C133",
+            "ML:C134",
+            "ML:C135",
+            "ML:C136",
+            "ML:C137"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ML:PATH:sentences",
+      "label_tr": "Cümle ve cümleler arası bağ",
+      "intro_tr": "Temel yargıyı bulun, sonra ona bağlanan öğeleri ve başka cümlelerle ilişkisini izleyin.",
+      "modules": [
+        {
+          "label_tr": "Yargı ve temel görevler",
+          "concept_ids": [
+            "ML:C138",
+            "ML:C139",
+            "ML:C140",
+            "ML:C141",
+            "ML:C142",
+            "ML:C143",
+            "ML:C144",
+            "ML:C145",
+            "ML:C146",
+            "ML:C147",
+            "ML:C148",
+            "ML:C149",
+            "ML:C150",
+            "ML:C151",
+            "ML:C152",
+            "ML:C153",
+            "ML:C154",
+            "ML:C155",
+            "ML:C156",
+            "ML:C291",
+            "ML:C292",
+            "ML:C293",
+            "ML:C294"
+          ]
+        },
+        {
+          "label_tr": "Edatla ve adla bağlama",
+          "concept_ids": [
+            "ML:C004",
+            "ML:C006",
+            "ML:C011",
+            "ML:C010",
+            "ML:C035"
+          ]
+        },
+        {
+          "label_tr": "Tamlayıcılar",
+          "concept_ids": [
+            "ML:C157",
+            "ML:C158",
+            "ML:C159",
+            "ML:C160",
+            "ML:C161",
+            "ML:C162",
+            "ML:C163",
+            "ML:C164",
+            "ML:C165",
+            "ML:C166",
+            "ML:C167",
+            "ML:C168",
+            "ML:C169"
+          ]
+        },
+        {
+          "label_tr": "Cümleleri bağlama",
+          "concept_ids": [
+            "ML:C170",
+            "ML:C171",
+            "ML:C172",
+            "ML:C173",
+            "ML:C174",
+            "ML:C175",
+            "ML:C176",
+            "ML:C177",
+            "ML:C178",
+            "ML:C179",
+            "ML:C180",
+            "ML:C181",
+            "ML:C182",
+            "ML:C183",
+            "ML:C285",
+            "ML:C286"
+          ]
+        },
+        {
+          "label_tr": "Olumsuzluk ve küçük kelimelerin işleri",
+          "concept_ids": [
+            "ML:C014",
+            "ML:C184",
+            "ML:C185",
+            "ML:C186",
+            "ML:C187",
+            "ML:C188",
+            "ML:C189",
+            "ML:C190",
+            "ML:C191",
+            "ML:C192",
+            "ML:C193",
+            "ML:C194",
+            "ML:C195",
+            "ML:C196",
+            "ML:C197",
+            "ML:C198",
+            "ML:C199",
+            "ML:C200",
+            "ML:C201",
+            "ML:C202",
+            "ML:C203",
+            "ML:C204",
+            "ML:C205",
+            "ML:C206",
+            "ML:C207",
+            "ML:C208",
+            "ML:C209",
+            "ML:C210",
+            "ML:C211",
+            "ML:C212",
+            "ML:C213",
+            "ML:C214",
+            "ML:C215",
+            "ML:C216",
+            "ML:C217",
+            "ML:C218",
+            "ML:C287",
+            "ML:C288",
+            "ML:C289",
+            "ML:C290"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ML:PATH:discourse",
+      "label_tr": "Sözün bağlamdaki işi",
+      "intro_tr": "Biçimden başlayın; vurgu, hitap, karşılaştırma ve imgenin burada ne yaptığını dayanağıyla görün.",
+      "modules": [
+        {
+          "label_tr": "Biçim, sıra ve söz işi",
+          "concept_ids": [
+            "ML:C013",
+            "ML:C015",
+            "ML:C023"
+          ]
+        },
+        {
+          "label_tr": "Odak ve konuşma akışı",
+          "concept_ids": [
+            "ML:C219",
+            "ML:C220",
+            "ML:C221",
+            "ML:C222",
+            "ML:C223",
+            "ML:C224",
+            "ML:C225",
+            "ML:C226",
+            "ML:C227",
+            "ML:C228",
+            "ML:C229",
+            "ML:C230",
+            "ML:C231",
+            "ML:C232",
+            "ML:C297"
+          ]
+        },
+        {
+          "label_tr": "İmge ve dolaylı anlatım",
+          "concept_ids": [
+            "ML:C233",
+            "ML:C234",
+            "ML:C235",
+            "ML:C236",
+            "ML:C237",
+            "ML:C238"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ML:PATH:meaning",
+      "label_tr": "Kökten kullanımın anlamına",
+      "intro_tr": "Kelime ailesini tanıyın, fakat her ayetin anlamını kendi dalı, birleşimi ve bağlamıyla belirleyin.",
+      "modules": [
+        {
+          "label_tr": "Kök, kelime ve kalıp",
+          "concept_ids": [
+            "ML:C016",
+            "ML:C017",
+            "ML:C024",
+            "ML:C020",
+            "ML:C036"
+          ]
+        },
+        {
+          "label_tr": "Dal ve yerel kullanım",
+          "concept_ids": [
+            "ML:C018",
+            "ML:C019",
+            "ML:C025",
+            "ML:C026"
+          ]
+        },
+        {
+          "label_tr": "Sözlük içindeki ilişkiler",
+          "concept_ids": [
+            "ML:C245",
+            "ML:C246",
+            "ML:C247",
+            "ML:C248",
+            "ML:C249",
+            "ML:C250",
+            "ML:C251",
+            "ML:C252",
+            "ML:C253",
+            "ML:C254",
+            "ML:C255",
+            "ML:C256",
+            "ML:C257",
+            "ML:C258",
+            "ML:C259",
+            "ML:C298"
+          ]
+        },
+        {
+          "label_tr": "Dayanak ve yorum sınırı",
+          "concept_ids": [
+            "ML:C280",
+            "ML:C281",
+            "ML:C282",
+            "ML:C283",
+            "ML:C284"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ML:PATH:turkish",
+      "label_tr": "Türkçe karşılığı anlamak",
+      "intro_tr": "Sözlüğün mevcut karşılıklarını kullanın; hangi yönün burada korunduğunu veya değiştiğini somut olarak görün.",
+      "modules": [
+        {
+          "label_tr": "Karşılık ve tanıdıklık",
+          "concept_ids": [
+            "ML:C019",
+            "ML:C027",
+            "ML:C031",
+            "ML:C033"
+          ]
+        },
+        {
+          "label_tr": "Kapsam ve odak farkları",
+          "concept_ids": [
+            "ML:C028",
+            "ML:C029",
+            "ML:C030"
+          ]
+        },
+        {
+          "label_tr": "Dalın gloss profillerini okuma",
+          "concept_ids": [
+            "ML:C260",
+            "ML:C261",
+            "ML:C262",
+            "ML:C263",
+            "ML:C264",
+            "ML:C266",
+            "ML:C267",
+            "ML:C268",
+            "ML:C269",
+            "ML:C270",
+            "ML:C271"
+          ]
+        },
+        {
+          "label_tr": "Tarihsel iddianın sınırı",
+          "concept_ids": [
+            "ML:C032"
+          ]
+        },
+        {
+          "label_tr": "Yapıyı doğal Türkçede koruma",
+          "concept_ids": [
+            "ML:C272",
+            "ML:C273",
+            "ML:C274",
+            "ML:C275",
+            "ML:C276",
+            "ML:C277",
+            "ML:C278",
+            "ML:C279"
+          ]
+        }
+      ]
+    }
+  ]
+}

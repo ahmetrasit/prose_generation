@@ -1,0 +1,948 @@
+{
+  "root_ar": "ء ل ه",
+  "branch_ref": "root_000047/B002",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_000047/tr/output/root_000047_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_000047.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_000047.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_000047/tr/output/root_000047_entry.json",
+      "entry_id": "root_000047/tr",
+      "status": "reviewed",
+      "review_verdict": "pass",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_000047/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kökün anlam örgüsü, tapınma eylemi ile tapınılan varlığı adlandıran türevlerden Yaratıcıya özgü adın ve bu adla kurulan seslenme ile ant biçimlerinin özel alanına uzanır. İkinci dal ilk dalın varlık anlamıyla kökensel bağını korurken biçim ve kullanım bakımından ayrılaşır.",
+    "polysemy": "polysemic",
+    "organization": "radial"
+  },
+  "branch": {
+    "branch_ref": "root_000047/B002",
+    "identity_judgment": {
+      "status": "qualified",
+      "rationale": "Kaynak ifadesi Yaratıcıya özgü adın kendisini, genel tapınılan-varlık adından türetiliş açıklamasını ve bu özel adla kurulan seslenme ile ant biçimlerini birlikte verir. Geçici çerçeve kullanılabilir, ancak dal yalnızca seslenme ve ant kalıpları değildir; özel adın yalın kullanımı da çekirdekte tutulmalıdır.",
+      "boundary_note": "Dal, özel ad ile bu ada bağlı seslenme, dilek, şaşma ve ant biçimleriyle sınırlıdır; herhangi bir tapınılan varlığı gösteren genel ad anlamına genişletilmez."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Yalın özel ad, doğrudan seslenme biçimleri ve ant ya da şaşma kalıpları ayrı tutulur; kalıplara özgü işlevler özel adın her kullanımına genellenmez."
+    },
+    "concept_map": {
+      "definition": "Yaratıcıya özgü adın kendisini ve bu adla kurulan seslenme, dilek, şaşma ve ant biçimlerini kapsar. Bu biçimler doğrudan seslenme, adın ant değeriyle kullanılması veya ses ve parçaların düşürülmesiyle kısaltılma yollarını gösterir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "source_variant",
+          "statement": "Özel adın, tapınılan varlığı bildiren genel addan ses düşmesi ve belirleyici unsur eklenmesiyle oluştuğu açıklanır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "associated_use",
+          "statement": "Özel ad, sözün başında ant değeri taşıyarak ardından gelen yapmama bildirimini güçlendirebilir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "associated_use",
+          "statement": "Özel adın doğrudan ya da seslenme öğesi yerine geçen bir sonla kullanılması, yakarma ve dilek bildiren seslenme biçimleri kurar.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F005",
+          "role": "source_variant",
+          "statement": "Ses veya parçaların düşürüldüğü kısalmış biçimler, şaşma ve ant anlatan kalıplarda kullanılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynaklar özel adı Yaratıcıya özgü bir ad olarak tanımlar ve onu tapınılan varlığı gösteren genel adla köken bakımından ilişkilendirir. Aynı adın doğrudan seslenmede, yakarmada, ant bildiriminde ve parçaları düşürülmüş kalıplarda kullanıldığı birlikte gösterilir.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+      "applicability": "Özel adın kendisiyle ona bağlı seslenme, dilek ve ant kullanımlarının birlikte açıklanması gereken dal düzeyinde kullanılır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Özel ad çekirdeğini ve bu ada bağlı başlıca söz biçimlerini birlikte korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F003",
+        "F004",
+        "F005"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "Yaratıcı'nın özel adı",
+        "usage_role": "general",
+        "applicability": "Söz konusu adın yalnız Yaratıcıyı gösteren yalın ad olarak ele alındığı bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Adın Yaratıcıya özgü olmasını ve ayırt edici ad işlevini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "ey Tanrı",
+        "usage_role": "contextual",
+        "applicability": "Yakarış veya dilek sırasında Yaratıcıya doğrudan seslenilen bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yaratıcıya yöneltilen doğrudan seslenme işlevini doğal biçimde korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F004"
+        ]
+      },
+      {
+        "text": "Tanrı adına ant olsun",
+        "usage_role": "contextual",
+        "applicability": "Özel adın bir bildirimin doğruluğunu pekiştiren ant değeri taşıdığı bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yaratıcıya dayanarak ant verme işlevini açık biçimde korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F003"
+        ]
+      },
+      {
+        "text": "kısaltılmış şaşma veya ant sözü",
+        "usage_role": "explanatory",
+        "applicability": "Özel adın ses veya parçaları düşürülmüş tarihsel kalıplarının işlevini açıklarken kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kısaltılma biçimini ve şaşma ya da ant işlevini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F005"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_010",
+        "rendering_kind": "ordinary",
+        "target_gloss": "Yaratıcıya özgü ad"
+      },
+      {
+        "lexical_unit_id": "lu_011",
+        "rendering_kind": "ordinary",
+        "target_gloss": "Tanrı adına ant olsun, bunu yapmadım"
+      },
+      {
+        "lexical_unit_id": "lu_012",
+        "rendering_kind": "ordinary",
+        "target_gloss": "ey Tanrı; yakarma seslenişi"
+      },
+      {
+        "lexical_unit_id": "lu_013",
+        "rendering_kind": "ordinary",
+        "target_gloss": "ey Tanrı; doğrudan seslenme"
+      },
+      {
+        "lexical_unit_id": "lu_014",
+        "rendering_kind": "ordinary",
+        "target_gloss": "Tanrı adına sen veya baban; şaşma ya da ant kalıbı"
+      },
+      {
+        "lexical_unit_id": "lu_015",
+        "rendering_kind": "ordinary",
+        "target_gloss": "Tanrı adına, gerçekten sen veya biz; kısaltılmış ant kalıpları"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "tanrı",
+        "category": "confusable",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Yüce bir tapınılan varlığa gönderimde bulunma yönünü korur.",
+          "loses": "Adın tek bir varlığa özgü özel ad oluşunu ve seslenme ile ant biçimlerini karşılamaz.",
+          "adds": null,
+          "collision": "Genel tür adı olarak başka tapınılan varlıklar için de kullanılabildiğinden özel adla karışır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000047/B001",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Yaratıcıya özgü adı ve bu adla kurulan seslenme, dilek, şaşma ve ant biçimlerini kapsar.",
+        "neighbor_only": "Genel tapınma eylemini, tapınılan varlığı ve bir varlığı tapınılır kılma işlemini kapsar.",
+        "gloss": "tapınma ve tapınılan varlık",
+        "shared_zone": "Özel ad, tapınılan yüce varlığı göstermesi bakımından genel varlık anlamına dayanır.",
+        "distinction": "Bu dal belirli bir özel adın biçim ve kullanım alanıdır; komşu dal ise özel adla sınırlanmayan genel tapınma eylemini ve tapınılan varlık anlamını verir."
+      },
+      {
+        "neighbor_ref": "root_001044/B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Ant işlevini Yaratıcıya özgü adın yalın veya kısalmış biçimleriyle kurar.",
+        "neighbor_only": "Ant veya ısrarlı isteme işlevini yaşam süresini bildiren sözlerle kurar.",
+        "gloss": "ömür üzerine ant ve ısrarlı isteme",
+        "shared_zone": "İki dal da bir sözü güçlendiren ant işlevli kalıplar içerir.",
+        "distinction": "Ortak işlev ant vermedir, fakat bu dalın dayanağı Yaratıcıya özgü addır; komşu dal yaşam süresini bildiren sözleri kullanır ve ayrıca ısrarlı istemeye uzanabilir."
+      },
+      {
+        "neighbor_ref": "root_000074/B008",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Belirli bir özel adı ve o adın yakarma ile ant kullanımlarını içerir.",
+        "neighbor_only": "Yakın veya uzaktaki muhataba yöneltilen genel seslenme öğelerini bildirir.",
+        "gloss": "genel seslenme öğeleri",
+        "shared_zone": "Her iki dal da doğrudan seslenme sırasında kullanılan biçimlerle ilgilidir.",
+        "distinction": "Bu dal belirli bir muhatabın özel adı çevresinde oluşur; komşu dal ise muhatabın kimliğinden bağımsız genel seslenme araçlarını ve uzaklık ayrımını konu edinir."
+      },
+      {
+        "neighbor_ref": "root_001178/B003",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Yaratıcıya özgü adı ve ona bağlı seslenme ile ant biçimlerini kapsar.",
+        "neighbor_only": "Belirsiz bir kişiye yönelen kısaltılmış seslenme biçimlerini kapsar.",
+        "gloss": "kişiye yönelik kısaltılmış seslenme",
+        "shared_zone": "Her iki dalda da seslenme sırasında biçimsel kısalma görülebilir.",
+        "distinction": "Bu dalın kısalmaları belirli özel adın dinsel seslenme ve ant işlevlerine bağlıdır; komşu dalın kısalmaları ise belirsiz bir kişiye seslenmenin dilbilgisel biçimleridir."
+      },
+      {
+        "neighbor_ref": "root_000054/B003",
+        "relation_type": "thematic",
+        "boundary_match": "thematic_only",
+        "focus_only": "Yakarışın yöneltildiği Yaratıcıyı özel adıyla çağırır.",
+        "neighbor_only": "Yakarışın kabul edilmesini isteyen veya söyleneni onaylayan karşılık sözünü bildirir.",
+        "gloss": "yakarışın kabulünü isteyen karşılık",
+        "shared_zone": "İki dal da yakarış ortamında kullanılan kısa söz biçimlerine katılır.",
+        "distinction": "Bu dal bir muhataba seslenir; komşu dal ise söylenmiş yakarışa kabul dileği veya onayla karşılık verir. Aynı sahnede bulunsalar da anlam çekirdekleri örtüşmez."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi. Genel tapınma dalı, yaşam üzerine ant, genel seslenme, kısaltılmış kişi seslenmesi ve yakarışa karşılık sözü gerçek sınır karşılaştırmaları sağladı; baba hitapları, genel dışlama yapıları, başka ant sözleri ve sesçe eşlik eden kalıplar daha zayıf ya da yalnızca biçimsel temas gösterdiği için yayımlanmadı.",
+    "branch_image_ar": "اسم الله في القسم والنداء",
+    "what_is_ar": "يدخل فيه اسم الله والقول في أصله من إله، وصيغ الاستعمال مثل الله ما فعلت بمعنى والله، واللهم، ويا الله، ولاه أبوك أو لاه أنت ونحوها.",
+    "what_is_not_ar": "ليس فرعا مستقلا عن معنى الإله المعبود من جهة الاشتقاق، ولا يدخل فيه إطلاق إله أو آلهة على كل معبود إذا لم يكن الكلام على صيغة الاسم أو النداء أو القسم.",
+    "source_phrase_ar": "فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأكبر هو الله، الله ما فعلت تريد والله، اللهم بمعنى يا ألله، لاه أبوك، لهنك، لهنا، يا ألله اغفر لي (tahdhib)؛ الله قيل أصله إله فحذفت همزته وأدخل عليها الألف واللام فخص بالباري تعالى (mufradat)",
+    "sources": [
+      "MQ",
+      "AY",
+      "SI",
+      "TA",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_000047",
+    "branch_id": "B002",
+    "branch_image_ar": "اسم الله في القسم والنداء",
+    "what_is_ar": "يدخل فيه اسم الله والقول في أصله من إله، وصيغ الاستعمال مثل الله ما فعلت بمعنى والله، واللهم، ويا الله، ولاه أبوك أو لاه أنت ونحوها.",
+    "what_is_not_ar": "ليس فرعا مستقلا عن معنى الإله المعبود من جهة الاشتقاق، ولا يدخل فيه إطلاق إله أو آلهة على كل معبود إذا لم يكن الكلام على صيغة الاسم أو النداء أو القسم.",
+    "source_phrase_ar": "فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأكبر هو الله، الله ما فعلت تريد والله، اللهم بمعنى يا ألله، لاه أبوك، لهنك، لهنا، يا ألله اغفر لي (tahdhib)؛ الله قيل أصله إله فحذفت همزته وأدخل عليها الألف واللام فخص بالباري تعالى (mufradat)",
+    "image_transliteration": "Tanrı adının ant ve seslenmede kullanımı",
+    "summary": "Yaratıcıya özgü adın kendisini ve bu adla kurulan seslenme, dilek, şaşma ve ant biçimlerini kapsar. Bu biçimler doğrudan seslenme, adın ant değeriyle kullanılması veya ses ve parçaların düşürülmesiyle kısaltılma yollarını gösterir.",
+    "concept_map": {
+      "definition": "Yaratıcıya özgü adın kendisini ve bu adla kurulan seslenme, dilek, şaşma ve ant biçimlerini kapsar. Bu biçimler doğrudan seslenme, adın ant değeriyle kullanılması veya ses ve parçaların düşürülmesiyle kısaltılma yollarını gösterir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "source_variant",
+          "statement": "Özel adın, tapınılan varlığı bildiren genel addan ses düşmesi ve belirleyici unsur eklenmesiyle oluştuğu açıklanır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "associated_use",
+          "statement": "Özel ad, sözün başında ant değeri taşıyarak ardından gelen yapmama bildirimini güçlendirebilir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "associated_use",
+          "statement": "Özel adın doğrudan ya da seslenme öğesi yerine geçen bir sonla kullanılması, yakarma ve dilek bildiren seslenme biçimleri kurar.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F005",
+          "role": "source_variant",
+          "statement": "Ses veya parçaların düşürüldüğü kısalmış biçimler, şaşma ve ant anlatan kalıplarda kullanılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "qualified",
+      "rationale": "Kaynak ifadesi Yaratıcıya özgü adın kendisini, genel tapınılan-varlık adından türetiliş açıklamasını ve bu özel adla kurulan seslenme ile ant biçimlerini birlikte verir. Geçici çerçeve kullanılabilir, ancak dal yalnızca seslenme ve ant kalıpları değildir; özel adın yalın kullanımı da çekirdekte tutulmalıdır.",
+      "boundary_note": "Dal, özel ad ile bu ada bağlı seslenme, dilek, şaşma ve ant biçimleriyle sınırlıdır; herhangi bir tapınılan varlığı gösteren genel ad anlamına genişletilmez."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Yalın özel ad, doğrudan seslenme biçimleri ve ant ya da şaşma kalıpları ayrı tutulur; kalıplara özgü işlevler özel adın her kullanımına genellenmez."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 4,
+        "lexical_unit": 2
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_010",
+        "expression_ar": "الله",
+        "unit_kind": "lexical_unit",
+        "sense_ar": "اسم الله المختص بالباري تعالى",
+        "target_gloss": "Yaratıcıya özgü ad",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "maqayis:root=%D8%A1%20%D9%84%20%D9%87:headword=%D8%A3%D9%84%D9%87:sha=218aad57ec16f061",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2303:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=0d66a56288b510fe",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A54:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=6230d35b9f3ffb13"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_011",
+        "expression_ar": "الله ما فعلت",
+        "unit_kind": "collocation",
+        "sense_ar": "صيغة قسم يراد بها والله ما فعلت",
+        "target_gloss": "Tanrı adına ant olsun, bunu yapmadım",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2303:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=0d66a56288b510fe",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_012",
+        "expression_ar": "اللهم ولا هم",
+        "unit_kind": "lexical_unit",
+        "sense_ar": "نداء الله في الدعاء بمعنى يا الله",
+        "target_gloss": "ey Tanrı; yakarma seslenişi",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2303:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=0d66a56288b510fe",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_013",
+        "expression_ar": "يا الله ويا ألله",
+        "unit_kind": "collocation",
+        "sense_ar": "صيغة نداء لله في الدعاء",
+        "target_gloss": "ey Tanrı; doğrudan seslenme",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_014",
+        "expression_ar": "لاه أنت ولاه أبوك",
+        "unit_kind": "collocation",
+        "sense_ar": "صيغة تعجب أو قسم محذوفة من لله أنت أو لله أبوك",
+        "target_gloss": "Tanrı adına sen veya baban; şaşma ya da ant kalıbı",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2303:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=0d66a56288b510fe",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_015",
+        "expression_ar": "لهنك ولهنا",
+        "unit_kind": "collocation",
+        "sense_ar": "صيغ محذوفة من لله إنك أو لاه إنا في اليمين",
+        "target_gloss": "Tanrı adına, gerçekten sen veya biz; kısaltılmış ant kalıpları",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynaklar özel adı Yaratıcıya özgü bir ad olarak tanımlar ve onu tapınılan varlığı gösteren genel adla köken bakımından ilişkilendirir. Aynı adın doğrudan seslenmede, yakarmada, ant bildiriminde ve parçaları düşürülmüş kalıplarda kullanıldığı birlikte gösterilir.",
+      "evidence_refs": [
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2303:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=0d66a56288b510fe",
+        "maqayis:root=%D8%A1%20%D9%84%20%D9%87:headword=%D8%A3%D9%84%D9%87:sha=218aad57ec16f061",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A54:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=6230d35b9f3ffb13",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 5,
+      "passage_count": 5,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "maqayis:root=%D8%A1%20%D9%84%20%D9%87:headword=%D8%A3%D9%84%D9%87:sha=218aad57ec16f061"
+          ]
+        },
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2303:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=0d66a56288b510fe"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A54:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=6230d35b9f3ffb13"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Yaratıcıya özgü adın kendisini ve bu adla kurulan seslenme, dilek, şaşma ve ant biçimlerini kapsar. Bu biçimler doğrudan seslenme, adın ant değeriyle kullanılması veya ses ve parçaların düşürülmesiyle kısaltılma yollarını gösterir.",
+      "concept": {
+        "rank": 1,
+        "text": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Özel adın kendisiyle ona bağlı seslenme, dilek ve ant kullanımlarının birlikte açıklanması gereken dal düzeyinde kullanılır.",
+        "facet_ids": [
+          "F001",
+          "F003",
+          "F004",
+          "F005"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Özel ad çekirdeğini ve bu ada bağlı başlıca söz biçimlerini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "Yaratıcı'nın özel adı",
+          "loanword_status": "none",
+          "usage_role": "general",
+          "selection_role": "contextual_gloss",
+          "applicability": "Söz konusu adın yalnız Yaratıcıyı gösteren yalın ad olarak ele alındığı bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Adın Yaratıcıya özgü olmasını ve ayırt edici ad işlevini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "ey Tanrı",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Yakarış veya dilek sırasında Yaratıcıya doğrudan seslenilen bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F004"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yaratıcıya yöneltilen doğrudan seslenme işlevini doğal biçimde korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 4,
+          "text": "Tanrı adına ant olsun",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Özel adın bir bildirimin doğruluğunu pekiştiren ant değeri taşıdığı bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yaratıcıya dayanarak ant verme işlevini açık biçimde korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 5,
+          "text": "kısaltılmış şaşma veya ant sözü",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "Özel adın ses veya parçaları düşürülmüş tarihsel kalıplarının işlevini açıklarken kullanılır.",
+          "facet_ids": [
+            "F005"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kısaltılma biçimini ve şaşma ya da ant işlevini birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "tanrı",
+          "category": "confusable",
+          "exclusion_reason": "Adın tek bir varlığa özgü özel ad oluşunu ve seslenme ile ant biçimlerini karşılamaz. Genel tür adı olarak başka tapınılan varlıklar için de kullanılabildiğinden özel adla karışır.",
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Yüce bir tapınılan varlığa gönderimde bulunma yönünü korur.",
+            "loses": "Adın tek bir varlığa özgü özel ad oluşunu ve seslenme ile ant biçimlerini karşılamaz.",
+            "adds": null,
+            "collision": "Genel tür adı olarak başka tapınılan varlıklar için de kullanılabildiğinden özel adla karışır."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000047",
+        "neighbor_branch_id": "B001",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Yaratıcıya özgü adı ve bu adla kurulan seslenme, dilek, şaşma ve ant biçimlerini kapsar.",
+        "neighbor_only": "Genel tapınma eylemini, tapınılan varlığı ve bir varlığı tapınılır kılma işlemini kapsar.",
+        "expression_transliteration": "Kulluk ve tapınılan varlık",
+        "gloss": "tapınma ve tapınılan varlık",
+        "shared_zone": "Özel ad, tapınılan yüce varlığı göstermesi bakımından genel varlık anlamına dayanır.",
+        "distinction": "Bu dal belirli bir özel adın biçim ve kullanım alanıdır; komşu dal ise özel adla sınırlanmayan genel tapınma eylemini ve tapınılan varlık anlamını verir.",
+        "expression_ar": "التعبد والمعبود",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2303:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=0d66a56288b510fe",
+          "maqayis:root=%D8%A1%20%D9%84%20%D9%87:headword=%D8%A3%D9%84%D9%87:sha=218aad57ec16f061",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A54:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=6230d35b9f3ffb13",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5110:headword=%D8%A3%D9%84%D9%87:root=%D8%A1%20%D9%84%20%D9%87:sha=df34337cb4e7101e",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D311%3Bsegment_index%3D8:headword=%D8%A3%D9%84%D9%87:root=%D8%A3%20%D9%84%20%D9%87:sha=3f78e491bb5b0e16"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001044",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Ant işlevini Yaratıcıya özgü adın yalın veya kısalmış biçimleriyle kurar.",
+        "neighbor_only": "Ant veya ısrarlı isteme işlevini yaşam süresini bildiren sözlerle kurar.",
+        "expression_transliteration": "Ömür üzerine yemin ve yalvarma",
+        "gloss": "ömür üzerine ant ve ısrarlı isteme",
+        "shared_zone": "İki dal da bir sözü güçlendiren ant işlevli kalıplar içerir.",
+        "distinction": "Ortak işlev ant vermedir, fakat bu dalın dayanağı Yaratıcıya özgü addır; komşu dal yaşam süresini bildiren sözleri kullanır ve ayrıca ısrarlı istemeye uzanabilir.",
+        "expression_ar": "الحلف والمناشدة بالعمر",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2350",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1036:headword=%D8%B9%D9%85%D8%B1:root=%D8%B9%20%D9%85%20%D8%B1:sha=faa5d49fa8fccff7",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1825:headword=%D8%B9%D9%85%D8%B1:root=%D8%B9%20%D9%85%20%D8%B1:sha=ce49cf38a05e16a8",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D174%3Bsegment_index%3D2:headword=%D8%B9%D9%85%D8%B1:root=%D8%B9%20%D9%85%20%D8%B1:sha=4fa17412075d40a2"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000074",
+        "neighbor_branch_id": "B008",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Belirli bir özel adı ve o adın yakarma ile ant kullanımlarını içerir.",
+        "neighbor_only": "Yakın veya uzaktaki muhataba yöneltilen genel seslenme öğelerini bildirir.",
+        "expression_transliteration": "Seslenme için ey ve eyâ",
+        "gloss": "genel seslenme öğeleri",
+        "shared_zone": "Her iki dal da doğrudan seslenme sırasında kullanılan biçimlerle ilgilidir.",
+        "distinction": "Bu dal belirli bir muhatabın özel adı çevresinde oluşur; komşu dal ise muhatabın kimliğinden bağımsız genel seslenme araçlarını ve uzaklık ayrımını konu edinir.",
+        "expression_ar": "أي وأيا للنداء",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5471:headword=%D8%A3%D9%8A:root=%D8%A1%20%D9%8A:sha=c6c7a2d987186b75",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5219:headword=%D8%A3%D9%8A%D8%A7:root=%D8%A1%20%D9%8A%20%D8%A7:sha=16f91099cd22b69c"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001178",
+        "neighbor_branch_id": "B003",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Yaratıcıya özgü adı ve ona bağlı seslenme ile ant biçimlerini kapsar.",
+        "neighbor_only": "Belirsiz bir kişiye yönelen kısaltılmış seslenme biçimlerini kapsar.",
+        "expression_transliteration": "ya fl fy alnda' almkhtsr",
+        "gloss": "kişiye yönelik kısaltılmış seslenme",
+        "shared_zone": "Her iki dalda da seslenme sırasında biçimsel kısalma görülebilir.",
+        "distinction": "Bu dalın kısalmaları belirli özel adın dinsel seslenme ve ant işlevlerine bağlıdır; komşu dalın kısalmaları ise belirsiz bir kişiye seslenmenin dilbilgisel biçimleridir.",
+        "expression_ar": "يا فل في النداء المختصر",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2652",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5021:headword=%D9%81%D9%84%D9%86:root=%D9%81%20%D9%84%20%D9%86:sha=1073f310ffe5bacd",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D792%3Bsegment_index%3D4:headword=%D9%81%D9%84%D9%86:root=%D9%81%20%D9%84%20%D9%86:sha=7bc2797cb45cb636"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000054",
+        "neighbor_branch_id": "B003",
+        "relation_type": "thematic",
+        "boundary_match": "thematic_only",
+        "focus_only": "Yakarışın yöneltildiği Yaratıcıyı özel adıyla çağırır.",
+        "neighbor_only": "Yakarışın kabul edilmesini isteyen veya söyleneni onaylayan karşılık sözünü bildirir.",
+        "expression_transliteration": "Âmin diyerek kabul dileme",
+        "gloss": "yakarışın kabulünü isteyen karşılık",
+        "shared_zone": "İki dal da yakarış ortamında kullanılan kısa söz biçimlerine katılır.",
+        "distinction": "Bu dal bir muhataba seslenir; komşu dal ise söylenmiş yakarışa kabul dileği veya onayla karşılık verir. Aynı sahnede bulunsalar da anlam çekirdekleri örtüşmez.",
+        "expression_ar": "قول آمين طلبا للاستجابة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:130",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5438:headword=%D8%A3%D9%85%D9%86:root=%D8%A1%20%D9%85%20%D9%86:sha=970f792b7b37044e",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A60:headword=%D8%A3%D9%85%D9%86:root=%D8%A1%20%D9%85%20%D9%86:sha=56d3c351655a522e",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4796:headword=%D8%A3%D9%85%D9%86:root=%D8%A1%20%D9%85%20%D9%86:sha=db949485ac97e0ac"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 9,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi. Genel tapınma dalı, yaşam üzerine ant, genel seslenme, kısaltılmış kişi seslenmesi ve yakarışa karşılık sözü gerçek sınır karşılaştırmaları sağladı; baba hitapları, genel dışlama yapıları, başka ant sözleri ve sesçe eşlik eden kalıplar daha zayıf ya da yalnızca biçimsel temas gösterdiği için yayımlanmadı."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_000047/B002",
+    "concept_gloss": {
+      "text": "Allah adı ve ona bağlı yakarma-ant kalıpları",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004",
+        "F005"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "Yaratıcıya özgü Allah adı",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_010"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F003",
+            "F004",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız özel adı ve köken açıklamasını verir; ant, yakarma ve kısaltma kullanımları dışarıda kalır."
+        }
+      },
+      {
+        "text": "Allah'a ant olsun, yapmadım",
+        "facet_ids": [
+          "F003"
+        ],
+        "lexical_unit_ids": [
+          "lu_011"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F004",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız ant kalıbını verir; özel ad, köken açıklaması, yakarma ve kısaltma yönleri dışarıda kalır."
+        }
+      },
+      {
+        "text": "Allahım diye yakarmak",
+        "facet_ids": [
+          "F004",
+          "F005"
+        ],
+        "lexical_unit_ids": [
+          "lu_012"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız yakarma seslenişini ve biçim kısalmasını verir; özel ad, köken açıklaması ve ant kullanımı dışarıda kalır."
+        }
+      },
+      {
+        "text": "ey Allah diye seslenmek",
+        "facet_ids": [
+          "F004"
+        ],
+        "lexical_unit_ids": [
+          "lu_013"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F003",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız doğrudan seslenmeyi verir; özel ad, köken açıklaması, ant ve kısaltma yönleri dışarıda kalır."
+        }
+      },
+      {
+        "text": "kısaltılmış şaşma veya ant sözü",
+        "facet_ids": [
+          "F003",
+          "F005"
+        ],
+        "lexical_unit_ids": [
+          "lu_014",
+          "lu_015"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız kısaltılmış şaşma veya ant kalıbını verir; özel ad, köken açıklaması ve yakarma seslenişi dışarıda kalır."
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_010": {
+        "text": "Allah adı",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F003",
+            "F004",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız özel adı ve köken açıklamasını verir; ant, yakarma ve kısaltma kullanımları dışarıda kalır."
+        }
+      },
+      "lu_011": {
+        "text": "Allah'a ant olsun, bunu yapmadım",
+        "facet_ids": [
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F004",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız ant kalıbını verir; özel ad, köken açıklaması, yakarma ve kısaltma yönleri dışarıda kalır."
+        }
+      },
+      "lu_012": {
+        "text": "Allahım; yakarma seslenişi",
+        "facet_ids": [
+          "F004",
+          "F005"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız yakarma seslenişini ve biçim kısalmasını verir; özel ad, köken açıklaması ve ant kullanımı dışarıda kalır."
+        }
+      },
+      "lu_013": {
+        "text": "ey Allah; doğrudan yakarma",
+        "facet_ids": [
+          "F004"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F003",
+            "F005"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız doğrudan seslenmeyi verir; özel ad, köken açıklaması, ant ve kısaltma yönleri dışarıda kalır."
+        }
+      },
+      "lu_014": {
+        "text": "Allah adına; şaşma ya da ant kalıbı",
+        "facet_ids": [
+          "F003",
+          "F005"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız kısaltılmış şaşma veya ant kalıbını verir; özel ad, köken açıklaması ve yakarma seslenişi dışarıda kalır."
+        }
+      },
+      "lu_015": {
+        "text": "Allah adına, gerçekten; kısaltılmış ant kalıbı",
+        "facet_ids": [
+          "F003",
+          "F005"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Yalnız kısaltılmış ant kalıbını verir; özel ad, köken açıklaması ve yakarma seslenişi dışarıda kalır."
+        }
+      }
+    }
+  }
+}

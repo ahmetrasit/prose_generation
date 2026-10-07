@@ -1,0 +1,811 @@
+{
+  "root_ar": "ع و ن",
+  "branch_ref": "root_001064/B001",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_001064.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_001064.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+      "entry_id": "root_001064/tr",
+      "status": "reviewed",
+      "review_verdict": "repair",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_001064/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, yardım ve karşılıklı desteğin yanı sıra orta yaş, yinelenmiş savaş, yaşlı hurma, bedensel olgunluk, yaban eşeği sürüsü, kasık kılları ve bir yerle ilişkilendirilen şarap gibi birbirinden belirgin biçimde ayrılan anlam dalları taşır. Düzen, bazı yaş ve olgunluk bağlantılarına karşın tek bir çekirdekten açıklanamayacak ölçüde çok kolludur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_001064/B001",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Dalın kaynak ifadesi, yardım sağlayan kişi ya da şeyi, yardım etme eylemini, yardım istemeyi ve karşılıklı yardımlaşmayı aynı anlam alanında açıkça toplar. Geçici çerçeve bu çekirdeği doğru yansıtır.",
+      "boundary_note": "Bu dal yaş, savaş, ağaç, hayvan sürüsü, beden bölgesi veya yer adı anlamlarını kapsamaz."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım, yalın yardım ve destek çekirdeğini korurken yardım isteme ve karşılıklı yardımlaşma gibi yapıya bağlı kullanımları ayrı yönler olarak sınırlar."
+    },
+    "concept_map": {
+      "definition": "Bir kişinin, topluluğun ya da aracın bir işi gerçekleştirmede başkasına güç, destek veya kolaylık sağlamasıdır. Bu çekirdek, yardım istemeyi, birlikte karşılıklı yardım etmeyi ve yardımsever kişi nitelemesini de türemiş kullanımlar olarak kapsar.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir kişi, topluluk veya şey, başka birinin işini yapmasına destek olur ya da o işte kullanılabilecek bir destek oluşturur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "specialization",
+          "statement": "Yapıya bağlı kullanımlarda kişi başkasından yardım ister veya taraflar birbirlerine yardım ederek birlikte hareket eder.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "extension",
+          "statement": "Aynı anlam alanı, insanlara çok yardım eden kişiyi ve yardım etme eylemini adlandıran türemiş biçimleri de içerir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynakların ortak çekirdeği yardım, destek sağlama, başkasından destek isteme ve tarafların birbirine yardım etmesidir; yardım sağlayan şey de bu alanın içinde değerlendirilir.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "yardım, destek ve dayanışma",
+      "applicability": "Dalın yardım sağlama çekirdeği ile karşılıklı yardımlaşma yönünü birlikte veren genel kavram karşılığıdır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Yardım sağlama, destek olma ve karşılıklı hareket etme çekirdeğini korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "yardım istemek",
+        "usage_role": "contextual",
+        "applicability": "Bir kişinin belirli birinden destek talep ettiği yapıya bağlı kullanımda doğaldır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Destek talep eden kişi ile yardım kaynağı arasındaki yönü korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002"
+        ]
+      },
+      {
+        "text": "birbirine yardım etmek",
+        "usage_role": "contextual",
+        "applicability": "Birden çok tarafın karşılıklı destek vererek birlikte hareket ettiği bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Karşılıklılık ve ortak hareket etme özelliklerini eksiksiz biçimde korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_001",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yardım, destek veya işe yarayan yardımcı şey"
+      },
+      {
+        "lexical_unit_id": "lu_002",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yardım etme, destek sağlama"
+      },
+      {
+        "lexical_unit_id": "lu_003",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yardım etti, destek oldu"
+      },
+      {
+        "lexical_unit_id": "lu_004",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yardımlaştı veya destek verdi"
+      },
+      {
+        "lexical_unit_id": "lu_005",
+        "rendering_kind": "ordinary",
+        "target_gloss": "birinden yardım istedi"
+      },
+      {
+        "lexical_unit_id": "lu_006",
+        "rendering_kind": "ordinary",
+        "target_gloss": "birbirine yardım etti, dayanıştı"
+      },
+      {
+        "lexical_unit_id": "lu_007",
+        "rendering_kind": "ordinary",
+        "target_gloss": "çok yardımsever, sıkça yardım eden"
+      },
+      {
+        "lexical_unit_id": "lu_008",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yardım, destek"
+      },
+      {
+        "lexical_unit_id": "lu_009",
+        "rendering_kind": "ordinary",
+        "target_gloss": "yardım anlamındaki tekil biçim veya yardım sözünün çoğulu"
+      }
+    ],
+    "excluded_glosses": [],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000580/B001",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal, maddi olmayan desteği, yardım istemeyi ve karşılıklı yardımlaşmayı da kapsar.",
+        "neighbor_only": "Komşu dal, yardımın özellikle verme, bağış veya yolcuya gereç sağlama yoluyla gerçekleşmesini kapsar.",
+        "gloss": "vererek yardım etme",
+        "shared_zone": "Her iki dalda da bir kişinin başkasının işini kolaylaştıran bir destek sağlaması vardır.",
+        "distinction": "Odak dal genel yardım alanıdır; komşu dal ise bu desteğin verme ve bağış gibi belirli maddi gerçekleşmelerini öne çıkarır."
+      },
+      {
+        "neighbor_ref": "root_000707/B002",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal, yardımcı şeyleri, yardım talebini ve tarafların karşılıklı desteğini açıkça içerir.",
+        "neighbor_only": "Komşu dal, bir işte peşinden gitme ve belirli bir bağlılık ya da dua kalıbını da içerir.",
+        "gloss": "yardım etme ve izleme",
+        "shared_zone": "İki dal da bir kişiye veya işe destek olma anlamında belirgin biçimde kesişir.",
+        "distinction": "Komşu dalın izleme ve kalıplaşmış bağlılık yönleri odak dalın çekirdeğinde yoktur; odak dalın yardım isteme ve karşılıklılık kapsamı da daha geniştir."
+      },
+      {
+        "neighbor_ref": "root_000855/B003",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal olağan işlerde sağlanan desteği, yardım istemeyi ve dayanışmayı kapsar.",
+        "neighbor_only": "Komşu dal, çağrı üzerine sıkıntıdan kurtarma veya acil imdada yetişme koşuluyla sınırlıdır.",
+        "gloss": "imdat ve kurtarma",
+        "shared_zone": "Her iki dalda da ihtiyaç içindeki birine etkili destek sağlama bulunur.",
+        "distinction": "İmdat dalı çağrı ve acil kurtarma durumunu gerektirir; odak dalda böyle bir aciliyet koşulu bulunmaz."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün aday komşular değerlendirildi; en yararlı sınırlar maddi yardım, yardım ile izleme birlikteliği ve acil kurtarma üzerinden gösterildi, kalanlar daha uzak senaryo ortaklıkları veya bu kökün ayrı dallarıdır.",
+    "branch_image_ar": "الإعانة والمظاهرة",
+    "what_is_ar": "العون والمعونة والإعانة والاستعانة والتعاون والتظاهر على الأمر",
+    "what_is_not_ar": "ليس العوان في السن ولا العانة",
+    "source_phrase_ar": "كل شيء استعنت به أو أعانك فهو عونك (ayn); العون الظهيرة على الأمر والمعونة الإعانة واستعنت بفلان فأعانني وعاونني وتعاون القوم (sihah); كل شيء أعانك فهو عون لك وأعنته إعانة واستعنت به وعاونته وقد تعاونا (tahdhib); العون المعاونة والمظاهرة والتعاون التظاهر والاستعانة طلب العون (mufradat)",
+    "sources": [
+      "AY",
+      "SI",
+      "TA",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_001064",
+    "branch_id": "B001",
+    "branch_image_ar": "الإعانة والمظاهرة",
+    "what_is_ar": "العون والمعونة والإعانة والاستعانة والتعاون والتظاهر على الأمر",
+    "what_is_not_ar": "ليس العوان في السن ولا العانة",
+    "source_phrase_ar": "كل شيء استعنت به أو أعانك فهو عونك (ayn); العون الظهيرة على الأمر والمعونة الإعانة واستعنت بفلان فأعانني وعاونني وتعاون القوم (sihah); كل شيء أعانك فهو عون لك وأعنته إعانة واستعنت به وعاونته وقد تعاونا (tahdhib); العون المعاونة والمظاهرة والتعاون التظاهر والاستعانة طلب العون (mufradat)",
+    "image_transliteration": "ali'anh walmzahrh",
+    "summary": "Bir kişinin, topluluğun ya da aracın bir işi gerçekleştirmede başkasına güç, destek veya kolaylık sağlamasıdır. Bu çekirdek, yardım istemeyi, birlikte karşılıklı yardım etmeyi ve yardımsever kişi nitelemesini de türemiş kullanımlar olarak kapsar.",
+    "concept_map": {
+      "definition": "Bir kişinin, topluluğun ya da aracın bir işi gerçekleştirmede başkasına güç, destek veya kolaylık sağlamasıdır. Bu çekirdek, yardım istemeyi, birlikte karşılıklı yardım etmeyi ve yardımsever kişi nitelemesini de türemiş kullanımlar olarak kapsar.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir kişi, topluluk veya şey, başka birinin işini yapmasına destek olur ya da o işte kullanılabilecek bir destek oluşturur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "specialization",
+          "statement": "Yapıya bağlı kullanımlarda kişi başkasından yardım ister veya taraflar birbirlerine yardım ederek birlikte hareket eder.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "extension",
+          "statement": "Aynı anlam alanı, insanlara çok yardım eden kişiyi ve yardım etme eylemini adlandıran türemiş biçimleri de içerir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Dalın kaynak ifadesi, yardım sağlayan kişi ya da şeyi, yardım etme eylemini, yardım istemeyi ve karşılıklı yardımlaşmayı aynı anlam alanında açıkça toplar. Geçici çerçeve bu çekirdeği doğru yansıtır.",
+      "boundary_note": "Bu dal yaş, savaş, ağaç, hayvan sürüsü, beden bölgesi veya yer adı anlamlarını kapsamaz."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Tanım, yalın yardım ve destek çekirdeğini korurken yardım isteme ve karşılıklı yardımlaşma gibi yapıya bağlı kullanımları ayrı yönler olarak sınırlar."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 1,
+        "form": 7,
+        "review": 1
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_001",
+        "expression_ar": "العون",
+        "unit_kind": "form",
+        "sense_ar": "المعاونة والمظاهرة وما يستعان به أو يعين على الأمر",
+        "target_gloss": "yardım, destek veya işe yarayan yardımcı şey",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_002",
+        "expression_ar": "الإعانة",
+        "unit_kind": "form",
+        "sense_ar": "إيقاع العون وإمداد الغير به",
+        "target_gloss": "yardım etme, destek sağlama",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_003",
+        "expression_ar": "أعان",
+        "unit_kind": "form",
+        "sense_ar": "نصر وأمد غيره بالعون",
+        "target_gloss": "yardım etti, destek oldu",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_004",
+        "expression_ar": "عاون",
+        "unit_kind": "form",
+        "sense_ar": "شارك في إعانة غيره أو ناصره",
+        "target_gloss": "yardımlaştı veya destek verdi",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_005",
+        "expression_ar": "استعان ب",
+        "unit_kind": "collocation",
+        "sense_ar": "طلب العون من غيره",
+        "target_gloss": "birinden yardım istedi",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_006",
+        "expression_ar": "تعاون",
+        "unit_kind": "form",
+        "sense_ar": "أعان بعضهم بعضا أو تظاهروا",
+        "target_gloss": "birbirine yardım etti, dayanıştı",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_007",
+        "expression_ar": "معوان",
+        "unit_kind": "form",
+        "sense_ar": "كثير المعونة للناس",
+        "target_gloss": "çok yardımsever, sıkça yardım eden",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_008",
+        "expression_ar": "المعونة",
+        "unit_kind": "form",
+        "sense_ar": "العون والإعانة",
+        "target_gloss": "yardım, destek",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_009",
+        "expression_ar": "معون",
+        "unit_kind": "review",
+        "sense_ar": "معونة أو جمع معونة بحسب التحليل المنقول",
+        "target_gloss": "yardım anlamındaki tekil biçim veya yardım sözünün çoğulu",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynakların ortak çekirdeği yardım, destek sağlama, başkasından destek isteme ve tarafların birbirine yardım etmesidir; yardım sağlayan şey de bu alanın içinde değerlendirilir.",
+      "evidence_refs": [
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 4,
+      "passage_count": 4,
+      "sources": [
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Bir kişinin, topluluğun ya da aracın bir işi gerçekleştirmede başkasına güç, destek veya kolaylık sağlamasıdır. Bu çekirdek, yardım istemeyi, birlikte karşılıklı yardım etmeyi ve yardımsever kişi nitelemesini de türemiş kullanımlar olarak kapsar.",
+      "concept": {
+        "rank": 1,
+        "text": "yardım, destek ve dayanışma",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Dalın yardım sağlama çekirdeği ile karşılıklı yardımlaşma yönünü birlikte veren genel kavram karşılığıdır.",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yardım sağlama, destek olma ve karşılıklı hareket etme çekirdeğini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "yardım istemek",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir kişinin belirli birinden destek talep ettiği yapıya bağlı kullanımda doğaldır.",
+          "facet_ids": [
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Destek talep eden kişi ile yardım kaynağı arasındaki yönü korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "birbirine yardım etmek",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Birden çok tarafın karşılıklı destek vererek birlikte hareket ettiği bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Karşılıklılık ve ortak hareket etme özelliklerini eksiksiz biçimde korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": []
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000580",
+        "neighbor_branch_id": "B001",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal, maddi olmayan desteği, yardım istemeyi ve karşılıklı yardımlaşmayı da kapsar.",
+        "neighbor_only": "Komşu dal, yardımın özellikle verme, bağış veya yolcuya gereç sağlama yoluyla gerçekleşmesini kapsar.",
+        "expression_transliteration": "alm'awnh bal'ta'",
+        "gloss": "vererek yardım etme",
+        "shared_zone": "Her iki dalda da bir kişinin başkasının işini kolaylaştıran bir destek sağlaması vardır.",
+        "distinction": "Odak dal genel yardım alanıdır; komşu dal ise bu desteğin verme ve bağış gibi belirli maddi gerçekleşmelerini öne çıkarır.",
+        "expression_ar": "المعاونة بالعطاء",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1334",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A580:headword=%D8%B1%D9%81%D8%AF:root=%D8%B1%20%D9%81%20%D8%AF:sha=3f6f10293b1df953",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1280:headword=%D8%B1%D9%81%D8%AF:root=%D8%B1%20%D9%81%20%D8%AF:sha=f939780a21cacdc9",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D717%3Bsegment_index%3D35:headword=%D8%B1%D9%81%D8%AF:root=%D8%B1%20%D9%81%20%D8%AF:sha=01c2b15b4a372083"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000707",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal, yardımcı şeyleri, yardım talebini ve tarafların karşılıklı desteğini açıkça içerir.",
+        "neighbor_only": "Komşu dal, bir işte peşinden gitme ve belirli bir bağlılık ya da dua kalıbını da içerir.",
+        "expression_transliteration": "almsa'dh walmtab'h",
+        "gloss": "yardım etme ve izleme",
+        "shared_zone": "İki dal da bir kişiye veya işe destek olma anlamında belirgin biçimde kesişir.",
+        "distinction": "Komşu dalın izleme ve kalıplaşmış bağlılık yönleri odak dalın çekirdeğinde yoktur; odak dalın yardım isteme ve karşılıklılık kapsamı da daha geniştir.",
+        "expression_ar": "المساعدة والمتابعة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1623",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A700:headword=%D8%B3%D8%B9%D8%AF:root=%D8%B3%20%D8%B9%20%D8%AF:sha=f06298d1f04a1fbe",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1303:headword=%D8%B3%D8%B9%D8%AF:root=%D8%B3%20%D8%B9%20%D8%AF:sha=4c5ee6dfea4bbf24",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D116%3Bsegment_index%3D4:headword=%D8%B3%D8%B9%D8%AF:root=%D8%B3%20%D8%B9%20%D8%AF:sha=0ce871c686d7d1f7"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000855",
+        "neighbor_branch_id": "B003",
+        "relation_type": "near_synonym",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal olağan işlerde sağlanan desteği, yardım istemeyi ve dayanışmayı kapsar.",
+        "neighbor_only": "Komşu dal, çağrı üzerine sıkıntıdan kurtarma veya acil imdada yetişme koşuluyla sınırlıdır.",
+        "expression_transliteration": "alighathh walijabh",
+        "gloss": "imdat ve kurtarma",
+        "shared_zone": "Her iki dalda da ihtiyaç içindeki birine etkili destek sağlama bulunur.",
+        "distinction": "İmdat dalı çağrı ve acil kurtarma durumunu gerektirir; odak dalda böyle bir aciliyet koşulu bulunmaz.",
+        "expression_ar": "الإغاثة والإجابة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2072",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2614:headword=%D8%B5%D8%B1%D8%AE:root=%D8%B5%20%D8%B1%20%D8%AE:sha=f1d18196625d96cc",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1532%3Asubentry%3A6%3A%D8%B5%D8%B1%D8%AE:headword=%D8%B5%D8%B1%D8%AE:root=%D8%B5%20%D8%B1%20%D8%AE:sha=1df0444fe30c94cb",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1152:headword=%D8%B5%D8%B1%D8%AE:root=%D8%B5%20%D8%B1%20%D8%AE:sha=d174e0af36d034a7",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D350%3Bsegment_index%3D45:headword=%D8%B5%D8%B1%D8%AE:root=%D8%B5%20%D8%B1%20%D8%AE:sha=4718396e6c526309"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün aday komşular değerlendirildi; en yararlı sınırlar maddi yardım, yardım ile izleme birlikteliği ve acil kurtarma üzerinden gösterildi, kalanlar daha uzak senaryo ortaklıkları veya bu kökün ayrı dallarıdır."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_001064/B001",
+    "concept_gloss": {
+      "text": "yardım ve destek",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "bir işte destek sağlamak",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_002",
+          "lu_003"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "birinden yardım istemek",
+        "facet_ids": [
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_005"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "karşılıklı yardımlaşmak",
+        "facet_ids": [
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_004",
+          "lu_006"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "çok yardım eden kişi",
+        "facet_ids": [
+          "F003"
+        ],
+        "lexical_unit_ids": [
+          "lu_007"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_001": {
+        "text": "yardım veya destek aracı",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss yardım isteme, yardımlaşma ve yardımsever kişi uzantılarını değil, destek veya yardımcı şey çekirdeğini verir."
+        }
+      },
+      "lu_002": {
+        "text": "yardım etme",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss yardım isteme, karşılıklı yardımlaşma ve yardımsever kişi yönlerini dışarıda bırakır."
+        }
+      },
+      "lu_003": {
+        "text": "yardım etmek",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss yalnızca başkasına destek olma eylemini verir; yardım isteme ve karşılıklılık yönleri yoktur."
+        }
+      },
+      "lu_004": {
+        "text": "yardımlaşmak veya destek vermek",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss eylem ve karşılıklılık alanını verir, fakat yardımsever kişi niteliğini kapsamaz."
+        }
+      },
+      "lu_005": {
+        "text": "birinden yardım istemek",
+        "facet_ids": [
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss özellikle yardım talebini verir; genel destek sağlama ve yardımsever kişi yönleri yoktur."
+        }
+      },
+      "lu_006": {
+        "text": "birbirine yardım etmek",
+        "facet_ids": [
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss karşılıklı yardım yapısını verir; yardımcı şey ve yardımsever kişi yönlerini kapsamaz."
+        }
+      },
+      "lu_007": {
+        "text": "yardımsever",
+        "facet_ids": [
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss çok yardım eden kişi niteliğine odaklanır; yardım isteme ve destek aracı yönlerini vermez."
+        }
+      },
+      "lu_008": {
+        "text": "yardım, destek",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss genel yardım çekirdeğini verir; yardım isteme, yardımlaşma ve yardımsever kişi uzantıları açık değildir."
+        }
+      },
+      "lu_009": {
+        "text": "yardım sözü veya onun çoğulu",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss biçimin tekil veya çoğul yardım adı oluşunu verir; yardım isteme ve yardımsever kişi yönleri yoktur."
+        }
+      }
+    }
+  }
+}

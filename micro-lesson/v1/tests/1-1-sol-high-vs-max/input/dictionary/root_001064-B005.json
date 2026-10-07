@@ -1,0 +1,528 @@
+{
+  "root_ar": "ع و ن",
+  "branch_ref": "root_001064/B005",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_001064.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_001064.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+      "entry_id": "root_001064/tr",
+      "status": "reviewed",
+      "review_verdict": "repair",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_001064/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, yardım ve karşılıklı desteğin yanı sıra orta yaş, yinelenmiş savaş, yaşlı hurma, bedensel olgunluk, yaban eşeği sürüsü, kasık kılları ve bir yerle ilişkilendirilen şarap gibi birbirinden belirgin biçimde ayrılan anlam dalları taşır. Düzen, bazı yaş ve olgunluk bağlantılarına karşın tek bir çekirdekten açıklanamayacak ölçüde çok kolludur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_001064/B005",
+    "identity_judgment": {
+      "status": "qualified",
+      "rationale": "Kaynak ifadesi kadın ve yük atı için iki ayrı yapıya bağlı nitelik verir: kadında yaş alma, etlilik ve beden oranı; hayvanda ise güç ile yaşın birbirine yetişmesi. Geçici çerçeve bunları ortak bir bedensel olgunlaşma altında kullanabilir, ancak iki uygulamanın koşulları birbirine aktarılmamalıdır.",
+      "boundary_note": "Bu dal genel iş birliği anlamı değildir ve kadın ile hayvana özgü koşullar ayrı tutulmalıdır."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "collocation",
+      "note": "Tanım yalnızca kadın ve yük atıyla kurulan iki niteleme yapısına bağlıdır; buradan yalın ve genel bir bedensel denge anlamı çıkarılmaz."
+    },
+    "concept_map": {
+      "definition": "Belirli kadın ve yük atı nitelemelerinde bedenin yaşla birlikte dengeli ya da güçlü bir olgunluğa erişmesini anlatır. Kadında yaş alma, etlilik ve orantılı görünüş; hayvanda ise güç ile yaşın birbirine yetişmesi ayrı koşullardır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Yapıya bağlı niteleme, bedenin yaşla birlikte belirli bir denge veya güç olgunluğuna ulaşmasını bildirir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "specialization",
+          "statement": "Kadın için yaşın ilerlemesi, bedenin etli olması ve yapının ölçülü görünerek belirgin çıkıntı göstermemesi öne çıkar.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "Yük atı için hayvanın gücü ile yaşının birbirine yetişip uyumlu bir olgunluğa ulaşması belirtilir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Toplu kanıt, kadın için yaş alma, etlilik ve ölçülü beden görünüşünü; yük atı için güç ile yaşın birbirine yetişmesini aynı yapıya bağlı dalda yan yana verir.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "bedensel denge ve güç olgunluğu",
+      "applicability": "Yalnızca kanıtta verilen kadın ve yük atı nitelemelerinin ortak, soyut çekirdeğini ifade eder.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Yaşla birlikte beden dengesi veya gücün olgunlaşması ortaklığını korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "bedeni dengeli ve etli kadın",
+        "usage_role": "contextual",
+        "applicability": "Kadının yaşı ilerlerken bedeninin etli ve ölçülü görünmesini anlatan özel yapıda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Kadına özgü yaş, etlilik ve dengeli görünüş koşullarını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002"
+        ]
+      },
+      {
+        "text": "gücü yaşına yetişmiş yük atı",
+        "usage_role": "contextual",
+        "applicability": "Hayvanın gücü ile yaşının birbirine yetiştiği özel niteleme için uygundur.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hayvanda güç ile yaşın birbirini yakalaması koşulunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F003"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_017",
+        "rendering_kind": "ordinary",
+        "target_gloss": "bedeni dengeli kadın veya yaş almış, etli kadın"
+      },
+      {
+        "lexical_unit_id": "lu_018",
+        "rendering_kind": "ordinary",
+        "target_gloss": "gücü ile yaşı birbirine yetişmiş yük atı"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "iş birlikçi",
+        "category": "confusable",
+        "error_profile": {
+          "fit": "displacement",
+          "preserves": "Birden çok unsurun uyumu düşüncesini yalnızca çağrışım düzeyinde taşır.",
+          "loses": "Yaş, beden yapısı ve güç olgunluğu koşullarının tamamını siler.",
+          "adds": "İnsanların birlikte çalışma davranışını yanlış biçimde anlama ekler.",
+          "collision": "Yardımlaşma dalındaki karşılıklı destek anlamıyla karışır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_001240/B019",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal kadında yaş ve etliliği, yük atında ise güç ile yaşın birbirine yetişmesini içerir.",
+        "neighbor_only": "Komşu dal genel olarak benzer, orantılı ve düzgün bir beden biçimini yaş koşulu olmadan kapsar.",
+        "gloss": "orantılı beden yapısı",
+        "shared_zone": "İki dal özellikle bedenin dengeli ve ölçülü görünmesi yönünde kesişir.",
+        "distinction": "Komşu dal biçim oranına odaklanır; odak dal ise belirli yapılarda yaş, etlilik veya güç olgunluğu koşullarını da zorunlu kılar."
+      },
+      {
+        "neighbor_ref": "root_000347/B013",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal kadın bedenini de kapsar ve yük atında güç ile yaşın birbirine yetişmesini belirtir.",
+        "neighbor_only": "Komşu dal hayvanın semizlik, çiftleşme yeterliği veya genel durum bakımından tamamlanmasını kapsar.",
+        "gloss": "hayvanın durum ve güççe tamamlanması",
+        "shared_zone": "İki dal hayvan bedeninin güç ve gelişim bakımından olgun bir duruma gelmesini paylaşır.",
+        "distinction": "Odak dalın hayvan kullanımı güç ile yaşın uyumuna bağlıdır; komşu dal semizlik ve çiftleşme yeterliği gibi başka tamamlanma ölçütleri taşır."
+      },
+      {
+        "neighbor_ref": "root_000766/B005",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal belirli kadın ve yük atı yapılarında beden oranı, etlilik veya güç ile yaş uyumunu anlatır.",
+        "neighbor_only": "Komşu dal insanın gençliğinin, gücünün, bedeninin ve aklının genel tamamlanmasını kapsar.",
+        "gloss": "gençliğin ve gücün tamamlanması",
+        "shared_zone": "Her iki dal yaşla birlikte beden ve gücün olgunlaşmasını konu edinir.",
+        "distinction": "Komşu dal insanda genel gençlik tamamlanmasıdır; odak dal ise kadın ve yük atına özgü iki ayrı niteleme koşuluyla sınırlıdır."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; orantılı beden, hayvanda durumun tamamlanması ve genel güç olgunluğu en yakın sınırları verir, kalanlar irilik, kalınlık veya tek bir organın yapısıyla ilgilidir.",
+    "branch_image_ar": "استواء الخلقة وتلاحق القوة",
+    "what_is_ar": "المتعاونة في المرأة أو البرذون إذا اعتدل الخلق أو لحقت القوة والسن",
+    "what_is_not_ar": "ليس التعاون بمعنى إعانة بعضهم بعضا ولا العوان بين السنين",
+    "source_phrase_ar": "المتعاونة من النساء التي طعنت في السن ولا تكون إلا مع كثرة اللحم (sihah); امرأة متعاونة إذا اعتدل خلقها فلم يبد حجمها وبرذون متعاون إذا لحقت قوته وسنه (tahdhib)",
+    "sources": [
+      "SI",
+      "TA"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_001064",
+    "branch_id": "B005",
+    "branch_image_ar": "استواء الخلقة وتلاحق القوة",
+    "what_is_ar": "المتعاونة في المرأة أو البرذون إذا اعتدل الخلق أو لحقت القوة والسن",
+    "what_is_not_ar": "ليس التعاون بمعنى إعانة بعضهم بعضا ولا العوان بين السنين",
+    "source_phrase_ar": "المتعاونة من النساء التي طعنت في السن ولا تكون إلا مع كثرة اللحم (sihah); امرأة متعاونة إذا اعتدل خلقها فلم يبد حجمها وبرذون متعاون إذا لحقت قوته وسنه (tahdhib)",
+    "image_transliteration": "astwa' alkhlqh wtlahq alqwh",
+    "summary": "Belirli kadın ve yük atı nitelemelerinde bedenin yaşla birlikte dengeli ya da güçlü bir olgunluğa erişmesini anlatır. Kadında yaş alma, etlilik ve orantılı görünüş; hayvanda ise güç ile yaşın birbirine yetişmesi ayrı koşullardır.",
+    "concept_map": {
+      "definition": "Belirli kadın ve yük atı nitelemelerinde bedenin yaşla birlikte dengeli ya da güçlü bir olgunluğa erişmesini anlatır. Kadında yaş alma, etlilik ve orantılı görünüş; hayvanda ise güç ile yaşın birbirine yetişmesi ayrı koşullardır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Yapıya bağlı niteleme, bedenin yaşla birlikte belirli bir denge veya güç olgunluğuna ulaşmasını bildirir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "specialization",
+          "statement": "Kadın için yaşın ilerlemesi, bedenin etli olması ve yapının ölçülü görünerek belirgin çıkıntı göstermemesi öne çıkar.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "Yük atı için hayvanın gücü ile yaşının birbirine yetişip uyumlu bir olgunluğa ulaşması belirtilir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "qualified",
+      "rationale": "Kaynak ifadesi kadın ve yük atı için iki ayrı yapıya bağlı nitelik verir: kadında yaş alma, etlilik ve beden oranı; hayvanda ise güç ile yaşın birbirine yetişmesi. Geçici çerçeve bunları ortak bir bedensel olgunlaşma altında kullanabilir, ancak iki uygulamanın koşulları birbirine aktarılmamalıdır.",
+      "boundary_note": "Bu dal genel iş birliği anlamı değildir ve kadın ile hayvana özgü koşullar ayrı tutulmalıdır."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "collocation",
+      "note": "Tanım yalnızca kadın ve yük atıyla kurulan iki niteleme yapısına bağlıdır; buradan yalın ve genel bir bedensel denge anlamı çıkarılmaz."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "collocation",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 2
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_017",
+        "expression_ar": "امرأة متعاونة",
+        "unit_kind": "collocation",
+        "sense_ar": "امرأة اعتدل خلقها فلم يبد حجمها أو طعنت في السن مع كثرة اللحم",
+        "target_gloss": "bedeni dengeli kadın veya yaş almış, etli kadın",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_018",
+        "expression_ar": "برذون متعاون",
+        "unit_kind": "collocation",
+        "sense_ar": "برذون لحقت قوته وسنه",
+        "target_gloss": "gücü ile yaşı birbirine yetişmiş yük atı",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Toplu kanıt, kadın için yaş alma, etlilik ve ölçülü beden görünüşünü; yük atı için güç ile yaşın birbirine yetişmesini aynı yapıya bağlı dalda yan yana verir.",
+      "evidence_refs": [
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 2,
+      "passage_count": 2,
+      "sources": [
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D199%3Bsegment_index%3D2:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=a94764ede71706eb"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Belirli kadın ve yük atı nitelemelerinde bedenin yaşla birlikte dengeli ya da güçlü bir olgunluğa erişmesini anlatır. Kadında yaş alma, etlilik ve orantılı görünüş; hayvanda ise güç ile yaşın birbirine yetişmesi ayrı koşullardır.",
+      "concept": {
+        "rank": 1,
+        "text": "bedensel denge ve güç olgunluğu",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Yalnızca kanıtta verilen kadın ve yük atı nitelemelerinin ortak, soyut çekirdeğini ifade eder.",
+        "facet_ids": [
+          "F001"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yaşla birlikte beden dengesi veya gücün olgunlaşması ortaklığını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "bedeni dengeli ve etli kadın",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Kadının yaşı ilerlerken bedeninin etli ve ölçülü görünmesini anlatan özel yapıda kullanılır.",
+          "facet_ids": [
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Kadına özgü yaş, etlilik ve dengeli görünüş koşullarını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "gücü yaşına yetişmiş yük atı",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Hayvanın gücü ile yaşının birbirine yetiştiği özel niteleme için uygundur.",
+          "facet_ids": [
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Hayvanda güç ile yaşın birbirini yakalaması koşulunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "iş birlikçi",
+          "category": "confusable",
+          "exclusion_reason": "Yaş, beden yapısı ve güç olgunluğu koşullarının tamamını siler. İnsanların birlikte çalışma davranışını yanlış biçimde anlama ekler. Yardımlaşma dalındaki karşılıklı destek anlamıyla karışır.",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Birden çok unsurun uyumu düşüncesini yalnızca çağrışım düzeyinde taşır.",
+            "loses": "Yaş, beden yapısı ve güç olgunluğu koşullarının tamamını siler.",
+            "adds": "İnsanların birlikte çalışma davranışını yanlış biçimde anlama ekler.",
+            "collision": "Yardımlaşma dalındaki karşılıklı destek anlamıyla karışır."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_001240",
+        "neighbor_branch_id": "B019",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal kadında yaş ve etliliği, yük atında ise güç ile yaşın birbirine yetişmesini içerir.",
+        "neighbor_only": "Komşu dal genel olarak benzer, orantılı ve düzgün bir beden biçimini yaş koşulu olmadan kapsar.",
+        "expression_transliteration": "shbh wqd whyyh mmshwqh",
+        "gloss": "orantılı beden yapısı",
+        "shared_zone": "İki dal özellikle bedenin dengeli ve ölçülü görünmesi yönünde kesişir.",
+        "distinction": "Komşu dal biçim oranına odaklanır; odak dal ise belirli yapılarda yaş, etlilik veya güç olgunluğu koşullarını da zorunlu kılar.",
+        "expression_ar": "شبه وقد وهيئة ممشوقة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A102:headword=%D9%82%D8%B7%D8%B9:root=%D9%82%20%D8%B7%20%D8%B9:sha=248e25a81cc2f12f",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D52%3Bsegment_index%3D3:headword=%D9%82%D8%B7%D8%B9:root=%D9%82%20%D8%B7%20%D8%B9:sha=7cc0de761f3c4190"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000347",
+        "neighbor_branch_id": "B013",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal kadın bedenini de kapsar ve yük atında güç ile yaşın birbirine yetişmesini belirtir.",
+        "neighbor_only": "Komşu dal hayvanın semizlik, çiftleşme yeterliği veya genel durum bakımından tamamlanmasını kapsar.",
+        "expression_transliteration": "tmam hal alhywan wqwth",
+        "gloss": "hayvanın durum ve güççe tamamlanması",
+        "shared_zone": "İki dal hayvan bedeninin güç ve gelişim bakımından olgun bir duruma gelmesini paylaşır.",
+        "distinction": "Odak dalın hayvan kullanımı güç ile yaşın uyumuna bağlıdır; komşu dal semizlik ve çiftleşme yeterliği gibi başka tamamlanma ölçütleri taşır.",
+        "expression_ar": "تمام حال الحيوان وقوته",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:684",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D216%3Bsegment_index%3D4:headword=%D8%AD%D9%82:root=%D8%AD%20%D9%82:sha=83e8be9340b4e723"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000766",
+        "neighbor_branch_id": "B005",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal belirli kadın ve yük atı yapılarında beden oranı, etlilik veya güç ile yaş uyumunu anlatır.",
+        "neighbor_only": "Komşu dal insanın gençliğinin, gücünün, bedeninin ve aklının genel tamamlanmasını kapsar.",
+        "expression_transliteration": "blwgh wtmam alshbab",
+        "gloss": "gençliğin ve gücün tamamlanması",
+        "shared_zone": "Her iki dal yaşla birlikte beden ve gücün olgunlaşmasını konu edinir.",
+        "distinction": "Komşu dal insanda genel gençlik tamamlanmasıdır; odak dal ise kadın ve yük atına özgü iki ayrı niteleme koşuluyla sınırlıdır.",
+        "expression_ar": "بلوغ وتمام الشباب",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A761:headword=%D8%B3%D9%88%D8%A7:root=%D8%B3%20%D9%88%20%D8%A7:sha=87043f6c41d7f89c",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5378:headword=%D8%B3%D9%88%D8%A7:root=%D8%B3%20%D9%88%20%D8%A7:sha=e233f637a15ff03d",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D14:headword=%D8%B3%D9%88%D9%8A:root=%D8%B3%20%D9%88%20%D9%8A:sha=401bc592d0c5cede"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; orantılı beden, hayvanda durumun tamamlanması ve genel güç olgunluğu en yakın sınırları verir, kalanlar irilik, kalınlık veya tek bir organın yapısıyla ilgilidir."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_001064/B005",
+    "concept_gloss": {
+      "text": "yaşla dengelenmiş bedensel olgunluk",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "yaş almış ve etli kadın",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_017"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "gücü yaşıyla uyumlu yük atı",
+        "facet_ids": [
+          "F001",
+          "F003"
+        ],
+        "lexical_unit_ids": [
+          "lu_018"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_017": {
+        "text": "bedeni dengeli veya yaş almış etli kadın",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss kadın yapısına bağlıdır; yük atında güç ile yaşın uyumunu bildiren yönü kapsamaz."
+        }
+      },
+      "lu_018": {
+        "text": "gücü ile yaşı uyumlu yük atı",
+        "facet_ids": [
+          "F001",
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss yük atı yapısına bağlıdır; kadındaki yaş alma, etlilik ve ölçülü beden görünüşünü kapsamaz."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "root_ar": "ع و ن",
+  "branch_ref": "root_001064/B003",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_001064.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_001064.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_001064/tr/output/root_001064_entry.json",
+      "entry_id": "root_001064/tr",
+      "status": "reviewed",
+      "review_verdict": "repair",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_001064/tr/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, yardım ve karşılıklı desteğin yanı sıra orta yaş, yinelenmiş savaş, yaşlı hurma, bedensel olgunluk, yaban eşeği sürüsü, kasık kılları ve bir yerle ilişkilendirilen şarap gibi birbirinden belirgin biçimde ayrılan anlam dalları taşır. Düzen, bazı yaş ve olgunluk bağlantılarına karşın tek bir çekirdekten açıklanamayacak ölçüde çok kolludur.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_001064/B003",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi bu niteliği daha önce bir savaşın yaşanmış olması veya aynı savaşın defalarca sürdürülmesiyle açıklar. Geçici çerçeve hem öncül savaş hem yinelenmiş çatışma koşulunu doğru biçimde korur.",
+      "boundary_note": "Bu anlam yalnızca savaş nitelemesinde geçerlidir; genel tekrar ya da genel savaş adı değildir."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "collocation",
+      "note": "Tanım yalnızca belirtilen savaş nitelemesine bağlıdır ve tekrarlanma anlamını kökün yalın bir anlamı olarak genellemez."
+    },
+    "concept_map": {
+      "definition": "Daha önce bir savaşın yaşandığı veya çatışmanın birden çok kez yinelendiği, bu nedenle ilk ve yeni olmayan savaştır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Savaşın öncesinde başka bir savaş vardır ya da aynı savaşta çatışma birden çok kez gerçekleşmiştir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynaklar savaşın ilk olmadığında birleşir; bunu kimi anlatımlar önceki bir savaşla, kimileri ise çatışmanın defalarca yinelenmesi ve eskimesiyle açıklar.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "yinelenmiş veya öncülü olan savaş",
+      "applicability": "Daha önceki bir savaşın ardından gelen ya da çatışması tekrar eden savaş nitelemesini tam olarak verir.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Önceki savaş ve yinelenen çatışma seçeneklerinin ikisini de korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "ilk olmayan savaş",
+        "usage_role": "explanatory",
+        "applicability": "Öncesinde başka bir savaş bulunduğunun açık olduğu bağlamlarda doğal ve kısa bir açıklamadır.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Savaşın başlangıç niteliğinde olmadığını açıkça korur.",
+          "loses": "Tek bir savaş içindeki çatışmanın defalarca yinelenmesi seçeneğini tek başına belirtmez.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_015",
+        "rendering_kind": "ordinary",
+        "target_gloss": "daha önce yaşanmış ya da yinelenmiş savaş"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "uzun savaş",
+        "category": "confusable",
+        "error_profile": {
+          "fit": "displacement",
+          "preserves": "Savaşın sürmüş olabileceği izlenimini sınırlı biçimde taşır.",
+          "loses": "Önceki savaş veya tekrarlanan çatışma koşulunu ortadan kaldırır.",
+          "adds": "Kaynakta zorunlu olmayan uzun süre koşulunu anlama ekler.",
+          "collision": "Süre bakımından uzun olan fakat ilk kez yaşanan bir savaşla karışır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000208/B003",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal tekrarı yalnızca savaşın geçmişi veya yinelenmiş çatışması içinde belirtir.",
+        "neighbor_only": "Komşu dal alma, kınama, iyilik ve başka eylemlerde bir şeyin defalarca yapılmasını kapsar.",
+        "gloss": "bir şeyi tekrar tekrar yapma",
+        "shared_zone": "Her iki dalda da bir olayın veya eylemin birden çok kez gerçekleşmesi bulunur.",
+        "distinction": "Komşu dal genel tekrar kavramıdır; odak dal ise bu yapıyı savaşın ilk olmaması koşuluna bağlayan özel bir nitelemedir."
+      },
+      {
+        "neighbor_ref": "root_000090/B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal, bir savaşın öncülü bulunmasını veya savaş içindeki çatışmanın yinelenmesini bildirir.",
+        "neighbor_only": "Komşu dal başlangıç ile geri dönüşü veya yeniden yapmayı aynı genel süreçte birleştirir.",
+        "gloss": "başlangıç ve yeniden yapma",
+        "shared_zone": "İki dal da ilk gerçekleşmeden sonra bir yeniden oluş düşüncesi taşıyabilir.",
+        "distinction": "Odak dal savaşla ve ilk olmama niteliğiyle sınırlıdır; komşu dal ise farklı eylem ve oluşlardaki başlangıç ile dönüş düzenini anlatır."
+      },
+      {
+        "neighbor_ref": "root_000302/B002",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dal savaşın daha önce yaşanmış veya yinelenmiş olması şartını taşır.",
+        "neighbor_only": "Komşu dal savaş, düşmanlık, savaşma ve savaşla ilgili yer ya da kişileri genel olarak kapsar.",
+        "gloss": "savaş ve düşmanlık",
+        "shared_zone": "Her iki dalın merkezinde savaş ve çatışma alanı bulunur.",
+        "distinction": "Genel savaş adı, savaşın ilk mi yoksa yinelenmiş mi olduğunu söylemez; odak dalın ayırt edici koşulu tam olarak bu geçmiş ve tekrar bilgisidir."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel tekrar, başlangıçtan sonra yeniden yapma ve genel savaş alanı sınırı en yararlı üç karşılaştırmadır, kalanlar savaşın yeri, şiddeti veya başlaması gibi başka yönlerdir.",
+    "branch_image_ar": "الحرب العَوان",
+    "what_is_ar": "الحرب العوان التي قوتل فيها مرة بعد مرة أو سبقتها حرب أولى",
+    "what_is_not_ar": "ليس العوان في سن البقرة ولا العون بمعنى النصرة",
+    "source_phrase_ar": "الحرب العوان التي كانت قبلها حرب بكر (ayn); العوان من الحروب التي قوتل فيها مرة بعد مرة (sihah); استعير للحرب التي قد تكررت وقدمت (mufradat)",
+    "sources": [
+      "AY",
+      "SI",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_001064",
+    "branch_id": "B003",
+    "branch_image_ar": "الحرب العَوان",
+    "what_is_ar": "الحرب العوان التي قوتل فيها مرة بعد مرة أو سبقتها حرب أولى",
+    "what_is_not_ar": "ليس العوان في سن البقرة ولا العون بمعنى النصرة",
+    "source_phrase_ar": "الحرب العوان التي كانت قبلها حرب بكر (ayn); العوان من الحروب التي قوتل فيها مرة بعد مرة (sihah); استعير للحرب التي قد تكررت وقدمت (mufradat)",
+    "image_transliteration": "alhrb al'wan",
+    "summary": "Daha önce bir savaşın yaşandığı veya çatışmanın birden çok kez yinelendiği, bu nedenle ilk ve yeni olmayan savaştır.",
+    "concept_map": {
+      "definition": "Daha önce bir savaşın yaşandığı veya çatışmanın birden çok kez yinelendiği, bu nedenle ilk ve yeni olmayan savaştır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Savaşın öncesinde başka bir savaş vardır ya da aynı savaşta çatışma birden çok kez gerçekleşmiştir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak ifadesi bu niteliği daha önce bir savaşın yaşanmış olması veya aynı savaşın defalarca sürdürülmesiyle açıklar. Geçici çerçeve hem öncül savaş hem yinelenmiş çatışma koşulunu doğru biçimde korur.",
+      "boundary_note": "Bu anlam yalnızca savaş nitelemesinde geçerlidir; genel tekrar ya da genel savaş adı değildir."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "collocation",
+      "note": "Tanım yalnızca belirtilen savaş nitelemesine bağlıdır ve tekrarlanma anlamını kökün yalın bir anlamı olarak genellemez."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "collocation",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 1
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_015",
+        "expression_ar": "الحرب العوان",
+        "unit_kind": "collocation",
+        "sense_ar": "الحرب التي سبقها قتال أو تكررت مرة بعد مرة",
+        "target_gloss": "daha önce yaşanmış ya da yinelenmiş savaş",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynaklar savaşın ilk olmadığında birleşir; bunu kimi anlatımlar önceki bir savaşla, kimileri ise çatışmanın defalarca yinelenmesi ve eskimesiyle açıklar.",
+      "evidence_refs": [
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 3,
+      "passage_count": 3,
+      "sources": [
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1037:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=8d812ace648c62ec"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4998:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=9f98d0a71ec1eff5"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A1064:headword=%D8%B9%D9%88%D9%86:root=%D8%B9%20%D9%88%20%D9%86:sha=4408f290020374ab"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Daha önce bir savaşın yaşandığı veya çatışmanın birden çok kez yinelendiği, bu nedenle ilk ve yeni olmayan savaştır.",
+      "concept": {
+        "rank": 1,
+        "text": "yinelenmiş veya öncülü olan savaş",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Daha önceki bir savaşın ardından gelen ya da çatışması tekrar eden savaş nitelemesini tam olarak verir.",
+        "facet_ids": [
+          "F001"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Önceki savaş ve yinelenen çatışma seçeneklerinin ikisini de korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "ilk olmayan savaş",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "Öncesinde başka bir savaş bulunduğunun açık olduğu bağlamlarda doğal ve kısa bir açıklamadır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Savaşın başlangıç niteliğinde olmadığını açıkça korur.",
+            "loses": "Tek bir savaş içindeki çatışmanın defalarca yinelenmesi seçeneğini tek başına belirtmez.",
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "uzun savaş",
+          "category": "confusable",
+          "exclusion_reason": "Önceki savaş veya tekrarlanan çatışma koşulunu ortadan kaldırır. Kaynakta zorunlu olmayan uzun süre koşulunu anlama ekler. Süre bakımından uzun olan fakat ilk kez yaşanan bir savaşla karışır.",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Savaşın sürmüş olabileceği izlenimini sınırlı biçimde taşır.",
+            "loses": "Önceki savaş veya tekrarlanan çatışma koşulunu ortadan kaldırır.",
+            "adds": "Kaynakta zorunlu olmayan uzun süre koşulunu anlama ekler.",
+            "collision": "Süre bakımından uzun olan fakat ilk kez yaşanan bir savaşla karışır."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000208",
+        "neighbor_branch_id": "B003",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal tekrarı yalnızca savaşın geçmişi veya yinelenmiş çatışması içinde belirtir.",
+        "neighbor_only": "Komşu dal alma, kınama, iyilik ve başka eylemlerde bir şeyin defalarca yapılmasını kapsar.",
+        "expression_transliteration": "i'adh alshy' mrh b'd mrh",
+        "gloss": "bir şeyi tekrar tekrar yapma",
+        "shared_zone": "Her iki dalda da bir olayın veya eylemin birden çok kez gerçekleşmesi bulunur.",
+        "distinction": "Komşu dal genel tekrar kavramıdır; odak dal ise bu yapıyı savaşın ilk olmaması koşuluna bağlayan özel bir nitelemedir.",
+        "expression_ar": "إعادة الشيء مرة بعد مرة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:494",
+          "maqayis:root=%D8%AB%20%D9%86%20%D9%8A:headword=%D8%AB%D9%86%D9%8A:sha=97c7e770c5e0a6ea",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A211:headword=%D8%AB%D9%86%D9%89:root=%D8%AB%20%D9%86%20%D9%8A:sha=145b2fbb87920484",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5249:headword=%D8%AB%D9%86%D9%8A:root=%D8%AB%20%D9%86%20%D9%8A:sha=578d60cb3221b475",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D777%3Bsegment_index%3D2:headword=%D8%AB%D9%86%D9%89:root=%D8%AB%20%D9%86%20%D9%89:sha=8fd66663454618bb"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000090",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal, bir savaşın öncülü bulunmasını veya savaş içindeki çatışmanın yinelenmesini bildirir.",
+        "neighbor_only": "Komşu dal başlangıç ile geri dönüşü veya yeniden yapmayı aynı genel süreçte birleştirir.",
+        "expression_transliteration": "el-bed' ma'a'l-avdi ve'l-i'âde",
+        "gloss": "başlangıç ve yeniden yapma",
+        "shared_zone": "İki dal da ilk gerçekleşmeden sonra bir yeniden oluş düşüncesi taşıyabilir.",
+        "distinction": "Odak dal savaşla ve ilk olmama niteliğiyle sınırlıdır; komşu dal ise farklı eylem ve oluşlardaki başlangıç ile dönüş düzenini anlatır.",
+        "expression_ar": "البدء مع العود والإعادة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:227",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A92:headword=%D8%A8%D8%AF%D8%A3:root=%D8%A8%20%D8%AF%20%D8%A1:sha=d7547f12ecac5820",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A3:headword=%D8%A8%D8%AF%D8%A3:root=%D8%A8%20%D8%AF%20%D8%A1:sha=650f3552514cb160"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000302",
+        "neighbor_branch_id": "B002",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dal savaşın daha önce yaşanmış veya yinelenmiş olması şartını taşır.",
+        "neighbor_only": "Komşu dal savaş, düşmanlık, savaşma ve savaşla ilgili yer ya da kişileri genel olarak kapsar.",
+        "expression_transliteration": "alhrb wal'dawh",
+        "gloss": "savaş ve düşmanlık",
+        "shared_zone": "Her iki dalın merkezinde savaş ve çatışma alanı bulunur.",
+        "distinction": "Genel savaş adı, savaşın ilk mi yoksa yinelenmiş mi olduğunu söylemez; odak dalın ayırt edici koşulu tam olarak bu geçmiş ve tekrar bilgisidir.",
+        "expression_ar": "الحرب والعداوة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:717",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1697:headword=%D8%AD%D8%B1%D8%A8:root=%D8%AD%20%D8%B1%20%D8%A8:sha=d7776a63eb1db4ec",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A652%3Asubentry%3A2%3A%D8%AD%D8%B1%D8%A8:headword=%D8%AD%D8%B1%D8%A8:root=%D8%AD%20%D8%B1%20%D8%A8:sha=67a93a652db93783",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A305:headword=%D8%AD%D8%B1%D8%A8:root=%D8%AD%20%D8%B1%20%D8%A8:sha=1c75880b11575a44",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A235:headword=%D8%AD%D8%B1%D8%A8:root=%D8%AD%20%D8%B1%20%D8%A8:sha=f397697a4e765a2e",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D238%3Bsegment_index%3D2:headword=%D8%AD%D8%B1%D8%A8:root=%D8%AD%20%D8%B1%20%D8%A8:sha=aefc79cfdada878c"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; genel tekrar, başlangıçtan sonra yeniden yapma ve genel savaş alanı sınırı en yararlı üç karşılaştırmadır, kalanlar savaşın yeri, şiddeti veya başlaması gibi başka yönlerdir."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_001064/B003",
+    "concept_gloss": {
+      "text": "yinelenmiş savaş",
+      "facet_ids": [
+        "F001"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "ilk olmayan savaş",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_015"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "tekrar yaşanan çatışmalı savaş",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_015"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_015": {
+        "text": "daha önce yaşanmış veya yinelenmiş savaş",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    }
+  }
+}

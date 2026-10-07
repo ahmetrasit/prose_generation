@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Learner state 1.1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.1"
+    },
+    "concepts": {
+      "type": "object",
+      "additionalProperties": {
+        "enum": [
+          "unseen",
+          "seen",
+          "learning",
+          "learned"
+        ]
+      }
+    },
+    "seen_lesson_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "muted_message_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "hidden_lesson_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "hide_seen": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "schema_version",
+    "concepts",
+    "seen_lesson_ids",
+    "muted_message_ids",
+    "hidden_lesson_ids",
+    "hide_seen"
+  ],
+  "additionalProperties": false
+}

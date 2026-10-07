@@ -1,0 +1,801 @@
+{
+  "root_ar": "ر ح م",
+  "branch_ref": "root_000552/B004",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_000552/tr/output/root_000552_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_000552.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_000552.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_000552/tr/output/root_000552_entry.json",
+      "entry_id": "root_000552/tr",
+      "status": "reviewed",
+      "review_verdict": "repair",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_000552/tr/repair/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Bu kök, acımanın iyilik ve esirgemeye dönüşmesini anlatan bir dal ile ortak soydan doğan yakın ilişkiyi anlatan ayrı bir dalı bir araya getirir. Bedensel tarafta yavrunun geliştiği döl yatağı ve bu organa özgü ağrı, hastalık, şişme ya da doğum sonrası bozukluklar birbirinden ayrılır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_000552/B004",
+    "identity_judgment": {
+      "status": "reframed",
+      "rationale": "Hazırlanan başlık doğumdan sonraki ağrıyı doğru bir merkez olarak gösterse de yetkili kaynak anlatımı bundan daha geniştir: dişi deve, koyun veya kadında döl yatağının ağrıması ya da hastalanması yanında şişme ve koyunun doğumdan sonra yavru zarını atamaması da aynı dalda yer alır. Dal bölünmeden korunabilir, fakat tanım yalnızca doğum sonrası ağrıyla sınırlandırılmamalıdır.",
+      "boundary_note": "Dal sağlıklı organı veya genel beden ağrısını değil, döl yatağına özgü ağrı, hastalık, şişme ve doğum sonrası yavru zarını atamama durumlarını kapsar."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "bare",
+      "note": "Verilen biçimler döl yatağına özgü hastalık ve doğum sonrası bozuklukları bağımsız olarak adlandırır; tanım başka bir kalıptan yalın anlama aktarım yapmaz."
+    },
+    "concept_map": {
+      "definition": "Dişi deve, koyun veya kadında döl yatağının ağrıması ya da hastalanmasıyla; koyunda ise ayrıca şişmesiyle belirlenen durumdur. Bazı kullanımlar bunu doğum sonrasına bağlar. Koyunun doğumdan sonra yavru zarını atamaması da bu organ çevresindeki özel bir bozukluk olarak dala dahildir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Dişi hayvan veya kadında döl yatağının ağrıması ya da hastalanması temel durumdur; özellikle bazı kullanımlarda bu durum doğum sonrasında görülür.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "specialization",
+          "statement": "Koyunun doğum yaptıktan sonra yavru zarını dışarı atamaması, dala bağlı özel bir doğum sonrası bozukluktur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "Koyun veya koyun sürüsünde döl yatağının şişmesi, hastalık durumunun özel bir gerçekleşmesidir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Ortak anlatım, dişi deve, koyun veya kadının döl yatağında ağrı ya da hastalık bulunmasını temel alır. Kaynakların bir bölümü bunu özellikle doğum sonrasına bağlar. Toplu anlatım ayrıca koyunda organın şişmesini ve doğumdan sonra yavru zarının atılamamasını aynı organ çevresindeki özel durumlar olarak kaydeder.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "döl yatağı hastalığı ve doğum sonrası bozukluk",
+      "applicability": "Organ ağrısı veya hastalığı ile şişme ve yavru zarını atamama gibi özel doğum sonrası durumları birlikte kapsayan üst karşılıktır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Organın hastalanmasını ve dala bağlı doğum sonrası bozuklukların bütününü korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "doğum sonrası döl yatağı ağrısı",
+        "usage_role": "contextual",
+        "applicability": "Kadın veya dişi hayvanda doğumun ardından organ ağrısının açıkça söz konusu olduğu bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "narrowing",
+          "preserves": "Doğum sonrasındaki organ ağrısını ve etkilenen beden bölümünü korur.",
+          "loses": "Doğumla sınırlı olmayan hastalığı, şişmeyi ve yavru zarının atılamamasını dışarıda bırakır.",
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "doğumdan sonra yavru zarını atamama",
+        "usage_role": "explanatory",
+        "applicability": "Koyunun doğumdan sonra yavruyu saran dokuyu dışarı atamadığı özel hayvancılık bağlamında kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Doğum sonrasını, etkilenen koyunu ve zarın dışarı atılamaması olayını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002"
+        ]
+      },
+      {
+        "text": "döl yatağında şişme",
+        "usage_role": "contextual",
+        "applicability": "Koyun veya koyun sürüsünde organ şişmesinin özellikle bildirildiği bağlamlara özgüdür.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Etkilenen organı ve hastalığın şişme biçimindeki gerçekleşmesini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F003"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_019",
+        "rendering_kind": "ordinary",
+        "target_gloss": "doğumdan sonra döl yatağı ağrıyan ya da döl yatağı hastalanan dişi"
+      },
+      {
+        "lexical_unit_id": "lu_020",
+        "rendering_kind": "ordinary",
+        "target_gloss": "döl yatağı ağrımak ya da hastalanmak"
+      },
+      {
+        "lexical_unit_id": "lu_021",
+        "rendering_kind": "ordinary",
+        "target_gloss": "koyunun doğumdan sonra yavru zarını atamaması"
+      },
+      {
+        "lexical_unit_id": "lu_022",
+        "rendering_kind": "ordinary",
+        "target_gloss": "döl yatağı şişmiş koyun ya da koyun sürüsü"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "lohusalık",
+        "category": "confusable",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Doğumdan sonraki zaman ve iyileşme dönemi bağlantısını korur.",
+          "loses": null,
+          "adds": "Döl yatağı hastalığı bulunmayan olağan doğum sonrası dönemi ve bütün bedensel değişimleri kapsama ekler.",
+          "collision": "Organ hastalığını doğum yapan kişinin genel iyileşme dönemiyle karıştırır."
+        }
+      },
+      {
+        "text": "doğum sancısı",
+        "category": "confusable",
+        "error_profile": {
+          "fit": "displacement",
+          "preserves": "Doğum ile ağrı arasındaki genel bağlantıyı korur.",
+          "loses": "Döl yatağına özgü hastalığı, şişmeyi ve doğum sonrası bozuklukları kaybeder.",
+          "adds": "Doğum sırasında yavrunun çıkışına eşlik eden olağan kasılma ağrılarını ekler.",
+          "collision": "Doğum sırasındaki olağan sancıyı doğum sonrasındaki organ hastalığıyla karıştırır."
+        }
+      },
+      {
+        "text": "karın ağrısı",
+        "category": "alternative",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Ağrının gövdenin iç bölümünde bulunması yönünü kısmen korur.",
+          "loses": null,
+          "adds": "Döl yatağı dışındaki sindirim ve başka iç organlardan doğan ağrıları kapsama ekler.",
+          "collision": "Belirli üreme organı hastalığını kaynağı belirsiz genel karın ağrısıyla karıştırır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000552/B003",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal, döl yatağının ağrı, hastalık, şişme veya doğum sonrası bozukluk içindeki durumunu adlandırır.",
+        "neighbor_only": "Komşu dal, herhangi bir hastalık şartı olmadan yavruyu taşıyan sağlıklı organın kendisini adlandırır.",
+        "gloss": "organ hastalığı ile organın kendisi",
+        "shared_zone": "İki dal aynı bedensel organa dayanır ve biri ötekinin hastalık durumunu anlatır.",
+        "distinction": "Komşu dal anatomik yapının adıdır; odak ise o yapıda ortaya çıkan belirli patolojik ve doğum sonrası durumların adıdır. Organın varlığı hastalık bulunduğunu göstermez."
+      },
+      {
+        "neighbor_ref": "root_000467/B005",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak, döl yatağı ağrısı, hastalığı, şişmesi ve doğum sonrası bozukluklarla sınırlıdır.",
+        "neighbor_only": "Komşu, meme, boğaz veya sırttaki şişkinliği ve doğum sırasında memenin sütle dolup sarkmasını kapsar.",
+        "gloss": "döl yatağı bozukluğu ile başka şişmeler",
+        "shared_zone": "Her iki dal dişi hayvanlarda doğum çevresinde görülebilen şişme ve bedensel değişiklikleri konu edinir.",
+        "distinction": "Odakta etkilenen yer döl yatağıdır ve durum hastalık olarak ele alınır. Komşu farklı beden bölgelerindeki şişmeyi ve olağan süt verme değişimini de kapsadığı için yalnızca aynı hayvancılık ve beden alanını paylaşır."
+      },
+      {
+        "neighbor_ref": "root_001541/B014",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak, dişi üreme organına ve çoğunlukla doğum sonrasına bağlı bir hastalık kümesidir.",
+        "neighbor_only": "Komşu, koyun ve keçinin bel, böğür, kalça veya bacak bölgelerini etkileyip yürüyüşü bozan başka bir hastalıktır.",
+        "gloss": "üreme organı hastalığı ile başka hayvan hastalığı",
+        "shared_zone": "İki dal koyunlarda görülen, ağrı veya belirgin beden bozukluğu yapan hayvan hastalıklarını adlandırır.",
+        "distinction": "Ortak alan hayvan hastalığıdır; etkilenen organ, belirtiler ve doğumla bağlantı bütünüyle farklıdır. Bu nedenle alan ortaklığı dışında anlam örtüşmesi yoktur."
+      },
+      {
+        "neighbor_ref": "root_000262/B007",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak, yalnızca dişi üreme organındaki hastalık ve doğum sonrası bozuklukları kapsar.",
+        "neighbor_only": "Komşu, insan veya hayvanda böğür ve yan bölgesindeki hastalık, susuzluk etkisi veya darbe sonucunu kapsar.",
+        "gloss": "döl yatağı ağrısı ile yan ağrısı",
+        "shared_zone": "İki dal bedendeki belirli bir bölgeye yerleşen ağrı veya hastalığı adlandırma alanında buluşur.",
+        "distinction": "Etkilenen beden bölgesi ve hastalığın oluşma bağlamı farklıdır. Odak doğum ve dişi üreme organıyla sınırlıyken komşu yan bölgesine ve başka nedenlere bağlıdır."
+      },
+      {
+        "neighbor_ref": "root_000995/B013",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak, döl yatağına özgü ağrı ve doğum sonrası bozuklukları bildirir.",
+        "neighbor_only": "Komşu, boğazda veya küçük dil yakınında ortaya çıkan ağrılı hastalığı bildirir.",
+        "gloss": "üreme organı ağrısı ile boğaz ağrısı",
+        "shared_zone": "Her iki dal, etkilenen beden bölümüne göre adlandırılmış yerel bir ağrı veya hastalık durumudur.",
+        "distinction": "Benzerlik yalnızca beden bölgesine bağlı hastalık adı olmalarıdır. Organ, hasta grubu ve doğumla ilişki farklı olduğundan anlamları birbirinin yerine geçmez."
+      }
+    ],
+    "neighbor_coverage_note": "Sunulan bütün adaylar değerlendirildi. Sağlıklı organla ayrım ilk sıraya alındı; hayvanlarda şişme ve üç farklı yerel hastalık dalı alan sınırını gösterdi. Öteki boğaz, boyun, omuz ve üreme organı dışı hastalık adayları seçilen alan karşılaştırmalarını yineledi; acıma ve soy bağı dalları ise yalnızca biçim ortaklığı taşıdı.",
+    "branch_image_ar": "وجع الرَّحِم بعد الولادة",
+    "what_is_ar": "يدخل فيه الرحوم والراحم والرواحم وما قيل في الناقة أو الشاة أو المرأة إذا اشتكت رحمها أو أصابه داء أو ورم أو لم تلق السلا بعد الولادة.",
+    "what_is_not_ar": "ليس المراد مجرد رَحِم الأنثى السليم ولا القرابة ولا الرحمة.",
+    "source_phrase_ar": "شاة رحوم إذا اشتكت رحمها بعد النتاج (maqayis)؛ ناقة رحوم أصابها داء في رحمها وقد رحمت المرأة إذا اشتكت رحمها (ayn)؛ ناقة رحوم إذا اشتكت رحمها في عقب الولادة وامرأة رحوم (jamhara)؛ الرحوم الناقة التي تشتكي رحمها بعد النتاج (sihah)؛ ناقة رحوم أصابها داء في رحمها والرحام أن تلد الشاة ثم لا تلقي سلاها وشاة راحم وغنم رواحم إذا ورم رحمها (tahdhib)؛ امرأة رحوم تشتكي رحمها (mufradat)",
+    "sources": [
+      "MQ",
+      "AY",
+      "JA",
+      "SI",
+      "TA",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_000552",
+    "branch_id": "B004",
+    "branch_image_ar": "وجع الرَّحِم بعد الولادة",
+    "what_is_ar": "يدخل فيه الرحوم والراحم والرواحم وما قيل في الناقة أو الشاة أو المرأة إذا اشتكت رحمها أو أصابه داء أو ورم أو لم تلق السلا بعد الولادة.",
+    "what_is_not_ar": "ليس المراد مجرد رَحِم الأنثى السليم ولا القرابة ولا الرحمة.",
+    "source_phrase_ar": "شاة رحوم إذا اشتكت رحمها بعد النتاج (maqayis)؛ ناقة رحوم أصابها داء في رحمها وقد رحمت المرأة إذا اشتكت رحمها (ayn)؛ ناقة رحوم إذا اشتكت رحمها في عقب الولادة وامرأة رحوم (jamhara)؛ الرحوم الناقة التي تشتكي رحمها بعد النتاج (sihah)؛ ناقة رحوم أصابها داء في رحمها والرحام أن تلد الشاة ثم لا تلقي سلاها وشاة راحم وغنم رواحم إذا ورم رحمها (tahdhib)؛ امرأة رحوم تشتكي رحمها (mufradat)",
+    "image_transliteration": "wj' alrhm b'd alwladh",
+    "summary": "Dişi deve, koyun veya kadında döl yatağının ağrıması, hastalanması ya da şişmesiyle belirlenen durumdur; bazı kullanımlar bunu doğum sonrasına bağlar. Koyunun doğumdan sonra yavru zarını atamaması da bu organ çevresindeki özel bir bozukluk olarak dala dahildir.",
+    "concept_map": {
+      "definition": "Dişi deve, koyun veya kadında döl yatağının ağrıması, hastalanması ya da şişmesiyle belirlenen durumdur; bazı kullanımlar bunu doğum sonrasına bağlar. Koyunun doğumdan sonra yavru zarını atamaması da bu organ çevresindeki özel bir bozukluk olarak dala dahildir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Dişi hayvan veya kadında döl yatağının ağrıması ya da hastalanması temel durumdur; özellikle bazı kullanımlarda bu durum doğum sonrasında görülür.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "specialization",
+          "statement": "Koyunun doğum yaptıktan sonra yavru zarını dışarı atamaması, dala bağlı özel bir doğum sonrası bozukluktur.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "specialization",
+          "statement": "Koyun veya koyun sürüsünde döl yatağının şişmesi, hastalık durumunun özel bir gerçekleşmesidir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "reframed",
+      "rationale": "Hazırlanan başlık doğumdan sonraki ağrıyı doğru bir merkez olarak gösterse de yetkili kaynak anlatımı bundan daha geniştir: dişi deve, koyun veya kadında döl yatağının ağrıması ya da hastalanması yanında şişme ve koyunun doğumdan sonra yavru zarını atamaması da aynı dalda yer alır. Dal bölünmeden korunabilir, fakat tanım yalnızca doğum sonrası ağrıyla sınırlandırılmamalıdır.",
+      "boundary_note": "Dal sağlıklı organı veya genel beden ağrısını değil, döl yatağına özgü ağrı, hastalık, şişme ve doğum sonrası yavru zarını atamama durumlarını kapsar."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "bare",
+      "note": "Verilen biçimler döl yatağına özgü hastalık ve doğum sonrası bozuklukları bağımsız olarak adlandırır; tanım başka bir kalıptan yalın anlama aktarım yapmaz."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "bare",
+      "has_non_bare": false,
+      "has_collocation": false,
+      "unit_kind_counts": {
+        "form": 4
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_019",
+        "expression_ar": "رحوم",
+        "unit_kind": "form",
+        "sense_ar": "ناقة أو شاة أو امرأة تشتكي رحمها بعد الولادة أو يصيب رحمها داء",
+        "target_gloss": "doğumdan sonra döl yatağı ağrıyan ya da döl yatağı hastalanan dişi",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "maqayis:root=%D8%B1%20%D8%AD%20%D9%85:headword=%D8%B1%D8%AD%D9%85:sha=69fde5b7480adec0",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1390%3Asubentry%3A1%3A%D8%B1%D8%AD%D9%85:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=28642cbb0931f478",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4479:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=33c0be0aa0beb127",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A551:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=6dc67499bd5c4b32"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_020",
+        "expression_ar": "رحمت رحما ورحامة",
+        "unit_kind": "form",
+        "sense_ar": "اشتكت رحمها أو أصابه داء",
+        "target_gloss": "döl yatağı ağrımak ya da hastalanmak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "maqayis:root=%D8%B1%20%D8%AD%20%D9%85:headword=%D8%B1%D8%AD%D9%85:sha=69fde5b7480adec0",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1390%3Asubentry%3A1%3A%D8%B1%D8%AD%D9%85:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=28642cbb0931f478",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4479:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=33c0be0aa0beb127",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_021",
+        "expression_ar": "الرحام",
+        "unit_kind": "form",
+        "sense_ar": "أن تلد الشاة ثم لا تلقي سلاها",
+        "target_gloss": "koyunun doğumdan sonra yavru zarını atamaması",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_022",
+        "expression_ar": "راحم ورواحم",
+        "unit_kind": "form",
+        "sense_ar": "شاة أو غنم ورم رحمها",
+        "target_gloss": "döl yatağı şişmiş koyun ya da koyun sürüsü",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Ortak anlatım, dişi deve, koyun veya kadının döl yatağında ağrı ya da hastalık bulunmasını temel alır. Kaynakların bir bölümü bunu özellikle doğum sonrasına bağlar. Toplu anlatım ayrıca koyunda organın şişmesini ve doğumdan sonra yavru zarının atılamamasını aynı organ çevresindeki özel durumlar olarak kaydeder.",
+      "evidence_refs": [
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d",
+        "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1390%3Asubentry%3A1%3A%D8%B1%D8%AD%D9%85:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=28642cbb0931f478",
+        "maqayis:root=%D8%B1%20%D8%AD%20%D9%85:headword=%D8%B1%D8%AD%D9%85:sha=69fde5b7480adec0",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A551:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=6dc67499bd5c4b32",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4479:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=33c0be0aa0beb127",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 6,
+      "passage_count": 6,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "maqayis:root=%D8%B1%20%D8%AD%20%D9%85:headword=%D8%B1%D8%AD%D9%85:sha=69fde5b7480adec0"
+          ]
+        },
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d"
+          ]
+        },
+        {
+          "source_id": "jamhara",
+          "dictionary_name": "Jamharat al-Lugha",
+          "source_refs": [
+            "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1390%3Asubentry%3A1%3A%D8%B1%D8%AD%D9%85:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=28642cbb0931f478"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4479:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=33c0be0aa0beb127"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A551:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=6dc67499bd5c4b32"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Dişi deve, koyun veya kadında döl yatağının ağrıması, hastalanması ya da şişmesiyle belirlenen durumdur; bazı kullanımlar bunu doğum sonrasına bağlar. Koyunun doğumdan sonra yavru zarını atamaması da bu organ çevresindeki özel bir bozukluk olarak dala dahildir.",
+      "concept": {
+        "rank": 1,
+        "text": "döl yatağı hastalığı ve doğum sonrası bozukluk",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Organ ağrısı veya hastalığı ile şişme ve yavru zarını atamama gibi özel doğum sonrası durumları birlikte kapsayan üst karşılıktır.",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Organın hastalanmasını ve dala bağlı doğum sonrası bozuklukların bütününü korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "doğum sonrası döl yatağı ağrısı",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Kadın veya dişi hayvanda doğumun ardından organ ağrısının açıkça söz konusu olduğu bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "narrowing",
+            "preserves": "Doğum sonrasındaki organ ağrısını ve etkilenen beden bölümünü korur.",
+            "loses": "Doğumla sınırlı olmayan hastalığı, şişmeyi ve yavru zarının atılamamasını dışarıda bırakır.",
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "doğumdan sonra yavru zarını atamama",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "Koyunun doğumdan sonra yavruyu saran dokuyu dışarı atamadığı özel hayvancılık bağlamında kullanılır.",
+          "facet_ids": [
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Doğum sonrasını, etkilenen koyunu ve zarın dışarı atılamaması olayını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 4,
+          "text": "döl yatağında şişme",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Koyun veya koyun sürüsünde organ şişmesinin özellikle bildirildiği bağlamlara özgüdür.",
+          "facet_ids": [
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Etkilenen organı ve hastalığın şişme biçimindeki gerçekleşmesini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "lohusalık",
+          "category": "confusable",
+          "exclusion_reason": "Döl yatağı hastalığı bulunmayan olağan doğum sonrası dönemi ve bütün bedensel değişimleri kapsama ekler. Organ hastalığını doğum yapan kişinin genel iyileşme dönemiyle karıştırır.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Doğumdan sonraki zaman ve iyileşme dönemi bağlantısını korur.",
+            "loses": null,
+            "adds": "Döl yatağı hastalığı bulunmayan olağan doğum sonrası dönemi ve bütün bedensel değişimleri kapsama ekler.",
+            "collision": "Organ hastalığını doğum yapan kişinin genel iyileşme dönemiyle karıştırır."
+          }
+        },
+        {
+          "text": "doğum sancısı",
+          "category": "confusable",
+          "exclusion_reason": "Döl yatağına özgü hastalığı, şişmeyi ve doğum sonrası bozuklukları kaybeder. Doğum sırasında yavrunun çıkışına eşlik eden olağan kasılma ağrılarını ekler. Doğum sırasındaki olağan sancıyı doğum sonrasındaki organ hastalığıyla karıştırır.",
+          "error_profile": {
+            "fit": "displacement",
+            "preserves": "Doğum ile ağrı arasındaki genel bağlantıyı korur.",
+            "loses": "Döl yatağına özgü hastalığı, şişmeyi ve doğum sonrası bozuklukları kaybeder.",
+            "adds": "Doğum sırasında yavrunun çıkışına eşlik eden olağan kasılma ağrılarını ekler.",
+            "collision": "Doğum sırasındaki olağan sancıyı doğum sonrasındaki organ hastalığıyla karıştırır."
+          }
+        },
+        {
+          "text": "karın ağrısı",
+          "category": "alternative",
+          "exclusion_reason": "Döl yatağı dışındaki sindirim ve başka iç organlardan doğan ağrıları kapsama ekler. Belirli üreme organı hastalığını kaynağı belirsiz genel karın ağrısıyla karıştırır.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Ağrının gövdenin iç bölümünde bulunması yönünü kısmen korur.",
+            "loses": null,
+            "adds": "Döl yatağı dışındaki sindirim ve başka iç organlardan doğan ağrıları kapsama ekler.",
+            "collision": "Belirli üreme organı hastalığını kaynağı belirsiz genel karın ağrısıyla karıştırır."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000552",
+        "neighbor_branch_id": "B003",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dal, döl yatağının ağrı, hastalık, şişme veya doğum sonrası bozukluk içindeki durumunu adlandırır.",
+        "neighbor_only": "Komşu dal, herhangi bir hastalık şartı olmadan yavruyu taşıyan sağlıklı organın kendisini adlandırır.",
+        "expression_transliteration": "rhm alantha",
+        "gloss": "organ hastalığı ile organın kendisi",
+        "shared_zone": "İki dal aynı bedensel organa dayanır ve biri ötekinin hastalık durumunu anlatır.",
+        "distinction": "Komşu dal anatomik yapının adıdır; odak ise o yapıda ortaya çıkan belirli patolojik ve doğum sonrası durumların adıdır. Organın varlığı hastalık bulunduğunu göstermez.",
+        "expression_ar": "رَحِم الأنثى",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1390%3Asubentry%3A1%3A%D8%B1%D8%AD%D9%85:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=28642cbb0931f478",
+          "maqayis:root=%D8%B1%20%D8%AD%20%D9%85:headword=%D8%B1%D8%AD%D9%85:sha=69fde5b7480adec0",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A551:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=6dc67499bd5c4b32",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4479:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=33c0be0aa0beb127",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000467",
+        "neighbor_branch_id": "B005",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak, döl yatağı ağrısı, hastalığı, şişmesi ve doğum sonrası bozukluklarla sınırlıdır.",
+        "neighbor_only": "Komşu, meme, boğaz veya sırttaki şişkinliği ve doğum sırasında memenin sütle dolup sarkmasını kapsar.",
+        "expression_transliteration": "alntw' walwrm widra' aldr'",
+        "gloss": "döl yatağı bozukluğu ile başka şişmeler",
+        "shared_zone": "Her iki dal dişi hayvanlarda doğum çevresinde görülebilen şişme ve bedensel değişiklikleri konu edinir.",
+        "distinction": "Odakta etkilenen yer döl yatağıdır ve durum hastalık olarak ele alınır. Komşu farklı beden bölgelerindeki şişmeyi ve olağan süt verme değişimini de kapsadığı için yalnızca aynı hayvancılık ve beden alanını paylaşır.",
+        "expression_ar": "النتوء والورم وإدراء الضرع",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1051",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D722%3Bsegment_index%3D6:headword=%D8%AF%D8%B1%D8%A3:root=%D8%AF%20%D8%B1%20%D8%A3:sha=a150136ae9b8de8e"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001541",
+        "neighbor_branch_id": "B014",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak, dişi üreme organına ve çoğunlukla doğum sonrasına bağlı bir hastalık kümesidir.",
+        "neighbor_only": "Komşu, koyun ve keçinin bel, böğür, kalça veya bacak bölgelerini etkileyip yürüyüşü bozan başka bir hastalıktır.",
+        "expression_transliteration": "da' aw wj' yakhdh alsha' walm'za",
+        "gloss": "üreme organı hastalığı ile başka hayvan hastalığı",
+        "shared_zone": "İki dal koyunlarda görülen, ağrı veya belirgin beden bozukluğu yapan hayvan hastalıklarını adlandırır.",
+        "distinction": "Ortak alan hayvan hastalığıdır; etkilenen organ, belirtiler ve doğumla bağlantı bütünüyle farklıdır. Bu nedenle alan ortaklığı dışında anlam örtüşmesi yoktur.",
+        "expression_ar": "داء أو وجع يأخذ الشاء والمعزى",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1946:headword=%D9%86%D9%82%D8%B1:root=%D9%86%20%D9%82%20%D8%B1:sha=e60ae0aaa8bf5db2",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D466%3Bsegment_index%3D132:headword=%D9%86%D9%82%D8%B1:root=%D9%86%20%D9%82%20%D8%B1:sha=e04fcea75f02b233"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000262",
+        "neighbor_branch_id": "B007",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak, yalnızca dişi üreme organındaki hastalık ve doğum sonrası bozuklukları kapsar.",
+        "neighbor_only": "Komşu, insan veya hayvanda böğür ve yan bölgesindeki hastalık, susuzluk etkisi veya darbe sonucunu kapsar.",
+        "expression_transliteration": "da' aljnb wathrh fy albdn",
+        "gloss": "döl yatağı ağrısı ile yan ağrısı",
+        "shared_zone": "İki dal bedendeki belirli bir bölgeye yerleşen ağrı veya hastalığı adlandırma alanında buluşur.",
+        "distinction": "Etkilenen beden bölgesi ve hastalığın oluşma bağlamı farklıdır. Odak doğum ve dişi üreme organıyla sınırlıyken komşu yan bölgesine ve başka nedenlere bağlıdır.",
+        "expression_ar": "داء الجنب وأثره في البدن",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:628",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A4173:headword=%D8%AC%D9%86%D8%A8:root=%D8%AC%20%D9%86%20%D8%A8:sha=c19475db489bcba9",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A646%3Asubentry%3A1%3A%D8%AC%D9%86%D8%A8:headword=%D8%AC%D9%86%D8%A8:root=%D8%AC%20%D9%86%20%D8%A8:sha=92475a5d551c0ac9",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A265:headword=%D8%AC%D9%86%D8%A8:root=%D8%AC%20%D9%86%20%D8%A8:sha=e4f03142a4bea016",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A230:headword=%D8%AC%D9%86%D8%A8:root=%D8%AC%20%D9%86%20%D8%A8:sha=1f5301448107ebef",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D547%3Bsegment_index%3D133:headword=%D8%AC%D9%86%D8%A8:root=%D8%AC%20%D9%86%20%D8%A8:sha=6bd6338af04d0fcd"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000995",
+        "neighbor_branch_id": "B013",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak, döl yatağına özgü ağrı ve doğum sonrası bozuklukları bildirir.",
+        "neighbor_only": "Komşu, boğazda veya küçük dil yakınında ortaya çıkan ağrılı hastalığı bildirir.",
+        "expression_transliteration": "'dhrh alhlq",
+        "gloss": "üreme organı ağrısı ile boğaz ağrısı",
+        "shared_zone": "Her iki dal, etkilenen beden bölümüne göre adlandırılmış yerel bir ağrı veya hastalık durumudur.",
+        "distinction": "Benzerlik yalnızca beden bölgesine bağlı hastalık adı olmalarıdır. Organ, hasta grubu ve doğumla ilişki farklı olduğundan anlamları birbirinin yerine geçmez.",
+        "expression_ar": "عذرة الحلق",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2441",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A984:headword=%D8%B9%D8%B0%D8%B1:root=%D8%B9%20%D8%B0%20%D8%B1:sha=db8040e4b8dc6f37",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1808:headword=%D8%B9%D8%B0%D8%B1:root=%D8%B9%20%D8%B0%20%D8%B1:sha=fa6c7a52c6b3bce9",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D158%3Bsegment_index%3D2:headword=%D8%B9%D8%B0%D8%B1:root=%D8%B9%20%D8%B0%20%D8%B1:sha=05f8cb274decdc4b"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 11,
+      "assessment": "complete",
+      "note": "Sunulan bütün adaylar değerlendirildi. Sağlıklı organla ayrım ilk sıraya alındı; hayvanlarda şişme ve üç farklı yerel hastalık dalı alan sınırını gösterdi. Öteki boğaz, boyun, omuz ve üreme organı dışı hastalık adayları seçilen alan karşılaştırmalarını yineledi; acıma ve soy bağı dalları ise yalnızca biçim ortaklığı taşıdı."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_000552/B004",
+    "concept_gloss": {
+      "text": "döl yatağı hastalığı",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "doğum sonrası döl yatağı ağrısı",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_019",
+          "lu_020"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "koyunun yavru zarını atamaması",
+        "facet_ids": [
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_021"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "koyunda döl yatağı şişmesi",
+        "facet_ids": [
+          "F003"
+        ],
+        "lexical_unit_ids": [
+          "lu_022"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_019": {
+        "text": "döl yatağı ağrıyan ya da hastalanan dişi",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Gloss genel ağrı ve hastalığı verir; yavru zarını atamama ve koyunda şişme özel durumlarını belirtmez."
+        }
+      },
+      "lu_020": {
+        "text": "döl yatağı ağrımak ya da hastalanmak",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Gloss temel ağrı ve hastalığı verir; yavru zarını atamama ve şişme özel kullanımları yoktur."
+        }
+      },
+      "lu_021": {
+        "text": "koyunun doğumdan sonra yavru zarını atamaması",
+        "facet_ids": [
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Gloss özel doğum sonrası bozukluğu verir; genel döl yatağı ağrısı ve şişme kullanımları belirtilmez."
+        }
+      },
+      "lu_022": {
+        "text": "döl yatağı şişmiş koyun ya da sürü",
+        "facet_ids": [
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Gloss şişme özel durumunu verir; genel ağrı-hastalık ve yavru zarını atamama kullanımları yoktur."
+        }
+      }
+    }
+  }
+}

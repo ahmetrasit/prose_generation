@@ -1,0 +1,710 @@
+{
+  "root_ar": "س م و",
+  "branch_ref": "root_000745/B006",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_000745.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_000745.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+      "entry_id": "root_000745/tr",
+      "status": "reviewed",
+      "review_verdict": "editorial_review",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_000745/tr/repair/editorial/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, somut ve toplumsal yükselme çekirdeğinden uzaktan beliren yüksek görünüşe, üstteki gök ve örtüye, adlandırmaya ve iyi üne uzanır; ayrıca erkek devenin sürüye girişi, ava çıkma ve karşılıklı yarışma gibi kalıplaşmış dallar taşır. Bu yapı, anlamca bağlantılı uzantılarla daha bağımsız eski kullanımları birlikte barındırır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_000745/B006",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi çekirdeği bir topluluğun ıssız arazilere av için çıkması olarak verir; avcı adı, av hayvanını arama ve avcının sıcak zeminde beklerken giydiği çorap da aynı av alanına bağlıdır. Dal çerçevesi bu bağı korur.",
+      "boundary_note": "Dal genel gitmeyi değil, av amacıyla açık ve ıssız araziye çıkmayı ve yalnız buna bağlı kişi, arama ve araç kullanımlarını kapsar."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Av için araziye çıkma çekirdeği; avcı, av hayvanını arama ve avcı çorabı bildiren özel biçimlerden ayrı tutulur."
+    },
+    "concept_map": {
+      "definition": "Bir topluluğun avlanmak için kır ve çöl gibi ıssız arazilere çıkmasıdır. Avcılar, av hayvanını arama ve avcının sıcak zeminde beklerken giydiği koruyucu çorap bu çekirdeğe bağlı kullanımlardır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir topluluk avlanmak amacıyla kır veya çöl gibi ıssız araziye çıkar.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Bu amaçla araziye çıkan kişiler avcı adıyla anılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "associated_use",
+          "statement": "Av hayvanını bulup avlamak üzere arama eylemi aynı alana bağlıdır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "associated_use",
+          "statement": "Avcının sıcak zeminde hayvan beklerken ayağını korumak için giydiği çorap adlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynaklar av için kır ve çöl arazisine çıkmayı ortak çekirdek olarak verir; avcı adını, av hayvanını aramayı ve sıcak zeminde bekleyen avcının koruyucu çorabını buna bağlar.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "av için ıssız araziye çıkma ve buna bağlı avcı kullanımları",
+      "applicability": "Av amacıyla araziye çıkma çekirdeğini ve kanıtta buna bağlanan avcı, arama ve koruyucu araç kullanımlarını kapsar.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Av amacı, araziye çıkış ve buna bağlı kişi, arama ve araç alanlarını korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "avlanmak için kıra çıkmak",
+        "usage_role": "general",
+        "applicability": "Bir topluluğun av amacıyla açık ve ıssız araziye çıktığı bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Av amacını ve açık araziye çıkma hareketini birlikte korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "avcılar",
+        "usage_role": "contextual",
+        "applicability": "Av için araziye çıkan kişilerin topluluk adı gerektiğinde kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Av amacıyla araziye çıkan kişi rolünü korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002"
+        ]
+      },
+      {
+        "text": "av hayvanını aramak",
+        "usage_role": "contextual",
+        "applicability": "Avlanacak yabani hayvanı bulmak üzere arama yapıldığı bağlamda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Yabani hayvanı av amacıyla arama eylemini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F003"
+        ]
+      },
+      {
+        "text": "avcının sıcaktan koruyan çorabı",
+        "usage_role": "explanatory",
+        "applicability": "Avcı sıcak zeminde hayvan beklerken ayağını koruyan özel çorap kastedildiğinde kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Aracın avcıya, sıcak zemine ve bekleme durumuna bağlı işlevini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F004"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_022",
+        "rendering_kind": "ordinary",
+        "target_gloss": "avlanmak için kır ve çöl arazisine çıkmak"
+      },
+      {
+        "lexical_unit_id": "lu_023",
+        "rendering_kind": "ordinary",
+        "target_gloss": "avcılar"
+      },
+      {
+        "lexical_unit_id": "lu_024",
+        "rendering_kind": "ordinary",
+        "target_gloss": "av hayvanını bulup avlamak üzere aramak"
+      },
+      {
+        "lexical_unit_id": "lu_025",
+        "rendering_kind": "ordinary",
+        "target_gloss": "avcının sıcak zeminde beklerken giydiği koruyucu çorap"
+      }
+    ],
+    "excluded_glosses": [],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000896/B001",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı avın kendisinden önce av amacıyla kır veya çöl arazisine çıkmayı merkez alır.",
+        "neighbor_only": "Komşu dal yabani hayvanı yakalama eylemini, avı, av aracını ve avın hukuk bakımından durumunu kapsar.",
+        "gloss": "ava çıkma ve avlama",
+        "shared_zone": "İki dal da yabani hayvanı arayıp ele geçirme amacı taşıyan av alanındadır.",
+        "distinction": "Odak dalının kurucu işlemi av için araziye çıkıştır; komşu dalın kurucu işlemi yakalanması güç hayvanı avlayıp ele geçirmektir."
+      },
+      {
+        "neighbor_ref": "root_000930/B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı av başlamadan önceki araziye çıkışı ve buna bağlı avcı adlarını içerir.",
+        "neighbor_only": "Komşu dal avı kaldırma, sürme, izleme ve kovalamaya dayalı yakalama sürecini içerir.",
+        "gloss": "ava çıkma ve avı kovalamak",
+        "shared_zone": "Her iki dal av hayvanını arayan ve peşine düşen kişinin etkinlik alanındadır.",
+        "distinction": "Odak dalı amaçlı çıkış ve hazırlık çevresinde kurulur; komşu dal hareket halindeki avı sürme ve kovalama sürecini merkez alır."
+      },
+      {
+        "neighbor_ref": "root_000600/B004",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı farklı av türlerine açık genel bir av için araziye çıkma durumudur.",
+        "neighbor_only": "Komşu dal sıcak saatte ceylanları kızgın zeminde izleyip güçten düşürdükten sonra yakalama yöntemidir.",
+        "gloss": "genel ava çıkış ve sıcak zeminde ceylan avı",
+        "shared_zone": "İki dal da açık ve sıcak arazide yabani hayvan avlama durumunda buluşur.",
+        "distinction": "Odak dalı araziye çıkma amacıyla sınırlı ve av türü bakımından geneldir; komşu dal belirli hayvanı sıcak zeminde tüketerek yakalama yöntemidir."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; araziye çıkışın avlama, kovalama ve belirli bir av yönteminden farkını gösteren üç komşu seçildi.",
+    "branch_image_ar": "الخروج للصيد",
+    "what_is_ar": "يدخل فيه سما القوم أو استموا إذا خرجوا للصيد، والسماة الصيادون، وما لحق بذلك من طلب الوحش وآلة الصياد.",
+    "what_is_not_ar": "لا يدخل فيه مطلق السير أو الارتفاع، ولا السماء أو الاسم.",
+    "source_phrase_ar": "خرج القوم للصيد في قفار الأرض وصحاريها قلت سموا وهم السماة أي الصيادون (ayn;tahdhib)؛ السماة الصيادون؛ سموا واستموا إذا خرجوا للصيد (sihah)؛ يستمي الوحش أي يطلبها؛ المسماة جورب الصياد (tahdhib)",
+    "sources": [
+      "AY",
+      "SI",
+      "TA"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_000745",
+    "branch_id": "B006",
+    "branch_image_ar": "الخروج للصيد",
+    "what_is_ar": "يدخل فيه سما القوم أو استموا إذا خرجوا للصيد، والسماة الصيادون، وما لحق بذلك من طلب الوحش وآلة الصياد.",
+    "what_is_not_ar": "لا يدخل فيه مطلق السير أو الارتفاع، ولا السماء أو الاسم.",
+    "source_phrase_ar": "خرج القوم للصيد في قفار الأرض وصحاريها قلت سموا وهم السماة أي الصيادون (ayn;tahdhib)؛ السماة الصيادون؛ سموا واستموا إذا خرجوا للصيد (sihah)؛ يستمي الوحش أي يطلبها؛ المسماة جورب الصياد (tahdhib)",
+    "image_transliteration": "alkhrwj llsyd",
+    "summary": "Bir topluluğun avlanmak için kır ve çöl gibi ıssız arazilere çıkmasıdır. Avcılar, av hayvanını arama ve avcının sıcak zeminde beklerken giydiği koruyucu çorap bu çekirdeğe bağlı kullanımlardır.",
+    "concept_map": {
+      "definition": "Bir topluluğun avlanmak için kır ve çöl gibi ıssız arazilere çıkmasıdır. Avcılar, av hayvanını arama ve avcının sıcak zeminde beklerken giydiği koruyucu çorap bu çekirdeğe bağlı kullanımlardır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Bir topluluk avlanmak amacıyla kır veya çöl gibi ıssız araziye çıkar.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "extension",
+          "statement": "Bu amaçla araziye çıkan kişiler avcı adıyla anılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F003",
+          "role": "associated_use",
+          "statement": "Av hayvanını bulup avlamak üzere arama eylemi aynı alana bağlıdır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F004",
+          "role": "associated_use",
+          "statement": "Avcının sıcak zeminde hayvan beklerken ayağını korumak için giydiği çorap adlandırılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi çekirdeği bir topluluğun ıssız arazilere av için çıkması olarak verir; avcı adı, av hayvanını arama ve avcının sıcak zeminde beklerken giydiği çorap da aynı av alanına bağlıdır. Dal çerçevesi bu bağı korur.",
+      "boundary_note": "Dal genel gitmeyi değil, av amacıyla açık ve ıssız araziye çıkmayı ve yalnız buna bağlı kişi, arama ve araç kullanımlarını kapsar."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "mixed_non_bare",
+      "note": "Av için araziye çıkma çekirdeği; avcı, av hayvanını arama ve avcı çorabı bildiren özel biçimlerden ayrı tutulur."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "mixed_non_bare",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 2,
+        "form": 2
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_022",
+        "expression_ar": "سما القوم للصيد",
+        "unit_kind": "collocation",
+        "sense_ar": "خرجوا للصيد في القفار والصحارى.",
+        "target_gloss": "avlanmak için kır ve çöl arazisine çıkmak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_023",
+        "expression_ar": "السماة",
+        "unit_kind": "form",
+        "sense_ar": "الصيادون.",
+        "target_gloss": "avcılar",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_024",
+        "expression_ar": "استمى الوحش",
+        "unit_kind": "collocation",
+        "sense_ar": "طلب الوحش للصيد.",
+        "target_gloss": "av hayvanını bulup avlamak üzere aramak",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_025",
+        "expression_ar": "المسماة",
+        "unit_kind": "form",
+        "sense_ar": "جورب الصياد يلبسه ليتربص الظباء وقت الحر.",
+        "target_gloss": "avcının sıcak zeminde beklerken giydiği koruyucu çorap",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynaklar av için kır ve çöl arazisine çıkmayı ortak çekirdek olarak verir; avcı adını, av hayvanını aramayı ve sıcak zeminde bekleyen avcının koruyucu çorabını buna bağlar.",
+      "evidence_refs": [
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 3,
+      "passage_count": 3,
+      "sources": [
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Bir topluluğun avlanmak için kır ve çöl gibi ıssız arazilere çıkmasıdır. Avcılar, av hayvanını arama ve avcının sıcak zeminde beklerken giydiği koruyucu çorap bu çekirdeğe bağlı kullanımlardır.",
+      "concept": {
+        "rank": 1,
+        "text": "av için ıssız araziye çıkma ve buna bağlı avcı kullanımları",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Av amacıyla araziye çıkma çekirdeğini ve kanıtta buna bağlanan avcı, arama ve koruyucu araç kullanımlarını kapsar.",
+        "facet_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F004"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Av amacı, araziye çıkış ve buna bağlı kişi, arama ve araç alanlarını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "avlanmak için kıra çıkmak",
+          "loanword_status": "none",
+          "usage_role": "general",
+          "selection_role": "contextual_gloss",
+          "applicability": "Bir topluluğun av amacıyla açık ve ıssız araziye çıktığı bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Av amacını ve açık araziye çıkma hareketini birlikte korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "avcılar",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Av için araziye çıkan kişilerin topluluk adı gerektiğinde kullanılır.",
+          "facet_ids": [
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Av amacıyla araziye çıkan kişi rolünü korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 4,
+          "text": "av hayvanını aramak",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Avlanacak yabani hayvanı bulmak üzere arama yapıldığı bağlamda kullanılır.",
+          "facet_ids": [
+            "F003"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Yabani hayvanı av amacıyla arama eylemini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 5,
+          "text": "avcının sıcaktan koruyan çorabı",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "Avcı sıcak zeminde hayvan beklerken ayağını koruyan özel çorap kastedildiğinde kullanılır.",
+          "facet_ids": [
+            "F004"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Aracın avcıya, sıcak zemine ve bekleme durumuna bağlı işlevini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": []
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000896",
+        "neighbor_branch_id": "B001",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı avın kendisinden önce av amacıyla kır veya çöl arazisine çıkmayı merkez alır.",
+        "neighbor_only": "Komşu dal yabani hayvanı yakalama eylemini, avı, av aracını ve avın hukuk bakımından durumunu kapsar.",
+        "expression_transliteration": "tlb almmtn' wakhdhh",
+        "gloss": "ava çıkma ve avlama",
+        "shared_zone": "İki dal da yabani hayvanı arayıp ele geçirme amacı taşıyan av alanındadır.",
+        "distinction": "Odak dalının kurucu işlemi av için araziye çıkıştır; komşu dalın kurucu işlemi yakalanması güç hayvanı avlayıp ele geçirmektir.",
+        "expression_ar": "طلب الممتنع وأخذه",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2038",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A4749:headword=%D8%B5%D9%8A%D8%AF:root=%D8%B5%20%D9%8A%20%D8%AF:sha=f5a39f5f970d3834",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A879:headword=%D8%B5%D9%8A%D8%AF:root=%D8%B5%20%D9%8A%20%D8%AF:sha=7cef8463934c0a95",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1329:headword=%D8%B5%D9%8A%D8%AF:root=%D8%B5%20%D9%8A%20%D8%AF:sha=23d1ce578199fede"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000930",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı av başlamadan önceki araziye çıkışı ve buna bağlı avcı adlarını içerir.",
+        "neighbor_only": "Komşu dal avı kaldırma, sürme, izleme ve kovalamaya dayalı yakalama sürecini içerir.",
+        "expression_transliteration": "swq alsyd",
+        "gloss": "ava çıkma ve avı kovalamak",
+        "shared_zone": "Her iki dal av hayvanını arayan ve peşine düşen kişinin etkinlik alanındadır.",
+        "distinction": "Odak dalı amaçlı çıkış ve hazırlık çevresinde kurulur; komşu dal hareket halindeki avı sürme ve kovalama sürecini merkez alır.",
+        "expression_ar": "سوق الصيد",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5223:headword=%D8%B7%D8%B1%D8%AF:root=%D8%B7%20%D8%B1%20%D8%AF:sha=5495734b54044536",
+          "maqayis:root=%D8%B7%20%D8%B1%20%D8%AF:headword=%D8%B7%D8%B1%D8%AF:sha=6f77bd6f8a675119",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A916:headword=%D8%B7%D8%B1%D8%AF:root=%D8%B7%20%D8%B1%20%D8%AF:sha=1ee2488d669d2b2c",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A1336:headword=%D8%B7%D8%B1%D8%AF:root=%D8%B7%20%D8%B1%20%D8%AF:sha=83ae91da40505a3a",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D693%3Bsegment_index%3D3:headword=%D8%B7%D8%B1%D8%AF:root=%D8%B7%20%D8%B1%20%D8%AF:sha=9bbaca68085cbb1b"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000600",
+        "neighbor_branch_id": "B004",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı farklı av türlerine açık genel bir av için araziye çıkma durumudur.",
+        "neighbor_only": "Komşu dal sıcak saatte ceylanları kızgın zeminde izleyip güçten düşürdükten sonra yakalama yöntemidir.",
+        "expression_transliteration": "trmyd alzba' fy alrmda'",
+        "gloss": "genel ava çıkış ve sıcak zeminde ceylan avı",
+        "shared_zone": "İki dal da açık ve sıcak arazide yabani hayvan avlama durumunda buluşur.",
+        "distinction": "Odak dalı araziye çıkma amacıyla sınırlı ve av türü bakımından geneldir; komşu dal belirli hayvanı sıcak zeminde tüketerek yakalama yöntemidir.",
+        "expression_ar": "ترميض الظباء في الرمضاء",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "maqayis:root=%D8%B1%20%D9%85%20%D8%B6:headword=%D8%B1%D9%85%D8%B6:sha=5adcd4d657853b82",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A600:headword=%D8%B1%D9%85%D8%B6:root=%D8%B1%20%D9%85%20%D8%B6:sha=785c33b1f537ec8f",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A2669:headword=%D8%B1%D9%85%D8%B6:root=%D8%B1%20%D9%85%20%D8%B6:sha=dc39771bb38f3c6e"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; araziye çıkışın avlama, kovalama ve belirli bir av yönteminden farkını gösteren üç komşu seçildi."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_000745/B006",
+    "concept_gloss": {
+      "text": "av için ıssız araziye çıkma ve buna bağlı avcı kullanımları",
+      "facet_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "avlanmak için kır veya çöle çıkmak",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_022"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "avcılar",
+        "facet_ids": [
+          "F002"
+        ],
+        "lexical_unit_ids": [
+          "lu_023"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "av hayvanını bulup avlamak için aramak",
+        "facet_ids": [
+          "F003"
+        ],
+        "lexical_unit_ids": [
+          "lu_024"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      {
+        "text": "avcının sıcak zeminde giydiği koruyucu çorap",
+        "facet_ids": [
+          "F004"
+        ],
+        "lexical_unit_ids": [
+          "lu_025"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_022": {
+        "text": "avlanmak için kır veya çöl arazisine çıkmak",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F002",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss araziye çıkma eylemini verir; avcı adı, av hayvanını arama ve koruyucu çorap kullanımını dışarıda bırakır."
+        }
+      },
+      "lu_023": {
+        "text": "avcılar",
+        "facet_ids": [
+          "F002"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F003",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss avcı kişiler için kullanılır; av için araziye çıkma, av hayvanını arama ve koruyucu çorap anlamlarını vermez."
+        }
+      },
+      "lu_024": {
+        "text": "av hayvanını avlamak üzere aramak",
+        "facet_ids": [
+          "F003"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F004"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss av hayvanını arama eylemine özgüdür; araziye çıkışı, avcı adını ve koruyucu çorabı dışarıda bırakır."
+        }
+      },
+      "lu_025": {
+        "text": "avcının sıcak zeminde beklerken giydiği koruyucu çorap",
+        "facet_ids": [
+          "F004"
+        ],
+        "error": {
+          "fit": "narrowing",
+          "loses_facet_ids": [
+            "F001",
+            "F002",
+            "F003"
+          ],
+          "adds": null,
+          "collision": null,
+          "reason": "Bu gloss avcı çorabı adlandırmasına özgüdür; araziye çıkma, avcı kişi ve av hayvanını arama kapsamlarını vermez."
+        }
+      }
+    }
+  }
+}

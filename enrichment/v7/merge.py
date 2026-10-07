@@ -15,6 +15,7 @@ import argparse
 import json
 from collections import defaultdict
 
+import digest
 from digest import PART_CHARS, ROOT, V7, connect, dump, run_dir
 
 BRIEF = V7 / 'briefs/merge.md'
@@ -53,12 +54,33 @@ def tier1_rows(d, tag, ayah):
 def build(a):
     d = run_dir(a.run)
     t = d / 'tier2'
+    if bool(a.ayat) == bool(a.page):
+        raise SystemExit('give either --ayat, or --page with --ayah')
+    if a.page:
+        import write  # late import: write imports this module
+        a.ayat = write.page_verses(a.page, a.ayah)
+        print(f'{a.ayah}: own ayah + {len(a.ayat) - 1} cited verses from {a.page}')
+    tags = [s.split(':')[0].split('-')[-1] + '-' + s.split(':')[1] for s in a.models]
+    done = [x for x in a.ayat if all(list((V7 / 'work').glob(f'*/tier2/out/{g}/{key(x)}.jsonl')) for g in tags)]
+    for x in done:
+        print(f'SKIPPED {x}: tier 2 already exists for {", ".join(tags)}')
+    a.ayat = [x for x in a.ayat if x not in done]
+    if not a.ayat:
+        raise SystemExit('every verse already has tier 2; nothing to build')
     old = json.loads((t / 'manifest.json').read_text()) if (t / 'manifest.json').exists() else None
     if old and (old['from'] != getattr(a, 'from') or [p['ayah'] for p in old['ayat']] != a.ayat):
         raise SystemExit('tier2 inputs exist for other rows or ayat; use a new run')
     plan = old['ayat'] if old else []  # existing row files are reused untouched (agents may be reading them)
     for ayah in ([] if old else a.ayat):
         rs = tier1_rows(d, getattr(a, 'from'), ayah)
+        if not rs:  # nothing to consolidate: an empty view list, no agent (recorded and printed)
+            (t / 'rows').mkdir(parents=True, exist_ok=True)
+            dump(t / 'rows' / f'{key(ayah)}.json', {})
+            for g in tags:
+                (t / 'out' / g).mkdir(parents=True, exist_ok=True)
+                (t / 'out' / g / f'{key(ayah)}.jsonl').write_text('')
+            print(f'NOTE {ayah}: no tier-1 notes ({getattr(a, "from")}); empty view list written, no agent')
+            continue
         rs.sort(key=lambda r: (r['death'] if isinstance(r['death'], int) else 9999, r['src'], r['id']))
         lines, cur = [], None
         for r in rs:
@@ -194,26 +216,26 @@ def report(a):
     man = json.loads((t / 'manifest.json').read_text())
     for tag in sorted(p.name for p in (t / 'out').iterdir()):
         for p in man['ayat']:
-            r = t / 'runs' / f"v7m_{a.run}_{tag}_{key(p['ayah'])}" / 'run.json'
+            x = digest.usage(t / 'runs', f"/root/v7m_{a.run}_{tag}_{key(p['ayah'])}")
             f = t / 'out' / tag / f"{key(p['ayah'])}.jsonl"
-            if not r.exists():
-                print(f"WARNING {tag} {p['ayah']}: no run.json")
+            if x is None:
+                print(f"WARNING {tag} {p['ayah']}: no run.json and no native session")
                 continue
-            x = json.loads(r.read_text())
             n = len(f.read_text().splitlines()) if f.exists() else 0
             out_chars = len(f.read_text()) if f.exists() else 0
-            print(f"{tag} {p['ayah']}: ${x.get('usd_equivalent', 0):.3f}, {x.get('requests')} requests, peak "
-                  f"{x.get('max_request_input_tokens')} tokens, {p['rows']} rows -> {n} views, "
+            print(f"{tag} {p['ayah']}: ${x['usd']:.3f}, {x['requests']} requests, peak "
+                  f"{x['peak']} tokens, {p['rows']} rows -> {n} views, "
                   f"output/input characters {out_chars / max(1, p['chars']):.2f}")
-            if not x.get('turn_completed') or x.get('returncode'):
-                print(f"WARNING {tag} {p['ayah']}: rc {x.get('returncode')}, completed {x.get('turn_completed')}")
+            if not x['completed']:
+                print(f"WARNING {tag} {p['ayah']}: did not complete ({x['via']})")
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest='cmd', required=True)
     p = sub.add_parser('build'); p.add_argument('run'); p.add_argument('--from', required=True)
-    p.add_argument('--ayat', nargs='+', required=True); p.add_argument('--models', nargs='+', required=True)
+    p.add_argument('--ayat', nargs='+'); p.add_argument('--models', nargs='+', required=True)
+    p.add_argument('--page', help="a frozen page: its own ayah (--ayah) and every verse it cites"); p.add_argument('--ayah')
     p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--ayah')
     p = sub.add_parser('report'); p.add_argument('run')
     a = parser.parse_args()

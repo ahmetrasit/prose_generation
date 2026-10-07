@@ -1,0 +1,591 @@
+{
+  "root_ar": "ر ح م",
+  "branch_ref": "root_000552/B003",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_000552/tr/output/root_000552_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_000552.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_000552.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_000552/tr/output/root_000552_entry.json",
+      "entry_id": "root_000552/tr",
+      "status": "reviewed",
+      "review_verdict": "repair",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_000552/tr/repair/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Bu kök, acımanın iyilik ve esirgemeye dönüşmesini anlatan bir dal ile ortak soydan doğan yakın ilişkiyi anlatan ayrı bir dalı bir araya getirir. Bedensel tarafta yavrunun geliştiği döl yatağı ve bu organa özgü ağrı, hastalık, şişme ya da doğum sonrası bozukluklar birbirinden ayrılır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_000552/B003",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Yetkili kaynak anlatımı, dişi bedenindeki bu organı yavrunun başladığı, karın içinde taşındığı ve geliştiği yer ve kap olarak tanımlar. Hazırlanan dal çerçevesi organı soy ilişkisinden, acıma anlamından ve organın hastalık durumundan doğru biçimde ayırır.",
+      "boundary_note": "Bu dal sağlıklı bedensel organın kendisidir; içindeki yavruyu, soy bağını veya organın ağrı ve hastalık durumlarını adlandırmaz."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "bare",
+      "note": "Dal bağımsız organ adını ve onun çoğulunu kapsar; herhangi bir kalıba bağlı yan anlam bu yalın tanıma eklenmez."
+    },
+    "concept_map": {
+      "definition": "Dişinin karnında yavrunun tutunup geliştiği, onu doğuma kadar içinde taşıyan iç organdır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Ortak anlatım, dişi ya da kadın bedenindeki organı yavrunun başladığı yer ve karın içindeki taşıyıcı kap olarak tanımlar. Tekil biçim organı, çoğul biçim ise aynı tür organları adlandırır.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "döl yatağı",
+      "applicability": "Dişi bedeninde yavrunun tutunup geliştiği belirli iç organı doğal ve kısa bir Türkçe karşılıkla anlatır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Organın yavrunun gelişme ve taşınma yeri oluşunu korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "yavrunun geliştiği iç organ",
+        "usage_role": "explanatory",
+        "applicability": "Teknik organ adının bilinmediği veya organın işlevinin açıkça belirtilmesi gereken bağlamlarda kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Bedensel organ niteliğini ve yavrunun gelişme yeri olma işlevini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_017",
+        "rendering_kind": "ordinary",
+        "target_gloss": "dişinin döl yatağı"
+      },
+      {
+        "lexical_unit_id": "lu_018",
+        "rendering_kind": "ordinary",
+        "target_gloss": "döl yatakları"
+      }
+    ],
+    "excluded_glosses": [
+      {
+        "text": "rahim",
+        "category": "common_loanword",
+        "error_profile": {
+          "fit": "drifted_loanword",
+          "preserves": "Türkçedeki yerleşik kullanımında aynı bedensel organı doğru olarak gösterebilir.",
+          "loses": null,
+          "adds": null,
+          "collision": "Kaynak dildeki organ adını doğrudan yinelediği ve aynı ses dizisi başka adlandırmalarda da bulunduğu için açıklayıcı karşılık görevini yerine getirmez."
+        }
+      },
+      {
+        "text": "karın",
+        "category": "confusable",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Organın bulunduğu genel beden bölgesini korur.",
+          "loses": null,
+          "adds": "Döl yatağı dışındaki bütün karın boşluğunu ve başka organları kapsama ekler.",
+          "collision": "Belirli iç organı onun bulunduğu daha geniş beden bölgesiyle karıştırır."
+        }
+      },
+      {
+        "text": "ana karnı",
+        "category": "alternative",
+        "error_profile": {
+          "fit": "broadening",
+          "preserves": "Yavrunun anne bedeninde taşındığı yer düşüncesini korur.",
+          "loses": null,
+          "adds": "Belirli organın dışındaki bütün karın bölgesini ve yalnızca gebelik durumunu kapsama ekler.",
+          "collision": "Organın kendisiyle annenin genel karın bölgesini birbirine karıştırır."
+        }
+      }
+    ],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000552/B002",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dal, dişi bedeninde yavrunun geliştiği somut iç organı adlandırır.",
+        "neighbor_only": "Komşu dal, ortak soydan gelen kişiler arasındaki toplumsal ilişkiyi ve yakınlığı adlandırır.",
+        "gloss": "döl yatağı ile soy bağı",
+        "shared_zone": "Soy ilişkisi, aynı doğum kaynağından çıkma düşüncesiyle organ adından geliştirilmiştir.",
+        "distinction": "Odak bedensel bir organdır; komşu ise o organın ortak köken imgesi üzerinden adlandırılan kişiler arası bağdır. Tarihsel kavram bağlantısı, somut organ ile soyut ilişkiyi eş anlamlı yapmaz."
+      },
+      {
+        "neighbor_ref": "root_000266/B007",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak, yavruyu içinde taşıyan anneye ait organın kendisidir.",
+        "neighbor_only": "Komşu, henüz doğmamış ve anne karnında gizli bulunan yavrunun kendisidir.",
+        "gloss": "taşıyan organ ile taşınan yavru",
+        "shared_zone": "Her iki dal doğumdan önce anne bedenindeki gelişme sürecinin aynı yer ve katılımcılarını konu edinir.",
+        "distinction": "Odak yavrunun bulunduğu ve geliştiği organdır, komşu ise bu organın içinde gelişen canlıdır. Taşıyan yapı ile taşınan yavru aynı bağlamda görünse de birbirinin yerine kullanılamaz."
+      },
+      {
+        "neighbor_ref": "root_000042/B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak, gebelik olsun ya da olmasın bedende bulunan organı adlandırır.",
+        "neighbor_only": "Komşu, döllenmiş yavrunun bu organda yerleşmesi olayını ve yerleşmiş gebelik durumunu anlatır.",
+        "gloss": "organ ile gebeliğin yerleşmesi",
+        "shared_zone": "İki dal, yavrunun döl yatağında yerleşip gelişmeye başlaması bağlamında doğrudan buluşur.",
+        "distinction": "Odak kalıcı beden yapısıdır; komşu o yapının içinde gerçekleşen belirli bir başlangıç olayıdır. Organın varlığı gebeliğin yerleşmiş olmasını gerektirmez."
+      },
+      {
+        "neighbor_ref": "root_000379/B001",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak, yavrunun gelişme yeri olan iç organın anatomik kimliğini bildirir.",
+        "neighbor_only": "Komşu, belirli zamanda bu organdan gelen kanı, kanama olayını, zamanı ve ilgili durumu bildirir.",
+        "gloss": "döl yatağı ile dönemsel kanama",
+        "shared_zone": "Her iki dal dişi üreme bedenini ve aynı organla bağlantılı olayları konu edinir.",
+        "distinction": "Odak bir organın adıdır; komşu ise o organla ilişkili kan ve dönemsel bedensel olaydır. Aynı anatomik alanı paylaşmaları çekirdeklerini birleştirmez."
+      },
+      {
+        "neighbor_ref": "root_001056/B005",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak, dişinin yavruyu taşıyan organının bütününü adlandırır.",
+        "neighbor_only": "Komşu, özellikle dişi devenin bu organındaki damarları ya da dar bir bölgeyi adlandırır.",
+        "gloss": "döl yatağı ile içindeki damarlar",
+        "shared_zone": "İki dal aynı organın anatomik alanında ve özellikle dişi hayvan bedeninde buluşur.",
+        "distinction": "Odak bütün organdır; komşu ise o organ içinde bulunan belirli damar veya bölgedir. Bütün ile onun küçük anatomik parçası birbirinin yerine geçmez."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi. Soy bağıyla ad aktarımı, organın içindeki yavru, gebeliğin yerleşmesi, dönemsel kanama ve organdaki damarlar en açıklayıcı sınırları verdi; gebelik ürünleri, karın içi, şişmanlık ve aynı kökün acıma ile hastalık dalları ya seçilen ayrımları yineledi ya da yalnızca uzak bir beden bağlamı sundu.",
+    "branch_image_ar": "رَحِم الأنثى",
+    "what_is_ar": "يدخل فيه رَحِم المرأة أو الأنثى بوصفه بيت منبت الولد ووعاءه في البطن.",
+    "what_is_not_ar": "ليس المراد هنا القرابة المسماة رحما ولا الرحمة والرقة.",
+    "source_phrase_ar": "سميت رحم الأنثى رحما (maqayis)؛ الرحم بيت منبت الولد ووعاؤه في البطن (ayn)؛ الرحم رحم المرأة (jamhara)؛ الرحم رحم الأنثى وهي مؤنثة (sihah)؛ الرحم بيت منبت الولد ووعاؤه في البطن (tahdhib)؛ الرحم رحم المرأة (mufradat)",
+    "sources": [
+      "MQ",
+      "AY",
+      "JA",
+      "SI",
+      "TA",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_000552",
+    "branch_id": "B003",
+    "branch_image_ar": "رَحِم الأنثى",
+    "what_is_ar": "يدخل فيه رَحِم المرأة أو الأنثى بوصفه بيت منبت الولد ووعاءه في البطن.",
+    "what_is_not_ar": "ليس المراد هنا القرابة المسماة رحما ولا الرحمة والرقة.",
+    "source_phrase_ar": "سميت رحم الأنثى رحما (maqayis)؛ الرحم بيت منبت الولد ووعاؤه في البطن (ayn)؛ الرحم رحم المرأة (jamhara)؛ الرحم رحم الأنثى وهي مؤنثة (sihah)؛ الرحم بيت منبت الولد ووعاؤه في البطن (tahdhib)؛ الرحم رحم المرأة (mufradat)",
+    "image_transliteration": "rhm alantha",
+    "summary": "Dişinin karnında yavrunun tutunup geliştiği, onu doğuma kadar içinde taşıyan iç organdır.",
+    "concept_map": {
+      "definition": "Dişinin karnında yavrunun tutunup geliştiği, onu doğuma kadar içinde taşıyan iç organdır.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Yetkili kaynak anlatımı, dişi bedenindeki bu organı yavrunun başladığı, karın içinde taşındığı ve geliştiği yer ve kap olarak tanımlar. Hazırlanan dal çerçevesi organı soy ilişkisinden, acıma anlamından ve organın hastalık durumundan doğru biçimde ayırır.",
+      "boundary_note": "Bu dal sağlıklı bedensel organın kendisidir; içindeki yavruyu, soy bağını veya organın ağrı ve hastalık durumlarını adlandırmaz."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "bare",
+      "note": "Dal bağımsız organ adını ve onun çoğulunu kapsar; herhangi bir kalıba bağlı yan anlam bu yalın tanıma eklenmez."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "bare",
+      "has_non_bare": false,
+      "has_collocation": false,
+      "unit_kind_counts": {
+        "form": 2
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_017",
+        "expression_ar": "رَحِم الأنثى",
+        "unit_kind": "form",
+        "sense_ar": "بيت منبت الولد ووعاؤه في البطن",
+        "target_gloss": "dişinin döl yatağı",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "maqayis:root=%D8%B1%20%D8%AD%20%D9%85:headword=%D8%B1%D8%AD%D9%85:sha=69fde5b7480adec0",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1390%3Asubentry%3A1%3A%D8%B1%D8%AD%D9%85:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=28642cbb0931f478",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4479:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=33c0be0aa0beb127",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A551:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=6dc67499bd5c4b32"
+        ],
+        "quran_form": null
+      },
+      {
+        "lexical_unit_id": "lu_018",
+        "expression_ar": "الأرحام",
+        "unit_kind": "form",
+        "sense_ar": "جمع الرحم بوصفه أوعية الولد في البطون",
+        "target_gloss": "döl yatakları",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Ortak anlatım, dişi ya da kadın bedenindeki organı yavrunun başladığı yer ve karın içindeki taşıyıcı kap olarak tanımlar. Tekil biçim organı, çoğul biçim ise aynı tür organları adlandırır.",
+      "evidence_refs": [
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d",
+        "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1390%3Asubentry%3A1%3A%D8%B1%D8%AD%D9%85:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=28642cbb0931f478",
+        "maqayis:root=%D8%B1%20%D8%AD%20%D9%85:headword=%D8%B1%D8%AD%D9%85:sha=69fde5b7480adec0",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A551:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=6dc67499bd5c4b32",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4479:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=33c0be0aa0beb127",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 6,
+      "passage_count": 6,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "maqayis:root=%D8%B1%20%D8%AD%20%D9%85:headword=%D8%B1%D8%AD%D9%85:sha=69fde5b7480adec0"
+          ]
+        },
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d"
+          ]
+        },
+        {
+          "source_id": "jamhara",
+          "dictionary_name": "Jamharat al-Lugha",
+          "source_refs": [
+            "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1390%3Asubentry%3A1%3A%D8%B1%D8%AD%D9%85:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=28642cbb0931f478"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4479:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=33c0be0aa0beb127"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A551:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=6dc67499bd5c4b32"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Dişinin karnında yavrunun tutunup geliştiği, onu doğuma kadar içinde taşıyan iç organdır.",
+      "concept": {
+        "rank": 1,
+        "text": "döl yatağı",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Dişi bedeninde yavrunun tutunup geliştiği belirli iç organı doğal ve kısa bir Türkçe karşılıkla anlatır.",
+        "facet_ids": [
+          "F001"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Organın yavrunun gelişme ve taşınma yeri oluşunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "yavrunun geliştiği iç organ",
+          "loanword_status": "none",
+          "usage_role": "explanatory",
+          "selection_role": "contextual_gloss",
+          "applicability": "Teknik organ adının bilinmediği veya organın işlevinin açıkça belirtilmesi gereken bağlamlarda kullanılır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Bedensel organ niteliğini ve yavrunun gelişme yeri olma işlevini korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": [
+        {
+          "text": "rahim",
+          "category": "common_loanword",
+          "exclusion_reason": "Kaynak dildeki organ adını doğrudan yinelediği ve aynı ses dizisi başka adlandırmalarda da bulunduğu için açıklayıcı karşılık görevini yerine getirmez.",
+          "error_profile": {
+            "fit": "drifted_loanword",
+            "preserves": "Türkçedeki yerleşik kullanımında aynı bedensel organı doğru olarak gösterebilir.",
+            "loses": null,
+            "adds": null,
+            "collision": "Kaynak dildeki organ adını doğrudan yinelediği ve aynı ses dizisi başka adlandırmalarda da bulunduğu için açıklayıcı karşılık görevini yerine getirmez."
+          }
+        },
+        {
+          "text": "karın",
+          "category": "confusable",
+          "exclusion_reason": "Döl yatağı dışındaki bütün karın boşluğunu ve başka organları kapsama ekler. Belirli iç organı onun bulunduğu daha geniş beden bölgesiyle karıştırır.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Organın bulunduğu genel beden bölgesini korur.",
+            "loses": null,
+            "adds": "Döl yatağı dışındaki bütün karın boşluğunu ve başka organları kapsama ekler.",
+            "collision": "Belirli iç organı onun bulunduğu daha geniş beden bölgesiyle karıştırır."
+          }
+        },
+        {
+          "text": "ana karnı",
+          "category": "alternative",
+          "exclusion_reason": "Belirli organın dışındaki bütün karın bölgesini ve yalnızca gebelik durumunu kapsama ekler. Organın kendisiyle annenin genel karın bölgesini birbirine karıştırır.",
+          "error_profile": {
+            "fit": "broadening",
+            "preserves": "Yavrunun anne bedeninde taşındığı yer düşüncesini korur.",
+            "loses": null,
+            "adds": "Belirli organın dışındaki bütün karın bölgesini ve yalnızca gebelik durumunu kapsama ekler.",
+            "collision": "Organın kendisiyle annenin genel karın bölgesini birbirine karıştırır."
+          }
+        }
+      ]
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000552",
+        "neighbor_branch_id": "B002",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak dal, dişi bedeninde yavrunun geliştiği somut iç organı adlandırır.",
+        "neighbor_only": "Komşu dal, ortak soydan gelen kişiler arasındaki toplumsal ilişkiyi ve yakınlığı adlandırır.",
+        "expression_transliteration": "er-rahim ve'l-karâbe",
+        "gloss": "döl yatağı ile soy bağı",
+        "shared_zone": "Soy ilişkisi, aynı doğum kaynağından çıkma düşüncesiyle organ adından geliştirilmiştir.",
+        "distinction": "Odak bedensel bir organdır; komşu ise o organın ortak köken imgesi üzerinden adlandırılan kişiler arası bağdır. Tarihsel kavram bağlantısı, somut organ ile soyut ilişkiyi eş anlamlı yapmaz.",
+        "expression_ar": "الرَّحِم والقرابة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1705:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=bf648407b138168d",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1390%3Asubentry%3A1%3A%D8%B1%D8%AD%D9%85:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=28642cbb0931f478",
+          "maqayis:root=%D8%B1%20%D8%AD%20%D9%85:headword=%D8%B1%D8%AD%D9%85:sha=69fde5b7480adec0",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A551:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=6dc67499bd5c4b32",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4479:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=33c0be0aa0beb127",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D239%3Bsegment_index%3D3:headword=%D8%B1%D8%AD%D9%85:root=%D8%B1%20%D8%AD%20%D9%85:sha=fcb0e2b38d926f06"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000266",
+        "neighbor_branch_id": "B007",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak, yavruyu içinde taşıyan anneye ait organın kendisidir.",
+        "neighbor_only": "Komşu, henüz doğmamış ve anne karnında gizli bulunan yavrunun kendisidir.",
+        "expression_transliteration": "aljnyn almstwr fy albtn",
+        "gloss": "taşıyan organ ile taşınan yavru",
+        "shared_zone": "Her iki dal doğumdan önce anne bedenindeki gelişme sürecinin aynı yer ve katılımcılarını konu edinir.",
+        "distinction": "Odak yavrunun bulunduğu ve geliştiği organdır, komşu ise bu organın içinde gelişen canlıdır. Taşıyan yapı ile taşınan yavru aynı bağlamda görünse de birbirinin yerine kullanılamaz.",
+        "expression_ar": "الجنين المستور في البطن",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:527",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A3983:headword=%D8%AC%D9%86:root=%D8%AC%20%D9%86:sha=a071276b2e7ea8c0",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A264:headword=%D8%AC%D9%86:root=%D8%AC%20%D9%86:sha=5d933d0f3a1a9a08",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4840:headword=%D8%AC%D9%86%D9%86:root=%D8%AC%20%D9%86%20%D9%86:sha=2f8175a072916be1",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D543%3Bsegment_index%3D2:headword=%D8%AC%D9%86:root=%D8%AC%20%D9%86:sha=1d625b279e909c4c"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000042",
+        "neighbor_branch_id": "B002",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak, gebelik olsun ya da olmasın bedende bulunan organı adlandırır.",
+        "neighbor_only": "Komşu, döllenmiş yavrunun bu organda yerleşmesi olayını ve yerleşmiş gebelik durumunu anlatır.",
+        "expression_transliteration": "istikraru'l-hamli fi'r-rahim",
+        "gloss": "organ ile gebeliğin yerleşmesi",
+        "shared_zone": "İki dal, yavrunun döl yatağında yerleşip gelişmeye başlaması bağlamında doğrudan buluşur.",
+        "distinction": "Odak kalıcı beden yapısıdır; komşu o yapının içinde gerçekleşen belirli bir başlangıç olayıdır. Organın varlığı gebeliğin yerleşmiş olmasını gerektirmez.",
+        "expression_ar": "استقرار الحمل في الرحم",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:110",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D795%3Bsegment_index%3D3:headword=%D8%A3%D9%81%D9%84:root=%D8%A3%20%D9%81%20%D9%84:sha=22cb172fa5af709e"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000379",
+        "neighbor_branch_id": "B001",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak, yavrunun gelişme yeri olan iç organın anatomik kimliğini bildirir.",
+        "neighbor_only": "Komşu, belirli zamanda bu organdan gelen kanı, kanama olayını, zamanı ve ilgili durumu bildirir.",
+        "expression_transliteration": "alhyd",
+        "gloss": "döl yatağı ile dönemsel kanama",
+        "shared_zone": "Her iki dal dişi üreme bedenini ve aynı organla bağlantılı olayları konu edinir.",
+        "distinction": "Odak bir organın adıdır; komşu ise o organla ilişkili kan ve dönemsel bedensel olaydır. Aynı anatomik alanı paylaşmaları çekirdeklerini birleştirmez.",
+        "expression_ar": "الحَيْض",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:838",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A1771:headword=%D8%AD%D9%8A%D8%B6:root=%D8%AD%20%D9%8A%20%D8%B6:sha=e2a7ab5f50a45807",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A1449%3Asubentry%3A0%3A%D8%AD%D9%8A%D8%B6:headword=%D8%AD%D9%8A%D8%B6:root=%D8%AD%20%D9%8A%20%D8%B6:sha=2fb50aaf52415c06",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A381:headword=%D8%AD%D9%8A%D8%B6:root=%D8%AD%20%D9%8A%20%D8%B6:sha=6d362fcc363ff359",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A2658:headword=%D8%AD%D9%8A%D8%B6:root=%D8%AD%20%D9%8A%20%D8%B6:sha=4e95351d97b075bf"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_001056",
+        "neighbor_branch_id": "B005",
+        "relation_type": "same_field",
+        "boundary_match": "field_only",
+        "focus_only": "Odak, dişinin yavruyu taşıyan organının bütününü adlandırır.",
+        "neighbor_only": "Komşu, özellikle dişi devenin bu organındaki damarları ya da dar bir bölgeyi adlandırır.",
+        "expression_transliteration": "'rwq fy rhm alnaqh",
+        "gloss": "döl yatağı ile içindeki damarlar",
+        "shared_zone": "İki dal aynı organın anatomik alanında ve özellikle dişi hayvan bedeninde buluşur.",
+        "distinction": "Odak bütün organdır; komşu ise o organ içinde bulunan belirli damar veya bölgedir. Bütün ile onun küçük anatomik parçası birbirinin yerine geçmez.",
+        "expression_ar": "عروق في رحم الناقة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2374",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A4999:headword=%D8%B9%D9%87%D9%86:root=%D8%B9%20%D9%87%20%D9%86:sha=eaab02e612bb1650",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D33%3Bsegment_index%3D2:headword=%D8%B9%D9%87%D9%86:root=%D8%B9%20%D9%87%20%D9%86:sha=29672ef1db6a10d8"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 11,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi. Soy bağıyla ad aktarımı, organın içindeki yavru, gebeliğin yerleşmesi, dönemsel kanama ve organdaki damarlar en açıklayıcı sınırları verdi; gebelik ürünleri, karın içi, şişmanlık ve aynı kökün acıma ile hastalık dalları ya seçilen ayrımları yineledi ya da yalnızca uzak bir beden bağlamı sundu."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_000552/B003",
+    "concept_gloss": {
+      "text": "döl yatağı",
+      "facet_ids": [
+        "F001"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [
+      {
+        "text": "dişinin yavru taşıyan iç organı",
+        "facet_ids": [
+          "F001"
+        ],
+        "lexical_unit_ids": [
+          "lu_017",
+          "lu_018"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    ],
+    "lexical_glosses": {
+      "lu_017": {
+        "text": "dişinin döl yatağı",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      },
+      "lu_018": {
+        "text": "döl yatakları",
+        "facet_ids": [
+          "F001"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    }
+  }
+}

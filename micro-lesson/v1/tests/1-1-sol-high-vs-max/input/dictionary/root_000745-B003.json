@@ -1,0 +1,455 @@
+{
+  "root_ar": "س م و",
+  "branch_ref": "root_000745/B003",
+  "source_status": {
+    "upstream_entry": "../dictionary/v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+    "finalized_entry": "../dictionary/entries/tr/root_000745.json",
+    "reviewed_gloss_file": "../dictionary/v2/gloss_generation/results/tr/root_000745.json",
+    "gloss_status": "reviewed",
+    "source_entry_review": {
+      "path": "v2/work/entry_creation/root_000745/tr/output/root_000745_entry.json",
+      "entry_id": "root_000745/tr",
+      "status": "reviewed",
+      "review_verdict": "editorial_review",
+      "validation_status": "clean",
+      "validation_warnings": []
+    },
+    "review_response_locator": {
+      "path": "v2/gloss_generation/work/root_000745/tr/repair/editorial/review/output/review.json"
+    }
+  },
+  "root_profile": {
+    "summary": "Kök, somut ve toplumsal yükselme çekirdeğinden uzaktan beliren yüksek görünüşe, üstteki gök ve örtüye, adlandırmaya ve iyi üne uzanır; ayrıca erkek devenin sürüye girişi, ava çıkma ve karşılıklı yarışma gibi kalıplaşmış dallar taşır. Bu yapı, anlamca bağlantılı uzantılarla daha bağımsız eski kullanımları birlikte barındırır.",
+    "polysemy": "polysemic",
+    "organization": "mixed"
+  },
+  "branch": {
+    "branch_ref": "root_000745/B003",
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi genel yükselmeyi değil, erkek devenin dişi deve sürüsünün üzerine atılıp aralarına girdiği belirli hareketi anlatır. Geçici dal tanımı bu katılımcıları ve hareket aşamalarını doğru korur.",
+      "boundary_note": "Anlam yalnız erkek deve ile dişi deve sürüsünü içeren bu yapıya bağlıdır; genel yükselme ya da yarışma anlamına genişletilemez."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "collocation",
+      "note": "Tanım yalnız erkek devenin dişi deve sürüsüne yönelik hareketini bildiren belirtilmiş söz yapısıyla sınırlıdır."
+    },
+    "concept_map": {
+      "definition": "Erkek devenin dişi deve sürüsünün üzerine doğru yükselip atılması ve sürünün arasına girmesidir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Erkek deve dişi deve sürüsünün üzerine doğru yükselir veya atılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Erkek deve hareketini sürdürerek dişi develerin arasına girer.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "source_synthesis": {
+      "common_summary": "Kaynaklar erkek devenin dişi develerin üzerine doğru yükselip atılmasını ve sürünün arasına girmesini aynı yapıya bağlı ortak anlam olarak verir.",
+      "common_claim_ids": [
+        "bc_001"
+      ],
+      "source_details": [],
+      "supporting_claim_ids": [],
+      "duplicate_claims": []
+    },
+    "concept_gloss": {
+      "text": "erkek devenin dişi deve sürüsüne atılıp aralarına girmesi",
+      "applicability": "Yalnız belirtilen hayvan katılımcılarını, yönelme hareketini ve sürünün arasına girme sonucunu birlikte anlatır.",
+      "error_profile": {
+        "fit": "none",
+        "preserves": "Erkek devenin sürünün üzerine yönelmesini ve araya girmesini korur.",
+        "loses": null,
+        "adds": null,
+        "collision": null
+      },
+      "facet_ids": [
+        "F001",
+        "F002"
+      ]
+    },
+    "contextual_glosses": [
+      {
+        "text": "dişi deve sürüsünün üzerine atılmak",
+        "usage_role": "contextual",
+        "applicability": "Erkek devenin dişi deve sürüsüne doğru yükselip atıldığı hareket aşamasında kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Hareketin yönünü ve erkek devenin sürü üzerine atılmasını korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F001"
+        ]
+      },
+      {
+        "text": "dişi develerin arasına girmek",
+        "usage_role": "contextual",
+        "applicability": "Erkek devenin sürünün içine girerek dişi develerin arasında ilerlediği aşamada kullanılır.",
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Erkek devenin sürünün arasına girmesi sonucunu korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        },
+        "facet_ids": [
+          "F002"
+        ]
+      }
+    ],
+    "lexical_glosses": [
+      {
+        "lexical_unit_id": "lu_008",
+        "rendering_kind": "ordinary",
+        "target_gloss": "erkek devenin dişi deve sürüsüne atılıp aralarına girmesi"
+      }
+    ],
+    "excluded_glosses": [],
+    "neighbor_distinctions": [
+      {
+        "neighbor_ref": "root_000431/B005",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı sürünün üzerine atılma ve dişi develerin arasına girme hareketini anlatır.",
+        "neighbor_only": "Komşu dal çiftleşme sırasında erkek devenin dişi deveyle doğrudan bedensel birleşmesini anlatır.",
+        "gloss": "erkek devenin dişi deveye yönelmesi",
+        "shared_zone": "İki dal da erkek devenin dişi deveye yönelik yakınlaşma davranışı alanındadır.",
+        "distinction": "Odak dalı sürüye yönelme ve araya girme hareketinde kalır; komşu dal ise çiftleşmenin doğrudan bedensel aşamasını kurucu anlam yapar."
+      },
+      {
+        "neighbor_ref": "root_000906/B011",
+        "relation_type": "thematic",
+        "boundary_match": "thematic_only",
+        "focus_only": "Odak dalında erkek devenin sürünün üzerine atılması ve sürü içine girmesi belirtilir.",
+        "neighbor_only": "Komşu dal erkek hayvanın dişiye çiftleşme amacıyla gelmesini ve bunun istenmesini kapsar.",
+        "gloss": "sürüye giriş ve çiftleşme",
+        "shared_zone": "Her iki dal erkek hayvan ile dişi deve arasındaki aynı üreme ortamında yer alabilir.",
+        "distinction": "Ortak durum alanına rağmen odak dalının çekirdeği sürüye yönelik yükselme ve giriş hareketi, komşunun çekirdeği ise çiftleşme eylemidir."
+      },
+      {
+        "neighbor_ref": "root_000745/B001",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı erkek deve, dişi deve sürüsü ve sürü içine giriş katılımcılarını zorunlu kılar.",
+        "neighbor_only": "Komşu dal herhangi bir şeyin fiziksel veya toplumsal yükselmesini genel olarak kapsar.",
+        "gloss": "özel sürü hareketi ve genel yükselme",
+        "shared_zone": "Erkek devenin yukarı yönelen hareketi genel yükselme çekirdeğiyle temas eder.",
+        "distinction": "Odak dalı hayvan ve sürü katılımcılarına bağlı kalıplaşmış bir harekettir; komşu dal bu özel katılımcıları gerektirmeyen genel yükselmedir."
+      }
+    ],
+    "neighbor_coverage_note": "Bütün adaylar değerlendirildi; sürüye giriş, çiftleşme ve genel yükselme arasındaki sınırı gösteren üç ilişki yayımlandı.",
+    "branch_image_ar": "تطاول الفحل على الشول",
+    "what_is_ar": "يدخل فيه سما الفحل إذا تطاول أو سطا على شوله، أي علاها وتخللها.",
+    "what_is_not_ar": "لا يدخل فيه المساماة بمعنى المباراة، ولا مطلق العلو.",
+    "source_phrase_ar": "سما الفحل سطا على شوله سماوة (maqayis)؛ سما الفحل إذا تطاول على شوله (ayn;tahdhib)؛ سما الفحل إذا سطا على شوله سماوة (sihah)؛ سما الفحل على الشول سماوة لتخلله إياها (mufradat)",
+    "sources": [
+      "MQ",
+      "AY",
+      "SI",
+      "TA",
+      "MU"
+    ],
+    "source_note": {}
+  },
+  "finalized_branch": {
+    "root_id": "root_000745",
+    "branch_id": "B003",
+    "branch_image_ar": "تطاول الفحل على الشول",
+    "what_is_ar": "يدخل فيه سما الفحل إذا تطاول أو سطا على شوله، أي علاها وتخللها.",
+    "what_is_not_ar": "لا يدخل فيه المساماة بمعنى المباراة، ولا مطلق العلو.",
+    "source_phrase_ar": "سما الفحل سطا على شوله سماوة (maqayis)؛ سما الفحل إذا تطاول على شوله (ayn;tahdhib)؛ سما الفحل إذا سطا على شوله سماوة (sihah)؛ سما الفحل على الشول سماوة لتخلله إياها (mufradat)",
+    "image_transliteration": "ttawl alfhl 'la alshwl",
+    "summary": "Erkek devenin dişi deve sürüsünün üzerine doğru yükselip atılması ve sürünün arasına girmesidir.",
+    "concept_map": {
+      "definition": "Erkek devenin dişi deve sürüsünün üzerine doğru yükselip atılması ve sürünün arasına girmesidir.",
+      "facets": [
+        {
+          "facet_id": "F001",
+          "role": "core",
+          "statement": "Erkek deve dişi deve sürüsünün üzerine doğru yükselir veya atılır.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        },
+        {
+          "facet_id": "F002",
+          "role": "core",
+          "statement": "Erkek deve hareketini sürdürerek dişi develerin arasına girer.",
+          "claim_ids": [
+            "bc_001"
+          ]
+        }
+      ]
+    },
+    "identity_judgment": {
+      "status": "accepted",
+      "rationale": "Kaynak cümlesi genel yükselmeyi değil, erkek devenin dişi deve sürüsünün üzerine atılıp aralarına girdiği belirli hareketi anlatır. Geçici dal tanımı bu katılımcıları ve hareket aşamalarını doğru korur.",
+      "boundary_note": "Anlam yalnız erkek deve ile dişi deve sürüsünü içeren bu yapıya bağlıdır; genel yükselme ya da yarışma anlamına genişletilemez."
+    },
+    "lexicalization_scope": {
+      "branch_kind": "collocation",
+      "note": "Tanım yalnız erkek devenin dişi deve sürüsüne yönelik hareketini bildiren belirtilmiş söz yapısıyla sınırlıdır."
+    },
+    "lexicalization_profile": {
+      "branch_kind": "collocation",
+      "has_non_bare": true,
+      "has_collocation": true,
+      "unit_kind_counts": {
+        "collocation": 1
+      },
+      "basis": "furuq.lexical_unit_senses.unit_kind"
+    },
+    "lexical_realizations": [
+      {
+        "lexical_unit_id": "lu_008",
+        "expression_ar": "سما الفحل",
+        "unit_kind": "collocation",
+        "sense_ar": "تطاول الفحل أو سطا على شوله.",
+        "target_gloss": "erkek devenin dişi deve sürüsüne atılıp aralarına girmesi",
+        "target_rendering_kind": "ordinary",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+        ],
+        "quran_form": null
+      }
+    ],
+    "usage_notes": [],
+    "evidence_qualifiers": [],
+    "source_discussion": {
+      "discussion": "Kaynaklar erkek devenin dişi develerin üzerine doğru yükselip atılmasını ve sürünün arasına girmesini aynı yapıya bağlı ortak anlam olarak verir.",
+      "evidence_refs": [
+        "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+        "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+        "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da",
+        "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+        "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+      ],
+      "details": [],
+      "examples": [],
+      "disagreement": null
+    },
+    "dictionary_basis": {
+      "dictionary_count": 5,
+      "passage_count": 5,
+      "sources": [
+        {
+          "source_id": "maqayis",
+          "dictionary_name": "Maqāyīs al-Lugha",
+          "source_refs": [
+            "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667"
+          ]
+        },
+        {
+          "source_id": "ayn",
+          "dictionary_name": "Kitāb al-ʿAyn",
+          "source_refs": [
+            "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9"
+          ]
+        },
+        {
+          "source_id": "sihah",
+          "dictionary_name": "al-Ṣiḥāḥ",
+          "source_refs": [
+            "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166"
+          ]
+        },
+        {
+          "source_id": "tahdhib",
+          "dictionary_name": "Tahdhīb al-Lugha",
+          "source_refs": [
+            "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+          ]
+        },
+        {
+          "source_id": "mufradat",
+          "dictionary_name": "al-Mufradāt fī Gharīb al-Qurʾān",
+          "source_refs": [
+            "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da"
+          ]
+        }
+      ]
+    },
+    "glosses": {
+      "semantic_definition": "Erkek devenin dişi deve sürüsünün üzerine doğru yükselip atılması ve sürünün arasına girmesidir.",
+      "concept": {
+        "rank": 1,
+        "text": "erkek devenin dişi deve sürüsüne atılıp aralarına girmesi",
+        "loanword_status": "none",
+        "usage_role": "explanatory",
+        "selection_role": "primary_concept_gloss",
+        "applicability": "Yalnız belirtilen hayvan katılımcılarını, yönelme hareketini ve sürünün arasına girme sonucunu birlikte anlatır.",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error_profile": {
+          "fit": "none",
+          "preserves": "Erkek devenin sürünün üzerine yönelmesini ve araya girmesini korur.",
+          "loses": null,
+          "adds": null,
+          "collision": null
+        }
+      },
+      "contextual": [
+        {
+          "rank": 2,
+          "text": "dişi deve sürüsünün üzerine atılmak",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Erkek devenin dişi deve sürüsüne doğru yükselip atıldığı hareket aşamasında kullanılır.",
+          "facet_ids": [
+            "F001"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Hareketin yönünü ve erkek devenin sürü üzerine atılmasını korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        },
+        {
+          "rank": 3,
+          "text": "dişi develerin arasına girmek",
+          "loanword_status": "none",
+          "usage_role": "contextual",
+          "selection_role": "contextual_gloss",
+          "applicability": "Erkek devenin sürünün içine girerek dişi develerin arasında ilerlediği aşamada kullanılır.",
+          "facet_ids": [
+            "F002"
+          ],
+          "error_profile": {
+            "fit": "none",
+            "preserves": "Erkek devenin sürünün arasına girmesi sonucunu korur.",
+            "loses": null,
+            "adds": null,
+            "collision": null
+          }
+        }
+      ],
+      "excluded": []
+    },
+    "arabic_neighbor_distinctions": [
+      {
+        "neighbor_root_id": "root_000431",
+        "neighbor_branch_id": "B005",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı sürünün üzerine atılma ve dişi develerin arasına girme hareketini anlatır.",
+        "neighbor_only": "Komşu dal çiftleşme sırasında erkek devenin dişi deveyle doğrudan bedensel birleşmesini anlatır.",
+        "expression_transliteration": "mkhalth alfhl llnaqh",
+        "gloss": "erkek devenin dişi deveye yönelmesi",
+        "shared_zone": "İki dal da erkek devenin dişi deveye yönelik yakınlaşma davranışı alanındadır.",
+        "distinction": "Odak dalı sürüye yönelme ve araya girme hareketinde kalır; komşu dal ise çiftleşmenin doğrudan bedensel aşamasını kurucu anlam yapar.",
+        "expression_ar": "مخالطة الفحل للناقة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:964",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A2689:headword=%D8%AE%D9%84%D8%B7:root=%D8%AE%20%D9%84%20%D8%B7:sha=fd7248c08a86f4b7",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A2741:headword=%D8%AE%D9%84%D8%B7:root=%D8%AE%20%D9%84%20%D8%B7:sha=c898cb77c532a767"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000906",
+        "neighbor_branch_id": "B011",
+        "relation_type": "thematic",
+        "boundary_match": "thematic_only",
+        "focus_only": "Odak dalında erkek devenin sürünün üzerine atılması ve sürü içine girmesi belirtilir.",
+        "neighbor_only": "Komşu dal erkek hayvanın dişiye çiftleşme amacıyla gelmesini ve bunun istenmesini kapsar.",
+        "expression_transliteration": "erkek hayvanın dişiyle çiftleşmesi",
+        "gloss": "sürüye giriş ve çiftleşme",
+        "shared_zone": "Her iki dal erkek hayvan ile dişi deve arasındaki aynı üreme ortamında yer alabilir.",
+        "distinction": "Ortak durum alanına rağmen odak dalının çekirdeği sürüye yönelik yükselme ve giriş hareketi, komşunun çekirdeği ise çiftleşme eylemidir.",
+        "expression_ar": "ضرب الفحل الناقة",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:2166",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A4593:headword=%D8%B6%D8%B1%D8%A8:root=%D8%B6%20%D8%B1%20%D8%A8:sha=f30a7eb7df749aef",
+          "jamhara:file=0321IbnDuraydAzdi.JamharatLugha.JK007100-ara1:section=heading%3A723%3Asubentry%3A2%3A%D8%B6%D8%B1%D8%A8:headword=%D8%B6%D8%B1%D8%A8:root=%D8%B6%20%D8%B1%20%D8%A8:sha=e1297f93c344a27e",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A894:headword=%D8%B6%D8%B1%D8%A8:root=%D8%B6%20%D8%B1%20%D8%A8:sha=7ed1406753c93a9e",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A358:headword=%D8%B6%D8%B1%D8%A8:root=%D8%B6%20%D8%B1%20%D8%A8:sha=4aaa8a6d03598980",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D612%3Bsegment_index%3D33:headword=%D8%B6%D8%B1%D8%A8:root=%D8%B6%20%D8%B1%20%D8%A8:sha=2d79f20c65d29e85"
+        ]
+      },
+      {
+        "neighbor_root_id": "root_000745",
+        "neighbor_branch_id": "B001",
+        "relation_type": "near_neighbor",
+        "boundary_match": "partial",
+        "focus_only": "Odak dalı erkek deve, dişi deve sürüsü ve sürü içine giriş katılımcılarını zorunlu kılar.",
+        "neighbor_only": "Komşu dal herhangi bir şeyin fiziksel veya toplumsal yükselmesini genel olarak kapsar.",
+        "expression_transliteration": "al'lw walartfa'",
+        "gloss": "özel sürü hareketi ve genel yükselme",
+        "shared_zone": "Erkek devenin yukarı yönelen hareketi genel yükselme çekirdeğiyle temas eder.",
+        "distinction": "Odak dalı hayvan ve sürü katılımcılarına bağlı kalıplaşmış bir harekettir; komşu dal bu özel katılımcıları gerektirmeyen genel yükselmedir.",
+        "expression_ar": "العلو والارتفاع",
+        "basis": "furuq_branch_comparison",
+        "evidence_refs": [
+          "0395IbnFarisQazwini.MucjamMaqayis.JK008008-ara1:heading:1667",
+          "ayn:file=0170KhalilFarahidi.Cayn.JK000930-ara1:section=heading%3A5011:headword=%D8%B3%D9%85%D9%88:root=%D8%B3%20%D9%85%20%D9%88:sha=18d6cf7c8fc212c9",
+          "mufradat:file=0502RaghibIsbahani.Mufradat.Shamela0023636-ara1:section=heading%3A737:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=2c8f18fa16bf13da",
+          "sihah:file=0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1:section=heading%3A5376:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=80e29fe0dbc67166",
+          "tahdhib:file=tahdhib.sqlite_original:section=parent_entry_id%3D661%3Bsegment_index%3D6:headword=%D8%B3%D9%85%D8%A7:root=%D8%B3%20%D9%85%20%D8%A7:sha=6842812d7c6b9b09"
+        ]
+      }
+    ],
+    "neighbor_coverage": {
+      "candidate_count": 15,
+      "assessment": "complete",
+      "note": "Bütün adaylar değerlendirildi; sürüye giriş, çiftleşme ve genel yükselme arasındaki sınırı gösteren üç ilişki yayımlandı."
+    }
+  },
+  "reviewed_glosses": {
+    "branch_ref": "root_000745/B003",
+    "concept_gloss": {
+      "text": "erkek devenin dişi deve sürüsüne atılıp araya girmesi",
+      "facet_ids": [
+        "F001",
+        "F002"
+      ],
+      "error": {
+        "fit": "none",
+        "loses_facet_ids": [],
+        "adds": null,
+        "collision": null,
+        "reason": null
+      }
+    },
+    "contextual_glosses": [],
+    "lexical_glosses": {
+      "lu_008": {
+        "text": "erkek devenin dişi deve sürüsüne atılıp aralarına girmesi",
+        "facet_ids": [
+          "F001",
+          "F002"
+        ],
+        "error": {
+          "fit": "none",
+          "loses_facet_ids": [],
+          "adds": null,
+          "collision": null,
+          "reason": null
+        }
+      }
+    }
+  }
+}
