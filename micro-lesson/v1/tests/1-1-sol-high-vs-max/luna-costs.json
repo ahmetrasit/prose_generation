@@ -1,0 +1,59 @@
+{
+  "scope": "Completed Luna Max run, including recorded pre-interruption and resumed usage. Excludes parent preparation and review.",
+  "pricing_checked_on": "2026-10-07",
+  "pricing_sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-luna",
+    "https://developers.openai.com/api/docs/guides/reasoning"
+  ],
+  "standard_rates_usd_per_million": {
+    "uncached_input": 0.1,
+    "cached_input": 0.01,
+    "cache_write_input": 0.125,
+    "output_including_reasoning": 0.5
+  },
+  "interpretation": "Reasoning is included in output_tokens, and cached input is included in input_tokens. No double counting. Dollar figures are API-equivalent estimates, not billing records. Priority/Fast assumes 2x Standard, as offered by the native agent tool; returned service tier is not recorded. Every observed request was below the 272K long-context threshold. Interrupted unreported generation may not appear in these totals.",
+  "run": {
+    "condition": "luna-max",
+    "usage_log": "/Users/ahmetrasit/.codex/sessions/2026/10/07/rollout-2026-10-07T12-00-28-01a11718-42a3-7972-8bc0-80e4f063cb84.jsonl",
+    "started_at": "2026-10-07T16:00:28.365Z",
+    "completed_at": "2026-10-07T17:25:11.248Z",
+    "duration_minutes": 84.71471666666666,
+    "contexts": [
+      {
+        "timestamp": "2026-10-07T16:00:30.663Z",
+        "model": "gpt-6-luna",
+        "effort": "max"
+      },
+      {
+        "timestamp": "2026-10-07T16:46:15.034Z",
+        "model": "gpt-6-luna",
+        "effort": "max"
+      },
+      {
+        "timestamp": "2026-10-07T16:55:07.202Z",
+        "model": "gpt-6-luna",
+        "effort": "max"
+      }
+    ],
+    "total_usage": {
+      "input_tokens": 10871486,
+      "cached_input_tokens": 10015744,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 160248,
+      "reasoning_output_tokens": 114132,
+      "total_tokens": 11031734
+    },
+    "uncached_input_tokens": 855742,
+    "non_reasoning_output_tokens": 46116,
+    "max_request_input_tokens": 243336,
+    "standard_usd_components": {
+      "uncached_input": 0.08557420000000002,
+      "cached_input": 0.10015744,
+      "non_reasoning_output": 0.023058,
+      "reasoning_output": 0.057066
+    },
+    "standard_usd": 0.26585564,
+    "priority_fast_usd_estimate": 0.53171128,
+    "caveat": "Existing session resumed after server interruption around 16:54 UTC. Recorded cumulative usage may omit in-flight tokens not reported at interruption. Timing includes the interruption and recovery; not a clean latency comparison."
+  }
+}

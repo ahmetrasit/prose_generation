@@ -12,6 +12,12 @@ Distinguish Arabic nominal case, verbal mood, derivation and Turkish case suffix
 Not every genitive ends in -i; not every nâ is an object; not every fronted element
 means only; not every imperative is a command in its speaking context.
 
+Separate what each part contributes before explaining the whole expression.
+For example, in لَمْ يُذْكَرِ the negative meaning requires lam; the verb alone
+does not mean “anılmadı.” In nafs-i-hi, nafs supplies “self” and -hi supplies the
+third-person reference; do not attribute “self” to the suffix. Use the supplied
+morpheme analysis to settle such local questions, not Turkish translation alone.
+
 Teach the difference that matters here, including a minimal comparison already in
 the paragraph when helpful. Keep one coherent observation even if it teaches
 several concepts across grammar, discourse and Turkish mapping. For example,

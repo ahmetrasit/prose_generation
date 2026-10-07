@@ -10,6 +10,10 @@ makes it useful, using only the supplied passage and relevant linguistic evidenc
   There is no lesson quota or whole-page length budget.
 - Teach one coherent observation in one or two short Turkish sentences. Roughly
   15–45 words is a useful aim, never a word-count gate. Explain before naming terms.
+  A term such as cer or edilgen needs a plain explanation in this lesson, even if
+  another lesson on the page introduces it. Keep branch IDs and profile labels in
+  references, not learner prose. Prefer a positive recognition or usable meaning
+  distinction to a warning alone.
 - One observation can integrate multiple concepts. Split only when the second
   lesson enables a different recognition or understanding. A necessary explanation
   of the first observation can stay in its second sentence.
@@ -41,6 +45,10 @@ concept itself is contrasted, not that two words happened to be compared.
 Keywords are lookup handles, not invented free tags. Emit stable concept IDs.
 Root, branch, lexical-unit and gloss identities stay in evidence/branch references.
 Knowing a general concept never means knowing all lexical instances of it.
+Distinguish a root family, its branches, a lexical unit, and facets of its meaning.
+`polysemy` concerns related uses of one word, not simply different words sharing
+a root. `attested_relation` needs an explanation of documented relationship versus
+resemblance; naming a root alone does not teach it.
 
 ## Prerequisites and difficulty
 
@@ -71,6 +79,12 @@ Show boundaries with a hyphen when explaining a particle or suffix. Explain any
 connected/pause reading difference that matters; an anchor may carry `reading_note_tr`.
 Transliteration is a reading aid, not evidence of root identity. Dictionary examples
 get their dictionary source locator, never a fabricated ayah label.
+
+In the lesson sentence itself, quote enough Arabic to support the Turkish meaning.
+Keep particles that supply negation, prohibition or restriction; a complete anchor
+elsewhere does not repair an incomplete quotation in the teaching sentence. When
+isolating a stem or suffix, attribute only that part's contribution to it. Choose
+a reading appropriate to the quoted span; clarify a connected ending if needed.
 
 ## Output and unresolved opportunities
 

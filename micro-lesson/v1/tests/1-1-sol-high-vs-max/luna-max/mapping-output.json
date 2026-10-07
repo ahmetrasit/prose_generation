@@ -241,17 +241,17 @@
               "role": "teaches"
             },
             {
-              "id": "ML:C262",
+              "id": "ML:C269",
               "role": "teaches"
             },
             {
-              "id": "ML:C279",
-              "role": "teaches"
+              "id": "ML:C262",
+              "role": "reinforces"
             }
           ],
           "level": 3,
           "sentences_tr": [
-            "B001’deki “acıyarak esirgeme” çekirdeği yalnız duygu değil, esirgenen kişiye iyilikte bulunmayı da içerir; p20’deki “merhametle dolu” bu eylem yönünü bağlamda açabilir."
+            "B001, tek başına “merhamet” glossunu dışlar; sözcük iyilik sonucunu göstermeyebilir. p20’deki “merhametle dolu” bu sözlük glossu değil, Rahmân’ı bağlamda betimleyen ifadedir."
           ],
           "anchors": [
             {
@@ -267,7 +267,8 @@
           ],
           "evidence_refs": [
             "input/dictionary/root_000552-B001.json#branch",
-            "input/dictionary/root_000552-B001.json#reviewed_glosses.concept_gloss",
+            "input/dictionary/root_000552-B001.json#reviewed_glosses.excluded[merhamet]",
+            "input/dictionary/root_000552-B001.json#finalized_branch.glosses.contextual",
             "input/paragraphs/p20.md"
           ],
           "reminder_ids": [],
@@ -340,11 +341,6 @@
               "reading_tr": "al-Raḥīm"
             },
             {
-              "source_ref": "30:50",
-              "arabic": "فَٱنظُرْ إِلَىٰٓ ءَاثَٰرِ رَحْمَتِ ٱللَّهِ",
-              "reading_tr": "fa-unẓur ilā āthāri raḥmati Allāh"
-            },
-            {
               "source_ref": "dictionary:root_000552/B003:الرحم بيت منبت الولد",
               "arabic": "الرَّحِمُ بَيْتُ مَنْبَتِ الْوَلَدِ وَوِعَاؤُهُ فِي الْبَطْنِ",
               "reading_tr": "al-raḥimu baytu manbati al-waladi wa-wiʿāʾuhu fī al-baṭn"
@@ -357,7 +353,6 @@
           ],
           "evidence_refs": [
             "input/ayat/1-1.json#QAC",
-            "input/ayat/30-50.json#QAC",
             "input/dictionary/root_000552-B001.json#branch",
             "input/dictionary/root_000552-B003.json#branch"
           ],

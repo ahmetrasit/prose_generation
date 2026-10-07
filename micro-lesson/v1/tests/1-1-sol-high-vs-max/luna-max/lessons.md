@@ -4,7 +4,9 @@
 
 ### p01
 
-**1. 1:1:p01:grammar:bismi_morphology** — بِسْمِ (bi-smi) içindeki bi- edatının ilişkisi Türkçedeki “-yla” ile doğal karşılanır; ism edattan sonra genitif gelir, ismi Allah ise isim tamlaması olarak “Allah’ın adıyla” denir.
+_Authoring notes: semantics: Paragrafın odağı (Ayet tam bir cümle değildir. Bir edat, bir isim ve bu isme bağlanan üç ad vardır) bu pasajda başka bir kök-dalı/kelime birimi karşılaştırması açmıyor; yerel semantik nokta mevcut derslerde zaten tutuldu._
+
+**1. 1:1:p01:grammar:bismi_morphology** — بِسْمِ ٱللَّهِ (bi-smi llāhi) içinde bi- edatı ism (“ad”) sözcüğünü genitif yapar; ardından gelen Allah da tamlamada genitiftir. Türkçede ilişki “Allah’ın adıyla” diye kurulur.
 
 Arapça ve okuma:
 - `بِسْمِ ٱللَّهِ` — bi-smi llāhi (1:1)
@@ -14,6 +16,8 @@ Kaynaklar: input/ayat/1-1.json#qac:1:1, input/ayat/1-1.json#qac:1:1:1, input/aya
 Birleşen ders: 1:1:p01:mapping:bi_as_idiom_gloss.
 
 ### p02
+
+_Authoring notes: semantics: Paragrafın odağı (Kur'an başka yerlerde fiili açıkça söyler. Allah'ın Peygamberine verdiği bir emirde fiil okumak) bu pasajda başka bir kök-dalı/kelime birimi karşılaştırması açmıyor; yerel semantik nokta mevcut derslerde zaten tutuldu. mapping: Paragrafın odağı (Kur'an başka yerlerde fiili açıkça söyler. Allah'ın Peygamberine verdiği bir emirde fiil okumak) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
 
 **1. 1:1:p02:grammar:explicit_and_omitted_verb** — 1:1’de fiil yazılmamıştır; 96:1’deki ٱقْرَأْ (iqraʾ, oku) ve 56:74’teki فَسَبِّحْ (fe-sebbih, tesbih et) ise “bi-smi” ile açık fiil kurar.
 
@@ -26,6 +30,8 @@ Kavramlar: Eksiltili unsur (teaches), Bi- edatının yerel ilişkileri (reinforc
 Kaynaklar: input/ayat/1-1.json#QAC, input/ayat/96-1.json#QAC, input/ayat/56-74.json#QAC.
 
 ### p03
+
+_Authoring notes: mapping: Paragrafın odağı (Bu boşluğun ne kadar geniş olduğunu Nuh'un sahnesi gösterir. Allah'ın emri gelip tandır kaynayı) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
 
 **1. 1:1:p03:grammar:paired_possessive_suffixes** — Nuh’un sözündeki مَجْر۪ىٰهَا وَمُرْسَىٰهَآ (mecrâhâ ve mursâhâ) iki isme de “-hâ” zamirini ekler; ikisi de gemiye döner.
 
@@ -45,6 +51,8 @@ Kaynaklar: input/ayat/11-41.json#QAC, input/paragraphs/p03.md.
 
 ### p04
 
+_Authoring notes: semantics: Paragrafın odağı (Bir işin üstünde söylenen ad o işin niteliğini de değiştirir. Kur'an etin yenip yenmemesini adı) bu pasajda başka bir kök-dalı/kelime birimi karşılaştırması açmıyor; yerel semantik nokta mevcut derslerde zaten tutuldu. mapping: Paragrafın odağı (Bir işin üstünde söylenen ad o işin niteliğini de değiştirir. Kur'an etin yenip yenmemesini adı) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
+
 **1. 1:1:p04:grammar:passive_and_imperative** — ذُكِرَ (dhukira, anıldı) edilgen biçimdir; 5:4’teki وَٱذْكُرُوا (wa-udhkurū, anın) ise muhataplara yöneltilen emirdir.
 
 Arapça ve okuma:
@@ -58,9 +66,13 @@ Kaynaklar: input/ayat/6-118.json#QAC, input/ayat/5-4.json#QAC.
 
 ### p05
 
-_B002 imgesi p06’daki ad dalı dersi içinde birleştirildi; p05 keşfi ham semantik çıktısında korunmuştur. Bu paragraftaki odak (Arapçada "ism" kelimesi yükseklik bildiren bir kökten gelir) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. Paragrafın odağı (Arapçada "ism" kelimesi yükseklik bildiren bir kökten gelir) bu pasajda başka bir kök-dalı/kelime birimi karşılaştırması açmıyor; yerel semantik nokta mevcut derslerde zaten tutuldu. Paragrafın odağı (Arapçada "ism" kelimesi yükseklik bildiren bir kökten gelir) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
+_Authoring notes: B002 imgesi p06’daki ad dalı dersi içinde birleştirildi; p05 keşfi ham semantik çıktısında korunmuştur. grammar: Bu paragraftaki odak (Arapçada "ism" kelimesi yükseklik bildiren bir kökten gelir) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. mapping: Paragrafın odağı (Arapçada "ism" kelimesi yükseklik bildiren bir kökten gelir) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
+
+No assembled display lesson is attached to this paragraph.
 
 ### p06
+
+_Authoring notes: grammar: Bu paragraftaki odak (Ad da böyle işler. Kelime şöyle açıklanır) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. mapping: Paragrafın odağı (Ad da böyle işler. Kelime şöyle açıklanır) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
 
 **1. 1:1:p06:semantics:name_branch_and_renown** — B002’deki سَمَا لِي شَخْصٌ (samā lī shakhsun) yükselip seçilmeyi örnekler; B005’te “ism” bir şeyi tanıtan addır, B008’deki صِيت (ṣīt) ise iyi ün dalıdır ve 1:1’deki adın karşılığı değildir.
 
@@ -76,6 +88,8 @@ Birleşen ders: 1:1:p05:semantics:visible_root_image.
 
 ### p07
 
+_Authoring notes: grammar: Bu paragraftaki odak (Kur'an da adın kendisini yüceltir. Peygambere şöyle denir) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. mapping: Paragrafın odağı (Kur'an da adın kendisini yüceltir. Peygambere şöyle denir) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
+
 **1. 1:1:p07:semantics:meaning_similarity_not_root_identity** — ٱلْأَعْلَىٰ (al-aʿlā) “en yüce” demektir, fakat QAC kökü ع ل و; “ism”in s-m-w köküyle anlam yakınlığı kök birliği değildir.
 
 Arapça ve okuma:
@@ -85,6 +99,8 @@ Kavramlar: Kök ile kelime farkı (teaches), Gözlem ve yorum (teaches).
 Kaynaklar: input/ayat/87-1.json#QAC, input/word-root-analyses.json#ٱسْم.
 
 ### p08
+
+_Authoring notes: grammar: Bu paragraftaki odak (Bu kök yalnız adı değil, insanın başının üstündeki her şeyi de adlandırır) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. mapping: Paragrafın odağı (Bu kök yalnız adı değil, insanın başının üstündeki her şeyi de adlandırır) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
 
 **1. 1:1:p08:semantics:ism_etymology_scope** — 19:65’teki ٱلسَّمَاوَاتِ (al-samāwāt, gökler) s-m-w kökünün gök dalındadır; “ism” için kaydedilen وسم alternatifi yalnızca o lemmanın çözümlemesine aittir.
 
@@ -99,6 +115,8 @@ Dallar: root_000745/B004.
 
 ### p09
 
+_Authoring notes: grammar: Bu paragraftaki odak (Adın bir yükselme olduğu, Kur'an'daki bir soruda belirgin bir yere varır. Bu soruyu, "Biz ancak) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. mapping: Paragrafın odağı (Adın bir yükselme olduğu, Kur'an'daki bir soruda belirgin bir yere varır. Bu soruyu, "Biz ancak) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
+
 **1. 1:1:p09:semantics:semiyy_peer_and_namesake** — B005, سَمِيّ (samiyy) için hem “ona denk olan”ı hem adaşı kaydeder; 19:65’teki soru denk olma anlamını öne çıkarır.
 
 Arapça ve okuma:
@@ -110,6 +128,8 @@ Kaynaklar: input/ayat/19-65.json#QAC, input/dictionary/root_000745-B005.json#bra
 Dallar: root_000745/B005.
 
 ### p10
+
+_Authoring notes: semantics: Paragrafın odağı (Kur'an bu adı çağrıyla birlikte anar. Ayetteki ilk iki ad yan yana bir çağrı olarak geçer) bu pasajda başka bir kök-dalı/kelime birimi karşılaştırması açmıyor; yerel semantik nokta mevcut derslerde zaten tutuldu. mapping: Paragrafın odağı (Kur'an bu adı çağrıyla birlikte anar. Ayetteki ilk iki ad yan yana bir çağrı olarak geçer) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
 
 **1. 1:1:p10:grammar:asma_broken_plural** — ٱلْأَسْمَآء (al-asmāʾ) “ism”in kırık çoğuludur; biçim değişir, Türkçede “adlar” diye karşılanır.
 
@@ -129,6 +149,8 @@ Kaynaklar: input/ayat/7-180.json#QAC.
 
 ### p11
 
+_Authoring notes: semantics: Paragrafın odağı (Kur'an'da bunun karşısında altı boş adlar vardır. Zindandaki Yusuf, yanındaki iki tutsağa şöyle) bu pasajda başka bir kök-dalı/kelime birimi karşılaştırması açmıyor; yerel semantik nokta mevcut derslerde zaten tutuldu. mapping: Paragrafın odağı (Kur'an'da bunun karşısında altı boş adlar vardır. Zindandaki Yusuf, yanındaki iki tutsağa şöyle) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
+
 **1. 1:1:p11:grammar:negative_restriction** — مَا ... إِلَّا (mā ... illā) kuruluşu “yalnızca adlar” diye sınırlar; devamındaki سَمَّيْتُمُوهَا (semmeytumūhā) onları kimin adlandırdığını söyler.
 
 Arapça ve okuma:
@@ -142,6 +164,8 @@ Kaynaklar: input/ayat/12-40.json#QAC.
 
 ### p12
 
+_Authoring notes: grammar: Bu paragraftaki odak (Arap dilcilerinin bir kısmı "ism" kelimesini yükseklik kökünden değil, damgalamak anlamındaki b) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. mapping: Paragrafın odağı (Arap dilcilerinin bir kısmı "ism" kelimesini yükseklik kökünden değil, damgalamak anlamındaki b) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
+
 **1. 1:1:p12:semantics:ism_documented_etymology_alternatives** — “Ism” için çözümleme, Basralıların س م و (s-m-w), Kûfelilerin و س م (w-s-m) önerisini aktarır; bu tartışmalı köken bilgisi kelimenin ayetteki “ad” anlamını değiştirmez.
 
 Arapça ve okuma:
@@ -153,16 +177,20 @@ Dallar: root_000745/B005, root_001650/B001.
 
 ### p13
 
+_Authoring notes: semantics: Paragrafın odağı (Bu görüntüde ad, bir şeyin üstüne konmuş ve sahibini gösteren bir izdir. Bir işe "bismillâh" di) bu pasajda başka bir kök-dalı/kelime birimi karşılaştırması açmıyor; yerel semantik nokta mevcut derslerde zaten tutuldu. mapping: Paragrafın odağı (Bu görüntüde ad, bir şeyin üstüne konmuş ve sahibini gösteren bir izdir. Bir işe "bismillâh" di) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
+
 **1. 1:1:p13:grammar:min_and_bi_relations** — 27:30’da مِن سُلَيْمَانَ (min Sulaymān, Süleyman’dan) kaynağı, بِسْمِ ٱللَّهِ (bi-smi llāh) ise adla kurulan ilişkiyi bildirir; iki edatı ayırın.
 
 Arapça ve okuma:
 - `مِن سُلَيْمَٰنَ` — min Sulaymāna (27:30)
 - `بِسْمِ ٱللَّهِ` — bi-smi llāhi (27:30)
 
-Kavramlar: Min edatının yerel ilişkileri (teaches), Bi- edatının yerel ilişkileri (teaches), Kök ile kelime farkı (contrasts).
+Kavramlar: Min edatının yerel ilişkileri (teaches), Bi- edatının yerel ilişkileri (teaches).
 Kaynaklar: input/ayat/27-30.json#QAC.
 
 ### p14
+
+_Authoring notes: grammar: Bu paragraftaki odak (İzi okumak da bu ailedendir) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok._
 
 **1. 1:1:p14:mapping:mawsim_gloss_scope** — B004’te “mevsimü’l-hâcc”, hacıların toplandığı belirlenmiş zaman ve yerdir; bu Arapça açıklama, Türkçedeki bugünkü “mevsim” karşılığının tarihini tek başına vermez.
 
@@ -173,7 +201,7 @@ Kavramlar: Kavram karşılığı ve bağlam karşılığı (teaches), Kaynak ifa
 Kaynaklar: input/dictionary/root_001650-B004.json#branch, input/dictionary/root_001650-B004.json#reviewed_glosses.
 Dallar: root_001650/B004.
 
-**2. 1:1:p14:semantics:mutawassimin_branch_and_form** — ٱلْمُتَوَسِّمِينَ (al-mutawassimīn) Form V etken ism-i fâildir; B002’de işaretlerden çıkarım, B001’de bedene fiziksel damga ayrı dallardır.
+**2. 1:1:p14:semantics:mutawassimin_branch_and_form** — ٱلْمُتَوَسِّمِينَ (al-mutawassimīn, işaretlerden çıkarım yapanlar) Form V etken ism-i fâildir; B002’de işaret okuma, B001’de bedene fiziksel damga ayrı dallardır.
 
 Arapça ve okuma:
 - `لَءَايَٰتٍۢ لِّلْمُتَوَسِّمِينَ` — la-āyātin li-l-mutawassimīn (15:75)
@@ -187,6 +215,8 @@ Dallar: root_001650/B001, root_001650/B002.
 
 ### p15
 
+_Authoring notes: grammar: Bu paragraftaki odak (Ayetteki ikinci kelime, adı anılanın kendi adıdır. Bu adın kökü tapınmayı ve kulluk etmeyi anla) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. mapping: Paragrafın odağı (Ayetteki ikinci kelime, adı anılanın kendi adıdır. Bu adın kökü tapınmayı ve kulluk etmeyi anla) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
+
 **1. 1:1:p15:semantics:ilah_common_noun_allah_name** — B001’de إِلَٰه (ilāh), kulluk edilen varlığı anlatan ortak addır; B002, “Allah” özel adının ilāh ile ilişkisini bir köken açıklaması olarak aktarır.
 
 Arapça ve okuma:
@@ -199,17 +229,21 @@ Dallar: root_000047/B001, root_000047/B002.
 
 ### p16
 
+_Authoring notes: semantics: Paragrafın odağı (Bu ad yalnızca anılmaz, seslenmek için de kullanılır. Araplar bu adın en büyük ad olduğunu söyl) bu pasajda başka bir kök-dalı/kelime birimi karşılaştırması açmıyor; yerel semantik nokta mevcut derslerde zaten tutuldu. mapping: Paragrafın odağı (Bu ad yalnızca anılmaz, seslenmek için de kullanılır. Araplar bu adın en büyük ad olduğunu söyl) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
+
 **1. 1:1:p16:grammar:vocative_forms** — يَا أَللَّٰهُ (yā Allāh) “ey Allah” diye seslenir; اللَّهُمَّ (Allāhumma) aynı çağrının başka biçimidir, وَاللَّٰهِ (wa-llāhi) ise yemin kalıbında geçer.
 
 Arapça ve okuma:
 - `يَا أَللَّٰهُ اغْفِرْ لِي` — yā Allāh, ighfir lī (dictionary:root_000047/B002:يا الله)
 - `اللَّهُمَّ بِمَعْنَى يَا أَللَّٰهُ` — Allāhumma bi-maʿnā yā Allāh (dictionary:root_000047/B002:اللهم)
-- `وَاللَّهِ مَا فَعَلْتُ ذَاكَ` — wa-llāhi mā faʿaltu dhāka (dictionary:root_000047/B002:والله)
+- `وَاللَّهِ مَا فَعَلْتُهُ` — wa-llāhi mā faʿaltuhu (dictionary:root_000047/B002:والله ما فعلته)
 
 Kavramlar: Seslenme yapısı (teaches).
 Kaynaklar: input/dictionary/root_000047-B002.json#branch.
 
 ### p17
+
+_Authoring notes: grammar: Bu paragraftaki odak (Kur'an bu ayetin üç adını iki yerde aynı sırayla anar. Birincisinde tek ilah olmak, Rahman ve R) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. mapping: Paragrafın odağı (Kur'an bu ayetin üç adını iki yerde aynı sırayla anar. Birincisinde tek ilah olmak, Rahman ve R) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
 
 **1. 1:1:p17:semantics:repeated_name_pair** — 2:163 ve 59:22’de ٱلرَّحْمَٰنُ ٱلرَّحِيمُ (al-Raḥmān al-Raḥīm) aynı sırayla yan yana gelir; çevrelerindeki cümleler farklı olduğundan tekrar aynı işlevi otomatik olarak taşımaz.
 
@@ -222,6 +256,8 @@ Kaynaklar: input/ayat/2-163.json#QAC, input/ayat/59-22.json#QAC.
 
 ### p18
 
+_Authoring notes: grammar: Bu paragraftaki odak (Aynı ailede, bir kavim taptığı için güneşe verilmiş bir ad da vardır) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. mapping: Paragrafın odağı (Aynı ailede, bir kavim taptığı için güneşe verilmiş bir ad da vardır) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
+
 **1. 1:1:p18:semantics:ilahah_sun_context** — B001, الإِلَاهَة (al-ilāhah) adının güneşe, ona tapan bir topluluk yüzünden verildiğini söyler; bu sözlük örneği “ilāh”ın her bağlamda “güneş” olduğu anlamına gelmez.
 
 Arapça ve okuma:
@@ -232,6 +268,8 @@ Kaynaklar: input/dictionary/root_000047-B001.json#branch.
 Dallar: root_000047/B001.
 
 ### p19
+
+_Authoring notes: grammar: Bu paragraftaki odak (Bazı dilciler bu adı, yoğun duygudan aklı karışmak anlamındaki başka bir köke bağlamayı da öner) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. mapping: Paragrafın odağı (Bazı dilciler bu adı, yoğun duygudan aklı karışmak anlamındaki başka bir köke bağlamayı da öner) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
 
 **1. 1:1:p19:semantics:allah_wlh_attributed_alternative** — Kelimeye özel çözümleme, “Allah” adını و ل ه (w-l-h) ile ilişkilendiren görüşü Ebü’l-Heysem’e atfeder; bu alternatif öneridir, Kur’an’daki kök imgesi veya yerel anlam diye sunulmaz.
 
@@ -255,7 +293,7 @@ Arapça ve okuma:
 Kavramlar: İsm-i mefûl (teaches).
 Kaynaklar: input/ayat/1-7.json#QAC.
 
-**2. 1:1:p20:semantics:rahman_rahim_same_root_different_branches** — رَحْمَٰن (Raḥmān) ve رَحِيم (Raḥīm) aynı ر ح م köküne bağlıdır; B001’deki ilahî adların ayrımlı nitelikleri kalıpları değişmez anlam formüllerine dönüştürmez.
+**2. 1:1:p20:semantics:rahman_rahim_same_root_different_branches** — B001, رَحْمَٰن (Raḥmān) için Tanrı’nın esirgemesinin kuşatıcılığını, رَحِيم (Raḥīm) için çok esirgeme ve bol iyiliği kaydeder; ortak ر ح م kökü bu ayrımı taşır, kalıp tek başına sabit anlam formülü vermez.
 
 Arapça ve okuma:
 - `ٱلرَّحْمَٰنِ ٱلرَّحِيمِ` — al-Raḥmāni al-Raḥīm (1:1)
@@ -264,17 +302,19 @@ Kavramlar: Kökün anlam dalları (teaches), Anlamın yönleri (teaches), Kalıp
 Kaynaklar: input/ayat/1-1.json#QAC, input/dictionary/root_000552-B001.json#branch, input/dictionary/root_000552-B001.json#reviewed_glosses.
 Dallar: root_000552/B001.
 
-**3. 1:1:p20:mapping:rahma_gloss_action_facet** — B001’deki “acıyarak esirgeme” çekirdeği yalnız duygu değil, esirgenen kişiye iyilikte bulunmayı da içerir; p20’deki “merhametle dolu” bu eylem yönünü bağlamda açabilir.
+**3. 1:1:p20:mapping:rahma_gloss_action_facet** — B001, tek başına “merhamet” glossunu dışlar; sözcük iyilik sonucunu göstermeyebilir. p20’deki “merhametle dolu” bu sözlük glossu değil, Rahmân’ı bağlamda betimleyen ifadedir.
 
 Arapça ve okuma:
 - `ٱلرَّحْمَٰنِ ٱلرَّحِيمِ` — al-Raḥmāni al-Raḥīm (1:1)
 - `الرَّحْمَةُ رِقَّةٌ تَقْتَضِي الْإِحْسَانَ إِلَى الْمَرْحُومِ` — al-raḥmatu riqqatun taqtaḍī al-iḥsāna ilā al-marḥūm (dictionary:root_000552/B001:الرحمة رقة تقتضي الإحسان إلى المرحوم)
 
-Kavramlar: Kavram karşılığı ve bağlam karşılığı (teaches), Görünmeyen anlam yönü (teaches), Açıklayıcı karşılık (teaches).
-Kaynaklar: input/dictionary/root_000552-B001.json#branch, input/dictionary/root_000552-B001.json#reviewed_glosses.concept_gloss, input/paragraphs/p20.md.
+Kavramlar: Kavram karşılığı ve bağlam karşılığı (teaches), Dışlanan karşılığın nedeni (teaches), Görünmeyen anlam yönü (reinforces).
+Kaynaklar: input/dictionary/root_000552-B001.json#branch, input/dictionary/root_000552-B001.json#reviewed_glosses.excluded[merhamet], input/dictionary/root_000552-B001.json#finalized_branch.glosses.contextual, input/paragraphs/p20.md.
 Dallar: root_000552/B001.
 
 ### p21
+
+_Authoring notes: grammar: Bu paragraftaki odak ("Rahîm" kelimesinin kalıbı ise bir niteliğin sürekli olarak birine yöneldiğini anlatır. Kur'an) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. mapping: Paragrafın odağı ("Rahîm" kelimesinin kalıbı ise bir niteliğin sürekli olarak birine yöneldiğini anlatır. Kur'an) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
 
 **1. 1:1:p21:semantics:rahim_human_and_divine_use** — رَحِيم (raḥīm) 9:128’de Peygamber, 33:43’te Allah için kullanılır; ortak sıfatın öznesi bağlamdan anlaşılır.
 
@@ -287,7 +327,9 @@ Kaynaklar: input/ayat/9-128.json#QAC, input/ayat/33-43.json#QAC.
 
 ### p22
 
-**1. 1:1:p22:grammar:rahmati_clause_roles** — رَحْمَتِي (raḥmatī) “rahmetim”deki -ī konuşana aitliği, وَسِعَتْ (wasiʿat) özneyi, كُلَّ شَيْءٍ (kulla shayʾ) ise “her şeyi” kapsamını gösterir.
+_Authoring notes: semantics: Paragrafın odağı (İki ad birlikte merhametin hem kaynağını hem de ulaştığı yeri gösterir: dolup taşan bir merhame) bu pasajda başka bir kök-dalı/kelime birimi karşılaştırması açmıyor; yerel semantik nokta mevcut derslerde zaten tutuldu. mapping: Paragrafın odağı (İki ad birlikte merhametin hem kaynağını hem de ulaştığı yeri gösterir: dolup taşan bir merhame) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
+
+**1. 1:1:p22:grammar:rahmati_clause_roles** — رَحْمَتِي (raḥmatī, rahmetim) iyelik ekiyle konuşana bağlanır ve ayetin öznesidir; وَسِعَتْ (wasiʿat, kuşattı) yüklemdir. كُلَّ شَيْءٍ (kulla shayʾ, her şeyi) onun doğrudan nesnesidir; ifade “rahmetim her şeyi kuşattı” der.
 
 Arapça ve okuma:
 - `وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍۢ` — ve-raḥmatī wasiʿat kulla shayʾin (7:156)
@@ -296,6 +338,8 @@ Kavramlar: İsme eklenen zamir (teaches), Fâil (teaches), Doğrudan nesne (teac
 Kaynaklar: input/ayat/7-156.json#QAC.
 
 ### p23
+
+_Authoring notes: mapping: Paragrafın odağı (Beşinci ayetin yardım isteyişi de bu adla buluşur. Peygamber, kendisini yalanlayanlar karşısınd) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
 
 **1. 1:1:p23:grammar:seek_help_forms** — نَسْتَعِينُ (nastaʿīn, yardım isteriz) çekimli muzâri fiildir; ٱلْمُسْتَعَانُ (al-mustaʿān, yardımı istenen) aynı kökten ism-i mefûldür.
 
@@ -321,6 +365,8 @@ Dallar: root_001064/B001.
 
 ### p24
 
+_Authoring notes: grammar: Bu paragraftaki odak (Kök kelime, bedenin içindeki bir yeri adlandırır) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. mapping: Paragrafın odağı (Kök kelime, bedenin içindeki bir yeri adlandırır) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
+
 **1. 1:1:p24:semantics:womb_and_mercy_branches** — B003’teki رَحِم (raḥim) karındaki çocuğun evi ve kabıdır; B001’deki رَحْمَة (raḥmah) ise ayrı bir merhamet dalıdır, ikisini tek sözlük anlamına indirmeyin.
 
 Arapça ve okuma:
@@ -333,19 +379,22 @@ Dallar: root_000552/B001, root_000552/B003.
 
 ### p25
 
+_Authoring notes: grammar: Bu paragraftaki odak (Türkçede "rahim" kelimesi hâlâ döl yatağı anlamındadır. Ama bu ayeti okuyan kulak "Rahîm" adınd) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. semantics: Paragrafın odağı (Türkçede "rahim" kelimesi hâlâ döl yatağı anlamındadır. Ama bu ayeti okuyan kulak "Rahîm" adınd) bu pasajda başka bir kök-dalı/kelime birimi karşılaştırması açmıyor; yerel semantik nokta mevcut derslerde zaten tutuldu._
+
 **1. 1:1:p25:mapping:rahim_current_branch_collision** — Türkçedeki “rahim” döl yatağıdır; 1:1’deki رَحِيم (raḥīm) ise B001’in merhamet dalındaki bir sıfattır, benzer yazılış iki anlamı birleştirmez.
 
 Arapça ve okuma:
 - `ٱلرَّحِيمِ` — al-Raḥīm (1:1)
-- `فَٱنظُرْ إِلَىٰٓ ءَاثَٰرِ رَحْمَتِ ٱللَّهِ` — fa-unẓur ilā āthāri raḥmati Allāh (30:50)
 - `الرَّحِمُ بَيْتُ مَنْبَتِ الْوَلَدِ وَوِعَاؤُهُ فِي الْبَطْنِ` — al-raḥimu baytu manbati al-waladi wa-wiʿāʾuhu fī al-baṭn (dictionary:root_000552/B003:الرحم بيت منبت الولد)
 - `الرَّحْمَٰنُ وَالرَّحِيمُ مُشْتَقَّانِ مِنَ الرَّحْمَةِ` — al-Raḥmānu wa-al-Raḥīmu mushtaqqāni mina al-raḥmah (dictionary:root_000552/B001:والرحمن الرحيم مشتقان من الرحمة)
 
 Kavramlar: Türkçe anlam çakışması (teaches), Kavram karşılığı ve bağlam karşılığı (teaches), Bağlamdaki anlam (reinforces).
-Kaynaklar: input/ayat/1-1.json#QAC, input/ayat/30-50.json#QAC, input/dictionary/root_000552-B001.json#branch, input/dictionary/root_000552-B003.json#branch.
+Kaynaklar: input/ayat/1-1.json#QAC, input/dictionary/root_000552-B001.json#branch, input/dictionary/root_000552-B003.json#branch.
 Dallar: root_000552/B001, root_000552/B003.
 
 ### p26
+
+_Authoring notes: grammar: Bu paragraftaki odak (Aynı kelime akrabalığı da anlatır. Bu anlamın kaynağı açıkça söylenir) sözlük anlamı, köken ya da anlatı yorumu; ayrıca öğretilmeye değer yeni bir biçim/cümle ilişkisi yok. mapping: Paragrafın odağı (Aynı kelime akrabalığı da anlatır. Bu anlamın kaynağı açıkça söylenir) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
 
 **1. 1:1:p26:semantics:kinship_from_shared_womb** — B002, “rahim”den “akrabalık” anlamına geçişi akrabaların tek rahimden gelmesiyle açıklar; 4:1’deki ٱلْأَرْحَامَ (al-arḥām) bu yerleşik ilişki anlamındadır.
 
@@ -358,6 +407,8 @@ Kaynaklar: input/ayat/4-1.json#QAC, input/dictionary/root_000552-B002.json#branc
 Dallar: root_000552/B002.
 
 ### p27
+
+_Authoring notes: semantics: Paragrafın odağı (Kur'an merhameti, rahim gibi içine girilen bir yer olarak da anlatır. Musa'nın yakarışı) bu pasajda başka bir kök-dalı/kelime birimi karşılaştırması açmıyor; yerel semantik nokta mevcut derslerde zaten tutuldu. mapping: Paragrafın odağı (Kur'an merhameti, rahim gibi içine girilen bir yer olarak da anlatır. Musa'nın yakarışı) için burada adı konmuş ayrı bir Türkçe karşılık veya gloss maliyeti yok; tarihsel iddia gerekiyorsa destekli derse eklenmedi._
 
 **1. 1:1:p27:grammar:fi_mercy_containment** — فِي رَحْمَتِكَ (fī raḥmatika) içindeki fī “içinde” ilişkisi kurar; 7:151’de Musa’nın duası “rahmetinin içine al” diye aktarılır, rahmet fiziksel bir kap değildir.
 

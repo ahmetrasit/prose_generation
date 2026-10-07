@@ -6,8 +6,14 @@ controls display, not discovery. A single observation may teach several related
 concepts from the same or different categories.
 
 This is a linguistic authoring workflow: prepare the passage and evidence, write
-through three perspectives, then edit and assemble. No runner, hashes, automated
-scoring, validation stages, quotas, or extra review agents are part of production.
+through three perspectives, edit and assemble, then review the finished teaching
+claims for linguistic correctness. Review returns a compact result per lesson;
+corrections stay local. No runner, hashes, automated scoring, mechanical validation
+stages or lesson quotas are part of production.
+
+The default is **Sol Max** (`gpt-6-sol`, reasoning effort `max`) for all model-assisted
+authoring stages. The user selected it after the 1:1 comparison; see the
+[runbook's model default](RUNBOOK.md#default-model).
 
 - [RUNBOOK.md](RUNBOOK.md): the complete authoring and display procedure.
 - [ONTOLOGY.md](ONTOLOGY.md): scope, hierarchy, multiple annotations, attachment
@@ -21,6 +27,8 @@ scoring, validation stages, quotas, or extra review agents are part of productio
 - [catalog/messages.tr.json](catalog/messages.tr.json): two shared reminder
   templates; no repeated per-concept messages.
 - [prompts/](prompts/): common, grammar, semantics, mapping, and assembly instructions.
+- [prompts/review.md](prompts/review.md): correctness of the finished lesson's
+  forms, grammar and meaning; compact `ok` / `flag` / `uncertain` results.
 - [schemas/](schemas/): a shared lesson contract and engine/page/learner contracts.
 - [examples/README.md](examples/README.md): a worked passage, all three engine
   outputs, assembled lessons, and editorial decisions, plus an evidence-gap case.
@@ -44,6 +52,21 @@ their reminders; they do not hide unseen lexical examples. Lesson exposure and
 message dismissal remain separate.
 
 ## Scope and readiness
+
+The workflow has completed a full 1:1 pilot. The preparation, shared authoring,
+grammar and assembly instructions now incorporate its concrete findings: retain
+meaning-bearing particles, distinguish stems/suffixes and lexical identities,
+explain unfamiliar terms, attach concepts to the actual teaching, resolve prose-only
+verse references, and present dictionary evidence compactly. Local error repair is
+part of the assembly/resolution steps in the runbook. The subsequent linguistic
+correctness review is now specified; its prompt has not yet been run.
+
+An [edited Sol Max example](tests/1-1-sol-high-vs-max/sol-max-edited/README.md)
+corrects eight identified lesson issues while preserving the original pilot.
+This is ready for continued linguistic calibration; the revised instructions have
+not yet been tested on varied passages, so readiness for generation at scale is
+not established. See the [pilot findings](tests/1-1-sol-high-vs-max/sol-comparison.md)
+and [measured usage/file sizes](tests/1-1-sol-high-vs-max/usage-and-size.md).
 
 The catalog is authored across the full defined reading scope from day one; it is
 not a seed that ordinary production must expand. Scope includes Quranic Arabic

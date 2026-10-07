@@ -10,6 +10,12 @@ Each model performs grammar, semantics, mapping, then assembly sequentially with
 
 Each completed folder contains the three engine outputs, assembled `page-output.json`, a readable `lessons.md`, and model-authored `run-notes.md`. Raw engine outputs remain available for assessing assembly decisions.
 
-Sol High and Sol Max are complete. Read the [Sol comparison](sol-comparison.md) and [recorded usage with cost estimates](sol-costs.json). Luna Max continues separately; its results will be reported when complete.
+All three conditions have saved their six deliverables and recorded completion. Read the [Sol comparison](sol-comparison.md), [Sol usage and cost estimates](sol-costs.json), [Luna comparison](luna-comparison.md), and [Luna usage and cost estimates](luna-costs.json). Luna's final completion event is 17:25:11 UTC.
+
+Subsequent editorial work is separate: [Sol Max edited copy](sol-max-edited/README.md)
+contains eight targeted lesson corrections and a preparation-reference note. These
+are not new model results. The workflow instructions were updated after the pilot;
+the original runs therefore do not test those revisions. [Usage and file sizes](usage-and-size.md)
+separates cumulative run tokens from stored artifacts.
 
 Recovery note: a server restart interrupted Luna before it saved deliverables. Its existing agent session was resumed at about 16:55 UTC with the original task unchanged; the saved model setting remains gpt-6-luna / max. Sol had already completed. Luna elapsed time and recorded usage must be interpreted with this interruption disclosed.

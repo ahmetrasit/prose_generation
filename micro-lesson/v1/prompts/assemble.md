@@ -8,6 +8,13 @@ This is the editorial step. Check each candidate against its expression, diction
 branch or other source, and what the beginner will understand. Smooth Turkish and
 combine supported wording; do not invent new linguistic claims to resolve gaps.
 
+As you edit, reread the actual teaching sentence beside its source: does the quoted
+span include the particle carrying its meaning, does each stem/suffix contribute
+what is claimed, and does the selected branch/gloss apply here? Then read it as a
+beginner: explain unfamiliar terms locally and attach only concepts the resulting
+words teach. A correct anchor, a gloss fit label, or an engine's confidence does
+not settle these questions. This is one editorial reading within assembly.
+
 Preserve every distinct worthwhile point. Merge only genuinely equivalent teaching
 observations, keeping one or two short sentences. Shared concepts, roots or words
 are not duplication. A single lesson can teach multiple concepts from any categories.
@@ -40,6 +47,14 @@ do not clear a disputed lesson. A faithfully qualified, supported alternative is
 different from a missing analysis. Preserve useful drafts for exceptional catalog
 gaps. If the evidence rejects an idea, keep a short rejection note instead of
 pretending that more waiting will resolve it.
+
+Correct a source-settled wording or annotation error directly, keeping the lesson
+ID. For a substantive correction, leave a brief paragraph note with the affected
+ID, what changed and the decisive source; ordinary style edits need no log. If a
+recurring misunderstanding appears, inspect other candidates using that same
+construction or lexical distinction and correct only those affected. Do not rerun
+unrelated engines. After assembly, the runbook's linguistic correctness review
+assesses the finished lessons using review.md.
 
 Preserve deferred records, proposals and input notes with engine attribution. For
 every missing engine/paragraph pair record what is missing. `completed_engines`

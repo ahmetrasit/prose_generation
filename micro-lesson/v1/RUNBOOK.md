@@ -1,5 +1,14 @@
 # Authoring workflow
 
+## Default model
+
+Use **Sol Max**: model `gpt-6-sol`, reasoning effort `max`, for grammar,
+semantics, mapping, assembly and linguistic correctness review, and for
+model-assisted evidence preparation.
+This is the user's selected workflow default following the
+[1:1 pilot](tests/1-1-sol-high-vs-max/sol-comparison.md).
+A different model or effort requires an explicit user instruction for that run.
+
 ## 1. Prepare the passage and its evidence
 
 Give the page a stable ID and its prose paragraphs stable IDs. Include headings and
@@ -9,7 +18,10 @@ Choose an actual reading text, not an execution log or an error saved as Markdow
 
 For each paragraph supply the focus ayah and the ayat it quotes, cites, or clearly
 discusses, with exact Arabic and available word/morpheme analysis. Resolve implicit
-references where possible. Do not pull in every ayah in a surah or automatic neighbors.
+references by reading the prose, not just its numeric citations: “the last word
+of the seventh ayah” in a Fatiha discussion points to 1:7. Record the resolved
+reference with that paragraph; if ambiguous, name the question rather than guess.
+Do not pull in every ayah in a surah or automatic neighbors.
 Include dictionary quotations actually discussed, clearly distinguished from ayat.
 
 Use a small Markdown packet, as in [examples/input.md](examples/input.md). It needs
@@ -45,6 +57,13 @@ neighbor distinctions, and per-gloss error profiles. Consult other branches when
 the teaching comparison needs them. Do not copy build metadata, hashes, rendering
 apparatus, or unrelated occurrence lists.
 
+Present this semantic content once per relevant branch, with source locators;
+do not repeat substantially identical upstream, finalized and reviewed projections.
+Keep any meaningful differences and their provenance explicit. Leave full source
+files accessible for consultation, rather than pasting them into every engine's
+context. Select additional branches for actual paragraph uses or comparisons,
+not simply because they belong to a root already mentioned.
+
 The encyclopedia `error_profile` supplies `fit`, `preserves`, `loses`, `adds`, and
 `collision`. Compact reviewed glosses use `error` with `fit`, `loses_facet_ids`,
 `adds`, `collision`, and `reason`; interpret facet IDs with their source definitions
@@ -68,8 +87,8 @@ for candidate attachments. Consult introductory examples when setting prerequisi
 No engine is restricted to concepts from its namesake category.
 
 The engines are grammar, semantics, and mapping. They may be run sequentially or
-concurrently by an authorized operator; this workflow neither launches agents nor
-prescribes models. Several paragraphs can share a call. Each engine returns
+concurrently by an authorized operator using the model default above; this workflow
+does not launch agents. Several paragraphs can share a call. Each engine returns
 `schemas/engine-output.schema.json`, including each assigned paragraph even when
 it found no lesson. Empty output needs a brief reason, not a made-up observation.
 
@@ -95,6 +114,11 @@ Keep all justified annotations from the retained wording, regardless of category
 or engine; never blindly union tags from removed prose. Record absorbed IDs only
 when a merge occurred. Preserve an existing published survivor's ID when possible.
 
+During that reading, check the learner sentence's quoted span and word parts,
+the local applicability of its branch/gloss, and whether a beginner can understand
+its terms. Then judge the annotations against the final wording. Complete Arabic
+in an anchor cannot compensate for a dropped negative particle in the lesson.
+
 Read across neighboring paragraphs for repetition. When the same observation on
 the same occurrence is repeated, attach the survivor to the paragraph where it
 helps most. Keep a second occurrence when it supplies a meaningful application or
@@ -113,7 +137,30 @@ Preserve engine notes and identify any missing engine/paragraph combination.
 `completed_engines` lists only engines covering every assigned paragraph, even
 where their lesson lists are empty. Never label a partial example a complete pass.
 
-## 4. Resolve only what remains open
+## 4. Review the finished lessons for linguistic correctness
+
+Use [prompts/review.md](prompts/review.md) in a fresh context after assembly.
+One review run reads every displayable lesson in the ayah-based file. Supply the
+finished output and access to the relevant Arabic, morphology and lexical evidence;
+consult commentary only when needed for context. Earlier engine drafts and author
+reasoning are unnecessary.
+
+The review assesses the truth of the lesson's linguistic claims: forms, readings,
+grammatical assignments, meanings, derivations and generalizations. It does not
+audit generation procedure or reassess ontology placement, style or coverage.
+Return a compact line per lesson ID: `ok`, `flag` with correction and linguistic
+basis, or `uncertain` with the precise open question. Save it beside the page as
+`linguistic-review.md`; the reviewer leaves the lesson file unchanged.
+
+Repair flagged lessons through step 5 and recheck only the changed lessons with
+the same prompt. Resolve uncertain claims before display, or move the affected
+lesson to `deferred`. A newly completed deferred lesson also receives this review.
+Keep the current result for each lesson in the same review file. An `ok` means no
+error was found against the available evidence, not a guarantee of correctness.
+
+The review prompt has been authored; it has not yet been run on the pilot outputs.
+
+## 5. Resolve only what remains open
 
 Every deferred record retains its anchor, opportunity, blocker, and a concrete
 question to resolve. For a catalog gap, also preserve any supported draft and a
@@ -128,8 +175,17 @@ short proposed concept definition with plausible parents. Do not invent an ID.
 
 Reassemble only affected paragraphs, checking any repetition with their neighbors.
 An idea that evidence disproves is rejected in an editorial note, not kept forever
-as a pending claim. No status database, rerun of all engines, or second reviewer
-stage is needed.
+as a pending claim. Keep repair local; no status database or rerun of all engines
+is needed. The correctness review in step 4 checks the repaired teaching claims.
+
+The same local repair applies to errors found after assembly. For a source-settled
+error, correct the lesson directly, preserving its ID, and leave a brief paragraph
+note naming the lesson, correction and source. If its central claim is unresolved,
+defer it; if disproved, reject it. Inspect other lessons using the same construction
+or lexical distinction when the error suggests a repeated misunderstanding. Update
+the relevant prompt only for a reusable lesson from the error. Regenerate any
+reader-facing rendering of the affected page from the corrected output. Keep
+benchmark originals intact and make their editorial corrections separately.
 
 ## Learning and reminders in the application
 

@@ -2,7 +2,7 @@
 
 Both completed the full 27-paragraph base reading. Max's strongest observed gain was reconciling dictionary evidence and distinguishing more local opportunities. It was not consistently more accurate at grammatical explanation. Neither output should be published untouched. This is one qualitative pilot, not a measured general ranking of the models.
 
-Read the actual outputs: [High lessons](sol-high/lessons.md), [Max lessons](sol-max/lessons.md). Their JSON pages and three discovery outputs are in the same folders. This comparison leaves those results unchanged. Luna Max is running separately and is not included in this Sol comparison.
+Read the actual outputs: [High lessons](sol-high/lessons.md), [Max lessons](sol-max/lessons.md). Their JSON pages and three discovery outputs are in the same folders. This comparison leaves those results unchanged. Luna Max is not included in this Sol comparison; its completed results are assessed in [the Luna comparison](luna-comparison.md).
 
 ## Recorded usage and estimated cost
 
