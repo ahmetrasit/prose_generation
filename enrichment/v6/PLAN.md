@@ -1,5 +1,7 @@
 # Enrichment v6: corpus index first, script routing, grouped writers
 
+Status 2026-10-07: **superseded by `enrichment/v7/PLAN.md`** (verse digests first, no cross-reference cap). Nothing here was built.
+
 Status 2026-10-06: **plan only; nothing built, nothing spawned.** Each step needs the user's go.
 Read first: `enrichment/v5/REPORT_2026-10-06.md` (findings, review of v3/v4/v5, measurements).
 
