@@ -80,6 +80,8 @@ def audit(d: Path, targets: list[str] | None = None) -> tuple[list[str], list[st
     calls = json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
     bad, denied = [], []
     for c in calls:
+        if c.get("name", "Bash") != "Bash":  # reads and writes are checked by agentrun's rule, not here
+            continue
         cmd = str((c.get("input") or {}).get("command", ""))
         if c.get("is_error") and DENIED in str(c.get("result", "")):
             denied.append(cmd)
