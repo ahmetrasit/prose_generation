@@ -1,0 +1,12 @@
+- memory: wa- here is the oath particle; al-ʿaṣr in genitive after it
+- memory: yataḥallab evokes flowing as in milking (ḥ-l-b)
+- memory: al-manjūd = one overwhelmed, in distress
+- memory: the poem line implies water itself chokes him, no remedy left
+- memory: yuʿṣar bihā in the armour phrase read as "protected by them"
+- not written: B003 recorded rain reading of 12:49 - vowels not supplied, cannot quote safely
+- not written: B011 karīm al-muʿṣir (generous when asked) - adds nothing beyond B007 giving
+- not written: B012 lowly clients - rank contrast belongs to the surah scene, no theme in this ayah alone
+- not written: B013 a tree - bare name, no work
+- not written: B015 breaking wind - no theme
+- not written: B016 turbans / black clothes - only the armour sense joins the refuge theme
+- not written: 38:31-32 horses shown at ʿashī - the hidden referent is unclear in the text
