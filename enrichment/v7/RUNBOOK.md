@@ -121,5 +121,12 @@ One run per scope, for example `s103-1` for the 103:1 page. Earlier runs:
 |---|---|
 | `test-20261007` | 100:1 and 87:6 own material; tier 2 for both verses |
 | `pilot100-20261007` | 100:1 page's cited verses; built, **not run; do not run it** (superseded: later runs digest those segments with `--skip-done`) |
+| `s103-1` | 103:1 page's own and cited verses; tier 1 complete |
+| `s103-23` | 103:2–3 references; tier 1 complete |
+| `s1_87_114` | All 295 own ayat of S1 and S87–114; tier 1 complete (264 chunks) |
+| `s12_17_19` | All 430 own ayat of S12 and S17–19; tier 1 built, **not run** (391 chunks) |
 
 `--skip-done` makes later runs skip whatever earlier runs digested.
+When building while an unrelated run is still rewriting output files, first verify that the two runs have no
+source-segment overlap, then pass `--skip-done-exclude-run <active-run>` so the build does not read those transient
+files. The excluded run is recorded in the new manifest.

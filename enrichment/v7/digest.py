@@ -151,6 +151,8 @@ def build(a):
     if a.skip_done:
         done = {}
         for f in sorted((V7 / 'work').glob(f'*/out/{a.skip_done}/c*.jsonl')):
+            if f.parts[-4] in getattr(a, 'skip_done_exclude_run', []):
+                continue
             for line in f.read_text().splitlines():
                 if line.strip():
                     done.setdefault(json.loads(line)['loc'], f.parts[-4])
@@ -201,7 +203,9 @@ def build(a):
             f.write_text(text)
             spawns.append(str(f.relative_to(ROOT)))
         (d / 'out' / tag).mkdir(parents=True)
-    dump(d / 'manifest.json', {'run': a.run, 'ayat': a.ayat, 'models': a.models, 'chunk_chars': CHUNK_CHARS,
+    dump(d / 'manifest.json', {'run': a.run, 'ayat': a.ayat, 'models': a.models,
+                               'skip_done_exclude_run': getattr(a, 'skip_done_exclude_run', []),
+                               'chunk_chars': CHUNK_CHARS,
                                'chunks': plan, 'skipped': skipped, 'spawn': spawns})
     total = sum(c['chars'] for c in plan)
     print(f'{len(segments)} segments, {len(plan)} chunks, {total:,} characters, {len(spawns)} spawn files')
@@ -361,6 +365,8 @@ def main():
     p.add_argument('--ayah')
     p.add_argument('--models', nargs='+', required=True)
     p.add_argument('--skip-done', metavar='TAG', help='skip segments already digested by this model tag in any run')
+    p.add_argument('--skip-done-exclude-run', action='append', default=[], metavar='RUN',
+                   help='exclude an active, disjoint run whose output files may be changing')
     p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--chunk', type=int)
     p = sub.add_parser('report'); p.add_argument('run')
     a = parser.parse_args()
