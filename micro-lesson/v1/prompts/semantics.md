@@ -21,7 +21,9 @@ entry into a sequence of repetitive comments or teach an unattested paradigm.
 
 Use Arabic quotations exactly from their supplied sources. Dictionary forms outside
 the paragraph's ayat may support analysis and can be identified as dictionary
-illustrations, but never become invented verse examples. Do not import unrelated ayat.
+illustrations, but never become invented verse examples. Retrieve Quranic examples
+of related uses, forms or boundaries when they develop the word introduced by the
+paragraph. Cite them as supporting comparisons and explain their own local meanings.
 
 A vivid root image can help; it cannot replace the attested local meaning. For a
 qualified alternative, teach the qualified relationship only if it fits clearly

@@ -18,10 +18,16 @@ Fiil kişiler arasında da ince bir yer değiştirme yapar. Beşinci ayette "sen
 
 İkinci kelime {ar:ٱلصِّرَٰطَ, tr:es-sırât, gloss:yol} yol demektir; Râgıb onu özellikle "dosdoğru yol" diye tanımlar. Sözlükler kelimeyi üç söyleyişle kaydeder: sırât, sirât ve zırât. Kıraatler arasında da s ile okuyuş ve z'ye çalan bir okuyuş vardır.
 
-Context: p09 discusses the shift from the speaking “we” in 1:5 to the object “us”
-in 1:6. p12 introduces the road word in 1:6. The following paragraph discusses an
-etymological proposal; that proposal is not assigned as another teaching paragraph
-in this fixture. No comparison with other ayat is needed for these two paragraphs.
+Evidence scope:
+
+- p09: focus 1:6, with ihdi and -nâ; comparison 1:5, with the two iyyâke expressions
+  and the person marking in naʿbüdü/nestaʿîn. “Beşinci ayette” resolves to 1:5 in this
+  Fatiha discussion; “şimdi” refers to the focus 1:6.
+- p12: focus 1:6, with ṣirâṭ and its following adjective. The ṣ/s/z expressions are
+  dictionary forms; their attribution to a Quranic reading needs separate evidence.
+
+The following paragraph discusses an etymological proposal; it is outside this
+fixture's assignment. No comparison with other ayat is needed for these two paragraphs.
 
 ## Local ayat
 

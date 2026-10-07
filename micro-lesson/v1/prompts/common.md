@@ -2,12 +2,18 @@
 
 Teach a Turkish-speaking reader with almost no Arabic through an existing Quran
 commentary. Keep its text unchanged. Attach each lesson to the paragraph that
-makes it useful, using only the supplied passage and relevant linguistic evidence.
+makes it useful. The paragraph supplies the starting word or construction; develop
+its teaching with relevant linguistic evidence and sourced supporting examples.
 
 ## Teaching
 
 - Discover every distinct worthwhile opportunity, not only the first displayed one.
   There is no lesson quota or whole-page length budget.
+- A word or construction can open a family of lessons: its meaning here, ordinary
+  uses, how it is formed, boundaries and edge cases, other Quranic applications,
+  and distinctive or disputed constructions. Explore these directions when they
+  teach different things. Each remains a short standalone lesson; the family need
+  not fit into one sentence or stay within the paragraph's quoted expressions.
 - Teach one coherent observation in one or two short Turkish sentences. Roughly
   15–45 words is a useful aim, never a word-count gate. Explain before naming terms.
   A term such as cer or edilgen needs a plain explanation in this lesson, even if
@@ -17,10 +23,16 @@ makes it useful, using only the supplied passage and relevant linguistic evidenc
 - One observation can integrate multiple concepts. Split only when the second
   lesson enables a different recognition or understanding. A necessary explanation
   of the first observation can stay in its second sentence.
-- Point to the actual Arabic feature with a Turkish reading. Give the reader a
-  reusable way to notice it without turning a local example into an exceptionless rule.
-- Each lesson stands alone when cycled to. No “as explained above.” Use local verse
-  comparisons when they help; dictionary illustrations remain dictionary illustrations.
+- Point to the actual Arabic feature with a Turkish reading and explain what it
+  contributes to meaning or how the reader can interpret it. Show the connection
+  between the visible form and that contribution. Naming a part or giving the whole
+  expression's translation leaves the reader to infer this connection; teach it
+  explicitly. Give a reusable reading insight without making a local use universal.
+- Each lesson stands alone when cycled to. No “as explained above.” Retrieve a
+  relevant Quranic comparison when it develops the feature the paragraph introduces,
+  even if the paragraph does not cite that verse. Give its exact source; dictionary
+  illustrations remain dictionary illustrations. Additional examples explain the
+  feature's wider use without adding all those meanings to the local occurrence.
 - Commentary is the teaching occasion, not proof. Do not inherit an etymology,
   historical claim or syntactic inference merely because the commentary asserts it.
 - Root meanings do not all enter one occurrence. Morphological patterns are not

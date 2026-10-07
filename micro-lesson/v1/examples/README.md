@@ -11,6 +11,19 @@ All three engines cover both assigned paragraphs, p09 and p12. This makes their
 assembly a complete three-perspective example for that bounded input. Independent
 production should still discover its own worthwhile observations without a quota.
 
+For the 1:1 particle lesson, “bi- ilişki kurar” needs an explanation of that relation:
+“بِسْمِ (bi-smi) sözünde ism ‘ad’dır; bi- burada ‘ile’ ilişkisini ekleyerek ‘adıyla’
+anlamını kurar. Türkçe bu ilişkiyi ad-ıyla sözünün sonunda, Arapça ise bi-ism sözünün
+başında gösterir.” This uses the familiar Turkish suffix to explain the Arabic
+particle's contribution and position, rather than leaving the reader to infer them
+from the whole phrase's translation. The observation belongs to word parts and the
+local bi- relation (`ML:C001`, `ML:C184`); it does not make every bi- mean “ile.”
+
+[bi-lesson-family.md](bi-lesson-family.md) develops that starting expression into
+separate lessons on use, case, translation boundaries, Quranic comparisons and
+the special kafā bi-llāh construction. It shows the intended breadth through
+actual teaching sentences and sourced examples, without a lesson quota.
+
 ## Editorial decisions
 
 - The grammar imperative/prayer candidate and the mapping prayer-function candidate
@@ -34,6 +47,11 @@ production should still discover its own worthwhile observations without a quota
   lessons. The supported lexical-variant observation remains teachable.
 - Reading the word in isolation versus in connection with its adjective accounts for
   the displayed final vowel. This is not explained as a root difference.
+- Assembly replaces unexplained “nesne zamiri” and “nasb uyumu” with the local
+  participant relation and visible word features. The adjective lesson retains its
+  noun/adjective and agreement annotations; the now-unneeded background reminders
+  are removed. The pause/connection lesson drops the nasb claim and its annotation,
+  so its level becomes 1. The engine drafts show the wording before these edits.
 
 The evidence-gap exercise has its own [input](deferred-input.md) and
 [output](deferred-output.json). It illustrates retaining an exact unresolved question

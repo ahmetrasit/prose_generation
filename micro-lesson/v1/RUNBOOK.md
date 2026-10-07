@@ -16,19 +16,31 @@ neighboring paragraphs as context. Numbered v16 augment additions belong to thei
 parent paragraph; make that grouping explicit. Keep the original commentary unchanged.
 Choose an actual reading text, not an execution log or an error saved as Markdown.
 
-For each paragraph supply the focus ayah and the ayat it quotes, cites, or clearly
-discusses, with exact Arabic and available word/morpheme analysis. Resolve implicit
-references by reading the prose, not just its numeric citations: “the last word
-of the seventh ayah” in a Fatiha discussion points to 1:7. Record the resolved
-reference with that paragraph; if ambiguous, name the question rather than guess.
-Do not pull in every ayah in a surah or automatic neighbors.
+Read each paragraph for the expressions it quotes, compares or describes, including
+pronouns and references such as “the seventh ayah” or “the preceding command.”
+Supply the focus ayah and the ayat actually discussed, with exact Arabic and
+available word/morpheme analysis. Beside the paragraph, briefly identify its local
+expressions and references; explain a prose-only resolution when it is not obvious.
+For example, p14 of the 1:1 pilot discusses “the last word of the seventh ayah,”
+so its scope includes 1:7 even without a numeric citation. If the reference is
+ambiguous, retain the phrase and the specific question rather than guess.
 Include dictionary quotations actually discussed, clearly distinguished from ayat.
+Select evidence from this reading; do not pull in an entire surah or automatic neighbors.
+
+The prose is the starting point for discovery. Add targeted supporting ayat or
+grammatical sources when a feature opens useful lessons about its wider use,
+construction, boundary or distinctive Quranic applications. Distinguish these
+supporting examples from references actually made by the paragraph. Preparation
+and the engines may retrieve them as opportunities emerge; the frozen prose does
+not limit teaching to the verses it already quotes.
 
 Use a small Markdown packet, as in [examples/input.md](examples/input.md). It needs
 the paragraph, its local expressions, relevant analysis and compact source locators;
 there is no input schema or mechanical preparation gate. All engines share the same
 passage and resolved word identities. They can read different relevant evidence
-sections without copying unrelated dictionary material into every context.
+sections without copying unrelated dictionary material into every context. Keep
+meaning-bearing particles and the words they govern together in the local expression;
+when word parts matter, show which contribution belongs to the stem and which to an affix.
 
 Sources, relative to this repository root:
 
@@ -57,6 +69,17 @@ neighbor distinctions, and per-gloss error profiles. Consult other branches when
 the teaching comparison needs them. Do not copy build metadata, hashes, rendering
 apparatus, or unrelated occurrence lists.
 
+For a grammatical particle, consult a relevant grammatical account and Quranic
+examples for its functions and special constructions. A root/branch lookup is
+for lexical evidence, not a prerequisite for explaining a rootless particle.
+
+Connect that content to the exact occurrence: give its word locator, the reviewed
+binding's scope, and the branch or lexical unit that fits its form and use. Explain
+only a non-obvious selection or qualification. If a lexical-unit binding is absent,
+use supported branch-level evidence and name any claim that still needs the binding;
+do not assign a unit by resemblance. A root match alone does not establish branch
+applicability. Resolving p14 to 1:7 likewise does not prove its camel image lexically.
+
 Present this semantic content once per relevant branch, with source locators;
 do not repeat substantially identical upstream, finalized and reviewed projections.
 Keep any meaningful differences and their provenance explicit. Leave full source
@@ -64,11 +87,16 @@ files accessible for consultation, rather than pasting them into every engine's
 context. Select additional branches for actual paragraph uses or comparisons,
 not simply because they belong to a root already mentioned.
 
+If definitions, boundaries or gloss applicability disagree across source versions,
+state the exact difference beside that branch and keep the source locators distinct.
+Carry qualifications into the compact selection; a later file or a reviewed label
+does not settle a disagreement. Interpret facet IDs against the definitions in the
+source version used by that gloss, consulting the source when the correspondence is unclear.
+
 The encyclopedia `error_profile` supplies `fit`, `preserves`, `loses`, `adds`, and
 `collision`. Compact reviewed glosses use `error` with `fit`, `loses_facet_ids`,
-`adds`, `collision`, and `reason`; interpret facet IDs with their source definitions
-and roles. These are two source shapes for linguistic evidence, not two authoring
-passes. A recorded loss can concern a specialization or source variant that is not
+`adds`, `collision`, and `reason`. These are two source shapes for linguistic evidence,
+not two authoring passes. A recorded loss can concern a specialization or source variant that is not
 required in this occurrence. Never copy a fit label directly into a verdict on the ayah.
 
 Name the exact gloss being discussed. Also include the commentary's Turkish phrase
@@ -97,6 +125,13 @@ one coherent point, and one or two short Turkish sentences. Several ontology
 annotations can describe that point. Do not split one explanatory contrast simply
 to make one lesson per keyword. Conversely, an unrelated second point is a new lesson.
 
+Develop families of distinct lessons around a useful word or construction. A bi-
+paragraph can occasion separate lessons on its local meaning, ordinary uses,
+attachment and case, gloss boundaries, Quranic contrasts and special constructions.
+Use sourced comparisons beyond the paragraph where they teach those distinctions.
+Keep the family attached to its teaching occasion and each lesson understandable
+alone; one or two sentences per lesson does not restrict the family's breadth.
+
 When revising an existing page, supply its prior lessons and keys. Retain keys for
 wording edits, and give a changed teaching point a new key. Do not derive identity
 from rank. Retain paragraph IDs on resegmentation or record an explicit old/new map.
@@ -114,10 +149,19 @@ Keep all justified annotations from the retained wording, regardless of category
 or engine; never blindly union tags from removed prose. Record absorbed IDs only
 when a merge occurred. Preserve an existing published survivor's ID when possible.
 
-During that reading, check the learner sentence's quoted span and word parts,
-the local applicability of its branch/gloss, and whether a beginner can understand
-its terms. Then judge the annotations against the final wording. Complete Arabic
-in an anchor cannot compensate for a dropped negative particle in the lesson.
+Use the editorial reading in `prompts/assemble.md` to settle beginner wording,
+annotations, prerequisites, attachment and repetition as well as source support.
+The later correctness review does not assess those editorial decisions. Each lesson
+must make its observation understandable when displayed alone; an earlier lesson
+or a reminder cannot substitute for explaining its unfamiliar terms. Choose concept
+roles from the finished wording and each concept's boundary, then set reminders and
+level from the knowledge that wording actually assumes.
+
+Read the paragraph itself alongside the candidates. If this exposes a worthwhile
+omission, return that paragraph and its relevant evidence to the appropriate discovery
+engine and assemble the local addition. Repair missing evidence in the shared packet
+before requesting the affected discovery. This is local follow-up, not a fresh page
+pass or a quota; three returned paragraph lists do not establish exhaustive discovery.
 
 Read across neighboring paragraphs for repetition. When the same observation on
 the same occurrence is repeated, attach the survivor to the paragraph where it

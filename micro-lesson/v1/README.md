@@ -5,6 +5,11 @@ reads an ayah or surah commentary. Discover all worthwhile opportunities; rankin
 controls display, not discovery. A single observation may teach several related
 concepts from the same or different categories.
 
+The prose can open a family of distinct lessons about a word or construction:
+meaning, ordinary uses, grammatical behavior, boundaries and distinctive Quranic
+applications. Relevant sourced examples may come from outside the prose's cited
+ayat. Commentary stays frozen; the teaching develops the feature it introduces.
+
 This is a linguistic authoring workflow: prepare the passage and evidence, write
 through three perspectives, edit and assemble, then review the finished teaching
 claims for linguistic correctness. Review returns a compact result per lesson;
