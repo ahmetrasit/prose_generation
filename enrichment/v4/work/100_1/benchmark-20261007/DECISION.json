@@ -1,0 +1,67 @@
+{
+  "unit": "100_1",
+  "status": "completed",
+  "decided_at": "2026-10-07T01:15:45.483763+00:00",
+  "agents_completed": 16,
+  "frozen_paragraphs": 22,
+  "input_sha256": "bf349bf1e886d71be82ea577934408ac6800edea4a97d123bed010efbf9c1a6d",
+  "winners": [
+    {
+      "family": "rivayet",
+      "model": "gpt-6-sol",
+      "effort": "max",
+      "evidence_mode": "corpus",
+      "cost_usd": 1.526024
+    },
+    {
+      "family": "historical",
+      "model": "gpt-6-sol",
+      "effort": "max",
+      "evidence_mode": "corpus",
+      "cost_usd": 1.140643
+    },
+    {
+      "family": "poetry",
+      "model": "gpt-6-sol",
+      "effort": "max",
+      "evidence_mode": "corpus",
+      "cost_usd": 1.737111
+    },
+    {
+      "family": "meal",
+      "model": "gpt-6-sol",
+      "effort": "max",
+      "evidence_mode": "corpus",
+      "cost_usd": 2.244819
+    }
+  ],
+  "selected_cost_usd": 6.6485970000000005,
+  "full_benchmark_cost_usd": 24.991561,
+  "cost_scope": "Standard API-equivalent research-agent usage; parent excluded",
+  "scope_limit": "Four-family pilot on one additional frozen ayah page; no universal 19-family result or update to the approved memory-only allocation",
+  "method": "All blocks/ledgers read; specific gains and misses compared; targeted semantic checks; anchor/schema audits",
+  "confound": "Across Sol/Astra, model and evidence access both change. Effort alone is isolated within a model/evidence pair. No replicated-run experiment.",
+  "winner_omissions": {
+    "rivayet": [
+      "Ibn Kathir physical-to-spiritual paths at 16:9",
+      "Durr one-horse transmission retained by Sol high"
+    ],
+    "historical": [
+      "Wahidi embedded 2:194 Hudaybiyya/next-year umra context",
+      "Sol high named three Badr horses"
+    ],
+    "poetry": [
+      "Imru al-Qays consecutive hunt and Zawzani gloss",
+      "Hamasa nufus=blood gloss"
+    ],
+    "meal": [
+      "Most unfamiliar/off-corpus works and possible edition variants remain untested; complete translator-error claims require further repeated evidence"
+    ]
+  },
+  "memory_errors": [
+    "Astra high and max: TDV 38:32 motive contradicted by available named copies",
+    "Astra high: TDV 38:33 striking contradicted by official and DUZ copies",
+    "Astra max: Turkish Asad 16:8 yaratacak contradicted by available yaratmaktadır witness"
+  ],
+  "future_hybrid": "Memory leads plus source verification is a proposal, not an evaluated or launched workflow"
+}

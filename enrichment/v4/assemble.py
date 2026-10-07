@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT / 'enrichment/v3'))
 import pilot
 import corpus_read
 from memory_assemble import FAMILIES
-from corpus_read import WORK, body, connect, eligible, family_config
+from corpus_read import WORK, connect, contains_anchor, eligible, family_config
 
 
 def rows(path):
@@ -27,10 +27,14 @@ def compact(text):
 def main():
     global WORK
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--unit', choices=('1_6', '87_6'), default='1_6')
+    parser.add_argument('--unit', choices=('1_6', '87_6', '100_1'), default='1_6')
+    parser.add_argument('--run-date', default='20261006')
+    parser.add_argument('--families', nargs='+', choices=tuple(FAMILIES))
     parser.add_argument('--lane', choices=('sol-max', 'sol-high'), default='sol-max')
     args = parser.parse_args()
-    WORK = ROOT / f'enrichment/v4/work/{args.unit}/corpus-{args.lane}-20261006'
+    if not re.fullmatch(r'\d{8}', args.run_date):
+        parser.error('--run-date must be YYYYMMDD')
+    WORK = ROOT / f'enrichment/v4/work/{args.unit}/corpus-{args.lane}-{args.run_date}'
     corpus_read.WORK = WORK
     pilot.BASE = WORK / 'frozen.reading.tr.md'
     frozen, paragraphs = pilot.prose()
@@ -39,7 +43,8 @@ def main():
     seen = set()
     count = 0
     with connect() as con:
-        for family in FAMILIES:
+        families = args.families or list(FAMILIES)
+        for family in families:
             config = family_config(family)
             blocks = rows(WORK / family / 'blocks.jsonl')
             ledger = rows(WORK / family / 'ledger.jsonl')
@@ -65,7 +70,7 @@ def main():
                     row = con.execute('SELECT seg,src,head,text,extra FROM seg WHERE seg=?', (loc,)).fetchone()
                     if not row or row[1] not in eligible(config):
                         raise ValueError(f'{identifier}: unavailable or out-of-family evidence {loc}')
-                    if len(anchor.strip()) < 8 or compact(anchor) not in compact(body(row, config)):
+                    if not contains_anchor(row, config, anchor):
                         raise ValueError(f'{identifier}: supporting anchor not found in {loc}')
                     cited.add(row[1])
                 if set(block['sources']) != cited:
@@ -88,7 +93,8 @@ def main():
     pieces, at = [], 0
     for p, (_, end) in paragraphs.items():
         sections = []
-        for family, title in FAMILIES.items():
+        for family in families:
+            title = FAMILIES[family]
             blocks, related = primary[p, family], links[p, family]
             if not blocks and not related:
                 continue
@@ -112,7 +118,7 @@ def main():
              'Bulunamayan katkılar yalnız incelenen malzemeyle sınırlıdır; tarihsel yokluk veya yenilik iddiası değildir.\n\n')
     target = WORK / f'{args.unit}.enriched.tr.md'
     target.write_bytes((intro + rendered).encode())
-    print(f'19 families; {count} blocks; source anchors and ledger links checked; frozen bytes preserved; {target}')
+    print(f'{len(families)} families; {count} blocks; source anchors and ledger links checked; frozen bytes preserved; {target}')
 
 
 if __name__ == '__main__':

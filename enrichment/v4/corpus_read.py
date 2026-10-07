@@ -79,6 +79,14 @@ def body(row, config):
     return '\n\n'.join(parts)
 
 
+def contains_anchor(row, config, anchor):
+    """The read helper exposes both headings and bodies; some headings hold prose."""
+    compact = lambda value: re.sub(r'\s+', ' ', value or '').strip()
+    return len(anchor.strip()) >= 8 and any(
+        compact(anchor) in compact(part) for part in (row[2], body(row, config))
+    )
+
+
 def get(con, config, locator, start):
     row = con.execute('SELECT seg,src,head,text,extra FROM seg WHERE seg=?', (locator,)).fetchone()
     if not row or row[1] not in eligible(config):
@@ -119,7 +127,8 @@ def search(con, config, query, source, offset, limit):
 def main():
     global WORK
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--unit', choices=('1_6', '87_6'), default='1_6')
+    parser.add_argument('--unit', choices=('1_6', '87_6', '100_1'), default='1_6')
+    parser.add_argument('--run-date', default='20261006')
     parser.add_argument('--lane', choices=('sol-max', 'sol-high'), default='sol-max')
     parser.add_argument('family')
     sub = parser.add_subparsers(dest='command', required=True)
@@ -131,7 +140,9 @@ def main():
         p = sub.choices[name]
         p.add_argument('--offset', type=int, default=0); p.add_argument('--limit', type=int, default=12)
     args = parser.parse_args()
-    WORK = ROOT / f'enrichment/v4/work/{args.unit}/corpus-{args.lane}-20261006'
+    if not re.fullmatch(r'\d{8}', args.run_date):
+        parser.error('--run-date must be YYYYMMDD')
+    WORK = ROOT / f'enrichment/v4/work/{args.unit}/corpus-{args.lane}-{args.run_date}'
     config = family_config(args.family)
     with connect() as con:
         if args.command == 'get':

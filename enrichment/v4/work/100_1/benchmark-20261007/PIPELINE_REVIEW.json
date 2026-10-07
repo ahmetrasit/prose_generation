@@ -1,0 +1,184 @@
+{
+  "reviewed_at": "2026-10-07T01:16:56.731166+00:00",
+  "review_scope": "Read-only audit of quoted packet/extractor/writer proposal; no new model agents or workflow launched",
+  "reference_occurrences": 211,
+  "distinct_expanded_verses": 171,
+  "distinct_cited_segments": 933,
+  "family_index_coverage": [
+    {
+      "family": "academic",
+      "cited_segments": 36,
+      "cited_segments_reachable_by_verse_index": 29,
+      "recall_of_cited_reference_set": 0.8055555555555556
+    },
+    {
+      "family": "analytical",
+      "cited_segments": 69,
+      "cited_segments_reachable_by_verse_index": 69,
+      "recall_of_cited_reference_set": 1.0
+    },
+    {
+      "family": "bayani",
+      "cited_segments": 40,
+      "cited_segments_reachable_by_verse_index": 31,
+      "recall_of_cited_reference_set": 0.775
+    },
+    {
+      "family": "classical-coherence",
+      "cited_segments": 41,
+      "cited_segments_reachable_by_verse_index": 37,
+      "recall_of_cited_reference_set": 0.9024390243902439
+    },
+    {
+      "family": "grammar",
+      "cited_segments": 72,
+      "cited_segments_reachable_by_verse_index": 66,
+      "recall_of_cited_reference_set": 0.9166666666666666
+    },
+    {
+      "family": "hadith",
+      "cited_segments": 35,
+      "cited_segments_reachable_by_verse_index": 0,
+      "recall_of_cited_reference_set": 0.0
+    },
+    {
+      "family": "historical",
+      "cited_segments": 28,
+      "cited_segments_reachable_by_verse_index": 9,
+      "recall_of_cited_reference_set": 0.32142857142857145
+    },
+    {
+      "family": "imami-mutazili",
+      "cited_segments": 64,
+      "cited_segments_reachable_by_verse_index": 59,
+      "recall_of_cited_reference_set": 0.921875
+    },
+    {
+      "family": "ishari",
+      "cited_segments": 62,
+      "cited_segments_reachable_by_verse_index": 59,
+      "recall_of_cited_reference_set": 0.9516129032258065
+    },
+    {
+      "family": "kessaf",
+      "cited_segments": 83,
+      "cited_segments_reachable_by_verse_index": 80,
+      "recall_of_cited_reference_set": 0.963855421686747
+    },
+    {
+      "family": "meal",
+      "cited_segments": 111,
+      "cited_segments_reachable_by_verse_index": 111,
+      "recall_of_cited_reference_set": 1.0
+    },
+    {
+      "family": "modern-coherence",
+      "cited_segments": 14,
+      "cited_segments_reachable_by_verse_index": 6,
+      "recall_of_cited_reference_set": 0.42857142857142855
+    },
+    {
+      "family": "modern-tafsir",
+      "cited_segments": 55,
+      "cited_segments_reachable_by_verse_index": 55,
+      "recall_of_cited_reference_set": 1.0
+    },
+    {
+      "family": "poetry",
+      "cited_segments": 29,
+      "cited_segments_reachable_by_verse_index": 0,
+      "recall_of_cited_reference_set": 0.0
+    },
+    {
+      "family": "qiraat",
+      "cited_segments": 37,
+      "cited_segments_reachable_by_verse_index": 22,
+      "recall_of_cited_reference_set": 0.5945945945945946
+    },
+    {
+      "family": "rhetoric",
+      "cited_segments": 20,
+      "cited_segments_reachable_by_verse_index": 0,
+      "recall_of_cited_reference_set": 0.0
+    },
+    {
+      "family": "rivayet",
+      "cited_segments": 54,
+      "cited_segments_reachable_by_verse_index": 54,
+      "recall_of_cited_reference_set": 1.0
+    },
+    {
+      "family": "turkish-tafsir",
+      "cited_segments": 52,
+      "cited_segments_reachable_by_verse_index": 52,
+      "recall_of_cited_reference_set": 1.0
+    },
+    {
+      "family": "wujuh",
+      "cited_segments": 31,
+      "cited_segments_reachable_by_verse_index": 0,
+      "recall_of_cited_reference_set": 0.0
+    }
+  ],
+  "corpus_lane_usage": {
+    "sol-high": {
+      "input_tokens": 64138019,
+      "cached_input_tokens": 61844096,
+      "cache_write_input_tokens": 0,
+      "uncached_input_tokens": 2293923,
+      "output_tokens": 284579,
+      "reasoning_output_tokens": 76201,
+      "visible_output_tokens": 208378,
+      "total_tokens": 64422598,
+      "blocks": 336,
+      "prose_words": 24389,
+      "no_match_paragraphs": 81,
+      "agents": 19,
+      "completed_agents": 19,
+      "standard_api_equivalent_usd": 19.802453,
+      "long_context_usage_updates": 0
+    },
+    "sol-max": {
+      "input_tokens": 104481366,
+      "cached_input_tokens": 101100928,
+      "cache_write_input_tokens": 0,
+      "uncached_input_tokens": 3380438,
+      "output_tokens": 503558,
+      "reasoning_output_tokens": 236789,
+      "visible_output_tokens": 266769,
+      "total_tokens": 104984924,
+      "blocks": 354,
+      "prose_words": 26614,
+      "no_match_paragraphs": 59,
+      "agents": 19,
+      "completed_agents": 19,
+      "standard_api_equivalent_usd": 32.016642,
+      "long_context_usage_updates": 0
+    }
+  },
+  "luna_reference": {
+    "evidence_mode": "memory-only",
+    "input_tokens": 5414467,
+    "cached_input_tokens": 4518656,
+    "uncached_input_tokens": 895811,
+    "standard_api_equivalent_usd": 0.286248,
+    "limitation": "Not a benchmark of unique fresh source-packet reading or extractor recall"
+  },
+  "writer_arithmetic": {
+    "families": 19,
+    "assumed_uncached_input_tokens_per_family": 60000,
+    "assumed_total_output_tokens_per_family": 15000,
+    "saved_sol_rate_input_per_million": 2,
+    "saved_sol_rate_output_per_million": 10,
+    "cost_before_extractor_leads_verification_retries_merge_usd": 5.13
+  },
+  "unverified_numbers": [
+    "565k exact source tokens",
+    "0.2–1.4M unique packet tokens per family",
+    "End-to-end $4–6 per ayah"
+  ],
+  "unsupported_claims": [
+    "Repeated high runs gain more than max: no matched-budget replicated-run experiment exists in these comparisons"
+  ],
+  "reference_set_limit": "933 cited segments are a useful retrieval reference, not exhaustive truth or semantic correctness gold"
+}
