@@ -1,0 +1,154 @@
+{
+  "run": "pilot-20261007",
+  "created": "2026-10-07T01:38:15.967593+00:00",
+  "prefix": "/root/v5p_",
+  "units": {
+    "100_1": "enrichment/v5/work/100_1/pilot-20261007",
+    "1_6": "enrichment/v5/work/1_6/pilot-20261007"
+  },
+  "jobs": [
+    {
+      "unit": "100_1",
+      "family": "rivayet",
+      "route": "extract",
+      "writers": [
+        "extract",
+        "direct"
+      ]
+    },
+    {
+      "unit": "100_1",
+      "family": "meal",
+      "route": "extract",
+      "writers": [
+        "extract"
+      ]
+    },
+    {
+      "unit": "1_6",
+      "family": "grammar",
+      "route": "extract",
+      "writers": [
+        "extract"
+      ]
+    },
+    {
+      "unit": "100_1",
+      "family": "poetry",
+      "route": "search",
+      "writers": [
+        "search"
+      ]
+    }
+  ],
+  "stages": {
+    "1_extract_and_leads": [
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c01",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c01.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c02",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c02.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c01",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c01.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c02",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c02.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c01",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c01.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c02",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c02.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c03",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c03.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c04",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c04.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_poetry_leads",
+        "role": "leads",
+        "model": "gpt-6-astra",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_poetry_leads.md",
+        "after": "python3 -B enrichment/v5/leads.py enrichment/v5/work/100_1/pilot-20261007/poetry"
+      }
+    ],
+    "2_write": [
+      {
+        "agent": "/root/v5p_100_1_rivayet_write_extract",
+        "role": "write",
+        "model": "gpt-6-sol",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_write_extract.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_write_direct",
+        "role": "write",
+        "model": "gpt-6-sol",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_write_direct.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_write_extract",
+        "role": "write",
+        "model": "gpt-6-sol",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_write_extract.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_write_extract",
+        "role": "write",
+        "model": "gpt-6-sol",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_write_extract.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_poetry_write_search",
+        "role": "search",
+        "model": "gpt-6-sol",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_poetry_write_search.md"
+      }
+    ]
+  },
+  "rules": [
+    "Spawn only after the user's go; each agent gets the exact text of its spawn file.",
+    "Stage 2 starts for a family only after `check.py extract` passes for all its chunks (or leads.py ran, for search routes).",
+    "Agents never see enrichment/v5/eval, v3/v4 outputs or other families."
+  ]
+}
