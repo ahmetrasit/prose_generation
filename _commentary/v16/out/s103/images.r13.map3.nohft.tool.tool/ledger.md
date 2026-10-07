@@ -1,0 +1,12 @@
+- not developed: none; chain 2 (working day and wage) merged into chain 1 (trade) as one image of return on spent time.
+- not developed: member ع ص ر B001 صلاة العصر in chain 11 - link to 5:106 rests on exegetes, dropped there.
+- not developed: member خ س ر B001 «يدل على النقض» in chain 13 - rests on one printed letter; 2:27 used instead.
+- not developed: member ع م ل B003 (sadaqa collectors) in chain 2 - office, not the wage scene.
+- not developed: chain 3 members ص ب ر B007 and ح ق ق B008/B011/B013 kept only as season names, not developed further.
+- memory: تَوَاصَوْا۟ and تَحَٰٓضُّونَ are reciprocal (tafāʿala) forms, each party acting on the other.
+- memory: أَفْرِغْ means to empty out a vessel's contents, pour out.
+- memory: مَّخْتُومٍ means sealed, stoppered.
+- memory: يَدْمَغُهُۥ means strikes the brain, a blow that reaches inside the skull.
+- memory: عَاصِفٍ (ع ص ف) and يَعْصِمُ / ٱعْتَصِمُوا۟ (ع ص م) are different roots from ع ص ر.
+- memory: عَشِيَّةً in 79:46 is the late-afternoon/evening time, same word family as العشي.
+- memory: خِلْفَةً in 25:62 means succession, one coming after the other.
