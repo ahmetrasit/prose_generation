@@ -68,7 +68,34 @@ lines of script, because they catch failures that actually happened:
 - **Not yet covered:** surah-level segments (introductions, maqṣūd: segments with no ayah number). They will get a
   surah key.
 
-**Stage 2: page writers.** They run once every digest a page needs exists.
+**Stage 2: page writers** (`write.py`, brief `briefs/write.md`; user principle 2026-10-07).
+- **The block is a map, not the account.** The enrichment is the reader's one-stop shop. From a block alone the
+  reader knows:
+  - which question the sources answer;
+  - every position that bears on the paragraph's point, and who holds it;
+  - the deciding reason or disagreement.
+
+  The reader then decides whether that is enough or opens the details. Details are linked: block → tier-2 views
+  (`<ayah>/vNNN`) → tier-1 notes (claim, exact words, locator) → the source passage. Every decision follows this
+  principle.
+- **Length ceilings:** own-ayah blocks ≈ 150 words; cited-verse blocks ≈ 60 words.
+- **Topic blocks, not family sections.**
+- **Minor variants are counted, not spelled out.**
+- **`no_match` rows** stay in the ledger and are not shown to the reader.
+- **Inputs, by script:**
+  - the page with `[¶n]`;
+  - the own ayah in full (notes and anchors), plus its views;
+  - the views of each cited verse.
+
+  The paragraph groups fit one context (`--budget` characters of cited views).
+- **Checks:**
+  - every (paragraph, cited verse) pair has exactly one ledger row;
+  - the ids cited were in the input;
+  - quoted Arabic is in the anchors of the cited notes.
+- **Render:** blocks after each paragraph (after its augment blocks), linked to `views/<ayah>.md`. The strip
+  check gives the frozen page back byte for byte.
+- **Writer model:** Opus 5.5 high (agent `enrich-page-high`) or Astra high (Codex); a side-by-side decides.
+- **Before the principle (kept for the record):** They run once every digest a page needs exists.
 - A writer covers a group of paragraphs. It reads:
   - the page;
   - the own ayah's full text;

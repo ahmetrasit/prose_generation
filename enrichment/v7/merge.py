@@ -129,12 +129,28 @@ def check_one(t, tag, ayah):
     return problems, views
 
 
-def render(t, tag, ayah, views):
-    """Compact view list for review and for writers: source ids, the speaker only when not the source's author,
-    stance marks (+ prefers, - rejects). Full names, claims and anchors stay in tier 1 behind the row ids."""
-    known = json.loads((t / 'rows' / f'{key(ayah)}.json').read_text())
-    out, topic = [f'# {ayah}: {len(views)} views from {len(known)} rows ({tag})'], None
-    for v in views:
+def view_id(ayah, n):
+    return f'{ayah}/v{n:03d}'
+
+
+def load(ayah, tag):
+    """Tier 2 of one ayah from any run: (views with 'vid', rows by id). Exactly one run may hold it."""
+    k = key(ayah)
+    found = sorted((V7 / 'work').glob(f'*/tier2/out/{tag}/{k}.jsonl'))
+    if len(found) != 1:
+        raise SystemExit(f'{ayah}: {len(found)} tier-2 files for {tag} ({[str(f) for f in found]}); expected exactly one')
+    rows_file = found[0].parents[2] / 'rows' / f'{k}.json'
+    views = [json.loads(x) for x in found[0].read_text().splitlines() if x.strip()]
+    for n, v in enumerate(views, 1):
+        v['vid'] = view_id(ayah, n)
+    return views, json.loads(rows_file.read_text())
+
+
+def compact(ayah, views, known, tag=''):
+    """Compact view list: view ids, source ids, the speaker only when not the source's author, stance marks
+    (+ prefers, - rejects). Full names, claims and anchors stay in tier 1 behind the row ids."""
+    out, topic = [f'# {ayah}: {len(views)} views from {len(known)} rows' + (f' ({tag})' if tag else '')], None
+    for n, v in enumerate(views, 1):
         if v['topic'] != topic:
             topic = v['topic']
             out.append(f'\n## {topic}')
@@ -145,8 +161,13 @@ def render(t, tag, ayah, views):
                 holders['' if k['speaker'] == 'author' else k['speaker']].add(
                     k['src'] + {'prefers': '+', 'rejects': '-'}.get(k['stance'], ''))
         who = '; '.join((f'{s}: ' if s else '') + ','.join(sorted(x)) for s, x in holders.items())
-        out.append(f"- {v['view']}" + (f" ({v['note']})" if v.get('note') else '') + f' [{who}]')
-    (t / 'out' / tag / f'{key(ayah)}.md').write_text('\n'.join(out) + '\n')
+        out.append(f"- {view_id(ayah, n)} {v['view']}" + (f" ({v['note']})" if v.get('note') else '') + f' [{who}]')
+    return '\n'.join(out) + '\n'
+
+
+def render(t, tag, ayah, views):
+    known = json.loads((t / 'rows' / f'{key(ayah)}.json').read_text())
+    (t / 'out' / tag / f'{key(ayah)}.md').write_text(compact(ayah, views, known, tag))
 
 
 def check(a):
