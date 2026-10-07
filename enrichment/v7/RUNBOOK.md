@@ -8,13 +8,14 @@ and reasons: `PLAN.md`. Run every command from the repo root `/Volumes/aro/proje
 1. **Each stage needs the user's go.** Report the build's numbers first: agents, characters, estimate.
 2. **The orchestrator spawns the agents itself.** Scripts only build inputs and spawn files, check and report.
    - Do **not** use `run.sh` / `run_codex.py` for these runs. They are the scripted fallback, seven at a time.
-   - **Parallelism:** up to **40 agents at a time** (user, 2026-10-07). Keep the cap filled as agents finish;
+   - **Parallelism:** up to **60 tier-1 agents at a time** (user, 2026-10-07). Keep the cap filled as agents finish;
      do not wait for a wave to finish before spawning more.
-3. **Never rerun an agent.** An agent whose output file exists, or whose name already has a session, is done.
-   - A failed agent is reported to the user.
-   - Missing work is rebuilt as a **new run** (see "When something fails").
+3. **Do not start a second session for an agent.** A completed agent releases its active slot. If it reports an
+   error, send a repair request to that same agent when a slot is available. Report failures to the user.
+   Missing work that cannot be repaired is rebuilt as a **new run** (see "When something fails").
 4. **No silent failures.** Pass every `WARNING`, `NOTE` and `SKIPPED` line the scripts print to the user, verbatim.
-5. **Commit and push** after each stage and during the continuous tier-1 run (`enrichment/v7`, including `work/`).
+5. **No interim commits or pushes during tier 1.** The orchestrator monitors active agent count, handles reported
+   repairs and keeps the 60-agent cap filled. Commit and push after the stage is complete.
 
 ## How to spawn one agent (every stage)
 
@@ -34,7 +35,9 @@ For each spawn file, spawn one native agent with:
 - **Context:** fresh, with no inherited turn history.
 - **Prompt:** for this run, pass the spawn file path and direct the agent to read it once in full, then follow its
   contents exactly. This is the approved native-tool workaround for the 3.43 million characters of spawn prompts;
-  the file itself remains unchanged.
+  the file itself remains unchanged. If its checker finds errors, the agent may reread only its assigned chunk parts
+  and use local commands to read and edit only its own output file for the repair, despite the spawn file's command
+  list. Keep the source segment body and its header preview distinct when choosing verbatim anchors.
 
 The agent reads its parts with `cat`, writes one output file, and runs the stage's check command until it prints
 `OK`. The orchestrator tracks session completion and immediately tops up under the concurrency cap; it does not
@@ -51,7 +54,7 @@ python3 -B enrichment/v7/digest.py build s103-1 --page _commentary/v16/out/103_1
   - segments already digested in any earlier run;
   - short editions where a FULL edition covers the verse;
   - meal, translations and the Quran text.
-- **Spawn files:** `enrichment/v7/work/s103-1/spawn/luna-max_c*.md`. Keep up to 40 running at a time.
+- **Spawn files:** `enrichment/v7/work/s103-1/spawn/luna-max_c*.md`. Keep up to 60 running at a time.
 - **Outputs:** `work/s103-1/out/luna-max/c*.jsonl`.
 
 After all of them finish:
@@ -105,8 +108,8 @@ The rendered page is `work/s103-1/write/render/<tag>/103_1.enriched.tr.md`.
 
 | What happened | What to do |
 |---|---|
-| An agent did not finish (`report` WARNING), or wrote no file (`check`: no output file) | Report it to the user. Do not rerun that agent. With the user's go, build a new run with `--skip-done`: it picks up exactly the segments that have no output line anywhere. |
-| `check` lists anchor or field problems in a finished file | Report them; they stay recorded. The rest of the file is used. |
+| An agent did not finish (`report` WARNING), or wrote no file (`check`: no output file) | Report it to the user. Ask the same agent to repair its work if possible; do not create a second session with its name. If still missing, with the user's go build a new run with `--skip-done`: it picks up exactly the segments that have no output line anywhere. |
+| `check` lists anchor or field problems in a finished file | Report them and ask that same agent to repair them. |
 | Peak context over 120k (`report` WARNING) | Report it. The output is still valid if `check` passes. |
 | Two tier-2 files for one verse (`merge.load` error) | Two runs consolidated the same verse. Stop and ask the user which one stays. |
 
