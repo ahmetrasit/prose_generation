@@ -1,0 +1,12 @@
+- memory: alhama (inspire) occurs only in 91:8 in the Quran (claim not used in prose, kept for record)
+- memory: ar-raw' = the heart/mind, glossed "gönül"
+- memory: najd = high ground, glossed "yüksek yol" in 90:10
+- memory: tağwā in 91:11 is from ṭ-ġ-y in the faʿlā pattern like taqwā
+- memory: accusative nāqata/suqyā in 91:13 implies a dropped warning verb (beware/leave alone)
+- memory: muʿqir (saddle causing sores) is from ʿ-q-r, same root as ʿaqarūhā in 91:14
+- not written: lahm racehorse "swallowing the ground" (B003) - no work beside inspiration in this ayah
+- not written: lahm abundance (B004) and calamity/death as swallower (B005) - no theme takes them
+- not written: fajr "two dawns" and slanting saddle seat (B004 Turkish only) - Arabic phrase not supplied for the detail
+- not written: uqiyya weight (و ق ي B004) - no bearing on the ayah
+- not written: 91:15 "lā yakhāfu" vs taqwā defined by fear - subject of 91:15 ambiguous; would overreach
+- not written: 33:72 trust refused by heavens and earth - 41:11-12 already carries the contrast with fewer assumptions
