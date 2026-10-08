@@ -1,0 +1,11 @@
+- memory: qarīban as time adverb, attachable to "before them" or to "tasted"
+- memory: nominal clause "wa-lahum ʿadhāb" conveys standing state vs perfect dhāqū
+- not written: ق ب ل B013 lā qibala (no power to face) - fortress/ẓann theme already carried by tasting
+- not written: ء م ر B008 imr (weak-minded follower of everyone) - link to 59:11 too speculative
+- not written: ء م ر B006 imr (grave, outrageous thing) - no work in this ayah
+- not written: م ث ل B005 standing, B008 statue, B009 best - no work here
+- not written: ذ و ق B004 dhawwāq (fickle spouse), B006 - no support
+- not written: ع ذ ب B003 weaning/holding back - link to 59:3 exile too thin
+- not written: و ب ل B006 ewe in heat, B005 joint bone - no bearing
+- not written: 44:49 "taste, you mighty, noble" irony - tangential to this ayah
+- not written: 7:22 Adam and wife tasting the tree - Satan link belongs to 59:16
