@@ -1,0 +1,16 @@
+- memory: hijr meaning intellect occurs only at 89:5 in the Quran
+- memory: nuhā shares the root n-h-y with nahy "forbidding"
+- memory: the singular "stone" is vocalized hajar, distinct from hijr
+- memory: Turkish kasem, kısım, taksim, kısmet, hücre derive from these roots
+- memory: iddāraʾtum (2:72) = you disputed and pushed blame on one another
+- memory: awsaṭuhum (68:28) = the most balanced/moderate of them
+- memory: marağa (25:53) = let the two seas flow freely side by side
+- not written: ق س م B001 beauty of face - no support linking it to oath or intellect
+- not written: ق س م B002 midday heat - no tie to the ayah or surah themes
+- not written: ق س م B007 first folder of cloth, horse between stages - isolated namings
+- not written: ق س م B008 truce - no Quranic or surah support for a link
+- not written: ح ج ر B007 guarded breeding mare - would only repeat the guarded-thing image
+- not written: ح ج ر B001 "keep away from me" usage, B006 children's circle game - redundant
+- not written: 91:8 fujūr/taqwā - beyond what the dawn recall needed
+- not written: 12:111 ʿibra for ulu l-albāb - lubb names a kernel, not a restraint
+- not written: 26:149 Thamud carving houses - covered by 15:82
