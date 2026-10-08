@@ -1,0 +1,13 @@
+- memory: wa-arsala (perfect) coordinated with negated-jussive a-lam yaj'al, read as affirmed statement
+- memory: hasib = pebble-pelting storm wind
+- memory: zajr practice = startling a bird and reading the direction of its flight
+- memory: yuza'un glossed as marched in order
+- memory: ababil occurs only at 105:3 in the Quran
+- memory: Turkish "Ebabil kuşları" commonly heard as a bird-species name
+- not written: ء ب ل B004 heaviness/prevailing - heavy/light contrast belongs to the surah scene
+- not written: ء ب ل B002, B006, B007, B008, B009, B010 (water-free grazing, monk, date lump, place, kin, mourning) - no work in this ayah
+- not written: ر س ل B004, B006-B010 (deliberateness, milk, trust, correspondence, widow, ease) - no theme to join
+- not written: ط ي ر B004, B005 (wide well, rash anger) - no support in the ayah
+- not written: 12:41 birds eating from a head - would imply the birds ate them
+- not written: 3:49 clay bird and clay stones (51:33) - too speculative
+- not written: 77:1 mursalat 'urfan - succession sense rests on memory gloss
