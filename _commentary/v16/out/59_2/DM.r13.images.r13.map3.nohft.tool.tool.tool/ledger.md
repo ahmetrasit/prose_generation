@@ -1,0 +1,16 @@
+- memory: in مَّانِعَتُهُمْ حُصُونُهُم the "protecting" word is fronted before the fortresses, giving it emphasis
+- memory: yukhribūna (imperfect) shows the scene in progress
+- memory: sawq means driving animals from behind
+- memory: the lām of li-awwali read as temporal ("at the first")
+- not written: kafarū cover/night/sower senses (ك ف ر B001, B002, B008) - no work in this ayah's themes; the surah commentary's scene
+- not written: ḥasharāt small burrow animals (ح ش ر B004) - the burrow scene belongs to 59:11 in the surah commentary
+- not written: dār B008 "mā bihā diyār" (no one there) - the empty-house scene belongs to the surah commentary
+- not written: ʿabra tears (ع ب ر B005) - would pull away from the crossing theme
+- not written: khārib camel thief, theft as a breach in property (خ ر ب B003) - side image, no theme
+- not written: kharāj tax/yield (خ ر ج B003) - the fayʾ in 59:6-7 is another ayah's scene
+- not written: ḥiṣān stallion as its rider's fortress (ح ص ن B004) - no theme work
+- not written: kitāb as binding together, katība as a troop (ك ت ب B001) - no support in the ayah
+- not written: ulī and awwal both listed under ء و ل - no supported image
+- not written: ruʿb filling a valley - one source prefers the زغب form; kept because several sources attest the ر form
+- not written: ṣayāṣī (33:26) root not supplied - only glossed as fortresses
+- not written: 9:6 maʾman (escorting a protected man to his place of safety) - would overload the security paragraph
