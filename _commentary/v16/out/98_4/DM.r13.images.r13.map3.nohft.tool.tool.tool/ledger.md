@@ -1,0 +1,18 @@
+- memory: "mā … illā" restriction places the split exclusively after the arrival
+- memory: definite al-bayyina in 98:4 points back to the bayyina of 98:1
+- memory: tafarraqa (form V) as the reflexive of farraqa, action returning on the subject
+- memory: baghy = overstepping bounds, transgression against one another
+- memory: shiqāq = splitting, cleavage (root sh-q-q)
+- memory: tashtīt al-kalima read as breaking a group's unity of word
+- memory: vocalizations mufarriq al-naʿam (skunk name) and attī li-māʾika
+- memory: katība mustaḥīza glossed as a troop holding its own position
+- memory: kharaza = sewing leather pieces together
+- not written: f-r-q B008 she-camel in labour leaving the herd, with j-y-ʾ B005 ajāʾa (Maryam and the palm trunk) - vivid pair, but no ground in the ayah's situation
+- not written: f-r-q B009 fear as the heart's dispersal, with hearts "shattā" in surah 59 - inner division is a different theme from a split after clarity
+- not written: f-r-q B002 revelation sent down in parts - would pull toward the Quran's mode of descent, not the split
+- not written: b-y-n B012 irrevocable divorce, B013 crow of parting - would overdramatize the split as final
+- not written: b-ʿ-d B004 curse of perishing - the ayah's baʿd is temporal; threat belongs to the sixth ayah
+- not written: k-t-b B004 enrolment, B005 manumission contract - no theme joins them
+- not written: ʾ-t-y B005 flood from another land, B006 stranger, B008 tribute - no support in the ayah
+- not written: j-y-ʾ B003 water hollow, B006 pus - no theme joins them
+- not written: f-r-q B007, B010–B013, B015, B016 - bodily, medical, measure, food and movement senses with no thematic work here
