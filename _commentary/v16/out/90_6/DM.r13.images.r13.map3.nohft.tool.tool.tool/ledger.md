@@ -1,0 +1,10 @@
+- memory: taraddā (92:11) read as tumbling/falling down
+- memory: felt-making mechanism (wetting, pressing, rubbing fibres) as general craft knowledge
+- not written: ل ب د B008 Lubad as last of Luqman's vultures - longevity story lies outside supplied texts
+- not written: م و ل B002 mūla as spider - disputed sense, no tie to the ayah
+- not written: ق ل ل echo root (qilla, few) - echo only, not identity
+- not written: ه ل ك B013 hālik ahl - no textual support in surah
+- not written: ه ل ك B010/B011 desert wandering, valley of futility - would duplicate abyss/loss theme without new support
+- not written: ق و ل B004 qayl as ruler whose word is executed - tempting with 90:5 power, but no grounding
+- not written: ه ل ك B003, B007, B008 - unrelated to the ayah's work
+- not written: variant vocalisations of lubad - outside supplied texts
