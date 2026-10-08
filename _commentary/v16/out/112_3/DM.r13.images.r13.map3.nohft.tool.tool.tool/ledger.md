@@ -1,0 +1,8 @@
+- memory: "lam" + jussive gives a negated past ("did not", never happened)
+- memory: the raid idiom means people in terror do not call even their newborn (mechanism not spelled out in the source phrase)
+- not written: the plenty use of the idiom (food/herbage "lâ yünâdâ velîdüh") - mechanism unclear; would not ground a theme
+- not written: B001 gloss "I do not know who he is" - no Arabic phrase supplied; no theme
+- not written: 42:11, 53:45, 75:39, 16:72 (creatures made in pairs) - belongs to the surah-level ehad scene; 6:101 carries it here
+- not written: 73:15-16 Pharaoh before the "greying children" day, echoing 26:18 - likely coincidental, nothing to build on
+- not written: 7:189 (carrying a light burden, then heavy) - 46:15 and 3:35-36 already cover the carry-and-set-down mechanism
+- not written: atrāb (age-mates) in paradise passages - different root; lida is enough for the peer image
