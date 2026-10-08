@@ -1,0 +1,13 @@
+- memory: accusative nāqata/suqyā as warning construction (taḥdhīr) with implied verb
+- memory: ṭaghwā (91:11) and ṭaghā (69:11), ṭāghiya (69:5) share one root
+- memory: ṭāghiya read as "the overflowing/excessive one"
+- not written: ن و ق B001 height, nīq mountain top - no ground in the ayah beyond sound
+- not written: ن و ق B005/B006 tanawwuq, intiyāq (selecting) - "chosen camel" would rest on one thin attestation
+- not written: ن و ق B002 camel-shaped star group - no link to the surah's sky beyond guesswork
+- not written: ن و ق B003 istanwaqa proverb, B004 tamed camel - no work in any theme
+- not written: ر س ل B006 rasl milk - Quran never mentions the camel's milk
+- not written: ر س ل B004 ʿalā rislika, B007 istirsāl - text gives no manner of the speech
+- not written: س ق ي B004-B011 vessels, dropsy, cloud, papyrus, dyeing, hostility, slander - no work in the theme
+- not written: و ل ه B001 bereaved she-camel - alternative etymology of Allah, not identity
+- not written: ء ل ه B001 ilāha as sun - tempting with 91:1 but no ground
+- not written: echo roots ق ل ل, س و ق - not identity
