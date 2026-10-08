@@ -1,0 +1,7 @@
+- not developed: chain 2 (court) - merged into chain 1; one image of served master and lowered servant
+- not developed: chain 5 occasion report (proposed year-for-year swap) - outside-Quran report excluded; chain built from Quran passages only
+- memory: tarring (هنأ) a camel is a mange treatment that also accustoms it to handling
+- memory: دهن/ادهان tied to oiling a surface
+- memory: صدع means to split open
+- memory: tense reading of أعبد/تعبدون (ongoing-future) vs عبدتم (past) and عابد as status participle
+- memory: lām in لكم/لي as marking possession/allotment
