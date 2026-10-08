@@ -1,0 +1,10 @@
+- memory: fiʿla pattern (ʿīsha) marks manner/kind of an act, "a way of living"
+- memory: active participle rāḍiya read with passive/possessive sense ("pleasing, liked") is a known Arabic usage
+- memory: iththāqaltum (9:38) is from root th-q-l, same as thaqulat in 101:6
+- not written: r-ḍ-w B005 (rāḍānī fa-raḍawtuhu, outdoing in contest) - no foothold in this ayah's themes
+- not written: r-ḍ-w B007 (Raḍwā mountain, women's names) - proper names; link to 101:5 mountains would be forced
+- not written: echo root r-ḍ-y - withheld mapping; identity root r-ḍ-w covers the word
+- not written: 93:5 fa-tarḍā - same work as 92:21, redundant
+- not written: 43:32 apportioned livelihood - situation adds nothing beyond 7:10 and 78:11
+- not written: 2:207, 2:265 marḍāt Allāh - seeking God's pleasure already carried by 92:20
+- not written: 16:97 ḥayāt ṭayyiba - different root; 29:64 and 89:24 already carry "true life"
