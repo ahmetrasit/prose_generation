@@ -1,0 +1,9 @@
+- memory: maf'ala pattern of maymana names a place/side
+- memory: maymana as the right wing of an army
+- memory: ulāʾika as a demonstrative pointing back to a farther referent
+- not written: ص ح ب B006 hide left with its hair - decorative, joins no theme
+- not written: ص ح ب B007 moss covering water, B008 reddish donkey colour - no bearing on the ayah
+- not written: ص ح ب B004 istiṣḥāb, what suits a thing accompanies it - redundant with B001 companionship
+- not written: ي م ن B006 mawlā al-yamīn treaty bond - covered by the right-hand ownership line
+- not written: 37:28 coming at someone from the right - deception use, would pull away from the theme
+- not written: 18:18 sleepers turned right and left - belongs to the surah's scene, adds nothing here
