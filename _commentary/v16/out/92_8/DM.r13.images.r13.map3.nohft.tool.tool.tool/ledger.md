@@ -1,0 +1,10 @@
+- memory: istaf'ala form can mean seeking or deeming something so
+- memory: ittaqā from w-q-y, taking a shield/guarding oneself
+- memory: nasta'īn is the same istaf'ala pattern as istaghnā
+- memory: Turkish müstağni usage (gönlü tok, aloof)
+- memory: emmâ splits a whole into its parts
+- not written: B003 singing, Quran chanting - no work in any theme
+- not written: B006 marriage - no work in any theme
+- not written: Turkish gına (from ghinā) as satiety/boredom - one loanword note kept for müstağni
+- not written: yusrā/'usrā as wealth and want (images.md) - scene of 92:7/92:10, recalled only via 92:11
+- not written: 17:29 chained hand and 3:180 collar scene - belongs to the surah's hand scene
