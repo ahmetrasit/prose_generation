@@ -1,0 +1,17 @@
+- memory: kallâ is a particle of rejection and deterrence
+- memory: inna plus emphatic lām on an imperfect gives double emphasis and an ongoing tendency
+- memory: same-referent subject and object pronoun (ra'âhu = saw himself) is allowed only with verbs of perception or opinion
+- memory: root of ʿalaq means clinging, hanging
+- memory: muntahâ (53:14) and yantahi (96:15) share the root n-h-y
+- memory: qadr (dictionary phrase) and qadar (42:27) share the root q-d-r
+- memory: maʾâb means place of return; mirṣâd a watch post
+- memory: istaqim (11:112) and mustaqîm (1:6) share the root q-w-m
+- not written: insî side (B004, side of mount or bow facing the person) - no theme needed it
+- not written: ibn insik "yourself, close friend" (B006) - did not join a theme
+- not written: insân as fingertip (B005) - no theme
+- not written: insân from nisyân (forgetting) - different root, not supported by the evidence
+- not written: echo root ṭ-gh-w senses (small piece, voice, wild calf) - echo root, not identity
+- not written: ṭaghâ ad-dam beside ʿalaq as blood - blood sense of ʿalaq not in the supplied evidence
+- not written: 4:6 ânastum rushdan before handing over wealth - near the seeing theme but crowded it
+- not written: 2:256 rejecting ṭâghût - 16:36 already carried the point
+- not written: 20:43-44 gentle speech to Pharaoh - did not add to a theme
