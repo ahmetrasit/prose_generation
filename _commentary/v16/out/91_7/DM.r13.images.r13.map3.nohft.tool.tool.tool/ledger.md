@@ -1,0 +1,14 @@
+- memory: mā here allows a masdar reading ("its fashioning") beside the relative reading
+- memory: mā used of an agent to draw attention to the act and its greatness
+- memory: indefinite nafs (tanwin) reaches every soul, unlike the definite cosmic nouns
+- memory: the oaths' answer is qad aflaḥa in the ninth ayah
+- memory: Turkish tesviye and seviye derive from taswiya and sawiyya
+- memory: Turkish adjective nefis ("delicious") derives from nafīs
+- not written: nafs as evil eye (B003) - no bearing on this ayah's theme
+- not written: nafs as one tanning dose (B007) - measure image found no theme
+- not written: nāfis, the fifth gaming arrow (B016) - no link to the ayah
+- not written: istawā ʿalā / ilā, mounting and heading toward (B003, B004) - the transitive verb here carries neither
+- not written: sawiyya, the camel's saddle pad (B010) - no support in the surah
+- not written: aswā, to skip or omit (B011) - opposite sense, no anchor in the surah
+- not written: sawā' as "other" (B007) and wealth equal to one's head (B013) - nothing for the theme to do with them
+- not written: 2:29 sawwāhunna for the seven heavens - the sky's sawwā is the surah commentary's house scene
