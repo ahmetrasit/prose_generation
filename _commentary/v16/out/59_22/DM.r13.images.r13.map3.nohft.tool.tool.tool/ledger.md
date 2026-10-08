@@ -1,0 +1,10 @@
+- memory: Arabic grammatical term "ghā'ib" for third-person pronouns
+- memory: Abraham's verb in 6:76-78 is afala, not ghāba (checked in text; root distinction from memory)
+- not written: و ل ه alternative derivation of the name Allah - not the identity root; would displace the tawhid theme
+- not written: ء ل ه B002 oath and vocative forms of the name - no work in any theme
+- not written: غ ي ب B003 thicket, B004 backbiting, B006 doubt, B007 caul fat - no theme they ground
+- not written: 4:34 "guarding in absence" - fits the muğîbe pair but would stretch the gayb section
+- not written: ش ه د B004 martyr, B005 tongue, B007 honey in comb - no theme they ground
+- not written: ع ل م B004 split lip, B005 sea/full well, B006 falcon, B007 male hyena - unrelated to the ayah's themes
+- not written: ر ح م B004 womb disease - no work in the mercy theme
+- not written: 53:32 "embryos in mothers' bellies" - redundant beside 13:8, 3:6, 39:6
