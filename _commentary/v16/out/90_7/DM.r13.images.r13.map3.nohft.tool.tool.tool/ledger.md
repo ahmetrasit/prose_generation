@@ -1,0 +1,15 @@
+- memory: an before lam here is the lightened anna, marking a settled judgment
+- memory: lan negates the future, lam with jussive negates the past
+- memory: interrogative a- here expresses reproach and wonder, not inquiry
+- memory: lubad glossed as heaped, piled up
+- memory: akdā glossed as gave then stopped giving
+- memory: humaza lumaza (104:1) paraphrased as backbiter and fault-finder
+- memory: maymana / mash'ama read as the right and left sides
+- not written: echo root ر و ي (rawiyya, ruwā') - echo, not identity; appearance already carried by ر ء ي B006
+- not written: ر ء ي B003 dream, B007 menstrual trace, B009 lung, B011 banner - no bearing on the seeing claim
+- not written: ر ء ي B008 unseen jinn companion vs Satan as companion of show-off spenders (4:38) - analogy across different words, too thin
+- not written: ح س ب B003 sufficiency (hasbunā Allāh) - self-sufficiency already carried by 96:7; would dilute the counting/supposing theme
+- not written: ح س ب B008 pillow, B009 piebald colouring - no theme
+- not written: ء ح د B003 numbers, B004 Sunday/one of two, B006 Uhud mountain - no theme
+- not written: 3:180 misers think withholding good, collared with it - adds wealth but no seeing
+- not written: 47:29 an lan + hidden rancour brought out - duplicates 43:80
