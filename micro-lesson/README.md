@@ -7,6 +7,10 @@ any categories. Ranking controls display, not discovery; commentary stays unchan
 A final linguistic correctness review checks the finished teaching claims and
 returns a compact result per lesson; flagged or uncertain claims receive local repair.
 
+The purpose is incidental learning: the reader should come to read Quranic Arabic
+without having felt they were studying it. [GOAL.md](GOAL.md) states that goal and
+what it changes; where version instructions conflict with it, the goal decides.
+
 Start with [v1/README.md](v1/README.md), [v1/RUNBOOK.md](v1/RUNBOOK.md), and the
 [v1 ontology guide](v1/ONTOLOGY.md). The authored reading curriculum has 297 concepts,
 30 overlapping topics and seven routes in 33 teaching modules. Branch-specific

@@ -1,0 +1,3618 @@
+{
+  "run": "s12_17_19",
+  "threshold_tokens": 150000,
+  "method": "OLS on source chars, segment count and spawn prompt chars; per-source residual shrunk by 5 sessions",
+  "reference_runs": [
+    "s103-1",
+    "s103-23",
+    "s1_87_114"
+  ],
+  "training_sessions": 938,
+  "coefficients_peak_thousands": [
+    15.703858101889145,
+    14.941939079088192,
+    2.390352577082954,
+    37.983310074572586
+  ],
+  "leave_one_run_out": [
+    {
+      "run": "s103-1",
+      "sessions": 478,
+      "mean_absolute_error_tokens": 23610,
+      "predicted_above_threshold": 24,
+      "actual_above_threshold": 58,
+      "correctly_predicted_above_threshold": 9
+    },
+    {
+      "run": "s103-23",
+      "sessions": 196,
+      "mean_absolute_error_tokens": 18549,
+      "predicted_above_threshold": 2,
+      "actual_above_threshold": 25,
+      "correctly_predicted_above_threshold": 0
+    },
+    {
+      "run": "s1_87_114",
+      "sessions": 264,
+      "mean_absolute_error_tokens": 18510,
+      "predicted_above_threshold": 14,
+      "actual_above_threshold": 27,
+      "correctly_predicted_above_threshold": 5
+    }
+  ],
+  "split_chunks": [
+    21,
+    22,
+    25,
+    27,
+    28,
+    30,
+    31,
+    32,
+    34,
+    35,
+    36,
+    37,
+    38,
+    41,
+    44,
+    47,
+    62,
+    64,
+    70,
+    118,
+    119,
+    121,
+    122,
+    124,
+    125,
+    126,
+    127,
+    196,
+    197,
+    204,
+    218,
+    222,
+    223,
+    225,
+    226,
+    227,
+    228,
+    229,
+    231,
+    232,
+    233,
+    234,
+    237,
+    238,
+    239,
+    303,
+    311,
+    370,
+    371,
+    372,
+    373,
+    374
+  ],
+  "predictions": [
+    {
+      "run": "s12_17_19",
+      "chunk": 1,
+      "source_chars": 40505,
+      "segments": 23,
+      "prompt_chars": 8131,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 125939
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 2,
+      "source_chars": 40861,
+      "segments": 23,
+      "prompt_chars": 8108,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 126384
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 3,
+      "source_chars": 41631,
+      "segments": 26,
+      "prompt_chars": 7584,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 126261
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 4,
+      "source_chars": 41702,
+      "segments": 29,
+      "prompt_chars": 8080,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 128968
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 5,
+      "source_chars": 40835,
+      "segments": 26,
+      "prompt_chars": 8149,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 127218
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 6,
+      "source_chars": 41352,
+      "segments": 25,
+      "prompt_chars": 7726,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 126145
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 7,
+      "source_chars": 41495,
+      "segments": 30,
+      "prompt_chars": 9501,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 134295
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 8,
+      "source_chars": 41243,
+      "segments": 28,
+      "prompt_chars": 9287,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 132628
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 9,
+      "source_chars": 41395,
+      "segments": 25,
+      "prompt_chars": 6838,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 122836
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 10,
+      "source_chars": 40978,
+      "segments": 24,
+      "prompt_chars": 7209,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 123383
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 11,
+      "source_chars": 41737,
+      "segments": 29,
+      "prompt_chars": 7224,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 125769
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 12,
+      "source_chars": 41339,
+      "segments": 29,
+      "prompt_chars": 8459,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 129865
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 13,
+      "source_chars": 42016,
+      "segments": 30,
+      "prompt_chars": 8219,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 130204
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 14,
+      "source_chars": 13856,
+      "segments": 11,
+      "prompt_chars": 5923,
+      "source_group": "BURSEVI",
+      "predicted_peak_tokens": 74865
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 15,
+      "source_chars": 43432,
+      "segments": 39,
+      "prompt_chars": 16103,
+      "source_group": "QASHANI",
+      "predicted_peak_tokens": 148441
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 16,
+      "source_chars": 43895,
+      "segments": 42,
+      "prompt_chars": 15034,
+      "source_group": "QASHANI",
+      "predicted_peak_tokens": 145790
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 17,
+      "source_chars": 18596,
+      "segments": 20,
+      "prompt_chars": 8959,
+      "source_group": "QASHANI",
+      "predicted_peak_tokens": 79654
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 18,
+      "source_chars": 41823,
+      "segments": 20,
+      "prompt_chars": 10877,
+      "source_group": "QUSHAYRI",
+      "predicted_peak_tokens": 145817
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 19,
+      "source_chars": 39904,
+      "segments": 16,
+      "prompt_chars": 12178,
+      "source_group": "QUSHAYRI",
+      "predicted_peak_tokens": 146935
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 20,
+      "source_chars": 4119,
+      "segments": 1,
+      "prompt_chars": 5432,
+      "source_group": "QUSHAYRI",
+      "predicted_peak_tokens": 64256
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 21,
+      "source_chars": 49943,
+      "segments": 94,
+      "prompt_chars": 16202,
+      "source_group": "SULAMI",
+      "predicted_peak_tokens": 185022
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 22,
+      "source_chars": 45568,
+      "segments": 101,
+      "prompt_chars": 15511,
+      "source_group": "MULTI",
+      "predicted_peak_tokens": 165067
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 23,
+      "source_chars": 22193,
+      "segments": 26,
+      "prompt_chars": 10925,
+      "source_group": "AKHFASH",
+      "predicted_peak_tokens": 100433
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 24,
+      "source_chars": 41229,
+      "segments": 32,
+      "prompt_chars": 12905,
+      "source_group": "FARRA",
+      "predicted_peak_tokens": 133293
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 25,
+      "source_chars": 56133,
+      "segments": 159,
+      "prompt_chars": 27953,
+      "source_group": "MULTI",
+      "predicted_peak_tokens": 241976
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 26,
+      "source_chars": 32125,
+      "segments": 41,
+      "prompt_chars": 17349,
+      "source_group": "MAJAZ",
+      "predicted_peak_tokens": 149609
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 27,
+      "source_chars": 40792,
+      "segments": 22,
+      "prompt_chars": 17431,
+      "source_group": "NAHHAS",
+      "predicted_peak_tokens": 159038
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 28,
+      "source_chars": 42057,
+      "segments": 24,
+      "prompt_chars": 16968,
+      "source_group": "NAHHAS",
+      "predicted_peak_tokens": 159647
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 29,
+      "source_chars": 27020,
+      "segments": 15,
+      "prompt_chars": 10924,
+      "source_group": "NAHHAS",
+      "predicted_peak_tokens": 112071
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 30,
+      "source_chars": 44620,
+      "segments": 47,
+      "prompt_chars": 8355,
+      "source_group": "SAMIN-DURR",
+      "predicted_peak_tokens": 150878
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 31,
+      "source_chars": 43771,
+      "segments": 43,
+      "prompt_chars": 9530,
+      "source_group": "SAMIN-DURR",
+      "predicted_peak_tokens": 153116
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 32,
+      "source_chars": 45416,
+      "segments": 54,
+      "prompt_chars": 10107,
+      "source_group": "SAMIN-DURR",
+      "predicted_peak_tokens": 160395
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 33,
+      "source_chars": 43184,
+      "segments": 42,
+      "prompt_chars": 8984,
+      "source_group": "SAMIN-DURR",
+      "predicted_peak_tokens": 149926
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 34,
+      "source_chars": 45122,
+      "segments": 53,
+      "prompt_chars": 10491,
+      "source_group": "SAMIN-DURR",
+      "predicted_peak_tokens": 161175
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 35,
+      "source_chars": 44085,
+      "segments": 50,
+      "prompt_chars": 9590,
+      "source_group": "SAMIN-DURR",
+      "predicted_peak_tokens": 155486
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 36,
+      "source_chars": 43771,
+      "segments": 48,
+      "prompt_chars": 10007,
+      "source_group": "SAMIN-DURR",
+      "predicted_peak_tokens": 156123
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 37,
+      "source_chars": 45143,
+      "segments": 58,
+      "prompt_chars": 10865,
+      "source_group": "SAMIN-DURR",
+      "predicted_peak_tokens": 163822
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 38,
+      "source_chars": 45299,
+      "segments": 54,
+      "prompt_chars": 9468,
+      "source_group": "SAMIN-DURR",
+      "predicted_peak_tokens": 157793
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 39,
+      "source_chars": 32447,
+      "segments": 31,
+      "prompt_chars": 7186,
+      "source_group": "SAMIN-DURR",
+      "predicted_peak_tokens": 124424
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 40,
+      "source_chars": 41940,
+      "segments": 35,
+      "prompt_chars": 16144,
+      "source_group": "ZAJJAJ",
+      "predicted_peak_tokens": 148549
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 41,
+      "source_chars": 42369,
+      "segments": 43,
+      "prompt_chars": 17277,
+      "source_group": "ZAJJAJ",
+      "predicted_peak_tokens": 155406
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 42,
+      "source_chars": 42383,
+      "segments": 39,
+      "prompt_chars": 15443,
+      "source_group": "ZAJJAJ",
+      "predicted_peak_tokens": 147505
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 43,
+      "source_chars": 23529,
+      "segments": 22,
+      "prompt_chars": 10484,
+      "source_group": "ZAJJAJ",
+      "predicted_peak_tokens": 96433
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 44,
+      "source_chars": 53206,
+      "segments": 128,
+      "prompt_chars": 17096,
+      "source_group": "ASAD-NOTES",
+      "predicted_peak_tokens": 154252
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 45,
+      "source_chars": 52417,
+      "segments": 126,
+      "prompt_chars": 14918,
+      "source_group": "ASAD-NOTES",
+      "predicted_peak_tokens": 144323
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 46,
+      "source_chars": 51364,
+      "segments": 110,
+      "prompt_chars": 13727,
+      "source_group": "ASAD-NOTES",
+      "predicted_peak_tokens": 134401
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 47,
+      "source_chars": 53121,
+      "segments": 129,
+      "prompt_chars": 16010,
+      "source_group": "ASAD-NOTES",
+      "predicted_peak_tokens": 150240
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 48,
+      "source_chars": 43209,
+      "segments": 101,
+      "prompt_chars": 12472,
+      "source_group": "ASAD-NOTES",
+      "predicted_peak_tokens": 115298
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 49,
+      "source_chars": 11788,
+      "segments": 8,
+      "prompt_chars": 6102,
+      "source_group": "SAMARRAI-LAMASAT-HALAQAT",
+      "predicted_peak_tokens": 45534
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 50,
+      "source_chars": 39294,
+      "segments": 13,
+      "prompt_chars": 9753,
+      "source_group": "ISLAHI-TADABBUR",
+      "predicted_peak_tokens": 95113
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 51,
+      "source_chars": 39807,
+      "segments": 12,
+      "prompt_chars": 9549,
+      "source_group": "ISLAHI-TADABBUR",
+      "predicted_peak_tokens": 94866
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 52,
+      "source_chars": 39734,
+      "segments": 13,
+      "prompt_chars": 11075,
+      "source_group": "ISLAHI-TADABBUR",
+      "predicted_peak_tokens": 100792
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 53,
+      "source_chars": 39422,
+      "segments": 12,
+      "prompt_chars": 8834,
+      "source_group": "ISLAHI-TADABBUR",
+      "predicted_peak_tokens": 91575
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 54,
+      "source_chars": 40526,
+      "segments": 12,
+      "prompt_chars": 7949,
+      "source_group": "ISLAHI-TADABBUR",
+      "predicted_peak_tokens": 89863
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 55,
+      "source_chars": 10765,
+      "segments": 3,
+      "prompt_chars": 7533,
+      "source_group": "ISLAHI-TADABBUR",
+      "predicted_peak_tokens": 41663
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 56,
+      "source_chars": 41156,
+      "segments": 34,
+      "prompt_chars": 9561,
+      "source_group": "FARISI-HUJJA",
+      "predicted_peak_tokens": 126495
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 57,
+      "source_chars": 42132,
+      "segments": 34,
+      "prompt_chars": 8864,
+      "source_group": "FARISI-HUJJA",
+      "predicted_peak_tokens": 125306
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 58,
+      "source_chars": 43249,
+      "segments": 40,
+      "prompt_chars": 7911,
+      "source_group": "FARISI-HUJJA",
+      "predicted_peak_tokens": 124789
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 59,
+      "source_chars": 22812,
+      "segments": 15,
+      "prompt_chars": 7566,
+      "source_group": "IBNJINNI-MUHTASAB",
+      "predicted_peak_tokens": 82113
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 60,
+      "source_chars": 32254,
+      "segments": 34,
+      "prompt_chars": 10800,
+      "source_group": "IBNKHALAWAYH-HUJJA",
+      "predicted_peak_tokens": 113047
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 61,
+      "source_chars": 31385,
+      "segments": 24,
+      "prompt_chars": 10062,
+      "source_group": "IBNMUJAHID",
+      "predicted_peak_tokens": 106555
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 62,
+      "source_chars": 59720,
+      "segments": 234,
+      "prompt_chars": 21282,
+      "source_group": "QIRAAT-ER",
+      "predicted_peak_tokens": 227519
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 63,
+      "source_chars": 41341,
+      "segments": 148,
+      "prompt_chars": 13345,
+      "source_group": "QIRAAT-ER",
+      "predicted_peak_tokens": 149352
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 64,
+      "source_chars": 52278,
+      "segments": 105,
+      "prompt_chars": 20471,
+      "source_group": "ABDURRAZZAQ",
+      "predicted_peak_tokens": 193045
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 65,
+      "source_chars": 24064,
+      "segments": 62,
+      "prompt_chars": 11738,
+      "source_group": "ABDURRAZZAQ",
+      "predicted_peak_tokens": 107439
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 66,
+      "source_chars": 42897,
+      "segments": 23,
+      "prompt_chars": 11090,
+      "source_group": "ABUHAYYAN-FULL",
+      "predicted_peak_tokens": 140501
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 67,
+      "source_chars": 42551,
+      "segments": 23,
+      "prompt_chars": 10038,
+      "source_group": "ABUHAYYAN-FULL",
+      "predicted_peak_tokens": 135988
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 68,
+      "source_chars": 41930,
+      "segments": 24,
+      "prompt_chars": 9639,
+      "source_group": "ABUHAYYAN-FULL",
+      "predicted_peak_tokens": 133784
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 69,
+      "source_chars": 42262,
+      "segments": 22,
+      "prompt_chars": 11456,
+      "source_group": "ABUHAYYAN-FULL",
+      "predicted_peak_tokens": 140704
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 70,
+      "source_chars": 42910,
+      "segments": 23,
+      "prompt_chars": 13813,
+      "source_group": "ABUHAYYAN-FULL",
+      "predicted_peak_tokens": 150864
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 71,
+      "source_chars": 42294,
+      "segments": 22,
+      "prompt_chars": 9701,
+      "source_group": "ABUHAYYAN-FULL",
+      "predicted_peak_tokens": 134085
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 72,
+      "source_chars": 41649,
+      "segments": 23,
+      "prompt_chars": 13248,
+      "source_group": "ABUHAYYAN-FULL",
+      "predicted_peak_tokens": 146833
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 73,
+      "source_chars": 42758,
+      "segments": 24,
+      "prompt_chars": 11462,
+      "source_group": "ABUHAYYAN-FULL",
+      "predicted_peak_tokens": 141946
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 74,
+      "source_chars": 41932,
+      "segments": 23,
+      "prompt_chars": 8179,
+      "source_group": "ABUHAYYAN-FULL",
+      "predicted_peak_tokens": 128002
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 75,
+      "source_chars": 21904,
+      "segments": 12,
+      "prompt_chars": 9265,
+      "source_group": "ABUHAYYAN-FULL",
+      "predicted_peak_tokens": 99572
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 76,
+      "source_chars": 41774,
+      "segments": 22,
+      "prompt_chars": 5638,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 107300
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 77,
+      "source_chars": 41648,
+      "segments": 24,
+      "prompt_chars": 6560,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 111092
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 78,
+      "source_chars": 42091,
+      "segments": 21,
+      "prompt_chars": 6168,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 109548
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 79,
+      "source_chars": 40538,
+      "segments": 20,
+      "prompt_chars": 6410,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 107907
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 80,
+      "source_chars": 40890,
+      "segments": 21,
+      "prompt_chars": 7046,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 111088
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 81,
+      "source_chars": 42333,
+      "segments": 25,
+      "prompt_chars": 7159,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 114630
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 82,
+      "source_chars": 39955,
+      "segments": 25,
+      "prompt_chars": 6811,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 109755
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 83,
+      "source_chars": 42100,
+      "segments": 23,
+      "prompt_chars": 7056,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 113412
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 84,
+      "source_chars": 41403,
+      "segments": 23,
+      "prompt_chars": 6865,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 111645
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 85,
+      "source_chars": 41849,
+      "segments": 23,
+      "prompt_chars": 6533,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 111051
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 86,
+      "source_chars": 40654,
+      "segments": 19,
+      "prompt_chars": 5504,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 104400
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 87,
+      "source_chars": 40474,
+      "segments": 20,
+      "prompt_chars": 6640,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 108685
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 88,
+      "source_chars": 40660,
+      "segments": 20,
+      "prompt_chars": 5743,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 105556
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 89,
+      "source_chars": 40933,
+      "segments": 18,
+      "prompt_chars": 6071,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 106732
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 90,
+      "source_chars": 40086,
+      "segments": 20,
+      "prompt_chars": 6326,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 106913
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 91,
+      "source_chars": 42251,
+      "segments": 21,
+      "prompt_chars": 6268,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 110167
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 92,
+      "source_chars": 41902,
+      "segments": 26,
+      "prompt_chars": 7092,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 113970
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 93,
+      "source_chars": 41996,
+      "segments": 18,
+      "prompt_chars": 6453,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 109771
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 94,
+      "source_chars": 42887,
+      "segments": 26,
+      "prompt_chars": 6698,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 113945
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 95,
+      "source_chars": 42027,
+      "segments": 21,
+      "prompt_chars": 6007,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 108840
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 96,
+      "source_chars": 42276,
+      "segments": 22,
+      "prompt_chars": 5891,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 109011
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 97,
+      "source_chars": 39044,
+      "segments": 16,
+      "prompt_chars": 5401,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 100886
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 98,
+      "source_chars": 41584,
+      "segments": 21,
+      "prompt_chars": 6920,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 111646
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 99,
+      "source_chars": 41189,
+      "segments": 24,
+      "prompt_chars": 6534,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 110307
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 100,
+      "source_chars": 40495,
+      "segments": 23,
+      "prompt_chars": 6174,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 107664
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 101,
+      "source_chars": 41529,
+      "segments": 20,
+      "prompt_chars": 6270,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 108856
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 102,
+      "source_chars": 41021,
+      "segments": 25,
+      "prompt_chars": 7145,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 112616
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 103,
+      "source_chars": 42107,
+      "segments": 24,
+      "prompt_chars": 6960,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 113297
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 104,
+      "source_chars": 41786,
+      "segments": 24,
+      "prompt_chars": 5918,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 108859
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 105,
+      "source_chars": 42080,
+      "segments": 19,
+      "prompt_chars": 5503,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 106527
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 106,
+      "source_chars": 41977,
+      "segments": 24,
+      "prompt_chars": 6254,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 110421
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 107,
+      "source_chars": 41481,
+      "segments": 22,
+      "prompt_chars": 5787,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 107428
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 108,
+      "source_chars": 41395,
+      "segments": 19,
+      "prompt_chars": 6231,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 108269
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 109,
+      "source_chars": 42758,
+      "segments": 30,
+      "prompt_chars": 6825,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 115191
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 110,
+      "source_chars": 42336,
+      "segments": 23,
+      "prompt_chars": 5979,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 109674
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 111,
+      "source_chars": 42220,
+      "segments": 27,
+      "prompt_chars": 6651,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 113009
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 112,
+      "source_chars": 43068,
+      "segments": 28,
+      "prompt_chars": 7131,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 116339
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 113,
+      "source_chars": 42324,
+      "segments": 29,
+      "prompt_chars": 7231,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 115846
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 114,
+      "source_chars": 41253,
+      "segments": 24,
+      "prompt_chars": 6444,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 110061
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 115,
+      "source_chars": 42693,
+      "segments": 27,
+      "prompt_chars": 6556,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 113355
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 116,
+      "source_chars": 19470,
+      "segments": 13,
+      "prompt_chars": 5708,
+      "source_group": "ALUSI-FULL",
+      "predicted_peak_tokens": 72088
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 117,
+      "source_chars": 43300,
+      "segments": 43,
+      "prompt_chars": 10900,
+      "source_group": "BAGHAWI-FULL",
+      "predicted_peak_tokens": 146254
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 118,
+      "source_chars": 44169,
+      "segments": 49,
+      "prompt_chars": 12390,
+      "source_group": "BAGHAWI-FULL",
+      "predicted_peak_tokens": 154646
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 119,
+      "source_chars": 42721,
+      "segments": 41,
+      "prompt_chars": 12956,
+      "source_group": "BAGHAWI-FULL",
+      "predicted_peak_tokens": 152720
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 120,
+      "source_chars": 42835,
+      "segments": 42,
+      "prompt_chars": 10750,
+      "source_group": "BAGHAWI-FULL",
+      "predicted_peak_tokens": 144751
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 121,
+      "source_chars": 42838,
+      "segments": 42,
+      "prompt_chars": 13524,
+      "source_group": "BAGHAWI-FULL",
+      "predicted_peak_tokens": 155292
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 122,
+      "source_chars": 43900,
+      "segments": 47,
+      "prompt_chars": 11737,
+      "source_group": "BAGHAWI-FULL",
+      "predicted_peak_tokens": 151286
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 123,
+      "source_chars": 35658,
+      "segments": 38,
+      "prompt_chars": 10993,
+      "source_group": "BAGHAWI-FULL",
+      "predicted_peak_tokens": 133994
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 124,
+      "source_chars": 45957,
+      "segments": 61,
+      "prompt_chars": 15868,
+      "source_group": "BAYDAWI-FULL",
+      "predicted_peak_tokens": 164931
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 125,
+      "source_chars": 46367,
+      "segments": 65,
+      "prompt_chars": 16184,
+      "source_group": "BAYDAWI-FULL",
+      "predicted_peak_tokens": 167700
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 126,
+      "source_chars": 46740,
+      "segments": 63,
+      "prompt_chars": 16043,
+      "source_group": "BAYDAWI-FULL",
+      "predicted_peak_tokens": 167244
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 127,
+      "source_chars": 47039,
+      "segments": 71,
+      "prompt_chars": 15937,
+      "source_group": "BAYDAWI-FULL",
+      "predicted_peak_tokens": 169200
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 128,
+      "source_chars": 27423,
+      "segments": 43,
+      "prompt_chars": 10288,
+      "source_group": "BAYDAWI-FULL",
+      "predicted_peak_tokens": 111740
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 129,
+      "source_chars": 42311,
+      "segments": 20,
+      "prompt_chars": 7519,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 111550
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 130,
+      "source_chars": 40443,
+      "segments": 15,
+      "prompt_chars": 8843,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 112593
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 131,
+      "source_chars": 41702,
+      "segments": 17,
+      "prompt_chars": 8495,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 113630
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 132,
+      "source_chars": 39481,
+      "segments": 16,
+      "prompt_chars": 8331,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 109450
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 133,
+      "source_chars": 41399,
+      "segments": 17,
+      "prompt_chars": 7472,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 109292
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 134,
+      "source_chars": 40412,
+      "segments": 16,
+      "prompt_chars": 6272,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 103020
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 135,
+      "source_chars": 39721,
+      "segments": 17,
+      "prompt_chars": 5900,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 100813
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 136,
+      "source_chars": 41668,
+      "segments": 17,
+      "prompt_chars": 9045,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 115668
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 137,
+      "source_chars": 40032,
+      "segments": 16,
+      "prompt_chars": 7910,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 108674
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 138,
+      "source_chars": 41275,
+      "segments": 18,
+      "prompt_chars": 9003,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 115161
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 139,
+      "source_chars": 41727,
+      "segments": 15,
+      "prompt_chars": 9319,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 116319
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 140,
+      "source_chars": 39865,
+      "segments": 17,
+      "prompt_chars": 8643,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 111447
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 141,
+      "source_chars": 40426,
+      "segments": 15,
+      "prompt_chars": 9031,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 113281
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 142,
+      "source_chars": 41232,
+      "segments": 18,
+      "prompt_chars": 9068,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 115343
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 143,
+      "source_chars": 40418,
+      "segments": 17,
+      "prompt_chars": 8696,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 112475
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 144,
+      "source_chars": 25899,
+      "segments": 12,
+      "prompt_chars": 7908,
+      "source_group": "BIQAI-FULL",
+      "predicted_peak_tokens": 86593
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 145,
+      "source_chars": 40999,
+      "segments": 26,
+      "prompt_chars": 10147,
+      "source_group": "DURR-FULL",
+      "predicted_peak_tokens": 127431
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 146,
+      "source_chars": 41567,
+      "segments": 26,
+      "prompt_chars": 9673,
+      "source_group": "DURR-FULL",
+      "predicted_peak_tokens": 126479
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 147,
+      "source_chars": 40694,
+      "segments": 25,
+      "prompt_chars": 8903,
+      "source_group": "DURR-FULL",
+      "predicted_peak_tokens": 122011
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 148,
+      "source_chars": 41893,
+      "segments": 25,
+      "prompt_chars": 9476,
+      "source_group": "DURR-FULL",
+      "predicted_peak_tokens": 125979
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 149,
+      "source_chars": 41148,
+      "segments": 24,
+      "prompt_chars": 10100,
+      "source_group": "DURR-FULL",
+      "predicted_peak_tokens": 126997
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 150,
+      "source_chars": 40701,
+      "segments": 25,
+      "prompt_chars": 7955,
+      "source_group": "DURR-FULL",
+      "predicted_peak_tokens": 118420
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 151,
+      "source_chars": 41129,
+      "segments": 25,
+      "prompt_chars": 11663,
+      "source_group": "DURR-FULL",
+      "predicted_peak_tokens": 133144
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 152,
+      "source_chars": 41604,
+      "segments": 25,
+      "prompt_chars": 8969,
+      "source_group": "DURR-FULL",
+      "predicted_peak_tokens": 123621
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 153,
+      "source_chars": 41892,
+      "segments": 27,
+      "prompt_chars": 8439,
+      "source_group": "DURR-FULL",
+      "predicted_peak_tokens": 122516
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 154,
+      "source_chars": 40737,
+      "segments": 24,
+      "prompt_chars": 8417,
+      "source_group": "DURR-FULL",
+      "predicted_peak_tokens": 119990
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 155,
+      "source_chars": 4112,
+      "segments": 3,
+      "prompt_chars": 5383,
+      "source_group": "DURR-FULL",
+      "predicted_peak_tokens": 48721
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 156,
+      "source_chars": 44269,
+      "segments": 38,
+      "prompt_chars": 8487,
+      "source_group": "IBNABIHATIM",
+      "predicted_peak_tokens": 144228
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 157,
+      "source_chars": 43625,
+      "segments": 38,
+      "prompt_chars": 9963,
+      "source_group": "IBNABIHATIM",
+      "predicted_peak_tokens": 148872
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 158,
+      "source_chars": 43307,
+      "segments": 36,
+      "prompt_chars": 8913,
+      "source_group": "IBNABIHATIM",
+      "predicted_peak_tokens": 143931
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 159,
+      "source_chars": 19999,
+      "segments": 17,
+      "prompt_chars": 7156,
+      "source_group": "IBNABIHATIM",
+      "predicted_peak_tokens": 97889
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 160,
+      "source_chars": 43007,
+      "segments": 29,
+      "prompt_chars": 7271,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 108681
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 161,
+      "source_chars": 42781,
+      "segments": 31,
+      "prompt_chars": 8857,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 114845
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 162,
+      "source_chars": 43448,
+      "segments": 34,
+      "prompt_chars": 8983,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 117037
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 163,
+      "source_chars": 43501,
+      "segments": 34,
+      "prompt_chars": 9238,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 118085
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 164,
+      "source_chars": 43358,
+      "segments": 28,
+      "prompt_chars": 7493,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 109809
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 165,
+      "source_chars": 43123,
+      "segments": 30,
+      "prompt_chars": 7111,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 108485
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 166,
+      "source_chars": 43575,
+      "segments": 30,
+      "prompt_chars": 7862,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 112013
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 167,
+      "source_chars": 43962,
+      "segments": 29,
+      "prompt_chars": 7633,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 111483
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 168,
+      "source_chars": 42845,
+      "segments": 26,
+      "prompt_chars": 7428,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 108318
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 169,
+      "source_chars": 42659,
+      "segments": 30,
+      "prompt_chars": 8202,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 111936
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 170,
+      "source_chars": 44225,
+      "segments": 31,
+      "prompt_chars": 7825,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 113083
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 171,
+      "source_chars": 42546,
+      "segments": 34,
+      "prompt_chars": 8013,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 112005
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 172,
+      "source_chars": 43800,
+      "segments": 28,
+      "prompt_chars": 7491,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 110462
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 173,
+      "source_chars": 42992,
+      "segments": 30,
+      "prompt_chars": 7617,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 110211
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 174,
+      "source_chars": 42114,
+      "segments": 25,
+      "prompt_chars": 7845,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 108570
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 175,
+      "source_chars": 40843,
+      "segments": 26,
+      "prompt_chars": 7604,
+      "source_group": "IBNASHUR-FULL",
+      "predicted_peak_tokens": 105995
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 176,
+      "source_chars": 42866,
+      "segments": 29,
+      "prompt_chars": 9185,
+      "source_group": "IBNATIYYA-FULL",
+      "predicted_peak_tokens": 135148
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 177,
+      "source_chars": 43719,
+      "segments": 31,
+      "prompt_chars": 10446,
+      "source_group": "IBNATIYYA-FULL",
+      "predicted_peak_tokens": 141690
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 178,
+      "source_chars": 43350,
+      "segments": 28,
+      "prompt_chars": 9756,
+      "source_group": "IBNATIYYA-FULL",
+      "predicted_peak_tokens": 137801
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 179,
+      "source_chars": 42831,
+      "segments": 26,
+      "prompt_chars": 9019,
+      "source_group": "IBNATIYYA-FULL",
+      "predicted_peak_tokens": 133748
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 180,
+      "source_chars": 42198,
+      "segments": 27,
+      "prompt_chars": 9131,
+      "source_group": "IBNATIYYA-FULL",
+      "predicted_peak_tokens": 133467
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 181,
+      "source_chars": 42666,
+      "segments": 26,
+      "prompt_chars": 9184,
+      "source_group": "IBNATIYYA-FULL",
+      "predicted_peak_tokens": 134128
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 182,
+      "source_chars": 43556,
+      "segments": 32,
+      "prompt_chars": 10454,
+      "source_group": "IBNATIYYA-FULL",
+      "predicted_peak_tokens": 141716
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 183,
+      "source_chars": 40957,
+      "segments": 26,
+      "prompt_chars": 9734,
+      "source_group": "IBNATIYYA-FULL",
+      "predicted_peak_tokens": 133664
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 184,
+      "source_chars": 43127,
+      "segments": 29,
+      "prompt_chars": 9832,
+      "source_group": "IBNATIYYA-FULL",
+      "predicted_peak_tokens": 137996
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 185,
+      "source_chars": 42272,
+      "segments": 29,
+      "prompt_chars": 9958,
+      "source_group": "IBNATIYYA-FULL",
+      "predicted_peak_tokens": 137197
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 186,
+      "source_chars": 25503,
+      "segments": 17,
+      "prompt_chars": 7447,
+      "source_group": "IBNATIYYA-FULL",
+      "predicted_peak_tokens": 99734
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 187,
+      "source_chars": 44032,
+      "segments": 43,
+      "prompt_chars": 8454,
+      "source_group": "IBNJAWZI-ZAD",
+      "predicted_peak_tokens": 107726
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 188,
+      "source_chars": 45053,
+      "segments": 49,
+      "prompt_chars": 11022,
+      "source_group": "IBNJAWZI-ZAD",
+      "predicted_peak_tokens": 120440
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 189,
+      "source_chars": 46463,
+      "segments": 56,
+      "prompt_chars": 10458,
+      "source_group": "IBNJAWZI-ZAD",
+      "predicted_peak_tokens": 122078
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 190,
+      "source_chars": 47388,
+      "segments": 62,
+      "prompt_chars": 11423,
+      "source_group": "IBNJAWZI-ZAD",
+      "predicted_peak_tokens": 128560
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 191,
+      "source_chars": 45161,
+      "segments": 51,
+      "prompt_chars": 10546,
+      "source_group": "IBNJAWZI-ZAD",
+      "predicted_peak_tokens": 119272
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 192,
+      "source_chars": 46056,
+      "segments": 52,
+      "prompt_chars": 11202,
+      "source_group": "IBNJAWZI-ZAD",
+      "predicted_peak_tokens": 123340
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 193,
+      "source_chars": 45492,
+      "segments": 52,
+      "prompt_chars": 10404,
+      "source_group": "IBNJAWZI-ZAD",
+      "predicted_peak_tokens": 119466
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 194,
+      "source_chars": 47258,
+      "segments": 65,
+      "prompt_chars": 10549,
+      "source_group": "IBNJAWZI-ZAD",
+      "predicted_peak_tokens": 125763
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 195,
+      "source_chars": 35197,
+      "segments": 51,
+      "prompt_chars": 9336,
+      "source_group": "IBNJAWZI-ZAD",
+      "predicted_peak_tokens": 99788
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 196,
+      "source_chars": 50116,
+      "segments": 37,
+      "prompt_chars": 10913,
+      "source_group": "IBNKATHIR-FULL",
+      "predicted_peak_tokens": 150778
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 197,
+      "source_chars": 52188,
+      "segments": 40,
+      "prompt_chars": 11573,
+      "source_group": "IBNKATHIR-FULL",
+      "predicted_peak_tokens": 157098
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 198,
+      "source_chars": 44691,
+      "segments": 25,
+      "prompt_chars": 5662,
+      "source_group": "IBNKATHIR-FULL",
+      "predicted_peak_tokens": 119858
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 199,
+      "source_chars": 44546,
+      "segments": 22,
+      "prompt_chars": 5258,
+      "source_group": "IBNKATHIR-FULL",
+      "predicted_peak_tokens": 117390
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 200,
+      "source_chars": 45845,
+      "segments": 27,
+      "prompt_chars": 7143,
+      "source_group": "IBNKATHIR-FULL",
+      "predicted_peak_tokens": 127686
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 201,
+      "source_chars": 50091,
+      "segments": 41,
+      "prompt_chars": 9582,
+      "source_group": "IBNKATHIR-FULL",
+      "predicted_peak_tokens": 146641
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 202,
+      "source_chars": 48401,
+      "segments": 37,
+      "prompt_chars": 9362,
+      "source_group": "IBNKATHIR-FULL",
+      "predicted_peak_tokens": 142324
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 203,
+      "source_chars": 49737,
+      "segments": 36,
+      "prompt_chars": 9171,
+      "source_group": "IBNKATHIR-FULL",
+      "predicted_peak_tokens": 143356
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 204,
+      "source_chars": 51701,
+      "segments": 37,
+      "prompt_chars": 10869,
+      "source_group": "IBNKATHIR-FULL",
+      "predicted_peak_tokens": 152979
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 205,
+      "source_chars": 49906,
+      "segments": 32,
+      "prompt_chars": 9374,
+      "source_group": "IBNKATHIR-FULL",
+      "predicted_peak_tokens": 143423
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 206,
+      "source_chars": 50114,
+      "segments": 37,
+      "prompt_chars": 8494,
+      "source_group": "IBNKATHIR-FULL",
+      "predicted_peak_tokens": 141587
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 207,
+      "source_chars": 50272,
+      "segments": 37,
+      "prompt_chars": 8740,
+      "source_group": "IBNKATHIR-FULL",
+      "predicted_peak_tokens": 142757
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 208,
+      "source_chars": 46298,
+      "segments": 32,
+      "prompt_chars": 8135,
+      "source_group": "IBNKATHIR-FULL",
+      "predicted_peak_tokens": 133326
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 209,
+      "source_chars": 41986,
+      "segments": 25,
+      "prompt_chars": 12198,
+      "source_group": "JISHUMI",
+      "predicted_peak_tokens": 139394
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 210,
+      "source_chars": 41228,
+      "segments": 23,
+      "prompt_chars": 11333,
+      "source_group": "JISHUMI",
+      "predicted_peak_tokens": 134498
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 211,
+      "source_chars": 42958,
+      "segments": 26,
+      "prompt_chars": 9609,
+      "source_group": "JISHUMI",
+      "predicted_peak_tokens": 131252
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 212,
+      "source_chars": 41937,
+      "segments": 25,
+      "prompt_chars": 11751,
+      "source_group": "JISHUMI",
+      "predicted_peak_tokens": 137623
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 213,
+      "source_chars": 42588,
+      "segments": 27,
+      "prompt_chars": 13111,
+      "source_group": "JISHUMI",
+      "predicted_peak_tokens": 144240
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 214,
+      "source_chars": 42597,
+      "segments": 25,
+      "prompt_chars": 9689,
+      "source_group": "JISHUMI",
+      "predicted_peak_tokens": 130777
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 215,
+      "source_chars": 42069,
+      "segments": 23,
+      "prompt_chars": 10891,
+      "source_group": "JISHUMI",
+      "predicted_peak_tokens": 134076
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 216,
+      "source_chars": 8505,
+      "segments": 5,
+      "prompt_chars": 6174,
+      "source_group": "JISHUMI",
+      "predicted_peak_tokens": 61705
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 217,
+      "source_chars": 41846,
+      "segments": 31,
+      "prompt_chars": 8486,
+      "source_group": "KASHSHAF-FULL",
+      "predicted_peak_tokens": 136237
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 218,
+      "source_chars": 44674,
+      "segments": 44,
+      "prompt_chars": 11392,
+      "source_group": "KASHSHAF-FULL",
+      "predicted_peak_tokens": 154608
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 219,
+      "source_chars": 42113,
+      "segments": 41,
+      "prompt_chars": 10268,
+      "source_group": "KASHSHAF-FULL",
+      "predicted_peak_tokens": 145795
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 220,
+      "source_chars": 44230,
+      "segments": 40,
+      "prompt_chars": 10508,
+      "source_group": "KASHSHAF-FULL",
+      "predicted_peak_tokens": 149630
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 221,
+      "source_chars": 43683,
+      "segments": 39,
+      "prompt_chars": 10566,
+      "source_group": "KASHSHAF-FULL",
+      "predicted_peak_tokens": 148794
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 222,
+      "source_chars": 44864,
+      "segments": 44,
+      "prompt_chars": 11149,
+      "source_group": "KASHSHAF-FULL",
+      "predicted_peak_tokens": 153969
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 223,
+      "source_chars": 45144,
+      "segments": 50,
+      "prompt_chars": 9703,
+      "source_group": "KASHSHAF-FULL",
+      "predicted_peak_tokens": 150329
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 224,
+      "source_chars": 34362,
+      "segments": 30,
+      "prompt_chars": 7604,
+      "source_group": "KASHSHAF-FULL",
+      "predicted_peak_tokens": 121465
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 225,
+      "source_chars": 43644,
+      "segments": 31,
+      "prompt_chars": 12008,
+      "source_group": "MAWARDI-FULL",
+      "predicted_peak_tokens": 168539
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 226,
+      "source_chars": 43216,
+      "segments": 29,
+      "prompt_chars": 11962,
+      "source_group": "MAWARDI-FULL",
+      "predicted_peak_tokens": 167247
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 227,
+      "source_chars": 44601,
+      "segments": 49,
+      "prompt_chars": 14735,
+      "source_group": "MAWARDI-FULL",
+      "predicted_peak_tokens": 184630
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 228,
+      "source_chars": 43720,
+      "segments": 34,
+      "prompt_chars": 12792,
+      "source_group": "MAWARDI-FULL",
+      "predicted_peak_tokens": 172348
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 229,
+      "source_chars": 42636,
+      "segments": 32,
+      "prompt_chars": 11062,
+      "source_group": "MAWARDI-FULL",
+      "predicted_peak_tokens": 163679
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 230,
+      "source_chars": 26339,
+      "segments": 23,
+      "prompt_chars": 9787,
+      "source_group": "MAWARDI-FULL",
+      "predicted_peak_tokens": 132334
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 231,
+      "source_chars": 38171,
+      "segments": 131,
+      "prompt_chars": 24843,
+      "source_group": "MUJAHID",
+      "predicted_peak_tokens": 198414
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 232,
+      "source_chars": 44249,
+      "segments": 48,
+      "prompt_chars": 20043,
+      "source_group": "MUQATIL",
+      "predicted_peak_tokens": 169933
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 233,
+      "source_chars": 45042,
+      "segments": 50,
+      "prompt_chars": 19185,
+      "source_group": "MUQATIL",
+      "predicted_peak_tokens": 168337
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 234,
+      "source_chars": 45169,
+      "segments": 56,
+      "prompt_chars": 21396,
+      "source_group": "MUQATIL",
+      "predicted_peak_tokens": 178359
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 235,
+      "source_chars": 4160,
+      "segments": 6,
+      "prompt_chars": 6384,
+      "source_group": "MUQATIL",
+      "predicted_peak_tokens": 48111
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 236,
+      "source_chars": 47907,
+      "segments": 69,
+      "prompt_chars": 15637,
+      "source_group": "NASAFI-FULL",
+      "predicted_peak_tokens": 144840
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 237,
+      "source_chars": 49547,
+      "segments": 82,
+      "prompt_chars": 16950,
+      "source_group": "NASAFI-FULL",
+      "predicted_peak_tokens": 155386
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 238,
+      "source_chars": 49391,
+      "segments": 90,
+      "prompt_chars": 17452,
+      "source_group": "NASAFI-FULL",
+      "predicted_peak_tokens": 158972
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 239,
+      "source_chars": 51688,
+      "segments": 104,
+      "prompt_chars": 16190,
+      "source_group": "NASAFI-FULL",
+      "predicted_peak_tokens": 160957
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 240,
+      "source_chars": 22429,
+      "segments": 41,
+      "prompt_chars": 9008,
+      "source_group": "NASAFI-FULL",
+      "predicted_peak_tokens": 74899
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 241,
+      "source_chars": 42726,
+      "segments": 28,
+      "prompt_chars": 7096,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 136835
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 242,
+      "source_chars": 42473,
+      "segments": 25,
+      "prompt_chars": 7291,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 136481
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 243,
+      "source_chars": 42909,
+      "segments": 31,
+      "prompt_chars": 9599,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 147333
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 244,
+      "source_chars": 40821,
+      "segments": 25,
+      "prompt_chars": 8219,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 137537
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 245,
+      "source_chars": 41612,
+      "segments": 24,
+      "prompt_chars": 7897,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 137257
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 246,
+      "source_chars": 40974,
+      "segments": 28,
+      "prompt_chars": 7974,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 137552
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 247,
+      "source_chars": 42109,
+      "segments": 31,
+      "prompt_chars": 8131,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 140562
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 248,
+      "source_chars": 43626,
+      "segments": 37,
+      "prompt_chars": 9290,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 148665
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 249,
+      "source_chars": 42531,
+      "segments": 28,
+      "prompt_chars": 6740,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 135192
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 250,
+      "source_chars": 41981,
+      "segments": 33,
+      "prompt_chars": 8838,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 143534
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 251,
+      "source_chars": 41530,
+      "segments": 29,
+      "prompt_chars": 8235,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 139614
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 252,
+      "source_chars": 41595,
+      "segments": 25,
+      "prompt_chars": 8477,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 139674
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 253,
+      "source_chars": 41422,
+      "segments": 21,
+      "prompt_chars": 6979,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 132769
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 254,
+      "source_chars": 42207,
+      "segments": 24,
+      "prompt_chars": 7421,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 136338
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 255,
+      "source_chars": 41355,
+      "segments": 22,
+      "prompt_chars": 8520,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 138761
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 256,
+      "source_chars": 42297,
+      "segments": 26,
+      "prompt_chars": 7822,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 138474
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 257,
+      "source_chars": 37624,
+      "segments": 26,
+      "prompt_chars": 7789,
+      "source_group": "QURTUBI-FULL",
+      "predicted_peak_tokens": 131366
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 258,
+      "source_chars": 42287,
+      "segments": 29,
+      "prompt_chars": 7393,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 114049
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 259,
+      "source_chars": 42035,
+      "segments": 24,
+      "prompt_chars": 6541,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 109241
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 260,
+      "source_chars": 42861,
+      "segments": 26,
+      "prompt_chars": 7369,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 114099
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 261,
+      "source_chars": 41971,
+      "segments": 28,
+      "prompt_chars": 8295,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 116764
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 262,
+      "source_chars": 42546,
+      "segments": 27,
+      "prompt_chars": 7224,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 113316
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 263,
+      "source_chars": 42248,
+      "segments": 25,
+      "prompt_chars": 7341,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 112837
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 264,
+      "source_chars": 42618,
+      "segments": 26,
+      "prompt_chars": 7108,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 112744
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 265,
+      "source_chars": 41984,
+      "segments": 26,
+      "prompt_chars": 6777,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 110540
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 266,
+      "source_chars": 42998,
+      "segments": 26,
+      "prompt_chars": 6313,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 110292
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 267,
+      "source_chars": 42649,
+      "segments": 26,
+      "prompt_chars": 7048,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 112563
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 268,
+      "source_chars": 42193,
+      "segments": 26,
+      "prompt_chars": 7754,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 114563
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 269,
+      "source_chars": 42959,
+      "segments": 25,
+      "prompt_chars": 7486,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 114451
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 270,
+      "source_chars": 41528,
+      "segments": 19,
+      "prompt_chars": 6019,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 105306
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 271,
+      "source_chars": 42426,
+      "segments": 23,
+      "prompt_chars": 6225,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 108386
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 272,
+      "source_chars": 41706,
+      "segments": 24,
+      "prompt_chars": 8007,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 114318
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 273,
+      "source_chars": 43037,
+      "segments": 27,
+      "prompt_chars": 8156,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 117590
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 274,
+      "source_chars": 42957,
+      "segments": 28,
+      "prompt_chars": 8256,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 118089
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 275,
+      "source_chars": 42065,
+      "segments": 28,
+      "prompt_chars": 8469,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 117566
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 276,
+      "source_chars": 42107,
+      "segments": 27,
+      "prompt_chars": 6376,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 109439
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 277,
+      "source_chars": 42181,
+      "segments": 25,
+      "prompt_chars": 7176,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 112111
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 278,
+      "source_chars": 41288,
+      "segments": 22,
+      "prompt_chars": 6665,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 108118
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 279,
+      "source_chars": 43302,
+      "segments": 28,
+      "prompt_chars": 7966,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 117503
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 280,
+      "source_chars": 25886,
+      "segments": 18,
+      "prompt_chars": 7187,
+      "source_group": "RAZI-FULL",
+      "predicted_peak_tokens": 86131
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 281,
+      "source_chars": 42173,
+      "segments": 27,
+      "prompt_chars": 10451,
+      "source_group": "STUDYQURAN",
+      "predicted_peak_tokens": 92654
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 282,
+      "source_chars": 40887,
+      "segments": 47,
+      "prompt_chars": 13898,
+      "source_group": "STUDYQURAN",
+      "predicted_peak_tokens": 108606
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 283,
+      "source_chars": 39633,
+      "segments": 23,
+      "prompt_chars": 9212,
+      "source_group": "STUDYQURAN",
+      "predicted_peak_tokens": 83196
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 284,
+      "source_chars": 42476,
+      "segments": 26,
+      "prompt_chars": 9732,
+      "source_group": "STUDYQURAN",
+      "predicted_peak_tokens": 90136
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 285,
+      "source_chars": 40594,
+      "segments": 22,
+      "prompt_chars": 8664,
+      "source_group": "STUDYQURAN",
+      "predicted_peak_tokens": 82312
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 286,
+      "source_chars": 40762,
+      "segments": 27,
+      "prompt_chars": 9839,
+      "source_group": "STUDYQURAN",
+      "predicted_peak_tokens": 88221
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 287,
+      "source_chars": 27532,
+      "segments": 18,
+      "prompt_chars": 8535,
+      "source_group": "STUDYQURAN",
+      "predicted_peak_tokens": 61348
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 288,
+      "source_chars": 39197,
+      "segments": 3,
+      "prompt_chars": 8172,
+      "source_group": "STUDYQURAN",
+      "predicted_peak_tokens": 73814
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 289,
+      "source_chars": 21837,
+      "segments": 19,
+      "prompt_chars": 7788,
+      "source_group": "STUDYQURAN",
+      "predicted_peak_tokens": 50240
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 290,
+      "source_chars": 40252,
+      "segments": 5,
+      "prompt_chars": 8897,
+      "source_group": "STUDYQURAN",
+      "predicted_peak_tokens": 78622
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 291,
+      "source_chars": 43027,
+      "segments": 29,
+      "prompt_chars": 9284,
+      "source_group": "STUDYQURAN",
+      "predicted_peak_tokens": 89975
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 292,
+      "source_chars": 13320,
+      "segments": 11,
+      "prompt_chars": 6714,
+      "source_group": "STUDYQURAN",
+      "predicted_peak_tokens": 31523
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 293,
+      "source_chars": 51766,
+      "segments": 41,
+      "prompt_chars": 7406,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 144400
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 294,
+      "source_chars": 48889,
+      "segments": 34,
+      "prompt_chars": 6167,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 133722
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 295,
+      "source_chars": 52163,
+      "segments": 40,
+      "prompt_chars": 7592,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 145461
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 296,
+      "source_chars": 51288,
+      "segments": 40,
+      "prompt_chars": 7856,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 145156
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 297,
+      "source_chars": 49438,
+      "segments": 33,
+      "prompt_chars": 7015,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 137524
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 298,
+      "source_chars": 48886,
+      "segments": 36,
+      "prompt_chars": 7617,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 139703
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 299,
+      "source_chars": 46144,
+      "segments": 26,
+      "prompt_chars": 5668,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 125813
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 300,
+      "source_chars": 47978,
+      "segments": 28,
+      "prompt_chars": 6149,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 130858
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 301,
+      "source_chars": 49015,
+      "segments": 28,
+      "prompt_chars": 6237,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 132742
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 302,
+      "source_chars": 50477,
+      "segments": 34,
+      "prompt_chars": 6970,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 139145
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 303,
+      "source_chars": 52698,
+      "segments": 42,
+      "prompt_chars": 8489,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 150145
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 304,
+      "source_chars": 50025,
+      "segments": 36,
+      "prompt_chars": 7300,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 140201
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 305,
+      "source_chars": 48446,
+      "segments": 28,
+      "prompt_chars": 6020,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 131068
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 306,
+      "source_chars": 51939,
+      "segments": 41,
+      "prompt_chars": 8129,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 147405
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 307,
+      "source_chars": 48381,
+      "segments": 33,
+      "prompt_chars": 6600,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 134369
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 308,
+      "source_chars": 52320,
+      "segments": 41,
+      "prompt_chars": 8176,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 148153
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 309,
+      "source_chars": 51489,
+      "segments": 45,
+      "prompt_chars": 7339,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 144688
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 310,
+      "source_chars": 49423,
+      "segments": 36,
+      "prompt_chars": 6406,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 135906
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 311,
+      "source_chars": 54690,
+      "segments": 49,
+      "prompt_chars": 8391,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 154423
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 312,
+      "source_chars": 51183,
+      "segments": 38,
+      "prompt_chars": 6826,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 140609
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 313,
+      "source_chars": 5108,
+      "segments": 3,
+      "prompt_chars": 5275,
+      "source_group": "TAB-FULL",
+      "predicted_peak_tokens": 57507
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 314,
+      "source_chars": 41985,
+      "segments": 21,
+      "prompt_chars": 6934,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 101504
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 315,
+      "source_chars": 40315,
+      "segments": 20,
+      "prompt_chars": 7863,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 102299
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 316,
+      "source_chars": 41605,
+      "segments": 19,
+      "prompt_chars": 9348,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 109628
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 317,
+      "source_chars": 40497,
+      "segments": 19,
+      "prompt_chars": 9112,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 107076
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 318,
+      "source_chars": 41604,
+      "segments": 20,
+      "prompt_chars": 5276,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 94398
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 319,
+      "source_chars": 40203,
+      "segments": 20,
+      "prompt_chars": 8187,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 103362
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 320,
+      "source_chars": 41082,
+      "segments": 20,
+      "prompt_chars": 7220,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 101002
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 321,
+      "source_chars": 41364,
+      "segments": 18,
+      "prompt_chars": 7840,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 103301
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 322,
+      "source_chars": 41685,
+      "segments": 22,
+      "prompt_chars": 8834,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 108512
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 323,
+      "source_chars": 40960,
+      "segments": 19,
+      "prompt_chars": 7756,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 102617
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 324,
+      "source_chars": 41754,
+      "segments": 21,
+      "prompt_chars": 9867,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 112300
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 325,
+      "source_chars": 41967,
+      "segments": 22,
+      "prompt_chars": 7740,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 104778
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 326,
+      "source_chars": 42334,
+      "segments": 23,
+      "prompt_chars": 10010,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 114188
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 327,
+      "source_chars": 41116,
+      "segments": 23,
+      "prompt_chars": 11069,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 116390
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 328,
+      "source_chars": 41006,
+      "segments": 21,
+      "prompt_chars": 9725,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 110643
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 329,
+      "source_chars": 41999,
+      "segments": 19,
+      "prompt_chars": 7208,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 102088
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 330,
+      "source_chars": 41587,
+      "segments": 23,
+      "prompt_chars": 8966,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 109106
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 331,
+      "source_chars": 41140,
+      "segments": 20,
+      "prompt_chars": 8906,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 107493
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 332,
+      "source_chars": 41284,
+      "segments": 20,
+      "prompt_chars": 9290,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 109167
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 333,
+      "source_chars": 41553,
+      "segments": 23,
+      "prompt_chars": 6800,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 100828
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 334,
+      "source_chars": 24503,
+      "segments": 13,
+      "prompt_chars": 6772,
+      "source_group": "TABATABAI",
+      "predicted_peak_tokens": 72855
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 335,
+      "source_chars": 41311,
+      "segments": 26,
+      "prompt_chars": 7572,
+      "source_group": "TABRISI",
+      "predicted_peak_tokens": 122050
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 336,
+      "source_chars": 41583,
+      "segments": 21,
+      "prompt_chars": 9179,
+      "source_group": "TABRISI",
+      "predicted_peak_tokens": 127365
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 337,
+      "source_chars": 40070,
+      "segments": 21,
+      "prompt_chars": 9392,
+      "source_group": "TABRISI",
+      "predicted_peak_tokens": 125913
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 338,
+      "source_chars": 40874,
+      "segments": 24,
+      "prompt_chars": 8449,
+      "source_group": "TABRISI",
+      "predicted_peak_tokens": 124250
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 339,
+      "source_chars": 42000,
+      "segments": 24,
+      "prompt_chars": 8817,
+      "source_group": "TABRISI",
+      "predicted_peak_tokens": 127330
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 340,
+      "source_chars": 41393,
+      "segments": 22,
+      "prompt_chars": 9117,
+      "source_group": "TABRISI",
+      "predicted_peak_tokens": 127085
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 341,
+      "source_chars": 42235,
+      "segments": 25,
+      "prompt_chars": 9737,
+      "source_group": "TABRISI",
+      "predicted_peak_tokens": 131415
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 342,
+      "source_chars": 42274,
+      "segments": 26,
+      "prompt_chars": 10108,
+      "source_group": "TABRISI",
+      "predicted_peak_tokens": 133121
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 343,
+      "source_chars": 41437,
+      "segments": 26,
+      "prompt_chars": 9193,
+      "source_group": "TABRISI",
+      "predicted_peak_tokens": 128395
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 344,
+      "source_chars": 40969,
+      "segments": 23,
+      "prompt_chars": 8455,
+      "source_group": "TABRISI",
+      "predicted_peak_tokens": 124176
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 345,
+      "source_chars": 40660,
+      "segments": 23,
+      "prompt_chars": 9753,
+      "source_group": "TABRISI",
+      "predicted_peak_tokens": 128644
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 346,
+      "source_chars": 16521,
+      "segments": 9,
+      "prompt_chars": 6549,
+      "source_group": "TABRISI",
+      "predicted_peak_tokens": 77060
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 347,
+      "source_chars": 43017,
+      "segments": 25,
+      "prompt_chars": 9102,
+      "source_group": "THALABI",
+      "predicted_peak_tokens": 126757
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 348,
+      "source_chars": 41708,
+      "segments": 25,
+      "prompt_chars": 10360,
+      "source_group": "THALABI",
+      "predicted_peak_tokens": 129579
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 349,
+      "source_chars": 43392,
+      "segments": 24,
+      "prompt_chars": 7411,
+      "source_group": "THALABI",
+      "predicted_peak_tokens": 120655
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 350,
+      "source_chars": 43244,
+      "segments": 24,
+      "prompt_chars": 7440,
+      "source_group": "THALABI",
+      "predicted_peak_tokens": 120544
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 351,
+      "source_chars": 43203,
+      "segments": 28,
+      "prompt_chars": 12243,
+      "source_group": "THALABI",
+      "predicted_peak_tokens": 139682
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 352,
+      "source_chars": 43761,
+      "segments": 25,
+      "prompt_chars": 12291,
+      "source_group": "THALABI",
+      "predicted_peak_tokens": 139981
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 353,
+      "source_chars": 43579,
+      "segments": 27,
+      "prompt_chars": 12043,
+      "source_group": "THALABI",
+      "predicted_peak_tokens": 139246
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 354,
+      "source_chars": 41903,
+      "segments": 24,
+      "prompt_chars": 13774,
+      "source_group": "THALABI",
+      "predicted_peak_tokens": 142599
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 355,
+      "source_chars": 42480,
+      "segments": 26,
+      "prompt_chars": 11899,
+      "source_group": "THALABI",
+      "predicted_peak_tokens": 136817
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 356,
+      "source_chars": 44063,
+      "segments": 48,
+      "prompt_chars": 8452,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 139373
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 357,
+      "source_chars": 43506,
+      "segments": 45,
+      "prompt_chars": 9929,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 143434
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 358,
+      "source_chars": 44247,
+      "segments": 46,
+      "prompt_chars": 8178,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 138129
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 359,
+      "source_chars": 44559,
+      "segments": 49,
+      "prompt_chars": 9296,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 143559
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 360,
+      "source_chars": 44965,
+      "segments": 49,
+      "prompt_chars": 8883,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 142597
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 361,
+      "source_chars": 44004,
+      "segments": 44,
+      "prompt_chars": 9124,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 140881
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 362,
+      "source_chars": 44450,
+      "segments": 42,
+      "prompt_chars": 7943,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 136584
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 363,
+      "source_chars": 45546,
+      "segments": 56,
+      "prompt_chars": 9718,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 148310
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 364,
+      "source_chars": 43791,
+      "segments": 42,
+      "prompt_chars": 8317,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 137020
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 365,
+      "source_chars": 44028,
+      "segments": 45,
+      "prompt_chars": 8974,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 140586
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 366,
+      "source_chars": 44864,
+      "segments": 50,
+      "prompt_chars": 8834,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 142499
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 367,
+      "source_chars": 45596,
+      "segments": 54,
+      "prompt_chars": 9416,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 146759
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 368,
+      "source_chars": 44971,
+      "segments": 45,
+      "prompt_chars": 8630,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 140689
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 369,
+      "source_chars": 5915,
+      "segments": 7,
+      "prompt_chars": 5715,
+      "source_group": "WAHIDI-BASIT",
+      "predicted_peak_tokens": 62176
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 370,
+      "source_chars": 47416,
+      "segments": 73,
+      "prompt_chars": 30062,
+      "source_group": "WAHIDI-WAJIZ",
+      "predicted_peak_tokens": 217734
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 371,
+      "source_chars": 33241,
+      "segments": 54,
+      "prompt_chars": 24386,
+      "source_group": "WAHIDI-WAJIZ",
+      "predicted_peak_tokens": 170453
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 372,
+      "source_chars": 44507,
+      "segments": 45,
+      "prompt_chars": 14251,
+      "source_group": "YAHYA-SALLAM",
+      "predicted_peak_tokens": 150694
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 373,
+      "source_chars": 43349,
+      "segments": 42,
+      "prompt_chars": 16347,
+      "source_group": "YAHYA-SALLAM",
+      "predicted_peak_tokens": 156208
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 374,
+      "source_chars": 44757,
+      "segments": 46,
+      "prompt_chars": 16455,
+      "source_group": "YAHYA-SALLAM",
+      "predicted_peak_tokens": 159678
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 375,
+      "source_chars": 6036,
+      "segments": 5,
+      "prompt_chars": 6245,
+      "source_group": "YAHYA-SALLAM",
+      "predicted_peak_tokens": 53240
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 376,
+      "source_chars": 41681,
+      "segments": 20,
+      "prompt_chars": 10289,
+      "source_group": "ELMALILI",
+      "predicted_peak_tokens": 117282
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 377,
+      "source_chars": 39188,
+      "segments": 19,
+      "prompt_chars": 9497,
+      "source_group": "ELMALILI",
+      "predicted_peak_tokens": 110310
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 378,
+      "source_chars": 39074,
+      "segments": 10,
+      "prompt_chars": 7275,
+      "source_group": "ELMALILI",
+      "predicted_peak_tokens": 99548
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 379,
+      "source_chars": 40618,
+      "segments": 17,
+      "prompt_chars": 8565,
+      "source_group": "ELMALILI",
+      "predicted_peak_tokens": 108428
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 380,
+      "source_chars": 40967,
+      "segments": 16,
+      "prompt_chars": 11190,
+      "source_group": "ELMALILI",
+      "predicted_peak_tokens": 118681
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 381,
+      "source_chars": 40425,
+      "segments": 18,
+      "prompt_chars": 11888,
+      "source_group": "ELMALILI",
+      "predicted_peak_tokens": 121001
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 382,
+      "source_chars": 36986,
+      "segments": 15,
+      "prompt_chars": 7229,
+      "source_group": "ELMALILI",
+      "predicted_peak_tokens": 97449
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 383,
+      "source_chars": 24099,
+      "segments": 15,
+      "prompt_chars": 13518,
+      "source_group": "ELMALILI",
+      "predicted_peak_tokens": 102081
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 384,
+      "source_chars": 43840,
+      "segments": 55,
+      "prompt_chars": 16461,
+      "source_group": "KURANYOLU-TEFSIR",
+      "predicted_peak_tokens": 126313
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 385,
+      "source_chars": 41628,
+      "segments": 25,
+      "prompt_chars": 9645,
+      "source_group": "KURANYOLU-TEFSIR",
+      "predicted_peak_tokens": 89948
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 386,
+      "source_chars": 42094,
+      "segments": 34,
+      "prompt_chars": 11052,
+      "source_group": "KURANYOLU-TEFSIR",
+      "predicted_peak_tokens": 98139
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 387,
+      "source_chars": 41726,
+      "segments": 26,
+      "prompt_chars": 10169,
+      "source_group": "KURANYOLU-TEFSIR",
+      "predicted_peak_tokens": 92323
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 388,
+      "source_chars": 42396,
+      "segments": 39,
+      "prompt_chars": 12647,
+      "source_group": "KURANYOLU-TEFSIR",
+      "predicted_peak_tokens": 105844
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 389,
+      "source_chars": 42525,
+      "segments": 37,
+      "prompt_chars": 13250,
+      "source_group": "KURANYOLU-TEFSIR",
+      "predicted_peak_tokens": 107849
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 390,
+      "source_chars": 30950,
+      "segments": 28,
+      "prompt_chars": 11063,
+      "source_group": "MULTI",
+      "predicted_peak_tokens": 108880
+    },
+    {
+      "run": "s12_17_19",
+      "chunk": 391,
+      "source_chars": 14233,
+      "segments": 9,
+      "prompt_chars": 11628,
+      "source_group": "WAHIDI-ASBAB",
+      "predicted_peak_tokens": 80322
+    }
+  ]
+}
