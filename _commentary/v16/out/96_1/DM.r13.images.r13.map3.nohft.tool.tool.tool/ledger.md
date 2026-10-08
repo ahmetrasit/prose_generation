@@ -1,0 +1,14 @@
+- memory: bi- in bi-smi read as accompaniment/support ("with, relying on")
+- memory: musammā (22:5) is passive participle of sammā, root س م و
+- memory: samāwāt (19:65) plural of samāʾ, same root as samiyy and ism
+- memory: mutawassimīn (15:75) from و س م, form V
+- memory: mukth (17:106) and yamkuthu (13:17) share root م ك ث
+- memory: rubb also used for thickened fruit juice (stated beyond the quoted grape phrase)
+- memory: Turkish halk/ahlak/isim/Rab as narrowed loans from Arabic
+- not written: ق ر ء B005 time/wind season - no theme could carry it without forcing
+- not written: ق ر ء B008 epidemic, B009 she-camel's heat, B010 keeping a slave woman till menses, B013 livestock/dependents - no theme
+- not written: س م و B003 stallion among the herd, B008 good repute - no theme
+- not written: ر ب ب B004 multitude, B007 staying put, B009 freshness, B012 plant, B014 wild-cow herd, B015 particle rubba, B017 ship captain - no theme
+- not written: خ ل ق B005 befitting, B006 share (khalāq), B009 worn-out garment, B010 perfume, B012 occluded woman - no theme
+- not written: و س م B004 mawsim gathering place, B005 beauty, B006 dye plant - alternative root, no theme
+- not written: ر ب و echo (22:5 rabat, 13:17 rābiyan) - echo root, not identity; kept out
