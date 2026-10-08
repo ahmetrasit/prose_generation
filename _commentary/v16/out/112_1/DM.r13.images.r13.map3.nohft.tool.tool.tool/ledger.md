@@ -1,0 +1,12 @@
+- memory: هُوَ here readable as pronoun of the matter (ḍamīr al-shaʾn)
+- memory: nominal sentence has no verb and marks no tense
+- memory: لَّٰكِنَّا۠ in 18:38 is lākin + anā
+- memory: ehad in non-divine affirmative use mostly construct ("one of") or with numbers
+- memory: Turkish "kul" (slave) unrelated to Arabic qul
+- not written: و ل ه B002 separating mother from young - alternative root; pairing with لم يلد would be forced
+- not written: و ل ه B003 water lost in the desert - alternative root, no theme
+- not written: ء ح د B006 Uhud mountain - proper name, no work here
+- not written: ء ح د B003 فأحدهن making them eleven - no theme
+- not written: ء ح د B005 جاءوا آحاد coming one by one - no theme
+- not written: ق و ل B003, B006, B008-B011, B014-B017 - no work in a theme
+- not written: echo root ق ل ل - not identity; withheld
