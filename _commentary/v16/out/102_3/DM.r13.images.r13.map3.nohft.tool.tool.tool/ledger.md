@@ -1,0 +1,8 @@
+- memory: yahsebu (to suppose) shares root ح س ب with reckoning/counting
+- memory: sawfa as a separate future word versus the prefix sa- (distance claim is interpretive)
+- memory: kallā functions as a particle of rejection of what precedes
+- not written: ع ل م B004 split upper lip - no tie to a theme of this ayah
+- not written: ع ل م B006 falcon, quick clever man - no grounding in the ayah's situation
+- not written: ع ل م B007 male hyena - no grounding
+- not written: B002 sign of the Hour sense - Quran support would need a reading outside the supplied text
+- not written: Pharaoh's fa-la-sawfa ta'lamūn threat (26:49) - added nothing beyond 11:39 and 6:135
