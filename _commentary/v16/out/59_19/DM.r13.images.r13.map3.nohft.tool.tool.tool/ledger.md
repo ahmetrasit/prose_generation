@@ -1,0 +1,12 @@
+- memory: Turkish "fâsık" narrowed to a moral label for a dissolute person
+- memory: ripe fresh date (ruṭab) slipping from its skin as described
+- not written: ف س ق B001 "خرج عن حجر الشرع" (ḥijr as lap/guardianship) - sense of ḥijr not in supplied material
+- not written: ن س ي B004 sciatic vein, B005 deferral (hamzated), B006 driving staff, B007 watered milk - no bearing on the ayah's themes
+- not written: ن س ي B003 "menstrual rag" sense - adds nothing beyond the discarded-leftover image
+- not written: و ل ه alternative etymology of Allah (bewilderment, mother parted from young) - alternative analysis only, would compete with the identity root
+- not written: إنسان (59:16) beside نسي - different root, echo only
+- not written: ن ف س B001 breath, B009 dawn breathing, B015 respite, B003 evil eye, B005 childbirth, B007 tanning, B008 water, B016 gaming arrow - none grounds the self-forgetting theme
+- not written: ك و ن B002–B006 (place, surety, submission, old man's "I was", bad night) - no work in the theme
+- not written: ء ل ه B002 oath and vocative forms, al-ilāha as sun - no work here
+- not written: 20:124–126 forgotten signs, raised blind - overlaps 45:34; kept one day-of-meeting passage
+- not written: 6:44 forgot reminder, gates opened - duplicates 7:165 pairing
