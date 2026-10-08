@@ -1,7 +1,64 @@
 # Enrichment v7: verse digests first, page writers after
 
-Status 2026-10-07: **two-tier digest test done on 100:1 and 87:6** (`work/test-20261007`); proposed: tier 1 Luna max,
-tier 2 Sol high (user to confirm). Supersedes `enrichment/v6/PLAN.md`.
+Status 2026-10-07 evening: **decided workflow below (focus ayah only)**; everything after it is history. Supersedes
+`enrichment/v6/PLAN.md`. Review that led here: `REVIEW_optimum_2026-10-07.md`.
+
+## Decided workflow (user, 2026-10-07)
+
+**Scope**
+- Enrich the **focus ayah only**, from the reading's initial findings. The base is the r13 reading **without augment9**.
+- Cited verses get **no digests and no blocks**. The sources' own links (`mentions`) carry those connections; later,
+  a page link.
+
+**Models (decided)**
+
+| Step | Model | Unit |
+|---|---|---|
+| Tier 1 | **Luna max** | per source segment, 20k-character chunks |
+| Tier 2 | **Sol high** | per focus ayah |
+| Writer | Opus high or Astra high (open) | one call per ayah |
+
+**Tier 1 (`digest.py`)**
+- Material:
+  - the ayah's verse-tied commentary segments;
+  - the **quotation packet** (`--quotes`): works with no verse index that quote the ayah's own words.
+- Surah-level segments are printed and reserved for the surah page.
+- Checks: every segment answered; every anchor verbatim.
+- Status: done for the own ayat of S1 and S87–114. Quotation packets are still to run, except for 103:1.
+
+**Tier 2 (`merge.py`)**
+- Input: all of the ayah's tier-1 notes, with the full-edition rule applied.
+- Output: each distinct view once, with its holders, stances and disagreements.
+- Check: every note is in at least one view.
+
+**Writer** (focus mode; brief and `write.py` mode still to be written and shown to the user)
+- Input:
+  - the reading without augment9, with `[¶n]`;
+  - the ayah's views;
+  - all Turkish meals.
+- Output:
+  - one block per question, after the first paragraph that raises it, plus a closing group;
+  - at most about 150 words per block and about 900 per ayah.
+- Check: every view is cited in a block or listed as omitted with a reason.
+- Render: blocks link to the views, the views to the notes and exact words, the notes to the locators. Strip check:
+  removing the blocks gives the frozen page back byte for byte.
+
+**Later**
+- A word stage keyed by term or root: hadith collections, poetry, term encyclopaedias. Until then each page states
+  they were not consulted.
+- Surah-level material goes to the surah commentary page.
+
+**Dropped**
+- Cross-reference digests and blocks (`s103-1/tier2` and `pilot100-20261007` are not run).
+- Writing against augment9.
+- The paragraph × cited-verse ledger.
+- Giving the writer the full tier-1 notes.
+
+**Model trials on 103:1** (`work/s103-focus`; API-equivalent)
+- **Haiku 5.5, tier 1 on the quotation packet:** 196 rows, check OK, $0.13; faithful in a 9-row spot check. Not
+  tested on dense tafsir. Luna is kept for tier 1.
+- **Sonnet 5.5, tier 2:** 393 → 102 views, check OK, $0.78; distinct views kept (Bint al-Shāṭiʾ's reading,
+  Biqāʿī's). About 2.5× Sol's cost, so **Sol is kept for tier 2**.
 
 ## Results of the test (2026-10-07)
 
