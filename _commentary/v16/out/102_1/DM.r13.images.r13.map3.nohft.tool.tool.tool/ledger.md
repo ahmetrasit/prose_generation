@@ -1,0 +1,13 @@
+- memory: lahât vocalization of اللهاة (vowels not shown in supplied text)
+- memory: hand-mill mechanics (upper stone with central hole, turned by hand)
+- memory: jummâr is the soft growing heart at the palm's crown; tal' as sheath that splits
+- memory: أوعى in 70:18 as "put into a vessel / hoarded"
+- memory: تستكثر in 74:6 read both as "counting it much" and "seeking more"
+- memory: لهيت/لهوت vowelling (lahiya 'an vs lahawa bi)
+- not written: tekâsür as "feigning" (tafâ'ul pretence sense) - not attested for this word; would invent a sense
+- not written: counting even the dead in graves - exegetical report, not Quran or usage
+- not written: لا قطع في ثمر ولا كثر - legal saying from outside the Quran
+- not written: lehv as euphemism for intercourse; ألهية riddle-game - no work in a theme
+- not written: مكثار (talkative person) - no bearing on the ayah's themes
+- not written: الكمثرة (gathering, with added mim) - marginal, adds nothing beyond kesret
+- not written: 50:30 "hel min mezîd" fed-fire pairing - belongs to 102:6 and the surah scene
