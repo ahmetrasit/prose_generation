@@ -1,0 +1,10 @@
+- memory: perfect verb inside an in-clause reads as a hypothetical, not a narrated past
+- memory: the antecedent of kāna/amara is grammatically open between ʿabd and the forbidder
+- not written: ء م ر B001 (matter, affair) - adds nothing to the act of commanding here
+- not written: ء م ر B004 (increase, blessing) - no hold in a verse about commanding
+- not written: ء م ر B006 (grievous, shocking thing) - no link to commanding taqwa
+- not written: ء م ر B005 appointed time (al-amār al-mawʿid) - road markers carried the theme; time adds nothing
+- not written: ء م ر B007 man consulting his two selves - would open an inner-dialogue theme the ayah does not stage
+- not written: ء م ر B009 lamb, B011 spearhead - no thematic work
+- not written: ء م ر B010 divine creating amr / 7:54 creation-and-command pairing - would inflate a human command into the divine amr
+- not written: و ق ي B004 (ūqiyya weight) - no work
