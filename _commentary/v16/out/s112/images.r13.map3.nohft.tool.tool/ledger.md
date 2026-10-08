@@ -1,0 +1,9 @@
+- not developed: "Born, aged and succeeded" as separate image - merged into the generation-line section (same scene)
+- not developed: "Turning toward the one sought" and "Master at the summit" as two images - merged (one phrase, ص م د B001)
+- not developed: و ل ه members (alternative derivation of Allah) - different root from ء ل ه, would assert identity by echo
+- not developed: ك ف ء B005 herd's yearly young - co-occurrence with أولاد in a phrase, not an image of the word
+- not developed: ء ح د B001 "أحد أحد" cry - only supported by a report outside the Quran
+- not developed: ق و ل B010 "اقتال عليه" - fixed expression, adds nothing beyond B004
+- not developed: map's exegete, hadith and companion reports - excluded by brief
+- memory: لَمْ with the jussive denies the past across all of it
+- memory: كُفُوًا is the same word as كفء, hamza softened to waw
