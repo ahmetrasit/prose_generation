@@ -1,0 +1,11 @@
+- memory: initial fa here opens/details what 99:6 states
+- memory: yaʿmal and yarah are jussive (conditional mood); final long vowel of yarā drops
+- memory: khayran specifies the measure (tamyiz), measure first then thing measured
+- not written: echo root r-w-y for yarahu - echo, not identity; no support for a theme
+- not written: 25:23 and 18:105 (deeds made dust / no weight set up) - tension with "whoever" needs exegesis beyond the ayah's words
+- not written: ʿ-m-l B008 work camel (yaʿmala), B009 spear part, B010-B012 - no theme to ground
+- not written: th-q-l B006-B009 heaviness, pregnancy, hearing - pregnancy image carried by r-ʾ-y B010; rest idle here
+- not written: dh-r-r B003 fine powder, B005 ill-tempered camel - no theme work
+- not written: kh-y-r B006 hyena istikhara idiom - no theme work
+- not written: r-ʾ-y B002-B004, B006-B009, B011, B013 - mirror recalled via 99:6 only; rest idle
+- not written: 28:23 yusdira / 99:6 yasduru link developed only in passing - belongs to 99:6
