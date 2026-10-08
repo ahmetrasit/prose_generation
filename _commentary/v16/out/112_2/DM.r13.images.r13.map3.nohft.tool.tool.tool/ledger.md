@@ -1,0 +1,10 @@
+- memory: definite subject plus definite predicate gives an exclusive sense (only He is the Samad)
+- memory: i'timād and ʿamad (pillars, 13:2) share the root ʿ-m-d
+- memory: rāsiya and rawāsī (16:15) share the root r-s-w
+- memory: intahā and al-muntahā (53:42) share the root n-h-y
+- memory: vowelling of muṣammad, ṣamda, ṣamāda, miṣmād taken from usage, not shown in the texts
+- memory: 'ifāṣ as the cover that closes a flask's mouth
+- not written: B004 wrapping the head with a cloth other than a turban - no theme it could carry without strain
+- not written: B006 striking with a staff (fixed phrase) - no link to the ayah's themes
+- not written: B002 high thick ground - adds nothing beyond the solid rock image
+- not written: documented alternative root w-l-h for the name Allah (longing, bewilderment) - not the identity root; would blur root identity
