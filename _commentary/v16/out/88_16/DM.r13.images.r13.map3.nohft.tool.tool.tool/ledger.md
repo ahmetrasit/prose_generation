@@ -1,0 +1,9 @@
+- memory: zarābiyy occurs only at 88:16 in the Quran
+- memory: zarābiyy is a plural form (singular not quoted)
+- memory: ʿabqariyy (55:76) denotes finely worked carpets/rugs
+- memory: farāsh (moths, 101:4) and furush (beds, 56:34) share the root f-r-sh
+- memory: انطوت here carries the sense "folded, wrapped in"
+- not written: origin/etymology of zarābiyy - no root or source in the evidence; would be invented
+- not written: B003 bathbatha (searching out, investigating) - no work in the carpet scene
+- not written: B002 news-spreading sense (bathathtu l-ḥadīth) - grief/secret sense carried the theme; news adds nothing here
+- not written: 45:4 and 2:164 creature-spreading parallels - 31:10, 4:1, 42:29 already carry the theme
