@@ -1,0 +1,12 @@
+- memory: awrada (11:98) = to lead a herd down to the watering place
+- memory: imām = the one who stands in front
+- memory: vowelling milāk (with kasra) in B005/B007/B001 phrases
+- memory: me'lek (ma'lak) vowelling in B009 phrase
+- not written: B004 marriage (imlāk) - no role in any theme of the ayah
+- not written: B006 middle of the road - vowelling of the noun uncertain; lead-animal image already carries the road
+- not written: ملك النبعة (hardening bow-wood) - object's use needs memory beyond the texts
+- not written: QAC lists ن و س for nās; followed the supplied root ء ن س without discussing the alternative
+- not written: ء ن س B003 (intimacy, reassuring fire, armour) - belongs to sığınma/night scenes of other ayat
+- not written: ء ن س B002, B004, B005, B006, B007 - images carried by 114:5 and the surah scenes, no work in this ayah's themes
+- not written: bees guided by their Rab (16:68-69) - would tie Rab, not melik, to the bee image
+- not written: Ṭālūt asked for as king (2:246-247) - human king-making already carried by B003 and 27:34
