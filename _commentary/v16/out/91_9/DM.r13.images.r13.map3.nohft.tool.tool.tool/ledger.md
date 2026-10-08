@@ -1,0 +1,16 @@
+- memory: qad + perfect marks realized, emphatic completion
+- memory: form II (doubled middle radical) as causative/effortful
+- memory: proverb vocalized yuflaḥ (passive)
+- memory: Turkish "iflah" = verbal noun of aflaḥa
+- memory: Turkish "zekâ" from dh-k-w root, unrelated to z-k-w
+- memory: istawkhama = food sitting heavy, indigestible
+- not written: ف ل ح B002 split lip - no work in this ayah's themes
+- not written: ف ل ح B004 hired carrier likened to farmer - adds nothing beyond B003
+- not written: ف ل ح B007 trade flattery/deceit - no ground in the ayah
+- not written: ز ك و B004 "does not befit" - fixed phrase, no ground
+- not written: ز ك و B005 even/pair (zakā vs khasā) - tempting with surah's pairs, but decorative
+- not written: call to prayer's falāḥ - source outside the Quran
+- not written: 80:3/80:7 Abasa tazakkā - no turn beyond 79:18
+- not written: 18:74 nafs zakiyya - no added turn
+- not written: 62:2 messenger who purifies - third agent, would diffuse the God/man tension
+- not written: 7:58 and 2:264-265 good/bad soil - surah-level field scene, not this ayah's words
