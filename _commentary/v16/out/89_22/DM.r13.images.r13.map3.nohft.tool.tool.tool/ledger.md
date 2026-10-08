@@ -1,0 +1,14 @@
+- memory: perfect verbs after idhā narrate future events as done
+- memory: doubled indefinite accusative (ṣaffan ṣaffan) reads as distributive "row after row"
+- memory: al-insān with article as generic singular for humankind
+- memory: Turkish "saf" (pure, naive) comes from Arabic root ṣ-f-w, not ṣ-f-f
+- not written: j-y-ʾ water pit and pus branches (B003, B006 / B002, B003) - no tie to the coming
+- not written: j-y-ʾ B002 outdoing someone in frequent coming - fixed phrase, nothing for this scene
+- not written: r-b-b B007 staying in a place, beside the watch-post of 89:14 - forced against "came"
+- not written: r-b-b B008 layered clouds beside the clouds of 2:210 - different word there, too speculative
+- not written: r-b-b B004 large multitudes beside the rows - homonym branch, would be a pun
+- not written: ṣ-f-f B002 camel filling several vessels, B004 saddle/building part, B006 willow - no work in the theme
+- not written: ṣ-f-f B007 gathering at water - no support in the scene
+- not written: 22:36 camels lined up (ṣawāff) to feed the needy, beside 89:18 - separate scene, too thin
+- not written: marṣūṣ (61:4) vs mirṣād (89:14) - different roots, sound echo only
+- not written: echo root r-b-w (growth, height) for rabb - not identity
