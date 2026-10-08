@@ -1,0 +1,13 @@
+- memory: "elem neşrah" functions as affirmation, so past "veda'nâ" is conjoined to it
+- memory: wada'a 'an = remove from upon; 'anke precedes object in the ayah
+- memory: wada'a 'anhu used for remitting part of a debt
+- memory: al-kāra = a bundle of clothes carried on the back
+- memory: azr in 20:31 is from root أ ز ر, not و ز ر
+- memory: Turkish vezir narrowed to minister title and chess piece
+- not written: و ض ع B003 (easy gait vs marfūʿ) - camel-gait image builds a scene with other ayat, adds nothing to this ayah's removal theme
+- not written: و ض ع B007, B008, B011, B012 (grazing, quilting, mutual agreement, weakness) - no bearing on load or removal
+- not written: و ض ع B013 (lowering camel's neck to mount) - mounting, not unloading; could not join a theme
+- not written: و ز ر B005, B006 (seize/secure, overcome) - would only decorate the war theme without grounding it
+- not written: و ز ر B007 (girding a waist-wrap) - overlaps root أ ز ر; risk of confusing identity with sound
+- not written: echo root ز و ر - echo only, not identity
+- not written: 4:102 laying down weapons in prayer - same verb, adds nothing beyond 47:4
