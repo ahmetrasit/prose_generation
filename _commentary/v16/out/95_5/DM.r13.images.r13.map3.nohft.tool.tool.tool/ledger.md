@@ -1,0 +1,14 @@
+- memory: thumma marks sequence with an interval
+- memory: sound masculine plural -īn mostly reserved for persons
+- memory: qawāʾim (legs) is from the root q-w-m
+- memory: sāfila of a river is its downstream end
+- memory: Turkish sefalet/sefil now mean poverty/misery; ret/reddetmek mean refusal
+- not written: rdd B001 folding razor - no Arabic phrase supplied, no theme
+- not written: rdd B004 mutual return in a rescinded sale - no theme it could carry
+- not written: rdd B006 divorced woman returned to her family - repeats return-to-origin, adds nothing
+- not written: rdd B007 full udder, river rich in water - unrelated to the ayah's motion
+- not written: rdd B010 compact body "as if parts returned on each other" - no theme
+- not written: sfl B003 downwind side in hunting - no theme
+- not written: sfl B007 seat and anus - would distract from the bodily descent without adding
+- not written: echo root m-r-d (rebel, stripped, smoothed) - echo, not identity
+- not written: Moses link between 28:13 and Ṭūr Sīnīn (95:2) - not supported without exegesis
