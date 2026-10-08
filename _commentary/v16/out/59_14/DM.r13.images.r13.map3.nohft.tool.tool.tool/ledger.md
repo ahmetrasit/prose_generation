@@ -1,0 +1,14 @@
+- memory: muḥaṣṣana as form II passive participle, "made fortified" by building
+- memory: jamīʿan in first clause as circumstantial (ḥāl), "all together"
+- memory: baynahum allows both "against one another" and "while among themselves"
+- memory: wa-qulūbuhum shattā as circumstantial clause, same structure as 18:18 wa-hum ruqūd
+- memory: qātalahumu-llāh shares form III with yuqātilūnakum
+- not written: و ر ي B002/B003 flint and fire-striking - adds ornament, no work in the walls/hearts themes
+- not written: و ر ي B006 behind/in-front ambiguity - ayah's sense is plainly "behind walls"
+- not written: ج م ع B008 jāmiʿa shackle - constraint already carried by fold, bank and wall
+- not written: ق ر ي B003 hospitality bowl - would blur the basin image
+- not written: ج د ر B002 worthiness, B005 pox - no bearing on the ayah
+- not written: ح ص ن B002/B003 chastity, marriage - unrelated to fortified towns
+- not written: ق ت ل B008 qitl as rival/peer - reciprocity already made with B011
+- not written: ب ء س B002/B004 poverty, blame word - outside the war-might sense here
+- not written: ح س ب B003 sufficiency (8:62 ḥasbuka) - only noted in passing, too thin to found a point
