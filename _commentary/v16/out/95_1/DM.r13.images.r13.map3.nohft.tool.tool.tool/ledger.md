@@ -1,0 +1,10 @@
+- memory: oath waw governs the genitive (kasra on both nouns)
+- memory: tharīd = bread soaked in meat broth
+- memory: udm = what bread is eaten with (condiment)
+- memory: ṣibgh in 23:20 = dip/condiment for bread
+- memory: mishkāt = wall niche holding a lamp
+- not written: ت ي ن B003 wolf called tīnān in some dialects - no link to the ayah's themes
+- not written: تين / طين (23:12) sound likeness - different roots, sound only, cannot found a link
+- not written: ط و ر border/wild-animal family and ء ن س contrast from images - carried by 95:2 and 95:4 words, not this ayah
+- not written: fruit-to-unfailing-reward line via م ن ن (manna) from images - carried by 95:6, too thin from this ayah
+- not written: Abraham's prayer for fruits in a safe town (2:126, 14:37) - fruits not named as fig/olive; belongs to 95:3's scene
