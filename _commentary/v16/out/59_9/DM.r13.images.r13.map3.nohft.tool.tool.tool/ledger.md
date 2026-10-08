@@ -1,0 +1,14 @@
+- memory: wa-lladhina may be joined to li-l-fuqara' (59:8) or open a new clause with yuhibbuna as predicate
+- memory: zand is a fire-striker rubbed or struck to give a spark
+- memory: the kabil at the well catches the bucket at the mouth as it is hauled up
+- memory: yuhibbuna as present tense of a continuing state
+- not written: echo roots ج د د, ح ج ج, ث و ر - withheld sound-family, not identity
+- not written: ب و ء B005 marriage, B006 state, B007 aiming spear - no work in any theme
+- not written: د و ر B003/B004 turning fortunes, encircling misfortune - not carried by this ayah's dar
+- not written: ق ب ل B004 acceptance, B005 qibla, B009 tribe - would scatter the receiving image; qibla link via 10:87 forced
+- not written: ح ب ب B004 heart's black kernel - chest theme already carried by sadr and hawj
+- not written: ه ج ر B007 hobble rope - binding vs cutting tempting but no support in the ayah
+- not written: ف ل ح B006 pre-dawn meal - no theme
+- not written: ك و ن family - kana here only auxiliary
+- not written: و ق ي B003 limping horse wary of ground - no fit
+- not written: 33:19 hypocrites "ashihha" - surah's hypocrite contrast left to the surah commentary
