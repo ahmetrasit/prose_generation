@@ -1,0 +1,12 @@
+- memory: Turkish "câlî" (fake, artificial) derives from Arabic ja'lī, root ج ع ل
+- memory: asf as animal fodder (straw and husk eaten by livestock) beyond بقل الزرع
+- not written: ج ع ل B004 "began to" - not this ayah's construction
+- not written: ج ع ل B005 wage/reward (ju'l) - no textual hook in the ayah
+- not written: ج ع ل B006-B012 (short palms, pot-cloth, beetle, etc.) - no bearing on the theme
+- not written: ء ك ل B003 share of worldly goods - too thin a link to "eaten"
+- not written: ء ك ل B004 consuming others' wealth - surah does not state such a motive
+- not written: ء ك ل B008-B014 fixed expressions (backbiting, talebearing, knife) - no support in the surah
+- not written: ء ك ل B011 "akalatu ra's" (a group fed by one head) - tempting but no textual support
+- not written: echo root ك ل ل (fatigue, crown) - echo, not identity
+- not written: 47:12 disbelievers eat as cattle eat - eater/eaten reversal too loose
+- not written: 2:266 i'sar with fire - different root, fire scene belongs to surah commentary
