@@ -6,7 +6,8 @@ one row per claim, each row with a short verbatim anchor. Agents run through enr
 (Codex, at most seven at a time); the same chunk files serve every model.
 
   digest.py build RUN --ayat 100:1 87:6 --models gpt-6-luna:max [--skip-done luna-max] [--chunk-chars 20000]
-  digest.py check RUN [--model TAG] [--chunk N]     two checks: every segment answered, every anchor verbatim
+  digest.py check RUN [--model TAG] [--chunk N]     every segment answered, every anchor verbatim, and (runs built
+                                                    with row tags) every row's words in its verses and type in the list
   digest.py report RUN                              per-model totals and costs
 
 Every skipped source or segment is printed and listed in RUN/manifest.json.
@@ -65,9 +66,101 @@ GUIDE = {
             'reports, and any dating or occasion it gives.',
 }
 
+# Row tags (user decision 2026-10-08): every row names the verse words it is about and one type from this list.
+TYPES = ('meaning', 'grammar', 'rhetoric', 'readings', 'referent', 'reports', 'sciences', 'interpretation',
+         'theology', 'law', 'links', 'inward')
+TYPE_GUIDE = {
+    'meaning': 'what a word means: lexicon, root, etymology, Arab usage and poetry cited for the sense',
+    'grammar': 'syntax, iʿrāb, morphology',
+    'rhetoric': 'balāgha: word choice, order, ellipsis, oath form, why this wording',
+    'readings': 'variant readings (qirāʾāt) and their arguments',
+    'referent': 'who or what the words refer to',
+    'reports': 'narrations, occasions of revelation, gradings',
+    'sciences': 'place and order of revelation, verse counting, virtues of the sūra, abrogation',
+    'interpretation': "the meaning of the verse or phrase: the author's explanation, its point or wisdom",
+    'theology': 'creed and kalām',
+    'law': 'legal rulings',
+    'links': 'coherence with neighbouring verses or the sūra, and connections to other verses',
+    'inward': 'ishārī (Sufi) readings',
+}
+WHOLE = '*'
+
 
 def run_dir(run):
     return V7 / 'work' / run
+
+
+_QURAN = None
+
+
+def quran():
+    """Verse text by 'S:A'."""
+    global _QURAN
+    if _QURAN is None:
+        with connect() as con:
+            _QURAN = {f'{s}:{a}': t for s, a, t in con.execute("SELECT s, a, text FROM seg JOIN src ON src.id=seg.src "
+                                                              "WHERE src.kind='quran' AND a IS NOT NULL")}
+    return _QURAN
+
+
+def _skel(word):
+    """A word's letters without vowels and without alif (Uthmani spelling drops some alifs)."""
+    return normalize_map(word)[0].replace(' ', '').replace('ا', '')
+
+
+def verse_tokens(verse):
+    """(surface, skeleton) per word of a verse; pause marks are not words."""
+    out = []
+    for w in quran().get(verse, '').split():
+        k = _skel(w)
+        if k:
+            out.append((w, k))
+    return out
+
+
+def word_position(word, verse):
+    """Index of the verse word a tag names, or None. A tag may be a phrase: its first word decides."""
+    toks = verse_tokens(verse)
+    parts = [_skel(x) for x in (word or '').split() if _skel(x)]
+    if not parts:
+        return None
+    for i, (_, k) in enumerate(toks):
+        w = parts[0]
+        if w == k or (len(w) >= 2 and w in k) or (len(k) >= 3 and k in w):
+            return i
+    return None
+
+
+def tag_problems(r):
+    """Problems with one row's words and type (rows of runs built with row tags, and retag outputs)."""
+    out = []
+    words, typ = r.get('words'), r.get('type')
+    if not isinstance(words, list) or not words:
+        out.append('"words" must be a non-empty list (verse words, or ["*"] for the whole verse)')
+    else:
+        for w in words:
+            if w == WHOLE:
+                continue
+            if not any(all(word_position(x, v) is not None for x in str(w).split()) for v in r.get('verses') or []):
+                out.append(f'word «{w}» is not in the text of {", ".join(r.get("verses") or []) or "its verses"}')
+    if typ not in TYPES:
+        out.append(f'type «{typ}» is not one of: {", ".join(TYPES)}')
+    return out
+
+
+def row_tags():
+    """Tags from every retag run: row id -> (words, type)."""
+    out = {}
+    for f in sorted((V7 / 'work').glob('*/retag/out/*/c*.jsonl')):
+        for line in f.read_text().splitlines():
+            if line.strip():
+                try:
+                    x = json.loads(line)
+                except ValueError:
+                    print(f'WARNING {f.relative_to(V7)}: a line is not JSON; skipped')
+                    continue
+                out.setdefault(x['id'], (x.get('words'), x.get('type')))
+    return out
 
 
 def tag_of(model, effort):
@@ -402,7 +495,8 @@ def build(a):
                     'NN': f'{c["chunk"]:02d}', 'LAST': str(c['parts'] - 1), 'SEGMENTS': str(len(c['locs'])),
                     'NSRC': str(len(c['sources'])), 'SOURCES': '\n'.join(f'- {x}' for x in c['source_lines']),
                     'GUIDES': '\n'.join(f'- **{k}**: {GUIDE[k]}' for k in c['kinds']),
-                    'AYAT': '\n'.join(f'- {k}: {verse_text[k]}' for k in c['scope'])}
+                    'AYAT': '\n'.join(f'- {k}: {verse_text[k]}' for k in c['scope']),
+                    'TYPES': '\n'.join(f'- `{k}`: {v}' for k, v in TYPE_GUIDE.items())}
             text = brief
             for k, v in fill.items():
                 text = text.replace('{' + k + '}', v)
@@ -415,7 +509,7 @@ def build(a):
                                'split_plan': split_plan, 'split_from_run': original_name if split_plan else None,
                                'split_chunks': sorted(selected) if split_plan else [],
                                'skip_done_exclude_run': getattr(a, 'skip_done_exclude_run', []),
-                               'chunk_chars': chunk_chars,
+                               'chunk_chars': chunk_chars, 'row_tags': True,
                                'chunks': plan, 'skipped': skipped, 'spawn': spawns})
     total = sum(c['chars'] for c in plan)
     print(f'{len(segments)} segments, {len(plan)} chunks, {total:,} characters, {len(spawns)} spawn files')
@@ -434,7 +528,7 @@ def build(a):
         print(f"SKIPPED {k} segment(s): {reason} (each listed in manifest.json)")
 
 
-def check_chunk(d, tag, c):
+def check_chunk(d, tag, c, tags=False):
     """Problems in one output file: missing, extra or duplicate segments, bad lines, anchors not verbatim."""
     f = d / 'out' / tag / f"c{c['chunk']:02d}.jsonl"
     if not f.exists():
@@ -468,6 +562,8 @@ def check_chunk(d, tag, c):
                 problems.append(f'{loc} row {j}: missing {", ".join(missing)}')
             if r.get('anchor') and not contains(text[loc], r['anchor']):
                 problems.append(f'{loc} row {j}: anchor not found verbatim in the segment: {r["anchor"][:80]}')
+            if tags:
+                problems += [f'{loc} row {j}: {p}' for p in tag_problems(r)]
     for loc in c['locs']:
         if loc not in seen:
             problems.append(f'{loc}: segment has no line')
@@ -482,13 +578,13 @@ def check(a):
     tags = [a.model] if a.model else sorted(p.name for p in (d / 'out').iterdir())
     plan = [c for c in man['chunks'] if a.chunk in (None, c['chunk'])]
     if a.chunk is not None:  # the agent's own check: print problems or OK, record nothing
-        problems, _ = check_chunk(d, tags[0], plan[0])
+        problems, _ = check_chunk(d, tags[0], plan[0], man.get('row_tags', False))
         print('OK' if not problems else '\n'.join(problems[:60]) + (f'\n... {len(problems) - 60} more' if len(problems) > 60 else ''))
         return
     for tag in tags:
         result = {}
         for c in plan:
-            problems, n_rows = check_chunk(d, tag, c)
+            problems, n_rows = check_chunk(d, tag, c, man.get('row_tags', False))
             result[f"c{c['chunk']:02d}"] = {'rows': n_rows, 'problems': problems}
             for p in problems:
                 print(f"WARNING {tag} c{c['chunk']:02d}: {p}")

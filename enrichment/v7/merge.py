@@ -1,45 +1,57 @@
 #!/usr/bin/env python3
-"""Enrichment v7 tier 2: one consolidated view list per ayah, built from the tier-1 digest rows. Launches no model.
+"""Enrichment v7 tier 2: consolidated views per verse, built cell by cell from the tier-1 rows. Launches no model.
 
-The agent groups every tier-1 row about the ayah into distinct views (each view once, with the row ids it covers);
-the script fills in holders, sources and stances from those ids, so nothing is retyped. One check: every row id
-is covered by at least one view, and no view names an unknown id.
+A cell is one verse word (or the whole verse) × one type, from the row tags (digest.TYPES; tags come from the row
+itself or from a retag run). The script prints a verse's rows grouped by cell; the agent groups each cell's rows
+into distinct views and never merges across cells. A verse too large for one context is split into slices of whole
+cells, so no merging across slices is ever needed. The script fills in each view's word, type, holders, sources and
+stances from the row ids, so nothing is retyped.
 
-  merge.py build RUN --from luna-max --ayat 100:1 87:6 --models gpt-6-luna:max
-  merge.py check RUN [--model TAG] [--ayah 100:1]     the agent runs it with --ayah until OK
-  merge.py report RUN                                   costs, views, rows, and a readable .md per ayah
+  merge.py build RUN --from luna-max (--ayat 95:1 6:99 … | --page PATH --ayah A) --models gpt-6-sol:high
+  merge.py check RUN [--model TAG] [--ayah 95:1 --slice s1]   the agent runs it with --ayah and --slice until OK;
+                                                              without them: checks every slice, assembles each verse
+  merge.py update RUN --model TAG    rows added since tier 2 ran: rebuild only the cells that gained rows (new slices)
+  merge.py report RUN                costs, views, rows
 
-Files: RUN/tier2/rows/<ayah>.pK.txt (input parts), RUN/tier2/spawn, RUN/tier2/runs, RUN/tier2/out/<TAG>/<ayah>.jsonl
+Files: RUN/tier2/rows/<k>.json (rows by id), <k>.cells.json, <k>.<slice>.pK.txt (input parts), RUN/tier2/spawn,
+RUN/tier2/runs, RUN/tier2/out/<TAG>/<k>.<slice>.jsonl (agent output), <k>.jsonl and <k>.md (the assembled verse).
 """
 import argparse
 import json
 from collections import defaultdict
 
 import digest
-from digest import PART_CHARS, ROOT, V7, connect, dump, run_dir
+from digest import PART_CHARS, ROOT, TYPES, V7, WHOLE, connect, dump, run_dir
 
 BRIEF = V7 / 'briefs/merge.md'
+SLICE_CHARS = 90_000   # input characters per agent; a single larger cell stands alone (printed)
+UNTAGGED = 'untagged'
 
 
 def key(ayah):
     return ayah.replace(':', '-')
 
 
+_TAGS = None
+
+
 def tier1_rows(d, tags, ayah, quiet=False):
-    """Every tier-1 row whose verses include the ayah, with a stable id <loc>/rN (N = position in its segment).
-    tags: one model tag or a list; a segment digested under several runs or tags counts once (first tag, then run
-    order). Edition rule: rows of a short edition X are dropped when X-FULL has rows on the same ayah (printed)."""
+    """Every tier-1 row whose verses include the ayah, with a stable id <loc>/rN (N = position in its segment) and its
+    tags (words, type) from the row or a retag run. tags: one model tag or a list; a segment digested under several
+    runs or tags counts once (first tag, then run order). Edition rule: rows of a short edition X are dropped when
+    X-FULL has rows on the same ayah (printed)."""
+    global _TAGS
+    if _TAGS is None:
+        _TAGS = digest.row_tags()
     tags = [tags] if isinstance(tags, str) else list(tags)
     with connect() as con:
         meta = {i: json.loads(m or '{}') for i, m in con.execute('SELECT id, meta FROM src')}
-        seg_src = {}
-        out = []
-        seen = set()
+        seg_src, out, seen = {}, [], set()
         for tag in tags:
             for f in sorted((V7 / 'work').glob(f'*/out/{tag}/c*.jsonl')):  # tier 1 of every run: one database
                 try:
                     lines = f.read_text().splitlines()
-                except FileNotFoundError:  # a run in progress replaced it between glob and read
+                except FileNotFoundError:
                     print(f'WARNING {f.relative_to(V7)}: vanished while reading (a run in progress?); skipped')
                     continue
                 for i, line in enumerate(lines, 1):
@@ -59,8 +71,10 @@ def tier1_rows(d, tags, ayah, quiet=False):
                         if ayah in r.get('verses', []):
                             src = seg_src[x['loc']]
                             m = meta.get(src, {})
-                            out.append({**r, 'id': f"{x['loc']}/r{n}", 'src': src, 'author': m.get('author') or src,
-                                        'death': m.get('death_ah'), 'tag': tag})
+                            rid = f"{x['loc']}/r{n}"
+                            words, typ = (r.get('words'), r.get('type')) if r.get('type') else _TAGS.get(rid, (None, None))
+                            out.append({**r, 'id': rid, 'src': src, 'author': m.get('author') or src,
+                                        'death': m.get('death_ah'), 'tag': tag, 'words': words, 'type': typ})
     full = {r['src'][:-5] for r in out if r['src'].endswith('-FULL')}
     dropped = [r for r in out if r['src'] in full]
     if dropped and not quiet:
@@ -72,9 +86,108 @@ def tier1_rows(d, tags, ayah, quiet=False):
     return [r for r in out if r['src'] not in full]
 
 
+def cell_of(r, ayah):
+    """(cell id, word label, type) of a row on this ayah: its first tag word found in the verse, else the whole verse."""
+    typ = r.get('type') if r.get('type') in TYPES else UNTAGGED
+    toks = digest.verse_tokens(ayah)
+    for w in r.get('words') or []:
+        if w == WHOLE:
+            continue
+        pos = digest.word_position(w, ayah)
+        if pos is not None:
+            return f'w{pos + 1}-{typ}', f'{toks[pos][0]} (word {pos + 1})', typ
+    return f'all-{typ}', 'whole verse', typ
+
+
+def cell_order(cid):
+    w, typ = cid.split('-', 1)
+    return (0 if w == 'all' else int(w[1:]), TYPES.index(typ) if typ in TYPES else len(TYPES))
+
+
+def cells(ayah, rows):
+    """cell id -> {'word', 'type', 'rows': [ids]} in verse-word then type order; rows sorted oldest author first."""
+    out = {}
+    rows = sorted(rows, key=lambda r: (r['death'] if isinstance(r['death'], int) else 9999, r['src'], r['id']))
+    for r in rows:
+        cid, word, typ = cell_of(r, ayah)
+        out.setdefault(cid, {'word': word, 'type': typ, 'rows': []})['rows'].append(r['id'])
+    return dict(sorted(out.items(), key=lambda kv: cell_order(kv[0])))
+
+
+def row_line(r):
+    who = r['src'] + (f", d. {r['death']}" if r['death'] else '')
+    mentions = f" | mentions {', '.join(r.get('mentions') or [])}" if r.get('mentions') else ''
+    return f"[{r['id']}] {who} · {r['speaker']} | {r['stance']} | {r['claim']}{mentions}"
+
+
+def cell_text(cid, c, by_id):
+    return (f"\n### cell {cid} · {c['word']} · {c['type']} · {len(c['rows'])} notes\n"
+            + '\n'.join(row_line(by_id[i]) for i in c['rows']) + '\n')
+
+
+def pack(cs, by_id, ayah):
+    """Slices of whole cells, each at most SLICE_CHARS of input (a larger single cell stands alone, printed)."""
+    slices, cur, size = [], [], 0
+    for cid, c in cs.items():
+        n = len(cell_text(cid, c, by_id))
+        if n > SLICE_CHARS:
+            print(f'NOTE {ayah}: cell {cid} alone is {n:,} characters, over the {SLICE_CHARS:,} slice size; it gets its own slice')
+        if cur and size + n > SLICE_CHARS:
+            slices.append(cur)
+            cur, size = [], 0
+        cur.append(cid)
+        size += n
+    if cur:
+        slices.append(cur)
+    return slices
+
+
+def write_slice(t, ayah, sid, cell_ids, cs, by_id):
+    k = key(ayah)
+    text = ''.join(cell_text(cid, cs[cid], by_id) for cid in cell_ids).strip() + '\n'
+    parts = [text[i:i + PART_CHARS] for i in range(0, len(text), PART_CHARS)]
+    for n, p in enumerate(parts):
+        tail = f'\n<<part {n} ends; continues in part {n + 1}>>' if n + 1 < len(parts) else '\n<<end of rows>>'
+        (t / 'rows' / f'{k}.{sid}.p{n}.txt').write_text(f'<<{ayah} slice {sid}, part {n} of 0..{len(parts) - 1}>>\n{p}{tail}\n')
+    return {'slice': sid, 'cells': cell_ids, 'rows': sum(len(cs[c]['rows']) for c in cell_ids),
+            'sources': len({by_id[i]['src'] for c in cell_ids for i in cs[c]['rows']}), 'chars': len(text), 'parts': len(parts)}
+
+
+def save_rows(t, ayah, rs, cs):
+    k = key(ayah)
+    (t / 'rows').mkdir(parents=True, exist_ok=True)
+    dump(t / 'rows' / f'{k}.json', {r['id']: {x: r.get(x) for x in ('src', 'author', 'death', 'speaker', 'stance', 'claim',
+                                                                    'mentions', 'words', 'type')} for r in rs})
+    dump(t / 'rows' / f'{k}.cells.json', cs)
+
+
+def spawn(t, run, spec, ayah, s):
+    model, effort = spec.split(':')
+    tag = digest.tag_of(model, effort)
+    k = key(ayah)
+    with connect() as con:
+        verse = con.execute("SELECT text FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran' AND s=? AND a=?",
+                            tuple(map(int, ayah.split(':')))).fetchone()[0]
+    fill = {'AGENT': f"/root/v7m_{run}_{tag}_{k}_{s['slice']}", 'MODEL': model, 'EFFORT': effort, 'RUN': run, 'TAG': tag,
+            'AYAH': ayah, 'KEY': k, 'SLICE': s['slice'], 'LAST': str(s['parts'] - 1), 'ROWS': str(s['rows']),
+            'NCELLS': str(len(s['cells'])), 'SOURCES': str(s['sources']), 'VERSE': verse}
+    text = BRIEF.read_text()
+    for x, v in fill.items():
+        text = text.replace('{' + x + '}', v)
+    f = t / 'spawn' / f"{tag}_{k}.{s['slice']}.md"
+    if f.exists():
+        raise SystemExit(f'{f} exists')
+    f.parent.mkdir(exist_ok=True)
+    f.write_text(text)
+    (t / 'out' / tag).mkdir(parents=True, exist_ok=True)
+    print(f'  spawn {f.relative_to(ROOT)}')
+
+
 def build(a):
     d = run_dir(a.run)
     t = d / 'tier2'
+    if (t / 'manifest.json').exists():
+        raise SystemExit(f'{t} has a manifest; use `update` for new rows, or a new run')
     if bool(a.ayat) == bool(a.page):
         raise SystemExit('give either --ayat, or --page with --ayah')
     if a.page:
@@ -84,71 +197,40 @@ def build(a):
     tags = [digest.tag_of(*s.split(':')) for s in a.models]
     done = [x for x in a.ayat if all(list((V7 / 'work').glob(f'*/tier2/out/{g}/{key(x)}.jsonl')) for g in tags)]
     for x in done:
-        print(f'SKIPPED {x}: tier 2 already exists for {", ".join(tags)}')
-    a.ayat = [x for x in a.ayat if x not in done]
-    if not a.ayat:
-        raise SystemExit('every verse already has tier 2; nothing to build')
-    old = json.loads((t / 'manifest.json').read_text()) if (t / 'manifest.json').exists() else None
-    if old and (old['from'] != a.from_tags or [p['ayah'] for p in old['ayat']] != a.ayat):
-        raise SystemExit('tier2 inputs exist for other rows or ayat; use a new run')
-    plan = old['ayat'] if old else []  # existing row files are reused untouched (agents may be reading them)
-    for ayah in ([] if old else a.ayat):
+        print(f'SKIPPED {x}: tier 2 already exists for {", ".join(tags)} (use update in its run for new rows)')
+    plan = []
+    for ayah in [x for x in a.ayat if x not in done]:
         rs = tier1_rows(d, a.from_tags, ayah)
-        if not rs:  # nothing to consolidate: an empty view list, no agent (recorded and printed)
-            (t / 'rows').mkdir(parents=True, exist_ok=True)
-            dump(t / 'rows' / f'{key(ayah)}.json', {})
-            for g in tags:
-                (t / 'out' / g).mkdir(parents=True, exist_ok=True)
-                (t / 'out' / g / f'{key(ayah)}.jsonl').write_text('')
-            print(f'NOTE {ayah}: no tier-1 notes ({", ".join(a.from_tags)}); empty view list written, no agent')
+        if not rs:
+            print(f'NOTE {ayah}: no tier-1 notes ({", ".join(a.from_tags)}); no tier 2')
             continue
-        rs.sort(key=lambda r: (r['death'] if isinstance(r['death'], int) else 9999, r['src'], r['id']))
-        lines, cur = [], None
-        for r in rs:
-            if r['src'] != cur:
-                cur = r['src']
-                lines.append(f"\n## {r['src']}: {r['author']}" + (f", d. {r['death']} AH" if r['death'] else ''))
-            mentions = f" | mentions {', '.join(r.get('mentions') or [])}" if r.get('mentions') else ''
-            lines.append(f"[{r['id']}] {r['speaker']} | {r['stance']} | {r['claim']}{mentions}")
-        text = '\n'.join(lines).strip() + '\n'
-        parts = [text[i:i + PART_CHARS] for i in range(0, len(text), PART_CHARS)]
-        (t / 'rows').mkdir(parents=True, exist_ok=True)
-        for k, p in enumerate(parts):
-            tail = f'\n<<part {k} ends; continues in part {k + 1}>>' if k + 1 < len(parts) else '\n<<end of rows>>'
-            (t / 'rows' / f'{key(ayah)}.p{k}.txt').write_text(f'<<{ayah} rows, part {k} of 0..{len(parts) - 1}>>\n{p}{tail}\n')
-        dump(t / 'rows' / f'{key(ayah)}.json', {r['id']: {k: r.get(k) for k in ('src', 'author', 'death', 'speaker', 'stance', 'claim', 'mentions')} for r in rs})
-        plan.append({'ayah': ayah, 'rows': len(rs), 'sources': len({r['src'] for r in rs}), 'chars': len(text), 'parts': len(parts)})
-        print(f'{ayah}: {len(rs)} rows from {plan[-1]["sources"]} sources, {len(text):,} characters, {len(parts)} parts')
-    with connect() as con:
-        verse_text = {x: con.execute("SELECT text FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran' AND s=? AND a=?",
-                                     tuple(map(int, x.split(':')))).fetchone()[0] for x in a.ayat}
-    brief = BRIEF.read_text()
+        untagged = sum(1 for r in rs if r.get('type') not in TYPES)
+        if untagged:
+            print(f'WARNING {ayah}: {untagged} of {len(rs)} rows have no tags; they form the {UNTAGGED} cells (run retag first)')
+        by_id = {r['id']: r for r in rs}
+        cs = cells(ayah, rs)
+        save_rows(t, ayah, rs, cs)
+        slices = [write_slice(t, ayah, f's{n}', ids, cs, by_id) for n, ids in enumerate(pack(cs, by_id, ayah), 1)]
+        plan.append({'ayah': ayah, 'rows': len(rs), 'cells': len(cs), 'slices': slices})
+        print(f"{ayah}: {len(rs)} rows, {len(cs)} cells, {len(slices)} slice(s), "
+              f"{sum(s['chars'] for s in slices):,} characters")
+    if not plan:
+        raise SystemExit('nothing to build')
     for spec in a.models:
-        model, effort = spec.split(':')
-        tag = digest.tag_of(model, effort)
-        (t / 'out' / tag).mkdir(parents=True, exist_ok=True)
         for p in plan:
-            fill = {'AGENT': f"/root/v7m_{a.run}_{tag}_{key(p['ayah'])}", 'MODEL': model, 'EFFORT': effort, 'RUN': a.run,
-                    'TAG': tag, 'AYAH': p['ayah'], 'KEY': key(p['ayah']), 'LAST': str(p['parts'] - 1),
-                    'ROWS': str(p['rows']), 'SOURCES': str(p['sources']), 'VERSE': verse_text[p['ayah']]}
-            text = brief
-            for k, v in fill.items():
-                text = text.replace('{' + k + '}', v)
-            f = t / 'spawn' / f"{tag}_{key(p['ayah'])}.md"
-            if f.exists():
-                raise SystemExit(f'{f} exists')
-            f.parent.mkdir(exist_ok=True)
-            f.write_text(text)
-            print(f'  spawn {f.relative_to(ROOT)}')
-    dump(t / 'manifest.json', {'from': a.from_tags, 'ayat': plan,
-                               'models': (old['models'] if old else []) + a.models})
+            for s in p['slices']:
+                spawn(t, a.run, spec, p['ayah'], s)
+    dump(t / 'manifest.json', {'from': a.from_tags, 'models': a.models, 'ayat': plan})
 
 
-def check_one(t, tag, ayah):
-    known = json.loads((t / 'rows' / f'{key(ayah)}.json').read_text())
-    f = t / 'out' / tag / f'{key(ayah)}.jsonl'
+def check_slice(t, tag, ayah, s):
+    """Problems in one slice output: unknown cell or id, a view mixing cells, a row of the slice in no view."""
+    k = key(ayah)
+    cs = json.loads((t / 'rows' / f'{k}.cells.json').read_text())
+    f = t / 'out' / tag / f"{k}.{s['slice']}.jsonl"
     if not f.exists():
         return [f'{f.name}: no output file'], []
+    mine = {cid: set(cs[cid]['rows']) for cid in s['cells'] if cid in cs}
     problems, views, covered = [], [], set()
     for i, line in enumerate(f.read_text().splitlines(), 1):
         if not line.strip():
@@ -158,18 +240,104 @@ def check_one(t, tag, ayah):
         except ValueError as e:
             problems.append(f'line {i}: not JSON ({e})')
             continue
-        missing = [k for k in ('topic', 'view', 'rows') if not v.get(k)]
+        missing = [x for x in ('cell', 'view', 'rows') if not v.get(x)]
         if missing:
             problems.append(f'line {i}: missing {", ".join(missing)}')
-        for r in v.get('rows') or []:
-            if r not in known:
-                problems.append(f'line {i}: unknown row id {r}')
+            continue
+        if v['cell'] not in mine:
+            problems.append(f"line {i}: cell {v['cell']} is not a cell of this slice")
+            continue
+        for r in v['rows']:
+            if r not in mine[v['cell']]:
+                problems.append(f"line {i}: row {r} is not in cell {v['cell']}")
             covered.add(r)
         views.append(v)
-    for r in known:
-        if r not in covered:
-            problems.append(f'row {r} is in no view')
+    for cid, ids in mine.items():
+        for r in ids - covered:
+            problems.append(f'row {r} (cell {cid}) is in no view')
     return problems, views
+
+
+def assemble(t, tag, p):
+    """The verse's views: for each cell, the views of the latest slice that covers it, in cell order."""
+    k = key(p['ayah'])
+    cs = json.loads((t / 'rows' / f'{k}.cells.json').read_text())
+    by_cell = {}
+    for s in p['slices']:
+        _, views = check_slice(t, tag, p['ayah'], s)
+        for cid in s['cells']:
+            by_cell[cid] = [v for v in views if v['cell'] == cid]
+    out = []
+    for cid in sorted(by_cell, key=cell_order):
+        c = cs.get(cid, {})
+        for v in by_cell[cid]:
+            out.append({'cell': cid, 'word': c.get('word'), 'type': c.get('type'),
+                        'topic': f"{c.get('word')} · {c.get('type')}", 'view': v['view'], 'rows': v['rows'],
+                        'note': v.get('note', '')})
+    (t / 'out' / tag / f'{k}.jsonl').write_text(''.join(json.dumps(v, ensure_ascii=False) + '\n' for v in out))
+    views, known = out, json.loads((t / 'rows' / f'{k}.json').read_text())
+    (t / 'out' / tag / f'{k}.md').write_text(compact(p['ayah'], [{**v} for v in views], known, tag))
+    return out
+
+
+def check(a):
+    t = run_dir(a.run) / 'tier2'
+    man = json.loads((t / 'manifest.json').read_text())
+    tags = [a.model] if a.model else sorted(p.name for p in (t / 'out').iterdir())
+    if a.ayah:  # the agent's own check
+        p = next(x for x in man['ayat'] if x['ayah'] == a.ayah)
+        s = next(x for x in p['slices'] if x['slice'] == (a.slice or 's1'))
+        problems, _ = check_slice(t, tags[0], a.ayah, s)
+        print('OK' if not problems else '\n'.join(problems[:60]) + (f'\n... {len(problems) - 60} more' if len(problems) > 60 else ''))
+        return
+    for tag in tags:
+        for p in man['ayat']:
+            bad = 0
+            for s in p['slices']:
+                problems, _ = check_slice(t, tag, p['ayah'], s)
+                bad += bool(problems)
+                for x in problems:
+                    print(f"WARNING {tag} {p['ayah']} {s['slice']}: {x}")
+            if bad:
+                print(f"{tag} {p['ayah']}: {bad} slice(s) with problems; not assembled")
+                continue
+            views = assemble(t, tag, p)
+            print(f"{tag} {p['ayah']}: {len(views)} views from {p['rows']} rows in {p['cells']} cells, assembled")
+
+
+def update(a):
+    """Cells that gained (or lost) rows since tier 2 ran get a new slice; other cells keep their views."""
+    d = run_dir(a.run)
+    t = d / 'tier2'
+    man = json.loads((t / 'manifest.json').read_text())
+    tag = a.model
+    spec = next(s for s in man['models'] if digest.tag_of(*s.split(':')) == tag)
+    changed = False
+    for p in man['ayat']:
+        old = json.loads((t / 'rows' / f"{key(p['ayah'])}.cells.json").read_text())
+        rs = tier1_rows(d, man['from'], p['ayah'], quiet=True)
+        by_id = {r['id']: r for r in rs}
+        cs = cells(p['ayah'], rs)
+        stale = [cid for cid, c in cs.items() if set(c['rows']) != set(old.get(cid, {}).get('rows', []))]
+        gone = [cid for cid in old if cid not in cs]
+        if not stale and not gone:
+            print(f"{p['ayah']}: up to date")
+            continue
+        changed = True
+        save_rows(t, p['ayah'], rs, cs)
+        n0 = sum(1 for s in p['slices'] if s['slice'].startswith('u'))
+        for n, ids in enumerate(pack({c: cs[c] for c in stale}, by_id, p['ayah']), n0 + 1):
+            s = write_slice(t, p['ayah'], f'u{n}', ids, cs, by_id)
+            p['slices'].append(s)
+            spawn(t, a.run, spec, p['ayah'], s)
+        for cid in gone:  # a cell that lost all its rows (retagged elsewhere): its old views are dropped, printed
+            print(f"NOTE {p['ayah']}: cell {cid} has no rows any more; its views are dropped at assembly")
+            p['slices'].append({'slice': f'gone-{cid}', 'cells': [cid], 'rows': 0, 'sources': 0, 'chars': 0, 'parts': 0,
+                                'empty': True})
+        p['rows'], p['cells'] = len(rs), len(cs)
+        print(f"{p['ayah']}: {len(stale)} cell(s) rebuilt, {len(gone)} cell(s) gone")
+    if changed:
+        dump(t / 'manifest.json', man)
 
 
 def view_id(ayah, n):
@@ -190,8 +358,8 @@ def load(ayah, tag):
 
 
 def compact(ayah, views, known, tag=''):
-    """Compact view list: view ids, source ids, the speaker only when not the source's author, stance marks
-    (+ prefers, - rejects). Full names, claims and anchors stay in tier 1 behind the row ids."""
+    """Compact view list grouped by cell (older outputs: by topic): view ids, source ids, the speaker only when not
+    the source's author, stance marks (+ prefers, - rejects). Claims and anchors stay in tier 1 behind the row ids."""
     out, topic = [f'# {ayah}: {len(views)} views from {len(known)} rows' + (f' ({tag})' if tag else '')], None
     for n, v in enumerate(views, 1):
         if v['topic'] != topic:
@@ -208,60 +376,40 @@ def compact(ayah, views, known, tag=''):
     return '\n'.join(out) + '\n'
 
 
-def render(t, tag, ayah, views):
-    known = json.loads((t / 'rows' / f'{key(ayah)}.json').read_text())
-    (t / 'out' / tag / f'{key(ayah)}.md').write_text(compact(ayah, views, known, tag))
-
-
-def check(a):
-    t = run_dir(a.run) / 'tier2'
-    man = json.loads((t / 'manifest.json').read_text())
-    tags = [a.model] if a.model else sorted(p.name for p in (t / 'out').iterdir())
-    ayat = [a.ayah] if a.ayah else [p['ayah'] for p in man['ayat']]
-    if a.ayah:  # the agent's own check
-        problems, _ = check_one(t, tags[0], a.ayah)
-        print('OK' if not problems else '\n'.join(problems[:60]) + (f'\n... {len(problems) - 60} more' if len(problems) > 60 else ''))
-        return
-    for tag in tags:
-        for ayah in ayat:
-            problems, views = check_one(t, tag, ayah)
-            for p in problems:
-                print(f'WARNING {tag} {ayah}: {p}')
-            if views:
-                render(t, tag, ayah, views)
-            print(f'{tag} {ayah}: {len(views)} views, {len(problems)} problems')
-
-
 def report(a):
     t = run_dir(a.run) / 'tier2'
     man = json.loads((t / 'manifest.json').read_text())
     for tag in sorted(p.name for p in (t / 'out').iterdir()):
+        total = 0.0
         for p in man['ayat']:
-            x = digest.usage(t / 'runs', f"/root/v7m_{a.run}_{tag}_{key(p['ayah'])}")
             f = t / 'out' / tag / f"{key(p['ayah'])}.jsonl"
-            if x is None:
-                print(f"WARNING {tag} {p['ayah']}: no run.json and no native session")
-                continue
             n = len(f.read_text().splitlines()) if f.exists() else 0
-            out_chars = len(f.read_text()) if f.exists() else 0
-            print(f"{tag} {p['ayah']}: ${x['usd']:.3f}, {x['requests']} requests, peak "
-                  f"{x['peak']} tokens, {p['rows']} rows -> {n} views, "
-                  f"output/input characters {out_chars / max(1, p['chars']):.2f}")
-            if not x['completed']:
-                print(f"WARNING {tag} {p['ayah']}: did not complete ({x['via']})")
+            for s in p['slices']:
+                if s.get('empty'):
+                    continue
+                x = digest.usage(t / 'runs', f"/root/v7m_{a.run}_{tag}_{key(p['ayah'])}_{s['slice']}")
+                if x is None:
+                    print(f"WARNING {tag} {p['ayah']} {s['slice']}: no run record")
+                    continue
+                total += x['usd']
+                print(f"{tag} {p['ayah']} {s['slice']}: ${x['usd']:.3f}, {x['requests']} requests, peak {x['peak']} tokens, "
+                      f"{s['rows']} rows in {len(s['cells'])} cells" + ('' if x['completed'] else ' — DID NOT COMPLETE'))
+            print(f"{tag} {p['ayah']}: {p['rows']} rows -> {n} views")
+        print(f'{tag}: ${total:.2f} total')
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest='cmd', required=True)
     p = sub.add_parser('build'); p.add_argument('run'); p.add_argument('--from', dest='from_tags', nargs='+', required=True,
-                                                                          help='tier-1 model tags, e.g. luna-max haiku-high')
+                                                                          help='tier-1 model tags, e.g. luna-max')
     p.add_argument('--ayat', nargs='+'); p.add_argument('--models', nargs='+', required=True)
     p.add_argument('--page', help="a frozen page: its own ayah (--ayah) and every verse it cites"); p.add_argument('--ayah')
-    p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--ayah')
+    p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--ayah'); p.add_argument('--slice')
+    p = sub.add_parser('update'); p.add_argument('run'); p.add_argument('--model', required=True)
     p = sub.add_parser('report'); p.add_argument('run')
     a = parser.parse_args()
-    {'build': build, 'check': check, 'report': report}[a.cmd](a)
+    {'build': build, 'check': check, 'update': update, 'report': report}[a.cmd](a)
 
 
 if __name__ == '__main__':

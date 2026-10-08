@@ -60,6 +60,40 @@ Status 2026-10-07 evening: **decided workflow below (focus ayah only)**; everyth
 - **Sonnet 5.5, tier 2:** 393 → 102 views, check OK, $0.78; distinct views kept (Bint al-Shāṭiʾ's reading,
   Biqāʿī's). About 2.5× Sol's cost, so **Sol is kept for tier 2**.
 
+## Row tags, retag and tier 2 by cell (user, 2026-10-08)
+
+**Why.** The writer must search notes instead of loading every cited verse's digest. On 12:49, 236 notes; only 106
+carry the root ʿ-ṣ-r in their exact words, 143 with the English claim; notes like "the verb can mean pressing oil"
+are findable only by a tag. Free-text tier-2 topics drift between runs, so a catalogue needs fixed labels.
+
+**Tier 1 (new runs, `digest.py`, `briefs/digest.md`).** Every row adds `words` (the verse words the point is about,
+copied from the verse text; `["*"]` for the whole verse) and `type` (one of `digest.TYPES`: meaning, grammar,
+rhetoric, readings, referent, reports, sciences, interpretation, theology, law, links, inward). Runs built from now
+on carry `"row_tags": true` in their manifest, and their check adds: every word is in one of the row's verses
+(vowels and alif ignored), the type is in the list. Older runs are checked as before.
+
+**Scope rule.** Every verse a page cites gets tier 1 as its own ayah before that page's writer. (95:1 test: 6:99 had
+2 notes against 172 segments.)
+
+**Retag (existing rows, `retag.py`, `briefs/retag.md`, Luna max).** Rows digested before row tags get the two tags
+from claim, exact words and verse text; claims and exact words are never changed. Output
+`RUN/retag/out/<TAG>/cNN.jsonl`; `digest.row_tags()` reads every retag run. Checks: every row answered once, words
+in the row's verses, type in the list. Order: S1 and S87–114 (own ayat and every verse they cite) first.
+
+**Tier 2 by cell (`merge.py`, `briefs/merge.md`, Sol high).** A cell is one verse word (or the whole verse) × one
+type. The script prints a verse's rows cell by cell; views never mix cells (so a broad view cannot bury a distinct
+argument). A verse larger than one context is split into slices of whole cells (90k characters), never merged
+afterwards. `merge.py update RUN --model TAG` rebuilds only the cells whose rows changed since tier 2 ran. Assembled
+views carry `cell`, `word`, `type` and `topic` ("word · type"); older outputs with free-text topics still load.
+Untagged rows form `untagged` cells and are printed as a WARNING.
+
+**Luna as a gatherer between page and writer: tested and dropped (95:1, 2026-10-08,
+`enrichment/v8/work/luna-test-95_1`).** Luna max packet: 720 notes for 15 paragraphs (4.5× what Opus used), 80%
+recall of the notes the Opus-alone writer cited; the misses were core positions (95:4 aḥsan taqwīm, 95:2 sīnīn).
+Opus with the packet: $1.51 floor / $3.12 estimated vs Opus alone $1.01 / $2.18, and it ran no search for what the
+packet lacked, so the aḥsan taqwīm question was silently lost. The writer stays one Opus agent that decides and
+searches (`enrichment/v8/q.py` is the test query tool); Luna stays upstream (tier 1, retag).
+
 ## Results of the test (2026-10-07)
 
 | Tier | Model | Result | Cost (API-equivalent; actual $0 on Codex) |

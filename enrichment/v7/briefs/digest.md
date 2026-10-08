@@ -30,7 +30,7 @@ No other commands, files, web or repository search.
 
 **Step 3.** Write the whole output file `enrichment/v7/work/{RUN}/out/{TAG}/c{NN}.jsonl` in one write with your file-writing tool, after you have read every part. Do not write it segment by segment, and do not check partial files.
 
-**Step 4.** Run the check command. If it lists problems, fix only the lines it names (for an anchor problem, copy the words again exactly from the segment) and run it again, until it prints `OK`. Do not stop while it still lists problems.
+**Step 4.** Run the check command. If it lists problems, fix only the lines it names (for an anchor problem, copy the words again exactly from the segment; for a word problem, copy the word again from the verse text, or use `["*"]`) and run it again, until it prints `OK`. Do not stop while it still lists problems.
 
 **Step 5.** Stop. Reply with the number of segments and the number of rows.
 
@@ -46,22 +46,27 @@ Do not record: the verse text itself, chains with no content, editors' footnotes
 
 ## OUTPUT: one JSON object per line, one line for EVERY segment, in chunk order
 ```
-{"loc":"EXACT_LOCATOR","rows":[{"verses":["87:6"],"speaker":"مجاهد","stance":"reports","claim":"one-line paraphrase in English","anchor":"exact words copied from the segment","mentions":["2:106"]}]}
+{"loc":"EXACT_LOCATOR","rows":[{"verses":["87:6"],"words":["فَلَا تَنسَىٰٓ"],"type":"interpretation","speaker":"مجاهد","stance":"reports","claim":"one-line paraphrase in English","anchor":"exact words copied from the segment","mentions":["2:106"]}]}
 {"loc":"EXACT_LOCATOR","rows":[],"none":"short reason, e.g. verse text only"}
 ```
 | Field | Rule |
 |---|---|
 | `loc` | the locator exactly as in the segment header |
 | `verses` | the verse(s) the point is about, as `S:A` |
+| `words` | the word or words of the verse this point is about, copied from the verse text under "Verses in scope" (a phrase is fine); `["*"]` when the point concerns the whole verse rather than a word. For a neighbouring verse not listed there, copy its words as the segment quotes them, or use `["*"]` |
+| `type` | exactly one of the types below: what kind of point this is |
 | `speaker` | who holds the view, as named in the source and in its own script (e.g. `مجاهد`, `Asad`); `author` when it is the author's own view |
 | `stance` | the author's attitude to the point: `holds`, `prefers`, `reports`, `rejects` |
 | `claim` | the point in one English line, at most 40 words; name the disagreement or preference when there is one |
 | `anchor` | 5 to 25 words copied exactly from the segment (same letters, same order; vowel marks may be left out) that carry the point; when the speaker is not the author, include the words that name him |
 | `mentions` | other verses this point quotes or names, as `S:A`; `[]` when none |
 
+Types (pick the one that fits best):
+{TYPES}
+
 `none` is only for segments with nothing to record (verse text only, a bare heading, apparatus). If the source text itself is broken, say so in `none`.
 
 ## CHECKLIST BEFORE STOPPING
 - [ ] every segment has exactly one line
-- [ ] every row has verses, speaker, stance, claim and anchor
+- [ ] every row has verses, words, type, speaker, stance, claim and anchor
 - [ ] the check command prints `OK`

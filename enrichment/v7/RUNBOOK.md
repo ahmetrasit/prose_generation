@@ -75,7 +75,20 @@ python3 -B enrichment/v7/digest.py check s103-1      # every segment answered, e
 python3 -B enrichment/v7/digest.py report s103-1     # cost per run, completion, peak context (cap 120k)
 ```
 
-## Stage 2: tier 2, per verse (Sol high); only after stage 1 is complete
+## Stage 1b: retag, per chunk of existing rows (Luna max); before tier 2
+
+Rows digested before row tags (runs without `"row_tags": true`) need `words` and `type` before tier 2 groups them
+into cells.
+
+```bash
+python3 -B enrichment/v7/retag.py build RUN (--ayat … | --page PATH --ayah A) --models gpt-6-luna:max
+python3 -B enrichment/v7/retag.py check RUN          # every row answered once, words in its verses, type listed
+python3 -B enrichment/v7/retag.py report RUN
+```
+
+Spawn files: `work/RUN/retag/spawn/luna-max_c*.md`, spawned like tier 1. Already-tagged rows are skipped and counted.
+
+## Stage 2: tier 2, per verse (Sol high); only after stages 1 and 1b are complete
 
 ```bash
 python3 -B enrichment/v7/merge.py build s103-1 --from luna-max --page <same page> --ayah 103:1 --models gpt-6-sol:high
@@ -83,8 +96,10 @@ python3 -B enrichment/v7/merge.py build s103-1 --from luna-max --page <same page
 
 - **Skips:** verses that already have tier 2 (`SKIPPED`). A verse with no tier-1 notes gets an empty view list and
   no agent (`NOTE`).
-- **Spawn files:** `work/s103-1/tier2/spawn/sol-high_*.md`, one per verse. Spawn them the same way.
-- **Outputs:** `work/s103-1/tier2/out/sol-high/<s>-<a>.jsonl`.
+- **Spawn files:** `work/s103-1/tier2/spawn/sol-high_<s>-<a>.<slice>.md`, one per slice (a verse is one slice unless it
+  exceeds 90k characters of input). Spawn them the same way. Untagged rows are printed as a WARNING: run stage 1b first.
+- **New rows later:** `merge.py update RUN --model TAG` builds slices only for the cells whose rows changed.
+- **Outputs:** `work/s103-1/tier2/out/sol-high/<s>-<a>.<slice>.jsonl`; `merge.py check RUN` assembles `<s>-<a>.jsonl` and `.md`.
 
 After all of them finish:
 
