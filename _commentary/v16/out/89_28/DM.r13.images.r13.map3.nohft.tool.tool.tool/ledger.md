@@ -1,0 +1,14 @@
+- memory: rāḍiya and marḍiyya are circumstantial accusatives (ḥāl) of the imperative
+- memory: in 69:21 and 101:7 rāḍiya describes the life as pleasing (active form, passive sense)
+- not written: ر ج ع B004 divorce taking-back - no bearing on the call
+- not written: ر ج ع B005 reply to a letter (cf. 27:35) - call/answer analogy too thin to carry a theme
+- not written: ر ج ع B007 repeated voice, adhan - no link to the ayah's situation
+- not written: ر ج ع B008, B009, B010, B011, B013 (step, retattooing, hand reaching back, resale, failed conception) - no work in any theme
+- not written: ر ج ع B015 rajīʿ as residue, reheated food - negative "returned" sense, unsupported by context
+- not written: ر ب ب B007 abiding in a place - tempting with settling, but no anchor beyond analogy
+- not written: ر ب ب B011 covenant (and 7:172) - link to the soul's origin would rest on my connection only
+- not written: ر ب ب B003-B006, B008-B010, B012-B017 - no work here
+- not written: ر ض و B005 outdoing in a contest, B007 Mount Raḍwā - no theme
+- not written: marḍiyy/marḍuww waw-root form - no interpretive work
+- not written: echo roots ر ب و (growth) and ر ض ي - not identity; withheld
+- not written: 86:9 testing of secrets next to rajʿ - would duplicate the test theme
