@@ -1,0 +1,13 @@
+- memory: ʿādha takes bi- for the refuge-giver and min for the feared thing (also visible in 3:36)
+- memory: mā here is the general relative covering all created things, rational beings included
+- memory: shurr with ḍamma read as the defect sense (dictionary vowel taken as given)
+- not written: ش ر ر B004 cutting/shredding - no work in any theme of this ayah
+- not written: ش ر ر B005 dripping roast meat (fixed phrase) - no link to harm or creation here
+- not written: ش ر ر B006 dangling tail ends, weights - no theme it could ground
+- not written: ش ر ر B012 a named plant - bare name, nothing to develop
+- not written: خ ل ق B009 garment wearing out - possible "created things wear out" thread, unsupported by the ayah's focus
+- not written: خ ل ق B010 khalūq perfume - no work in the refuge theme
+- not written: خ ل ق B012 khalqāʾ for a woman (ratqāʾ) - unrelated to the ayah's themes
+- not written: خ ل ق B005 khalīq "worthy of" - no theme needed it
+- not written: echo root ش ر ي (buying, sparks of lightning, persisting) - sound family only, not identity
+- not written: ش ر ر B008 mufradat line on pointing fingers to evil - refers to a poem, no Quranic support
