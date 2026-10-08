@@ -1,0 +1,11 @@
+- memory: hasaba (count) vs hasiba/yahsabu (suppose) differ by vowel
+- memory: past tense inside a supposition presents the outcome as accomplished
+- memory: akhlada with ilā = cling/lean; transitive akhlada = make lasting
+- memory: vowelling of unvocalized dictionary phrases (muhlid, khalad, husbāna, mihsaba, hasabtuhu)
+- memory: Anatolian Turkish "mal" = livestock; colloquial "hesapta" = supposedly
+- not written: mawla = spider - its own reporters doubt the attestation
+- not written: khuld = blind mole-rat - no ground in ayah or Quran beyond sound
+- not written: hisba as public inspection, ahsab skin colouring - no work in this ayah
+- not written: ihtisab as testing what someone holds - belongs to the surah's knowing scene (ayat five and seven)
+- not written: husbana sense "unburied/unpillowed" - only "some explanations", too weak
+- not written: animal whose teeth stay (khulud label) - no Arabic phrase supplied
