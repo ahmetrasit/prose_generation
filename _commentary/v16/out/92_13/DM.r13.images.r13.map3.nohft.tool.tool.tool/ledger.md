@@ -1,0 +1,12 @@
+- memory: fronting لَنَا before inna's noun conveys restriction ("ours alone")
+- memory: عَلَى here marks an undertaken obligation, لِ ownership
+- memory: vocalization of بأخرة as bi-akhiratin
+- memory: raḥl front/rear posts hold the rider in place on slopes
+- memory: rhyme of surah 92 in long -ā placing الأولى last
+- not written: echo root و ل ي (sound of al-ūlā beside tawallā, 92:16) - not identity, withheld
+- not written: ء و ل B003 (āl as those who return to a man) - adds nothing beyond B002 return
+- not written: ء و ل B004 governing subjects / managing wealth - tempting with lanā and māluhu, but would stack images on the ownership theme
+- not written: ء و ل B006 silhouette/mirage, B007 state, B008 tool/tent poles/bier, B009 ibex, B011 plant - no work in any theme
+- not written: ء خ ر B003 corner of the eye (sidelong glance) - no theme
+- not written: 14:44 wrongdoers asking delay to a near term - duplicates 63:10
+- not written: 89:24 "would that I had sent ahead for my life" - covered by 75:13 and 82:5
