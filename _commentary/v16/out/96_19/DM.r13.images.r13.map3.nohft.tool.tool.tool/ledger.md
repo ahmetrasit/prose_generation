@@ -1,0 +1,15 @@
+- memory: kallā is a particle of rejection/deterrence ("stop, not so")
+- memory: tuṭiʿhu is the jussive of form IV aṭāʿa; iqtarib is a form VIII imperative
+- memory: form VIII (iftaʿala) here conveys the doer's own self-directed effort
+- memory: iqtaraba elsewhere in the Quran only at 21:1, 21:97, 54:1
+- memory: vowels ṭayyiʿ (طيع) and qarab (القرب, night water-march)
+- memory: ʿinān = rein from bit to rider's hand; qiyād = lead rope held in front
+- memory: muqraba horse kept beside the owner, ready to ride (beyond "kept near, not left to roam")
+- memory: herders' pattern of hurrying the last night to reach water by morning (expands B008 phrase)
+- not written: echo root س ط ع (rising, long neck, pole) - sound-family only, not identity
+- not written: ط و ع B002 accord, B004 forcing oneself, B005 voluntary good (2:158) - no theme role without overreach
+- not written: لسانه لا يطوع بكذا (tongue won't yield) - no work in the themes
+- not written: س ج د B007 Jews/jizya - no bearing on the ayah
+- not written: ق ر ب B003 kinship, B009 waterskin, B010 sheath, B011 boat, B014 gait, B015 flank, B016 approximation - nothing to found or join
+- not written: 25:60 "shall we prostrate to what you command us" - redundant with Iblis passage
+- not written: la-in threat pattern 5:28 / 96:15 - tangential to this ayah
