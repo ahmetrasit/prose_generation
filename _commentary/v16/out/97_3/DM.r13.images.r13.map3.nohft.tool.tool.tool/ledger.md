@@ -1,0 +1,11 @@
+- memory: khayr serves as "better" without the af'al comparative pattern
+- memory: alf was the largest single-word numeral in classical Arabic; larger numbers were compounded
+- not written: ق د ر B007 cooking pot - no bearing on the comparison
+- not written: ق د ر B004 constricting provision - no link to night or month
+- not written: ق د ر B003 power - belongs to the first ayah's naming, adds nothing to the weighing
+- not written: خ ي ر B006 blocking a burrow exit - no bearing on this ayah
+- not written: ل ي ل B004 Layla / wine name - no bearing
+- not written: ء ل ف B006 the letter alif - no bearing
+- not written: ء ل ف B003 winning hearts (9:60) - covered by the hearts-joining passages, would repeat
+- not written: 2:185 shahida vs shahr - echo root, not identity; not needed
+- not written: 29:14 Nuh's thousand years less fifty - 2:96 already carries the long-life thousand
