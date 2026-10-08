@@ -1,0 +1,11 @@
+- memory: سيف مذكر is vocalized mudhakkar (passive participle, form II)
+- memory: ماء of a sword means the gleam/temper of the blade
+- memory: إنّما restricts ("only"), the predicate noun mudhakkir names a standing role
+- memory: ذكّر (form II) as the transitive "make remember" vs. ذكر
+- not written: B001 male/male offspring sense - no work in a reminding theme
+- not written: B005 dhikr as worship/prayer (87:15) - developed in the surah commentary's bowing image; adds nothing to the reminder's role
+- not written: ذو ذكر in the sword phrase - vowel and exact sense uncertain
+- not written: 80:1 tawalla echoing 88:23 tawalla - would mislead by pairing the frowner with the denier
+- not written: 52:30 "poet" beside "strong poem" sense - too thin a link
+- not written: 50:8 munib vs 88:25 iyab - different roots, only an echo
+- not written: 74:54-55 parallel to 80:11-12 - duplicate of the passage used
