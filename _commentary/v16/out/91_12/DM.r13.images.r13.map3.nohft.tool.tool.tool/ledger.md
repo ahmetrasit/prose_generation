@@ -1,0 +1,8 @@
+- memory: the infa'ala form of this root occurs in the Quran only at 9:46 and 91:12
+- memory: the 'iqal hobble ties the folded foreleg of a kneeling camel
+- memory: naqata in 91:13 is accusative of warning, implying an unstated verb
+- memory: Turkish şaki/eşkıya/şekavet and mebus derive from these roots and have narrowed
+- not written: ش ق و B004 mountain ridge, long and easy to climb - no link to the man or the scene
+- not written: echo root ش ق ي - not identity; its senses duplicate ش ق و
+- not written: ب ع ث B001 man who hardly sleeps, camel that hardly kneels - no Arabic phrase given; adds nothing beyond waking
+- not written: 5:31 God "sent" a raven after the first murder - fratricide parallel too remote for this ayah
