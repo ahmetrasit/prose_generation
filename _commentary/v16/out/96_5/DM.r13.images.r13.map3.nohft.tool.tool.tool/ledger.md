@@ -1,0 +1,12 @@
+- memory: lam + jussive yaʿlam negates the past ("did not know")
+- memory: ʿallama (form II) takes two objects, learner and thing learned
+- memory: aghnā (39:50) and istaghnā (96:7) share root غ ن ي
+- memory: qalam and raqm are not of root ع ل م (the pen–mark link is analogy)
+- not written: ع ل م B004 slit upper lip - a physical mark, no work in the theme beyond B002
+- not written: ع ل م B005 sea / deep well - knowledge-as-water would be analogy without support here
+- not written: ع ل م B006 falcon, B007 male hyena - no bearing on teaching
+- not written: ع ل م B001 ʿālamtuhu fa-ʿalamtuhu (outdoing in knowledge) - rivalry not staged in the ayah
+- not written: ء ن س B004 near side of bow/mount - no link to the ayah's act
+- not written: ء ن س B006 ibn insika (oneself, intimate) - did not found a theme
+- not written: ء ن س B007 seeking leave before entering - unrelated to teaching
+- not written: 2:151 and 6:91 same phrase (messenger teaches; Torah) - 4:113 and 2:239 carried the point
