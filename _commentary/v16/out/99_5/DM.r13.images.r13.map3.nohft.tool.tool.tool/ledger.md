@@ -1,0 +1,10 @@
+- memory: bi- after ḥaddatha can mark the content told (so "her news is that your Lord inspired her")
+- memory: awḥā is normally construed with ilā; lām here works like ilā / "for her"
+- not written: و ح ي B009 weeping, lament for the dead - no support in the ayah's scene
+- not written: و ح ي B008 fire, king, tyranny - no link to the ayah's act
+- not written: و ح ي B007 istawḥā, asking for information - the man asks, but not by this root; too loose
+- not written: و ح ي B004 divine revelation to prophets - covered by the hidden-conveyance theme; the earth is no prophet
+- not written: ر ب ب B007 staying in place, B011 covenant, B006 thick residue, B004/B014 crowds and herds, B010 arrow pouch, B015 particle, B003, B005, B009, B012, B013, B016, B017 - none grounds a theme here
+- not written: echo root ر ب و (22:5 rabat, swelling earth) - sound echo, not identity
+- not written: 33:72 trust offered to heavens, earth and mountains - connection to the earth as witness too loose
+- not written: 42:51 vahy as one of three modes of speech - adds nothing the hidden-conveyance theme lacks
