@@ -1,0 +1,17 @@
+- memory: perfect tense khaffat used for a certain future event (Arabic usage)
+- memory: ammā requires fa- in its answer; here the answer comes in 101:9
+- memory: rājiḥ as the pan that tips down (rujḥān of the scale)
+- memory: khasira (7:9, 23:103), akhsara (55:9, 83:3) and akhsarīn (18:103) share the root kh-s-r
+- memory: Turkish "mizan" as accounting trial balance and the Libra sign
+- not written: B006 khuff (camel's foot, shoe) - object image does not reach the scale theme
+- not written: B008 camels in single file - fixed expression, no bearing on the ayah
+- not written: B009 dogs' noise, rustling, wing-beating bird - sound family, no theme
+- not written: wazn B004 "mīzān al-nahār" midday - fixed expression, no theme here
+- not written: wazn B006 short woman - no bearing
+- not written: wazn B003 "wazn al-jabal" facing the mountain - no support for a mountain link in this ayah
+- not written: wazn B001 estimating dates on the palm - adds nothing beyond weighing
+- not written: B001 "kalām khafīf ʿalā al-lisān" vs 73:5 heavy word - attractive but unsupported contrast for this ayah
+- not written: 9:41 "khifāfan wa thiqālan" - battlefield readiness, not the scale's lightness
+- not written: 7:10 maʿāyish beside 7:9 - belongs to ayah 7's ʿīsha
+- not written: battle-day reading of B002 (camp fleeing a raid) - surah-level scene; ayah develops departure as mobility only
+- not written: awzār (6:31) from w-z-r - echo root of w-z-n, avoided to keep root identity clean
