@@ -1,0 +1,15 @@
+- memory: illā here introduces an exception of a different kind; accusative ibtighāʾa also readable as purpose of the giving in 92:18
+- memory: ibtighāʾ is a verbal noun (masdar)
+- memory: istaghnā (92:8) and yughnī (92:11) share root gh-n-y; ibtighāʾ (b-gh-y) only echoes them in sound
+- memory: tujzā (92:19) and jazāʾ (76:9, 98:8) share root j-z-y
+- memory: maysūr (17:28) shares root y-s-r with al-yusrā (92:7)
+- memory: ashqā, atqā, aʿlā share the same elative pattern
+- memory: ḍālla in بغى ضالته means a stray animal (glossed as camel)
+- memory: Turkish teveccüh, âlâ, pekâlâ as narrowed loans
+- not written: b-gh-y B004 wound healing over hidden rot - image of hidden motive drifts from the ayah's seeking
+- not written: b-gh-y B005 illicit relations, B007 horse's prancing, B008 vanguard - no theme support
+- not written: wajh B009-B014 (old age, birth position, rhyme letter, melon turning, striking the face, turning back a visitor) - none founds a theme; B014 would only echo 80:1-2
+- not written: rabb B011 binding pledge, B004 multitude, B005 step-family, B006 thick syrup and others - no tie to face-seeking without forcing
+- not written: echo root r-b-w (rabwa garden 2:265, yurbī 2:276) - not identity; growth scene belongs to surah commentary
+- not written: ʿ-l-w B011 recovery from illness, B008 extra load - no theme support
+- not written: 2:112 aslama wajhahu ... ʿinda rabbihi - repeats the 98:8 point
