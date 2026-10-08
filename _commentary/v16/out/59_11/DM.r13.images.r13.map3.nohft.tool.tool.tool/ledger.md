@@ -1,0 +1,14 @@
+- memory: alam tara + ilâ as a summons directing the gaze, not a question for information
+- memory: la-in / -anna endings as oath-shaped emphasis on the promises
+- memory: yarbūʿ rendered as Turkish "çöl faresi" (jerboa)
+- memory: mawshī = cloth with pattern woven into it, so the dyed kadhdhāba imitates woven pattern
+- memory: karihū in 47:26 is from k-r-h, the karh named as ṭawʿ's opposite
+- memory: present-tense yanṣurūn (59:8) read as ongoing action vs. emphatic future in 59:11
+- not written: نفق B001 market sense (nifāq = brisk sale) - would not join a theme without forcing
+- not written: نفق B002 spending - no spending in this ayah; belongs to other ayat
+- not written: كذب B008 kadhūb = the self - single attestation, no Quranic support here
+- not written: ر ء ي B006 mirror/appearance, ء ه ل B004/B005 inhabited place, welcome - no work in a theme
+- not written: ن ص ر B006 Christians - no support in this ayah's frame
+- not written: ق ت ل B003 knowing for certain, B008 enemy/peer - did not join the themes chosen
+- not written: echo roots ر و ي, ق ل ل, س ط ع - not identity roots
+- not written: 2:14 and 9:56 burrow scene in full - the shared scene is the surah commentary's
