@@ -1,0 +1,17 @@
+- memory: يَوْمَئِذٍ is built from يوم "day" and إذ "then", pointing back to a stated time
+- memory: indefinite وُجُوهٌ reads as "some faces", not all faces
+- memory: feminine singular agreement of 88:3–5 with the broken plural وجوه
+- memory: قفّ is hard, stony raised ground amid flat land
+- memory: the hump stores fat that a camel spends on long journeys
+- memory: شَرَف means both a high point and honour
+- memory: Turkish cihet, tevcih and câh come from the و ج ه root; mütevazı from متواضع
+- memory: rükû is the bowing posture of the prayer
+- memory: غبرة (80:40) and مغبرة share the root غ ب ر
+- not written: خ ش ع B005 (spitting phlegm) - no bearing on the face or the day
+- not written: و ج ه B007 (beginning of the day) - no support in the ayah or surah
+- not written: و ج ه B009–B012 (ageing, birth, rhyme letter, melon) - unrelated to the ayah's scene
+- not written: و ج ه B013 striking the face, with 47:27 faces and backs struck - too thin a tie to lowering
+- not written: و ج ه B014 turning back a visitor - no textual support
+- not written: و ج ه B008 right course of a matter - adds nothing beyond the direction theme
+- not written: 3:106 faces whitened and blackened - repeats the veil and darkness scene owned by the surah commentary
+- not written: 70:44 eyes lowered, humiliation covering - duplicates 68:43
