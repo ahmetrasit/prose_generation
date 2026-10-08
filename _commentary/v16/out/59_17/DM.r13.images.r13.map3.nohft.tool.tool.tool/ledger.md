@@ -1,0 +1,14 @@
+- memory: accusative 'āqibata marks it as kāna's predicate; the anna-clause is its subject
+- memory: past-tense kāna reports a future end as already done
+- memory: khālidayni is a dual circumstantial accusative
+- memory: athāfī are the stones that hold the pot over the fire
+- not written: nār as camel brand showing lineage (ن و ر B002) - would not join a theme without forcing
+- not written: nawār, the shy chaste woman (ن و ر B006) - no bearing on the ayah
+- not written: kh-l-d earrings / mukhalladūn youths (B003) - evidence split, pulls toward the garden
+- not written: khalad as mind (خ ل د B004) - no work in any theme
+- not written: 'uqba as ransom/substitute (ع ق ب B010) - 2:48's no-ransom already carries it
+- not written: tendon, eagle/banner, last broth in the pot (ع ق ب B001, B013, B011) - no theme
+- not written: kiyāna surety (ك و ن B003) beside Satan's "jār" in 8:48 - too thin
+- not written: tabū'a (5:29) sharing a root with tabawwa'ū (59:9) - root identity not checkable here
+- not written: ẓ-l-m plant whose shoots pass its limit (B007) - overlapped with the core sense
+- not written: echo root ج ز ز (shearing) - echo, not identity
