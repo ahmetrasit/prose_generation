@@ -1,0 +1,13 @@
+- memory: rasūlun read as apposition explaining al-bayyina of 98:1
+- memory: imperfect yatlū as ongoing/repeated action
+- memory: form II passive muṭahhara implies an agent, unlike ṭāhira
+- memory: gloss of yutābiʿu akhbāra as "relays successively" (sense of tābaʿa)
+- not written: ر س ل B007 (istirsāl, trust/ease) - no work in any theme beyond what B003/B004 give
+- not written: ر س ل B009 (widow courted by messages), B011 naming cluster - no bearing on the ayah
+- not written: ر س ل B010 (giving fī rislihā) - belongs to the surah's account scene; nothing new here
+- not written: ت ل و B005 (abandoning), B008, B009 fixed phrases - no theme support
+- not written: ص ح ف B004 ṣiḥāf trays in 43:71 - garden link too thin to found a theme
+- not written: ط ه ر B002, B005, B007 - menstrual, conduct, licit-marriage senses add nothing to the pages
+- not written: و ل ه alternative root for Allah - no bearing on min Allah here
+- not written: echo root ت ل ل - not identity; no supported role
+- not written: 52:3, 81:10 (unrolled scroll, pages spread at the end) - surah-level scene, not needed here
