@@ -1,0 +1,7 @@
+- memory: wa- here is the oath particle; oath answered in 93:3
+- memory: vowelling of ḍaḥwa, ḍaḥāʾ, iḍḥiyān, ḍaḥyāʾ, aḍḥāt in transliterations
+- memory: inbisāṭ read as spreading out, being laid out
+- memory: ʿĪd al-Aḍḥā as the Arabic name of the Turkish Kurban Bayramı
+- not written: B001 sense of delaying the forenoon prayer - prayer practice not in the Quran text, joins no theme
+- not written: B002 horse's legs showing / place almost never without sun - no Arabic phrase supplied, adds nothing beyond exposure
+- not written: 6:96 (night as rest, dawn split) - no duhā word, the night scene belongs to the surah commentary
