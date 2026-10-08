@@ -1,0 +1,12 @@
+- memory: vowel ṣadq (fatḥa) for the "hard, firm" sense (shayʾ ṣadq, rumḥ ṣadq)
+- memory: akdā al-ḥāfir = digger hit hard ground and stopped
+- memory: vowelings ṣidāq and ṣaduqa for the dowry words
+- memory: ḥusnā, yusrā, ʿusrā, ūlā are feminine elatives; ashqā, atqā, aʿlā masculine
+- memory: niḥla glossed as a freely given gift
+- not written: ص د ق B005 friendship - did no work beside affirming and giving
+- not written: ح س ن B004 place names (dune, moon, high mountain) - names, no usage to ground a theme
+- not written: 57:18 light-ṣād reading (muṣaddiqīn) - reading claim outside the supplied texts
+- not written: 12:88 Joseph's brothers "taṣaddaq ʿalaynā" - repeated the sadaka theme
+- not written: 41:51 jānib (ج ن ب) beside 92:17 - same root, too slender here
+- not written: 3:152 God made His promise true - 39:74 carried the point
+- not written: birth, hand/debt, herd/zakat scenes - surah-level scenes, only recalled
