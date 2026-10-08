@@ -1,0 +1,13 @@
+- memory: a li- phrase cannot stand alone; it needs a governing verb
+- memory: the fa in 106:3 is what closes a fronted li- phrase
+- memory: îlâf is the form IV (af'ala) verbal noun; aṭ'ama and âmana in 106:4 are form IV
+- memory: Quraysh occurs in the Quran only at 106:1
+- memory: Turkish "telif" narrowed to authorship and copyright
+- not written: etymology of the name Quraysh (gathering, gain) - uncheckable here, and the surah says nothing about the name's meaning
+- not written: Quraysh's diminutive pattern - nothing in the evidence builds on it
+- not written: alif as a letter name (B006) - does no work in any theme
+- not written: 2:243 "ulûf" leaving homes for fear of death - the thousand sense is too thin to carry the contrast
+- not written: alfaynâ (2:170, "what we found our fathers on") as an echo of habit - different root (l-f-w), only a sound echo
+- not written: different spellings of îlâf in 106:1 and 106:2 - explaining them would need reading-tradition material outside the brief
+- not written: 105:3 birds in flocks beside the Meccan tame birds - placed side by side only, no shared word or act
+- not written: which verb the li- attaches to (105:5 or 106:3) - this is an exegetes' question; only the open suspension is shown
