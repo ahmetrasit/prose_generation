@@ -1,0 +1,12 @@
+- memory: wajadaka with two objects, ḍāllan as the state in which he was found
+- memory: wa-wajadaka read under the affirming force of the sixth ayah's question
+- memory: vocalization wijdān for وجدانا (finding the stray)
+- memory: vocalizations hidya (course) vs hadiyya (gift), hady (offering), tawajjadtu
+- memory: Turkish vicdan, hidayet, dalalet, hediye derive from these Arabic words
+- not written: و ج د B003 wealth - belongs to the eighth ayah's enriching, not this ayah's theme
+- not written: و ج د B005 anger - no supported link beyond restating the third ayah
+- not written: ه د ي B007 protected refugee/captive - no tie to finding or guiding here
+- not written: ه د ي B009 dull weak man, B011 exchanging poems - no theme
+- not written: echo roots ج د د, ه د د - not identity, nothing they found
+- not written: 6:71 bewildered man called to guidance - overlaps Abraham and 2:198
+- not written: 20:122 Adam chosen and guided (object-less hedâ) - 20:50 and 87:3 already carry the point
