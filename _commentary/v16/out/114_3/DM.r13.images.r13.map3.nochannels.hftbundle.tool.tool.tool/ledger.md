@@ -1,0 +1,8 @@
+- not written: QAC root ن و س for an-nās - dictionary gives ء ن س as identity; no ن و س senses supplied
+- not written: ānasa rushdan (perceiving maturity) - no theme use
+- not written: insī side of bow / mount (side facing the person) - no theme found
+- not written: young woman fond of conversation (B003) - ornamental
+- not written: و ل ه B003 water released into desert and lost - no theme found
+- not written: Musa's mother separated from child (28:10) as wālih parallel - too far from ilah theme, alternative root only
+- not written: oath forms lāhi abūka, lahinnaka - no theme found
+- not written: Ibrahim's night scene in detail - surah commentary's scene, recalled only
