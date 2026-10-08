@@ -1,0 +1,10 @@
+- memory: Turkish "devlet" derives from this Arabic word
+- memory: Turkish "miskin" has shifted to lazy/indolent
+- not written: د و ل B002 garment wearing out - would read an unsupported decay image into circulation
+- not written: ع ق ب B013 eagle - different word (ʿuqāb), sound echo only
+- not written: تناهى gloss using سكن - definitional wording, not a link to miskīn
+- not written: س ب ل B004/B005 letting down, rain - no work in the water theme without forcing
+- not written: ء ه ل B003 worthiness, ق ر ي B010 witnesses - no theme to join
+- not written: ر س ل branches (gentle gait, milk, sending) - no bearing on this ayah's themes
+- not written: ء خ ذ B003 captive - taking by force already carried by 18:79
+- not written: ي د ي dûle-hand link from surah scene - no supplied branch to ground it here
