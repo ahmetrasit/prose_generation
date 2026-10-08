@@ -1,0 +1,11 @@
+- memory: fronted prepositional predicate (عَلَيْنَا before حِسَابَهُم) specifies "only upon Us"
+- memory: ثُمَّ can mark rank or escalation, not only time
+- memory: على expressing duty or debt ("upon someone" = his obligation)
+- memory: حِسَاب is also the verbal noun of form III حَاسَبَ (mutual reckoning); 84:8 only partly checks it
+- memory: Turkish "muhtesip" taken from محتسب
+- not written: B007 حسبان small arrows / destructive sending from the sky (18:40 garden) - no bridge to reckoning in this ayah
+- not written: B008 حسبانة small cushion beside the cushions of 88:15 - isolated naming, sound coincidence only
+- not written: B009 mixed white/red skin colour - no thematic role
+- not written: B010 تحسبت الخبر inquiring news, testing what someone holds - attractive link to 88:1 news, no Quran support
+- not written: سريع الحساب (24:39, 2:202, 5:4) speed of reckoning - would add a theme the ayah does not carry
+- not written: 8:64 and 3:173 حسبنا/حسبك الله - duplicate 9:129, which joins 88:23 directly
