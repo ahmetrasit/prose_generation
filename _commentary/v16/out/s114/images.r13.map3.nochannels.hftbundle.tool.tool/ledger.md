@@ -1,0 +1,4 @@
+- not developed: و ل ه members (Mother and young, Covered mind, Road to water) - alternative derivation, not the root of إله
+- not developed: Garden chain as separate section - merged into Mother and young (raising as growing)
+- memory: و س و س as a doubled syllable read as repeated movement
+- memory: صُدُور also heard as "turnings-back" (verbal-noun sense of صدر)
