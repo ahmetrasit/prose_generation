@@ -1,0 +1,12 @@
+- memory: verbless (nominal) sentence carries no tense, states a lasting condition
+- memory: le- on the predicate after inne is a second emphasis
+- memory: Turkish rasat / rasathane derive from Arabic رصد
+- memory: Iblis's refusal to prostrate and request for respite (7:11-15 context, only 7:15 checked)
+- memory: 78:18-20 content (trumpet, gates of sky, mountains as mirage) recalled, not looked up
+- not written: echo root ر ب و (increase, hill, usury, rearing) - withheld, not identity
+- not written: rabb B011 covenant beside 9:4-5 covenant-breakers and marsad - too loose to found a theme
+- not written: rabb B008 cloud "nurturing plants" beside rasad first rain - pairing of two roots, image too thin
+- not written: rabb B003, B004, B005, B006, B009, B010, B012-B017 - no work in this ayah
+- not written: 9:5 "sit for them at every marsad" - martial command, adds nothing beyond 7:16 and 7:86
+- not written: 11:56 and 96:15 forelock (nasiya) link - attractive but off this ayah's words
+- not written: 50:18 ever-present watcher (raqib) and 4:1 - different root, watching already carried by 72:27 and 20:46
