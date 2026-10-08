@@ -1,0 +1,23 @@
+- memory: accusative nāqata'llāhi wa-suqyāhā read as a warning construction (taḥdhīr)
+- memory: istiʾṣāl built on aṣl, "root"
+- memory: reduplicated damdama compared in sound with zulzilat/zilzāl
+- memory: damdama ʿalayhim glossed aṭbaqa ʿalayhim
+- memory: fear-paralysis noun vocalized ʿaqar
+- memory: jāthimīn as collapsed, pressed to the ground
+- memory: urqūb as the hock tendon above the heel; hamstrung camel collapses
+- memory: feminine -hā may refer to Thamud, their dwelling, or the damdama
+- memory: Turkish tekzip, tesviye, akar usages
+- not written: k-dh-b B007 wild animal stops to look back - no work in the theme
+- not written: kadhūb = the self (B008) - single attestation, no link to ayah 7 beyond echo
+- not written: k-dh-b B003 kadhaba ʿalayka incitement - no theme
+- not written: sawiyya saddle-pad vs sarj muʿqir - coincidence, no theme
+- not written: ʿaqār pasture that kills camels (B008) vs grazing in 7:73 - too speculative
+- not written: ʿaqīra raised voice / slain noble among his people (B009) - needs outside story
+- not written: ʿaqrā ḥalqā curse formula with God as subject (B010) - reversal speculative
+- not written: muʿāqara reviling, wine, clinging (B011, B012) - no link
+- not written: ʿaqr gap between two things (B014), red cloth (B019), scorpion (B020) - no work; scorpion root not established
+- not written: barren sand (B017) beyond mention - belongs to the surah's field scene
+- not written: rabb B004, B006, B007, B009–B017 - no link to this ayah's act
+- not written: dh-n-b water-courses (B004), ripening dates (B005), ladle, plant, lizard senses - no work here
+- not written: sawāʾ thirteenth night (B012), middle (B006), other (B007), omission (B011) - belong elsewhere or no theme
+- not written: echo root r-b-w - echo only, not identity
