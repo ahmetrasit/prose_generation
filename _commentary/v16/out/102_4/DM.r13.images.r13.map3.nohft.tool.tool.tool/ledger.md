@@ -1,0 +1,8 @@
+- memory: thumma orders two things with an interval between them, and can also mark escalation in rank
+- memory: kallā is a particle of rejection and deterrence
+- memory: sawfa is felt as a wider, more deferred future than the prefix sa-
+- memory: yulhihim (15:3) and alhākum (102:1) are the same verb, form IV of l-h-w
+- not written: ع ل م B003 world as "that by which something is known" - does not touch this ayah's knowing beyond a Fatiha echo
+- not written: ع ل م B004 cleft upper lip, B005 sea or deep well, B006 falcon, B007 male hyena - no bearing on the ayah's themes
+- not written: 23:101 "they will not ask one another" against the questioning of 102:8 - belongs to the eighth ayah
+- not written: tekâsür battle dust and war-fire images - carried by other ayat's words, surah commentary's scene
