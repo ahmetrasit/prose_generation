@@ -1,0 +1,16 @@
+- memory: dunyā is the feminine elative of adnā ("the nearer one")
+- memory: ithmid kohl is a black powder applied to the eyelid rim
+- memory: Suhayl is the name of a star
+- not written: jalāʾ/jalwa as display of the bride and the bride-gift (ج ل و B003, B009) - festive unveiling, no support for joining the exile theme
+- not written: ibn jalā, the well-known man (ج ل و B006) - does not reach the ayah's act
+- not written: falcon raising its gaze (ج ل و B008) - no bearing on exile or the onlookers beyond analogy
+- not written: ʿadhb sweet water (ع ذ ب B001), 25:53 - sound link only, nothing in the ayah carries it
+- not written: ʿadhaba as pond scum, kind character, womb (ع ذ ب B007-B009) - isolated names, no theme
+- not written: nār as camel brand (ن و ر B002) beside kataba as a mark - analogy too thin
+- not written: nāʾira enmity, nawār shying away (ن و ر B006, B007) - not carried by nār here
+- not written: kataba enrolment in the register, manumission contract, katība troop (ك ت ب B001, B004, B005) - no bearing on the decree
+- not written: ākhirat al-raḥl, rear of the saddle (ء خ ر B003) - front/back scene belongs to the surah
+- not written: mi'khār, palm keeping fruit to harvest's end (ء خ ر B002) beside 59:5 - tie unsupported
+- not written: 6:12 kataba ʿalā nafsihi l-raḥma - would overstate the exile as mercy
+- not written: 3:153 fī ukhrākum (rear) - too remote from this ayah
+- not written: daniyy, low and base (د ن و B003) - the ayah's dunyā is "nearer", hamzated daniʾ is another root
