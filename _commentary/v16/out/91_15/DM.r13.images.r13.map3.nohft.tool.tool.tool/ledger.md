@@ -1,0 +1,9 @@
+- memory: wāw before negated imperfect readable as circumstantial ("not fearing"), with subject understood
+- memory: -hā of ʿuqbāhā may refer to the leveling (the deed) or to the leveled people
+- not written: variant reading فلا يخاف - a report from outside the Quran
+- not written: ʿaqaba mountain pass (B012), 90:11 in the preceding surah - no link to this ayah's consequence theme
+- not written: khāfa worn by the water-carrier echoing suqyā (91:13) - too thin to carry a theme
+- not written: takhawwuf as diminishing (B004), 16:47 - Thamud taken all at once, not by erosion
+- not written: B003 of khawf (outdoing in fear), B005 (fear showing) - nothing in the ayah for them to do
+- not written: ʿuqba as leftover in pot / trace of illness (B011), eagle (B013), Yaʿqūb (B014), plant yellowing (B015) - no theme work
+- not written: muʿaqqibāt guardians (13:11) as succession - would repeat the succession image without new work
