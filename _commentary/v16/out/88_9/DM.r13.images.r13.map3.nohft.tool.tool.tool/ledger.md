@@ -1,0 +1,17 @@
+- memory: fronting li-sa'yihā gives emphasis and keeps -iya rhyme
+- memory: raḍiya usually takes bi-/ʿan; lām here marks object and cause
+- memory: fāʿalanī fa-faʿaltuhu contest pattern is general in Arabic
+- memory: kufrān (21:94) shares root k-f-r with kafara (88:23); root sense "covering"
+- memory: kitāba mechanism (agreed price paid by earnings, then freedom)
+- memory: ḥamāla mechanism (shouldering blood-money to end a feud)
+- memory: Turkish "razı olmak" drift to reluctant consent; "sa'y" kept mostly as hajj term
+- memory: ʿīsha rāḍiya, active form with pleasing sense
+- not written: س ع ي B003 tax-collector sense - no hold on this ayah's theme
+- not written: س ع ي B004 informer sense - negative usage, no role here
+- not written: س ع ي B007 - unrelated to the ayah
+- not written: ر ض و B006 obedient/lover/guarantor - not grounded by context
+- not written: ر ض و B007 Raḍwā mountain - a proper name only
+- not written: echo س و ع (sāʿa beside tasʿā in 20:15) - echo root, not identity
+- not written: "yasʿā li-ghārayhi" saying - meaning of ghārayn only from memory
+- not written: 93:5 fa-tarḍā - addressed to the Prophet, outside the theme
+- not written: 2:207 marḍāt Allāh - adds nothing beyond 92:20-21
