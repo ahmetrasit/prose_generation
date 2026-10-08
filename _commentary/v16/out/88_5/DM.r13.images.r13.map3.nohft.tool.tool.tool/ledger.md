@@ -1,0 +1,14 @@
+- memory: āniya as active participle of anā "reach its term"
+- memory: Turkish sâki from sāqī; muayene from muʿāyana
+- memory: 77:27 sits among blessings listed to deniers; context described without quoting 77:25-26
+- memory: 102 context (rivalry in increase) and 56:52-53 (zaqqum) described from memory, not looked up
+- not written: passive tuskā also fits asqā morphologically - unverifiable, would blur the saqā/asqā contrast
+- not written: س ق ي B007 heavy rain cloud, B008 papyrus never lacking water - no theme work
+- not written: س ق ي B009 dyeing by soaking - no supported link
+- not written: س ق ي B010 making a heart drink enmity, with 2:93 "made to drink the calf" - analogy only, different root
+- not written: س ق ي B011 backbiting - no link
+- not written: siqāya as Yusuf's cup (12:70) - adds nothing to the ayah
+- not written: ع ي ن B003, B004, B005, B008-B017 (protection, evil eye, spy, sun, money, notables, wide-eyed) - no theme work here
+- not written: ء ن ي B005 "annā" how/whence - no link
+- not written: echo roots س و ق and ء و ن - withheld, not identity
+- not written: Salih's she-camel water share (26:155, 54:28) - different root, the share idea is carried by B003 alone
