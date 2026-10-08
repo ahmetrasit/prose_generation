@@ -1,0 +1,13 @@
+- memory: indefinite subject requires the prepositional predicate first (fîhâ kutubun)
+- memory: non-human plurals take feminine singular adjectives
+- memory: an indefinite noun recalled with the article points back to the same referent
+- memory: dîn al-qayyima as a genitive construction stands only at 98:5; elsewhere ad-dîn al-qayyim
+- memory: Arabic letters join within the word
+- memory: qayyûm is a different pattern from qayyim
+- not written: ك ت ب B004 enrolment in the register (3:53) - no theme needed it
+- not written: ك ت ب B005 manumission contract (24:33) - no tie to the writings in the pages
+- not written: ق و م B001 qawm, B006 dwelling, B007 substitution, B011 stature, B013 qiyâma - did not join a theme of this ayah
+- not written: ق و م B014 resistance, B016 frozen water, B018 market, B019 pain, B020 sheep disease, B021 blind eye - no work here
+- not written: zubur al-awwalîn (26:196) - 87:18-19 carried the point
+- not written: Quran ghayra dhî 'iwaj (39:28) - 18:1 carried it
+- not written: 6:161 dînan qiyaman - same cluster as 30:30, added nothing
