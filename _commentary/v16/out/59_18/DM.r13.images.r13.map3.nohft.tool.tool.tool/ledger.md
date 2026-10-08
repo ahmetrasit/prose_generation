@@ -1,0 +1,17 @@
+- memory: li-tanẓur is a lām of command + jussive (third-person imperative)
+- memory: indefinite nafsun in this command reads as "each/any soul"
+- memory: vocalization nafas in زد في أجلي نفسا
+- memory: ق على ظلعك read as "mind your limp, go at your pace"
+- not written: khabīr = ploughman, sharecropping (خ ب ر B003) - would cast God's name as a farmer; no anchor in the ayah
+- not written: soft water-holding land, great waterskin, soft plants, shared sheep (خ ب ر B002, B004-B006) - no link to a theme
+- not written: evil-eye senses of naẓar (B007) and nafs (B003) - only the Turkish narrowing used
+- not written: naẓar as God's merciful regard (ن ظ ر B011) - attractive counterweight to khabīr, but nothing in the ayah carries it
+- not written: naẓīr/munāẓara, facing houses, time destroying (ن ظ ر B003, B005, B006, B010) - no work here
+- not written: morning cloud, unborn young (غ د و B003, B005) - no support for a theme
+- not written: ounce weight, shrike, saddle that does not chafe (و ق ي B003 partly, B004, B005) - outside the themes
+- not written: ancientness, adze, place name, vanguard parts (ق د م B003, B006-B009) - outside the themes
+- not written: nafs as blood, birth, sip, tanning measure, precious thing (ن ف س B004-B008, B010) - no theme here
+- not written: wages, transaction, spear part, work camels (ع م ل B002-B010) - no theme here
+- not written: āmīn, ilāh senses, و ل ه alternative - no bearing on this ayah's reading
+- not written: 18:23 "do not say I will do it tomorrow" - overlaps 31:34; not needed
+- not written: 6:158 "wait, we too are waiting" - 43:66 carried the waiting sense
