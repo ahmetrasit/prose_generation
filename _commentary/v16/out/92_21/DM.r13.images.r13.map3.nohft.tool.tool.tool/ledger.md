@@ -1,0 +1,15 @@
+- memory: sawfa marks a farther future than the prefix sa-
+- memory: la- in wa-la-sawfa is an emphatic lam
+- memory: a hidden subject pronoun can grammatically refer to the nearest noun (rabbihi)
+- memory: istaghnā, yughnī, aghnā, tughnī share root gh-n-y
+- memory: ghāshiya and yaghshā share root gh-sh-y; taṣlā and yaṣlāhā share root ṣ-l-y; ʿāliya and aʿlā share root ʿ-l-w
+- memory: nāʿima and niʿma share root n-ʿ-m
+- memory: jazāʾ (98:8) and tujzā share root j-z-y
+- memory: akdā = to give and then stop giving
+- memory: hāwiya = a pit one falls into
+- memory: ʿāʾil = needy, poor
+- not written: B005 vying and outdoing (rāḍānī fa-raḍawtuhu) - no foothold in a two-word promise with no rival
+- not written: B006 obedient / loving / guarantor - nothing in the surah's wording supports these
+- not written: B007 Mount Radwā and women's names - proper names, no work in the theme
+- not written: echo root ر ض ي - not identity; its senses duplicate the identity root
+- not written: B001 "accepted as companion" - not relevant to an objectless verb
