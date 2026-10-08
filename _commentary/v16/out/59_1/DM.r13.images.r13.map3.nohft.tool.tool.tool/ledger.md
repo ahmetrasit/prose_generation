@@ -1,0 +1,13 @@
+- memory: sabbaha with li- versus direct object; li- read as direction/belonging
+- memory: mā as relative covering non-rational things (versus man)
+- memory: past-tense opening read as a settled, completed fact
+- memory: Turkish "aziz"/"hekim"/"tespih" usage (Turkish, not Arabic)
+- not written: سبحات وجه ربنا (س ب ح B003, glory/light of His face) - no surah or ayah chain to carry it
+- not written: س ب ح B007/B008 (leather shirt, valley name) - no work in any theme
+- not written: و ل ه alternative etymology for Allah (bewilderment, longing) - documented alternative only; would blur root identity
+- not written: echo و س م (wasm, mark) for ism/samā' - echo root, not identity
+- not written: ء ر ض B002/B003 (fertile soft earth, man apt for good) - would dilute the heaviness contrast
+- not written: ء ر ض B008-B012 (trembling, cold, woodworm, sores) - no support in the ayah or surah
+- not written: س م و B003, B006, B008 (stallion, hunters, good name) - no theme
+- not written: ع ز ز B008 (overwhelming flood) - belongs to the surah commentary's flood scene
+- not written: kale/fortress scene of 59:2 and horse scene of 59:6 - surah commentary's; recalled in one sentence each
