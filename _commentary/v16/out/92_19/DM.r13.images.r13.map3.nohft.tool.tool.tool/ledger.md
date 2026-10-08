@@ -1,0 +1,13 @@
+- memory: idiom لفلان عندي يد ("he has a hand with me" = I owe him a favour)
+- memory: مِن after negation sweeps the whole class ("not a single")
+- memory: the exception in 92:20 is disjoint (seeking the face is not a kind of favour)
+- memory: مكافأة and كُفُوًا share the root ك ف ء
+- memory: Turkish mükâfat comes from مكافأة
+- not written: ء ح د B003-B006 (numbers, Sunday, Uhud, acting alone) - no bearing on the ayah's "no one"
+- not written: ع ن د B001-B003, B005-B006 (obstinacy, straying camel, unstanched vein, no way out, "take it!") - the ayah uses only the preposition; forcing them would replace the meaning
+- not written: ن ع م B002 softness and easy life - could only decorate, did not move the debt theme
+- not written: ن ع م B003-B004 (praise word, "yes") - no work in this ayah
+- not written: ن ع م B006-B009, B011-B013 (ostrich, its likenesses, scattering, south wind, settling in a place, walking on foot, delight of the eye) - no link to favour/recompense here
+- not written: ج ز ي B004 jizya tax - historical institution, outside the ayah
+- not written: echo ج ز ز (shearing, harvest) - echo root, no identity
+- not written: surah zakat-collector scene (4th/6th/18th ayat) - belongs to surah commentary; herd recalled only
