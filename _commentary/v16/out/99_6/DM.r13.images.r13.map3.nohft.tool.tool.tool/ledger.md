@@ -1,0 +1,11 @@
+- memory: أشتات as plural of شَتّ (dictionary gives شت and شتيت, not the plural pattern)
+- memory: root of ٱلنَّاس disputed (QAC ن و س, gateway ء ن س); prose ties nās to ins only loosely
+- memory: watering mechanics (herds converging at a well, then each returning its own way) beyond the dictionary phrases
+- memory: spear's ʿāmil as the part carrying the thrust (dictionary gives only position below the head)
+- not written: echo root ر و ي (watering, riwāya) - withheld echo, not identity; sound kinship with the water scene would be a false bridge
+- not written: ص د ر B006 "portion of a thing" - adds nothing to ashtāt beyond what ش ت ت already carries
+- not written: ص د ر B005 levy/confiscation - no bearing on the ayah
+- not written: ء ن س B005 pupil image, B002 perceiving - belong to 99:3's insān in the surah commentary
+- not written: ر ء ي B004 tarāʾā (hosts seeing each other) - mutual seeing; the ayah shows each his own deeds
+- not written: ع م ل B010-B012 legs as "workers", trodden road, foot travellers - suggestive of the walking crowd but would only decorate
+- not written: 53:40 sa'yuhu sawfa yurā - close parallel, but 92:4 and 2:167 already carry the striving and the showing
