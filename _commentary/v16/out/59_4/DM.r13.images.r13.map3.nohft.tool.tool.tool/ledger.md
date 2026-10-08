@@ -1,0 +1,13 @@
+- memory: Turkish "şık" (test option) derives from Arabic شِقّ "half, side"
+- memory: form III (mufāʿala) of شاقّ expresses an action between two parties
+- memory: Turkish "şiddet" today mainly means violence
+- not written: assimilated يُشَآقِّ here vs unassimilated يُشَاقِقِ in 8:13 and 4:115 - no supportable meaning in the form difference
+- not written: ش ق ق B006 splinter from a board - vowelling uncertain, image not needed
+- not written: ش ق ق B008 camel's bellowing bag / loud orator - no anchor in the ayah's theme
+- not written: ش ق ق B007 sand gaps, anemone; B010 tall horse - no theme
+- not written: ع ق ب B013 eagle/banner - different vowelling (ʿuqāb) from ʿiqāb, would mislead
+- not written: ع ق ب B012 mountain pass, B015 drying plant, B010 ransom - no theme
+- not written: ش د د B006 "shadīd" = miser, link to 59:9 shuḥḥ - too tenuous
+- not written: و ل ه alternative analysis of Allah (separating mother from child) - alternative, not identity; would distort
+- not written: echo root ش ق و (misery, toil) - echo only, not identity
+- not written: ر س ل gentle pace, milk, successive herds - no work in this ayah
