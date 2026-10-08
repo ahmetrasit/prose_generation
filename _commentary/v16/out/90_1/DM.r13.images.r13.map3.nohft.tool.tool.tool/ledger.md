@@ -1,0 +1,14 @@
+- memory: "la-qad" introduces the answer of an oath
+- memory: hādhā is the near demonstrative
+- memory: kirkira is the hard chest pad of a kneeling camel
+- memory: Turkish kısım/taksim/kısmet/kasem from q-s-m; belde/belediye from b-l-d
+- not written: q-s-m B001 beauty - no tie to oath or surah
+- not written: q-s-m B002 midday heat - no tie
+- not written: q-s-m B005 lot-arrows (5:3) - contrast with divine oath too thin
+- not written: q-s-m B007 cloth-folder, horse between stages - isolated
+- not written: b-l-d B004 lunar mansion/starless sky - no theme
+- not written: b-l-d B008 coarse big-bodied - no theme
+- not written: b-l-d B011 sword fighting - no theme
+- not written: b-l-d B012 abandoned ostrich egg - orphan link speculative
+- not written: 94:1 chest-widening - different root, analogy thin
+- not written: 70:41 "not outrun" vs lagging horse - different root, thin
