@@ -1,0 +1,13 @@
+- memory: "mā" asks what a thing is, not who or when
+- memory: 101:1-2 readable as one sentence, name as subject and question as predicate
+- memory: Turkish "mahiyet" from Arabic "mā hiya"
+- memory: "ayyāna" asks "when"
+- memory: glosses of al-ḥāqqa, al-wāqiʿa, aṭ-ṭāmma, aṣ-ṣākhkha, al-ghāshiya, aṭ-ṭāghiya
+- not written: B002 sword clash - war-day scene is the surah's; this ayah adds nothing to it
+- not written: B003 stallion covering - no bearing on the question
+- not written: B004 drawing lots (Turkish "kura") - division belongs to the sixth-ninth ayat and their weighing
+- not written: B007 chosen leader, best property - no bearing on the question
+- not written: B008 baldness, bare land, emptied courtyard - no support from this ayah
+- not written: B009 gourd, B012 food bag - no bearing on the question
+- not written: B010 open top of road, courtyard before house - no attested link to the knock
+- not written: adrāka "knowing by effort" - the third ayah's word, not this ayah's
