@@ -1,0 +1,12 @@
+- memory: tafa''ul pattern (mutakabbir) conveys taking on / displaying a quality
+- memory: Quran uses jabbār for humans only in censure
+- not written: ه م ن B002 himyān belt-purse - marked as a foreign loanword, no theme
+- not written: ج ب ر B004 jubār (uncompensated damage) - legal sense, no theme
+- not written: و ل ه alternative etymology of Allah - documented alternative, identity root ء ل ه used
+- not written: م ل ك B007 water as milk al-amr, B008 lead animal - would repeat the cohesion theme
+- not written: م ل ك B009 angel (mal'ak) - separate derivation, no theme here
+- not written: ق د س B009 great ship, B010 trough stone, B008 mountain name - no tie to the ayah's themes
+- not written: س ل م B006 ladder, B009 snake-bitten, B011 one-handled bucket - no theme
+- not written: ش ر ك B004 sandal strap, B005 road tracks - no theme
+- not written: ك ب ر B012 drum, B013 risen day - no theme
+- not written: ع ز ز B006 narrow-teated ewe - no theme
