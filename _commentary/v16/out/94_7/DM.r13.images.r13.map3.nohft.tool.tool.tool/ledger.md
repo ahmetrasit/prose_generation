@@ -1,0 +1,13 @@
+- memory: fa-nṣab with fatha on ṣād = imperative of naṣiba "to tire"; "set up" verb would give inṣib
+- memory: idhā + perfect expresses a recurring future condition ("whenever")
+- memory: inṣabba in the water phrases is from ص ب ب, not ن ص ب
+- memory: vowelling nasibe for نصب الرجل تعبا
+- memory: ḥudāʾ = camel-driving chant (beyond the supplied gloss)
+- not written: lunar mansions named after bucket spouts (ف ر غ B002) - no work in any theme
+- not written: cast ring ḥalqa mufragha (ف ر غ B002) - adds nothing beyond the vessel image
+- not written: farāgha as semen (ف ر غ B005) - nothing to found or join
+- not written: naṣīb share / Turkish "nasip" (ن ص ب B005) - no support linking share to the commanded toil
+- not written: niṣāb origin, sun's setting place (ن ص ب B006) - "return to origin" link to the eighth ayah too speculative
+- not written: grammatical naṣb (ن ص ب B007) - technical, no theme
+- not written: trap, pot stand, raised curtain (ن ص ب B001) - add nothing to the standing image
+- not written: meysir arrow scene from the images commentary - carried by other ayat's words
