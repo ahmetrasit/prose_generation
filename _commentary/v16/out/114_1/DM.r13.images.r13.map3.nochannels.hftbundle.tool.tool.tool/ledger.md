@@ -1,0 +1,7 @@
+- not written: ن و س root given for an-nās in the word table - no attested senses supplied; ء ن س used
+- not written: qāla (ق و ل B007), word spreading among people - belongs to ayah 6's human whisperers, not a theme here
+- not written: qawl as inspiration (ق و ل B017), taqawwul (B005), negotiation (B009), sanma (B011) - no work in this ayah
+- not written: rabbānī scholar/captain (ر ب ب B003, B017), the plant (B012), the particle rubba (B015) - no theme here
+- not written: istīnās before entering (ء ن س B007, 24:27) - its scene is ayah 5's entry into breasts
+- not written: B002's "two surahs recited for protection" - names a surah title the Quran does not give
+- not written: mother/janīn scene with ayah 6 and night/hunt/horse scenes - surah commentary
