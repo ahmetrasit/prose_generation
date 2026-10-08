@@ -1,0 +1,10 @@
+- memory: masdar وثاقه can also attach to the one bound (object reading of the pronoun)
+- memory: عروة = the handle/loop of a bucket or vessel that the hand grips
+- memory: طاغوت shares the root of طغوا (ط غ ي/و)
+- memory: نقض = undoing a twisted rope or knot
+- not written: passive reading of يوثق - outside the supplied canonical text
+- not written: 69:30-34 chain scene - surah commentary's; the ransom passage served the theme better
+- not written: 4:21 "thick covenant" - adds rope texture but no theme needed it
+- not written: 5:7 covenant "we heard and obeyed" - duplicates the 12:66 point
+- not written: أحد numeral, Sunday, Uhud branches - no bearing on this ayah
+- not written: عذاب/sweet-water meeting - belongs to 89:25 and the surah's meeting scenes
