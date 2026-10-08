@@ -1,0 +1,11 @@
+- memory: lam plus doubled nun gives oath-like emphasis
+- memory: zarnuq are the two posts at a well head
+- memory: Arabs expressed joy as coolness of the eye
+- memory: naʿīm elsewhere in the Quran always the hereafter's bliss (no concordance check)
+- memory: 55:37 wording (sky splits, rose-red) not looked up
+- not written: echo root س ل ل (drawing out, chain, sly theft) - not identity; no Quranic support
+- not written: نعم B003 praise word "how excellent" - no theme it shaped
+- not written: أنعم B010 "did more, went further" - link to takāthur too thin
+- not written: تنعّم B012 going on foot, sole of foot - no theme
+- not written: 16:80 tents of herd hides for journeying and settling - visit/stay scene is the surah commentary's
+- not written: 89:15 test by being "nimetlendirildi" - scene belongs to surah commentary
