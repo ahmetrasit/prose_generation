@@ -1,0 +1,9 @@
+- memory: amma requires fa in its answer; second fa in 93:9 is that
+- memory: al-yatim fronted object before the verb; normal order is after the verb
+- memory: fa in fa-awa (93:6) marks immediate sequence, no interval
+- memory: qahqar/qahqara built on q-h-r letters with an added r
+- memory: aqamahu (18:77) and taqumu (4:127) share root q-w-m
+- not written: q-h-r B006 stacked abundant food - no bearing on the prohibition or the orphan
+- not written: q-h-r B007 small unnamed animal - nothing identifiable to carry a theme
+- not written: 90:15 feeding a related orphan, 2:177 giving to orphans - duplicate 89:17 and 107:2 without adding to the qahr theme
+- not written: 7:127 sons killed as making orphans - Quran does not say so; kept to "aimed at children"
