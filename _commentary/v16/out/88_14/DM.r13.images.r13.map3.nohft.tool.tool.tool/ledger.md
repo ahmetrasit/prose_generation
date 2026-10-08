@@ -1,0 +1,13 @@
+- memory: Turkish "konu" is built on the verb "konmak"
+- memory: Turkish mevzu, mevzi, tevazu are loans from this Arabic root
+- memory: Turkish "kadeh" usually evokes a stemmed glass today
+- not written: ك و ب B004 pieces stuck one on another - no tie to the cup or the surah
+- not written: ك و ب B006 thin neck and large head - a jug silhouette is too speculative
+- not written: و ض ع B004 loss in trade - no support in the surah
+- not written: و ض ع B006 resettled groups, baggage - no theme
+- not written: و ض ع B007 camels grazing saltbush - camel scene, no link to the cups
+- not written: و ض ع B008 padding cloth with cotton - link to cushions of 88:15 too weak
+- not written: و ض ع B009, B011, B012 - no theme
+- not written: و ض ع B013 lowering the camel's neck to mount - camel scene, not this ayah's image
+- not written: 22:2 laying down of burdens in terror - pulls against the rest theme
+- not written: 76:16 measured crystal-silver cups - agent ambiguous, adds nothing to "placed"
