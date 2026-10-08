@@ -1,0 +1,14 @@
+- memory: Arabic perfect verb used as optative curse (general usage)
+- memory: yadā is dual with nūn dropped in construct
+- memory: khusr/khusrān as trader's loss of capital; Turkish hüsran narrowed to disappointment
+- memory: jāriḥa (limb) shares root with jaraḥa "to earn"
+- memory: kunya as naming form, not literal fatherhood
+- not written: ل ه ب B005 mountain cleft / sheer cliff - no grounding in the ayah's theme beyond sound
+- not written: ل ه ب B007 lightning without gap, B008 handsome/hairy man - no work in any theme
+- not written: ي د ي B008, B011-B015, B017 (before, scattering, forever, handle, wide, skilled, eat) - did not join a theme
+- not written: ي د ي B013 axe handle beside firewood of fourth ayah - too remote, scene belongs elsewhere
+- not written: ء ب و B002 lā abā lak, B003 goat sickness - no bearing on the name here
+- not written: echo root ء ي د (power, bi-ayd) - not identity; yad B002 already carries power
+- not written: Pharaoh's threat to cut hands beside his tabāb - analogy too loose
+- not written: tabāraka (67:1) sound likeness to tabbat - different roots, echo only
+- not written: 48:10 hand of God over pledging hands - pledge theme already grounded by usage
