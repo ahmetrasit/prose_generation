@@ -1,0 +1,15 @@
+- memory: ghāshiya is the feminine active participle of the verb "to cover"
+- memory: āzifa (53:57) = "the approaching one", kāshifa (53:58) = "one who uncovers"; roots not supplied
+- memory: jannah (88:10) and kufr (88:23) roots carry "covering"
+- memory: rāna (83:14) is the same word as rayn "rust" in the ghishāwa definition
+- memory: muḥdath (21:2) read as "newly come"
+- memory: Turkish "hadis" narrowed to prophetic reports, "hâdise" = event
+- not written: ء ت ي B002 giving - only as "bring" in 44:10, no theme of its own
+- not written: ء ت ي B003 suitable way, B004 water channel - no grip on the ayah's act
+- not written: ء ت ي B006 stranger - echoes the flood "from elsewhere" but adds nothing the flood lacks
+- not written: ء ت ي B007 yield, B008 tribute, B010 road/goal, B012, B013 - no link to the report or the covering
+- not written: ح د ث B006 revealing, B008 inspired person - would only restate the report theme
+- not written: غ ش و B004 marital union (7:189 tagashshāhā) - covering that yields life; no support in this surah's frame
+- not written: غ ش و B007 white-headed animal - colour image, no work in a theme
+- not written: 53:16 covering of the lote tree - positive vague covering, 8:11 already carries the point
+- not written: echo root غ ش ي - not identity, withheld
