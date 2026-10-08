@@ -1,0 +1,13 @@
+- memory: relative mā normally for things/attributes, man for persons
+- memory: mā in 91:5 also readable as maṣdariyya ("and its building")
+- memory: ṣarḥ = tall structure/tower; asbāb = ways/routes (40:36-37 glosses)
+- memory: bi-aydin (51:47) = with power
+- memory: marṣūṣ = tightly joined; furūj = cracks; fuṭūr = fissures
+- memory: tabāb = ruin/loss
+- memory: Turkish "bünye" descends from binya
+- not written: ب ن ي B007 ibn (son) filed under this root - no Quranic or thematic tie to building the sky
+- not written: ب ن ي B003 al-binya = Kaaba - no grounding in this surah
+- not written: ب ن ي B005 bow sticking to its string, B008 side paths/dolls/pebbles, B010 food building flesh - no work in a theme
+- not written: س م و B003 stallion, B006 hunters, B008 good fame - no work in a theme
+- not written: echo root و س م (mark, first rain) - not identity, withheld
+- not written: 21:30 heavens and earth sewn then split - beyond the building image
