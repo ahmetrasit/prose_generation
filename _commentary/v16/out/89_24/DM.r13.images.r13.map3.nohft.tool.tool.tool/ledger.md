@@ -1,0 +1,14 @@
+- memory: leyta expresses a wish for the impossible or far-off
+- memory: yā before leyta has no real addressee (alerting call)
+- memory: li- can mark time, allowing "in my lifetime" here
+- memory: yaqūlu as vivid present for a future scene
+- memory: turāth means inheritance left by the dead
+- memory: Turkish "takdim" and "hayat" have narrowed usage
+- not written: ḥayāʾ shame (ح ي ي B005) - regret here is not shame; no support in the surah
+- not written: istiḥyāʾ sparing alive (B006) with Pharaoh 89:10 - tangential, no tie to this ayah's act
+- not written: taḥiyya greeting/sovereignty (B007-B008) - no tie to the theme
+- not written: snake, tribe, womb, face, names (B004, B010-B012, B014) - no work in the ayah
+- not written: iqdām courage, adze, place name, vanguard (ق د م B006-B009) - vanguard would be unsupported analogy
+- not written: other qawl branches (rumour, false attribution, ruler title) - no work here
+- not written: echo root ق ل ل - echo is not identity
+- not written: 36:26 keşke said inside paradise - belongs to the surah commentary's scene
