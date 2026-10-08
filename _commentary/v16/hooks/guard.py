@@ -73,11 +73,11 @@ def main() -> None:
             if not SAFE_CMD.fullmatch(str(inp.get("command", "")).strip()):
                 refuse(f"a v16 run may run only the lookup `python3 {MISSING} text <refs>` (or the check for its own "
                        "target), exactly as written, as the whole command")
-        elif tool == "Write":
+        elif tool in ("Write", "Edit", "MultiEdit"):  # Edit of its own output: self-revision (user, 2026-10-07)
             if p != (d / output).resolve():
                 refuse(f"a v16 run writes only {d / output}")
         else:
-            refuse(f"a v16 run uses only Read (prompt.md), Bash (the lookup) and Write ({output}); not {tool}")
+            refuse(f"a v16 run uses only Read (prompt.md), Bash (the lookup) and Write/Edit ({output}); not {tool}")
     elif d.is_relative_to(ENRICH_WORK):
         others = [x for x in d.parent.parent.glob("s*/zengin.*") if x.is_dir() and x != d] \
             + [x for x in d.parent.parent.glob("s*/ehlikitap.*") if x.is_dir() and x != d]  # any surah's call dirs

@@ -152,8 +152,10 @@ without them):
 - `WARNING: no subagent transcript names <dir>`: the output is finished, but the cost is `None` in the ledger.
   Report it; it happens when the transcript is not under `~/.claude/projects/` (another machine or account).
 - Every tool use of the agent is in `tool_calls.json`; the finish step prints each one outside the run's rule
-  (a read other than prompt.md, a write other than the output, any other tool, a command other than the lookup)
-  as `WARNING: tool use outside the run's rule`: the run is contaminated, the user decides.
+  (a read other than prompt.md, a write or edit of any file but the output, any other tool, a command other than the
+  lookup) as `WARNING: tool use outside the run's rule`: the run is contaminated, the user decides.
+- Edits of the run's own output after the Write are self-revision on the same evidence, not contamination (user,
+  2026-10-07): allowed, counted as `self_edits` in `run.log.json`, printed as a NOTE and reported. The guard allows them.
 
 ## Step 1: surah map (1 call)
 

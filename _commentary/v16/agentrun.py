@@ -240,13 +240,23 @@ def tool_use_outside_rule(d: Path, output: str, calls: list[dict]) -> list[str]:
             elif name not in ("Read", "Glob", "Grep", "Write", "Edit", "MultiEdit", "NotebookEdit", "Bash"):
                 out.append(f"{name} {json.dumps(inp, ensure_ascii=False)[:120]}")
         else:
+            # Edit/MultiEdit of the run's own output is self-revision on the same evidence (user, 2026-10-07: the
+            # rule guards provenance, not the number of writes); it is counted in run.log.json and printed as a NOTE
             if name == "Read" and path != str(d / "prompt.md"):
                 out.append(f"Read {path}")
-            elif name == "Write" and path != str(d / output):
-                out.append(f"Write {path}")
-            elif name not in ("Read", "Write", "Bash"):
+            elif name in ("Write", "Edit", "MultiEdit") and path != str(d / output):
+                out.append(f"{name} {path}")
+            elif name not in ("Read", "Write", "Edit", "MultiEdit", "Bash"):
                 out.append(f"{name} {json.dumps(inp, ensure_ascii=False)[:120]}")
     return out
+
+
+def self_edits(d: Path, output: str, calls: list[dict]) -> int:
+    """v16 runs: Edit/MultiEdit calls on the run's own output file (allowed, counted)."""
+    if "enrichment/v2/work" in str(d) or "/okuma." in str(d):
+        return 0
+    return sum(1 for c in calls if c.get("name") in ("Edit", "MultiEdit")
+               and str((c.get("input") or {}).get("file_path") or "") == str(d / output))
 
 
 def finish(d: Path, output: str = "response.md") -> dict:
@@ -292,6 +302,10 @@ def finish(d: Path, output: str = "response.md") -> dict:
                                                encoding="utf-8")
         # every tool use outside the run's rule is reported (detection; the hook guard, when installed, prevents)
         outside = tool_use_outside_rule(d, output, p["tool_calls"])
+        n_edits = self_edits(d, output, p["tool_calls"])
+        if n_edits:
+            obj["self_edits"] = n_edits
+            print(f"NOTE: {n_edits} Edit(s) of its own output after the Write (allowed; listed in tool_calls.json)")
         if outside:
             obj["tool_use_outside_rule"] = outside
             for x in outside:
