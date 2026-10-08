@@ -1,0 +1,11 @@
+- memory: bi- on the predicate after laysa reinforces the negation
+- memory: muṣayṭir occurs in the Quran only here and in 52:37
+- memory: Turkish "satır" (line) from satr and "satır" (cleaver) from sāṭūr
+- memory: Turkish "musallat olmak" narrowed to "pester, haunt"
+- memory: illā in 88:23 read as a break ("as for whoever"), the fa of 88:24 answering it
+- memory: 82 opens with the sky splitting and stars scattering; 45:28 communities called to their book; 50 deniers find resurrection far-fetched
+- not written: laysa adjective senses (brave, staying put, bearing, overlooking, weak-minded, cuckold) - no supported image for a negation particle
+- not written: laysa as exception and as conjunction - not this ayah's use
+- not written: laysa in 88:6 (no food but ḍarīʿ) - formal echo only, no theme
+- not written: ṣād/sīn spelling of musayṭir - spelling, nothing for the theme
+- not written: asṭara "erred", misṭār (sour drink, dust), satr "young goat" - no bearing on the ayah
