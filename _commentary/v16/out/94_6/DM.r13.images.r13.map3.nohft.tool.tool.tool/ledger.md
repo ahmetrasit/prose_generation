@@ -1,0 +1,15 @@
+- memory: definite noun repeated = same referent; indefinite repeated may be another
+- memory: final -an of yusran marks it as the noun of inna, adverbial fronted
+- memory: Turkish "maiyet" derives from Arabic ma'iyya (from ma'a)
+- memory: Turkish "müyesser" derives from Arabic muyassar
+- memory: vowelling "yeser" for the easy-led animal/person and for the meysir player
+- memory: camel breaking-in described from general usage, not the supplied phrases
+- memory: 2:280 follows the riba passage (from Quran memory, not looked up)
+- not written: ع س ر B007 camel not conceiving that year - would only repeat the birth theme
+- not written: ع س ر B009 camel raising its tail while running - no link to any theme
+- not written: ع س ر B011 scattered / one after another - no support for ma'a or ba'da
+- not written: ع س ر B012 jinn tribe / place name - proper name only
+- not written: ع س ر B005 'usrā vs yusrā sides - unclear which side each names; used a'sar and yasār only
+- not written: ي س ر B008 palm lines / thigh brand, B009 twisting downward, B010 place and person names, B011 young man - no theme to join
+- not written: 9:117 hour of hardship, 18:73 Musa's "do not burden me with hardship" - added nothing to the themes
+- not written: 54:17 Quran made easy for dhikr - belongs to the fourth ayah's word
