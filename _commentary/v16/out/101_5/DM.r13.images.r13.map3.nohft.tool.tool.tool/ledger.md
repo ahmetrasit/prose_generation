@@ -1,0 +1,10 @@
+- memory: kāna here means "become" (change of state), not bare existence
+- not written: ج ب ل B012 mountains = chiefs of a tribe - no support in surah or Quran; would replace the meaning
+- not written: ج ب ل B002 great crowd - belongs to the people scene of 101:4, surah commentary
+- not written: ج ب ل B006, B008, B010, B011 - no work in any theme
+- not written: ك و ن B005 old man saying "I was" - past-tense image forced onto an imperfect verb
+- not written: ك و ن B003, B004, B006 - no work in any theme
+- not written: ع ه ن B001 ready, present wealth - no link to mountains or wool here
+- not written: ع ه ن B006 speech thrown carelessly - no link to the ayah
+- not written: ع ه ن B009 red-flowered plant - no source tag; colour link too thin beside B003
+- not written: ع ه ن B005, B007, B008, B010, B011 - no work in any theme
