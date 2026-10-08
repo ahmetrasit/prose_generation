@@ -1,0 +1,12 @@
+- memory: baʿdu with damma = complement elided, "after" left open
+- memory: mā as subject of yukadhdhibuka; addressee as the human or the Messenger both grammatical
+- memory: dayn (debt) vs dīn (recompense) vocalisation; dictionary text unvocalised
+- memory: Turkish tekzip narrowed to press denial; Turkish medyun from this root
+- memory: 2:282 as the longest ayah of the Quran
+- memory: vowels of bu'd / ba'ad (perdition) and of the unvocalised dictionary phrases
+- not written: kadhaba ʿalayka = it is incumbent (B003) - fixed urging idiom, no work in a theme
+- not written: baʿd B003, B005, B006, B007, B009, B010 (removal, distant kin, near, intermittent visits, no benefit, enmity) - no theme grounded
+- not written: dīn B006 madīna (city) - belongs to the oath-place scene of the third ayah
+- not written: 109:6 lakum dīnukum - dīn as way, not the reckoning sense here
+- not written: 83:10-12 deniers of the day of dīn - adds nothing beyond 107 and 82
+- not written: 3:184 kadhdhabūka - duplicates 35:4
