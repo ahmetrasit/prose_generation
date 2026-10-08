@@ -1,0 +1,13 @@
+- memory: ḥijr = intellect, named from restraining (ḥ-j-r = to prevent, forbid)
+- memory: tamkīn = to give firm place; Turkish "temkin" derives from it
+- memory: yaʿrishūn glossed as what they raised/erected
+- memory: dhū presents the possessed thing as a defining attribute
+- memory: awtād occurs in the Quran only at 38:12, 78:7, 89:10
+- not written: B002 ear protuberance - anatomical likeness, no work in any theme
+- not written: B004 erection idiom - fixed expression, no bearing on the ayah
+- not written: wadd as a variant of watad - phonetic note only
+- not written: watr (third ayah) sounds like watad - echo, not root identity
+- not written: "likened to a stump" (jidhl) phrase - unclear; jidhl and jidhʿ (20:71) are different roots
+- not written: historical identifications of the pegs (pyramids, camps, torture stakes) - outside the Quran
+- not written: whip and pouring images of the thirteenth ayah - belong to that ayah and the surah commentary
+- not written: Pharaoh's tower (28:38, 40:36) - upward building fits Ad's columns better than pegs
