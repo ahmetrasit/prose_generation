@@ -1,0 +1,13 @@
+- memory: lâ before the imperfect extends negation to present and future
+- memory: mâ usually for things, man for persons
+- memory: fronting iyyâka gives restriction "only you"
+- memory: tar rubbed on camel hide as remedy for skin disease
+- memory: pitch seals a ship's plank seams against water
+- memory: vowelling abidtu (kasra verb) for the disdain sense of B008
+- not written: B007 strength/endurance (ʿabada) - no supported tie to the refusal beyond loose analogy
+- not written: B009 not delaying / quickening pace - fixed expression, no role in the ayah
+- not written: B012 stone for crushing perfume - no support for any theme
+- not written: mâ as masdar ("your manner of worship") - grammatical option, adds little beside fourth ayah
+- not written: 43:81 al-ʿābidīn read as "the disdaining" (B008) - rests on exegetes, not Quran or supplied usage
+- not written: poetry on the tarred camel shunned by the herd - poetry from memory, pushes image beyond attested sense
+- not written: Nuh's ship as tie to tarred ship - no word link, decoration only
