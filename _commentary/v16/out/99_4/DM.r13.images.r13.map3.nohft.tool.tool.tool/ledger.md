@@ -1,0 +1,11 @@
+- memory: idhā + past verb carries future sense
+- memory: ḥaddatha can take the hearer as direct object
+- memory: bi-anna in 99:5 read as cause/means tied to 99:4
+- memory: muḥaddath is passive, "one spoken to"
+- memory: plural akhbār occurs in the Quran only at 9:94, 47:31, 99:4
+- memory: form II verb of ḥ-d-th occurs only at 2:76, 93:11, 99:4
+- not written: kh-b-r B006 shared sheep / share of meat - no link to the ayah's themes
+- not written: kh-b-r B005 wool, camel-mouth foam - no thematic role
+- not written: iḥdāth dhikr (20:113, 21:2) - newness already carried by B001/B002
+- not written: Moses' "news from the fire" (27:7) - adds no theme
+- not written: proverb on stumbling in soft khabār ground - memory only, no Quran support
