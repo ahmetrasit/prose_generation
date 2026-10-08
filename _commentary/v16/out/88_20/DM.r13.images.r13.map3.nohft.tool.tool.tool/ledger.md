@@ -1,0 +1,10 @@
+- memory: tasnīm (humping a grave) derives from sanām, camel's hump
+- not written: س ط ح B005 mat of dawm-palm leaves - adds nothing to the flatness/holding theme
+- memory: wabar here rendered as camel hair (its chief usage)
+- memory: 2:71 dhalūl = animal broken to work; 67:15 manākib = shoulders
+- not written: س ط ح B003 vine-trellis crossbeam - pole sense already carries the image
+- not written: س ط ح B002 the soothsayer named Saṭīḥ - name from outside the Quran
+- not written: ء ر ض B004 "ibn arḍ" stranger - no theme it serves
+- not written: ء ر ض B007 presenting oneself, B008 trembling, B009 cold, B010 termite, B011 festering wound, B012 possession - separate senses; earth-quaking link (67:16) would be a pun without support
+- not written: sound echo suṭiḥat / muṣayṭir (88:22) - different roots (س ط ح / س ط ر), echo only
+- not written: 79:10 al-ḥāfira beside arḍ = hoof - no support for a link
