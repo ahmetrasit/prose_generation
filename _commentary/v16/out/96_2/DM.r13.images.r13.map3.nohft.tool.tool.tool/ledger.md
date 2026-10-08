@@ -1,0 +1,11 @@
+- memory: vowelling of unvocalised dictionary phrases (ʿulqa, ʿulāq, khalīqa, khalqāʾ, miʿlāq, duhlān) supplied from memory
+- memory: ʿalaq as collective/genus noun with ʿalaqa as its unit
+- memory: Turkish "alâka" derives from Arabic ʿalāqa
+- memory: ḥibāla is a rope snare; nashiqa means got entangled in it
+- not written: ʿalaq B002 pulley gear of a well - only a thin analogy with the rock hollow, no theme
+- not written: ʿalaq B008 muʿallaqa (4:129) - legal "suspended wife", no tie to origin or surah
+- not written: ʿalaq B010, B012, B013, B015, B016 - no work in any theme
+- not written: khalq B007 fabrication - belongs to the lying forelock of the sixteenth ayah (surah scene)
+- not written: khalq B004 khuluq/character, B005, B006, B009, B010 - no theme here
+- not written: insān B003 uns, B004, B006, B007 - no theme beyond the seeing/visible strand
+- not written: womb scene via iqraʾ/rabb/rujʿā roots - shared scene, surah commentary's
