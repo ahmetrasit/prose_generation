@@ -1,0 +1,5 @@
+- not developed: 17 Wound - جائية sits under a separate root (ج ي أ), and the relapse sense of غفر contradicts the ayah's meaning
+- not developed: reports from memory in chains 2, 8, 10, 11, 16 (Mecca conquest, delegations, ʿĀʾisha, helmet, Ibn ʿAbbās) - outside-Quran reports excluded
+- not developed: سبوحة (chain 5), فائجة (chains 4, 9), داخلة الإزار (chain 11), الفتحة pride (chain 7), رأى B003 dream (chain 4), جاء B002 and B003, ف و ج B002 - members too weak or doubtful
+- merged: chains 1+2, 4+8, 5+15, 6+13, 12+16
+- memory: none beyond the given phrases
