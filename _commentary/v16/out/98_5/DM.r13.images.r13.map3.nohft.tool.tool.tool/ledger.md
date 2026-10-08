@@ -1,0 +1,19 @@
+- memory: li- in li-ya'budû carries both the content and the purpose of the command
+- memory: mukhlisîna and hunafâ'a are circumstantial (hâl) accusatives
+- memory: dînu'l-qayyima is a genitive construct; feminine qayyima cannot qualify masculine dîn
+- memory: fronted iyyâka in 1:5 restricts worship to one addressee
+- memory: mukhlaṣ (passive, 15:40, 12:24) vs mukhliṣ (active, 98:5) distinction by one vowel
+- memory: najâ, najjâ and anjâ share one root
+- memory: dîn and dayn share letters, differ by vowel
+- memory: taṣṭalûn (28:29) is the same Form VIII verb as iṣṭalaytu; root identity with ṣalâh not claimed
+- memory: hibâla as a looped rope snare laid on the ground
+- memory: Turkish kıvam derives from qiwâm
+- not written: zakâ = even/pair (ز ك و B005) - found no work in any theme
+- not written: ʿabada strength (ع ب د B007), offended pride (B008) - did not join a theme
+- not written: amr B003 rule, B006 grave matter, B009 lamb, B010 divine creating, B011 spearhead - no work in this ayah
+- not written: qîma value (ق و م B010) and standing in place (B007) - different word from qayyima; account scene left to surah commentary
+- not written: dîn B006 city, B007 leaving one to his conscience - no theme needed them
+- not written: ḥ-n-f B005 lineage new in Islam - no work
+- not written: و ل ه alternative for Allah - no theme
+- not written: echo root ص ل ي senses (e.g. straightening a staff over fire) - withheld, not used as identity
+- not written: covering/planting and pledge/surety scenes from images - belong to surah commentary; only palm yield and debt kept
