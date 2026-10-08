@@ -1,0 +1,14 @@
+- memory: inna-type emphasis signals a statement made against doubt or denial
+- memory: aʿṭā is the causative (form IV) of ʿaṭā "reach and take"
+- memory: ātā/ūtiya (2:269, 15:87) from a different root, "bring, make reach"
+- memory: al-kawthar occurs only at 108:1 in the Quran
+- memory: atharna (100:4) shares root th-w-r with thawarān in the dust definition
+- memory: akdā (53:34) from a well-digger hitting hard ground and stopping
+- memory: kanūd = ungrateful; khayr in 100:8 = wealth
+- memory: palm heart is the growing point; removing it ends new growth (botany)
+- not written: mikthār (talkative person) - no bearing on any theme
+- not written: kumthra "gathering" with added mīm - derivational note, no theme
+- not written: yatakaththaru bi-māli ghayrihi (showing off with another's wealth) - would only repeat the contest theme
+- not written: palm-heart entry's fixed phrase on hand-cutting - a hadith, outside the allowed sources
+- not written: body map, birth/rearing cycle, kinship bond, cloud/water scenes - carried by 108:2-3 words; surah commentary's
+- not written: 9:58 (pleased only when given) - adds nothing beyond 92:5/92:8
