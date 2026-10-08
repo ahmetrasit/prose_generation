@@ -1,0 +1,12 @@
+- memory: wa- may join her to the subject of sa-yaslā or open a nominal clause whose predicate is 111:5
+- memory: accusative ḥammālata as singling out for blame
+- memory: faʿʿāl pattern (ḥammāla, hallāf, hammāz, mashshāʾ) marks habitual or intensive doing
+- memory: vowels ḥamāla (blood money) and ḥimāla (sword strap), against ḥammāla
+- memory: al-ḥaṭab al-jazl read as thick firewood
+- memory: Turkish hamile, tahammül, ihtimal, hamule from the same root
+- not written: marīʾ (gullet) beside the neck in 111:5 - sound-play only, no theme carried it
+- not written: ḥuṭama (104:4) near ḥaṭab in sound - a different root, so it is no identity
+- not written: iḥtamala in the sense of anger or forbearance - nothing in the ayah anchors it
+- not written: lamb and Aries senses of ḥ-m-l - no work in any theme
+- not written: 62:5, the donkey carrying books - a different load, it would only distract
+- not written: 21:98 ḥaṣab - another root, and 72:15 already carries the image
