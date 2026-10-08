@@ -1,0 +1,17 @@
+- memory: ḥusnā is the feminine elative (fuʿlā) of aḥsan
+- memory: fronted lahu gives exclusivity ("to Him alone")
+- memory: yusabbiḥu (imperfect) vs sabbaḥa (perfect) as ongoing vs completed
+- memory: the moon disappears near the sun at month's end, crescent appears after (astronomy, not lexicon)
+- not written: ص و ر B004 horn (al-ṣūr) - separate branch; tying it to the Musawwir would be a root pun with no theme support
+- not written: ص و ر B005 palm cluster - surah's palm grove belongs to 59:5; link to this word too thin
+- not written: ص و ر B006–B010 (herd, musk, itch, sparrow, mouth corners) - no theme
+- not written: خ ل ق B004 khuluq (character) and B005 fitting - no support from the ayah or surah words
+- not written: خ ل ق B008 smoothness, B009 wearing out, B010 perfume, B011 rock pools, B012 - no theme
+- not written: ب ر ء B005 checking for pregnancy, B007 hunter's blind - no theme
+- not written: و ل ه alternative for Allah - documented alternative only; no role here
+- not written: ء ر ض branches (tremor, cold, woodworm, etc.) - no grounding in this ayah
+- not written: س م و B003, B006, B007, B008 (stallion, hunting, rivalry, good repute) - no theme
+- not written: ع ز ز B003, B005, B006, B008, B009, B010, B012 - not needed by the closing theme
+- not written: ح ك م B002, B005, B007 - judgment covered only via 12:40; no further theme
+- not written: س ب ح B003, B005, B007, B008 - no theme
+- not written: ح س ن B004, B005 - place names and utmost effort, no theme
