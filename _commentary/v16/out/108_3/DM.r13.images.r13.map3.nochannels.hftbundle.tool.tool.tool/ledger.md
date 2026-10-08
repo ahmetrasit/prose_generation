@@ -1,0 +1,17 @@
+- memory: active participle shāniʾ marks a settled quality, not a one-time act
+- memory: huwa between subject and definite predicate restricts the predicate to the subject
+- memory: afʿal pattern names lasting bodily marks (one-eyed, lame)
+- memory: ʿaqib also means heel
+- memory: athar as footprint, trace left behind
+- memory: mamnūn in 68:3 read as cut off, unceasing
+- memory: majdhūdh in 11:108 means cut off
+- memory: qalā in 93:3 means to hate
+- memory: yajrimannakum glossed as drive, incite
+- memory: Turkish "ebter" used for heirless man and unfinished, fruitless work
+- memory: mishnāʾ vowelling
+- not written: ش ن ء B003 acknowledging a right and giving it up - fixed construction, no bearing on hatred here
+- not written: ب ت ر B006 buḥtur short and compact - a separate blended word, root identity not established
+- not written: ش ن ء B004 ugly appearance beyond one mention - adds nothing beyond the hated man
+- not written: shanaʾān beside hady and qalāʾid in 5:2 - scene belongs to 108:2 sacrifice and the surah commentary
+- not written: 15:95 innā kafaynāka shape - structural echo only
+- not written: water, hand and table images citing this ayah - their scenes rest on other ayat's words, left to the surah commentary
