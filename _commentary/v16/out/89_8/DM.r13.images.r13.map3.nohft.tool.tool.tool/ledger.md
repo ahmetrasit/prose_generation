@@ -1,0 +1,11 @@
+- memory: Irama is in apposition to ʿĀd (diptote, fatha in genitive slot)
+- memory: tribe names and city names are both grammatically feminine in Arabic
+- memory: lam + jussive negates the past ("was never created")
+- not written: ب ل د B005 bewilderment, hand on chest - no theme to join
+- not written: ب ل د B007 dullness, B003 brows, B004 lunar mansion, B011 sword-fighting - no link to the ayah's themes
+- not written: ب ل د B012 abandoned ostrich egg (أذل من بيضة البلد) - abasement image, not needed beyond trace theme
+- not written: ب ل د B010 sticking to the ground - belongs to the surah's journey/heaviness scene (89:20, 89:27)
+- not written: خ ل ق B007 fabrication, B010 perfume, B011 rock hollows, B012 - no support in this ayah
+- not written: م ث ل B007 bedding, B009 best, B010 compliance, B012 recovery - no theme fit
+- not written: 90:1-2 oath by "this balad" - outside the ayah's situation
+- not written: variant reading of 26:137 (khalq vs khuluq) - reading not in supplied text
