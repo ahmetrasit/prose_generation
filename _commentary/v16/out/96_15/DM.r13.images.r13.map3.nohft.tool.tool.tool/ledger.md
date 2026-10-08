@@ -1,0 +1,15 @@
+- memory: kallā is a particle of rebuke and deterrence
+- memory: la-in = oath lām + conditional in; answer carries the emphasis
+- memory: final alif in لنسفعا and وليكونا marks the light emphatic nūn
+- memory: al- in الناصية points to the man's own forelock
+- memory: ʿirān = wooden peg through a camel's nose
+- memory: athāfī = hearth stones that hold the pot
+- memory: vocalisations nasawtuhu, nāsaytuhu, nuhya
+- memory: Turkish nihayet/intiha narrowed to "finally"/"end"
+- not written: ن ه ي B005 nāhīka "enough" - link to 96:7 istighnā too thin here
+- not written: ن ه ي B006-B010 (fat camel, quitting a quest, rising day, bottles, about a hundred) - no theme
+- not written: س ف ع B006 demon's touch "as if seized by the forelock" - tempting with 11:54, but no support in the surah
+- not written: س ف ع B007 wearing dyed garments - no theme
+- not written: ن ص ي B002 combing, pulling a corpse's forelock; B004 pasture plant; B006 colic - no theme
+- not written: 33:60, 5:73 divine la-in lam yantahi threats - kept to the persecutors' formula
+- not written: 39:60 blackened faces of those who lied - belongs to 96:16 kādhiba

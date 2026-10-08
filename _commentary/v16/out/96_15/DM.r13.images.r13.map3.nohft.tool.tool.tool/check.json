@@ -1,0 +1,2923 @@
+{
+ "record": "E0 check.py verification record (for the user and the scorecard; never a model input)",
+ "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/96_15/DM.r13.images.r13.map3.nohft.tool.tool.tool/96_15.reading.tr.md",
+ "file_sha256": "f36fc266aab3aed25c8451d235fe35f1fcbf45ae01131fd783dbbc4495af3868",
+ "ref": "96:15",
+ "tool_sha256": {
+  "check.py": "cd23d66564a04b309582ae691120354b7db635fd55eadbe99c34c72a73c6cae0",
+  "common.py": "57bea63ae0fa0fee7ec9cd9d07adc38af2926821690fbf9082796f5474d1a7c6"
+ },
+ "index_signature": {
+  "version": 5,
+  "quran": [
+   1396724,
+   1790991422.4
+  ],
+  "tr_entries": [
+   1704,
+   198596704,
+   1790991411.5
+  ],
+  "root_packets": [
+   1679,
+   707294008,
+   1790995197.3
+  ],
+  "majaz": [
+   9216000,
+   1790992389.4
+  ],
+  "majaz_index": [
+   1169381,
+   1790986397.2
+  ],
+  "qiraat": [
+   833825,
+   1790998112.2
+  ],
+  "activation_map": [
+   2789461,
+   1790994866.9
+  ],
+  "furuq": [
+   19782184,
+   1790991539.2
+  ]
+ },
+ "summary": {
+  "words": 2665,
+  "tags": 60,
+  "tags_checkable": 60,
+  "tags_sourced": 60,
+  "share_sourced": 1.0,
+  "by_source": {
+   "quran": 35,
+   "dictionary": 25
+  },
+  "levels": {
+   "exact": 60
+  },
+  "dictionary_early_phrase": 25,
+  "dictionary_definition_only": 0,
+  "arabic_outside_tags": 0,
+  "arabic_outside_tags_quotations": 0,
+  "arabic_outside_tags_quotations_sourced": 0,
+  "arabic_outside_tags_root_names": 0,
+  "arabic_outside_tags_by_context": {},
+  "bellek_marks": 0,
+  "bellek_status": {},
+  "unsourced_unmarked": 0,
+  "cited_branches": 12,
+  "cited_bound_branches": 1,
+  "bound_citations_with_echo_marker": 0,
+  "bound_citations_without_echo_marker": 1,
+  "bound_citations_extended_marker_only": 0,
+  "negation": {
+   "neg_e2_count": 5,
+   "neg_e2_per_1000": 1.88,
+   "breakdown": {
+    "değil": 5,
+    "değil,": 4
+   },
+   "not_only_frames": 1
+  },
+  "process_words": 0,
+  "sources_declared": 80,
+  "sources_by_kind": {
+   "branch": 26,
+   "quran": 54
+  },
+  "sources_status": {
+   "ok": 60,
+   "ok (no quote)": 20
+  }
+ },
+ "quotations": [
+  {
+   "n": 1,
+   "line": 3,
+   "quote": "كَلَّا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:15",
+     "96:19",
+     "96:6"
+    ],
+    "n_ayat": 3,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ء ص ر B005 (root_000037/B005) source_phrase_ar [ayn]",
+     "ب ت ل B006 (root_000082/B006) source_phrase_ar [maqayis]",
+     "ج م د B002 (root_000258/B002) source_phrase_ar [jamhara;sihah;tahdhib]",
+     "ج ه د B005 (root_000268/B005) source_phrase_ar [tahdhib]"
+    ],
+    "early_entry": [
+     "ء ب ب maqayis",
+     "ء ب ب tahdhib",
+     "ء ب ل maqayis",
+     "ء ب و sihah",
+     "ء ح د mufradat",
+     "ء خ ذ ayn",
+     "ء خ ر ayn",
+     "ء خ و ayn"
+    ],
+    "majaz": [
+     35,
+     973,
+     1015,
+     "raw:4336"
+    ]
+   },
+   "sentence_index": 1,
+   "bellek_marked": false
+  },
+  {
+   "n": 2,
+   "line": 5,
+   "quote": "لَئِن لَّمْ يَنتَهِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:15"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {},
+   "sentence_index": 5,
+   "bellek_marked": false
+  },
+  {
+   "n": 3,
+   "line": 5,
+   "quote": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:9"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 6,
+   "bellek_marked": false
+  },
+  {
+   "n": 4,
+   "line": 5,
+   "quote": "نهيته عنه فانتهى",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001560/B001",
+      "root": "ن ه ي",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001560/B001",
+      "root": "ن ه ي",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 9,
+   "bellek_marked": false
+  },
+  {
+   "n": 5,
+   "line": 7,
+   "quote": "النهي الزجر عن الشيء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001560/B001",
+      "root": "ن ه ي",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001560/B001",
+      "root": "ن ه ي",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ي mufradat"
+    ]
+   },
+   "sentence_index": 14,
+   "bellek_marked": false
+  },
+  {
+   "n": 6,
+   "line": 9,
+   "quote": "فَأَمَّا مَن طَغَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "79:37"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ح ي ي mufradat"
+    ]
+   },
+   "sentence_index": 18,
+   "bellek_marked": false
+  },
+  {
+   "n": 7,
+   "line": 9,
+   "quote": "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ عَنِ ٱلْهَوَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "79:40"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ي mufradat"
+    ]
+   },
+   "sentence_index": 19,
+   "bellek_marked": false
+  },
+  {
+   "n": 8,
+   "line": 9,
+   "quote": "لَيَطْغَىٰٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:6"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "early_entry": [
+     "ط غ و mufradat",
+     "ط غ ي mufradat"
+    ]
+   },
+   "sentence_index": 22,
+   "bellek_marked": false
+  },
+  {
+   "n": 9,
+   "line": 11,
+   "quote": "النهية العقل لأنه ينهى عن قبيح الفعل والجمع نهى",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001560/B003",
+      "root": "ن ه ي",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {
+    "early_entry": [
+     "ن م م maqayis",
+     "ن ه ي maqayis"
+    ]
+   },
+   "sentence_index": 24,
+   "bellek_marked": false
+  },
+  {
+   "n": 10,
+   "line": 11,
+   "quote": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "20:24",
+     "79:17"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ط غ و mufradat",
+     "ط غ ي mufradat"
+    ]
+   },
+   "sentence_index": 27,
+   "bellek_marked": false
+  },
+  {
+   "n": 11,
+   "line": 11,
+   "quote": "فَمَن رَّبُّكُمَا يَٰمُوسَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "20:49"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 28,
+   "bellek_marked": false
+  },
+  {
+   "n": 12,
+   "line": 11,
+   "quote": "إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّأُو۟لِى ٱلنُّهَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "20:54",
+     "20:128"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 28,
+   "bellek_marked": false
+  },
+  {
+   "n": 13,
+   "line": 15,
+   "quote": "لَئِن لَّمْ تَنتَهِ لَأَرْجُمَنَّكَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "19:46"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ر ج م maqayis",
+     "ر ج م tahdhib",
+     "ن ه ي mufradat"
+    ]
+   },
+   "sentence_index": 36,
+   "bellek_marked": false
+  },
+  {
+   "n": 14,
+   "line": 15,
+   "quote": "لَئِن لَّمْ تَنتَهِ يَٰنُوحُ لَتَكُونَنَّ مِنَ ٱلْمَرْجُومِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "26:116"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ش ح ن tahdhib"
+    ]
+   },
+   "sentence_index": 37,
+   "bellek_marked": false
+  },
+  {
+   "n": 15,
+   "line": 15,
+   "quote": "لَئِن لَّمْ تَنتَهِ يَٰلُوطُ لَتَكُونَنَّ مِنَ ٱلْمُخْرَجِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "26:167"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 38,
+   "bellek_marked": false
+  },
+  {
+   "n": 16,
+   "line": 15,
+   "quote": "لَئِن لَّمْ تَنتَهُوا۟ لَنَرْجُمَنَّكُمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "36:18"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 39,
+   "bellek_marked": false
+  },
+  {
+   "n": 17,
+   "line": 19,
+   "quote": "وَلَئِن لَّمْ يَفْعَلْ مَآ ءَامُرُهُۥ لَيُسْجَنَنَّ وَلَيَكُونًۭا مِّنَ ٱلصَّٰغِرِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "12:32"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 47,
+   "bellek_marked": false
+  },
+  {
+   "n": 18,
+   "line": 19,
+   "quote": "لَنَسْفَعًۢا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:15"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "ء ح د sihah",
+     "س ف ع maqayis",
+     "س ف ع mufradat",
+     "س ف ع sihah",
+     "س ف ع tahdhib",
+     "ن ص ي mufradat",
+     "ن ص ي tahdhib"
+    ],
+    "majaz": [
+     "raw:7322"
+    ]
+   },
+   "sentence_index": 49,
+   "bellek_marked": false
+  },
+  {
+   "n": 19,
+   "line": 19,
+   "quote": "وَلَيَكُونًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "12:32"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 49,
+   "bellek_marked": false
+  },
+  {
+   "n": 20,
+   "line": 21,
+   "quote": "إِن يَنتَهُوا۟ يُغْفَرْ لَهُم مَّا قَدْ سَلَفَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "8:38"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ي mufradat"
+    ]
+   },
+   "sentence_index": 56,
+   "bellek_marked": false
+  },
+  {
+   "n": 21,
+   "line": 21,
+   "quote": "فَإِنِ ٱنتَهَوْا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:192"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 57,
+   "bellek_marked": false
+  },
+  {
+   "n": 22,
+   "line": 25,
+   "quote": "يَنتَهِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:15"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ق ع د B015 (root_001244/B015) source_phrase_ar [maqayis]",
+     "ق ع د B015 (root_001244/B015) source_phrase_ar [ayn]",
+     "ب ل غ B001 (root_000151/B001) lexical_source_phrase [mufradat]",
+     "ق ع د B015 (root_001244/B015) lexical_source_phrase [maqayis]"
+    ],
+    "early_entry": [
+     "ء ت ي sihah",
+     "ء ث ر tahdhib",
+     "ء ث م ayn",
+     "ء ذ ن ayn",
+     "ء ص ر ayn",
+     "ء م ر maqayis",
+     "ب د ل ayn",
+     "ب ر د ayn"
+    ],
+    "majaz": [
+     838
+    ]
+   },
+   "sentence_index": 61,
+   "bellek_marked": false
+  },
+  {
+   "n": 23,
+   "line": 27,
+   "quote": "النهاية الغاية حيث ينتهي إليه الشيء وهو النهاء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001560/B002",
+      "root": "ن ه ي",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001560/B002",
+      "root": "ن ه ي",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ي ayn"
+    ]
+   },
+   "sentence_index": 63,
+   "bellek_marked": false
+  },
+  {
+   "n": 24,
+   "line": 27,
+   "quote": "أنهيت إليه الخبر بلغته إياه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001560/B002",
+      "root": "ن ه ي",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001560/B002",
+      "root": "ن ه ي",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن م م maqayis",
+     "ن ه ي maqayis"
+    ]
+   },
+   "sentence_index": 64,
+   "bellek_marked": false
+  },
+  {
+   "n": 25,
+   "line": 29,
+   "quote": "وَأَن لَّيْسَ لِلْإِنسَٰنِ إِلَّا مَا سَعَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "53:39"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 69,
+   "bellek_marked": false
+  },
+  {
+   "n": 26,
+   "line": 29,
+   "quote": "وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "53:40"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "س ع ي mufradat"
+    ],
+    "majaz": [
+     "raw:6607"
+    ]
+   },
+   "sentence_index": 69,
+   "bellek_marked": false
+  },
+  {
+   "n": 27,
+   "line": 29,
+   "quote": "وَأَنَّ إِلَىٰ رَبِّكَ ٱلْمُنتَهَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "53:42"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "س و ق B002 (root_000762/B002) lexical_source_phrase [mufradat]"
+    ],
+    "early_entry": [
+     "س و ق mufradat"
+    ]
+   },
+   "sentence_index": 69,
+   "bellek_marked": false
+  },
+  {
+   "n": 28,
+   "line": 29,
+   "quote": "إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "79:44"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 70,
+   "bellek_marked": false
+  },
+  {
+   "n": 29,
+   "line": 29,
+   "quote": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:8"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "dictionary": [
+     "ر ج ع B002 (root_000544/B002) lexical_source_phrase [jamhara;mufradat]",
+     "ر ج ع B002 (root_000544/B002) source_phrase_ar [mufradat]"
+    ],
+    "early_entry": [
+     "ر ج ع jamhara",
+     "ر ج ع mufradat"
+    ]
+   },
+   "sentence_index": 71,
+   "bellek_marked": false
+  },
+  {
+   "n": 30,
+   "line": 31,
+   "quote": "النهي والنهي الغدير لأن الماء ينتهي إليه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001560/B004",
+      "root": "ن ه ي",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001560/B004",
+      "root": "ن ه ي",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن م م maqayis",
+     "ن ه ي maqayis"
+    ]
+   },
+   "sentence_index": 75,
+   "bellek_marked": false
+  },
+  {
+   "n": 31,
+   "line": 31,
+   "quote": "تناهى الماء إذا وقف في الغدير وسكن",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001560/B004",
+      "root": "ن ه ي",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001560/B004",
+      "root": "ن ه ي",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ي sihah"
+    ]
+   },
+   "sentence_index": 76,
+   "bellek_marked": false
+  },
+  {
+   "n": 32,
+   "line": 33,
+   "quote": "النهاية طرف العران الذي في أنف البعير",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001560/B002",
+      "root": "ن ه ي",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001560/B002",
+      "root": "ن ه ي",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ي ayn"
+    ]
+   },
+   "sentence_index": 82,
+   "bellek_marked": false
+  },
+  {
+   "n": 33,
+   "line": 37,
+   "quote": "لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:15"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "ء ح د sihah",
+     "س ف ع maqayis",
+     "س ف ع mufradat",
+     "س ف ع sihah",
+     "س ف ع tahdhib",
+     "ن ص ي mufradat"
+    ],
+    "majaz": [
+     "raw:7322"
+    ]
+   },
+   "sentence_index": 87,
+   "bellek_marked": false
+  },
+  {
+   "n": 34,
+   "line": 37,
+   "quote": "الناصية قصاص الشعر",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001512/B001",
+      "root": "ن ص ي",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "ayn",
+       "sihah",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001512/B001",
+      "root": "ن ص ي",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis",
+       "ayn",
+       "sihah",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ص ي maqayis",
+     "ن ص ي mufradat"
+    ]
+   },
+   "sentence_index": 89,
+   "bellek_marked": false
+  },
+  {
+   "n": 35,
+   "line": 37,
+   "quote": "الناصية منبت الشعر في مقدم الرأس",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001512/B001",
+      "root": "ن ص ي",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001512/B001",
+      "root": "ن ص ي",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 89,
+   "bellek_marked": false
+  },
+  {
+   "n": 36,
+   "line": 37,
+   "quote": "نصوته قبضت على ناصيته ومددتها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001512/B001",
+      "root": "ن ص ي",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "ayn",
+       "sihah",
+       "tahdhib",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 92,
+   "bellek_marked": false
+  },
+  {
+   "n": 37,
+   "line": 37,
+   "quote": "ناصيته أخذ كل واحد بناصية صاحبه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001512/B001",
+      "root": "ن ص ي",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "ayn",
+       "tahdhib",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 93,
+   "bellek_marked": false
+  },
+  {
+   "n": 38,
+   "line": 37,
+   "quote": "آخذ بناصيتها أي متمكن منها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001512/B001",
+      "root": "ن ص ي",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001512/B001",
+      "root": "ن ص ي",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 94,
+   "bellek_marked": false
+  },
+  {
+   "n": 39,
+   "line": 37,
+   "quote": "مفازة تناصي أخرى كأنها تتصل بها كالقابضة على ناصيتها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001512/B005",
+      "root": "ن ص ي",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001512/B005",
+      "root": "ن ص ي",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 96,
+   "bellek_marked": false
+  },
+  {
+   "n": 40,
+   "line": 39,
+   "quote": "سفعت الفرس إذا أخذت بمقدم رأسه وهي ناصيته",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000713/B001",
+      "root": "س ف ع",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000713/B001",
+      "root": "س ف ع",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ف ع maqayis"
+    ]
+   },
+   "sentence_index": 98,
+   "bellek_marked": false
+  },
+  {
+   "n": 41,
+   "line": 39,
+   "quote": "سفعت بناصيته أي أخذت",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000713/B001",
+      "root": "س ف ع",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000713/B001",
+      "root": "س ف ع",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ف ع sihah"
+    ]
+   },
+   "sentence_index": 98,
+   "bellek_marked": false
+  },
+  {
+   "n": 42,
+   "line": 39,
+   "quote": "السفع الأخذ بسفعة الفرس أي سواد ناصيته",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000713/B001",
+      "root": "س ف ع",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000713/B001",
+      "root": "س ف ع",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ف ع mufradat"
+    ]
+   },
+   "sentence_index": 100,
+   "bellek_marked": false
+  },
+  {
+   "n": 43,
+   "line": 41,
+   "quote": "بِٱلنَّاصِيَةِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:15"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "س ف ع B001 (root_000713/B001) image_ar",
+     "ن ص ي B001 (root_001512/B001) what_is_ar",
+     "س ف ع B002 (root_000713/B002) what_is_not_ar",
+     "س ف ع B003 (root_000713/B003) what_is_not_ar"
+    ],
+    "early_entry": [
+     "ء ح د sihah",
+     "ب ق ي maqayis",
+     "ج ب ه ayn",
+     "ج ب ه tahdhib",
+     "ج م م mufradat",
+     "ذ ر و sihah",
+     "ذ ر و tahdhib",
+     "س ب ب sihah"
+    ],
+    "majaz": [
+     "raw:7322"
+    ]
+   },
+   "sentence_index": 105,
+   "bellek_marked": false
+  },
+  {
+   "n": 44,
+   "line": 43,
+   "quote": "إِن نَّقُولُ إِلَّا ٱعْتَرَىٰكَ بَعْضُ ءَالِهَتِنَا بِسُوٓءٍۢ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "11:54"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ء م ن mufradat",
+     "ع ر و tahdhib",
+     "ع ر ي tahdhib"
+    ],
+    "majaz": [
+     940
+    ]
+   },
+   "sentence_index": 108,
+   "bellek_marked": false
+  },
+  {
+   "n": 45,
+   "line": 43,
+   "quote": "إِنِّى تَوَكَّلْتُ عَلَى ٱللَّهِ رَبِّى وَرَبِّكُم ۚ مَّا مِن دَآبَّةٍ إِلَّا هُوَ ءَاخِذٌۢ بِنَاصِيَتِهَآ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "11:56"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 109,
+   "bellek_marked": false
+  },
+  {
+   "n": 46,
+   "line": 43,
+   "quote": "إِنَّ رَبِّى عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "11:56"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 111,
+   "bellek_marked": false
+  },
+  {
+   "n": 47,
+   "line": 43,
+   "quote": "عَلَى ٱلْهُدَىٰٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:11"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "ح ب ب mufradat",
+     "ه د ي mufradat",
+     "ه د ي tahdhib"
+    ]
+   },
+   "sentence_index": 112,
+   "bellek_marked": false
+  },
+  {
+   "n": 48,
+   "line": 43,
+   "quote": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:14"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 115,
+   "bellek_marked": false
+  },
+  {
+   "n": 49,
+   "line": 45,
+   "quote": "يُعْرَفُ ٱلْمُجْرِمُونَ بِسِيمَٰهُمْ فَيُؤْخَذُ بِٱلنَّوَٰصِى وَٱلْأَقْدَامِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "55:41"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 117,
+   "bellek_marked": false
+  },
+  {
+   "n": 50,
+   "line": 47,
+   "quote": "فلان ناصية قومه وفلان نصية قوم أي خيارهم",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001512/B003",
+      "root": "ن ص ي",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 119,
+   "bellek_marked": false
+  },
+  {
+   "n": 51,
+   "line": 47,
+   "quote": "نواصي الناس أشرافهم",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001512/B003",
+      "root": "ن ص ي",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001512/B003",
+      "root": "ن ص ي",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ص ي sihah"
+    ]
+   },
+   "sentence_index": 119,
+   "bellek_marked": false
+  },
+  {
+   "n": 52,
+   "line": 51,
+   "quote": "السفعة بالضم سواد مشرب حمرة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000713/B002",
+      "root": "س ف ع",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000713/B002",
+      "root": "س ف ع",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ف ع sihah"
+    ]
+   },
+   "sentence_index": 123,
+   "bellek_marked": false
+  },
+  {
+   "n": 53,
+   "line": 51,
+   "quote": "سفعته النار والسموم إذا لفحته لفحا يسيرا فغيرت لون البشرة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000713/B003",
+      "root": "س ف ع",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {
+    "early_entry": [
+     "س ف ع sihah"
+    ]
+   },
+   "sentence_index": 124,
+   "bellek_marked": false
+  },
+  {
+   "n": 54,
+   "line": 51,
+   "quote": "قيل للأثافي سفع",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000713/B002",
+      "root": "س ف ع",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000713/B002",
+      "root": "س ف ع",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000713/B002",
+      "root": "س ف ع",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000713/B002",
+      "root": "س ف ع",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 4
+   },
+   "also": {
+    "early_entry": [
+     "س ف ع maqayis",
+     "س ف ع mufradat",
+     "س ف ع sihah"
+    ]
+   },
+   "sentence_index": 126,
+   "bellek_marked": false
+  },
+  {
+   "n": 55,
+   "line": 51,
+   "quote": "به سفعة غضب",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000713/B002",
+      "root": "س ف ع",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000713/B002",
+      "root": "س ف ع",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ف ع mufradat"
+    ]
+   },
+   "sentence_index": 127,
+   "bellek_marked": false
+  },
+  {
+   "n": 56,
+   "line": 53,
+   "quote": "تَلْفَحُ وُجُوهَهُمُ ٱلنَّارُ وَهُمْ فِيهَا كَٰلِحُونَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "23:104"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ك ل ح maqayis",
+     "ك ل ح tahdhib"
+    ]
+   },
+   "sentence_index": 131,
+   "bellek_marked": false
+  },
+  {
+   "n": 57,
+   "line": 53,
+   "quote": "لَوَّاحَةٌۭ لِّلْبَشَرِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "74:29"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "ل و ح B002 (root_001384/B002) lexical_source_phrase [jamhara]",
+     "ل و ح B002 (root_001384/B002) lexical_expression_ar"
+    ],
+    "early_entry": [
+     "س ق ر mufradat",
+     "ل و ح jamhara"
+    ],
+    "majaz": [
+     "raw:7045"
+    ]
+   },
+   "sentence_index": 133,
+   "bellek_marked": false
+  },
+  {
+   "n": 58,
+   "line": 55,
+   "quote": "سفع الطائر ضريبته أي لطمه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000713/B004",
+      "root": "س ف ع",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000713/B004",
+      "root": "س ف ع",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ف ع maqayis"
+    ]
+   },
+   "sentence_index": 138,
+   "bellek_marked": false
+  },
+  {
+   "n": 59,
+   "line": 55,
+   "quote": "المسافعة كالمطاردة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000713/B005",
+      "root": "س ف ع",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000713/B005",
+      "root": "س ف ع",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ف ع sihah"
+    ]
+   },
+   "sentence_index": 138,
+   "bellek_marked": false
+  },
+  {
+   "n": 60,
+   "line": 57,
+   "quote": "وَٱسْجُدْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:19"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "ر ك ع maqayis",
+     "ن ص ر sihah",
+     "ن ص ر tahdhib"
+    ],
+    "majaz": [
+     "raw:5003"
+    ]
+   },
+   "sentence_index": 141,
+   "bellek_marked": false
+  }
+ ],
+ "arabic_outside_tags": [],
+ "bellek": [],
+ "unsourced_unmarked": [],
+ "cited_branches": [
+  {
+   "branch_ref": "root_001560/B001",
+   "root": "ن ه ي",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın yasaklama anlamını korur; vazgeçme, benliği tutma ve karşılıklı engelleme yalnızca kanıtlanan yapılara bağlıdır.",
+   "image_ar": "الزجر والكف عن الفعل",
+   "quote": "نهيته عنه فانتهى",
+   "line": 5,
+   "framing": "echo marker in the sentence",
+   "echo_markers": [
+    "kalıp"
+   ],
+   "extended_markers_in_sentence": [],
+   "sentence": "Araplar iki kalıbı tek cümlede birbirine bağlardı: {ar:نهيته عنه فانتهى, tr:nehaytuhû ʿanhu fentehâ, gloss:onu bundan men ettim, o da vazgeçti, source:\"ن ه ي,B001\"}."
+  },
+  {
+   "branch_ref": "root_001560/B001",
+   "root": "ن ه ي",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın yasaklama anlamını korur; vazgeçme, benliği tutma ve karşılıklı engelleme yalnızca kanıtlanan yapılara bağlıdır.",
+   "image_ar": "الزجر والكف عن الفعل",
+   "quote": "النهي الزجر عن الشيء",
+   "line": 7,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bu sözün çekirdeğinde sert bir geri çevirme vardır: {ar:النهي الزجر عن الشيء, tr:en-nehyu'z-zecru ʿani'ş-şey', gloss:nehiy, bir şeyden sert bir sesle men etmektir, source:\"ن ه ي,B001\"}."
+  },
+  {
+   "branch_ref": "root_001560/B003",
+   "root": "ن ه ي",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın adlandırmalar frenleyici aklı gösterir; bir kişide böyle bir engelleyici bulunmadığını söyleyen kullanım yalnızca kendi yapısına bağlıdır.",
+   "image_ar": "العقل الناهي عن القبيح",
+   "quote": "النهية العقل لأنه ينهى عن قبيح الفعل والجمع نهى",
+   "line": 11,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Araplar insanın içindeki bu durdurucuya da aynı kökten bir ad vermişlerdi: {ar:النهية العقل لأنه ينهى عن قبيح الفعل والجمع نهى, tr:en-nuhyetu'l-ʿaklu li ennehû yenhâ ʿan kabîhi'l-fiʿl, gloss:nuhye akıldır, çünkü çirkin işten alıkoyar; çoğulu nuhâdır, source:\"ن ه ي,B003\"}."
+  },
+  {
+   "branch_ref": "root_001560/B002",
+   "root": "ن ه ي",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın son ve sınır anlamı ile yalnızca belirli yapılarda görülen ulaştırma ve bağ ucu kullanımları ayrı tutulur.",
+   "image_ar": "الغاية التي ينتهي إليها الشيء",
+   "quote": "النهاية الغاية حيث ينتهي إليه الشيء وهو النهاء",
+   "line": 27,
+   "framing": "echo marker in a neighbouring sentence",
+   "echo_markers": [
+    "yankı"
+   ],
+   "extended_markers_in_sentence": [],
+   "sentence": "Son nokta bu kökten adlandırılırdı: {ar:النهاية الغاية حيث ينتهي إليه الشيء وهو النهاء, tr:en-nihâyetu'l-gâyetu haysu yentehî ileyhi'ş-şey', gloss:nihâye, bir şeyin varıp durduğu son sınırdır, source:\"ن ه ي,B002\"}."
+  },
+  {
+   "branch_ref": "root_001560/B004",
+   "root": "ن ه ي",
+   "branch": "B004",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Gölcük adları ile suyun durması ve vadinin son kesimi için kullanılan yapılar ayrı yüzeyler olarak korunur.",
+   "image_ar": "مستقر الماء عند منتهى السيل",
+   "quote": "النهي والنهي الغدير لأن الماء ينتهي إليه",
+   "line": 31,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Sel suyu vadiden aşağı akar ve bir çukurda toplanır; Araplar bu doğal göleti aynı kökten adlandırırdı: {ar:النهي والنهي الغدير لأن الماء ينتهي إليه, tr:en-nehyu ve'n-nihyu'l-gadîru li enne'l-mâ'e yentehî ileyh, gloss:nehy göletlenmiş sudur, çünkü su ona varıp durur, source:\"ن ه ي,B004\"}."
+  },
+  {
+   "branch_ref": "root_001560/B002",
+   "root": "ن ه ي",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın son ve sınır anlamı ile yalnızca belirli yapılarda görülen ulaştırma ve bağ ucu kullanımları ayrı tutulur.",
+   "image_ar": "الغاية التي ينتهي إليها الشيء",
+   "quote": "النهاية طرف العران الذي في أنف البعير",
+   "line": 33,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "O ucun adı da bu köktendir: {ar:النهاية طرف العران الذي في أنف البعير, tr:en-nihâyetu tarafu'l-ʿirâni'llezî fî enfi'l-baʿîr, gloss:nihâye, devenin burnundaki çubuğa bağlı ipin ucudur, source:\"ن ه ي,B002\"}."
+  },
+  {
+   "branch_ref": "root_001512/B001",
+   "root": "ن ص ي",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, beden bölgesini bildiren yalın kullanımı; tutma, karşılıklı çekişme ve denetim bildiren eylem ve söz öbeklerinden ayrı katmanlarda tutar.",
+   "image_ar": "الناصية والأخذ بها",
+   "quote": "الناصية قصاص الشعر",
+   "line": 37,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "{ar:الناصية قصاص الشعر, tr:en-nâsiyetu kusâsu'ş-şaʿr, gloss:nâsiye, saçın bittiği çizgidir, source:\"ن ص ي,B001\"}; bir başka tarifle {ar:الناصية منبت الشعر في مقدم الرأس, tr:en-nâsiyetu menbitu'ş-şaʿri fî mukaddemi'r-re's, gloss:nâsiye, başın önünde saçın çıktığı yerdir, source:\"ن ص ي,B001\"}."
+  },
+  {
+   "branch_ref": "root_001512/B005",
+   "root": "ن ص ي",
+   "branch": "B005",
+   "branch_kind": "non_bare",
+   "bound": true,
+   "root_in": "focus",
+   "scope_note": "Tanım yalnızca iki çöl düzlüğü ya da ıssız açık arazi arasında bağlantı kuran sınırlı ifadeye uygulanır; yalın bir kök anlamına genellenmez.",
+   "image_ar": "مفازة تناصي مفازة",
+   "quote": "مفازة تناصي أخرى كأنها تتصل بها كالقابضة على ناصيتها",
+   "line": 37,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bir çöl düzlüğü ötekine bitişince {ar:مفازة تناصي أخرى كأنها تتصل بها كالقابضة على ناصيتها, tr:mefâzetun tunâsî uhrâ ke ennehâ tettasilu bihâ ke'l-kâbidati ʿalâ nâsiyetihâ, gloss:bir çöl öbürüne bitişir, sanki onun perçemini kavramış gibi, source:\"ن ص ي,B005\"} derlerdi."
+  },
+  {
+   "branch_ref": "root_000713/B001",
+   "root": "س ف ع",
+   "branch": "B001",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Dal yalın eylem anlamını verir; herhangi bir kalıba özgü yan anlam veya zorunlu bir aşağılama sonucu tanıma eklenmez.",
+   "image_ar": "الأخذ بالناصية",
+   "quote": "سفعت الفرس إذا أخذت بمقدم رأسه وهي ناصيته",
+   "line": 39,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Atı yakalayan biri {ar:سفعت الفرس إذا أخذت بمقدم رأسه وهي ناصيته, tr:sefaʿtu'l-ferese izâ ehaztu bi mukaddemi re'sihî ve hiye nâsiyetuh, gloss:atı başının önünden, yani perçeminden yakaladım, source:\"س ف ع,B001\"} derdi; kısaca {ar:سفعت بناصيته أي أخذت, tr:sefaʿtu bi nâsiyetihî ey ehaztu, gloss:perçeminden yakaladım, source:\"س ف ع,B001\"} denirdi."
+  },
+  {
+   "branch_ref": "root_001512/B003",
+   "root": "ن ص ي",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, seçkin kesimi ve seçme eylemini; geride kalan bölüm, önden gidenler, önderlik ve üst kesimden evlenme bildiren sınırlı kullanımlardan ayırır.",
+   "image_ar": "النَّصِيَّة والصفوة",
+   "quote": "فلان ناصية قومه وفلان نصية قوم أي خيارهم",
+   "line": 47,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Perçem bir topluluğun başını da adlandırırdı: {ar:فلان ناصية قومه وفلان نصية قوم أي خيارهم, tr:fulânun nâsiyetu kavmihî ve fulânun nasiyyetu kavmin ey hiyâruhum, gloss:falan kavminin perçemidir, yani en seçkinidir, source:\"ن ص ي,B003\"}; {ar:نواصي الناس أشرافهم, tr:nevâsi'n-nâsi eşrâfuhum, gloss:insanların perçemleri ileri gelenleridir, source:\"ن ص ي,B003\"}."
+  },
+  {
+   "branch_ref": "root_000713/B002",
+   "root": "س ف ع",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın renk bildiren biçimler çekirdeği taşır; öfkeli yüz, koyu yanak ve yer iziyle kurulan söz öbekleri ise yalnızca kendi bağlamlarına bağlı uygulamalar olarak ayrılır.",
+   "image_ar": "السواد المشرب بحمرة",
+   "quote": "السفعة بالضم سواد مشرب حمرة",
+   "line": 51,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Aynı kökten bir renk adı da vardır: {ar:السفعة بالضم سواد مشرب حمرة, tr:es-sufʿatu bi'd-damm sevâdun uşribe humra, gloss:sufʿa, içine kırmızı işlemiş siyahlıktır, source:\"س ف ع,B002\"}."
+  },
+  {
+   "branch_ref": "root_000713/B003",
+   "root": "س ف ع",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Ateş ve yakıcı sıcak rüzgarla kurulan söz öbekleri kendi etkenlerine bağlı tutulur; yalın çoğul biçim ise yalnızca kavurucu sıcak rüzgarları adlandırır.",
+   "image_ar": "لفح النار والسموم",
+   "quote": "سفعته النار والسموم إذا لفحته لفحا يسيرا فغيرت لون البشرة",
+   "line": 51,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bu renk ateşin bıraktığı izdir: {ar:سفعته النار والسموم إذا لفحته لفحا يسيرا فغيرت لون البشرة, tr:sefaʿathu'n-nâru ve's-semûmu izâ lefehathu lefhan yesîran fe gayyerat levne'l-beşera, gloss:ateş ya da kızgın rüzgâr onu hafifçe yalayıp derisinin rengini değiştirdi, source:\"س ف ع,B003\"}."
+  },
+  {
+   "branch_ref": "root_000713/B004",
+   "root": "س ف ع",
+   "branch": "B004",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın karşılıklı eylem biçimi dövüşmeyi anlatır; kuş ve başa değnekle vurma söz öbekleri ise kendi katılımcı ve araç sınırları içinde tutulur.",
+   "image_ar": "اللطم والضرب",
+   "quote": "سفع الطائر ضريبته أي لطمه",
+   "line": 55,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Yırtıcı kuşun avına inmesi için {ar:سفع الطائر ضريبته أي لطمه, tr:sefaʿa't-tâ'iru darîbetehû ey letameh, gloss:kuş avına çarptı, yani ona vurdu, source:\"س ف ع,B004\"} derlerdi; karşılıklı vuruşmaya ve kovalamacaya da bu kökten bir ad verirlerdi: {ar:المسافعة كالمطاردة, tr:el-musâfaʿatu ke'l-mutârade, gloss:müsâfaa kovalamaca gibidir, source:\"س ف ع,B005\"}."
+  },
+  {
+   "branch_ref": "root_000713/B005",
+   "root": "س ف ع",
+   "branch": "B005",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Anlam bağımsız bir eylem biçimi olarak tanımlanır; herhangi bir söz öbeğine bağlı ek okuma veya dövüşme anlamı içeri alınmaz.",
+   "image_ar": "المطاردة والمسافعة",
+   "quote": "المسافعة كالمطاردة",
+   "line": 55,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Yırtıcı kuşun avına inmesi için {ar:سفع الطائر ضريبته أي لطمه, tr:sefaʿa't-tâ'iru darîbetehû ey letameh, gloss:kuş avına çarptı, yani ona vurdu, source:\"س ف ع,B004\"} derlerdi; karşılıklı vuruşmaya ve kovalamacaya da bu kökten bir ad verirlerdi: {ar:المسافعة كالمطاردة, tr:el-musâfaʿatu ke'l-mutârade, gloss:müsâfaa kovalamaca gibidir, source:\"س ف ع,B005\"}."
+  }
+ ],
+ "sources": [],
+ "process_lines": [],
+ "sources_all": [
+  {
+   "line": 3,
+   "quote": "كَلَّا",
+   "declared": "96:15",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:15"
+   ]
+  },
+  {
+   "line": 5,
+   "quote": "لَئِن لَّمْ يَنتَهِ",
+   "declared": "96:15",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:15"
+   ]
+  },
+  {
+   "line": 5,
+   "quote": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
+   "declared": "96:9",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:9"
+   ]
+  },
+  {
+   "line": 5,
+   "quote": "نهيته عنه فانتهى",
+   "declared": "ن ه ي,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001560/B001",
+   "gapped": false
+  },
+  {
+   "line": 7,
+   "quote": "النهي الزجر عن الشيء",
+   "declared": "ن ه ي,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001560/B001",
+   "gapped": false
+  },
+  {
+   "line": 9,
+   "quote": "فَأَمَّا مَن طَغَىٰ",
+   "declared": "79:37",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "79:37"
+   ]
+  },
+  {
+   "line": 9,
+   "quote": "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ عَنِ ٱلْهَوَىٰ",
+   "declared": "79:40",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "79:40"
+   ]
+  },
+  {
+   "line": 9,
+   "quote": "لَيَطْغَىٰٓ",
+   "declared": "96:6",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:6"
+   ]
+  },
+  {
+   "line": 11,
+   "quote": "النهية العقل لأنه ينهى عن قبيح الفعل والجمع نهى",
+   "declared": "ن ه ي,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001560/B003",
+   "gapped": false
+  },
+  {
+   "line": 11,
+   "quote": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
+   "declared": "20:24",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "20:24"
+   ]
+  },
+  {
+   "line": 11,
+   "quote": "فَمَن رَّبُّكُمَا يَٰمُوسَىٰ",
+   "declared": "20:49",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "20:49"
+   ]
+  },
+  {
+   "line": 11,
+   "quote": "إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّأُو۟لِى ٱلنُّهَىٰ",
+   "declared": "20:54",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "20:54"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": "لَئِن لَّمْ تَنتَهِ لَأَرْجُمَنَّكَ",
+   "declared": "19:46",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "19:46"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": "لَئِن لَّمْ تَنتَهِ يَٰنُوحُ لَتَكُونَنَّ مِنَ ٱلْمَرْجُومِينَ",
+   "declared": "26:116",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "26:116"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": "لَئِن لَّمْ تَنتَهِ يَٰلُوطُ لَتَكُونَنَّ مِنَ ٱلْمُخْرَجِينَ",
+   "declared": "26:167",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "26:167"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": "لَئِن لَّمْ تَنتَهُوا۟ لَنَرْجُمَنَّكُمْ",
+   "declared": "36:18",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "36:18"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "وَلَئِن لَّمْ يَفْعَلْ مَآ ءَامُرُهُۥ لَيُسْجَنَنَّ وَلَيَكُونًۭا مِّنَ ٱلصَّٰغِرِينَ",
+   "declared": "12:32",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "12:32"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "لَنَسْفَعًۢا",
+   "declared": "96:15",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:15"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "وَلَيَكُونًۭا",
+   "declared": "12:32",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "12:32"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "إِن يَنتَهُوا۟ يُغْفَرْ لَهُم مَّا قَدْ سَلَفَ",
+   "declared": "8:38",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "8:38"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "فَإِنِ ٱنتَهَوْا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ",
+   "declared": "2:192",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:192"
+   ]
+  },
+  {
+   "line": 25,
+   "quote": "يَنتَهِ",
+   "declared": "96:15",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:15"
+   ]
+  },
+  {
+   "line": 27,
+   "quote": "النهاية الغاية حيث ينتهي إليه الشيء وهو النهاء",
+   "declared": "ن ه ي,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001560/B002",
+   "gapped": false
+  },
+  {
+   "line": 27,
+   "quote": "أنهيت إليه الخبر بلغته إياه",
+   "declared": "ن ه ي,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001560/B002",
+   "gapped": false
+  },
+  {
+   "line": 29,
+   "quote": "وَأَن لَّيْسَ لِلْإِنسَٰنِ إِلَّا مَا سَعَىٰ",
+   "declared": "53:39",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "53:39"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": "وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ",
+   "declared": "53:40",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "53:40"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": "وَأَنَّ إِلَىٰ رَبِّكَ ٱلْمُنتَهَىٰ",
+   "declared": "53:42",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "53:42"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": "إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ",
+   "declared": "79:44",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "79:44"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
+   "declared": "96:8",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:8"
+   ]
+  },
+  {
+   "line": 31,
+   "quote": "النهي والنهي الغدير لأن الماء ينتهي إليه",
+   "declared": "ن ه ي,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001560/B004",
+   "gapped": false
+  },
+  {
+   "line": 31,
+   "quote": "تناهى الماء إذا وقف في الغدير وسكن",
+   "declared": "ن ه ي,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001560/B004",
+   "gapped": false
+  },
+  {
+   "line": 33,
+   "quote": "النهاية طرف العران الذي في أنف البعير",
+   "declared": "ن ه ي,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001560/B002",
+   "gapped": false
+  },
+  {
+   "line": 37,
+   "quote": "لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+   "declared": "96:15",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:15"
+   ]
+  },
+  {
+   "line": 37,
+   "quote": "الناصية قصاص الشعر",
+   "declared": "ن ص ي,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001512/B001",
+   "gapped": false
+  },
+  {
+   "line": 37,
+   "quote": "الناصية منبت الشعر في مقدم الرأس",
+   "declared": "ن ص ي,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001512/B001",
+   "gapped": false
+  },
+  {
+   "line": 37,
+   "quote": "نصوته قبضت على ناصيته ومددتها",
+   "declared": "ن ص ي,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001512/B001",
+   "gapped": false
+  },
+  {
+   "line": 37,
+   "quote": "ناصيته أخذ كل واحد بناصية صاحبه",
+   "declared": "ن ص ي,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001512/B001",
+   "gapped": false
+  },
+  {
+   "line": 37,
+   "quote": "آخذ بناصيتها أي متمكن منها",
+   "declared": "ن ص ي,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001512/B001",
+   "gapped": false
+  },
+  {
+   "line": 37,
+   "quote": "مفازة تناصي أخرى كأنها تتصل بها كالقابضة على ناصيتها",
+   "declared": "ن ص ي,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001512/B005",
+   "gapped": false
+  },
+  {
+   "line": 39,
+   "quote": "سفعت الفرس إذا أخذت بمقدم رأسه وهي ناصيته",
+   "declared": "س ف ع,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000713/B001",
+   "gapped": false
+  },
+  {
+   "line": 39,
+   "quote": "سفعت بناصيته أي أخذت",
+   "declared": "س ف ع,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000713/B001",
+   "gapped": false
+  },
+  {
+   "line": 39,
+   "quote": "السفع الأخذ بسفعة الفرس أي سواد ناصيته",
+   "declared": "س ف ع,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000713/B001",
+   "gapped": false
+  },
+  {
+   "line": 41,
+   "quote": "بِٱلنَّاصِيَةِ",
+   "declared": "96:15",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:15"
+   ]
+  },
+  {
+   "line": 43,
+   "quote": "إِن نَّقُولُ إِلَّا ٱعْتَرَىٰكَ بَعْضُ ءَالِهَتِنَا بِسُوٓءٍۢ",
+   "declared": "11:54",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "11:54"
+   ]
+  },
+  {
+   "line": 43,
+   "quote": "إِنِّى تَوَكَّلْتُ عَلَى ٱللَّهِ رَبِّى وَرَبِّكُم ۚ مَّا مِن دَآبَّةٍ إِلَّا هُوَ ءَاخِذٌۢ بِنَاصِيَتِهَآ",
+   "declared": "11:56",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "11:56"
+   ]
+  },
+  {
+   "line": 43,
+   "quote": "إِنَّ رَبِّى عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ",
+   "declared": "11:56",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "11:56"
+   ]
+  },
+  {
+   "line": 43,
+   "quote": "عَلَى ٱلْهُدَىٰٓ",
+   "declared": "96:11",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:11"
+   ]
+  },
+  {
+   "line": 43,
+   "quote": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+   "declared": "96:14",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:14"
+   ]
+  },
+  {
+   "line": 45,
+   "quote": "يُعْرَفُ ٱلْمُجْرِمُونَ بِسِيمَٰهُمْ فَيُؤْخَذُ بِٱلنَّوَٰصِى وَٱلْأَقْدَامِ",
+   "declared": "55:41",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "55:41"
+   ]
+  },
+  {
+   "line": 47,
+   "quote": "فلان ناصية قومه وفلان نصية قوم أي خيارهم",
+   "declared": "ن ص ي,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001512/B003",
+   "gapped": false
+  },
+  {
+   "line": 47,
+   "quote": "نواصي الناس أشرافهم",
+   "declared": "ن ص ي,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001512/B003",
+   "gapped": false
+  },
+  {
+   "line": 51,
+   "quote": "السفعة بالضم سواد مشرب حمرة",
+   "declared": "س ف ع,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000713/B002",
+   "gapped": false
+  },
+  {
+   "line": 51,
+   "quote": "سفعته النار والسموم إذا لفحته لفحا يسيرا فغيرت لون البشرة",
+   "declared": "س ف ع,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000713/B003",
+   "gapped": false
+  },
+  {
+   "line": 51,
+   "quote": "قيل للأثافي سفع",
+   "declared": "س ف ع,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000713/B002",
+   "gapped": false
+  },
+  {
+   "line": 51,
+   "quote": "به سفعة غضب",
+   "declared": "س ف ع,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000713/B002",
+   "gapped": false
+  },
+  {
+   "line": 53,
+   "quote": "تَلْفَحُ وُجُوهَهُمُ ٱلنَّارُ وَهُمْ فِيهَا كَٰلِحُونَ",
+   "declared": "23:104",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "23:104"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "لَوَّاحَةٌۭ لِّلْبَشَرِ",
+   "declared": "74:29",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "74:29"
+   ]
+  },
+  {
+   "line": 55,
+   "quote": "سفع الطائر ضريبته أي لطمه",
+   "declared": "س ف ع,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000713/B004",
+   "gapped": false
+  },
+  {
+   "line": 55,
+   "quote": "المسافعة كالمطاردة",
+   "declared": "س ف ع,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000713/B005",
+   "gapped": false
+  },
+  {
+   "line": 57,
+   "quote": "وَٱسْجُدْ",
+   "declared": "96:19",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:19"
+   ]
+  },
+  {
+   "line": 9,
+   "quote": null,
+   "declared": "79:38",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "79:38"
+   ]
+  },
+  {
+   "line": 9,
+   "quote": null,
+   "declared": "79:39",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "79:39"
+   ]
+  },
+  {
+   "line": 9,
+   "quote": null,
+   "declared": "79:41",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "79:41"
+   ]
+  },
+  {
+   "line": 11,
+   "quote": null,
+   "declared": "20:50",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "20:50"
+   ]
+  },
+  {
+   "line": 11,
+   "quote": null,
+   "declared": "20:53",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "20:53"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": null,
+   "declared": "19:42",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "19:42"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": null,
+   "declared": "19:43",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "19:43"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": null,
+   "declared": "26:115",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "26:115"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": null,
+   "declared": "26:166",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "26:166"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": null,
+   "declared": "36:14",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "36:14"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": null,
+   "declared": "12:33",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "12:33"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": null,
+   "declared": "53:36",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "53:36"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": null,
+   "declared": "79:42",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "79:42"
+   ]
+  },
+  {
+   "line": 31,
+   "quote": null,
+   "declared": "ن ه ي,B004",
+   "kind": "branch",
+   "status": "ok (no quote)",
+   "branch_ref": "root_001560/B004"
+  },
+  {
+   "line": 41,
+   "quote": null,
+   "declared": "96:16",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "96:16"
+   ]
+  },
+  {
+   "line": 43,
+   "quote": null,
+   "declared": "11:53",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "11:53"
+   ]
+  },
+  {
+   "line": 43,
+   "quote": null,
+   "declared": "11:55",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "11:55"
+   ]
+  },
+  {
+   "line": 45,
+   "quote": null,
+   "declared": "55:39",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "55:39"
+   ]
+  },
+  {
+   "line": 47,
+   "quote": null,
+   "declared": "96:17",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "96:17"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": null,
+   "declared": "96:18",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "96:18"
+   ]
+  }
+ ]
+}
