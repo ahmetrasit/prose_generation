@@ -1,0 +1,18 @@
+- memory: "min" before an indefinite noun after negation excludes even a single one
+- memory: yusalliṭu in the imperfect read as a standing practice, not a one-off event
+- memory: turhibūna (8:60) and rahba (59:13) share the root r-h-b
+- memory: taqrīb is a faster gait than wajīf (only the ordering is in the texts)
+- memory: sunbuk is the front edge of the hoof that grips the ground
+- not written: ف ي ء B009 (blade losing its edge, "fāʾat") - blunting image found no theme beside the return/shade reading
+- not written: ف ي ء B005, B006, B007, B008 (bird flock, date stone, coquetry, cloud fragments) - no work in the ayah's themes
+- not written: و ج ف B003 (love carrying the heart away) - fixed idiom; no link to the effort/terror themes
+- not written: خ ي ل B005 (khiltu = I supposed) - its meeting with 59:2 ẓann belongs to the surah's seeing/supposing scene
+- not written: خ ي ل B006-B009 (discerning good, a bird, rivalry, a mole) - no theme support
+- not written: ر س ل B007-B011 (trust, correspondence, widow, generous giving, named objects) - did not shape the sending/easy-gait theme
+- not written: ر ك ب B003-B006, B008-B010 (burden/debt, fitting parts, knee, groin, noble origin, ridge, sheep disease) - outside the riding/on-top theme
+- not written: س ل ط B004, B005, B007 (sharp tongue, lamp oil, burning thirst) - none grounds empowerment here; thirst only echoes 59:10 ghill
+- not written: ش ي ء B003-B009 (compelling, ugliness, longing, listening, far-sighted horse, young palms, interjections) - far-sighted horse and young palms tempting but no grounded work
+- not written: ق د ر B004-B007 (straitening provision, planning, "an easy night's journey", the cooking pot) - the easy-night journey image too thin to found a theme
+- not written: ك ل ل B004-B011 (collateral heirs, crown, net, breast, stocky man, groups, charging/retreating, smiling lightning) - no theme
+- not written: 8:7 (believers wishing for the unarmed party) - apt contrast but would duplicate the 3:13 and 4:90 work
+- not written: 2:249 (small band defeats a large one by Allah's leave) - 3:13 carries fiʾa with "man yashāʾ" more directly
