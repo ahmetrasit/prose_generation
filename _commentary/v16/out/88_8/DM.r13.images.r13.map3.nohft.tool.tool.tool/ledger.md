@@ -1,0 +1,13 @@
+- memory: tanwin in يَوْمَئِذٍ stands for an omitted clause (the day of the Ghashiya)
+- memory: indefinite وُجُوهٌ as subject justified by the division into groups
+- memory: نَاعِمَة is the active participle of the base verb نَعِمَ, not causative/passive (مُنْعَم)
+- memory: نَعْمَة (ease, fatha) vs نِعْمَة (favour, kasra) distinction
+- memory: Turkish "nimet" narrowed to granted blessing / bread
+- not written: و ج ه B002 direction senses (wind driving pebbles, treading a path) - B005 already carries turning the face
+- not written: و ج ه B006 notables (وجوه القوم) - rank contrast with "faces" on that day not grounded by the text
+- not written: و ج ه B007 face of the day = morning - no support linking it to يومئذ
+- not written: و ج ه B003, B008-B015 (confrontation, right course, aging, breech birth, rhyme letter, cucumber, striking, sending back, two-faced) - no work in a theme
+- not written: ن ع م B004 "yes" - no link to the ayah
+- not written: ن ع م B007 well crossbeam / mountain shade - named by ostrich shape, not softness
+- not written: ن ع م B008 scattering (شالت نعامتهم) - no work here
+- not written: ن ع م B010 doing thoroughly / grinding fine - softness-through-grinding link too speculative
