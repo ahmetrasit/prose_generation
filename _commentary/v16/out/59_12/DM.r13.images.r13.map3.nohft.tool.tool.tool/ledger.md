@@ -1,0 +1,12 @@
+- memory: "la" before "in" gives the conditional an oath force
+- memory: when oath and condition combine, the verbs answer the oath, hence indicative forms
+- memory: subject of lâ yunsarûn grammatically open (helpers or the besieged)
+- memory: Turkish ikbal/idbar as fortune/decline; tedbir narrowed to precaution
+- not written: خ ر ج B003 kharâj tax, B009 saddlebag, B004 boil - no tie to the promise or the flight
+- not written: ق ت ل B008 qitl as enemy/equal - "kardeş" vs enemy already carried by 59:10-11
+- not written: ق ت ل B010 qâtalahumu'llâh (63:4 on munafiqs) - curse formula would open a separate chain
+- not written: ن ص ر B006 Christians / anṣâr Allâh (61:14) - linking needs identification the Quran does not give here
+- not written: ن ص ر B007 water channels from afar - rain image already carries the theme; a third water image adds nothing
+- not written: و ل ي B010 follow-up rain - stacks on the naṣr rain image without anchor
+- not written: د ب ر B014 bees with weapon in rear, B017 camel back sore, B012 west wind, B013 star - no work in the theme
+- not written: 33:16 futility of flight from death - Ahzab context sufficient with 33:15
