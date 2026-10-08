@@ -1,0 +1,10 @@
+- memory: dhā is the accusative form of dhū ("possessor of")
+- memory: mafʿala pattern often names a state or a place where something abounds
+- memory: dhalūl used of a broken-in, docile riding animal
+- memory: tantashirūn (30:20) and nushūr (67:15) share the root n-sh-r
+- not written: ت ر ب B006 fingertips - no Quran or theme support beyond a bare name
+- not written: ت ر ب B007 plant, B008 place names - no bearing on the ayah
+- not written: س ك ن B003 household, B005 sakīna, B009 fixed position - not needed by any theme; sakīna would only repeat the rest/dwelling line
+- not written: 2:61 maskana struck on the Israelites - adds abasement already carried by 23:76 and B006
+- not written: 2:264 dust on a rock washed bare - belongs to the surah's shared ground scene, not needed here
+- not written: 89:20 turāth/89:18 - turāth is root w-r-th, a sound echo of t-r-b only, not identity
