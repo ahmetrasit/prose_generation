@@ -1,0 +1,4 @@
+- memory: أَلَمْ تَرَ as a negative question presupposing "yes"
+- memory: تَرْمِيهِم is feminine, agreeing with the collective طير as subject
+- memory: تَضْلِيل as a form-II verbal noun, "causing to stray"
+- memory: إعصار (2:266) is not from the root ع ص ف
