@@ -1,0 +1,9 @@
+- memory: أرأيت here functions as "tell me / consider" with deferred answer in 96:14 (grammatical analysis of structure)
+- memory: pronoun of كان grammatically referable to either the servant or the forbidder
+- memory: Fatiha recited in every salah (given in supplied context, not from Quran text)
+- not written: ك و ن B003 كنت على فلان (stood surety) - same construction, unrelated sense; would mislead
+- not written: ه د ي B005 offering led to the sacred house / B006 bride led to husband - leading-to-destination idea, no grounding in this surah beyond analogy
+- not written: ه د ي B008 swaying walk leaning on two people, B009 dull weak man, B011 gifting poems - no work in a theme
+- not written: ر ء ي B003 dream, B004 facing each other, B007-B011 - no work in this ayah's theme
+- not written: echo roots ر و ي (rawiyya deliberation) and ه د د (threat, demolition) - echo, not identity
+- not written: 25:43 أرأيت with desire as god, 2:120 definite الهدى - redundant with 107:1 and 53:23
