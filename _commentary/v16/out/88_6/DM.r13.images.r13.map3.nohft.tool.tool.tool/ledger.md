@@ -1,0 +1,8 @@
+- memory: "min" in illā min ḍarīʿ read as "out of / from" ḍarīʿ
+- memory: shibriq is a thorny plant
+- memory: muḍāriʿ is the source of the Turkish grammar term "muzari"
+- not written: ل ي س B004–B008 (alyas: brave, immovable man, camels staying at the trough, load-bearing camel, weak judgement, dayyūth) - a negation particle here; these images do not bear on it
+- not written: ط ع م B003 asking for speech / prompting the imam - no tie to the ayah's theme
+- not written: ط ع م B006, B009, B010, B011, B013, B014 (hunting bow, horse's muzzle, graft taking, power, kissing, continuous build) - no support in the ayah or surah
+- not written: ط ع م B012 throat grip (maṭʿama) with 73:13 choking food - 88 says nothing of throat or swallowing
+- not written: ض ر ع B010 horse overpowering rider, B013 rope strands - no theme in the ayah
