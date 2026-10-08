@@ -1,0 +1,14 @@
+- memory: past verb after idhā narrates a future event as accomplished
+- memory: 99:4 is the apodosis (jawāb) of the idhā clause of 99:1-3
+- memory: mā li- + pronoun is an idiom of astonishment, "what is wrong with / what has befallen"
+- memory: dhalūl names a broken-in, tractable riding animal
+- memory: Turkish ünsiyet derives from Arabic uns
+- memory: transliteration miqwal for المقول
+- not written: echo root ق ل ل (trembling, qalqala shaking) - echo root, not identity of qāla
+- not written: ق و ل B004 qayl, ruler whose word is executed - no support in the ayah or surah
+- not written: ق و ل B007 circulating talk, B009 negotiation, B005 false attribution - no work in this question
+- not written: ق و ل B011 taqūl as "think" in questions - verb here is past qāla, construction absent
+- not written: ق و ل B008 game stick, B013/B015/B016 doctrine, concern, definition - no tie to the scene
+- not written: ء ن س B007 seeking permission before entering - no tie to the scene
+- not written: 4:78 mā li- with ḥadīth (people who barely understand speech) - tempting link to tuḥaddithu, but too loose
+- not written: 25:7 mā li- of the deniers about the messenger - same idiom, no further work
