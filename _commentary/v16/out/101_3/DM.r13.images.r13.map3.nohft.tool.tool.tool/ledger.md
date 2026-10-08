@@ -1,0 +1,12 @@
+- memory: adrā takes two objects; here the second is the embedded question clause mā al-qāriʿa
+- memory: vocalization iddarā (form VIII) for ادرى in the raid usage
+- memory: vocalization darīʾa for الدريئة and diriyya for الدرية
+- not written: د ر ي B004 (pointed horn, hair-parting tool, sharpness) - no work in any theme
+- not written: د ر ي B006 (gentle dealing with people) - no link to the question or the day
+- not written: ق ر ع B004 (casting lots, Turkish kura) - contrast with weighing in ayat six to nine too speculative for this ayah
+- not written: ق ر ع B008 (baldness, bare land, empty courtyard) - belongs to the mountains' scene of ayah five
+- not written: ق ر ع B002 sword clash and the war-day image - surah-level scene, not carried by this ayah's words beyond the raid sense noted
+- not written: ق ر ع B003, B007, B009, B011, B012 (stud, chief, gourd, hardness, bag) - no theme work
+- not written: echo root د ر ر - not identity, no supported link
+- not written: 72:25-27 (knower of the unseen reveals to a chosen messenger) - overlaps 46:9 and 33:63 already used
+- not written: 104:5, 74:27, 86:2, 77:14 parallels - formula point already carried by 97, 90, 82, 83
