@@ -1,0 +1,10 @@
+- not developed: chain 5 (offspring) as a separate image - merged into the household image (chain 4); reading كسب as children left out, rests on reports
+- not developed: chain 2 member لهب B008 (beauty) - link to the name rests only on reports
+- not developed: chain 9 members حطب thorn, مسد B003 night travel, تب B002 straight road, "النساء حبائل الشيطان" - night-thorn scene rests on reports; the rest do not hold together
+- not developed: chain 10 kinship/protection history (uncle, jiwār, occasion of revelation) - outside the Quran; only the lexical and Quranic bond image kept
+- not developed: chain 8 remembered necklace story and iron-chain reading - reports; only مسد B005 and Quranic chains kept
+- memory: ذَاتَ means "possessor of" (root not in the dictionary)
+- memory: حَمَّالَةَ as an intensive form names habitual, heavy carrying
+- memory: سـ prefix marks a near future in سَيَصْلَىٰ and سَيُطَوَّقُونَ
+- memory: قُتِلَ in قُتِلَ أَصْحَٰبُ ٱلْأُخْدُودِ as an imprecation in the perfect, like تَبَّتْ
+- memory: أبو + noun forms a kunya
