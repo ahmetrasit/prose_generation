@@ -1,0 +1,10 @@
+- memory: izâ marks an expected, certain condition, unlike in
+- memory: past-tense verb after izâ refers to the future as settled
+- memory: definite article in al-fath heard as the known, awaited opening
+- not written: ن ص ر B006 (Christian, Christianity) - no work in any theme
+- not written: ج ي ء B002 (outdoing in coming) - no work in any theme
+- not written: ج ي ء B005 (compel, drive to) - no work in any theme
+- not written: ج ي ء B006 (pus in a wound) - no work in any theme
+- not written: ف ت ح B009 (swelling with wealth or learning) - flagged as possibly post-classical
+- not written: و ل ه alternative etymology for Allah - documented alternative, not needed beside ء ل ه
+- not written: jî'a around fortresses with fath as taking a fortress - too thin to join
