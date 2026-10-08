@@ -1,0 +1,7 @@
+- memory: taḥrīr (4:92, 5:89, 58:3) built on ḥurr "free", naming the result rather than the act
+- memory: muqmaḥūn (36:8) = heads forced upward
+- not written: munfakkīn in 98:1 (B003 "not ceasing") - meaning there split between ceasing and separating; would not join the release theme without forcing
+- not written: fkk B005/B006 joint slipping from socket, slackness of mind - loosening as damage; no work in this ayah
+- not written: rqb B005 ruqbā, B006 maysir overseer/arrow, B007 opposite star, B010 snake, B013 collateral inheritance, B014 prosody - no role in the ayah's themes
+- not written: rqb B011 hunter's blind - belongs to the watching scene of the seventh ayah, not carried by the neck here
+- not written: variant reading with a past-tense verb (fakka raqabatan) - outside the supplied text; canonical reading followed
