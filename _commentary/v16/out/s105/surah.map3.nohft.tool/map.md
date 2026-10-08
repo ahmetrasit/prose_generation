@@ -1,0 +1,349 @@
+# Surah 105: map of image chains
+
+## Chains
+
+### 1. Seeing a deed done, against sight and judgment that fail
+
+The surah opens by putting the addressee in the place of an eyewitness: أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ. The root of تَرَ covers eye-sight, knowing, being shown something, and the attention-calling أرأيت. Against this sound seeing, the other side's words carry failed sight. The root of ٱلْفِيلِ names weak opinion and mistaken reading of signs, and the dictionary states this with the very noun of تَرَ's root (الرأي). The root of تَضْلِيلٍ names not finding the way in a matter. The root of تَرْمِيهِم names a guess that misses. The root of حِجَارَةٍ names the restraining mind. The root of طَيْرًا names reading omens from birds. The movement: the addressee is told to see; the elephant's company could not judge or read; the birds they might have read as an omen are the event itself; the throw that hits answers the guess that misses. The seeing is by report as well as by eye. The addressee was born, by the tradition, in the Year of the Elephant (from memory), so تَرَ works as "know as surely as if seen."
+
+- 105:1 تَرَ, ر ء ي B001, "الرؤية بالعين" (sihah): the eye's seeing; the event is put before the addressee as a scene to look at.
+- 105:1 تَرَ, ر ء ي B002, "بمعنى العلم تتعدى إلى مفعولين" (sihah): seeing as knowing; certain knowledge of an event the addressee did not watch.
+- 105:1 تَرَ, ر ء ي B013, "يجري أرأيت مجرى أخبرني وكل ذلك فيه معنى التنبيه" (mufradat): the أَلَمْ تَرَ question is a summons to attention.
+- 105:1 تَرَ, ر ء ي B012, "أريته الشيء فرآه" (sihah); "وأرى الله الناس بفلان" (tahdhib): the Lord shows; God makes people see a lesson in someone, so the company becomes the thing displayed.
+- 105:1 ٱلْفِيلِ, ف ي ل B001, "رجل فَيِل الرأي" (maqayis;sihah;mufradat); "رجل فال أي ضعيف الرأي مخطئ الفراسة" (sihah;mufradat): the dictionary joins the root of تَرَ (الرأي) and the root of الفيل in one phrase. Weak opinion and mistaken reading of signs sit in the name of the party.
+- 105:2 تَضْلِيلٍ, ض ل ل B001, "ضل في الأمر إذا لم يهتد له" (jamhara): failing to find one's way in a matter; the scheme's straying is also a failure of judgment.
+- 105:3 طَيْرًا, ط ي ر B003, "تطير من الشيء فاشتقاقه من الطير" (maqayis); "الطائر من الزجر في التشؤم والتسعد" (ayn): birds as the sign that is read for good or ill; here the birds do not portend, they strike.
+- 105:4 تَرْمِيهِم, ر م ي B009, "رمى فلان يرمي إذا ظن ظنا غير مصيب" (tahdhib): a guess that misses; it reverses the birds' throw, which hits.
+- 105:4 بِحِجَارَةٍ, ح ج ر B002, "العقل يسمى حجرا لأنه يمنع من إتيان ما لا ينبغي" (maqayis): the mind that holds a man back from what he should not do; what the company lacked reaches them in the root's other sense, stones.
+
+Quran outside the surah:
+- 89:5–6: God's oath passage. "هَلْ فِى ذَٰلِكَ قَسَمٌۭ لِّذِى حِجْرٍ" is followed at once by "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ". حِجْر (the mind) is staged next to this surah's own opening formula. The scene runs through Ad, Thamud and Pharaoh to 89:13.
+- 14:45: God to those living in the dwellings of destroyed wrongdoers: "وَتَبَيَّنَ لَكُمْ كَيْفَ فَعَلْنَا بِهِمْ". The same كيف فعل, as something made clear.
+- 52:44: of the deniers: "وَإِن يَرَوْا۟ كِسْفًۭا مِّنَ ٱلسَّمَآءِ سَاقِطًۭا يَقُولُوا۟ سَحَابٌۭ مَّرْكُومٌۭ". They see a fall from the sky and misread it.
+- 46:24–25: Ad see the advancing cloud: "فَلَمَّا رَأَوْهُ عَارِضًۭا مُّسْتَقْبِلَ أَوْدِيَتِهِمْ قَالُوا۟ هَٰذَا عَارِضٌۭ مُّمْطِرُنَا". Seeing and misjudging, then "فَأَصْبَحُوا۟ لَا يُرَىٰٓ إِلَّا مَسَٰكِنُهُمْ".
+- 67:19: to the deniers: "أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ صَٰٓفَّٰتٍۢ وَيَقْبِضْنَ". Seeing and birds above them.
+- 24:41: "أَلَمْ تَرَ أَنَّ ٱللَّهَ يُسَبِّحُ لَهُۥ ... وَٱلطَّيْرُ صَٰٓفَّٰتٍۢ". The same أَلَمْ تَرَ addressed to the Prophet, with birds.
+- 6:6: "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا مِن قَبْلِهِم". Seeing past destruction as knowledge.
+- 7:131: Pharaoh's people "يَطَّيَّرُوا۟ بِمُوسَىٰ" and the answer "أَلَآ إِنَّمَا طَٰٓئِرُهُمْ عِندَ ٱللَّهِ". A misreading of omens.
+- 33:9: to the believers after the Trench: "فَأَرْسَلْنَا عَلَيْهِمْ رِيحًۭا وَجُنُودًۭا لَّمْ تَرَوْهَا". The decisive force goes unseen.
+- 107:1: "أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ". أرأيت as a summons, two surahs on.
+
+### 2. The Lord of the House and the keepers of the elephant
+
+Two kinds of ownership face each other in 105:1. رَبُّكَ is owner, obeyed master and mender. The dictionary gives "رب الدار ورب الفرس", owner of a house and of a riding animal. بِأَصْحَٰبِ ٱلْفِيلِ names the other side by its attachment to a beast. The dictionary says the owner of a thing is its صاحب, and that the elephant's keeper has his own name, فيال. The keeper's beast is the one that is led after resisting (أصحب البعير). The company of the elephant lack the protective companionship (صحبك الله) that the House had through its Lord. أَبَابِيلَ adds the herd and the herd-owner through its base إبل.
+
+From memory (Ibn Ishaq's sira): Abraha seized ʿAbd al-Muṭṭalib's camels, and ʿAbd al-Muṭṭalib said he was owner of the camels while the House had an owner who would defend it (أنا رب الإبل وإن للبيت ربا سيمنعه). The elephant, turned toward Mecca, knelt and would not go, and went readily in every other direction. In a hadith (Bukhari, Hudaybiyya; from memory), when the Prophet's camel knelt he said "حبسها حابس الفيل".
+
+- 105:1 رَبُّكَ, ر ب ب B001, "يكون الرب: المالك؛ ويكون الرب: السيد المطاع؛ ويكون الرب: المصلح" (tahdhib); "رب الدار ورب الفرس" (mufradat): owner and master of a house and of a mount; the owner of what was attacked.
+- 105:1 رَبُّكَ, ر ب ب B002, "رب الشيء أي أصلحه؛ رب فلان الصنيعة إذا أتمها وأصلحها" (tahdhib): the one who tends and completes what is his. With -كَ, the addressee is the one tended.
+- 105:1 بِأَصْحَٰبِ, ص ح ب B001, "الصاحب الملازم إنسانا كان أو حيوانا أو مكانا أو زمانا" (mufradat); "يقال للمالك للشيء هو صاحبه" (mufradat): constant attachment, here to an animal, and ownership. The party is defined by the beast it keeps.
+- 105:1 ٱلْفِيلِ, ف ي ل B004, "الفيل معروف والجمع أفيال وفيول وفيلة (sihah)؛ صاحبه فيال (sihah)": the dictionary joins صاحب and فيل in one phrase, the elephant's own keeper.
+- 105:1 بِأَصْحَٰبِ, ص ح ب B003, "أصحب البعير والدابة إذا انقاد بعد صعوبة" (sihah): the beast that is led after resisting. The keepers lead the elephant; by the tradition (from memory) it would not be led toward the House.
+- 105:1 بِأَصْحَٰبِ, ص ح ب B002, "صحبك الله أي حفظك" (ayn): God's keeping companionship. The House is kept; its attackers are not.
+- 105:3 أَبَابِيلَ, ء ب ل B001, "الإبل معروفة ورجل آبل ومال مؤبل" (maqayis): the herd and its keeper. The flocks are named in camel terms (see chain 5).
+
+Quran outside the surah:
+- 106:1–4: the next surah, about Quraysh: "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ". The رب of the House, named outright.
+- 29:67: to the Meccans: "أَوَلَمْ يَرَوْا۟ أَنَّا جَعَلْنَا حَرَمًا ءَامِنًۭا وَيُتَخَطَّفُ ٱلنَّاسُ مِنْ حَوْلِهِمْ". Seeing, جعل and the safe sanctuary.
+- 22:25: of those who bar the Sacred Mosque: "وَمَن يُرِدْ فِيهِ بِإِلْحَادٍۭ بِظُلْمٍۢ نُّذِقْهُ مِنْ عَذَابٍ أَلِيمٍۢ". Merely intending wrong there is punished.
+- 3:96–97: "إِنَّ أَوَّلَ بَيْتٍۢ وُضِعَ لِلنَّاسِ ... وَمَن دَخَلَهُۥ كَانَ ءَامِنًۭا". The House's protected status.
+- 27:91: the Prophet's words: "رَبَّ هَٰذِهِ ٱلْبَلْدَةِ ٱلَّذِى حَرَّمَهَا". The owner-Lord of the town.
+- 9:40: the cave: "إِذْ يَقُولُ لِصَٰحِبِهِۦ لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا". A صاحب under God's keeping, the reverse of the elephant's company.
+
+### 3. A scheme worked hard toward its goal and led off the road
+
+كَيْدَهُمْ is first an effortful working at something, then a covert scheme meant to harm. It aims at a destination: the House. يَجْعَلْ places that scheme inside تَضْلِيلٍ. ضلال is turning off the straight road and losing one's way. The dictionary's own example is failing to find the mosque and the house. It also covers the animal that slips away, and finally the thing that sinks out of sight like milk in water or a buried body. The root of تَرْمِيهِم also names setting out and the direction one intends, so the march itself is heard. In a fixed expression, the root of كيد names a firestick slow to give fire: an effort that does not catch. The process runs: hard work → a scheme aimed at a goal → made to stray → the goal never found → the scheme lost from sight.
+
+- 105:2 كَيْدَهُمْ, ك ي د B001, "يدل على معالجة لشيء بشدة" (maqayis); "كل شيء تعالجه فأنت تكيده" (maqayis;sihah): working at a thing with force; the effort of the expedition.
+- 105:2 كَيْدَهُمْ, ك ي د B002, "الكيد المكر وكاده يكيده كيدا ومكيدة" (sihah); "الكيد ضرب من الاحتيال" (mufradat); "لأريدن بها سوءا" (mufradat): a covert, contrived design, settled on harm.
+- 105:2 كَيْدَهُمْ, ك ي د B006 [fixed expression], "أن يخرج الزند النار ببطء وشدة" (maqayis); "كاد الزند إذا تباطأ بإخراج ناره" (mufradat): the firestick struck hard that yields fire slowly; effort that does not catch.
+- 105:2 يَجْعَلْ, ج ع ل B002, "جعل صير" (tahdhib); "جعله الله نبيا أي صيره" (sihah): the scheme is put into a state not its own.
+- 105:2 تَضْلِيلٍ, ض ل ل B001, "كل جائر عن القصد ضال" (maqayis); "ضل في الأرض إذا لم يهتد للسبيل" (jamhara): turned off the straight road; the route does not lead.
+- 105:2 تَضْلِيلٍ, ض ل ل B003, "ضللت المسجد والدار إذا لم تهتد لهما" (maqayis); "أضل بعيره إذا أفلت فذهب" (ayn): failing to find the mosque and the house, which here is the expedition's very target. Also the animal that slips its owner and goes.
+- 105:2 تَضْلِيلٍ, ض ل ل B002, "ضل اللبن في الماء ثم استهلك" (maqayis); "أضل الميت إذا دفن" (maqayis): dissolving until nothing is left, and burial; the scheme sinks out of sight.
+- 105:4 تَرْمِيهِم, ر م ي B007, "رمى الرجل إذا سافر" (tahdhib); "أين ترمي أي جهة تنوي" (tahdhib): setting out, and the direction intended; the march toward the goal heard in the root of the birds' throw.
+
+Quran outside the surah:
+- 40:25: Pharaoh's council orders the killing of believers' sons: "وَمَا كَيْدُ ٱلْكَٰفِرِينَ إِلَّا فِى ضَلَٰلٍۢ". كيد and ضلال in one clause.
+- 21:70 (Ibrahim's people) "وَأَرَادُوا۟ بِهِۦ كَيْدًۭا فَجَعَلْنَٰهُمُ ٱلْأَخْسَرِينَ"; 37:98 "فَجَعَلْنَٰهُمُ ٱلْأَسْفَلِينَ". A كيد answered by God's جعل.
+- 12:34: Yusuf: "فَٱسْتَجَابَ لَهُۥ رَبُّهُۥ فَصَرَفَ عَنْهُ كَيْدَهُنَّ". The رب turning a كيد away.
+- 52:45–46: "يَوْمَ لَا يُغْنِى عَنْهُمْ كَيْدُهُمْ شَيْـًۭٔا".
+- 35:43: "وَلَا يَحِيقُ ٱلْمَكْرُ ٱلسَّيِّئُ إِلَّا بِأَهْلِهِۦ". A scheme recoiling on its makers.
+- 27:50–51: Thamud's plotters: "فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ مَكْرِهِمْ أَنَّا دَمَّرْنَٰهُمْ".
+- 14:18: "أَعْمَٰلُهُمْ كَرَمَادٍ ٱشْتَدَّتْ بِهِ ٱلرِّيحُ فِى يَوْمٍ عَاصِفٍۢ ... ذَٰلِكَ هُوَ ٱلضَّلَٰلُ ٱلْبَعِيدُ". Deeds blown off by a عاصف wind are named ضلال.
+- 32:10: the deniers: "أَءِذَا ضَلَلْنَا فِى ٱلْأَرْضِ". ضلّ as vanishing into the earth.
+
+### 4. The war they never met
+
+Three of the surah's roots name war in the dictionary. كيد is war (in a fixed expression): men "went out and met no كيد". سجل is war in alternating turns, one bucketful against these, one against those. عصف is war that sweeps a people away. The expedition came for war. No human side met it; the Meccans withdrew to the hills, by the tradition (from memory). The turn of the bucket fell on one side only and never came back, and the "war" that swept them off was not fought by men. In a fixed expression the root of كيد also names the dying man giving up his breath, the end of the war that never came.
+
+- 105:2 كَيْدَهُمْ, ك ي د B004 [fixed expression], "الكيد الحرب يقال خرجوا ولم يلقوا كيدا أي حربا" (maqayis); "ربما سمي الحرب كيدا يقال غزا فلان فلم يلق كيدا" (sihah): an army that set out and met no war.
+- 105:4 سِجِّيلٍ, س ج ل B002, "الحرب سجال أي مرة منها سجل على هؤلاء ومرة على هؤلاء" (ayn); "تساجل الرجلان إذا تفاخرا وأصله من تساجلهما في الاستقاء" (jamhara): war as turns of the bucket. Here the سجل is poured عَلَيْهِمْ only.
+- 105:5 كَعَصْفٍ, ع ص ف B004, "الحرب تعصف بالقوم أي تذهب بهم وتهلكهم وأعصف الرجل أي هلك" (sihah): war that carries a people off and destroys them.
+- 105:2 كَيْدَهُمْ, ك ي د B003 [fixed expression], "هو يكيد بنفسه أي يجود بها" (maqayis;sihah;mufradat): giving up the soul; the root of their scheme names their death throes.
+
+Quran outside the surah:
+- 33:9: the Trench: "إِذْ جَآءَتْكُمْ جُنُودٌۭ فَأَرْسَلْنَا عَلَيْهِمْ رِيحًۭا وَجُنُودًۭا لَّمْ تَرَوْهَا". An army met by sent wind and unseen hosts. The passage closes at 33:25 "وَكَفَى ٱللَّهُ ٱلْمُؤْمِنِينَ ٱلْقِتَالَ".
+- 48:24: Hudaybiyya: "وَهُوَ ٱلَّذِى كَفَّ أَيْدِيَهُمْ عَنكُمْ وَأَيْدِيَكُمْ عَنْهُم بِبَطْنِ مَكَّةَ". No battle at Mecca.
+- 8:17: Badr: "فَلَمْ تَقْتُلُوهُمْ وَلَٰكِنَّ ٱللَّهَ قَتَلَهُمْ ۚ وَمَا رَمَيْتَ إِذْ رَمَيْتَ وَلَٰكِنَّ ٱللَّهَ رَمَىٰ". The killing and the throwing belong to God.
+- 3:140: after Uhud: "وَتِلْكَ ٱلْأَيَّامُ نُدَاوِلُهَا بَيْنَ ٱلنَّاسِ". Alternating fortune, the سجال that 105 does not allow.
+
+### 5. Droves released one after another
+
+وَأَرْسَلَ is release from holding and sending out. The same root names a herd sent out to pasture and people arriving أرسالا, "one following another." أَبَابِيلَ is glossed by the dictionary with the same words, "يتبع بعضها بعضا", and with camel herds: "like droves of camels." طَيْرًا adds winged bodies swimming through the air, and the root's scattering. The image is pastoral: as droves of camels come in band after band, the birds come over the army flock after flock and scatter over it. The word أبابيل has no singular, like its base الإبل as the dictionary says. That grammarians say this of أبابيل itself is from memory.
+
+- 105:3 وَأَرْسَلَ, ر س ل B001, "أصل واحد يدل على الانبعاث والامتداد" (maqayis); "الإرسال يقابل الإمساك" (mufradat): sending forth as the opposite of holding back.
+- 105:3 وَأَرْسَلَ, ر س ل B005, "الرسل ما أرسل من الغنم إلى الرعي وجاء القوم أرسالا يتبع بعضهم بعضا" (maqayis); "الرسل القطيع من الإبل والغنم وجاءت الخيل أرسالا قطيعا قطيعا" (sihah): the herd sent out, and arrival drove after drove.
+- 105:3 طَيْرًا, ط ي ر B001, "الطائر كل ذي جناح يسبح في الهواء" (mufradat): winged bodies in the air.
+- 105:3 طَيْرًا, ط ي ر B002, "تطاير الشيء تفرق" (maqayis;sihah): scattering in all directions over the army.
+- 105:3 أَبَابِيلَ, ء ب ل B003, "طيرا أبابيل أي يتبع بعضها بعضا" (maqayis); "جاءت إبلك أبابيل أي فرقا وطير أبابيل" (sihah); "طيرا أبابيل أي متفرقة كقطعات إبل" (mufradat): band after band, and the dictionary's own picture of camel droves. Its "يتبع بعضها بعضا" repeats the gloss of أرسال.
+- 105:3 أَبَابِيلَ, ء ب ل B001, "الإبل لا واحد لها" (sihah): the herd as a collective with no singular, behind the word for the flocks.
+
+Quran outside the surah:
+- 67:19: "أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ صَٰٓفَّٰتٍۢ وَيَقْبِضْنَ ۚ مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَٰنُ". Birds above people, held by God; the إمساك that إرسال reverses.
+- 7:133: Pharaoh's people: "فَأَرْسَلْنَا عَلَيْهِمُ ٱلطُّوفَانَ وَٱلْجَرَادَ وَٱلْقُمَّلَ وَٱلضَّفَادِعَ وَٱلدَّمَ ءَايَٰتٍۢ مُّفَصَّلَٰتٍۢ". Swarms sent upon them in successive signs.
+- 54:31 "إِنَّآ أَرْسَلْنَا عَلَيْهِمْ صَيْحَةًۭ وَٰحِدَةًۭ" (Thamud); 54:34 "إِنَّآ أَرْسَلْنَا عَلَيْهِمْ حَاصِبًا" (Lut's people). The أرسل ... عليهم of punishment.
+
+### 6. Shooting the quarry, prey eaten
+
+تَرْمِيهِم is throwing, and the dictionary names its objects: "the arrow and the stone." Its own uses include going out to shoot game. Whatever is shot at is a رمية, a quarry. Birds, normally game, are the shooters; the largest of beasts and its keepers are the quarry. The sending root names a short arrow. The ending مَّأْكُولٍۭ completes the hunt: in the root of أكل, the أكيلة is the prey a beast has eaten. The scene runs: shooters sent → stones thrown like arrows → the army made quarry → left as eaten prey.
+
+- 105:4 تَرْمِيهِم, ر م ي B001, "الرمي يقال في الأعيان كالسهم والحجر" (mufradat); "خرجت أرتمي إذا رميت القنص" (sihah): the dictionary joins رمي and حجر in one phrase. Throwing at game.
+- 105:4 تَرْمِيهِم, ر م ي B003, "الرمية الصيد الذي يرمى" (maqayis;ayn;sihah); "المرماة نصل السهم المدور" (maqayis;sihah): the object of رمي is quarry; ـهِم makes the army the رمية.
+- 105:4 بِحِجَارَةٍ, ح ج ر B003, "الحجر الجوهر الصلب المعروف وجمعه أحجار وحجارة" (mufradat): the hard missile.
+- 105:3 وَأَرْسَلَ, ر س ل B011, "المرسال سهم قصير" (sihah): the root of the sending names a short arrow.
+- 105:3 طَيْرًا, ط ي ر B001, "لكل من خف قد طار وكل سرعة" (maqayis): light, swift shooters; birds, the usual game, turned hunters.
+- 105:1 ٱلْفِيلِ, ف ي ل B004, "الفيل معروف والجمع أفيال وفيول وفيلة" (sihah): the largest beast as quarry.
+- 105:5 مَّأْكُولٍۭ, ء ك ل B007, "أكيل الذئب الشاة وغيرها؛ أكيلة الأسد فريسته": the prey eaten by wolf or lion; the shot quarry ends as eaten prey.
+
+Quran outside the surah:
+- 8:17: Badr, to the Prophet: "وَمَا رَمَيْتَ إِذْ رَمَيْتَ وَلَٰكِنَّ ٱللَّهَ رَمَىٰ". The visible thrower is not the true one; here the thrower is birds.
+
+### 7. Storm: sent wind, heavy-drop cloud, the poured bucket, the breaking gale
+
+The surah's verbs and nouns of 105:3–5 carry, in their roots, a full storm. أَرْسَلَ عَلَيْهِمْ is the sending of winds (المرسلات). The root of تَرْمِيهِم names the great cloud of heavy, hard-striking drops, cloud "thrown in pieces." سِجِّيلٍ is from a root whose base is "pouring after filling": the full bucket emptied. The dictionary derives سجيل itself from "I sent it", and uses أرسل to gloss سجل's pouring-out. حِجَارَةٍ are what falls, stones in place of drops. The root of عَصْفٍ is the gale that breaks things and "makes them like عصف." The storm moves from release (3) through downpour (4) to the wind that leaves broken stalks (5).
+
+- 105:3 وَأَرْسَلَ عَلَيْهِمْ, ر س ل B001, "أرسلت فلانا في رسالة والمرسلات الرياح ويقال الملائكة" (sihah): sending, as winds are sent, over them.
+- 105:4 تَرْمِيهِم, ر م ي B004, "الرمى السقى وهي السحابة العظيمة القطر الشديدة الوقع" (sihah); "ترمى بقطع من السحاب" (maqayis): the cloud of great, hard-striking drops; cloud cast down in pieces.
+- 105:4 سِجِّيلٍ, س ج ل B001, "أصل واحد يدل على انصباب شيء بعد امتلائه" (maqayis); "سجلت الماء فانسجل أي صببته فانصب" (sihah;mufradat); "السجل الدلو ولا يكون سجلا حتى يكون فيه ماء" (jamhara): the full bucket poured out; the downpour.
+- 105:4 سِجِّيلٍ, س ج ل B005, "سجيل من سجلته أي أرسلته" (tahdhib): the dictionary joins سجيل and أرسل. The stones are "sent" ones.
+- 105:4 سِجِّيلٍ, س ج ل B003, "أسجلت الكلام أي أرسلته" (sihah); "الشيء المسجل وهو المبذول لكل أحد كأنه قد صب صبا" (maqayis): poured out without restraint; again glossed by أرسل.
+- 105:4 بِحِجَارَةٍ, ح ج ر B003, "الحجر الجوهر الصلب المعروف وجمعه أحجار وحجارة" (mufradat): hard stones as the rain.
+- 105:5 كَعَصْفٍ, ع ص ف B002, "عاصفة ومعصفة تكسر الشيء فتجعله كعصف" (mufradat); "والمعصفات الرياح التي تثير التراب والورق" (tahdhib): the breaking gale that raises dust and leaves.
+
+Quran outside the surah:
+- 11:82–83: Lut's town: "جَعَلْنَا عَٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهَا حِجَارَةًۭ مِّن سِجِّيلٍۢ مَّنضُودٍۢ مُّسَوَّمَةً عِندَ رَبِّكَ". A rain of سجيل stones, with جعل. Parallel 15:74.
+- 51:33–34: the angels to Ibrahim, sent to a criminal people: "لِنُرْسِلَ عَلَيْهِمْ حِجَارَةًۭ مِّن طِينٍۢ مُّسَوَّمَةً عِندَ رَبِّكَ لِلْمُسْرِفِينَ". أرسل + على + حجارة + طين + ربك. The scene opens at 51:31 "فَمَا خَطْبُكُمْ أَيُّهَا ٱلْمُرْسَلُونَ".
+- 8:32: Meccan deniers' challenge: "فَأَمْطِرْ عَلَيْنَا حِجَارَةًۭ مِّنَ ٱلسَّمَآءِ". The stone-rain asked for by the descendants of those spared.
+- 89:13: after "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ" (89:6): "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ". Pouring upon them, the صبّ of سجل.
+- 77:1–2: oaths: "وَٱلْمُرْسَلَٰتِ عُرْفًۭا فَٱلْعَٰصِفَٰتِ عَصْفًۭا". The roots of أرسل and عصف in consecutive ayat, the sent ones becoming storm-winds.
+- 51:41–42: Ad: "إِذْ أَرْسَلْنَا عَلَيْهِمُ ٱلرِّيحَ ٱلْعَقِيمَ مَا تَذَرُ مِن شَىْءٍ أَتَتْ عَلَيْهِ إِلَّا جَعَلَتْهُ كَٱلرَّمِيمِ". Sent wind, and جعل + كـ + remains: the frame of 105:5.
+- 46:24–25: Ad mistake the wind-cloud for rain: "رِيحٌۭ فِيهَا عَذَابٌ أَلِيمٌۭ تُدَمِّرُ كُلَّ شَىْءٍۭ بِأَمْرِ رَبِّهَا".
+- 6:6: "وَأَرْسَلْنَا ٱلسَّمَآءَ عَلَيْهِم مِّدْرَارًۭا". The same sending of sky upon people, as blessing; 105 is its reversal.
+- 55:35: to jinn and men: "يُرْسَلُ عَلَيْكُمَا شُوَاظٌۭ مِّن نَّارٍۢ وَنُحَاسٌۭ فَلَا تَنتَصِرَانِ".
+
+### 8. Stones written for them
+
+سِجِّيلٍ belongs to a root that names the written record, the deed, and the judge's registering. One account in the dictionary says the سجل was first "a stone that was written on." Under سجيل itself the dictionary records "of what was written for them." طَيْرًا carries the bird of a man's lot: "طائر الإنسان عمله الذي قلده", his deed hung on his neck. The image: birds bring stones that are a written sentence. Each man's lot comes to him by bird; the stones are marked (مسومة) by the Lord. From memory, a tafsir report says each stone bore the name of the man it struck. Maqayis also links the poets' سجين to سجيل, with nun for lam. Quran 83 joins سجين to a written book.
+
+- 105:4 سِجِّيلٍ, س ج ل B004, "السجل كتاب العهدة" (ayn); "السجل الصك وقد سجل الحاكم تسجيلا" (sihah); "السجل قيل حجر كان يكتب فيه ثم سمي كل ما يكتب فيه سجلا" (mufradat): the written deed and its registering. The dictionary joins سجل and حجر: a stone written upon.
+- 105:4 سِجِّيلٍ, س ج ل B005, "من سجل أي ما كتب لهم" (tahdhib); "أراد سجيلا أي شديدا وإنما أبدل اللام نونا" (maqayis): stones "of what was written for them". The سجين/سجيل exchange recorded by maqayis.
+- 105:4 بِحِجَارَةٍ, ح ج ر B003, "الحجر الجوهر الصلب المعروف وجمعه أحجار وحجارة" (mufradat): the stone as both missile and writing surface (through the mufradat phrase above).
+- 105:3 طَيْرًا, ط ي ر B003, "طائر الإنسان عمله الذي قلده" (ayn;sihah); "كل إنسان ألزمناه طائره في عنقه أي عمله" (mufradat); "ألا إنما طائرهم عند الله أي شؤمهم" (mufradat): the bird as a man's deed and lot, fastened on him. Their كيد comes back to them by bird.
+
+Quran outside the surah:
+- 17:13: "وَكُلَّ إِنسَٰنٍ أَلْزَمْنَٰهُ طَٰٓئِرَهُۥ فِى عُنُقِهِۦ ۖ وَنُخْرِجُ لَهُۥ يَوْمَ ٱلْقِيَٰمَةِ كِتَٰبًۭا يَلْقَىٰهُ مَنشُورًا". طائر and a written book in one ayah.
+- 11:83 and 51:34: "مُّسَوَّمَةً عِندَ رَبِّكَ". Stones marked by the Lord.
+- 7:131: "أَلَآ إِنَّمَا طَٰٓئِرُهُمْ عِندَ ٱللَّهِ". Their lot is with God. Also 27:47, Salih to Thamud: "قَالَ طَٰٓئِرُكُمْ عِندَ ٱللَّهِ".
+- 21:104: "يَوْمَ نَطْوِى ٱلسَّمَآءَ كَطَىِّ ٱلسِّجِلِّ لِلْكُتُبِ". سجل as the written scroll.
+- 83:7–9: "كَلَّآ إِنَّ كِتَٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍۢ ... كِتَٰبٌۭ مَّرْقُومٌۭ". سجين as a written book (the لام/نون exchange above).
+
+### 9. Crop broken into chaff and eaten
+
+The last ayah ends in a field. عَصْفٍ is the husk on the grain and the dried leaves on the stalk that crumble. The dictionary also calls it "the broken debris of plants." The root's wind is the force that "breaks a thing and makes it like عصف". The mufradat phrase "فتجعله كعصف" all but repeats the surah's فَجَعَلَهُمْ كَعَصْفٍ. مَّأْكُولٍۭ: the crop's yield is its أكل. What is eaten leaves the husk; what is eaten through decays. Tafsir explains it as leaves whose grain has gone, straw chewed by cattle, or worm-eaten leaves (from memory). The surah's first verb belongs here too: the dictionary's own example of فعل is breaking. The process: a grown crop → yield taken → husk and leaf left → broken by wind → eaten through. Applied to an army, by the tradition (from memory), their flesh fell away piece by piece.
+
+- 105:5 كَعَصْفٍ, ع ص ف B001, "العصف ما على الحب من قشور التبن" (maqayis); "ما على ساق الزرع من الورق الذي يبس فتفتت" (ayn;maqayis;tahdhib); "العصف والعصيفة الذي يعصف من الزرع وحطام النبت المتكسر" (mufradat): husk and dried crumbling leaf; broken plant debris.
+- 105:5 كَعَصْفٍ, ع ص ف B004, "عاصفة ومعصفة تكسر الشيء فتجعله كعصف وعصفت بهم الريح تشبيها بذلك" (mufradat): the dictionary joins جعل and عصف in one phrase, close to 105:5 itself, and adds the wind sweeping people away "by likeness to it".
+- 105:5 فَجَعَلَهُمْ, ج ع ل B002, "جعل صير" (tahdhib): turned into that state.
+- 105:1 فَعَلَ, ف ع ل B001, "فعلت الشيء فانفعل كسرته فانكسر" (sihah): the dictionary's example of فعل is breaking. The Lord's deed in 105:1 is the breaking whose result is 105:5.
+- 105:5 مَّأْكُولٍۭ, ء ك ل B001, "الأكل تناول المطعم": eaten; leaves whose grain was eaten, straw chewed by livestock (tafsir, from memory).
+- 105:5 مَّأْكُولٍۭ, ء ك ل B002, "أكل الشجرة ثمرها؛ الأكل ثمر النخل والشجر": the crop's yield. Once it is taken, the husk remains.
+- 105:5 مَّأْكُولٍۭ, ء ك ل B006, "والأكال أن يتأكل عود أو شيء؛ تأكل كذا فسد؛ في جسدي إكلة من الأكال": eaten through, decayed; also the body eaten by sores.
+
+Quran outside the surah:
+- 55:12: "وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ". العصف as part of the grain plant.
+- 39:21: "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ ... ثُمَّ يُخْرِجُ بِهِۦ زَرْعًۭا ... ثُمَّ يَجْعَلُهُۥ حُطَٰمًا". أَلَمْ تَرَ + crop + جعل + broken debris. This surah's arc in one ayah.
+- 87:4–5: "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ". فجعله + dry plant debris.
+- 18:45: "فَأَصْبَحَ هَشِيمًۭا تَذْرُوهُ ٱلرِّيَٰحُ". Plant debris scattered by winds.
+- 54:31: Thamud: "فَكَانُوا۟ كَهَشِيمِ ٱلْمُحْتَظِرِ". A people as dry stalks.
+- 21:15 "حَتَّىٰ جَعَلْنَٰهُمْ حَصِيدًا خَٰمِدِينَ"; 23:41 "فَجَعَلْنَٰهُمْ غُثَآءًۭ"; 10:24 "فَجَعَلْنَٰهَا حَصِيدًۭا كَأَن لَّمْ تَغْنَ بِٱلْأَمْسِ". جعل + harvested or dead plant matter, said of destroyed peoples.
+- 51:42: "إِلَّا جَعَلَتْهُ كَٱلرَّمِيمِ". جعل + كـ + crumbled remains.
+- 21:58: Ibrahim and the idols: "فَجَعَلَهُمْ جُذَٰذًا". فجعلهم + broken pieces, the same verb form as 105:5.
+- 34:14: Sulayman's staff: "مَا دَلَّهُمْ عَلَىٰ مَوْتِهِۦٓ إِلَّا دَآبَّةُ ٱلْأَرْضِ تَأْكُلُ مِنسَأَتَهُۥ". أكل as gnawing decay.
+
+### 10. Mass and hardness against lightness, reversed
+
+Across the surah the heavy and the light change places. ٱلْفِيلِ is the largest beast, yet its root's base sense is slackness and weakness. The birds are light and swift. The root of أَبَابِيلَ names heaviness, overpowering and resisting. The stones are hard. سجيل is glossed "hard, severe." The end is عَصْفٍ, from a root whose base is lightness and speed: leaf that crumbles. The heavy is brought down by the light, and what was massive ends weightless.
+
+- 105:1 ٱلْفِيلِ, ف ي ل B004, "الفيل معروف" (sihah): the massive beast.
+- 105:1 ٱلْفِيلِ, ف ي ل B001, "أصل يدل على استرخاء وضعف" (maqayis): the root's own base sense, slackness and weakness, under the name of the mightiest animal.
+- 105:3 طَيْرًا, ط ي ر B001, "لكل من خف قد طار وكل سرعة" (maqayis): lightness and speed.
+- 105:3 أَبَابِيلَ, ء ب ل B004, "أبل الرجل إذا غلب وامتنع والأبلة الثقل" (maqayis): overpowering, resisting, and weight, in the root of the light flocks.
+- 105:4 بِحِجَارَةٍ, ح ج ر B003, "الحجر الجوهر الصلب المعروف" (mufradat): hardness.
+- 105:4 سِجِّيلٍ, س ج ل B005, "وقالوا السجيل الشديد" (maqayis); "تأويله كثيرة شديدة" (tahdhib): severe, many and hard.
+- 105:5 كَعَصْفٍ, ع ص ف B003, "أصل واحد صحيح يدل على خفة وسرعة" (maqayis): lightness and speed as the root's base. With B001's crumbling leaf, the army ends weightless.
+
+Quran outside the surah:
+- 40:21: of earlier peoples: "كَانُوا۟ هُمْ أَشَدَّ مِنْهُمْ قُوَّةًۭ وَءَاثَارًۭا فِى ٱلْأَرْضِ فَأَخَذَهُمُ ٱللَّهُ بِذُنُوبِهِمْ". Strength that did not protect.
+
+### 11. Fuel and the eating fire
+
+مَّأْكُولٍۭ carries the fire's eating: "the fire ate the firewood." عَصْفٍ, dry crumbling leaf, is the stuff fire takes first. The root of أَبَابِيلَ names a bundle of firewood, in the proverb "a handful on top of a bundle." In a fixed expression the root of كَيْدَهُمْ names a firestick that is slow to give fire. Read as a reversal: the scheme's firestick does not catch, and what is eaten at the end is the army, as fire eats dry straw. سجيل is explained in the dictionary as stone and clay mixed, said to be an Arabized Persian word. Exegetes take it as clay baked hard (from memory). The Quran names stones as fuel of the Fire.
+
+- 105:5 مَّأْكُولٍۭ, ء ك ل B005, "أكلت النار الحطب وآكلتها؛ ائتكلت النار إذا اشتد التهابها؛ وعلى طريق التشبيه قيل أكلت النار الحطب": fire eating its fuel and blazing.
+- 105:5 كَعَصْفٍ, ع ص ف B001, "ما على ساق الزرع من الورق الذي يبس فتفتت" (ayn;maqayis;tahdhib): dry leaf, the readiest fuel.
+- 105:3 أَبَابِيلَ, ء ب ل B005, "الإبالة الحزمة من الحطب" (maqayis); "الإبالة الحزمة من الحطب وضغث على إبالة" (sihah): the bundle of firewood, and the proverb of one load added on another.
+- 105:2 كَيْدَهُمْ, ك ي د B006 [fixed expression], "أن يخرج الزند النار ببطء وشدة" (maqayis): the firestick slow to give fire.
+- 105:4 سِجِّيلٍ, س ج ل B005, "السجيل حجر وطين مختلط وأصله فيما قيل فارسي معرب" (mufradat); "السجيل حجارة كالمدر وهو حجر وطين" (ayn): stone and clay; baked clay by the exegetes (from memory).
+
+Quran outside the surah:
+- 2:24: to the deniers challenged to produce a surah: "فَإِن لَّمْ تَفْعَلُوا۟ وَلَن تَفْعَلُوا۟ فَٱتَّقُوا۟ ٱلنَّارَ ٱلَّتِى وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ". Stones and people as fuel, after a twice-repeated فعل.
+
+### 12. The Lord's deed in two makings
+
+The surah has the frame of one deed and two makings. فَعَلَ (105:1) asks how the deed was done. Two جَعَلَ answer it: one puts their scheme into straying (105:2), the other turns them into chaff (105:5). Between the two stand the sending and the throwing (105:3–4). The dictionary defines فعل as bringing something about, and gives breaking as its example. جعل is making and turning-into. Their كيد, a hard working at something, is set inside His doing and ends as its object.
+
+- 105:1 فَعَلَ, ف ع ل B001, "أصل صحيح يدل على إحداث شيء من عمل وغيره" (maqayis); "فعلت الشيء فانفعل كسرته فانكسر" (sihah): bringing about, by the example of breaking.
+- 105:2 يَجْعَلْ, ج ع ل B002, "جعل صير" (tahdhib): first making-into: the scheme into straying.
+- 105:5 فَجَعَلَهُمْ, ج ع ل B001, "جعلت الشيء صنعته" (maqayis); ج ع ل B002, "جعله الله نبيا أي صيره" (sihah): second making-into: the people into chaff.
+- 105:2 كَيْدَهُمْ, ك ي د B001, "كل شيء تعالجه فأنت تكيده" (maqayis;sihah): their working, set inside His doing.
+
+Quran outside the surah:
+- 89:6–13: "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ" through "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ". The same فعل-frame over Ad, Thamud and Pharaoh.
+- 14:45: "كَيْفَ فَعَلْنَا بِهِمْ".
+- 21:70 / 37:98: "فَجَعَلْنَٰهُمُ ٱلْأَخْسَرِينَ / ٱلْأَسْفَلِينَ". A كيد answered by جعل.
+- 71:15: Nuh to his people: "أَلَمْ تَرَوْا۟ كَيْفَ خَلَقَ ٱللَّهُ سَبْعَ سَمَٰوَٰتٍۢ طِبَاقًۭا". The أَلَمْ تَرَ كَيْفَ frame over a divine act.
+
+## Interactions
+
+- 1 Seeing / 3 Scheme: ض ل ل B001 is both a failure of judgment ("ضل في الأمر إذا لم يهتد له") and a road lost ("ضل في الأرض إذا لم يهتد للسبيل"). Same branch, same jamhara entry.
+- 1 Seeing / 2 Owner and keepers: ف ي ل joins weak opinion (B001 "رجل فَيِل الرأي") and the keeper's beast (B004 "صاحبه فيال"). The company is named by the animal whose root is unsound judgment.
+- 1 Seeing / 12 Deed: 89:5–6 puts "لِّذِى حِجْرٍ" (the root of حجارة as mind) next to "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ".
+- 1 Seeing / 4 War / 5 Droves: 33:9 stages a sent force against an army, unseen: "فَأَرْسَلْنَا عَلَيْهِمْ رِيحًۭا وَجُنُودًۭا لَّمْ تَرَوْهَا".
+- 1 Seeing / 7 Storm: 46:24 and 52:44 stage seeing and misreading a sky that brings destruction.
+- 1 Seeing / 8 Written stones: ط ي ر B003 is both augury (chain 1) and a man's fastened lot (chain 8), in the same dictionary branch.
+- 2 Owner and keepers / 5 Droves: ء ب ل B001 (herd, herd-keeper) underlies أبابيل B003's "كقطعات إبل". By the sira (from memory), ʿAbd al-Muṭṭalib's camels and the House's own رب sit in one saying.
+- 2 Owner and keepers / 3 Scheme: ض ل ل B003 "ضللت المسجد والدار" is the target of the keepers' march; "أضل بعيره إذا أفلت فذهب" meets ص ح ب B003, the led beast that would not go (from memory). 22:25 punishes the intent against the Mosque.
+- 3 Scheme / 9 Chaff / 7 Storm: 14:18 joins deeds blown "فِى يَوْمٍ عَاصِفٍۢ" with "ٱلضَّلَٰلُ ٱلْبَعِيدُ".
+- 3 Scheme / 12 Deed: 21:70 and 37:98 stage كيد answered by فجعلناهم.
+- 3 Scheme / 11 Fire: ك ي د B006 [fixed expression], the firestick that will not catch, is shared.
+- 4 War / 6 Shooting: 8:17 stages the battle with no human killer and the رمي that is God's.
+- 4 War / 7 Storm: س ج ل joins war-turns (B002, "سجل على هؤلاء") and the poured bucket (B001). Jamhara traces the contest to drawing water: "وأصله من تساجلهما في الاستقاء".
+- 4 War / 9 Chaff: ع ص ف B004 joins war carrying a people off ("الحرب تعصف بالقوم") and the wind's breaking into عصف ("وعصفت بهم الريح تشبيها بذلك").
+- 5 Droves / 7 Storm: ر س ل B001 is shared, sending flocks and sending winds ("والمرسلات الرياح"). 77:1–2 joins المرسلات and العاصفات.
+- 6 Shooting / 7 Storm: ر م ي B001 "الرمي يقال في الأعيان كالسهم والحجر" joins the throw and the stone; ر م ي B004 makes the same verb a cloud's heavy drops.
+- 6 Shooting / 9 Chaff: ء ك ل B007 (eaten prey) and B001/B006 (eaten crop, eaten-through) give مأكول a hunt ending and a field ending.
+- 7 Storm / 8 Written stones: س ج ل B005 holds both "سجيل من سجلته أي أرسلته" and "من سجل أي ما كتب لهم". 11:82–83 and 51:33–34 stage the stone-rain together with "مُّسَوَّمَةً عِندَ رَبِّكَ".
+- 7 Storm / 9 Chaff / 12 Deed: 51:41–42 stages sent wind with "جَعَلَتْهُ كَٱلرَّمِيمِ". The mufradat's "تكسر الشيء فتجعله كعصف" joins the wind (ع ص ف B002) to جعل.
+- 9 Chaff / 12 Deed / 1 Seeing: 39:21 holds أَلَمْ تَرَ, the crop and "يَجْعَلُهُۥ حُطَٰمًا" in one ayah. ف ع ل B001's "كسرته فانكسر" ties the opening deed to the broken end.
+- 9 Chaff / 11 Fire: ع ص ف B001 (dry leaf) and ء ك ل B005 (fire eating) share the dry-fuel scene.
+- 10 Mass and lightness / 6 Shooting: ف ي ل B004 (the huge quarry) and ط ي ر B001 ("لكل من خف قد طار") are shared.
+
+## Ayat
+
+### 105:1 أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ
+- Chain 1 (Seeing): تَرَ puts the addressee in the eyewitness's place (sight, knowing, summons). ٱلْفِيلِ carries "فَيِل الرأي", weak opinion and mistaken reading of signs. Whole scene: the addressee is told to see; the elephant's company could not judge, their scheme lost its way, the birds they might have read were the blow, and the throw that hits answers the guess that misses.
+- Chain 2 (Owner and keepers): رَبُّكَ is owner, master and tender of the addressee and, by 106:3, of the House. أَصْحَٰبِ ٱلْفِيلِ are the elephant's owners and keepers ("صاحبه فيال"), with a beast that is led (أصحب البعير). Whole scene: the Lord who owns and keeps the House and the addressee against men defined by the beast they lead, men without God's keeping companionship; flocks named like camel droves come in.
+- Chain 6 (Shooting): ٱلْفِيلِ is the huge quarry. Whole scene: light birds are sent as shooters, stones fly like arrows, the elephant's army becomes the quarry and ends as prey eaten.
+- Chain 9 (Chaff): فَعَلَ is the breaking deed ("كسرته فانكسر"). Whole scene: a standing crop is reduced to husk and dry leaf, broken by wind and eaten through.
+- Chain 10 (Mass and lightness): ٱلْفِيلِ is mass, with a root meaning slackness and weakness. Whole scene: the heaviest beast is brought down by light birds carrying hard stones and ends as weightless leaf.
+- Chain 12 (Deed): فَعَلَ opens the frame of the one deed. Whole scene: the Lord's deed, told as two makings (scheme into straying, people into chaff) with the sending and the throwing between.
+
+### 105:2 أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ
+- Chain 3 (Scheme): كَيْدَهُمْ is hard work and a scheme aimed at harm. يَجْعَلْ turns it into a state. تَضْلِيلٍ is turning off the road, failing to find the house, and sinking out of sight. Whole scene: an expedition works hard toward the House, is turned off its road, never finds its goal, and its design dissolves like milk in water.
+- Chain 1 (Seeing): تَضْلِيلٍ is a failure of judgment ("لم يهتد له"). Whole scene: as in 105:1, sound seeing set against failed judgment.
+- Chain 4 (War): كَيْدَهُمْ carries the fixed "خرجوا ولم يلقوا كيدا", a war never met, and the fixed "يكيد بنفسه", dying. Whole scene: an army comes for war, no human side meets it, the turn of the bucket falls on it alone, and war sweeps it away.
+- Chain 11 (Fire): كَيْدَهُمْ carries the fixed firestick slow to give fire. Whole scene: their effort does not catch, while they themselves end as straw eaten as fire eats fuel.
+- Chain 12 (Deed): يَجْعَلْ is the first making-into. Whole scene: as in 105:1.
+
+### 105:3 وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ
+- Chain 5 (Droves): أَرْسَلَ is release from holding and herds sent out, arriving أرسالا. طَيْرًا is winged bodies that scatter. أَبَابِيلَ is "يتبع بعضها بعضا", "كقطعات إبل". Whole scene: flock after flock released over the army, arriving like droves of camels and spreading over it.
+- Chain 7 (Storm): أَرْسَلَ عَلَيْهِمْ is the sending of winds over them. Whole scene: wind sent, cloud of heavy drops, the full bucket poured out as stones, and the gale that breaks things into chaff.
+- Chain 6 (Shooting): طَيْرًا are light shooters, birds turned hunters. أَرْسَلَ also names a short arrow. Whole scene: as in 105:1.
+- Chain 8 (Written stones): طَيْرًا carries the bird of a man's lot ("طائر الإنسان عمله"). Whole scene: birds bring stones that are a written sentence, marked by the Lord, each man's deed returned to him.
+- Chain 1 (Seeing): طَيْرًا carries augury. Whole scene: as in 105:1.
+- Chain 2 (Owner and keepers): أَبَابِيلَ has the herd and herd-keeper in its base إبل. Whole scene: as in 105:1.
+- Chain 10 (Mass and lightness): طَيْرًا is lightness. أَبَابِيلَ's root holds weight and overpowering. Whole scene: as in 105:1.
+- Chain 11 (Fire): أَبَابِيلَ's root holds the firewood bundle. Whole scene: as in 105:2.
+
+### 105:4 تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ
+- Chain 6 (Shooting): تَرْمِيهِم is shooting game ("الرمي يقال في الأعيان كالسهم والحجر"), with them as the رمية. حِجَارَةٍ is the hard missile. Whole scene: as in 105:1.
+- Chain 7 (Storm): تَرْمِيهِم is the cloud of heavy, hard-striking drops. سِجِّيلٍ is the full bucket poured ("انصباب شيء بعد امتلائه") and "سجلته أي أرسلته". حِجَارَةٍ are stones as rain. Whole scene: as in 105:3.
+- Chain 8 (Written stones): سِجِّيلٍ is the written record ("ما كتب لهم"). حِجَارَةٍ is a stone written upon. Whole scene: as in 105:3.
+- Chain 4 (War): سِجِّيلٍ is war-turns, "سجل على هؤلاء", poured on them only. Whole scene: as in 105:2.
+- Chain 3 (Scheme): تَرْمِيهِم carries "أين ترمي أي جهة تنوي", the march's intended direction. Whole scene: as in 105:2.
+- Chain 1 (Seeing): تَرْمِيهِم carries the missed guess. حِجَارَةٍ carries the restraining mind. Whole scene: as in 105:1.
+- Chain 10 (Mass and lightness): حِجَارَةٍ is hardness. سِجِّيلٍ is "السجيل الشديد". Whole scene: as in 105:1.
+- Chain 11 (Fire): سِجِّيلٍ is stone and clay, baked clay by the exegetes (from memory). Whole scene: as in 105:2.
+
+### 105:5 فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ
+- Chain 9 (Chaff): عَصْفٍ is husk, dry crumbling leaf and broken plant debris. فَجَعَلَهُمْ matches "تكسر الشيء فتجعله كعصف". مَّأْكُولٍۭ is the crop whose yield is eaten, straw chewed, the thing eaten through. Whole scene: as in 105:1.
+- Chain 7 (Storm): عَصْفٍ's root is the breaking gale. Whole scene: as in 105:3.
+- Chain 4 (War): عَصْفٍ's root is war that carries a people off. Whole scene: as in 105:2.
+- Chain 6 (Shooting): مَّأْكُولٍۭ is the eaten prey (أكيلة السبع). Whole scene: as in 105:1.
+- Chain 10 (Mass and lightness): عَصْفٍ's root is lightness and speed. Whole scene: as in 105:1.
+- Chain 11 (Fire): مَّأْكُولٍۭ is fire eating fuel. عَصْفٍ is dry kindling. Whole scene: as in 105:2.
+- Chain 12 (Deed): فَجَعَلَهُمْ is the second making-into. Whole scene: as in 105:1.
+
+## Not carried
+
+- 1A Making and State Transformation: carried as chain 12 except ص ح ب B004 (making accompany), which is not tied to the deed.
+- 1C Sustained Exertion: ج ع ل B004 (beginning to do) does not fit these جعل clauses; ر م ي B006 (reaching an end) has no attestation tied to these words.
+- 2B Deliberation: ر س ل B004 (unhurried pace) is contrary to the scene; ر ء ي B002 and ح ج ر B002 carried in chain 1.
+- 2C Misjudgment: ض ل ل B004 (forgetting) and ف ع ل B004 (fabrication) have no hold in the surah's wording; the rest carried in chain 1.
+- 2D Framed and Diagnostic Signs: mirror, banner, halo and menstrual trace make no scene with the surah's words.
+- 3B Burial and Hidden-Object Search: ف ي ل B003 (a hiding game) is not heard; ض ل ل B002 carried in chain 3.
+- 3C Lost Possession / Dispersed Travel: its members are carried separately (chains 3, 5, 7); no single loss-to-dispersal scene beyond those.
+- 4A Attachment and Compatible Association: abstract; no image in the wording.
+- 4B Protective Escort and Retained Memory: ص ح ب B002 carried in chain 2; the memory part (ض ل ل B004) is not heard.
+- 4C Child Maturing into a Companion: stepchild, lap and grown son are not heard in the surah.
+- 4D Courtship After Household Transition: the widow, stepfamily and appearance are not heard.
+- 4E Need Held in a Protective Lap: الحجر (lap) and ربى (need) are not heard.
+- 5A Lordship and Protected Following: carried in chain 2 except ر س ل B004.
+- 5B Covenant, Record, Public Standard: س ج ل B004 carried in chain 8; covenant, banner and message do not join it in the wording.
+- 5C Messenger and Correspondence: no message in the surah; sending here is of birds.
+- 5D Learned and Religious Office: monk, bell, scholar and precinct are not heard.
+- 6A Rain Becoming Crop Yield: ر م ي B004 and ع ص ف B001 carried in chains 7 and 9; the plant-nurturing cloud of ر ب ب B008 and the small palms of ج ع ل B006 are not heard.
+- 6B Labor, Wage, Livelihood: wage, workers and earning are not heard.
+- 6C Meal, Portion, Hot Vessel: pot cloth, vessel and date-lump are not heard.
+- 6D Willing Gift: generosity is contrary to the scene; س ج ل B003 carried in chain 7 as pouring.
+- 6E Milk and Thickened Provision: milk, udder and syrup are not heard.
+- 7A Fuel and Ignition: carried as chain 11 except ط ي ر B005 (rage, flighty agitation).
+- 7B Corrosion Through Body and Material: ء ك ل B006 carried in chain 9; the hide and its preparation are not heard.
+- 8B Managed Herd and Stray: ء ب ل B001 carried in chains 2 and 5; the wild-cattle herd (ر ب ب B014) and stray camel (ض ل ل B005) are not heard.
+- 8C Pastoral Water and Milk Cycle: not heard.
+- 8D Protected Female, Courtship, Pregnancy: not heard.
+- 8E Offspring Raised Toward Maturity: not heard.
+- 9A Light Flight and Smooth Gait: ط ي ر B001 and ع ص ف B003 carried in chain 10; smooth gait (ر س ل B003) is not heard.
+- 9B Cloud, Gale, Pouring Rain: carried as chain 7 except the layered cloud of ر ب ب B008, which no wording ties to رَبُّكَ here.
+- 9C Breath, Gale, Final Exhalation: ك ي د B003 carried in chain 4; the lung (ر ء ي B009) is not heard.
+- 9D Algae-Covered Abundant Water: not heard.
+- 9E Wide Aperture and Hanging Fullness: not heard.
+- 10A Burden Held Under Restriction: legal restraint and burden are not heard.
+- 10B Enclosed Precinct and Named Place: the place-names and precinct are not heard.
+- 10C Ringed and Sheltered Interior: not heard.
+- 10D Hot Vessel and Protective Cloth: not heard.
+- 10E Quiver, Arrow, Launched Implement: ر م ي B003 and ر س ل B011 carried in chain 6; the gaming-arrow bag of ر ب ب B010 is not heard.
+- 10F Sheaf, Bundle, Dry Plant Matter: carried in chains 9 and 11 except ر ب ب B012 (a green plant).
+- 10G Prepared Hide: not heard.
+- 11A Deceptive Staging: ك ي د B002 carried in chain 3; display (ر ء ي B005) and fabrication are not heard.
+- 11B Alternating Contest: carried as chain 4 except ر س ل B008 and ف ع ل B005 (reciprocal action).
+- 11C Accusation and Defamation: not heard.
+- 11D Ostentation, Correspondence, Discord: not heard.
+- 11E Cunning Acquisition: consuming others' wealth and earning are not heard.
+- 12A Substance, Intellect, Weak Judgment: ف ي ل B001 and ح ج ر B002 carried in chain 1; ء ك ل B012 is not heard.
+- 12B Stout Obstinacy: not heard.
+- 12C Awe as Arrested Motion: ط ي ر B006 [fixed expression], birds stilled on heads, is contrary to the birds' action here.
+- S1 Emesis Against the Meal Container: not heard.
+- S2 Command at Sea: not heard.
+- S3 Grammatical Placement: metalinguistic; no image.
