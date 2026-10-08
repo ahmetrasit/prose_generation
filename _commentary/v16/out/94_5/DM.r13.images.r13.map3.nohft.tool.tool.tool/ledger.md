@@ -1,0 +1,13 @@
+- memory: repeated definite noun = same referent, repeated indefinite = new one (one hardship, two eases)
+- memory: maʿa al-ʿusr is a fronted predicate, yusran the delayed noun of inna
+- memory: vowelling of unvowelled dictionary phrases (yesr/yeser, yeserât, teysûr, ʿasîr) supplied from usage
+- memory: waḍaʿa ʿanhu for a creditor remitting debt (recalled from the surah scene)
+- memory: Turkish usage of müyesser (granted, fated) and usret (financial straits)
+- not written: ع س ر B009 camel raising its tail when running - no work in any theme
+- not written: ع س ر B011 scattered / one after another - no grounding in the ayah
+- not written: ع س ر B012 jinn tribe / place name - proper name only
+- not written: ي س ر B008 palm lines / thigh brand, B009 twisting down / thrust - no theme
+- not written: ي س ر B010 place and person names, B011 young man - no theme
+- not written: ي س ر B004 tayāsarū (taking the left way) - adds nothing to the two-hands theme
+- not written: 18:73 Musa asking not to be burdened with hardship - repeats the 20:26 theme
+- not written: 54:17 Quran made easy for remembrance - belongs to the dhikr theme of 94:4
