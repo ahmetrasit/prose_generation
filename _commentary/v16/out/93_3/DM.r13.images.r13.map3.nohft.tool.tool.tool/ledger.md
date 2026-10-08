@@ -1,0 +1,9 @@
+- memory: the q-l-y root occurs in the Quran only here and in Lot's reply.
+- memory: the "O Prophet" address of 33:45 carries on to 33:48.
+- memory: 19:61–63 describe the promised garden before the speakers of 19:64.
+- memory: 20:36–37 frame 20:38–40 (Moses' request granted, earlier favour recalled).
+- not written: و د ع B004 (truce, mutual leaving-alone) - could not join a theme without forcing it.
+- not written: و د ع B007 cowrie shells, B008 keeping a stud, B009 putting to use - no work in this ayah's themes.
+- not written: ق ل ي B006 washing-ash from burnt plants; B001 high-flying bird - nothing to ground.
+- not written: ر ب ب B003, B004, B006, B009, B010, B012, B014, B015, B017 - no theme here.
+- not written: echo root ر ب و (raising verb rabbā in 26:18, 17:24) - echo, not identity; kept out.
