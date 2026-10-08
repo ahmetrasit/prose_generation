@@ -1,0 +1,11 @@
+- memory: ḥubb (storage jar) vocalized with u
+- memory: makkūk is a vessel for measuring grain
+- not written: Abu Amr's third-person reading (yuḥibbūn) - variant readings outside the brief's evidence
+- not written: ḥ-b-b B003 ḥabbadhā / ḥabābuka - praise formulas, no theme
+- not written: ḥ-b-b B008-B012 (bubbles, teeth, short, sparks, snake) - no bearing on love of wealth
+- not written: j-m-m B003 crowd asking blood money - no theme without forcing
+- not written: j-m-m B004-B006, B008-B009 (hair/skull, young plants, hornless, mumbling, wide chest) - no theme
+- not written: m-w-l B002 spider - disputed, irrelevant
+- not written: 104:2-3 gatherer counting wealth, akhlada pun with 7:176 - clinging theme already carried, pun too far
+- not written: 38:32 Solomon "aḥbabtu ḥubba l-khayr" - same cognate pattern, but its situation is contested
+- not written: 90:6 "mālan lubadā" - heaped wealth, would only repeat the brimming theme
