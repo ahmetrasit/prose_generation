@@ -1,0 +1,9 @@
+- memory: explicit pronoun with negated nominal clause gives emphasis/focus
+- memory: active participle names one characterized by the act, not a single act
+- memory: mā usually for things, man for persons
+- memory: mā can be read as maṣdariyya (worship-as-act) here
+- memory: tar was smeared on camels as treatment for skin disease (mange)
+- not written: B008 anger/disdain and B011 refractory camel (pride pole, cf. 40:60, 4:172) - ayah grants addressees worship; casting them as refusers of all bowing would misstate it
+- not written: B004 enslaving (Pharaoh 26:22) - surah-level scene; 23:47 already carries the service sense here
+- not written: B007 strength, B009 haste, B010 scattered groups, B012 perfume stone - no work in this ayah's theme
+- not written: kufr-as-disavowal and the deyn exchange - belong to 109:1 and 109:6; recalled only in a sentence
