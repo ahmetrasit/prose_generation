@@ -1,0 +1,13 @@
+- memory: doubled-middle form (cellâ) is causative/intensive; tecellâ (form V) is its reflexive
+- memory: selh in 36:37 = flaying an animal's skin
+- memory: tekvîr in 39:5 is also used of winding a turban
+- memory: ismid applied as fine powder to the eyelid rim
+- memory: vowels of الجلا (kohl, cilâ), النهر "expanse" (neher), المنهرة (menhera)
+- memory: form II جلّى occurs in the Quran at 7:187 besides 91:3 (not claimed as the only other place)
+- not written: ن ه ر B004 (rebuke, as in 93:10, 17:23) - no link to the day's revealing
+- not written: ن ه ر B005 bird chick, B006 snatching, B007 proper names / two stars, B008 cloud - no work in any theme
+- not written: أنهرت الدم (letting blood flow) toward the she-camel's slaughter - too remote
+- not written: رجل نهر (one who raids by day) - adds nothing to the theme
+- not written: ج ل و B009 gift at the bride's unveiling - no work
+- not written: tense shift جلاها (past) vs يغشاها (imperfect) - rhyme may drive it; no safe claim
+- not written: other referent of -hâ (darkness, world) - no feminine antecedent but the sun; exegetical
