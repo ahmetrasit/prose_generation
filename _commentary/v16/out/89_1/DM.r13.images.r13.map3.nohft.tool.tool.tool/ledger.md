@@ -1,0 +1,12 @@
+- memory: the "wa" of 89:1 is the oath particle
+- memory: Arabic shafaq is evening twilight (Turkish şafak shifted to dawn)
+- memory: asri (11:81) and yasri (89:4) share the root s-r-y
+- memory: fasād (89:12) and mufsidīn (2:60) share the root f-s-d
+- memory: ṭaghā (89:11) is also said of overflowing water
+- memory: karam (B005 definition) and akrama/tukrimūna (89:15,17) share the root k-r-m
+- not written: B006 named war days of violated sanctity - needs history from outside the Quran
+- not written: B001 valley outlets (mafājir al-wādī) and "path in sand" - would only repeat the ninth ayah's valley scene
+- not written: afjara = lied / sexual transgression / disbelief (B004) - covered by fujūr as a whole
+- not written: aṣḥāb al-ḥijr (15:80) written like the fifth ayah's ḥijr - a place name; same form, no shared work
+- not written: 24:58 time before the dawn prayer as a time of privacy - no theme
+- not written: 83:7, 38:28 further fujjār passages - nothing beyond 82:14
