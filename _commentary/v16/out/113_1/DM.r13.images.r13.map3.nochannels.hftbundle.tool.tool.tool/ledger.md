@@ -1,0 +1,14 @@
+- memory: Turkish "felek" comes from Arabic falak (ف ل ك), a different root from falaq (ف ل ق)
+- memory: ibāna, baynūna, bayān and yatabayyana (2:187) share the root ب ي ن
+- memory: the "two protective parts" of the Quran attested under ع و ذ B002 are Surahs 113 and 114
+- memory: 3:146 context is believers addressed after being wounded in battle (3:140 "in yamsaskum qarḥ")
+- not written: ق و ل B003, B004 (qayl, ruler whose word is carried out), B007 (spread talk), B009–B011, B013–B017 - no work in this ayah's themes; spread talk belongs to the surah scene with ayat 2 and 4
+- not written: ع و ذ B005 (horse's collar whorl) - neck/necklace image only works with the knot scene of ayah 4
+- not written: ع و ذ B008 (leaving someone out of dislike) - no theme
+- not written: ر ب ب B003 (rabbānī scholar), B006 (thick extract, treated waterskin), B010 (arrow bag), B012 (plant), B014 (wild cattle herd), B015 (particle rubba), B017 (ship captain) - none grounds or joins a theme
+- not written: ر ب ب B016 ribbā "blessing" sense - completion of blessing carried by B002 instead
+- not written: ف ل ق B004 head-parting and camel-neck hollow - no work beyond the low-ground image
+- not written: ر ب ب B001 rabbabtu al-qawm (governing) - covered by owner/master sense
+- not written: echo roots ق ل ل and ر ب و - echo, not identity
+- not written: eye scene (waqb, ghāsiq, envy's seeing) - belongs to other ayat; amulet "from the eye" recalled in one sentence
+- not written: 2:256 unbreakable handle and 3:103 rope of God - clinging theme already grounded; would repeat
