@@ -1,0 +1,12 @@
+- memory: illā here functions as "but" (disjunctive), not carving an exception out of 88:22
+- memory: the fa of 88:24 introduces the predicate of conditional man
+- memory: perfect verbs after conditional man carry general, not past, sense
+- memory: nāʿima (88:8) and niʿma share the root n-ʿ-m
+- memory: al-hayj in the date phrase and yahīju (57:20) share the root h-y-j
+- memory: kuffār in 57:20 heard as farmers
+- not written: و ل ي B010 follow-up rain - suggests repeated reminder only by analogy, no textual tie
+- not written: و ل ي B011 saddle under-cloth - camel adjacency only, no work in the ayah
+- not written: و ل ي B008, B012-B015 (worthier, seizing, bestowing, resale, weaning, cf.) - no bearing on turning away
+- not written: ك ف ر B006, B007, B014, B015 (declaring disbeliever, forcing disobedience, bowing, crowning) - no theme to join
+- not written: ك ف ر B010-B011 kāfūr sheath/spring (76:5) - root identity of kāfūr doubtful
+- not written: ك ف ر B012 remote land/grave vs. w-l-y nearness - cross-root antithesis too associative
