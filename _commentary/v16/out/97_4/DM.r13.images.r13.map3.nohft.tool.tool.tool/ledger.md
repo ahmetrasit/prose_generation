@@ -1,0 +1,15 @@
+- memory: tanazzalu is tatanazzalu with one ta dropped
+- memory: imperfect presents action as ongoing or recurring
+- memory: mukth means staying, pausing, slow pace
+- memory: min can mark cause, as in 71:25
+- memory: feminine pronoun in fîhâ refers back to the night
+- memory: form II vowels (nazzala) in نزلت القوم and نزل فلان غيره
+- memory: vowels milâk and melk in ملاك الأمر and الملك الماء
+- not written: nazla, a single descent (53:13) - single-event sense cuts against the ongoing descent
+- not written: amr as appointed time and desert waymark stones - different vowel pattern, did no work in a theme
+- not written: ruh as dispersed or nest-returning birds - sense disputed in usage
+- not written: m-l-k ownership and kingship - would displace the message sense of angels
+- not written: kulla, tent-like insect net - encircling already carried by the crown
+- not written: ta'adhdhana, binding declaration - different verb form, no tie to this ayah
+- not written: 13:11 guarding "min amr Allah" - Quran does not name the guardians
+- not written: Ruh as the unnamed "it" of the first ayah - kept as connection only, not identity
