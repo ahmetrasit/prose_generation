@@ -1,0 +1,10 @@
+- not written: ت ل و B003 (remaining share of a debt) - moon-as-leftover-light would be analogy without support
+- not written: ت ل و B004 (bond, transfer of claim) - no link to the ayah's following
+- not written: ت ل و B005 (abandon / overtake, leave behind) - tempting contrast with 36:40, but not needed and risks muddying the plain sense
+- not written: ت ل و B008, B009 (last breath; lying about someone) - fixed expressions, no theme
+- not written: ق م ر B004, B006, B008, B010 (dates spoiled by cold, waterskin spoiled, abundant water, delayed feed) - no theme work
+- not written: ق م ر B009 (sleepless in moonlight) - adds nothing beyond the half-light theme
+- not written: ق م ر B012 (qumrī dove; Turkish kumru) - loanword curiosity, no theme
+- not written: echo root ت ل ل (hill, neck, threw down 37:103) - echo only, not identity
+- not written: Surah 54 opens with the moon and tells Thamud's story - coincidence, no textual bridge in this ayah
+- not written: 11:17 yatlūhu shāhid - follow/recite sense disputed, would need exegesis
