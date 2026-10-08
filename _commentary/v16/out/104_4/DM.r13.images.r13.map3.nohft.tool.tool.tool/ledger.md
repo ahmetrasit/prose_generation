@@ -1,0 +1,8 @@
+- memory: kallā as particle of rejection and deterrence
+- memory: lām + heavy nūn marks an implied oath's answer (double emphasis)
+- memory: fuʿala pattern names one habitually or intensively doing the act
+- memory: iʿtidād belongs to root ʿ-d-d
+- memory: Turkish "nebze" derives from Arabic nubdha
+- not written: ḥaṭīm (Kaaba wall, B007) - no supported link to the ayah's themes
+- not written: Taha 20:97 burning of the devoted-to idol with same emphatic form - tangent, needs unquoted 20:88 for the ornament link
+- not written: Maryam 19:22 second withdrawal - 19:16 suffices
