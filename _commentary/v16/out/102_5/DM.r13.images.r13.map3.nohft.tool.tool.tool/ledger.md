@@ -1,0 +1,11 @@
+- memory: kallā as particle of rejection and deterrence
+- memory: law + imperfect here marks an unreal present condition ("you do not know")
+- memory: a law-clause's answer normally takes la- + perfect; 102:6's oath form (lām + nūn) is not a law-answer, so the answer is omitted
+- memory: ʿilma l-yaqīn is a cognate accusative specifying the kind of knowing
+- memory: the iḍāfa can also be heard as "knowledge of the certain thing" (objective genitive)
+- memory: Turkish "ilmelyakîn" in current use; Turkish "yakın" (near) is Turkic and unrelated to yaqīn
+- not written: ي ق ن B002 (guarded secluded girl) - no supported link to the ayah's knowing
+- not written: ع ل م B004 split lip, B006 falcon, B007 male hyena - no work in any theme
+- not written: ع ل م B005 well/sea - belongs to the surah's heat/coolness scene, not this ayah's knowing
+- not written: 4:157 ʿilm/ẓann/yaqīn together - 45:32 does the same work in a context the reader can follow without disputed narrative
+- not written: 6:27, 2:165, 13:31 further law-clauses with omitted answer - one example (21:39) suffices
