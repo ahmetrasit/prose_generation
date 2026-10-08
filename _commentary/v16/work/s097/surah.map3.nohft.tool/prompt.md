@@ -1,6 +1,6 @@
 Surah: 97. Follow the brief below (surah_map.md) exactly. The evidence is text.md (the surah), dictionary.md (every root of the surah's words, each branch with the classical dictionaries' own phrases), channels.md (an earlier reader's proposal: ignore its judgements (grades, strength or confidence labels, reading types, statements of what a reading may or may not do) and make your own) and your own knowledge of Arabic and the Quran. Return only the map as your final message.
 
-When your discovery is complete and before you write your final output, run this command once, with every Quran reference outside this surah that your output will use: `python3 /Volumes/aro/projects/prose_generation/_commentary/v16/missing.py S97 <refs separated by spaces>`. It lists refs from an earlier cross-reference list, by tier, that your refs do not include. That list is not authoritative and may be incomplete: judge each passage yourself, add it only where it supports or sharpens what you are writing, and leave the rest. To read a passage's Arabic before judging it, run `python3 /Volumes/aro/projects/prose_generation/_commentary/v16/missing.py text <refs>` (up to 40 refs per call) as often as you need. Also add any other passage you now recall that belongs, whether listed or not. Then write your final output. No other command or tool is available.
+When your discovery is complete and before you write your final output, run this command once, with every Quran reference outside this surah that your output will use: `python3 /Volumes/aro/projects/prose_generation/_commentary/v16/missing.py S97 <refs separated by spaces>`. It lists refs from an earlier cross-reference list, by tier, that your refs do not include. That list is not authoritative and may be incomplete: judge each passage yourself, add it only where it supports or sharpens what you are writing, and leave the rest. To read a passage's Arabic before judging it, run `python3 /Volumes/aro/projects/prose_generation/_commentary/v16/missing.py text <refs>` (up to 40 refs per call) as often as you need. Run each command exactly as written, as the whole command: no cd, no && and no ; (such a command is refused and never runs). Also add any other passage you now recall that belongs, whether listed or not. Then write your final output. No other command or tool is available.
 
 ===== _commentary/v16/prompts/map3/surah_map.md (adapted) =====
 Read the surah as one text and write its map of image chains: the lexical images that run through several of
@@ -11,7 +11,7 @@ whole, including senses whose evidence sits under the words of other ayat.
 Your evidence is the surah text, the dictionary of every root in the surah (each branch with the classical
 dictionaries' own phrases), an earlier reader's channel review (channels.md),
 and your own knowledge of Arabic and the Quran. Where a member or passage comes from memory rather than from
-the dictionary or the text, say so. Do not use tools, delegate, browse or inspect files.
+the dictionary or the text, say so. Do not delegate, browse or inspect files; run only the command the header describes.
 
 The channel review is an earlier reader's proposal. Ignore its judgements: grades,
 strength or confidence labels, reading types, words such as "surprising", "exploratory" or "latent", and every

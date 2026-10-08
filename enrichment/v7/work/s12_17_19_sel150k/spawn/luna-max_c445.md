@@ -1,0 +1,114 @@
+<!-- agent /root/v7d_s12_17_19_sel150k_luna-max_c445 | model gpt-6-luna | effort max -->
+# TASK: verse digest, chunk 445 (9 segments from 1 sources)
+
+## ROLE
+You take notes on the sources below, so that a later writer can build commentary prose from your notes without rereading the source. You do not write commentary. Do not spawn agents. Do not change the task.
+
+## SOURCES IN THIS CHUNK
+- WAHIDI-ASBAB: Asbāb nuzūl al-Qurʾān, al-Wāḥidī, d. 468 AH (ulum)
+
+What matters by kind of source:
+- **ulum**: A work on the Qurʾānic sciences. Record what it says about the verse: rhetoric, inimitability, abrogation, occasions of revelation, structure, with the authorities cited.
+
+Verses in scope for this run (your segments may also discuss neighbouring verses; record those too):
+- 12:3: نَحْنُ نَقُصُّ عَلَيْكَ أَحْسَنَ ٱلْقَصَصِ بِمَآ أَوْحَيْنَآ إِلَيْكَ هَٰذَا ٱلْقُرْءَانَ وَإِن كُنتَ مِن قَبْلِهِۦ لَمِنَ ٱلْغَٰفِلِينَ
+- 17:60: وَإِذْ قُلْنَا لَكَ إِنَّ رَبَّكَ أَحَاطَ بِٱلنَّاسِ ۚ وَمَا جَعَلْنَا ٱلرُّءْيَا ٱلَّتِىٓ أَرَيْنَٰكَ إِلَّا فِتْنَةًۭ لِّلنَّاسِ وَٱلشَّجَرَةَ ٱلْمَلْعُونَةَ فِى ٱلْقُرْءَانِ ۚ وَنُخَوِّفُهُمْ فَمَا يَزِيدُهُمْ إِلَّا طُغْيَٰنًۭا كَبِيرًۭا
+- 17:61: وَإِذْ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ قَالَ ءَأَسْجُدُ لِمَنْ خَلَقْتَ طِينًۭا
+- 17:62: قَالَ أَرَءَيْتَكَ هَٰذَا ٱلَّذِى كَرَّمْتَ عَلَىَّ لَئِنْ أَخَّرْتَنِ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَأَحْتَنِكَنَّ ذُرِّيَّتَهُۥٓ إِلَّا قَلِيلًۭا
+- 17:63: قَالَ ٱذْهَبْ فَمَن تَبِعَكَ مِنْهُمْ فَإِنَّ جَهَنَّمَ جَزَآؤُكُمْ جَزَآءًۭ مَّوْفُورًۭا
+- 17:64: وَٱسْتَفْزِزْ مَنِ ٱسْتَطَعْتَ مِنْهُم بِصَوْتِكَ وَأَجْلِبْ عَلَيْهِم بِخَيْلِكَ وَرَجِلِكَ وَشَارِكْهُمْ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ وَعِدْهُمْ ۚ وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا
+- 17:65: إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَٰنٌۭ ۚ وَكَفَىٰ بِرَبِّكَ وَكِيلًۭا
+- 17:66: رَّبُّكُمُ ٱلَّذِى يُزْجِى لَكُمُ ٱلْفُلْكَ فِى ٱلْبَحْرِ لِتَبْتَغُوا۟ مِن فَضْلِهِۦٓ ۚ إِنَّهُۥ كَانَ بِكُمْ رَحِيمًۭا
+- 17:67: وَإِذَا مَسَّكُمُ ٱلضُّرُّ فِى ٱلْبَحْرِ ضَلَّ مَن تَدْعُونَ إِلَّآ إِيَّاهُ ۖ فَلَمَّا نَجَّىٰكُمْ إِلَى ٱلْبَرِّ أَعْرَضْتُمْ ۚ وَكَانَ ٱلْإِنسَٰنُ كَفُورًا
+- 17:68: أَفَأَمِنتُمْ أَن يَخْسِفَ بِكُمْ جَانِبَ ٱلْبَرِّ أَوْ يُرْسِلَ عَلَيْكُمْ حَاصِبًۭا ثُمَّ لَا تَجِدُوا۟ لَكُمْ وَكِيلًا
+- 17:69: أَمْ أَمِنتُمْ أَن يُعِيدَكُمْ فِيهِ تَارَةً أُخْرَىٰ فَيُرْسِلَ عَلَيْكُمْ قَاصِفًۭا مِّنَ ٱلرِّيحِ فَيُغْرِقَكُم بِمَا كَفَرْتُمْ ۙ ثُمَّ لَا تَجِدُوا۟ لَكُمْ عَلَيْنَا بِهِۦ تَبِيعًۭا
+- 17:70: ۞ وَلَقَدْ كَرَّمْنَا بَنِىٓ ءَادَمَ وَحَمَلْنَٰهُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ وَرَزَقْنَٰهُم مِّنَ ٱلطَّيِّبَٰتِ وَفَضَّلْنَٰهُمْ عَلَىٰ كَثِيرٍۢ مِّمَّنْ خَلَقْنَا تَفْضِيلًۭا
+- 17:71: يَوْمَ نَدْعُوا۟ كُلَّ أُنَاسٍۭ بِإِمَٰمِهِمْ ۖ فَمَنْ أُوتِىَ كِتَٰبَهُۥ بِيَمِينِهِۦ فَأُو۟لَٰٓئِكَ يَقْرَءُونَ كِتَٰبَهُمْ وَلَا يُظْلَمُونَ فَتِيلًۭا
+- 17:72: وَمَن كَانَ فِى هَٰذِهِۦٓ أَعْمَىٰ فَهُوَ فِى ٱلْءَاخِرَةِ أَعْمَىٰ وَأَضَلُّ سَبِيلًۭا
+- 17:73: وَإِن كَادُوا۟ لَيَفْتِنُونَكَ عَنِ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ لِتَفْتَرِىَ عَلَيْنَا غَيْرَهُۥ ۖ وَإِذًۭا لَّٱتَّخَذُوكَ خَلِيلًۭا
+- 17:74: وَلَوْلَآ أَن ثَبَّتْنَٰكَ لَقَدْ كِدتَّ تَرْكَنُ إِلَيْهِمْ شَيْـًۭٔا قَلِيلًا
+- 17:75: إِذًۭا لَّأَذَقْنَٰكَ ضِعْفَ ٱلْحَيَوٰةِ وَضِعْفَ ٱلْمَمَاتِ ثُمَّ لَا تَجِدُ لَكَ عَلَيْنَا نَصِيرًۭا
+- 17:76: وَإِن كَادُوا۟ لَيَسْتَفِزُّونَكَ مِنَ ٱلْأَرْضِ لِيُخْرِجُوكَ مِنْهَا ۖ وَإِذًۭا لَّا يَلْبَثُونَ خِلَٰفَكَ إِلَّا قَلِيلًۭا
+- 17:80: وَقُل رَّبِّ أَدْخِلْنِى مُدْخَلَ صِدْقٍۢ وَأَخْرِجْنِى مُخْرَجَ صِدْقٍۢ وَٱجْعَل لِّى مِن لَّدُنكَ سُلْطَٰنًۭا نَّصِيرًۭا
+- 17:81: وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَٰطِلُ ۚ إِنَّ ٱلْبَٰطِلَ كَانَ زَهُوقًۭا
+- 17:82: وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌۭ وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًۭا
+- 17:83: وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَٰنِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِۦ ۖ وَإِذَا مَسَّهُ ٱلشَّرُّ كَانَ يَـُٔوسًۭا
+- 17:84: قُلْ كُلٌّۭ يَعْمَلُ عَلَىٰ شَاكِلَتِهِۦ فَرَبُّكُمْ أَعْلَمُ بِمَنْ هُوَ أَهْدَىٰ سَبِيلًۭا
+- 17:85: وَيَسْـَٔلُونَكَ عَنِ ٱلرُّوحِ ۖ قُلِ ٱلرُّوحُ مِنْ أَمْرِ رَبِّى وَمَآ أُوتِيتُم مِّنَ ٱلْعِلْمِ إِلَّا قَلِيلًۭا
+- 17:90: وَقَالُوا۟ لَن نُّؤْمِنَ لَكَ حَتَّىٰ تَفْجُرَ لَنَا مِنَ ٱلْأَرْضِ يَنۢبُوعًا
+- 17:91: أَوْ تَكُونَ لَكَ جَنَّةٌۭ مِّن نَّخِيلٍۢ وَعِنَبٍۢ فَتُفَجِّرَ ٱلْأَنْهَٰرَ خِلَٰلَهَا تَفْجِيرًا
+- 17:92: أَوْ تُسْقِطَ ٱلسَّمَآءَ كَمَا زَعَمْتَ عَلَيْنَا كِسَفًا أَوْ تَأْتِىَ بِٱللَّهِ وَٱلْمَلَٰٓئِكَةِ قَبِيلًا
+- 17:93: أَوْ يَكُونَ لَكَ بَيْتٌۭ مِّن زُخْرُفٍ أَوْ تَرْقَىٰ فِى ٱلسَّمَآءِ وَلَن نُّؤْمِنَ لِرُقِيِّكَ حَتَّىٰ تُنَزِّلَ عَلَيْنَا كِتَٰبًۭا نَّقْرَؤُهُۥ ۗ قُلْ سُبْحَانَ رَبِّى هَلْ كُنتُ إِلَّا بَشَرًۭا رَّسُولًۭا
+- 17:94: وَمَا مَنَعَ ٱلنَّاسَ أَن يُؤْمِنُوٓا۟ إِذْ جَآءَهُمُ ٱلْهُدَىٰٓ إِلَّآ أَن قَالُوٓا۟ أَبَعَثَ ٱللَّهُ بَشَرًۭا رَّسُولًۭا
+- 17:95: قُل لَّوْ كَانَ فِى ٱلْأَرْضِ مَلَٰٓئِكَةٌۭ يَمْشُونَ مُطْمَئِنِّينَ لَنَزَّلْنَا عَلَيْهِم مِّنَ ٱلسَّمَآءِ مَلَكًۭا رَّسُولًۭا
+- 17:96: قُلْ كَفَىٰ بِٱللَّهِ شَهِيدًۢا بَيْنِى وَبَيْنَكُمْ ۚ إِنَّهُۥ كَانَ بِعِبَادِهِۦ خَبِيرًۢا بَصِيرًۭا
+- 17:97: وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًۭا وَبُكْمًۭا وَصُمًّۭا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَٰهُمْ سَعِيرًۭا
+- 17:98: ذَٰلِكَ جَزَآؤُهُم بِأَنَّهُمْ كَفَرُوا۟ بِـَٔايَٰتِنَا وَقَالُوٓا۟ أَءِذَا كُنَّا عِظَٰمًۭا وَرُفَٰتًا أَءِنَّا لَمَبْعُوثُونَ خَلْقًۭا جَدِيدًا
+- 17:99: ۞ أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ قَادِرٌ عَلَىٰٓ أَن يَخْلُقَ مِثْلَهُمْ وَجَعَلَ لَهُمْ أَجَلًۭا لَّا رَيْبَ فِيهِ فَأَبَى ٱلظَّٰلِمُونَ إِلَّا كُفُورًۭا
+- 17:100: قُل لَّوْ أَنتُمْ تَمْلِكُونَ خَزَآئِنَ رَحْمَةِ رَبِّىٓ إِذًۭا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَٰنُ قَتُورًۭا
+- 17:101: وَلَقَدْ ءَاتَيْنَا مُوسَىٰ تِسْعَ ءَايَٰتٍۭ بَيِّنَٰتٍۢ ۖ فَسْـَٔلْ بَنِىٓ إِسْرَٰٓءِيلَ إِذْ جَآءَهُمْ فَقَالَ لَهُۥ فِرْعَوْنُ إِنِّى لَأَظُنُّكَ يَٰمُوسَىٰ مَسْحُورًۭا
+- 17:102: قَالَ لَقَدْ عَلِمْتَ مَآ أَنزَلَ هَٰٓؤُلَآءِ إِلَّا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ بَصَآئِرَ وَإِنِّى لَأَظُنُّكَ يَٰفِرْعَوْنُ مَثْبُورًۭا
+- 17:103: فَأَرَادَ أَن يَسْتَفِزَّهُم مِّنَ ٱلْأَرْضِ فَأَغْرَقْنَٰهُ وَمَن مَّعَهُۥ جَمِيعًۭا
+- 17:104: وَقُلْنَا مِنۢ بَعْدِهِۦ لِبَنِىٓ إِسْرَٰٓءِيلَ ٱسْكُنُوا۟ ٱلْأَرْضَ فَإِذَا جَآءَ وَعْدُ ٱلْءَاخِرَةِ جِئْنَا بِكُمْ لَفِيفًۭا
+- 17:105: وَبِٱلْحَقِّ أَنزَلْنَٰهُ وَبِٱلْحَقِّ نَزَلَ ۗ وَمَآ أَرْسَلْنَٰكَ إِلَّا مُبَشِّرًۭا وَنَذِيرًۭا
+- 17:106: وَقُرْءَانًۭا فَرَقْنَٰهُ لِتَقْرَأَهُۥ عَلَى ٱلنَّاسِ عَلَىٰ مُكْثٍۢ وَنَزَّلْنَٰهُ تَنزِيلًۭا
+- 17:107: قُلْ ءَامِنُوا۟ بِهِۦٓ أَوْ لَا تُؤْمِنُوٓا۟ ۚ إِنَّ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ مِن قَبْلِهِۦٓ إِذَا يُتْلَىٰ عَلَيْهِمْ يَخِرُّونَ لِلْأَذْقَانِ سُجَّدًۭا
+- 17:108: وَيَقُولُونَ سُبْحَٰنَ رَبِّنَآ إِن كَانَ وَعْدُ رَبِّنَا لَمَفْعُولًۭا
+- 17:109: وَيَخِرُّونَ لِلْأَذْقَانِ يَبْكُونَ وَيَزِيدُهُمْ خُشُوعًۭا ۩
+- 17:110: قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ ۖ أَيًّۭا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًۭا
+- 18:109: قُل لَّوْ كَانَ ٱلْبَحْرُ مِدَادًۭا لِّكَلِمَٰتِ رَبِّى لَنَفِدَ ٱلْبَحْرُ قَبْلَ أَن تَنفَدَ كَلِمَٰتُ رَبِّى وَلَوْ جِئْنَا بِمِثْلِهِۦ مَدَدًۭا
+- 18:110: قُلْ إِنَّمَآ أَنَا۠ بَشَرٌۭ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ ۖ فَمَن كَانَ يَرْجُوا۟ لِقَآءَ رَبِّهِۦ فَلْيَعْمَلْ عَمَلًۭا صَٰلِحًۭا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِۦٓ أَحَدًۢا
+- 19:77: أَفَرَءَيْتَ ٱلَّذِى كَفَرَ بِـَٔايَٰتِنَا وَقَالَ لَأُوتَيَنَّ مَالًۭا وَوَلَدًا
+
+## THE ONLY COMMANDS YOU MAY RUN
+Run each command alone, exactly as written: no `cd`, no `&&`, no `;`. **Run every command with 12,000 output tokens** (set the shell tool's maximum output to 12,000 tokens).
+
+| Command | What it does |
+|---|---|
+| `cat enrichment/v7/work/s12_17_19_sel150k/chunks/c445.pK.txt` (K = 0 … 1) | prints part K of your chunk (at most 10,000 characters) |
+| `python3 -B enrichment/v7/digest.py check s12_17_19_sel150k --model luna-max --chunk 445` | checks your output file and lists every problem |
+
+No other commands, files, web or repository search.
+
+## PROCEDURE: follow in order, each step once
+**Step 1.** Read parts 0 to 1 in order, each exactly once. Each segment starts with `=== SEGMENT <LOCATOR> | source <ID> | verses … | heading ===`; a segment may continue into the next part. If a part looks cut (no `<<part K ends …>>` or `<<end of chunk>>` line at its end), run that same part once more. Never treat text as missing because the display was clipped.
+
+**Step 2.** For every segment, write down each distinct point the source makes (see WHAT TO RECORD).
+
+**Step 3.** Write the whole output file `enrichment/v7/work/s12_17_19_sel150k/out/luna-max/c445.jsonl` in one write with your file-writing tool, after you have read every part. Do not write it segment by segment, and do not check partial files.
+
+**Step 4.** Run the check command. If it lists problems, fix only the lines it names (for an anchor problem, copy the words again exactly from the segment) and run it again, until it prints `OK`. Do not stop while it still lists problems.
+
+**Step 5.** Stop. Reply with the number of segments and the number of rows.
+
+## WHAT TO RECORD
+One row per distinct point. Cover the whole segment, not only the verses in scope.
+- The author's own explanation of the verse, and each argument he gives for it.
+- Every view he reports, with who holds it. When views differ: each view as its own row, and which one the author prefers or rejects.
+- Reports and narrations: who the report goes back to (Companion, Successor, the Prophet), the gist, and any grading the author states. Do not list whole chains.
+- Language: word meanings, grammar, rhetoric, readings (qirāʾāt), with the authorities and the poetry cited as evidence (poet, the word the line witnesses).
+- Legal, theological, historical and coherence points, and every other verse the source links to this one.
+
+Do not record: the verse text itself, chains with no content, editors' footnotes, page apparatus. Do not copy passages: the claim is a short paraphrase, the anchor a short exact quote.
+
+## OUTPUT: one JSON object per line, one line for EVERY segment, in chunk order
+```
+{"loc":"EXACT_LOCATOR","rows":[{"verses":["87:6"],"speaker":"مجاهد","stance":"reports","claim":"one-line paraphrase in English","anchor":"exact words copied from the segment","mentions":["2:106"]}]}
+{"loc":"EXACT_LOCATOR","rows":[],"none":"short reason, e.g. verse text only"}
+```
+| Field | Rule |
+|---|---|
+| `loc` | the locator exactly as in the segment header |
+| `verses` | the verse(s) the point is about, as `S:A` |
+| `speaker` | who holds the view, as named in the source and in its own script (e.g. `مجاهد`, `Asad`); `author` when it is the author's own view |
+| `stance` | the author's attitude to the point: `holds`, `prefers`, `reports`, `rejects` |
+| `claim` | the point in one English line, at most 40 words; name the disagreement or preference when there is one |
+| `anchor` | 5 to 25 words copied exactly from the segment (same letters, same order; vowel marks may be left out) that carry the point; when the speaker is not the author, include the words that name him |
+| `mentions` | other verses this point quotes or names, as `S:A`; `[]` when none |
+
+`none` is only for segments with nothing to record (verse text only, a bare heading, apparatus). If the source text itself is broken, say so in `none`.
+
+## CHECKLIST BEFORE STOPPING
+- [ ] every segment has exactly one line
+- [ ] every row has verses, speaker, stance, claim and anchor
+- [ ] the check command prints `OK`
