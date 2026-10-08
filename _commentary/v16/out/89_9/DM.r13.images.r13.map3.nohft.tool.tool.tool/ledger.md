@@ -1,0 +1,10 @@
+- memory: naqqaba (50:36) carries both boring holes and roaming through lands
+- memory: muḥtaẓir = maker of a livestock pen from dry brush; hashīm = dry broken stalks
+- memory: wadi flows only when rain falls on the heights, dry otherwise
+- memory: Turkish "icabet" and "cevap" derive from the ج و ب root; Turkish "vadi" also used for "field of activity"
+- not written: و د ي B003 small palm shoots - only loosely beside palms in 26:148, no work in a theme
+- not written: و د ي B006 teat-binding sticks - no link to the ayah's scene beyond the she-camel, too thin
+- not written: و د ي B001 bodily discharge - only the "flowing" sense served the valley theme
+- not written: ص خ ر B002 earthenware vessel, B003 a plant - nothing for a theme to do with them
+- not written: ج و ب B006 light/uncovering and cloud clearing (B004) - beside the first ayah's dawn it is the surah commentary's scene, too thin here
+- not written: echo roots ج ي ب, ج ب ي, ج ب ب - sound-family only, not identity
