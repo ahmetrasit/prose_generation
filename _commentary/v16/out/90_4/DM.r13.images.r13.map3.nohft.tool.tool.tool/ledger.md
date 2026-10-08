@@ -1,0 +1,10 @@
+- memory: lekad = oath-answer lam plus qad of certainty
+- memory: indefinite kebed leaves the hardship unbounded
+- memory: hand-mill mechanism (fixed lower stone, upper turned by handle, grain through centre hole)
+- memory: bow grip stays rigid while limbs bend when drawn
+- memory: liver vocalized kabid/kibd, ayah word kabad
+- memory: waterskin cutting (seams, allowances) as craft practice
+- not written: خ ل ق B006 khalâq "share" - no hold in this ayah beyond the measuring theme already carried by B001
+- not written: خ ل ق B007, B008, B009, B010, B011, B012 (fabrication, smoothness, worn cloth, perfume, rock hollow, closed womb) - do not touch the ayah's grammar or themes
+- not written: ء ن س B001, B006, B007 (humankind vs jinn, "ibn insik", seeking leave) - no work in this ayah's themes
+- not written: 89:15-16 testing of the human - stance close, but kebed is placed, not narrated as trial; left to avoid stretching
