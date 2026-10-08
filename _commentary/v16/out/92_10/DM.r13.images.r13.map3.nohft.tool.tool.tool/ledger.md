@@ -1,0 +1,13 @@
+- memory: usrā occurs in the Quran only at 92:10
+- memory: Turkish "müyesser (olmak)" now means only "granted (a good thing)"
+- memory: vowelling yasar in "aʿsar yasar" and "yasr/yasar" in B005
+- memory: rāḍa / turāḍ = gradual breaking-in of a young camel
+- memory: zawwara al-kalām = to compose speech beforehand
+- not written: ي س ر B007 maysir (arrow game), 2:219 beside "what to spend" - belongs to the eased path of 92:7, no hold on ʿusrā
+- not written: ع س ر B011 camels going off dispersed, beside 54:7-8 "spread locusts" and "yawm ʿasir" - one-phrase echo of 92:4's scene, no theme here
+- not written: 90:18-19 right/left companions via ʿusr B005 and mashʾūm in B010 - the yusr root also names the left hand, so left cannot mark the ʿusrā side
+- not written: 18:87-88 ammā man / ammā man with al-ḥusnā and yusr - frame parallel of 92:5-10, belongs to the surah commentary
+- not written: ي س ر B002 yasīr "little, light" - did not join a theme
+- not written: ع س ر B009 tail-raising running camel; B012-B013; ي س ر B008-B011 - names, palm lines, game, twisting, youth: no work in a theme
+- not written: 9:117 "hour of hardship" - no theme
+- not written: earlier reading of the ʿusrā path as downhill - replaced by the Quran's own climbing images (90:11, 74:17, 6:125)
