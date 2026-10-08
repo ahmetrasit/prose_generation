@@ -1,0 +1,8 @@
+- not developed: Seasoned and tarred - merged into Trodden road (shared ع ب د B005, the tarred camel)
+- not developed: House its familiars cling to - merged into Stages; ط ع م B013 member dropped (billing is a kiss, not feeding)
+- not developed: Seasons' rains - merged into Empty belly (rain chain ends in food)
+- not developed: Reared in the house; House of honour - merged into Master of the house (two faces of the household head)
+- memory: تقرّش القوم = the tribe gathered; ق ر ش as gathering/earning
+- memory: لِ of 106:1 is completed by the fa- clause فَلْيَعْبُدُوا۟
+- memory: مِن in أطعمهم من جوع marks what they were drawn out of
+- memory: singular رحلة governing both seasons reads as one journey
