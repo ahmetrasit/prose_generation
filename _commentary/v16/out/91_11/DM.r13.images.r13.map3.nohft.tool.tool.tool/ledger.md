@@ -1,0 +1,11 @@
+- memory: faʿlā nouns from final-yāʾ roots turn yāʾ into wāw (taqwā, ṭaghwā)
+- memory: bi- in بطغواها read as causal, not as object-marker
+- memory: Turkish "tekzip" now mainly means a formal press correction
+- memory: vocalization tunbī l-ʿuqāba li-malāsatihā
+- not written: الطغية / طغوة as quoted nouns - vowels not attested in the texts, so cited by sense only
+- not written: ك ذ ب B008 al-kadhūb = the self - single bare attestation; would overreach toward the surah's nafs
+- not written: ك ذ ب B006 milk tied to the naqa of 91:13 - only a word echo, no support beyond sound
+- not written: ك ذ ب B009 dyed cloth looking embroidered - adds nothing beyond the failed-promise theme
+- not written: ك ذ ب B003, B005, B007 idioms - no bearing on the ayah
+- not written: ط غ ي B003 ṭāghūt - no idol thread in this ayah
+- not written: echo root ط غ و incl. طغت الصيحة على ثمود - echo root, not identity
