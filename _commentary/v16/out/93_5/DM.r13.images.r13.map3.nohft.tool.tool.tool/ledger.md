@@ -1,0 +1,10 @@
+- memory: sawfa marks a more open/distant future than sa-
+- memory: a'ṭā is the causative (form IV) of 'aṭā "take by hand"
+- memory: يعطيك in the serving usage vocalized yu'ṭīka; source unvocalized
+- not written: radawtuhu / 'aṭawtuhu "beat him in a contest" in both roots - general mufā'ala-of-contest pattern, not specific to these words
+- not written: الربى need / favour / tight knot (ر ب ب B016) - vowel unsure, no theme needed it
+- not written: rabāba covenant and radiyy guarantor - pledge reading too loose for this ayah
+- not written: rubb as fruit syrup, rabāba arrow-bag, rubba particle - no work in this ayah
+- not written: Raḍwā mountain and women's names - proper names, no theme
+- not written: echo roots ر ب و and ر ض ي - not identity, nothing new beyond identity roots
+- not written: 78:36 'aṭā'an ḥisāban - meaning of ḥisāban needed memory; 17:20 sufficed
