@@ -1,0 +1,12 @@
+- memory: vowelling ʿuqba (not ʿaqaba) for the captive-substitute and pot-broth senses (B010, B011)
+- memory: vowelling deriyye/dariyya for the hunter's camel (B003); tadarraytu form
+- memory: plural ʿiqāb vowelling in the well-rock and mountain-pass phrases
+- memory: Turkish "dirayet" now means managerial competence
+- not written: د ر ي B002 choosing a place to raid - fixed expression, no tie to the ayah
+- not written: د ر ي B004 sharp horn, hair-comb tool - no work in any theme
+- not written: د ر ي B005 lance-practice target - adds nothing beyond the hunter image
+- not written: د ر ي B006 gentle dealing with people - tempting link to 90:17 mercy, but a fixed expression in another verb form; forced
+- not written: echo root د ر ر - not identity, withheld
+- not written: ع ق ب B001 tendon, B004 offspring, B009 repetition, B013 eagle/banner, B014 Yaʿqub, B015 drying plant - no hold on this ayah
+- not written: ع ق ب B006 end/ʿuqbā and B003 turning back on the heels - developed for 90:11 in the surah commentary
+- not written: "mā adrāka" answered vs "mā yudrīka" unanswered as a rule - not every instance fits cleanly; an exegetical rule, not shown by the text
