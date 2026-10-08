@@ -1,0 +1,9 @@
+- memory: مَثْنَىٰ وَفُرَٰدَىٰ read as distributive "in twos, singly"
+- memory: vowels mihleb, halbe in the she-camel phrase not given in texts
+- memory: vowel of شفعة (shuf'a) in the preemption phrase
+- not written: watar as bowstring (B007) - different vocalized word, fixed expression, no surah or Quran support
+- not written: watīra as ring target and round blaze (B008) - no link to oath or surah
+- not written: watra as nasal septum, a single divider between two (B009) - attractive analogy only, no textual support
+- not written: shaf'at al-duha, two units of forenoon prayer (B001) - vowel uncertain; would push a referent the ayah leaves unnamed
+- not written: assigning referents (dawn as one, ten as even) - the ayah names none; only the count-to-classes move kept
+- not written: 6:93 'adhab al-hun beside 89:16 ahanani - tangential to this ayah's words
