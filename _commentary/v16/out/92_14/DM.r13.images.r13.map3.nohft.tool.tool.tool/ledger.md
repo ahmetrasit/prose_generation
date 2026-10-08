@@ -1,0 +1,11 @@
+- memory: talaẓẓā = tatalaẓẓā with one tā' elided, present tense
+- memory: tafaʿʿala form conveys self-driven, gradual intensification
+- memory: perfect anzartu used performatively (warning enacted by the utterance)
+- memory: al-nadhīr al-ʿuryān explained as warner stripping and waving his garment
+- memory: lahab means flame (Abū Lahab = "father of flame")
+- memory: sima (brand) and sanasimuhu (68:16) share root w-s-m
+- not written: ن ذ ر B003 (wound compensation) - no bearing on warning or fire theme
+- not written: ن و ر B004 (blossom), B009 (depilatory paste), B010 (confusing someone), B011 (yoke, clear furrow, n-y-r) - none grounds a theme here
+- not written: 70:16 nazzāʿatan lish-shawā - adds only another torment detail
+- not written: 88:4 / 101:11 indefinite "nāran ḥāmiya" - repeats indefiniteness point without new support
+- not written: 104:6-7 "nār Allāh al-mūqada" over hearts of the wealth-hoarder - overlaps the 111 and 9:35 wealth links
