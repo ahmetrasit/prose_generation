@@ -1,0 +1,6 @@
+- memory: أَنزَلْنَٰهُ is causative (form IV); تَنَزَّلُ is present tense, self-movement (form V)
+- memory: تَنَزَّلُ is تَتَنَزَّلُ with one ta dropped
+- memory: فِيهَا refers back to the feminine لَيْلَة
+- memory: سَلَٰمٌ هِىَ is a nominal sentence with the predicate fronted
+- memory: حَتَّىٰ marks the limit up to which the state lasts
+- memory: كُلّ with an indefinite singular means each one and all
