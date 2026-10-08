@@ -1,0 +1,10 @@
+- memory: the verb's full form is yasrī (final long ī); the written text stops at r, rhyming with fajr, ʿashr, watr, ḥijr
+- memory: Turkish sirayet and sâri come from this root (s-r-y)
+- memory: sajā in 93:2 = "became still"; nushūr in 25:47 = "rising"
+- not written: س ر ي B003 (top, noble person, choosing the best) - no work in the night-travel or uncovering themes
+- not written: س ر ي B001 sariyya (army detachment) - no attested link to night here beyond the company image already used
+- not written: س ر ي B006 names (trees, Ḥimyar quarter, small arrow, insect) - no theme
+- not written: ل ي ل B001 laylā (darkest, last night of the month) - would have needed strain to join a theme
+- not written: ل ي ل B002 mulāyala (dealing by nights) and B003 al-layla vs al-bāriḥa reckoning - no theme
+- not written: ل ي ل B004 Laylā name / wine - irrelevant
+- not written: echo root س ر ر (sirār, moonless last night; sirr, secret) - echo only, not identity
