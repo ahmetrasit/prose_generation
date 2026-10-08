@@ -1,0 +1,14 @@
+- memory: definite elative al-atqā without min denotes the utmost degree, no compared party
+- memory: in ittaqā the root's wāw assimilates to tā; the elative atqā keeps that tā
+- memory: jannaba (and janaba) take two objects, "keep someone away from a thing"
+- memory: vocalization jannabtu (form II) for the B003 phrases; dictionary text unvocalized
+- memory: zuḥziḥa = moved/pushed away from its place
+- memory: ḥasīs = faint sound, rustle of fire
+- memory: Turkish ecnebi, cenap, içtinap come from ajnabī, janāb, ijtināb
+- memory: a led animal (janība) walks beside the rider's mount, not ridden, steered by halter
+- not written: ج ن ب B004 junub (kept from prayer, 4:43) - distance as ritual status runs the other way; would distract from the fire
+- not written: ج ن ب B006 south wind, B007 pleurisy, B008 milk failure, B009 abundance, B010 summer plants, B012 horse's leg spacing - no work in any theme
+- not written: و ق ي B004 ūqiyya weight, B005 shrike - no bearing on the ayah
+- not written: 39:56 "fī janbi Allāh" (B002 nearness to God) - near/far pole already carried by 4:36
+- not written: 44:56, 52:27 God shielding from punishment - duplicates 52:18
+- not written: 39:17, 22:30 commanded ijtināb of idols - 4:31 and 53:32 carry the active-avoidance contrast
