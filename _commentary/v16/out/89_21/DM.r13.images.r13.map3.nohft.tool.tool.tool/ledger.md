@@ -1,0 +1,14 @@
+- memory: doubled indefinite noun (dakkan dakkan, saffan saffa) expresses succession, one after another
+- memory: dakkatan (69:14) is the noun of a single instance, one blow
+- memory: kalla as a word of rejection/deterrence
+- memory: lamman = gathering up entirely; jamman = abundant, heaped
+- memory: the answer of idha in 89:21 comes in 89:23 (yawma'idhin yatadhakkaru)
+- memory: halthu (B003 gloss) and mahil (73:14) share the root h-y-l, pouring loose soil
+- memory: sawa (18:96) and sawwaytuhu (B001) share the root s-w-y
+- memory: Turkish arazi comes from the Arabic plural of ard
+- not written: d-k-k B005 dukkan bench (Turkish dukkan) - the source itself disputes the root; no theme work
+- not written: d-k-k B006 mudakk, heavy-treading man - would invite reading 89:22 coming as treading; unsupported
+- not written: d-k-k B009 sexual weight sense - no theme
+- not written: a-r-d B004 ibn ard stranger, B005 thick rug, B007 confronting - no anchor in ayah or surah
+- not written: a-r-d B009 cold, B011 festering, B012 jinn-struck - illness theme already carried by B008 trembling
+- not written: a-r-d B010 termite with 34:14 creature of the earth eating Solomon's staff - link from termite to that phrase not established
