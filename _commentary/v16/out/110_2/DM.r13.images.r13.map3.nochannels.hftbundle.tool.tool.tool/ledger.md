@@ -1,0 +1,15 @@
+- memory: past-tense raʾayta under idhā refers to a future moment
+- memory: wa-raʾayta is coordinated with jāʾa; both answered by fa-sabbiḥ
+- memory: yadkhulūna as ḥāl under visual raʾā (two-object reading is in the texts)
+- memory: afwājan as ḥāl of manner
+- memory: fī frames dīn as a space with an inside
+- memory: kāffatan read as "all together"
+- memory: nās attached to the ins/insān family (QAC lists ن و س; not discussed)
+- memory: vocalization unsu (familiarity) vs insu (humans)
+- memory: Turkish rey, riya, rüya derive from this root
+- not written: raʾā mirror, menstrual trace, jinn companion, lung, udder, araʾayta senses - no work in any theme
+- not written: dīn as debt (dayn) - no grounding role here
+- not written: dakhala interlocking joints/colours, thicket bird, date basket - decorative only
+- not written: و ل ه alternative for Allah - not the identity root, no theme
+- not written: echo root ر و ي (watering, banner, quenching) - withheld, not identity
+- not written: ilāh oath/vocative forms - no work in this ayah
