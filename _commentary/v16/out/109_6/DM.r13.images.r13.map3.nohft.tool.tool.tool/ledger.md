@@ -1,0 +1,12 @@
+- memory: fronted predicate (lakum, liya) restricts possession to that party
+- memory: final yā of dīnī dropped at verse end, kasra marks it
+- memory: proverb kamā tadīnu tudān
+- memory: verse ahādhā dīnuhu abadan wa dīnī (camel complaining as girth is tightened)
+- memory: Turkish medenî/medeniyet come from Arabic madīna
+- memory: wāṣiban in 16:52 means perpetually
+- not written: alternative derivation of madīna from m-d-n - would only hedge the city image
+- not written: الدين واحد الديون / التداين والمداينة دفع الدين - add nothing to the debt mechanism
+- not written: ومنه سمى المصر مدينة - repeats the city image
+- not written: 107:1 and 82:15 (denying / burning on the day of dīn) - requital theme carried by 37:53, 56:86, 82:19
+- not written: variant readings of wa-liya and dīnī - reading history outside the evidence
+- not written: 2:256 lā ikrāha fī d-dīn - leaving-to-one's-dīn theme already grounded by tadyīn, 39:15, 42:15
