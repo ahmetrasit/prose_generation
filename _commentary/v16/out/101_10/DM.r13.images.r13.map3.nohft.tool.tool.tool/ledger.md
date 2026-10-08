@@ -1,0 +1,7 @@
+- memory: final h in hiyeh (and kitâbiyeh, hisâbiyeh, mâliyeh, sultâniyeh) is a pausal h
+- memory: Arabs said hawat ummuhu for perishing / as an imprecation (mother bereaved)
+- not written: B004 midrâ (sharp horn, hair comb; root of sharpness) - no work in a question about the pit
+- not written: B006 mudârât, gentle dealing / mudâra'a, contention, with or without hamza - mixes with root d-r-', founds no theme here
+- not written: echo root d-r-r (durdûr, ship-sinking whirlpool) - sound echo only; would suggest a false identity with hâviye
+- not written: 88:4 nâran hâmiyeh - belongs to the eleventh ayah's word
+- not written: 69:22-24 garden and "past days" - adds nothing to the knowing theme
