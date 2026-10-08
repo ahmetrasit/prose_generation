@@ -1,0 +1,14 @@
+- memory: عدن بالمكان "settled in a place" (root of ʿAdn; name itself not in supplied dictionary)
+- memory: athāfī are the stones set under the cooking pot at a campsite hearth
+- not written: echo roots ج ز ز, ر ب و, ر ض ي - observed sound-families, not identity; nothing they add
+- not written: و ل ه alternative for Allah - no work in this ayah's themes
+- not written: ت ح ت B002 lowly people "beneath feet" - "beneath" here is the garden's underside, no support
+- not written: ج ن ن B008 shield ("whatever protects you") - different word form; tie to fear/taqwa too thin
+- not written: ج ن ن jinn, embryo, madness, snake, grave branches - no work beyond the covering already used
+- not written: ج ز ي B004 jizya - belongs to the surah's account scene, nothing for this ayah
+- not written: ع ن د B005 'indad "no way out" - tempting with nearness, no anchor in the ayah
+- not written: ء ب د B007 ābida "deed remembered forever" - link to seventh ayah's deeds too thin
+- not written: ر ب ب B004/B010/B011/B013-B017 (multitudes, arrow-bag, covenant, water, herd, particle, captain) - no theme work
+- not written: ن ه ر B002 day, B004 scolding, B005-B008 - no theme work
+- not written: ج ر ي B003 agent/guarantor - the radiyy guarantor carries the point; surah account scene holds it
+- not written: race-horse, road and account scenes - recalled only, belong to the surah commentary
