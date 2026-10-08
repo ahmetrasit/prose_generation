@@ -5,7 +5,7 @@ A digest records what one source says about the verses its segments are tied to:
 one row per claim, each row with a short verbatim anchor. Agents run through enrichment/v5/run_codex.py
 (Codex, at most seven at a time); the same chunk files serve every model.
 
-  digest.py build RUN --ayat 100:1 87:6 --models gpt-6-luna:max [--skip-done luna-max]
+  digest.py build RUN --ayat 100:1 87:6 --models gpt-6-luna:max [--skip-done luna-max] [--chunk-chars 20000]
   digest.py check RUN [--model TAG] [--chunk N]     two checks: every segment answered, every anchor verbatim
   digest.py report RUN                              per-model totals and costs
 
@@ -20,10 +20,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'enrichment/v5'))
-from common import CHUNK_CHARS, OVERLAY, PART_CHARS, TRANSLATION_OK, connect, contains, dump, rows  # noqa: E402
+from common import OVERLAY, PART_CHARS, TRANSLATION_OK, connect, contains, dump, rows  # noqa: E402
 
 V7 = ROOT / 'enrichment/v7'
 BRIEF = V7 / 'briefs/digest.md'
+# In the 264-agent S1/S87–114 run, none of the 18 chunks below 20k rendered characters exceeded the
+# user's 120k-token context cap; 77 larger chunks did. Keep future v7 extractor inputs smaller.
+DEFAULT_CHUNK_CHARS = 20_000
 # Stage 1 kinds. Meal and translations go to the meal table; lexicon, poetry, wujuh, grammar and hadith
 # are keyed by root or term in a later stage.
 KINDS = ('tafsir', 'tafsir_tr', 'maani', 'nazm', 'isari', 'modern', 'qiraat', 'ulum', 'reference', 'sira')
@@ -48,6 +51,16 @@ GUIDE = {
     'ulum': 'A work on the Qurʾānic sciences. Record what it says about the verse: rhetoric, inimitability, '
             'abrogation, occasions of revelation, structure, with the authorities cited.',
     'reference': 'A reference work. Record what the entry says about the verse and its terms, with the scholars cited.',
+    'hadith': 'A hadith collection, reached because the passage quotes the verse. Record the report, who it goes back '
+              'to, its gist and how it bears on the verse, and any grading the collection states. Mark it none when '
+              'the verse words only coincide.',
+    'poetry': 'A poetry collection or its commentary, reached because the passage shares the verse\'s words. Record '
+              'the poet, the line\'s point, and the commentator\'s gloss when it bears on the verse\'s words; mark it '
+              'none when the words only coincide.',
+    'wujuh': 'A wujūh wa-naẓāʾir work (the senses of a Qurʾānic word). Record each sense it gives the word in this '
+             'verse, the verses it groups with it, and its authorities.',
+    'grammar': 'A grammar work, reached because it cites the verse. Record the grammatical point it uses the verse '
+               'for and the analysis it gives.',
     'sira': 'A biography of the Prophet or a history. Record the events it ties to the verse, its sources and '
             'reports, and any dating or occasion it gives.',
 }
@@ -55,6 +68,12 @@ GUIDE = {
 
 def run_dir(run):
     return V7 / 'work' / run
+
+
+def tag_of(model, effort):
+    """Output tag of a model: luna-max, sol-high; claude-haiku-5-5 -> haiku-high, claude-sonnet-5-5 -> sonnet-high."""
+    name = model.split('-')[1] if model.startswith('claude-') else model.split('-')[-1]
+    return f'{name}-{effort}'
 
 
 def parse_ayah(text):
@@ -105,27 +124,171 @@ def gather(ayat):
     return src, [found[k] for k in sorted(found)], skipped
 
 
-def chunks(segments):
-    """Whole sources packed in kind order into chunks of at most CHUNK_CHARS; a source is split only when it alone
-    is longer, and then between segments (a longer segment stands alone)."""
+def surah_level(ayat):
+    """Segments tied to a surah but to no ayah (introductions, maqṣūd): reserved for the surah page; returned as
+    skip records and printed, never dropped silently."""
+    out = []
+    with connect() as con:
+        for s in sorted({s for s, _ in ayat}):
+            rows_ = con.execute("SELECT seg.seg, seg.src, length(seg.text) FROM seg JOIN src ON src.id=seg.src "
+                                f"WHERE seg.s=? AND seg.a IS NULL AND src.access='yerel' AND src.kind IN ({','.join('?' * len(KINDS))})",
+                                (s, *KINDS)).fetchall()
+            if rows_:
+                print(f"NOTE surah-level S{s}: {len(rows_)} segments, {sum(r[2] for r in rows_):,} characters, "
+                      'reserved for the surah page (listed in manifest.json)')
+            out += [{'ayah': f'S{s}', 'loc': loc, 'src': sr, 'reason': 'surah-level: reserved for the surah page'}
+                    for loc, sr, _ in rows_]
+    return out
+
+
+_ARABIC_DROP = set(chr(c) for c in list(range(0x0610, 0x061B)) + list(range(0x064B, 0x0660)) + list(range(0x06D6, 0x06EE)))
+_ARABIC_MAP = {'أ': 'ا', 'إ': 'ا', 'آ': 'ا', 'ٱ': 'ا', 'ٰ': 'ا', 'ى': 'ي', 'ة': 'ه', 'ؤ': 'و', 'ئ': 'ي'}
+
+
+def normalize_map(text):
+    """Arabic letters only, vowel and Quranic marks dropped, alif/yā/hamza forms unified, the dagger alif written out
+    (so Uthmani ٱلصَّٰلِحَٰتِ matches الصالحات). Returns the words joined by single spaces and, per character, its
+    index in the original text."""
+    out, idx, space = [], [], True
+    for i, ch in enumerate(text or ''):
+        if ch in _ARABIC_DROP or ch in ('ـ', 'ء'):
+            continue
+        ch = _ARABIC_MAP.get(ch, ch)
+        if '\u0621' <= ch <= '\u064A':
+            out.append(ch)
+            idx.append(i)
+            space = False
+        elif not space:
+            out.append(' ')
+            idx.append(i)
+            space = True
+    return ''.join(out).strip(), idx
+
+
+QUOTE_KINDS_ONE = ('ulum', 'wujuh', 'modern', 'reference', 'grammar', 'tafsir', 'tafsir_tr', 'maani', 'nazm', 'isari', 'qiraat')
+QUOTE_KINDS_THREE = ('hadith', 'sira', 'poetry')
+QUOTE_MAX_HITS = 40          # a window found in more segments than this is too common to mean a quotation
+QUOTE_CONTEXT = 1_500        # characters kept on each side of a match in a long segment
+
+
+def quote_packet(ayat):
+    """Segments with no verse key that quote an ayah's own words: windows of 1-3 words that occur in no other ayah
+    (1-word windows of at least 4 letters, and only for the kinds in QUOTE_KINDS_ONE; hadith, sīra and poetry need 3
+    words). Lexicon, meal and translations are not searched. Every window, its hits and every too-common window are
+    printed."""
+    with connect() as con:
+        quran = {(s, a): normalize_map(t)[0].split() for s, a, t in
+                 con.execute("SELECT s, a, text FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran'")}
+        grams = defaultdict(set)
+        for v, words in quran.items():
+            for n in (1, 2, 3):
+                for i in range(len(words) - n + 1):
+                    grams[' '.join(words[i:i + n])].add(v)
+        kinds = QUOTE_KINDS_ONE + QUOTE_KINDS_THREE
+        segs = con.execute(f"SELECT seg.seg, seg.src, src.kind, seg.head, seg.text FROM seg JOIN src ON src.id=seg.src "
+                           f"WHERE seg.s IS NULL AND src.access='yerel' AND src.kind IN ({','.join('?' * len(kinds))})",
+                           kinds).fetchall()
+        src_kind = {i: k for i, k in con.execute('SELECT id, kind FROM src')}
+    norm = [(loc, sr, kind, head, text, ' ' + normalize_map(text)[0] + ' ') for loc, sr, kind, head, text in segs]
+    out = {}
+    for s, a in ayat:
+        words = quran.get((s, a), [])
+        windows = []
+        for n in (1, 2, 3):
+            for i in range(len(words) - n + 1):
+                w = ' '.join(words[i:i + n])
+                if grams[w] == {(s, a)} and (n > 1 or len(w) >= 4):
+                    windows.append((n, w))
+        # keep the shortest unique windows only (a longer window containing a unique shorter one adds nothing)
+        windows = [(n, w) for n, w in windows if not any(m < n and v in w for m, v in windows)]
+        print(f"quotes {s}:{a}: {len(windows)} unique window(s): " + ' | '.join(w for _, w in windows))
+        for n, w in windows:
+            hits = [x for x in norm if f' {w} ' in x[5] and (n >= 3 or x[2] in QUOTE_KINDS_ONE)]
+            if len(hits) > QUOTE_MAX_HITS:
+                print(f"NOTE quotes {s}:{a}: window «{w}» in {len(hits)} segments, too common to mean a quotation; not used")
+                continue
+            print(f"quotes {s}:{a}: «{w}» in {len(hits)} segment(s): " + ', '.join(h[0] for h in hits[:12])
+                  + (' …' if len(hits) > 12 else ''))
+            for loc, sr, kind, head, text, _ in hits:
+                if loc in out:
+                    if f'{s}:{a}' not in out[loc]['scope']:
+                        out[loc]['scope'].append(f'{s}:{a}')
+                    continue
+                body = text
+                note = ''
+                if len(text) > 2 * QUOTE_CONTEXT + 1_000:
+                    nm, idx = normalize_map(text)
+                    j = nm.find(w)
+                    lo = max(0, idx[j] - QUOTE_CONTEXT) if j >= 0 else 0
+                    hi = min(len(text), (idx[min(j + len(w), len(idx) - 1)] if j >= 0 else 0) + QUOTE_CONTEXT)
+                    body = text[lo:hi]
+                    note = f' [excerpt: characters {lo}-{hi} of {len(text)}]'
+                out[loc] = {'scope': [f'{s}:{a}'], 'loc': loc, 'src': sr, 'kind': src_kind.get(sr, kind),
+                            'verses': f'{s}:{a} (quoted)', 'head': f'{head or ""}{note}', 'text': body}
+    print(f'quotation packet: {len(out)} segment(s), {sum(len(g["text"]) for g in out.values()):,} characters')
+    return list(out.values())
+
+
+def segment_input(g):
+    """Exact segment text delivered in a chunk, including its locator/header overhead."""
+    return (f"=== SEGMENT {g['loc']} | source {g['src']} | verses {g['verses']} | {g['head']} ===\n"
+            f"{g['text'].strip()}\n\n")
+
+
+def chunks(segments, chunk_chars=DEFAULT_CHUNK_CHARS):
+    """Whole sources packed in kind order by rendered input size; a longer single segment stands alone."""
     by_src = defaultdict(list)
     for g in segments:
         by_src[g['src']].append(g)
     out, cur, size = [], [], 0
     for sr in sorted(by_src, key=lambda s: (by_src[s][0]['kind'], s)):
-        n = sum(len(g['text']) for g in by_src[sr])
-        if cur and size + n > CHUNK_CHARS:
+        n = sum(len(segment_input(g)) for g in by_src[sr])
+        if cur and size + n > chunk_chars:
             out.append(cur)
             cur, size = [], 0
         for g in by_src[sr]:
-            if cur and size + len(g['text']) > CHUNK_CHARS:
+            rendered = len(segment_input(g))
+            if cur and size + rendered > chunk_chars:
                 out.append(cur)
                 cur, size = [], 0
             cur.append(g)
-            size += len(g['text'])
+            size += rendered
     if cur:
         out.append(cur)
     return out
+
+
+def split_original_chunks(segments, original, selected):
+    """Keep an existing run's exact segment order, splitting selected chunks once at a segment boundary."""
+    by_loc = {g['loc']: g for g in segments}
+    old = original['chunks']
+    known = {c['chunk'] for c in old}
+    unknown = selected - known
+    if unknown:
+        raise SystemExit(f'unknown chunks to split: {sorted(unknown)}')
+    planned = []
+    for c in old:
+        try:
+            group = [by_loc[loc] for loc in c['locs']]
+        except KeyError as e:
+            raise SystemExit(f'original segment missing from corpus: {e}') from e
+        rendered = [len(segment_input(g)) for g in group]
+        if sum(rendered) != c['chars']:
+            raise SystemExit(f"original chunk c{c['chunk']:02d} changed in corpus")
+        if c['chunk'] not in selected:
+            planned.append((group, c['chunk'], None))
+            continue
+        if len(group) < 2:
+            raise SystemExit(f"cannot split one-segment chunk c{c['chunk']:02d}")
+        half = sum(rendered) / 2
+        running = 0
+        cuts = []
+        for i, size in enumerate(rendered[:-1], 1):
+            running += size
+            cuts.append((abs(running - half), i))
+        cut = min(cuts)[1]
+        planned.extend(((group[:cut], c['chunk'], 1), (group[cut:], c['chunk'], 2)))
+    return planned
 
 
 def source_line(sr, meta, kind):
@@ -140,6 +303,20 @@ def build(a):
     d = run_dir(a.run)
     if d.exists():
         raise SystemExit(f'{d} exists; choose a new run name')
+    split_plan = getattr(a, 'split_plan', None)
+    if split_plan:
+        if a.ayat or a.page or a.skip_done:
+            raise SystemExit('--split-plan uses the original run\'s ayat and locators; omit --ayat, --page and --skip-done')
+        forecast = json.loads(Path(split_plan).read_text())
+        original_name = forecast['run']
+        original = json.loads((run_dir(original_name) / 'manifest.json').read_text())
+        if a.run == original_name:
+            raise SystemExit('the split run needs a new run name')
+        a.ayat = original['ayat']
+        selected = set(forecast['split_chunks'])
+    chunk_chars = getattr(a, 'chunk_chars', DEFAULT_CHUNK_CHARS)
+    if chunk_chars < 1:
+        raise SystemExit('--chunk-chars must be positive')
     if bool(a.ayat) == bool(a.page):
         raise SystemExit('give either --ayat, or --page with --ayah')
     if a.page:
@@ -148,38 +325,69 @@ def build(a):
         print(f'{a.ayah}: own ayah + {len(a.ayat) - 1} cited verses from {a.page}')
     ayat = [parse_ayah(x) for x in a.ayat]
     src, segments, skipped = gather(ayat)
-    if a.skip_done:
+    skipped += surah_level(ayat)
+    if split_plan:
+        expected = [loc for c in original['chunks'] for loc in c['locs']]
+        by_loc = {g['loc']: g for g in segments}
+        if len(expected) != len(set(expected)) or any(loc not in by_loc for loc in expected):
+            raise SystemExit('original manifest has duplicate or unavailable locators')
+        segments = [by_loc[loc] for loc in expected]
+        skipped = original['skipped']
+        planned = split_original_chunks(segments, original, selected)
+    elif a.skip_done:
         done = {}
-        for f in sorted((V7 / 'work').glob(f'*/out/{a.skip_done}/c*.jsonl')):
-            if f.parts[-4] in getattr(a, 'skip_done_exclude_run', []):
-                continue
-            for line in f.read_text().splitlines():
-                if line.strip():
-                    done.setdefault(json.loads(line)['loc'], f.parts[-4])
+        for tag in a.skip_done:
+            for f in sorted((V7 / 'work').glob(f'*/out/{tag}/c*.jsonl')):
+                if f.parts[-4] in getattr(a, 'skip_done_exclude_run', []):
+                    continue
+                try:
+                    lines = f.read_text().splitlines()
+                except FileNotFoundError:
+                    print(f'WARNING {f.relative_to(V7)}: vanished while reading (a run in progress?); not counted as done')
+                    continue
+                for i, line in enumerate(lines, 1):
+                    if line.strip():
+                        try:
+                            done.setdefault(json.loads(line)['loc'], f'{f.parts[-4]}/{tag}')
+                        except ValueError:
+                            print(f'WARNING {f.relative_to(V7)} line {i}: not JSON (a run in progress?); not counted as done')
         kept = []
         for g in segments:
             if g['loc'] in done:
                 skipped.append({'ayah': ','.join(g['scope']), 'loc': g['loc'], 'src': g['src'],
-                                'reason': f"already digested in {done[g['loc']]} ({a.skip_done})"})
+                                'reason': f"already digested in {done[g['loc']]}"})
             else:
                 kept.append(g)
         segments = kept
+    if getattr(a, 'quotes', False):
+        have = {g['loc'] for g in segments}
+        done_q = done if a.skip_done else {}
+        packet = quote_packet(ayat)
+        for g in packet:
+            if g['loc'] in done_q:
+                skipped.append({'ayah': ','.join(g['scope']), 'loc': g['loc'], 'src': g['src'],
+                                'reason': f"already digested in {done_q[g['loc']]}"})
+            elif g['loc'] not in have:
+                segments.append(g)
+                have.add(g['loc'])
     with connect() as con:
         verse_text = {f'{s}:{x}': con.execute("SELECT text FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran' "
                                               'AND s=? AND a=?', (s, x)).fetchone()[0] for s, x in ayat}
     parts_dir = d / 'chunks'
     parts_dir.mkdir(parents=True)
     plan = []
-    for n, chunk in enumerate(chunks(segments), 1):
+    if not split_plan:
+        planned = [(group, None, None) for group in chunks(segments, chunk_chars)]
+    for n, (chunk, from_chunk, split_half) in enumerate(planned, 1):
         srcs = list(dict.fromkeys(g['src'] for g in chunk))
         kinds = list(dict.fromkeys(src[s][0] for s in srcs))
-        text = ''.join(f"=== SEGMENT {g['loc']} | source {g['src']} | verses {g['verses']} | {g['head']} ===\n"
-                       f"{g['text'].strip()}\n\n" for g in chunk)
+        text = ''.join(segment_input(g) for g in chunk)
         parts = [text[i:i + PART_CHARS] for i in range(0, len(text), PART_CHARS)]
         for k, p in enumerate(parts):
             tail = f'\n<<part {k} ends; continues in part {k + 1}>>' if k + 1 < len(parts) else '\n<<end of chunk>>'
             (parts_dir / f'c{n:02d}.p{k}.txt').write_text(f'<<chunk {n} part {k} of 0..{len(parts) - 1}>>\n{p}{tail}\n')
-        plan.append({'chunk': n, 'sources': srcs, 'kinds': kinds,
+        plan.append({'chunk': n, 'from_chunk': from_chunk, 'split_half': split_half,
+                     'sources': srcs, 'kinds': kinds,
                      'scope': list(dict.fromkeys(x for g in chunk for x in g['scope'])),
                      'source_lines': [source_line(s, src[s][2], src[s][0]) for s in srcs],
                      'locs': [g['loc'] for g in chunk], 'chars': len(text), 'parts': len(parts)})
@@ -187,7 +395,7 @@ def build(a):
     spawns = []
     for spec in a.models:
         model, effort = spec.split(':')
-        tag = model.split('-')[-1] + '-' + effort
+        tag = tag_of(model, effort)
         for c in plan:
             agent = f'/root/v7d_{a.run}_{tag}_c{c["chunk"]:02d}'
             fill = {'AGENT': agent, 'MODEL': model, 'EFFORT': effort, 'RUN': a.run, 'TAG': tag, 'N': str(c['chunk']),
@@ -204,8 +412,10 @@ def build(a):
             spawns.append(str(f.relative_to(ROOT)))
         (d / 'out' / tag).mkdir(parents=True)
     dump(d / 'manifest.json', {'run': a.run, 'ayat': a.ayat, 'models': a.models,
+                               'split_plan': split_plan, 'split_from_run': original_name if split_plan else None,
+                               'split_chunks': sorted(selected) if split_plan else [],
                                'skip_done_exclude_run': getattr(a, 'skip_done_exclude_run', []),
-                               'chunk_chars': CHUNK_CHARS,
+                               'chunk_chars': chunk_chars,
                                'chunks': plan, 'skipped': skipped, 'spawn': spawns})
     total = sum(c['chars'] for c in plan)
     print(f'{len(segments)} segments, {len(plan)} chunks, {total:,} characters, {len(spawns)} spawn files')
@@ -216,7 +426,7 @@ def build(a):
     for s in skipped:
         if '-FULL covers' in s['reason']:
             routine['short edition where the FULL edition covers the verse'] += 1
-        elif s['reason'].startswith(('kind meal', 'kind translation', 'kind quran', 'already digested')):
+        elif s['reason'].startswith(('kind meal', 'kind translation', 'kind quran', 'already digested', 'surah-level')):
             routine[s['reason'].split(':')[0].split(' (')[0]] += 1
         else:
             print(f"SKIPPED {s['ayah']} {s['loc']}: {s['reason']}")
@@ -321,13 +531,37 @@ def usage(runs_dir, agent):
     session_agent = agent if _SESSIONS.get(agent) else native_agent_alias(agent)
     files = _SESSIONS.get(session_agent, [])
     if not files:
-        return None
+        return claude_usage(agent)
     if len(files) > 1:
         print(f'WARNING {agent}: {len(files)} native sessions; costing the latest')
     import account  # enrichment/v5
     rec = account.session(sorted(files)[-1], session_agent)
     return {'usd': rec['usd'], 'requests': rec['requests'], 'peak': rec['max_request_input'],
             'completed': rec['completed'], 'via': 'native session'}
+
+
+def claude_usage(agent):
+    """Usage of a Claude subagent spawned with a spawn file's text: its transcript starts with the header line."""
+    sys.path.insert(0, str(ROOT / '_commentary/v16'))
+    import agentrun
+    key = f'<!-- agent {agent} |'
+    hits = []
+    for f in agentrun.PROJECTS.glob('*/*/subagents/agent-*.jsonl'):
+        try:
+            with f.open(encoding='utf-8') as h:
+                if key in h.read(20_000):
+                    hits.append(f)
+        except OSError:
+            continue
+    if not hits:
+        return None
+    if len(hits) > 1:
+        print(f'WARNING {agent}: {len(hits)} Claude transcripts; costing the latest')
+    p = agentrun.parse(sorted(hits, key=lambda f: f.stat().st_mtime)[-1])
+    if p['cost_usd'] is None:
+        print(f"WARNING {agent}: no rate for {p['model']} in agentrun.RATES; cost counted as 0")
+    return {'usd': p['cost_usd'] or 0, 'requests': p['num_messages'], 'peak': p.get('max_context') or 0,
+            'completed': p['completed'], 'via': f"Claude transcript ({p['model']})"}
 
 
 def report(a):
@@ -364,9 +598,14 @@ def main():
     p.add_argument('--page', help="a frozen page: digest its own ayah (--ayah) and every verse it cites")
     p.add_argument('--ayah')
     p.add_argument('--models', nargs='+', required=True)
-    p.add_argument('--skip-done', metavar='TAG', help='skip segments already digested by this model tag in any run')
+    p.add_argument('--skip-done', metavar='TAG', nargs='+', help='skip segments already digested by these model tags in any run')
+    p.add_argument('--quotes', action='store_true',
+                   help='add the quotation packet: segments with no verse key that quote the ayat\'s own words')
     p.add_argument('--skip-done-exclude-run', action='append', default=[], metavar='RUN',
                    help='exclude an active, disjoint run whose output files may be changing')
+    p.add_argument('--split-plan', help='forecast JSON: preserve its original run and split only listed chunks')
+    p.add_argument('--chunk-chars', type=int, default=DEFAULT_CHUNK_CHARS,
+                   help='target rendered input characters per agent chunk (default: %(default)s); a longer single segment stands alone')
     p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--chunk', type=int)
     p = sub.add_parser('report'); p.add_argument('run')
     a = parser.parse_args()

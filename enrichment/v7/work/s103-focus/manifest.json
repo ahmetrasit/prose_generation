@@ -1,0 +1,1390 @@
+{
+  "run": "s103-focus",
+  "ayat": [
+    "103:1"
+  ],
+  "models": [
+    "claude-haiku-5-5:session"
+  ],
+  "split_plan": null,
+  "split_from_run": null,
+  "split_chunks": [],
+  "skip_done_exclude_run": [
+    "s12_17_19_sel150k",
+    "s12_17_19_pred150k",
+    "s12_17_19"
+  ],
+  "chunk_chars": 20000,
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_chunk": null,
+      "split_half": null,
+      "sources": [
+        "BINTSHATI-IJAZ",
+        "NASHR",
+        "JISHUMI",
+        "BURHAN"
+      ],
+      "kinds": [
+        "modern",
+        "qiraat",
+        "tafsir",
+        "ulum"
+      ],
+      "scope": [
+        "103:1"
+      ],
+      "source_lines": [
+        "BINTSHATI-IJAZ: al-Iʿjāz al-bayānī li-l-Qurʾān wa-masāʾil Ibn al-Azraq: dirāsa qurʾāniyya lughawiyya wa-bayāniyya, ʿĀʾisha ʿAbd al-Raḥmān (Bint al-Shāṭiʾ), d. 1419 AH (modern)",
+        "NASHR: al-Nashr fī al-qirāʾāt al-ʿashr, Ibn al-Jazarī, d. 833 AH (qiraat)",
+        "JISHUMI: al-Tahdhīb fī al-tafsīr, al-Ḥākim al-Jishumī, d. 494 AH (tafsir)",
+        "BURHAN: al-Burhān fī ʿulūm al-Qurʾān, al-Zarkashī, d. 794 AH (ulum)"
+      ],
+      "locs": [
+        "BINTSHATI-IJAZ:p154",
+        "BINTSHATI-IJAZ:p244",
+        "BINTSHATI-IJAZ:p245",
+        "BINTSHATI-IJAZ:p251",
+        "BINTSHATI-IJAZ:p415",
+        "BINTSHATI-IJAZ:p416",
+        "BINTSHATI-IJAZ:p567",
+        "NASHR:v1p261#2",
+        "JISHUMI:v1p823",
+        "BURHAN:v1p100",
+        "BURHAN:v1p179#2",
+        "BURHAN:v1p267",
+        "BURHAN:v2p34"
+      ],
+      "chars": 16956,
+      "parts": 2
+    },
+    {
+      "chunk": 2,
+      "from_chunk": null,
+      "split_half": null,
+      "sources": [
+        "ITQAN"
+      ],
+      "kinds": [
+        "ulum"
+      ],
+      "scope": [
+        "103:1"
+      ],
+      "source_lines": [
+        "ITQAN: al-Itqān fī ʿulūm al-Qurʾān, al-Suyūṭī, d. 911 AH (ulum)"
+      ],
+      "locs": [
+        "ITQAN:v1p37",
+        "ITQAN:v1p38",
+        "ITQAN:v1p60",
+        "ITQAN:v1p65",
+        "ITQAN:v1p77#2",
+        "ITQAN:v1p176",
+        "ITQAN:v1p180",
+        "ITQAN:v1p183",
+        "ITQAN:v3p57",
+        "ITQAN:v3p282",
+        "ITQAN:v4p353",
+        "ITQAN:v4p432"
+      ],
+      "chars": 19661,
+      "parts": 2
+    },
+    {
+      "chunk": 3,
+      "from_chunk": null,
+      "split_half": null,
+      "sources": [
+        "DAMGHANI",
+        "IBNJAWZI-NUZHA"
+      ],
+      "kinds": [
+        "wujuh"
+      ],
+      "scope": [
+        "103:1"
+      ],
+      "source_lines": [
+        "DAMGHANI: Iṣlāḥ al-wujūh wa-l-naẓāʾir fī al-Qurʾān al-karīm (Qāmūs al-Qurʾān), al-Dāmghānī, d. 478 AH (wujuh)",
+        "IBNJAWZI-NUZHA: Nuzhat al-aʿyun al-nawāẓir fī ʿilm al-wujūh wa-l-naẓāʾir, Ibn al-Jawzī, d. 597 AH (wujuh)"
+      ],
+      "locs": [
+        "DAMGHANI:v1p293",
+        "DAMGHANI:v1p325",
+        "IBNJAWZI-NUZHA:v1p181",
+        "IBNJAWZI-NUZHA:v1p277"
+      ],
+      "chars": 8634,
+      "parts": 1
+    }
+  ],
+  "skipped": [
+    {
+      "ayah": "103:1",
+      "loc": "ABUHAYYAN:103:1",
+      "src": "ABUHAYYAN",
+      "reason": "ABUHAYYAN-FULL covers 103:1"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ALUSI:103:1",
+      "src": "ALUSI",
+      "reason": "ALUSI-FULL covers 103:1"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ARBERRY:103:1",
+      "src": "ARBERRY",
+      "reason": "kind translation: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ASAD-EN:103:1",
+      "src": "ASAD-EN",
+      "reason": "kind translation: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BAGHAWI:103:1",
+      "src": "BAGHAWI",
+      "reason": "BAGHAWI-FULL covers 103:1"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BAYDAWI:103:1",
+      "src": "BAYDAWI",
+      "reason": "BAYDAWI-FULL covers 103:1"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BIQAI:103:1",
+      "src": "BIQAI",
+      "reason": "BIQAI-FULL covers 103:1"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "DURR:103:1",
+      "src": "DURR",
+      "reason": "DURR-FULL covers 103:1"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "IBNKATHIR:103:1",
+      "src": "IBNKATHIR",
+      "reason": "IBNKATHIR-FULL covers 103:1"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "KASHSHAF:103:1",
+      "src": "KASHSHAF",
+      "reason": "KASHSHAF-FULL covers 103:1"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MAWARDI:103:1",
+      "src": "MAWARDI",
+      "reason": "MAWARDI-FULL covers 103:1"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-AFYAVUZ:103:1",
+      "src": "MEAL-AFYAVUZ",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-AKGUL:103:1",
+      "src": "MEAL-AKGUL",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ALIMIHR:103:1",
+      "src": "MEAL-ALIMIHR",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ATALAY:103:1",
+      "src": "MEAL-ATALAY",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ATAY:103:1",
+      "src": "MEAL-ATAY",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ATES:103:1",
+      "src": "MEAL-ATES",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-BALTACIOGLU:103:1",
+      "src": "MEAL-BALTACIOGLU",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-BAYRAKLI:103:1",
+      "src": "MEAL-BAYRAKLI",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-BILMEN:103:1",
+      "src": "MEAL-BILMEN",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-BULAC:103:1",
+      "src": "MEAL-BULAC",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-CAKIR:103:1",
+      "src": "MEAL-CAKIR",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-CANTAY:103:1",
+      "src": "MEAL-CANTAY",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-CAVDAR:103:1",
+      "src": "MEAL-CAVDAR",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-CEMILSAID:103:1",
+      "src": "MEAL-CEMILSAID",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-COBAN:103:1",
+      "src": "MEAL-COBAN",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-CYILDIRIM:103:1",
+      "src": "MEAL-CYILDIRIM",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-DEMIRYENT:103:1",
+      "src": "MEAL-DEMIRYENT",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-DIB1961:103:1",
+      "src": "MEAL-DIB1961",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-EAKTAS:103:1",
+      "src": "MEAL-EAKTAS",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ELMALILI:103:1",
+      "src": "MEAL-ELMALILI",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ELMALILI-HDKD:103:1",
+      "src": "MEAL-ELMALILI-HDKD",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ELMALILI-SADE:103:1",
+      "src": "MEAL-ELMALILI-SADE",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ELMALILI-SADE-B:103:1",
+      "src": "MEAL-ELMALILI-SADE-B",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ERDOGDU:103:1",
+      "src": "MEAL-ERDOGDU",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-EROGLU:103:1",
+      "src": "MEAL-EROGLU",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ESED:103:1",
+      "src": "MEAL-ESED",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ESKIANADOLU:103:1",
+      "src": "MEAL-ESKIANADOLU",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-FIZILAL:103:1",
+      "src": "MEAL-FIZILAL",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-GOLPINARLI:103:1",
+      "src": "MEAL-GOLPINARLI",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-HAMIDULLAH:103:1",
+      "src": "MEAL-HAMIDULLAH",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-HARUNYILDIRIM:103:1",
+      "src": "MEAL-HARUNYILDIRIM",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-HAYRAT:103:1",
+      "src": "MEAL-HAYRAT",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-HOZTURK-SYILMAZ:103:1",
+      "src": "MEAL-HOZTURK-SYILMAZ",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-HULUSI:103:1",
+      "src": "MEAL-HULUSI",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-IAKTAS:103:1",
+      "src": "MEAL-IAKTAS",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-IBNKESIR-ANON:103:1",
+      "src": "MEAL-IBNKESIR-ANON",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ISLAMOGLU:103:1",
+      "src": "MEAL-ISLAMOGLU",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ISLAMOGLU-ESKI:103:1",
+      "src": "MEAL-ISLAMOGLU-ESKI",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-IZMIRLI:103:1",
+      "src": "MEAL-IZMIRLI",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-KCELIK:103:1",
+      "src": "MEAL-KCELIK",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-KISA:103:1",
+      "src": "MEAL-KISA",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-KULUNKOGLU:103:1",
+      "src": "MEAL-KULUNKOGLU",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-KURANYOLU:103:1",
+      "src": "MEAL-KURANYOLU",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-MOZDEMIR:103:1",
+      "src": "MEAL-MOZDEMIR",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-MTURK:103:1",
+      "src": "MEAL-MTURK",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-OKUYAN:103:1",
+      "src": "MEAL-OKUYAN",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ONAN:103:1",
+      "src": "MEAL-ONAN",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ONGUT:103:1",
+      "src": "MEAL-ONGUT",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-PARLIYAN:103:1",
+      "src": "MEAL-PARLIYAN",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-PIRIS:103:1",
+      "src": "MEAL-PIRIS",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-PIRIS-REV:103:1",
+      "src": "MEAL-PIRIS-REV",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-RWWAD:103:1",
+      "src": "MEAL-RWWAD",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-SAFA:103:1",
+      "src": "MEAL-SAFA",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-SAGLAM:103:1",
+      "src": "MEAL-SAGLAM",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-SATIRALTI:103:1",
+      "src": "MEAL-SATIRALTI",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-SEMS:103:1",
+      "src": "MEAL-SEMS",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-SIMSEK:103:1",
+      "src": "MEAL-SIMSEK",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-STEVFIK:103:1",
+      "src": "MEAL-STEVFIK",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-SULEYMANIYE:103:1",
+      "src": "MEAL-SULEYMANIYE",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-SULEYMANIYE-ESKI:103:1",
+      "src": "MEAL-SULEYMANIYE-ESKI",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-SYILDIRIM:103:1",
+      "src": "MEAL-SYILDIRIM",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-TDV-DUZ:103:1",
+      "src": "MEAL-TDV-DUZ",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-TDV-QE:103:1",
+      "src": "MEAL-TDV-QE",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-TEFHIM:103:1",
+      "src": "MEAL-TEFHIM",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-TEKIN:103:1",
+      "src": "MEAL-TEKIN",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-TURKMEN:103:1",
+      "src": "MEAL-TURKMEN",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-UNAL:103:1",
+      "src": "MEAL-UNAL",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-VAROL:103:1",
+      "src": "MEAL-VAROL",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-YAKIT:103:1",
+      "src": "MEAL-YAKIT",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-YNOZTURK:103:1",
+      "src": "MEAL-YNOZTURK",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-YORULMAZ:103:1",
+      "src": "MEAL-YORULMAZ",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-YUKSEL:103:1",
+      "src": "MEAL-YUKSEL",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "NASAFI:103:1",
+      "src": "NASAFI",
+      "reason": "NASAFI-FULL covers 103:1"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "QURAN:103:1",
+      "src": "QURAN",
+      "reason": "kind quran: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "QURTUBI:103:1",
+      "src": "QURTUBI",
+      "reason": "QURTUBI-FULL covers 103:1"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "RAZI:103:1",
+      "src": "RAZI",
+      "reason": "RAZI-FULL covers 103:1"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-CEVIK:103:1",
+      "src": "MEAL-CEVIK",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-DIB:103:1",
+      "src": "MEAL-DIB",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-KUNTMAN:103:1",
+      "src": "MEAL-KUNTMAN",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-AKDEMIR:103:intro",
+      "src": "MEAL-AKDEMIR",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-AKDEMIR:103:1",
+      "src": "MEAL-AKDEMIR",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-ATAY:103:intro",
+      "src": "MEAL-ATAY",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-HAMIDULLAH:103:intro",
+      "src": "MEAL-HAMIDULLAH",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-HYILMAZ:103:1",
+      "src": "MEAL-HYILMAZ",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-OFIRAT:103:1",
+      "src": "MEAL-OFIRAT",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MEAL-TDV:103:1",
+      "src": "MEAL-TDV",
+      "reason": "kind meal: meal table or a later stage"
+    },
+    {
+      "ayah": "S103",
+      "loc": "BAGHAWI-FULL:v8p522",
+      "src": "BAGHAWI-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "BURSEVI:v10p390",
+      "src": "BURSEVI",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "BURSEVI:v10p391",
+      "src": "BURSEVI",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "CORPUSCORANICUM:103:structure",
+      "src": "CORPUSCORANICUM",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "CORPUSCORANICUM:103:kommentar:literatur",
+      "src": "CORPUSCORANICUM",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "CORPUSCORANICUM:103:datierung",
+      "src": "CORPUSCORANICUM",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "CORPUSCORANICUM:103:literarkritik",
+      "src": "CORPUSCORANICUM",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "CORPUSCORANICUM:103:aufbau",
+      "src": "CORPUSCORANICUM",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "DURR-FULL:v8p624",
+      "src": "DURR-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "DURR-FULL:v8p625",
+      "src": "DURR-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "DURR-FULL:v8p626",
+      "src": "DURR-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "GHARNATI:v1p376",
+      "src": "GHARNATI",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "IBNASHUR-FULL:v30p527",
+      "src": "IBNASHUR-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "IBNASHUR-FULL:v30p529",
+      "src": "IBNASHUR-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "IBNASHUR-FULL:v30p530",
+      "src": "IBNASHUR-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "IBNASHUR-FULL:v30p532",
+      "src": "IBNASHUR-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "IBNATIYYA-FULL:v5p520",
+      "src": "IBNATIYYA-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "IBNKATHIR-FULL:v8p481",
+      "src": "IBNKATHIR-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "IBNKATHIR-FULL:v8p481#2",
+      "src": "IBNKATHIR-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "IBNKATHIR-FULL:v8p481#3",
+      "src": "IBNKATHIR-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "IBNKATHIR-FULL:v8p482",
+      "src": "IBNKATHIR-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "IBNQUTAYBA-GHARIB:v1p538#5",
+      "src": "IBNQUTAYBA-GHARIB",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "JISHUMI:v10p7531",
+      "src": "JISHUMI",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "JISHUMI:v10p7533",
+      "src": "JISHUMI",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "JISHUMI:v10p7535",
+      "src": "JISHUMI",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "JISHUMI:v10p7537",
+      "src": "JISHUMI",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "JISHUMI:v10p7538",
+      "src": "JISHUMI",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "TAB-FULL:v24p612",
+      "src": "TAB-FULL",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "TDVIA:asr-suresi#1",
+      "src": "TDVIA",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "THALABI:v10p283",
+      "src": "THALABI",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "THALABI:v10p283#2",
+      "src": "THALABI",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "WAHIDI-BASIT:v24p293",
+      "src": "WAHIDI-BASIT",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "WAHIDI-BASIT:v24p296",
+      "src": "WAHIDI-BASIT",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "WAHIDI-BASIT:v24p297",
+      "src": "WAHIDI-BASIT",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "S103",
+      "loc": "WAHIDI-BASIT:v24p302",
+      "src": "WAHIDI-BASIT",
+      "reason": "surah-level: reserved for the surah page"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ABDURRAZZAQ:v3p394",
+      "src": "ABDURRAZZAQ",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ABDURRAZZAQ:v3p394#2",
+      "src": "ABDURRAZZAQ",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ABUHAYYAN-FULL:v10p539",
+      "src": "ABUHAYYAN-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ISLAHI-TADABBUR:vol-9-english:p433",
+      "src": "ISLAHI-TADABBUR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ISLAHI-TADABBUR:vol-9-english:p434",
+      "src": "ISLAHI-TADABBUR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ISLAHI-TADABBUR:vol-9-english:p435",
+      "src": "ISLAHI-TADABBUR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ISLAHI-TADABBUR:vol-9-english:p436",
+      "src": "ISLAHI-TADABBUR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ISLAHI-TADABBUR:vol-9-english:p437",
+      "src": "ISLAHI-TADABBUR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ISLAHI-TADABBUR:vol-9-english:p438",
+      "src": "ISLAHI-TADABBUR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ISLAHI-TADABBUR:vol-9-english:p439",
+      "src": "ISLAHI-TADABBUR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ISLAHI-TADABBUR:vol-9-english:p440",
+      "src": "ISLAHI-TADABBUR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ISLAHI-TADABBUR:vol-9-english:p441",
+      "src": "ISLAHI-TADABBUR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ISLAHI-TADABBUR:vol-9-english:p442",
+      "src": "ISLAHI-TADABBUR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ISLAHI-TADABBUR:vol-9-english:p443",
+      "src": "ISLAHI-TADABBUR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ISLAHI-TADABBUR:vol-9-english:p444",
+      "src": "ISLAHI-TADABBUR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "STUDYQURAN:103:intro",
+      "src": "STUDYQURAN",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "STUDYQURAN:103:translation",
+      "src": "STUDYQURAN",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "STUDYQURAN:103:1",
+      "src": "STUDYQURAN",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ALUSI-FULL:v30p227#2",
+      "src": "ALUSI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ALUSI-FULL:v30p228",
+      "src": "ALUSI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ASAD-NOTES:103:intro",
+      "src": "ASAD-NOTES",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ASAD-NOTES:103:1",
+      "src": "ASAD-NOTES",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ASAD-NOTES:103:1#n1",
+      "src": "ASAD-NOTES",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BAGHAWI-FULL:v8p522#2",
+      "src": "BAGHAWI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BAYDAWI-FULL:103:1-3",
+      "src": "BAYDAWI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BINTSHATI:v2p73",
+      "src": "BINTSHATI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BINTSHATI:v2p75",
+      "src": "BINTSHATI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BINTSHATI:v2p76",
+      "src": "BINTSHATI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BINTSHATI:v2p77",
+      "src": "BINTSHATI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BINTSHATI:v2p78",
+      "src": "BINTSHATI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BINTSHATI:v2p79",
+      "src": "BINTSHATI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BINTSHATI:v2p80",
+      "src": "BINTSHATI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BINTSHATI:v2p93",
+      "src": "BINTSHATI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BIQAI-FULL:v8p521#s103",
+      "src": "BIQAI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BIQAI-FULL:v8p522",
+      "src": "BIQAI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BIQAI-FULL:v8p523",
+      "src": "BIQAI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "BIQAI-FULL:v8p524",
+      "src": "BIQAI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "CORPUSCORANICUM:103:1:anmerkung",
+      "src": "CORPUSCORANICUM",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "CORPUSCORANICUM:103:1-3:kommentar",
+      "src": "CORPUSCORANICUM",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "DURR-FULL:v8p621",
+      "src": "DURR-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "DURR-FULL:v8p622",
+      "src": "DURR-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ELMALILI:103:1-3",
+      "src": "ELMALILI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ELMALILI:103:1-3#2",
+      "src": "ELMALILI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ELMALILI:103:1-3#3",
+      "src": "ELMALILI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ELMALILI:103:1-3#4",
+      "src": "ELMALILI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ELMALILI:103:1-3#5",
+      "src": "ELMALILI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "ELMALILI:103:1-3#6",
+      "src": "ELMALILI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "IBNABIHATIM:v10p3462",
+      "src": "IBNABIHATIM",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "IBNASHUR:103:1",
+      "src": "IBNASHUR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "IBNATIYYA:103:1",
+      "src": "IBNATIYYA",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "IBNKATHIR-FULL:v8p479",
+      "src": "IBNKATHIR-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "IBNQUTAYBA-GHARIB:v1p538#6",
+      "src": "IBNQUTAYBA-GHARIB",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "KASHSHAF-FULL:v4p800",
+      "src": "KASHSHAF-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "KURANYOLU-TEFSIR:103:1",
+      "src": "KURANYOLU-TEFSIR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MAWARDI-FULL:v6p333#2",
+      "src": "MAWARDI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "MUQATIL:103:1-3",
+      "src": "MUQATIL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "NAHHAS:v5p286",
+      "src": "NAHHAS",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "NASAFI-FULL:v4p355#6",
+      "src": "NASAFI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "QASHANI:103:1-3",
+      "src": "QASHANI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "QURTUBI-FULL:103:1",
+      "src": "QURTUBI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "QUSHAYRI:v3p446",
+      "src": "QUSHAYRI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "QUTB-ZILAL:103:1",
+      "src": "QUTB-ZILAL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "RAZI-FULL:v32p80",
+      "src": "RAZI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "RAZI-FULL:v32p81",
+      "src": "RAZI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "RAZI-FULL:v32p81#2",
+      "src": "RAZI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "RAZI-FULL:v32p82",
+      "src": "RAZI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "RAZI-FULL:v32p82#2",
+      "src": "RAZI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "RAZI-FULL:v32p83",
+      "src": "RAZI-FULL",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "SAMIN-DURR:103:1",
+      "src": "SAMIN-DURR",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "SULAMI:v2p419#2",
+      "src": "SULAMI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "TAB:103:1",
+      "src": "TAB",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "TABATABAI:103:1-3",
+      "src": "TABATABAI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "THALABI:v10p283#3",
+      "src": "THALABI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "THALABI:v10p284",
+      "src": "THALABI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "TUSTARI:103:1",
+      "src": "TUSTARI",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "WAHIDI-BASIT:v24p293#2",
+      "src": "WAHIDI-BASIT",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "WAHIDI-QT:103:1",
+      "src": "WAHIDI-QT",
+      "reason": "already digested in s103-1/luna-max"
+    },
+    {
+      "ayah": "103:1",
+      "loc": "WAHIDI-WAJIZ:103:1-3",
+      "src": "WAHIDI-WAJIZ",
+      "reason": "already digested in s103-1/luna-max"
+    }
+  ],
+  "spawn": [
+    "enrichment/v7/work/s103-focus/spawn/haiku-session_c01.md",
+    "enrichment/v7/work/s103-focus/spawn/haiku-session_c02.md",
+    "enrichment/v7/work/s103-focus/spawn/haiku-session_c03.md"
+  ]
+}

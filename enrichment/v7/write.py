@@ -138,7 +138,7 @@ def build(a):
     brief = BRIEF.read_text()
     for spec in a.models:
         model, effort = spec.split(':')
-        tag = model.split('-')[-1] + '-' + effort
+        tag = digest.tag_of(model, effort)
         for c in plan:
             out = d / tag / f"g{c['group']:02d}"
             out.mkdir(parents=True)
@@ -330,7 +330,7 @@ def report(a):
     man = json.loads((d / 'manifest.json').read_text())
     for spec in man['models']:
         model, effort = spec.split(':')
-        tag = model.split('-')[-1] + '-' + effort
+        tag = digest.tag_of(model, effort)
         total = 0.0
         for c in man['groups']:
             out = d / tag / f"g{c['group']:02d}"

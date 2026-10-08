@@ -25,30 +25,51 @@ def key(ayah):
     return ayah.replace(':', '-')
 
 
-def tier1_rows(d, tag, ayah):
-    """Every tier-1 row whose verses include the ayah, with a stable id <loc>/rN (N = position in its segment)."""
+def tier1_rows(d, tags, ayah, quiet=False):
+    """Every tier-1 row whose verses include the ayah, with a stable id <loc>/rN (N = position in its segment).
+    tags: one model tag or a list; a segment digested under several runs or tags counts once (first tag, then run
+    order). Edition rule: rows of a short edition X are dropped when X-FULL has rows on the same ayah (printed)."""
+    tags = [tags] if isinstance(tags, str) else list(tags)
     with connect() as con:
         meta = {i: json.loads(m or '{}') for i, m in con.execute('SELECT id, meta FROM src')}
         seg_src = {}
         out = []
         seen = set()
-        for f in sorted((V7 / 'work').glob(f'*/out/{tag}/c*.jsonl')):  # tier 1 of every run: one database
-            for line in f.read_text().splitlines():
-                if not line.strip():
+        for tag in tags:
+            for f in sorted((V7 / 'work').glob(f'*/out/{tag}/c*.jsonl')):  # tier 1 of every run: one database
+                try:
+                    lines = f.read_text().splitlines()
+                except FileNotFoundError:  # a run in progress replaced it between glob and read
+                    print(f'WARNING {f.relative_to(V7)}: vanished while reading (a run in progress?); skipped')
                     continue
-                x = json.loads(line)
-                if x['loc'] in seen:
-                    continue
-                seen.add(x['loc'])
-                if x['loc'] not in seg_src:
-                    seg_src[x['loc']] = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
-                for n, r in enumerate(x['rows'], 1):
-                    if ayah in r.get('verses', []):
-                        src = seg_src[x['loc']]
-                        m = meta.get(src, {})
-                        out.append({**r, 'id': f"{x['loc']}/r{n}", 'src': src, 'author': m.get('author') or src,
-                                    'death': m.get('death_ah')})
-    return out
+                for i, line in enumerate(lines, 1):
+                    if not line.strip():
+                        continue
+                    try:
+                        x = json.loads(line)
+                    except ValueError:
+                        print(f'WARNING {f.relative_to(V7)} line {i}: not JSON (a run in progress?); skipped')
+                        continue
+                    if x['loc'] in seen:
+                        continue
+                    seen.add(x['loc'])
+                    if x['loc'] not in seg_src:
+                        seg_src[x['loc']] = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
+                    for n, r in enumerate(x['rows'], 1):
+                        if ayah in r.get('verses', []):
+                            src = seg_src[x['loc']]
+                            m = meta.get(src, {})
+                            out.append({**r, 'id': f"{x['loc']}/r{n}", 'src': src, 'author': m.get('author') or src,
+                                        'death': m.get('death_ah'), 'tag': tag})
+    full = {r['src'][:-5] for r in out if r['src'].endswith('-FULL')}
+    dropped = [r for r in out if r['src'] in full]
+    if dropped and not quiet:
+        by = defaultdict(int)
+        for r in dropped:
+            by[r['src']] += 1
+        print(f"NOTE {ayah}: {len(dropped)} rows of short editions dropped, their FULL edition has rows on this ayah: "
+              + ', '.join(f'{s} {n}' for s, n in sorted(by.items())))
+    return [r for r in out if r['src'] not in full]
 
 
 def build(a):
@@ -60,7 +81,7 @@ def build(a):
         import write  # late import: write imports this module
         a.ayat = write.page_verses(a.page, a.ayah)
         print(f'{a.ayah}: own ayah + {len(a.ayat) - 1} cited verses from {a.page}')
-    tags = [s.split(':')[0].split('-')[-1] + '-' + s.split(':')[1] for s in a.models]
+    tags = [digest.tag_of(*s.split(':')) for s in a.models]
     done = [x for x in a.ayat if all(list((V7 / 'work').glob(f'*/tier2/out/{g}/{key(x)}.jsonl')) for g in tags)]
     for x in done:
         print(f'SKIPPED {x}: tier 2 already exists for {", ".join(tags)}')
@@ -68,18 +89,18 @@ def build(a):
     if not a.ayat:
         raise SystemExit('every verse already has tier 2; nothing to build')
     old = json.loads((t / 'manifest.json').read_text()) if (t / 'manifest.json').exists() else None
-    if old and (old['from'] != getattr(a, 'from') or [p['ayah'] for p in old['ayat']] != a.ayat):
+    if old and (old['from'] != a.from_tags or [p['ayah'] for p in old['ayat']] != a.ayat):
         raise SystemExit('tier2 inputs exist for other rows or ayat; use a new run')
     plan = old['ayat'] if old else []  # existing row files are reused untouched (agents may be reading them)
     for ayah in ([] if old else a.ayat):
-        rs = tier1_rows(d, getattr(a, 'from'), ayah)
+        rs = tier1_rows(d, a.from_tags, ayah)
         if not rs:  # nothing to consolidate: an empty view list, no agent (recorded and printed)
             (t / 'rows').mkdir(parents=True, exist_ok=True)
             dump(t / 'rows' / f'{key(ayah)}.json', {})
             for g in tags:
                 (t / 'out' / g).mkdir(parents=True, exist_ok=True)
                 (t / 'out' / g / f'{key(ayah)}.jsonl').write_text('')
-            print(f'NOTE {ayah}: no tier-1 notes ({getattr(a, "from")}); empty view list written, no agent')
+            print(f'NOTE {ayah}: no tier-1 notes ({", ".join(a.from_tags)}); empty view list written, no agent')
             continue
         rs.sort(key=lambda r: (r['death'] if isinstance(r['death'], int) else 9999, r['src'], r['id']))
         lines, cur = [], None
@@ -104,7 +125,7 @@ def build(a):
     brief = BRIEF.read_text()
     for spec in a.models:
         model, effort = spec.split(':')
-        tag = model.split('-')[-1] + '-' + effort
+        tag = digest.tag_of(model, effort)
         (t / 'out' / tag).mkdir(parents=True, exist_ok=True)
         for p in plan:
             fill = {'AGENT': f"/root/v7m_{a.run}_{tag}_{key(p['ayah'])}", 'MODEL': model, 'EFFORT': effort, 'RUN': a.run,
@@ -119,7 +140,7 @@ def build(a):
             f.parent.mkdir(exist_ok=True)
             f.write_text(text)
             print(f'  spawn {f.relative_to(ROOT)}')
-    dump(t / 'manifest.json', {'from': getattr(a, 'from'), 'ayat': plan,
+    dump(t / 'manifest.json', {'from': a.from_tags, 'ayat': plan,
                                'models': (old['models'] if old else []) + a.models})
 
 
@@ -233,7 +254,8 @@ def report(a):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest='cmd', required=True)
-    p = sub.add_parser('build'); p.add_argument('run'); p.add_argument('--from', required=True)
+    p = sub.add_parser('build'); p.add_argument('run'); p.add_argument('--from', dest='from_tags', nargs='+', required=True,
+                                                                          help='tier-1 model tags, e.g. luna-max haiku-high')
     p.add_argument('--ayat', nargs='+'); p.add_argument('--models', nargs='+', required=True)
     p.add_argument('--page', help="a frozen page: its own ayah (--ayah) and every verse it cites"); p.add_argument('--ayah')
     p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--ayah')

@@ -56,6 +56,17 @@ python3 -B enrichment/v7/digest.py build s103-1 --page _commentary/v16/out/103_1
   - meal, translations and the Quran text.
 - **Spawn files:** `enrichment/v7/work/s103-1/spawn/luna-max_c*.md`. Keep up to 60 running at a time.
 - **Outputs:** `work/s103-1/out/luna-max/c*.jsonl`.
+- **Chunk size for new builds:** v7 now defaults to 20,000 rendered input characters per agent. A single
+  source segment can exceed the target; smaller chunks reduce the risk of crossing 120k context tokens but
+  do not enforce a hard token ceiling. The recorded `chunk_chars` in each manifest governs that run.
+- **S12/S17–19 selective plan:** launch `work/s12_17_19_sel150k/spawn/luna-max_c*.md` when the user gives the
+  stage go. It retains the original 391-chunk order, splits the 52 chunks forecast above **150k peak request
+  input tokens** into two, then splits two halves that still forecast above 150k. This produces 445 agents for
+  the same 12,715 segments and 16,039,136 rendered source characters. The final maximum forecast is 149,752
+  tokens. The forecast is not a hard cap: held-out historical error was 18.5k–23.6k tokens on average.
+  The 120k figure remains the post-run reporting cap; the user's pre-run split threshold is 150k.
+  `forecast.py` records the training runs, coefficients, held-out results and every chunk estimate in the
+  `forecast*.json` files. `digest.py build --split-plan` reproduces a selected split without changing locators.
 
 After all of them finish:
 
@@ -124,7 +135,10 @@ One run per scope, for example `s103-1` for the 103:1 page. Earlier runs:
 | `s103-1` | 103:1 page's own and cited verses; tier 1 complete |
 | `s103-23` | 103:2–3 references; tier 1 complete |
 | `s1_87_114` | All 295 own ayat of S1 and S87–114; tier 1 complete (264 chunks) |
-| `s12_17_19` | All 430 own ayat of S12 and S17–19; tier 1 built, **not run** (391 chunks) |
+| `s12_17_19` | All 430 own ayat of S12 and S17–19; original 40k build, **not run** (391 chunks); base for selective forecast |
+| `s12_17_19_20k_exact` | Same 430 ayat, 20k rendered-input alternative, **not run** (862 chunks) |
+| `s12_17_19_pred150k` | First selective split build, **not run** (443 chunks); planning intermediate |
+| `s12_17_19_sel150k` | Final selective forecast build, **not run** (445 chunks); use this spawn list |
 
 `--skip-done` makes later runs skip whatever earlier runs digested.
 When building while an unrelated run is still rewriting output files, first verify that the two runs have no

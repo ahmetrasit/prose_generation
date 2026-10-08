@@ -34,7 +34,10 @@ MISSING = HERE / "missing.py"
 # the two 87:8 runs. The figure is the CLI's nominal dollar, as in the ledger, never cash.
 RATES = {"claude-opus-5-5": {"input": 4.0, "cache_5m": 5.0, "cache_1h": 8.0, "cache_read": 0.20, "output": 20.0},
          "claude-fable-5-1": {"input": 10.0, "cache_5m": 12.5, "cache_1h": 20.0, "cache_read": 0.25, "output": 50.0},
-         "claude-sonnet-5-5": {"input": 2.0, "cache_5m": 2.5, "cache_1h": 4.0, "cache_read": 0.20, "output": 10.0}}
+         "claude-sonnet-5-5": {"input": 2.0, "cache_5m": 2.5, "cache_1h": 4.0, "cache_read": 0.20, "output": 10.0},
+         # Haiku 5.5 (2026-10): $0.10/$0.50 list for prompts up to 100k tokens ($0.50/$2.50 above, not modelled);
+         # cache write/read at the usual 1.25x / 2x / 0.1x of input.
+         "claude-haiku-5-5": {"input": 0.10, "cache_5m": 0.125, "cache_1h": 0.20, "cache_read": 0.01, "output": 0.50}}
 AGENT_TYPE = {"writer": "v16-call", "augment": "v16-call", "enrich": "enrich-page", "enrich-dosya": "enrich-page",
               "okuma-plan": "general-purpose", "okuma": "general-purpose", "enrich-parts": "enrich-page-<effort>",
               "grup": "enrich-page-<effort>"}
@@ -203,7 +206,7 @@ def parse(f: Path) -> dict:
     return {"transcript": str(f), "agent_id": agent_id, "model": model, "usage_tokens": usage, "cost_usd": cost,
             "output_tokens_est": est, "cost_usd_est": cost_est,
             "stop_reason": stop, "handback": handback, "completed": handback or stop == "end_turn",
-            "num_messages": len(ids), "message_ids": ids, "tool_calls": calls, "texts": texts,
+            "num_messages": len(ids), "max_context": max(ctx_by_msg.values(), default=0), "message_ids": ids, "tool_calls": calls, "texts": texts,
             "safety": safety, "unreadable_lines": bad}
 
 
