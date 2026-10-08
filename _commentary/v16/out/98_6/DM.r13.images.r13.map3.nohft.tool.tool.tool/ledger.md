@@ -1,0 +1,12 @@
+- memory: sound masculine plural -īna is both accusative and genitive (two parses of al-mushrikīn)
+- memory: bi'r jihinnām = very deep well
+- memory: athāfī are the stones that hold the cooking pot over the fire
+- memory: sharr here functions as elative "worst" without the afʿal pattern (not stated in prose)
+- not written: ن و ر B002 camel's fire-brand showing lineage - no support for a theme in the ayah
+- not written: ب ر ء B007 hunter's blind beside the snare image - only sound-level juxtaposition, no grounding
+- not written: ب ر ء B003 recovery from illness - nothing in the ayah or surah develops it
+- not written: ش ر ر B002 spreading to dry in sun / B008 making visible - no link to the ayah's meaning
+- not written: ش ر ي echo root - withheld, not identity
+- not written: ء ه ل B004/B005 inhabited house, ahlan greeting - belong to 98:1's word in the staying scene; not needed here
+- not written: ك ف ر B004 ingratitude - covering sense carried the theme better
+- not written: خ ل د B003 earrings, B004 mind, B005 mole - no bearing on the ayah
