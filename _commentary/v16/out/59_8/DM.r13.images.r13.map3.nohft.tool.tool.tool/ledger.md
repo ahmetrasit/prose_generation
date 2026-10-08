@@ -1,0 +1,16 @@
+- memory: fasîla = young palm offshoot transplanted into a dug pit
+- memory: form III hâjara often carries a two-sided/reciprocal nuance
+- memory: separating pronoun "hum" before definite predicate restricts/specifies
+- memory: lām of li'l-fuqarā' continues the lām list of 59:7
+- not written: hājira/hajjarū (travel at midday heat, B005) - no Quran support to join the departure theme
+- not written: hijār hobble rope / bowstring (ه ج ر B007) - no theme it reshapes
+- not written: hajr B008 (unmatched excellence) - would compete with the cutting-off theme without support
+- not written: dawārī, time turning people through states (د و ر B003), dā'ira (B004) - no anchor in this ayah
+- not written: mūla as spider (م و ل B002) - disputed, no theme
+- not written: fadl B004 (claiming superiority) and B005 (single garment) - no theme
+- not written: baghy of sky raining beyond need (ب غ ي B006) - extends measure theme too far
+- not written: kharāj as money the giver brings out (خ ر ج B003) - overlaps the sadaqa reading
+- not written: rasūl branches (successive groups, milk, ease) - would need outside history
+- not written: ridwān B005 (overcoming), Raḍwā mountain - no theme
+- not written: mufqir "strong man" (ف ق ر B010) - fixed expression, no support
+- not written: و ل ه alternative for Allah and echo root ر ض ي - not identity or not needed
