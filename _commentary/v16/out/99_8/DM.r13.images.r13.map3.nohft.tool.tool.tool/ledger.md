@@ -1,0 +1,15 @@
+- memory: sharran specifies what the measure is of (tamyiz-type accusative)
+- memory: yarahu answer of condition, final long vowel shortened (jussive)
+- memory: fa- in 99:7 draws consequence of 99:6; wa- in 99:8 continues it
+- memory: Turkish "miskal" now a jeweller's gold/gem weight
+- memory: Turkish "zerre" narrowed to abstract particle/speck
+- memory: 18:47 bariza and the abraztu in the sh-r-r definition share root b-r-z
+- not written: sh-r-r B007 alqa 'alayhi sharashirahu (throwing oneself eagerly) - no Quranic support to join a theme
+- not written: sh-r-r B010 shirrat al-shabab (youthful vigour) - would speculate on evil's origin without support
+- not written: sh-r-r B004/B005 cutting, dripping roast; B011 quarrel; B012 plant - no work in the ayah's themes
+- not written: echo sh-r-y B002 shurwa "its like" beside mithl - echo root, not identity; mithl link made via the mithqal phrase instead
+- not written: echo r-w-y senses - echo root, not identity
+- not written: ra'y B002 opinion, B003 dream, B007-B011 - no work beside seeing one's deed
+- not written: 'amal B002 putting to work, B003 office, B006 labourers, B008-B012 - no theme for the evil half
+- not written: thiql B006 sluggishness, B007 pregnancy, B008-B009 - pregnancy belongs to 99:2's scene; others no work here
+- not written: 6:160 evil recompensed only with its like - same point carried by 40:40
