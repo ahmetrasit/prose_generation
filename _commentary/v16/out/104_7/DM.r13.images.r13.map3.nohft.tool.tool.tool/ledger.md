@@ -1,0 +1,9 @@
+- memory: tattaliʿu is the Form VIII (iftiʿāl) of ṭ-l-ʿ, t assimilated to ṭ
+- memory: Turkish "muttali olmak", "ıttıla" come from Arabic muṭṭaliʿ / iṭṭilāʿ
+- memory: Turkish personal name Fuat comes from fuʾād
+- not written: ṭulaʿa qubaʿa (woman who peeks and hides) - no work in any theme
+- not written: 3:179 yuṭliʿakum ʿalā l-ghayb - 19:78 already carried the unseen point
+- not written: 14:43 empty hearts on the Day - 28:10 covered the empty fuʾād; no added work
+- not written: 40:18 and 33:10 hearts rising to throats - no shared word, would blur the rising-fire theme
+- not written: 18:90-91 Dhu l-Qarnayn's wider journey - only the sunrise without cover served
+- not written: afʾida as a paucity plural pattern - unverifiable here, no thematic work
