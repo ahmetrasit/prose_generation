@@ -1,0 +1,8 @@
+- memory: الطارق means one who comes by night, knocking
+- memory: "هوت أمه" used in Arabic as an imprecation
+- memory: الناس linked to root ء ن س (alternative derivation from ن و س exists)
+- memory: هار in 9:109 is from root ه و ر, not ه و ي
+- not developed: none; the blow to the head merged into the blow, the decoy into the moths, lots cast into the scale, the crowd thinned into the flocks, mother and pit into one section
+- not developed: map's commentators' reading of أم as أم الرأس - exegetes' view, excluded
+- not developed: map's hadith of moths falling into fire - hadith, excluded
+- not developed: و ز ن B004 "ميزان النهار" - says النهار, not يوم; too thin to carry
