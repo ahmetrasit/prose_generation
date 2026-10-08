@@ -1,0 +1,12 @@
+- memory: wa here is the oath particle; the oaths' answer is 92:4
+- memory: Form V tafa''ala (tajallā) is the reflexive of Form II (jallā)
+- memory: after idhā the imperfect (yaghshā) reads as ongoing, the perfect (tajallā) as accomplished
+- memory: Turkish tecelli narrowed to divine manifestation / fate; Turkish cilâ and cilve come from jalāʾ / jilwa
+- memory: ithmid is antimony stone ground to powder and lined on the eyelid
+- memory: māshiṭa is the woman who combs and adorns the bride
+- memory: vocalization nahir in rajul nahir
+- not written: ن ه ر B004 harsh rebuke (93:10, 17:23) - no ground in this ayah's day; belongs to giving/asking elsewhere
+- not written: ن ه ر B005 bird chick, B006 snatching, B007 proper names and two stars, B008 cloud - no work in any theme
+- not written: ن ه ر B003 letting blood flow, widening a wound, bowel loosening - opening already carried by river and breadth
+- not written: ج ل و B004 exile (59:3) and B005 receding hairline - could join uncovering only by force
+- not written: 36:37 day stripped from night, 2:187 white thread - belong to the night/day scene of the surah commentary
