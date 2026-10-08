@@ -1,0 +1,11 @@
+- memory: نُزُل = meal set before an arriving guest
+- memory: الهيم = camels with unquenchable thirst
+- memory: Turkish "gani" and "gına" derive from Arabic ġanī / ġinā
+- memory: كريم (56:44) and المكرمين (51:24) share root ك ر م
+- not written: س م ن B004 quail possibly identified with salwā (2:57) - identification only reported as disputed; too thin to carry a theme
+- not written: س م ن B005-B009 (Samaniyya sect, dyes, place name, share-equalizing, worn wrappers) - no work in the ayah's themes
+- not written: غ ن ي B003 singing, B005 ġāniya, B006 marriage - no link to feeding or sufficiency here
+- not written: غ ن ي B004 dwelling long (cf. 10:24 كأن لم تغن بالأمس) - vanished crop image tempting but reaches the ayah only through another plant
+- not written: ج و ع B003 deliberate hunger for cure - no role in a scene of imposed hunger
+- not written: ج و ع B004 longing / "hungry pot" (kalıp) - fixed expressions only; hospitality theme already carried by سمن
+- not written: 12:49 year of relief after famine - would add a hope the ayah's scene does not offer
