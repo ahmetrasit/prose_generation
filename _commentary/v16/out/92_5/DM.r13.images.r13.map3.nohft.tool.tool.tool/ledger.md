@@ -1,0 +1,10 @@
+- memory: ammā ... fa- construction; answer clause opens with fa (here 92:7)
+- memory: past-tense verbs after conditional man describe a standing disposition
+- memory: a'ṭā (form IV) as causative of 'aṭā "take by hand"
+- memory: akdā al-ḥāfir = digger hit hard rock (53:34)
+- memory: aghnā 'anhu = availed, stood in for (92:11)
+- not written: ūqiyya weight (و ق ي B004) - a measure name, no bearing on the ayah's acts
+- not written: taʿāṭaynā fa-ʿaṭawtuhu, overcoming in a contest (ع ط و B007) - no theme it could carry
+- not written: yataʿāṭā maʿālī al-umūr (ع ط و B004) - positive reach, would blur the overreach contrast
+- not written: 20:50 God "gave everything its creation" - surah meeting scene; 93:5 carried divine giving
+- not written: 2:177 giving and muttaqūn in one ayah - belongs to the surah's meeting scene
