@@ -1,0 +1,12 @@
+- memory: form IV âmene transitive = "made safe", with people as subject = "believed"
+- memory: khayr used as elative "best" without the af'al pattern
+- memory: Turkish muhtar from Arabic mukhtâr, same root as khayr
+- memory: barīyya as hamza-softened form of the b-r-ʾ word
+- memory: Turkish beraat/berî from the b-r-ʾ root
+- not written: hyena-den istikhāra image - kalıp; no work in the ayah's themes
+- not written: hunter's blind (bur'a) - no link to creation or the verdict
+- not written: last night of month named barāʾ - no thematic work
+- not written: spear part ('āmil al-rumḥ), animal legs, beaten road - no theme to serve
+- not written: istibrāʾ (checking a slave woman) - unsuitable, no theme work
+- not written: āmīn in prayer - no link beyond Turkish loanword mention
+- not written: alternative derivation of barīyya from "soil" - not in supplied material
