@@ -1,0 +1,14 @@
+- memory: taḥāḍḍūna = tataḥāḍḍūna with one tāʾ elided
+- memory: taḥāḍḍūna and tawāṣaw share the reciprocal tafāʿul pattern
+- memory: ṭaʿām can serve as verbal noun (= iṭʿām) as well as "food"
+- memory: Turkish "miskin" now means lazy/sluggish; Turkish "hazîz" = lowest degree; "taam etmek" a formal register verb
+- memory: vowelling muskin in مرعى مسكن (active participle of askana)
+- memory: masākīn (poor) vs masākin (dwellings) differ by one long vowel, same root
+- not written: ح ض ض B003 ḥuḍaḍ bitter gum remedy - no link to the ayah's act or themes
+- not written: ط ع م B005–B014 (ripening, hunting bow, fat camel, good sense, horse muzzle, graft, power, throat grip, kissing, sequence) - no theme they ground here
+- not written: س ك ن B003 household, B007 knife, B008 rudder, B009 fixed positions - B008 balancing image too far from the ayah
+- not written: miskīn as "one whom poverty has stilled" etymology - not in supplied usage; kept to root sense plus B006
+- not written: 2:61 maskana struck on a people over food - complicates nothing the themes need
+- not written: 4:8 inheritance sharing with orphans and poor - the surah commentary's table scene
+- not written: 6:14 / 106:4 God as the one who feeds - would shift focus from the human act of urging
+- not written: variant readings of the verb - not in the supplied texts
