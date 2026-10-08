@@ -1,0 +1,11 @@
+- memory: طمّ الماء = water rose and covered everything (behind al-ṭāmma)
+- not written: ب ل د B002 chest, camel kneeling on its chest - no work in this ayah's theme
+- not written: ب ل د B003 space between brows, B004 lunar station - no tie to transgression or the lands
+- not written: ب ل د B005 bewildered hesitation, collapse - tempting foil to tughyan, but nothing in the ayah carries it
+- not written: ب ل د B007 dullness - same; no support in context
+- not written: ب ل د B008 large coarse frame vs Âd's stature (7:69) - adjective form, not the plural of place; too thin
+- not written: ب ل د B009/B010 dwelling, clinging to ground - belongs to the surah's travel/lowering scene, not this ayah's theme
+- not written: ب ل د B011 sword fighting, B012 ostrich egg proverb - no connection found
+- not written: echo ط غ و senses (small piece, voice, wild calf) - echo root, not identity
+- not written: 53:17 sight did not exceed - no room in any theme
+- not written: 2:256 rejecting taghut, firm handhold - would need a link to 89:26 binding; too thin
