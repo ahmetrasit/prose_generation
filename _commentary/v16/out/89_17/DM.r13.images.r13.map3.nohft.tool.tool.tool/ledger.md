@@ -1,0 +1,15 @@
+- memory: kallā as a strong rejecting and deterring particle
+- memory: bal as a turning particle moving from a rejected claim to the real point
+- memory: imperfect tukrimūna read as habitual, ongoing action
+- memory: ḥaḍḍa / taḥāḍḍūna = urge, urge one another
+- memory: zāhidīn in 12:20 = holding something of little worth
+- memory: mathwā = place of lodging or stay
+- memory: kerrama (17:70) and akrama share the root, different verb stems
+- memory: mukhtāl fakhūr shares the root of fākhartuhu (f-kh-r)
+- memory: aklan lammā = devouring wholesale, sweeping up
+- not written: yatim B005, woman called yatima until marriage - no bearing on this ayah
+- not written: k-r-m B005 jar lid and B007 femur head - no work in any theme
+- not written: h-w-n "one without karāma" as ikram's opposite - belongs to the 89:15-16 scene
+- not written: 90:14-16 feeding an orphan of kin in famine - overlaps 76:8 and 4:8
+- not written: third-person reading variant of tukrimūna - not in the supplied text
+- not written: 28:9 same "may benefit us or we adopt him" phrase for Moses - adds nothing beyond 12:21
