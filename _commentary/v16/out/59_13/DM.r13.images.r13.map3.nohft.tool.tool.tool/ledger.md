@@ -1,0 +1,13 @@
+- memory: لَ in لأنتم and the oath lams of 59:11-12 as emphatic/oath particles
+- memory: رهبةً functions as specification (tamyiz) of the elative أشدّ
+- memory: جيب as the chest opening of a garment; جناح as arm/side in 28:32
+- not written: ش د د B004 (أَشُدّ, maturity) - different word form, no bearing on the theme
+- not written: ش د د B006 (shadid = miser) - would need forcing a link to 59:9 shuhh
+- not written: ر ه ب B004/B005 (emaciated or tall camel), B006 (thin arrowheads) - no support in the ayah's situation
+- not written: ر ه ب B008 (rahb = sleeve) - reading 28:32 through it would rest on outside interpretation
+- not written: ر ه ب B002 istirhab by magicians (7:116) - fits "fear made through eyes" but crowded the fiqh theme
+- not written: ص د ر B003 (returning from water), B004-B006 - no work in this ayah
+- not written: و ل ه as alternative origin of Allah - etymology debate, no theme needs it
+- not written: 2:40 "wa iyyaya farhabun" to Bani Israel - would imply identifying the surah's people of the book
+- not written: 9:13 "God is more deserving that you fear Him" - redundant with 4:77 and 16:51
+- not written: other ق و م branches (standing, qiyama, qawama) - no grounding beyond B021/B016
