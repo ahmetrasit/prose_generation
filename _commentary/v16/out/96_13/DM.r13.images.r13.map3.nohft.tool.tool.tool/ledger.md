@@ -1,0 +1,11 @@
+- memory: ara'eyte's answer clause omitted; 96:14 stands in its place (grammar reading)
+- memory: tevellâ with direct object = take as ally; without = turn away (form V usage)
+- memory: vowelling el-velî for the rain name and el-velyu for nearness
+- memory: vowelling vuliyeti'l-ardu (passive) for وليت الأرض
+- memory: kezzebe as tafʿîl of attribution (B002 supports sense, not the pattern label)
+- not written: echo root ر و ي (rain, water-drawing, reflection) - withheld, not identity
+- not written: ر ء ي B003 dream, B007, B008 jinn, B009 lung, B010, B011 banner - no work in this ayah's theme
+- not written: و ل ي B003 authority (2:205 tevellâ ambiguity) - would need a reading the surah does not ground
+- not written: و ل ي B005, B008, B011–B016 - no support from the ayah or surah
+- not written: ك ذ ب B003 obligation idiom, B008 self - no link to the ayah's act
+- not written: 80:1 the Prophet's own tevellâ - beyond what the surah's theme needs
