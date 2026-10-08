@@ -1,0 +1,13 @@
+- memory: Turkish "namaz" is a Persian word; Turkish "salavat" narrowed to the formula on the Prophet
+- memory: qurbān (5:27) from the root of nearness (q-r-b); Turkish "kurban" from it
+- memory: uhilla = invoked/voiced over the slaughter; nuṣub = set-up stones
+- memory: rabbayānī (17:24) usually filed under r-b-w (echo, not identity)
+- memory: lām of "li-rabbika" marks dedication/allotment
+- not written: ṣ-l-w B004 snares, ṣallaytu li-fulān (plotting ruin) - vowel/form uncertain; would mislead beside li-rabbika
+- not written: ṣ-l-w B008 pounding stone, B009 ṣilliyān plant - no theme to join
+- not written: r-b-b B003 rabbānī, B010 arrow bag, B012 plant, B014 herd, B015 particle rubba, B016, B017 captain - no theme to join
+- not written: n-ḥ-r B008 naḥrīr (skilled expert) - no theme to join
+- not written: 94:7 fa-nṣab beside intaṣaba in prayer - meaning of fa-nṣab disputed (toil vs stand)
+- not written: 37:102-107 Ibrahim's son and ransom - uses dhabḥ, adds nothing to naḥr theme
+- not written: 26:18 Pharaoh "did we not raise you" - echo root; 17:24 suffices
+- not written: echo roots ص ل ي and ر ب و beyond 17:24 - withheld, not identity
