@@ -1,0 +1,11 @@
+- memory: Arabic imperfect (a'budu) covers present and future
+- memory: mā can be read as maṣdariyya ("my way of worshipping")
+- memory: active participle (ʿābid) names a lasting state, not a single act
+- memory: camels were tarred to treat mange
+- memory: vowelling ʿabidtu for the anger verb in "عبدت فصمت"
+- memory: anafa (pride) heard as raising the nose (anf)
+- not written: B002 servant of God by creation / "fī ʿibādī" - surah-level image, no new work in this ayah
+- not written: B007 strength, B009 hastening, B010 scattered groups, B012 perfume stone - no theme in this ayah
+- not written: ك ف ر, ق و ل, د ي ن images - carried by the first and sixth ayat, left to the surah commentary
+- not written: 43:81 "awwalu l-ʿābidīn" - conditional argument, does not join the participle theme
+- not written: barāʾa / mutual disavowal scene - surah-level, carried by the first ayah's family
