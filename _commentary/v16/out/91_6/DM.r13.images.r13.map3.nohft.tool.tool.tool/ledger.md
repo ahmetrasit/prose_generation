@@ -1,0 +1,13 @@
+- memory: mā can be read as maṣdar ("and its spreading") as well as relative
+- memory: ṭaḥā occurs only in 91:6 in the Quran
+- memory: dhalūl = tamed/broken-in animal; manākib = shoulders
+- memory: hawn = gentle, humble gait; akhlada ilā = clung to
+- memory: jāthimīn = fallen/crouched to the ground
+- memory: iftarasha shares root ف ر ش with firāsh
+- memory: Turkish "arazi" from plural arāḍī of arḍ
+- not written: ء ر ض B004 "ibn arḍ" stranger - no tie to the ayah's themes
+- not written: ء ر ض B007 presenting oneself - no support in surah
+- not written: ء ر ض B008 trembling, B009 cold, B011 festering wound, B012 possessed - bodily afflictions, no theme
+- not written: ء ر ض B010 termite (cf. 34:14 dābbat al-arḍ) - no word-level link to spreading or the surah
+- not written: ط ح و B003 vultures circling the slain - possible Thamud echo but no Quran support
+- not written: ط ح و B004 lowly people pushing each other - no anchor in ayah or surah
