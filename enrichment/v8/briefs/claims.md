@@ -15,6 +15,8 @@ Anything in a paragraph that a tradition note could support, contest, qualify, s
 - a connection the paragraph draws between verses, words or ideas;
 - a question the paragraph raises or settles, including one it settles only implicitly by choosing one sense over others (name the alternative it sets aside when the text shows it).
 Write claims made only in Turkish too: a paragraph may discuss a word without quoting it in Arabic.
+
+**A cited verse is not a claim; what the paragraph takes from it is.** Never write a claim that only restates what a verse says ("In 11:114 the Prophet is commanded to pray at the two ends of the day"): the readers would then grade every ordinary commentary on that verse as bearing on the page. Write what the paragraph reads in the verse and uses it for, with the words it turns on: "11:114's ṭarafay al-nahār (the two ends of the day) is cited as the Qurʾān naming as a pair the day's two edges that Arabic calls al-ʿaṣrān". When the paragraph retells a story across several verses, write one claim per point it draws from the story (not one per verse), naming the verses and words each point rests on. When the paragraph gives the verse a specific reading (a sense, a referent, a figure of speech), that reading is a claim.
 One claim per distinct point. A paragraph usually has two to six; a dense one more. Do not merge two points into one claim and do not split one point into several.
 
 ## OUTPUT
