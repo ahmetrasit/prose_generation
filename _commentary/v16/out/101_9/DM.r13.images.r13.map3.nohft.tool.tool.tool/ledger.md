@@ -1,0 +1,17 @@
+- memory: emmâ ... fe- answer structure; 101:9 is the answer clause of 101:8
+- memory: hâviye is the feminine active participle of hawā ("the falling one")
+- memory: tanwin on هَاوِيَةٌ read as indefinite "a pit"
+- memory: هِيَهْ in 101:10 refers back to hâviye
+- memory: vocalization huwiyy (down) / hawiyy (up), and hawiyy for a long stretch of time
+- memory: Turkish "hava" derives from Arabic هَواء
+- not written: hawat ummuhu used as an imprecation - outside the supplied texts and not needed
+- not written: ه و ي B007 flank hollowing from emaciation - adds nothing beyond the gaping wound
+- not written: ه و ي B008 swift running of camels - the eagle's dive already carries directed motion
+- not written: ه و ي B009 mutual stubbornness - no link to the ayah's themes
+- not written: ه و ي B010 empty false talk - would join lightness only by analogy
+- not written: ء م م B004 umma / B009 imām (judgment-day calling of each people) - analogy only, pulls away from the mother image
+- not written: ء م م B013 trivial thing - weight link only by analogy
+- not written: ء م م B005-B008, B011, B014-B016 - no work in any theme
+- not written: 69:25-27 left-hand book man with -iyah rhyme - belongs to 101:7 and 101:10 and the surah commentary
+- not written: 50:30 hell asking for more - bottomlessness already grounded by the word itself
+- not written: 9:109 collapse into the fire - different root; surah commentary covers it
