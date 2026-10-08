@@ -1,0 +1,14 @@
+- memory: idhā followed by a past verb presents a future event as certain
+- memory: reduplicated quadriliteral roots like z-l-z-l express repeated back-and-forth motion
+- memory: iḍṭirāb means agitated, unsettled motion (not suffering)
+- memory: qarār means settling, staying still
+- memory: dhalūl means tame, docile (of a mount); manākib shoulders/flanks
+- memory: hāmida still, lifeless; ihtazzat stirred, quivered; rabat swelled
+- not written: z-l-z-l B003 clear water easily swallowed - no link to the shaking theme
+- not written: ء ر ض B003 man apt for good like fertile earth - no support tying it to 99:1
+- not written: ء ر ض B004 "son of the earth" = stranger - could not join a theme
+- not written: ء ر ض B006 clinging to the ground (9:38) - belongs to 99:2's weight image
+- not written: ء ر ض B007 putting oneself forward - no theme
+- not written: ء ر ض B009 head cold - no theme
+- not written: ء ر ض B010 wood-eating creature (cf. 34:14 dābbat al-arḍ) - link to 99:1 too thin
+- not written: ء ر ض B011 festering wound - birth image carried by 99:2's words
