@@ -1,0 +1,17 @@
+- memory: form VIII istawā with two coordinated subjects expresses mutual equality
+- memory: negated imperfect lā yastawī states a general, timeless denial
+- memory: pronoun hum between subject and definite predicate makes the predicate exclusive
+- memory: la-in … la-nakhrujanna in 59:11 is an oath construction
+- memory: zuḥziḥa in 3:185 is passive ("was pulled away")
+- not written: س و ي B003/B004/B008 mounting, heading toward - no role in this ayah's equality
+- not written: س و ي B005 maturity, B009 open land, B010 saddle pad, B012 thirteenth night, B013 wealth equal to one's head - no theme support
+- not written: س و ي B011 "to omit, overlook" beside 59:19 forgetting - different root for forgetting, too thin
+- not written: س و ي B007 "other" - adds nothing beyond non-equality
+- not written: ص ح ب B003 yielding after resistance, B004 taking along, B005 son grown into companion - no anchor in surah
+- not written: ص ح ب B006 hide with hair left, B007 moss on water, B008 reddish donkey - no theme
+- not written: ن و ر B004 blossoming, B006 shying away/chaste woman, B008 soot for tattoo, B009 depilatory paste, B010 confusing, B011 yoke/clear mark - no grounding
+- not written: ج ن ن B005 jinn beside 59:16 shaytan - root coincidence only, no meaning link the ayah carries
+- not written: ج ن ن B006 madness beside 59:14 "do not reason" - analogy too loose
+- not written: ج ن ن B007 fetus, B009 grave, B010 heart, B012 snake, B013 masses, B014 beginning, B015 buzzing, B016 breastbones, B017 hiding place/market - no theme
+- not written: ف و ز B001 gambling-arrow "fāza" - chance image cuts against earned outcome of 59:18; kept out
+- not written: ف و ز B004 tent with pole in camps - no anchor
