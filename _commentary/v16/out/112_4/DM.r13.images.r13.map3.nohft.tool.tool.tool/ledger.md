@@ -1,0 +1,13 @@
+- memory: lam + jussive negates the past, reaching up to the present
+- memory: lahu and kufuwan fronted; kufuwan predicate of yakun, ahad its delayed subject
+- memory: kufuwan pronounced with w in place of the root's hamza (beyond surface/root contrast)
+- memory: kubkibu is a reduplicated form of kabba (repeated overturning)
+- memory: istakanu (3:146, 23:76) taken as root k-w-n, as the supplied entry files istikana
+- memory: Turkish mukafat derives from Arabic mukafa'a; Turkish mekan narrowed to "place"
+- not written: k-f-' B003 rhyme mismatch in poetry - surah's rhymes agree; would be ornament, no theme
+- not written: k-f-' B005 one year's palm yield / camels' milk-wool - only herd halves joined the pair theme
+- not written: k-w-n B006 bata bi-kinati su' - no theme work
+- not written: kana as emphatic filler, la yakunu Zaydan exception, kana al-amru mudh khuliqa - grammatical/unclear, no theme
+- not written: a-h-d B003, B004, B005, B006 (counting, Sunday, being alone, mount Uhud) - number ring belongs to surah commentary; proper name irrelevant
+- not written: variant readings of kufuwan - outside the supplied texts
+- not written: 8:65-66 counting fighters one against two - creaturely ratios, did not join the denial of an equal
