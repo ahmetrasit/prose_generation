@@ -1,0 +1,13 @@
+- memory: alam + jussive gives a past-tense rhetorical question expecting "yes"
+- memory: fa here marks immediate sequence with no interval
+- memory: wajada takes two objects here (found you as an orphan)
+- memory: āwā is the causative (form IV) of awā "to betake oneself"
+- memory: 93:7-8 plain past read as continuing the affirmed answer to the question
+- memory: Turkish vicdan now means conscience
+- not written: و ج د B002 existence/bringing into being - does not bear on finding an orphan; belongs to the surah's burial image
+- not written: ي ت م B005 woman called yatima until marriage - fixed expression, no work in this ayah
+- not written: echo root ج د د (grandfather, fortune, newness) - echo only, not identity
+- not written: ma'wā as Fire or Garden (79:39, 79:41) - final abode would pull away from the orphan theme
+- not written: 11:80 Lut wishing to betake himself to a strong support - repeats the Nuh's son contrast
+- not written: 12:21 mathwā of Yusuf - different root (th-w-y)
+- not written: yatim slowness as the herd's lagging animal - the herd scene belongs to the surah commentary; only recalled
