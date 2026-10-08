@@ -1,0 +1,13 @@
+- memory: le- + heavy -nne marks an oath-type sworn statement
+- memory: answer of law in 102:5 is suppressed; 102:6 is not its apodosis
+- memory: ʿayn al-yaqīn functions as maf'ūl muṭlaq / manner of seeing, like raʾya al-ʿayn in 3:13
+- memory: -hā in 102:7 refers back to al-jaḥīm (feminine)
+- memory: Turkish aynı/aynen and muayene derive from ʿayn / muʿāyana; Turkish göze = spring
+- not written: ع ي ن B003 (eye as guarding, bi-aʿyuninā) - the eye here is the human seer's, no theme carries God's watching eye
+- not written: ع ي ن B004 evil eye, B007 leaking skin, B008 sun's disc, B009 hollows/balance tilt, B010 cloud/rain, B012 ʿīna sale, B014-B017 - no support in the ayah or surah
+- not written: ر ء ي B003 dream, B005 riyāʾ, B006 mirror, B007 tarīya, B008, B009 lung, B011 banner, B013 araʾayta - riyāʾ/mirror reversal would be imposed, no surah word marks display
+- not written: ي ق ن B002 mawqūna (guarded secluded girl) - no bridge to certainty without invention
+- not written: echo root ر و ي - withheld, not identity
+- not written: 18:53 (saw the fire, ẓannū) - strength of ẓann there disputed; left out to avoid overclaiming
+- not written: variant passive reading of 102:6 - outside the supplied texts
+- not written: 67:30 maʿīn with araʾaytum - attractive but adds nothing to the themes
