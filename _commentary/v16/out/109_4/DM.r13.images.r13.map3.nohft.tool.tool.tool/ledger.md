@@ -1,0 +1,8 @@
+- memory: nominal sentence with active participle denotes settled attribute, verbal sentence denotes act
+- memory: hanaʾa (mahnūʾ) = tarring a camel as treatment for skin disease, repeated handling tames it
+- memory: vocalisation muʿabbad for المعبد (camel, road, honored one)
+- memory: verb vocalised ʿabidtu (fa-ṣamattu) for the anger sense
+- not written: ʿabada = strength, durability (B007) - no work in this ayah's theme beyond a forced "lasting" link
+- not written: mā ʿabada an faʿala, not delaying (B009) - fixed expression, no bearing on the ayah
+- not written: perfume-grinding stone (B012) - isolated object, joins no theme
+- not written: speaker's own past life among them (10:16) - not about worship; would overreach the past-tense reading
