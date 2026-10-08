@@ -1,0 +1,8 @@
+- memory: fu'ala pattern (humaza, lumaza, hutama) marks a habitual or intensive doer
+- memory: tafakkahun in 56:65 glossed as lamenting/regretting
+- memory: Turkish "dirayet" sense (managerial competence)
+- not written: د ر ي B004 sharpness, midra horn and hair-pin - no work in the theme of told knowledge
+- not written: د ر ي B006 mudara, gentle dealing with people - no link to the ayah or surah
+- not written: ح ط م B007 al-hatim at the Kaaba - place name, no thematic work here
+- not written: echo root د ر ر (milk, pearl, whirlpool) - sound family only, not identity
+- not written: wa ma yudrika (33:63, 80:3) left unanswered vs answered ma adraka - peripheral to the themes
