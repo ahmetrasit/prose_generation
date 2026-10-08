@@ -1,0 +1,8 @@
+- memory: taʿlīm vs iʿlām distinction (repetition until a trace forms in the learner), quoted from memory
+- memory: ʿallama takes two objects (learner and thing learned)
+- not written: maqlūm al-aẓfār (clipped claws = weak) - fixed idiom, no hold in this ayah's sense of the pen
+- not written: qalam as shears, iqlīm (region cut off), qallām plant, camel's miqlam, abū qalamūn cloth, unmarried qalama - no work in any theme
+- not written: ʿ-l-m split lip, ʿaylam sea/abundant well, ʿallām falcon, ʿaylām hyena - no support from the ayah or surah
+- not written: 29:48 (did not write with his right hand) - would tie this surah's addressee to it, which the Quran does not state here
+- not written: 18:65-66, 21:80, 12:101 (other things God taught) - 2:31-32 and 2:282 already carry the point
+- not written: 52:2-3 (lined book on parchment) - repeats the work of 68:1
