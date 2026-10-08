@@ -1,0 +1,13 @@
+- memory: سَنَدْعُ is indicative (sa- + imperfect); final wāw unwritten in the mushaf, as in 17:11 and 54:6
+- memory: sa- marks near, certain future
+- memory: الزبانية occurs only at 96:18 in the Quran
+- memory: Turkish "zebani" = monstrous hell-torturer, figuratively a cruel person
+- memory: أغنى (69:28) and استغنى (96:7) share root غ ن ي
+- not written: ز ب ن B004 scorpion's claws/stars - derivation doubted in the source, different form, no theme work
+- not written: ز ب ن B003 muzābana sale - its "pushing from the contract" rationale adds nothing beyond B001
+- not written: ز ب ن B006 taking one's need of food - no link to the ayah
+- not written: ز ب ن B001 man of zabūna / al-zabīn - vowels uncertain, nothing beyond the pushing image
+- not written: د ع و B005 walls collapsing one after another, B006 turns of fate, B007 riddles - no theme they could ground
+- not written: echo root د ع ع other senses (filling, herding call, etc.) - sound kin only, no identity
+- not written: 74:30 nineteen - number adds nothing to this ayah's theme
+- not written: 19:86 driving criminals to hell like herds to water - pushing scene already carried by 52:13
