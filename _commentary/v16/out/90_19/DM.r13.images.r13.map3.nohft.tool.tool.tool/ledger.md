@@ -1,0 +1,13 @@
+- memory: "hum" between subject and predicate works as an emphatic pronoun
+- memory: nominal predicate after past verb read as lasting state
+- memory: Turkish "şom ağızlı" continues shuʾm
+- memory: bird omen read from the direction of flight
+- memory: ḥinth in 56:46 also read as great sin, not only oath-breaking
+- not written: taʾayyā "lingering" (ء ي ي B001) - no link to "sign" sense; would only decorate the pass
+- not written: aṣḥaba "camel yields after difficulty" (ص ح ب B003) - different word, no work in this ayah
+- not written: water covered with moss (ص ح ب B007) - mere echo of covering
+- not written: kufr bowing, crown, coercion, naming, remote land, grave (B005-B007, B012, B014, B015) - no theme
+- not written: kaʾayyin in 12:105 filed in the āya family - decorative
+- not written: kāfūr fragrance origin - no covering reason attested for that sense; only family listing used
+- not written: Sham's direction relative to an east-facing orientation - not in texts
+- not written: ṭ-y-r in 76:7 mustaṭīr - not a focus root
