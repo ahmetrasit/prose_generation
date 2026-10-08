@@ -1,0 +1,13 @@
+- memory: wayl as invocation noun licensing an indefinite sentence opener
+- memory: nominative wayl signals a settled state rather than a wish
+- memory: fu'ala pattern = habitual doer, fu'la = its target
+- memory: Turkish "mahmuz" derives from Arabic mihmaz
+- memory: hidda and hidad share the root h-d-d
+- not written: kull B005 iklil/crown encircling - adds nothing beyond the ihata sense of kull itself
+- not written: kull B006 mosquito-net tent - enclosure scene rests on 104:8-9 words, surah commentary's
+- not written: kull B007 chest - no grounding in this ayah's act
+- not written: kull B008 short stout man - ageing/fullness scene carried by other ayat
+- not written: kull B009 throngs, B004 kalala, B010, B011 - no theme they reshape here
+- not written: kall as orphan (B002) - only the dependent sense joins, via 16:76
+- not written: fire kindled among people - rests on 104:6 words; slander-enmity link too thin here
+- not written: flock/shepherd and hunter scenes - carried by 104:2-8 words; spur and bow kept only as objects
