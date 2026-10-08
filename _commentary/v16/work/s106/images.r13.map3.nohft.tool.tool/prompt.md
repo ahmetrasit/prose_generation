@@ -1,0 +1,407 @@
+Surah: 106. Follow the brief below (surah_images.md) exactly. The evidence is text.md (the surah) and map.md (an earlier reader's map of the surah's image chains, with the dictionary phrases of their members, Quran passages and interactions; a proposal, not an authority) and your own knowledge of Arabic and the Quran. Return the prose and then the ledger, as surah_images.md specifies.
+
+When your discovery is complete and before you write your final output, run this command once for each ayah of the surah (106:1 to 106:4), each time with every Quran reference outside this surah that your output will use: `python3 /Volumes/aro/projects/prose_generation/_commentary/v16/missing.py <ayah> <refs separated by spaces>`. Each run lists refs from that ayah's earlier cross-reference list, by tier, that your refs do not include. That list is not authoritative and may be incomplete: judge each passage yourself, add it only where it supports or sharpens what you are writing, and leave the rest. To read a passage's Arabic before judging it, run `python3 /Volumes/aro/projects/prose_generation/_commentary/v16/missing.py text <refs>` (up to 40 refs per call) as often as you need. Run each command exactly as written, as the whole command: no cd, no && and no ; (such a command is refused and never runs). Also add any other passage you now recall that belongs, whether listed or not. Then write your final output. No other command or tool is available.
+
+===== _commentary/v16/prompts/r13/surah_images.md =====
+Write the Turkish commentary on the images of this surah for a curious reader
+who knows neither Arabic nor how lexical families work, and who already has the
+plain meaning. The map is an earlier reader's proposal: its chains, members,
+passages and interactions are your material, not your verdicts. Correct a
+member that does not hold, merge chains that are one image, and add what the
+map missed from your own knowledge of Arabic and the Quran.
+
+For each image:
+
+- Show the scene through its operation: what the objects are, how they work,
+  what the act does. Never flatten a mechanism into a label.
+- Say what it makes perceptible in the surah that a plain paraphrase could not.
+- Go through the surah in order and show what each ayah's words add to it.
+- Bring in the Quran passages that stage it, with the speaker, the situation
+  as the Quran itself tells it there and in the neighbouring ayat, and the
+  wording the connection needs.
+
+Then show where the images meet: a scene that holds two of them, and how
+together they carry the surah's movement.
+
+Develop every chain of the map, unless its members fail; a chain you leave out
+goes in the ledger with its reason. A family image is heard beside the word's
+meaning in its ayah, never in place of it; say so once. Keep root identity,
+family images and your own connections distinct; an echo root does not
+establish identity. Never invent a sense, source, citation or chronology. Use
+no hadith, no exegetes' views and no report from outside the Quran (no occasion
+of revelation, no name the Quran does not give, no date): the Quran, the map's
+dictionary phrases and Arabic usage carry the commentary. Name
+no dictionary or lexicographer in the prose, never mention the dictionary
+("sözlük"), the map, its chains or your own process, and do not hedge in the
+first person.
+
+Write continuous prose: one `##` section per image, then a `## Buluşmalar`
+section for the meetings; explain, do not dramatize; no lists and no closing
+recap. Every Arabic quotation goes in the reader tag, and every tag ends with
+its source, so the reader can check it:
+{ar:exact Arabic, tr:readable Turkish transliteration, gloss:Turkish meaning, source:…}
+- a dictionary phrase or a branch's sense: source:"<root letters>,<branch id>",
+  e.g. source:"ق و م,B016";
+- a Quran quotation: source:<surah:ayah>, e.g. source:72:16, the one ayah that
+  holds the quoted words, no ranges;
+- Arabic from your own memory that is not in the map's dictionary phrases:
+  source:"memory".
+A branch's sense given in Turkish without its Arabic, and a Quran passage named
+without quoting it, carry the source alone: {source:"ق و م,B016"},
+{source:15:41}. Outside the `Kaynaklar:` lines, never write a Quran reference
+outside a tag; quote the surah's own words in tags too, and name its ayat in
+words ("dördüncü ayet"). End each image section with one line, `Kaynaklar:`, giving its
+members as ayah, word, root and branch (e.g. 1:6 ٱلْمُسْتَقِيمَ ق و م B012).
+
+Output: the prose; then a line containing only
+=== LEDGER ===
+then, in plain English, one short line per item, a few words each:
+- not developed: <chain> - <why>
+- memory: <a claim about Arabic that neither the map nor the Quran text can check>
+
+===== _commentary/v16/work/s106/surah.r2/text.md =====
+# Surah 106
+
+- 106:1 لِإِيلَٰفِ قُرَيْشٍ
+- 106:2 إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ
+- 106:3 فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ
+- 106:4 ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ
+
+
+===== _commentary/v16/out/s106/surah.map3.nohft.tool/map.md (without ## Not carried) =====
+# Surah 106: map of image chains
+
+Note on evidence: the dictionary has no entry for ق ر ش (قُرَيْشٍ), nor for the roots of هَٰذَا and ٱلَّذِىٓ. Where قُرَيْشٍ is drawn on below, it is from memory and stated as such; it is never given as a member.
+
+## Chains
+
+### The two seasonal journeys bound into one unbroken cycle
+
+The surah's first image is a binding. إِيلَٰف in its seasonal use is the act of joining winter's journey to summer's so that the two make one continuous line, and the dictionary states this in the surah's own words. Winter and summer are defined against each other ("الشتاء خلاف الصيف", "الصيف الفصل المقابل للشتاء"). The image is two opposite halves of the year, each with its own departure, tied end to end so that nothing breaks between them. That is why 106:1 and 106:2 repeat the word: إِيلَٰف is named, and then what it binds is named. Familiarity (ء ل ف B005, "لزمته") is the same binding seen from inside: what is joined without a break becomes habitual. The surah's sequence hangs everything that follows on this cycle (لِ … فَلْيَعْبُدُوا۟).
+
+- 106:1 لِإِيلَٰفِ — ء ل ف B004 — "لإيلاف قريش" (maqayis;mufradat): the dictionary cites the surah's own phrase as the name of this branch; the cycle is named before it is described.
+- 106:2 إِۦلَٰفِهِمْ — ء ل ف B004 — "لتؤلف قريش رحلة الشتاء والصيف أي تجمع بينهما" (sihah): one dictionary phrase that joins إيلاف, رحلة, الشتاء and الصيف; the act is joining the two journeys.
+- 106:2 إِۦلَٰفِهِمْ — ء ل ف B004 — "لتؤلف قريش الرحلتين فيتصلا ولا ينقطعا" (tahdhib): the join is continuity, two journeys linked so that they are not cut off.
+- 106:1 لِإِيلَٰفِ — ء ل ف B002 — "ألفت الشيء وصلت بعضه ببعض" (tahdhib); "اجتماع مع التئام" (mufradat): the general operation, parts linked into a whole that holds together.
+- 106:1 لِإِيلَٰفِ — ء ل ف B005 — "ألفت الشيء وآلفته بمعنى واحد أي لزمته" (tahdhib): what is continually joined is held to; the cycle becomes habit.
+- 106:2 رِحْلَةَ — ر ح ل B001 — "الرحلة اسم ارتحال القوم للمسير" (tahdhib); "أصل واحد يدل على مضي في سفر" (maqayis): the unit being joined, a whole people's setting out on the move.
+- 106:2 ٱلشِّتَآءِ — ش ت و B001 — "الشتاء خلاف الصيف" (maqayis); "رحلة الشتاء والصيف" (mufradat): the dictionary defines winter by its opposite and cites the surah's pairing.
+- 106:2 وَٱلصَّيْفِ — ص ي ف B001 — "الصيف الفصل المقابل للشتاء" (mufradat): the other pole; summer is defined against winter.
+- 106:2 وَٱلصَّيْفِ — ص ي ف B006 [fixed expression] — "تمام الربيع الصَّيف": summer as what completes the year's earlier part; the cycle closes when summer comes.
+- 106:2 ٱلشِّتَآءِ / وَٱلصَّيْفِ — ش ت و B002 — "شتونا بالصمان وشتينا الصمان وهذه مشاتينا ومصايفنا ومرابعنا" (tahdhib): one phrase that sets winter quarters and summer quarters side by side in a single yearly round.
+
+From memory: the historical account that Hāshim ibn ʿAbd Manāf set up the two journeys, winter to Yemen and summer to Syria, and won the pacts that let them pass.
+
+Quran passages:
+- 34:18 (God, narrating Sabaʾ, whose scene opens at 34:15): "وَقَدَّرْنَا فِيهَا ٱلسَّيْرَ ۖ سِيرُوا۟ فِيهَا لَيَالِىَ وَأَيَّامًا ءَامِنِينَ": a journey measured out in linked stages and travelled in safety.
+- 34:19 (God, the same narration): "رَبَّنَا بَٰعِدْ بَيْنَ أَسْفَارِنَا … وَمَزَّقْنَٰهُمْ كُلَّ مُمَزَّقٍ": the reversal. Travellers asked for their linked journeys to be pulled apart, and were themselves torn apart.
+- 16:80 (God, listing His favours to people): "بُيُوتًۭا تَسْتَخِفُّونَهَا يَوْمَ ظَعْنِكُمْ وَيَوْمَ إِقَامَتِكُمْ": a life that alternates between setting out and staying.
+
+### The caravan camel: saddled, fattened, strong, trusty or failed
+
+رِحْلَة calls up the animal that makes the journey possible. Its entries give the whole working mount: the saddle, the strapping on of the saddle, the camel strong enough to carry it, the camel fattened after leanness until it can bear the journey, and the man who helps another by giving him a mount. إيلاف itself carries the sense of equipping ("يؤلفون يهيئون ويجهزون"). Two words from later ayat finish the scene. The أمن root names the trusty she-camel whose flagging and stumbling are not feared. The ع ب د root names the strong, fat she-camel, and also the reverse: the traveller left stranded because his mount gave out. The dictionary uses راحلة inside that ع ب د phrase. The ط ع م root names the camel with fat in its marrow. So the surah's ayat jointly supply a mount that is fed into strength and kept safe from failing, together with the failure it is kept from.
+
+- 106:2 رِحْلَةَ — ر ح ل B002 — "الرحل ما يوضع على البعير للركوب" (mufradat); "الرحل مركب للبعير والرحالة نحوه" (tahdhib): the saddle.
+- 106:2 رِحْلَةَ — ر ح ل B003 [fixed expression] — "رحلت البعير أرحله رحلا إذا شددت على ظهره الرحل" (sihah): strapping the saddle onto the camel's back, the first act of departure.
+- 106:2 رِحْلَةَ — ر ح ل B005 — "أرحلت الإبل سمنت بعد هزال فأطاقت الرحلة" (maqayis): camels grown fat after leanness until they can bear the journey, feeding that ends in capacity to travel.
+- 106:2 رِحْلَةَ — ر ح ل B005 — "بعير رحيل إذا كان قويا على حمل الرحل" (jamhara); "الراحلة البعير الذي يصلح للارتحال" (mufradat): the strong mount fit for travel.
+- 106:2 رِحْلَةَ — ر ح ل B008 — "راحلت فلانا إذا عاونته على رحلته وأرحلته إذا أعطيته راحلة" (sihah): help with someone's journey, and the gift of a mount.
+- 106:1 لِإِيلَٰفِ — ء ل ف B004 — "يؤلفون يهيئون ويجهزون" (tahdhib): إيلاف as preparing and outfitting.
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B007 — "ناقة ذات عبدة أي ذات قوة وسمن" (sihah): the she-camel with strength and fat.
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B011 — "أعبد بفلان بمعنى أبدع به إذا كلت راحلته أو عطبت" (sihah); "أعبد به إذا ذهبت راحلته وكذلك أبدع به" (tahdhib): the reverse, a traveller stranded when his mount tires, breaks down or is lost. The phrase names the راحلة.
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B011 — "بعير متعبد ومتأبد إذا امتنع على الناس صعوبة" (tahdhib): the camel that refuses its riders.
+- 106:4 أَطْعَمَهُم — ط ع م B007 — "المطعم من الإبل الذي يوجد في مخه طعم الشحم" (maqayis); "جزور طعوم وطعيم بين الغثة والسمينة" (sihah): the camel with fat in its marrow, feeding visible in the animal.
+- 106:4 وَءَامَنَهُم — ء م ن B001 — "الأمون الناقة الأمينة الوثيقة أو التي يؤمن فتورها وعثورها" (ayn;sihah;mufradat): the trusty she-camel whose flagging and stumbling are not feared; safety located in the mount.
+
+Quran passages:
+- 16:7 (God, on the livestock created for people, scene opening 16:5): "وَتَحْمِلُ أَثْقَالَكُمْ إِلَىٰ بَلَدٍۢ لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا بِشِقِّ ٱلْأَنفُسِ": pack animals carrying loads to distant lands.
+- 22:27 (God commanding Ibrāhīm to proclaim the Hajj): "يَأْتُوكَ رِجَالًۭا وَعَلَىٰ كُلِّ ضَامِرٍۢ يَأْتِينَ مِن كُلِّ فَجٍّ عَمِيقٍۢ": lean mounts coming to the House from every distant pass.
+- 12:59, 12:70 (narration of Yūsuf and his brothers' caravan in the famine): "جَهَّزَهُم بِجَهَازِهِمْ" and "جَعَلَ ٱلسِّقَايَةَ فِى رَحْلِ أَخِيهِ": a caravan outfitted, with the رحل as its saddle-pack.
+- 43:12–13 (God, on the ships and livestock given for riding): "لِتَسْتَوُۥا۟ عَلَىٰ ظُهُورِهِۦ ثُمَّ تَذْكُرُوا۟ نِعْمَةَ رَبِّكُمْ": seated on the mount's back, the rider remembers his Lord's favour. Mount and Lord in one movement.
+
+### The trodden road and the tamed beast
+
+The ع ب د root's concrete senses describe a journey's surfaces made submissive. They are the road worn smooth by travel ("الطريق المعبد وهو المسلوك المذلل"), the camel tarred until it is docile ("البعير المعبد المهنوء بالقطران المذلل"), and the man made low ("عبدت الرجل إذا ذللته"). Worship itself is defined through the same lowering ("العبودية إظهار التذلل والعبادة غاية التذلل"). Riding is staged in the رحل root as mounting someone's back and bearing what he loads on you. The scene runs from the route and its mount, both made ذلول for travel, to the people commanded to make themselves ذلول to the Lord who tamed both for them.
+
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B005 — "الطريق المعبد وهو المسلوك المذلل" (maqayis); "طريق معبد أي مذلل" (jamhara;mufradat): the road beaten smooth by those who travel it.
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B005 — "البعير المعبد المهنوء بالقطران المذلل" (maqayis;sihah): the camel tarred and made docile.
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B004 — "عبدت الرجل إذا ذللته وعبدت القوم اتخذتهم عبيدا" (jamhara): making a person low or subject.
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B003 — "العبودية إظهار التذلل والعبادة غاية التذلل" (mufradat); "تعبدت للرجل إذا تذللت له" (jamhara): worship as the furthest lowering of oneself.
+- 106:2 رِحْلَةَ — ر ح ل B009 — "ارتحل فلان فلانا إذا علا ظهره وركبه" (tahdhib); "رحلت له نفسي إذا صبرت على أذاه" (sihah): mounting a back, and bearing a burden laid on oneself.
+
+Quran passages:
+- 36:71–72 (God, on livestock He created for people): "وَذَلَّلْنَٰهَا لَهُمْ فَمِنْهَا رَكُوبُهُمْ وَمِنْهَا يَأْكُلُونَ": beasts tamed, giving both riding and food.
+- 67:15 (God addressing people): "جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًۭا فَٱمْشُوا۟ فِى مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ": the earth made tame like a mount, walked on, and eaten from.
+- 43:13 (as above): "سُبْحَٰنَ ٱلَّذِى سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُۥ مُقْرِنِينَ": the rider's words acknowledging who subdued the mount.
+
+### Seasoned and tarred: travel gear made serviceable
+
+Two of the surah's roots name the same operation: coating a working object with a thick substance so that it holds up in use. Under ع ب د are the camel whose whole skin is covered in tar and the ship sealed with pitch. Under ر ب ب is the waterskin seasoned with رُبّ, the thick residue (and leather worked with fat), which the dictionary calls "مربوب". The objects belong to the journey: the mount, the vessel, the skin that carries water.
+
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B005 — "المعبد من الإبل الذي عم جلده بالقطران" (tahdhib): the camel coated all over with tar.
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B005 — "المعبدة السفينة المقيرة" (sihah;tahdhib): the ship sealed with pitch.
+- 106:3 رَبَّ — ر ب ب B006 — "سقاء مربوب إذا أصلح بالرب" (jamhara); "رببت الأديم بالسمن، والدواء بالعسل، وسقاء مربوب" (mufradat): a waterskin made sound with thick residue, and leather treated with fat.
+- 106:3 رَبَّ — ر ب ب B006 — "رب فلان نحيه إذا جعل فيه الرب ومتنه به" (tahdhib): a skin vessel seasoned and strengthened.
+
+### The guarded road: pacts, safe-conduct and the feared road
+
+The journeys pass through other people's land. إيلاف also means granting protection ("يؤلفون يجيرون"), and the ر ب ب root names the binding pact and the people bound by it. Against these stands the road that is feared, and the dictionary explains that what frightens on it is the highwayman ("وإنما يخيف فيه قاطع الطريق"). Granting safe-conduct is the أمن root's own term ("الأمان إعطاء الأمنة"), and entering under someone's protection is "استأمن إليه دخل في أمانه". The scene is a caravan route held open by pacts and protection, with the robbed road as its reverse.
+
+- 106:1 لِإِيلَٰفِ — ء ل ف B004 — "يؤلفون يجيرون" (tahdhib): إيلاف as granting protection (جوار).
+- 106:1 لِإِيلَٰفِ — ء ل ف B004 — "لهم إلف وليس لكم إيلاف" (tahdhib): one party holds the إيلاف and the other does not; the pact belongs to some and not to others.
+- 106:3 رَبَّ — ر ب ب B011 — "الربابة: العهد والميثاق؛ الأربة أهل الميثاق" (sihah); "العقد في موالاة الغير: الربابة" (mufradat): the binding pact of alliance, and the people bound by it.
+- 106:4 خَوْفٍۭ — خ و ف B002 — "طريق مخوف يخافه الناس ومخيف يخيف الناس" (ayn); "طريق مخوف لأنه لا يخيف وإنما يخيف فيه قاطع الطريق" (sihah): the feared road, where the robber is the source of fear.
+- 106:4 وَءَامَنَهُم — ء م ن B001 — "الأمان إعطاء الأمنة" (maqayis;ayn); "استأمن إليه دخل في أمانه" (sihah): granting safe-conduct and coming under it.
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B010 — "العباديد والعبابيد الأطراف البعيدة والأشياء المتفرقة والطرق المختلفة" (tahdhib): far-flung edges and roads branching in every direction, the open country the route crosses.
+
+From memory: the historical account that Hāshim and his brothers obtained agreements from the rulers of Syria, Yemen, Abyssinia and Iraq and from the tribes along the way. This is the sense in which the commentators read إيلاف as حبل/عهد. Also from memory: the Arabs spared Quraysh's caravans as "أهل الحرم".
+
+Quran passages:
+- 29:67 (God, to the Meccans): "جَعَلْنَا حَرَمًا ءَامِنًۭا وَيُتَخَطَّفُ ٱلنَّاسُ مِنْ حَوْلِهِمْ": safety at the centre, snatching all around.
+- 28:57 (the Meccans' objection, and God's answer): "نُتَخَطَّفْ مِنْ أَرْضِنَآ ۚ أَوَلَمْ نُمَكِّن لَّهُمْ حَرَمًا ءَامِنًۭا": their fear of being snatched, answered by the secure sanctuary.
+- 34:18 (as above): "سِيرُوا۟ فِيهَا لَيَالِىَ وَأَيَّامًا ءَامِنِينَ": a road travelled in safety.
+
+### Stages and seasonal quarters: setting out and staying
+
+The journey is a rhythm of departing and halting. The stage is the place one halts at and moves on from. The رحل is a man's dwelling and the household goods he carries, so the home travels. Winter and summer each have a verb for staying put through the season and a noun for the place stayed in: مشتى, مصيف. The ر ب ب root names staying in a place without leaving it, and the spot camels keep to. The House is the place one returns to ("المأوى والمآب"). The scene is a people moving out in two seasons through stages and seasonal quarters, then coming back to the place they never leave in heart.
+
+- 106:2 رِحْلَةَ — ر ح ل B006 — "المرحلة الموضع الذي تنزل به من حيث ترتحل" (jamhara); "المرحلة المنزل يرتحل منها وما بين المنزلين مرحلة" (tahdhib): the halting place and the distance between halts.
+- 106:2 رِحْلَةَ — ر ح ل B004 — "الرحل مسكن الرجل وما يستصحبه من الاثاث" (sihah): a man's dwelling and the goods he takes with him, a home that moves.
+- 106:2 ٱلشِّتَآءِ — ش ت و B002 — "شتوت بموضع كذا وتشتيت أقمت به الشتاء" (sihah); "الموضع المشتاة والمشتى" (maqayis;ayn;tahdhib): staying somewhere through winter, and the winter quarters.
+- 106:2 وَٱلصَّيْفِ — ص ي ف B003 — "صاف بالمكان أي أقام به الصَّيف واصطاف مثله والموضع مصيف ومصطاف" (sihah): staying somewhere through summer, and the summer quarters.
+- 106:2 رِحْلَةَ — ر ح ل B007 — "رحلته أظعنته أي أزلته عن مكانه" (mufradat): the reverse, being driven out of one's place.
+- 106:3 رَبَّ — ر ب ب B007 — "أرب فلان بالمكان إذا أقام به فلم يبرحه؛ مرب الإبل أي حيث لزمته" (tahdhib): staying in a place without leaving, the spot camels keep to.
+- 106:3 ٱلْبَيْتِ — ب ي ت B001 — "أصل واحد وهو المأوى والمآب ومجمع الشمل" (maqayis): the house as shelter and as the place one returns to.
+- 106:3 ٱلْبَيْتِ — ب ي ت B001 — "أصل البيت مأوى الإنسان بالليل" (mufradat); "البيت سمي بيتا لأنه يبات فيه" (tahdhib): the house as the place one spends the night.
+- 106:4 وَءَامَنَهُم — ء م ن B001 — "مأمنه منزله الذي فيه أمنه" (mufradat): the dwelling as the place of one's safety.
+
+Quran passages:
+- 16:80 (God, listing favours): "بُيُوتًۭا تَسْتَخِفُّونَهَا يَوْمَ ظَعْنِكُمْ وَيَوْمَ إِقَامَتِكُمْ": houses of hide, light enough to carry on the day of departure and the day of staying.
+- 2:125 (God recalling the House's founding): "وَإِذْ جَعَلْنَا ٱلْبَيْتَ مَثَابَةًۭ لِّلنَّاسِ وَأَمْنًۭا": the House as the place people return to, and as safety.
+- 34:18 (as above): "قُرًۭى ظَٰهِرَةًۭ وَقَدَّرْنَا فِيهَا ٱلسَّيْرَ": staging posts in sight of one another.
+
+### The House its familiars cling to: the tame birds of Mecca
+
+The ء ل ف root has a concrete picture that the surah's words gather around. أوالف are the birds that cling to a place, and the dictionary names them as "أوالف الطير التي بمكة". They are the domestic doves that keep to the houses, and the dictionary's phrase joins ألف and البيوت. In the ط ع م root, the doves' billing is the image of mouths fed into mouths. The ر ب ب root names abiding in a place and not leaving it. The scene is Mecca's tame birds, which go out and always return to the houses they are used to, settled and fed there, a picture of إِيلَٰف, ٱلْبَيْت and أَطْعَمَهُم together.
+
+- 106:1 لِإِيلَٰفِ — ء ل ف B005 — "أوالف الطير التي بمكة" (maqayis): the birds attached to Mecca.
+- 106:2 إِۦلَٰفِهِمْ — ء ل ف B005 — "أوالف الحمام دواجنها التي تألف البيوت" (tahdhib); "أوالف الطير ما ألفت الدار" (mufradat): the dictionary joins إلف and البيوت/الدار; doves kept at home that cling to the houses.
+- 106:1 لِإِيلَٰفِ — ء ل ف B005 — "آلفت المكان والقوم" (maqayis); "فلان قد ألف هذا الموضع يألفه إلفا" (sihah): becoming used to a place and its people.
+- 106:1 لِإِيلَٰفِ — ء ل ف B005 — "ألفت فلانا إذا أنست به" (tahdhib): ease and closeness with someone.
+- 106:3 ٱلْبَيْتِ — ب ي ت B001 — "أصل واحد وهو المأوى والمآب ومجمع الشمل" (maqayis): the house the birds return to.
+- 106:3 رَبَّ — ر ب ب B007 — "رب بالمكان وأرب إذا أقام به" (jamhara): staying in place.
+- 106:4 أَطْعَمَهُم — ط ع م B013 — "التطاعم إدخال الفم في الفم كما يفعل الحمام عند التقبيل" (tahdhib): the doves' mouth-to-mouth billing; feeding pictured with the dove.
+
+From memory: the tradition that game and birds of the Haram are inviolate (5:95–96 forbids killing game while in iḥrām). The birds of 105:3 ("طَيْرًا أَبَابِيلَ") are the House's birds of defence in the preceding surah.
+
+### Gathered from dispersion around the House
+
+Joining has a collective side: bringing people together after they were scattered ("ألفت بينهم تأليفا إذا جمعت بينهم بعد تفرق"), completing a group to a thousand ("آلفت القوم صيرتهم ألفا"), winning hearts. The ر ب ب root also names multitudes, and the dictionary uses the word ألوف inside that ر ب ب definition. It also gives a herd and water named for its gathering. The house is "مجمع الشمل", where what was dispersed is gathered. The reverse is ع ب د's العباديد, bands of people going off in every direction. The scene is a scattered people drawn together into a mass, held together around one House.
+
+- 106:1 لِإِيلَٰفِ — ء ل ف B002 — "ألفت بينهم تأليفا إذا جمعت بينهم بعد تفرق" (tahdhib); "كل شيء ضممت بعضه إلى بعض فقد ألفته تأليفا" (maqayis): gathering people after they were scattered.
+- 106:1 لِإِيلَٰفِ — ء ل ف B001 — "آلفت القوم صيرتهم ألفا" (maqayis;sihah): making a group up to a thousand.
+- 106:2 إِۦلَٰفِهِمْ — ء ل ف B003 — "تألفته على الإسلام ومنه المؤلفة قلوبهم" (sihah); "أمر الله نبيه بتألفهم أي بمقاربتهم وإعطائهم من الصدقات" (tahdhib): winning people over by drawing them close and giving to them.
+- 106:3 رَبَّ — ر ب ب B004 — "الربي: واحد الربيين، وهم الألوف من الناس؛ الرباب خمس قبائل تجمعوا" (sihah); "الربيون: الألوف؛ الربيون: الجماعات الكثيرة" (tahdhib): multitudes, thousands, tribes banded into one. The phrase joins ر ب ب with ألوف.
+- 106:3 رَبَّ — ر ب ب B014 — "الربرب: جماعة البقر، وكذلك الإبل" (tahdhib): a herd held together.
+- 106:3 رَبَّ — ر ب ب B013 — "الربب وهو الماء الكثير سمي بذلك لاجتماعه" (maqayis): water named for its gathering.
+- 106:3 ٱلْبَيْتِ — ب ي ت B001 — "أصل واحد وهو المأوى والمآب ومجمع الشمل" (maqayis): the house as the gathering place of the scattered.
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B010 — "العباديد الفرق من الناس الذاهبون في كل وجه وكذلك العبابيد" (sihah): the reverse, bands of people dispersing in every direction.
+
+From memory, not from the dictionary: the classical derivation of قريش from التقرّش, gathering after dispersal, when Quṣayy brought the tribe together at Mecca. On this derivation the tribe's own name belongs to this chain.
+
+Quran passages:
+- 3:103 (God addressing the believers): "إِذْ كُنتُمْ أَعْدَآءًۭ فَأَلَّفَ بَيْنَ قُلُوبِكُمْ": enemies whose hearts were joined.
+- 8:63 (God to the Prophet): "لَوْ أَنفَقْتَ مَا فِى ٱلْأَرْضِ جَمِيعًۭا مَّآ أَلَّفْتَ بَيْنَ قُلُوبِهِمْ وَلَٰكِنَّ ٱللَّهَ أَلَّفَ بَيْنَهُمْ": the joining belongs to God.
+- 9:60 (the list of zakat recipients): "وَٱلْمُؤَلَّفَةِ قُلُوبُهُمْ".
+- 3:146 (God on the prophets' followers): "رِبِّيُّونَ كَثِيرٌۭ": the ر ب ب multitudes.
+- 34:19 (as above): "وَمَزَّقْنَٰهُمْ كُلَّ مُمَزَّقٍ": the gathered people scattered.
+- 3:96 (God on the first House): "إِنَّ أَوَّلَ بَيْتٍۢ وُضِعَ لِلنَّاسِ لَلَّذِى بِبَكَّةَ": the House set down for all people.
+
+### The empty belly and the provisioned year: winter famine, summer supplies, feeding
+
+Hunger is defined by food: "الألم الذي ينال الحيوان من خلو المعدة من الطعام". It widens into the famine year, and the dictionary says the Arabs call that famine شتاء: "العرب تسمي القحط شتاء؛ أراد بالشتاء المجاعة". So 106:2's winter already carries 106:4's hunger. Summer carries the opposite: the summer provisions ("صائفة القوم ميرتهم في الصيف") and the pasture that grows in summer. Feeding answers hunger, and the ط ع م root extends from giving food to a living well earned ("الطعمة وجه المكسب") and the generous host. The scene is a year whose lean season threatens famine, met by journeys that bring provisions home and by a Feeder who turns empty bellies full.
+
+- 106:4 جُوعٍۢ — ج و ع B001 — "الألم الذي ينال الحيوان من خلو المعدة من الطعام" (mufradat); "الجوع ضد الشبع" (maqayis;jamhara;sihah): hunger as an empty stomach, defined against fullness and through food.
+- 106:4 جُوعٍۢ — ج و ع B002 — "المجاعة عام فيه جوع" (ayn;tahdhib); "المجاعة عبارة عن زمان الجدب" (mufradat): the famine year, the time of drought.
+- 106:2 ٱلشِّتَآءِ — ش ت و B004 — "العرب تسمي القحط شتاء؛ أراد بالشتاء المجاعة؛ الناس إذ ذاك مرملون مشتون؛ أشتى القوم فهم مشتون إذا أصابتهم مجاعة" (tahdhib): winter as the name of famine, so winter in 106:2 carries 106:4's hunger.
+- 106:2 ٱلشِّتَآءِ — ش ت و B002 — "أشتى القوم إذا دخلوا في الشتاء وشتوا إذا أصابهم الشتاء" (maqayis): winter coming upon people.
+- 106:2 وَٱلصَّيْفِ — ص ي ف B003 — "صائفة القوم ميرتهم في الصَّيف" (sihah): the summer provisions, food brought in.
+- 106:4 جُوعٍۢ — ج و ع B003 — "أجاعه وجوعه" (sihah); "أجعته وجوعته فجاع يجوع" (ayn;tahdhib): starving someone; hunger as something done to a person, the reverse of feeding.
+- 106:4 أَطْعَمَهُم — ط ع م B002 — "استطعمه سأله أن يطعمه وأطعمته الطعام" (sihah): asking to be fed, and feeding.
+- 106:4 أَطْعَمَهُم — ط ع م B001 — "الطعام اسم جامع لكل ما يؤكل" (ayn); "أصل في تذوق الشيء والطعام هو المأكول والإطعام يقع حتى الماء" (maqayis): food in general, and feeding that includes water.
+- 106:4 أَطْعَمَهُم — ط ع م B004 — "الطعمة وجه المكسب وجعلت الضيعة طعمة" (sihah); "رجل طاعم حسن الحال ومطعام كثير القرى ومطعم مرزوق والطعمة المأكلة" (maqayis): a means of living, a granted livelihood, a man well off and provided for.
+- 106:3 ٱلْبَيْتِ — ب ي ت B005 [fixed expression] — "ماله بيت ليلة وبيته ليلة أي قوت ليلة" (sihah): having not even one night's food, the edge of want.
+- 106:3 رَبَّ — ر ب ب B016 — "الربى: الحاجة؛ … الربى: النعمة والإحسان" (tahdhib): need, and the favour that meets it.
+
+From memory: the account that Hāshim (named for crushing bread, هشم الثريد) fed Mecca in a year of famine with bread brought by the caravan. Also from memory: قرش in the sense of earning and collecting, gathering a living bit by bit. The ق ر ش entry is not in this dictionary.
+
+Quran passages:
+- 12:47–48 (Yūsuf interpreting the king's dream): "ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ سَبْعٌۭ شِدَادٌۭ يَأْكُلْنَ مَا قَدَّمْتُمْ": famine years that devour stores.
+- 12:65 (Yūsuf's brothers, whose provisioning journey opens at 12:58): "وَنَمِيرُ أَهْلَنَا … وَنَزْدَادُ كَيْلَ بَعِيرٍۢ": a caravan bringing ميرة home in famine.
+- 14:37 (Ibrāhīm's prayer at the House): "بِوَادٍ غَيْرِ ذِى زَرْعٍ عِندَ بَيْتِكَ ٱلْمُحَرَّمِ … وَٱرْزُقْهُم مِّنَ ٱلثَّمَرَٰتِ": a valley with no crops beside the House, whose food must come from elsewhere.
+- 2:126 (Ibrāhīm's prayer): "رَبِّ ٱجْعَلْ هَٰذَا بَلَدًا ءَامِنًۭا وَٱرْزُقْ أَهْلَهُۥ مِنَ ٱلثَّمَرَٰتِ": safety and food asked for together.
+- 28:57 (God answering the Meccans): "يُجْبَىٰٓ إِلَيْهِ ثَمَرَٰتُ كُلِّ شَىْءٍۢ رِّزْقًۭا مِّن لَّدُنَّا": produce of every kind collected into the sanctuary.
+- 26:79 (Ibrāhīm describing his Lord): "وَٱلَّذِى هُوَ يُطْعِمُنِى وَيَسْقِينِ": the Lord as the one who feeds, with the same relative-clause shape as 106:4.
+- 6:14 (the Prophet commanded to say): "وَهُوَ يُطْعِمُ وَلَا يُطْعَمُ".
+- 51:56–57 (God): "وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ … وَمَآ أُرِيدُ أَن يُطْعِمُونِ": worship asked for, feeding not. The reverse of the host and guest relation.
+- 36:47 (the unbelievers to the believers): "أَنُطْعِمُ مَن لَّوْ يَشَآءُ ٱللَّهُ أَطْعَمَهُۥٓ": those who were fed refuse to feed.
+- 88:7 (on the food of the Fire): "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍۢ": food that does not lift hunger, the reverse of 106:4.
+
+### The seasons' rains, pasture and ripening
+
+The season words carry their rains: winter rain and summer rain, and the pasture the summer rain brings up. The ر ب ب root holds the layered cloud, named "لأنه يرب النبات"; the cloud that stays ("أربت … السحابة أي دامت"); water gathered in plenty; and a soft plant that does not wither in summer. The ط ع م root holds the palm whose fruit has ripened and taken on flavour. The scene runs from cloud to rain to pasture to edible fruit: the year as weather that ends in food. Mecca's barren valley (14:37) is the place this chain is missing from, which is why the journeys and the feeding are needed.
+
+- 106:2 ٱلشِّتَآءِ — ش ت و B003 — "الشتي المطر الذي يقع في الشتاء" (tahdhib): winter rain.
+- 106:2 وَٱلصَّيْفِ — ص ي ف B002 — "الكلأ الذي ينبت في الصَّيف صيفي وكذلك المطر" (tahdhib); "الصَّيف المطر الذي يجيء بعد الربيع" (ayn): summer rain, and the pasture it raises.
+- 106:3 رَبَّ — ر ب ب B008 — "الرباب: السحاب، سمي بذلك لأنه يرب النبات" (mufradat); "الربابة: السحابة التي قد ركب بعضها بعضا" (tahdhib): the layered cloud, named for raising plants.
+- 106:3 رَبَّ — ر ب ب B007 — "أربت الجنوب والسحابة أي دامت" (sihah): the south wind and the cloud that stay.
+- 106:3 رَبَّ — ر ب ب B013 — "الربب، بالفتح: الماء الكثير، ويقال العذب" (sihah): abundant, sweet water.
+- 106:3 رَبَّ — ر ب ب B012 — "الربة: بقلة ناعمة؛ اسم لعدة من النبات لا تهيج في الصيف" (tahdhib): a soft herb that does not wither in summer. The phrase joins ر ب ب and الصيف.
+- 106:4 أَطْعَمَهُم — ط ع م B005 [fixed expression] — "أطعمت النخلة واطعمت البسرة صار لها طعم وأخذت الطعم" (sihah): the palm's fruit ripened to flavour.
+
+Quran passages:
+- 14:37 (as above): "بِوَادٍ غَيْرِ ذِى زَرْعٍ": the valley with no crops.
+- 34:15 (God on Sabaʾ): "جَنَّتَانِ عَن يَمِينٍۢ وَشِمَالٍۢ ۖ كُلُوا۟ مِن رِّزْقِ رَبِّكُمْ": gardens and the provision of "your Lord".
+
+### Fear removed: expected harm, the night raid, the arrow turned aside
+
+The surah's last pair rests on a dictionary opposition: "الأمن ضد الخوف" and "الخوف ضد الأمن". Fear is the expectation of harm from a sign. Security is the heart settled and the fear gone. The roots also stage the harm itself. The ب ي ت root holds the night attack (البيات, falling on people by night), the danger that belongs to the house's own hour. The ص ي ف root holds God turning someone's harm away from one, using the arrow that veers off its target. The خ و ف root holds a diminishing that fear brings, a gradual taking from the edges. The scene runs from a threatened people, open to the night raid and to slow attrition, to their Lord turning the arrow aside and making them safe.
+
+- 106:4 خَوْفٍۭ — خ و ف B001 — "الخوف توقع مكروه عن أمارة مظنونة أو معلومة ويضاد الخوف الأمن" (mufradat); "الخوف ضد الأمن خاف يخاف خوفا" (jamhara): fear as expecting harm, defined against security.
+- 106:4 خَوْفٍۭ — خ و ف B001 — "أصل واحد يدل على الذعر والفزع" (maqayis): terror and alarm.
+- 106:4 وَءَامَنَهُم — ء م ن B001 — "الأمن ضد الخوف" (ayn;sihah): the dictionary joins the surah's two words as opposites.
+- 106:4 وَءَامَنَهُم — ء م ن B001 — "أصل الأمن طمأنينة النفس وزوال الخوف" (mufradat): security as the soul at rest and fear gone.
+- 106:4 خَوْفٍۭ — خ و ف B004 — "والتخوف التنقص" (ayn); "تخوفناهم أي تنقصناهم تنقصا اقتضاه الخوف منه" (mufradat): taking away bit by bit, a diminishing brought on by fear.
+- 106:4 خَوْفٍۭ — خ و ف B002 — "التخويف من الله تعالى هو الحث على التحرز" (mufradat): God's warning as a push toward caution.
+- 106:3 ٱلْبَيْتِ — ب ي ت B004 — "البيات والتبييت أن تأتي العدو ليلا" (maqayis); "بيت القوم إذا أوقعت بهم ليلا" (jamhara): the night raid.
+- 106:2 وَٱلصَّيْفِ — ص ي ف B005 — "أصاف الله عني شر فلان أي صرفه وعدل به" (sihah): God turning someone's harm away.
+- 106:2 وَٱلصَّيْفِ — ص ي ف B005 — "صاف السهم عن الهدف يصيف صيفا إذا مال" (maqayis): the arrow veering from its target.
+
+Quran passages:
+- 16:112 (God's parable of a town): "كَانَتْ ءَامِنَةًۭ مُّطْمَئِنَّةًۭ يَأْتِيهَا رِزْقُهَا رَغَدًۭا مِّن كُلِّ مَكَانٍۢ فَكَفَرَتْ بِأَنْعُمِ ٱللَّهِ فَأَذَٰقَهَا ٱللَّهُ لِبَاسَ ٱلْجُوعِ وَٱلْخَوْفِ": the surah's two gifts reversed into the same two words.
+- 24:55 (God's promise to the believers): "وَلَيُبَدِّلَنَّهُم مِّنۢ بَعْدِ خَوْفِهِمْ أَمْنًۭا ۚ يَعْبُدُونَنِى": fear changed into security, followed by worship, the same sequence as 106:3–4.
+- 2:155 (God to the believers): "وَلَنَبْلُوَنَّكُم بِشَىْءٍۢ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍۢ": fear, hunger and diminishing (compare التخوف التنقص).
+- 7:97 (God on the towns): "أَفَأَمِنَ أَهْلُ ٱلْقُرَىٰٓ أَن يَأْتِيَهُم بَأْسُنَا بَيَٰتًۭا وَهُمْ نَآئِمُونَ": false security against the night raid.
+- 7:4 (God on destroyed towns): "فَجَآءَهَا بَأْسُنَا بَيَٰتًا أَوْ هُمْ قَآئِلُونَ".
+- 16:47 (God on those who plot evil, scene from 16:45): "أَوْ يَأْخُذَهُمْ عَلَىٰ تَخَوُّفٍۢ": seizure by gradual diminishing.
+- 13:41 (God): "نَأْتِى ٱلْأَرْضَ نَنقُصُهَا مِنْ أَطْرَافِهَا": land taken from its edges.
+- 8:26 (God reminding the believers): "تَخَافُونَ أَن يَتَخَطَّفَكُمُ ٱلنَّاسُ فَـَٔاوَىٰكُمْ … وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ": fear of being snatched, then shelter and provision.
+- 105:1–5 (the preceding surah, on the army of the Elephant): "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ … فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ": the House's Lord turning an attack away. From memory: some early readers joined لِإِيلَٰفِ to 105:5.
+- 3:97 (God on the House): "وَمَن دَخَلَهُۥ كَانَ ءَامِنًۭا"; 48:27 (God's promise of entry to the Sacred Mosque): "ءَامِنِينَ … لَا تَخَافُونَ".
+
+### The master of the house: owner, host, protector, and those who serve him
+
+رَبَّ هَٰذَا ٱلْبَيْتِ is concrete in the dictionary: "رب الدار ورب الفرس", the owner of the house as of the horse, "السيد المطاع", the one who puts things right. Facing him are the عبد, the owned man, and worship as obedience and lowering oneself. The master of a house in Arab custom hosts and protects. The ط ع م root names the man of plentiful hospitality (مطعام كثير القرى), and the host's opposite, the pot that is not full. The أمن root names granting safe-conduct. The ر ب ب root names the man who governs his people. The scene is a household's lord who feeds his dependants and guests and guarantees their safety, and in return is owed service by those under his roof. The surah sets the command (فَلْيَعْبُدُوا۟) between the house's Lord and the two acts of feeding and protecting.
+
+- 106:3 رَبَّ — ر ب ب B001 — "رب الدار ورب الفرس" (mufradat): the owner of the house. The dictionary's phrase is the ر ب ب + house pairing of the surah.
+- 106:3 رَبَّ — ر ب ب B001 — "ورب كل شيء مالكه" (jamhara); "يكون الرب: المالك؛ ويكون الرب: السيد المطاع؛ ويكون الرب: المصلح" (tahdhib): owner, obeyed master, the one who puts things right.
+- 106:3 رَبَّ — ر ب ب B001 — "وقد قالوه في الجاهلية للملك؛ رببت القوم: سستهم" (sihah): used for the king before Islam; governing a people.
+- 106:3 ٱلْبَيْتِ — ب ي ت B002 [fixed expression] — "البيت عيال الرجل والذين يبيت عندهم" (maqayis): the house as a man's dependants, those who spend the night with him.
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B001 — "العبد المملوك وجمعه عبيد" (ayn): the owned servant.
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B002 — "العبد الإنسان حرا أو رقيقا هو عبد الله" (ayn): every person, free or not, as God's servant.
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B003 — "العبادة الطاعة والتعبد التنسك" (sihah); "عبد يعبد عبادة فلا يقال إلا لمن يعبد الله" (maqayis;ayn): obedience and devotion, which the verb reserves for God.
+- 106:4 أَطْعَمَهُم — ط ع م B004 — "رجل طاعم حسن الحال ومطعام كثير القرى" (maqayis): the generous host.
+- 106:4 جُوعٍۢ — ج و ع B004 [fixed expression] — "جائع القدر إذا لم تكن قدره ملأى": the host whose pot is not full, the reverse of the generous host.
+- 106:4 وَءَامَنَهُم — ء م ن B001 — "الأمان إعطاء الأمنة" (maqayis;ayn); "استأمن إليه دخل في أمانه" (sihah): the master granting protection, the guest entering it.
+
+Quran passages:
+- 27:91 (the Prophet, commanded to say): "إِنَّمَآ أُمِرْتُ أَنْ أَعْبُدَ رَبَّ هَٰذِهِ ٱلْبَلْدَةِ ٱلَّذِى حَرَّمَهَا وَلَهُۥ كُلُّ شَىْءٍۢ": the same construction as 106:3–4. Worship, the Lord with a demonstrative place, then a relative clause naming His act on that place.
+- 2:127 (Ibrāhīm and Ismāʿīl raising the House): "يَرْفَعُ إِبْرَٰهِۦمُ ٱلْقَوَاعِدَ مِنَ ٱلْبَيْتِ … رَبَّنَا تَقَبَّلْ مِنَّآ".
+- 22:26 (God to Ibrāhīm): "وَطَهِّرْ بَيْتِىَ لِلطَّآئِفِينَ": the House called "My House".
+- 22:28–29 (God's Hajj command): "فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْبَآئِسَ ٱلْفَقِيرَ … وَلْيَطَّوَّفُوا۟ بِٱلْبَيْتِ ٱلْعَتِيقِ": feeding and service at the House.
+- 5:97 (God): "جَعَلَ ٱللَّهُ ٱلْكَعْبَةَ ٱلْبَيْتَ ٱلْحَرَامَ قِيَٰمًۭا لِّلنَّاسِ": the House as what keeps people standing.
+- 51:56–57 (as above).
+
+### Reared in the house: guardian, ward, the ewe kept for milk
+
+Beside owning, the ر ب ب root names raising: bringing something along "حالا فحالا إلى حد التمام", bringing up a child, completing a favour. It names the step-parent or nurse who takes charge of a ward, and the ewe kept at the house for its milk, a ر ب ب phrase that names البيت. The scene is a household whose head rears and feeds the dependants kept in it, step by step, until they are whole. The surah's Lord of the House who fed them reads as that guardian.
+
+- 106:3 رَبَّ — ر ب ب B002 — "التربية، وهو إنشاء الشيء حالا فحالا إلى حد التمام" (mufradat): raising something stage by stage to completion.
+- 106:3 رَبَّ — ر ب ب B002 — "رب فلان ولده؛ رباه" (sihah); "رب الضيعة أي أصلحها وأتمها" (sihah): bringing up a child; tending an estate to completion.
+- 106:3 رَبَّ — ر ب ب B002 — "رب الرجل النعمة يربها ربا؛ ربابة أيضا إذا تممها" (jamhara): completing a favour.
+- 106:3 رَبَّ — ر ب ب B005 — "الراب الذي يقوم على أمر الربيب" (maqayis); "الربيبة: الحاضنة" (sihah): the guardian who takes charge of the ward; the nurse.
+- 106:3 رَبَّ — ر ب ب B009 — "الشاة الربي التي تحتبس في البيت للبن؛ التي وضعت حديثا" (maqayis): the newly delivered ewe kept at the house for its milk. A ر ب ب phrase naming البيت and food.
+- 106:3 ٱلْبَيْتِ — ب ي ت B002 [fixed expression] — "البيت عيال الرجل والذين يبيت عندهم" (maqayis): the dependants of the house.
+- 106:4 أَطْعَمَهُم — ط ع م B002 — "استطعمه سأله أن يطعمه وأطعمته الطعام" (sihah): feeding the one who asks.
+
+Quran passage:
+- 14:37 (as above): Ibrāhīm settles his offspring by the House and asks that they be fed. Dependants placed in the House's keeping.
+
+### The house of honour
+
+The ب ي ت root names the noble house that gathers a tribe's honour. The ع ب د root names the man honoured and served as if worshipped. A tribe whose name is bound to the House holds rank because of the House, and the House's Lord is the one truly to be served.
+
+- 106:3 ٱلْبَيْتِ — ب ي ت B008 [fixed expression] — "البيت من بيوتات العرب الذي يجمع شرف القبيلة" (jamhara); "بيت العرب شرفها" (tahdhib): the house as the gathering of a tribe's nobility.
+- 106:3 فَلْيَعْبُدُوا۟ — ع ب د B006 — "المعبد المكرم والمعظم كأنه يعبد" (jamhara); "المعبد أي معظما مخدوما" (tahdhib): the one honoured and served as if worshipped.
+- 106:3 رَبَّ — ر ب ب B001 — "يكون الرب: السيد المطاع" (tahdhib): the obeyed lord.
+
+From memory: the Arabs called Quraysh "أهل الله" and "جيران بيت الله" and spared them for the House's sake.
+
+Quran passage:
+- 29:67 (as above): the sanctuary's people safe while others are snatched.
+
+## Interactions
+
+- Two seasonal journeys + Caravan camel + Stages: meet in رِحْلَةَ; ر ح ل B001/B002/B006 are one route seen as movement, mount and halts. 34:18 stages all three: measured travel, staging posts, safety.
+- Two seasonal journeys + Empty belly: meet in ٱلشِّتَآءِ; "العرب تسمي القحط شتاء" makes the winter of the cycle also the famine of 106:4, and "صائفة القوم ميرتهم في الصيف" makes summer the provisioning.
+- Caravan camel + Empty belly: "أرحلت الإبل سمنت بعد هزال فأطاقت الرحلة" (ر ح ل B005) is a fed-from-leanness reversal inside the journey root, the animal counterpart of أَطْعَمَهُم مِّن جُوعٍۢ; ط ع م B007 shows the same fattening in the camel.
+- Caravan camel + Fear removed: "الأمون الناقة الأمينة الوثيقة أو التي يؤمن فتورها وعثورها" puts أمن into the mount, set against ع ب د B011's stranded traveller ("إذا كلت راحلته أو عطبت"). That ع ب د phrase names the راحلة of the رحلة root.
+- Caravan camel + Trodden road + Seasoned and tarred: share ع ب د B005 "البعير المعبد المهنوء بالقطران المذلل": the tar is the coating and also the means of taming.
+- Trodden road + Master of the house: ع ب د B003 "العبودية إظهار التذلل" joins the tamed road and beast to the servant before his master; 43:12–13 joins riding the tamed mount to remembering "نِعْمَةَ رَبِّكُمْ".
+- Guarded road + Fear removed: خ و ف B002 "طريق مخوف … وإنما يخيف فيه قاطع الطريق" against ء م ن B001 "الأمان إعطاء الأمنة"; 29:67 and 28:57 stage the safe sanctuary against snatching around it.
+- Guarded road + Two seasonal journeys: ء ل ف B004 holds both "تجمع بينهما" (the journeys joined) and "يؤلفون يجيرون" (protection granted). One word names the cycle and the pact that keeps it open.
+- Stages + House its familiars cling to + Gathered from dispersion: share ب ي ت B001 "المأوى والمآب ومجمع الشمل" and ر ب ب B007 "أرب فلان بالمكان إذا أقام به فلم يبرحه"; 2:125 "مَثَابَةًۭ لِّلنَّاسِ وَأَمْنًۭا" stages return and safety at the House.
+- House its familiars cling to + Empty belly: ط ع م B013 "التطاعم … كما يفعل الحمام" and ء ل ف B005 "أوالف الحمام دواجنها التي تألف البيوت" both picture the dove; feeding and attachment in one bird.
+- Gathered from dispersion + Two seasonal journeys: ء ل ف B002 "جمعت بينهم بعد تفرق" (people) parallels B004 "تجمع بينهما" (journeys); ر ب ب B004 "وهم الألوف من الناس" joins ر ب ب with the ألف root. 34:19 stages the reversal: journeys pulled apart, people "مَزَّقْنَٰهُمْ كُلَّ مُمَزَّقٍ".
+- Empty belly + Fear removed: parallel dictionary oppositions "الجوع ضد الشبع" and "الأمن ضد الخوف"; 16:112 reverses both ("لِبَاسَ ٱلْجُوعِ وَٱلْخَوْفِ"); 2:155 joins fear, hunger and diminishing; 2:126 asks for safety and food together.
+- Fear removed + Master of the house: 24:55 "مِّنۢ بَعْدِ خَوْفِهِمْ أَمْنًۭا ۚ يَعْبُدُونَنِى" has the same security-then-worship sequence as 106:3–4; 27:91 has the same form, worship + رَبّ + demonstrative place + الذي.
+- Master of the house + Reared in the house: ر ب ب B001 (owner) and B002/B005 (rearer, guardian) are the two faces of the house's head; ب ي ت B002 "عيال الرجل" are his dependants in both.
+- Seasons' rains + Empty belly: rain and pasture (ش ت و B003, ص ي ف B002, ر ب ب B008 "لأنه يرب النبات") lead to food. 14:37's "وَادٍ غَيْرِ ذِى زَرْعٍ" is the gap that the journeys and the Feeder fill.
+- Fear removed + Two seasonal journeys: ص ي ف B005 "أصاف الله عني شر فلان" places harm-turning inside the summer word; 105:1–5 stages the House's Lord turning away the attack just before لِإِيلَٰفِ.
+- House of honour + Guarded road: honour taken from the House (ب ي ت B008) is what lets the caravans pass (from memory, "أهل الحرم"); 29:67.
+
+## Ayat
+
+### 106:1 لِإِيلَٰفِ قُرَيْشٍ
+- Two seasonal journeys: names the binding itself ("لإيلاف قريش" is the dictionary's own citation; "وصلت بعضه ببعض"). Whole scene: winter's and summer's journeys tied end to end into an unbroken yearly cycle that the surah hangs its command on.
+- Caravan camel: إيلاف as outfitting ("يؤلفون يهيئون ويجهزون"). Whole scene: a mount saddled, fattened into strength and trusted not to stumble, against the traveller stranded when his mount fails.
+- Guarded road: إيلاف as granting protection ("يؤلفون يجيرون"). Whole scene: a caravan route held open by pacts and safe-conduct, against the feared road of the highwayman.
+- House its familiars cling to: "أوالف الطير التي بمكة". Whole scene: Mecca's tame doves that keep to the houses, return there and are fed there.
+- Gathered from dispersion: "جمعت بينهم بعد تفرق", "صيرتهم ألفا"; قريش (from memory, التقرّش) as a gathered tribe. Whole scene: scattered people drawn into a mass of thousands around one House, against bands dispersing every way.
+
+### 106:2 إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ
+- Two seasonal journeys: names what is bound. "تجمع بينهما", "فيتصلا ولا ينقطعا"; winter and summer defined as opposites; "تمام الربيع الصَّيف" [fixed expression]. Whole scene: as above.
+- Caravan camel: رِحْلَةَ gives saddle, saddling, the strong mount, the camel fattened until it can travel, and the gift of a mount. Whole scene: as above.
+- Trodden road: رحل B009, riding someone's back and bearing a load. Whole scene: road and mount made submissive for travel, and people commanded to lower themselves to the Lord who tamed both.
+- Stages and quarters: halting places, the carried home, winter and summer quarters (مشتى, مصيف), and being driven from one's place. Whole scene: a people moving out through stages and seasonal quarters and returning to the House they keep to.
+- House its familiars cling to: إِۦلَٰفِهِمْ, "أوالف الحمام … التي تألف البيوت". Whole scene: as above.
+- Empty belly: winter as famine ("العرب تسمي القحط شتاء"); summer as provisions ("صائفة القوم ميرتهم"). Whole scene: a year whose lean season threatens famine, met by journeys that bring provisions home and by a Feeder who turns empty bellies full.
+- Seasons' rains: winter rain, summer rain and pasture. Whole scene: cloud, rain, pasture, ripened fruit; the barren valley lacks this, so food must be brought.
+- Fear removed: ص ي ف B005, God turning harm aside, the arrow veering. Whole scene: a threatened people, open to the night raid and slow diminishing, whose Lord turns the arrow aside and makes them safe.
+
+### 106:3 فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ
+- Master of the house: "رب الدار", "السيد المطاع"; عبد as owned servant, worship as obedience; البيت as dependants. Whole scene: a household's lord who feeds and protects those under his roof and is owed their service.
+- Trodden road: فَلْيَعْبُدُوا۟ carries "الطريق المعبد … المذلل", "البعير المعبد … المذلل", "العبادة غاية التذلل". Whole scene: as above.
+- Caravan camel: ع ب د B007 (strong fat she-camel), B011 (stranded when the mount fails; the refusing camel). Whole scene: as above.
+- Seasoned and tarred: ع ب د B005 (tarred camel, pitched ship), ر ب ب B006 (seasoned waterskin). Whole scene: the journey's mount, vessel and waterskin coated with tar, pitch or رُبّ so they hold up in use.
+- Guarded road: ر ب ب B011 (the pact and its parties); ع ب د B010 (roads branching to far edges). Whole scene: as above.
+- Stages and quarters: ر ب ب B007 (staying without leaving); ٱلْبَيْتِ as "المأوى والمآب". Whole scene: as above.
+- House its familiars cling to: ٱلْبَيْتِ as the place returned to; ر ب ب B007. Whole scene: as above.
+- Gathered from dispersion: ر ب ب B004 ("الألوف من الناس"), B014 (herd), B013 (gathered water); ٱلْبَيْتِ "مجمع الشمل"; ع ب د B010 as the reverse. Whole scene: as above.
+- Empty belly: ب ي ت B005 [fixed expression] (not even a night's food); ر ب ب B016 (need, and favour). Whole scene: as above.
+- Seasons' rains: ر ب ب B008 (cloud that raises plants), B007 (the cloud that stays), B013 (water), B012 (herb that does not wither in summer). Whole scene: as above.
+- Fear removed: ب ي ت B004, the night raid. Whole scene: as above.
+- Reared in the house: ر ب ب B002 (raising to completion), B005 (guardian of the ward), B009 (ewe kept at the house for milk). Whole scene: a household whose head rears and feeds its dependants step by step until they are whole.
+- House of honour: ب ي ت B008 [fixed expression], ع ب د B006. Whole scene: a tribe whose rank comes from the House, owing service to the House's Lord.
+
+### 106:4 ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ
+- Empty belly: hunger as an empty stomach, the famine year, starving as an act; feeding, livelihood, the provided man. Whole scene: as above.
+- Fear removed: "الأمن ضد الخوف", fear as expecting harm, security as the soul at rest; diminishing (التخوف التنقص). Whole scene: as above.
+- Caravan camel: ط ع م B007 (fat in the marrow); ء م ن B001 "الأمون" (the camel not feared to stumble). Whole scene: as above.
+- Guarded road: خ و ف B002 (the feared road and its robber); ء م ن B001 (granting safe-conduct). Whole scene: as above.
+- Stages and quarters: ء م ن B001 "مأمنه منزله الذي فيه أمنه". Whole scene: as above.
+- House its familiars cling to: ط ع م B013, the doves' billing. Whole scene: as above.
+- Seasons' rains: ط ع م B005 [fixed expression], ripened fruit. Whole scene: as above.
+- Master of the house: ط ع م B004 (the generous host); ج و ع B004 [fixed expression] (the pot not full); ء م ن B001 (protection granted). Whole scene: as above.
+- Reared in the house: ط ع م B002, feeding the one who asks. Whole scene: as above.
+

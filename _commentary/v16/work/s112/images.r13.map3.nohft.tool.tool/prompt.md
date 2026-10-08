@@ -1,0 +1,293 @@
+Surah: 112. Follow the brief below (surah_images.md) exactly. The evidence is text.md (the surah) and map.md (an earlier reader's map of the surah's image chains, with the dictionary phrases of their members, Quran passages and interactions; a proposal, not an authority) and your own knowledge of Arabic and the Quran. Return the prose and then the ledger, as surah_images.md specifies.
+
+When your discovery is complete and before you write your final output, run this command once for each ayah of the surah (112:1 to 112:4), each time with every Quran reference outside this surah that your output will use: `python3 /Volumes/aro/projects/prose_generation/_commentary/v16/missing.py <ayah> <refs separated by spaces>`. Each run lists refs from that ayah's earlier cross-reference list, by tier, that your refs do not include. That list is not authoritative and may be incomplete: judge each passage yourself, add it only where it supports or sharpens what you are writing, and leave the rest. To read a passage's Arabic before judging it, run `python3 /Volumes/aro/projects/prose_generation/_commentary/v16/missing.py text <refs>` (up to 40 refs per call) as often as you need. Run each command exactly as written, as the whole command: no cd, no && and no ; (such a command is refused and never runs). Also add any other passage you now recall that belongs, whether listed or not. Then write your final output. No other command or tool is available.
+
+===== _commentary/v16/prompts/r13/surah_images.md =====
+Write the Turkish commentary on the images of this surah for a curious reader
+who knows neither Arabic nor how lexical families work, and who already has the
+plain meaning. The map is an earlier reader's proposal: its chains, members,
+passages and interactions are your material, not your verdicts. Correct a
+member that does not hold, merge chains that are one image, and add what the
+map missed from your own knowledge of Arabic and the Quran.
+
+For each image:
+
+- Show the scene through its operation: what the objects are, how they work,
+  what the act does. Never flatten a mechanism into a label.
+- Say what it makes perceptible in the surah that a plain paraphrase could not.
+- Go through the surah in order and show what each ayah's words add to it.
+- Bring in the Quran passages that stage it, with the speaker, the situation
+  as the Quran itself tells it there and in the neighbouring ayat, and the
+  wording the connection needs.
+
+Then show where the images meet: a scene that holds two of them, and how
+together they carry the surah's movement.
+
+Develop every chain of the map, unless its members fail; a chain you leave out
+goes in the ledger with its reason. A family image is heard beside the word's
+meaning in its ayah, never in place of it; say so once. Keep root identity,
+family images and your own connections distinct; an echo root does not
+establish identity. Never invent a sense, source, citation or chronology. Use
+no hadith, no exegetes' views and no report from outside the Quran (no occasion
+of revelation, no name the Quran does not give, no date): the Quran, the map's
+dictionary phrases and Arabic usage carry the commentary. Name
+no dictionary or lexicographer in the prose, never mention the dictionary
+("sözlük"), the map, its chains or your own process, and do not hedge in the
+first person.
+
+Write continuous prose: one `##` section per image, then a `## Buluşmalar`
+section for the meetings; explain, do not dramatize; no lists and no closing
+recap. Every Arabic quotation goes in the reader tag, and every tag ends with
+its source, so the reader can check it:
+{ar:exact Arabic, tr:readable Turkish transliteration, gloss:Turkish meaning, source:…}
+- a dictionary phrase or a branch's sense: source:"<root letters>,<branch id>",
+  e.g. source:"ق و م,B016";
+- a Quran quotation: source:<surah:ayah>, e.g. source:72:16, the one ayah that
+  holds the quoted words, no ranges;
+- Arabic from your own memory that is not in the map's dictionary phrases:
+  source:"memory".
+A branch's sense given in Turkish without its Arabic, and a Quran passage named
+without quoting it, carry the source alone: {source:"ق و م,B016"},
+{source:15:41}. Outside the `Kaynaklar:` lines, never write a Quran reference
+outside a tag; quote the surah's own words in tags too, and name its ayat in
+words ("dördüncü ayet"). End each image section with one line, `Kaynaklar:`, giving its
+members as ayah, word, root and branch (e.g. 1:6 ٱلْمُسْتَقِيمَ ق و م B012).
+
+Output: the prose; then a line containing only
+=== LEDGER ===
+then, in plain English, one short line per item, a few words each:
+- not developed: <chain> - <why>
+- memory: <a claim about Arabic that neither the map nor the Quran text can check>
+
+===== _commentary/v16/work/s112/surah.r2/text.md =====
+# Surah 112
+
+- 112:1 قُلْ هُوَ ٱللَّهُ أَحَدٌ
+- 112:2 ٱللَّهُ ٱلصَّمَدُ
+- 112:3 لَمْ يَلِدْ وَلَمْ يُولَدْ
+- 112:4 وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ
+
+
+===== _commentary/v16/out/s112/surah.map3.nohft.tool/map.md (without ## Not carried) =====
+# Surah 112: map of image chains
+
+## Chains
+
+### One, and no second
+
+The surah begins and ends on the same word. أَحَدٌ in 112:1 is positive: one, the start of counting, used without qualification only of God. أَحَدٌۢ in 112:4 is the same word under negation, where it sweeps the whole class: not one, not two, not more. Between these two uses the surah removes every way a second could appear. A parent and a child would be a second (يَلِدْ / يُولَدْ: the parents, وَالِدَانِ, are named as a pair in the dual), and so would an equal (كُفُوًا: "the like", whatever matches a thing until it is its like). So the image is counting that stops at one: the positive one at the opening, the denial of the pair in the middle, and at the close the negated "anyone" that holds no second, which closes the ring. The dictionary's own example for أحد in the sense "one" is the surah's first ayah.
+
+- 112:1 أَحَدٌ — ء ح د B001 — "أحد بمعنى الواحد وهو أول العدد" (sihah); "قل هو الله أحد" (sihah;mufradat); "يستعمل مطلقا وصفا في وصف الله تعالى وأصله وحد" (mufradat) — the positive one, where counting starts. Used unqualified, it is reserved for God. The dictionary quotes 112:1 itself as the example.
+- 112:1 أَحَدٌ — ء ح د B001 — "أحد أحد" (sihah) — the repeated one, a cry of oneness. From memory: this is the cry Bilāl repeated under torture.
+- 112:1 أَحَدٌ — ء ح د B003 — "أحد واثنان وأحد عشر وإحدى عشرة" (sihah) — one as the first number, with two following it. This is the count the surah never lets reach two.
+- 112:1 / 112:4 أَحَدٌ — ء ح د B004 — "أما أحدكما" (mufradat) — "one of you two": the one as a member of a pair. This is the frame the surah refuses.
+- 112:1 / 112:4 أَحَدٌ — ء ح د B005 — "استأحد الرجل انفرد" (sihah); "ما استأحدت بهذا الأمر أي ما انفردت به" (maqayis) — to be alone, to take a matter on alone.
+- 112:4 أَحَدٌۢ — ء ح د B002 — "أحد في النفي لاستغراق جنس الناطقين ولا واحد ولا اثنان فصاعدا" (mufradat); "ما في الدار أحد" (sihah); "فما منكم من أحد عنه حاجزين" (sihah;mufradat) — under negation the word covers the whole class, "not one, not two, nor more": the closing "no one".
+- 112:3 يَلِدْ / يُولَدْ — و ل د B002 — "الوالد الأب والوالدة الأم وهما الوالدان" (sihah) — parenthood is named as a pair, in the dual. Begetting and being begotten each need a second.
+- 112:3 يَلِدْ / يُولَدْ — و ل د B006 — "لدة الرجل تربه؛ وهما لدان" (sihah) — the age-mate is again a dual pair: whoever is born has a peer born with him.
+- 112:4 كُفُوًا — ك ف ء B001 — "الكفء المثل" (maqayis); "التكافؤ التساوي" (maqayis); "كل شيء ساوى شيئا حتى يكون مثله فهو مكافئ له" (sihah;tahdhib) — the equal: a second that matches the first.
+
+Quran outside the surah:
+- 16:51 — God speaks, forbidding two gods: "لَا تَتَّخِذُوٓا۟ إِلَٰهَيْنِ ٱثْنَيْنِ ۖ إِنَّمَا هُوَ إِلَٰهٌۭ وَٰحِدٌۭ". The pair is named and rejected for the one.
+- 5:73 — God answers those who say three: "إِنَّ ٱللَّهَ ثَالِثُ ثَلَٰثَةٍۢ ۘ وَمَا مِنْ إِلَٰهٍ إِلَّآ إِلَٰهٌۭ وَٰحِدٌۭ". The count passing one is denied.
+- 42:11 — God describes Himself as Creator, Who made pairs for people and cattle: "جَعَلَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًۭا وَمِنَ ٱلْأَنْعَٰمِ أَزْوَٰجًۭا ... لَيْسَ كَمِثْلِهِۦ شَىْءٌۭ". Creatures come in pairs, and He has no like.
+- 19:65 — God addresses the Prophet: "هَلْ تَعْلَمُ لَهُۥ سَمِيًّۭا". Is there any namesake or match?
+- 2:22 — God speaks to people after naming His provision: "فَلَا تَجْعَلُوا۟ لِلَّهِ أَندَادًۭا".
+- 18:110, 72:20, 18:26 — the Prophet is told to say, or God states, that no one is associated with Him: "وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِۦٓ أَحَدًۢا", "وَلَآ أُشْرِكُ بِهِۦٓ أَحَدًۭا", "وَلَا يُشْرِكُ فِى حُكْمِهِۦٓ أَحَدًۭا". These are negated أحد, as in 112:4.
+- 72:22 — the Prophet is told to say: "قُلْ إِنِّى لَن يُجِيرَنِى مِنَ ٱللَّهِ أَحَدٌۭ". Negated أحد: no one at all stands against God.
+
+### Pair, birth and offspring: the line of generation
+
+112:3 names both directions of generation, and 112:4 names the counterpart a generation needs. In the dictionary كفء is the match in marriage and in lineage (الحسب). A lineage starts from such a match: a man and a woman of equal standing become the parents (الوالدان), the woman bears (ولدت المرأة), the child is الولد, and the child has age-mates (لدة). Under the كفء root the dictionary also records the year's yield of a camel herd, "its milk, its wool and its young (أولادها)", so the counterpart word and the birth word stand in one phrase. In the dictionary's documented alternative derivation of ٱللَّهُ (from و ل ه), the root names the mother driven frantic by losing her young, and the forbidden act of separating a mother from her child. The surah speaks this whole scene only to deny it of God: no consort to match Him, so no child; no parents, so no birth.
+
+- 112:4 كُفُوًا — ك ف ء B001 — "فلان كفء لفلان في المناكحة أو في المحاربة" (mufradat); "هذا كفء له أي مثله في الحسب والمال والحرب" (ayn) — the marriage match and the equal in lineage: the partner a begetting would need.
+- 112:3 يَلِدْ / يُولَدْ — و ل د B002 — "الوالد الأب والوالدة الأم وهما الوالدان" (sihah); "الأب يقال له والد والأم والدة ويقال لهما والدان" (mufradat) — the parent pair.
+- 112:3 يَلِدْ — و ل د B003 — "ولدت المرأة تلد ولادا وولادة؛ أولدت حان ولادها" (sihah); "الولادة فهو وضع الوالدة ولدها؛ شاة والد وهي الحامل" (tahdhib) — the act of bearing, its due time, and the pregnant ewe.
+- 112:3 يُولَدْ — و ل د B001 — "أصل صحيح وهو دليل النجل والنسل" (maqayis); "الولد المولود؛ الابن والابنة" (mufradat); "الولد اسم يجمع الواحد والكثير والذكر والأنثى" (tahdhib) — the offspring, son or daughter, one or many: the descent that continues the line.
+- 112:3 يَلِدْ / يُولَدْ — و ل د B006 — "اللدة مختصة بالترب يقال فلان لدة فلان وتربه" (mufradat) — the age-mate: an equal produced by birth, where this chain touches كُفُوًا.
+- 112:4 كُفُوًا — ك ف ء B005 — "أعطاني لبنها ووبرها وأولادها سنة" (sihah); "الكفأة من الإبل نتاج سنة" (ayn); "سألته نتاج إبله سنة" (maqayis;ayn;tahdhib) — the dictionary joins the كفء root to أولاد (root و ل د) in one phrase: the herd's yearly young.
+- 112:1 / 112:2 ٱللَّهُ (dictionary's documented alternative derivation, و ل ه) — و ل ه B002 — "التوليه أن يفرق بين المرأة وولدها" (maqayis;sihah); "لا توله والدة عن ولدها" (maqayis;tahdhib) — the dictionary joins و ل ه with والدة and ولد in one phrase: the mother parted from her child.
+- 112:1 / 112:2 ٱللَّهُ (same alternative) — و ل ه B001 — "ناقة واله إذا اشتد وجدها على ولدها" (sihah) — the she-camel's frantic longing for her young: the bond of parent and offspring at its most intense.
+
+Quran outside the surah:
+- 6:100–101 — God answers those who invented sons and daughters for Him: "وَخَرَقُوا۟ لَهُۥ بَنِينَ وَبَنَٰتٍۭ بِغَيْرِ عِلْمٍۢ" then "أَنَّىٰ يَكُونُ لَهُۥ وَلَدٌۭ وَلَمْ تَكُن لَّهُۥ صَٰحِبَةٌۭ". With no consort there is no child: the كفء-in-marriage link made explicit, with كون and ولد together.
+- 72:3 — the jinn who heard the Quran speak: "مَا ٱتَّخَذَ صَٰحِبَةًۭ وَلَا وَلَدًۭا". Consort and child are denied together.
+- 37:149–153, 37:158 — God tells the Prophet to ask the Meccans about the daughters they assign to Him: "أَلِرَبِّكَ ٱلْبَنَاتُ وَلَهُمُ ٱلْبَنُونَ ... وَلَدَ ٱللَّهُ ... وَجَعَلُوا۟ بَيْنَهُۥ وَبَيْنَ ٱلْجِنَّةِ نَسَبًۭا". Lineage (نسب) is asserted and denied.
+- 90:3 — God's oath: "وَوَالِدٍۢ وَمَا وَلَدَ". The begetter and the begotten as the human scene.
+- 3:35–36 — the wife of ʿImrān speaks while carrying, then after delivery: "مَا فِى بَطْنِى" then "فَلَمَّا وَضَعَتْهَا". The وضع of the dictionary's definition of الولادة, staged.
+- 19:92–93 — God answers the claim of a child: "وَمَا يَنۢبَغِى لِلرَّحْمَٰنِ أَن يَتَّخِذَ وَلَدًا ۝ إِن كُلُّ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ إِلَّآ ءَاتِى ٱلرَّحْمَٰنِ عَبْدًۭا". Those claimed as children are servants. The dictionary's وليد is also the servant (see the next chain and Interactions). The scene opens at 19:88.
+
+### Solid, with no hollow: nothing comes out of it, it came out of nothing
+
+ٱلصَّمَدُ names something solid all through: "المصمت الذي ليس بأجوف", a rock set fast in the ground, hard ground with no cleft. The same root names the stopper of a bottle (عفاص القارورة), the closure that keeps a vessel's mouth shut. 112:3 follows directly with the two directions of issuing: something comes out of Him (يَلِدْ), or He comes out of something (يُولَدْ). Birth in the dictionary is a carrying body that delivers what was inside it ("وضع الوالدة ولدها", the pregnant ewe), and تولد is one thing arising out of another. Under the root of كُفُوًا the dictionary has the vessel turned over so that its contents pour out. So the scene works in physical terms. A hollow body holds something and can release it: it bears, or it spills. A solid body has no inside to give and no inside it came from. Read in sequence, الصمد followed by لم يلد ولم يولد is this image. From memory: early exegetes (reports from Ibn ʿAbbās, Ibn Masʿūd, Mujāhid and others in al-Ṭabarī) glossed الصمد as "المصمت الذي لا جوف له", and al-Shaʿbī as the one who neither eats nor drinks.
+
+- 112:2 ٱلصَّمَدُ — ص م د B002 — "المصمت الذي ليس بأجوف والصمدة صخرة راسية" (ayn); "الصمد الذي ليس بأجوف" (mufradat); "المصمد الصلب الذي ليس فيه خدد والشديد من الأرض" (tahdhib); "الصلابة في الشيء والصمد كل مكان صلب" (maqayis) — solid through, with no hollow, no cleft, set fast like rock.
+- 112:2 ٱلصَّمَدُ — ص م د B003 — "الصماد عفاص القارورة وصمدتها صمدا" (ayn); "الصماد سداد القارورة" (tahdhib) — the bottle stopper and the act of stoppering: a closed mouth, nothing passing in or out.
+- 112:3 يَلِدْ — و ل د B003 — "الولادة فهو وضع الوالدة ولدها؛ شاة والد وهي الحامل" (tahdhib) — a body that carries inside and puts out what it carries.
+- 112:3 يَلِدْ / يُولَدْ — و ل د B005 — "تولد الشيء عن الشيء حصل عنه" (maqayis); "تولد الشيء من الشيء حصوله عنه بسبب من الأسباب" (mufradat) — one thing arising out of another, in either direction.
+- 112:4 كُفُوًا — ك ف ء B002 — "كفأت الإناء إذا كببته" (sihah;tahdhib); "كفأت القصعة والإناء" (ayn) — the vessel turned over and emptied: the hollow container in its releasing operation, the reverse of the stoppered and the solid.
+
+Quran outside the surah:
+- 5:75 — God answers the claim of Christ's divinity: "مَّا ٱلْمَسِيحُ ٱبْنُ مَرْيَمَ إِلَّا رَسُولٌۭ ... وَأُمُّهُۥ صِدِّيقَةٌۭ ۖ كَانَا يَأْكُلَانِ ٱلطَّعَامَ". A mother and her son, both with bodies that take food in, set against divinity.
+- 6:14 — the Prophet is told to say: "فَاطِرِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَهُوَ يُطْعِمُ وَلَا يُطْعَمُ". He feeds and is not fed: nothing goes in.
+- 51:57 — God on why He created jinn and humans: "مَآ أُرِيدُ مِنْهُم مِّن رِّزْقٍۢ وَمَآ أُرِيدُ أَن يُطْعِمُونِ".
+- 3:35–36 — the wife of ʿImrān: "مَا فِى بَطْنِى ... فَلَمَّا وَضَعَتْهَا". The hollow body and its delivery.
+
+### Born, aged and succeeded: the one who remains
+
+Whoever is born has a day of birth and, after it, a day of death. In the dictionary الوليد is a person close to the moment of birth. Each person belongs to a cohort of age-mates (لدة), and an old man is called كُنْتِيّ because he keeps saying "I was, in my youth…" (كنت في شبابي). كان itself is the word for past time. A herd's young are counted by the year (الكفأة نتاج سنة), and a herd can be split into two cohorts that bear in alternate years. This is the world of generations, where each age is replaced by the next. Against it ٱلصَّمَدُ has the sense "الدائم الباقي بعد فناء خلقه", the one who lasts after His creation has perished, and its image is the she-camel that keeps giving milk through cold and drought. لم يلد ولم يولد then takes God out of the line of succession: He has no birth that begins Him and no heir who outlasts Him. From memory: a report from Ubayy b. Kaʿb (in al-Tirmidhī and Aḥmad) explains لم يلد ولم يولد this way, saying that nothing is born that does not die and nothing dies that is not inherited.
+
+- 112:2 ٱلصَّمَدُ — ص م د B007 — "الصمد الدائم والدائم الباقي بعد فناء خلقه وناقة مصماد وهي الباقية على القر والجدب الدائمة الرسل" (tahdhib) — the one who lasts after all creation has perished, and the camel whose milk keeps flowing through cold and drought.
+- 112:3 يُولَدْ — و ل د B003 — "يوم ولدت؛ يوم ولد" (mufradat) — the day of birth. These are the dictionary's citations of 19:33 and 19:15, where the next words are the day of death.
+- 112:3 يُولَدْ — و ل د B004 — "الوليد يقال لمن قرب عهده بالولادة" (mufradat); "الوليد الصبي حين يولد" (tahdhib) — the newborn: the starting point of a life measured from birth.
+- 112:3 يُولَدْ — و ل د B006 — "لدة الرجل تربه؛ وهما لدان والجمع لدات ولدون" (sihah) — the age-mate: each born person placed in a cohort.
+- 112:4 يَكُن — ك و ن B005 — "يقال للرجل إذا شاخ كُنْتِيّ؛ كأنه نسب إلى قوله كُنْتُ في شبابي كذا وكذا" (sihah) — the old man named after his "I was": a life looking back across its time.
+- 112:4 يَكُن — ك و ن B001 — "كان عبارة عما مضى من الزمان" (sihah); "كان الأمر أي مذ خلق" (sihah) — being as elapsed time. لَمْ يَكُن denies this across all of it: there never has been an equal.
+- 112:4 كُفُوًا — ك ف ء B005 — "الكفأة من الإبل نتاج سنة" (ayn); "أكفأت إبلي كفأتين" (sihah;tahdhib); "الكفأة وهي حمل النخلة سنتها" (maqayis) — the yearly crop of young or fruit, and the herd split into two alternating cohorts: succession by the year.
+
+Quran outside the surah:
+- 19:15 and 19:33 — God's greeting on Yaḥyā, then ʿĪsā speaking in the cradle: "يَوْمَ وُلِدَ وَيَوْمَ يَمُوتُ وَيَوْمَ يُبْعَثُ حَيًّۭا" and "يَوْمَ وُلِدتُّ وَيَوْمَ أَمُوتُ". Birth is followed by death, and is said of the one later claimed as a son.
+- 19:4–6 — Zakariyyā, old and with a barren wife, calls to his Lord (the scene opens at 19:2): "وَهَنَ ٱلْعَظْمُ مِنِّى وَٱشْتَعَلَ ٱلرَّأْسُ شَيْبًۭا ... فَهَبْ لِى مِن لَّدُنكَ وَلِيًّۭا ۝ يَرِثُنِى". The aged man asks for a child as an heir: why the begotten are needed.
+- 30:54 — God's account of the human lifespan: "خَلَقَكُم مِّن ضَعْفٍۢ ثُمَّ جَعَلَ مِنۢ بَعْدِ ضَعْفٍۢ قُوَّةًۭ ثُمَّ جَعَلَ مِنۢ بَعْدِ قُوَّةٍۢ ضَعْفًۭا وَشَيْبَةًۭ".
+- 55:26–27 — God on the earth's dwellers: "كُلُّ مَنْ عَلَيْهَا فَانٍۢ ۝ وَيَبْقَىٰ وَجْهُ رَبِّكَ". This is the dictionary's "الباقي بعد فناء خلقه".
+- 28:88 — God to the Prophet: "كُلُّ شَىْءٍ هَالِكٌ إِلَّا وَجْهَهُۥ".
+- 2:255 — God's self-description: "ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ". Living and sustaining, with no lapse.
+
+### Turning toward the one who is sought
+
+ٱللَّهُ is, in the dictionary, the one worshipped (معبود), and التأله is devoting oneself to worship. ٱلصَّمَدُ is the one aimed at and relied on: "صمده يصمده صمدا أي قصده", the master "who is turned to in needs", and "بيت مصمد أي مقصود", the house people head for. The dictionary's alternative derivation of the name (و ل ه) adds yearning toward: "ولهت إليه تله أن تحن إليه". The divine name is also the name people call out: "يا ألله اغفر لي". The movement is many people turning toward one goal, in worship, in need and in longing. Its reversal sits under the root of كُفُوًا: "كفأت القوم إذا صرفتهم إلى غيره", turning people away to another. The dictionary records the same reversal for ٱللَّهُ, where الآلهة is the idols and الإلاهة the sun that people worshipped. The surah fixes the direction: the turning toward has one goal, and nothing beside it is a matching goal.
+
+- 112:1 / 112:2 ٱللَّهُ — ء ل ه B001 — "أصل واحد وهو التعبد، فالإله الله تعالى لأنه معبود" (maqayis); "التأله التنسك والتعبد" (sihah); "إله اسما لكل معبود" (mufradat) — the one worshipped, and the worshipper's devotion. The maqayis phrase joins إله and الله.
+- 112:1 / 112:2 ٱللَّهُ — ء ل ه B001 — "الآلهة الأصنام" (sihah); "والإلاهة الشمس سميت بذلك لأن قوما كانوا يعبدونها" (maqayis) — worship turned toward many objects: idols, the sun. The surah reverses this with أحد.
+- 112:1 / 112:2 ٱللَّهُ — ء ل ه B002 — "يا ألله اغفر لي" (sihah); "اللهم بمعنى يا ألله" (tahdhib) — the name as the call of the one who turns toward Him and asks.
+- 112:2 ٱلصَّمَدُ — ص م د B001 — "صمده يصمده صمدا أي قصده والصمد السيد لأنه يصمد إليه في الحوائج وبيت مصمد أي مقصود" (sihah); "وصمدت صمد كذا أي قصدت قصده واعتمدته" (ayn); "وصمده قصد معتمدا عليه قصده" (mufradat) — aiming at and leaning on: needs carried to Him, the house that is headed for.
+- 112:1 / 112:2 ٱللَّهُ (dictionary's documented alternative derivation, و ل ه) — و ل ه B001 — "ولهت إليه تله أن تحن إليه" (tahdhib); "الوله ذهاب العقل والتحير من شدة الوجد" (sihah) — yearning toward, and bewilderment from the strength of feeling.
+- 112:4 كُفُوًا — ك ف ء B002 — "كفأت القوم إذا صرفتهم إلى غيره" (sihah;tahdhib) — turning a people away toward another: the reversal of the direction الصمد names.
+
+Quran outside the surah:
+- 16:53 — God to people: "ثُمَّ إِذَا مَسَّكُمُ ٱلضُّرُّ فَإِلَيْهِ تَجْـَٔرُونَ". In harm they cry out to Him: the يصمد إليه في الحوائج scene.
+- 55:29 — God's description: "يَسْـَٔلُهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ". All who exist bring Him their requests.
+- 35:15 — God to people: "أَنتُمُ ٱلْفُقَرَآءُ إِلَى ٱللَّهِ ۖ وَٱللَّهُ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ".
+- 1:5 — the worshipper's own words: "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ". Worship (أله) and reliance (صمد) joined, both directed to one.
+- 19:81, 25:3 — God on those who took gods besides Him: "وَٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ ءَالِهَةًۭ لِّيَكُونُوا۟ لَهُمْ عِزًّۭا"; "لَّا يَخْلُقُونَ شَيْـًۭٔا وَهُمْ يُخْلَقُونَ". The turning diverted to others.
+- 28:88 — "وَلَا تَدْعُ مَعَ ٱللَّهِ إِلَٰهًا ءَاخَرَ ... وَإِلَيْهِ تُرْجَعُونَ". All return toward Him.
+
+### The master at the summit: rank, peers and dependants
+
+The scene is a ranked court. ٱلصَّمَدُ is "the master whose mastery has reached its end", to whom matters are carried, who stands over an affair and attends to it. Under قُلْ the dictionary records القيل, a Ḥimyarite king "below the greatest king", called so because his word is carried out. Rank and standing (المكانة المنزلة) come from the root of يَكُن, and so do sponsorship (الكيانة الكفالة: to stand guarantee for someone) and its low counterpart, الاستكانة الخضوع, the submissive bowing of those below. كُفُوًا is the peer in this world, the equal in lineage, wealth and war: the one who could stand up to a ruler, marry into his house or repay his favour. The dictionary also records being alone in charge of a matter (ما استأحدت بهذا الأمر). In 112:4 the surah removes the one figure a ranked court always contains, the peer at the top who could match the master. The other ranks stay as they are: rulers below, dependants under guarantee, the bowed.
+
+- 112:2 ٱلصَّمَدُ — ص م د B001 — "الصمد السيد الذي قد انتهى سؤدده والذي يصمد إليه الأمر" (tahdhib); "الصمد السيد الذي يصمد إليه في الأمر" (mufradat) — the master at the end of mastery, to whom affairs are brought.
+- 112:2 ٱلصَّمَدُ — ص م د B005 — "إني على صمادة من أمر إذا أشرف عليه وحفلت به" (tahdhib) — overseeing an affair and taking care of it.
+- 112:1 قُلْ — ق و ل B004 — "القيل ملك من ملوك حمير دون الملك الأعظم والمرأة قيلة" (sihah); "كأنه الذي له قول أي ينفذ قوله" (sihah) — the ruler whose word is executed, ranked below the greatest king. The dictionary joins rank and قول in one phrase.
+- 112:1 قُلْ — ق و ل B010 [fixed expression] — "اقتال عليه تحكم" (sihah) — to impose one's judgement over someone.
+- 112:4 يَكُن — ك و ن B002 — "المكانة المنزلة؛ مكين عند فلان بين المكانة" (sihah); "فلان مني مكان هذا" (ayn) — rank and standing with a superior.
+- 112:4 يَكُن — ك و ن B003 — "الكيانة الكفالة؛ كنت على فلان أكون كونا أي تكفلت به" (sihah) — standing guarantee for a dependant: the master's responsibility toward those below.
+- 112:4 يَكُن — ك و ن B004 — "الاستكانة الخضوع" (sihah) — the bowing of the lower ranks: the posture opposite the summit.
+- 112:4 كُفُوًا — ك ف ء B001 — "هذا كفء له أي مثله في الحسب والمال والحرب" (ayn); "فلان كفء لفلان في المناكحة أو في المحاربة" (mufradat) — the peer in lineage, wealth and war: the one who could match the master, marry into his house or fight him on equal terms.
+- 112:4 كُفُوًا — ك ف ء B001 — "المكافأة مجازاة النعم" (ayn); "كافأت الرجل أي فعلت به مثل ما فعل بي" (tahdhib) — repaying a favour in kind. Those who bring their needs to the master cannot return like for like.
+- 112:1 / 112:4 أَحَدٌ — ء ح د B005 — "ما استأحدت بهذا الأمر أي ما انفردت به" (maqayis) — taking a matter on alone.
+
+Quran outside the surah:
+- 17:111 — the Prophet is told: "وَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ". It has the surah's own frame (قل, ولد, لم يكن له) applied to sovereignty: no partner in rule, no protector out of weakness.
+- 25:2 — God's description: "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ".
+- 23:91 — God refutes a child and fellow gods: "إِذًۭا لَّذَهَبَ كُلُّ إِلَٰهٍۭ بِمَا خَلَقَ وَلَعَلَا بَعْضُهُمْ عَلَىٰ بَعْضٍۢ". Equals in rank would split and fight: the كفء في المحاربة, staged.
+- 17:42 — the Prophet is told to say: "قُل لَّوْ كَانَ مَعَهُۥٓ ءَالِهَةٌۭ كَمَا يَقُولُونَ إِذًۭا لَّٱبْتَغَوْا۟ إِلَىٰ ذِى ٱلْعَرْشِ سَبِيلًۭا". Would-be peers would contest the throne.
+- 21:22 — "لَوْ كَانَ فِيهِمَآ ءَالِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا".
+- 13:16 — the Prophet is told to say: "قُلِ ٱللَّهُ خَٰلِقُ كُلِّ شَىْءٍۢ وَهُوَ ٱلْوَٰحِدُ ٱلْقَهَّٰرُ". The one who prevails over all.
+
+### Origination by the word, not by birth
+
+The surah has three roots, قول, ولد and كون, and the Quran uses exactly these three in its formula for how things come to be: "يَقُولُ لَهُۥ كُن فَيَكُونُ". Under كون the dictionary gives the same operation: "كونه فتكون أحدثه فحدث", he brought it into being and it came about. Under ولد it gives the other way something can arise from a source: "تولد الشيء عن الشيء", one thing issuing from another. Read against these passages, the surah opens with a word (قُلْ), denies origination by birth in both directions (لم يلد ولم يولد), and closes on كون under negation (لم يكن). Things come to be from Him by His word, not out of Him by begetting, and nothing has come to be that equals Him.
+
+- 112:1 قُلْ — ق و ل B001 — "المركب من الحروف المبرز بالنطق" (mufradat); "قال يقول قولا وقولة ومقالا ومقالة" (sihah) — the word spoken out. In the Quranic formula it is the word that brings things into being.
+- 112:3 يَلِدْ / يُولَدْ — و ل د B005 — "تولد الشيء عن الشيء حصل عنه" (maqayis); "تولد الشيء من الشيء حصوله عنه بسبب من الأسباب" (mufradat) — coming to be by issuing out of a source: the mode denied.
+- 112:3 يَلِدْ — و ل د B003 — "ولدت المرأة تلد ولادا وولادة" (sihah) — birth as an act of a body.
+- 112:4 يَكُن — ك و ن B001 — "كونه فتكون أحدثه فحدث" (sihah); "حدوث الشيء ووقوعه" (sihah); "أصل يدل على الإخبار عن حدوث شيء إما في زمان ماض أو زمان راهن" (maqayis) — being brought into being and coming about. Under لَمْ it denies that any equal has ever come to be.
+
+Quran outside the surah:
+- 2:116–117 — God answers those who say He took a child: "وَقَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًۭا ۗ سُبْحَٰنَهُۥ ... بَدِيعُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ وَإِذَا قَضَىٰٓ أَمْرًۭا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ". قول, ولد and كون together, with the word put in place of the child.
+- 19:35 — God, after the story of ʿĪsā's birth: "مَا كَانَ لِلَّهِ أَن يَتَّخِذَ مِن وَلَدٍۢ ۖ سُبْحَٰنَهُۥٓ ۚ إِذَا قَضَىٰٓ أَمْرًۭا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ".
+- 3:47 — Maryam speaks, then the angel answers: "رَبِّ أَنَّىٰ يَكُونُ لِى وَلَدٌۭ وَلَمْ يَمْسَسْنِى بَشَرٌۭ ۖ قَالَ كَذَٰلِكِ ٱللَّهُ يَخْلُقُ مَا يَشَآءُ ۚ إِذَا قَضَىٰٓ أَمْرًۭا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ". A birth without a father comes from the word.
+- 3:59 — God on ʿĪsā and Ādam: "خَلَقَهُۥ مِن تُرَابٍۢ ثُمَّ قَالَ لَهُۥ كُن فَيَكُونُ".
+- 6:101 — "بَدِيعُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ أَنَّىٰ يَكُونُ لَهُۥ وَلَدٌۭ ... وَخَلَقَ كُلَّ شَىْءٍۢ". Creating everything is set against having a child.
+- 4:171 — God to the People of the Book: "وَكَلِمَتُهُۥٓ أَلْقَىٰهَآ إِلَىٰ مَرْيَمَ ... سُبْحَٰنَهُۥٓ أَن يَكُونَ لَهُۥ وَلَدٌۭ". ʿĪsā is His word, not His child.
+
+### The commanded saying against the made-up saying
+
+قُلْ is speech brought out through the tongue. The dictionary also uses "saying" for holding a position: "فلان يقول بقول أبي حنيفة", where the declaration is a creed one stands by. The same root has a false counterpart. تقوّل is to say what was not so and to attribute it to someone ("تقول عليه أي كذب عليه"), and القالة is talk spreading among people. Under the root of the surah's birth verbs, the dictionary calls coined speech مولد and says "كتاب مولد أي مفتعل; بينة مولدة وليست بمحققة": a made-up writing, evidence that is not established. So the scene is a contest of sayings. A talk is going round that God has offspring, a saying attributed to Him and fabricated, and the Prophet is ordered to speak the true saying back. The word "born" (مولد) is the dictionary's own term for made-up speech. From memory: a ḥadīth qudsī in al-Bukhārī has God call the saying "God has taken a child" an insult, then use the surah's words of Himself (in substance: "and I am the One, the Ṣamad, who did not beget and was not begotten, and there is none equal to Me").
+
+- 112:1 قُلْ — ق و ل B001 — "المركب من الحروف المبرز بالنطق" (mufradat); "القول والقيل واحد" (mufradat) — the spoken declaration.
+- 112:1 قُلْ — ق و ل B002 — "المقول اللسان" (maqayis;ayn;sihah) — the tongue that says it.
+- 112:1 قُلْ — ق و ل B013 [fixed expression] — "للاعتقاد نحو فلان يقول بقول أبي حنيفة" (mufradat) — the saying as a held conviction: the declaration as creed.
+- 112:1 قُلْ — ق و ل B005 [fixed expression] — "تقول باطلا أي قال ما لم يكن" (ayn); "تقول عليه أي كذب عليه" (sihah); "قولتني ما لم أقل وأقولتني ما لم أقل أي ادعيته علي" (sihah) — the false saying: claiming what never was, attributing to someone what he did not say. In the ayn phrase, "ما لم يكن" uses the verb of 112:4.
+- 112:1 قُلْ — ق و ل B007 — "القالة القول الفاشي في الناس" (ayn); "كثر القيل والقال" (sihah) — talk spreading among people.
+- 112:3 يَلِدْ / يُولَدْ — و ل د B005 — "المولد من الكلام مولدا إذا استحدثوه؛ كتاب مولد أي مفتعل؛ بينة مولدة وليست بمحققة" (tahdhib) — "born" speech: coined, made up, not established. The dictionary joins ولد with speech.
+
+Quran outside the surah:
+- 18:4–5 — God warns those who say He took a child: "كَبُرَتْ كَلِمَةًۭ تَخْرُجُ مِنْ أَفْوَٰهِهِمْ ۚ إِن يَقُولُونَ إِلَّا كَذِبًۭا". The saying goes out of their mouths and is false.
+- 37:151–152 — God on the Meccans (the scene opens at 37:149): "أَلَآ إِنَّهُم مِّنْ إِفْكِهِمْ لَيَقُولُونَ ۝ وَلَدَ ٱللَّهُ وَإِنَّهُمْ لَكَٰذِبُونَ". قول, ولد and lying in two ayat.
+- 10:68 — God answers the claim: "قَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًۭا ۗ سُبْحَٰنَهُۥ ۖ هُوَ ٱلْغَنِىُّ ... أَتَقُولُونَ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ". The child claim, His not needing anything, and saying against God what is not known.
+- 9:30 — God reports Jews and Christians: "ذَٰلِكَ قَوْلُهُم بِأَفْوَٰهِهِمْ ۖ يُضَٰهِـُٔونَ قَوْلَ ٱلَّذِينَ كَفَرُوا۟ مِن قَبْلُ". A saying copied from earlier sayings: the circulating قالة.
+- 17:40 — God to those who assign Him daughters: "إِنَّكُمْ لَتَقُولُونَ قَوْلًا عَظِيمًۭا".
+- 19:88–91 — God answers: "وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَٰنُ وَلَدًۭا ۝ لَّقَدْ جِئْتُمْ شَيْـًٔا إِدًّۭا ۝ تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِنْهُ". The cosmos nearly splits at the saying.
+- 72:4 — the jinn: "وَأَنَّهُۥ كَانَ يَقُولُ سَفِيهُنَا عَلَى ٱللَّهِ شَطَطًۭا". Their fool's saying against God, which follows their denial of consort and child in 72:3.
+- 4:171 — God to the People of the Book: "وَلَا تَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ ... وَلَا تَقُولُوا۟ ثَلَٰثَةٌ".
+- 5:116 — God questions ʿĪsā on the Day of Judgement: "ءَأَنتَ قُلْتَ لِلنَّاسِ ٱتَّخِذُونِى وَأُمِّىَ إِلَٰهَيْنِ" and he answers "مَا يَكُونُ لِىٓ أَنْ أَقُولَ مَا لَيْسَ لِى بِحَقٍّ". A saying falsely attributed to someone, as in قولتني ما لم أقل.
+- 69:44 — God on the Prophet: "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ ٱلْأَقَاوِيلِ". The تقوّل form itself.
+- 43:81, 6:19 — the Prophet is told to say: "قُلْ إِن كَانَ لِلرَّحْمَٰنِ وَلَدٌۭ فَأَنَا۠ أَوَّلُ ٱلْعَٰبِدِينَ"; "قُلْ إِنَّمَا هُوَ إِلَٰهٌۭ وَٰحِدٌۭ". The commanded saying answers the claim.
+
+## Interactions
+
+- One, and no second × Pair, birth and offspring: والدان and لدان are pairs in the dual, so begetting and being begotten each produce a second. كُفُوًا is both "the like" (B001 "الكفء المثل") and the marriage match (B001 "كفء لفلان في المناكحة"). Evidence: 6:101 "أَنَّىٰ يَكُونُ لَهُۥ وَلَدٌۭ وَلَمْ تَكُن لَّهُۥ صَٰحِبَةٌۭ"; 42:11 pairs for creatures, "لَيْسَ كَمِثْلِهِۦ شَىْءٌۭ".
+- Pair, birth and offspring × Born, aged and succeeded: shared members و ل د B003 (يوم ولد), B006 (لدة) and ك ف ء B005. The dictionary phrase "أعطاني لبنها ووبرها وأولادها سنة" (sihah) joins the root of كُفُوًا to أولاد. Zakariyyā's prayer for an heir (19:4–6) stages birth as the answer to aging and death.
+- Solid, with no hollow × Born, aged and succeeded: ص م د B002 (no hollow) and B007 (lasting after creation perishes) are two senses of the one word ٱلصَّمَدُ, and 112:3 spells out both: no issue from a hollow body, no place in a line that dies. Evidence: 5:75 (mother and son eat food), 55:26–27.
+- Solid, with no hollow × Pair, birth and offspring: و ل د B003 "الولادة فهو وضع الوالدة ولدها؛ شاة والد وهي الحامل" is the hollow, carrying body that ص م د B002 "الذي ليس بأجوف" is not. 3:35–36 stages carrying and delivery.
+- Turning toward the one sought × The master at the summit: shared member ص م د B001 "الصمد السيد لأنه يصمد إليه في الحوائج" (sihah). One phrase gives both the master's rank and the petitioners' turning toward him. 55:29 and 16:53 stage the petitioners; 17:111 stages the rank.
+- Turning toward the one sought × Pair, birth and offspring: in the dictionary's alternative derivation of ٱللَّهُ, و ل ه B001 "ولهت إليه تله أن تحن إليه" (yearning toward) and B002 "لا توله والدة عن ولدها" (the mother parted from her child) are one root. The longing the name carries is, in the dictionary, the longing of a parent for its young.
+- Turning toward the one sought × Pair, birth and offspring: و ل د B004 "الوليد الصبي والعبد ... الوليدة الصبية والأمة" (sihah), the newborn and the servant under one word, meets ء ل ه B001 "مألوه أي معبود". 19:92–93 stages it: those claimed as children all come to Him as servants (عَبْدًا).
+- The master at the summit × One, and no second: ك ف ء B001 "مثله في الحسب والمال والحرب" is the peer whose absence 112:4 states with negated أحد (B002). 23:91 and 17:42 stage peers in rank fighting and contesting the throne.
+- The master at the summit × The commanded saying: shared root ق و ل. B004 "كأنه الذي له قول أي ينفذ قوله" (the ruler whose word is executed) beside B001 and B005 (the declaration and the false saying). 17:111 opens with وَقُلِ and denies a child and a partner in rule.
+- Origination by the word × The commanded saying: shared member قُلْ (ق و ل B001). The true saying the Prophet is ordered to make answers the false saying, and both are about whether God brings things to be by word or by begetting. 2:116–117 joins the claim "قَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًۭا" to "يَقُولُ لَهُۥ كُن فَيَكُونُ".
+- The commanded saying × Pair, birth and offspring: و ل د B005 "كتاب مولد أي مفتعل" (tahdhib) uses the birth root for fabricated speech. 37:151–152 "لَيَقُولُونَ ۝ وَلَدَ ٱللَّهُ وَإِنَّهُمْ لَكَٰذِبُونَ" puts the saying and the birth claim in one sentence.
+- Origination by the word × Born, aged and succeeded: ك و ن B001 covers both being brought into being ("كونه فتكون") and elapsed time ("كان عبارة عما مضى من الزمان"). 3:47 and 19:33 tell of the same birth: it came by the word, and is followed by "يَوْمَ أَمُوتُ".
+- Turning toward the one sought × One, and no second: ء ل ه B001 "الآلهة الأصنام" (worship split among many) against أَحَدٌ. 16:51 "لَا تَتَّخِذُوٓا۟ إِلَٰهَيْنِ ٱثْنَيْنِ"; 28:88.
+
+## Ayat
+
+### 112:1 قُلْ هُوَ ٱللَّهُ أَحَدٌ
+
+- One, and no second: أَحَدٌ is the positive one, the start of counting, used unqualified only of God. The dictionary quotes this ayah as the example. Whole scene: the count is set at one here; 112:3 refuses the pair of parent and child; 112:4 refuses the equal and closes on a negated أَحَدٌۢ that holds no one, not one, not two, not more.
+- The commanded saying against the made-up saying: قُلْ is the ordered declaration through the tongue, a saying held as creed. Whole scene: talk is going round that God has offspring, a fabricated saying (تقوّل, and مولد "made-up" from the birth root of 112:3); the Prophet is told to say the true saying, and 112:3–4 is its content.
+- Origination by the word, not by birth: قُلْ supplies the word. Whole scene: things come to be by His word (قول, كون: "كُن فَيَكُونُ"), not by issuing from Him (112:3), and nothing that has come to be is His equal (112:4 لَمْ يَكُن).
+- Turning toward the one who is sought: ٱللَّهُ is the one worshipped (معبود), the name people call (يا ألله). The dictionary's alternative derivation adds yearning toward (ولهت إليه). Whole scene: everyone turns toward one goal in worship (112:1), need and reliance (112:2 الصمد), with nothing beside Him to turn to (112:4); the reversal, turning people away to another, sits under كُفُوًا.
+- Pair, birth and offspring: through the dictionary's alternative derivation of ٱللَّهُ (و ل ه), the name holds the mother parted from her child ("لا توله والدة عن ولدها"). Whole scene: marriage match (112:4), parents, bearing, child and age-mates (112:3), all denied of Him.
+- The master at the summit: قُلْ holds القيل, the ruler whose word is executed, below the greatest king. أَحَدٌ holds being alone in charge of a matter. Whole scene: a ranked court with lesser rulers, rank, guarantee and the bowed (112:1, 112:4 يَكُن), the master at its end (112:2), and no peer who could match him (112:4).
+
+### 112:2 ٱللَّهُ ٱلصَّمَدُ
+
+- Turning toward the one who is sought: ٱلصَّمَدُ is the one aimed at and relied on, to whom needs are carried, the house that is headed for. ٱللَّهُ repeats the worshipped name. Whole scene: as at 112:1, every turning has one goal, and nothing beside Him is a goal of matching rank (112:4).
+- The master at the summit: ٱلصَّمَدُ is the master whose mastery has reached its end, overseeing and attending to affairs. Whole scene: as at 112:1; lower rulers and dependants exist, and only the peer at the top is removed (112:4 كُفُوًا).
+- Solid, with no hollow: ٱلصَّمَدُ is solid through, a fixed rock with no cleft, and the stopper that closes a bottle. Whole scene: a hollow body carries and delivers (112:3 يَلِدْ) or came out of another (يُولَدْ), and a turned-over vessel empties (112:4 root of كُفُوًا); the solid has no inside to give or to come from.
+- Born, aged and succeeded: ٱلصَّمَدُ is the one who lasts after creation perishes, like the camel whose milk flows through drought. Whole scene: the born have a birthday and a deathday, cohorts of age-mates, old age that looks back ("كنت", 112:4), and yearly cohorts of young (كفأة); He stands outside that succession (112:3).
+- Pair, birth and offspring: ٱللَّهُ, through the alternative derivation, as at 112:1.
+
+### 112:3 لَمْ يَلِدْ وَلَمْ يُولَدْ
+
+- Pair, birth and offspring: يَلِدْ and يُولَدْ name both directions of the generational line: parents (الوالدان), bearing (ولدت المرأة, the pregnant ewe), the child (الولد, son or daughter), the age-mate (لدة). Whole scene: a marriage match of equal lineage (112:4 كُفُوًا) gives parents a child who has peers; under كُفُوًا the dictionary counts the herd's yearly young (أولادها); the whole scene is denied of God.
+- One, and no second: parenthood and age-mates are dual pairs (وهما الوالدان; وهما لدان). Whole scene: as at 112:1.
+- Solid, with no hollow: bearing is a carrying body putting out what is inside (وضع الوالدة ولدها), and تولد is one thing issuing from another. Whole scene: as at 112:2; nothing issues from Him and He issued from nothing.
+- Born, aged and succeeded: يُولَدْ brings the day of birth that the Quran follows with the day of death (يوم ولد), the newborn, the cohort. Whole scene: as at 112:2; He has no beginning by birth and no heir after Him.
+- Origination by the word, not by birth: تولد, arising out of a source, is the mode denied. Whole scene: as at 112:1; the word (قُلْ, كُن) in place of the child.
+- The commanded saying against the made-up saying: the birth root also names coined, fabricated speech (كتاب مولد أي مفتعل). Whole scene: as at 112:1; the claim "وَلَدَ ٱللَّهُ" is the made-up saying the commanded saying answers.
+
+### 112:4 وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ
+
+- One, and no second: أَحَدٌۢ under negation covers the whole class (ولا واحد ولا اثنان فصاعدا); كُفُوًا is the like, whatever matches something until it is its like. Whole scene: as at 112:1; the ring closes on the same word, positive at the start, negated at the end.
+- The master at the summit: كُفُوًا is the peer in lineage, wealth and war, who could match, marry into, oppose or repay. يَكُن holds rank (المكانة), guarantee for a dependant (الكيانة), and the bowing of those below (الاستكانة). Whole scene: as at 112:1; the court stands, but no one is at the master's level.
+- Pair, birth and offspring: كُفُوًا is the marriage match, and its root holds the yearly young of the herd (أولادها). Whole scene: as at 112:3.
+- Born, aged and succeeded: يَكُن holds elapsed time and the old man who says "كنت في شبابي"; كُفُوًا holds yearly and alternating cohorts of young. Whole scene: as at 112:2.
+- Origination by the word, not by birth: يَكُن is being brought into being (كونه فتكون); لَمْ يَكُن denies that any equal has ever come to be. Whole scene: as at 112:1.
+- Solid, with no hollow: the root of كُفُوًا holds the vessel turned over and emptied (كفأت الإناء إذا كببته). Whole scene: as at 112:2.
+- Turning toward the one who is sought: the root of كُفُوًا holds turning people away toward another (كفأت القوم إذا صرفتهم إلى غيره), the reversal of the turning toward الصمد; أَحَدٌۢ under negation leaves no second goal. Whole scene: as at 112:1.
+- The commanded saying against the made-up saying: لَمْ يَكُن answers تقوّل, "قال ما لم يكن". Whole scene: as at 112:1.
+

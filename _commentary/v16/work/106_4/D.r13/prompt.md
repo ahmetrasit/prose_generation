@@ -1,0 +1,204 @@
+Focus: 106:4. Follow the brief below (write.md) and its additions (additions.md) exactly. The evidence is context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah) and 01_dictionary.md (every attested branch of every root of the ayah's words, with the classical dictionaries' source phrases) and your own knowledge of Arabic and the Quran. Return the reader's prose and then the ledger, as write.md specifies.
+
+===== _commentary/v16/prompts/r13/write.md =====
+Write the Turkish reading of the focus Quranic ayah for a curious reader who
+knows neither Arabic nor how lexical families work, and who already has the
+plain meaning. Show what a translation cannot give: the supported latent
+meanings and resonances of its words, heard through their attested senses, the
+ayah's neighbours, its surah and the Quran. Work from the supplied evidence and
+your own knowledge of Arabic and the Quran. This is your own
+interpretation, not a catalogue: maps and readings by earlier readers are
+proposals, and what their members reveal together is yours to find or correct.
+A surprise is welcome when the evidence supports it. There is no length limit.
+
+Themes lead; words serve them. First understand the ayah in its grammar and
+situation. Then explore its words' attested senses within and across roots,
+the chains they take part in, and Quran passages that share its words or stage
+the same act, scene or stance without sharing a word; a partial finding may
+gain its missing support from another. Let the themes emerge from what these
+reveal together, not from the familiar reading. Write the reading as those
+themes: a word, a family image or a Quran passage enters where it grounds,
+expands, complicates or joins a theme, developed as far as that work needs.
+Never list a family's senses for their own sake, but judge each attested sense
+by what it does, not by the branch it is filed under. Where this ayah's words
+take part in a surah chain, that chain can found a theme here even when
+another ayah completes it, and so can a scene where two such chains meet.
+Every image this ayah's own words take part in is developed here as far as the
+word carries it: what the object is, how it works, what usage names it. The
+scene it forms with other ayat's words belongs to the surah commentary; recall
+it in a sentence, tied to the ayah whose words carry it, never as something
+explained before.
+
+Keep these guards:
+
+- A family image is heard beside the word's meaning in this ayah, never in
+  place of it; say so once, where the first one enters. Show where each
+  image comes from: the word, the usage that carries the image, quoted in
+  Arabic, then its work in the theme. Report usage as what speakers called
+  or said, varying the grammar so that no formula recurs ("… denir",
+  "Araplar … derlerdi"); never name a dictionary, and never make "the family"
+  a speaker.
+- Keep root identity, family images and your interpretive connections
+  distinct. Same word, same root and analogy are different things; an echo
+  root does not establish identity.
+- Explain a concrete object or mechanism by its work before drawing its
+  meaning; do not flatten it into a label.
+- Never invent a sense, source, vowel, etymology, historical fact, citation or
+  chronology.
+- Where a key word lives in Turkish as a narrowed or shifted loanword, let the
+  reader feel what the Turkish word no longer carries, once.
+- When you use another Quran passage, assume the reader does not know it:
+  give its speaker, its situation as the Quran itself tells it there and in
+  the neighbouring ayat, and the wording the connection needs. Use no hadith, no exegetes' views and no
+  report from outside the Quran (no occasion of revelation, no name the Quran
+  does not give, no date): the Quran, the supplied dictionary and Arabic usage
+  carry the reading.
+- The prose never talks about its own sources or process and never hedges in
+  the first person ("hafızadan", "bildiğim kadarıyla", "sözlük", the map, its
+  chains, workflow language; branch IDs only in tag sources).
+  A claim about Arabic that neither the supplied texts nor the Quran text can
+  check goes in the ledger as memory.
+
+Write continuous prose in `##` sections, one theme each, warm and direct:
+explain, do not dramatize; no lists and no closing recap.
+
+Every Arabic quotation (Quran or dictionary phrase) goes in the reader
+tag, as normal prose, never in quotation marks or backticks, and every tag
+ends with its source, so the reader can check it:
+{ar:exact Arabic, tr:readable Turkish transliteration, gloss:Turkish meaning, source:…}
+- a dictionary phrase or a branch's sense: source:"<root letters>,<branch id>",
+  e.g. source:"ق و م,B016";
+- a Quran quotation: source:<surah:ayah>, e.g. source:72:16, the one ayah that
+  holds the quoted words, no ranges;
+- Arabic from your own memory that is not in the supplied dictionary:
+  source:"memory".
+A branch's sense given in Turkish without its Arabic, and a Quran passage named
+without quoting it, carry the source alone: {source:"ق و م,B016"},
+{source:15:41}. Never write a Quran reference outside a tag; quote the
+surah's own words in tags too, and name its ayat in words ("dördüncü ayet"). The gloss gives
+the ayah's word by its meaning here, a family image by that image. Copy Quran
+Arabic from the supplied text or the lookup.
+
+Output: the prose; then a line containing only
+=== LEDGER ===
+then, in plain English, one short line per item, a few words each:
+- memory: <a claim about Arabic the texts cannot check>
+- not written: <finding> - <why it could not found, reshape or join a theme>
+
+
+===== _commentary/v16/prompts/r13/additions.md =====
+No additions: write.md is the whole brief.
+
+
+===== _commentary/v16/work/106_4/D.r13/context.md =====
+# 106:4 — focus
+
+ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ
+
+Anchor translation (canonical reading, reference only):
+
+O, onları açlıktan doyurdu ve korkudan güvene kavuşturdu.
+
+## Words (QAC; roots via quran-data gateway)
+
+| w | surface | lemma | root | pos |
+|---|---|---|---|---|
+| 1 | ٱلَّذِىٓ | ٱلَّذِى |  | REL |
+| 2 | أَطْعَمَهُم | أَطْعَمَ | ط ع م | V;PRON |
+| 3 | مِّن | مِن |  | P |
+| 4 | جُوعٍ | جُوع | ج و ع | N |
+| 5 | وَءَامَنَهُم | ءَامَنَ | ء م ن | CONJ;V;PRON |
+| 6 | مِّنْ | مِن |  | P |
+| 7 | خَوْفٍۭ | خَوْف | خ و ف | N |
+
+
+# Fatiha (recited in every salah)
+- 1:1 بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+
+# Surah 106 — full text (context; no pericope)
+
+- 106:1 لِإِيلَٰفِ قُرَيْشٍ
+- 106:2 إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ
+- 106:3 فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ
+- 106:4 ◀ focus ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ
+
+
+===== _commentary/v16/work/106_4/D.r13/01_dictionary.md =====
+# Dictionary: every branch of every focus root
+
+One entry per branch: a Turkish label and Turkish glosses of its attested senses, then the classical dictionaries' own phrases with their source tags (ayn, sihah, tahdhib, maqayis, mufradat, jamhara). [kalıp] marks a sense the dictionaries attest only inside a fixed expression.
+Identity roots come from the quran-data gateway. Word-scoped alternatives are cited analyses of this
+exact word. **Echo roots** are observed but withheld mappings: sound-family candidates, not identity.
+
+## ط ع م (root_000934) — identity root of أَطْعَمَهُم (w2)
+
+- **B001** tatma, yeme ve yenilen besin — tat, lezzet · yemek veya tadına bakmak · yiyecek, besin · özellikle buğday · tadına bakma ve iştahını yoklama · doyuran ve besleyen yiyecek ya da su · yeme isteği veya iştah çekici şey · çok yiyen, obur
+  أصل في تذوق الشيء والطعام هو المأكول والإطعام يقع حتى الماء (maqayis)؛ الطعم ذوقه والطعام اسم جامع لكل ما يؤكل (ayn)؛ طعم إذا أكل أو ذاق ومن لم يطعمه أي لم يذقه (sihah)؛ الطعم تناول الغذاء ويستعمل في الشراب (mufradat)
+- **B002** başkasını beslemek veya beslenmeyi istemek — yiyecek vermek, doyurmak · kendisini doyurmasını istemek
+  الإطعام يقع في كل ما يطعم (maqayis)؛ استطعمه سأله أن يطعمه وأطعمته الطعام (sihah)؛ استطعمه فأطعمه وأطعموا القانع ويطعمون الطعام (mufradat)
+- **B003** söz istemek veya takılan imama söz vermek [kalıp] — benden konuşmamı istedi · imam okuyuşta takılırsa sözü hatırlatın
+  استطعمني فلان الحديث إذا أرادك على أن تحدثه وإذا استطعمكم الإمام فأطعموه (maqayis)؛ إذا استفتح فافتحوا عليه (sihah)؛ إذا استفتحكم عند الارتياج فلقنوه (mufradat)
+- **B004** geçim, bol ikram ve tahsis edilmiş gelir — geçimi yerinde · rızkı açık, kazançlı · çok ikram eden · geçim veya kazanç kaynağı · kazancı temiz veya kötü · araziyi birine geçim payı olarak ayırdı
+  رجل طاعم حسن الحال ومطعام كثير القرى ومطعم مرزوق والطعمة المأكلة (maqayis)؛ حسن المطعم وحسن الطعمة (ayn)؛ الطعمة وجه المكسب وجعلت الضيعة طعمة (sihah)؛ ناحية كذا طعمة والخراج والإتاوات والفيء والخراج (tahdhib)
+- **B005** olgunlaşıp tat kazanmak [kalıp] — ağacın meyvesi olgunlaşıp tat kazandı · tulumda hoş tat kazanmış süt
+  للنخلة إذا أدرك ثمرها قد أطعمت (maqayis)؛ أطعمت النخلة واطعمت البسرة صار لها طعم وأخذت الطعم (sihah)؛ الشجر المثمر الذي يؤكل ثمره واطعمت الثمرة أخذت الطعم (tahdhib)
+- **B006** avı kazandıran araç, uzuv veya kişi — av getiren yay · avcı kuşun öndeki kalın parmağı · avdan yana talihli, avı bol
+  قوس مطعمة تطعم صاحبها الصيد والإصبع المتقدمة من الجارحة مطعمة (maqayis)؛ المطعمة القوس والمطعمتان في رجل كل طائر (sihah)؛ مطعم للصيد وقوس مطعمة والمطعمة من الجوارح (tahdhib)
+- **B007** ilikte yağı beliren, biraz semiz hayvan — iliğinde yağ bulunan deve · biraz semiz, orta yağlı
+  المطعم من الإبل الذي يوجد في مخه طعم الشحم وشاة طعوم فيها بعض السمن (maqayis)؛ جزور طعوم وطعيم بين الغثة والسمينة (sihah)؛ ناقة طعوم وجزور طعوم وطعيم (tahdhib)
+- **B008** akıl, değer ve düzelmeye açıklık niteliği [kalıp] — akıllı ve sağlam yargılı · aklı, devinimi veya değeri yok · terbiye kabul etmez, uslanmaz
+  ما فلان بذي طعم إذا كان غثا (sihah)؛ رجل ذو طعم أي ذو عقل وحزم وما بفلان طعم ولا نويص ولا يطعم أي لا يتأدب ولا يعقل (tahdhib)
+- **B009** atın ağız bölümü ve koşma talebi — atın burun altı ve dudak çevresi · attan koşmasını istedi
+  مستطعم الفرس جحافله (sihah)؛ مستطعم الفرس ما تحت مرسنه إلى أطراف جحافله واستطعمت الفرس إذا طلبت جريه (tahdhib)
+- **B010** eklenen şeyin tutması [kalıp] — dala aşı yaptı ve aşı tuttu · gözüne küçük bir yabancı cisim girdi
+  أطعمت الغصن إذا وصلت به غصنا فقبل الوصل وأطعمت عينه قذى فطعمته (tahdhib)
+- **B011** gücü yetmek [kalıp] — ona gücü yetti
+  الطعم أيضا القدرة يقال طعمت عليه أي قدرت عليه (tahdhib)
+- **B012** boğazından yakalayıp sıkmak [kalıp] — boğazından yakalayıp sıktı
+  أخذ فلان بمطعمة فلان إذا أخذ بحلقه يعصره ولا يقولونها إلا عند الخنق والقتال (tahdhib)
+- **B013** ağız ağıza temas etmek — ağız ağıza temas etme
+  التطاعم إدخال الفم في الفم كما يفعل الحمام عند التقبيل (tahdhib)
+- **B014** oluşumu ardışık olmak [kalıp] — oluşumu birbirini izleyen bölümlerden kurulu
+  متطاعم الخلق أي متتابع الخلق (tahdhib)
+
+## ج و ع (root_000278) — identity root of جُوعٍ (w4)
+
+- **B001** midenin boş kalmasından doğan açlık — açlık · acıkmak · aç kimse · aç kadın · çok aç kimse · aç kadın · aç kimseler · açlar · bir kez açlık çekme · sürekli aç görünen ya da sık sık azar azar yiyen kimse
+  الجوع ضد الشبع (maqayis;jamhara;sihah)؛ الجوع اسم جامع للمخمصة (ayn)؛ الجوع اسم للمخمصة (tahdhib)؛ الألم الذي ينال الحيوان من خلو المعدة من الطعام (mufradat)؛ الجوعة المرة من الجوع (jamhara;sihah;tahdhib)؛ المستجيع الذي يأكل كل ساعة الشيء بعد الشيء (tahdhib)
+- **B002** yaygın açlık dönemi — yaygın açlık dönemi · açlık yılı
+  عام مجاعة ومجوعة (maqayis;sihah)؛ المجاعة عام فيه جوع (ayn;tahdhib)؛ المجاعة عبارة عن زمان الجدب (mufradat)
+- **B003** aç bırakma ya da bilerek aç kalma — onu aç bıraktı · onu aç bıraktı · başkasını aç bırakma · birini aç bırakma · bilerek aç kalmak · sağaltım için doyuncaya kadar yememek
+  أجعته وجوعته فجاع يجوع (ayn;tahdhib)؛ المتعدي الإجاعة والتجويع (ayn)؛ أجاعه وجوعه (sihah)؛ تجوع أي تعمد الجوع (sihah)؛ تجوع للدواء أي لا تستوف الطعام (tahdhib)
+- **B004** yapıya göre özlem, kap boşluğu ya da karın inceliği [kalıp] — seninle buluşmayı çok özledim · kabı dolu değil · karnı ince kadın
+  جعت إلى لقائك وعطشت إلى لقائك؛ جائع القدر إذا لم تكن قدره ملأى؛ امرأة جائعة الوشاح إذا كانت ضامرة البطن
+
+## ء م ن (root_000054) — identity root of وَءَامَنَهُم (w5)
+
+- **B001** guven ve guvenilirlik — ihanetin karsiti olan guvenilirlik ve emanet edilen sey · korkunun kalkmasi ve ic yatiskinligi · guven, eminlik ve yatiskinlik hali · guven verme, guven hali veya guvenceye birakilan sey · guven icinde olmak ve korkusu kalkmak · birini guven icine almak ve ona guven saglamak · guven icinde duruma gelmek · kendisine guvenilen emin kisi · emanet edilen veya kendisine guvenilen kisi · guven icinde olan, emin · guvenilir veya emanet edilebilir olan · kendisine bir sey emanet edilen kisi · guven icinde, tehlikeden uzak ve yatiskin · insanlarin zararindan korkmadigi guvenilir kimse · herkese guvenen ve duydugunu dogru sayan kisi · kisinin en degerli ve icinin yatistigi mali · guvenli yer veya guven icindeki mesken · birinin guvencesi altina girmek · bir seyi birine emanet etmek ve onu guvenilir saymak · zayiflamasindan veya surcmesinden korkulmayan saglam deve · kullarini veya dostlarini zulümden ve azaptan guvende kilan
+  الأمن ضد الخوف (ayn;sihah)؛ أصل الأمن طمأنينة النفس وزوال الخوف (mufradat)؛ الأمانة ضد الخيانة ومعناها سكون القلب (maqayis)؛ الأمان إعطاء الأمنة (maqayis;ayn)؛ أمن فلان يأمن أمنا وأمانا وأمنة فهو آمن (tahdhib)؛ استأمن إليه دخل في أمانه (sihah)؛ مأمنه منزله الذي فيه أمنه (mufradat)؛ الأمون الناقة الأمينة الوثيقة أو التي يؤمن فتورها وعثورها (ayn;sihah;mufradat)
+- **B002** dogru sayip kabul etme — ozellikle haber veya hakikati dogru kabul etme · herkese guvenen ve duydugunu dogru sayan kisi · kuluna vaat ettigi odulu dogrulayan · bizi dogru sayan veya bize inanan · bildirilen dine girme ve onu kabul etme adi · hakka kalp, dil ve davranisla baglanarak dogru kabul etme · iyi amel anlaminda namaz veya ibadet · guven vermeyen batil seylere guven duymak diye yerilen tutum
+  الإيمان التصديق (ayn;sihah)؛ وما أنت بمؤمن لنا أي مصدق لنا (maqayis;ayn;mufradat)؛ إذعان النفس للحق على سبيل التصديق (mufradat)؛ المؤمن في صفات الله يصدق ما وعد عبده (maqayis)
+- **B003** duada kabul istegi sozu — duada 'kabul et' veya 'oyle olsun' anlamina gelen soz · ilahi ad oldugu aktarilan dua sozu · duada kabul istegi bildiren sozu soyleme
+  قولنا في الدعاء آمين وتفسيره اللهم افعل (maqayis)؛ التأمين من قولك آمين (ayn)؛ آمين في الدعاء يمد ويقصر ومعناه كذلك فليكن (sihah)؛ آمين يقال بالمد والقصر وهو اسم للفعل ومعناه استجب وأمن فلان إذا قال آمين (mufradat)
+
+## خ و ف (root_000447) — identity root of خَوْفٍۭ (w7)
+
+- **B001** bir belirtiye dayanarak kötü bir şey bekleme korkusu — korku · korkmak · korku hali · korku halleri · korku ve sakınma · korkan kimse · çok korkan adam · korkan topluluk · korkan topluluk · kork! · onun başına bir şey gelmesinden korkmak
+  الخوف ضد الأمن خاف يخاف خوفا (jamhara خفو)؛ والخيفة مثل الخوف والجمع خيف (jamhara خيف)؛ خاف الرجل يخاف خوفا وخيفة ومخافة فهو خائف؛ والخيفة الخوف والجمع خيف وأصله الواو (sihah)؛ الخوف توقع مكروه عن أمارة مظنونة أو معلومة ويضاد الخوف الأمن (mufradat)؛ أصل واحد يدل على الذعر والفزع؛ خفت الشيء خوفا وخيفة (maqayis 992)؛ الخيف فجمع خيفة وليس من هذا الباب وقد ذكر في باب الواو بعد الخاء (maqayis 1001)؛ الخيفة الخوف (ayn)
+- **B002** korku doğurma ya da korkulur kılma — korkutma veya korkuyla sakındırma · başkasını korkutma · korkutucu · korkulan veya tehlikeli · insanların korktuğu tehlikeli yol · Tanrı'nın korku uyandırarak sakındırması
+  ومنه التخويف والإخافة؛ طريق مخوف يخافه الناس ومخيف يخيف الناس؛ خوفت الرجل جعلت فيه الخوف؛ خوفت الرجل أي صيرته بحال يخافه الناس (ayn)؛ الإخافة التخويف؛ وجع مخيف أي يخيف من رآه؛ طريق مخوف لأنه لا يخيف وإنما يخيف فيه قاطع الطريق (sihah)؛ التخويف من الله تعالى هو الحث على التحرز؛ ذلك يخوف الله به عباده؛ الشيطان يخوف أولياءه (mufradat)
+- **B003** korkuda yarışıp ötekinden daha çok korkma — korkuda yarışıp ötekinden daha çok korkmak
+  خاوفه فخافه يخوفه غلبه بالخوف أي كان أشد خوفا منه (sihah)؛ خاوفني فلان فخفته أي كنت أشد خوفا منه (maqayis)
+- **B004** bir şeyden alarak eksiltme — bir şeyi eksiltip ondan bir bölüm almak
+  والتخوف التنقص (ayn)؛ وتخوفه أي تنقصه (sihah)؛ تخوفناهم أي تنقصناهم تنقصا اقتضاه الخوف منه (mufradat)؛ تخوفت الشيء أي تنقصته فهو الصحيح الفصيح إلا أنه من الإبدال والأصل النون من التنقص (maqayis)
+- **B005** korkunun kişide dışa vurması — korkunun kişide dışa vurması
+  والتخوف ظهور الخوف من الإنسان (mufradat)
+- **B006** arıcı ya da su taşıyıcısının deri torbası veya üstlüğü — arıcı veya su taşıyıcısının deri torbası, kabı ya da üstlüğü · aynı eşyanın küçük biçimi
+  الخافة تصغيرها خويفة واشتقاقها من الخوف وهي جبة يلبسها العسال والسقاء والخافة العيبة (ayn)؛ الخافة خريطة من أدم يشتار فيها العسل (sihah)
+

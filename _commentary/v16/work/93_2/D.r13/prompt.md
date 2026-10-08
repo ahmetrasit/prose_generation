@@ -1,0 +1,167 @@
+Focus: 93:2. Follow the brief below (write.md) and its additions (additions.md) exactly. The evidence is context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah) and 01_dictionary.md (every attested branch of every root of the ayah's words, with the classical dictionaries' source phrases) and your own knowledge of Arabic and the Quran. Return the reader's prose and then the ledger, as write.md specifies.
+
+===== _commentary/v16/prompts/r13/write.md =====
+Write the Turkish reading of the focus Quranic ayah for a curious reader who
+knows neither Arabic nor how lexical families work, and who already has the
+plain meaning. Show what a translation cannot give: the supported latent
+meanings and resonances of its words, heard through their attested senses, the
+ayah's neighbours, its surah and the Quran. Work from the supplied evidence and
+your own knowledge of Arabic and the Quran. This is your own
+interpretation, not a catalogue: maps and readings by earlier readers are
+proposals, and what their members reveal together is yours to find or correct.
+A surprise is welcome when the evidence supports it. There is no length limit.
+
+Themes lead; words serve them. First understand the ayah in its grammar and
+situation. Then explore its words' attested senses within and across roots,
+the chains they take part in, and Quran passages that share its words or stage
+the same act, scene or stance without sharing a word; a partial finding may
+gain its missing support from another. Let the themes emerge from what these
+reveal together, not from the familiar reading. Write the reading as those
+themes: a word, a family image or a Quran passage enters where it grounds,
+expands, complicates or joins a theme, developed as far as that work needs.
+Never list a family's senses for their own sake, but judge each attested sense
+by what it does, not by the branch it is filed under. Where this ayah's words
+take part in a surah chain, that chain can found a theme here even when
+another ayah completes it, and so can a scene where two such chains meet.
+Every image this ayah's own words take part in is developed here as far as the
+word carries it: what the object is, how it works, what usage names it. The
+scene it forms with other ayat's words belongs to the surah commentary; recall
+it in a sentence, tied to the ayah whose words carry it, never as something
+explained before.
+
+Keep these guards:
+
+- A family image is heard beside the word's meaning in this ayah, never in
+  place of it; say so once, where the first one enters. Show where each
+  image comes from: the word, the usage that carries the image, quoted in
+  Arabic, then its work in the theme. Report usage as what speakers called
+  or said, varying the grammar so that no formula recurs ("… denir",
+  "Araplar … derlerdi"); never name a dictionary, and never make "the family"
+  a speaker.
+- Keep root identity, family images and your interpretive connections
+  distinct. Same word, same root and analogy are different things; an echo
+  root does not establish identity.
+- Explain a concrete object or mechanism by its work before drawing its
+  meaning; do not flatten it into a label.
+- Never invent a sense, source, vowel, etymology, historical fact, citation or
+  chronology.
+- Where a key word lives in Turkish as a narrowed or shifted loanword, let the
+  reader feel what the Turkish word no longer carries, once.
+- When you use another Quran passage, assume the reader does not know it:
+  give its speaker, its situation as the Quran itself tells it there and in
+  the neighbouring ayat, and the wording the connection needs. Use no hadith, no exegetes' views and no
+  report from outside the Quran (no occasion of revelation, no name the Quran
+  does not give, no date): the Quran, the supplied dictionary and Arabic usage
+  carry the reading.
+- The prose never talks about its own sources or process and never hedges in
+  the first person ("hafızadan", "bildiğim kadarıyla", "sözlük", the map, its
+  chains, workflow language; branch IDs only in tag sources).
+  A claim about Arabic that neither the supplied texts nor the Quran text can
+  check goes in the ledger as memory.
+
+Write continuous prose in `##` sections, one theme each, warm and direct:
+explain, do not dramatize; no lists and no closing recap.
+
+Every Arabic quotation (Quran or dictionary phrase) goes in the reader
+tag, as normal prose, never in quotation marks or backticks, and every tag
+ends with its source, so the reader can check it:
+{ar:exact Arabic, tr:readable Turkish transliteration, gloss:Turkish meaning, source:…}
+- a dictionary phrase or a branch's sense: source:"<root letters>,<branch id>",
+  e.g. source:"ق و م,B016";
+- a Quran quotation: source:<surah:ayah>, e.g. source:72:16, the one ayah that
+  holds the quoted words, no ranges;
+- Arabic from your own memory that is not in the supplied dictionary:
+  source:"memory".
+A branch's sense given in Turkish without its Arabic, and a Quran passage named
+without quoting it, carry the source alone: {source:"ق و م,B016"},
+{source:15:41}. Never write a Quran reference outside a tag; quote the
+surah's own words in tags too, and name its ayat in words ("dördüncü ayet"). The gloss gives
+the ayah's word by its meaning here, a family image by that image. Copy Quran
+Arabic from the supplied text or the lookup.
+
+Output: the prose; then a line containing only
+=== LEDGER ===
+then, in plain English, one short line per item, a few words each:
+- memory: <a claim about Arabic the texts cannot check>
+- not written: <finding> - <why it could not found, reshape or join a theme>
+
+
+===== _commentary/v16/prompts/r13/additions.md =====
+No additions: write.md is the whole brief.
+
+
+===== _commentary/v16/work/93_2/D.r13/context.md =====
+# 93:2 — focus
+
+وَٱلَّيْلِ إِذَا سَجَىٰ
+
+Anchor translation (canonical reading, reference only):
+
+Sakinleştiğinde geceye de andolsun.
+
+## Words (QAC; roots via quran-data gateway)
+
+| w | surface | lemma | root | pos |
+|---|---|---|---|---|
+| 1 | وَٱلَّيْلِ | لَيْل | ل ي ل | CONJ;DET;N |
+| 2 | إِذَا | إِذَا |  | T |
+| 3 | سَجَىٰ | سَجَىٰ | س ج و | V |
+
+
+# Fatiha (recited in every salah)
+- 1:1 بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+
+# Surah 93 — full text (context; no pericope)
+
+- 93:1 وَٱلضُّحَىٰ
+- 93:2 ◀ focus وَٱلَّيْلِ إِذَا سَجَىٰ
+- 93:3 مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ
+- 93:4 وَلَلْءَاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ
+- 93:5 وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ
+- 93:6 أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ
+- 93:7 وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ
+- 93:8 وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ
+- 93:9 فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ
+- 93:10 وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ
+- 93:11 وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ
+
+
+===== _commentary/v16/work/93_2/D.r13/01_dictionary.md =====
+# Dictionary: every branch of every focus root
+
+One entry per branch: a Turkish label and Turkish glosses of its attested senses, then the classical dictionaries' own phrases with their source tags (ayn, sihah, tahdhib, maqayis, mufradat, jamhara). [kalıp] marks a sense the dictionaries attest only inside a fixed expression.
+Identity roots come from the quran-data gateway. Word-scoped alternatives are cited analyses of this
+exact word. **Echo roots** are observed but withheld mappings: sound-family candidates, not identity.
+
+## ل ي ل (root_001392) — identity root of وَٱلَّيْلِ (w1)
+
+- **B001** gündüzün karşıtı olan gece ve onun karanlığı — gündüzün karşıtı olan gece · gece karanlığı · tek bir gece · geceler · geceler · geceler · çok karanlık ve çetin gece · çok karanlık gece · uzun ya da şiddeti pekiştirilmiş gece · ayın en karanlık ve son gecesi
+  الليل خلاف النهار (maqayis)؛ الليل ضد النهار (jamhara;tahdhib)؛ ظلام الليل (tahdhib)؛ ليل وليلة وليلات وليال (maqayis;sihah;mufradat)؛ ليل أليل وليلة ليلاء وليل لائل (jamhara;sihah;tahdhib;mufradat)؛ ليلة ليلى أشد ليلة في الشهر ظلمة وآخر ليلة فيه (jamhara)
+- **B002** geceye girme ya da geceleyin iş görüp yol alma — geceye göre karşılıklı işlem yapma · geceye girmek · gece yol alan veya gece yolculuğuna dayanabilen kimse
+  عاملته ملايلة كما تقول مياومة من اليوم (sihah)؛ أليلت صرت في الليل (tahdhib)؛ لست بليلي ولكني نهر أي أسير بالنهار ولا أطيق سرى الليل (tahdhib)
+- **B003** bugüne göre belirlenen en yakın gece — bugüne en yakın gece; bağlama göre geçen ya da girilecek olan gece
+  إلى نصف النهار تقول فعلت الليلة فإذا زالت الشمس قلت فعلت البارحة (tahdhib)؛ هذه الليلة التي في السماء أقرب الليالي من يومك وهي الليلة التي تليه (tahdhib)؛ الهلال في هذه الليلة التي في السماء يعني الليلة التي تدخلها يتكلم بهذا في النهار (tahdhib)
+- **B004** bir kadın adı; ayrıca belirli bir söz öbeğinde şarabın örtülü adı — bir kadın adı · şarap için kullanılan örtülü ad
+  وبه سميت ليلى (jamhara)؛ ليلى اسم امرأة (sihah)؛ أم ليلى هي الخمر (tahdhib)
+
+## س ج و (root_000679) — identity root of سَجَىٰ (w3)
+
+- **B001** durgunluk ve sürüp kalma — durgunluk · durulmak ve öyle kalmak · gecenin durulup çökmesi · durgun ve karanlık gece · rüzgârsız, sakin gece · denizin dalgalarının dinmesi · durgun deniz · durgun ve süzgün bakışlı göz · durgun ve gevşek bakış · rüzgârın dinmesi · sağılırken sakin duran dişi deve
+  أصل يدل على سكون وإطباق (maqayis)؛ السجو السكون (ayn)؛ سجا الليل وغيره إذا سكن (jamhara)؛ سكن ودام (sihah)؛ إذا أظلم وركد، ومعنى ركد سكن (tahdhib)؛ أي سكن (mufradat)
+- **B002** ölünün üstünü örtüyle kapatma — ölünün üstünü bir örtüyle kapatma · bir şeyin üstünü örtmek · gecenin gündüzü kaplaması
+  تسجية الميت تغطيته بثوب (ayn)؛ سجيت الميت تسجية إذا مددت عليه ثوبا (sihah)؛ يسجى الميت بثوب أي يغطى به (tahdhib)؛ تسجية الميت أي تغطيته بالثوب (mufradat)
+- **B003** doğuştan gelen huy ve yaradılış — doğuştan gelen huy ve yaradılış
+  السجية الخلق والطبيعة (sihah)
+- **B004** yemeğe el sürmeme [kalıp] — ona hiç el sürmedik
+  أتانا بطعام فما ساجيناه أي ما مسسناه (tahdhib)
+- **B005** toprak işletmesinin işlerini yürütme [kalıp] — bir toprak işletmesinin işlerini yürütmek
+  هل نساجي ضيعة أي هل نعالجها (tahdhib)
+- **B006** devenin sütünün bol gelmesi — devenin sütünün bollaşması · kuyunun bol hale gelmesi; neyin bol olduğu belirtilmemiştir
+  ما كانت البئر سجوا ولقد أسجت، وكذلك الناقة أسجت في الغزارة في اللبن (tahdhib)
+

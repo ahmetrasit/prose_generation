@@ -1,0 +1,236 @@
+Focus: 89:1. Follow the brief below (write.md) and its additions (additions.md) exactly. The evidence is context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah) and 01_dictionary.md (every attested branch of every root of the ayah's words, with the classical dictionaries' source phrases) and images.md (an earlier reader's commentary on the surah's images, cut to the images whose sources include this ayah, and the section on where images meet; a proposal, not an authority. Develop here each image this ayah's words take part in, as write.md says; the shared scenes are the surah commentary's) and your own knowledge of Arabic and the Quran. Return the reader's prose and then the ledger, as write.md specifies.
+
+To read a Quran passage's Arabic before you use it, run `python3 /Volumes/aro/projects/prose_generation/_commentary/v16/missing.py text <refs>` (up to 40 refs per call) as often as you need. Run each command exactly as written, as the whole command: no cd, no && and no ; (such a command is refused and never runs). No other command or tool is available.
+
+===== _commentary/v16/prompts/r13/write.md =====
+Write the Turkish reading of the focus Quranic ayah for a curious reader who
+knows neither Arabic nor how lexical families work, and who already has the
+plain meaning. Show what a translation cannot give: the supported latent
+meanings and resonances of its words, heard through their attested senses, the
+ayah's neighbours, its surah and the Quran. Work from the supplied evidence and
+your own knowledge of Arabic and the Quran. This is your own
+interpretation, not a catalogue: maps and readings by earlier readers are
+proposals, and what their members reveal together is yours to find or correct.
+A surprise is welcome when the evidence supports it. There is no length limit.
+
+Themes lead; words serve them. First understand the ayah in its grammar and
+situation. Then explore its words' attested senses within and across roots,
+the chains they take part in, and Quran passages that share its words or stage
+the same act, scene or stance without sharing a word; a partial finding may
+gain its missing support from another. Let the themes emerge from what these
+reveal together, not from the familiar reading. Write the reading as those
+themes: a word, a family image or a Quran passage enters where it grounds,
+expands, complicates or joins a theme, developed as far as that work needs.
+Never list a family's senses for their own sake, but judge each attested sense
+by what it does, not by the branch it is filed under. Where this ayah's words
+take part in a surah chain, that chain can found a theme here even when
+another ayah completes it, and so can a scene where two such chains meet.
+Every image this ayah's own words take part in is developed here as far as the
+word carries it: what the object is, how it works, what usage names it. The
+scene it forms with other ayat's words belongs to the surah commentary; recall
+it in a sentence, tied to the ayah whose words carry it, never as something
+explained before.
+
+Keep these guards:
+
+- A family image is heard beside the word's meaning in this ayah, never in
+  place of it; say so once, where the first one enters. Show where each
+  image comes from: the word, the usage that carries the image, quoted in
+  Arabic, then its work in the theme. Report usage as what speakers called
+  or said, varying the grammar so that no formula recurs ("… denir",
+  "Araplar … derlerdi"); never name a dictionary, and never make "the family"
+  a speaker.
+- Keep root identity, family images and your interpretive connections
+  distinct. Same word, same root and analogy are different things; an echo
+  root does not establish identity.
+- Explain a concrete object or mechanism by its work before drawing its
+  meaning; do not flatten it into a label.
+- Never invent a sense, source, vowel, etymology, historical fact, citation or
+  chronology.
+- Where a key word lives in Turkish as a narrowed or shifted loanword, let the
+  reader feel what the Turkish word no longer carries, once.
+- When you use another Quran passage, assume the reader does not know it:
+  give its speaker, its situation as the Quran itself tells it there and in
+  the neighbouring ayat, and the wording the connection needs. Use no hadith, no exegetes' views and no
+  report from outside the Quran (no occasion of revelation, no name the Quran
+  does not give, no date): the Quran, the supplied dictionary and Arabic usage
+  carry the reading.
+- The prose never talks about its own sources or process and never hedges in
+  the first person ("hafızadan", "bildiğim kadarıyla", "sözlük", the map, its
+  chains, workflow language; branch IDs only in tag sources).
+  A claim about Arabic that neither the supplied texts nor the Quran text can
+  check goes in the ledger as memory.
+
+Write continuous prose in `##` sections, one theme each, warm and direct:
+explain, do not dramatize; no lists and no closing recap.
+
+Every Arabic quotation (Quran or dictionary phrase) goes in the reader
+tag, as normal prose, never in quotation marks or backticks, and every tag
+ends with its source, so the reader can check it:
+{ar:exact Arabic, tr:readable Turkish transliteration, gloss:Turkish meaning, source:…}
+- a dictionary phrase or a branch's sense: source:"<root letters>,<branch id>",
+  e.g. source:"ق و م,B016";
+- a Quran quotation: source:<surah:ayah>, e.g. source:72:16, the one ayah that
+  holds the quoted words, no ranges;
+- Arabic from your own memory that is not in the supplied dictionary:
+  source:"memory".
+A branch's sense given in Turkish without its Arabic, and a Quran passage named
+without quoting it, carry the source alone: {source:"ق و م,B016"},
+{source:15:41}. Never write a Quran reference outside a tag; quote the
+surah's own words in tags too, and name its ayat in words ("dördüncü ayet"). The gloss gives
+the ayah's word by its meaning here, a family image by that image. Copy Quran
+Arabic from the supplied text or the lookup.
+
+Output: the prose; then a line containing only
+=== LEDGER ===
+then, in plain English, one short line per item, a few words each:
+- memory: <a claim about Arabic the texts cannot check>
+- not written: <finding> - <why it could not found, reshape or join a theme>
+
+
+===== _commentary/v16/prompts/r13/additions.md =====
+No additions: write.md is the whole brief.
+
+
+===== _commentary/v16/work/89_1/D.r13/context.md =====
+# 89:1 — focus
+
+وَٱلْفَجْرِ
+
+Anchor translation (canonical reading, reference only):
+
+Tan vaktine andolsun!
+
+## Words (QAC; roots via quran-data gateway)
+
+| w | surface | lemma | root | pos |
+|---|---|---|---|---|
+| 1 | وَٱلْفَجْرِ | فَجْر | ف ج ر | P;DET;N |
+
+
+# Fatiha (recited in every salah)
+- 1:1 بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+
+# Surah 89 — full text (context; no pericope)
+
+- 89:1 ◀ focus وَٱلْفَجْرِ
+- 89:2 وَلَيَالٍ عَشْرٍۢ
+- 89:3 وَٱلشَّفْعِ وَٱلْوَتْرِ
+- 89:4 وَٱلَّيْلِ إِذَا يَسْرِ
+- 89:5 هَلْ فِى ذَٰلِكَ قَسَمٌۭ لِّذِى حِجْرٍ
+- 89:6 أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ
+- 89:7 إِرَمَ ذَاتِ ٱلْعِمَادِ
+- 89:8 ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَٰدِ
+- 89:9 وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ
+- 89:10 وَفِرْعَوْنَ ذِى ٱلْأَوْتَادِ
+- 89:11 ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَٰدِ
+- 89:12 فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ
+- 89:13 فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ
+- 89:14 إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ
+- 89:15 فَأَمَّا ٱلْإِنسَٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ
+- 89:16 وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَٰنَنِ
+- 89:17 كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ
+- 89:18 وَلَا تَحَٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ
+- 89:19 وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًۭا لَّمًّۭا
+- 89:20 وَتُحِبُّونَ ٱلْمَالَ حُبًّۭا جَمًّۭا
+- 89:21 كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّۭا دَكًّۭا
+- 89:22 وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّۭا صَفًّۭا
+- 89:23 وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍۢ يَتَذَكَّرُ ٱلْإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ
+- 89:24 يَقُولُ يَٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى
+- 89:25 فَيَوْمَئِذٍۢ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌۭ
+- 89:26 وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌۭ
+- 89:27 يَٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ
+- 89:28 ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةًۭ مَّرْضِيَّةًۭ
+- 89:29 فَٱدْخُلِى فِى عِبَٰدِى
+- 89:30 وَٱدْخُلِى جَنَّتِى
+
+
+===== _commentary/v16/work/89_1/D.r13/01_dictionary.md =====
+# Dictionary: every branch of every focus root
+
+One entry per branch: a Turkish label and Turkish glosses of its attested senses, then the classical dictionaries' own phrases with their source tags (ayn, sihah, tahdhib, maqayis, mufradat, jamhara). [kalıp] marks a sense the dictionaries attest only inside a fixed expression.
+Identity roots come from the quran-data gateway. Word-scoped alternatives are cited analyses of this
+exact word. **Echo roots** are observed but withheld mappings: sound-family candidates, not identity.
+
+## ف ج ر (root_001132) — identity root of وَٱلْفَجْرِ (w1)
+
+- **B001** genişçe yarılma ve içinden suyun akıp çıkması — suyu yarıp akıtma · su açılıp akmaya başladı · suyu yarıp dışarı akıttı · çokça açılıp fışkırdı · suyun açılıp çıktığı yer · suyun çıktığı ağız · suların ve vadilerin açılıp çıktığı alçak alan · vadinin su boşaltım ağızları · kum içindeki yol
+  التفتح في الشيء (maqayis)؛ انفجر الماء انفجارا تفتح (maqayis)؛ الفجر تفجيرك الماء (ayn;tahdhib)؛ وانفجر الماء وغيره انفجارا إذا انبعث سائلا (jamhara)؛ فجرت الماء فانفجر أي بجسته فانبجس (sihah)؛ شق الشيء شقا واسعا (mufradat)؛ المفجر الموضع الذي ينفجر منه الماء (ayn;tahdhib)؛ الفجرة موضع تفتح الماء (maqayis;sihah)؛ مفاجر الوادي مرافضه (maqayis;sihah)
+- **B002** sabah aydınlığının gece karanlığını yararak belirmesi — tan aydınlığı · ufka yayılan gerçek tan · dikey görünüp dağılan yalancı tan · tan vaktine girdik
+  الفجر انفجار الظلمة عن الصبح (maqayis)؛ الفجر ضوء الصباح والفجر الصبح (ayn)؛ الفجر حمرة الشمس في سواد الليل وهما فجران (jamhara)؛ الفجر في آخر الليل كالشفق في أوله (sihah)؛ الفجر ضوء الصبح وقد انفجر الصبح (tahdhib)؛ قيل للصبح فجر لكونه فجر الليل (mufradat)
+- **B003** kalabalığın ya da çok sayıda belanın ansızın üzerlerine gelmesi [kalıp] — kalabalık ansızın üzerlerine geldi · çok sayıda bela ansızın başlarına geldi
+  انفجر عليهم القوم وانفجرت عليهم الدواهي إذا جاءهم الكثير منها بغتة (ayn)؛ انفجرت عليهم الدواهي إذا جاءهم الكثير منها بغته (tahdhib)
+- **B004** doğruluk sınırını çiğneyerek kötülüğe sapma — taşkın kötülük, başkaldırı ve yalan · doğru yoldan sapıp kötülüklere daldı · yalan söyledi · yalan söyledi, cinsel sınırı çiğnedi ya da inancı reddetti · doğru yoldan sapmış kimse · terkin oturma yeri yana yatıktır · kötülük, kuşku ve yalan · ey doğru yoldan sapmış kadın · sana yalan söyleyen, karşı gelen ya da sözünden çıkan kişi
+  الانبعاث والتفتح في المعاصي فجورا (maqayis)؛ سمي الكذب فجورا (maqayis)؛ كل مائل عن الحق فاجر (maqayis)؛ الفجور الريبة والكذب (ayn;tahdhib)؛ انبعاثه في المعاصي (jamhara)؛ فجر فجورا أي فسق وفجر أي كذب وأصله الميل (sihah)؛ الفجور شق ستر الديانة (mufradat)؛ سمي الكاذب فاجرا لكون الكذب بعض الفجور (mufradat)؛ أفجر إذا كذب وأفجر إذا عصى بفرجه وأفجر إذا كفر (tahdhib)
+- **B005** taşarcasına bol iyilik ve eli açıklık — bol iyilik ve eli açıklık · iyiliği ve yardımı · iyiliği taşarcasına bol kimse · iyiliğin taşıp yayılması · çokça varlık getirdi
+  الفجر وهو الكرم والتفجر بالخير (maqayis)؛ وما أكثر فجره أي معروفه (ayn)؛ رجل ذو فجر إذا كان يتفجر بالخير (jamhara)؛ الفجر الكرم والتفجر في الخير (sihah)؛ الفجر الجود الواسع والكرم (tahdhib)؛ أفجر الرجل إذا جاء بالفجر وهو المال الكثير (tahdhib)
+- **B006** dokunulmazlığın çiğnenmesiyle adlandırılan belirli savaş günleri — dokunulmazlığın çiğnendiği belirli savaş günleri
+  يوم الفجار يوم للعرب استحلت فيه الحرمة (maqayis)؛ انفجار من وقعات العرب بعكاظ (ayn)؛ أيام الفجار أربعة أفجرة (jamhara;sihah)؛ وإنما سمت قريش هذه الحرب فجارا لأنها كانت في الأشهر الحرم (sihah)؛ أيام الفجار أيام وقائع كانت بعكاظ واستحلوا الحرمات (tahdhib)؛ أيام الفجار وقائع اشتدت بين العرب (mufradat)
+
+===== _commentary/v16/out/s089/images.r13.map3.nohft.tool.tool/images.md (only the images that cite 89:1, and ## Buluşmalar) =====
+## Gece örtüsü ve onu yaran şafak
+
+Sure bir yarılmayla açılır: {ar:وَٱلْفَجْرِ, tr:ve'l-fecr, gloss:şafağa andolsun, source:89:1}. Arapçada fecr, karanlığın sabahtan ayrılıp açılmasıdır: {ar:الفجر انفجار الظلمة عن الصبح, tr:el-fecru'nficâru'z-zulmeti ani's-subh, gloss:fecr, karanlığın sabahtan yarılıp açılmasıdır, source:"ف ج ر,B002"}. Sabaha bu adın verilmesi de geceyi yarmasındandır: {ar:قيل للصبح فجر لكونه فجر الليل, tr:kîle li's-subhi fecrun li-kevnihî fecera'l-leyl, gloss:sabaha fecr denmesi geceyi yarmasındandır, source:"ف ج ر,B002"}. Sahnede gece her şeyin üstüne serilmiş bir örtüdür. Şafak bu örtüyü bir anda kaldırmaz, ufkun bir noktasından yırtar ve ışık o yarıktan sızar. Kelimenin ayetteki anlamı şafaktır. Aynı kökten gelen imgeler bu anlamın yanında duyulur, onun yerine geçmez. Aşağıdaki bütün imgeler de bu ölçüyle okunur.
+
+Gecenin örtüsü Arapçada ayrı bir kökün işidir: {ar:جنان الليل سواده وستره الأشياء, tr:cenânu'l-leyli sevâduhû ve setruhu'l-eşyâ', gloss:gecenin cenânı, karanlığı ve şeyleri örtmesidir, source:"ج ن ن,B002"}. Kur'an bu fiili İbrahim'in sahnesinde kullanır. Gece onu örtünce bir yıldız görür ve "Bu Rabbimdir" der. Yıldız batınca batanları sevmediğini söyler: {ar:فَلَمَّا جَنَّ عَلَيْهِ ٱلَّيْلُ رَءَا كَوْكَبًۭا, tr:fe-lemmâ cenne aleyhi'l-leylu raâ kevkebâ, gloss:gece onu örtünce bir yıldız gördü, source:6:76}. Burada örtü görmeyi engellemez. Tersine, karanlığın içinde batanla batmayanı ayırmayı mümkün kılar.
+
+İkinci ayet geceleri sayar: {ar:وَلَيَالٍ عَشْرٍۢ, tr:ve leyâlin aşr, gloss:ve on geceye, source:89:2}. Gece burada tek bir örtü değildir, birbirini izleyen karanlıklardır: {ar:ظلام الليل, tr:zalâmu'l-leyl, gloss:gecenin karanlığı, source:"ل ي ل,B001"}. Dördüncü ayet geceyi hareket hâlinde gösterir: {ar:وَٱلَّيْلِ إِذَا يَسْرِ, tr:ve'l-leyli izâ yesr, gloss:yürüyüp gittiğinde geceye, source:89:4}. Fiil gece yolculuğunu anlatır: {ar:السرى سير الليل, tr:es-surâ seyru'l-leyl, gloss:surâ, gece yürüyüşüdür, source:"س ر ي,B001"}. Aynı harfler bir şeyin üstündeki örtüyü kaldırmayı da adlandırır: {ar:السرو كشف الشيء عن الشيء, tr:es-servu keşfu'ş-şey'i ani'ş-şey', gloss:bir şeyi başka bir şeyin üstünden açmak, source:"س ر ي,B004"}. Bir örnek: {ar:انسرى عني الهم انكشف, tr:insarâ anni'l-hemmu'nkeşef, gloss:tasa üzerimden kalktı, açıldı, source:"س ر ي,B004"}. Gece yürüdükçe gider, gittikçe altında kalanı açık bırakır. Örtü iki yolla kalkar: yırtılarak, ki bu fecrdir, ve kayarak, ki bu seryidir. Surenin ilk dört ayeti bu iki hareketi aynı gecenin iki ucuna yerleştirir.
+
+Kur'an aynı ikiliyi başka yeminlerde de kurar. Tekvîr suresinde gece kararır ve sabah nefes alır: {ar:وَٱلَّيْلِ إِذَا عَسْعَسَ, tr:ve'l-leyli izâ as'as, gloss:kararıp çekildiğinde geceye, source:81:17}, {ar:وَٱلصُّبْحِ إِذَا تَنَفَّسَ, tr:ve's-subhi izâ teneffes, gloss:nefes aldığında sabaha, source:81:18}. Müddessir suresinde gece arkasını döner ve sabah ağarır: {ar:وَٱلَّيْلِ إِذْ أَدْبَرَ, tr:ve'l-leyli iz edber, gloss:arkasını döndüğünde geceye, source:74:33}, {ar:وَٱلصُّبْحِ إِذَآ أَسْفَرَ, tr:ve's-subhi izâ esfer, gloss:ağardığında sabaha, source:74:34}. Leyl suresi ise geceye tam örttüğü anda yemin eder: {ar:وَٱلَّيْلِ إِذَا يَغْشَىٰ, tr:ve'l-leyli izâ yağşâ, gloss:örttüğünde geceye, source:92:1}. Yarma işini Kur'an Allah'a da verir, ama başka bir kökle: {ar:فَالِقُ ٱلْإِصْبَاحِ, tr:fâliku'l-ısbâh, gloss:sabahı yarıp çıkaran, source:6:96}. Aynı kök Felak suresindeki sığınma sözünde de geçer {source:113:1}. Kökler ayrıdır ama mekanizma aynıdır: karanlık bir kabuk gibi çatlar. Oruç hükmü yarığın ne kadar ince olduğunu gösterir. Beyaz iplik siyah iplikten şafakta ayrılır: {ar:ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ, tr:el-haytu'l-ebyadu mine'l-hayti'l-esvedi mine'l-fecr, gloss:şafaktan beyaz iplik siyah iplikten, source:2:187}. Demek ki şafak bir alan değil, bir çizgidir. Kadir gecesi de bu çizgiye kadar sürer: {ar:سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ, tr:selâmun hiye hattâ matla'i'l-fecr, gloss:o, şafağın doğuşuna kadar esenliktir, source:97:5}.
+
+Yarılmanın ters yüzü de aynı köktedir. Ahlâki yırtıklık anlamındaki fücur şöyle tarif edilir: {ar:الفجور شق ستر الديانة, tr:el-fucûru şakku sitri'd-diyâne, gloss:fücur, din örtüsünü yırtmaktır, source:"ف ج ر,B004"}. Şafak karanlığı yırtınca ışık gelir. İnsan dinin örtüsünü yırtınca açılan şey ışık değildir. Surenin ilk kelimesi bu iki yarılmayı birlikte taşır. On birinci ve on ikinci ayetlerde sınırı aşan kavimler anlatılırken ikinci yön duyulur.
+
+Beşinci ayet yeminin kime söylendiğini sorar: {ar:هَلْ فِى ذَٰلِكَ قَسَمٌۭ لِّذِى حِجْرٍ, tr:hel fî zâlike kasemun li-zî hicr, gloss:bunda akıl sahibi için bir yemin var mı, source:89:5}. Hicr kökü bir duvarın işini anlatır: {ar:المنع والإحاطة, tr:el-men'u ve'l-ihâta, gloss:alıkoymak ve çevrelemek, source:"ح ج ر,B001"}. Akla bu adın verilmesi de bundandır: {ar:العقل يسمى حجرا لأنه يمنع من إتيان ما لا ينبغي, tr:el-aklu yusemmâ hicran li-ennehû yemne'u min ityâni mâ lâ yenbeğî, gloss:akla hicr denir, çünkü yakışmayanı yapmaktan alıkoyar, source:"ح ج ر,B002"}. Örtüyü yırtan şafak, içinde bir duvar taşıyan birine seslenir. Akıl, insanı dışarı taşmaktan tutan iç duvardır. Kur'an aynı kelimeyi kıyamet gününün duvarı olarak da kullanır. Meleklerin görüldüğü gün suçlulara müjde yoktur ve o gün {ar:وَيَقُولُونَ حِجْرًۭا مَّحْجُورًۭا, tr:ve yekûlûne hicran mahcûrâ, gloss:ve "aşılmaz bir engel" derler, source:25:22}.
+
+Sure bir örtünün içine girişle biter: {ar:فَٱدْخُلِى فِى عِبَٰدِى, tr:fedhulî fî ibâdî, gloss:kullarımın arasına gir, source:89:29}, {ar:وَٱدْخُلِى جَنَّتِى, tr:vedhulî cennetî, gloss:ve cennetime gir, source:89:30}. Girmek, çıkmanın karşıtıdır: {ar:الدخول نقيض الخروج, tr:ed-duhûlu nakîdu'l-hurûc, gloss:girmek çıkmanın zıddıdır, source:"د خ ل,B001"}. Girilen yer gecenin örtüsüyle aynı köktendir. Bahçe {ar:كل بستان ذي شجر يستر بأشجاره الأرض, tr:kullu bustânin zî şecerin yesturu bi-eşcârihi'l-ard, gloss:ağaçlarıyla toprağı örten her bahçe, source:"ج ن ن,B003"} demektir, ahiretteki cennet de {ar:ثواب مستور عنهم اليوم, tr:sevâbun mestûrun anhumu'l-yevm, gloss:bugün onlardan gizli tutulan bir karşılık, source:"ج ن ن,B004"}. Kur'an bu gizliliği açıkça söyler: {ar:فَلَا تَعْلَمُ نَفْسٌۭ مَّآ أُخْفِىَ لَهُم مِّن قُرَّةِ أَعْيُنٍۢ, tr:fe-lâ ta'lemu nefsun mâ uhfiye lehum min kurrati a'yun, gloss:onlar için gizlenmiş göz aydınlığını hiçbir can bilmez, source:32:17}. Aynı kök bir örtüyü daha adlandırır: {ar:الجنن القبر, tr:el-cenen el-kabr, gloss:cenen, kabirdir, source:"ج ن ن,B009"}. Yirmi birinci ayetin dövme fiili de ölünün üstüne toprak yığmayı anlatır: {ar:دككت التراب على الميت إذا هلته عليه, tr:dekektu't-turâbe ale'l-meyyiti izâ hiltuhû aleyh, gloss:toprağı ölünün üstüne yığdım, source:"د ك ك,B003"}. Yerin dövüldüğü ayette kabir toprağı da duyulur. Surenin son kelimesi ise ağaçların örtüsüdür. Ruh toprağın örtüsüne değil, bahçenin örtüsüne çağrılır.
+
+Bir halka daha vardır. Yirmi yedinci ayette seslenilen {ar:ٱلنَّفْسُ, tr:en-nefs, gloss:can, source:89:27} kelimesinin kökü sabahın nefes almasını da adlandırır: {ar:تنفس الصبح أي تبلج, tr:teneffese's-subhu ey teballec, gloss:sabah nefes aldı, yani ağardı, source:"ن ف س,B009"}. Bu nefes alma şafağın yarılmasıyla açıklanır: {ar:إذا انشق الفجر وانفلق, tr:ize'nşakka'l-fecru ve'nfelak, gloss:şafak yarılıp açıldığında, source:"ن ف س,B009"}. Sure fecrle açılır ve son çağrısını nefse yapar. İkisini Tekvîr'in nefes alan sabahı birbirine bağlar {source:81:18}.
+
+Kaynaklar: 89:1 وَٱلْفَجْرِ ف ج ر B002; 89:1 وَٱلْفَجْرِ ف ج ر B004; 89:2 وَلَيَالٍ ل ي ل B001; 89:4 يَسْرِ س ر ي B001; 89:4 يَسْرِ س ر ي B004; 89:5 حِجْرٍ ح ج ر B001; 89:5 حِجْرٍ ح ج ر B002; 89:21 دُكَّتِ د ك ك B003; 89:27 ٱلنَّفْسُ ن ف س B009; 89:29 فَٱدْخُلِى د خ ل B001; 89:30 جَنَّتِى ج ن ن B002; 89:30 جَنَّتِى ج ن ن B003; 89:30 جَنَّتِى ج ن ن B004; 89:30 جَنَّتِى ج ن ن B009
+
+## Su: fışkıran, taşan, yukarıdan dökülen
+
+İlk kelimenin kökü, karanlıktan önce suyun yarılmasını anlatır: {ar:انفجر الماء انفجارا تفتح, tr:infecera'l-mâu'nficâran tefettah, gloss:su fışkırdı, önü açıldı, source:"ف ج ر,B001"}. Fışkırma şöyle tarif edilir: {ar:إذا انبعث سائلا, tr:ize'nbe'ase sâilen, gloss:akarak fırladığında, source:"ف ج ر,B001"}. Kaya ya da toprak bir noktada çatlar, içerideki su bastırarak dışarı fırlar ve akmaya başlar. Kur'an bu sahneyi taşın içinden kurar. İsrailoğullarına kalplerinin taştan da katı olduğu söylenirken bazı taşlardan ırmakların fışkırdığı hatırlatılır: {ar:وَإِنَّ مِنَ ٱلْحِجَارَةِ لَمَا يَتَفَجَّرُ مِنْهُ ٱلْأَنْهَٰرُ, tr:ve inne mine'l-hicârati lemâ yetefecceru minhu'l-enhâr, gloss:taşların öylesi var ki içinden ırmaklar fışkırır, source:2:74}. Nuh'un tufanında aynı fiil yeryüzünü kaynaklara çevirir ve su ölçüsü önceden belirlenmiş bir iş üzerinde buluşur: {ar:وَفَجَّرْنَا ٱلْأَرْضَ عُيُونًۭا فَٱلْتَقَى ٱلْمَآءُ عَلَىٰٓ أَمْرٍۢ قَدْ قُدِرَ, tr:ve feccernâ'l-arda uyûnen fe'lteka'l-mâu alâ emrin kad kudir, gloss:yeri kaynaklar hâlinde fışkırttık, su takdir edilmiş bir iş üzerinde buluştu, source:54:12}. Kıyamette denizler fışkırtılır: {ar:وَإِذَا ٱلْبِحَارُ فُجِّرَتْ, tr:ve ize'l-bihâru fuccirat, gloss:denizler fışkırtıldığında, source:82:3}. Mekke'de inkârcılar Peygamber'den, arasından ırmaklar fışkırttığı bir bahçe isterler {source:17:91}. Kur'an bu işi cennette Allah'ın kullarına verir: {ar:عَيْنًۭا يَشْرَبُ بِهَا عِبَادُ ٱللَّهِ يُفَجِّرُونَهَا تَفْجِيرًۭا, tr:aynen yeşrabu bihâ ibâdu'llâhi yufeccirûnehâ tefcîrâ, gloss:Allah'ın kullarının içtiği, dilediklerince fışkırttıkları bir kaynak, source:76:6}.
+
+Aynı kök günahı da adlandırır: {ar:الانبعاث والتفتح في المعاصي فجورا, tr:el-inbi'âsu ve't-tefettuhu fi'l-me'âsî fucûrâ, gloss:günahlara atılmak ve açılmak, fücur, source:"ف ج ر,B004"}. Suyun önünü yarıp fırlaması ile insanın günaha açılıp atılması aynı kelimeyle söylenir. Bu yüzden surenin geçmiş kavimleri anlatan bölümü bir sel gibi duyulur.
+
+Dokuzuncu ayette Semûd kayayı vadide oymuştur: {ar:بِٱلْوَادِ, tr:bi'l-vâd, gloss:vadide, source:89:9}. Vadi selin yoludur: {ar:كل مفرج بين جبال وآكام وتلال يكون مسلكا للسيل, tr:kullu mufracin beyne cibâlin ve âkâmin ve tilâlin yekûnu meslekan li's-seyl, gloss:dağlar, tepeler ve tümsekler arasında selin geçtiği her açıklık, source:"و د ي,B005"}. Kök akmayı adlandırır: {ar:ودى أي سال, tr:vedâ ey sâl, gloss:aktı, source:"و د ي,B001"}. Kaya evler suyun indiği yatağa kurulmuştur. Kur'an'ın sel benzetmesinde vadiler kendi ölçüleri kadar akar ve sel kabarık bir köpük taşır: {ar:فَسَالَتْ أَوْدِيَةٌۢ بِقَدَرِهَا فَٱحْتَمَلَ ٱلسَّيْلُ زَبَدًۭا رَّابِيًۭا, tr:fe-sâlet evdiyetun bi-kaderihâ fahtemele's-seylu zebeden râbiyâ, gloss:vadiler ölçülerince aktı, sel kabarık bir köpük taşıdı, source:13:17}. Köpük gider, insanlara yarayan yerde kalır. Âd da vadilerine doğru gelen bulutu yağmur sanmıştır. Hûd'un Ahkâf'ta kavmini uyarmasıyla başlayan sahnede {source:46:21} bulutu görünce şöyle derler: {ar:قَالُوا۟ هَٰذَا عَارِضٌۭ مُّمْطِرُنَا ۚ بَلْ هُوَ مَا ٱسْتَعْجَلْتُم بِهِۦ ۖ رِيحٌۭ فِيهَا عَذَابٌ أَلِيمٌۭ, tr:kâlû hâzâ âridun mumtırunâ, bel huve me'sta'celtum bih, rîhun fîhâ azâbun elîm, gloss:"Bu bize yağmur getiren bir bulut" dediler. Hayır, o acele istediğiniz şeydir: içinde acı bir azap olan bir rüzgâr, source:46:24}.
+
+On birinci ayetin fiili suyun taşmasıdır: {ar:ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَٰدِ, tr:ellezîne tağav fi'l-bilâd, gloss:o ülkelerde azanlar, source:89:11}. Arapçada sel için {ar:طغى السيل إذا جاء بماء كثير, tr:tağa's-seylu izâ câe bi-mâin kesîr, gloss:sel bol suyla gelince "taştı" denir, source:"ط غ ي,B002"}, su için de {ar:طغى الماء خروجه عن المقدار, tr:tuğyânu'l-mâi hurûcuhû ani'l-mikdâr, gloss:suyun taşması ölçüsünden çıkmasıdır, source:"ط غ ي,B002"} denir. Ayette anlam azgınlıktır. Yanında ölçüsünden çıkan, yatağını aşan su duyulur. Kur'an kelimeyi tufan için doğrudan kullanır: {ar:إِنَّا لَمَّا طَغَا ٱلْمَآءُ حَمَلْنَٰكُمْ فِى ٱلْجَارِيَةِ, tr:innâ lemmâ tağa'l-mâu hamelnâkum fi'l-câriye, gloss:su taştığında sizi akıp giden gemide taşıdık, source:69:11}. On ikinci ayet taşkının sonucunu verir: {ar:فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ, tr:fe-ekserû fîhe'l-fesâd, gloss:oralarda bozgunu çoğalttılar, source:89:12}. Çoğalmak {ar:الكثرة نماء العدد, tr:el-kesretu nemâu'l-aded, gloss:çokluk, sayının büyümesidir, source:"ك ث ر,B001"} demektir, bozulmak da {ar:الفساد خروج الشيء عن الاعتدال, tr:el-fesâdu hurûcu'ş-şey'i ani'l-i'tidâl, gloss:fesat, bir şeyin dengeden çıkmasıdır, source:"ف س د,B001"}. Hacim büyür ve şeyler dengelerinden çıkar. Bozgunun tarifindeki "çıkış" suyun ölçüden çıkışıyla aynı kelimedir. Kur'an'da bozgun karaya ve denize yayılır: {ar:ظَهَرَ ٱلْفَسَادُ فِى ٱلْبَرِّ وَٱلْبَحْرِ, tr:zahera'l-fesâdu fi'l-berri ve'l-bahr, gloss:karada ve denizde bozgun ortaya çıktı, source:30:41}. Salih de Semûd'a, Âd'dan sonra yerleştirildikleri yeryüzünde ovalardan saraylar edinip dağları ev diye oyduklarını hatırlatır ve sonra şöyle der: {ar:وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ, tr:ve lâ ta'sev fi'l-ardı mufsidîn, gloss:yeryüzünde bozguncular olarak dolaşmayın, source:7:74}.
+
+On üçüncü ayet taşkına yukarıdan karşılık verir: {ar:فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ, tr:fe-sabbe aleyhim rabbuke savte azâb, gloss:Rabbin de üzerlerine azap kamçısı yağdırdı, source:89:13}. Sabb, suyun fiilidir: {ar:صب الماء إراقته من أعلى, tr:sabbu'l-mâi irâkatuhû min a'lâ, gloss:suyu dökmek, onu yukarıdan akıtmaktır, source:"ص ب ب,B001"}. Vadiye inmek de bu fiille söylenir: {ar:صب في الوادي إذا انحدر فيه, tr:sabbe fi'l-vâdî izenhadera fîh, gloss:vadiye indi, oraya doğru aktı, source:"ص ب ب,B002"}. Aşağıda yatağını taşan suya yukarıdan dökülen bir şey karşılık verir. Dökülenin adı azaptır ve bu kelimenin harfleri tatlı suyu da adlandırır: {ar:العذب ضد الملح وكل مستسيغ من طعام أو شراب, tr:el-azbu diddu'l-milhi ve kullu mustesâğin min taâmin ev şarâb, gloss:azb, tuzlunun zıddıdır; boğazdan rahat geçen her yiyecek ve içecek, source:"ع ذ ب,B001"}. Âd'ın yağmur sandığı rüzgâr bu iki yüzü tek sahnede gösterir: beklenen tatlı su, gelen ise azaptır {source:46:24}.
+
+Aynı su sahnesi surenin ikinci yarısında rahmet olarak döner. Kur'an insana yemeğine bakmasını söyler: {ar:أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّۭا, tr:ennâ sabebne'l-mâe sabbâ, gloss:suyu bol bol döktük, source:80:25}, {ar:ثُمَّ شَقَقْنَا ٱلْأَرْضَ شَقًّۭا, tr:summe şekakne'l-arda şakkâ, gloss:sonra toprağı yardıkça yardık, source:80:26}. Fiil aynıdır, ama bu kez arkasından yarılan toprak ve biten yemek gelir. Surenin sınav sahnesindeki kelimeler bu yağmuru da taşır. İkram için {ar:كرم السحاب أتى بالغيث, tr:keruma's-sehâbu etâ bi'l-ğays, gloss:bulut cömert davrandı, yağmur getirdi, source:"ك ر م,B002"} denir. Rızık için {ar:وقد يسمى المطر رزقا, tr:ve kad yusemma'l-mataru rızkâ, gloss:yağmura da rızık denir, source:"ر ز ق,B003"} denir. Kur'an da şöyle der: {ar:وَفِى ٱلسَّمَآءِ رِزْقُكُمْ, tr:ve fi's-semâi rızkukum, gloss:rızkınız göktedir, source:51:22}. Ölçü için de {ar:ينزل المطر بمقدار, tr:yenzilu'l-mataru bi-mikdâr, gloss:yağmur ölçüyle iner, source:"ق د ر,B001"} denir. On altıncı ayette rızkın daraltılması, yağmurun ölçüyle inmesinin insanın gözünden görünen yüzüdür. Yirmi dördüncü ayetteki "hayatım" kelimesinin yanında yağmur duyulur: {ar:الحيا المطر لأنه يحيي الأرض بعد موتها, tr:el-hayâ el-mataru li-ennehû yuhyi'l-arda ba'de mevtihâ, gloss:hayâ yağmurdur, çünkü yeri ölümünden sonra diriltir, source:"ح ي ي,B002"}. Yirmi sekizinci ayetteki "dön" kelimesinin yanında da dökülüp yeniden gelen yağmur duyulur: {ar:الرجع الغيث وهو المطر لأنها تغيث وتصب ثم ترجع فتغيث, tr:er-rec'u el-ğaysu ve huve'l-mataru li-ennehâ tuğîsu ve tasubbu summe terci'u fe-tuğîs, gloss:rec' yağmurdur, çünkü yağar, dökülür, sonra döner ve yine yağar, source:"ر ج ع,B006"}. Kur'an da göğe dönüşüyle yemin eder: {ar:وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ, tr:ve's-semâi zâti'r-rec', gloss:dönüp dönüp yağan göğe, source:86:11}. Ölü toprağa yağmur gönderilmesi, ölülerin çıkarılmasının örneğidir: {ar:كَذَٰلِكَ نُخْرِجُ ٱلْمَوْتَىٰ لَعَلَّكُمْ تَذَكَّرُونَ, tr:kezâlike nuhricu'l-mevtâ leallekum tezekkerûn, gloss:ölüleri de böyle çıkarırız; belki düşünüp hatırlarsınız, source:7:57}. Son kelime bu suyun ürününe varır: bahçeye ve bitkinin gürleşip çiçek açmasına: {ar:جن النبت جنونا إذا اشتد وخرج زهره, tr:cenne'n-nebtu cunûnen izeştedde ve harace zehruh, gloss:bitki gürleşip çiçeğini çıkarınca "cenne" denir, source:"ج ن ن,B011"}.
+
+Surede suyun işleyişi bir ölçüye bağlanır. Ölçüsünde kalan su hayat verir, ölçüsünü aşan su süpürür. Âd, Semûd ve Firavun ölçüyü aşan taşkındır ve onlara yukarıdan azap dökülür. İnsana ölçülü rızık iner ve o, ölçünün kendisini aşağılanma sanır.
+
+Kaynaklar: 89:1 وَٱلْفَجْرِ ف ج ر B001; 89:1 وَٱلْفَجْرِ ف ج ر B004; 89:9 بِٱلْوَادِ و د ي B001; 89:9 بِٱلْوَادِ و د ي B005; 89:11 طَغَوْا۟ ط غ ي B002; 89:12 فَأَكْثَرُوا۟ ك ث ر B001; 89:12 ٱلْفَسَادَ ف س د B001; 89:13 فَصَبَّ ص ب ب B001; 89:13 فَصَبَّ ص ب ب B002; 89:13 عَذَابٍ ع ذ ب B001; 89:15 فَأَكْرَمَهُۥ ك ر م B002; 89:16 فَقَدَرَ ق د ر B001; 89:16 رِزْقَهُۥ ر ز ق B003; 89:24 لِحَيَاتِى ح ي ي B002; 89:28 ٱرْجِعِىٓ ر ج ع B006; 89:30 جَنَّتِى ج ن ن B011
+
+## Saf saf gelenler
+
+Yer dövülüp düzlendikten sonra bir topluluk gelir: {ar:وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّۭا صَفًّۭا, tr:ve câe rabbuke ve'l-meleku saffen saffâ, gloss:Rabbin ve melekler saf saf geldiğinde, source:89:22}. Gelmek (mecî') genel bir fiildir: {ar:المجيء كالإتيان لكن المجيء أعم, tr:el-mecîu ke'l-ityân, lâkinne'l-mecîe a'amm, gloss:mecî' gelmek gibidir, ama ondan daha geniştir, source:"ج ي ء,B001"}. Melek kelimesi burada tekildir, ama bütün sınıfı kapsar: {ar:الملك من الملائكة واحد وجمع, tr:el-melek mine'l-melâike vâhidun ve cem', gloss:melek kelimesi hem tekil hem çoğul için kullanılır, source:"م ل ك,B009"}. Kur'an aynı tekili yerin ve dağların ezildiği sahnede de kullanır: {ar:وَٱلْمَلَكُ عَلَىٰٓ أَرْجَآئِهَا, tr:ve'l-meleku alâ ercâihâ, gloss:melekler de göğün kenarlarındadır, source:69:17}. Saf, bir şeyi düz bir çizgi üzerine dizmektir: {ar:الصف أن تجعل الشيء على خط مستو, tr:es-saffu en tec'ale'ş-şey'e alâ hattın mustevin, gloss:saf, bir şeyi düz bir çizgi üzerine dizmektir, source:"ص ف ف,B001"}. Durulan yer de bu kökten adlandırılır: {ar:المصف الموقف, tr:el-masaff el-mevkıf, gloss:masaff, durulan yerdir, source:"ص ف ف,B001"}. Kelimenin tekrarı bir dağıtım kalıbıdır. Arapça gelme fiilini tekrarlanan bir sayıyla aynı biçimde kurar: {ar:جاء القوم عشار عشار ومعشر معشر أي عشرة عشرة, tr:câe'l-kavmu uşâra uşâr, ve ma'şera ma'şer, ey aşeraten aşera, gloss:topluluk onar onar geldi, source:"ع ش ر,B005"}. Ayetteki tekrar da aynı şeyi söyler: saf ardından saf gelir. İkinci ayetteki "on" kelimesinin kökü bu kalıbı önceden taşır.
+
+Gelişin ritmi surenin önceki kelimelerinde de vardır. Üçüncü ayetteki tek kelimesinin kökünden birbiri ardınca gelmek anlamı türer: {ar:تترى من الوتر أي واحدا بعد واحد, tr:tetrâ mine'l-vetr, ey vâhiden ba'de vâhid, gloss:tetrâ vetr kökündendir, yani birbiri ardınca, source:"و ت ر,B004"}. Kur'an bu kelimeyi elçilerin ve onları yalanlayan ümmetlerin dizisi için kullanır: {ar:ثُمَّ أَرْسَلْنَا رُسُلَنَا تَتْرَا, tr:summe erselnâ rusulenâ tetrâ, gloss:sonra elçilerimizi birbiri ardınca gönderdik, source:23:44}. Aynı ayette yalanlayan ümmetler de birbirinin ardınca yok edilip söz konusu edilen hikâyelere dönüştürülür. Surenin altıncı ve onuncu ayetleri arasında anılan kavimler de böyle bir dizi oluşturur. İlk kelimenin kökü de bir topluluğun ansızın üstüne gelişini anlatır: {ar:انفجرت عليهم الدواهي إذا جاءهم الكثير منها بغتة, tr:infeceret aleyhimu'd-devâhî izâ câehumu'l-kesîru minhâ bağteten, gloss:felaketler birdenbire ve çok sayıda gelince "üstlerine boşandı" denir, source:"ف ج ر,B003"}. Dövme fiili de kalabalığın bir şeye yüklenmesini anlatır: {ar:تداك عليه القوم إذا ازدحموا عليه, tr:tedâkke aleyhi'l-kavmu izezdehamû aleyh, gloss:insanlar onun üstüne üşüştü, source:"د ك ك,B008"}.
+
+Yirmi üçüncü ayette cehennem getirilir: {ar:وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ, tr:ve cîe yevmeizin bi-cehennem, gloss:o gün cehennem getirildiğinde, source:89:23}. Bir şeyi getirmek onu hazır etmektir: {ar:وجاء بكذا: استحضره, tr:ve câe bi-kezâ: istahdarah, gloss:onu getirdi, yani hazır etti, source:"ج ي ء,B004"}. Uzakta sanılan şey göz önüne konur. Kur'an aynı edilgen fiili Sûr'dan sonraki sahnede kullanır: {ar:وَجِا۟ىٓءَ بِٱلنَّبِيِّۦنَ وَٱلشُّهَدَآءِ, tr:ve cîe bi'n-nebiyyîne ve'ş-şuhedâ', gloss:peygamberler ve şahitler getirildi, source:39:69}. Cehennemin ortaya çıkarılmasını da şöyle anlatır: {ar:وَبُرِّزَتِ ٱلْجَحِيمُ لِمَن يَرَىٰ, tr:ve burrizeti'l-cahîmu li-men yerâ, gloss:cehennem gören herkes için ortaya çıkarılır, source:79:36}, {ar:وَبُرِّزَتِ ٱلْجَحِيمُ لِلْغَاوِينَ, tr:ve burrizeti'l-cahîmu li'l-ğâvîn, gloss:cehennem azgınlara gösterilir, source:26:91}. Her can da yanında bir sürücü ve bir şahitle gelir: {ar:وَجَآءَتْ كُلُّ نَفْسٍۢ مَّعَهَا سَآئِقٌۭ وَشَهِيدٌۭ, tr:ve câet kullu nefsin meahâ sâikun ve şehîd, gloss:her can yanında bir sürücü ve bir şahitle gelir, source:50:21}. Safın kendisi de başka sahnelerde vardır: {ar:يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَٰٓئِكَةُ صَفًّۭا, tr:yevme yekûmu'r-rûhu ve'l-melâiketu saffâ, gloss:Ruh ve meleklerin saf hâlinde durduğu gün, source:78:38}, {ar:وَٱلصَّٰٓفَّٰتِ صَفًّۭا, tr:ve's-sâffâti saffâ, gloss:saf saf dizilenlere andolsun, source:37:1}. İnsanlar da Rabbe saf hâlinde sunulur: {ar:وَعُرِضُوا۟ عَلَىٰ رَبِّكَ صَفًّۭا, tr:ve urıdû alâ rabbike saffâ, gloss:Rabbine saf hâlinde sunuldular, source:18:48}. Bu geliş inkârcıların beklediği şeyin gerçekleşmesidir: {ar:هَلْ يَنظُرُونَ إِلَّآ أَن يَأْتِيَهُمُ ٱللَّهُ فِى ظُلَلٍۢ مِّنَ ٱلْغَمَامِ وَٱلْمَلَٰٓئِكَةُ, tr:hel yenzurûne illâ en ye'tiyehumu'llâhu fî zulelin mine'l-ğamâmi ve'l-melâike, gloss:onlar Allah'ın ve meleklerin bulut gölgeleri içinde gelmesinden başka bir şey mi bekliyorlar, source:2:210}. Aynı bekleyiş başka bir ayette de dile getirilir {source:6:158}. Göğün bulutla yarıldığı ve meleklerin indirildiği gün de anlatılır {source:25:25}.
+
+Kaynaklar: 89:1 ٱلْفَجْرِ ف ج ر B003; 89:2 عَشْرٍۢ ع ش ر B005; 89:3 ٱلْوَتْرِ و ت ر B004; 89:21 دَكًّۭا د ك ك B008; 89:22 وَجَآءَ ج ي ء B001; 89:22 وَٱلْمَلَكُ م ل ك B009; 89:22 صَفًّۭا ص ف ف B001; 89:23 وَجِا۟ىٓءَ ج ي ء B004
+
+## Buluşmalar
+
+On üçüncü ayet üç imgeyi tek bir fiilde toplar. Dökme fiili suyun fiilidir, nesnesi kamçıdır ve yukarıdan çullanan yılanın hareketini de taşır. Hemen ardından gelen ayet gözetleme yerini adlandırır. Böylece bir önceki ayetteki taşkın, ölçüsünü aşan su olarak duyulur ve karşılığını yukarıdan inen bir kütle olarak alır. Bu karşılık bir pusu gibi, yolcuların geçmek zorunda olduğu yerden gelir. Âd'ın vadilerine doğru gelen bulut bu buluşmanın Kur'an'daki sahnesidir: göğe doğru bakılır, tatlı su beklenir, gelen ise azaptır {source:46:24}. Azap kelimesinin harfleri tatlı suyu ve kamçının ucunu birlikte adlandırdığı için tek bir kelime hem beklenen şeyi hem geleni söyler.
+
+Yirmi birinci ve yirmi ikinci ayetler yıkım ile gelişi aynı zemine koyar. Sütunlar, kaya evler ve kazıklar dümdüz edilir. Saf saf gelen meleklerin durduğu yer de bu düzlüktür. Düzlüğün adı safsaf, saf kelimesinden türer {ar:الصفصف المستوي من الأرض كأنه على صف واحد, tr:es-safsaf el-mustevî mine'l-ard, gloss:tek bir saf gibi dümdüz yer, source:"ص ف ف,B005"}. Kur'an da dağların savrulup dümdüz bir ova bırakılacağını söyler {source:20:106}. Yedinci ayetteki sütun sabahın ilk aydınlığının da adıdır: {ar:عمود الصبح ابتداء ضوئه, tr:amûdu's-subhi ibtidâu dav'ih, gloss:sabahın sütunu, ışığının başlangıcıdır, source:"ع م د,B007"}. Surenin başında dikilen tek şey bu ışık sütunuydu. Âd'ın taş sütunları yıkıldıktan sonra yerde dimdik duran tek şey meleklerin saflarıdır. Kur'an mal toplayıp sayanın sonunu da yine sütunlarla anlatır: {ar:فِى عَمَدٍۢ مُّمَدَّدَةٍۭ, tr:fî amedin mumeddede, gloss:uzatılmış sütunlar içinde, source:104:9}. Bu sahnede yığma imgesi ile dikme imgesi birleşir. Ağzına kadar doldurulan kap ile yükseltilen sütun aynı insanın elindedir ve ikisi de onu kurtarmaz {source:104:3}.
+
+Surenin ilk kelimesi ile son kelimesi bir örtü üzerinde buluşur. Fecr karanlığın örtüsünü yarar, son kelime ise ağaçların örtüsüdür. Aradaki fücur, din örtüsünü yırtmaktır. Kur'an cennetin içinde suyun fışkırmasını da gösterir ve bu işi kullara verir {source:76:6}. Fecr kökünün su anlamı, kul kelimesi ve bahçe aynı yerde bir araya gelir. Yirmi dokuzuncu ve otuzuncu ayetlerde kullarının arasına ve bahçesine çağrılan can, böylece surenin ilk kelimesinin anlattığı fışkırmayı içeride bulur. Azgınların taşkını ölçüsünü aşmıştı. Bu fışkırma ise içenlerin dilediği ölçüde akar.
+
+Yolculuk ile alçalma imgeleri yirmi yedinci ayette buluşur. Malı yapışarak seven kişi, yerinden kalkmayan bir deve gibi yere çökmüştür. Yer kelimesinin bir anlamı ağırlaşmaktır, ülkeler kelimesinin bir anlamı da yere yapışmaktır. Huzura kavuşmuş can da yerdedir, ama çakılmış ya da çökmüş değildir. Alçak bir yer gibi durulmuştur, sırtını eğmiştir ve sarsıntıdan sonra dinginleşmiştir. Çağrı ona yapılır. Kur'an yere çakılıp kalmakla dünya hayatına razı olmayı aynı ayette kınar {source:9:38}. Sure ise rızayı karşılıklı kılar ve bunu yere çakılı kalmanın tersi olan bir dönüşe bağlar: {ar:ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةًۭ مَّرْضِيَّةًۭ, tr:irciî ilâ rabbiki râdiyeten merdiyyeh, gloss:razı olmuş ve razı olunmuş olarak Rabbine dön, source:89:28}.
+
+Çift-tek imgesi ile sofra imgesi yetimde buluşur. Yetim, yanına kimse geçmemiş tek kişidir. Ona ikram etmek, yanına geçip arka çıkmaktır. Mirası paylara ayırmadan silip süpüren ise başkalarının payını kendi payına katar ve tek başına bir yığın oluşturur. Kıyamette herkes tek gelir ve yanında arka çıkacak kimse görünmez {source:6:94}. Sure bu tekliğin karşısına bir topluluğa katılan canı koyar. İkram kelimesi de son kez Kur'an'ın bir başka sahnesinde, doğru yere oturmuş olarak duyulur. Elçilere uyulmasını öğütlediği için kavmince öldürülen adama cennete girmesi söylenir ve o da bir "keşke" söyler, ama bu keşke içeriden söylenir: {ar:قِيلَ ٱدْخُلِ ٱلْجَنَّةَ ۖ قَالَ يَٰلَيْتَ قَوْمِى يَعْلَمُونَ, tr:kîle'dhuli'l-cenneh, kâle yâ leyte kavmî ya'lemûn, gloss:"Cennete gir" denildi; "Keşke kavmim bilseydi" dedi, source:36:26}, {ar:بِمَا غَفَرَ لِى رَبِّى وَجَعَلَنِى مِنَ ٱلْمُكْرَمِينَ, tr:bimâ ğafera lî rabbî ve cealenî mine'l-mukramîn, gloss:Rabbimin beni bağışladığını ve ikram edilenlerden kıldığını, source:36:27}. On beşinci ayetteki insan "Rabbim bana ikram etti" derken malına bakıyordu. Bu adam aynı sözü bir girişin ardından, Rabbinin bağışlamasına bakarak söyler.
+
