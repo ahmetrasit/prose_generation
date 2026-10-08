@@ -1,0 +1,11 @@
+- memory: "nar" annexed to Allah occurs only here in the Quran
+- memory: كوى (9:35 tukwā) = to brand/cauterize with hot iron
+- memory: active participle واقدة would be the self-burning alternative to مُوقَدَة
+- not written: ن و ر B006 shying/chaste woman - no tie to fire, owner or wealth here
+- not written: ن و ر B008 soot for kohl/tattoo - anomalous branch; brand already carries the mark
+- not written: ن و ر B009 depilatory paste, B010 confusing someone - no work in any theme
+- not written: ن و ر B011 yoke/clear groove (n-y-r) - different letter form, link conjectural
+- not written: و ل ه alternative etymology of Allah - only an alternative analysis, would blur root identity
+- not written: ء ل ه "ilāha" = sun - no Quran support for fire or sun worship in this context
+- not written: 85:5 fire "of fuel" - trench story needs its own scene; fuel theme carried by 3:10, 2:24
+- not written: 90:20 nārun mu'ṣada - belongs to the eighth ayah's word
