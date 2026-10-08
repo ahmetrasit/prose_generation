@@ -1,0 +1,15 @@
+- memory: ṭāghūt shares the root ṭ-gh-y with ṭaghaw (89:11)
+- memory: tar was rubbed on camels as a treatment for mange
+- memory: the small bird's name vocalized duhal (dukhal)
+- memory: ʿaṭan is the kneeling place by the water after drinking
+- memory: izār is a wrap worn from the waist down
+- not written: د خ ل B002 marital entry - no bearing on this call
+- not written: د خ ل B006 income (dakhl vs kharj) - tempting tie to 89:19-20 wealth, no ground in this ayah
+- not written: د خ ل B008 grass among tree roots, mixed colours, feathers - only the joints image did theme work
+- not written: د خ ل B010 date basket - no role
+- not written: ع ب د B006 honoured one served as if worshipped - tie to ikram (89:15) would overreach
+- not written: ع ب د B005 tarred ship - road and camel carried the image
+- not written: ع ب د B007 strength, B008 wounded pride, B009 haste, B010 scattered groups, B011 stranded rider, B012 perfume stone - no theme
+- not written: 76:6 servants' spring - belongs to the surah scene with 89:1
+- not written: 29:9 and 2:208 entering among the righteous / into peace - redundant with 27:19 and 15:46
+- not written: 39:53 "my servants who wronged themselves" - did not join a theme here
