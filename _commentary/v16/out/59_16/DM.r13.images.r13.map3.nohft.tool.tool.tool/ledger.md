@@ -1,0 +1,15 @@
+- memory: سبب (sabab) means rope; 2:166 الأسباب heard as ropes
+- memory: جار in 8:48 = neighbour and granter of protection
+- memory: خذول = one who deserts/abandons in need
+- memory: definite الإنسان can be generic or individual
+- memory: Turkish beraat derives from Arabic براءة
+- not written: إنسان / نسي (59:19 forgetting) link - echo, not root identity; not supported by supplied root
+- not written: ك ف ر B008 farmer covering seed, B010 كافور sheath, B011 camphor - no grip on command/disowning theme
+- not written: ك ف ر B007 أكفر driving obedient to disobey - different verb form, would distort the scene
+- not written: ب ر ء B006 last night when moon is quit of the sun - evocative but no tie to this separation
+- not written: م ث ل B005/B006 standing upright / effacement - not activated by the simile
+- not written: خ و ف B004 تخوف as diminishing, B006 leather bag - no work in the fear theme
+- not written: ع ل م B002 sign/flag beside fear as reading signs - too thin to add beyond B003
+- not written: ر ب ب B011 ربابة binding covenant as true bond - would duplicate rope theme without Quran support
+- not written: echo roots ق ل ل (trembling) and ر ب و - echo only, not identity
+- not written: و ل ه alternative for الله - not needed; identity root suffices
