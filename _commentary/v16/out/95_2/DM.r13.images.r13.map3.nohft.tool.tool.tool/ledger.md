@@ -1,0 +1,11 @@
+- memory: kasra on طورِ marks it as still governed by the oath waw of 95:1
+- memory: ṭūr (mountain) has ḍamma, ṭawr (turn, stage, bound) has fatḥa
+- memory: ṭawār (house strip) voweled with fatḥa; ṭūrī/ṭūrānī vowels as transliterated
+- memory: Turkish tavır (and etvâr) comes from Arabic ṭawr
+- memory: تعدوا, اعتدوا, يعدون, عدوان and عدا share root ع د و
+- memory: حوالي (dictionary phrase) and حول (27:8) share root ح و ل
+- memory: آنس (28:29) shares root ء ن س with إنسان; آمنين shares ء م ن with أمين; تأجرني shares ء ج ر with أجر
+- memory: معمور (52:4) means inhabited/frequented
+- not written: identity of Sinin with Sinai/Sayna - the Quran never states it; kept as two forms after ṭūr
+- not written: طوى (20:12) - different root ط و ي, an echo only
+- not written: the Tur story's repeated returns as "ṭawran baʿda ṭawr" - too forced to found a theme
