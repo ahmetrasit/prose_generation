@@ -1,0 +1,11 @@
+- memory: jīd and masad occur in the Quran only at 111:5
+- memory: ʿunuq is the Quran's usual word for neck
+- memory: indefinite subject with prepositional predicate requires the predicate fronted
+- memory: 90:6 and 90:14 content (wealth squandered; feeding on a day of hunger) not looked up
+- not written: masad B004 (ghee/honey skin), B005 (iron axle), B006 (black skin) - no bearing on the rope at the neck
+- not written: ḥabl B009, B010, B013, B014 (place names, tribal names, isolated senses, fixed phrase) - nothing for a theme
+- not written: ḥabl B004 "ʿalā ḥabli dhirāʿika" nearness idiom - duplicates the jugular-vein nearness without adding
+- not written: 20:66 magicians' ropes (ḥibāl) as tools of illusion - no link to neck or binding in this ayah
+- not written: 5:2 qalāʾid (garlanded offerings) - neck-garland sense not supported by supplied texts
+- not written: 24:31 juyūb - different root (ج ي ب), only a sound likeness to jīd
+- not written: ghāniya (غ ن ي) as woman needing no ornament - the 2nd ayah's word, not in this ayah's evidence
