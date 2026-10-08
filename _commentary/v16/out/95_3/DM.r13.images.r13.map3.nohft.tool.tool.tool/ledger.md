@@ -1,0 +1,11 @@
+- memory: حِلّ in 90:2 read as "settled/lodging in" (also "permitted")
+- memory: موماة = waterless desert
+- memory: هذا + definite noun: the noun names what is pointed at
+- not written: ب ل د B004 lunar mansion / starless patch - no tie to a theme
+- not written: ب ل د B006 trace on the body - no tie to a theme
+- not written: ب ل د B011 sword-fighting on the ground - too remote from the town
+- not written: ء م ن B003 âmîn in prayer - different word, sound-play only
+- not written: ء م ن B002 îmân as tasdîq - carried by 95:6-7, only recalled
+- not written: 7:176 "clung to the earth" - surah-level scene, not needed for B010
+- not written: 7:58 / 34:15 beled as fertile soil - outside the safe-town theme
+- not written: Salâh as a name of the town, medîne from د ي ن - other ayat's roots
