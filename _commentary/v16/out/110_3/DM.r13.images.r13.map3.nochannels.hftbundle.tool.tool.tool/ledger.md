@@ -1,0 +1,16 @@
+- memory: "fe" introduces the answer clause of the "idhâ" condition
+- memory: "bi-" in "bi-hamdi" read as accompaniment (tesbih together with praise)
+- memory: istaf'ala pattern in istighfar and istitâba as a request form
+- memory: "in kâne ... la-" in the 17:108 quotation read as emphatic
+- memory: "inna" clause read as giving the reason
+- memory: "kâne" with divine attributes read as lasting, not lapsed past
+- memory: tawwâb elsewhere in the Quran always paired with a second name; alone only here
+- memory: rubb as boiled-down fruit extract (supplied text says thick residue / thick syrup)
+- not written: غ ف ر B004 wound or illness relapse - no Quran support; would force a warning theme
+- not written: غ ف ر B005 ibex kid, B006 lunar mansion, B007 tree gum - no work in this ayah
+- not written: س ب ح B007 children's leather shirt / strong cloak, B008 valley name - no theme
+- not written: ر ب ب B009, B010, B011, B012, B014, B015, B017 - no support for a theme here; B011 covenant tempting but unsupported
+- not written: ح م د B003 mahmûd/muhammad "praised again and again" - surah does not name its addressee
+- not written: ك و ن B002 place/rank, B003 guaranteeing, B006 bad night - no theme
+- not written: echo ت ب ب (loss, next surah's opening word) - echo root, not identity
+- not written: echo ر ب و (growth, raising) - echo root, not identity; kept out of the Rabb section
