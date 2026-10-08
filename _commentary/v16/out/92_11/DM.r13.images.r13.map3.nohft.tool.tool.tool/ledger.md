@@ -1,0 +1,14 @@
+- memory: initial mā readable as negation or as a question
+- memory: idhā with past-tense verb points to a certain future moment
+- memory: taraddā is a reflexive (tafaʿʿul) form, self-directed fall
+- memory: mahwā as a deep drop one falls through
+- memory: Turkish "mal" has lost the livestock sense in standard usage
+- not written: ر د ي B001 throwing stone / stone that breaks stones - no theme it grounds
+- not written: ر د ي B005 adding beyond fifty, extra in a gift - tempting link to surplus wealth, too thin
+- not written: ر د ي B006 cajoling - flagged as metathesis, not this root
+- not written: غ ن ي B003 singing - no theme
+- not written: غ ن ي B006 marriage - no theme
+- not written: م و ل B002 spider - disputed sense, unrelated word form
+- not written: 26:88 wealth not availing - duplicates 69:28 and 111:2
+- not written: 9:109 and 3:103 cliff/pit edge - surah commentary's shared scene, no shared word
+- not written: 3:10 wealth not availing against God - duplicates the chosen parallels
