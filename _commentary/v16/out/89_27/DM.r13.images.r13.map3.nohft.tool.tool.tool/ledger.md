@@ -1,0 +1,12 @@
+- memory: Arabic inserts ayyuhā/ayyatuhā between yā and a noun with al-
+- memory: yā ayyatuhā (feminine) occurs only here in the Quran
+- memory: istaʾnasa = to feel at home, lose shyness (uns)
+- memory: ḥarf in 22:11 = edge, rim
+- memory: vowel nafistu (nafisa bihi = begrudged) in the B010 phrase
+- memory: Turkish adjective "nefis" (delicious) comes from Arabic nafīs
+- not written: B003 evil eye - no link to the address or the surah
+- not written: B004 blood, B006 a sip, B008 life-sustaining water - no theme they found or reshape here
+- not written: B005 childbirth, newborn - the inheritance link (89:19) too thin to found a theme
+- not written: B007 tanning measure, B016 maysir arrow - no work in this ayah
+- not written: B013 inner thought, B014 noble generous character - B014 would only repeat the stinginess theme
+- not written: 8:10, 5:113, 17:95 itmiʾnān uses - add nothing beyond 2:260, 4:103, 16:106
