@@ -1,0 +1,9 @@
+- memory: إرم as common word for cairn stones set up as desert markers (identity with the name not claimed)
+- memory: إِرَمَ is diptote, fatha marks the genitive; it stands as a second name (badal) for عاد
+- memory: Turkish "amut" (perpendicular, "amuda kalkmak") and "umde" (principle) as narrowed loans
+- memory: عَمَد plural occurs in the Quran at 13:2, 31:10, 104:9 only; عِمَاد only here
+- not written: B001 intent/deliberateness (عمد vs سهو) - no supported tie to the pillar or to Âd's scene
+- not written: B010 rain-soaked soil with Hud's rain promise (11:52) - too remote from "pillar" to carry a theme
+- not written: B012 idiom أعمد من سيد قتله قومه - no work in this ayah
+- not written: B013 damming a flood, B014 clinging, B015 anger - no bearing on the pillars or Âd
+- not written: B007 other sub-senses (ear, spear, vein, sword spine, ostrich legs) - add nothing beyond "central upright part"
