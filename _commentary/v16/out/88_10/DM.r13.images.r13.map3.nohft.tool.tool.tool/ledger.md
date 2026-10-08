@@ -1,0 +1,13 @@
+- memory: مرضات (2:265) and راضية (88:9) share root ر ض ي
+- memory: ذُلِّلَت (76:14) and الذل (42:45) share root ذ ل ل
+- memory: ألفافا (78:16) and التف share root ل ف ف (stated only as resemblance, not cited as identity)
+- memory: ربوة = elevated ground/hill, root ر ب و (not ع ل و)
+- memory: نعيم (83:22) and ناعمة (88:8) share root ن ع م
+- memory: عالية and حامية share the fāʿila pattern
+- memory: 32:16 content (rising from beds, calling Lord in fear and hope, spending) described, not quoted
+- memory: 20:75 continues the magicians' speech; written neutrally ("konuşma devam eder")
+- not written: ج ن ن B005–B007, B009, B012–B017 (jinn, madness, embryo, grave, snake, crowd, etc.) - would be a catalogue; no theme work here
+- not written: ج ن ن B008 shield / 52:27 protection - belongs to the surah's two-covers scene; only recalled
+- not written: ع ل و B006 تعال "come up" - no grounding in this ayah's themes
+- not written: ع ل و B004, B005, B008–B012 (overpowering, upper side, extra load, anvil, tall camel, recovery, preposition) - no work here
+- not written: Turkish âlâ/âli as loanwords - cennet chosen as the narrowed loanword
