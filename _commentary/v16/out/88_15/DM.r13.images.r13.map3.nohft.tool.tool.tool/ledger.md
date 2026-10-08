@@ -1,0 +1,11 @@
+- memory: singular of نمارق is نُمْرُقة, a small cushion one leans on
+- memory: نمرقة also used for the pad/rug placed over a camel saddle
+- memory: مُتَّكَأ and مُتَّكِئين share the root و ك أ (leaning on a support)
+- memory: Turkish "saf" (pure) is from ص ف و, a different root from row-saf
+- not written: B006 willow (صفصاف) - no tie to the room, the surah or the cushions
+- not written: B004 building section (صفة من البنيان) - only the saddle sense served the journey theme
+- not written: B003 meat cut thin (التصفيف نحو التشريح) - adds nothing beyond the meat-in-rows image
+- not written: B002 camel aligning forelegs at milking - the bowl-filling sense carries the theme alone
+- not written: 37:1 angels "in rows" oath - 37:165 covers the angelic row more directly
+- not written: 20:64 Pharaoh's sorcerers told to come in a row - a hostile row, does not join the garden or the Day
+- not written: 55:54 / 55:76 reclining on furnishings - 52:20 and 56:16 already carry the reclining posture
