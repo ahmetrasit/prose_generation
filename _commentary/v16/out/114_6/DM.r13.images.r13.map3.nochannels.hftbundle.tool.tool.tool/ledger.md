@@ -1,0 +1,10 @@
+- memory: min here explains (bayan) al-waswas and is also partitive
+- memory: nas derived via unas with hamza dropped; rival derivation from n-w-s
+- memory: sawad as a crowd seen from afar as a dark mass
+- memory: jinna (jinn collective) and jinna (madness) share the same vowelling
+- not written: j-n-n B012 white snake (jann, cf. Musa's staff) - no theme it could found here
+- not written: j-n-n B017 market place Majanna - proper name, no work in the ayah
+- not written: a-n-s B004 the near side of bow/mount facing the human - attractive but no supporting chain
+- not written: a-n-s B005 fingertip sense - no theme
+- not written: jinn-ins mutual enjoyment and assigned companions (6:128, 41:25) - covered by 6:121 and 37:51-57
+- not written: Ibrahim's star-night scene in full - belongs to surah commentary via 114:4
