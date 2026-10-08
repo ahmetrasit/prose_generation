@@ -1,0 +1,12 @@
+- memory: form II mumaddada intensifies the stretching
+- memory: ʿamad and mumaddada share m-d as a sound echo only
+- memory: Turkish itimat, amut, madde, müddet derive from these roots
+- memory: surādiq is a tent's surrounding wall; murtafaq a place of leaning
+- memory: hadda is used of a building's collapse
+- memory: awtād in 89:10 read as stakes
+- not written: ع م د B001 deliberate intent - belongs to 104:5 hunter scene; no work in the column image
+- not written: ع م د B009 hump crushed inside under riding, pressed wound - no chain or theme to carry it
+- not written: ع م د B012 "more than a chief killed by his people" - fixed idiom, no theme
+- not written: م د د B006 mudd measure - counting theme already carried by B002
+- not written: م د د B007 pus, B008 camel drink, B009 brine - no theme
+- not written: tent pegs (89:10, 78:7) as a third tent part - no root link to this ayah
