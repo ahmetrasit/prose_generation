@@ -1,0 +1,9 @@
+- memory: hadā also construed with ilā / li, not only two direct objects
+- memory: Turkish "hediye" comes from Arabic hadiyya
+- not written: ه د ي B006 bride led to her husband - no work in a road-showing theme
+- not written: ه د ي B008 swaying walk leaning between two - "between two" resonance with the dual too forced
+- not written: ه د ي B009 dull weak man, B010 calm gait, B011 gifting poems - no bearing on showing or roads
+- not written: ن ج د B004 swift success in a task - fixed expression, adds nothing beyond strength
+- not written: ن ج د B007 tall animals, B008 house furnishing, B009 sword belt, B011 strainer, B012 resident - rise core already carried by B001; no theme work
+- not written: echo ه د د B009 hadūd as hard pass - echo root, not identity with هدي
+- not written: 92:4-12 two strivings and "inna ʿalaynā la-l-hudā" - surah 76 and 91 already carry the parallel
