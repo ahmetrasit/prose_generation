@@ -1,0 +1,14 @@
+- memory: imperfect tarmī presents the throwing as ongoing/repeated, unlike the surah's other verbs
+- memory: feminine prefix of tarmī agrees with collective ṭayr
+- memory: ramā takes the target as direct object and the projectile with bi-
+- memory: munāḍala means a shooting (arrow) contest
+- memory: madar = dry clods of mud
+- not written: ramā B002 (exceeding, usury) - no grounding in the ayah's act
+- not written: ramā B006 (reaching an end, wound worsening) - would only decorate
+- not written: mirmāt rounded arrowhead / practice arrow (B003) - no support for linking to stone shape
+- not written: ḥ-j-r B006 (ring round moon, eye socket) and B007 (mare) - no work in any theme
+- not written: s-j-l B006 (full, long udder) - repeats the fullness already carried by the bucket
+- not written: 7:12 Iblis fire vs clay - pride contrast not supported by the surah's wording
+- not written: 3:49 clay birds of Isa - shares no word of this ayah; too loose
+- not written: Persian components of sijjīl - etymology not in supplied texts
+- not written: 2:60 Moses' rock - water-from-stone adds nothing beyond 2:74
