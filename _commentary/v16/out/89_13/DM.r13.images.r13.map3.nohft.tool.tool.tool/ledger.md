@@ -1,0 +1,15 @@
+- memory: fa- marks both immediate sequence and consequence
+- memory: indefinite noun can convey both smallness and magnitude
+- memory: ṭaghā used of a flood exceeding its bed (stated as usage, not in this dictionary)
+- memory: ṣarṣar rendered "violent, scouring wind"; maqāmiʿ rendered "iron striking implements"
+- memory: bāqiya (69:8) and baqiyya share the root b-q-y
+- not written: ṣabāba, yearning love (ṣ-b-b B004) - only a pun against punishment, no theme work
+- not written: ṣubba, herd or heap (B005) - no role in any theme
+- not written: ṣabīb, blood/sweat/dye poured (B006) - whip drawing blood would be imposed
+- not written: ṣabṣāb, unslackening travel (B010) - link to the whip driving a mount too thin
+- not written: ravaging another's flock (B011) - would cast the pourer as a raider
+- not written: heat intensifying (B001 gloss) - no Arabic phrase, nothing in surah carries it
+- not written: echo root r-b-w, akhdha rābiya (69:10) - echo root, not identity
+- not written: ʿadhaba as strap, tongue tip, scale cord, branch (ʿ-dh-b B006) - only the whip's tip works here
+- not written: ʿadhab as scum on water, womb, generous (B007-B009) - no work in a theme
+- not written: rabb as fixed abode, covenant, quiver, flock (r-b-b B007, B010, B011, B014) - no tie to this ayah's scene
