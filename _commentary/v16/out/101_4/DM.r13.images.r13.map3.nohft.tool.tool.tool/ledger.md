@@ -1,0 +1,18 @@
+- memory: yawma is accusative, an adverb of time with no main clause of its own
+- memory: yakūnu here is the copula (kāna with a predicate), predicate the ka- simile
+- memory: mabthūth is a passive participle
+- memory: farāsh is a collective noun with unit farāsha; mabthūth agrees as masculine singular
+- memory: aṭāra is the causative of ṭāra
+- memory: modern Arabic farāsha means butterfly
+- memory: ṭaysh = losing aim/levity
+- memory: muhl = molten metal
+- memory: ʿishār = pregnant she-camels
+- memory: muhṭiʿīn = hastening toward
+- memory: Turkish mefruşat and kâinat derive from ف ر ش and ك و ن
+- memory: buʿthira is from a different root (ب ع ث ر)
+- not written: ي و م B002, B005 - generic time senses add nothing beyond B001/B003
+- not written: ك و ن B003-B006 (surety, submission, nostalgic old man, bad night) - no tie to this ayah's themes
+- not written: ء ن س B004, B005 (near side; small image in the pupil), B006, B007 - pupil image tempting but no support for a theme
+- not written: ف ر ش B007, B008, B009, B012-B016 (limbs spread, spreading crop, water film, slander, lie, mare, camel leg) - no work in the themes
+- not written: alternative root ن و س for nās - the uns family already carries the theme
+- not written: hunting-decoy and Ḥāqqa "fa-ammā" scenes from the surah reading - built on other ayat's words
