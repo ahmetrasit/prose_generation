@@ -1,0 +1,12 @@
+- memory: first mā is subject of adrāka; second clause fills its object
+- memory: layl is the genus noun, layla a single night
+- memory: ṭāriq means one who comes by night
+- memory: bāligh (65:3) and mablagh share root b-l-gh
+- not written: midrā, pointed horn and hair comb (د ر ي B004) - no bearing on the question
+- not written: mudārā, gentle dealing (د ر ي B006) - no hold in this ayah
+- not written: al-layla as the nearest night (ل ي ل B003) - did not reshape a theme
+- not written: Laylā as a name, wine kenning (ل ي ل B004) - unrelated
+- not written: qidr, cooking pot (ق د ر B007) - different word, no theme
+- not written: narrowing of provision (ق د ر B004) - not engaged by this ayah
+- not written: power sense (ق د ر B003) - only touched in the Turkish loanword note
+- not written: echo root د ر ر (pearl, shining star) - echo, not identity
