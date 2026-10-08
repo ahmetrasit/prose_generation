@@ -1,0 +1,7 @@
+- not developed: 23 The lot-arrows - members homonymous with no hold in their ayat (رب as quiver in a prayer, نفس as fifth arrow); الفائزون/الأدبار covered elsewhere
+- not developed: 25 The hive - members homonyms with no contextual hold (يشهد as comb honey, أخاف as honey bag)
+- not developed: 27 Blades and spearheads - members scattered homonyms; no scene in the surah holds them
+- not developed: 28 Hide and tanning - members homonyms; no scene in the surah holds them
+- not developed: 29 The womb - only رحيم/رحم holds; the rest fail in context
+- not developed (members): fortress لأول/أيل, ديار walled circuit, الملك wall cohesion, المهيمن, ظالمين withholders; siege الأرض termite, جاءوا moat; hunt برأة, السماة, falcon, أفقر; channels الملك/القدوس/السلام, خبراء, خليقة, عذب, مفازة; palm كافور, شيء, نطيع, المصور; host قدير/جعال, قاتل الشتوات; wound جاءوا, القرى, وراء, اغفر, جدري; swimming ضارب, رسول, غلغلة - forced or homonymous in context
+- memory: غِلّ (rancour) and غُلّ (shackle) differ only in vowelling
