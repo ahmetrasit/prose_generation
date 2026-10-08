@@ -1,0 +1,13 @@
+- memory: wa-l-mushrikina in 98:1 is genitive, coordinated with ahl, not with alladhina (case-ending rule)
+- memory: hatta with subjunctive marks a future boundary relative to the past state
+- memory: ghalq al-rahn = pledge kept by creditor when debt unpaid (mechanism of pledge)
+- memory: yastaftihuna from f-t-h "to open"; talbisuna from l-b-s "to clothe"
+- not written: كون B003 surety (kuntu 'ala) - construction absent; copula lam yakun carries no image
+- not written: كون B002, B004, B005, B006 - no work in a theme of this ayah
+- not written: كفر B005 disavowal, B006, B007, B011, B012 grave/remote land, B013, B014, B015 - no ground in this ayah's themes
+- not written: أهل B002 marriage, B006 rendered fat - no theme to join
+- not written: كتب B004 enrolment in a register - overlapped kitab-as-binding; left out to keep focus
+- not written: شرك B003 in-law, B004 sandal strap, B007 rapid succession - no work here
+- not written: فكك B004 jaw (used only inside sealed-letter phrase), B008 star cluster, B009 medicine in child's mouth - no theme
+- not written: أتي B003, B006 stranger, B007 yield, B008 tribute, B009, B012, B013 - stranger tempting with ahl but unsupported link; rest no theme
+- not written: بين B002, B005 eloquence beyond kashf, B006-B013 (distance, land, bow, divorce, crow) - no theme in this ayah
