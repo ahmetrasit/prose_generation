@@ -1,0 +1,12 @@
+- memory: la- in wa-la-l-akhiratu is the emphatic lam, same as in wa-la-sawfa
+- memory: dunya means "nearer/lower" (root d-n-w)
+- memory: abʿada Allahu al-akhir means a curse on the one lagging behind / the remote one
+- memory: deriving awwal from root '-w-l (shared with ala ya'ulu) is disputed by grammarians
+- not written: ء خ ر B001 akhar "other" (ukhar, jamaʿa ukhra) - sense of "other", not of "later"; serves no theme
+- not written: ء خ ر B003 muʾakhkhar al-ʿayn, glance from the eye's corner - no work in the theme
+- not written: ء خ ر B001 al-akhir al-gha'ib - vowel/sense unclear for this word
+- not written: ء و ل B003 household, B004 governance, B008 bier/tent poles - surah images rest on them; ula's sense "first" does not carry them
+- not written: ء و ل B006 silhouette/mirage, B007 state, B009 ibex, B011 plant - not carried by ula
+- not written: خ ي ر B006 blocking a burrow to drive out the hyena - fixed idiom, no link
+- not written: خ ي ر B002 the excellent/chosen - absorbed by the choice theme, adds nothing separate
+- not written: echo root و ل ي (wali, rain after first rain) - not identity of ula; withheld
