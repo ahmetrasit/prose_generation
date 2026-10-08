@@ -1,0 +1,11 @@
+- memory: Form II (ʿaddada) conveys repetition/intensity of counting
+- memory: taghābun as the word of loss/being cheated in a trade
+- memory: qabḍ al-yad (9:67) as withholding, closing the hand
+- memory: Turkish "adet" narrowed to a counting unit; "mal" to goods/merchandise
+- not written: variant reading jammaʿa (with shadda) - an external report of reading, not checkable from supplied texts
+- not written: ج م ع B007 (dying "bi-jumʿ", with child unborn) - resonance with dying holding wealth too remote to found a theme
+- not written: ج م ع B003 (ijmāʿ, firm resolve) - does not reshape the act of gathering wealth here
+- not written: ج م ع B006, B011, B013 - no bearing on the ayah's gathering
+- not written: ع د د B003 (waiting period) and B006 (sharing, equals) - no support from the ayah or surah
+- not written: taʿdīd as a mourner's enumeration of the dead's merits - memory only, unanchored
+- not written: indefinite mālan as magnifying or belittling - depends on interpretive opinion; left as open amount
