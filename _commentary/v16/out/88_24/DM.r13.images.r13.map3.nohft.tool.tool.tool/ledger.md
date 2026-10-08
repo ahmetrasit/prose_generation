@@ -1,0 +1,18 @@
+- memory: "fa" in 88:24 marks the answer to conditional-like "man" in 88:23
+- memory: dhakkir / mudhakkir / yuʿadhdhibu share the doubled-middle (faʿʿala) causative pattern
+- memory: al-ʿadhāba is the verb's own noun as object (cognate/absolute object)
+- memory: akbar serves as both comparative and superlative
+- memory: Suhayl is a star in the night sky
+- memory: rāḍiya (88:9) and riḍwān (9:72) share root r-ḍ-y
+- memory: wallā (31:7) and tawallā (88:23) share root w-l-y
+- memory: dhikr (29:45) shares root dh-k-r with fa-dhakkir (88:21)
+- memory: Turkish "azap çekmek", "vicdan azabı" usage
+- not written: ع ذ ب B007 water debris / pond scum - no link to punishment or the surah
+- not written: ع ذ ب B008 generous character - isolated, no theme support
+- not written: ع ذ ب B009 afterbirth, womb - no theme support
+- not written: ع ذ ب B006 tongue tip, branch, balance thread - balance-to-reckoning link only analogy, would dilute whip image
+- not written: ء ل ه B002 oath and vocative forms - no work in this ayah
+- not written: و ل ه alternative root for Allah (bewilderment) - documented alternative, not identity; would replace rather than join
+- not written: ك ب ر B002, B004, B005, B008, B012, B013 (bulk, old age, leadership, birth order, drum, risen day) - no theme work
+- not written: 39:26, 68:33 hereafter punishment "akbar" - same point carried by 32:21
+- not written: two readings of the 88:23 exception (connected vs new start) - left as one reading via the fa
