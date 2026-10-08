@@ -1,0 +1,11 @@
+- memory: preposition ʿalā expresses a debt/obligation resting on someone
+- memory: fronting the predicate ʿalaynā gives emphasis/restriction to God
+- memory: hudā is a verbal noun, not an elative like ḥusnā/yusrā/ʿusrā
+- memory: Turkish hediye and hidayet both come from this root; hidayet narrowed to coming to faith
+- not written: B008 tahādī (swaying gait, walking propped between two) - would only force a "being supported" image the ayah does not carry
+- not written: B009 hadāʾ (dull, weak man) - no bearing on guidance in this ayah
+- not written: B011 presenting praise or satire poetry - no link to theme
+- not written: B004 tahādī (mutual gift-giving), mihdāʾ (generous giver) - gift image already carried by hadiyya and the tray
+- not written: echo root ه د د (demolish, threaten, hoopoe) - echo only, not identity
+- not written: 2:196 fa-mā istaysara min al-hady (root of yusrā beside hady) - lexical coincidence, meaning there is only "what is obtainable"
+- not written: 2:2 hudan li-l-muttaqīn beside ittaqā/atqā - would repeat the shown/found split without adding
