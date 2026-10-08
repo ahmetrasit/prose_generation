@@ -1,0 +1,4 @@
+- memory: عدن means to settle/stay in a place; المعدن as place of origin
+- memory: بئر جهنام / جهنّام as a very deep well, linked to جهنم
+- not developed: none; snare members ٱلْبَرِيَّةِ (hunter's blind, ب ر ء B007) and خَيْرُ (burrow, خ ي ر B006) dropped as too remote
+- not developed: none; tractable chain merged into road, giving chain merged into account, covering chain merged into planting
