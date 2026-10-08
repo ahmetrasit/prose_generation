@@ -1,0 +1,11 @@
+- memory: أرض واصية "land with continuous plants" (root و ص ي)
+- memory: verbless nominal sentence marks a standing state, no tense
+- memory: أطبق = to fit a leaf/cover exactly onto its counterpart
+- memory: camel brand made by pressing hot iron onto the hide
+- not written: ن و ر B006 shying / chaste woman - no bearing on a closed fire
+- not written: ن و ر B007 enmity between groups - no support in the ayah's context
+- not written: ن و ر B004 blossom, B008 soot, B009 depilatory paste, B010, B011 - no theme to serve
+- not written: echo ء ص د B003 girls' shift, B005 place name - echo root, not identity
+- not written: 56:71-73 fire as reminder and provision - kept out for focus
+- not written: 2:7 and 7:40 covering on eyes, unopened doors - belongs to the surah scene
+- not written: 104:9 columns - noted, the word does not carry it here
