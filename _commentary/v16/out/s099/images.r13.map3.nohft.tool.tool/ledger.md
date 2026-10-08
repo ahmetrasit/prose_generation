@@ -1,0 +1,5 @@
+- merged: chain 12 (clinging to ground / swift command) into chain 1 section
+- merged: chain 11 (spark) into chain 7 section; chain 9 (account) into chain 8 section
+- dropped members: خ ي ر B006 burrow expression, ز ل ز ل B003 clear water, ع م ل B011/B012 track and travellers, ر ء ي B006 mirror noun, ق و ل B002/B017, ح د ث B004 as member, ر ب ب B007/B012, ء ر ض B008 الأرْص variant - too remote or redundant
+- not used: map's tafsir notes and 7:172 progeny account - outside the Quran
+- memory: none beyond the map's phrases and Quran text
