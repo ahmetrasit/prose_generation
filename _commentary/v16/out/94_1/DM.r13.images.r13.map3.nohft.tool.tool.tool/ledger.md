@@ -1,0 +1,10 @@
+- memory: "lam" + jussive gives past sense; with interrogative hamza it asks for confirmation
+- memory: "laka" is not needed grammatically; placed before the object it adds emphasis ("for your sake")
+- memory: wazir (20:29) shares the root w-z-r with wizr (94:2)
+- memory: B002 mechanism of thin slicing widening surface, inside exposed to air and sun
+- not written: shirh B004 (sexual sense, euphemism) - no supported link to the ayah's theme
+- not written: sadr B005 (imposing payment, cf. Turkish müsadere) - no theme in this ayah
+- not written: sadr B001 sidar garment, camel brand, strong-chested lion - add nothing beyond the organ sense
+- not written: sadr B002 front part of an arrow - repeats the lance image
+- not written: 3:154 testing what is in chests - container theme already carried by 3:29 and 100:10
+- not written: 28:24 Musa's prayer after watering - would stretch the water image beyond its work
