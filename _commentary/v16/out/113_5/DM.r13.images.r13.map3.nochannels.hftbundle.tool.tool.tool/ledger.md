@@ -1,0 +1,9 @@
+- memory: izā + past-tense verb marks the moment of an occurrence
+- memory: ḥāsid is the active participle naming the doer
+- not written: ش ر ر B009 shirrān, gnat-like insect hovering without biting, called "al-adhā" - tempting image for envy before it acts, but too ornamental to found a theme
+- not written: ش ر ر B011 mushārra (quarrel) - adds nothing the brothers' scenes do not already carry
+- not written: ش ر ر B004, B005, B012 (cutting, dripping roast, a plant) - no work in this ayah
+- not written: echo root ش ر ي - sound-family only, not identity
+- not written: 77:32 sparks of the fire - needs its scene's context; spark image carried by usage alone
+- not written: 68:51 eyes that would make the Prophet slip - belongs to the surah's eye scene
+- not written: 59:9 hearts without want for what others were given - already the surah commentary's counter-image
