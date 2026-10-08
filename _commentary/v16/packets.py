@@ -284,7 +284,9 @@ IMAGES_DESC_OWN = ("images.md (an earlier reader's commentary on the surah's ima
 # Slice aliases (user, 2026-10-03): an ayah that repeats another ayah's words, whose images credit every shared member
 # to that other ayah, reads that ayah's image sections. Explicit, never inferred; announced on build and recorded in
 # packet.json. An ayah with no cited section and no alias stops the build (never a silent fallback).
-SLICE_ALIAS = {"94:6": "94:5"}  # 94:6 «إن مع العسر يسرا» repeats 94:5; S94 images credit ʿusr/yusr to 94:5
+SLICE_ALIAS = {"94:6": "94:5",  # 94:6 «إن مع العسر يسرا» repeats 94:5; S94 images credit ʿusr/yusr to 94:5
+               "101:2": "101:1",  # «ما القارعة» repeats 101:1; S101 images cite only 101:1 (user, 2026-10-08)
+               "59:24": "59:23"}  # 59:24 continues 59:23's run of divine names; S59 images cite only 59:23 (user, 2026-10-08)
 
 
 def slice_report(images: Path, s: int) -> list[str]:
