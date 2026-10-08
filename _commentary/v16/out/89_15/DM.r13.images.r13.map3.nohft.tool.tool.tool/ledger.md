@@ -1,0 +1,11 @@
+- memory: ما after إذا generalizes the condition into a recurring "whenever"
+- memory: the imperfect يقول after فـ marks the habitual answer
+- memory: فـ in فأكرمه explains the form the test took (not a later reward)
+- memory: Turkish "belâ", "ikram", "nimet" narrowed senses (Turkish usage, not Arabic)
+- not written: ب ل و B004–B009 (excuse/oath, grave-camel, بلى, ما أبالي, tribe, dispersal) - no hold on the ayah's theme
+- not written: ك ر م B003–B009 (necklace, vine, jar lid, contest, femur head, gift for reward, كرامة formula) - contest belongs to 89:17; rest don't reshape a theme
+- not written: ن ع م B003–B013 (praise, yes, camels, ostrich, south wind, increase, etc.) - softness in B002 already carries the theme
+- not written: ء ن س B002, B003, B004, B006, B007 (perceiving, intimacy, near side, ابن إنسك, asking leave) - the pupil image was the one that joined the gaze theme
+- not written: ر ب ب B001, B003, B004, B006–B017 - ownership adds nothing beyond the Fatiha contrast; others unrelated to the ayah
+- not written: echo roots ر ب و, ق ل ل, ب ل ي - not identity; withheld
+- not written: ق و ل B013 (holding a view) - B012 already carries the inner-saying point
