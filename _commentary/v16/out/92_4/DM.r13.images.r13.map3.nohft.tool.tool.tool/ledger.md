@@ -1,0 +1,10 @@
+- memory: شتّى is the plural of شتيت
+- memory: the lam in لشتى is the emphatic lam of the predicate after إنّ
+- memory: صدر/يصدر means returning from the watering place
+- memory: حمالة means a blood-money burden a man takes on himself
+- memory: in سعى به the preposition makes the companion the one carried
+- not written: echo root س و ع (sâ'a, the Hour, cf. 30:14) - echo only, not identity
+- not written: 20:20 the staff becoming a snake that "tas'â" - pure motion, joins no theme
+- not written: 37:102 the son reaching "as-sa'y" with his father - age of walking/working, no theme fit
+- not written: 2:158 Safâ–Marwa circuit (Quran uses yattawwafa) - kept only as the usage note
+- not written: 83:26 competing for the sealed drink - 2:148 carries the race theme
