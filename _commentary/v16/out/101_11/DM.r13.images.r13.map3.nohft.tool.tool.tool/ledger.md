@@ -1,0 +1,16 @@
+- memory: final hā in hiyah is a pausal hā
+- memory: indefinite noun can convey magnitude
+- memory: ṣ-l-y: iṣṭalā = warm oneself at fire; ṣaliya = burn in fire
+- memory: tūrūn = you strike/kindle; muqwīn = those in the wilderness
+- memory: sakīna = calm, settling
+- memory: Turkish nur, minare, hamiyet, hami, himaye from these roots
+- not written: ح م ي B004 husband's kin - no tie to the ayah
+- not written: ح م ي B005 protected stallion (5:103) - pagan custom, joins no theme
+- not written: ح م ي B006 black fetid mud (well mud, 15:26, 18:86) - hamza radical, identity uncertain
+- not written: ح م ي B007 venom's heat and ferment - only an analogy to fire boiling in 67:7, too thin
+- not written: ح م ي B009 leg muscle, B010 hoof edges - anatomical, nothing to join
+- not written: ح م ي B012 blackening (iḥmawmā) - likely ح م م, echo of yaḥmūm, not identity
+- not written: ن و ر B004 tree blossom - no theme it could found
+- not written: ن و ر B008 soot for kohl, B009 depilatory paste, B010 confusing, B011 yoke/clear mark - no theme
+- not written: ḥamīm (scalding water) - root ح م م, echo only
+- not written: variant reading ḥāmiya in 18:86 - outside supplied text
