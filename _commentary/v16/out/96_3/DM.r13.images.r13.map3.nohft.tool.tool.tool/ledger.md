@@ -1,0 +1,12 @@
+- memory: "wa" before rabbuka can mark a circumstantial clause (read, while your Lord...)
+- memory: definite elative al-akram with no compared party gives an unqualified superlative
+- not written: ق ر ء B005 (time, wind season), B003 legal waiting period - no time theme in the ayah
+- not written: ق ر ء B011 poem on another's pattern - no support in the ayah
+- not written: ق ر ء B012 reader as witness - belongs to surah's reading scene, not needed here
+- not written: ق ر ء B008, B009, B010, B013 - fixed phrases with no work in the ayah
+- not written: ك ر م B005 jar lid, B007 thigh-bone head - no link to generosity or reading found
+- not written: ك ر م B008 giving to get a return - would only restate the 89:15 misreading
+- not written: ك ر م B009 "naʿam wa karāmatan" reply formula, B010 one's precious person - no theme
+- not written: ر ب ب B004, B005, B007, B009-B017 - did not ground a theme of this ayah
+- not written: ر ب ب B006 waterskin treated with syrup - care image, weaker than tarbiya, dropped
+- not written: echo ر ب و (growth, rabat in 22:5) - withheld root, not identity
