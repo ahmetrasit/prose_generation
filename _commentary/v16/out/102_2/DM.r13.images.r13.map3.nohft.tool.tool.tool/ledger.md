@@ -1,0 +1,12 @@
+- memory: Turkish "mezar" comes from Arabic mazār, place visited
+- memory: al-maqābir occurs in the Quran only at 102:2
+- memory: vocalisation zuwayr for الزوير
+- not written: ز و ر B007 fierce travel - no tie to the visit or the surah
+- not written: ز و ر B008 thin string, flax - no tie
+- not written: zawrā' far-bottomed well and bowl (B001) - grave-pit link would rest on sound only
+- not written: zīr, man who often visits women (B003) - no work in a theme
+- not written: chest-strap ziyār and horse-chest crookedness (B004) - objects with no theme work
+- not written: tazwīr as embellishing a lie (B006) - adds nothing past the lie sense used
+- not written: ق ب ر B003 lark, B004 nose tip in anger - no tie
+- not written: literal reading as counting the dead in graveyards - rests on outside reports
+- not written: hosting of the visitor at hell and bliss (nuzul) - surah commentary scene, only recalled
