@@ -1,0 +1,8 @@
+- memory: كوّر used for winding a turban (كوّر العمامة)
+- not written: ليلة ليلى, darkest last night of the month - a moonless-night detail; does not join the covering theme
+- not written: ليلى as a woman's name, أم ليلى for wine - no work in this ayah
+- not written: الليلة as the nearest night reckoned from the day (B003) - a calendar convention; does not join a theme
+- not written: رماه الله بغاشية, an illness gripping the belly - the overwhelming-covering theme is already carried by the Day and punishment senses
+- not written: echo root غ ش ي - same senses as the identity root; withheld, adds nothing
+- not written: 53:54 overturned city, 20:78 sea covering Pharaoh - punitive covering belongs to the surah scene (91:14); 10:27 and 24:40 carry the theme here
+- not written: 36:9 فأغشيناهم - duplicates the 2:7 veil-on-sight point
