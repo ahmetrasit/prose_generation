@@ -1,0 +1,12 @@
+- memory: past form sajā after idhā presents the state as reached
+- memory: s-j-w occurs in the Quran only at 93:2
+- memory: ʿasʿasa as a verb of the night's motion (approach or retreat)
+- memory: yasr (89:4), asrā (17:1) and surā share root s-r-y
+- memory: wasaqa means gathered, collected
+- memory: salakha means skinning a slaughtered animal
+- memory: sajjaytu is the doubled (intensive) form
+- memory: sajā/rakada/sakana root identities for 42:33 and 6:96 link
+- not written: ل ي ل B003 (al-layla = nearest night to today) - no bearing on the generic night of the oath
+- not written: ل ي ل B001 intensives (layl alyal, layla laylā) - degree of darkness is not the ayah's point, stillness is
+- not written: ل ي ل B004 (Laylā name, wine euphemism) - no thematic role
+- not written: س ج و B004 (not touching food) and B005 (managing an estate) - fixed idioms, no link to any theme
