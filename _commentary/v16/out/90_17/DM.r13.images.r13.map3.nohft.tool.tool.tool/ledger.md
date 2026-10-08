@@ -1,0 +1,12 @@
+- memory: the negation lā of 90:11 extends over the coordinated thumma kāna of 90:17
+- memory: kāna min = being one of a group (partitive min)
+- not written: ك و ن B004 istikāna (3:146 beside ṣābirīn) - root assignment uncertain, adds no theme
+- not written: ك و ن B005 kuntī, B006 bi-kaynat sūʾ - no work in any theme
+- not written: ص ب ر B005 hard stone, B007 winter cold, B009 tamarind, B010 clouds, B012 retaliation, B016 tribe - no theme support
+- not written: ص ب ر B011 food heap/bread spread - tempting beside feeding but no bridge beyond sound
+- not written: ص ب ر B004 rim of vessel - vessel analogy with womb too thin
+- not written: ر ح م B004 womb disease - no theme
+- not written: ء م ن B003 āmīn - no theme
+- not written: 12:17 mu'min lanā (believing someone's word) - redundant with taṣdīq
+- not written: 30:21 mawadda wa raḥma between spouses - outside this ayah's scene
+- not written: 19:31 awṣānī mā dumtu ḥayyā - continuity point already carried by B001
