@@ -1,0 +1,15 @@
+- memory: anqaḍa read as form IV "made it give out naqīḍ"
+- memory: vocalisation niqḍ for the travel-worn camel
+- memory: vocalisations muẓhir and ẓahir (strong-backed, back-sore man)
+- memory: vocalisations ẓahra, nāhiḍa, ẓihriyy
+- memory: azr (20:31) = back/strength, root ء ز ر, not و ز ر
+- not written: ن ق ض B004 wound reopening after healing - surah says nothing of the burden returning
+- not written: ن ق ض B003 earth splitting over truffles - no tie to back or load
+- not written: ن ق ض B001 naqīḍ as contradiction, counter-poem - does no work in this ayah
+- not written: نقيض المحجمة cupping-cup sound - adds nothing to the joint/saddle creak
+- not written: ن ق ض B007 plant, B008 stallion idiom - irrelevant
+- not written: ظ ه ر B004 noon, B009 eye, B010 ẓihār, B011 feathers, B014 goods, B015 land road, B017, B018, B024 - no support for a theme here
+- not written: ظ ه ر B020 layered armour, B021 spare camel, B022 turning backs, B023 giving from surplus - only loose links, would scatter themes
+- not written: 73:5 heavy word on the addressee - would name the burden the surah withholds
+- not written: 35:18 no bearer carries another's load - belongs to wizr (verse 2)
+- not written: 20:100 turner-away carries a burden - belongs to wizr/dhikr (verses 2, 4)
