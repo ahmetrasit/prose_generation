@@ -1,0 +1,15 @@
+- memory: past-tense negation with lā is normally doubled or coordinated in Arabic
+- memory: 90:17 thumma kāna read as second member under 90:11's negation
+- memory: root q-ḥ-m occurs in the Quran only at 90:11 and 38:59
+- memory: vowel ʿuqba for the captive's substitute and the pot remnant
+- memory: Turkish akabinde/akıbet derive from this root; akabe nearly unused today
+- memory: muwattar vowelling in the ʿurqūb phrase
+- not written: q-ḥ-m B004 old age/senility - no tie to the ayah's act
+- not written: q-ḥ-m B005 camel passing two tooth stages in one year - a leap image, no theme support
+- not written: q-ḥ-m B007 eye belittling someone - no anchor in the surah
+- not written: ʿ-q-b B001 sinew for bowstrings and binding spears - only the ankle tendon served the climb
+- not written: ʿ-q-b B004 offspring - belongs to the surah's lineage scene, adds nothing here
+- not written: ʿ-q-b B005 succession, B009 repeated raid - no theme they ground
+- not written: ʿ-q-b B008 muʿaqqib / no reverser of His judgment - unrelated to the pass
+- not written: ʿ-q-b B012 jutting rock inside a well - no work in the theme
+- not written: ʿ-q-b B013 eagle and banner, B014 Yaʿqūb/partridge, B015 yellowing plant - no support from the ayah or surah
