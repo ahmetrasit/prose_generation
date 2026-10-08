@@ -1,0 +1,11 @@
+- memory: nahā normally takes the thing forbidden with ʿan; here only person plus time
+- memory: idhā with a past-form verb gives a recurring "whenever" sense
+- memory: Turkish "namaz" is a Persian word
+- memory: muʿabbad / tadhallul / mudhallal share the root dh-l-l
+- not written: ʿabda "strength, durability" (B007) - no hold in this ayah's scene
+- not written: ʿabada "did not delay" (B009) and ʿabādīd "scattered groups" (B010) - no theme
+- not written: ṣilyān plant "camels' bread" (ṣ-l-w B009) - no theme
+- not written: derivation of ṣalāt from moving the ṣalawān in bowing - not in the supplied texts; kept as a bodily connection only
+- not written: fire verb vs prayer verb as separate roots (ṣ-l-y vs ṣ-l-w) - left as "same letters", no identity claimed
+- not written: who is "on guidance" in the eleventh ayah - referent question needs exegesis
+- not written: ʿābidīn as "disdainers" in another passage - exegetes' reading, outside the allowed sources
