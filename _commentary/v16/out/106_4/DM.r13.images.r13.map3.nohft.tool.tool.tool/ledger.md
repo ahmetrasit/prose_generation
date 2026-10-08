@@ -1,0 +1,15 @@
+- memory: aṭʿama as the causative of ṭaʿima ("make taste/eat")
+- memory: vowelling muṭʿam (camel) and muṭʿima (bow)
+- memory: āmana + object + min = make safe; āmana bi = believe (same form, different construction)
+- memory: min in min jūʿ / min khawf read as point of departure ("out of")
+- not written: ṭ-ʿ-m B003 prompting speech / feeding the imam the word - no work in a theme
+- not written: ṭ-ʿ-m B008 dhū ṭaʿm (sense, discipline) - no support tying it to the ayah
+- not written: ṭ-ʿ-m B009 horse's mouth, B011 power, B012 throat grip, B013 beak-to-beak, B014 successive build - peripheral
+- not written: j-w-ʿ B003 making hungry / deliberate hunger - ayah names the feeder, not the cause
+- not written: j-w-ʿ B004 longing (juʿtu ilā liqāʾik), thin-waisted - no theme role
+- not written: kh-w-f B003 out-fearing, B005 visible fear - no theme role
+- not written: ʾ-m-n B003 āmīn in prayer - no link to the ayah's act
+- not written: order safety-then-food (2:126) vs food-then-safety (106:4) - no supported meaning
+- not written: 4:83 news of amn or khawf - off the ayah's scene
+- not written: 7:97 night raid and false security - belongs to the bayt image of 106:3
+- not written: 51:56-58 feeding and worship - covered by 6:14 and 26:79
