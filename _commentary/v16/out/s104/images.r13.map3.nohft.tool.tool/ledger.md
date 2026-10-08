@@ -1,0 +1,7 @@
+- not developed: none; chains 10 (rising) and 12 (stalking) merged as one image of the fire reaching its target
+- memory: fuʿala pattern (hümeze, lümeze) denotes a habitual doer
+- memory: hurṭūm is used for an animal's snout
+- memory: surādiq is the curtain wall around a tent
+- memory: vird as a herd going down to water
+- memory: mūqada as passive participle (kindled by someone)
+- memory: shadda pattern of ʿaddada conveys repeated counting
