@@ -1,0 +1,12 @@
+- memory: bi- on laysa's predicate is the emphatic (extra) ba strengthening the negation
+- memory: ays means being/existence, so la ays = "no being"
+- memory: balā affirms against a negated question (vs. naʿam)
+- memory: elative aḥkam can be formed from ḥākim (judge) or ḥakīm (wise)
+- memory: vowel ḥakuma for "reached the utmost in his quality"
+- memory: hilm = restraining anger and not hastening punishment despite power
+- memory: bridle structure (bit in mouth, straps; rein pull presses the jaw band)
+- not written: laysa B002 exception and B003 conjunction/categorical negation - grammar uses not active in this ayah
+- not written: laysa B007 weak in opinion, B008 insult sense itself - no theme support; only B008's praise/blame remark used
+- not written: ilāha = the sun (ء ل ه B001) - no link to judgment theme
+- not written: و ل ه B003 water running off into the desert - no theme support
+- not written: 6:53 manna and 95:6 mamnūn share a root - too thin to found a theme
