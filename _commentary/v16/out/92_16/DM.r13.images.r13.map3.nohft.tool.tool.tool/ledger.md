@@ -1,0 +1,13 @@
+- memory: wallā duburahu read as causative "make one's back adjacent" (form II of waliya)
+- memory: akdā = gave then stopped giving (like digging that hits hard ground)
+- memory: yatamaṭṭā = walking with a stretching, swaggering gait
+- memory: vowel of الكذابة given as kazzāba
+- memory: laẓā and talaẓẓā share root l-ẓ-y
+- not written: و ل ي B010 rain following rain (favour after favour) - no bearing on denial or turning here
+- not written: و ل ي B011, B014, B015, B016 (saddle cloth, resale at cost, weaning, drying dates) - no work in this ayah's themes
+- not written: و ل ي B002 unbroken succession - absorbed into the nearness theme, no separate work
+- not written: و ل ي B008 awlā "more entitled" - distinct from the threat sense used; no support here
+- not written: ك ذ ب B003 kadhaba ʿalayka "it is incumbent" - fixed idiom, no link to denial
+- not written: ك ذ ب B008 kadhūb = the self - no Quran support for a reading here
+- not written: 80:1 ʿabasa wa tawallā - situation needs identification of the addressee beyond the text
+- not written: 88:23 man tawallā wa kafar - context not checked; adds nothing beyond 20:48 and 96:13
