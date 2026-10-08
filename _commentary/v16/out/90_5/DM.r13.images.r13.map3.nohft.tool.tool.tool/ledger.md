@@ -1,0 +1,11 @@
+- memory: interrogative hamza here is rebuke, not a real question
+- memory: lan negates the future emphatically (never)
+- memory: ḥasaba (count) and ḥasiba (suppose) differ in vowel; yaḥsabu is the "suppose" form
+- memory: Dhū al-Nūn verse allows both "have power over" and "constrict" for naqdira ʿalayhi
+- not written: ح س ب B004 inherited honour (ḥasab) - belongs to the boast of the sixth ayah, not this one
+- not written: ح س ب B005 reckoning reward with God - opposite count of spending, the sixth ayah's scene
+- not written: ح س ب B008 pillow, B009 mixed skin colour, B010 seeking news - no bearing on theme
+- not written: ق د ر B006 middle size, fitting measure - set phrases, nothing for power or limit
+- not written: ق د ر B007 cooking pot and cook - no link to the ayah's act
+- not written: ء ح د B003 number eleven, B005 standing alone, B006 mountain at Madina - no theme to join
+- not written: 87:2-3 create, measure, guide sequence - belongs to the surah's fourth-to-tenth ayah arc
