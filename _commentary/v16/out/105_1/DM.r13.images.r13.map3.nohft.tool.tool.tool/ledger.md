@@ -1,0 +1,14 @@
+- memory: elem + jussive question presupposes a "yes" answer
+- memory: feale bi- means "deal with / do to someone"
+- not written: ر ء ي B006 mirror, B011 banner as sign set up to be seen - would only repeat the exhibit image
+- not written: ر ء ي B003 dream, B005 showing off, B007-B010 - no hold in this ayah
+- not written: ف ع ل B002 fa'âl (generosity, deed praised or blamed) - no theme hold
+- not written: ف ع ل B003-B007 workers, fabricating, axe handle, grammar terms - no theme
+- not written: ر ب ب B004-B017 (crowd, stepchild, syrup, staying, cloud, covenant etc.) - nothing in the ayah carries them
+- not written: ص ح ب B003 mount yielding to its handler - ayah says nothing of a led elephant
+- not written: ص ح ب B004-B008 - no theme
+- not written: ف ي ل B002 hip flesh or thigh vein - no theme
+- not written: fîl as possible loanword - etymology not checkable
+- not written: fâl (weak) vs fa'l (omen, Turkish "fal") - different root, not to be conflated
+- not written: echo roots ر و ي, ء ب و, ر ب و - echo only, not identity
+- not written: 8:48 Satan "I see what you do not see" at Badr - seeing/armies link, duplicates 26:61
