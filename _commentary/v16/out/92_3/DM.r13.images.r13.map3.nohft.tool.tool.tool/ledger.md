@@ -1,0 +1,10 @@
+- memory: "mā" here readable as relative (the One who created) or as verbal noun (His creating)
+- memory: fuʿlā (ḥusnā, yusrā, ʿusrā, ūlā, unthā) is the feminine pattern; afʿal (ashqā, atqā, aʿlā) masculine elative
+- memory: masculine forms (saʿyukum, al-atqā) cover persons of either sex
+- memory: "dhū māʾ" of a sword = its sheen/temper
+- memory: Turkish "ahlak" is the plural of khuluq
+- not written: ء ن ث B003 unthayān = testicles/ears - no work in any theme
+- not written: ذ ك ر B003-B009 (remembrance, dhikr, honour, scripture, deed) and 51:49 tadhakkarūn - same root, different word; would be root play
+- not written: خ ل ق B007 fabricate, B008 smoothness, B009 worn garment, B011 rock hollow, B012 closed woman - no theme
+- not written: ء ن ث B008 two tribes - no theme
+- not written: 4:1 and 78:8 pairs - add nothing beyond 49:13 and 75:39
