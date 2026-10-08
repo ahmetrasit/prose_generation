@@ -1,0 +1,9 @@
+- memory: ammā is a detailing particle whose answer takes fa
+- memory: perfect verb can state a certain future event as done
+- memory: Turkish "sakil" now means ugly, awkward
+- not written: و ز ن B003 "zinat al-jabal" (facing the mountain) - tempting with 101:5 mountains, no theme carries it
+- not written: و ز ن B006 short (sensible) woman - no bearing on weighing
+- not written: ث ق ل B009 heaviness of hearing - no tie in this ayah or surah
+- not written: ث ق ل B002 traveller's baggage - adds nothing beyond sin-load and earth's burdens
+- not written: qāriʿa as lot-casting vs weighing - surah-level scene, belongs to surah commentary
+- not written: moth-lightness and ʿihn hollowness details - other ayat's images, only recalled
