@@ -1,0 +1,8 @@
+- memory: Turkish "fesat" narrowed to intrigue/sedition; "mefsedet" rare in modern Turkish
+- memory: "fîhâ" refers back to al-bilād of the previous ayah (grammar)
+- memory: akthara without object = "became rich", with object = "made much" (form reading of the B003 phrase)
+- not written: ك ث ر B005 thick rising dust (takawthara) - no grounding in this ayah's scene beyond rhetoric
+- not written: ك ث ر B006 palm heart, B007 kumthura gathering - no link to the theme
+- not written: ك ث ر B003 mikthār (talkative), makthūr ʿalayh - no role here
+- not written: 7:69 Hūd's "increased you in stature" - overlaps 7:86 given-increase point
+- not written: 26:151-152 Ṣāliḥ's musrifīn who corrupt and do not reform - 7:74 already carries Thamūd
