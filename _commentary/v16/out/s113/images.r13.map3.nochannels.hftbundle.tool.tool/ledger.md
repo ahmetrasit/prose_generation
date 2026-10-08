@@ -1,0 +1,4 @@
+- not developed: 13 household work (hide, syrup, food, cloth) - separate unrelated senses, no shared operation or scene in the surah
+- memory: أَعُوذُ as first-person imperfect, refuge enacted by saying it
+- memory: فِرْق (26:63) belongs to a different root (ف ر ق) from ٱنفَلَقَ
+- memory: رَبَتْ (22:5) belongs to a different root (ر ب و) from رَبّ
