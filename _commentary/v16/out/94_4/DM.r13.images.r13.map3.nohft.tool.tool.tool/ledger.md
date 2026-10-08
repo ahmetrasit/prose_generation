@@ -1,0 +1,12 @@
+- memory: a-lam + jussive as affirmation; following wa-clauses join the affirmed sense
+- memory: masdar + possessive suffix readable as object or subject (mention of you / your mentioning)
+- memory: Turkish "terfi" derives from the same root r-f-ʿ
+- memory: nawwaha read as "proclaim, make known"
+- memory: Taha context (Adam's descent before 20:124) and 7:175 context paraphrased from Quran memory
+- not written: rafʿ B006 carrying harvest to threshing floor - no support in surah or ayah
+- not written: rafʿ B007 she-camel withholding milk, B008 hip pad - no theme link
+- not written: rafʿ B011 travelling up-country, B012 grammatical nominative - no theme link
+- not written: dhikr B002 hardness, sharp sword, strong man - echo only, no tie to raised mention
+- not written: rafʿ B004 + dhikr B008 as raising a deed before a judge - "laka" points to favour, not litigation; too thin
+- not written: raised couches (56:34) - rafʿ sense present but no work in this ayah's themes
+- not written: 21:10 "a book in which is your dhikr" - covered by 43:44, kept out to avoid crowding
