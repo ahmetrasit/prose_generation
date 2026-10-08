@@ -1,0 +1,14 @@
+- memory: ʿirān is the wooden piece through a camel's nose to which the lead is tied
+- memory: ara'ayta here works as "tell me", its content left open until the question in ayah 14
+- memory: the imperfect yanhā can express an ongoing, habitual act
+- memory: lā tuṭiʿhu (lā + jussive) is grammatically a prohibition (nahy)
+- memory: Turkish "nihayet" is borrowed from Arabic nihāya
+- not written: ن ه ي B005 nāhīka "sufficient" - fixed idiom; link to istighnā too thin
+- not written: ن ه ي B006-B010 (fat camel, abandoning a quest, day/water rising, glass, about a hundred) - no work in any theme
+- not written: ر ء ي B003, B007-B010 (dream, menstrual trace, jinn companion, lung, udder) - no bearing on the ayah
+- not written: ر ء ي B011 banner set up to be seen - would displace the question's meaning
+- not written: ر ء ي B004 tarāʾā with the two hosts facing each other - too far from a one-sided gaze
+- not written: ر ء ي B006/B012 mirror - belongs to ayah 7's self-seeing
+- not written: 72:19 servant standing in prayer pressed upon - belongs to ayah 10's servant
+- not written: 11:62 Salih accused of forbidding worship - duplicates the Shuayb passage
+- not written: echo root ر و ي - not identity; no supported link
