@@ -1,0 +1,12 @@
+- memory: lam + jussive negates the past; with interrogative hamza expects "yes"
+- memory: tafʿīl masdar (taḍlīl) denotes an act done to another, implying an agent
+- memory: zand is the twirled fire-drill stick worked against a lower piece; mechanism described
+- memory: Turkish "dalâlet" narrowed to doctrinal deviance
+- memory: 105:3 continues in plain past statement, leaving the question form
+- not written: ض ل ل B003 "lost the way to the mosque and the house" beside 106:3 "Lord of this House" - would imply a target the surah never names
+- not written: ك ي د B005 crow's strained cry - the surah's birds throw, they do not cry; no theme carries it
+- not written: ك ي د B007 vomit, B008 menstruation - no bearing on the ayah
+- not written: ج ع ل B004 begin, B005 wage, B006 small palms, B007 pot-lowering cloth, B008 beetle, B009-B012 - no support for a theme here
+- not written: ج ع ل B003 / ض ل ل B001 declarative reading "declared their plan astray" - weaker than the act the verb and fī describe
+- not written: ض ل ل B004 forgetting (2:282) - no link to the plan's fate beyond vanishing, already carried by B002
+- not written: 8:30 makr against the Prophet - keyd/makr synonymy adds nothing beyond 52:42 and 86:15-16
