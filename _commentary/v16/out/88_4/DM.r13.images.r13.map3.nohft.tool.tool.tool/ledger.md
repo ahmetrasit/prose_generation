@@ -1,0 +1,18 @@
+- memory: kālihūn (23:104) = faces shrunk, lips drawn back
+- memory: tūrūn (56:71) = strike/kindle fire
+- memory: muqwīn (56:73) = those in empty desert / without provision
+- memory: ānastu = perceived from afar; jadhwa = live ember
+- memory: tukwā (9:35) = branded with hot iron
+- memory: iṣṭalā / taṣṭalūn is form VIII of the same root as taṣlā
+- memory: waqūd (66:6) and yūqad share root w-q-d
+- memory: hāwiya (101:9) rendered as abyss/chasm
+- memory: Turkish himaye, hâmi, hamiyet derive from ḥ-m-y
+- memory: sakīna = stillness, calm
+- not written: variant reading tuṣlā (passive) - a report outside the Quran text
+- not written: ṣ-l-y B006 rump, B007 second horse, B008 temple, B009 pounding stone - no work in a theme
+- not written: n-w-r B004 blossom, B006 shying away, B007 feud, B009 depilatory, B010, B011 - no work in a theme
+- not written: n-w-r B008 tattoo soot pricked into skin - would duplicate the brand image
+- not written: ḥ-m-y B004 in-laws, B006 black mud, B009 calf muscle, B010 hoof edges, B011 well-lining stones, B012 blackening - no work in a theme
+- not written: ḥ-m-y B005 ḥāmī stud camel (5:103) - protection theme already grounded
+- not written: Iblis's pride in being made of fire (7:12) - would pull the prayer theme away from the ayah
+- not written: fire from the green tree (36:80) - overlaps 56:71-73
