@@ -1,0 +1,12 @@
+- memory: qad + perfect as the standard form of an oath's answer
+- memory: form II (doubled middle letter) gives the transitive, causative sense in sevvā/zekkā/dessā
+- memory: dassā explained as dassasa with the third letter turned to yā' (a derivation only)
+- memory: vocalisations khayyāb, qadḥ, jadd (fortune), dassā/dassaytu in the dictionary phrases
+- memory: mechanism of fire-making by striking or rubbing before matches
+- memory: Turkish "haybe/haybeden" derives from Arabic khayba
+- memory: haḍm in 20:112 = diminution of one's due
+- memory: yastaghshūna (11:5) and yaghshāhā (91:4) share the root gh-sh-w
+- not written: khāba yakhūbu (poverty, unrained land) - waw-medial verb, a sound neighbour, not identity; would blur the root
+- not written: "wādī tukhayyib" (valley of falsehood) - idiom, vowel uncertain, adds nothing beyond failure
+- not written: Turkish desise/dessas from d-s-s - different root, would confuse root identity
+- not written: Thamud carving houses into mountains as hiding - no shared word, speculative
