@@ -1,0 +1,15 @@
+- memory: Turkish "memnun" (pleased) derives from Arabic mamnūn "obliged, beholden" via the minna sense
+- memory: Turkish "ücret" derives from Arabic ujra, same root as ajr
+- memory: fa in fa-lahum marks the sequel as consequence; lam marks entitlement
+- memory: nifār = shying, bolting (of animals), used in the sulh definition
+- memory: wuthqā and wathīqa share the root w-th-q
+- memory: manna settles at night like dew and is gathered (the supplied text gives only "like dew, sweet, falls on trees")
+- not written: ص ل ح B005 Salāḥ as a name of Mecca - tying it to 95:3's balad needs an identification from outside the Quran
+- not written: ص ل ح B004 personal names incl. the prophet Ṣāliḥ - no theme
+- not written: م ن ن B004 freeing a captive without ransom (47:4) - gift-without-return sits awkwardly beside a wage; would need its own argument
+- not written: ء ج ر B003 roof without parapet - no link to wage or ayah
+- not written: ع م ل B003 officials/collectors, B005 mutual dealing, B007 taking pains - added nothing beyond the wage theme
+- not written: غ ي ر B001 provisioning/rain, B002 blood-money, B004 jealousy - word is a pure negator here
+- not written: ء م ن B001 "most valued property" and other trust senses - covered by the core sense
+- not written: rhyme zaytūn/mamnūn (only -ūn endings, ayat 1 and 6) - sound only, no supported meaning
+- not written: indefinite ajrun as magnifying - not needed for any theme
