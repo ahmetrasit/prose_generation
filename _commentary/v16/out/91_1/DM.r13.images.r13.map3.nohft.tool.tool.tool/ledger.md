@@ -1,0 +1,15 @@
+- memory: wāw at the ayah's start is the oath particle
+- memory: qad in ayah 9 marks the answer to the oath series
+- memory: ʿayn means both eye and spring
+- memory: ḍiḥḥ (sunlight on the ground) is a separate root, ḍ-ḥ-ḥ
+- memory: Turkish şemsiye comes from shams, first a sunshade
+- not written: ش م س B003 open enmity - fixed phrase; link to Thamud would be forced
+- not written: ش م س B004 necklace pendants - no work in any theme
+- not written: ش م س B005 deacon - no work in any theme
+- not written: ش م س B006 protector/miser - no ground in this ayah
+- not written: ض ح و B003 morning meal, camels grazing at duhâ - link to the she-camel only by analogy
+- not written: ض ح و B004 sacrificial animal vs. the she-camel's killing - chain too long, word not Quranic
+- not written: ض ح و B006 gentleness, unhurried - no theme it could join
+- not written: tashqā (20:117) and ashqāhā (91:12) share a root - too thin for this ayah
+- not written: Thamud seized as morning came (7:78 aṣbaḥū) - verb need not mean time of day
+- not written: oath by duhâ alone (93:1) - adds nothing beyond 79:29
