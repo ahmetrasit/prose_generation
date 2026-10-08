@@ -1,0 +1,10 @@
+- memory: a-fa-lā = interrogative hamza + connective fa + negation, urging/reproach force
+- memory: collective ibil takes feminine verb (khuliqat)
+- memory: naẓar with ilā = directing the gaze toward
+- memory: Turkish nazar mostly "evil eye"; Turkish halk = "the people", ahlâk = morals
+- memory: 47:18 context (those who leave the Prophet asking "what did he just say?") recalled from 47:16
+- not written: naẓar B004 appearance, B005 time destroying, B006 counterpart, B008 pupil, B009 guard/watchtower, B010 debate - no theme needed them
+- not written: ء ب ل B004–B010 (weight, firewood bundle, monk, date lump, place, tribe, eulogy) - unrelated to the ayah's work
+- not written: خ ل ق B009 wearing out, B010 perfume, B011 rock hollows, B012 - no supported link
+- not written: 81:4 abandoned pregnant camels - meaning of ʿishār not in supplied texts
+- not written: camel in surah words (milk, sacrifice, journey), furnished room vs furnished world - surah commentary's scenes, only recalled
