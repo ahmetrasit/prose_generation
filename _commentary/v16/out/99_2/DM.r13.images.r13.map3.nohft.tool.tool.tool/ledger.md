@@ -1,0 +1,11 @@
+- memory: perfect verbs inside إذا refer to the future
+- memory: الأرض in the sense "tremor" read with the same vowels as "earth"
+- memory: كفات = that which gathers and holds (77:25)
+- memory: فرغ = to become empty, free oneself for (55:31)
+- memory: استنباط = drawing up hidden water for the first time
+- not written: خ ر ج B009 two-pocket saddlebag (Turkish hurç) - beside "baggage" only an echo, no Quran support
+- not written: خ ر ج B006 self-made man, rebels; B008, B010, B011, B013 - no bearing on the ayah's act
+- not written: ء ر ض B010 wood-eating termite - Quran's creature of the earth (Solomon's staff) is a different scene
+- not written: ء ر ض B003, B004, B005, B007, B009, B011, B012 - no grounding theme here
+- not written: ث ق ل B005 قولا ثقيلا (73:5), B008, B009 - do not join the ayah's themes
+- not written: 76:27 يوما ثقيلا - duplicates the Hour-as-weight point of 7:187
