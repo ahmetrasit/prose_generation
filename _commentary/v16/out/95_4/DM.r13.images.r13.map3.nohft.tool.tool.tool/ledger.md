@@ -1,0 +1,14 @@
+- memory: la- in laqad opens the oath's answer; qad with perfect stresses accomplished fact
+- memory: al-insan with the article is generic here (confirmed by 95:6 exception)
+- memory: taqwim is a form-II verbal noun naming the act of straightening
+- memory: Turkish takvim "calendar" is this same Arabic word
+- memory: Turkish halk "people" is Arabic khalq
+- memory: ahsan, asfal and aqwam are elative patterns
+- not written: q-w-m B001, B003, B005, B006, B007, B014, B018, B019, B020 - no ground in this ayah's themes
+- not written: q-w-m B012 standing parts (sword hilt, bed legs, well pulley, plough handle) - would only catalogue
+- not written: q-w-m B021 eye intact but sightless - tempting form/function contrast, no Quran support, risks replacing meaning
+- not written: q-w-m B004 qayyim who straightens people - din theme already carried by B008
+- not written: kh-l-q B010 perfume, B011 rock hollows/new wells, B012 - no theme
+- not written: h-s-n B004 place names, forearm, moon - only the high dune joined a theme
+- not written: '-n-s B004 side facing the person, B006 ibn insik, B007 asking leave (24:27) - no theme
+- not written: 4:27 mayl (inclining) vs taqwim as opposites - mentioned only as situation, contrast left implicit
