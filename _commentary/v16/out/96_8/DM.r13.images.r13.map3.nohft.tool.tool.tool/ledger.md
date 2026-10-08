@@ -1,0 +1,11 @@
+- memory: al-rujʿā occurs only here in the Quran
+- memory: fronting ilā rabbika before al-rujʿā gives restriction ("to your Lord alone")
+- memory: yaḥūr (84:14) is from a different root meaning "return"
+- memory: istaghnā and yughnī (92:8, 92:11) share one root
+- memory: the hoopoe is named in the Quran (27:20); not looked up
+- not written: rujʿā as right to take back a divorced wife (B004) - exact form, but the image would cast the Lord as husband; no Quranic ground
+- not written: rajʿa as return to the world after death (B002) - a later doctrinal usage, not Quranic; 23:99-100 already covers direction
+- not written: rubbā "need, favour" (rabb B016) - single source; would be wordplay against istighnā, not a grounded theme
+- not written: echo root ر ب و (tarbiya, rabwa, 22:5 rabat) - echo, not identity
+- not written: rajʿ B008, B010, B011, B015 (gait, hand to quiver, exchange of camels, cud/reheated food) - no work in any theme
+- not written: rabb B003-B006, B009-B012, B014-B017 - teacher, crowd, stepchild, fruit syrup, freshness, arrow bag, covenant etc. carry no theme of this ayah
