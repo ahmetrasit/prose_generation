@@ -1,0 +1,12 @@
+- memory: alam + jussive question expects assent, not information
+- memory: Turkish keyfiyet/keyif derive from Arabic kayf/kayfiyya
+- memory: Turkish "Rab" survives only as a divine name
+- not written: ʿūd, wood that regrows when cut, vs uprooted palm trunks - reaches Âd only through the name's sound
+- not written: ʿawd, old camel with remaining strength, vs Âd's boast of strength - same, sound only
+- not written: faʿāl axe-handle - no work in the ayah's scene
+- not written: faʿāl as generous/blameworthy deed - added nothing to the doer/done-to theme
+- not written: rabb "abiding" vs Âd hoping to abide forever (26:129) - too thin
+- not written: rabbānī teacher - duplicates tarbiya, no new work
+- not written: echo roots r-w-y (narration, reflection) and ʿ-d-d (counting) - echo, not identity
+- not written: tarāʾā houses facing, dream, lung, jinn companion, pregnancy signs - no theme
+- not written: seven nights eight days (69:7) vs ten nights (89:2) - numerical coincidence
