@@ -1,0 +1,15 @@
+- memory: fronting the prepositional phrase before the verb signals restriction ("only to your Lord")
+- memory: ilā marks motion toward an endpoint
+- memory: in 4:127 the missing preposition leaves raghiba open to "desire" or "shun"
+- memory: vocalization rubbā for al-rubbā (ewe; need/knot/favor)
+- memory: vocalization ruġāb for al-rughāb
+- memory: vocalization rabâbe for the masdar ربابة in B002 and ribâbe for the arrow-bag (B010)
+- not written: ر ب ب B003 rabbānī (learned man) - no tie to this ayah's act of desiring
+- not written: ر ب ب B004 multitudes, B014 herd - gathering sense already carried by water and arrow-bag
+- not written: ر ب ب B011 covenant (ribāba) - would need an unsupported link to turning toward
+- not written: ر ب ب B012 plant, B017 ship captain - no work in any theme
+- not written: ر ب ب B015 particle rubba - grammatical word, no image
+- not written: echo root ر ب و (grow, increase) - sound-near only, not identity; tarbiya kept under ر ب ب where it is attested
+- not written: 9:120 raghiba bi-... ʿan (prefer over) - third construction, would not reshape the direction theme
+- not written: 2:200 (asking the Lord for this world only) - complicates the width theme but crowds it
+- not written: ر غ ب B003 hadith phrase on greed - hadith excluded
