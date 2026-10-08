@@ -1,0 +1,9 @@
+- memory: mâ in 111:2 can also be read as interrogative
+- memory: qunya = property acquired to keep, not to trade
+- memory: an with aghnâ marks warding off / standing in for
+- not written: غ ن ي B003 singing - no ground in ayah or surah
+- not written: ك س ب B004 oil-press cake (kusb) - different vowel, no theme
+- not written: م و ل B002 spider (disputed) - no theme
+- not written: mâ kasaba as offspring - needs reports outside the Quran
+- not written: mâl+walad pairings (71:21, 26:88, 58:17) - belong to surah household scene
+- not written: 80:5-6 istighnâ - situation needs outside names; 96:7 and 92:8 suffice
