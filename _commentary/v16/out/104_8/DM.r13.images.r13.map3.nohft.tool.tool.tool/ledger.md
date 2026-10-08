@@ -1,0 +1,11 @@
+- memory: anna is the form inna takes after a verb
+- memory: aṭbaqa shares its root with Turkish tabak, tabaka, mutabık
+- memory: muʾṣada occurs in the Quran only at 90:20 and 104:8
+- memory: al-waṣīd occurs in the Quran only at 18:18
+- memory: fakk = to unfasten, undo what is clasped
+- not written: muʾṣada as derived from āṣada vs awṣada (hamza question) - grammatical debate, no theme; both verbs shown via B001 usage
+- not written: ء ص د B003 small undershirt (ṣabiyya dhāt muʾṣad), fire as garment (22:19) - echo root only, cannot carry identity
+- not written: ء ص د B005 hollow between mountains / place name - no theme
+- not written: ء ص د B001 nār muʾṣada phrase - restates the Quranic wording, adds nothing
+- not written: 15:44 seven doors of hell, 57:13 wall with a door - door theme already carried by 38:50, 39:71-73, 7:40
+- not written: 5:37 no exit from the fire - duplicates 22:22
