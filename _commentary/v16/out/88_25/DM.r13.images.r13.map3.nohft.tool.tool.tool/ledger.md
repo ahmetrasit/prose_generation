@@ -1,0 +1,8 @@
+- memory: fronting ilaynā before the noun of inna gives restriction ("to Us, none else")
+- memory: faʿʿāl pattern (awwāb) marks habitual/repeated action
+- memory: Ottoman Turkish "iyâb ü zehâb" = coming and going
+- not written: mill sense of maʾāb (B001) - mechanism unclear from the gloss, no theme work
+- not written: hand going back to the sword / archer's hand to the arrow (B003) - adds nothing beyond the walking rhythm
+- not written: she-camel quick in returning her forelegs, mounts racing (B003) - camel-journey image belongs to the surah commentary
+- not written: 17:25 "forgiving to the awwābīn" - duplicates the awwāb theme
+- not written: 89:28 voluntary return "irjiʿī" - covered by 78:39 and 50:32-33; different root
