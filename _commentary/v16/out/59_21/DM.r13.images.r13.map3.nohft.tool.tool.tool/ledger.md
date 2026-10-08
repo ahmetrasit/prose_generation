@@ -1,0 +1,18 @@
+- memory: lev marks an unrealized condition
+- memory: la- in la-ra'aytahu is the emphatic answer to lev
+- memory: form V tasadda'a = cracking spreading within the thing itself
+- memory: two asyndetic adjectives = simultaneous states
+- memory: tilka = distant plural demonstrative embracing several parables
+- memory: form V tafakkur = sustained, effortful thinking
+- memory: qaff = rough raised patch of ground
+- memory: tent peg function; camel hump as fat store
+- not written: sad' as headache, young ibex, patch on worn garment - no work in any theme
+- not written: qur' senses (gathering, menstrual period, womb, witness) - did not join the mountain/word themes
+- not written: khashiy "dry" (خ ش ي B004) - its own entry marks it as outside the root's sense; dry-land link carried by خ ش ع instead
+- not written: jabal as dry trees, well-woven cloth, poet stuck for words - no theme needed them
+- not written: ra'y as lung, mirror, jinn companion - no theme
+- not written: darb as tax, honey, mating, partnership - no theme
+- not written: mathal as bedding, recovery from illness - no theme
+- not written: anasa (perceiving) in nas; Musa perceiving fire at the mountain - identity root uncertain (ء ن س vs ن و س), not pursued
+- not written: 13:31 (a qur'an moving mountains) - overlapping with 7:143 and 19:90, not needed
+- not written: echo ر و ي and alternative و ل ه - not identity, withheld
