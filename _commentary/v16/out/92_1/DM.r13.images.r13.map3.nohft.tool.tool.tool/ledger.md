@@ -1,0 +1,10 @@
+- memory: imperfect yaghshā read as recurring, renewed action
+- memory: idhā after oath fixes the moment of the act, not a static state
+- memory: transitive verb with unexpressed object leaves its scope unlimited
+- memory: Turkish gaşyolmak mainly means rapture, narrowed from covering
+- not written: B003 (nearest night, "al-layla" vs "al-bāriḥa") - no tie to covering or the oath
+- not written: B004 umm laylā as name for wine - no theme it could serve
+- not written: sihah الأعشى من الخيل (white-headed horse) - likely spelling variant, used only the goat phrase
+- not written: echo root غ ش ي - duplicates identity senses, not identity
+- not written: 91:3 day reveals the sun vs 92:2 tajallā reflexive - belongs to ayah two and the surah commentary
+- not written: 17:12 / 28:73 day for seeking bounty vs 92:20 seeking the face - belongs to ayah twenty
