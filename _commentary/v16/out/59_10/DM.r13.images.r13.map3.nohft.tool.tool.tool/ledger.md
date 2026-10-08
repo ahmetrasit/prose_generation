@@ -1,0 +1,19 @@
+- memory: "wa-lladhīna jā'ū" readable as continuing the "li-l-fuqarā'" list of 59:8 or as a new sentence with yaqūlūna as predicate
+- memory: imperfect yaqūlūna read as ongoing, habitual saying
+- memory: indefinite ghillan read as "any rancour at all"
+- memory: naza'a = to pull out, uproot (15:47 gloss)
+- memory: Turkish "miğfer" borrowed from Arabic mighfar
+- memory: Turkish "rahim" (womb) from Arabic raḥim
+- not written: ج ي ء B003/B006 (water pool by fortress, pus in a wound) - no support for any theme here
+- not written: غ ف ر B004 (wound relapsing), B005-B007 (ibex kid, lunar stars, tree resin) - unrelated to the prayer
+- not written: غ ل ل B008 (ewer strainer), B009 (fast travel, carried letter), B010-B012 (fodder, income, flesh left on hide) - no theme to found or join
+- not written: س ب ق B003 (hawk jesses), B004 (escaping pursuit) - off the ayah's race sense
+- not written: ء خ و B003 (seeking carefully) - fixed phrase, no role
+- not written: ب ع د B004 (perdition curse), B008-B010 - would distort the neutral "after"
+- not written: ر ب ب B002 nurture-in-stages and B011 covenant (rabāba) - possible echo of generations and bond, but not needed beyond ākhiyya; would crowd the brotherhood theme
+- not written: ق ل ب B007 (unlined well), B008 (bracelet) and others - no grounding in the ayah
+- not written: ج ع ل B007 (cloth for lifting hot pot) - heat-handling analogy with ghalīl too forced
+- not written: ق و ل B012 (unspoken inner word) - would compete with the plain sense of a voiced prayer
+- not written: ء م ن B003 (āmīn) - prayer link plausible but adds nothing beyond the trust/treachery pairing
+- not written: echo roots ق ل ل and ر ب و - withheld, not identity
+- not written: 12:15 ja'ala fī ghayābat al-jubb echo of "lā taj'al fī" - verbal coincidence, too thin
