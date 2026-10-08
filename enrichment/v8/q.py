@@ -49,7 +49,17 @@ def skel(s):
 
 
 def parts(d, stem_, text, label):
-    chunks = [text[i:i + PART] for i in range(0, len(text), PART)] or ['']
+    """Split at line ends (a line longer than PART is cut), so no note is split across two parts."""
+    chunks, cur = [], ''
+    for ln in text.splitlines(keepends=True):
+        while len(ln) > PART:
+            if cur:
+                chunks.append(cur); cur = ''
+            chunks.append(ln[:PART]); ln = ln[PART:]
+        if cur and len(cur) + len(ln) > PART:
+            chunks.append(cur); cur = ''
+        cur += ln
+    chunks = [c.rstrip('\n') for c in chunks + [cur] if c] or ['']
     for k, p in enumerate(chunks):
         tail = f'\n<<part {k} ends; continues in part {k + 1}>>' if k + 1 < len(chunks) else f'\n<<end of {label}>>'
         (d / f'{stem_}.p{k}.txt').write_text(f'<<{label}, part {k} of 0..{len(chunks) - 1}>>\n{p}{tail}\n')
@@ -59,7 +69,47 @@ def parts(d, stem_, text, label):
 def line(r):
     who = r['src'] + (f" d.{r['death']}" if r['death'] else '')
     sp = '' if r['speaker'] == 'author' else f" · {r['speaker']}"
-    return f"[{r['id']}] {who}{sp} · {r['stance']} · {r['claim']} «{r['anchor']}»"
+    filed = r.get('filed') if isinstance(r, dict) else None
+    fl = f" [filed under {filed}]" if filed and filed != r['verse'] else ''
+    return f"[{r['id']}] {who}{sp} · {r['stance']} · {r['claim']} «{r['anchor']}»{fl}"
+
+
+VERSE = re.compile(r'(\d+):(\d+)(?:-(\d+))?')
+
+
+def _expand(s, a, b):
+    return [f'{s}:{k}' for k in range(int(a), int(b) + 1)] if b and int(b) >= int(a) else [f'{s}:{a}']
+
+
+def verse_list(x, bad):
+    """Tier-1 verse strings to single verses: '103:1-3' -> 103:1, 103:2, 103:3; a bare string is one item (some rows
+    store "7:55" instead of ["7:55"]). Strings that do not parse are counted in bad and kept as they are."""
+    if isinstance(x, str):
+        x = [x]
+    out = []
+    for s in x or []:
+        s = str(s).strip()
+        m = VERSE.fullmatch(s)
+        if m:
+            out += _expand(m[1], m[2], m[3])
+            continue
+        # shorthand or a list inside one string: '92:7,10,12', '92:3,5-7', '1:1","1:2'; a bare number takes the last surah
+        sura, got = None, []
+        for tok in re.split(r'[^\d:\-]+', s):
+            m2 = re.fullmatch(r'(?:(\d+):)?(\d+)(?:-(\d+))?', tok)
+            if not tok or not m2 or not (m2[1] or sura):
+                if tok:
+                    got = None
+                    break
+                continue
+            sura = m2[1] or sura
+            got += _expand(sura, m2[2], m2[3])
+        if got:
+            out += got
+        else:
+            bad[s] += 1
+            out.append(s)
+    return out
 
 
 # ---------------------------------------------------------------- build
@@ -73,7 +123,7 @@ def build(run, ayah, page):
     corpus = sqlite3.connect(CORPUS)
     meta = {i: json.loads(m or '{}') for i, m in corpus.execute('SELECT id, meta FROM src')}
     files = sorted(glob.glob(str(V7 / 'work/*/out/*/c*.jsonl')), key=lambda f: ('/luna-max/' not in f, f))
-    seen, rows = set(), []
+    seen, rows, bad = set(), [], Counter()
     for f in files:
         for ln in open(f):
             if not ln.strip():
@@ -90,17 +140,23 @@ def build(run, ayah, page):
             src = r0[0] if r0 else x['loc'].split(':')[0]
             m = meta.get(src, {})
             for n, r in enumerate(x['rows'], 1):
-                for v in r.get('verses') or []:
+                raw = r.get('verses') or []
+                filed = ', '.join(raw) if isinstance(raw, list) else str(raw)
+                ment = verse_list(r.get('mentions') or [], Counter())
+                for v in dict.fromkeys(verse_list(raw, bad)):
                     rows.append((f"{x['loc']}/r{n}", v, src, m.get('author') or src, m.get('death_ah'), r.get('speaker', ''),
                                  r.get('stance', ''), r.get('claim', ''), r.get('anchor', ''), norm(r.get('anchor', '')),
-                                 norm(r.get('claim', '')), json.dumps(r.get('mentions') or [])))
+                                 norm(r.get('claim', '')), json.dumps(ment), filed))
     # edition rule: drop a short edition's notes on a verse where its FULL edition has notes on that verse
     full = {(v, s[:-5]) for _, v, s, *rest in rows if s.endswith('-FULL')}
     kept = [r for r in rows if (r[1], r[2]) not in full]
     print(f'index: {len(seen)} segments, {len(rows)} note-verse pairs, {len(rows) - len(kept)} dropped by the edition rule')
+    if bad:
+        print(f'WARNING {sum(bad.values())} verse strings in tier 1 do not parse as S:A or S:A-B; their notes are filed '
+              f'under the string itself and no verse query reaches them: ' + ', '.join(f'{k!r} {v}' for k, v in bad.most_common(10)))
     db = sqlite3.connect(d / 'index.sqlite')
-    db.execute('CREATE TABLE notes(id, verse, src, author, death, speaker, stance, claim, anchor, an, cn, mentions)')
-    db.executemany('INSERT INTO notes VALUES (?,?,?,?,?,?,?,?,?,?,?,?)', kept)
+    db.execute('CREATE TABLE notes(id, verse, src, author, death, speaker, stance, claim, anchor, an, cn, mentions, filed)')
+    db.executemany('INSERT INTO notes VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)', kept)
     db.execute('CREATE INDEX nv ON notes(verse)'); db.execute('CREATE INDEX ni ON notes(id)')
     qt = {f'{s}:{a}': t for s, a, t in corpus.execute("SELECT s, a, text FROM seg WHERE src='QURAN' AND a IS NOT NULL")}
     db.execute('CREATE TABLE quran(verse PRIMARY KEY, text)')
@@ -133,6 +189,26 @@ class Q:
         self.db = sqlite3.connect(self.d / 'index.sqlite')
         self.db.row_factory = sqlite3.Row
         self.scope = json.loads((self.d / 'scope.json').read_text())
+        self._marks = None
+
+    def mark(self, i):
+        """In a sift run, the sift's verdict on a note: → ¶… (kept), → dropped: why, or '' (not judged)."""
+        if self._marks is None:
+            self._marks = {}
+            if (self.d / 'sift/plan.json').exists():
+                import sift
+                for key in json.loads((self.d / 'sift/plan.json').read_text())['agents']:
+                    m, got, problems = sift.load(self.d, key)
+                    if problems:
+                        continue
+                    for n, nid in enumerate(m['ids'], 1):
+                        e = self._marks.setdefault(nid, [set(), []])
+                        e[0] |= set(got[n]['p'])
+                        e[1].append(got[n]['why'])
+        e = self._marks.get(i)
+        if not e:
+            return ''
+        return '  → ' + ' '.join(f'¶{k}' for k in sorted(e[0])) if e[0] else f'  → dropped: {e[1][0]}'
 
     def log(self, cmd, ids):
         (self.d / 'log').mkdir(exist_ok=True)
@@ -149,7 +225,7 @@ class Q:
         print(header + f' — showing {start + 1 if chunk else 0}–{start + len(chunk)} of {total}'
               + (f'; more: --page {page + 1}' if start + len(chunk) < total else ''))
         for r in chunk:
-            print(line(r))
+            print(line(r) + self.mark(r['id']))
         return [r['id'] for r in chunk]
 
     def catalog(self, verses):
@@ -220,7 +296,7 @@ class Q:
                 print(f'[{i}] not found')
                 continue
             r = rs[0]
-            print(line(r) + f"\n    verses: {', '.join(x['verse'] for x in rs)} · author: {r['author']} · locator: {i.rsplit('/', 1)[0]}")
+            print(line(r) + self.mark(i) + f"\n    verses: {', '.join(x['verse'] for x in rs)} · author: {r['author']} · locator: {i.rsplit('/', 1)[0]}")
             out.append(i)
         self.log(f'note {" ".join(ids)}', out)
 
@@ -350,6 +426,14 @@ class Q:
         for pair in sorted(want):
             if seen[pair] != 1:
                 problems.append(f'ledger ¶{pair[0]} {pair[1]}: {seen[pair]} rows (expected exactly 1)')
+        if (self.d / 'sift').exists():         # sift runs: every source with notes on the focus ayah is cited
+            cited = {n for b in blocks for n in b.get('notes') or []}
+            srcs = defaultdict(list)
+            for i, s in self.db.execute('SELECT id, src FROM notes WHERE verse=?', (self.scope['ayah'],)):
+                srcs[s].append(i)
+            miss = sorted(s for s, ids in srcs.items() if not cited & set(ids))
+            if miss:
+                problems.insert(0, f"sources with notes on {self.scope['ayah']} that no block cites: {', '.join(miss)}")
         print('OK' if not problems else '\n'.join(problems[:60]))
 
 

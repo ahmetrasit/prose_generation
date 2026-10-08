@@ -25,12 +25,13 @@ A note does not serve the page when it treats an aspect of the verse that no par
 ## OUTPUT
 Write `enrichment/v8/work/{RUN}/sift/out/{KEY}.jsonl`, exactly one line per note, in note order, every note from #1 to #{N}:
 ```
-{"n":1,"p":[4,12],"why":"Abū ʿUbayda: yaʿṣirūn = they are rescued"}
-{"n":2,"p":[],"why":"zakāt ruling on pressed oil; page silent"}
+{"n":1,"src":"SOURCE-A","p":[k, m],"why":"rival sense of the word paragraph k defines; same root as m"}
+{"n":2,"src":"SOURCE-B","p":[],"why":"legal ruling the page does not touch"}
 ```
-- `p`: the paragraphs the note serves (numbers from `[¶n]`), or `[]` {EMPTY_MEANS}.
+- `n`: the note's number; `src`: the SOURCE shown on that note's line, copied exactly (the check uses it to catch shifted verdicts).
+- `p`: the paragraphs the note serves (numbers from `[¶n]`), or `[]` {EMPTY_MEANS}. Choose them from the whole page, not from the paragraphs that cite the verse.
 - `why`: at most 12 words. For a kept note, what it gives those paragraphs; for `[]`, what the note is about.
-Write the file in one or a few appends as you go; do not keep the verdicts only in your head.
+Write the file as you go, a few dozen notes per write; do not keep the verdicts only in your head. Your **first** write creates the file anew (overwrite: `>`), every later write appends (`>>`).
 
 ## FINISH
 Run `python3 -B enrichment/v8/sift.py check {RUN} {KEY}` until it prints `OK` (fix only what it names). Then stop and reply with one line: notes kept, notes with `[]`.

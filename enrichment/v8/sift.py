@@ -40,6 +40,14 @@ def short(r):
     return q.line(r).split('] ', 1)[1]
 
 
+ARABIC = re.compile(r'[\u0600-\u06ff]')
+
+
+def tokens(s):
+    a = len(ARABIC.findall(s))
+    return a / 2 + (len(s) - a) / 4
+
+
 def order(rs):
     return sorted(rs, key=lambda r: (r['death'] if isinstance(r['death'], int) else 9999, r['src'], r['id']))
 
@@ -94,7 +102,7 @@ def build(run, ayah, page, max_chars):
                 lines.append(f'#{n} ' + short(r) + (f'   [filed under {r["verse"]}]' if v == 'links' else ''))
             text = '\n'.join(head + lines)
             nparts = q.parts(d / 'sift/in', key, text, f'notes for {key}')
-            json.dump({'key': key, 'verse': v, 'ids': [r['id'] for r in rs]}, open(d / 'sift/in' / f'{key}.map.json', 'w'), ensure_ascii=False)
+            json.dump({'key': key, 'verse': v, 'ids': [r['id'] for r in rs], 'srcs': [r['src'] for r in rs]}, open(d / 'sift/in' / f'{key}.map.json', 'w'), ensure_ascii=False)
             if v == ayah:
                 notes_are, where = (f'on {ayah} itself',
                     f'These are the notes on {ayah} itself, the verse the page is about. Every paragraph treats {ayah}; give each note every paragraph whose claim or question it bears on.')
@@ -106,7 +114,8 @@ def build(run, ayah, page, max_chars):
             else:
                 notes_are, where = (f'filed under {v}, a verse the page cites',
                     f'The page cites {v} in ' + ', '.join(f'¶{p}' for p in cited_in[v]) + f' (the verse text is at the top of your notes). '
-                    'Those paragraphs are where it is most likely to serve, but give every paragraph whose point a note bears on.')
+                    'A note serves the paragraph whose point it bears on, whichever paragraph cites the verse: a note filed here may serve '
+                    'none of the citing paragraphs and another one instead.')
                 empty = 'when it serves no paragraph'
             agent = f"v8s_{run.replace('-', '_')}_{key}"
             spawn = LUNA
@@ -143,6 +152,8 @@ def load(d, key):
             x = json.loads(ln)
         except ValueError as e:
             problems.append(f'line {i}: not JSON ({e})'); continue
+        if not isinstance(x, dict):
+            problems.append(f'line {i}: not a JSON object'); continue
         n = x.get('n')
         if not isinstance(n, int) or not 1 <= n <= N:
             problems.append(f'line {i}: n must be a note number 1…{N}'); continue
@@ -153,6 +164,8 @@ def load(d, key):
             problems.append(f'#{n}: p must be a list of paragraph numbers of this page ({min(paras)}…{max(paras)}), or []')
         if not (x.get('why') or '').strip():
             problems.append(f'#{n}: no why')
+        if x.get('src') != m['srcs'][n - 1]:
+            problems.append(f"#{n}: src {x.get('src')!r}, but note #{n} is from {m['srcs'][n - 1]} (verdicts shifted against the notes?)")
         got[n] = x
     missing = [n for n in range(1, N + 1) if n not in got]
     if missing:
@@ -201,7 +214,7 @@ def report(run):
             x = json.loads(rj.read_text())
             usd += x.get('usd_equivalent') or 0
             cost = (f" · ${x.get('usd_equivalent', 0):.3f} eq, peak {x.get('max_request_input_tokens')} tok, rc {x.get('returncode')}, "
-                    f"completed {x.get('turn_completed')}")
+                    f"completed {x.get('turn_completed')}" + (' · OVER CONTEXT CAP' if x.get('over_context_cap') else ''))
         if problems:
             print(f'NOT DONE {key}: {N} notes; {problems[0]}' + (f' (+{len(problems) - 1} more problems)' if len(problems) > 1 else '') + cost)
         else:
@@ -251,10 +264,8 @@ def writer(run):
     for i, e in other.items():
         for p in e['p']:
             per_p[p].append(i)
-    txt = [f'# Notes filed under other verses that the sift kept: part A per paragraph the ids, part B each note once in full', '', '## Part A']
-    for p in sorted(int(x) for x in scope['paragraphs']):
-        txt.append(f"¶{p}: {len(per_p[p])}: {' '.join(sorted(per_p[p])) or '-'}")
-    txt += ['', '## Part B']
+    txt = ['# Notes filed under the verses the page cites (and notes elsewhere that name ' + ayah + ') that the sift kept, '
+           'each once, by the verse it is filed under; → the paragraphs the sift assigned it']
     rows = []
     for i in other:
         r = row(i)
@@ -279,10 +290,14 @@ def writer(run):
                  ('{LAST_PAGE}', str(scope['parts']['page'] - 1)), ('{LAST_FOCUS}', str(nf - 1)), ('{LAST_SIFTED}', str(no - 1))):
         spawn = spawn.replace(a, b)
     (d / 'write' / arm).mkdir(parents=True, exist_ok=True)
-    (d / 'spawn' / f'{arm}.md').write_text(spawn)
-    fl = sum(len(x) for x in lines)
-    print(f'writer inputs: focus {len(focus)} notes ({fl:,} chars, {nf} parts); other kept {len(other):,} notes '
-          f'({len(text):,} chars, {no} parts); spawn {(d / "spawn" / f"{arm}.md").relative_to(ROOT)}')
+    sp = d / 'write' / arm / 'spawn.md'          # not in spawn/: run_codex.py runs every file there
+    sp.write_text(spawn)
+    page = ''.join((d / 'inputs' / f'page.p{k}.txt').read_text() for k in range(scope['parts']['page']))
+    ftext = '\n'.join(lines)
+    tok = sum(tokens(x) for x in (page, ftext, text, spawn))
+    print(f'writer inputs: focus {len(focus)} notes ({len(ftext):,} chars, {nf} parts); other kept {len(other):,} notes '
+          f'({len(text):,} chars, {no} parts); spawn {sp.relative_to(ROOT)}')
+    print(f'writer context before any search: ~{tok / 1000:.0f}k tokens (Arabic 2 chars/token, other 4)')
 
 
 def main():
