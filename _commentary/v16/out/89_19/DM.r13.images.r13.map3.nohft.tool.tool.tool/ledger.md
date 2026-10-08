@@ -1,0 +1,12 @@
+- memory: turāth formed from w-r-th with initial wāw replaced by tāʾ
+- memory: lamm here a verbal noun used adjectivally, "gathering all, leaving nothing"
+- memory: cognate accusative plus adjective foregrounds the manner of the act
+- memory: share/fruit sense of أكل vocalized ukl
+- memory: khawwala means to grant freely, without return
+- not written: echo root k-l-l (kalāla inheritance, kall = orphan) - echo root, not identity; would mislead
+- not written: 12:17 wolf "ate" Yusuf - prey image fits, but the story of a lie would pull away from inheritance
+- not written: 4:19 inheriting women by force - wrongful inheritance already carried by 4:2, 4:6, 4:7
+- not written: 2:188 and 4:29 eating wealth by falsehood - covered by 4:2 and 4:10
+- not written: w-r-th B003 inheritance of knowledge and prophethood - the object eaten here is material goods
+- not written: l-m-m B002 alighting/approaching, B004 jinn touch, B005 hair, B006 calamity, B007 evil eye, B008 hard round rock, B009, B010 - no work in the themes
+- not written: ʾ-k-l B006 erosion, B009 sowing discord, B010, B011, B012, B013, B014 - no work in the themes
