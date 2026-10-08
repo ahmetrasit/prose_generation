@@ -1,0 +1,14 @@
+- memory: tasmaʿu read as 2nd masc. sg. or 3rd fem. sg. with broken plural wujūh as subject
+- memory: lāghiya as fāʿila-form noun (like kāḏiba, bāqiya) or adjective of an implied word/speaker
+- memory: indefinite singular after lā negates the whole kind
+- memory: Turkish lağvetmek = abolish an office; Turkish semâ = dervish ceremony
+- not written: passive reading lā tusmaʿu/yusmaʿu fīhā lāghiyatun - reading report outside the supplied texts
+- not written: ل غ و B006 Friday-sermon usage - hadith-based, outside the Quran
+- not written: ل غ و B002 Qatada/Mujahid glosses - exegetes' views
+- not written: ل غ و B005 swerving from the right - adds nothing beyond B002
+- not written: س م ع B008 bucket "ear" handle - link to flowing spring only analogy
+- not written: س م ع B005 reputation/showing off - no support in the ayah
+- not written: س م ع B011 "heard but not reaching me" - no theme to join
+- not written: س م ع B014 between earth's hearing and sight - no theme to join
+- not written: س م ع B009, B010, B012, B013, B015, B016 - unrelated to the ayah
+- not written: rhyme ghāshiya/lāghiya - sound echo only, not root
