@@ -1,0 +1,15 @@
+- not developed: chain 6 as its own section - merged into chain 5 (same "front/facing" sense of نحر)
+- not developed: chain 11 member "لا قطع في ثمر ولا كثر" - hadith wording
+- not developed: chain 9 members مكثار and "شنئ به أي أقر" - no role in the image
+- not developed: chain 9 member "كل أمر لا يبدأ فيه بذكر الله فهو أبتر" - hadith wording
+- not developed: chain 3 members مرب الإبل and camels' fodder - no role in the scene
+- not developed: chain 4 members صلاية and مربوب skin - household objects outside the act
+- not developed: occasion reports, named opponents, exegetes' and hadith readings in chains 2, 5, 6, 7, 10, 11 - outside the Quran
+- memory: كوثر occurs only once in the Quran
+- memory: ش ن ء occurs in the Quran only at 5:2, 5:8 and 108:3 (map said 5:2 was the only other)
+- memory: هو with a definite predicate restricts the quality to the subject
+- memory: fa- in فصل ties the command to the gift as its consequence
+- memory: fire/roasting and prayer are separate origins within ص ل و/ي, not derived from each other
+- memory: عقر means cutting the camel's legs (hamstringing)
+- memory: حنيذ means roasted
+- memory: camels are slaughtered standing, at the base of the neck
