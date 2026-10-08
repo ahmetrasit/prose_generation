@@ -1,0 +1,11 @@
+- memory: vowelling al-juʿl for الجعل in the wage sense
+- memory: lā taqfu = do not follow in the track of
+- memory: taqarra ʿaynuhā = her eye be cooled, i.e. rejoice
+- memory: Turkish aynı, tayin, muayene, göze (spring) as stated
+- not written: evil eye (ع ي ن B004) - no role in gift or sight themes
+- not written: water-skin leak, sun disc, knee/well hollows, scale tilt, cloud/rain (ع ي ن B007-B010) - nothing to ground
+- not written: ʿīna sale, notables/full brothers, wide-eyed (ع ي ن B012, B015, B016) - no theme joined
+- not written: other ج ع ل branches (begin, short palms, pot cloth, beetle, mating, ostrich chick, place, stubborn) - no theme
+- not written: 28:9 qurrat ʿayn over foundling Moses - Moses scene already carried by 20:39-40
+- not written: 5:83 eyes overflowing on hearing truth - 9:92 chosen for its spending link
+- not written: 105:2 a-lam yajʿal - adds nothing beyond 78:6
