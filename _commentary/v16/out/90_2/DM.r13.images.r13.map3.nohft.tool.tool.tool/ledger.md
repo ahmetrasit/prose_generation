@@ -1,0 +1,13 @@
+- memory: ḥill here is a maṣdar used as a state noun, like ḥaram/ḥurum
+- memory: a nominal clause without verb states a condition, not an event
+- memory: jār (neighbour) and istajāra/ajāra (protection) share root j-w-r
+- memory: kneeling camel folds legs and rests on its chest
+- not written: B007 ḥulla (two-piece garment) - no support in this ayah's theme without outside ritual knowledge
+- not written: B008 iḥlīl, B009 milk without birth, B010 ḥullān kid, B014 hock weakness, B015 sesame oil - no bearing on the ayah's themes
+- not written: ب ل د B012 ostrich egg proverb (abandoned egg) - tempting echo of exposure but different branch, too thin
+- not written: ب ل د B005/B007 perplexity and dullness - no work in this ayah
+- not written: ب ل د B004 lunar station - no bearing
+- not written: balad as grave/soil (B001) - possible link to 90:16 matraba, but belongs to that ayah
+- not written: echo root ح ل ي (ornament) - echo only, not identity
+- not written: 13:31 taḥullu read as second person - depends on readers' views, not text alone
+- not written: 14:37 Ibrahim settling offspring vs 90:3 - scene belongs to 90:3 and the surah commentary
