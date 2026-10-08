@@ -1,0 +1,126 @@
+"""Ayah commentary (r13 reading) runs for the orchestrator.
+  rstep.py next K        -> build --spawn the next K ayat in queue order (skips done/started); prints SPAWN lines
+  rstep.py finish N:A    -> finish, postcheck, commit+push; prints STOP on any warning/failure
+  rstep.py queue         -> what is left
+"""
+import glob, json, os, re, subprocess, sys
+
+R = "/Volumes/aro/projects/prose_generation"
+V = f"{R}/_commentary/v16"
+SP = os.path.dirname(os.path.abspath(__file__))
+ORDER = list(range(88, 100)) + [101, 102, 104, 105, 106, 108, 109, 110, 111, 112, 113, 114]
+AYAT = {88: 26, 89: 30, 90: 20, 91: 15, 92: 21, 93: 11, 94: 8, 95: 8, 96: 19, 97: 5, 98: 8, 99: 8, 101: 11, 102: 8,
+        104: 9, 105: 5, 106: 4, 108: 3, 109: 6, 110: 3, 111: 5, 112: 4, 113: 5, 114: 6}
+
+
+def sh(cmd):
+    p = subprocess.run(cmd, shell=True, cwd=R, capture_output=True, text=True)
+    return p.returncode, (p.stdout + p.stderr)
+
+
+def dirs(s):
+    m = [d for d in glob.glob(f"{V}/out/s{s:03d}/surah.map3.*tool") if d.endswith(("map3.nohft.tool", "map3.nochannels.hftbundle.tool"))]
+    if len(m) != 1:
+        return None, None
+    im = f"{V}/out/s{s:03d}/images.r13.{os.path.basename(m[0])[6:]}.tool"
+    if not os.path.exists(f"{im}/images.md") or not os.path.exists(f"{im}/ledger.md"):
+        return m[0], None
+    return m[0], im
+
+
+def rdir(s, a, im):
+    return f"{V}/out/{s}_{a}/DM.r13.{os.path.basename(im)}.tool"
+
+
+def queue():
+    q = []
+    for s in ORDER:
+        m, im = dirs(s)
+        for a in range(1, AYAT[s] + 1):
+            if im is None:
+                q.append((s, a, None))
+                continue
+            d = rdir(s, a, im)
+            if not os.path.exists(f"{d}/started.json") and not os.path.exists(f"{d}/run.log.json"):
+                q.append((s, a, d))
+    return q
+
+
+TEMPLATE = None
+
+
+def template_ok(d):
+    t = open(f"{V}/out/s096/surah.map3.nohft.tool/spawn.md", encoding="utf-8").read().replace(
+        f"{V}/out/s096/surah.map3.nohft.tool", "DIR")
+    x = open(f"{d}/spawn.md", encoding="utf-8").read().replace(d, "DIR")
+    return x == t
+
+
+def nxt(k):
+    n = 0
+    for s, a, d in queue():
+        if n >= k:
+            break
+        if d is None:
+            print(f"WAIT: S{s} surah commentary not finished; {s}:{a} not buildable yet")
+            break
+        m, im = dirs(s)
+        rel_m = os.path.relpath(f"{m}/map.md", V)
+        rel_i = os.path.relpath(f"{im}/images.md", V)
+        rc, out = sh(f"python3 -B _commentary/v16/packets.py writer --ayah {s}:{a} --brief r13 --tool --map {rel_m} "
+                     f"--images {rel_i} --spawn")
+        out = "\n".join(l for l in out.splitlines() if not l.startswith("NOTE: no HFT records"))
+        print(out)
+        if rc != 0 or "BLOCKED" in out or not os.path.exists(f"{d}/spawn.md"):
+            print(f"STOP: build failed for {s}:{a}")
+            break
+        print(("SPAWN " if template_ok(d) else "SPAWN-TEXT-DIFFERS ") + f"{s}:{a} {d}/spawn.md")
+        n += 1
+
+
+def finish(ref):
+    s, a = (int(x) for x in ref.split(":"))
+    m, im = dirs(s)
+    d = rdir(s, a, im)
+    rel = os.path.relpath(d, V)
+    rc, out = sh(f"python3 -B _commentary/v16/packets.py finish --run {rel}")
+    out = "\n".join(l for l in out.splitlines() if not l.startswith("NOTE: no HFT records"))
+    print(out)
+    bad = rc != 0 or re.search(r"WARNING: (tool use outside|unexpected commands|no subagent)|BLOCKED|Traceback|partial|status error", out)
+    _, pc = sh(f"python3 {SP}/postcheck.py {rel}")
+    pc = "\n".join(l for l in pc.splitlines() if "missing.py " not in l and not l.startswith("  ledger:"))
+    print(pc)
+    rows = [json.loads(l) for l in open(f"{V}/out/ledger.jsonl")]
+    row = [r for r in rows if r.get("ref") == ref and r.get("arm") == "DM"][-1]
+    summ = f"{row.get('status')}, check {row.get('check')} {row.get('check_findings') or ''}".strip()
+    sh(f"git add {os.path.relpath(d, R)} _commentary/v16/out/ledger.jsonl")
+    rc2, o2 = sh(f"git commit -q -m '{ref} ayah commentary (r13): {summ}' && git push -q")
+    print(f"committed {ref}: {summ}" + ("" if rc2 == 0 else f" (git: {o2.strip()[:200]})"))
+    if bad:
+        print(f"STOP: {ref} needs attention")
+
+
+def cycle(ref):
+    """finish ref + build next, printing only one line (or STOP lines)."""
+    import io, contextlib
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        if ref != "-":
+            finish(ref)
+        nxt(1)
+    out = buf.getvalue()
+    keep = [l for l in out.splitlines() if l.startswith(("STOP", "WAIT", "SPAWN-TEXT-DIFFERS", "BLOCKED"))]
+    sp = [l.split()[1] + " " + os.path.dirname(l.split()[2]) for l in out.splitlines() if l.startswith("SPAWN ")]
+    print("\n".join(keep + (["NEXT " + sp[0]] if sp else [])) or "no next")
+
+
+if __name__ == "__main__":
+    if sys.argv[1] == "cycle":
+        cycle(sys.argv[2])
+    elif sys.argv[1] == "next":
+        nxt(int(sys.argv[2]))
+    elif sys.argv[1] == "finish":
+        finish(sys.argv[2])
+    else:
+        q = queue()
+        print(len(q), "left;", ", ".join(f"{s}:{a}" for s, a, _ in q[:12]), "...")
