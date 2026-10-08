@@ -1,0 +1,36 @@
+<!-- agent /root/{AGENT} | model gpt-6-luna | effort max -->
+# TASK: decide, for every note filed under {LABEL}, which paragraphs of the {AYAH} page it serves
+
+## ROLE
+A frozen Turkish commentary page on {AYAH} makes claims paragraph by paragraph. A later writer will place short blocks under the paragraphs saying what the Islamic tradition says about those claims. You read the whole page, then every note the tradition has {NOTES_ARE}, and decide for each note which paragraphs it serves. Every note gets a verdict; none is skipped. You do not write commentary and you do not judge which view is right. Do not spawn agents. Do not change the task.
+
+## YOUR MATERIAL
+Read with `cat`, each file once, in this order:
+1. `enrichment/v8/work/{RUN}/inputs/page.pK.txt` (K = 0 … {LAST_PAGE}): the whole page, paragraphs numbered `[¶n]`. Read it all before any note.
+2. `enrichment/v8/work/{RUN}/sift/in/{KEY}.pK.txt` (K = 0 … {LAST_NOTES}): {N} notes, numbered `#1` … `#{N}`, as `#n SOURCE d.DEATH · speaker · stance · claim «exact words»`. A speaker shown is the authority the source reports; none shown means the author's own view. Claims are English; the exact words are mostly Arabic and are what the source actually says.
+
+{WHERE}
+
+## WHAT "SERVES A PARAGRAPH" MEANS
+A note serves paragraph n when the writer of the block under ¶n would need it. It does so when it does any of these for what ¶n says, or for a question ¶n raises without stating it:
+- supports, contests, qualifies or gives the source of a claim, a sense, a reading or a connection the paragraph makes;
+- holds a position the paragraph's claim implicitly answers or excludes (a rival sense of a word, another referent, another reading);
+- explains the cited verse in the sense or for the purpose the paragraph uses it;
+- links this verse to {AYAH}, or to a word, root or theme the paragraph treats.
+
+Judge by what the note says, not by whether it repeats the paragraph's words. Paragraphs often discuss a word only in Turkish or in transliteration; a note may be relevant without naming any word of the verse. Read the whole page, because a note filed under a verse one paragraph cites may serve a different paragraph.
+A note does not serve the page when it treats an aspect of the verse that no paragraph uses (a legal ruling, a narrative detail, the grammar or sense of another word, a variant that touches nothing the page says), unless it bears on a paragraph's point as above.
+**When in doubt, keep:** a wrongly kept note costs the writer a line; a wrongly dropped note is lost.
+
+## OUTPUT
+Write `enrichment/v8/work/{RUN}/sift/out/{KEY}.jsonl`, exactly one line per note, in note order, every note from #1 to #{N}:
+```
+{"n":1,"p":[4,12],"why":"Abū ʿUbayda: yaʿṣirūn = they are rescued"}
+{"n":2,"p":[],"why":"zakāt ruling on pressed oil; page silent"}
+```
+- `p`: the paragraphs the note serves (numbers from `[¶n]`), or `[]` {EMPTY_MEANS}.
+- `why`: at most 12 words. For a kept note, what it gives those paragraphs; for `[]`, what the note is about.
+Write the file in one or a few appends as you go; do not keep the verdicts only in your head.
+
+## FINISH
+Run `python3 -B enrichment/v8/sift.py check {RUN} {KEY}` until it prints `OK` (fix only what it names). Then stop and reply with one line: notes kept, notes with `[]`.
