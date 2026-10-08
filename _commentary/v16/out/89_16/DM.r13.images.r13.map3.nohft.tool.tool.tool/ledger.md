@@ -1,0 +1,10 @@
+- memory: Turkish "ihanet" comes from Arabic ihāna (insult) and shifted to "betrayal"
+- not written: ب ل و B007 mubālāt (ما أباليه "I don't care") - same letters, no usage ties it to testing; mere wordplay
+- not written: ب ل و B006 balā (affirming particle), B004 (clearing an excuse, oath), B005 (camel tied at a grave) - no work in any theme
+- not written: ق د ر B007 qidr (cooking pot) - no usage links the pot to narrowing a share
+- not written: ق د ر B005 taqdīr as human planning (74:18) - would add a second measuring theme without new support
+- not written: ه و ن B004 hāwun (mortar) - said to be a loanword; no work in the theme
+- not written: 56:82 rizq read as thanks - the passage's context (denying the Quran) needs more than the theme carries
+- not written: 3:37 Maryam's provision "without reckoning" - counterpoint to measure; already covered by 15:21 and 42:27
+- not written: echo roots م ه ن, و ه ن, ق ل ل, ر ب و - sound echoes, not identity
+- not written: alternative reading with doubled "qaddara" - reading-tradition report outside allowed sources
