@@ -1,0 +1,11 @@
+- memory: verbs of perception/cognition allow subject and object pronoun with the same referent (ra'āhu = saw himself), unlike other verbs
+- memory: an here read as causal (li-an), "because he saw"
+- memory: Turkish istiğna now mostly disdain/aloofness or contentment; "gına gelmek" from ghinā
+- memory: nadiyy (19:73) and nādī (96:17) share the root n-d-w
+- not written: غ ن ي B003 singing/chanting - no tie to the ayah's stance
+- not written: غ ن ي B006 marriage as protection - too thin to join a theme
+- not written: ر ء ي B007, B008, B009, B010 (menstrual trace, jinn companion, lung, visible pregnancy) - nothing for the ayah's themes
+- not written: ر ء ي B003 dream as a branch - used only through 12:36's construction
+- not written: echo ر و ي (rawā' as "saturated with beauty", unhamzated ri'y) - echo root, not identity
+- not written: 3:181 "Allah is poor and we are rich" - covered by 92:8/92:11 and 69:28
+- not written: 89:15-16 honour read as self-worth - belongs to the surah's sufficiency scene
