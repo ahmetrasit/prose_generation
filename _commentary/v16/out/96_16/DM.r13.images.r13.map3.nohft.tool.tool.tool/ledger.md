@@ -1,0 +1,9 @@
+- memory: the second phrase replaces and explains the first (badal; an indefinite noun may stand in for a definite one when it is qualified)
+- memory: mawshī means patterned in the weave
+- memory: naw' in خطأ الله نوءها refers to the rain tied to a star's setting; given as "its rain"
+- not written: ن ص ي B002 (combing hair, stretching a dead person's forelock) - did not ground a theme without dramatizing
+- not written: ن ص ي B004 (pasture plant), B006 (colic pain) - no connection to the ayah's themes
+- not written: ك ذ ب B003, B005 (idioms: "it falls on you", "did not delay") - idioms unrelated to the forelock
+- not written: ك ذ ب B007 (wild animal stops to look back), B008 (the self) - B007 adds nothing beyond B004; B008 rests on a single source and is too thin
+- not written: 12:29 the husband calls his wife khāṭi'īn - the brothers' confession already covers the Joseph thread
+- not written: 69:37, 4:112, 39:3, 40:24, 38:4 - same root uses that repeat points already made
