@@ -1,0 +1,14 @@
+- memory: sajā (93:2) = become still, calm
+- memory: bayyata / yubayyitūna (4:81) = devise by night
+- memory: ʿishāʾ (12:16) = early night darkness
+- memory: ghayābat al-jubb (12:15) = hidden depth of the well
+- memory: tahajjud (17:79) = rise for night prayer
+- memory: nāshiʾat al-layl (73:6) = night rising; waṭʾ = treading, impact
+- memory: ghāsiq as active-participle form, indefinite with tanwin
+- not written: ش ر ر B002 spreading in sun to dry, B008 make visible - contrast with hiding darkness is only analogy, no text joins it
+- not written: ش ر ر B003 sparks, غ س ق B002 ghassāq/cold (38:57, 78:25) - fire/outflow scene belongs to surah commentary; adds nothing to this ayah's theme
+- not written: غ س ق B005 food impurities - no work in any theme
+- not written: و ق ب B003 animal's sound, B004 hunger, B005 household goods, B006 day-night travel, B007 cowrie - no grounding in the ayah's situation
+- not written: echo root ش ر ي - sound-family only, not identity
+- not written: 36:37 day stripped from night - redundant with 24:40 and covered by surah commentary
+- not written: 81:17, 74:33, 92:2 night/dawn oath pairs - surah commentary's scene; 92:1 and 93:2 sufficed for the frame
