@@ -1,0 +1,11 @@
+- memory: imperfect yuvesvisu read as ongoing/habitual action
+- memory: ṭā'if in 7:201 glossed as "something circling"
+- memory: nazgh in 7:200 glossed as "goad, prod"
+- memory: bitāna in 3:118 glossed as "confidant"
+- not written: ء ن س B004 (side facing the rider) - no work in this ayah; belongs to surah's horse scene
+- not written: ء ن س B005 (image in the pupil) - nothing in the ayah grounds it
+- not written: ص د ر B005, B006 (confiscation; portion) - no theme
+- not written: sidār chest garment and armour/shield scene - surah commentary's shared scene
+- not written: 11:5, 28:69, 22:46, 40:56 chest passages - surah commentary covers them; no new work here
+- not written: 15:47 rancour removed from chests - overlaps the 10:57 healing point
+- not written: 7:27 seen from where unseen - belongs to the 114:6 visibility scene
