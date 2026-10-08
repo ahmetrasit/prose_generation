@@ -1,0 +1,8 @@
+- memory: tanween of يومئذ stands for the omitted clause (the day's whole scene)
+- memory: عذابه read as cognate (absolute) object measuring the act
+- memory: حميم in 69:35 means close friend, not boiling water
+- not written: passive variant reading (يُعذَّب) - qira'at report outside the supplied Quran text
+- not written: B004 "uncovered to the sky" - no support in surah or Quran scene
+- not written: B006 whip tip - belongs to 89:13's image; recalled only via the root's two uses
+- not written: B007 water debris, B008 generous character, B009 afterbirth/womb - no theme to join
+- not written: ء ح د B003-B006 (numeral, Sunday, alone, Uhud) - not this ayah's use; B005 aloneness belongs to surah's single/pair image
