@@ -1,0 +1,16 @@
+- memory: rawāsī from rasā "to be firmly settled/anchored"; tamīda = sway
+- memory: aʿlām in 42:32 meaning mountains as well as markers
+- memory: fa-nṣab in 94:7 as imperative of naṣiba "toil", heard with standing
+- memory: vocalization jabala for the hump sense (B003)
+- memory: vocalization jibill for الجبل "many people" (B002)
+- memory: Turkish cibilliyet/cibilliyetsiz and nasbetmek current usage
+- not written: ن ص ب B005 share (naṣīb) - no link to the mountains' standing in this ayah
+- not written: ن ص ب B006 niṣāb base/knife handle - too thin beside the peg image
+- not written: ن ص ب B007 grammatical accusative - technical, joins no theme
+- not written: ن ص ب B008 open enmity - no support in the surah
+- not written: ن ص ب B003 stones around a well rim - link to the springs of 88:5/88:12 too thin
+- not written: ن ص ب B001 setting a trap, raising a curtain, upright horns - spear and pot-stand carry the mechanism
+- not written: 38:41 Ayyub's nuṣb - adds nothing beyond the fatigue theme
+- not written: 36:62 jibill of people led astray - multitude sense marginal to the mountain
+- not written: ج ب ل B007 well-woven cloth, B008 dry trees, B009 poet blocked, B010 compel, B011 sand ridge, B012 chiefs - no work in a theme
+- not written: ج ب ل B006 entering mountains - adds nothing to the ayah
