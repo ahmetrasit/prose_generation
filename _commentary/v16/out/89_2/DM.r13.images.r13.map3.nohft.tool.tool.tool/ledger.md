@@ -1,0 +1,18 @@
+- memory: Arabic usually puts the number before the counted noun (ʿashru layālin); here it follows as an adjective
+- memory: Turkish "aşır" (recited Quran passage) rests on the ten-verse division
+- memory: the lunar month starts with the night the crescent is seen, so dates are counted by nights
+- memory: vowelling ʿushar and tusaʿ for the night-triplet names
+- memory: vowelling ʿusharāʾ for the ten-month pregnant camel
+- memory: vowelling nahir in "lastu bi-layliyyin wa-lākinnī nahir"
+- memory: ʿurjūn as the date-cluster stalk that dries, curls and yellows
+- memory: the last night of the month is darkest because the old moon is not visible
+- not written: B003 tenth / miʿshār (34:45, earlier peoples not given a tenth) - ties to ʿĀd/Thamūd only via a fraction sense; would leave the counted nights
+- not written: B004 tithe-taking - no bearing on nights or count as span
+- not written: B008 donkey braying ten times, B010 ten cubits, B014 tree, B017 flight feathers - no theme
+- not written: B009 broken pieces / scattered groups - could contrast with ten-by-ten, too thin
+- not written: B011 ʿĀshūrāʾ - names a specific day; invites identifying the nights, which the Quran does not
+- not written: B012 ʿishra / ʿashīr companionship (4:19, 26:214) - reaches 89:29 only by analogy; maʿshar paragraph carries it
+- not written: ل ي ل B004 Laylā name / wine - no theme
+- not written: 6:160 tenfold reward - multiplication, not a span of nights
+- not written: 2:234 four months and ten - waiting period; repeats what 7:142 gives
+- not written: 34:18 travel by nights and days - adds nothing beyond the night-travel usage
