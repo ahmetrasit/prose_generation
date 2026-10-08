@@ -1,0 +1,12 @@
+- memory: عرش in 12:100 denotes a raised royal seat, distinct from سرير
+- not written: س ر ر B002 (أسررته = "disclosed") - contested sense; the disclosure idea was carried by ر ف ع B005 instead
+- not written: س ر ر B003 (sirr = marriage/intercourse) - no ground in this ayah's theme
+- not written: س ر ر B004 (moon's hidden last nights) - no link beyond hiding, already carried by B001
+- not written: س ر ر B005 (pure core, best soil of a valley) - tempting with the garden but no usage ties it to seats
+- not written: س ر ر B006/B007/B008 (navel, camel chest disease, hollow stick) - no work in any theme
+- not written: س ر ر B009 (lines of palm and forehead) - link to faces of 88:8 would need usage not supplied
+- not written: س ر ر B012/B013/B015 (plant tips, truffle crust, sand on a hillock) - fixed-expression senses, no theme
+- not written: ر ف ع B004 presenting before a ruler, link to 88:25-26 reckoning - too thin
+- not written: ر ف ع B006/B007/B008/B009/B010/B011/B012 (harvest carrying, milk retention, hip pad, fetter rope, loud voice, travelling inland, nominative case) - no theme here
+- not written: 35:10 good deed raised - pronoun ambiguity, link to 88:9 striving unsure
+- not written: 56:15 سرر موضونة and 52:20 سرر مصفوفة - belong to the room scene of the surah commentary
