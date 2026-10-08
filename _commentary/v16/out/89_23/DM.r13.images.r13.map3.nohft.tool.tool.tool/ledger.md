@@ -1,0 +1,14 @@
+- memory: tanwin of yawma'idhin stands in for the omitted clause (the day the earth is crushed, the Lord comes)
+- memory: tafa''ala pattern of tadhakkara conveys effortful seeking
+- memory: fata covers both "elapsed" and "missed / slipped away"
+- memory: 'eneh' (anah) as the noun of unhurried waiting, alongside the supplied anat
+- not written: ج ي ء water-collecting pit around fortresses - no work in this ayah beyond a loose analogy
+- not written: ذ ك ر hardest iron / "yawm dhakar" harsh day - a different word; could not join a theme without forcing
+- not written: ذ ك ر written deed of a right - tempting link to judgment records, but nothing in the ayah carries it
+- not written: ذ ك ر honour (link to akramani of 89:15) - dhikra here is remembering, honour sense not supported for it
+- not written: ذ ك ر male, worship, scripture branches - no role in this ayah's themes
+- not written: ء ن س pupil reflection, near side, "ibn insik", seeking permission - no work in this ayah
+- not written: ء ن ي vessel - no theme it grounds here
+- not written: echo ء و ن (awan, time) - echo root, not identity
+- not written: 33:53 (ina of food, musta'nisin) - illustration only, adds nothing beyond the supplied usage
+- not written: 34:52 tanawush - reaching from afar already carried by the surah commentary
