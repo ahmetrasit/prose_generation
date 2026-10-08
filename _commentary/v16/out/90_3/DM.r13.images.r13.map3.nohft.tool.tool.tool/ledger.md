@@ -1,0 +1,9 @@
+- memory: "men" usual for persons, "mâ" for things/the unknown
+- memory: Turkish "evlat" used as singular, "velet" pejorative
+- not written: "mâ" as negation ("and one who did not beget") - reading not supported by supplied texts or Quran alone
+- not written: identity of the begetter (Adam, Ibrahim etc.) - needs reports outside the Quran; only the Quran's own "this city" prayer used
+- not written: tanwin of magnification on "vâlid" - grammatical claim not checkable here, adds no theme
+- not written: B001 sense "I do not know who he is" - no Arabic phrase supplied
+- not written: B003 "waladnâhâ" (shepherd delivering the ewe) - no theme it grounds
+- not written: B005 "muwallad" (non-pure Arabic, fabricated writing) - no link to the ayah's themes
+- not written: B007 exact mechanism of the raid idiom - only "origin in raids" attested, details not given
