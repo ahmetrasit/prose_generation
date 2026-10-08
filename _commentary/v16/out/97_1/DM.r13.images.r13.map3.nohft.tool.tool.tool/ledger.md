@@ -1,0 +1,12 @@
+- memory: إنّ as emphatic particle; -nā as speaker "we"
+- memory: suffixed pronoun normally refers back to an earlier named noun
+- memory: vowels kâdira (ليلة قادرة), kıdr (pot), kadîr; texts unvocalized
+- memory: Turkish senses of kadir, kader, menzil, nâzil olmak
+- not written: ن ز ل B006 calamity, B007 combat - contrast with salam belongs to 97:5 scene
+- not written: ن ز ل B008 hajj/Mina, B009 semen, B011 fast-flowing ground - no support in this ayah
+- not written: ن ز ل B010 cold-like ailment (Turkish nezle) - no theme work
+- not written: ل ي ل B002 night travel, B003 "tonight", B004 name/wine - no work in this ayah's themes
+- not written: ق د ر B006 middling saddle, short man, horse - only the night usage serves
+- not written: ق د ر B007 butcher/cook (القدار) - vowel uncertain, pot suffices
+- not written: how one-night sending and gradual sending fit - needs exegetes, outside Quran
+- not written: thousand months, "ma adraka" - surah commentary (97:2-3), recalled only
