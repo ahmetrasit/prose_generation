@@ -1,0 +1,10 @@
+- memory: يتيما is the object of the verbal noun إطعام in 90:14
+- memory: ذا is the accusative of ذو agreeing with يتيما; three ذو + mafʿala phrases share one pattern
+- memory: Turkish "akraba" derives from أقرباء; Turkish "kurban" narrowed to sacrifice/victim
+- memory: vowelling فرس مُقْرَبة (muqraba) for the horse term, differing from maqraba
+- not written: يتيمة for a woman until/after marriage (B005) - no tie to a fed kin orphan
+- not written: قارب small boat attending a ship (B011) - image of service, not of the dependent orphan
+- not written: قربة water skin, قراب sword sheath, flank, approximation senses - no theme work
+- not written: 4:10 orphans' wealth eaten as fire in bellies vs 90:20 fire - association too loose
+- not written: 50:16 / 2:186 God's nearness (B006) - belongs to 90:5-7, not this ayah
+- not written: يتيم ذو مسغبة usage phrase - from another root's evidence, famine scene belongs to 90:14
