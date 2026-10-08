@@ -1,0 +1,12 @@
+- memory: ḥaddatha takes the thing told with the preposition bi-
+- memory: form II (doubled middle radical) makes another the hearer/receiver of the ḥadīth
+- memory: vowel na'ma for "ease of life" (نعمة العيش) and rubbā for الربى
+- memory: ḥujūr in 4:23 = guardianship, lap
+- not written: naʿam "yes" (ن ع م B004) beside the asker of ayah ten - no Quran or surah support; would replace the meaning
+- not written: 7:44 (wajada, rabb, naʿam together) - grim confession scene, does not join any theme
+- not written: rabbānī teacher (ر ب ب B003, 3:79) - telling here is narration of a favour, not teaching; overreach
+- not written: nuʿmat al-ʿayn / qurrat ʿayn (ن ع م B013) - joins ayah five's satisfaction only by analogy
+- not written: muḥaddath, the inspired one (ح د ث B008) - its example rests on a report outside the Quran
+- not written: ḥadath as calamity (ح د ث B005) - no work in the theme beyond the Turkish hâdise remark
+- not written: ostrich, rope-beam, wells, south-wind details, covenant, arrow bag, syrup, herds of wild cattle, captain - no theme
+- not written: echo root ر ب و (raising, growth; 17:24, 26:18) - not identity with ر ب ب
