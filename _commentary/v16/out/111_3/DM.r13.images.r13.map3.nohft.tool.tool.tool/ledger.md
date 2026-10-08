@@ -1,0 +1,12 @@
+- memory: se- prefix marks near, certain future
+- memory: Arabic expresses an attribute by "father of" / "possessor of" (abū, dhū)
+- memory: dhāt is the feminine of dhū, agreeing with feminine nār
+- memory: yaḥmūm (56:43) = black smoke
+- memory: hīm (56:55) = camels with unquenchable thirst
+- not written: prayer and place-of-worship senses (ص ل ي B001, B002, B008) - no support in the ayah beyond shared letters
+- not written: back/tailbone (ص ل ي B006), racehorse in second place (B007), pounding stone (B009), forage plant (B010) - no work in any theme
+- not written: لهب horse's dust-raising run (B004), unclimbable mountain face/cleft (B005), handsome or hairy man (B008) - would push past the word
+- not written: لهب lightning flashing without a gap (B007) - fixed expression for lightning; too thin for "no respite"
+- not written: نار blossoming (B004), shy/chaste woman (B006), soot for kohl and tattoo (B008), depilatory paste (B009), confusing someone (B010), conspicuous mark/yoke (B011) - no tie to this ayah's fire
+- not written: causative forms in 74:26 and 4:56 (God makes them enter) - the ayah's active "he will enter" carried the point alone
+- not written: echo root ص ل و - observed sound family, not identity
