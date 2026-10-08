@@ -1,0 +1,11 @@
+- memory: iṭʿām is the causative (form IV) masdar of ṭaʿima
+- memory: masdar iṭʿām governs yatīman (90:15) as its object
+- memory: dhū means "possessor of"; ayah, 90:15 and 90:16 share the construction
+- not written: variant reading fakka raqabatan aw aṭʿama (verb) - report from outside the supplied texts
+- not written: B003 asking for speech / prompting the imam - no tie to this ayah's theme
+- not written: B007 marrow-fat camel, B009 horse's muzzle, B014 consecutive build - no work in a theme
+- not written: B008 dhū ṭaʿm (sense, worth) - parallel dhū tempting but no grounded link
+- not written: B012 throat grip, B013 mouth-to-mouth - body/mouth scene belongs to the surah commentary
+- not written: B004 ṭuʿma as allotted land/revenue - beyond the host/provided contrast used
+- not written: yawm B004 ayyām Allāh and B005 yawmaʾidhin - no grounding in this ayah
+- not written: 69:34 and the bound neck scene - shared surah scene, carried by 90:13 and surah commentary
