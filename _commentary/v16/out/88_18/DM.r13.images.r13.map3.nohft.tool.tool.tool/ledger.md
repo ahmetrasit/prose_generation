@@ -1,0 +1,8 @@
+- memory: Turkish keyif/keyfiyet go back to Arabic kayf (state, manner)
+- memory: Turkish sema narrowed to a poetic word for sky
+- not written: مرفوع/موضوع as camel-gait pair (ر ف ع B003) echoing 88:13-14 beside the camel of 88:17 - belongs to the surah's room scene, not this ayah's themes
+- not written: ism derived from sumuw, "raising the named" (س م و B005), link to 94:4 - grammarians' derivation, disputed (echo root و س م), would distract
+- not written: ر ف ع B004/B006-B012 (presenting to a ruler, harvest, milk-holding, hip pad, fetter rope, loud voice, travel, nominative case) - no work in any theme
+- not written: س م و B003, B006, B008 (stallion, hunters, good repute) - no work in any theme
+- not written: echo root و س م (first rain marking the earth) - echo, not identity
+- not written: 41:11 sky as smoke before ordering - adds a creation stage, not the raising
