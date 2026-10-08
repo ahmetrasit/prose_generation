@@ -1,0 +1,15 @@
+- memory: lām after fa marks command here, distinct from the preposition li of 106:1
+- memory: نُرَبِّكَ (26:18) belongs to root ر ب و, not ر ب ب
+- memory: qaṭirān described as black sticky substance coating the skin
+- not written: ع ب د B008 (indignation, grief) - would need exegetical reading to join a theme
+- not written: ع ب د B009 (not delaying, quickening pace) - no theme it grounds
+- not written: ع ب د B012 (perfume-grinding stone) - no support in surah
+- not written: ر ب ب B003 (rabbānī scholar) - no link to this ayah's situation
+- not written: ر ب ب B010 (pouch for lot arrows) - gathering link too thin
+- not written: ر ب ب B015 (particle rubba) - function word, no image
+- not written: ر ب ب B017 (ship captain) - no ship in surah; only analogy via pitched ship
+- not written: ب ي ت B006 (water/milk kept overnight) - no theme
+- not written: ب ي ت B007 (grave as house) - nothing in surah supports it
+- not written: ب ي ت B009 (adjacent neighbour) - protection link too thin
+- not written: ب ي ت B010 (marriage, setting up house) - no theme
+- not written: echo root ر ب و (rising, ribā, nurture) - echo only, not identity
