@@ -1,0 +1,10 @@
+- not developed: 7 Enclosed growth - merged into 6 Buried and laid open (same concealment branch ق ب ر B002)
+- not developed: 2 Mill mouth, member ن ع م B010 (pounding fine) - too remote from the ayah
+- not developed: 8 Visit, members ز و ر B007 (hard travel) and ن ع م B012 (going on foot) - do not carry the scene
+- not developed: 6 Buried, member ي ق ن B002 (screened maiden) - reversal too forced
+- not developed: 9 Mark to thing, member ي ق ن B001 «ما قتلوه يقينا» - adds nothing; variant reading لتُرونّ with readers' names - report outside the Quran
+- not developed: hadith and tafsir reports in chains 2, 3, 4, 8, 11 - excluded by rule
+- memory: حطم means to break into pieces
+- memory: نُزُل is the hospitality set before an arriving guest
+- memory: قرة العين (coolness of the eye) expresses joy
+- memory: a visit (زيارة) implies leaving again; the visitor does not stay
