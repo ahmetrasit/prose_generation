@@ -1,37 +1,35 @@
 <!-- agent /root/{AGENT} | model gpt-6-luna | effort max -->
-# TASK: decide, for every note filed under {LABEL}, which paragraphs of the {AYAH} page it serves
+# TASK: grade every note filed under {LABEL} against the claims of the {AYAH} page
 
 ## ROLE
-A frozen Turkish commentary page on {AYAH} makes claims paragraph by paragraph. A later writer will place short blocks under the paragraphs saying what the Islamic tradition says about those claims. You read the whole page, then every note the tradition has {NOTES_ARE}, and decide for each note which paragraphs it serves. Every note gets a verdict; none is skipped. You do not write commentary and you do not judge which view is right. Do not spawn agents. Do not change the task.
+A frozen Turkish commentary page on {AYAH} makes claims paragraph by paragraph. A writer will place short blocks under the paragraphs mapping what the Islamic tradition says about those claims: who holds which position, who contests it, on what ground. The writer will receive in full only the notes you grade **core**, so a core note wrongly graded lower is lost to the writer, and a note wrongly graded core is noise the writer must read. You read the page, its claim map, and every note the tradition has {NOTES_ARE}, and grade each note. Every note gets a grade; none is skipped, merged or summarised. You do not write commentary and you do not judge which view is right. Do not spawn agents. Do not change the task.
 
 ## YOUR MATERIAL
 Read with `cat`, each file once, in this order:
-1. `enrichment/v8/work/{RUN}/inputs/page.pK.txt` (K = 0 … {LAST_PAGE}): the whole page, paragraphs numbered `[¶n]`. Read it all before any note.
-2. `enrichment/v8/work/{RUN}/sift/in/{KEY}.pK.txt` (K = 0 … {LAST_NOTES}): {N} notes, numbered `#1` … `#{N}`, as `#n SOURCE d.DEATH · speaker · stance · claim «exact words»`. A speaker shown is the authority the source reports; none shown means the author's own view. Claims are English; the exact words are mostly Arabic and are what the source actually says.
+1. `enrichment/v8/work/{RUN}/inputs/page.pK.txt` (K = 0 … {LAST_PAGE}): the whole page, paragraphs numbered `[¶n]`.
+2. `enrichment/v8/work/{RUN}/sift/claims.txt`: the page's claims, by id (`4a` = paragraph 4, first claim), each with the terms and verses it uses.
+3. `enrichment/v8/work/{RUN}/sift/in/{KEY}.pK.txt` (K = 0 … {LAST_NOTES}): {N} notes, numbered `#1` … `#{N}`, as `#n SOURCE d.DEATH · speaker · stance · claim «exact words»`. A speaker shown is the authority the source reports; none shown means the author's own view. Claims are English; the exact words are mostly Arabic and are what the source actually says.
 
 {WHERE}
 
-## WHAT "SERVES A PARAGRAPH" MEANS
-A note serves paragraph n when the writer of the block under ¶n would need it. It does so when it does any of these for what ¶n says, or for a question ¶n raises without stating it:
-- supports, contests, qualifies or gives the source of a claim, a sense, a reading or a connection the paragraph makes;
-- holds a position the paragraph's claim implicitly answers or excludes (a rival sense of a word, another referent, another reading);
-- explains the cited verse in the sense or for the purpose the paragraph uses it;
-- links this verse to {AYAH}, or to a word, root or theme the paragraph treats.
-
-Judge by what the note says, not by whether it repeats the paragraph's words. Paragraphs often discuss a word only in Turkish or in transliteration; a note may be relevant without naming any word of the verse. Read the whole page, because a note filed under a verse one paragraph cites may serve a different paragraph.
-A note does not serve the page when it treats an aspect of the verse that no paragraph uses (a legal ruling, a narrative detail, the grammar or sense of another word, a variant that touches nothing the page says), unless it bears on a paragraph's point as above.
-**When in doubt, keep:** a wrongly kept note costs the writer a line; a wrongly dropped note is lost.
+## GRADES
+- **core**: the note bears on one or more of the page's claims. It supports, contests or qualifies a claim; gives its source or evidence; holds a rival position the claim sets aside or answers (another sense, referent or reading); explains the cited verse on the very point the claim uses it for; or links this verse to {AYAH} or to a claim's term, root or idea. Also core: a note the writer needs in order to state such a position correctly (e.g. who holds it, what the term means in that position). List every claim it bears on, from any paragraph: a note filed here may bear on a claim in a paragraph that does not cite this verse.
+- **context**: the note concerns the same passage, word or sense the page uses, but takes no position on any claim (background a writer might consult, not cite). Give the paragraphs it is background for.
+- **off**: the note treats something no claim touches (a legal ruling, a narrative detail, the grammar or sense of another word, a variant that touches no claim).
+Judge by what the note says, not by whether it repeats the page's words: a note may bear on a claim without naming any word of the verse, and a note may name the verse's words while bearing on no claim.
+**Between core and context, when in doubt, choose core**, and say in `why` which point of the claim it bears on. Do not grade core because a note is "about the verse": name the claim and how.
 
 ## OUTPUT
 Write `enrichment/v8/work/{RUN}/sift/out/{KEY}.jsonl`, exactly one line per note, in note order, every note from #1 to #{N}:
 ```
-{"n":1,"src":"SOURCE-A","p":[k, m],"why":"rival sense of the word paragraph k defines; same root as m"}
-{"n":2,"src":"SOURCE-B","p":[],"why":"legal ruling the page does not touch"}
+{"n":1,"src":"SOURCE-A","g":"core","c":["4a","17b"],"why":"rival sense of the word in 4a; same root link as 17b"}
+{"n":2,"src":"SOURCE-B","g":"context","p":[4],"why":"vocalisation of a neighbouring word in the verse 4 cites"}
+{"n":3,"src":"SOURCE-C","g":"off","why":"legal ruling no claim touches"}
 ```
-- `n`: the note's number; `src`: the SOURCE shown on that note's line, copied exactly (the check uses it to catch shifted verdicts).
-- `p`: the paragraphs the note serves (numbers from `[¶n]`), or `[]` {EMPTY_MEANS}. Choose them from the whole page, not from the paragraphs that cite the verse.
-- `why`: at most 12 words. For a kept note, what it gives those paragraphs; for `[]`, what the note is about.
-Write the file as you go, a few dozen notes per write; do not keep the verdicts only in your head. Your **first** write creates the file anew (overwrite: `>`), every later write appends (`>>`).
+- `src`: the SOURCE shown on that note's line, copied exactly (the check uses it to catch shifted grades).
+- `c` (core only): the claim ids, from the claim map. `p` (context only): paragraph numbers.
+- `why`: at most 15 words. Core: which point of which claim, and how (supports / contests / rival / source / link). Context and off: what the note is about.
+Write the file as you go, a few dozen notes per write. Your **first** write creates the file anew (`>`), every later write appends (`>>`).
 
 ## FINISH
-Run `python3 -B enrichment/v8/sift.py check {RUN} {KEY}` until it prints `OK` (fix only what it names). Then stop and reply with one line: notes kept, notes with `[]`.
+Run `python3 -B enrichment/v8/sift.py check {RUN} {KEY}` until it prints `OK` (fix only what it names). Then stop and reply with one line: notes graded core, context, off.

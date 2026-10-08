@@ -192,23 +192,14 @@ class Q:
         self._marks = None
 
     def mark(self, i):
-        """In a sift run, the sift's verdict on a note: → ¶… (kept), → dropped: why, or '' (not judged)."""
+        """In a sift run, the sift's grade on a note (→ core 4a 17b / → context ¶4 / → off: why), or '' (not graded)."""
         if self._marks is None:
             self._marks = {}
             if (self.d / 'sift/plan.json').exists():
                 import sift
-                for key in json.loads((self.d / 'sift/plan.json').read_text())['agents']:
-                    m, got, problems = sift.load(self.d, key)
-                    if problems:
-                        continue
-                    for n, nid in enumerate(m['ids'], 1):
-                        e = self._marks.setdefault(nid, [set(), []])
-                        e[0] |= set(got[n]['p'])
-                        e[1].append(got[n]['why'])
+                self._marks, self._sift = sift.merged(self.d)[0], sift
         e = self._marks.get(i)
-        if not e:
-            return ''
-        return '  → ' + ' '.join(f'¶{k}' for k in sorted(e[0])) if e[0] else f'  → dropped: {e[1][0]}'
+        return self._sift.mark(e) if e else ''
 
     def log(self, cmd, ids):
         (self.d / 'log').mkdir(exist_ok=True)
