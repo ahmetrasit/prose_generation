@@ -1,0 +1,14 @@
+- memory: fa here marks immediate sequence (finding then enriching)
+- memory: wajada with two objects = perceiving someone in a state
+- memory: ʿāʾil occurs only at 93:8; root ʿ-y-l elsewhere only ʿayla in 9:28
+- memory: Turkish "aile" comes from Arabic ʿāʾila (household one supports)
+- memory: Turkish "gına" and "müstağni" from ghinā / mustaghnī, meanings shifted
+- memory: istaghnā (istafʿala) = taking self-sufficiency to oneself, vs causative aghnā
+- memory: akdā = stopped giving; aqnā = granted lasting property
+- not written: ʿ-y-l B003 swaying/swaggering gait - no tie to need or sufficiency
+- not written: ʿ-y-l B004 bad nourishment - left out to keep the poverty theme focused
+- not written: ʿ-y-l B006 proper name, B007 male hyena - no bearing
+- not written: gh-n-y B003 singing - homonymous branch, no tie
+- not written: gh-n-y B006 marriage, 24:32 enrich-through-marriage - would invite an outside report about the addressee
+- not written: w-j-d B002 existence, B004 grief/love, B005 anger - no theme they join here
+- not written: echo root j-d-d (jadd = fortune) - echo, not identity
