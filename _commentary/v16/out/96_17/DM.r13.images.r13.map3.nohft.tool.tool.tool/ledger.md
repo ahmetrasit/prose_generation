@@ -1,0 +1,11 @@
+- memory: سندع is indicative, final waw expected but dropped in the written text
+- memory: the long vowel of سندع is shortened before the article in recitation
+- memory: li- with jussive gives third-person command; here read as a dare
+- not written: تداعت الحيطان (walls falling one after another, د ع و B005) - suggestive of a collapsing gathering but would be pure analogy
+- not written: الدعي / calling by fathers (د ع و B002, 33:5) - claiming belonging, no grip on this ayah's theme
+- not written: داعية اللبن (د ع و B003) and نوادي كلامك (ن د و B009) - no work in a theme
+- not written: أصل النداء من الندى (call derived from moisture) - etymological claim, not asserted
+- not written: camels' drinking place الندوة and دار الندوة (echo root ن د ي) - echo root, and a historical place outside the Quran
+- not written: ن و د swaying, د ع ع pushing (echo roots) - not identity; د ع ع pushing belongs to the zabaniya scene
+- not written: 72:19-20 servant calling his Lord while crowded upon - the three-calls scene belongs to the surah commentary
+- not written: 50:41 caller from a near place - overlapped 2:186 nearness point
