@@ -1,0 +1,12 @@
+- memory: آنية (88:5) and يأن (57:16) and آن (55:44) share the root of "reaching its time/term"
+- memory: آسن means water whose taste or smell has changed
+- memory: غور means water sunk into the ground
+- memory: Turkish cereyan, mecra, cari, cariye, aynı, muayene derive from these Arabic words
+- not written: ج ر ي B004 young girl - only as Turkish loanword note; no support in the ayah
+- not written: ج ر ي B002 habit, B003 agent/messenger, B005 crop, B007 keeping pace, B008 for your sake - no tie to a theme
+- not written: ع ي ن B004 evil eye, B005 spy, B011 cash, B012 credit sale, B015 notables, B017 people present - no tie
+- not written: ع ي ن B010 cloud or lasting rain from one direction - direction-specific, would add rain without the ayah
+- not written: ع ي ن B014 choicest part - weak tie, would replace "spring" with praise
+- not written: ع ي ن B016 wide-eyed (حور عين elsewhere) - different form, would replace the spring
+- not written: 76:6 spring made to gush by the servants - belongs to the surah commentary's cup and spring scene
+- not written: 18:86 sun setting in a muddy spring - would overstrain the sun resonance
