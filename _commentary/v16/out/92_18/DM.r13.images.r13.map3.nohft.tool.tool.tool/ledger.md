@@ -1,0 +1,16 @@
+- memory: unconjoined yatazakkâ after yu'tî read as circumstantial (hal), purpose, or substitute clause
+- memory: form V (tafa''ul) of z-k-w as reflexive, gradual, effortful becoming
+- memory: form II tuzakkû = declare pure, distinct from form V tazakkâ
+- memory: âtâ as form IV (causative) of atâ "to come"
+- memory: vocalization atiyy for الأتي and imperative atti in أت لمائك
+- memory: vocalization utiya in أتي على يد فلان
+- memory: vocalization atawtuhu atwatan, itâwa
+- memory: Turkish zekâ (intelligence) from root dh-k-w, not z-k-w
+- not written: ء ت ي B003 compliance, ta'attî - no work in the ayah's themes
+- not written: ء ت ي B005 flood from a land where rain fell - suggestive of unearned gift, no anchor in the ayah
+- not written: ء ت ي B006 stranger, B009 camel's forelegs, B012 she-camel in heat, B013 effective man - no theme work
+- not written: ء ت ي B010 mîtâ' as facing a house - link to the face of ayah 20 too thin
+- not written: م و ل B002 spider - disputed sense, no work
+- not written: ز ك و B004 "does not befit" - fixed negative phrase only, no theme
+- not written: ز ك و B005 even/pair - no verb sense attested, link to ayah 3's pair too thin
+- not written: ز ك و B002 lawful food with harmless aftermath, 18:19 azkâ ta'âman - would dilute themes
