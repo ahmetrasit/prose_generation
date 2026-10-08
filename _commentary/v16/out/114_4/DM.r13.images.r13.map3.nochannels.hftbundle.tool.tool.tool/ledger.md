@@ -1,0 +1,13 @@
+- memory: khannās (faʿʿāl pattern) means repeated/habitual withdrawing
+- memory: waswās reduplication imitates a repeated rustling sound
+- memory: zukhruf = gold ornament, gilding
+- memory: aʿūdhu as imperfect = present, ongoing act
+- memory: Turkish "vesvese" narrowed to obsessive doubt/anxiety
+- not written: ش ر ر B005 dripping roast - no link to any theme
+- not written: ش ر ر B006 swinging tail-ends / weights - no support in ayah or Quran
+- not written: ش ر ر B012 plant name - no content
+- not written: خ ن س B003 all cattle snub-nosed, lion's face - only the receding-nose motion used
+- not written: echo root ش ر ي (selling, escalation, likeness) - echo, not identity
+- not written: spark (B003) vs jinn created from fire (55:15, 7:12) - analogy too thin
+- not written: 50:17 recorders on right and left beside 7:17 - no shared word or act strong enough
+- not written: images.md Ibrahim night scene (6:76) - belongs to surah commentary, recalled only
