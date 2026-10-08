@@ -1,0 +1,18 @@
+- memory: le in latarawunna is the oath lām; final doubled nūn is the heavy nūn of emphasis
+- memory: a law-clause answer takes a past-tense verb, so 102:6 is not grammatically the answer of law in 102:5
+- memory: Turkish rüya, riya, rey derive from the r-ʾ-y root; rey now mostly means "vote"
+- memory: mahwā (in the jaḥīm phrase) and hāwiya (101:9) share the root h-w-y (falling)
+- memory: takhayyul here means conceited swagger; marāḥ means exuberant frolic
+- memory: maraḥ/mukhtāl (31:18) share roots with marāḥ/takhayyul (m-r-ḥ, kh-y-l)
+- memory: maʾwā means a place one retreats to and shelters in
+- memory: taṭṭaliʿu (104:7) and iṭṭalaʿa / muṭṭaliʿūn (37:54-55) are the same verb (ṭ-l-ʿ, form VIII)
+- memory: ṣadaqa (36:52) shares the root ṣ-d-q with ṣidq in the pregnancy phrase
+- memory: the jāḥim al-ḥarb saying is a line of verse (presented only as "a saying")
+- not written: variant reading latuṛawunna (passive "you will be made to see") - a reading report naming readers is outside the supplied texts; the showing idea is carried by B012 and Quran passages instead
+- not written: echo root r-w-y (thirst-quenching, ruwāʾ) - echo, not identity; no support for linking to fire
+- not written: r-ʾ-y B007 menstrual trace, B008 jinn companion, B009 lung, B011 banner, B013 a-raʾayta - no work in any theme of this ayah
+- not written: r-ʾ-y B006 mirror sense - no supported link to the seeing of hell
+- not written: j-ḥ-m B005 "of little shame" - nothing in the ayah or surah grounds it
+- not written: j-ḥ-m B003 eye-swelling disease (juḥām) - adds nothing beyond the staring eye
+- not written: 102:6 read as seeing hell now by insight - depends on exegetes' views; only the eye/insight range of the verb is shown
+- not written: 19:71 (everyone comes to it) - the link to 102:6 rests on exegesis, not on the Quran's wording
