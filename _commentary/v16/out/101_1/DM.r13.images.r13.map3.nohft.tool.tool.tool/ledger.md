@@ -1,0 +1,9 @@
+- memory: glosses of ḥāqqa, wāqiʿa, ghāshiya, rājifa, ṭāmma, ṣākhkha, āzifa as names of the Day
+- memory: Turkish "kura" is borrowed from Arabic qurʿa
+- memory: vocalisation of lā yuqriʿu, rajul qariʿ, arḍ qariʿa in transliteration
+- not written: B003 stallion covering the she-camel - gives no purchase on strike, warning or Day themes
+- not written: B007 chief, choicest property, best spot of the house - no link to the ayah's meaning or surah
+- not written: B009 gourd; B012 food/date sack - no thematic work
+- not written: B001 cup rim touching the forehead when drained - marginal, no theme
+- not written: ghāshiya "visitors" in the empty-yard phrase vs the Day named al-ghāshiya - word coincidence only, too thin
+- not written: ṭāriq as night-knocker (surah 86) - other root, analogy only; surah commentary carries it
