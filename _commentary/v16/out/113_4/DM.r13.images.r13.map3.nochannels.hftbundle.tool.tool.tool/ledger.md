@@ -1,0 +1,13 @@
+- memory: fa''āl pattern (neffāthāt) marks habitual or professional action
+- memory: form II doubling in ʿaqqadtum intensifies the act, parallel to the doubled middle radical of neffāthāt
+- memory: n-f-th occurs nowhere else in the Quran
+- memory: Turkish akit, akide, ukde derive from ع ق د; Turkish ukde means an unresolved wish or grievance
+- not written: ش ر ر B002 spreading things in the sun to dry - no link to breath or knot
+- not written: ش ر ر B004/B005/B006 cutting, dripping roast, dangling tails - nothing in this ayah's scene
+- not written: ش ر ر B007 throwing one's whole self into something - tempting for the intensive craft, but forced
+- not written: ش ر ر B008 make visible - belongs to the surah's inside-out scene; already carried by the wound-blood sense here
+- not written: ش ر ر B009/B010/B011/B012 gnats, youthful vigour, quarrel, a plant - no thematic work here
+- not written: ع ق د B004 property held (ʿuqda) - a weak link to the envier's target, too speculative
+- not written: ع ق د B005 dense thicket, B011 sturdy build, B014 finger counting - no work in this ayah
+- not written: ع ق د B008 heaped sand - same as cloud heaping; cloud sense used for the rain scene
+- not written: echo root ش ر ي (incl. 2:102's ishtarāhu/sharaw) - echo, not identity; withheld
