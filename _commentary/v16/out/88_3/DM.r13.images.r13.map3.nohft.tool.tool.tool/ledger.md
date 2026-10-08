@@ -1,0 +1,12 @@
+- memory: hamm nāṣib (a wearying care) as attested Arabic usage
+- memory: active participle without a verb carries no fixed tense
+- memory: Turkish "amele" derives from Arabic ʿamala (labourers)
+- not written: ن ص ب B001 snare-setting (nasabtu lil-qaṭāt) - hunting scene belongs to the surah commentary's fire section, no fresh theme here
+- not written: ن ص ب B001 trivet for the pot - cooking scene is the surah commentary's; would only repeat it
+- not written: ن ص ب B006 niṣāb (base, knife hilt, zakat threshold) - no tie to fatigue or work here
+- not written: ن ص ب B007 grammatical naṣb - technical, no theme
+- not written: ن ص ب B008 nāṣaba al-ḥarb (hostility) - different verb form; link to 88:23 too thin
+- not written: ع م ل B002/B003 employing, officials, alms collectors - no support in the ayah's scene
+- not written: ع م ل B005 muʿāmala (transaction) - wage theme already carried by B004
+- not written: 14:18 works like ashes in the wind - repeats 25:23's image
+- not written: 39:39 "innī ʿāmil" - adds nothing beyond 3:195
