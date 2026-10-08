@@ -1,0 +1,10 @@
+- memory: يَصْلَى (form I, undergo fire) and صَلَّى (form II, pray) are distinct verbs
+- memory: elative with article (الأشقى/الأتقى) names a type, not a ranked single person
+- memory: تَضْحَى (20:119) means to suffer the sun's heat
+- memory: pronoun in يتجنبها (87:11) refers to the reminder of 87:9
+- memory: Turkish şaki/eşkıya/şekavet now mean bandit/banditry
+- not written: ص ل ي B006 (back/tail region), B007 (second horse in a race) - no tie to the ayah's theme
+- not written: ص ل ي B009 (pounding stone), B010 (camel-fodder plant) - no tie to any theme
+- not written: ص ل ي B001/B002/B008 (prayer, blessing, place of worship) - only a sound echo via 87:15
+- not written: ش ق و B003 (overcoming in a contest, fixed phrase) - single attestation, no ground in the surah
+- not written: ش ق و B004 (long ridge easy to climb) - single source; irony with ascent too thin to found a theme
