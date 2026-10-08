@@ -1,0 +1,13 @@
+- memory: fronted predicate in a nominal sentence draws emphasis onto it
+- memory: ghāsiq in 113:3 means the darkening night
+- memory: muşriqīn (15:73) means "at sunrise"
+- not written: ط ل ع B006 هول المطلع (terror of the vantage) - no work in a peaceful boundary beyond the raid theme
+- not written: ط ل ع B007 filling the earth / all the sun rises upon - adds nothing to this ayah's themes
+- not written: ط ل ع B008 eager longing, woman who shows and hides - no support in the ayah or Quran for a waiting-for-dawn theme
+- not written: ط ل ع B003 looking into inner matters - hidden/revealed scene belongs to the surah; touched only via the root sense
+- not written: ط ل ع B010-B012 arrow overshooting, vomiting, tall palm - no bearing on the ayah
+- not written: ف ج ر B004 fujūr - opposite of the dawn sense; no role in the ayah's peace
+- not written: س ل م B005, B006 (ladder), B008, B010, B011, B013 - no theme here; ladder's ascent is the surah's vertical line
+- not written: 2:74 stones from which rivers burst beside silām stones - analogy across different words, context about hard hearts
+- not written: 18:17 sun rising away from the sleepers' cave - analogy only, no shared theme strong enough
+- not written: 44:3 blessed night framed by warning - surah-level contrast, not this ayah's words
