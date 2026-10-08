@@ -1,0 +1,12 @@
+- memory: vocative structure yā + ayyu + hā filled by a definite noun
+- memory: active participle kāfirūn names a standing trait, unlike the verb kafarū
+- memory: vowelling lā tukfir aḥadan (form IV) in the B006 example
+- memory: yā ayyuha l-kāfirūn as a vocative occurs only here (not claimed in prose)
+- not written: ق و ل B003, B007, B008, B011, B013-B017 - no work in this ayah's themes
+- not written: ك ف ر B002 sea and great river, B010 fruit sheath - covering mechanism already carried by seed, night, stars
+- not written: ك ف ر B012 remote land/village/grave, B013 mountain pass/low wall - no link to the address
+- not written: ك ف ر B001 tekaffara fī s-silāḥ (armour) - would only repeat 16:81 scene
+- not written: ك ف ر B011 kāfūr beside kafūr and kāfirīn in 76:3-5 - scent's link to covering unattested
+- not written: 14:18 ash blown by wind vs ramād makfūr - opposite images, connection too thin
+- not written: echo root ق ل ل - not identity
+- not written: 68:9 tudhin compromise - belongs to the surah's bargaining scene
