@@ -1,0 +1,14 @@
+- memory: emmâ … fe construction fronts the topic and requires fa in the answer
+- memory: lâ + jussive (sukūn) as prohibition form
+- memory: Turkish "sual", old "sâil" (beggar), "mesele" < mes'ele narrowing
+- memory: zajr rendered "turn back, restrain" beyond Turkish label
+- not written: ن ه ر B005 bird chick - no bearing on the theme
+- not written: ن ه ر B006 stealthy snatching - no support tying it to the asker
+- not written: ن ه ر B007 proper names (poet, place, two stars) - nothing to found a theme
+- not written: ن ه ر B003 أنهر بطنه (bowels loosened) - adds nothing beyond outflow image
+- not written: munhara as refuse-dumping ground (Turkish label) - not in the Arabic phrase given
+- not written: س ء ل B004 mutual asking - no work in this ayah
+- not written: echo root س ل ل (drawing out, easy-flowing water) - echo root, not identity
+- not written: sāʾil in 70:1 (asker of punishment) - would stretch the ayah beyond its context
+- not written: 41:10 sawāʾan lil-sāʾilīn - reading too open to found a claim
+- not written: 4:32 command to ask God of His bounty - redundant with 55:29 and 2:186

@@ -1,0 +1,2817 @@
+{
+ "record": "E0 check.py verification record (for the user and the scorecard; never a model input)",
+ "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/93_10/DM.r13.images.r13.map3.nohft.tool.tool.tool/93_10.reading.tr.md",
+ "file_sha256": "a7d099722ac65fd6a4e532497ed69bf96946c4a71bce9104345f60a560527ffe",
+ "ref": "93:10",
+ "tool_sha256": {
+  "check.py": "cd23d66564a04b309582ae691120354b7db635fd55eadbe99c34c72a73c6cae0",
+  "common.py": "57bea63ae0fa0fee7ec9cd9d07adc38af2926821690fbf9082796f5474d1a7c6"
+ },
+ "index_signature": {
+  "version": 5,
+  "quran": [
+   1396724,
+   1790991422.4
+  ],
+  "tr_entries": [
+   1704,
+   198596704,
+   1790991411.5
+  ],
+  "root_packets": [
+   1679,
+   707294008,
+   1790995197.3
+  ],
+  "majaz": [
+   9216000,
+   1790992389.4
+  ],
+  "majaz_index": [
+   1169381,
+   1790986397.2
+  ],
+  "qiraat": [
+   833825,
+   1790998112.2
+  ],
+  "activation_map": [
+   2789461,
+   1790994866.9
+  ],
+  "furuq": [
+   19782184,
+   1790991539.2
+  ]
+ },
+ "summary": {
+  "words": 3271,
+  "tags": 68,
+  "tags_checkable": 68,
+  "tags_sourced": 68,
+  "share_sourced": 1.0,
+  "by_source": {
+   "quran": 46,
+   "dictionary": 22
+  },
+  "levels": {
+   "exact": 68
+  },
+  "dictionary_early_phrase": 22,
+  "dictionary_definition_only": 0,
+  "arabic_outside_tags": 2,
+  "arabic_outside_tags_quotations": 0,
+  "arabic_outside_tags_quotations_sourced": 0,
+  "arabic_outside_tags_root_names": 2,
+  "arabic_outside_tags_by_context": {
+   "bare": 2
+  },
+  "bellek_marks": 0,
+  "bellek_status": {},
+  "unsourced_unmarked": 0,
+  "cited_branches": 8,
+  "cited_bound_branches": 2,
+  "bound_citations_with_echo_marker": 0,
+  "bound_citations_without_echo_marker": 2,
+  "bound_citations_extended_marker_only": 0,
+  "negation": {
+   "neg_e2_count": 8,
+   "neg_e2_per_1000": 2.45,
+   "breakdown": {
+    "değil": 8,
+    "değil,": 6
+   },
+   "not_only_frames": 1
+  },
+  "process_words": 0,
+  "sources_declared": 73,
+  "sources_by_kind": {
+   "branch": 24,
+   "quran": 49
+  },
+  "sources_status": {
+   "ok": 68,
+   "ok (no quote)": 5
+  }
+ },
+ "quotations": [
+  {
+   "n": 1,
+   "line": 3,
+   "quote": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "93:10"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "س ي ل mufradat",
+     "ن ه ر mufradat"
+    ]
+   },
+   "sentence_index": 1,
+   "bellek_marked": false
+  },
+  {
+   "n": 2,
+   "line": 5,
+   "quote": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "93:9"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "ق ه ر mufradat"
+    ]
+   },
+   "sentence_index": 10,
+   "bellek_marked": false
+  },
+  {
+   "n": 3,
+   "line": 7,
+   "quote": "عَآئِلًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "93:8"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "dictionary": [
+     "غ ن ي B001 (root_001110/B001) lexical_source_phrase [mufradat]"
+    ],
+    "early_entry": [
+     "ع ي ل mufradat",
+     "غ ن ي mufradat",
+     "ق ر ع tahdhib"
+    ],
+    "majaz": [
+     "raw:7305"
+    ]
+   },
+   "sentence_index": 19,
+   "bellek_marked": false
+  },
+  {
+   "n": 4,
+   "line": 7,
+   "quote": "الفقير يسمى سائلا",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000661/B001",
+      "root": "س ء ل",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000661/B001",
+      "root": "س ء ل",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ء ل ayn",
+     "س و ل tahdhib"
+    ]
+   },
+   "sentence_index": 23,
+   "bellek_marked": false
+  },
+  {
+   "n": 5,
+   "line": 9,
+   "quote": "سألته الشيء وسألته عن الشيء سؤالا ومسألة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000661/B001",
+      "root": "س ء ل",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000661/B001",
+      "root": "س ء ل",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ء ل sihah"
+    ]
+   },
+   "sentence_index": 27,
+   "bellek_marked": false
+  },
+  {
+   "n": 6,
+   "line": 9,
+   "quote": "وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "93:7"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "ض غ ن mufradat"
+    ]
+   },
+   "sentence_index": 32,
+   "bellek_marked": false
+  },
+  {
+   "n": 7,
+   "line": 9,
+   "quote": "فَسْـَٔلُوٓا۟ أَهْلَ ٱلذِّكْرِ إِن كُنتُمْ لَا تَعْلَمُونَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "16:43",
+     "21:7"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 34,
+   "bellek_marked": false
+  },
+  {
+   "n": 8,
+   "line": 15,
+   "quote": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "93:5"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 43,
+   "bellek_marked": false
+  },
+  {
+   "n": 9,
+   "line": 17,
+   "quote": "يَسْـَٔلُهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِى شَأْنٍۢ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "55:29"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 49,
+   "bellek_marked": false
+  },
+  {
+   "n": 10,
+   "line": 19,
+   "quote": "السؤل ما يسأله الإنسان",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000661/B002",
+      "root": "س ء ل",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000661/B002",
+      "root": "س ء ل",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ء ل sihah"
+    ]
+   },
+   "sentence_index": 54,
+   "bellek_marked": false
+  },
+  {
+   "n": 11,
+   "line": 19,
+   "quote": "أسألته سؤلته ومسألته أي قضيت حاجته",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000661/B003",
+      "root": "س ء ل",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000661/B003",
+      "root": "س ء ل",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ء ل sihah"
+    ]
+   },
+   "sentence_index": 55,
+   "bellek_marked": false
+  },
+  {
+   "n": 12,
+   "line": 19,
+   "quote": "قَالَ رَبِّ ٱشْرَحْ لِى صَدْرِى",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "20:25"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 59,
+   "bellek_marked": false
+  },
+  {
+   "n": 13,
+   "line": 19,
+   "quote": "قَالَ قَدْ أُوتِيتَ سُؤْلَكَ يَٰمُوسَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "20:36"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 60,
+   "bellek_marked": false
+  },
+  {
+   "n": 14,
+   "line": 19,
+   "quote": "وَلَقَدْ مَنَنَّا عَلَيْكَ مَرَّةً أُخْرَىٰٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "20:37"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 61,
+   "bellek_marked": false
+  },
+  {
+   "n": 15,
+   "line": 21,
+   "quote": "يَسْـَٔلُونَكَ عَنِ ٱلْأَهِلَّةِ ۖ قُلْ هِىَ مَوَٰقِيتُ لِلنَّاسِ وَٱلْحَجِّ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:189"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 65,
+   "bellek_marked": false
+  },
+  {
+   "n": 16,
+   "line": 21,
+   "quote": "وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:186"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ج و ب mufradat"
+    ]
+   },
+   "sentence_index": 67,
+   "bellek_marked": false
+  },
+  {
+   "n": 17,
+   "line": 21,
+   "quote": "وَلَمْ أَكُنۢ بِدُعَآئِكَ رَبِّ شَقِيًّۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "19:4"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 69,
+   "bellek_marked": false
+  },
+  {
+   "n": 18,
+   "line": 23,
+   "quote": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "93:3"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "ق ل ي mufradat"
+    ]
+   },
+   "sentence_index": 71,
+   "bellek_marked": false
+  },
+  {
+   "n": 19,
+   "line": 27,
+   "quote": "نهرت الرجل نهرا وانتهرته انتهارا زجرته بكلام عن شر",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B004",
+      "root": "ن ه ر",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر ayn"
+    ]
+   },
+   "sentence_index": 78,
+   "bellek_marked": false
+  },
+  {
+   "n": 20,
+   "line": 27,
+   "quote": "النهر والانتهار الزجر بمغالظة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B004",
+      "root": "ن ه ر",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B004",
+      "root": "ن ه ر",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر mufradat"
+    ]
+   },
+   "sentence_index": 79,
+   "bellek_marked": false
+  },
+  {
+   "n": 21,
+   "line": 27,
+   "quote": "نهرته وانتهرته إذا استقبلته بكلام تزجره",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B004",
+      "root": "ن ه ر",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B004",
+      "root": "ن ه ر",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر tahdhib"
+    ]
+   },
+   "sentence_index": 80,
+   "bellek_marked": false
+  },
+  {
+   "n": 22,
+   "line": 29,
+   "quote": "النهر مجرى الماء الفائض",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B001",
+      "root": "ن ه ر",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B001",
+      "root": "ن ه ر",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر mufradat"
+    ]
+   },
+   "sentence_index": 90,
+   "bellek_marked": false
+  },
+  {
+   "n": 23,
+   "line": 29,
+   "quote": "سمي النهر لأنه ينهر الأرض أي يشقها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B001",
+      "root": "ن ه ر",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B001",
+      "root": "ن ه ر",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر maqayis"
+    ]
+   },
+   "sentence_index": 91,
+   "bellek_marked": false
+  },
+  {
+   "n": 24,
+   "line": 29,
+   "quote": "استنهر النهر أخذ مجراه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B001",
+      "root": "ن ه ر",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn",
+       "tahdhib",
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B001",
+      "root": "ن ه ر",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر maqayis"
+    ]
+   },
+   "sentence_index": 93,
+   "bellek_marked": false
+  },
+  {
+   "n": 25,
+   "line": 29,
+   "quote": "أنهرت الدم فتحته وأرسلته",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B003",
+      "root": "ن ه ر",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B003",
+      "root": "ن ه ر",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر maqayis"
+    ]
+   },
+   "sentence_index": 95,
+   "bellek_marked": false
+  },
+  {
+   "n": 26,
+   "line": 29,
+   "quote": "أنهرت الطعنة وسعتها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B003",
+      "root": "ن ه ر",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B003",
+      "root": "ن ه ر",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر sihah"
+    ]
+   },
+   "sentence_index": 95,
+   "bellek_marked": false
+  },
+  {
+   "n": 27,
+   "line": 29,
+   "quote": "أصل صحيح يدل على تفتح شيء أو فتحه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B003",
+      "root": "ن ه ر",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر maqayis"
+    ]
+   },
+   "sentence_index": 96,
+   "bellek_marked": false
+  },
+  {
+   "n": 28,
+   "line": 33,
+   "quote": "إِمَّا يَبْلُغَنَّ عِندَكَ ٱلْكِبَرَ أَحَدُهُمَآ أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَآ أُفٍّۢ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًۭا كَرِيمًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "17:23"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 106,
+   "bellek_marked": false
+  },
+  {
+   "n": 29,
+   "line": 33,
+   "quote": "وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "17:24"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 110,
+   "bellek_marked": false
+  },
+  {
+   "n": 30,
+   "line": 35,
+   "quote": "وَءَاتِ ذَا ٱلْقُرْبَىٰ حَقَّهُۥ وَٱلْمِسْكِينَ وَٱبْنَ ٱلسَّبِيلِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "17:26"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 113,
+   "bellek_marked": false
+  },
+  {
+   "n": 31,
+   "line": 35,
+   "quote": "وَإِمَّا تُعْرِضَنَّ عَنْهُمُ ٱبْتِغَآءَ رَحْمَةٍۢ مِّن رَّبِّكَ تَرْجُوهَا فَقُل لَّهُمْ قَوْلًۭا مَّيْسُورًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "17:28"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 114,
+   "bellek_marked": false
+  },
+  {
+   "n": 32,
+   "line": 35,
+   "quote": "قَوْلٌۭ مَّعْرُوفٌۭ وَمَغْفِرَةٌ خَيْرٌۭ مِّن صَدَقَةٍۢ يَتْبَعُهَآ أَذًۭى",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:263"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 119,
+   "bellek_marked": false
+  },
+  {
+   "n": 33,
+   "line": 37,
+   "quote": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "93:11"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 123,
+   "bellek_marked": false
+  },
+  {
+   "n": 34,
+   "line": 41,
+   "quote": "النهار ضياء ما بين طلوع الفجر إلى غروب الشمس",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B002",
+      "root": "ن ه ر",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn",
+       "tahdhib",
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B002",
+      "root": "ن ه ر",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn",
+       "tahdhib",
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر ayn",
+     "ن ه ر tahdhib"
+    ]
+   },
+   "sentence_index": 128,
+   "bellek_marked": false
+  },
+  {
+   "n": 35,
+   "line": 41,
+   "quote": "الوقت الذي ينتشر فيه الضوء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B002",
+      "root": "ن ه ر",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B002",
+      "root": "ن ه ر",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر mufradat"
+    ]
+   },
+   "sentence_index": 129,
+   "bellek_marked": false
+  },
+  {
+   "n": 36,
+   "line": 41,
+   "quote": "النهر السعة تشبيها بنهر الماء وفي ضياء وسعة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B003",
+      "root": "ن ه ر",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat",
+       "sihah",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 131,
+   "bellek_marked": false
+  },
+  {
+   "n": 37,
+   "line": 41,
+   "quote": "استنهر الشيء اتسع",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B003",
+      "root": "ن ه ر",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B003",
+      "root": "ن ه ر",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر sihah"
+    ]
+   },
+   "sentence_index": 132,
+   "bellek_marked": false
+  },
+  {
+   "n": 38,
+   "line": 41,
+   "quote": "المنهرة فضاء يكون بين أفنية القوم",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B003",
+      "root": "ن ه ر",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "sihah",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B003",
+      "root": "ن ه ر",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر sihah"
+    ]
+   },
+   "sentence_index": 133,
+   "bellek_marked": false
+  },
+  {
+   "n": 39,
+   "line": 43,
+   "quote": "رجل نهر صاحب نهار",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B002",
+      "root": "ن ه ر",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn",
+       "sihah",
+       "tahdhib",
+       "maqayis",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B002",
+      "root": "ن ه ر",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn",
+       "tahdhib",
+       "maqayis",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B002",
+      "root": "ن ه ر",
+      "branch": "B002",
+      "field": "what_is_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 3
+   },
+   "also": {
+    "early_entry": [
+     "ن ه ر ayn",
+     "ن ه ر maqayis",
+     "ن ه ر mufradat",
+     "ن ه ر tahdhib"
+    ]
+   },
+   "sentence_index": 140,
+   "bellek_marked": false
+  },
+  {
+   "n": 40,
+   "line": 45,
+   "quote": "نهر الماء أو أنهر الماء جرى",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B001",
+      "root": "ن ه ر",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah",
+       "tahdhib",
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 143,
+   "bellek_marked": false
+  },
+  {
+   "n": 41,
+   "line": 45,
+   "quote": "حفرت البئر حتى نهرت أي بلغت الماء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B001",
+      "root": "ن ه ر",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 144,
+   "bellek_marked": false
+  },
+  {
+   "n": 42,
+   "line": 45,
+   "quote": "الناهُور السحاب",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001559/B008",
+      "root": "ن ه ر",
+      "branch": "B008",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001559/B008",
+      "root": "ن ه ر",
+      "branch": "B008",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ه ر tahdhib",
+     "ن ه ر tahdhib"
+    ]
+   },
+   "sentence_index": 145,
+   "bellek_marked": false
+  },
+  {
+   "n": 43,
+   "line": 47,
+   "quote": "وَسَخَّرَ لَكُمُ ٱلْأَنْهَٰرَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "14:32"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 150,
+   "bellek_marked": false
+  },
+  {
+   "n": 44,
+   "line": 47,
+   "quote": "وَسَخَّرَ لَكُمُ ٱلَّيْلَ وَٱلنَّهَارَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "14:33",
+     "16:12"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 151,
+   "bellek_marked": false
+  },
+  {
+   "n": 45,
+   "line": 47,
+   "quote": "وَءَاتَىٰكُم مِّن كُلِّ مَا سَأَلْتُمُوهُ ۚ وَإِن تَعُدُّوا۟ نِعْمَتَ ٱللَّهِ لَا تُحْصُوهَآ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "14:34"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 152,
+   "bellek_marked": false
+  },
+  {
+   "n": 46,
+   "line": 47,
+   "quote": "إِنَّ ٱلْإِنسَٰنَ لَظَلُومٌۭ كَفَّارٌۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "14:34"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ك ف ر mufradat"
+    ]
+   },
+   "sentence_index": 154,
+   "bellek_marked": false
+  },
+  {
+   "n": 47,
+   "line": 51,
+   "quote": "وَمَا نَرَىٰكَ ٱتَّبَعَكَ إِلَّا ٱلَّذِينَ هُمْ أَرَاذِلُنَا بَادِىَ ٱلرَّأْىِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "11:27"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ب د و tahdhib"
+    ]
+   },
+   "sentence_index": 158,
+   "bellek_marked": false
+  },
+  {
+   "n": 48,
+   "line": 51,
+   "quote": "وَمَآ أَنَا۠ بِطَارِدِ ٱلَّذِينَ ءَامَنُوٓا۟ ۚ إِنَّهُم مُّلَٰقُوا۟ رَبِّهِمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "11:29"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 159,
+   "bellek_marked": false
+  },
+  {
+   "n": 49,
+   "line": 51,
+   "quote": "وَمَآ أَنَا۠ بِطَارِدِ ٱلْمُؤْمِنِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "26:114"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ش ح ن tahdhib",
+     "ط ر د mufradat"
+    ]
+   },
+   "sentence_index": 161,
+   "bellek_marked": false
+  },
+  {
+   "n": 50,
+   "line": 51,
+   "quote": "وَلَا تَطْرُدِ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "6:52"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 162,
+   "bellek_marked": false
+  },
+  {
+   "n": 51,
+   "line": 51,
+   "quote": "وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ تُرِيدُ زِينَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "18:28"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 163,
+   "bellek_marked": false
+  },
+  {
+   "n": 52,
+   "line": 53,
+   "quote": "عَبَسَ وَتَوَلَّىٰٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "80:1"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ع ب س ayn",
+     "ع ب س mufradat"
+    ]
+   },
+   "sentence_index": 166,
+   "bellek_marked": false
+  },
+  {
+   "n": 53,
+   "line": 53,
+   "quote": "أَن جَآءَهُ ٱلْأَعْمَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "80:2"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ع ب س ayn",
+     "ع م ي mufradat"
+    ]
+   },
+   "sentence_index": 166,
+   "bellek_marked": false
+  },
+  {
+   "n": 54,
+   "line": 53,
+   "quote": "أَمَّا مَنِ ٱسْتَغْنَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "80:5"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ص د د tahdhib",
+     "ص د ي mufradat"
+    ]
+   },
+   "sentence_index": 167,
+   "bellek_marked": false
+  },
+  {
+   "n": 55,
+   "line": 53,
+   "quote": "فَأَنتَ لَهُۥ تَصَدَّىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "80:6"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ص د د tahdhib",
+     "ص د ي mufradat"
+    ]
+   },
+   "sentence_index": 167,
+   "bellek_marked": false
+  },
+  {
+   "n": 56,
+   "line": 53,
+   "quote": "وَأَمَّا مَن جَآءَكَ يَسْعَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "80:8"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 167,
+   "bellek_marked": false
+  },
+  {
+   "n": 57,
+   "line": 53,
+   "quote": "وَهُوَ يَخْشَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "80:9"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 167,
+   "bellek_marked": false
+  },
+  {
+   "n": 58,
+   "line": 53,
+   "quote": "فَأَنتَ عَنْهُ تَلَهَّىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "80:10"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 167,
+   "bellek_marked": false
+  },
+  {
+   "n": 59,
+   "line": 55,
+   "quote": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "107:2"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "د ع ع ayn",
+     "د ع ع mufradat",
+     "د ع ع sihah",
+     "د ع ع tahdhib"
+    ],
+    "majaz": [
+     "raw:7404"
+    ]
+   },
+   "sentence_index": 173,
+   "bellek_marked": false
+  },
+  {
+   "n": 60,
+   "line": 55,
+   "quote": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "69:34",
+     "107:3"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ح ض ض mufradat",
+     "ط ع م mufradat"
+    ]
+   },
+   "sentence_index": 173,
+   "bellek_marked": false
+  },
+  {
+   "n": 61,
+   "line": 57,
+   "quote": "وَفِىٓ أَمْوَٰلِهِمْ حَقٌّۭ لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "51:19"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 176,
+   "bellek_marked": false
+  },
+  {
+   "n": 62,
+   "line": 57,
+   "quote": "وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "70:24"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 177,
+   "bellek_marked": false
+  },
+  {
+   "n": 63,
+   "line": 57,
+   "quote": "يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:273"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ج ه ل mufradat",
+     "ج ه ل tahdhib",
+     "غ ن ي mufradat"
+    ]
+   },
+   "sentence_index": 180,
+   "bellek_marked": false
+  },
+  {
+   "n": 64,
+   "line": 57,
+   "quote": "لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:273"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 180,
+   "bellek_marked": false
+  },
+  {
+   "n": 65,
+   "line": 59,
+   "quote": "لَا تَسْـَٔلُوا۟ عَنْ أَشْيَآءَ إِن تُبْدَ لَكُمْ تَسُؤْكُمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "5:101"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 185,
+   "bellek_marked": false
+  },
+  {
+   "n": 66,
+   "line": 59,
+   "quote": "عَفَا ٱللَّهُ عَنْهَا ۗ وَٱللَّهُ غَفُورٌ حَلِيمٌۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "5:101"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 186,
+   "bellek_marked": false
+  },
+  {
+   "n": 67,
+   "line": 59,
+   "quote": "فَلَا تَسْـَٔلْنِى عَن شَىْءٍ حَتَّىٰٓ أُحْدِثَ لَكَ مِنْهُ ذِكْرًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "18:70"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 189,
+   "bellek_marked": false
+  },
+  {
+   "n": 68,
+   "line": 59,
+   "quote": "سَأُنَبِّئُكَ بِتَأْوِيلِ مَا لَمْ تَسْتَطِع عَّلَيْهِ صَبْرًا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "18:78"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 190,
+   "bellek_marked": false
+  }
+ ],
+ "arabic_outside_tags": [
+  {
+   "line": 7,
+   "text": "ع ي ل",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ع ي ل",
+    "root_id": "root_001068",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 21,
+   "bellek_marked": false
+  },
+  {
+   "line": 7,
+   "text": "س ء ل",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "س ء ل",
+    "root_id": "root_000661",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 21,
+   "bellek_marked": false
+  }
+ ],
+ "bellek": [],
+ "unsourced_unmarked": [],
+ "cited_branches": [
+  {
+   "branch_ref": "root_000661/B001",
+   "root": "س ء ل",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın eylem çekirdeğini korurken, doğrudan bir şeyi isteme ile bir konu veya kişi hakkında bilgi sorma kalıplarını ayrı uygulamalar olarak gösterir.",
+   "image_ar": "السؤال والطلب",
+   "quote": "الفقير يسمى سائلا",
+   "line": 7,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Araplar fakire \"isteyen\" adını verirdi, {ar:الفقير يسمى سائلا, tr:el-fakîru yusemmâ sâilâ, gloss:fakire sâil, yani isteyen denir, source:\"س ء ل,B001\"}."
+  },
+  {
+   "branch_ref": "root_000661/B001",
+   "root": "س ء ل",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın eylem çekirdeğini korurken, doğrudan bir şeyi isteme ile bir konu veya kişi hakkında bilgi sorma kalıplarını ayrı uygulamalar olarak gösterir.",
+   "image_ar": "السؤال والطلب",
+   "quote": "سألته الشيء وسألته عن الشيء سؤالا ومسألة",
+   "line": 9,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Konuşurken ikisi aynı cümlede yan yana söylenirdi: {ar:سألته الشيء وسألته عن الشيء سؤالا ومسألة, tr:seeltuhu'ş-şey'e ve seeltuhû ani'ş-şey'i suâlen ve mes'eleh, gloss:ondan bir şeyi istedim ve ona bir şeyi sordum, source:\"س ء ل,B001\"}."
+  },
+  {
+   "branch_ref": "root_000661/B002",
+   "root": "س ء ل",
+   "branch": "B002",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, herhangi bir özel kalıba bağlı olmadan, kişi tarafından istenen şeyi yalın dal anlamı olarak verir.",
+   "image_ar": "السُّؤل المطلوب",
+   "quote": "السؤل ما يسأله الإنسان",
+   "line": 19,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "İnsanın istediği şeye {ar:السؤل ما يسأله الإنسان, tr:es-su'lu mâ yes'eluhu'l-insân, gloss:su'l insanın istediği şeydir, source:\"س ء ل,B002\"} denir."
+  },
+  {
+   "branch_ref": "root_000661/B003",
+   "root": "س ء ل",
+   "branch": "B003",
+   "branch_kind": "non_bare",
+   "bound": true,
+   "root_in": "focus",
+   "scope_note": "Tanım kökün genel anlamına yayılmaz; yalnızca tanıklanan türemiş ifadede bir başkasının isteğini veya gereksinimini karşılama anlamını verir.",
+   "image_ar": "قضاء المسألة",
+   "quote": "أسألته سؤلته ومسألته أي قضيت حاجته",
+   "line": 19,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Birinin isteğini yerine getirmek de aynı kökle söylenir: {ar:أسألته سؤلته ومسألته أي قضيت حاجته, tr:es'eltuhû su'lehû ve mes'eletehû ey kadaytu hâcetah, gloss:onun isteğini verdim, yani ihtiyacını giderdim, source:\"س ء ل,B003\"}."
+  },
+  {
+   "branch_ref": "root_001559/B004",
+   "root": "ن ه ر",
+   "branch": "B004",
+   "branch_kind": "collocation",
+   "bound": true,
+   "root_in": "focus",
+   "scope_note": "Anlam yalnız kişiye yöneltilen sert sözlü azarlama yapısında tanıklanır ve yalın bir kök anlamı olarak genellenmez.",
+   "image_ar": "زجر بكلام مغلظ",
+   "quote": "نهرت الرجل نهرا وانتهرته انتهارا زجرته بكلام عن شر",
+   "line": 27,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Araplar bir adamı kötü bir şeyden sözle alıkoymayı bu fiille anlatırdı: {ar:نهرت الرجل نهرا وانتهرته انتهارا زجرته بكلام عن شر, tr:nehartu'r-racule nehran ve'ntehartuhu'ntihâran zecartuhû bi-kelâmin an şerr, gloss:adamı sözle kötü bir şeyden alıkoydum, source:\"ن ه ر,B004\"}."
+  },
+  {
+   "branch_ref": "root_001559/B001",
+   "root": "ن ه ر",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın su yatağı anlamını korur; suyun akması, yatağın yerleşmesi ve kazıda suya ulaşılması yalnız kendi yapılarına bağlı tutulur.",
+   "image_ar": "نهر يشق الأرض بماء جار",
+   "quote": "النهر مجرى الماء الفائض",
+   "line": 29,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Aynı kökten nehir gelir, ve nehir burada bir su yatağıdır: {ar:النهر مجرى الماء الفائض, tr:en-nehru meceri'l-mâi'l-fâid, gloss:nehir, taşan suyun aktığı yataktır, source:\"ن ه ر,B001\"}."
+  },
+  {
+   "branch_ref": "root_001559/B003",
+   "root": "ن ه ر",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Genel açılma ve genişleme çekirdeği korunur; kan, yara, açık alan ve bağırsak kullanımları kendi biçim ve yapılarına bağlanır.",
+   "image_ar": "فتح الشيء وتوسيعه حتى يسيل أو ينفسح",
+   "quote": "أنهرت الدم فتحته وأرسلته",
+   "line": 29,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kan akıtmak için {ar:أنهرت الدم فتحته وأرسلته, tr:enhertu'd-deme fetahtuhû ve erseltuh, gloss:kanı açıp salıverdim, source:\"ن ه ر,B003\"} denir; bir yarayı büyütmek için {ar:أنهرت الطعنة وسعتها, tr:enhertu't-ta'nete vessa'tuhâ, gloss:yarayı genişlettim, source:\"ن ه ر,B003\"}."
+  },
+  {
+   "branch_ref": "root_001559/B002",
+   "root": "ن ه ر",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın aydınlık zaman anlamı tanımın çekirdeğidir; kişi nitelemesi ve aydınlığa girme yalnız tanıklanan yapılara bağlı tutulur.",
+   "image_ar": "انفتاح النهار بالضياء",
+   "quote": "النهار ضياء ما بين طلوع الفجر إلى غروب الشمس",
+   "line": 41,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Gündüz bu köktendir: {ar:النهار ضياء ما بين طلوع الفجر إلى غروب الشمس, tr:en-nehâru diyâu mâ beyne tulûi'l-fecri ilâ gurûbi'ş-şems, gloss:gündüz, tan yerinin ağarmasından güneşin batışına kadarki aydınlıktır, source:\"ن ه ر,B002\"}."
+  },
+  {
+   "branch_ref": "root_001559/B003",
+   "root": "ن ه ر",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Genel açılma ve genişleme çekirdeği korunur; kan, yara, açık alan ve bağırsak kullanımları kendi biçim ve yapılarına bağlanır.",
+   "image_ar": "فتح الشيء وتوسيعه حتى يسيل أو ينفسح",
+   "quote": "النهر السعة تشبيها بنهر الماء وفي ضياء وسعة",
+   "line": 41,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Genişliğin kendisi de bu kökle söylenir ve bu kullanım nehre benzetilerek açıklanır: {ar:النهر السعة تشبيها بنهر الماء وفي ضياء وسعة, tr:en-neheru's-seatu teşbîhen bi-nehri'l-mâ' ve fî diyâin ve sea, gloss:nehar genişliktir, su nehrine benzetilerek; aydınlık ve genişlik içinde demektir, source:\"ن ه ر,B003\"}."
+  },
+  {
+   "branch_ref": "root_001559/B002",
+   "root": "ن ه ر",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın aydınlık zaman anlamı tanımın çekirdeğidir; kişi nitelemesi ve aydınlığa girme yalnız tanıklanan yapılara bağlı tutulur.",
+   "image_ar": "انفتاح النهار بالضياء",
+   "quote": "رجل نهر صاحب نهار",
+   "line": 43,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Gündüzü seçen yolcuya da bu kökten nahir denirdi, {ar:رجل نهر صاحب نهار, tr:raculun nahirun sâhibu nehâr, gloss:gündüz adamı, gündüzün yolcusu, source:\"ن ه ر,B002\"}; yedinci ayetin yol gösterme sahnesi bu gündüz yolcusunu kendi yanına alır."
+  },
+  {
+   "branch_ref": "root_001559/B001",
+   "root": "ن ه ر",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın su yatağı anlamını korur; suyun akması, yatağın yerleşmesi ve kazıda suya ulaşılması yalnız kendi yapılarına bağlı tutulur.",
+   "image_ar": "نهر يشق الأرض بماء جار",
+   "quote": "نهر الماء أو أنهر الماء جرى",
+   "line": 45,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Su akıp yatağını bulduğunda {ar:نهر الماء أو أنهر الماء جرى, tr:nehera'l-mâu ev enhera'l-mâu cerâ, gloss:su aktı, source:\"ن ه ر,B001\"} derlerdi."
+  },
+  {
+   "branch_ref": "root_001559/B008",
+   "root": "ن ه ر",
+   "branch": "B008",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın biçimin genel bulut anlamını verir; komşu dallardaki incelik, büyüklük, yağış veya zaman özelliklerini içeri almaz.",
+   "image_ar": "النَّاهُور سحاب",
+   "quote": "الناهُور السحاب",
+   "line": 45,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bulut da bir yerde bu kökün adını taşır, {ar:الناهُور السحاب, tr:en-nâhûru's-sehâb, gloss:nâhûr buluttur, source:\"ن ه ر,B008\"}."
+  }
+ ],
+ "sources": [],
+ "process_lines": [],
+ "sources_all": [
+  {
+   "line": 3,
+   "quote": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+   "declared": "93:10",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "93:10"
+   ]
+  },
+  {
+   "line": 5,
+   "quote": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+   "declared": "93:9",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "93:9"
+   ]
+  },
+  {
+   "line": 7,
+   "quote": "عَآئِلًۭا",
+   "declared": "93:8",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "93:8"
+   ]
+  },
+  {
+   "line": 7,
+   "quote": "الفقير يسمى سائلا",
+   "declared": "س ء ل,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000661/B001",
+   "gapped": false
+  },
+  {
+   "line": 9,
+   "quote": "سألته الشيء وسألته عن الشيء سؤالا ومسألة",
+   "declared": "س ء ل,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000661/B001",
+   "gapped": false
+  },
+  {
+   "line": 9,
+   "quote": "وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ",
+   "declared": "93:7",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "93:7"
+   ]
+  },
+  {
+   "line": 9,
+   "quote": "فَسْـَٔلُوٓا۟ أَهْلَ ٱلذِّكْرِ إِن كُنتُمْ لَا تَعْلَمُونَ",
+   "declared": "16:43",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "16:43"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+   "declared": "93:5",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "93:5"
+   ]
+  },
+  {
+   "line": 17,
+   "quote": "يَسْـَٔلُهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِى شَأْنٍۢ",
+   "declared": "55:29",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "55:29"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "السؤل ما يسأله الإنسان",
+   "declared": "س ء ل,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000661/B002",
+   "gapped": false
+  },
+  {
+   "line": 19,
+   "quote": "أسألته سؤلته ومسألته أي قضيت حاجته",
+   "declared": "س ء ل,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000661/B003",
+   "gapped": false
+  },
+  {
+   "line": 19,
+   "quote": "قَالَ رَبِّ ٱشْرَحْ لِى صَدْرِى",
+   "declared": "20:25",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "20:25"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "قَالَ قَدْ أُوتِيتَ سُؤْلَكَ يَٰمُوسَىٰ",
+   "declared": "20:36",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "20:36"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "وَلَقَدْ مَنَنَّا عَلَيْكَ مَرَّةً أُخْرَىٰٓ",
+   "declared": "20:37",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "20:37"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "يَسْـَٔلُونَكَ عَنِ ٱلْأَهِلَّةِ ۖ قُلْ هِىَ مَوَٰقِيتُ لِلنَّاسِ وَٱلْحَجِّ",
+   "declared": "2:189",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:189"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ",
+   "declared": "2:186",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:186"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "وَلَمْ أَكُنۢ بِدُعَآئِكَ رَبِّ شَقِيًّۭا",
+   "declared": "19:4",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "19:4"
+   ]
+  },
+  {
+   "line": 23,
+   "quote": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+   "declared": "93:3",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "93:3"
+   ]
+  },
+  {
+   "line": 27,
+   "quote": "نهرت الرجل نهرا وانتهرته انتهارا زجرته بكلام عن شر",
+   "declared": "ن ه ر,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B004",
+   "gapped": false
+  },
+  {
+   "line": 27,
+   "quote": "النهر والانتهار الزجر بمغالظة",
+   "declared": "ن ه ر,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B004",
+   "gapped": false
+  },
+  {
+   "line": 27,
+   "quote": "نهرته وانتهرته إذا استقبلته بكلام تزجره",
+   "declared": "ن ه ر,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B004",
+   "gapped": false
+  },
+  {
+   "line": 29,
+   "quote": "النهر مجرى الماء الفائض",
+   "declared": "ن ه ر,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B001",
+   "gapped": false
+  },
+  {
+   "line": 29,
+   "quote": "سمي النهر لأنه ينهر الأرض أي يشقها",
+   "declared": "ن ه ر,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B001",
+   "gapped": false
+  },
+  {
+   "line": 29,
+   "quote": "استنهر النهر أخذ مجراه",
+   "declared": "ن ه ر,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B001",
+   "gapped": false
+  },
+  {
+   "line": 29,
+   "quote": "أنهرت الدم فتحته وأرسلته",
+   "declared": "ن ه ر,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B003",
+   "gapped": false
+  },
+  {
+   "line": 29,
+   "quote": "أنهرت الطعنة وسعتها",
+   "declared": "ن ه ر,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B003",
+   "gapped": false
+  },
+  {
+   "line": 29,
+   "quote": "أصل صحيح يدل على تفتح شيء أو فتحه",
+   "declared": "ن ه ر,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B003",
+   "gapped": false
+  },
+  {
+   "line": 33,
+   "quote": "إِمَّا يَبْلُغَنَّ عِندَكَ ٱلْكِبَرَ أَحَدُهُمَآ أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَآ أُفٍّۢ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًۭا كَرِيمًۭا",
+   "declared": "17:23",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "17:23"
+   ]
+  },
+  {
+   "line": 33,
+   "quote": "وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًۭا",
+   "declared": "17:24",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "17:24"
+   ]
+  },
+  {
+   "line": 35,
+   "quote": "وَءَاتِ ذَا ٱلْقُرْبَىٰ حَقَّهُۥ وَٱلْمِسْكِينَ وَٱبْنَ ٱلسَّبِيلِ",
+   "declared": "17:26",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "17:26"
+   ]
+  },
+  {
+   "line": 35,
+   "quote": "وَإِمَّا تُعْرِضَنَّ عَنْهُمُ ٱبْتِغَآءَ رَحْمَةٍۢ مِّن رَّبِّكَ تَرْجُوهَا فَقُل لَّهُمْ قَوْلًۭا مَّيْسُورًۭا",
+   "declared": "17:28",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "17:28"
+   ]
+  },
+  {
+   "line": 35,
+   "quote": "قَوْلٌۭ مَّعْرُوفٌۭ وَمَغْفِرَةٌ خَيْرٌۭ مِّن صَدَقَةٍۢ يَتْبَعُهَآ أَذًۭى",
+   "declared": "2:263",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:263"
+   ]
+  },
+  {
+   "line": 37,
+   "quote": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+   "declared": "93:11",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "93:11"
+   ]
+  },
+  {
+   "line": 41,
+   "quote": "النهار ضياء ما بين طلوع الفجر إلى غروب الشمس",
+   "declared": "ن ه ر,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B002",
+   "gapped": false
+  },
+  {
+   "line": 41,
+   "quote": "الوقت الذي ينتشر فيه الضوء",
+   "declared": "ن ه ر,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B002",
+   "gapped": false
+  },
+  {
+   "line": 41,
+   "quote": "النهر السعة تشبيها بنهر الماء وفي ضياء وسعة",
+   "declared": "ن ه ر,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B003",
+   "gapped": false
+  },
+  {
+   "line": 41,
+   "quote": "استنهر الشيء اتسع",
+   "declared": "ن ه ر,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B003",
+   "gapped": false
+  },
+  {
+   "line": 41,
+   "quote": "المنهرة فضاء يكون بين أفنية القوم",
+   "declared": "ن ه ر,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B003",
+   "gapped": false
+  },
+  {
+   "line": 43,
+   "quote": "رجل نهر صاحب نهار",
+   "declared": "ن ه ر,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B002",
+   "gapped": false
+  },
+  {
+   "line": 45,
+   "quote": "نهر الماء أو أنهر الماء جرى",
+   "declared": "ن ه ر,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B001",
+   "gapped": false
+  },
+  {
+   "line": 45,
+   "quote": "حفرت البئر حتى نهرت أي بلغت الماء",
+   "declared": "ن ه ر,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B001",
+   "gapped": false
+  },
+  {
+   "line": 45,
+   "quote": "الناهُور السحاب",
+   "declared": "ن ه ر,B008",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001559/B008",
+   "gapped": false
+  },
+  {
+   "line": 47,
+   "quote": "وَسَخَّرَ لَكُمُ ٱلْأَنْهَٰرَ",
+   "declared": "14:32",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "14:32"
+   ]
+  },
+  {
+   "line": 47,
+   "quote": "وَسَخَّرَ لَكُمُ ٱلَّيْلَ وَٱلنَّهَارَ",
+   "declared": "14:33",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "14:33"
+   ]
+  },
+  {
+   "line": 47,
+   "quote": "وَءَاتَىٰكُم مِّن كُلِّ مَا سَأَلْتُمُوهُ ۚ وَإِن تَعُدُّوا۟ نِعْمَتَ ٱللَّهِ لَا تُحْصُوهَآ",
+   "declared": "14:34",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "14:34"
+   ]
+  },
+  {
+   "line": 47,
+   "quote": "إِنَّ ٱلْإِنسَٰنَ لَظَلُومٌۭ كَفَّارٌۭ",
+   "declared": "14:34",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "14:34"
+   ]
+  },
+  {
+   "line": 51,
+   "quote": "وَمَا نَرَىٰكَ ٱتَّبَعَكَ إِلَّا ٱلَّذِينَ هُمْ أَرَاذِلُنَا بَادِىَ ٱلرَّأْىِ",
+   "declared": "11:27",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "11:27"
+   ]
+  },
+  {
+   "line": 51,
+   "quote": "وَمَآ أَنَا۠ بِطَارِدِ ٱلَّذِينَ ءَامَنُوٓا۟ ۚ إِنَّهُم مُّلَٰقُوا۟ رَبِّهِمْ",
+   "declared": "11:29",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "11:29"
+   ]
+  },
+  {
+   "line": 51,
+   "quote": "وَمَآ أَنَا۠ بِطَارِدِ ٱلْمُؤْمِنِينَ",
+   "declared": "26:114",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "26:114"
+   ]
+  },
+  {
+   "line": 51,
+   "quote": "وَلَا تَطْرُدِ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ",
+   "declared": "6:52",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "6:52"
+   ]
+  },
+  {
+   "line": 51,
+   "quote": "وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ تُرِيدُ زِينَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا",
+   "declared": "18:28",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "18:28"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "عَبَسَ وَتَوَلَّىٰٓ",
+   "declared": "80:1",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "80:1"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "أَن جَآءَهُ ٱلْأَعْمَىٰ",
+   "declared": "80:2",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "80:2"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "أَمَّا مَنِ ٱسْتَغْنَىٰ",
+   "declared": "80:5",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "80:5"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "فَأَنتَ لَهُۥ تَصَدَّىٰ",
+   "declared": "80:6",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "80:6"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "وَأَمَّا مَن جَآءَكَ يَسْعَىٰ",
+   "declared": "80:8",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "80:8"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "وَهُوَ يَخْشَىٰ",
+   "declared": "80:9",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "80:9"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "فَأَنتَ عَنْهُ تَلَهَّىٰ",
+   "declared": "80:10",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "80:10"
+   ]
+  },
+  {
+   "line": 55,
+   "quote": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+   "declared": "107:2",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "107:2"
+   ]
+  },
+  {
+   "line": 55,
+   "quote": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+   "declared": "107:3",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "107:3"
+   ]
+  },
+  {
+   "line": 57,
+   "quote": "وَفِىٓ أَمْوَٰلِهِمْ حَقٌّۭ لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+   "declared": "51:19",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "51:19"
+   ]
+  },
+  {
+   "line": 57,
+   "quote": "وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ",
+   "declared": "70:24",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "70:24"
+   ]
+  },
+  {
+   "line": 57,
+   "quote": "يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ",
+   "declared": "2:273",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:273"
+   ]
+  },
+  {
+   "line": 57,
+   "quote": "لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًۭا",
+   "declared": "2:273",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:273"
+   ]
+  },
+  {
+   "line": 59,
+   "quote": "لَا تَسْـَٔلُوا۟ عَنْ أَشْيَآءَ إِن تُبْدَ لَكُمْ تَسُؤْكُمْ",
+   "declared": "5:101",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "5:101"
+   ]
+  },
+  {
+   "line": 59,
+   "quote": "عَفَا ٱللَّهُ عَنْهَا ۗ وَٱللَّهُ غَفُورٌ حَلِيمٌۭ",
+   "declared": "5:101",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "5:101"
+   ]
+  },
+  {
+   "line": 59,
+   "quote": "فَلَا تَسْـَٔلْنِى عَن شَىْءٍ حَتَّىٰٓ أُحْدِثَ لَكَ مِنْهُ ذِكْرًۭا",
+   "declared": "18:70",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "18:70"
+   ]
+  },
+  {
+   "line": 59,
+   "quote": "سَأُنَبِّئُكَ بِتَأْوِيلِ مَا لَمْ تَسْتَطِع عَّلَيْهِ صَبْرًا",
+   "declared": "18:78",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "18:78"
+   ]
+  },
+  {
+   "line": 23,
+   "quote": null,
+   "declared": "ق ل ي,B002",
+   "kind": "branch",
+   "status": "ok (no quote)",
+   "branch_ref": "root_001253/B002"
+  },
+  {
+   "line": 35,
+   "quote": null,
+   "declared": "2:264",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "2:264"
+   ]
+  },
+  {
+   "line": 45,
+   "quote": null,
+   "declared": "ر ب ب,B008",
+   "kind": "branch",
+   "status": "ok (no quote)",
+   "branch_ref": "root_000532/B008"
+  },
+  {
+   "line": 53,
+   "quote": null,
+   "declared": "80:4",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "80:4"
+   ]
+  },
+  {
+   "line": 57,
+   "quote": null,
+   "declared": "70:25",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "70:25"
+   ]
+  }
+ ]
+}
