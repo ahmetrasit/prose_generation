@@ -1,0 +1,14 @@
+- memory: sa- prefix turns the verb to the future
+- memory: fa- introduces the answer clause of ammā
+- memory: al-yusrā, al-ḥusnā, al-ʿusrā, al-ūlā share the feminine elative pattern (fuʿlā)
+- memory: in 80:20 the fronted "path" is the verb's object
+- memory: Turkish müyesser is the passive participle (muyassar) of yassara
+- memory: vowels of yasarāt, taysūr, aʿsar yasar, yasarat al-ghanam
+- not written: B002 little/slight quantity - no work beyond the ease already carried by B001
+- not written: B004 left hand/left side - the Quran names the left-side people with other words; only the ambidextrous phrase used
+- not written: B008 palm lines/thigh brand - no link to the ayah's situation
+- not written: B009 downward twist/face-level thrust - no link to the ayah's situation
+- not written: B010 place and personal names - no interpretive role
+- not written: B011 young man - single attestation, no support in the surah
+- not written: easy childbirth sense of aysarat al-mar'a with 92:3 - not attested in the supplied senses
+- not written: 50:44 "a gathering easy for Us" (ʿalaynā) - tangential to the readying theme
