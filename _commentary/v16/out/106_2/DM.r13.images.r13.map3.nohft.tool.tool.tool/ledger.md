@@ -1,0 +1,13 @@
+- memory: the maṣdar إيلاف governs رحلةَ in the accusative as a verb would
+- memory: رحلة occurs only here in the Quran; the root elsewhere only as رحل/رحال in Yusuf
+- memory: Turkish "telif" narrowed to authorship/copyright; "rıhlet" used for death; "sayfiye" = summer resort
+- not written: ء ل ف B001 thousand, completing a count - no theme work beyond decoration
+- not written: ء ل ف B006 name of the letter alif - irrelevant to the ayah
+- not written: ء ل ف B003 winning hearts (al-mu'allafa) - alms context, no tie to the journeys without outside report
+- not written: ر ح ل B007 uprooting, B009 bearing harm/riding someone - could not ground a theme of this ayah
+- not written: ر ح ل B010 Yemeni saddle-patterned cloth - linking to a Yemen journey would need outside report
+- not written: ر ح ل B011 white-backed horse, B012 slander idiom - no bearing
+- not written: ش ت و B005 rough ground / head of valley - no support in the surah
+- not written: ص ي ف B004 children of old age - no bearing
+- not written: 9:81 refusing to march in the heat - expedition context, beyond this ayah's scene
+- not written: yā written in 106:1 but small in 106:2 - orthographic, no theme
