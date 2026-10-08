@@ -1,0 +1,12 @@
+- memory: a-lam + jussive makes a rebuking question about the past that expects "yes"
+- memory: lam + jussive gives past-time negation
+- memory: 'alima normally takes anna directly; bi- here marks awareness (partly supported by ع ل م B001 phrase)
+- memory: same-referent subject and object pronoun (ra'āhu) is normal only with verbs of the heart
+- memory: ara'ayta ("tell me") completed by an interrogative clause is a known construction
+- not written: و ل ه alternative derivation of Allah (bewilderment, longing) - documented alternative, not the identity root; no theme work
+- not written: ilāha as the sun (ء ل ه B001) - no work in any theme
+- not written: ع ل م B004 harelip, B005 sea/full well, B006 falcon, B007 male hyena - no grounding in the ayah's themes
+- not written: ر ء ي B003 dream, B004 facing each other, B007 menstrual trace, B008 jinn companion, B009 lung, B010 udder - no theme work
+- not written: echo root ر و ي (quenching, narration, reflection, banner) - echo only, not identity
+- not written: mirror (ر ء ي B006) - belongs to the seventh ayah's image; recalled in one sentence only
+- not written: pronoun ambiguity in ayat 11-12 (servant or forbidder) - belongs to those ayat
