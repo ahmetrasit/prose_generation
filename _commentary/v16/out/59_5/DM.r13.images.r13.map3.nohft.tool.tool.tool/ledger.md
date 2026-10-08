@@ -1,0 +1,14 @@
+- memory: "mâ" here is conditional and "min" explains its content
+- memory: the "wa" before "li-yukhziya" implies an unstated companion purpose
+- memory: lîna is not the common word for palm (nakhl)
+- memory: ripe fresh date (rutab) skin loosens and flesh slips out
+- not written: ء ص ل B005 asîl = perishing - would muddle rootedness without ayah support
+- not written: ء ص ل B003 late afternoon, B004 snake, B006 beginning - no tie to the grove
+- not written: ق و م B021 standing but sightless eye - belongs to qawm in 13-14, no work for the standing palm
+- not written: ق و م B009 qiwâm as livelihood - plausible for palm but unsupported by the ayah's wording
+- not written: ق ط ع B007 cutting kinship - no tie to the grove beyond general opposition
+- not written: ق ط ع B004, B012, B014-B022, B024 - no theme carried
+- not written: ء ذ ن B003 call/adhân, B005 binding declaration - permission theme needed only hearing and knowledge
+- not written: ت ر ك B008 abandoned ostrich egg, B009 water and pasture left behind - evocative but no anchor in the ayah
+- not written: ل ي ن B002 ease of life, B003 gentleness with people, B004 flattery - no role here
+- not written: خ ز ي B003 falling into calamity - covered by exposure and shame
