@@ -1,0 +1,9 @@
+- memory: ḥusnā is the feminine elative of aḥsan; yusrā/ʿusrā share the faʿlā pattern
+- memory: istaghnā (92:8) and yughnī (92:11) share the root gh-n-y (no dictionary entry supplied)
+- memory: aghshā/ughshiyat (10:27) and yaghshā (92:1) share the root gh-sh-y
+- memory: mawshī denotes a pattern woven into the fabric (contrast with dyed surface)
+- not written: ك ذ ب B003 (kadhaba ʿalayka = it is incumbent on you) - an inversion irony with no support in the ayah or Quran
+- not written: ح س ن B004 (sand-dune / mountain names; sitting on a high clean dune) - could touch 92:20 al-aʿlā, too thin to found a theme
+- not written: ح س ن B001 physical beauty and B002 iḥsān beyond 53:31 and 10:26 - served only as background for ḥusnā as an end
+- not written: 75:31-32 ṣaddaqa/kadhdhaba pair - belongs to the surah-wide scene with 92:6 and 92:16, recalled through 39:32-33 instead
+- not written: 4:95 kullan waʿada Allāhu al-ḥusnā - duplicates 57:10, which ties the promise to spending
