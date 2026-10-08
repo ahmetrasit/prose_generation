@@ -1,0 +1,11 @@
+- memory: jannatī (first-person "My garden") occurs only at 89:30 in the Quran
+- memory: Quran usually names paradise al-janna or jannāt
+- memory: bird name الدخل vocalized dakhal
+- memory: shield sense vocalized junna (distinct form from janna)
+- memory: الجنين/جننت vocalizations (cenîn, cenentu, cenen) as transliterated
+- not written: د خ ل B007 dikhāl (camels brought back or slipped in to drink) - fits 89:29 "among" more than this ayah; no theme here
+- not written: د خ ل B003/B004 inner side, inner rot (rotten-cored palm) - no hook in the act of entering; would be imposed
+- not written: د خ ل B002, B005, B006, B010 (marriage idiom, outsider, income, date basket) - no work in the ayah
+- not written: ج ن ن B005, B006, B012–B017 (jinn, madness of mind, snake, masses, first youth, fly buzzing, breastbones, market name) - no support for garden or entry theme
+- not written: 13:23 angels entering upon the garden's people from every gate - 39:73 already carries the gate theme
+- not written: 53:32 fetuses in wombs (أجنة) - covered-inside image already grounded; passage pulls toward self-praise theme
