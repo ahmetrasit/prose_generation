@@ -1,0 +1,11 @@
+- memory: Turkish "lisan" means a language, not the organ
+- memory: Turkish "şifahî" derives from Arabic shifāh (lips)
+- memory: articulation of b, m, f (bilabial stop, nasal, labiodental)
+- not written: ل س ن B004 tongue-shaped sandal/slender foot - no theme it could join
+- not written: ل س ن B005 cutting the tongue tip - no theme
+- not written: ل س ن B007 talsīn, borrowed calf tasting milk to make the she-camel let down - vivid, but no theme without strain
+- not written: ل س ن B009 preparing palm fibre for twisting - no theme
+- not written: ل س ن B010 malsūn "liar" - disputed sense, cannot carry a boast-as-lie reading
+- not written: ش ف ه B001 shufāhī big-lipped, dropped final hā' - no theme
+- not written: shafā "brink" (3:103, 9:109) - different root ش ف و, echo only
+- not written: 36:65 sealed mouths - shared scene of the surah commentary
