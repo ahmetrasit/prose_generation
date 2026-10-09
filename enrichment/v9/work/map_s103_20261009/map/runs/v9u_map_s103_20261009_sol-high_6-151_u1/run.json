@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9u_map_s103_20261009_sol-high_6-151_u1",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:58:43",
+  "ended": "2026-10-09T07:04:08",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12050-b916-7662-9308-c3666b19764b",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 177759,
+    "cached_input_tokens": 145920,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 5206,
+    "reasoning_output_tokens": 2366
+  },
+  "stderr": "2026-10-09T10:58:48.591256Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:59:13.696712Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T10:59:43.696854Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n",
+  "prompt_sha256": "f46ea25afc44619e024c69e037034fab5ed448511058d952e33cfaa648ba9f5c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-58-43-01a12050-b916-7662-9308-c3666b19764b.jsonl",
+  "usd_equivalent": 0.144922,
+  "requests": 8,
+  "max_request_input_tokens": 30501,
+  "over_context_cap": false
+}
