@@ -75,6 +75,10 @@ def build(a):
     missing = [v for v in verses if not Q.located(v)]
     if missing:
         raise SystemExit(f'no verse map for {len(missing)} cited verse(s): {", ".join(missing)}; map them first')
+    stale = [(v, Q.stale(v)) for v in verses]
+    stale = [f'{v} ({r})' for v, r in stale if r]
+    if stale:
+        raise SystemExit(f'{len(stale)} cited verse map(s) not current, nothing built: ' + '; '.join(stale))
     qs, _ = Q.load(a.ayah)
     Q.MAX_BYTES = 10 ** 9  # the lookup cap is for an agent's own calls; preloaded text is written whole into parts
     focus = captured(Q.cmd_question, qids=[q['id'] for q in qs])

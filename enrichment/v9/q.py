@@ -49,6 +49,29 @@ def located(ayah):
     return f, f.parents[2] / 'rows' / f'{key(ayah)}.json'
 
 
+def stale(ayah):
+    """Why the assembled map of a verse cannot be used yet, or None. Stale when a map or update agent output is newer
+    than the assembled file (run `map.py check RUN` to assemble), or when an update recorded in the manifest has no
+    output yet (its agent has not finished)."""
+    loc = located(ayah)
+    if not loc:
+        return 'no assembled map'
+    m = loc[0].parents[2]
+    man = json.loads((m / 'manifest.json').read_text())
+    p = next((x for x in man['ayat'] if x['ayah'] == ayah), None)
+    if p is None:
+        return f'not in {m.parent.name} manifest'
+    k = key(ayah)
+    raws = [m / 'out' / TAG / f'{k}.raw.jsonl'] + [m / 'out' / TAG / f"{k}.u{u['n']}.raw.jsonl"
+                                                    for u in p.get('updates', []) if u['tag'] == TAG]
+    missing = [r.name for r in raws if not r.exists()]
+    if missing:
+        return f'{m.parent.name}: no output yet for {", ".join(missing)}'
+    if loc[0].stat().st_mtime < max(r.stat().st_mtime for r in raws):
+        return f'{m.parent.name}: assembled map older than its outputs (run map.py check {m.parent.name})'
+    return None
+
+
 def load(ayah):
     loc = located(ayah)
     if not loc:

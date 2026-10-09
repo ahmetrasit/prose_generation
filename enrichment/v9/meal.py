@@ -104,6 +104,10 @@ def build(a):
     d = mdir(a.run)
     if d.exists():
         raise SystemExit(f'{d} exists; use a new run')
+    import q as Q
+    why = Q.stale(a.ayah)
+    if why:
+        raise SystemExit(f'{a.ayah}: verse map not current ({why}); nothing built')
     (d / 'inputs').mkdir(parents=True)
     (d / 'spawn').mkdir()
     _, paras, numbered, _ = write.page(a.page, a.ayah)
