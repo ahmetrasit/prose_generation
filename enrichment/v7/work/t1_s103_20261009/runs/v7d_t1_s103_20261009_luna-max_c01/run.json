@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s103_20261009_luna-max_c01",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T00:46:05",
+  "ended": "2026-10-09T00:56:37",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11efb-9a15-7310-914e-d09623250a6e",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1099365,
+    "cached_input_tokens": 986368,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 87975,
+    "reasoning_output_tokens": 59244
+  },
+  "stderr": "2026-10-09T04:46:25.719121Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: invalid peer certificate: UnknownIssuer, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T04:52:31.093850Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s103_20261009/out/luna-max/c01.jsonl\n",
+  "prompt_sha256": "b32cb58e3a8b03457a965073fe1e5902c5d2383153b5265b90d56a045026bea4",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T00-46-11-01a11efb-9a15-7310-914e-d09623250a6e.jsonl",
+  "usd_equivalent": 0.065151,
+  "requests": 15,
+  "max_request_input_tokens": 114176,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s103_20261009_luna-max_c45",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T00:46:06",
+  "ended": "2026-10-09T00:58:37",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11efb-b9bc-7511-af92-be7e231cfbf5",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 2724086,
+    "cached_input_tokens": 2582528,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96054,
+    "reasoning_output_tokens": 48622
+  },
+  "stderr": "ns\":[]}]}\n2026-10-09T04:53:58.053611Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s103_20261009/out/luna-max/c45.jsonl:\n{\"loc\":\"ITQAN:v1p259\",\"rows\":[{\"verses\":[\"18:103\"],\"words\":[\"*\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Al-Hudhali assigns the sixth madd level five alifs for Hamza and the seventh, excessive level six alifs for Warsh.\",\"anchor\":\"السادسة فوق ذلك وقدرها الهذلي بخمس ألفات على تقدير الخامسة بأربع وذكر أنها لحمزة السابعة الإفراط قدرها الهذلي بست\",\"mentions\":[]},{\"verses\":[\"18:103\"],\"words\":[\"*\"],\"type\":\"readings\",\"speaker\":\"ابن الجزري\",\"stance\":\"reports\",\"claim\":\"Ibn al-Jazari says counting madd levels in alifs is only verbal: each slight increase creates the next level along a continuum.\",\"anchor\":\"وهذا الاختلاف في تقدير المراتب بالألفات لا تحقيق وراءه بل هو لفظي\",\"mentions\":[]},{\"verses\":[\"18:103\"],\"words\":[\"*\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"For temporary madd, every reciter may choose among extension, intermediate length, and shortening.\",\"anchor\":\"وأما العارض فيجوز فيه لكل من القراء كل من الأوجه الثلاثة المد والتوسط والقصر\",\"mentions\":[]},{\"verses\":[\"2:255\",\"3:2\",\"5:118\",\"21:87\"],\"words\":[\"لا إله إلا هو\",\"لا إله إلا الله\",\"لا إله إلا أنت\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"A semantic cause for lengthening is emphatic negation; Arabs use it for magnification in prayer, invocation, and denial, though reciters rank it below a phonological cause.\",\"anchor\":\"وأما السبب المعنوي فهو قصد المبالغة في النفي وهو سبب قوي مقصود عند العرب\",\"mentions\":[]},{\"verses\":[\"2:255\",\"3:2\",\"5:118\",\"21:87\"],\"words\":[\"لا إله إلا هو\",\"لا إله إلا الله\",\"لا إله إلا أنت\"],\"type\":\"readings\",\"speaker\":\"ابن مهران\",\"stance\":\"reports\",\"claim\":\"Ibn Mihran calls this madd al-mubālagha: it emphasizes that no deity exists besides God, following a known Arab practice of lengthening emphatic expressions.\",\"anchor\":\"قال ابن مهران في كتاب المدات إنما سمي مد المبالغة لأنه طلب للمبالغة في نفي إلهية سوى الله تعالى\",\"mentions\":[]},{\"verses\":[\"2:255\",\"3:2\",\"5:118\",\"21:87\"],\"words\":[\"لا ريب فيه\",\"لا شية فيها\",\"لا مرد له\",\"لا جرم\"],\"type\":\"readings\",\"speaker\":\"ابن الجزري\",\"stance\":\"reports\",\"claim\":\"Ibn al-Jazari reports Hamza's emphatic-negation lengthening on lā of absolute negation, but at an intermediate length because its cause is weaker.\",\"anchor\":\"وقد ورد عن حمزة مد المبالغة للنفي في لا التي للتبرئة نحو لا ريب فيه لا شية فيها\",\"mentions\":[\"2:2\",\"7:108\",\"14:21\",\"52:7\"]},{\"verses\":[\"2:256\",\"4:23\",\"5:95\"],\"words\":[\"لا إله إلا الله\",\"لا إكراه في الدين\",\"فلا إثم عليه\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"When phonological and semantic causes coincide, Hamza fully lengthens for the stronger hamza cause and disregards the weaker semantic cause.\",\"anchor\":\"وقد يجتمع السببان اللفظي والمعنوي في نحو لا إله إلا الله ولا إكراه في الدين\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "f9e78a7318280405a28bfc0420168499fff997c560a3000401b9e7453243dbea",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T00-46-18-01a11efb-b9bc-7511-af92-be7e231cfbf5.jsonl",
+  "usd_equivalent": 0.088008,
+  "requests": 28,
+  "max_request_input_tokens": 132872,
+  "over_context_cap": true
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s103_20261009_luna-max_c29",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T00:46:06",
+  "ended": "2026-10-09T01:04:26",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11efb-9b96-7561-8c5e-72f328e04541",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 2630536,
+    "cached_input_tokens": 2436352,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 158370,
+    "reasoning_output_tokens": 56552
+  },
+  "stderr": "2026-10-09T04:52:29.319065Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s103_20261009/out/luna-max/c29.jsonl:\n\"anchor\":\"وتدل على كون الأنبياء معصومين منزهين لذلك صح الاصطفاء\"\n",
+  "prompt_sha256": "27e5978598fb0c66bc54d10bf0d1e59e3729bde3957da92fed5b192e3b8c94d1",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T00-46-10-01a11efb-9b96-7561-8c5e-72f328e04541.jsonl",
+  "usd_equivalent": 0.122967,
+  "requests": 23,
+  "max_request_input_tokens": 196980,
+  "over_context_cap": true
+}
