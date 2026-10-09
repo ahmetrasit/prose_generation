@@ -18,7 +18,7 @@ from enrichment.bible import agentrun as AR, blocks as B, corpus as C
 from enrichment.bible import discovery as D, discovery_native as N, enrich as E
 from enrichment.bible import check_discovery as DC, discovery_repair as DR, discovery_report as REPORT, verdicts as VR
 from enrichment.bible import discovery_first_repair as FR
-from enrichment.bible import intertext as I, pack as P, render as R, validate as V
+from enrichment.bible import intertext as I, pack as P, render as R, validate as V, hebrew as H
 from enrichment.bible.fetch import bible_text as BT, bible_sefaria as SF, ref_common as RC
 
 CODE = Path(__file__).resolve().parent
@@ -27,6 +27,12 @@ SURAH = ('# Surah\n\n## Birinci imge\n\nBirinci paragraf burada durur.\n\n'
          'Kaynaklar: 1:1 kelime ح م د B1\n\n## İkinci imge\n\nİkinci paragraf burada durur.\n\n'
          'Kaynaklar: 1:1 kelime ح م د B2\n')
 ROW = 'strong\ttevrat\tparalel\tWLC:Gen.1.1\tcreation\tA distinct narrative reason\n'
+# a one-entry Hebrew root index (hebrew.py build output shape) for the fixture root ح م د
+HEBLEX_FIXTURE = dict(
+    entries={'e1': dict(lang='heb', w='חָמַד', xlit='ḥāmad', pos='V', **{'def': 'desire'}, strong='2530', aug=None,
+                        bdb='b1', root='חמד', key='חמד')},
+    bdb={'b1': dict(head='חָמַד vb. desire (Ar. [Arabic] praise)', status='done', langs=['ara'])},
+    strong_meaning={}, occ={'e1': [['Gen.1.1', 'בָּרָא']]}, build={})
 
 
 def save(path, obj):
@@ -52,12 +58,14 @@ class BibleWorkflowTest(unittest.TestCase):
             (D, dict(HERE=self.home, ROOT_PG=self.root, INDEX=self.corpus/'corpus.sqlite')),
             (AR, dict(HERE=self.home, ROOT=self.root, PROJECTS=self.root/'transcripts')),
             (RC, dict(CORPUS=self.corpus)),
+            (H, dict(INDEX=self.corpus/'HEBLEX/index.json', _DATA=None)),
         ]:
             for key, value in fields.items():
                 self.stack.enter_context(patch.object(module, key, value))
         self.stack.enter_context(patch.object(RC, 'http_get', side_effect=AssertionError('network forbidden in tests')))
         for name in ('SCHEMA.md', 'SCHEMA_BIBLE_CARD.md'):
             (self.home/name).write_bytes((CODE/name).read_bytes())
+        save(self.corpus/'HEBLEX/index.json', HEBLEX_FIXTURE)
         sources = {
             'WLC': [dict(seg='WLC:Gen.1.1', text='בְּרֵאשִׁית בָּרָא אֱלֹהִים', book='Gen',
                          text_reading='ketiv', variant_notes=[])],
@@ -94,7 +102,7 @@ class BibleWorkflowTest(unittest.TestCase):
     def handoff(self, target='1:1'):
         targets=[t for t in D.targets_of(1) if t['target']==target or (target=='surah' and t['target'].startswith('sec'))]
         for t in targets:
-            for model in D.MODELS: self.completed_discovery(t,model,rows='')
+            for model in D.readers(1,'test'): self.completed_discovery(t,model,rows='')
         with redirect_stdout(io.StringIO()): paths=D.merge(1,targets,'test')
         path=next(p for p in paths if p.name==target.replace(':','_')+'.merged.tsv')
         root=path.parent

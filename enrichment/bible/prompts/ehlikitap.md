@@ -35,7 +35,8 @@ The Bible working rules (common.md) apply:
   the point); a Hebrew, Aramaic or Syriac cognate of the ayah's word and how the other scripture uses it (soydas:
   loan claims only with named scholarship); Jewish or Christian interpretation of the parallel text (yorum_gelenegi:
   Targum, midrash, Talmud; Church Fathers, Syriac homilies). Every record's `ayet` includes the target ayah. Anchor
-  to the paragraphs of PACK/numbered/S_A.md; a block about a v16 addition anchors to its ¶n.
+  to the paragraphs of PACK/numbered/S_A.md (the frozen paragraphs the page's other layers use); a block about a
+  v16 addition, in an older augment9 pack, anchors to its ¶n.
 - Surah page (target surah): what belongs to the surah as a whole: a parallel that runs through the surah, a
   liturgical or structural kinship (the Lord's Prayer and the Fātiḥa), a motif the surah commentary's images turn
   on; per-ayah detail only where a paragraph of the surah commentary is about it. Anchor to PACK/numbered/surah.md.
@@ -67,6 +68,10 @@ a formula, a word, an ethical motif, a liturgical act; each with its paragraph n
    consonants, Syriac via the Peshitta only from memory, marked); the Jewish reading of each parallel (SEFARIA
    Targum, midrash, Talmud, Rashi, Ibn Ezra, Ramban as fetched); the Christian reading from memory, marked, until
    patristic texts are in the corpus.
+3b. The Semitic root table at the end of this prompt (common.md, Semitic evidence): every Arabic root, its
+   corresponding Hebrew/Aramaic roots, their range across the Hebrew Bible (`hebrew.py root`), wordplay, and the
+   passages where the Bible's wording shows a difference from the ayah. One root_verdicts.jsonl line per root;
+   each Hebrew passage you open for it needs its research verdict like any other lookup.
 4. Modern scholarship on the parallel (Neuwirth, Sinai, Reynolds, Witztum, Zellentin and others): memory pointers
    (access hafiza) with `durum:degerlendirilmedi`; a dependence or address claim is theirs, named in `alim`.
 Deduplicate as you go: one block per point.
@@ -135,7 +140,7 @@ support modern, kaynak_notu or yontem, but do not turn them into Jewish or Chris
    Preserve the prefetch report's missing refs in these arrays. Write all three files even when they are empty;
    empty annotation output does not waive verdicts for the discovered or researched passages.
 3. Run the validator from the job header and fix every error and warning; a record that still fails is dropped.
-4. Run the verdict draft check in the header. The final check also audits actual get results and completeness
+4. Write root_verdicts.jsonl (one line per Arabic root of the table) and run the verdict draft check in the header. The final check also audits actual get results and completeness
    against the native transcript. No candidate may disappear from this ledger.
 5. Render the preview (job header) and read the page once as the reader would.
 Final message: blocks by gelenek and tur, the candidates accepted and rejected, and anything you could not do.

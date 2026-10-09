@@ -19,7 +19,7 @@ def report(s, tag, targets=None, attempts=None):
     for t in targets:
         selected = attempts.get(t['target'],tag)
         per = {}
-        for model in D.MODELS:
+        for model in D.readers(s,selected):
             d = D.tdir(s,t['target'],selected)/model
             item = dict(target=t['target'],model=model,run_tag=selected,status='missing',errors=[])
             try:
@@ -31,10 +31,11 @@ def report(s, tag, targets=None, attempts=None):
                 item.update(status=log.get('status'),check=log.get('check'),initial=log.get('turn1_rows'),
                     proposals=cons.get('raw_proposal_rows'),added=cons.get('unique_additions'),
                     repeats=cons.get('repeated_proposals',[]),usage_tokens=log.get('usage_tokens'),
-                    cost_usd=log.get('cost_usd'),diagnostics=log.get('tool_diagnostics',[]),
+                    cost_usd=log.get('cost_usd'),usd_equivalent=log.get('usd_equivalent'),diagnostics=log.get('tool_diagnostics',[]),
                     protocol_findings=log.get('protocol_findings',[]),consolidation_error=log.get('consolidation_error'),
                     repair=log.get('repair'),first_turn_repair=log.get('first_turn_repair'))
                 data['cost_usd'] += log.get('cost_usd') or 0
+                data['usd_equivalent'] = round(data.get('usd_equivalent',0) + (log.get('usd_equivalent') or 0), 4)
                 if (d/'validation.json').exists(): item['validation']=json.loads((d/'validation.json').read_text())
                 if (d/'proposal_validation.json').exists():
                     item['raw_proposal_validation']=json.loads((d/'proposal_validation.json').read_text())
@@ -46,8 +47,8 @@ def report(s, tag, targets=None, attempts=None):
             except (OSError,ValueError,KeyError) as exc:
                 item['errors'].append(str(exc)); data['ready_for_merge']=False
             data['jobs'].append(item)
-        if set(per)==set(D.MODELS):
-            refs=[{(r['tradition'],r['ref']) for r in per[m]} for m in D.MODELS]
+        if set(per)==set(D.readers(s,selected)):
+            refs=[{(r['tradition'],r['ref']) for r in per[m]} for m in per]
             data['targets'].append(dict(target=t['target'],run_tag=selected,dry_handoff=True,
                 unique_references=len(set.union(*refs)),overlap=len(set.intersection(*refs)),
                 connections=len({D.connection_id(t['target'],r) for rows in per.values() for r in rows}),
@@ -70,7 +71,8 @@ def markdown(data):
                                  'validation','raw_proposal_validation','missing_existing_citations','repair','first_turn_repair','usage_tokens') if j.get(k)}
         lines += ['```json',json.dumps(details,ensure_ascii=False,indent=2),'```']
     lines += ['', '## Dry handoff', '', '```json',json.dumps(data['targets'],ensure_ascii=False,indent=2),'```','',
-              f"Ready to merge: {data['ready_for_merge']}. Recorded charge: ${data['cost_usd']:.2f}. No model calls.",
+              f"Ready to merge: {data['ready_for_merge']}. Recorded charge: ${data['cost_usd']:.2f}; API-equivalent "
+              f"${data.get('usd_equivalent',0):.2f} (codex exec readers). No model calls.",
               '',data['limits']]
     return '\n'.join(lines)+'\n'
 
@@ -91,7 +93,7 @@ def main():
         if want-{t['target'] for t in targets}-{'surah'}: ap.error('unknown target')
         targets=[t for t in targets if t['target'] in want or ('surah' in want and t['target'].startswith('sec'))]
     else:
-        targets=[t for t in targets if any((D.tdir(a.surah,t['target'],attempts.get(t['target'],a.run_tag))/m).exists() for m in D.MODELS)]
+        targets=[t for t in targets if any((D.tdir(a.surah,t['target'],attempts.get(t['target'],a.run_tag))/m).exists() for m in D.readers(a.surah,attempts.get(t['target'],a.run_tag)))]
     data=report(a.surah,a.run_tag,targets,attempts)
     if a.write:
         root.mkdir(parents=True,exist_ok=True)

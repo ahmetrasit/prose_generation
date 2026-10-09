@@ -29,7 +29,12 @@ def events_for(d):
     events = [json.loads(line) for line in Path(session["transcript"]).read_text().splitlines()]
     start = json.loads((d/'started.json').read_text())
     meta = next((e.get('payload',{}) for e in events if e.get('type') == 'session_meta'),{})
-    if (meta.get('id'),meta.get('agent_path')) != (session['agent_id'],start['agent_path']):
+    if session.get('runner') == 'codex-exec':
+        # a `codex exec` session started by enrichment/bible/codexrun.py: no agent_path; its id is the thread id
+        # recorded from the run's own JSON event stream
+        if meta.get('id') != session['agent_id'] or meta.get('agent_path') or meta.get('originator') != 'codex_exec':
+            raise ValueError('cached transcript is not the selected codex exec session')
+    elif (meta.get('id'),meta.get('agent_path')) != (session['agent_id'],start['agent_path']):
         raise ValueError('cached transcript is not the selected native session')
     done = [e for e in events if e.get("type") == "event_msg" and
             e.get("payload", {}).get("type") in ("task_complete", "task_completed")]

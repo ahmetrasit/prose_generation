@@ -152,6 +152,11 @@ def prepare(s, run_tag):
     (root/'discovery.merged.tsv').write_bytes(handoff.read_bytes())
     D.save(root/'prefetch.json', local_sources(all_expected))
     template = (E.PROMPTS/'image_author.md').read_text()
+    targets = {t['target']: t for t in D.targets_of(s)}
+    from enrichment.bible import hebrew
+    if not hebrew.INDEX.exists():
+        raise ValueError('build the Hebrew root index first: hebrew.py build')
+    inputs[E.rel(hebrew.INDEX)] = D.digest(hebrew.INDEX)
     rules = (E.PROMPTS/'common.md').read_text() + '\n' + (E.PROMPTS/'ehlikitap.md').read_text()
     for sec, selected, candidates, sources in prepared:
         target = f"sec{sec['k']}"
@@ -173,6 +178,9 @@ def prepare(s, run_tag):
         prompt = template.replace('{{DIRECTORY}}', str(d)).replace('{{SURAH}}', str(s)).replace(
             '{{SECTION}}', target).replace('{{PARAGRAPHS}}', ', '.join(map(str, sec['paragraphs']))).replace(
             '{{ROOT}}', str(E.PG)).replace('{{COUNT}}', str(len(candidates)))
+        roots = D.target_roots(targets[target])
+        job['semitic_roots'] = roots
+        prompt += '\n' + E.root_section(roots) + '\n'
         (d/'prompt.md').write_text(prompt)
         spawn = f'Read {d}/prompt.md completely and follow it. You are the independent Sol max Bible author for S{s} {target}. '
         spawn += 'Use only the named Bible inputs and tools, and write only the permitted deliverables in your call directory. '
@@ -264,7 +272,7 @@ def allowed_patch(patch, d):
             p = Path(m[1])
             if not p.is_absolute(): p = E.PG/p
             writes.append(p.resolve())
-    allowed = {d/name for name in (*OUTPUTS, 'notes.md')}
+    allowed = {d/name for name in (*OUTPUTS, 'notes.md', 'root_verdicts.jsonl')}
     return bool(writes) and all(p in allowed for p in writes)
 
 
@@ -307,6 +315,8 @@ def allowed_command(cmd, d):
     if script.name == 'corpus.py':
         if tail[0] == '--intertext': tail = tail[1:]
         return bool(tail) and tail[0] in ('get','search','ayah','sources')
+    if script.name == 'hebrew.py':
+        return bool(tail) and tail[0] in ('root','cognates','word','table')
     if script.name == 'image_enrich.py':
         return tail == ['check','--dir',str(d)]
     return False
@@ -445,12 +455,12 @@ def check(d, final=False, calls=None):
     return report
 
 
-def finish(d):
+def finish(d, extra=None):
     if (d/'run.log.json').exists():
         raise ValueError('image was already finished')
     audit, calls = native_audit(d)
     report = check(d, final=True, calls=calls)
-    result = dict(status='ok' if audit['ok'] and report['ok'] else 'failed', audit=audit, check=report)
+    result = dict(status='ok' if audit['ok'] and report['ok'] else 'failed', audit=audit, check=report, **(extra or {}))
     result['artifacts'] = {p.name:D.digest(p) for p in d.iterdir() if p.is_file() and p.name != 'run.log.json'}
     D.save(d/'run.log.json', result)
     return result
@@ -460,7 +470,7 @@ def assemble(s, run_tag):
     root = run_dir(s, run_tag)
     if (root/'run.log.json').exists(): raise ValueError('run was already assembled')
     started = read_json(root/'started.json')
-    records, discovery_rows, research, calls, sections = [], [], {}, [], []
+    records, discovery_rows, research, calls, sections, root_rows = [], [], {}, [], [], []
     gaps = dict(missing_sources=[], not_found=[], unresolved=[])
     counters = Counter()
     for job in started['jobs']:
@@ -492,6 +502,9 @@ def assemble(s, run_tag):
                 discovery_rows.append(dict(row, scope=job['target']))
         for key in gaps:
             gaps[key].extend(read_json(d/'gaps.json')[key])
+        if (d/'root_verdicts.jsonl').exists():
+            for row in R.load(d/'root_verdicts.jsonl'):
+                root_rows.append(dict(row, scope=job['target'], annotations=[mapping[x] for x in row.get('annotations', [])]))
         calls.extend(local_calls)
         sections.append(dict(target=job['target'], run_log_sha256=D.digest(d/'run.log.json'), id_map=mapping))
     # A context verse may support different decisions in different images. Keep
@@ -502,6 +515,8 @@ def assemble(s, run_tag):
     if not records: gaps['no_findings_reason'] = 'All image authors recorded explicit empty findings; see their individual gap ledgers.'
     save_jsonl(root/'annotations.jsonl', records)
     save_jsonl(root/'verdicts.jsonl', discovery_rows)
+    if root_rows:
+        save_jsonl(root/'root_verdicts.jsonl', root_rows)
     D.save(root/'gaps.json', gaps)
     D.save(root/'tool_calls.json', calls)
     D.save(root/'assembly.json', dict(sections=sections, research_decisions=research))
@@ -521,7 +536,9 @@ def assemble(s, run_tag):
     destination = out/'surah.ehlikitap.md'
     if destination.exists(): raise ValueError('never overwrite an accepted Bible page')
     snapshots = {}
-    for name in (*OUTPUTS, 'verdict_report.json','assembly.json'):
+    for name in (*OUTPUTS, 'verdict_report.json','assembly.json','root_verdicts.jsonl'):
+        if name == 'root_verdicts.jsonl' and not (root/name).exists():
+            continue  # image runs prepared before the Semitic root table (2026-10-09)
         dst = destination.with_suffix('.'+name)
         if dst.exists(): raise ValueError(f'acceptance snapshot already exists: {dst}')
         with dst.open('xb') as f: f.write((root/name).read_bytes())
@@ -558,9 +575,49 @@ def assemble(s, run_tag):
     return result
 
 
+def run_one(d):
+    """One image author through `codex exec` (Claude Code orchestrator): one turn, then finish. Never twice."""
+    from enrichment.bible import codexrun as X
+    job = read_json(d/'started.json')
+    if (d/'run.log.json').exists():
+        return f"{job['target']}: already finished, skipped"
+    if not (d/'turn1.stream.jsonl').exists():
+        r = X.turn(d, 1, (d/'spawn.md').read_text(), MODEL, EFFORT)
+        if not (r['completed'] and r['thread_id']):
+            return f"{job['target']}: WARNING turn failed (rc {r['returncode']}): {r['stderr'][-300:]}"
+        D.save(d/'session.json', dict(agent_path=job['agent_path'], agent_id=r['thread_id'],
+                                      transcript=str(X.rollout(r['thread_id'])), runner='codex-exec'))
+    if not (d/'session.json').exists():
+        return f"{job['target']}: WARNING started earlier without a completed turn; needs a fresh run tag"
+    c = X.cost(Path(read_json(d/'session.json')['transcript']))
+    result = finish(d, extra=dict(c, cost_basis='API-equivalent at codexrun.RATES (Codex subscription; usage counts)'))
+    errs = result['audit']['errors'] + result['check']['errors']
+    return (f"{job['target']}: {result['status']}, {result['check'].get('kept')} annotations, "
+            f"{result['check'].get('verdicts')} verdicts, ${c['usd_equivalent']:.2f}"
+            + ('' if result['status'] == 'ok' else '\n  WARNING ' + '\n  WARNING '.join(map(str, errs[:40]))))
+
+
+def run(s, run_tag, parallel):
+    import concurrent.futures
+    root = run_dir(s, run_tag)
+    jobs = read_json(root/'started.json')['jobs']
+    print(f"S{s} {run_tag}: {len(jobs)} Sol max image authors; expected ≈ ${1.5*len(jobs):.0f} API-equivalent "
+          f"(S87 pilot: about 1M input tokens per image, mostly cached)")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=parallel) as pool:
+        futs = {pool.submit(run_one, root/j['target']): j['target'] for j in jobs}
+        for f in concurrent.futures.as_completed(futs):
+            try: print(f.result(), flush=True)
+            except Exception as e: print(f'{futs[f]}: WARNING {type(e).__name__}: {e}', flush=True)
+    total = sum(read_json(root/j['target']/'run.log.json').get('usd_equivalent') or 0
+                for j in jobs if (root/j['target']/'run.log.json').exists())
+    print(f'actual: ${total:.2f} API-equivalent')
+    return dict(status='done')
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('phase', choices=('prepare','check','finish','assemble','status'))
+    ap.add_argument('phase', choices=('prepare','check','finish','assemble','status','run'))
+    ap.add_argument('--parallel', type=int, default=7)
     ap.add_argument('--surah',type=int)
     ap.add_argument('--run-tag')
     ap.add_argument('--dir',type=Path)
@@ -571,6 +628,7 @@ def main():
     else:
         if not a.surah or not a.run_tag: ap.error('--surah and --run-tag are required')
         if a.phase=='prepare': result=prepare(a.surah,a.run_tag)
+        elif a.phase=='run': result=run(a.surah,a.run_tag,a.parallel)
         elif a.phase=='assemble': result=assemble(a.surah,a.run_tag)
         else:
             root=run_dir(a.surah,a.run_tag)

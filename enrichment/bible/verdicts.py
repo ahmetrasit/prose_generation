@@ -59,8 +59,57 @@ def lookup_audit(calls):
     return requested,opened
 
 
-def check(d, discovery, base, kept, calls=None, require_opened=True, research_scopes=None):
+ROOT_DECISIONS = {'used','no_qualifying_parallel','false_friend','no_hebrew_cognate'}
+
+
+def call_roots(d):
+    """The Arabic roots of a call's frozen text (its Semitic root table), recorded by the preparing script in
+    started.json; None for calls prepared before 2026-10-09."""
+    f = d/'started.json'
+    if not f.is_file(): return None
+    return json.loads(f.read_text()).get('semitic_roots')
+
+
+def check_roots(d, roots, annotations, paragraphs):
+    """Every Arabic root of the table needs exactly one decision in root_verdicts.jsonl (no silent skip)."""
+    errors, seen = [], {}
+    path = d/'root_verdicts.jsonl'
+    if not path.is_file():
+        return [f'missing root_verdicts.jsonl: {len(roots)} Arabic roots need a decision'] if roots else []
+    for i, text in enumerate(path.read_text().splitlines(), 1):
+        if not text.strip(): continue
+        prefix = f'root verdict {i}'
+        try:
+            row = json.loads(text)
+            if not isinstance(row, dict): raise ValueError('expected an object')
+        except (ValueError, TypeError) as exc:
+            errors.append(f'{prefix}: {exc}'); continue
+        root = ' '.join(str(row.get('root','')).split())
+        if root not in roots: errors.append(f'{prefix}: {root!r} is not a root of this call'); continue
+        if root in seen: errors.append(f'{prefix}: duplicate decision for {root}'); continue
+        seen[root] = row
+        if row.get('decision') not in ROOT_DECISIONS:
+            errors.append(f'{prefix}: decision must be one of {sorted(ROOT_DECISIONS)}')
+        if not isinstance(row.get('reason'),str) or not row['reason'].strip():
+            errors.append(f'{prefix}: a specific reason is required')
+        for key in ('hebrew','paragraphs','annotations'):
+            if not isinstance(row.get(key), list):
+                errors.append(f'{prefix}: {key} must be an array'); break
+        else:
+            if not set(row['paragraphs']).issubset(paragraphs): errors.append(f'{prefix}: invalid paragraph number')
+            if row.get('decision') == 'used':
+                if not row['annotations'] or not row['hebrew']:
+                    errors.append(f'{prefix}: a used root names its Hebrew/Aramaic root and kept annotations')
+                for rid in row['annotations']:
+                    if rid not in annotations: errors.append(f'{prefix}: annotation {rid} was absent or dropped')
+    missing = [r for r in roots if r not in seen]
+    if missing: errors.append(f"{len(missing)} Arabic roots have no decision: {', '.join(missing)}")
+    return errors
+
+
+def check(d, discovery, base, kept, calls=None, require_opened=True, research_scopes=None, roots=None):
     errors = []
+    roots = call_roots(d) if roots is None else roots
     expected = candidates(discovery)
     rows = []
     path = d/'verdicts.jsonl'
@@ -155,7 +204,9 @@ def check(d, discovery, base, kept, calls=None, require_opened=True, research_sc
     if missing: errors.append(f'{len(missing)} discovery connections have no verdict')
     if unjudged: errors.append(f'{len(unjudged)} looked-up passages have no verdict (context-only passages need a reason too)')
     if uncovered: errors.append(f'{len(uncovered)} kept annotations have no verdict')
-    return dict(ok=not errors,errors=errors,discovery_connections=len(expected),verdicts=len(rows),draft=not require_opened,
+    if roots is not None:
+        errors.extend(check_roots(d, roots, annotations, paragraphs))
+    return dict(ok=not errors,semitic_roots=len(roots) if roots is not None else None,errors=errors,discovery_connections=len(expected),verdicts=len(rows),draft=not require_opened,
                 status_counts=dict(Counter(r.get('status','missing') for r in rows)),
                 missing_connections=missing,lookups_without_verdicts=unjudged,annotations_without_verdicts=uncovered,
                 requested=sorted(requested),opened=sorted(opened),

@@ -14,11 +14,17 @@ on resemblance of a word. Weigh at least:
 - yorum_gelenegi: Jewish or Christian interpretation of a parallel text that changes what the parallel means.
 
 Before grading, work through every distinct scene, object, action, relation, formula and secondary sense
-actually developed in the commentary, including its augment9 additions. Recall direct formulations, repeated
+actually developed in the commentary, including any v16 augment additions. Recall direct formulations, repeated
 occurrences, nonlexical parallels, relevant reversals and interpretive traditions. Do not let the title, first
 scene or already quoted passages stand in for the whole page. For a Buluşmalar section, consider the particular
 meetings between images its prose develops. Root/branch labels are not dictionary definitions, evidence of
 cognacy or permission to import an undeveloped sense. Do this review internally; output only candidate rows.
+
+Use the package's Semitic root table: for every Arabic root it lists, recall how the corresponding Hebrew or
+Aramaic root is used across the Hebrew Bible, passages that play on the same consonants, and passages whose
+wording shows a difference from what the ayah says. Propose such passages as soydas (shared root), motif,
+paralel or karsi_anlati as fits, and name the basis in `basis` (the root, and whether it is the table's sound
+correspondence or your own recollection). Same consonants with an unrelated sense are not a connection.
 
 Every explanation must identify a particular detail or claim in the commentary, the corresponding detail in
 the candidate's own context, and what the relationship adds. Shared vocabulary, a broad religious theme or

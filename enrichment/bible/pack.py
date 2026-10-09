@@ -20,8 +20,25 @@ def running_calls(s):
             if not (p.parent/'run.log.json').exists() and not (p.parent/'dead.json').exists()]
 
 
-def build(s, force=False, from_pack=None):
-    """An explicit existing pack may select bases; it is only ever read."""
+AYAH_BASES = ('augment9', 'r13')
+
+
+def r13_reading(v16, s, a):
+    """The frozen r13 ayah reading the v9 Islamic pages use: exactly one non-augment reading, else None/refusal."""
+    d = v16/f'{s}_{a}'
+    hits = [p for p in d.glob(f'*/{s}_{a}.reading.tr.md') if 'augment' not in str(p.relative_to(d))]
+    if len(hits) > 1:
+        raise ValueError(f'{s}:{a}: {len(hits)} r13 readings: {hits}')
+    return hits[0] if hits else None
+
+
+def build(s, force=False, from_pack=None, ayah_base='augment9'):
+    """An explicit existing pack may select bases; it is only ever read. ayah_base: 'augment9' (S1/S87 packs) or
+    'r13' (from 2026-10-09: the frozen r13 reading, the same paragraphs as the v9 Islamic pages)."""
+    if ayah_base not in AYAH_BASES:
+        raise ValueError(f'ayah base must be one of {AYAH_BASES}')
+    if from_pack and ayah_base != 'augment9':
+        raise ValueError('--from-pack selects bases already; it cannot be combined with --ayah-base r13')
     pk=HERE/'work'/f's{s:03d}'/'pack'
     if running_calls(s):
         raise ValueError(f'Bible calls active: {running_calls(s)}')
@@ -45,6 +62,11 @@ def build(s, force=False, from_pack=None):
             raise ValueError(f'S{s}: expected one v16 r13 surah base, found {len(surahs)}; use --from-pack to select')
         sources={'surah':surahs[0]}
         for a in range(1,n+1):
+            if ayah_base=='r13':
+                hit=r13_reading(v16,s,a)
+                if hit: sources[f'{s}:{a}']=hit
+                else: print(f'WARNING {s}:{a}: no r13 ayah reading; no ayah page for it in this pack')
+                continue
             hits=[p for p in (v16/f'{s}_{a}').glob(f'DM.r13.images.r13.*/{R.AYAH_AUGMENT}/{s}_{a}.reading.tr.md')
                   if 'session-limit' not in str(p)]
             if len(hits)>1: raise ValueError(f'{s}:{a}: several augment9 bases')
@@ -56,7 +78,7 @@ def build(s, force=False, from_pack=None):
     if tmp.exists(): raise ValueError(f'interrupted Bible pack build: {tmp}')
     (tmp/'base').mkdir(parents=True)
     (tmp/'numbered').mkdir()
-    base={'surah':None,'ayat':{f'{s}:{a}':None for a in range(1,n+1)}}
+    base={'surah':None,'ayah_base':ayah_base,'ayat':{f'{s}:{a}':None for a in range(1,n+1)}}
     try:
         for ref,path in sources.items():
             name='surah.md' if ref=='surah' else ref.replace(':','_')+'.md'
@@ -64,8 +86,10 @@ def build(s, force=False, from_pack=None):
             if ref!='surah' and R.marker_mismatches(text):
                 raise ValueError(f'{path}: augment marker mismatch')
             original=(supplied['surah'] if ref=='surah' else supplied['ayat'][ref])['path'] if from_pack else str(path.relative_to(PG))
-            if ref!='surah' and f'/{R.AYAH_AUGMENT}/' not in original:
+            if ref!='surah' and ayah_base=='augment9' and f'/{R.AYAH_AUGMENT}/' not in original:
                 raise ValueError(f'{ref}: expected an augment9 base')
+            if ref!='surah' and ayah_base=='r13' and 'augment' in original:
+                raise ValueError(f'{ref}: expected an r13 reading, not an augment')
             info={'path':original,'sha256':C.sha256(path)}
             if ref=='surah': base['surah']=info
             else: base['ayat'][ref]=info
@@ -88,7 +112,7 @@ def build(s, force=False, from_pack=None):
     except BaseException:
         if tmp.exists(): shutil.rmtree(tmp)
         raise
-    print(f'S{s}: Bible pack {pk}; {n} ayat, {len(sources)-1} augment9 bases')
+    print(f'S{s}: Bible pack {pk}; {n} ayat, {len(sources)-1} {ayah_base} ayah bases')
     return pk
 
 
@@ -97,6 +121,8 @@ def main():
     ap.add_argument('--surah',type=int,required=True)
     ap.add_argument('--from-pack',type=Path,help='read-only selection from an existing frozen pack')
     ap.add_argument('--force',action='store_true')
-    a=ap.parse_args(); build(a.surah,a.force,a.from_pack)
+    ap.add_argument('--ayah-base',choices=AYAH_BASES,default='augment9',
+                    help='r13: the frozen r13 reading (v9 pages; from 2026-10-09); augment9: the S1/S87 pilot packs')
+    a=ap.parse_args(); build(a.surah,a.force,a.from_pack,a.ayah_base)
 
 if __name__=='__main__': main()

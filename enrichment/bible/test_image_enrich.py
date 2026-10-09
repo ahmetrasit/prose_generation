@@ -26,6 +26,10 @@ class BibleImageTest(W.BibleWorkflowTest):
             status='accepted',reason='A checked parallel in this paragraph.',paragraphs=[paragraph],
             evidence=['WLC:Gen.1.1'],annotations=[record['id']])])
         save(d/'gaps.json',dict(missing_sources=[],not_found=[],unresolved=[]))
+        roots=json.loads((d/'started.json').read_text())['semitic_roots']
+        I.save_jsonl(d/'root_verdicts.jsonl', [dict(root=r,decision='no_qualifying_parallel',hebrew=[],
+            reason='The corresponding root adds nothing specific to this paragraph.',paragraphs=[],annotations=[])
+            for r in roots])
         self.tool_gets(d, ['WLC:Gen.1.1'])
 
     def test_image_layout_keeps_global_numbers_and_covers_base(self):

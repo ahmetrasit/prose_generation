@@ -31,7 +31,7 @@ The following provisions specialize rules.md, which also describes the ordinary 
 - Do not reconstruct absent original texts from memory. A named work without a corpus locator can receive an
   unavailable verdict and a specific gap. Use local sources or corpus search to investigate independently.
 - Discovery grades and reader agreement are unverified. Check the actual Hebrew/Greek and neighbouring verses.
-  WLC uses ketiv; variants are separate. Search normalizes pointing/accents but does not supply lemmas or roots.
+  WLC uses ketiv; variants are separate. Search normalizes pointing/accents; hebrew.py supplies lemmas and roots.
 - You may combine several related accepted connections into one concise annotation only when that annotation
   actually expresses their point. Preserve one separate verdict per connection ID. Reject duplication of a point
   only with a concrete reason; do not mass-reject candidates merely to reduce workload.
@@ -55,6 +55,10 @@ Permitted commands (one at a time; no shell chaining, loops, redirection or arbi
     python3 {{ROOT}}/enrichment/bible/corpus.py --intertext ayah {{SURAH}}:1 --chars 1500
     python3 {{ROOT}}/enrichment/bible/corpus.py --intertext search 'Hebrew or Greek words' --src WLC --n 10 --chars 300
     python3 {{ROOT}}/enrichment/bible/corpus.py --intertext get WLC:Gen.1.1 SBLGNT:Matt.1.1 --chars 1500
+    python3 {{ROOT}}/enrichment/bible/hebrew.py root HEBREWROOT
+    python3 {{ROOT}}/enrichment/bible/hebrew.py root HEBREWROOT --from 400
+    python3 {{ROOT}}/enrichment/bible/hebrew.py cognates 'ARABIC ROOT LETTERS'
+    python3 {{ROOT}}/enrichment/bible/hebrew.py word WLC:Gen.1.1
     python3 {{ROOT}}/enrichment/bible/image_enrich.py check --dir {{DIRECTORY}}
 
 Replace the example ayah, words, exact candidate ID and locators as appropriate. Search Greek with --src SBLGNT. Open batches of
@@ -65,7 +69,8 @@ Write files with functions.exec using EXACTLY this wrapper; PATCH must be one JS
 
     text(await tools.apply_patch("PATCH"));
 
-The patch may add/update only annotations.jsonl, verdicts.jsonl, gaps.json and notes.md in your call directory.
+The patch may add/update only annotations.jsonl, verdicts.jsonl, gaps.json, root_verdicts.jsonl and notes.md in
+your call directory.
 Do not use template strings, variables, other JavaScript, shell writes or a script to generate judgments.
 Reading your own generated preview/surah.md is also allowed for checking placement; other sections remain
 outside your writing assignment. A native clock read is operational metadata, never research evidence.
@@ -74,7 +79,8 @@ The wrapper restriction enables a mechanical audit of native tool use. It does n
 
 ## Deliver and check
 
-Write annotations.jsonl, verdicts.jsonl and gaps.json following rules.md/schema.md. Every discovered connection
+Write annotations.jsonl, verdicts.jsonl, gaps.json and root_verdicts.jsonl following rules.md/schema.md (the
+Semitic root table of your section is at the end of this prompt; rules.md says how to use it and record it). Every discovered connection
 requires accepted/rejected/unresolved/unavailable with a SPECIFIC reason and the original connection_id/ref.
 Canonical acceptance AND rejection require the cited WLC/SBLGNT verse in evidence, actually opened with get.
 Every annotation needs a linked verdict. Every additional/context/failed get lookup needs a research verdict

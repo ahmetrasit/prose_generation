@@ -218,8 +218,11 @@ def target_page(s: int, target: str) -> tuple[str, str, dict]:
     else:
         info = base["ayat"].get(target)
         if not info:
-            raise SystemExit(f"no ayah base for {target} (v16 augment9 has not run on it)")
-        if f"/{AYAH_AUGMENT}/" not in info["path"]:
+            raise SystemExit(f"no ayah base for {target} in the Bible pack")
+        if base.get("ayah_base") == "r13":
+            if "augment" in info["path"]:
+                raise SystemExit(f"{target}: an r13 pack holds an augment base {info['path']}")
+        elif f"/{AYAH_AUGMENT}/" not in info["path"]:
             raise SystemExit(f"{target}: the pack's ayah base {info['path']} is not a v16 augment9 reading (the pack "
                              f"predates the switch to augment9): rebuild it with pack.py --surah {s} --force")
         name = target.replace(":", "_") + ".md"

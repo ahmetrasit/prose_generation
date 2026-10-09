@@ -60,6 +60,8 @@ def allowed_command(command, d):
     if script.name=='corpus.py':
         if tail[0]=='--intertext': tail=tail[1:]
         return bool(tail) and tail[0] in ('sources','get','ayah','search')
+    if script.name=='hebrew.py':
+        return bool(tail) and tail[0] in ('root','cognates','word','table')
     if script.name not in ('validate.py','render.py','verdicts.py'): return False
     paths={}
     for key in ('--annotations','--out','--report'):

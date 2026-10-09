@@ -258,7 +258,8 @@ def header(s: int, target: str, d: Path, runner: str = "codex") -> str:
         f"{d / 'annotations.jsonl'} --out {d / 'preview'}",
         f"- Verdict draft check: {py} {V2 / 'verdicts.py'} --surah {s} --target {target} --annotations "
         f"{d / 'annotations.jsonl'} --draft --report {d / 'verdicts.draft.json'}",
-        "- Deliverables: annotations.jsonl, verdicts.jsonl and gaps.json in your call directory.",
+        f"- Hebrew root and cognate tool: {py} {V2 / 'hebrew.py'} root ROOT | cognates 'ARABIC ROOT' | word WLC:Book.C.V",
+        "- Deliverables: annotations.jsonl, verdicts.jsonl, gaps.json and root_verdicts.jsonl in your call directory.",
     ] + ([f"- Pass: ehlikitap (the Tevrat and İncil layers; brief ehlikitap.md); corpus tool: {py} "
           f"{V2 / 'corpus.py'} --intertext (the flag before the subcommand)",
           "- Prefetch: read prefetch.json beside the selected discovery list; record its gaps in your gaps.json.",
@@ -355,7 +356,9 @@ def finish(s: int, target: str, d: Path, trial: bool = False, started: dict | No
         with snapshot.open('x', encoding='utf-8') as f:
             f.write(payload)
     evidence_snapshots={}
-    for filename in ('verdicts.jsonl','gaps.json','verdict_report.json'):
+    for filename in ('verdicts.jsonl','gaps.json','verdict_report.json','root_verdicts.jsonl'):
+        if filename=='root_verdicts.jsonl' and not (d/filename).exists():
+            continue  # calls prepared before the Semitic root table (2026-10-09)
         frozen=dst.with_suffix('.'+filename)
         content=(d/filename).read_bytes()
         if frozen.exists() and frozen.read_bytes()!=content:
@@ -531,8 +534,28 @@ def merge_page(s: int, target: str) -> bool:
 
 
 
-def build_prompt(s,target,d):
-    return '\n\n'.join([header(s,target,d,'agent'),(PROMPTS/'common.md').read_text(),(PROMPTS/'ehlikitap.md').read_text()])
+def target_roots(s,target):
+    """The Arabic roots of a page's frozen text (dictionary labels; for the surah page also the images' members)."""
+    ts=DISC.targets_of(s)
+    if target=='surah':
+        return sorted({r for t in ts if t['target'].startswith('sec') for r in DISC.target_roots(t)})
+    t=next((t for t in ts if t['target']==target),None)
+    if t is None: raise ValueError(f'{target}: not a target of the S{s} pack')
+    return DISC.target_roots(t)
+
+
+def root_section(roots):
+    from enrichment.bible import hebrew
+    table=hebrew.table(roots) if roots else '(The frozen text cites no Arabic root.)'
+    return ('# Semitic root table of this page\n\nThe Arabic roots this page cites, with the Hebrew and Biblical Aramaic '
+            'roots that correspond to them by regular sound correspondences and exist in the lexicon (hebrew.py). Each '
+            'root needs one line in root_verdicts.jsonl (Step 3b).\n\n'+table)
+
+
+def build_prompt(s,target,d,roots=None):
+    parts=[header(s,target,d,'agent'),(PROMPTS/'common.md').read_text(),(PROMPTS/'ehlikitap.md').read_text()]
+    if roots is not None: parts.append(root_section(roots))
+    return '\n\n'.join(parts)
 
 
 def spawn_target(s,target,attempt=1):
@@ -540,11 +563,15 @@ def spawn_target(s,target,attempt=1):
     if blocked(d) or accepted(s,target):
         raise ValueError(f'{target}: already started or accepted; never rerun')
     inputs=bible_inputs(s,target)
-    prompt=build_prompt(s,target,d)
+    from enrichment.bible import hebrew
+    if not hebrew.INDEX.exists(): raise ValueError('build the Hebrew root index first: hebrew.py build')
+    inputs[rel(hebrew.INDEX)]=file_hash(hebrew.INDEX)
+    roots=target_roots(s,target)
+    prompt=build_prompt(s,target,d,roots)
     _,base,info=R.target_page(s,target)
     row=dict(surah=s,target=target,brief=BRIEF,attempt=attempt,model='opus',model_id=MODELS['opus'][1],effort=EFFORT,
              base_sha256=info['sha256'],base_words=len(base.split()),pack_sha256=file_hash(wd(s)/'pack/pack.json'),
-             bible_inputs=inputs,estimate=estimate(s,target,'opus',EFFORT))
+             bible_inputs=inputs,estimate=estimate(s,target,'opus',EFFORT),semitic_roots=roots)
     AR.prepare(d,prompt,row,'enrich','annotations.jsonl',lookup=False)
     return {'status':'prepared','surah':s,'target':target,'dir':rel(d),'spawn':rel(d/'spawn.md')}
 
@@ -592,7 +619,9 @@ def main():
         d=call_dir(a.surah,target,a.attempt)
         try:
             if a.cmd=='build':
-                prompt=build_prompt(a.surah,target,d)
+                try: roots=target_roots(a.surah,target)
+                except (OSError,ValueError,KeyError) as exc: roots=None; print(f'NOTE: {target}: no root table ({exc})')
+                prompt=build_prompt(a.surah,target,d,roots)
                 issue=None
                 try: bible_inputs(a.surah,target)
                 except (OSError,ValueError,KeyError) as exc: issue=str(exc)

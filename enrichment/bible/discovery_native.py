@@ -121,12 +121,12 @@ def verify_run(d, log):
         raise ValueError('consolidation differs from finished log')
 
 
-def finish_run(d, start, session, events, done, contexts, usage, proof, diagnostics, protocol_findings=()):
+def finish_run(d, start, session, events, done, contexts, usage, proof, diagnostics, protocol_findings=(), extra=None):
     """Record failures as failures; only malformed proposals can enter a recorded repair."""
     from enrichment.bible import check_discovery as check
     first = json.loads((d/'turn1.json').read_text())
     problems = list(protocol_findings)
-    model_ok = bool(contexts) and all(c.get('model') == start['model'] and c.get('effort') == D.EFFORT for c in contexts)
+    model_ok = bool(contexts) and all(c.get('model') == start['model'] and c.get('effort') == start.get('effort',D.EFFORT) for c in contexts)
     if not model_ok: problems.append('unexpected model/effort')
     if len(done) != 2: problems.append('expected exactly two completed turns')
     if len(proof) != 1 or not (proof[0].get('encrypted') or proof[0].get('matches')):
@@ -161,6 +161,7 @@ def finish_run(d, start, session, events, done, contexts, usage, proof, diagnost
     if (d/'turn1.repair.accepted.json').exists():
         from enrichment.bible import discovery_first_repair as repair
         row['first_turn_repair']=repair.verify(d)
+    row.update(extra or {})
     D.save(d/'run.log.json',row)
     ledger = D.HERE/'work/discovery-ledger.jsonl'
     ledger.parent.mkdir(parents=True,exist_ok=True)
@@ -170,6 +171,17 @@ def finish_run(d, start, session, events, done, contexts, usage, proof, diagnost
 
 def followup_proof(session,events,message):
     meta = next((e['payload'] for e in events if e.get('type') == 'session_meta'),{})
+    if session.get('runner') == 'codex-exec':
+        # `codex exec resume` delivers the follow-up as the second turn's user message in the same rollout
+        turns = [e for e in events if e.get('type') == 'event_msg' and e.get('payload',{}).get('type') == 'task_started']
+        if len(turns) < 2:
+            return []
+        second = turns[1]['timestamp']
+        sent = [''.join(c.get('text','') for c in e['payload'].get('content',[]) if isinstance(c,dict))
+                for e in events if e.get('type') == 'response_item' and e['timestamp'] >= second
+                and e.get('payload',{}).get('type') == 'message' and e['payload'].get('role') == 'user'
+                and '<environment_context>' not in json.dumps(e['payload'].get('content',''))]
+        return [dict(call_id='codex-exec-resume',encrypted=False,matches=x.strip() == message.strip()) for x in sent]
     parent_id = meta.get('parent_thread_id') or meta.get('source',{}).get('subagent',{}).get('thread_spawn',{}).get('parent_thread_id')
     proof = []
     if parent_id:
@@ -195,15 +207,31 @@ def main():
     ap.add_argument('--reviewed',action='store_true',help='operator reviewed the tool audit')
     ap.add_argument('--protocol-finding',action='append',default=[],help='record a protocol violation; blocks merge/repair')
     a = ap.parse_args()
+    try:
+        run_phase(a)
+    except UsageError as e:
+        ap.error(str(e))
+
+
+class UsageError(ValueError):
+    pass
+
+
+def run_phase(a, runner='agent', extra=None):
+    """One lifecycle phase (start, snapshot, audit, finish) of one reader session. `runner` is 'agent' (a Codex
+    native subagent) or 'codex-exec' (codexrun.py, from a Claude Code orchestrator); `extra` adds fields to the
+    finished run log (the codex exec route records its API-equivalent cost there)."""
     d = D.tdir(a.surah,a.target,a.run_tag)/a.model
+    if a.model not in D.readers(a.surah,a.run_tag):
+        raise UsageError(f'{a.model} is not a reader of attempt {a.run_tag} ({", ".join(D.readers(a.surah,a.run_tag))})')
     if a.phase == 'start':
         if ((d/'started.json').exists() or (d/'run.log.json').exists()): raise SystemExit(f'BLOCKED: {d} already started; use a fresh run tag')
-        if not a.task or not re.fullmatch(r'(?:/[a-z0-9_]+/)?[a-z0-9_]+',a.task): ap.error('start requires a valid --task')
+        if not a.task or not re.fullmatch(r'(?:/[a-z0-9_]+/)?[a-z0-9_]+',a.task): raise UsageError('start requires a valid --task')
         inp = json.loads((d/'input.json').read_text())
         if D.digest(Path(inp['base_path'])) != inp['base_sha256']: raise ValueError('pack base changed after preparation')
-        start = {**inp,'started':datetime.now().astimezone().isoformat(),'runner':'agent','protocol':D.PROTOCOL,
+        start = {**inp,'started':datetime.now().astimezone().isoformat(),'runner':runner,'protocol':D.PROTOCOL,
                  'agent_path':a.task if a.task.startswith('/') else '/root/'+a.task,
-                 'model':D.MODELS[a.model],'effort':D.EFFORT,'run_tag':a.run_tag,
+                 'model':D.MODELS[a.model],'effort':D.EFFORTS[a.model],'run_tag':a.run_tag,
                  'prompt_sha256':D.digest(d/'prompt.md'),'package_sha256':D.digest(d/'package.md'),'input_sha256':D.digest(d/'input.json')}
         message = (f'Read {d/"prompt.md"} and {d/"package.md"} fully. Follow the brief independently using only '
                    'those inputs and your remembered knowledge of Jewish and Christian texts. '
@@ -217,7 +245,7 @@ def main():
         start.update(spawn_sha256=D.digest(d/'spawn.md'),followup_text_sha256=D.digest(d/'followup.txt'))
         if not inputs_unchanged(d,start): raise ValueError('pack changed after preparation')
         with (d/'started.json').open('x') as f: json.dump(start,f,indent=2)
-        print(message); return
+        print(message); return message
     if (d/'run.log.json').exists(): raise SystemExit('BLOCKED: already finished')
     start = json.loads((d/'started.json').read_text())
     if start.get('protocol') != D.PROTOCOL: raise ValueError('legacy run: preserve it and use a fresh attempt')
@@ -234,19 +262,20 @@ def main():
         if data and not data.endswith(b'\n'): raise ValueError('TSV must end in a newline')
         (d/'turn1.list.tsv').write_bytes(data)
         D.save(d/'turn1.json',dict(rows=len(rows),completed_at=done[0]['timestamp'],usage=usage,sha256=D.digest(d/'turn1.list.tsv')))
-        print(f'{a.target} {a.model}: first turn snapshotted, {len(rows)} rows'); return
+        print(f'{a.target} {a.model}: first turn snapshotted, {len(rows)} rows'); return len(rows)
     first = json.loads((d/'turn1.json').read_text())
     if first['sha256'] != D.digest(d/'turn1.list.tsv'): raise ValueError('first-turn snapshot changed')
     calls,diagnostics = N.tool_audit(events,first['completed_at'])
     D.save(d/'tool_calls.json',calls)
     if a.phase == 'audit':
-        print(json.dumps(dict(completions=len(done),contexts=contexts,diagnostics=diagnostics,tool_calls=str(d/'tool_calls.json')),ensure_ascii=False)); return
-    if not a.reviewed: ap.error('finish requires --reviewed after inspecting tool_calls.json')
+        print(json.dumps(dict(completions=len(done),contexts=contexts,diagnostics=diagnostics,tool_calls=str(d/'tool_calls.json')),ensure_ascii=False)); return calls
+    if not a.reviewed: raise UsageError('finish requires --reviewed after inspecting tool_calls.json')
     if len(done) < 2: raise ValueError('wait for the second completed turn before finish')
     proof = followup_proof(session,events,(d/'followup.txt').read_text())
-    row = finish_run(d,start,session,events,done,contexts,usage,proof,diagnostics,a.protocol_finding)
+    row = finish_run(d,start,session,events,done,contexts,usage,proof,diagnostics,a.protocol_finding,extra)
     print(json.dumps({k:row[k] for k in ('status','check','target','turn1_rows','turn2','tool_diagnostics',
                                        'protocol_findings','consolidation_error')},ensure_ascii=False))
     if row['status'] != 'ok': raise SystemExit(1)
+    return row
 
 if __name__ == '__main__': main()

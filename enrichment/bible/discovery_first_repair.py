@@ -22,7 +22,7 @@ def eligible(d):
     if start.get('protocol')!=D.PROTOCOL or not N.inputs_unchanged(d,start):
         raise ValueError('discovery protocol or inputs changed')
     session,events,done,contexts,usage=S.events_for(d)
-    if len(done)!=1 or not contexts or any(c.get('model')!=start['model'] or c.get('effort')!=D.EFFORT for c in contexts):
+    if len(done)!=1 or not contexts or any(c.get('model')!=start['model'] or c.get('effort')!=start.get('effort',D.EFFORT) for c in contexts):
         raise ValueError('expected one completed turn with the requested model and effort')
     if N.followup_proof(session,events,(d/'followup.txt').read_text()):
         raise ValueError('follow-up already delivered')
