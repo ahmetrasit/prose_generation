@@ -10,6 +10,7 @@ A verse is never split: one agent reads all of its notes.
   map.py check RUN [--model TAG] [--ayah A]   the agent runs it with --model and --ayah until OK; without --ayah:
                                               checks every verse and assembles the finished ones
   map.py report RUN                           cost, questions, positions, notes per verse and model
+  map.py refresh-rows RUN                     add fields missing from saved notes (anchor), same note ids only
 
 Files (RUN = enrichment/v9/work/RUN/map): rows/<k>.json (notes by id), rows/<k>.pK.txt (input parts), spawn/,
 runs/ (written by enrichment/v5/run_codex.py), out/<TAG>/<k>.raw.jsonl (agent output), out/<TAG>/<k>.jsonl and
@@ -28,6 +29,7 @@ import merge  # noqa: E402
 from digest import PART_CHARS, ROOT, TYPES, connect, dump  # noqa: E402
 
 BRIEF = V9 / 'briefs/map.md'
+ROW_FIELDS = ('src', 'author', 'death', 'speaker', 'stance', 'claim', 'anchor', 'mentions')
 BIG = 90_000  # input characters above which a verse is printed as large (never split)
 
 
@@ -93,8 +95,7 @@ def build(a):
             print(f'NOTE {ayah}: no tier-1 notes ({", ".join(a.from_tags)}); no map')
             continue
         dump(m / 'rows' / f'{key(ayah)}.json',
-             {r['id']: {x: r.get(x) for x in ('src', 'author', 'death', 'speaker', 'stance', 'claim', 'mentions')}
-              for r in rs})
+             {r['id']: {x: r.get(x) for x in ROW_FIELDS} for r in rs})
         chars, parts = write_parts(m, ayah, rs)
         p = {'ayah': ayah, 'rows': len(rs), 'sources': len({r['src'] for r in rs}), 'chars': chars, 'parts': parts}
         plan.append(p)
@@ -106,6 +107,22 @@ def build(a):
         for p in plan:
             spawn(m, a.run, spec, p)
     dump(m / 'manifest.json', {'from': a.from_tags, 'models': a.models, 'ayat': plan})
+
+
+def refresh_rows(a):
+    """Add fields missing from a run's saved notes (e.g. anchor), from tier 1; the note ids must be exactly the same."""
+    m = mdir(a.run)
+    man = json.loads((m / 'manifest.json').read_text())
+    for p in man['ayat']:
+        f = m / 'rows' / f"{key(p['ayah'])}.json"
+        old = json.loads(f.read_text())
+        rs = {r['id']: r for r in merge.tier1_rows(None, man['from'], p['ayah'], quiet=True)}
+        if set(rs) != set(old):
+            print(f"WARNING {p['ayah']}: tier-1 notes changed since the map was built "
+                  f"({len(set(rs) - set(old))} new, {len(set(old) - set(rs))} gone); not refreshed")
+            continue
+        dump(f, {i: {x: rs[i].get(x) for x in ROW_FIELDS} for i in old})
+        print(f"{p['ayah']}: {len(old)} notes refreshed")
 
 
 def check_verse(m, tag, ayah):
@@ -241,8 +258,9 @@ def main():
     p.add_argument('--ayat', nargs='+', required=True); p.add_argument('--models', nargs='+', required=True)
     p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--ayah')
     p = sub.add_parser('report'); p.add_argument('run')
+    p = sub.add_parser('refresh-rows'); p.add_argument('run')
     a = parser.parse_args()
-    {'build': build, 'check': check, 'report': report}[a.cmd](a)
+    {'build': build, 'check': check, 'report': report, 'refresh-rows': refresh_rows}[a.cmd](a)
 
 
 if __name__ == '__main__':
