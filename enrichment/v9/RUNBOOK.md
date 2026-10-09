@@ -25,7 +25,7 @@ Design and decisions: `PLAN.md` (read its "Decisions" section first). Test stand
 ## How agents run
 
 - **Luna and Sol (Codex):**
-  `python3 -B enrichment/v9/codex_run.py --parallel N <spawn files>` (N = the user's cap; since 2026-10-09 evening: tier-1 Luna 40, Luna translations 20, Sol 20, Opus 3; for the rest of S96 only: 5 Opus writers + 2 Opus meals at once, back to 3 for S87). Run it in the
+  `python3 -B enrichment/v9/codex_run.py --parallel N <spawn files>` (N = the user's cap; since 2026-10-09 evening: tier-1 Luna 40, Luna translations 20, Sol 40, Opus 3; for the rest of S96 only: 5 Opus writers + 2 Opus meals at once, back to 3 for S87). Run it in the
   background; it prints one line per agent. Each agent's record is `<stage>/runs/<agent>/run.json`.
 - **Opus (Claude Code):** agent type `enrich-page-high` (model opus, effort high). For each prompt block in
   `work/prod_sNNN/agents.md`, spawn one agent with exactly that text. Several may run at once.
@@ -78,6 +78,11 @@ python3 -B enrichment/v9/map.py report <maps run>
 ```
 `build` skips verses that already have a map (`SKIPPED`); `update-all` builds an update only for mapped verses whose
 tier-1 notes grew. `check` without `--ayah` assembles every finished map (`<k>.jsonl`, `<k>.md`).
+
+**Pages while maps run** (user, 2026-10-09): pass the map and update spawn files to `codex_run.py` in page order
+(the verses of the first page first; the pool keeps that order). After `build` and `update-all`,
+`tools/ready_pages.py S --build` lists READY/WAIT per writer and meal and builds the ready ones (a verse is ready when
+its map agent and every update agent finished and the checks pass; it is assembled then). Spawn their Opus agents.
 
 ### 3. Turkish renderings of the maps (Luna max)
 ```bash
