@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s087_20261009_sol-high_73-4",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T12:40:19",
+  "ended": "2026-10-09T12:45:36",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12189-88aa-76e2-9a1b-10c87171ef8f",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 604088,
+    "cached_input_tokens": 556416,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 27262,
+    "reasoning_output_tokens": 4587
+  },
+  "stderr": "2026-10-09T16:43:13.776705Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s087_20261009/map/out/sol-high/73-4.raw.jsonl:\n\"prefer\":[\"ALUSI-FULL:v29p102#3/r9\",\"ALUSI-FULL:v29p103/r15\"]\n2026-10-09T16:44:31.829815Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s087_20261009/map/out/sol-high/73-4.raw.jsonl\n",
+  "prompt_sha256": "cb7cc41661a0b620988aa8e456c79ba9ee76604540715760bbb207e8d731836e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T12-40-24-01a12189-88aa-76e2-9a1b-10c87171ef8f.jsonl",
+  "usd_equivalent": 0.479247,
+  "requests": 16,
+  "max_request_input_tokens": 56366,
+  "over_context_cap": false
+}

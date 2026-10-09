@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s087_20261009_sol-high_42-13",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T12:51:56",
+  "ended": "2026-10-09T12:58:52",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12194-1a1e-7970-9b56-7d54515228ce",
+  "commands": 13,
+  "usage": {
+    "input_tokens": 1112900,
+    "cached_input_tokens": 1037056,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34797,
+    "reasoning_output_tokens": 5611
+  },
+  "stderr": "2026-10-09T16:58:35.001348Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s087_20261009/map/out/sol-high/42-13.raw.jsonl\n",
+  "prompt_sha256": "06cfd49bfa960fe18ee3591bab05ef3c5d0bf9e5d9d91257b16f9f8bdf499489",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T12-51-56-01a12194-1a1e-7970-9b56-7d54515228ce.jsonl",
+  "usd_equivalent": 0.707069,
+  "requests": 22,
+  "max_request_input_tokens": 81321,
+  "over_context_cap": false
+}

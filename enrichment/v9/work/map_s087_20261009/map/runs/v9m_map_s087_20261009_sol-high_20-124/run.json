@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s087_20261009_sol-high_20-124",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T12:49:29",
+  "ended": "2026-10-09T12:55:15",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12191-eb1d-78e0-b769-5e408dce5327",
+  "commands": 10,
+  "usage": {
+    "input_tokens": 1024953,
+    "cached_input_tokens": 957952,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31258,
+    "reasoning_output_tokens": 7848
+  },
+  "stderr": "2026-10-09T16:52:19.845932Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 3, 'abcdefg' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n2026-10-09T16:52:24.229241Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find context 'bc' in /private/tmp/patchtest20.txt\n2026-10-09T16:52:26.090637Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /private/tmp/patchtest20.txt:\nbc\n",
+  "prompt_sha256": "5136a9e4446534656291f672ddf232e82486238679a245e86301d6c1673a5d8e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T12-49-33-01a12191-eb1d-78e0-b769-5e408dce5327.jsonl",
+  "usd_equivalent": 0.638172,
+  "requests": 22,
+  "max_request_input_tokens": 72540,
+  "over_context_cap": false
+}

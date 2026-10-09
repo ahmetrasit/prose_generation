@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s087_20261009_sol-high_87-8",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T12:25:24",
+  "ended": "2026-10-09T12:30:12",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1217b-d789-7760-a761-689f65024e01",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 287504,
+    "cached_input_tokens": 259968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 10289,
+    "reasoning_output_tokens": 1480
+  },
+  "stderr": "2026-10-09T16:25:34.013297Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: invalid peer certificate: UnknownIssuer, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T16:26:15.032195Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n2026-10-09T16:26:46.270955Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n2026-10-09T16:27:18.659367Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n2026-10-09T16:27:51.552882Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n",
+  "prompt_sha256": "c76b7882b2f6b741f0045b3af068e698eca47034dfea1dae0159fa3e6bb7e2b0",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T12-25-26-01a1217b-d789-7760-a761-689f65024e01.jsonl",
+  "usd_equivalent": 0.209956,
+  "requests": 13,
+  "max_request_input_tokens": 34649,
+  "over_context_cap": false
+}

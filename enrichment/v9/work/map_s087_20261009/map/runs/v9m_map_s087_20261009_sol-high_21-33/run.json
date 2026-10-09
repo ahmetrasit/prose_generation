@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s087_20261009_sol-high_21-33",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T12:25:24",
+  "ended": "2026-10-09T12:33:31",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1217b-e70e-7be0-9b5c-d1f94d0d1462",
+  "commands": 12,
+  "usage": {
+    "input_tokens": 915728,
+    "cached_input_tokens": 856704,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 24215,
+    "reasoning_output_tokens": 4268
+  },
+  "stderr": "2026-10-09T16:25:35.953890Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T16:26:24.992563Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n2026-10-09T16:26:56.423714Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n2026-10-09T16:27:27.970946Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n2026-10-09T16:32:40.610225Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s087_20261009/map/out/sol-high/21-33.raw.jsonl\n",
+  "prompt_sha256": "ad52cb926e32b86d9adebca8ab2f5bc27c1a05bc36cc605ea7afe2d1efd63f27",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T12-25-30-01a1217b-e70e-7be0-9b5c-d1f94d0d1462.jsonl",
+  "usd_equivalent": 0.531539,
+  "requests": 23,
+  "max_request_input_tokens": 64274,
+  "over_context_cap": false
+}

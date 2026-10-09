@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s087_20261009_sol-high_29-64",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T12:54:45",
+  "ended": "2026-10-09T12:57:34",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12196-b04c-7013-b1a7-dbcc06114771",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 272872,
+    "cached_input_tokens": 246784,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12281,
+    "reasoning_output_tokens": 2812
+  },
+  "stderr": "2026-10-09T16:57:28.452467Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s087_20261009/map/out/sol-high/29-64.raw.jsonl:\n{\"question\":\"What is life in the theological sense?\",\"words\":[\"ٱلْحَيَوَانُ\"],\"type\":\"theology\",\"positions\":[{\"position\":\"An accident unifying a thing's parts so it can know and exert power, defined by perception.\",\"reasons\":\"Jishumi gives this account.\",\"rows\":[\"JISHUMI:v8p5590/r11\"],\"prefer\":[],\"against\":[]}],\"turns_on\":\"\"}\n",
+  "prompt_sha256": "5e4dfc71846e9a3d4818536da3bd93ecb04a77536ad9b555881223d3c083e8d1",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T12-54-46-01a12196-b04c-7013-b1a7-dbcc06114771.jsonl",
+  "usd_equivalent": 0.224343,
+  "requests": 10,
+  "max_request_input_tokens": 35965,
+  "over_context_cap": false
+}

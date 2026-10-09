@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s087_20261009_sol-high_20-114",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T12:39:55",
+  "ended": "2026-10-09T12:45:18",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12189-1a11-7453-9ccc-cd0975591a73",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 743323,
+    "cached_input_tokens": 683008,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31385,
+    "reasoning_output_tokens": 2720
+  },
+  "stderr": "2026-10-09T16:42:25.855472Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 24, '' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n2026-10-09T16:44:33.457402Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s087_20261009/map/out/sol-high/20-114.raw.jsonl:\n\"against\":[\"ALUSI-FULL:v16p268/r6\",\"TABATABAI:20:114/r4\"]\n",
+  "prompt_sha256": "729602796d9d1263d9684b599e3d0716757448c66049d02dceb0c533d34a3f74",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T12-39-55-01a12189-1a11-7453-9ccc-cd0975591a73.jsonl",
+  "usd_equivalent": 0.571082,
+  "requests": 17,
+  "max_request_input_tokens": 67070,
+  "over_context_cap": false
+}

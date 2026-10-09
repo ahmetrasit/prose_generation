@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s087_20261009_sol-high_87-5",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T12:25:23",
+  "ended": "2026-10-09T12:31:59",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1217b-db0a-75f2-b594-a39160527d45",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 650010,
+    "cached_input_tokens": 580992,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 21289,
+    "reasoning_output_tokens": 4459
+  },
+  "stderr": "2026-10-09T16:26:12.984594Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n2026-10-09T16:26:45.936466Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n2026-10-09T16:27:18.022318Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n2026-10-09T16:27:49.699468Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n2026-10-09T16:30:37.785681Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s087_20261009/map/out/sol-high/87-5.raw.jsonl:\nMAWARDI-FULL:v6p252/r1\n",
+  "prompt_sha256": "61c4457b4342f77c53aa9c3b1268d7161aaddee6a416ca0f59417551ace1c4ec",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T12-25-27-01a1217b-db0a-75f2-b594-a39160527d45.jsonl",
+  "usd_equivalent": 0.467124,
+  "requests": 20,
+  "max_request_input_tokens": 52124,
+  "over_context_cap": false
+}

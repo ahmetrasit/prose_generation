@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s087_20261009_sol-high_21-87",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T12:25:24",
+  "ended": "2026-10-09T12:36:47",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1217b-fdc0-71b3-a768-04df202dbe51",
+  "commands": 18,
+  "usage": {
+    "input_tokens": 2005754,
+    "cached_input_tokens": 1896064,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 40160,
+    "reasoning_output_tokens": 7433
+  },
+  "stderr": "2026-10-09T16:25:41.406880Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T16:26:25.071566Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n2026-10-09T16:26:56.580669Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n2026-10-09T16:27:28.480596Z ERROR codex_core::tools::router: error=timed out negotiating with the code-mode host\n",
+  "prompt_sha256": "f8523e43f473112de6f877399c6a941d77b7c59e9f3dd0622e907e4b10611d68",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T12-25-36-01a1217b-fdc0-71b3-a768-04df202dbe51.jsonl",
+  "usd_equivalent": 1.000193,
+  "requests": 34,
+  "max_request_input_tokens": 103987,
+  "over_context_cap": false
+}

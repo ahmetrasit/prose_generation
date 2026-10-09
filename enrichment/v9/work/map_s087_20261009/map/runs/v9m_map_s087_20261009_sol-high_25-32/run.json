@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s087_20261009_sol-high_25-32",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T12:40:09",
+  "ended": "2026-10-09T12:47:10",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12189-5473-7e93-8373-4a78c4596575",
+  "commands": 11,
+  "usage": {
+    "input_tokens": 1200564,
+    "cached_input_tokens": 1130624,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31573,
+    "reasoning_output_tokens": 4855
+  },
+  "stderr": "tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s087_20261009/map/out/sol-high/25-32.raw.jsonl:\n{\"question\":\"Did earlier scriptures descend all at once?\",\"words\":[\"جُمْلَةًۭ وَٰحِدَةًۭ\"],\"type\":\"sciences\",\"positions\":[{\"position\":\"Yes, the Torah and commonly the Gospel and Psalms came as wholes.\",\"reasons\":\"The early objectors' comparison and the common scholarly position assume this; Suyūṭī argues God's answer would have denied the premise if false and cites analogous replies in 25:20, 21:7, 13:38. Ālūsī reports hadith and early reports and Suyūṭī's near-consensus claim; Bursevī says the Israelites struggled with the Torah's bulk.\",\"rows\":[\"MUQATIL:25:32-34/r1\",\"YAHYA-SALLAM:v1p480/r3\",\"FARRA:v2p267/r4\",\"TAB-FULL:v17p445/r1\",\"IBNABIHATIM:v8p2689/r3\",\"IBNABIHATIM:v8p2690/r2\",\"THALABI:v7p132/r6\",\"undefined/r1\",\"undefined/r9\",\"WAHIDI-WAJIZ:25:27-32/r7\",\"BAGHAWI-FULL:v6p83/r3\",\"KASHSHAF-FULL:v3p283/r5\",\"KASHSHAF-FULL:v3p283/r8\",\"IBNATIYYA-FULL:v4p209#2/r1\",\"IBNATIYYA-FULL:v4p209#2/r4\",\"TABRISI:25:31-34/r21\",\"TABRISI:25:32/r1\",\"IBNJAWZI-ZAD:v6p88#2/r1\",\"RAZI-FULL:v24p69/r1\",\"RAZI-FULL:v24p69/r3\",\"QURTUBI-FULL:25:32-33/r2\",\"QURTUBI-FULL:25:32-33/r4\",\"BAYDAWI-FULL:25:31-32/r6\",\"ABUHAYYAN-FULL:v8p103/r10\",\"ABUHAYYAN-FULL:v8p103#2/r1\",\"IBNKATHIR-FULL:v6p109#2/r1\",\"BURHAN:v1p231/r3\",\"BURHAN:v1p231/r5\",\"BIQAI-FULL:v5p315/r10\",\"DURR-FULL:v6p253/r7\",\"ITQAN:v1p121#2/r1\",\"ITQAN:v1p121#2/r3\",\"ITQAN:v1p121#2/r4\",\"ITQAN:v1p121/r2\",\"BURSEVI:v6p151#2/r3\",\"BURSEVI:v6p151#2/r7\",\"ALUSI-FULL:v19p14#2/r4\",\"TABATABAI:25:32/r4\"],\"prefer\":[\"ITQAN:v1p121#2/r3\"],\"against\":[]},{\"position\":\"No: Torah, Gospel and Psalms came in successive parts.\",\"reasons\":\"Biqāʿī cites the Torah's text; Ibn ʿĀshūr distinguishes tablets with Ten Commandments, Jesus's spoken sayings, and multiple Psalms. Iṣlāḥī adds prophets' teaching mission and says People of the Book scholars do not claim a whole descent; Ibn al-Kamāl argues the Torah took eighteen years, while Ālūsī criticizes his evidence.\",\"rows\":[\"BIQAI-FULL:v5p315/r10\",\"ITQAN:v1p121#2/r1\",\"ALUSI-FULL:v19p14#2/r5\",\"IBNASHUR-FULL:v19p18/r3\",\"IBNASHUR-FULL:v19p18/r5\",\"IBNASHUR-FULL:v19p18/r6\",\"ISLAHI-TADABBUR:vol-5-english:p374/r1\",\"ISLAHI-TADABBUR:vol-5-english:p374/r2\",\"ISLAHI-TADABBUR:vol-5-english:p374/r3\",\"ISLAHI-TADABBUR:vol-5-english:p374/r4\",\"ISLAHI-TADABBUR:vol-5-english:p374/r5\",\"ELMALILI:25:31-33/r2\"],\"prefer\":[\"ISLAHI-TADABBUR:vol-5-english:p374/r5\"],\"against\":[\"ITQAN:v1p121#2/r3\",\"ALUSI-FULL:v19p14#2/r5\"]},{\"position\":\"The Torah apparently came as written tablets, without proving a single delivery of every prior book.\",\"reasons\":\"Ṭabāṭabāʾī contrasts written tablets with the Qur'an received orally and says the objectors did not appeal to earlier scriptures.\",\"rows\":[\"TABATABAI:25:32/r4\",\"TABATABAI:25:32/r6\"],\"prefer\":[],\"against\":[]}],\"turns_on\":\"The status of historical reports and scriptural evidence for a one-time descent.\"}\n",
+  "prompt_sha256": "5228df342f0b453c101af416e12a2010d2581da01cd181088ab75dcba1aebc7d",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T12-40-10-01a12189-5473-7e93-8373-4a78c4596575.jsonl",
+  "usd_equivalent": 0.681735,
+  "requests": 24,
+  "max_request_input_tokens": 75517,
+  "over_context_cap": false
+}

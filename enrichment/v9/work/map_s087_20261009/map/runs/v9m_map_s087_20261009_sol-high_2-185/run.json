@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s087_20261009_sol-high_2-185",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T12:43:30",
+  "ended": "2026-10-09T12:56:58",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1218c-60f9-79c1-9788-ac4420cc98df",
+  "commands": 72,
+  "usage": {
+    "input_tokens": 7231226,
+    "cached_input_tokens": 7029248,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 60603,
+    "reasoning_output_tokens": 14165
+  },
+  "stderr": "2026-10-09T16:50:49.623819Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s087_20261009/map/out/sol-high/2-185.raw.jsonl:\n{\"question\":\"Does this verse abrogate an earlier fasting or fidya ruling?\",\"words\":[\"فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ\"],\"type\":\"sciences\",\"positions\":[{\"position\":\"It ends the healthy resident's former choice of fasting or feeding.\",\"reasons\":\"Ibn Abbas, Salama and the majority report an earlier choice; Ibn Kathir says the elderly unable to fast retain feeding. Razi notes this would replace a lighter rule with a heavier one.\",\"rows\":[\"IBNQUTAYBA-GHARIB:v1p73#4/r2\",\"WAHIDI-BASIT:v3p566/r2\",\"IBNKATHIR-FULL:v1p503/r2\",\"DURR-FULL:v1p430/r5\",\"RAZI-FULL:v5p78/r7\"],\"prefer\":[],\"against\":[]},{\"position\":\"The fasting verses form one discourse and do not abrogate one another.\",\"reasons\":\"Ibn Ashur and Tabatabai read shahr as explaining counted days; Bint al-Shati and Kuran Yolu distinguish fidya for the unable from make-up for temporary excuses.\",\"rows\":[\"IBNASHUR-FULL:v2p168/r2\",\"TABATABAI:2:184-185/r1\",\"BINTSHATI-IJAZ:p196/r4\",\"KURANYOLU-TEFSIR:2:185/r11\"],\"prefer\":[],\"against\":[]},{\"position\":\"The earlier counted days were a separate three-day or Ashura fast later replaced by Ramadan.\",\"reasons\":\"Elmalili reports Qatada, Ata and Muadh; the majority instead identify the counted days with Ramadan.\",\"rows\":[\"ELMALILI:2:185/r22\",\"ELMALILI:2:185/r23\"],\"prefer\":[],\"against\":[\"ELMALILI:2:185/r24\"]}],\"turns_on\":\"Whether 2:183-184 described a former option or one coherent Ramadan rule.\"}\n",
+  "prompt_sha256": "538a9fbaa96ce9bba46b197531e2d8a46eb4414ff1100a1ca5c9f2a734a5cec8",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T12-43-30-01a1218c-60f9-79c1-9788-ac4420cc98df.jsonl",
+  "usd_equivalent": 2.415836,
+  "requests": 64,
+  "max_request_input_tokens": 200069,
+  "over_context_cap": true
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s087_20261009_sol-high_19-33",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T12:54:12",
+  "ended": "2026-10-09T12:57:02",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12196-2efd-7ea0-a25e-a8db04042c86",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 266787,
+    "cached_input_tokens": 241024,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12566,
+    "reasoning_output_tokens": 3290
+  },
+  "stderr": "2026-10-09T16:56:49.770324Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s087_20261009/map/out/sol-high/19-33.raw.jsonl:\n{\"question\":\"Why is al-salām definite here?\"\n2026-10-09T16:56:55.513509Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find context '-1,0 +1 @@' in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s087_20261009/map/out/sol-high/19-33.raw.jsonl\n",
+  "prompt_sha256": "a28f3092f468910aa9664eda55369dbe9d65701da97e6caea10a7bb9f30de661",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T12-54-13-01a12196-2efd-7ea0-a25e-a8db04042c86.jsonl",
+  "usd_equivalent": 0.225391,
+  "requests": 10,
+  "max_request_input_tokens": 33498,
+  "over_context_cap": false
+}
