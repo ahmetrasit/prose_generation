@@ -28,7 +28,7 @@ def ayat(s: int) -> list[int]:
 
 
 MAP_BRIEFS = ("map3.nohft.tool", "map3.nochannels.hftbundle.tool")  # exact: map3.nohft.tool.check2 was a trial
-PRODUCTION = ("images.r13.", "r13.images.r13.", "augment9.opus.")  # prefixes
+PRODUCTION = ("images.r13.", "r13.images.r13.", "augment9.opus.DM.")  # a test arm (augment9.opus.<tag>.DM…) is not production  # prefixes
 
 
 def ledger() -> tuple[dict[str, float], dict[str, list[str]], dict[str, int]]:
@@ -44,7 +44,7 @@ def ledger() -> tuple[dict[str, float], dict[str, list[str]], dict[str, int]]:
         b = str(d.get("brief", ""))
         if (b in MAP_BRIEFS or b.startswith(PRODUCTION)) and d.get("status") is not None:
             last[(ref, d.get("arm"), d.get("brief"))] = d
-        if d.get("arm") == "augment-applied" and b.startswith("augment9.opus."):
+        if d.get("arm") == "augment-applied" and b.startswith("augment9.opus.DM."):
             aug_issues[ref] = d.get("insert_issues", 0)
         if d.get("post_error"):
             last[(ref, d.get("arm"), d.get("brief"), "post")] = d
