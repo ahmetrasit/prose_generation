@@ -25,7 +25,7 @@ Design and decisions: `PLAN.md` (read its "Decisions" section first). Test stand
 ## How agents run
 
 - **Luna and Sol (Codex):**
-  `python3 -B enrichment/v9/codex_run.py --parallel N <spawn files>` (N = the user's cap; since 2026-10-09 evening: tier-1 Luna 40, Luna translations 20, Sol 20, Opus 3). Run it in the
+  `python3 -B enrichment/v9/codex_run.py --parallel N <spawn files>` (N = the user's cap; since 2026-10-09 evening: tier-1 Luna 40, Luna translations 20, Sol 20, Opus 3; Opus 5 for the rest of S96 only, back to 3 for S87). Run it in the
   background; it prints one line per agent. Each agent's record is `<stage>/runs/<agent>/run.json`.
 - **Opus (Claude Code):** agent type `enrich-page-high` (model opus, effort high). For each prompt block in
   `work/prod_sNNN/agents.md`, spawn one agent with exactly that text. Several may run at once.
