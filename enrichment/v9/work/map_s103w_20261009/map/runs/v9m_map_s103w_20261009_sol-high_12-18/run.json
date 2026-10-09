@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s103w_20261009_sol-high_12-18",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:13:57",
+  "ended": "2026-10-09T06:21:25",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12027-c9ad-7f72-94a7-8b867e40c633",
+  "commands": 12,
+  "usage": {
+    "input_tokens": 1389401,
+    "cached_input_tokens": 1320320,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 32336,
+    "reasoning_output_tokens": 6558
+  },
+  "stderr": "2026-10-09T10:14:07.361188Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:19:48.279586Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s103w_20261009/map/out/sol-high/12-18.raw.jsonl:\n\"against\":[\"SAMIN-DURR:12:18/r4\",\"ABUHAYYAN-FULL:v6p250/r3\"]\n2026-10-09T10:20:50.347757Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find context 'How is 'beautiful patience' parsed and read?' in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s103w_20261009/map/out/sol-high/12-18.raw.jsonl\n2026-10-09T10:21:00.427933Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 4, Update hunk does not contain any lines\n",
+  "prompt_sha256": "9d09edc315eaa76e60a6efecb34799369f607488b08a7d8297b7238d188b7c35",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-14-01-01a12027-c9ad-7f72-94a7-8b867e40c633.jsonl",
+  "usd_equivalent": 0.725586,
+  "requests": 26,
+  "max_request_input_tokens": 76698,
+  "over_context_cap": false
+}
