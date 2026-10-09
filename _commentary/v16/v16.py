@@ -715,6 +715,9 @@ def usage_row(obj: dict, text: str) -> dict:
             "cost_usd": obj.get("total_cost_usd"), "output_tokens": usage.get("output_tokens"),
             "thinking_tokens": (usage.get("output_tokens_details") or {}).get("thinking_tokens"),
             "cache_write": usage.get("cache_creation_input_tokens"), "num_turns": obj.get("num_turns"),
+            # agent runs: the transcript's output count is a floor; the estimate counts the written text too
+            **({"cost_usd_est": obj["cost_usd_est"], "output_tokens_est": obj.get("output_tokens_est"),
+                "cache_read": usage.get("cache_read_input_tokens")} if obj.get("cost_usd_est") is not None else {}),
             "text_messages": len(obj.get("text_message_ids") or []), "tool_calls": obj.get("tool_calls", 0),
             "words": len(result.split()) if result else 0, "prompt_chars": len(text),
             "prompt_sha256": hashlib.sha256(text.encode()).hexdigest(), "cli": cli_version()}

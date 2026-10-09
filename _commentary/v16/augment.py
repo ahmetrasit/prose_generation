@@ -215,6 +215,11 @@ def build(d: Path, brief: str) -> tuple[str, dict]:
     if brief in LOOKUP:
         import packets as P
         head += P.tool_line(ayat[0], "lookup")
+        if brief in VERDICT:  # fewer turns after a long think: each one past five minutes re-writes the cache
+            head += ("Lookups: once you have read the whole prompt, gather every passage whose Arabic you want to "
+                     "read (listed or from your own knowledge) and read them together, in one message (several "
+                     "`text` calls side by side when there are more than 40 refs), instead of one lookup at a time "
+                     "while you judge; a later lookup is fine when something new comes up.\n\n")
     secs = [(V.rel(bf), bf.read_text(encoding="utf-8")),
             (f"{V.rel(f)} (prose paragraphs numbered)", "\n\n".join(numbered)),
             (V.rel(led), led.read_text(encoding="utf-8") if led.exists() else "(no ledger)\n")]
