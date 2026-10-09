@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c256",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:47:39",
+  "ended": "2026-10-09T02:51:29",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f6a-dcb5-7b60-9ffc-dfee330bbc28",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 254903,
+    "cached_input_tokens": 211968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 26333,
+    "reasoning_output_tokens": 18454
+  },
+  "stderr": "2026-10-09T06:50:38.463780Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c256.jsonl:\n{\"verses\":[\"26:150\",\"26:179\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The author says Shuaib's reported commands and prohibitions are more numerous than Salih's, as their quoted speeches show.\",\"anchor\":\"لوجدت أن ما ذكره شعيب من الأوامر والنواهي أكثر مما ذكره صالح.\",\"mentions\":[\"26:150\",\"26:153\",\"26:179\",\"26:185\"]}\n",
+  "prompt_sha256": "6dad965b696ce2d1220a923b374200055a3503f1a06fd001587448aa7e098ef9",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-47-39-01a11f6a-dcb5-7b60-9ffc-dfee330bbc28.jsonl",
+  "usd_equivalent": 0.01958,
+  "requests": 8,
+  "max_request_input_tokens": 45210,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1285",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:49:41",
+  "ended": "2026-10-09T01:57:35",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f35-cd44-79a0-bca3-4b9735298e06",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 649957,
+    "cached_input_tokens": 570368,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 61251,
+    "reasoning_output_tokens": 25648
+  },
+  "stderr": "2026-10-09T05:54:58.200182Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1285.jsonl:\n{\"verses\":[\"74:6\"],\"words\":[\"وَلَا تَمْنُن تَسْتَكْثِرُ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"One reading of menn is to avoid boasting by counting one's deeds, service, or kindness as great.\",\"anchor\":\"Menn başa kakmak mânasına olarak yaptığın işi, hizmeti, iyiliği çok sayarak başa kakma\",\"mentions\":[]}\n",
+  "prompt_sha256": "3a77962405ae174b8d7ef68e1b2e02b96068dcb9ce6dbd0d1ba1e99924560dec",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-49-42-01a11f35-cd44-79a0-bca3-4b9735298e06.jsonl",
+  "usd_equivalent": 0.044288,
+  "requests": 12,
+  "max_request_input_tokens": 84306,
+  "over_context_cap": false
+}

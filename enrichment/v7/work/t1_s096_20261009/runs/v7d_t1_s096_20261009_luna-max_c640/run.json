@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c640",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:04:38",
+  "ended": "2026-10-09T04:14:57",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fb1-5a33-73e3-a633-ff6cec9108d4",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1072110,
+    "cached_input_tokens": 958720,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 81167,
+    "reasoning_output_tokens": 33190
+  },
+  "stderr": "2026-10-09T08:12:45.340656Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c640.jsonl:\n{\"loc\":\"DURR-FULL:v1p470\",\"rows\":[{\"verses\":[\"2:186\"],\"words\":[\"فَإِنِّى قَرِيبٌ\"],\"type\":\"reports\",\"speaker\":\"كعب\",\"stance\":\"reports\",\"claim\":\"Kaʿb reports that Moses asked whether God was near or far; God said He accompanies whoever remembers Him and told Moses to remember Him in every state, including ritual impurity and relieving himself.\",\"anchor\":\"عن كعب قال: قال موسى أي رب أقريب أنت فأناجيك\",\"mentions\":[]},{\"verses\":[\"2:186\"],\"words\":[\"فَإِنِّى قَرِيبٌ\"],\"type\":\"reports\",\"speaker\":\"أبو موسى الأشعري عن النبي صلى الله عليه وسلم\",\"stance\":\"reports\",\"claim\":\"During an expedition, the Prophet told companions to lower their voices: they called upon One who hears and sees, is neither deaf nor absent, and is nearer than a mount’s neck.\",\"anchor\":\"عن أبي موسى الأشعري قال كنا مع رسول الله صلى الله عليه وسلم في غزاة فجعلنا لا نصعد شرفا\",\"mentions\":[]},{\"verses\":[\"2:186\"],\"words\":[\"إِذَا دَعَانِ\"],\"type\":\"reports\",\"speaker\":\"أنس عن النبي صلى الله عليه وسلم\",\"stance\":\"reports\",\"claim\":\"Anas reports God’s words: He is as His servant expects and is with the servant when called upon.\",\"anchor\":\"عن أنس أن النبي صلى الله عليه وسلم قال: يقول الله أنا عند ظن عبدي بي\",\"mentions\":[]},{\"verses\":[\"2:186\"],\"words\":[\"أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ\"],\"type\":\"reports\",\"speaker\":\"سلمان الفارسي عن النبي صلى الله عليه وسلم\",\"stance\":\"reports\",\"claim\":\"Salman reports that God is Living and Generous and is shy to return a servant’s raised hands empty; al-Tirmidhi graded the report good and al-Hakim called it sound.\",\"anchor\":\"عن سلمان الفارسي عن النبي صلى الله عليه وسلم قال إن ربكم حي كريم يستحي من عبده إذا رفع يديه إليه أن يردهما صفرا\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "b0ecf4eca4321844eb03107244be265bb664333e7357e8ee77a9c98da78d5825",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-04-39-01a11fb1-5a33-73e3-a633-ff6cec9108d4.jsonl",
+  "usd_equivalent": 0.06151,
+  "requests": 15,
+  "max_request_input_tokens": 115227,
+  "over_context_cap": false
+}

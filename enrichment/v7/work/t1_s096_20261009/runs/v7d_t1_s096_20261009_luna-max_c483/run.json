@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c483",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:25:26",
+  "ended": "2026-10-09T03:29:13",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f8d-76ff-7c13-8133-7856749108f6",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 259639,
+    "cached_input_tokens": 218880,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 24874,
+    "reasoning_output_tokens": 13332
+  },
+  "stderr": "2026-10-09T07:27:56.007004Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c483.jsonl:\n{\"loc\":\"ALUSI:96:11\",\"rows\":[{\"verses\":[\"96:9\",\"96:10\"],\"words\":[\"*\"],\"type\":\"reports\",\"speaker\":\"أبو طالب\",\"stance\":\"reports\",\"claim\":\"The cited poem attributed to Abū Ṭālib calls ʿAlī and Jaʿfar trusted kin in hardship and urges them not to abandon the Prophet but to support their maternal and paternal cousin.\",\"anchor\":\"وأنشأ يقول إن علياً وجعفراً ثقتي عند ملم الزمال والكرب\",\"mentions\":[]}\n",
+  "prompt_sha256": "7e0b7d02355e0b0d7a5bd3eb2c0f3b024aace290564935919242724ee1da8610",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-25-27-01a11f8d-76ff-7c13-8133-7856749108f6.jsonl",
+  "usd_equivalent": 0.018702,
+  "requests": 9,
+  "max_request_input_tokens": 41964,
+  "over_context_cap": false
+}

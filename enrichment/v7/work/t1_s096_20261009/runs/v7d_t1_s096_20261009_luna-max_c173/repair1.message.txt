@@ -1,0 +1,7 @@
+Repair request for your chunk. You may reread only your assigned chunk parts and read and edit only your own output file enrichment/v7/work/t1_s096_20261009/out/luna-max/c173.jsonl. The checker reports:
+
+NAHHAS:v3p295 row 8: anchor not found verbatim in the segment: وكذا\n20\nظرف\n21\nلام قسم
+NAHHAS:v3p295 row 9: anchor not found verbatim in the segment: 20\nظرف\n21\nلام قسم ( من العذاب الأدنى )
+NAHHAS:v3p295 row 11: anchor not found verbatim in the segment: أي لنفسه ممن ذكر بآيات ربه أي بحججه وعلاماته
+
+Fix every listed problem and change nothing else. An anchor must be one continuous span copied exactly from the segment body, with the same characters and spaces. A tagged word must be a word of that verse's own text; if no word fits, use the whole-verse tag your brief defines. Every segment needs exactly one line. Then run `python3 -B enrichment/v7/digest.py check t1_s096_20261009 --model luna-max --chunk 173` until it prints OK, and reply with one line.

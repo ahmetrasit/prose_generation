@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1248",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:41:47",
+  "ended": "2026-10-09T01:48:57",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f2e-9023-7261-9359-0ded0b1be826",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 502375,
+    "cached_input_tokens": 431360,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 54336,
+    "reasoning_output_tokens": 29945
+  },
+  "stderr": "2026-10-09T05:45:57.651094Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1248.jsonl:\n{\"verses\":[\"2:189\"],\"words\":[\"*\"],\"type\":\"law\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The command to enter houses through their doors should remain in mind as part of proper conduct.\",\"anchor\":\"Evlere kapılarından girilmelidir. Şu da derhâtır edilmelidir\",\"mentions\":[]}\n",
+  "prompt_sha256": "c1ef8f4dee72134661c485a1864ead6d314dd64db65d79fed45fb8b7fdf2185d",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-41-47-01a11f2e-9023-7261-9359-0ded0b1be826.jsonl",
+  "usd_equivalent": 0.038583,
+  "requests": 11,
+  "max_request_input_tokens": 71400,
+  "over_context_cap": false
+}

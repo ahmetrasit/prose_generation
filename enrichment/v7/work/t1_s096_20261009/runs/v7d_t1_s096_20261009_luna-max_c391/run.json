@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c391",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:03:43",
+  "ended": "2026-10-09T03:09:48",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f79-93ef-7931-9945-c1bc0f7a28bf",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 455446,
+    "cached_input_tokens": 385536,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 43180,
+    "reasoning_output_tokens": 22128
+  },
+  "stderr": "2026-10-09T07:09:16.137623Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 6, Expected update hunk to start with a @@ context marker, got: ']}'\n",
+  "prompt_sha256": "bdbf18ebc3d06168b94666fa3ae0b024c4c77c121745413f95cc072bc9015227",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-03-43-01a11f79-93ef-7931-9945-c1bc0f7a28bf.jsonl",
+  "usd_equivalent": 0.032436,
+  "requests": 10,
+  "max_request_input_tokens": 64668,
+  "over_context_cap": false
+}

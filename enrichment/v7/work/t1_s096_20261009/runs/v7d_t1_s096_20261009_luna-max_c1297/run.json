@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1297",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:51:35",
+  "ended": "2026-10-09T01:55:35",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f37-897a-7073-8a63-c45f666ace3e",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 290844,
+    "cached_input_tokens": 239616,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 35427,
+    "reasoning_output_tokens": 17125
+  },
+  "stderr": "2026-10-09T05:54:23.088811Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1297.jsonl:\n{\"verses\":[\"5:27\"],\"words\":[\"قُرْبَانًۭا\"],\"type\":\"law\",\"speaker\":\"Çoğunluğa\",\"stance\":\"reports\",\"claim\":\"The majority considers Eid sacrifice a confirmed Sunnah, not an obligation.\",\"anchor\":\"Çoğunluğa göre ise müekked sünnettir. Kurban kesmenin sünnet olduğu kanaatini taşıyan bilginler ise\",\"mentions\":[]}\n",
+  "prompt_sha256": "27957f642754a0c577d1024ed7ca4c966238db1f0d433021354188d078414c82",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-51-35-01a11f37-897a-7073-8a63-c45f666ace3e.jsonl",
+  "usd_equivalent": 0.025232,
+  "requests": 8,
+  "max_request_input_tokens": 55844,
+  "over_context_cap": false
+}

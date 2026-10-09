@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c63",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:02:41",
+  "ended": "2026-10-09T04:21:26",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11faf-8e38-74a0-b2dc-de7159202a60",
+  "commands": 11,
+  "usage": {
+    "input_tokens": 3440192,
+    "cached_input_tokens": 3144448,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 121775,
+    "reasoning_output_tokens": 64158
+  },
+  "stderr": "2026-10-09T08:17:13.197141Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c63.jsonl:\n{\"loc\":\"SIBAWAYH:(هذابابماكانمنهذاالنحومنبناتالواوالتيالواوفيهنفاء)#700\",\"rows\":[{\"verses\":[\"96:8\"],\"words\":[\"*\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"For weak-initial wāw verbs in this class, the verbal noun and place noun take mafʿil, as in al-mawʿid, al-mawḍiʿ, al-mawrid, al-mawjida, and al-mawʿida.\",\"anchor\":\"مفعل وذلك قولك للمكان الموعد والموضع والمورد وفي المصدر الموجدة والموعدة\",\"mentions\":[]},{\"verses\":[\"96:8\"],\"words\":[\"*\"],\"type\":\"grammar\",\"speaker\":\"أكثر العرب\",\"stance\":\"reports\",\"claim\":\"Most Arabs use muwjil and muwḥil for wajila and waḥila; Sībawayh explains the forms by the verbs’ unstable weak-letter alternations and analogy with other weak forms.\",\"anchor\":\"وقال أكثر العرب في وجل يوجل ووحل يوحل ~~موجل وموحل\",\"mentions\":[]},{\"verses\":[\"96:8\"],\"words\":[\"*\"],\"type\":\"grammar\",\"speaker\":\"ناس من العرب\",\"stance\":\"reports\",\"claim\":\"Some Arabs preserve the wāw in muwjil and muwḥil, analogizing to verbs such as yarkab after they keep the wāw in yūjil; mawadda likewise keeps its wāw.\",\"anchor\":\"وحدثنا يونس وغيره أن ناسا من العرب يقولون في وجل يوجل ونحوه\",\"mentions\":[]},{\"verses\":[\"96:8\"],\"words\":[\"*\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Mawḥid has fatḥa because it is a proper name, not a verbal noun or place noun; it is derived from wāḥid like ʿUmar from ʿĀmir, with parallels such as Mawhib and Mawriq.\",\"anchor\":\"وموحد فتحوه إذ كان اسما\",\"mentions\":[]},{\"verses\":[\"96:8\"],\"words\":[\"*\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Initial-yāʾ roots behave like sound roots because yāʾ followed by yāʾ is light; maysara is compared with al-maʿjiza, with a reported variant pronunciation of maysara.\",\"anchor\":\"لأنها تتم ولا تعتل وذلك أن الياء مع الياء أخف عليهم ألا تراهم يقولون\",\"mentions\":[]}]} \n",
+  "prompt_sha256": "893c156dd95ee81c55f95529c3beb29120d36fe6e9c27fa5991c4840ac4586b4",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-02-41-01a11faf-8e38-74a0-b2dc-de7159202a60.jsonl",
+  "usd_equivalent": 0.121906,
+  "requests": 37,
+  "max_request_input_tokens": 145652,
+  "over_context_cap": true
+}

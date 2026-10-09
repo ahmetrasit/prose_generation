@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c680",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:13:12",
+  "ended": "2026-10-09T04:22:05",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fb9-3271-7da2-a71a-c06d06d3d589",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 737629,
+    "cached_input_tokens": 648960,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 63895,
+    "reasoning_output_tokens": 26742
+  },
+  "stderr": "2026-10-09T08:17:52.625644Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c680.jsonl:\n\"anchor\":\"والتسبيح التنزيه عن النقائص\"\n2026-10-09T08:19:03.450628Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'\n",
+  "prompt_sha256": "4b6f4aff7c1c39a5badffed31ae9dbb4c7e812ec3b90fb0563295026cf749ff5",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-13-13-01a11fb9-3271-7da2-a71a-c06d06d3d589.jsonl",
+  "usd_equivalent": 0.047304,
+  "requests": 13,
+  "max_request_input_tokens": 86755,
+  "over_context_cap": false
+}

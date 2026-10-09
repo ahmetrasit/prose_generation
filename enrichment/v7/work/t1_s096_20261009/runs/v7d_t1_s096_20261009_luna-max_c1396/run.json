@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1396",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:09:22",
+  "ended": "2026-10-09T02:20:36",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f47-d199-7a90-ab22-53f435c45ff4",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1237667,
+    "cached_input_tokens": 1110016,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 89442,
+    "reasoning_output_tokens": 37708
+  },
+  "stderr": "2026-10-09T06:15:40.190474Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1396.jsonl:\n\"anchor\":\"وكذا قوله لا تعلمهم نحن نعلمهم أي لا نعلمهم إلا نحن\"\n",
+  "prompt_sha256": "17d92bdb46ab3a9fee02f31fe00dc9744fa1a1e445315af5b4f37219c7b35e0b",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-09-22-01a11f47-d199-7a90-ab22-53f435c45ff4.jsonl",
+  "usd_equivalent": 0.068586,
+  "requests": 16,
+  "max_request_input_tokens": 121765,
+  "over_context_cap": true
+}

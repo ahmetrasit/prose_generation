@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c729",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:23:02",
+  "ended": "2026-10-09T04:29:39",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fc2-32d3-7050-a0e7-5060057e3b85",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 557480,
+    "cached_input_tokens": 448512,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 50517,
+    "reasoning_output_tokens": 21293
+  },
+  "stderr": "2026-10-09T08:26:49.260835Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c729.jsonl:\n\"anchor\":\"أبو بكر الباقلائي وابن عبد البر وأبو بكر بن العربي والطبري والطحاوي ، وينسب إلى ابن عيينة وابن وهب قالوا كان ذلك رخصة في صدر الإسلام\"\n",
+  "prompt_sha256": "c179c2d370add3316d172d61b1440f63a0b930ec004f7b891e72a7fb474c9fe6",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-23-03-01a11fc2-32d3-7050-a0e7-5060057e3b85.jsonl",
+  "usd_equivalent": 0.04064,
+  "requests": 12,
+  "max_request_input_tokens": 72389,
+  "over_context_cap": false
+}

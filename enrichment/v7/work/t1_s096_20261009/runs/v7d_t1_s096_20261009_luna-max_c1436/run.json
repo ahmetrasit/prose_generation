@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1436",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:17:40",
+  "ended": "2026-10-09T02:24:17",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f4f-6c64-7991-a392-1cbbbbf9a664",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 813380,
+    "cached_input_tokens": 738560,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 49089,
+    "reasoning_output_tokens": 21664
+  },
+  "stderr": "2026-10-09T06:21:59.381748Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1436.jsonl\n",
+  "prompt_sha256": "2463d3b9dcf3c72e52944a04339858811fe6af4991ff50f875e8e4168316bde2",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-17-41-01a11f4f-6c64-7991-a392-1cbbbbf9a664.jsonl",
+  "usd_equivalent": 0.039412,
+  "requests": 15,
+  "max_request_input_tokens": 73629,
+  "over_context_cap": false
+}

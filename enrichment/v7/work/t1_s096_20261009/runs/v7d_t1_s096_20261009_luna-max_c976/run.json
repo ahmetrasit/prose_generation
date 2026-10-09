@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c976",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T05:27:41",
+  "ended": "2026-10-09T05:36:06",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11ffd-62d0-76b3-8674-72acd1eaee0a",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 1059954,
+    "cached_input_tokens": 977152,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 55940,
+    "reasoning_output_tokens": 22827
+  },
+  "stderr": "2026-10-09T09:32:07.889240Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c976.jsonl:\n{\"loc\":\"RAZI-FULL:v2p103#2\",\"rows\":[{\"verses\":[\"2:22\"],\"words\":[\"أَندَادًۭا\"],\"type\":\"theology\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Rāzī says no group asserts a fully equal partner with God in existence, power, knowledge, and wisdom.\",\"anchor\":\"ليس في العالم أحد يثبت لله شريكا يساويه في الوجود والقدرة والعلم والحكمة\",\"mentions\":[]},{\"verses\":[\"2:22\"],\"words\":[\"أَندَادًۭا\"],\"type\":\"theology\",\"speaker\":\"الثنوية\",\"stance\":\"reports\",\"claim\":\"Dualists posit two gods: one mild and responsible for good, the other foolish and responsible for evil.\",\"anchor\":\"الثنوية يثبتون إلهين أحدهما حليم يفعل الخير والثاني سفيه يفعل الشر\",\"mentions\":[]},{\"verses\":[\"2:22\"],\"words\":[\"أَندَادًۭا\"],\"type\":\"referent\",\"speaker\":\"الصابئة\",\"stance\":\"reports\",\"claim\":\"The Sabeans say God created the planets, which administer the world; they worship them, while the planets worship God.\",\"anchor\":\"الفريق الأول عبدة الكواكب وهم الصابئة فإنهم يقولون إن الله تعالى خلق هذه الكواكب وهذه الكواكب هي المدبرات لهذا العالم\",\"mentions\":[]},{\"verses\":[\"2:22\"],\"words\":[\"أَندَادًۭا\"],\"type\":\"referent\",\"speaker\":\"النصارى\",\"stance\":\"reports\",\"claim\":\"Christians are another group that worships Jesus.\",\"anchor\":\"الفريق الثاني النصارى الذين يعبدون المسيح عليه السلام\",\"mentions\":[]},{\"verses\":[\"2:22\"],\"words\":[\"أَندَادًۭا\"],\"type\":\"sciences\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Idol worship predates the earliest prophet whose history is known, Noah, and remains widespread; Noah's people already defended their idols.\",\"anchor\":\"لا دين أقدم من دين عبدة الأوثان وذلك لأن أقدم الأنبياء الذين نقل إلينا تاريخهم هو نوح عليه السلام\",\"mentions\":[\"71:23\"]},{\"verses\":[\"2:22\"],\"words\":[\"أَندَادًۭا\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Since everyone knows a stone carved now did not create its worshipper or the heavens and earth, the durability of idol worship implies another motive.\",\"anchor\":\"والعلم بأن هذا الحجر المنحوت في هذه الساعة ليس هو الذي خلقني وخلق السموات والأرض علم ضروري\",\"mentions\":[]}\n",
+  "prompt_sha256": "615bdc224b5ab1819315408bd4dfb9eaa7fecfb73b4ddfe799b928a297157527",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T05-27-42-01a11ffd-62d0-76b3-8674-72acd1eaee0a.jsonl",
+  "usd_equivalent": 0.046022,
+  "requests": 19,
+  "max_request_input_tokens": 78394,
+  "over_context_cap": false
+}

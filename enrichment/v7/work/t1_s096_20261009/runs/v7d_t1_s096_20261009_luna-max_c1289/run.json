@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1289",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:49:57",
+  "ended": "2026-10-09T01:58:14",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f36-0c80-7382-8ede-f1480c9fd58a",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 523381,
+    "cached_input_tokens": 449024,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47011,
+    "reasoning_output_tokens": 17676
+  },
+  "stderr": "2026-10-09T05:53:27.684906Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 6, '\"mentions\":[]},{\"verses\":[\"86:6\"],\"words\":[\"مَّآءٍۢ دَافِقٍۢ\"],\"type\":\"reports\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"Semen liquefies after about 20–25 minutes for an unknown reason; mild warmth suffices, while stronger heating decomposes it and releases ammonia.\",\"anchor\":\"Meni bir kabda örtülü veya örtüsüz bırakıldığı vakit yirmi yirmi beş dakika sonra su gibi incelir ve bunun sebebi mâlum değildir.\",\"mentions\":[]},{\"verses\":[\"86:6\"],\"words\":[\"مَّآءٍۢ دَافِقٍۢ\"],\"type\":\"reports\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"In hot dry air semen thickens and forms calcium-phosphate crystals; in hot humid air it yellows, turns acidic, develops a foul fish-like odor, and molds.\",\"anchor\":\"eğer hava hâr ve kuru ise koyulaşır ve katılır ve onda fosfat kils billûrâtı peydâ olur. Ve eğer hava hâr ve râtıb ise terkîbi kurumadan tegayyür eder, sararır, hamızlaşır\",' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n",
+  "prompt_sha256": "3914cbba32a366ae7ec89de904c3a91e53e9bc1798791e19ba59160dc2e43b2e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-49-58-01a11f36-0c80-7382-8ede-f1480c9fd58a.jsonl",
+  "usd_equivalent": 0.035431,
+  "requests": 10,
+  "max_request_input_tokens": 82191,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1462",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:21:03",
+  "ended": "2026-10-09T02:42:08",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f52-8250-7f90-830c-67831c04da4e",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1331798,
+    "cached_input_tokens": 1212928,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 119182,
+    "reasoning_output_tokens": 39897
+  },
+  "stderr": "2026-10-09T06:25:32.367074Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 3, '{\"loc\":\"IBNJAWZI-NUZHA:v1p314\",\"rows\":[{\"verses\":[\"33:56\"],\"words\":[\"صَلُّوا۟ عَلَيْهِ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Lexically, rukūʿ means bending; every person or thing that bends is described as rākʿ.\",\"anchor\":\"الركوع في اللغة الانحناء وكل منحن راكع\",\"mentions\":[]},{\"verses\":[\"33:56\"],\"words\":[\"صَلُّوا۟ عَلَيْهِ\"],\"type\":\"meaning\",\"speaker\":\"لبيد\",\"stance\":\"reports\",\"claim\":\"Labīd uses rākʿ for a person who bends when rising, as evidence for the literal sense of rukūʿ.\",\"anchor\":\"قال لبيد أخبر أخبار القرون التي مضت أدب كأني كلما قمت راكع\",\"mentions\":[]},{\"verses\":[\"33:56\"],\"words\":[\"صَلُّوا۟ عَلَيْهِ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"Rukūʿ can also mean abasement; an anonymous verse illustrates the usage.\",\"anchor\":\"ويقال الركوع ويراد به الذل وأنشدوا من ذلك\",\"mentions\":[]},{\"verses\":[\"33:56\"],\"words\":[\"صَلُّوا۟ عَلَيْهِ\"],\"type\":\"meaning\",\"speaker\":\"أهل التفسير\",\"stance\":\"reports\",\"claim\":\"Exegetes use rukūʿ for prayer as a whole; in 2:43, it means pray with those who pray.\",\"anchor\":\"أحدها الصلاة بجملتها ومنه قوله تعالى في البقرة واركعوا مع الراكعين\",\"mentions\":[\"2:43\"]},{\"verses\":[\"33:56\"],\"words\":[\"صَلُّوا۟ عَلَيْهِ\"],\"type\":\"meaning\",\"speaker\":\"أهل التفسير\",\"stance\":\"reports\",\"claim\":\"Exegetes also use rukūʿ for physical bowing, as in the command to bow and prostrate.\",\"anchor\":\"والثاني الانحناء ومنه قوله تعالى في الحج اركعوا واسجدوا\",\"mentions\":[\"22:77\"]},{\"verses\":[\"33:56\"],\"words\":[\"صَلُّوا۟ عَلَيْهِ\"],\"type\":\"meaning\",\"speaker\":\"أهل التفسير\",\"stance\":\"reports\",\"claim\":\"A third Qurʾanic sense is prostration, exemplified by David falling down and turning back to God.\",\"anchor\":\"والثالث السجود ومنه قوله تعالى في ص وخر راكعا وأناب\",\"mentions\":[\"38:24\"]}]}' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n",
+  "prompt_sha256": "8fab86e5c9e880413e1a599a258a3aa7e8acd2fd4dbe204f4d252f1f0d96eb95",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-21-03-01a11f52-8250-7f90-830c-67831c04da4e.jsonl",
+  "usd_equivalent": 0.083607,
+  "requests": 14,
+  "max_request_input_tokens": 148842,
+  "over_context_cap": true
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c971",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T05:26:55",
+  "ended": "2026-10-09T05:34:45",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11ffc-aed3-72f2-bb10-e59aad84dfae",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 767232,
+    "cached_input_tokens": 687616,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 57112,
+    "reasoning_output_tokens": 21318
+  },
+  "stderr": "2026-10-09T09:33:17.798844Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c971.jsonl:\n{\"verses\":[\"2:2\"],\"words\":[\"لَا رَيْبَ فِيهِ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The verse denies that the Book gives any ground for doubt: its truth, divine origin, and miraculous character are beyond reasonable suspicion.\",\"anchor\":\"فالمقصود أنه لا شبهة في صحته ، ولا في كونه من عند الله ، ولا في كونه معجزا\",\"mentions\":[]}\n",
+  "prompt_sha256": "be4d7bc89688801b2f1e901860cb21b71a50fbbcb746caa0825b8d8237678079",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T05-26-56-01a11ffc-aed3-72f2-bb10-e59aad84dfae.jsonl",
+  "usd_equivalent": 0.043394,
+  "requests": 14,
+  "max_request_input_tokens": 80119,
+  "over_context_cap": false
+}

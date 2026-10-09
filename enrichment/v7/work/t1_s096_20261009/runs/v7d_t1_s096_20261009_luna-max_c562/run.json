@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c562",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:44:35",
+  "ended": "2026-10-09T03:49:31",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f9e-fc78-75a1-8ffb-bfdc9941d239",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 460651,
+    "cached_input_tokens": 413184,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 29690,
+    "reasoning_output_tokens": 24501
+  },
+  "stderr": "2026-10-09T07:47:51.538787Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c562.jsonl:\n{\"loc\":\"BAGHAWI-FULL:v1p38#2\",\"rows\":[{\"verses\":[\"72:1\"],\"words\":[\"قُرْءَانًا عَجَبًۭا\"],\"type\":\"reports\",\"speaker\":\"النبي صلى الله عليه وسلم\",\"stance\":\"reports\",\"claim\":\"Uthman reports the Prophet said the best people learn and teach the Qur’an; al-Baghawi calls the report authentic and says al-Bukhari transmitted it via Hajjaj ibn Minhal from Shuʿba.\",\"anchor\":\"عن النبي صلى الله عليه وسلم؟ قال: نعم قال: \\\" خيركم من تعلم القرآن وعلمه \\\"\"},{\"verses\":[\"72:1\"],\"words\":[\"قُرْءَانًا عَجَبًۭا\"],\"type\":\"reports\",\"speaker\":\"النبي صلى الله عليه وسلم\",\"stance\":\"reports\",\"claim\":\"Ali reports the Prophet: the Qur’an answers tribulation with past and future news and judgment; leaving it crushes tyrants and misleads seekers. It is God’s firm rope, wise reminder and straight path, immune to whims and tongues; scholars never tire, repetition cannot wear it out, and wonders never end.\",\"anchor\":\"سمعت رسول الله صلى الله عليه وسلم يقول: \\\"ألا إنها ستكون فتنة قلت فما المخرج منها يا رسول الله؟ قال: كتاب الله\\\"\"},{\"verses\":[\"72:1\",\"72:2\"],\"words\":[\"إنا سمعنا قرآنا عجبا\",\"يهدي إلى الرشد فآمنا به\"],\"type\":\"reports\",\"speaker\":\"الجن\",\"stance\":\"reports\",\"claim\":\"The jinn who heard the Qur’an said it was amazing, guided to right conduct, and they believed in it.\",\"anchor\":\"هو الذي لم تنته الجن إذ سمعته حتى قالوا إنا سمعنا قرآنا عجبا يهدي إلى الرشد فآمنا به\"},{\"verses\":[\"72:1\"],\"words\":[\"*\"],\"type\":\"reports\",\"speaker\":\"أبو عيسى\",\"stance\":\"reports\",\"claim\":\"Abu Isa says the report is known only through this route, its chain is unknown, and al-Harith is criticized.\",\"anchor\":\"قال أبو عيسى: هذا (الحديث) لا نعرفه إلا من هذا الوجه وإسناده مجهول، والحارث فيه مقال\"}]}\n2026-10-09T07:48:14.768039Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c562.jsonl\n",
+  "prompt_sha256": "4fcf094fece584bbe974c0eb02fb20270731e5bbb02af74a4b7e04b531c2f98e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-44-35-01a11f9e-fc78-75a1-8ffb-bfdc9941d239.jsonl",
+  "usd_equivalent": 0.023724,
+  "requests": 14,
+  "max_request_input_tokens": 44232,
+  "over_context_cap": false
+}

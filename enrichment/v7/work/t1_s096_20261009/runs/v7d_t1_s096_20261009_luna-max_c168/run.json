@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c168",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:27:30",
+  "ended": "2026-10-09T02:28:57",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f58-6b72-7b60-a32d-3d12633af4e7",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 203789,
+    "cached_input_tokens": 177152,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 10302,
+    "reasoning_output_tokens": 6189
+  },
+  "stderr": "2026-10-09T06:28:25.025642Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to read /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c168.jsonl: No such file or directory (os error 2)\n",
+  "prompt_sha256": "3b3c0a857203d15cdbe3782a9f1c39703d5d7f113f59c0d3da6bb1150de78055",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-27-30-01a11f58-6b72-7b60-a32d-3d12633af4e7.jsonl",
+  "usd_equivalent": 0.009586,
+  "requests": 8,
+  "max_request_input_tokens": 32001,
+  "over_context_cap": false
+}

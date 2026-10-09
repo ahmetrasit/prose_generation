@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1255",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:44:24",
+  "ended": "2026-10-09T01:49:27",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f30-f604-78c1-aefc-34af132215d9",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 453929,
+    "cached_input_tokens": 395520,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 35713,
+    "reasoning_output_tokens": 20554
+  },
+  "stderr": "2026-10-09T05:47:36.926413Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1255.jsonl:\n\"Müfessirîn demişlerdir ki, bundan insanın şeytanı hiç göremeyeceği zannedilmemelidir. Görülmeyecek cihetten görebilmek hiçbir vechile görülememeyi iktizâ etmez.\"\n",
+  "prompt_sha256": "64e465827a83caedaf2be5a8100d5c9e858c7a2fc25bb94ab5bd948e8e1a88d6",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-44-24-01a11f30-f604-78c1-aefc-34af132215d9.jsonl",
+  "usd_equivalent": 0.027653,
+  "requests": 11,
+  "max_request_input_tokens": 64285,
+  "over_context_cap": false
+}

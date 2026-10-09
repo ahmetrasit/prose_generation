@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1211",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:33:00",
+  "ended": "2026-10-09T01:44:37",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f26-8d8d-7ff3-b661-5720756d31a5",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1169480,
+    "cached_input_tokens": 1056000,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 91484,
+    "reasoning_output_tokens": 37280
+  },
+  "stderr": "2026-10-09T05:39:35.671999Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1211.jsonl\n2026-10-09T05:44:13.364793Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 2, Update file hunk for path 'enrichment/v7/work/prose_generation_placeholder.txt' is empty\n",
+  "prompt_sha256": "780e7a098c146bc7894b5ccdda4fd4b3092b35d53049d83375cf414ec45967e1",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-33-03-01a11f26-8d8d-7ff3-b661-5720756d31a5.jsonl",
+  "usd_equivalent": 0.06765,
+  "requests": 15,
+  "max_request_input_tokens": 116138,
+  "over_context_cap": false
+}

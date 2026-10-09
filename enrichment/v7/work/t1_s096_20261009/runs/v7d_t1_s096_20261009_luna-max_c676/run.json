@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c676",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:12:06",
+  "ended": "2026-10-09T04:19:29",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fb8-2eea-7cd3-87d3-c316646705dd",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 594881,
+    "cached_input_tokens": 524288,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 54721,
+    "reasoning_output_tokens": 23445
+  },
+  "stderr": "2026-10-09T08:17:20.629267Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c676.jsonl:\n{\"loc\":\"IBNASHUR:1:3\",\"rows\":[{\"verses\":[\"1:3\"],\"words\":[\"ٱلرَّحْمَٰنِ ٱلرَّحِيمِ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Al-Raḥmān and al-Raḥīm are both derived from the root r-ḥ-m.\",\"anchor\":\"وصفان مشتقان من رحم ، واسم الرحمة موضوع في اللغة العربية\"}\n",
+  "prompt_sha256": "d0a5179a5fd7242d8f1b2cafbdce44dd2cea888fcce2e78e0b51ea0d5e7c71d8",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-12-06-01a11fb8-2eea-7cd3-87d3-c316646705dd.jsonl",
+  "usd_equivalent": 0.039663,
+  "requests": 12,
+  "max_request_input_tokens": 72366,
+  "over_context_cap": false
+}

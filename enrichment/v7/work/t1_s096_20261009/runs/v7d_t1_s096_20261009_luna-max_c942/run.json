@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c942",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T05:15:40",
+  "ended": "2026-10-09T05:27:26",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11ff2-635b-7b83-8895-acb92eaa6c1f",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1251907,
+    "cached_input_tokens": 1125376,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 80914,
+    "reasoning_output_tokens": 46428
+  },
+  "stderr": "2026-10-09T09:22:05.726282Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c942.jsonl:\n{\"verses\":[\"26:10\"],\"words\":[\"إِذْ\"],\"type\":\"grammar\",\"speaker\":\"النحاس\",\"stance\":\"reports\",\"claim\":\"The opening إذ is accusative, with an implied “recite to them,” supported by the following command to recount Abraham’s story.\",\"anchor\":\"إذ في موضع نصب المعنى: واتل عليهم وإذ نادى ربك موسى ويدل على هذا أن بعده\",\"mentions\":[\"26:69\"]}\n",
+  "prompt_sha256": "3d5995073be099d35c86ad0d502f435fcbcab11903cec00a2504a717df2430d7",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T05-15-41-01a11ff2-635b-7b83-8895-acb92eaa6c1f.jsonl",
+  "usd_equivalent": 0.064364,
+  "requests": 16,
+  "max_request_input_tokens": 116232,
+  "over_context_cap": false
+}

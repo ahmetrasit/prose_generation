@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c786",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:35:55",
+  "ended": "2026-10-09T04:43:19",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fcd-fcaa-70f1-8326-7f53cc2ca12b",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 573836,
+    "cached_input_tokens": 502784,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 48921,
+    "reasoning_output_tokens": 24667
+  },
+  "stderr": "2026-10-09T08:42:35.524699Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c786.jsonl:\n{\"loc\":\"IBNKATHIR-FULL:v1p225\",\"rows\":[{\"verses\":[\"2:32\"],\"words\":[\"لَا عِلْمَ لَنَآ إِلَّا مَا عَلَّمْتَنَآ\"],\"type\":\"theology\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The angels sanctify God, acknowledging that no one encompasses His knowledge and that they know only what He teaches them.\",\"anchor\":\"هذا تقديس وتنزيه من الملائكة لله تعالى أن يحيط أحد بشيء من علمه إلا بما شاء\",\"mentions\":[]},{\"verses\":[\"2:32\"],\"words\":[\"إِنَّكَ أَنتَ ٱلْعَلِيمُ ٱلْحَكِيمُ\"],\"type\":\"theology\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"God knows everything and is wise in creation, command, teaching whom He wills, and withholding from whom He wills; His wisdom and justice are complete.\",\"anchor\":\"أي: العليم بكل شيء، الحكيم في خلقك وأمرك وفي تعليمك من تشاء ومنعك من تشاء، لك الحكمة في ذلك، والعدل التام\",\"mentions\":[]},{\"verses\":[\"2:32\"],\"words\":[\"سُبْحَٰنَكَ\"],\"type\":\"reports\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"Ibn Abbas explains tasbih as God’s declaring Himself free of evil.\",\"anchor\":\"عن ابن عباس: سبحان الله، قال: تنزيه الله نفسه عن السوء\",\"mentions\":[]},{\"verses\":[\"2:32\"],\"words\":[\"سُبْحَٰنَكَ\"],\"type\":\"reports\",\"speaker\":\"علي\",\"stance\":\"reports\",\"claim\":\"When Umar asks Ali what Subhan Allah means, Ali says it is a word God loves and has chosen for Himself, and loves people to say.\",\"anchor\":\"فقال له علي: كلمة أحبها الله لنفسه، ورضيها، وأحب أن تقال\",\"mentions\":[]},{\"verses\":[\"2:32\"],\"words\":[\"سُبْحَٰنَكَ\"],\"type\":\"reports\",\"speaker\":\"ميمون بن مهران\",\"stance\":\"reports\",\"claim\":\"Maymun ibn Mihran defines Subhan Allah as a name that magnifies God and declares Him free of evil.\",\"anchor\":\"سأل رجل ميمون بن مهران عن \\\\\\\"سبحان الله\\\\\\\"، فقال: \\\\\\\"اسم يعظم الله به\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "73f44a6ff7f33e5b08f913f125a3f4627e8698f309e01efe43d23348ebbad537",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-35-55-01a11fcd-fcaa-70f1-8326-7f53cc2ca12b.jsonl",
+  "usd_equivalent": 0.036594,
+  "requests": 12,
+  "max_request_input_tokens": 70944,
+  "over_context_cap": false
+}

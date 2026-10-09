@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c73",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:23:03",
+  "ended": "2026-10-09T04:26:54",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fc2-359b-7b53-9e00-e7b3c767b9ef",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 348963,
+    "cached_input_tokens": 307712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 23703,
+    "reasoning_output_tokens": 17677
+  },
+  "stderr": "2026-10-09T08:26:42.567386Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c73.jsonl:\n{\"loc\":\"IBNMAJAH:853\",\"rows\":[{\"verses\":[\"1:7\"],\"words\":[\"غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ\"],\"type\":\"reports\",\"speaker\":\"أبو هريرة\",\"stance\":\"reports\",\"claim\":\"Abu Hurayra says people had stopped saying amin; the Prophet said it aloud after the Fatiha's closing words, loud enough for the first row to hear and the mosque to reverberate.\",\"anchor\":\"عَنْ أَبِي هُرَيْرَةَ، قَالَ تَرَكَ النَّاسُ التَّأْمِينَ\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "9deb201d06f806e40fdeb4dab8dae2e171a4ad8e628f2cb748c63234492e19d0",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-23-03-01a11fc2-359b-7b53-9e00-e7b3c767b9ef.jsonl",
+  "usd_equivalent": 0.019054,
+  "requests": 10,
+  "max_request_input_tokens": 45198,
+  "over_context_cap": false
+}

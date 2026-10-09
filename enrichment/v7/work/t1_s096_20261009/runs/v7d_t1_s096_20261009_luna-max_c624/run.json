@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c624",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:00:41",
+  "ended": "2026-10-09T04:12:06",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fad-bb91-78f2-98e3-4efd5cd95c60",
+  "commands": 12,
+  "usage": {
+    "input_tokens": 1876583,
+    "cached_input_tokens": 1760000,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 78665,
+    "reasoning_output_tokens": 42454
+  },
+  "stderr": "2026-10-09T08:05:36.696934Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c624.jsonl:\n{\"verses\":[\"69:8\"],\"words\":[\"من باقية\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"“Bāqiya” can mean continued existence or a person characterized by survival; the feminine verbal noun intensifies the denial.\",\"anchor\":\"وعبر بالمصدر المحلق بالهاء مبالغة فقال : من باقية أي بقاء أو نفس موصوفة بالبقاء\",\"mentions\":[]}\n",
+  "prompt_sha256": "98ee97a1ad388a3cf2c4af67f596b19359567aa91ce4f8c440e9ad8a1b67afd2",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-00-41-01a11fad-bb91-78f2-98e3-4efd5cd95c60.jsonl",
+  "usd_equivalent": 0.068591,
+  "requests": 25,
+  "max_request_input_tokens": 100674,
+  "over_context_cap": false
+}

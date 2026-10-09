@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c46",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:18:23",
+  "ended": "2026-10-09T03:27:29",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f87-0244-7662-8bbe-de7817dea253",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 812223,
+    "cached_input_tokens": 722432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 59753,
+    "reasoning_output_tokens": 37826
+  },
+  "stderr": "2026-10-09T07:23:00.822139Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c46.jsonl:\n{\"verses\":[\"20:94\"],\"words\":[\"*\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"This ellipsis is unavailable with Hijazi ما, which does not license an implicit pronoun; Hisham's ليس example is not transferable to that dialect.\",\"anchor\":\"ولا يجوز ذا في ما في لغة أهل الحجاز لأنه لا يكون فيه إضمار\",\"mentions\":[]},\n",
+  "prompt_sha256": "2ae23271974642d3ebc9a54ecd90be308f5310262eec6439fe2281d48d2c296d",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-18-24-01a11f87-0244-7662-8bbe-de7817dea253.jsonl",
+  "usd_equivalent": 0.04608,
+  "requests": 14,
+  "max_request_input_tokens": 86118,
+  "over_context_cap": false
+}

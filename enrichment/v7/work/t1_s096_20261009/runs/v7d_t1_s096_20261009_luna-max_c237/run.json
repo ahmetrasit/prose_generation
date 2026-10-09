@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c237",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:44:43",
+  "ended": "2026-10-09T02:49:29",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f68-2ebd-76a3-94a5-2bdd57fb11b9",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 516376,
+    "cached_input_tokens": 463616,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33088,
+    "reasoning_output_tokens": 14282
+  },
+  "stderr": "2026-10-09T06:47:16.889980Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c237.jsonl:\n{\"verses\":[\"2:29\"],\"words\":[\"خَلَقَ لَكُمْ مَّا فِي الأرض جَمِيعاً\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The preceding verse frames the story with human honor in creating all earthly things for people and with God's knowledge, the story's two central pillars.\",\"anchor\":\"وهذه الآية التي سبقت بها قصة آدم بدأت بتكريم الإنسان وختمت بالعلم\",\"mentions\":[\"2:31\",\"2:32\"]}\n{\"verses\":[\"2:30\"],\"words\":[\"إِنِّي جَاعِلٌ فِي الأرض خَلِيفَةً\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Appointment as God's vicegerent is itself an honor, since the one entrusted with vicegerency must hold an elevated status.\",\"anchor\":\"ذكر استخلاف آدم في الأرض فهذا تكريم، إذا المستخلف ذو منزلة رفيعة ولا شك\",\"mentions\":[]}\n",
+  "prompt_sha256": "87c3c865aed5e7b6e387b70f2444297fdc1a201cf76e0bc56f206397a71de557",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-44-43-01a11f68-2ebd-76a3-94a5-2bdd57fb11b9.jsonl",
+  "usd_equivalent": 0.026456,
+  "requests": 13,
+  "max_request_input_tokens": 55995,
+  "over_context_cap": false
+}

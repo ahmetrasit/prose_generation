@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c239",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:44:57",
+  "ended": "2026-10-09T02:48:23",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f68-6450-7d91-8621-29d049725924",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 286395,
+    "cached_input_tokens": 249600,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22135,
+    "reasoning_output_tokens": 16640
+  },
+  "stderr": "2026-10-09T06:47:29.905799Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c239.jsonl:\n{\"verses\":[\"18:71\",\"18:74\"],\"words\":[\"شَيْئاً إِمْراً\",\"شَيْئاً نُّكْراً\"],\"type\":\"meaning\",\"speaker\":\"قتادة\",\"stance\":\"reports\",\"claim\":\"Qatāda says nकर (nukr, “unprecedentedly abhorrent”) is more severe than imr, matching the more serious killing of the boy.\",\"anchor\":\"وعن قتادة: النكر أشد من الإمر\",\"mentions\":[]}\n",
+  "prompt_sha256": "d18e3b9c68657f0267f835f5e8811dd3c66a426494152e5886120feeff4701ef",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-44-57-01a11f68-6450-7d91-8621-29d049725924.jsonl",
+  "usd_equivalent": 0.017243,
+  "requests": 9,
+  "max_request_input_tokens": 42776,
+  "over_context_cap": false
+}

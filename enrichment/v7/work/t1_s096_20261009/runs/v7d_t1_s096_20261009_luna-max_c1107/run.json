@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1107",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:10:54",
+  "ended": "2026-10-09T01:17:14",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f12-4bcb-7802-8af5-bc272c735565",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 553365,
+    "cached_input_tokens": 475392,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 55377,
+    "reasoning_output_tokens": 26822
+  },
+  "stderr": "2026-10-09T05:15:18.432391Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1107.jsonl:\n{\"verses\":[\"2:186\"],\"words\":[\"فَإِنِّى قَرِيبٌ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Al-Ṭabāṭabāʾī reads divine nearness as absolute: true divine ownership makes humans His servants and brings Him nearer than anything; the cited verses also describe this nearness.\",\"anchor\":\"ونحن أقرب إليه منكم ولكن لا تبصرون الواقعة 85 وقال تعالى ونحن أقرب إليه من حبل الوريد ق 16 والقلب هو النفس المدركة\",\"mentions\":[\"56:85\",\"50:16\",\"8:24\"]}\n",
+  "prompt_sha256": "af00de342e3ee181ec14ac1c7ec03e9d41a0dc04e71df179e4733104906c9a2c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-10-55-01a11f12-4bcb-7802-8af5-bc272c735565.jsonl",
+  "usd_equivalent": 0.04024,
+  "requests": 11,
+  "max_request_input_tokens": 76994,
+  "over_context_cap": false
+}

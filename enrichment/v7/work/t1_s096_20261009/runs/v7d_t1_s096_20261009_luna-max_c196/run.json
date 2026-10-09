@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c196",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:33:17",
+  "ended": "2026-10-09T02:49:44",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f5d-b683-7ce2-a4a7-f4bc37fc3749",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 2314949,
+    "cached_input_tokens": 2143744,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 127038,
+    "reasoning_output_tokens": 44784
+  },
+  "stderr": "2026-10-09T06:40:19.173715Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c196.jsonl\n2026-10-09T06:43:57.947732Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'\n",
+  "prompt_sha256": "0bae3180c244cac0450adfbba84e063052f8a14dcd6b44eae6f80e3a5ed59a86",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-33-17-01a11f5d-b683-7ce2-a4a7-f4bc37fc3749.jsonl",
+  "usd_equivalent": 0.102077,
+  "requests": 22,
+  "max_request_input_tokens": 162657,
+  "over_context_cap": true
+}

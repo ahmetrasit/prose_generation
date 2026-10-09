@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c43",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:12:08",
+  "ended": "2026-10-09T03:25:26",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f81-4761-75c1-851f-6597e05c87a0",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 2163037,
+    "cached_input_tokens": 2031360,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 81166,
+    "reasoning_output_tokens": 42714
+  },
+  "stderr": "2026-10-09T07:20:05.059146Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c43.jsonl:\n\"anchor\":\"غزوت غزوي تقلب الواو ياء لأن قبلها ياء ساكنة كما أنك تقول في فعيل غزي\"\n2026-10-09T07:24:46.295936Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c43.jsonl:\n{\"verses\":[\"18:36\"],\"words\":[\"رُّدِدتُّ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Arabic has sound and weak patterns, and the regular weak forms follow the same principles as corresponding sound-root forms described earlier.\",\"anchor\":\"ولم يجئ إلا نظيره من غيره على ما ذكرت لك\",\"mentions\":[]},\n",
+  "prompt_sha256": "3387ada72c4ec2a6f8c3df3ebc1f3098991bbc8df18ca1e0a8900a3b1a2fa341",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-12-08-01a11f81-4761-75c1-851f-6597e05c87a0.jsonl",
+  "usd_equivalent": 0.074064,
+  "requests": 25,
+  "max_request_input_tokens": 125667,
+  "over_context_cap": true
+}

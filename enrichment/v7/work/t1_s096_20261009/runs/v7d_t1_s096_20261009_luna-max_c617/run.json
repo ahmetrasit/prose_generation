@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c617",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:57:48",
+  "ended": "2026-10-09T04:10:16",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fab-191a-7513-857f-a67d957f2599",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 1830363,
+    "cached_input_tokens": 1705216,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 92656,
+    "reasoning_output_tokens": 42121
+  },
+  "stderr": "2026-10-09T08:06:43.005178Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c617.jsonl:\n\"anchor\":\"من تعزز بشيء دون الله أهلكه الله به - أفاده القشيري .\"\n",
+  "prompt_sha256": "80f200f70fed9566e8f045daae5e941f0e43e5a305126d5d2537296d02436454",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-57-49-01a11fab-191a-7513-857f-a67d957f2599.jsonl",
+  "usd_equivalent": 0.075895,
+  "requests": 23,
+  "max_request_input_tokens": 119577,
+  "over_context_cap": false
+}

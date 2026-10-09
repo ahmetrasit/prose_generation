@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1243",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:40:42",
+  "ended": "2026-10-09T01:47:56",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f2d-92e5-7391-a904-9f2a3b1e0fa6",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 717391,
+    "cached_input_tokens": 633600,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 55782,
+    "reasoning_output_tokens": 29885
+  },
+  "stderr": "2026-10-09T05:44:42.246585Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1243.jsonl:\n\"anchor\":\"Hiçbir mâni‘yok iken imanını yalnız kalbinde saklayan ve izhâr u i‘lan etmeyen kimsenin ‘indallah kıymet-i îmâniyesi olamayacağı kitap ve sünnetin birçok delâiliyle sâbittir.\"\n",
+  "prompt_sha256": "6aebd3c9c725bf338654f121ff535caa2682f7c0bca992b3e1df6a749017620b",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-40-42-01a11f2d-92e5-7391-a904-9f2a3b1e0fa6.jsonl",
+  "usd_equivalent": 0.042606,
+  "requests": 13,
+  "max_request_input_tokens": 87192,
+  "over_context_cap": false
+}

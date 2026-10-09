@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c737",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:24:03",
+  "ended": "2026-10-09T04:37:18",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fc3-1e38-7123-b262-68e0b3015179",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 1281113,
+    "cached_input_tokens": 1162752,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 93151,
+    "reasoning_output_tokens": 38537
+  },
+  "stderr": "2026-10-09T08:30:32.774870Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'\n",
+  "prompt_sha256": "0c47c7a3333fb21ee9e04920260c331f70b56d5b8da9615760514e6448269d19",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-24-03-01a11fc3-1e38-7123-b262-68e0b3015179.jsonl",
+  "usd_equivalent": 0.070039,
+  "requests": 18,
+  "max_request_input_tokens": 118428,
+  "over_context_cap": false
+}

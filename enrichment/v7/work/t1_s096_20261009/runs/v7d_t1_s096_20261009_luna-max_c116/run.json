@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c116",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:20:17",
+  "ended": "2026-10-09T01:31:28",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f1a-e0a2-7fd3-b317-36a83bec2bd2",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1230673,
+    "cached_input_tokens": 1108992,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 87087,
+    "reasoning_output_tokens": 44356
+  },
+  "stderr": "2026-10-09T05:29:25.736309Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "55e1c2f5bc90077b73de35c3db09779a452e9654cbc7e1bd990e9a3919700d8b",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-20-17-01a11f1a-e0a2-7fd3-b317-36a83bec2bd2.jsonl",
+  "usd_equivalent": 0.066802,
+  "requests": 16,
+  "max_request_input_tokens": 119753,
+  "over_context_cap": false
+}

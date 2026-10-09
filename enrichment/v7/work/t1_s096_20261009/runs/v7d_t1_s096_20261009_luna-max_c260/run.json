@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c260",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:48:06",
+  "ended": "2026-10-09T02:53:10",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f6b-46d9-7670-892e-815663bf1beb",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 474633,
+    "cached_input_tokens": 418048,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34118,
+    "reasoning_output_tokens": 17135
+  },
+  "stderr": "2026-10-09T06:51:26.880570Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c260.jsonl:\n{\"verses\":[\"1:5\"],\"words\":[\"إِيَّاكَ نَعْبُدُ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Fronting can place a word before its governing verb, as in “You alone we worship”; it can also reorder words that are not the verb’s object.\",\"anchor\":\"التقديم نوعان أو ثلاثة تقديم اللفظ على عامله نحو قوله تعالى إياك نعبد\",\"mentions\":[\"2:173\",\"5:3\"]}\n",
+  "prompt_sha256": "f716a3d200b89fe8c081fce9684ca054591975e1a5274e990cb738680450f07c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-48-06-01a11f6b-46d9-7670-892e-815663bf1beb.jsonl",
+  "usd_equivalent": 0.026898,
+  "requests": 11,
+  "max_request_input_tokens": 59078,
+  "over_context_cap": false
+}

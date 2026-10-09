@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c381",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:03:00",
+  "ended": "2026-10-09T03:13:12",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f78-ea7a-7021-b999-80e446d3f521",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 1177780,
+    "cached_input_tokens": 1074432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 71983,
+    "reasoning_output_tokens": 40704
+  },
+  "stderr": "2026-10-09T07:09:49.645580Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c381.jsonl:\n{\"loc\":\"NASHR:v1p340\",\"rows\":[{\"verses\":[\"2:286\"],\"words\":[\"لا تؤاخذنا\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Warsh’s Madinan transmitters unanimously exclude يؤاخذ from added alif lengthening wherever it occurs, including this prayer; al-Dani says performance authorities agree, contrary to al-Shatibi’s inference from the Taysir’s omission.\",\"anchor\":\"وأجمع أهل الأداء على ترك زيادة التمكين للألف في قوله لا يواخذكم ولا تواخذنا ولو يواخذ\"},{\"verses\":[\"2:286\"],\"words\":[\"لا تؤاخذنا\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The author says the exception needs no separate entry in the Taysir: the form may derive from unhamzated واخذ or its substitution is obligatory, so the alif is not lengthened.\",\"anchor\":\"وعدم استثنائه في التيسير إما لكونه من واخذ كما ذكره في الإيجاز\"},{\"verses\":[\"2:286\"],\"words\":[\"لا تؤاخذنا\"],\"type\":\"readings\",\"speaker\":\"أبو إسحاق الجعبري والشاطبي\",\"stance\":\"reports\",\"claim\":\"Al-Jaʿbari chose the reported lengthening option; al-Safrawi and al-Shatibi record three lengths and weaken the long one, while the author says a widely received form cannot be rejected though another is preferable.\",\"anchor\":\"وقد اختاره أبو إسحاق الجعبري، وأثبت الثلاثة جميعا أبو القاسم الصفراوي في إعلانه\"},{\"verses\":[\"2:286\"],\"words\":[\"*\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"One of Warsh’s two systematic lengthening rules applies when a hamza follows a consonant sākin in the same word, with examples القرآن, الظمآن, مسئولا, and مذؤما.\",\"anchor\":\"وأما الأصلان المطردان فأحدهما أن يكون قبل الهمز ساكن صحيح، وكلاهما من كلمة واحدة\"}] }\n",
+  "prompt_sha256": "a7c242e3be8c28971c5b9889c1aa5120c240adac3fe0cc17ef9f4d026acf2f04",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-03-00-01a11f78-ea7a-7021-b999-80e446d3f521.jsonl",
+  "usd_equivalent": 0.057071,
+  "requests": 19,
+  "max_request_input_tokens": 95712,
+  "over_context_cap": false
+}

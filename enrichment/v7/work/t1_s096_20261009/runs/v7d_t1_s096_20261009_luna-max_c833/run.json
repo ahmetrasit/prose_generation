@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c833",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:46:31",
+  "ended": "2026-10-09T04:57:29",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fd7-aff4-73a1-b54a-340655db19fe",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 939192,
+    "cached_input_tokens": 821504,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 82153,
+    "reasoning_output_tokens": 27576
+  },
+  "stderr": "2026-10-09T08:51:19.914527Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c833.jsonl:\n{\"verses\":[\"29:45\"],\"words\":[\"وَأَقِمِ ٱلصَّلَوٰةَ\"],\"type\":\"grammar\",\"speaker\":\"قيل\",\"stance\":\"reports\",\"claim\":\"An alternative word order is understood: establish prayer and recite what was revealed, since it restrains indecency and wrong.\",\"anchor\":\"وقيل: فيه تقديم وتأخير تقديره: أقم الصلاة واتل ما أوحي إليك؛ فإنها تنهى\",\"mentions\":[]}\n2026-10-09T08:51:29.586177Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c833.jsonl:\n{\"verses\":[\"29:45\"],\"words\":[\"وَأَقِمِ ٱلصَّلَوٰةَ\"],\"type\":\"grammar\",\"speaker\":\"قيل\",\"stance\":\"reports\",\"claim\":\"An alternative word order is understood: establish prayer and recite what was revealed, since it restrains indecency and wrong.\",\"anchor\":\"وقيل: فيه تقديم وتأخير تقديره: أقم الصلاة واتل ما أوحي إليك؛ فإنها تنهى\",\"mentions\":[]}\n2026-10-09T08:52:02.986813Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c833.jsonl:\n{\"verses\":[\"29:43\"],\"words\":[\"وما يعقلها إلا العالمون\"],\"type\":\"theology\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The wording that only the learned understand the parables shows that knowledge is acquired.\",\"anchor\":\"وتدل على أن المعارف مكتسبة؛ لذلك قال: (وما يعقلها إلا العالمون)\",\"mentions\":[]}\n2026-10-09T08:55:07.613731Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c833.jsonl:\n{\"verses\":[\"32:23\"],\"words\":[\"فَلَا تَكُن فِى مِرْيَةٍ مِّن لِّقَآئِهِ\"],\"type\":\"interpretation\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"Ibn ʿAbbās says the meeting was with Moses on the night of the Prophet’s ascent.\",\"anchor\":\"قيل ليلة الإسراء بك، عن ابن عباس.\",\"mentions\":[]}\n",
+  "prompt_sha256": "998228b91be1b2a53372a5c3e4215e13cb7637cce46e8c044518600696f9dc30",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-46-31-01a11fd7-aff4-73a1-b54a-340655db19fe.jsonl",
+  "usd_equivalent": 0.06106,
+  "requests": 15,
+  "max_request_input_tokens": 104526,
+  "over_context_cap": false
+}

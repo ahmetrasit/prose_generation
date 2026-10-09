@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1264",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:46:35",
+  "ended": "2026-10-09T01:57:09",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f32-f413-79b1-9845-bf66970ae418",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1290111,
+    "cached_input_tokens": 1160448,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 81362,
+    "reasoning_output_tokens": 46496
+  },
+  "stderr": ".jsonl:\n{\"loc\":\"ELMALILI:32:12-16\",\"rows\":[{\"verses\":[\"32:14\"],\"words\":[\"إِنَّا نَسِينَٰكُمْ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"“We forgot you” means God left them in Hell as though forgetting them.\",\"anchor\":\"Çünkü Biz sizi unuttuk yani unutmuş gibi cehennemde bıraktık\",\"mentions\":[]},{\"verses\":[\"32:16\"],\"words\":[\"تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Those whose sides withdraw from beds pray to their Lord with fear and hope by rising at night for tahajjud.\",\"anchor\":\"Yanları yataklardan uzaklaşır hem korku hem umutla Rablerine dua ederler gece kalkar teheccüd kılarlar.\",\"mentions\":[]},{\"verses\":[\"32:16\",\"32:17\"],\"words\":[\"تَتَجَافٰى جُنُوبُهُمْ عَنِ الْمَضَاجِعِ\"],\"type\":\"reports\",\"speaker\":\"Peygamber sallallâhu aleyhi ve sellem\",\"stance\":\"reports\",\"claim\":\"Muadh ibn Jabal relates that, during a journey, the Prophet answered his question about entering Paradise and avoiding Hell with the pillars of worship, then named fasting, charity, and night prayer as good deeds; the author calls the report soundly transmitted and says the Prophet recited 32:16–17.\",\"anchor\":\"Birçokları Mu‘âz b. Cebel radıyallahu anh’tan sahîhan rivayet etmişlerdir ki şöyle demiştir: “Bir seferinde Peygamber sallallâhu aleyhi ve sellem ile beraberdim\",\"mentions\":[\"32:16\",\"32:17\"]}]}\n2026-10-09T05:54:03.279208Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1264.jsonl:\n{\"loc\":\"ELMALILI:32:12-16\",\"rows\":[{\"verses\":[\"32:14\"],\"words\":[\"إِنَّا نَسِينَٰكُمْ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"“We forgot you” means God left them in Hell as though forgetting them.\",\"anchor\":\"Çünkü Biz sizi unuttuk yani unutmuş gibi cehennemde bıraktık\",\"mentions\":[]},{\"verses\":[\"32:16\"],\"words\":[\"تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Those whose sides withdraw from beds pray to their Lord with fear and hope by rising at night for tahajjud.\",\"anchor\":\"Yanları yataklardan uzaklaşır hem korku hem umutla Rablerine dua ederler gece kalkar teheccüd kılarlar.\",\"mentions\":[]},{\"verses\":[\"32:16\",\"32:17\"],\"words\":[\"تَتَجَافٰى جُنُوبُهُمْ عَنِ الْمَضَاجِعِ\"],\"type\":\"reports\",\"speaker\":\"Peygamber sallallâhu aleyhi ve sellem\",\"stance\":\"reports\",\"claim\":\"Muadh ibn Jabal relates that, during a journey, the Prophet answered his question about entering Paradise and avoiding Hell with the pillars of worship, then named fasting, charity, and night prayer as good deeds; the author calls the report soundly transmitted and says the Prophet recited 32:16–17.\",\"anchor\":\"Birçokları Mu‘âz b. Cebel radıyallahu anh’tan sahîhan rivayet etmişlerdir ki şöyle demiştir: “Bir seferinde Peygamber sallallâhu aleyhi ve sellem ile beraberdim\",\"mentions\":[\"32:16\",\"32:17\"]}]}\n",
+  "prompt_sha256": "96d20c1c16078aec191105b6c777a8310208050b3baf412e9fcd6e66290946bb",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-46-35-01a11f32-f413-79b1-9845-bf66970ae418.jsonl",
+  "usd_equivalent": 0.065252,
+  "requests": 19,
+  "max_request_input_tokens": 115761,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1003",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T00:51:35",
+  "ended": "2026-10-09T01:00:57",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f00-9c49-78f3-8d46-59fa4c1cde81",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1023813,
+    "cached_input_tokens": 920832,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 79005,
+    "reasoning_output_tokens": 31127
+  },
+  "stderr": "2026-10-09T04:57:04.669460Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1003.jsonl:\n{\"verses\":[\"22:67\"],\"words\":[\"لِّكُلِّ أُمَّةٍۢ جَعَلْنَا\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"After describing God’s mercy toward people despite their ingratitude, the passage turns to His favor in prescribing religious duties.\",\"anchor\":\"لما قدم ذكر نعمه وبين أنه رؤوف رحيم بعباده وإن كان منهم من يكفر ولا يشكر أتبعه بذكر نعمه بما كلف\",\"mentions\":[]}\n",
+  "prompt_sha256": "12dee242a874d855f1032a5ea4c2ced0e8394ac2bc103063edb292989b6f2805",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T00-51-36-01a11f00-9c49-78f3-8d46-59fa4c1cde81.jsonl",
+  "usd_equivalent": 0.059009,
+  "requests": 15,
+  "max_request_input_tokens": 103768,
+  "over_context_cap": false
+}

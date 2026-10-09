@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c877",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:57:24",
+  "ended": "2026-10-09T05:05:02",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fe1-a81f-7bf1-9391-abc88c2fee64",
+  "commands": 3,
+  "usage": {
+    "input_tokens": 464901,
+    "cached_input_tokens": 383744,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 54270,
+    "reasoning_output_tokens": 26137
+  },
+  "stderr": "2026-10-09T09:04:41.987552Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c877.jsonl:\n\"anchor\":\"روى أبو سعيد الخدري عن النبي صلى الله عليه وسلم أنه قال أعوذ بالله السميع العليم\"\n",
+  "prompt_sha256": "208edf8f98ae03ecffdcbe7ca40bf54c82ffc96ec3ddccaa71baa3af3ccd8ce8",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-57-24-01a11fe1-a81f-7bf1-9391-abc88c2fee64.jsonl",
+  "usd_equivalent": 0.039088,
+  "requests": 9,
+  "max_request_input_tokens": 85403,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1060",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:01:48",
+  "ended": "2026-10-09T01:07:53",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f09-f72a-75a3-868c-d12060319733",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 636381,
+    "cached_input_tokens": 569856,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 48260,
+    "reasoning_output_tokens": 31074
+  },
+  "stderr": "2026-10-09T05:06:16.864741Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1060.jsonl:\n{\"verses\":[\"107:5\"],\"words\":[\"عَن صَلَاتِهِمْ سَاهُونَ\"],\"type\":\"interpretation\",\"speaker\":\"بعضهم\",\"stance\":\"reports\",\"claim\":\"One reported view takes their heedlessness to mean postponing prayer until its appointed time has passed.\",\"anchor\":\"وقال بعضهم :  عُنِي بذلك أنهم يؤخّرونها عن وقتها ،   فلا يصلونها إلا بعد خروج وقتها .\",\"mentions\":[]},\n{\"verses\":[\"107:5\"],\"words\":[\"عَن صَلَاتِهِمْ سَاهُونَ\"],\"type\":\"interpretation\",\"speaker\":\"سعد بن أبي وقاص\",\"stance\":\"rejects\",\"claim\":\"Saʿd rejects that the phrase means abandoning prayer altogether; he says it means delaying it beyond its time.\",\"anchor\":\"عن مصعب بن سعد ،   قال :  قلت لأبي ،   أرأيت قول الله عزّ وجلّ :  {  الّذِينَ هُمْ عَنْ صَلاتِهِمْ ساهُونَ } :  أهيه تركها ؟  قال :  لا ،   ولكن تأخيرها عن وقتها .\",\"mentions\":[]},\n",
+  "prompt_sha256": "bdaac22afbbd05c2695340262fb6d06f9254e8a56d66a141934808acdb1b868f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-01-49-01a11f09-f72a-75a3-868c-d12060319733.jsonl",
+  "usd_equivalent": 0.036481,
+  "requests": 14,
+  "max_request_input_tokens": 66007,
+  "over_context_cap": false
+}

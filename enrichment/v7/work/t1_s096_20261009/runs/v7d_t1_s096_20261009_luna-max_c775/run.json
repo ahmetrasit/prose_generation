@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c775",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:31:44",
+  "ended": "2026-10-09T04:41:17",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fca-2769-7213-9c18-2434cb894d50",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 807588,
+    "cached_input_tokens": 715520,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 67607,
+    "reasoning_output_tokens": 28784
+  },
+  "stderr": "2026-10-09T08:36:59.252044Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c775.jsonl:\n{\"loc\":\"IBNJAWZI-ZAD:v6p171\",\"verses\":[\"27:35\"],\"words\":[\"بِمَ يَرْجِعُ ٱلْمُرْسَلُونَ\"],\"type\":\"reports\",\"speaker\":\"سعيد بن جبير\",\"stance\":\"reports\",\"claim\":\"One reported test had male attendants begin washing from elbow to hand and female attendants from hand to elbow, allowing Solomon to distinguish them.\",\"anchor\":\"فبدأ الغلام من مرفقه إلى كفه وبدأت الجارية من كفها إلى مرفقها فميزهم بذلك قاله سعيد بن جبير\"}\n",
+  "prompt_sha256": "40ec331aa6d3aa25a3c0adfb3fe1b1d512329a86b9d08642e98e035fa6f49173",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-31-44-01a11fca-2769-7213-9c18-2434cb894d50.jsonl",
+  "usd_equivalent": 0.050166,
+  "requests": 13,
+  "max_request_input_tokens": 90380,
+  "over_context_cap": false
+}

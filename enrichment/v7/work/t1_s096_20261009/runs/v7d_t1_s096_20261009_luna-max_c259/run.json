@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c259",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:47:50",
+  "ended": "2026-10-09T02:50:25",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f6b-0987-7632-a38a-88c57e1d8956",
+  "commands": 3,
+  "usage": {
+    "input_tokens": 211526,
+    "cached_input_tokens": 179200,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 17580,
+    "reasoning_output_tokens": 10179
+  },
+  "stderr": "2026-10-09T06:49:49.844644Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c259.jsonl:\n{\"verses\":[\"62:2\"],\"words\":[\"الأميين\",\"مِّنْهُمْ\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Because الأميين includes Quraysh and other Arabs outside the People of the Book, both those who believed and those who did not, the broader منهم fits.\",\"anchor\":\"لفظ الأميين يتناول قريشاً وغيرهم من العرب ممن ليس من أهل الكتاب قيل: (منهم) فناسبت هذه الآية\",\"mentions\":[\"3:164\"]}\n",
+  "prompt_sha256": "d3e1e740afeb486e215066529b6a5c0c75c9f16b7196ad6990899280a29d5a8c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-47-50-01a11f6b-0987-7632-a38a-88c57e1d8956.jsonl",
+  "usd_equivalent": 0.013815,
+  "requests": 8,
+  "max_request_input_tokens": 33995,
+  "over_context_cap": false
+}

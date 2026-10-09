@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c808",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:41:13",
+  "ended": "2026-10-09T04:50:11",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fd2-d5db-7451-a99e-d6526a205151",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 729279,
+    "cached_input_tokens": 647936,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 59856,
+    "reasoning_output_tokens": 34202
+  },
+  "stderr": "2026-10-09T08:48:47.516590Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c808.jsonl:\n{\"loc\":\"IBNKATHIR-FULL:v6p472\",\"rows\":[{\"verses\":[\"33:56\"],\"words\":[\"صَلُّوا۟ عَلَيْهِ\"],\"type\":\"law\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"He cites the Witr qunut supplication as an especially emphasized setting connected with sending blessings on the Prophet.\",\"anchor\":\"ومن [آكد] ذلك: دعاء القنوت: لما رواه الإمام أحمد وأهل السنن، وابن خزيمة\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "ecf2d2a2c27ec60a2954d77d84686e908a8289a6a3b6a6d9406775c074e4d1ef",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-41-13-01a11fd2-d5db-7451-a99e-d6526a205151.jsonl",
+  "usd_equivalent": 0.044542,
+  "requests": 13,
+  "max_request_input_tokens": 83859,
+  "over_context_cap": false
+}

@@ -1,0 +1,10 @@
+Repair request for your chunk. You may reread only your assigned chunk parts and read and edit only your own output file enrichment/v7/work/t1_s096_20261009/out/luna-max/c769.jsonl. The checker reports:
+
+IBNJAWZI-ZAD:v1p189 row 3: anchor not found verbatim in the segment: والثالث أنهم قالوا يا رسول الله لو نعلم أي ساعة أحب إلى الله أن ندعو فيها دعوانا
+IBNJAWZI-ZAD:v1p189 row 5: anchor not found verbatim in the segment: والخامس أنه لما حرم في الصوم الأول على المسلمين بعد النوم الأكل والجماع أكل رجل 
+IBNJAWZI-ZAD:v1p189 row 7: anchor not found verbatim in the segment: وفي معنى أجيب قولان أحدهما اسمع قاله الفراء وابن القاسم
+IBNJAWZI-ZAD:v1p189 row 8: anchor not found verbatim in the segment: والثاني أنه من الإجابة فليستجيبوا لي أي فليجيبوني قال الشاعر وداع دعا يا من يجيب
+IBNJAWZI-ZAD:v1p189 row 9: anchor not found verbatim in the segment: لعلهم يرشدون قال أبو العالية يعني يهتدون
+IBNJAWZI-ZAD:v1p189 row 11: anchor not found verbatim in the segment: وجواب آخر وهو أن الدعاء تفتقر إجابته إلى شروط أصلها الطاعة لله ومنها أكل الحلال 
+
+Fix every listed problem and change nothing else. An anchor must be one continuous span copied exactly from the segment body, with the same characters and spaces. A tagged word must be a word of that verse's own text; if no word fits, use the whole-verse tag your brief defines. Every segment needs exactly one line. Then run `python3 -B enrichment/v7/digest.py check t1_s096_20261009 --model luna-max --chunk 769` until it prints OK, and reply with one line.

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1290",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:50:10",
+  "ended": "2026-10-09T01:56:48",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f36-3f31-7563-9968-23353020ee80",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 535993,
+    "cached_input_tokens": 454912,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 51330,
+    "reasoning_output_tokens": 21801
+  },
+  "stderr": "2026-10-09T05:54:48.672117Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1290.jsonl:\n{\"loc\":\"ELMALILI:86:5-7#6\",\"rows\":[{\"verses\":[\"86:6\"],\"words\":[\"خُلِقَ مِن مَّآءٍۢ دَافِقٍۢ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Male semen is secreted in the testes, passes through fine ducts to the seminal vesicles, then travels through the spermatic and ejaculatory passages.\",\"anchor\":\"Meni husyelerde ifraz olunup ev‘iye-i âtiye denilen ev‘iye-i mahsûsasından te‘âkub üzere geçer, habl-i menevî kanât-ı nâkılesinden havsalaya gider\",\"mentions\":[]},{\"verses\":[\"86:6\"],\"words\":[\"خُلِقَ مِن مَّآءٍۢ دَافِقٍۢ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Female fluid is a light, transparent, pure secretion from the vaginal walls and nearby labia; Elmalılı says it lacks the life present in male semen.\",\"anchor\":\"Dişinin suyu; evvelâ biraz lüzûceti bulunan bir sâil-i mâyi‘dir ki mehbilin cüdrânından ve şufreyn kurbünden ifraz olunur\",\"mentions\":[]},\n",
+  "prompt_sha256": "a970457b38304fc860804489cab9a180528aa5af51cf3ac01f795f932cf23eb8",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-50-11-01a11f36-3f31-7563-9968-23353020ee80.jsonl",
+  "usd_equivalent": 0.038322,
+  "requests": 11,
+  "max_request_input_tokens": 73059,
+  "over_context_cap": false
+}

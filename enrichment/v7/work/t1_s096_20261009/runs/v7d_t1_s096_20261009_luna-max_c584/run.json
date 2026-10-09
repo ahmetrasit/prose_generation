@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c584",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:49:32",
+  "ended": "2026-10-09T03:58:46",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fa3-8455-77d2-8301-60ea5e4cbc7d",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 759669,
+    "cached_input_tokens": 670464,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 66105,
+    "reasoning_output_tokens": 34601
+  },
+  "stderr": "2026-10-09T07:54:35.144391Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c584.jsonl:\n\"anchor\":\"ولما أتم سبحانه ما أراد من أمر الخلق وهو الإيجاد بالأسباب بالتدريج آخذ في التنبيه على عالم الأمر وهو الإبداع من غير أسباب\"}\n",
+  "prompt_sha256": "42dd828724d45a0f1286fdbe933ac20cff73708717995aaed3d87707741598c7",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-49-32-01a11fa3-8455-77d2-8301-60ea5e4cbc7d.jsonl",
+  "usd_equivalent": 0.048678,
+  "requests": 13,
+  "max_request_input_tokens": 90165,
+  "over_context_cap": false
+}

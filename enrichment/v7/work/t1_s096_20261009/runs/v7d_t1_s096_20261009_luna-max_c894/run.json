@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c894",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T05:01:32",
+  "ended": "2026-10-09T05:06:47",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fe5-701e-73c0-8216-54856017cb33",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 632489,
+    "cached_input_tokens": 573952,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 42086,
+    "reasoning_output_tokens": 19603
+  },
+  "stderr": "r: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c894.jsonl:\n{\"loc\":\"MAWARDI-FULL:v1p38\",\"rows\":[{\"verses\":[\"19:3\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"A text with one exclusive meaning is clear and decisive: God's intent is known from its plain wording, with no ambiguity in its ruling or interpretation.\",\"anchor\":\"مشتَملا على معنى واحد لا يتعداه ومقصورا عليه ولا يحتمل ما سواه\"},{\"verses\":[\"19:3\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"A second class of wording can bear two or more meanings.\",\"anchor\":\"أن يكون اللفظ محتملا لمعنيين أو أكثر\"},{\"verses\":[\"19:3\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"When one possible sense is plain and another hidden, take the plain sense unless evidence shows it is not intended, in which case use the hidden sense.\",\"anchor\":\"محمولا على الظاهر الجلي دون الباطن الخفي إلا أن يقوم الدليل\"},{\"verses\":[\"19:3\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"prefers\",\"claim\":\"If a word has a linguistic and a legal sense, prefer the legal sense because the law has transferred its meaning.\",\"anchor\":\"مستعملا في اللغة والآخر مستعملا في الشرع فيكون حمله على المعنى الشرعي أولى\"},{\"verses\":[\"19:3\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"prefers\",\"claim\":\"If a word has linguistic and customary senses, prefer the customary sense because it is the more familiar usage.\",\"anchor\":\"مستعملا في اللغة والآخر مستعملا في العرف فيكون حمله على المعنى العرفي أولى\"},{\"verses\":[\"19:3\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"prefers\",\"claim\":\"If a word has legal and customary senses, prefer the legal sense because the law is more binding.\",\"anchor\":\"مستعملا في الشرع والآخر مستعملا في العرف فيكون حمله على معنى الشرع أولى\"},{\"verses\":[\"19:3\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Even when two senses share the same basis, they may be used equally in language, law, or custom; the case then divides further.\",\"anchor\":\"أن يتفق أصل الحقيقة فيهما فيكونا مستعملين في اللغة على سواء أو في الشرع\"},{\"verses\":[\"19:3\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Where same-basis senses conflict and cannot be combined, as with quruʾ meaning either purity or menstruation, a jurist must infer which is intended from the indicators.\",\"anchor\":\"كالأحكام الشرعية مثل القرء الذي هو حقيقة في الطهر وحقيقة في الحيض ولا يجوز للمجت\"},{\"verses\":[\"19:3\"],\"words\":[\"*\"],\"type\":\"theology\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Each mujtahid's conclusion from the indicators is God's intended meaning for that jurist, even when another jurist's effort reaches the opposite ruling.\",\"anchor\":\"فإذا وصل إليه كان هو الذي أراده الله تعالى منه وإن أدى اجتهاد غيره إلى الحكم الآ\"}\n",
+  "prompt_sha256": "5954dd04c878844038ed224a6155448cb15b0f670f8ccce187275746a1b66f39",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T05-01-32-01a11fe5-701e-73c0-8216-54856017cb33.jsonl",
+  "usd_equivalent": 0.032636,
+  "requests": 14,
+  "max_request_input_tokens": 62866,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c864",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:52:40",
+  "ended": "2026-10-09T05:02:00",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fdd-536a-7c60-b9f4-d5871d5912c5",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 586924,
+    "cached_input_tokens": 502272,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 50009,
+    "reasoning_output_tokens": 23123
+  },
+  "stderr": "2026-10-09T09:01:39.321676Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c864.jsonl:\n{\"loc\":\"KASHSHAF-FULL:v1p533#3\",\"rows\":[{\"verses\":[\"4:40\",\"4:110\",\"4:147\"],\"words\":[\"إِنَّ ٱللَّهَ لَا يَظْلِمُ مِثْقَالَ ذَرَّةٍ\",\"وَمَن يَعْمَلْ سُوٓءًا أَوْ يَظْلِمْ نَفْسَهُ\",\"مَّا يَفْعَلُ ٱللَّهُ بِعَذَابِكُمْ\"],\"type\":\"reports\",\"speaker\":\"author\",\"stance\":\"The continuation completes the eight Nisa passages attributed to Ibn ʿAbbās with verses on God’s justice, repentance after sin, and why God would punish the grateful believer.\",\"claim\":\"ومن يعمل سوءا أو يظلم نفسه\",\"anchor\":[\"4:40\",\"4:110\",\"4:147\"],\"mentions\":[]}]}\n",
+  "prompt_sha256": "4b2d9d9b98276cd372f070c2ac8f736a0d95a4d710216c6470bcb98f462758ed",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-52-40-01a11fdd-536a-7c60-b9f4-d5871d5912c5.jsonl",
+  "usd_equivalent": 0.038492,
+  "requests": 10,
+  "max_request_input_tokens": 86426,
+  "over_context_cap": false
+}

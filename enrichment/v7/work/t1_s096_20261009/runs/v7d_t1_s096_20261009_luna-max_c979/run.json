@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c979",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T05:28:25",
+  "ended": "2026-10-09T05:38:33",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11ffe-0dc1-77a0-a3c1-5313cf626938",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 862944,
+    "cached_input_tokens": 773632,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 66882,
+    "reasoning_output_tokens": 35007
+  },
+  "stderr": "2026-10-09T09:37:19.017809Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c979.jsonl:\n\"anchor\":\"القول الأول : وهو قول جمهور المفسرين من الصحابة والتابعين والمتأخرين\"\n",
+  "prompt_sha256": "821b865e173b60bde28af84e836b6e09af13663ffa3d443b0b5ec99f91af2ae9",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T05-28-25-01a11ffe-0dc1-77a0-a3c1-5313cf626938.jsonl",
+  "usd_equivalent": 0.050109,
+  "requests": 14,
+  "max_request_input_tokens": 90523,
+  "over_context_cap": false
+}

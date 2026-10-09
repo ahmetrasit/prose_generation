@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1440",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:18:41",
+  "ended": "2026-10-09T02:28:33",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f50-58c1-7821-866a-12ed82343279",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 822341,
+    "cached_input_tokens": 723968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 73848,
+    "reasoning_output_tokens": 44378
+  },
+  "stderr": "2026-10-09T06:27:10.670547Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1440.jsonl:\n{\"loc\":\"DAMGHANI:v1p357\",\"rows\":[{\"verses\":[\"30:41\"],\"words\":[\"ظهر الفساد في البر والبحر\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Fasād can mean drought and reduced vegetation; the land means the desert, and the sea refers to inhabited and rural regions.\",\"anchor\":\"ظهر الفساد في البر والبحر يعني قحط المطر وقلة النبات في البر يعني البادية\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "c3f22a9b14543d2c791d3ed558740183a567a93f37016ba03b8da9011fb471e7",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-18-41-01a11f50-58c1-7821-866a-12ed82343279.jsonl",
+  "usd_equivalent": 0.054001,
+  "requests": 12,
+  "max_request_input_tokens": 101056,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c848",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:49:07",
+  "ended": "2026-10-09T04:57:44",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fda-11ba-7cc2-a0d3-b78c219d9b82",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 1035809,
+    "cached_input_tokens": 949760,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 61561,
+    "reasoning_output_tokens": 20019
+  },
+  "stderr": "2026-10-09T08:54:00.769260Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c848.jsonl:\n\"anchor\":\"وروي عن زيد بن علي يضرهم بضم الياء وكسر الضاد\"\n",
+  "prompt_sha256": "45a3da3fc99a10ec311e7354a0d850df1ef64e5e321ed247b675da660db2950f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-49-07-01a11fda-11ba-7cc2-a0d3-b78c219d9b82.jsonl",
+  "usd_equivalent": 0.048883,
+  "requests": 18,
+  "max_request_input_tokens": 84792,
+  "over_context_cap": false
+}

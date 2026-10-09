@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c969",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T05:25:39",
+  "ended": "2026-10-09T05:35:07",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11ffb-8666-7713-ba3c-a5282134b9e2",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 606426,
+    "cached_input_tokens": 516352,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 65723,
+    "reasoning_output_tokens": 38694
+  },
+  "stderr": "2026-10-09T09:33:05.091579Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c969.jsonl:\n{\"verses\":[\"107:7\"],\"words\":[\"ٱلۡمَاعُونَ\"],\"type\":\"meaning\",\"speaker\":\"أكثر المفسرين\",\"stance\":\"reports\",\"claim\":\"Most exegetes say al-maʿūn is something ordinarily lent to rich or poor and not withheld without revealing vile manners, such as an axe, pot, bucket, fire striker, sieve, or adze.\",\"anchor\":\"والقول الثاني : وهو قول أكثر المفسرين\",\"mentions\":[]}\n2026-10-09T09:33:35.866840Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c969.jsonl:\n{\"verses\":[\"107:7\"],\"words\":[\"ٱلۡمَاعُونَ\"],\"type\":\"meaning\",\"speaker\":\"أكثر المفسرين\",\"stance\":\"reports\",\"claim\":\"Most exegetes say al-maʿūn is something ordinarily lent to rich or poor and not withheld without revealing vile manners, such as an axe, pot, bucket, fire striker, sieve, or adze.\",\"anchor\":\"والقول الثاني : وهو قول أكثر المفسرين\",\"mentions\":[]}\n",
+  "prompt_sha256": "ad75816d6f97cf18aa860a33fc24aba38ea6d40ed09741752f3867c56e19e6d6",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T05-25-40-01a11ffb-8666-7713-ba3c-a5282134b9e2.jsonl",
+  "usd_equivalent": 0.047032,
+  "requests": 11,
+  "max_request_input_tokens": 89173,
+  "over_context_cap": false
+}

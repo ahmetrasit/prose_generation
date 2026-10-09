@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c836",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:46:48",
+  "ended": "2026-10-09T04:58:45",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fd7-f561-73b2-b74b-3b4d061d8c57",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 1738706,
+    "cached_input_tokens": 1608448,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 89330,
+    "reasoning_output_tokens": 28971
+  },
+  "stderr": "2026-10-09T08:51:32.016602Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c836.jsonl:\n{\"loc\":\"JISHUMI:v9p6540\",\"rows\":[{\"verses\":[\"49:13\"],\"words\":[\"يَٰٓأَيُّهَا ٱلنَّاسُ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"All people descend from Adam and Eve.\",\"anchor\":\"ومنها: أن الناس لآدم وحواء\"\n",
+  "prompt_sha256": "6995816fa81c6d6fecb75deb99bf24fa3a4986cca3abc50c17991dbffe932519",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-46-49-01a11fd7-f561-73b2-b74b-3b4d061d8c57.jsonl",
+  "usd_equivalent": 0.073775,
+  "requests": 21,
+  "max_request_input_tokens": 121522,
+  "over_context_cap": true
+}

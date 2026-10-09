@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c346",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:58:41",
+  "ended": "2026-10-09T03:04:34",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f74-f9fc-7c63-904f-c64740b996ad",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 540217,
+    "cached_input_tokens": 471808,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 35168,
+    "reasoning_output_tokens": 18463
+  },
+  "stderr": "2026-10-09T07:02:35.576309Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c346.jsonl:\n{\"verses\":[\"41:10\"],\"words\":[\"*\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Mountains are visible signs of God's power on the earth's surface; Islahi links this appeal to the observations in 88:17–20.\",\"anchor\":\"In Sūrah al-Ghāshiyah, attention is directed to the mountains with reference to this very aspect\",\"mentions\":[\"88:17\",\"88:18\",\"88:19\",\"88:20\"]}\n",
+  "prompt_sha256": "f95f2909b0e013380056182140a110290867e50de7d74709c15a37cf234e767c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-58-42-01a11f74-f9fc-7c63-904f-c64740b996ad.jsonl",
+  "usd_equivalent": 0.029143,
+  "requests": 13,
+  "max_request_input_tokens": 58844,
+  "over_context_cap": false
+}

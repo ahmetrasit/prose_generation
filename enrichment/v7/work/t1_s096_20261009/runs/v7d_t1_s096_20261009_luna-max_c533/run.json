@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c533",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:37:43",
+  "ended": "2026-10-09T03:48:17",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f98-b501-7221-adeb-056bdc269f17",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 1191447,
+    "cached_input_tokens": 1090304,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 78064,
+    "reasoning_output_tokens": 42271
+  },
+  "stderr": "2026-10-09T07:42:46.484162Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c533.jsonl:\n{\"verses\":[\"72:1\"],\"words\":[\"قُرْءَانًا\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"“Qurʾān” here means a recited book, one of the heavenly scriptures; this wording encompasses the qualities they go on to describe.\",\"anchor\":\"إنا سمعنا قرآنا أي كتابا مقروءا على ما فسره بعض الأجلة وفسر بذلك للإشارة إلى ما ذكروه\",\"mentions\":[]}\n2026-10-09T07:43:11.317707Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c533.jsonl:\n{\"verses\":[\"72:1\"],\"words\":[\"قُرْءَانًا\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"“Qurʾān” here means a recited book, one of the heavenly scriptures; this wording encompasses the qualities they go on to describe.\",\"anchor\":\"إنا سمعنا قرآنا أي كتابا مقروءا على ما فسره بعض الأجلة وفسر بذلك للإشارة إلى ما ذكروه في وصفه مما يأتي له كله دون المقروء منه فقط\",\"mentions\":[]}\n",
+  "prompt_sha256": "ab14faca5f7d7b5bc030558d04f3451e39e473fec184b5717f6228f5c9372554",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-37-43-01a11f98-b501-7221-adeb-056bdc269f17.jsonl",
+  "usd_equivalent": 0.060049,
+  "requests": 17,
+  "max_request_input_tokens": 100643,
+  "over_context_cap": false
+}

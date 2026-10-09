@@ -1,0 +1,15 @@
+Repair request for your chunk. You may reread only your assigned chunk parts and read and edit only your own output file enrichment/v7/work/t1_s096_20261009/out/luna-max/c900.jsonl. The checker reports:
+
+MUQATIL:20:69-71 row 12: anchor not found verbatim in the segment: { ولتعلمن أينآ أشد عذابا وأبقى } [آية: 71] أنا أو رب موسى وهارون { وأبقى } وأدوم
+MUQATIL:23:12-14 row 2: anchor not found verbatim in the segment: والسلالة إذا عصر الطين انسل الطين والماء من بين أصابعه
+MUQATIL:23:12-14 row 4: anchor not found verbatim in the segment: يعنى الرحم تمكن النطفة فى الرحم
+MUQATIL:23:12-14 row 5: anchor not found verbatim in the segment: يقول تحول الماء فصار دما فخلقنا العلقة مضغة يعنى فتحول الدم فصار لحما مثل المضغة
+MUQATIL:23:12-14 row 6: anchor not found verbatim in the segment: يقول خلقناه خلقا آخر يعنى الروح ينفخ فيه بعد خلقه
+MUQATIL:23:12-14 row 7: anchor not found verbatim in the segment: فقال عمر بن الخطاب رضى الله عنه قبل أن يتم النبى صلى الله عليه وسلم الآية تبارك 
+MUQATIL:23:14-18 row 4: anchor not found verbatim in the segment: { ولقد خلقنا فوقكم سبع طرآئق } يعنى سموات غلظ كل سماء مسيرة خمس مائة عام وبين كل
+MUQATIL:26:160-173 row 10: anchor not found verbatim in the segment: يعنى لئن لم تسكت عنا { يلوط لتكونن من المخرجين } من القرية
+MUQATIL:26:160-173 row 11: anchor not found verbatim in the segment: يعنى إتيان الرجال { من القالين } يعنى المقاتين
+MUQATIL:26:160-173 row 15: anchor not found verbatim in the segment: يعنى أهلكنا { الآخرين } بالخسف والحصب
+MUQATIL:26:160-173 row 16: anchor not found verbatim in the segment: يعنى الحجارة { فسآء } يعنى فبئس { مطر المنذرين } يعنى الذين أنذروا بالعذاب
+
+Fix every listed problem and change nothing else. An anchor must be one continuous span copied exactly from the segment body, with the same characters and spaces. A tagged word must be a word of that verse's own text; if no word fits, use the whole-verse tag your brief defines. Every segment needs exactly one line. Then run `python3 -B enrichment/v7/digest.py check t1_s096_20261009 --model luna-max --chunk 900` until it prints OK, and reply with one line.

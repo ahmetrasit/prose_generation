@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c986",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T05:30:15",
+  "ended": "2026-10-09T05:37:18",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fff-bb4a-7332-831e-3b43d016a00a",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 571596,
+    "cached_input_tokens": 496640,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 50467,
+    "reasoning_output_tokens": 24314
+  },
+  "stderr": "2026-10-09T09:36:15.276053Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c986.jsonl:\n{\"verses\":[\"2:286\"],\"words\":[\"مَا لَا طَاقَةَ لَنَا بِهِۦ\"],\"type\":\"links\",\"speaker\":\"المعتزلة\",\"stance\":\"reports\",\"claim\":\"The Muʿtazilites read “they could not hear” at 11:20 as meaning that hearing was difficult for them.\",\"anchor\":\"في وصف الكفار { ما كانوا يستطيعون السمع } أي كان يشق عليهم\",\"mentions\":[\"11:20\"]}\n",
+  "prompt_sha256": "c2888d5def20d6212dfd3ab23a51ae18948396c532118f2648d4a6c0f195ef84",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T05-30-15-01a11fff-bb4a-7332-831e-3b43d016a00a.jsonl",
+  "usd_equivalent": 0.037695,
+  "requests": 12,
+  "max_request_input_tokens": 73137,
+  "over_context_cap": false
+}

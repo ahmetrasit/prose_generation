@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c179",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:29:01",
+  "ended": "2026-10-09T02:44:15",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f59-cf50-7d43-93ce-9ab8f67aa8c1",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 1144807,
+    "cached_input_tokens": 1048064,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 67506,
+    "reasoning_output_tokens": 36726
+  },
+  "stderr": "2026-10-09T06:42:02.158015Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c179.jsonl:\n{\"verses\":[\"2:2\"],\"words\":[\"هدى\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"Hudan may be an accusative circumstantial phrase from dhalika or al-kitab, or from the pronoun in fihi; its nominal source can function emphatically as guidance itself, by an omitted noun, or as an active participle.\",\"anchor\":\"على الحال من ذلك أو من الكتاب\"}\n",
+  "prompt_sha256": "bf16ffde0be1fb4596732c3d952492171e8a40ba057cbebfd5a9d0ff7c75c44b",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-29-01-01a11f59-cf50-7d43-93ce-9ab8f67aa8c1.jsonl",
+  "usd_equivalent": 0.053908,
+  "requests": 18,
+  "max_request_input_tokens": 95894,
+  "over_context_cap": false
+}

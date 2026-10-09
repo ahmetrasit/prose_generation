@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1412",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:13:32",
+  "ended": "2026-10-09T02:16:56",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f4b-a344-7342-afb6-8ef664c93c44",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 273270,
+    "cached_input_tokens": 234496,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 25061,
+    "reasoning_output_tokens": 17612
+  },
+  "stderr": "2026-10-09T06:16:38.427404Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1412.jsonl:\n{\"loc\":\"JURJANI-ASRAR:v1p148\",\"rows\":[{\"verses\":[\"28:19\"],\"words\":[\"*\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Ibn al-Muʿtazz’s “when it leapt” adds force, while an earlier poet’s prancing and circling horses preserve the chief basis of resemblance: their movement and the manner of the flash.\",\"anchor\":\"وقد عنى المتقدمون أيضا بمثل هذا الاحتياط ألا تراه قال وترى البرق عارضا مستطيلا مرح البلق\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "f25a0a217691539e4176e2845c244c406a3ce78ac023830405af6ae0ef30a3ec",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-13-33-01a11f4b-a344-7342-afb6-8ef664c93c44.jsonl",
+  "usd_equivalent": 0.018753,
+  "requests": 8,
+  "max_request_input_tokens": 46076,
+  "over_context_cap": false
+}

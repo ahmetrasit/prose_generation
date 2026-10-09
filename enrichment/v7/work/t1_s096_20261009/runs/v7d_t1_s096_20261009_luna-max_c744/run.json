@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c744",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:26:04",
+  "ended": "2026-10-09T04:38:31",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fc4-f99f-7fc3-bd66-b3ac1add8948",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1173086,
+    "cached_input_tokens": 1044480,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 88758,
+    "reasoning_output_tokens": 38410
+  },
+  "stderr": "2026-10-09T08:31:51.443687Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c744.jsonl:\n\"anchor\":\"فإن طلق مطلق في طهر قد مس فيه لزمه الطلاق وقد أساء واعتدت بما بقي من ذلك الطهر\"\n",
+  "prompt_sha256": "f8d57c51bb31fc85dcf19d728dc9355c2f4bf3d326e5438737533ed9aa8ed981",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-26-05-01a11fc4-f99f-7fc3-bd66-b3ac1add8948.jsonl",
+  "usd_equivalent": 0.067684,
+  "requests": 16,
+  "max_request_input_tokens": 117180,
+  "over_context_cap": false
+}

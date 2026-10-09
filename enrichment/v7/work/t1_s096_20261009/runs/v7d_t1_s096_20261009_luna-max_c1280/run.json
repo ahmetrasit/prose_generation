@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1280",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:49:12",
+  "ended": "2026-10-09T01:56:18",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f35-5a67-7360-8efc-409513ac59fd",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 618975,
+    "cached_input_tokens": 544768,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 54234,
+    "reasoning_output_tokens": 29139
+  },
+  "stderr": "2026-10-09T05:55:14.086279Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1280.jsonl:\n{\"verses\":[\"56:8\"],\"words\":[\"مَآ أَصْحَٰبُ ٱلْمَيْمَنَةِ\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The amazed repetition points to both senses of maymana; he takes the unmatched blessing of these people as a hint that the address concerns the present community.\",\"anchor\":\"İki mânasına da işaret için şöyle nazar-ı dikkat celb olunuyor:\",\"mentions\":[]}\n",
+  "prompt_sha256": "3c10aaa285d8e8a42abf83969684c8d039c4238fc73d7317ff15ab23afb72ffc",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-49-12-01a11f35-5a67-7360-8efc-409513ac59fd.jsonl",
+  "usd_equivalent": 0.039985,
+  "requests": 12,
+  "max_request_input_tokens": 77884,
+  "over_context_cap": false
+}

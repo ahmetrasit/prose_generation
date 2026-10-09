@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1122",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:13:41",
+  "ended": "2026-10-09T01:18:27",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f14-d729-7043-bd29-1e64e5b64ec0",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 443446,
+    "cached_input_tokens": 388352,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 36966,
+    "reasoning_output_tokens": 21146
+  },
+  "stderr": "2026-10-09T05:17:08.498615Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1122.jsonl:\n{\"loc\":\"TABATABAI:5:55-56#7\",\"rows\":[{\"verses\":[\"5:55\"],\"words\":[\"وَلِيُّكُمُ\"],\"type\":\"meaning\",\"speaker\":\"الراغب\",\"stance\":\"reports\",\"claim\":\"Al-Rāghib says tawallā with a direct object denotes turning toward it; with ʿan, expressed or understood, it denotes turning away.\",\"anchor\":\"وقولهم تولى إذا عدي بنفسه اقتضى معنى الولاية وحصوله في أقرب المواضع منه\",\"mentions\":[\"2:144\"]},{\"verses\":[\"5:55\"],\"words\":[\"وَلِيُّكُمُ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The concept of wilāya began with physical and temporal closeness, then extended to abstract relations because people first engage with sensible things.\",\"anchor\":\"والظاهر أن القرب الكذائي المعبر عنه بالولاية، أول ما اعتبره الإنسان إنما اعتبره في الأجسام وأمكنتها وأزمنتها ثم استعير لأقسام القرب المعنوية\",\"mentions\":[]},{\"verses\":[\"5:55\"],\"words\":[\"وَلِيُّكُمُ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Abstract wilāya is a special closeness that grants a right to manage another’s affairs: examples include heirs, guardians, supporters, God, prophets, rulers, and other forms of authority or bond.\",\"anchor\":\"المحصل من معنى الولاية في موارد استعمالها هو نحو من القرب يوجب نوعا من حق التصرف ومالكية التدبير\",\"mentions\":[]},{\"verses\":[\"5:55\"],\"words\":[\"وَلِيُّكُمُ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The phrases about turning backs and turning away mean facing the battle’s opposite direction or directing oneself away from the intended course.\",\"anchor\":\"وقوله { يولون الأدبار } أي يجعلون أدبارهم تلي جهة الحرب وتدبر أمرها، وقوله { توليتم } أي توليتم عن قبوله\",\"mentions\":[]},{\"verses\":[\"5:55\",\"5:56\"],\"words\":[\"وَلِيُّكُمُ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The coordinated list under one singular wali indicates one sense of wilāya for God, the Messenger, and believers; the next verse likewise treats them together as God’s party.\",\"anchor\":\"وقد اشتمل قوله تعالى { إنما وليكم الله رسوله والذين آمنوا } من السياق على ما يدل\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "06c63cac47f42108cfe76b67dca025556cc340a0221872c1b99f5877d7e55470",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-13-41-01a11f14-d729-7043-bd29-1e64e5b64ec0.jsonl",
+  "usd_equivalent": 0.027876,
+  "requests": 11,
+  "max_request_input_tokens": 57340,
+  "over_context_cap": false
+}

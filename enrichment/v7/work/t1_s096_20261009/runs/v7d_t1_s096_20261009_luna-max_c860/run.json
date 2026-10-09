@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c860",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:51:05",
+  "ended": "2026-10-09T05:04:42",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fdb-de2e-7382-ac76-f6e52f73f8ce",
+  "commands": 12,
+  "usage": {
+    "input_tokens": 2951729,
+    "cached_input_tokens": 2798592,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 109239,
+    "reasoning_output_tokens": 42733
+  },
+  "stderr": "2026-10-09T09:00:00.040003Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c860.jsonl:\n{\"loc\":\"KASHSHAF:93:8\",\"rows\":[{\"verses\":[\"93:8\"],\"words\":[\"عَآئِلًۭا\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"ʿĀʾilan means poor or destitute.\",\"anchor\":\"عائلا فقيرا وقرئ عيلا كما قرئ سيحات وعديما\",\"mentions\":[]},{\"verses\":[\"93:8\"],\"words\":[\"عَآئِلًۭا\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"A reading has ʿayilan, with a morphological comparison to sayiḥāt.\",\"anchor\":\"وقرئ عيلا كما قرئ سيحات وعديما فأغنى\",\"mentions\":[]},{\"verses\":[\"93:8\"],\"words\":[\"فَأَغْنَىٰ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"God enriched him through Khadīja's wealth, or through the spoils granted to him.\",\"anchor\":\"فأغناك بمال خديجة أو بما أفاء عليك من الغنائم\",\"mentions\":[]},{\"verses\":[\"93:8\"],\"words\":[\"فَأَغْنَىٰ\"],\"type\":\"reports\",\"speaker\":\"رسول الله صلى الله عليه وسلم\",\"stance\":\"reports\",\"claim\":\"The Prophet said that his provision was placed beneath the shade of his spear.\",\"anchor\":\"قال عليه الصلاة السلام جعل رزقي تحت ظل رمحي\",\"mentions\":[]},{\"verses\":[\"93:8\"],\"words\":[\"فَأَغْنَىٰ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"Another explanation is that God made him content and enriched his heart.\",\"anchor\":\"وقيل قنعك وأغنى قلبك\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "fe11d17d8d75224d26bc15a333717fed47a4768171fcee4e8a7949a16ec4d726",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-51-05-01a11fdb-de2e-7382-ac76-f6e52f73f8ce.jsonl",
+  "usd_equivalent": 0.097919,
+  "requests": 28,
+  "max_request_input_tokens": 139747,
+  "over_context_cap": true
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c938",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T05:13:36",
+  "ended": "2026-10-09T05:27:27",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11ff0-7bdf-7fb3-88f9-4115b461c996",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1506045,
+    "cached_input_tokens": 1363712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 113868,
+    "reasoning_output_tokens": 40335
+  },
+  "stderr": "2026-10-09T09:26:45.757886Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c938.jsonl:\n\"anchor\":\"فالموعد هاهنا مكان. وقيل الموعد اسم لزمان الوعد كقوله تعالى:\"\n",
+  "prompt_sha256": "f9117e769c9aa65dd326fdee011f37b035bc1ed9c0ae5b593212bdec9bea7c7e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T05-13-36-01a11ff0-7bdf-7fb3-88f9-4115b461c996.jsonl",
+  "usd_equivalent": 0.084804,
+  "requests": 17,
+  "max_request_input_tokens": 138611,
+  "over_context_cap": true
+}

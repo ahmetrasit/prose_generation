@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c416",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:10:10",
+  "ended": "2026-10-09T03:21:20",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f7f-7b05-7193-9178-ec9b55b1ff95",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1300182,
+    "cached_input_tokens": 1181440,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 78338,
+    "reasoning_output_tokens": 46534
+  },
+  "stderr": "2026-10-09T07:15:35.795294Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c416.jsonl:\n{\"loc\":\"ABUHAYYAN:89:1\",\"rows\":[{\"verses\":[\"89:1\"],\"words\":[\"*\"],\"type\":\"sciences\",\"speaker\":\"الجمهور\",\"stance\":\"reports\",\"claim\":\"The majority classify al-Fajr as Meccan; ʿAlī ibn Abī Ṭalḥa says it Medinan.\",\"anchor\":\"هذه السورة مكية في قول الجمهور وقال علي بن أبي طلحة مدنية\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "81320cb3e9dc7b579b576443d234048580cae1679d1dffb9519f81dd9247d1d5",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-10-10-01a11f7f-7b05-7193-9178-ec9b55b1ff95.jsonl",
+  "usd_equivalent": 0.062858,
+  "requests": 17,
+  "max_request_input_tokens": 115795,
+  "over_context_cap": false
+}

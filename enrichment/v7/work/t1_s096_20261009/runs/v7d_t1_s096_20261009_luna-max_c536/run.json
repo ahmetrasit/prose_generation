@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c536",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:37:51",
+  "ended": "2026-10-09T03:47:34",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f98-d44f-7a90-8a25-e0f95999c31c",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1191092,
+    "cached_input_tokens": 1095168,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 72174,
+    "reasoning_output_tokens": 27271
+  },
+  "stderr": "2026-10-09T07:44:38.657197Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c536.jsonl:\n{\"verses\":[\"86:11\"],\"words\":[\"ذَاتَ ٱلرَّجْعِ\"],\"type\":\"meaning\",\"speaker\":\"الجمهور\",\"stance\":\"reports\",\"claim\":\"The majority explain al-rajʿ as rain, using a verbal noun of returning as a name for rainfall.\",\"anchor\":\"ذات الرجع أيالمطر في قولهم أيضا وأصله مصدر رجع المعتدي واللازم أيضا\",\"mentions\":[]}\n",
+  "prompt_sha256": "ed2e18d4cbbcae30c8ec54fb02a09e0dce68462b4c88c0b2e35ea1903d7a0a2e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-37-52-01a11f98-d44f-7a90-8a25-e0f95999c31c.jsonl",
+  "usd_equivalent": 0.056631,
+  "requests": 18,
+  "max_request_input_tokens": 94647,
+  "over_context_cap": false
+}

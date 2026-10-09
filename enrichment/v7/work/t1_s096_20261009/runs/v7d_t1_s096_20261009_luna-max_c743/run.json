@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c743",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:26:03",
+  "ended": "2026-10-09T04:38:04",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fc4-f442-7f92-b1ec-f2e3b45bbae7",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1305747,
+    "cached_input_tokens": 1188352,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 80718,
+    "reasoning_output_tokens": 39280
+  },
+  "stderr": "2026-10-09T08:32:11.821878Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c743.jsonl:\n\"anchor\":\"وترك ابن كثير همزة القرآن مع التعريف والتنكير حيث وقع، وقد قيل إن اشتقاقه على هذه القراءة من قرن وذلك ضعيف\"\n",
+  "prompt_sha256": "ade477a82de2d4287077689dd2745ae952337105c7fe8443a1d1e9f82aca38fc",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-26-04-01a11fc4-f442-7f92-b1ec-f2e3b45bbae7.jsonl",
+  "usd_equivalent": 0.063982,
+  "requests": 18,
+  "max_request_input_tokens": 115735,
+  "over_context_cap": false
+}

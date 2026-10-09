@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c434",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:13:12",
+  "ended": "2026-10-09T03:26:02",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f82-4375-7283-89c2-baba8ce618dd",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 1326236,
+    "cached_input_tokens": 1192448,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 98110,
+    "reasoning_output_tokens": 34281
+  },
+  "stderr": "2026-10-09T07:17:54.069282Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c434.jsonl:\n\"anchor\":\"قال قتادة سماه الله يحيى لأنه أحياه بالإيمان\"\n",
+  "prompt_sha256": "ce30af60f45d3a5b1d14fedcc1f65bcdec4c46aab349e195fdf71e4893bcc7a6",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-13-13-01a11f82-4375-7283-89c2-baba8ce618dd.jsonl",
+  "usd_equivalent": 0.074358,
+  "requests": 18,
+  "max_request_input_tokens": 123204,
+  "over_context_cap": true
+}

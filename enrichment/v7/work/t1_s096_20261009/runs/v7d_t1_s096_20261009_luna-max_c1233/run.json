@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1233",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:37:36",
+  "ended": "2026-10-09T01:49:33",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f2a-bbb3-7f03-8bf5-c8c976f89087",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 2392881,
+    "cached_input_tokens": 2233600,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 109094,
+    "reasoning_output_tokens": 30869
+  },
+  "stderr": "2026-10-09T05:40:30.081113Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 27, '\",\"anchor\":\"وهذا توبيخ لهم، والمعنى: أتصدقون الآن عذاب الله\",\"mentions\":[]}]}' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n",
+  "prompt_sha256": "91f04949ba1057b0fa36ab8e00990352ea8ca92056fa64ab2d6cd89ea181ea39",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-37-36-01a11f2a-bbb3-7f03-8bf5-c8c976f89087.jsonl",
+  "usd_equivalent": 0.092811,
+  "requests": 23,
+  "max_request_input_tokens": 154398,
+  "over_context_cap": true
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1339",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:57:51",
+  "ended": "2026-10-09T02:07:13",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f3d-4598-7680-bc67-493b4adb6d8d",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 840630,
+    "cached_input_tokens": 730880,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 69605,
+    "reasoning_output_tokens": 38296
+  },
+  "stderr": "2026-10-09T06:03:43.710114Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1339.jsonl:\n\"anchor\":\"وتارة يكون حقيقيا كقوله ولقد رآه نزلة أخرى عند سدرة المنتهى\"\n",
+  "prompt_sha256": "8a45e178c42d92c3a69a90045d010c26e56e5f8df239eea46e390d27b1926827",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-57-51-01a11f3d-4598-7680-bc67-493b4adb6d8d.jsonl",
+  "usd_equivalent": 0.053086,
+  "requests": 13,
+  "max_request_input_tokens": 103840,
+  "over_context_cap": false
+}

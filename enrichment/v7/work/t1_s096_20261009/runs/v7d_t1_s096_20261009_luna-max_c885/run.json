@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c885",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:59:43",
+  "ended": "2026-10-09T05:05:38",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fe3-c61c-7b80-b35c-d36390a9eda9",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 540569,
+    "cached_input_tokens": 470272,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 42041,
+    "reasoning_output_tokens": 15545
+  },
+  "stderr": "2026-10-09T09:03:33.879154Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c885.jsonl:\n{\"verses\":[\"20:41\"],\"words\":[\"لِنَفْسِى\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"“For Myself” may mean for My love.\",\"anchor\":\"لمحبتي\",\"mentions\":[]},\n{\"verses\":[\"20:41\"],\"words\":[\"لِنَفْسِى\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"“For Myself” may instead mean for My message.\",\"anchor\":\"لرسالتي\",\"mentions\":[]},\n",
+  "prompt_sha256": "92acc3f571bad91b0878085309cfbbffc0c037dd3e87bbab524128c2e10be6ab",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-59-43-01a11fe3-c61c-7b80-b35c-d36390a9eda9.jsonl",
+  "usd_equivalent": 0.032753,
+  "requests": 11,
+  "max_request_input_tokens": 72649,
+  "over_context_cap": false
+}

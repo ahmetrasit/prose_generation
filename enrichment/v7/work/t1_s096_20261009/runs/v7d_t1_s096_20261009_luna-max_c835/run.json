@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c835",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:46:48",
+  "ended": "2026-10-09T04:55:06",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fd7-f469-7972-a383-018ea3798f40",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 846755,
+    "cached_input_tokens": 751104,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 58708,
+    "reasoning_output_tokens": 21583
+  },
+  "stderr": "2026-10-09T08:51:24.337941Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c835.jsonl:\n\"anchor\":\"وأن فعله يدل على صفاته إما بنفسه ككونه قادرا، أو بواسطة ككونه حيا سميعا بصيرا\"\n",
+  "prompt_sha256": "86ac7c2c943a4e87e3a73d52e05427e3d25d64657d294818fbea30f48be10113",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-46-49-01a11fd7-f469-7972-a383-018ea3798f40.jsonl",
+  "usd_equivalent": 0.04643,
+  "requests": 14,
+  "max_request_input_tokens": 88898,
+  "over_context_cap": false
+}

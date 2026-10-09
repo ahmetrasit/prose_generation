@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c838",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:47:32",
+  "ended": "2026-10-09T04:59:52",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fd8-a0c9-7e73-8d9e-25a9d5b6b377",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 992397,
+    "cached_input_tokens": 850688,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 97766,
+    "reasoning_output_tokens": 40507
+  },
+  "stderr": "2026-10-09T08:56:24.388771Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c838.jsonl:\nعن أبي بردة الأسلمي أن رسول الله قال لعلي: إن الله تعالى أمرني أن أدنيك ولا أقصيك،\n",
+  "prompt_sha256": "1753f3c986c7397934c54aa275fea1547c9e710f8d9d1adc3e4ea1b352037d16",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-47-33-01a11fd8-a0c9-7e73-8d9e-25a9d5b6b377.jsonl",
+  "usd_equivalent": 0.071561,
+  "requests": 13,
+  "max_request_input_tokens": 132148,
+  "over_context_cap": true
+}

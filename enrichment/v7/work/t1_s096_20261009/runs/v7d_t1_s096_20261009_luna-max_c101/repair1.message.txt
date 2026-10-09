@@ -1,0 +1,18 @@
+Repair request for your chunk. You may reread only your assigned chunk parts and read and edit only your own output file enrichment/v7/work/t1_s096_20261009/out/luna-max/c101.jsonl. The checker reports:
+
+BURSEVI:v6p157#3 row 1: anchor not found verbatim in the segment: الهوى أول إله عبد في الأرض في شأنه وارد شده وزبان القرآن في حقه فرموده
+BURSEVI:v6p157#3 row 1: word «أرأيت من اتخذ إلهه هواه» is not in the text of 25:43
+BURSEVI:v6p157#3 row 2: anchor not found verbatim in the segment: قال أبو سليمان رحمه الله من أتبع نفسه هواها فقد سعى في قتلها لأن حياتها بالذكر و
+BURSEVI:v6p157#3 row 2: word «من اتخذ إلهه هواه» is not in the text of 25:43
+BURSEVI:v6p157#3 row 3: anchor not found verbatim in the segment: وفي المثنوي اين جهان شهوتي يتخانة ايست انبيا وكافرانرا لأنه ايست ليك شهوت بندة
+BURSEVI:v6p157#3 row 3: word «هواه» is not in the text of 25:43
+BURSEVI:v6p157#3 row 4: anchor not found verbatim in the segment: أكابر گفته اندكه اكر كسي درخواب بيندكه يغمبر صلى الله عليه وسلم مرده است تعبيرش 
+BURSEVI:v6p157#3 row 4: word «هواه» is not in the text of 25:43
+BURSEVI:v6p157#3 row 5: anchor not found verbatim in the segment: مولانا نور الدين عبد الرحمن جامي رحمه الله اين سخن را تأويل ديكر كرده بودند فرمو
+BURSEVI:v6p157#3 row 5: word «هواه» is not in the text of 25:43
+BURSEVI:v6p157#3 row 6: anchor not found verbatim in the segment: عليه برآنكس كه هواي خودرا خدا ساخته وكيلا حفيظا تمنعه عن الشرك والمعاصي
+BURSEVI:v6p213#3 row 8: anchor not found verbatim in the segment: وهو بيان لتنزهه عن المطامع الدنية والأعراض الدنيوية قال الحافظ
+BURSEVI:v6p219 row 1: anchor not found verbatim in the segment: {وتذرون} تتركون يقال فلان يذر الشيء أي يقذفه لقلة إعداده به ولم يستعمل ماضيه
+BURSEVI:v6p219 row 2: anchor not found verbatim in the segment: {ما خلق لكم ربكم} لأجل استمتاعكم {من أزواجكم} ومن لبيان أن ما أريد به جنس الإناث
+
+Fix every listed problem and change nothing else. An anchor must be one continuous span copied exactly from the segment body, with the same characters and spaces. A tagged word must be a word of that verse's own text; if no word fits, use the whole-verse tag your brief defines. Every segment needs exactly one line. Then run `python3 -B enrichment/v7/digest.py check t1_s096_20261009 --model luna-max --chunk 101` until it prints OK, and reply with one line.

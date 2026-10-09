@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c928",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T05:10:37",
+  "ended": "2026-10-09T05:28:44",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fed-c06e-7d13-820b-eea05cf14500",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1305324,
+    "cached_input_tokens": 1185536,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96624,
+    "reasoning_output_tokens": 36305
+  },
+  "stderr": "2026-10-09T09:15:34.292855Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c928.jsonl:\n\"anchor\":\"قال ابن العربي وهو ضعيف لأنه تكليف لما لا يصل إليه\"\n",
+  "prompt_sha256": "f81ff2d8ee25417709458ab67a4c519318100ffe5d3e8f7823fba66135406e9b",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T05-10-37-01a11fed-c06e-7d13-820b-eea05cf14500.jsonl",
+  "usd_equivalent": 0.072146,
+  "requests": 17,
+  "max_request_input_tokens": 123491,
+  "over_context_cap": true
+}

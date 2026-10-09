@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c594",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:53:12",
+  "ended": "2026-10-09T04:02:40",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fa6-e067-7131-87fb-267f0b2ea141",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1073905,
+    "cached_input_tokens": 973824,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 70066,
+    "reasoning_output_tokens": 28693
+  },
+  "stderr": "2026-10-09T07:58:39.003613Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c594.jsonl:\n{\"loc\":\"BIQAI-FULL:v2p445\",\"rows\":[{\"verses\":[\"5:27\"],\"words\":[\"لَأَقْتُلَنَّكَ\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"After one offering is rejected and the other accepted, Cain’s anger and envy lead him to threaten his brother with murder.\",\"anchor\":\"فما فعل حين غضب فقيل قال أي لأخيه الذي قبل قربانه حسدا له\"}\n2026-10-09T07:58:56.931477Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c594.jsonl:\n{\"loc\":\"BIQAI-FULL:v2p445\",\"rows\":[{\"verses\":[\"5:27\"],\"words\":[\"لَأَقْتُلَنَّكَ\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"After one offering is rejected and the other accepted, Cain’s anger and envy lead him to threaten his brother with murder.\",\"anchor\":\"فما فعل حين غضب فقيل قال أي لأخيه الذي قبل قربانه حسدا له\"}\n",
+  "prompt_sha256": "7b51bd786b11ef0857dd41e40267f0f2ba9b0e4c6e4c58d0a5cb3af7529ca4c4",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-53-12-01a11fa6-e067-7131-87fb-267f0b2ea141.jsonl",
+  "usd_equivalent": 0.054779,
+  "requests": 16,
+  "max_request_input_tokens": 102241,
+  "over_context_cap": false
+}

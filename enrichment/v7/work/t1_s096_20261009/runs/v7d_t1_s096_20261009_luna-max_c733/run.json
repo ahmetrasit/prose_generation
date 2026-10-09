@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c733",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:23:25",
+  "ended": "2026-10-09T04:32:05",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fc2-89d2-70f3-972a-bccd45b8a1db",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1015851,
+    "cached_input_tokens": 921344,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 62501,
+    "reasoning_output_tokens": 27453
+  },
+  "stderr": "2026-10-09T08:27:52.233448Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c733.jsonl:\n\"anchor\":\"والثالث : هو حوادث تكثر أمثالها تختص بشخص واحد فنزلت الآية لإعلانها\"\n",
+  "prompt_sha256": "a671a60384c4bcaf224b41b2cf504310fded9a437422d3893db3c28248fc0e55",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-23-25-01a11fc2-89d2-70f3-972a-bccd45b8a1db.jsonl",
+  "usd_equivalent": 0.049915,
+  "requests": 17,
+  "max_request_input_tokens": 93344,
+  "over_context_cap": false
+}

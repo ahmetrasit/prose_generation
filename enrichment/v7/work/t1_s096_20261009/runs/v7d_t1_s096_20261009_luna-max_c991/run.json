@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c991",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T05:31:16",
+  "ended": "2026-10-09T05:39:42",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12000-a8d6-7833-a31a-a0cfd029edad",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 801096,
+    "cached_input_tokens": 716288,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 58192,
+    "reasoning_output_tokens": 32472
+  },
+  "stderr": "2026-10-09T09:37:23.520236Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c991.jsonl:\n{\"verses\":[\"6:94\"],\"words\":[\"فرادى كما خلقناكم أول مرة\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The body is an instrument for the soul to acquire true knowledge and virtue; dying without either leaves profound regret over wasting a means to eternal happiness.\",\"anchor\":\"وهذا هو المراد من قوله ولقد جئتمونا فرادى كما خلقناكم أول مرة\",\"mentions\":[]}\n",
+  "prompt_sha256": "5e823d5a89f3a073675ba6e2f234af90d859554afcd8ef091f887c21657fd23b",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T05-31-16-01a12000-a8d6-7833-a31a-a0cfd029edad.jsonl",
+  "usd_equivalent": 0.04474,
+  "requests": 14,
+  "max_request_input_tokens": 81116,
+  "over_context_cap": false
+}

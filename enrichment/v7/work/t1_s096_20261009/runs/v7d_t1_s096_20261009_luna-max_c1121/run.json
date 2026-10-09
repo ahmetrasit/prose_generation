@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1121",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:13:31",
+  "ended": "2026-10-09T01:20:16",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f14-b19e-7191-8c4b-b80e1e8bebad",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 821786,
+    "cached_input_tokens": 748544,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 53616,
+    "reasoning_output_tokens": 25314
+  },
+  "stderr": "2026-10-09T05:17:20.900391Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1121.jsonl:\n{\"loc\":\"TABATABAI:5:55-56#3\",\"rows\":[{\"verses\":[\"5:55\",\"5:56\"],\"words\":[\"وَرَسُولُهُۥ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"rejects\",\"claim\":\"It is improper to call the Prophet a supporter of believers in the relevant religious sense; support is rendered to God's religion, which God legislates and the Messenger and believers uphold.\",\"anchor\":\"على أنه ليس من الجائز أن يعد النبي صلى الله عليه وآله وسلم وليا للمؤمنين بمعنى ولاية النصرة\",\"mentions\":[\"61:14\",\"47:7\",\"3:81\"]},{\"verses\":[\"5:55\"],\"words\":[\"ٱلَّذِينَ ءَامَنُوا۟\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The Qur'an calls the disciples helpers of God and describes support for God's cause and covenant with prophets to believe in and support the coming messenger.\",\"anchor\":\"قال الحواريون نحن أنصار الله\",\"mentions\":[\"61:14\",\"47:7\",\"3:81\"]},{\"verses\":[\"5:55\"],\"words\":[\"وَرَسُولُهُۥ\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The Qur'an also praises the Prophet's supporters, those who aid God's Messenger, and the Helpers who sheltered and supported the emigrants.\",\"anchor\":\"وعزروه ونصروه\",\"mentions\":[\"7:157\",\"59:8\",\"8:72\"]},{\"verses\":[\"5:55\",\"5:56\"],\"words\":[\"ٱلَّذِينَ ءَامَنُوا۟\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Since believers are bound to God's religious law, the Qur'an describes God as supporting those who support Him and as supporting His messengers and believers.\",\"anchor\":\"ولينصرن الله من ينصره\",\"mentions\":[\"22:40\",\"40:51\",\"30:47\"]},{\"verses\":[\"5:55\",\"5:56\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Religion cannot belong only to believers with the Prophet outside it and then make him their supporter: he shares every religious distinction in its fullest measure, and the Qur'an never calls him their supporter.\",\"anchor\":\"ولا في آية واحدة، وحاشا ساحة الكلام الإلهي أن يساهل\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "6880514a34c969f4cf10e764fe5a58c6d442559b5a94e1a12073dd66bcc54b48",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-13-32-01a11f14-b19e-7191-8c4b-b80e1e8bebad.jsonl",
+  "usd_equivalent": 0.041618,
+  "requests": 16,
+  "max_request_input_tokens": 75853,
+  "over_context_cap": false
+}

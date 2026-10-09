@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1252",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:44:04",
+  "ended": "2026-10-09T01:50:22",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f30-a8d3-7d33-a17c-0b966eda0bf1",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 544253,
+    "cached_input_tokens": 474112,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47417,
+    "reasoning_output_tokens": 23636
+  },
+  "stderr": "2026-10-09T05:47:16.170350Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1252.jsonl:\n{\"verses\":[\"4:107\"],\"words\":[\"هَٰٓأَنتُمْ\",\"هَٰٓؤُلَآءِ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The defenders of the treacherous are themselves people who deceive and betray their own souls.\",\"anchor\":\"kendilerini aldatan, nefislerine hıyanet eden kimselersiniz\",\"mentions\":[]}\n",
+  "prompt_sha256": "b677c2027b676a6b7500758a8338f0c19bacd073d4c6d094d70b96369be88cc2",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-44-05-01a11f30-a8d3-7d33-a17c-0b966eda0bf1.jsonl",
+  "usd_equivalent": 0.035464,
+  "requests": 12,
+  "max_request_input_tokens": 69628,
+  "over_context_cap": false
+}

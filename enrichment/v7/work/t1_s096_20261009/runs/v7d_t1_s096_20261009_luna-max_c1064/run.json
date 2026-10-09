@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1064",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:02:12",
+  "ended": "2026-10-09T01:12:34",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f0a-53bf-70f0-8c81-5121013d95fa",
+  "commands": 11,
+  "usage": {
+    "input_tokens": 2960215,
+    "cached_input_tokens": 2825728,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 89834,
+    "reasoning_output_tokens": 43593
+  },
+  "stderr": "2026-10-09T05:08:23.949063Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1064.jsonl:\n{\"loc\":\"TAB-FULL:v2p706\",\"rows\":[{\"verses\":[\"2:156\"],\"words\":[\"إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The patient recognize every blessing as God's, affirm their servitude and His sole lordship, believe in returning to Him, submit to His trials and judgments, and hope for reward while fearing punishment.\",\"anchor\":\"فيقرون بعبوديتي، ويوحدونني بالربوبية، ويصدقون بالمعاد والرجوع إلي فيستسلمون لقضائي، ويرجون ثوابي ويخافون عقابي\",\"mentions\":[]}\n",
+  "prompt_sha256": "558409adf964ff4f2384bb0df9fc9006ef6b90d66f254b61849ccc9444222eb8",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-02-12-01a11f0a-53bf-70f0-8c81-5121013d95fa.jsonl",
+  "usd_equivalent": 0.086623,
+  "requests": 34,
+  "max_request_input_tokens": 124192,
+  "over_context_cap": true
+}

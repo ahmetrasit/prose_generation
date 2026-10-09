@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c854",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:49:59",
+  "ended": "2026-10-09T04:58:38",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fda-dc45-7393-97b8-4a9d962cdee3",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 607736,
+    "cached_input_tokens": 523520,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 57565,
+    "reasoning_output_tokens": 25056
+  },
+  "stderr": "2026-10-09T08:55:42.705516Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c854.jsonl:\n{\"verses\":[\"2:280\"],\"words\":[\"ميسرة\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Maysara and yasār mean wealth or abundant property; the term derives from ease of transactions and meeting needs.\",\"anchor\":\"والميسرة واليسار: الغنى، وهو كثرة المال أخذ من اليسر لأنه يتيسر عليه التصرف وقضاء الحوائج\",\"mentions\":[]}\n",
+  "prompt_sha256": "cb24e2ccd57fe7bde6c144a547b651b65e6df0f550673fafa028e904ccbd97f3",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-49-59-01a11fda-dc45-7393-97b8-4a9d962cdee3.jsonl",
+  "usd_equivalent": 0.042439,
+  "requests": 11,
+  "max_request_input_tokens": 88230,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c213",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:39:37",
+  "ended": "2026-10-09T02:44:43",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f63-836b-76e2-ac92-f525c0afc3b9",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 357189,
+    "cached_input_tokens": 301824,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39594,
+    "reasoning_output_tokens": 25498
+  },
+  "stderr": "2026-10-09T06:43:10.102291Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c213.jsonl:\n{\"loc\":\"ASAD-NOTES:53:38#n32\",\"rows\":[{\"verses\":[\"53:39\"],\"words\":[\"مَا سَعَىٰ\"],\"type\":\"reports\",\"speaker\":\"Prophet\",\"stance\":\"reports\",\"claim\":\"Asad cites a well-authenticated Prophetic tradition: only conscious intentions determine judgment; Bukhari, Muslim, Tirmidhi, Abu Da'ud, Nasa'i, Ibn Majah, Ibn Hanbal and others transmit it.\",\"anchor\":\"well-authenticated saying of the Prophet, \\\"Actions will be [judged] only according to the conscious intentions\\\"\",\"mentions\":[]},{\"verses\":[\"53:39\"],\"words\":[\"مَا سَعَىٰ\"],\"type\":\"meaning\",\"speaker\":\"Asad\",\"stance\":\"holds\",\"claim\":\"In Qur'anic ethics, action includes deliberate omission and the deliberate voicing of righteous or sinful beliefs: anything consciously intended and expressed by word or deed.\",\"anchor\":\"the term \\\"action\\\" ('amal) comprises also a deliberate omission of actions, whether good or bad, as well as a deliberate voicing of beliefs\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "f95d97c66655dda0e699d1a39c4a630b387af045cbb97fefdb00ea9a3f910c5b",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-39-37-01a11f63-836b-76e2-ac92-f525c0afc3b9.jsonl",
+  "usd_equivalent": 0.028352,
+  "requests": 9,
+  "max_request_input_tokens": 59515,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1279",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:48:57",
+  "ended": "2026-10-09T01:55:48",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f35-20df-7482-8a23-30323e86b374",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 725171,
+    "cached_input_tokens": 648960,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 57063,
+    "reasoning_output_tokens": 31645
+  },
+  "stderr": "2026-10-09T05:54:14.390950Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1279.jsonl:\n{\"verses\":[\"55:27\"],\"words\":[\"وَجْهُ رَبِّكَ\"],\"type\":\"interpretation\",\"speaker\":\"Kādî Beyzâvî\",\"stance\":\"reports\",\"claim\":\"Al-Qadi Baydawi glosses the face as the Essence, while also allowing it to mean the direction toward God or a direction He possesses.\",\"anchor\":\"Kādî Beyzâvî “Zât” ile tefsir ettikten sonra şöyle demiştir: Mevcûdâtın cihetlerini istikrâ\",\"mentions\":[]}\n",
+  "prompt_sha256": "17e99649e90a9e93c68cdc43249afbb524e554591c72043ee075fa55ab057028",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-48-58-01a11f35-20df-7482-8a23-30323e86b374.jsonl",
+  "usd_equivalent": 0.042642,
+  "requests": 13,
+  "max_request_input_tokens": 77807,
+  "over_context_cap": false
+}

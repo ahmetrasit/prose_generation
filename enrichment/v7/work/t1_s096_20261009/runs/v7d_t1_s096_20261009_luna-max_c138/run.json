@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c138",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:06:58",
+  "ended": "2026-10-09T02:29:43",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f45-9f86-7373-8c0b-54cb5562f576",
+  "commands": 12,
+  "usage": {
+    "input_tokens": 6589643,
+    "cached_input_tokens": 6342144,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 167134,
+    "reasoning_output_tokens": 80379
+  },
+  "stderr": "jects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c138.jsonl:\n{\"loc\":\"SULAMI:v1p445#3\",\"rows\":[{\"verses\":[\"20:43\",\"20:44\"],\"words\":[\"*\"],\"type\":\"theology\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Inwardly, the Pharaoh is the target, but Moses is in truth sent to the magicians: God does not send prophets to His enemies, who have no standing with Him to warrant their mission; rather, He sends them to rescue His believing friends from among enemy disbelievers.\",\"anchor\":\"الإشارة إلى فرعون وهو المبعوث في الحقيقة إلى السحرة فإن الله لا يرسل أنبياءه إلى أعداءه\",\"mentions\":[\"20:44\"]}]}\n2026-10-09T06:26:45.632170Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c138.jsonl:\n{\"loc\":\"SULAMI:v1p445#3\",\"rows\":[{\"verses\":[\"20:43\",\"20:44\"],\"words\":[\"*\"],\"type\":\"theology\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Inwardly, the Pharaoh is the target, but Moses is in truth sent to the magicians: God does not send prophets to His enemies, who have no standing with Him to warrant their mission; rather, He sends them to rescue His believing friends from among enemy disbelievers.\",\"anchor\":\"قال ابن عطاء : الإشارة إلى فرعون وهو المبعوث في الحقيقة إلى السحرة ، فإن الله لا يرسل أنبياءه إلى أعداءه ، ولم يكن لأعدائه عنده من الخطر\",\"mentions\":[\"20:44\"]}]}\n2026-10-09T06:26:45.633574Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c138.jsonl:\n{\"loc\":\"SULAMI:v1p445#3\",\"rows\":[{\"verses\":[\"20:43\",\"20:44\"],\"words\":[\"*\"],\"type\":\"theology\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Inwardly, the Pharaoh is the target, but Moses is in truth sent to the magicians: God does not send prophets to His enemies, who have no standing with Him to warrant their mission; rather, He sends them to rescue His believing friends from among enemy disbelievers.\",\"anchor\":\"قال ابن عطاء رحمه الله : الإشارة إلى فرعون وهو المبعوث في الحقيقة إلى السحرة ، فإن الله لا يرسل أنبياءه إلى أعداءه\",\"mentions\":[\"20:44\"]}]}\n2026-10-09T06:26:45.634991Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c138.jsonl:\n{\"loc\":\"SULAMI:v1p445#3\",\"rows\":[{\"verses\":[\"20:43\",\"20:44\"],\"words\":[\"*\"],\"type\":\"theology\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Inwardly, the Pharaoh is the target, but Moses is in truth sent to the magicians: God does not send prophets to His enemies, who have no standing with Him to warrant their mission; rather, He sends them to rescue His believing friends from among enemy disbelievers.\",\"anchor\":\"قال ابن عطاء رحمه الله : الإشارة إلى فرعون وهو المبعوث في الحقيقة إلى السحرة ، فإن الله لا يرسل أنبياءه إلى أعداءه ،\",\"mentions\":[\"20:44\"]}]}\n",
+  "prompt_sha256": "22ad1c50a3d41ac49bc639abeec69f98219aa792f903d56639529840b23f2f37",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-06-59-01a11f45-9f86-7373-8c0b-54cb5562f576.jsonl",
+  "usd_equivalent": 0.171738,
+  "requests": 50,
+  "max_request_input_tokens": 212962,
+  "over_context_cap": true
+}

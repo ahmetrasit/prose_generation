@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c413",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:09:36",
+  "ended": "2026-10-09T03:21:40",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f7e-f802-75d3-b7bc-0f86c5b21f82",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1101968,
+    "cached_input_tokens": 977920,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 87621,
+    "reasoning_output_tokens": 36222
+  },
+  "stderr": "2026-10-09T07:14:13.429915Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c413.jsonl:\n\"anchor\":\"قال علي وابن عباس وعلي بن الحسين وقتادة وأبو العالية وعطاء وابن جبير\"\n2026-10-09T07:16:50.420092Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'\n",
+  "prompt_sha256": "dc3cc608c025b9aa3a66a7fe86f0d2fa69b72abda8a6e100b961ff3ac137e840",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-09-37-01a11f7e-f802-75d3-b7bc-0f86c5b21f82.jsonl",
+  "usd_equivalent": 0.065995,
+  "requests": 16,
+  "max_request_input_tokens": 121204,
+  "over_context_cap": true
+}

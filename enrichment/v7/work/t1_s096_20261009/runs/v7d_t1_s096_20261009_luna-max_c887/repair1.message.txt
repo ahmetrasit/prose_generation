@@ -1,0 +1,30 @@
+Repair request for your chunk. You may reread only your assigned chunk parts and read and edit only your own output file enrichment/v7/work/t1_s096_20261009/out/luna-max/c887.jsonl. The checker reports:
+
+MAWARDI-FULL:v4p268 row 1: anchor not found verbatim in the segment: أحدها أي بقوتي وعلمي قاله يحيى بن سلام
+MAWARDI-FULL:v4p268 row 2: anchor not found verbatim in the segment: الثاني على خير وعلم عندي قاله قتادة
+MAWARDI-FULL:v4p268 row 3: anchor not found verbatim in the segment: الثالث لرضا الله عني ومعرفته باستحقاقي قاله ابن زيد
+MAWARDI-FULL:v4p268 row 4: anchor not found verbatim in the segment: الرابع على علم بوجه المكاسب قاله ابن عيسى
+MAWARDI-FULL:v4p268 row 5: anchor not found verbatim in the segment: الخامس العلم بصنعة الكيمياء
+MAWARDI-FULL:v4p268 row 6: anchor not found verbatim in the segment: حكى النقاش أن موسى عليه السلام علم قارون الثلث من صنعة الكيمياء وعلم يوشع بن نون
+MAWARDI-FULL:v4p268 row 7: anchor not found verbatim in the segment: أحدها يعذبون ولا يحاسبون قاله قتادة
+MAWARDI-FULL:v4p268 row 8: anchor not found verbatim in the segment: الثاني لا يسألون عن إحصائها ويعطون صحائفها فيعرفون ويعترفون بها قاله الربيع
+MAWARDI-FULL:v4p268 row 9: anchor not found verbatim in the segment: الثالث لأن الملائكة تعرفهم بسيماهم فلا تسأل عنهم قاله مجاهد
+MAWARDI-FULL:v4p268 row 10: anchor not found verbatim in the segment: الرابع أنهم لا يسألون سؤال استعتاب لم لم يؤمنوا قاله ابن بحر كما قال ولا هم يستع
+MAWARDI-FULL:v4p358 row 2: anchor not found verbatim in the segment: أحدها من الغم قاله ابن عيسى
+MAWARDI-FULL:v4p358 row 3: anchor not found verbatim in the segment: الثاني من الذل قاله ابن شجرة
+MAWARDI-FULL:v4p358 row 4: anchor not found verbatim in the segment: الثالث من الحياء حكاه النقاش
+MAWARDI-FULL:v4p358 row 5: anchor not found verbatim in the segment: الرابع من الندم قاله يحيى بن سلام
+MAWARDI-FULL:v4p358 row 6: anchor not found verbatim in the segment: أحدهما أبصرنا صدق وعيدك وسمعنا تصديق رسلك قاله ابن عيسى
+MAWARDI-FULL:v4p358 row 7: anchor not found verbatim in the segment: الثاني أبصرنا معاصينا وسمعنا ما قيل فينا قال قتادة أبصروا حين لم ينفعهم البصر
+MAWARDI-FULL:v4p358 row 9: anchor not found verbatim in the segment: أحدهما مصدقون بالبعث قاله النقاش
+MAWARDI-FULL:v4p358 row 10: anchor not found verbatim in the segment: الثاني مصدقون بالذي أتي به محمد صلى الله عليه وسلم أنه حق قاله يحيى بن سلام
+MAWARDI-FULL:v4p358 row 11: anchor not found verbatim in the segment: قال سفيان فأكذبهم الله فقال ولو ردوا لعادوا لما نهوا عنه
+MAWARDI-FULL:v4p358 row 12: anchor not found verbatim in the segment: أحدها هدايتها للإيمان
+MAWARDI-FULL:v4p358 row 13: anchor not found verbatim in the segment: الثاني للجنة
+MAWARDI-FULL:v4p358 row 14: anchor not found verbatim in the segment: الثالث هدايتها في الرجوع إلى الدنيا لأنهم سألوا الرجعة ليؤمنوا
+MAWARDI-FULL:v4p358 row 15: anchor not found verbatim in the segment: أحدهما معناه سبق القول مني قاله الكلبي ويحيى بن سلام
+MAWARDI-FULL:v4p358 row 16: anchor not found verbatim in the segment: الثاني وجب القول مني قاله السدي
+MAWARDI-FULL:v4p358 row 19: anchor not found verbatim in the segment: أحدهما أنه الجن قاله ابن كامل
+MAWARDI-FULL:v4p358 row 20: anchor not found verbatim in the segment: الثاني أنهم الملائكة رواه السدي عن عكرمة وهذا التأويل معلول لأن الملائكة لا يعصو
+
+Fix every listed problem and change nothing else. An anchor must be one continuous span copied exactly from the segment body, with the same characters and spaces. A tagged word must be a word of that verse's own text; if no word fits, use the whole-verse tag your brief defines. Every segment needs exactly one line. Then run `python3 -B enrichment/v7/digest.py check t1_s096_20261009 --model luna-max --chunk 887` until it prints OK, and reply with one line.

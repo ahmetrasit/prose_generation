@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c561",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:44:27",
+  "ended": "2026-10-09T03:57:07",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f9e-dfe7-7393-b71a-90ba41ebf569",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1499877,
+    "cached_input_tokens": 1369600,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 88638,
+    "reasoning_output_tokens": 43969
+  },
+  "stderr": "onl:\n{\"loc\":\"BAGHAWI-FULL:v1p43\",\"rows\":[{\"verses\":[\"2:156\"],\"words\":[\"إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ\"],\"type\":\"reports\",\"speaker\":\"النبي\",\"stance\":\"reports\",\"claim\":\"The Prophet promises that one who masters the Qur'an and acts by it will have parents crowned on Judgment Day with light brighter than the sun in a worldly house; no grading is stated.\",\"anchor\":\"عن أبيه رضي الله عنه عن النبي صلى الله عليه وسلم أنه قال: \\\\\\\"من قرأ القرآن فأحكمه وعمل بما فيه\",\"mentions\":[]},{\"verses\":[\"2:156\"],\"words\":[\"قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ\"],\"type\":\"reports\",\"speaker\":\"عمران بن حصين\",\"stance\":\"reports\",\"claim\":\"When ʿImrān ibn Ḥuṣayn sees a man reciting Qur'an to people and asking them for money, he says the verse's return formula and recalls the Prophet's warning to ask God through Qur'an, since some will recite it to solicit from people.\",\"anchor\":\"عن رجل أن عمران بن حصين مر على رجل يقرأ على قوم فلما قرأ سأل فقال عمران: إنا لله وإنا إليه راجعون\",\"mentions\":[]},{\"verses\":[\"2:156\"],\"words\":[\"إِنَّا لِلَّهِ\"],\"type\":\"reports\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Baghawī notes al-Tirmidhī's version traces the report through al-Ḥasan from ʿImrān ibn Ḥuṣayn, and al-Bukhārī clarifies this is Khaythama al-Baṣrī, not Khaythama ibn ʿAbd al-Raḥmān.\",\"anchor\":\"وقال محمد بن إسماعيل هو خيثمة البصري الذي روى عنه جابر الجعفي\",\"mentions\":[]}]}\n2026-10-09T07:55:31.764627Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c561.jsonl:\n{\"loc\":\"BAGHAWI-FULL:v1p43\",\"rows\":[{\"verses\":[\"2:156\"],\"words\":[\"إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ\"],\"type\":\"reports\",\"speaker\":\"النبي\",\"stance\":\"reports\",\"claim\":\"The Prophet promises that one who masters the Qur'an and acts by it will have parents crowned on Judgment Day with light brighter than the sun in a worldly house; no grading is stated.\",\"anchor\":\"عن أبيه رضي الله عنه عن النبي صلى الله عليه وسلم أنه قال: \\\"من قرأ القرآن فأحكمه وعمل بما فيه\",\"mentions\":[]},{\"verses\":[\"2:156\"],\"words\":[\"قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ\"],\"type\":\"reports\",\"speaker\":\"عمران بن حصين\",\"stance\":\"reports\",\"claim\":\"When ʿImrān ibn Ḥuṣayn sees a man reciting Qur'an to people and asking them for money, he says the verse's return formula and recalls the Prophet's warning to ask God through Qur'an, since some will recite it to solicit from people.\",\"anchor\":\"عن رجل أن عمران بن حصين مر على رجل يقرأ على قوم فلما قرأ سأل فقال عمران: إنا لله وإنا إليه راجعون\",\"mentions\":[]},{\"verses\":[\"2:156\"],\"words\":[\"إِنَّا لِلَّهِ\"],\"type\":\"reports\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Baghawī notes al-Tirmidhī's version traces the report through al-Ḥasan from ʿImrān ibn Ḥuṣayn, and al-Bukhārī clarifies this is Khaythama al-Baṣrī, not Khaythama ibn ʿAbd al-Raḥmān.\",\"anchor\":\"وقال محمد بن إسماعيل هو خيثمة البصري الذي روى عنه جابر الجعفي\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "ef6bcbc7bd61418f606e7d2c4434fc4171f32c93d87c26b206770ab21acdd8da",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-44-28-01a11f9e-dfe7-7393-b71a-90ba41ebf569.jsonl",
+  "usd_equivalent": 0.071043,
+  "requests": 18,
+  "max_request_input_tokens": 128081,
+  "over_context_cap": true
+}

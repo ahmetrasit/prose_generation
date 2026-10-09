@@ -1,0 +1,18 @@
+Repair request for your chunk. You may reread only your assigned chunk parts and read and edit only your own output file enrichment/v7/work/t1_s096_20261009/out/luna-max/c187.jsonl. The checker reports:
+
+SAMIN-DURR:13:14#2 row 3: anchor not found verbatim in the segment: أحدهما: أنه ضمير الماء. والهاء فيي " ببالغه " للفم، أي: وما الماء ببالغ فيه.
+SAMIN-DURR:13:17#2 row 1: anchor not found verbatim in the segment: هذا الجار خبر مقدم ومبتدؤه زبد ومثله صفة المبتدأ والتقدير ومن الجواهر التي هي كا
+SAMIN-DURR:13:17#2 row 2: anchor not found verbatim in the segment: وقرأ الأخوان وحفص يوقدون بالياء من تحت أي الناس والباقون بالتاء من فوق على الخطا
+SAMIN-DURR:13:17#2 row 3: anchor not found verbatim in the segment: وعليه متعلق بيوقدون
+SAMIN-DURR:13:17#2 row 4: anchor not found verbatim in the segment: أحدهما أنه متعلق بيوقدون وهو قول الفارسي والحوفي وأبي البقاء
+SAMIN-DURR:13:17#2 row 5: anchor not found verbatim in the segment: الثاني أنه متعلق بمحذوف أي كائنا أو ثابتا قاله مكي وغيره
+SAMIN-DURR:13:17#2 row 6: anchor not found verbatim in the segment: قال أبو علي قد يوقد على الشيء وإن لم يكن في النار كقوله تعالى فأوقد لي يهامان عل
+SAMIN-DURR:13:17#2 row 7: anchor not found verbatim in the segment: فيه وجهان أظهرهما أنه مفعول من أجله والثاني أنه مصدر في موضع الحال أي مبتغين حلي
+SAMIN-DURR:13:17#2 row 8: anchor not found verbatim in the segment: فالحلية ما يتزين به والمتاع ما يقضون به حوائجهم كالمساحي من الحديد
+SAMIN-DURR:13:17#2 row 9: anchor not found verbatim in the segment: من في قوله ومما يوقدون تحتمل وجهين أحدهما أن تكون لابتداء الغاية أي ومنه ينشأ زب
+SAMIN-DURR:13:17#2 row 10: anchor not found verbatim in the segment: جفاء حال والجفاء قال ابن الأنباري المتفرق يقال جفأت الريح السحاب أي قطعته وفرقته
+SAMIN-DURR:13:17#2 row 11: anchor not found verbatim in the segment: وقيل الجفاء ما يرمي به السيل يقال جفأت القدر بزبدها تجفأ وجفأ السيل بزبده
+SAMIN-DURR:13:17#2 row 13: anchor not found verbatim in the segment: قال أبو حاتم لا يقرأ بقراءة رؤبة لأنه كان يأكل الفار
+SAMIN-DURR:13:17#2 row 14: anchor not found verbatim in the segment: وقد وجهوا قراءته بأنها من أجفلت الريح الغنم أي فرقته قطعا فهي في المعنى كقراءة ا
+
+Fix every listed problem and change nothing else. An anchor must be one continuous span copied exactly from the segment body, with the same characters and spaces. A tagged word must be a word of that verse's own text; if no word fits, use the whole-verse tag your brief defines. Every segment needs exactly one line. Then run `python3 -B enrichment/v7/digest.py check t1_s096_20261009 --model luna-max --chunk 187` until it prints OK, and reply with one line.

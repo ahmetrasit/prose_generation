@@ -1,0 +1,16 @@
+Repair request for your chunk. You may reread only your assigned chunk parts and read and edit only your own output file enrichment/v7/work/t1_s096_20261009/out/luna-max/c103.jsonl. The checker reports:
+
+BURSEVI:v6p314#3 row 2: anchor not found verbatim in the segment: وقال الحسن لا يسألون يوم القيامة سؤال استعلام فإنه تعالى مطلع عليها بل يسألون سؤ
+BURSEVI:v6p314#3 row 3: anchor not found verbatim in the segment: وقال بعضهم لا يسألون بل يعاقبون بلا توقف ولا حساب أو لا يسألون لأنهم تعرفهم المل
+BURSEVI:v6p314#3 row 4: anchor not found verbatim in the segment: عطف على قال وما بينهما اعتراض وقوله في زينته إما متعلق بخرج أو بمحذوف هو حال
+BURSEVI:v6p314#3 row 5: anchor not found verbatim in the segment: والمراد الزينة الدنيوية فمن المال والأثاث والجاه يقال زانه كذا وزينه إذا أظهر حس
+BURSEVI:v6p314#3 row 6: anchor not found verbatim in the segment: قيل خرج قارون يوم السبت وكان آخر يوم من عمره على بغلة شهباء عليه الأرجوان
+BURSEVI:v6p314#3 row 7: anchor not found verbatim in the segment: وقال بعضهم ومعه تسعون ألفا عليهم المعصفرات وهو أول يوم رؤي فيه اللباس المعصفر
+BURSEVI:v6p314#3 row 10: anchor not found verbatim in the segment: قال ابن عطاء أزين ما تزين به العبيد المعرفة ومن نزلت درجاته عن درجات العارفين
+BURSEVI:v6p314#3 row 11: anchor not found verbatim in the segment: قال الحافظ قلندران حقيقت به نيم ون نخرند قباي اطلس آنكس كه ازهنر عاريست
+BURSEVI:v6p314#3 row 12: anchor not found verbatim in the segment: وفي المثنوي افتخار از رنك وبو واز مكان هست شادي وفريبت كودكان
+BURSEVI:v6p314#3 row 13: anchor not found verbatim in the segment: وقال الشيخ العطار رحمه الله همو طفلان منكر اندرسرخ وزرد ون زنان مغرور رنك وبومكر
+BURSEVI:v6p314#3 row 14: anchor not found verbatim in the segment: وقال الشيخ السعدي كراجامه اكست وسيرت ليد در دوزخشن را نبايد كليد
+BURSEVI:v6p314#3 row 15: anchor not found verbatim in the segment: وقال المولى الجامي وصلش مجودر اطلس شاهي كه دوخت عشق
+
+Fix every listed problem and change nothing else. An anchor must be one continuous span copied exactly from the segment body, with the same characters and spaces. A tagged word must be a word of that verse's own text; if no word fits, use the whole-verse tag your brief defines. Every segment needs exactly one line. Then run `python3 -B enrichment/v7/digest.py check t1_s096_20261009 --model luna-max --chunk 103` until it prints OK, and reply with one line.

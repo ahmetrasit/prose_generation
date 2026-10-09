@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c365",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:01:26",
+  "ended": "2026-10-09T03:06:19",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f77-7b62-7262-90c1-32eb1d5a7791",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 479468,
+    "cached_input_tokens": 418048,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33313,
+    "reasoning_output_tokens": 20891
+  },
+  "stderr": "2026-10-09T07:05:14.934623Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c365.jsonl:\n{\"verses\":[\"77:30\"],\"words\":[\"shadow\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The shadow is the shade cast by smoke, rather than an ordinary protective shadow.\",\"anchor\":\"here obviously it does not refer to the conventional shadow but to the shadow cast by smoke\",\"mentions\":[]}\n",
+  "prompt_sha256": "60e21defb1b3a7d1c83df60371bc1848a9700762e0071f057a7ac1046377d1c2",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-01-26-01a11f77-7b62-7262-90c1-32eb1d5a7791.jsonl",
+  "usd_equivalent": 0.026979,
+  "requests": 11,
+  "max_request_input_tokens": 63004,
+  "over_context_cap": false
+}

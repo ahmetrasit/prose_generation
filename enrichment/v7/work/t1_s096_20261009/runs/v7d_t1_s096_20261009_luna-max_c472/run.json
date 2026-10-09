@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c472",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T03:23:28",
+  "ended": "2026-10-09T03:32:50",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f8b-a76a-7e51-a80e-55c02f061f8d",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 875426,
+    "cached_input_tokens": 776960,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 67500,
+    "reasoning_output_tokens": 33231
+  },
+  "stderr": "2026-10-09T07:29:55.225479Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c472.jsonl:\n{\"verses\":[\"1:3\"],\"words\":[\"ٱلرَّحْمَٰنِ ٱلرَّحِيمِ\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"Most readers put both names in the genitive; Zayd, Abū al-ʿĀliya, Ibn al-Sumayqa, and ʿĪsā ibn ʿAmr read them accusatively; Abū Razīn, al-Rabīʿ ibn Khuthaym, and Abū ʿImrān read them nominatively.\",\"anchor\":\"والجمهور على خفضهما ونصبهما زيد وأبو العالية وابن السميقع وعيسى بن عمور ورفعهما أبو رزين العقيلي والربيع بن خيثم وأبو عمران الجولي\",\"mentions\":[]}\n2026-10-09T07:32:23.436411Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c472.jsonl\n",
+  "prompt_sha256": "30b08d13df9d4b82fa10690e7d8e93045a4a6239175e638ef50e52d986dfb9c6",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T03-23-28-01a11f8b-a76a-7e51-a80e-55c02f061f8d.jsonl",
+  "usd_equivalent": 0.051366,
+  "requests": 13,
+  "max_request_input_tokens": 99225,
+  "over_context_cap": false
+}

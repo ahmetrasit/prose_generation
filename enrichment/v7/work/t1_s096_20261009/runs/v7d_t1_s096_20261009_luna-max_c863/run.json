@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c863",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:52:39",
+  "ended": "2026-10-09T05:02:39",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fdd-4fbc-7863-80a3-39b7c0eb30ce",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1080844,
+    "cached_input_tokens": 969984,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 68900,
+    "reasoning_output_tokens": 34929
+  },
+  "stderr": "2026-10-09T09:01:51.830447Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c863.jsonl:\n{\"loc\":\"KASHSHAF-FULL:v1p255\",\"rows\":[{\"verses\":[\"2:186\"],\"words\":[\"فإني قريب\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"God’s nearness represents how easily and quickly He answers callers’ needs, like someone nearby who promptly responds.\",\"anchor\":\"تمثيل لحاله في سهولة إجابته لمن دعاه وسرعة إنجاحه حاجة من سأله بحال من قرب مكانه\",\"mentions\":[]},{\"verses\":[\"2:186\"],\"words\":[\"فإني قريب\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The expression is compared with the statement that God is nearer to a person than the jugular vein.\",\"anchor\":\"حبل الوريد ﴾ ق 16 وقوله عليه الصلاة والسلام\",\"mentions\":[\"50:16\"]},{\"verses\":[\"2:186\"],\"words\":[\"فإني قريب\"],\"type\":\"reports\",\"speaker\":\"النبي صلى الله عليه وسلم\",\"stance\":\"reports\",\"claim\":\"The Prophet said that God is between people and the necks of their riding animals.\",\"anchor\":\"وقوله عليه الصلاة والسلام\\n92 ( هو بينكم وبين اعناق رواحلكم )\",\"mentions\":[]},{\"verses\":[\"2:186\"],\"words\":[\"فإني قريب\"],\"type\":\"reports\",\"speaker\":\"أعرابي\",\"stance\":\"reports\",\"claim\":\"A Bedouin asked the Prophet whether their Lord was near, so they should speak quietly, or far, so they should call aloud; the verse was revealed.\",\"anchor\":\"وروي\\n93 أن أعرابيا قال لرسول الله صلى الله عليه وسلم أقريب ربنا فنناجيه أم بعيد فنناديه\",\"mentions\":[]},{\"verses\":[\"2:186\"],\"words\":[\"فليستجيبوا لي\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"People should answer God when He calls them to faith and obedience, just as He answers when they call on Him for their needs.\",\"anchor\":\"اذا دعوتهم للإيمان والطاعة كما اني اجيبهم اذا دعوني لحوائجهم\",\"mentions\":[]},{\"verses\":[\"2:186\"],\"words\":[\"يرشدون\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"The final verb is read with the shīn vowel either opened or kasra-marked.\",\"anchor\":\"قرىء ( يرشدون ويرشدون ) بفتح الشين وكسرها\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "997cff74f4af273396ac9cfb3493ae0122e64a764621e83c3a26a9317b3a9ce5",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-52-40-01a11fdd-4fbc-7863-80a3-39b7c0eb30ce.jsonl",
+  "usd_equivalent": 0.055236,
+  "requests": 15,
+  "max_request_input_tokens": 103276,
+  "over_context_cap": false
+}

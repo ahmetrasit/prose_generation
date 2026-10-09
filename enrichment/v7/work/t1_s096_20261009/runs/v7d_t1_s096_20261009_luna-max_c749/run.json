@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c749",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T04:27:09",
+  "ended": "2026-10-09T04:37:42",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11fc5-f57c-73c2-b5e0-418bc990957a",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 645235,
+    "cached_input_tokens": 559360,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 69482,
+    "reasoning_output_tokens": 31048
+  },
+  "stderr": "2026-10-09T08:33:18.951834Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c749.jsonl:\n{\"verses\":[\"9:75\"],\"words\":[\"لئن آتانا من فضله\"],\"type\":\"reports\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"In the account summarized from al-Ṭabarī and others, Thaʿlaba asks for wealth to fulfill obligations and do good; the Prophet warns that little thanked wealth is better than much he cannot bear, then prays after repeated requests.\",\"anchor\":\"فقال قليل تؤدي شكره خير من كثير لا تطيقه، فعاود فقال له النبي صلى الله عليه وسلم\",\"mentions\":[]}\n{\"verses\":[\"9:75\"],\"words\":[\"لئن آتانا من فضله\"],\"type\":\"reports\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"Thaʿlaba’s sheep multiplied until he left Medina and attended only Friday prayer; as the flock grew further, he moved still farther away and his hypocrisy emerged.\",\"anchor\":\"فاتخذ غنما فنمت كما ينمو الدود حتى ضاقت به المدينة، فتنحى عنها وكثرت غنمه\",\"mentions\":[]}\n",
+  "prompt_sha256": "cd0017d6e1f7ec2d4e0e8472cf58c9041531182945b5a8c1210d76367f8279e4",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T04-27-09-01a11fc5-f57c-73c2-b5e0-418bc990957a.jsonl",
+  "usd_equivalent": 0.048922,
+  "requests": 11,
+  "max_request_input_tokens": 91237,
+  "over_context_cap": false
+}

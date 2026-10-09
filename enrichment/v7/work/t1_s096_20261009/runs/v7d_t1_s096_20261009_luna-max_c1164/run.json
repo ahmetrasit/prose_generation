@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1164",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:20:56",
+  "ended": "2026-10-09T01:33:32",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f1b-7863-7263-98ee-4a0d630df4ec",
+  "commands": 10,
+  "usage": {
+    "input_tokens": 1431113,
+    "cached_input_tokens": 1313280,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 80441,
+    "reasoning_output_tokens": 41485
+  },
+  "stderr": "2026-10-09T05:33:19.822034Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n",
+  "prompt_sha256": "ef3336c72080bd96407ffb78c35a7f84825e080b68692260b0c7e9cb95d44091",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-20-56-01a11f1b-7863-7263-98ee-4a0d630df4ec.jsonl",
+  "usd_equivalent": 0.065137,
+  "requests": 18,
+  "max_request_input_tokens": 104674,
+  "over_context_cap": false
+}

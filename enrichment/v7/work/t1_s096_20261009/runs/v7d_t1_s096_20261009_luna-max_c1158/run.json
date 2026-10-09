@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c1158",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T01:20:14",
+  "ended": "2026-10-09T01:24:51",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f1a-d58e-7501-a2ba-8cb4a6ef5871",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 358463,
+    "cached_input_tokens": 312832,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34009,
+    "reasoning_output_tokens": 21485
+  },
+  "stderr": "2026-10-09T05:23:07.249786Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1158.jsonl:\n{\"verses\":[\"86:11\"],\"words\":[\"وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ\"],\"type\":\"referent\",\"speaker\":\"قيل\",\"stance\":\"reports\",\"claim\":\"An unnamed interpretation takes the sky’s “return” to mean rainfall.\",\"anchor\":\"وقيل رجعها إمطارها والمراد بكون الأرض ذات صدع\",\"mentions\":[]}\n2026-10-09T05:24:19.627642Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c1158.jsonl:\n{\"verses\":[\"86:17\"],\"words\":[\"رُوَيْدًۢا\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Tamhīl and imhāl both mean giving time, but the tafʿīl form suggests gradual action, ifʿāl a single action, and ruwaid means a little.\",\"anchor\":\"التمهيل والإمهال بمعنى واحد، غير أن باب التفعيل يفيد التدريج، والإفعال يفيد الدفعة، والرويد القليل\",\"mentions\":[]}\n",
+  "prompt_sha256": "42f9805c921a040b143326c7420a43dbca1ac8f302e167e58524c86cc2476fe5",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-20-14-01a11f1a-d58e-7501-a2ba-8cb4a6ef5871.jsonl",
+  "usd_equivalent": 0.024696,
+  "requests": 10,
+  "max_request_input_tokens": 49327,
+  "over_context_cap": false
+}

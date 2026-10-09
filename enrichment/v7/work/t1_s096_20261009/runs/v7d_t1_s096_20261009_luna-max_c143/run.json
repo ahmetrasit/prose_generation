@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s096_20261009_luna-max_c143",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T02:16:47",
+  "ended": "2026-10-09T02:20:07",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f4e-9bb4-7373-be40-565fc4b601b5",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 337390,
+    "cached_input_tokens": 289792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 23476,
+    "reasoning_output_tokens": 12831
+  },
+  "stderr": "2026-10-09T06:18:48.278152Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c143.jsonl:\n{\"verses\":[\"79:37\",\"79:38\"],\"words\":[\"*\"],\"type\":\"inward\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Everyone is ignorant except the one who prefers God over self, spirit, this world, and the afterlife.\",\"anchor\":\"ما طلعت شمس ولا غربت على أحد إلا وهو جاهل إلا من يؤثر الله تعالى على نفسه وروحه ودنياه وآخرته\",\"mentions\":[]}\n2026-10-09T06:19:30.234634Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s096_20261009/out/luna-max/c143.jsonl\n",
+  "prompt_sha256": "b59065a70b684b9d887d78026275baebf739513cdd4f689d9f1f042642a74201",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T02-16-47-01a11f4e-9bb4-7373-be40-565fc4b601b5.jsonl",
+  "usd_equivalent": 0.019396,
+  "requests": 12,
+  "max_request_input_tokens": 38443,
+  "over_context_cap": false
+}
