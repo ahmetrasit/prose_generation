@@ -128,6 +128,17 @@ class SemiticTest(W.BibleWorkflowTest):
         bad = [call('cat /etc/passwd'), call(f'python3 {self.home}/corpus.py get WLC:Gen.1.1'),
                call('curl https://example.com'), dict(name='spawn_agent', arguments='{}', call_id='z', phase=1)]
         self.assertEqual(len(DX.policy(d, bad)[0]), 5)    # curl also names a path-like URL
+        # readers often wrap the tools in their own JavaScript (variables, string building, Promise.all)
+        js = [dict(name='exec', phase=1, call_id='j1', arguments='const p=' + json.dumps(str(d/'package.md'))
+                   + '; const r=await tools.exec_command({cmd:"sed -n \'1,40p\' "+JSON.stringify(p)});text(r.output);'),
+              dict(name='exec', phase=1, call_id='j2', arguments='const patch=' + json.dumps(
+                  f'*** Begin Patch\n*** Add File: {d}/list.tsv\n+weak\ttevrat\tmotif\tWLC:Gen.1.1\tb\tx\n*** End Patch')
+                   + '; text(await tools.apply_patch(patch));')]
+        self.assertEqual(DX.policy(d, js), ([], []))
+        sneaky = [dict(name='exec', phase=1, call_id='j3', arguments='const p="/Users/x/secret.md"; '
+                       'const r=await tools.exec_command({cmd:"cat "+p});'),
+                  dict(name='exec', phase=1, call_id='j4', arguments='await tools.web_search({q:"x"});')]
+        self.assertEqual(len(DX.policy(d, sneaky)[0]), 2)
 
 
 def load_tests(loader, tests, pattern):

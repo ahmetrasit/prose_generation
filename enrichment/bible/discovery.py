@@ -335,7 +335,9 @@ def verify_handoff(path, s, target):
     return files
 
 
-def prefetch(merged, per_type):
+def prefetch(merged, per_type, related=True):
+    """related=False (2026-10-09, S103): fetch the named Jewish works the readers proposed, but not the Sefaria
+    commentary/targum/midrash/talmud links of every WLC verse (thousands of requests); recorded in the report."""
     if C.running_calls():
         raise ValueError('Bible page calls are active; do not change their prefetched inputs')
     from enrichment.bible.fetch import bible_text as BT, bible_sefaria as SF
@@ -343,14 +345,21 @@ def prefetch(merged, per_type):
     for path in merged:
         for r in csv.DictReader(io.StringIO(path.read_text()),delimiter='\t'):
             candidates[(r['tradition'],r['ref'])] = r
-    report = dict(lists={p.name:digest(p) for p in merged},candidates=[],errors=[],missing=[],source_hashes={},complete=False)
+    report = dict(lists={p.name:digest(p) for p in merged},candidates=[],errors=[],missing=[],source_hashes={},complete=False,
+                  related_fetched=related)
+    if not related:
+        report['limitation'] = ('Sefaria links (targum, midrash, talmud, commentary) of each WLC candidate verse were not '
+                                'fetched in this run; only the named Jewish works the readers proposed were. Absent '
+                                'interpretations are unfetched, not nonexistent.')
+        print('NOTE: prefetch without the Sefaria links of each WLC verse (--no-related); recorded in prefetch.json')
     for trad, ref in sorted(candidates):
         item = dict(ref=ref,tradition=trad,locators=[],related=[])
         try:
             if ref.startswith('WLC:'):
                 b,ch,v = ref.split(':',1)[1].split('.')
                 item['locators'] = [ref]
-                result = SF.cmd_related(f'{BT.NAMES[b]} {ch}:{v}',['targum','midrash','talmud','commentary'],per_type)
+                result = (SF.cmd_related(f'{BT.NAMES[b]} {ch}:{v}',['targum','midrash','talmud','commentary'],per_type)
+                          if related else None)
             elif ref.startswith('SBLGNT:'):
                 item['locators'] = [ref]; result = None
             elif trad == 'tevrat':
@@ -389,6 +398,7 @@ def main():
     ap.add_argument('--merge',action='store_true')
     ap.add_argument('--prefetch',action='store_true')
     ap.add_argument('--per-type',type=int,default=6)
+    ap.add_argument('--no-related',action='store_true',help='prefetch: skip the Sefaria links of every WLC verse')
     ap.add_argument('--status',action='store_true')
     a = ap.parse_args()
     root = discovery_dir(a.surah,a.run_tag)  # validate before resolving any call paths
@@ -416,7 +426,7 @@ def main():
     if a.merge:
         attempts = json.loads(a.selection.read_text()) if a.selection else None
         merged = merge(a.surah,targets,a.run_tag,models,attempts)
-        if a.prefetch and not prefetch(merged,a.per_type)['complete']: raise SystemExit(1)
+        if a.prefetch and not prefetch(merged,a.per_type,not a.no_related)['complete']: raise SystemExit(1)
         return
     q = json.loads((HERE/'work'/f's{a.surah:03d}'/'pack/quran.json').read_text())
     for t in targets:

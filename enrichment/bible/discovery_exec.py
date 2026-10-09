@@ -18,6 +18,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures
 import json
+import os
 import re
 import shlex
 import sys
@@ -30,81 +31,158 @@ from enrichment.bible import codexrun as X, discovery as D, discovery_native as 
 # Expected cost per reader session (both turns), from the S87 Luna sessions (~1.0M input tokens, ~90% cached,
 # ~50k output) priced at codexrun.RATES; Sol high is assumed to read about the same.
 EXPECTED = {'luna': 0.05, 'sol': 1.00}
-NETWORK = re.compile(r'\b(curl|wget|http|https|ssh|scp|nc|git)\b')
+NETWORK = re.compile(r'\b(curl|wget|ssh|scp|nc|git|rsync)\s')
 
 
 def task_name(s, tag, target, model):
     return re.sub(r'[^a-z0-9_]', '_', f'bible_s{s:03d}_{tag}_{target}_{model}'.lower())
 
 
-def commands(call):
-    """(kind, payload) of one native tool call: shell command text or patch text."""
+JS_STRING = re.compile(r'"(?:[^"\\\n]|\\.)*"' + r"|'(?:[^'\\\n]|\\.)*'" + r'|`(?:[^`\\]|\\.)*`')
+# absolute paths under a filesystem root (a sed address like /pattern/d is not a path)
+ABS_PATH = re.compile(r'(?<![\w.])/(?:Users|Volumes|private|tmp|var|etc|home|opt|usr|dev|System|Library|bin|sbin|root)'
+                      r'(?:/[A-Za-z0-9_.@+-]*)+')
+STREAMS = re.compile(r'^/dev/(null|stdin|stdout|stderr|fd/\d+)$')
+SCRATCH = ('/tmp/', '/private/tmp/', '/var/folders/')
+TOOLS = {'exec_command', 'apply_patch'}
+OPERATIONAL = {'clock__curr_time', 'wait'}   # reading the clock, waiting on a running command: noted, not research
+
+
+JS_ESC = re.compile(r'\\(u\{[0-9a-fA-F]+\}|u[0-9a-fA-F]{4}|x[0-9a-fA-F]{2}|.)', re.S)
+JS_SIMPLE = {'n': '\n', 't': '\t', 'r': '\r', 'b': '\b', 'f': '\f', 'v': '\v', '0': '\0'}
+
+
+def unquote(lit):
+    """The value of a JavaScript string literal (quotes or backticks), escapes decoded."""
+    def esc(m):
+        e = m[1]
+        if e.startswith('u{'):
+            return chr(int(e[2:-1], 16))
+        if e[0] in 'ux' and len(e) > 1:
+            return chr(int(e[1:], 16))
+        return JS_SIMPLE.get(e, e)
+    return JS_ESC.sub(esc, lit[1:-1])
+
+
+def code_of(call):
+    """(code text, tool names) of one native call; plain function calls are wrapped as code too."""
     name, args = call.get('name', '').split('.')[-1], call.get('arguments') or ''
-    if name == 'apply_patch':
-        return 'patch', args
-    if name == 'exec_command':
-        return 'cmd', json.loads(args).get('cmd', '')
     if name == 'exec':
-        m = re.search(r'tools\.exec_command\(\s*\{[\s\S]*?\bcmd\s*:\s*("(?:[^"\\]|\\.)*")', args)
-        if m:
-            return 'cmd', json.loads(m[1])
-        m = re.search(r'tools\.apply_patch\(\s*("(?:[^"\\]|\\.)*")', args)
-        if m:
-            return 'patch', json.loads(m[1])
-        return 'other', args
-    return 'other', f'{name}: {args}'
+        return args, set(re.findall(r'tools\.(\w+)', args))
+    if name == 'exec_command':
+        try:
+            return json.dumps(json.loads(args).get('cmd', '')), {'exec_command'}
+        except ValueError:
+            return args, {'exec_command'}
+    if name == 'apply_patch':
+        return json.dumps(args), {'apply_patch'}
+    return args, {name}
 
 
-def path_tokens(cmd):
-    try:
-        toks = shlex.split(cmd.split('<<', 1)[0])   # never read heredoc bodies as paths
-    except ValueError:
-        toks = cmd.split()
-    return [t for t in toks if t.startswith(('/', './', '../', 'enrichment/', '~'))
-            or re.search(r'\.(md|tsv|json|jsonl|py|txt|sqlite)$', t)]
+REL_PATH = re.compile(r'(?<![\w/.])enrichment/[A-Za-z0-9_./@+-]+')
+VAR = re.compile(r'\b(?:const|let|var)\s+(\w+)\s*=\s*("(?:[^"\\\n]|\\.)*"|\'(?:[^\'\\\n]|\\.)*\')')
+NET_CMDS = {'curl', 'wget', 'ssh', 'scp', 'nc', 'git', 'rsync', 'ftp', 'telnet'}
+MODEL_CMDS = {'codex', 'claude', 'node', 'npx', 'deno'}
+SCRIPT_CMDS = {'python', 'python3', 'bash', 'sh', 'zsh', 'perl', 'ruby'}
+UNSAFE_CODE = re.compile(r'\b(urllib|requests|socket|subprocess|os\.system|os\.popen|http\.client|shutil\.rmtree)\b')
+
+
+def strings_of(code):
+    """String literals of a call's JavaScript, with ${name} filled from string constants declared in it."""
+    env = {m[1]: unquote(m[2]) for m in VAR.finditer(code)}
+    out = []
+    for m in JS_STRING.finditer(code):
+        s = unquote(m[0])
+        out.append(re.sub(r'\$\{(\w+)\}', lambda v: env.get(v[1], v[0]), s))
+    return out
+
+
+HEREDOC = re.compile(r"([^\n]*)<<-?\s*['\"]?(\w+)['\"]?[^\n]*\n(.*?)\n\2\b", re.S)
+
+
+def drop_data_heredocs(s):
+    """Remove heredoc bodies that are data (`cat > list.tsv <<EOF`); keep those fed to an interpreter (code)."""
+    def keep(m):
+        head = m[1].strip().split()[0].rsplit('/', 1)[-1] if m[1].strip() else ''
+        return m[0] if head in SCRIPT_CMDS else m[1] + '<<' + m[2] + ' [data]'
+    return HEREDOC.sub(keep, s)
 
 
 def policy(d, calls):
-    """(violations, notes) for a reader's tool calls."""
+    """(violations, notes) for a reader's tool calls. Readers may wrap the two tools in their own JavaScript, so the
+    review looks at what the code can reach: the tools it calls, every file its strings name (absolute paths and
+    repository paths, which must be the reader's own prompt, package or TSVs, or the workspace root as a workdir),
+    the files its patches write (only list.tsv/followup.tsv), and the commands it runs (no network, no model or
+    repository scripts; a local script that only touches the reader's own files is recorded as a note)."""
     bad, notes = [], []
-    own = {d / 'prompt.md', d / 'package.md', d / 'list.tsv', d / 'followup.tsv'}
+    own = {d / 'prompt.md', d / 'package.md', d / 'list.tsv', d / 'followup.tsv', d, X.ROOT.resolve()}
     for c in calls:
-        kind, text = commands(c)
+        code, tools = code_of(c)
         where = f"turn {c.get('phase')} {c.get('call_id')}"
-        if kind == 'other':
-            bad.append(f'{where}: tool outside the reader rules: {text[:200]}')
-            continue
-        if kind == 'patch':
-            for m in re.finditer(r'\*\*\* (?:Add File|Update File|Delete File|Move to): (.+)', text):
-                p = Path(m[1].strip())
-                p = (p if p.is_absolute() else X.ROOT / p).resolve()
-                if p not in {d / 'list.tsv', d / 'followup.tsv'}:
-                    bad.append(f'{where}: patch writes {p}')
-            continue
-        if NETWORK.search(cmd_head(text)):
-            bad.append(f'{where}: network or repository command: {text[:200]}')
-        if re.search(r'\bpython|\bnode\b|\bcodex\b|\bclaude\b', cmd_head(text)):
-            bad.append(f'{where}: script or model call: {text[:200]}')
-        for t in path_tokens(text):
-            p = Path(t).expanduser()
-            p = (p if p.is_absolute() else X.ROOT / p).resolve()
-            if p == Path('/dev/null'):
+        if tools - TOOLS - OPERATIONAL:
+            bad.append(f"{where}: tool outside the reader rules: {', '.join(sorted(tools - TOOLS - OPERATIONAL))}")
+        if tools & OPERATIONAL:
+            notes.append(f"{where}: operational tool {', '.join(sorted(tools & OPERATIONAL))}")
+        lits = strings_of(code)
+        patches = [x for x in lits if '*** Begin Patch' in x]
+        for x in patches:
+            for m in re.finditer(r'\*\*\* (?:Add File|Update File|Delete File|Move to): (.+)', x):
+                q = Path(m[1].strip())
+                q = (q if q.is_absolute() else X.ROOT / q).resolve()
+                if q not in {d / 'list.tsv', d / 'followup.tsv'}:
+                    bad.append(f'{where}: patch writes {q}')
+        rest = '\n'.join(drop_data_heredocs(x) for x in lits if '*** Begin Patch' not in x)
+        named = [Path(m[0]).resolve() for m in ABS_PATH.finditer(rest)]
+        named += [(X.ROOT / m[0].rstrip('.')).resolve() for m in REL_PATH.finditer(rest)]
+        for q in dict.fromkeys(named):
+            if q in own or STREAMS.match(str(q)):
                 continue
-            if p not in own:
-                bad.append(f'{where}: touches {p}')
-        if c.get('phase') == 2 and not re.search(r'followup\.tsv', text):
-            notes.append(f'{where}: follow-up turn command not about followup.tsv: {text[:160]}')
-        elif c.get('phase') == 2 and re.match(r'\s*(cat|head|tail|wc|awk|sed)\b', text) and '>' not in text:
-            notes.append(f'{where}: follow-up turn read its own followup.tsv: {text[:160]}')
+            if str(q).startswith(SCRATCH):
+                notes.append(f'{where}: scratch file in the system temp directory: {q}')
+            else:
+                bad.append(f'{where}: names {q}')
+        if re.search(r'https?://', rest):
+            bad.append(f'{where}: names a URL')
+        heads = {seg.strip().split()[0].rsplit('/', 1)[-1] for seg in re.split(r'[\n;|&]+', rest)
+                 if seg.strip() and re.match(r'[A-Za-z_./-]', seg.strip())}
+        if heads & NET_CMDS:
+            bad.append(f"{where}: network or repository command: {', '.join(sorted(heads & NET_CMDS))}")
+        if heads & MODEL_CMDS:
+            bad.append(f"{where}: model or agent command: {', '.join(sorted(heads & MODEL_CMDS))}")
+        if heads & SCRIPT_CMDS:
+            if UNSAFE_CODE.search(rest):
+                bad.append(f'{where}: script with network/process access: {rest[:200]}')
+            else:
+                notes.append(f'{where}: local script on its own files ({", ".join(sorted(heads & SCRIPT_CMDS))})')
+        if c.get('phase') == 2 and 'followup.tsv' not in code:
+            notes.append(f'{where}: follow-up turn call not about followup.tsv: {code[:160]}')
     return bad, notes
-
-
-def cmd_head(text):
-    return text.split('<<', 1)[0]
 
 
 def one(s, tag, target, model):
     d = D.tdir(s, target, tag) / model
+    lock = d / 'exec.lock'
+    if not (d / 'prompt.md').exists():
+        return f'{target} {model}: WARNING not prepared'
+    try:
+        fd = os.open(lock, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+    except FileExistsError:
+        pid = lock.read_text().strip()
+        try:
+            os.kill(int(pid), 0)
+            return f'{target} {model}: NOTE another runner (pid {pid}) is working on this session; skipped'
+        except (ValueError, ProcessLookupError):
+            lock.unlink()
+            fd = os.open(lock, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+    os.write(fd, str(os.getpid()).encode())
+    os.close(fd)
+    try:
+        return run_session(s, tag, target, model, d)
+    finally:
+        lock.unlink(missing_ok=True)
+
+
+def run_session(s, tag, target, model, d):
     a = SimpleNamespace(surah=s, target=target, run_tag=tag, model=model, task=task_name(s, tag, target, model),
                         reviewed=False, protocol_finding=[], phase='start')
     say = lambda m: f'{target} {model}: {m}'  # noqa: E731

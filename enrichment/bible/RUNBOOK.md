@@ -12,8 +12,9 @@ when explicitly assembling a combined page. Combined pages are written here.
 The Bible author never reads the Islamic enrichment pages or call directories.
 
 Discovery adopts v16 Step 2b's operational protocol, adapted here for Bible
-references and witnesses. **Ayah** research uses completed augment9 commentary;
-an ayah is not split among writers. **Surah** research uses the original completed
+references and witnesses. **Ayah** research uses the frozen r13 reading from
+2026-10-09 (`pack.py --ayah-base r13`, the paragraphs the v9 Islamic pages use;
+S1/S87 pilot packs used augment9 commentary); an ayah is not split among writers. **Surah** research uses the original completed
 r13 images and does not require the Qur'an-to-Qur'an image augment9s. This is the
 user's confirmed scope in [DECISIONS.md](DECISIONS.md). Connections belonging only
 to later augment prose are outside this pass and may receive a separate pass.
@@ -23,6 +24,54 @@ Discovery remains per image; the default route feeds one surah-page author.
 one agent per image, all images in parallel. The opt-in `image_enrich.py` route
 below implements this within the Bible pathway. The default whole-page Opus
 route and ayah configuration retain their existing behavior.
+
+## Production route from a Claude Code session (2026-10-09; read this first)
+
+A cold orchestrator in Claude Code runs a surah S with these commands from the repository root. Codex readers
+and image authors run through `codex exec` (no Codex parent session); ayah page authors are Opus high agents the
+orchestrator spawns. Rules: the user's quota and production go; report expected vs actual cost per stage; commit
+and push `enrichment/bible/` changes and the run's audit README after each stage (`git commit -- <paths>`);
+never start a session twice (every runner skips finished work and prints `WARNING` for dead work); pass every
+`WARNING`, `NOTE` and gap line to the user.
+
+```sh
+# 0. Sources (once per machine): lexicon, Hebrew root index, Bible index
+python3 -B enrichment/bible/fetch/hebrew_lexicon.py && python3 -B enrichment/bible/hebrew.py build
+python3 -B enrichment/bible/corpus.py build
+# 1. Frozen pack: r13 ayah readings + original r13 images
+python3 -B enrichment/bible/pack.py --surah S --ayah-base r13
+# 2. Discovery: two readers (Luna max, Sol high), two turns each, packages carry the Semitic root table
+python3 -B enrichment/bible/discovery.py --surah S --run-tag sSSS-YYYYMMDD --readers luna,sol --targets S:1,…,surah
+python3 -B enrichment/bible/discovery_exec.py run --surah S --run-tag sSSS-YYYYMMDD --parallel 20   # background
+python3 -B enrichment/bible/discovery_exec.py cost --surah S --run-tag sSSS-YYYYMMDD
+python3 -B enrichment/bible/discovery_report.py --surah S --run-tag sSSS-YYYYMMDD --write
+# 3. Merge, prefetch (Sefaria over the network), rebuild the index
+python3 -B enrichment/bible/discovery.py --surah S --run-tag sSSS-YYYYMMDD --targets S:1,…,surah --merge --prefetch
+python3 -B enrichment/bible/corpus.py build
+# 4a. Surah page: one Sol max author per image via codex exec, then assemble
+python3 -B enrichment/bible/image_enrich.py prepare --surah S --run-tag sSSS-YYYYMMDD
+python3 -B enrichment/bible/image_enrich.py run --surah S --run-tag sSSS-YYYYMMDD --parallel 20      # background
+python3 -B enrichment/bible/image_enrich.py assemble --surah S --run-tag sSSS-YYYYMMDD
+# 4b. Ayah pages: prepare, then spawn one Opus high agent per call with the exact text of its spawn.md
+python3 -B enrichment/bible/enrich.py spawn --surah S --target ayat
+#     agent type: enrich-page-high (model opus, effort high; tools Read, Write, Edit, Bash)
+python3 -B enrichment/bible/enrich.py finish --surah S --target S:A    # after each agent replies
+```
+
+- `discovery_exec.py` runs start → turn 1 (`codex exec`) → snapshot → the fixed follow-up as turn 2 in the same
+  session (`codex exec resume <thread>`, which appends to the same rollout file) → audit → an automatic tool-policy
+  review (reads of its own prompt/package, writes of list.tsv/followup.tsv only; no network, scripts or other
+  files) → finish with the API-equivalent cost in `run.log.json`. A session with policy violations is not
+  finished; review its `policy_review.json` and decide (a fresh run tag, or `discovery_native.py finish
+  --reviewed` with `--protocol-finding` as appropriate).
+- Each target's Semitic root table lists every Arabic root its frozen text cites (dictionary labels
+  `source:"ع ص ر,B006"` and the images' Kaynaklar roots) with the Hebrew/Biblical Aramaic roots that correspond
+  to it (`hebrew.py`). Authors write one `root_verdicts.jsonl` line per root (`used`, `no_qualifying_parallel`,
+  `false_friend`, `no_hebrew_cognate`); `verdicts.py` refuses a call that skips one.
+- Expected costs (API-equivalent, before calibration): Luna reader ≈ $0.05, Sol high reader ≈ $1, Sol max image
+  author ≈ $1.5, Opus high ayah author: see `enrich.py build` (no calibration yet). Record actuals in the
+  audit README.
+- `hebrew.py root ROOT | cognates 'ع ص ر' | word WLC:Book.C.V` are allowed in the authors' tool grammars.
 
 ## Texts and evidence
 
@@ -34,6 +83,8 @@ route and ayah configuration retain their existing behavior.
 - Search Hebrew with `--src WLC` and Greek with `--src SBLGNT`. Pointing and accents
   are normalized for search; returned text preserves them. Search matches word
   prefixes, not roots or lemmas. Check inflected forms and surrounding verses.
+  For roots and lemmas use `hebrew.py` (WLC lemmas from morphhb mapped through the
+  Open Scriptures Lexical Index; BDB heads; Arabic → Hebrew/Aramaic correspondences).
 - English KJV is a finding aid. A canonical Bible parallel cannot be accepted with
   KJV as its only textual witness. Match the actual Hebrew/Greek edition's verse
   numbering; English and Hebrew numbering are not assumed identical.
