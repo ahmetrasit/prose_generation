@@ -1,0 +1,258 @@
+- 3:107: context ¶2 (in 3:106) - ağaran yüzlerin ayrıntıda ikinci sırada gelmesi
+- 10:26: ref ¶2 - iyilik edenlerin yüzünü toz ve zillet bürümez, işe bağlı ayrılış
+- 56:12: ref ¶17 - nimet bahçeleri, varılan rahatlık
+- 75:22: cited ¶2; context ¶13 (in 75:23) - taptaze yüz, ardından gelen bakış için anılır
+- 75:23: prose ¶13 - o gün yüzün Rabbine dönük olması, yön
+- 76:11: prose ¶3 - nadra ile sürûr birlikte, yüz ve iç
+- 80:39: ref ¶3 - gülen müjdelenen yüz, içtekinin yüzde görünmesi
+- 83:24: cited ¶3, ¶5; context ¶3 (in 76:11) - nadra kelimesinin eşi olarak anılır
+- 83:25: ref ¶8 - mühürlü içki, kaynar pınarın karşısı
+- 89:27: context ¶14 (in 89:28); ref ¶18 - huzurlu nefse hitap
+- 89:28: prose ¶14, ref ¶18 - râdıye nefsin sıfatı, mardiyye ile karşılıklı
+- 89:30: context ¶14 (in 89:28) - bahçeye giriş
+- 93:5: not relevant - Peygamber'e verilecek hoşnutluk vaadi; o günün yüzleriyle bağ kurmaz
+- 98:8: ref ¶14 - karşılıklı hoşnutluk sözü
+- 1:7: cited ¶9; nowhere else - yorumu ¶9'da tamam
+- 3:106: prose ¶2 - yüzlerin ikiye ayrılması, ayrıntıda kötüden iyiye sıra
+- 4:69: prose ¶9 - Fâtiha'nın adlandırmadığı nimet verilenleri sayar
+- 6:127: ref ¶10 - esenlik yurdu, yaptıklarına karşılık
+- 7:42: not relevant - güce göre yükümlülük; paragrafların söylediğine bağlanmaz
+- 7:179: not relevant - hayvanlara benzetilen gaflet; yalnızca kelime ortak
+- 9:21: ref ¶17 - kalıcı nimet, bırakılan rahatlığın karşısı
+- 9:72: ref ¶14 - Allah'tan hoşnutluk
+- 11:108: ref ¶2 - bedbahtlardan sonra mutlular, Gâşiye sırası
+- 13:23: ref ¶12 - 13:24 ile: sabredenlerin yurduna ni'me
+- 15:45: ref ¶17 - takva sahipleri bahçelerde ve pınarlarda
+- 16:5: cited ¶19; nowhere else - yorumu ¶19'da
+- 16:31: ref ¶16 - istedikleri her şey, gelene uyan yer
+- 18:31: prose ¶12 - ni'me ile bi'se aynı pasajda, murtefek ile kapanış
+- 18:107: ref ¶16 - konak olarak Firdevs bahçeleri
+- 19:61: not relevant - gaybda vaat edilen bahçe; genel, paragraflara bir şey katmaz
+- 20:111: ref ¶11 - 20:112 ile: zulüm yükleyen ile iyi iş yapanın ayrılması
+- 23:104: not relevant - ateşin yaktığı yüzler; dördüncü ayetin konusu, paragraflara değmez
+- 25:15: not relevant - genel ebedilik bahçesi vaadi
+- 26:133: ref ¶19 - sürülerle yardım, dünyada verilen rahatlık
+- 31:8: ref ¶17 - nimet bahçeleri
+- 32:17: cited ¶10; nowhere else - yorumu ¶10'da
+- 33:66: not relevant - ateşte çevrilen yüzler; paragraflara değmez
+- 35:3: not relevant - verilen nimeti hatırlatma; yalnızca kök ortak
+- 36:55: ref ¶17 - bahçe halkı fâkihûn, keyfin varılan karşılığı
+- 36:71: ref ¶19 - malik olunan sürüler
+- 37:40: context ¶18 (in 37:42) - ikram görenlerin kim olduğu
+- 37:57: ref ¶9 - kurtuluşu Rabbin nimetine bağlamak
+- 38:50: ref ¶12 - kapıları açılmış bahçeler, Zümer sahnesi
+- 39:60: ref ¶3 - kararmış görülen yüzler
+- 39:73: ref ¶12 - ¶12'nin anlattığı sahne
+- 40:8: not relevant - meleklerin duası; paragraflara bağlanmaz
+- 41:30: not relevant - meleklerin müjdesi; genel
+- 43:17: ref ¶3 - dünyada da içteki halin yüzde görünmesi
+- 43:68: not relevant - korkusuzluk hitabı; genel
+- 43:70: ref ¶14 - sevinç içinde bahçeye giriş
+- 44:51: context ¶17 (in 44:52) - güvenli makam, değerli makamın karşısı
+- 47:15: ref ¶8 - bahçe ırmakları ile kaynar su
+- 48:29: ref ¶3 - secde izinin yüzde görünmesi
+- 49:8: not relevant - Allah'tan lütuf ve nimet; yalnızca kök ortak
+- 52:18: prose ¶17 - fâkihîn ve na'îm, Firavun'un kavminin keyfinin karşısı
+- 54:35: not relevant - Lut'un kurtarılması bir nimet olarak; yalnızca kök ortak
+- 55:46: not relevant - korkana iki bahçe; paragraflara bağlanmaz
+- 56:27: ref ¶14 - sağın adamları
+- 57:12: not relevant - ışığın önlerinde koşması; çaba anlamına bağlanmaz, yalnızca kelime ortak
+- 67:27: ref ¶3 - kötüleşen yüzler
+- 68:2: not relevant - Rabbin nimetiyle mecnun olmamak; yalnızca kök ortak
+- 68:43: ref ¶1 - 70:44 ile: ikinci ayetteki sıfat gözlere verilir
+- 69:22: cited ¶14; nowhere else - ¶16 ve ¶17'de surenin kendi onuncu ayeti yeterli
+- 70:35: ref ¶18 - bahçelerde ikram görenler
+- 70:44: ref ¶1 - 68:43 ile aynı söz
+- 74:39: not relevant - sağın adamlarının istisnası; paragraflara yeni bir şey katmaz
+- 75:24: cited ¶2; nowhere else - yorumu ¶2'de
+- 75:25: ref ¶3 - düşünen yüz, kişinin kendisi
+- 77:41: ref ¶17 - gölgeler ve pınarlar
+- 78:31: not relevant - genel kurtuluş yeri
+- 79:33: ref ¶19 - 80:32 ile: hayvanlar için geçimlik, ardından büyük olay
+- 80:38: cited ¶2; nowhere else - yorumu ¶2'de
+- 80:40: cited ¶2; nowhere else - yorumu ¶2'de
+- 82:13: ref ¶17 - iyiler nimet içinde
+- 83:22: ref ¶3, ¶17 - ¶3'ün anlattığı sahne; iyiler nimet içinde
+- 83:26: ref ¶8, ¶11 - mühürlü içki; yarışılacak yer
+- 83:27: ref ¶8 - tesnîm karışımı, içişin parçası
+- 83:28: ref ¶8 - yakınların içtiği pınar, kaynar pınarın karşısı
+- 89:29: context ¶14 (in 89:28) - kulların arasına giriş
+- 92:19: context ¶13 (in 92:20) - verişin bir borç karşılığı olmaması
+- 92:20: prose ¶13 - Rabbin yüzünü dileyen veriş ve hoşnutluk
+- 92:21: context ¶13 (in 92:20) - yerdâ, râdıye ile aynı kök
+- 93:11: not relevant - nimeti anlatma emri; yalnızca kök ortak
+- 102:8: ref ¶18 - nimetten sorulmak
+- 41:32: ref ¶16 - konukluk, varana hazırlanan yer
+- 76:10: context ¶3 (in 76:11) - asık yüzlü günden korku
+- 76:21: ref ¶8 - tertemiz içki
+- 77:43: ref ¶8 - 52:19 ile: afiyetle yiyip içmek
+- 101:7: ref ¶14 - Hâkka'daki sözün aynısı
+- 18:108: ref ¶16 - oradan ayrılmak istememek
+- 19:85: ref ¶16 - Rahman'a konuk heyeti olarak varış
+- 22:72: ref ¶3 - aynı "yüzlerinde tanırsın" hitabı
+- 25:75: ref ¶12 - sabredenlere odalar
+- 33:44: not relevant - selam ve cömert ücret; genel
+- 33:69: not relevant - Musa'nın Allah katında itibarlı oluşu; "ileri gelenler" anlamı o günün yüzlerine bağlanmaz, notun gerekçesi geçerli
+- 36:59: ref ¶1 - suçlulara "ayrılın" denmesi
+- 37:42: prose ¶18 - ikram ve na'îm o günün hali olarak
+- 37:43: context ¶18 (in 37:42); ref ¶17 - nimet bahçeleri
+- 42:7: ref ¶1 - bir topluluk bahçede, bir topluluk ateşte
+- 43:71: ref ¶10 - gözlerin lezzet aldığı
+- 44:57: not relevant - Rabbin lütfu; genel ifade
+- 52:19: ref ¶8 - afiyetle yiyip içmek
+- 56:18: not relevant - kadeh ve ibrikler; paragrafların kurduğu karşıtlığa girmez
+- 56:89: ref ¶17 - nimet bahçesi
+- 64:9: not relevant - aldanış günü; paragraflara bağlanmaz
+- 69:24: ref ¶14 - önden gönderilene karşılık
+- 73:11: cited ¶17; context ¶8 (in 73:13) - rahatlık sahiplerine hazırlanan yemek için anılır
+- 75:12: not relevant - o gün varılacak yer Rabbindir; genel
+- 79:9: ref ¶2 - 79:8 ile: kalplerle kurulan kalıp
+- 80:41: ref ¶3 - yüzü bürüyen karanlık
+- 1:2: not relevant - hamd; paragraflara bağlanmaz
+- 2:47: not relevant - İsrâiloğullarına nimet hatırlatması; yalnızca kök ortak
+- 2:122: not relevant - aynı hatırlatma; yalnızca kök ortak
+- 2:150: not relevant - kıbleye yüz çevirme ve nimetin tamamlanması; paragraflara bağlanmaz
+- 3:72: not relevant - "gündüzün yüzü" sabah; notun gerekçesi geçerli, "o gün" ile bağ yok
+- 5:6: not relevant - abdestte yüz yıkama; yalnızca kelime ortak
+- 5:20: not relevant - Musa'nın kavmine nimet hatırlatması; yalnızca kök ortak
+- 6:16: not relevant - o gün azaptan çevrilmek; paragraflara bağlanmaz
+- 8:16: not relevant - savaştan kaçış; yalnızca "o gün" ortak
+- 12:9: not relevant - babanın yüzü; yalnızca kelime ortak
+- 16:76: not relevant - yönlendirilen dilsiz meseli; yalnızca kök ortak
+- 22:56: ref ¶17 - nimet bahçeleri
+- 25:24: ref ¶16 - en güzel kalış ve dinlenme yeri
+- 25:44: not relevant - hayvanlar gibi; yalnızca kelime ortak
+- 35:28: not relevant - renkleri farklı hayvanlar; paragraflara bağlanmaz
+- 40:79: ref ¶19 - binilen ve yenilen sürü
+- 47:12: ref ¶19 - hayvanlar gibi yiyip geçinmek
+- 52:17: context ¶17 (in 52:18) - bahçeler ve na'îm
+- 74:26: not relevant - Sekar'a atma; paragraflara bağlanmaz
+- 76:9: ref ¶13 - Allah'ın yüzü için yedirmek
+- 76:20: ref ¶3 - bakanın gördüğü nimet
+- 84:25: ref ¶12 - kesilmeyen ücret
+- 92:12: not relevant - doğru yolu göstermek; paragraflara bağlanmaz
+- 92:14: not relevant - alevli ateş uyarısı; paragraflara bağlanmaz
+- 92:16: ref ¶13 - yalanlayıp yüz çeviren
+- 92:18: context ¶13 (in 92:20) - arınmak için veren
+- 99:6: ref ¶11 - amellerin gösterilmesi
+- 6:79: ref ¶13 - yüzünü yaratana çevirmek
+- 27:90: ref ¶10 - 27:89 ile: yapılana göre ayrılan yüzler
+- 31:31: not relevant - gemilerin Allah'ın nimetiyle akması; yalnızca kök ortak
+- 37:49: not relevant - saklı yumurta benzetmesi; paragraflara bağlanmaz
+- 47:27: not relevant - ölümde yüzlere vurulması; paragraflara değmez
+- 55:27: ref ¶3 - Rabbin yüzünün kalması, 28:88 ile aynı anlam
+- 69:15: not relevant - olayın vukuu; "o gün" dışında bağ yok
+- 69:18: ref ¶3 - gizlinin gizli kalmaması
+- 69:23: ref ¶16 - yakın meyveler, gelene uyan yer
+- 79:8: ref ¶2 - aynı kalıp kalplerle
+- 80:32: ref ¶19 - 79:33 ile aynı söz
+- 1:5: not relevant - kulluk ve yardım dileme; ¶9'un hitabına bir şey katmaz
+- 1:6: ref ¶9 - istenen dosdoğru yol
+- 2:110: ref ¶13 - önden gönderilen hayır Allah katında
+- 2:111: ref ¶13 - ¶13'ün anlattığı iddia
+- 2:113: not relevant - Yahudi ve Hristiyanların birbirini reddi; ¶13'e bir şey katmaz
+- 2:114: not relevant - mescidleri yıkmaya çaba; yalnızca kelime ortak
+- 3:12: not relevant - inkârcıların yenilgisi; paragraflara bağlanmaz
+- 3:13: not relevant - iki topluluk ibreti; paragraflara bağlanmaz
+- 3:15: prose ¶19 - sürüden hayırlısı: bahçe ve Allah'tan hoşnutluk
+- 3:16: not relevant - takva sahiplerinin duası; paragraflara bir şey katmaz
+- 3:134: ref ¶12 - ¶12'nin anlattığı işler
+- 3:135: ref ¶12 - ¶12'nin anlattığı işler
+- 3:137: not relevant - yalanlayanların sonu; paragraflara bağlanmaz
+- 3:138: not relevant - açıklama ve öğüt; paragraflara bağlanmaz
+- 16:3: not relevant - göklerin ve yerin yaratılışı; ¶19'a bir şey katmaz
+- 16:4: not relevant - insanın nutfeden yaratılışı; ¶19'a bir şey katmaz
+- 16:6: ref ¶19 - sürünün güzelliği
+- 16:7: ref ¶19 - sürünün yük taşıması
+- 28:86: not relevant - kitabın rahmet olarak verilmesi; paragraflara bağlanmaz
+- 28:87: not relevant - Rabbe çağırma emri; paragraflara bağlanmaz
+- 29:56: not relevant - geniş yer ve kulluk; paragraflara bağlanmaz
+- 29:57: not relevant - her nefis ölümü tadar; paragraflara bağlanmaz
+- 29:59: ref ¶12 - ¶12'nin anlattığı sabredenler
+- 29:60: not relevant - rızkını taşımayan canlılar; paragraflara bağlanmaz
+- 32:15: not relevant - secdeye kapananlar; ¶10'un sahnesine bir şey katmaz
+- 32:16: ref ¶10 - ¶10'un anlattığı yalvaranlar
+- 32:18: ref ¶10 - mümin ile yoldan çıkan bir olmaz
+- 32:19: ref ¶10 - yaptıklarına karşılık konak bahçeleri
+- 39:72: ref ¶12 - aynı sahnede bi'se
+- 39:75: not relevant - meleklerin hamdi; paragraflara bağlanmaz
+- 44:23: ref ¶17 - ¶17'nin anlattığı emir
+- 44:24: ref ¶17 - ¶17'nin anlattığı emir
+- 44:26: context ¶17 (in 44:52) - değerli makam, güvenli makamın karşısı
+- 44:28: ref ¶17 - bırakılanın mirası
+- 44:29: ref ¶17 - arkalarından ağlanmaması
+- 69:19: ref ¶14 - ¶14'ün anlattığı kişi
+- 73:9: not relevant - doğunun ve batının Rabbi; paragraflara bağlanmaz
+- 73:10: ref ¶17 - ¶17'nin anlattığı emir
+- 73:12: context ¶8 (in 73:13) - bukağılar ve ateş
+- 73:13: prose ¶8 - rahatlık sahiplerine boğazda kalan yemek
+- 75:20: ref ¶17 - 75:21 ile: çabuk geçeni sevmek
+- 75:21: ref ¶17 - ahireti bırakmak
+- 75:26: not relevant - can boğaza dayandığında; paragraflara bağlanmaz
+- 80:36: ref ¶2 - kaçılan yakınlar
+- 80:37: ref ¶2 - herkesin kendi derdi
+- 80:42: not relevant - tozlu yüzlerin kimliği; ¶2'nin söylediğine bir şey katmaz
+- 83:23: ref ¶3 - ¶3'ün anlattığı sedir sahnesi
+- 89:13: not relevant - azap kamçısı; paragraflara bağlanmaz
+- 89:14: not relevant - Rabbin gözetlemesi; paragraflara bağlanmaz
+- 89:16: ref ¶18 - ¶18'in anlattığı söz
+- 89:17: ref ¶18 - ¶18'in anlattığı "hayır"
+- 53:39 own: prose ¶11 - sa'y insanın payıdır
+- 53:40 own: context ¶11 (in 53:39) - çabanın görülmesi
+- 53:41 own: context ¶11 (in 53:39) - karşılığın eksiksiz verilmesi
+- 35:34 own: context ¶16 (in 35:35) - hamdin başı
+- 35:35 own: prose ¶16, ref ¶11 - kalış yurdu; nasab dokunmaz, nâsıba ile aynı kök
+- 15:48 own: ref ¶16 - yorgunluk dokunmaz, çıkarılmazlar
+- 44:52 own: prose ¶17 - aynı surede bahçeler ve pınarlar
+- 18:29 own: context ¶12 (in 18:31) - bi'se, yüzleri kavuran su
+- 18:30 own: context ¶12 (in 18:31) - ücretin boşa gitmemesi
+- 26:57 own: ref ¶17 - aynı olayın Şuarâ anlatımı
+- 26:58 own: ref ¶17 - hazineler ve değerli makam
+- 26:59 own: ref ¶17 - mirasçıların adı
+- 26:134 own: ref ¶17 - dünyadaki bahçeler ve pınarlar
+- 26:147 own: ref ¶17 - dünyadaki bahçeler ve pınarlar
+- 51:15 own: ref ¶17 - 15:45 ile aynı söz
+- 13:24 own: ref ¶12 - ni'me ukbe'd-dâr
+- 16:30 own: ref ¶12 - ni'me dâru'l-muttakîn
+- 41:8 own: ref ¶12 - kesilmeyen ücret
+- 95:6 own: ref ¶12 - kesilmeyen ücret
+- 11:105 own: ref ¶1 - bedbaht ve mutlu diye ayrılış
+- 30:14 own: ref ¶1 - o gün ayrılırlar
+- 10:27 own: ref ¶2 - karanlıkla örtülen yüzler
+- 80:34 own: ref ¶2 - ¶2'nin anlattığı kaçış
+- 80:35 own: ref ¶2 - ¶2'nin anlattığı kaçış
+- 88:1 own: ref ¶1 - ¶1'in andığı ilk ayet
+- 88:4 own: ref ¶2 - ¶2'nin andığı ateşe giren yüz
+- 88:5 own: ref ¶2 - ¶2'nin andığı kaynar pınar
+- 88:6 own: ref ¶2 - ¶2'nin andığı yemek
+- 88:10 own: ref ¶14, ¶16, ¶17 - üç paragrafın andığı yüksek bahçe
+- 88:12 own: ref ¶17 - ¶17'nin andığı akan pınar
+- 88:17 own: ref ¶19 - ¶19'un andığı deve ayeti
+- 88:24 own: not relevant - yüz çevirenin azabı; ¶13'e yön bakımından bir şey katmaz
+- 86:9 own: ref ¶3 - sırların ortaya konması
+- 101:6 own: ref ¶14 - tartıları ağır basan
+- 84:7 own: ref ¶14 - kitabı sağından verilen
+- 84:8 own: ref ¶14 - kolay hesap
+- 84:9 own: ref ¶14 - sevinçle dönüş
+- 5:119 own: ref ¶14 - karşılıklı hoşnutluk
+- 9:100 own: ref ¶14 - karşılıklı hoşnutluk
+- 58:22 own: ref ¶14 - karşılıklı hoşnutluk
+- 17:19 own: ref ¶11 - şükranla karşılanan çaba
+- 76:22 own: ref ¶11 - şükranla karşılanan çaba
+- 21:94 own: ref ¶11 - inkâr edilmeyen çaba
+- 92:4 own: ref ¶11 - farklı farklı çabalar
+- 79:35 own: ref ¶11 - çabanın hatırlanması
+- 18:104 own: ref ¶11 - boşa giden çaba
+- 20:112 own: ref ¶11 - mümin olarak iyi iş yapan
+- 27:89 own: ref ¶10 - iyilikle gelen güvende
+- 80:8 own: ref ¶15 - koşarak gelen
+- 28:20 own: ref ¶15 - koşarak gelen adam
+- 36:20 own: ref ¶15 - koşarak gelen adam
+- 62:9 own: ref ¶15 - Allah'ı anmaya koşmak
+- 37:102 own: ref ¶15 - koşup çalışacak çağ
+- 19:58 own: ref ¶9 - nimet verilen peygamberler
+- 4:125 own: ref ¶13 - yüzünü Allah'a teslim eden
+- 31:22 own: ref ¶13 - yüzünü Allah'a teslim eden
+- 37:41 own: context ¶18 (in 37:42) - bilinen rızık
+- 76:8 own: context ¶3 (in 76:11) - yediren kimselerin durumu
+- 76:12 own: not relevant - sabrın karşılığı bahçe ve ipek; paragraflara yeni bir şey katmaz
