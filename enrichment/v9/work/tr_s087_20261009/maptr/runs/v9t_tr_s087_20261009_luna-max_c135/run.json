@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c135",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T15:08:17",
+  "ended": "2026-10-09T15:18:03",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12210-f17c-7941-a4f5-9c3bd9a31345",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 373591,
+    "cached_input_tokens": 316672,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31703,
+    "reasoning_output_tokens": 8971
+  },
+  "stderr": "2026-10-09T19:17:13.912081Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c135.jsonl:\n{\"id\":\"59:9/q12/p3\",\"position\":\"İçsel anlamda özgecilik, Allah'ın rızasını veya bütün yoldaşların haklarını kişinin kendi çıkarının önüne koyar.\",\"reasons\":\"Tustarī, Wahīb'in bu tercihin seven kişinin Allah'ın rızasını seçtiğini kanıtladığına ilişkin ilahî yemini aktarır; böyle yapanlara endişelerden kurtulma ve içsel yoksulluktan uzaklaşma vaat edilir. Sulamī'nin otoriteleri yiğitliği, yoldaşları öncelemeyi, ayrım gözetmemeyi, ahireti tercih etmeyi ve kişinin elini Allah'ın malının emanetçisi saymasını tanımlar. Qushayrī, kişi açken tok olanı bile tercih etmenin gerçek îthār olabileceğini ve kendi mallarını emanet görmeyi söyler. Qāshānī bunu benlikten el çekmek ve yol arkadaşlarını sevmek olarak açıklar.\"}\n",
+  "prompt_sha256": "a4370d52a4390a9fdba173357401c5e66ea78f9316cf5799b72404323ebbc9c0",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T15-08-18-01a12210-f17c-7941-a4f5-9c3bd9a31345.jsonl",
+  "usd_equivalent": 0.02471,
+  "requests": 11,
+  "max_request_input_tokens": 60991,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c066",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T14:45:38",
+  "ended": "2026-10-09T14:50:19",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a121fc-34c4-7cb1-9862-87d817b094b4",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 429398,
+    "cached_input_tokens": 370688,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34702,
+    "reasoning_output_tokens": 10329
+  },
+  "stderr": "2026-10-09T18:49:29.582604Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c066.jsonl:\n{\"id\":\"13:9/q11\",\"question\":\"Bu bildirim, bilgi, ayetler ve diriliş hakkındaki önceki tartışmayı nasıl geliştirir?\",\"turns_on\":\"Buradaki doğrudan vurgunun kuşatıcı bilgi, ilahî kudretin kanıtı ya da istenen ayetleri vermemenin sebebi ve zamanı olup olmadığı.\",\"positions\":[{\"id\":\"13:9/q11/p1\",\"position\":\"Önceki gizli ayrıntıları genelleştirir ve Allah’ın her şeyi bildiğini doğrular.\",\"reasons\":\"Ebû Hayyân, pasajın gizli ayrıntılardan görülen ve görülmeyen her şeye geçtiğini söyler. Âlûsî, bu nitelemenin 13:8’deki tam bilgi iddiasına kanıt olduğunu belirtir. İbn Atıyye, ‘O’nun katında her şey ölçüye bağlanmıştır’ ifadesinin, takdire tabi olan bütün şeylere ilişkin genel bir ifade olduğunu söyler. İbn Âşûr, bu ifadeyi bilginin kapsamını özetleyen bir söz olarak niteler ve Bakara suresinin başındaki gaybı hatırlatır. Kur’an Çalışmaları aynı ilahî niteleme için 6:59 ve 59:22’ye işaret eder.\"}\n",
+  "prompt_sha256": "ec0c550ef2847d6e6857c2e9abafe1299d51d47ae7a153b30b96ba2b5c26ca25",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T14-45-39-01a121fc-34c4-7cb1-9862-87d817b094b4.jsonl",
+  "usd_equivalent": 0.026929,
+  "requests": 12,
+  "max_request_input_tokens": 62727,
+  "over_context_cap": false
+}

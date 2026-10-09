@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c088",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T14:53:03",
+  "ended": "2026-10-09T15:00:07",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12203-0ab4-7972-89ad-34cfffc4f27c",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 529020,
+    "cached_input_tokens": 441344,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 62388,
+    "reasoning_output_tokens": 14913
+  },
+  "stderr": "2026-10-09T18:56:08.413305Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 3, '{\"id\":\"20:76/q01\",\"question\":\"Adn cennetleri nedir?\",\"turns_on\":\"\",\"positions\":[{\"id\":\"20:76/q01/p1\",\"position\":\"Bunlar, müminlere vaat edilen kalıcı ikamet bahçeleri ve yüce derecelerdir.\",\"reasons\":\"Taberî, oradan ayrılma ya da son bulma olmadığını söyler; Bağavî ve İbn Kesîr bunların ebedî olduğunu belirtir; Tabersî ve Kurtubî ʿadn kelimesini kalıcı ikamet olarak açıklar. Al-Jishumī ağaçların ve yapıların altından akan ırmakları da ekler; Bikāî, ikamet koşullarının önceden hazırlandığını söyler. İbn Jurayj vaat edilen yüce dereceleri Adn ile özdeşleştirir; Râzî ve Asad bunları müminlerin yüce makamları olarak niteler.\"}]}' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n",
+  "prompt_sha256": "77d0fafda8615aaeae39df264777a950ac7963b38058b28ec62e5055bdde784d",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T14-53-07-01a12203-0ab4-7972-89ad-34cfffc4f27c.jsonl",
+  "usd_equivalent": 0.044375,
+  "requests": 12,
+  "max_request_input_tokens": 90536,
+  "over_context_cap": false
+}

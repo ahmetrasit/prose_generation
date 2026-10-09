@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c122",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T15:02:57",
+  "ended": "2026-10-09T15:15:01",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1220c-142b-7bb2-8bfe-428fd32289c0",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 447229,
+    "cached_input_tokens": 366592,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38674,
+    "reasoning_output_tokens": 9160
+  },
+  "stderr": "2026-10-09T19:13:06.627608Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c122.jsonl:\n{\"id\":\"41:39/q21/p4\",\"position\":\"Dünyevi sınama, gerçek manevi hayat yerine uyuklayan nefsi günahlara sürükleyebilir.\",\"reasons\":\"Bursevī, insan tabiatının toprağının dürtüler olmadan kuruduğunu, ancak sınama ve istidrācın onu sulayıp yasak fiillere sürüklediğini söyler. Mes̱nevî'deki ejderha imgesi, mahrumiyetin nefsi yalnızca boyun eğmiş gibi gösterdiğini anlatır; kendini beğenme amaçtan uzaklaştırır ve başarı umudunu bırakmaz.\"}\n",
+  "prompt_sha256": "fb8c25087653f51e34418f69defa9778d6e04346fddf5bfd53ebcf3126081a99",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T15-02-59-01a1220c-142b-7bb2-8bfe-428fd32289c0.jsonl",
+  "usd_equivalent": 0.031067,
+  "requests": 12,
+  "max_request_input_tokens": 67278,
+  "over_context_cap": false
+}

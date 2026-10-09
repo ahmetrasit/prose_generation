@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c107",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T14:59:49",
+  "ended": "2026-10-09T15:04:07",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12209-3145-7ec1-80cb-e3f2c7976371",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 379395,
+    "cached_input_tokens": 320768,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 32123,
+    "reasoning_output_tokens": 7674
+  },
+  "stderr": "2026-10-09T19:03:50.679276Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c107.jsonl:\n{\"id\":\"28:23/q14\",\"question\":\"تَذُودَانِ Arapçada ne anlama gelir?\",\"turns_on\":\"\",\"positions\":[{\"id\":\"28:23/q14/p1\",\"position\":\"Engellemek, geri çevirmek veya uzaklaştırmak.\",\"reasons\":\"Ferrâ, olağan nesnesini hayvanlarla sınırlar; Taberî bunu, Peygamber’in havuzu hakkındaki bir rivayet ve bir şairin insanları kasteden kullanımıyla eleştirir. Cerîr, Saîd veya Süveyd b. Kurā‘ ve başka şiirler engelleme ve uzaklaştırma anlamlarını doğrular; Nehhâs, öne sürmenin de engelleme sayılabileceğini belirtir. İbn Âşûr, hayvanları sudan uzaklaştırmanın gerçek, insanları uzaklaştırmanın mecaz olduğunu söyler ve dar sözlük anlamında koyun geçip geçmediğinin belirsizliğine değinir.\"},{\"id\":\"28:23/q14/p2\",\"position\":\"Ebû Ubeyde’ye göre yalnızca otuz ile doksan arası dişi deveyi ifade eden küçük bir deve grubudur.\",\"reasons\":\"Cüşemî, bununla ilişkili hayvan terimine de değinir.\"}]}\n",
+  "prompt_sha256": "304c3f03b430ce7f9c088a9151cb6d9acaafe58fae97a0be4c0e7496dc982c89",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T14-59-50-01a12209-3145-7ec1-80cb-e3f2c7976371.jsonl",
+  "usd_equivalent": 0.025132,
+  "requests": 11,
+  "max_request_input_tokens": 62058,
+  "over_context_cap": false
+}

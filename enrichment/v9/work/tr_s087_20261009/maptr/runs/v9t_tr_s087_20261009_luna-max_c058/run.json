@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c058",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T14:42:50",
+  "ended": "2026-10-09T14:48:10",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a121f9-a643-7f53-9b57-157066133285",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 649045,
+    "cached_input_tokens": 581888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39907,
+    "reasoning_output_tokens": 12027
+  },
+  "stderr": "2026-10-09T18:47:04.422536Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c058.jsonl:\n{\"id\":\"7:25/q14/p3\",\"position\":\"Âdem'in ayartılması, insanın zayıflığını ve peygamber rehberliğine duyulan sürekli ihtiyacı gösterir.\",\"reasons\":\"Asad, 7:16, 7:18, 7:19 ve 7:25'teki ayartılma ve düşüşü aktararak iştah, kibir ve sahte öz çıkarın insanın etkilenebilirliğiyle ilişkisini kurar.\"}\n",
+  "prompt_sha256": "f757787b585d91b87d27f34bbba8e0bc1141187a21b11523ee55d10c36ee18dd",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T14-42-51-01a121f9-a643-7f53-9b57-157066133285.jsonl",
+  "usd_equivalent": 0.032488,
+  "requests": 15,
+  "max_request_input_tokens": 68693,
+  "over_context_cap": false
+}

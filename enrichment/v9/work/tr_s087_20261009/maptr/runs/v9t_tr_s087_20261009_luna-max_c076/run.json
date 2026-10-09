@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c076",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T14:49:08",
+  "ended": "2026-10-09T14:53:20",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a121ff-677a-7cc1-ab80-54a65c8517ab",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 421708,
+    "cached_input_tokens": 367616,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30778,
+    "reasoning_output_tokens": 4472
+  },
+  "stderr": "2026-10-09T18:52:44.168211Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c076.jsonl:\n{\"id\":\"18:22/q01/p1\",\"position\":\"Peygamber dönemindeki Ehlikitap, çeşitli Yahudi veya Hıristiyan grupları olarak bu sayıları dile getirdi.\",\"reasons\":\"Yahyâ, İbn Hişâm ve İbn Atıyye, Mekkeliler aracılığıyla iletilen sorularla Yahudileri ilişkilendirir. Mukātil, Sa‘lebî, Vâhidî ve başkaları, Nec ranlı Yakubî Seyyid’in üç, Nastûrî Akīb’in beş dediğini, Müslümanların ise yedi dediğini anlatır; İbnü’l-Cevzî Melkit, Yakubî ve Nastûrî gruplarına farklı sayılar atfeden başka bir rivayet de aktarır. Beydâvî ve Süddî üçü Yahudilere, beşi Hıristiyanlara nispet eder. Âlûsî, yalnızca Yahudileri öne çıkaran anlatımdan kuşku duyar.\"}\n",
+  "prompt_sha256": "0fd2e8fd4190096c946e5350e20cc2e374d9e757850a73694a4d3131d8afe4c3",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T14-49-08-01a121ff-677a-7cc1-ab80-54a65c8517ab.jsonl",
+  "usd_equivalent": 0.024474,
+  "requests": 12,
+  "max_request_input_tokens": 59249,
+  "over_context_cap": false
+}

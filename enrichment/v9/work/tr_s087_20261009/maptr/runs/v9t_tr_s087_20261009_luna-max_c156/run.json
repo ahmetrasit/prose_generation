@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c156",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T15:16:06",
+  "ended": "2026-10-09T15:21:21",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12218-16d8-71d3-b34e-0e48c77e3e3d",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 583695,
+    "cached_input_tokens": 515584,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 41972,
+    "reasoning_output_tokens": 11811
+  },
+  "stderr": "2026-10-09T19:20:45.075364Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c156.jsonl:\n{\"id\":\"87:7/q08\",\"question\":\"İstisnayı hangi aktarılan unutma ya da hatırlatma örnekleri açıklar?\",\"turns_on\":\"Gerçek bir sürçmeyi, bunun düzeltilmesini ya da neshi göstermek için kullanılan aktarılan olay veya metin örneği.\",\"positions\":[{\"id\":\"87:7/q08/p1\",\"position\":\"Peygamber namazda bir ayeti atladı; Übeyy bunun neshedildiğini düşündü, fakat Peygamber unuttuğunu söyledi.\",\"reasons\":\"Al-Kashshāf, Râzî, al-Kurtubî, al-Bayḍāwī, al-Samīn, al-Ālūsī, Elmalılı ve İbn Âşûr bu rivayetin çeşitli biçimlerini aktarır. Al-Ālūsī ve Elmalılı bunun sabah namazında gerçekleştiğini belirtir ve Bukhārī'yi ya da Ṣaḥīḥayn'ı kaynak gösterir. Bu notlardaki amaç, kalıcı kayıptan ziyade gerçek ama düzeltilmiş bir sürçmeyi göstermektir.\"},{\"id\":\"87:7/q08/p2\",\"position\":\"Bazı aktarımlarda ʿAbbād ibn Bishr olarak tanımlanan bir adamın okuyuşu, Peygambere atladığı ayetleri hatırlattı.\",\"reasons\":\"İbn ʿAṭiyya ʿAbbād'ın adını verirken İbn Âşûr, Âişe'nin Bukhārī'deki gece okuyuşu rivayetini aktarır. Al-Ālūsī ve Elmalılı, al-Baḥr aracılığıyla hatırlatmayı aktarır. Notlarda ayetin mi ayetlerin mi olduğu ve adamın isimsiz mi yoksa ʿAbbād mı olduğu değişir.\"},{\"id\":\"87:7/q08/p3\",\"position\":\"İbn Abbas, Cebrâil'in önceki peygamberlerin kayıplarından söz ettiğini ve zümrüt levhalar kırılınca Musa'nın on üç sahifenin dördünü kaybettiğini aktarır.\",\"reasons\":\"Al-Durr'daki iki özet, vahyi kaybetmekten korkan Peygamberi teselli eden Cebrâil'in sözleri içinde bu ayrıntıları verir; birinde kaybolan ya da kaldırılan ayetlerin hukukî hüküm taşımadığı söylenir.\"},{\"id\":\"87:7/q08/p4\",\"position\":\"Âişe, bilinen on emzirmenin vahyedildiğini, sonra bunların yerini beş emzirmenin aldığını aktarır.\",\"reasons\":\"Al-Ālūsī, tilavetin neshinin Peygamberin kaldırılmış her metni unutmasını gerektirmediğini savunmak için Ṣaḥīḥayn rivayetini aktarır; çünkü bazı dinleyiciler bu tür malzemeyi korumuştur.\"},{\"id\":\"87:7/q08/p5\",\"position\":\"Ömer, recmedilmeye ve kişinin babalarını inkâr etmesine ilişkin pasajların bir zamanlar okunduğunu söyler.\",\"reasons\":\"İbn Âşûr bunu tilavetin daha sonra bir kenara bırakıldığına delil olarak aktarır.\"}]}\n",
+  "prompt_sha256": "f96b7d9769abf700971b097dd61d3febd4b1beff2a9fb06f0e0a27015974019d",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T15-16-06-01a12218-16d8-71d3-b34e-0e48c77e3e3d.jsonl",
+  "usd_equivalent": 0.032953,
+  "requests": 14,
+  "max_request_input_tokens": 71137,
+  "over_context_cap": false
+}

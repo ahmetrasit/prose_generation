@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c084",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T14:51:40",
+  "ended": "2026-10-09T14:58:20",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12201-b93e-7b03-a62d-d3fb59a16b2e",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 808984,
+    "cached_input_tokens": 720896,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 59376,
+    "reasoning_output_tokens": 11951
+  },
+  "stderr": "2026-10-09T18:56:15.159230Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c084.jsonl:\n{\"id\":\"20:51/q02\",\"question\":\"Bāl burada ne anlama gelir?\",\"turns_on\":\"Kelimenin asıl düşünce anlamının mı, yoksa genişlemiş durum anlamının mı kastedildiği tartışılır.\",\"positions\":[{\"id\":\"20:51/q02/p1\",\"position\":\"Hâl, durum, iş ya da önem taşıyan mesele.\",\"reasons\":\"Ibn Qutayba, Allah'tan kişinin bāl'ini düzeltmesini dilemeyi anlatan deyimi aktarır; Ibn ʿAṭiyya ise hidayet ve esenlikli bir durum isteyen peygamber duasını aktarır. Jishumī bāl'i ḥāl ve shaʾn ile eş tutar. Al-Samīn ve Bursevī kişinin önem verdiği, sonuç doğuran bir durumu kasteder; al-Samīn mā bālaytu bāla sözünü aktarır ve kolaylık için kelimenin sonunun düşürüldüğünü söyler. Al-Ālūsī ve al-Ṭabāṭabāʾāʾī bu anlamı asıl düşünce anlamından türetir; al-Ālūsī çoğulunun normalde kullanılmadığını, al-Ṭabāṭabāʾāʾī bālāt biçiminin aykırı olduğunu belirtir. Al-Wāḥidī, Kurtubî ve başkaları anlamı bu kuşakların akıbetine uygular.\"},{\"id\":\"20:51/q02/p2\",\"position\":\"Düşünce ya da akla gelen şey; kelimenin asıl anlamı.\",\"reasons\":\"Al-Samīn khaṭara bi-bālihi sözünü aktarır ve bālāt çoğulunu nadir sayar. Bursevī, ifadenin kişinin başına geleni ya da aklına düşeni anlatabileceğini söyler. Al-Ālūsī ve al-Ṭabāṭabāʾāʾī düşünceden kayda değer bir duruma geçişi açıklar; ikincisi bālāt biçiminin aykırı olduğunu belirtir.\"}]}\n",
+  "prompt_sha256": "c6677585a9f2e221fb552cd43ba3679c2918ef4fdf7b29b906f41d1d0ecd59c3",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T14-51-40-01a12201-b93e-7b03-a62d-d3fb59a16b2e.jsonl",
+  "usd_equivalent": 0.045706,
+  "requests": 16,
+  "max_request_input_tokens": 88653,
+  "over_context_cap": false
+}

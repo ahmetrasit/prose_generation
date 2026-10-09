@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c050",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T14:38:37",
+  "ended": "2026-10-09T14:45:38",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a121f5-c812-7fa1-9264-d3bf87025624",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 498426,
+    "cached_input_tokens": 394496,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 58412,
+    "reasoning_output_tokens": 12983
+  },
+  "stderr": "2026-10-09T18:44:06.935409Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c050.jsonl:\n{\"id\":\"5:90/q20\",\"question\":\"Şarabın kendisi dinî bakımdan necis midir?\",\"turns_on\":\"Rijs'in fiziksel necaset ifade edip etmediği ve şarabın sokaklara dökülmesinden ne sonuç çıkarılacağı.\",\"positions\":[{\"id\":\"5:90/q20/p1\",\"position\":\"Evet: Rijs diye nitelenmesi ve ondan kaçınma emri necis olduğunu gösterir.\",\"reasons\":\"Kurtubî çoğunluğun görüşünü aktarır ve genel metinlerden ve kıyastan çıkarım yapılmasını savunur; Medine'de yollara dökülmesine, evlerde kuyu ve tuvalet bulunmadığı için bunun pratik olmasının yanı sıra yok etme işlemini halka göstermesinin de açıklama getirdiğini söyler.\"},{\"id\":\"5:90/q20/p2\",\"position\":\"Hayır: Şarap madde olarak temizdir, ancak içilmesi yasaktır.\",\"reasons\":\"Kurtubî bunu Rebîa, el-Leys, el-Müzenî ve başkalarına atfeder; Saʿîd b. el-Haddâd sahabelerin şarabı Medine sokaklarına döktüğünü ve bunu yapmalarını yasaklayan bir peygamber hükmü olmadığını söyler. Kurtubî bu çıkarımı reddeder.\"}]}\n",
+  "prompt_sha256": "f86cf690d6ef5c72693bef1ae0acc5d7cb96ac47eb24b526fe7a8c00a3d00081",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T14-38-38-01a121f5-c812-7fa1-9264-d3bf87025624.jsonl",
+  "usd_equivalent": 0.043544,
+  "requests": 12,
+  "max_request_input_tokens": 86808,
+  "over_context_cap": false
+}

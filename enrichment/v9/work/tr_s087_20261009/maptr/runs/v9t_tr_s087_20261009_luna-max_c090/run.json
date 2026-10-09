@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c090",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T14:53:29",
+  "ended": "2026-10-09T14:58:00",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12203-62ac-7e72-a555-459aa0794ddd",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 446970,
+    "cached_input_tokens": 384000,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38265,
+    "reasoning_output_tokens": 10587
+  },
+  "stderr": "2026-10-09T18:57:08.353252Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c090.jsonl:\n{\"id\":\"20:123/q12/p7\",\"position\":\"İnsan fıtratına uygun inanç ve eylemlerden oluşan doğal dindir.\",\"reasons\":\"Al-Ṭabāṭabāʾī, 30:30'u aktarır: Her yaratığın mutluluğu, yaratılışındaki donanıma uyar; ilahî seçimin ardından gelen hidayet, yalnız Allah'a kullukta dinî mutluluk getirir ve yanılabilir sebepler aracılığıyla kazanılan dünyevî nimetler gibi başarısız olamaz.\"}\n",
+  "prompt_sha256": "db35419c16f064bd6de55d960e76a8ef6da011bd6d71baa1c1c482a63877fd90",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T14-53-29-01a12203-62ac-7e72-a555-459aa0794ddd.jsonl",
+  "usd_equivalent": 0.029269,
+  "requests": 12,
+  "max_request_input_tokens": 66696,
+  "over_context_cap": false
+}

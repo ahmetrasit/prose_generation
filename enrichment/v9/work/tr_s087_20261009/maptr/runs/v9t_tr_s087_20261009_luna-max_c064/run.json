@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c064",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T14:44:37",
+  "ended": "2026-10-09T14:49:39",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a121fb-45a1-7ff3-8395-0c58f4791bd0",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 390829,
+    "cached_input_tokens": 325888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 40115,
+    "reasoning_output_tokens": 11081
+  },
+  "stderr": "2026-10-09T18:49:14.131406Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c064.jsonl:\n{\"id\":\"11:105/q04\",\"question\":\"يَوْمَ mansupunu ne yönetir?\",\"turns_on\":\"Zaman ifadesinin doğrudan konuşma fiiline mi bağlandığı, yoksa takdir edilen bir âmile mi ihtiyaç duyduğu.\",\"positions\":[{\"id\":\"11:105/q04/p1\",\"position\":\"Ardından gelen لا تكلم onu yönetir.\",\"reasons\":\"et-Tebrîsî bunu, hazif gerektirmemesi ve zaman isimlerinin fiillere bağlanması nedeniyle tercih eder; es-Semîn, el-Âlûsî ve İbn ʿĀshūr da tercih eder. Zemahşerî ve başkaları buna izin verir.\"},{\"id\":\"11:105/q04/p2\",\"position\":\"Takdir edilen “hatırla” fiili onu yönetir.\",\"reasons\":\"Zemahşerî, el-Beyḍāwī, es-Semîn ve el-Ālūsī bu hazfi önerir.\"},{\"id\":\"11:105/q04/p3\",\"position\":\"Takdir edilen ecelin son kısmı onu yönetir.\",\"reasons\":\"Bu zaman, 11:104’teki sürenin sona erdiği zamandır.\"},{\"id\":\"11:105/q04/p4\",\"position\":\"لا تكلم fiilinin takdir edilen tekrarı onu yönetir.\",\"reasons\":\"es-Semîn bu dördüncü öneriyi aktarır, ancak buna gerek olmadığını söyler.\"}]}\n",
+  "prompt_sha256": "0f2471a5e47b6af84887ca6e0663c9b370270a1138d1fd375bbe8220b7b2a9b7",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T14-44-37-01a121fb-45a1-7ff3-8395-0c58f4791bd0.jsonl",
+  "usd_equivalent": 0.02981,
+  "requests": 11,
+  "max_request_input_tokens": 69402,
+  "over_context_cap": false
+}

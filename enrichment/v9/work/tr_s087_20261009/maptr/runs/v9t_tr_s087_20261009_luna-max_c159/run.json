@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c159",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T15:17:15",
+  "ended": "2026-10-09T15:20:48",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12219-2738-7c22-b3aa-b6b141aa0406",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 302188,
+    "cached_input_tokens": 251392,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 27626,
+    "reasoning_output_tokens": 6666
+  },
+  "stderr": "2026-10-09T19:20:37.672970Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c159.jsonl:\n{\"id\":\"89:23/q01/p2\",\"position\":\"Cehennem insanlara görünür kılınır ya da açığa çıkarılır.\",\"reasons\":\"Zeccâc, Zemahşerî, Beyzâvî, Nesefî, Ebû Hayyân, Bikāî ve diğerleri 26:91 ya da 79:36'yla karşılaştırır. Cüşemî'nin aktardığı Ebû Müslim ile Ebû Ali, Cehennem'in yeni yaratılmadığını, zaten orada olduğunu söyler. Râzî'nin kelâmcıları, yerinden ayrılmadığını ve inkârcının varacağı yeri gördüğünü söyler. Tabrisî, açığa çıkarılmasının hem cezayı mümkün kıldığını hem de dehşetini gösterdiğini belirtir. İbn Âşûr bunu bir kralın gelişine benzetir ve kapılarının açılması için 39:71'e atıfta bulunur; Cehennem'in sürüklenmesine ilişkin olağanüstü haberi de kabul eder. Tabâtabâî görünür kılınmasını tercih eder ve perdenin kaldırılması için 50:22'ye atıfta bulunur; Elmalılı, artık bu manzaranın inkâr ya da savuşturma imkânı kalmadığını söyler. Corpus Coranicum 79:36'ya atıfta bulunur.\"}\n",
+  "prompt_sha256": "8ea22b3a535b68430ce80da1559a2e678b4738b46462fb206aa3cd5e4925b0fe",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T15-17-16-01a12219-2738-7c22-b3aa-b6b141aa0406.jsonl",
+  "usd_equivalent": 0.021407,
+  "requests": 10,
+  "max_request_input_tokens": 55157,
+  "over_context_cap": false
+}

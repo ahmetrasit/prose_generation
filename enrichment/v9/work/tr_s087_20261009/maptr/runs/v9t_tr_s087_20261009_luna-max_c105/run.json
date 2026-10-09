@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c105",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T14:58:39",
+  "ended": "2026-10-09T15:03:09",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12208-2096-7e01-bc46-023dde600d58",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 385226,
+    "cached_input_tokens": 321792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38131,
+    "reasoning_output_tokens": 12981
+  },
+  "stderr": "2026-10-09T19:02:53.066412Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c105.jsonl:\n{\"id\":\"26:197/q17/p2\",\"position\":\"Tercüme, Arapça Kur’an kıraatinin yerini tutamaz.\",\"reasons\":\"Islahi, tercüme edilmiş hiçbir ayet veya surenin Kur’an olmadığını söyler; çok iyi bir mütercim bile onun bütün anlamını ve fesahatini aktaramaz. Dillerinin ortadan kalktığı yerlerde tercümelerin özgün kutsal metinlerin yerini aldığını söyler ve Saint Paul’ün tercümeleri değiştirdiğini ileri sürer. Aksi yöndeki çıkarımın temelsiz ve sonuçlarının ağır olduğunu belirtir.\"}\n",
+  "prompt_sha256": "76d050f7e8edc2c72f502ad8a8aa46af6981902852691c8da8ada794718f6a09",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T14-58-40-01a12208-2096-7e01-bc46-023dde600d58.jsonl",
+  "usd_equivalent": 0.028627,
+  "requests": 11,
+  "max_request_input_tokens": 66760,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c077",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T14:49:39",
+  "ended": "2026-10-09T14:57:56",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a121ff-e26f-7e23-aea7-75a8a0e16930",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 1618259,
+    "cached_input_tokens": 1518080,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 66437,
+    "reasoning_output_tokens": 21637
+  },
+  "stderr": "2026-10-09T18:54:12.763821Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c077.jsonl:\n{\"id\":\"18:24/q11\",\"question\":\"How is the final yāʾ of “Yehdiyanî” read?\",\"turns_on\":\"Kurrâ, vasıl and vakıf hâllerinde farklı okur.\",\"positions\":[{\"id\":\"18:24/q11/p1\",\"position\":\"Nâfi ve Ebû Amr vasıl hâlinde yâ harfini korur, vakıfta düşürür.\",\"reasons\":\"İbn Mücâhid onların vasıl biçimini kaydeder; İbnü'l-Cevzî vakıf biçimini belirtir. Qiraat-ER vakıfta sakin nûn bulunduğunu not eder. Nesefî, benzer birinci tekil şahıs biçimlerinin Mekkî, Ebû Amr ve Medine kıraatlerindeki kullanımını karşılaştırır.\"},{\"id\":\"18:24/q11/p2\",\"position\":\"İbn Kesîr yâ harfini hem vasıl hem vakıf hâlinde korur.\",\"reasons\":\"Ebû Ali el-Fârisî bunu kıyas bakımından asli biçim sayar ve 18:39, 18:40, 18:64 ve 18:66'yı karşılaştırır.\"},{\"id\":\"18:24/q11/p3\",\"position\":\"İbn Âmir, Âsım, Hamza ve Kisâî yâ harfini hem vasıl hem vakıf hâlinde düşürür.\",\"reasons\":\"Fârisî, 11:105'i göstererek kafiye dışındaki biçimlerde bile harfin düşürüldüğünü karşılaştırır.\"}]}\n2026-10-09T18:54:59.863560Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c077.jsonl:\n{\"id\":\"18:23/q19\",\"question\":\"“Allah dilerse” demek yemini nasıl etkiler?\",\"turns_on\":\"İstisnanın yemin edilirken mi eklendiği, yoksa yemin bağlayıcı hâle geldikten sonra mı söylendiği.\",\"positions\":[{\"id\":\"18:23/q19/p1\",\"position\":\"İstisna, yemin bozulduğunda kefaret gerekmesini önleyebilir.\",\"reasons\":\"Mâverdî bu fıkhî sonucu verir; İbn Kesîr'deki Süleyman hadisi, böyle demiş olsaydı yeminini bozmayacağını ve dileğine kavuşacağını bildirir. Tabersî'nin İbn Abbas rivayeti kaydı, bozulmuş yeminden kaçınmaya bağlar.\"},{\"id\":\"18:23/q19/p2\",\"position\":\"Sonradan söylenen bir istisnanın önceden bağlayıcı olmuş yemine etkisi, ayrıca ele alınması gereken ve çözüme bağlanmamış bir fıkıh sorusudur.\",\"reasons\":\"Tabâtabâî, sünyâyı istisna olarak tanımlar, ilgili rivayetlerin kesin bir yemine işaret ettiğini belirtir ve hukukî sonuçlarını fıkha bırakır.\"}]}\n",
+  "prompt_sha256": "33f0dcb9a58ac8e051f7e62a921675ec84ff344fd69fc846e3326eca1874f911",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T14-49-40-01a121ff-e26f-7e23-aea7-75a8a0e16930.jsonl",
+  "usd_equivalent": 0.058417,
+  "requests": 26,
+  "max_request_input_tokens": 95297,
+  "over_context_cap": false
+}

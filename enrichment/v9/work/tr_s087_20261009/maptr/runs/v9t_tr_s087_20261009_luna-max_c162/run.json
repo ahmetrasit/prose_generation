@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c162",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T15:17:56",
+  "ended": "2026-10-09T15:21:57",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12219-c85d-7740-95db-e8499b7e9d72",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 434308,
+    "cached_input_tokens": 373760,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 35022,
+    "reasoning_output_tokens": 7296
+  },
+  "stderr": "2026-10-09T19:21:22.403216Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c162.jsonl:\n{\"id\":\"92:20/q15/p1\",\"position\":\"Ebû Bekir, tevhid inancı yüzünden zulüm gördükten sonra Bilâl'i satın alıp özgürlüğüne kavuşturdu; müşrikler de önceden yapılmış bir iyilikten ya da borçtan söz ettiler.\",\"reasons\":\"İbn Abbas, Bilâl'in putları kirletmesini, ardından işkence görmesini, Peygamber'in kurtarılacağına dair söz verip Ebû Bekir'e haber vermesini, onun altınla satın alınmasını ve müşriklerin suçlamasını aktarır; Râzî, köle sahibinin Abdullah ibn Cüdân, onu satın alanların ise develer karşılığında müşrikler olduğunu belirtir. Kurtubî, Bilâl'in ‘Bir, Bir’ diye haykırdığını aktarır. İbn Atıyye, Kureyş'in suçlamasından söz eder. Study Quran putlar, şehadet ve kurtarılma anlatısını tekrarlar.\"}\n",
+  "prompt_sha256": "e7e60d9b062fd51b585be4e2d6aa20f2ca83b27bdd60f77cf69e6fdbb06640ab",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T15-17-57-01a12219-c85d-7740-95db-e8499b7e9d72.jsonl",
+  "usd_equivalent": 0.027303,
+  "requests": 12,
+  "max_request_input_tokens": 63360,
+  "over_context_cap": false
+}

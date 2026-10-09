@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s087_20261009_luna-max_c155",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T15:15:32",
+  "ended": "2026-10-09T15:21:00",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12217-9391-71b3-b045-55f054343de8",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 432959,
+    "cached_input_tokens": 372736,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34529,
+    "reasoning_output_tokens": 6699
+  },
+  "stderr": "2026-10-09T19:20:00.447604Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/out/luna-max/c155.jsonl:\n{\"id\":\"81:10/q02\",\"question\":\"Nushirat tomarların başına ne geldiğini anlatır?\",\"turns_on\":\"Neşrin, hesap için dürülü kayıtları açmak mı yoksa onları alıcılara dağıtıp uçurmak mı olduğu.\",\"positions\":[{\"id\":\"81:10/q02/p1\",\"position\":\"Ölümde dürülen kayıtlar, sahiplerinin okumaları ve yargılanmaları için Diriliş Günü açılır.\",\"reasons\":\"Katâde, doldurulmuş ya da dikte edilmiş kaydın dürülüp sonra açıldığını söyler; Mukātil, İbn Cüreyc, Mâverdî, Kurtubî ve başkaları dürülmeyi ölümde, açılmayı diriliş ya da hesap sırasında konumlandırır. Ferrâ ve Begavî, 74:52’deki yayılmış sayfalarla karşılaştırır; İbn Âşûr neşri, yazıyı okumak için tomarın dürümlerini açmak olarak tanımlar ve 74:52 ile 17:13’ü karşılaştırır. Mâverdî ve Kurtubî, her sahibin içeriği görmesi için 18:49’a atıfta bulunur. Dahhâk, herkesin kaydı sağ ya da sol eline alacağını söyler; Mukātil ve Zeccâc da amellere karşılık gelen eli ya da koruyucu melekleri anar. Bikāî, mutluların kayıtlarını önlerinde sağ elleriyle, bedbahtların ise sırtlarının ardından sol elleriyle alacağını söyler. Kur’an Yolu, bütün iyi ve kötü amellerin hatırlanıp yargılanacağını ekler ve 69:19–28, 17:13–14 ile 18:49’a atıfta bulunur.\"},{\"id\":\"81:10/q02/p2\",\"position\":\"Sayfalar karşılıklarına göre sağa ya da sola dağıtılır veya alıcılarına uçar.\",\"reasons\":\"Beyzâvî ve Nesefî dağıtılma yorumunu alternatif olarak aktarır. İbn Atıyye, sayfaların karşılığa göre sağa ve sola uçtuğunu aktarır; Ebû Hayyân bunları amel tomarlarından farklı sayar. Keşşâf, Kurtubî ve Âlûsî’deki Mersed rivayeti, bunların Arş’ın altından uçtuğunu söyler; mümin, yüce bir cennetin sayfasını, rivayetin daha geniş biçimlerinde ise inkârcı kavurucu rüzgâr ve kaynar suyun sayfasını alır.\"}]}\n",
+  "prompt_sha256": "00acc5ca7114a1999d3022587b1f50efd6c6dc7037bba39aeff25bf1e3d1d4cb",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T15-15-32-01a12217-9391-71b3-b045-55f054343de8.jsonl",
+  "usd_equivalent": 0.027014,
+  "requests": 12,
+  "max_request_input_tokens": 63599,
+  "over_context_cap": false
+}
