@@ -1,0 +1,216 @@
+- 41:26: cited ¶13; nowhere else - the noise sense of ¶11 is staged by ¶13 itself in the next section
+- 56:25: cited ¶16; ref ¶7 - with 56:26: the bad word named beside lağv and the selam replacing it
+- 78:35: cited ¶7; nowhere else - named as setting inside the prose for 78:38 (¶4) and 78:36 (¶10)
+- 5:83: ref ¶3 - hearing the revelation turns into recognising the truth
+- 7:43: ref ¶3, ¶16 - rancour removed from breasts (refrain with 15:47); hamd said in the garden (refrain with 35:34, 39:74)
+- 7:204: ref ¶13 - command to listen and be silent, exact opposite of "do not listen, make noise"
+- 9:6: ref ¶13 - protection until he hears Allah's word: the word made to reach the ear
+- 10:10: ref ¶16 - their greeting there is selam (refrain with 14:23)
+- 10:42: ref ¶3 - listening without hearing, the deaf (with 43:40)
+- 13:24: ref ¶16 - angels' "selam size" (refrain with 16:32, 39:73)
+- 14:23: ref ¶16 - their greeting there is selam
+- 15:47: ref ¶3 - rancour removed: source of wounding speech absent
+- 16:32: ref ¶16 - angels' selam on entering the garden
+- 19:62: cited ¶16; ref ¶7 - the replacing word after the plural verb
+- 20:13: not relevant - Musa told to listen to revelation; no link to the garden's ear or lağv
+- 20:108: cited ¶4; nowhere else - fully used by ¶4
+- 21:100: ref ¶4 - the fire's dwellers hear nothing: total, not selective, silence
+- 21:102: prose ¶11, ref ¶7 - garden dwellers do not hear the fire's sound: a non-verbal sound kept from the ear; same plural verb
+- 23:3: cited ¶14; nowhere else - explained in ¶14
+- 24:12: ref ¶15 - refrain with 24:16: response when slander is heard
+- 25:72: cited ¶15; nowhere else - explained in ¶15
+- 25:75: prose ¶16 - the same servants of the Rahman are met in the garden with greeting and selam
+- 27:80: ref ¶3 - refrain with 30:52: the dead and deaf cannot be made to hear
+- 28:55: cited ¶15; nowhere else - explained in ¶15
+- 30:52: ref ¶3 - refrain with 27:80
+- 35:22: ref ¶3 - those in graves cannot be made to hear; making hear belongs to Allah
+- 35:34: ref ¶16 - hamd spoken in the garden
+- 35:35: ref ¶1 - no fatigue touches them there: garden described by absence (with 15:48)
+- 36:58: ref ¶16 - selam as a word from the merciful Lord
+- 37:8: not relevant - devils barred from listening to the high assembly; no link to the garden's hearing
+- 37:50: ref ¶17 - refrain with 52:25: turning to one another after the cup
+- 39:73: ref ¶16 - keepers' "selam size"
+- 39:74: ref ¶16 - hamd spoken in the garden
+- 41:4: ref ¶14 - turning away that ends in not hearing, opposite of turning from lağv
+- 46:26: ref ¶3 - hearing that availed nothing
+- 46:30: ref ¶13 - jinn report "we heard" (with 72:1)
+- 50:42: ref ¶4 - with 50:41: the caller's call and the shout heard that day
+- 52:23: cited ¶17; ref ¶5 - lâ lağvun: masdar after negation removing the kind
+- 52:25: ref ¶17 - conversation after the cup
+- 56:26: cited ¶16; ref ¶7 - with 56:25
+- 63:4: not relevant - the hypocrites' speech is listened to; the ayah itself does not link it to lağv or the garden
+- 67:7: ref ¶11 - roar heard from the fire (with 25:12)
+- 67:10: ref ¶3 - hearing paired with reasoning
+- 72:1: ref ¶13 - jinn listen and say "we heard a wondrous Quran"
+- 72:13: ref ¶3 - hearing guidance turns into faith
+- 36:55: not relevant - garden occupation and joy; no link to hearing
+- 37:42: not relevant - fruits and honour
+- 41:32: not relevant - hospitality from the Forgiving; no link to hearing or speech
+- 56:12: not relevant - gardens of bliss named only
+- 77:43: ref ¶10 - refrain "eat and drink for what you did": reward tied to effort
+- 78:24: not relevant - the transgressors taste no coolness; no link to hearing
+- 2:225: cited ¶9; nowhere else - explained in ¶9
+- 43:71: not relevant - cups and delights; nothing about speech
+- 44:55: not relevant - fruits in safety
+- 44:56: not relevant - no death there; not a sensory absence of the kind ¶1 describes
+- 52:18: not relevant - rejoicing and protection
+- 55:66: not relevant - gushing springs
+- 56:15: not relevant - couches
+- 56:34: not relevant - raised furnishings
+- 56:89: not relevant - rest and bliss
+- 69:24: ref ¶10 - refrain "eat and drink for what you sent ahead"
+- 76:13: ref ¶1 - neither sun nor cold seen there: garden described by absence for the eye
+- 76:21: not relevant - garments and pure drink; no link to speech or the ear
+- 77:35: ref ¶4 - the day they do not speak
+- 77:42: not relevant - fruits
+- 78:34: cited ¶17; nowhere else - used in ¶17
+- 83:22: not relevant - the righteous in bliss
+- 83:26: not relevant - sealed drink of musk; no link to speech
+- 87:13: not relevant - neither dies nor lives in the fire
+- 101:7: ref ¶10 - with 101:6: heavy scales, a pleasing (râdiye) life
+- 2:181: not relevant - altering a bequest after hearing it
+- 4:5: not relevant - kind words to the foolish; no link to lağv
+- 5:89: cited ¶9; nowhere else - used in ¶9
+- 6:115: not relevant - Allah's words complete; no link
+- 7:200: not relevant - refuge from Satan's prompting; no link to lağv in the ayah itself
+- 11:106: not relevant - sighs of the wretched; no link to the listener's ear
+- 12:31: not relevant - hearing of the women's scheme
+- 15:48: ref ¶1 - no fatigue there (with 35:35)
+- 16:65: not relevant - a sign for people who hear
+- 18:108: not relevant - no wish to leave the garden
+- 19:38: not relevant - sharp hearing on the Day; no link to the paragraphs' claims
+- 20:46: not relevant - Allah hears and sees with Musa and Harun
+- 20:107: ref ¶4 - with 20:105-106: the eye's emptiness before the whisper scene
+- 20:118: ref ¶1 - with 20:119: garden told by absences of hunger, nakedness, thirst, sun
+- 20:119: ref ¶1 - with 20:118
+- 21:60: not relevant - "we heard a youth mention them"
+- 25:12: ref ¶11 - raging and roaring heard from the fire
+- 26:15: not relevant - Allah listening with Musa
+- 26:72: not relevant - idols cannot hear
+- 26:210: not relevant - devils did not bring it down
+- 26:212: not relevant - devils barred from hearing
+- 36:25: not relevant - "hear me"
+- 37:47: ref ¶17 - with 37:45-46: cup with no ghawl and no loss of mind
+- 37:92: not relevant - idols do not speak
+- 38:7: not relevant - "we never heard of this"
+- 41:20: not relevant - hearing testifies against them
+- 41:36: not relevant - refuge from Satan's prompting
+- 43:40: ref ¶3 - with 10:42: making the deaf hear
+- 52:38: not relevant - a ladder to eavesdrop
+- 58:1: not relevant - Allah heard the pleading woman
+- 67:23: not relevant - hearing given as a blessing; no link to the paragraphs' claims
+- 69:22: prose ¶1 - same phrase "fî cennetin âliye" opening with a fruit, here with an absent word
+- 4:140: ref ¶15 - not sitting with those whose mockery is heard
+- 18:3: not relevant - abiding forever
+- 19:98: prose ¶6, ref ¶4 - trace search by the ear with tesmeu; another silence
+- 26:25: not relevant - Pharaoh's "do you not hear"
+- 37:46: ref ¶17 - with 37:45, 37:47
+- 50:35: not relevant - whatever they wish
+- 50:41: ref ¶4 - with 50:42
+- 75:16: not relevant - not moving the tongue in haste
+- 76:11: not relevant - radiance and joy; no link to hearing
+- 77:31: not relevant - no shade in the fire
+- 2:223: not relevant - neighbouring rule on wives
+- 2:224: not relevant - oaths as an obstacle; adds nothing to the lağv of oaths
+- 2:226: not relevant - ila'
+- 2:227: not relevant - divorce
+- 5:87: not relevant - do not forbid good things
+- 5:88: not relevant - eat lawful provision
+- 5:90: ref ¶17 - with 5:91: wine as Satan's work
+- 5:91: ref ¶17 - wine sowing enmity and barring from remembrance and prayer
+- 19:60: not relevant - repentance and entry
+- 19:61: ref ¶16 - pointed to by ¶16 without citing: Adn gardens promised in the unseen
+- 19:63: not relevant - garden inherited by the God-fearing
+- 19:64: not relevant - angels descend only by command
+- 20:106: ref ¶4 - with 20:105, 20:107
+- 20:109: ref ¶4 - only the word He approves avails that day
+- 20:110: not relevant - His knowledge encompasses
+- 23:0: not relevant - basmala
+- 23:1: ref ¶14 - pointed to by ¶14: the successful believers
+- 23:4: not relevant - zakat
+- 23:5: not relevant - guarding chastity
+- 25:61: not relevant - constellations
+- 25:62: not relevant - night and day
+- 25:64: not relevant - night prayer
+- 25:65: not relevant - plea against hell
+- 25:70: not relevant - repentance
+- 25:71: not relevant - repentance
+- 25:73: prose ¶15, ref ¶13 - the same servants are not deaf to the reminder: the ear turns from lağv only
+- 25:74: not relevant - prayer for spouses and offspring
+- 28:52: ref ¶15 - with 28:53: pointed to by ¶15 without citing
+- 28:53: ref ¶15 - with 28:52
+- 28:56: not relevant - guidance belongs to Allah
+- 28:57: not relevant - fear of being snatched away
+- 41:24: not relevant - fire their abode
+- 41:25: ref ¶13 - pointed to by ¶13: the companions who adorned their deeds
+- 41:28: not relevant - repeats the punishment of 41:27
+- 41:29: not relevant - request to see those who misled them
+- 52:21: ref ¶10 - nothing of their deeds diminished
+- 52:22: not relevant - fruit and meat
+- 52:24: not relevant - youths circulating
+- 56:0: not relevant - basmala
+- 56:1: ref ¶6 - pointed to by ¶6: the event whose coming none belies
+- 56:3: not relevant - abasing and exalting; not the negated form
+- 56:4: not relevant - the earth shaken
+- 56:17: ref ¶17 - with 56:18: pointed to by ¶17
+- 56:18: ref ¶17 - with 56:17
+- 56:20: not relevant - fruit
+- 56:21: not relevant - fowl meat
+- 56:23: not relevant - hidden pearls
+- 56:24: ref ¶10 - reward for deeds, right before the lağv ayah
+- 56:27: not relevant - companions of the right
+- 56:28: not relevant - thornless lote
+- 69:6: ref ¶6 - with 69:7: pointed to by ¶6
+- 69:7: ref ¶6 - with 69:6
+- 69:9: not relevant - Pharaoh and the overturned cities
+- 69:10: not relevant - their seizing
+- 78:32: not relevant - gardens and vines
+- 78:33: not relevant - companions
+- 78:36: prose ¶10 - reward "by reckoning" right after the absence of lağv
+- 78:37: context ¶4 (in 78:38) - named inside the prose for 78:38
+- 69:23 own: context ¶1 (in 69:22) - quoted inside the prose for 69:22
+- 3:186 own: prose ¶3 - the Quran uses the same verb for hearing hurt
+- 2:285 own: ref ¶3 - "we heard and obeyed"
+- 8:21 own: ref ¶3 - said "we heard" while not hearing
+- 7:179 own: ref ¶3 - ears with which they do not hear
+- 20:102 own: ref ¶4 - pointed to by ¶4: the trumpet and the gathering
+- 20:105 own: ref ¶4 - pointed to by ¶4: mountains scattered
+- 78:38 own: prose ¶4 - the day none speaks except the permitted, right after the garden without lağv
+- 21:103 own: ref ¶4 - the greatest terror does not grieve them
+- 53:57 own: ref ¶6 - with 53:58
+- 53:58 own: ref ¶6 - "leyse lehâ ... kâşife": the same negated singular feminine form
+- 67:3 own: ref ¶6 - with 67:4: the eye searching and finding no rift
+- 67:4 own: ref ¶6 - with 67:3
+- 75:22 own: ref ¶2 - with 75:23: faces as subject of a perception
+- 75:23 own: ref ¶2 - with 75:22
+- 76:20 own: ref ¶2 - second-person perceiver in the garden
+- 2:197 own: ref ¶5 - indefinite nouns after negation removing kinds of bad speech
+- 18:103 own: ref ¶10 - with 18:104-105
+- 18:104 own: ref ¶10 - effort lost in worldly life
+- 18:105 own: ref ¶10 - no weight set up for them
+- 101:6 own: ref ¶10 - with 101:7
+- 76:22 own: ref ¶10 - effort appreciated (refrain with 17:19)
+- 17:19 own: ref ¶10 - refrain with 76:22
+- 52:19 own: ref ¶10 - refrain with 69:24, 77:43
+- 21:101 own: context ¶11 (in 21:102) - named inside the prose for 21:102
+- 31:19 own: ref ¶11 - the ugliest of voices
+- 52:11 own: not relevant - woe to the deniers; the link is carried by 52:12
+- 52:12 own: ref ¶12 - those playing while plunging into talk
+- 74:45 own: ref ¶12 - "we used to plunge with the plungers"
+- 46:29 own: prose ¶13 - a group commanding each other "be silent": the reverse of 41:26
+- 31:6 own: ref ¶13 - with 31:7: idle talk bought to mislead
+- 31:7 own: ref ¶13 - turning away as if not hearing
+- 6:68 own: ref ¶14 - command to turn from those plunging into the signs
+- 7:199 own: ref ¶15 - turn away from the ignorant
+- 41:34 own: ref ¶15 - repel with what is better
+- 24:16 own: ref ¶15 - refrain with 24:12
+- 15:46 own: ref ¶16 - refrain with 50:34: enter it with selam
+- 50:34 own: ref ¶16 - refrain with 15:46
+- 33:44 own: ref ¶16 - their greeting on meeting Him is selam
+- 37:45 own: ref ¶17 - with 37:46-47
+- 4:43 own: prose ¶17 - drunkenness defined by not knowing what one says
+- 50:18 own: ref ¶9 - every uttered word has a ready watcher; qualifies, does not contradict
+- 16:91 own: ref ¶9 - oaths not to be broken after confirmation
+- 13:23 own: not relevant - setting of 13:24; the selam itself is in 13:24
+- 25:76 own: not relevant - abiding in the garden
+- 46:31 own: not relevant - jinn call their people to answer; adds nothing beyond 46:29

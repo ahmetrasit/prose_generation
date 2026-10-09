@@ -1,0 +1,104 @@
+## ¶1 · prose · 69:22 · applied
+
+**+** Aynı yer adı Hâkka suresinde de geçer: kitabı sağından verilen kişinin bulunacağı yer orada da {ar:فِى جَنَّةٍ عَالِيَةٍۢ, tr:fî cennetin âliye, gloss:yüksek bir bahçede, source:69:22} diye anılır. Orada bu addan sonra verilen ilk bilgi elin uzanacağı bir şeydir: {ar:قُطُوفُهَا دَانِيَةٌۭ, tr:kutûfuhâ dâniye, gloss:salkımları yakına sarkmıştır, source:69:23}. Aynı adla açılan iki tariften biri orada elin bulacağı bir meyveyle, öteki burada kulağın bulmayacağı bir sözle başlar.
+
+## ¶3 · prose · 3:186 · applied
+
+**+** İşitmenin yaralayan yüzünü Kur'an da bu fiille anar. Âl-i İmrân suresinde müminlere mallarında ve canlarında sınanacakları söylenir ve şu eklenir: {ar:وَلَتَسْمَعُنَّ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ وَمِنَ ٱلَّذِينَ أَشْرَكُوٓا۟ أَذًۭى كَثِيرًۭا, tr:ve le-tesmeunne mine'llezîne ûtû'l-kitâbe min kablikum ve mine'llezîne eşrakû ezen kesîrâ, gloss:sizden önce kitap verilenlerden ve ortak koşanlardan elbette çok eziyet verici söz işiteceksiniz, source:3:186}. Orada işitilen şey bir eziyettir ve ona karşı istenen, sabretmek ve Allah'tan sakınmaktır.
+
+## ¶4 · prose · 78:38 · applied
+
+**+** Nebe suresinde iki sessizlik aynı akış içinde gelir. Takva sahiplerinin orada boş söz ve yalan işitmediği söylendikten {source:78:35} az sonra, göklerin, yerin ve ikisi arasındakilerin Rabbi olan Rahman'a söz yöneltmeye güç yetiremeyecekleri bildirilir {source:78:37} ve o gün şöyle anlatılır: {ar:يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَٰٓئِكَةُ صَفًّۭا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ وَقَالَ صَوَابًۭا, tr:yevme yekûmu'r-rûhu ve'l-melâiketu saffâ, lâ yetekellemûne illâ men ezine lehu'r-Rahmânu ve kâle savâbâ, gloss:Ruh'un ve meleklerin saf saf durduğu gün, Rahman'ın izin verdiği ve doğruyu söyleyen dışında kimse konuşmaz, source:78:38}. Orada da sessizliği Rahman'ın huzuru belirler, ama söz büsbütün kalkmaz: izin verilen kişiye doğru bir söz kalır. Boş sözün işitilmediği bahçenin hemen ardından, söz yalnızca doğruyu söyleyene bırakılır.
+
+## ¶6 · prose · 19:98 · applied
+
+**+** Meryem suresinin son ayeti, önceden yok edilmiş nesiller için aynı arayışı duyuya ve kulağa yöneltir: {ar:وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هَلْ تُحِسُّ مِنْهُم مِّنْ أَحَدٍ أَوْ تَسْمَعُ لَهُمْ رِكْزًۢا, tr:ve kem ehleknâ kablehum min karn, hel tuhıssu minhum min ehadin ev tesmeu lehum rikzâ, gloss:onlardan önce nice nesli yok ettik; onlardan birini sezebiliyor ya da onlardan bir fısıltı işitebiliyor musun, source:19:98}. Orada fiil yine tesmeu'dur, muhataba yönelir ve cevabı olumsuz olan bir soru sorar. Yok edilmiş bir kavimden geriye kalan en hafif ses bile kulağa gelmez.
+
+## ¶10 · prose · 78:36 · applied
+
+**+** Nebe suresinde takva sahiplerinin bahçede boş söz ve yalan işitmediği bildirildikten {source:78:35} hemen sonra, onlara verilen her şeyin adı konur: {ar:جَزَآءًۭ مِّن رَّبِّكَ عَطَآءً حِسَابًۭا, tr:cezâen min rabbike atâen hısâbâ, gloss:Rabbinden bir karşılık, hesapla verilmiş bir bağış, source:78:36}. Boş sözün yokluğunu söyleyen ayetin ardından gelen kelime hesaptır: hesaba girmeyen sözün işitilmediği yerde, verilen nimet bir karşılık olarak ve hesapla verilir.
+
+## ¶11 · prose · 21:102 · applied
+
+**+** Kur'an bahçedekilerin işitmediği bir başka sesi de anar ve bu bir söz değildir. Enbiyâ suresinde, kendileri için Allah katından en güzelin önceden çıktığı kimselerin ateşten uzak tutulduğu söylenir {source:21:101} ve şu eklenir: {ar:لَا يَسْمَعُونَ حَسِيسَهَا ۖ وَهُمْ فِى مَا ٱشْتَهَتْ أَنفُسُهُمْ خَٰلِدُونَ, tr:lâ yesmeûne hasîsehâ ve hum fî me'ştehet enfusuhum hâlidûn, gloss:onun hışırtısını işitmezler; onlar canlarının çektiği şeyler içinde ebedî kalırlar, source:21:102}. Orada işitilmeyen şey ateşin sesidir, hiçbir şey bildirmeyen bir hışırtı. Bahçede kulaktan uzak tutulan, söz kadar böyle bir sestir de.
+
+## ¶13 · prose · 46:29 · applied
+
+**+** Ahkâf suresinde aynı sahnenin tersi anlatılır ve o da bir topluluğun kendi içindeki emridir. Bir grup cin Kur'an'ı dinlemek üzere Peygamber'e yöneltilir: {ar:وَإِذْ صَرَفْنَآ إِلَيْكَ نَفَرًۭا مِّنَ ٱلْجِنِّ يَسْتَمِعُونَ ٱلْقُرْءَانَ فَلَمَّا حَضَرُوهُ قَالُوٓا۟ أَنصِتُوا۟ ۖ فَلَمَّا قُضِىَ وَلَّوْا۟ إِلَىٰ قَوْمِهِم مُّنذِرِينَ, tr:ve iz sarafnâ ileyke neferen mine'l-cinni yestemiûne'l-Kur'ân, fe-lemmâ hadarûhu kâlû ensitû, fe-lemmâ kudıye vellev ilâ kavmihim munzirîn, gloss:hani sana Kur'an'ı dinleyen bir grup cin yöneltmiştik; onun yanına geldiklerinde "susun" dediler; okuma bitince uyarıcılar olarak kavimlerine döndüler, source:46:29}. Fussilet suresindeki inkârcılar birbirlerine dinlememeyi ve gürültü yapmayı emrederken, bu topluluk birbirine susmayı emreder. Gürültünün yerini susmak, dinlememenin yerini dinlemek alır ve işitilen söz kavimlerine kadar taşınır.
+
+## ¶15 · prose · 25:73 · applied
+
+**+** Furkân suresinde boş sözün yanından onurla geçen kulların hemen ardından sayılan niteliği, kulağın neye kapanıp neye açık kaldığını gösterir: {ar:وَٱلَّذِينَ إِذَا ذُكِّرُوا۟ بِـَٔايَٰتِ رَبِّهِمْ لَمْ يَخِرُّوا۟ عَلَيْهَا صُمًّۭا وَعُمْيَانًۭا, tr:vellezîne izâ zukkirû bi-âyâti rabbihim lem yehırrû aleyhâ summen ve umyânâ, gloss:Rablerinin ayetleri kendilerine hatırlatıldığında onların üzerine sağır ve kör olarak kapanmazlar, source:25:73}. Boş sözün yanından geçip giden aynı insanlar, Rablerinin ayetleri hatırlatıldığında sağırlaşmaz. Yüz çevirmeleri bütün sözlere değil, yalnızca boş söze yöneliktir.
+
+## ¶16 · prose · 25:75 · applied
+
+**+** Furkân suresinde boş sözün yanından onurla geçen ve cahillere selam diyen Rahman'ın kullarının anlatımı, varacakları yerle biter: {ar:أُو۟لَٰٓئِكَ يُجْزَوْنَ ٱلْغُرْفَةَ بِمَا صَبَرُوا۟ وَيُلَقَّوْنَ فِيهَا تَحِيَّةًۭ وَسَلَٰمًا, tr:ulâike yuczevne'l-gurfete bimâ saberû ve yulakkavne fîhâ tahiyyeten ve selâmâ, gloss:işte onlar sabretmelerine karşılık yüksek köşkle ödüllendirilir, orada esenlik dileği ve selamla karşılanırlar, source:25:75}. Dünyada selamı söyleyen onlardı; orada selam onlara söylenir. Aynı kulların dünyadaki sözü, varacakları yerde onlara işittirilen söz olur.
+
+## ¶17 · prose · 4:43 · applied
+
+**+** Dünyada içkinin söze ne yaptığını Kur'an bir namaz hükmünde söyler: {ar:يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ, tr:yâ eyyuhe'llezîne âmenû lâ takrabu's-salâte ve entum sukârâ hattâ ta'lemû mâ tekûlûn, gloss:ey iman edenler, sarhoşken ne dediğinizi bilinceye kadar namaza yaklaşmayın, source:4:43}. Yasağın bittiği yer sözle belirlenir: kişinin ne dediğini bilmesiyle. Sarhoşun sözü, söyleyenin kendisinin bile ne dediğini bilmediği sözdür.
+
+## ¶1 · refs · - · applied
+
+**+** Ayrıca: {source:76:13} bahçede ne güneşin ne dondurucu soğuğun görülmesi: gözün karşılaşmayacağı şeyle anlatılan bahçe; {source:15:48} {source:35:35} orada yorgunluğun dokunmaması: bedenin karşılaşmayacağı şeyle anlatılan bahçe; {source:20:118} {source:20:119} Âdem'e bahçede açlık, çıplaklık, susuzluk ve güneş sıcağı olmayacağının söylenmesi: bahçenin önce yokluklarla tarif edilmesi.
+
+## ¶2 · refs · - · applied
+
+**+** Ayrıca: {source:76:20} muhataba "oraya baktığında nimet ve büyük bir mülk görürsün" denmesi: bahçeyi algılayan ikinci tekil kişi; {source:75:22} {source:75:23} o gün parlayan yüzlerin Rablerine bakması: dişil tekil sıfat alan yüzlerin bir duyunun öznesi olması.
+
+## ¶3 · refs · - · applied
+
+**+** Ayrıca: {source:2:285} "işittik ve itaat ettik": işitmenin itaatle tamamlanması; {source:8:21} "işittik" deyip işitmeyenler: kulağa ulaşan sesin işitme sayılmaması; {source:7:179} kulakları olup da onlarla işitmeyenler: anlamaya varmayan işitme; {source:46:26} verilen kulağın ayetleri inkâr edenlere hiçbir yarar sağlamaması: boşa giden işitme; {source:67:10} ateştekilerin "işitseydik ya da akletseydik" demesi: işitmenin akılla yan yana anılması; {source:27:80} {source:30:52} ölülere ve dönüp giden sağırlara çağrının işittirilememesi: sesin anlayışa ulaşmaması; {source:10:42} {source:43:40} "sağırlara sen mi işittireceksin": dinleyip de işitmeyenler; {source:35:22} kabirdekilere işittirmenin elde olmaması ve işittirmenin Allah'a ait olması; {source:5:83} indirileni işitince gözlerin yaşla dolması: hakkı tanımaya varan işitme; {source:72:13} cinlerin hidayeti işitince iman etmesi: imana dönüşen işitme; {source:7:43} {source:15:47} göğüslerdeki kinin söküp alınması: incitici sözün kaynağının bahçede kalmaması.
+
+## ¶4 · refs · - · applied
+
+**+** Ayrıca: {source:20:102} Sur'a üfürülüp suçluların toplandığı gün: fısıltı sahnesinin başlangıcı; {source:20:105} {source:20:106} {source:20:107} dağların savrulup yerin, eğrilik ve tümsek görülmeyen dümdüz bir düzlüğe dönmesi: kulağın sessizliğinden hemen önce gözün boşluğu; {source:20:109} o gün yalnızca Rahman'ın izin verdiği ve sözünden razı olduğu kişinin şefaatinin fayda vermesi: kısılan seslerin ardından kalan söz; {source:77:35} konuşamadıkları gün: o günün dili bağlayan sessizliği; {source:50:41} {source:50:42} çağırıcının yakın bir yerden seslendiği ve hak ile gelen çığlığın işitildiği gün: o günün kulağa gelen sesi; {source:21:100} ateştekilerin orada inleyip hiçbir şey işitmemesi: seçici değil, büsbütün kapanmış bir kulak; {source:21:103} en büyük korkunun onları üzmemesi ve meleklerin onları karşılaması: o günün korkusunun dışında tutulanlar; {source:19:98} yok edilmiş nesillerden bir fısıltı bile işitilmemesi: aynı fiille anlatılan bir başka sessizlik.
+
+## ¶5 · refs · - · applied
+
+**+** Ayrıca: {source:52:23} kadehte "lâ lağvun": olumsuzluğun ardından mastarın gelip boş sözü türüyle kaldırması; {source:2:197} hacda "lâ rafese ve lâ fusûka ve lâ cidâle": olumsuzluktan sonra gelen belirsiz adların kötü sözün türlerini bütünüyle kaldırması.
+
+## ¶6 · refs · - · applied
+
+**+** Ayrıca: {source:69:6} {source:69:7} Ad kavminin azgın bir rüzgârla yedi gece sekiz gün boyunca yere serilmesi: kalıntısı sorulan kavmin yok edilişi; {source:56:1} vâkıanın vuku bulması: gelişini yalanlayacak hiçbir şey olmayan olay; {source:53:57} {source:53:58} yaklaşan saati Allah'tan başka açacak hiçbir şeyin olmaması: olumsuzluğun ardından gelen aynı tekil dişil biçim; {source:67:3} {source:67:4} gözün tekrar tekrar arayıp bir çatlak bulamadan yorgun dönmesi: arayıp bulamayan duyu.
+
+## ¶7 · refs · - · applied
+
+**+** Ayrıca: {source:19:62} boş sözün yerine işitilen selam: çoğul fiilin ardından yerine gelen söz; {source:56:25} {source:56:26} boş sözün yanında günaha sokan sözün anılması ve yerine selamın gelmesi: çoğul fiilin aldığı iki ek; {source:21:102} bahçedekilerin ateşin hışırtısını işitmemesi: bahçenin aynı çoğul fiille anlatılan başka bir sessizliği.
+
+## ¶9 · refs · - · applied
+
+**+** Ayrıca: {source:16:91} pekiştirildikten sonra bozulmaması istenen yeminler: kalbin düğümlediği yeminin bağlayıcılığı; {source:50:18} ağızdan çıkan her sözün yanında hazır bir gözcünün bulunması: sorumlu tutulmayan söz de gözcünün önünde söylenir.
+
+## ¶10 · refs · - · applied
+
+**+** Ayrıca: {source:17:19} {source:76:22} çabalarının şükranla karşılanması: karşılıksız kalmayan çaba; {source:18:103} {source:18:104} {source:18:105} dünyada çabası yitip gidenlere kıyamet günü tartı kurulmaması: hesaba girmeyen emeğin karşıtı; {source:101:6} {source:101:7} tartıları ağır gelenin hoşnut bir hayatta oluşu: ağırlığı sayılan amel ve râdiye; {source:52:21} amellerinden hiçbir şeyin eksiltilmemesi: hesaptan düşmeyen emek; {source:56:24} boş sözün işitilmediğini söyleyen ayetten hemen önce: yaptıklarına karşılık verilen bahçe; {source:52:19} {source:69:24} {source:77:43} "yaptıklarınıza karşılık afiyetle yiyin için": bahçedeki nimetin çabaya bağlanması.
+
+## ¶11 · refs · - · applied
+
+**+** Ayrıca: {source:67:7} {source:25:12} ateşten işitilen hırıltı, öfke ve uğultu: bahçede kulağa gelmeyen, hiçbir şey söylemeyen sesin öbür yurttaki karşılığı; {source:31:19} seslerin en çirkininin eşek sesi olması: hiçbir şey bildirmeden kulağı rahatsız eden ses.
+
+## ¶12 · refs · - · applied
+
+**+** Ayrıca: {source:74:45} ateştekilerin "dalanlarla birlikte dalardık" demesi: topluluk içinde dilden düşürülmeyen boş konuşma; {source:52:12} konuşmaya dalıp oyalananlar: oyuna dönüşen, bırakılmayan söz.
+
+## ¶13 · refs · - · applied
+
+**+** Ayrıca: {source:41:25} inkârcılara verilen ve önlerindekini, arkalarındakini süslü gösteren yakın arkadaşlar: gürültü emrinin verildiği sahne; {source:7:204} Kur'an okunduğunda dinleyip susma emri: "dinlemeyin, gürültü yapın" emrinin tam karşıtı; {source:46:30} {source:72:1} cinlerin "biz işittik" diyerek dinlediklerini kavimlerine anlatması: susturulmak istenen sözün kulağa ulaşması; {source:9:6} aman dileyen müşrikin Allah'ın sözünü işitinceye kadar korunması: sözün kulağa ulaştırılması; {source:31:6} {source:31:7} Allah'ın yolundan saptırmak için satın alınan oyalayıcı söz ve ayetler okununca hiç işitmemiş gibi dönüp gitmek: sözün üstünü örten başka bir söz; {source:25:73} ayetler hatırlatıldığında onlara sağır ve kör kapanmamak: hatırlatmanın ulaştığı kulak.
+
+## ¶14 · refs · - · applied
+
+**+** Ayrıca: {source:23:1} kurtuluşa eren müminler: sayılan niteliklerin başı; {source:6:68} ayetlere dalanları görünce onlardan yüz çevirme emri: boş söz karşısında yüz çevirmek; {source:41:4} çoğunun yüz çevirip işitmemesi: müjde ve uyarıdan yüz çevirmek, boş sözden yüz çevirmenin karşıtı.
+
+## ¶15 · refs · - · applied
+
+**+** Ayrıca: {source:28:52} {source:28:53} daha önce kitap verilip Kur'an okununca "ona inandık" diyenler: boş sözden yüz çevirenlerin kim olduğu; {source:24:12} {source:24:16} "onu işittiğinizde": iftiraya hüsnüzanla ve "bunu konuşmak bize yakışmaz" sözüyle karşılık, kulağa ulaşan çirkin söze dille verilen cevap; {source:4:140} Allah'ın ayetlerinin inkâr edilip alaya alındığını işitince başka bir söze geçinceye kadar onlarla oturmamak: işitilen söze karşı uzaklaşma; {source:7:199} cahillerden yüz çevirme emri: "cahilleri istemeyiz" tavrı; {source:41:34} kötülüğü en güzel olanla savma: boş söze selamla karşılık.
+
+## ¶16 · refs · - · applied
+
+**+** Ayrıca: {source:19:61} Rahman'ın kullarına gaipte vaat ettiği Adn bahçeleri: selamın işitildiği yer; {source:10:10} {source:14:23} "orada esenlik dilekleri selamdır": bahçedekilerin birbirine söylediği söz; {source:33:44} Rablerine kavuştukları gün esenlik dileklerinin selam oluşu; {source:13:24} {source:16:32} {source:39:73} meleklerin ve bahçenin bekçilerinin onlara "selam size" demesi: bahçeye girerken işitilen selam; {source:15:46} {source:50:34} "oraya selamla girin": bahçeye selamla girilmesi; {source:36:58} merhametli Rab'den söz olarak selam: bahçede işitilen selamın Rab'den gelmesi; {source:7:43} {source:35:34} {source:39:74} bahçedekilerin "hamd Allah'a" demesi: orada selamın yanında söylenen söz.
+
+## ¶17 · refs · - · applied
+
+**+** Ayrıca: {source:56:17} {source:56:18} ölümsüz gençlerin kadehler, ibrikler ve akan pınardan bir kadehle dolaşması: başı ağrıtmayan kadehin sunuluşu; {source:37:45} {source:37:46} {source:37:47} akan pınardan, içenlere lezzet veren bembeyaz kadehte ne gavl bulunması ne akılların gitmesi: boş sözsüz kadehle aynı tarif; {source:37:50} {source:52:25} kadehin ardından birbirlerine dönüp sormaları: dili boşa değil karşılıklı konuşmaya açan meclis; {source:5:90} {source:5:91} içkinin şeytanın işinden bir pislik olup aralarına düşmanlık ve kin sokması, Allah'ı anmaktan ve namazdan alıkoyması: dünyada içkinin getirdikleri.
+
