@@ -126,3 +126,5 @@ Next, in order: when `codex_run.py` exits (log ends, no `codex exec` processes),
 for both tier-1 runs; then stage 2 for S103 (pages 103:2–3) and S96 (`map.py build` per surah, then `update-all`),
 Sol at the user's cap; then stage 3, stage 4 (`surah.py pages/agents`), stage 5; commit and push after each stage.
 
+Parallel task (user, 2026-10-09): complete the Bible enrichment workflow (`enrichment/bible/`) and run it on S103,
+using Hebrew/Semitic root and cognate evidence, anchored to the frozen paragraphs. It is independent of this pathway.
