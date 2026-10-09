@@ -70,6 +70,8 @@ API-equivalent (tier 1 about $0.16 plus the quotation packet about $0.09); Codex
 python3 -B enrichment/v7/digest.py build t1_s002-003_20261009 --surahs 2 3 --models gpt-6-luna:max --skip-done luna-max --quotes
 ```
 
+- **Never twice:** while another tier-1 run is built but not finished, add `--skip-planned <that run>` (see
+  `enrichment/v9/RUNBOOK.md`, "Several surahs at once").
 - Scope options: `--surahs 2 3 …` (every ayah of those surahs), `--ayat S:A …`, or `--page PATH --ayah A` (a frozen
   page: its own ayah and every verse it cites). Name runs `t1_<scope>_<date>`.
 - The build takes about 25 seconds plus 0.35 seconds per verse for the quotation search; it prints every window it
