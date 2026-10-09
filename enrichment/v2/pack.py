@@ -222,8 +222,9 @@ def source_meta(con) -> dict[str, dict]:
 
 def meals_md(con, metas: dict, ref: str) -> str:
     s, a = (int(x) for x in ref.split(":"))
+    npanel = sum(1 for m in metas.values() if m.get("panel"))
     lines = [f"# {ref} — translations", "",
-             "Panel meals first (16; `lineage` marks shared lineage, counted as one witness for consensus), then the "
+             f"Panel meals first ({npanel}; `lineage` marks shared lineage, counted as one witness for consensus), then the "
              "relay pair (Asad's English and the Turkish Esed made from it) and Arberry as a literal English control, "
              "then the reference set. Brackets and parentheses are as published. A merged verse group shows its range.",
              ""]
