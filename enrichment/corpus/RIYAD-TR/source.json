@@ -1,0 +1,50 @@
+{
+  "id": "RIYAD-TR",
+  "title": "Riyâzüs-Sâlihîn (Turkish translation, DİB)",
+  "author": "al-Nawawī (tr. M. Emin Özafşar, Bünyamin Erul)",
+  "death_ah": 676,
+  "kind": "hadith",
+  "tradition": "sunni-hadith",
+  "language": "tr",
+  "relay": "RIYAD",
+  "locator": "page",
+  "coverage": "3 volumes, all pages with a readable text layer",
+  "edition": "Riyâzüs-Sâlihîn, Diyanet İşleri Başkanlığı Yayınları, Ankara 2015 (3 cilt), tr. Prof. Dr. M. Emin Özafşar and Prof. Dr. Bünyamin Erul; foreword Mehmet Görmez; replaces the Hasan Hüsnü Erdem / Kıvamüddin Burslan translation. Scan uploaded to archive.org by 'Lami Aydın' (2024-07-30).",
+  "urls": [
+    "https://archive.org/details/riyazussalihincild-2"
+  ],
+  "licence": "copyrighted DİB publication; third-party upload on archive.org, no licence stated; local research copy only, not redistributed (segments git-ignored)",
+  "notes": "OCR (Tesseract -l Arabic+tur) is partial: garbled on framed/Arabic pages, most hadith numbers lost; chapter titles are DİB's own regrouping, not al-Nawawī's; verses are in footnotes («Hûd, 11/3»), their translations from the Diyanet meal. Use for Turkish search, not for exact alignment.",
+  "acquisition": {
+    "date": "2026-10-09",
+    "state": "raw_downloaded",
+    "ingestion_status": "ingested",
+    "files": 3,
+    "source": "archive.org"
+  },
+  "access": "yerel",
+  "segments": 1055,
+  "ingestion": {
+    "date": "2026-10-09",
+    "script": "enrichment/v2/fetch/import_riyad_tr.py",
+    "from": {
+      "raw/acquired-2026-10-09/cild1_djvu.txt": "6585fbe9f75788dc4529a318670e53c891760ea4bd3d1f6e0b9a0dcdb5832d51",
+      "raw/acquired-2026-10-09/cild2_djvu.txt": "03d49f7558753da35efac9803f1fbda387ebfd5062a373ae33df4df7abb19c3f",
+      "raw/acquired-2026-10-09/cild3_djvu.txt": "63b7fcf7b6bd1d6acdb7b838f6b5788aa64140e4858fc3e8de3deef2464526fb"
+    },
+    "method": "archive.org OCR text layer split at the page footers",
+    "page_segments": 1055,
+    "hadith_numbers_readable": 297,
+    "of": 1896,
+    "rejected_verse_like_refs": [
+      "Duha, 93/95",
+      "Nasr, 110/35"
+    ],
+    "empty_pages": 133,
+    "quality": "partial OCR (see notes); not aligned to RIYAD hadith numbers except where the number is readable",
+    "segments": 1055,
+    "tied_to_ayah": 0,
+    "with_cited_ayat": 52,
+    "characters": 413013
+  }
+}
