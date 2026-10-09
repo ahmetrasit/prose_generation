@@ -49,11 +49,15 @@ def meal_ids(ayah):
 
 
 def profile(ep):
+    """A gloss's error profile. With a fit: fit and every bit. Without one (fit none/None): only what the gloss loses,
+    adds or collides with (a "preserves" note alone says nothing a meal judgement needs)."""
     ep = ep or {}
-    if ep.get('fit') in (None, 'none'):
+    fit = ep.get('fit') if ep.get('fit') not in (None, 'none') else ''
+    keys = ('preserves', 'loses', 'adds', 'collision') if fit else ('loses', 'adds', 'collision')
+    bits = [f"{k}: {ep[k]}" for k in keys if ep.get(k) not in (None, '', 'None')]
+    if not fit and not bits:
         return ''
-    bits = [f"{k}: {ep[k]}" for k in ('preserves', 'loses', 'adds', 'collision') if ep.get(k) not in (None, '', 'None')]
-    return f" [{ep['fit']}] " + '; '.join(bits)
+    return (f" [{fit}] " if fit else ' ') + '; '.join(bits)
 
 
 def dictionary_text(ayah):
@@ -136,7 +140,12 @@ def check(a):
     if not f.exists():
         print(f'{f.name}: no output file')
         sys.exit(1)
-    qs = subprocess.run([sys.executable, '-B', str(V9 / 'q.py'), 'index', man['ayah']], capture_output=True, text=True).stdout
+    import q as Q
+    qs_, _ = Q.load(man['ayah'])
+    if qs_ is None:
+        print(f"{man['ayah']}: no verse map; positions cannot be checked")
+        sys.exit(1)
+    pids = {x['id'] for q in qs_ for x in q['positions']}
     problems, n = [], 0
     for i, line in enumerate(f.read_text().splitlines(), 1):
         if not line.strip():
@@ -146,8 +155,21 @@ def check(a):
         except ValueError as e:
             problems.append(f'line {i}: not JSON ({e})')
             continue
+        if not isinstance(b, dict):
+            problems.append(f'line {i}: not a JSON object')
+            continue
         n += 1
-        if b.get('p') not in man['paragraphs']:
+        for k in ('meals', 'positions'):
+            if not isinstance(b.get(k), list) or not b[k] or not all(isinstance(x, str) for x in b[k]):
+                problems.append(f'line {i}: "{k}" must be a non-empty list of ids')
+                b[k] = [x for x in b[k] if isinstance(x, str)] if isinstance(b.get(k), list) else []
+        for k in ('topic', 'text'):
+            if not isinstance(b.get(k), str):
+                problems.append(f'line {i}: "{k}" must be text')
+                b[k] = ''
+        if not (b.get('topic') or '').strip():
+            problems.append(f'line {i}: missing "topic"')
+        if type(b.get('p')) is not int or b.get('p') not in man['paragraphs']:
             problems.append(f"line {i}: paragraph {b.get('p')} is not a paragraph of the page")
         if re.search(r'\d+:\d+/q\d+', b.get('text') or ''):
             problems.append(f'line {i}: ids in the text; ids go only in the "positions" field')
@@ -157,10 +179,12 @@ def check(a):
             if m not in man['meals']:
                 problems.append(f'line {i}: {m} has no rendering of {man["ayah"]}')
         for q in b.get('positions') or []:
-            if q.split('/p')[0] + ' ' not in qs:
-                problems.append(f'line {i}: {q} is not in the map of {man["ayah"]}')
+            if q not in pids:
+                problems.append(f'line {i}: position {q} is not in the map of {man["ayah"]}')
     if not n:
         problems.append('no block')
+    if n > 2:
+        problems.append(f'{n} blocks; two at most')
     for x in problems:
         print(x)
     print('OK' if not problems else f'{len(problems)} problem(s)')

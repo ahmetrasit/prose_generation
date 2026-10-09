@@ -10,7 +10,8 @@
                                      position each note sits in; default all mapped verses; 25 per page
 
 Maps: enrichment/v9/work/*/map/out/sol-high/<k>.jsonl (the newest when a verse was mapped twice). Output stays under
-24,000 bytes; a cut is marked.
+24,000 bytes by leaving out whole items (a question, a note, a verse's index, a search hit), never part of one: the
+first item is always printed whole, and every item left out is named so it can be asked for alone.
 """
 import argparse
 import json
@@ -26,7 +27,7 @@ import digest  # noqa: E402
 TAG = 'sol-high'
 MAX_BYTES = 24_000
 PAGE = 25
-_DROP = {ord(c): None for c in digest._ARABIC_DROP}
+_DROP = {ord(c): None for c in set(digest._ARABIC_DROP) | {'ـ', 'ء'}}   # as digest.normalize_map
 _MAP = str.maketrans(digest._ARABIC_MAP)
 
 
@@ -83,15 +84,21 @@ def mapped():
                   key=lambda k: tuple(map(int, k.split('-'))))
 
 
-def out(lines):
-    text, size = [], 0
-    for ln in lines:
-        n = len(ln.encode()) + 1
-        if size + n > MAX_BYTES:
-            text.append('[cut: output limit; ask for fewer items]')
-            break
-        text.append(ln)
+def out(items, head=()):
+    """items: (name, lines) pairs. Whole items are printed while they fit under MAX_BYTES (the first one always, whatever
+    its size); the names of the items left out are listed at the end."""
+    text = list(head)
+    size = sum(len(x.encode()) + 1 for x in text)
+    left = []
+    for name, lines in items:
+        n = sum(len(x.encode()) + 1 for x in lines)
+        if left or (size + n > MAX_BYTES and len(text) > len(head)):
+            left.append(name)
+            continue
+        text += lines
         size += n
+    if left:
+        text.append(f'[output limit: {len(left)} item(s) not shown; ask for them alone: {" ".join(left)}]')
     print('\n'.join(text))
 
 
@@ -105,29 +112,31 @@ def holders(ids, rows, mark=''):
 
 
 def cmd_index(a):
-    lines = []
+    items = []
     for v in a.verses:
         qs, rows = load(v)
         if qs is None:
-            lines.append(f'# {v}: NO MAP')
+            items.append((v, [f'# {v}: NO MAP']))
             continue
-        lines.append(f'# {v}: {len(qs)} questions, {len(rows)} notes')
+        lines = [f'# {v}: {len(qs)} questions, {len(rows)} notes']
         for q in qs:
             n = len({r for p in q['positions'] for r in p['rows'] + (p.get('against') or [])})
             lines.append(f"{q['id']} {q['question']} [{' '.join(q['words'])} · {q['type']}] "
                          f"{len(q['positions'])} positions, {n} notes")
-    out(lines)
+        items.append((v, lines))
+    out(items)
 
 
 def cmd_question(a):
-    lines = []
+    items = []
     for qid in a.qids:
         v = qid.split('/')[0]
         qs, rows = load(v)
         q = next((x for x in qs or [] if x['id'] == qid), None)
         if q is None:
-            lines.append(f'# {qid}: not found')
+            items.append((qid, [f'# {qid}: not found' + ('' if qs else f' ({v} has no map)')]))
             continue
+        lines = []
         lines.append(f"# {q['id']} {q['question']} [{' '.join(q['words'])} · {q['type']}]")
         if q.get('turns_on'):
             lines.append(f"turns on: {q['turns_on']}")
@@ -147,11 +156,12 @@ def cmd_question(a):
                 legend[r['src']] = f"{r['author']}" + (f", d. {r['death']}" if r['death'] else '')
         lines.append('sources: ' + '; '.join(f'{s} = {n}' for s, n in sorted(legend.items())))
         lines.append('')
-    out(lines)
+        items.append((qid, lines))
+    out(items)
 
 
 def cmd_notes(a):
-    lines, cache = [], {}
+    items, cache = [], {}
     for i in a.ids:
         x = None
         for v in mapped():
@@ -161,21 +171,26 @@ def cmd_notes(a):
                 x = cache[v][i]
                 break
         if x is None:
-            lines.append(f'[{i}] not found')
+            items.append((i, [f'[{i}] not found']))
             continue
-        lines.append(f"[{i}] {x['src']} ({x['author']}" + (f", d. {x['death']}" if x['death'] else '') + f") · "
-                     f"{x['speaker']} · {x['stance']} · {x['claim']} «{x.get('anchor') or ''}»")
-    out(lines)
+        items.append((i, [f"[{i}] {x['src']} ({x['author']}" + (f", d. {x['death']}" if x['death'] else '') + f") · "
+                          f"{x['speaker']} · {x['stance']} · {x['claim']} «{x.get('anchor') or ''}»"]))
+    out(items)
 
 
 def cmd_find(a):
-    rx = re.compile(plain(a.regex), re.I)
+    try:
+        rx = re.compile(plain(a.regex), re.I)
+    except re.error as e:
+        print(f'invalid regular expression {a.regex!r}: {e}')
+        sys.exit(1)
     verses = [v.replace(':', '-') for v in a.verse] if a.verse else mapped()
-    hits = []
+    hits, nomap = [], []
     for k in verses:
         v = k.replace('-', ':')
         qs, rows = load(v)
         if qs is None:
+            nomap.append(v)
             continue
         where = defaultdict(list)
         for q in qs:
@@ -185,16 +200,18 @@ def cmd_find(a):
         for i, x in rows.items():
             if rx.search(plain(x['claim'])) or rx.search(plain(x.get('anchor') or '')):
                 hits.append((v, i, x, where.get(i, [])))
-    lines = [f'{len(hits)} notes match' + (f' on {", ".join(a.verse)}' if a.verse else ' on all mapped verses')
-             + f'; page {a.page} of {max(1, -(-len(hits) // PAGE))}']
+    pages = max(1, -(-len(hits) // PAGE))
+    head = [f'{len(hits)} notes match' + (f' on {", ".join(a.verse)}' if a.verse else ' on all mapped verses')
+            + f'; page {a.page} of {pages}' + (' (no such page)' if a.page > pages else '')]
+    head += [f'# {v}: NO MAP (not searched)' for v in nomap]
     if not a.verse:
         per = defaultdict(int)
         for h in hits:
             per[h[0]] += 1
-        lines.append('per verse: ' + ', '.join(f'{v} {n}' for v, n in per.items()))
-    for v, i, x, w in hits[(a.page - 1) * PAGE:a.page * PAGE]:
-        lines.append(f"[{i}] {v} {x['src']} · {x['speaker']} · {x['stance']} · {x['claim']} «{x.get('anchor') or ''}» → {' '.join(w)}")
-    out(lines)
+        head.append('per verse: ' + ', '.join(f'{v} {n}' for v, n in per.items()))
+    items = [(i, [f"[{i}] {v} {x['src']} · {x['speaker']} · {x['stance']} · {x['claim']} «{x.get('anchor') or ''}» → {' '.join(w)}"])
+             for v, i, x, w in hits[(a.page - 1) * PAGE:a.page * PAGE]]
+    out(items, head)   # a hit left out is named: read it with q.py notes
 
 
 def main():

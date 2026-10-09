@@ -60,6 +60,9 @@ def plan(a):
     date = a.date or time.strftime('%Y%m%d')
     pages = pages_of(a.surah)
     if a.pages:
+        for k in a.pages:
+            if k not in pages:
+                print(f'WARNING {k}: not a page with one base reading; left out')
         pages = {k: v for k, v in pages.items() if k in a.pages}
     verses, paras = set(), 0
     for ayah, path in pages.items():
@@ -108,10 +111,21 @@ def agent_line(run, stage):
                     f"names, inside `{out}`. When done, reply with one line.")
 
 
-def ran(header):
-    import digest  # noqa: F401  (v7, via writer)
+def ran(header, run, stage):
+    """True when the agent has a transcript (so it is never spawned twice). A transcript that is not completed (still
+    running, or interrupted) or whose output fails the check is printed as a WARNING: resume that same agent, do not
+    spawn a new one."""
     agent = header.split()[2]
-    return writer.digest.claude_usage(agent) is not None
+    u = writer.digest.claude_usage(agent)
+    if u is None:
+        return False
+    if not u['completed']:
+        print(f'WARNING {run} {stage}: transcript not completed (still running, or interrupted: resume the same agent); not listed')
+        return True
+    ok, last = check_run('writer.py' if stage == 'write' else 'meal.py', run)
+    if not ok:
+        print(f'WARNING {run} {stage}: finished but the check fails ({last}); resume the same agent; not listed')
+    return True
 
 
 def agents(a):
@@ -124,7 +138,7 @@ def agents(a):
                 out += [f'## {ayah} {stage}: NOT BUILT (run `surah.py pages {a.surah}`)', '']
                 continue
             header, text = agent_line(run, stage)
-            if ran(header):
+            if ran(header, run, stage):
                 continue
             n += 1
             out += [f'## {ayah} {stage}', '```', text, '```', '']
@@ -134,7 +148,7 @@ def agents(a):
 
 def check_run(script, run):
     r = subprocess.run([sys.executable, '-B', str(V9 / script), 'check', run], capture_output=True, text=True, cwd=ROOT)
-    return r.returncode == 0, (r.stdout.strip().splitlines() or [''])[-1]
+    return r.returncode == 0, ((r.stdout + r.stderr).strip().splitlines() or ['no output'])[-1]
 
 
 def status(a):
@@ -145,12 +159,13 @@ def status(a):
     print(f"maps: {len(p['verses']) - len(missing)} of {len(p['verses'])} verses mapped" + (f"; missing {' '.join(missing[:20])}{' …' if len(missing) > 20 else ''}" if missing else ''))
     import maptr
     stale = 0
-    for v in p['verses']:
+    same = {k.replace('-', ':') for k in Q.mapped() if k.split('-')[0] == str(a.surah)}
+    for v in sorted(set(p['verses']) | same, key=lambda x: tuple(map(int, x.split(':')))):
         qs, _ = Q.load(v)
         if qs:
             tr = Q.translation(v)
             stale += sum(1 for q in qs if tr.get(q['id'], {}).get('src') != maptr.qhash(q))
-    print(f'map questions without a current Turkish rendering: {stale}')
+    print(f'map questions without a current Turkish rendering (cited verses and every mapped verse of S{a.surah}): {stale}')
     for ayah in p['pages']:
         cells = []
         for run, stage, script in ((p['runs']['writer'][ayah], 'write', 'writer.py'), (p['runs']['meal'][ayah], 'meal', 'meal.py')):
@@ -165,6 +180,13 @@ def status(a):
 def finish(a):
     p = load(a.surah)
     d = pdir(a.surah)
+    with contextlib.redirect_stdout(io.StringIO()) as buf:
+        now = pages_of(a.surah)
+    for x in buf.getvalue().splitlines():
+        print(x)
+    for k in now:
+        if k not in p['pages']:
+            print(f'WARNING {k}: has a base reading but is not in the plan; not rendered')
     bad = []
     for ayah in p['pages']:
         w, m = p['runs']['writer'][ayah], p['runs']['meal'][ayah]
@@ -179,6 +201,12 @@ def finish(a):
             print((r.stdout + r.stderr).strip())
             if r.returncode:
                 bad.append(f'{ayah}: {cmd[0]} failed')
+                break
+        else:
+            h = d / f"{ayah.replace(':', '_')}.html"
+            n = h.read_text().count('çevirisi yok') if h.exists() else 0
+            if n:
+                print(f'WARNING {ayah}: {n} map question(s) shown in English only (no current Turkish rendering)')
     for x in bad:
         print(f'WARNING {x}')
     print(f"{len(p['pages']) - len(bad)} of {len(p['pages'])} pages rendered into {d.relative_to(ROOT)}")

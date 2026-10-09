@@ -31,7 +31,6 @@ for runs in map(Path, sys.argv[1:]):
         if not done:
             open_.append(f'{d.name}: no turn ending in stream.jsonl (interrupted)')
             continue
-        spawn = runs.parent / 'spawn' / (d.name.split('_luna-max_')[-1] if '_luna-max_' in d.name else '')
         spawn = next((s for s in (runs.parent / 'spawn').glob('*.md') if HEADER.match(s.read_text()) and
                       HEADER.match(s.read_text()).group(1).endswith('/' + d.name)), None)
         agent, model, effort = HEADER.match(spawn.read_text()).groups() if spawn else (d.name, '?', '?')
@@ -45,7 +44,7 @@ for runs in map(Path, sys.argv[1:]):
                'charge_note': 'Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates. '
                               'run.json written by recover_run_json.py: the runner was stopped while the agent ran.'}
         f = next((p for base in (Path.home() / '.codex/sessions', Path('/Volumes/aro/codex_sessions_archive'))
-                  for p in base.glob(f'2026/*/*/*{thread}.jsonl')), None) if thread else None
+                  for p in base.glob(f'*/*/*/*{thread}.jsonl')), None) if thread else None
         if f:
             s = account.session(f, '')
             rec.update(session_file=str(f), usd_equivalent=s['usd'], requests=s['requests'],

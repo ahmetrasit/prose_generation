@@ -54,17 +54,22 @@ def main():
     if a.meal:
         md = V9 / 'work' / a.meal / 'meal'
         mm = json.loads((md / 'manifest.json').read_text())
+        if (mm.get('ayah'), mm.get('page')) != (man['ayah'], man['page']):
+            raise SystemExit(f"--meal {a.meal} is for {mm.get('ayah')} ({mm.get('page')}), not {man['ayah']} ({man['page']})")
         for i, l in enumerate((md / 'out' / mm['tag'] / 'blocks.jsonl').read_text().splitlines(), 1):
             if l.strip():
                 meals.append({**json.loads(l), 'id': f'm{i:02d}'})
     text, paras, _, _ = writer.write7.page(man['page'], man['ayah'])
     last = max(paras)
-    after = {p: [] for p in paras}
+    after, close = {p: [] for p in paras}, []
     for b in blocks:
-        p = last if b['kind'] == 'closing' else min(b['p'])
-        after[p].append(block_md(b, b['kind']))
+        if b['kind'] == 'closing':
+            close.append(block_md(b, b['kind']))
+        else:
+            after[min(b['p'])].append(block_md(b, b['kind']))
     for b in meals:
         after[b['p']].append(block_md(b, 'meal'))
+    after[last] += close                           # the closing group follows the last paragraph's meal blocks
     out = text
     for p in sorted(paras, reverse=True):          # insert from the end so earlier offsets stay valid
         hi = paras[p][1]
@@ -76,14 +81,21 @@ def main():
     r = d.parent / 'render'
     (r / 'maps').mkdir(parents=True, exist_ok=True)
     cited = {x.split('/')[0] for b in blocks + meals for x in (b.get('questions') or []) + (b.get('positions') or [])}
+    missing = []
     for v in sorted(cited):
         loc = Q.located(v)
-        if loc:
+        if loc and loc[0].with_suffix('.md').exists():
             shutil.copy(loc[0].with_suffix('.md'), r / 'maps' / f"{v.replace(':', '-')}.md")
+        else:
+            missing.append(v)
+    for v in missing:
+        print(f'WARNING {v}: cited by a block but no assembled map (.md) found; its link is dead')
     f = r / f"{Path(man['page']).stem}.enriched.md"
     f.write_text(out)
     n = len(blocks) + len(meals)
-    print(f'{f.relative_to(writer.ROOT)}: {n} blocks ({len(meals)} meal), {len(cited)} verse maps, strip check OK')
+    print(f'{f.relative_to(writer.ROOT)}: {n} blocks ({len(meals)} meal), {len(cited) - len(missing)} of {len(cited)} verse maps, strip check OK')
+    if missing:
+        sys.exit(1)
 
 
 if __name__ == '__main__':

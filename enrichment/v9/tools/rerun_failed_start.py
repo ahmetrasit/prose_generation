@@ -11,7 +11,11 @@ for runs in map(Path, sys.argv[1:]):
     dest = runs.with_name(runs.name + '_failed_start')
     n = 0
     for f in sorted(runs.glob('*/run.json')):
-        r = json.loads(f.read_text())
+        try:
+            r = json.loads(f.read_text())
+        except ValueError:
+            print(f'WARNING {f}: unreadable run.json (being written, or corrupt); left alone')
+            continue
         if (r.get('returncode') or not r.get('turn_completed')) and not r.get('commands'):
             dest.mkdir(exist_ok=True)
             target, k = dest / f.parent.name, 1
