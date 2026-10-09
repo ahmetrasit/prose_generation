@@ -313,7 +313,7 @@ def update(a):
     built = 0
     for p in man['ayat']:
         ayah, k = p['ayah'], key(p['ayah'])
-        if a.ayat and ayah not in a.ayat:
+        if p.get('superseded_by') or (a.ayat and ayah not in a.ayat):
             continue
         old = json.loads((m / 'rows' / f'{k}.json').read_text())
         rs = merge.tier1_rows(None, man['from'], ayah, quiet=True)
