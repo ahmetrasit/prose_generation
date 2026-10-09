@@ -75,6 +75,8 @@ section.appendix h2{margin-top:.5rem}
 .qa ol{margin:.2rem 0 0;padding-left:1.3rem;font:.86rem/1.5 var(--sans)}
 .qa li{margin:.35rem 0}
 .qa .why{color:var(--muted)}
+.qa details.orig{margin-top:.4rem;font:.8rem/1.45 var(--sans);color:var(--muted)}
+.qa details.orig summary{cursor:pointer}
 .qa .who{font-size:.78rem;color:var(--muted);overflow-wrap:anywhere}
 @media (prefers-reduced-motion: no-preference){ details.b[open] .body{animation:fade .18s ease-out} @keyframes fade{from{opacity:.4}to{opacity:1}} }
 """
@@ -116,12 +118,25 @@ def block_html(b, kind):
             f'<div class="body">{esc_ar(b["text"])}<div class="meta">{" · ".join(meta)}</div></div></details>')
 
 
+_TR = {}
+
+
 def question_html(qid):
+    """The question in Turkish when its rendering is current (made from this English), with the English original
+    one click away; otherwise in English."""
     v = qid.split('/')[0]
     qs, rows = Q.load(v)
     q = next((x for x in qs or [] if x['id'] == qid), None)
     if q is None:
         return ''
+    if v not in _TR:
+        import maptr
+        _TR[v] = {k: t for k, t in Q.translation(v).items()}
+        _TR[v]['__hash'] = maptr.qhash
+    t = _TR[v].get(qid)
+    if t and t['src'] != _TR[v]['__hash'](q):
+        t = None  # stale: the map changed after translation
+    eng = q
     legend = {r['src']: r['author'] for r in rows.values()}
     items = []
     for p in q['positions']:
@@ -132,14 +147,24 @@ def question_html(qid):
                 by[rows[r]['src']].add('+' if r in pro else '')
         who = '; '.join(legend.get(s, s) + ('+' if '+' in m else '') for s, m in by.items())
         against = '; '.join(sorted({legend.get(rows[r]['src'], rows[r]['src']) for r in con if r in rows}))
-        items.append(f'<li>{esc_ar(p["position"])}'
-                     + (f' <span class="why">— {esc_ar(p["reasons"])}</span>' if p.get('reasons') else '')
+        tp = (t or {}).get('positions', {}).get(p['id'], {})
+        pos_txt, why_txt = (tp.get('position') or p['position']), (tp.get('reasons') if t else p.get('reasons'))
+        items.append(f'<li>{esc_ar(pos_txt)}'
+                     + (f' <span class="why">— {esc_ar(why_txt)}</span>' if why_txt else '')
                      + f'<div class="who">{len(p["rows"])} not: {html.escape(who)}'
                      + (f' · karşı: {html.escape(against)}' if against else '') + '</div></li>')
-    return (f'<div class="qa" id="{anchor(qid)}"><div class="qid">{html.escape(qid)} · {html.escape(q["type"])}</div>'
-            f'<h3>{esc_ar(q["question"])}</h3>'
-            + (f'<div class="turn">Ayrılık noktası: {esc_ar(q["turns_on"])}</div>' if q.get('turns_on') else '')
-            + f'<ol>{"".join(items)}</ol></div>')
+    qtext = t['question'] if t else q['question']
+    turn = (t or {}).get('turns_on') if t else q.get('turns_on')
+    orig = ''
+    if t:
+        lines = ''.join(f'<li>{esc_ar(p["position"])}' + (f' — {esc_ar(p["reasons"])}' if p.get('reasons') else '') + '</li>' for p in eng['positions'])
+        orig = (f'<details class="orig"><summary>İngilizce aslı</summary><p>{esc_ar(eng["question"])}</p>'
+                + (f'<p>Turns on: {esc_ar(eng["turns_on"])}</p>' if eng.get('turns_on') else '') + f'<ol>{lines}</ol></details>')
+    return (f'<div class="qa" id="{anchor(qid)}"><div class="qid">{html.escape(qid)} · {html.escape(q["type"])}'
+            + ('' if t else ' · İngilizce (çevirisi yok)') + '</div>'
+            f'<h3>{esc_ar(qtext)}</h3>'
+            + (f'<div class="turn">Ayrılık noktası: {esc_ar(turn)}</div>' if turn else '')
+            + f'<ol>{"".join(items)}</ol>{orig}</div>')
 
 
 def main():

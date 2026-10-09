@@ -273,7 +273,7 @@ def normalize_map(text):
 
 QUOTE_KINDS_ONE = ('ulum', 'wujuh', 'modern', 'reference', 'grammar', 'tafsir', 'tafsir_tr', 'maani', 'nazm', 'isari', 'qiraat')
 QUOTE_KINDS_THREE = ('hadith', 'sira', 'poetry')
-QUOTE_MAX_HITS = 40          # a window found in more segments than this is too common to mean a quotation
+QUOTE_MAX_HITS = 40          # a 1-2 word window in more segments than this is too common alone: its 3-word windows are used
 
 
 def quote_packet(ayat):
@@ -304,14 +304,20 @@ def quote_packet(ayat):
                 w = ' '.join(words[i:i + n])
                 if grams[w] == {(s, a)} and (n > 1 or len(w) >= 4):
                     windows.append((n, w))
-        # keep the shortest unique windows only (a longer window containing a unique shorter one adds nothing)
-        windows = [(n, w) for n, w in windows if not any(m < n and v in w for m, v in windows)]
+        # Shortest windows first. A longer window is used only when no shorter window inside it was used; a short
+        # window too common to mean a quotation is never dropped outright: the longer windows that contain it are
+        # tried instead (user, 2026-10-09: nothing dropped). A three-word window has no cap.
+        windows.sort(key=lambda x: x[0])
         print(f"quotes {s}:{a}: {len(windows)} unique window(s): " + ' | '.join(w for _, w in windows))
+        used = []
         for n, w in windows:
-            hits = [x for x in norm if f' {w} ' in x[5] and (n >= 3 or x[2] in QUOTE_KINDS_ONE)]
-            if len(hits) > QUOTE_MAX_HITS:
-                print(f"NOTE quotes {s}:{a}: window «{w}» in {len(hits)} segments, too common to mean a quotation; not used")
+            if any(m < n and v in w for m, v in used):
                 continue
+            hits = [x for x in norm if f' {w} ' in x[5] and (n >= 3 or x[2] in QUOTE_KINDS_ONE)]
+            if n < 3 and len(hits) > QUOTE_MAX_HITS:
+                print(f"NOTE quotes {s}:{a}: window «{w}» in {len(hits)} segments, too common alone; the longer windows that contain it are used instead")
+                continue
+            used.append((n, w))
             print(f"quotes {s}:{a}: «{w}» in {len(hits)} segment(s): " + ', '.join(h[0] for h in hits[:12])
                   + (' …' if len(hits) > 12 else ''))
             for loc, sr, kind, head, text, _ in hits:

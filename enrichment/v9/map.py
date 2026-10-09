@@ -12,6 +12,7 @@ A verse is never split: one agent reads all of its notes.
   map.py report RUN                           cost, questions, positions, notes per verse and model
   map.py update RUN --model gpt-6-sol:high     notes added to tier 1 since mapping: one agent per verse places them
                                               in the existing map (ids stay); briefs/map-update.md
+  map.py update-all --model gpt-6-sol:high [--ayat …]   update in every map run (the run that holds each verse's map)
   map.py refresh-rows RUN                     add fields missing from saved notes (anchor), same note ids only
 
 Files (RUN = enrichment/v9/work/RUN/map): rows/<k>.json (notes by id), rows/<k>.pK.txt (input parts), spawn/,
@@ -93,7 +94,11 @@ def build(a):
     (m / 'rows').mkdir(parents=True, exist_ok=True)
     (m / 'spawn').mkdir(exist_ok=True)
     plan = []
+    import q as Q
     for ayah in a.ayat:
+        if Q.located(ayah):
+            print(f'SKIPPED {ayah}: already mapped ({Q.located(ayah)[0].relative_to(V9)}); new notes go through update-all')
+            continue
         rs = merge.tier1_rows(None, a.from_tags, ayah)
         if not rs:
             print(f'NOTE {ayah}: no tier-1 notes ({", ".join(a.from_tags)}); no map')
@@ -335,6 +340,14 @@ def update(a):
     print(f'{built} update(s) built')
 
 
+def update_all(a):
+    """update for every map run (each verse is updated in the run that holds its map)."""
+    for man in sorted((V9 / 'work').glob('*/map/manifest.json')):
+        run = man.parents[1].name
+        print(f'== {run}')
+        update(argparse.Namespace(run=run, model=a.model, ayat=a.ayat))
+
+
 def check(a):
     m = mdir(a.run)
     man = json.loads((m / 'manifest.json').read_text())
@@ -402,10 +415,11 @@ def main():
     p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--ayah')
     p = sub.add_parser('report'); p.add_argument('run')
     p = sub.add_parser('refresh-rows'); p.add_argument('run')
+    p = sub.add_parser('update-all'); p.add_argument('--model', required=True); p.add_argument('--ayat', nargs='+')
     p = sub.add_parser('update'); p.add_argument('run'); p.add_argument('--model', required=True, help='e.g. gpt-6-sol:high')
     p.add_argument('--ayat', nargs='+', help='only these verses')
     a = parser.parse_args()
-    {'build': build, 'check': check, 'report': report, 'refresh-rows': refresh_rows, 'update': update}[a.cmd](a)
+    {'build': build, 'check': check, 'report': report, 'refresh-rows': refresh_rows, 'update': update, 'update-all': update_all}[a.cmd](a)
 
 
 if __name__ == '__main__':

@@ -55,6 +55,29 @@ def load(ayah):
     return [json.loads(l) for l in loc[0].read_text().splitlines() if l.strip()], json.loads(loc[1].read_text())
 
 
+def translation(ayah):
+    """qid -> Turkish rendering of the verse map's questions (newest translation run wins per question):
+    {'src': hash of the English it was made from, 'question', 'turns_on', 'positions': {pid: {'position', 'reasons'}}}."""
+    out = {}
+    for man in sorted((V9 / 'work').glob('*/maptr/manifest.json'), key=lambda f: f.stat().st_mtime):
+        m = json.loads(man.read_text())
+        src = {q: h for c in m['chunks'] for q, h in c['src'].items() if q.split('/')[0] == ayah}
+        if not src:
+            continue
+        for f in (man.parent / 'out' / m['tag']).glob('c*.jsonl'):
+            for line in f.read_text().splitlines():
+                if not line.strip():
+                    continue
+                try:
+                    t = json.loads(line)
+                except ValueError:
+                    continue
+                if t.get('id') in src:
+                    out[t['id']] = {'src': src[t['id']], 'question': t.get('question', ''), 'turns_on': t.get('turns_on', ''),
+                                    'positions': {p['id']: p for p in t.get('positions') or [] if p.get('id')}}
+    return out
+
+
 def mapped():
     return sorted({f.stem for f in (V9 / 'work').glob(f'*/map/out/{TAG}/*.jsonl') if '.' not in f.stem},
                   key=lambda k: tuple(map(int, k.split('-'))))
