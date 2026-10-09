@@ -14,7 +14,7 @@
   "urls": [
     "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Ömer Öngüt\")"
   ],
-  "fetched_at": "2026-10-03",
+  "fetched_at": "2026-10-09",
   "files": {},
   "lineage": null,
   "relay": null,
@@ -22,12 +22,27 @@
   "panel": false,
   "host_label": "mealler.org \"Ömer Öngüt\"",
   "cross_witnesses": [],
-  "notes": "1 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (6235/6236); re-run `fetch_meal.py fetch --sources MEAL-ONGUT` then `build` to resume.",
+  "notes": "1 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (6235/6236): the host itself lacks the ayat listed in ingestion.missing (its pages re-fetched live on 2026-10-09 are still empty or without a row).",
   "raw_shared": [
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
   "notes_parts": {
     "static": "",
-    "build": "1 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (6235/6236); re-run `fetch_meal.py fetch --sources MEAL-ONGUT` then `build` to resume."
+    "build": "1 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (6235/6236): the host itself lacks the ayat listed in ingestion.missing (its pages re-fetched live on 2026-10-09 are still empty or without a row)."
+  },
+  "ingestion": {
+    "date": "2026-10-09",
+    "script": "enrichment/v2/fetch/fetch_meal.py",
+    "method": "per-ayah host pages (cached raw), verse rows cut per ayah",
+    "missing": [
+      {
+        "ayah": "17:71",
+        "reason": "the host page has no row for this ayah",
+        "checked": [
+          "mealler.org \"Ömer Öngüt\"",
+          "the host page, re-fetched live 2026-10-09: still without a row"
+        ]
+      }
+    ]
   }
 }

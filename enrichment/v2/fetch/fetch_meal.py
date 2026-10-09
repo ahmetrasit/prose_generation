@@ -211,6 +211,9 @@ def edition_for(src):
     return ed
 
 
+LIVE_CHECKED_2026_10_09 = {'MEAL-ERDOGDU', 'MEAL-MOZDEMIR', 'MEAL-SATIRALTI', 'MEAL-COBAN', 'MEAL-EROGLU', 'MEAL-ONGUT'}
+
+
 def build_one(src, today):
     sid = src['id']
     w = src['primary']
@@ -298,7 +301,10 @@ def build_one(src, today):
         build_notes.append(f'{withnotes} segments carry footnotes in "notes"' + (f' ({trunc} truncated by the host, flagged notes_truncated)' if trunc else '') + '.')
     if info['missing']:
         build_notes.append(f'{len(info["missing"])} ayat empty on the host: ' + ', '.join(f'{s}:{a}' for s, a in info['missing'][:15]) + ('...' if len(info['missing']) > 15 else ''))
-    if len(cov) < TOTAL_AYAT:
+    if len(cov) < TOTAL_AYAT and sid in LIVE_CHECKED_2026_10_09:
+        build_notes.append(f'Coverage incomplete ({len(cov)}/{TOTAL_AYAT}): the host itself lacks the ayat listed in ingestion.missing '
+                           '(its pages re-fetched live on 2026-10-09 are still empty or without a row).')
+    elif len(cov) < TOTAL_AYAT:
         build_notes.append(f'Coverage incomplete ({len(cov)}/{TOTAL_AYAT}); re-run `fetch_meal.py fetch --sources {sid}` then `build` to resume.')
     lic_host = 'kd' if h == 'kdtefsir' else h
     obj = {
@@ -324,6 +330,19 @@ def build_one(src, today):
     obj['notes'] = compose_notes(obj)
     obj.pop('_static_notes'); obj.pop('_build_notes')
     obj['notes_parts'] = {'static': src.get('notes') or '', 'build': ' '.join(build_notes)}
+    gaps_final = [x for x in all_ayat(range(1, 115)) if x not in cov]
+    if gaps_final:  # every ayah the work lacks in our copy is recorded, with what was checked (2026-10-09 review)
+        empty_ = set(info['missing'])
+        obj['ingestion'] = {
+            'date': today, 'script': 'enrichment/v2/fetch/fetch_meal.py',
+            'method': 'per-ayah host pages (cached raw), verse rows cut per ayah',
+            'missing': [{'ayah': f'{x[0]}:{x[1]}',
+                         'reason': ('the host page has the row for this ayah but no translation text (empty, or only the ayah number)'
+                                    if x in empty_ else 'the host page has no row for this ayah'),
+                         'checked': [witness_label(w)] + [witness_label(c) for c in src['cross']]
+                                    + (['the host page, re-fetched live 2026-10-09: still ' + ('empty' if x in empty_ else 'without a row')]
+                                       if sid in LIVE_CHECKED_2026_10_09 else [])}
+                        for x in gaps_final]}
     save_source_json(sid, obj)
     return obj, len(cov), info['merged_groups']
 

@@ -333,7 +333,7 @@ def build_segments(sid, rows, explicit_groups=False, strip_prefix=True):
                                 notes = (notes + '\n' + nj).strip()
                         j += 1
                     a_end = j - 1
-            if not text.strip():
+            if not text.strip() or re.fullmatch(r'[\d\s.,;:()\-–]+', text):  # empty, or only the ayah number the host printed
                 missing.append((s, a))
                 a += 1
                 continue

@@ -10,11 +10,11 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=72&islem=mealbilgi): Kur'an Anlam Çalışması Mehmet Çoban Meali | \"Kur'an Anlam Çalışması\" Mealini sitemize bizzat müellifi gönderdi. Kedisinin kaleme aldığı biyografisi şöyledir; | 15.10.1951 Isparta doğumluyum. İlkokul, Ortaokul ve Lise dönemlerimi Isparta’da geçirdim. Üniversite hayatını dışarıdan okuyarak Eskişehir İktisadi Ticari İlimler akademisinden mezun oldum. Geçim ihtiyaçlarımı, muhasebe, muhasebe müdürlüğü,",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-114 (6236/6236 ayat)",
+  "coverage": "1-21,23-45,47-114 + partial 22,46 (6234/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='mehmetcoban+1')"
   ],
-  "fetched_at": "2026-10-03",
+  "fetched_at": "2026-10-09",
   "files": {},
   "lineage": null,
   "relay": null,
@@ -22,12 +22,35 @@
   "panel": false,
   "host_label": "kuranmeali.com \"Mehmet Çoban Meali\" (mehmetcoban)",
   "cross_witnesses": [],
-  "notes": "",
+  "notes": "2 ayat empty on the host: 22:36, 46:4 Coverage incomplete (6234/6236): the host itself lacks the ayat listed in ingestion.missing (its pages re-fetched live on 2026-10-09 are still empty or without a row).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
   ],
   "notes_parts": {
     "static": "",
-    "build": ""
+    "build": "2 ayat empty on the host: 22:36, 46:4 Coverage incomplete (6234/6236): the host itself lacks the ayat listed in ingestion.missing (its pages re-fetched live on 2026-10-09 are still empty or without a row)."
+  },
+  "ingestion": {
+    "date": "2026-10-09",
+    "script": "enrichment/v2/fetch/fetch_meal.py",
+    "method": "per-ayah host pages (cached raw), verse rows cut per ayah",
+    "missing": [
+      {
+        "ayah": "22:36",
+        "reason": "the host page has the row for this ayah but no translation text (empty, or only the ayah number)",
+        "checked": [
+          "kuranmeali.com \"Mehmet Çoban Meali\" (mehmetcoban)",
+          "the host page, re-fetched live 2026-10-09: still empty"
+        ]
+      },
+      {
+        "ayah": "46:4",
+        "reason": "the host page has the row for this ayah but no translation text (empty, or only the ayah number)",
+        "checked": [
+          "kuranmeali.com \"Mehmet Çoban Meali\" (mehmetcoban)",
+          "the host page, re-fetched live 2026-10-09: still empty"
+        ]
+      }
+    ]
   }
 }

@@ -14,7 +14,7 @@
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='satiralti+1')"
   ],
-  "fetched_at": "2026-10-03",
+  "fetched_at": "2026-10-09",
   "files": {},
   "lineage": null,
   "relay": null,
@@ -22,12 +22,27 @@
   "panel": false,
   "host_label": "kuranmeali.com \"Satıraltı Meal (1534)\" (satiralti)",
   "cross_witnesses": [],
-  "notes": "Historical interlinear text as presented by kuranmeali.com; edition not stated on the host. 2 merged verse groups stored once as a..a_end. 1 ayat empty on the host: 2:1 Coverage incomplete (6235/6236); re-run `fetch_meal.py fetch --sources MEAL-SATIRALTI` then `build` to resume.",
+  "notes": "Historical interlinear text as presented by kuranmeali.com; edition not stated on the host. 2 merged verse groups stored once as a..a_end. 1 ayat empty on the host: 2:1 Coverage incomplete (6235/6236): the host itself lacks the ayat listed in ingestion.missing (its pages re-fetched live on 2026-10-09 are still empty or without a row).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
   ],
   "notes_parts": {
     "static": "Historical interlinear text as presented by kuranmeali.com; edition not stated on the host.",
-    "build": "2 merged verse groups stored once as a..a_end. 1 ayat empty on the host: 2:1 Coverage incomplete (6235/6236); re-run `fetch_meal.py fetch --sources MEAL-SATIRALTI` then `build` to resume."
+    "build": "2 merged verse groups stored once as a..a_end. 1 ayat empty on the host: 2:1 Coverage incomplete (6235/6236): the host itself lacks the ayat listed in ingestion.missing (its pages re-fetched live on 2026-10-09 are still empty or without a row)."
+  },
+  "ingestion": {
+    "date": "2026-10-09",
+    "script": "enrichment/v2/fetch/fetch_meal.py",
+    "method": "per-ayah host pages (cached raw), verse rows cut per ayah",
+    "missing": [
+      {
+        "ayah": "2:1",
+        "reason": "the host page has the row for this ayah but no translation text (empty, or only the ayah number)",
+        "checked": [
+          "kuranmeali.com \"Satıraltı Meal (1534)\" (satiralti)",
+          "the host page, re-fetched live 2026-10-09: still empty"
+        ]
+      }
+    ]
   }
 }
