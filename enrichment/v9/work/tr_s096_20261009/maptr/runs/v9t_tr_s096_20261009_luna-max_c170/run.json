@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c170",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:24:35",
+  "ended": "2026-10-09T11:29:17",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12144-22a3-7223-8f9a-88e5ec48900c",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 317162,
+    "cached_input_tokens": 258560,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33531,
+    "reasoning_output_tokens": 11819
+  },
+  "stderr": "2026-10-09T15:29:08.708627Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c170.jsonl:\n{\"id\":\"28:8/q08/p3\",\"position\":\"İsfahan'daki Istakhr'dan bir Pers idi.\",\"reasons\":\"Nasafī bunu Zajjāj'dan aktarır.\"}\n",
+  "prompt_sha256": "43c0d864c9a4c2f6e5b1366c4561e76e54f8eb2bafd5f62039a8ee1e592de6fb",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-24-35-01a12144-22a3-7223-8f9a-88e5ec48900c.jsonl",
+  "usd_equivalent": 0.025211,
+  "requests": 10,
+  "max_request_input_tokens": 61956,
+  "over_context_cap": false
+}

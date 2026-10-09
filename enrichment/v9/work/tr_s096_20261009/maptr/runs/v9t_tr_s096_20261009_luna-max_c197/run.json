@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c197",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:31:26",
+  "ended": "2026-10-09T11:35:49",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1214a-685a-7992-8f73-2328bc698d78",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 411903,
+    "cached_input_tokens": 347136,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 28871,
+    "reasoning_output_tokens": 6801
+  },
+  "stderr": "2026-10-09T15:35:40.066754Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c197.jsonl:\n{\"id\":\"42:27/q05/p2\",\"position\":\"Suffa ehli ya da Mescid'deki gölgelikte kalanlar dünyalık bolluk istiyor, kimi zaman Peygamber'den kendilerini zengin etmesini diliyordu.\",\"reasons\":\"Amr b. Hurayth, Ali ve kimliği belirtilmeyen rivayetler bunu aktarır; Durr'a göre al-Hakim, Ali rivayetini sahih saymıştır. Bazı rivayetler grubu evsiz muhacirler olarak tanımlar; İbn Âşûr, kimliği belirtilmeyen rivayeti zayıf kabul eder. Thalabi, onların dileğini üç Yahudi kabilesinin servetine bağlar.\"}\n",
+  "prompt_sha256": "3e206c3cddab9f271fd2532ffcb51fbcbcb57674c477e7484e0becb7e5c6770f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-31-26-01a1214a-685a-7992-8f73-2328bc698d78.jsonl",
+  "usd_equivalent": 0.024384,
+  "requests": 12,
+  "max_request_input_tokens": 56765,
+  "over_context_cap": false
+}

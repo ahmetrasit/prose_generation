@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c126",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:11:50",
+  "ended": "2026-10-09T11:18:15",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12138-7568-7ea1-a3f3-661778435c3f",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 589132,
+    "cached_input_tokens": 508416,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 46028,
+    "reasoning_output_tokens": 17490
+  },
+  "stderr": "\",\"position\":\"Yusuf’un kendi hakkından onları bağışlaması, Allah’ın da onları bağışlamasına imkân verir ya da bunu gerektirir.\",\"reasons\":\"Al-Māwardī Allah’ın, Yusuf bağışlamayı mümkün kıldığı için onları bağışladığını aktarır; al-Ālūsī, Yusuf’un bağışlaması ve Allah’ın tövbeyi kabul etme vaadinden çıkarılan sonucu aktarır. Bursevî, Yusuf’un vazgeçtiği kişisel hak ile Allah’ın mutlaka bağışlaması gereken şeyi birbirinden ayırır.\"},{\"id\":\"12:92/q06/p3\",\"position\":\"İstek, bu buluşmada bulunmayan kardeşler dâhil Yusuf’a yanlış yapan herkesi kapsar.\",\"reasons\":\"Ṭabāṭabāʾī, bazı kardeşlerin orada bulunmadığını göstermek için 12:95’teki sonraki bir ifadeye başvurur.\"},{\"id\":\"12:92/q06/p4\",\"position\":\"Dua, geçmiş suçlarını ve gelecekteki olası sürçmelerini kapsar.\",\"reasons\":\"Bikāî, muzari fiilin samimi tövbe ve En Merhametli’ye umut beslemeyi sağladığını söyler.\"}]}\n2026-10-09T15:17:12.260828Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c126.jsonl:\n{\"id\":\"12:92/q06\",\"question\":\"Burada ilahî bağışlanmanın hangi dayanakları ya da kapsamı belirtilir?\",\"turns_on\":\"Belirtilen dayanaklar kardeşlerin tövbesi ve Yusuf’un kendi hakkından vazgeçmesidir; isteklerin ne kadar geniş kapsamlı olduğu konusunda da notlar farklılaşır.\",\"positions\":[{\"id\":\"12:92/q06/p1\",\"position\":\"Tövbeleri, itirafları, utançları, pişmanlıkları ve itaate dönmeleri Allah’ın bağışlamasını gerektirir.\",\"reasons\":\"Taberî, Ibn Isḥāq’ın duasını itiraftan sonraya yerleştirir ve Allah’ın merhametinin tövbe edip itaate dönenlere ulaştığını söyler. Al-Māwardī tövbe, itiraf ve pişmanlığı sayar; Ibn Abī Ḥātim’in Ibn Ismāʿīl’i, Yusuf’un suçlarını kabul etmeleri üzerine bağışlanmayı vaat ettiğini söyler. Râzî ve Bayḍāwī de bağışlanmayı itirafla ilişkilendirir; al-Islahi pişmanlıklarını samimi bulur. Abū Ḥayyān bu dayanağa bağlı kesinliğin, bağışlanma için tövbeyi şart koşan Muʿtazilī öncülü yansıtabileceğini belirtir; Ibn ʿĀshūr bunu önceki yasalar kapsamına yerleştirir.\"},{\"id\":\"12:92/q06/p2\",\"position\":\"Yusuf’un kendi hakkından onları bağışlaması, Allah’ın da onları bağışlamasına imkân verir ya da bunu gerektirir.\",\"reasons\":\"Al-Māwardī Allah’ın, Yusuf bağışlamayı mümkün kıldığı için onları bağışladığını aktarır; al-Ālūsī, Yusuf’un bağışlaması ve Allah’ın tövbeyi kabul etme vaadinden çıkarılan sonucu aktarır. Bursevî, Yusuf’un vazgeçtiği kişisel hak ile Allah’ın mutlaka bağışlaması gereken şeyi birbirinden ayırır.\"},{\"id\":\"12:92/q06/p3\",\"position\":\"İstek, bu buluşmada bulunmayan kardeşler dâhil Yusuf’a yanlış yapan herkesi kapsar.\",\"reasons\":\"Ṭabāṭabāʾī, bazı kardeşlerin orada bulunmadığını göstermek için 12:95’teki sonraki bir ifadeye başvurur.\"},{\"id\":\"12:92/q06/p4\",\"position\":\"Dua, geçmiş suçlarını ve gelecekteki olası sürçmelerini kapsar.\",\"reasons\":\"Bikāî, muzari fiilin samimi tövbe ve En Merhametli’ye umut beslemeyi sağladığını söyler.\"}]}\n",
+  "prompt_sha256": "31e5376a429b750be7ae933eb99e4eb8ce7cdf7649f0d4012bf0a99ae68d8e26",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-11-50-01a12138-7568-7ea1-a3f3-661778435c3f.jsonl",
+  "usd_equivalent": 0.03617,
+  "requests": 14,
+  "max_request_input_tokens": 73275,
+  "over_context_cap": false
+}

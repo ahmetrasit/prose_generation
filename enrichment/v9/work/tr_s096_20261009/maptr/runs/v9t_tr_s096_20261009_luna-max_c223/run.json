@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c223",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:38:26",
+  "ended": "2026-10-09T11:43:47",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12150-cfa4-79f1-930c-3202481fcbf6",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 481722,
+    "cached_input_tokens": 426752,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 28693,
+    "reasoning_output_tokens": 5008
+  },
+  "stderr": "2026-10-09T15:42:54.024626Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c223.jsonl:\n{\"id\":\"74:31/q14/p2\",\"position\":\"Sonradan ortaya çıkan münafıklar değil, kuşku duyanlar, muhalifler veya kararsız Mekkelilerdir.\",\"reasons\":\"Hüseyin b. Fadl, Mekke’de nifak bulunmamasını ve ayetin Mekkî oluşunu öne sürer; İbn Âşûr Ahnes ile Velîd’i anar ve hastalığı kötü niyet olarak tanımlar. Mukātil ise Medineli kuşkucu Yahudileri anar ve ayeti Medenî sayar. Râzî, Peygamber’in yalancı olduğundan emin olanlardan, Mekkelilerin çoğundaki kuşkuyu ayırır; Esed bunları gönülsüz kişiler diye niteler.\"}\n",
+  "prompt_sha256": "f862438ab92ef9e7889c529d7e802e55df7700278af962f8373e87333276b48c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-38-27-01a12150-cfa4-79f1-930c-3202481fcbf6.jsonl",
+  "usd_equivalent": 0.024111,
+  "requests": 13,
+  "max_request_input_tokens": 57990,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c161",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:21:37",
+  "ended": "2026-10-09T11:32:32",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12141-6b0f-79b1-a7b7-2f70efbb3af9",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 1548296,
+    "cached_input_tokens": 1431040,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 81752,
+    "reasoning_output_tokens": 17560
+  },
+  "stderr": "2026-10-09T15:28:34.149228Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c161.jsonl:\n{\"id\":\"24:27/q12\",\"question\":\"Aile bireylerinin ve kişinin kendi evinin odaları da dâhil olmak üzere hangi mekânlara girmek için izin gerekir?\",\"turns_on\":\"Mekânın özel olarak kullanılıp kullanılmadığı, yakın akrabalığın izin isteme yükümlülüğünü kaldırıp kaldırmadığı ve kişinin girme hakkı olan yerde haber vermenin yeterli olup olmadığı.\",\"positions\":[{\"id\":\"24:27/q12/p1\",\"position\":\"Ortak bir evde olsalar bile annelerin ve kız kardeşlerin odaları dâhil akrabaların özel alanlarına girmeden önce izin gerekir.\",\"reasons\":\"İbn Mesʿūd, İbn Abbas, ʿAṭāʾ, Mālik ve başkaları bunu gerekli görür. Peygamber rivayetlerinde ziyaretçiye annesini ya da kız kardeşini çıplak görmek isteyip istemediği sorulur. ʿAṭāʾ, tüm yetişkinler için 24:59’u anar. Râzî, mahrem durumunun yalnızca bakılması helal olan şeylerle ilgili olarak kolaylık sağladığını söyler. Kurtubî sesli biçimde haber vermeyi tavsiye eder; Elmalılı, kişinin kendi mülkünde olsa bile başkasının işgal ettiği bir odayı özel alan sayar. Al-Ṭabāṭabāʾī annesinin çıplaklığına ilişkin rivayeti aktarır. Abū Ḥayyān aynı konuşmayı aktarır.\"},{\"id\":\"24:27/q12/p2\",\"position\":\"Eşin ya da ailenin bulunduğu kişinin kendi evine girmesi için resmî izin gerekmez; ancak selam vermek ya da geldiğini bildirmek tavsiye edilir.\",\"reasons\":\"ʿAṭāʾ kişinin kendi eşini istisna eder; İbn Kesîr bunun yalnızca yükümlülüğü kaldırdığını ve eşini önceden uyarmanın tavsiye edildiğini söyler. Kurtubî aileye selam verilmesini söyler ve Qatāda’yı anar; Aḥmad boğazı temizlemeyi ya da sandalları hareket ettirmeyi tavsiye eder, İbn Kesîr de gece aileyi ansızın basmaya karşı rivayetleri aktarır. Ibn ʿAṭiyya, eşin ya da cariyenin bulunduğu konutu kişinin kendi evi sayar. Râzî, gerekçe çıplaklığın görülmesini önlemekse eşleri ve kişinin mülkiyetindeki cariyeleri istisna eder; özel bir faaliyetin bölünmesi söz konusuysa onlar için bile önceden haber verilmesi gerektiğini söyler. Abū Ḥayyān, zahirî metnin izin ya da selam olmadan içeri girmeye imkân verdiğini kabul eder. Al-Biqāʿī, kişinin kendi evine girdiğini de bildirmesini tavsiye eder.\"},{\"id\":\"24:27/q12/p3\",\"position\":\"Bir fıkıh el kitabı, kadının kocasının mahrem akrabalarının evine izinsiz girebileceğini söyler; ancak müfessir bu sıra dışı kuraldan kuşku duyar.\",\"reasons\":\"Al-Bursawī, fıkıh el kitabı Niṣāb al-iḥtisāb’ın, kadın orada hırsızlık yaparsa elinin kesilmemesi için Abū Ḥanīfa’nın getirdiği istisnayı aktardığını söyler; bu kurala yapılan çıkarımı sıra dışı ve doğrulanmaya muhtaç bulurken olağan kuralı kadınlara da eşit biçimde uygular.\"}]}\n",
+  "prompt_sha256": "fadb4279980b4533205d19d2a848f39a950360ffe5a2bb4f212137c273172be2",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-21-37-01a12141-6b0f-79b1-a7b7-2f70efbb3af9.jsonl",
+  "usd_equivalent": 0.066912,
+  "requests": 22,
+  "max_request_input_tokens": 111802,
+  "over_context_cap": false
+}

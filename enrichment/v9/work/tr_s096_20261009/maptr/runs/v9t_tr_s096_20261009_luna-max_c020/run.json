@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c020",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:40:49",
+  "ended": "2026-10-09T10:46:13",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1211c-1745-7bc0-a640-b2c05ece8179",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 314787,
+    "cached_input_tokens": 263680,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33192,
+    "reasoning_output_tokens": 14416
+  },
+  "stderr": "2026-10-09T14:40:57.503562Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:45:11.065426Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c020.jsonl:\n{\"id\":\"1:1/q44/p5\",\"position\":\"Câbir’in el-ḥamdu lillāh demesinden sonra Peygamber, Câbir’den gelen bir rivayette, ona namaza başlarken besmele söylemesini buyurur.\",\"reasons\":\"THALABI (النبي صلى الله عليه وسلم): Câbir’in el-ḥamdu lillāh demesinden sonra Peygamber, Câbir’den gelen bir rivayette, ona namaza başlarken besmele söylemesini buyurur.\"}\n2026-10-09T14:45:28.197536Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c020.jsonl:\n{\"id\":\"1:1/q44/p5\",\"position\":\"Câbir’in el-ḥamdu lillāh demesinden sonra Peygamber, Câbir’den gelen bir rivayette, ona namaza başlarken besmele söylemesini buyurur.\",\"reasons\":\"THALABI (النبي صلى الله عليه وسلم): Câbir’in el-ḥamdu lillāh demesinden sonra Peygamber, Câbir’den gelen bir rivayette, ona namaza başlarken besmele söylemesini buyurur.\"}\n",
+  "prompt_sha256": "946d704fab4c648af73aac87881a4e16c9333c6580a8f399db85818a66c058c5",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-40-52-01a1211c-1745-7bc0-a640-b2c05ece8179.jsonl",
+  "usd_equivalent": 0.024344,
+  "requests": 10,
+  "max_request_input_tokens": 55380,
+  "over_context_cap": false
+}

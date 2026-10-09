@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c090",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:02:44",
+  "ended": "2026-10-09T11:07:38",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12130-2339-7382-8a12-4fc811071a82",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 282912,
+    "cached_input_tokens": 199168,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31952,
+    "reasoning_output_tokens": 13816
+  },
+  "stderr": "2026-10-09T15:07:22.320547Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c090.jsonl:\n{\"id\":\"2:286/q10/p2\",\"position\":\"Komşunun şüf'a hakkı yoktur: öncelik ortak mal sahibinindir, taraflar eşit değildir, komşuluk zararının kapsamı daha dardır ve komşunun satışı taksim gerektirmez.\",\"reasons\":\"RAZI-FULL: Komşunun şüf'a hakkı yoktur: öncelik ortak mal sahibinindir, taraflar eşit değildir, komşuluk zararının kapsamı daha dardır ve komşunun satışı taksim gerektirmez.\"}\n",
+  "prompt_sha256": "0702e7ee8e69e2147e53eb6aabef41273e0bd63db3d79156e6b971f8cb0ac25e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-02-45-01a12130-2339-7382-8a12-4fc811071a82.jsonl",
+  "usd_equivalent": 0.026342,
+  "requests": 10,
+  "max_request_input_tokens": 55608,
+  "over_context_cap": false
+}

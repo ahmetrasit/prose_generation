@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c095",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:03:41",
+  "ended": "2026-10-09T11:09:02",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12130-ff3f-7143-a451-36b7d275ee84",
+  "commands": 10,
+  "usage": {
+    "input_tokens": 435299,
+    "cached_input_tokens": 366336,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 44472,
+    "reasoning_output_tokens": 16030
+  },
+  "stderr": "2026-10-09T15:08:23.310808Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c095.jsonl:\n{\"id\":\"2:286/q42\",\"question\":\"Bu ayete başka hangi belagat gözlemleri eşlik eder?\",\"turns_on\":\"Alternatifler, notlarda aktarılan ifade, kapsam veya deliller bakımından farklılık gösterir.\",\"positions\":[{\"id\":\"2:286/q42/p1\",\"position\":\"Geçmiş günahları umursamayan kimse daha sonra günahtan korunmaz; geri kalan günlerde Allah'ın koruması olmadan ahirette kaybolur.\",\"reasons\":\"Tustari: Geçmiş günahları umursamayan kimse daha sonra günahtan korunmaz; geri kalan günlerde Allah'ın koruması olmadan ahirette kaybolur.\"},{\"id\":\"2:286/q42/p2\",\"position\":\"Ömer bin Abdülaziz aynı açıklamayı yazmıştır.\",\"reasons\":\"İbn Ebî Hâtim'in عمر بن عبد العزيز'den naklettiğine göre: Ömer bin Abdülaziz aynı açıklamayı yazmıştır.\"},{\"id\":\"2:286/q42/p3\",\"position\":\"Ata, ailesinin geçimini sağlayamayan bir erkeğin karısına yalnızca sahip olduğu kadarını borçlu olduğunu söyler.\",\"reasons\":\"İbn Ebî Hâtim'in عطاء'dan naklettiğine göre: Ata, ailesinin geçimini sağlayamayan bir erkeğin karısına yalnızca sahip olduğu kadarını borçlu olduğunu söyler.\"},{\"id\":\"2:286/q42/p4\",\"position\":\"Mukātil b. Hayyân başka bir açıklama verir: Bizi bundan koru.\",\"reasons\":\"İbn Ebî Hâtim'in مقاتل بن حيان'dan naklettiğine göre: Mukātil b. Hayyân başka bir açıklama verir: Bizi bundan koru.\"},{\"id\":\"2:286/q42/p5\",\"position\":\"Ata, ifadeyi “cahillik ettiysek ya da bunu kasten yaptıysak” diye açıklar.\",\"reasons\":\"Thalabi'nin عطاء'dan naklettiğine göre: Ata, ifadeyi “cahillik ettiysek ya da bunu kasten yaptıysak” diye açıklar.\"},{\"id\":\"2:286/q42/p6\",\"position\":\"Bazı kelamcılar ifadeyi yalnızca helal ve kişinin izin verilen sınırları içindeki şeyleri istemek olarak anlar.\",\"reasons\":\"Thalabi'nin بعض أهل الكلام'dan naklettiğine göre: Bazı kelamcılar ifadeyi yalnızca helal ve kişinin izin verilen sınırları içindeki şeyleri istemek olarak anlar.\"},{\"id\":\"2:286/q42/p7\",\"position\":\"Bu cümle ya Allah'ın lütufkâr muamelesine dair vaadi olarak ya da Peygamber ile müminlerin Allah'a kimseye taşıyamayacağı yükü yüklemediği için hamdetmesi olarak okunur.\",\"reasons\":\"Mâverdî: Bu cümle ya Allah'ın lütufkâr muamelesine dair vaadi olarak ya da Peygamber ile müminlerin Allah'a kimseye taşıyamayacağı yükü yüklemediği için hamdetmesi olarak okunur.\"},\n",
+  "prompt_sha256": "efa8e035d74d4c57f8bd31e798398e975f17a00cb01498a9fb1c3c9430f65924",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-03-41-01a12130-ff3f-7143-a451-36b7d275ee84.jsonl",
+  "usd_equivalent": 0.032796,
+  "requests": 9,
+  "max_request_input_tokens": 74768,
+  "over_context_cap": false
+}

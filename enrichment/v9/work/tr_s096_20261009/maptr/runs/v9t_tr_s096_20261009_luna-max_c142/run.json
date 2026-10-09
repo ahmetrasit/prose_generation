@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c142",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:16:40",
+  "ended": "2026-10-09T11:21:37",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1213c-e252-7542-b20d-21b3fa04e0bd",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 515751,
+    "cached_input_tokens": 450304,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38109,
+    "reasoning_output_tokens": 8592
+  },
+  "stderr": "2026-10-09T15:20:53.060745Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c142.jsonl:\n{\"id\":\"19:73/q11\",\"question\":\"مَّقَامًۭا övünmede ne anlama gelir?\",\"turns_on\":\"İsim bir evi ve konforunu, durma yerini veya toplumsal mevkiyi, ahirete ilişkin ya da tartışma ortamını mı belirtir; bazı yorumlarda hareke ayrımına gidilir.\",\"positions\":[{\"id\":\"19:73/q11/p1\",\"position\":\"Konfor ve refahıyla birlikte bir mesken, ikamet yeri veya evdir.\",\"reasons\":\"Muqātil, seçkin bir meskenle 44:26'yı karşılaştırır; İbn Abbas ve İbn Kesîr ev, nimet ve hazdan, Firavun'un refahını da benzer örnek olarak anarak söz eder. Al-Fārisī, 19:74'ün eşyaları ve dış görünüşü karşılaştırmasını dayanak göstererek burada her iki okuyuşun da mesken anlamına geldiğini savunur; Ḥassān'ın harabeler hakkındaki sözü bir yere ilişkindir. Kufa şiiri ile 35:35 kalıcı meskene örnektir. Al-Fārisī, 44:51'deki güvenli meskeni ve 33:13'teki olası ikameti ayırır; al-Bayḍāwī durma veya ikamet anlamına izin verir. İbn Âşûr, dammalı okuyuşu iyi bir dünyevî hayat olarak yorumlar.\"},{\"id\":\"19:73/q11/p2\",\"position\":\"Bir durma yeri, oturak, toplanma sahnesi ya da toplumsal konum ve itibardır.\",\"reasons\":\"Al-Farrāʾ toplanma yeri anlamını verir; al-Akhfash oturak veya sahne seçeneklerini sunar, 27:39 ve kişinin nerede durduğuna ilişkin bir şiirle karşılaştırır. Al-Fārisī, İbrahim'in makamını, 27:39'u, bir toplanma yerini, Ribāḥ'ın ayakları hakkındaki recez beytini ve maqāmāt kelimesinin, ahl kelimesinin düşürülmesiyle toplanma yerlerinde bulunan insanlar anlamına geldiği bir şiiri birbirinden ayırır; al-Ṭabrisī sonuncuyu aktarır. İbn Âşûr açık biçimi mecazen mevki ve üstünlük diye alır ve 55:46 ile karşılaştırır. Bintü'ş-Şâti, büyüklük ve konumun ev anlamını zenginleştirdiğini söyler.\"},{\"id\":\"19:73/q11/p3\",\"position\":\"Cennette veya cehennemdeki ikamet yerine, hüküm yerine ya da itaatle davanın kazanılmasına ve günahla kaybedilmesine işaret edebilir.\",\"reasons\":\"Al-Māwardī, bu ayrı olası ortamları ve tartışmalı yorumunu aktarır; ayrıca Thaʿlab'ın ḍamma'yı ikamet, fatḥa'yı ise toplanma yeri anlamında ayırdığını nakleder. Ahiret yurdu, hüküm yeri ve davanın sonucuna ilişkin seçenekler burada ayrı ayrı korunmuştur.\"},{\"id\":\"19:73/q11/p4\",\"position\":\"Biçimin durma veya ikamet anlamı harekeye ve bağlama göre değişir; burada iki okuyuş aynı yere işaret edebilir.\",\"reasons\":\"Al-Fārisī, qāma ve aqāma fiillerinin eylem veya yer bildiren isimler oluşturabildiğini söyler. Al-Sukkarī, al-Aṣmaʿī'nin maqāma'yı toplanma, maqām'ı mesken olarak ayırdığını aktarır; al-Ṭabrisī de bu ayrımı nakleder. Al-Rāghib'in 17:79, 5:107, 37:164, 2:125 ve 27:39'daki örnekleri, yalnızca ikameti değil durmayı veya onun koşulunu gösterir.\"}]}\n",
+  "prompt_sha256": "0255e00c98ac97ca41d6130d1e566a43069baed8a1c212ffeb72a5f089e408e0",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-16-40-01a1213c-e252-7542-b20d-21b3fa04e0bd.jsonl",
+  "usd_equivalent": 0.030102,
+  "requests": 13,
+  "max_request_input_tokens": 68072,
+  "over_context_cap": false
+}

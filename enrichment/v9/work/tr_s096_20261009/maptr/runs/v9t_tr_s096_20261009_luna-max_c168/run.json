@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c168",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:23:07",
+  "ended": "2026-10-09T11:31:17",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12142-cadf-79b3-9a73-dc814113fb27",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 870999,
+    "cached_input_tokens": 729088,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 61911,
+    "reasoning_output_tokens": 13423
+  },
+  "stderr": "2026-10-09T15:30:00.179850Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c168.jsonl:\n{\"id\":\"27:10/q31\",\"question\":\"el-Qaṣaṣ sûresi neden Musa’ya öne çıkmasını emreden bir ifade ekler?\",\"turns_on\":\"\",\"positions\":[{\"id\":\"27:10/q31/p1\",\"position\":\"Daha uzun anlatımında yinelenen korku, açıkça geri çağrılmasını gerektirir.\",\"reasons\":\"Sāmarrāʾī, Musa’nın annesinden Mısırlıyı öldürmesine, kaçışına, Medyen’e ve Firavun’a kadar uzanan korku çizgisini izler; Musa daha uzağa kaçmış olabilir. el-Qaṣaṣ, Musa’ya doğrudan güvence verirken al-Naml kısa anlatır.\"}]}\n",
+  "prompt_sha256": "af320b685e7156083fbfc3808aebc96e5443009a999e8f7613d32a39ef6fa2b0",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-23-07-01a12142-cadf-79b3-9a73-dc814113fb27.jsonl",
+  "usd_equivalent": 0.052437,
+  "requests": 16,
+  "max_request_input_tokens": 96193,
+  "over_context_cap": false
+}

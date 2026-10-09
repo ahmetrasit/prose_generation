@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c007",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:40:48",
+  "ended": "2026-10-09T10:46:16",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1211c-1d47-7e33-9b02-243f5eed5929",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 298325,
+    "cached_input_tokens": 245248,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34359,
+    "reasoning_output_tokens": 13579
+  },
+  "stderr": "2026-10-09T14:41:04.649554Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:45:26.617239Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c007.jsonl:\n{\"id\":\"1:1/q13\",\"question\":\"ٱللَّهِ ilahî isimler arasında neyi farklı kılar?\",\"turns_on\":\"\",\"positions\":[{\"id\":\"1:1/q13/p1\",\"position\":\"İbn Abbas, Allah'ı Allah'ın en büyük ismi olarak tanımlar.\",\"reasons\":\"DURR (ابن عباس): İbn Abbas, Allah'ı Allah'ın en büyük ismi olarak tanımlar. DURR (ابن عباس): İbn Abbas, besmelenin Allah'ın isimlerinden biri olduğunu ve Allah'ın en büyük ismine yakın bulunduğunu söyler. DURR-FULL (ابن عباس): İbn Abbas, Allah'ı Allah'ın en büyük ismi olarak tanımlar. DURR-FULL (الشعبي): Şa'bî, en büyük ismin “Yâ Allah” olduğunu söyler.\"},{\"id\":\"1:1/q13/p2\",\"position\":\"Câbir b. Zeyd, her Kur'an suresi başka herhangi bir isimden önce Allah ile başladığı için Allah'ın İsm-i Âzam olduğunu söyler.\",\"reasons\":\"IBNABIHATIM (أبو الشعثاء جابر بن زيد): Câbir b. Zeyd, her Kur'an suresi başka herhangi bir isimden önce Allah ile başladığı için Allah'ın İsm-i Âzam olduğunu söyler. DURR (جابر بن يزيد): Câbir b. Yezîd, Kur'an başka her isimden önce Allah ile başladığı için Allah'ın en büyük isim olduğunu söyler.\"},{\"id\":\"1:1/q13/p3\",\"position\":\"Ebû Hanîfe'nin, kimse bu ismi paylaşmadığı için Allah'ın Allah'ın en büyük ismi olduğunu söylediği rivayet edilir.\",\"reasons\":\"MAWARDI (أبو حنيفة): Ebû Hanîfe'nin, kimse bu ismi paylaşmadığı için Allah'ın Allah'ın en büyük ismi olduğunu söylediği rivayet edilir. MAWARDI-FULL (أبو حنيفة): Allah'ı, kimse bu ismi paylaşmadığı için İsm-i Âzam olarak tanımlar.\"},\n",
+  "prompt_sha256": "790e1b469d02ac6adaf78bd7a81df7ce2cbd7ecc271320124488af78f226679c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-40-54-01a1211c-1d47-7e33-9b02-243f5eed5929.jsonl",
+  "usd_equivalent": 0.02494,
+  "requests": 10,
+  "max_request_input_tokens": 57570,
+  "over_context_cap": false
+}

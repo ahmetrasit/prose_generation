@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c072",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:57:02",
+  "ended": "2026-10-09T11:05:23",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1212a-ea31-7920-b382-e311b0b0c710",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 626934,
+    "cached_input_tokens": 521984,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 63632,
+    "reasoning_output_tokens": 10578
+  },
+  "stderr": "2026-10-09T15:00:32.326270Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 13, '\",\"reasons\":\"Qurtubī, “Ben sizin Rabbinizim” ifadesinin anlaşıldığını kabul eder; Abū Ḥayyān ve Samin, nesnenin yinelendiği bir dikkat çekme emri yapısı türetir.\"},{\"id\":\"2:40/q27/p3\",\"position\":\"Öne alınan bir konu çözümlemesinde hazfedilmiş yüklem bulunur.\",\"reasons\":\"Tabrīsī, Sībawayh’in bir beytiyle ve 5:38, 24:2 ayetleriyle karşılaştırır.\"}]}' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n2026-10-09T15:04:37.690720Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c072.jsonl:\n{\"id\":\"2:40/q18/p8\",\"position\":\"Öncesiz ezelî kabul ve kulluk ahdine bağlı kalmak.\",\"reasons\":\"Sulamī’nin Bağdatlıları ve Bursevī, zaman öncesi kabulü hatırlatır; Qushayrī, dönüşteki yerine getirmeyle kabulü eşleştirir.\"}\n",
+  "prompt_sha256": "b1e7c519ba7917de7342bee8f2b88c4e393bd1b0cb4cfe4b88eadabea9126d5b",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-57-03-01a1212a-ea31-7920-b382-e311b0b0c710.jsonl",
+  "usd_equivalent": 0.047531,
+  "requests": 13,
+  "max_request_input_tokens": 92923,
+  "over_context_cap": false
+}

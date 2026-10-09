@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c014",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:40:49",
+  "ended": "2026-10-09T10:45:10",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1211c-1780-7ec1-8273-9fde29a87726",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 242112,
+    "cached_input_tokens": 186112,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 27561,
+    "reasoning_output_tokens": 10368
+  },
+  "stderr": "2026-10-09T14:40:52.694204Z ERROR codex_core::shell_snapshot: Shell snapshot validation failed: Snapshot command exited with status exit status: 1: /bin/bash: /Users/ahmetrasit/.codex/shell_snapshots/01a1211c-1780-7ec1-8273-9fde29a87726.tmp-1791556852232998000: No such file or directory\n\n",
+  "prompt_sha256": "85d6e2a61181bce7f4320215cec42a2876a00cbcd0165f77bd108f8dad3a62c0",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-40-52-01a1211c-1780-7ec1-8273-9fde29a87726.jsonl",
+  "usd_equivalent": 0.021242,
+  "requests": 9,
+  "max_request_input_tokens": 48950,
+  "over_context_cap": false
+}

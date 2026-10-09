@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c043",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:49:31",
+  "ended": "2026-10-09T10:55:30",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12124-07d1-7641-b8f4-a83971e96509",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 378545,
+    "cached_input_tokens": 314624,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39052,
+    "reasoning_output_tokens": 16110
+  },
+  "stderr": "2026-10-09T14:54:44.207581Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c043.jsonl:\n{\"id\":\"1:5/q25/p25\",\"position\":\"İlk dönem âlimlerinden bazıları, Kur'an'daki her kelimenin zahirî bir anlamı, bâtınî bir anlamı, bir sınırı ve bir başlangıç noktası olduğunu söyler.\",\"reasons\":\"Burhân (السلف بعض): İlk dönem âlimlerinden bazıları, Kur'an'daki her kelimenin zahirî bir anlamı, bâtınî bir anlamı, bir sınırı ve bir başlangıç noktası olduğunu söyler; kelimeler arasındaki ilişkileri saymak insan gücünü aşar.\"}\n2026-10-09T14:55:03.441411Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c043.jsonl:\n{\"id\":\"1:5/q25/p25\",\"position\":\"İlk dönem âlimlerinden bazıları, Kur'an'daki her kelimenin zahirî bir anlamı, bâtınî bir anlamı, bir sınırı ve bir başlangıç noktası olduğunu söyler.\",\"reasons\":\"Burhân (السلف بعض): İlk dönem âlimlerinden bazıları, Kur'an'daki her kelimenin zahirî bir anlamı, bâtınî bir anlamı, bir sınırı ve bir başlangıç noktası olduğunu söyler; kelimeler arasındaki ilişkileri saymak insan gücünü aşar.\"}\n",
+  "prompt_sha256": "bb28d942cd720f6e7a7acb7030ea1b306466af05c15aef11dd5dc55afd33ce12",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-49-31-01a12124-07d1-7641-b8f4-a83971e96509.jsonl",
+  "usd_equivalent": 0.029064,
+  "requests": 11,
+  "max_request_input_tokens": 64753,
+  "over_context_cap": false
+}

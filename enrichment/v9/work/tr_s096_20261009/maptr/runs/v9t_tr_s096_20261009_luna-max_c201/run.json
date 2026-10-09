@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c201",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:32:21",
+  "ended": "2026-10-09T11:37:17",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1214b-3d43-7621-a17a-f150a86596de",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 431880,
+    "cached_input_tokens": 372736,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33225,
+    "reasoning_output_tokens": 7891
+  },
+  "stderr": "2026-10-09T15:36:48.670901Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c201.jsonl:\n+{\"id\":\"53:2/q03\",\"question\":\"«Yoldan çıkmadı» ne anlama gelir?\",\"turns_on\":\"ghayy sözcüğünün dolaşma, seçilmiş bozulma, yanlış inanç ya da başarısızlık anlamlarından hangisini taşıdığı ve başarısızlığın hangi aranan sonuçla ilgili olduğu.\",\"positions\":[{\"id\":\"53:2/q03/p1\",\"position\":\"Hidayetten sapmadı.\",\"reasons\":\"Ebû Ubeyde, ghayy sözcüğünü al-ghayy kökünden türetir ve ghawi'yi sapan kişi diye tanımlar; Kurtubî, ghayy'i doğru hidayetin karşıtı sayar. Tabersî, ghawa'nın da sapmak anlamına gelmesi nedeniyle bunun önceki reddi pekiştirdiğini söyler.\"},{\"id\":\"53:2/q03/p2\",\"position\":\"Kasıtlı hatanın ya da bozuk davranışın peşinden gitmedi.\",\"reasons\":\"İbn Atiyya, ghawa'yı eğri ve bozuk bir yola girmek diye niteler; kasıtsız ḍalāl ile kasıtlı ghayy'i birbirinden ayırır. Râzî, bunu doğru davranışın, inkârdan aşağı düzeydeki günahkâr davranış da dahil, karşıtı sayar ve bozuk varoluşla (4:6) karşılaştırır. İbn Kesîr, sapmış kişinin gerçeği bildiği hâlde yüz çevirdiğini söyler. Elmalılı bunu sağduyuyu yitirmek, İbn Âşûr ise bâtıla bağlanmış bozuk hüküm diye niteler. es-Sâmerrâî bunun ahlaki sorumluluk ve kasıtlı ısrar gerektirdiğini söyler (7:146, 2:256, 20:79); Study Quran, dini yanlış izlemenin anlamını aktarır.\"},{\"id\":\"53:2/q03/p3\",\"position\":\"Yanlış bir inanç taşımadı.\",\"reasons\":\"Bursavî ile Tabâtabâî'nin aktardığı er-Râgıb, ghayy'i, yalnızca inançsızlıktan farklı olarak, yanlış inanca dayanan bilgisizlik diye tanımlar; Bursavî, ḍalāl'in söz, eylem, karakter ve inancı da kapsadığını söyler. el-Âlûsî, eylemin temelini oluşturduğu için inancın ayrıca belirtildiğini söyler. Study Quran, bozuk inanç anlamı için Is, R ve Tb'yi aktarır.\"},{\"id\":\"53:2/q03/p4\",\"position\":\"Başarısız olmadı ya da kayba uğramadı.\",\"reasons\":\"Cüşemî ve Tabersî, ghayy'i başarısızlık ya da kayıp diye açıklar; ghawaya ve ghawa sözcüklerinde bu anlam yansır. Kurtubî de bu anlamı aktarır.\"},{\"id\":\"53:2/q03/p5\",\"position\":\"Rahmete ya da doğru hidayete ulaşamadı.\",\"reasons\":\"Nehhâs, aranan şeyin rahmet olduğunu; Tabersî ise doğru hidayet olduğunu aktarır.\"},{\"id\":\"53:2/q03/p6\",\"position\":\"Çabası boşa gitmedi: Allah'ın ödülünü ve ikramını alır.\",\"reasons\":\"Tabersî bu açıklamayı aktarır.\"},{\"id\":\"53:2/q03/p7\",\"position\":\"Hiç hata etmedi ve hayal kırıklığıyla sonuçlanmadı.\",\"reasons\":\"el-Mâverdî, iki cümle için bu ikili açıklamayı verir.\"}]}\n",
+  "prompt_sha256": "7c50e3daa334d7a5de66e4baf8f72aa420209e33ab775ddfa2ff4082e95aa84f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-32-21-01a1214b-3d43-7621-a17a-f150a86596de.jsonl",
+  "usd_equivalent": 0.026254,
+  "requests": 12,
+  "max_request_input_tokens": 61611,
+  "over_context_cap": false
+}

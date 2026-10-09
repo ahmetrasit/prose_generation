@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c249",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:45:32",
+  "ended": "2026-10-09T11:50:44",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12157-5124-7190-ab1d-65a588b6a512",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 457260,
+    "cached_input_tokens": 387840,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37832,
+    "reasoning_output_tokens": 8988
+  },
+  "stderr": "2026-10-09T15:49:55.579810Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c249.jsonl:\n{\"id\":\"92:13/q01\",\"question\":\"Ahiret ve ilk hayat neyi ifade eder?\",\"turns_on\":\"Eşleşen terimlerin âlemleri, onların mükâfatlarını, özellikle cenneti ya da nefsin iç yönlerini mi adlandırdığı.\",\"positions\":[{\"id\":\"92:13/q01/p1\",\"position\":\"İki yurt: sonraki hayat ve bu dünya.\",\"reasons\":\"al-Wāḥidī bunları iki yurt olarak adlandırır. al-Jishumī, al-ūlā'nın al-awwal'ın dişil biçimi olduğunu ve “yurt” sözcüğünün düşürüldüğünü açıklar; sonraki yurdun diriliş, cennet ya da Ateş olduğunu söyler. İbn ʿAṭiyya iki yurt yorumunu verir. Corpus Coranicum, eşleşen terimler için 93:4'e gönderir.\"},{\"id\":\"92:13/q01/p2\",\"position\":\"Bu dünyanın ve ahiretin mükâfatları.\",\"reasons\":\"al-Māwardī, al-Kalbī ile al-Farrāʾ'ın görüşlerini anar; al-Wāḥidī bunu al-Kalbī'ye nispet eder ve 4:134'ü aktarır. Abū Ḥayyān, 29:27'deki İbrahim'in dünya mükâfatını ve ahiretteki salihliğini aktarır. Study Quran, her iki dünyadaki cezanın dolaylı olarak kastedildiğini söyler ve 53:25, 4:134 ile 79:25'i aktarır. Abū Ṣāliḥ'in İbn Abbas'tan rivayeti, bu mükâfatları başka yerde arayanın yolu kaçırdığını da ekler.\"},{\"id\":\"92:13/q01/p3\",\"position\":\"Ahiret denince cennet, ilk hayat denince bu dünya kastedilir.\",\"reasons\":\"al-Qurṭubī, bunu ʿAṭāʾ aracılığıyla İbn Abbas'tan aktarır.\"},{\"id\":\"92:13/q01/p4\",\"position\":\"İçsel anlamda ahiret, ruhun canı; ilk hayat ise tabiatın canıdır.\",\"reasons\":\"al-Tustarī, insanların bunlardan birine ya da ötekine yöneltildiğini söy.\"}]}\n",
+  "prompt_sha256": "7ac1644a793f0ff492ec94aa221364ccb4f60ad513f4428fc07b266d618b7db2",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-45-33-01a12157-5124-7190-ab1d-65a588b6a512.jsonl",
+  "usd_equivalent": 0.029736,
+  "requests": 13,
+  "max_request_input_tokens": 65144,
+  "over_context_cap": false
+}

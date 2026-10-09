@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c077",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:58:23",
+  "ended": "2026-10-09T11:03:48",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1212c-277c-7580-af2a-7b59dcea2d38",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 509417,
+    "cached_input_tokens": 443904,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37388,
+    "reasoning_output_tokens": 14815
+  },
+  "stderr": "2026-10-09T15:03:06.962912Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c077.jsonl:\n{\"id\":\"2:156/q01/p4\",\"position\":\"‘Onlar ...’ şeklinde düşürülmüş bir cümleden sonra, bağımsız veya yeniden başlatılmış bir yapıda yalın hâldedir.\",\"reasons\":\"Ebû Hayyân ve Semîn hum kelimesini takdir eder; Semîn hem kesilip ayrılmaya hem de yeni bir cümleyle yeniden başlamaya imkân tanır.\"}\n2026-10-09T15:03:15.993676Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c077.jsonl:\n{\"id\":\"2:156/q01/p4\",\"position\":\"‘Onlar ...’ şeklinde düşürülmüş bir cümleden sonra, bağımsız veya yeniden başlatılmış bir yapı olarak yalın hâldedir.\",\"reasons\":\"Ebû Hayyân ve Semîn hum kelimesini takdir eder; Semîn hem kesilip ayrılmaya hem de yeni bir cümleyle yeniden başlamaya imkân tanır.\"}\n2026-10-09T15:03:25.629903Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c077.jsonl:\n{\"id\":\"2:156/q04/p2\",\"position\":\"Meṣāʾib’deki hemze, kesreli bir vâvın doğrudan yerini alır.\",\"reasons\":\"Vâhidî, Ebû İshak’ın bunu isāda ile karşılaştırdığını aktarır; Ebû Alî ise başlangıçta olmayan kesreli bir vâvın bu biçimde değişmesine paralel örnek bulunmadığı için bunu reddeder.\"}\n2026-10-09T15:03:33.615644Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c077.jsonl:\n{\"id\":\"2:156/q04/p2\",\"position\":\"Meṣāʾib’deki hemze, kesreli bir vâvın doğrudan yerini alır.\",\"reasons\":\"Vâhidî, Ebû İshak’ın bunu isāda ile karşılaştırdığını aktarır; Ebû Alî ise başlangıçta olmayan kesreli bir vâvın bu biçimde değişmesine paralel örnek bulunmadığı için bunu reddeder.\"}\n",
+  "prompt_sha256": "1111e481a22c1c052a0b3c951baa3f21c66d2af3826abc1e50c9d381e1f8191d",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-58-24-01a1212c-277c-7580-af2a-7b59dcea2d38.jsonl",
+  "usd_equivalent": 0.029684,
+  "requests": 14,
+  "max_request_input_tokens": 64020,
+  "over_context_cap": false
+}

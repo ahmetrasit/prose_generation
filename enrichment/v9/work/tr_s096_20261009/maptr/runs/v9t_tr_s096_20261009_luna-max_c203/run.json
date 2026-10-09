@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c203",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:32:40",
+  "ended": "2026-10-09T11:38:26",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1214b-8a39-74d0-a66f-e1eebd384a45",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 509806,
+    "cached_input_tokens": 444160,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38454,
+    "reasoning_output_tokens": 9916
+  },
+  "stderr": "2026-10-09T15:37:10.061647Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c203.jsonl:\n{\"id\":\"53:14/q09/p7\",\"position\":\"Üzerinde altın renkli kelebekler vardı.\",\"reasons\":\"Asmāʾ'nın nebevî rivayetinde altın renkli kelebekler yer alır; al-Tirmidhī bu rivayeti ḥasan olarak derecelendirir. İbn Mesʿûd da kelebeklerin ağacı kapladığını söyler.\"}\n",
+  "prompt_sha256": "7d8aab4345b0cd78dcfe7a9ee84f014642043f632a744471817758e057b6f54c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-32-41-01a1214b-8a39-74d0-a66f-e1eebd384a45.jsonl",
+  "usd_equivalent": 0.030233,
+  "requests": 13,
+  "max_request_input_tokens": 67410,
+  "over_context_cap": false
+}

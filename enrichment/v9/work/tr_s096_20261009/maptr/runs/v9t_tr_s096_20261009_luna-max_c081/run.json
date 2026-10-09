@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c081",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:59:24",
+  "ended": "2026-10-09T11:02:57",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1212d-1550-7ba3-b111-0c307feb5502",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 253057,
+    "cached_input_tokens": 199424,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 23901,
+    "reasoning_output_tokens": 6905
+  },
+  "stderr": "2026-10-09T15:02:47.224163Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c081.jsonl:\n{\"id\":\"2:186/q23\",\"question\":\"Ayete hangi bâtınî yorum verilir?\",\"turns_on\":\"Kaynaklar bu ifadenin farklı çözümlemelerini, rivayetlerini veya uygulamalarını verir.\",\"positions\":[\n",
+  "prompt_sha256": "4ed5ce4810ab192740849774384cecdb94014aa4d85db6aaee3aefccae7ac3cf",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-59-25-01a1212d-1550-7ba3-b111-0c307feb5502.jsonl",
+  "usd_equivalent": 0.019308,
+  "requests": 9,
+  "max_request_input_tokens": 47623,
+  "over_context_cap": false
+}

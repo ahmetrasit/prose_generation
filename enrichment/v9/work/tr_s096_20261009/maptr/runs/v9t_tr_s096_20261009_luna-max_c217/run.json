@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c217",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:37:03",
+  "ended": "2026-10-09T11:42:03",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1214f-8d12-7183-b11c-e9042a261b60",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 442128,
+    "cached_input_tokens": 379904,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37160,
+    "reasoning_output_tokens": 9332
+  },
+  "stderr": "2026-10-09T15:41:09.044799Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c217.jsonl:\n{\"id\":\"69:11/q07\",\"question\":\"Taşınmaya ilişkin hangi içsel anlamlar verilir?\",\"turns_on\":\"İki rivayet, taşınmayı farklı manevi süreçlerle ilişkilendirir.\",\"positions\":[{\"id\":\"69:11/q07/p1\",\"position\":\"Hakikat, ruhlara belirlenmiş paylara göre akar ve manevi makamlarda bir sırrı açığa çıkarır.\",\"reasons\":\"Kāsım, bedenlerin henüz var olmadığını ve ruhların gerçek anlamda bir akıntıyı taşıyamayacağını ileri sürer.\"},{\"id\":\"69:11/q07/p2\",\"position\":\"Allah, insanlığı ayetleriyle taşıdı ve zamanlarını ölçüleriyle belirledi.\",\"reasons\":\"Vâsıtî bunu Allah’ın Âdem’in yanına dokunup soyunu çıkarmasıyla ilişkilendirir.\"}]}\n",
+  "prompt_sha256": "43ba3359d4c9e0c1f0581cb28652b7594bbe54f45271862c1b31b7c92317dc5c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-37-04-01a1214f-8d12-7183-b11c-e9042a261b60.jsonl",
+  "usd_equivalent": 0.028601,
+  "requests": 12,
+  "max_request_input_tokens": 66075,
+  "over_context_cap": false
+}

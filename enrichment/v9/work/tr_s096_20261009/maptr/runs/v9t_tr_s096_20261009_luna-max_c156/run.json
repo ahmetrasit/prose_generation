@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c156",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:20:56",
+  "ended": "2026-10-09T11:27:58",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12140-cb71-7c71-af79-24ed93219834",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 481907,
+    "cached_input_tokens": 406528,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 51238,
+    "reasoning_output_tokens": 10143
+  },
+  "stderr": "2026-10-09T15:26:22.005410Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c156.jsonl:\n{\"id\":\"22:5/q38\",\"question\":\"zawj burada ne anlama gelir?\",\"turns_on\":\"Tür, renk ya da gerçek anlamda eşleşmiş bitkiler olup olmadığı.\",\"positions\":[{\"id\":\"22:5/q38/p1\",\"position\":\"Her bir bitki türü ya da cinsi.\",\"reasons\":\"İbn Fâris «çeşitlilik» anlamına izin verir; İbn Âşûr bunu dişi ya da erkek eşin temel anlamından çıkarır; Bikāî birbirini tamamlayan türleri anlatır.\"},{\"id\":\"22:5/q38/p2\",\"position\":\"Her bitki rengi.\",\"reasons\":\"Mâverdî yeşil, kırmızı ve sarıyı verir; Kurtubî renk anlamını mümkün görür.\"},{\"id\":\"22:5/q38/p3\",\"position\":\"Tek bir bitkinin karşıtı olarak gerçek bir çift.\",\"reasons\":\"Tabâtabâî bu alternatif yorumu sunar ve bitkilerde eşleşmenin deneysel olarak doğrulandığını belirtir.\"}]}\n",
+  "prompt_sha256": "9c283d0424ec7b0279ab3a280172de333e3a1299e215a6286555a61cf1797bc3",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-20-57-01a12140-cb71-7c71-af79-24ed93219834.jsonl",
+  "usd_equivalent": 0.037222,
+  "requests": 12,
+  "max_request_input_tokens": 80308,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c073",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:57:21",
+  "ended": "2026-10-09T11:03:41",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1212b-3490-7eb1-8b6b-7456cfe3c4f3",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 719938,
+    "cached_input_tokens": 631808,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 41788,
+    "reasoning_output_tokens": 16608
+  },
+  "stderr": "009/maptr/out/luna-max/c073.jsonl:\n{\"id\":\"2:142/q05/p2\",\"position\":\"İnsanlığın geneliyle karşılaştırmayı belirtir ve onların utancını artırır.\",\"reasons\":\"Alusi, al-nās kelimesinin genel anlamda kullanıldığı mansup bir hâl cümlesi olarak çözümler ve bunu tercih eder; Biqai, kınamayı onlarla aynı safta duran herkese genişlettiğini söyler.\"}]}\n2026-10-09T15:03:04.439437Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c073.jsonl:\n{\"id\":\"2:142/q05\",\"question\":\"Neden ‘insanlar arasında’ denmiştir?\",\"turns_on\":\"İfadenin esas olarak konuşan akılsızları mı nitelediği, onları genel olarak insanlarla mı karşılaştırdığı, yoksa bir alt grubu mu sınırladığı.\",\"positions\":[{\"id\":\"2:142/q05/p1\",\"position\":\"Akılsızlık eşyalara ve hayvanlara da isnat edilebildiğinden, insan olan akılsızları belirtir.\",\"reasons\":\"Ibn Atiyya, Qurtubi, Abu Hayyan ve Samin kumaş, mızrak ve hayvan örneklerini aktarır; Samin bunu sayaqūlu fiiline bağlı bir hâl cümlesi sayar, Tabrisi de aynı hâl cümlesi çözümlemesini verir.\"},{\"id\":\"2:142/q05/p2\",\"position\":\"İnsanlığın geneliyle karşılaştırmayı belirtir ve onların utancını artırır.\",\"reasons\":\"Alusi, al-nās kelimesinin genel anlamda kullanıldığı mansup bir hâl cümlesi olarak çözümler ve bunu tercih eder; Biqai, kınamayı onlarla aynı safta duran herkese genişlettiğini söyler.\"},{\"id\":\"2:142/q05/p3\",\"position\":\"Her kâfiri değil, kâfirlerin en kötülerini belirtir.\",\"reasons\":\"Alusi, al-nās kelimesinin sınırlı yorumunu aktarır ve insanlığın geneli yorumunu tercih ederek bunu reddeder.\"}]}\n2026-10-09T15:03:31.926823Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c073.jsonl:\n{\"id\":\"2:142/q05\",\"question\":\"Neden ‘insanlar arasında’ denmiştir?\",\"turns_on\":\"İfadenin esas olarak konuşan akılsızları mı nitelediği, onları genel olarak insanlarla mı karşılaştırdığı, yoksa bir alt grubu mu sınırladığı.\",\"positions\":[{\"id\":\"2:142/q05/p1\",\"position\":\"Akılsızlık eşyalara ve hayvanlara da isnat edilebildiğinden, insan olan akılsızları belirtir.\",\"reasons\":\"Ibn Atiyya, Qurtubi, Abu Hayyan ve Samin kumaş, mızrak ve hayvan örneklerini aktarır; Samin bunu sayaqūlu fiiline bağlı bir hâl cümlesi sayar, Tabrisi de aynı hâl cümlesi çözümlemesini verir.\"},{\"id\":\"2:142/q05/p2\",\"position\":\"İnsanlığın geneliyle karşılaştırmayı belirtir ve onların utancını artırır.\",\"reasons\":\"Alusi, al-nās kelimesinin genel anlamda kullanıldığı mansup bir hâl cümlesi olarak çözümler ve bunu tercih eder; Biqai, kınamayı onlarla aynı safta duran herkese genişlettiğini söyler.\"},{\"id\":\"2:142/q05/p3\",\"position\":\"Her kâfiri değil, kâfirlerin en kötülerini belirtir.\",\"reasons\":\"Alusi, al-nās kelimesinin sınırlı yorumunu aktarır ve insanlığın geneli yorumunu tercih ederek bunu reddeder.\"}]}\n",
+  "prompt_sha256": "cd9d8e571248608c282fdd4df7b1d1a560c99ee6e4949f39323cdb60179d7fb6",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-57-22-01a1212b-3490-7eb1-8b6b-7456cfe3c4f3.jsonl",
+  "usd_equivalent": 0.036025,
+  "requests": 16,
+  "max_request_input_tokens": 70870,
+  "over_context_cap": false
+}

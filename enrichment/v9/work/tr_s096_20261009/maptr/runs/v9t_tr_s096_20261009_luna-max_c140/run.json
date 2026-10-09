@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c140",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:16:01",
+  "ended": "2026-10-09T11:24:35",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1213c-4964-7133-b268-3bb98187601d",
+  "commands": 10,
+  "usage": {
+    "input_tokens": 1151821,
+    "cached_input_tokens": 1058816,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 62057,
+    "reasoning_output_tokens": 18939
+  },
+  "stderr": "2026-10-09T15:22:52.129650Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c140.jsonl:\n{\"id\":\"19:42/q12\",\"question\":\"Putların işitmediğini ve görmediğini söylemek neyi ifade eder?\",\"turns_on\":\"Bu olumsuzlamanın putların duyusal algıdan yoksun olmasını mı, yoksa etkisiz algının yok sayıldığı daha geniş bir belâgat kullanımını mı gösterdiği.\",\"positions\":[{\"id\":\"19:42/q12/p1\",\"position\":\"Algıdan yoksundurlar: dua, övgü ve ibadet dâhil hiçbir şeyi işitip görmezler.\",\"reasons\":\"Taberî, çağrıya cevap veremediklerini, göremediklerini ve yardım edemediklerini söyler; al-Wāḥidī dua işitemediklerini veya ibadeti göremediklerini belirtir. Al-Rāzī, itaati itaatsizlikten ayıramadıklarını söyler; al-Ālūsī, belirli bir övgü ve huşûyu veya algılanabilir herhangi bir şeyi kastetmiş olabileceğini belirtir. Study Quran, al-Rāzī'nin görüşünü aktarır; al-Ṭabāṭabāʾī, yapanın bilgisi ile ürünün farkındalık yoksunluğunu karşılaştırır.\"},{\"id\":\"19:42/q12/p2\",\"position\":\"Hearing and sight can be denied figuratively where they bring no useful knowledge or effect.\",\"reasons\":\"Al-Jurjānī says life without knowledge can be called death, and unbeneficial hearing or sight deafness or blindness; a person so called gains nothing from the faculties. Qualifying 'deaf to what offends' limits the denial to a circumstance. He also distinguishes stronger and milder exclusion by 'the man' versus 'a man' or 'a thing'.\"}]}\n",
+  "prompt_sha256": "b0f8afcee293d3b06c4eeb342656decdf1d5c2bcd3e19a6bc97fdcdcc6b4a3ff",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-16-01-01a1213c-4964-7133-b268-3bb98187601d.jsonl",
+  "usd_equivalent": 0.050917,
+  "requests": 20,
+  "max_request_input_tokens": 90941,
+  "over_context_cap": false
+}

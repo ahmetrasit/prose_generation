@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c057",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:53:05",
+  "ended": "2026-10-09T10:57:48",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12127-4c0d-7b53-bb79-ddbfad20310f",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 311855,
+    "cached_input_tokens": 257536,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 36352,
+    "reasoning_output_tokens": 12496
+  },
+  "stderr": "2026-10-09T14:56:49.132828Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c057.jsonl:\n{\"id\":\"1:7/q30/p16\",\"position\":\"Peygamber, imam ayetin son sözlerine ulaştığında namaz kılanlara Âmîn demelerini buyurur; imam ve melekler de der, meleklerinkiyle aynı zamana denk gelmesi geçmiş günahların bağışlanmasını sağlar.\",\"reasons\":\"İbn Hibbân'da أبو حاتم rivayetinde: Ebû Hâtim, meleklerinkiyle aynı zamana denk gelmenin, melekler gibi gösteriş, riya ya da şöhret arzusundan uzak biçimde yalnızca Allah için içtenlikle Âmîn demek anlamına geldiğini açıklar.\"}\n",
+  "prompt_sha256": "c5e833ed8b3179f97ff9ff1da034964f0aaac630cc917965e5869635ec9b5ce9",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-53-05-01a12127-4c0d-7b53-bb79-ddbfad20310f.jsonl",
+  "usd_equivalent": 0.026183,
+  "requests": 10,
+  "max_request_input_tokens": 59226,
+  "over_context_cap": false
+}

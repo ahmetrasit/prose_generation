@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c196",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:31:22",
+  "ended": "2026-10-09T11:36:24",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1214a-5a53-7db2-9d38-b2abce3c80c8",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 498082,
+    "cached_input_tokens": 436992,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34916,
+    "reasoning_output_tokens": 7104
+  },
+  "stderr": "2026-10-09T15:35:50.726158Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c196.jsonl:\n+{\"id\":\"40:49/q12\",\"question\":\"Ne kadar hafifletilmesini istiyorlar?\",\"turns_on\":\"\",\"positions\":[{\"id\":\"40:49/q12/p1\",\"position\":\"Cezanın kalıcı olarak kaldırılmasını değil, yalnızca sınırlı ölçüde hafifletilmesini istiyorlar.\",\"reasons\":\"Al-Dāmghānī, takhfīf'in cezayı azaltmak anlamına geldiğini söyler. Al-Samīn, min-i teb'îziyeyi bazı günlerde cezanın bir kısmı, her gün cezanın tamamı değil şeklinde yorumlar. Bikāî ve Bursevī, yalnızca bir kısmının hafifletileceğini söyler; Bursevī, bu küçük ve kısa süreli isteğin daha büyük bir hafifletmenin imkânsız olduğunu bildiklerini gösterdiğini belirtir. İbn Âşûr, bir gün mühlet verilmesinin ateşin şiddetini azaltmaktan daha yararlı olacağını söyler.\"}]}\n",
+  "prompt_sha256": "805ef633667ef053709abfabb066be8e2fe730095164d0ed87c53ba22f9f855c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-31-23-01a1214a-5a53-7db2-9d38-b2abce3c80c8.jsonl",
+  "usd_equivalent": 0.027937,
+  "requests": 13,
+  "max_request_input_tokens": 63309,
+  "over_context_cap": false
+}

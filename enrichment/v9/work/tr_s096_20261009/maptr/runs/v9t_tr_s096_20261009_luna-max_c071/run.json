@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c071",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:56:46",
+  "ended": "2026-10-09T11:03:58",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1212a-a9a1-75b3-a0c6-b2e15104dab1",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 611126,
+    "cached_input_tokens": 528896,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 50547,
+    "reasoning_output_tokens": 15157
+  },
+  "stderr": "en yücesin».\",\"reasons\":\"Semîn öznenin muzafun ileyh olduğu çözümlemeyi aktarır; Ebû Hayyân bazıların eki özne saydığını, ancak nesne görüşünü tercih ettiğini söyler.\"},{\"id\":\"2:32/q05/p5\",\"position\":\"Kisâî, sıfatı bulunmadığı için mansup olduğunu açıklar.\",\"reasons\":\"Nehhâs, Kisâî’nin nida görüşüne ek olarak bu gramatik açıklamayı aktarır; Sa‘lebî bunun olağan niteleme kapsamına girmediğini söyler.\"},{\"id\":\"2:32/q05/p6\",\"position\":\"Tek başına kullanılan subḥān, izafetten ayrıldığı için tenvin alır.\",\"reasons\":\"Ebû Hayyân dilbilgisi eserlerinin bu açıklamayı reddettiğini söyler; başka bir açıklama tenvinsiz bağımsız biçimi qabl ve baʿd ile karşılaştırır.\"}]}\n2026-10-09T15:02:33.631412Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c071.jsonl:\n{\"id\":\"2:31/q43\",\"question\":\"Tevrat’ta Âdem ve isim verme hakkında hangi paralel anlatı aktarılır?\",\"turns_on\":\"Tevrat anlatısının kronolojisi ve olayları farklıdır.\",\"positions\":[{\"id\":\"2:31/q43/p1\",\"position\":\"Aktarılan Tevrat anlatısında Âdem, canlılar yaratıldıktan sonra ve kadın kaburgasından yaratılmadan önce onlara ad verir.\",\"reasons\":\"Bikāî; gökleri ve yeri, bitkileri, ışıkları, hayvanları ve insanlığı, ardından Aden’i, ırmakları ve yasak ağacı anlatır; yılanın aldatması, kovulma, keruv ve Âdem’in 930 yıl yaşaması bunları izler. Keruv terimini açıklar ve metin nüshalarını karşılaştırır.\"},{\"id\":\"2:31/q43\",\"question\":\"Tevrat’ta Âdem ve isim verme hakkında hangi paralel anlatı aktarılır?\",\"turns_on\":\"Tevrat anlatısının kronolojisi ve olayları farklıdır.\",\"positions\":[{\"id\":\"2:31/q43/p1\",\"position\":\"Aktarılan Tevrat anlatısında Âdem, canlılar yaratıldıktan sonra ve kadın onun kaburgasından yaratılmadan önce onlara ad verir.\",\"reasons\":\"Bikāî; gökleri ve yeri, bitkileri, ışıkları, hayvanları ve insanlığı, ardından Aden’i, ırmakları ve yasak ağacı anlatır; yılanın aldatması, kovulma, keruv ve Âdem’in 930 yıl yaşaması bunları izler. Keruv terimini açıklar ve metin nüshalarını karşılaştırır.\"}\n2026-10-09T15:02:49.287790Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c071.jsonl:\n{\"id\":\"2:40/q01\",\"question\":\"İsrailoğulları kimlerdir?\",\"turns_on\":\"\",\"positions\":[{\"id\":\"2:40/q01/p1\",\"position\":\"İshak oğlu İbrahim’in oğlu Yakub’un soyundan gelenlerdir; adları Yakub’a dayanır.\",\"reasons\":\"Taberî, Âdemoğulları ifadesiyle karşılaştırır; Peygamber’in Yahudilerden İsrail’in Yakub olduğunu doğrulatmasını aktarır; Ebû Hayyân ve Bikāî, bu soydan gelmenin şerefini vurgular.\"}\n2026-10-09T15:03:27.864500Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find context '-51,1 +51,1 @@' in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c071.jsonl\n",
+  "prompt_sha256": "52f3266c1b918a57a52dde8b28752335aecf333b93e27a2a38d6551b24e44212",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-56-46-01a1212a-a9a1-75b3-a0c6-b2e15104dab1.jsonl",
+  "usd_equivalent": 0.038785,
+  "requests": 14,
+  "max_request_input_tokens": 78757,
+  "over_context_cap": false
+}

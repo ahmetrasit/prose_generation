@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c015",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:40:49",
+  "ended": "2026-10-09T10:49:31",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1211c-152b-7bf0-9348-95a1e777ec61",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 565301,
+    "cached_input_tokens": 480000,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 59502,
+    "reasoning_output_tokens": 20241
+  },
+  "stderr": "2026-10-09T14:46:55.280946Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c015.jsonl:\n{\"id\":\"1:1/q35/p14\",\"position\":\"Peygamber'in Fâtiha'nın her hastalığa şifa olduğunu söylediği nakledilir; bu, el-Şâfiye ve eş-Şifâ adlarını açıklar.\",\"reasons\":\"BAYDAWI (النبي): Peygamber'in Fâtiha'nın her hastalığa şifa olduğunu söylediği nakledilir; bu, el-Şâfiye ve eş-Şifâ adlarını açıklar.\"}\n",
+  "prompt_sha256": "dbf4c61f4958c02da9b6cc7aa133af33194fbc5cba4614b23ce74e460fd89a6a",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-40-51-01a1211c-152b-7bf0-9348-95a1e777ec61.jsonl",
+  "usd_equivalent": 0.043081,
+  "requests": 13,
+  "max_request_input_tokens": 86627,
+  "over_context_cap": false
+}

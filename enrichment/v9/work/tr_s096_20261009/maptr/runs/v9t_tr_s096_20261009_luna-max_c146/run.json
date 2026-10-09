@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c146",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:17:30",
+  "ended": "2026-10-09T11:23:07",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1213d-a7ca-7ff3-8fa4-076c2b0babc7",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 453140,
+    "cached_input_tokens": 390144,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37625,
+    "reasoning_output_tokens": 9506
+  },
+  "stderr": "2026-10-09T15:22:26.898422Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c146.jsonl:\n{\"id\":\"20:13/q21\",\"question\":\"Yakındaki ilahî istiwāʾ ne anlama gelir?\",\"turns_on\":\"İstiwāʾ'ın kudreti mi yoksa ayrı bir fiil ya da sıfatı mı ifade ettiği.\",\"positions\":[{\"id\":\"20:13/q21/p1\",\"position\":\"Kudret anlamına gelir.\",\"reasons\":\"Al-Jishumī, Abū ʿAlī'nin açıklamasını daha isabetli bulur ve Kullābī anlatımını anlaşılmaz sayar.\"},{\"id\":\"20:13/q21/p2\",\"position\":\"İstiwāʾ adı verilen bir fiil ya da sıfattır.\",\"reasons\":\"Al-Jishumī bu açıklamayı Kullābīlere nispet eder ve anlaşılır olup olmadığını tartışır.\"}]}\n",
+  "prompt_sha256": "a9ebbf22f95fbb61ea9357c3833035e81623f0e2d81261f1557215d3c407f22e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-17-31-01a1213d-a7ca-7ff3-8fa4-076c2b0babc7.jsonl",
+  "usd_equivalent": 0.029014,
+  "requests": 12,
+  "max_request_input_tokens": 68200,
+  "over_context_cap": false
+}

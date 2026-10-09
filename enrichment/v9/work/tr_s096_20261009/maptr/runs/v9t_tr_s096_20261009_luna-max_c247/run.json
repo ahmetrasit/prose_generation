@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c247",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:45:04",
+  "ended": "2026-10-09T11:50:11",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12156-e164-7881-9b23-0fd6fe138432",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 450086,
+    "cached_input_tokens": 386048,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 36958,
+    "reasoning_output_tokens": 6853
+  },
+  "stderr": "2026-10-09T15:49:38.999082Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c247.jsonl:\n{\"id\":\"91:14/q14\",\"question\":\"Fa-sawwāhā’daki zamir neye dönüyor ve ne düzleştirildi?\",\"turns_on\":\"Dişil ek, varsayılan cezaya, kabileye ya da yeryüzüne dönebilir; bir rivayete göre düzleştirilen, mezarların üzerine çöken evlerdir.\",\"positions\":[{\"id\":\"91:14/q14/p1\",\"position\":\"Ceza ya da varsayılan damdamah anlamına gelir: Allah cezayı herkese eşit biçimde verdi.\",\"reasons\":\"ʿAlī ibn Sulaymān ve İbn Âşûr, zamirin varsayılan dişil damdamah’a döndüğünü belirtir; Zemahşerî, al-Samīn ve al-Ālūsī ceza anlamına gelmesine de imkân tanır. Muqātil ve al-Rāzī, Cebrâil’in sesinin gençleri de yaşlıları da öldürdüğünü aktarır. Elmalılı, daha yakındaki dişil öncülü tercih eder. Bikāî, güçlü ve zayıfın, katiller ve destekçilerinin birlikte öldüğünü ekler; kimse kaçamadı.\"},{\"id\":\"91:14/q14/p2\",\"position\":\"Semûd kabilesine döner: Allah hepsini yerle bir etti ya da yok etti.\",\"reasons\":\"Al-Ālūsī, zamirin ṭaghwāhā ve ashqāhā örneklerinde olduğu gibi kabilenin adıyla dişil uyumu bulunduğunu belirtir; İbn ʿAṭiyya hiç kimsenin sağ kalmadığını söyler. Al-Suddī ve Yaḥyā ibn Sallām gençlerin ve yaşlıların eşit biçimde yok edildiğini belirtir. Tabersî de halkın hep birlikte yere serilip dümdüz edildiğini aktarır.\"},{\"id\":\"91:14/q14/p3\",\"position\":\"Yeryüzüne ya da toprağa döner: Allah onu cesetlerinin ya da evlerinin üzerine dümdüz etti.\",\"reasons\":\"Al-Wāḥidī, İbn Abbas’tan toprağın düzlenmesi açıklamasını aktarır. İbn Âşûr, cesetleri ve evleri gizlediğini söyler ve 4:42’yi karşılaştırır. Elmalılı, düzlemenin daha önceki şekillendirmeyi tersine çevirdiğini söyler; Qutb üst ve alt arazinin harap oluşunu anlatır.\"},{\"id\":\"91:14/q14/p4\",\"position\":\"Allah evlerini, kazıp içine girdikleri mezarların üzerine yıktı.\",\"reasons\":\"Muqātil, Cebrâil’in haykırışından sonra evlerin çöktüğünü söyler; Ibn al-Jawzī aynı anlatımı aktarır ve Ibn Khālawayh onların evlerine mezar der.\"},{\"id\":\"91:14/q14/p5\",\"position\":\"Allah sonraki milletleri Semûd kavmiyle bir tuttu.\",\"reasons\":\"Al-Māwardī, bu başka ihtimali bir gerekçe sunmadan aktarır.\"}]}\n",
+  "prompt_sha256": "ec022ccde42b884dedd08965fabba99bf5c1f5248f9977f149f3b2e808e9b165",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-45-04-01a12156-e164-7881-9b23-0fd6fe138432.jsonl",
+  "usd_equivalent": 0.028743,
+  "requests": 12,
+  "max_request_input_tokens": 66629,
+  "over_context_cap": false
+}

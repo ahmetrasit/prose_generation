@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c143",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:16:45",
+  "ended": "2026-10-09T11:23:29",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1213c-f747-73b2-a25f-c0e872b1a869",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 851253,
+    "cached_input_tokens": 767744,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 49759,
+    "reasoning_output_tokens": 9646
+  },
+  "stderr": "2026-10-09T15:21:52.241360Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c143.jsonl:\n{\"id\":\"19:77/q13\",\"question\":\"Walad, burada ve paralel pasajlarda nasıl okunur?\",\"turns_on\":\"Harekedeki ve sükûndaki farklılıklar ile Nūḥ kıssasındaki kullanımın aynı kalıbı izleyip izlemediği.\",\"positions\":[{\"id\":\"19:77/q13/p1\",\"position\":\"Waladan biçiminde wāw ve lām fetha ile okunur.\",\"reasons\":\"Taberî Medinelilerin, Basralıların ve bazı Kûfelilerin kullanımını aktarır ve daha yaygın lehçe olduğu için bunu tercih eder. Nāfiʿ, ʿĀṣim, Ibn ʿĀmir ve Abū Jaʿfar bunu her yerde kullanır; Ibn Kathīr ve Abū ʿAmr burada böyle okuyup Nūḥ 71:21'de wuld okur; bu kalıpta Yaʿqūb'un adı da verilir. Al-Ḥārith'in beyti biçimi örnekler.\"},{\"id\":\"19:77/q13/p2\",\"position\":\"Wuldan biçiminde wāw ötre, lām sükûn ile okunur.\",\"reasons\":\"Ḥamza ve al-Kisāʾī bunu burada ve paralel pasajlarda okur; adı geçen diğer okuyucular arasında al-Aʿmash, Ṭalḥa, Ibn Abī Laylā, Ibn ʿĪsā al-Iṣbahānī ve ʿAlī bulunur. Kaynaklar, atıfta bulunulan yerlerin sayısı konusunda farklılaşır ve Ibn Kathīr ile Abū ʿAmr'ın yalnızca Nūḥ'ta bu gruba katıldığını belirtir.\"},{\"id\":\"19:77/q13/p3\",\"position\":\"Wulid veya wildan biçiminde wāw kesreli, lām ise yine harekelidir.\",\"reasons\":\"Ibn Masʿūd veya ʿAbd Allāh ile Yaḥyā ibn Yaʿmar'ın adı verilir. Al-Samīn bunu lehçeye özgü bir biçim sayar ve belki edilgen ortaç anlamı olan “doğmuş kişi” diye açıklar; al-Ālūsī aynı anlamı taşıdığını söyler.\"}]}\n",
+  "prompt_sha256": "f0b14e97d2d0dae21d01f49c6cd9bb3fdc06bf0de32e273b136b051761263900",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-16-46-01a1213c-f747-73b2-a25f-c0e872b1a869.jsonl",
+  "usd_equivalent": 0.040908,
+  "requests": 17,
+  "max_request_input_tokens": 79570,
+  "over_context_cap": false
+}

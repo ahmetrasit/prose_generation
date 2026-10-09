@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c157",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:21:01",
+  "ended": "2026-10-09T11:26:57",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12140-dd82-7f70-be50-6c231b958209",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 449051,
+    "cached_input_tokens": 372736,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 41946,
+    "reasoning_output_tokens": 11795
+  },
+  "stderr": "2026-10-09T15:26:35.675565Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c157.jsonl:\n{\"id\":\"22:40/q28\",\"question\":\"Ṣalawāt nedir?\",\"turns_on\":\"Yahudi havraları yaygın açıklamadır; alternatifler Hristiyan, Sâbiî ve ortak ibadet yerlerini veya gerçek anlamda duaları kapsar.\",\"positions\":[{\"id\":\"22:40/q28/p1\",\"position\":\"Yahudi havraları veya ibadet yerleri.\",\"reasons\":\"Al-Ḍaḥḥāk, Qatāda ve İbn Abbas sıklıkla havraları anar ve Aramice ṣalōtā/ṣəlōṯā adını kullanır. Taberî, yerleşik Arapça karşılığı tercih eder. Al-Ṭabrisī, İbn Abbas, al-Ḍaḥḥāk ve Qatāda'dan aktarır.\"},{\"id\":\"22:40/q28/p2\",\"position\":\"Sâbiî tapınakları veya ibadet yerleri.\",\"reasons\":\"Abū al-ʿĀliya sıkça başvurulan bir otoritedir.\"},{\"id\":\"22:40/q28/p3\",\"position\":\"Özellikle Müslüman namazları olmak üzere, düşmanların engelleyeceği ibadet eylemleri.\",\"reasons\":\"Ibn Zayd, istilanın Müslümanların namazını aksatacağını söyler; al-Ḥasan, namazı engellemenin namaz kılanları öldürmek veya ibadet etmelerini önlemek olduğunu söyler.\"},{\"id\":\"22:40/q28/p4\",\"position\":\"Hristiyan kiliseleri, şapeller veya yolcuların ibadet yerleri.\",\"reasons\":\"İbn Abbas bir Hristiyan kilisesi rivayetini aktarır; Abū ʿUbayda yolcular için vahadaki evleri, Qutrub ise küçük manastırları anlatır; Ibn Jinnī, Musul yakınlarındaki Hristiyan mezarlıklarını aktarır.\"},{\"id\":\"22:40/q28/p5\",\"position\":\"Kitap ehli topluluklarla Müslümanların ortak kullandığı yol kenarı ibadet yerleri.\",\"reasons\":\"Mücâhid yol üzerindeki mekânları anlatır; Ibn ʿAṭiyya listeyi çok sayıda mekâna işaret eden bir ifade sayar.\"}]}\n",
+  "prompt_sha256": "65a7a888d646455f2395e455ad345f72c6a150a7a444fc24389dc51af6131e66",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-21-01-01a12140-dd82-7f70-be50-6c231b958209.jsonl",
+  "usd_equivalent": 0.032332,
+  "requests": 12,
+  "max_request_input_tokens": 70778,
+  "over_context_cap": false
+}

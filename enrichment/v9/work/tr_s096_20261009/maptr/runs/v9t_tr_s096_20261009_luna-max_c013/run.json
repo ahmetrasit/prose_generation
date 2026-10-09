@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c013",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:40:49",
+  "ended": "2026-10-09T10:45:56",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1211c-154e-77e0-9e8e-ef6abf99a63d",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 300080,
+    "cached_input_tokens": 247296,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30621,
+    "reasoning_output_tokens": 15293
+  },
+  "stderr": "2026-10-09T14:40:59.817979Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: invalid peer certificate: UnknownIssuer, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:45:01.366745Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c013.jsonl:\n{\"id\":\"1:1/q32\",\"question\":\"Besmele Fâtiha sûresinin bir ayeti midir?\",\"turns_on\":\"Kur'an'daki bir açılış ayetinin Fâtiha'nın kendisine mi ait olduğu, yoksa ayet sayımının dışında mı kaldığı.\",\"positions\":[\n",
+  "prompt_sha256": "db6c7713918b4c1a03adbac0aef78bbce1b8a666b7442570c38d5c58c4def634",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-40-51-01a1211c-154e-77e0-9e8e-ef6abf99a63d.jsonl",
+  "usd_equivalent": 0.023062,
+  "requests": 10,
+  "max_request_input_tokens": 54451,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c216",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:36:46",
+  "ended": "2026-10-09T11:42:03",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1214f-4a16-76d3-9412-05093a8570af",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 457283,
+    "cached_input_tokens": 384000,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37137,
+    "reasoning_output_tokens": 10634
+  },
+  "stderr": "2026-10-09T15:41:32.173121Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c216.jsonl:\n{\"id\":\"68:43/q14/p1\",\"position\":\"Ezan ve ikamet yoluyla, özellikle “Hayye ale'l-felâh” ya da “Hayye ale's-salâh” çağrısıyla.\",\"reasons\":\"Ibrāhīm al-Taymī ezan ve ikameti belirtir; Saʿīd ibn Jubayr onların “Hayye ale'l-felâh” sözünü duydukları hâlde gelmediklerini söyler; İbn Abbas çağrıyı duyup görmezden geldiklerini anlatır; Bursawī âlimlerin davetlerinden de söz eder.\"}\n",
+  "prompt_sha256": "89901a756d2a59a69ddc96bf4a2f942d4c6df70967c5b6f377052b76e234f7ac",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-36-46-01a1214f-4a16-76d3-9412-05093a8570af.jsonl",
+  "usd_equivalent": 0.029737,
+  "requests": 12,
+  "max_request_input_tokens": 66809,
+  "over_context_cap": false
+}

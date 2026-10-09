@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c132",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:12:44",
+  "ended": "2026-10-09T11:19:42",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12139-4994-71f3-94aa-00702bb97b0c",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 482364,
+    "cached_input_tokens": 403456,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 50744,
+    "reasoning_output_tokens": 11177
+  },
+  "stderr": "2026-10-09T15:18:41.053212Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c132.jsonl:\n{\"id\":\"17:14/q25\",\"question\":\"Bu anlatım önceki pasajla nasıl bağlantı kurar?\",\"turns_on\":\"Önceki hangi tema her kişinin kaydına ve hesabına geçiş sağlar.\",\"positions\":[{\"id\":\"17:14/q25/p1\",\"position\":\"Vahiy ve uyarı delili ortaya koymuştur; kayıtlar hükme bağlandığında mazeret kalmaz.\",\"reasons\":\"Al-Rāzī, işaretler ve uyarıların anlatımının tamamlanmasının kayda geçiş sağladığını söyler; al-Ālūsī onun Allah'ın birliği, peygamberlik ve diriliş delilini aktarır. Kuranyolu likewise...\"}]}\n",
+  "prompt_sha256": "a767486c65f9036468a1e0f7c889f84efc792bac65c357667d864284219d6916",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-12-44-01a12139-4994-71f3-94aa-00702bb97b0c.jsonl",
+  "usd_equivalent": 0.037297,
+  "requests": 12,
+  "max_request_input_tokens": 79188,
+  "over_context_cap": false
+}

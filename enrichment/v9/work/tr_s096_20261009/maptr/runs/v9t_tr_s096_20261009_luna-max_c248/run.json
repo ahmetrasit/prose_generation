@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c248",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:45:09",
+  "ended": "2026-10-09T11:50:01",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12156-f644-7133-9a3c-95d5df892492",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 313779,
+    "cached_input_tokens": 258560,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33814,
+    "reasoning_output_tokens": 11139
+  },
+  "stderr": "2026-10-09T15:49:39.948289Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c248.jsonl:\n{\"id\":\"92:6/q07/p4\",\"position\":\"Ebû'd-Dahdâh, sahibinin cennetteki bir hurma ağacı karşılığında teklif edilen hurmayı reddettiği bahçesini takas edip onu yoksul komşuya verdi.\",\"reasons\":\"Atâ, meyvenin komşunun evine düştüğünü ve sahibinin Peygamber'in teklifini reddettiğini aktarır. Veren Ebû'd-Dahdâh, cimri ise Ensarlı hurma sahibidir; onların kolaylık ve zorlukları cennetle cehenneme götürür, cimrinin malı da ölümüyle elinden çıkar. el-Âlûsî benzer bir sebep rivayetini kaydeder.\"}\n",
+  "prompt_sha256": "5b4a485bfea5374fd8d7b9f2a760a0d740dc0fd9e67c6efc794b845bdf32e14f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-45-09-01a12156-f644-7133-9a3c-95d5df892492.jsonl",
+  "usd_equivalent": 0.025014,
+  "requests": 10,
+  "max_request_input_tokens": 60211,
+  "over_context_cap": false
+}

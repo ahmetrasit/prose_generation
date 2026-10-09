@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c096",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:03:43",
+  "ended": "2026-10-09T11:08:36",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12131-07f2-7453-aec2-6b6682249a2d",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 556218,
+    "cached_input_tokens": 493056,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33567,
+    "reasoning_output_tokens": 8902
+  },
+  "stderr": "2026-10-09T15:08:16.522735Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c096.jsonl:\n{\"id\":\"3:44/q18\",\"question\":\"Kura ne zaman çekildi?\",\"turns_on\":\"Anlatının ilk vesayetle mi, daha sonraki bir devirle mi ilgili olduğu ve anlatım sırasının kronolojik olup olmadığı.\",\"positions\":[{\"id\":\"3:44/q18/p1\",\"position\":\"Meryem’in doğumunda ya da adanmış bir çocuk olarak mabede sunulduğunda ilk vasiyi belirlemek için.\",\"reasons\":\"Tabrisî bunu çoğunluğa nispet eder; Âlûsî dayanak kabul edilen görüş olduğunu söyler. Bâkır, ailesiyle ihtilafa düşen Meryem’in babasının ölmüş olduğunu söyler. Tabâtabâî, anlatım sırasına dayanan itirazı reddeder; çünkü Kur’an kıssaları 12:102’de olduğu gibi ayrıntıları tekrar edebilir.\"},{\"id\":\"3:44/q18/p2\",\"position\":\"Daha sonra, Zekeriyya Meryem’i geçindiremez ya da büyütemez olduğunda; özellikle zorluk ya da yetişkinlik döneminde.\",\"reasons\":\"İbn İshak kıtlık ve geçimin devredilmesi rivayetini aktarır; Saîd, Zekeriyya’nın önce onu kurasız himayesine aldığını, sonra yardım istediğini söyler. Bazıları, Kur’an’da kuranın ilk vesayetten sonra anlatılmasını daha geç bir tarihe işaret sayar.\"},{\"id\":\"3:44/q18/p3\",\"position\":\"Kura iki kez, ilk yerleştirmede ve sonraki bir krizde çekildi.\",\"reasons\":\"Âlûsî bundan, yalnızca daha sonraki kurayı kabul eden görüşten de zayıf bir ihtimal olarak söz eder.\"}]}\n",
+  "prompt_sha256": "af8a572f7c84616e8536966cee551d8efb2a227aaf3412ddff3b7b3be5b1f49e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-03-43-01a12131-07f2-7453-aec2-6b6682249a2d.jsonl",
+  "usd_equivalent": 0.02803,
+  "requests": 14,
+  "max_request_input_tokens": 63087,
+  "over_context_cap": false
+}

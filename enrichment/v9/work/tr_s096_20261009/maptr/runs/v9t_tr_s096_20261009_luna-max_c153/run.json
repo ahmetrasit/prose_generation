@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s096_20261009_luna-max_c153",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:19:12",
+  "ended": "2026-10-09T11:24:42",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1213f-36a0-7121-bdd2-e8844c348a60",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 456226,
+    "cached_input_tokens": 392960,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37583,
+    "reasoning_output_tokens": 7509
+  },
+  "stderr": "2026-10-09T15:23:55.780303Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s096_20261009/maptr/out/luna-max/c153.jsonl:\n{\"id\":\"20:131/q09\",\"question\":\"زهرة nasıl okunur?\",\"turns_on\":\"Hâ harfinin sakin veya üstünlü okunması; bazıları üstünlü biçimi lehçe özelliğiyle ya da çoğul oluşuyla açıklar.\",\"positions\":[{\"id\":\"20:131/q09/p1\",\"position\":\"Hâ harfi sakin okunur; bu genel veya çoğunluğun okuyuşudur.\",\"reasons\":\"Zeccâc, İbn Atıyye, Tabrisî, Ebû Hayyân, Semîn, N​​ashr ve İbn Âşûr bu okuyuşu kaydeder; Kıraatler ER'ye göre her iki seslendirmenin kök anlamı aynıdır.\"},{\"id\":\"20:131/q09/p2\",\"position\":\"Özellikle Ya'kūb'a ve başka kurrâya nispet edilen okuyuşta hâ harfi üstünlüdür.\",\"reasons\":\"Cüşemî ve Beyzâvî bunu lehçe biçimi sayar; İbnü'l-Cevzî, İbn Mes'ûd, Hasan, Zührî ve Ya'kūb'u anar; Ebû Hayyân ve Âlûsî Ebû Hayve, Talha, Humeyd, Sellâm, Sehl ve Îsâ'yı ekler. Kıraatler ER, hece ağırlığının değiştiğini, kök anlamının değişmediğini söyler. İbn Cinnî, Basralıların kuralı işitilerek bilinen gırtlaksı lehçelerle sınırlamasını, Kûfelilerin ise boğaz seslerine genişletmesini karşılaştırır; Âlûsî Kûfe kuralını aktarır.\"}]}\n",
+  "prompt_sha256": "48828e0554f3b0c55e08285fcd2d94367ba6d05775c025275c4eafdb2a296097",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-19-13-01a1213f-36a0-7121-bdd2-e8844c348a60.jsonl",
+  "usd_equivalent": 0.029048,
+  "requests": 13,
+  "max_request_input_tokens": 66254,
+  "over_context_cap": false
+}
