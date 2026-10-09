@@ -112,11 +112,15 @@ runs; run all their spawn files through one `codex_run.py` call (one Luna cap). 
 |---|---|---|---|---|---|---|
 | 103 (page 103:1) | test (`w103_1-20261008`, `meal103_1-r2-20261009`) | done | done (`maptest-20261008`, `map-103_1-20261008`) | not yet | done; published privately (https://claude.ai/artifact/TnbnSk6SvZYrQSKWZBaDXs) | done |
 | 96 | `work/prod_s096` (19 pages, 475 verses) | `t1_s096_20261009`: 1,464 chunks, **running** (log `work/t1_s096_s103.run.log`) | — | — | — | — |
-| 103 (pages 103:2, 103:3) | `work/prod_s103` (95 verses) | `t1_s103_20261009`: 52 chunks, **running** (same log) | — | — | — | — |
+| 103 (pages 103:2, 103:3) | `work/prod_s103` (95 verses) | `t1_s103_20261009`: 52 chunks, **running first** (same log) | — | — | — | — |
+| 87 | `work/prod_s087` (19 pages, 443 verses) | `t1_s087_20261009`: 993 chunks, **built, not started**; 5,291 of its segments sit in the S96 run, so start it when S96's tier 1 is done | — | — | — | — |
 
 The S96 tier-1 run also holds the 103:1 completion (103:3, the short editions now kept, the 37 excerpt-only
 segments); after its maps stage, `map.py update-all` brings the 103:1 page's maps up to date. The 103:1 page itself is
 not rewritten (no second analysis).
+
+Order (user, 2026-10-09): S103 pages 103:2–3 first (start their maps as soon as the 52 S103 chunks are checked, without
+waiting for S96), S96 tier 1 continues in the background, then S96, then S87.
 
 Next, in order: when `codex_run.py` exits (log ends, no `codex exec` processes), run `digest.py check` and `report`
 for both tier-1 runs; then stage 2 for S103 (pages 103:2–3) and S96 (`map.py build` per surah, then `update-all`),
