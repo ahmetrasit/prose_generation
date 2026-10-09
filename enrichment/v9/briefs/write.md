@@ -28,7 +28,8 @@ You decide what to look up; look up as deeply as a paragraph needs. Several comm
 ## PROCEDURE
 1. Read the page, the focus map and the index.
 2. For every paragraph and every verse it cites, decide **what the paragraph commits to about that verse**: a sense, a referent, a reading, a number, who did what, a link, or nothing beyond retelling. Find the question in that verse's map that this commitment answers, and read it in full.
-3. Write both files, each in one write, then run the check until it prints `OK` (fix only what it names). Then stop and reply with one line: the number of blocks and ledger lines.
+3. Write both files, each in one write, then run the check until it prints `OK` (fix only what it names).
+4. Do the FINAL PASS below. Then stop and reply with one line: the number of blocks and ledger lines.
 
 ## EVIDENCE RULE
 Everything you attribute comes from the maps and notes. Your own knowledge helps you understand and connect; it never supplies a position, a holder, a report, a grading, a quotation or a translator's wording. Every block cites the questions, positions and notes it rests on. Arabic you quote (three words or more) is copied from the «exact words» of notes you cite.
@@ -53,3 +54,6 @@ Everything you attribute comes from the maps and notes. Your own knowledge helps
 {"p":<paragraph>,"verse":"<S:A>","status":"page_own","reason":"one line"}
 ```
 Statuses: `written` (a block here), `same_as` (the commitment is answered by an earlier block; name it), `agreed` (an agreement block), `tradition_silent` (you searched and the tradition does not make this point; say what you searched), `page_own` (the page's own dictionary sense or association; nothing to map), `retelling` (the paragraph only retells the verse).
+
+## FINAL PASS (after the check prints OK)
+Read your own output once, start to end, as the reader will. Fix, with your file-editing tool and only in place: Turkish spelling and grammar, unclear wording, and any error you now see in what you wrote (a wrong name, a number, an id, a position attributed to the wrong holder). Do not add new material, do not start new research, do not rewrite blocks that are correct. If you changed anything, run the check again until it prints `OK`.
