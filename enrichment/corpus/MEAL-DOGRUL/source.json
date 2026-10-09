@@ -20,7 +20,7 @@
   },
   "licence": "Public domain: author died 1952. Public Internet Archive upload (hanifisar@gmail.com, 2023); OCR text only.",
   "fetched_at": "2026-10-09",
-  "notes": "Public domain: author died 1952. OCR (archive.org djvu text) of the third printing (1955), read from raw/acquired-2026-10-09; segments are the book's own verse units: verse groups as printed («6,7», «4-5»), `printed` keeps the numbers as printed, the page-foot tafsir footnotes are in `notes` of the verse they are marked at. 186 verse units lost a verse number in the OCR: the unit then covers the verse before and the lost one (listed in the ingestion record under verse_numbers_lost_in_ocr_text_kept_as_group). The book's verse numbering differs from the project's Hafs count in surahs 4, 5, 7, 13, 19, 23, 29, 45, 46, 74, 77, 78, 91 (see surah_headers_with_other_ayah_count; some of these differences are OCR misreads of the printed count); there the units carry the book's numbers, numbers beyond the project's count are kept with its last verse. Fâtiha is stored with the besmele as 1:1 (the book does not number it). OCR quality: good running text, but diacritics are partly lost (ü/u, â/a), hyphenated line ends are joined, and stray fragments of the Arabic text boxes remain here and there. No verse without text. OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
+  "notes": "Public domain: author died 1952. OCR (archive.org djvu text) of the third printing (1955), read from raw/acquired-2026-10-09; segments are the book's own verse units: verse groups as printed («6,7», «4-5»), `printed` keeps the numbers as printed, the page-foot tafsir footnotes are in `notes` of the verse they are marked at. 186 verse units lost a verse number in the OCR: the unit then covers the verse before and the lost one (listed in the ingestion record under verse_numbers_lost_in_ocr_text_kept_as_group). The book's verse numbering differs from the project's Hafs count in surahs 4, 5, 7, 13, 19, 23, 29, 45, 46, 74, 77, 78, 91 (see surah_headers_with_other_ayah_count; some of these differences are OCR misreads of the printed count). In the surahs of ingestion.renumbered_surahs (3, 4, 5, 7, 8, 9, 11, 13, 18, 19, 23, 26, 45) the book's numbers are off from some verse on (it splits or joins ayat differently): their units were assigned to the project's ayat by text alignment against twelve other Turkish meals (2026-10-09 review); `printed` keeps the book's numbers and the segment carries `renumbered`. In any other differing surah the units carry the book's numbers, numbers beyond the project's count are kept with its last verse. Fâtiha is stored with the besmele as 1:1 (the book does not number it). OCR quality: good running text, but diacritics are partly lost (ü/u, â/a), hyphenated line ends are joined, and stray fragments of the Arabic text boxes remain here and there. No verse without text. OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
   "acquisition": {
     "date": "2026-10-09",
     "state": "raw_downloaded",
@@ -28,7 +28,7 @@
     "files": 1,
     "bytes": 2847686
   },
-  "segments": 6037,
+  "segments": 6043,
   "ingestion": {
     "date": "2026-10-09",
     "script": "enrichment/v2/fetch/import_meal_dogrul.py",
@@ -238,20 +238,77 @@
       "95:4-5"
     ],
     "book_numbers_beyond_project_count": [
-      "5:121",
-      "5:122",
-      "5:123",
-      "9:130",
-      "11:125",
-      "13:44",
-      "13:45",
-      "18:111",
-      "19:99",
-      "23:119",
       "72:29",
       "91:16",
       "103:4"
     ],
+    "renumbered_surahs": {
+      "3": {
+        "units": 196,
+        "moved": 5,
+        "gain": 1.2
+      },
+      "4": {
+        "units": 165,
+        "moved": 163,
+        "gain": 41.5
+      },
+      "5": {
+        "units": 119,
+        "moved": 117,
+        "gain": 40.5
+      },
+      "7": {
+        "units": 194,
+        "moved": 194,
+        "gain": 53.4
+      },
+      "8": {
+        "units": 71,
+        "moved": 21,
+        "gain": 5.2
+      },
+      "9": {
+        "units": 127,
+        "moved": 122,
+        "gain": 37.4
+      },
+      "11": {
+        "units": 118,
+        "moved": 24,
+        "gain": 5.4
+      },
+      "13": {
+        "units": 45,
+        "moved": 39,
+        "gain": 12.4
+      },
+      "18": {
+        "units": 97,
+        "moved": 70,
+        "gain": 16.4
+      },
+      "19": {
+        "units": 92,
+        "moved": 45,
+        "gain": 7.8
+      },
+      "23": {
+        "units": 109,
+        "moved": 71,
+        "gain": 9.9
+      },
+      "26": {
+        "units": 205,
+        "moved": 23,
+        "gain": 2.4
+      },
+      "45": {
+        "units": 36,
+        "moved": 36,
+        "gain": 8.6
+      }
+    },
     "surah_headers_with_other_ayah_count": {
       "4": "book 175, project 176",
       "5": "book 123, project 120",
@@ -273,6 +330,19 @@
       "surah 55: no «Meal-i Kerimi» line; verses taken from the first «1 …» paragraph",
       "surah 66: no «Meal-i Kerimi» line; verses taken from the first «1 …» paragraph",
       "surah 72: no «Meal-i Kerimi» line; verses taken from the first «1 …» paragraph",
+      "surah 3: the book's verse numbers differ from the project's count: 5 of 196 units assigned to other ayat by text alignment (gain 1.2); `printed` keeps the book's numbers",
+      "surah 4: the book's verse numbers differ from the project's count: 163 of 165 units assigned to other ayat by text alignment (gain 41.5); `printed` keeps the book's numbers",
+      "surah 5: the book's verse numbers differ from the project's count: 117 of 119 units assigned to other ayat by text alignment (gain 40.5); `printed` keeps the book's numbers",
+      "surah 7: the book's verse numbers differ from the project's count: 194 of 194 units assigned to other ayat by text alignment (gain 53.4); `printed` keeps the book's numbers",
+      "surah 8: the book's verse numbers differ from the project's count: 21 of 71 units assigned to other ayat by text alignment (gain 5.2); `printed` keeps the book's numbers",
+      "surah 9: the book's verse numbers differ from the project's count: 122 of 127 units assigned to other ayat by text alignment (gain 37.4); `printed` keeps the book's numbers",
+      "surah 11: the book's verse numbers differ from the project's count: 24 of 118 units assigned to other ayat by text alignment (gain 5.4); `printed` keeps the book's numbers",
+      "surah 13: the book's verse numbers differ from the project's count: 39 of 45 units assigned to other ayat by text alignment (gain 12.4); `printed` keeps the book's numbers",
+      "surah 18: the book's verse numbers differ from the project's count: 70 of 97 units assigned to other ayat by text alignment (gain 16.4); `printed` keeps the book's numbers",
+      "surah 19: the book's verse numbers differ from the project's count: 45 of 92 units assigned to other ayat by text alignment (gain 7.8); `printed` keeps the book's numbers",
+      "surah 23: the book's verse numbers differ from the project's count: 71 of 109 units assigned to other ayat by text alignment (gain 9.9); `printed` keeps the book's numbers",
+      "surah 26: the book's verse numbers differ from the project's count: 23 of 205 units assigned to other ayat by text alignment (gain 2.4); `printed` keeps the book's numbers",
+      "surah 45: the book's verse numbers differ from the project's count: 36 of 36 units assigned to other ayat by text alignment (gain 8.6); `printed` keeps the book's numbers",
       "surah 94: 6 numbered units for 8 verses; read line by line",
       "94:1-8: printed as 2 unnumbered paragraphs; stored as one group",
       "surah 97: 0 numbered units for 5 verses; read line by line",
@@ -376,10 +446,10 @@
         "Bismi'llahi'rrahmani'rrahim"
       ]
     },
-    "segments": 6037,
-    "tied_to_ayah": 5882,
+    "segments": 6043,
+    "tied_to_ayah": 5888,
     "with_cited_ayat": 17,
-    "characters": 1587020,
+    "characters": 1586963,
     "ocr_corrections": {
       "date": "2026-10-09",
       "script": "enrichment/v2/fetch/ocr_fix.py",
@@ -394,15 +464,15 @@
       "fixes_per_rule": {
         "hyphen": 1307,
         "case": 5,
-        "sub": 263,
+        "sub": 269,
         "join": 60
       },
-      "segments_changed": 501,
+      "segments_changed": 505,
       "confusions_used_beyond_core": [
         "ü>û",
         "ı>i"
       ],
-      "sub_candidates_left_alone_unconfirmed": 215,
+      "sub_candidates_left_alone_unconfirmed": 209,
       "space_join_runs_left_alone_ambiguous": 0,
       "samples": [
         {
@@ -418,10 +488,10 @@
           "rule": "hyphen"
         },
         {
-          "seg": "MEAL-DOGRUL:87:intro",
-          "from": "kı lacağı",
-          "to": "kılacağı",
-          "rule": "join"
+          "seg": "MEAL-DOGRUL:70:14",
+          "from": "mahlükatı",
+          "to": "mahlûkatı",
+          "rule": "sub"
         },
         {
           "seg": "MEAL-DOGRUL:front119",
@@ -472,21 +542,21 @@
           "rule": "hyphen"
         },
         {
-          "seg": "MEAL-DOGRUL:7:202",
-          "from": "basi- retleri",
-          "to": "basiretleri",
-          "rule": "hyphen"
+          "seg": "MEAL-DOGRUL:7:148",
+          "from": "Türa",
+          "to": "Tûra",
+          "rule": "sub"
         },
         {
-          "seg": "MEAL-DOGRUL:5:65",
-          "from": "yeme ğe",
-          "to": "yemeğe",
+          "seg": "MEAL-DOGRUL:5:41",
+          "from": "çe kinin",
+          "to": "çekinin",
           "rule": "join"
         },
         {
-          "seg": "MEAL-DOGRUL:back008",
-          "from": "peygam-\nberlerin",
-          "to": "peygamberlerin",
+          "seg": "MEAL-DOGRUL:back006",
+          "from": "ha-\nyatta",
+          "to": "hayatta",
           "rule": "hyphen"
         },
         {
@@ -532,15 +602,15 @@
           "rule": "hyphen"
         },
         {
-          "seg": "MEAL-DOGRUL:20:102",
-          "from": "Süra",
-          "to": "Sûra",
+          "seg": "MEAL-DOGRUL:19:23",
+          "from": "gibı",
+          "to": "gibi",
           "rule": "sub"
         },
         {
-          "seg": "MEAL-DOGRUL:10:15",
-          "from": "yahu- dilerden",
-          "to": "yahudilerden",
+          "seg": "MEAL-DOGRUL:10:4",
+          "from": "mükâfatlan- dırır",
+          "to": "mükâfatlandırır",
           "rule": "hyphen"
         },
         {
@@ -568,21 +638,21 @@
           "rule": "hyphen"
         },
         {
-          "seg": "MEAL-DOGRUL:12:47",
-          "from": "ekersinız",
-          "to": "ekersiniz",
+          "seg": "MEAL-DOGRUL:12:6",
+          "from": "çevırır",
+          "to": "çevirir",
           "rule": "sub"
         },
         {
-          "seg": "MEAL-DOGRUL:33:6",
-          "from": "Halbukı",
-          "to": "Halbuki",
+          "seg": "MEAL-DOGRUL:29:66",
+          "from": "kımseye",
+          "to": "kimseye",
           "rule": "sub"
         },
         {
-          "seg": "MEAL-DOGRUL:5:85",
-          "from": "Yahu- dilerle",
-          "to": "Yahudilerle",
+          "seg": "MEAL-DOGRUL:5:64",
+          "from": "ola- mazdı",
+          "to": "olamazdı",
           "rule": "hyphen"
         }
       ],

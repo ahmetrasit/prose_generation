@@ -169,10 +169,101 @@ def chunks(lines: list[str], size: int = 4000) -> list[str]:
     return out
 
 
+# --- the book's verse numbering against the project's Hafs count ------------------------------------------------------
+# Doğrul's numbering (Turkish print of the 1950s) splits or joins verses differently from the Hafs count in several
+# surahs, so «printed» numbers there are off by one or more from some verse on. The units are tied to the canonical
+# ayat by a monotone alignment (dynamic programming) of the units' text against the same ayat in twelve other Turkish
+# meals (word-prefix overlap): several units may share one ayah (the book splits it), a unit may cover several ayat
+# (the book joins them). Adopted for a surah only when the units it moves fit their new ayat clearly better than their
+# printed ones (summed gain of the moved units >= REMAP_GAIN, at least two units moved).
+REMAP_REFS = ["MEAL-DIB", "MEAL-ELMALILI", "MEAL-BILMEN", "MEAL-YAKIT", "MEAL-OCELIK", "MEAL-IZMIRLI", "MEAL-ATAY",
+              "MEAL-CAKIR", "MEAL-HAYRAT", "MEAL-ESED", "MEAL-DEMIRYENT", "MEAL-BAYRAKLI"]
+REMAP_GAIN = 1.0
+_REMAP_R: dict = {}
+
+
+def _toks(t: str) -> set[str]:
+    import unicodedata
+    t = t.lower().replace("ı", "i")
+    t = "".join(c for c in unicodedata.normalize("NFD", t) if not unicodedata.combining(c))
+    return {w[:5] for w in re.findall(r"[a-z]{4,}", t.replace("ş", "s").replace("ç", "c").replace("ğ", "g"))}
+
+
+def _remap_refs() -> dict:
+    if not _REMAP_R:
+        for r in REMAP_REFS:
+            path = IC.src_dir(r) / "segments.jsonl"
+            if not path.exists():
+                continue
+            d: dict = {}
+            for line in path.open(encoding="utf-8"):
+                x = IC.json.loads(line)
+                if x.get("s") and x["seg"].rsplit(":", 1)[-1].isdigit():
+                    for q in range(x["a"], x["a_end"] + 1):
+                        d.setdefault(x["s"], {}).setdefault(q, []).append(x["text"])
+            _REMAP_R[r] = {s_: {q: _toks(" ".join(ts)) for q, ts in v.items()} for s_, v in d.items()}
+    return _REMAP_R
+
+
+def remap_units(sn: int, units: list[dict], nv: int, maxw: int = 4):
+    """Canonical (p, q) for every unit by monotone alignment, and the gain over the book's own numbers; None if no path."""
+    import math
+    m = len(units)
+    refs = _remap_refs()
+    ts = [_toks(u["text"]) for u in units]
+    wt = [min(len(t), 25) / 25 for t in ts]
+    cache: dict = {}
+
+    def sc_of(i: int, p: int, q: int) -> float:
+        k = (i, p, q)
+        if k not in cache:
+            best = 0.0
+            for r in refs.values():
+                dd = r.get(sn, {})
+                un: set = set()
+                for v in range(p, q + 1):
+                    un |= dd.get(v, set())
+                if ts[i] and un:
+                    best = max(best, len(ts[i] & un) / math.sqrt(len(ts[i]) * len(un)))
+            cache[k] = best * wt[i]
+        return cache[k]
+
+    def ident(u: dict) -> tuple[int, int]:
+        return min(u["a"], nv), min(u["a_end"], nv)
+    NEG = -1e9
+    dp: list[dict] = [dict() for _ in range(m)]
+    back: list[dict] = [dict() for _ in range(m)]
+    for q in range(1, min(maxw, nv) + 1):
+        dp[0][(1, q)] = sc_of(0, 1, q) - 0.1 * (q - 1) + (0.05 if (1, q) == ident(units[0]) else 0)
+        back[0][(1, q)] = None
+    for i in range(1, m):
+        for (p0, q0), s0 in dp[i - 1].items():
+            for p in (q0, q0 + 1):
+                if p > nv:
+                    continue
+                for q in range(p, min(p + maxw - 1, nv) + 1):
+                    sc = s0 + sc_of(i, p, q) - 0.1 * (q - p) - (0.15 if p == q0 else 0) + (0.05 if (p, q) == ident(units[i]) else 0)
+                    if sc > dp[i].get((p, q), NEG):
+                        dp[i][(p, q)] = sc
+                        back[i][(p, q)] = (p0, q0)
+    cands = [(sc, k) for k, sc in dp[m - 1].items() if k[1] == nv]
+    if not cands:
+        return None, 0.0
+    best, k = max(cands)
+    path = [k]
+    for i in range(m - 1, 0, -1):
+        k = back[i][k]
+        path.append(k)
+    path.reverse()
+    gain = sum(sc_of(i, p_, q_) - sc_of(i, *ident(u)) for i, (u, (p_, q_)) in enumerate(zip(units, path)) if ident(u) != (p_, q_))
+    return path, gain
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--dry", action="store_true")
     ap.add_argument("--dump")
+    ap.add_argument("--no-remap", action="store_true", help="keep the book's own verse numbers")
     ap.add_argument("--runs", action="store_true", help="print the missing verses as runs per surah")
     ap.add_argument("--show", type=int, help="print the units of this surah")
     a = ap.parse_args()
@@ -180,6 +271,7 @@ def main() -> None:
     raw = (IC.src_dir(SID) / RAW).read_text(encoding="utf-8").replace("\f", "\n")
     L = raw.split("\n")
     stats: Counter = Counter()
+    renumbered: dict = {}
     issues: list[str] = []
     dropped: dict[str, list[str]] = {}
 
@@ -565,6 +657,32 @@ def main() -> None:
         if counts[sn] <= 15 and sn > 1 and len(units) < counts[sn] - 1 and vlog.get(sn):
             issues.append(f"surah {sn}: {len(units)} numbered units for {counts[sn]} verses; read line by line")
             units = line_mode(sn)
+        if sn > 1 and len(units) >= 10 and not a.no_remap:
+            units = sorted(units, key=lambda u: (u["a"], u["a_end"]))
+            path, gain = remap_units(sn, units, counts[sn])
+            moved = sum(1 for u, (p_, q_) in zip(units, path or []) if (min(u["a"], counts[sn]), min(u["a_end"], counts[sn])) != (p_, q_))
+            if path is not None and gain >= REMAP_GAIN and moved >= 2:
+                renumbered[str(sn)] = {"units": len(units), "moved": moved, "gain": round(gain, 1)}
+                issues.append(f"surah {sn}: the book's verse numbers differ from the project's count: {moved} of {len(units)} units "
+                              f"assigned to other ayat by text alignment (gain {gain:.1f}); `printed` keeps the book's numbers")
+                merged: list[dict] = []
+                for u, (p_, q_) in zip(units, path):
+                    u = dict(u)
+                    u["bookA"], u["bookZ"] = u["a"], u["a_end"]
+                    u["a"], u["a_end"] = p_, q_
+                    if merged and p_ <= merged[-1]["a_end"]:  # the book splits this ayah: one segment of the canonical ayah
+                        x_ = merged[-1]
+                        x_["text"] = (x_["text"] + " " + u["text"]).strip()
+                        x_["printed"] += "," + u["printed"]
+                        x_["a_end"] = max(x_["a_end"], q_)
+                        x_["renumbered"] = True
+                        if u.get("junk"):
+                            x_["junk"] = (x_.get("junk") or "") + u["junk"]
+                    else:
+                        if (u["bookA"], u["bookZ"]) != (p_, q_):
+                            u["renumbered"] = True
+                        merged.append(u)
+                units = merged
         for u in units:
             a0, a1 = u["a"], u["a_end"]
             if a0 > counts[sn]:  # the book numbers more verses than the project's count: kept with the last one
@@ -573,8 +691,9 @@ def main() -> None:
             a1 = min(a1, counts[sn])
             if sn in SHIFT:
                 a0, a1 = min(a0 + SHIFT[sn], counts[sn]), min(a1 + SHIFT[sn], counts[sn])
-            if u.get("lostgap") and u["a"] != u["a_end"]:
-                lost_numbers.append(f"{sn}:{u['a']}-{u['a_end']}" if u["a_end"] > u["a"] else f"{sn}:{u['a']}")
+            if u.get("lostgap") and u.get("bookA", u["a"]) != u.get("bookZ", u["a_end"]):
+                lz, la = u.get("bookZ", u["a_end"]), u.get("bookA", u["a"])
+                lost_numbers.append(f"{sn}:{la}-{lz}" if lz > la else f"{sn}:{la}")
             key = (sn, a0)
             if key in verses:  # Fâtiha 6 and 7 together are 1:7
                 x = verses[key]
@@ -583,7 +702,7 @@ def main() -> None:
                 x["a_end"] = max(x["a_end"], a1)
             else:
                 verses[key] = {"parts": [u["text"]] if u["text"] else [], "notes": [], "s": sn, "a": a0, "a_end": a1,
-                               "printed": u["printed"], "head": u.get("head")}
+                               "printed": u["printed"], "head": u.get("head"), "renumbered": u.get("renumbered", False)}
             if u.get("junk"):
                 verses[key]["notes"].append("[unmarked] " + u["junk"])
             if u.get("lostgap"):
@@ -645,6 +764,8 @@ def main() -> None:
             issues.append(f"{sn}:{a0}-{x['a_end']}: the verse unit has no text in the OCR (number found, text lost)")
             continue
         g = {"seg": f"{SID}:{sn}:{a0}", "s": sn, "a": a0, "a_end": x["a_end"], "printed": x["printed"], "text": t}
+        if x.get("renumbered"):
+            g["renumbered"] = "the book's number(s) in `printed` differ from the project's ayah number; assigned by text alignment"
         if x.get("head"):
             g["head"] = x["head"]
         if x["notes"]:
@@ -707,7 +828,7 @@ def main() -> None:
         "method": "archive.org OCR text (djvu.txt); surah headings in order; verses by sequential numbers; page-foot "
                   "footnotes tied by marker",
         "verse_count_mismatch": short, "missing": missing, "grouped_not_separable": grouped, "verse_numbers_lost_in_ocr_text_kept_as_group": lost_numbers,
-        "book_numbers_beyond_project_count": book_over, "surah_headers_with_other_ayah_count": differs, "issues": issues, "counts": dict(stats),
+        "book_numbers_beyond_project_count": book_over, "renumbered_surahs": renumbered, "surah_headers_with_other_ayah_count": differs, "issues": issues, "counts": dict(stats),
         "dropped_sample": dropped,
     }, {"coverage": f"1-114 ({covered}/6236 ayat)", "locator": "ayah", "kind": "meal",
         "notes": "Public domain: author died 1952. OCR (archive.org djvu text) of the third printing (1955), read from "
@@ -718,7 +839,11 @@ def main() -> None:
                  "before and the lost one (listed in the ingestion record under verse_numbers_lost_in_ocr_text_kept_as_group). "
                  "The book's verse numbering differs from the project's Hafs count in surahs "
                  + ", ".join(differs) + " (see surah_headers_with_other_ayah_count; some of these differences are OCR misreads "
-                 "of the printed count); there the units carry the book's numbers, numbers beyond the project's count are "
+                 "of the printed count). In the surahs of ingestion.renumbered_surahs ("
+                 + ", ".join(renumbered) + ") the book's numbers are off from some verse on (it splits or joins ayat differently): "
+                 "their units were assigned to the project's ayat by text alignment against twelve other Turkish meals "
+                 "(2026-10-09 review); `printed` keeps the book's numbers and the segment carries `renumbered`. In any other "
+                 "differing surah the units carry the book's numbers, numbers beyond the project's count are "
                  "kept with its last verse. Fâtiha is stored with the besmele as 1:1 (the book does not number it). "
                  "OCR quality: good running text, but diacritics are partly lost (ü/u, â/a), hyphenated line ends are joined, "
                  "and stray fragments of the Arabic text boxes remain here and there."
