@@ -43,18 +43,46 @@ def qhash(q):
     return hashlib.sha1(json.dumps(english(q), ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:16]
 
 
+def txt(v):
+    return v.strip() if isinstance(v, str) else ''
+
+
+def complete(t, q):
+    """A rendering covers the current question: question text, turns_on when the English has one, and every position
+    of the map with position text (and reasons when the English has them)."""
+    if not t or not txt(t.get('question')):
+        return False
+    if q.get('turns_on') and not txt(t.get('turns_on')):
+        return False
+    tp = t.get('positions') or {}
+    return all(txt((tp.get(p['id']) or {}).get('position'))
+               and (not p.get('reasons') or txt((tp.get(p['id']) or {}).get('reasons'))) for p in q['positions'])
+
+
 def build(a):
     d = tdir(a.run)
     if d.exists():
         raise SystemExit(f'{d} exists; use a new run')
-    ayat = a.ayat or Path(a.ayat_file).read_text().split()
-    todo, skipped = [], 0
+    if not (a.ayat or a.ayat_file):
+        raise SystemExit('give --ayat or --ayat-file')
+    ayat = list(dict.fromkeys(a.ayat or Path(a.ayat_file).read_text().split()))
+    todo, skipped, partial = [], 0, 0
     planned = set()
     for man in (V9 / 'work').glob('*/maptr/manifest.json'):
         m = json.loads(man.read_text())
+        waiting = []
         for c in m['chunks']:
-            if not (man.parent / 'out' / m['tag'] / f"c{c['chunk']:03d}.jsonl").exists():
-                planned |= {(q, h) for q, h in c['src'].items()}
+            agent = f"v9t_{man.parents[1].name}_{m['tag']}_c{c['chunk']:03d}"
+            if (man.parent / 'out' / m['tag'] / f"c{c['chunk']:03d}.jsonl").exists():
+                continue
+            if (man.parent / 'runs' / agent / 'run.json').exists():
+                continue                   # the agent ended without output: not planned, its questions are built again
+            planned |= {(q, h) for q, h in c['src'].items()}
+            dead = (man.parent / 'runs_failed_start' / agent).exists() and not (man.parent / 'runs' / agent).exists()
+            waiting.append(f"c{c['chunk']:03d}" + (' (failed at start, not rerun yet)' if dead else ''))
+        if waiting:
+            print(f"NOTE {man.parents[1].name}: {len(waiting)} chunk(s) not finished (queued or running) count as planned: "
+                  f"{' '.join(waiting[:30])}{' …' if len(waiting) > 30 else ''}")
     for v in ayat:
         qs, _ = Q.load(v)
         if qs is None:
@@ -62,11 +90,14 @@ def build(a):
             continue
         have = Q.translation(v)
         for q in qs:
-            if have.get(q['id'], {}).get('src') == qhash(q) or (q['id'], qhash(q)) in planned:
+            t = have.get(q['id'])
+            if (t and t.get('src') == qhash(q) and complete(t, q)) or (q['id'], qhash(q)) in planned:
                 skipped += 1
             else:
+                partial += bool(t and t.get('src') == qhash(q))
                 todo.append(q)
-    print(f'{len(todo)} questions to translate ({skipped} already translated, or planned in a running build)')
+    print(f'{len(todo)} questions to translate ({skipped} already translated, or planned in a running build; '
+          f'{partial} of the {len(todo)} have a current but incomplete rendering)')
     if not todo:
         return
     (d / 'chunks').mkdir(parents=True)
@@ -104,14 +135,20 @@ def build(a):
 
 
 def check_chunk(d, man, c):
-    want = {}
+    want, problems, stale = {}, [], set()
     for qid in c['questions']:
         qs, _ = Q.load(qid.split('/')[0])
-        want[qid] = next(q for q in qs if q['id'] == qid)
+        q = next((x for x in qs or [] if x['id'] == qid), None)
+        if q is None:
+            problems.append(f'{qid}: no longer in the verse map')
+            continue
+        if qhash(q) != c['src'][qid]:
+            stale.add(qid)                 # the map changed after the build: checked against nothing, built again later
+        want[qid] = q
     f = d / 'out' / man['tag'] / f"c{c['chunk']:03d}.jsonl"
     if not f.exists():
-        return [f'{f.name}: no output file']
-    problems, seen = [], set()
+        return problems + [f'{f.name}: no output file']
+    seen = set()
     for i, line in enumerate(f.read_text().splitlines(), 1):
         if not line.strip():
             continue
@@ -120,6 +157,12 @@ def check_chunk(d, man, c):
         except ValueError as e:
             problems.append(f'line {i}: not JSON ({e})')
             continue
+        if not isinstance(t, dict) or not isinstance(t.get('id'), str):
+            problems.append(f'line {i}: not an object with a text "id"')
+            continue
+        if t['id'] in stale:
+            seen.add(t['id'])
+            continue
         q = want.get(t.get('id'))
         if q is None:
             problems.append(f"line {i}: {t.get('id')} is not a question of this chunk")
@@ -127,26 +170,34 @@ def check_chunk(d, man, c):
         if t['id'] in seen:
             problems.append(f"line {i}: {t['id']} translated twice")
         seen.add(t['id'])
-        if not (t.get('question') or '').strip():
+        if not txt(t.get('question')):
             problems.append(f"{t['id']}: empty question")
-        if q.get('turns_on') and not (t.get('turns_on') or '').strip():
+        if q.get('turns_on') and not txt(t.get('turns_on')):
             problems.append(f"{t['id']}: turns_on not translated")
-        tp = {p.get('id'): p for p in t.get('positions') or []}
+        if not isinstance(t.get('positions') or [], list):
+            problems.append(f"{t['id']}: \"positions\" must be a list")
+            t['positions'] = []
+        tp = {p['id']: p for p in t.get('positions') or [] if isinstance(p, dict) and isinstance(p.get('id'), str)}
+        if len(tp) != len(t.get('positions') or []):
+            problems.append(f"{t['id']}: a position without a text id, or not an object")
         for p in q['positions']:
             x = tp.get(p['id'])
-            if x is None or not (x.get('position') or '').strip():
+            if x is None or not txt(x.get('position')):
                 problems.append(f"{p['id']}: position not translated")
-            elif p.get('reasons') and not (x.get('reasons') or '').strip():
+            elif p.get('reasons') and not txt(x.get('reasons')):
                 problems.append(f"{p['id']}: reasons not translated")
         extra = set(tp) - {p['id'] for p in q['positions']}
         if extra:
             problems.append(f"{t['id']}: positions not in the map: {', '.join(sorted(extra))}")
-        text = ' '.join([t.get('question') or '', t.get('turns_on') or ''] + [(x.get('position') or '') + ' ' + (x.get('reasons') or '') for x in tp.values()])
+        text = ' '.join([txt(t.get('question')), txt(t.get('turns_on'))] + [txt(x.get('position')) + ' ' + txt(x.get('reasons')) for x in tp.values()])
         if IDS.search(text):
             problems.append(f"{t['id']}: ids in the text")
     for qid in want:
-        if qid not in seen:
+        if qid not in seen and qid not in stale:
             problems.append(f'{qid}: not translated')
+    if stale:
+        problems.append(f"NOTE (not a problem of this chunk): {len(stale)} question(s) changed in the map after this build "
+                        f"and were not checked; a later build translates them again: {' '.join(sorted(stale))}")
     return problems
 
 
@@ -158,6 +209,9 @@ def check(a):
         if a.chunk and c['chunk'] != a.chunk:
             continue
         p = check_chunk(d, man, c)
+        for x in [x for x in p if x.startswith('NOTE')]:
+            print(f"c{c['chunk']:03d}: {x}")
+        p = [x for x in p if not x.startswith('NOTE')]
         if p:
             bad += 1
             print(f"c{c['chunk']:03d}: {len(p)} problem(s)")

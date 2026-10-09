@@ -73,9 +73,14 @@ def translation(ayah):
                     t = json.loads(line)
                 except ValueError:
                     continue
-                if t.get('id') in src:
-                    out[t['id']] = {'src': src[t['id']], 'question': t.get('question', ''), 'turns_on': t.get('turns_on', ''),
-                                    'positions': {p['id']: p for p in t.get('positions') or [] if p.get('id')}}
+                if not isinstance(t, dict) or t.get('id') not in src:
+                    continue
+                prev = out.get(t['id'])
+                if prev and prev['src'] == src[t['id']] and prev['question'] and not (t.get('question') or '').strip():
+                    continue               # an empty newer line never replaces a rendering of the same English
+                ps = t.get('positions') if isinstance(t.get('positions'), list) else []
+                out[t['id']] = {'src': src[t['id']], 'question': t.get('question') or '', 'turns_on': t.get('turns_on') or '',
+                                'positions': {p['id']: p for p in ps if isinstance(p, dict) and isinstance(p.get('id'), str)}}
     return out
 
 
