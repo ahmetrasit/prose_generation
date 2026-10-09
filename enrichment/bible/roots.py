@@ -145,7 +145,8 @@ def nearby(ref: str):
         if v + dv > 0:
             yield f'{b}.{c}.{v + dv}'
     for dc in (1, -1):       # chapter boundaries move (Joel 2:28-32 = WLC 3:1-5, Mal 4 = WLC 3:19-24)
-        for vv in sorted(set(range(max(1, v - 6), v + 7)) | set(range(1, 11)) | set(range(max(1, v - 30), v - 20))):
+        for vv in sorted(set(range(max(1, v - 6), v + 7)) | set(range(1, 11)) | set(range(max(1, v - 30), v - 20))
+                         | set(range(v + 10, v + 25))):
             if c + dc > 0:
                 yield f'{b}.{c + dc}.{vv}'
 
