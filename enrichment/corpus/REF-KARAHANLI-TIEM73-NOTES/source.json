@@ -1,0 +1,55 @@
+{
+  "id": "REF-KARAHANLI-TIEM73-NOTES",
+  "title": "Kök, TİEM 73 thesis: editor's notes, introduction, Türkçe Dizin",
+  "author": "Abdullah Kök",
+  "kind": "reference",
+  "tradition": "academic",
+  "language": "tr",
+  "turkic_stage": "Karakhanid",
+  "edition": "same thesis as MEAL-KARAHANLI-TIEM73 (Ankara 2004)",
+  "access": "yerel",
+  "locator": "section",
+  "urls": [
+    "https://archive.org/details/karahanli-turkcesi-satir-arasi-kuran-tercumesi-tiem-73-1v-235v2"
+  ],
+  "uploader": "empireofhassaan@hotmail.com",
+  "archive_identifier": "karahanli-turkcesi-satir-arasi-kuran-tercumesi-tiem-73-1v-235v2",
+  "licence": "scholarly edition; archive.org third-party upload; local research use",
+  "raw_shared": [
+    "../MEAL-KARAHANLI-TIEM73/raw/acquired-2026-10-09/karahanli-turkcesi-satir-arasi-kuran-tercumesi-tiem73_djvu.txt"
+  ],
+  "panel": false,
+  "files": {},
+  "coverage": "editor's notes tied to surahs 1-20 verses; introduction and index as sections",
+  "segments": 739,
+  "ingestion": {
+    "date": "2026-10-09",
+    "script": "enrichment/v2/fetch/import_meal_karahanli_tiem73.py",
+    "from": {
+      "raw/acquired-2026-10-09/karahanli-turkcesi-satir-arasi-kuran-tercumesi-tiem73_djvu.txt": "092e52023821e674e57ad7e47cb5d95ad26a88f4c28fd8f1048378fb795eae6c"
+    },
+    "method": "notes = paragraphs starting with SSS/AAA codes; the rest in chunks",
+    "counts": {
+      "editor's notes (kept in the reference source)": 371,
+      "folio/line markers recognised in the text (approx.)": 259,
+      "garbled number lines repaired from their neighbours": 870,
+      "groups the alignment could not split (kept as printed)": 37,
+      "inferred verses with similarity < 0.25 to the Ünlü verse (flagged low_similarity)": 64,
+      "lines made of 1-2 letter fragments (OCR of ornaments) dropped": 3,
+      "lone page numbers / stray figures dropped": 38,
+      "note lines without a verse code (dictionary quotations), kept as surah notes": 141,
+      "printed verse numbers at the start of a unit removed from the text (kept in a/a_end)": 410,
+      "short garbled lines dropped (no number in the run)": 29,
+      "units split at an inline verse number (previous line had no full stop)": 37,
+      "units total (text up to a line ending in a full stop)": 2771,
+      "verses stored in a group": 630,
+      "verses stored one per verse": 634,
+      "verses whose boundaries were inferred by alignment with the Ünlü edition": 1219
+    },
+    "issues": [],
+    "segments": 739,
+    "tied_to_ayah": 371,
+    "with_cited_ayat": 342,
+    "characters": 1633099
+  }
+}

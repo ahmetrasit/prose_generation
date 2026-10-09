@@ -1,0 +1,51 @@
+{
+  "id": "REF-KARAHANLI-TIEM73-UNLU-NOTES",
+  "title": "Ünlü TİEM 73 edition: modern Turkish translation, footnotes, front matter, glossary volumes",
+  "author": "Suat Ünlü (edition); modern translation by Abdülkadir Şener, Cemal Sofuoğlu, Mustafa Yıldırım",
+  "kind": "reference",
+  "tradition": "academic",
+  "language": "tr",
+  "turkic_stage": "Karakhanid",
+  "edition": "same edition as MEAL-KARAHANLI-TIEM73-UNLU",
+  "access": "yerel",
+  "locator": "section",
+  "urls": [
+    "https://archive.org/details/karahanli-kuran-i-kerim"
+  ],
+  "uploader": "daulet.cubex@gmail.com",
+  "archive_identifier": "karahanli-kuran-i-kerim",
+  "licence": "scholarly edition; archive.org third-party upload; local research use",
+  "raw_shared": [
+    "../MEAL-KARAHANLI-TIEM73-UNLU/raw/acquired-2026-10-09/"
+  ],
+  "panel": false,
+  "files": {},
+  "coverage": "all 114 surahs: modern translation lines tied to their verses; footnotes and intros tied to their surah",
+  "segments": 6895,
+  "ingestion": {
+    "date": "2026-10-09",
+    "script": "enrichment/v2/fetch/import_meal_karahanli_unlu.py",
+    "from": {
+      "raw/acquired-2026-10-09/154f2d.txt": "025b5d1548b91e3599566e44496a67b20773cda0681e85aa21a4d04307bda5b7",
+      "raw/acquired-2026-10-09/501ce6.txt": "ed5abef03b4d8b5a50a0fbcde70e8c2f057e855d4a4d53ac7f86dbd1c8ba95bc",
+      "raw/acquired-2026-10-09/8867a7.txt": "34d4e1154649e0f9d129b1d96d2267063c25226f7aaed1d217247f3dcdf8702f",
+      "raw/acquired-2026-10-09/7b0419.txt": "ab8ed790384115ed4ded37782db48ed4e60cea7c9e71896e64a484493af819d6",
+      "raw/acquired-2026-10-09/gl7.txt": "fd83c33cb0fc428dc04e7f8e8fee0b03b530cc21770519b951c8cfd73ffe12b4",
+      "raw/acquired-2026-10-09/gl8.txt": "88b97762ca0540b9139d4b2ccbacc36301b2983ddafa04cc9e5863b7ccd35cf5"
+    },
+    "method": "modern lines and footnotes of the same pages; glossary volumes as chunks",
+    "counts": {
+      "Karakhanid continuation lines joined to their verse": 2928,
+      "lines of ornament tokens only dropped": 16638,
+      "lines of the Arabic column / ornaments (OCR garbage) dropped": 27369,
+      "running headers dropped": 1751,
+      "unnumbered Karakhanid-looking lines before a numbered one, kept as notes": 452,
+      "verses whose number the OCR lost, taken from the unnumbered Karakhanid lines before the modern line": 282
+    },
+    "issues": [],
+    "segments": 6895,
+    "tied_to_ayah": 6107,
+    "with_cited_ayat": 0,
+    "characters": 5104361
+  }
+}
