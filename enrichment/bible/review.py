@@ -23,6 +23,9 @@ directory, and helper scripts that live inside the call directory. Helpers in th
 from __future__ import annotations
 
 import argparse
+import ast
+import importlib
+import inspect
 import hashlib
 import json
 import re
@@ -40,8 +43,7 @@ READ_PROGS = {'cat', 'head', 'tail', 'ls', 'grep', 'egrep', 'wc', 'echo', 'sort'
               'printf', 'true'}
 SAFE_MODULES = {'json', 'csv', 'sys', 're', 'collections', 'itertools', 'math', 'statistics', 'unicodedata',
                 'functools', 'textwrap', 'string', 'operator'}
-WRITES = re.compile(r"\.write|open\([^)]*['\"][wax+]|unlink|rmtree|rename|replace\(|remove\(|mkdir|chmod|system\(|"
-                    r"popen|exec\(|eval\(|__import__|compile\(")
+WRITES = re.compile(r"\.write|unlink|rmtree|rename|mkdir|chmod|system\(|popen|exec\(|eval\(|__import__|compile\(")
 SED_PRINT = re.compile(r'^\s*(?:(?:\d+|\$|/[^/]*/)(?:,(?:\d+|\$|/[^/]*/))?)?p\s*(?:;\s*(?:(?:\d+|\$|/[^/]*/)'
                        r'(?:,(?:\d+|\$|/[^/]*/))?)?p\s*)*$')
 SEPARATORS = {';', '&&', '||', '|', '\n'}
@@ -105,6 +107,7 @@ class Ctx:
         self.pack = (HERE / 'work' / f"s{st['surah']:03d}" / 'pack').resolve()
         self.inputs = {(PG / p).resolve() for p in st.get('bible_inputs', {})}
         self.dirs_listable = {p.parent for p in self.inputs}
+        self.ran = []                          # helper scripts classified in the current call (absolute paths)
 
     def readable(self, p: Path) -> bool:
         p = p.resolve()
@@ -117,10 +120,11 @@ class Ctx:
         return p.is_relative_to((HERE / 'prompts').resolve())
 
     def cd_ok(self, p: Path) -> bool:
-        """A directory the call may move into: the repository root, its own call directory, the pack, its inputs'
-        directories or the Bible corpus."""
+        """A directory the call may move into: the repository root, the Bible tool directory, its own call directory,
+        the pack, its inputs' directories or the Bible corpus."""
         p = p.resolve()
-        return p == PG.resolve() or p in {q.resolve() for q in self.dirs_listable} or self.readable(p)
+        return (p in (PG.resolve(), HERE.resolve()) or p in {q.resolve() for q in self.dirs_listable}
+                or self.readable(p))
 
     def own(self, p: Path) -> bool:
         p = p.resolve()
@@ -145,8 +149,9 @@ def segments(cmd: str):
     """Shell command → list of argv segments, or None when it uses syntax beyond plain commands and pipes."""
     if '`' in cmd or '$(' in cmd or '<<' in cmd:
         return None
-    q = None                                   # quote state: None, "'" or '"'
-    for ch in cmd:
+    q, clean, i = None, [], 0                  # quote state: None, "'" or '"'
+    while i < len(cmd):
+        ch = cmd[i]
         if q == "'":
             if ch == "'":
                 q = None
@@ -154,15 +159,27 @@ def segments(cmd: str):
             if ch == '"':
                 q = None
             elif ch == '$':
-                return None                    # expansion inside double quotes (a backslash there expands nothing)
+                return None                    # expansion inside double quotes
+            elif ch == '\\':
+                clean += cmd[i:i + 2]          # \" \\ \$ are literal inside double quotes; nothing expands
+                i += 2
+                continue
         elif ch in "'\"":
             q = ch
-        elif ch in '\n\r$\\':
-            return None                        # an unquoted newline runs a second command; $ and backslash expand
+        elif (cmd.startswith('2>&1', i) and (i == 0 or cmd[i - 1] in ' \t')
+              and (i + 4 == len(cmd) or cmd[i + 4] in ' \t|;')):
+            i += 4                             # stderr into stdout: harmless, dropped before tokenizing
+            continue
+        elif ch in '\n\r$\\{#':
+            return None                        # an unquoted newline runs a second command; $, backslash and { expand; # comments
+        clean.append(ch)
+        i += 1
     if q is not None:
         return None
+    cmd = ''.join(clean)
     lx = shlex.shlex(cmd, posix=True, punctuation_chars=';&|<>')
     lx.whitespace_split = True
+    lx.commenters = ''                         # shlex would drop text after a mid-word '#'; bash would run it
     try:
         toks = list(lx)
     except ValueError:
@@ -186,6 +203,191 @@ def segments(cmd: str):
     return [s for s in segs if s]
 
 
+# Names and attributes that reach code execution, other modules, frames or the builtins (python code with any of them
+# is unclassified), and the only keywords open() may take. Every attribute or name starting with '_' is rejected too.
+PY_BANNED_NAMES = {'getattr', 'setattr', 'delattr', 'exec', 'eval', 'compile', 'globals', 'locals', 'vars', 'breakpoint',
+                   'input', 'help', 'memoryview', 'classmethod', 'staticmethod', 'property', 'super'}
+PY_BANNED_ATTRS = {'modules', 'attrgetter', 'methodcaller', 'f_globals', 'f_locals', 'f_builtins', 'f_back', 'f_code',
+                   'tb_frame', 'tb_next', 'gi_frame', 'cr_frame', 'ag_frame', 'settrace', 'setprofile', 'exc_info',
+                   'exception', 'last_traceback', 'last_value', 'addaudithook', 'meta_path', 'path_hooks'}
+
+
+PY_DUNDER_OK = {'__name__', '__main__', '__file__'}   # `if __name__ == '__main__'`, type(x).__name__, __file__
+# Modules a helper may use only after operator review (pathlib writes anywhere; runpy runs another file)
+REVIEW_MODULES = {'pathlib', 'runpy'}
+
+
+# Attribute names rejected on any object: other ways to open files, reach builtins or fetch attributes by string
+PY_BANNED_ATTRS_ANY = {'open', 'builtins', 'codecs', 'io', 'os', 'importlib', 'get_field', 'get_value', 'load_module',
+                       'exec_module', 'writelines', 'fdopen', 'reconfigure', 'detach', 'buffer', 'raw'}
+# Calls that need no operator review: these builtins, functions defined in the code itself (def, or a lambda assigned to a
+# name), methods of values and public non-module attributes of imported modules. Any other call (a class reached through
+# type(), a name passed in, a call of a call result) is safe-looking at best: operator review.
+# sys is reached only through these attributes (sys.remote_exec, sys.breakpointhook and the like run code)
+SYS_ATTRS_OK = {'argv', 'stdout', 'stderr', 'stdin', 'exit', 'maxsize', 'version_info', 'getsizeof', 'getrecursionlimit',
+                'setrecursionlimit', 'intern', 'flags', 'float_info', 'maxunicode', 'byteorder', 'platform', 'version'}
+# the only calls type(x) may be an argument of (they print or test the type; they never call it)
+TYPE_ARG_OK = {'print', 'str', 'repr', 'isinstance', 'len', 'sorted', 'list'}
+# Python syntax that needs no operator review; any other node type (match patterns, class definitions, decorators,
+# async, yield, ...) sends the call to review
+PY_NODES_OK = tuple(getattr(ast, x) for x in '''Module Expr Assign AugAssign AnnAssign For While If With withitem Break
+    Continue Pass Return FunctionDef Lambda Import ImportFrom alias Try ExceptHandler Raise Assert Delete BoolOp BinOp
+    UnaryOp IfExp Dict Set List Tuple ListComp SetComp DictComp GeneratorExp comprehension Compare Call keyword Constant
+    JoinedStr FormattedValue Attribute Subscript Slice Starred Name NamedExpr arguments arg Load Store Del boolop operator
+    unaryop cmpop expr_context'''.split())
+# Calls whose arguments are called back (map(f, ...), sorted(key=f), functools.reduce(f, ...)): such a callable must be
+# an allowed builtin, a local function, a lambda or a method reference (an attribute)
+PY_CALLBACK_FUNCS = {'map', 'filter', 'sorted', 'min', 'max', 'iter', 'next', 'reduce', 'partial', 'starmap',
+                     'accumulate', 'groupby', 'filterfalse', 'takewhile', 'dropwhile', 'defaultdict', 'cmp_to_key'}
+PY_CALLS_OK = {'print', 'len', 'sorted', 'min', 'max', 'sum', 'range', 'enumerate', 'zip', 'str', 'int', 'float', 'list',
+               'dict', 'set', 'tuple', 'frozenset', 'open', 'abs', 'round', 'any', 'all', 'isinstance', 'hasattr', 'bool',
+               'repr', 'reversed', 'map', 'filter', 'ord', 'chr', 'divmod', 'iter', 'next', 'format', 'bytes', 'callable'}
+
+
+def py_unsafe(code: str, helper=False):
+    """Why python code may do more than read allowed files and print, or None. 'review:' reasons mean the code is
+    safe in kind but opens a path the classifier cannot see (not a string literal); such calls need operator review.
+    Inline code may only open for reading; a helper may also write (its literal paths must be in the call directory)."""
+    try:
+        tree = ast.parse(code)
+    except SyntaxError as e:
+        return f'review: python that does not parse ({e.msg}), so nothing ran'
+    review, allowed = None, SAFE_MODULES | (REVIEW_MODULES if helper else set())
+    hasattr_names = {id(n.args[1]) for n in ast.walk(tree) if isinstance(n, ast.Call) and isinstance(n.func, ast.Name)
+                     and n.func.id == 'hasattr' and len(n.args) == 2}    # hasattr(x, '__len__') only answers a bool
+    # names bound to modules by import: an attribute of a module must exist, be public and not itself be a module (json.codecs
+    # is codecs, whose .builtins is the real builtins); a module name may only be used as the base of such an attribute
+    aliases = {}
+    for n in ast.walk(tree):
+        if isinstance(n, ast.Import):
+            for a in n.names:
+                aliases[(a.asname or a.name).split('.')[0]] = a.name.split('.')[0]
+        elif isinstance(n, ast.ImportFrom) and not n.level and (n.module or '').split('.')[0] in allowed:
+            mod = importlib.import_module(n.module)
+            for a in n.names:
+                obj = getattr(mod, a.name, None)
+                if a.name == '*' or obj is None or inspect.ismodule(obj) or a.name.startswith('_') \
+                        or a.name in PY_BANNED_NAMES | PY_BANNED_ATTRS | {'open'} \
+                        or (n.module.split('.')[0] == 'sys' and a.name not in SYS_ATTRS_OK):
+                    return f'imports {a.name} from {n.module}'
+    bases = set()
+    for n in ast.walk(tree):
+        if isinstance(n, ast.Attribute) and isinstance(n.value, ast.Name) and n.value.id in aliases:
+            bases.add(id(n.value))
+            if aliases[n.value.id] == 'sys' and n.attr not in SYS_ATTRS_OK:
+                return f'sys.{n.attr} is not an allowed sys attribute'
+            obj = getattr(importlib.import_module(aliases[n.value.id]), n.attr, None)
+            if obj is None or inspect.ismodule(obj):
+                return f'module attribute {n.value.id}.{n.attr} that is a module or missing'
+    for n in ast.walk(tree):
+        if isinstance(n, ast.Name) and n.id in aliases and id(n) not in bases and not isinstance(n.ctx, ast.Store):
+            return f'module {n.id} used other than as the base of an attribute'
+        if isinstance(n, ast.Name) and n.id in aliases and isinstance(n.ctx, ast.Store):
+            return f'module name {n.id} reassigned'
+    for n in ast.walk(tree):
+        if isinstance(n, ast.Import):
+            mods = {a.name.split('.')[0] for a in n.names}
+            if mods - allowed:
+                return f'imports {sorted(mods - allowed)}'
+            if mods & REVIEW_MODULES:
+                review = f'review: imports {sorted(mods & REVIEW_MODULES)}'
+        elif isinstance(n, ast.ImportFrom):
+            mod = (n.module or '').split('.')[0]
+            if n.level or mod not in allowed:
+                return f'imports from {n.module}'
+            if mod in REVIEW_MODULES:
+                review = f'review: imports from {mod}'
+        elif isinstance(n, ast.Name) and ((n.id.startswith('_') and n.id not in PY_DUNDER_OK) or n.id in PY_BANNED_NAMES):
+            return f'uses the name {n.id}'
+        elif isinstance(n, ast.Attribute) and ((n.attr.startswith('_') and n.attr not in PY_DUNDER_OK)
+                                               or n.attr in PY_BANNED_ATTRS | PY_BANNED_NAMES | PY_BANNED_ATTRS_ANY):
+            return f'uses the attribute .{n.attr}'
+        elif (isinstance(n, ast.Constant) and isinstance(n.value, (str, bytes)) and '__' in str(n.value)
+              and n.value not in PY_DUNDER_OK and id(n) not in hasattr_names):
+            return 'a string with a double underscore'
+        elif isinstance(n, (ast.Global, ast.Nonlocal)):
+            return 'global/nonlocal'
+        elif isinstance(n, ast.Call):
+            f = n.func
+            for kw in n.keywords:
+                if kw.arg is None:
+                    return '** arguments'
+            if any(isinstance(a, ast.Starred) for a in n.args) and isinstance(f, ast.Name) and f.id == 'open':
+                return '*arguments to open'
+            if isinstance(f, ast.Name) and f.id == 'print':
+                for kw in n.keywords:
+                    if kw.arg == 'file' and not (isinstance(kw.value, ast.Attribute) and isinstance(kw.value.value, ast.Name)
+                                                 and kw.value.value.id == 'sys' and kw.value.attr in ('stdout', 'stderr')):
+                        return 'print to a file other than stdout/stderr'
+            if isinstance(f, ast.Name) and f.id == 'open':
+                mode = [a for a in n.args[1:2]] + [kw.value for kw in n.keywords if kw.arg == 'mode']
+                if len(n.args) > 2 or any(kw.arg not in ('mode', 'encoding', 'errors') for kw in n.keywords):
+                    return 'open() with arguments beyond path, mode, encoding, errors'
+                modes = ('r', 'rt', 'rb') + (('w', 'wt', 'wb', 'a', 'at', 'ab', 'x', 'w+', 'r+') if helper else ())
+                if any(not (isinstance(m, ast.Constant) and m.value in modes) for m in mode):
+                    return 'open() with a mode that is not a literal ' + ('mode' if helper else 'read mode')
+                if not n.args or not (isinstance(n.args[0], ast.Constant) and isinstance(n.args[0].value, str)):
+                    review = 'review: open() of a path that is not a string literal'
+    # call allowlist; type(x) is fine only where its result is printed, compared or asked for __name__
+    local = {n.name for n in ast.walk(tree) if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef))}
+    local |= {t.id for n in ast.walk(tree) if isinstance(n, ast.Assign) and isinstance(n.value, ast.Lambda)
+              for t in n.targets if isinstance(t, ast.Name)}
+    rebound = {t.id for n in ast.walk(tree) for t in ast.walk(n) if isinstance(t, ast.Name) and isinstance(t.ctx, ast.Store)
+               and t.id in PY_CALLS_OK | {'type'}}
+    if rebound:
+        return f'builtin name rebound: {sorted(rebound)}'
+    parent = {id(c): n for n in ast.walk(tree) for c in ast.iter_child_nodes(n)}
+    for n in ast.walk(tree):
+        if not isinstance(n, PY_NODES_OK):
+            return f'review: python syntax {type(n).__name__} outside the plain read/print subset'
+        if isinstance(n, (ast.FunctionDef, ast.Lambda)) and getattr(n, 'decorator_list', None):
+            return 'review: a decorated function'
+        if isinstance(n, ast.Call):
+            name = n.func.id if isinstance(n.func, ast.Name) else n.func.attr if isinstance(n.func, ast.Attribute) else ''
+            if name in PY_CALLBACK_FUNCS:
+                cbs = list(n.args) + [k.value for k in n.keywords]
+                for a in cbs:
+                    if isinstance(a, ast.Starred):
+                        return 'review: *arguments to a call that calls its arguments back'
+                    if isinstance(a, ast.Name) and a.id not in PY_CALLS_OK and a.id not in local \
+                            and not any(isinstance(t, ast.Name) and t.id == a.id and isinstance(t.ctx, ast.Store)
+                                        and isinstance(parent.get(id(t)), ast.Assign)
+                                        and not isinstance(parent[id(t)].value, (ast.Name, ast.Attribute, ast.Call,
+                                                                                  ast.Subscript))
+                                        for t in ast.walk(tree)):
+                        return f'review: {a.id} passed to {name}, which may call it'
+    for n in ast.walk(tree):
+        if not isinstance(n, ast.Call):
+            continue
+        f = n.func
+        if isinstance(f, ast.Name) and f.id == 'type' and len(n.args) == 1 and not n.keywords:
+            up = parent.get(id(n))
+            if (isinstance(up, ast.Call) and up.func is not n and isinstance(up.func, ast.Name)
+                    and up.func.id in TYPE_ARG_OK) or isinstance(up, ast.Compare) or \
+                    (isinstance(up, ast.Attribute) and up.attr == '__name__'):
+                continue
+            review = review or 'review: type() whose result is used as more than a value'
+        elif isinstance(f, ast.Name) and f.id not in PY_CALLS_OK and f.id not in local:
+            review = review or f'review: call of {f.id}, which is not an allowed builtin or a local function'
+        elif not isinstance(f, (ast.Name, ast.Attribute)):
+            review = review or 'review: call of a computed value'
+    # open must only ever be called, never aliased or passed on
+    called = {id(n.func) for n in ast.walk(tree) if isinstance(n, ast.Call)}
+    if any(isinstance(n, ast.Name) and n.id == 'open' and id(n) not in called for n in ast.walk(tree)):
+        return 'open used other than as a direct call'
+    return review
+
+
+def open_literals(code: str) -> list[str]:
+    """String-literal first arguments of open() calls (code that does not parse has none; py_unsafe rejects it)."""
+    try:
+        tree = ast.parse(code)
+    except SyntaxError:
+        return []
+    return [n.args[0].value for n in ast.walk(tree) if isinstance(n, ast.Call) and isinstance(n.func, ast.Name)
+            and n.func.id == 'open' and n.args and isinstance(n.args[0], ast.Constant) and isinstance(n.args[0].value, str)]
+
+
 def imports(code: str) -> set[str]:
     mods = set()
     for m in re.finditer(r'(?:^|[;\n])\s*import\s+([\w., ]+)', code):
@@ -206,10 +408,14 @@ def literal_paths(code: str):
     return out
 
 
-def classify_python(seg, ctx: Ctx, scripts: dict):
-    """(kind, reason, auto) for a `python3 ...` segment, or (None, reason, False)."""
+def classify_python(seg, ctx: Ctx, scripts: dict, cwd: Path = PG, ok_read=None):
+    """(kind, reason, auto) for a `python3 ...` segment, or (None, reason, False). Relative paths (script, argv, open()
+    literals) resolve against the shell's cwd; a helper script that runs is recorded in ctx.ran."""
+    ok_read = ok_read or ctx.readable
+    res = lambda t: (Path(t).expanduser() if Path(t).expanduser().is_absolute() else cwd / t)
+    argpaths = lambda toks: [t for t in toks if not t.startswith('-') and ('/' in t or t.startswith(('.', '~')))]
     args = seg[1:]
-    tool = next((resolve(x) for x in args if x.endswith('.py')), None)
+    tool = next((res(x) for x in args if x.endswith('.py')), None)
     if tool and tool.parent.resolve() == HERE and tool.name in OLD_TAIL_TOOLS and '--help' in args:
         return 'read', f'help text of the Bible tool {tool.name}', True
     isolated = bool(args) and args[0] == '-I'
@@ -224,23 +430,35 @@ def classify_python(seg, ctx: Ctx, scripts: dict):
         bad = imports(code) - SAFE_MODULES
         if bad or WRITES.search(code):
             return None, f'inline python with unsafe modules or writes: {sorted(bad)}', False
-        paths = literal_paths(code) + path_args(argv)
-        out = [p for p in paths if not ctx.readable(resolve(p))]
-        return ((None, f'inline python names {out}', False) if out else
-                ('read', 'inline python reading allowed inputs' + ('' if isolated else ' (without -I)'), True))
+        why = py_unsafe(code)
+        if why and not why.startswith('review:'):
+            return None, f'inline python: {why}', False
+        paths = [res(t) for t in literal_paths(code) + open_literals(code) + argpaths(argv)]
+        out = [str(q) for q in paths if not ok_read(q)]
+        if out:
+            return None, f'inline python names {out}', False
+        if why:
+            return 'read', f'inline python, safe in kind ({why[8:]}): operator review', False
+        return 'read', 'inline python reading allowed inputs' + ('' if isolated else ' (without -I)'), True
     if not args:
         return None, 'python without a script', False
-    script, argv = resolve(args[0]), args[1:]
+    script, argv = res(args[0]).resolve(), args[1:]
     content = scripts.get(str(script))
     if content is None:
         return None, f'script {script} was not written in this transcript (or an Edit did not apply)', False
-    bad = imports(content) - SAFE_MODULES
+    bad = imports(content) - SAFE_MODULES - REVIEW_MODULES
     if bad or re.search(r'system\(|popen|subprocess|socket|urllib|requests|rmtree|__import__|exec\(|eval\(', content):
         return None, f'helper {script.name} uses unsafe modules or calls: {sorted(bad)}', False
-    paths = literal_paths(content) + path_args(argv)
-    out = [p for p in paths if not (ctx.readable(resolve(p)) or ctx.own(resolve(p)))]
+    why = py_unsafe(content, helper=True)
+    if why and not why.startswith('review:'):
+        return None, f'helper {script.name}: {why}', False
+    paths = [res(t) for t in literal_paths(content) + open_literals(content) + argpaths(argv)]
+    out = [str(q) for q in paths if not (ok_read(q) or ctx.own(q))]
     if out:
         return None, f'helper {script.name} names paths outside the inputs and call directory: {out}', False
+    ctx.ran.append(str(script))
+    if why:
+        return 'helper', f'helper {script.name} on allowed inputs ({why[8:]}): operator review', False
     return 'helper', f'helper {script.name} on allowed inputs and the call directory', ctx.own(script)
 
 
@@ -306,17 +524,7 @@ def classify_shell(cmd: str, ctx: Ctx, scripts: dict, announced=frozenset()):
                     return None, f'Bible tool {tpath.name} names paths outside the inputs and call directory: {bad + badp}', False
                 k, r, a = 'helper', f'Bible tool {tpath.name} on allowed inputs, writing only in the call directory', True
             else:
-                if cwd != PG:
-                    rel_ok = [t for t in seg[1:] if not t.startswith('-') and t.endswith('.py') and not t.startswith('/')]
-                    if rel_ok:
-                        return None, 'a relative python script after cd', False
-                k, r, a = classify_python(seg, ctx, scripts)
-                if k is not None and cwd != PG and '-c' in seg:
-                    code = seg[seg.index('-c') + 1] if seg.index('-c') + 1 < len(seg) else ''
-                    for m in re.finditer(r"""open\(\s*['"]([^'"]+)['"]""", code):
-                        q = cwd / m[1]
-                        if not ok_read(q):
-                            return None, f'inline python after cd opens {m[1]} outside the allowed inputs', False
+                k, r, a = classify_python(seg, ctx, scripts, cwd, ok_read)
         elif prog == 'sed':
             args = seg[1:]
             inplace = args[:1] == ['-i']
@@ -392,14 +600,13 @@ def walk(d: Path, calls: list[dict]):
     """Classification of every call in order, with helper scripts rebuilt from Write/Edit inputs as they ran."""
     ctx, scripts, announced, rows, used = Ctx(d), {}, set(), [], {}
     for i, c in enumerate(calls):
+        ctx.ran = []
         k, r, a = classify(c, ctx, scripts, announced)
         rows.append(dict(index=i, call_id=c.get('id'), name=c.get('name'), hash=call_hash(c), kind=k, reason=r, auto=a))
         if c.get('name') == 'Bash' and k == 'helper':
-            for seg in segments(str((c.get('input') or {}).get('command', ''))) or []:
-                if Path(seg[0]).name.startswith('python') and len(seg) > 2 and seg[2] != '-c':
-                    p = str(resolve(seg[2]))
-                    if p in scripts:
-                        used.setdefault(p, []).append((i, scripts[p]))
+            for p in ctx.ran:
+                if p in scripts:
+                    used.setdefault(p, []).append((i, scripts[p]))
         inp = c.get('input') or {}
         if not c.get('is_error'):
             if c.get('name') == 'Write' and inp.get('file_path'):
