@@ -85,6 +85,14 @@ All six passed the check. **Sol high is chosen.** Luna failed on three counts:
 - **Structure breaks on the largest verse:** on 6:52 Luna wrote seven duplicate questions (q27–q33 repeat
   q01–q18) for leftover notes instead of placing them.
 
+**Opus 5.5 high on 12:49, same brief (2026-10-08):** 16 questions, 45 positions, $1.76 (Sol $0.31, 5.7×). Same
+questions and positions as Sol, essentially one for one (yaʿṣirūn: the same nine senses; the same readings,
+referents and rhetoric points). Opus is slightly richer: longer chains of who reports whom in `reasons`, three
+further justified `against` marks (al-Rāzī, the Kashshāf, al-Manār arguing the detailed forecast cannot come from the
+dream), and one extra catch (al-Ṣādiq's reading set against the relief sense). One Opus slip: al-Balkhī's challenge
+filed as `against` its own position with no holder. No Sol error found on 12:49. **Sol high stays the map model**:
+quality equivalent for this step at about a sixth of the cost; Opus judgement is spent in the writer.
+
 Sol's map costs about 1.4–1.8× its flat tier 2 on the same verses (more output): ≈ $0.35–0.7 per verse. Revised verse
 side ≈ $0.16 + ≈ $0.45 ≈ **$0.6 per verse**, whole Qur'an ≈ $3.8k API-equivalent ($0 cash on Codex).
 
