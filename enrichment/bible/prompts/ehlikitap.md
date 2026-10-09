@@ -80,6 +80,8 @@ passage opened with `get`, including context-only neighbours and unsuccessful lo
 result snippets alone do not verify evidence. Open every evidence locator with `get`; request omitted portions
 when the tool reports a cut. Explicitly mark unavailable witnesses and uncertainty instead of reconstructing them.
 
+**Relevance (user, 2026-10-09).** Accept a connection only when it is substantive: the other text shares the commentary's scene, claim, image, argument or formula, or reverses one of them, and you can name that shared element in one sentence. A shared word, root, name or broad theme alone is not enough: reject such a candidate with the reason `keyword-only: <the shared word or theme>` (a cognate goes as `soydas` only when the other scripture's use of the word illuminates the commentary's point). Prefer fewer, stronger blocks; a `motif` block must say concretely what image or formula the two texts share.
+
 ## Research verdict ledger (verdicts.jsonl)
 Write one JSON object per distinct discovery connection, including rejected and unavailable connections:
 

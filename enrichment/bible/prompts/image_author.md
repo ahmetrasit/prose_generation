@@ -94,3 +94,5 @@ final prose review; the full preview includes other sections, which are outside 
 Do not finish with missing files or an unfinished partial ledger. An empty annotations file is allowed only
 with a specific no_findings_reason in gaps.json, and still needs all candidate and lookup verdicts.
 Reply briefly with annotation and verdict counts, important rejected/uncertain claims and any remaining gaps.
+
+**Relevance (user, 2026-10-09).** Accept a connection only when it is substantive: the other text shares the commentary's scene, claim, image, argument or formula, or reverses one of them, and you can name that shared element in one sentence. A shared word, root, name or broad theme alone is not enough: reject such a candidate with the reason `keyword-only: <the shared word or theme>` (a cognate goes as `soydas` only when the other scripture's use of the word illuminates the commentary's point). Prefer fewer, stronger blocks; a `motif` block must say concretely what image or formula the two texts share.
