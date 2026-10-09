@@ -26,7 +26,7 @@
   "files": {
     "raw/acquired-2026-10-09/delice_105b-170b_djvu.txt": "ad91f8b1a33607438f507b63fc033d74585ead5e5860bb1605c773d9cf549d02"
   },
-  "fetched_at": "2026-10-09T17:14:14.604208+00:00",
+  "fetched_at": "2026-10-09T17:26:05.666135+00:00",
   "acquisition": {
     "date": "2026-10-09",
     "state": "raw_downloaded",
@@ -35,16 +35,16 @@
     "ingestion_status": "ingested",
     "note": "OCR text (djvu.txt) of an archive.org third-party upload; no PDF kept."
   },
-  "coverage": "5:1-7:133 by leaf (418/418 verses lie on a stored leaf; 7:134-206 are outside the edition)",
-  "notes": "Partial: leaves 105b-170b of the Sivas manuscript only. The OCR of the scan is poor; the old text is stored LEAF by LEAF (segment = one manuscript leaf, a..a_end = the verses that begin or continue on it, read from the modern entries' printed leaf references; adjacent leaves share the verse they split). No verse is cut inside a leaf: the edition's verse separators do not give one verse per mark. Manuscript line numbers (n) stay in the text; leaf ids are the OCR readings (about a third of the 132 leaves have no readable id and are merged into the leaf before; a few ids are misread). scholarly edition; archive.org third-party upload; local research use",
-  "segments": 101,
+  "coverage": "5:1-7:133 (418/418 verses; 7:134-206 are outside the edition)",
+  "notes": "Partial: leaves 105b-170b of the Sivas manuscript only = Mâ'ide 5:1 to A'râf 7:133 (7:134-206 and all other surahs are not in this edition). The OCR of the scan is poor and keeps no verse numbers for the old text, so each surah's text is cut into verses by aligning it with MEAL-ESKIANADOLU (same tradition, close wording; mean trigram similarity 0.64); segments carry boundary_inferred and similarity_to_eskianadolu (5 verses flagged low_similarity). Leaf ids appear as [106a] markers inside the text (about a third of the 132 leaves have no readable id), manuscript line numbers (n) as printed. scholarly edition; archive.org third-party upload; local research use",
+  "segments": 417,
   "ingestion": {
     "date": "2026-10-09",
     "script": "enrichment/v2/fetch/import_meal_eat_sivas_delice.py",
     "from": {
       "raw/acquired-2026-10-09/delice_105b-170b_djvu.txt": "ad91f8b1a33607438f507b63fc033d74585ead5e5860bb1605c773d9cf549d02"
     },
-    "method": "OCR djvu.txt; old text by manuscript leaf (leaf ids open it); verse ranges of a leaf from the modern entries' printed leaf references",
+    "method": "OCR djvu.txt; old text by manuscript leaf (leaf ids open it, kept as [106a] markers in the text); verses cut by aligning each surah's words with MEAL-ESKIANADOLU (word-level dynamic programme, trigram similarity)",
     "edition_range": "leaves 105b-170b = Mâ'ide 5:1 to A'râf 7:133 (surahs 5, 6 complete; 7 up to verse 133 of 206)",
     "covered": {
       "5": "1-120",
@@ -53,20 +53,37 @@
     },
     "missing": {},
     "verse_count_mismatch": {},
-    "leaf_segments": 101,
+    "leaf_pieces_read": 101,
     "leaves_found_in_ocr": 91,
     "leaves_expected": 132,
+    "mean_similarity_per_surah": {
+      "5": 0.65,
+      "6": 0.64,
+      "7": 0.64
+    },
+    "low_similarity_verses": [
+      "6:66",
+      "6:134",
+      "7:1",
+      "7:108",
+      "7:124"
+    ],
+    "oracle_merged_groups": [
+      "7:109-110",
+      "7:111-112",
+      "7:121-122"
+    ],
     "issues": [
-      "old-text verse separators «/» are not one per verse (145 units for 120 verses in Mâ'ide), so verses are not cut inside a leaf"
+      "old-text verse separators «/» are not one per verse (145 units for 120 verses in Mâ'ide): not used for cutting"
     ],
     "counts": {
       "lone figures dropped": 1,
       "thesis page numbers dropped": 77
     },
     "dropped_sample": [],
-    "segments": 101,
-    "tied_to_ayah": 101,
+    "segments": 417,
+    "tied_to_ayah": 417,
     "with_cited_ayat": 0,
-    "characters": 94418
+    "characters": 94102
   }
 }

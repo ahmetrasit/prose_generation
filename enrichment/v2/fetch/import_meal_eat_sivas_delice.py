@@ -25,6 +25,7 @@ the translation tied to its verses.
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from collections import Counter
@@ -35,6 +36,7 @@ import import_common as IC  # noqa: E402
 import turkic_common as T  # noqa: E402
 
 SID, NSID = "MEAL-EAT-SIVAS-DELICE", "REF-EAT-SIVAS-DELICE-NOTES"
+ORACLE = "MEAL-ESKIANADOLU"
 IDENT = "EskiAnadoluTrkkesiIleYazYlmSatrarasBirKuranTercmesi"
 URL = f"https://archive.org/details/{IDENT}"
 FOLIO = re.compile(r"^\s*(\d{3})\s?([ab])\s*$")
@@ -184,11 +186,7 @@ def main() -> None:
             sn_cur, pos = sn, cpos
         if txt[pos:].strip():
             pieces.append({"s": sn_cur, "leaf": b_["leaf"], "text": txt[pos:].strip(), "block": bi})
-    # modern entries -> surah by number resets; verse n lies from its printed start leaf to the start leaf of verse n+1
-    leaf_ord: dict[str, int] = {}
-    for lf in leaf_seq:
-        if lf and lf not in leaf_ord:
-            leaf_ord[lf] = len(leaf_ord)
+    # modern entries -> surah by number resets (they go to the reference source, tied to their verses)
     ents: list[dict] = []
     sn_, prev_n = 5, 0
     for e_ in mod_entries:
@@ -199,73 +197,68 @@ def main() -> None:
             sn_ += 1
         prev_n = n_
         ents.append({"s": sn_, "n": n_, "leaf": e_["folio"], "text": e_["text"]})
-    verse_leaf = {(e["s"], e["n"]): leaf_ord.get(e["leaf"]) for e in ents}
-    ords_by_s: dict[int, list[tuple[int, int]]] = {5: [], 6: [], 7: []}
-    for (sn, n), o in sorted(verse_leaf.items()):
-        if o is not None:
-            ords_by_s[sn].append((n, o))
-    ledger: dict[tuple[int, str], dict] = {}
-    for pc in pieces:
-        o = leaf_ord.get(pc["leaf"])
-        key = (pc["s"], pc["leaf"], pc["block"])
-        vs = []
-        lst = ords_by_s[pc["s"]]
-        for idx, (n, on) in enumerate(lst):
-            nxt = lst[idx + 1][1] if idx + 1 < len(lst) else max(leaf_ord.get(q["leaf"], on) for q in pieces if q["s"] == pc["s"])
-            if o is not None and on <= o <= max(nxt, on):
-                vs.append(n)
-        pc["verses"] = vs
-    # verses of the leaves without any modern entry: between their neighbours
-    last_hi = {5: 0, 6: 0, 7: 0}
-    for pc in pieces:
-        vs = pc["verses"]
-        if vs:
-            pc["lo"], pc["hi"], pc["inferred"] = min(vs), max(vs), False
-            last_hi[pc["s"]] = pc["hi"]
-        else:
-            pc["lo"], pc["hi"], pc["inferred"] = None, None, True
-    for idx, pc in enumerate(pieces):
-        if pc["inferred"]:
-            prev_ = next((q for q in reversed(pieces[:idx]) if q["s"] == pc["s"] and q["hi"]), None)
-            nxt_ = next((q for q in pieces[idx + 1:] if q["s"] == pc["s"] and q["lo"]), None)
-            lo = prev_["hi"] if prev_ else 1
-            hi = nxt_["lo"] if nxt_ else lo
-            pc["lo"], pc["hi"] = lo, max(hi, lo)
-    # the last piece of each surah runs to the surah's last verse (the edition ends at 7:133)
+    # ---- verses: the words of each surah (leaf ids as [106a] markers) aligned with the verses of MEAL-ESKIANADOLU
+    oracle: dict[int, list[tuple[int, int, str]]] = {5: [], 6: [], 7: []}
+    for line in (IC.CORPUS / ORACLE / "segments.jsonl").open(encoding="utf-8"):
+        r_ = json.loads(line)
+        if r_.get("s") in oracle and r_.get("a"):
+            oracle[r_["s"]].append((r_["a"], r_.get("a_end") or r_["a"], r_["text"]))
     ends_ = {5: counts[5], 6: counts[6], 7: 133}
-    for sn in (5, 6, 7):
-        last_pc = [q for q in pieces if q["s"] == sn][-1]
-        if last_pc["hi"] < ends_[sn]:
-            last_pc["hi"] = ends_[sn]
-            last_pc["completed"] = True
-    print("leaf pieces:", len(pieces), "with printed verse numbers:", sum(1 for q in pieces if not q["inferred"]))
-    per_surah: dict[int, list[int]] = {}
-    for pc in pieces:
-        per_surah.setdefault(pc["s"], []).extend(range(pc["lo"], pc["hi"] + 1))
-    ranges_ = ends_
-    miss = {str(sn): [x for x in range(1, ranges_[sn] + 1) if x not in set(per_surah.get(sn, []))] for sn in (5, 6, 7)}
-    miss = {k: v for k, v in miss.items() if v}
-    print("verses covered by a leaf:", {sn: len(set(per_surah.get(sn, []))) for sn in (5, 6, 7)}, "missing", miss)
-    if a.dry:
-        print(dict(stats))
-        return
     segs: list[dict] = []
-    seen_ids: Counter = Counter()
-    for pc in pieces:
-        base = f"{SID}:{pc['s']}:{pc['lo']}#{pc['leaf'] or 'noleaf'}"
-        seen_ids[base] += 1
-        sid_ = base if seen_ids[base] == 1 else f"{base}.{seen_ids[base]}"
-        g = {"seg": sid_, "s": pc["s"], "a": pc["lo"], "a_end": pc["hi"], "page": pc["leaf"],
-             "head": f"old text of leaf {pc['leaf'] or '?'} (a leaf segment: verses {pc['lo']}-{pc['hi']} begin or continue on it)",
-             "text": f"[{pc['leaf']}] " + pc["text"] if pc["leaf"] else pc["text"], "leaf_segment": True}
-        flags = []
-        if pc["inferred"]:
-            flags.append("verse range inferred from the neighbouring leaves (no modern entry names this leaf)")
-        if pc.get("completed"):
-            flags.append("range end completed to the surah's last verse")
-        if flags:
-            g["flags"] = flags
-        segs.append(g)
+    per_surah: dict[int, list[int]] = {}
+    low: list[str] = []
+    merged_groups: list[str] = []
+    sims_by_surah: dict[str, float] = {}
+    for sn in (5, 6, 7):
+        words: list[str] = []
+        head_txt = ""
+        first = True
+        for pc in [q for q in pieces if q["s"] == sn]:
+            t_ = pc["text"]
+            if first and sn != 5:
+                hm_ = re.search(r"[sşŞ]uret", t_, re.I)
+                bm_ = re.match(r"^.{0,230}?r\W?[aâ]\W?[hfn]\W?[iîı]\W?m\W*", t_[hm_.start():]) if hm_ else None
+                if bm_:
+                    head_txt = t_[hm_.start():hm_.start() + bm_.end()]
+                    t_ = t_[:hm_.start()] + " " + t_[hm_.start() + bm_.end():]
+            first = False
+            if pc["leaf"]:
+                words.append(f"[{pc['leaf']}]")
+            words += t_.split()
+        units = sorted(u for u in oracle[sn] if u[0] <= ends_[sn])
+        if head_txt:
+            segs.append({"seg": f"{SID}:{sn}:head", "s": sn, "a": None, "a_end": None, "page": "", "head": "surah heading and basmala as printed",
+                         "text": head_txt.strip()})
+        res = T.align_to_oracle(words, [t for _, _, t in units])
+        if not res:
+            issues.append(f"{sn}: alignment failed ({len(words)} words, {len(units)} units): stored as one group")
+            segs.append({"seg": f"{SID}:{sn}:1", "s": sn, "a": 1, "a_end": ends_[sn], "page": "", "grouped": True, "text": " ".join(words)})
+            per_surah.setdefault(sn, []).extend(range(1, ends_[sn] + 1))
+            continue
+        ends, sims = res
+        sims_by_surah[str(sn)] = round(sum(sims) / len(sims), 2)
+        p0 = 0
+        for (a0, a1, _), e, sm in zip(units, ends, sims):
+            seg_words = words[p0:e]
+            lf_in = [w[1:-1] for w in seg_words if re.fullmatch(r"\[\d{3}[ab]\]", w)]
+            lf_start = next((w[1:-1] for w in reversed(words[:p0 + 1]) if re.fullmatch(r"\[\d{3}[ab]\]", w)), "")
+            g = {"seg": f"{SID}:{sn}:{a0}", "s": sn, "a": a0, "a_end": min(a1, ends_[sn]), "page": lf_start or (lf_in[0] if lf_in else ""),
+                 "boundary_inferred": True, "similarity_to_eskianadolu": round(sm, 2), "text": " ".join(seg_words)}
+            if a1 > a0:
+                g["grouped"] = True
+                merged_groups.append(f"{sn}:{a0}-{a1}")
+            if sm < 0.25:
+                g["low_similarity"] = True
+                low.append(f"{sn}:{a0}")
+            segs.append(g)
+            per_surah.setdefault(sn, []).extend(range(a0, min(a1, ends_[sn]) + 1))
+            p0 = e
+    pieces_n = len(pieces)
+    miss = {str(sn): [x for x in range(1, ends_[sn] + 1) if x not in set(per_surah.get(sn, []))] for sn in (5, 6, 7)}
+    miss = {k: v for k, v in miss.items() if v}
+    print("verses:", {sn: len(set(per_surah.get(sn, []))) for sn in (5, 6, 7)}, "mean similarity", sims_by_surah, "low", len(low), "missing", miss)
+    if a.dry:
+        return
     got_total = sum(len(set(v)) for v in per_surah.values())
     total = sum(ends_.values())
     present = T.covered({sn: per_surah.get(sn, []) for sn in (5, 6, 7)})
@@ -304,18 +297,20 @@ def main() -> None:
     }, None)
     ing = {"script": "enrichment/v2/fetch/import_meal_eat_sivas_delice.py",
            "from": {str(raw.relative_to(IC.CORPUS / SID)): IC.C.sha256(raw)},
-           "method": "OCR djvu.txt; old text by manuscript leaf (leaf ids open it); verse ranges of a leaf from the modern entries' printed leaf references",
+           "method": "OCR djvu.txt; old text by manuscript leaf (leaf ids open it, kept as [106a] markers in the text); verses cut by aligning each surah's words with MEAL-ESKIANADOLU (word-level dynamic programme, trigram similarity)",
            "edition_range": "leaves 105b-170b = Mâ'ide 5:1 to A'râf 7:133 (surahs 5, 6 complete; 7 up to verse 133 of 206)",
            "covered": present, "missing": miss, "verse_count_mismatch": {k: [len(set(per_surah.get(int(k), []))), ends_[int(k)]] for k in miss},
-           "leaf_segments": len(pieces), "leaves_found_in_ocr": len(set(leaf_seq) - {""}), "leaves_expected": 132,
-           "issues": ["old-text verse separators «/» are not one per verse (145 units for 120 verses in Mâ'ide), so verses are not cut inside a leaf"],
+           "leaf_pieces_read": pieces_n, "leaves_found_in_ocr": len(set(leaf_seq) - {""}), "leaves_expected": 132,
+           "mean_similarity_per_surah": sims_by_surah, "low_similarity_verses": low, "oracle_merged_groups": merged_groups,
+           "issues": issues + ["old-text verse separators «/» are not one per verse (145 units for 120 verses in Mâ'ide): not used for cutting"],
            "counts": T.tally(stats), "dropped_sample": []}
     IC.write(SID, segs, ing, {
-        "coverage": f"5:1-7:133 by leaf ({got_total}/{total} verses lie on a stored leaf; 7:134-206 are outside the edition)",
-        "notes": "Partial: leaves 105b-170b of the Sivas manuscript only. The OCR of the scan is poor; the old text is stored LEAF by LEAF "
-                 "(segment = one manuscript leaf, a..a_end = the verses that begin or continue on it, read from the modern entries' printed "
-                 "leaf references; adjacent leaves share the verse they split). No verse is cut inside a leaf: the edition's verse separators "
-                 "do not give one verse per mark. Manuscript line numbers (n) stay in the text; leaf ids are the OCR readings (about a third of the 132 leaves have no readable id and are merged into the leaf before; a few ids are misread). " + T.NOTE})
+        "coverage": f"5:1-7:133 ({got_total}/{total} verses; 7:134-206 are outside the edition)",
+        "notes": "Partial: leaves 105b-170b of the Sivas manuscript only = Mâ'ide 5:1 to A'râf 7:133 (7:134-206 and all other surahs are not in this "
+                 "edition). The OCR of the scan is poor and keeps no verse numbers for the old text, so each surah's text is cut into verses by aligning "
+                 "it with MEAL-ESKIANADOLU (same tradition, close wording; mean trigram similarity 0.64); segments carry boundary_inferred and "
+                 f"similarity_to_eskianadolu ({len(low)} verses flagged low_similarity). Leaf ids appear as [106a] markers inside the text (about a third "
+                 "of the 132 leaves have no readable id), manuscript line numbers (n) as printed. " + T.NOTE})
     IC.write(NSID, nsegs, {"script": "enrichment/v2/fetch/import_meal_eat_sivas_delice.py",
                            "from": {str(raw.relative_to(IC.CORPUS / SID)): IC.C.sha256(raw)}, "counts": T.tally(stats), "issues": []}, {})
 

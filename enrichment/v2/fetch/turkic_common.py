@@ -135,3 +135,100 @@ def ranges(nums: list[int]) -> str:
 
 def tally(c: Counter) -> dict:
     return {k: v for k, v in sorted(c.items())}
+
+
+# ---------------------------------------------------------------- aligning an unnumbered text to a numbered one
+import unicodedata as _ud
+import zlib as _zlib
+
+_FOLD = str.maketrans({"ı": "i", "İ": "i", "â": "a", "ä": "a", "ö": "o", "ü": "u", "ğ": "g", "ş": "s", "ç": "c", "î": "i", "û": "u",
+                       "ñ": "n", "ŋ": "n", "é": "e", "ê": "e", "ô": "o", "ë": "e", "ñ": "n"})
+
+
+def fold(x: str) -> str:
+    """Letters only, lower case, Turkish/Arabic-transliteration diacritics folded: the comparison form of a word."""
+    x = _ud.normalize("NFD", x.lower().replace("i̇", "i"))
+    x = "".join(c for c in x if not _ud.combining(c)).translate(_FOLD)
+    return re.sub(r"[^a-z]", "", x)
+
+
+def _bits(x: str) -> int:
+    v = 0
+    if len(x) < 3:
+        return (1 << (_zlib.crc32(x.encode()) % 8192)) if x else 0
+    for i in range(len(x) - 2):
+        v |= 1 << (_zlib.crc32(x[i:i + 3].encode()) % 8192)
+    return v
+
+
+def align_to_oracle(words: list[str], oracle: list[str | None], max_ratio: float = 4.0) -> tuple[list[int], list[float]] | None:
+    """Cut `words` (the unnumbered text, in order) into len(oracle) runs, run j resembling oracle[j] (a numbered text of
+    the same passage: another translation or edition) most: dynamic programme over word positions with the cut point of
+    run j kept near where the oracle's share of characters puts it, run length at most `max_ratio` times the expected
+    one; similarity = Dice over character trigrams (bit sets). A verse whose oracle is None scores 0.4. Returns the end
+    index of every run and its similarity, or None when no cut exists."""
+    N, m = len(words), len(oracle)
+    if N < m or m == 0:
+        return None
+    wb = [_bits(fold(w)) for w in words]
+    ob = [_bits("".join(fold(w) for w in o.split())) if o else None for o in oracle]
+    oc = [b.bit_count() if b is not None else 0 for b in ob]
+    lens = [sum(len(fold(w)) for w in o.split()) if o else 0 for o in oracle]
+    known = [x for x in lens if x]
+    if not known:
+        return None
+    avg = sum(known) / len(known)
+    lens = [x or avg for x in lens]
+    tot = sum(lens)
+    cum, acc = [], 0.0
+    for x in lens:
+        acc += x
+        cum.append(acc / tot)
+    W = max(30, int(0.05 * N))
+    window = []
+    for j in range(m):
+        e = round(N * cum[j])
+        window.append((max(j + 1, e - W), min(N - (m - 1 - j), e + W)) if j < m - 1 else (N, N))
+    NEG = -1e9
+    prev: dict[int, float] = {0: 0.0}
+    backs: list[dict[int, int]] = []
+    for j in range(m):
+        lo, hi = window[j]
+        exp_words = max(3.0, N * lens[j] / tot)
+        maxlen = int(exp_words * max_ratio) + 12
+        cur: dict[int, float] = {}
+        bk: dict[int, int] = {}
+        for p, val in prev.items():
+            acc = 0
+            top = min(hi, p + maxlen)
+            for i in range(p + 1, top + 1):
+                acc |= wb[i - 1]
+                if i < lo:
+                    continue
+                if ob[j] is None:
+                    sc = 0.4
+                else:
+                    c = acc.bit_count()
+                    sc = 2 * (acc & ob[j]).bit_count() / (c + oc[j]) if c else 0.0
+                v2 = val + sc
+                if v2 > cur.get(i, NEG):
+                    cur[i] = v2
+                    bk[i] = p
+        if not cur:
+            return None
+        backs.append(bk)
+        prev = cur
+    if N not in prev:
+        return None
+    ends, sims = [], []
+    i = N
+    for j in range(m - 1, -1, -1):
+        p = backs[j][i]
+        acc = 0
+        for t in wb[p:i]:
+            acc |= t
+        c = acc.bit_count()
+        sims.append(0.4 if ob[j] is None else (2 * (acc & ob[j]).bit_count() / (c + oc[j]) if c else 0.0))
+        ends.append(i)
+        i = p
+    return ends[::-1], sims[::-1]

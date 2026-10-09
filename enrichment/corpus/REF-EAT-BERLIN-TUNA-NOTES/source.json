@@ -1,0 +1,59 @@
+{
+  "id": "REF-EAT-BERLIN-TUNA-NOTES",
+  "title": "Tuna, Berlin Old Anatolian interlinear thesis: introduction and apparatus",
+  "author": "Cem Tuna",
+  "kind": "reference",
+  "tradition": "academic",
+  "language": "tr",
+  "turkic_stage": "Old Anatolian Turkish",
+  "edition": "Cem Tuna, Berlin El Yazmaları Kütüphanesi'ndeki Eski Anadolu Türkçesi Satır-Arası Kur'an Tercümesi (Giriş-Metin), master's thesis, Akdeniz Üniversitesi, Sosyal Bilimler Enstitüsü, Antalya 2016 (supervisor Doç. Dr. Suat Ünlü)",
+  "edition_editor": "Cem Tuna",
+  "edition_publisher": "Akdeniz Üniversitesi (master's thesis)",
+  "edition_year": 2016,
+  "manuscript": "Staatsbibliothek zu Berlin (Berlin El Yazmaları Kütüphanesi), Old Anatolian Turkish interlinear, folios 1a-320b transcribed",
+  "access": "yerel",
+  "locator": "section",
+  "urls": [
+    "https://archive.org/details/berlin-el-yazmalari-kutuphanesindeki-eski-anadolu-turkcesi-satir-arasi-kuran-tercumesi"
+  ],
+  "uploader": "empireofhassaan@hotmail.com",
+  "archive_identifier": "berlin-el-yazmalari-kutuphanesindeki-eski-anadolu-turkcesi-satir-arasi-kuran-tercumesi",
+  "licence": "scholarly edition; archive.org third-party upload; local research use",
+  "panel": false,
+  "duplicate_of_meal": "MEAL-ESKIANADOLU",
+  "coverage": "introduction and apparatus; the translation text itself is MEAL-ESKIANADOLU",
+  "files": {
+    "raw/acquired-2026-10-09/tuna_berlin_djvu.txt": "f678ae311165ab4724ede13f46adbc6c358ca3db106111e802263d7a5cd56a4a"
+  },
+  "fetched_at": "2026-10-09T17:21:01.361284+00:00",
+  "acquisition": {
+    "date": "2026-10-09",
+    "state": "raw_downloaded",
+    "files": 1,
+    "bytes": 1017761,
+    "ingestion_status": "ingested",
+    "note": "OCR text (djvu.txt) of an archive.org third-party upload; no PDF kept."
+  },
+  "notes": "The thesis edits the whole Berlin manuscript (1a-320b); that text is already in the corpus as MEAL-ESKIANADOLU (kuranmeali.com, taken from this thesis), so no second meal source was made. scholarly edition; archive.org third-party upload; local research use",
+  "segments": 7,
+  "ingestion": {
+    "date": "2026-10-09",
+    "script": "enrichment/v2/fetch/import_meal_eat_berlin.py",
+    "from": {
+      "raw/acquired-2026-10-09/tuna_berlin_djvu.txt": "f678ae311165ab4724ede13f46adbc6c358ca3db106111e802263d7a5cd56a4a"
+    },
+    "method": "OCR djvu.txt; front and back matter as chunks; the Metin part is not stored as a meal source (identical to MEAL-ESKIANADOLU)",
+    "identity_with_MEAL-ESKIANADOLU": {
+      "verses_checked": 5935,
+      "first_three_words_found_in_thesis_metin": 2598,
+      "percent": 43.8,
+      "why_not_100": "OCR of the thesis scan (the letter ñ/ŋ of «Tañrı», ā, ī, ū come out as other letters)"
+    },
+    "counts": {},
+    "issues": [],
+    "segments": 7,
+    "tied_to_ayah": 0,
+    "with_cited_ayat": 0,
+    "characters": 23540
+  }
+}
