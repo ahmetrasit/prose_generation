@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v8s_sift3_103_1_18_10_c2",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-08T16:56:20",
+  "ended": "2026-10-08T16:59:34",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11d4d-8d70-7953-80bd-d8e81853e19a",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 314594,
+    "cached_input_tokens": 264192,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 17289,
+    "reasoning_output_tokens": 12738
+  },
+  "stderr": "2026-10-08T20:56:26.825075Z ERROR codex_core::shell_snapshot: Shell snapshot validation failed: Snapshot command exited with status exit status: 1: /bin/bash: /Users/ahmetrasit/.codex/shell_snapshots/01a11d4d-8d70-7953-80bd-d8e81853e19a.tmp-1791492985626453000: No such file or directory\n\n2026-10-08T20:56:29.248860Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-08T20:56:41.142860Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: invalid peer certificate: UnknownIssuer, url: wss://chatgpt.com/backend-api/codex/responses\n",
+  "prompt_sha256": "ff34e8de74bd47d1ae6355fcc3234b52a0a1aac5038ff42b691943155f483b04",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T16-56-25-01a11d4d-8d70-7953-80bd-d8e81853e19a.jsonl",
+  "usd_equivalent": 0.016327,
+  "requests": 8,
+  "max_request_input_tokens": 55210,
+  "over_context_cap": false
+}

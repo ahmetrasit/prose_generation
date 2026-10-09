@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v8s_sift_103_1_79_42",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-08T16:00:12",
+  "ended": "2026-10-08T16:02:34",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11d1a-230a-7933-a5ac-fa30fb3d004f",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 252013,
+    "cached_input_tokens": 210688,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12981,
+    "reasoning_output_tokens": 9559
+  },
+  "stderr": "2026-10-08T20:00:23.778464Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: invalid peer certificate: UnknownIssuer, url: wss://chatgpt.com/backend-api/codex/responses\n",
+  "prompt_sha256": "38ba3c5eadcced06a262c3d5878407134f3ee79965fa7b71970620c6f08d7191",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T16-00-14-01a11d1a-230a-7933-a5ac-fa30fb3d004f.jsonl",
+  "usd_equivalent": 0.01273,
+  "requests": 9,
+  "max_request_input_tokens": 41705,
+  "over_context_cap": false
+}

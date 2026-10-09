@@ -29,7 +29,7 @@ The page cites these verses per paragraph ({AYAH} is always on each list):
 Everything you attribute comes from the notes. Your own knowledge helps you understand and connect; it never supplies a position, report, grading, quotation or translator's wording. Every block cites the note ids it rests on. Arabic you quote must be copied from the «exact words» of a note you cite.
 
 ## WHAT TO WRITE
-1. **One block per question, for the whole page.** A block answers one question the page raises (e.g. "Tîn ve zeytûn: meyve mi, yer mi?"), with every source that weighs in, whatever its tradition. Place it after the **first** paragraph that raises the question; a later paragraph that raises the same question points to that block in its ledger line, it does not get a second block. Never say the same thing in two blocks.
+1. **One block per question, for the whole page.** A block answers one question the page raises (e.g. which of two senses a key word has, or who a phrase refers to), with every source that weighs in, whatever its tradition. Place it after the **first** paragraph that raises the question; a later paragraph that raises the same question points to that block in its ledger line, it does not get a second block. Never say the same thing in two blocks.
 2. **A complete map, briefly.** Every position that bears on the paragraph's point appears at least as a named clause: who holds it, and its reason when the reason decides. Minor variants are counted, not spelled out ("… ve dört kaynakta daha"). Leaving a relevant position out is a silent loss; spelling out its details is bloat.
 3. **Disagreement and preference stay visible**: who prefers or rejects what, and on what ground. A report is not its grading; an author's analysis is not your connection.
 4. **Connections are your main contribution.** For a cited verse: in one to three sentences, what the tradition says about it that bears on the paragraph's point, and how the sources themselves link it to {AYAH} when the notes show it.
@@ -39,14 +39,14 @@ Everything you attribute comes from the notes. Your own knowledge helps you unde
 ## OUTPUT (write each file in one write, after you have gathered what you need)
 `enrichment/v8/work/{RUN}/write/{ARM}/blocks.jsonl`, one block per line:
 ```
-{"id":"b01","p":[3],"verse":"{AYAH}","topic":"kısa Türkçe başlık","text":"Türkçe metin","notes":["TAB-FULL:v24p501#2/r1"]}
+{"id":"b01","p":[3],"verse":"{AYAH}","topic":"kısa Türkçe başlık","text":"Türkçe metin","notes":["<note id>","<note id>"]}
 ```
 `p` is the paragraph the block is placed after (a block may list more paragraphs only if it addresses each).
 
 `enrichment/v8/work/{RUN}/write/{ARM}/ledger.jsonl`, exactly one line per (paragraph, cited verse) pair:
 ```
 {"p":3,"verse":"{AYAH}","status":"written","blocks":["b01"]}
-{"p":7,"verse":"24:35","status":"no_match","reason":"one line: what you searched and why nothing bears"}
+{"p":7,"verse":"<S:A>","status":"no_match","reason":"one line: what you searched and why nothing bears"}
 ```
 "written" may point to a block placed after an earlier paragraph.
 

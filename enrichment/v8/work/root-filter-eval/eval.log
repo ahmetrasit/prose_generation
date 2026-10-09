@@ -1,0 +1,115 @@
+
+== 103:1: 22 paragraphs; notes on page verses 8398 (2,137,076 ch, ~636,130 tok); focus notes 393 (97,286 ch); sim-tag coverage 64%
+   baseline per-paragraph sum: 17072 notes 4,290,618 ch ~1,259,435 tok
+   A faithful (lex)                   sum   7601 notes   1,892,989 ch ~  576,004 tok | union  4993  1,267,018 ch
+   B faithful (lex+pat+tr)            sum   9273 notes   2,321,884 ch ~  701,691 tok | union  5953  1,512,647 ch
+   C B + focus roots                  sum  10467 notes   2,606,771 ch ~  785,832 tok | union  5953  1,512,647 ch
+   D C − common roots                 sum   9574 notes   2,383,237 ch ~  718,622 tok | union  5286  1,344,038 ch
+   T1 tagged sim, untagged out        sum   7583 notes   1,861,560 ch ~  560,871 tok | union  3722    933,688 ch
+   T2 tagged sim, untagged in         sum  15166 notes   3,809,082 ch ~1,113,426 tok | union  6768  1,725,367 ch
+   X T2 + page scope (root-gated)     sum  22264 notes   5,515,857 ch ~1,639,712 tok | union  6768  1,725,367 ch
+
+== 1:3: 18 paragraphs; notes on page verses 15149 (4,048,007 ch, ~1,218,582 tok); focus notes 365 (103,191 ch); sim-tag coverage 65%
+   baseline per-paragraph sum: 21356 notes 5,802,770 ch ~1,724,945 tok
+   A faithful (lex)                   sum   9227 notes   2,513,913 ch ~  773,192 tok | union  7235  1,955,753 ch
+   B faithful (lex+pat+tr)            sum  10921 notes   2,979,861 ch ~  912,360 tok | union  8483  2,293,918 ch
+   C B + focus roots                  sum  11030 notes   3,009,895 ch ~  921,289 tok | union  8483  2,293,918 ch
+   D C − common roots                 sum   8883 notes   2,420,569 ch ~  741,043 tok | union  6705  1,811,915 ch
+   T1 tagged sim, untagged out        sum   7162 notes   1,923,028 ch ~  588,228 tok | union  5297  1,408,430 ch
+   T2 tagged sim, untagged in         sum  16453 notes   4,493,129 ch ~1,322,802 tok | union 10574  2,840,800 ch
+   X T2 + page scope (root-gated)     sum  50725 notes  13,945,197 ch ~4,247,610 tok | union 10574  2,840,800 ch
+
+== 95:1: 15 paragraphs; notes on page verses 910 (235,134 ch, ~69,631 tok); focus notes 340 (89,653 ch); sim-tag coverage 52%
+   baseline per-paragraph sum: 5917 notes 1,554,073 ch ~463,058 tok
+   A faithful (lex)                   sum   1661 notes     436,155 ch ~  135,371 tok | union   525    133,963 ch
+   B faithful (lex+pat+tr)            sum   1966 notes     521,814 ch ~  160,353 tok | union   590    151,830 ch
+   C B + focus roots                  sum   3382 notes     889,204 ch ~  272,000 tok | union   609    156,679 ch
+   D C − common roots                 sum   3289 notes     864,463 ch ~  264,524 tok | union   582    149,677 ch
+   T1 tagged sim, untagged out        sum   3022 notes     794,651 ch ~  243,171 tok | union   447    114,522 ch
+   T2 tagged sim, untagged in         sum   5749 notes   1,511,654 ch ~  450,328 tok | union   882    227,425 ch
+   X T2 + page scope (root-gated)     sum   5889 notes   1,547,298 ch ~  461,440 tok | union   882    227,425 ch
+recall 95:1 A faithful (lex)                   pairs 86/164  page ids 107/161
+recall 95:1 B faithful (lex+pat+tr)            pairs 95/164  page ids 120/161
+recall 95:1 C B + focus roots                  pairs 106/164  page ids 123/161
+recall 95:1 D C − common roots                 pairs 103/164  page ids 120/161
+recall 95:1 T1 tagged sim, untagged out        pairs 90/164  page ids 95/161
+recall 95:1 T2 tagged sim, untagged in         pairs 156/164  page ids 159/161
+recall 95:1 X T2 + page scope (root-gated)     pairs 156/164  page ids 159/161
+must-find 103:1 {
+"A faithful (lex)": {
+"11": [],
+"12": [
+"IBNQUTAYBA-GHARIB:v1p218#5/r3",
+"MAJAZ:v1p312/r7",
+"MAJAZ:v1p312/r8",
+"SAMIN-DURR:12:49/r8",
+"TAB-FULL:v13p197/r1"
+]
+},
+"B faithful (lex+pat+tr)": {
+"11": [],
+"12": [
+"IBNQUTAYBA-GHARIB:v1p218#5/r3",
+"MAJAZ:v1p312/r7",
+"MAJAZ:v1p312/r8",
+"SAMIN-DURR:12:49/r8",
+"TAB-FULL:v13p197/r1"
+]
+},
+"C B + focus roots": {
+"11": [],
+"12": [
+"IBNQUTAYBA-GHARIB:v1p218#5/r3",
+"MAJAZ:v1p312/r7",
+"MAJAZ:v1p312/r8",
+"SAMIN-DURR:12:49/r8",
+"TAB-FULL:v13p197/r1"
+]
+},
+"D C − common roots": {
+"11": [],
+"12": [
+"IBNQUTAYBA-GHARIB:v1p218#5/r3",
+"MAJAZ:v1p312/r7",
+"MAJAZ:v1p312/r8",
+"SAMIN-DURR:12:49/r8",
+"TAB-FULL:v13p197/r1"
+]
+},
+"T1 tagged sim, untagged out": {
+"11": [],
+"12": [
+"IBNQUTAYBA-GHARIB:v1p218#5/r3",
+"MAJAZ:v1p312/r7",
+"MAJAZ:v1p312/r8",
+"SAMIN-DURR:12:49/r8",
+"TAB-FULL:v13p197/r1"
+]
+},
+"T2 tagged sim, untagged in": {
+"11": [],
+"12": [
+"IBNQUTAYBA-GHARIB:v1p218#5/r3",
+"MAJAZ:v1p312/r7",
+"MAJAZ:v1p312/r8",
+"SAMIN-DURR:12:49/r8",
+"TAB-FULL:v13p197/r1"
+]
+},
+"X T2 + page scope (root-gated)": {
+"11": [
+"IBNQUTAYBA-GHARIB:v1p218#5/r3",
+"MAJAZ:v1p312/r7",
+"MAJAZ:v1p312/r8",
+"SAMIN-DURR:12:49/r8",
+"TAB-FULL:v13p197/r1"
+],
+"12": [
+"IBNQUTAYBA-GHARIB:v1p218#5/r3",
+"MAJAZ:v1p312/r7",
+"MAJAZ:v1p312/r8",
+"SAMIN-DURR:12:49/r8",
+"TAB-FULL:v13p197/r1"
+]
+}
+}

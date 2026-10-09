@@ -10,19 +10,19 @@ Read with `cat`, each file once: `enrichment/v8/work/{RUN}/inputs/page.pK.txt` (
 ## WHAT A CLAIM IS
 Anything in a paragraph that a tradition note could support, contest, qualify, source or answer:
 - a sense of a word or root, a derivation, a usage of the Arabs, a grammatical or rhetorical point;
-- a referent or identification (what "al-ʿaṣr" denotes, who is meant);
+- a referent or identification (what a key word denotes, who is meant);
 - a reading of a cited verse and the use the paragraph makes of it (what the verse is cited **for**);
 - a connection the paragraph draws between verses, words or ideas;
 - a question the paragraph raises or settles, including one it settles only implicitly by choosing one sense over others (name the alternative it sets aside when the text shows it).
 Write claims made only in Turkish too: a paragraph may discuss a word without quoting it in Arabic.
 
-**A cited verse is not a claim; what the paragraph takes from it is.** Never write a claim that only restates what a verse says ("In 11:114 the Prophet is commanded to pray at the two ends of the day"): the readers would then grade every ordinary commentary on that verse as bearing on the page. Write what the paragraph reads in the verse and uses it for, with the words it turns on: "11:114's ṭarafay al-nahār (the two ends of the day) is cited as the Qurʾān naming as a pair the day's two edges that Arabic calls al-ʿaṣrān". When the paragraph retells a story across several verses, write one claim per point it draws from the story (not one per verse), naming the verses and words each point rests on. When the paragraph gives the verse a specific reading (a sense, a referent, a figure of speech), that reading is a claim.
+**A cited verse is not a claim; what the paragraph takes from it is.** Never write a claim that only restates what a verse says ("S:A says that …", "in S:A, these events happen"): the readers would then grade every ordinary commentary on that verse as bearing on the page. Write what the paragraph reads in the verse and uses it for, with the words it turns on: "the phrase P in S:A is cited as the Qurʾān's own instance of the sense/pair/image X that the paragraph describes". When the paragraph retells a story across several verses, write one claim per point it draws from the story (not one per verse), naming the verses and words each point rests on. When the paragraph gives the verse a specific reading (a sense, a referent, a figure of speech), that reading is a claim.
 One claim per distinct point. A paragraph usually has two to six; a dense one more. Do not merge two points into one claim and do not split one point into several.
 
 ## OUTPUT
 Write `enrichment/v8/work/{RUN}/sift/claims.jsonl`, one line per claim, paragraphs in order, every paragraph from ¶1 to ¶{LASTP} with at least one claim:
 ```
-{"id":"4a","p":4,"claim":"English, one or two sentences, precise enough to judge a note against","terms":["العصران","al-ʿaṣrān"],"verses":["6:52","11:114"]}
+{"id":"<n><letter>","p":<n>,"claim":"English, one or two sentences, precise enough to judge a note against","terms":["<Arabic term as the page writes it>","<its transliteration>"],"verses":["<S:A>"]}
 ```
 - `id`: paragraph number + letter (a, b, c …).
 - `claim`: in English (the notes' claims are in English), with Arabic terms in transliteration.

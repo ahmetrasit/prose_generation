@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7m_t2whole-103_1-20261008_sol-high_89-1_s1",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-08T20:17:05",
+  "ended": "2026-10-08T20:19:29",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11e05-4b17-7ec3-bf33-2c73aac18993",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 360116,
+    "cached_input_tokens": 327040,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 13455,
+    "reasoning_output_tokens": 1745
+  },
+  "stderr": "2026-10-09T00:19:04.838770Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t2whole-103_1-20261008/tier2/out/sol-high/89-1.s1.jsonl:\n{\"words\":[\"ٱلْفَجْرِ\"],\"type\":\"referent\",\"view\":\"Al-fajr refers to the dawn prayer, in some accounts including its recitation or the Quran of dawn.\",\"rows\":[\"TAB-FULL:v24p344#2/r2\",\"NAHHAS:v5p217/r2\",\"THALABI:v10p191#3/r2\",\"MAWARDI-FULL:v6p265/r4\",\"WAHIDI-BASIT:v23p483#2/r3\",\"KASHSHAF-FULL:v4p749/r1\",\"IBNATIYYA-FULL:v5p476#3/r3\",\"IBNJAWZI-ZAD:v9p102/r4\",\"RAZI-FULL:v31p147/r3\",\"QURTUBI-FULL:89:1-2/r5\",\"BAYDAWI-FULL:89:1-3/r1\",\"NASAFI-FULL:v4p336/r1\",\"ABUHAYYAN-FULL:v10p469/r6\",\"SAMIN-DURR:89:4/r2\",\"IBNKATHIR-FULL:v8p390#2/r3\",\"DURR-FULL:v8p497/r8\",\"ALUSI-FULL:v30p119/r8\",\"TABATABAI:89:1-3/r5\"],\"note\":\"Al-Razi adds that night and day angels gather to hear its recitation; Tabatabai calls the proposal poor.\"}\n",
+  "prompt_sha256": "4c13019c761601d47c40be5af4b21efe43a9a05c54c2ae9bebdea7a74b329880",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T20-17-05-01a11e05-4b17-7ec3-bf33-2c73aac18993.jsonl",
+  "usd_equivalent": 0.26611,
+  "requests": 12,
+  "max_request_input_tokens": 40685,
+  "over_context_cap": false
+}

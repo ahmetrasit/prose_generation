@@ -7,7 +7,9 @@ into distinct views and never merges across cells. A verse too large for one con
 cells, so no merging across slices is ever needed. The script fills in each view's word, type, holders, sources and
 stances from the row ids, so nothing is retyped.
 
-  merge.py build RUN --from luna-max (--ayat 95:1 6:99 … | --page PATH --ayah A) --models gpt-6-sol:high
+  merge.py build RUN --from luna-max (--ayat 95:1 6:99 … | --page PATH --ayah A) --models gpt-6-sol:high [--whole]
+            --whole: no cells and no row tags needed; each verse is one slice and the agent labels every view with
+            its verse words and type (briefs/merge-whole.md)
   merge.py check RUN [--model TAG] [--ayah 95:1 --slice s1]   the agent runs it with --ayah and --slice until OK;
                                                               without them: checks every slice, assembles each verse
   merge.py update RUN --model TAG    rows added since tier 2 ran: rebuild only the cells that gained rows (new slices)
@@ -24,6 +26,8 @@ import digest
 from digest import PART_CHARS, ROOT, TYPES, V7, WHOLE, connect, dump, run_dir
 
 BRIEF = V7 / 'briefs/merge.md'
+BRIEF_WHOLE = V7 / 'briefs/merge-whole.md'
+WHOLE_CELL = 'verse'   # the single cell of a --whole run
 SLICE_CHARS = 90_000   # input characters per agent; a single larger cell stands alone (printed)
 UNTAGGED = 'untagged'
 
@@ -161,7 +165,7 @@ def save_rows(t, ayah, rs, cs):
     dump(t / 'rows' / f'{k}.cells.json', cs)
 
 
-def spawn(t, run, spec, ayah, s):
+def spawn(t, run, spec, ayah, s, whole=False):
     model, effort = spec.split(':')
     tag = digest.tag_of(model, effort)
     k = key(ayah)
@@ -171,7 +175,9 @@ def spawn(t, run, spec, ayah, s):
     fill = {'AGENT': f"/root/v7m_{run}_{tag}_{k}_{s['slice']}", 'MODEL': model, 'EFFORT': effort, 'RUN': run, 'TAG': tag,
             'AYAH': ayah, 'KEY': k, 'SLICE': s['slice'], 'LAST': str(s['parts'] - 1), 'ROWS': str(s['rows']),
             'NCELLS': str(len(s['cells'])), 'SOURCES': str(s['sources']), 'VERSE': verse}
-    text = BRIEF.read_text()
+    text = (BRIEF_WHOLE if whole else BRIEF).read_text()
+    if whole:
+        fill['TYPES'] = '\n'.join(f'  - `{k}`: {v}' for k, v in digest.TYPE_GUIDE.items())
     for x, v in fill.items():
         text = text.replace('{' + x + '}', v)
     f = t / 'spawn' / f"{tag}_{k}.{s['slice']}.md"
@@ -205,12 +211,20 @@ def build(a):
             print(f'NOTE {ayah}: no tier-1 notes ({", ".join(a.from_tags)}); no tier 2')
             continue
         untagged = sum(1 for r in rs if r.get('type') not in TYPES)
-        if untagged:
+        if untagged and not a.whole:
             print(f'WARNING {ayah}: {untagged} of {len(rs)} rows have no tags; they form the {UNTAGGED} cells (run retag first)')
         by_id = {r['id']: r for r in rs}
-        cs = cells(ayah, rs)
+        if a.whole:
+            order = sorted(rs, key=lambda r: (r['death'] if isinstance(r['death'], int) else 9999, r['src'], r['id']))
+            cs = {WHOLE_CELL: {'word': 'whole verse', 'type': 'all', 'rows': [r['id'] for r in order]}}
+            groups = [[WHOLE_CELL]]
+        else:
+            cs = cells(ayah, rs)
+            groups = pack(cs, by_id, ayah)
         save_rows(t, ayah, rs, cs)
-        slices = [write_slice(t, ayah, f's{n}', ids, cs, by_id) for n, ids in enumerate(pack(cs, by_id, ayah), 1)]
+        slices = [write_slice(t, ayah, f's{n}', ids, cs, by_id) for n, ids in enumerate(groups, 1)]
+        if a.whole and slices[0]['chars'] > SLICE_CHARS:
+            print(f"NOTE {ayah}: {slices[0]['chars']:,} characters in one slice (--whole never splits a verse)")
         plan.append({'ayah': ayah, 'rows': len(rs), 'cells': len(cs), 'slices': slices})
         print(f"{ayah}: {len(rs)} rows, {len(cs)} cells, {len(slices)} slice(s), "
               f"{sum(s['chars'] for s in slices):,} characters")
@@ -219,12 +233,13 @@ def build(a):
     for spec in a.models:
         for p in plan:
             for s in p['slices']:
-                spawn(t, a.run, spec, p['ayah'], s)
-    dump(t / 'manifest.json', {'from': a.from_tags, 'models': a.models, 'ayat': plan})
+                spawn(t, a.run, spec, p['ayah'], s, a.whole)
+    dump(t / 'manifest.json', {'from': a.from_tags, 'models': a.models, 'whole': a.whole, 'ayat': plan})
 
 
-def check_slice(t, tag, ayah, s):
-    """Problems in one slice output: unknown cell or id, a view mixing cells, a row of the slice in no view."""
+def check_slice(t, tag, ayah, s, whole=False):
+    """Problems in one slice output: unknown cell or id, a view mixing cells, a row of the slice in no view.
+    whole: views carry no cell but their own words (in the verse) and type (in the list)."""
     k = key(ayah)
     cs = json.loads((t / 'rows' / f'{k}.cells.json').read_text())
     f = t / 'out' / tag / f"{k}.{s['slice']}.jsonl"
@@ -240,10 +255,16 @@ def check_slice(t, tag, ayah, s):
         except ValueError as e:
             problems.append(f'line {i}: not JSON ({e})')
             continue
-        missing = [x for x in ('cell', 'view', 'rows') if not v.get(x)]
+        missing = [x for x in (('view', 'rows') if whole else ('cell', 'view', 'rows')) if not v.get(x)]
         if missing:
             problems.append(f'line {i}: missing {", ".join(missing)}')
             continue
+        if whole:
+            v['cell'] = WHOLE_CELL
+            bad = digest.tag_problems({'words': v.get('words'), 'type': v.get('type'), 'verses': [ayah]})
+            if bad:
+                problems += [f'line {i}: {x}' for x in bad]
+                continue
         if v['cell'] not in mine:
             problems.append(f"line {i}: cell {v['cell']} is not a cell of this slice")
             continue
@@ -258,10 +279,23 @@ def check_slice(t, tag, ayah, s):
     return problems, views
 
 
-def assemble(t, tag, p):
-    """The verse's views: for each cell, the views of the latest slice that covers it, in cell order."""
+def assemble(t, tag, p, whole=False):
+    """The verse's views: for each cell, the views of the latest slice that covers it, in cell order. whole: each view's
+    own words and type give its cell."""
     k = key(p['ayah'])
     cs = json.loads((t / 'rows' / f'{k}.cells.json').read_text())
+    if whole:
+        _, views = check_slice(t, tag, p['ayah'], p['slices'][0], True)
+        out = []
+        for v in views:
+            cid, word, typ = cell_of(v, p['ayah'])
+            out.append({'cell': cid, 'word': word, 'type': typ, 'topic': f'{word} · {typ}', 'words': v['words'],
+                        'view': v['view'], 'rows': v['rows'], 'note': v.get('note', '')})
+        out.sort(key=lambda v: cell_order(v['cell']))
+        (t / 'out' / tag / f'{k}.jsonl').write_text(''.join(json.dumps(v, ensure_ascii=False) + '\n' for v in out))
+        known = json.loads((t / 'rows' / f'{k}.json').read_text())
+        (t / 'out' / tag / f'{k}.md').write_text(compact(p['ayah'], out, known, tag))
+        return out
     by_cell = {}
     for s in p['slices']:
         _, views = check_slice(t, tag, p['ayah'], s)
@@ -287,21 +321,21 @@ def check(a):
     if a.ayah:  # the agent's own check
         p = next(x for x in man['ayat'] if x['ayah'] == a.ayah)
         s = next(x for x in p['slices'] if x['slice'] == (a.slice or 's1'))
-        problems, _ = check_slice(t, tags[0], a.ayah, s)
+        problems, _ = check_slice(t, tags[0], a.ayah, s, man.get('whole', False))
         print('OK' if not problems else '\n'.join(problems[:60]) + (f'\n... {len(problems) - 60} more' if len(problems) > 60 else ''))
         return
     for tag in tags:
         for p in man['ayat']:
             bad = 0
             for s in p['slices']:
-                problems, _ = check_slice(t, tag, p['ayah'], s)
+                problems, _ = check_slice(t, tag, p['ayah'], s, man.get('whole', False))
                 bad += bool(problems)
                 for x in problems:
                     print(f"WARNING {tag} {p['ayah']} {s['slice']}: {x}")
             if bad:
                 print(f"{tag} {p['ayah']}: {bad} slice(s) with problems; not assembled")
                 continue
-            views = assemble(t, tag, p)
+            views = assemble(t, tag, p, man.get('whole', False))
             print(f"{tag} {p['ayah']}: {len(views)} views from {p['rows']} rows in {p['cells']} cells, assembled")
 
 
@@ -310,6 +344,8 @@ def update(a):
     d = run_dir(a.run)
     t = d / 'tier2'
     man = json.loads((t / 'manifest.json').read_text())
+    if man.get('whole'):
+        raise SystemExit('update works on cell runs only; for a --whole run, build a new run')
     tag = a.model
     spec = next(s for s in man['models'] if digest.tag_of(*s.split(':')) == tag)
     changed = False
@@ -405,6 +441,7 @@ def main():
                                                                           help='tier-1 model tags, e.g. luna-max')
     p.add_argument('--ayat', nargs='+'); p.add_argument('--models', nargs='+', required=True)
     p.add_argument('--page', help="a frozen page: its own ayah (--ayah) and every verse it cites"); p.add_argument('--ayah')
+    p.add_argument('--whole', action='store_true', help='one slice per verse; the agent labels each view (no row tags needed)')
     p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--ayah'); p.add_argument('--slice')
     p = sub.add_parser('update'); p.add_argument('run'); p.add_argument('--model', required=True)
     p = sub.add_parser('report'); p.add_argument('run')

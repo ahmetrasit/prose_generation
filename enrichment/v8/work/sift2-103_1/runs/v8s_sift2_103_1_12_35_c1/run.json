@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v8s_sift2_103_1_12_35_c1",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-08T16:21:38",
+  "ended": "2026-10-08T16:26:38",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11d2d-e7ba-7323-a55a-5380c64da967",
+  "commands": 16,
+  "usage": {
+    "input_tokens": 780950,
+    "cached_input_tokens": 699136,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 24841,
+    "reasoning_output_tokens": 14551
+  },
+  "stderr": "2026-10-08T20:21:54.263270Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-08T20:22:26.853321Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-08T20:22:30.414170Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-08T20:22:32.771468Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-08T20:22:34.899067Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-08T20:22:37.683975Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-08T20:22:42.009040Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n",
+  "prompt_sha256": "b5ad35719c655ed60f68eb723529cca120f5fcd246dd3cc6d799f40ace9d3a89",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T16-21-53-01a11d2d-e7ba-7323-a55a-5380c64da967.jsonl",
+  "usd_equivalent": 0.027593,
+  "requests": 17,
+  "max_request_input_tokens": 69770,
+  "over_context_cap": false
+}

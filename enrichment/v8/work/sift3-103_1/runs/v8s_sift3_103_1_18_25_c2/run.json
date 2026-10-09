@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v8s_sift3_103_1_18_25_c2",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-08T16:56:20",
+  "ended": "2026-10-08T17:00:42",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11d4d-8e2e-7563-9831-6cb80e5ceb8e",
+  "commands": 17,
+  "usage": {
+    "input_tokens": 913200,
+    "cached_input_tokens": 832768,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 23202,
+    "reasoning_output_tokens": 15040
+  },
+  "stderr": "2026-10-08T20:56:29.322325Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-08T20:57:13.076658Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-08T20:57:14.188247Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-08T20:57:15.786698Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-08T20:57:18.329870Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-08T20:57:22.553392Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-08T21:00:26.022457Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v8/work/sift3-103_1/sift/out/18_25_c2.jsonl:\n{\"n\":1,\"src\":\"DURR-FULL\",\"g\":\"core\",\"c\":[\"19b\",\"19c\"],\"why\":\"revealed clarification of years supports the stated 309-year stay in 19b and long age in 19c\"}\n{\"n\":2,\"src\":\"DURR-FULL\",\"g\":\"core\",\"c\":[\"19b\",\"19c\"],\"why\":\"Mujahid identifies 300 plus nine as the actual stay, supporting the duration in 19b and its long-age reading in 19c\"}\n{\"n\":3,\"src\":\"SUYUTI-LUBAB\",\"g\":\"core\",\"c\":[\"19b\",\"19c\"],\"why\":\"Ibn Abbas reports years plus nine as the stay, supporting the duration in 19b and 19c\"}\n{\"n\":4,\"src\":\"BURSEVI\",\"g\":\"core\",\"c\":[\"19b\",\"19c\"],\"why\":\"parses years as the youths' counted time asleep, supporting the stay in 19b and long age in 19c\"}\n",
+  "prompt_sha256": "154d2a25d71d78bcdd2a5953e6768ff4d48892070d757931f0b22bf90b7cef4b",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T16-56-24-01a11d4d-8e2e-7563-9831-6cb80e5ceb8e.jsonl",
+  "usd_equivalent": 0.027972,
+  "requests": 20,
+  "max_request_input_tokens": 64433,
+  "over_context_cap": false
+}

@@ -114,8 +114,82 @@ def cycle(ref):
     print("\n".join(keep + (["NEXT " + sp[0]] if sp else [])) or "no next")
 
 
+# ---- ayah augment (augment9): acycle N:A finishes, commits, builds the next; one line out
+AORDER = sorted(set(ORDER + [100, 103, 107]) - {59}) + [59]
+SOFT = "_commentary/v16/work/orchestrator/augment_soft.txt"
+
+
+def rdirs(s):
+    """finished-reading run dirs of S<s>, by ayah"""
+    out = {}
+    for d in glob.glob(f"{V}/out/{s}_*/DM.r13.images.r13.map3.*.tool.tool.tool"):
+        a = int(d.split("/")[-2].split("_")[1])
+        if os.path.exists(f"{d}/{s}_{a}.reading.tr.md"):
+            out[a] = d
+    return dict(sorted(out.items()))
+
+
+def aqueue():
+    q = []
+    for s in AORDER:
+        for a, d in rdirs(s).items():
+            ad = f"{d}/augment.augment9.opus"
+            if not os.path.exists(ad):
+                q.append((s, a, d))
+    return q
+
+
+def anext():
+    for s, a, d in aqueue():
+        rc, out = sh(f"python3 -B _commentary/v16/augment.py {os.path.relpath(d, V)} --spawn")
+        ad = f"{d}/augment.augment9.opus"
+        if rc != 0 or "BLOCKED" in out or "WARNING" in out or not os.path.exists(f"{ad}/spawn.md"):
+            print(out)
+            print(f"STOP: augment build failed for {s}:{a}")
+            return
+        print(("NEXT " if template_ok(ad) else "SPAWN-TEXT-DIFFERS ") + f"{s}:{a} {ad}")
+        return
+    print("no next")
+
+
+HARD = re.compile(r"Traceback|WARNING: status|WARNING: ran outside|WARNING: the command audit|refused|"
+                  r"no subagent|tool use outside|unexpected commands|already finished|not an agent-spawned")
+
+
+def afinish(ref):
+    s, a = (int(x) for x in ref.split(":"))
+    d = rdirs(s)[a]
+    ad = f"{d}/augment.augment9.opus"
+    rc, out = sh(f"python3 -B _commentary/v16/augment.py {os.path.relpath(d, V)} --finish")
+    rows = [json.loads(l) for l in open(f"{V}/out/ledger.jsonl")]
+    r1 = ([r for r in rows if r.get("ref") == ref and r.get("arm") == "augment"] or [{}])[-1]
+    r2 = ([r for r in rows if r.get("ref") == ref and r.get("arm") == "augment-applied"] or [{}])[-1]
+    summ = f"{r1.get('status')}, {r2.get('applied')}/{r2.get('insertions')} applied, check {r2.get('check')}"
+    warns = [l for l in out.splitlines() if l.startswith("WARNING")]
+    if warns:
+        with open(f"{R}/{SOFT}", "a", encoding="utf-8") as f:
+            f.write(f"== {ref}\n" + "\n".join(warns) + "\n")
+    sh(f"git add {os.path.relpath(ad, R)} _commentary/v16/out/ledger.jsonl")
+    rc2, o2 = sh(f"git commit -q -m '{ref} augment9: {summ}' && git push -q")
+    if rc2 != 0:
+        print(f"STOP: git for {ref}: {o2.strip()[:200]}")
+    if rc != 0 or r1.get("status") != "ok" or HARD.search(out):
+        print(out[-3000:])
+        print(f"STOP: {ref} augment needs attention ({summ})")
+
+
+def acycle(ref):
+    if ref != "-":
+        afinish(ref)
+    anext()
+
+
 if __name__ == "__main__":
-    if sys.argv[1] == "cycle":
+    if sys.argv[1] == "acycle":
+        acycle(sys.argv[2])
+    elif sys.argv[1] == "aqueue":
+        q = aqueue(); print(len(q), "left;", ", ".join(f"{s}:{a}" for s, a, _ in q[:12]))
+    elif sys.argv[1] == "cycle":
         cycle(sys.argv[2])
     elif sys.argv[1] == "next":
         nxt(int(sys.argv[2]))

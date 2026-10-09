@@ -36,7 +36,7 @@ Claims are English; exact words are mostly Arabic. Search both ways when it matt
 
 **Step 4.** Write the whole file `enrichment/v8/work/{RUN}/gather/packet.jsonl` in one write, exactly one line per paragraph, in order:
 ```
-{"p":1,"items":[{"id":"TAB-FULL:v24p501#2/r1","why":"one short English line: which claim of ¶1 it bears on"}],"searched":"the queries you ran for ¶1, briefly"}
+{"p":1,"items":[{"id":"<note id>","why":"one short English line: which claim of ¶1 it bears on"}],"searched":"the queries you ran for ¶1, briefly"}
 ```
 A paragraph with nothing to bring has `"items":[]` and its `searched` line.
 

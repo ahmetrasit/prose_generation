@@ -1,0 +1,49 @@
+/root/v8s_sift_103_1_103_1: rc 0, completed True, commands 33, max request 99527 tokens, $0.0577 equivalent
+/root/v8s_sift_103_1_103_2: rc 0, completed True, commands 19, max request 76699 tokens, $0.0335 equivalent
+/root/v8s_sift_103_1_11_114: rc 0, completed True, commands 30, max request 106890 tokens, $0.0545 equivalent
+/root/v8s_sift_103_1_12_35: rc 0, completed True, commands 18, max request 62910 tokens, $0.0252 equivalent
+/root/v8s_sift_103_1_12_36: rc 0, completed True, commands 23, max request 84619 tokens, $0.0390 equivalent
+/root/v8s_sift_103_1_12_41: rc 0, completed True, commands 12, max request 47527 tokens, $0.0159 equivalent
+/root/v8s_sift_103_1_12_42: rc 0, completed True, commands 24, max request 83191 tokens, $0.0375 equivalent
+/root/v8s_sift_103_1_12_43: rc 0, completed True, commands 20, max request 60461 tokens, $0.0257 equivalent
+/root/v8s_sift_103_1_12_45: rc 0, completed True, commands 15, max request 59734 tokens, $0.0236 equivalent
+/root/v8s_sift_103_1_12_47: rc 0, completed True, commands 13, max request 52336 tokens, $0.0182 equivalent
+/root/v8s_sift_103_1_12_48: rc 0, completed True, commands 6, max request 45924 tokens, $0.0137 equivalent
+/root/v8s_sift_103_1_12_49: rc 0, completed True, commands 16, max request 62332 tokens, $0.0240 equivalent
+/root/v8s_sift_103_1_18_10: rc 0, completed True, commands 21, max request 68147 tokens, $0.0276 equivalent
+/root/v8s_sift_103_1_18_11: rc 0, completed True, commands 10, max request 56630 tokens, $0.0204 equivalent
+/root/v8s_sift_103_1_18_16: rc 0, completed True, commands 19, max request 71476 tokens, $0.0303 equivalent
+/root/v8s_sift_103_1_18_19: rc 0, completed True, commands 33, max request 105327 tokens, $0.0528 equivalent
+/root/v8s_sift_103_1_18_25: rc 0, completed True, commands 23, max request 69694 tokens, $0.0292 equivalent
+/root/v8s_sift_103_1_2_264: rc 0, completed True, commands 26, max request 80440 tokens, $0.0382 equivalent
+Traceback (most recent call last):
+  File "/Volumes/aro/projects/prose_generation/enrichment/v5/run_codex.py", line 99, in <module>
+    main()
+    ~~~~^^
+  File "/Volumes/aro/projects/prose_generation/enrichment/v5/run_codex.py", line 94, in main
+    for line in pool.map(run, files):
+                ~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 639, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 311, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "/Volumes/aro/projects/prose_generation/enrichment/v5/run_codex.py", line 40, in run
+    text = spawn.read_text()
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 787, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Volumes/aro/projects/prose_generation/enrichment/v8/work/sift-103_1/spawn/sift_2_265.md'

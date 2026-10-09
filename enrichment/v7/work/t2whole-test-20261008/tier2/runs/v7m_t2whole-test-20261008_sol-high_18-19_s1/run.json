@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7m_t2whole-test-20261008_sol-high_18-19_s1",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-08T18:12:37",
+  "ended": "2026-10-08T18:16:50",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11d93-58ec-74d1-bca3-35cb798b8468",
+  "commands": 14,
+  "usage": {
+    "input_tokens": 1284397,
+    "cached_input_tokens": 1219328,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22705,
+    "reasoning_output_tokens": 3450
+  },
+  "stderr": "2026-10-08T22:16:40.246513Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t2whole-test-20261008/tier2/out/sol-high/18-19.s1.jsonl:\n{\"words\":[\"بِوَرِقِكُمْ هَٰذِهِۦٓ\"],\"type\":\"reports\",\"view\":\"The ancient coin alerted the food seller or townspeople to the envoy's unusual age and exposed the sleepers' story.\",\"rows\":[\"TAB-FULL:v15p197/r2\",\"TAB-FULL:v15p203/r3\",\"TAB-FULL:v15p206/r2\",\"THALABI:v6p153/r1\",\"IBNATIYYA-FULL:v3p505/r6\",\"DURR-FULL:v5p366/r3\",\"TABATABAI:18:9-26#27/r4\",\"TABATABAI:18:9-26#30/r2\",\"TABATABAI:18:9-26#30/r3\",\"TABATABAI:18:9-26#35/r4\",\"KURANYOLU-TEFSIR:18:19/r5\",\"STUDYQURAN:18:19/r7\"],\"note\":\"\"}\n",
+  "prompt_sha256": "e080b840eca171356d6abdebdd1e9c68b2afe8118cee923c45af7081addaedf3",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T18-12-39-01a11d93-58ec-74d1-bca3-35cb798b8468.jsonl",
+  "usd_equivalent": 0.601054,
+  "requests": 26,
+  "max_request_input_tokens": 72454,
+  "over_context_cap": false
+}

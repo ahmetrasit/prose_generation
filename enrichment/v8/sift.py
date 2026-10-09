@@ -8,7 +8,7 @@ Nothing is trimmed: every note gets a grade, and the check refuses a file that s
 Step 3: the Opus writer gets the page, the claim map, every focus note with its grade, every core note in full, and
 q.py (whose results show each note's grade) to search further.
 
-  sift.py build RUN --ayah A --page PATH [--max-chars 50000]   index + page (q.py build), sift inputs, spawn files
+  sift.py build RUN --ayah A --page PATH [--max-chars 50000] [--claims luna|opus]   index + page, sift inputs, spawn files
   sift.py check-claims RUN                                      the claim map; writes sift/claims.txt when OK
   sift.py check RUN KEY                                         one agent's output: one grade per note
   sift.py report RUN                                            per agent: done, grades, cost; per paragraph
@@ -28,7 +28,7 @@ import q  # noqa: index build, note line, parts
 ROOT = q.ROOT
 PART = q.PART
 LUNA = (HERE / 'briefs/sift.md').read_text()
-CLAIMS = (HERE / 'briefs/claims.md').read_text()
+CLAIMS = {'luna': (HERE / 'briefs/claims.md').read_text(), 'opus': (HERE / 'briefs/claims-opus.md').read_text()}
 RANK = {'core': 2, 'context': 1, 'off': 0}
 WRITE = (HERE / 'briefs/write-sift.md').read_text()
 
@@ -60,7 +60,7 @@ def order(rs):
 
 
 # ---------------------------------------------------------------- build
-def build(run, ayah, page, max_chars):
+def build(run, ayah, page, max_chars, claims_model='luna'):
     q.build(run, ayah, page)
     d = d_of(run)
     scope = json.loads((d / 'scope.json').read_text())
@@ -131,15 +131,16 @@ def build(run, ayah, page, max_chars):
             (d / 'spawn' / f'sift_{key}.md').write_text(spawn)
             plan.append((key, len(rs), len(text)))
             total_chars += len(text)
-    cs = CLAIMS
+    cs = CLAIMS[claims_model]
     for a, b in (('{AGENT}', f"v8c_{run.replace('-', '_')}_claims"), ('{RUN}', run), ('{AYAH}', ayah),
                  ('{LAST_PAGE}', str(scope['parts']['page'] - 1)), ('{LASTP}', str(max(int(x) for x in scope['paragraphs'])))):
         cs = cs.replace(a, b)
-    (d / 'spawn' / 'claims.md').write_text(cs)
+    # Luna: spawn/claims.md (run with run_codex.py, first); Opus: sift/claims-spawn.md (an agent reads it; not in spawn/)
+    (d / ('spawn/claims.md' if claims_model == 'luna' else 'sift/claims-spawn.md')).write_text(cs)
     page_chars = sum(len((d / 'inputs' / f'page.p{k}.txt').read_text()) for k in range(scope['parts']['page']))
     json.dump({'agents': [k for k, *_ in plan]}, open(d / 'sift/plan.json', 'w'))
     print(f'sift: {len(plan)} agents, {sum(n for _, n, _ in plan):,} notes, {total_chars:,} chars of notes '
-          f'+ page {page_chars:,} chars per agent ({len(plan) * page_chars:,} in all); claim map: spawn/claims.md (run first)')
+          f'+ page {page_chars:,} chars per agent ({len(plan) * page_chars:,} in all); claim map: {"spawn/claims.md" if claims_model == "luna" else "sift/claims-spawn.md"} ({claims_model}, run first)')
     for key, n, c in sorted(plan, key=lambda x: -x[2]):
         print(f'  {key}: {n} notes, {c:,} chars')
 
@@ -405,7 +406,8 @@ def main():
         raise SystemExit(__doc__)
     if a[0] == 'build':
         mc = int(a[a.index('--max-chars') + 1]) if '--max-chars' in a else 50_000
-        build(a[1], a[a.index('--ayah') + 1], a[a.index('--page') + 1], mc)
+        cm = a[a.index('--claims') + 1] if '--claims' in a else 'luna'
+        build(a[1], a[a.index('--ayah') + 1], a[a.index('--page') + 1], mc, cm)
     elif a[0] == 'check-claims':
         check_claims(a[1])
     elif a[0] == 'check':

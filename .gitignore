@@ -3,3 +3,19 @@ node_modules/
 __pycache__/
 *.pyc
 .scratch/
+
+# Large SQLite source files are kept locally; their compressed archives are committed.
+/_commentary/v9/.cache/qac.sqlite
+/enrichment/bible/corpus/corpus.sqlite
+/enrichment/corpus/corpus.sqlite
+/enrichment/v1/corpus/hadith/hadith.sqlite
+/enrichment/v1/work/107_astra_high/lexicon.sqlite
+/enrichment/v1/work/107_astra_max/sources/v4.sqlite
+/enrichment/v2/.cache/furuq.sqlite
+/enrichment/v2/.cache/v4.sqlite
+/enrichment/v8/work/luna-test-95_1/index.sqlite
+/enrichment/v8/work/root-filter-eval/qac.sqlite
+/enrichment/v8/work/sift-103_1/index.sqlite
+/enrichment/v8/work/sift2-103_1/index.sqlite
+/enrichment/v8/work/sift3-103_1/index.sqlite
+/enrichment/corpus/corpus.sqlite.gz
