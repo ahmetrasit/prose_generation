@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c734",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:47:48",
+  "ended": "2026-10-09T10:53:55",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12122-753a-7c71-9dd1-5a50ac8c9bb6",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 630105,
+    "cached_input_tokens": 555776,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 43127,
+    "reasoning_output_tokens": 21548
+  },
+  "stderr": "2026-10-09T14:50:25.307418Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 3, '{\"loc\":\"STUDYQURAN:58:translation\",\"rows\":[],\"none\":\"translation only\"}' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n",
+  "prompt_sha256": "f325bbe6cc51501ac1a6187bb355f44091045973ed0453a10db828418301d85c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-47-48-01a12122-753a-7c71-9dd1-5a50ac8c9bb6.jsonl",
+  "usd_equivalent": 0.034554,
+  "requests": 13,
+  "max_request_input_tokens": 71397,
+  "over_context_cap": false
+}

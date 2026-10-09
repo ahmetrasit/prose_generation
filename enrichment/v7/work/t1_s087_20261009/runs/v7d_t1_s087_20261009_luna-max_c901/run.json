@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c901",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:58:22",
+  "ended": "2026-10-09T11:03:44",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1212c-23bc-7c90-acdc-651f40a78566",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 437429,
+    "cached_input_tokens": 384256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 36870,
+    "reasoning_output_tokens": 15163
+  },
+  "stderr": "2026-10-09T15:01:42.322169Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c901.jsonl:\n{\"verses\":[\"2:29\"],\"words\":[\"مَّا فِى ٱلْأَرْضِ جَمِيعًۭا\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The general benefit of earthly things does not mean each benefits every person in every way; some can also be harmful.\",\"anchor\":\"Umûmunun nâfi‘ olması her birinin her vechile ve herkes için nâfi‘ olması demek olmaz, bir kısmında mazarrat haysiyeti de vardır\",\"mentions\":[]}\n",
+  "prompt_sha256": "f859c8247de7de6e76d4851eb474d73d31804d540bc2c7933a3bd85848f9402f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-58-23-01a1212c-23bc-7c90-acdc-651f40a78566.jsonl",
+  "usd_equivalent": 0.027595,
+  "requests": 11,
+  "max_request_input_tokens": 58057,
+  "over_context_cap": false
+}

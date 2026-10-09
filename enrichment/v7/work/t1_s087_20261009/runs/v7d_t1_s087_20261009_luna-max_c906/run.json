@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c906",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:59:26",
+  "ended": "2026-10-09T11:06:09",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1212d-1c93-7d51-8e0a-c7060fd30bf1",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 605496,
+    "cached_input_tokens": 535296,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 50578,
+    "reasoning_output_tokens": 21798
+  },
+  "stderr": "2026-10-09T15:03:16.772555Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c906.jsonl:\n{\"loc\":\"ELMALILI:2:185#3\",\"rows\":[{\"verses\":[\"2:185\"],\"words\":[\"يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟\",\"مِنكُمُ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The general address to believers means that a ruling established for one person in these divine rights extends to the community.\",\"anchor\":\"bu gibi ahkâm-ı şer‘iye ve hukūk-ı ilâhiyede vâhid üzere hüküm, cemaat üzere hükümdür\",\"mentions\":[]},{\"verses\":[\"2:185\"],\"words\":[\"فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ\"],\"type\":\"law\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Once one believer's sighting establishes fasting as obligatory, it applies by implication to others; private testimony binds its hearers, while court-established public testimony binds everyone.\",\"anchor\":\"Bu vücûb ve sübût ise ancak o mü’minin şuhûd ve şehâdetiyle olur. Bu şehadet, ferdî surette ise vücûb yalnız işitenlere sirâyet eder.\",\"mentions\":[]},{\"verses\":[\"2:185\"],\"words\":[\"فَلْيَصُمْهُ\"],\"type\":\"law\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Fasting is solely God's right, while breaking the fast and Eid concern human rights; human-rights cases require at least two upright witnesses, but a solitary upright report can establish Ramadan.\",\"anchor\":\"Savm مَحْض حَقُّ اللّٰهّٰ iftar ve bayram hakk-ı abddir. Ve usûl-i şer‘iyeye nazaran hukūk-ı ‘ibâd taalluk eden husûsâtta amel lâekal iki şâhid-i âdile mütevakkıfdır.\",\"mentions\":[]},{\"verses\":[\"2:185\"],\"words\":[\"فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ\"],\"type\":\"law\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"On the twenty-ninth, believers must search for the new moon; if many search under a clear sky, a few witnesses contradicted by the healthy observers' failure to see it are ordinarily implausible.\",\"anchor\":\"ayın yirmi dokuzuncu günü taharrî-i hilâl umûm mü’minlere farzdır. Binâen‘aleyh bunu birçok insanlar lâyıkıyla arayıp gözettiği ve semâda bir mâni‘de bulunmadığı hâlde\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "24cffd32fc59faf4f0478627cf27c2dcba9286b15d37a281c7ab613d30f1c063",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-59-27-01a1212d-1c93-7d51-8e0a-c7060fd30bf1.jsonl",
+  "usd_equivalent": 0.037662,
+  "requests": 13,
+  "max_request_input_tokens": 72638,
+  "over_context_cap": false
+}

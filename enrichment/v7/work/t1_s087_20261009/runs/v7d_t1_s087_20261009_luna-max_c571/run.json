@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c571",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:12:15",
+  "ended": "2026-10-09T10:27:53",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12101-fe69-7f02-a965-251b3f9f987f",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 2791477,
+    "cached_input_tokens": 2629120,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 106531,
+    "reasoning_output_tokens": 29649
+  },
+  "stderr": "2026-10-09T14:12:38.649699Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:44.339566Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:13:08.704498Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:10.911294Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:12.967458Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:14.913651Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:17.560162Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:21.612807Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n",
+  "prompt_sha256": "5eed0288122fa75c06175777b0fccef1f142d35dad6b0046edac4a94378607bc",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-12-44-01a12101-fe69-7f02-a965-251b3f9f987f.jsonl",
+  "usd_equivalent": 0.095792,
+  "requests": 30,
+  "max_request_input_tokens": 140159,
+  "over_context_cap": true
+}

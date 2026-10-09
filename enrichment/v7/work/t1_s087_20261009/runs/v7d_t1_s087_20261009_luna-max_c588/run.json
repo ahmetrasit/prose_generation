@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c588",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:12:15",
+  "ended": "2026-10-09T10:23:39",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12101-fc98-7630-90be-afdc8befe054",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1043229,
+    "cached_input_tokens": 931072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 86187,
+    "reasoning_output_tokens": 35790
+  },
+  "stderr": "2026-10-09T14:12:25.558167Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:37.525108Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:20:12.984065Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c588.jsonl:\n\"anchor\":\"وهدى أي وفقه لحفظ التوبة وغيره . من أسباب العصمة والتقوى\"\n",
+  "prompt_sha256": "9aba2a09eaa87ab0b265ab90465ea40acb7f2a14ed5009de86c7955328c3e6b7",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-12-43-01a12101-fc98-7630-90be-afdc8befe054.jsonl",
+  "usd_equivalent": 0.06362,
+  "requests": 15,
+  "max_request_input_tokens": 111856,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c582",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:12:15",
+  "ended": "2026-10-09T10:25:39",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12101-fe4a-7682-89fb-3ac312543adf",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1194252,
+    "cached_input_tokens": 1074432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 88845,
+    "reasoning_output_tokens": 34326
+  },
+  "stderr": "2026-10-09T14:12:38.009887Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:43.466848Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:13:08.745206Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:11.069151Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:13.031112Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:14.931090Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:17.557612Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:21.148372Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:20:36.689371Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c582.jsonl\n",
+  "prompt_sha256": "70963b9125a8305731c39b6d323d1d654eb41f8bfa54c2263570ec2539702f01",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-12-43-01a12101-fe4a-7682-89fb-3ac312543adf.jsonl",
+  "usd_equivalent": 0.067149,
+  "requests": 15,
+  "max_request_input_tokens": 121896,
+  "over_context_cap": true
+}

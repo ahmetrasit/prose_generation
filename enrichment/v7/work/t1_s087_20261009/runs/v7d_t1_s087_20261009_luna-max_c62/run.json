@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c62",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:25:28",
+  "ended": "2026-10-09T10:37:03",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1210e-034a-7973-b93b-28ac1a171efb",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 1054019,
+    "cached_input_tokens": 931328,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 95558,
+    "reasoning_output_tokens": 36150
+  },
+  "stderr": "2026-10-09T14:31:34.765032Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c62.jsonl:\n\"anchor\":\"ومن فسرها بالزكاة المفروضة جعل آخر السورة مدنيا وذلك أن تجعلها من باب ما تأخر حكمه عن نزوله\"\n2026-10-09T14:33:24.049049Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c62.jsonl\n",
+  "prompt_sha256": "b1d380731c49a4cf3865c7d5dedeea3be988ac7e5291144245d3ba373debc50b",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-25-28-01a1210e-034a-7973-b93b-28ac1a171efb.jsonl",
+  "usd_equivalent": 0.069361,
+  "requests": 14,
+  "max_request_input_tokens": 126439,
+  "over_context_cap": true
+}

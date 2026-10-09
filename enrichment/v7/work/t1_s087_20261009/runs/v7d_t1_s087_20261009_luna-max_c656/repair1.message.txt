@@ -1,0 +1,15 @@
+Repair request for your chunk. You may reread only your assigned chunk parts and read and edit only your own output file enrichment/v7/work/t1_s087_20261009/out/luna-max/c656.jsonl. The checker reports:
+
+QURTUBI-FULL:30:39 row 16: anchor not found verbatim in the segment: وقيل: إنه الربا المحرم فمعنى: «لا يربو عند الله» على هذا القول لا يحكم به لآخذه 
+QURTUBI-FULL:30:39 row 17: anchor not found verbatim in the segment: قال السدي: نزلت هذه الآية في ربا ثقيف لأنهم كانوا يعملون بالربا وتعمله فيهم قريش
+QURTUBI-FULL:30:39#4 row 1: anchor not found verbatim in the segment: قرأ جمهور القراء السبعة: «ليربو» بالياء وإسناد الفعل إلى الربا
+QURTUBI-FULL:30:39#4 row 2: anchor not found verbatim in the segment: قال أبو حاتم: هي قراءتنا
+QURTUBI-FULL:30:39#4 row 3: anchor not found verbatim in the segment: وقرأ أبو مالك: «لتربوها» بضمير مؤنث
+QURTUBI-FULL:30:39#4 row 4: anchor not found verbatim in the segment: فلا يربوا عند الله } أي لا يزكوا ولا يثيب عليه لأنه لا يقبل
+QURTUBI-FULL:30:39#4 row 5: anchor not found verbatim in the segment: قال ابن عباس: أي من صدقة
+QURTUBI-FULL:30:39#4 row 6: anchor not found verbatim in the segment: أي ذلك الذي يقبله ويضاعفه له عشرة أضعافه أو أكثر
+QURTUBI-FULL:34:11 row 5: anchor not found verbatim in the segment: في السرد } السرد نسج حلق الدروع ومنه قيل لصانع حلق الدروع: السراد والزراد
+QURTUBI-FULL:34:11 row 6: anchor not found verbatim in the segment: والسرد: الخرز، يقال سرد يسرد إذا خرز، والمسرد: الإشفى
+QURTUBI-FULL:35:18 row 9: anchor not found verbatim in the segment: وهذا جائز عند سيبويه، ومثله { وإن كان ذو عسرة }
+
+Fix every listed problem and change nothing else. An anchor must be one continuous span copied exactly from the segment body, with the same characters and spaces. A tagged word must be a word of that verse's own text; if no word fits, use the whole-verse tag your brief defines. Every segment needs exactly one line. Then run `python3 -B enrichment/v7/digest.py check t1_s087_20261009 --model luna-max --chunk 656` until it prints OK, and reply with one line.

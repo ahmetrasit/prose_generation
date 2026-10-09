@@ -1,0 +1,17 @@
+Repair request for your chunk. You may reread only your assigned chunk parts and read and edit only your own output file enrichment/v7/work/t1_s087_20261009/out/luna-max/c645.jsonl. The checker reports:
+
+QURTUBI-FULL:7:169 row 7: anchor not found verbatim in the segment: وقال آخر:
+إنا وجدنا خلفا بئس الخلف
+أغلق عنا بابه ثم حلف
+ويروى: خضف أي ردم
+QURTUBI-FULL:7:201-202#3 row 1: anchor not found verbatim in the segment: وحكي عن محمد بن يزيد أنه احتج لقراءة أهل المدينة، قال: يقال مددت له في كذا أي زي
+QURTUBI-FULL:8:24 row 4: anchor not found verbatim in the segment: لما يحييكم متعلق بقوله: «استجيبوا». المعنى: استجيبوا لما يحييكم إذا دعاكم.
+QURTUBI-FULL:8:24 row 13: anchor not found verbatim in the segment: فيحول بين المرء الكافر وبين الإيمان الذي أمره به فلا يكتسبه إذا لم يقدره عليه بل
+QURTUBI-FULL:8:24#2 row 1: anchor not found verbatim in the segment: وهذا معنى قوله عليه السلام:
+" لا، ومقلب القلوب "
+QURTUBI-FULL:8:24#2 row 4: anchor not found verbatim in the segment: والقلب موضع الفكر. وقد تقدم في البقرة بيانه. وهو بيد الله، متى شاء حال بين العبد
+QURTUBI-FULL:8:42 row 3: anchor not found verbatim in the segment: والدنيا: تأنيث الأدنى. والقصوى: تأنيث الأقصى. من دنا يدنو، وقصا يقصو. ويقال القص
+QURTUBI-FULL:8:42 row 7: anchor not found verbatim in the segment: الركب ابتداء «أسفل منكم» ظرف في موضع الخبر. أي مكانا أسفل منكم
+QURTUBI-FULL:8:42 row 13: anchor not found verbatim in the segment: «من» في موضع رفع. و«يحيى» في موضع نصب عطف على ليهلك
+
+Fix every listed problem and change nothing else. An anchor must be one continuous span copied exactly from the segment body, with the same characters and spaces. A tagged word must be a word of that verse's own text; if no word fits, use the whole-verse tag your brief defines. Every segment needs exactly one line. Then run `python3 -B enrichment/v7/digest.py check t1_s087_20261009 --model luna-max --chunk 645` until it prints OK, and reply with one line.

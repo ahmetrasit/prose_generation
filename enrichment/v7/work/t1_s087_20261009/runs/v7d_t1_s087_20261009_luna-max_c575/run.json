@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c575",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:12:15",
+  "ended": "2026-10-09T10:25:07",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12101-fcc3-7560-bb4b-76442406a60a",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 1077463,
+    "cached_input_tokens": 960768,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 83312,
+    "reasoning_output_tokens": 31566
+  },
+  "stderr": "2026-10-09T14:12:27.508765Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:43.221282Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:55.318734Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T14:19:11.269344Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c575.jsonl:\n{\"verses\":[\"2:111\"],\"words\":[\"لن يدخل الجنة إلا من كان هودا أو نصارى\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"God knows best which of His creatures is fit for prophethood and whom to commission as messenger.\",\"anchor\":\"فبين تعالى أنه أعلم بتقدير خلقه، ومن يصلح للرسالة ومن هو أصلح فيبعثه\",\"mentions\":[]}\n2026-10-09T14:20:32.372633Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c575.jsonl:\n\"anchor\":\"فبين تعالى أنه أعلم بتقدير خلقه، ومن يصلح للرسالة ومن هو أصلح فيبعثه\"\n",
+  "prompt_sha256": "2b5bbe8b5e514f2e7463b271164e46f05d1d94957e7bcf7b8297a3ef19a83f1f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-12-35-01a12101-fcc3-7560-bb4b-76442406a60a.jsonl",
+  "usd_equivalent": 0.062933,
+  "requests": 15,
+  "max_request_input_tokens": 114413,
+  "over_context_cap": false
+}

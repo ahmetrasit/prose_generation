@@ -1,0 +1,26 @@
+Repair request for your chunk. You may reread only your assigned chunk parts and read and edit only your own output file enrichment/v7/work/t1_s087_20261009/out/luna-max/c325.jsonl. The checker reports:
+
+ALUSI-FULL:v18p176 row 3: anchor not found verbatim in the segment: وقيل ذكر أسمائه تعالى الحسنى
+ALUSI-FULL:v18p176 row 9: anchor not found verbatim in the segment: وأيد إرادة الصلاة هنا تعيين الأوقات بقوله سبحانه بالغدو والآصال
+ALUSI-FULL:v18p176 row 12: anchor not found verbatim in the segment: والآصال كما قال الجوهري جمع أصيل كشريف وأشرف واختاره جماعة مع أن جمع فعيل على أف
+ALUSI-FULL:v18p176 row 13: anchor not found verbatim in the segment: واختار الزمخشري أنه جمع أصل كعنق وأعناق والأصل كالأصيل العشي
+ALUSI-FULL:v18p176 row 20: anchor not found verbatim in the segment: وقرأ أبو حيوة وابن وثاب ( تسبح ) بالتاء الفوقية والبناء للفاعل وهو رجال
+ALUSI-FULL:v18p176 row 21: anchor not found verbatim in the segment: وقرأ أبو جعفر ( تسبح ) بالتاء الفوقية والبناء للمفعول وهو قوله تعالى بالغدو والآ
+ALUSI-FULL:v18p176 row 23: anchor not found verbatim in the segment: والتنوين فيه على جميع القراءات للتفخيم
+ALUSI-FULL:v18p177 row 15: anchor not found verbatim in the segment: وعن ابن عباس أنه قال : أما والله لقد كانوا تجارا فلم تكن تجارتهم ولا بيعهم يلهيه
+ALUSI-FULL:v18p178 row 11: anchor not found verbatim in the segment: والآية على الأول المؤيد بما سمعت أمدح ولم نجد لنزولها فيمن فرغ عن الدنيا
+ALUSI-FULL:v18p233 row 1: anchor not found verbatim in the segment: إحداثا جاريا على سنن التقدير والتسوية حسبما اقتضته إرادته
+ALUSI-FULL:v18p233 row 2: anchor not found verbatim in the segment: لما أراد به من الخصائص والأفعال اللائقة به كتهيئة الإنسان للفهم
+ALUSI-FULL:v18p233 row 3: anchor not found verbatim in the segment: بمعنى التسوية والمعبر عنه بلفظه بمعنى التهيئة وهما غيران
+ALUSI-FULL:v18p233 row 9: anchor not found verbatim in the segment: أنها جارية مجرى التعليل لما قبلها من الجمل
+ALUSI-FULL:v19p14#2 row 3: anchor not found verbatim in the segment: أي أنزل عليه كخبر بمعنى أخبر فلا قصد فيه إلى التدريج لمكان جملة واحدة
+ALUSI-FULL:v19p14#2 row 4: anchor not found verbatim in the segment: ونصب جملة على الحال وواحدة على أنه صفة مؤكدة له
+ALUSI-FULL:v19p14#2 row 8: anchor not found verbatim in the segment: يجوز أن ينزل دفعة واحدة مع رعاية المطابقة المذكورة في كل جملة
+ALUSI-FULL:v19p14#2 row 9: anchor not found verbatim in the segment: بل قد يقال أن هذا أقوى في اعجازه والبليغ يفهم من سياق الكلام
+ALUSI-FULL:v19p15 row 3: anchor not found verbatim in the segment: نزلناه لتنقوي به فؤادك فإن في تنزيله مفرقا تيسيرا لحفظ النظم وفهم المعاني وضبط ا
+ALUSI-FULL:v19p15 row 4: anchor not found verbatim in the segment: وتعدد نزول جبريل عليه السلام وتجدد إعجاز الطاعنين فيه في كل جملة مقدار أقصر سورة
+ALUSI-FULL:v19p15 row 6: anchor not found verbatim in the segment: وقيل قوله تعالى كذلك من تمام كلام الكفرة والكاف نصب على الحال من القرآن أو الصفة
+ALUSI-FULL:v19p15 row 8: anchor not found verbatim in the segment: وقال أبو حاتم هي لام القسم والتقدير والله لنثبتن فحذف النون وكسرت اللام
+ALUSI-FULL:v19p15 row 9: anchor not found verbatim in the segment: وقد حكي ذلك عن أبو حيان وتعقبه بأنه قول في غاية الضعف وكأنه ينحو إلى مذهب الأخفش
+
+Fix every listed problem and change nothing else. An anchor must be one continuous span copied exactly from the segment body, with the same characters and spaces. A tagged word must be a word of that verse's own text; if no word fits, use the whole-verse tag your brief defines. Every segment needs exactly one line. Then run `python3 -B enrichment/v7/digest.py check t1_s087_20261009 --model luna-max --chunk 325` until it prints OK, and reply with one line.

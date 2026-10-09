@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c585",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:12:15",
+  "ended": "2026-10-09T10:23:59",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12101-fd46-78f2-8630-68925c564ff0",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1590631,
+    "cached_input_tokens": 1458432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 77616,
+    "reasoning_output_tokens": 37430
+  },
+  "stderr": "2026-10-09T14:12:27.128767Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:44.829219Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:13:09.674368Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:11.816264Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:13.681031Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:15.322162Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:17.788948Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:21.848395Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:20:34.569235Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 19, '' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n",
+  "prompt_sha256": "e51f62c8540fada9885ecc6496bd4b535a4d57ed4512276228a024b1a0af4f05",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-12-47-01a12101-fd46-78f2-8630-68925c564ff0.jsonl",
+  "usd_equivalent": 0.066612,
+  "requests": 20,
+  "max_request_input_tokens": 112916,
+  "over_context_cap": false
+}

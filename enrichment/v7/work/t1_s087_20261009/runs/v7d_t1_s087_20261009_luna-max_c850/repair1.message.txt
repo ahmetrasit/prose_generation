@@ -1,0 +1,22 @@
+Repair request for your chunk. You may reread only your assigned chunk parts and read and edit only your own output file enrichment/v7/work/t1_s087_20261009/out/luna-max/c850.jsonl. The checker reports:
+
+THALABI:v1p200 row 5: anchor not found verbatim in the segment: وقال شاعرهم:\nوقاسمها بالله حقا لأنتم … ألذ من السلوى إذا ما نشورها
+THALABI:v1p200 row 21: anchor not found verbatim in the segment: قال الشاعر:\nبجمع يضل البلق في حجراته … ترى الأكم فيه سجدا للحوافر
+THALABI:v1p254 row 1: anchor not found verbatim in the segment: براهيم عليه السلام بذبح ابنه، ثم قال له لا تذبحه؟ أليس قد أمر موسى بني إسرائيل أ
+THALABI:v1p254 row 4: anchor not found verbatim in the segment: فهذه من علم النسخ وهو نوع كثير من علوم القرآن لا يسع جهله لمن شرع إلى التفسير.
+THALABI:v1p254 row 6: anchor not found verbatim in the segment: قرأت العامة بفتح النون والسين من النسخ، وقرأ ابن عامر بضم النون وكسر السين
+THALABI:v1p255 row 1: anchor not found verbatim in the segment: والوجه الثاني: تجعله في جملة المنسوخ كقولك طردت الرجل إذا نفيته وأطردته جعلته طر
+THALABI:v1p255 row 2: anchor not found verbatim in the segment: قرأ سعيد بن المسيب وأبو جعفر وشيبة ونافع وابن عامر وعاصم وحمزة والكسائي ويعقوب: 
+THALABI:v1p255 row 3: anchor not found verbatim in the segment: قال الحسن: هو ما أنسى الله رسوله صلى الله عليه وسلم.
+THALABI:v1p255 row 4: anchor not found verbatim in the segment: قال ابن عباس: أي نتركها ولا نبدلها قال الله: نسوا الله فأنساهم
+THALABI:v1p255 row 5: anchor not found verbatim in the segment: كل هذا من الترك كأنه جعل أنسى ونسي بمعنى واحد
+THALABI:v1p255 row 6: anchor not found verbatim in the segment: سمعت أبا منصور الأزهري يقول: معناه أو نأمر بتركها يقال أنسيت الشيء
+THALABI:v1p255 row 7: anchor not found verbatim in the segment: قال الشاعر:\nجرت علي قصة أقصيتها لست بناسيها مجمع ولا منسيها
+THALABI:v1p255 row 12: anchor not found verbatim in the segment: وقرأ الضحاك: أو تنسها بضم التاء وفتح السين على مجهول
+THALABI:v1p255 row 14: anchor not found verbatim in the segment: سمعت سعد بن أبي وقاص يقول: بالنسخ من آية أو ننسها قال: فقلت له: إن سعيد بن المسي
+THALABI:v1p255 row 15: anchor not found verbatim in the segment: قال الله تعالى لنبيه: سنقرئك فلا تنسى واذكر ربك إذا نسيت
+THALABI:v1p255 row 19: anchor not found verbatim in the segment: قال طرفة:\nأمون كألواح الاران نسأتها … على لاحب كأنه ظهر برجد
+THALABI:v1p255 row 21: anchor not found verbatim in the segment: نأت بخير منها: أي بما هو أجدى وأنفع لكم وأسهل عليكم وأكثر لأجركم
+THALABI:v1p271 row 1: anchor not found verbatim in the segment: قال إبراهيم: إذا جاء زوجك فأقرئيه السلام
+
+Fix every listed problem and change nothing else. An anchor must be one continuous span copied exactly from the segment body, with the same characters and spaces. A tagged word must be a word of that verse's own text; if no word fits, use the whole-verse tag your brief defines. Every segment needs exactly one line. Then run `python3 -B enrichment/v7/digest.py check t1_s087_20261009 --model luna-max --chunk 850` until it prints OK, and reply with one line.

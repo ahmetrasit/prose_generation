@@ -1,0 +1,19 @@
+Repair request for your chunk. You may reread only your assigned chunk parts and read and edit only your own output file enrichment/v7/work/t1_s087_20261009/out/luna-max/c596.jsonl. The checker reports:
+
+MAWARDI-FULL:v1p94 row 6: anchor not found verbatim in the segment: اختلف في معنى جاعل على وجهين : أحدهما : أنه بمعنى خالق
+MAWARDI-FULL:v1p94 row 9: anchor not found verbatim in the segment: ولذلك سميت أم القرى , قال : وقبر نوح , وهود , وصالح , وشعيب من زمزم , والركن , و
+MAWARDI-FULL:v1p96 row 1: anchor not found verbatim in the segment: قالوا يا ربنا أعلمنا أجاعل أنت في الأرض من يفسد فيها ويسفك الدماء فأجابهم إني أع
+MAWARDI-FULL:v1p96 row 2: anchor not found verbatim in the segment: أنه إيجاب وإن خرجت الألف مخرج الاستفهام لأنهم رأوا الجن من قبلهم قد أفسدوا في ال
+MAWARDI-FULL:v1p96 row 3: anchor not found verbatim in the segment: لأنهم رأوا الجن من قبلهم قد أفسدوا في الأرض وسفكوا الدماء فتصوروا أنه إن استخلف 
+MAWARDI-FULL:v1p96 row 4: anchor not found verbatim in the segment: قالوه استعظاما لفعلهم أي كيف يفسدون فيها ويسفكون الدماء وقد أنعمت عليهم واستخلفت
+MAWARDI-FULL:v1p96 row 6: anchor not found verbatim in the segment: السفك صب الدم خاصة دون غيره من الماء والمائع والسفح مثله إلا أنه مستعمل في كل ما
+MAWARDI-FULL:v1p96 row 7: anchor not found verbatim in the segment: ولذلك قالوا في الزنى إنه سفاح لتضييع مائه فيه
+MAWARDI-FULL:v1p96 row 8: anchor not found verbatim in the segment: والتسبيح في كلامهم التنزيه من السوء على جهة التعظيم ومنه قول أعشى بني ثعلبة أقول
+MAWARDI-FULL:v1p96 row 9: anchor not found verbatim in the segment: ولا يجوز أن يسبح غير الله وإن كان منزها لأنه صار علما في الدين على أعلى مراتب ال
+MAWARDI-FULL:v1p96 row 10: anchor not found verbatim in the segment: معناه نصلي لك وفي التنزيل فلولا أنه كان من المسبحين أي من المصلين وهذا قول ابن ع
+MAWARDI-FULL:v1p96 row 11: anchor not found verbatim in the segment: والثاني معناه نعظمك وهذا قول مجاهد
+MAWARDI-FULL:v1p96 row 12: anchor not found verbatim in the segment: أنه التسبيح المعروف وهذا قول المفضل واستشهد بقول جرير قبح الإله وجوه تغلب كلما س
+MAWARDI-FULL:v1p98 row 1: anchor not found verbatim in the segment: فأصل التقديس التطهير , ومنه قوله تعالى : { الأرض المقدسة } أي المطهرة
+MAWARDI-FULL:v1p231: segment has no line
+
+Fix every listed problem and change nothing else. An anchor must be one continuous span copied exactly from the segment body, with the same characters and spaces. A tagged word must be a word of that verse's own text; if no word fits, use the whole-verse tag your brief defines. Every segment needs exactly one line. Then run `python3 -B enrichment/v7/digest.py check t1_s087_20261009 --model luna-max --chunk 596` until it prints OK, and reply with one line.

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c97",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:05:36",
+  "ended": "2026-10-09T11:24:02",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12132-c3fd-7151-a438-5731c6f418b2",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 2978209,
+    "cached_input_tokens": 2808064,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 139288,
+    "reasoning_output_tokens": 54854
+  },
+  "stderr": "2026-10-09T15:13:51.539348Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c97.jsonl:\n\"anchor\":\"الصم البكم الذين لا يعقلون خبر إن ونعت\"\n2026-10-09T15:23:00.343555Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'\n",
+  "prompt_sha256": "5e71dd3d4b1876ee9dcdef30f94916c46133880ba0494077131835aee6003071",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-05-37-01a12132-c3fd-7151-a438-5731c6f418b2.jsonl",
+  "usd_equivalent": 0.114739,
+  "requests": 27,
+  "max_request_input_tokens": 164398,
+  "over_context_cap": true
+}

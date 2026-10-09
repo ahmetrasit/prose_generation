@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c549",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:12:15",
+  "ended": "2026-10-09T10:19:53",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12101-fd48-72c1-8041-2d95c2ff8947",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 800445,
+    "cached_input_tokens": 715520,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 53086,
+    "reasoning_output_tokens": 28542
+  },
+  "stderr": "2026-10-09T14:12:25.952056Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:34.325188Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: invalid peer certificate: UnknownIssuer, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:19:23.764090Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'\n",
+  "prompt_sha256": "a01e9cb01123b001358097f124720d06b882470a9765eb5faeee427f91625454",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-12-26-01a12101-fd48-72c1-8041-2d95c2ff8947.jsonl",
+  "usd_equivalent": 0.042191,
+  "requests": 14,
+  "max_request_input_tokens": 78865,
+  "over_context_cap": false
+}

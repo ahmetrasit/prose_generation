@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c546",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:12:15",
+  "ended": "2026-10-09T10:22:23",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12101-fe05-7260-bfb9-aed31d8acec9",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 717506,
+    "cached_input_tokens": 626688,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 68489,
+    "reasoning_output_tokens": 33204
+  },
+  "stderr": "2026-10-09T14:12:27.246413Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:44.889468Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:20:11.574194Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c546.jsonl:\n\"anchor\":\"وقال علي بن أبي طلحة، عن ابن عباس: أخبر الله سبحانه في التوراة والزبور وسابق علمه قبل أن تكون السموات والأرض\"\n",
+  "prompt_sha256": "03b2d355208f0f0e131f47ad328d72ac0a240484b5f5635e9a46310326fc21da",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-12-51-01a12101-fe05-7260-bfb9-aed31d8acec9.jsonl",
+  "usd_equivalent": 0.049593,
+  "requests": 12,
+  "max_request_input_tokens": 92802,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c590",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:12:15",
+  "ended": "2026-10-09T10:25:02",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12101-fd35-79c0-b4e0-7ac47b618414",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 976181,
+    "cached_input_tokens": 865792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 87167,
+    "reasoning_output_tokens": 38764
+  },
+  "stderr": "2026-10-09T14:12:29.028449Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:43.543675Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:13:08.906022Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:11.351566Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:13.211485Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:14.962849Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:17.229877Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:20.888288Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n",
+  "prompt_sha256": "31220e638fe18d0ce819cf3bfe5e388de935bea571e93cac00cc1a41d4d8b3e7",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-12-43-01a12101-fd35-79c0-b4e0-7ac47b618414.jsonl",
+  "usd_equivalent": 0.06328,
+  "requests": 14,
+  "max_request_input_tokens": 111576,
+  "over_context_cap": false
+}

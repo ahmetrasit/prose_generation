@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c944",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T11:00:14",
+  "ended": "2026-10-09T11:04:56",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1212d-d7b2-7bb0-a32e-b7e5652c6f05",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 280972,
+    "cached_input_tokens": 235520,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 29378,
+    "reasoning_output_tokens": 16476
+  },
+  "stderr": "2026-10-09T15:04:16.782712Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c944.jsonl:\n{\"verses\":[\"20:113\"],\"words\":[\"Arap dilinde indirilmiş\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Arabic revelation was natural because the Qur’an first addressed Arabs, while delivering the final divine message in that setting and language also carries many wisdoms.\",\"anchor\":\"Kur’an-ı Kerîm’in ilk hitap ettiği çevrenin Araplar olması dolayısıyla onun Arap dilinde indirilmiş olması tabii olmakla beraber\",\"mentions\":[\"12:2\",\"13:37\",\"16:103\"]}\n",
+  "prompt_sha256": "f93821116986967c7b4801ed098d529742b485c766eb71e02aba150c93de3131",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T11-00-14-01a1212d-d7b2-7bb0-a32e-b7e5652c6f05.jsonl",
+  "usd_equivalent": 0.021589,
+  "requests": 8,
+  "max_request_input_tokens": 49960,
+  "over_context_cap": false
+}

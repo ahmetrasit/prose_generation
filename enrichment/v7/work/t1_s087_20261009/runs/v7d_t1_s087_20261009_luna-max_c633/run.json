@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c633",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:31:39",
+  "ended": "2026-10-09T10:42:17",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12113-acd7-79a2-bbb4-b5e33562958e",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1189562,
+    "cached_input_tokens": 1073920,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 73168,
+    "reasoning_output_tokens": 33113
+  },
+  "stderr": "2026-10-09T14:36:51.747555Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c633.jsonl:\n\"anchor\":\"خالد بن معدان أن نفرا من أصحاب النبي صلى الله عليه وسلم قالوا له\"\n2026-10-09T14:38:38.143596Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c633.jsonl\n",
+  "prompt_sha256": "67ccbde02aebd5f34454cfcccea54607537da966300655cab533338fe25e19aa",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-31-40-01a12113-acd7-79a2-bbb4-b5e33562958e.jsonl",
+  "usd_equivalent": 0.058887,
+  "requests": 17,
+  "max_request_input_tokens": 97668,
+  "over_context_cap": false
+}

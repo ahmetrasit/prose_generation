@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c57",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:12:15",
+  "ended": "2026-10-09T10:19:29",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12101-fdb6-7091-8a8a-2cbecab9f41f",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 459700,
+    "cached_input_tokens": 371456,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47163,
+    "reasoning_output_tokens": 24206
+  },
+  "stderr": "2026-10-09T14:12:29.253154Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:38.308523Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:54.809093Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n",
+  "prompt_sha256": "7b58193a9478732392c3913d5c52fbfb8d9154229a2bf86feab12d4faa5f95a9",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-12-35-01a12101-fdb6-7091-8a8a-2cbecab9f41f.jsonl",
+  "usd_equivalent": 0.03612,
+  "requests": 10,
+  "max_request_input_tokens": 68938,
+  "over_context_cap": false
+}

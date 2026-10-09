@@ -1,0 +1,15 @@
+Repair request for your chunk. You may reread only your assigned chunk parts and read and edit only your own output file enrichment/v7/work/t1_s087_20261009/out/luna-max/c362.jsonl. The checker reports:
+
+BAYDAWI-FULL:14:36-37 row 1: anchor not found verbatim in the segment: وإسناد الإضلال إليهن باعتبار السببية كقوله تعالى وغرتهم الحيوة الدنيا
+BAYDAWI-FULL:14:36-37 row 2: anchor not found verbatim in the segment: فمن تبعنى على ديني فإنه منى أي بعضي لا ينفك في أمر الدين
+BAYDAWI-FULL:14:36-37 row 3: anchor not found verbatim in the segment: فإنه منى أي بعضي لا ينفك في أمر الدين
+BAYDAWI-FULL:14:36-37 row 11: anchor not found verbatim in the segment: اللام لام كي وهي متعلقة بأسكنت أي ما أسكنتهم بهذا الوادي البلقع من كل مرتفق ومرت
+BAYDAWI-FULL:14:36-37 row 14: anchor not found verbatim in the segment: أي أفئدة من أفئدة الناس، ومن للتبعيض ولذلك قيل لو قال أفئدة الناس
+BAYDAWI-FULL:14:36-37 row 16: anchor not found verbatim in the segment: وقرأ هشام أفئيدة بخلف عنه بياء بعد الهمزة
+BAYDAWI-FULL:14:36-37 row 17: anchor not found verbatim in the segment: وقرىء آفدة وهو يحتمل أن يكون مقلوب أفئدة كآدر في أدؤر وأن يكون اسم فاعل
+BAYDAWI-FULL:14:36-37 row 18: anchor not found verbatim in the segment: تهوى إليهم تسرع إليهم شوقا وودادا
+BAYDAWI-FULL:14:36-37 row 19: anchor not found verbatim in the segment: وقرىء تهوى على البناء للمفعول من أهوى إليه غيره وتهوى من هوى يهوي إذا أحب
+BAYDAWI-FULL:14:36-37 row 20: anchor not found verbatim in the segment: وارزقهم من الثمرت مع سكناهم واديا لا نبات فيه لعلهم يشكرون تلك النعمة فأجاب الله
+BAYDAWI-FULL:15:28-29 row 5: anchor not found verbatim in the segment: فاسقطوا له. { ساجدين } أمر من وقع يقع
+
+Fix every listed problem and change nothing else. An anchor must be one continuous span copied exactly from the segment body, with the same characters and spaces. A tagged word must be a word of that verse's own text; if no word fits, use the whole-verse tag your brief defines. Every segment needs exactly one line. Then run `python3 -B enrichment/v7/digest.py check t1_s087_20261009 --model luna-max --chunk 362` until it prints OK, and reply with one line.
