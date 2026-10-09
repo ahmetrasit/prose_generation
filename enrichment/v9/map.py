@@ -21,6 +21,7 @@ runs/ (written by enrichment/v5/run_codex.py), out/<TAG>/<k>.raw.jsonl (agent ou
 """
 import argparse
 import json
+import os
 import re
 import sys
 from collections import defaultdict
@@ -318,8 +319,11 @@ def assemble(m, tag, ayah, qs):
     k = key(ayah)
     known = json.loads((m / 'rows' / f'{k}.json').read_text())
     (m / 'out' / tag / f'{k}.md').write_text(render(ayah, qs, known))
-    # the .jsonl is what q.located() finds, so it is written last: a failure above leaves the verse unmapped
-    (m / 'out' / tag / f'{k}.jsonl').write_text(''.join(json.dumps(q, ensure_ascii=False) + '\n' for q in qs))
+    # the .jsonl is what q.located() finds, so it is written last (a failure above leaves the verse unmapped) and
+    # atomically (a reader never sees half of it)
+    tmp = m / 'out' / tag / f'{k}.jsonl.tmp'
+    tmp.write_text(''.join(json.dumps(q, ensure_ascii=False) + '\n' for q in qs))
+    os.replace(tmp, m / 'out' / tag / f'{k}.jsonl')
 
 
 def map_text(qs):
