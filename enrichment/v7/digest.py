@@ -5,7 +5,7 @@ A digest records what one source says about the verses its segments are tied to:
 one row per claim, each row with a short verbatim anchor. Agents run through enrichment/v5/run_codex.py
 (Codex, at most seven at a time); the same chunk files serve every model.
 
-  digest.py build RUN --ayat 100:1 87:6 --models gpt-6-luna:max [--skip-done luna-max] [--chunk-chars 20000]
+  digest.py build RUN (--ayat 100:1 87:6 | --surahs 2 3 | --page PATH --ayah A) --models gpt-6-luna:max --skip-done luna-max --quotes
   digest.py check RUN [--model TAG] [--chunk N]     every segment answered, every anchor verbatim, and (runs built
                                                     with row tags) every row's words in its verses and type in the list
   digest.py report RUN                              per-model totals and costs
@@ -148,6 +148,22 @@ def tag_problems(r):
     return out
 
 
+_EXCERPTS = None
+
+
+def excerpts():
+    """run -> segment locators that run digested only as an excerpt (the quotation packet cut long segments until
+    2026-10-09). Such a segment is not done: a later build digests it whole, and its rows get ids <loc>/fN."""
+    global _EXCERPTS
+    if _EXCERPTS is None:
+        _EXCERPTS = defaultdict(set)
+        head = re.compile(r'^=== SEGMENT (.+?) \| source .*\[excerpt: characters \d+-\d+ of \d+\]', re.M)
+        for f in (V7 / 'work').glob('*/chunks/*.txt'):
+            for m in head.finditer(f.read_text()):
+                _EXCERPTS[f.parts[-3]].add(m.group(1))
+    return _EXCERPTS
+
+
 def row_tags():
     """Tags from every retag run: row id -> (words, type)."""
     out = {}
@@ -192,7 +208,6 @@ def gather(ayat):
                 q = ','.join('?' * len(extra[s, a]))
                 hits += con.execute(f'SELECT id,seg,src,s,a,coalesce(a_end,a),head,text FROM seg WHERE id IN ({q})',
                                     list(extra[s, a])).fetchall()
-            full = {h[2][:-5] for h in hits if h[2].endswith('-FULL')}
             for sid, loc, sr, ss, aa, ae, head, text in hits:
                 kind, access, _ = src[sr]
                 why = None
@@ -200,8 +215,6 @@ def gather(ayat):
                     why = f'kind {kind}: meal table or a later stage'
                 elif access != 'yerel':
                     why = f'access {access}: no local text'
-                elif sr in full:
-                    why = f'{sr}-FULL covers {s}:{a}'
                 elif not (text or '').strip():
                     why = 'empty text'
                 if why:
@@ -261,7 +274,6 @@ def normalize_map(text):
 QUOTE_KINDS_ONE = ('ulum', 'wujuh', 'modern', 'reference', 'grammar', 'tafsir', 'tafsir_tr', 'maani', 'nazm', 'isari', 'qiraat')
 QUOTE_KINDS_THREE = ('hadith', 'sira', 'poetry')
 QUOTE_MAX_HITS = 40          # a window found in more segments than this is too common to mean a quotation
-QUOTE_CONTEXT = 1_500        # characters kept on each side of a match in a long segment
 
 
 def quote_packet(ayat):
@@ -307,15 +319,7 @@ def quote_packet(ayat):
                     if f'{s}:{a}' not in out[loc]['scope']:
                         out[loc]['scope'].append(f'{s}:{a}')
                     continue
-                body = text
-                note = ''
-                if len(text) > 2 * QUOTE_CONTEXT + 1_000:
-                    nm, idx = normalize_map(text)
-                    j = nm.find(w)
-                    lo = max(0, idx[j] - QUOTE_CONTEXT) if j >= 0 else 0
-                    hi = min(len(text), (idx[min(j + len(w), len(idx) - 1)] if j >= 0 else 0) + QUOTE_CONTEXT)
-                    body = text[lo:hi]
-                    note = f' [excerpt: characters {lo}-{hi} of {len(text)}]'
+                body, note = text, ''  # the whole segment, never an excerpt (user, 2026-10-09: no cuts anywhere)
                 out[loc] = {'scope': [f'{s}:{a}'], 'loc': loc, 'src': sr, 'kind': src_kind.get(sr, kind),
                             'verses': f'{s}:{a} (quoted)', 'head': f'{head or ""}{note}', 'text': body}
     print(f'quotation packet: {len(out)} segment(s), {sum(len(g["text"]) for g in out.values()):,} characters')
@@ -410,8 +414,16 @@ def build(a):
     chunk_chars = getattr(a, 'chunk_chars', DEFAULT_CHUNK_CHARS)
     if chunk_chars < 1:
         raise SystemExit('--chunk-chars must be positive')
-    if bool(a.ayat) == bool(a.page):
-        raise SystemExit('give either --ayat, or --page with --ayah')
+    if getattr(a, 'surahs', None):
+        if a.ayat or a.page:
+            raise SystemExit('give one of --ayat, --surahs, or --page with --ayah')
+        with connect() as con:
+            a.ayat = [f'{s}:{x}' for s, x in con.execute(
+                "SELECT s, a FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran' AND s IN (%s) ORDER BY s, a"
+                % ','.join('?' * len(a.surahs)), a.surahs)]
+        print(f'surahs {" ".join(map(str, a.surahs))}: {len(a.ayat)} ayat')
+    elif bool(a.ayat) == bool(a.page):
+        raise SystemExit('give one of --ayat, --surahs, or --page with --ayah')
     if a.page:
         import write  # late import: write imports this module
         a.ayat = write.page_verses(a.page, a.ayah)
@@ -441,9 +453,15 @@ def build(a):
                 for i, line in enumerate(lines, 1):
                     if line.strip():
                         try:
-                            done.setdefault(json.loads(line)['loc'], f'{f.parts[-4]}/{tag}')
+                            loc = json.loads(line)['loc']
+                            if loc in excerpts().get(f.parts[-4], set()):
+                                continue  # digested only as an excerpt: not done
+                            done.setdefault(loc, f'{f.parts[-4]}/{tag}')
                         except ValueError:
                             print(f'WARNING {f.relative_to(V7)} line {i}: not JSON (a run in progress?); not counted as done')
+        cut = {loc for locs in excerpts().values() for loc in locs} - set(done)
+        if cut:
+            print(f'NOTE {len(cut)} segment(s) were digested only as excerpts; any of them in scope is digested whole now')
         kept = []
         for g in segments:
             if g['loc'] in done:
@@ -691,6 +709,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest='cmd', required=True)
     p = sub.add_parser('build'); p.add_argument('run'); p.add_argument('--ayat', nargs='+')
+    p.add_argument('--surahs', nargs='+', type=int, help='every ayah of these surahs')
     p.add_argument('--page', help="a frozen page: digest its own ayah (--ayah) and every verse it cites")
     p.add_argument('--ayah')
     p.add_argument('--models', nargs='+', required=True)

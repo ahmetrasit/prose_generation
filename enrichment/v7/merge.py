@@ -42,7 +42,7 @@ _TAGS = None
 def tier1_rows(d, tags, ayah, quiet=False):
     """Every tier-1 row whose verses include the ayah, with a stable id <loc>/rN (N = position in its segment) and its
     tags (words, type) from the row or a retag run. tags: one model tag or a list; a segment digested under several
-    runs or tags counts once (first tag, then run order). Edition rule: rows of a short edition X are dropped when
+    runs or tags counts once (first tag, then run order). No edition rule (removed 2026-10-09): rows of a short edition X were dropped when
     X-FULL has rows on the same ayah (printed)."""
     global _TAGS
     if _TAGS is None:
@@ -66,28 +66,22 @@ def tier1_rows(d, tags, ayah, quiet=False):
                     except ValueError:
                         print(f'WARNING {f.relative_to(V7)} line {i}: not JSON (a run in progress?); skipped')
                         continue
-                    if x['loc'] in seen:
+                    cut = x['loc'] in digest.excerpts().get(f.parts[-4], set())
+                    whole_again = not cut and any(x['loc'] in v for v in digest.excerpts().values())
+                    if (x['loc'], cut) in seen:
                         continue
-                    seen.add(x['loc'])
+                    seen.add((x['loc'], cut))
                     if x['loc'] not in seg_src:
                         seg_src[x['loc']] = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
                     for n, r in enumerate(x['rows'], 1):
                         if ayah in r.get('verses', []):
                             src = seg_src[x['loc']]
                             m = meta.get(src, {})
-                            rid = f"{x['loc']}/r{n}"
+                            rid = f"{x['loc']}/{'f' if whole_again else 'r'}{n}"
                             words, typ = (r.get('words'), r.get('type')) if r.get('type') else _TAGS.get(rid, (None, None))
                             out.append({**r, 'id': rid, 'src': src, 'author': m.get('author') or src,
                                         'death': m.get('death_ah'), 'tag': tag, 'words': words, 'type': typ})
-    full = {r['src'][:-5] for r in out if r['src'].endswith('-FULL')}
-    dropped = [r for r in out if r['src'] in full]
-    if dropped and not quiet:
-        by = defaultdict(int)
-        for r in dropped:
-            by[r['src']] += 1
-        print(f"NOTE {ayah}: {len(dropped)} rows of short editions dropped, their FULL edition has rows on this ayah: "
-              + ', '.join(f'{s} {n}' for s, n in sorted(by.items())))
-    return [r for r in out if r['src'] not in full]
+    return out  # no edition rule: short and FULL editions are both kept (user, 2026-10-09: nothing dropped)
 
 
 def cell_of(r, ayah):
