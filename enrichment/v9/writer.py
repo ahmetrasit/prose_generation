@@ -8,7 +8,8 @@ blocks.
 
   writer.py build RUN --ayah 103:1 --page PATH --model claude-opus-5-5:high
               refuses (and names them) when a cited verse has no verse map
-  writer.py check RUN      the agent runs it until OK
+  writer.py check RUN      the agent runs it until OK; it accepts the cited verses and every mapped verse of the
+                           page's own surah (a page may cover same-surah verses it names without citing them)
 
 Files: enrichment/v9/work/RUN/write/inputs/{page,focus,index}.pK.txt, spawn/, out/<TAG>/{ledger,blocks}.jsonl.
 """
@@ -122,7 +123,11 @@ def check(a):
     out = d / 'out' / man['tag']
     problems = []
     blocks, ledger = read(out / 'blocks.jsonl', problems), read(out / 'ledger.jsonl', problems)
-    maps = {v: Q.load(v) for v in man['verses']}
+    surah = man['ayah'].split(':')[0]
+    # page verses: the cited set, plus every mapped verse of the page's own surah (user, 2026-10-09: a page may cover
+    # same-surah verses it names without citing them; full coverage)
+    page_verses = set(man['verses']) | {k.replace('-', ':') for k in Q.mapped() if k.split('-')[0] == surah}
+    maps = {v: Q.load(v) for v in sorted(page_verses)}
     qids = {q['id']: (v, q) for v, (qs, _) in maps.items() for q in qs}
     pids = {p['id']: (v, p) for v, (qs, _) in maps.items() for q in qs for p in q['positions']}
     rows = {i: x for v, (_, rs) in maps.items() for i, x in rs.items()}
@@ -175,8 +180,8 @@ def check(a):
     for r in ledger:
         pair = (r.get('p'), r.get('verse'))
         if pair not in want:
-            if pair[0] in man['paragraphs'] and pair[1] in man['verses']:
-                want.add(pair)          # an uncited page verse the paragraph discusses
+            if pair[0] in man['paragraphs'] and pair[1] in page_verses:
+                want.add(pair)          # an uncited page verse (or same-surah verse) the paragraph discusses
             else:
                 problems.append(f'ledger: (¶{pair[0]}, {pair[1]}) is not a paragraph and verse of this page')
                 continue
