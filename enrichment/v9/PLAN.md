@@ -11,6 +11,12 @@ and the v8 sift. Keeps v7 tier 1 (`digest.py`) and the tier-2 work as inputs. De
 - **Verse map model: Sol high.** Chosen after the Luna max test (Luna failed) and the Opus high comparison on 12:49
   (equivalent for this step, 5.7× the cost). Opus 5.5 high stays the writer.
 - **Codex usage counts toward the budget** (API-equivalent cost is real cost from now on).
+- **When the tradition agrees with the page** (a consensus the page simply follows): a short block naming the
+  classical witnesses (2026-10-08).
+- **Sūra-wide questions** (place, count and order of revelation, reports on reciting the sūra): both on the ayah
+  page's closing group and on the surah page (2026-10-08).
+- **Sources outside tier 1 must be accounted for** on every page (meal, hadith, poetry, wujūh, translations, works
+  without a verse index, surah-level segments): C1 lists each with its route; none is dropped silently (2026-10-08).
 - Maps for the whole 103:1 page approved as the test run (`work/map-103_1-20261008`, 36 verses, ≈ $11–14).
   **Done 2026-10-08:** 36/36 completed and checked, $11.34 Sol (API-equivalent, counted), 809 questions, 1,938
   positions; with 12:49 and 6:52 from `maptest-20261008` every verse of the 103:1 page has a map. On 103:1 itself
