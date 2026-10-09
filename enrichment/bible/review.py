@@ -45,6 +45,11 @@ WRITES = re.compile(r"\.write|open\([^)]*['\"][wax+]|unlink|rmtree|rename|replac
 SED_PRINT = re.compile(r'^\s*(?:(?:\d+|\$|/[^/]*/)(?:,(?:\d+|\$|/[^/]*/))?)?p\s*(?:;\s*(?:(?:\d+|\$|/[^/]*/)'
                        r'(?:,(?:\d+|\$|/[^/]*/))?)?p\s*)*$')
 SEPARATORS = {';', '&&', '||', '|', '\n'}
+# Bible tools an author may run without -I, with their read-only subcommands; write flags must point into the call dir
+BIBLE_TOOLS = {'corpus.py': {'sources', 'get', 'ayah', 'search'}, 'hebrew.py': {'root', 'cognates', 'word', 'table'},
+               'validate.py': None, 'verdicts.py': None, 'render.py': None}
+WRITE_FLAGS = {'--out', '--report'}
+GLOB = re.compile(r'[*?\[]')
 OLD_TAIL_TOOLS = {'corpus.py', 'hebrew.py', 'validate.py', 'render.py', 'verdicts.py'}
 
 
@@ -71,6 +76,12 @@ class Ctx:
         if p.parent == HERE and (p.suffix == '.py' or p.name.startswith('SCHEMA')):
             return True
         return p.is_relative_to((HERE / 'prompts').resolve())
+
+    def cd_ok(self, p: Path) -> bool:
+        """A directory the call may move into: the repository root, its own call directory, the pack, its inputs'
+        directories or the Bible corpus."""
+        p = p.resolve()
+        return p == PG.resolve() or p in {q.resolve() for q in self.dirs_listable} or self.readable(p)
 
     def own(self, p: Path) -> bool:
         p = p.resolve()
@@ -129,7 +140,15 @@ def imports(code: str) -> set[str]:
 
 
 def literal_paths(code: str):
-    return [m[1] for m in re.finditer(r"""['"]((?:/|~/|enrichment/)[^'"\n]*)['"]""", code)]
+    """Path-like string literals. `NAME + '/x'` where NAME is assigned a literal path in the same code counts as that
+    path joined with '/x' (a call-directory constant plus a file name); every other literal counts as written."""
+    assigned = {m[1]: m[2] for m in re.finditer(r"""(?m)^\s*(\w+)\s*=\s*['"]((?:/|~/|enrichment/)[^'"\n]*)['"]\s*$""", code)}
+    out, joined = [], set()
+    for m in re.finditer(r"""\b(\w+)\s*\+\s*['"](/[^'"\n]*)['"]""", code):
+        if m[1] in assigned:
+            out.append(assigned[m[1]].rstrip('/') + m[2]); joined.add(m.start(2) - 1)
+    out += [m[1] for m in re.finditer(r"""['"]((?:/|~/|enrichment/)[^'"\n]*)['"]""", code) if m.start() not in joined]
+    return out
 
 
 def classify_python(seg, ctx: Ctx, scripts: dict):
@@ -170,32 +189,103 @@ def classify_python(seg, ctx: Ctx, scripts: dict):
     return 'helper', f'helper {script.name} on allowed inputs and the call directory', ctx.own(script)
 
 
-def classify_shell(cmd: str, ctx: Ctx, scripts: dict):
+def path_like(t: str, cwd: Path) -> bool:
+    return '/' in t or t.startswith(('.', '~')) or bool(GLOB.search(t)) or (cwd / t).exists()
+
+
+def arg_paths(args, cwd: Path, skip_first=False):
+    """Every path-like argument (also `--flag=value` values), resolved against cwd, plus the write targets
+    (values of --out/--report). Returns (paths, writes, bad) where bad lists glob arguments."""
+    paths, writes, bad, first, i = [], [], [], skip_first, 0
+    while i < len(args):
+        t = args[i]
+        if t.startswith('-'):
+            flag, eq, val = t.partition('=')
+            if flag in WRITE_FLAGS:
+                v = val if eq else (args[i + 1] if i + 1 < len(args) else '')
+                if not eq:
+                    i += 1
+                writes.append((cwd / Path(v).expanduser()) if v else Path('/'))
+            elif eq and path_like(val, cwd):
+                (bad if GLOB.search(val) else paths).append(val if GLOB.search(val) else cwd / Path(val).expanduser())
+        elif first:
+            first = False                      # a grep pattern or sed script, not a path
+        elif path_like(t, cwd):
+            (bad if GLOB.search(t) else paths).append(t if GLOB.search(t) else cwd / Path(t).expanduser())
+        i += 1
+    return paths, writes, bad
+
+
+def classify_shell(cmd: str, ctx: Ctx, scripts: dict, announced=frozenset()):
     segs = segments(cmd)
     if segs is None:
         return None, 'shell syntax beyond plain commands and pipes', False
-    kinds, reasons, auto = [], [], True
+    kinds, reasons, auto, cwd = [], [], True, PG
+    ok_read = lambda q: ctx.readable(q) or (TOOL_RESULTS.match(str(q.resolve())) and str(q.resolve()) in announced)
     for seg in segs:
         prog = Path(seg[0]).name
-        paths = [resolve(t) for t in path_args(seg[1:])]
+        if prog == 'cd':
+            tgt = (cwd / Path(seg[1]).expanduser()).resolve() if len(seg) > 1 else None
+            own_out_dir = tgt is not None and any(Path(x).parent == tgt for x in announced)
+            if tgt is None or not (ctx.cd_ok(tgt) or own_out_dir):
+                return None, f'cd outside the allowed directories: {seg[1:2]}', False
+            cwd = tgt
+            kinds.append('read'); reasons.append('cd into the repository root or an allowed directory')
+            continue
         if prog in ('python', 'python3') or re.fullmatch(r'python3\.\d+', prog):
-            k, r, a = classify_python(seg, ctx, scripts)
+            tool = next((t for t in seg[1:] if t.endswith('.py')), None)
+            tpath = (cwd / tool).resolve() if tool else None
+            if tpath and tpath.parent == HERE.resolve() and tpath.name in BIBLE_TOOLS and seg[1] == tool:
+                rest = seg[2:]
+                subs = BIBLE_TOOLS[tpath.name]
+                if set(rest) & {'--help', '-h'} and all(t.startswith('-') or t in (subs or ()) for t in rest):
+                    kinds.append('read'); reasons.append(f'help text of the Bible tool {tpath.name}')
+                    continue
+                if subs is not None:
+                    pos = [t for t in rest if not t.startswith('-')]
+                    if not pos or pos[0] not in subs:
+                        return None, f'Bible tool {tpath.name} subcommand {pos[:1]} is not a read', False
+                paths, writes, bad = arg_paths(rest, cwd)
+                badp = [str(q) for q in paths if not (ok_read(q) or ctx.own(q))] + [str(q) for q in writes if not ctx.own(q)]
+                if bad or badp:
+                    return None, f'Bible tool {tpath.name} names paths outside the inputs and call directory: {bad + badp}', False
+                k, r, a = 'helper', f'Bible tool {tpath.name} on allowed inputs, writing only in the call directory', True
+            else:
+                if cwd != PG:
+                    rel_ok = [t for t in seg[1:] if not t.startswith('-') and t.endswith('.py') and not t.startswith('/')]
+                    if rel_ok:
+                        return None, 'a relative python script after cd', False
+                k, r, a = classify_python(seg, ctx, scripts)
+                if k is not None and cwd != PG and '-c' in seg:
+                    code = seg[seg.index('-c') + 1] if seg.index('-c') + 1 < len(seg) else ''
+                    for m in re.finditer(r"""open\(\s*['"]([^'"]+)['"]""", code):
+                        q = cwd / m[1]
+                        if not ok_read(q):
+                            return None, f'inline python after cd opens {m[1]} outside the allowed inputs', False
         elif prog == 'sed' and ('-i' in seg or any(t.startswith('-i') for t in seg[1:])):
+            paths, _, bad = arg_paths(seg[1:], cwd, skip_first=True)
             k, r, a = (('own_edit', 'sed -i on own call-directory files', True)
-                       if paths and all(ctx.own(p) for p in paths) else (None, f'sed -i outside the call directory: {paths}', False))
+                       if paths and not bad and all(ctx.own(q) for q in paths)
+                       else (None, f'sed -i outside the call directory: {[str(q) for q in paths] + bad}', False))
         elif prog == 'sed':
-            script = next((t for t in seg[1:] if not t.startswith('-') and not t.startswith(('/', 'enrichment/'))), '')
+            script = next((t for t in seg[1:] if not t.startswith('-')), '')
+            paths, _, bad = arg_paths(seg[1:], cwd, skip_first=True)
             k, r, a = (('read', 'print-only sed on allowed inputs', True)
-                       if SED_PRINT.match(script) and paths and all(ctx.readable(p) for p in paths)
+                       if SED_PRINT.match(script) and not bad and all(ok_read(q) for q in paths)
                        else (None, f'sed that is not print-only on allowed inputs: {seg[1:4]}', False))
         elif prog == 'mkdir':
-            ok = paths and all(ctx.own(p) or is_scratch(str(p)) for p in paths)
-            k, r, a = (('own_edit', 'mkdir of the call directory or scratchpad', all(ctx.own(p) for p in paths))
+            paths, _, bad = arg_paths(seg[1:], cwd)
+            ok = paths and not bad and all(ctx.own(q) or is_scratch(str(q)) for q in paths)
+            k, r, a = (('own_edit', 'mkdir of the call directory or scratchpad', all(ctx.own(q) for q in paths))
                        if ok else (None, f'mkdir outside the call directory/scratchpad: {paths}', False))
         elif prog in READ_PROGS:
-            bad = [p for p in paths if not ctx.readable(p)]
-            k, r, a = ((None, f'{prog} names paths outside the allowed inputs: {bad}', False) if bad
-                       else ('read', f'read-only {prog} on allowed inputs', True))
+            if prog in ('echo', 'printf', 'true'):
+                k, r, a = 'read', f'{prog}', True
+            else:
+                paths, _, bad = arg_paths(seg[1:], cwd, skip_first=prog in ('grep', 'egrep'))
+                badp = [str(q) for q in paths if not ok_read(q)]
+                k, r, a = ((None, f'{prog} names paths outside the allowed inputs: {bad + badp}', False) if bad or badp
+                           else ('read', f'read-only {prog} on allowed inputs', True))
         else:
             k, r, a = None, f'command {prog} is not a read, helper or own edit', False
         if k is None:
@@ -209,7 +299,7 @@ def classify(call: dict, ctx: Ctx, scripts: dict, announced: set):
     """(kind, reason, auto) of one tool call; kind None means unclassifiable."""
     name, inp = call.get('name'), call.get('input') or {}
     if name == 'Bash':
-        return classify_shell(str(inp.get('command', '')), ctx, scripts)
+        return classify_shell(str(inp.get('command', '')), ctx, scripts, announced)
     raw = inp.get('file_path') or inp.get('path') or inp.get('notebook_path')
     if name in ('Read', 'Grep', 'Glob'):
         if raw and TOOL_RESULTS.match(str(raw)):
