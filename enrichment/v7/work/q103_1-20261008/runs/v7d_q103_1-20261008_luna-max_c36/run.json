@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_q103_1-20261008_luna-max_c36",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-08T23:23:49",
+  "ended": "2026-10-08T23:35:14",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11eb0-570e-77a1-8ac8-1eec1bd24b98",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1095185,
+    "cached_input_tokens": 984320,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 80288,
+    "reasoning_output_tokens": 35452
+  },
+  "stderr": "2026-10-09T03:24:00.403756Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T03:30:42.086931Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/q103_1-20261008/out/luna-max/c36.jsonl:\n{\"verses\":[\"2:224\"],\"words\":[\"والله سميع عليم\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"God hears what people say and knows what is within them; nothing is hidden from Him.\",\"anchor\":\"والله سميع لأقوالكم عليم بما في ضمائركم لا تخفى عليه\",\"mentions\":[]}\n",
+  "prompt_sha256": "40cbdf040f15e05b15f832358c5e41c2e9fe127e7ecc12eb08756c37ca96e70e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T23-23-57-01a11eb0-570e-77a1-8ac8-1eec1bd24b98.jsonl",
+  "usd_equivalent": 0.061074,
+  "requests": 15,
+  "max_request_input_tokens": 103329,
+  "over_context_cap": false
+}

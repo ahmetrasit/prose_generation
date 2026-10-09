@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_q103_1-20261008_luna-max_c27",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-08T23:23:49",
+  "ended": "2026-10-08T23:35:41",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11eb0-6614-7cd0-977f-115b576c9634",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 1741392,
+    "cached_input_tokens": 1609472,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 81663,
+    "reasoning_output_tokens": 40702
+  },
+  "stderr": "WARNING: proceeding, even though we could not create PATH aliases: No such file or directory (os error 2)\n2026-10-09T03:24:04.399474Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "4711359c492fc5861d8f3aae61289cf0a3d0a7631e5b84fd3daaf1c16f7674a2",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T23-24-03-01a11eb0-6614-7cd0-977f-115b576c9634.jsonl",
+  "usd_equivalent": 0.070118,
+  "requests": 22,
+  "max_request_input_tokens": 107088,
+  "over_context_cap": false
+}

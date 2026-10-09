@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_q103_1-20261008_luna-max_c39",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-08T23:23:49",
+  "ended": "2026-10-08T23:28:05",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11eb0-7678-7b02-8126-9ec5f6650870",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 362133,
+    "cached_input_tokens": 306432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 23561,
+    "reasoning_output_tokens": 16482
+  },
+  "stderr": "2026-10-09T03:24:07.648766Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T03:26:18.855395Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/q103_1-20261008/out/luna-max/c39.jsonl:\n{\"verses\":[\"11:114\"],\"words\":[\"*\"],\"type\":\"theology\",\"speaker\":\"أهل السنة والجماعة\",\"stance\":\"holds\",\"claim\":\"They argue that seeking refuge from Satan refutes predestination: if it asks God to prevent temptation by warning, that prevention has already occurred; if by coercion, it conflicts with the jinn’s accountability.\",\"anchor\":\"ثم قال أهل السنة والجماعة : قوله : أعوذ بالله من الشيطان الرجيم يبطل القول بالقدر من وجوه\",\"mentions\":[]}\n2026-10-09T03:26:55.693685Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/q103_1-20261008/out/luna-max/c39.jsonl:\n{\"verses\":[\"11:114\"],\"words\":[\"*\"],\"type\":\"theology\",\"speaker\":\"أهل السنة والجماعة\",\"stance\":\"holds\",\"claim\":\"They argue that seeking refuge from Satan refutes predestination: if it asks God to prevent temptation by warning, that prevention has already occurred; if by coercion, it conflicts with the jinn’s accountability.\",\"anchor\":\"ثم قال أهل السنة والجماعة : قوله : أعوذ بالله من الشيطان الرجيم يبطل القول بالقدر من وجوه\",\"mentions\":[]}\n",
+  "prompt_sha256": "1d634e0d0f1ad27741a9c33502dd5ef2fd2f4a4f05f2f7999160656112ddbbe4",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T23-24-07-01a11eb0-7678-7b02-8126-9ec5f6650870.jsonl",
+  "usd_equivalent": 0.020415,
+  "requests": 11,
+  "max_request_input_tokens": 49008,
+  "over_context_cap": false
+}

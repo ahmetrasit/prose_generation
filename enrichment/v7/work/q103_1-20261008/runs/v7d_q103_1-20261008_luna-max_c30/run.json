@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_q103_1-20261008_luna-max_c30",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-08T23:23:49",
+  "ended": "2026-10-08T23:33:08",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11eb0-6a81-71f3-952b-97fd74828ac5",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 544640,
+    "cached_input_tokens": 457216,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 56843,
+    "reasoning_output_tokens": 33843
+  },
+  "stderr": "s_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:25:00.468634Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:25:04.628753Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:31:13.106290Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/q103_1-20261008/out/luna-max/c30.jsonl:\n{\"loc\":\"NASHR:v1p274#2\",\"rows\":[{\"verses\":[\"79:46\"],\"words\":[\"*\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"He defines large assimilation as merging two moving letters, whether identical, homogeneous, or close; small assimilation starts with a quiescent first letter.\",\"anchor\":\"فالكبير ما كان الأول من الحرفين فيه متحركا، سواء أكانا مثلين أم جنسين أم متقاربين\",\"mentions\":[]},{\"verses\":[\"79:46\"],\"words\":[\"*\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Large assimilation is named for its frequency, the greater impact of first making a moving letter quiescent, its difficulty, or its inclusion of three letter relationships.\",\"anchor\":\"وسمي كبيرا لكثرة وقوعه، إذ الحركة أكثر من السكون. وقيل: لتأثيره في إسكان المتحرك قبل إدغامه\",\"mentions\":[]},{\"verses\":[\"79:46\"],\"words\":[\"*\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"Abu Amr is the best-known and especially associated imam for large assimilation, though it is also transmitted from al-Hasan al-Basri, Ibn Muhaysin, al-Aʿmash, Talha, ʿIsa ibn ʿUmar, and others; its purpose is ease.\",\"anchor\":\"والمختص به من الأئمة العشرة هو أبو عمرو بن العلاء وليس بمنفرد به، بل قد ورد أيضا عن الحسن البصري\",\"mentions\":[]},{\"verses\":[\"79:46\"],\"words\":[\"*\"],\"type\":\"readings\",\"speaker\":\"أبو عمرو بن العلاء\",\"stance\":\"reports\",\"claim\":\"Abu Amr says assimilation is ordinary Arabic speech; Ibn al-Jazari adduces poetry, including a line by ʿAdi ibn Zayd, as evidence for this usage.\",\"anchor\":\"قال أبو عمرو بن العلاء: الإدغام كلام العرب الذي يجري على ألسنتها، ولا يحسنون غيره\",\"mentions\":[]},{\"verses\":[\"79:46\"],\"words\":[\"*\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"Several earlier manuals omit large assimilation entirely, including works by Abu ʿUbayd, Ibn Mujahid, Makki, al-Talamanki, Ibn Sufyan, and others.\",\"anchor\":\"منهم من لم يذكره ألبتة كما فعل أبو عبيد في كتابه، وابن مجاهد في سبعته\",\"mentions\":[]},{\"verses\":[\"79:46\"],\"words\":[\"*\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"Other authorities included it as one of two options for Abu Amr, fully across his transmission routes; this excerpt ends before it names that group.\",\"anchor\":\"ومنهم من ذكره في أحد الوجهين، عن أبي عمرو بكماله من جميع طرقه\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "56317232230727309ab0b1a6a32cc65e07618ec8530cb19ed696787a8cc701cc",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T23-24-07-01a11eb0-6a81-71f3-952b-97fd74828ac5.jsonl",
+  "usd_equivalent": 0.041736,
+  "requests": 10,
+  "max_request_input_tokens": 87261,
+  "over_context_cap": false
+}

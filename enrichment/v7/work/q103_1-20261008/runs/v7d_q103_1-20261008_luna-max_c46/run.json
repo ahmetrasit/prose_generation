@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_q103_1-20261008_luna-max_c46",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-08T23:23:49",
+  "ended": "2026-10-08T23:41:32",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11eb0-672e-7211-bdab-600c2b3ae3ed",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1760859,
+    "cached_input_tokens": 1591040,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 135254,
+    "reasoning_output_tokens": 61136
+  },
+  "stderr": ".114874Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:24:53.157218Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:24:56.741929Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:24:58.739371Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:25:01.463433Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:25:05.957541Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:38:03.938077Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/q103_1-20261008/out/luna-max/c46.jsonl:\n{\"verses\":[\"66:8\"],\"words\":[\"وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُ\"],\"type\":\"referent\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Those described as believing with the Prophet are the people who shared his faith, the quality in which they were joined.\",\"anchor\":\"يوم لا يخزي الله النبي والذين آمنوا معه يعني الذين شاركوه في الإيمان وهو الذي وقع فيه الاجتماع والاشتراك\",\"mentions\":[]}\n2026-10-09T03:38:24.416356Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/q103_1-20261008/out/luna-max/c46.jsonl:\n{\"verses\":[\"66:8\"],\"words\":[\"وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُ\"],\"type\":\"referent\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Those described as believing with the Prophet are the people who shared his faith, the quality in which they were joined.\",\"anchor\":\"يوم لا يخزي الله النبي والذين آمنوا معه يعني الذين شاركوه في الإيمان\",\"mentions\":[]}\n2026-10-09T03:40:03.531441Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/q103_1-20261008/out/luna-max/c46.jsonl:\n{\"verses\":[\"12:36\"],\"words\":[\"مَعَهُ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"مع means accompaniment between two matters sharing an action or ruling; its complete sense is shared participation in the matter, not necessarily simultaneity. In 12:36 it marks the youths entering prison alongside Joseph.\",\"anchor\":\"وكمال معنى المعية الاجتماع في الأمر الذي به الاشتراك دون زمانه والأول يكثر في أفعال الجوارح والعلاج نحو دخلت مع زيد\",\"mentions\":[\"12:12\",\"12:63\",\"12:66\"]}\n",
+  "prompt_sha256": "1c4dd486fa5974fb0321bbb994025643e29ca7223a0e770558225bdff467a764",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T23-24-07-01a11eb0-672e-7211-bdab-600c2b3ae3ed.jsonl",
+  "usd_equivalent": 0.100519,
+  "requests": 17,
+  "max_request_input_tokens": 167987,
+  "over_context_cap": true
+}

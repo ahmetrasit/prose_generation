@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_q103_1-20261008_luna-max_c52",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-08T23:23:49",
+  "ended": "2026-10-08T23:36:57",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11eb0-6b32-7dd1-9dd6-b7e213fadad8",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 958644,
+    "cached_input_tokens": 843520,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 92340,
+    "reasoning_output_tokens": 39894
+  },
+  "stderr": "2026-10-09T03:24:07.648320Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T03:24:49.068605Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:24:52.792040Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:24:56.684445Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:24:58.608340Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:25:01.443469Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:25:05.264686Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T03:31:56.905219Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/q103_1-20261008/out/luna-max/c52.jsonl:\n{\"verses\":[\"2:10\"],\"words\":[\"يعذب من يشاء\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Bāʾ assimilates into mīm only in يعذب من يشاء.\",\"anchor\":\"فالباء تدغم في الميم في ﴿ يعذب من يشاء ﴾ فقط\",\"mentions\":[]},\n2026-10-09T03:34:40.620409Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/q103_1-20261008/out/luna-max/c52.jsonl\n",
+  "prompt_sha256": "2c6bf4682d03396fbe3ac4dc1e3da22318702c585094ece881fb62666e24425a",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T23-24-07-01a11eb0-6b32-7dd1-9dd6-b7e213fadad8.jsonl",
+  "usd_equivalent": 0.066118,
+  "requests": 13,
+  "max_request_input_tokens": 116135,
+  "over_context_cap": false
+}

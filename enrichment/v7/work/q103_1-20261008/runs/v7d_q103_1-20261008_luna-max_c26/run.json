@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_q103_1-20261008_luna-max_c26",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-08T23:23:49",
+  "ended": "2026-10-08T23:30:56",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11eb0-69c5-7912-8d1b-8c0a3551188e",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 639726,
+    "cached_input_tokens": 562944,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 44635,
+    "reasoning_output_tokens": 25923
+  },
+  "stderr": "2026-10-09T03:24:03.303368Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T03:29:16.898201Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/q103_1-20261008/out/luna-max/c26.jsonl:\n{\"loc\":\"SAMARRAI-LAMASAT-HALAQAT:p956\",\"rows\":[{\"verses\":[\"6:151\",\"17:31\"],\"words\":[\"نَحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ\",\"نَحْنُ نَرْزُقُهُمْ وَإِيَّاكُمْ\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"For parents poor at present, God first assures their provision; for parents merely fearing future poverty, He names the children’s provision first to show they bring provision with them.\",\"anchor\":\"فلما كانوا مفتقرين فهم محتاجون للرزق لعيلوا أنفسهم ثم أولادهم لذا بدأ تعالى برزقهم هم أولاً\",\"mentions\":[]},{\"verses\":[\"21:69\"],\"words\":[\"يَا نَارُ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Samarrāʾī says “يا نار” is grammatically definite; what modern terminology calls an intended indefinite is called definite by grammarians.\",\"anchor\":\"كلمة نار ليست نكرة (يا نار) في المصطلح الحديث تُسمّى نكرة مقصودة أي معيّنة أما النحاة فيقولون معرفة\",\"mentions\":[]},{\"verses\":[\"21:69\"],\"words\":[\"يَا نَارُ\"],\"type\":\"grammar\",\"speaker\":\"سيبويه\",\"stance\":\"reports\",\"claim\":\"Sībawayh treats every nominative vocative as definite: “يا رجلُ” and “يا فاسقُ” mean “يا أيها الرجل” and “يا أيها الفاسق”.\",\"anchor\":\"قاعدة سيبويه: إن كل اسم في النداء مرفوع معرفة وذلك أنه إذا قال يا رجلُ ويا فاسقُ\",\"mentions\":[]},{\"verses\":[\"21:69\"],\"words\":[\"بَرْدًا وَسَلَامًا\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"The excerpt also asks why the command says both “coolness and peace” rather than only “peace,” but supplies no answer.\",\"anchor\":\"ولماذا جاءت برداً وسلاماً وليس سلاماً فقط؟\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "a358fabd9d6951b257726c43435c5e94faef4ac9ce3c7cd228271d2111584095",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T23-24-03-01a11eb0-69c5-7912-8d1b-8c0a3551188e.jsonl",
+  "usd_equivalent": 0.035625,
+  "requests": 13,
+  "max_request_input_tokens": 66300,
+  "over_context_cap": false
+}

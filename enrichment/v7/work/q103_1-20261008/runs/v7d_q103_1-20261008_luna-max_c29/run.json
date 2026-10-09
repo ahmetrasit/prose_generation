@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_q103_1-20261008_luna-max_c29",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-08T23:23:49",
+  "ended": "2026-10-08T23:32:29",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11eb0-70e3-7fa1-8a7a-9c7f711b35c2",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 613464,
+    "cached_input_tokens": 537856,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 57230,
+    "reasoning_output_tokens": 30850
+  },
+  "stderr": "2026-10-09T03:24:07.646998Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T03:32:09.805996Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/q103_1-20261008/out/luna-max/c29.jsonl:\n{\"loc\":\"NASHR:v2p147\",\"rows\":[{\"verses\":[\"37:130\"],\"words\":[\"إل ياسين\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"All codices separate il yāsīn; with a long open hamza and kasra on lam it means the family of Ilyas as two words and permits a pause, while the short kasra reading with silent lam is one word and cannot be split despite the spelling.\",\"anchor\":\"فهي على قراءة من فتح الهمزة ومدها وكسر اللام كلمتان\",\"mentions\":[]},{\"verses\":[\"37:130\"],\"words\":[\"إل ياسين\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The short-kasra reading forms one word, so pausing within it is forbidden despite the written separation; the codices' spelling must not be followed in pause here.\",\"anchor\":\"وأما على قراءة من كسر الهمزة وقصرها وسكن اللام فكلمة واحدة وإن انفصلت رسما فلا يجوز قطع إحداهما عن الأخرى\",\"mentions\":[]},{\"verses\":[\"68:24\"],\"words\":[\"أن لا يدخلنها اليوم\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"In general, written-separated compounds may be paused at either component; exceptions include the frequent definite article, one-letter yā and hā after alif deletion, attached pronouns, and alphabetic letter names joined by pronunciation.\",\"anchor\":\"جميع ما كتب مفصولا سواء كان اسما، أو غيره فإنه يجوز الوقف فيه على الكلمة الأولى والثانية\",\"mentions\":[]},{\"verses\":[\"68:24\"],\"words\":[\"أن لا يدخلنها اليوم\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Ibn al-Jazari lists eighteen split forms requiring attention, including an la, an ma, in ma, ayNama, an lam, in lam, an lan, ʿan ma, min ma, am man, ʿan man, ḥaythuma, kullama, biʾsama, fima, kay la, and yawm hum.\",\"anchor\":\"والذي يحتاج إلى التنبيه عليه ينحصر في ثمانية عشر حرفا، وهي: أن لا، وأن ما، وإن ما، المخففة المكسورة، وأين ما\",\"mentions\":[]},{\"verses\":[\"68:24\"],\"words\":[\"أن لا يدخلنها اليوم\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"An la is separated in ten agreed locations, including 68:24; the al-Anbiya form an la ilaha illa anta is separated in most codices but connected in some.\",\"anchor\":\"فأما: أن لا) فكتب مفصولا في عشرة مواضع\",\"mentions\":[\"7:150\",\"7:169\",\"9:118\",\"11:2\",\"11:26\",\"22:26\",\"36:60\",\"44:19\",\"60:12\",\"68:24\"]},{\"verses\":[\"21:87\"],\"words\":[\"أن لا إله إلا أنت\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"Codices differ on the al-Anbiya phrase an la ilaha illa anta: most write it separately and some join it.\",\"anchor\":\"واختلف المصاحف في قوله تعالى: في سورة الأنبياء أن لا إله إلا أنت سبحانك ففي أكثرها مقطوع، وفي بعضها موصول\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "8c4143cbfd2e5588634aca20ce339f31518af0f652b158b5bff8ebd32825ee23",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T23-24-07-01a11eb0-70e3-7fa1-8a7a-9c7f711b35c2.jsonl",
+  "usd_equivalent": 0.041554,
+  "requests": 11,
+  "max_request_input_tokens": 79444,
+  "over_context_cap": false
+}

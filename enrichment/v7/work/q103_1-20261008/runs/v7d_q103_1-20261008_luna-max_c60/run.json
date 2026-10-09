@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_q103_1-20261008_luna-max_c60",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-08T23:23:49",
+  "ended": "2026-10-08T23:29:39",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11eb0-6a84-7950-9729-7f2debb16023",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 440654,
+    "cached_input_tokens": 380416,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39089,
+    "reasoning_output_tokens": 27819
+  },
+  "stderr": "2026-10-09T03:24:04.723837Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T03:29:02.793958Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/q103_1-20261008/out/luna-max/c60.jsonl:\n+{\"loc\":\"JURJANI-DALAIL:v1p102\",\"rows\":[{\"verses\":[\"2:264\"],\"words\":[\"*\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Jurjani treats the wording as apparent concession: asking which of the alleged prohibitions applies actually denies all and exposes fabrication against God.\",\"anchor\":\"أخرج اللفظ مخرجه إذا كان قد ثبت تحريم في أحد أشياء ، ثم أريد معرفة عين المحرم مع أن المراد إنكار التحريم من أصله\",\"mentions\":[\"6:143\"]},{\"verses\":[\"2:264\"],\"words\":[\"*\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"A question about the time or authorizer of a denied event feigns that it happened, then corners the claimant when no answer is possible.\",\"anchor\":\"ومثله قولك للرجل يدعي أمرا وأنت تنكره : متى كان هذا أفي ليل أم نهار ؟\",\"mentions\":[]},{\"verses\":[\"2:264\"],\"words\":[\"*\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"For a present action, verb-first “أتفعل؟” asks as though the addressee is performing it while the speaker only pretends not to know.\",\"anchor\":\"فإذا قلت : أتفعل ؟ كان المعنى على أنك أردت أن تقرره بفعل هو يفعله ، وكنت كمن يوهم أنه لا يعلم\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "53726f7173a65a76be19b2a0d01bdc3457e3b20bf64d7e2eaf90852c5fd4f5d2",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T23-24-07-01a11eb0-6a84-7950-9729-7f2debb16023.jsonl",
+  "usd_equivalent": 0.029372,
+  "requests": 10,
+  "max_request_input_tokens": 59886,
+  "over_context_cap": false
+}
