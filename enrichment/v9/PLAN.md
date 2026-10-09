@@ -197,3 +197,19 @@ For comparison: v2 1:1 one Opus agent ≈ $12.5–14; the v8 sift writer estimat
 - When the tradition simply agrees with the page (e.g. a consensus gloss): a one-line block naming the classical
   witnesses, or no block.
 - English pivot: recommended, not yet confirmed by the user.
+
+## Review of the 103:1 test (2026-10-09): is every step worth it?
+
+| Step | Cost (103:1 page) | What reached the final page | Verdict |
+|---|---|---|---|
+| Tier 1, verse-tied (Luna max) | ≈ $6 (38 verses × ≈ $0.16, earlier runs) | 396 of the 427 notes the blocks cite; 50 sources named; Biqāʿī 30 notes, Bint al-Shāṭiʾ's tafsīr 15 | essential |
+| Quotation packet tier 1 + map updates | $3.53 + $5.13 | 15 of 44 blocks; 31 notes: Itqān 15, Bint al-Shāṭiʾ's *al-Iʿjāz* 13 (the antecedent of the page's thesis), Burhān 4, Nashr 4 | worth it; in-run from now on (≈ $0.09 per verse, no separate update) |
+| Verse maps (Sol high) | $11.34 (+ $1.83 tests) | every block cites map questions; 2,076 notes stand behind the cited positions while the writer read 427 | essential; reused by every page |
+| Writer (Opus high) | $4.03 + $3.27 final pass by resume | 44 blocks, 70 ledger lines, all 22 paragraphs | worth it; the resume was waste (cache expired, 417k-token context re-read); the final pass is now in-run |
+| Meal (Opus high) | $0.42 + $0.38 for two fix resumes | 2 blocks: renderings against the tradition's positions, Turkish drift ("asır" read as century), collapsed ranges, relay source, the root's squeeze sense in only three meals | worth it; dictionary profiles yielded nothing on this verse but cost ≈ 5k characters |
+
+Open after the review: 103:3 has no map (the page discusses its exception; the writer's lines were rejected); the
+short editions now kept (33 new notes on 103:1 alone) and 37 excerpt-only segments need tier 1 and map updates;
+the augment9 decision; writer start context (index of 37 cited verses preloaded, 112k characters) is the main cost
+driver to test next.
+
