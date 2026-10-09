@@ -1,0 +1,16 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c549",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:38:40",
+  "ended": "2026-10-09T06:38:47",
+  "returncode": 1,
+  "turn_completed": false,
+  "thread_id": null,
+  "commands": 0,
+  "usage": {},
+  "stderr": "WARNING: proceeding, even though we could not create PATH aliases: No space left on device (os error 28) at path \"/Users/ahmetrasit/.codex/tmp/arg0/codex-arg0X09frh\"\n2026-10-09T10:38:42.033115Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:38:43.731093Z ERROR codex_models_manager::manager: failed to write models cache: No space left on device (os error 28)\n2026-10-09T10:38:45.836884Z ERROR codex_models_manager::manager: failed to refresh available models: exceeded retry limit, last status: 429 Too Many Requests, request id: req_d14c741e3fc14038ba8b864823e2db06\n2026-10-09T10:38:45.933665Z ERROR codex_core::session::session: failed to initialize thread persistence: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203e-6363-7291-b52d-754221fb7372.lock: No space left on device (os error 28)\n2026-10-09T10:38:45.934538Z ERROR codex_core::session: Failed to create session: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203e-6363-7291-b52d-754221fb7372.lock: No space left on device (os error 28)\nError: thread/start: thread/start failed: error creating thread: Fatal error: Failed to initialize session: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203e-6363-7291-b52d-754221fb7372.lock: No space left on device (os error 28) (code -32603)\n",
+  "prompt_sha256": "a01e9cb01123b001358097f124720d06b882470a9765eb5faeee427f91625454",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates."
+}

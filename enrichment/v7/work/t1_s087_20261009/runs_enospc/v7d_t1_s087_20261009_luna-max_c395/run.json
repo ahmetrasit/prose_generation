@@ -1,0 +1,16 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c395",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:36:45",
+  "ended": "2026-10-09T06:36:50",
+  "returncode": 1,
+  "turn_completed": false,
+  "thread_id": null,
+  "commands": 0,
+  "usage": {},
+  "stderr": "2026-10-09T10:36:48.637153Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:36:48.637130Z ERROR codex_models_manager::manager: failed to write models cache: No space left on device (os error 28)\n2026-10-09T10:36:49.368872Z ERROR codex_models_manager::manager: failed to write models cache: No space left on device (os error 28)\n2026-10-09T10:36:49.608649Z ERROR codex_core::session::session: failed to initialize thread persistence: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203c-a5e3-7f83-a3d7-80dd1aed40c5.lock: No space left on device (os error 28)\n2026-10-09T10:36:49.609795Z ERROR codex_core::session: Failed to create session: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203c-a5e3-7f83-a3d7-80dd1aed40c5.lock: No space left on device (os error 28)\nError: thread/start: thread/start failed: error creating thread: Fatal error: Failed to initialize session: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203c-a5e3-7f83-a3d7-80dd1aed40c5.lock: No space left on device (os error 28) (code -32603)\n",
+  "prompt_sha256": "24c589404b922058f0a1e22dd4a588f256ac01eb959596868600398c08ad2c7f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates."
+}

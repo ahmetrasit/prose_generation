@@ -102,6 +102,13 @@ not read`). A verse whose segments are still queued in another surah's tier-1 ru
 `scope`) is not mapped yet: list it in `work/prod_sNNN/verses_wait_*.txt` and map it after that run finishes, so a map
 is never built on a fraction of its notes. Notes of other verses that arrive later go through `update-all`.
 
+**Disk space (2026-10-09 incident).** Codex writes every session to `~/.codex/sessions` on the system disk; on
+2026-10-09 the disk filled and 1,089 agents failed at start (`No space left on device`, 0 commands, $0). Before a big
+run check `df -h /` (keep > 3 GB free). The user allowed deleting `~/.codex/sessions`; keep files younger than 90
+minutes (running agents' costs are read from them when they finish). A cleanup loop does this every 15 minutes
+(pid in `work/session_cleanup.pid`). Agents that failed at start are moved to `<runs>_enospc/` (evidence kept) and
+the same spawn files are run again; never move an agent that ran commands.
+
 **Repairing a Codex agent in its own session** (rule 4):
 `codex exec resume --ignore-user-config -c model_reasoning_effort="<effort>" -c web_search="disabled" -c sandbox_mode="workspace-write" --skip-git-repo-check --json -o <runs/agent>/repairN.last.txt <thread_id> - < message`
 from the repo root (the thread id is in `stream.jsonl`'s `thread.started` event; without the sandbox option the
@@ -122,9 +129,9 @@ session is read-only). Name the exact problems and allow reading and editing onl
 | Surah | Plan | Tier 1 | Maps | Translation | Pages | Rendered |
 |---|---|---|---|---|---|---|
 | 103 (page 103:1) | test (`w103_1-20261008`, `meal103_1-r2-20261009`) | done | done (`maptest-20261008`, `map-103_1-20261008`) | not yet | done; published privately (https://claude.ai/artifact/TnbnSk6SvZYrQSKWZBaDXs) | done |
-| 96 | `work/prod_s096` (19 pages, 475 verses) | `t1_s096_20261009`: 1,464 chunks, **running** (log `work/t1_s096_s103.run.log`) | — | — | — | — |
+| 96 | `work/prod_s096` (19 pages, 475 verses) | `t1_s096_20261009`: done, 133,220 rows, $83.45 + $8.61 same-session repairs (17 chunks) | `map_s096_20261009`: 460 verses, Sol running (relaunched after the disk incident; logs `work/map_s096_20261009.run*.log`) | — | — | — |
 | 103 (pages 103:2, 103:3) | `work/prod_s103` (95 verses) | `t1_s103_20261009`: done, 52 chunks, 3,674 rows, $2.34 (c32 repaired in its own session) | `map_s103_20261009`: 80 verses (`verses_now.txt`) done, all OK, $27.66; 15 verses (`verses_wait_s096.txt`) wait for S96's tier 1, then map them and run `update-all` | not yet: run after S96's tier 1 (Luna cap is shared) | — | — |
-| 87 | `work/prod_s087` (19 pages, 443 verses) | `t1_s087_20261009`: 993 chunks, **built, not started**; 5,291 of its segments sit in the S96 run, so start it when S96's tier 1 is done | — | — | — | — |
+| 87 | `work/prod_s087` (19 pages, 443 verses) | `t1_s087_20261009`: 993 chunks, **running** (relaunched after the disk incident; logs `work/t1_s087.run*.log`) | — | — | — | — |
 
 The S96 tier-1 run also holds the 103:1 completion (103:3, the short editions now kept, the 37 excerpt-only
 segments); after its maps stage, `map.py update-all` brings the 103:1 page's maps up to date. The 103:1 page itself is

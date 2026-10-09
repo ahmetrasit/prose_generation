@@ -1,0 +1,16 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c499",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:38:08",
+  "ended": "2026-10-09T06:38:15",
+  "returncode": 1,
+  "turn_completed": false,
+  "thread_id": null,
+  "commands": 0,
+  "usage": {},
+  "stderr": "WARNING: proceeding, even though we could not create PATH aliases: No space left on device (os error 28) at path \"/Users/ahmetrasit/.codex/tmp/arg0/codex-arg01weyqu\"\n2026-10-09T10:38:11.009885Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:38:12.991560Z ERROR codex_models_manager::manager: failed to refresh available models: exceeded retry limit, last status: 429 Too Many Requests, request id: req_9f50cf3e8e3d4b73bc3617ce1694ff00\n2026-10-09T10:38:14.372992Z ERROR codex_models_manager::manager: failed to refresh available models: exceeded retry limit, last status: 429 Too Many Requests, request id: req_cfb48815a40040de8434698e0a36fee1\n2026-10-09T10:38:14.504482Z ERROR codex_core::session::session: failed to initialize thread persistence: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203d-ea34-7a71-9bde-f5ae1aff24cc.lock: No space left on device (os error 28)\n2026-10-09T10:38:14.505179Z ERROR codex_core::session: Failed to create session: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203d-ea34-7a71-9bde-f5ae1aff24cc.lock: No space left on device (os error 28)\nError: thread/start: thread/start failed: error creating thread: Fatal error: Failed to initialize session: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203d-ea34-7a71-9bde-f5ae1aff24cc.lock: No space left on device (os error 28) (code -32603)\n",
+  "prompt_sha256": "9d13ce2f6c678335e5451bde22da5b4350e362c1b95556f0f696e4fec6c6c879",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates."
+}

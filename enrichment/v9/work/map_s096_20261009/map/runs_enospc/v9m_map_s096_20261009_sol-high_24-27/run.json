@@ -1,0 +1,16 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_24-27",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:36:29",
+  "ended": "2026-10-09T06:36:31",
+  "returncode": 1,
+  "turn_completed": false,
+  "thread_id": null,
+  "commands": 0,
+  "usage": {},
+  "stderr": "WARNING: proceeding, even though we could not create PATH aliases: No space left on device (os error 28) at path \"/Users/ahmetrasit/.codex/tmp/arg0/codex-arg02s2ytF\"\n2026-10-09T10:36:30.838726Z ERROR codex_core::session::session: failed to initialize thread persistence: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203c-627e-7150-9512-9f2e89ac2b1e.lock: No space left on device (os error 28)\n2026-10-09T10:36:30.839366Z ERROR codex_core::session: Failed to create session: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203c-627e-7150-9512-9f2e89ac2b1e.lock: No space left on device (os error 28)\nError: thread/start: thread/start failed: error creating thread: Fatal error: Failed to initialize session: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203c-627e-7150-9512-9f2e89ac2b1e.lock: No space left on device (os error 28) (code -32603)\n",
+  "prompt_sha256": "fc43fcab2a98bb6cea58194c9da8d388cadc826b87a0aafdcbf27b1033ba7f31",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates."
+}

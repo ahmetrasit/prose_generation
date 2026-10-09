@@ -1,0 +1,16 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_80-16",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:39:06",
+  "ended": "2026-10-09T06:39:17",
+  "returncode": 1,
+  "turn_completed": false,
+  "thread_id": null,
+  "commands": 0,
+  "usage": {},
+  "stderr": "WARNING: proceeding, even though we could not create PATH aliases: No space left on device (os error 28) at path \"/Users/ahmetrasit/.codex/tmp/arg0/codex-arg07BNbrm\"\n2026-10-09T10:39:08.536090Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:39:11.989945Z ERROR codex_models_manager::manager: failed to refresh available models: exceeded retry limit, last status: 429 Too Many Requests, request id: req_21d6b10d5592479d8f7f0047714976e0\n2026-10-09T10:39:14.603062Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:39:14.707573Z ERROR codex_core::session::session: failed to initialize thread persistence: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203e-caeb-7a50-a9a5-f3606eb76f4f.lock: No space left on device (os error 28)\n2026-10-09T10:39:14.708407Z ERROR codex_core::session: Failed to create session: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203e-caeb-7a50-a9a5-f3606eb76f4f.lock: No space left on device (os error 28)\nError: thread/start: thread/start failed: error creating thread: Fatal error: Failed to initialize session: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203e-caeb-7a50-a9a5-f3606eb76f4f.lock: No space left on device (os error 28) (code -32603)\n",
+  "prompt_sha256": "b7d9b965ebdca1c02cfe70e5b070fdc76135895c27f382e82815b0339e07b6ff",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates."
+}

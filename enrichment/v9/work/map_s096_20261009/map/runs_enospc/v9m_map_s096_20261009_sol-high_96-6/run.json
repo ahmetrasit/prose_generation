@@ -1,0 +1,16 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_96-6",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:39:51",
+  "ended": "2026-10-09T06:40:00",
+  "returncode": 1,
+  "turn_completed": false,
+  "thread_id": null,
+  "commands": 0,
+  "usage": {},
+  "stderr": "WARNING: proceeding, even though we could not create PATH aliases: No space left on device (os error 28) at path \"/Users/ahmetrasit/.codex/tmp/arg0/codex-arg0d889Vf\"\n2026-10-09T10:39:55.360558Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:39:57.817583Z ERROR codex_models_manager::manager: failed to refresh available models: exceeded retry limit, last status: 429 Too Many Requests, request id: req_d034ce3133434269813e606af589a69a\n2026-10-09T10:39:57.897068Z ERROR codex_core::session::session: failed to initialize thread persistence: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203f-81d5-78d3-8bcf-4954d32394a5.lock: No space left on device (os error 28)\n2026-10-09T10:39:57.897680Z ERROR codex_core::session: Failed to create session: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203f-81d5-78d3-8bcf-4954d32394a5.lock: No space left on device (os error 28)\n2026-10-09T10:39:58.928814Z ERROR codex_models_manager::manager: failed to refresh available models: exceeded retry limit, last status: 429 Too Many Requests, request id: req_50641ce3428f4a1e8d3f4325004054c0\nError: thread/start: thread/start failed: error creating thread: Fatal error: Failed to initialize session: thread-store internal error: failed to open thread writer lock /Users/ahmetrasit/.codex/thread-writer-locks/01a1203f-81d5-78d3-8bcf-4954d32394a5.lock: No space left on device (os error 28) (code -32603)\n",
+  "prompt_sha256": "bf07287cb9f98dc55677ec26657dae77aead726fabf5df5f68d70ad390e5b6e0",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates."
+}
