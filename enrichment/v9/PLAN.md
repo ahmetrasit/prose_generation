@@ -15,6 +15,9 @@ and the v8 sift. Keeps v7 tier 1 (`digest.py`) and the tier-2 work as inputs. De
   notes, $3.53 Luna) and map updates for 35 verses (2,327 new notes → 323 additions, 46 new positions, 161 new
   questions; all checks OK; $5.13 Sol). Bint al-Shāṭiʾ's *al-Iʿjāz* now sits in 103:1/q02/p1. Meals: meal step;
   lexica: not used; surah-level segments: surah pages.
+- **Volume is not a concern (2026-10-09):** blocks render as expand/collapse elements, so the reader shows or hides
+  any detail; completeness wins over brevity. Ids never appear in reader text; uncited page verses a paragraph
+  discusses get ledger lines like cited pairs.
 - **When the tradition agrees with the page** (a consensus the page simply follows): a short block naming the
   classical witnesses (2026-10-08).
 - **Sūra-wide questions** (place, count and order of revelation, reports on reciting the sūra): both on the ayah

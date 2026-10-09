@@ -41,7 +41,8 @@ Everything you attribute comes from the maps and notes. Your own knowledge helps
 4. **Closing group** (`kind: closing`, placed after ¶{LASTP}): every question of {AYAH} that no paragraph raises, one compact clause each, including questions about the whole sūra (place, order and count of revelation, reports about reciting it). Each closing block may group several questions.
 5. **Required voices:** al-Biqāʿī and Bint al-Shāṭiʾ. When a question you use holds a position of theirs, cite it, or say in the block's `voices` field why not.
 6. **Connections are your main contribution:** when the sources themselves link a cited verse to {AYAH} (a shared root, a cited parallel, the same report), say so in one clause.
-7. **Turkish**, plain and exact. Authors and works in Turkish usage (Taberî, Bikāî, Bintü'ş-Şâti, *Câmiu'l-beyân*). No filler, no bullet lists, no restating the paragraph, no closing disclaimers.
+7. **No ids in the text.** Question, position and note ids go only in the `questions`, `positions` and `notes` fields; the text the reader sees never contains them.
+8. **Turkish**, plain and exact. Authors and works in Turkish usage (Taberî, Bikāî, Bintü'ş-Şâti, *Câmiu'l-beyân*). No filler, no bullet lists, no restating the paragraph, no closing disclaimers.
 
 ## OUTPUT
 `enrichment/v9/work/{RUN}/write/out/{TAG}/blocks.jsonl`, one block per line:
@@ -53,6 +54,8 @@ Everything you attribute comes from the maps and notes. Your own knowledge helps
 {"p":<paragraph>,"verse":"<S:A>","says":"the paragraph's commitment, in its own words","status":"written","blocks":["b01"],"questions":["<question id>"]}
 {"p":<paragraph>,"verse":"<S:A>","status":"page_own","reason":"one line"}
 ```
+Also add one ledger line for every other page verse a paragraph clearly discusses without citing it (for example, a paragraph that goes on interpreting a verse the previous paragraph quoted); treat it like a cited pair.
+
 Statuses: `written` (a block here), `same_as` (the commitment is answered by an earlier block; name it), `agreed` (an agreement block), `tradition_silent` (you searched and the tradition does not make this point; say what you searched), `page_own` (the page's own dictionary sense or association; nothing to map), `retelling` (the paragraph only retells the verse).
 
 ## FINAL PASS (after the check prints OK)

@@ -37,6 +37,7 @@ BRIEF = V9 / 'briefs/write.md'
 KINDS = ('focus', 'cited', 'agreement', 'closing')
 STATUSES = ('written', 'same_as', 'agreed', 'tradition_silent', 'page_own', 'retelling')
 VOICES = ('BIQAI', 'BIQAI-FULL', 'BINTSHATI', 'BINTSHATI-IJAZ', 'BINTSHATI-INSAN')
+IDS = re.compile(r'\d+:\d+/q\d+(?:/p\d+)?')
 ARABIC_RUN = re.compile(r'[؀-ۿ][؀-ۿً-ْٰ\s]*[؀-ۿ]')
 
 
@@ -149,6 +150,8 @@ def check(a):
         for x in b.get('notes') or []:
             if x not in rows:
                 problems.append(f'block {bid}: note {x} is not a note of this page\'s verses')
+        if IDS.search(b.get('text', '')):
+            problems.append(f"block {bid}: ids in the text ({', '.join(sorted(set(IDS.findall(b['text']))))}); ids go only in the id fields")
         cited = set(b.get('notes') or [])
         for x in b.get('positions') or []:
             if x in pids:
@@ -171,8 +174,11 @@ def check(a):
     for r in ledger:
         pair = (r.get('p'), r.get('verse'))
         if pair not in want:
-            problems.append(f'ledger: (¶{pair[0]}, {pair[1]}) is not a pair of this page')
-            continue
+            if pair[0] in man['paragraphs'] and pair[1] in man['verses']:
+                want.add(pair)          # an uncited page verse the paragraph discusses
+            else:
+                problems.append(f'ledger: (¶{pair[0]}, {pair[1]}) is not a paragraph and verse of this page')
+                continue
         seen[pair] += 1
         st = r.get('status')
         if st not in STATUSES:

@@ -20,7 +20,8 @@ To see a question's positions in full, run `python3 -B enrichment/v9/q.py questi
 4. **Losses, typed, judged against the dictionary first:** when a meal's word is a gloss the dictionary profiles, name its profile and what it loses or adds, as the dictionary says. Then the remaining types: wrong word (a different concept), dropped element (a suffix, particle or pronoun the Arabic has), collapsed range (a word with several senses narrowed to one without a mark), unmarked addition (words added without brackets), Turkish drift (a Turkish word whose present meaning differs from what the translator meant), marking change, relay drift (a relay meal departing from its source). Say which meals have each loss, and which losses the meals share.
 5. **Placement:** after the paragraph where the page renders the verse or discusses its translation. Use the paragraph number.
 6. **Length is a ceiling:** about 150 words per block. Turkish, plain and exact; meal names in Turkish usage (Diyanet, Elmalılı, Esed …). Arabic only where the exact word matters.
-7. **Evidence:** every rendering you quote is copied from the translations file; every position you name is in the verse map. Your own knowledge helps you judge Turkish and Arabic; it never supplies a translator's wording.
+7. **No ids in the text.** Position ids go only in the `positions` field; the text the reader sees never contains them.
+8. **Evidence:** every rendering you quote is copied from the translations file; every position you name is in the verse map. Your own knowledge helps you judge Turkish and Arabic; it never supplies a translator's wording.
 
 ## OUTPUT (one write)
 `enrichment/v9/work/{RUN}/meal/out/{TAG}/blocks.jsonl`, one block per line:

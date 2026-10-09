@@ -12,6 +12,7 @@ Files: enrichment/v9/work/RUN/meal/inputs/{page,dict,meals,map}.pK.txt, spawn/, 
 """
 import argparse
 import json
+import re
 import sqlite3
 import subprocess
 import sys
@@ -148,6 +149,8 @@ def check(a):
         n += 1
         if b.get('p') not in man['paragraphs']:
             problems.append(f"line {i}: paragraph {b.get('p')} is not a paragraph of the page")
+        if re.search(r'\d+:\d+/q\d+', b.get('text') or ''):
+            problems.append(f'line {i}: ids in the text; ids go only in the "positions" field')
         if not (b.get('text') or '').strip():
             problems.append(f'line {i}: empty text')
         for m in b.get('meals') or []:
