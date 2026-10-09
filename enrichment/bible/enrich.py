@@ -558,10 +558,14 @@ def build_prompt(s,target,d,roots=None):
     return '\n\n'.join(parts)
 
 
-def spawn_target(s,target,attempt=1):
+def spawn_target(s,target,attempt=1,revise=False):
+    """revise: a new attempt (>1) on an ACCEPTED page, finished with --trial and compared; `supersede` then archives
+    the accepted page and accepts the revision (user, 2026-10-09: re-author S103 after the relevance rule)."""
     d=call_dir(s,target,attempt)
-    if blocked(d) or accepted(s,target):
-        raise ValueError(f'{target}: already started or accepted; never rerun')
+    if blocked(d) or (accepted(s,target) and not revise):
+        raise ValueError(f'{target}: already started or accepted; never rerun (a revision: --revise --attempt N)')
+    if revise and attempt<2:
+        raise ValueError('--revise needs --attempt 2 or more (attempt 1 is the accepted call)')
     inputs=bible_inputs(s,target)
     from enrichment.bible import hebrew
     if not hebrew.INDEX.exists(): raise ValueError('build the Hebrew root index first: hebrew.py build')
@@ -574,6 +578,27 @@ def spawn_target(s,target,attempt=1):
              bible_inputs=inputs,estimate=estimate(s,target,'opus',EFFORT),semitic_roots=roots)
     AR.prepare(d,prompt,row,'enrich','annotations.jsonl',lookup=False)
     return {'status':'prepared','surah':s,'target':target,'dir':rel(d),'spawn':rel(d/'spawn.md')}
+
+
+def supersede_target(s,target,d):
+    """Accept a revision that finished ok with --trial: the accepted page's files move to
+    out/sNNN/superseded/<stem>.<date>/ (kept, listed in the run log), then the revision is finished for real."""
+    log=d/'run.log.json'
+    if not log.exists(): raise ValueError(f'{d}: not finished; finish it with --trial first')
+    row=json.loads(log.read_text())
+    if row.get('status')!='ok' or 'trial' not in str(row.get('check','')):
+        raise ValueError(f'{d}: only a revision finished ok with --trial can supersede (status {row.get("status")}, check {row.get("check")})')
+    out=OUT/f's{s:03d}'; stem=page_name(s,target)[:-3]           # e.g. 103_1.ehlikitap
+    old=sorted(out.glob(stem+'.*'))
+    if not old: raise ValueError(f'no accepted page {stem} to supersede')
+    arch=out/'superseded'/f'{stem}.{time.strftime("%Y%m%d-%H%M%S")}'
+    arch.mkdir(parents=True)
+    for f in old: f.rename(arch/f.name)
+    kept=d/'run.log.trial.json'
+    with kept.open('xb') as f: f.write(log.read_bytes())
+    log.unlink()
+    print(f'NOTE: {target}: {len(old)} accepted file(s) moved to {rel(arch)}')
+    return finish_target(s,target,d,False,reaudit_of=kept.name)
 
 
 def reaudit_target(s,target,d,trial=False):
@@ -620,11 +645,12 @@ def finish_target(s,target,d,trial=False,reaudit_of=None):
 
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('cmd',choices=('status','build','spawn','finish','reaudit','merge'))
+    ap.add_argument('cmd',choices=('status','build','spawn','finish','reaudit','supersede','merge'))
     ap.add_argument('--surah',type=int,required=True)
     ap.add_argument('--target',help='surah, S:A, ayat or all')
     ap.add_argument('--attempt',type=int,default=1)
     ap.add_argument('--trial',action='store_true',help='finish in the call directory only')
+    ap.add_argument('--revise',action='store_true',help='spawn a new attempt on an accepted page (then finish --trial, compare, supersede)')
     a=ap.parse_args()
     if a.cmd=='status':
         for d in sorted(wd(a.surah).glob('ehlikitap*')):
@@ -646,7 +672,10 @@ def main():
                 except (OSError,ValueError,KeyError) as exc: issue=str(exc)
                 print(json.dumps(dict(target=target,prompt_chars=len(prompt),estimate=estimate(a.surah,target,'opus',EFFORT),
                                       ready=issue is None,preflight=issue,call_dir=rel(d)),ensure_ascii=False))
-            elif a.cmd=='spawn': print(json.dumps(spawn_target(a.surah,target,a.attempt),ensure_ascii=False))
+            elif a.cmd=='spawn': print(json.dumps(spawn_target(a.surah,target,a.attempt,a.revise),ensure_ascii=False))
+            elif a.cmd=='supersede':
+                result=supersede_target(a.surah,target,d)
+                print(json.dumps(result,ensure_ascii=False)); failed+=result['status']!='ok'
             elif a.cmd in ('finish','reaudit'):
                 result=(finish_target if a.cmd=='finish' else reaudit_target)(a.surah,target,d,a.trial)
                 print(json.dumps(result,ensure_ascii=False)); failed+=result['status']!='ok'
