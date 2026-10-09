@@ -38,6 +38,22 @@ MODELS = {'luna': 'gpt-6-luna', 'terra': 'gpt-5.6-terra', 'sol': 'gpt-6-sol'}
 QTEXT = ROOT.parent / 'quran-data' / 'data' / 'text' / 'quran-uthmani.tsv'
 INDEX = HERE / 'corpus' / 'corpus.sqlite'
 OSIS = re.compile(r'^([1-4]?[A-Z][A-Za-z]{1,6})\.(\d+)\.(\d+)$')
+LOOSE = re.compile(r'^([1-4]?\s*[A-Za-z][A-Za-z ]*?)\s*[.\s]\s*(\d+)\s*[.:]\s*(\d+)$')
+BOOK_CODES = None
+
+
+def osis(ref: str) -> str | None:
+    """The OSIS form of a reference written with an OSIS code or a full English book name (Hebrews.10.24,
+    1 Peter 1:22, Song of Solomon 2:1), or None. Names resolve only through the edition's book-name table."""
+    global BOOK_CODES
+    if BOOK_CODES is None:
+        from enrichment.bible.discovery import BOOK_CODES as B
+        BOOK_CODES = dict(B, songofsolomon='Song', songofsongs='Song', psalm='Ps', canticles='Song')
+    m = LOOSE.match(ref.strip())
+    if not m:
+        return None
+    code = BOOK_CODES.get(re.sub(r'\s+', '', m[1]).casefold())
+    return f'{code}.{int(m[2])}.{int(m[3])}' if code else None
 STRENGTH = ('strong', 'medium', 'weak')
 RELATION = ('similar', 'opposite')
 FOLLOWUP = ('Review your recall once more for verses that qualify under the same rules and are not in your list yet: '
@@ -76,9 +92,10 @@ def parse(text: str) -> tuple[list[dict], list[str]]:
             continue
         st, rel, ref, ex = f
         st, rel = st.lower(), rel.lower()
-        if st not in STRENGTH or rel not in RELATION or not OSIS.match(ref):
+        if st not in STRENGTH or rel not in RELATION or not osis(ref):
             bad.append(f'bad strength/relation/ref: {line[:120]}')
             continue
+        ref = osis(ref)
         rows.append(dict(strength=st, relation=rel, ref=ref, explanation=ex))
     return rows, bad
 
@@ -142,7 +159,22 @@ def texts(db, ref: str) -> dict:
     return out
 
 
+def reparse(f: Path) -> None:
+    """Rebuild a reader's rows from its saved replies (after a parser change); cost and tool counts are kept."""
+    r = json.loads(f.read_text())
+    r1, b1 = parse((f.parent / 'turn1.last.txt').read_text())
+    r2, b2 = parse((f.parent / 'turn2.last.txt').read_text())
+    for x in r1:
+        x['turn'] = 1
+    for x in r2:
+        x['turn'] = 2
+    r['rows'], r['malformed'] = r1 + r2, b1 + b2
+    f.write_text(json.dumps(r, ensure_ascii=False, indent=1) + '\n')
+
+
 def cmd_merge(a):
+    for f in run_dir(a.surah, a.tag).glob('*/*/rows.json'):
+        reparse(f)
     db = sqlite3.connect(INDEX)
     for ad in sorted(p for p in run_dir(a.surah, a.tag).iterdir() if p.is_dir()):
         readers = sorted(ad.glob('*/rows.json'))
