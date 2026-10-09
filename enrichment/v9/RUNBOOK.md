@@ -104,8 +104,9 @@ is never built on a fraction of its notes. Notes of other verses that arrive lat
 
 **Disk space (2026-10-09 incident).** Codex writes every session to `~/.codex/sessions` on the system disk; on
 2026-10-09 the disk filled and 1,089 agents failed at start (`No space left on device`, 0 commands, $0). Before a big
-run check `df -h /` (keep > 3 GB free). The user allowed deleting `~/.codex/sessions`; keep files younger than 90
-minutes (running agents' costs are read from them when they finish). A cleanup loop does this every 15 minutes
+run check `df -h /` (keep > 3 GB free). The user allowed deleting `~/.codex/sessions`; delete only files not modified
+for 10 minutes (a running agent keeps writing its file; a finished one's cost is already in its run.json). A cleanup
+loop does this every 5 minutes
 (pid in `work/session_cleanup.pid`). Agents that failed at start are moved to `<runs>_enospc/` (evidence kept) and
 the same spawn files are run again; never move an agent that ran commands.
 
