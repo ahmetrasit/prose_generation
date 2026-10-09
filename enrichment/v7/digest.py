@@ -164,6 +164,23 @@ def excerpts():
     return _EXCERPTS
 
 
+_UNFINISHED = set()
+
+
+def unfinished(f):
+    """True when the chunk output f (work/RUN/out/TAG/cNN.jsonl) belongs to an agent that started under codex_run and
+    has no run.json yet: its file may be partial, so it is not read (printed once per file). Runs without a runs/
+    entry for the chunk (native sessions) count as finished."""
+    run, tag = f.parts[-4], f.parts[-2]
+    d = f.parents[2] / 'runs' / f'v7d_{run}_{tag}_{f.stem}'
+    if d.is_dir() and not (d / 'run.json').exists():
+        if f not in _UNFINISHED:
+            _UNFINISHED.add(f)
+            print(f'NOTE {f.relative_to(V7)}: its agent has not finished; not read (its notes arrive in a later update)')
+        return True
+    return False
+
+
 def row_tags():
     """Tags from every retag run: row id -> (words, type)."""
     out = {}
@@ -449,7 +466,7 @@ def build(a):
         done = {}
         for tag in a.skip_done:
             for f in sorted((V7 / 'work').glob(f'*/out/{tag}/c*.jsonl')):
-                if f.parts[-4] in getattr(a, 'skip_done_exclude_run', []):
+                if f.parts[-4] in getattr(a, 'skip_done_exclude_run', []) or unfinished(f):
                     continue
                 try:
                     lines = f.read_text().splitlines()

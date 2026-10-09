@@ -97,6 +97,16 @@ runs; run all their spawn files through one `codex_run.py` call (one Luna cap). 
 1 is checked; a verse planned in another surah's map run is `SKIPPED` and that surah's pages wait for it
 (`writer.py build` refuses until every cited verse has a map).
 
+**Tier 1 still running elsewhere.** Map builds read only finished chunk outputs (`NOTE … its agent has not finished;
+not read`). A verse whose segments are still queued in another surah's tier-1 run (check the run manifest's chunk
+`scope`) is not mapped yet: list it in `work/prod_sNNN/verses_wait_*.txt` and map it after that run finishes, so a map
+is never built on a fraction of its notes. Notes of other verses that arrive later go through `update-all`.
+
+**Repairing a Codex agent in its own session** (rule 4):
+`codex exec resume --ignore-user-config -c model_reasoning_effort="<effort>" -c web_search="disabled" -c sandbox_mode="workspace-write" --skip-git-repo-check --json -o <runs/agent>/repairN.last.txt <thread_id> - < message`
+from the repo root (the thread id is in `stream.jsonl`'s `thread.started` event; without the sandbox option the
+session is read-only). Name the exact problems and allow reading and editing only its own output file.
+
 ## When something fails
 
 | What happened | What to do |
@@ -113,7 +123,7 @@ runs; run all their spawn files through one `codex_run.py` call (one Luna cap). 
 |---|---|---|---|---|---|---|
 | 103 (page 103:1) | test (`w103_1-20261008`, `meal103_1-r2-20261009`) | done | done (`maptest-20261008`, `map-103_1-20261008`) | not yet | done; published privately (https://claude.ai/artifact/TnbnSk6SvZYrQSKWZBaDXs) | done |
 | 96 | `work/prod_s096` (19 pages, 475 verses) | `t1_s096_20261009`: 1,464 chunks, **running** (log `work/t1_s096_s103.run.log`) | — | — | — | — |
-| 103 (pages 103:2, 103:3) | `work/prod_s103` (95 verses) | `t1_s103_20261009`: 52 chunks, **running first** (same log) | — | — | — | — |
+| 103 (pages 103:2, 103:3) | `work/prod_s103` (95 verses) | `t1_s103_20261009`: done, 52 chunks, 3,674 rows, $2.34 (c32 repaired in its own session) | `map_s103_20261009`: 80 verses (`verses_now.txt`), Sol running (log `work/map_s103_20261009.run.log`); 15 verses (`verses_wait_s096.txt`) wait for S96's tier 1 | — | — | — |
 | 87 | `work/prod_s087` (19 pages, 443 verses) | `t1_s087_20261009`: 993 chunks, **built, not started**; 5,291 of its segments sit in the S96 run, so start it when S96's tier 1 is done | — | — | — | — |
 
 The S96 tier-1 run also holds the 103:1 completion (103:3, the short editions now kept, the 37 excerpt-only

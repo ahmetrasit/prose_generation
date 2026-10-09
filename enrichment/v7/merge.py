@@ -37,6 +37,30 @@ def key(ayah):
 
 
 _TAGS = None
+_FILES = {}
+
+
+def _segments(f):
+    """Parsed segment lines of one tier-1 output file, cached by size and mtime (a build reads every file once per
+    verse). Problems are printed when the file is first parsed."""
+    try:
+        st = f.stat()
+        if _FILES.get(f, (None,))[0] == (st.st_mtime_ns, st.st_size):
+            return _FILES[f][1]
+        lines = f.read_text().splitlines()
+    except FileNotFoundError:
+        print(f'WARNING {f.relative_to(V7)}: vanished while reading (a run in progress?); skipped')
+        return []
+    out = []
+    for i, line in enumerate(lines, 1):
+        if not line.strip():
+            continue
+        try:
+            out.append(json.loads(line))
+        except ValueError:
+            print(f'WARNING {f.relative_to(V7)} line {i}: not JSON (a run in progress?); skipped')
+    _FILES[f] = ((st.st_mtime_ns, st.st_size), out)
+    return out
 
 
 def tier1_rows(d, tags, ayah, quiet=False):
@@ -53,19 +77,9 @@ def tier1_rows(d, tags, ayah, quiet=False):
         seg_src, out, seen = {}, [], set()
         for tag in tags:
             for f in sorted((V7 / 'work').glob(f'*/out/{tag}/c*.jsonl')):  # tier 1 of every run: one database
-                try:
-                    lines = f.read_text().splitlines()
-                except FileNotFoundError:
-                    print(f'WARNING {f.relative_to(V7)}: vanished while reading (a run in progress?); skipped')
+                if digest.unfinished(f):
                     continue
-                for i, line in enumerate(lines, 1):
-                    if not line.strip():
-                        continue
-                    try:
-                        x = json.loads(line)
-                    except ValueError:
-                        print(f'WARNING {f.relative_to(V7)} line {i}: not JSON (a run in progress?); skipped')
-                        continue
+                for x in _segments(f):
                     cut = x['loc'] in digest.excerpts().get(f.parts[-4], set())
                     whole_again = not cut and any(x['loc'] in v for v in digest.excerpts().values())
                     if (x['loc'], cut) in seen:
