@@ -100,7 +100,7 @@ def build(a):
         if man.parents[1].name != a.run:
             for x in json.loads(man.read_text())['ayat']:
                 planned.setdefault(x['ayah'], man.parents[1].name)
-    for ayah in a.ayat:
+    for ayah in dict.fromkeys(a.ayat):
         if a.supersede and planned.get(ayah) == a.supersede and not Q.located(ayah):
             print(f'NOTE {ayah}: rebuilt here; its map in {a.supersede} failed its check and its agent can no longer be '
                   'repaired (recorded in both manifests)')
@@ -171,16 +171,38 @@ def read_lines(f):
         if not line.strip():
             continue
         try:
-            out.append((i, json.loads(line)))
+            x = json.loads(line)
         except ValueError as e:
             problems.append(f'{f.name} line {i}: not JSON ({e})')
+            continue
+        if not isinstance(x, dict):
+            problems.append(f'{f.name} line {i}: not a JSON object')
+            continue
+        out.append((i, x))
     return problems, out
+
+
+def position_problems(p, where):
+    """Shape of one position: an object with position text and list fields of note ids."""
+    if not isinstance(p, dict):
+        return [f'{where}: a position must be an object']
+    out = [] if isinstance(p.get('position'), str) and p['position'].strip() else [f'{where}: missing "position" text']
+    for y in ('rows', 'prefer', 'against'):
+        v = p.get(y)
+        if v is not None and not (isinstance(v, list) and all(isinstance(r, str) for r in v)):
+            out.append(f'{where}: "{y}" must be a list of note ids')
+    if p.get('reasons') is not None and not isinstance(p['reasons'], str):
+        out.append(f'{where}: "reasons" must be text')
+    return out
 
 
 def question_ok(q, where, ayah):
     if not q.get('question') or not q.get('positions'):
         return [f'{where}: missing question or positions']
-    return [f'{where}: {x}' for x in digest.tag_problems({'words': q.get('words'), 'type': q.get('type'), 'verses': [ayah]})]
+    if not isinstance(q['positions'], list):
+        return [f'{where}: "positions" must be a list']
+    out = [x for n, p in enumerate(q['positions'], 1) for x in position_problems(p, f'{where} position {n}')]
+    return out + [f'{where}: {x}' for x in digest.tag_problems({'words': q.get('words'), 'type': q.get('type'), 'verses': [ayah]})]
 
 
 def combined(m, tag, ayah, updates=()):
@@ -223,8 +245,8 @@ def combined(m, tag, ayah, updates=()):
                 q = byq.get(x['question'])
                 if q is None:
                     problems.append(f"{where}: question {x['question']} does not exist")
-                elif not x.get('position'):
-                    problems.append(f'{where}: missing "position"')
+                elif position_problems(x, where):
+                    problems += position_problems(x, where)
                 else:
                     q['positions'].append({y: x.get(y) for y in ('position', 'reasons', 'rows', 'prefer', 'against')})
                     number(qs, ayah)
@@ -232,6 +254,13 @@ def combined(m, tag, ayah, updates=()):
                 p = byp.get(x['position'])
                 if p is None:
                     problems.append(f"{where}: position {x['position']} does not exist")
+                    continue
+                bad = [y for y in ('rows', 'prefer', 'against') if x.get(y) is not None
+                       and not (isinstance(x[y], list) and all(isinstance(r, str) for r in x[y]))]
+                if x.get('reasons_add') is not None and not isinstance(x['reasons_add'], str):
+                    bad.append('reasons_add (text)')
+                if bad:
+                    problems.append(f"{where}: {', '.join(bad)} must be lists of note ids / text")
                     continue
                 for y in ('rows', 'prefer', 'against'):
                     p[y] = list(dict.fromkeys((p.get(y) or []) + (x.get(y) or [])))
@@ -279,17 +308,18 @@ def render(ayah, qs, known):
             out.append(f"turns on: {q['turns_on']}")
         for p in q['positions']:
             pro = set(p.get('prefer') or [])
-            who = holders([r for r in p['rows'] if r not in pro]) + holders(sorted(pro), '+') + holders(p.get('against') or [], '-')
+            who = holders([r for r in p.get('rows') or [] if r not in pro]) + holders(sorted(pro), '+') + holders(p.get('against') or [], '-')
             out.append(f"- {p['id']} {p['position']}" + (f" — {p['reasons']}" if p.get('reasons') else '')
-                       + f" [{len(p['rows'])} notes: {'; '.join(who)}]")
+                       + f" [{len(p.get('rows') or [])} notes: {'; '.join(who)}]")
     return '\n'.join(out) + '\n'
 
 
 def assemble(m, tag, ayah, qs):
     k = key(ayah)
-    (m / 'out' / tag / f'{k}.jsonl').write_text(''.join(json.dumps(q, ensure_ascii=False) + '\n' for q in qs))
     known = json.loads((m / 'rows' / f'{k}.json').read_text())
     (m / 'out' / tag / f'{k}.md').write_text(render(ayah, qs, known))
+    # the .jsonl is what q.located() finds, so it is written last: a failure above leaves the verse unmapped
+    (m / 'out' / tag / f'{k}.jsonl').write_text(''.join(json.dumps(q, ensure_ascii=False) + '\n' for q in qs))
 
 
 def map_text(qs):
@@ -311,6 +341,10 @@ def update(a):
     model, effort = a.model.split(':')
     tag = digest.tag_of(model, effort)
     built = 0
+    others = sorted({u['tag'] for p in man['ayat'] for u in p.get('updates', []) if u['tag'] != tag})
+    if others:
+        print(f'WARNING {a.run}: updates exist for other model tags ({", ".join(others)}); notes already placed by them '
+              f'are not offered to {tag}')
     for p in man['ayat']:
         ayah, k = p['ayah'], key(p['ayah'])
         if p.get('superseded_by') or (a.ayat and ayah not in a.ayat):
@@ -331,8 +365,11 @@ def update(a):
             print(f'WARNING {ayah}: the current {tag} map has {len(problems)} problem(s); no update built (run check)')
             continue
         n = len(ups) + 1
+        f = m / 'spawn' / f'{tag}_{k}.u{n}.md'
+        if f.exists():
+            raise SystemExit(f'{f} exists')
+        verse = verse_text(ayah)          # may fail: before anything is written for this verse
         old.update({r['id']: {x: r.get(x) for x in ROW_FIELDS} for r in new})
-        dump(m / 'rows' / f'{k}.json', old)
         order = sorted(new, key=lambda r: (r['death'] if isinstance(r['death'], int) else 9999, r['src'], r['id']))
         text = ('## THE CURRENT MAP\n' + map_text(qs) + '\n## THE NEW NOTES\n'
                 + '\n'.join(merge.row_line(r) for r in order) + '\n')
@@ -342,17 +379,16 @@ def update(a):
             (m / 'rows' / f'{k}.u{n}.p{j}.txt').write_text(f'<<{ayah} update {n}, part {j} of 0..{len(parts) - 1}>>\n{t}{tail}\n')
         fill = {'AGENT': agent_name(a.run, tag, ayah, n), 'MODEL': model, 'EFFORT': effort, 'RUN': a.run, 'TAG': tag,
                 'AYAH': ayah, 'KEY': k, 'N': str(n), 'LAST': str(len(parts) - 1), 'NEW': str(len(new)),
-                'QUESTIONS': str(len(qs)), 'VERSE': verse_text(ayah),
+                'QUESTIONS': str(len(qs)), 'VERSE': verse,
                 'TYPES': '\n'.join(f'  - `{x}`: {v}' for x, v in digest.TYPE_GUIDE.items())}
         brief = BRIEF_UPDATE.read_text()
         for x, v in fill.items():
             brief = brief.replace('{' + x + '}', v)
-        f = m / 'spawn' / f'{tag}_{k}.u{n}.md'
-        if f.exists():
-            raise SystemExit(f'{f} exists')
         f.write_text(brief)
         ups.append({'n': n, 'tag': tag, 'model': a.model, 'ids': [r['id'] for r in new], 'chars': len(text),
                     'parts': len(parts)})
+        dump(m / 'rows' / f'{k}.json', old)   # rows, then the manifest, only once the update is fully written
+        dump(m / 'manifest.json', man)
         built += 1
         print(f'{ayah}: update {n}, {len(new)} new notes, {len(text):,} characters  spawn {f.relative_to(ROOT)}')
     dump(m / 'manifest.json', man)
