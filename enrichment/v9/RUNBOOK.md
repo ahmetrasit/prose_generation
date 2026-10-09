@@ -153,16 +153,13 @@ session is read-only). Name the exact problems and allow reading and editing onl
 | Surah | Tier 1 | Maps | Translation | Pages | Rendered |
 |---|---|---|---|---|---|
 | 103 | done (`t1_s103_20261009` $2.34; 103:1 completion in S96's run) | done: `map_s103_20261009` (80), `map_s103w_20261009` (12), 100 updates ($8.46) | `tr_s103_20261009` (131 verses, 74 chunks): partly done; its runner was stopped — run the rest | 103:1 (test), 103:2, 103:3 done | md done; HTML: `surah.py finish 103` after the translations (103:1's HTML then re-rendered with the Turkish appendix) |
-| 96 | done (`t1_s096_20261009`, $83.45 + $8.61 repairs) | done: `map_s096_20261009` (460; 4 superseded by `map_s096r_20261009`), 91 updates ($8.63); maps $162.36 | not built (`tr_s096_…`; build after S103's finishes) | 96:1–96:5 done (writers $18.14, meals $2.29); 96:6 meal, 96:7 meal done; writers 96:6, 96:7, 96:8 were running at the restart — see below | md for 96:1–96:5 |
+| 96 | done (`t1_s096_20261009`, $83.45 + $8.61 repairs) | done: `map_s096_20261009` (460; 4 superseded by `map_s096r_20261009`), 91 updates ($8.63); maps $162.36 | not built (`tr_s096_…`; build after S103's finishes) | 96:1–96:5 done (writers $18.14, meals $2.29); 96:6, 96:7 done; 96:8 writer done (check OK), its meal not run yet | md for 96:1–96:5 |
 | 87 | `t1_s087_20261009`: ~770 of 993 chunks done here; **the rest runs on the user's other computer** (see stage 1) | — | — | — | — |
 
 **Resume after the restart (in this order):**
-1. `git pull`. For S96 writers 96:6, 96:7, 96:8 run `tools/page_status.sh 96 6` (7, 8). A writer whose check is OK and
-   whose transcript completed: render (`render.py w_96_N_20261009 --meal meal_96_N_20261009`) and commit as a finished
-   page. A writer interrupted by the restart: do not resume it; rebuild that page's writer in a new run with
-   `writer.py build w_96_N_20261009b --ayah 96:N --page <plan page> --model claude-opus-5-5:high` and spawn it.
-2. Remaining S96 pages: spawn from `work/prod_s096/agents.md` (re-run `surah.py agents 96` first), **at most 3 Opus
-   agents at a time**: meal 96:8, then writer + meal for 96:9–96:19.
+1. `git pull`; `surah.py agents 96` (lists only agents not yet run).
+2. Remaining S96 agents, **at most 3 Opus agents at a time**: meal 96:8 (then render 96:8 and commit it as a page),
+   then writer + meal for 96:9–96:19. Check each with `tools/page_status.sh 96 N`, render, commit and push per page.
 3. Turkish renderings `tr_s103_20261009`: `tools/rerun_failed_start.py`, then
    `tools/run_until_done.sh 20 enrichment/v9/work/tr_s103_20261009/maptr/runs <log> enrichment/v9/work/tr_s103_20261009/maptr/spawn/luna-max_c*.md`;
    `maptr.py check/report`; then `surah.py finish 103`.
