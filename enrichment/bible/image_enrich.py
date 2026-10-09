@@ -288,6 +288,12 @@ def allowed_command(cmd, d):
         path = Path(query[2]) if Path(query[2]).is_absolute() else E.PG/query[2]
         path = path.resolve()
         return path.parent == d or path == d/'preview/surah.md'
+    # print-only sed searches of the author's own files: one or more /literal/p addresses (2026-10-09, S103)
+    # (literal text only: no regular-expression operators, so each address names an exact ID or field)
+    search = re.fullmatch(r"sed -n '(/[\w \":,\\-]+/p(?:;\s*/[\w \":,\\-]+/p)*)' ([A-Za-z0-9_./-]+)", cmd)
+    if search:
+        path = Path(search[2]) if Path(search[2]).is_absolute() else E.PG/search[2]
+        return path.resolve().parent == d or path.resolve() == d/'preview/surah.md'
     if re.search(r'[;&|<>`$\n\r]', cmd):
         return False
     try: args = shlex.split(cmd)
@@ -295,7 +301,9 @@ def allowed_command(cmd, d):
     if not args: return False
     if args[0] == 'ls':
         paths = args[2:] if len(args) > 1 and args[1] in ('-l', '-a', '-la', '-al') else args[1:]
-        return len(paths) == 1 and (Path(paths[0]) if Path(paths[0]).is_absolute() else E.PG/paths[0]).resolve() == d
+        # the call directory, its own preview directory or its own preview page (2026-10-09, S103)
+        return len(paths) == 1 and (Path(paths[0]) if Path(paths[0]).is_absolute() else E.PG/paths[0]).resolve() in (
+            d, d/'preview', d/'preview/surah.md')
     if args[0] == 'cat':
         paths = args[1:]
     elif args[:2] == ['sed', '-n'] and len(args) == 4 and re.fullmatch(r'(?:\d+,\d+p|/BC-[0-9a-f]{20}/p)', args[2]):
@@ -318,7 +326,7 @@ def allowed_command(cmd, d):
     if script.name == 'hebrew.py':
         return bool(tail) and tail[0] in ('root','cognates','word','table')
     if script.name == 'image_enrich.py':
-        return tail == ['check','--dir',str(d)]
+        return tail in (['check','--dir',str(d)], ['check','--help'], ['--help'])
     return False
 
 
@@ -330,7 +338,24 @@ def audit_turns(d, session, events, done):
             (e.get('payload',{}).get('type')=='turn_aborted' or
              (e.get('payload',{}).get('type') in ('task_complete','task_completed') and e['payload'].get('error')))]
     errors=[];proof=[]
-    if len(successful)!=1: errors.append(f'expected one successful native completion, found {len(successful)}')
+    fixed=(d/'fix.json').exists()
+    if fixed:
+        # one same-session fix turn after a finished check failed (image_enrich.py fix): the failed log, the exact
+        # message and its delivery as the second turn's user message are recorded; nothing else may differ
+        try:
+            fix=read_json(d/'fix.json')
+            if D.digest(d/'run.failed.json')!=fix.get('failed_log_sha256'):
+                raise ValueError('fix record does not match the preserved failed log')
+            if (d/'fix-message.txt').read_text()!=fix.get('message') or not fix.get('approval'):
+                raise ValueError('fix message or approval missing or changed')
+            from enrichment.bible import discovery_native as DN
+            proof=DN.followup_proof(dict(runner='codex-exec'),events,fix['message'])
+            if len(proof)!=1 or not proof[0].get('matches'):
+                raise ValueError('missing exact same-session fix delivery')
+        except (OSError,ValueError,KeyError,TypeError) as exc:
+            errors.append(str(exc))
+    if len(successful)!=(2 if fixed else 1):
+        errors.append(f'expected {2 if fixed else 1} successful native completion(s), found {len(successful)}')
     if failed:
         try:
             resumed=read_json(d/'resume.json')
@@ -348,7 +373,8 @@ def audit_turns(d, session, events, done):
                 raise ValueError('missing exact same-session resume delivery')
         except (OSError,ValueError,KeyError,TypeError) as exc:
             errors.append(str(exc))
-    return errors,dict(successful_completions=len(successful),unfinished_attempts=failed,resume_delivery=proof)
+    return errors,dict(successful_completions=len(successful),unfinished_attempts=failed,resume_delivery=proof,
+                       fix_turn=fixed)
 
 
 def operator_message(d, call):
@@ -597,6 +623,46 @@ def run_one(d):
             + ('' if result['status'] == 'ok' else '\n  WARNING ' + '\n  WARNING '.join(map(str, errs[:40]))))
 
 
+def fix(d, approval):
+    """Repair a finished, failed image once. Audit-only failures of operational commands the grammar now allows are
+    re-audited without a model call; other failures go back to the same session as one fix turn (codex exec resume)
+    naming the exact errors. The failed run log is preserved as run.failed.json; this never runs twice."""
+    from enrichment.bible import codexrun as X
+    if not approval.strip():
+        raise ValueError('record who approved this fix')
+    log = read_json(d/'run.log.json')
+    if log['status'] != 'failed':
+        raise ValueError('only a failed image can be fixed')
+    if (d/'run.failed.json').exists():
+        raise ValueError('this image was already fixed once; preserve it')
+    session = read_json(d/'session.json')
+    if session.get('runner') != 'codex-exec':
+        raise ValueError('fix turns are for codex exec sessions')
+    (d/'run.failed.json').write_bytes((d/'run.log.json').read_bytes())
+    errors = [e for e in log['audit']['errors'] + log['check']['errors']]
+    (d/'run.log.json').unlink()
+    audit_ok, _ = native_audit(d)
+    check_errors = log['check']['errors']
+    if audit_ok['ok'] and not check_errors:
+        result = finish(d, extra=dict(X.cost(Path(session['transcript'])), reaudit=dict(
+            approval=approval, failed_log='run.failed.json', previous_errors=errors,
+            reason='operational commands now in the image grammar; no model call')))
+        return result
+    msg = ('The operator finished your session and the final check failed with these errors:\n'
+           + '\n'.join(f'- {e}' for e in errors)
+           + '\nFix only these: open every evidence passage with the corpus get command before citing it, then '
+             'correct verdicts.jsonl, annotations.jsonl, gaps.json or root_verdicts.jsonl as needed, using the same '
+             'tool forms as before. Run the image_enrich.py check command until it passes, and reply briefly.')
+    (d/'fix-message.txt').write_text(msg)
+    D.save(d/'fix.json', dict(message=msg, approval=approval, failed_log_sha256=D.digest(d/'run.failed.json'),
+                              previous_errors=errors))
+    r = X.turn(d, 2, msg, MODEL, EFFORT, thread=session['agent_id'])
+    if not r['completed'] or r.get('error'):
+        raise ValueError(f"fix turn failed: {r.get('error') or r['stderr'][-300:]}")
+    return finish(d, extra=dict(X.cost(Path(session['transcript'])), fix=dict(approval=approval,
+                                failed_log='run.failed.json', previous_errors=errors)))
+
+
 def run(s, run_tag, parallel):
     import concurrent.futures
     root = run_dir(s, run_tag)
@@ -616,15 +682,21 @@ def run(s, run_tag, parallel):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('phase', choices=('prepare','check','finish','assemble','status','run'))
+    ap.add_argument('phase', choices=('prepare','check','finish','assemble','status','run','fix'))
+    ap.add_argument('--approval', help='fix: who approved this one fix (a re-audit or one same-session fix turn)')
     ap.add_argument('--parallel', type=int, default=7)
     ap.add_argument('--surah',type=int)
     ap.add_argument('--run-tag')
     ap.add_argument('--dir',type=Path)
     a = ap.parse_args()
-    if a.phase in ('check','finish'):
+    if a.phase in ('check','finish','fix'):
         if not a.dir: ap.error('--dir is required')
-        result = check(a.dir.resolve()) if a.phase=='check' else finish(a.dir.resolve())
+        if a.phase=='fix':
+            result = fix(a.dir.resolve(), a.approval or '')
+            result = dict(status=result['status'], audit_errors=result['audit']['errors'],
+                          check_errors=result['check']['errors'], usd_equivalent=result.get('usd_equivalent'))
+        else:
+            result = check(a.dir.resolve()) if a.phase=='check' else finish(a.dir.resolve())
     else:
         if not a.surah or not a.run_tag: ap.error('--surah and --run-tag are required')
         if a.phase=='prepare': result=prepare(a.surah,a.run_tag)

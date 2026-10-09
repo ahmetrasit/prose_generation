@@ -70,6 +70,14 @@ class SemiticTest(W.BibleWorkflowTest):
         self.assertFalse(I.allowed_command(f'python3 {I.E.V2}/hebrew.py build', d))
         self.assertTrue(I.allowed_command(f'python3 {I.E.V2}/hebrew.py word WLC:Gen.1.1', d))
         self.assertTrue(I.allowed_patch(f'*** Begin Patch\n*** Add File: {d}/root_verdicts.jsonl\n+x\n*** End Patch', d))
+        # operational reads added for S103: own preview listing, checker help, print-only multi-address sed
+        self.assertTrue(I.allowed_command(f'ls -l {d}/preview', d))
+        self.assertTrue(I.allowed_command(f'python3 {I.E.V2}/image_enrich.py check --help', d))
+        self.assertTrue(I.allowed_command(f"sed -n '/BC-aa/p; /S103-TEV-MTF-006/p' {d}/verdicts.jsonl", d))
+        self.assertFalse(I.allowed_command(f"sed -n '/x/w /tmp/o' {d}/verdicts.jsonl", d))
+        self.assertFalse(I.allowed_command(f"sed -n '/x/p; e rm -rf x' {d}/verdicts.jsonl", d))
+        self.assertFalse(I.allowed_command(f"sed -n '/x/p' /etc/passwd", d))
+        self.assertFalse(I.allowed_command(f'ls -l {d.parent}', d))
 
     def test_r13_ayah_pack_takes_the_frozen_reading_not_the_augment(self):
         v16 = self.root/'_commentary/v16/out'

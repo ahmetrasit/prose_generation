@@ -48,6 +48,14 @@ WEAK_ARC = {('و', 2): 'אהי', ('ي', 2): 'אהי', ('ء', 2): 'אה'}
 AR_NORM = str.maketrans({'أ': 'ء', 'إ': 'ء', 'آ': 'ء', 'ؤ': 'ء', 'ئ': 'ء', 'ا': 'ء', 'ٱ': 'ء', 'ى': 'ي', 'ة': 'ت'})
 
 
+FINAL_OF = {'כ': 'ך', 'מ': 'ם', 'נ': 'ן', 'פ': 'ף', 'צ': 'ץ'}
+
+
+def show(key: str) -> str:
+    """A root key for readers: its last letter in final form (keys are stored with final forms folded)."""
+    return key[:-1] + FINAL_OF.get(key[-1], key[-1]) if key else key
+
+
 def cons(s: str) -> str:
     """Hebrew consonants only, final forms folded."""
     return ''.join(ch for ch in (s or '') if 'א' <= ch <= 'ת').translate(FINALS)
@@ -224,7 +232,7 @@ def cmd_root(root: str, start: int) -> None:
     if not eids:
         print(f'{root}: no lexicon entry has this root or consonantal form')
         return
-    print(f"== root {key}: {len(eids)} lexicon entries")
+    print(f"== root {show(key)}: {len(eids)} lexicon entries")
     for e in eids:
         r = data()['entries'][e]
         if is_header(r):
@@ -250,7 +258,7 @@ def cmd_root(root: str, start: int) -> None:
         print(' '.join(line))
     if start + PAGE < len(occ):
         print(f'MORE: {len(occ) - start - PAGE} occurrences not shown in this call; continue with '
-              f'`hebrew.py root {key} --from {start + PAGE}`')
+              f'`hebrew.py root {show(key)} --from {start + PAGE}`')
 
 
 def ar_letters(ar: str) -> list[str]:
@@ -314,8 +322,8 @@ def cmd_cognates(ar: str, full: bool = True) -> list[str]:
     if not rows:
         out.append('  no Hebrew or Aramaic root with these corresponding consonants is in the lexicon')
     for r in rows:
-        out.append(f"* {'Aramaic' if r['lang'] == 'arc' else 'Hebrew'} {r['key']} ({r['trace']}): {r['basis']}; "
-                   f"{r['occurrences']} WLC occurrences; `hebrew.py root {r['key']}` lists them")
+        out.append(f"* {'Aramaic' if r['lang'] == 'arc' else 'Hebrew'} {show(r['key'])} ({r['trace']}): {r['basis']}; "
+                   f"{r['occurrences']} WLC occurrences; `hebrew.py root {show(r['key'])}` lists them")
         for e in r['entries']:
             x = data()['entries'][e]
             if is_header(x):
