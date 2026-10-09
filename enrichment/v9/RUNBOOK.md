@@ -153,7 +153,7 @@ compare, and `enrich.py supersede … --attempt N` (the old page moves to `out/s
 |---|---|
 | `codex_run.py` prints `started earlier without run.json` | running or died: check `ps` for its codex process; died → `tools/recover_run_json.py <runs>` records its cost; rerun with `--retry` only with the user's go |
 | a tier-1, map or translation `check` lists problems | repair through the same agent (`tools/repair_*.sh`); if its session is gone, rebuild that unit in a new run |
-| `writer.py`/`meal.py build` refuses: no map / map not current | finish stage 2 for those verses / run `map.py check RUN` |
+| `writer.py`/`meal.py build` refuses: no map / map not current | finish stage 2 for those verses / run `map.py check RUN` (after a git checkout or pull on another machine, file times can make a current map look stale: the same `map.py check RUN` fixes it) |
 | a writer's `check` fails after its run | SendMessage the exact problems to that writer |
 | a usage limit stops agents | after the reset, SendMessage each stopped agent "continue from where you left off" |
 | peak context over 120k (tier-1 report) | report; the output is valid if `check` passes |
