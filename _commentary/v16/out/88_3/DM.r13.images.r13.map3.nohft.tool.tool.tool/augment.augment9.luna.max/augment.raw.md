@@ -1,0 +1,334 @@
+=== ADD ===
+paragraph: 15
+ref: 9:121
+text: Tevbe suresinin devamında küçük büyük her harcamanın ve her vadiyi aşmanın yazıldığı, Allah’ın da onları yaptıklarının en güzeliyle ödüllendireceği söylenir {source:9:121}. Karşılığı yazılan emeğe, yol boyunca harcanan mal ve gidilen yol da katılır.
+=== ADD ===
+paragraph: 17
+ref: 35:35
+text: Bahçede yorgunluğun kalktığının söylendiği yerde, Fâtır suresinde inkâr edenlerin ateşte kalıp ölemeyecekleri ve azaplarının hafifletilmeyeceği bildirilir. Ateştekiler Allah’a seslenip çıkarılmayı ve önceden yaptıklarından başka iyi işler yapabilmeyi ister; kendilerine düşünecek kadar ömür ve uyarıcı geldiği hatırlatılır {source:35:36} {source:35:37}.
+=== REFS ===
+paragraph: 1
+text: Ayrıca: {source:88:1} <ardından yüzlerin anlatıldığı büyük haber>; {source:75:22} {source:75:23} {source:75:24} <o gün yüzlerin aydınlık ve karanlık halleri>; {source:3:106} <yüzlerin o gün ayrışan halleri>; {source:80:38} {source:80:39} {source:80:40} {source:80:41} {source:80:42} <yüzlerde beliren sevinç ve kederin, taşıdıkları halin işareti olması>.
+=== REFS ===
+paragraph: 2
+text: Ayrıca: {source:9:120} <Allah yolundaki yorgunluğun iyi iş olarak yazılması>; {source:17:18} {source:17:19} <dünya isteğiyle ahiret için harcanan çabanın ayrı sonları>; {source:20:15} <her canın çabasına göre karşılık görmesi>; {source:79:35} <insanın o gün çabasını hatırlaması>; {source:84:6} <insanın Rabbiyle buluşana dek çalışıp çabalaması>; {source:90:4} <insanın meşakkat içinde yaratılması>; {source:92:4} {source:92:5} {source:92:6} {source:92:7} {source:92:8} {source:92:9} {source:92:10} <çabaların farklı sonuçlara yönelmesi>.
+=== REFS ===
+paragraph: 3
+text: Ayrıca: {source:3:195} <çalışanın işinin boşa çıkarılmaması>; {source:9:105} <yapılan işin görülüp karşılığının bildirilmesi>; {source:28:84} <iyi ve kötü işin karşılığının ayrılması>; {source:52:16} <yapılan işin karşılık olarak verilmesi>; {source:53:39} {source:53:40} {source:53:41} <çaba, görülmesi ve karşılığının verilmesi>; {source:67:2} <en güzel işin sınandığı hayat>; {source:99:7} {source:99:8} <iyi ve kötü işin zerre kadarının görülmesi>.
+=== REFS ===
+paragraph: 4
+text: Ayrıca: {source:9:120} <yorgunluğun Allah yolunda çekilen zahmet olarak anılması>; {source:15:48} {source:35:35} <bahçede nasabın bulunmaması>; {source:18:62} <yolculukta duyulan nasab>; {source:38:41} <Eyyub’un yakındığı zahmet ve sıkıntı>.
+=== REFS ===
+paragraph: 5
+text: Ayrıca: {source:15:48} {source:35:35} <bahçede nasabın bulunmaması>; {source:38:41} <hastalık ve zahmetin birlikte anılması>; {source:80:41} <yüzü kaplayan kederin görünmesi>.
+=== REFS ===
+paragraph: 6
+text: Ayrıca: {source:88:21} {source:88:22} <yaratılmışlara bakışın ardından hatırlatma görevinin ve sınırının bildirilmesi>.
+=== REFS ===
+paragraph: 8
+text: Ayrıca: {source:36:65} {source:41:20} {source:41:21} {source:41:22} <insanın uzuvlarının yaptıklarına tanıklık etmesi>.
+=== REFS ===
+paragraph: 9
+text: Ayrıca: {source:16:7} {source:16:8} <yük taşıyan hayvanlarla yolculuk etmenin ve meşakkatinin anılması>.
+=== REFS ===
+paragraph: 10
+text: Ayrıca: {source:9:120} <yol yorgunluğunun iyi iş olarak yazılması>; {source:16:7} {source:16:8} <yük taşıyan hayvanlarla yolculuğun güçlüğü>.
+=== REFS ===
+paragraph: 11
+text: Ayrıca: {source:3:195} <çalışanın emeğinin kaybolmaması>; {source:4:32} <kişinin kazandığından kendisine düşen pay>; {source:11:15} {source:11:16} <dünya için yapılan işin karşılığı ile ahiretteki sonucu>; {source:17:18} {source:17:19} <dünya isteğiyle ahiret için harcanan çabanın karşılığı>; {source:18:30} <iyi iş yapanın ücretinin boşa çıkarılmaması>; {source:20:15} <her canın çabasına göre karşılık görmesi>; {source:23:102} {source:23:103} <işlerin tartıda ağır ya da hafif gelmesi>; {source:28:84} <iyi ve kötü işin karşılığı>; {source:29:7} <iyi işin en güzeliyle karşılık bulması>; {source:32:17} <yapılan işin karşılığı olarak saklanan nimet>; {source:35:10} <iyi işin yükseltilmesi>; {source:36:54} <yapılan işin karşılığının verilmesi>; {source:39:70} <her canın yaptığının karşılığını eksiksiz alması>; {source:40:17} {source:45:22} <her canın kazandığına göre karşılık görmesi>; {source:46:19} <herkese yaptığına göre derece verilmesi>; {source:53:39} {source:53:40} {source:53:41} <çabanın görülüp karşılığının verilmesi>; {source:67:2} <en güzel işin sınandığı hayat>; {source:76:22} <çabanın karşılık bulması>; {source:84:6} <Rabbiyle buluşana dek çalışıp çabalama>; {source:92:4} {source:92:5} {source:92:6} {source:92:7} {source:92:8} {source:92:9} {source:92:10} <farklı çabaların farklı sonlara ulaşması>; {source:99:7} {source:99:8} <zerre kadar iyi ve kötü işin görülmesi>.
+=== REFS ===
+paragraph: 12
+text: Ayrıca: {source:18:30} {source:21:94} <iyi iş yapanın çabasının kaybolmaması>; {source:53:39} {source:53:40} {source:53:41} <çabanın görülüp karşılığının verilmesi>; {source:76:22} <çabanın karşılık bulması>.
+=== REFS ===
+paragraph: 13
+text: Ayrıca: {source:2:217} {source:3:22} {source:7:147} {source:9:17} {source:9:69} {source:11:15} {source:11:16} {source:14:18} {source:17:18} {source:18:105} {source:23:102} {source:23:103} {source:24:38} {source:25:21} {source:25:24} {source:39:65} {source:39:70} {source:47:28} {source:53:31} {source:54:52} {source:54:53} {source:58:6} {source:64:7} {source:69:19} {source:69:25} {source:74:38} {source:79:35} {source:81:14} {source:82:5} {source:89:23} {source:99:6} <yapılan işlerin silinmesi, kayda geçirilmesi ve karşılığının ortaya çıkması>; {source:2:264} <gösteriş için yapılan harcamanın yağmurla silinen toprak gibi kalması>; {source:2:286} <kişinin kazandığının kendisine yazılması>; {source:24:37} {source:24:38} <Allah’ı anmayı bırakmayanların ticareti ve işlerinin karşılığı>; {source:88:25} {source:88:26} <dönüşün ardından hesabın Allah’a bırakılması>.
+=== REFS ===
+paragraph: 14
+text: Ayrıca: {source:11:16} {source:17:18} {source:32:20} {source:35:7} <işlerin akıbetinin ateş olması>; {source:55:44} <ateşle kaynar su arasında dolaşma>; {source:70:15} {source:74:10} {source:84:12} {source:92:15} {source:92:16} {source:101:11} <inkâr ve yüz çevirmenin ardından ateşin anlatılması>; {source:88:23} {source:88:24} <yüz çevirip inkâr edenin büyük azapla karşılaşması>.
+=== REFS ===
+paragraph: 15
+text: Ayrıca: {source:3:136} {source:16:96} {source:16:97} {source:17:19} {source:29:7} {source:29:69} {source:35:7} {source:39:10} {source:40:40} {source:57:10} {source:73:20} {source:84:25} {source:95:6} <iyi iş ve uğraşın karşılığının korunması>.
+=== REFS ===
+paragraph: 16
+text: Ayrıca: {source:73:20} <gece kalkışı ve Allah yolunda çalışanların çabası>.
+=== REFS ===
+paragraph: 17
+text: Ayrıca: {source:15:48} {source:25:24} {source:32:19} {source:35:32} {source:43:72} {source:46:14} {source:52:17} {source:52:18} {source:64:9} {source:84:25} {source:95:6} <bahçenin işlerin karşılığı ve azaptan esenlik yeri olması>; {source:88:8} {source:88:9} {source:88:10} {source:88:11} {source:88:12} {source:88:13} {source:88:14} {source:88:15} {source:88:16} <çabasından razı yüzün yüksek bahçedeki rahatlığı>; {source:88:12} <bahçedeki akarsu ile kaynar pınarın karşıtlığı>.
+=== VERDICTS ===
+- 3:195: cited ¶12; ref ¶3, ¶11 - çalışanın işinin boşa çıkarılmaması
+- 9:105: ref ¶3, ¶13 - işin görülüp karşılığının bildirilmesi
+- 9:120: cited ¶15; ref ¶2, ¶4, ¶5, ¶10 - Allah yolundaki yorgunluğun iyi iş yazılması
+- 11:15: ref ¶11, ¶13 - dünya için yapılan işin karşılığı
+- 11:16: ref ¶13, ¶14 - işlerin boşa çıkıp ateşle sonuçlanması
+- 14:18: ref ¶13 - işlerin rüzgârda savrulan kül gibi kalması
+- 15:48: ref ¶4, ¶5, ¶17 - bahçede nasabın bulunmaması
+- 17:18: ref ¶2, ¶11, ¶13, ¶14 - dünya isteğinin ateşle sonuçlanması
+- 17:19: ref ¶2, ¶11, ¶15 - ahiret için harcanan çabanın takdir edilmesi
+- 18:103: cited ¶13 - iş bakımından en çok kaybedenlerin sorulması
+- 18:104: cited ¶13 - boşa giden çabayı iyi iş sanma
+- 18:105: ref ¶13 - işlerin boşa çıkması ve kıyamette tartılmama
+- 20:15: ref ¶2, ¶11 - her canın çabasına göre karşılık görmesi
+- 23:102: ref ¶11, ¶13 - işlerin tartıda ağır gelmesi
+- 23:103: ref ¶11, ¶13 - işlerin tartıda hafif gelmesi ve kayıp
+- 24:39: cited ¶13; ref ¶11 - işlerin serap gibi görünüp hesapla karşılanması
+- 25:23: cited ¶13 - işlerin savrulmuş toza çevrilmesi
+- 28:84: ref ¶3, ¶11 - iyi ve kötü işin karşılığının ayrılması
+- 29:7: ref ¶11, ¶15 - iyi işin en güzeliyle karşılık bulması
+- 29:69: ref ¶15 - Allah yolunda çaba ve doğru yollara erişme
+- 32:17: ref ¶11, ¶13 - yapılan işin karşılığı olarak saklanan nimet
+- 35:10: ref ¶11 - iyi işin yükseltilmesi, kötü işin boşa çıkması
+- 35:35: cited ¶17; ref ¶4, ¶5 - bahçede nasabın bulunmaması
+- 36:54: ref ¶11 - yapılan işin karşılığının verilmesi
+- 39:65: ref ¶13 - işlerin boşa çıkması
+- 39:70: ref ¶11, ¶13 - her canın yaptığının karşılığını eksiksiz alması
+- 40:17: ref ¶11 - her canın kazandığına göre karşılık görmesi
+- 45:22: ref ¶11 - her canın kazandığına göre karşılık görmesi
+- 46:19: ref ¶11 - yapılan işlere göre derece ve karşılık verilmesi
+- 47:28: ref ¶13 - işleri boşa çıkaran tercihin açıklanması
+- 53:39: ref ¶3, ¶11, ¶12 - çabanın görülüp karşılığının verilmesi
+- 53:40: ref ¶3, ¶11, ¶12 - çabanın görülmesi
+- 53:41: ref ¶3, ¶11, ¶12 - çabanın eksiksiz karşılığının verilmesi
+- 67:2: ref ¶3, ¶11 - en güzel işin sınandığı hayat
+- 76:22: ref ¶11, ¶12, ¶15 - çabanın karşılık bulması
+- 79:35: ref ¶2, ¶13 - insanın o gün çabasını hatırlaması
+- 84:6: ref ¶2, ¶11 - insanın Rabbiyle buluşana dek çalışıp çabalaması
+- 90:4: ref ¶2 - insanın meşakkat içinde yaratılması
+- 92:4: ref ¶2, ¶15 - çabaların farklı sonuçlara yönelmesi
+- 92:5: ref ¶2, ¶15 - verenin ve sakınanın yolu
+- 92:6: ref ¶2, ¶15 - en güzeli doğrulayanın yolu
+- 92:7: ref ¶2, ¶15 - kolaylığa yöneltilen çaba
+- 92:8: ref ¶2, ¶15 - cimrilik edip kendini yeterli görenin yolu
+- 92:9: ref ¶2, ¶15 - en güzeli yalanlayanın yolu
+- 92:10: ref ¶2, ¶15 - güçlüğe yöneltilen çaba
+- 94:4: not relevant - anılmanın yükseltilmesi emek ve yorgunluğa bağlanmıyor
+- 94:7: cited ¶16; ref ¶4 - nasab kökünün bir işten sonra gelen kullanımı
+- 94:8: cited ¶16 - yalnız Rabbe yönelme
+- 99:7: ref ¶3, ¶11, ¶13 - zerre kadar iyi işin görülmesi
+- 99:8: ref ¶3, ¶11, ¶13 - zerre kadar kötü işin görülmesi
+- 103:3: not relevant - iyi işler ve sabır var, fakat yorgunluk ya da ücret bağı yok
+- 2:217: ref ¶13 - işlerin silinmesi ve ateşin sonucu
+- 2:264: ref ¶13 - gösteriş için harcamanın boşa çıkması
+- 2:286: ref ¶11 - kişinin kazandığının kendisine yazılması
+- 3:22: ref ¶13 - işlerin dünyada ve ahirette boşa çıkması
+- 3:136: ref ¶11, ¶15 - çalışanların karşılığı olarak bağışlanma ve bahçeler
+- 4:32: ref ¶11 - kazançtan kişiye düşen pay
+- 4:124: ref ¶11 - iyi işin bahçeyle karşılık bulması
+- 5:9: ref ¶11 - iyi işin bağışlanma ve büyük ücretle karşılığı
+- 7:147: ref ¶13 - ayetleri yalanlayanların işlerinin boşa çıkması
+- 9:16: not relevant - cihat ve sadakat sınanıyor, yorgunluk ya da karşılık bağı yok
+- 9:17: ref ¶13, ¶14 - işlerin boşa çıkması ve ateşte kalma
+- 9:69: ref ¶13 - geçici payın ardından işlerin boşa çıkması
+- 10:14: ref ¶3 - insanların nasıl iş yapacağının sınanması
+- 12:107: not relevant - azabın gelmesi anlatılıyor, emek ya da yorgunluk bağı yok
+- 14:51: ref ¶11, ¶13 - her canın kazandığına göre karşılık alması
+- 15:93: ref ¶13 - yapılanlardan sorguya çekilme
+- 16:25: not relevant - başkalarını saptırmanın yükü anlatılıyor, ayetin emeğiyle bağ kurmuyor
+- 16:56: not relevant - rızık payının putlara ayrılması, iş ve yorgunlukla ilgili değil
+- 16:96: ref ¶11, ¶15 - sabredenlerin ücretinin korunması
+- 16:97: ref ¶11 - iyi işin güzel hayat ve ücretle karşılığı
+- 18:30: ref ¶11, ¶12 - iyi iş yapanın ücretinin boşa çıkarılmaması
+- 18:62: cited ¶10; ref ¶4 - yolculukta duyulan nasab
+- 19:76: ref ¶11 - kalıcı iyi işlerin daha iyi karşılığı
+- 20:112: ref ¶11 - iyi iş yapanın haksızlıktan korkmaması
+- 21:47: ref ¶11, ¶13 - kıyamet terazisinin kimseye haksızlık etmemesi
+- 21:94: ref ¶11, ¶12 - iyi iş yapanın çabasının kaydedilmesi
+- 23:51: not relevant - elçilere temiz şeylerden yeme ve iyi işler yapma emri, yorgunluk bağı yok
+- 28:77: ref ¶11 - ahiret yurdunu ararken dünyadaki payı da gözetme
+- 32:19: ref ¶11, ¶17 - iyi işlerin karşılığı olarak bahçeler
+- 32:20: ref ¶14 - ateşte kalma ve ateş azabının tattırılması
+- 33:2: not relevant - vahye uyma ve işlerin bilinmesi, yorgunluk ya da ücret bağı yok
+- 33:19: ref ¶13, ¶14 - korku anındaki tavrın ardından işlerin boşa çıkması
+- 35:7: ref ¶14, ¶15 - inkâr edenlere azap, inananlara ücret
+- 37:61: ref ¶11, ¶15 - böyle bir nimet için çalışanların çalışması
+- 37:96: not relevant - insanların ve yaptıklarının yaratılması, emeğin karşılığı değil
+- 38:41: ref ¶4, ¶5 - Eyyub’un andığı zahmet ve sıkıntı
+- 39:10: ref ¶15 - sabredenlerin ücretinin hesapsız verilmesi
+- 40:40: ref ¶11, ¶15 - kötü ve iyi işin ayrı karşılıkları
+- 40:58: not relevant - görme ve körlük karşıtlığı, paragrafın yüz ve emek bağıyla örtüşmüyor
+- 41:20: ref ¶8 - işlerin kulak, göz ve derilerce tanıklanması
+- 41:46: ref ¶11 - iyi ve kötü işin kişinin kendi karşılığı olması
+- 41:50: ref ¶13 - yapılanların bildirilip azap tattırılması
+- 42:20: ref ¶11 - ahiret için ekilenin artırılması, dünya hasadının sınırlılığı
+- 42:30: not relevant - musibetlerin sebepleri anlatılıyor, emek ve yorgunluk bağı yok
+- 43:72: ref ¶11, ¶17 - yapılan işlerin karşılığı olarak bahçenin miras bırakılması
+- 44:11: not relevant - dumanın insanları kaplaması, yüzün emeğiyle bağlantı kurmuyor
+- 45:15: ref ¶11 - iyi ve kötü işin kişinin kendisine dönmesi
+- 46:14: ref ¶11, ¶17 - yapılan işlerin karşılığı olarak bahçe
+- 46:15: not relevant - anne babaya iyilik ve doğum zahmeti, ayetin emek ve yorgunluk anlamıyla bağ kurmuyor
+- 52:16: cited ¶14; ref ¶3, ¶13 - yapılan işlerin karşılık olarak verilmesi
+- 52:21: ref ¶11 - herkesin kazandığına bağlı oluşu
+- 53:31: ref ¶11, ¶13 - kötü ve iyi işlerin karşılık bulması
+- 54:52: ref ¶13 - yapılan her şeyin kayda geçirilmesi
+- 54:53: ref ¶13 - küçük büyük her şeyin yazılı olması
+- 56:24: ref ¶11 - yapılan işlerin karşılığı
+- 57:4: not relevant - Allah’ın yaptıklarını görmesi, yorgunluk ya da emeğin karşılığı bağı yok
+- 57:10: ref ¶11, ¶15 - harcama ve savaşta öne geçenlerin derecesi
+- 58:6: ref ¶13 - yapılanların sayılıp bildirilmesi
+- 64:7: ref ¶13 - dirilişten sonra yapılanların bildirilmesi
+- 64:9: ref ¶11, ¶17 - iyi işlerin bağışlanma ve bahçeyle karşılığı
+- 69:19: ref ¶13 - amel defterini sağından alanın sevinci
+- 69:25: ref ¶13 - amel defterini solundan alanın pişmanlığı
+- 70:16: not relevant - deriyi söküp alan ateş anlatılıyor, çalışma ve yorgunluk bağı yok
+- 72:23: not relevant - Allah’a ve elçisine karşı gelmenin cezası, emek bağı yok
+- 74:38: ref ¶11, ¶13 - her canın kazandığına bağlı olması
+- 80:39: ref ¶1, ¶2 - o günkü yüzün sevinçli hali
+- 81:14: ref ¶13 - her canın getirdiğini bilmesi
+- 82:5: ref ¶13 - her canın önden gönderdiğini ve geride bıraktığını bilmesi
+- 82:16: not relevant - ateştekilerin oradan uzak olmaması, iş ve yorgunluk bağı yok
+- 84:25: ref ¶11, ¶15, ¶17 - iyi işlerin kesintisiz ücretle karşılığı
+- 87:14: not relevant - arınmanın kurtuluşu, çalışma yorgunluğu bağı yok
+- 89:23: ref ¶13 - cehennemin getirildiği gün insanın hatırlaması
+- 91:9: not relevant - nefsini arındıranın kurtuluşu, emeğin yorgunluğu bağı yok
+- 92:15: ref ¶14 - ateşin en bedbaht olana ayrılması
+- 92:16: ref ¶14 - ateşle inkâr ve yüz çevirmenin bağlanması
+- 92:20: not relevant - malın Allah rızası için verilmesi, yorgunluk ve ücret bağı kurmuyor
+- 95:6: ref ¶11, ¶15, ¶17 - iman ve iyi işin kesintisiz ücreti
+- 98:7: not relevant - inanan ve iyi iş yapanların niteliği, paragrafın emek ve yorgunluk bağı yok
+- 99:6: ref ¶13 - insanların işlerini görmeleri için ayrı ayrı çıkması
+- 101:11: ref ¶14 - sonucun kızgın ateş olması
+- 55:44: ref ¶13, ¶14 - ateşle kaynar su arasında dolaşma
+- 75:24: ref ¶1 - o gün yüzün asık hali
+- 3:106: ref ¶1 - yüzlerin o gün ayrışması
+- 70:15: ref ¶14 - ateşin alev olarak anlatılması
+- 74:10: ref ¶2, ¶14 - inkârcılar için günün kolay olmaması
+- 80:41: ref ¶1, ¶2 - yüzü kaplayan keder ve karanlık
+- 84:12: ref ¶14 - ateşe girme
+- 94:3: not relevant - sırtta ağırlaşan yük anlatılıyor, paragrafın nasab ve iş bağlantısını açıklamıyor
+- 2:202: ref ¶11 - kazanılanlardan pay ve hesap
+- 3:23: not relevant - kitaptan pay verilmesi, emek ya da yorgunluk bağı yok
+- 4:7: not relevant - mirastan pay, yapılan işin karşılığı değil
+- 6:136: not relevant - ekin ve hayvanlardan Allah’a pay ayırma, emek karşılığı değil
+- 7:37: not relevant - kitaptaki payın vakti gelince alınması, ayetin emeğiyle bağı yok
+- 15:96: not relevant - Allah’a ortak koşmanın sonucu, iş ve yorgunluk bağı yok
+- 22:11: not relevant - Allah’a şartlı kulluk ve yüzüstü dönme, ayetin yorgunluk anlamıyla ilgili değil
+- 26:112: not relevant - kimin ne yaptığını bilme sorusu, emek bağı kurmuyor
+- 26:169: not relevant - yapılanlardan kurtulma duası, iş ve yorgunluk bağı yok
+- 29:58: ref ¶11, ¶17 - çalışanların ücretinin güzel olması ve bahçeye yerleştirilmeleri
+- 33:31: ref ¶11 - iyi iş yapanın ücretinin iki kat verilmesi
+- 48:11: not relevant - savaşa katılmama mazereti ve gizlenen niyet, ayetin emeğiyle bağ kurmuyor
+- 58:13: not relevant - namaz, zekât ve itaat emri, paragrafın yorgunluk ve ücret bağı yok
+- 65:7: not relevant - nafakada imkân ölçüsü, çalışma karşılığı ya da nasab değil
+- 70:4: not relevant - meleklerin yükselişi ve uzun gün, nasab ya da emekle bağ kurmuyor
+- 73:20: ref ¶15, ¶16 - gece kalkışı, yolculuk ve Allah yolunda çalışmanın birlikte anılması
+- 83:4: not relevant - diriliş inancı sorusu, emek ve yorgunluk bağı yok
+- 92:12: not relevant - doğru yolu göstermek Allah’a ait, çalışma yorgunluğu bağı yok
+- 92:13: not relevant - dünya ve ahiretin Allah’a ait olması, emeğin karşılığıyla bağ kurmuyor
+- 100:6: not relevant - insanın Rabbine karşı nankörlüğü, emek ve yorgunluk bağı yok
+- 100:11: not relevant - Rabbin yapılanlardan haberdar olması, paragrafın özel bağına ek getirmiyor
+- 102:8: not relevant - nimetlerden sorguya çekilme, iş ve yorgunluk bağı yok
+- 4:85: not relevant - şefaatin payı, çalışma ve yorgunluğun payıyla aynı anlamda değil
+- 70:43: cited ¶7 - dikili taşa koşanların o günkü sahnesi
+- 79:2: not relevant - ruhları çekip alanlar anlatılıyor, emek ve yorgunluk bağı yok
+- 80:38: ref ¶1, ¶2 - o gün yüzlerin aydınlık hali
+- 90:13: not relevant - köle azat etme, ayetin iş ve nasab bağıyla örtüşmüyor
+- 3:189: not relevant - göklerin ve yerin mülkü, emek ve yüzlerle bağ kurmuyor
+- 3:190: ref ¶12 - göklerin ve yerin yaratılışı üzerinde düşünme
+- 3:192: ref ¶12 - ateşe girmenin utanç sayılması ve ondan korunma duası
+- 3:193: ref ¶12 - iman çağrısına cevap verenlerin bağışlanma duası
+- 3:194: ref ¶12 - kıyamet günü utandırılmama ve vaadin yerine gelmesi duası
+- 3:196: ref ¶13 - inkârcıların ülkelerde dolaşmasının aldatıcı olması
+- 3:197: ref ¶13 - geçici yararın ardından cehennem
+- 5:1: not relevant - yiyecek ve sözleşmeler, ayetin dikili taş ve yorgunluk bağıyla örtüşmüyor
+- 5:2: not relevant - kutsal işaretler ve kurbanlıklar, taşın dikili olması ya da emekle bağ kurmuyor
+- 5:4: not relevant - av hayvanlarıyla yiyecek, paragrafın dikili taş ve yorgunluk bağı yok
+- 5:5: not relevant - yiyecek ve evlilik hükümleri, emek ve yorgunlukla bağ kurmuyor
+- 9:118: not relevant - geride kalan üç kişinin tövbesi, ayetin emek ve yorgunluk konusunu açıklamıyor
+- 9:119: not relevant - doğrularla beraber olma emri, yorgunluk ve ücret bağı yok
+- 9:121: context ¶15 (in 9:120) - harcamaların ve vadi geçişinin yazılıp karşılık bulması
+- 9:122: not relevant - dinde bilgi edinip uyarma görevi, zahmet ve ücret bağı yok
+- 18:58: not relevant - zalimlere tanınan mühlet ve belirlenmiş vakit, yol yorgunluğu değil
+- 18:59: not relevant - zulmeden köylerin helaki, yolculukta nasabla ilgili değil
+- 18:63: not relevant - balığın kaybolması ve denize yol bulması, yol yorgunluğunu açıklamıyor
+- 18:64: not relevant - izlerin geri takip edilmesi, nasab ya da çalışma bağı yok
+- 18:101: ref ¶13 - Allah’ın hatırlatmasına karşı gözleri örtülü ve işitmeye güç yetiremez halde olma
+- 18:102: ref ¶13 - inkârcılara cehennemin konaklık hazırlanması
+- 18:106: ref ¶13 - cehennemin inkârın karşılığı olması
+- 24:37: ref ¶13 - ticaretin Allah’ı anmaktan alıkoymaması ve hesap gününden korkma
+- 24:38: ref ¶13 - iyi işlerin karşılığının verilmesi
+- 24:40: not relevant - denizin karanlıkları benzetmesi, işlerin serap olmasıyla bağ kurmuyor
+- 24:41: not relevant - yaratılmışların tesbihi, paragrafın emek ve hesap bağı yok
+- 25:20: not relevant - elçilerin yemek yemesi ve pazarlarda yürümesi, işin karşılığıyla bağ kurmuyor
+- 25:21: ref ¶13 - Allah’la karşılaşmayı ummayanların kibirli tutumu
+- 25:22: cited ¶13 - suçlulara o gün müjde olmaması
+- 25:24: ref ¶13, ¶17 - bahçe halkının daha iyi konak ve dinlenme yeri
+- 25:25: not relevant - göğün bulutlarla yarılması, işlerin boşa çıkmasıyla bağ kurmuyor
+- 35:31: not relevant - vahyedilen kitabın doğruluğu, yorgunluk ve iş karşılığı bağı yok
+- 35:32: ref ¶17 - kitabı miras alanların kendi içindeki farklı dereceleri
+- 35:36: context ¶17 (in 35:35) - inkârcıların ateşte kalması ve azabın hafifletilmemesi
+- 35:37: context ¶17 (in 35:35) - ateştekilerin çıkarılıp iyi iş yapma isteğine verilen cevap
+- 52:12: ref ¶14 - inkârcıların oyalanıp durması
+- 52:13: cited ¶14 - ateşe doğru itilme
+- 52:15: ref ¶14 - yalanlanan ateşin gösterilmesi
+- 52:17: ref ¶14, ¶17 - sakınanların bahçelerde ve nimet içinde olması
+- 52:18: ref ¶14, ¶17 - Rablerinin verdiğiyle sevinmeleri ve ateş azabından korunmaları
+- 70:40: not relevant - doğuların ve batıların Rabbi adına yemin, insanın yorgunluğu ve yüzüyle bağ kurmuyor
+- 70:41: not relevant - insanların daha iyileriyle değiştirilmesi, dikili taşa koşma sahnesini açıklamıyor
+- 74:15: cited ¶2 - mal ve oğullardan sonra daha fazlasını umma
+- 74:16: cited ¶2 - ayetlere karşı direnme
+- 74:18: not relevant - düşünme ve ölçüp biçme, yorgunluk ve emeğin karşılığıyla bağ kurmuyor
+- 74:19: not relevant - ölçüp biçmenin kınanması, paragrafın nasab anlamını açıklamıyor
+- 94:5: cited ¶16 - güçlükle birlikte kolaylığın tekrarı
+
+- 39:39 own: not relevant - işleme çağrısı ve sonucun bilineceği uyarısı, yorgunluk ya da ücret bağına ek getirmiyor
+- 88:1 own: ref ¶1 - yüzlerin anlatıldığı günün büyük haberi
+- 88:2 own: cited ¶1 - o gün eğik ve ezik yüzler
+- 88:4 own: cited ¶14 - ateşe giren yüz
+- 88:5 own: cited ¶7, ¶13 - kaynar pınardan içme
+- 88:6 own: cited ¶1 - yüzlerden insanlara geçiş
+- 88:7 own: cited ¶10, ¶13 - açlığı gidermeyen yiyecek
+- 88:8 own: ref ¶1, ¶2, ¶17 - yüzlerin aydınlık ve sevinçli hali
+- 88:9 own: cited ¶2; ref ¶17 - çabasından razı yüz
+- 88:10 own: ref ¶17 - yüksek bahçe
+- 88:11 own: ref ¶17 - bahçede boş söz işitilmemesi
+- 88:12 own: ref ¶13, ¶17 - bahçedeki akarsu
+- 88:13 own: ref ¶17 - yükseltilmiş sedirler
+- 88:14 own: ref ¶17 - hazır kadehler
+- 88:15 own: ref ¶17 - sıralanmış yastıklar
+- 88:16 own: ref ¶17 - serilmiş halılar
+- 88:17 own: cited ¶6, ¶10 - deveye bakış ve yolculuk sahnesi
+- 88:18 own: cited ¶6 - göğe bakış
+- 88:19 own: cited ¶6 - dağların nasıl dikildiğine bakış
+- 88:20 own: cited ¶6 - yere bakış
+- 88:21 own: ref ¶6 - hatırlatma görevi
+- 88:22 own: ref ¶6 - Peygamber’in insanlar üzerinde zorlayıcı olmaması
+- 88:23 own: ref ¶14 - yüz çeviren ve inkâr edenin durumu
+- 88:24 own: ref ¶14 - inkâr edenin büyük azapla karşılığı
+- 88:25 own: cited ¶10; ref ¶13 - dönüşün Allah’a olması
+- 88:26 own: cited ¶11; ref ¶13 - hesabın Allah’a ait olması
+- 70:42 own: cited ¶7 - inkârcıları oyalanırken bırakma emri
+- 70:44 own: cited ¶7 - gözlerin eğik ve aşağılanmanın kuşatıcı olması
+- 74:17 own: cited ¶2 - sarp yokuşa sürülme
+- 5:3 own: cited ¶7 - dikili taşlar üzerinde kesilen
+- 18:60 own: cited ¶10 - iki denizin birleştiği yere yürümeye kararlılık
+- 18:61 own: cited ¶10 - balığın denizde yol tutması
+- 3:191 own: cited ¶12 - ayakta, otururken ve yanları üzerinde Allah’ı anma
+- 94:5 own: cited ¶16 - güçlükle birlikte kolaylık
+- 94:6 own: cited ¶16 - güçlükle birlikte kolaylığın tekrarı
+- 35:33 own: cited ¶17 - Adn bahçelerine giriş
+- 35:34 own: cited ¶17 - kederin giderilmesi
+- 52:14 own: cited ¶14 - inkâr ettikleri ateşin gösterilmesi
+- 16:5 own: not relevant - hayvanların yün, fayda ve yiyecek oluşu, yük taşıma ve yol yorgunluğu bağı yok
+- 16:6 own: not relevant - hayvanların dönüş ve çıkıştaki güzelliği, emek ve yorgunluğu açıklamıyor
+- 16:7 own: ref ¶9, ¶10 - hayvanların taşınan yükleri ve insanın kendi gücüyle varamayacağı yol
+- 16:8 own: ref ¶9, ¶10 - at, katır ve eşeklerin binek olarak kullanılması
+- 16:9 own: not relevant - doğru yolu göstermenin Allah’a ait olması, hayvanların yük taşımasıyla ilgili değil
+- 16:10 own: not relevant - yağmur ve bitkiler, yol yorgunluğu bağı yok
+- 36:63 own: not relevant - cehennemle yüzleşme, uzuvların işlere tanıklığıyla bağlantısı yok
+- 36:64 own: not relevant - inkârın karşılığı olan ateş, beden uzuvlarının tanıklığıyla ilgili değil
+- 36:65 own: ref ¶8 - ellerin konuşup ayakların yapılanlara tanıklık etmesi
+- 36:66 own: not relevant - gözlerin giderilmesi, uzuvların işlere tanıklığından ayrı
+- 36:67 own: not relevant - insanların oldukları yerde dönüştürülmesi, bedenin iş taşımasıyla ilgili değil
+- 41:18 own: not relevant - inananların kurtarılması, uzuvların tanıklığıyla bağ kurmuyor
+- 41:19 own: not relevant - düşmanların ateşte toplanması, beden uzuvlarının tanıklığı değil
+- 41:21 own: ref ¶8 - derilerin konuşup yaptıklarına tanıklık etmesi
+- 41:22 own: ref ¶8 - insanın işitme, görme ve derilerinden gizlenememesi
+- 41:23 own: not relevant - Rab hakkındaki zan, beden uzuvlarının tanıklığıyla ilgili değil
+- 41:24 own: not relevant - ateşte kalma, organların tanıklığına ek getirmiyor
+- 75:20 own: not relevant - peşin hayatı sevme, yüzlerin o günkü halini açıklamıyor
+- 75:21 own: not relevant - ahireti bırakma, yüzlerin görünüşüyle bağ kurmuyor
+- 75:22 own: ref ¶1 - o gün yüzlerin ışıldaması
+- 75:23 own: ref ¶1 - yüzlerin Rablerine bakması
+- 75:25 own: not relevant - başa gelecek felaketi sezme, paragrafın yüz ve emek bağı yok
+- 75:26 own: not relevant - can köprücük kemiğine dayanınca, yüzlerin işaret oluşunu açıklamıyor
+- 80:40 own: ref ¶1, ¶2 - toz ve karanlıkla kaplı yüzler
+- 80:42 own: ref ¶1 - karanlık yüzlerin inkârcı ve günahkâr olarak adlandırılması

@@ -1,0 +1,96 @@
+## ¶5 · prose · 12:111 · applied
+
+**+** Yusuf kıssasının sonunda anlatılanın {ar:مَا كَانَ حَدِيثًۭا يُفْتَرَىٰ, tr:mâ kâne hadîsen yufterâ, gloss:uydurulmuş bir hadîs değildi, source:12:111} olduğu söylenir; ardından onun önündekini doğruladığı, her şeyi ayrıntıladığı, inananlar için hidayet ve rahmet olduğu bildirilir. Hadîs burada kıssa sona erdiğinde doğru olduğu bildirilen ve yol gösteren anlatıdır.
+
+## ¶8 · prose · 6:67 · applied
+
+**+** Kur'an, {ar:لِّكُلِّ نَبَإٍۢ مُّسْتَقَرٌّۭ, tr:li-kulli nebe'in mustekarrun, gloss:her haberin varacağı bir karar yeri vardır, source:6:67} der ve ardından yakında bilineceğini bildirir. Gâşiye'nin hadîsi yalnız uzakta duran bir ad değil, karara varacağı yeri olan haberdir.
+
+## ¶18 · prose · 39:23 · applied
+
+**+** Allah kitabını {ar:ٱللَّهُ نَزَّلَ أَحْسَنَ ٱلْحَدِيثِ, tr:Allâhu nezzele ahsene'l-hadîsi, gloss:Allah sözlerin en güzelini indirdi, source:39:23} diye niteler. Ayetin devamında Rablerinden korkanların derileri ürperir, sonra derileri ve yürekleri Allah'ın zikrine yumuşar. Hadîs burada dıştan deriye dokunup içte yüreği zikre açan bir iniş olur.
+
+## ¶20 · prose · 17:45 · applied
+
+**+** İsrâ suresinde {ar:وَإِذَا قَرَأْتَ ٱلْقُرْءَانَ جَعَلْنَا بَيْنَكَ وَبَيْنَ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ حِجَابًۭا مَّسْتُورًۭا, tr:ve izâ kara'te'l-Kur'âne cealnâ beyneke ve beyne'llezîne lâ yu'minûne bi'l-âhireti hicâben mestûrâ, gloss:Kur'an okuduğunda, seninle ahirete inanmayanlar arasına gizli bir perde koyarız, source:17:45} denir. Ardındaki ayet, yüreklerde anlamayı engelleyen örtüler ve kulaklarda ağırlık bulunduğunu, Kur'an'da Rab tek başına anılınca onların dönüp uzaklaştığını söyler {source:17:46}. Perde sözün içinde değil, sözü karşılayan yürek ve kulaklardadır.
+
+## ¶23 · prose · 47:18 · applied
+
+**+** Muhammed suresinde {ar:فَهَلْ يَنظُرُونَ إِلَّا ٱلسَّاعَةَ أَن تَأْتِيَهُم بَغْتَةًۭ ۖ فَقَدْ جَآءَ أَشْرَاطُهَا ۚ فَأَنَّىٰ لَهُمْ إِذَا جَآءَتْهُمْ ذِكْرَىٰهُمْ, tr:fe-hel yenzurûne ille's-sâate en te'tiyehum bağteten fe-kad câe eşrâtuhâ fe-ennâ lehum izâ câethum zikrâhum, gloss:saatin kendilerine ansızın gelmesinden başka neyi bekliyorlar; oysa belirtileri gelmiştir; geldiğinde hatırlamaları onlara ne fayda verir, source:47:18} denir. Saatin kendisi gelmeden belirtilerinin geldiği söylenir; o geldikten sonra hatırlamanın ne fayda vereceği sorulur.
+
+## ¶1 · refs · - · applied
+
+**+** Ayrıca: {source:5:60} soru biçimiyle açılan ilâhî bildirim; {source:76:1} insanın adı anılmamış zamanını soru ile açan hitap; {source:69:1} {source:69:2} {source:69:3} Hâkka'nın adı ve onu dinleyene soruyla yaklaştırılması; {source:78:1} {source:78:2} {source:78:3} {source:78:4} {source:78:5} büyük haberi soruyla açıp bilmeye bırakan hitap; {source:101:2} {source:101:3} {source:101:10} {source:104:5} kıyamet adlarını soru ile eşiğe getiren sorular.
+
+## ¶2 · refs · - · applied
+
+**+** Ayrıca: {source:38:21} “Sana hasımların haberi geldi mi” sorusunun geçmiş bir sahneyi açması; {source:20:10} {source:20:11} Musa haberinin ateşi görüp ona varmasıyla sürmesi; {source:51:25} {source:51:26} İbrahim'in konukları haberinin selâm ve ikram sahnesiyle sürmesi; {source:79:16} kutsal vadide gelen çağrı; {source:11:120} {source:20:99} geçmiş elçi haberlerinin zikr ve gönle dayanak olarak anlatılması.
+
+## ¶3 · refs · - · applied
+
+**+** Ayrıca: {source:7:53} kitabın te'vilinin geldiği gün, önceden unutulan haberin doğrulanması; {source:19:61} gaybda vaad edilmiş cennetin geleceği; {source:79:34} büyük felaketin gelecek için “geldiğinde” denmesi; {source:6:67} her haberin karara varacağı bir yerinin olması.
+
+## ¶4 · refs · - · applied
+
+**+** Ayrıca: {source:87:9} {source:87:10} {source:87:11} hatırlatma buyruğu ile korkanın hatırlaması, en bedbahtın uzaklaşması; {source:51:55} hatırlatmanın inananlara faydası; {source:41:4} müjdeleyen ve uyaran hitap; {source:12:104} {source:68:52} âlemler için zikr oluşu.
+
+## ¶5 · refs · - · applied
+
+**+** Ayrıca: {source:4:87} kıyamette toplanma vaadinin Allah'ın en doğru hadîsi diye bağlanması; {source:39:23} Allah'ın indirdiği en güzel hadîsin deriye ve kalbe değmesi; {source:53:59} “bu hadîs” diye sorulan kıyamet haberi; {source:65:1} Allah'ın sonradan bir iş meydana getirmesi; {source:93:11} Rabbin nimeti hakkında anlatma emri.
+
+## ¶6 · refs · - · applied
+
+**+** Ayrıca: {source:6:4} Rabbin ayetleri geldikçe onlardan yüz çevrilmesi; {source:26:5} Rahmân'dan her yeni zikrin gelişine sırt çevrilmesi; {source:21:3} gelen zikri oyunla dinleyen kalplerin gafleti.
+
+## ¶7 · refs · - · applied
+
+**+** Ayrıca: {source:99:4} yeryüzünün o gün haberlerini anlatmasıyla hadîs fiili ve haberlerin yan yana gelmesi; {source:12:101} ahâdîsin te'vilinin öğretilmesi.
+
+## ¶9 · refs · - · applied
+
+**+** Ayrıca: {source:23:42} {source:23:43} ardı ardına yaratılan kuşaklar ve aşamadıkları eceller; {source:23:45} {source:23:46} elçilik zincirinin Musa ile Harun'un Firavun'a gönderilmesiyle sürmesi; {source:34:17} Sebe halkının küfrüne karşılık verilen ceza.
+
+## ¶10 · refs · - · applied
+
+**+** Ayrıca: {source:101:1} {source:101:2} vuran diye adlandırılan kıyamet olayının adının sorulması; {source:79:34} her şeyi kaplayan büyük olayın gelişi.
+
+## ¶11 · refs · - · applied
+
+**+** Ayrıca: {source:7:41} cehennemin yatağı ile üstteki gavâşîlerin çepeçevre ceza resmi; {source:12:107} Allah'ın azabından gelen bir gâşiye; {source:10:27} gece karanlığı gibi örtülen yüzler; {source:14:50} yüzleri kaplayan ateş; {source:29:55} {source:44:11} azabın üstten alttan ve insanları kaplayarak gelişi.
+
+## ¶12 · refs · - · applied
+
+**+** Ayrıca: {source:53:53} adı hemen önce verilen altüst olmuş şehir; {source:53:16} örtünün ne olduğunun söylenmediği aynı söyleyiş.
+
+## ¶13 · refs · - · applied
+
+**+** Ayrıca: {source:6:65} azabın üstten ya da ayakların altından gelmesi; {source:7:41} cehennem yatağı ile üstteki örtüler; {source:21:39} ateşin yüzlerden ve sırtlardan savılamaması; {source:24:40} dalga, dalga ve bulutla üst üste gelen karanlık; {source:29:54} cehennemin inkârcıları kuşatması; {source:44:9} dumandan önceki kuşku ve oyalanma; {source:44:12} kaplayan azabın kaldırılmasını istemeleri.
+
+## ¶14 · refs · - · applied
+
+**+** Ayrıca: {source:33:19} savaş korkusundaki bakışın ölümden bayılmış kimsenin bakışına benzetilmesi; {source:50:19} ölüm sarhoşluğunun hak ile gelmesi.
+
+## ¶16 · refs · - · applied
+
+**+** Ayrıca: {source:8:10} yardımın kalplere güven vermesi; {source:8:12} aynı savaşta inkâr edenlerin yüreklerine korku atılması; {source:3:154} savaştan sonra bir topluluğu örten emniyet uykusu; {source:53:16} sidreyi kaplayan adı konmamış örtü; {source:7:54} {source:13:3} gecenin gündüzü örtmesi; {source:91:4} {source:92:1} gecenin örten devinimi.
+
+## ¶17 · refs · - · applied
+
+**+** Ayrıca: {source:53:51} {source:53:52} {source:53:53} helak edilmiş eski toplulukların sayımının sürmesi; {source:53:61} bu habere karşı eğlenceye dalmaları; {source:50:22} kıyamet gününde örtünün Allah tarafından kaldırılması.
+
+## ¶19 · refs · - · applied
+
+**+** Ayrıca: {source:2:7} kalp ve işitmenin mühürlenişiyle gözdeki gışâve; {source:6:25} {source:17:45} {source:17:46} {source:18:57} kalplerin anlamaktan alıkonduğu örtüler ve kulaklardaki ağırlık; {source:36:9} ön ve arkadaki setler arasında görmeyi engelleyen örtü; {source:41:5} çağrı karşısında kalp örtüsü, kulak ağırlığı ve perde; {source:71:7} çağrıyı işitmemek için kulakları ve elbiseleri kullanmaları; {source:83:13} {source:83:15} “öncekilerin masalları” sözü ile o gün Rablerinden perdelenmeleri.
+
+## ¶20 · refs · - · applied
+
+**+** Ayrıca: {source:6:26} ayetlerden alıkoyup kendisinin de uzak durması; {source:17:47} Kur'an dinlenirken onun büyü diye gizlice nitelenmesi; {source:18:56} hakla batıl üzerinden çekişip ayetler ve uyarılarla alay etmeleri; {source:20:100} zikrden yüz çevirenin kıyamette taşıyacağı yük; {source:29:51} inen kitabın okunmasının rahmet ve zikr oluşu; {source:39:23} en güzel hadîsin yüreği zikre yumuşatması; {source:53:59} bu hadîs karşısındaki şaşkınlık; {source:83:13} ayetleri öncekilerin masalları saymaları; {source:21:2} {source:26:5} yeni zikri oyunla dinleme ve ondan yüz çevirme; {source:45:6} {source:77:50} Allah'ın ayetlerinden sonra hangi hadîse inanacaklarının sorulması; {source:52:34} hadîs benzeri getirme meydan okuması; {source:56:81} bu hadîse aldırmazlık; {source:68:44} bu hadîsi yalanlayanlara fark etmeden verilen mühlet; {source:7:185} bu hadîsten sonra neye inanacaklarının sorulması.
+
+## ¶21 · refs · - · applied
+
+**+** Ayrıca: {source:6:47} azabın ansızın yahut açıkça gelmesi; {source:12:107} Allah'ın azabından bir gâşiyenin gelmesi; {source:39:40} kişiyi rezil eden azabın gelmesi.
+
+## ¶23 · refs · - · applied
+
+**+** Ayrıca: {source:6:158} Rabbin ayetleri geldikten sonra sonradan imanın fayda vermemesi; {source:18:55} hidayet geldikten sonra azabın karşılarına gelmesini beklemeleri; {source:20:126} daha önce gelen ayetleri unutmanın günündeki karşılığı; {source:34:3} saatin inkârcılara mutlaka geleceği; {source:34:7} diriliş haberini alaya alanların sözü; {source:12:108} gâşiye uyarısından sonra basiret üzere Allah'a çağrı; {source:44:13} apaçık elçi geldikten sonra hatırlamanın sorulması; {source:7:187} {source:21:40} {source:43:66} saatin ansızın gelişi ve fark edilmeyişi.
+

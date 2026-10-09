@@ -57,7 +57,7 @@ NEIGHBOURS = {"augment8", "augment9"}
 # exhaustive pass from memory, with the text lookup. A trial brief, not production. NOLIST_OWN: assumed verdicts.
 NOLIST = {"augment8m"}
 NOLIST_OWN = 80
-CODEX = {"sol61": "gpt-6.1-sol"}  # --model sol61: GPT-6.1 Sol through `codex exec` (subscription, no USD)  # briefs whose call may read verse text (packets.ALLOW text …), as the r13 writer does
+CODEX = {"sol61": "gpt-6.1-sol", "sol": "gpt-6.1-sol", "luna": "gpt-6-luna", "terra": "gpt-5.6-terra"}  # --model sol61: GPT-6.1 Sol through `codex exec` (subscription, no USD)  # briefs whose call may read verse text (packets.ALLOW text …), as the r13 writer does
 MARKED_BLOCK = re.compile(r"\n\n<!-- v16:augment [^\n]*-->\n[^\n]*")
 OUT_TOKENS = {"images": 40_000, "ayah": 20_000}  # assumed, thinking included
 PARA_SPLIT = re.compile(r"(\n[ \t]*\n)")

@@ -1,0 +1,211 @@
+- 6:47: ref ¶21, ¶23 - azabın ansızın gelişi
+- 6:158: ref ¶21, ¶23 - işaretlerin gelişi ve geç imanın yararsızlığı
+- 7:41: prose ¶11 - cehennem örtülerinin üstten kaplaması
+- 10:27: ref ¶11, ¶14 - karanlığın yüzleri örtmesi
+- 12:107: cited ¶23; ref ¶21 - gâşiye ve saatin ansızın gelişi
+- 14:50: ref ¶11, ¶15 - katran giysisi ve yüzleri örten ateş
+- 18:55: ref ¶3, ¶21, ¶23 - önceki toplulukların akıbetini veya azabı beklemek
+- 29:55: cited ¶13; ref ¶11 - azabın üstten ve alttan kaplaması
+- 34:3: ref ¶21, ¶23 - inkâra rağmen saatin geleceğinin bildirilmesi
+- 39:23: prose ¶18; ref ¶5, ¶20 - hadisin derileri ürpertip kalpleri yumuşatması
+- 44:11: cited ¶13; ref ¶16 - dumanın insanları acı azapla örtmesi
+- 79:15: cited ¶2; ref ¶1 - sorunun Musa'nın haberine açılması
+- 85:17: cited ¶2; ref ¶1 - sorunun orduların haberine açılması
+- 99:4 own: prose ¶5; ref ¶8, ¶9 - yeryüzünün kendi haberlerini anlatması
+- 2:38: ref ¶21, ¶22 - Allah'tan gelen hidayet
+- 2:210: ref ¶21 - bulut gölgeleri içinde geliş ve işin karara bağlanması
+- 5:60: not relevant - sorulan kötülük grubun karşılığı, Gâşiye haberi değil
+- 6:4: ref ¶6, ¶21 - ayetlerin gelişine yüz çevrilmesi
+- 6:68: not relevant - başka bir konuşma hakkındaki emir, haber ve örtüyle bağ kurmuyor
+- 7:53: ref ¶3, ¶21, ¶23 - yorum gerçekleşince unutanların gerçeği tanıması
+- 7:185: ref ¶6 - ayetlerden sonra inanılacak başka haber sorusu
+- 13:3: ref ¶16 - gecenin gündüzü örtmesi
+- 18:70: not relevant - bir olaydan sonra anılacak şey, hadîs ve Gâşiye bağlantısı kurmuyor
+- 19:61: ref ¶21, ¶22 - vaadin kesin gerçekleşmesi
+- 20:9: cited ¶2; ref ¶1 - sorunun Musa'nın anlatısına açılması
+- 20:78: cited ¶12; ref ¶11 - denizin Firavun'un ordusunu örtmesi
+- 20:126: ref ¶6, ¶21 - ayetlerin gelip unutulması
+- 21:2: cited ¶6; ref ¶5, ¶20 - yeni hatırlatmanın oyun içinde dinlenmesi
+- 23:49: not relevant - Musa'ya kitap verilmesi, ayetin haber ve örtü çerçevesine bağlanmıyor
+- 24:40: ref ¶13, ¶14 - dalga ve bulutun üst üste gelişiyle görüşün kapanması
+- 26:5: ref ¶6, ¶21 - yeni hatırlatma geldiğinde yüz çevrilmesi
+- 28:48: ref ¶6, ¶21 - hak geldiğinde Musa'ya verilen vahyi anıp yine de inkâr etmeleri
+- 31:32: ref ¶13, ¶24 - dalgaların gölgeler gibi örtmesi ve insanların Allah'a yakarması
+- 34:7: ref ¶5, ¶6 - yeniden yaratılış haberinin alaya alınması
+- 45:6: ref ¶6 - Allah'ın ayetlerinden sonra inanılacak haber sorusu
+- 51:24: cited ¶2; ref ¶1 - konukların haberinin anlatı sahnesine açılması
+- 53:16: ref ¶16 - örtmenin korku ve azap taşımayan kullanımı; sözlük gerekçesi örtünün anlamını belirsiz bıraksa da olumlu karşılık sağlar
+- 53:54: cited ¶12; ref ¶10 - örtülen şeyin adlandırılmadan bırakılması
+- 53:59: cited ¶17; ref ¶5, ¶6 - yaklaşan gün bağlamında “bu haber”
+- 56:81: ref ¶6, ¶20 - vahyedilen haber karşısında kayıtsızlığın kınanması
+- 65:1: not relevant - boşanma sürecinden sonra doğabilecek iş, Gâşiye ve haberle bağ kurmuyor
+- 68:52: ref ¶4, ¶6, ¶20 - hatırlatmanın bütün âlemlere yönelmesi
+- 77:50: ref ¶6 - ayetlerden sonra inanılacak başka haber sorusu
+- 92:1: ref ¶16 - gecenin örtmesi
+- 93:11: not relevant - nimeti anlatma emri, Gâşiye haberiyle anlam bağı kurmuyor
+- 101:11: ref ¶17 - Kâria suresinin sonunda bildirilen kızgın ateş
+- 18:48: ref ¶25 - insanların Rabbinin huzuruna çıkarılması
+- 74:10: ref ¶17 - inkârcılar için kolay olmayan gün
+- 79:34: ref ¶17 - büyük felaketin gelişi
+- 101:2: ref ¶17 - çarpan günün soru kalıbıyla adlandırılması
+- 11:120: ref ¶2, ¶9, ¶18 - elçi kıssalarının kalbi sağlamlaştırıp öğüt vermesi
+- 38:21: prose ¶2; ref ¶1 - soru kalıbının bir hüküm sahnesini açması
+- 68:44: ref ¶5, ¶6, ¶20 - bu haberi yalanlayanların uyarılması
+- 71:7: prose ¶20; ref ¶5 - çağrıya parmaklarını kulaklarına koyup örtünerek karşılık vermeleri
+- 74:9: ref ¶17 - güç günün adlandırılması
+- 76:1: not relevant - yakın soru sözü hadîs haberini açmıyor ve ardından geçmiş bir kıssa gelmiyor
+- 91:4: ref ¶16 - gecenin gündüzü örtmesi
+- 2:7: prose ¶19; ref ¶14 - göz örtüsünün kalp ve işitme mühürleriyle birlikte anılması
+- 2:76: not relevant - açığa vurulan bilginin tartışma doğurması, Gâşiye haberiyle bağ kurmuyor
+- 2:109: not relevant - Allah'ın emrini beklemek dışında ortak bir bağlantı yok
+- 2:118: ref ¶1 - ayet gelmesini isteyen soru, haber açan sorudan ayrılıyor
+- 2:148: ref ¶25 - insanların nerede olurlarsa olsunlar bir araya getirilmesi
+- 3:154: ref ¶16 - uykunun bir gruba güven, ötekine kaygı vermesi
+- 4:140: not relevant - başka bir konuşmadan uzak durma emri, Gâşiye haberini açıklamıyor
+- 7:54: ref ¶16 - gecenin gündüzü örtmesi
+- 7:189: not relevant - eşler arasındaki birleşme ve gebelik sahnesi, bu suredeki örtü çerçevesine destek vermiyor
+- 9:52: ref ¶21, ¶23 - iyi sonuç beklentisi ile azap beklentisinin karşılaşması
+- 12:49: not relevant - bir yılın gelişinden söz edilmesi dışında bağ yok
+- 12:101: ref ¶5 - rüya anlatımlarının yorumlanması
+- 18:15: not relevant - putlar için açık kanıt istenmesi, haber ve örtüyle bağ kurmuyor
+- 23:60: ref ¶25 - Rablerine döneceklerinden ürperenlerin amelleri
+- 26:89: ref ¶20, ¶25 - Allah'a sağlam kalple gelme ve dönüş
+- 33:19: ref ¶14 - korku içindeki bakışın ölüm baygınlığına benzetilmesi
+- 37:54: not relevant - bir kimsenin arkadaşlarına bakmayı sorması, Gâşiye'nin bakma çağrısını açıklamıyor
+- 52:34: ref ¶5, ¶6 - Kur'an benzeri bir söz getirme meydan okuması
+- 68:41: not relevant - ortaklarını getirme meydan okuması, konu bağlantısı yok
+- 92:16: not relevant - inkâr edip yüz çevirmek dışında bağlantı kurmuyor
+- 6:67: ref ¶3 - her haberin bilineceği bir yerleşme noktası olması
+- 22:21: not relevant - demirden kamçıların anlatılması, örtü veya hadîs bağı kurmuyor
+- 36:9: ref ¶14, ¶19 - örtülerin ardından görememe
+- 39:40: ref ¶21, ¶23 - aşağılayıcı azabın gelişi ve yerleşmesi
+- 89:5: not relevant - yeminin akıl sahibi için yeterliliği, Gâşiye haberine bağlanmıyor
+- 101:3: ref ¶17 - Kâria'nın ne olduğunun sorulması
+- 101:10: ref ¶17 - uçurumun ne olduğunun sorulup ateşle açıklanması
+- 102:1: not relevant - çoğalma yarışının oyalaması, günün örtmesiyle bağ kurmuyor
+- 104:5: ref ¶17 - ezip parçalayan felaket adının sorulması
+- 8:7: ref ¶16 - savaşta iki topluluk vaadi ve yardım bağlamı
+- 8:8: ref ¶16 - hakkın yerleştirilip batılın giderilmesi
+- 8:10: ref ¶16 - yardımın müjde ve kalplere güven oluşu
+- 8:12: ref ¶16 - meleklerin inananları sağlamlaştırması
+- 8:13: ref ¶16 - Allah'a ve elçisine karşı çıkmanın cezası
+- 12:103: not relevant - Yusuf kıssasına inanmayanların çoğunluğu, ansızın geliş sahnesine doğrudan bağlanmıyor
+- 12:104: ref ¶6, ¶23 - Kur'an'ın âlemler için hatırlatma oluşu
+- 12:106: not relevant - ortak koşma, ansızın geliş ve örtü bağı kurmuyor
+- 12:108: ref ¶4, ¶23 - Allah'a açık görüşle çağırma
+- 12:109: ref ¶2, ¶9, ¶23 - önceki elçilerin sonlarından ibret
+- 16:0: not relevant - besmele, emrin gelişi ve bekleyişi açıklamıyor
+- 16:2: ref ¶3 - emrin ardından gelen uyarı görevi
+- 16:3: not relevant - yaratılışın hak üzere oluşu, emrin gelişine bağlanmıyor
+- 20:7: not relevant - gizli sözün bilinmesi, Musa haberinin sahnesini açıklamıyor
+- 20:8: not relevant - Allah'ın isimleri, Musa'nın haberine bağlanmıyor
+- 20:10: cited ¶2 - Musa'nın ateşi görüp ailesine kalmalarını söylemesi zaten anlatılıyor
+- 20:11: ref ¶2 - ateşe varınca Musa'ya seslenilmesi
+- 20:75: not relevant - mümin olarak gelenlerin dereceleri, denizin örtmesiyle ilgili değil
+- 20:76: not relevant - takva sahiplerinin bahçeleri, Firavun'un ordusunun örtülmesi sahnesine bağlanmıyor
+- 20:79: ref ¶12 - Firavun'un kavmini yoldan çıkarması
+- 20:80: prose ¶12 - denizde boğulan ordunun ardından İsrailoğullarının kurtarılması
+- 21:0: not relevant - besmele, yeni hatırlatma sahnesine ek yapmıyor
+- 21:3: ref ¶6 - yeni hatırlatmaya karşı oyalanma ve onu büyü sayma
+- 21:4: not relevant - sözün gökte ve yerde bilinmesi, haberi dinleme sahnesini açıklamıyor
+- 23:42: ref ¶9 - toplulukların art arda gelmesi
+- 23:43: ref ¶9 - hiçbir topluluğun vaktini öne alamaması
+- 23:45: ref ¶9 - Musa ve Harun'un ardından gönderilmeleri
+- 23:46: ref ¶9 - Firavun ve ileri gelenlerinin kibirlenmesi
+- 29:51: ref ¶23 - kitabın rahmet ve hatırlatma oluşu
+- 29:52: not relevant - şahitlik ve bâtıla inanma, ansızın azap bağını açıklamıyor
+- 29:54: ref ¶13, ¶23 - acele istenen azap ve cehennemin kuşatması
+- 29:56: not relevant - yeryüzünün genişliği ve kulluk emri, örtü sahnesine bağlanmıyor
+- 29:57: ref ¶25 - ölümden sonra Allah'a dönüş
+- 34:17: ref ¶9 - Sebe halkının nankörlüğünün karşılığı
+- 34:18: prose ¶9 - güvenli yolculuk düzeninin yol aralarının uzatılması isteğinden önce gelmesi
+- 34:20: ref ¶9 - çoğunluğun İblis'in zannına uyması
+- 34:21: ref ¶9 - İblis'in zorlayıcı gücü değil, ahirete inananlarla kuşku duyanları ayıran sınama
+- 44:8: not relevant - hayat ve ölümün Rabbinin anılması, duman örtüsünün biçimine ek yapmıyor
+- 44:9: ref ¶6, ¶13 - duman öncesinde kuşku içinde oyalanma
+- 44:12: prose ¶13 - örtünün ardından azabın kaldırılması için yakarış
+- 44:13: ref ¶6; context ¶13 (in 44:12) - elçinin daha önce gelişinin hatırlatılması
+- 45:21: ref ¶19 - kötülük işleyenlerle inananların aynı tutulmaması
+- 45:22: ref ¶19 - yaratılışın hak oluşu ve her nefsin kazancıyla karşılık görmesi
+- 45:24: ref ¶19 - dünya hayatından ötesini bilmeden inkâr etmeleri
+- 45:25: ref ¶19 - açık ayetlere karşı ataların diriltilmesini istemeleri
+- 47:18: ref ¶23 - saatin ansızın gelişi ve işaretlerinin çoktan görünmesi
+- 47:19: not relevant - Peygamber'e bağışlanma dileme emri, korku içindeki bakışı açıklamıyor
+- 47:21: ref ¶14 - itaat ve tanınan sözün iyi oluşu
+- 47:22: ref ¶14 - yüz çevirmenin yeryüzünde bozgunculuğa bağlanması
+- 51:22: not relevant - rızık ve vaatlerin gökte oluşu, konukların haberiyle bağ kurmuyor
+- 51:23: not relevant - vaadin konuşma gibi gerçek oluşuna yemin, konuk kıssasını açıklamıyor
+- 51:25: ref ¶2 - konukların İbrahim'in yanına girip selam vermesi
+- 51:26: ref ¶2 - İbrahim'in ailesine gidip semiz buzağı getirmesi
+- 53:48: not relevant - zengin kılma ve gönül hoşluğu, helak kıssasına bağlanmıyor
+- 53:49: not relevant - Şi'râ yıldızının Rabbinin anılması, helak sahnesine bağlanmıyor
+- 53:51: ref ¶9, ¶17 - helak edilen toplulukların devamı
+- 53:52: ref ¶9, ¶17 - Nuh kavminin önceki topluluklardan sayılması
+- 53:53: ref ¶9, ¶17 - altüst edilen kentlerin helak dizisinde anılması
+- 53:55: not relevant - nimetler hakkında tartışma, örtme ve haber sahnesine bağlanmıyor
+- 53:61: ref ¶6, ¶17 - uyarı karşısında oyalanma
+- 79:13: ref ¶2 - Musa haberinden önce dirilişin tek bir sesle başlaması
+- 79:14: ref ¶2 - dirilişten sonra insanların açık alana çıkması
+- 79:16: cited ¶2 - Musa'nın kutsal vadide çağrılması zaten anılıyor
+- 79:17: ref ¶2 - Musa'nın azgın Firavun'a gönderilmesi
+- 83:12: ref ¶19 - hesap gününü yalnız taşkın günahkârın yalanlaması
+- 83:13: cited ¶20 - Mutaffifîn'deki kişinin ayetlere “öncekilerin masalları” demesi anılıyor
+- 83:15: ref ¶19 - o gün Rablerinden perdelenmeleri
+- 83:16: ref ¶19 - ardından cehenneme girmeleri
+- 85:15: not relevant - Arş sahibinin yüceliği, orduların haberine doğrudan ek yapmıyor
+- 85:16: not relevant - Allah'ın dilediğini yapması, orduların sahnesini açıklamıyor
+- 85:19: ref ¶2, ¶12, ¶17 - ordular haberinden sonra inkârcıların yalanlaması
+- 85:20: ref ¶2, ¶12, ¶17 - Allah'ın inkârcıları kuşatması
+- 38:22 own: context ¶2 (in 38:21) - davacıların Davud'un yanına gelişi ve onu ürkütmesi
+- 38:23 own: ref ¶2 - davacıların hüküm istedikleri anlaşmazlık
+- 99:1 own: context ¶5 (in 99:4) - yeryüzünün sarsılması
+- 99:2 own: context ¶5 (in 99:4) - yeryüzünün içindekileri çıkarması
+- 99:3 own: context ¶5 (in 99:4) - insanın yeryüzüne ne olduğunu sorması
+- 99:5 own: context ¶5 (in 99:4) - Rabbinin yeryüzüne haber vermesi
+- 7:39 own: not relevant - önceki ve sonraki toplulukların birbirini suçlaması, örtü sahnesini açıklamıyor
+- 7:40 own: context ¶11 (in 7:41) - ayetleri yalanlayıp büyüklük taslayanların cennet kapılarından geçememesi
+- 7:42 own: ref ¶16 - iman edip iyi işler yapanların bahçeye girmesi
+- 7:43 own: ref ¶16 - bahçe ehlinin kalplerindeki kini gidermesi
+- 39:21 own: not relevant - yağmur ve bitkilerin kuruması, kalp cilası sahnesine bağlanmıyor
+- 39:22 own: ref ¶18, ¶19 - göğsün İslam'a açılması ve kalbin yumuşaması
+- 39:24 own: ref ¶19 - kıyamet gününde yüzü azaptan koruma çabası
+- 39:25 own: ref ¶9 - önceki toplulukların yalanlayıp azaba uğraması
+- 71:1 own: context ¶20 (in 71:7) - Nuh'un kavmine uyarıcı olarak gönderilmesi
+- 71:5 own: context ¶20 (in 71:7) - Nuh'un kavmini gece gündüz çağırması
+- 71:6 own: not relevant - çağrının kaçışı artırması, eklenen sahnenin doğrudan konusu değil
+- 71:8 own: ref ¶20 - çağrının açıkça yapılması
+- 71:9 own: ref ¶20 - çağrının açık ve gizli sürdürülmesi
+- 20:81 own: not relevant - İsrailoğullarına verilen nimetleri aşmama buyruğu, denizde örtülme sahnesine ek yapmıyor
+- 20:82 own: not relevant - tövbe ve imanla bağışlanma, denizin örtme eylemini açıklamıyor
+- 44:14 own: ref ¶6, ¶13 - elçiden yüz çevirip ona deli demeleri
+- 54:9 own: context ¶22 (in 54:11) - Nuh kavminin yalanlaması
+- 54:10 own: context ¶22 (in 54:11) - Nuh'un yardım çağrısı
+- 54:11 own: prose ¶22 - göğün dökülen suyla açılması
+- 54:12 own: context ¶22 (in 54:11) - yerden pınarların fışkırıp gök suyuyla buluşması
+- 54:13 own: context ¶22 (in 54:11) - Nuh ve beraberindekilerin gemide taşınması
+- 54:14 own: context ¶22 (in 54:11) - geminin Allah'ın gözetiminde yüzmesi
+- 88:2 own: cited ¶1; ref ¶5 - ilk haber sahnesindeki eğilmiş yüzler
+- 88:3 own: cited ¶5 - yorucu emek içindeki yüzler
+- 88:4 own: cited ¶5 - kızgın ateşe giren yüzler
+- 88:5 own: cited ¶5 - kaynar kaynaktan içirilmeleri
+- 88:6 own: cited ¶5 - dikenli yiyecek
+- 88:7 own: cited ¶5 - ne besleyen ne açlığı gideren yiyecek
+- 88:8 own: cited ¶5 - öteki topluluğun aydınlık yüzleri
+- 88:9 own: cited ¶5 - yaptıklarından hoşnut olmaları
+- 88:10 own: cited ¶5, ¶16 - yüce bahçe
+- 88:11 own: cited ¶5 - bahçede boş söz işitilmemesi
+- 88:12 own: cited ¶5 - akan pınar
+- 88:13 own: cited ¶5 - yükseltilmiş sedirler
+- 88:14 own: cited ¶5 - hazır kaplar
+- 88:15 own: cited ¶5 - sıra sıra minderler
+- 88:16 own: cited ¶5 - serilmiş halılar
+- 88:17 own: cited ¶25; ref ¶5 - develere bakma çağrısı
+- 88:18 own: ref ¶5 - göğe bakma çağrısı
+- 88:19 own: ref ¶5 - dağlara bakma çağrısı
+- 88:20 own: ref ¶5 - yere bakma çağrısı
+- 88:21 own: cited ¶4; ref ¶20 - hatırlatma görevi
+- 88:22 own: prose ¶4 - Peygamber'in insanlar üzerinde zorlayıcı gözetici olmaması
+- 88:23 own: cited ¶16; ref ¶20 - yüz çevirip inkâr edenlerin anılması
+- 88:24 own: ref ¶11, ¶16 - inkârın ardından büyük azabın gelmesi
+- 88:25 own: cited ¶25 - insanların dönüşü
+- 88:26 own: cited ¶6; ref ¶25 - hesabın Allah'a ait oluşu

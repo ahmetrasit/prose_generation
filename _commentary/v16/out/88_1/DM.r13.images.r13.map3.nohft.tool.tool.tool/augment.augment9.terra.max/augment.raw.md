@@ -1,0 +1,293 @@
+=== ADD ===
+paragraph: 5
+ref: 12:111
+text: Yusuf kıssasının sonunda anlatılanın {ar:مَا كَانَ حَدِيثًۭا يُفْتَرَىٰ, tr:mâ kâne hadîsen yufterâ, gloss:uydurulmuş bir hadîs değildi, source:12:111} olduğu söylenir; ardından onun önündekini doğruladığı, her şeyi ayrıntıladığı, inananlar için hidayet ve rahmet olduğu bildirilir. Hadîs burada kıssa sona erdiğinde doğru olduğu bildirilen ve yol gösteren anlatıdır.
+
+=== ADD ===
+paragraph: 8
+ref: 6:67
+text: Kur'an, {ar:لِّكُلِّ نَبَإٍۢ مُّسْتَقَرٌّۭ, tr:li-kulli nebe'in mustekarrun, gloss:her haberin varacağı bir karar yeri vardır, source:6:67} der ve ardından yakında bilineceğini bildirir. Gâşiye'nin hadîsi yalnız uzakta duran bir ad değil, karara varacağı yeri olan haberdir.
+
+=== ADD ===
+paragraph: 18
+ref: 39:23
+text: Allah kitabını {ar:ٱللَّهُ نَزَّلَ أَحْسَنَ ٱلْحَدِيثِ, tr:Allâhu nezzele ahsene'l-hadîsi, gloss:Allah sözlerin en güzelini indirdi, source:39:23} diye niteler. Ayetin devamında Rablerinden korkanların derileri ürperir, sonra derileri ve yürekleri Allah'ın zikrine yumuşar. Hadîs burada dıştan deriye dokunup içte yüreği zikre açan bir iniş olur.
+
+=== ADD ===
+paragraph: 20
+ref: 17:45
+text: İsrâ suresinde {ar:وَإِذَا قَرَأْتَ ٱلْقُرْءَانَ جَعَلْنَا بَيْنَكَ وَبَيْنَ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ حِجَابًۭا مَّسْتُورًۭا, tr:ve izâ kara'te'l-Kur'âne cealnâ beyneke ve beyne'llezîne lâ yu'minûne bi'l-âhireti hicâben mestûrâ, gloss:Kur'an okuduğunda, seninle ahirete inanmayanlar arasına gizli bir perde koyarız, source:17:45} denir. Ardındaki ayet, yüreklerde anlamayı engelleyen örtüler ve kulaklarda ağırlık bulunduğunu, Kur'an'da Rab tek başına anılınca onların dönüp uzaklaştığını söyler {source:17:46}. Perde sözün içinde değil, sözü karşılayan yürek ve kulaklardadır.
+
+=== ADD ===
+paragraph: 23
+ref: 47:18
+text: Muhammed suresinde {ar:فَهَلْ يَنظُرُونَ إِلَّا ٱلسَّاعَةَ أَن تَأْتِيَهُم بَغْتَةًۭ ۖ فَقَدْ جَآءَ أَشْرَاطُهَا ۚ فَأَنَّىٰ لَهُمْ إِذَا جَآءَتْهُمْ ذِكْرَىٰهُمْ, tr:fe-hel yenzurûne ille's-sâate en te'tiyehum bağteten fe-kad câe eşrâtuhâ fe-ennâ lehum izâ câethum zikrâhum, gloss:saatin kendilerine ansızın gelmesinden başka neyi bekliyorlar; oysa belirtileri gelmiştir; geldiğinde hatırlamaları onlara ne fayda verir, source:47:18} denir. Saatin kendisi gelmeden belirtilerinin geldiği söylenir; o geldikten sonra hatırlamanın ne fayda vereceği sorulur.
+
+=== REFS ===
+paragraph: 1
+text: Ayrıca: {source:5:60} soru biçimiyle açılan ilâhî bildirim; {source:76:1} insanın adı anılmamış zamanını soru ile açan hitap; {source:69:1} {source:69:2} {source:69:3} Hâkka'nın adı ve onu dinleyene soruyla yaklaştırılması; {source:78:1} {source:78:2} {source:78:3} {source:78:4} {source:78:5} büyük haberi soruyla açıp bilmeye bırakan hitap; {source:101:2} {source:101:3} {source:101:10} {source:104:5} kıyamet adlarını soru ile eşiğe getiren sorular.
+
+=== REFS ===
+paragraph: 2
+text: Ayrıca: {source:38:21} “Sana hasımların haberi geldi mi” sorusunun geçmiş bir sahneyi açması; {source:20:10} {source:20:11} Musa haberinin ateşi görüp ona varmasıyla sürmesi; {source:51:25} {source:51:26} İbrahim'in konukları haberinin selâm ve ikram sahnesiyle sürmesi; {source:79:16} kutsal vadide gelen çağrı; {source:11:120} {source:20:99} geçmiş elçi haberlerinin zikr ve gönle dayanak olarak anlatılması.
+
+=== REFS ===
+paragraph: 3
+text: Ayrıca: {source:7:53} kitabın te'vilinin geldiği gün, önceden unutulan haberin doğrulanması; {source:19:61} gaybda vaad edilmiş cennetin geleceği; {source:79:34} büyük felaketin gelecek için “geldiğinde” denmesi; {source:6:67} her haberin karara varacağı bir yerinin olması.
+
+=== REFS ===
+paragraph: 4
+text: Ayrıca: {source:87:9} {source:87:10} {source:87:11} hatırlatma buyruğu ile korkanın hatırlaması, en bedbahtın uzaklaşması; {source:51:55} hatırlatmanın inananlara faydası; {source:41:4} müjdeleyen ve uyaran hitap; {source:12:104} {source:68:52} âlemler için zikr oluşu.
+
+=== REFS ===
+paragraph: 5
+text: Ayrıca: {source:4:87} kıyamette toplanma vaadinin Allah'ın en doğru hadîsi diye bağlanması; {source:39:23} Allah'ın indirdiği en güzel hadîsin deriye ve kalbe değmesi; {source:53:59} “bu hadîs” diye sorulan kıyamet haberi; {source:65:1} Allah'ın sonradan bir iş meydana getirmesi; {source:93:11} Rabbin nimeti hakkında anlatma emri.
+
+=== REFS ===
+paragraph: 6
+text: Ayrıca: {source:6:4} Rabbin ayetleri geldikçe onlardan yüz çevrilmesi; {source:26:5} Rahmân'dan her yeni zikrin gelişine sırt çevrilmesi; {source:21:3} gelen zikri oyunla dinleyen kalplerin gafleti.
+
+=== REFS ===
+paragraph: 7
+text: Ayrıca: {source:99:4} yeryüzünün o gün haberlerini anlatmasıyla hadîs fiili ve haberlerin yan yana gelmesi; {source:12:101} ahâdîsin te'vilinin öğretilmesi.
+
+=== REFS ===
+paragraph: 9
+text: Ayrıca: {source:23:42} {source:23:43} ardı ardına yaratılan kuşaklar ve aşamadıkları eceller; {source:23:45} {source:23:46} elçilik zincirinin Musa ile Harun'un Firavun'a gönderilmesiyle sürmesi; {source:34:17} Sebe halkının küfrüne karşılık verilen ceza.
+
+=== REFS ===
+paragraph: 10
+text: Ayrıca: {source:101:1} {source:101:2} vuran diye adlandırılan kıyamet olayının adının sorulması; {source:79:34} her şeyi kaplayan büyük olayın gelişi.
+
+=== REFS ===
+paragraph: 11
+text: Ayrıca: {source:7:41} cehennemin yatağı ile üstteki gavâşîlerin çepeçevre ceza resmi; {source:12:107} Allah'ın azabından gelen bir gâşiye; {source:10:27} gece karanlığı gibi örtülen yüzler; {source:14:50} yüzleri kaplayan ateş; {source:29:55} {source:44:11} azabın üstten alttan ve insanları kaplayarak gelişi.
+
+=== REFS ===
+paragraph: 12
+text: Ayrıca: {source:53:53} adı hemen önce verilen altüst olmuş şehir; {source:53:16} örtünün ne olduğunun söylenmediği aynı söyleyiş.
+
+=== REFS ===
+paragraph: 13
+text: Ayrıca: {source:6:65} azabın üstten ya da ayakların altından gelmesi; {source:7:41} cehennem yatağı ile üstteki örtüler; {source:21:39} ateşin yüzlerden ve sırtlardan savılamaması; {source:24:40} dalga, dalga ve bulutla üst üste gelen karanlık; {source:29:54} cehennemin inkârcıları kuşatması; {source:44:9} dumandan önceki kuşku ve oyalanma; {source:44:12} kaplayan azabın kaldırılmasını istemeleri.
+
+=== REFS ===
+paragraph: 14
+text: Ayrıca: {source:33:19} savaş korkusundaki bakışın ölümden bayılmış kimsenin bakışına benzetilmesi; {source:50:19} ölüm sarhoşluğunun hak ile gelmesi.
+
+=== REFS ===
+paragraph: 16
+text: Ayrıca: {source:8:10} yardımın kalplere güven vermesi; {source:8:12} aynı savaşta inkâr edenlerin yüreklerine korku atılması; {source:3:154} savaştan sonra bir topluluğu örten emniyet uykusu; {source:53:16} sidreyi kaplayan adı konmamış örtü; {source:7:54} {source:13:3} gecenin gündüzü örtmesi; {source:91:4} {source:92:1} gecenin örten devinimi.
+
+=== REFS ===
+paragraph: 17
+text: Ayrıca: {source:53:51} {source:53:52} {source:53:53} helak edilmiş eski toplulukların sayımının sürmesi; {source:53:61} bu habere karşı eğlenceye dalmaları; {source:50:22} kıyamet gününde örtünün Allah tarafından kaldırılması.
+
+=== REFS ===
+paragraph: 19
+text: Ayrıca: {source:2:7} kalp ve işitmenin mühürlenişiyle gözdeki gışâve; {source:6:25} {source:17:45} {source:17:46} {source:18:57} kalplerin anlamaktan alıkonduğu örtüler ve kulaklardaki ağırlık; {source:36:9} ön ve arkadaki setler arasında görmeyi engelleyen örtü; {source:41:5} çağrı karşısında kalp örtüsü, kulak ağırlığı ve perde; {source:71:7} çağrıyı işitmemek için kulakları ve elbiseleri kullanmaları; {source:83:13} {source:83:15} “öncekilerin masalları” sözü ile o gün Rablerinden perdelenmeleri.
+
+=== REFS ===
+paragraph: 20
+text: Ayrıca: {source:6:26} ayetlerden alıkoyup kendisinin de uzak durması; {source:17:47} Kur'an dinlenirken onun büyü diye gizlice nitelenmesi; {source:18:56} hakla batıl üzerinden çekişip ayetler ve uyarılarla alay etmeleri; {source:20:100} zikrden yüz çevirenin kıyamette taşıyacağı yük; {source:29:51} inen kitabın okunmasının rahmet ve zikr oluşu; {source:39:23} en güzel hadîsin yüreği zikre yumuşatması; {source:53:59} bu hadîs karşısındaki şaşkınlık; {source:83:13} ayetleri öncekilerin masalları saymaları; {source:21:2} {source:26:5} yeni zikri oyunla dinleme ve ondan yüz çevirme; {source:45:6} {source:77:50} Allah'ın ayetlerinden sonra hangi hadîse inanacaklarının sorulması; {source:52:34} hadîs benzeri getirme meydan okuması; {source:56:81} bu hadîse aldırmazlık; {source:68:44} bu hadîsi yalanlayanlara fark etmeden verilen mühlet; {source:7:185} bu hadîsten sonra neye inanacaklarının sorulması.
+
+=== REFS ===
+paragraph: 21
+text: Ayrıca: {source:6:47} azabın ansızın yahut açıkça gelmesi; {source:12:107} Allah'ın azabından bir gâşiyenin gelmesi; {source:39:40} kişiyi rezil eden azabın gelmesi.
+
+=== REFS ===
+paragraph: 23
+text: Ayrıca: {source:6:158} Rabbin ayetleri geldikten sonra sonradan imanın fayda vermemesi; {source:18:55} hidayet geldikten sonra azabın karşılarına gelmesini beklemeleri; {source:20:126} daha önce gelen ayetleri unutmanın günündeki karşılığı; {source:34:3} saatin inkârcılara mutlaka geleceği; {source:34:7} diriliş haberini alaya alanların sözü; {source:12:108} gâşiye uyarısından sonra basiret üzere Allah'a çağrı; {source:44:13} apaçık elçi geldikten sonra hatırlamanın sorulması; {source:7:187} {source:21:40} {source:43:66} saatin ansızın gelişi ve fark edilmeyişi.
+
+=== VERDICTS ===
+- 6:47: ref ¶21 - azabın ansızın yahut açıkça gelmesi.
+- 6:158: ref ¶23 - gelen ilâhî ayetlerden sonra gecikmiş imanın faydasızlığı.
+- 7:41: ref ¶11, ¶13 - cehennemin alttan ve üstten saran örtüleri.
+- 10:27: ref ¶11 - yüzleri gece karanlığı gibi kaplayan ceza.
+- 12:107: cited ¶23; ref ¶11, ¶21 - gâşiyenin Allah azabından gelmesi ve fark edilmeden saat ihtimali.
+- 14:50: ref ¶11 - ateşin yüzleri kaplaması.
+- 18:55: ref ¶23 - hidayetten sonra azabın karşılarına gelmesini beklemeleri.
+- 29:55: cited ¶13; ref ¶11 - azabın üstten ve ayakların altından kaplaması.
+- 34:3: ref ¶23 - inkâr edilse de saatin mutlaka geleceği.
+- 39:23: prose ¶18; ref ¶5, ¶20 - kitabın en güzel hadîs oluşu ve yüreği zikre yumuşatması.
+- 44:11: cited ¶13; ref ¶11 - dumanın insanları kaplayan acı azap oluşu.
+- 79:15: cited ¶2; nowhere else - Musa haberini açan aynı soru kalıbı.
+- 85:17: cited ¶2; nowhere else - orduların haberini açan aynı soru kalıbı.
+- 99:4: ref ¶7 - yeryüzünün haberlerini hadîs fiiliyle anlatması.
+- 2:38: not relevant - hidayete uymanın sonucu, haberin gelişi ya da örtme ilişkisini açmaz.
+- 2:210: not relevant - ilâhî geliş ve hükmün bitişi, ayetteki haber kalıbını açıklamaz.
+- 5:60: ref ¶1 - soru biçimiyle başlayan ilâhî bildirim.
+- 6:4: ref ¶6 - gelen ayetlerden yüz çevirme.
+- 6:68: not relevant - başka bir insanî konuşmaya geçme emri, ilâhî hadîs değildir.
+- 7:53: ref ¶3 - haber verilen te'vilin gelmesiyle önceki uyarının doğrulanması.
+- 7:185: ref ¶20 - Allah'ın hadîsinden sonra neye inanılacağının sorulması.
+- 13:3: ref ¶16 - gecenin gündüzü örten, korku taşımayan devinimi.
+- 18:70: not relevant - sonraya bırakılan açıklama, haberin ya da gâşiyenin yapısını açmaz.
+- 19:61: ref ¶3 - gaybda vaad edilmiş şeyin geleceğinin bildirilmesi.
+- 20:9: cited ¶2; nowhere else - Musa haberini açan kalıp.
+- 20:78: cited ¶12; nowhere else - denizin Firavun'un ordusunu adı verilmeyen şeyle örtmesi.
+- 20:126: ref ¶23 - daha önce gelen ayetleri unutmanın günündeki karşılığı.
+- 21:2: cited ¶6; ref ¶20 - yeni gelen zikrin oyunla dinlenmesi.
+- 23:49: not relevant - Musa'ya kitabın verilmesi, hadîs ya da örtme bağı kurmaz.
+- 24:40: ref ¶13 - üst üste dalga ve bulutların kurduğu kuşatıcı karanlık.
+- 26:5: ref ¶6, ¶20 - yeni zikrin gelmesi karşısında yüz çevirme.
+- 28:48: not relevant - hakikati sihir diye reddetme, hadîs yahut örtü mekanizmini adlandırmaz.
+- 31:32: not relevant - dalga örtüsü, uzaktan gelen sel resmini yahut ayetin haber yapısını tamamlamaz.
+- 34:7: ref ¶23 - diriliş haberini alaya alanların sözü.
+- 45:6: ref ¶20 - Allah'ın ayetlerinden sonra hangi hadîse inanılacağının sorulması.
+- 51:24: cited ¶2; nowhere else - İbrahim'in konukları haberini açan kalıp.
+- 53:16: ref ¶12, ¶16 - adı konmayan örtü söyleyişi ve fiilin kendiliğinden korku taşımaması.
+- 53:54: cited ¶12; nowhere else - altüst olan şehrin adı verilmeyen şeyle örtülmesi.
+- 53:59: cited ¶17; ref ¶5, ¶20 - kıyamet haberi için “bu hadîs” denmesi.
+- 56:81: ref ¶20 - bu hadîse aldırmazlık.
+- 65:1: ref ¶5 - Allah'ın sonradan bir iş meydana getirmesi.
+- 68:52: ref ¶4 - hitabın âlemler için zikr oluşu.
+- 77:50: ref ¶20 - ondan sonra hangi hadîse inanacaklarının sorulması.
+- 92:1: ref ¶16 - gecenin örtmesinin korkusuz kullanımı.
+- 93:11: ref ¶5 - Rabbin nimetini anlatma emri.
+- 101:11: not relevant - yalnızca ateşin niteliğini bildirir.
+- 18:48: not relevant - kıyametteki toplanma, haberin gelişi ya da örtme yapısını açıklamaz.
+- 74:10: not relevant - günün zorluğu, ayetin adlandırma ve haber düzeniyle bağ kurmaz.
+- 79:34: ref ¶3, ¶10 - büyük kaplayıcı olayın gelecek için “geldiğinde” denmesi.
+- 101:2: ref ¶1, ¶10 - kıyamet adını soru ile dinleyenin önüne koyması.
+- 11:120: ref ¶2 - geçmiş elçi haberlerinin gönlü sağlamlaştıran öğüt ve zikr oluşu.
+- 38:21: ref ¶2 - “Sana hasımların haberi geldi mi” sorusunun geçmiş sahneyi açması.
+- 68:44: ref ¶20 - bu hadîsi yalanlayanlara fark etmeden mühlet verilmesi.
+- 71:7: ref ¶19 - çağrıdan kaçarken kulakları ve elbiseleriyle kendilerini örtmeleri.
+- 74:9: not relevant - günün zorluğunu söyler, haber ya da örtme mekanizmini açmaz.
+- 76:1: ref ¶1 - soru ile açılan ve ardından insanın yaratılışına geçen hitap.
+- 91:4: ref ¶16 - gecenin örten devinimi.
+- 2:7: ref ¶19 - kalp ve işitmenin mühürlenişiyle gözdeki perde.
+- 2:76: not relevant - insanlar arasındaki gizli konuşma, ilâhî haber anlamını taşımaz.
+- 2:109: not relevant - toplumsal bir buyruğun sonundaki ilâhî emir gelişi.
+- 2:118: not relevant - ayet istemeleri, haberin gelişiyle aynı ilişki değildir.
+- 2:148: not relevant - Allah'ın herkesi toplaması, ayetteki geliş ya da örtme resmini açıklamaz.
+- 3:154: ref ¶16 - emniyet olarak bir topluluğu örten uyku.
+- 4:140: not relevant - başka konuşmaya geçme buyruğu, hadîsin ilâhî haber oluşuyla ilgili değildir.
+- 7:54: ref ¶16 - gecenin gündüzü örtmesi.
+- 7:189: not relevant - hayat doğuran eşler arası örtü, haberin ve azabın kaplamasıyla bağ kurmaz.
+- 9:52: not relevant - askerî sonuçları bekleme, ayetin haber yapısını açmaz.
+- 12:49: not relevant - kıssadaki gelecek yıl, gâşiyenin gelişiyle anlamlı bir bağ kurmaz.
+- 12:101: ref ¶7 - ahâdîsin te'vilinin öğretilmesi.
+- 18:15: not relevant - putlar için delil getirme talebi, haber ya da örtme ilişkisini açmaz.
+- 23:60: not relevant - dönüş korkusuyla verenlerin hali, hadîs ve gâşiye bağı kurmaz.
+- 26:89: not relevant - selim kalple Allah'a gelmek, burada konuşulan perde ya da haber yapısını açıklamaz.
+- 33:19: ref ¶14 - ölümden bayılmış kimsenin bakışının savaş korkusuna benzetilmesi.
+- 37:54: not relevant - bakma çağrısı, soru ile haber açma işlevini taşımaz.
+- 52:34: ref ¶20 - bu hadîsin benzerini getirme meydan okuması.
+- 68:41: not relevant - ortaklarını getirme meydan okuması, yalnızca gelmek fiilini paylaşır.
+- 92:16: not relevant - genel inkâr ve yüz çevirme, hadîs ya da perdeyi adlandırmaz.
+- 6:67: prose ¶8; ref ¶3 - her haberin karara varacağı yerini bildirmesi.
+- 22:21: not relevant - demir tokmaklar, örtmenin darbe-elbise resmini açıklamaz.
+- 36:9: ref ¶19 - örtünün görmeyi engellemesi.
+- 39:40: ref ¶21 - kişiye gelen rezil edici ve yerleşik azap.
+- 89:5: not relevant - yeminin sonunda gelen soru, haber eşiği kurmaz.
+- 101:3: ref ¶1 - Kâria'nın ne olduğuna dair dinleyeni bekleten soru.
+- 101:10: ref ¶1 - Hâviye'nin ne olduğuna dair açıklamayı geciktiren soru.
+- 102:1: not relevant - çoğaltma tutkusu, haber veya örtü ilişkisini taşımaz.
+- 104:5: ref ¶1 - Hutame'nin ne olduğuna dair dinleyeni eşiğe getiren soru.
+- 8:7: not relevant - savaşta vaat edilen iki topluluk, örtme yahut haber yapısını açmaz.
+- 8:8: not relevant - hakkın gerçekleştirilmesi, uykuyla örtülme bağını doğrudan tamamlamaz.
+- 8:10: ref ¶16 - yardımın kalplere güven vermesi.
+- 8:12: ref ¶16 - aynı savaşta inkâr edenlerin kalbine korku atılması.
+- 8:13: not relevant - cezanın sebebi, örtme fiilinin karşıt yüzünü açıklamaz.
+- 12:103: not relevant - çoğunluğun iman etmemesi, gâşiyenin gelişiyle özel bağ kurmaz.
+- 12:104: ref ¶4 - hitabın âlemler için zikr oluşu.
+- 12:106: not relevant - imana şirk karıştırmaları, haberi önceden tanıma ilişkisini açmaz.
+- 12:108: ref ¶23 - gâşiye uyarısından sonra basiret üzere Allah'a çağrı.
+- 12:109: not relevant - önceki elçilerin erkek oluşu ve yeryüzünde dolaşma çağrısı.
+- 16:0: not relevant - besmele, ayetin geliş yapısını açıklamaz.
+- 16:2: not relevant - meleklerle gelen uyarı, 16:1'deki geçmiş fiilin gelecek anlamını açıklamaz.
+- 16:3: not relevant - yaratılış bildirimi, haber ve örtme ilişkisini açmaz.
+- 20:7: not relevant - Allah'ın gizliyi bilmesi, Musa haberinin açılış biçimine ek yapmaz.
+- 20:8: not relevant - güzel isimlerin anılması, haber kalıbını açıklamaz.
+- 20:10: ref ¶2 - Musa haberinde ateşi görmesi ve ailesine seslenmesi.
+- 20:11: ref ¶2 - ateşe vardığında gelen çağrı.
+- 20:75: not relevant - müminin dereceleri, denizin örtme sahnesini açıklamaz.
+- 20:76: not relevant - cennet karşılığı, Firavun'un örtülmesiyle doğrudan bağ kurmaz.
+- 20:79: not relevant - Firavun'un kavmini saptırması, örtme fiilinin anlamını eklemez.
+- 20:80: not relevant - kurtarılma ve nimetler, denizin örtme söyleyişini açıklamaz.
+- 21:0: not relevant - besmele, yeni zikrin gelişiyle ilgili ek taşımaz.
+- 21:3: ref ¶6 - yeni zikri oyunla dinleyen kalplerin gafleti.
+- 21:4: not relevant - Rabbin sözü bilmesi, yeni zikrin karşılanışını açıklamaz.
+- 23:42: ref ¶9 - birbiri ardınca yaratılan kuşaklar.
+- 23:43: ref ¶9 - hiçbir ümmetin ecelini aşamaması.
+- 23:45: ref ¶9 - elçilik zincirinin Musa ile Harun'a varması.
+- 23:46: ref ¶9 - Firavun çevresinin elçiliğe karşı büyüklük taslaması.
+- 29:51: ref ¶20 - indirilen kitabın okunmasının rahmet ve zikr oluşu.
+- 29:52: not relevant - Allah'ın şahitliği, haberin önceden gelişiyle bağ kurmaz.
+- 29:54: ref ¶13 - cehennemin inkârcıları kuşatması.
+- 29:56: not relevant - yeryüzünün genişliği ve kulluk buyruğu.
+- 29:57: not relevant - ölüm ve dönüş, örtme yahut haberin gelişiyle özel bağ kurmaz.
+- 34:17: ref ¶9 - Sebe halkının küfrüne karşılık cezalandırılması.
+- 34:18: not relevant - güvenli yolculuk, deve adımı ve dönüş resmiyle yeterli bağ kurmaz.
+- 34:20: not relevant - İblis'in zannı ve ona uyanlar, anlatılan hikâyeye dönüşme sonucunu açıklamaz.
+- 34:21: not relevant - ahirete iman sınanması, hadîse dönüşme bağını açmaz.
+- 44:8: not relevant - diriltme ve öldürme bildirimi, dumanın örtme işini açıklamaz.
+- 44:9: ref ¶13 - dumandan önceki kuşku ve oyalanma.
+- 44:12: ref ¶13 - kaplayan azabın kaldırılmasını istemeleri.
+- 44:13: ref ¶23 - apaçık elçi geldikten sonra hatırlamanın sorulması.
+- 45:21: not relevant - günahkârlarla iman edenlerin eşit olmayışı, göz perdesini açıklamaz.
+- 45:22: not relevant - yaratılış ve karşılık ilkesi, perde-hatırlama bağını açmaz.
+- 45:24: not relevant - zamanın öldürdüğü iddiası, ayetteki haber veya örtme işini taşımaz.
+- 45:25: not relevant - ataları getirme talebi, gözdeki gışâveye ek yapmaz.
+- 47:18: prose ¶23 - saatin belirtileri ile saatin gelişi arasındaki geri dönülmez vakit.
+- 47:19: not relevant - bilgi ve bağışlanma buyruğu, ölümden bayılmış bakışın anlamını açmaz.
+- 47:21: not relevant - iş kesinleşince doğruluk çağrısı, baygınlık resmini tamamlamaz.
+- 47:22: not relevant - yeryüzünde bozgunculuk ihtarı, bakış ve örtü bağı kurmaz.
+- 51:22: not relevant - gökteki rızık ve vaat, İbrahim kıssasının soru kalıbını açıklamaz.
+- 51:23: not relevant - vaadin doğruluğu, konuklar haberinin sahneye açılışını açıklamaz.
+- 51:25: ref ¶2 - İbrahim'in konuklarının selâm ile girmesi.
+- 51:26: ref ¶2 - İbrahim'in ailesine gidip ikram getirmesi.
+- 53:48: not relevant - zengin etme ve yeterli kılma, yakın günün haberine ek yapmaz.
+- 53:49: not relevant - Şi'râ'nın rabbi oluşu, örtme ve hadîs ilişkisini açmaz.
+- 53:51: ref ¶17 - Semûd'un yok edilmesiyle eski helaklerin sürmesi.
+- 53:52: ref ¶17 - Nuh kavminin önceki helak edilmiş topluluklara katılması.
+- 53:53: ref ¶12, ¶17 - altüst olmuş şehrin adı ve helakler dizisindeki yeri.
+- 53:55: not relevant - Rabbin hangi nimetinden kuşkulanıldığı, örtme söyleyişini açıklamaz.
+- 53:61: ref ¶17 - habere karşı eğlenceye dalmaları.
+- 79:13: not relevant - tek çığlık, Musa haberinin soru kalıbını açıklamaz.
+- 79:14: not relevant - insanların uyanık yere çıkması, geçmiş kıssa açılışına ek yapmaz.
+- 79:16: ref ¶2 - Musa'nın kutsal vadide çağrılması.
+- 79:17: not relevant - Firavun'a gitme buyruğu, soru kalıbını açıklamaz.
+- 83:12: not relevant - günahkârın yalanlaması, pas ve perde ilişkisine yeni bir unsur katmaz.
+- 83:13: ref ¶19, ¶20 - ayetleri “öncekilerin masalları” saymaları.
+- 83:15: ref ¶19 - o gün Rablerinden perdelenmeleri.
+- 83:16: not relevant - cehenneme giriş, perdenin işleyişine ek yapmaz.
+- 85:15: not relevant - arşın yüceliği, ordular haberinin açılışını açıklamaz.
+- 85:16: not relevant - Allah'ın dilediğini yapması, haber kalıbına ek yapmaz.
+- 85:19: not relevant - inkârcıların yalanlaması, ordular haberinin yapısını değiştirmez.
+- 85:20: not relevant - Allah'ın kuşatıcılığı, gâşiyenin özel örtme sahnesini açıklamaz.
+- 4:87 own: ref ¶5 - kıyamette toplanma vaadinin Allah'ın en doğru hadîsi oluşu.
+- 6:25 own: ref ¶19 - ayetleri dinlerken kalpleri anlamaktan alıkoyan örtüler ve kulak ağırlığı.
+- 6:26 own: ref ¶20 - insanları ayetlerden alıkoyup kendisinin de uzak durması.
+- 6:65 own: ref ¶13 - azabın üstten yahut ayakların altından gelmesi.
+- 7:187 own: ref ¶23 - saatin yalnız ansızın gelmesi.
+- 12:111 own: prose ¶5 - kıssanın uydurulmuş değil, doğrulayan ve yol gösteren hadîs oluşu.
+- 17:45 own: prose ¶20; ref ¶19 - Kur'an okunurken ahirete inanmayanlarla okuyan arasındaki gizli perde.
+- 17:46 own: context ¶20 (in 17:45); ref ¶19 - kalplerdeki örtüler, kulaklardaki ağırlık ve zikre sırt çevirme.
+- 17:47 own: ref ¶20 - Kur'an dinlenirken onun büyü diye gizlice nitelenmesi.
+- 18:56 own: ref ¶20 - ayetler ve uyarılarla alay ederek hakka karşı batılla tartışmaları.
+- 18:57 own: ref ¶19 - hatırlatılanların kalplerini anlamaktan alıkoyan örtüler.
+- 20:99 own: ref ¶2 - geçmiş haberlerin anlatılmasıyla zikrin verilmesi.
+- 20:100 own: ref ¶20 - zikrden yüz çevirenin kıyamette yük taşıması.
+- 21:39 own: ref ¶13 - ateşi yüzlerden ve sırtlardan savamama.
+- 21:40 own: ref ¶23 - olayın ansızın gelip şaşkına çevirmesi.
+- 41:4 own: ref ¶4 - hitabın müjdeleyen ve uyaran oluşu.
+- 41:5 own: ref ¶19 - çağrı karşısında kalp örtüsü, kulak ağırlığı ve perde.
+- 43:66 own: ref ¶23 - saatin farkında olmadan ansızın gelmesi.
+- 50:19 own: ref ¶14 - ölüm sarhoşluğunun hak ile gelmesi.
+- 50:22 own: ref ¶17 - kıyamet gününde örtünün kaldırılması.
+- 51:55 own: ref ¶4 - hatırlatmanın inananlara fayda vermesi.
+- 69:1 own: ref ¶1 - Hâkka adının soru öncesinde tek başına durması.
+- 69:2 own: ref ¶1 - Hâkka'yı soruyla dinleyenin önüne koyması.
+- 69:3 own: ref ¶1 - Hâkka'nın ne olduğuna dair bilgiyi erteleyen soru.
+- 78:1 own: ref ¶1 - büyük haberi soru ile açması.
+- 78:2 own: ref ¶1 - sorunun konusunu büyük haber diye adlandırması.
+- 78:3 own: ref ¶1 - büyük haber üzerindeki ayrılığı bildirmesi.
+- 78:4 own: ref ¶1 - sorunun ardından bilinecek olanı bildirmesi.
+- 78:5 own: ref ¶1 - bilme vaadini yinelemesi.
+- 87:9 own: ref ¶4 - hatırlatma buyruğu.
+- 87:10 own: ref ¶4 - korkanın hatırlamaya yönelmesi.
+- 87:11 own: ref ¶4 - en bedbahtın hatırlatmadan kaçınması.
+- 101:1 own: ref ¶10 - kıyamet olayının yaptığı işten türemiş adı.

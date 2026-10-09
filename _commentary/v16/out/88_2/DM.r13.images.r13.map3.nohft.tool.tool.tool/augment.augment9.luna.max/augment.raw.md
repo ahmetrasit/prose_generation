@@ -1,0 +1,330 @@
+=== ADD ===
+paragraph: 14
+ref: 2:74
+text: Bakara suresinde İsrailoğullarının kalplerinin katılaşmasının ardından taşlardan ırmakların fışkırdığı, yarılıp su çıkardığı ve Allah korkusuyla yuvarlandığı anlatılır {source:2:74}. Taşın sertliği, suyu ve Allah korkusunu bütünüyle dışlamaz.
+
+=== REFS ===
+paragraph: 1
+text: Ayrıca: {source:99:6} insanların yaptıklarını görmek üzere ayrı ayrı dönüşünün kıyamet gününü açması.
+
+=== REFS ===
+paragraph: 2
+text: Ayrıca: {source:3:106} {source:3:107} {source:10:26} {source:10:27} {source:39:60} {source:75:22} {source:75:23} {source:75:24} {source:76:11} {source:80:38} {source:80:39} {source:80:40} {source:80:41} {source:83:24} yüzlerde beliren farklı âhiret hâllerinin iki takımı ayırması; {source:57:19} müminlerin nuru ile inkârcıların ateşte oluşunun bu ayrımı tamamlaması.
+
+=== REFS ===
+paragraph: 3
+text: Ayrıca: {source:8:50} {source:47:27} meleklerin ölüm anında yüzlere ve sırtlara vuruşu; {source:14:50} {source:21:39} {source:23:104} {source:27:90} {source:33:66} {source:54:48} yüzün ateşe sunulması, ateşle örtülmesi ya da ateşe sürüklenmesi; {source:22:72} ayetleri okuyanlara öfkenin yüzde görünmesi.
+
+=== REFS ===
+paragraph: 4
+text: Ayrıca: {source:20:108} seslerin Rahman’ın önünde kısılması; {source:79:9} {source:54:7} {source:42:45} {source:68:43} {source:70:44} bakışların yere indirilmesi; {source:32:12} başların Rabbin önünde eğilmesi; {source:17:109} {source:23:2} tilavet ve namazla artan huşu.
+
+=== REFS ===
+paragraph: 6
+text: Ayrıca: {source:16:87} o gün Allah’a teslim oluş; {source:20:112} imanla yapılan iyiliğe zulüm ya da eksiltme ilişmemesi.
+
+=== REFS ===
+paragraph: 7
+text: Ayrıca: {source:79:6} {source:79:7} gözlerin ve kalplerin anıldığı sahneden önce yeri sarsan iki dalga; {source:54:7} mezarlardan çıkarken gözlerin yere eğilmesi; {source:24:37} o gün kalplerin ve gözlerin altüst oluşu; {source:79:10} {source:79:11} bu dirilişi inkâr edenlerin geri dönüş sorusu.
+
+=== REFS ===
+paragraph: 8
+text: Ayrıca: {source:42:44} {source:42:46} azabı görenlerin dönüş isteği ve yardımcısız kalışı; {source:68:43} {source:70:44} {source:54:7} zilletin ve eğik bakışların başka diriliş sahnelerinde de görünmesi.
+
+=== REFS ===
+paragraph: 9
+text: Ayrıca: {source:69:18} hiçbir gizlinin saklı kalmaması; {source:75:13} insanın önden gönderdiği ve geride bıraktığıyla yüzleşmesi; {source:3:167} ağızdan söylenenle kalpte saklananın ayrılması; {source:4:42} Allah’tan hiçbir sözün gizlenememesi.
+
+=== REFS ===
+paragraph: 12
+text: Ayrıca: {source:39:21} bitkinin suyla yetişip sonra sararıp ufalanması; {source:22:6} {source:22:7} ölüleri diriltenin Allah oluşu ve saatin geleceği; {source:6:99} {source:7:57} {source:7:58} {source:30:50} {source:35:9} {source:50:9} {source:50:10} {source:50:11} yağmurla ölü toprağın canlanmasının dirilişe işaret etmesi.
+
+=== REFS ===
+paragraph: 13
+text: Ayrıca: {source:3:106} {source:3:107} {source:10:26} {source:10:27} {source:75:22} {source:75:24} {source:83:24} {source:80:38} {source:80:39} toprağın kapladığı yüzlerin karşısında aydınlık ve nimetle parlayan yüzlerin bulunması.
+
+=== ADD ===
+paragraph: 17
+ref: 81:1
+text: Tekvîr suresinde güneş dürülür, yıldızlar dökülür {source:81:1} {source:81:2}; gökteki ışıkların sönmesi de kıyamet sahnesinin bir parçasıdır.
+
+=== REFS ===
+paragraph: 14
+text: Ayrıca: {source:39:22} Allah’ın göğsünü İslam’a açmasının karşısında anışından katılaşan kalpler; {source:41:41} zikri geldiğinde onu inkâr edenlerin, dağın Kur’an karşısındaki tasavvurî huşuuyla karşıtlığı; {source:59:19} Allah’ı unutanların kendilerini de unutması; {source:3:199} Allah’a huşuyla yönelen kitap ehli.
+
+=== REFS ===
+paragraph: 15
+text: Ayrıca: {source:3:45} İsa’nın dünyada ve âhirette itibarlı kılınması; {source:31:18} büyüklük taslayıp insanlardan yüz çevirmenin kınanması; {source:56:3} Vâkıa’nın kimini alçaltıp kimini yükseltmesi.
+
+=== REFS ===
+paragraph: 16
+text: Ayrıca: {source:88:17} devenin nasıl yaratıldığına bakmaya çağrı.
+
+=== ADD ===
+paragraph: 17
+ref: 81:2
+text: Tekvîr suresinde güneş dürülür, yıldızlar dökülür {source:81:1} {source:81:2}; gökteki ışıkların sönmesi de kıyamet sahnesinin bir parçasıdır.
+
+=== REFS ===
+paragraph: 17
+text: Ayrıca: {source:75:5} {source:75:6} kıyamet gününü soran insanın önünde kötülüğe devam etmek istemesi; {source:75:11} {source:75:12} kaçış yeri olmadığını ve varışın Rabbe olduğunu bildirmesi.
+
+=== REFS ===
+paragraph: 18
+text: Ayrıca: {source:2:115} hangi yöne dönülürse Allah’ın yüzünün orada oluşu; {source:2:112} {source:3:20} {source:4:125} {source:30:30} yüzü Allah’a teslim etmenin doğru dine yöneliş olması; {source:2:272} {source:6:52} {source:13:22} {source:18:28} {source:30:38} {source:76:9} {source:92:20} Allah’ın yüzünü gözetmenin ibadet ve iyiliklerin yönünü belirlemesi.
+
+=== REFS ===
+paragraph: 19
+text: Ayrıca: {source:6:74} putlara karşı İbrahim’in babasına ve kavmine itirazı; {source:6:75} göklerin ve yerin hükümranlığının ona gösterilmesi; {source:6:77} {source:6:78} batan ay ve güneşten yüz çevirmesi; {source:6:80} {source:6:81} kavmiyle tartışırken yalnız Allah’tan korkması; {source:41:37} güneşe ve aya değil onları yaratana secde emri; {source:21:33} güneşle ayın yörüngelerinde akışı; {source:6:162} {source:6:163} namazın, hayatın ve ölümün âlemlerin Rabbine adanması; {source:30:30} yüzü hanif olarak dine yöneltme.
+
+=== REFS ===
+paragraph: 20
+text: Ayrıca: {source:2:142} kıble değişikliğine yöneltilen soru; {source:2:143} kıblenin elçiye uyup uymamayı sınaması; {source:2:145} {source:2:149} {source:2:150} Kâbe’ye yönelme emrinin yinelenmesi; {source:2:177} iyiliğin yalnız yüzü doğuya ya da batıya çevirmekten ibaret olmaması; {source:2:115} her yöne dönüldüğünde Allah’ın yüzünün bulunması.
+
+=== REFS ===
+paragraph: 21
+text: Ayrıca: {source:1:7} istenen dosdoğru yolun nimet verilenlerin yolu olarak açıklanması; {source:17:97} {source:27:90} yüzleri üzerine yürütülme ya da ateşe atılma sahnelerinin doğru yolda dimdik yürümenin karşısına konması.
+
+=== REFS ===
+paragraph: 22
+text: Ayrıca: {source:2:45} namazın huşu sahiplerine kolay gelmesi; {source:2:177} namazın, imanın ve iyiliğin bir arada anılması; {source:3:199} Allah’a huşuyla yönelenlerin ödülü; {source:7:29} mescitlerde yüzü Allah’a çevirip dini O’na has kılma; {source:17:105} {source:17:106} {source:17:108} hak ile indirilen Kur’an’ın okunması karşısında secde ve teslimiyet; {source:21:90} hayırlara koşan ve Allah’a huşuyla yönelenler; {source:23:3} namazdaki huşuya eşlik eden boş sözden yüz çevirme; {source:33:35} huşu sahiplerinin diğer kulluk nitelikleri; {source:48:29} rükû ve secde edenlerin yüzlerindeki iz; {source:2:43} rükû edenlerle birlikte rükû emri; {source:8:2} Allah anıldığında kalplerin ürpermesi; {source:19:58} ayetler okununca secdeye kapanıp ağlayanlar; {source:22:34} {source:22:35} Allah anılınca kalpleri ürperenler; {source:22:77} rükû ve secde emri; {source:39:9} gece secde edip ayakta duran kişi; {source:39:23} Allah’ın anışıyla ürperip sonra yumuşayan kalpler; {source:96:19} secde edip Allah’a yakınlaşma emri.
+
+=== REFS ===
+paragraph: 23
+text: Ayrıca: {source:70:43} {source:70:44} mezarlardan hızla çıkıp yönelenlerin gözlerinin eğik ve zillet içinde olması; {source:3:83} göklerde ve yerdekilerin Allah’a isteyerek ya da istemeyerek teslim olması; {source:13:15} gölgelerin ve canlıların secdesiyle insanların bir kısmının secde etmesi; {source:16:48} {source:16:49} {source:16:50} gölgelerin ve göktekilerin Allah’a secde edip büyüklük taslamaması; {source:22:18} göklerin, yerin ve canlıların secdesi; {source:25:60} Rahman’a secde etme çağrısını reddedenler.
+
+=== VERDICTS ===
+- 3:106: ref ¶2, ¶13 - yüzlerin iki ayrı takıma ayrılması
+- 3:107: ref ¶2, ¶13 - rahmette kalan aydınlık yüzler
+- 10:26: ref ¶2, ¶13 - nimet sahiplerinin yüzünü toz ve zilletin örtmemesi
+- 10:27: ref ¶2, ¶13 - kötülük sahiplerinin yüzünü karanlığın örtmesi
+- 17:109: cited ¶22; ref ¶4 - secde ve ağlayışla artan huşu
+- 20:108: cited ¶6; ref ¶4 - seslerin Rahman önünde kısılması
+- 20:111: cited ¶6; ref ¶2 - yüzlerin Hayy ve Kayyûm önünde boyun eğmesi
+- 32:12: ref ¶4 - Rabbin önünde başları eğik suçlular
+- 33:66: ref ¶3 - ateşte dönen yüzlerin itaat pişmanlığı
+- 39:24: cited ¶3; ref ¶2 - yüzün azaba karşı siper oluşu
+- 39:60: ref ¶2 - Allah’a yalan isnat edenlerin yüzlerinin kararması
+- 42:45: cited ¶8; ref ¶4 - ateşe sunulanların zilletle göz ucuyla bakması
+- 54:7: ref ¶4, ¶7 - mezarlardan çıkarken gözlerin yere eğilmesi
+- 57:16: cited ¶14; ref ¶22 - Allah’ın anışı ve inen hak karşısında kalbin huşuu
+- 68:42: cited ¶23; ref ¶22 - secdeye çağrılma ve güç yetirememe
+- 75:22: cited ¶17; ref ¶2, ¶13 - Rabbe bakan taze yüzler
+- 75:23: cited ¶17; ref ¶2 - yüzlerin Rablerine bakması
+- 75:24: cited ¶17; ref ¶2, ¶13 - felaket bekleyen asık yüzler
+- 76:11: ref ¶2 - o günün kötülüğünden korunma ve sevinç
+- 79:9: cited ¶7; ref ¶4 - gözlerin huşuyla eğilmesi
+- 80:38: ref ¶2, ¶13 - ışıl ışıl yüzler
+- 80:39: ref ¶2, ¶13 - gülen ve sevinen yüzler
+- 80:40: cited ¶13; ref ¶2 - yüzlerdeki tozun ikinci takımın alameti olması
+- 80:41: cited ¶13; ref ¶2 - yüzleri bürüyen karanlığın ikinci takımı ayırması
+- 2:45: ref ¶22 - huşu sahiplerine namazın kolay gelmesi
+- 2:112: ref ¶18, ¶19 - yüzü Allah’a teslim etme
+- 2:150: ref ¶20 - yüzleri Kâbe yönüne çevirme emri
+- 2:177: ref ¶20, ¶22 - iyiliğin yönelişten ibaret olmayıp kullukla tamamlanması
+- 3:20: ref ¶19, ¶20 - yüzü Allah’a teslim etme ve yüz çevirme
+- 3:199: ref ¶14, ¶22 - Allah’a huşuyla yönelen kitap ehli
+- 4:125: ref ¶19 - yüzü Allah’a teslim edip İbrahim’in yoluna uyma
+- 6:79: cited ¶19; ref ¶18 - yüzü gökleri ve yeri yaratana yöneltme
+- 7:8: not relevant - tartı ve başarı yüzün eğilişini anlatmıyor
+- 7:29: ref ¶22 - mescitte yüzü Allah’a çevirip dini O’na has kılma
+- 8:16: not relevant - savaşta sırt dönme kıyamet yüzlerini açıklamıyor
+- 8:50: ref ¶3 - ölüm anında yüzlere ve sırtlara vurulması
+- 14:49: not relevant - zincire vurulan suçluların yüz ya da huşu bağlantısı yok
+- 14:50: ref ¶3, ¶13 - ateşin yüzleri örtmesi
+- 16:87: ref ¶6 - o gün Allah’a teslimiyet
+- 17:97: ref ¶3, ¶21 - yüzleri üzerine haşredilme ve ateş
+- 18:99: not relevant - kalabalığın birbirine dalgalanması yüzlerin hâlini açıklamıyor
+- 18:100: not relevant - cehennemin sunulması yüzün eğilişiyle bağ kurmuyor
+- 20:102: not relevant - suçluların mavi gözlü toplanması paragrafın yüz ve huşu bağlantısını kurmuyor
+- 20:109: not relevant - şefaat izni yüzlerin eğilişini açıklamıyor
+- 21:39: ref ¶3 - ateşi yüzden ve sırttan savamama
+- 21:90: ref ¶22 - hayra koşanların Allah’a huşuyla yönelişi
+- 22:56: not relevant - hükümranlık ve cennet-cehennem ayrımı yüzleri anlatmıyor
+- 22:72: ref ¶3 - ayetleri okuyanlara öfkenin yüzde belirmesi
+- 23:2: cited ¶22; ref ¶4 - namazda huşu
+- 23:101: not relevant - soy bağlarının ve soruların kesilmesi
+- 23:104: ref ¶3 - ateşin yüzleri yakması
+- 24:37: ref ¶7 - o gün kalplerin ve gözlerin dönüp durması
+- 27:90: ref ¶3, ¶21 - yüzlerin ateşe kapaklanması
+- 33:35: ref ¶22 - huşu sahiplerinin diğer kulluk nitelikleriyle anılması
+- 40:9: not relevant - kötülüklerden korunma anlatısı yüzün aldığı cezayı açıklamıyor
+- 42:47: not relevant - dönüşü olmayan güne çağrı yüz ya da huşu bağlantısı taşımıyor
+- 43:17: ref ¶9 - kötü haber karşısında yüzün iç hâli göstermesi
+- 54:6: not relevant - çağırıcıya dair bu uyarı yüzlerin hâlini açıklamıyor
+- 55:41: not relevant - suçluların alametlerinden tanınması yüzün eğilişiyle bağ kurmuyor
+- 59:21: cited ¶14 - Kur’an karşısında eğilip yarılacağı bildirilen dağ
+- 67:22: cited ¶21; ref ¶3 - yüzüstü yürüyüş ve yüzün yere dönmesi
+- 67:27: ref ¶2, ¶17 - yaklaşan azabı gören inkârcıların yüzlerinin bozulması
+- 68:43: cited ¶23; ref ¶4 - zillet içindeki eğik bakış
+- 70:43: ref ¶23 - mezarlardan hızlıca çıkıp yönelenler
+- 70:44: ref ¶23 - gözlerin eğikliği ve zillet
+- 75:25: cited ¶17; ref ¶3 - yüzlerin felaket beklentisi
+- 76:10: ref ¶2 - inananların çetin günden korkması
+- 79:8: cited ¶7; ref ¶2 - o gün çarpıntı içindeki kalpler
+- 83:15: not relevant - Rablerinden perdelenme yüzün çöküşü ya da eğilişini açıklamıyor
+- 83:24: ref ¶2, ¶13 - nimet izinin yüzde tanınması
+- 92:14: not relevant - alevli ateş uyarısı yüzlerin hâlini söylemiyor
+- 92:16: ref ¶20 - yalanlayıp yüz çevirenlerin tutumu
+- 92:20: ref ¶18, ¶19 - yüce Rabbinin rızasını gözetme
+- 7:41: not relevant - cehennemin döşek ve örtüsü yüz ya da huşuyla bağ kurmuyor
+- 55:44: ref ¶2 - cehennem ateşiyle kaynar su arasında gidip gelme
+- 12:9: not relevant - babanın yüzünün onlar için boş kalması yüzün öne dönük oluşunu açıklamıyor
+- 26:87: not relevant - diriliş gününde rezil olmama duası yüzün hâline değinmiyor
+- 36:59: not relevant - suçluların ayrılması yüz ve huşu bağlantısı taşımıyor
+- 40:52: not relevant - mazeretlerin fayda vermemesi yüzlerin eğilişini açıklamıyor
+- 42:7: not relevant - toplanma gününde cennet ve cehennem takımları yüzlerden söz etmiyor
+- 56:3: ref ¶15 - Vâkıa’nın alçaltıp yükseltmesi
+- 68:16: not relevant - buruna damga vurulması yüzün alçalışını kurmuyor
+- 69:18: ref ¶9 - o gün hiçbir gizlinin saklı kalmaması
+- 70:15: not relevant - alevli ateşin anılması yüz bağlantısı taşımıyor
+- 74:10: not relevant - günün kâfirler için kolay olmaması yüzü anlatmıyor
+- 75:13: ref ¶9 - insanın önden gönderdiği ve geride bıraktığı
+- 83:5: not relevant - büyük günün adı yüz ve huşu bağlantısı kurmuyor
+- 84:12: not relevant - alevli ateşe girme yüzün hâlini açıklamıyor
+- 89:23: not relevant - cehennemin getirilişi yüzlerin eğilişiyle bağ kurmuyor
+- 2:115: ref ¶18, ¶20 - hangi yöne dönülürse Allah’ın yüzünün orada oluşu
+- 2:144: cited ¶20; ref ¶18 - kıbleye yöneliş ve yüzü çevirme emri
+- 2:272: ref ¶18 - Allah’ın yüzünü gözeterek verilen yardım
+- 3:72: not relevant - günün başlangıcında inanmış görünme yüzün düşmesiyle bağ kurmuyor
+- 3:167: ref ¶9 - ağızdan söylenenle kalpte olanın ayrılması
+- 4:42: ref ¶9 - Allah’tan hiçbir sözün gizlenememesi
+- 5:6: not relevant - abdestte yüzün yıkanması huşu ve eğilişi açıklamıyor
+- 6:16: not relevant - azaptan uzaklaştırılma yüzle ilgili değil
+- 6:52: ref ¶18 - Allah’ın yüzünü isteyerek dua edenler
+- 11:66: not relevant - kurtuluş ve o günün zilleti yüz ve huşu bağlantısı kurmuyor
+- 12:93: not relevant - gömleğin babanın yüzüne konması bu ayetteki eğilişi açıklamıyor
+- 13:22: ref ¶18 - Rabbin rızasını gözeterek sabretme, namaz ve infak
+- 18:28: ref ¶18, ¶22 - Rabbinin yüzünü isteyerek dua edenler
+- 25:24: not relevant - cennet ehlinin yeri yüz ya da huşuyla ilişkilendirilmiyor
+- 28:88: not relevant - Allah’ın yüzünün kalıcılığı insan yüzünün çöküşünü açıklamıyor
+- 30:38: ref ¶18 - Allah’ın yüzünü isteyerek yakına ve yoksula hakkını verme
+- 34:43: not relevant - ayetlerin uydurma diye nitelenmesi yüzlerin hâline bağlanmıyor
+- 41:39: cited ¶12; ref ¶14 - kurumuş toprağın suyla canlanması
+- 47:27: ref ¶3 - ölüm anında yüzlere ve sırtlara vurulması
+- 48:29: ref ¶22 - rükû ve secde edenlerin yüzlerindeki iz
+- 51:29: not relevant - yüzüne vurma huşu ya da kıyamet yüzüyle bağ kurmuyor
+- 54:48: ref ¶3, ¶21 - ateşe yüzüstü sürüklenme
+- 55:27: not relevant - Rabbin yüzünün kalıcılığı insan yüzünün eğilişiyle aynı bağ değil
+- 76:9: ref ¶18 - Allah’ın yüzünü gözeterek yedirme
+- 77:15: not relevant - yalanlayanlara yönelik uyarı yüz ve huşu bağlantısı taşımıyor
+- 6:44: not relevant - nimetlerden sonra ansızın yakalanma yüzlerin hâlini anlatmıyor
+- 69:15: not relevant - olayın gerçekleştiği gün yüz ve huşu bağlantısı yok
+- 74:9: not relevant - günün çetin oluşu yüzlerin hâlini söylemiyor
+- 90:8: not relevant - gözlerin yaratılması eğik bakışla bağ kurmuyor
+- 92:12: not relevant - hidayetin Allah’a ait olması yüz yönelişini açıklamıyor
+- 99:6: ref ¶1 - insanların yaptıklarını görmek üzere gruplar halinde dönüşü
+- 1:3: not relevant - Rahman ve Rahim oluşu Fatiha’daki yol isteğini açıklamıyor
+- 1:4: not relevant - hesap gününün sahibi oluşu paragrafın Fatiha’daki yol isteğine ek yapmıyor
+- 1:7: ref ¶21 - istenen yolun nimet verilenlerin yolu olarak açıklanması
+- 2:142: ref ¶20 - önceki kıbleye yönelme hakkında soru
+- 2:143: ref ¶20 - kıblenin elçiye uyup uymamayı sınaması
+- 2:145: ref ¶20 - kitap ehlinin kıbleye uymayacağını bildirmesi
+- 2:146: not relevant - hakkı bilip gizleme kıble yönelişinin anlamını genişletmiyor
+- 2:147: not relevant - Rabden gelen hak sözü kıble ve yüz yönüyle bağ kurmuyor
+- 2:149: ref ¶20 - yüzü Mescid-i Haram yönüne çevirme emrinin yinelenmesi
+- 6:74: ref ¶19 - İbrahim’in putlara ve kavminin şirkine itirazı
+- 6:75: ref ¶19 - göklerin ve yerin hükümranlığının İbrahim’e gösterilmesi
+- 6:77: ref ¶19 - batan ayı Rab edinmekten vazgeçiş
+- 6:78: ref ¶19 - batan güneşten yüz çeviriş
+- 6:80: ref ¶19 - İbrahim’in kavmiyle Allah hakkında tartışması
+- 6:81: ref ¶19 - Allah’a ortak koşulanlardan korkmama
+- 17:105: ref ¶22 - Kur’an’ın hak ile indirilmesi
+- 17:106: ref ¶22 - Kur’an’ın insanlara aralıklarla okunması
+- 17:108: ref ¶22 - vaadin gerçekleşeceğini söyleyip Rabbin yüceltilmesi
+- 17:110: not relevant - namazda sesi ne yükseltme ne kısma emri secdedeki huşuyu açıklamıyor
+- 17:111: not relevant - Allah’a hamd ve tekbir secde sahnesine bağlanmıyor
+- 20:105: ref ¶6 - dağların savrulacağının bildirilmesi
+- 20:106: ref ¶6 - yerin dümdüz bırakılması
+- 20:110: not relevant - Allah’ın bilgisi seslerin kısılması ve yüzlerin eğilişini tamamlamıyor
+- 20:112: ref ¶6 - imanla yapılan iyiliğe zulüm ya da eksiltme ilişmemesi
+- 20:113: not relevant - Kur’an’ın Arapça indirilmesi bu yüz ve ses sahnesini açıklamıyor
+- 22:3: not relevant - şeytanı izleyerek Allah hakkında tartışma bu diriliş sahnesine bağlanmıyor
+- 22:4: not relevant - şeytanın yönelttiği kişiyi saptırması yüzlerin hâlini açıklamıyor
+- 22:6: ref ¶12 - ölüleri diriltenin Allah oluşu
+- 22:7: ref ¶12 - saatin geleceği ve kabirdekilerin diriltileceği
+- 23:0: not relevant - sure başındaki besmele yüz ve huşu bağlantısı kurmuyor
+- 23:3: ref ¶22 - namazda huşuya eşlik eden boş sözden yüz çevirme
+- 23:4: not relevant - zekât verme namazdaki huşuya ek açıklama getirmiyor
+- 39:21: ref ¶12 - suyla yetişen bitkinin sararıp ufalanması
+- 39:22: ref ¶14 - Allah’ın göğsünü İslam’a açması ve anışından katılaşan kalpler
+- 39:25: not relevant - önceki topluluklara ansızın azap gelmesi yüz ve huşuyla bağ kurmuyor
+- 39:26: not relevant - dünyadaki zillet ve âhiret azabının büyüklüğü yüzlerin hâlini açıklamıyor
+- 41:37: ref ¶19 - güneşe ve aya değil onları yaratana secde emri
+- 41:38: not relevant - meleklerin gece gündüz tesbihi İbrahim’in gök cisimlerini reddedişini açıklamıyor
+- 41:40: not relevant - ateş ve güven sahnesi yüz ve yöneliş bağlantısı kurmuyor
+- 41:41: ref ¶14 - zikri geldiğinde Kur’an’ı inkâr etmenin dağın tasavvurî huşuuyla karşıtlığı
+- 42:43: not relevant - sabır ve bağışlama ateşe sunulanların bakışını açıklamıyor
+- 42:44: ref ¶8 - azabı görenlerin geri dönme isteği
+- 42:46: ref ¶8 - Allah’tan başka yardımcılarının bulunmaması
+- 57:14: not relevant - iki grubun konuşması kalbin toprağa benzetilmesini açıklamıyor
+- 57:15: not relevant - fidye ve ateş sahnesi kalp huşusuna ek getirmiyor
+- 57:18: not relevant - sadaka ve ödül kalbin huşu ve katılığı bağlantısını kurmuyor
+- 57:19: ref ¶2 - inananların nuru ve inkârcıların cehennem ehli oluşu
+- 59:19: ref ¶14 - Allah’ı unutanların kendilerini de unutması
+- 59:20: not relevant - ateş ve cennet ehlinin eşit olmaması dağ benzetmesine ek getirmiyor
+- 59:22: not relevant - Allah’ın gaybı ve görüneni bilmesi dağın huşuunu açıklamıyor
+- 59:23: not relevant - Allah’ın adları yüzde görülen çöküşle bağ kurmuyor
+- 67:19: not relevant - kuşların Rahman tarafından tutulması yüzüstü yürüyüşü açıklamıyor
+- 67:20: not relevant - Rahman’dan başka yardımcı bulunmaması paragrafın doğru yol karşılaştırmasına ek değil
+- 67:23: not relevant - işitme, görme ve kalbin yaratılması yüzüstü yürüyüşün yönünü açıklamıyor
+- 67:24: not relevant - yeryüzüne yayılma ve Allah’a haşrolma bu yürüyüş sahnesine ek getirmiyor
+- 68:40: not relevant - iddialar için kefil arama secdeye çağrı sahnesini açıklamıyor
+- 68:41: not relevant - ortakların çağrılması eğik göz ve secde edemeyişle bağ kurmuyor
+- 68:44: not relevant - yalanlayanlara mühlet verilmesi secde çağrısına ek getirmiyor
+- 68:45: not relevant - mühletin uzunluğu gözlerin eğilişini açıklamıyor
+- 75:5: ref ¶17 - kıyamet sorusundan önce insanın önünde günaha devam etmek istemesi
+- 75:6: ref ¶17 - kıyamet gününün ne zaman olduğunun sorulması
+- 75:11: ref ¶17 - kaçacak sığınak bulunmaması
+- 75:12: ref ¶17 - o gün varış yerinin Rabbin olması
+- 75:20: not relevant - dünya hayatını sevme yüzlerin görünüşünü açıklamıyor
+- 75:21: not relevant - âhireti terk etme yüzlerin görünüşünü açıklamıyor
+- 75:26: not relevant - canın köprücük kemiklerine ulaşması kıyamet yüzlerini açıklamıyor
+- 75:27: not relevant - canı kimin çıkaracağının sorulması yüzlerin hâline bağlanmıyor
+- 79:6: ref ¶7 - yeri sarsan ilk dalga
+- 79:7: ref ¶7 - onu izleyen ikinci dalga
+- 79:10: ref ¶7 - inkârcıların eski hâle döndürülme sorusu
+- 79:11: ref ¶7 - çürümüş kemiklerin diriltilmesini inkâr ediş
+- 80:31: not relevant - meyve ve otlar diriliş günündeki yüzleri açıklamıyor
+- 80:32: not relevant - insanların ve hayvanların faydası yüzlerin çöküşüne bağlanmıyor
+- 80:34: ref ¶13 - o gün kişinin kardeşinden kaçması
+- 80:35: ref ¶13 - kişinin annesinden ve babasından kaçması
+- 80:42: ref ¶13 - tozlu yüzlerin kâfir ve günahkâr olarak nitelenmesi
+- 86:6: ref ¶9 - insanın fışkıran sudan yaratılması
+- 86:7: ref ¶9 - suyun sulb ile göğüs kemikleri arasından çıkması
+- 86:10: ref ¶9 - sırlar ortaya çıkınca insanın güç ve yardımcı bulamaması
+- 86:11: not relevant - dönüş sahibi gök yağmuru yüzlerin hâlini açıklamıyor
+- 2:74 own: prose ¶14 - katılaşan kalpler karşısında taşlardan su fışkırması ve Allah korkusuyla yuvarlanma
+- 6:99 own: ref ¶12 - yağmurla ürünlerin yetişmesi ve ölü toprağın canlanması
+- 7:57 own: ref ¶12 - yağmurun ölü beldeye indirilmesi
+- 7:58 own: ref ¶12 - güzel toprağın bitkisinin Rabbin izniyle çıkması
+- 30:50 own: ref ¶12 - Allah’ın rahmetinin ardından yeryüzünün dirilmesi
+- 35:9 own: ref ¶12 - rüzgâr ve yağmurla ölü beldenin canlanması
+- 50:9 own: ref ¶12 - gökten bereketli su indirilmesi
+- 50:10 own: ref ¶12 - suyla yetişen yüksek hurma ağaçları
+- 50:11 own: ref ¶12 - ölü beldeyi dirilten suyun insanları çıkaracak olması
+- 3:45 own: ref ¶15 - İsa’nın dünyada ve âhirette itibarlı kılınması
+- 31:18 own: ref ¶15 - büyüklük taslayarak insanlardan yüz çevirmenin kınanması
+- 88:17 own: ref ¶16 - devenin nasıl yaratıldığına bakma çağrısı
+- 81:1 own: prose ¶17 - güneşin dürülmesi
+- 81:2 own: prose ¶17 - yıldızların dökülmesi
+- 30:30 own: ref ¶18, ¶19 - yüzü hanif olarak dine yöneltme
+- 21:33 own: ref ¶19 - güneşle ayın yörüngelerinde akışı
+- 6:162 own: ref ¶19 - namazı, hayatı ve ölümü âlemlerin Rabbine adama
+- 6:163 own: ref ¶19 - Allah’a ortak koşmadan O’na yönelme
+- 2:43 own: ref ¶22 - namazda rükû edenlerle birlikte rükû emri
+- 8:2 own: ref ¶22 - Allah anılınca kalplerin ürpermesi
+- 19:58 own: ref ¶22 - ayetler okununca secdeye kapanıp ağlama
+- 22:34 own: ref ¶22 - Allah anılınca kalplerin ürpermesi
+- 22:35 own: ref ¶22 - namaz kılanların ve huşu sahiplerinin niteliği
+- 22:77 own: ref ¶22 - rükû ve secde emri
+- 39:9 own: ref ¶22 - gece secde edip ayakta duran kişi
+- 39:23 own: ref ¶22 - Allah’ın anışıyla ürperip yumuşayan kalpler
+- 96:19 own: ref ¶22 - secde ederek Allah’a yakınlaşma emri
+- 3:83 own: ref ¶23 - göklerde ve yerdekilerin isteyerek ya da istemeyerek Allah’a teslim olması
+- 13:15 own: ref ¶23 - gölgelerin ve canlıların secdesi
+- 16:48 own: ref ¶23 - gölgelerin Allah’a secdesi
+- 16:49 own: ref ¶23 - canlıların ve meleklerin Allah’a secdesi
+- 16:50 own: ref ¶23 - meleklerin Rablerinden korkup emredileni yapması
+- 22:18 own: ref ¶23 - göklerin, yerin ve canlıların secdesi
+- 25:60 own: ref ¶23 - Rahman’a secde çağrısını reddedenler
