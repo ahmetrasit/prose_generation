@@ -1,0 +1,156 @@
+## ¶2 · prose · 79:13 · applied
+
+**+** Nâziât suresinde bu soru, gelecek günü anlatan iki sahnenin arasına yerleştirilmiştir. Hemen önünde o gün anlatılır: {ar:فَإِنَّمَا هِىَ زَجْرَةٌۭ وَٰحِدَةٌۭ, tr:fe-innemâ hiye zecratun vâhide, gloss:o yalnızca tek bir haykırıştır, source:79:13}; {ar:فَإِذَا هُم بِٱلسَّاهِرَةِ, tr:fe-izâ hum bi's-sâhira, gloss:bir de bakarsın, onlar yeryüzünün açığındadır, source:79:14}. Musa'nın kıssası korkan için bir ibret olduğu söylenerek kapandıktan {source:79:26} sonra sure yeniden o güne döner: {ar:فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلْكُبْرَىٰ, tr:fe-izâ câeti't-tâmmetu'l-kübrâ, gloss:her şeyi bastıran o en büyük felaket geldiğinde, source:79:34}. Orada geçmiş bir kıssayı açan soru, gelecekten söz eden bir anlatının ortasında durur.
+
+## ¶3 · prose · 6:5 · applied
+
+**+** En'âm suresinde, Rablerinin ayetlerinden kendilerine gelen her ayetten yüz çevirenler {source:6:4} için iki geliş yan yana anılır; hakkın gelişi geride kalmıştır, haberlerin gelişi ileridedir: {ar:فَقَدْ كَذَّبُوا۟ بِٱلْحَقِّ لَمَّا جَآءَهُمْ ۖ فَسَوْفَ يَأْتِيهِمْ أَنۢبَٰٓؤُا۟ مَا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ, tr:fe-kad kezzebû bi'l-hakkı lemmâ câehum fe-sevfe ye'tîhim enbâu mâ kânû bihî yestehziûn, gloss:hak kendilerine geldiğinde onu yalanladılar; alay ettikleri şeyin haberleri yakında onlara gelecek, source:6:5}. Orada sonra gelecek olan haber, alay edilen şeyin gerçekleşmesinin kendisidir: bugün dinlenmeyen söz, yarın olay olarak gelir.
+
+## ¶8 · prose · 99:4 · applied
+
+**+** Zelzele suresinde yer sarsılıp ağırlıklarını dışarı çıkardığında {source:99:1} {source:99:2} ve insan "ona ne oluyor" dediğinde {source:99:3}, o gün için şöyle denir: {ar:يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا, tr:yevmeizin tuhaddisu ahbârahâ, gloss:o gün yer, haberlerini anlatır, source:99:4}; çünkü Rabbi ona vahyetmiştir {source:99:5}. Anlatmak fiili hadîsin kökündendir, ve anlatan, olayın yaşandığı yerin kendisidir: o gün olayın sahnesi, haberini kendisi söyler.
+
+## ¶12 · prose · 53:16 · applied
+
+**+** Aynı söyleyiş Necm suresinde bir kez daha gelir, bu kez bir yıkım için değil, görülen bir şeyin büyüklüğü için. Sure, bir başka inişte, son sınırdaki sidre ağacının yanında görülenden söz eder {source:53:13} {source:53:14} ve şöyle der: {ar:إِذْ يَغْشَى ٱلسِّدْرَةَ مَا يَغْشَىٰ, tr:iz yağşe's-sidrete mâ yağşâ, gloss:o zaman sidreyi örten şey örtüyordu, source:53:16}. Aynı surede hem helak edilen kenti hem sidreyi örten şey adı verilmeden, yalnızca fiiliyle anılır; adsız bırakılan örtü, dehşet verici olanı da hayranlık verici olanı da taşır.
+
+## ¶13 · prose · 7:41 · applied
+
+**+** A'râf suresinde Allah'ın ayetlerini yalanlayıp onlara karşı büyüklenenler için göğün kapılarının açılmayacağı söylendikten {source:7:40} sonra yerleri anlatılır: {ar:لَهُم مِّن جَهَنَّمَ مِهَادٌۭ وَمِن فَوْقِهِمْ غَوَاشٍۢ ۚ وَكَذَٰلِكَ نَجْزِى ٱلظَّٰلِمِينَ, tr:lehum min cehenneme mihâdun ve min fevkıhim ğavâş ve kezâlike neczi'z-zâlimîn, gloss:onlar için cehennemden bir döşek, üstlerinden de örtüler vardır; zalimleri böyle cezalandırırız, source:7:41}. "Örtüler" diye okunan ğavâş, gâşiyenin çoğuludur. Kelime orada cehennemin onları üstten kat kat saran örtülerine ad olur, altlarına serilen döşek de cehennemdendir: altta da üstte de ondan başka bir şey kalmaz.
+
+## ¶15 · prose · 14:50 · applied
+
+**+** İbrâhîm suresinde o gün suçluların zincirlere vurulmuş olarak görüleceği söylenir {source:14:49}, sonra elbiseleri ve yüzleri anılır: {ar:سَرَابِيلُهُم مِّن قَطِرَانٍۢ وَتَغْشَىٰ وُجُوهَهُمُ ٱلنَّارُ, tr:serâbîluhum min katırânin ve tağşâ vucûhehumu'n-nâr, gloss:gömlekleri katrandandır, yüzlerini de ateş örter, source:14:50}. Giydirilen elbise ile örtme fiili orada tek ayette yan yana durur: bedene katrandan bir gömlek giydirilir, yüze de ateş örtü olur.
+
+## ¶16 · prose · 10:27 · applied
+
+**+** Yûnus suresi, yüzlere inen örtüyle inmeyen örtüyü yan yana koyar. Güzel davrananlar için {ar:وَلَا يَرْهَقُ وُجُوهَهُمْ قَتَرٌۭ وَلَا ذِلَّةٌ, tr:ve lâ yerhaku vucûhehum katerun ve lâ zilleh, gloss:yüzlerini ne bir karartı ne bir zillet bürür, source:10:26} denir; kötülük kazananlar için ise: {ar:كَأَنَّمَآ أُغْشِيَتْ وُجُوهُهُمْ قِطَعًۭا مِّنَ ٱلَّيْلِ مُظْلِمًا, tr:keennemâ uğşiyet vucûhuhum kıta'an mine'l-leyli muzlimâ, gloss:sanki yüzleri gecenin karanlık parçalarıyla örtülmüştür, source:10:27}. Örtmek fiili orada yüzlere iner ve neyle örtüldükleri söylenir: karanlık bir gecenin parçaları. Öteki yüzlere hiçbir şey inmez, ve onlar bahçenin halkıdır.
+
+## ¶17 · prose · 44:12 · applied
+
+**+** Duhan suresinde insanları örten dumanın altında kalanlar, Rablerine açma fiiliyle seslenir: {ar:رَّبَّنَا ٱكْشِفْ عَنَّا ٱلْعَذَابَ إِنَّا مُؤْمِنُونَ, tr:rabbene'kşif anne'l-azâbe innâ mu'minûn, gloss:Rabbimiz, bu azabı üstümüzden aç; biz inanıyoruz, source:44:12}. Cevap da aynı fiille gelir: {ar:إِنَّا كَاشِفُوا۟ ٱلْعَذَابِ قَلِيلًا ۚ إِنَّكُمْ عَآئِدُونَ, tr:innâ kâşifu'l-azâbi kalîlen innekum âidûn, gloss:Biz azabı biraz açıp kaldıracağız; siz ise yine döneceksiniz, source:44:15}. Örten azabı kaldırmak orada da yalnızca Allah'ın elindedir: O'ndan istenir, ve O biraz kaldırır.
+
+## ¶18 · prose · 39:23 · applied
+
+**+** Zümer suresi Kur'an'ı tam da bu kelimeyle anar ve onun derilerde ve yüreklerde ne yaptığını söyler: {ar:ٱللَّهُ نَزَّلَ أَحْسَنَ ٱلْحَدِيثِ كِتَٰبًۭا مُّتَشَٰبِهًۭا مَّثَانِىَ تَقْشَعِرُّ مِنْهُ جُلُودُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُمْ ثُمَّ تَلِينُ جُلُودُهُمْ وَقُلُوبُهُمْ إِلَىٰ ذِكْرِ ٱللَّهِ, tr:Allâhu nezzele ahsene'l-hadîsi kitâben müteşâbihen mesâniye takşa'irru minhu cülûdu'llezîne yahşevne rabbehum summe telînu cülûduhum ve kulûbuhum ilâ zikrillâh, gloss:Allah sözün en güzelini, birbirine benzeyen, tekrar tekrar dönen bir kitap olarak indirdi; Rablerinden korkanların derileri ondan ürperir, sonra derileri de yürekleri de Allah'ı anmaya yumuşar, source:39:23}. Orada hadîs, tekrar tekrar dönen bir söz olarak yüreğe dokunur: önce ürpertir, sonra yumuşatır.
+
+## ¶19 · prose · 83:15 · applied
+
+**+** Mutaffifîn suresinde yüreklerini pas tutanların sözü o günle sürer: {ar:كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍۢ لَّمَحْجُوبُونَ, tr:kellâ innehum an rabbihim yevmeizin le-mahcûbûn, gloss:hayır; onlar o gün Rablerinden perdelenmiş olacaklardır, source:83:15}; {ar:ثُمَّ إِنَّهُمْ لَصَالُوا۟ ٱلْجَحِيمِ, tr:summe innehum le-sâlu'l-cahîm, gloss:sonra onlar mutlaka cehenneme gireceklerdir, source:83:16}. Bugün yüreğin üstünde duran pas, o gün onlarla Rableri arasına giren bir perdeye döner.
+
+## ¶19 · prose · 71:7 · applied
+
+**+** Nûh suresinde örtüyü insan kendi eliyle çeker. Nuh, kavmini çağırdıkça ne yaptıklarını Rabbine anlatır: {ar:وَإِنِّى كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوٓا۟ أَصَٰبِعَهُمْ فِىٓ ءَاذَانِهِمْ وَٱسْتَغْشَوْا۟ ثِيَابَهُمْ وَأَصَرُّوا۟ وَٱسْتَكْبَرُوا۟ ٱسْتِكْبَارًۭا, tr:ve innî küllemâ de'avtuhum li-tağfira lehum cealû esâbi'ahum fî âzânihim vestağşev siyâbehum ve esarrû vestekberû'stikbârâ, gloss:onları bağışlaman için her çağırdığımda parmaklarını kulaklarına tıkadılar, elbiselerine büründüler, direndiler ve büyüklendikçe büyüklendiler, source:71:7}. "Büründüler" fiili gâşiyenin kökündendir: çağrı geldikçe kulak parmakla, beden elbiseyle örtülür, ve çağrı onları yalnızca kaçışta artırır {source:71:6}.
+
+## ¶20 · prose · 50:22 · applied
+
+**+** Kâf suresinde ölüm sarhoşluğu hakla geldikten {source:50:19} ve her nefis yanında bir sürücü ve bir tanıkla geldikten {source:50:21} sonra insana şöyle denir: {ar:لَّقَدْ كُنتَ فِى غَفْلَةٍۢ مِّنْ هَٰذَا فَكَشَفْنَا عَنكَ غِطَآءَكَ فَبَصَرُكَ ٱلْيَوْمَ حَدِيدٌۭ, tr:lekad kunte fî ğafletin min hâzâ fe-keşefnâ anke ğıtâeke fe-basaruke'l-yevme hadîd, gloss:sen bundan gaflet içindeydin; işte örtünü üstünden kaldırdık, bugün gözün keskindir, source:50:22}. Sözün kaldıramadığı örtüyü o gün Allah kaldırır, ve gaflet içindeki göz o gün keskinleşir.
+
+## ¶22 · prose · 46:24 · applied
+
+**+** Ahkâf suresinde Âd'ın kardeşi kavmini büyük bir günün azabıyla uyarır {source:46:21}; onlar da tehdit edilen şeyi getirmesini isterler {source:46:22}. Sonra vadilerine doğru gelen bir bulut görürler: {ar:فَلَمَّا رَأَوْهُ عَارِضًۭا مُّسْتَقْبِلَ أَوْدِيَتِهِمْ قَالُوا۟ هَٰذَا عَارِضٌۭ مُّمْطِرُنَا ۚ بَلْ هُوَ مَا ٱسْتَعْجَلْتُم بِهِۦ ۖ رِيحٌۭ فِيهَا عَذَابٌ أَلِيمٌۭ, tr:fe-lemmâ raevhu âridan mustakbile evdiyetihim kâlû hâzâ âridun mumtırunâ bel huve me'sta'celtum bih rîhun fîhâ azâbun elîm, gloss:onu vadilerine doğru gelen bir bulut olarak görünce "bu bize yağmur yağdıracak bir bulut" dediler; hayır, o acele istediğiniz şeydir: içinde acı bir azap olan bir rüzgâr, source:46:24}. Orada da vadiye gelen bir şey vardır, ve haberi ondan önce bir uyarıcının ağzından gelmiştir; haberi dinlemeyenler ise gelen şeyi yağmur sanır.
+
+## ¶23 · prose · 47:18 · applied
+
+**+** Muhammed suresinde ansızın gelecek olan ile şimdiden gelmiş olan tek ayette yan yana durur: {ar:فَهَلْ يَنظُرُونَ إِلَّا ٱلسَّاعَةَ أَن تَأْتِيَهُم بَغْتَةًۭ ۖ فَقَدْ جَآءَ أَشْرَاطُهَا ۚ فَأَنَّىٰ لَهُمْ إِذَا جَآءَتْهُمْ ذِكْرَىٰهُمْ, tr:fe-hel yanzurûne ille's-sâate en te'tiyehum bağteten fe-kad câe eşrâtuhâ fe-ennâ lehum izâ câethum zikrâhum, gloss:onlar yalnızca o saatin kendilerine ansızın gelmesini mi bekliyorlar; onun belirtileri zaten geldi; o kendilerine geldiğinde hatırlamak onlara nereden olacak, source:47:18}. Saat ileridedir ve ansızın gelecektir, ama belirtileri gelmiştir; hatırlamanın vakti bu aradır, saatin kendisi geldiğinde değil.
+
+## ¶1 · refs · - · applied
+
+**+** Ayrıca: {source:78:1} {source:78:2} konuşanın sorup cevabını hemen kendisinin verdiği, büyük haberi açan soru; {source:69:3} {source:74:27} {source:77:14} {source:82:17} {source:101:3} {source:101:10} {source:104:5} dinleyene "sana bildiren nedir" diye sorulup cevabın konuşan tarafından verildiği soru; {source:101:11} böyle bir sorunun cevabının bu surenin dördüncü ayetindeki "kızgın ateş" sözüyle gelmesi
+
+## ¶2 · refs · - · applied
+
+**+** Ayrıca: {source:20:10} {source:20:11} Musa'nın ateşi görüp ailesine kalmalarını söylemesi ve ateşe varınca kendisine seslenilmesi; {source:79:16} Rabbinin ona kutsal Tuvâ vadisinde seslenmesi; {source:51:25} konukların İbrahim'in yanına girip selam vermesi; {source:38:21} aynı soru kalıbının mihraba tırmanan davacıların geçmiş kıssasını açması; {source:76:1} aynı soru ve gelme fiilinin, insanın henüz anılır bir şey olmadığı geçmiş bir zamanı açması; {source:9:70} {source:14:9} {source:64:5} "sizden öncekilerin haberi size gelmedi mi" sorusunun geride kalmış toplulukları açması; {source:11:120} elçilerin haberlerinin tekil "sen"e kalbini sağlamlaştırmak için anlatılması
+
+## ¶3 · refs · - · applied
+
+**+** Ayrıca: {source:7:53} haberin gerçekleşmesinin geldiği gün, onu önceden unutanların elçilerin hakkı getirdiğini söylemesi; {source:6:67} her haberin gerçekleşeceği bir yeri ve vakti olması; {source:34:3} "saat bize gelmeyecek" diyenlere onun mutlaka geleceğinin yeminle bildirilmesi; {source:19:61} gaybda vaat edilen bahçelerin vaadinin mutlaka gelecek olması; {source:47:18} saat beklenirken belirtileri için geçmiş zamanla "geldi" denmesi
+
+## ¶4 · refs · - · applied
+
+**+** Ayrıca: {source:88:22} hatırlatanın onlar üzerinde zorlayıcı olmaması; {source:50:45} zorba olmayan elçiye tehdidinden korkanı Kur'an'la hatırlatma emri; {source:13:40} elçiye düşenin yalnızca tebliğ, hesabın Allah'a ait oluşu; {source:12:104} {source:38:87} {source:68:52} {source:81:27} elçinin taşıdığı sözün bütün âlemler için bir hatırlatma oluşu; {source:12:108} Allah'a çağrının elçiyle birlikte ona uyanların da yolu oluşu; {source:93:11} tekil "sen"e Rabbinin nimetini anlatma emrinin hadîsin kökünden bir fiille verilmesi
+
+## ¶5 · refs · - · applied
+
+**+** Ayrıca: {source:7:185} {source:45:6} {source:77:50} bu sözden sonra inanılacak başka bir hadîs kalıp kalmadığını soran söz; {source:65:1} Allah'ın sonradan yeni bir iş meydana getirmesinin aynı kökle söylenmesi; {source:50:37} hatırlatmanın kalbi olana ya da kulak verip hazır bulunana oluşu
+
+## ¶6 · refs · - · applied
+
+**+** Ayrıca: {source:26:5} Rahman'dan gelen her yeni hatırlatmadan yüz çevrilmesi; {source:21:3} yeni hatırlatma dinlenirken yüreklerin oyalanması ve elçinin "sizin gibi bir beşer" sayılması; {source:44:9} şüphe içinde oyun oynayanlar; {source:53:59} {source:53:60} {source:53:61} bu habere şaşırıp gülen, ağlamayan ve gaflet içinde eğlenenler; {source:13:40} tebliğin elçiye, hesabın Allah'a ait oluşu
+
+## ¶7 · refs · - · applied
+
+**+** Ayrıca: {source:99:4} o gün yerin haberlerini hadîs kökünden bir fiille "anlatması": olayın kendisinin anlatan olması
+
+## ¶8 · refs · - · applied
+
+**+** Ayrıca: {source:56:1} {source:56:2} o günün "vuku bulan" diye adlandırılması ve vukuunu yalanlayacak hiçbir şeyin olmaması; {source:45:24} helaki yalnızca zamana bağlayıp bilgisizce zanna uyanların sözü
+
+## ¶9 · refs · - · applied
+
+**+** Ayrıca: {source:18:55} hidayet geldiği hâlde öncekilerin yolunun ya da azabın kendilerine gelmesini beklemek; {source:20:126} kendisine gelen ayetleri unutanın o gün unutulması; {source:12:109} yeryüzünde gezip öncekilerin sonunun nasıl olduğuna bakma çağrısı
+
+## ¶10 · refs · - · applied
+
+**+** Ayrıca: {source:7:41} aynı kelimenin çoğulunun cehennemde üstlerini kaplayan örtülere ad olması; {source:79:34} o günün her şeyi bastıran büyük felaket diye işinden adlandırılması; {source:80:33} o günün kulakları sağır eden çığlık diye adlandırılması; {source:101:1} {source:101:2} o günün çarpan diye adlandırılıp ne olduğunun sorulması; {source:69:1} {source:69:2} o günün gerçekleşen diye adlandırılıp ne olduğunun sorulması
+
+## ¶11 · refs · - · applied
+
+**+** Ayrıca: {source:12:107} "Allah'ın azabından bir gâşiye" sözünün kendisi: kaplayan azabın ansızın gelişi; {source:27:87} sura üflendiği gün göklerde ve yerde olanların, Allah'ın diledikleri dışında, dehşete kapılması; {source:27:89} iyilikle gelenlerin o günün dehşetinden güvende olması; {source:21:103} en büyük dehşetin, meleklerin karşıladığı kimseleri üzmemesi
+
+## ¶12 · refs · - · applied
+
+**+** Ayrıca: {source:85:17} {source:85:18} Bürûc suresinde sorulan orduların haberinde Firavun'un adının anılması; {source:10:27} yüzlere inen örtünün gecenin karanlık parçaları diye adlandırılması; {source:53:53} örtülen kentin altüst edilip düşürülmesi; {source:31:32} dalganın gölgelikler gibi insanları örtmesi
+
+## ¶13 · refs · - · applied
+
+**+** Ayrıca: {source:39:16} üstlerinde de altlarında da ateşten gölgelikler; {source:6:65} azabın üstten ya da ayakların altından gönderilebilmesi; {source:24:40} derin denizi üst üste dalgaların ve bulutun örtmesi, karanlıkların kat kat birikmesi; {source:29:54} azabı acele isteyenleri cehennemin zaten kuşatmış olması; {source:44:9} dumanın örteceği kimselerin şüphe içinde oyalanması
+
+## ¶14 · refs · - · applied
+
+**+** Ayrıca: {source:33:19} korku gelince gözleri ölümden bayılan birininki gibi dönerek bakanlar
+
+## ¶15 · refs · - · applied
+
+**+** Ayrıca: {source:22:19} {source:22:20} {source:22:21} inkâr edenlere ateşten elbiseler biçilmesi, başlarına kaynar su dökülmesi ve demir topuzlar
+
+## ¶16 · refs · - · applied
+
+**+** Ayrıca: {source:3:154} kederin ardından bir kesimi örten, güven veren uyuklama; {source:8:12} aynı gün inananları uyku örterken inkâr edenlerin yüreklerine korku salınması; {source:7:54} {source:13:3} gecenin gündüzü örtmesinin düşünülecek bir yaratılış işareti oluşu; {source:91:4} {source:92:1} örten gecenin üzerine yemin edilmesi; {source:7:189} örtmenin hayat taşıyan bir birleşmeyi anlatması; {source:14:50} ikinci ayetteki yüzleri örtenin ateş diye adlandırılması; {source:88:23} yirmi üçüncü ayetteki inkârın kendisi: yüz çevirip inkâr eden
+
+## ¶17 · refs · - · applied
+
+**+** Ayrıca: {source:6:17} {source:10:107} Allah'ın dokundurduğu zararı O'ndan başka açıp kaldıracak olmaması; {source:31:32} dalga örttüğünde yalnızca Allah'a yalvarılması; {source:53:51} {source:53:52} {source:53:53} helak edilenlerin sayımının Semud, Nuh kavmi ve altüst edilen kentle sürmesi
+
+## ¶18 · refs · - · applied
+
+**+** Ayrıca: {source:11:120} anlatılan haberlerle kalbin sağlamlaştırılması ve onlarla gelen öğüt ve hatırlatma; {source:10:57} Rabden gelen öğüdün göğüslerdekine şifa oluşu
+
+## ¶19 · refs · - · applied
+
+**+** Ayrıca: {source:2:7} yüreklerin ve kulakların mühürlenip gözlerin üstüne perde inmesi; {source:36:9} önlerine ve arkalarına set çekilip örtülerek görmez kılınmaları; {source:41:5} "yüreklerimiz örtüler içinde, kulaklarımızda ağırlık var" diyenler; {source:18:57} Rabbinin ayetleriyle hatırlatıldığı hâlde yüz çevirenlerin yüreklerine örtüler konması; {source:11:5} elbiselerine bürünüp gizlenmeye çalışanların gizlediğinin bilinmesi; {source:83:12} {source:83:13} ayetler okununca "öncekilerin masalları" diyenin haddi aşan bir günahkâr oluşu
+
+## ¶20 · refs · - · applied
+
+**+** Ayrıca: {source:39:22} Allah'ın zikrine karşı katılaşmış yüreklere yazıklar olsun denmesi; {source:56:81} bu sözü hafife alanlar; {source:83:13} ayetleri "öncekilerin masalları" diye karşılayan; {source:87:9} {source:87:10} {source:87:11} hatırlatmadan korkanın öğüt alması, en bedbahtın ondan kaçınması; {source:51:55} hatırlatmanın inananlara fayda vermesi
+
+## ¶21 · refs · - · applied
+
+**+** Ayrıca: {source:2:38} gelme fiilinin hidayetin gelişi için kullanılması; {source:39:40} aynı fiilin rezil eden azabın gelişi için kullanılması; {source:16:26} Allah'ın binalarına temellerinden gelmesi ve azabın farkında olmadıkları yerden onlara gelmesi; {source:74:9} {source:74:10} haber verilen günün inkâr edenlere kolay olmayan zor bir gün oluşu
+
+## ¶22 · refs · - · applied
+
+**+** Ayrıca: {source:13:17} gökten inen suyla vadilerin kendi ölçüsünce sel olup akması, Allah'ın hak ile batıla verdiği misal
+
+## ¶23 · refs · - · applied
+
+**+** Ayrıca: {source:26:202} {source:39:55} {source:43:66} azabın ya da saatin farkında değillerken ansızın gelişi; {source:7:187} saatin vaktini yalnızca Rabbin bilmesi ve onun ancak ansızın gelmesi; {source:21:39} {source:21:40} ateşin ansızın gelip onları şaşkına çevirmesi ve geri çevrilememesi; {source:6:47} Allah'ın azabının ansızın ya da açıkça gelişinde yalnız zalimlerin helak olması; {source:6:158} işaretlerin bir kısmı geldiği gün önceden inanmamış bir nefse imanın fayda vermemesi; {source:16:26} azabın farkında olmadıkları yerden gelişi; {source:68:44} bu sözü yalanlayanların bilmedikleri yerden adım adım götürülmesi; {source:44:13} açık bir elçi gelmişken azap indiğinde hatırlamanın onlara nereden olacağı
+
+## ¶24 · refs · - · applied
+
+**+** Ayrıca: {source:44:11} dumanın gelip insanları örtmesi
+
+## ¶25 · refs · - · applied
+
+**+** Ayrıca: {source:21:35} {source:29:57} ölümü tadan her nefsin Bize döndürülmesi
+
