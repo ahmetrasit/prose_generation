@@ -10,11 +10,11 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=34&islem=mealbilgi): Kur’ân Tercümesi: Tanrı Kitabı Besim Atalay Meali (1965) | Besim Atalay 1882′de Uşak’da doğmuş, Türk dilbilimci, yazar ve politikacıdır. Özellikle dilbilimi alanındaki çalışmaları ile tanınmıştır. Maraş, İçel ve Niğde’de Milli Eğitim Müdürlüğü yaptı. | 1920’de Kütahya bağımsız milletvekili olarak TBMM’ne girdi ve milletvekilliğini yedi dönem sürdürdü.Türk Dil Kurumu’nda 19 yıl yönetici olarak çalı",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-114 (6236/6236 ayat)",
+  "coverage": "1-6,8-9,11-26,28-114 + partial 7,10,27 (6231/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='besimatalay+1')"
   ],
-  "fetched_at": "2026-10-03",
+  "fetched_at": "2026-10-09",
   "files": {},
   "lineage": null,
   "relay": null,
@@ -22,12 +22,82 @@
   "panel": false,
   "host_label": "kuranmeali.com \"Besim Atalay Meali (1965)\" (besimatalay)",
   "cross_witnesses": [],
-  "notes": "178 merged verse groups stored once as a..a_end. 170 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end.",
+  "notes": "178 merged verse groups stored once as a..a_end. 170 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 2026-10-09 review: the host numbers some surahs differently from the Hafs count (7, 10, 27); their verse units were assigned to the ayat by text alignment against other Turkish meals (segment field renumbered; ingestion.renumbered_surahs). Coverage incomplete (6231/6236): the host lacks the ayat listed in ingestion.missing (empty, without a row, or left without text by its shifted numbering).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
   ],
   "notes_parts": {
     "static": "",
-    "build": "178 merged verse groups stored once as a..a_end. 170 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end."
+    "build": "178 merged verse groups stored once as a..a_end. 170 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 2026-10-09 review: the host numbers some surahs differently from the Hafs count (7, 10, 27); their verse units were assigned to the ayat by text alignment against other Turkish meals (segment field renumbered; ingestion.renumbered_surahs). Coverage incomplete (6231/6236): the host lacks the ayat listed in ingestion.missing (empty, without a row, or left without text by its shifted numbering)."
+  },
+  "ingestion": {
+    "date": "2026-10-09",
+    "script": "enrichment/v2/fetch/fetch_meal.py",
+    "renumbered_surahs": {
+      "7": {
+        "moved": 33,
+        "gain": 5.7,
+        "near_duplicates_dropped": [],
+        "ayat_left_empty": [
+          "7:109"
+        ]
+      },
+      "10": {
+        "moved": 15,
+        "gain": 2.4,
+        "near_duplicates_dropped": [],
+        "ayat_left_empty": [
+          "10:48",
+          "10:97"
+        ]
+      },
+      "27": {
+        "moved": 10,
+        "gain": 1.8,
+        "near_duplicates_dropped": [],
+        "ayat_left_empty": [
+          "27:30",
+          "27:54"
+        ]
+      }
+    },
+    "method": "per-ayah host pages (cached raw), verse rows cut per ayah",
+    "missing": [
+      {
+        "ayah": "7:109",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Besim Atalay Meali (1965)\" (besimatalay)"
+        ]
+      },
+      {
+        "ayah": "10:48",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Besim Atalay Meali (1965)\" (besimatalay)"
+        ]
+      },
+      {
+        "ayah": "10:97",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Besim Atalay Meali (1965)\" (besimatalay)"
+        ]
+      },
+      {
+        "ayah": "27:30",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Besim Atalay Meali (1965)\" (besimatalay)"
+        ]
+      },
+      {
+        "ayah": "27:54",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Besim Atalay Meali (1965)\" (besimatalay)"
+        ]
+      }
+    ]
   }
 }

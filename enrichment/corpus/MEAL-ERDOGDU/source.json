@@ -22,17 +22,27 @@
   "panel": false,
   "host_label": "kuranmeali.com \"Ömer Erdoğdu Meali\" (omererdogdu)",
   "cross_witnesses": [],
-  "notes": "2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 64 segments carry footnotes in \"notes\" (56 truncated by the host, flagged notes_truncated). 4 ayat empty on the host: 4:36, 13:37, 17:103, 19:14 Coverage incomplete (6232/6236): the host itself lacks the ayat listed in ingestion.missing (its pages re-fetched live on 2026-10-09 are still empty or without a row).",
+  "notes": "2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 64 segments carry footnotes in \"notes\" (56 truncated by the host, flagged notes_truncated). 4 ayat empty on the host: 4:36, 13:37, 17:103, 19:14 2026-10-09 review: the host numbers some surahs differently from the Hafs count (13); their verse units were assigned to the ayat by text alignment against other Turkish meals (segment field renumbered; ingestion.renumbered_surahs). Coverage incomplete (6232/6236): the host lacks the ayat listed in ingestion.missing (empty, without a row, or left without text by its shifted numbering).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
   ],
   "notes_parts": {
     "static": "",
-    "build": "2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 64 segments carry footnotes in \"notes\" (56 truncated by the host, flagged notes_truncated). 4 ayat empty on the host: 4:36, 13:37, 17:103, 19:14 Coverage incomplete (6232/6236): the host itself lacks the ayat listed in ingestion.missing (its pages re-fetched live on 2026-10-09 are still empty or without a row)."
+    "build": "2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 64 segments carry footnotes in \"notes\" (56 truncated by the host, flagged notes_truncated). 4 ayat empty on the host: 4:36, 13:37, 17:103, 19:14 2026-10-09 review: the host numbers some surahs differently from the Hafs count (13); their verse units were assigned to the ayat by text alignment against other Turkish meals (segment field renumbered; ingestion.renumbered_surahs). Coverage incomplete (6232/6236): the host lacks the ayat listed in ingestion.missing (empty, without a row, or left without text by its shifted numbering)."
   },
   "ingestion": {
     "date": "2026-10-09",
     "script": "enrichment/v2/fetch/fetch_meal.py",
+    "renumbered_surahs": {
+      "13": {
+        "moved": 13,
+        "gain": 3.8,
+        "near_duplicates_dropped": [],
+        "ayat_left_empty": [
+          "13:24"
+        ]
+      }
+    },
     "method": "per-ayah host pages (cached raw), verse rows cut per ayah",
     "missing": [
       {
@@ -44,11 +54,10 @@
         ]
       },
       {
-        "ayah": "13:37",
-        "reason": "the host page has the row for this ayah but no translation text (empty, or only the ayah number)",
+        "ayah": "13:24",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
         "checked": [
-          "kuranmeali.com \"Ömer Erdoğdu Meali\" (omererdogdu)",
-          "the host page, re-fetched live 2026-10-09: still empty"
+          "kuranmeali.com \"Ömer Erdoğdu Meali\" (omererdogdu)"
         ]
       },
       {

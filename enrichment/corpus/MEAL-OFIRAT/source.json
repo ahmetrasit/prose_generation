@@ -10,11 +10,11 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=111&islem=mealbilgi): Kur'an-ı Kerim ve Meali Osman Fırat Meali | 1948 Adıyaman Kahta doğumlu. İlk ve Orta tahsilini Kahta'da Mühendislik ve ilahiyat tahsilini İstanbul'da tamamladı. Çeşitli şehirlerde Tapu ve Kadastro Müdürlüklerinde çalıştı. En son Kadastro Fen Amiriğinden ayrılarak serbest Harita-Kadastro Mühendisi olarak çalıştı. Şimdi ise bir taraftan İnşaat Müteahhitliği yaparak bir taraftan da kitap yazmaya deva",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-114 (6236/6236 ayat)",
+  "coverage": "1-15,18-29,31-36,38-43,45-114 + partial 16-17,30,37,44 (6226/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='osmanfirat+1')"
   ],
-  "fetched_at": "2026-10-03",
+  "fetched_at": "2026-10-09",
   "files": {},
   "lineage": null,
   "relay": null,
@@ -22,12 +22,140 @@
   "panel": false,
   "host_label": "kuranmeali.com \"Osman Fırat Meali\" (osmanfirat)",
   "cross_witnesses": [],
-  "notes": "24 merged verse groups stored once as a..a_end. 25 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 68 segments carry footnotes in \"notes\" (64 truncated by the host, flagged notes_truncated).",
+  "notes": "24 merged verse groups stored once as a..a_end. 25 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 68 segments carry footnotes in \"notes\" (64 truncated by the host, flagged notes_truncated). 2026-10-09 review: the host numbers some surahs differently from the Hafs count (16, 17, 30, 37, 44); their verse units were assigned to the ayat by text alignment against other Turkish meals (segment field renumbered; ingestion.renumbered_surahs). Coverage incomplete (6226/6236): the host lacks the ayat listed in ingestion.missing (empty, without a row, or left without text by its shifted numbering).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
   ],
   "notes_parts": {
     "static": "",
-    "build": "24 merged verse groups stored once as a..a_end. 25 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 68 segments carry footnotes in \"notes\" (64 truncated by the host, flagged notes_truncated)."
+    "build": "24 merged verse groups stored once as a..a_end. 25 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 68 segments carry footnotes in \"notes\" (64 truncated by the host, flagged notes_truncated). 2026-10-09 review: the host numbers some surahs differently from the Hafs count (16, 17, 30, 37, 44); their verse units were assigned to the ayat by text alignment against other Turkish meals (segment field renumbered; ingestion.renumbered_surahs). Coverage incomplete (6226/6236): the host lacks the ayat listed in ingestion.missing (empty, without a row, or left without text by its shifted numbering)."
+  },
+  "ingestion": {
+    "date": "2026-10-09",
+    "script": "enrichment/v2/fetch/fetch_meal.py",
+    "renumbered_surahs": {
+      "16": {
+        "moved": 8,
+        "gain": 2.1,
+        "near_duplicates_dropped": [
+          "16:28 (near-duplicate of the unit on 16:28)"
+        ],
+        "ayat_left_empty": [
+          "16:20",
+          "16:21"
+        ]
+      },
+      "17": {
+        "moved": 11,
+        "gain": 2.4,
+        "near_duplicates_dropped": [],
+        "ayat_left_empty": [
+          "17:18"
+        ]
+      },
+      "30": {
+        "moved": 26,
+        "gain": 6.5,
+        "near_duplicates_dropped": [
+          "30:28 (near-duplicate of the unit on 30:28)"
+        ],
+        "ayat_left_empty": [
+          "30:2",
+          "30:3"
+        ]
+      },
+      "37": {
+        "moved": 10,
+        "gain": 1.4,
+        "near_duplicates_dropped": [],
+        "ayat_left_empty": [
+          "37:140",
+          "37:151",
+          "37:152"
+        ]
+      },
+      "44": {
+        "moved": 8,
+        "gain": 1.2,
+        "near_duplicates_dropped": [],
+        "ayat_left_empty": [
+          "44:34",
+          "44:35"
+        ]
+      }
+    },
+    "method": "per-ayah host pages (cached raw), verse rows cut per ayah",
+    "missing": [
+      {
+        "ayah": "16:20",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Osman Fırat Meali\" (osmanfirat)"
+        ]
+      },
+      {
+        "ayah": "16:21",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Osman Fırat Meali\" (osmanfirat)"
+        ]
+      },
+      {
+        "ayah": "17:18",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Osman Fırat Meali\" (osmanfirat)"
+        ]
+      },
+      {
+        "ayah": "30:2",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Osman Fırat Meali\" (osmanfirat)"
+        ]
+      },
+      {
+        "ayah": "30:3",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Osman Fırat Meali\" (osmanfirat)"
+        ]
+      },
+      {
+        "ayah": "37:140",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Osman Fırat Meali\" (osmanfirat)"
+        ]
+      },
+      {
+        "ayah": "37:151",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Osman Fırat Meali\" (osmanfirat)"
+        ]
+      },
+      {
+        "ayah": "37:152",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Osman Fırat Meali\" (osmanfirat)"
+        ]
+      },
+      {
+        "ayah": "44:34",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Osman Fırat Meali\" (osmanfirat)"
+        ]
+      },
+      {
+        "ayah": "44:35",
+        "reason": "the host numbers this surah differently from the Hafs count; after the text was tied to the ayat no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah",
+        "checked": [
+          "kuranmeali.com \"Osman Fırat Meali\" (osmanfirat)"
+        ]
+      }
+    ]
   }
 }

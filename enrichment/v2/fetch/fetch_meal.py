@@ -211,6 +211,10 @@ def edition_for(src):
     return ed
 
 
+# Surahs whose verse numbering on the host runs off from the project's count (found by the 2026-10-09 review's shift scan):
+# their units are tied to the ayat by text alignment (meal_realign.py).
+REALIGN_SURAHS = {'MEAL-OFIRAT': [15, 16, 17, 30, 37, 44], 'MEAL-ATALAY': [7, 10, 27], 'MEAL-ERDOGDU': [13]}
+
 LIVE_CHECKED_2026_10_09 = {'MEAL-ERDOGDU', 'MEAL-MOZDEMIR', 'MEAL-SATIRALTI', 'MEAL-COBAN', 'MEAL-EROGLU', 'MEAL-ONGUT'}
 
 
@@ -228,6 +232,24 @@ def build_one(src, today):
     segs, info = build_segments(sid, rows, explicit_groups=explicit, strip_prefix=not explicit)
     for g in segs:
         g.pop('title', None)
+    renum = {}
+    if sid in REALIGN_SURAHS:
+        import meal_realign
+        for sn in REALIGN_SURAHS[sid]:
+            cur = [g for g in segs if g['s'] == sn and g['a'] > 0]
+            res = meal_realign.realign(sid, sn, cur, AYAH_COUNTS[sn - 1])
+            if res is None:
+                log(f'[build] {sid} {sn}: realignment not adopted')
+                continue
+            segs = [g for g in segs if not (g['s'] == sn and g['a'] > 0)]
+            for u in res['units']:
+                u['seg'] = f'{sid}:{sn}:{u["a"]}'
+                if (u['book_a'], u['book_a_end']) != (u['a'], u['a_end']):
+                    u['renumbered'] = f"the host numbers this text {sn}:{u['book_a']}" + (f"-{u['book_a_end']}" if u['book_a_end'] > u['book_a'] else '')
+                u.pop('book_a'), u.pop('book_a_end')
+            segs += res['units']
+            renum[str(sn)] = {'moved': res['moved'], 'gain': res['gain'], 'near_duplicates_dropped': res['dropped'], 'ayat_left_empty': res['gaps']}
+        segs.sort(key=lambda g: (g['s'], g['a']))
     # ayat the primary host lacks: take them from the first cross witness that has them, flagged
     filled = []
     if src['cross'] and h != 'kdtefsir':
@@ -301,9 +323,13 @@ def build_one(src, today):
         build_notes.append(f'{withnotes} segments carry footnotes in "notes"' + (f' ({trunc} truncated by the host, flagged notes_truncated)' if trunc else '') + '.')
     if info['missing']:
         build_notes.append(f'{len(info["missing"])} ayat empty on the host: ' + ', '.join(f'{s}:{a}' for s, a in info['missing'][:15]) + ('...' if len(info['missing']) > 15 else ''))
-    if len(cov) < TOTAL_AYAT and sid in LIVE_CHECKED_2026_10_09:
-        build_notes.append(f'Coverage incomplete ({len(cov)}/{TOTAL_AYAT}): the host itself lacks the ayat listed in ingestion.missing '
-                           '(its pages re-fetched live on 2026-10-09 are still empty or without a row).')
+    if renum:
+        build_notes.append('2026-10-09 review: the host numbers some surahs differently from the Hafs count (' + ', '.join(renum)
+                           + '); their verse units were assigned to the ayat by text alignment against other Turkish meals (segment '
+                           'field renumbered; ingestion.renumbered_surahs).')
+    if len(cov) < TOTAL_AYAT and (sid in LIVE_CHECKED_2026_10_09 or renum):
+        build_notes.append(f'Coverage incomplete ({len(cov)}/{TOTAL_AYAT}): the host lacks the ayat listed in ingestion.missing '
+                           '(empty, without a row, or left without text by its shifted numbering).')
     elif len(cov) < TOTAL_AYAT:
         build_notes.append(f'Coverage incomplete ({len(cov)}/{TOTAL_AYAT}); re-run `fetch_meal.py fetch --sources {sid}` then `build` to resume.')
     lic_host = 'kd' if h == 'kdtefsir' else h
@@ -331,18 +357,23 @@ def build_one(src, today):
     obj.pop('_static_notes'); obj.pop('_build_notes')
     obj['notes_parts'] = {'static': src.get('notes') or '', 'build': ' '.join(build_notes)}
     gaps_final = [x for x in all_ayat(range(1, 115)) if x not in cov]
+    renum_gap = {x for v in renum.values() for x in (tuple(map(int, y.split(':'))) for y in v['ayat_left_empty'])}
+    if renum:
+        obj['ingestion'] = {'date': today, 'script': 'enrichment/v2/fetch/fetch_meal.py', 'renumbered_surahs': renum}
     if gaps_final:  # every ayah the work lacks in our copy is recorded, with what was checked (2026-10-09 review)
         empty_ = set(info['missing'])
-        obj['ingestion'] = {
+        obj.setdefault('ingestion', {}).update({
             'date': today, 'script': 'enrichment/v2/fetch/fetch_meal.py',
             'method': 'per-ayah host pages (cached raw), verse rows cut per ayah',
             'missing': [{'ayah': f'{x[0]}:{x[1]}',
-                         'reason': ('the host page has the row for this ayah but no translation text (empty, or only the ayah number)'
+                         'reason': ('the host numbers this surah differently from the Hafs count; after the text was tied to the ayat '
+                                    'no translation text is left for this ayah (see renumbered_surahs); its words may sit in the neighbouring unit if the translator joined it to that ayah' if x in renum_gap else
+                                    'the host page has the row for this ayah but no translation text (empty, or only the ayah number)'
                                     if x in empty_ else 'the host page has no row for this ayah'),
                          'checked': [witness_label(w)] + [witness_label(c) for c in src['cross']]
                                     + (['the host page, re-fetched live 2026-10-09: still ' + ('empty' if x in empty_ else 'without a row')]
-                                       if sid in LIVE_CHECKED_2026_10_09 else [])}
-                        for x in gaps_final]}
+                                       if sid in LIVE_CHECKED_2026_10_09 and x not in renum_gap else [])}
+                        for x in gaps_final]})
     save_source_json(sid, obj)
     return obj, len(cov), info['merged_groups']
 
