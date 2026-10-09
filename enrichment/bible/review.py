@@ -50,6 +50,45 @@ BIBLE_TOOLS = {'corpus.py': {'sources', 'get', 'ayah', 'search'}, 'hebrew.py': {
                'validate.py': None, 'verdicts.py': None, 'render.py': None}
 WRITE_FLAGS = {'--out', '--report'}
 GLOB = re.compile(r'[*?\[]')
+SED_SUBST = re.compile(r'^(?:\d+(?:,\d+)?)?(?:s([^\w\s\\])(?:(?!\1).)*\1(?:(?!\1).)*\1[gI0-9]*|d)$')
+# Allowed flags per read program: (combinable short letters, long flags, letters that take a value).
+FLAGS = {
+    'cat': ('nbsAvet', set(), ''), 'head': ('nqvc', set(), 'nc'), 'tail': ('nqvc', set(), 'nc'),
+    'ls': ('la1hRtSrdF', set(), ''), 'wc': ('lwcm', set(), ''), 'nl': ('bnw', set(), 'bnw'),
+    'grep': ('nivclLwxEFohHrABCme', {'--color=never'}, 'ABCme'), 'egrep': ('nivclLwxohHrABCme', set(), 'ABCme'),
+    'sort': ('nrukVfbts', set(), 'kt'), 'uniq': ('cdui', set(), ''), 'cut': ('dfcb', {'--complement'}, 'dfcb'),
+    'file': ('b', set(), ''), 'stat': ('', set(), ''),
+}
+
+
+def flags_ok(prog, args):
+    """(ok, operands, pattern_given): every flag is in prog's allowlist; operands exclude flag values."""
+    letters, longs, takes = FLAGS.get(prog, ('', set(), ''))
+    ops, i, pattern = [], 0, False
+    while i < len(args):
+        t = args[i]
+        if t == '--':
+            ops += args[i + 1:]
+            break
+        if t.startswith('--'):
+            if t not in longs:
+                return False, [], False
+        elif prog in ('head', 'tail') and t[1:].isdigit() and t.startswith('-'):
+            pass                               # -40: a line count
+        elif t.startswith('-') and len(t) > 1:
+            body = t[1:]
+            for j, c in enumerate(body):
+                if c not in letters:
+                    return False, [], False
+                if c in takes:
+                    pattern = pattern or c == 'e'
+                    if j == len(body) - 1:
+                        i += 1                 # the value is the next token
+                    break                      # the rest of the token is the value
+        else:
+            ops.append(t)
+        i += 1
+    return True, ops, pattern
 OLD_TAIL_TOOLS = {'corpus.py', 'hebrew.py', 'validate.py', 'render.py', 'verdicts.py'}
 
 
@@ -105,6 +144,22 @@ def resolve(t: str) -> Path:
 def segments(cmd: str):
     """Shell command → list of argv segments, or None when it uses syntax beyond plain commands and pipes."""
     if '`' in cmd or '$(' in cmd or '<<' in cmd:
+        return None
+    q = None                                   # quote state: None, "'" or '"'
+    for ch in cmd:
+        if q == "'":
+            if ch == "'":
+                q = None
+        elif q == '"':
+            if ch == '"':
+                q = None
+            elif ch == '$':
+                return None                    # expansion inside double quotes (a backslash there expands nothing)
+        elif ch in "'\"":
+            q = ch
+        elif ch in '\n\r$\\':
+            return None                        # an unquoted newline runs a second command; $ and backslash expand
+    if q is not None:
         return None
     lx = shlex.shlex(cmd, posix=True, punctuation_chars=';&|<>')
     lx.whitespace_split = True
@@ -262,17 +317,24 @@ def classify_shell(cmd: str, ctx: Ctx, scripts: dict, announced=frozenset()):
                         q = cwd / m[1]
                         if not ok_read(q):
                             return None, f'inline python after cd opens {m[1]} outside the allowed inputs', False
-        elif prog == 'sed' and ('-i' in seg or any(t.startswith('-i') for t in seg[1:])):
-            paths, _, bad = arg_paths(seg[1:], cwd, skip_first=True)
-            k, r, a = (('own_edit', 'sed -i on own call-directory files', True)
-                       if paths and not bad and all(ctx.own(q) for q in paths)
-                       else (None, f'sed -i outside the call directory: {[str(q) for q in paths] + bad}', False))
         elif prog == 'sed':
-            script = next((t for t in seg[1:] if not t.startswith('-')), '')
-            paths, _, bad = arg_paths(seg[1:], cwd, skip_first=True)
-            k, r, a = (('read', 'print-only sed on allowed inputs', True)
-                       if SED_PRINT.match(script) and not bad and all(ok_read(q) for q in paths)
-                       else (None, f'sed that is not print-only on allowed inputs: {seg[1:4]}', False))
+            args = seg[1:]
+            inplace = args[:1] == ['-i']
+            rest = [t for t in (args[1:] if inplace else args) if t not in ('-n', '-E', '-r')]
+            if not rest or any(t.startswith('-') for t in rest):
+                return None, f'sed flags beyond -i/-n/-E: {args[:4]}', False
+            script, files = rest[0], rest[1:]
+            if not files or any(GLOB.search(t) for t in files):
+                return None, f'sed operands that are not plain files: {files}', False
+            fpaths = [(cwd / Path(t).expanduser()) for t in files]
+            if inplace:
+                k, r, a = (('own_edit', 'sed -i plain substitution on own call-directory files', True)
+                           if SED_SUBST.match(script) and all(ctx.own(q) for q in fpaths)
+                           else (None, f'sed -i that is not a plain substitution on own files: {args[:4]}', False))
+            else:
+                k, r, a = (('read', 'print-only sed on allowed inputs', True)
+                           if SED_PRINT.match(script) and all(ok_read(q) for q in fpaths)
+                           else (None, f'sed that is not print-only on allowed inputs: {args[:4]}', False))
         elif prog == 'mkdir':
             paths, _, bad = arg_paths(seg[1:], cwd)
             ok = paths and not bad and all(ctx.own(q) or is_scratch(str(q)) for q in paths)
@@ -282,9 +344,17 @@ def classify_shell(cmd: str, ctx: Ctx, scripts: dict, announced=frozenset()):
             if prog in ('echo', 'printf', 'true'):
                 k, r, a = 'read', f'{prog}', True
             else:
-                paths, _, bad = arg_paths(seg[1:], cwd, skip_first=prog in ('grep', 'egrep'))
-                badp = [str(q) for q in paths if not ok_read(q)]
-                k, r, a = ((None, f'{prog} names paths outside the allowed inputs: {bad + badp}', False) if bad or badp
+                fine, ops, pattern = flags_ok(prog, seg[1:])
+                if not fine:
+                    return None, f'{prog} with a flag outside its read-only allowlist: {seg[1:5]}', False
+                if prog in ('grep', 'egrep') and not pattern:
+                    ops = ops[1:]              # the first operand is the pattern
+                if prog == 'uniq' and len(ops) > 1:
+                    return None, 'uniq with an output operand', False
+                if any(GLOB.search(t) for t in ops):
+                    return None, f'{prog} with a glob operand: {ops}', False
+                badp = [t for t in ops if not ok_read(cwd / Path(t).expanduser())]
+                k, r, a = ((None, f'{prog} names paths outside the allowed inputs: {badp}', False) if badp
                            else ('read', f'read-only {prog} on allowed inputs', True))
         else:
             k, r, a = None, f'command {prog} is not a read, helper or own edit', False
