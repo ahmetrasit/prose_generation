@@ -465,6 +465,11 @@ def build(a):
                             done.setdefault(loc, f'{f.parts[-4]}/{tag}')
                         except ValueError:
                             print(f'WARNING {f.relative_to(V7)} line {i}: not JSON (a run in progress?); not counted as done')
+        for run in getattr(a, 'skip_planned', None) or []:
+            pm = json.loads((run_dir(run) / 'manifest.json').read_text())
+            for c in pm['chunks']:
+                for loc in c['locs']:
+                    done.setdefault(loc, f'{run} (planned, not finished)')
         cut = {loc for locs in excerpts().values() for loc in locs} - set(done)
         if cut:
             print(f'NOTE {len(cut)} segment(s) were digested only as excerpts; any of them in scope is digested whole now')
@@ -720,6 +725,7 @@ def main():
     p.add_argument('--ayah')
     p.add_argument('--models', nargs='+', required=True)
     p.add_argument('--skip-done', metavar='TAG', nargs='+', help='skip segments already digested by these model tags in any run')
+    p.add_argument('--skip-planned', nargs='+', metavar='RUN', help='also skip segments assigned to these built runs (running or not yet run)')
     p.add_argument('--quotes', action='store_true',
                    help='add the quotation packet: segments with no verse key that quote the ayat\'s own words')
     p.add_argument('--skip-done-exclude-run', action='append', default=[], metavar='RUN',

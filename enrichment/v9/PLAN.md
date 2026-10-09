@@ -1,5 +1,7 @@
 # Enrichment v9: verse maps once, page writers that match
 
+**Production (2026-10-09): follow `RUNBOOK.md`; its last section holds the live state.**
+
 Status 2026-10-08: plan agreed with the user; nothing built yet. Supersedes the open parts of `enrichment/v7/PLAN.md`
 and the v8 sift. Keeps v7 tier 1 (`digest.py`) and the tier-2 work as inputs. Demonstration on the 103:1 page:
 `demo-103_1.md`.

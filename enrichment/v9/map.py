@@ -95,7 +95,15 @@ def build(a):
     (m / 'spawn').mkdir(exist_ok=True)
     plan = []
     import q as Q
+    planned = {}
+    for man in (V9 / 'work').glob('*/map/manifest.json'):
+        if man.parents[1].name != a.run:
+            for x in json.loads(man.read_text())['ayat']:
+                planned.setdefault(x['ayah'], man.parents[1].name)
     for ayah in a.ayat:
+        if ayah in planned and not Q.located(ayah):
+            print(f'SKIPPED {ayah}: planned in map run {planned[ayah]} (not assembled yet)')
+            continue
         if Q.located(ayah):
             print(f'SKIPPED {ayah}: already mapped ({Q.located(ayah)[0].relative_to(V9)}); new notes go through update-all')
             continue

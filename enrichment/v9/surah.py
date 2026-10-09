@@ -59,6 +59,8 @@ def plan(a):
         raise SystemExit(f'{d / "plan.json"} exists')
     date = a.date or time.strftime('%Y%m%d')
     pages = pages_of(a.surah)
+    if a.pages:
+        pages = {k: v for k, v in pages.items() if k in a.pages}
     verses, paras = set(), 0
     for ayah, path in pages.items():
         with contextlib.redirect_stdout(io.StringIO()):
@@ -185,7 +187,7 @@ def finish(a):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest='cmd', required=True)
-    x = sub.add_parser('plan'); x.add_argument('surah', type=int); x.add_argument('--date')
+    x = sub.add_parser('plan'); x.add_argument('surah', type=int); x.add_argument('--date'); x.add_argument('--pages', nargs='+', help='only these ayah pages, e.g. 103:2 103:3')
     for c in ('pages', 'agents', 'status', 'finish'):
         sub.add_parser(c).add_argument('surah', type=int)
     a = ap.parse_args()

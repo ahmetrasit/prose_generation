@@ -40,12 +40,18 @@ every verse those pages cite. Report the counts and expected cost to the user.
 
 ### 1. Tier 1 (Luna max), including the quotation packet
 ```bash
-python3 -B enrichment/v7/digest.py build <tier1 run> --ayat $(cat enrichment/v9/work/prod_sNNN/verses.txt) --models gpt-6-luna:max --skip-done luna-max --quotes
+python3 -B enrichment/v7/digest.py build <tier1 run> --ayat $(cat enrichment/v9/work/prod_sNNN/verses.txt) --models gpt-6-luna:max --skip-done luna-max --quotes [--skip-planned <tier1 runs built but not finished>]
 python3 -B enrichment/v9/codex_run.py --parallel 50 enrichment/v7/work/<tier1 run>/spawn/luna-max_c*.md
 python3 -B enrichment/v7/digest.py check <tier1 run>
 python3 -B enrichment/v7/digest.py report <tier1 run>
 ```
 The build takes about 25 s plus 0.35 s per verse. If `check` lists a chunk, report it and repair (rule 4).
+
+**Never analyse anything twice.** `--skip-done` skips every segment a finished Luna run digested; while another
+surah's tier-1 run is built but not finished, pass it to `--skip-planned` so its segments are not built again
+(check: the two manifests share no locator). Map and translation builds skip verses and questions planned in other
+runs automatically. The only re-read is a segment an earlier run saw only as an excerpt (37, all in
+`q103_1-20261008`): it is read whole once.
 
 ### 2. Verse maps (Sol high): new verses, then updates of existing maps
 ```bash
@@ -83,6 +89,13 @@ python3 -B enrichment/v9/surah.py finish S       # renders each page (md + strip
 Outputs: `work/<writer run>/render/<page>.enriched.md` (+ `maps/`), and `work/prod_sNNN/<S_A>.html`. Report the
 actual cost of every stage against the plan's estimate (`report` commands; Opus costs from `digest.claude_usage`).
 
+## Several surahs at once
+
+Plan each surah; build their tier-1 runs one after the other, each with `--skip-planned` naming the earlier unfinished
+runs; run all their spawn files through one `codex_run.py` call (one Luna cap). Maps: build per surah after its tier
+1 is checked; a verse planned in another surah's map run is `SKIPPED` and that surah's pages wait for it
+(`writer.py build` refuses until every cited verse has a map).
+
 ## When something fails
 
 | What happened | What to do |
@@ -92,3 +105,20 @@ actual cost of every stage against the plan's estimate (`report` commands; Opus 
 | `writer.py build` refuses: no verse map | finish stage 2 for the listed verses |
 | a writer's `check` fails after its run | report the problems; do not resume it for fixes (rule 5): rebuild that page in a new writer run with the user's go |
 | peak context over 120k (tier-1 report) | report; the output is valid if `check` passes |
+
+## Production state (update this section at every stage; last: 2026-10-09)
+
+| Surah | Plan | Tier 1 | Maps | Translation | Pages | Rendered |
+|---|---|---|---|---|---|---|
+| 103 (page 103:1) | test (`w103_1-20261008`, `meal103_1-r2-20261009`) | done | done (`maptest-20261008`, `map-103_1-20261008`) | not yet | done; published privately (https://claude.ai/artifact/TnbnSk6SvZYrQSKWZBaDXs) | done |
+| 96 | `work/prod_s096` (19 pages, 475 verses) | `t1_s096_20261009`: 1,464 chunks, **running** (log `work/t1_s096_s103.run.log`) | — | — | — | — |
+| 103 (pages 103:2, 103:3) | `work/prod_s103` (95 verses) | `t1_s103_20261009`: 52 chunks, **running** (same log) | — | — | — | — |
+
+The S96 tier-1 run also holds the 103:1 completion (103:3, the short editions now kept, the 37 excerpt-only
+segments); after its maps stage, `map.py update-all` brings the 103:1 page's maps up to date. The 103:1 page itself is
+not rewritten (no second analysis).
+
+Next, in order: when `codex_run.py` exits (log ends, no `codex exec` processes), run `digest.py check` and `report`
+for both tier-1 runs; then stage 2 for S103 (pages 103:2–3) and S96 (`map.py build` per surah, then `update-all`),
+Sol at the user's cap; then stage 3, stage 4 (`surah.py pages/agents`), stage 5; commit and push after each stage.
+

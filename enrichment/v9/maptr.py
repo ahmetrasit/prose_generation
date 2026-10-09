@@ -49,6 +49,12 @@ def build(a):
         raise SystemExit(f'{d} exists; use a new run')
     ayat = a.ayat or Path(a.ayat_file).read_text().split()
     todo, skipped = [], 0
+    planned = set()
+    for man in (V9 / 'work').glob('*/maptr/manifest.json'):
+        m = json.loads(man.read_text())
+        for c in m['chunks']:
+            if not (man.parent / 'out' / m['tag'] / f"c{c['chunk']:03d}.jsonl").exists():
+                planned |= {(q, h) for q, h in c['src'].items()}
     for v in ayat:
         qs, _ = Q.load(v)
         if qs is None:
@@ -56,11 +62,11 @@ def build(a):
             continue
         have = Q.translation(v)
         for q in qs:
-            if have.get(q['id'], {}).get('src') == qhash(q):
+            if have.get(q['id'], {}).get('src') == qhash(q) or (q['id'], qhash(q)) in planned:
                 skipped += 1
             else:
                 todo.append(q)
-    print(f'{len(todo)} questions to translate ({skipped} already translated and current)')
+    print(f'{len(todo)} questions to translate ({skipped} already translated, or planned in a running build)')
     if not todo:
         return
     (d / 'chunks').mkdir(parents=True)
