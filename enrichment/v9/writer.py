@@ -38,6 +38,11 @@ BRIEF = V9 / 'briefs/write.md'
 KINDS = ('focus', 'cited', 'agreement', 'closing')
 STATUSES = ('written', 'same_as', 'agreed', 'tradition_silent', 'page_own', 'retelling')
 VOICES = ('BIQAI', 'BIQAI-FULL', 'BINTSHATI', 'BINTSHATI-IJAZ', 'BINTSHATI-INSAN')
+VOICE_FAMILIES = (('al-Biqāʿī', {'BIQAI', 'BIQAI-FULL'}), ("Bint al-Shāṭiʾ", {'BINTSHATI', 'BINTSHATI-IJAZ', 'BINTSHATI-INSAN'}))
+
+
+def as_list(v):
+    return v if isinstance(v, list) else []
 IDS = re.compile(r'\d+:\d+/q\d+(?:/p\d+)?')
 ARABIC_RUN = re.compile(r'[؀-ۿ][؀-ۿً-ْٰ\s]*[؀-ۿ]')
 
@@ -111,9 +116,27 @@ def read(f, problems):
     for i, line in enumerate(f.read_text().splitlines(), 1):
         if line.strip():
             try:
-                out.append(json.loads(line))
+                x = json.loads(line)
             except ValueError as e:
                 problems.append(f'{f.name} line {i}: not JSON ({e})')
+                continue
+            if not isinstance(x, dict):
+                problems.append(f'{f.name} line {i}: not a JSON object')
+                continue
+            if f.name == 'ledger.jsonl' and 'p' in x and not (isinstance(x['p'], int) and not isinstance(x['p'], bool)):
+                problems.append(f'{f.name} line {i}: "p" must be one paragraph number')
+                x['p'] = None
+            for k in ('p', 'questions', 'positions', 'notes', 'blocks'):
+                if k == 'p' and f.name == 'ledger.jsonl':
+                    continue
+                if k in x and x[k] is not None and not (isinstance(x[k], list) and all(isinstance(y, (str, int)) and not isinstance(y, bool) for y in x[k])):
+                    problems.append(f'{f.name} line {i}: "{k}" has the wrong type')
+                    x[k] = []
+            for k in ('id', 'verse', 'kind', 'topic', 'text', 'status', 'says', 'reason', 'voices'):
+                if k in x and x[k] is not None and not isinstance(x[k], str):
+                    problems.append(f'{f.name} line {i}: "{k}" must be text')
+                    x[k] = ''
+            out.append(x)
     return out
 
 
@@ -170,11 +193,11 @@ def check(a):
         for x in b.get('questions') or []:
             if x in qids:
                 for p in qids[x][1]['positions']:
-                    held |= {rows[r]['src'] for r in p['rows'] if r in rows}
-        missing = sorted(held & set(VOICES))
+                    held |= {rows[r]['src'] for r in (p.get('rows') or []) + (p.get('against') or []) if r in rows}
         named = {rows[r]['src'] for r in cited if r in rows}
-        if missing and not (set(missing) & named) and not (b.get('voices') or '').strip():
-            problems.append(f"block {bid}: its questions hold {', '.join(missing)}; cite them or say why in \"voices\"")
+        for name, fam in VOICE_FAMILIES:     # each major voice separately: one cited voice does not excuse the other
+            if held & fam and not named & fam and not (b.get('voices') or '').strip():
+                problems.append(f"block {bid}: its questions hold {name} ({', '.join(sorted(held & fam))}); cite them or say why in \"voices\"")
     want = {(p, v) for p, v in man['pairs']}
     seen = defaultdict(int)
     for r in ledger:
