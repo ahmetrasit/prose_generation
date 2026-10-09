@@ -1,7 +1,7 @@
 {
  "record": "E0 check.py verification record (for the user and the scorecard; never a model input)",
  "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/89_4/DM.r13.images.r13.map3.nohft.tool.tool.tool/89_4.reading.tr.md",
- "file_sha256": "a4c8125be4c1f2e1d58d88b5fcaed1f6d972e1277aabc11b69eb8d95c34ffe8a",
+ "file_sha256": "65bc973418ebfa2c85c8e4b3e2be735d5c36768ab55ec05fbdc879147f5ed190",
  "ref": "89:4",
  "tool_sha256": {
   "check.py": "cd23d66564a04b309582ae691120354b7db635fd55eadbe99c34c72a73c6cae0",
@@ -48,17 +48,16 @@
   "words": 1650,
   "tags": 33,
   "tags_checkable": 33,
-  "tags_sourced": 32,
-  "share_sourced": 0.97,
+  "tags_sourced": 33,
+  "share_sourced": 1.0,
   "by_source": {
    "quran": 23,
-   "dictionary": 9,
-   "unsourced": 1
+   "dictionary": 10
   },
   "levels": {
-   "exact": 32
+   "exact": 33
   },
-  "dictionary_early_phrase": 9,
+  "dictionary_early_phrase": 10,
   "dictionary_definition_only": 0,
   "arabic_outside_tags": 0,
   "arabic_outside_tags_quotations": 0,
@@ -67,7 +66,7 @@
   "arabic_outside_tags_by_context": {},
   "bellek_marks": 0,
   "bellek_status": {},
-  "unsourced_unmarked": 1,
+  "unsourced_unmarked": 0,
   "cited_branches": 5,
   "cited_bound_branches": 0,
   "bound_citations_with_echo_marker": 0,
@@ -90,9 +89,8 @@
    "quran": 36
   },
   "sources_status": {
-   "ok": 32,
-   "ok (no quote)": 13,
-   "quote not in this branch": 1
+   "ok": 33,
+   "ok (no quote)": 13
   }
  },
  "quotations": [
@@ -576,11 +574,43 @@
   {
    "n": 18,
    "line": 19,
-   "quote": "سروت عني الثوب أي نزعته",
-   "source": "unsourced",
-   "level": null,
-   "detail": {},
-   "also": {},
+   "quote": "سروت الثوب عني أي نزعته",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000702/B004",
+      "root": "س ر ي",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000702/B004",
+      "root": "س ر ي",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ر ي mufradat"
+    ]
+   },
    "sentence_index": 58,
    "bellek_marked": false
   },
@@ -956,12 +986,7 @@
  ],
  "arabic_outside_tags": [],
  "bellek": [],
- "unsourced_unmarked": [
-  {
-   "line": 19,
-   "quote": "سروت عني الثوب أي نزعته"
-  }
- ],
+ "unsourced_unmarked": [],
  "cited_branches": [
   {
    "branch_ref": "root_000702/B001",
@@ -1044,6 +1069,22 @@
    "sentence": "Bir insanın üstündeki ağırlık kalktığında da bu kökle konuşulurdu: {ar:انسرى عني الهم انكشف, tr:insarâ anni'l-hemmu'nkeşef, gloss:tasa üzerimden kalktı, açıldı, source:\"س ر ي,B004\"}."
   },
   {
+   "branch_ref": "root_000702/B004",
+   "root": "س ر ي",
+   "branch": "B004",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, bağımsız açığa çıkarma anlamını giysi, zırh, kaygı, öfke ve baygınlıkla kurulan yapılardan ayrı yüzler halinde korur.",
+   "image_ar": "الكشف والانسراء",
+   "quote": "سروت الثوب عني أي نزعته",
+   "line": 19,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kalkan şey bir giysi de olabilir: {ar:سروت الثوب عني أي نزعته, tr:serevtu's-sevbe annî ey neza'tuh, gloss:giysiyi üstümden çıkardım, source:\"س ر ي,B004\"}."
+  },
+  {
    "branch_ref": "root_000702/B001",
    "root": "س ر ي",
    "branch": "B001",
@@ -1076,18 +1117,7 @@
    "sentence": "Aynı kökün bir adı yürüyenin tam karşısında durur: {ar:السارية أسطوانة من حجارة أو آجر, tr:es-sâriye ustuvânetun min hicâratin ev âcur, gloss:sâriye, taştan ya da pişmiş tuğladan bir direktir, source:\"س ر ي,B005\"}."
   }
  ],
- "sources": [
-  {
-   "line": 19,
-   "quote": "سروت عني الثوب أي نزعته",
-   "declared": "س ر ي,B004",
-   "kind": "branch",
-   "status": "quote not in this branch",
-   "branch_ref": "root_000702/B004",
-   "found": "unsourced",
-   "found_detail": []
-  }
- ],
+ "sources": [],
  "process_lines": [],
  "sources_all": [
   {
@@ -1255,13 +1285,12 @@
   },
   {
    "line": 19,
-   "quote": "سروت عني الثوب أي نزعته",
+   "quote": "سروت الثوب عني أي نزعته",
    "declared": "س ر ي,B004",
    "kind": "branch",
-   "status": "quote not in this branch",
+   "status": "ok",
    "branch_ref": "root_000702/B004",
-   "found": "unsourced",
-   "found_detail": []
+   "gapped": false
   },
   {
    "line": 19,
