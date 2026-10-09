@@ -68,6 +68,26 @@ One call per verse turns its notes into questions, each with positions:
   attribution, sensible question boundaries. Luna passes → it builds every map (about 6× cheaper) and the 103:1
   page's verses are redone with it. Luna fails → Sol; the existing 103:1 views get the question layer on top.
 
+### Model test result (2026-10-08, run `work/maptest-20261008`)
+
+| Verse (notes) | Luna max | Sol high |
+|---|---|---|
+| 100:1 (358) | 11 questions, 27 positions, $0.055 | 17 questions, 49 positions, $0.52 |
+| 12:49 (235) | 12 / 32, $0.061 | 19 / 43, $0.31 |
+| 6:52 (529) | 33 / 42, $0.052 | 23 / 63, $0.69 |
+
+All six passed the check. **Sol high is chosen.** Luna failed on three counts:
+- **Arguments lose their holders:** on 100:1 the horse arguments survive only as a generic list; Sol keeps al-Ṭabarī
+  (camels do not pant), al-Rāzī (iron shoes spark, dawn raids) and Abū Ṣāliḥ preferring ʿAlī's authority.
+- **`against` misused:** Luna lists notes that merely hold the rival position (including authors who wrote before
+  the view existed) and misplaces al-Ṭabarī's rejection of the milking report under the pressing position. Sol's
+  `against` entries are explicit rejections (including ʿAlī's correction of the active reading, which Luna missed).
+- **Structure breaks on the largest verse:** on 6:52 Luna wrote seven duplicate questions (q27–q33 repeat
+  q01–q18) for leftover notes instead of placing them.
+
+Sol's map costs about 1.4–1.8× its flat tier 2 on the same verses (more output): ≈ $0.35–0.7 per verse. Revised verse
+side ≈ $0.16 + ≈ $0.45 ≈ **$0.6 per verse**, whole Qur'an ≈ $3.8k API-equivalent ($0 cash on Codex).
+
 ### C5 Meal table (script)
 Distinct renderings per verse with their translators, panel first, lineages grouped.
 
@@ -122,8 +142,7 @@ Estimated:
 
 | Item | Per unit | Notes |
 |---|---|---|
-| Verse side, Sol map | ≈ $0.45–0.55 per verse | tier 1 + map; once per verse; whole Qur'an ≈ $3k API-equivalent |
-| Verse side, Luna map | ≈ $0.20–0.25 per verse | if Luna passes the test; whole Qur'an ≈ $1.4k |
+| Verse side, Sol map | ≈ $0.6 per verse (measured on 3 verses) | tier 1 + map; once per verse; whole Qur'an ≈ $3.8k API-equivalent |
 | Writer, Opus high | ≈ $3–5 per page | start context ≈ 50k tokens, ≈ 25 lookups, 30–40 turns; heavy pages (1:1) ≈ $5–7 |
 | Meal block | ≈ $0.3–0.6 per ayah | small input |
 | **Cash per ayah (Claude)** | **≈ $3.5–5.5** | the <$5 target holds at the low end; measured on 103:1 first |
@@ -142,7 +161,6 @@ For comparison: v2 1:1 one Opus agent ≈ $12.5–14; the v8 sift writer estimat
 
 ## Open
 
-- Luna or Sol for the verse map (test).
 - When the tradition simply agrees with the page (e.g. a consensus gloss): a one-line block naming the classical
   witnesses, or no block.
 - English pivot: recommended, not yet confirmed by the user.
