@@ -7,7 +7,7 @@ Design and decisions: `PLAN.md` (read its "Decisions" section first). Test stand
 ## Rules
 
 1. **Scope and quota come from the user.** Before a surah, report the plan's expected cost (`surah.py plan`) and
-   use the quota the user gave: Luna up to 50 agents at a time, Sol and Opus as the user allows (2026-10-09:
+   use the quota the user gave: Luna up to 60 agents at a time (raised from 50, 2026-10-09), Sol and Opus as the user allows (2026-10-09:
    production go for Sol, Luna and Opus). If no quota is known, ask.
 2. **No cuts anywhere.** Never trim, excerpt, sample or drop input or output. Chunking puts whole segments together;
    a segment larger than a chunk goes alone.
