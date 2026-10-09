@@ -255,6 +255,137 @@ def align(sn: int, verse_nums: list[int], units: list[dict], refs: dict, idf: di
     return cells
 
 
+# --- digital edition: surahs whose Arabic carries the verse numbers --------------------------------------------------
+# archive.org item 2Bakara_201602 (Konyalı Mehmet Vehbi Efendi, «Hulasat'ül Beyan», surah PDFs with a text layer, the Arabic
+# with its verse numbers kept; the same translation text as the djvu OCR). Where a surah PDF is held, its blocks are tied
+# to verses by the verse numbers printed in the Arabic instead of by the similarity alignment (the other surahs keep the
+# alignment). PDFs are read as data only (pypdf).
+PDF_DIR = "raw/ia-2Bakara_201602-2026-10-09"
+PDF_SURAHS = {1: "1-fatiha", 2: "2-bakara", 3: "3-ali-imran", 4: "4-nisa", 5: "5-maide", 6: "6-enam", 8: "8-enfal"}
+PDF_ARABIC = re.compile(r"[\u0600-\u06FF\uFB50-\uFDFF\uFE70-\uFEFF]")
+PDF_MARK = re.compile(r"[\ufd3f\ufd3e\(]\s*(\d{1,3})\s*[\ufd3e\ufd3f\)]")
+PDF_BUY = re.compile(r"^buyur\w*[.,:;]?$")
+
+
+def pdf_text_clean(lines: list[str]) -> str:
+    t = ""
+    for ln in lines:
+        ln = ln.strip()
+        if not ln:
+            continue
+        if t.endswith("-") and ln[:1].islower():
+            t += ln  # a line-end hyphen: «vahy-» «i münzel» -> «vahy-i münzel»
+        else:
+            t = (t + " " + ln) if t else ln
+    t = re.sub(r"(?<=[A-Za-zÇĞİÖŞÜçğıöşüÂÎÛâîû])\s+-(?=[a-zçğıöşüâîû])", "-", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def pdf_blocks(path: Path) -> tuple[list[tuple], list[str]]:
+    """Events of one surah PDF in reading order: ('M', n, form, line) a verse number in the Arabic; ('B', i0, i1, line)
+    a translation block (lines i0..i1, brackets stripped). Also returns the lines."""
+    import logging
+    import pypdf
+    logging.disable(logging.CRITICAL)
+    reader = pypdf.PdfReader(path)
+    lines = "\n".join(pg.extract_text() or "" for pg in reader.pages).split("\n")
+    ev: list[tuple] = []
+    recent: list[bool] = []
+    after_buy = False
+
+    def grab(i: int, strict: bool) -> int | None:
+        for k in range(i, min(len(lines), i + 30)):
+            if strict and k > i and (PDF_ARABIC.search(lines[k]) or lines[k].strip().startswith("[") or PDF_MARK.search(lines[k])):
+                return None
+            if "]" in lines[k]:
+                return k
+        return None
+
+    i = 0
+    while i < len(lines):
+        s_ = lines[i].strip()
+        if s_.startswith("["):
+            k = grab(i, False)
+            if k is not None:
+                ev.append(("B", i, k))
+                i, after_buy = k + 1, False
+                continue
+        if after_buy and s_:
+            k = grab(i, True)
+            after_buy = False
+            if k is not None and not PDF_ARABIC.search(" ".join(lines[i:k + 1])[:60]) and sum(len(x) for x in lines[i:k + 1]) < 2500:
+                ev.append(("B", i, k))
+                i = k + 1
+                continue
+        for m in PDF_MARK.finditer(lines[i]):
+            before, after = lines[i][:m.start()], lines[i][m.end():]
+            ba, aa = bool(PDF_ARABIC.search(before)), bool(PDF_ARABIC.search(after))
+            if not (ba or aa or (not before.strip() and not after.strip())):
+                continue  # a number in Turkish prose
+            ev.append(("M", int(m.group(1)), "lead" if (not ba and aa) else "trail", i))
+        if s_:
+            recent = (recent + [bool(PDF_ARABIC.search(s_) or PDF_MARK.search(s_))])[-4:]
+        if PDF_BUY.match(s_) and any(recent[-4:-1] or [False]):
+            after_buy = True
+        i += 1
+    return ev, lines
+
+
+def pdf_cells(sn: int, nv: int, first_verse: int) -> list[dict] | None:
+    """Cells {a, b, meal[], comm[]} of surah sn from its PDF, or None when the PDF is not held."""
+    stem = PDF_SURAHS.get(sn)
+    path = IC.src_dir(SID) / PDF_DIR / f"{stem}.pdf" if stem else None
+    if not path or not path.exists():
+        return None
+    ev, lines = pdf_blocks(path)
+    cov_end, hv, last, fresh, prev = first_verse - 1, 0, None, False, None
+    blocks: list[dict] = []
+    for e in ev:
+        if e[0] == "M":
+            if hv < e[1] <= hv + 4:
+                hv = e[1]  # a stray number (a reference inside the Arabic) never jumps ahead
+                fresh = True
+            last = e[2]
+            continue
+        if not fresh and prev is not None and last == "lead":
+            a_, b_ = prev  # a further phrase block of the verse whose number opened the Arabic
+        elif last == "lead":
+            a_, b_ = cov_end + 1, max(hv, cov_end + 1)
+            cov_end = b_
+        elif hv > cov_end:
+            a_, b_ = cov_end + 1, hv
+            cov_end = hv
+        else:
+            a_ = b_ = cov_end + 1  # a phrase block before the number that closes its verse
+        fresh = False
+        prev = (min(a_, nv), min(b_, nv))
+        blocks.append({"a": prev[0], "b": prev[1], "i0": e[1], "i1": e[2]})
+
+    def pre_start(i0: int) -> int:
+        j = i0 - 1
+        while j >= 0 and (not lines[j].strip() or PDF_ARABIC.search(lines[j]) or PDF_MARK.search(lines[j]) or PDF_BUY.match(lines[j].strip())):
+            j -= 1
+        return j + 1
+    cells: list[dict] = []
+    for bi, b in enumerate(blocks):
+        txt = pdf_text_clean(lines[b["i0"]:b["i1"] + 1])
+        txt = re.sub(r"^\[\s*", "", txt)
+        txt = re.sub(r"\s*\].*$", "", txt)
+        end_comm = pre_start(blocks[bi + 1]["i0"]) if bi + 1 < len(blocks) else len(lines)
+        comm_lines = lines[b["i1"] + 1:max(b["i1"] + 1, end_comm)]
+        tail = lines[b["i1"]].split("]", 1)[1] if "]" in lines[b["i1"]] else ""
+        comm = pdf_text_clean([tail] + comm_lines)
+        if cells and b["a"] <= cells[-1]["b"]:  # the same verse again (a phrase block, then the closing block): one cell
+            cells[-1]["meal"].append(txt)
+            cells[-1]["comm"].append(comm)
+            cells[-1]["a"] = min(cells[-1]["a"], b["a"])
+            cells[-1]["b"] = max(cells[-1]["b"], b["b"])
+        else:
+            cells.append({"a": b["a"], "b": b["b"], "meal": [txt], "comm": [comm]})
+    return cells
+
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--dry", action="store_true")
@@ -563,10 +694,24 @@ def main() -> None:
     missing: list[str] = []
     sims_all = []
     fallback_surahs: list[str] = []
+    pdf_surahs: list[int] = []
     for sn in range(1, 115):
         verse_nums = list(range(2, counts[sn] + 1)) if sn == 1 else list(range(1, counts[sn] + 1))
         if sn == 1:
             missing.append("1:1")
+        pc = pdf_cells(sn, counts[sn], verse_nums[0])
+        if pc is not None:
+            pdf_surahs.append(sn)
+            for c_ in pc:
+                loc = f"{sn}:{c_['a']}"
+                g = {"seg": f"{SID}:{loc}", "s": sn, "a": c_["a"], "a_end": c_["b"], "text": " ".join(c_["meal"]).strip(),
+                     "blocks": len(c_["meal"]), "align": None, "aligned_by": "verse numbers printed in the Arabic (digital PDF)",
+                     "page": None}
+                meal_segs.append(g)
+                tafs_segs.append({"seg": f"{TID}:{loc}", "s": sn, "a": c_["a"], "a_end": c_["b"],
+                                  "text": "\n\n".join(x for x in c_["comm"] if x), "blocks": len(c_["meal"]), "align": None,
+                                  "aligned_by": "verse numbers printed in the Arabic (digital PDF)", "page": None})
+            continue
         units = blocks_of[sn]
         cells = None
         if units:
@@ -653,8 +798,18 @@ def main() -> None:
         "script": "enrichment/v2/fetch/import_meal_vehbi.py", "from": IC.inputs(SID, ["vehbi-hulasatul-beyan.djvu"]),
         "method": "archive.org OCR text (djvu.txt); surah starts from the headings / page headers; translation blocks "
                   "(parenthesised, after the Arabic noise and «buyuruyor.»); blocks tied to verses by a monotone "
-                  "alignment scored by lexical similarity to " + ", ".join(used_refs) + " and by length",
-        "verse_count_mismatch": short, "missing": miss_all, "issues": issues, "counts": dict(stats),
+                  "alignment scored by lexical similarity to " + ", ".join(used_refs) + " and by length; surahs "
+                  + ", ".join(map(str, pdf_surahs)) + " (digital surah PDFs of archive.org item 2Bakara_201602, same translation "
+                  "text, raw/" + PDF_DIR.split("/", 1)[1] + ") are tied by the verse numbers printed in the Arabic instead",
+        "from_pdf": {str(p_.relative_to(IC.src_dir(SID))): IC.C.sha256(p_) for p_ in sorted((IC.src_dir(SID) / PDF_DIR).glob("*.pdf"))},
+        "verse_count_mismatch": short,
+        "missing": [{"ayah": m_, "reason": ("the book prints the besmele in Arabic and gives it no Turkish translation block "
+                                           "(its Fâtiha commentary starts at verse 2)" if m_ == "1:1"
+                                           else "no translation block found for this verse"),
+                     "checked": ["the archive.org djvu.txt OCR of the 16-volume item", "the digital surah PDF 1-fatiha.pdf of "
+                                 "archive.org item 2Bakara_201602 (same translation text; also no translation of the besmele)"]}
+                    for m_ in miss_all],
+        "issues": issues, "alignment_by_pdf_surahs": pdf_surahs, "counts": dict(stats),
         "dropped_sample": dropped, "low_similarity_cells": low, "alignment_fallback_surahs": fallback_surahs,
         "references_used_for_alignment": used_refs,
     }
@@ -665,8 +820,10 @@ def main() -> None:
         "notes": "Public domain: author died 1949. The Turkish translation blocks of Vehbi's tafsir (printed in bold in the "
                  "book, in parentheses in the OCR), tied to verses by alignment: each Arabic block of the book is a phrase, "
                  "a verse or several verses and the OCR lost the Arabic and its verse numbers, so the verse groups (a..a_end) "
-                 "are inferred, not printed (see align and the low-similarity list in the ingestion record). The besmele "
-                 "(1:1) is not translated in the book. OCR quality: running text mostly good; page headers inside "
+                 "are inferred, not printed (see align and the low-similarity list in the ingestion record), except in "
+                 "surahs 1-6 and 8, tied by the verse numbers of the Arabic in the digital surah PDFs of archive.org item "
+                 "2Bakara_201602 (same translation text; 2026-10-09 review: the OCR alignment there was wrong in 15-30% of "
+                 "the verses). The besmele (1:1) is not translated in the book (checked in both copies). OCR quality: running text mostly good; page headers inside "
                  "paragraphs and Arabic noise leave stray fragments. The commentary is in TAFSIR-VEHBI."})
     tmeta = json.loads((IC.src_dir(TID) / "source.json").read_text(encoding="utf-8"))
     IC.write(TID, tafs_segs, dict(ingestion_common), {

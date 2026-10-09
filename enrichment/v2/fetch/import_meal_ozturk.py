@@ -232,6 +232,13 @@ def marker_re(n: int) -> re.Pattern:
     return re.compile(rf"(?:(?<=[.,;:!?)\]\"”’'])\s?({plain})|(?<=[.!?)\]\"”])\s?({var})|(?<=[{LET}])({plain}))(?=[\s.,;:!?)\]\"”]|$)")
 
 
+# Verses whose whole text the text layer prints inside an Arabic-noise line (read from the page by eye, 2026-10-09 review).
+RECOVERED = {
+    (20, 1): ("Ta-Ha.", "the text layer prints the whole verse «Ta-Ha.» at the end of an Arabic-noise line of PDF page 357, "
+                         "after the basmala and before verse 2; set by hand from that line"),
+}
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--dry", action="store_true")
@@ -538,6 +545,9 @@ def main() -> None:
                 prev[0][1]["a_end"] = m1
                 issues.append(f"{s}:{m0}{'-' + str(m1) if m1 > m0 else ''}: no printed number in the text layer; "
                               f"tied to the unit {s}:{prev[0][0]} above it (its text holds theirs)")
+            elif (s, m0) in RECOVERED:
+                verses[(s, m0)] = {"a_end": m1, "parts": [RECOVERED[(s, m0)][0]], "page": intros[s]["page"]}
+                issues.append(f"{s}:{m0}: {RECOVERED[(s, m0)][1]}")
             else:
                 verses[(s, m0)] = {"a_end": m1, "parts": [], "page": intros[s]["page"], "empty": True}
                 issues.append(f"{s}:{m0}{'-' + str(m1) if m1 > m0 else ''}: no text in the text layer (read as Arabic "

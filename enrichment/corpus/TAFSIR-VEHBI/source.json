@@ -29,21 +29,46 @@
     "files": 0,
     "note": "raw file held in ../MEAL-VEHBI/raw/"
   },
-  "segments": 4850,
+  "segments": 4918,
   "ingestion": {
     "date": "2026-10-09",
     "script": "enrichment/v2/fetch/import_meal_vehbi.py",
     "from": {
       "raw/acquired-2026-10-09/vehbi-hulasatul-beyan.djvu.txt": "cedc553c3534acd8c50207058ab440356ad2bd6e1bf0bea1555277d2f6efea44"
     },
-    "method": "archive.org OCR text (djvu.txt); surah starts from the headings / page headers; translation blocks (parenthesised, after the Arabic noise and «buyuruyor.»); blocks tied to verses by a monotone alignment scored by lexical similarity to MEAL-BILMEN, MEAL-ELMALILI, MEAL-IZMIRLI, MEAL-ELMALILI-HDKD and by length",
+    "method": "archive.org OCR text (djvu.txt); surah starts from the headings / page headers; translation blocks (parenthesised, after the Arabic noise and «buyuruyor.»); blocks tied to verses by a monotone alignment scored by lexical similarity to MEAL-BILMEN, MEAL-ELMALILI, MEAL-IZMIRLI, MEAL-ELMALILI-HDKD and by length; surahs 1, 2, 3, 4, 5, 6, 8 (digital surah PDFs of archive.org item 2Bakara_201602, same translation text, raw/ia-2Bakara_201602-2026-10-09) are tied by the verse numbers printed in the Arabic instead",
+    "from_pdf": {
+      "raw/ia-2Bakara_201602-2026-10-09/1-fatiha.pdf": "1e6382d87e218b7ed0a6408098a0581cc2442ec0a47b02f6a2431c9ec01c90fe",
+      "raw/ia-2Bakara_201602-2026-10-09/2-bakara.pdf": "f36db8334202969b310595925b4e201fbcd02d1304538f46cf382e5f5a8949b4",
+      "raw/ia-2Bakara_201602-2026-10-09/3-ali-imran.pdf": "1668680c76be33f1de5e668caab79955311887c33d8b8b701a2ce56f34ac10c4",
+      "raw/ia-2Bakara_201602-2026-10-09/4-nisa.pdf": "a3f112e1b926cee547925a8a6abb28c8f9ba4220899d8e0ecb459e11603d5d35",
+      "raw/ia-2Bakara_201602-2026-10-09/5-maide.pdf": "2766b432e0e99c51bd2d66051495baef9bf0b58640d91b98d1a8c5e5bd9315fc",
+      "raw/ia-2Bakara_201602-2026-10-09/6-enam.pdf": "478dacb7f30a07c44b5f0bf30db45d5ed5a0f4c975e37b69bbecbf0b488d5407",
+      "raw/ia-2Bakara_201602-2026-10-09/8-enfal.pdf": "6e9f177e78d5a2e24b5b981eaa966680a25d1df010262bba7f84fde880428aec"
+    },
     "verse_count_mismatch": {
       "1": "6/7"
     },
     "missing": [
-      "1:1"
+      {
+        "ayah": "1:1",
+        "reason": "the book prints the besmele in Arabic and gives it no Turkish translation block (its Fâtiha commentary starts at verse 2)",
+        "checked": [
+          "the archive.org djvu.txt OCR of the 16-volume item",
+          "the digital surah PDF 1-fatiha.pdf of archive.org item 2Bakara_201602 (same translation text; also no translation of the besmele)"
+        ]
+      }
     ],
     "issues": [],
+    "alignment_by_pdf_surahs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
     "counts": {
       "page headers with a surah": 2821,
       "page headers off the surah sequence (OCR misreads)": 92,
@@ -56,9 +81,9 @@
       "dropped chars: Arabic OCR noise paragraphs (between the blocks)": 82514,
       "translation blocks without a closing bracket (kept to the paragraph end)": 174,
       "translation blocks": 6094,
-      "aligned cells": 4587,
-      "mean cell similarity": 0.307,
-      "low-similarity cells (sim < 0.12, more than one verse or block)": 155
+      "aligned cells": 4655,
+      "mean cell similarity": 0.309,
+      "low-similarity cells (sim < 0.12, more than one verse or block)": 131
     },
     "dropped_sample": {
       "page headers and page numbers": [
@@ -91,30 +116,6 @@
       ]
     },
     "low_similarity_cells": [
-      "1:6 (2 blocks, sim 0.09)",
-      "2:1-2 (1 blocks, sim 0.10)",
-      "2:27-28 (1 blocks, sim 0.09)",
-      "2:94-95 (1 blocks, sim 0.06)",
-      "2:116-117 (1 blocks, sim 0.11)",
-      "2:124 (2 blocks, sim 0.10)",
-      "2:236 (2 blocks, sim 0.11)",
-      "2:285 (3 blocks, sim 0.11)",
-      "3:1-2 (1 blocks, sim 0.05)",
-      "3:40 (2 blocks, sim 0.11)",
-      "3:62-63 (1 blocks, sim -0.01)",
-      "3:81-83 (1 blocks, sim 0.07)",
-      "3:102 (2 blocks, sim 0.11)",
-      "3:148-149 (1 blocks, sim 0.09)",
-      "4:89-90 (1 blocks, sim 0.10)",
-      "4:143 (2 blocks, sim 0.04)",
-      "5:33-34 (1 blocks, sim 0.05)",
-      "5:40 (2 blocks, sim 0.02)",
-      "5:83 (2 blocks, sim 0.01)",
-      "5:104-105 (1 blocks, sim 0.11)",
-      "6:15-16 (1 blocks, sim 0.12)",
-      "6:18-19 (1 blocks, sim 0.11)",
-      "6:72-73 (1 blocks, sim 0.06)",
-      "6:135-136 (1 blocks, sim 0.11)",
       "7:6-7 (1 blocks, sim 0.11)",
       "7:22 (2 blocks, sim 0.11)",
       "7:33 (2 blocks, sim 0.10)",
@@ -254,10 +255,10 @@
       "MEAL-IZMIRLI",
       "MEAL-ELMALILI-HDKD"
     ],
-    "segments": 4850,
-    "tied_to_ayah": 4699,
+    "segments": 4918,
+    "tied_to_ayah": 4767,
     "with_cited_ayat": 12,
-    "characters": 9930293,
+    "characters": 9970007,
     "ocr_corrections": {
       "date": "2026-10-09",
       "script": "enrichment/v2/fetch/ocr_fix.py",
@@ -270,202 +271,200 @@
         "case": "stray capital inside a word lower-cased when the lower-cased form is attested"
       },
       "fixes_per_rule": {
-        "sub": 1843,
-        "join": 575,
-        "hyphen": 1016,
-        "case": 19,
-        "header": 3,
+        "join": 3318,
+        "sub": 1492,
+        "hyphen": 789,
+        "case": 16,
+        "header": 2,
         "noise": 9
       },
-      "segments_changed": 1792,
+      "segments_changed": 2132,
       "confusions_used_beyond_core": [
         "g>ğ",
-        "s>ş",
-        "ü>û",
-        "ı>i"
+        "ü>û"
       ],
-      "sub_candidates_left_alone_unconfirmed": 1846,
-      "space_join_runs_left_alone_ambiguous": 0,
+      "sub_candidates_left_alone_unconfirmed": 1186,
+      "space_join_runs_left_alone_ambiguous": 30,
       "samples": [
         {
-          "seg": "TAFSIR-VEHBI:26:75",
-          "from": "mev-\ncut",
-          "to": "mevcut",
-          "rule": "hyphen"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:31:28",
-          "from": "emri-\nmiz",
-          "to": "emrimiz",
-          "rule": "hyphen"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:77:17",
-          "from": "Müsâ",
-          "to": "Mûsâ",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:27:56",
-          "from": "Lüt'u",
-          "to": "Lût'u",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:26:53",
-          "from": "olduguna",
-          "to": "olduğuna",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:28:33",
-          "from": "Müsâ",
-          "to": "Mûsâ",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:34:46",
-          "from": "me-\nseleyi",
-          "to": "meseleyi",
-          "rule": "hyphen"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:7:130",
-          "from": "Müsâ'nın",
-          "to": "Mûsâ'nın",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:7:127",
-          "from": "Müsâ",
-          "to": "Mûsâ",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:93:8",
-          "from": "fakır",
-          "to": "fakir",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:28:34",
-          "from": "Müsâ'nın",
-          "to": "Mûsâ'nın",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:28:8",
-          "from": "Müsâ",
-          "to": "Mûsâ",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:38:21",
-          "from": "Dâvüd",
-          "to": "Dâvûd",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:37:78",
-          "from": "İ yi",
-          "to": "İyi",
-          "rule": "join"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:84:7",
-          "from": "gü-\nnahlarından",
-          "to": "günahlarından",
-          "rule": "hyphen"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:7:128",
-          "from": "İki ncis i",
-          "to": "İkincisi",
-          "rule": "join"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:4:79",
-          "from": "de-\nlâlet",
-          "to": "delâlet",
-          "rule": "hyphen"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:25:52",
-          "from": "va-\nzife",
-          "to": "vazife",
-          "rule": "hyphen"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:11:96",
-          "from": "Müsâ",
-          "to": "Mûsâ",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:5:120",
-          "from": "kıy met",
-          "to": "kıymet",
-          "rule": "join"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:4:59",
-          "from": "beyan-\ndan",
-          "to": "beyandan",
-          "rule": "hyphen"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:29:24",
-          "from": "Birin cisi",
-          "to": "Birincisi",
-          "rule": "join"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:99:6",
-          "from": "degildir",
-          "to": "değildir",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:46:25",
-          "from": "ih-\nlâk",
-          "to": "ihlâk",
-          "rule": "hyphen"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:38:24",
-          "from": "Dâvüd",
-          "to": "Dâvûd",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:2:249",
-          "from": "Tâlüt",
-          "to": "Tâlût",
-          "rule": "sub"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:36:15",
-          "from": "ce-\nvabı",
-          "to": "cevabı",
-          "rule": "hyphen"
-        },
-        {
-          "seg": "TAFSIR-VEHBI:19:53",
+          "seg": "TAFSIR-VEHBI:16:117",
           "from": "oldugunu",
           "to": "olduğunu",
           "rule": "sub"
         },
         {
-          "seg": "TAFSIR-VEHBI:26:95",
-          "from": "üze-\nrinde",
-          "to": "üzerinde",
+          "seg": "TAFSIR-VEHBI:34:46",
+          "from": "digeri",
+          "to": "diğeri",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:19:68",
+          "from": "öldük-\nten",
+          "to": "öldükten",
           "rule": "hyphen"
         },
         {
-          "seg": "TAFSIR-VEHBI:40:7",
-          "from": "bera-\nberce",
-          "to": "beraberce",
+          "seg": "TAFSIR-VEHBI:16:112",
+          "from": "oldukların-\ndan",
+          "to": "olduklarından",
           "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:28:15",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:38:44",
+          "from": "Ce-\nnab",
+          "to": "Cenab",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:4:40",
+          "from": "yumu rtası",
+          "to": "yumurtası",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:4:32",
+          "from": "Ha kkın",
+          "to": "Hakkın",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:28:19",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:22:2",
+          "from": "müste-\nhak",
+          "to": "müstehak",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:56:65",
+          "from": "Ya-\nhut",
+          "to": "Yahut",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:47:7",
+          "from": "Al lahü",
+          "to": "Allahü",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:4:35",
+          "from": "y oktur",
+          "to": "yoktur",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:3:3",
+          "from": "k i t a p l a",
+          "to": "kitapla",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:16:19",
+          "from": "gafür",
+          "to": "gafûr",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:6:37",
+          "from": "K u r a n",
+          "to": "Kuran",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:3:141",
+          "from": "muk abil",
+          "to": "mukabil",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:2:283",
+          "from": "R e h i n",
+          "to": "Rehin",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:29:33",
+          "from": "Lüt'a",
+          "to": "Lût'a",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:59:21",
+          "from": "oldugunu",
+          "to": "olduğunu",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:2:155",
+          "from": "sabre denleri",
+          "to": "sabredenleri",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:40:78",
+          "from": "adet-\nten",
+          "to": "adetten",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:9:70",
+          "from": "ettigimiz",
+          "to": "ettiğimiz",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:16:124",
+          "from": "Müsâ'ya",
+          "to": "Mûsâ'ya",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:76:10",
+          "from": "oldugunu",
+          "to": "olduğunu",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:48:2",
+          "from": "Rasülü",
+          "to": "Rasûlü",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:72:8",
+          "from": "Re sulullah'a",
+          "to": "Resulullah'a",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:3:171",
+          "from": "haklannda",
+          "to": "haklarında",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:52:38",
+          "from": "ko-\nyacak",
+          "to": "koyacak",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:2:23",
+          "from": "S û r e",
+          "to": "Sûre",
+          "rule": "join"
         }
       ],
       "original": "each changed segment keeps its imported text in text_ocr (notes_ocr) and the list ocr_fixes"
