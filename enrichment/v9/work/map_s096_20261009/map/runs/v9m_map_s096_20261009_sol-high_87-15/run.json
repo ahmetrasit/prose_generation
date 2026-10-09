@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_87-15",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T07:18:25",
+  "ended": "2026-10-09T07:24:22",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12062-c4e8-7ea1-bcfe-c65bdbb223b0",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 621249,
+    "cached_input_tokens": 565632,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22100,
+    "reasoning_output_tokens": 5734
+  },
+  "stderr": "2026-10-09T11:22:31.803512Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/87-15.raw.jsonl:\n\"against\":[\"ALUSI:87:15/r2\"]\n2026-10-09T11:23:01.631091Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:23:42.612526Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 4, Update hunk does not contain any lines\n",
+  "prompt_sha256": "d45218d735af9e69506dd750a391e321b8a3cee7658fa93e6a13cc81a8b803d2",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-18-26-01a12062-c4e8-7ea1-bcfe-c65bdbb223b0.jsonl",
+  "usd_equivalent": 0.44536,
+  "requests": 16,
+  "max_request_input_tokens": 58723,
+  "over_context_cap": false
+}

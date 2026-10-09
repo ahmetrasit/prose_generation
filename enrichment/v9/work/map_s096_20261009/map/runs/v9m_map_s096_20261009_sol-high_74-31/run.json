@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_74-31",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T07:14:15",
+  "ended": "2026-10-09T07:21:25",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1205e-f340-74d1-aa22-502824affe2e",
+  "commands": 19,
+  "usage": {
+    "input_tokens": 1431089,
+    "cached_input_tokens": 1341056,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30177,
+    "reasoning_output_tokens": 4979
+  },
+  "stderr": "2026-10-09T11:19:31.315014Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/74-31.raw.jsonl:\n\"against\":[\"ALUSI-FULL:v29p126/r4\"]\n2026-10-09T11:20:30.899682Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find context '\"question\":\"Who are the companions of the Fire?\"' in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/74-31.raw.jsonl\n",
+  "prompt_sha256": "f8c44d432fb6841c7cf096b47a39e3566df3a4b153b777253abf7e604a5c9f6f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-14-16-01a1205e-f340-74d1-aa22-502824affe2e.jsonl",
+  "usd_equivalent": 0.750047,
+  "requests": 26,
+  "max_request_input_tokens": 94940,
+  "over_context_cap": false
+}

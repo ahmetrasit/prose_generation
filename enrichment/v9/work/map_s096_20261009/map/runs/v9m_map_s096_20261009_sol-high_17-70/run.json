@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_17-70",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:29:35",
+  "ended": "2026-10-09T06:37:14",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12036-1110-74a3-8854-8ce670dc94ff",
+  "commands": 12,
+  "usage": {
+    "input_tokens": 980489,
+    "cached_input_tokens": 916736,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 27007,
+    "reasoning_output_tokens": 5985
+  },
+  "stderr": "session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:07.494662Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:07.498074Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:07.499314Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:07.740594Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:37:09.499583Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:09.500503Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:10.119682Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:10.182844Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:11.439525Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:11.441895Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:11.442871Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:11.637044Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:37:12.899320Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:12.900201Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:13.226474Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:13.228006Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:13.521708Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:13.522706Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:37:13.526255Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n",
+  "prompt_sha256": "6e7ff6a3e7d414d3f26291dec8bf4d5f8b2b5ff635e0148a71d5a6f9612b6e19",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-29-36-01a12036-1110-74a3-8854-8ce670dc94ff.jsonl",
+  "usd_equivalent": 0.436119,
+  "requests": 17,
+  "max_request_input_tokens": 60695,
+  "over_context_cap": false
+}

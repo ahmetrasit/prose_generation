@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_93-6",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T07:21:19",
+  "ended": "2026-10-09T07:29:54",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12065-6b9b-73e0-902b-5ec069cf8dcc",
+  "commands": 12,
+  "usage": {
+    "input_tokens": 791151,
+    "cached_input_tokens": 706688,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 17733,
+    "reasoning_output_tokens": 4315
+  },
+  "stderr": "2026-10-09T11:21:25.014812Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:21:50.126053Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:22:20.128577Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:25:29.564524Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:29:14.629012Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/93-6.raw.jsonl:\n{\"question\":\"What does the note say about sound interpretation of this verse?\",\"words\":[\"*\"],\"type\":\"interpretation\",\"positions\":[{\"position\":\"Tafsīr explains the intended meaning of words and passages and requires deep linguistic and transmitted learning.\",\"reasons\":\"Al-Sāmarāʾī includes hadith, Sunna and occasions of revelation; slight familiarity with the language is insufficient.\",\"rows\":[\"SAMARRAI-LAMASAT-HALAQAT:p1097/r1\",\"SAMARRAI-LAMASAT-HALAQAT:p1097/r2\"],\"prefer\":[],\"against\":[]}],\"turns_on\":\"\"}\n\n{\"question\":\"Can 'find' mean see in this verse?\",\"words\":[\"يَجِدْكَ\"],\"type\":\"meaning\",\"positions\":[{\"position\":\"Yes: God saw Muhammad as an orphan and sheltered him.\",\"reasons\":\"Al-Dāmghānī gives seeing as a sense of wajada and also points to 4:91.\",\"rows\":[\"DAMGHANI:v1p477/r18\"],\"prefer\":[],\"against\":[]}],\"turns_on\":\"\"}\n",
+  "prompt_sha256": "cc8fb37d1efd5a129032f9cfd852164b057674fcd08ed3258825edbc2cbdec7c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-21-20-01a12065-6b9b-73e0-902b-5ec069cf8dcc.jsonl",
+  "usd_equivalent": 0.487594,
+  "requests": 20,
+  "max_request_input_tokens": 53742,
+  "over_context_cap": false
+}

@@ -1,0 +1,6 @@
+Repair request for your verse map. You may read and edit only your own output file enrichment/v9/work/map_s096_20261009/map/out/sol-high/31-16.raw.jsonl and reread your own input parts. The checker reports (first lines):
+
+sol-high 31:16: 1 problem(s)
+  31:16/q04/p7: ALUSI-FULL:v21p88#2/r7 is in both "rows" and "against" of the same position
+
+Fix every problem and change nothing else. A note id is written exactly as in the input without the surrounding square brackets (e.g. SOURCE:loc/r1, not [SOURCE:loc/r1]). A note is never in both "rows" and "against" of the same position: keep it where its text places it. Then run `python3 -B enrichment/v9/map.py check map_s096_20261009 --ayah 31:16` until it prints OK, and reply with one line.

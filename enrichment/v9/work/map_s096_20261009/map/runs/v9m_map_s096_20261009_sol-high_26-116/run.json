@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_26-116",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:51:35",
+  "ended": "2026-10-09T06:54:36",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204a-66c5-7bc0-886b-99012255cfe8",
+  "commands": 3,
+  "usage": {
+    "input_tokens": 95218,
+    "cached_input_tokens": 62848,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 7332,
+    "reasoning_output_tokens": 2860
+  },
+  "stderr": "2026-10-09T10:51:49.330426Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:51:54.015627Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:51:54.333701Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:00.897812Z ERROR codex_core::shell_snapshot: Shell snapshot validation failed: Snapshot command exited with status exit status: 1: /bin/bash: /Users/ahmetrasit/.codex/shell_snapshots/01a1204a-66c5-7bc0-886b-99012255cfe8.tmp-1791543118872864000: No such file or directory\n\n2026-10-09T10:52:31.802467Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n",
+  "prompt_sha256": "26d9192bd396020947f529df6d7507333d4fbff433a07abce580a078c7eecafd",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-51-58-01a1204a-66c5-7bc0-886b-99012255cfe8.jsonl",
+  "usd_equivalent": 0.15063,
+  "requests": 5,
+  "max_request_input_tokens": 24342,
+  "over_context_cap": false
+}

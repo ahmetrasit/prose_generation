@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_21-1",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:51:35",
+  "ended": "2026-10-09T07:03:20",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204a-53a0-7012-86e6-27136d190b04",
+  "commands": 10,
+  "usage": {
+    "input_tokens": 1083757,
+    "cached_input_tokens": 1023232,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 26761,
+    "reasoning_output_tokens": 5232
+  },
+  "stderr": "2026-10-09T10:51:44.474131Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:51:48.457936Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:51:49.475741Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:23.094963Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T10:52:36.021630Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:52:38.917933Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:52:41.802775Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:52:46.766111Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:52:49.552585Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:52:53.975822Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:57:31.898570Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/21-1.raw.jsonl:\n\"against\":[\"TABATABAI:21:1/r8\",\"TABATABAI:21:1/r10\"]\n2026-10-09T11:00:53.988492Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "7408504cf86332d8613e5dc126f497ead4e57538c8659208dbe0aba9c0687ef0",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-51-52-01a1204a-53a0-7012-86e6-27136d190b04.jsonl",
+  "usd_equivalent": 0.593306,
+  "requests": 24,
+  "max_request_input_tokens": 61980,
+  "over_context_cap": false
+}

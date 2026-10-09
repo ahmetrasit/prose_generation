@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_87-14",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T07:18:14",
+  "ended": "2026-10-09T07:24:33",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12062-98f5-7163-9e00-6ae243733306",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 569185,
+    "cached_input_tokens": 511360,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 24601,
+    "reasoning_output_tokens": 5570
+  },
+  "stderr": "2026-10-09T11:22:50.470608Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "79aae78c4b036bbade3b5527857efe979ae34ca4df7fc28f747289b16789808a",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-18-15-01a12062-98f5-7163-9e00-6ae243733306.jsonl",
+  "usd_equivalent": 0.463932,
+  "requests": 15,
+  "max_request_input_tokens": 61150,
+  "over_context_cap": false
+}

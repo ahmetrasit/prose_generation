@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_96-9",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T07:24:22",
+  "ended": "2026-10-09T07:33:31",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12068-3538-7511-ae5d-849066480f21",
+  "commands": 13,
+  "usage": {
+    "input_tokens": 1233788,
+    "cached_input_tokens": 1154304,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 35361,
+    "reasoning_output_tokens": 7578
+  },
+  "stderr": "2026-10-09T11:24:27.701016Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:24:52.809039Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:31:43.444068Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/96-9.raw.jsonl:\n\"question\":\"Who is the one who forbids?\"\n",
+  "prompt_sha256": "218de58b6a677685d1050e1ce3d312223ed2ac0ec586c7be5c47bab58c3613f8",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-24-22-01a12068-3538-7511-ae5d-849066480f21.jsonl",
+  "usd_equivalent": 0.743439,
+  "requests": 24,
+  "max_request_input_tokens": 81278,
+  "over_context_cap": false
+}

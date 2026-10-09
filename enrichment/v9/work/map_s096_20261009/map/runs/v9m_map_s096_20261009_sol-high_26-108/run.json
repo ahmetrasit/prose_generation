@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_26-108",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:51:35",
+  "ended": "2026-10-09T06:54:52",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204a-53a3-78e0-9eae-ff50b2d8f930",
+  "commands": 2,
+  "usage": {
+    "input_tokens": 69450,
+    "cached_input_tokens": 53888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 6057,
+    "reasoning_output_tokens": 2871
+  },
+  "stderr": "2026-10-09T10:51:45.878025Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:51:48.768559Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:51:50.904178Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:31.437428Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T10:52:58.668058Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:53:00.820243Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:53:03.161061Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:53:08.898577Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:53:13.126325Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:53:15.516537Z ERROR codex_models_manager::manager: failed to refresh available models: exceeded retry limit, last status: 429 Too Many Requests, request id: req_f54742540730464eb2be4238130372a3\n",
+  "prompt_sha256": "b04dc1caa5b10147d0522f4ffd3fefa86d65ced86d34c337179ab4154cb05f55",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-51-54-01a1204a-53a3-78e0-9eae-ff50b2d8f930.jsonl",
+  "usd_equivalent": 0.102472,
+  "requests": 4,
+  "max_request_input_tokens": 20956,
+  "over_context_cap": false
+}

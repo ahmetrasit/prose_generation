@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_12-26",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:25:50",
+  "ended": "2026-10-09T06:31:04",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12032-b5d2-7763-9e1f-ccdca2104ea3",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 543615,
+    "cached_input_tokens": 496128,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22167,
+    "reasoning_output_tokens": 4625
+  },
+  "stderr": "2026-10-09T10:26:00.911250Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:29:42.825506Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/12-26.raw.jsonl:\n\"question\":\"Who or what was the witness from her family?\"\n",
+  "prompt_sha256": "6c6ab4d65f834a927db505d9f6f3b83ecff6309777ac1a79974f478398b313c8",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-26-00-01a12032-b5d2-7763-9e1f-ccdca2104ea3.jsonl",
+  "usd_equivalent": 0.41587,
+  "requests": 15,
+  "max_request_input_tokens": 54230,
+  "over_context_cap": false
+}

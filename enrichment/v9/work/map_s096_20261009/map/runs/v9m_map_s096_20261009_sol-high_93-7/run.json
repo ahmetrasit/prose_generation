@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_93-7",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T07:21:24",
+  "ended": "2026-10-09T07:30:42",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12065-80e3-7df3-a78a-5d3414ecd61f",
+  "commands": 13,
+  "usage": {
+    "input_tokens": 912047,
+    "cached_input_tokens": 843392,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 20511,
+    "reasoning_output_tokens": 6784
+  },
+  "stderr": "2026-10-09T11:21:30.350996Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:21:55.791607Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: route-aware request timed out\")))\n2026-10-09T11:22:25.795864Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:25:09.960656Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T11:28:59.658385Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/93-7.raw.jsonl:\n\"ALUSI-FULL:v30p162/r9\"\n",
+  "prompt_sha256": "75e0962ac678248e1d681b93070a9e076fa3f67bdbf764c62d8a726803752ec3",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-21-25-01a12065-80e3-7df3-a78a-5d3414ecd61f.jsonl",
+  "usd_equivalent": 0.511098,
+  "requests": 21,
+  "max_request_input_tokens": 64777,
+  "over_context_cap": false
+}

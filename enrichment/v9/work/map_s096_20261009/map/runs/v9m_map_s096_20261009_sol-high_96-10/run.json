@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_96-10",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T07:21:46",
+  "ended": "2026-10-09T07:28:25",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12065-d465-7323-9321-d602665c5b51",
+  "commands": 10,
+  "usage": {
+    "input_tokens": 689190,
+    "cached_input_tokens": 630016,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 17793,
+    "reasoning_output_tokens": 2969
+  },
+  "stderr": "2026-10-09T11:21:51.843560Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:22:16.944387Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:22:46.945396Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:27:25.070488Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/96-10.raw.jsonl:\n\"ALUSI-FULL:v30p446/r1\"\n2026-10-09T11:28:10.511135Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 4, Update hunk does not contain any lines\n",
+  "prompt_sha256": "9cff141c390aa7095a9a7238bb2ef4882c921db15582c9903ae3bb0eb39d096e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-21-46-01a12065-d465-7323-9321-d602665c5b51.jsonl",
+  "usd_equivalent": 0.422281,
+  "requests": 18,
+  "max_request_input_tokens": 55491,
+  "over_context_cap": false
+}

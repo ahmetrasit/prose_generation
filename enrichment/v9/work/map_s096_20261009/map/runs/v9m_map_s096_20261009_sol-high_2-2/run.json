@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_2-2",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:34:01",
+  "ended": "2026-10-09T06:50:14",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1203a-2311-7773-a1d6-bc9e30706d45",
+  "commands": 32,
+  "usage": {
+    "input_tokens": 5151395,
+    "cached_input_tokens": 4986112,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 64607,
+    "reasoning_output_tokens": 13053
+  },
+  "stderr": " record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:45:34.694079Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:45:35.158763Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:45:39.423420Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:45:39.424580Z ERROR codex_core::session: failed to record rollout items: thread-store internal error: No space left on device (os error 28)\n2026-10-09T10:47:45.448279Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:48:01.933498Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:48:04.431267Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:48:06.178875Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:48:16.061322Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:48:17.987884Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:48:20.092958Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:48:22.052933Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:48:45.984562Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:49:31.051870Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:49:33.090232Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:49:35.291772Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:49:37.296907Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:49:40.844318Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:49:42.769310Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:49:45.574263Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T10:49:47.441284Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n",
+  "prompt_sha256": "81a0b73abcd05fa5d1b753f2bf5093de49bea5a7f6be9614c6a48ed7bf23803e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-34-03-01a1203a-2311-7773-a1d6-bc9e30706d45.jsonl",
+  "usd_equivalent": 1.973858,
+  "requests": 51,
+  "max_request_input_tokens": 167402,
+  "over_context_cap": true
+}

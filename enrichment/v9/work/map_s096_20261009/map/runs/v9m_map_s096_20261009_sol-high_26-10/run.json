@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_26-10",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:51:35",
+  "ended": "2026-10-09T06:55:05",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204a-4fa0-7fb0-93bf-c0f2a7196e9a",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 129937,
+    "cached_input_tokens": 104064,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 11066,
+    "reasoning_output_tokens": 3633
+  },
+  "stderr": "2026-10-09T10:51:43.692240Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:51:47.540246Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:51:48.693983Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:21.348566Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T10:52:25.698529Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: invalid peer certificate: UnknownIssuer, url: wss://chatgpt.com/backend-api/codex/responses\n",
+  "prompt_sha256": "758ce3019bb0deb7c46c584f714ccebf44d1d28e7131cd6282224b5987c367cf",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-51-50-01a1204a-4fa0-7fb0-93bf-c0f2a7196e9a.jsonl",
+  "usd_equivalent": 0.183219,
+  "requests": 6,
+  "max_request_input_tokens": 30700,
+  "over_context_cap": false
+}

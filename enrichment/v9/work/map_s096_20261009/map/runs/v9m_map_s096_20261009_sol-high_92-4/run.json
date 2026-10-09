@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_92-4",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T07:21:06",
+  "ended": "2026-10-09T07:27:49",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12065-396b-76f3-bf50-91a32568eb17",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 263012,
+    "cached_input_tokens": 226432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 11338,
+    "reasoning_output_tokens": 2303
+  },
+  "stderr": "2026-10-09T11:21:12.166713Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:21:37.272591Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:22:07.275547Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:27:32.920102Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 4, Update hunk does not contain any lines\n",
+  "prompt_sha256": "077ed61480e87d36b4f10d97155b5e8fe8bc0c72e79cfe42539cf614da3a4431",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-21-07-01a12065-396b-76f3-bf50-91a32568eb17.jsonl",
+  "usd_equivalent": 0.231826,
+  "requests": 10,
+  "max_request_input_tokens": 34563,
+  "over_context_cap": false
+}

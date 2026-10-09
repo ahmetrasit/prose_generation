@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_25-41",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:51:35",
+  "ended": "2026-10-09T06:55:51",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204a-6232-7a33-bde3-3a80237f2fd5",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 196357,
+    "cached_input_tokens": 152704,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 11591,
+    "reasoning_output_tokens": 2510
+  },
+  "stderr": "2026-10-09T10:51:49.364242Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:51:52.788723Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:51:54.368494Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:28.377019Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:31.814780Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T10:52:41.449937Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:55.759258Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:55:02.983531Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n",
+  "prompt_sha256": "35e1a015c6f77dff4402b59885ace0577abca56df5dcb707b94e7a71f93ccb97",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-51-59-01a1204a-6232-7a33-bde3-3a80237f2fd5.jsonl",
+  "usd_equivalent": 0.233757,
+  "requests": 8,
+  "max_request_input_tokens": 32786,
+  "over_context_cap": false
+}

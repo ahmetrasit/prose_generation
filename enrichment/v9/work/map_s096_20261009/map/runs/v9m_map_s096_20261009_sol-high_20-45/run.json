@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_20-45",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:51:34",
+  "ended": "2026-10-09T06:57:04",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204a-3c69-7d00-8885-3c3c1a3dc2e0",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 426654,
+    "cached_input_tokens": 389632,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 17031,
+    "reasoning_output_tokens": 4460
+  },
+  "stderr": "2026-10-09T10:51:38.481435Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:51:43.420679Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:51:43.500273Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:51:49.580226Z ERROR codex_core::shell_snapshot: Shell snapshot validation failed: Snapshot command exited with status exit status: 1: /bin/bash: /Users/ahmetrasit/.codex/shell_snapshots/01a1204a-3c69-7d00-8885-3c3c1a3dc2e0.tmp-1791543107180155000: No such file or directory\n\n2026-10-09T10:52:19.114790Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T10:52:36.307598Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:52:39.407197Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:52:42.230553Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:52:44.668800Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:52:47.379531Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:52:51.936817Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n",
+  "prompt_sha256": "f92034ea0bdf1eb61f2ddd6e75987d2daa819a4d0cbae71dc9952a2efd420b59",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-51-46-01a1204a-3c69-7d00-8885-3c3c1a3dc2e0.jsonl",
+  "usd_equivalent": 0.32228,
+  "requests": 14,
+  "max_request_input_tokens": 40935,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_25-43",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:51:35",
+  "ended": "2026-10-09T06:56:18",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204a-50ce-7d70-bb8e-36475f2d3dc4",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 281166,
+    "cached_input_tokens": 245760,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 11603,
+    "reasoning_output_tokens": 2414
+  },
+  "stderr": "2026-10-09T10:51:43.730718Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:51:48.387570Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:51:48.733328Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:22.439923Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T10:52:27.308947Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: invalid peer certificate: UnknownIssuer, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:52:38.849988Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:44.620466Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:57.971990Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "43dac88526a03f2bae2be53ad744374dc1b2f9ae6747c96da8677ffccd4f128b",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-51-50-01a1204a-50ce-7d70-bb8e-36475f2d3dc4.jsonl",
+  "usd_equivalent": 0.235994,
+  "requests": 10,
+  "max_request_input_tokens": 39684,
+  "over_context_cap": false
+}

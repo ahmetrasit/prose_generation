@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_31-27",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T07:38:28",
+  "ended": "2026-10-09T07:49:02",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12075-23e8-73b3-bef4-8493865bc818",
+  "commands": 14,
+  "usage": {
+    "input_tokens": 1073911,
+    "cached_input_tokens": 990976,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37562,
+    "reasoning_output_tokens": 9862
+  },
+  "stderr": "2026-10-09T11:43:06.473965Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:44:51.678452Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/31-27.raw.jsonl:\nthis-line-is-not-present\n2026-10-09T11:47:41.482686Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "f2b5c45d3d1e63170797dc43b7cb3c0c76f8b77db8f6a1075d82da3d65ceaafc",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-38-30-01a12075-23e8-73b3-bef4-8493865bc818.jsonl",
+  "usd_equivalent": 0.739685,
+  "requests": 21,
+  "max_request_input_tokens": 88854,
+  "over_context_cap": false
+}

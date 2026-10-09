@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_96-6",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T07:23:58",
+  "ended": "2026-10-09T07:28:57",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12067-d7c7-74b0-89d9-0e63e86cc8a7",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 363088,
+    "cached_input_tokens": 294528,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 16291,
+    "reasoning_output_tokens": 4369
+  },
+  "stderr": "2026-10-09T11:24:03.780231Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:24:28.872454Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:24:58.875107Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:27:32.709826Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/96-6.raw.jsonl:\n\"IBNASHUR:96:6/r7\"\n",
+  "prompt_sha256": "bf07287cb9f98dc55677ec26657dae77aead726fabf5df5f68d70ad390e5b6e0",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-23-58-01a12067-d7c7-74b0-89d9-0e63e86cc8a7.jsonl",
+  "usd_equivalent": 0.358936,
+  "requests": 12,
+  "max_request_input_tokens": 45456,
+  "over_context_cap": false
+}

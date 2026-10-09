@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_18-42",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:31:01",
+  "ended": "2026-10-09T06:35:04",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12037-5eda-7103-ad02-d4b88b11bc22",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 332052,
+    "cached_input_tokens": 297472,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 16008,
+    "reasoning_output_tokens": 1759
+  },
+  "stderr": "2026-10-09T10:34:49.905044Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/18-42.raw.jsonl:\n+{\"question\":\"How did the garden lie خَاوِيَةٌ عَلَىٰ عُرُوشِهَا?\"\n",
+  "prompt_sha256": "db2c4d9346e29171d3faa90a8f6eaa397c4c16c8ca26f3c83e523b936145c085",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-31-02-01a12037-5eda-7103-ad02-d4b88b11bc22.jsonl",
+  "usd_equivalent": 0.288734,
+  "requests": 11,
+  "max_request_input_tokens": 42259,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_22-5",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:51:35",
+  "ended": "2026-10-09T07:01:36",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204a-41eb-76e1-a971-88cfa70cd71a",
+  "commands": 23,
+  "usage": {
+    "input_tokens": 2058285,
+    "cached_input_tokens": 1909760,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38438,
+    "reasoning_output_tokens": 6450
+  },
+  "stderr": "2026-10-09T10:51:39.890925Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:51:45.008124Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:51:45.029075Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:21.544762Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T10:52:26.411797Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:32.155080Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:45.099192Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:56.072273Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:00:50.535151Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "62b9b57b40815c6f17b110150553dd43c24ad50b2de4c0f2a6a748354682e63f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-51-49-01a1204a-41eb-76e1-a971-88cfa70cd71a.jsonl",
+  "usd_equivalent": 1.063382,
+  "requests": 31,
+  "max_request_input_tokens": 114181,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_33-56",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:58:39",
+  "ended": "2026-10-09T07:17:48",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12050-a921-7902-b666-3b67ae122f42",
+  "commands": 19,
+  "usage": {
+    "input_tokens": 2664113,
+    "cached_input_tokens": 2551040,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 43111,
+    "reasoning_output_tokens": 10201
+  },
+  "stderr": "2026-10-09T10:58:44.508818Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:59:09.650899Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T10:59:39.651056Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:07:49.892012Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:17:11.882145Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/33-56.raw.jsonl\n",
+  "prompt_sha256": "1dd71374e214386acf7004a1e46089eee4c2c831646e2d11705d629cfdbf6086",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-58-39-01a12050-a921-7902-b666-3b67ae122f42.jsonl",
+  "usd_equivalent": 1.167464,
+  "requests": 38,
+  "max_request_input_tokens": 105804,
+  "over_context_cap": false
+}

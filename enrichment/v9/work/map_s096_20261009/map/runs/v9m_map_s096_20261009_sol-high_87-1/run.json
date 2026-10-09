@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_87-1",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T07:18:10",
+  "ended": "2026-10-09T07:26:23",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12062-8891-7491-9b7f-e5bd85614687",
+  "commands": 15,
+  "usage": {
+    "input_tokens": 1394913,
+    "cached_input_tokens": 1309440,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34329,
+    "reasoning_output_tokens": 5444
+  },
+  "stderr": "2026-10-09T11:22:46.325062Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:24:34.346967Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/87-1.raw.jsonl:\n{\"question\":\"What does sabbih command?\"\n",
+  "prompt_sha256": "097c62ca71bb815af6bc9efc20743111fa98d64bb40e452a47d7d94ba0818341",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-18-10-01a12062-8891-7491-9b7f-e5bd85614687.jsonl",
+  "usd_equivalent": 0.776124,
+  "requests": 25,
+  "max_request_input_tokens": 90469,
+  "over_context_cap": false
+}

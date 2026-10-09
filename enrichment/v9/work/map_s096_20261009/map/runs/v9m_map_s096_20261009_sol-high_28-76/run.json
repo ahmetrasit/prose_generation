@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_28-76",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:55:43",
+  "ended": "2026-10-09T07:10:45",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204d-fcfe-78c2-ba31-d4a1fd54efc3",
+  "commands": 19,
+  "usage": {
+    "input_tokens": 5603213,
+    "cached_input_tokens": 5442304,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 49733,
+    "reasoning_output_tokens": 23309
+  },
+  "stderr": "2026-10-09T10:56:00.860387Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T11:00:19.874609Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:09:25.273558Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "7573a3a587941526837e6d25b69a74956944460a01c51debb52eb57cdf8d3fbe",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-55-44-01a1204d-fcfe-78c2-ba31-d4a1fd54efc3.jsonl",
+  "usd_equivalent": 1.907609,
+  "requests": 57,
+  "max_request_input_tokens": 156455,
+  "over_context_cap": true
+}

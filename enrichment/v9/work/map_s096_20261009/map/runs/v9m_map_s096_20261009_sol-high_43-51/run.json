@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_43-51",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T07:02:17",
+  "ended": "2026-10-09T07:09:33",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12054-05cd-7fa2-9a31-687436606060",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 629427,
+    "cached_input_tokens": 570880,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34381,
+    "reasoning_output_tokens": 5039
+  },
+  "stderr": "2026-10-09T11:02:24.834422Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:06:59.848039Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:07:11.628475Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/43-51.raw.jsonl\n",
+  "prompt_sha256": "385b0a4d49ba8a073ae115693759c521fabd826bcb26d4abcb42d159927c4992",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-02-19-01a12054-05cd-7fa2-9a31-687436606060.jsonl",
+  "usd_equivalent": 0.57508,
+  "requests": 15,
+  "max_request_input_tokens": 65269,
+  "over_context_cap": false
+}

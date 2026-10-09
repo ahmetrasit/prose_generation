@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_26-219",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T06:54:51",
+  "ended": "2026-10-09T06:58:56",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204d-3094-74f3-91cd-aca0af11a941",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 353946,
+    "cached_input_tokens": 302336,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 14553,
+    "reasoning_output_tokens": 3283
+  },
+  "stderr": "2026-10-09T10:57:30.713494Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/26-219.raw.jsonl:\n\"TAB-FULL:v17p668/r6\"],\"prefer\":[],\"against\":[\"IBNATIYYA-FULL:v4p245#2/r9\"\n",
+  "prompt_sha256": "0bcb55ed39a590e6b279235db73b5cf8226ae14d58475f1dd55d763732e8ef07",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-54-52-01a1204d-3094-74f3-91cd-aca0af11a941.jsonl",
+  "usd_equivalent": 0.309217,
+  "requests": 12,
+  "max_request_input_tokens": 42572,
+  "over_context_cap": false
+}

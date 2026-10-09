@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s096_20261009_sol-high_7-195",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T07:11:27",
+  "ended": "2026-10-09T07:17:29",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1205c-6396-7dd1-8084-22bcd515ceab",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 591334,
+    "cached_input_tokens": 477568,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 25249,
+    "reasoning_output_tokens": 4544
+  },
+  "stderr": "2026-10-09T11:11:33.136901Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:11:58.258911Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:17:13.468973Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s096_20261009/map/out/sol-high/7-195.raw.jsonl:\n{\"question\":\"Why specify walking with the legs?\",\"words\":[\"أَرْجُلٌۭ يَمْشُونَ بِهَآ\"],\"type\":\"rhetoric\",\"positions\":[{\"position\":\"The characteristic action is the target: apparent legs that cannot walk lack effective function.\",\"reasons\":\"Al-Bursawī says response requires life, a mover, and active and perceptive faculties. Al-Ālūsī says a limb never performing its defining action is not a real functional limb. Ibn ʿĀshūr defines walking as repeated movement between places.\",\"rows\":[\"BURSEVI:v3p226/r5\",\"BURSEVI:v3p226/r6\",\"ALUSI-FULL:v9p144#2/r6\",\"IBNASHUR-FULL:v9p222/r5\"],\"prefer\":[],\"against\":[]}],\"turns_on\":\"\"}\n",
+  "prompt_sha256": "c7b872c56e5869691cbbc8c4750e1a40fe62254826edf473f250b1f8a4b3682a",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-11-28-01a1205c-6396-7dd1-8084-22bcd515ceab.jsonl",
+  "usd_equivalent": 0.575536,
+  "requests": 15,
+  "max_request_input_tokens": 59933,
+  "over_context_cap": false
+}
