@@ -10,6 +10,8 @@ A verse is never split: one agent reads all of its notes.
   map.py check RUN [--model TAG] [--ayah A]   the agent runs it with --model and --ayah until OK; without --ayah:
                                               checks every verse and assembles the finished ones
   map.py report RUN                           cost, questions, positions, notes per verse and model
+  map.py update RUN --model gpt-6-sol:high     notes added to tier 1 since mapping: one agent per verse places them
+                                              in the existing map (ids stay); briefs/map-update.md
   map.py refresh-rows RUN                     add fields missing from saved notes (anchor), same note ids only
 
 Files (RUN = enrichment/v9/work/RUN/map): rows/<k>.json (notes by id), rows/<k>.pK.txt (input parts), spawn/,
@@ -18,6 +20,7 @@ runs/ (written by enrichment/v5/run_codex.py), out/<TAG>/<k>.raw.jsonl (agent ou
 """
 import argparse
 import json
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -29,6 +32,7 @@ import merge  # noqa: E402
 from digest import PART_CHARS, ROOT, TYPES, connect, dump  # noqa: E402
 
 BRIEF = V9 / 'briefs/map.md'
+BRIEF_UPDATE = V9 / 'briefs/map-update.md'
 ROW_FIELDS = ('src', 'author', 'death', 'speaker', 'stance', 'claim', 'anchor', 'mentions')
 BIG = 90_000  # input characters above which a verse is printed as large (never split)
 
@@ -41,8 +45,8 @@ def key(ayah):
     return ayah.replace(':', '-')
 
 
-def agent_name(run, tag, ayah):
-    return f'/root/v9m_{run}_{tag}_{key(ayah)}'
+def agent_name(run, tag, ayah, n=None):
+    return f'/root/v9m_{run}_{tag}_{key(ayah)}' if n is None else f'/root/v9u_{run}_{tag}_{key(ayah)}_u{n}'
 
 
 def verse_text(ayah):
@@ -125,31 +129,97 @@ def refresh_rows(a):
         print(f"{p['ayah']}: {len(old)} notes refreshed")
 
 
-def check_verse(m, tag, ayah):
-    """(problems, questions) of one agent output."""
-    k = key(ayah)
-    known = set(json.loads((m / 'rows' / f'{k}.json').read_text()))
-    f = m / 'out' / tag / f'{k}.raw.jsonl'
-    if not f.exists():
-        return [f'{f.name}: no output file'], []
-    problems, qs, covered = [], [], set()
+QID = re.compile(r'^\d+:\d+/q\d+$')
+PID = re.compile(r'^\d+:\d+/q\d+/p\d+$')
+
+
+def number(qs, ayah):
+    """Ids by order (questions qNN, positions pN); ids already given are kept, so later additions never renumber."""
+    for n, q in enumerate(qs, 1):
+        q.setdefault('id', f'{ayah}/q{n:02d}')
+        for j, p in enumerate(q['positions'], 1):
+            p.setdefault('id', f"{q['id']}/p{j}")
+
+
+def read_lines(f):
+    problems, out = [], []
     for i, line in enumerate(f.read_text().splitlines(), 1):
         if not line.strip():
             continue
         try:
-            q = json.loads(line)
+            out.append((i, json.loads(line)))
         except ValueError as e:
-            problems.append(f'line {i}: not JSON ({e})')
+            problems.append(f'{f.name} line {i}: not JSON ({e})')
+    return problems, out
+
+
+def question_ok(q, where, ayah):
+    if not q.get('question') or not q.get('positions'):
+        return [f'{where}: missing question or positions']
+    return [f'{where}: {x}' for x in digest.tag_problems({'words': q.get('words'), 'type': q.get('type'), 'verses': [ayah]})]
+
+
+def combined(m, tag, ayah, updates=()):
+    """(problems, questions): the agent's map plus every update for this model, in order, with stable ids; then the
+    checks over the whole: ids known, every note placed, prefer ⊆ rows, never rows and against together."""
+    k = key(ayah)
+    rows = json.loads((m / 'rows' / f'{k}.json').read_text())
+    mine = [u for u in updates if u['tag'] == tag]
+    later = {i for u in updates if u['tag'] != tag for i in u['ids']}
+    known = set(rows) - later
+    f = m / 'out' / tag / f'{k}.raw.jsonl'
+    if not f.exists():
+        return [f'{f.name}: no output file'], []
+    problems, lines = read_lines(f)
+    qs = []
+    for i, q in lines:
+        bad = question_ok(q, f'line {i}', ayah)
+        problems += bad
+        if not bad:
+            qs.append(q)
+    number(qs, ayah)
+    for u in mine:
+        f = m / 'out' / tag / f"{k}.u{u['n']}.raw.jsonl"
+        if not f.exists():
+            problems.append(f'{f.name}: no output file')
             continue
-        if not q.get('question') or not q.get('positions'):
-            problems.append(f'line {i}: missing question or positions')
-            continue
-        problems += [f'line {i}: {x}' for x in digest.tag_problems({'words': q.get('words'), 'type': q.get('type'),
-                                                                     'verses': [ayah]})]
+        bad, lines = read_lines(f)
+        problems += bad
+        byq = {q['id']: q for q in qs}
+        byp = {p['id']: p for q in qs for p in q['positions']}
+        for i, x in lines:
+            where = f'{f.name} line {i}'
+            if 'positions' in x:                                   # a new question
+                b = question_ok(x, where, ayah)
+                problems += b
+                if not b:
+                    qs.append(x)
+                    number(qs, ayah)
+            elif QID.match(str(x.get('question', ''))):           # a new position under an existing question
+                q = byq.get(x['question'])
+                if q is None:
+                    problems.append(f"{where}: question {x['question']} does not exist")
+                elif not x.get('position'):
+                    problems.append(f'{where}: missing "position"')
+                else:
+                    q['positions'].append({y: x.get(y) for y in ('position', 'reasons', 'rows', 'prefer', 'against')})
+                    number(qs, ayah)
+            elif PID.match(str(x.get('position', ''))):           # notes added to an existing position
+                p = byp.get(x['position'])
+                if p is None:
+                    problems.append(f"{where}: position {x['position']} does not exist")
+                    continue
+                for y in ('rows', 'prefer', 'against'):
+                    p[y] = list(dict.fromkeys((p.get(y) or []) + (x.get(y) or [])))
+                if x.get('reasons_add'):
+                    p['reasons'] = ((p.get('reasons') or '') + ' ' + x['reasons_add']).strip()
+            else:
+                problems.append(f'{where}: not a new question, a new position (question: <question id>) or an '
+                                'addition (position: <position id>)')
+    covered = set()
+    for q in qs:
         for n, p in enumerate(q['positions'], 1):
-            where = f'line {i} position {n}'
-            if not p.get('position'):
-                problems.append(f'{where}: missing "position"')
+            where = p.get('id', f"{q['id']} position {n}")
             ids = {x: p.get(x) or [] for x in ('rows', 'prefer', 'against')}
             if not ids['rows'] and not ids['against']:
                 problems.append(f'{where}: no note in "rows" or "against"')
@@ -162,7 +232,6 @@ def check_verse(m, tag, ayah):
                 problems.append(f'{where}: {r} is in "prefer" but not in "rows" (a note that prefers a position holds it)')
             for r in set(ids['rows']) & set(ids['against']):
                 problems.append(f'{where}: {r} is in both "rows" and "against" of the same position')
-        qs.append(q)
     for r in sorted(known - covered):
         problems.append(f'note {r} is in no position')
     return problems, qs
@@ -194,24 +263,86 @@ def render(ayah, qs, known):
 
 def assemble(m, tag, ayah, qs):
     k = key(ayah)
-    for n, q in enumerate(qs, 1):
-        q['id'] = f'{ayah}/q{n:02d}'
-        for j, p in enumerate(q['positions'], 1):
-            p['id'] = f"{q['id']}/p{j}"
     (m / 'out' / tag / f'{k}.jsonl').write_text(''.join(json.dumps(q, ensure_ascii=False) + '\n' for q in qs))
     known = json.loads((m / 'rows' / f'{k}.json').read_text())
     (m / 'out' / tag / f'{k}.md').write_text(render(ayah, qs, known))
+
+
+def map_text(qs):
+    """The current map as the update agent reads it: question and position ids, texts and reasons (no holders)."""
+    out = []
+    for q in qs:
+        out.append(f"{q['id']} {q['question']} [{' '.join(q['words'])} · {q['type']}]"
+                   + (f" (turns on: {q['turns_on']})" if q.get('turns_on') else ''))
+        for p in q['positions']:
+            out.append(f"  {p['id']} {p['position']}" + (f" — reasons: {p['reasons']}" if p.get('reasons') else ''))
+    return '\n'.join(out) + '\n'
+
+
+def update(a):
+    """Notes added to tier 1 since a verse was mapped: one agent per verse places them in the existing map
+    (stable ids). The verse's saved notes gain the new ones; the update is recorded in the manifest."""
+    m = mdir(a.run)
+    man = json.loads((m / 'manifest.json').read_text())
+    model, effort = a.model.split(':')
+    tag = digest.tag_of(model, effort)
+    built = 0
+    for p in man['ayat']:
+        ayah, k = p['ayah'], key(p['ayah'])
+        old = json.loads((m / 'rows' / f'{k}.json').read_text())
+        rs = merge.tier1_rows(None, man['from'], ayah, quiet=True)
+        ids = {r['id'] for r in rs}
+        gone = set(old) - ids
+        if gone:
+            print(f'WARNING {ayah}: {len(gone)} saved notes are no longer in tier 1; they stay in the map')
+        new = [r for r in rs if r['id'] not in old]
+        if not new:
+            print(f'{ayah}: no new notes')
+            continue
+        ups = p.setdefault('updates', [])
+        problems, qs = combined(m, tag, ayah, ups)
+        if problems:
+            print(f'WARNING {ayah}: the current {tag} map has {len(problems)} problem(s); no update built (run check)')
+            continue
+        n = len(ups) + 1
+        old.update({r['id']: {x: r.get(x) for x in ROW_FIELDS} for r in new})
+        dump(m / 'rows' / f'{k}.json', old)
+        order = sorted(new, key=lambda r: (r['death'] if isinstance(r['death'], int) else 9999, r['src'], r['id']))
+        text = ('## THE CURRENT MAP\n' + map_text(qs) + '\n## THE NEW NOTES\n'
+                + '\n'.join(merge.row_line(r) for r in order) + '\n')
+        parts = [text[i:i + PART_CHARS] for i in range(0, len(text), PART_CHARS)]
+        for j, t in enumerate(parts):
+            tail = f'\n<<part {j} ends; continues in part {j + 1}>>' if j + 1 < len(parts) else '\n<<end of input>>'
+            (m / 'rows' / f'{k}.u{n}.p{j}.txt').write_text(f'<<{ayah} update {n}, part {j} of 0..{len(parts) - 1}>>\n{t}{tail}\n')
+        fill = {'AGENT': agent_name(a.run, tag, ayah, n), 'MODEL': model, 'EFFORT': effort, 'RUN': a.run, 'TAG': tag,
+                'AYAH': ayah, 'KEY': k, 'N': str(n), 'LAST': str(len(parts) - 1), 'NEW': str(len(new)),
+                'QUESTIONS': str(len(qs)), 'VERSE': verse_text(ayah),
+                'TYPES': '\n'.join(f'  - `{x}`: {v}' for x, v in digest.TYPE_GUIDE.items())}
+        brief = BRIEF_UPDATE.read_text()
+        for x, v in fill.items():
+            brief = brief.replace('{' + x + '}', v)
+        f = m / 'spawn' / f'{tag}_{k}.u{n}.md'
+        if f.exists():
+            raise SystemExit(f'{f} exists')
+        f.write_text(brief)
+        ups.append({'n': n, 'tag': tag, 'model': a.model, 'ids': [r['id'] for r in new], 'chars': len(text),
+                    'parts': len(parts)})
+        built += 1
+        print(f'{ayah}: update {n}, {len(new)} new notes, {len(text):,} characters  spawn {f.relative_to(ROOT)}')
+    dump(m / 'manifest.json', man)
+    print(f'{built} update(s) built')
 
 
 def check(a):
     m = mdir(a.run)
     man = json.loads((m / 'manifest.json').read_text())
     tags = [a.model] if a.model else [digest.tag_of(*s.split(':')) for s in man['models']]
+    ups = {p['ayah']: p.get('updates', []) for p in man['ayat']}
     ayat = [a.ayah] if a.ayah else [p['ayah'] for p in man['ayat']]
     bad = 0
     for tag in tags:
         for ayah in ayat:
-            problems, qs = check_verse(m, tag, ayah)
+            problems, qs = combined(m, tag, ayah, ups.get(ayah, []))
             if problems:
                 bad += 1
                 print(f'{tag} {ayah}: {len(problems)} problem(s)')
@@ -247,6 +378,16 @@ def report(a):
             total += x['usd']
             print(f"{tag} {p['ayah']}: ${x['usd']:.3f}, {x['requests']} requests, peak {x['peak']} tokens, "
                   f"{p['rows']} notes -> {shape}" + ('' if x['completed'] else ' — DID NOT COMPLETE'))
+            for u in p.get('updates', []):
+                if u['tag'] != tag:
+                    continue
+                y = digest.usage(m / 'runs', agent_name(a.run, tag, p['ayah'], u['n']))
+                if y is None:
+                    print(f"WARNING {tag} {p['ayah']} update {u['n']}: no run record")
+                    continue
+                total += y['usd']
+                print(f"{tag} {p['ayah']} update {u['n']}: ${y['usd']:.3f}, {y['requests']} requests, peak {y['peak']} "
+                      f"tokens, {len(u['ids'])} new notes" + ('' if y['completed'] else ' — DID NOT COMPLETE'))
         print(f'{tag}: ${total:.2f} total')
 
 
@@ -259,8 +400,9 @@ def main():
     p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--ayah')
     p = sub.add_parser('report'); p.add_argument('run')
     p = sub.add_parser('refresh-rows'); p.add_argument('run')
+    p = sub.add_parser('update'); p.add_argument('run'); p.add_argument('--model', required=True, help='e.g. gpt-6-sol:high')
     a = parser.parse_args()
-    {'build': build, 'check': check, 'report': report, 'refresh-rows': refresh_rows}[a.cmd](a)
+    {'build': build, 'check': check, 'report': report, 'refresh-rows': refresh_rows, 'update': update}[a.cmd](a)
 
 
 if __name__ == '__main__':
