@@ -1,0 +1,15 @@
+7294 questions to translate (2491 already translated, or planned in a running build; 0 of the 7294 have a current but incomplete rendering)
+Traceback (most recent call last):
+  File "/Volumes/aro/projects/prose_generation/enrichment/v9/maptr.py", line 254, in <module>
+    main()
+    ~~~~^^
+  File "/Volumes/aro/projects/prose_generation/enrichment/v9/maptr.py", line 250, in main
+    {'build': build, 'check': check, 'report': report}[a.cmd](a)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/Volumes/aro/projects/prose_generation/enrichment/v9/maptr.py", line 103, in build
+    (d / 'chunks').mkdir(parents=True)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 1011, in mkdir
+    os.mkdir(self, mode)
+    ~~~~~~~~^^^^^^^^^^^^
+FileExistsError: [Errno 17] File exists: '/Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s087_20261009/maptr/chunks'
