@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c766",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:16:59",
+  "ended": "2026-10-09T08:30:47",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12098-611c-7ef2-bba4-f9dd86cf8c56",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 1809465,
+    "cached_input_tokens": 1680384,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 98150,
+    "reasoning_output_tokens": 42062
+  },
+  "stderr": "2026-10-09T12:17:04.658700Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:17:29.788669Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:21:07.693457Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c766.jsonl:\n{\"verses\":[\"20:115\"],\"words\":[\"وَلَمْ نَجِدْ لَهُۥ عَزْمًا\"],\"type\":\"reports\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"A second report from Ibn Abbas takes the wording to mean that God did not create or grant Adam resolve.\",\"anchor\":\"عن علي، عن ابن عباس، في قوله {ولم نجد له عزما} [طه: 115] يقول: لم نجعل له عزما\",\"mentions\":[]}\n2026-10-09T12:22:15.308867Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c766.jsonl:\n{\"verses\":[\"20:115\"],\"words\":[\"وَلَمْ نَجِدْ لَهُۥ عَزْمًا\"],\"type\":\"reports\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"A second report from Ibn Abbas takes the wording to mean that God did not create or grant Adam resolve.\",\"anchor\":\"عن علي، عن ابن عباس، في قوله {ولم نجد له عزما} [طه: 115] يقول: لم نجعل له عزما\",\"mentions\":[]}\n2026-10-09T12:24:02.240742Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c766.jsonl:\n{\"verses\":[\"20:117\"],\"words\":[\"*\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"God's reminder to Muhammad about Adam's lapse teaches that Adam's descendants will generally follow his path, except those God protects.\",\"anchor\":\"تضييع آدم عهده ومعرفة بذلك أن ولده لن يعدوا أن يكونوا\",\"mentions\":[]}\n2026-10-09T12:29:14.231232Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c766.jsonl:\n{\"verses\":[\"20:126\"],\"words\":[\"ءَايَٰتِنَا\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"God's signs are His proofs, evidences, and clarification in His Book; the sinner forgot them by abandoning and rejecting them and failing to act on them.\",\"anchor\":\"فنسيتها: يقول: فتركتها وأعرضت عنها\",\"mentions\":[]}\n",
+  "prompt_sha256": "075cfd0873c728e198eb85661659f92af8d46de7fff9a954fcdcba01242daeca",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-16-59-01a12098-611c-7ef2-bba4-f9dd86cf8c56.jsonl",
+  "usd_equivalent": 0.078787,
+  "requests": 24,
+  "max_request_input_tokens": 120731,
+  "over_context_cap": true
+}

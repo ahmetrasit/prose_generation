@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c933",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:56:23",
+  "ended": "2026-10-09T09:03:16",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120bc-739c-7891-bd37-2879d4fa57d4",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 436857,
+    "cached_input_tokens": 373248,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 46235,
+    "reasoning_output_tokens": 26701
+  },
+  "stderr": "2026-10-09T12:59:19.309437Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 4, '\"mentions\":[]},{\"verses\":[\"79:29\"],\"words\":[\"وَأَغْطَشَ لَيْلَهَا\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"prefers\",\"claim\":\"He prefers understanding the phrase as gradually moving the night away, which fits the bringing forth of daylight better than simply darkening it.\",\"anchor\":\"“gecesini tedrîcen giderdi” demek olur. Bu ise şu ihrac ile pek mütenâsibdir\",' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n2026-10-09T13:00:59.141958Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "78be6730451c0fed2f8c6b4f2b69f01b9039ef7bfd70ba4cdb9e4b5878ab27c0",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-56-23-01a120bc-739c-7891-bd37-2879d4fa57d4.jsonl",
+  "usd_equivalent": 0.033211,
+  "requests": 10,
+  "max_request_input_tokens": 65413,
+  "over_context_cap": false
+}

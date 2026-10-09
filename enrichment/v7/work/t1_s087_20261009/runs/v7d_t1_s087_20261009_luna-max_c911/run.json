@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c911",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:51:45",
+  "ended": "2026-10-09T09:03:09",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120b8-37a9-7c42-8b3c-d8f3a1bc7689",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 438027,
+    "cached_input_tokens": 367872,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 42217,
+    "reasoning_output_tokens": 22656
+  },
+  "stderr": "2026-10-09T12:51:51.207804Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:52:16.300712Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:52:46.302166Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:57:43.909602Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c911.jsonl:\n{\"verses\":[\"6:98\"],\"words\":[\"فَمُسْتَقَرٌّۭ وَمُسْتَوْدَعٌۭ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"On that reading, some are settled while others remain deposited: in loins or womb, created in actuality or still potential, mature or under guardianship, resident or traveling, and alive or dead.\",\"anchor\":\"Binâen‘aleyh bu kıraate göre mâna: Hepiniz bir nefisten inşâ edilmiş olduğunuz hâlde kiminiz müstekır bulunuyor, istikrar hâlinde, kiminiz de henüz vedî‘a hâlinde.\"}\n2026-10-09T13:00:56.818396Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "6eb8c89bb71ce12ad4d597063dae7412ad0fd5c480d9c72e3aac216365c4665e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-51-46-01a120b8-37a9-7c42-8b3c-d8f3a1bc7689.jsonl",
+  "usd_equivalent": 0.031803,
+  "requests": 11,
+  "max_request_input_tokens": 62064,
+  "over_context_cap": false
+}

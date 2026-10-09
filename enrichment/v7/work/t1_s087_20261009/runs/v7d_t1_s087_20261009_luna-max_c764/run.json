@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c764",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:16:45",
+  "ended": "2026-10-09T08:29:40",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12098-2a78-7402-a662-09caf0c98992",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1172206,
+    "cached_input_tokens": 1044736,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 99244,
+    "reasoning_output_tokens": 61674
+  },
+  "stderr": "2026-10-09T12:16:50.668785Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:17:15.803975Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: route-aware request timed out\")))\n",
+  "prompt_sha256": "462273d6a13c8455051fe9817be3a0fc30df18877185cf2628fe87083035fffb",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-16-45-01a12098-2a78-7402-a662-09caf0c98992.jsonl",
+  "usd_equivalent": 0.072816,
+  "requests": 15,
+  "max_request_input_tokens": 124374,
+  "over_context_cap": true
+}

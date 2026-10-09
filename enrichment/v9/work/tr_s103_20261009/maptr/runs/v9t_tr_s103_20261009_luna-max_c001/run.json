@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s103_20261009_luna-max_c001",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:15:42",
+  "ended": "2026-10-09T07:23:56",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12060-478a-70d0-84ab-bb01fa0458c6",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 982993,
+    "cached_input_tokens": 875264,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 60481,
+    "reasoning_output_tokens": 18958
+  },
+  "stderr": "2026-10-09T11:18:48.267182Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'\n2026-10-09T11:20:18.570402Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:20:57.940707Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 3, '{\"id\":\"10:31/q01\",\"question\":\"Rızık nedir ve Allah'a neden Rezzâk denir?\",\"turns_on\":\"\",\"positions\":[{\"id\":\"10:31/q01/p1\",\"position\":\"Rızık, sürekli verilen ve yararlanılabilir bir nimet veya faydadır; Allah onu yarattığı için Rezzâk yalnızca O'dur.\",\"reasons\":\"Cüşemî, alan kişinin ondan yararlanabildiğini ve başkalarının onu esirgeyemeyeceğini söyler; sıradan sahiplik kullanımı bulunsa da ilahî unvan, Rab unvanı gibi yalnızca Allah'a özgüdür. Kuşeyrî, Allah'ın rızık vermesini yalnızca O'nun yaratmasına dayandırır.\"}]}' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n",
+  "prompt_sha256": "68fd5aea6e3960640baf796bd62461593b28a520be44d07527e2b97af4776de6",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-15-43-01a12060-478a-70d0-84ab-bb01fa0458c6.jsonl",
+  "usd_equivalent": 0.049766,
+  "requests": 17,
+  "max_request_input_tokens": 107715,
+  "over_context_cap": false
+}

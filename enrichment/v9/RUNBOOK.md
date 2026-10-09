@@ -152,9 +152,9 @@ session is read-only). Name the exact problems and allow reading and editing onl
 
 | Surah | Tier 1 | Maps | Translation | Pages | Rendered |
 |---|---|---|---|---|---|
-| 103 | done (`t1_s103_20261009` $2.34; 103:1 completion in S96's run) | done: `map_s103_20261009` (80), `map_s103w_20261009` (12), 100 updates ($8.46) | `tr_s103_20261009` (131 verses, 74 chunks): partly done; its runner was stopped — run the rest | 103:1 (test), 103:2, 103:3 done | md done; HTML: `surah.py finish 103` after the translations (103:1's HTML then re-rendered with the Turkish appendix) |
+| 103 | done (`t1_s103_20261009` $2.34; 103:1 completion in S96's run) | done: `map_s103_20261009` (80), `map_s103w_20261009` (12), 100 updates ($8.46) | `tr_s103_20261009` (131 verses, 74 chunks): 51 of 74 chunks done; run the other 23 | 103:1 (test), 103:2, 103:3 done | md done; HTML: `surah.py finish 103` after the translations (103:1's HTML then re-rendered with the Turkish appendix) |
 | 96 | done (`t1_s096_20261009`, $83.45 + $8.61 repairs) | done: `map_s096_20261009` (460; 4 superseded by `map_s096r_20261009`), 91 updates ($8.63); maps $162.36 | not built (`tr_s096_…`; build after S103's finishes) | 96:1–96:5 done (writers $18.14, meals $2.29); 96:6, 96:7 done; 96:8 writer done (check OK), its meal not run yet | md for 96:1–96:5 |
-| 87 | `t1_s087_20261009`: ~770 of 993 chunks done here; **the rest runs on the user's other computer** (see stage 1) | — | — | — | — |
+| 87 | `t1_s087_20261009`: **771 of 993 chunks done here** (69,582 rows so far); **222 chunks run on the user's other computer** (stage 1 handoff); 8 finished chunks need a same-session repair here (`tools/repair_t1.sh t1_s087_20261009 NN` for c325 c362 c497 c499 c656 c850 c894 c896; their sessions are in the archive) | — | — | — | — |
 
 **Resume after the restart (in this order):**
 1. `git pull`; `surah.py agents 96` (lists only agents not yet run).
@@ -164,5 +164,9 @@ session is read-only). Name the exact problems and allow reading and editing onl
    `tools/run_until_done.sh 20 enrichment/v9/work/tr_s103_20261009/maptr/runs <log> enrichment/v9/work/tr_s103_20261009/maptr/spawn/luna-max_c*.md`;
    `maptr.py check/report`; then `surah.py finish 103`.
 4. Start the helpers again: session archiving loop and `tools/disk_throttle.sh` (see "Disk space" and "Disk throttle").
-5. S87: when the other computer pushes its tier 1, `digest.py check/report t1_s087_20261009`, repair (tools/repair_t1.sh),
-   then maps etc.
+5. S87: repair the 8 chunks listed in the table here; when the other computer pushes the other 222,
+   `digest.py check/report t1_s087_20261009`, repair any new problems, then maps etc.
+6. 103:1 page (user, 2026-10-09): its maps gained notes after the page was written; if the new notes are significant
+   (`map.py update` reports per verse), rebuild the 103:1 writer in a new run.
+7. Bible (user, 2026-10-09): liked; some blocks share only keywords with the commentary. Before S96/S87 Bible runs
+   (after their enrichment is complete), tighten the briefs so a block needs a substantive link beyond shared words.

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c980",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T09:05:53",
+  "ended": "2026-10-09T09:13:24",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120c5-2831-78c1-99df-66974d20c8de",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 387182,
+    "cached_input_tokens": 326144,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33615,
+    "reasoning_output_tokens": 17665
+  },
+  "stderr": "2026-10-09T13:05:59.200321Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T13:06:24.405710Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T13:06:54.406584Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T13:12:27.092423Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c980.jsonl:\n{\"loc\":\"JURJANI-ASRAR:v1p64\",\"rows\":[{\"verses\":[\"41:39\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Wealth is sought for beneficial use, not possession alone; a rich miser who never benefits from it is poor in the relevant sense.\",\"anchor\":\"وأما قولهم في الغنى إذا كان بخيلا لا ينتفع بماله إن غناء فقر فهو في الضرب الأول أعنى تنزيل الوجود منزلة العدم\",\"mentions\":[]},{\"verses\":[\"41:39\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"اللؤماء\",\"stance\":\"rejects\",\"claim\":\"The claim that a miser still benefits from imagined future access or a sense of security is rejected as wishful self-excuse; wealth can instead bring humiliation and torment.\",\"anchor\":\"وأما قول اللؤماء إن انتفاعه في اعتقاده أنه متى شاء انتفع به وما يجد في نفسه من عزة الاستظهار\",\"mentions\":[]},{\"verses\":[\"41:39\"],\"words\":[\"*\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The author compares this excuse to an oppressor boasting of power: the one who validates such a boast is more blameworthy than the one who denies it and hopes for the oppressor's reform.\",\"anchor\":\"وترى المصدق له في دعواه أذم له وأهجى من المكذب لأن الذى صدقه أيس من أن ينزع إلى الإنسانية بحال\",\"mentions\":[]},{\"verses\":[\"41:39\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Contentment is genuine wealth and greed makes its possessor poor; this is substantively true even when phrased as a comparison.\",\"anchor\":\"إن القناعة فاعلمن غنى والحرص يورث أهله الفقرا\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "afec7541329af8590cdd117f6d598a193600ca4f0ca721830835ea3372b475d1",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T09-05-54-01a120c5-2831-78c1-99df-66974d20c8de.jsonl",
+  "usd_equivalent": 0.026173,
+  "requests": 10,
+  "max_request_input_tokens": 53812,
+  "over_context_cap": false
+}

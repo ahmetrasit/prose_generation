@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c416",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:12:08",
+  "ended": "2026-10-09T07:21:25",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1205d-03b9-7770-b848-dc3498e29e23",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1045104,
+    "cached_input_tokens": 938240,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 82655,
+    "reasoning_output_tokens": 31968
+  },
+  "stderr": "2026-10-09T11:15:39.797267Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 3, '{\"loc\":\"DURR-FULL:v2p536\",\"rows\":[{\"verses\":[\"4:36\"],\"words\":[\"*\"],\"type\":\"reports\",\"speaker\":\"جابر بن سليم الهجيمي\",\"stance\":\"reports\",\"claim\":\"Jabir reports the Prophet taught the greeting “السلام عليكم,” instructed that the izar end above the ankles, urged small acts of kindness and cheerful greetings, and counseled against returning insults; al-Hakim authenticated the report.\",\"anchor\":\"عن جابر بن سليم الهجيمي قال أتيت رسول الله صلى الله عليه وسلم في بعض طرق المدينة قلت عليك السلام يا رسول الله\",\"mentions\":[]},{\"verses\":[\"4:36\"],\"words\":[\"مُخْتَالًۭا فَخُورًا\"],\"type\":\"reports\",\"speaker\":\"أبو ذر\",\"stance\":\"reports\",\"claim\":\"Abu Dharr names three beloved people: the slain, patient fighter, one enduring a harmful neighbor, and a late-night traveler who rises to purify himself; God dislikes the arrogant, the boastful miser, and the boastful, oath-selling merchant. Al-Hakim authenticated it.\",\"anchor\":\"قلت لأبي ذر بلغني أنك تزعم أن رسول الله صلى الله عليه وسلم حدثكم أن الله يحب ثلاثة ويبغض ثلاثة\",\"mentions\":[\"61:4\"]}]}' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n",
+  "prompt_sha256": "eb1a291fb91591685181e2b8b36ba52a9a25290272f44dfd2f3cc24aeab93fb9",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-12-09-01a1205d-03b9-7770-b848-dc3498e29e23.jsonl",
+  "usd_equivalent": 0.061396,
+  "requests": 15,
+  "max_request_input_tokens": 107581,
+  "over_context_cap": false
+}

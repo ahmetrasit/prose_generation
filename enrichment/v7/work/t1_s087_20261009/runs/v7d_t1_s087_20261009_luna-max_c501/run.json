@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c501",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:33:15",
+  "ended": "2026-10-09T07:46:07",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12070-57dd-7023-b22e-8ec754bf1d28",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1413354,
+    "cached_input_tokens": 1287936,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 92349,
+    "reasoning_output_tokens": 40576
+  },
+  "stderr": "2026-10-09T11:42:21.736626Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:42:33.189854Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c501.jsonl:\n{\"verses\":[\"8:24\"],\"words\":[\"ٱسْتَجِيبُوا۟\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Istajābū means ajībū; conventionally istajāba takes a lām while ajāba does not, though istajāba can also occur without lām.\",\"anchor\":\"واستجيبوا بمعنى أجيبوا، ولكن عرف الكلام أن يتعدى استجاب بلام ويتعدى أجاب دون لام،\",\"mentions\":[]}\n2026-10-09T11:42:48.855082Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c501.jsonl:\n{\"verses\":[\"8:24\"],\"words\":[\"ٱسْتَجِيبُوا۟\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Istajābū means ajībū; conventionally istajāba takes a lām while ajāba does not, though istajāba can also occur without lām.\",\"anchor\":\"واستجيبوا بمعنى أجيبوا، ولكن عرف الكلام أن يتعدى استجاب بلام ويتعدى أجاب دون لام،\",\"mentions\":[]}\n",
+  "prompt_sha256": "3bcbfe4a6734096e62cb8e88f4315d895553ddd28f0678c55a83776aefee836f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-33-15-01a12070-57dd-7023-b22e-8ec754bf1d28.jsonl",
+  "usd_equivalent": 0.071596,
+  "requests": 17,
+  "max_request_input_tokens": 127135,
+  "over_context_cap": true
+}

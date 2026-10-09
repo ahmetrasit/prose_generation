@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c433",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:15:42",
+  "ended": "2026-10-09T07:23:50",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12060-45f2-7521-9bbc-060cc52fcf4d",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 605359,
+    "cached_input_tokens": 533504,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 53855,
+    "reasoning_output_tokens": 27259
+  },
+  "stderr": "2026-10-09T11:20:18.179153Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:20:46.429507Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c433.jsonl:\n{\"verses\":[\"75:23\"],\"words\":[\"إلى ربها ناظرة\"],\"type\":\"interpretation\",\"speaker\":\"أبو صالح\",\"stance\":\"reports\",\"claim\":\"Abu Salih says the faces look toward their Lord in expectation of His reward.\",\"anchor\":\"عن أبي صالح رضي الله عنه في قوله: {إلى ربها ناظرة} قال: تنتظر الثواب من ربها\",\"mentions\":[]}\n2026-10-09T11:21:03.421756Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c433.jsonl:\n{\"verses\":[\"75:23\"],\"words\":[\"إلى ربها ناظرة\"],\"type\":\"interpretation\",\"speaker\":\"أبو صالح\",\"stance\":\"reports\",\"claim\":\"Abu Salih says the faces look toward their Lord in expectation of His reward.\",\"anchor\":\"عن أبي صالح رضي الله عنه في قوله: {إلى ربها ناظرة} قال: تنتظر الثواب من ربها\",\"mentions\":[]}\n",
+  "prompt_sha256": "5822ca049c11c182c5029b715d1a60025f1b25b6d5a20af2b240f1e136e97b53",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-15-42-01a12060-45f2-7521-9bbc-060cc52fcf4d.jsonl",
+  "usd_equivalent": 0.039448,
+  "requests": 12,
+  "max_request_input_tokens": 74146,
+  "over_context_cap": false
+}

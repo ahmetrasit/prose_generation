@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c522",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:36:08",
+  "ended": "2026-10-09T07:45:31",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12072-fbc6-7d23-8f42-9c5bec44f7f8",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 821480,
+    "cached_input_tokens": 725760,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 71761,
+    "reasoning_output_tokens": 29184
+  },
+  "stderr": "pe\":\"readings\",\"speaker\":\"عمرو بن العاص وأبو رزين وأبو رجاء\",\"stance\":\"reports\",\"claim\":\"These readers pronounce shaqwatunā with fatḥa on shīn and no alif.\",\"anchor\":\"وقرأ عمرو ابن العاص وابو رزين العقيلي وأبو رجاء العطاردي كذلك إلا أنه بفتح الشين\",\"mentions\":[]},{\"verses\":[\"23:106\"],\"words\":[\"شقوتنا\"],\"type\":\"readings\",\"speaker\":\"ابن مسعود وابن عباس وأبو عبد الرحمن السلمي والحسن والأعمش وحمزة والكسائي\",\"stance\":\"reports\",\"claim\":\"These readers pronounce shaqāwatunā with an alif and fatḥa on shīn and qāf.\",\"anchor\":\"وقرأ ابن مسعود وابن عباس ابو عبد الرحمن السلمي والحسن والأعمش وحمزة والكسائي شقاوتنا بألف\",\"mentions\":[]},{\"verses\":[\"23:106\"],\"words\":[\"شقوتنا\"],\"type\":\"readings\",\"speaker\":\"الحسن وقتادة\",\"stance\":\"reports\",\"claim\":\"Al-Hasan and Qatada also read with an alif and fatḥa on qāf, but kasra on shīn.\",\"anchor\":\"وعن الحسن وقتادة كذلك إلا أن الشين مكسورة\",\"mentions\":[]},{\"verses\":[\"23:106\"],\"words\":[\"شقوتنا\"],\"type\":\"interpretation\",\"speaker\":\"المفسرون\",\"stance\":\"reports\",\"claim\":\"The commentators say the people admit that the misery decreed for them kept them from guidance.\",\"anchor\":\"قال المفسرون أقر القوم بأن ما كتب عليهم من الشقاء منعهم الهدى\",\"mentions\":[]} ]}\n2026-10-09T11:44:24.268667Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c522.jsonl:\n{\"loc\":\"IBNJAWZI-ZAD:v5p492#2\",\"rows\":[{\"verses\":[\"23:106\"],\"words\":[\"شقوتنا\"],\"type\":\"readings\",\"speaker\":\"ابن كثير وعاصم ونافع وأبو عمرو وابن عامر\",\"stance\":\"reports\",\"claim\":\"These readers pronounce shaqwatunā with kasra on shīn and no alif.\",\"anchor\":\"قرأ ابن كثير وعاصم ونافع وأبو عمرو وابن عامر شقوتنا بكسر الشين من غير الف\",\"mentions\":[]},{\"verses\":[\"23:106\"],\"words\":[\"شقوتنا\"],\"type\":\"readings\",\"speaker\":\"عمرو بن العاص وأبو رزين وأبو رجاء\",\"stance\":\"reports\",\"claim\":\"These readers pronounce shaqwatunā with fatḥa on shīn and no alif.\",\"anchor\":\"وقرأ عمرو ابن العاص وابو رزين العقيلي وأبو رجاء العطاردي كذلك إلا أنه بفتح الشين\",\"mentions\":[]},{\"verses\":[\"23:106\"],\"words\":[\"شقوتنا\"],\"type\":\"readings\",\"speaker\":\"ابن مسعود وابن عباس وأبو عبد الرحمن السلمي والحسن والأعمش وحمزة والكسائي\",\"stance\":\"reports\",\"claim\":\"These readers pronounce shaqāwatunā with an alif and fatḥa on shīn and qāf.\",\"anchor\":\"وقرأ ابن مسعود وابن عباس ابو عبد الرحمن السلمي والحسن والأعمش وحمزة والكسائي شقاوتنا بألف\",\"mentions\":[]},{\"verses\":[\"23:106\"],\"words\":[\"شقوتنا\"],\"type\":\"readings\",\"speaker\":\"الحسن وقتادة\",\"stance\":\"reports\",\"claim\":\"Al-Hasan and Qatada also read with an alif and fatḥa on qāf, but kasra on shīn.\",\"anchor\":\"وعن الحسن وقتادة كذلك إلا أن الشين مكسورة\",\"mentions\":[]},{\"verses\":[\"23:106\"],\"words\":[\"شقوتنا\"],\"type\":\"interpretation\",\"speaker\":\"المفسرون\",\"stance\":\"reports\",\"claim\":\"The commentators say the people admit that the misery decreed for them kept them from guidance.\",\"anchor\":\"قال المفسرون أقر القوم بأن ما كتب عليهم من الشقاء منعهم الهدى\",\"mentions\":[]} ]}\n",
+  "prompt_sha256": "74e204791a75b5c0fa0f05231cd766c03b0e1af4efdce306bbe7980ed17145e5",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-36-08-01a12072-fbc6-7d23-8f42-9c5bec44f7f8.jsonl",
+  "usd_equivalent": 0.05271,
+  "requests": 13,
+  "max_request_input_tokens": 96423,
+  "over_context_cap": false
+}

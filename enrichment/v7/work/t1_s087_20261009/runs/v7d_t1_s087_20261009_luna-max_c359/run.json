@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c359",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:51:35",
+  "ended": "2026-10-09T07:13:59",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204a-5b74-7340-8ac8-f29288c778c0",
+  "commands": 10,
+  "usage": {
+    "input_tokens": 2409233,
+    "cached_input_tokens": 2246144,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 98177,
+    "reasoning_output_tokens": 35352
+  },
+  "stderr": "d-api/codex/responses\n2026-10-09T10:53:14.515579Z ERROR codex_models_manager::manager: failed to refresh available models: exceeded retry limit, last status: 429 Too Many Requests, request id: req_e838dd04e44c474187e3fd23284a2e13\n2026-10-09T10:53:17.954620Z ERROR codex_models_manager::manager: failed to refresh available models: exceeded retry limit, last status: 429 Too Many Requests, request id: req_fbabddc775074fdca156edbeface370b\n2026-10-09T10:53:19.783875Z ERROR codex_models_manager::manager: failed to refresh available models: exceeded retry limit, last status: 429 Too Many Requests, request id: req_b0f51ddc5e384bc48841eba191510212\n2026-10-09T11:00:55.242931Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:10:00.769793Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:12:35.056663Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find context '-12,0 +12,1 @@' in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c359.jsonl\n2026-10-09T11:13:03.351014Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c359.jsonl:\n{\"loc\":\"BAYDAWI-FULL:2:29\",\"rows\":[{\"verses\":[\"2:29\"],\"words\":[\"هُوَ ٱلَّذِى خَلَقَ لَكُم مَّا فِى ٱلْأَرْضِ جَمِيعًۭا\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"This is a further favor following the gift of life: God created what sustains people and completes their livelihood.\",\"anchor\":\"بيان نعمة أخرى مرتبة على الأولى\",\"mentions\":[\"2:28\"]},{\"verses\":[\"2:29\"],\"words\":[\"لَكُم\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"For your sake means worldly benefit to bodies, directly or through means, and religious benefit through reflection and recognition of afterlife joys and pains; this is not a purpose that perfects God, but an outcome of His act.\",\"anchor\":\"وانتفاعكم بها في دنياكم باستنفاعكم بها\",\"mentions\":[]},{\"verses\":[\"2:29\"],\"words\":[\"لَكُم\"],\"type\":\"law\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The wording indicates that useful things are permitted, without implying that every thing belongs to every individual; the common grant can be apportioned for incidental reasons.\",\"anchor\":\"وهو يقتضي إباحة الأشياء النافعة\",\"mentions\":[]},{\"verses\":[\"2:29\"],\"words\":[\"مَّا فِى ٱلْأَرْضِ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"ما encompasses everything on earth only if الأرض means the lower realm, just as السماء can mean the upper realm.\",\"anchor\":\"إلا إذا أريد بها جهة السفل كما يراد بالسماء جهة العلو\",\"mentions\":[]},{\"verses\":[\"2:29\"],\"words\":[\"جَمِيعًۭا\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"جميعا is a circumstantial accusative qualifying the second relative pronoun.\",\"anchor\":\"وجميعا: حال من الموصول الثاني\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "f1b878e689f055b923e6668414307c0aea851c61a0e13ec12f5b3134cad40a48",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-51-57-01a1204a-5b74-7340-8ac8-f29288c778c0.jsonl",
+  "usd_equivalent": 0.087859,
+  "requests": 26,
+  "max_request_input_tokens": 140171,
+  "over_context_cap": true
+}

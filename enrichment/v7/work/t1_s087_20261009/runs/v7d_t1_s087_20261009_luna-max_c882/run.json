@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c882",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:39:10",
+  "ended": "2026-10-09T08:54:19",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120ac-b199-7302-b261-b01077b46d37",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1190723,
+    "cached_input_tokens": 1051136,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 103550,
+    "reasoning_output_tokens": 42788
+  },
+  "stderr": "2026-10-09T12:39:15.986001Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:39:40.994734Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:40:10.996080Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:40:49.518914Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:44:17.573553Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 3, '{\"loc\":\"WAHIDI-BASIT:v14p472\",\"rows\":[{\"verses\":[\"20:76\"],\"words\":[\"مَن تَزَكَّىٰ\"],\"type\":\"reports\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"Al-ʿAṭāʾ reports Ibn ʿAbbās glossing the purified person as one who professes that there is no god but God.\",\"anchor\":\"قال عطاء عن ابن عباس: (من قال لا إله إلا الله)\" ,\"mentions\":[]},{\"verses\":[\"20:76\"],\"words\":[\"مَن تَزَكَّىٰ\"],\"type\":\"reports\",\"speaker\":\"الكلبي\",\"stance\":\"reports\",\"claim\":\"Al-Kalbī gives a similar gloss: the purified person professes that there is no god but God.\",\"anchor\":\"ونحو ذلك قال الكلبي (¬2) ومعنى تزكى تطهير من الذنوب\" ,\"mentions\":[]},{\"verses\":[\"20:76\"],\"words\":[\"تَزَكَّىٰ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Purification means cleansing oneself of sins through obedience instead of becoming sullied by disobedience, seeking to be virtuous in goodness.\",\"anchor\":\"ومعنى تزكى تطهير من الذنوب بالطاعة بدلا من التدنس بالمعاصي\" ,\"mentions\":[]}]}' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n2026-10-09T12:48:21.484027Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:52:56.483059Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "3964e28399f8db7aaedcbdee48f2e1287b4ab3967f95520ef167b635f9e4e414",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-39-11-01a120ac-b199-7302-b261-b01077b46d37.jsonl",
+  "usd_equivalent": 0.076245,
+  "requests": 14,
+  "max_request_input_tokens": 129684,
+  "over_context_cap": true
+}

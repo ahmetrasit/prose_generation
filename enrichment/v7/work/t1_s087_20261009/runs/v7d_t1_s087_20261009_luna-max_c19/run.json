@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c19",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:14:27",
+  "ended": "2026-10-09T06:17:41",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12028-3478-7062-9705-f1acd48d1b41",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 292291,
+    "cached_input_tokens": 255744,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 21273,
+    "reasoning_output_tokens": 14606
+  },
+  "stderr": "2026-10-09T10:17:03.766111Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c19.jsonl:\n+{\"loc\":\"IBNHIBBAN:3158\",\"rows\":[{\"verses\":[\"35:28\"],\"words\":[\"إِنَّمَا يَخْشَى ٱللَّهَ مِنْ عِبَادِهِ ٱلْعُلَمَٰٓؤُا۟\"],\"type\":\"reports\",\"speaker\":\"رسول الله صلى الله عليه وسلم\",\"stance\":\"reports\",\"claim\":\"Usama b. Zayd reports the Prophet's tears at Zaynab's dying daughter and his explanation that tender weeping is mercy from God, with mercy shown to merciful people.\",\"anchor\":\"فقال رسول الله صلى الله عليه وسلم إنما هي رحمة جعلها الله في قلوب عباده وإنما يرحم الله من عباده الرحماء\",\"mentions\":[]},{\"verses\":[\"35:28\"],\"words\":[\"إِنَّمَا يَخْشَى ٱللَّهَ مِنْ عِبَادِهِ ٱلْعُلَمَٰٓؤُا۟\"],\"type\":\"law\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Ibn Hibban's chapter treats the report as evidence that one may weep at a child's death unless grief becomes discontent.\",\"anchor\":\"ذكر إباحة بكاء المرء عند فقده ولده أو ولد ولده ما لم يخالط البكاء حالة التسخط\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "f2e45edb50ca0147418710f669a2840aed4577ddff86621efed39d358834b96a",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-14-28-01a12028-3478-7062-9705-f1acd48d1b41.jsonl",
+  "usd_equivalent": 0.016849,
+  "requests": 9,
+  "max_request_input_tokens": 43493,
+  "over_context_cap": false
+}

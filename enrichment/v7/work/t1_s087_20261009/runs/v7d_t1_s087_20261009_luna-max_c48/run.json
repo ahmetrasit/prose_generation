@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c48",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:26:06",
+  "ended": "2026-10-09T07:37:33",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12069-ce31-7492-ae3d-66bafdd93728",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 856745,
+    "cached_input_tokens": 745216,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 88923,
+    "reasoning_output_tokens": 30201
+  },
+  "stderr": "2026-10-09T11:35:46.780416Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c48.jsonl:\n{\"loc\":\"BURSEVI:v6p152\",\"rows\":[{\"verses\":[\"25:32\"],\"words\":[\"وَرَتَّلْنَٰهُ تَرْتِيلًا\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"“We recited it distinctly” is coordinated with an elided verb expressing “We sent it down.”\",\"anchor\":\"عطف على ذلك المضمر وذلك إشارة\",\"mentions\":[]},{\"verses\":[\"25:32\"],\"words\":[\"تَرْتِيلًا\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Tartil means separating and placing each word after the last with a slight pause without cutting breath; its root image is the spacing of teeth.\",\"anchor\":\"والترتيل التفريق ومجيء الكلمة بعد الأخرى بسكوت يسير دون قطع النفس وأصله في الأسنان وهو تفريجها\",\"mentions\":[]},{\"verses\":[\"25:32\"],\"words\":[\"وَرَتَّلْنَٰهُ تَرْتِيلًا\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"God sent and recited it to Muhammad gradually, with calm and deliberation, over twenty or twenty-three years.\",\"anchor\":\"كذلك نزلناه وقرأناه عليك شيئا بعد شيء على تؤدة وتمهل في عشرين سنة أو ثلاث وعشرين\",\"mentions\":[]},{\"verses\":[\"25:33\"],\"words\":[\"وَلَا يَأْتُونَكَ بِمَثَلٍ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"They bring no strange question or speech, likened to a false example, intended to disparage Muhammad or the Qur’an, without God bringing a response.\",\"anchor\":\"أي بسؤال عجيب وكلام غريب كأنه مثل في البطلان يريدون به القدح في حقك وحق القرآن\",\"mentions\":[]},{\"verses\":[\"25:33\"],\"words\":[\"إِلَّا جِئْنَٰكَ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"God answers their challenge with truth: the bāʾ also marks transitivity, and the true answer invalidates their claim and ends the dispute.\",\"anchor\":\"فالباء في قوله بالحق للتعدية أيضا أي بالجواب الحق الثابت المبطل لما جاؤوا به\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "a3d5e56b266fd689eb48fb648d3c5298ebbfd406c6a7013eacf6ddb86ebe176c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-26-07-01a12069-ce31-7492-ae3d-66bafdd93728.jsonl",
+  "usd_equivalent": 0.063067,
+  "requests": 13,
+  "max_request_input_tokens": 113043,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c12",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:00:54",
+  "ended": "2026-10-09T06:02:40",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1201b-de17-7800-96b8-77f32bd4a49a",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 181347,
+    "cached_input_tokens": 127232,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 6947,
+    "reasoning_output_tokens": 5353
+  },
+  "stderr": "2026-10-09T10:01:02.662879Z ERROR codex_core::shell_snapshot: Shell snapshot validation failed: Snapshot command exited with status exit status: 1: /bin/bash: /Users/ahmetrasit/.codex/shell_snapshots/01a1201b-de17-7800-96b8-77f32bd4a49a.tmp-1791540061961042000: No such file or directory\n\n2026-10-09T10:01:04.634761Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "cf54e24ce1a881da6314c2090b86499ed13bda6a2e783a3777e7dc1c3ff08df5",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-01-01-01a1201b-de17-7800-96b8-77f32bd4a49a.jsonl",
+  "usd_equivalent": 0.010157,
+  "requests": 7,
+  "max_request_input_tokens": 31564,
+  "over_context_cap": false
+}

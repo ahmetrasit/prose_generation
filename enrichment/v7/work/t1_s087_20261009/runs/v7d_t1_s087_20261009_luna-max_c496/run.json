@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c496",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:31:41",
+  "ended": "2026-10-09T07:48:35",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1206e-ea51-77f3-9aec-c10b1bf837c7",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 2464230,
+    "cached_input_tokens": 2303744,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 126850,
+    "reasoning_output_tokens": 43454
+  },
+  "stderr": "2026-10-09T11:37:56.471515Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c496.jsonl:\n\"anchor\":\"ثم قوله تعالى إنما الخمر والميسر والأنصاب والأزلام رجس من عمل الشيطان فاجتنبوه\"\n2026-10-09T11:40:49.053683Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:45:24.064694Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "9a31d60748d514bb92539998dca7cc07a97266d87ee096ffb6b8faf44fc9adb5",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-31-42-01a1206e-ea51-77f3-9aec-c10b1bf837c7.jsonl",
+  "usd_equivalent": 0.102511,
+  "requests": 25,
+  "max_request_input_tokens": 155489,
+  "over_context_cap": true
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c472",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:25:05",
+  "ended": "2026-10-09T07:36:04",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12068-dc9d-7223-905d-860f9505625d",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1396806,
+    "cached_input_tokens": 1284096,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 83502,
+    "reasoning_output_tokens": 31480
+  },
+  "stderr": "2026-10-09T11:31:32.837567Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c472.jsonl:\n{\"verses\":[\"29:48\"],\"words\":[\"مَا كُنتَ تَتْلُوا۟\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"He had not read any book before the Qur’an, preventing anyone from claiming it was drawn from books he had previously recited.\",\"anchor\":\"أنك لم تكن تقرأ كتابا حتى يقول أحد : هذا القرآن الذي جاء به هو مما كان يتلوه من قبل\"}\n2026-10-09T11:33:14.005726Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c472.jsonl:\n{\"verses\":[\"30:38\"],\"words\":[\"ذَا ٱلْقُرْبَىٰ حَقَّهُۥ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Qurbā means kinship by lineage and womb; miskīn is cross-referenced to the poor and needy in 9:60, and ibn al-sabīl is a traveler passing through a village or encampment.\",\"anchor\":\"و { القربى : قرب النسب والرحم . والمسكين تقدم في قوله للفقراء والمساكين في سورة التوبة\",\"mentions\":[\"4:36\",\"9:60\"]}\n2026-10-09T11:34:36.168506Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c472.jsonl:\n{\"verses\":[\"30:39\"],\"words\":[\"مِّن زَكَوٰةٍ\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The clause about alms returns to the preceding command to give the relative his due, since that right is called zakat.\",\"anchor\":\"رجوع إلى قوله فئاتت ذا القربى حقه\"}\n",
+  "prompt_sha256": "d001b241458bb331290ba5ad1dbff3ed7201a890ab31d5d3cf54689bd1c4942f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-25-05-01a12068-dc9d-7223-905d-860f9505625d.jsonl",
+  "usd_equivalent": 0.065863,
+  "requests": 20,
+  "max_request_input_tokens": 108076,
+  "over_context_cap": false
+}

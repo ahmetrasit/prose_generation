@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c872",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:38:37",
+  "ended": "2026-10-09T08:54:41",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120ac-3204-72d1-847f-37f2479a6d84",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 1820782,
+    "cached_input_tokens": 1642752,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 101498,
+    "reasoning_output_tokens": 44972
+  },
+  "stderr": "2026-10-09T12:38:43.323757Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:39:08.442971Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:39:38.341722Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:47:21.981014Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c872.jsonl\n2026-10-09T12:47:48.857787Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:52:23.858296Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "31a8cdfc79a71fe1d0c3ada5f13f759e6a68cee4402dc18ef557cdfe4f9a5040",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-38-38-01a120ac-3204-72d1-847f-37f2479a6d84.jsonl",
+  "usd_equivalent": 0.08498,
+  "requests": 20,
+  "max_request_input_tokens": 139350,
+  "over_context_cap": true
+}

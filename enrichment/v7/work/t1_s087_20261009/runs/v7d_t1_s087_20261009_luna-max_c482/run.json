@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c482",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:27:49",
+  "ended": "2026-10-09T07:33:51",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1206b-6080-7300-9eca-e178ee4281b5",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 628344,
+    "cached_input_tokens": 570880,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39687,
+    "reasoning_output_tokens": 22234
+  },
+  "stderr": "2026-10-09T11:31:34.005865Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c482.jsonl:\n{\"verses\":[\"56:72\"],\"words\":[\"أم نحن المنشئون\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The sentence about creating the fire is an appositional specification of “or are We the creators?”\",\"anchor\":\"الجملة بدل اشتمال من جملة { أم نحن المنشئون } ( الواقعة : 72 )\",\"mentions\":[]}\n",
+  "prompt_sha256": "fc07c62e02681d6332775c1d70f48e72fd8a5bc14b60ed6cbb57d3b0769e9ad6",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-27-50-01a1206b-6080-7300-9eca-e178ee4281b5.jsonl",
+  "usd_equivalent": 0.031299,
+  "requests": 14,
+  "max_request_input_tokens": 60401,
+  "over_context_cap": false
+}

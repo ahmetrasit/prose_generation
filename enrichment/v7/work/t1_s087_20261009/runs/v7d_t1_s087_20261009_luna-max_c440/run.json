@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c440",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:18:42",
+  "ended": "2026-10-09T07:29:12",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12063-05e3-7140-b272-33ca8b5aa1b7",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 958706,
+    "cached_input_tokens": 849408,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 79700,
+    "reasoning_output_tokens": 37490
+  },
+  "stderr": "2026-10-09T11:23:18.452446Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:27:42.074328Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c440.jsonl:\n{\"loc\":\"IBNABIHATIM:v7p2229\",\"rows\":[{\"verses\":[\"13:10\"],\"words\":[\"سَوَآءٌۭ مِّنكُم مَّنْ أَسَرَّ ٱلْقَوْلَ\"],\"type\":\"reports\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"Ibn Abbas reports again that the verse was revealed concerning Amir and Arbad and what they had intended regarding the Prophet.\",\"anchor\":\"عن عطاء بن يسار ، عن ابن عباس قال : انزل الله تعالى في عامر واربد ما كانا هما به من النبي صلى الله عليه وسلم\",\"mentions\":[]},{\"verses\":[\"13:10\"],\"words\":[\"وَسَارِبٌۢ بِٱلنَّهَارِ\"],\"type\":\"meaning\",\"speaker\":\"مجاهد\",\"stance\":\"reports\",\"claim\":\"Mujahid says the person goes about openly committing sins by day.\",\"anchor\":\"عن مجاهد وسارب بالنهار قال : ظاهر بالنهار بالمعاصي\",\"mentions\":[]},{\"verses\":[\"13:10\"],\"words\":[\"وَسَارِبٌۢ بِٱلنَّهَارِ\"],\"type\":\"interpretation\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"Ibn Abbas says the person goes out by day, appearing to people as though free of sin.\",\"anchor\":\"عن ابن عباس قوله : وسارب بالنهار : قال اذا خرج بالنهار ارى الناس انه بريء من الاثم\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "b66e49ffaba93da394d5c70819e5e36faebee6b774cdbf7a86eb3fdefd5e60dc",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-18-43-01a12063-05e3-7140-b272-33ca8b5aa1b7.jsonl",
+  "usd_equivalent": 0.059274,
+  "requests": 14,
+  "max_request_input_tokens": 105349,
+  "over_context_cap": false
+}

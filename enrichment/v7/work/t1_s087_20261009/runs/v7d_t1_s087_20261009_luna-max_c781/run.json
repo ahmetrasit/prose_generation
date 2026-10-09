@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c781",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:22:56",
+  "ended": "2026-10-09T08:32:19",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1209d-d46d-7ba1-b785-ba600bac1a3b",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 864948,
+    "cached_input_tokens": 743936,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 70315,
+    "reasoning_output_tokens": 34013
+  },
+  "stderr": "2026-10-09T12:27:12.117864Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c781.jsonl:\n{\"loc\":\"TAB-FULL:v23p458\",\"rows\":[{\"verses\":[\"74:51\"],\"words\":[\"فَرَّتْ مِن قَسْوَرَةٍۭ\"],\"type\":\"meaning\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"Ibn ʿAbbās glosses qaswara as the men who hunt or shoot game.\",\"anchor\":\"عن ابن عباس، {فرت من قسورة} [المدثر: 51] يعني: رجال القنص\",\"mentions\":[]},{\"verses\":[\"74:51\"],\"words\":[\"فَرَّتْ مِن قَسْوَرَةٍۭ\"],\"type\":\"meaning\",\"speaker\":\"سعيد بن جبير\",\"stance\":\"reports\",\"claim\":\"Saʿīd ibn Jubayr also says qaswara means hunters.\",\"anchor\":\"عن سعيد بن جبير، في هذه الآية {فرت من قسورة} [المدثر: 51] قال: هم القناص\",\"mentions\":[]},{\"verses\":[\"74:51\"],\"words\":[\"فَرَّتْ مِن قَسْوَرَةٍۭ\"],\"type\":\"meaning\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"Another report from Ibn ʿAbbās understands qaswara as a band or gathering of men.\",\"anchor\":\"سئل ابن عباس عن القسورة، قال: جمع الرجال\",\"mentions\":[]},{\"verses\":[\"74:51\"],\"words\":[\"فَرَّتْ مِن قَسْوَرَةٍۭ\"],\"type\":\"meaning\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"Ibn ʿAbbās cites a pre-Islamic woman's verse using qaswara for a collective of men.\",\"anchor\":\"ألم تسمع ما قالت فلانة في الجاهلية: يا بنت لؤي خيرة لخيره … أحوالها في الحي مثل القسوره\",\"mentions\":[]},{\"verses\":[\"74:51\"],\"words\":[\"فَرَّتْ مِن قَسْوَرَةٍۭ\"],\"type\":\"meaning\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"Ibn ʿAbbās explains qaswara as people raising their voices.\",\"anchor\":\"عن ابن عباس، {فرت من قسورة} [المدثر: 51] قال: ركز الناس أصواتهم\",\"mentions\":[]},{\"verses\":[\"74:51\"],\"words\":[\"فَرَّتْ مِن قَسْوَرَةٍۭ\"],\"type\":\"links\",\"speaker\":\"سفيان\",\"stance\":\"reports\",\"claim\":\"Sufyān links the reported meaning “voices” to the word rakz in 19:98, “sound.”\",\"anchor\":\"قال سفيان: {هل تحس منهم من أحد أو تسمع لهم ركزا}\",\"mentions\":[\"19:98\"]},{\"verses\":[\"74:51\"],\"words\":[\"فَرَّتْ مِن قَسْوَرَةٍۭ\"],\"type\":\"meaning\",\"speaker\":\"أبو هريرة\",\"stance\":\"reports\",\"claim\":\"Abū Hurayra says qaswara means a lion.\",\"anchor\":\"عن زيد بن أسلم، عن أبي هريرة، {فرت من قسورة} [المدثر: 51] قال: هو الأسد\",\"mentions\":[]}]}\n2026-10-09T12:27:32.320233Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "0220cc42a2f6a3749e1adf82af26d2e487076fc63b30f165fc8018222d3ec741",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-22-56-01a1209d-d46d-7ba1-b785-ba600bac1a3b.jsonl",
+  "usd_equivalent": 0.054698,
+  "requests": 14,
+  "max_request_input_tokens": 96551,
+  "over_context_cap": false
+}

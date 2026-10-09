@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c374",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:02:19",
+  "ended": "2026-10-09T07:11:24",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12054-0b85-7d91-ade2-21eb1a5640e4",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 937190,
+    "cached_input_tokens": 850944,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 64328,
+    "reasoning_output_tokens": 27734
+  },
+  "stderr": "57\"]}]}\n2026-10-09T11:08:26.262648Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c374.jsonl:\n{\"loc\":\"BIQAI-FULL:v1p180\",\"rows\":[{\"verses\":[\"2:83\"],\"words\":[\"*\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Biqāʿī presents passages from the second and third books of the Torah as testimony to Israel’s covenant and its commandments.\",\"anchor\":\"ذكر ما يشهد لذلك من التوراة , قال في السفر الثاني منها لما ذكر أمر المناجاة\",\"mentions\":[]},{\"verses\":[\"2:83\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"The second book recalls God bringing Israel from Egyptian slavery and commands exclusive worship, rejection of idols and false oaths, honoring parents, and abstaining from murder, adultery, theft, false witness, and coveting; it also promises mercy to those who love and obey God.\",\"anchor\":\"أنا الرب إلهك الذي أصعدتك من أرض مصر من العبودية والرق , لا تكون لك آلهة غيري\",\"mentions\":[]},{\"verses\":[\"2:83\"],\"words\":[\"*\"],\"type\":\"reports\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"The Torah passage says the people heard sounds and saw lights at the mountain revelation.\",\"anchor\":\"وكان جميع الشعب يسمعون الأصوات ويرون المصابيح\",\"mentions\":[]},{\"verses\":[\"2:83\"],\"words\":[\"*\"],\"type\":\"law\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"The third-book passage forbids theft, treachery, false oaths, oppression, insulting the mute, and placing obstacles before the blind.\",\"anchor\":\"لا تسرقوا , ولا تغدروا , ولا تحلفوا باسمي كذبا , ولا تنجسوا اسم الرب إلهكم\",\"mentions\":[]},{\"verses\":[\"2:83\"],\"words\":[\"*\"],\"type\":\"law\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"It commands impartial justice for poor and great alike, honest rebuke instead of hatred, and love of one’s neighbor as oneself.\",\"anchor\":\"لا تحابين المسكين ولا تحاب الكبير أيضا بل أقض بالبر والعدل\",\"mentions\":[]},{\"verses\":[\"2:83\"],\"words\":[\"*\"],\"type\":\"law\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"Further commands reject divination and certain mourning and grooming customs, require honor for elders, kindness to resident outsiders, and honest weights and measures.\",\"anchor\":\"ولا تتبعوا العرافين والقافة ولا تنطلقوا إليهم ولا تسألوهم عن شيء لئلا تتنجسوا به\",\"mentions\":[]},{\"verses\":[\"2:83\"],\"words\":[\"*\"],\"type\":\"law\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"The law says not to wrong a resident outsider but to treat them as one of the community, recalling Israel’s own time as outsiders in Egypt.\",\"anchor\":\"وإذا سكن بينكم الذي يقبل إلي فلا تظلموه بل أنزلوه منزلة أحدكم وصيروه منكم\",\"mentions\":[]},{\"verses\":[\"2:83\"],\"words\":[\"*\"],\"type\":\"law\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"The Torah requires fair courts, honest weights and measures, and preservation of God’s commands.\",\"anchor\":\"لا تأثموا في القضاء ولا تأثموا في الأوزان والمكاييل بل اتخذوا ميزان الحق واتخذوا مكاييل الحق\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "6cb3819f646c09d52a36fc05849e19a347a4538cec011667fdc288c0d22cdf52",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-02-21-01a12054-0b85-7d91-ade2-21eb1a5640e4.jsonl",
+  "usd_equivalent": 0.049298,
+  "requests": 16,
+  "max_request_input_tokens": 88543,
+  "over_context_cap": false
+}

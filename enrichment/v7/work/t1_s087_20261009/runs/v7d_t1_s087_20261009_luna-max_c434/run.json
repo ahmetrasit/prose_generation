@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c434",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:15:44",
+  "ended": "2026-10-09T07:28:28",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12060-51c5-7a60-88a3-d901e9dc85b5",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 1557172,
+    "cached_input_tokens": 1438976,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 89489,
+    "reasoning_output_tokens": 57236
+  },
+  "stderr": "2026-10-09T11:20:21.125256Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:20:51.222407Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c434.jsonl:\n\"anchor\":\"عن عبد الله بن مسعود قال ان الحجارة التي سماها الله في القران وقودها الناس والحجارة حجارة من كبريت خلقها الله تعالى عنده كيف يشاء\"\n2026-10-09T11:24:39.482347Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c434.jsonl:\n{\"verses\":[\"2:24\"],\"words\":[\"ٱلْحِجَارَةُ\"],\"type\":\"referent\",\"speaker\":\"مجاهد\",\"stance\":\"reports\",\"claim\":\"Mujahid describes the sulfur stones as more foul-smelling than carrion.\",\"anchor\":\"عن مجاهد فاتقوا النار التي وقودها الناس والحجارة قال : حجارة انتن من الجيفة من كبريت\",\"mentions\":[]}\n",
+  "prompt_sha256": "62bf849b7b33e82febe1dfaff5158ae3f2fdae80901535d880a65f07c9b43b88",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-15-45-01a12060-51c5-7a60-88a3-d901e9dc85b5.jsonl",
+  "usd_equivalent": 0.070954,
+  "requests": 19,
+  "max_request_input_tokens": 117398,
+  "over_context_cap": false
+}

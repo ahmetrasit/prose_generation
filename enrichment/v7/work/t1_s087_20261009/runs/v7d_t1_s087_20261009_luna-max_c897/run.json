@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c897",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:40:40",
+  "ended": "2026-10-09T08:48:55",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120ae-12e1-7e93-9d25-7d8a958b5535",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1060195,
+    "cached_input_tokens": 964608,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 61816,
+    "reasoning_output_tokens": 24993
+  },
+  "stderr": "2026-10-09T12:47:08.476010Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c897.jsonl:\n{\"loc\":\"YAHYA-SALLAM:v1p401\",\"rows\":[{\"verses\":[\"23:40\"],\"words\":[\"عما قليل\"],\"type\":\"meaning\",\"speaker\":\"السدي\",\"stance\":\"reports\",\"claim\":\"Al-Suddi says the phrase means after a short time.\",\"anchor\":\"أي: عن قليل. والميم والألف صلة في الكلام. وهو تفسير السدي\",\"mentions\":[]},{\"verses\":[\"23:40\"],\"words\":[\"ليصبحن نادمين\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"God says they will soon regret their rejection, then seizes them with the blast.\",\"anchor\":\"قال الله: {فأخذتهم الصيحة بالحق} [المؤمنون: 41] تفسير الحسن: الصيحة: العذاب\",\"mentions\":[]},{\"verses\":[\"23:41\"],\"words\":[\"فأخذتهم الصيحة بالحق\"],\"type\":\"meaning\",\"speaker\":\"الحسن\",\"stance\":\"reports\",\"claim\":\"Hasan explains the blast as punishment.\",\"anchor\":\"تفسير الحسن: الصيحة: العذاب\",\"mentions\":[]},{\"verses\":[\"23:41\"],\"words\":[\"فجعلناهم غثاء\"],\"type\":\"meaning\",\"speaker\":\"مجاهد\",\"stance\":\"reports\",\"claim\":\"Mujahid, through al-Mu'alla and Abu Yahya, compares the people made into debris to something decayed.\",\"anchor\":\"في تفسير المعلى عن أبي يحيى عن مجاهد\",\"mentions\":[]},{\"verses\":[\"23:41\"],\"words\":[\"فجعلناهم غثاء\"],\"type\":\"meaning\",\"speaker\":\"بعضهم\",\"stance\":\"reports\",\"claim\":\"Some compare them to vegetation that is crushed after it was green.\",\"anchor\":\"وقال بعضهم: مثل النبات إذا صار غثاء، فتهشم بعد إذ كان أخضر\",\"mentions\":[]},{\"verses\":[\"23:41\"],\"words\":[\"فبعدا للقوم الظالمين\"],\"type\":\"referent\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The wrongdoers driven away are the polytheists.\",\"anchor\":\"المشركين\",\"mentions\":[]},{\"verses\":[\"23:42\"],\"words\":[\"ثم أنشأنا من بعدهم قرونا آخرين\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"God created other generations after the earlier peoples had perished.\",\"anchor\":\"من بعد الهالكين\",\"mentions\":[]},{\"verses\":[\"23:42\",\"23:43\"],\"words\":[\"ما تسبق من أمة أجلها\",\"وما يستأخرون\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Each nation has a fixed time of destruction; none can delay it or advance it by even an hour.\",\"anchor\":\"{ما تسبق من أمة أجلها} [المؤمنون: 42-43] يعني الوقت الذي يهلكها فيه. {وما يستأخرون} [المؤمنون: 43] عن الوقت ساعة ولا يستقدمون من قبل الوقت\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "0f1408b94c4598c951171526e3d509d30b1bf30efbfaa9b2ae897f8ef5f32855",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-40-41-01a120ae-12e1-7e93-9d25-7d8a958b5535.jsonl",
+  "usd_equivalent": 0.050113,
+  "requests": 16,
+  "max_request_input_tokens": 95533,
+  "over_context_cap": false
+}

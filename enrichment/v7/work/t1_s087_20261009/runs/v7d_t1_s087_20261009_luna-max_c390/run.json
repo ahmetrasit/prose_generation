@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c390",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:05:54",
+  "ended": "2026-10-09T07:14:18",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12057-4f02-7632-bf52-a9b851513a80",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 730392,
+    "cached_input_tokens": 645888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 59210,
+    "reasoning_output_tokens": 35124
+  },
+  "stderr": "2026-10-09T11:10:30.613015Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:11:28.316650Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c390.jsonl:\n{\"verses\":[\"22:29\"],\"words\":[\"تفثهم\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Tafath is the pilgrim's dishevelment, removed by washing, trimming nails and mustache, shaving pubic hair, and similar grooming.\",\"anchor\":\"تفثهم أي شعثهم بالغسل وقص الأظفار والشارب وحلق العنة ونحو ذلك\",\"mentions\":[]}\n2026-10-09T11:13:14.615579Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c390.jsonl:\n{\"verses\":[\"22:31\"],\"words\":[\"ومن يشرك بالله\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The fall from heaven compares shirk's degradation with the height of tawḥīd; birds snatch the falling person in the air or wind carries him to a remote low place.\",\"anchor\":\"خر من السماء لعلو ما كان فيه من أوج التوحيد\",\"mentions\":[]}\n",
+  "prompt_sha256": "00a390338582f2cbf5b1988cecb58a9bbfb13c5761210bb2d83ffea9e33ca6be",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-05-55-01a12057-4f02-7632-bf52-a9b851513a80.jsonl",
+  "usd_equivalent": 0.044514,
+  "requests": 13,
+  "max_request_input_tokens": 81185,
+  "over_context_cap": false
+}

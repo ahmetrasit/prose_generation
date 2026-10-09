@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c231",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:18:41",
+  "ended": "2026-10-09T06:27:02",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1202c-1655-7430-be8d-b4ccda8d024a",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 731378,
+    "cached_input_tokens": 652032,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 58638,
+    "reasoning_output_tokens": 32574
+  },
+  "stderr": "2026-10-09T10:24:33.649238Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c231.jsonl:\n{\"verses\":[\"2:30\"],\"words\":[\"*\"],\"type\":\"readings\",\"speaker\":\"الداني\",\"stance\":\"rejects\",\"claim\":\"Al-Dānī rejects the few-letters objection: consensus assimilates لك كيدا, which is shorter in pronunciation than آل.\",\"anchor\":\"ورد الداني هذا المانع بإدغام لك كيدا إجماعا، إذ هو أقل حروفا من آل\",\"mentions\":[]}\n2026-10-09T10:25:59.355324Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c231.jsonl:\n{\"verses\":[\"2:98\"],\"words\":[\"ميكال\"],\"type\":\"readings\",\"speaker\":\"البصريان وحفص\",\"stance\":\"reports\",\"claim\":\"The Basrans and Ḥafṣ read ميكال without hamza or following yāʾ; the Medinans use hamza without yāʾ. Qunbul is reported both ways, while al-Aṣbahānī’s Warsh route eases hamza in كأنهم and related words.\",\"anchor\":\"فقرأه البصريان وحفص ميكال بغير همز، ولا ياء بعدها، وقرأه المدنيان بهمزة من غير ياء بعدها\",\"mentions\":[]}\n",
+  "prompt_sha256": "52bfbcde2fce1fbd982c3693b5d2b26364212a806caee4219be86437c681c4d3",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-18-42-01a1202c-1655-7430-be8d-b4ccda8d024a.jsonl",
+  "usd_equivalent": 0.043774,
+  "requests": 13,
+  "max_request_input_tokens": 80991,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c873",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:38:41",
+  "ended": "2026-10-09T08:53:58",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120ac-403c-73b2-bf9a-0f4c4b12825e",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1690597,
+    "cached_input_tokens": 1544960,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 104658,
+    "reasoning_output_tokens": 44996
+  },
+  "stderr": "2026-10-09T12:38:46.968861Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:39:12.077472Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:39:41.977088Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:45:48.139090Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c873.jsonl:\n\"anchor\":\"يريد نظر بعضهم إلى بعض عند نزول الصاعقة، قاله (¬6) ابن زيد\"\n2026-10-09T12:47:52.450163Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:52:27.450982Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "0de8adbdcf1bce4401ce927b41be82033462ae74691b5d0d697c131d9cf8b54c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-38-42-01a120ac-403c-73b2-bf9a-0f4c4b12825e.jsonl",
+  "usd_equivalent": 0.082342,
+  "requests": 21,
+  "max_request_input_tokens": 133146,
+  "over_context_cap": true
+}

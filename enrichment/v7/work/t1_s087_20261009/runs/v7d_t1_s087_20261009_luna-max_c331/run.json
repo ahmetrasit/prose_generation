@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c331",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:51:35",
+  "ended": "2026-10-09T07:10:52",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204a-634a-74d1-a416-55b2d45ee027",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1021883,
+    "cached_input_tokens": 899328,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 91675,
+    "reasoning_output_tokens": 40366
+  },
+  "stderr": "2026-10-09T10:51:48.529882Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:51:52.615276Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:51:53.536565Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:52:31.427859Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T10:52:58.415431Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:53:00.470470Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:53:03.024263Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:53:08.768765Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:53:13.098772Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T10:53:14.159899Z ERROR codex_models_manager::manager: failed to refresh available models: exceeded retry limit, last status: 429 Too Many Requests, request id: req_c96012319aff4ef3953faed9d14f487e\n2026-10-09T10:53:17.431028Z ERROR codex_models_manager::manager: failed to refresh available models: exceeded retry limit, last status: 429 Too Many Requests, request id: req_059fb06e6af14995bc2a1d20544faf68\n2026-10-09T10:53:19.360972Z ERROR codex_models_manager::manager: failed to refresh available models: exceeded retry limit, last status: 429 Too Many Requests, request id: req_d96475c31e424a79971ca34077a71959\n2026-10-09T11:00:58.074961Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:10:03.477933Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "8e7d051d89c4302379e35686e791b34948ee7edd8d7568506f98fb41dd43a4af",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-51-56-01a1204a-634a-74d1-a416-55b2d45ee027.jsonl",
+  "usd_equivalent": 0.067086,
+  "requests": 15,
+  "max_request_input_tokens": 113450,
+  "over_context_cap": false
+}

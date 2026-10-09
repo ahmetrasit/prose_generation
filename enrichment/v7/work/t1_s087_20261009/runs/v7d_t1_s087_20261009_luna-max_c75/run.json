@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c75",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:15:21",
+  "ended": "2026-10-09T08:31:03",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12096-e459-7c72-86c7-7b302589b36d",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1988324,
+    "cached_input_tokens": 1791232,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 97772,
+    "reasoning_output_tokens": 27902
+  },
+  "stderr": "2026-10-09T12:15:27.184317Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:15:52.313963Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:16:22.315361Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:22:54.324218Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c75.jsonl:\n{\"verses\":[\"53:26\"],\"words\":[\"وكم من ملك في السماوات لا تغنى شفاعتهم شيئا إلا من بعد أن يأذن الله لمن يشآء ويرضى\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Angels' intercession benefits nothing unless God permits and approves it; this rebuts the claim that angels are their intercessors with God.\",\"anchor\":\"وهذا رد عليهم حيث قالوا : إن الملائكة شفعاؤنا عند الله\",\"mentions\":[]}\n2026-10-09T12:29:03.224778Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "0618a5beddd77d2aecfa9e10164d22c2367716133567ef30feff4ed051709f2d",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-15-22-01a12096-e459-7c72-86c7-7b302589b36d.jsonl",
+  "usd_equivalent": 0.086508,
+  "requests": 23,
+  "max_request_input_tokens": 130919,
+  "over_context_cap": true
+}

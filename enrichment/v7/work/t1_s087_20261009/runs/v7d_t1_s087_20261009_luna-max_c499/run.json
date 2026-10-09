@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c499",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:32:38",
+  "ended": "2026-10-09T07:49:58",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1206f-c87d-7563-959b-055cb6e1381e",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1435196,
+    "cached_input_tokens": 1275904,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 125115,
+    "reasoning_output_tokens": 55797
+  },
+  "stderr": "2026-10-09T11:41:45.091165Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:42:21.910333Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c499.jsonl:\n\"anchor\":\"وقال مجاهد وأبو مالك: هذه إشارة إلى الشق\"\n2026-10-09T11:46:20.100097Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "9d13ce2f6c678335e5451bde22da5b4350e362c1b95556f0f696e4fec6c6c879",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-32-39-01a1206f-c87d-7563-959b-055cb6e1381e.jsonl",
+  "usd_equivalent": 0.091246,
+  "requests": 16,
+  "max_request_input_tokens": 149748,
+  "over_context_cap": true
+}

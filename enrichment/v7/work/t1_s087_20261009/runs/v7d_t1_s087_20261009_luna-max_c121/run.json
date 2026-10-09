@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c121",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:00:54",
+  "ended": "2026-10-09T06:14:18",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1201b-d9ca-7251-974b-e1a16f5b4621",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1338899,
+    "cached_input_tokens": 1216256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96751,
+    "reasoning_output_tokens": 43077
+  },
+  "stderr": "2026-10-09T10:01:06.061838Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:12:21.587322Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c121.jsonl:\n{\"loc\":\"ZAJJAJ:v1p167\",\"rows\":[{\"verses\":[\"2:85\"],\"words\":[\"وَهُوَ مُحَرَّمٌ عَلَيْكُمْ إِخْرَاجُهُمْ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"In هو محرم عليكم إخراجهم, the pronoun may refer back to the previously mentioned expulsion: expelling them is forbidden to you.\",\"anchor\":\"جائز أن يكون إضمار الإخراج الذي تقدم ذكره. قال: (وتخرجون فريقا منكم من ديارهم) وهو محرم عليكم إخراجهم.\",\"mentions\":[]},{\"verses\":[\"2:85\"],\"words\":[\"وَهُوَ مُحَرَّمٌ عَلَيْكُمْ إِخْرَاجُهُمْ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Alternatively, هو may introduce the matter or report: their expulsion is forbidden, like ‘Say: He is God, One.’\",\"anchor\":\"وجائز أن يكون للقصة، والحديث والخبر، كأنه قال والخبر محرم عليكم إخراجهم\",\"mentions\":[\"112:1\"]},{\"verses\":[\"2:85\"],\"words\":[\"خِزْيٌۭ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"For disgrace and evil one says khazā; for shyness or embarrassment one says khaziya yakhzī khazāya.\",\"anchor\":\"يقال في الشر والسوء خزي الرجل خزيا، ويقال في الحياء خزي يخزي خزاية\",\"mentions\":[]},{\"verses\":[\"2:85\"],\"words\":[\"خِزْيٌۭ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Punishments described as severe, great, or painful are two kinds apportioned according to sins.\",\"anchor\":\"العذاب على ضربين، على \\\\\\\" قدر المعاصي.\",\"mentions\":[]},{\"verses\":[\"2:85\"],\"words\":[\"أَشَدِّ ٱلْعَذَابِ\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The warning of a blazing fire entered only by the most wretched illustrates one punishment category.\",\"anchor\":\"والدليل على ذلك قوله عز وجل: فأنذرتكم نارا تلظى (14) لا يصلاها إلا الأشقى (15)\",\"mentions\":[\"92:14\",\"92:15\",\"92:16\"]},{\"verses\":[\"2:87\"],\"words\":[\"ءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ\"],\"type\":\"referent\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The book given to Moses is the Torah.\",\"anchor\":\"(ولقد آتينا موسى الكتاب) يعني التوراة.\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "995eedacda2273cd3d0b12a85b908a6a76de739e792c37bc5756a435c25aeb42",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-00-59-01a1201b-d9ca-7251-974b-e1a16f5b4621.jsonl",
+  "usd_equivalent": 0.072802,
+  "requests": 17,
+  "max_request_input_tokens": 122738,
+  "over_context_cap": true
+}

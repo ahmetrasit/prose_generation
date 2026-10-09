@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c975",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T09:05:18",
+  "ended": "2026-10-09T09:22:46",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120c4-9cf4-7990-8b94-6034738ff891",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 2101240,
+    "cached_input_tokens": 1949952,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96183,
+    "reasoning_output_tokens": 49992
+  },
+  "stderr": "2026-10-09T13:05:23.564090Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T13:05:48.812187Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T13:06:18.814373Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T13:16:55.474454Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c975.jsonl:\n\"anchor\":\"ادعوني وحدوني\"\n",
+  "prompt_sha256": "5a3e3714b7956ed903f2a564ce4d83b810b3628cabe2941c80f349b53cf58d7e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T09-05-18-01a120c4-9cf4-7990-8b94-6034738ff891.jsonl",
+  "usd_equivalent": 0.08272,
+  "requests": 23,
+  "max_request_input_tokens": 130131,
+  "over_context_cap": true
+}

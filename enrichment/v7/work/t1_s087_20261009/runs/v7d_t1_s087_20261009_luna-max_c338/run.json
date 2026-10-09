@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c338",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:51:35",
+  "ended": "2026-10-09T07:04:26",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204a-40fb-7701-8b62-2c0eb3aa7e22",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1034162,
+    "cached_input_tokens": 912640,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 91075,
+    "reasoning_output_tokens": 32925
+  },
+  "stderr": "2026-10-09T10:51:40.035147Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T10:51:44.535143Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:51:45.078116Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:51:49.829158Z ERROR codex_core::shell_snapshot: Shell snapshot validation failed: Snapshot command exited with status exit status: 1: /bin/bash: /Users/ahmetrasit/.codex/shell_snapshots/01a1204a-40fb-7701-8b62-2c0eb3aa7e22.tmp-1791543108396689000: No such file or directory\n\n2026-10-09T10:52:21.630021Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T10:52:26.678169Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:00:49.915193Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "acbb96d066a4a651e153f9d1e45cf042bf56d94cabf86d177a423faed71fe398",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-51-48-01a1204a-40fb-7701-8b62-2c0eb3aa7e22.jsonl",
+  "usd_equivalent": 0.066816,
+  "requests": 15,
+  "max_request_input_tokens": 112099,
+  "over_context_cap": false
+}

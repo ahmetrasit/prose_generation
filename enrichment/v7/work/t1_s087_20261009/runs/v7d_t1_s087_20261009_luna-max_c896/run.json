@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c896",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:40:37",
+  "ended": "2026-10-09T08:47:42",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120ae-061a-7813-9eac-cf5f5e6a1b9f",
+  "commands": 3,
+  "usage": {
+    "input_tokens": 293043,
+    "cached_input_tokens": 227584,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 46620,
+    "reasoning_output_tokens": 31580
+  },
+  "stderr": "2026-10-09T12:46:25.869844Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c896.jsonl:\n\"anchor\":\"يعني المشركين، والمؤمنون هم المتذكرون\"\n",
+  "prompt_sha256": "4ba83c780a7d209bddc3455f58ca261ccff15e7025851667d0a71d05003a2d4f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-40-38-01a120ae-061a-7813-9eac-cf5f5e6a1b9f.jsonl",
+  "usd_equivalent": 0.032132,
+  "requests": 7,
+  "max_request_input_tokens": 70500,
+  "over_context_cap": false
+}

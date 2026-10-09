@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c367",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:51:35",
+  "ended": "2026-10-09T07:14:59",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204a-5907-7862-ba2c-2cbfbda6c7a5",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 2404223,
+    "cached_input_tokens": 2242304,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 119021,
+    "reasoning_output_tokens": 45006
+  },
+  "stderr": "odex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c367.jsonl:\n{\"loc\":\"BAYDAWI-FULL:81:10-14\",\"rows\":[{\"verses\":[\"81:10\"],\"words\":[\"وَإِذَا ٱلصُّحُفُ نُشِرَتْ\"],\"type\":\"referent\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The sheets are records of deeds, folded at death and spread out at the reckoning.\",\"anchor\":\"يعني صحف الأعمال فإنها تطوى عند الموت وتنشر وقت الحساب\",\"mentions\":[]},{\"verses\":[\"81:10\"],\"words\":[\"نُشِرَتْ\"],\"type\":\"referent\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"Alternatively, the sheets are distributed among their recipients.\",\"anchor\":\"وقيل نشرت فرقت بين أصحابها\",\"mentions\":[]},{\"verses\":[\"81:10\"],\"words\":[\"نُشِرَتْ\"],\"type\":\"readings\",\"speaker\":\"ابن كثير وأبو عمرو وحمزة والكسائي\",\"stance\":\"reports\",\"claim\":\"Ibn Kathīr, Abū ʿAmr, Ḥamza, and al-Kisāʾī read with a doubled shīn for emphasis, numerous sheets, or intense dispersal.\",\"anchor\":\"وقرأ ابن كثير وأبو عمرو وحمزة والكسائي بالتشديد للمبالغة في النشر أو لكثرة الصحف أو شدة التطاير\",\"mentions\":[]},{\"verses\":[\"81:11\"],\"words\":[\"وَإِذَا ٱلسَّمَاءُ كُشِطَتْ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The sky is stripped away, like a hide peeled from a sacrificial animal.\",\"anchor\":\"قلعت وأزيلت كما يكشط الإهاب عن الذبيحة\",\"mentions\":[]},{\"verses\":[\"81:11\"],\"words\":[\"كُشِطَتْ\"],\"type\":\"readings\",\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"A reading has qāf instead of kāf; the interchange of qāf and kāf is common.\",\"anchor\":\"وقرىء قشطت واعتقاب القاف والكاف كثير\",\"mentions\":[]},{\"verses\":[\"81:12\"],\"words\":[\"وَإِذَا ٱلْجَحِيمُ سُعِّرَتْ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The Fire is kindled intensely.\",\"anchor\":\"أوقدت إيقادا شديدا\",\"mentions\":[]},{\"verses\":[\"81:12\"],\"words\":[\"سُعِّرَتْ\"],\"type\":\"readings\",\"speaker\":\"نافع وابن عامر وحفص ورويس\",\"stance\":\"reports\",\"claim\":\"Nāfiʿ, Ibn ʿĀmir, Ḥafṣ, and Ruways read the verb with a doubled ʿayn.\",\"anchor\":\"وقرأ نافع وابن عامر وحفص ورويس بالتشديد\",\"mentions\":[]},{\"verses\":[\"81:13\"],\"words\":[\"وَإِذَا ٱلْجَنَّةُ أُزْلِفَتْ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The Garden is brought near to the believers.\",\"anchor\":\"قربت من المؤمنين\",\"mentions\":[]},{\"verses\":[\"81:14\"],\"words\":[\"عَلِمَتْ نَفْسٌۭ مَّآ أَحْضَرَتْ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"This is the response to the repeated 'when'; the extended time includes twelve events, six around the world's end and six afterward, through the requital of souls.\",\"anchor\":\"جواب إذا وإنما صح والمذكور في سياقها اثنتا عشرة خصلة ست منها في مبادىء قيام الساعة قبل فناء الدنيا وست بعده\",\"mentions\":[]},{\"verses\":[\"81:14\"],\"words\":[\"نَفْسٌۭ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Nafs is generic in meaning, as in the saying that a date is better than a locust.\",\"anchor\":\"ونفس في معنى العموم كقولهم تمرة خير من جرادة\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "f135616cc4cf44b4829d06c3f4e185c4e881c42f5ae0b6443c59095b8914a6e7",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-51-54-01a1204a-5907-7862-ba2c-2cbfbda6c7a5.jsonl",
+  "usd_equivalent": 0.098125,
+  "requests": 25,
+  "max_request_input_tokens": 151125,
+  "over_context_cap": true
+}

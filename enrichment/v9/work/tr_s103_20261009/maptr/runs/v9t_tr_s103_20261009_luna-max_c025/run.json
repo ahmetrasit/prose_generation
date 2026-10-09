@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s103_20261009_luna-max_c025",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:21:43",
+  "ended": "2026-10-09T08:27:22",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1209c-b7f1-7690-972d-0fbc4ae2088a",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 750992,
+    "cached_input_tokens": 672768,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33516,
+    "reasoning_output_tokens": 11427
+  },
+  "stderr": "2026-10-09T12:26:15.802099Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s103_20261009/maptr/out/luna-max/c025.jsonl:\n    {\"id\":\"2:266/q30/p7\",\"position\":\"Nebevi bir öğüt; namazı, imanı, orucu, cihadı, sadakayı, Âyetü'l-Kürsî'yi, peygamberleri ve kitapları, ayrıca pratik takvayı ele alır.\",\"reasons\":\"İbn Hibbân, Peygamber'in mescidi selamlama namazını ve çok ya da az namaz kılmayı övdüğünü bildirir; iman, güzel ahlâk, zarar vermekten uzak durma, uzun namaz ve günahlardan sakınma; farz oruç ve onun sevabı; meşakkatli cihad; yoksulun zahmetli bağışını da anar. Rivayet, Âyetü'l-Kürsî'yi en büyük vahiy olarak niteler; gökleri ve Arş'ı bir yüzükle çöle benzetir; peygamberlerin, elçilerin ve indirilen kitapların sayısını verir; İbrahim'in ve Musa'nın sahifelerine nispet edilen adalet, tefekkür ve hesap öğretilerini aktarır. Ayrıca takvayı, Kur'an'ı, zikri, ölçülü konuşmayı, yoksullarla beraber olmayı, şükrü, doğruluğu, plan yapmayı ve kişinin kendini hesaba çekmesini öğütler.\"}\n",
+  "prompt_sha256": "b55880550d1400d8c9b399e1ddee94e7d25086133128b60621fa9e664b2f4444",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-21-44-01a1209c-b7f1-7690-972d-0fbc4ae2088a.jsonl",
+  "usd_equivalent": 0.031308,
+  "requests": 16,
+  "max_request_input_tokens": 77845,
+  "over_context_cap": false
+}

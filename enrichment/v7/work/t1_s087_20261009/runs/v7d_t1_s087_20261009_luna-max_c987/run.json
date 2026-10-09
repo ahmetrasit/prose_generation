@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c987",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T09:06:09",
+  "ended": "2026-10-09T09:15:52",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120c5-644e-71c1-80a9-2cb989a2ddc8",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 555707,
+    "cached_input_tokens": 474368,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 51184,
+    "reasoning_output_tokens": 24483
+  },
+  "stderr": "2026-10-09T13:06:14.604678Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T13:06:39.697920Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T13:07:09.697965Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T13:13:39.760103Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c987.jsonl:\n+{\"loc\":\"WAHIDI-ASBAB:v1p27\",\"rows\":[{\"verses\":[\"2:80\"],\"words\":[\"لن تمسنا النار إلا أياما معدودة\"],\"type\":\"reports\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"Ibn Abbas says the People of the Book thought Hell extended forty years and that their punishment would last only the days named in the Torah; after those days, eternal punishment remained.\",\"anchor\":\"عن ابن عباس: في قوله: وقالوا لن تمسنا النار إلا أياما معدودة قال وجد أهل الكتاب ما بين طرفي جهنم\",\"mentions\":[]},{\"verses\":[\"2:75\"],\"words\":[\"أفتطمعون أن يؤمنوا لكم\"],\"type\":\"reports\",\"speaker\":\"ابن عباس ومقاتل\",\"stance\":\"reports\",\"claim\":\"Ibn Abbas and Muqatil say the verse concerns some of the seventy men Moses chose: after hearing God, they misrepresented His words to their people as making obedience optional.\",\"anchor\":\"قال ابن عباس ومقاتل: نزلت في السبعين الذين اختارهم موسى ليذهبوا معه إلى الله تعالى\",\"mentions\":[]},{\"verses\":[\"2:75\"],\"words\":[\"أفتطمعون أن يؤمنوا لكم\"],\"type\":\"reports\",\"speaker\":\"أكثر المفسرين\",\"stance\":\"reports\",\"claim\":\"Most commentators instead say the verse concerns those who altered the stoning verse and Muhammad’s description.\",\"anchor\":\"وعند أكثر المفسرين: نزلت الآية في الذين غيروا آية الرجم وصفة محمد\",\"mentions\":[]},{\"verses\":[\"2:89\"],\"words\":[\"وكانوا من قبل يستفتحون على الذين كفروا\"],\"type\":\"reports\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"Ibn Abbas says the Jews of Khaybar invoked the promised unlettered Prophet when fighting Ghatafan and won; after Muhammad’s mission they disbelieved in him, so the verse was revealed.\",\"anchor\":\"قال ابن عباس كانت يهود خيبر تقاتل غطفان، فكلما التقوا هزمت يهود خيبر\",\"mentions\":[]},{\"verses\":[\"2:89\"],\"words\":[\"وكانوا من قبل يستفتحون على الذين كفروا\"],\"type\":\"reports\",\"speaker\":\"السدي\",\"stance\":\"reports\",\"claim\":\"Al-Suddi says Arabs had harmed the Jews, who found Muhammad’s description in the Torah and asked God to send him to fight the Arabs; they then rejected him out of envy and claimed prophets should be Israelites.\",\"anchor\":\"وقال السدي: كانت العرب تمر بيهود فيلقون منهم أذى، وكانت اليهود تجد نعت محمد في التوراة\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "17ab90d2c98bc0fc0de3270993b158aa508feb2a6fab78f5fc26165eb40a8205",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T09-06-09-01a120c5-644e-71c1-80a9-2cb989a2ddc8.jsonl",
+  "usd_equivalent": 0.03847,
+  "requests": 11,
+  "max_request_input_tokens": 74129,
+  "over_context_cap": false
+}

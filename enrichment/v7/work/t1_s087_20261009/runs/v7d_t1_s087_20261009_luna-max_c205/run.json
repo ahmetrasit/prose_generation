@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c205",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:15:53",
+  "ended": "2026-10-09T06:20:46",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12029-84f2-7d50-8b81-88c32ced9e0e",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 369574,
+    "cached_input_tokens": 320000,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33184,
+    "reasoning_output_tokens": 21588
+  },
+  "stderr": "2026-10-09T10:18:35.132676Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 8, 'ﺆۡﻣ\u0004ﻨ' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n",
+  "prompt_sha256": "0d74c253ec5b19d510717e9183de8621df4e678679855c871a5eff0e2a1e4f24",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-15-54-01a12029-84f2-7d50-8b81-88c32ced9e0e.jsonl",
+  "usd_equivalent": 0.024749,
+  "requests": 10,
+  "max_request_input_tokens": 51984,
+  "over_context_cap": false
+}

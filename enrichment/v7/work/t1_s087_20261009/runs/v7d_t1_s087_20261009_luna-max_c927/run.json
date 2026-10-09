@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c927",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:54:19",
+  "ended": "2026-10-09T09:01:09",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120ba-8f0b-7553-b3f5-f9268c0f9935",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 475606,
+    "cached_input_tokens": 414976,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 44262,
+    "reasoning_output_tokens": 25230
+  },
+  "stderr": "2026-10-09T12:54:24.650572Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:54:49.741022Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:59:11.939352Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c927.jsonl:\n{\"loc\":\"ELMALILI:50:1-5\",\"rows\":[{\"verses\":[\"50:1\"],\"words\":[\"قٓ\"],\"type\":\"rhetoric\",\"speaker\":\"Fahreddin Râzî\",\"stance\":\"reports\",\"claim\":\"Razi explains the disconnected letters at sura openings as alerts that awaken listeners’ attention so they will hear the Quran being recited.\",\"anchor\":\"Fahreddin Râzî burada evvelâ şu ihtarâtta bulunmuştur: “Yukarılarda anlatmış idik ki böyle sûrelerin evvelindeki harfler, okunacak Kur’ân’ı iyi dinletmek için sâmi‘in dikkatini uyandırmak üzere tenbîhâttır.\",\"mentions\":[]}\n",
+  "prompt_sha256": "1e1b7432fc8c44703856ad816f0f6c28c01fd5021a7a661edafc7af785d9c25e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-54-19-01a120ba-8f0b-7553-b3f5-f9268c0f9935.jsonl",
+  "usd_equivalent": 0.032344,
+  "requests": 11,
+  "max_request_input_tokens": 63270,
+  "over_context_cap": false
+}

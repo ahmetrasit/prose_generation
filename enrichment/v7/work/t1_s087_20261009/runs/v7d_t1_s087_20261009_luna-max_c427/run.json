@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c427",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:14:18",
+  "ended": "2026-10-09T07:24:19",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1205e-fea9-7391-b9ba-cad0e2d6d5aa",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 742506,
+    "cached_input_tokens": 641024,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 72078,
+    "reasoning_output_tokens": 27157
+  },
+  "stderr": "2026-10-09T11:19:37.987689Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c427.jsonl:\n{\"loc\":\"DURR-FULL:v7p17\",\"rows\":[\n{\"verses\":[\"35:18\"],\"words\":[\"وَلَا تَزِرُ وَازِرَةٌۭ وِزْرَ أُخْرَىٰ\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The verse's rule is echoed by the day when a parent cannot avail a child and when a person flees close kin.\",\"anchor\":\"ويقول الله (يوم لا يجزي والد عن ولده) (لقمان 133)\",\"mentions\":[\"31:33\",\"80:34\"]},\n{\"verses\":[\"35:18\"],\"words\":[\"وَإِن تَدْعُ مُثْقَلَةٌۭ إِلَىٰ حِمْلِهَا\"],\"type\":\"interpretation\",\"speaker\":\"قتادة\",\"stance\":\"reports\",\"claim\":\"The burden that the weighed-down person calls others to help carry means her sins; no close relative bears any of them.\",\"anchor\":\"قتادة في قوله {وإن تدع مثقلة إلى حملها} أي إلى ذنوبها لا يحمل منه شيء\",\"mentions\":[]},\n{\"verses\":[\"35:18\"],\"words\":[\"إِنَّمَا تُنذِرُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ\"],\"type\":\"interpretation\",\"speaker\":\"قتادة\",\"stance\":\"reports\",\"claim\":\"Fearing their Lord unseen means fearing the Fire and the reckoning.\",\"anchor\":\"عن قتادة في قوله {إنما تنذر الذين يخشون ربهم بالغيب} أي يخشون النار والحساب\",\"mentions\":[]},\n2026-10-09T11:21:42.019105Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c427.jsonl\n2026-10-09T11:23:24.723181Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "fa2d863098ad151fa2c94a3fde46e11c61464d7a1231d2e98a8b637b1b4bcfd2",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-14-18-01a1205e-fea9-7391-b9ba-cad0e2d6d5aa.jsonl",
+  "usd_equivalent": 0.052597,
+  "requests": 12,
+  "max_request_input_tokens": 93470,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c919",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:52:48",
+  "ended": "2026-10-09T09:01:37",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120b9-2dc6-7a62-a719-3bc7bdde1363",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 471212,
+    "cached_input_tokens": 401664,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 44647,
+    "reasoning_output_tokens": 20449
+  },
+  "stderr": "2026-10-09T12:52:54.212274Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:53:19.303087Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:53:49.304105Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:58:42.381981Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c919.jsonl:\n{\"loc\":\"ELMALILI:25:1-3\",\"rows\":[{\"verses\":[\"25:1\"],\"words\":[\"تَبَارَكَ\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Because Turkish lacks a native equivalent for baraka and no Turkish verb carries tebârek’s reflexive, emphatic force, he preserves the Arabic and glosses it as “ne yüce Feyyâz O.”\",\"anchor\":\"Bundan dolayı biz de mealde تَبَارَكَ fiilini aynen muhafaza ile beraber “ne yüce Feyyâz O” tâbiriyle bir tefsir ifade etmek istedik.\",\"mentions\":[]},{\"verses\":[\"25:1\"],\"words\":[\"تَبَارَكَ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Tebâreke is a past verb on the tefaʿul pattern like teâlâ; it is not conjugated into other forms and is attributed only to God.\",\"anchor\":\"تَبَارَكَ “Teâlâ” gibi tefâ‘ul bâbından fi‘l-i mâzîdir. Tasrif olunmaz, yani diğer sîgaları çekilmez ve Allah’tan başkasına isnâd edilmez.\",\"mentions\":[]}\n",
+  "prompt_sha256": "7392aa4f9c59a0de5e8d4583ea09a966646b525dfdf73d456e7626eca472481a",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-52-49-01a120b9-2dc6-7a62-a719-3bc7bdde1363.jsonl",
+  "usd_equivalent": 0.033295,
+  "requests": 11,
+  "max_request_input_tokens": 64713,
+  "over_context_cap": false
+}

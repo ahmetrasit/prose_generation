@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c928",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:54:20",
+  "ended": "2026-10-09T09:03:53",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120ba-91fa-72d3-b52d-b97cfc47129c",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 748357,
+    "cached_input_tokens": 661248,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 65216,
+    "reasoning_output_tokens": 35614
+  },
+  "stderr": "2026-10-09T12:54:25.401249Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:54:50.494074Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:59:35.493951Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c928.jsonl:\n{\"verses\":[\"50:6\"],\"words\":[\"ٱلسَّمَآءِ فَوْقَهُمْ\"],\"type\":\"referent\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The sky here is the visible upper structure of the worldly heavens, seen with its celestial bodies and dimensions; even its sensible appearance reveals its Maker’s knowledge and power before deeper inference.\",\"anchor\":\"semâ ufkumuzun üstünde görebildiğimiz ecrâm ve eb‘âdı ile bir sûret-i mahsûsada nazarımıza irtisam eden\",\"mentions\":[]}\n2026-10-09T13:00:18.422626Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c928.jsonl:\n{\"verses\":[\"50:6\"],\"words\":[\"ٱلسَّمَآءِ فَوْقَهُمْ\"],\"type\":\"referent\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The sky here is the visible upper structure of the worldly heavens, seen with its celestial bodies and dimensions; even its sensible appearance reveals its Maker’s knowledge and power before deeper inference.\",\"anchor\":\"semâ ufkumuzun üstünde görebildiğimiz ecrâm ve eb‘âdı ile bir sûret-i mahsûsada nazarımıza irtisam eden\",\"mentions\":[]}\n2026-10-09T13:03:30.823923Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "2d8307bec997b2b190d64829fb793e2f9ca60386dcb66fe2c85e8da61e12a7d1",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-54-20-01a120ba-91fa-72d3-b52d-b97cfc47129c.jsonl",
+  "usd_equivalent": 0.047931,
+  "requests": 13,
+  "max_request_input_tokens": 88270,
+  "over_context_cap": false
+}

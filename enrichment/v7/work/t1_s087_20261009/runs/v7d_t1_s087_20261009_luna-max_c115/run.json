@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c115",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:00:54",
+  "ended": "2026-10-09T06:23:59",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1201b-d9b7-7cb3-bb9f-9bdf646dab90",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 5814014,
+    "cached_input_tokens": 5575424,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 177500,
+    "reasoning_output_tokens": 52825
+  },
+  "stderr": ",\"claim\":\"The Shaykh takes the clause as circumstantial only of sun and moon, since night and day are not described as running in an orbit; al-Zamakhshari had already used the same example.\",\"anchor\":\"قال الشيخ: \\\" أو محلها النصب على الحال من الشمس والقمر؛ لأن الليل والنهار لا يتصفان بأنهما يجريان في فلك\",\"mentions\":[]}]}\n2026-10-09T10:17:30.390944Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c115.jsonl:\n{\"loc\":\"SAMIN-DURR:20:114\",\"rows\":[{\"verses\":[\"20:114\"],\"words\":[\"يُقْضَىٰٓ إِلَيْكَ وَحْيُهُۥ\"],\"type\":\"readings\",\"speaker\":\"العامة\",\"stance\":\"reports\",\"claim\":\"The general reading has يُقضى in the passive, with وحيه nominative as the deputy subject.\",\"anchor\":\"والعامة على بناء \\\" يقضى \\\" للمفعول ورفع \\\" وحيه \\\" لقيامه مقام الفاعل.\",\"mentions\":[]},{\"verses\":[\"20:114\"],\"words\":[\"يُقْضَىٰٓ إِلَيْكَ وَحْيُهُۥ\"],\"type\":\"readings\",\"speaker\":\"الجحدري وأبو حيوة والحسن وعبد الله\",\"stance\":\"reports\",\"claim\":\"Al-Jahdari, Abu Haywa, al-Hasan, and the reading of Abd Allah have نقضي in the active first-person plural, with وحيه as its object.\",\"anchor\":\"والجحدري وأبو حيوة والحسن وهي قراءة عبد الله \\\" نقضي \\\" بنون العظمة مبنيا للفاعل،\",\"mentions\":[]},{\"verses\":[\"20:114\"],\"words\":[\"يُقْضَىٰٓ إِلَيْكَ وَحْيُهُۥ\"],\"type\":\"readings\",\"speaker\":\"الأعمش\",\"stance\":\"reports\",\"claim\":\"Al-A mash shares the active reading but makes the final radical vowelless, avoiding a movement judged heavy on a weak letter.\",\"anchor\":\"وقرأ الأعمش كذلك، إلا أنه سكن لام الفعل. استثقل الحركة وإن كانت خفيفة\",\"mentions\":[\"5:89\"]}]}\n2026-10-09T10:18:00.352117Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c115.jsonl:\n{\"loc\":\"SAMIN-DURR:20:114\",\"rows\":[{\"verses\":[\"20:114\"],\"words\":[\"يُقْضَىٰٓ إِلَيْكَ وَحْيُهُۥ\"],\"type\":\"readings\",\"speaker\":\"العامة\",\"stance\":\"reports\",\"claim\":\"The general reading has يُقضى in the passive, with وحيه nominative as the deputy subject.\",\"anchor\":\"والعامة على بناء \\\" يقضى \\\" للمفعول ورفع \\\" وحيه \\\" لقيامه مقام الفاعل.\",\"mentions\":[]},{\"verses\":[\"20:114\"],\"words\":[\"يُقْضَىٰٓ إِلَيْكَ وَحْيُهُۥ\"],\"type\":\"readings\",\"speaker\":\"الجحدري وأبو حيوة والحسن وعبد الله\",\"stance\":\"reports\",\"claim\":\"Al-Jahdari, Abu Haywa, al-Hasan, and the reading of Abd Allah have نقضي in the active first-person plural, with وحيه as its object.\",\"anchor\":\"والجحدري وأبو حيوة والحسن وهي قراءة عبد الله \\\" نقضي \\\" بنون العظمة مبنيا للفاعل،\",\"mentions\":[]},{\"verses\":[\"20:114\"],\"words\":[\"يُقْضَىٰٓ إِلَيْكَ وَحْيُهُۥ\"],\"type\":\"readings\",\"speaker\":\"الأعمش\",\"stance\":\"reports\",\"claim\":\"Al-A mash shares the active reading but makes the final radical vowelless, avoiding a movement judged heavy on a weak letter.\",\"anchor\":\"وقرأ الأعمش كذلك، إلا أنه سكن لام الفعل. استثقل الحركة وإن كانت خفيفة\",\"mentions\":[\"5:89\"]}]}\n",
+  "prompt_sha256": "862412aefeb320496231dbfe7985ebbb008b24432e29d9fbba31f8e42d7f19f1",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-01-02-01a1201b-d9b7-7cb3-bb9f-9bdf646dab90.jsonl",
+  "usd_equivalent": 0.168363,
+  "requests": 41,
+  "max_request_input_tokens": 209928,
+  "over_context_cap": true
+}

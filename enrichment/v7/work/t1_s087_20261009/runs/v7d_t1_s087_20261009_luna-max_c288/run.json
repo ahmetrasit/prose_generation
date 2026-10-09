@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c288",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:28:06",
+  "ended": "2026-10-09T06:35:38",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12034-b321-7882-821f-cae0c8c52c75",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 416081,
+    "cached_input_tokens": 345856,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 56421,
+    "reasoning_output_tokens": 20948
+  },
+  "stderr": "2026-10-09T10:33:01.516377Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c288.jsonl:\n{\"loc\":\"ABUHAYYAN-FULL:v10p171\",\"rows\":[{\"verses\":[\"62:1-11\"],\"words\":[\"*\"],\"type\":\"sciences\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The sūra is Medinan; calling it Meccan is an error because its discussion of Jews and Friday dispersal belongs to Medina.\",\"anchor\":\"هذه السورة مدنية. وقيل: مكية، وهو خطأ، لأن أمر اليهود وانفضاض الناس في الجمعة لم يكن إلا بالمدينة\",\"mentions\":[]},{\"verses\":[\"62:1-11\"],\"words\":[\"*\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"After mentioning the support given to believers against enemies, the sūra follows with divine glorification and sovereignty, then the blessing of Muhammad’s mission and the community’s spread, like the disciples’ mission in their time.\",\"anchor\":\"ومناسبتها لما قبلها: أنه تعالى لما ذكر تأييد من آمن على أعدائهم، أتبعه بذكر التنزيه لله تعالى وسعة ملكه\",\"mentions\":[]},{\"verses\":[\"62:1\"],\"words\":[\"ٱلْمَلِكُ\"],\"type\":\"readings\",\"speaker\":\"الجمهور\",\"stance\":\"reports\",\"claim\":\"The majority read al-Malik and the following attributes in the genitive.\",\"anchor\":\"وقرأ الجمهور الملك بجره وجر ما بعده\",\"mentions\":[]},{\"verses\":[\"62:1\"],\"words\":[\"ٱلْمَلِكُ\"],\"type\":\"readings\",\"speaker\":\"أبو وائل ومسلمة بن محارب ورؤبة وأبو الدينار الأعرابي ويعقوب\",\"stance\":\"reports\",\"claim\":\"These readers use the nominative, supplying an omitted huwa; the long separation between noun and adjective makes this reading apt.\",\"anchor\":\"وأبو وائل ومسلمة بن محارب ورؤبة وأبو الدينار الأعرابي بالرفع على إضمار هو، وحسنه الفصل الذي فيه طول بين الموصوف والصفة، وكذلك جاء عن يعقوب\",\"mentions\":[]}\n",
+  "prompt_sha256": "5742a00fd8fa1713976bb1a47fe559ee1fd2697dc0c77ccfdb0fe16be584b1dd",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-28-07-01a12034-b321-7882-821f-cae0c8c52c75.jsonl",
+  "usd_equivalent": 0.038692,
+  "requests": 9,
+  "max_request_input_tokens": 76970,
+  "over_context_cap": false
+}

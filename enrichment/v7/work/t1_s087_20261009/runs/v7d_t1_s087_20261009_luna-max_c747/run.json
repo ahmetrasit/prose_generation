@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c747",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:15:06",
+  "ended": "2026-10-09T08:22:26",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12096-aa22-7fb0-86df-911dd60f49da",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 448091,
+    "cached_input_tokens": 384256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 36838,
+    "reasoning_output_tokens": 21180
+  },
+  "stderr": "2026-10-09T12:15:12.284807Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:15:37.399828Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:16:07.399728Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:20:47.720669Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c747.jsonl:\n{\"verses\":[\"2:185\"],\"words\":[\"فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"rejects\",\"claim\":\"Al-Tabari rejects defining witnessing as legal competence: if insanity excuses a whole month, the same logic would excuse other total loss of reason, yet consensus requires make-up after unconsciousness or brain fever.\",\"anchor\":\"وقد أجمع الجميع على أن من فقد عقله جميع شهر الصوم بإغماء أو برسام، ثم أفاق بعد انقضاء الشهر أن عليه قضاء الشهر كله\",\"mentions\":[]}\n2026-10-09T12:21:25.534157Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c747.jsonl:\n{\"verses\":[\"2:185\"],\"words\":[\"فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"rejects\",\"claim\":\"Al-Tabari rejects defining witnessing as legal competence: if insanity excuses a whole month, the same logic would excuse other total loss of reason, yet consensus requires make-up after unconsciousness or brain fever.\",\"anchor\":\"وقد أجمع الجميع على أن من فقد عقله جميع شهر الصوم بإغماء أو برسام، ثم أفاق بعد انقضاء الشهر أن عليه قضاء الشهر كله\",\"mentions\":[]}\n",
+  "prompt_sha256": "1be7fd331b8feb7e637694b681ccc723535b3f7a48dad80785b57707253f95ee",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-15-07-01a12096-aa22-7fb0-86df-911dd60f49da.jsonl",
+  "usd_equivalent": 0.028645,
+  "requests": 11,
+  "max_request_input_tokens": 57375,
+  "over_context_cap": false
+}

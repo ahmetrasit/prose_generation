@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c39",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:05:47",
+  "ended": "2026-10-09T07:15:42",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12057-321f-7e80-bf02-5eb02ac0506f",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 969319,
+    "cached_input_tokens": 862720,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 76036,
+    "reasoning_output_tokens": 28519
+  },
+  "stderr": "2026-10-09T11:10:23.332311Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:11:47.023244Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c39.jsonl:\n{\"loc\":\"BURSEVI:v2p169\",\"rows\":[{\"verses\":[\"4:43\"],\"words\":[\"الصَّلَوٰةَ\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Nearness is conditioned on prostration, as the command to prostrate and draw near states.\",\"anchor\":\"لأن القربة مشروطة بشرط السجود كما خوطب به واسجد واقترب\",\"mentions\":[\"96:19\"]},{\"verses\":[\"4:43\"],\"words\":[\"الصَّلَوٰةَ\"],\"type\":\"inward\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Prostration means descending from the mount of one's existent attributes, carried by divine generosity to the threshold of divine being and a vision of beauty and majesty; this is the secret of sitting for tashahhud after prostration.\",\"anchor\":\"والسجود أن تنزل من مركب أوصاف وجودك لتحمل على رفرف جوده إلى قاب قوسين أوصاف وجوده\",\"mentions\":[]}\n",
+  "prompt_sha256": "de82f160eb53ba6fbbd69256472ff3e4689510b9c9f900cacb891f589543504d",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-05-47-01a12057-321f-7e80-bf02-5eb02ac0506f.jsonl",
+  "usd_equivalent": 0.057305,
+  "requests": 14,
+  "max_request_input_tokens": 108778,
+  "over_context_cap": false
+}

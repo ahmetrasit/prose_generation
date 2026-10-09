@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c408",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:11:24",
+  "ended": "2026-10-09T07:20:55",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1205c-55b0-7f53-b8f7-4aba2f9add16",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1040913,
+    "cached_input_tokens": 954880,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 64626,
+    "reasoning_output_tokens": 28240
+  },
+  "stderr": "2026-10-09T11:11:29.580660Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:11:54.681965Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:16:15.492759Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c408.jsonl:\n{\"verses\":[\"74:19\"],\"words\":[\"كَيْفَ قَدَّرَ\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The question expresses amazement at how he made this estimate; because it is invalid, even its manner deserves rejection.\",\"anchor\":\"عبر بأداة الاستفهام إشارة إلى أنه مما يتعجب منه ويسأل عنه\",\"mentions\":[]}\n2026-10-09T11:16:45.219081Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: The first line of the patch must be '*** Begin Patch'\n2026-10-09T11:20:35.066671Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "3a445e7754ca858de6e7eca558ac96d6b83084d94cc7c1bc829a384dd49b793a",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-11-24-01a1205c-55b0-7f53-b8f7-4aba2f9add16.jsonl",
+  "usd_equivalent": 0.050465,
+  "requests": 18,
+  "max_request_input_tokens": 85377,
+  "over_context_cap": false
+}

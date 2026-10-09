@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c765",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:16:57",
+  "ended": "2026-10-09T08:34:38",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12098-5a7e-78a0-b567-71a3e10dc4e4",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 3505957,
+    "cached_input_tokens": 3331840,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 128694,
+    "reasoning_output_tokens": 44664
+  },
+  "stderr": "12:24:10.256708Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c765.jsonl:\n{\"loc\":\"TAB-FULL:v16p43\",\"rows\":[{\"verses\":[\"20:18\"],\"words\":[\"أَتَوَكَّؤُا۟ عَلَيْهَا\",\"وَأَهُشُّ بِهَا عَلَىٰ غَنَمِى\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Moses leans on the staff and shakes dry trees so their leaves fall for his sheep to graze.\",\"anchor\":\"أضرب بها الشجر اليابس فيسقط ورقها وترعاه غنمي\"},{\"verses\":[\"20:18\"],\"words\":[\"وَأَهُشُّ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Hashsha means to shake or strike branches until their leaves fall; a rajaz verse uses the word of shaking a staff over sheep.\",\"anchor\":\"يقال منه: هش فلان الشجر يهش هشا إذا اختبط ورق أغصانها فسقط ورقها، كما قال الراجز\"},{\"verses\":[\"20:18\"],\"words\":[\"وَأَهُشُّ بِهَا عَلَىٰ غَنَمِى\"],\"type\":\"reports\",\"speaker\":\"قتادة\",\"stance\":\"reports\",\"claim\":\"Qatāda glosses the action as knocking or shaking the tree.\",\"anchor\":\"عن قتادة، في قوله: {وأهش بها على غنمي} [طه: 18] قال: أخبط بها الشجر\",\"mentions\":[]},{\"verses\":[\"20:18\"],\"words\":[\"وَأَهُشُّ بِهَا عَلَىٰ غَنَمِى\"],\"type\":\"reports\",\"speaker\":\"قتادة\",\"stance\":\"reports\",\"claim\":\"Qatāda also says Moses would shake leaves from trees for his flock.\",\"anchor\":\"عن قتادة {وأهش بها على غنمي} [طه: 18] قال: كان نبي الله موسى صلى الله عليه وسلم يهش على غنمه ورق الشجر\",\"mentions\":[]},{\"verses\":[\"20:18\"],\"words\":[\"وَأَهُشُّ بِهَا عَلَىٰ غَنَمِى\"],\"type\":\"reports\",\"speaker\":\"السدي\",\"stance\":\"reports\",\"claim\":\"Al-Suddī says Moses struck the tree for the sheep so its leaves fell.\",\"anchor\":\"عن السدي، {وأهش بها على غنمي} [طه: 18] يقول: أضرب بها الشجر للغنم، فيقع الورق\",\"mentions\":[]},{\"verses\":[\"20:18\"],\"words\":[\"وَأَهُشُّ بِهَا عَلَىٰ غَنَمِى\"],\"type\":\"reports\",\"speaker\":\"ابن زيد\",\"stance\":\"reports\",\"claim\":\"Ibn Zayd says Moses leaned on the staff while walking with the sheep and shook branches, including the habala tree, to drop leaves.\",\"anchor\":\"قال ابن زيد، في قوله: {هي عصاي أتوكأ عليها وأهش بها على غنمي} [طه: 18] قال: يتوكأ عليها حين يمشي مع الغنم، ويهش بها، يحرك الشجر حتى يسقط الورق الحبلة وغيرها\",\"mentions\":[]},{\"verses\":[\"20:18\"],\"words\":[\"وَأَهُشُّ بِهَا عَلَىٰ غَنَمِى\"],\"type\":\"reports\",\"speaker\":\"عكرمة\",\"stance\":\"reports\",\"claim\":\"ʿIkrima says Moses struck trees so leaves fell onto him or his sheep.\",\"anchor\":\"عن عكرمة، {وأهش بها على غنمي} [طه: 18] قال: أضرب بها الشجر، فيسقط من ورقها علي\",\"mentions\":[]},{\"verses\":[\"20:18\"],\"words\":[\"وَأَهُشُّ بِهَا عَلَىٰ غَنَمِى\"],\"type\":\"reports\",\"speaker\":\"الضحاك\",\"stance\":\"reports\",\"claim\":\"Al-Ḍaḥḥāk says Moses struck the tree until some of its leaves fell for his sheep to eat.\",\"anchor\":\"الضحاك، يقول في قوله {وأهش بها على غنمي} [طه: 18] يقول: أضرب بها الشجر حتى يسقط منه ما تأكل غنمي\",\"mentions\":[]}]} \n2026-10-09T12:30:38.787687Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "c5d3ca67dbbae66a8325bc71721c3a8fcb86f94b92c1294506c9785300f047fe",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-16-58-01a12098-5a7e-78a0-b567-71a3e10dc4e4.jsonl",
+  "usd_equivalent": 0.115077,
+  "requests": 33,
+  "max_request_input_tokens": 156628,
+  "over_context_cap": true
+}

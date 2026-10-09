@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c244",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:19:44",
+  "ended": "2026-10-09T06:26:38",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1202d-07af-75f3-86d5-043ff84f45fe",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 529818,
+    "cached_input_tokens": 462080,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 49598,
+    "reasoning_output_tokens": 22545
+  },
+  "stderr": "2026-10-09T10:24:13.932251Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c244.jsonl:\n {\"verses\":[\"2:30\"],\"words\":[\"إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ\"],\"type\":\"reports\",\"speaker\":\"علي بن الحسين\",\"stance\":\"reports\",\"claim\":\"The angels take God's answer as a rebuke, flee to the Throne, bow their heads, plead and weep, and circle it for three hours.\",\"anchor\":\"قال أبي إن ما قالوا ردا على ربهم عز وجل وأنه قد غضب من قولهم فلاذوا بالعرش\",\"mentions\":[]}\n2026-10-09T10:24:37.561797Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c244.jsonl:\n{\"verses\":[\"2:30\"],\"words\":[\"إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ\"],\"type\":\"reports\",\"speaker\":\"علي بن الحسين\",\"stance\":\"reports\",\"claim\":\"The angels take God's answer as a rebuke, flee to the Throne, bow their heads, plead and weep, and circle it for three hours.\",\"anchor\":\"قال أبي إن ما قالوا ردا على ربهم عز وجل وأنه قد غضب من قولهم فلاذوا بالعرش\",\"mentions\":[]}\n",
+  "prompt_sha256": "3cb34a657703515487fd08c039345050676d36f10f1dc69b8a02925e055eb92a",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-19-44-01a1202d-07af-75f3-86d5-043ff84f45fe.jsonl",
+  "usd_equivalent": 0.036194,
+  "requests": 11,
+  "max_request_input_tokens": 70735,
+  "over_context_cap": false
+}

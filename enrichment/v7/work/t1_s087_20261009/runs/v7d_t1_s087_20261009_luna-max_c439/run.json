@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c439",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:18:16",
+  "ended": "2026-10-09T07:28:51",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12062-9f75-7352-857f-e26b48e7963f",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 1329408,
+    "cached_input_tokens": 1222144,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 77281,
+    "reasoning_output_tokens": 38489
+  },
+  "stderr": "2026-10-09T11:22:52.161180Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:23:13.737655Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c439.jsonl:\n{\"verses\":[\"7:164\"],\"words\":[\"لِمَ تَعِظُونَ قَوْمًا\"],\"type\":\"reports\",\"speaker\":\"ابن عباس\",\"stance\":\"reports\",\"claim\":\"Ibn Abbas describes three factions: the fish offenders, people who warned them, and a group that withdrew and remained silent.\",\"anchor\":\"عن ابن عباس قال قعدت الطائفة بانفسها ونسائها وابناءها واعتزلت طائفة ذات اليمين ونهت واعتزلت طائفة ذات الشمال وسكتت\"}\n",
+  "prompt_sha256": "32c4a4a1085aa5a9e90b230011721c6bbe78099b73016253061051e2d949c81e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-18-16-01a12062-9f75-7352-857f-e26b48e7963f.jsonl",
+  "usd_equivalent": 0.061588,
+  "requests": 18,
+  "max_request_input_tokens": 110956,
+  "over_context_cap": false
+}

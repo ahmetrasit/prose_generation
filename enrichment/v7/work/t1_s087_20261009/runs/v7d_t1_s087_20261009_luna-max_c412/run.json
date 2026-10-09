@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c412",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:11:43",
+  "ended": "2026-10-09T07:21:35",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1205c-a500-7af1-a667-b43ec3f600bb",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 787491,
+    "cached_input_tokens": 692992,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 65455,
+    "reasoning_output_tokens": 43094
+  },
+  "stderr": "2026-10-09T11:17:59.802136Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c412.jsonl:\n{\"loc\":\"DURR-FULL:v1p89\",\"rows\":[\n2026-10-09T11:20:52.480560Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "0ff6328e13e1a19f3f46edf97681bcde4cd782ce3cfeda0e4deea642933a5dd0",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-11-45-01a1205c-a500-7af1-a667-b43ec3f600bb.jsonl",
+  "usd_equivalent": 0.049107,
+  "requests": 13,
+  "max_request_input_tokens": 88527,
+  "over_context_cap": false
+}

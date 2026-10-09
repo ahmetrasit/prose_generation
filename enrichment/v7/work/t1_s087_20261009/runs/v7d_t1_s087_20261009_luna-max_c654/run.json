@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c654",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:55:18",
+  "ended": "2026-10-09T08:18:29",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12084-88d9-7292-9353-8efed4693078",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 1980825,
+    "cached_input_tokens": 1838592,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 99394,
+    "reasoning_output_tokens": 45377
+  },
+  "stderr": "2026-10-09T11:55:24.120090Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:55:49.218618Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:56:19.221039Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:03:24.725599Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c654.jsonl:\n{\"verses\":[\"25:1\"],\"words\":[\"تبارك\"],\"type\":\"meaning\",\"speaker\":\"الفراء\",\"stance\":\"reports\",\"claim\":\"Al-Farrāʾ says tabāraka means taqaddasa; both words express grandeur.\",\"anchor\":\"قال الفراء هو في العربية وتقدس واحد وهما للعظمة\"}\n2026-10-09T12:09:01.327155Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:13:36.330438Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "18805d3e867aa4cfdb8451af3485e3f1ba27091e4f17456e6ae08c311b81af18",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-55-19-01a12084-88d9-7292-9353-8efed4693078.jsonl",
+  "usd_equivalent": 0.082306,
+  "requests": 22,
+  "max_request_input_tokens": 129411,
+  "over_context_cap": true
+}

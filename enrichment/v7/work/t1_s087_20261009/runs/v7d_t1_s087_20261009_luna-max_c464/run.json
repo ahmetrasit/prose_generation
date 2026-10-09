@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c464",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:24:30",
+  "ended": "2026-10-09T07:35:21",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12068-5620-7ea0-84cb-3e66dfb3dc2e",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1120294,
+    "cached_input_tokens": 1017600,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 76374,
+    "reasoning_output_tokens": 37776
+  },
+  "stderr": "2026-10-09T11:24:36.126673Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:25:01.221682Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:29:38.792180Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c464.jsonl:\n\"anchor\":\"وقرأ عاصم ويعقوب { يدعون } بالتحتية وفيها زيادة تبيين لصرف الخطاب إلى المشركين في قراءة الجمهور\"\n",
+  "prompt_sha256": "aaa291aa00150add8ba6c31498626ec1644446b38c7e2be648aa50e8a8b47966",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-24-31-01a12068-5620-7ea0-84cb-3e66dfb3dc2e.jsonl",
+  "usd_equivalent": 0.058632,
+  "requests": 17,
+  "max_request_input_tokens": 100213,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c878",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:39:02",
+  "ended": "2026-10-09T08:56:41",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120ac-9071-7800-aa5c-da22a7a46985",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1666961,
+    "cached_input_tokens": 1507584,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 120423,
+    "reasoning_output_tokens": 34876
+  },
+  "stderr": "2026-10-09T12:39:07.498982Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:39:32.630376Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:40:02.528590Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:48:13.701903Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:49:03.077436Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c878.jsonl:\n\"anchor\":\"وهذان الوجهان ذكرهما أبو بكر؛ معنى قول الزجاج في هذه الآية، والأول منهما اختياره\"\n2026-10-09T12:52:48.700789Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "16b2ef77bbe8488159b8b8bb762928983fa0f2f2cf3f3fb519dbfaaf05029c4d",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-39-02-01a120ac-9071-7800-aa5c-da22a7a46985.jsonl",
+  "usd_equivalent": 0.091225,
+  "requests": 19,
+  "max_request_input_tokens": 146834,
+  "over_context_cap": true
+}

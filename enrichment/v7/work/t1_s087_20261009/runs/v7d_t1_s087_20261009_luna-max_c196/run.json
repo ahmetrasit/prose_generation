@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c196",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:15:19",
+  "ended": "2026-10-09T06:18:40",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12028-feda-76e1-b304-7c9971570d86",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 249784,
+    "cached_input_tokens": 211968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22402,
+    "reasoning_output_tokens": 17478
+  },
+  "stderr": "2026-10-09T10:18:22.256320Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c196.jsonl:\n{\"verses\":[\"43:85\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The Hour is certain, everyone will return to God alone, and people should expect no help from another being.\",\"anchor\":\"It is certain to come, and people must clearly understand that they will have to return to Him\",\"mentions\":[]}\n",
+  "prompt_sha256": "b0a8e0cf9e1dfec7e8789000f88bebc97d772705b329098ed2f0ec9a4e0df868",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-15-20-01a12028-feda-76e1-b304-7c9971570d86.jsonl",
+  "usd_equivalent": 0.017102,
+  "requests": 8,
+  "max_request_input_tokens": 41638,
+  "over_context_cap": false
+}

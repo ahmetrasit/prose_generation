@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c909",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:51:35",
+  "ended": "2026-10-09T09:07:23",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120b8-0da4-71d2-bf15-9b78b130b9eb",
+  "commands": 4,
+  "usage": {
+    "input_tokens": 421990,
+    "cached_input_tokens": 334592,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 57750,
+    "reasoning_output_tokens": 22674
+  },
+  "stderr": "2026-10-09T12:51:40.451364Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:52:05.546744Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:52:35.546536Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:59:29.927947Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: The first line of the patch must be '*** Begin Patch'\n2026-10-09T13:00:46.439735Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T13:01:49.294349Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c909.jsonl\n2026-10-09T13:05:21.437783Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "f9913c7a2aa59407462834567a906f68ca78097eeb4bbcb88f34ff2ffc696c28",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-51-35-01a120b8-0da4-71d2-bf15-9b78b130b9eb.jsonl",
+  "usd_equivalent": 0.040961,
+  "requests": 9,
+  "max_request_input_tokens": 80365,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c922",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:53:17",
+  "ended": "2026-10-09T09:04:17",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120b9-9bf1-71f3-9509-dec382b2fad6",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 792898,
+    "cached_input_tokens": 696832,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 68482,
+    "reasoning_output_tokens": 30228
+  },
+  "stderr": "2026-10-09T12:53:22.413983Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:53:47.505641Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:54:17.504158Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:58:19.326296Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'\n2026-10-09T13:02:28.737389Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "0d060abc2510f817784c255d8ffc6eac11482de996a59ae707c5409dc6fedc2a",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-53-17-01a120b9-9bf1-71f3-9509-dec382b2fad6.jsonl",
+  "usd_equivalent": 0.050816,
+  "requests": 14,
+  "max_request_input_tokens": 87321,
+  "over_context_cap": false
+}

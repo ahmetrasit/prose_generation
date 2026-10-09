@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c463",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:24:19",
+  "ended": "2026-10-09T07:37:23",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12068-2b39-7683-a737-4432a369527a",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 2061333,
+    "cached_input_tokens": 1921024,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 99825,
+    "reasoning_output_tokens": 29754
+  },
+  "stderr": "losed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:29:21.847493Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c463.jsonl:\n{\"loc\":\"IBNASHUR-FULL:v13p241\",\"rows\":[{\"verses\":[\"14:37\"],\"words\":[\"أَفْـِٔدَةًۭ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Afʾida is the plural of fuʾād, heart, and here means the self and intellect.\",\"anchor\":\"والأفئدة جمع فؤاد وهو القلب والمراد به هنا النفس والعقل\",\"mentions\":[]},\n{\"loc\":\"IBNASHUR-FULL:v13p241\",\"rows\":[{\"verses\":[\"14:37\"],\"words\":[\"فَٱجْعَلْ أَفْـِٔدَةًۭ مِّنَ ٱلنَّاسِ تَهْوِىٓ إِلَيْهِمْ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The request is that people long to visit the family; mentioning hearts makes their approach seem driven by love and yearning.\",\"anchor\":\"فاجعل أناسا يهوون إليهم فأقحم لفظ الأفئدة لإرادة أن يكون مسير الناس إليهم عن شوق ومحبة\",\"mentions\":[]},\n{\"loc\":\"IBNASHUR-FULL:v13p241\",\"rows\":[{\"verses\":[\"14:37\"],\"words\":[\"مِّنَ ٱلنَّاسِ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Min is explanatory rather than partitive, since restricting the request to only some people would add no useful point.\",\"anchor\":\"فمن بيانية لا تبعيضية إذ لا طائل تحته والمعنى فاجعل أناسا يقصدونهم\",\"mentions\":[]},\n{\"loc\":\"IBNASHUR-FULL:v13p241\",\"rows\":[{\"verses\":[\"14:37\"],\"words\":[\"تَهْوِىٓ إِلَيْهِمْ\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Hawā literally means to fall; here it metaphorically means to move quickly, as in Imruʾ al-Qays's image of a boulder swept down by a torrent.\",\"anchor\":\"وتهوي مضارع هوى بفتح الواو سقط وأطلق هنا على الإسراع في المشي استعارة\",\"mentions\":[]},\n{\"loc\":\"IBNASHUR-FULL:v13p241\",\"rows\":[{\"verses\":[\"14:37\"],\"words\":[\"تَهْوِىٓ إِلَيْهِمْ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Because hawā is used for hurrying toward them, it takes the lām construction here instead of ʿalā.\",\"anchor\":\"ولذلك عدي باللام دون على والإسراع جعل كناية عن المحبة والشوق\",\"mentions\":[]},\n{\"loc\":\"IBNASHUR-FULL:v13p241\",\"rows\":[{\"verses\":[\"14:37\"],\"words\":[\"تَهْوِىٓ إِلَيْهِمْ\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The haste of travel stands metonymically for love and eagerness to visit the family.\",\"anchor\":\"والإسراع جعل كناية عن المحبة والشوق إلى زيارتهم\",\"mentions\":[]},\n{\"loc\":\"IBNASHUR-FULL:v13p241\",\"rows\":[{\"verses\":[\"14:37\"],\"words\":[\"أَفْـِٔدَةًۭ مِّنَ ٱلنَّاسِ تَهْوِىٓ إِلَيْهِمْ\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Love for the family brings affection for the town and repeated visits, making it familiar and encouraging its rites, which advances the religion's call.\",\"anchor\":\"ومحبة الناس إياهم يحصل معها محبة البلد وتكرير زيارته وذلك سبب لاستئناسهم به ورغبتهم في إقامة شعائره\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "88de784e7b4fa4b98edbfd25e9f0954bf60600216bac805a4053969bfca09f5f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-24-20-01a12068-2b39-7683-a737-4432a369527a.jsonl",
+  "usd_equivalent": 0.083154,
+  "requests": 24,
+  "max_request_input_tokens": 129747,
+  "over_context_cap": true
+}

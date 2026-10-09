@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c867",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:38:00",
+  "ended": "2026-10-09T09:06:34",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120ab-9f08-7231-9b83-e94f37d97c77",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 1609349,
+    "cached_input_tokens": 1458432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 116056,
+    "reasoning_output_tokens": 38736
+  },
+  "stderr": "2026-10-09T12:38:05.702305Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:38:30.809571Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:39:00.810045Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:47:10.984807Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:51:45.983344Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T13:00:51.452427Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T13:05:26.450751Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "057cfb67d8eb9b09efee4e53a10430606be2f7c5ebd93b8d54e9c163f59acf85",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-38-00-01a120ab-9f08-7231-9b83-e94f37d97c77.jsonl",
+  "usd_equivalent": 0.087704,
+  "requests": 19,
+  "max_request_input_tokens": 139294,
+  "over_context_cap": true
+}

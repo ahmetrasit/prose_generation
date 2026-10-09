@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c340",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:51:35",
+  "ended": "2026-10-09T07:08:09",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1204a-545b-7840-a041-3bdba66a6c60",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 2377363,
+    "cached_input_tokens": 2177792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 128084,
+    "reasoning_output_tokens": 46067
+  },
+  "stderr": "ords\":[\"كَلَّا\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"rejects\",\"claim\":\"Al-Ālūsī rejects the claim by some heretics and early extremist Rāfiḍīs that the intervening prohibition on moving the tongue is irrelevant and proves the Qurʾān was altered; he says scholars have answered such claims.\",\"anchor\":\"وللعلماء حماة المسلمين وشهب سماء الدين في دفع كلام كثير منه ما تقدم\",\"mentions\":[\"75:16\"]}]}\n2026-10-09T11:00:54.654307Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:00:59.744123Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c340.jsonl:\n{\"loc\":\"ALUSI-FULL:v29p165\",\"rows\":[{\"verses\":[\"76:23\"],\"words\":[\"إِنَّا نَحْنُ نَزَّلْنَا عَلَيْكَ ٱلْقُرْءَانَ تَنزِيلًۭا\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"After dividing humanity into obedient and disobedient and describing the abundant mercy prepared for the obedient, God mentions the honor bestowed on the Prophet to ease his loneliness and strengthen his heart.\",\"anchor\":\"ولما ذكر سبحانه أولا حال الإنسان وقسمه إلى الطائع والعاصي وأمعن جل شأنه فيما أعد للطائع مشيرا إلى عظم سعة الرحمة ذكر ما شرف به نبيه إزالة لوحشته وتقوية لقلبه\",\"mentions\":[]},{\"verses\":[\"76:23\"],\"words\":[\"نَزَّلْنَا عَلَيْكَ ٱلْقُرْءَانَ تَنزِيلًۭا\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"God sent down the Qurʾān gradually over about twenty-three years for profound reasons that required this mode of revelation; the emphatic pronouns reinforce the assertion.\",\"anchor\":\"أي أنزلناه مفرقا منجما في نحو ثلاث وعشرين سنة لحكم بالغة مقتضية له لا غير\",\"mentions\":[]}]}\n2026-10-09T11:01:13.123041Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c340.jsonl:\n{\"loc\":\"ALUSI-FULL:v29p165\",\"rows\":[{\"verses\":[\"76:23\"],\"words\":[\"إِنَّا نَحْنُ نَزَّلْنَا عَلَيْكَ ٱلْقُرْءَانَ تَنزِيلًۭا\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"After dividing humanity into obedient and disobedient and describing the abundant mercy prepared for the obedient, God mentions the honor bestowed on the Prophet to ease his loneliness and strengthen his heart.\",\"anchor\":\"ولما ذكر سبحانه أولا حال الإنسان وقسمه إلى الطائع والعاصي وأمعن جل شأنه فيما أعد للطائع مشيرا إلى عظم سعة الرحمة ذكر ما شرف به نبيه إزالة لوحشته وتقوية لقلبه\",\"mentions\":[]},{\"verses\":[\"76:23\"],\"words\":[\"نَزَّلْنَا عَلَيْكَ ٱلْقُرْءَانَ تَنزِيلًۭا\"],\"type\":\"interpretation\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"God sent down the Qurʾān gradually over about twenty-three years for profound reasons that required this mode of revelation; the emphatic pronouns reinforce the assertion.\",\"anchor\":\"أي أنزلناه مفرقا منجما في نحو ثلاث وعشرين سنة لحكم بالغة مقتضية له لا غير\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "48f3cdee3638797f3d2b3b8b818ddea9bb02fff3f12155f143eaaec17a8a1a67",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-51-52-01a1204a-545b-7840-a041-3bdba66a6c60.jsonl",
+  "usd_equivalent": 0.105777,
+  "requests": 26,
+  "max_request_input_tokens": 164068,
+  "over_context_cap": true
+}

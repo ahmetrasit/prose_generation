@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c380",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:04:20",
+  "ended": "2026-10-09T07:11:22",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12055-def1-77c1-881d-aad2045138af",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 498011,
+    "cached_input_tokens": 430336,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 46358,
+    "reasoning_output_tokens": 22691
+  },
+  "stderr": "2026-10-09T11:04:29.445260Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T11:08:56.534975Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:09:54.988838Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c380.jsonl:\n{\"verses\":[\"6:97\"],\"words\":[\"ٱلنُّجُومَ\",\"قَدْ فَصَّلْنَا ٱلْءَايَٰتِ\"],\"type\":\"reports\",\"speaker\":\"قتادة\",\"stance\":\"reports\",\"claim\":\"Qatada says stars are signs and were created for three purposes: adornment of heaven, guidance, and missiles against devils; using them otherwise is baseless speculation beyond one's knowledge.\",\"anchor\":\"وأسند عن قتادة قوله تعالى { وأنهارا وسبلا }\",\"mentions\":[\"16:15\",\"16:16\"]}\n",
+  "prompt_sha256": "b441dc18665a55620db6830c83c063bb4a383dbea5560e1d35ba0844823f4692",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-04-21-01a12055-def1-77c1-881d-aad2045138af.jsonl",
+  "usd_equivalent": 0.03425,
+  "requests": 11,
+  "max_request_input_tokens": 69348,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s103_20261009_luna-max_c007",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:34:51",
+  "ended": "2026-10-09T07:43:03",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12071-cef0-7d21-99d3-8c9286925fd2",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 612148,
+    "cached_input_tokens": 520960,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 60968,
+    "reasoning_output_tokens": 12580
+  },
+  "stderr": "2026-10-09T11:38:20.004975Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 39, 'ymūn üzerinden aktarır ve dişil ekin kaldırıldığı ʿashāh biçiminden türetir; ancak Abū al-Fatḥ, bir gün ağlamanın onları kör etmeyeceğini söyleyerek itiraz eder. Keşşâf, Râzî, Beyzâvî, Ebû Hayyân ve al-Samin, gözün bulanması ya da çoğul açıklamasını farklı kısa biçimlerle aktarır; İbnü'l-Cevzî, baştaki ötreyi Ebû Hüreyre, Hasan, İbn al-Sumayfiʿ ve al-Aʿmash'a atfeder. Abū al-Baqāʾ başka türetmeler verir; Alûsî çoğul ve ses değişimi çözümlemelerini aktarır, ardından tāʾ harfinin düşürülmesinin ve kalıbın dayanağı olmadığına ilişkin itirazları sıralar. İbn Atıyye, ifadeyi ağlamaktan bulanmış bir bakış diye açıklar ve Shurayḥ'in mahkemedeki benzetmesiyle ilişkilendirir.\"},{\"id\":\"12:16/q05/p4\",\"position\":\"Ötreli okuyuş, ʿashwah kelimesinden, yani karanlık ya da şaşkınlık içinde yapılan bir girişimden türetilir.\",\"reasons\":\"Al-Samin, Hasan'ın karanlık anlamından türetmesini aktarır. Alûsî, kardeşlerin aldatmasını vurgulayan ʿashwah kelimesinin bir çoğulu olduğu açıklamasını aktarır.\"},{\"id\":\"12:16/q05/p5\",\"position\":\"Önerilen yorumlardan biri, varyant kelimeyi acele ve sevinci ima eden bir alev olarak alır.\",\"reasons\":\"Alûsî bunu karanlık ya da şaşkınlık açıklamasının yanında aktarır.\"}]}' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n2026-10-09T11:39:27.303812Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "efa1f68689bb92890205d4dc78ab58646e935dfda2d294250ec1c64cf48e966e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-34-51-01a12071-cef0-7d21-99d3-8c9286925fd2.jsonl",
+  "usd_equivalent": 0.044812,
+  "requests": 13,
+  "max_request_input_tokens": 89523,
+  "over_context_cap": false
+}

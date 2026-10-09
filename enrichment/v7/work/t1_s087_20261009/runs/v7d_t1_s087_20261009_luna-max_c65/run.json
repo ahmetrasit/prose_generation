@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c65",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:54:41",
+  "ended": "2026-10-09T08:23:42",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12083-f8bf-7623-9cc9-0f82956d585b",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 5093031,
+    "cached_input_tokens": 4844544,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 117861,
+    "reasoning_output_tokens": 50321
+  },
+  "stderr": "2026-10-09T11:54:47.221265Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:55:12.343039Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:55:42.344880Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:58:47.282716Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:05:04.586948Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c65.jsonl:\n\"anchor\":\"أي يزيلون صفات نفوسهم بنفوسهم وذلك غير ممكن\"\n2026-10-09T12:08:23.400323Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:12:58.403996Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "d3b81caf84759b7dbf37cf7188f4f843d602de4deb3363cb4bef6424e2d953fe",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-54-42-01a12083-f8bf-7623-9cc9-0f82956d585b.jsonl",
+  "usd_equivalent": 0.132225,
+  "requests": 45,
+  "max_request_input_tokens": 157197,
+  "over_context_cap": true
+}

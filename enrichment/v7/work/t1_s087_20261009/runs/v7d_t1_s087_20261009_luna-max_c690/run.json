@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c690",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:59:15",
+  "ended": "2026-10-09T08:08:47",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12088-2679-7801-904d-5aaf3785622e",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 876760,
+    "cached_input_tokens": 784640,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 68776,
+    "reasoning_output_tokens": 25622
+  },
+  "stderr": "2026-10-09T12:03:44.539142Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c690.jsonl\n2026-10-09T12:08:21.947368Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "34870fd624cf79d38e07a9b2e71f94210fc18f37c5847d97ed8af2629d6a7b99",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-59-16-01a12088-2679-7801-904d-5aaf3785622e.jsonl",
+  "usd_equivalent": 0.051446,
+  "requests": 15,
+  "max_request_input_tokens": 92933,
+  "over_context_cap": false
+}

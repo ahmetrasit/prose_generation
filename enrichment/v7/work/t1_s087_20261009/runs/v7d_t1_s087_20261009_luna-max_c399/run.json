@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c399",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:08:16",
+  "ended": "2026-10-09T07:18:53",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12059-78fd-79a2-99c2-a4f62b55229b",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 854352,
+    "cached_input_tokens": 758016,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 61294,
+    "reasoning_output_tokens": 29101
+  },
+  "stderr": "2026-10-09T11:08:22.011280Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:08:47.118959Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:09:17.123695Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:15:49.287343Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c399.jsonl:\n{\"verses\":[\"39:58\"],\"words\":[\"أَوْ تَقُولَ حِينَ تَرَى الْعَذَابَ\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The wish in 39:58 follows the soul’s admission of falsehood and resort to fabrication, and adds a futile wish that only increases its loss.\",\"anchor\":\"ولما ذكر حالها في الاعتراف بالبطلان ثم الفزع إلى الزور والبهتان أتبعه التمني الذي لا يفيد غير الخسران\",\"mentions\":[]}\n2026-10-09T11:16:06.852362Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c399.jsonl:\n{\"verses\":[\"39:58\"],\"words\":[\"أَوْ تَقُولَ حِينَ تَرَى الْعَذَابَ\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The wish in 39:58 follows the soul’s admission of falsehood and resort to fabrication, and adds a futile wish that only increases its loss.\",\"anchor\":\"ولما ذكر حالها في الاعتراف بالبطلان ثم الفزع إلى الزور والبهتان أتبعه التمني الذي لا يفيد غير الخسران\",\"mentions\":[]}\n",
+  "prompt_sha256": "1ce56ad2fdb01ed709c772f9d080453c21de8c10709b642e9f7d07fc7b366179",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-08-17-01a12059-78fd-79a2-99c2-a4f62b55229b.jsonl",
+  "usd_equivalent": 0.047861,
+  "requests": 15,
+  "max_request_input_tokens": 84861,
+  "over_context_cap": false
+}

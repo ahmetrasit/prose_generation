@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c651",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:55:06",
+  "ended": "2026-10-09T08:11:09",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12084-59ac-7e52-888f-eb872ca28c6a",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 610680,
+    "cached_input_tokens": 500224,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 80939,
+    "reasoning_output_tokens": 28656
+  },
+  "stderr": "2026-10-09T11:55:12.034876Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:55:37.170470Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:56:07.172232Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:04:51.439313Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c651.jsonl\n2026-10-09T12:08:47.823160Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "eedf9e2aefd22a0abf8c1e5c01ffc81ea386db844fd97d57546ee25494a9adb6",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-55-07-01a12084-59ac-7e52-888f-eb872ca28c6a.jsonl",
+  "usd_equivalent": 0.056517,
+  "requests": 10,
+  "max_request_input_tokens": 104454,
+  "over_context_cap": false
+}

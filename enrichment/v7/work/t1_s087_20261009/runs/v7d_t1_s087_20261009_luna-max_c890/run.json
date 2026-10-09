@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c890",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:39:48",
+  "ended": "2026-10-09T08:57:02",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a120ad-46cd-7162-91c2-d7c3cea8d1c8",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 1457784,
+    "cached_input_tokens": 1177856,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 117864,
+    "reasoning_output_tokens": 50183
+  },
+  "stderr": "2026-10-09T12:39:54.182360Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:40:19.302500Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:40:49.304891Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:46:04.943894Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:48:59.654051Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:51:11.765850Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:53:34.653414Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:54:40.049496Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n",
+  "prompt_sha256": "9911112dc7151ad0bb8f85eb1c4719ecfcd884e3a5ea39e42484adf5aa7e69e1",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-39-49-01a120ad-46cd-7162-91c2-d7c3cea8d1c8.jsonl",
+  "usd_equivalent": 0.098703,
+  "requests": 15,
+  "max_request_input_tokens": 145207,
+  "over_context_cap": true
+}

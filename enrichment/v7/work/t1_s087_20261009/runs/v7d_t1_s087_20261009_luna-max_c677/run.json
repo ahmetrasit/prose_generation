@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c677",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:57:45",
+  "ended": "2026-10-09T08:09:15",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12086-c7de-79b3-a912-35302452621f",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 1422686,
+    "cached_input_tokens": 1311744,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 80002,
+    "reasoning_output_tokens": 35117
+  },
+  "stderr": "2026-10-09T11:57:51.322677Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:58:16.429794Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:03:10.366571Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c677.jsonl:\n\"anchor\":\"ألم تعلم أن الله على كل شيء قدير فتنبيه للنبي صلى الله عليه وسلم وغيره على قدرته تعالى\"\n2026-10-09T12:04:42.957434Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c677.jsonl\n",
+  "prompt_sha256": "503cb0d2afa5babce05c5421875da10d0e564c5297cedeb3e5b493958ac69f6a",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-57-46-01a12086-c7de-79b3-a912-35302452621f.jsonl",
+  "usd_equivalent": 0.064213,
+  "requests": 20,
+  "max_request_input_tokens": 105705,
+  "over_context_cap": false
+}

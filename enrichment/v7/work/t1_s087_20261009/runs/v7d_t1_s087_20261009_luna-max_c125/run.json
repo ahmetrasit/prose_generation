@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c125",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:00:54",
+  "ended": "2026-10-09T06:12:57",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1201b-dfab-72a2-8e8e-6de9f7b6e872",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1364475,
+    "cached_input_tokens": 1251840,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 81123,
+    "reasoning_output_tokens": 33103
+  },
+  "stderr": "2026-10-09T10:01:04.746980Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:10:12.979088Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c125.jsonl:\n\"anchor\":\"ويقرأ تترا، ويجوز تتري غير منوية بالكسر، ولم يقرأ به فلا تقرأن به.\"\n",
+  "prompt_sha256": "a7149df7c47e1e983b8121af990621e6c4d2abee43449dc88ea3e5d04c32311f",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-01-01-01a1201b-dfab-72a2-8e8e-6de9f7b6e872.jsonl",
+  "usd_equivalent": 0.064343,
+  "requests": 18,
+  "max_request_input_tokens": 110088,
+  "over_context_cap": false
+}

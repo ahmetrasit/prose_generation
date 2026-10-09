@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c76",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:16:30",
+  "ended": "2026-10-09T08:28:08",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12097-f0c5-7e51-8e7e-05098311df76",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 1030847,
+    "cached_input_tokens": 868864,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 77979,
+    "reasoning_output_tokens": 37200
+  },
+  "stderr": "2026-10-09T12:16:35.898539Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:17:01.030775Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:17:31.030876Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:24:22.922105Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c76.jsonl:\n{\"verses\":[\"2:29\"],\"words\":[\"خَلَقَ لَكُم مَّا فِى ٱلْأَرْضِ جَمِيعًۭا\"],\"type\":\"inward\",\"speaker\":\"ابن عطاء\",\"stance\":\"reports\",\"claim\":\"The whole cosmos is for you so that you may belong wholly to God and not be distracted from Him.\",\"anchor\":\"وقال ابن عطاء : خلق لكم ما في الأرض جميعا ليكون الكون كله لك وتكون لله كلا تشتغل عمن أنت له\",\"mentions\":[]}\n",
+  "prompt_sha256": "6323c41792928972f6f75a031983b97bcb27447367b0a383596c4bab25c35e55",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-16-30-01a12097-f0c5-7e51-8e7e-05098311df76.jsonl",
+  "usd_equivalent": 0.063876,
+  "requests": 14,
+  "max_request_input_tokens": 113517,
+  "over_context_cap": false
+}

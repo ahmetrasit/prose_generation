@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c674",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:57:17",
+  "ended": "2026-10-09T08:11:28",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12086-58ad-7ed3-9fd3-075128687a46",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1130454,
+    "cached_input_tokens": 980224,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96540,
+    "reasoning_output_tokens": 45521
+  },
+  "stderr": "2026-10-09T11:57:22.854200Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:57:47.965349Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T11:58:17.967008Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:04:17.262961Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c674.jsonl\n2026-10-09T12:05:38.718139Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'\n2026-10-09T12:10:59.019839Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "70c65afc9cc2d2f10ac526ec302964d02f4902fef07d8542e38540c9023cc591",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-57-17-01a12086-58ad-7ed3-9fd3-075128687a46.jsonl",
+  "usd_equivalent": 0.073095,
+  "requests": 15,
+  "max_request_input_tokens": 119080,
+  "over_context_cap": false
+}

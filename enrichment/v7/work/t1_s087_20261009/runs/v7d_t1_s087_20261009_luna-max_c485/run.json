@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c485",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:28:37",
+  "ended": "2026-10-09T07:39:33",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1206c-1b42-7fb2-8d1f-0f3947bc98ae",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 1380479,
+    "cached_input_tokens": 1264896,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 88082,
+    "reasoning_output_tokens": 36113
+  },
+  "stderr": "2026-10-09T11:32:16.712135Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c485.jsonl:\nوتأكيد الخبر بإن للاهتمام به وهو كناية عن أنه أرضى ربه بذلك وتوطئة للتخفيف\n",
+  "prompt_sha256": "5845d0ac5040855201bdcb26e7ef3fe067dce949cd052d86a78294c397c529f9",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-28-38-01a1206c-1b42-7fb2-8d1f-0f3947bc98ae.jsonl",
+  "usd_equivalent": 0.068248,
+  "requests": 19,
+  "max_request_input_tokens": 115892,
+  "over_context_cap": false
+}

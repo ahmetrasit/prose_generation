@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c679",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:57:49",
+  "ended": "2026-10-09T08:11:31",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12086-d6df-7390-9d94-458bde205e45",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 1616258,
+    "cached_input_tokens": 1485824,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 95987,
+    "reasoning_output_tokens": 47552
+  },
+  "stderr": "2026-10-09T11:57:55.165410Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:58:20.273678Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T12:07:51.036201Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c679.jsonl:\n{\"verses\":[\"2:184\"],\"words\":[\"فَعِدَّةٌۭ مِّنْ أَيَّامٍ أُخَرَ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Because the phrase is an indefinite noun in an affirmative context, it commands a number of make-up days equal to those missed without requiring consecutive days.\",\"anchor\":\"نكرة في سياق الإثبات فيكون ذلك أمرا بصوم أيام\",\"mentions\":[]},\n2026-10-09T12:09:44.586625Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c679.jsonl:\n{\"verses\":[\"2:185\"],\"words\":[\"ٱلْقُرْءَانُ\"],\"type\":\"links\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Razi cites Quran 17:78's wording 'when you recite the Quran' as an example of qara'a and its derived noun.\",\"anchor\":\"وقال الله سبحانه وتعالى : { وإذا قرأت القرءان\",\"mentions\":[\"17:78\"]},\n",
+  "prompt_sha256": "06e074405e06978ae9bdadc4b94cfc62966bcde9420f894abca45627b51901de",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-57-50-01a12086-d6df-7390-9d94-458bde205e45.jsonl",
+  "usd_equivalent": 0.075895,
+  "requests": 20,
+  "max_request_input_tokens": 128999,
+  "over_context_cap": true
+}

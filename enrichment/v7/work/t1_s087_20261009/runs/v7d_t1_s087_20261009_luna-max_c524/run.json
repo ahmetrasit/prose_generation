@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c524",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T07:36:52",
+  "ended": "2026-10-09T07:45:38",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12073-a764-7e43-94ea-38453a1241e0",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 630717,
+    "cached_input_tokens": 545024,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 63140,
+    "reasoning_output_tokens": 26756
+  },
+  "stderr": "2026-10-09T11:41:28.173357Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T11:44:23.862100Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c524.jsonl:\n{\"loc\":\"IBNJAWZI-ZAD:v7p306\",\"rows\":[{\"verses\":[\"43:18\"],\"words\":[\"*\"],\"type\":\"readings\",\"speaker\":\"حمزة والكسائي وخلف وحفص\",\"stance\":\"reports\",\"claim\":\"Hamza, al-Kisa'i, Khalaf, and Hafs read yunsha'u with ḍamma on yāʾ, fatḥa on nūn, and a doubled shīn; the rest read with fatḥa on yāʾ and sukūn on nūn.\",\"anchor\":\"قرأ حمزة والكسائي وخلف وحفص ينشأ بضم الياء وفتح النون وتشديد الشين وقرأ الباقون بفتح الياء وسكون النون\",\"mentions\":[]},{\"verses\":[\"43:18\"],\"words\":[\"*\"],\"type\":\"grammar\",\"speaker\":\"المبرد\",\"stance\":\"reports\",\"claim\":\"Al-Mubarrad supplies an implied verb: “or do they make one who is raised in finery?”\",\"anchor\":\"قال المبرد تقديره أو يجعلون من ينشأ\",\"mentions\":[]},{\"verses\":[\"43:18\"],\"words\":[\"*\"],\"type\":\"meaning\",\"speaker\":\"أبو عبيدة\",\"stance\":\"reports\",\"claim\":\"Abu Ubayda says al-hilya means ornaments or jewelry.\",\"anchor\":\"قال أبو عبيدة الحلية الحلى\",\"mentions\":[]},{\"verses\":[\"43:18\"],\"words\":[\"*\"],\"type\":\"referent\",\"speaker\":\"المفسرون\",\"stance\":\"reports\",\"claim\":\"The exegetes say the phrase refers to daughters, who are raised adorned with jewelry.\",\"anchor\":\"قال المفسرون والمراد بذلك البنات فانهن ربين في الحلي\",\"mentions\":[]},{\"verses\":[\"43:18\"],\"words\":[\"*\"],\"type\":\"meaning\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Ghayr mubin means an unclear or weak argument.\",\"anchor\":\"والخصام بمعنى المخاصمة ﴿ غير مبين ﴾ حجة\",\"mentions\":[]},{\"verses\":[\"43:18\"],\"words\":[\"*\"],\"type\":\"interpretation\",\"speaker\":\"قتادة\",\"stance\":\"reports\",\"claim\":\"Qatada says a woman rarely presents an argument without the argument being turned against her.\",\"anchor\":\"قال قتادة قلما تتكلم امرأة بحجتها إلا تكلمت بالحجة عليها\",\"mentions\":[]},{\"verses\":[\"43:18\"],\"words\":[\"*\"],\"type\":\"referent\",\"speaker\":\"بعضهم\",\"stance\":\"reports\",\"claim\":\"Another view takes the referent to be idols.\",\"anchor\":\"إلا تكلمت بالحجة عليها\\nوقال بعضهم هي الأصنام\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "237655571df773facc79e14f1fd7622180cf226a06ca7b45b8351c377f0d2f69",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T07-36-52-01a12073-a764-7e43-94ea-38453a1241e0.jsonl",
+  "usd_equivalent": 0.04559,
+  "requests": 11,
+  "max_request_input_tokens": 87880,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c124",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T06:00:54",
+  "ended": "2026-10-09T06:12:38",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1201b-df82-72a1-8b34-d7faa6e75acd",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 1306010,
+    "cached_input_tokens": 1190656,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 84997,
+    "reasoning_output_tokens": 32487
+  },
+  "stderr": "2026-10-09T10:01:04.987847Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T10:12:08.532531Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c124.jsonl:\n{\"loc\":\"ZAJJAJ:v3p153\",\"rows\":[{\"verses\":[\"14:1\"],\"words\":[\"*\"],\"type\":\"sciences\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The sura is Meccan except for two verses revealed in Medina, beginning with ألم تر إلى الذين بدلوا نعمت الله and ending with وبئس القرار.\",\"anchor\":\"مكية إلا اثنتين منها نزلت بالمدينة\",\"mentions\":[\"14:28\",\"14:29\"]},{\"verses\":[\"14:1\"],\"words\":[\"كِتَٰبٌ أَنزَلْنَٰهُ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"كتاب is nominative as the predicate of an omitted subject: the sense is, This is a Book We sent down to you.\",\"anchor\":\"مرفوع على خبر الابتداء، المعنى هذا كتاب أنزلناه إليك.\",\"mentions\":[]},{\"verses\":[\"14:1\"],\"words\":[\"*\"],\"type\":\"grammar\",\"speaker\":\"بعضهم\",\"stance\":\"rejects\",\"claim\":\"Some parse كتاب as governed by الر; Zajjaj rejects this because the initials are only a part of the Book, whose whole is the verses and recitation.\",\"anchor\":\"وقال بعضهم كتاب مرتفع بقوله (الر) و (الر) ليست هي الكتاب إنما هي شيء من الكتاب.\",\"mentions\":[]},{\"verses\":[\"14:1\"],\"words\":[\"مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ\"],\"type\":\"rhetoric\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"Disbelief is likened to darkness because it is obscure, while manifest, luminous faith is likened to light.\",\"anchor\":\"ما كانوا فيه من الكفر، لأن الكفر غير بين فمثل بالظلمات.\",\"mentions\":[]},{\"verses\":[\"14:1\"],\"words\":[\"بِإِذْنِ رَبِّهِمْ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The preposition may attach to تُخرج, meaning by God's permission to teach them; alternatively, no one is guided except by God's permission and will.\",\"anchor\":\"أي بما أذن الله لك من تعليمهم، ويجوز أن يكون بإذن ربهم\",\"mentions\":[]},{\"verses\":[\"14:1\"],\"words\":[\"ٱلْعَزِيزِ ٱلْحَمِيدِ\"],\"type\":\"grammar\",\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"الحميد is genitive as an adjective of العزيز; it may instead be nominative as a new subject with الله as predicate, with other subject-predicate inflections also possible.\",\"anchor\":\"ويجوز أن يرفع الله ويخفض (الحميد) على ما وصفنا.\",\"mentions\":[]}]}\n",
+  "prompt_sha256": "d83d4817ecf4a64f9d0c5a0034973d4d2161ae82a0d32837247f8b5dc2b9fa65",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T06-01-01-01a1201b-df82-72a1-8b34-d7faa6e75acd.jsonl",
+  "usd_equivalent": 0.06594,
+  "requests": 17,
+  "max_request_input_tokens": 114445,
+  "over_context_cap": false
+}

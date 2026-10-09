@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_t1_s087_20261009_luna-max_c773",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T08:18:53",
+  "ended": "2026-10-09T08:33:53",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a1209a-2100-72d1-b81f-b7358f4b7139",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 1502233,
+    "cached_input_tokens": 1366784,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 107820,
+    "reasoning_output_tokens": 56035
+  },
+  "stderr": "2026-10-09T12:25:47.273873Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'\n2026-10-09T12:27:03.981212Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v7/work/t1_s087_20261009/out/luna-max/c773.jsonl\n2026-10-09T12:28:00.187543Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T12:32:35.193709Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n",
+  "prompt_sha256": "3ce912af25180f425dd9c4fae838f17571e665fa392cdc5c6a5a9df30803576c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T08-18-54-01a1209a-2100-72d1-b81f-b7358f4b7139.jsonl",
+  "usd_equivalent": 0.081123,
+  "requests": 17,
+  "max_request_input_tokens": 132922,
+  "over_context_cap": true
+}
