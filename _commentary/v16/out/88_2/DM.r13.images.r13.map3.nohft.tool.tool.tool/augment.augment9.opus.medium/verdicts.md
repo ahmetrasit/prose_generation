@@ -1,0 +1,208 @@
+- 3:106: ref ¶2 - belirsiz "yüzler"in iki takıma ayrılması; ledgerdaki gerekçe karanlık sahnesine dairdi, buradaki bağ iki takımdır
+- 3:107: ref ¶2 - iki takımın ağaran yüzlü olanı
+- 10:26: context ¶1 (in 10:27), ref ¶13 - yüzü bürümeyen karartı; katara ile aynı kök
+- 10:27: prose ¶1 - Gâşiye ile aynı kökten "örtüldü", yüzlere inen gece örtüsü
+- 17:109: cited ¶22; ref ¶14 - indirilen söz okununca artan huşu
+- 20:108: cited ¶6; nowhere else - sahne yalnız ¶6'ya ait
+- 20:111: cited ¶6; nowhere else - yüzlerin boyun eğişi ¶6'da açıklanmış
+- 32:12: prose ¶4, ref ¶23 - suçluların başlarını eğmesi; geri dönüş isteği
+- 33:66: ref ¶3 - yüzlerin ateşte evrilmesi
+- 39:24: cited ¶3; nowhere else - yüzün kalkan oluşu ¶3'te
+- 39:60: ref ¶15 - kararan yüzler ve büyüklenenler
+- 42:45: cited ¶8; nowhere else - ¶8'in sahnesi
+- 54:7: prose ¶6, ref ¶7 - eğik gözler, çağırıcı; kabirden çıkış
+- 57:16: cited ¶14; nowhere else - ¶14'te açıklanmış
+- 68:42: cited ¶23; nowhere else - ¶23'ün sahnesi
+- 75:22: cited ¶17; ref ¶2 - aynı kalıpla iki takım yüz
+- 75:23: cited ¶17; nowhere else - Rabbe bakış ¶17'de
+- 75:24: cited ¶17; ref ¶2 - aynı kalıpla ikinci takım
+- 76:11: ref ¶17 - tazelik (nadra), nâdıra ile aynı kök
+- 79:9: cited ¶7; nowhere else - ¶7'nin kalıbı
+- 80:38: ref ¶2, ¶13 - aynı kalıpla parlak yüzler; ¶13'ün kaynak vermeden andığı yüzler
+- 80:39: ref ¶13 - gülen, sevinen yüzler, ¶13'te anılan
+- 80:40: cited ¶13; ref ¶2 - aynı kalıpla ikinci takım
+- 80:41: cited ¶13; nowhere else - karartı ¶13'te
+- 2:45: ref ¶22 - namaz ve huşu ile eğilenler
+- 2:112: ref ¶18 - yüzü Allah'a teslim etmek
+- 2:150: ref ¶20 - yüzü Mescid-i Haram'a çevirme emrinin tekrarı
+- 2:177: ref ¶20 - iyilik yüzü bir yöne çevirmek değildir
+- 3:20: ref ¶18 - "yüzümü Allah'a teslim ettim"
+- 3:199: ref ¶14, ¶22 - indirilene inanıp Allah'a huşu ile eğilmek
+- 4:125: ref ¶18, ¶19 - yüzü teslim eden, İbrahim'in yolu
+- 6:79: cited ¶19; nowhere else - ¶19'da açıklanmış
+- 7:8: not relevant - tartı, yüz ve eğilme yok
+- 7:29: ref ¶18 - yüzleri her secde yerinde doğrultmak
+- 8:16: not relevant - savaşta arka dönmek; yüz yok
+- 8:50: ref ¶3 - yüzlere vurulan darbe; ledgerdaki bağ eğilmeyeydi, buradaki bağ yüzün darbeyi karşılamasıdır
+- 14:49: not relevant - zincirler, yüz ve eğilme yok
+- 14:50: ref ¶1 - ateşin yüzleri örtmesi, aynı kök
+- 16:87: ref ¶23 - o gün sunulan teslimiyet, zorla gelen boyun eğiş
+- 17:97: ref ¶21 - yüzleri üstüne haşredilmek
+- 18:99: not relevant - kalabalığın dalgalanması; yüz yok
+- 18:100: ref ¶8 - cehennemin sunulması
+- 20:102: ref ¶6 - aynı sahnede suçluların toplanması
+- 20:109: not relevant - şefaat; ses ve yüz konusu değil
+- 21:39: ref ¶3 - ateşi yüzden savamamak
+- 21:90: ref ¶22 - Allah'a huşu ile eğilenler
+- 22:56: not relevant - mülk ve hüküm; yüz yok
+- 22:72: ref ¶9 - yüzde tanınan inkâr
+- 23:2: cited ¶22; nowhere else - ¶22'de açıklanmış
+- 23:101: not relevant - soy bağlarının kopması
+- 23:104: ref ¶3 - ateşin yüzleri yalaması
+- 24:37: ref ¶7 - kalplerin ve gözlerin döndüğü gün
+- 27:90: ref ¶3 - yüzüstü ateşe atılmak
+- 33:35: ref ¶22 - huşu ile eğilenler
+- 40:9: not relevant - kötülüklerden korunma duası
+- 42:47: ref ¶23 - vakit geçmeden çağrıya uymak
+- 43:17: ref ¶9 - içindeki kederle kararan yüz
+- 54:6: context ¶6 (in 54:7) - çağırıcının günü
+- 55:41: ref ¶9 - işaretlerinden tanınma
+- 59:21: cited ¶14; nowhere else - ¶14'te açıklanmış
+- 67:22: cited ¶21; nowhere else - ¶21'de açıklanmış
+- 67:27: ref ¶3 - yüzlerin kararması
+- 68:43: cited ¶23; nowhere else - ¶23'te açıklanmış
+- 70:43: ref ¶7 - kabirlerden çıkış günü
+- 70:44: ref ¶7, ¶23 - 68:43 ile aynı sözler; ledgerdaki "tekrar" gerekçesine karşı vaat edilen günü ve kabirden çıkışı ekler
+- 75:25: cited ¶17; nowhere else - ¶17'de
+- 76:10: not relevant - asık gün, yüzle bağ yok
+- 79:8: cited ¶7; nowhere else - ¶7'de
+- 83:15: ref ¶17 - Rabbe bakışın karşıtı, perdelenme
+- 83:24: ref ¶2 - yüzlerde nimet tazeliği, nâime ile aynı kök
+- 92:14: not relevant - alevli ateş uyarısı; yüz yok
+- 92:16: ref ¶20 - yüz çeviren, 88:23 ile aynı fiil
+- 92:20: ref ¶18 - Rabbin yüzünü aramak
+- 7:41: ref ¶1 - üstlerindeki örtüler, Gâşiye ile aynı kök
+- 55:44: ref ¶13 - kaynar su, 88:5 ile aynı sıfat
+- 12:9: not relevant - babanın ilgisi; ledger gibi ince bağ
+- 26:87: not relevant - rezil olmama duası
+- 36:59: not relevant - suçluların ayrılması; yüz yok
+- 40:52: not relevant - özrün fayda vermemesi
+- 42:7: ref ¶2 - iki takım
+- 56:3: ref ¶15 - alçaltan ve yükselten
+- 68:16: ref ¶15 - burnun damgalanması
+- 69:18: ref ¶9 - gizlinin kalmaması
+- 70:15: not relevant - ateşin adı
+- 74:10: not relevant - zor gün
+- 75:13: not relevant - yapılanların bildirilmesi
+- 83:5: not relevant - büyük gün
+- 84:12: not relevant - ateşe girmek; ¶3 için 88:4 yeterli
+- 89:23: ref ¶23 - geç gelen hatırlama
+- 2:115: ref ¶20 - nereye dönülürse Allah'ın yüzü
+- 2:144: cited ¶20; nowhere else - ¶20'de açıklanmış
+- 2:272: ref ¶18 - Allah'ın yüzünü arayarak vermek
+- 3:72: not relevant - günün başı anlamı; ledger B007
+- 3:167: not relevant - münafıklar; yüz yok
+- 4:42: ref ¶13 - yerle bir olmayı dilemek
+- 5:6: not relevant - abdestte yüz yıkamak
+- 6:16: not relevant - azaptan çevrilmek
+- 6:52: ref ¶18 - O'nun yüzünü isteyenler
+- 11:66: not relevant - Salih'in kurtuluşu
+- 12:93: not relevant - babanın yüzüne gömlek
+- 13:22: ref ¶18 - Rabbin yüzünü arayarak sabretmek
+- 18:28: ref ¶18 - O'nun yüzünü isteyenler
+- 25:24: not relevant - cennet halkının yeri
+- 28:88: ref ¶6 - O'nun yüzünden başkasının yok olması
+- 30:38: ref ¶18 - Allah'ın yüzünü istemek
+- 34:43: not relevant - ayetlerin yalanlanması
+- 41:39: cited ¶12; nowhere else - ¶12'de açıklanmış
+- 47:27: ref ¶3 - yüzlere vurulan darbe; ledgerdaki bağ eğilmeyeydi, buradaki yüzün darbeyi karşılaması
+- 48:29: ref ¶22 - yüzdeki secde izi
+- 51:29: not relevant - yüzüne vurmak, şaşkınlık
+- 54:48: ref ¶21 - yüzleri üstüne sürüklenmek
+- 55:27: ref ¶6 - Rabbin yüzünün kalması
+- 76:9: ref ¶18 - Allah'ın yüzü için yedirmek
+- 77:15: not relevant - yalanlayanlara yazık
+- 6:44: not relevant - ümitsizlik; yüz yok
+- 69:15: not relevant - olayın gerçekleşmesi
+- 74:9: not relevant - zor gün
+- 90:8: not relevant - iki göz verilmesi
+- 92:12: not relevant - yol göstermek Allah'a düşer
+- 99:6: not relevant - insanların bölük bölük çıkması
+- 1:3: not relevant - Rahman ve Rahim
+- 1:4: not relevant - din gününün sahibi; ¶21'in yön konusu değil
+- 1:7: ref ¶21 - dosdoğru yol ve karşıtları
+- 2:142: ref ¶20 - kıbleden döndürülme
+- 2:143: ref ¶20 - ökçeleri üstünde dönen
+- 2:145: not relevant - kıbleye uymamak
+- 2:146: not relevant - hakkı tanımak
+- 2:147: not relevant - hak Rabbindendir
+- 2:149: ref ¶20 - aynı emir
+- 6:74: not relevant - putlar ve baba
+- 6:75: ref ¶19 - ¶19'un andığı hükümranlık
+- 6:77: ref ¶19 - batan ay, ¶19'da anılan
+- 6:78: ref ¶19 - batan güneş, ¶19'da anılan
+- 6:80: not relevant - kavmin tartışması
+- 6:81: not relevant - korku tartışması
+- 17:105: ref ¶14 - hakla indirilen söz
+- 17:106: ref ¶14 - indirilip okunan Kur'an
+- 17:107: cited ¶22; ref ¶14 - okununca secdeye kapanmak
+- 17:108: ref ¶14 - aynı sahnenin tesbihi
+- 17:110: not relevant - namazda sesin ölçüsü
+- 17:111: not relevant - hamd
+- 20:105: ref ¶6 - ¶6'nın andığı dağlar sorusu
+- 20:106: ref ¶6 - dümdüz düzlük
+- 20:110: not relevant - Allah'ın bilgisi
+- 20:112: ref ¶6 - iyi iş yapanın korkmaması
+- 20:113: not relevant - Kur'an'ın indirilmesi
+- 22:3: not relevant - tartışan insan
+- 22:4: not relevant - şeytana uyan
+- 22:6: ref ¶12 - ölüleri dirilten
+- 22:7: ref ¶12 - kabirdekileri diriltmek
+- 23:0: not relevant - besmele
+- 23:3: not relevant - boş sözden yüz çevirmek
+- 23:4: not relevant - zekât
+- 39:21: ref ¶14 - inen su
+- 39:22: ref ¶14 - katılaşan kalpler
+- 39:25: not relevant - önceki yalanlayanlar
+- 39:26: not relevant - dünyada rezillik
+- 41:37: ref ¶19 - güneşe ve aya değil yaratana secde
+- 41:38: not relevant - yorulmadan tesbih
+- 41:40: ref ¶3 - ateşe atılanla güvende gelen sorusu
+- 41:41: not relevant - zikri inkâr
+- 42:43: not relevant - sabır ve bağış
+- 42:44: ref ¶8 - aynı sahnenin öncesi
+- 42:46: not relevant - yardımcı yokluğu
+- 57:14: not relevant - münafıkların seslenişi
+- 57:15: not relevant - fidye
+- 57:18: not relevant - sadaka verenler
+- 57:19: not relevant - sıddıklar
+- 59:19: not relevant - Allah'ı unutanlar
+- 59:20: not relevant - iki halkın eşit olmaması
+- 59:22: not relevant - Allah'ın isimleri
+- 59:23: not relevant - Allah'ın isimleri
+- 67:19: not relevant - kuşlar
+- 67:20: not relevant - ordu
+- 67:23: not relevant - işitme ve görme verilmesi
+- 67:24: not relevant - haşr; ¶21'in yüz konusu değil
+- 68:40: not relevant - kefil sorusu
+- 68:41: not relevant - ortaklar
+- 68:44: not relevant - adım adım yaklaştırma
+- 68:45: not relevant - mühlet
+- 75:5: not relevant - günaha devam isteği
+- 75:6: ref ¶17 - ¶17'nin andığı soru
+- 75:11: ref ¶17 - sığınak yok
+- 75:12: ref ¶3, ¶17 - varış Rabbedir
+- 75:20: not relevant - dünyayı sevmek
+- 75:21: not relevant - ahireti bırakmak
+- 75:26: not relevant - can boğaza gelince
+- 75:27: not relevant - tedavi eden
+- 79:6: ref ¶7 - ¶7'nin andığı sarsıntı
+- 79:7: ref ¶7 - ikinci sarsıntı
+- 79:10: not relevant - dirilişi sorgulama
+- 79:11: not relevant - çürümüş kemikler
+- 80:31: not relevant - meyve ve ot
+- 80:32: not relevant - geçimlik
+- 80:34: ref ¶17 - o gün kaçış
+- 80:35: ref ¶17 - kaçılan yakınlar
+- 80:42: ref ¶13 - tozlu yüzlerin kimliği
+- 86:6: ref ¶9 - ¶9'un andığı atılan su
+- 86:7: ref ¶9 - suyun çıktığı yer
+- 86:10: ref ¶9 - güç ve yardımcı yok
+- 86:11: not relevant - dönüşlü gök
+- 54:8 own: context ¶6 (in 54:7) - çağırıcıya koşmak
+- 20:103 own: ref ¶6 - fısıldaşma
+- 26:4 own: ref ¶4 - boyunların eğilmesi
+- 14:43 own: ref ¶8 - geri dönmeyen bakış
+- 21:97 own: ref ¶8 - donan gözler
+- 78:40 own: ref ¶13 - toprak olmayı dilemek
+- 30:30 own: ref ¶18 - yüzü dine doğrultmak
