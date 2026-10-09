@@ -16,7 +16,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 SESSIONS = Path.home() / '.codex/sessions'
 # $ per million tokens: input, cached input, cache write, output (snapshot of enrichment/v5/common.py, 2026-10-08)
-RATES = {'gpt-6-sol': (2.0, 0.2, 2.5, 10.0), 'gpt-6-luna': (0.1, 0.01, 0.125, 0.5)}
+RATES = {'gpt-6-sol': (2.0, 0.2, 2.5, 10.0), 'gpt-6-luna': (0.1, 0.01, 0.125, 0.5),
+         'gpt-5.6-terra': (1.0, 0.1, 1.25, 5.0)}  # Terra: half of Sol (user, 2026-10-09)
 SOL_LONG = (4.0, 0.4, 5.0, 15.0)
 LONG_CONTEXT = 272_000
 KEYS = ('input_tokens', 'cached_input_tokens', 'cache_write_input_tokens', 'output_tokens')
