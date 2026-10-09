@@ -1,0 +1,222 @@
+- 3:116: ref ¶16 - malın ve çocukların Allah'a karşı yetmemesi
+- 12:47: cited ¶5 (paraphrased: yedi yıl ekip başağında saklama); nowhere else - ¶5 already carries it
+- 12:48: cited ¶5; nowhere else - famine years already explained there
+- 16:112: cited ¶21; nowhere else - hunger as withdrawn favour already explained
+- 22:28: ref ¶7 - kurbandan yiyip yoksula yedirme (refrain with 22:36)
+- 22:36: ref ¶7 - isteyene ve istemeyene yedirme, ev sahibinin eli
+- 36:47: ref ¶17 - yedirmeyi reddeden inkârcılar
+- 69:34: cited ¶17; nowhere else - already the paragraph's own crime line
+- 76:8: ref ¶17 - yoksulu, yetimi, esiri doyuranlar: teşvik etmeyenin karşıtı
+- 77:31: cited ¶13; nowhere else - construction already explained
+- 80:24: ref ¶20 - yemeğe bakma çağrısı, doyuran el
+- 106:4: cited ¶20; ref ¶3 - "min cû'" ile açlıktan çıkarma, ¶3'ün "min" yorumunu destekler
+- 2:155: ref ¶21 - korku ve açlık ikilisi
+- 2:254: ref ¶16 - malın işe yaramayacağı günden önce harcama
+- 2:255: not relevant - uyku ve uyuklama, açlık değil; ¶19'un yemek ayrımına dokunmaz
+- 2:273: ref ¶15 - erdem olarak yaşanan ihtiyaçsız görünüş
+- 3:173: not relevant - Allah'ın koruyucu olarak yetmesi, yemek/ihtiyaç teması değil
+- 4:130: not relevant - boşanma bağlamında zenginleştirme
+- 5:3: not relevant - zaruret ruhsatı, yorumdaki açlık sahnesine bağ yok
+- 7:48: ref ¶17 - topluluk ve büyüklenmenin yetmemesi
+- 7:50: prose ¶22 - ateş ehlinin su ve rızık istemesi, reddedilmesi
+- 8:62: not relevant - Allah'ın yardımda yetmesi
+- 8:64: not relevant - Allah'ın yardımda yetmesi
+- 9:28: not relevant - fakirlik korkusuna karşı vaat, yasal bağlam
+- 9:74: not relevant - münafıkların zenginleştirilmesi, tema dışı
+- 11:68: not relevant - "lem yağnev" oturma anlamı; ledger'in gerekçesi geçerli
+- 12:46: ref ¶5 - rüyanın Yusuf'a aktarılması
+- 12:49: ref ¶5 - kıtlığın ardından yardım yılı; umut darî' sahnesine eklenmez, karşıtlık olarak durur (ledger'e cevap)
+- 12:68: not relevant - Yakub'un tedbiri, yemek/yeterlik değil
+- 19:42: prose ¶13 - olumsuzluklardan sonra "ve lâ yuğnî" kuruluşu, adı olup işi olmayan ilah
+- 20:118: cited ¶22; nowhere else - already explained
+- 26:207: ref ¶18 - yararlanmanın yetmemesi (26:205-207 together)
+- 35:15: cited ¶19; ref ¶15 - insanın muhtaçlığı, istiğna yanılgısının karşıtı
+- 39:7: ref ¶19 - inkâra rağmen Allah'ın ihtiyaçsızlığı
+- 40:47: ref ¶17 - uyulan büyüklerin ateşte yetmemesi
+- 44:41: ref ¶16 - dostun dosta yetmediği gün
+- 44:42: not relevant - rahmet istisnası, paragraf temalarına dokunmaz
+- 45:10: ref ¶16 - kazancın ve dostların cehennem karşısında yetmemesi
+- 45:19: not relevant - Peygamber'e hitap, koruma bağlamı
+- 51:26: cited ¶8; nowhere else - ¶9 already recalls it through ¶8
+- 52:46: not relevant - tuzağın yetmemesi, mal/yemek teması değil
+- 53:26: ref ¶13 - aynı bağlamda yetmeyen şefaat
+- 53:28: cited ¶13; nowhere else - already explained
+- 53:48: ref ¶20 - ihtiyaçsız kılan Allah
+- 56:19: not relevant - cennet içkisinin niteliği
+- 56:20: ref ¶9 - aynı surede karşı sofra: seçme meyve
+- 56:21: ref ¶9 - aynı surede karşı sofra: kuş eti
+- 56:44: cited ¶9; nowhere else - ¶10 already recalls it
+- 69:28: cited ¶17; ref ¶16 - malın yetmediğinin itirafı
+- 78:24: prose ¶10 - esirgenen serinlik ve "lâ ... illâ" kuruluşu
+- 80:25: ref ¶20 - yağmurla başlayan dünya sofrası
+- 80:27: ref ¶20 - tane, doyuran elin verdiği
+- 89:17: ref ¶17 - yetimi ağırlamamak (with 89:18)
+- 90:14: ref ¶17 - açlık gününde doyurmak
+- 92:8: cited ¶16; ref ¶15 - cimrilikle anılan istiğna
+- 93:8: ref ¶20 - yoksulu ihtiyaçsız kılan Rab
+- 96:7: cited ¶15; nowhere else - already explained
+- 107:3: ref ¶17 - yoksulu doyurmaya teşvik etmemek, 69:34 ile aynı söz
+- 14:16: ref ¶3 - içilenin işini görmemesi (with 14:17)
+- 44:43: context ¶3 (in 44:45) - zakkum ağacı named
+- 44:44: context ¶3 (in 44:45); ref ¶1 - zakkuma "yemek" adının verilmesi
+- 56:56: cited ¶9; nowhere else - nüzul already explained
+- 69:31: not relevant - cehenneme atılma, yemek teması yok
+- 69:36: cited ¶17; ref ¶1 - 88:6 ile aynı "yemek yok, ancak" kuruluşu
+- 69:37: ref ¶17 - ğıslîni yiyenler
+- 73:13: ref ¶1 - azapla anılan boğaza takılan yemek
+- 78:25: context ¶10 (in 78:24) - kaynar su istisnası quoted
+- 78:30: ref ¶19 - azabın yalnızca artması, dinmeyen hal
+- 3:88: not relevant - azabın hafiflememesi, genel
+- 7:41: not relevant - döşek ve örtüler, yemek/yeterlik değil
+- 12:43: cited ¶5; ref ¶4 - semiz ile cılızın karşıtlığı
+- 19:71: not relevant - cehenneme varış, tema dışı
+- 23:55: ref ¶18 - verilen malı iyilik sanma yanılgısı
+- 25:13: not relevant - dar yerde zincirlenme
+- 26:79: ref ¶20 - doyuran ve içiren Rab
+- 37:62: ref ¶9 - nüzul ile zakkumun karşılaştırılması
+- 37:68: not relevant - cehenneme dönüş, yemek değil
+- 44:46: context ¶3 (in 44:45) - kaynar suyun kaynaması named
+- 46:34: not relevant - azabı tatmaya çağrı, genel
+- 55:44: not relevant - kaynar su arasında dolaşma, yalnız "hamîm" ortak
+- 56:52: cited ¶9; nowhere else - already in the scene
+- 56:53: cited ¶9; nowhere else - already in the scene
+- 56:54: cited ¶9 (paraphrased: üstüne kaynar sudan içme); nowhere else - already in the scene
+- 56:94: ref ¶9 - yalanlayanların nüzulü (with 56:93)
+- 70:15: not relevant - ateşin adı
+- 78:23: not relevant - kalış süresi
+- 80:5: ref ¶15 - kendini ihtiyaçsız gören
+- 80:37: not relevant - "yuğnîhi" meşguliyet anlamında, yeterlik değil
+- 82:14: not relevant - cehennemde olma, genel
+- 89:23: not relevant - geç kalan hatırlama
+- 111:3: not relevant - yalnız "leheb" kelimesi ortak
+- 2:233: not relevant - süt emzirme hükmü
+- 2:263: not relevant - sadakada eziyet, tema dışı
+- 2:267: ref ¶8 - sunulanın iyisinden seçilmesi
+- 3:10: ref ¶16 - malın ve çocukların yetmemesi (refrain with 3:116, 58:17)
+- 4:6: not relevant - yetim malı hükmü
+- 4:98: not relevant - çaresiz düşenler
+- 5:76: ref ¶13 - ne zarara ne yarara gücü yeten tapılan
+- 6:133: ref ¶19 - ihtiyaçsız Rab dilerse giderir (with 35:16)
+- 7:92: not relevant - oturma anlamı, ledger'in gerekçesi geçerli
+- 8:19: not relevant - savaşta topluluğun yetmemesi, ayrı bağlam
+- 9:93: not relevant - zenginlerin izin istemesi
+- 10:36: ref ¶13 - 53:28 ile aynı zan sözü
+- 11:95: not relevant - oturma anlamı, ledger'in gerekçesi geçerli
+- 14:8: ref ¶19 - inkâra rağmen ihtiyaçsız Allah (with 39:7)
+- 15:84: ref ¶16 - kazancın yetmemesi (with 40:82)
+- 22:64: ref ¶19 - ihtiyaçsız ve övülen Allah
+- 24:33: not relevant - evlenme ve kitabet hükmü
+- 27:40: ref ¶19 - ihtiyaçsız ve cömert Rab
+- 32:19: ref ¶9 - inananların nüzulü (with 18:107)
+- 39:36: not relevant - Allah'ın kuluna koruyucu olarak yetmesi
+- 40:82: ref ¶16 - kazancın yetmemesi (with 15:84)
+- 55:70: not relevant - cennet eşleri
+- 58:17: ref ¶16 - malın ve çocukların yetmemesi (refrain with 3:10, 3:116)
+- 59:7: not relevant - ganimet paylaşımı
+- 64:6: prose ¶19, ref ¶15 - istiğna fiilinin Allah'a ait olması, inkâr edip yüz çevirenler karşısında
+- 70:10: not relevant - dostun dostu sormaması, yetme fiili yok
+- 92:11: cited ¶16; nowhere else - already explained
+- 111:2: ref ¶16 - malın ve kazancın yetmemesi
+- 20:119: cited ¶22; nowhere else - already in the paragraph
+- 24:32: ref ¶11 - yoksulu ihtiyaçsız kılma, fakrın giderilmesi
+- 29:6: ref ¶19 - âlemlerden ihtiyaçsız Allah
+- 37:47: not relevant - cennet içkisinin niteliği
+- 37:64: ref ¶9 - cehennemin dibindeki ağaç (37:64-67 together)
+- 68:18: not relevant - istisna etmeme, bahçe sahipleri kıssası, tema dışı
+- 84:12: not relevant - ateşe girme, genel
+- 87:13: ref ¶3 - ne ölüp ne yaşamak: içinde bırakılmak
+- 6:12: not relevant - rahmet ve toplanma, yemek ayrımına dokunmaz
+- 6:13: not relevant - geceyle gündüzde olan
+- 6:15: not relevant - azaptan korku
+- 6:16: not relevant - azaptan çevrilme
+- 12:41: not relevant - zindan arkadaşlarının rüyası
+- 12:42: not relevant - unutulan Yusuf
+- 12:44: not relevant - karışık düşler cevabı
+- 12:45: not relevant - sakinin hatırlaması
+- 12:50: not relevant - hükümdarın Yusuf'u çağırması
+- 16:110: not relevant - hicret edenlere mağfiret
+- 16:111: not relevant - her nefsin kendini savunması
+- 16:113: ref ¶21 - kasabaya gelen elçinin yalanlanması ve azap
+- 16:114: ref ¶21 - nankörlüğün karşısında şükür çağrısı
+- 20:116: not relevant - secde sahnesi
+- 20:117: cited ¶22 (paraphrased: Âdem'in eşiyle uyarılması); nowhere else - already pointed to
+- 20:120: not relevant - ölümsüzlük ağacı vesvesesi, açlık teması değil
+- 20:121: not relevant - yasak ağaçtan yeme, yorumun bahçe-açlık noktasına dokunmaz
+- 35:13: ref ¶13 - çekirdek zarına sahip olmayan çağrılanlar (with 35:14)
+- 35:14: ref ¶13 - çağrıyı işitmeyen çağrılanlar
+- 35:16: ref ¶19 - ihtiyaçsız olanın dilerse giderip yenisini getirmesi
+- 35:17: not relevant - Allah'a zor olmaması, eklediği yok
+- 47:10: not relevant - öncekilerin helaki
+- 47:11: not relevant - mevlâ ayrımı
+- 47:13: not relevant - helak edilen kasabalar
+- 47:14: not relevant - delil sahibi ile hevaya uyan
+- 51:22: not relevant - gökteki rızık, sahneye bağ yok
+- 51:23: not relevant - yemin
+- 51:25: cited ¶8 (paraphrased: selam verip girme, tanınmama); nowhere else - already pointed to
+- 51:28: not relevant - korku ve müjde
+- 51:29: not relevant - eşin şaşkınlığı
+- 53:27: cited ¶13 (paraphrased: meleklere dişi adı verenler); nowhere else - already pointed to
+- 53:29: ref ¶20 - zikirden yüz çevirip dünyayı isteyen
+- 53:30: ref ¶13 - zanla yetinenlerin bilgi sınırı
+- 56:42: cited ¶9 (paraphrased: kavurucu rüzgâr ve kaynar su); nowhere else - already pointed to
+- 56:43: cited ¶9 (paraphrased: kara duman gölgesi); nowhere else - already pointed to
+- 56:46: not relevant - büyük günahta ısrar, sofra teması değil
+- 56:47: not relevant - dirilişi inkâr
+- 56:50: not relevant - toplanma vakti
+- 56:51: not relevant - hitap, eklediği yok
+- 56:57: not relevant - yaratılış delili
+- 56:58: not relevant - meni delili
+- 69:23: ref ¶17 - yakın meyveler, ğıslînin karşıtı (with 69:24)
+- 69:24: ref ¶17 - afiyetle yiyip içmek
+- 69:26: not relevant - hesabını bilmeme
+- 69:27: not relevant - ölümün son olması dileği
+- 69:30: not relevant - bağlanma emri
+- 69:32: not relevant - zincir
+- 69:33: ref ¶17 - yan yana sayılan suç
+- 69:35: ref ¶17 - yakın dostun olmaması
+- 69:38: not relevant - yemin
+- 77:28: not relevant - "veyl" nakaratı, yemek teması yok
+- 77:29: cited ¶13 (paraphrased: yalanladıkları şeye gitme); nowhere else - already pointed to
+- 77:32: not relevant - kıvılcımlar
+- 77:33: not relevant - kıvılcımların benzetmesi
+- 92:6: ref ¶16 - en güzeli doğrulayan (with 92:7)
+- 92:7: ref ¶16 - kolaylığın kolaylaştırılması
+- 92:9: ref ¶16 - en güzeli yalanlayan (with 92:10)
+- 92:10: ref ¶16 - zorluğun kolaylaştırılması
+- 92:12: not relevant - hidayetin Allah'a ait olması
+- 92:13: not relevant - ahiret ve dünyanın Allah'a ait olması
+- 96:4: not relevant - kalemle öğretme
+- 96:5: not relevant - bilmediğini öğretme
+- 96:9: not relevant - namazdan alıkoyan, istiğna noktasına eklediği yok
+- 96:10: not relevant - namaz kılan kul
+- 106:0: not relevant - besmele
+- 106:1: cited ¶20 (paraphrased: Kureyş'in alıştırılması); nowhere else - already pointed to
+- 44:45 own: prose ¶3 - zakkumun karınlarda kaynaması, acının içeriye yemekle girmesi
+- 11:69 own: ref ¶8 - aynı konukluk sahnesinde kızartılmış buzağı
+- 14:17 own: ref ¶3 - yutulamayan içecek, ölmeden kalış
+- 47:15 own: ref ¶3 - bağırsakları parçalayan kaynar su
+- 37:63 own: not relevant - ağacın zalimler için deneme oluşu
+- 37:65 own: ref ¶9 - ağacın tomurcuğu (37:64-67 together)
+- 37:66 own: ref ¶9 - karınları zakkumdan doldurma, 56:53 ile aynı söz
+- 37:67 own: ref ¶9 - üstüne kaynar su karışımı
+- 56:93 own: ref ¶9 - kaynar sudan nüzul
+- 18:102 own: ref ¶9 - cehennemin inkârcılara nüzul oluşu
+- 18:107 own: ref ¶9 - bahçelerin inananlara nüzul oluşu
+- 89:18 own: ref ¶17 - yoksulu doyurmaya teşvik etmeme
+- 76:9 own: ref ¶17 - Allah rızası için yedirme
+- 90:15 own: ref ¶17 - açlık gününde yakın yetim
+- 90:16 own: ref ¶17 - toprağa düşmüş yoksul
+- 26:205 own: ref ¶18 - yıllarca yararlandırılma
+- 26:206 own: ref ¶18 - vaat edilenin gelmesi
+- 15:3 own: ref ¶18 - "yiyin, yararlanın" denmesi
+- 77:46 own: ref ¶18 - yalanlayanlara "yiyin, yararlanın" denmesi
+- 89:19 own: ref ¶18 - mirası hırsla yeme
+- 89:20 own: ref ¶18 - malı aşırı sevme
+- 78:36 own: ref ¶14 - "hisâb" yetecek kadar bağış
+- 80:26 own: ref ¶20 - toprağın yarılması, dünya sofrası
+- 80:32 own: ref ¶20 - insana ve hayvana geçimlik
+- 34:15 own: ref ¶21 - rızıktan yiyip şükretme çağrısı
+- 34:16 own: ref ¶21 - yüz çevirince acı yemişli bahçeler
+- 92:5 own: cited ¶16 (paraphrased: veren ve sakınan); nowhere else - already pointed to
+- 7:51 own: not relevant - ateş ehlinin dünyadaki aldanışı, ¶22'nin ihtiyaç sahnesine eklediği yok
+- 10:24 own: not relevant - "lem tağne" yeşerme/oturma anlamı; ledger'in gerekçesi geçerli
