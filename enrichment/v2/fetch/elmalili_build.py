@@ -874,6 +874,18 @@ def main():
         meal_toks = merge_tokens(join_lines([r['toks'] for r in u['meal']]))
         meal_plain = render(meal_toks, refmap=lambda t: None)
         pieces, reached = split_meal(meal_plain, a, b) if meal_plain else ({}, a - 1)
+        meal_in_comm = False
+        if not meal_plain and comm:
+            # a passage printed without the «Meâl-i Şerîfi» heading: its meal is the opening of the text, with the (n) numbers
+            cm_ = render(merge_tokens(join_lines([r['toks'] for r in comm[:14]])), refmap=lambda t: None)
+            mb_ = re.search(rf'\({b}\)[.,;:!?…]*', cm_)
+            if mb_:
+                cm_ = cm_[:mb_.end()]  # the meal ends at its last number; what follows is commentary
+            pieces2_, reached2_ = split_meal(cm_, a, b)
+            if pieces2_ and reached2_ == b:
+                meal_plain, pieces, reached = cm_, pieces2_, reached2_
+                meal_in_comm = True  # its text stays in the commentary: not prepended again
+                report.setdefault('meal_read_without_heading', []).append(f'{s}:{a}-{b}')
         mh_ok = bool(pieces)
         mpage = f'v{u["meal"][0]["v"]}p{u["meal"][0]["p"]}' if u['meal'] else None
         for k_, (e_, txt, pu_) in sorted(pieces.items()):
@@ -885,10 +897,7 @@ def main():
             warn(f'S{s}:{a}-{b} meal numbering stops at {reached}')
             rest = meal_plain
             if pieces:
-                last_txt = pieces[max(pieces)][1] + pieces[max(pieces)][2]
-                i_ = meal_plain.find(last_txt[-40:]) if last_txt else -1
-                rest = meal_plain[i_ + len(last_txt[-40:]):] if i_ >= 0 else ''
-                rest = re.sub(r'^\s*\(\d{1,3}\)[.,;:!?…]*', '', rest).strip()
+                rest = meal_plain[split_meal.last_pos:].strip()  # after the last number the chain accepted
             if len(rest) > 3:
                 meal_segs.append({'seg': f'MEAL-ELMALILI-HDKD:{s}:{reached + 1}-{b}', 's': s, 'a': reached + 1,
                                   'a_end': b, 'page': mpage, 'text': clean_text(rest), 'split': False})
@@ -916,7 +925,7 @@ def main():
             elif gi == 0 and meal_plain:
                 mealtxt = meal_plain
             tparas = [ptoks[pi] for pi in pis]
-            if mealtxt:
+            if mealtxt and not meal_in_comm:
                 tparas = [[Tok('tr', 'Meâl: ' + mealtxt)]] + tparas
             loc = f'{s}:{ga}' if ga == gb else f'{s}:{ga}-{gb}'
             extra = {'passage': f'{s}:{a}-{b}' if a != b else f'{s}:{a}', 'quran_block_match': P['score']}
@@ -971,6 +980,7 @@ def split_meal(text, a, b):
     """'… (1) … (2). … (3-4) …' -> {start: (end, text)} along the chain a, a+1, … ; also returns the last
     ayah reached (b when the meal splits completely)."""
     out, pos, want = {}, 0, a
+    split_meal.last_pos = 0
     for m in re.finditer(r'\((\d{1,3})(?:\s*[-–,]\s*(\d{1,3}))?\)([.,;:!?…]*)', text):
         x = int(m.group(1))
         y = int(m.group(2)) if m.group(2) else x
@@ -978,6 +988,7 @@ def split_meal(text, a, b):
             continue
         out[x] = (y, clean_text(text[pos:m.start()].strip()), m.group(3))
         pos = m.end()
+        split_meal.last_pos = pos
         want = y + 1
     tail = text[pos:].strip()
     if out and tail and len(tail) > 3 and want == b + 1:
@@ -1131,6 +1142,16 @@ def write_outputs(segs, meal_segs, report):
                   "Groups whose numbering did not split cleanly are one segment a..a_end with split: false. "
                   "1:1 (Besmele) is not printed in the Fātiḥa meal block. Built by "
                   "enrichment/v2/fetch/elmalili_build.py; raw files are the ELMALILI PDFs."),
+        'ingestion': {
+            'date': date.today().isoformat(), 'script': 'enrichment/v2/fetch/elmalili_build.py',
+            'method': 'meal block of each passage (italic type after the Arabic), cut at the (n) numbers; the rest after a '
+                      'misprinted or missing number is one group a..a_end with split: false',
+            'meal_extended_or_read_without_heading': report.get('meal_read_without_heading', []),
+            'missing': [{'ayah': '1:1',
+                         'reason': "the Besmele is not translated in the Fâtiha meal block; Elmalılı comments on it separately "
+                                   "(ELMALILI:1:1) without a meal of its own",
+                         'checked': ['the printed meal block of the Fâtiha passage 1:2-7 (volume 1)',
+                                     'the commentary segment ELMALILI:1:1']}]},
     }
     with open(os.path.join(MEAL_OUT, 'source.json'), 'w', encoding='utf-8') as f:
         json.dump(msrc, f, ensure_ascii=False, indent=2)
