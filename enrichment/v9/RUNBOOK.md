@@ -54,6 +54,20 @@ surah's tier-1 run is built but not finished, pass it to `--skip-planned` so its
 runs automatically. The only re-read is a segment an earlier run saw only as an excerpt (37, all in
 `q103_1-20261008`): it is read whole once.
 
+**Tier 1 runs on the user's other computer** (user, 2026-10-09: "i'll run tier 1 luna in a separate computer").
+This machine builds the run (`digest.py build …`) and commits `manifest.json`, `chunks/`, `spawn/`; the other machine
+pulls and runs the spawn files, then commits `out/` and `runs/*/run.json` and pushes; this machine pulls and runs
+`check`/`report`. A chunk whose `runs/<agent>/run.json` is committed is never run again (`codex_run.py` skips it).
+Before a handoff, move agents that failed at start aside (`tools/rerun_failed_start.py <run>/runs`) so their failed
+run.json does not block a rerun, and write records for agents whose runner was stopped
+(`tools/recover_run_json.py <run>/runs`). On the other machine:
+```bash
+git pull
+python3 -B enrichment/v9/codex_run.py --parallel 60 enrichment/v7/work/<tier1 run>/spawn/luna-max_c*.md
+python3 -B enrichment/v9/tools/rerun_failed_start.py enrichment/v7/work/<tier1 run>/runs   # then run the line above again
+git add enrichment/v7/work/<tier1 run>/out enrichment/v7/work/<tier1 run>/runs/*/run.json && git commit -m "…" && git push
+```
+
 ### 2. Verse maps (Sol high): new verses, then updates of existing maps
 ```bash
 python3 -B enrichment/v9/map.py build <maps run> --from luna-max --ayat $(cat enrichment/v9/work/prod_sNNN/verses.txt) --models gpt-6-sol:high
@@ -134,25 +148,24 @@ session is read-only). Name the exact problems and allow reading and editing onl
 | a writer's `check` fails after its run | report the problems; do not resume it for fixes (rule 5): rebuild that page in a new writer run with the user's go |
 | peak context over 120k (tier-1 report) | report; the output is valid if `check` passes |
 
-## Production state (update this section at every stage; last: 2026-10-09)
+## Production state (update this section at every stage; last: 2026-10-09 ~09:45, before a machine restart)
 
-| Surah | Plan | Tier 1 | Maps | Translation | Pages | Rendered |
-|---|---|---|---|---|---|---|
-| 103 (page 103:1) | test (`w103_1-20261008`, `meal103_1-r2-20261009`) | done | done (`maptest-20261008`, `map-103_1-20261008`) | not yet | done; published privately (https://claude.ai/artifact/TnbnSk6SvZYrQSKWZBaDXs) | done |
-| 96 | `work/prod_s096` (19 pages, 475 verses) | `t1_s096_20261009`: done, 133,220 rows, $83.45 + $8.61 same-session repairs (17 chunks) | `map_s096_20261009`: 460 verses, Sol running (relaunched after the disk incident; logs `work/map_s096_20261009.run*.log`) | — | — | — |
-| 103 (pages 103:2, 103:3) | `work/prod_s103` (95 verses) | done ($2.34) | done: `map_s103_20261009` (80, $27.66), `map_s103w_20261009` (12, $7.33); 100 updates incl. the 103:1 page's maps ($8.46) | `tr_s103_20261009` (131 verses, 74 chunks) running at 2 Luna slots | **done**: 103:2 writer $4.33 + meal $0.43, 103:3 writer $4.46 + meal $0.58; all checks OK | md rendered; HTML (`surah.py finish 103`) when the translations finish |
-| 87 | `work/prod_s087` (19 pages, 443 verses) | `t1_s087_20261009`: 993 chunks, **running** (relaunched after the disk incident; logs `work/t1_s087.run*.log`) | — | — | — | — |
+| Surah | Tier 1 | Maps | Translation | Pages | Rendered |
+|---|---|---|---|---|---|
+| 103 | done (`t1_s103_20261009` $2.34; 103:1 completion in S96's run) | done: `map_s103_20261009` (80), `map_s103w_20261009` (12), 100 updates ($8.46) | `tr_s103_20261009` (131 verses, 74 chunks): partly done; its runner was stopped — run the rest | 103:1 (test), 103:2, 103:3 done | md done; HTML: `surah.py finish 103` after the translations (103:1's HTML then re-rendered with the Turkish appendix) |
+| 96 | done (`t1_s096_20261009`, $83.45 + $8.61 repairs) | done: `map_s096_20261009` (460; 4 superseded by `map_s096r_20261009`), 91 updates ($8.63); maps $162.36 | not built (`tr_s096_…`; build after S103's finishes) | 96:1–96:5 done (writers $18.14, meals $2.29); 96:6 meal, 96:7 meal done; writers 96:6, 96:7, 96:8 were running at the restart — see below | md for 96:1–96:5 |
+| 87 | `t1_s087_20261009`: ~770 of 993 chunks done here; **the rest runs on the user's other computer** (see stage 1) | — | — | — | — |
 
-The S96 tier-1 run also holds the 103:1 completion (103:3, the short editions now kept, the 37 excerpt-only
-segments); after its maps stage, `map.py update-all` brings the 103:1 page's maps up to date. The 103:1 page itself is
-not rewritten (no second analysis).
-
-Order (user, 2026-10-09): S103 pages 103:2–3 first (start their maps as soon as the 52 S103 chunks are checked, without
-waiting for S96), S96 tier 1 continues in the background, then S96, then S87.
-
-Next, in order: when `codex_run.py` exits (log ends, no `codex exec` processes), run `digest.py check` and `report`
-for both tier-1 runs; then stage 2 for S103 (pages 103:2–3) and S96 (`map.py build` per surah, then `update-all`),
-Sol at the user's cap; then stage 3, stage 4 (`surah.py pages/agents`), stage 5; commit and push after each stage.
-
-Parallel task (user, 2026-10-09): complete the Bible enrichment workflow (`enrichment/bible/`) and run it on S103,
-using Hebrew/Semitic root and cognate evidence, anchored to the frozen paragraphs. It is independent of this pathway.
+**Resume after the restart (in this order):**
+1. `git pull`. For S96 writers 96:6, 96:7, 96:8 run `tools/page_status.sh 96 6` (7, 8). A writer whose check is OK and
+   whose transcript completed: render (`render.py w_96_N_20261009 --meal meal_96_N_20261009`) and commit as a finished
+   page. A writer interrupted by the restart: do not resume it; rebuild that page's writer in a new run with
+   `writer.py build w_96_N_20261009b --ayah 96:N --page <plan page> --model claude-opus-5-5:high` and spawn it.
+2. Remaining S96 pages: spawn from `work/prod_s096/agents.md` (re-run `surah.py agents 96` first), **at most 3 Opus
+   agents at a time**: meal 96:8, then writer + meal for 96:9–96:19.
+3. Turkish renderings `tr_s103_20261009`: `tools/rerun_failed_start.py`, then
+   `tools/run_until_done.sh 20 enrichment/v9/work/tr_s103_20261009/maptr/runs <log> enrichment/v9/work/tr_s103_20261009/maptr/spawn/luna-max_c*.md`;
+   `maptr.py check/report`; then `surah.py finish 103`.
+4. Start the helpers again: session archiving loop and `tools/disk_throttle.sh` (see "Disk space" and "Disk throttle").
+5. S87: when the other computer pushes its tier 1, `digest.py check/report t1_s087_20261009`, repair (tools/repair_t1.sh),
+   then maps etc.
