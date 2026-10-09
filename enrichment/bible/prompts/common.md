@@ -19,8 +19,14 @@ one paragraph and an exact anchor within it. The script inserts annotations and 
   Aramaic root, with lexicon entries and BDB notes), `cognates 'ع ص ر'` (the corresponding Hebrew/Aramaic roots of
   an Arabic root) and `word WLC:Book.C.V` (each word of a verse with its lemma, root and gloss). BDB heads keep
   cognate glosses, but this edition shows Arabic or Syriac script only as a placeholder ([Arabic]).
-- Use the absolute tool paths in the header. Run one command at a time, without shell loops, variables,
-  redirection, pipelines, command substitution or command separators. Use the file tools to write your records.
+- Use the absolute tool paths in the header. Bible tool commands run one at a time, without shell loops,
+  variables, redirection, command substitution or command separators. Read-only shell (`cat`, `head`, `tail`,
+  `ls`, `grep`, `wc`, `sed -n`, `python3 -I -c` that only reads JSON or TSV) may be used on your inputs and call
+  directory, joined by pipes or `;` but with no redirection. Use the file tools to write your records.
+- A helper script (for example one that summarises the discovery list or assembles verdicts.jsonl from your own
+  judgement table) goes INSIDE your call directory, written with the file tools, run as `python3 -I SCRIPT`, and
+  may name only your inputs and call directory; standard modules such as json, csv, re and collections only.
+  Never write anywhere else (no session scratchpad). Your judgements stay yours: a script only formats them.
 - Read each input once and retain notes in your call directory. Start searches with `--n 10 --chars 300` and
   lookups with `--chars 1500`; request more context when needed. Every cited passage must actually be opened.
 - Save `annotations.jsonl`, `verdicts.jsonl`, `gaps.json` and `root_verdicts.jsonl` in your call directory. The verdict draft command

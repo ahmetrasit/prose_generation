@@ -56,7 +56,19 @@ python3 -B enrichment/bible/image_enrich.py assemble --surah S --run-tag sSSS-YY
 python3 -B enrichment/bible/enrich.py spawn --surah S --target ayat
 #     agent type: enrich-page-high (model opus, effort high; tools Read, Write, Edit, Bash)
 python3 -B enrichment/bible/enrich.py finish --surah S --target S:A    # after each agent replies
+# if finish reports "tool use outside Bible call rules": classify, review, write the review, re-audit (no model call)
+python3 -B enrichment/bible/review.py classify --surah S --target S:A
+python3 -B enrichment/bible/review.py write --surah S --target S:A --reviewer "who reviewed, and on what basis"
+python3 -B enrichment/bible/enrich.py reaudit --surah S --target S:A   # keeps run.log.failed-N.json
+# image authors: image_enrich.py fix --dir CALL --approval TEXT (one re-audit or one same-session fix turn)
 ```
+
+- Page authors' grammar (2026-10-09): besides the Bible tools, read-only shell on their inputs, Read of their
+  own persisted outputs, helper scripts inside the call directory run with `python3 -I`, and `sed -i`/`mkdir` on
+  their own files are accepted automatically (`review.py` kinds). Anything else, such as helpers written to a
+  scratchpad, needs `operator-review.json`, which binds each call by hash; unclassifiable calls stay failures.
+- `verdicts.py` counts the segments an `ayah` lookup printed as opened evidence; only `get` lookups still need
+  their own research verdict.
 
 - `discovery_exec.py` runs start → turn 1 (`codex exec`) → snapshot → the fixed follow-up as turn 2 in the same
   session (`codex exec resume <thread>`, which appends to the same rollout file) → audit → an automatic tool-policy

@@ -576,7 +576,22 @@ def spawn_target(s,target,attempt=1):
     return {'status':'prepared','surah':s,'target':target,'dir':rel(d),'spawn':rel(d/'spawn.md')}
 
 
-def finish_target(s,target,d,trial=False):
+def reaudit_target(s,target,d,trial=False):
+    """Finish again after a failed finish, with no model call: the failed run log is kept as run.log.failed-N.json
+    (never overwritten), then the transcript, the operator review (review.py) and the records are checked anew."""
+    log=d/'run.log.json'
+    if not log.exists(): raise ValueError(f'{d}: not finished yet; use finish')
+    row=json.loads(log.read_text())
+    if row.get('status')!='error': raise ValueError(f'{d}: only a failed finish can be re-audited (status {row.get("status")})')
+    n=1
+    while (d/f'run.log.failed-{n}.json').exists(): n+=1
+    kept=d/f'run.log.failed-{n}.json'
+    with kept.open('xb') as f: f.write(log.read_bytes())
+    log.unlink()
+    return finish_target(s,target,d,trial,reaudit_of=kept.name)
+
+
+def finish_target(s,target,d,trial=False,reaudit_of=None):
     if (d/'run.log.json').exists(): raise ValueError(f'{d}: already finished')
     row=json.loads((d/'started.json').read_text())
     if row.get('runner')!='agent': raise ValueError('expected a native page-agent call')
@@ -584,7 +599,11 @@ def finish_target(s,target,d,trial=False):
         raise ValueError('call target differs from the requested page')
     result=AR.finish(d,'annotations.jsonl')
     row.update(cost_usd=result.get('total_cost_usd'),cost_basis=result.get('cost_basis'),transcript=result.get('transcript'),
-               usage=result.get('usage'),stop_reason=result.get('stop_reason'))
+               usage=result.get('usage'),stop_reason=result.get('stop_reason'),
+               allowed_beyond_original_grammar=result.get('allowed_beyond_original_grammar'),
+               tool_use_outside_rule=result.get('tool_use_outside_rule'))
+    if (d/'operator-review.json').exists(): row['operator_review_sha256']=file_hash(d/'operator-review.json')
+    if reaudit_of: row['reaudit_of']=reaudit_of
     try:
         if result.get('is_error') or not result.get('completed'):
             checked={'ok':False,'check':result.get('error') or 'agent did not complete'}
@@ -601,7 +620,7 @@ def finish_target(s,target,d,trial=False):
 
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('cmd',choices=('status','build','spawn','finish','merge'))
+    ap.add_argument('cmd',choices=('status','build','spawn','finish','reaudit','merge'))
     ap.add_argument('--surah',type=int,required=True)
     ap.add_argument('--target',help='surah, S:A, ayat or all')
     ap.add_argument('--attempt',type=int,default=1)
@@ -628,8 +647,8 @@ def main():
                 print(json.dumps(dict(target=target,prompt_chars=len(prompt),estimate=estimate(a.surah,target,'opus',EFFORT),
                                       ready=issue is None,preflight=issue,call_dir=rel(d)),ensure_ascii=False))
             elif a.cmd=='spawn': print(json.dumps(spawn_target(a.surah,target,a.attempt),ensure_ascii=False))
-            elif a.cmd=='finish':
-                result=finish_target(a.surah,target,d,a.trial)
+            elif a.cmd in ('finish','reaudit'):
+                result=(finish_target if a.cmd=='finish' else reaudit_target)(a.surah,target,d,a.trial)
                 print(json.dumps(result,ensure_ascii=False)); failed+=result['status']!='ok'
             else: failed+=not merge_page(a.surah,target)
         except (Exception,SystemExit) as exc:

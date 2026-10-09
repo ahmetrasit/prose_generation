@@ -76,7 +76,9 @@ def allowed_command(command, d):
     return '--annotations' in paths and (script.name!='render.py' or '--out' in paths)
 
 
-def tool_use_outside_rule(d, output, calls):
+def old_rule_allows(d, call):
+    """The original page-call grammar (before 2026-10-09): reads of the call directory, pack, frozen discovery files
+    and corpus; writes in the call directory; the listed Bible tools."""
     started=json.loads((d/'started.json').read_text())
     pack=HERE/'work'/f's{started["surah"]:03d}'/'pack'
     exact={HERE/'SCHEMA_BIBLE_CARD.md',HERE/'SCHEMA.md',d/'prompt.md'}
@@ -85,22 +87,42 @@ def tool_use_outside_rule(d, output, calls):
     exact.update(ROOT/p for p in started['bible_inputs']
                  if Path(p).name=='prefetch.json' or Path(p).name.endswith(('.merged.tsv','.merged.json')))
     exact={p.resolve() for p in exact}
-    out=[]
-    for call in calls:
-        name, inp=call.get('name'),call.get('input') or {}
-        raw=inp.get('file_path') or inp.get('path') or inp.get('notebook_path')
-        path=Path(raw) if raw else None
-        if path and not path.is_absolute(): path=ROOT/path
-        if name in ('Read','Glob','Grep'):
-            allowed=path is not None and (inside(path,d) or inside(path,pack) or path.resolve() in exact
-                                         or inside(path,HERE/'corpus'))
-        elif name in ('Write','Edit','MultiEdit','NotebookEdit'):
-            allowed=path is not None and inside(path,d)
-        elif name=='Bash':
-            allowed=allowed_command(str(inp.get('command','')),d)
+    name, inp=call.get('name'),call.get('input') or {}
+    raw=inp.get('file_path') or inp.get('path') or inp.get('notebook_path')
+    path=Path(raw) if raw else None
+    if path and not path.is_absolute(): path=ROOT/path
+    if name in ('Read','Glob','Grep'):
+        return path is not None and (inside(path,d) or inside(path,pack) or path.resolve() in exact
+                                     or inside(path,HERE/'corpus'))
+    if name in ('Write','Edit','MultiEdit','NotebookEdit'):
+        return path is not None and inside(path,d) and path.name!='operator-review.json'
+    if name=='Bash':
+        return allowed_command(str(inp.get('command','')),d)
+    return False
+
+
+def tool_use_outside_rule(d, output, calls, review_log=None):
+    """Calls outside the grammar: not allowed by the original rules, not in the widened grammar (review.py kinds
+    marked auto: read-only shell on allowed inputs, Read of own persisted outputs, helpers inside the call
+    directory, own edits), and not covered by an operator-review.json. review_log collects how each was allowed."""
+    from enrichment.bible import review as RV
+    rows,_=RV.walk(d,calls)
+    ok,problems=RV.covered(d,calls)
+    out=[f'operator review: {x}' for x in problems]
+    for i,call in enumerate(calls):
+        if old_rule_allows(d,call):
+            continue
+        r=rows[i]
+        if r['kind'] and r['auto']:
+            how='widened grammar'
+        elif i in ok:
+            how='operator review'
         else:
-            allowed=False
-        if not allowed: out.append(f'{name}: {json.dumps(inp,ensure_ascii=False)[:240]}')
+            out.append(f"{call.get('name')}: {json.dumps(call.get('input') or {},ensure_ascii=False)[:240]}"
+                       + (f" [{r['reason']}]" if r['reason'] else ''))
+            continue
+        if review_log is not None:
+            review_log.append(dict(index=i,call_id=call.get('id'),kind=r['kind'],allowed_by=how,reason=r['reason']))
     return out
 
 
@@ -218,7 +240,8 @@ def finish(d, output='annotations.jsonl'):
     else:
         parsed=parse(ts[0])
         calls=parsed['tool_calls']
-        outside=tool_use_outside_rule(d,output,calls)
+        allowed_beyond=[]
+        outside=tool_use_outside_rule(d,output,calls,allowed_beyond)
         (d/'tool_calls.json').write_text(json.dumps(calls,ensure_ascii=False,indent=2)+'\n')
         if not parsed['completed']: errors.append('native agent has not completed')
         if parsed['models']!=[started['model_id']]: errors.append('unexpected or mixed model in transcript')
@@ -228,7 +251,7 @@ def finish(d, output='annotations.jsonl'):
                    completed=parsed['completed'],stop_reason=parsed['stop_reason'],
                    usage=parsed['usage_tokens'],total_cost_usd=parsed['cost_usd'],cost_usd_est=parsed['cost_usd_est'],
                    cost_basis='nominal transcript estimate using Bible-local accounting snapshot',
-                   tool_use_outside_rule=outside)
+                   tool_use_outside_rule=outside,allowed_beyond_original_grammar=allowed_beyond)
     # An explicitly explained empty result is checked by enrich.finish, not treated as a missing file here.
     if not (d/output).is_file(): errors.append(f'missing {output}')
     obj.update(is_error=bool(errors),error='; '.join(errors))

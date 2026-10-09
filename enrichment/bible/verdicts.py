@@ -32,8 +32,10 @@ def candidates(path):
     return expected
 
 
-def lookup_audit(calls):
-    """Use actual get results for evidence; commands alone do not prove text was shown."""
+def lookup_audit(calls, shown=None):
+    """Use actual get results for evidence; commands alone do not prove text was shown. `shown` (when a set is
+    passed) also collects the segments an `ayah S:A` lookup printed in full form (the same display as get): they
+    count as opened evidence, but, as before, only get lookups need their own verdict."""
     requested, opened = set(), set()
     for call in calls:
         if call.get('name') != 'Bash': continue
@@ -42,6 +44,11 @@ def lookup_audit(calls):
         if len(args)<3 or Path(args[1]).name!='corpus.py': continue
         tail=args[2:]
         if tail and tail[0]=='--intertext': tail=tail[1:]
+        if tail and tail[0]=='ayah' and shown is not None and not call.get('is_error') and isinstance(call.get('result'),str):
+            for match in re.finditer(r'^== (\S+)([^\n]*)\n([^\n]*)',call['result'],re.M):
+                ref, header, body = match.groups()
+                if 'NOT FOUND' not in header and body.strip() and not body.startswith('== '): shown.add(ref)
+            continue
         if not tail or tail[0]!='get': continue
         refs, skip = [], False
         for token in tail[1:]:
@@ -135,7 +142,8 @@ def check(d, discovery, base, kept, calls=None, require_opened=True, research_sc
     if calls is None:
         tc=d/'tool_calls.json'
         calls=json.loads(tc.read_text()) if tc.exists() else []
-    requested,opened=lookup_audit(calls)
+    shown=set()
+    requested,opened=lookup_audit(calls,shown)
     seen, research_seen, judged, covered_annotations = set(),set(),set(),set()
     annotations={r['id']:r for r in kept}
     paragraphs=set(R.prose_index(R.paragraphs(base)))
@@ -180,7 +188,8 @@ def check(d, discovery, base, kept, calls=None, require_opened=True, research_sc
             for loc in row['evidence']:
                 if not con.execute('SELECT 1 FROM seg WHERE seg=?',(loc,)).fetchone():
                     errors.append(f'{prefix}: unresolved evidence locator {loc}')
-                if require_opened and loc not in opened: errors.append(f'{prefix}: evidence was not opened with corpus get: {loc}')
+                if require_opened and loc not in opened and loc not in shown:
+                    errors.append(f'{prefix}: evidence was not opened with corpus get (or shown by an ayah lookup): {loc}')
             for rid in row['annotations']:
                 if rid not in annotations: errors.append(f'{prefix}: annotation {rid} was absent or dropped'); continue
                 annotation=annotations[rid]

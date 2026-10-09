@@ -148,6 +148,76 @@ class SemiticTest(W.BibleWorkflowTest):
                   dict(name='exec', phase=1, call_id='j4', arguments='await tools.web_search({q:"x"});')]
         self.assertEqual(len(DX.policy(d, sneaky)[0]), 2)
 
+    def review_call_dir(self):
+        from unittest.mock import patch
+        from enrichment.bible import review as RV
+        self.stack.enter_context(patch.object(RV, 'HERE', self.home))
+        self.stack.enter_context(patch.object(RV, 'PG', self.root))
+        d = (self.home/'work/s001/ehlikitap.1_1.opus.high').resolve()
+        d.mkdir(parents=True)
+        tsv = self.home/'work/s001/discovery/t/1_1.merged.tsv'
+        tsv.parent.mkdir(parents=True)
+        tsv.write_text('x')
+        W.save(d/'started.json', dict(surah=1, bible_inputs={str(tsv.relative_to(self.root)): 'h'}))
+        return RV, d, tsv
+
+    def test_operator_review_classifies_mechanically(self):
+        RV, d, tsv = self.review_call_dir()
+        scratch = '/private/tmp/claude-502/-x/sess/scratchpad'
+        persisted = str(Path.home()/'.claude/projects/p/s/tool-results/b1.txt')
+        calls = [
+            dict(id='1', name='Bash', input=dict(command=f'cat {tsv} | head -5; wc -l {d}/annotations.jsonl')),
+            dict(id='2', name='Bash', input=dict(command=f'grep -n x {tsv}'), result=f'Output saved to {persisted}'),
+            dict(id='3', name='Read', input=dict(file_path=persisted)),
+            dict(id='4', name='Write', input=dict(file_path=f'{scratch}/h.py',
+                 content=f"import csv, json, sys\nrows=list(open(sys.argv[1]))\nopen('{d}/verdicts.jsonl','w')")),
+            dict(id='5', name='Bash', input=dict(command=f'python3 -I {scratch}/h.py {tsv}')),
+            dict(id='6', name='Bash', input=dict(command=f"sed -i '' 's#a#b#' {d}/annotations.jsonl")),
+            dict(id='7', name='Bash', input=dict(command='cat /etc/passwd')),
+            dict(id='8', name='Read', input=dict(file_path=str(Path.home()/'.claude/projects/p/s/tool-results/b9.txt'))),
+            dict(id='9', name='Write', input=dict(file_path=f'{scratch}/bad.py', content="import subprocess\n")),
+            dict(id='10', name='Bash', input=dict(command=f'python3 -I {scratch}/bad.py')),
+            dict(id='11', name='Bash', input=dict(command=f'python3 -I -c "open(\'{tsv}\',\'w\')"')),
+            dict(id='12', name='Bash', input=dict(command=f'cat {tsv} > {d}/copy.tsv')),
+            dict(id='13', name='Write', input=dict(file_path=f'{d}/operator-review.json', content='{}')),
+        ]
+        rows, used = RV.walk(d, calls)
+        kinds = [(r['kind'], r['auto']) for r in rows]
+        self.assertEqual(kinds[:6], [('read', True), ('read', True), ('own_output', True), ('helper', False),
+                                     ('helper', False), ('own_edit', True)])
+        # writing a script is harmless; running the unsafe one is what fails
+        self.assertEqual([r['kind'] for r in rows[6:]], [None, None, 'helper', None, None, None, None])
+        self.assertIn(str(Path(f'{scratch}/h.py')), used)
+        with self.assertRaisesRegex(ValueError, 'unclassifiable'):
+            RV.write(d, calls, 'operator', str(tsv))
+
+    def test_operator_review_binds_each_call_by_hash(self):
+        RV, d, tsv = self.review_call_dir()
+        scratch = '/private/tmp/claude-502/-x/sess/scratchpad'
+        calls = [dict(id='1', name='Write', input=dict(file_path=f'{scratch}/h.py', content='import json\n')),
+                 dict(id='2', name='Bash', input=dict(command=f'python3 -I {scratch}/h.py {tsv}'))]
+        from unittest.mock import patch
+        with patch.object(AR, 'old_rule_allows', lambda d, c: False):
+            rev = RV.write(d, calls, 'operator', str(tsv))
+            self.assertEqual(len(rev['calls']), 2)
+            self.assertTrue((d/rev['helper_copies'][0]['copy']).exists())
+            self.assertEqual(RV.covered(d, calls)[0], {0, 1})
+            changed = [calls[0], dict(calls[1], input=dict(command=f'python3 -I {scratch}/h.py /etc/passwd'))]
+            ok, problems = RV.covered(d, changed)
+            self.assertEqual(ok, {0})
+            self.assertTrue(problems)
+            with self.assertRaisesRegex(ValueError, 'never overwrite'):
+                RV.write(d, calls, 'operator', str(tsv))
+
+    def test_ayah_lookup_output_counts_as_opened_evidence(self):
+        calls = [dict(name='Bash', input=dict(command='python3 /x/corpus.py --intertext ayah 1:1 --chars 1500'),
+                      result='== CC:1:1:note  [head]\nText of the note\n== QURAN:1:1\nبسم\n', is_error=False),
+                 dict(name='Bash', input=dict(command='python3 /x/corpus.py --intertext get WLC:Gen.1.1'),
+                      result='== WLC:Gen.1.1\nבראשית\n', is_error=False)]
+        shown = set()
+        requested, opened = VR.lookup_audit(calls, shown)
+        self.assertEqual((requested, opened, shown), ({'WLC:Gen.1.1'}, {'WLC:Gen.1.1'}, {'CC:1:1:note', 'QURAN:1:1'}))
+
 
 def load_tests(loader, tests, pattern):
     """Only the tests defined here (the inherited workflow tests run in test_workflow)."""

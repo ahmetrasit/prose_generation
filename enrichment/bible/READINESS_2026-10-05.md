@@ -10,9 +10,9 @@ root, Luna max + Sol high readers through `codex exec` (`discovery_exec.py`), an
 S103: discovery done (36 sessions, 5,415 connections, $8.91 API-equivalent; audits/s103-discovery-20261009),
 prefetch of the named Jewish works done (2,582 candidates, 162 gaps, 0 errors; no per-verse Sefaria links),
 surah page accepted (15 Sol max image authors, 207 annotations of which 47 shared-root blocks, 4,479 verdicts,
-$54.27; audits/image-s103-s103-20261009). The three Opus high ayah calls (103:1–3) are prepared in
-`work/s103/ehlikitap.103_N.opus.high/` and wait for the orchestrator to spawn them (`spawn.md` text, agent type
-enrich-page-high), then `enrich.py finish`. Editorial review of the accepted prose is still to do.
+$54.27; audits/image-s103-s103-20261009). The three Opus high ayah pages are accepted (65, 48 and 65 blocks;
+1,263 verdicts; $22.96; audits/ayah-s103-20261009), after an operator review of their extra tool use and two
+no-model re-audits. Editorial review of the accepted prose is still to do.
 
 The S87 surah pilot is now accepted: **18 Sol max image authors, 346 annotations
 and 3,703 judgments** across all 73 original r13 commentary paragraphs. The
