@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s103_20261009_luna-max_c021",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:12:15",
+  "ended": "2026-10-09T10:21:22",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12101-fda9-7892-9a99-dfcf6c180b78",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 859398,
+    "cached_input_tokens": 758528,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 55880,
+    "reasoning_output_tokens": 15114
+  },
+  "stderr": "2026-10-09T14:18:12.857605Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s103_20261009/maptr/out/luna-max/c021.jsonl:\n{\"id\":\"2:14/q08/p2\",\"position\":\"Uzaklaştılar ya da önderlerine döndüler.\",\"reasons\":\"Abu Malik ‘uzaklaştılar’ der; Ibn Atiyya ve al-Qurtubi, dönme veya ayrılma anlamını açıklamak için al-Farazdaq'ın şiirini aktarır; al-Biqaʿi özel olarak dönmeyi anlatır. Al-Burhan fiili ayrılma anlamında alır ve önceki karşılaşma cümlesiyle paralellik kurar.\"}\n",
+  "prompt_sha256": "60ff1df7c17b25d012e89ec91f170e7f41700aab4771e5a8ad9057243b998106",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-12-25-01a12101-fda9-7892-9a99-dfcf6c180b78.jsonl",
+  "usd_equivalent": 0.045612,
+  "requests": 17,
+  "max_request_input_tokens": 85916,
+  "over_context_cap": false
+}

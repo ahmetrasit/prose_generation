@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s103_20261009_luna-max_c012",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:12:15",
+  "ended": "2026-10-09T10:21:24",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12101-fcab-74c1-9be7-58c4b3e4b3c1",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 630859,
+    "cached_input_tokens": 537344,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 63565,
+    "reasoning_output_tokens": 14916
+  },
+  "stderr": "2026-10-09T14:12:27.530949Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:45.231410Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest(\"http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)\")))\n2026-10-09T14:16:35.569392Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 3, '{\"id\":\"12:43/q35\",\"question\":\"Kralın rüyası Yusuf'un kıssasına ve diğer rüya anlatılarına nasıl bağlanır?\",\"turns_on\":\"Bunlar, birbiriyle yarışan açıklamalar değil, anlatıdan çıkarılan ayrı bağlantılardır.\",\"positions\":[{\"id\":\"12:43/q35/p1\",\"position\":\"Bir rüya Yusuf'un çilesini başlatır, bir diğeri kurtuluşunu ve sonunda aklanmasını getirir.\",\"reasons\":\"Nesefî bu simetriye dikkat çeker; Tabâtabâî'ye göre pasaj kurtuluşa, yönetime ve masumiyetini kanıtlayan yeni bir soruşturmaya götürür. Yakub'un Yusuf'un rüyasını açıklamasını, Yusuf'un kendi rüyalarını, mahpus arkadaşlarının ve kralın rüyalarını, ayrıca Tanrı'nın öğrettiği uyanıkken görülen öngörüleri sıralar; 12:4, 12:36 ve 12:43'e atıfta bulunur. Islâhî, mahpusların rüyalarını kralın rüyasını yorumlama fırsatına bağlar.\"},{\"id\":\"12:43/q35/p2\",\"position\":\"Kıssa, Tanrı'nın insan işlerini beklenmedik biçimde yönlendirmesini gösterir.\",\"reasons\":\"Esed, Tekvin'deki romantik anlatımı, insanların kendilerine yarar sağlayan şeyden hoşlanmayıp zarar veren şeyi sevebileceği yönündeki Kur'anî dersle karşılaştırır ve 2:216'ya atıfta bulunur; Islâhî, Tanrı'nın planlarının kendi araçlarını da meydana getirdiğini söyler.\"},{\"id\":\"12:43/q35/p3\",\"position\":\"Kralın rüyasına danışılması, Mısır'da ve eski saraylarda bilinen bir uygulamaydı.\",\"reasons\":\"İbn Âşûr, rahiplerin kurallarının rüya yorumunu bir Mısır ilmi hâline getirdiğini söyler; mahpusların 12:36'daki talebine, Firavun'un sihirbazlarla bilge kişileri çağırdığı Tevrat anlatısına atıfta bulunur. Peygamber'in doğumuna yakın dönemde gördüğü kaygı verici bir rüyanın ardından Kisrâ'nın Abdülmesih aracılığıyla kâhin Satîh'i çağırdığını aktarır.\"}]}' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n",
+  "prompt_sha256": "b30f2b31316af3cf8820abb8f1d1943c3b4c2c6b67b0e90f3a86dc8e865982f0",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-12-27-01a12101-fcab-74c1-9be7-58c4b3e4b3c1.jsonl",
+  "usd_equivalent": 0.046507,
+  "requests": 13,
+  "max_request_input_tokens": 93041,
+  "over_context_cap": false
+}

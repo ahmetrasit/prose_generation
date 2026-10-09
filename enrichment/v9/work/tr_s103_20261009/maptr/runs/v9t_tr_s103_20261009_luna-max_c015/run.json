@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s103_20261009_luna-max_c015",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:12:15",
+  "ended": "2026-10-09T10:19:20",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12101-fd2c-7223-a721-acc8fcda5212",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 583023,
+    "cached_input_tokens": 511488,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 40782,
+    "reasoning_output_tokens": 13882
+  },
+  "stderr": "2026-10-09T14:12:39.376442Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:44.774349Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:13:09.848784Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:11.966005Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:13.818791Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:15.296176Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:17.815148Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:13:21.855745Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T14:18:08.416868Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s103_20261009/maptr/out/luna-max/c015.jsonl:\n{\"id\":\"18:104/q04/p1\",\"position\":\"Bu mecazî bir nispet olup çaba içinde yoldan sapanlar insanların kendileridir.\",\"reasons\":\"İbn Âşûr, ifadenin nasıl anlaşılacağını belirtir. Cürcânî, bir kelimenin anlamını benzerlik veya ilişki yoluyla aktaran lugavî mecazı, konuşanın bir eylemi mecazen bir özneye yüklediği aklî mecazdan ayırır. Örneği, baharın bir şeyi yapması veya işlemesidir; sözlük eylemi ve zamanı belirlerken konuşan onu yapanı tayin eder. Kelimelerin ve yazıların diller arasında uzlaşımsal işaretler olduğunu da belirtir.\"}\n",
+  "prompt_sha256": "9353fb21293796d81645da756c635f358d388c99e2fd4ed0c1e091cda6ad30e7",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-12-47-01a12101-fd2c-7223-a721-acc8fcda5212.jsonl",
+  "usd_equivalent": 0.032659,
+  "requests": 14,
+  "max_request_input_tokens": 69258,
+  "over_context_cap": false
+}

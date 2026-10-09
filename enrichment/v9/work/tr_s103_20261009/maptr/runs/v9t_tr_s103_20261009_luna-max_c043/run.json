@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9t_tr_s103_20261009_luna-max_c043",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-09T10:12:15",
+  "ended": "2026-10-09T10:19:10",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a12101-fd9b-7863-ac0c-899b68749e42",
+  "commands": 8,
+  "usage": {
+    "input_tokens": 470045,
+    "cached_input_tokens": 365824,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47528,
+    "reasoning_output_tokens": 8478
+  },
+  "stderr": "2026-10-09T14:12:29.482670Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:12:44.134039Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T14:17:58.826611Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/tr_s103_20261009/maptr/out/luna-max/c043.jsonl:\n+{\"id\":\"26:181/q10\",\"question\":\"Bu emir, çevresindeki peygamber kıssalarıyla nasıl bir ilişki içindedir?\",\"turns_on\":\"\",\"positions\":[{\"id\":\"26:181/q10/p1\",\"position\":\"Şuayb, genel ibadet çağrısından işlemlere ilişkin ayrıntılı kurallara geçer.\",\"reasons\":\"İbn ʿĀshūr, bu geçişi 26:177'deki önceki çağrıya ve kavminin şirkine, hilelerine, malların değerini düşürmelerine ve bozgunculuklarına bağlar.\"},{\"id\":\"26:181/q10/p2\",\"position\":\"Elçilerin ortak mesajı takva, itaat, yalnızca Allah'a kulluk ve ücret istememektir.\",\"reasons\":\"Kurtubî, peygamberlerin tekrarlanan cevabını bu ortak taleplerle açıklar.\"},{\"id\":\"26:181/q10/p3\",\"position\":\"Şuayb'ın ekonomik suistimale karşı uyarısı, Lût'un ahlaki suistimale karşı uyarısına paraleldir ve bilinen akıbet ile tekrarlanan ayetlerle sona erer.\",\"reasons\":\"Iṣlāḥī, Şuayb'ın kavmini burada Medyen olarak tanımlar; onların direnişini, helâkini ve tekrarlanan kapanış ayetlerini sûredeki kavimler düzeni içinde değerlendirir.\"}]}\n",
+  "prompt_sha256": "c6cf2c8f51413ed8fe30deb351bc2b78292f3e8d7645e9041ce9e03eaca0bc80",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T10-12-45-01a12101-fd9b-7863-ac0c-899b68749e42.jsonl",
+  "usd_equivalent": 0.037844,
+  "requests": 12,
+  "max_request_input_tokens": 76220,
+  "over_context_cap": false
+}
