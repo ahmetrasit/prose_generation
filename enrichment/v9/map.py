@@ -101,7 +101,10 @@ def build(a):
             for x in json.loads(man.read_text())['ayat']:
                 planned.setdefault(x['ayah'], man.parents[1].name)
     for ayah in a.ayat:
-        if ayah in planned and not Q.located(ayah):
+        if a.supersede and planned.get(ayah) == a.supersede and not Q.located(ayah):
+            print(f'NOTE {ayah}: rebuilt here; its map in {a.supersede} failed its check and its agent can no longer be '
+                  'repaired (recorded in both manifests)')
+        elif ayah in planned and not Q.located(ayah):
             print(f'SKIPPED {ayah}: planned in map run {planned[ayah]} (not assembled yet)')
             continue
         if Q.located(ayah):
@@ -123,7 +126,15 @@ def build(a):
     for spec in a.models:
         for p in plan:
             spawn(m, a.run, spec, p)
-    dump(m / 'manifest.json', {'from': a.from_tags, 'models': a.models, 'ayat': plan})
+    dump(m / 'manifest.json', {'from': a.from_tags, 'models': a.models, 'ayat': plan,
+                               **({'supersedes': a.supersede} if a.supersede else {})})
+    if a.supersede:
+        om = mdir(a.supersede) / 'manifest.json'
+        old = json.loads(om.read_text())
+        for x in old['ayat']:
+            if x['ayah'] in {p['ayah'] for p in plan}:
+                x['superseded_by'] = a.run
+        dump(om, old)
 
 
 def refresh_rows(a):
@@ -361,7 +372,10 @@ def check(a):
     man = json.loads((m / 'manifest.json').read_text())
     tags = [a.model] if a.model else [digest.tag_of(*s.split(':')) for s in man['models']]
     ups = {p['ayah']: p.get('updates', []) for p in man['ayat']}
-    ayat = [a.ayah] if a.ayah else [p['ayah'] for p in man['ayat']]
+    gone = {p['ayah']: p['superseded_by'] for p in man['ayat'] if p.get('superseded_by')}
+    for ayah, run in gone.items():
+        print(f'SUPERSEDED {ayah}: rebuilt in {run}; not checked here')
+    ayat = [a.ayah] if a.ayah else [p['ayah'] for p in man['ayat'] if p['ayah'] not in gone]
     bad = 0
     for tag in tags:
         for ayah in ayat:
@@ -420,6 +434,7 @@ def main():
     p = sub.add_parser('build'); p.add_argument('run')
     p.add_argument('--from', dest='from_tags', nargs='+', required=True, help='tier-1 model tags, e.g. luna-max')
     p.add_argument('--ayat', nargs='+', required=True); p.add_argument('--models', nargs='+', required=True)
+    p.add_argument('--supersede', help='rebuild these verses although RUN planned them (their map there failed and its agent cannot be repaired)')
     p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--ayah')
     p = sub.add_parser('report'); p.add_argument('run')
     p = sub.add_parser('refresh-rows'); p.add_argument('run')

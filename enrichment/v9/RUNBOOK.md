@@ -104,13 +104,18 @@ is never built on a fraction of its notes. Notes of other verses that arrive lat
 
 **Disk space (2026-10-09 incident).** Codex writes every session to `~/.codex/sessions` on the system disk; on
 2026-10-09 the disk filled and 1,089 agents failed at start (`No space left on device`, 0 commands, $0). Before a big
-run check `df -h /` (keep > 3 GB free). The user allowed deleting `~/.codex/sessions`; delete only files not modified
-for 10 minutes (a running agent keeps writing its file; a finished one's cost is already in its run.json). A cleanup
-loop does this every 5 minutes
-(pid in `work/session_cleanup.pid`). Agents that failed at start are moved to `<runs>_enospc/` (evidence kept) and
-the same spawn files are run again; never move an agent that ran commands.
+run check `df -h /` (keep > 3 GB free). A loop (pid in `work/session_cleanup.pid`) moves session files idle for 10
+minutes to `/Volumes/aro/codex_sessions_archive/` every 5 minutes (a running agent keeps writing its file; a finished
+one's cost is already in its run.json). Never delete them: a same-session repair needs the session, and the repair
+scripts copy it back from the archive. Agents that failed at start (0 commands) are moved to
+`<runs>_enospc/` or `<runs>_failed_start/` (evidence kept) and the same spawn files are run again; never move an agent
+that ran commands.
 
-**Repairing a Codex agent in its own session** (rule 4):
+**Repairing a Codex agent in its own session** (rule 4): `tools/repair_t1.sh RUN NN` (a tier-1 chunk) and
+`tools/repair_map.sh RUN S:A` (a verse map) send the checker's exact problems to the agent's session and print its
+reply; run several with `xargs -P`. If a session is gone, rebuild the verse in a new run:
+`map.py build NEWRUN --from luna-max --ayat … --models gpt-6-sol:high --supersede OLDRUN` (recorded in both
+manifests; OLDRUN's check then prints `SUPERSEDED`). The command it wraps:
 `codex exec resume --ignore-user-config -c model_reasoning_effort="<effort>" -c web_search="disabled" -c sandbox_mode="workspace-write" --skip-git-repo-check --json -o <runs/agent>/repairN.last.txt <thread_id> - < message`
 from the repo root (the thread id is in `stream.jsonl`'s `thread.started` event; without the sandbox option the
 session is read-only). Name the exact problems and allow reading and editing only its own output file.
