@@ -1,0 +1,237 @@
+- 3:106: ref ¶2 - indefinite faces split into two groups, speech turns to their owners; used for the division of faces, not the veil scene the ledger reserved
+- 3:107: ref ¶2 - second half of the same division
+- 10:26: ref ¶13 - faces not overcome by qatar or humiliation, same verb and word as 80:41
+- 10:27: ref ¶1, ¶13 - faces covered (same root as Ghashiya) with pieces of dark night
+- 17:109: cited ¶22; ref ¶14 - recited word increases khushuʿ, the descending word received
+- 20:108: cited ¶6; ref ¶4 - khushuʿ given to voices on that day
+- 20:111: cited ¶6; nowhere else - its scene and the One faced are fully carried by ¶6
+- 32:12: prose ¶4, ref ¶23 - heads hung before their Lord, plea to be returned
+- 33:66: prose ¶20, ref ¶3 - faces turned about in fire, same root as taqallub of 2:144
+- 39:24: cited ¶3; nowhere else - face as shield belongs to ¶3 alone
+- 39:60: ref ¶15 - blackened faces of those named arrogant
+- 42:45: cited ¶8; nowhere else - its furtive gaze is ¶8's own point
+- 54:7: ref ¶4, ¶6 - eyes humbled; crowd going to the caller
+- 57:16: cited ¶14; ref ¶7 - khushuʿ given to hearts
+- 68:42: cited ¶23; nowhere else - its call to prostration is ¶23's point
+- 75:22: cited ¶17; ref ¶2 - "wujūhun yawmaʾidhin" construction
+- 75:23: cited ¶17; ref ¶8 - faces looking to their Lord against the furtive glance
+- 75:24: cited ¶17; ref ¶2 - "wujūhun yawmaʾidhin" construction
+- 76:11: ref ¶2 - radiance and joy for those guarded from that day
+- 79:9: cited ¶7; ref ¶4 - khushuʿ given to eyes
+- 80:38: ref ¶2, ¶13 - construction; ¶13 describes it without citing
+- 80:39: ref ¶13 - laughing, rejoicing faces described in ¶13 without source
+- 80:40: cited ¶13; ref ¶2 - "wujūhun yawmaʾidhin" construction
+- 80:41: cited ¶13; nowhere else - its dark smoke is ¶13's own image
+- 2:45: prose ¶23 - prayer not heavy for the khāshiʿīn, defined in 2:46 by the meeting and return
+- 2:112: ref ¶18 - surrendering the face to God
+- 2:150: ref ¶20 - face turned to the Sacred Mosque wherever one goes out
+- 2:177: ref ¶20 - turning faces east or west is not righteousness in itself
+- 3:20: ref ¶18 - surrendering the face to God
+- 3:199: ref ¶14, ¶22 - People of the Book believing in what was sent down, humble to God
+- 4:125: ref ¶18, ¶19 - surrendering the face, following hanif Ibrahim
+- 6:79: cited ¶19; ref ¶18 - Quranic source of "wajjahtu wajhī"
+- 7:8: not relevant - only the word yawmaʾidhin is shared
+- 7:29: ref ¶21 - setting faces straight at every place of prostration
+- 8:16: not relevant - turning one's back in battle
+- 8:50: not relevant - striking faces and backs, no bearing on lowering
+- 14:49: context ¶1 (in 14:50) - the chained guilty that day
+- 14:50: prose ¶1, ref ¶3 - fire covers faces, verb of al-Ghashiya
+- 16:87: ref ¶23 - surrender offered to God that day
+- 17:97: ref ¶21 - gathered on their faces, blind, dumb, deaf
+- 18:99: not relevant - surging crowds, no face or lowering
+- 18:100: ref ¶8 - Hell displayed to them, the same display from the other side
+- 20:102: ref ¶6 - same scene: the guilty gathered, whispering in 20:103
+- 20:109: ref ¶6 - no intercession except by al-Raḥmān's leave, hushed voices
+- 21:39: ref ¶3 - cannot ward the fire off their faces
+- 21:90: ref ¶22 - khāshiʿīn hastening to good, calling in hope and fear
+- 22:56: not relevant - sovereignty that day, no face
+- 22:72: ref ¶9, ¶22 - denial recognized in faces when verses recited
+- 23:2: cited ¶22; ref ¶23 - ¶23 points to it without citing
+- 23:101: not relevant - no kinship that day
+- 23:104: ref ¶3 - fire scorching faces
+- 24:37: ref ¶7 - hearts and eyes overturned on that day
+- 27:90: prose ¶21 - faces thrown prone into fire, root of mukibban
+- 33:35: ref ¶22 - khāshiʿīn and khāshiʿāt rewarded
+- 40:9: not relevant - protection from evils that day, no face
+- 42:47: ref ¶23 - respond before the day with no turning back
+- 43:17: ref ¶9 - inner grief shown as a darkened face
+- 54:6: ref ¶6 - the day the caller calls
+- 55:41: ref ¶23 - the guilty known by their marks and seized
+- 59:21: cited ¶14; nowhere else - its mountain image is ¶14's own
+- 67:22: cited ¶21; nowhere else - prone walking is ¶21's own point
+- 67:27: ref ¶3 - faces distressed on seeing it near
+- 68:43: cited ¶23; ref ¶4 - khushuʿ given to eyes
+- 70:43: not relevant - rushing from graves, the lowering is in 70:44
+- 70:44: ref ¶4, ¶23 - same words as 68:43; answers ledger: a repeated wording is a reference, not a duplicate
+- 75:25: cited ¶17; nowhere else - its expectation of calamity is ¶17's
+- 76:10: not relevant - fear of a frowning day, no face lowering
+- 79:8: cited ¶7; nowhere else - ¶7's pattern
+- 83:15: ref ¶3 - deniers veiled from their Lord that day, qualifying the meeting
+- 83:24: ref ¶2 - radiance of naʿīm on faces, root of nāʿima
+- 92:14: ref ¶20 - blazing fire warned of
+- 92:16: ref ¶20 - denied and turned away (tawallā) as in 88:23
+- 92:20: ref ¶18 - seeking the face of his Lord
+- 7:41: ref ¶1 - coverings (ghawāsh) above them, root of Ghashiya
+- 55:44: ref ¶13 - between fire and boiling ān water, root of āniya in 88:5
+- 12:9: not relevant - father's regard, word shared only
+- 26:87: not relevant - prayer against disgrace, no face or lowering
+- 36:59: ref ¶2 - the guilty told to separate that day
+- 40:52: not relevant - excuses not benefiting
+- 42:7: ref ¶2 - a group in the garden, a group in the blaze
+- 56:3: prose ¶15 - the event named lowering and raising
+- 68:16: ref ¶15 - branding the nose of the boastful
+- 69:18: ref ¶9 - nothing hidden when displayed
+- 70:15: not relevant - name of the fire only
+- 74:10: not relevant - hardship for disbelievers, no face
+- 75:13: ref ¶9 - man informed of his deeds, with 75:14-15
+- 83:5: not relevant - a great day, no link to faces
+- 84:12: not relevant - entering the blaze, shares only the verb of 88:4
+- 89:23: ref ¶23 - remembering when remembrance no longer avails
+- 2:115: ref ¶20 - wherever you turn, there is God's face
+- 2:144: cited ¶20; nowhere else - its turning face is ¶20's (named inside the ¶20 prose)
+- 2:272: ref ¶18 - spending seeking God's face
+- 3:72: not relevant - "face of the day", sense the ledger set aside
+- 3:167: ref ¶9 - saying with mouths what is not in hearts
+- 4:42: ref ¶9 - cannot hide any word from God that day
+- 5:6: not relevant - washing faces in ablution
+- 6:16: not relevant - spared that day, no face
+- 6:52: ref ¶18 - desiring His face
+- 11:66: not relevant - disgrace of that day for Thamud, no face
+- 12:93: not relevant - shirt on the father's face, sight restored
+- 13:22: ref ¶18 - patience seeking their Lord's face
+- 18:28: ref ¶18 - desiring His face
+- 25:24: not relevant - people of the garden that day
+- 28:88: ref ¶6 - all perishes but His face; return to Him
+- 30:38: ref ¶18 - desiring God's face
+- 34:43: not relevant - rejection of recitation without face or bowing
+- 41:39: cited ¶12; ref ¶14 - ¶14 points to "sent down water on it"
+- 47:27: not relevant - striking faces and backs; agrees with ledger
+- 48:29: prose ¶22 - bowing and prostrating, mark of prostration on faces
+- 51:29: not relevant - a woman striking her face in astonishment
+- 54:48: ref ¶21 - dragged on their faces in fire
+- 55:27: prose ¶6 - the face of your Lord remains
+- 76:9: ref ¶18 - feeding for God's face alone
+- 77:15: not relevant - woe that day, refrain without face
+- 6:44: not relevant - worldly seizure, despair
+- 69:15: not relevant - the event occurs, only yawmaʾidhin shared
+- 74:9: not relevant - hard day
+- 90:8: not relevant - two eyes as a gift
+- 92:12: not relevant - guidance is on Us
+- 99:6: not relevant - people issue in scattered groups to see deeds
+- 1:3: not relevant - divine names only
+- 1:4: ref ¶21 - the face turned to the owner of the day of judgment
+- 1:7: ref ¶21 - the path of the favoured against the astray
+- 2:142: ref ¶20 - east and west belong to God
+- 2:143: not relevant - qibla as test
+- 2:145: not relevant - qiblas of others
+- 2:146: not relevant - recognising the truth
+- 2:147: not relevant - truth from your Lord
+- 2:149: ref ¶20 - face turned to the Sacred Mosque wherever one goes out
+- 6:74: not relevant - Ibrahim and his father's idols
+- 6:75: ref ¶19 - ¶19 points to it (dominion shown)
+- 6:77: ref ¶19 - ¶19 points to it (moon setting)
+- 6:78: ref ¶19 - ¶19 points to it (sun setting)
+- 6:80: not relevant - dispute with his people
+- 6:81: not relevant - which party deserves safety
+- 17:105: ref ¶14 - sent down with truth
+- 17:106: ref ¶14 - sent down and recited
+- 17:108: ref ¶22 - words spoken in the prostration
+- 17:110: not relevant - voice in prayer, not lowering
+- 17:111: not relevant - praise formula
+- 20:105: ref ¶6, ¶11 - pointed to in ¶6; mountains levelled
+- 20:106: ref ¶11 - left a level plain
+- 20:110: ref ¶6 - His knowledge encompasses them
+- 20:112: not relevant - reward of the believer
+- 20:113: not relevant - Quran with warnings
+- 22:3: not relevant - disputing about God
+- 22:4: not relevant - following the devil
+- 22:6: ref ¶12 - He gives life to the dead
+- 22:7: ref ¶12 - raising those in graves
+- 23:0: not relevant - basmala
+- 23:3: not relevant - turning from idle talk
+- 23:4: not relevant - zakat
+- 39:21: ref ¶14 - water and crops followed by hardened hearts
+- 39:22: ref ¶14 - hearts hard against God's remembrance
+- 39:25: not relevant - earlier deniers punished
+- 39:26: not relevant - disgrace in this life
+- 41:37: ref ¶19 - prostrate not to sun or moon but to their Creator
+- 41:38: not relevant - angels' glorification
+- 41:40: not relevant - thrown into fire versus secure, no face
+- 41:41: not relevant - rejecting the reminder
+- 42:43: not relevant - patience and forgiveness
+- 42:44: ref ¶23 - asking for a way back on seeing punishment
+- 42:46: not relevant - no helpers
+- 57:14: not relevant - hypocrites calling to believers
+- 57:15: not relevant - no ransom
+- 57:18: not relevant - charity rewarded
+- 57:19: not relevant - light of the truthful
+- 59:19: not relevant - forgetting God
+- 59:20: not relevant - two companies unequal
+- 59:22: not relevant - divine names
+- 59:23: not relevant - divine names
+- 67:19: not relevant - birds held aloft
+- 67:20: not relevant - no army besides al-Raḥmān
+- 67:23: not relevant - hearing and sight given
+- 67:24: not relevant - gathered to Him
+- 68:40: not relevant - challenge
+- 68:41: not relevant - partners challenge
+- 68:44: ref ¶23 - respite for deniers
+- 68:45: ref ¶23 - respite for deniers
+- 75:5: not relevant - wish to sin ahead
+- 75:6: ref ¶17 - ¶17 points to the question
+- 75:11: ref ¶17 - no refuge
+- 75:12: ref ¶17, ¶3 - the settling place is with your Lord
+- 75:20: not relevant - love of the fleeting
+- 75:21: not relevant - leaving the hereafter
+- 75:26: not relevant - death agony
+- 75:27: not relevant - who can cure
+- 79:6: ref ¶7 - ¶7 points to the first quake
+- 79:7: ref ¶7 - ¶7 points to the second quake
+- 79:10: ref ¶7 - the trembling hearts' words denying return
+- 79:11: ref ¶7 - continuation of their words
+- 80:31: not relevant - fruits and pasture
+- 80:32: not relevant - provision
+- 80:34: not relevant - fleeing kin
+- 80:35: not relevant - fleeing kin
+- 80:42: ref ¶13 - names the owners of the dusty faces
+- 86:6: ref ¶9 - ¶9 points to creation from gushing water
+- 86:7: ref ¶9 - same creation
+- 86:10: not relevant - no strength or helper
+- 86:11: not relevant - oath by the sky
+- 12:107 own: ref ¶1 - a ghāshiya of God's punishment, the word itself
+- 29:55 own: ref ¶1 - punishment covering them, root of Ghashiya
+- 20:103 own: ref ¶6 - whispering among themselves in the same scene
+- 20:107 own: ref ¶11 - level plain without crookedness or rise (cited in ¶6)
+- 78:38 own: ref ¶6 - none speak except whom al-Raḥmān permits
+- 54:8 own: ref ¶6 - hastening to the caller
+- 40:18 own: ref ¶7 - hearts at the throats that day
+- 40:19 own: ref ¶9 - treachery of eyes and what breasts hide
+- 14:42 own: ref ¶8 - eyes staring on that day
+- 14:43 own: ref ¶8 - gaze not returning, hearts void
+- 2:14 own: ref ¶9 - meeting believers with words against the heart
+- 16:58 own: ref ¶9 - same wording as 43:17
+- 75:14 own: ref ¶9 - man a witness over himself
+- 75:15 own: ref ¶9 - even offering excuses
+- 30:50 own: ref ¶12 - reviving the earth and the dead
+- 35:9 own: ref ¶12 - dead land revived, so is the raising
+- 50:11 own: ref ¶12 - dead land revived, so is the coming forth
+- 2:73 own: context ¶14 (in 2:74) - God showing how He revives the dead
+- 2:74 own: prose ¶14 - hearts hardened like stones; stones falling from fear of God
+- 39:23 own: ref ¶14 - cited ¶3; skins and hearts softening to God's remembrance
+- 56:1 own: context ¶15 (in 56:3) - the event occurring
+- 56:2 own: context ¶15 (in 56:3) - nothing belies its occurrence
+- 96:15 own: ref ¶15 - seized by the forelock
+- 96:16 own: ref ¶15 - lying, sinful forelock
+- 81:1 own: ref ¶17 - sun folded up
+- 81:2 own: ref ¶17 - stars dimmed
+- 77:8 own: ref ¶17 - stars effaced
+- 82:2 own: ref ¶17 - stars scattered
+- 31:22 own: ref ¶18 - surrendering the face to God
+- 30:30 own: ref ¶19 - face set to the religion as a hanif
+- 92:15 own: ref ¶20 - none enters it but the most wretched
+- 27:89 own: context ¶21 (in 27:90) - the one who brings good is safe that day
+- 25:34 own: ref ¶21 - gathered on their faces to Hell, most astray in path
+- 55:26 own: context ¶6 (in 55:27) - all on earth perishes
+- 2:46 own: context ¶23 (in 2:45) - the humble defined by meeting and return
+- 77:48 own: ref ¶23 - told to bow, they do not bow
+- 84:21 own: ref ¶23 - Quran recited, they do not prostrate
