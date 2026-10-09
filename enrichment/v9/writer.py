@@ -70,6 +70,7 @@ def build(a):
     if missing:
         raise SystemExit(f'no verse map for {len(missing)} cited verse(s): {", ".join(missing)}; map them first')
     qs, _ = Q.load(a.ayah)
+    Q.MAX_BYTES = 10 ** 9  # the lookup cap is for an agent's own calls; preloaded text is written whole into parts
     focus = captured(Q.cmd_question, qids=[q['id'] for q in qs])
     if '[cut:' in focus:  # the focus map is written whole, question by question
         focus = ''.join(captured(Q.cmd_question, qids=[q['id']]) for q in qs)
