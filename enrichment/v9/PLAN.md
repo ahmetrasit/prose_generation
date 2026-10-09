@@ -4,6 +4,15 @@ Status 2026-10-08: plan agreed with the user; nothing built yet. Supersedes the 
 and the v8 sift. Keeps v7 tier 1 (`digest.py`) and the tier-2 work as inputs. Demonstration on the 103:1 page:
 `demo-103_1.md`.
 
+## Decisions (user, 2026-10-08)
+
+- The v9 workflow above is agreed: verse maps once per verse, an Opus writer that matches page commitments to them,
+  a separate meal step, a fixed test page (T0).
+- **Verse map model: Sol high.** Chosen after the Luna max test (Luna failed) and the Opus high comparison on 12:49
+  (equivalent for this step, 5.7× the cost). Opus 5.5 high stays the writer.
+- **Codex usage counts toward the budget** (API-equivalent cost is real cost from now on).
+- Maps for the whole 103:1 page approved as the test run (`work/map-103_1-20261008`, 36 verses, ≈ $11–14).
+
 ## What enrichment is for
 
 The r13 ayah page is frozen Turkish prose built from the project dictionary and Qur'anic intertexts; the exegetical
