@@ -215,11 +215,6 @@ def build(d: Path, brief: str) -> tuple[str, dict]:
     if brief in LOOKUP:
         import packets as P
         head += P.tool_line(ayat[0], "lookup")
-        if brief in VERDICT:  # fewer turns after a long think: each one past five minutes re-writes the cache
-            head += ("Lookups: once you have read the whole prompt, gather every passage whose Arabic you want to "
-                     "read (listed or from your own knowledge) and read them together, in one message (several "
-                     "`text` calls side by side when there are more than 40 refs), instead of one lookup at a time "
-                     "while you judge; a later lookup is fine when something new comes up.\n\n")
     secs = [(V.rel(bf), bf.read_text(encoding="utf-8")),
             (f"{V.rel(f)} (prose paragraphs numbered)", "\n\n".join(numbered)),
             (V.rel(led), led.read_text(encoding="utf-8") if led.exists() else "(no ledger)\n")]
@@ -768,6 +763,8 @@ def main() -> None:
     ap.add_argument("--finish", action="store_true", help="finish an agent-spawned run from its response.md and transcript")
     ap.add_argument("--accept", metavar="REASON",
                     help="no call: apply the dir's augment.raw.partial.md after the user judged it complete; the reason is recorded")
+    ap.add_argument("--effort", default=EFFORT, help="recorded effort; the agent's effort is set at spawn (test arms only)")
+    ap.add_argument("--tag", default="", help="test arm: the run goes to augment.<brief>.<model>.<tag>/, never the production dir")
     a = ap.parse_args()
     model = a.model
     d = a.run if a.run.is_absolute() else V.HERE / a.run
@@ -779,10 +776,10 @@ def main() -> None:
     n_judged = NOLIST_OWN if a.brief in NOLIST else meta["passages"]
     n_out = VERDICT_OUT[0] + VERDICT_OUT[1] * n_judged if a.brief in VERDICT else OUT_TOKENS[meta["kind"]]
     est = n_in * w * (LOOKUP_INPUT if a.brief in LOOKUP else 1) + n_out * o
-    out = d / (f"augment.{a.brief}" + ("" if model == MODEL else f".{model}"))
+    out = d / (f"augment.{a.brief}" + ("" if model == MODEL else f".{model}") + (f".{a.tag}" if a.tag else ""))
     print(f"{out.relative_to(V.HERE)}: {meta['passages']} passages, ~{n_in:,} tokens in; "
           + (f"subscription, no USD ({model_id}" if model in CODEX else f"est ${est:.2f} ({model_id}")
-          + f", effort {EFFORT})")
+          + f", effort {a.effort})")
     V.blocked_note(out)
     if n_in > MAX_IN:
         raise SystemExit(f"prompt ~{n_in:,} tokens is over {MAX_IN:,}: split the passages before augmenting")
@@ -796,7 +793,7 @@ def main() -> None:
             raise SystemExit(f"{out}: already finished (run.log.json exists); never twice")
         obj = AR.finish(out, st.get("output", "response.md"))
         t0 = time.mktime(time.strptime(st["started"], "%Y-%m-%dT%H:%M:%S"))
-        res = {**row, "model": obj.get("model") or model_id, "effort": EFFORT, "seconds": round(time.time() - t0),
+        res = {**row, "model": obj.get("model") or model_id, "effort": a.effort, "seconds": round(time.time() - t0),
                "estimate_usd": st.get("estimate_usd", round(est, 2)), "runner": "agent",
                "cost_basis": obj.get("cost_basis"), **V.usage_row(obj, text)}
         complete_call(out, d, meta, a.brief, model, obj, res, text)
@@ -823,14 +820,14 @@ def main() -> None:
     if a.spawn:
         if model in CODEX:
             raise SystemExit("--spawn is for Claude agents; Codex models run through --go")
-        AR.prepare(out, text, {**row, "model": model_id, "effort": EFFORT, "estimate_usd": round(est, 2)}, "augment",
+        AR.prepare(out, text, {**row, "model": model_id, "effort": a.effort, "estimate_usd": round(est, 2)}, "augment",
                    "response.md", lookup=a.brief in LOOKUP)
         return
     t0 = time.time()
     if model in CODEX:
-        obj = call_codex(text, out, model_id, EFFORT)
+        obj = call_codex(text, out, model_id, a.effort)
         u = obj.get("usage") or {}
-        res = {**row, "model": model_id, "effort": EFFORT, "runner": "codex", "seconds": round(time.time() - t0),
+        res = {**row, "model": model_id, "effort": a.effort, "runner": "codex", "seconds": round(time.time() - t0),
                "status": "ok" if obj["returncode"] == 0 and obj["turn_completed"] and obj["result"].strip() else "error",
                "cost_usd": 0.0, "input_tokens": u.get("input_tokens"), "cached_input_tokens": u.get("cached_input_tokens"),
                "output_tokens": u.get("output_tokens"), "reasoning_tokens": u.get("reasoning_output_tokens"),
@@ -839,10 +836,10 @@ def main() -> None:
     else:
         if a.brief in LOOKUP:
             import packets as P
-            obj = V.call_opus(text, out, model, allow=P.ALLOW, effort=EFFORT)
+            obj = V.call_opus(text, out, model, allow=P.ALLOW, effort=a.effort)
         else:
-            obj = V.call_opus(text, out, model, allow=None, effort=EFFORT)
-        res = {**row, "model": model_id, "effort": EFFORT, "seconds": round(time.time() - t0),
+            obj = V.call_opus(text, out, model, allow=None, effort=a.effort)
+        res = {**row, "model": model_id, "effort": a.effort, "seconds": round(time.time() - t0),
                "estimate_usd": round(est, 2), **V.usage_row(obj, text)}
     complete_call(out, d, meta, a.brief, model, obj, res, text)
 
