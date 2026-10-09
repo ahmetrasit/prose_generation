@@ -289,6 +289,8 @@ def update(a):
     built = 0
     for p in man['ayat']:
         ayah, k = p['ayah'], key(p['ayah'])
+        if a.ayat and ayah not in a.ayat:
+            continue
         old = json.loads((m / 'rows' / f'{k}.json').read_text())
         rs = merge.tier1_rows(None, man['from'], ayah, quiet=True)
         ids = {r['id'] for r in rs}
@@ -401,6 +403,7 @@ def main():
     p = sub.add_parser('report'); p.add_argument('run')
     p = sub.add_parser('refresh-rows'); p.add_argument('run')
     p = sub.add_parser('update'); p.add_argument('run'); p.add_argument('--model', required=True, help='e.g. gpt-6-sol:high')
+    p.add_argument('--ayat', nargs='+', help='only these verses')
     a = parser.parse_args()
     {'build': build, 'check': check, 'report': report, 'refresh-rows': refresh_rows, 'update': update}[a.cmd](a)
 
