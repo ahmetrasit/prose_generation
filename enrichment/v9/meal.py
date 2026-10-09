@@ -1,0 +1,128 @@
+#!/usr/bin/env python3
+"""Enrichment v9 P3: the meal block of one ayah page. Launches no model.
+
+One agent per ayah reads the numbered page, the ayah's meal table (panel, relay pair and Arberry, reference set; the
+v2 packer's rendering) and the focus ayah's verse map, and writes the meal block(s): which renderings take which
+position of the tradition, the best literal and best explanatory rendering per word, and what the meals lose.
+
+  meal.py build RUN --ayah 103:1 --page PATH --model claude-opus-5-5:high
+  meal.py check RUN                  ids, paragraphs and positions exist (the agent runs it until OK)
+
+Files: enrichment/v9/work/RUN/meal/inputs/{page,meals,map}.pK.txt, spawn/, out/<TAG>/blocks.jsonl.
+"""
+import argparse
+import json
+import sqlite3
+import subprocess
+import sys
+from pathlib import Path
+
+V9 = Path(__file__).resolve().parent
+sys.path.insert(0, str(V9.parent / 'v7'))
+sys.path.insert(0, str(V9.parent / 'v2'))
+import digest  # noqa: E402
+from digest import PART_CHARS, ROOT, dump  # noqa: E402
+import write  # noqa: E402  (v7 page numbering)
+import pack  # noqa: E402  (v2 meal table)
+
+BRIEF = V9 / 'briefs/meal.md'
+
+
+def mdir(run):
+    return V9 / 'work' / run / 'meal'
+
+
+def parts(d, stem, text, label):
+    chunks = [text[i:i + PART_CHARS] for i in range(0, len(text), PART_CHARS)] or ['']
+    for k, p in enumerate(chunks):
+        tail = f'\n<<part {k} ends; continues in part {k + 1}>>' if k + 1 < len(chunks) else f'\n<<end of {label}>>'
+        (d / f'{stem}.p{k}.txt').write_text(f'<<{label}, part {k} of 0..{len(chunks) - 1}>>\n{p}{tail}\n')
+    return len(chunks)
+
+
+def meal_ids(ayah):
+    s, a = map(int, ayah.split(':'))
+    with sqlite3.connect(ROOT / 'enrichment/corpus/corpus.sqlite') as con:
+        return {r[0] for r in con.execute("SELECT src FROM seg WHERE s=? AND a<=? AND coalesce(a_end,a)>=? AND src IN "
+                                          "(SELECT id FROM src WHERE kind IN ('meal','translation'))", (s, a, a))}
+
+
+def build(a):
+    d = mdir(a.run)
+    if d.exists():
+        raise SystemExit(f'{d} exists; use a new run')
+    (d / 'inputs').mkdir(parents=True)
+    (d / 'spawn').mkdir()
+    _, paras, numbered, _ = write.page(a.page, a.ayah)
+    with sqlite3.connect(ROOT / 'enrichment/corpus/corpus.sqlite') as con:
+        metas = {r[0]: json.loads(r[1] or '{}') for r in con.execute('SELECT id, meta FROM src')}
+        meals = pack.meals_md(con, metas, a.ayah)
+    themap = subprocess.run([sys.executable, '-B', str(V9 / 'q.py'), 'index', a.ayah], capture_output=True, text=True,
+                            check=True).stdout
+    n = {'page': parts(d / 'inputs', 'page', numbered, f'{a.ayah} reading, paragraphs numbered'),
+         'meals': parts(d / 'inputs', 'meals', meals, f'{a.ayah} translations'),
+         'map': parts(d / 'inputs', 'map', themap, f'{a.ayah} verse map, question list')}
+    model, effort = a.model.split(':')
+    tag = digest.tag_of(model, effort)
+    agent = f'/root/v9meal_{a.run}_{tag}_{a.ayah.replace(":", "-")}'
+    fill = {'AGENT': agent, 'MODEL': model, 'EFFORT': effort, 'RUN': a.run, 'TAG': tag, 'AYAH': a.ayah,
+            'LAST_PAGE': str(n['page'] - 1), 'LAST_MEALS': str(n['meals'] - 1), 'LAST_MAP': str(n['map'] - 1)}
+    text = BRIEF.read_text()
+    for x, v in fill.items():
+        text = text.replace('{' + x + '}', v)
+    (d / 'spawn' / f'{tag}.md').write_text(text)
+    (d / 'out' / tag).mkdir(parents=True)
+    dump(d / 'manifest.json', {'ayah': a.ayah, 'page': a.page, 'model': a.model, 'tag': tag, 'agent': agent,
+                               'paragraphs': sorted(paras), 'meals': sorted(meal_ids(a.ayah)), 'parts': n})
+    print(f"{a.ayah}: page {len(numbered):,} chars, meals {len(meals):,}, map {len(themap):,}; "
+          f"spawn {(d / 'spawn' / f'{tag}.md').relative_to(ROOT)}")
+
+
+def check(a):
+    d = mdir(a.run)
+    man = json.loads((d / 'manifest.json').read_text())
+    f = d / 'out' / man['tag'] / 'blocks.jsonl'
+    if not f.exists():
+        print(f'{f.name}: no output file')
+        sys.exit(1)
+    qs = subprocess.run([sys.executable, '-B', str(V9 / 'q.py'), 'index', man['ayah']], capture_output=True, text=True).stdout
+    problems, n = [], 0
+    for i, line in enumerate(f.read_text().splitlines(), 1):
+        if not line.strip():
+            continue
+        try:
+            b = json.loads(line)
+        except ValueError as e:
+            problems.append(f'line {i}: not JSON ({e})')
+            continue
+        n += 1
+        if b.get('p') not in man['paragraphs']:
+            problems.append(f"line {i}: paragraph {b.get('p')} is not a paragraph of the page")
+        if not (b.get('text') or '').strip():
+            problems.append(f'line {i}: empty text')
+        for m in b.get('meals') or []:
+            if m not in man['meals']:
+                problems.append(f'line {i}: {m} has no rendering of {man["ayah"]}')
+        for q in b.get('positions') or []:
+            if q.split('/p')[0] + ' ' not in qs:
+                problems.append(f'line {i}: {q} is not in the map of {man["ayah"]}')
+    if not n:
+        problems.append('no block')
+    for x in problems:
+        print(x)
+    print('OK' if not problems else f'{len(problems)} problem(s)')
+    sys.exit(1 if problems else 0)
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    sub = ap.add_subparsers(dest='cmd', required=True)
+    p = sub.add_parser('build'); p.add_argument('run'); p.add_argument('--ayah', required=True)
+    p.add_argument('--page', required=True); p.add_argument('--model', required=True)
+    p = sub.add_parser('check'); p.add_argument('run')
+    a = ap.parse_args()
+    {'build': build, 'check': check}[a.cmd](a)
+
+
+if __name__ == '__main__':
+    main()
