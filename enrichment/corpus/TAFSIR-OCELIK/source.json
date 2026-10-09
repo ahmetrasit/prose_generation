@@ -1,0 +1,108 @@
+{
+  "kind": "tafsir",
+  "tradition": "",
+  "language": "tr",
+  "access": "yerel",
+  "locator": "ayah",
+  "panel": false,
+  "author": "Ömer Çelik",
+  "translator": "Ömer Çelik",
+  "edition": "Erkam Yayınları, İstanbul 1434 / 2013 (title page of volume 1: «İSTANBUL 1434 / 2013»; «Baskı Tarihi: İstanbul / 2013»; ISBN 978-9944-83-956-3); 5 volumes",
+  "licence": "In copyright (Erkam Yayınları); archive.org upload by a third party; local research use only.",
+  "urls": [
+    "https://archive.org/details/hakkin-daveti-kuran-i-kerim-meali-ve-tefsiri-1-5-omer-celik",
+    "https://archive.org/details/hakkin-daveti-kuran-i-kerim-mealive-tefsiri-02"
+  ],
+  "provenance": {
+    "archive_org_items": {
+      "hakkin-daveti-kuran-i-kerim-meali-ve-tefsiri-1-5-omer-celik": "uploader hanifisar@gmail.com; all 5 volumes in one djvu.txt (parsed)",
+      "hakkin-daveti-kuran-i-kerim-mealive-tefsiri-02": "uploader gunaydin.selami@gmail.com (creator «Lami Aydın», 2024-07-30); volumes 1-5 as separate files (gap fill only)"
+    }
+  },
+  "notes": "archive.org upload by a third party; in copyright; local research use. Ingested 2026-10-09 (fetch/import_meal_ocelik.py): the commentary after each verse, the surah introductions. Ingested 2026-10-09 (fetch/import_meal_ocelik.py): the commentary after each verse, the surah introductions.",
+  "id": "TAFSIR-OCELIK",
+  "title": "Hakk'ın Dâveti: Kur'ân-ı Kerîm Meâli ve Tefsîri (tefsir)",
+  "raw_shared": [
+    "../MEAL-OCELIK/raw/acquired-2026-10-09/"
+  ],
+  "coverage": "1-114 (commentary tied to the verse it follows)",
+  "segments": 3299,
+  "ingestion": {
+    "date": "2026-10-09",
+    "script": "enrichment/v2/fetch/import_meal_ocelik.py",
+    "from": {
+      "raw/acquired-2026-10-09/ocelik-hakkin-daveti-1-5.djvu.txt": "7de1cbbec8699dafe5508697659b171cabb0903dafec1a6d4b1619e130eecc08",
+      "raw/acquired-2026-10-09/ocelik-hakkin-daveti-aydin-01.djvu.txt": "78fc808357f2591eb7a7a068bb80a40eb15ca8e3a6c3dcd801d4a2dae0048699",
+      "raw/acquired-2026-10-09/ocelik-hakkin-daveti-aydin-02.djvu.txt": "24f314fbf713cf0926835ee59a112bc47c2d85d6f39d3a2d7c2cf7192e88a3a2",
+      "raw/acquired-2026-10-09/ocelik-hakkin-daveti-aydin-03.djvu.txt": "b275c4bae1367366e3dd56b63645df8017024a9b6e5e43f5ceded62b5804cf97",
+      "raw/acquired-2026-10-09/ocelik-hakkin-daveti-aydin-04.djvu.txt": "829c84fb3a9344f4e401e916fb5031ae3d00c3abb26015661577b517ead5e46a",
+      "raw/acquired-2026-10-09/ocelik-hakkin-daveti-aydin-05.djvu.txt": "861e4a883e309e8608f0c1b31c356e7c2c14ae757555de2b7e83c3f74ef6f293"
+    },
+    "method": "archive.org OCR text; verse lines «N. text» chosen per surah as the best monotone fit to the verse in seven other meals; each verse's commentary = the lines up to the next verse",
+    "verse_count_mismatch": {},
+    "missing": [],
+    "number_lost_in_ocr_text_tied_to_previous_unit": [
+      "56:34",
+      "56:35",
+      "56:36"
+    ],
+    "issues": [
+      "56: verse lines not found for [34, 35, 36]"
+    ],
+    "counts": {
+      "dropped: page numbers": 2947,
+      "dropped: Arabic-column garbage lines": 8996,
+      "verse paragraphs cut where the commentary begins (no blank line)": 515,
+      "dropped: garbage lines taken for a passage title": 1653,
+      "dropped: basmala lines": 112,
+      "verses with a low fit to the reference meals": 37,
+      "verses found without a readable number": 14
+    },
+    "dropped_sample": {
+      "page numbers": [
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "39"
+      ],
+      "Arabic-column garbage lines": [
+        "db ia, 3",
+        "b İİ v3 4 das",
+        "TB İpi ai",
+        "değ “all ei il",
+        "23/116)",
+        "€9) “ğer Mlz şi Bil",
+        "© İLAN Y3 gl yak",
+        "183)"
+      ],
+      "garbage lines taken for a passage title": [
+        "b Val Esi geli bize gap Yazili biz Ga",
+        "© ella la Sa SY EŞİN",
+        "b Ol gal) kağ Ö gizil le O yeğ",
+        "op Oyla da KİŞİ) eşi) ie sk e Gİ",
+        "dirk öyzla Y İş #gâi A del Yi",
+        "dop dyan eşlik 5 salağı se iü",
+        "hapis Ye çiz",
+        "ii ALĞİ İS Saza leş 33 34 Çap Sİ"
+      ],
+      "basmala lines": [
+        "Rahmân Rahim Allah'ın ismiyle...",
+        "Rahmân Rahim Allah'ın ismiyle...",
+        "Rahmân Rahim Allah'ın ismiyle...",
+        "Rahmân Rahim Allah'ın ismiyle...",
+        "Rahmân Rahim Allah'ın ismiyle...",
+        "Rahmân Rahim Allah'ın ismiyle...",
+        "Rahmân Rahim Allah'ın ismiyle...",
+        "Rahmân Rahim Allah'ın ismiyle..."
+      ]
+    },
+    "segments": 3299,
+    "tied_to_ayah": 3298,
+    "with_cited_ayat": 982,
+    "characters": 4105050
+  }
+}
