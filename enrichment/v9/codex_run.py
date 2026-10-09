@@ -19,21 +19,26 @@ import run_codex  # noqa: E402
 
 
 def one(spawn, retry):
-    m = run_codex.HEADER.match(spawn.read_text())
-    if not m:
-        return f'{spawn}: no agent header; skipped'
-    out = spawn.parent.parent / 'runs' / m.group(1).rsplit('/', 1)[1]
-    if (out / 'run.json').exists():
-        return f'{m.group(1)}: already run, skipped'
-    if out.exists() and not retry:
-        return f'WARNING {m.group(1)}: started earlier without run.json (running or died); not started again'
-    if out.exists():
-        for f in out.iterdir():
-            f.unlink()
-    try:
+    name = str(spawn)
+    try:                                   # every failure becomes a printed WARNING line, never a lost result
+        m = run_codex.HEADER.match(spawn.read_text())
+        if not m:
+            return f'WARNING {spawn}: no agent header; skipped'
+        name = m.group(1)
+        out = spawn.parent.parent / 'runs' / Path(name).name
+        if (out / 'run.json').exists():
+            return f'{name}: already run, skipped'
+        out.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            out.mkdir()                    # the claim is atomic: two runners never start the same agent
+        except FileExistsError:
+            if not retry:
+                return f'WARNING {name}: started earlier without run.json (running or died); not started again'
+            for f in out.iterdir():
+                f.unlink()
         return run_codex.run(spawn)
-    except Exception as e:  # recorded, never silent
-        return f'WARNING {m.group(1)}: {type(e).__name__}: {e}'
+    except Exception as e:
+        return f'WARNING {name}: {type(e).__name__}: {e} (no run.json: recover_run_json.py records its cost)'
 
 
 def main():
@@ -42,7 +47,7 @@ def main():
     ap.add_argument('--parallel', type=int, required=True)
     ap.add_argument('--retry', action='store_true')
     a = ap.parse_args()
-    files = [Path(s).resolve() for s in a.spawn]
+    files = list(dict.fromkeys(Path(s).resolve() for s in a.spawn))   # the same spawn file twice runs once
     with concurrent.futures.ThreadPoolExecutor(max_workers=a.parallel) as pool:
         for line in pool.map(lambda f: one(f, a.retry), files):
             print(line, flush=True)

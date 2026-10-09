@@ -52,7 +52,7 @@ def run(spawn):
            '-s', 'workspace-write', '-C', str(ROOT), '--json', '-o', str(out / 'last.txt'), '-']
     with (out / 'stream.jsonl').open('w') as stream:
         p = subprocess.run(cmd, input=text, text=True, stdout=stream, stderr=subprocess.PIPE,
-                           env={**os.environ, 'PYTHONDONTWRITEBYTECODE': '1'}, timeout=5400)
+                           env={**os.environ, 'PYTHONDONTWRITEBYTECODE': '1'}, timeout=14400)  # 4 h: wall clock, and a disk-throttle pause counts
     usage, thread, completed, commands = {}, None, False, 0
     for line in (out / 'stream.jsonl').read_text().splitlines():
         try:

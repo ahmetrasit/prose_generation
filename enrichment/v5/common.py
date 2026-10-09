@@ -9,6 +9,7 @@ v5 separates discovery, reading and writing:
 Nothing here launches a model or writes to the corpus.
 """
 import json
+import os
 import re
 import sqlite3
 import sys
@@ -68,8 +69,12 @@ def connect():
 
 
 def dump(path, value):
+    """Write JSON atomically (temp file, then rename): a reader never sees a half-written file."""
+    path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n')
+    tmp = path.with_name(path.name + '.tmp')
+    tmp.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n')
+    os.replace(tmp, path)
 
 
 def rows(path):

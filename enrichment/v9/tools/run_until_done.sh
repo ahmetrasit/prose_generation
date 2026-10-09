@@ -6,12 +6,13 @@ P=$1; RUNS=$2; LOG=$3; shift 3
 cd /Volumes/aro/projects/prose_generation
 for pass in 1 2 3 4 5 6 7 8; do
   echo "== pass $pass $(date +%H:%M)" >> $LOG
+  start=$(wc -l < "$LOG")
   python3 -B enrichment/v9/codex_run.py --parallel $P "$@" | grep -v "already run" >> $LOG
   out=$(python3 -B enrichment/v9/tools/rerun_failed_start.py $RUNS); echo "$out" >> $LOG
   if echo "$out" | grep -q ": 0 agent"; then
     # agents that started earlier without run.json (runner killed, timeout) are not failed starts: report them
-    w=$(sed -n "/== pass $pass /,\$p" $LOG | grep -c "started earlier without run.json")
-    [ "$w" -gt 0 ] && echo "== WARNING $w agent(s) started earlier without run.json (running, or died: recover_run_json.py)" >> $LOG
+    w=$(tail -n +$((start + 1)) "$LOG" | grep -c "^WARNING")
+    [ "$w" -gt 0 ] && echo "== WARNING $w agent(s) in the last pass ended in a WARNING (no run.json: running, died or failed; see above; recover_run_json.py)" >> $LOG
     echo "== done" >> $LOG; exit 0
   fi
   sleep 120
