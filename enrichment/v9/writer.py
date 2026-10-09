@@ -72,7 +72,9 @@ def build(a):
     focus = captured(Q.cmd_question, qids=[q['id'] for q in qs])
     if '[cut:' in focus:  # the focus map is written whole, question by question
         focus = ''.join(captured(Q.cmd_question, qids=[q['id']]) for q in qs)
-    index = captured(Q.cmd_index, verses=[v for v in verses if v != a.ayah])
+    index = ''.join(captured(Q.cmd_index, verses=[v]) for v in verses if v != a.ayah)
+    if '[cut:' in focus + index:
+        raise SystemExit('a verse map is larger than one lookup output; split it before building')
     (d / 'inputs').mkdir(parents=True)
     (d / 'spawn').mkdir()
     n = {'page': parts(d / 'inputs', 'page', numbered, f'{a.ayah} reading, paragraphs numbered'),
