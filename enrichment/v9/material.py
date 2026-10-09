@@ -7,7 +7,7 @@ For every verse: the segments tied to it (index range and range overlay), split 
   - tier-1 kinds NOT yet digested (a gap: the map lacks them),
   - other kinds, each with its route: meal → meal table and meal block; translation → meal block (control);
     lexicon → not used (project dictionary only; the writer gets no dictionary); hadith, poetry, wujūh, grammar →
-    word stage (not built); no local text; edition rule (the -FULL edition covers it);
+    word stage (not built); no local text; empty text;
 plus the quotation packet (works with no verse index that quote the verse's own words), digested or not, and the
 surah-level segments of each surah (route: surah page).
 
@@ -37,13 +37,19 @@ ROUTE = {
 
 
 def digested(tag):
+    """Locators digested by finished tier-1 agents. A chunk whose agent has not finished (digest.unfinished) may be
+    partial and is not counted; a malformed line is printed."""
     locs = set()
     for f in (V7 / 'work').glob(f'*/out/{tag}/c*.jsonl'):
-        for line in f.read_text().splitlines():
+        if digest.unfinished(f):          # prints its own note
+            continue
+        for i, line in enumerate(f.read_text().splitlines(), 1):
+            if not line.strip():
+                continue
             try:
                 locs.add(json.loads(line)['loc'])
-            except (ValueError, KeyError):
-                continue
+            except (ValueError, KeyError, TypeError):
+                print(f'WARNING {f.relative_to(V7)} line {i}: unreadable; its segment is not counted as digested')
     return locs
 
 
@@ -52,8 +58,8 @@ def route_of(reason, kind):
         return ROUTE.get(kind, f'no route for kind {kind}')
     if reason.startswith('access'):
         return 'no local text'
-    if 'FULL covers' in reason:
-        return 'edition rule: the -FULL edition is read instead'
+    if reason == 'empty text':
+        return 'no text (empty segment)'
     return reason
 
 

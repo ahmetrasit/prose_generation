@@ -128,14 +128,17 @@ def question_html(qid):
     qs, rows = Q.load(v)
     q = next((x for x in qs or [] if x['id'] == qid), None)
     if q is None:
-        return ''
+        print(f'WARNING {qid}: cited by a block but not in any verse map; shown as missing')
+        return (f'<div class="qa" id="{anchor(qid)}"><div class="qid">{html.escape(qid)}</div>'
+                '<h3>Bu soru ayet haritasında bulunamadı.</h3></div>')
     if v not in _TR:
         import maptr
         _TR[v] = {k: t for k, t in Q.translation(v).items()}
         _TR[v]['__hash'] = maptr.qhash
     t = _TR[v].get(qid)
+    status = '' if t else ' · İngilizce (çevirisi yok)'
     if t and t['src'] != _TR[v]['__hash'](q):
-        t = None  # stale: the map changed after translation
+        t, status = None, ' · İngilizce (çeviri eski: harita sonradan değişti)'  # stale: the map changed after translation
     eng = q
     legend = {r['src']: r['author'] for r in rows.values()}
     items = []
@@ -148,20 +151,20 @@ def question_html(qid):
         who = '; '.join(legend.get(s, s) + ('+' if '+' in m else '') for s, m in by.items())
         against = '; '.join(sorted({legend.get(rows[r]['src'], rows[r]['src']) for r in con if r in rows}))
         tp = (t or {}).get('positions', {}).get(p['id'], {})
-        pos_txt, why_txt = (tp.get('position') or p['position']), (tp.get('reasons') if t else p.get('reasons'))
+        pos_txt, why_txt = (tp.get('position') or p['position']), ((tp.get('reasons') or p.get('reasons')) if t else p.get('reasons'))
         items.append(f'<li>{esc_ar(pos_txt)}'
                      + (f' <span class="why">— {esc_ar(why_txt)}</span>' if why_txt else '')
                      + f'<div class="who">{len(p["rows"])} not: {html.escape(who)}'
                      + (f' · karşı: {html.escape(against)}' if against else '') + '</div></li>')
-    qtext = t['question'] if t else q['question']
-    turn = (t or {}).get('turns_on') if t else q.get('turns_on')
+    qtext = (t['question'] if t else '') or q['question']
+    turn = ((t or {}).get('turns_on') if t else '') or q.get('turns_on')
     orig = ''
     if t:
         lines = ''.join(f'<li>{esc_ar(p["position"])}' + (f' — {esc_ar(p["reasons"])}' if p.get('reasons') else '') + '</li>' for p in eng['positions'])
         orig = (f'<details class="orig"><summary>İngilizce aslı</summary><p>{esc_ar(eng["question"])}</p>'
                 + (f'<p>Turns on: {esc_ar(eng["turns_on"])}</p>' if eng.get('turns_on') else '') + f'<ol>{lines}</ol></details>')
     return (f'<div class="qa" id="{anchor(qid)}"><div class="qid">{html.escape(qid)} · {html.escape(q["type"])}'
-            + ('' if t else ' · İngilizce (çevirisi yok)') + '</div>'
+            + status + '</div>'
             f'<h3>{esc_ar(qtext)}</h3>'
             + (f'<div class="turn">Ayrılık noktası: {esc_ar(turn)}</div>' if turn else '')
             + f'<ol>{"".join(items)}</ol>{orig}</div>')
@@ -178,14 +181,23 @@ def main():
     if a.meal:
         md = V9 / 'work' / a.meal / 'meal'
         mm = json.loads((md / 'manifest.json').read_text())
+        if (mm.get('ayah'), mm.get('page')) != (man['ayah'], man['page']):
+            raise SystemExit(f"--meal {a.meal} is for {mm.get('ayah')}, not {man['ayah']}")
         meals = [json.loads(l) for l in (md / 'out' / mm['tag'] / 'blocks.jsonl').read_text().splitlines() if l.strip()]
     text, paras, _, _ = writer.write7.page(man['page'], man['ayah'])
     last = max(paras)
-    after = defaultdict(list)
+    after, close = defaultdict(list), []
     for b in blocks:
-        after[last if b['kind'] == 'closing' else min(b['p'])].append(block_html(b, b['kind']))
+        if b['kind'] == 'closing':
+            close.append(block_html(b, b['kind']))
+        else:
+            after[min(b['p'])].append(block_html(b, b['kind']))
     for b in meals:
         after[b['p']].append(block_html(b, 'meal'))
+    after[last] += close                           # as render.py: closing after the last paragraph's meal blocks
+    stray = sorted(set(k for k, v in after.items() if v) - set(paras))
+    if stray:
+        raise SystemExit(f'blocks attached to paragraphs not on the page: {stray}')
     body, pos = [], 0
     for p in sorted(paras, key=lambda x: paras[x][0]):
         lo, hi = paras[p]
@@ -198,13 +210,22 @@ def main():
         if after[p]:
             body.append(f'<div class="blocks">{"".join(after[p])}</div>')
         pos = hi
+    for line in text[pos:].splitlines():           # text after the last paragraph, rendered like the text before
+        if line.startswith('#'):
+            body.append(f'<h2>{page_text(line.lstrip("#").strip())}</h2>')
+        elif line.strip():
+            body.append(f'<p class="para">{page_text(line.strip())}</p>')
     cited = list(dict.fromkeys(x for b in blocks + meals for x in b.get('questions') or []))
     cited.sort(key=lambda x: (x.split('/')[0] != man['ayah'], tuple(map(int, x.split('/')[0].split(':'))), x))
     with Q.digest.connect() as con:
         s, n = map(int, man['ayah'].split(':'))
         verse = con.execute("SELECT text FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran' AND s=? AND a=?", (s, n)).fetchone()[0]
     nb = len(blocks) + len(meals)
-    page = f"""<title>{man['ayah']} Enriched Reading</title>
+    page = f"""<!doctype html>
+<html lang="tr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{man['ayah']} Enriched Reading</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri&family=IBM+Plex+Sans:wght@400;500;600&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap">
 <style>{CSS}</style>
@@ -226,8 +247,9 @@ def main():
 document.getElementById('open-all').addEventListener('click',()=>document.querySelectorAll('details.b').forEach(d=>d.open=true));
 document.getElementById('close-all').addEventListener('click',()=>document.querySelectorAll('details.b').forEach(d=>d.open=false));
 </script>
+</html>
 """
-    Path(a.out).write_text(page)
+    Path(a.out).write_text(page, encoding='utf-8')
     print(f'{a.out}: {nb} blocks, {len(cited)} map questions, {len(page):,} characters')
 
 

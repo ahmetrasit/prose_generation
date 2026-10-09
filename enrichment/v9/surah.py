@@ -204,9 +204,9 @@ def finish(a):
                 break
         else:
             h = d / f"{ayah.replace(':', '_')}.html"
-            n = h.read_text().count('çevirisi yok') if h.exists() else 0
+            n = h.read_text(encoding='utf-8').count('· İngilizce (çevir') if h.exists() else 0
             if n:
-                print(f'WARNING {ayah}: {n} map question(s) shown in English only (no current Turkish rendering)')
+                print(f'WARNING {ayah}: {n} map question(s) shown in English only (no current Turkish rendering: missing or stale)')
     for x in bad:
         print(f'WARNING {x}')
     print(f"{len(p['pages']) - len(bad)} of {len(p['pages'])} pages rendered into {d.relative_to(ROOT)}")
