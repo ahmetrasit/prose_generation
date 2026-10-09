@@ -42,7 +42,7 @@ HEADING = re.compile(rf"^\s*({N})\s?-\s?({NAME})\s?SURES[İI]\.?\s*$")
 G = rf"{N}(?:\s?[/–—-]\s?{N}){{0,2}}"  # «5», «1/2», «14-15», «33-34-35»
 VERSE = re.compile(rf"^[\W_]{{0,3}}({G})(?:\s?[-–—]\s*|\.\s+(?={CAP}))(.*)$")
 NOTE_DIG = re.compile(r"^\s*([0-9lIO]{1,4})\s+(\S.*)$")
-INLINE = re.compile(rf"(?:(?<=\s)|(?<=[.!?…;:”\"’)\]\w]))({G})(?:\s?-\s*|\.\s+)(?={CAP})")
+INLINE = re.compile(rf"(?:(?<=\s)|(?<=[.!?…;:”\"’)\]\w]))(?<!\d)({G})(?:\s?-\s*|\.\s+)(?={CAP}|$)")
 NOTE_SYM = re.compile(r"^\s*(\S{1,2})\s+((?:Yani|[A-ZÇĞİÖŞÜÂ'’][A-ZÇĞİÖŞÜÂa-zçğıöşü'’\-/ ]{1,35}):.*)$")
 BASMALA = re.compile(r"^\s*(SEVG[İI]\s+(VE\s+)?MERHAMET[İI]\w*|SONSUZ\s+ALLAH.{0,3}IN\s+ADIYLA|SEVG[İI]\s+VE\s+MERHAMET[İI]\s+SONSUZ.*)\s*$")
 CLAIM = re.compile(r"(?:Mekke|Medine)'de\s+\w+.*?(\d{1,3})\s+ayet", re.I)
@@ -154,6 +154,8 @@ def clean(text: str) -> tuple[str, list[str]]:
     """Removes the OCR noise of the Arabic column from a verse: a run of noisy tokens at its end (any length), or
     three or more inside it. The removed runs are returned (kept in the segment, never silently lost)."""
     toks = text.split()
+    if len(toks) <= 3:  # a very short verse («Ta Ha.», «Ya Sin.»): nothing to separate from the Arabic column
+        return " ".join(toks), []
     flags = [noisy(x) for x in toks]
     removed: list[str] = []
     end = len(toks)
@@ -190,6 +192,10 @@ def join(parts: list[str]) -> str:
         else:
             out = (out + " " + p) if out else p
     return re.sub(r"\s+", " ", out).strip()
+
+
+def surah_of(verses: dict, unit: dict) -> int:
+    return next(k[0] for k, v in verses.items() if v is unit)
 
 
 def main() -> None:
@@ -309,7 +315,7 @@ def main() -> None:
                 continue
             mv = VERSE.match(x)
             g = grp(mv.group(1)) if mv and surah else None
-            if g and g[1] >= g[0] and g[1] <= counts[surah] and g[1] - g[0] <= 3 and (g[1] - g[0] == 1 or g[0] == g[1] or not g[2] or True):
+            if g and g[1] >= g[0] and g[1] <= counts[surah] and (g[1] - g[0] <= 3 or (g[2] and g[1] - g[0] <= 30)) and (g[1] - g[0] == 1 or g[0] == g[1] or not g[2] or True):
                 f, l, slash = g
                 if (verse - 3 <= f < verse and l == f and not slash and not any(
                         k[0] == surah and verses[k]["a"] <= f <= verses[k]["a_end"] for k in verses)):
@@ -323,6 +329,14 @@ def main() -> None:
                 if not ok and verse > 0 and verse + 1 < f <= min(verse + 3, counts[surah]):
                     tie_gap(surah, verse + 1, f - 1, f"before {surah}:{f}")
                     ok = True
+                if (not ok and verse > 0 and (mode == "verse" or f - verse <= 8) and re.match(r"^\W{0,3}[0-9lIiıOoSB ]{1,4}\s?[-–—]", x) and f == l and not slash and verse + 3 < f <= counts[surah]
+                        and mv.group(2).strip()[:1].isupper() or (not ok and verse > 0 and (mode == "verse" or f - verse <= 8) and re.match(r"^\W{0,3}[0-9lIiıOoSB ]{1,4}\s?[-–—]", x) and f == l and not slash
+                        and verse + 3 < f <= counts[surah] and mv.group(2).strip()[:1] in "“\"'(")):
+                    # a long jump: the verses between were printed in a column the OCR read across (their text
+                    # sits inside the units before); resynchronise on this number, flagged
+                    tie_gap(surah, verse + 1, f - 1, f"before {surah}:{f} (long jump, resynchronised)")
+                    stats["long jumps resynchronised"] += 1
+                    ok = True
                 if ok:
                     cur = start(surah, f, l, mode_vol)
                     verse = l
@@ -330,6 +344,14 @@ def main() -> None:
                     if mv.group(2).strip():
                         feed(mv.group(2))
                     continue
+            if surah and verse > 0 and verse + 1 == counts[surah] and mode == "verse" and re.match(r"^\s*[-–—]\s+[A-ZÇĞİÖŞÜ“]", x) and not garbage(x) and len(x.split()) >= 4:
+                # the last verse printed with its number lost and only the dash left by the OCR
+                verse += 1
+                cur = start(surah, verse, verse, mode_vol)
+                cur.append(re.sub(r"^\s*[-–—]\s+", "", x))
+                stats["last verse with the number lost (dash only), numbered by position"] += 1
+                issues.append(f"{surah}:{verse}: number lost in the OCR (dash only); taken as the last verse by position")
+                continue
             if surah == 1 and verse == 0 and re.match(r"^\s*[1lI]\s+SEVG", x):
                 verse = 1
                 cur = start(1, 1, 1, mode_vol)
@@ -447,6 +469,12 @@ def main() -> None:
     got = Counter(s for (s, _) in cover)
     short = {s: (got[s], counts[s]) for s in counts if got[s] != counts[s]}
     missing = [f"{s}:{n}" for s in counts for n in range(1, counts[s] + 1) if (s, n) not in cover]
+    n_empty = 0
+    for g_ in [u for u in verses.values() if not clean(join(u["parts"]))[0].strip()]:
+        for n_ in range(g_["a"], g_["a_end"] + 1):
+            if not any(m_ == f"{surah_of(verses, g_)}:{n_}" for m_ in missing):
+                missing.append(f"{surah_of(verses, g_)}:{n_}")
+                n_empty += 1
     print(f"surahs {len(intros)}; verses {len(cover)}/6236; surahs not matching {len(short)} {dict(list(short.items())[:15])}")
     print(f"{dict(stats)}; issues {len(issues)} {issues[:10]}")
     if a.dump:
@@ -460,14 +488,14 @@ def main() -> None:
         "script": "enrichment/v2/fetch/import_meal_eliacik.py", "from": IC.inputs(SID, STEMS + ["eliacik-yasayan-kuran-nuzul-metin"]),
         "method": "archive.org OCR text (djvu.txt) of the three mushaf-ordered volumes; state machine over lines; "
                   "verses «N- text» in sequence; footnotes in sequence, tied by marker where the OCR kept it",
-        "verse_count_mismatch": {str(k): v for k, v in short.items()}, "missing": missing,
+        "verse_count_mismatch": {str(k): v for k, v in short.items()}, "missing": [{"ayah": m_, "reason": "the verse number is printed in the OCR text but no meal text follows it (verse text lost in the OCR of this copy)", "checked": ["the three mushaf-ordered djvu.txt volumes", "the revelation-ordered edition djvu.txt (a later, rephrased edition, not usable as the same text)"]} for m_ in missing],
         "number_lost_in_ocr_text_tied_to_previous_unit": tied, "issues": issues,
         "counts": dict(stats), "dropped_sample": sample,
-    }, {"coverage": f"1-114 ({len(cover)}/6236 ayat)", "locator": "ayah", "kind": "meal",
+    }, {"coverage": f"1-114 ({len(cover) - n_empty}/6236 ayat)", "locator": "ayah", "kind": "meal",
         "notes": META["notes"] + f" Ingested {IC._dt.date.today().isoformat()} (fetch/import_meal_eliacik.py) from the OCR text of the "
-                 f"three mushaf-ordered volumes: {len(cover)}/6236 ayat covered; {len(tied)} places where the OCR lost a verse number "
+                 f"three mushaf-ordered volumes: {len(cover) - n_empty}/6236 ayat covered (2026-10-09 review: pages printed in two columns, which the OCR reads across, were resynchronised; their verses may carry words of a neighbouring verse); {len(tied)} places where the OCR lost a verse number "
                  f"(their text sits in the unit before, tied there: see ingestion.number_lost_in_ocr_text_tied_to_previous_unit); "
-                 f"{len(missing)} verses with no text at all. Some verses are printed as groups («1/2-», «14-15-»), kept as a..a_end "
+                 f"{len(missing)} verse(s) with no text at all (ingestion.missing). Some verses are printed as groups («1/2-», «14-15-»), kept as a..a_end "
                  f"(overlapping groups such as 18:1-2 and 18:2-3 are both kept). Footnotes (Eliaçık's commentary) are kept whole; "
                  f"{stats['footnotes placed by their marker']} are placed by their marker, the others are tied to the verses of their page. "
                  f"OCR noise from the Arabic column was removed from verse text and kept in each segment's ocr_noise_removed; some "

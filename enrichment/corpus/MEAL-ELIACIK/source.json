@@ -10,7 +10,7 @@
   "locator": "ayah",
   "panel": true,
   "edition": "İnşa Yayınları, İstanbul; 3 volumes in mushaf order, 1st printing April 2007 (as stated on the title page of volume 1: «İnşa Yayınları:9 … © İnşa Yayınları, Nisan 2007»); the revelation-ordered one-volume edition (İnşa Yayınları:10, 5th printing September 2014) is held as raw only",
-  "coverage": "1-114 (6236/6236 ayat)",
+  "coverage": "1-114 (6235/6236 ayat)",
   "licence": "In copyright (İnşa Yayınları); archive.org upload by a third party; local research use only.",
   "urls": [
     "https://archive.org/details/ihsan-eliacik-yasayan-kuran-1-turkce-meal-tefsir",
@@ -22,8 +22,8 @@
       "YasayanKuranIhsanEliacikMetin": "uploader lazkopatgenc@hotmail.com; revelation-ordered edition, djvu.txt held as raw"
     }
   },
-  "notes": "archive.org upload by a third party; in copyright; local research use. Ingested 2026-10-09 (fetch/import_meal_eliacik.py) from the OCR text of the three mushaf-ordered volumes: 6236/6236 ayat covered; 69 places where the OCR lost a verse number (their text sits in the unit before, tied there: see ingestion.number_lost_in_ocr_text_tied_to_previous_unit); 0 verses with no text at all. Some verses are printed as groups («1/2-», «14-15-»), kept as a..a_end (overlapping groups such as 18:1-2 and 18:2-3 are both kept). Footnotes (Eliaçık's commentary) are kept whole; 30 are placed by their marker, the others are tied to the verses of their page. OCR noise from the Arabic column was removed from verse text and kept in each segment's ocr_noise_removed; some noise remains inside lines. OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
-  "segments": 7336,
+  "notes": "archive.org upload by a third party; in copyright; local research use. Ingested 2026-10-09 (fetch/import_meal_eliacik.py) from the OCR text of the three mushaf-ordered volumes: 6235/6236 ayat covered (2026-10-09 review: pages printed in two columns, which the OCR reads across, were resynchronised; their verses may carry words of a neighbouring verse); 46 places where the OCR lost a verse number (their text sits in the unit before, tied there: see ingestion.number_lost_in_ocr_text_tied_to_previous_unit); 1 verse(s) with no text at all (ingestion.missing). Some verses are printed as groups («1/2-», «14-15-»), kept as a..a_end (overlapping groups such as 18:1-2 and 18:2-3 are both kept). Footnotes (Eliaçık's commentary) are kept whole; 30 are placed by their marker, the others are tied to the verses of their page. OCR noise from the Arabic column was removed from verse text and kept in each segment's ocr_noise_removed; some noise remains inside lines. OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
+  "segments": 7858,
   "ingestion": {
     "date": "2026-10-09",
     "script": "enrichment/v2/fetch/import_meal_eliacik.py",
@@ -35,77 +35,63 @@
     },
     "method": "archive.org OCR text (djvu.txt) of the three mushaf-ordered volumes; state machine over lines; verses «N- text» in sequence; footnotes in sequence, tied by marker where the OCR kept it",
     "verse_count_mismatch": {},
-    "missing": [],
+    "missing": [
+      {
+        "ayah": "86:17",
+        "reason": "the verse number is printed in the OCR text but no meal text follows it (verse text lost in the OCR of this copy)",
+        "checked": [
+          "the three mushaf-ordered djvu.txt volumes",
+          "the revelation-ordered edition djvu.txt (a later, rephrased edition, not usable as the same text)"
+        ]
+      }
+    ],
     "number_lost_in_ocr_text_tied_to_previous_unit": [
       "2:244",
       "4:130",
       "4:161",
       "7:67",
-      "7:126",
-      "7:139-140",
       "8:40",
       "11:54-55",
-      "11:83",
       "12:17",
-      "12:75",
       "15:71",
       "15:93",
       "16:111",
       "17:6-7",
       "20:48",
       "20:51",
-      "21:10-112",
-      "23:37-118",
+      "21:2-6",
+      "21:8-10",
+      "21:101",
+      "23:32-36",
+      "23:80-84",
       "24:43",
-      "26:78-227",
-      "27:43",
+      "26:194-195",
       "30:47",
-      "34:11",
       "34:41",
-      "34:50",
-      "36:17",
-      "36:23-24",
+      "36:24",
       "36:26-27",
       "37:71",
-      "37:162-163",
-      "38:35",
+      "37:173",
       "38:78",
       "40:57",
       "42:21",
       "43:3-4",
-      "44:48-49",
-      "52:28",
-      "53:48-62",
       "54:25",
-      "56:19-96",
       "60:5",
       "63:5",
-      "68:12",
       "69:27-28",
-      "69:31-32",
-      "74:23-24",
-      "74:45-56",
-      "75:25",
-      "76:21-22",
       "77:16",
       "77:18-19",
       "77:26",
       "78:33",
-      "79:10-46",
+      "79:10-12",
       "80:2-3",
-      "80:10",
-      "80:31-32",
-      "80:35-42",
       "81:22",
-      "83:14-36",
       "84:19",
       "85:11",
-      "86:17",
-      "88:9-26",
+      "88:9-11",
       "90:5",
-      "93:6-7",
-      "109:6",
-      "113:2-5"
+      "93:6-7"
     ],
     "issues": [
       "surah 2: opened by a running header (no heading found) in eliacik-yasayan-kuran-1",
@@ -135,8 +121,6 @@
       "7: footnotes 11–11 not found before footnote 12",
       "7: footnotes 13–13 not found before footnote 14",
       "7:67–67: verse number(s) lost in the OCR before 7:68; their text is in the unit 7:66, tied there",
-      "7:126–126: verse number(s) lost in the OCR before 7:127; their text is in the unit 7:125, tied there",
-      "7:139–140: verse number(s) lost in the OCR before 7:141; their text is in the unit 7:138, tied there",
       "7: footnotes 45–46 not found before footnote 47",
       "8: footnotes 2–2 not found before footnote 3",
       "8: footnotes 7–7 not found before footnote 8",
@@ -152,14 +136,12 @@
       "11: footnotes 11–11 not found before footnote 12",
       "11: footnotes 13–13 not found before footnote 14",
       "11: footnotes 15–15 not found before footnote 16",
-      "11:83–83: verse number(s) lost in the OCR before 11:84; their text is in the unit 11:82, tied there",
       "11: footnotes 21–21 not found before footnote 22",
       "11: footnotes 27–27 not found before footnote 28",
       "11: footnotes 31–31 not found before footnote 32",
       "12: footnotes 4–4 not found before footnote 5",
       "12:17–17: verse number(s) lost in the OCR before 12:18; their text is in the unit 12:16, tied there",
       "12: footnotes 6–6 not found before footnote 7",
-      "12:75–75: verse number(s) lost in the OCR before 12:76; their text is in the unit 12:74, tied there",
       "12: footnotes 10–11 not found before footnote 12",
       "15: footnotes 1–1 not found before footnote 2",
       "15: footnotes 6–6 not found before footnote 7",
@@ -193,11 +175,16 @@
       "20: footnotes 15–15 not found before footnote 16",
       "20: footnotes 25–25 not found before footnote 26",
       "20: footnotes 29–29 not found before footnote 30",
+      "21:2–6: verse number(s) lost in the OCR before 21:7 (long jump, resynchronised); their text is in the unit 21:1, tied there",
+      "21:8–10: verse number(s) lost in the OCR before 21:11 (long jump, resynchronised); their text is in the unit 21:7, tied there",
       "21: footnotes 6–6 not found before footnote 7",
       "21: footnotes 18–18 not found before footnote 19",
+      "21:101–101: verse number(s) lost in the OCR before 21:102; their text is in the unit 21:100, tied there",
       "21: footnotes 32–32 not found before footnote 33",
       "22: footnotes 11–11 not found before footnote 12",
       "22: footnotes 17–17 not found before footnote 18",
+      "23:32–36: verse number(s) lost in the OCR before 23:37 (long jump, resynchronised); their text is in the unit 23:31, tied there",
+      "23:80–84: verse number(s) lost in the OCR before 23:85 (long jump, resynchronised); their text is in the unit 23:79, tied there",
       "24: footnotes 1–2 not found before footnote 3",
       "24: footnotes 5–6 not found before footnote 7",
       "24: footnotes 11–12 not found before footnote 13",
@@ -208,10 +195,10 @@
       "26: footnotes 9–9 not found before footnote 10",
       "26: footnotes 11–11 not found before footnote 12",
       "26: footnotes 13–13 not found before footnote 14",
+      "26:194–195: verse number(s) lost in the OCR before 26:196; their text is in the unit 26:193, tied there",
       "26: footnotes 15–15 not found before footnote 16",
       "27: footnotes 2–2 not found before footnote 3",
       "27: footnotes 5–6 not found before footnote 7",
-      "27:43–43: verse number(s) lost in the OCR before 27:44; their text is in the unit 27:42, tied there",
       "27: footnotes 13–13 not found before footnote 14",
       "28: footnotes 1–1 not found before footnote 2",
       "28: footnotes 17–17 not found before footnote 18",
@@ -225,22 +212,18 @@
       "33: footnotes 15–15 not found before footnote 16",
       "33: footnotes 33–33 not found before footnote 34",
       "33: footnotes 35–35 not found before footnote 36",
-      "34:11–11: verse number(s) lost in the OCR before 34:12; their text is in the unit 34:10, tied there",
       "34: footnotes 6–6 not found before footnote 7",
       "34: footnotes 11–11 not found before footnote 12",
       "34:41–41: verse number(s) lost in the OCR before 34:42; their text is in the unit 34:40, tied there",
       "34: footnotes 18–19 not found before footnote 20",
-      "34:50–50: verse number(s) lost in the OCR before 34:51; their text is in the unit 34:49, tied there",
       "35: footnotes 6–7 not found before footnote 8",
-      "36:17–17: verse number(s) lost in the OCR before 36:18; their text is in the unit 36:16, tied there",
-      "36:23–24: verse number(s) lost in the OCR before 36:25; their text is in the unit 36:22, tied there",
+      "36:24–24: verse number(s) lost in the OCR before 36:25; their text is in the unit 36:23, tied there",
       "36:26–27: verse number(s) lost in the OCR before 36:28; their text is in the unit 36:25, tied there",
       "36: footnotes 15–15 not found before footnote 16",
       "37: footnotes 6–6 not found before footnote 7",
       "37:71–71: verse number(s) lost in the OCR before 37:72; their text is in the unit 37:70, tied there",
       "37: footnotes 13–13 not found before footnote 14",
-      "37:162–163: verse number(s) lost in the OCR before 37:164; their text is in the unit 37:161, tied there",
-      "38:35–35: verse number(s) lost in the OCR before 38:36; their text is in the unit 38:34, tied there",
+      "37:173–173: verse number(s) lost in the OCR before 37:174; their text is in the unit 37:172, tied there",
       "38: footnotes 12–12 not found before footnote 13",
       "38: footnotes 15–15 not found before footnote 16",
       "38:78–78: verse number(s) lost in the OCR before 38:79; their text is in the unit 38:77, tied there",
@@ -255,7 +238,6 @@
       "43: footnotes 11–11 not found before footnote 12",
       "43: footnotes 13–13 not found before footnote 14",
       "44: footnotes 6–6 not found before footnote 7",
-      "44:48–49: verse number(s) lost in the OCR before 44:50; their text is in the unit 44:47, tied there",
       "44: footnotes 9–9 not found before footnote 10",
       "46: footnotes 5–6 not found before footnote 7",
       "47: footnotes 1–1 not found before footnote 2",
@@ -268,7 +250,6 @@
       "50: footnotes 11–11 not found before footnote 12",
       "50: footnotes 13–13 not found before footnote 14",
       "51: footnotes 13–13 not found before footnote 14",
-      "52:28–28: verse number(s) lost in the OCR before 52:29; their text is in the unit 52:27, tied there",
       "52: footnotes 12–12 not found before footnote 13",
       "53: footnotes 1–1 not found before footnote 2",
       "53: footnotes 6–6 not found before footnote 7",
@@ -287,29 +268,24 @@
       "64: footnotes 6–6 not found before footnote 7",
       "65: footnotes 1–1 not found before footnote 2",
       "68: footnotes 1–2 not found before footnote 3",
-      "68:12–12: verse number(s) lost in the OCR before 68:13; their text is in the unit 68:11, tied there",
       "69:27–28: verse number(s) lost in the OCR before 69:29; their text is in the unit 69:26, tied there",
-      "69:31–32: verse number(s) lost in the OCR before 69:33; their text is in the unit 69:30, tied there",
       "71: footnotes 6–6 not found before footnote 7",
       "72: footnotes 4–4 not found before footnote 5",
-      "74:23–24: verse number(s) lost in the OCR before 74:25; their text is in the unit 74:22, tied there",
       "74: footnotes 9–9 not found before footnote 10",
-      "75:25–25: verse number(s) lost in the OCR before 75:26; their text is in the unit 75:24, tied there",
-      "76:21–22: verse number(s) lost in the OCR before 76:23; their text is in the unit 76:20, tied there",
       "77:16–16: verse number(s) lost in the OCR before 77:17; their text is in the unit 77:15, tied there",
       "77:18–19: verse number(s) lost in the OCR before 77:20; their text is in the unit 77:17, tied there",
       "77:26–26: verse number(s) lost in the OCR before 77:27; their text is in the unit 77:25, tied there",
       "77: footnotes 9–9 not found before footnote 10",
       "78: footnotes 1–1 not found before footnote 2",
       "78:33–33: verse number(s) lost in the OCR before 78:34; their text is in the unit 78:32, tied there",
+      "79:10–12: verse number(s) lost in the OCR before 79:13 (long jump, resynchronised); their text is in the unit 79:9, tied there",
       "79: footnotes 2–2 not found before footnote 3",
       "80:2–3: verse number(s) lost in the OCR before 80:4; their text is in the unit 80:1, tied there",
-      "80:10–10: verse number(s) lost in the OCR before 80:11; their text is in the unit 80:9, tied there",
-      "80:31–32: verse number(s) lost in the OCR before 80:33; their text is in the unit 80:30, tied there",
       "80: footnotes 2–2 not found before footnote 3",
       "81:22–22: verse number(s) lost in the OCR before 81:23; their text is in the unit 81:21, tied there",
       "84:19–19: verse number(s) lost in the OCR before 84:20; their text is in the unit 84:18, tied there",
       "85:11–11: verse number(s) lost in the OCR before 85:12; their text is in the unit 85:10, tied there",
+      "88:9–11: verse number(s) lost in the OCR before 88:12 (long jump, resynchronised); their text is in the unit 88:8, tied there",
       "90: footnotes 1–1 not found before footnote 2",
       "90:5–5: verse number(s) lost in the OCR before 90:6; their text is in the unit 90:4, tied there",
       "90: footnotes 12–13 not found before footnote 14",
@@ -321,34 +297,23 @@
       "101: footnotes 1–1 not found before footnote 2",
       "103: footnotes 4–4 not found before footnote 5",
       "105: footnotes 1–1 not found before footnote 2",
-      "113: footnotes 1–1 not found before footnote 2",
-      "88: the book says 29 ayat, the Quran source has 26",
-      "21:10–112: verse number(s) lost in the OCR before the surah ends; their text is in the unit 21:9, tied there",
-      "23:37–118: verse number(s) lost in the OCR before the surah ends; their text is in the unit 23:36, tied there",
-      "26:78–227: verse number(s) lost in the OCR before the surah ends; their text is in the unit 26:77, tied there",
-      "53:48–62: verse number(s) lost in the OCR before the surah ends; their text is in the unit 53:47, tied there",
-      "56:19–96: verse number(s) lost in the OCR before the surah ends; their text is in the unit 56:18, tied there",
-      "74:45–56: verse number(s) lost in the OCR before the surah ends; their text is in the unit 74:44, tied there",
-      "79:10–46: verse number(s) lost in the OCR before the surah ends; their text is in the unit 79:9, tied there",
-      "80:35–42: verse number(s) lost in the OCR before the surah ends; their text is in the unit 80:34, tied there",
-      "83:14–36: verse number(s) lost in the OCR before the surah ends; their text is in the unit 83:13, tied there",
-      "86:17–17: verse number(s) lost in the OCR before the surah ends; their text is in the unit 86:16, tied there",
-      "88:9–26: verse number(s) lost in the OCR before the surah ends; their text is in the unit 88:8, tied there",
-      "109:6–6: verse number(s) lost in the OCR before the surah ends; their text is in the unit 109:5, tied there",
-      "113:2–5: verse number(s) lost in the OCR before the surah ends; their text is in the unit 113:1, tied there"
+      "109:6: number lost in the OCR (dash only); taken as the last verse by position",
+      "88: the book says 29 ayat, the Quran source has 26"
     ],
     "counts": {
       "dropped: volume page numbers": 46,
       "dropped: running headers": 708,
       "surah headings": 113,
-      "dropped: Arabic-column / frame garbage lines": 6523,
-      "footnote numbers garbled by the OCR (taken in sequence)": 619,
+      "dropped: Arabic-column / frame garbage lines": 6073,
+      "footnote numbers garbled by the OCR (taken in sequence)": 622,
       "dropped: repeated surah headings (meal page head)": 637,
       "dropped: basmala lines": 215,
-      "verses started inside a line": 291,
-      "verse segments with OCR noise removed (kept in ocr_noise_removed)": 795,
-      "footnotes tied to the verses of their page (no marker in the text)": 1633,
-      "footnotes": 1663,
+      "verses started inside a line": 490,
+      "long jumps resynchronised": 6,
+      "last verse with the number lost (dash only), numbered by position": 1,
+      "verse segments with OCR noise removed (kept in ocr_noise_removed)": 829,
+      "footnotes tied to the verses of their page (no marker in the text)": 1641,
+      "footnotes": 1671,
       "footnotes placed by their marker": 30
     },
     "dropped_sample": {
@@ -403,10 +368,10 @@
         "SONSUZ ALLAH'IN ADIYLA"
       ]
     },
-    "segments": 7336,
-    "tied_to_ayah": 7335,
+    "segments": 7858,
+    "tied_to_ayah": 7857,
     "with_cited_ayat": 0,
-    "characters": 2552381,
+    "characters": 2583434,
     "ocr_corrections": {
       "date": "2026-10-09",
       "script": "enrichment/v2/fetch/ocr_fix.py",
@@ -419,97 +384,97 @@
         "case": "stray capital inside a word lower-cased when the lower-cased form is attested"
       },
       "fixes_per_rule": {
-        "header": 991,
-        "sub": 215,
-        "hyphen": 132,
+        "header": 988,
+        "sub": 219,
+        "hyphen": 133,
         "join": 6,
         "case": 1
       },
-      "segments_changed": 756,
+      "segments_changed": 765,
       "confusions_used_beyond_core": [
         "g>ğ",
         "ü>û"
       ],
-      "sub_candidates_left_alone_unconfirmed": 75,
+      "sub_candidates_left_alone_unconfirmed": 73,
       "space_join_runs_left_alone_ambiguous": 0,
       "samples": [
         {
-          "seg": "MEAL-ELIACIK:26:61#n12",
-          "from": "Cüz:19",
+          "seg": "MEAL-ELIACIK:28:22#n9",
+          "from": "Sayfa:313",
           "to": "",
           "rule": "header"
         },
         {
-          "seg": "MEAL-ELIACIK:57:4#n8",
-          "from": "Cüz:27",
+          "seg": "MEAL-ELIACIK:65:5#n5",
+          "from": "Cüz:28",
           "to": "",
           "rule": "header"
         },
         {
-          "seg": "MEAL-ELIACIK:29:30#n10",
-          "from": "Cüz:20",
+          "seg": "MEAL-ELIACIK:32:20#n6",
+          "from": "Sayfa:361",
           "to": "",
           "rule": "header"
         },
         {
-          "seg": "MEAL-ELIACIK:26:61#n12",
-          "from": "Sayfa:280",
+          "seg": "MEAL-ELIACIK:28:14#n8",
+          "from": "Sayfa:312",
           "to": "",
           "rule": "header"
         },
         {
-          "seg": "MEAL-ELIACIK:39:6#n8",
-          "from": "Sayfa:467",
+          "seg": "MEAL-ELIACIK:40:26#n8",
+          "from": "Sayfa:13",
           "to": "",
           "rule": "header"
         },
         {
-          "seg": "MEAL-ELIACIK:77:1#n1",
-          "from": "Cüz:29",
+          "seg": "MEAL-ELIACIK:109:1#n3",
+          "from": "diger",
+          "to": "diğer",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ELIACIK:53:10",
+          "from": "gördügünü",
+          "to": "gördüğünü",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ELIACIK:46:15",
+          "from": "dogurdu",
+          "to": "doğurdu",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ELIACIK:41:39#n17",
+          "from": "Sayfa:31",
           "to": "",
           "rule": "header"
         },
         {
-          "seg": "MEAL-ELIACIK:56:18",
-          "from": "Cüz:27",
+          "seg": "MEAL-ELIACIK:34:31#n17",
+          "from": "Sayfa:402",
           "to": "",
           "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:front",
+          "from": "ko-\nnuşan",
+          "to": "konuşan",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ELIACIK:front",
+          "from": "vaziyet-\ntedir",
+          "to": "vaziyettedir",
+          "rule": "hyphen"
         },
         {
           "seg": "MEAL-ELIACIK:49:4",
-          "from": "Aynca",
-          "to": "Ayrıca",
-          "rule": "sub"
-        },
-        {
-          "seg": "MEAL-ELIACIK:39:57#n19",
-          "from": "Sayfa:475",
+          "from": "Sayfa:101",
           "to": "",
           "rule": "header"
-        },
-        {
-          "seg": "MEAL-ELIACIK:33:6#n9",
-          "from": "Cüz:21",
-          "to": "",
-          "rule": "header"
-        },
-        {
-          "seg": "MEAL-ELIACIK:front",
-          "from": "in-\nsan",
-          "to": "insan",
-          "rule": "hyphen"
-        },
-        {
-          "seg": "MEAL-ELIACIK:front",
-          "from": "dü-\nrüstlük",
-          "to": "dürüstlük",
-          "rule": "hyphen"
-        },
-        {
-          "seg": "MEAL-ELIACIK:52:35",
-          "from": "kendiliginden",
-          "to": "kendiliğinden",
-          "rule": "sub"
         },
         {
           "seg": "MEAL-ELIACIK:5:89",
@@ -518,13 +483,13 @@
           "rule": "header"
         },
         {
-          "seg": "MEAL-ELIACIK:25:44#n18",
-          "from": "Sayfa:267",
+          "seg": "MEAL-ELIACIK:27:1#n1",
+          "from": "Cüz:19",
           "to": "",
           "rule": "header"
         },
         {
-          "seg": "MEAL-ELIACIK:6:143#n52",
+          "seg": "MEAL-ELIACIK:7:38#n22",
           "from": "Cüz:8",
           "to": "",
           "rule": "header"
@@ -542,15 +507,15 @@
           "rule": "sub"
         },
         {
-          "seg": "MEAL-ELIACIK:47:20#n9",
-          "from": "Sayfa:85",
-          "to": "",
-          "rule": "header"
+          "seg": "MEAL-ELIACIK:51:7#n6",
+          "from": "mahlük",
+          "to": "mahlûk",
+          "rule": "sub"
         },
         {
           "seg": "MEAL-ELIACIK:front",
-          "from": "Hı-\nristiyanlık",
-          "to": "Hıristiyanlık",
+          "from": "kalı-\nrız",
+          "to": "kalırız",
           "rule": "hyphen"
         },
         {
@@ -560,51 +525,51 @@
           "rule": "header"
         },
         {
-          "seg": "MEAL-ELIACIK:96:1#n4",
-          "from": "degil",
-          "to": "değil",
-          "rule": "sub"
+          "seg": "MEAL-ELIACIK:114:1#n8",
+          "from": "Sayfa:472",
+          "to": "",
+          "rule": "header"
         },
         {
-          "seg": "MEAL-ELIACIK:18:75#n22",
-          "from": "Kur'an'm",
-          "to": "Kur'an'ın",
-          "rule": "sub"
+          "seg": "MEAL-ELIACIK:19:65#n26",
+          "from": "Sayfa:156",
+          "to": "",
+          "rule": "header"
         },
         {
-          "seg": "MEAL-ELIACIK:26:61#n14",
-          "from": "Sayfa:281",
+          "seg": "MEAL-ELIACIK:28:22#n9",
+          "from": "Cüz:20",
           "to": "",
           "rule": "header"
         },
         {
           "seg": "MEAL-ELIACIK:front",
-          "from": "kar-\nmaşık",
-          "to": "karmaşık",
+          "from": "üzerin-\nden",
+          "to": "üzerinden",
           "rule": "hyphen"
         },
         {
           "seg": "MEAL-ELIACIK:front",
-          "from": "et-\nkileyen",
-          "to": "etkileyen",
+          "from": "Yürek-\nleri",
+          "to": "Yürekleri",
           "rule": "hyphen"
         },
         {
           "seg": "MEAL-ELIACIK:front",
-          "from": "ev-\nrensel",
-          "to": "evrensel",
+          "from": "edi-\nlirse",
+          "to": "edilirse",
           "rule": "hyphen"
         },
         {
-          "seg": "MEAL-ELIACIK:27:90",
-          "from": "degil",
-          "to": "değil",
-          "rule": "sub"
+          "seg": "MEAL-ELIACIK:26:136",
+          "from": "Cüz:19",
+          "to": "",
+          "rule": "header"
         },
         {
           "seg": "MEAL-ELIACIK:front",
-          "from": "yazmak-\ntan",
-          "to": "yazmaktan",
+          "from": "böy-\nle",
+          "to": "böyle",
           "rule": "hyphen"
         },
         {
