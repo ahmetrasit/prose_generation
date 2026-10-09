@@ -134,6 +134,10 @@ def main() -> None:
             if sm < 0.25:
                 g["low_similarity"] = True
                 low.append(f"{sn}:{a0}")
+            if len(re.findall(r"[A-Za-zÇĞİÖŞÜçğıöşüâîûäñ]", g["text"])) < 3:  # the alignment left this unit without words
+                issues.append(f"{sn}:{a0}: the OCR text has no words for this verse («{g['text'][:10]}»): treated as missing")
+                p0 = e
+                continue
             segs.append(g)
             per_surah.setdefault(sn, []).extend(range(a0, a1 + 1))
             p0 = e
@@ -181,7 +185,9 @@ def main() -> None:
            "low_similarity_verses": low, "oracle_merged_groups": grouped, "issues": issues, "counts": T.tally(stats), "dropped_sample": []}
     IC.write(SID, segs, ing, {
         "coverage": f"1-114 ({got}/6236 ayat)",
-        "notes": "Complete Old Anatolian interlinear (Topkapı K. 252) from a thesis scan whose OCR keeps NO verse numbers: every surah's "
+        "notes": ("Complete Old Anatolian interlinear (Topkapı K. 252)" if not miss else
+                  "Old Anatolian interlinear (Topkapı K. 252), complete except " + ", ".join(f"{k}:{a}" for k, v in miss.items() for a in v)
+                  + " (the OCR left no words for them: ingestion.missing)") + " from a thesis scan whose OCR keeps NO verse numbers: every surah's "
                  "running text is cut into verses by alignment with MEAL-ESKIANADOLU (Berlin manuscript, close wording); each verse segment "
                  f"carries boundary_inferred and similarity_to_eskianadolu; {len(low)} verses are flagged low_similarity (<0.25, boundary uncertain); "
                  f"{len(grouped)} segments cover verse groups because the oracle itself stores merged groups. The text is OCR as is; leaf markers "

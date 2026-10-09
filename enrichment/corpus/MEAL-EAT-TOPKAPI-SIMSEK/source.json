@@ -28,7 +28,7 @@
   "files": {
     "raw/acquired-2026-10-09/topkapi_simsek_djvu.txt": "a205d12b0a162cb28f11ee472bbf772528e55fdeccdefedad02afb68cfbf84a0"
   },
-  "fetched_at": "2026-10-09T17:23:49.157480+00:00",
+  "fetched_at": "2026-10-09T23:15:57.425674+00:00",
   "acquisition": {
     "date": "2026-10-09",
     "state": "raw_downloaded",
@@ -37,9 +37,9 @@
     "ingestion_status": "ingested",
     "note": "OCR text (djvu.txt) of an archive.org third-party upload; no PDF kept."
   },
-  "coverage": "1-114 (6236/6236 ayat)",
-  "notes": "Complete Old Anatolian interlinear (Topkapı K. 252) from a thesis scan whose OCR keeps NO verse numbers: every surah's running text is cut into verses by alignment with MEAL-ESKIANADOLU (Berlin manuscript, close wording); each verse segment carries boundary_inferred and similarity_to_eskianadolu; 105 verses are flagged low_similarity (<0.25, boundary uncertain); 250 segments cover verse groups because the oracle itself stores merged groups. The text is OCR as is; leaf markers like (3b| and line numbers (4) stay inside it. scholarly edition; archive.org third-party upload; local research use",
-  "segments": 6050,
+  "coverage": "1-114 (6234/6236 ayat)",
+  "notes": "Old Anatolian interlinear (Topkapı K. 252), complete except 20:42, 89:10 (the OCR left no words for them: ingestion.missing) from a thesis scan whose OCR keeps NO verse numbers: every surah's running text is cut into verses by alignment with MEAL-ESKIANADOLU (Berlin manuscript, close wording); each verse segment carries boundary_inferred and similarity_to_eskianadolu; 105 verses are flagged low_similarity (<0.25, boundary uncertain); 250 segments cover verse groups because the oracle itself stores merged groups. The text is OCR as is; leaf markers like (3b| and line numbers (4) stay inside it. scholarly edition; archive.org third-party upload; local research use",
+  "segments": 6048,
   "ingestion": {
     "date": "2026-10-09",
     "script": "enrichment/v2/fetch/import_meal_eat_topkapi_simsek.py",
@@ -68,7 +68,7 @@
       "17": "1-111",
       "18": "1-110",
       "19": "1-98",
-      "20": "1-135",
+      "20": "1-41,43-135",
       "21": "1-112",
       "22": "1-78",
       "23": "1-118",
@@ -137,7 +137,7 @@
       "86": "1-17",
       "87": "1-19",
       "88": "1-26",
-      "89": "1-30",
+      "89": "1-9,11-30",
       "90": "1-20",
       "91": "1-15",
       "92": "1-21",
@@ -164,7 +164,14 @@
       "113": "1-5",
       "114": "1-6"
     },
-    "missing": {},
+    "missing": {
+      "20": [
+        42
+      ],
+      "89": [
+        10
+      ]
+    },
     "verse_count_mismatch": {},
     "mean_similarity_per_surah": {
       "1": 0.45,
@@ -641,14 +648,17 @@
       "113:1-2",
       "114:1-3"
     ],
-    "issues": [],
+    "issues": [
+      "20:42: the OCR text has no words for this verse («*»): treated as missing",
+      "89:10: the OCR text has no words for this verse («vi»): treated as missing"
+    ],
     "counts": {
       "thesis page numbers dropped": 349
     },
     "dropped_sample": [],
-    "segments": 6050,
-    "tied_to_ayah": 6050,
+    "segments": 6048,
+    "tied_to_ayah": 6048,
     "with_cited_ayat": 0,
-    "characters": 763886
+    "characters": 763883
   }
 }
