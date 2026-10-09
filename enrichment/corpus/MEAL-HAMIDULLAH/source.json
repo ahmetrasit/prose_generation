@@ -9,7 +9,7 @@
   "edition": "Aziz Kur'an, Beyan Yayınları (Abdülaziz Hatip, Mahmut Kanık), PDF of 531 pages",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-114 (6233/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://can-ada.net/wp-content/uploads/2021/01/muhammed-hamidullah-aziz-kuran.pdf"
   ],
@@ -33,37 +33,21 @@
     "manifest": "../../v2/audits/2026-10-05-source-downloads/manifest.json",
     "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
   },
-  "segments": 6392,
+  "segments": 6395,
   "ingestion": {
-    "date": "2026-10-05",
+    "date": "2026-10-09",
     "script": "enrichment/v2/fetch/import_meal_hamidullah.py",
     "from": {
       "raw/acquired-2026-10-05/hamidullah-aziz-kuran-hatip-kanik.pdf": "abfdb4d63414c49e154c5e1f8965667db5f3aec15b073ad5851af5fdb29f3b1a"
     },
     "method": "PDF text layer (pypdf via fetch/pdf_pages.py); verses «N.» in order; page footnotes by marker",
-    "verse_count_mismatch": {
-      "26": [
-        226,
-        227
-      ],
-      "29": [
-        68,
-        69
-      ],
-      "35": [
-        44,
-        45
-      ]
-    },
+    "verse_count_mismatch": {},
     "issues": [
       "7:81 not found (p126); its text is in 7:80",
       "19:12 not found (p236); its text is in 19:11",
       "21:42 not found (p252); its text is in 21:41",
       "23:99 not found (p271); its text is in 23:98",
-      "26:1 not found (p284); its text is in 26:0",
       "26:52 not found (p286); its text is in 26:51",
-      "29:1 not found (p306); its text is in 29:0",
-      "35:1 not found (p334); its text is in 35:0",
       "37:138 not found (p348); its text is in 37:137"
     ],
     "counts": {
@@ -72,11 +56,12 @@
       "running headers dropped": 355,
       "verses found inside a line (lost line break)": 131,
       "footnotes whose marker was not found (kept, [n?])": 313,
+      "verse 1 behind a margin mark read as letters": 3,
       "front and back matter pages": 51
     },
-    "segments": 6392,
-    "tied_to_ayah": 6341,
+    "segments": 6395,
+    "tied_to_ayah": 6344,
     "with_cited_ayat": 37,
-    "characters": 970921
+    "characters": 970893
   }
 }

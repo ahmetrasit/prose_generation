@@ -110,6 +110,20 @@ def main() -> None:
                     if mv.start() == 0 or re.match(r"[A-ZÇĞİÖŞÜÂÎÛ\"'“«(\-]", after):
                         hit = mv
                         break
+                if not hit and verse == 0 and surah:  # verse 1 behind a margin mark the OCR read as letters: «,, ı 1. Ta Sın Mim.»
+                    m1 = re.search(r"(?<![0-9ıIlOoS])1\.\s+(?=\S)", rest)
+                    if m1 and not re.search(r"[A-Za-zÇĞİÖŞÜçğöşü]", re.sub(r"[ıIl]", "", rest[:m1.start()])):
+                        hit = m1
+                        stats["verse 1 behind a margin mark read as letters"] += 1
+                        n1_ = 1
+                        class _H:  # a match-like object for the code below
+                            def group(self, i, m=m1):
+                                return "1" if i == 1 else None
+                            def start(self, m=m1):
+                                return 0
+                            def end(self, m=m1):
+                                return m.end()
+                        hit = _H()
                 if not hit:
                     break
                 n1 = num(hit.group(1))
@@ -205,7 +219,7 @@ def main() -> None:
         "notes": "Ingested 2026-10-05 from the user's download (fetch/import_meal_hamidullah.py). OCR text: digits "
                  "read as «ı»/«S» were normalised in verse and note numbers only; the verse text is as OCR'd "
                  "(«sapnrır» for «saptırır» occurs: quote with care). Pointer note before ingestion: "
-                 + (old.get("notes") or "")})
+                 + (old.get("notes") or "").split("Pointer note before ingestion: ")[-1]})
 
 
 front: dict[int, list[str]] = {}
