@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s103_20261009_sol-high_104-2",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T01:30:41",
+  "ended": "2026-10-09T01:36:15",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f24-7aec-7031-966b-66c7c15cd107",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 671355,
+    "cached_input_tokens": 599680,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 20685,
+    "reasoning_output_tokens": 2595
+  },
+  "stderr": "2026-10-09T05:30:51.845872Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T05:31:27.951759Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T05:35:20.399517Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s103_20261009/map/out/sol-high/104-2.raw.jsonl:\n{\"question\":\"How is ٱلَّذِى connected grammatically to the preceding verse?\"\n",
+  "prompt_sha256": "c8ab02d27ddb8e37608cabf4bf6060410f4d5415a771b93e73b0bd7c9000473c",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-30-50-01a11f24-7aec-7031-966b-66c7c15cd107.jsonl",
+  "usd_equivalent": 0.470136,
+  "requests": 18,
+  "max_request_input_tokens": 55153,
+  "over_context_cap": false
+}

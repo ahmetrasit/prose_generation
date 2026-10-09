@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s103_20261009_sol-high_33-72",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T01:30:41",
+  "ended": "2026-10-09T01:41:45",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f24-90f7-7b22-8817-bdff0e5e4695",
+  "commands": 15,
+  "usage": {
+    "input_tokens": 1392819,
+    "cached_input_tokens": 1301888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 46681,
+    "reasoning_output_tokens": 7996
+  },
+  "stderr": "2026-10-09T05:30:56.425815Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T05:31:27.947369Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0\n2026-10-09T05:38:27.458789Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s103_20261009/map/out/sol-high/33-72.raw.jsonl\n",
+  "prompt_sha256": "1d0ceb6fb2e8fd414ee8b7bd9b2f1277e5f0d1726c6dbfc7ee2380eca8116b89",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-30-55-01a11f24-90f7-7b22-8817-bdff0e5e4695.jsonl",
+  "usd_equivalent": 0.90905,
+  "requests": 26,
+  "max_request_input_tokens": 96091,
+  "over_context_cap": false
+}

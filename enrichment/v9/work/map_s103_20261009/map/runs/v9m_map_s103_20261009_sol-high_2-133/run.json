@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s103_20261009_sol-high_2-133",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T01:30:41",
+  "ended": "2026-10-09T01:40:42",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f24-805c-79d3-8bd3-bca33739bbbf",
+  "commands": 12,
+  "usage": {
+    "input_tokens": 1555281,
+    "cached_input_tokens": 1466240,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37140,
+    "reasoning_output_tokens": 4874
+  },
+  "stderr": "2026-10-09T05:30:52.946385Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T05:31:37.421321Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: invalid peer certificate: UnknownIssuer, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T05:39:13.267162Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s103_20261009/map/out/sol-high/2-133.raw.jsonl:\n{\"question\":\"How do the foreign ancestor names decline and pluralize?\",\"words\":[\"إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ\"],\"type\":\"grammar\",\"positions\":[{\"position\":\"The foreign proper names are diptote; an actually Arabic-derived Ishaq or Yaqub would decline.\",\"reasons\":\"Akhfash, Nahhas, Qurtubi, Abu Hayyan and Samīn explain; Kisaʾi permits Arabic derivations while Abu Hayyan distinguishes an Arabic verbal noun.\",\"rows\":[\"undefined/r5\",\"NAHHAS:v1p264/r10\",\"NAHHAS:v1p264/r11\",\"QURTUBI-FULL:2:133/r8\",\"ABUHAYYAN-FULL:v1p633/r3\",\"ABUHAYYAN-FULL:v1p634/r2\",\"SAMIN-DURR:2:133#4/r6\"],\"prefer\":[],\"against\":[]},{\"position\":\"Broken plurals vary; regular sound masculine plurals preserve the stems.\",\"reasons\":\"Sibawayh and Khalil give barahim and samaʿil; Kufans offer forms with replacement ha. Ibn Yazid/Abu al-ʿAbbas contests lost hamza and permits abarih and asamiʿ; Ahmad ibn Yahya cites diminutive analogy. Nahhas favors sound plurals.\",\"rows\":[\"NAHHAS:v1p264/r14\",\"NAHHAS:v1p264/r15\",\"NAHHAS:v1p264/r16\",\"NAHHAS:v1p264/r17\",\"NAHHAS:v1p264/r18\",\"ABUHAYYAN-FULL:v1p634/r3\",\"ABUHAYYAN-FULL:v1p634/r4\",\"SAMIN-DURR:2:133#4/r6\"],\"prefer\":[\"NAHHAS:v1p264/r18\"],\"against\":[\"NAHHAS:v1p264/r16\",\"ABUHAYYAN-FULL:v1p634/r4\"]}],\"turns_on\":\"Foreign-name declension and rival plural forms.\"}\n",
+  "prompt_sha256": "abf2c3d4e9cf1f74af7f71e1b838d4ef6b4bb37306e546cfce0d0452956e7117",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-30-52-01a11f24-805c-79d3-8bd3-bca33739bbbf.jsonl",
+  "usd_equivalent": 0.84273,
+  "requests": 28,
+  "max_request_input_tokens": 80311,
+  "over_context_cap": false
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s103_20261009_sol-high_18-105",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T01:30:41",
+  "ended": "2026-10-09T01:35:43",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f24-7f8b-7bd0-9e29-b3ed8ae00caf",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 241235,
+    "cached_input_tokens": 209664,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 13816,
+    "reasoning_output_tokens": 3193
+  },
+  "stderr": "2026-10-09T05:30:52.316162Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T05:31:37.314974Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: invalid peer certificate: UnknownIssuer, url: wss://chatgpt.com/backend-api/codex/responses\n",
+  "prompt_sha256": "c62bf6df1a490cb315782edb55586c353e65b43b7225b7258deeb17796c59d46",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-30-50-01a11f24-7f8b-7bd0-9e29-b3ed8ae00caf.jsonl",
+  "usd_equivalent": 0.243235,
+  "requests": 9,
+  "max_request_input_tokens": 35754,
+  "over_context_cap": false
+}

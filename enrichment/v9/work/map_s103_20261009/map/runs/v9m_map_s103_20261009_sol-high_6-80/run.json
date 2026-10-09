@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s103_20261009_sol-high_6-80",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T01:33:28",
+  "ended": "2026-10-09T01:38:53",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f26-f6bf-7073-9244-51b712085d87",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 954727,
+    "cached_input_tokens": 897152,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 26686,
+    "reasoning_output_tokens": 4420
+  },
+  "stderr": " error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map_s103_20261009/map/out/sol-high/6-80.raw.jsonl:\n{\"question\":\"How is أَتُحَٰٓجُّوٓنِّى read?\",\"words\":[\"أَتُحَٰٓجُّوٓنِّى\"],\"type\":\"readings\",\"positions\":[{\"position\":\"With a doubled nūn, assimilating the indicative and pronoun-related nūns.\",\"reasons\":\"Ibn Mujahid lists Ibn Kathir, Abu Amr, Asim, Hamza and Kisa'i; other lists add the rest apart from the light-reading transmitters. Ibn Ashur says waw is lengthened to separate consonants. Qiraat-ER calls it emphatic. Sibawayh's general rules explain deletion of indicative nūn in other plural emphatic forms.\",\"rows\":[\"IBNMUJAHID:v1p260/r2\",\"JISHUMI:v3p2303/r1\",\"BAGHAWI-FULL:v3p163/r3\",\"IBNATIYYA-FULL:v2p314/r6\",\"TABRISI:6:80-81/r1\",\"IBNJAWZI-ZAD:v3p76#2/r2\",\"RAZI-FULL:v13p49/r3\",\"QURTUBI-FULL:6:80/r1\",\"QURTUBI-FULL:6:80/r2\",\"ABUHAYYAN-FULL:v4p568#2/r6\",\"SAMIN-DURR:6:80/r1\",\"SAMIN-DURR:6:80/r2\",\"IBNASHUR-FULL:v7p327/r2\",\"DURR-FULL:v3p307/r3\",\"BURSEVI:v3p45#2/r2\",\"QIRAAT-ER:6:80:5#1/r1\",\"SIBAWAYH:(هذابابأحوالالحروفالتيقبلالنونالخفيفةوالثقيلة)#641/r4\",\"SIBAWAYH:(هذابابأحوالالحروفالتيقبلالنونالخفيفةوالثقيلة)#641/r8\"],\"prefer\":[],\"against\":[]},{\"position\":\"With a single light nūn, one of the two original nūns omitted for ease.\",\"reasons\":\"Nafi and Ibn Amir are commonly named, with variant details for Hisham and Ibn Dhakwan; Jishumi, Ibn Ashur and others include Abu Jafar. Sibawayh cites Medinans and 15:54; ʿAmr ibn Maʿdīkarib's فليني and 39:64 support the sound change. Farisi reports attribution to Ghatafan. Qiraat-ER says the lighter sound softens the tone. Nahhas, Abu Hayyan, Samin and Ibn Ashur defend its Arabic and canonical standing against Abu Amr's or Makki's criticism.\",\"rows\":[\"SIBAWAYH:(هذابابأحوالالحروفالتيقبلالنونالخفيفةوالثقيلة)#641/r5\",\"SIBAWAYH:(هذابابأحوالالحروفالتيقبلالنونالخفيفةوالثقيلة)#641/r6\",\"NAHHAS:v2p76/r12\",\"NAHHAS:v2p76/r13\",\"NAHHAS:v2p76/r14\",\"NAHHAS:v2p76/r15\",\"IBNKHALAWAYH-HUJJA:v1p143/r1\",\"FARISI-HUJJA:v3p332/r1\",\"FARISI-HUJJA:v3p332/r3\",\"WAHIDI-BASIT:v8p251/r4\",\"WAHIDI-BASIT:v8p251/r5\",\"JISHUMI:v3p2303/r1\",\"BAGHAWI-FULL:v3p163/r3\",\"IBNATIYYA-FULL:v2p314/r6\",\"TABRISI:6:80-81/r1\",\"TABRISI:6:80-81/r2\",\"IBNJAWZI-ZAD:v3p76#2/r2\",\"RAZI-FULL:v13p49/r3\",\"QURTUBI-FULL:6:80/r1\",\"QURTUBI-FULL:6:80/r3\",\"BAYDAWI-FULL:6:79-80/r2\",\"NASAFI-FULL:v1p332#2/r2\",\"NASAFI-FULL:v1p332#2/r3\",\"ABUHAYYAN-FULL:v4p568#2/r4\",\"ABUHAYYAN-FULL:v4p568#2/r5\",\"SAMIN-DURR:6:80#3/r1\",\"SAMIN-DURR:6:80#3/r2\",\"SAMIN-DURR:6:80#3/r3\",\"SAMIN-DURR:6:80/r1\",\"SAMIN-DURR:6:80/r2\",\"SAMIN-DURR:6:80/r3\",\"IBNASHUR-FULL:v7p327/r1\",\"IBNASHUR-FULL:v7p327/r3\",\"undefined/r3\",\"QIRAAT-ER:6:80:5#2/r1\"],\"prefer\":[\"NAHHAS:v2p76/r15\",\"SAMIN-DURR:6:80#3/r1\",\"SAMIN-DURR:6:80#3/r3\"],\"against\":[\"QURTUBI-FULL:6:80/r3\",\"ABUHAYYAN-FULL:v4p568#2/r5\",\"SAMIN-DURR:6:80#3/r2\",\"IBNASHUR-FULL:v7p327/r3\"]}],\"turns_on\":\"Whether two nūns are assimilated or one is deleted, and whether the light form is accepted Arabic.\"}\n",
+  "prompt_sha256": "07e7d1a2a32827555c2309e4e8c44eb1c3c54cd5b46da017af9167852b149836",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-33-29-01a11f26-f6bf-7073-9244-51b712085d87.jsonl",
+  "usd_equivalent": 0.56144,
+  "requests": 21,
+  "max_request_input_tokens": 65376,
+  "over_context_cap": false
+}

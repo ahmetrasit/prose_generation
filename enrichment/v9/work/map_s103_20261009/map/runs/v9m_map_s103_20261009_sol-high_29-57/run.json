@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map_s103_20261009_sol-high_29-57",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-09T01:30:41",
+  "ended": "2026-10-09T01:34:35",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11f24-8287-7a62-9a92-8d3d82d40ae3",
+  "commands": 3,
+  "usage": {
+    "input_tokens": 101741,
+    "cached_input_tokens": 83328,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 9024,
+    "reasoning_output_tokens": 2720
+  },
+  "stderr": "2026-10-09T05:30:50.407554Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-10-09T05:30:52.529019Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T05:30:55.419726Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-09T05:31:36.420798Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: invalid peer certificate: UnknownIssuer, url: wss://chatgpt.com/backend-api/codex/responses\n",
+  "prompt_sha256": "c8e1064870e85417ae58811d2843f1202477ea0cd47fd466f6ba546e181fc2df",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-30-59-01a11f24-8287-7a62-9a92-8d3d82d40ae3.jsonl",
+  "usd_equivalent": 0.143732,
+  "requests": 5,
+  "max_request_input_tokens": 27051,
+  "over_context_cap": false
+}
