@@ -7,7 +7,7 @@ Design and decisions: `PLAN.md` (read its "Decisions" section first). Test stand
 ## Rules
 
 1. **Scope and quota come from the user.** Before a surah, report the plan's expected cost (`surah.py plan`) and
-   use the quota the user gave: Luna up to 60 agents at a time (raised from 50, 2026-10-09), Sol and Opus as the user allows (2026-10-09:
+   use the quota the user gave: Luna up to 60 agents at a time (raised from 50, 2026-10-09), Sol as the user allows, Opus at most 3 agents at a time (user, 2026-10-09) (2026-10-09:
    production go for Sol, Luna and Opus). If no quota is known, ask.
 2. **No cuts anywhere.** Never trim, excerpt, sample or drop input or output. Chunking puts whole segments together;
    a segment larger than a chunk goes alone.
@@ -80,7 +80,7 @@ questions.
 python3 -B enrichment/v9/surah.py pages S        # writer.py and meal.py builds; refuses while a map is missing
 python3 -B enrichment/v9/surah.py agents S       # prompts → work/prod_sNNN/agents.md
 ```
-Spawn one `enrich-page-high` agent per block in `agents.md`. Each writer runs its own check and final pass.
+Spawn one `enrich-page-high` agent per block in `agents.md`, **at most 3 Opus agents at a time** (user, 2026-10-09); top up as each finishes. Each writer runs its own check and final pass.
 
 ### 5. Finish
 ```bash
