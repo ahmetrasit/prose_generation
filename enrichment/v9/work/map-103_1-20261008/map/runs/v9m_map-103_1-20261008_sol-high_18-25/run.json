@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map-103_1-20261008_sol-high_18-25",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-08T22:19:11",
+  "ended": "2026-10-08T22:26:40",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11e75-1c8c-7ad1-be44-bb2491c9241c",
+  "commands": 9,
+  "usage": {
+    "input_tokens": 1071453,
+    "cached_input_tokens": 1008000,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 28706,
+    "reasoning_output_tokens": 5581
+  },
+  "stderr": "2026-10-09T02:19:23.669880Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: invalid peer certificate: UnknownIssuer, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T02:23:58.756423Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map-103_1-20261008/map/out/sol-high/18-25.raw.jsonl:\nALUSI-FULL:v15p261/r6\n",
+  "prompt_sha256": "547ccdc1e36ddee090a4dd3defddfd77445860321b7f1ca35c7bc66e2d7d73a7",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T22-19-14-01a11e75-1c8c-7ad1-be44-bb2491c9241c.jsonl",
+  "usd_equivalent": 0.615566,
+  "requests": 24,
+  "max_request_input_tokens": 63716,
+  "over_context_cap": false
+}

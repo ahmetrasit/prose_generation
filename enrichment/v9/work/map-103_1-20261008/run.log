@@ -1,0 +1,45 @@
+/root/v9m_map-103_1-20261008_sol-high_103-1: rc 0, completed True, commands 9, max request 57512 tokens, $0.4359 equivalent
+/root/v9m_map-103_1-20261008_sol-high_103-2: rc 0, completed True, commands 8, max request 42748 tokens, $0.2550 equivalent
+/root/v9m_map-103_1-20261008_sol-high_11-114: rc 0, completed True, commands 13, max request 74251 tokens, $0.5411 equivalent
+/root/v9m_map-103_1-20261008_sol-high_12-35: rc 0, completed True, commands 8, max request 52771 tokens, $0.4139 equivalent
+/root/v9m_map-103_1-20261008_sol-high_12-36: rc 0, completed True, commands 10, max request 62503 tokens, $0.4653 equivalent
+/root/v9m_map-103_1-20261008_sol-high_12-41: rc 0, completed True, commands 6, max request 35140 tokens, $0.2132 equivalent
+/root/v9m_map-103_1-20261008_sol-high_12-42: rc 0, completed True, commands 11, max request 55888 tokens, $0.3766 equivalent
+/root/v9m_map-103_1-20261008_sol-high_12-43: rc 0, completed True, commands 7, max request 46339 tokens, $0.3266 equivalent
+/root/v9m_map-103_1-20261008_sol-high_12-45: rc 0, completed True, commands 6, max request 40237 tokens, $0.2839 equivalent
+/root/v9m_map-103_1-20261008_sol-high_12-47: rc 0, completed True, commands 6, max request 35910 tokens, $0.2192 equivalent
+/root/v9m_map-103_1-20261008_sol-high_12-48: rc 0, completed True, commands 4, max request 30129 tokens, $0.1734 equivalent
+/root/v9m_map-103_1-20261008_sol-high_18-10: rc 0, completed True, commands 8, max request 52600 tokens, $0.4106 equivalent
+/root/v9m_map-103_1-20261008_sol-high_18-11: rc 0, completed True, commands 6, max request 42297 tokens, $0.2727 equivalent
+/root/v9m_map-103_1-20261008_sol-high_18-16: rc 0, completed True, commands 8, max request 48991 tokens, $0.3696 equivalent
+Traceback (most recent call last):
+  File "/Volumes/aro/projects/prose_generation/enrichment/v5/run_codex.py", line 99, in <module>
+    main()
+    ~~~~^^
+  File "/Volumes/aro/projects/prose_generation/enrichment/v5/run_codex.py", line 94, in main
+    for line in pool.map(run, files):
+                ~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 639, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 311, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "/Volumes/aro/projects/prose_generation/enrichment/v5/run_codex.py", line 40, in run
+    text = spawn.read_text()
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 787, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Volumes/aro/projects/prose_generation/enrichment/v9/work/map-103_1-20261008/map/spawn/sol-high_18-19.md'

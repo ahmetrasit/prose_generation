@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v9m_map-103_1-20261008_sol-high_92-1",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "started": "2026-10-08T22:19:11",
+  "ended": "2026-10-08T22:22:41",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11e75-2154-7ca1-86be-c60343cd3bbf",
+  "commands": 5,
+  "usage": {
+    "input_tokens": 245890,
+    "cached_input_tokens": 217216,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 15259,
+    "reasoning_output_tokens": 4417
+  },
+  "stderr": "2026-10-09T02:22:22.839077Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v9/work/map-103_1-20261008/map/out/sol-high/92-1.raw.jsonl:\n+{\"question\":\"What does يَغْشَىٰ mean?\",\"words\":[\"يَغْشَىٰ\"],\"type\":\"meaning\",\"positions\":[{\"position\":\"It covers, veils, or enshrouds, so darkness conceals what was visible.\",\"reasons\":\"Ibn Jubayr and Saʿīd ibn Jubayr explain covering and concealment; Qatādah describes creatures encompassed and filled. Al-Naḥḥās compares darkness to a garment and cites al-Nābigha's poem of night pursuing and catching a fugitive. Bint al-Shāṭiʾ traces gh-sh-y through veils, sleep, fainting, dulled sight and insight, rejection in 71:7 and 11:5, the lote tree in 53:16, coverings of senses in 3:154, 8:11, 33:19, 47:20, 2:7 and 45:23, and judgment or punishment in 88:1, 44:10–11, 29:55, 14:50 and 7:41. She notes terror and darkness in 24:40, 10:27, 31:32, 20:78, 13:3, 7:54 and 91:4, and understands this night as deep darkness. Al-Jishumī contrasts ghishāʾ, covering, with tajallī, clarity and illumination.\",\"rows\":[\"IBNABIHATIM:v10p3440/r1\",\"NAHHAS:v5p241/r1\",\"NAHHAS:v5p241/r2\",\"MAWARDI:92:1/r3\",\"MAWARDI:92:1/r4\",\"JISHUMI:v10p7439/r4\",\"QURTUBI-FULL:92:2-3/r1\",\"QUTB-ZILAL:92:1/r2\",\"BINTSHATI:v2p98/r1\",\"BINTSHATI:v2p98/r2\",\"BINTSHATI:v2p98/r3\",\"BINTSHATI:v2p98/r4\"],\"prefer\":[\"BINTSHATI:v2p98/r4\"],\"against\":[]},{\"position\":\"It means that night darkens.\",\"reasons\":\"Mujāhid gives this concise gloss; the physical effect is the night removing daylight's light.\",\"rows\":[\"MAWARDI:92:1/r2\",\"TAB-FULL:v24p455#2/r1\"],\"prefer\":[],\"against\":[]}],\"turns_on\":\"Whether the phrase is glossed by covering and concealment or by its resulting darkness.\"}\n",
+  "prompt_sha256": "b7732376003124c2d9cbed612c822120e0d3c4c4a17df233ff5b387289b3d26a",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/08/rollout-2026-10-08T22-19-16-01a11e75-2154-7ca1-86be-c60343cd3bbf.jsonl",
+  "usd_equivalent": 0.253381,
+  "requests": 9,
+  "max_request_input_tokens": 36551,
+  "over_context_cap": false
+}

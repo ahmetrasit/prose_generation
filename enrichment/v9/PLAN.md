@@ -12,6 +12,9 @@ and the v8 sift. Keeps v7 tier 1 (`digest.py`) and the tier-2 work as inputs. De
   (equivalent for this step, 5.7× the cost). Opus 5.5 high stays the writer.
 - **Codex usage counts toward the budget** (API-equivalent cost is real cost from now on).
 - Maps for the whole 103:1 page approved as the test run (`work/map-103_1-20261008`, 36 verses, ≈ $11–14).
+  **Done 2026-10-08:** 36/36 completed and checked, $11.34 Sol (API-equivalent, counted), 809 questions, 1,938
+  positions; with 12:49 and 6:52 from `maptest-20261008` every verse of the 103:1 page has a map. On 103:1 itself
+  "what does al-ʿaṣr designate?" is now one question with 12 positions (the demo's Q1).
 
 ## What enrichment is for
 
