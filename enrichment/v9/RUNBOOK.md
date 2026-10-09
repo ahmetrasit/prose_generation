@@ -111,6 +111,10 @@ scripts copy it back from the archive. Agents that failed at start (0 commands) 
 `<runs>_enospc/` or `<runs>_failed_start/` (evidence kept) and the same spawn files are run again; never move an agent
 that ran commands.
 
+**Disk throttle.** `tools/disk_throttle.sh` (pid in `work/disk_throttle.pid`, log `work/disk_throttle.log`) pauses
+every `codex_run.py` runner with SIGSTOP when the system disk has under 1.5 GB free (no new agents; running ones
+finish) and resumes them above 2.5 GB. About 100 concurrent Codex agents push swap onto the system disk.
+
 **Repairing a Codex agent in its own session** (rule 4): `tools/repair_t1.sh RUN NN` (a tier-1 chunk) and
 `tools/repair_map.sh RUN S:A` (a verse map) send the checker's exact problems to the agent's session and print its
 reply; run several with `xargs -P`. If a session is gone, rebuild the verse in a new run:
