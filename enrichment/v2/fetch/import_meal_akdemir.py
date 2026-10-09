@@ -30,7 +30,7 @@ import import_common as IC  # noqa: E402
 SID, STEM = "MEAL-AKDEMIR", "akdemir-son-cagri-kuran"
 DIG = str.maketrans({"ı": "1", "l": "1", "I": "1", "i": "1", "O": "0", "o": "0", "S": "5", "s": "5"})
 N3 = r"[0-9ıIlOoS](?:\s?[0-9ıIlOoS]){0,2}"
-SURAH = re.compile(rf"^\s*({N3})\s?\.\s*([A-ZÇĞİÖŞÜÂÎÛ’'\-\s]{{2,40}}?)\s*S\s?[ÛU]\s?R\s?E\s?S\s?[İI]\b")
+SURAH = re.compile(rf"^\s*({N3})\s?\.\s*([A-Za-zÇĞİÖŞÜÂÎÛçğıöşüâîû’'\-\s]{{2,40}}?)\s*S\s?[ÛUÜ]\s?R\s?E\s?S\s?[İI]\b")
 INLINE = re.compile(rf"(?:^\s*|(?<=\s))({N3})(?:\s?[-–]\s?({N3}))?\s?\.\s+")
 HEADER = re.compile(r"(C\s?[ûüu]\s?z\s?\d|S[ûu]\s?re\s?\d|^\s*[0-9IVXLC]{1,6}\s*$|Son Çağr)")
 NOTE = re.compile(r"^\s*(\d(?:\s?\d){0,2})\s+([A-ZÇĞİÖŞÜÂ“\"'(\[].*)$")  # «1 0 Biz …»
@@ -65,6 +65,19 @@ def garbage(x: str) -> bool:
     return bool(s) and len(TR.findall(s)) / len(s) < 0.5
 
 
+# Text that the two-column text layer printed inside the wrong verse unit although its verse number was lost or misread
+# («8 .» for 99:6); moved by hand to its ayah (2026-10-09 review; every move is listed in the ingestion issues).
+# (from unit, pattern of the stretch to cut, destination): destination (s, a, a_end) = a unit of its own,
+# ("append", (s, a)) = the end of that unit, None = a running header left in the text.
+RELOCATE = [
+    ((101, 6), r"\s*Kâria-Tekâsür Sûreleri, Cüz 3Qt Sûre IOI -102", None),
+    ((101, 6), r"\s*1 -2 \.\s+(Çok mal edinme hırsı.*?oyalamıştır\.)", (102, 1, 2)),
+    ((100, 8), r"\s*8 \.\s+(İnsanlar, o gün.*?çıkacaklardır\.)", (99, 6, 6)),
+    ((100, 8), r"\s*7 \.\s+(Her ldm zerre miktarı.*?görecektir\.)", (99, 7, 7)),
+    ((99, 1), r"\s*(nankördür!)\s*$", ("append", (100, 1))),
+]
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--dry", action="store_true")
@@ -75,6 +88,7 @@ def main() -> None:
     issues: list[str] = []
     dropped_sample: list[str] = []
     verses: dict[tuple[int, int], dict] = {}
+    own: dict[int, set] = {k: set() for k in range(0, 116)}  # verse numbers printed (not tied) per surah
     intros: dict[int, dict] = {}
     other: dict[int, list[str]] = {}
     surah, verse, unit = 0, 0, None
@@ -151,6 +165,9 @@ def main() -> None:
                 unit["parts"].append(x.strip())
                 continue
             rest, done = x, False
+            if surah and verse == 0 and re.match(r"^\s*[iItTlL1ı][.,]\s+\S", x):
+                rest = re.sub(r"^\s*[iItTlL1ı][.,]\s+", "1. ", x)  # «i. Kıyamet…», «l, Hâ, Mim.»: the verse number 1 misread
+                stats["verse 1 whose number the OCR misread (taken by position)"] += 1
             while surah:
                 hit = None
                 for mv in INLINE.finditer(rest):
@@ -158,15 +175,39 @@ def main() -> None:
                     if not n1:
                         continue
                     restart = n1 == 1 and verse >= counts[surah] - 1 and surah < 114  # heading lost
-                    if not (verse < n1 <= verse + 8 and n1 <= counts[surah]) and not restart:
-                        continue
                     after = rest[mv.end():mv.end() + 1]
-                    if mv.start() == 0 or re.match(r"[A-ZÇĞİÖŞÜÂÎÛ\"'“«(\[]", after):
-                        hit = (mv, restart)
+                    fits = mv.start() == 0 or re.match(r"[A-ZÇĞİÖŞÜÂÎÛ\"'“«(\[]", after)
+                    if not fits:
+                        continue
+                    if (verse < n1 <= verse + 8 and n1 <= counts[surah]) or restart:
+                        hit = (mv, restart, surah)
+                        break
+                    if n1 <= verse and n1 not in own[surah] and verse - n1 <= 12 and not mv.group(2):
+                        hit = (mv, False, surah)  # printed out of order on a two-column page: a verse not seen yet
+                        stats["verses printed out of order (kept as their own unit)"] += 1
+                        break
+                    if (surah > 1 and n1 <= counts[surah - 1] and n1 not in own[surah - 1]
+                            and ((verse <= 2 and n1 > verse + 8) or (intros.get(surah, {}).get("page") == page and n1 in own[surah]
+                                                                      and counts[surah - 1] - len(own[surah - 1]) >= 3))):
+                        hit = (mv, False, surah - 1)  # the foot of the previous surah's page, printed after this heading
+                        stats["verses of the previous surah printed after the next heading"] += 1
                         break
                 if not hit:
                     break
-                mv, restart = hit
+                mv, restart, tgt = hit
+                if tgt != surah or (num(mv.group(1)) <= verse and not restart):
+                    n1_ = num(mv.group(1))
+                    n2_ = num(mv.group(2)) if mv.group(2) else None
+                    before = rest[:mv.start()].strip()
+                    if before and unit is not None:
+                        unit["parts"].append(before)
+                    end_ = n2_ if n2_ and n1_ <= n2_ <= counts[tgt] else n1_
+                    unit = verses[(tgt, n1_)] = {"a_end": end_, "parts": [], "notes": [], "page": page}
+                    own[tgt].update(range(n1_, end_ + 1))
+                    issues.append(f"{tgt}:{n1_}{'-' + str(end_) if end_ > n1_ else ''}: printed out of order on p{page}; kept as its own unit")
+                    rest = rest[mv.end():]
+                    done = True
+                    continue
                 if restart:
                     close_surah(surah, verse, page)
                     surah, verse = surah + 1, 0
@@ -184,6 +225,7 @@ def main() -> None:
                     unit["parts"].append(before)
                 end = n2 if n2 and n1 <= n2 <= counts[surah] else n1
                 unit = verses[(surah, n1)] = {"a_end": end, "parts": [], "notes": [], "page": page}
+                own[surah].update(range(n1, end + 1))
                 verse = end
                 rest = rest[mv.end():]
                 done = True
@@ -213,6 +255,49 @@ def main() -> None:
                     if any(k in pending_notes for k in range(marker_next, marker_next + 4)):
                         u["parts"][i] = re.sub(r"(?<=[^\s\d\[])(\d{1,3})(?=\s|$)", mark, part)
     close_surah(surah, verse, 0)
+    for frm, pat, dest in RELOCATE:
+        u_ = verses.get(frm)
+        if u_ is None:
+            issues.append(f"relocation from {frm[0]}:{frm[1]} skipped: no such unit")
+            continue
+        txt_ = " ".join(u_["parts"])
+        m_ = re.search(pat, txt_, re.S)
+        if not m_:
+            issues.append(f"relocation from {frm[0]}:{frm[1]} skipped: pattern not found")
+            continue
+        u_["parts"] = [(txt_[:m_.start()] + " " + txt_[m_.end():]).strip()]
+        if dest is None:
+            stats["running headers cut out of a verse"] += 1
+            continue
+        moved_ = m_.group(1)
+        if dest[0] == "append":
+            tgt_ = verses[dest[1]]
+            tgt_["parts"].append(moved_)
+            issues.append(f"{frm[0]}:{frm[1]}: «{moved_[:30]}» belongs to the end of {dest[1][0]}:{dest[1][1]}; moved")
+        else:
+            verses[(dest[0], dest[1])] = {"a_end": dest[2], "parts": [moved_], "notes": [], "page": u_["page"]}
+            issues.append(f"{frm[0]}:{frm[1]}: «{moved_[:30]}» is {dest[0]}:{dest[1]}{'-' + str(dest[2]) if dest[2] > dest[1] else ''} "
+                          f"(number lost in the text layer); moved")
+    # a unit tied over verses whose own unit was found later (printed out of order) gives them back
+    for sn_ in range(1, 115):
+        keys_ = sorted(k for k in verses if k[0] == sn_)
+        starts_ = [k[1] for k in keys_]
+        for k in keys_:
+            nxt_ = [a_ for a_ in starts_ if a_ > k[1]]
+            if nxt_ and verses[k]["a_end"] >= nxt_[0]:
+                verses[k]["a_end"] = max(k[1], nxt_[0] - 1)
+        cov_ = set()
+        for k in keys_:
+            cov_.update(range(k[1], verses[k]["a_end"] + 1))
+        gap_start = None
+        for q_ in range(1, counts[sn_] + 2):
+            if q_ <= counts[sn_] and q_ not in cov_:
+                gap_start = q_ if gap_start is None else gap_start
+            elif gap_start is not None:
+                prev_ = [k for k in keys_ if k[1] < gap_start]
+                if prev_:  # their text is in the unit before: tied there
+                    verses[max(prev_, key=lambda k: k[1])]["a_end"] = q_ - 1
+                gap_start = None
     loose = []
     for n, txt in sorted(pending_notes.items()):
         u = note_units.get(n)
@@ -273,7 +358,10 @@ def main() -> None:
     }, {"coverage": f"1-114 ({sum(got.values())}/6236 ayat)", "locator": "ayah", "kind": "meal",
         "notes": "Ingested 2026-10-05 from the user's download (fetch/import_meal_akdemir.py). OCR text: some "
                  "stretches are letter-spaced («H ani İsra ilo ğ u llan n d a n») and need care when quoted; verse "
-                 "groups are Akdemir's own (a..a_end). Pointer note before ingestion: " + (old.get("notes") or "")})
+                 "groups are Akdemir's own (a..a_end). 2026-10-09 review: the text layer of two-column pages prints verses out of "
+                 "order and sometimes under the next surah's heading; such verses are kept as their own units (listed in "
+                 "ingestion.issues); a few whose number the layer lost were moved by hand (RELOCATE in the importer). "
+                 "Pointer note before ingestion: " + (old.get("notes") or "").split("Pointer note before ingestion: ")[-1]})
 
 
 if __name__ == "__main__":
