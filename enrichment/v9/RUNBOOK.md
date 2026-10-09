@@ -131,7 +131,7 @@ session is read-only). Name the exact problems and allow reading and editing onl
 |---|---|---|---|---|---|---|
 | 103 (page 103:1) | test (`w103_1-20261008`, `meal103_1-r2-20261009`) | done | done (`maptest-20261008`, `map-103_1-20261008`) | not yet | done; published privately (https://claude.ai/artifact/TnbnSk6SvZYrQSKWZBaDXs) | done |
 | 96 | `work/prod_s096` (19 pages, 475 verses) | `t1_s096_20261009`: done, 133,220 rows, $83.45 + $8.61 same-session repairs (17 chunks) | `map_s096_20261009`: 460 verses, Sol running (relaunched after the disk incident; logs `work/map_s096_20261009.run*.log`) | — | — | — |
-| 103 (pages 103:2, 103:3) | `work/prod_s103` (95 verses) | `t1_s103_20261009`: done, 52 chunks, 3,674 rows, $2.34 (c32 repaired in its own session) | `map_s103_20261009`: 80 verses (`verses_now.txt`) done, all OK, $27.66; 15 verses (`verses_wait_s096.txt`) wait for S96's tier 1, then map them and run `update-all` | not yet: run after S96's tier 1 (Luna cap is shared) | — | — |
+| 103 (pages 103:2, 103:3) | `work/prod_s103` (95 verses) | done ($2.34) | done: `map_s103_20261009` (80, $27.66), `map_s103w_20261009` (12, $7.33); 100 updates incl. the 103:1 page's maps ($8.46) | `tr_s103_20261009` (131 verses, 74 chunks) running at 2 Luna slots | **done**: 103:2 writer $4.33 + meal $0.43, 103:3 writer $4.46 + meal $0.58; all checks OK | md rendered; HTML (`surah.py finish 103`) when the translations finish |
 | 87 | `work/prod_s087` (19 pages, 443 verses) | `t1_s087_20261009`: 993 chunks, **running** (relaunched after the disk incident; logs `work/t1_s087.run*.log`) | — | — | — | — |
 
 The S96 tier-1 run also holds the 103:1 completion (103:3, the short editions now kept, the 37 excerpt-only
