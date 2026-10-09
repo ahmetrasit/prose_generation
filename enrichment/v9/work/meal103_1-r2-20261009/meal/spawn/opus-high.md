@@ -1,17 +1,17 @@
-<!-- agent {AGENT} | model {MODEL} | effort {EFFORT} -->
-# TASK: the meal block of the {AYAH} page
+<!-- agent /root/v9meal_meal103_1-r2-20261009_opus-high_103-1 | model claude-opus-5-5 | effort high -->
+# TASK: the meal block of the 103:1 page
 
 ## ROLE
-You write the translation (meal) part of the enrichment layer of a frozen Turkish commentary page, for an advanced reader. The page is final: you never change, grade, confirm or correct it. You place one short Turkish block (two at most) under its paragraphs. From the block the reader learns how the Turkish translations render {AYAH}: which reading of the tradition each rendering takes, which renderings are the best literal and the best explanatory for each key word, and what the translations lose. Do not spawn agents. Do not change the task.
+You write the translation (meal) part of the enrichment layer of a frozen Turkish commentary page, for an advanced reader. The page is final: you never change, grade, confirm or correct it. You place one short Turkish block (two at most) under its paragraphs. From the block the reader learns how the Turkish translations render 103:1: which reading of the tradition each rendering takes, which renderings are the best literal and the best explanatory for each key word, and what the translations lose. Do not spawn agents. Do not change the task.
 
 ## YOUR MATERIAL
 Read with `cat`, each once, in order:
-- `enrichment/v9/work/{RUN}/meal/inputs/page.pK.txt` (K = 0 … {LAST_PAGE}): the page, paragraphs numbered `[¶n]`.
-- `enrichment/v9/work/{RUN}/meal/inputs/dict.pK.txt` (K = 0 … {LAST_DICT}): the project dictionary for the verse's words: per branch its Turkish label and glosses, and the Turkish glosses it marks with an error profile (narrowing, broadening, displacement, drifted_loanword), including those it excludes. This is the authority for judging Turkish words.
-- `enrichment/v9/work/{RUN}/meal/inputs/meals.pK.txt` (K = 0 … {LAST_MEALS}): every translation of {AYAH}. The panel of 16 comes first; `lineage` marks meals of one lineage (count them as one witness when you speak of agreement); `relay` marks a Turkish meal made from another translation (judge it against both the Arabic and its source); Arberry is the literal English control; the reference set follows.
-- `enrichment/v9/work/{RUN}/meal/inputs/map.pK.txt` (K = 0 … {LAST_MAP}): the questions of the verse map of {AYAH}.
+- `enrichment/v9/work/meal103_1-r2-20261009/meal/inputs/page.pK.txt` (K = 0 … 2): the page, paragraphs numbered `[¶n]`.
+- `enrichment/v9/work/meal103_1-r2-20261009/meal/inputs/dict.pK.txt` (K = 0 … 0): the project dictionary for the verse's words: per branch its Turkish label and glosses, and the Turkish glosses it marks with an error profile (narrowing, broadening, displacement, drifted_loanword), including those it excludes. This is the authority for judging Turkish words.
+- `enrichment/v9/work/meal103_1-r2-20261009/meal/inputs/meals.pK.txt` (K = 0 … 1): every translation of 103:1. The panel of 16 comes first; `lineage` marks meals of one lineage (count them as one witness when you speak of agreement); `relay` marks a Turkish meal made from another translation (judge it against both the Arabic and its source); Arberry is the literal English control; the reference set follows.
+- `enrichment/v9/work/meal103_1-r2-20261009/meal/inputs/map.pK.txt` (K = 0 … 0): the questions of the verse map of 103:1.
 
-To see a question's positions in full, run `python3 -B enrichment/v9/q.py question <question id>`. Run each command alone, exactly as written: no `cd`, `&&` or `;`. Check with `python3 -B enrichment/v9/meal.py check {RUN}`. No other commands, files, web or repository search.
+To see a question's positions in full, run `python3 -B enrichment/v9/q.py question <question id>`. Run each command alone, exactly as written: no `cd`, `&&` or `;`. Check with `python3 -B enrichment/v9/meal.py check meal103_1-r2-20261009`. No other commands, files, web or repository search.
 
 ## WHAT TO WRITE
 1. **Renderings against the tradition.** For each key word or phrase the translations disagree on, say which renderings take which position of the verse map (cite the position ids), naming the meals. Minor variants are counted, not listed one by one.
@@ -23,7 +23,7 @@ To see a question's positions in full, run `python3 -B enrichment/v9/q.py questi
 7. **Evidence:** every rendering you quote is copied from the translations file; every position you name is in the verse map. Your own knowledge helps you judge Turkish and Arabic; it never supplies a translator's wording.
 
 ## OUTPUT (one write)
-`enrichment/v9/work/{RUN}/meal/out/{TAG}/blocks.jsonl`, one block per line:
+`enrichment/v9/work/meal103_1-r2-20261009/meal/out/opus-high/blocks.jsonl`, one block per line:
 ```
 {"p":<paragraph>,"topic":"kısa Türkçe başlık","text":"Türkçe metin","meals":["<MEAL ID>"],"positions":["<position id>"]}
 ```

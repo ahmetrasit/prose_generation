@@ -8,7 +8,7 @@ position of the tradition, the best literal and best explanatory rendering per w
   meal.py build RUN --ayah 103:1 --page PATH --model claude-opus-5-5:high
   meal.py check RUN                  ids, paragraphs and positions exist (the agent runs it until OK)
 
-Files: enrichment/v9/work/RUN/meal/inputs/{page,meals,map}.pK.txt, spawn/, out/<TAG>/blocks.jsonl.
+Files: enrichment/v9/work/RUN/meal/inputs/{page,dict,meals,map}.pK.txt, spawn/, out/<TAG>/blocks.jsonl.
 """
 import argparse
 import json
@@ -47,6 +47,54 @@ def meal_ids(ayah):
                                           "(SELECT id FROM src WHERE kind IN ('meal','translation'))", (s, a, a))}
 
 
+def profile(ep):
+    ep = ep or {}
+    if ep.get('fit') in (None, 'none'):
+        return ''
+    bits = [f"{k}: {ep[k]}" for k in ('preserves', 'loses', 'adds', 'collision') if ep.get(k) not in (None, '', 'None')]
+    return f" [{ep['fit']}] " + '; '.join(bits)
+
+
+def dictionary_text(ayah):
+    """The project dictionary for the ayah's words, for the meal judgement: every branch of each identity root and
+    documented alternative, its Turkish label and glosses, and every gloss with an error profile (narrowing,
+    broadening, displacement, drifted_loanword), including the glosses the dictionary excludes."""
+    state = pack.dictionary_state()
+    if not state['match']:
+        raise SystemExit(f"dictionary transfer {state['transfer_commit']} != ../dictionary HEAD {state['dictionary_head']}: "
+                         'sync quran-data first')
+    src = pack.D.P.Sources()
+    out = [f'# Project dictionary for {ayah}: Turkish glosses and their error profiles', '',
+           'Per branch: the Turkish label, the glosses of its attested senses, the contextual glosses, and the glosses '
+           'the dictionary excludes. A profile in brackets says how a Turkish word fails the branch: narrowing (keeps '
+           'part of the range), broadening (adds what the branch lacks), displacement (a different concept), '
+           'drifted_loanword (a Turkish word whose present sense moved away).', '']
+    done = set()
+    for w in src.words(ayah):
+        r = src.word_roots(w)
+        for rid, why in [(x, 'identity root') for x in r['identity']] + [(x, 'documented alternative') for x, _ in r['alternatives']]:
+            if rid in done:
+                continue
+            done.add(rid)
+            e = src.entry(rid)
+            out.append(f"## {src.root_name.get(rid, rid)} ({rid}): {why} of {w['surface']}")
+            if not e:
+                out += ['(no Turkish dictionary entry)', '']
+                continue
+            for b in e.get('branches', []):
+                g = b.get('concept_gloss') or {}
+                out.append(f"- **{b['branch_ref'].split('/')[-1]}** {g.get('text', '')}{profile(g.get('error_profile'))}")
+                senses = ' · '.join(x['target_gloss'] for x in b.get('lexical_glosses', []) if x.get('target_gloss'))
+                if senses:
+                    out.append(f'  senses: {senses}')
+                for x in b.get('contextual_glosses', []):
+                    out.append(f"  contextual «{x.get('text')}»: {x.get('applicability', '')}{profile(x.get('error_profile'))}")
+                for x in b.get('excluded_glosses', []):
+                    out.append(f"  excluded ({x.get('category')}) «{x.get('text')}»{profile(x.get('error_profile'))}")
+            out.append('')
+    return '\n'.join(out) + '\n'
+
+
 def build(a):
     d = mdir(a.run)
     if d.exists():
@@ -59,14 +107,16 @@ def build(a):
         meals = pack.meals_md(con, metas, a.ayah)
     themap = subprocess.run([sys.executable, '-B', str(V9 / 'q.py'), 'index', a.ayah], capture_output=True, text=True,
                             check=True).stdout
+    dic = dictionary_text(a.ayah)
     n = {'page': parts(d / 'inputs', 'page', numbered, f'{a.ayah} reading, paragraphs numbered'),
+         'dict': parts(d / 'inputs', 'dict', dic, f'{a.ayah} project dictionary'),
          'meals': parts(d / 'inputs', 'meals', meals, f'{a.ayah} translations'),
          'map': parts(d / 'inputs', 'map', themap, f'{a.ayah} verse map, question list')}
     model, effort = a.model.split(':')
     tag = digest.tag_of(model, effort)
     agent = f'/root/v9meal_{a.run}_{tag}_{a.ayah.replace(":", "-")}'
     fill = {'AGENT': agent, 'MODEL': model, 'EFFORT': effort, 'RUN': a.run, 'TAG': tag, 'AYAH': a.ayah,
-            'LAST_PAGE': str(n['page'] - 1), 'LAST_MEALS': str(n['meals'] - 1), 'LAST_MAP': str(n['map'] - 1)}
+            'LAST_PAGE': str(n['page'] - 1), 'LAST_DICT': str(n['dict'] - 1), 'LAST_MEALS': str(n['meals'] - 1), 'LAST_MAP': str(n['map'] - 1)}
     text = BRIEF.read_text()
     for x, v in fill.items():
         text = text.replace('{' + x + '}', v)
@@ -74,7 +124,7 @@ def build(a):
     (d / 'out' / tag).mkdir(parents=True)
     dump(d / 'manifest.json', {'ayah': a.ayah, 'page': a.page, 'model': a.model, 'tag': tag, 'agent': agent,
                                'paragraphs': sorted(paras), 'meals': sorted(meal_ids(a.ayah)), 'parts': n})
-    print(f"{a.ayah}: page {len(numbered):,} chars, meals {len(meals):,}, map {len(themap):,}; "
+    print(f"{a.ayah}: page {len(numbered):,} chars, dictionary {len(dic):,}, meals {len(meals):,}, map {len(themap):,}; "
           f"spawn {(d / 'spawn' / f'{tag}.md').relative_to(ROOT)}")
 
 
