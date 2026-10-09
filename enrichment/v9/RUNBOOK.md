@@ -17,7 +17,8 @@ Design and decisions: `PLAN.md` (read its "Decisions" section first). Test stand
    user's go; never start a second session under the same name.
 5. **Final passes happen inside the run** (the briefs say so). Do not resume a finished Opus agent later for fixes:
    its whole context is read again (a resumed writer cost $3.27 on the 103:1 test).
-6. **Commit and push after every stage** (only `enrichment/v9`, `enrichment/v7/work/<this surah's runs>`, and the
+6. **Commit and push after every stage and after every ayah page completed** (writer and meal checked, rendered;
+   user, 2026-10-09) (only `enrichment/v9`, `enrichment/v7/work/<this surah's runs>`, and the
    scripts you changed). Never commit another session's work.
 7. Briefs are generic: never put verse-specific examples into a brief.
 
