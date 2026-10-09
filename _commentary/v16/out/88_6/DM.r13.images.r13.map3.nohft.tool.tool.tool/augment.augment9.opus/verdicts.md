@@ -1,0 +1,232 @@
+- 6:42: cited ¶13; nowhere else - ¶14 already summarises the same call; adding it would repeat
+- 6:43: cited ¶13; nowhere else - ¶14 already summarises the refusal
+- 14:16: ref ¶3 - drink of pus given in hell: the drink side of the meal
+- 20:118: ref ¶1 - no hunger in the garden: reverse of the bodily states of 88:4-7
+- 37:66: cited ¶6; ref ¶1 - bellies filled: food going into the body
+- 44:44: cited ¶6; nowhere else - name of zaqqum as food already made
+- 44:45: ref ¶1, ¶6, ¶11 - boiling in bellies: food inside the body; kitchen language
+- 44:46: ref ¶6, ¶11 - boiling like hot water
+- 56:53: context ¶3 (in 56:52); ref ¶1, ¶6 - bellies filled with zaqqum
+- 56:54: context ¶3 (in 56:52) - drink on top of the food
+- 56:55: context ¶3 (in 56:52) - drinking like thirsty camels
+- 69:36: cited ¶16; nowhere else - the construction link to ¶2 is already made in ¶16
+- 78:24: cited ¶3; nowhere else - its construction already explained
+- 78:25: cited ¶3; nowhere else - its exception already explained
+- 5:75: ref ¶17 - those who eat food are not gods: extends "He feeds and is not fed"
+- 5:89: not relevant - legal oath expiation; no tie to the scene
+- 6:63: ref ¶13 - taḍarruʿ and secrecy in the prayer of rescue from darkness
+- 6:138: not relevant - pagan food taboos; shared verb only
+- 6:145: not relevant - dietary prohibitions; shared word only
+- 7:55: cited ¶13; nowhere else - already explained
+- 7:94: ref ¶13 - towns seized with hardship so they might humble themselves
+- 7:205: ref ¶13 - remembering the Lord with taḍarruʿ and fear
+- 10:4: ref ¶3 - drink of ḥamīm for disbelievers (refrain with 6:70)
+- 16:66: prose ¶7 - milk from cattle's bellies: what the udder gives; same verb of giving drink
+- 18:29: prose ¶1 - drink that scorches faces: drink meeting the face
+- 20:119: ref ¶1 - no thirst, no sun heat in the garden
+- 22:19: ref ¶1 - ḥamīm poured over heads
+- 22:20: ref ¶1 - it melts what is in bellies and skins
+- 22:28: ref ¶17 - command to feed the needy from sacrificial animals
+- 22:36: ref ¶17 - feeding the content and the beggar from sacrificial camels
+- 23:19: ref ¶5 - gardens raised by water, eaten from
+- 23:21: ref ¶7 - drink from cattle's bellies and their benefits
+- 23:76: cited ¶13; nowhere else - already explained
+- 26:79: ref ¶17 - the Lord who feeds and gives drink
+- 36:33: ref ¶5 - dead earth revived to grain that is eaten
+- 36:34: ref ¶5 - palms, vines, springs: the sequence continued
+- 36:35: ref ¶5 - to eat of its fruit
+- 37:62: cited ¶6; nowhere else - already explained
+- 37:63: ref ¶6 - the tree made a trial for wrongdoers
+- 37:64: cited ¶6; nowhere else - already explained
+- 37:65: ref ¶6 - description of zaqqum's spathes
+- 37:67: ref ¶3 - mixture of ḥamīm on top of zaqqum: food and drink one meal
+- 37:68: not relevant - return to Jahim; adds nothing to the paragraphs
+- 40:71: not relevant - chains and dragging; no food or face
+- 40:72: not relevant - dragged in ḥamīm then burned; no food
+- 44:43: cited ¶6; nowhere else - already explained
+- 44:47: not relevant - command to drag the sinner; no food or face
+- 44:48: ref ¶1 - punishment of ḥamīm poured on the head
+- 47:15: prose ¶3, ref ¶1, ¶8 - ṭaʿm of milk in the garden vs ḥamīm cutting intestines
+- 55:44: prose ¶11 - same root ān as adjective of hell's boiling water
+- 56:51: context ¶3 (in 56:52) - the addressees: the astray deniers
+- 56:52: prose ¶3, ref ¶6 - zaqqum eaten then ḥamīm drunk on top: the meal in order
+- 56:56: context ¶3 (in 56:52), ref ¶6 - "this is their nuzul": answers 37:62
+- 56:93: ref ¶6 - nuzul of ḥamīm for the deniers
+- 56:94: ref ¶6 - burning in Jahim, with 56:93
+- 69:34: cited ¶16; nowhere else - already explained
+- 69:37: ref ¶16 - only the sinners eat it: tie of food and guilt
+- 74:44: cited ¶16; nowhere else - already explained
+- 76:8: cited ¶17; nowhere else - contrast already drawn
+- 80:24: cited ¶5; nowhere else - already explained
+- 80:25: cited ¶5; nowhere else - already explained
+- 80:26: cited ¶5; nowhere else - already explained
+- 80:27: cited ¶5; nowhere else - already explained
+- 80:28: ref ¶5 - items the paragraph lists without citing
+- 80:29: ref ¶5 - items the paragraph lists without citing
+- 80:30: ref ¶5 - items the paragraph lists without citing
+- 80:31: ref ¶5 - items the paragraph lists without citing
+- 80:32: cited ¶5; nowhere else - already explained
+- 89:18: cited ¶16; nowhere else - already explained
+- 106:4: cited ¶17; context ¶17 (in 16:112) - its "fear" half quoted beside 16:112's hunger and fear
+- 107:3: ref ¶16 - not urging the feeding of the poor (with 107:1-2)
+- 14:17: ref ¶3 - the drink gulped and hardly swallowed
+- 69:31: ref ¶16 - the judgement whose reason the paragraph gives
+- 73:13: ref ¶6 - a choking food of hell beside zaqqum; the link is to hell's other foods, not to the throat the ledger set aside
+- 78:30: ref ¶3 - "taste" and an exception that only adds punishment
+- 3:88: not relevant - no lightening of punishment; no food
+- 7:41: not relevant - beds and coverings of hell; no food
+- 19:71: not relevant - everyone comes to it; no link
+- 25:13: not relevant - cast into a narrow place; no food
+- 46:34: not relevant - "taste the punishment" idiom; shared verb only
+- 70:15: not relevant - name of the fire; no link
+- 74:42: ref ¶16 - the question the paragraph paraphrases
+- 78:23: ref ¶3 - staying for ages: setting of 78:24-25
+- 82:14: not relevant - the wicked in Jahim; no food
+- 84:12: not relevant - burning in a blaze; no tie to the paragraphs' points
+- 90:14: ref ¶17 - feeding on a day of hunger (with 90:15-16)
+- 2:57: not relevant - manna and quails; good provision, no tie
+- 2:61: not relevant - complaint about one food; no tie in what it says
+- 2:184: not relevant - fasting ransom; legal
+- 2:249: cited ¶3; nowhere else - already explained
+- 3:93: not relevant - lawful food of Israel
+- 4:18: ref ¶14 - repentance at death refused: the door open only in the world
+- 4:123: not relevant - laysa only
+- 5:5: not relevant - lawful food of the People of the Book
+- 5:68: not relevant - laysa only
+- 5:95: not relevant - hunting expiation; legal
+- 6:70: ref ¶3 - drink of ḥamīm for what they earned (refrain with 10:4)
+- 6:99: prose ¶8, ref ¶5, ¶20 - look at the fruit when it fruits and ripens; water-to-grain sequence; resembling fruits
+- 6:141: context ¶8 (in 6:99), ref ¶20 - eat of fruit when it fruits; resembling and unlike
+- 7:61: not relevant - laysa only
+- 7:67: not relevant - laysa only
+- 7:160: not relevant - manna and springs for Israel
+- 11:16: ref ¶2 - nothing for them in the hereafter but fire: laysa…illā
+- 13:43: not relevant - laysa only
+- 15:42: not relevant - laysa…illā about Iblis; no tie in meaning
+- 16:10: ref ¶5 - water giving drink and pasture
+- 16:11: ref ¶5 - crops, olives, palms, vines from it
+- 16:67: not relevant - drink from palms and vines; no tie
+- 16:69: not relevant - honey from bees; no tie to udder or food
+- 16:112: prose ¶17 - town fed abundantly made to taste hunger and fear: reversal of 106:4
+- 18:19: not relevant - purest food in the city
+- 20:53: ref ¶5 - water bringing out plants
+- 20:54: ref ¶5 - eat and pasture your cattle
+- 20:81: not relevant - good provisions; no tie
+- 21:8: ref ¶1 - messengers as bodies that eat food
+- 23:51: not relevant - eat good things; no tie
+- 32:27: ref ¶5 - water driven to barren land bringing crops
+- 33:53: cited ¶11; nowhere else - already explained
+- 36:47: prose ¶16, ref ¶17 - the closed hand's argument: shall we feed whom God could feed
+- 42:11: not relevant - laysa ka-mithlihi; shared word for likeness only
+- 46:32: not relevant - laysa only
+- 48:17: not relevant - laysa only
+- 51:57: ref ¶17 - God wants not to be fed
+- 53:39: not relevant - laysa…illā about striving; no tie in meaning to food
+- 53:58: not relevant - laysa only
+- 56:92: ref ¶6 - the deniers whose nuzul is ḥamīm
+- 65:11: not relevant - good provision; no tie
+- 83:22: ref ¶17 - the righteous in naʿīm (with 83:23-24)
+- 89:19: ref ¶16 - devouring inheritance: same rebuke continued
+- 3:173: not relevant - no link
+- 5:93: ref ¶3 - "what they tasted" after the wine prohibition: verb covers drink
+- 12:37: not relevant - food brought to prisoners
+- 56:2: not relevant - laysa only
+- 56:71: not relevant - kindled fire; no tie
+- 111:3: not relevant - burning in flaming fire; no tie to the paragraphs' points
+- 2:23: not relevant - challenge to bring a surah
+- 2:24: not relevant - fire fuelled by men and stones; no tie to ¶20's point
+- 2:26: not relevant - parable of the gnat
+- 2:27: not relevant - breakers of covenant
+- 2:247: not relevant - Ṭālūt's kingship
+- 2:248: not relevant - the ark
+- 2:250: not relevant - prayer for patience
+- 2:251: not relevant - David kills Goliath
+- 6:12: not relevant - mercy prescribed
+- 6:13: not relevant - all that dwells in night and day
+- 6:15: not relevant - fear of a great day
+- 6:16: not relevant - spared that day
+- 6:40: ref ¶13 - calling God alone when punishment comes
+- 6:41: ref ¶13 - He removes what you call Him for
+- 6:44: ref ¶14 - those who forgot: doors opened, then seized
+- 6:45: ref ¶14 - the wrongdoers cut off
+- 7:53: ref ¶14 - those who forgot seek intercessors or return
+- 7:54: not relevant - creation in six days
+- 7:56: ref ¶13 - call Him in fear and hope
+- 7:57: ref ¶5 - water to dead land bringing fruits
+- 23:74: not relevant - deviation from the path; no tie
+- 23:75: ref ¶13 - the community the paragraph paraphrases
+- 23:77: ref ¶14 - door of severe punishment, despair
+- 23:78: not relevant - hearing and sight created
+- 33:51: not relevant - Prophet's wives
+- 33:52: not relevant - Prophet's wives
+- 33:54: not relevant - God knows what is hidden
+- 33:55: not relevant - Prophet's wives
+- 37:60: ref ¶6 - the garden scene before the zaqqum question
+- 37:61: ref ¶6 - work for the like of this
+- 44:41: ref ¶19 - the friend who avails nothing: same verb, function absent
+- 44:42: not relevant - except whom God has mercy
+- 69:32: ref ¶16 - chain: part of the judgement
+- 69:38: not relevant - oath
+- 74:43: ref ¶16 - another answer: not praying
+- 74:45: ref ¶16 - another answer: idle talk
+- 74:46: ref ¶16 - another answer: denying the Day
+- 76:6: not relevant - spring of God's servants; no tie to the paragraphs' points
+- 76:7: ref ¶17 - the feeders fulfil vows and fear the day
+- 76:10: context ¶17 (in 76:11) - fear of the frowning day
+- 76:11: prose ¶17 - the feeders given radiance of face
+- 77:28: not relevant - refrain of woe; adds nothing
+- 77:29: ref ¶19 - the command the paragraph paraphrases
+- 77:32: not relevant - sparks
+- 77:33: not relevant - yellow camels; shared word only
+- 78:22: ref ¶3 - the transgressors' return the paragraph paraphrases
+- 78:26: ref ¶16 - a fitting recompense
+- 78:27: ref ¶16 - they did not expect reckoning
+- 80:22: ref ¶5 - end of the creation reminder the paragraph names
+- 80:23: ref ¶5 - command not fulfilled, before "let man look at his food"
+- 80:33: ref ¶5 - the blast following the provision sequence
+- 80:34: ref ¶5 - that day, with 80:33
+- 89:15: ref ¶16 - man honoured, then rebuked
+- 89:16: ref ¶16 - man's provision restricted
+- 89:20: ref ¶16 - love of wealth: same rebuke
+- 106:2: not relevant - journeys of winter and summer
+- 106:3: ref ¶17 - worship asked in return for feeding
+- 41:39 own: prose ¶5 - khāshiʿa used in the Quran for dry earth awaiting water
+- 87:4 own: prose ¶4 - pasture brought out then turned to dark stubble
+- 87:5 own: context ¶4 (in 87:4) - the dried state of the plant
+- 39:21 own: ref ¶4 - crop yellowing and crumbling
+- 57:20 own: ref ¶4 - same wording of yellowing and crumbling
+- 18:45 own: ref ¶4 - plants turned to dry chaff
+- 12:43 own: ref ¶4, ¶9 - green and dry ears; fat cows eaten by lean
+- 12:46 own: ref ¶4, ¶9 - same wording repeated
+- 42:45 own: prose ¶14 - khushūʿ from dhull at the exposure
+- 68:43 own: prose ¶14 - downcast eyes and dhilla after the call to prostrate
+- 70:44 own: ref ¶14 - downcast eyes and dhilla on the promised day
+- 56:3 own: ref ¶14 - lowering and raising
+- 18:77 own: prose ¶15 - istaṭʿama and refused hospitality
+- 18:65 own: context ¶15 (in 18:77) - names Moses' companion as the Quran describes him
+- 18:76 own: not relevant - Moses' promise; no tie
+- 18:78 own: not relevant - parting; no tie
+- 83:23 own: ref ¶17 - with 83:22-24
+- 83:24 own: ref ¶17 - radiance of naʿīm known in their faces
+- 75:22 own: ref ¶17 - radiant faces that day
+- 87:13 own: ref ¶19 - neither dying nor living
+- 20:74 own: ref ¶19 - same wording
+- 56:42 own: ref ¶19 - scorching wind and boiling water
+- 56:43 own: ref ¶19 - shade of black smoke
+- 56:44 own: ref ¶19 - neither cool nor generous: shade without function
+- 17:60 own: ref ¶6 - the accursed tree as a trial
+- 69:24 own: ref ¶16 - eating for what was sent ahead: counterpart of 69:33-36
+- 69:19 own: not relevant on its own - frames 69:24
+- 107:1 own: ref ¶16 - the denier of the dīn
+- 107:2 own: ref ¶16 - repulses the orphan
+- 90:15 own: ref ¶17 - orphan near of kin
+- 90:16 own: ref ¶17 - the destitute poor
+- 25:45 own: ref ¶10 - shadow stretched
+- 25:46 own: ref ¶10 - shadow withdrawn little by little
+- 51:24 own: ref ¶15 - Abraham's honoured guests
+- 51:26 own: ref ¶9, ¶15 - fat calf brought to guests
+- 51:27 own: ref ¶15 - offered: "will you not eat"
+- 5:90 own: not relevant - frames 5:93 only
+- 5:91 own: not relevant - frames 5:93 only
+- 20:117 own: not relevant - names the addressee of 20:118
+- 87:12 own: not relevant - burning in the great fire; no tie
