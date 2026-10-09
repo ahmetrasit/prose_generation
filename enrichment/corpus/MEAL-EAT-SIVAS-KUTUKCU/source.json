@@ -1,0 +1,514 @@
+{
+  "id": "MEAL-EAT-SIVAS-KUTUKCU",
+  "title": "Eski Anadolu Türkçesi satır-arası Kur'an tercümesi, Sivas manuscript, leaves 535b-616b (Kütükçü)",
+  "author": "anonymous (XV century; colophon note «tarih-i tahriri 903», waqf of Kezban Hatun)",
+  "translator": "anonymous",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "turkic_stage": "Old Anatolian Turkish",
+  "edition": "Mehmet Kütükçü, Eski Anadolu Türkçesiyle Yazılmış Satır Arası Bir Kur'ân Tercümesi (Gramer - Metin - Tertip - Sözlük) (535b - 616b), master's thesis, Cumhuriyet Üniversitesi, Sosyal Bilimler Enstitüsü, Sivas, September 2005 (supervisor Yrd. Doç. Dr. Burhan Paçacıoğlu)",
+  "edition_editor": "Mehmet Kütükçü",
+  "edition_publisher": "Cumhuriyet Üniversitesi (master's thesis)",
+  "edition_year": 2005,
+  "manuscript": "Sivas Kongre ve Etnografya Müzesi E.Y. 84/176 (622 leaves; this edition: 535b-616b); the other published part of the same manuscript is leaves 105b-170b (Delice, MEAL-EAT-SIVAS-DELICE)",
+  "access": "yerel",
+  "locator": "ayah",
+  "urls": [
+    "https://archive.org/details/eski-anadolu-turkcesiyle-yazilmis-satir-arasi-bir-kuran-tercumesi-gramer-metin-t",
+    "https://archive.org/details/EskiAnadoluTrkkesiyleYazalmlSatrArasrBirKurinTercmesi"
+  ],
+  "uploader": "empireofhassaan@hotmail.com",
+  "archive_identifier": "eski-anadolu-turkcesiyle-yazilmis-satir-arasi-bir-kuran-tercumesi-gramer-metin-t",
+  "licence": "scholarly edition; archive.org third-party upload; local research use",
+  "panel": false,
+  "cross_witnesses": [],
+  "files": {
+    "raw/acquired-2026-10-09/kutukcu_535b-616b_djvu.txt": "2b370584e6a6a9d065438462e05c4906867d46589fbf9af1dd22f7af2ec15573"
+  },
+  "fetched_at": "2026-10-09T17:06:30.491214+00:00",
+  "acquisition": {
+    "date": "2026-10-09",
+    "state": "raw_downloaded",
+    "files": 1,
+    "bytes": 490439,
+    "ingestion_status": "ingested",
+    "note": "OCR text (djvu.txt) of an archive.org third-party upload; no PDF kept."
+  },
+  "coverage": "54-114 (1344/1390 ayat of the edition's range 54:1-114:6; the manuscript itself lacks 58:22, 59:1-2a)",
+  "notes": "Partial: leaves 535b-616b of the Sivas manuscript only (surahs 54-114). 1344 of 1390 verses present; 46 missing in 20 surahs (listed in ingestion.missing: the manuscript's own lacunae 58:22 and 59:1-2, and verses lost to the OCR, whose first letters of many lines are missing in surahs 69-114). Folio ids sit in `page`; manuscript line numbers /k/ stay in the text of surahs 69-114. Text is OCR as is, not corrected. scholarly edition; archive.org third-party upload; local research use",
+  "segments": 1278,
+  "ingestion": {
+    "date": "2026-10-09",
+    "script": "enrichment/v2/fetch/import_meal_eat_sivas_kutukcu.py",
+    "from": {
+      "raw/acquired-2026-10-09/kutukcu_535b-616b_djvu.txt": "2b370584e6a6a9d065438462e05c4906867d46589fbf9af1dd22f7af2ec15573"
+    },
+    "method": "OCR djvu.txt, METİN part; layout 1 «N:» entries, layout 2 «(n)» markers; surah by heading count and number reset",
+    "edition_range": "folios 535b-616b = surahs 54:1 to 114 (the manuscript lacks 58:22, 59:1 and half of 59:2)",
+    "covered": {
+      "54": "1-50,52-55",
+      "55": "1-30,32-41,43-50,52-78",
+      "56": "1-77,79-96",
+      "57": "1-29",
+      "58": "1-21",
+      "59": "3-24",
+      "60": "1-13",
+      "61": "1-14",
+      "62": "1-11",
+      "63": "1-11",
+      "64": "1-18",
+      "65": "1-12",
+      "66": "1-4,6-12",
+      "67": "1-30",
+      "68": "1-41",
+      "69": "6-52",
+      "70": "1-44",
+      "71": "4-28",
+      "72": "1-27",
+      "73": "2-20",
+      "74": "1-56",
+      "75": "1-39",
+      "76": "1-31",
+      "77": "1-50",
+      "78": "1-40",
+      "79": "1-45",
+      "80": "1-42",
+      "81": "1-29",
+      "82": "1-19",
+      "83": "1-36",
+      "84": "1-25",
+      "85": "1-22",
+      "86": "1-17",
+      "87": "1-18",
+      "88": "1-26",
+      "89": "1-30",
+      "90": "1-20",
+      "91": "1-15",
+      "92": "1-21",
+      "93": "1-11",
+      "94": "1-8",
+      "95": "1-8",
+      "96": "1-19",
+      "97": "1-5",
+      "98": "1-7",
+      "99": "1-8",
+      "100": "1-8",
+      "101": "2-11",
+      "102": "1-3",
+      "103": "2-3",
+      "104": "1-4,7-9",
+      "105": "1-5",
+      "106": "1-4",
+      "107": "1-7",
+      "108": "1-3",
+      "109": "1-6",
+      "110": "1-3",
+      "111": "1-5",
+      "112": "1-4",
+      "113": "1-5",
+      "114": "1-6"
+    },
+    "missing": {
+      "54": [
+        51
+      ],
+      "55": [
+        31,
+        42,
+        51
+      ],
+      "56": [
+        78
+      ],
+      "58": [
+        22
+      ],
+      "59": [
+        1,
+        2
+      ],
+      "66": [
+        5
+      ],
+      "68": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "69": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "71": [
+        1,
+        2,
+        3
+      ],
+      "72": [
+        28
+      ],
+      "73": [
+        1
+      ],
+      "75": [
+        40
+      ],
+      "79": [
+        46
+      ],
+      "87": [
+        19
+      ],
+      "98": [
+        8
+      ],
+      "100": [
+        9,
+        10,
+        11
+      ],
+      "101": [
+        1
+      ],
+      "102": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "103": [
+        1
+      ],
+      "104": [
+        5,
+        6
+      ]
+    },
+    "verse_count_mismatch": {
+      "54": [
+        54,
+        55
+      ],
+      "55": [
+        75,
+        78
+      ],
+      "56": [
+        95,
+        96
+      ],
+      "58": [
+        21,
+        22
+      ],
+      "59": [
+        22,
+        24
+      ],
+      "66": [
+        11,
+        12
+      ],
+      "68": [
+        41,
+        52
+      ],
+      "69": [
+        47,
+        52
+      ],
+      "71": [
+        25,
+        28
+      ],
+      "72": [
+        27,
+        28
+      ],
+      "73": [
+        19,
+        20
+      ],
+      "75": [
+        39,
+        40
+      ],
+      "79": [
+        45,
+        46
+      ],
+      "87": [
+        18,
+        19
+      ],
+      "98": [
+        7,
+        8
+      ],
+      "100": [
+        8,
+        11
+      ],
+      "101": [
+        10,
+        11
+      ],
+      "102": [
+        3,
+        8
+      ],
+      "103": [
+        2,
+        3
+      ],
+      "104": [
+        7,
+        9
+      ]
+    },
+    "headings_found": [
+      {
+        "line": 4138,
+        "surah": 54,
+        "stated_count": 55
+      },
+      {
+        "line": 4339,
+        "surah": 55,
+        "stated_count": 78
+      },
+      {
+        "line": 4814,
+        "surah": 57,
+        "stated_count": 29
+      },
+      {
+        "line": 5336,
+        "surah": 60,
+        "stated_count": 13
+      },
+      {
+        "line": 5462,
+        "surah": 61,
+        "stated_count": 14
+      },
+      {
+        "line": 5551,
+        "surah": 62,
+        "stated_count": 0
+      },
+      {
+        "line": 5626,
+        "surah": 63,
+        "stated_count": 11
+      },
+      {
+        "line": 5693,
+        "surah": 64,
+        "stated_count": 18
+      },
+      {
+        "line": 5792,
+        "surah": 65,
+        "stated_count": 12
+      },
+      {
+        "line": 5900,
+        "surah": 66,
+        "stated_count": 12
+      },
+      {
+        "line": 5992,
+        "surah": 67,
+        "stated_count": 30
+      },
+      {
+        "line": 6141,
+        "surah": 68,
+        "stated_count": 52
+      },
+      {
+        "line": 6342,
+        "surah": 70,
+        "stated_count": 44
+      },
+      {
+        "line": 6395,
+        "surah": 71,
+        "stated_count": 28
+      },
+      {
+        "line": 6450,
+        "surah": 72,
+        "stated_count": 28
+      },
+      {
+        "line": 6805,
+        "surah": 79,
+        "stated_count": 46
+      },
+      {
+        "line": 6880,
+        "surah": 81,
+        "stated_count": 29
+      },
+      {
+        "line": 6909,
+        "surah": 82,
+        "stated_count": 19
+      },
+      {
+        "line": 6982,
+        "surah": 84,
+        "stated_count": 25
+      },
+      {
+        "line": 7034,
+        "surah": 86,
+        "stated_count": 17
+      },
+      {
+        "line": 7121,
+        "surah": 90,
+        "stated_count": 20
+      },
+      {
+        "line": 7145,
+        "surah": 91,
+        "stated_count": 15
+      },
+      {
+        "line": 7213,
+        "surah": 96,
+        "stated_count": 19
+      },
+      {
+        "line": 7235,
+        "surah": 97,
+        "stated_count": 5
+      },
+      {
+        "line": 7274,
+        "surah": 100,
+        "stated_count": 11
+      },
+      {
+        "line": 7296,
+        "surah": 102,
+        "stated_count": 8
+      },
+      {
+        "line": 7329,
+        "surah": 105,
+        "stated_count": 5
+      },
+      {
+        "line": 7339,
+        "surah": 107,
+        "stated_count": 7
+      },
+      {
+        "line": 7353,
+        "surah": 108,
+        "stated_count": 6
+      },
+      {
+        "line": 7356,
+        "surah": 109,
+        "stated_count": 6
+      },
+      {
+        "line": 7366,
+        "surah": 111,
+        "stated_count": 5
+      },
+      {
+        "line": 7381,
+        "surah": 113,
+        "stated_count": 5
+      },
+      {
+        "line": 7388,
+        "surah": 114,
+        "stated_count": 6
+      }
+    ],
+    "issues": [
+      "71: marker (18) follows (16): verse(s) 17-17 have no marker in the OCR",
+      "71: marker (28) follows (26): verse(s) 27-27 have no marker in the OCR",
+      "72: marker (22) follows (20): verse(s) 21-21 have no marker in the OCR",
+      "73: marker (2) follows (0): verse(s) 1-1 have no marker in the OCR",
+      "74: marker (10) follows (8): verse(s) 9-9 have no marker in the OCR",
+      "74: marker (16) follows (14): verse(s) 15-15 have no marker in the OCR",
+      "74: marker (26) follows (24): verse(s) 25-25 have no marker in the OCR",
+      "74: marker (42) follows (40): verse(s) 41-41 have no marker in the OCR",
+      "76: marker (10) follows (8): verse(s) 9-9 have no marker in the OCR",
+      "77: marker (22) follows (20): verse(s) 21-21 have no marker in the OCR",
+      "77: marker (36) follows (34): verse(s) 35-35 have no marker in the OCR",
+      "77: marker (47) follows (45): verse(s) 46-46 have no marker in the OCR",
+      "78: marker (18) follows (15): verse(s) 16-17 have no marker in the OCR",
+      "79: marker (3) follows (1): verse(s) 2-2 have no marker in the OCR",
+      "79: marker (20) follows (18): verse(s) 19-19 have no marker in the OCR",
+      "79: marker (34) follows (32): verse(s) 33-33 have no marker in the OCR",
+      "80: marker (6) follows (4): verse(s) 5-5 have no marker in the OCR",
+      "80: marker (13) follows (11): verse(s) 12-12 have no marker in the OCR",
+      "80: marker (40) follows (38): verse(s) 39-39 have no marker in the OCR",
+      "81: marker (24) follows (22): verse(s) 23-23 have no marker in the OCR",
+      "83: marker (5) follows (3): verse(s) 4-4 have no marker in the OCR",
+      "83: marker (10) follows (8): verse(s) 9-9 have no marker in the OCR",
+      "83: marker (32) follows (29): verse(s) 30-31 have no marker in the OCR",
+      "83: marker (35) follows (33): verse(s) 34-34 have no marker in the OCR",
+      "84: marker (10) follows (8): verse(s) 9-9 have no marker in the OCR",
+      "84: marker (20) follows (18): verse(s) 19-19 have no marker in the OCR",
+      "87: marker (9) follows (7): verse(s) 8-8 have no marker in the OCR",
+      "88: marker (22) follows (20): verse(s) 21-21 have no marker in the OCR",
+      "90: marker (8) follows (5): verse(s) 6-7 have no marker in the OCR",
+      "90: marker (18) follows (16): verse(s) 17-17 have no marker in the OCR",
+      "91: marker (4) follows (2): verse(s) 3-3 have no marker in the OCR",
+      "91: marker (15) follows (13): verse(s) 14-14 have no marker in the OCR",
+      "92: marker (12) follows (10): verse(s) 11-11 have no marker in the OCR",
+      "92: marker (17) follows (15): verse(s) 16-16 have no marker in the OCR",
+      "99: marker (6) follows (4): verse(s) 5-5 have no marker in the OCR",
+      "100: marker (7) follows (5): verse(s) 6-6 have no marker in the OCR",
+      "101: marker (2) follows (0): verse(s) 1-1 have no marker in the OCR",
+      "103: marker (2) follows (0): verse(s) 1-1 have no marker in the OCR",
+      "line 7303: surah heading (count 3) not placed after surah 103",
+      "line 7307: surah heading (count 0) not placed after surah 104",
+      "104:4: text too short for verses up to 6 (34 chars): those verses stay missing",
+      "104: marker (7) follows (4): verse(s) 5-6 have no marker in the OCR",
+      "86: text before the first marker is too short for verses 1-3",
+      "102: text before the first marker is too short for verses 1-3"
+    ],
+    "counts": {
+      "editor's NOT lines (kept in the reference source)": 2,
+      "entries whose number runs backwards, kept as text of the previous verse": 1,
+      "entry numbers with a doubled digit repaired («77:» read as 7)": 1,
+      "folio blocks printed twice by the OCR, later copy dropped": 2,
+      "lines of a repeated folio block dropped": 16,
+      "parenthesised figures that do not continue the verse numbers, kept as text": 26,
+      "running page headers dropped (surah names of the page)": 91,
+      "thesis page numbers dropped": 39,
+      "verse entries repeated by the OCR (a page printed twice), later copy dropped": 1,
+      "verse groups made of verses whose markers the OCR lost (text long enough for them)": 10
+    },
+    "dropped_sample": [],
+    "segments": 1278,
+    "tied_to_ayah": 1278,
+    "with_cited_ayat": 0,
+    "characters": 92413
+  }
+}

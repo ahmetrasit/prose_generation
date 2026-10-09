@@ -1,0 +1,72 @@
+{
+  "id": "MEAL-EAT-SIVAS-DELICE",
+  "title": "Eski Anadolu Türkçesi satır-arası Kur'an tercümesi, Sivas manuscript, leaves 105b-170b (Delice)",
+  "author": "anonymous (XV century)",
+  "translator": "anonymous",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "turkic_stage": "Old Anatolian Turkish",
+  "edition": "İbrahim Delice, Eski Anadolu Türkçesi İle Yazılmış Satırarası Bir Kur'an Tercümesi (Gramer - Metin - Çeviri - Sözlük) (105b-170b), master's thesis, Cumhuriyet Üniversitesi, Sosyal Bilimler Enstitüsü, Sivas 1992 (supervisor Yrd. Doç. Dr. Bilal Yücel)",
+  "edition_editor": "İbrahim Delice",
+  "edition_publisher": "Cumhuriyet Üniversitesi (master's thesis)",
+  "edition_year": 1992,
+  "manuscript": "Sivas Kongre ve Etnografya Müzesi E.Y. 84/176 (622 leaves; this edition: 105b-170b); the other part is MEAL-EAT-SIVAS-KUTUKCU (535b-616b)",
+  "access": "yerel",
+  "locator": "ayah",
+  "urls": [
+    "https://archive.org/details/EskiAnadoluTrkkesiIleYazYlmSatrarasBirKuranTercmesi"
+  ],
+  "uploader": "empireofhassaan@hotmail.com",
+  "archive_identifier": "EskiAnadoluTrkkesiIleYazYlmSatrarasBirKuranTercmesi",
+  "licence": "scholarly edition; archive.org third-party upload; local research use",
+  "panel": false,
+  "cross_witnesses": [],
+  "files": {
+    "raw/acquired-2026-10-09/delice_105b-170b_djvu.txt": "ad91f8b1a33607438f507b63fc033d74585ead5e5860bb1605c773d9cf549d02"
+  },
+  "fetched_at": "2026-10-09T17:14:14.604208+00:00",
+  "acquisition": {
+    "date": "2026-10-09",
+    "state": "raw_downloaded",
+    "files": 1,
+    "bytes": 474960,
+    "ingestion_status": "ingested",
+    "note": "OCR text (djvu.txt) of an archive.org third-party upload; no PDF kept."
+  },
+  "coverage": "5:1-7:133 by leaf (418/418 verses lie on a stored leaf; 7:134-206 are outside the edition)",
+  "notes": "Partial: leaves 105b-170b of the Sivas manuscript only. The OCR of the scan is poor; the old text is stored LEAF by LEAF (segment = one manuscript leaf, a..a_end = the verses that begin or continue on it, read from the modern entries' printed leaf references; adjacent leaves share the verse they split). No verse is cut inside a leaf: the edition's verse separators do not give one verse per mark. Manuscript line numbers (n) stay in the text; leaf ids are the OCR readings (about a third of the 132 leaves have no readable id and are merged into the leaf before; a few ids are misread). scholarly edition; archive.org third-party upload; local research use",
+  "segments": 101,
+  "ingestion": {
+    "date": "2026-10-09",
+    "script": "enrichment/v2/fetch/import_meal_eat_sivas_delice.py",
+    "from": {
+      "raw/acquired-2026-10-09/delice_105b-170b_djvu.txt": "ad91f8b1a33607438f507b63fc033d74585ead5e5860bb1605c773d9cf549d02"
+    },
+    "method": "OCR djvu.txt; old text by manuscript leaf (leaf ids open it); verse ranges of a leaf from the modern entries' printed leaf references",
+    "edition_range": "leaves 105b-170b = Mâ'ide 5:1 to A'râf 7:133 (surahs 5, 6 complete; 7 up to verse 133 of 206)",
+    "covered": {
+      "5": "1-120",
+      "6": "1-165",
+      "7": "1-133"
+    },
+    "missing": {},
+    "verse_count_mismatch": {},
+    "leaf_segments": 101,
+    "leaves_found_in_ocr": 91,
+    "leaves_expected": 132,
+    "issues": [
+      "old-text verse separators «/» are not one per verse (145 units for 120 verses in Mâ'ide), so verses are not cut inside a leaf"
+    ],
+    "counts": {
+      "lone figures dropped": 1,
+      "thesis page numbers dropped": 77
+    },
+    "dropped_sample": [],
+    "segments": 101,
+    "tied_to_ayah": 101,
+    "with_cited_ayat": 0,
+    "characters": 94418
+  }
+}
