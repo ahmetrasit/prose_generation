@@ -24,7 +24,7 @@
   "raw_shared": [
     "../MEAL-ZDUMAN/raw/acquired-2026-10-09/"
   ],
-  "notes": "archive.org upload by a third party; in copyright; local research use. Ingested 2026-10-09 (fetch/import_meal_zduman.py): 3728 numbered notes tied to their passage's verse range (see MEAL-ZDUMAN for how the ranges were fitted). Ingested 2026-10-09 (fetch/import_meal_zduman.py): 3728 numbered notes tied to their passage's verse range (see MEAL-ZDUMAN for how the ranges were fitted). Ingested 2026-10-09 (fetch/import_meal_zduman.py): 3728 numbered notes tied to their passage's verse range (see MEAL-ZDUMAN for how the ranges were fitted).",
+  "notes": "archive.org upload by a third party; in copyright; local research use. Ingested 2026-10-09 (fetch/import_meal_zduman.py): 3728 numbered notes tied to their passage's verse range (see MEAL-ZDUMAN for how the ranges were fitted). Ingested 2026-10-09 (fetch/import_meal_zduman.py): 3728 numbered notes tied to their passage's verse range (see MEAL-ZDUMAN for how the ranges were fitted). Ingested 2026-10-09 (fetch/import_meal_zduman.py): 3728 numbered notes tied to their passage's verse range (see MEAL-ZDUMAN for how the ranges were fitted). OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
   "coverage": "1-114 (every surah: introduction and the notes of every passage)",
   "segments": 4382,
   "ingestion": {
@@ -181,6 +181,213 @@
     "segments": 4382,
     "tied_to_ayah": 4381,
     "with_cited_ayat": 654,
-    "characters": 2623899
+    "characters": 2623899,
+    "ocr_corrections": {
+      "date": "2026-10-09",
+      "script": "enrichment/v2/fetch/ocr_fix.py",
+      "rules": {
+        "header": "running page/volume headers left inside the text removed (per-source patterns)",
+        "noise": "leftover Arabic-noise punctuation runs (3+ commas/semicolons in a row) removed",
+        "hyphen": "hyphenation leftover 'xx- yy' joined when the joined word is attested in the clean meals",
+        "join": "letter-spaced / split words joined when the joined form is attested and the spaced sequence never occurs in the clean meals",
+        "sub": "non-word turned into an attested word by one known OCR confusion (rı->n, ı->r, fi->â, ...) with a clear winner",
+        "case": "stray capital inside a word lower-cased when the lower-cased form is attested"
+      },
+      "fixes_per_rule": {
+        "hyphen": 64,
+        "sub": 360,
+        "join": 11,
+        "case": 3
+      },
+      "segments_changed": 348,
+      "confusions_used_beyond_core": [
+        "ü>û"
+      ],
+      "sub_candidates_left_alone_unconfirmed": 87,
+      "space_join_runs_left_alone_ambiguous": 0,
+      "samples": [
+        {
+          "seg": "TAFSIR-ZDUMAN:29:28#t4",
+          "from": "Lüt'un",
+          "to": "Lût'un",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:37:1#t3",
+          "from": "Sür'a",
+          "to": "Sûr'a",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:77:15#t5",
+          "from": "suçlan",
+          "to": "suçları",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:29:45#t5",
+          "from": "hüdu",
+          "to": "hûdu",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:34:1#t7",
+          "from": "Lüt",
+          "to": "Lût",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:front",
+          "from": "karşılığmı",
+          "to": "karşılığını",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:41:19#fn",
+          "from": "Hüd",
+          "to": "Hûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:7:175#t2",
+          "from": "gerçeklen",
+          "to": "gerçekleri",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:7:148#fn",
+          "from": "Nür",
+          "to": "Nûr",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:82:1#fn",
+          "from": "Hüd",
+          "to": "Hûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:35:intro",
+          "from": "Ebü",
+          "to": "Ebû",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:30:48#fn",
+          "from": "Hüd",
+          "to": "Hûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:49:1#t5",
+          "from": "ha- diselerin",
+          "to": "hadiselerin",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:46:21#fn",
+          "from": "Hüd",
+          "to": "Hûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:79:1#t6",
+          "from": "Sür'un",
+          "to": "Sûr'un",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:7:158#t4",
+          "from": "sükünete",
+          "to": "sükûnete",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:4:167#t2",
+          "from": "Rüh",
+          "to": "Rûh",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:29:16#t8",
+          "from": "Lüt",
+          "to": "Lût",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:17:53#t9",
+          "from": "başlan",
+          "to": "başları",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:6:100#t2",
+          "from": "nitelemeler- den",
+          "to": "nitelemelerden",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:4:103#fn",
+          "from": "Bilmen",
+          "to": "Bilinen",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:36:45#t5",
+          "from": "Sürun",
+          "to": "Sûrun",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:86:1#t7",
+          "from": "oğullan",
+          "to": "oğulları",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:57:1#fn",
+          "from": "Hüd",
+          "to": "Hûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:50:intro",
+          "from": "Gözlen",
+          "to": "Gözleri",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:2:249#t9",
+          "from": "ne- sillerin",
+          "to": "nesillerin",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:42:intro",
+          "from": "Hüd",
+          "to": "Hûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:25:45#fn",
+          "from": "Nür",
+          "to": "Nûr",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:53:33#t9",
+          "from": "Lüt",
+          "to": "Lût",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-ZDUMAN:66:1#t4",
+          "from": "kul- lanılan",
+          "to": "kullanılan",
+          "rule": "hyphen"
+        }
+      ],
+      "original": "each changed segment keeps its imported text in text_ocr (notes_ocr) and the list ocr_fixes"
+    }
   }
 }

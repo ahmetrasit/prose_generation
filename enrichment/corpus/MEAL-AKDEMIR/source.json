@@ -32,7 +32,7 @@
     "manifest": "../../v2/audits/2026-10-05-source-downloads/manifest.json",
     "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
   },
-  "notes": "Ingested 2026-10-05 from the user's download (fetch/import_meal_akdemir.py). OCR text: some stretches are letter-spaced («H ani İsra ilo ğ u llan n d a n») and need care when quoted; verse groups are Akdemir's own (a..a_end). Pointer note before ingestion: Ingested 2026-10-05 from the user's download (fetch/import_meal_akdemir.py). OCR text: some stretches are letter-spaced («H ani İsra ilo ğ u llan n d a n») and need care when quoted; verse groups are Akdemir's own (a..a_end). Pointer note before ingestion: ",
+  "notes": "Ingested 2026-10-05 from the user's download (fetch/import_meal_akdemir.py). OCR text: some stretches are letter-spaced («H ani İsra ilo ğ u llan n d a n») and need care when quoted; verse groups are Akdemir's own (a..a_end). Pointer note before ingestion: Ingested 2026-10-05 from the user's download (fetch/import_meal_akdemir.py). OCR text: some stretches are letter-spaced («H ani İsra ilo ğ u llan n d a n») and need care when quoted; verse groups are Akdemir's own (a..a_end). Pointer note before ingestion: OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
   "segments": 3461,
   "ingestion": {
     "date": "2026-10-05",
@@ -381,6 +381,215 @@
     "segments": 3461,
     "tied_to_ayah": 3413,
     "with_cited_ayat": 16,
-    "characters": 1194376
+    "characters": 1194376,
+    "ocr_corrections": {
+      "date": "2026-10-09",
+      "script": "enrichment/v2/fetch/ocr_fix.py",
+      "rules": {
+        "header": "running page/volume headers left inside the text removed (per-source patterns)",
+        "noise": "leftover Arabic-noise punctuation runs (3+ commas/semicolons in a row) removed",
+        "hyphen": "hyphenation leftover 'xx- yy' joined when the joined word is attested in the clean meals",
+        "join": "letter-spaced / split words joined when the joined form is attested and the spaced sequence never occurs in the clean meals",
+        "sub": "non-word turned into an attested word by one known OCR confusion (rı->n, ı->r, fi->â, ...) with a clear winner",
+        "case": "stray capital inside a word lower-cased when the lower-cased form is attested"
+      },
+      "fixes_per_rule": {
+        "join": 7079,
+        "sub": 1500,
+        "hyphen": 237,
+        "noise": 14,
+        "header": 33,
+        "case": 1
+      },
+      "segments_changed": 2007,
+      "confusions_used_beyond_core": [
+        "l>i"
+      ],
+      "sub_candidates_left_alone_unconfirmed": 192,
+      "space_join_runs_left_alone_ambiguous": 20,
+      "samples": [
+        {
+          "seg": "MEAL-AKDEMIR:55:72",
+          "from": "kapanm ış",
+          "to": "kapanmış",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:61:11",
+          "from": "b ü y ü k",
+          "to": "büyük",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:55:1",
+          "from": "lnsanı",
+          "to": "insanı",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:p007",
+          "from": "Kerim i",
+          "to": "Kerimi",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:9:120",
+          "from": "düşm ana",
+          "to": "düşmana",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:9:90",
+          "from": "sa n a",
+          "to": "sana",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:p010",
+          "from": "B u",
+          "to": "Bu",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:70:22",
+          "from": "istem ek ten",
+          "to": "istemekten",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:9:91",
+          "from": "b ir",
+          "to": "bir",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:4:136",
+          "from": "im anlarını",
+          "to": "imanlarını",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:51:47",
+          "from": "Bi- ziz",
+          "to": "Biziz",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:21:69",
+          "from": "B u",
+          "to": "Bu",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:7:76",
+          "from": "büyü k lü k",
+          "to": "büyüklük",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:4:92",
+          "from": "öld ü recek",
+          "to": "öldürecek",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:p647",
+          "from": "A LLAH",
+          "to": "ALLAH",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:3:52",
+          "from": "k arar",
+          "to": "karar",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:39:38",
+          "from": "A n d o ls u n k i",
+          "to": "Andolsunki",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:56:22",
+          "from": "b aşk a",
+          "to": "başka",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:7:175",
+          "from": "d u ru m u",
+          "to": "durumu",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:2:90",
+          "from": "b ir",
+          "to": "bir",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:p026",
+          "from": "k o n u su",
+          "to": "konusu",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:3:181",
+          "from": "peygam berleri",
+          "to": "peygamberleri",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:3:174",
+          "from": "h ald e",
+          "to": "halde",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:2:261",
+          "from": "durum u",
+          "to": "durumu",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:9:122",
+          "from": "çıkm asın",
+          "to": "çıkmasın",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:16:35",
+          "from": "dışmda",
+          "to": "dışında",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:2:214",
+          "from": "m aruz",
+          "to": "maruz",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:60:12",
+          "from": "ayaklan",
+          "to": "ayakları",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:26:200",
+          "from": "günahkarlann",
+          "to": "günahkarların",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-AKDEMIR:49:16",
+          "from": "din in i",
+          "to": "dinini",
+          "rule": "join"
+        }
+      ],
+      "original": "each changed segment keeps its imported text in text_ocr (notes_ocr) and the list ocr_fixes"
+    }
   }
 }

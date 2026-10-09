@@ -21,7 +21,7 @@
   },
   "id": "MEAL-ZDUMAN",
   "title": "Beyânu'l-Hak: Kur'an-ı Kerim'in Nüzul Sırasına Göre Tefsiri (meal)",
-  "notes": "archive.org upload by a third party; in copyright; local research use. Ingested 2026-10-09 (fetch/import_meal_zduman.py): 707 passages, each the meal of a revelation-order passage; the edition prints no verse numbers, so each passage's verse range was fitted by word alignment to seven other meals (105 boundaries are weakly determined: ingestion.uncertain_boundaries). All 6236 verses are covered. Ingested 2026-10-09 (fetch/import_meal_zduman.py): 707 passages, each the meal of a revelation-order passage; the edition prints no verse numbers, so each passage's verse range was fitted by word alignment to seven other meals (105 boundaries are weakly determined: ingestion.uncertain_boundaries). All 6236 verses are covered. Ingested 2026-10-09 (fetch/import_meal_zduman.py): 707 passages, each the meal of a revelation-order passage; the edition prints no verse numbers, so each passage's verse range was fitted by word alignment to seven other meals (105 boundaries are weakly determined: ingestion.uncertain_boundaries). All 6236 verses are covered.",
+  "notes": "archive.org upload by a third party; in copyright; local research use. Ingested 2026-10-09 (fetch/import_meal_zduman.py): 707 passages, each the meal of a revelation-order passage; the edition prints no verse numbers, so each passage's verse range was fitted by word alignment to seven other meals (105 boundaries are weakly determined: ingestion.uncertain_boundaries). All 6236 verses are covered. Ingested 2026-10-09 (fetch/import_meal_zduman.py): 707 passages, each the meal of a revelation-order passage; the edition prints no verse numbers, so each passage's verse range was fitted by word alignment to seven other meals (105 boundaries are weakly determined: ingestion.uncertain_boundaries). All 6236 verses are covered. Ingested 2026-10-09 (fetch/import_meal_zduman.py): 707 passages, each the meal of a revelation-order passage; the edition prints no verse numbers, so each passage's verse range was fitted by word alignment to seven other meals (105 boundaries are weakly determined: ingestion.uncertain_boundaries). All 6236 verses are covered. OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
   "coverage": "1-114 (6236/6236 ayat)",
   "segments": 707,
   "ingestion": {
@@ -178,7 +178,214 @@
     "segments": 707,
     "tied_to_ayah": 707,
     "with_cited_ayat": 0,
-    "characters": 797036
+    "characters": 797036,
+    "ocr_corrections": {
+      "date": "2026-10-09",
+      "script": "enrichment/v2/fetch/ocr_fix.py",
+      "rules": {
+        "header": "running page/volume headers left inside the text removed (per-source patterns)",
+        "noise": "leftover Arabic-noise punctuation runs (3+ commas/semicolons in a row) removed",
+        "hyphen": "hyphenation leftover 'xx- yy' joined when the joined word is attested in the clean meals",
+        "join": "letter-spaced / split words joined when the joined form is attested and the spaced sequence never occurs in the clean meals",
+        "sub": "non-word turned into an attested word by one known OCR confusion (rı->n, ı->r, fi->â, ...) with a clear winner",
+        "case": "stray capital inside a word lower-cased when the lower-cased form is attested"
+      },
+      "fixes_per_rule": {
+        "join": 6,
+        "sub": 135,
+        "hyphen": 44,
+        "case": 2
+      },
+      "segments_changed": 137,
+      "confusions_used_beyond_core": [
+        "ü>û"
+      ],
+      "sub_candidates_left_alone_unconfirmed": 10,
+      "space_join_runs_left_alone_ambiguous": 0,
+      "samples": [
+        {
+          "seg": "MEAL-ZDUMAN:27:45",
+          "from": "Lüt",
+          "to": "Lût",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:37:114",
+          "from": "Lüt",
+          "to": "Lût",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:27:87",
+          "from": "Süra",
+          "to": "Sûra",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:78:37",
+          "from": "arasmdakilerin",
+          "to": "arasındakilerin",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:29:36",
+          "from": "Semüd",
+          "to": "Semûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:43:15",
+          "from": "Rahman'm",
+          "to": "Rahman'ın",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:10:71",
+          "from": "İsrailoğullannın",
+          "to": "İsrailoğullarının",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:10:7",
+          "from": "içerisin- de",
+          "to": "içerisinde",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:30:20",
+          "from": "sükün",
+          "to": "sükûn",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:28:62",
+          "from": "sükün",
+          "to": "sükûn",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:48:18",
+          "from": "yer- leştirmişlerdi",
+          "to": "yerleştirmişlerdi",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:46:21",
+          "from": "Hüd'u",
+          "to": "Hûd'u",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:69:13",
+          "from": "Sür'a",
+          "to": "Sûr'a",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:6:19",
+          "from": "hüs- randadırlar",
+          "to": "hüsrandadırlar",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:27:45",
+          "from": "Lüt'u",
+          "to": "Lût'u",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:15:45",
+          "from": "Lüt",
+          "to": "Lût",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:7:189",
+          "from": "sükün",
+          "to": "sükûn",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:5:70",
+          "from": "İsrailoğullan",
+          "to": "İsrailoğulları",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:33:59",
+          "from": "oğullan",
+          "to": "oğulları",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:48:18",
+          "from": "alacaklan",
+          "to": "alacakları",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:2:254",
+          "from": "ka- ranlıklardan",
+          "to": "karanlıklardan",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:45:16",
+          "from": "İsrailoğullan'na",
+          "to": "İsrailoğulları'na",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:22:42",
+          "from": "çatılan",
+          "to": "çatıları",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:74:1",
+          "from": "Sür'a",
+          "to": "Sûr'a",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:64:1",
+          "from": "ha- berleri",
+          "to": "haberleri",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:9:1",
+          "from": "Resülü'nden",
+          "to": "Resûlü'nden",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:46:21",
+          "from": "Hüd",
+          "to": "Hûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:2:104",
+          "from": "Râ'mâ",
+          "to": "Râ'inâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:33:28",
+          "from": "Resülü'nü",
+          "to": "Resûlü'nü",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ZDUMAN:3:187",
+          "from": "yapmadıklanyla",
+          "to": "yapmadıklarıyla",
+          "rule": "sub"
+        }
+      ],
+      "original": "each changed segment keeps its imported text in text_ocr (notes_ocr) and the list ocr_fixes"
+    }
   },
   "panel_note": "added to the panel by the user, 2026-10-09"
 }

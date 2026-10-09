@@ -22,7 +22,7 @@
       "YasayanKuranIhsanEliacikMetin": "uploader lazkopatgenc@hotmail.com; revelation-ordered edition, djvu.txt held as raw"
     }
   },
-  "notes": "archive.org upload by a third party; in copyright; local research use. Ingested 2026-10-09 (fetch/import_meal_eliacik.py) from the OCR text of the three mushaf-ordered volumes: 6236/6236 ayat covered; 69 places where the OCR lost a verse number (their text sits in the unit before, tied there: see ingestion.number_lost_in_ocr_text_tied_to_previous_unit); 0 verses with no text at all. Some verses are printed as groups («1/2-», «14-15-»), kept as a..a_end (overlapping groups such as 18:1-2 and 18:2-3 are both kept). Footnotes (Eliaçık's commentary) are kept whole; 30 are placed by their marker, the others are tied to the verses of their page. OCR noise from the Arabic column was removed from verse text and kept in each segment's ocr_noise_removed; some noise remains inside lines.",
+  "notes": "archive.org upload by a third party; in copyright; local research use. Ingested 2026-10-09 (fetch/import_meal_eliacik.py) from the OCR text of the three mushaf-ordered volumes: 6236/6236 ayat covered; 69 places where the OCR lost a verse number (their text sits in the unit before, tied there: see ingestion.number_lost_in_ocr_text_tied_to_previous_unit); 0 verses with no text at all. Some verses are printed as groups («1/2-», «14-15-»), kept as a..a_end (overlapping groups such as 18:1-2 and 18:2-3 are both kept). Footnotes (Eliaçık's commentary) are kept whole; 30 are placed by their marker, the others are tied to the verses of their page. OCR noise from the Arabic column was removed from verse text and kept in each segment's ocr_noise_removed; some noise remains inside lines. OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
   "segments": 7336,
   "ingestion": {
     "date": "2026-10-09",
@@ -406,7 +406,216 @@
     "segments": 7336,
     "tied_to_ayah": 7335,
     "with_cited_ayat": 0,
-    "characters": 2552381
+    "characters": 2552381,
+    "ocr_corrections": {
+      "date": "2026-10-09",
+      "script": "enrichment/v2/fetch/ocr_fix.py",
+      "rules": {
+        "header": "running page/volume headers left inside the text removed (per-source patterns)",
+        "noise": "leftover Arabic-noise punctuation runs (3+ commas/semicolons in a row) removed",
+        "hyphen": "hyphenation leftover 'xx- yy' joined when the joined word is attested in the clean meals",
+        "join": "letter-spaced / split words joined when the joined form is attested and the spaced sequence never occurs in the clean meals",
+        "sub": "non-word turned into an attested word by one known OCR confusion (rı->n, ı->r, fi->â, ...) with a clear winner",
+        "case": "stray capital inside a word lower-cased when the lower-cased form is attested"
+      },
+      "fixes_per_rule": {
+        "header": 991,
+        "sub": 215,
+        "hyphen": 132,
+        "join": 6,
+        "case": 1
+      },
+      "segments_changed": 756,
+      "confusions_used_beyond_core": [
+        "g>ğ",
+        "ü>û"
+      ],
+      "sub_candidates_left_alone_unconfirmed": 75,
+      "space_join_runs_left_alone_ambiguous": 0,
+      "samples": [
+        {
+          "seg": "MEAL-ELIACIK:26:61#n12",
+          "from": "Cüz:19",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:57:4#n8",
+          "from": "Cüz:27",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:29:30#n10",
+          "from": "Cüz:20",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:26:61#n12",
+          "from": "Sayfa:280",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:39:6#n8",
+          "from": "Sayfa:467",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:77:1#n1",
+          "from": "Cüz:29",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:56:18",
+          "from": "Cüz:27",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:49:4",
+          "from": "Aynca",
+          "to": "Ayrıca",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ELIACIK:39:57#n19",
+          "from": "Sayfa:475",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:33:6#n9",
+          "from": "Cüz:21",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:front",
+          "from": "in-\nsan",
+          "to": "insan",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ELIACIK:front",
+          "from": "dü-\nrüstlük",
+          "to": "dürüstlük",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ELIACIK:52:35",
+          "from": "kendiliginden",
+          "to": "kendiliğinden",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ELIACIK:5:89",
+          "from": "Sayfa:271",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:25:44#n18",
+          "from": "Sayfa:267",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:6:143#n52",
+          "from": "Cüz:8",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:17:1",
+          "from": "nok- sanlıktan",
+          "to": "noksanlıktan",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ELIACIK:4:176",
+          "from": "degil",
+          "to": "değil",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ELIACIK:47:20#n9",
+          "from": "Sayfa:85",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:front",
+          "from": "Hı-\nristiyanlık",
+          "to": "Hıristiyanlık",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ELIACIK:75:intro",
+          "from": "Cüz:29",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:96:1#n4",
+          "from": "degil",
+          "to": "değil",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ELIACIK:18:75#n22",
+          "from": "Kur'an'm",
+          "to": "Kur'an'ın",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ELIACIK:26:61#n14",
+          "from": "Sayfa:281",
+          "to": "",
+          "rule": "header"
+        },
+        {
+          "seg": "MEAL-ELIACIK:front",
+          "from": "kar-\nmaşık",
+          "to": "karmaşık",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ELIACIK:front",
+          "from": "et-\nkileyen",
+          "to": "etkileyen",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ELIACIK:front",
+          "from": "ev-\nrensel",
+          "to": "evrensel",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ELIACIK:27:90",
+          "from": "degil",
+          "to": "değil",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-ELIACIK:front",
+          "from": "yazmak-\ntan",
+          "to": "yazmaktan",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-ELIACIK:34:intro",
+          "from": "Sayfa:393",
+          "to": "",
+          "rule": "header"
+        }
+      ],
+      "original": "each changed segment keeps its imported text in text_ocr (notes_ocr) and the list ocr_fixes"
+    }
   },
   "panel_note": "added to the panel by the user, 2026-10-09"
 }

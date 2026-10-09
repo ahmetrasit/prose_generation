@@ -14,7 +14,7 @@
     "https://archive.org/details/riyazussalihincild-2"
   ],
   "licence": "copyrighted DİB publication; third-party upload on archive.org, no licence stated; local research copy only, not redistributed (segments git-ignored)",
-  "notes": "OCR (Tesseract -l Arabic+tur) is partial: garbled on framed/Arabic pages, most hadith numbers lost; chapter titles are DİB's own regrouping, not al-Nawawī's; verses are in footnotes («Hûd, 11/3»), their translations from the Diyanet meal. Use for Turkish search, not for exact alignment.",
+  "notes": "OCR (Tesseract -l Arabic+tur) is partial: garbled on framed/Arabic pages, most hadith numbers lost; chapter titles are DİB's own regrouping, not al-Nawawī's; verses are in footnotes («Hûd, 11/3»), their translations from the Diyanet meal. Use for Turkish search, not for exact alignment. OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
   "acquisition": {
     "date": "2026-10-09",
     "state": "raw_downloaded",
@@ -45,6 +45,144 @@
     "segments": 1055,
     "tied_to_ayah": 0,
     "with_cited_ayat": 52,
-    "characters": 413013
+    "characters": 413013,
+    "ocr_corrections": {
+      "date": "2026-10-09",
+      "script": "enrichment/v2/fetch/ocr_fix.py",
+      "rules": {
+        "header": "running page/volume headers left inside the text removed (per-source patterns)",
+        "noise": "leftover Arabic-noise punctuation runs (3+ commas/semicolons in a row) removed",
+        "hyphen": "hyphenation leftover 'xx- yy' joined when the joined word is attested in the clean meals",
+        "join": "letter-spaced / split words joined when the joined form is attested and the spaced sequence never occurs in the clean meals",
+        "sub": "non-word turned into an attested word by one known OCR confusion (rı->n, ı->r, fi->â, ...) with a clear winner",
+        "case": "stray capital inside a word lower-cased when the lower-cased form is attested"
+      },
+      "fixes_per_rule": {
+        "join": 13,
+        "sub": 3,
+        "case": 3
+      },
+      "segments_changed": 18,
+      "confusions_used_beyond_core": [],
+      "sub_candidates_left_alone_unconfirmed": 20,
+      "space_join_runs_left_alone_ambiguous": 0,
+      "samples": [
+        {
+          "seg": "RIYAD-TR:v3p250",
+          "from": "kö pek",
+          "to": "köpek",
+          "rule": "join"
+        },
+        {
+          "seg": "RIYAD-TR:v3p317",
+          "from": "Şöyle",
+          "to": "şöyle",
+          "rule": "case"
+        },
+        {
+          "seg": "RIYAD-TR:v3p365",
+          "from": "dolaşaca k",
+          "to": "dolaşacak",
+          "rule": "join"
+        },
+        {
+          "seg": "RIYAD-TR:v3p269",
+          "from": "Şöyle",
+          "to": "şöyle",
+          "rule": "case"
+        },
+        {
+          "seg": "RIYAD-TR:v2p66",
+          "from": "RA B",
+          "to": "RAB",
+          "rule": "join"
+        },
+        {
+          "seg": "RIYAD-TR:v3p40",
+          "from": "Peygam ber",
+          "to": "Peygamber",
+          "rule": "join"
+        },
+        {
+          "seg": "RIYAD-TR:v2p187",
+          "from": "Şöyle",
+          "to": "şöyle",
+          "rule": "case"
+        },
+        {
+          "seg": "RIYAD-TR:v1p117",
+          "from": "kuşla ra",
+          "to": "kuşlara",
+          "rule": "join"
+        },
+        {
+          "seg": "RIYAD-TR:v1p112",
+          "from": "aralarınd a",
+          "to": "aralarında",
+          "rule": "join"
+        },
+        {
+          "seg": "RIYAD-TR:v3p250",
+          "from": "k at",
+          "to": "kat",
+          "rule": "join"
+        },
+        {
+          "seg": "RIYAD-TR:v2p60",
+          "from": "kibirlene rek",
+          "to": "kibirlenerek",
+          "rule": "join"
+        },
+        {
+          "seg": "RIYAD-TR:v2p200",
+          "from": "edeıse",
+          "to": "ederse",
+          "rule": "sub"
+        },
+        {
+          "seg": "RIYAD-TR:v1p5",
+          "from": "SO N",
+          "to": "SON",
+          "rule": "join"
+        },
+        {
+          "seg": "RIYAD-TR:v2p318",
+          "from": "Bunlarm",
+          "to": "Bunların",
+          "rule": "sub"
+        },
+        {
+          "seg": "RIYAD-TR:v3p17",
+          "from": "buyurmuştu r",
+          "to": "buyurmuştur",
+          "rule": "join"
+        },
+        {
+          "seg": "RIYAD-TR:v1p36",
+          "from": "y üzünden",
+          "to": "yüzünden",
+          "rule": "join"
+        },
+        {
+          "seg": "RIYAD-TR:v1p425",
+          "from": "onlan",
+          "to": "onları",
+          "rule": "sub"
+        },
+        {
+          "seg": "RIYAD-TR:v1p204",
+          "from": "gelme m",
+          "to": "gelmem",
+          "rule": "join"
+        },
+        {
+          "seg": "RIYAD-TR:v1p335",
+          "from": "b unu",
+          "to": "bunu",
+          "rule": "join"
+        }
+      ],
+      "original": "each changed segment keeps its imported text in text_ocr (notes_ocr) and the list ocr_fixes"
+    }
   }
 }

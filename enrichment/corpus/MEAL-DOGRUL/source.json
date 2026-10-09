@@ -20,7 +20,7 @@
   },
   "licence": "Public domain: author died 1952. Public Internet Archive upload (hanifisar@gmail.com, 2023); OCR text only.",
   "fetched_at": "2026-10-09",
-  "notes": "Public domain: author died 1952. OCR (archive.org djvu text) of the third printing (1955), read from raw/acquired-2026-10-09; segments are the book's own verse units: verse groups as printed («6,7», «4-5»), `printed` keeps the numbers as printed, the page-foot tafsir footnotes are in `notes` of the verse they are marked at. 186 verse units lost a verse number in the OCR: the unit then covers the verse before and the lost one (listed in the ingestion record under verse_numbers_lost_in_ocr_text_kept_as_group). The book's verse numbering differs from the project's Hafs count in surahs 4, 5, 7, 13, 19, 23, 29, 45, 46, 74, 77, 78, 91 (see surah_headers_with_other_ayah_count; some of these differences are OCR misreads of the printed count); there the units carry the book's numbers, numbers beyond the project's count are kept with its last verse. Fâtiha is stored with the besmele as 1:1 (the book does not number it). OCR quality: good running text, but diacritics are partly lost (ü/u, â/a), hyphenated line ends are joined, and stray fragments of the Arabic text boxes remain here and there. No verse without text.",
+  "notes": "Public domain: author died 1952. OCR (archive.org djvu text) of the third printing (1955), read from raw/acquired-2026-10-09; segments are the book's own verse units: verse groups as printed («6,7», «4-5»), `printed` keeps the numbers as printed, the page-foot tafsir footnotes are in `notes` of the verse they are marked at. 186 verse units lost a verse number in the OCR: the unit then covers the verse before and the lost one (listed in the ingestion record under verse_numbers_lost_in_ocr_text_kept_as_group). The book's verse numbering differs from the project's Hafs count in surahs 4, 5, 7, 13, 19, 23, 29, 45, 46, 74, 77, 78, 91 (see surah_headers_with_other_ayah_count; some of these differences are OCR misreads of the printed count); there the units carry the book's numbers, numbers beyond the project's count are kept with its last verse. Fâtiha is stored with the besmele as 1:1 (the book does not number it). OCR quality: good running text, but diacritics are partly lost (ü/u, â/a), hyphenated line ends are joined, and stray fragments of the Arabic text boxes remain here and there. No verse without text. OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
   "acquisition": {
     "date": "2026-10-09",
     "state": "raw_downloaded",
@@ -379,7 +379,215 @@
     "segments": 6037,
     "tied_to_ayah": 5882,
     "with_cited_ayat": 17,
-    "characters": 1587020
+    "characters": 1587020,
+    "ocr_corrections": {
+      "date": "2026-10-09",
+      "script": "enrichment/v2/fetch/ocr_fix.py",
+      "rules": {
+        "header": "running page/volume headers left inside the text removed (per-source patterns)",
+        "noise": "leftover Arabic-noise punctuation runs (3+ commas/semicolons in a row) removed",
+        "hyphen": "hyphenation leftover 'xx- yy' joined when the joined word is attested in the clean meals",
+        "join": "letter-spaced / split words joined when the joined form is attested and the spaced sequence never occurs in the clean meals",
+        "sub": "non-word turned into an attested word by one known OCR confusion (rı->n, ı->r, fi->â, ...) with a clear winner",
+        "case": "stray capital inside a word lower-cased when the lower-cased form is attested"
+      },
+      "fixes_per_rule": {
+        "hyphen": 1307,
+        "case": 5,
+        "sub": 263,
+        "join": 60
+      },
+      "segments_changed": 501,
+      "confusions_used_beyond_core": [
+        "ü>û",
+        "ı>i"
+      ],
+      "sub_candidates_left_alone_unconfirmed": 215,
+      "space_join_runs_left_alone_ambiguous": 0,
+      "samples": [
+        {
+          "seg": "MEAL-DOGRUL:front115",
+          "from": "nok-\nta",
+          "to": "nokta",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front141",
+          "from": "sü-\nresi",
+          "to": "süresi",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:87:intro",
+          "from": "kı lacağı",
+          "to": "kılacağı",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front119",
+          "from": "sava-\nşacak",
+          "to": "savaşacak",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front115",
+          "from": "Pey-\ngamberin",
+          "to": "Peygamberin",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front129",
+          "from": "pey-\ngamberden",
+          "to": "peygamberden",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:1:2",
+          "from": "Rabbıdır",
+          "to": "Rabbidir",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front054",
+          "from": "Pey-\ngamber",
+          "to": "Peygamber",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front053",
+          "from": "yü-\nzüne",
+          "to": "yüzüne",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front130",
+          "from": "de-\nnizler",
+          "to": "denizler",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front122",
+          "from": "âyet-\nleri",
+          "to": "âyetleri",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:7:202",
+          "from": "basi- retleri",
+          "to": "basiretleri",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:5:65",
+          "from": "yeme ğe",
+          "to": "yemeğe",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-DOGRUL:back008",
+          "from": "peygam-\nberlerin",
+          "to": "peygamberlerin",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front054",
+          "from": "kendile-\nrine",
+          "to": "kendilerine",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front030",
+          "from": "ediyo-\nruz",
+          "to": "ediyoruz",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front113",
+          "from": "ve-\nrilmemiştir",
+          "to": "verilmemiştir",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front080",
+          "from": "insan-\nlar",
+          "to": "insanlar",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front043",
+          "from": "Peygam-\nber",
+          "to": "Peygamber",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front029",
+          "from": "ol-\nmuştur",
+          "to": "olmuştur",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front136",
+          "from": "dön-\ndüğü",
+          "to": "döndüğü",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:20:102",
+          "from": "Süra",
+          "to": "Sûra",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-DOGRUL:10:15",
+          "from": "yahu- dilerden",
+          "to": "yahudilerden",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front014",
+          "from": "ezber-\nlemek",
+          "to": "ezberlemek",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:2:217",
+          "from": "zu- lüm",
+          "to": "zulüm",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front102",
+          "from": "olma-\nyarak",
+          "to": "olmayarak",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:front116",
+          "from": "geçmiş-\ntir",
+          "to": "geçmiştir",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-DOGRUL:12:47",
+          "from": "ekersinız",
+          "to": "ekersiniz",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-DOGRUL:33:6",
+          "from": "Halbukı",
+          "to": "Halbuki",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-DOGRUL:5:85",
+          "from": "Yahu- dilerle",
+          "to": "Yahudilerle",
+          "rule": "hyphen"
+        }
+      ],
+      "original": "each changed segment keeps its imported text in text_ocr (notes_ocr) and the list ocr_fixes"
+    }
   },
   "panel_note": "added to the panel by the user, 2026-10-09"
 }

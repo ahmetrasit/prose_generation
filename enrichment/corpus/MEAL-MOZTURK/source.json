@@ -19,7 +19,7 @@
   "relay": null,
   "licence": "copyrighted; ingested from the user's own PDF for local research use",
   "panel": true,
-  "notes": "Ingested 2026-10-09 from the user's own PDF (fetch/import_meal_ozturk.py). The text is OCR (Adobe ClearScan layer): some letters are wrong («hfila» for hâlâ, «Aynca» for Ayrıca, «çevıilmek» for çevrilmek) and some words are letter-spaced («O'nda n», «İ man»); care is needed when quoted. Verse groups are Öztürk's own (a..a_end); his bracketed explanations [..] are part of the meal; footnotes (dipnot) are attached to their verse unit as [n]. Pointer note before ingestion: Pointer only (access hafiza): no licensed online text. PDFs circulate only on unlicensed mirrors; deliberately NOT downloaded. Anything cited from it is model memory and must be marked so.",
+  "notes": "Ingested 2026-10-09 from the user's own PDF (fetch/import_meal_ozturk.py). The text is OCR (Adobe ClearScan layer): some letters are wrong («hfila» for hâlâ, «Aynca» for Ayrıca, «çevıilmek» for çevrilmek) and some words are letter-spaced («O'nda n», «İ man»); care is needed when quoted. Verse groups are Öztürk's own (a..a_end); his bracketed explanations [..] are part of the meal; footnotes (dipnot) are attached to their verse unit as [n]. Pointer note before ingestion: Pointer only (access hafiza): no licensed online text. PDFs circulate only on unlicensed mirrors; deliberately NOT downloaded. Anything cited from it is model memory and must be marked so. OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
   "acquisition": {
     "date": "2026-10-09",
     "state": "raw_downloaded",
@@ -286,7 +286,217 @@
     "segments": 5187,
     "tied_to_ayah": 5160,
     "with_cited_ayat": 0,
-    "characters": 1388604
+    "characters": 1388604,
+    "ocr_corrections": {
+      "date": "2026-10-09",
+      "script": "enrichment/v2/fetch/ocr_fix.py",
+      "rules": {
+        "header": "running page/volume headers left inside the text removed (per-source patterns)",
+        "noise": "leftover Arabic-noise punctuation runs (3+ commas/semicolons in a row) removed",
+        "hyphen": "hyphenation leftover 'xx- yy' joined when the joined word is attested in the clean meals",
+        "join": "letter-spaced / split words joined when the joined form is attested and the spaced sequence never occurs in the clean meals",
+        "sub": "non-word turned into an attested word by one known OCR confusion (rı->n, ı->r, fi->â, ...) with a clear winner",
+        "case": "stray capital inside a word lower-cased when the lower-cased form is attested"
+      },
+      "fixes_per_rule": {
+        "join": 1147,
+        "sub": 1502,
+        "noise": 29,
+        "header": 7,
+        "hyphen": 4,
+        "case": 1
+      },
+      "segments_changed": 1779,
+      "confusions_used_beyond_core": [
+        "rn>m",
+        "ü>û"
+      ],
+      "sub_candidates_left_alone_unconfirmed": 232,
+      "space_join_runs_left_alone_ambiguous": 0,
+      "samples": [
+        {
+          "seg": "MEAL-MOZTURK:33:47",
+          "from": "müjd esini",
+          "to": "müjdesini",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:50:7",
+          "from": "y aygı",
+          "to": "yaygı",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:35:25",
+          "from": "yalanla rsa",
+          "to": "yalanlarsa",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:33:44",
+          "from": "müjd esiyle",
+          "to": "müjdesiyle",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:41:4",
+          "from": "uyancı",
+          "to": "uyarıcı",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-MOZTURK:57:27",
+          "from": "B iz",
+          "to": "Biz",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:8:70",
+          "from": "öde diğiniz",
+          "to": "ödediğiniz",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:8:44",
+          "from": "düşma nları",
+          "to": "düşmanları",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:41:29",
+          "from": "ş eytanları",
+          "to": "şeytanları",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:36:75",
+          "from": "tann",
+          "to": "tanrı",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-MOZTURK:76:4",
+          "from": "buk ağılar",
+          "to": "bukağılar",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:68:44",
+          "from": "şekild e",
+          "to": "şekilde",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:8:57",
+          "from": "akıllan",
+          "to": "akılları",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-MOZTURK:4:141",
+          "from": "Aynca",
+          "to": "Ayrıca",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-MOZTURK:33:7",
+          "from": "İsa'da n",
+          "to": "İsa'dan",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:17:8",
+          "from": "dön erseniz",
+          "to": "dönerseniz",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:6:128",
+          "from": "şüphesi z",
+          "to": "şüphesiz",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:4:94",
+          "from": "hfilde",
+          "to": "hâlde",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-MOZTURK:45:23",
+          "from": "Müşrikle r",
+          "to": "Müşrikler",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:78:12",
+          "from": "uçsu z",
+          "to": "uçsuz",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:2:229",
+          "from": "ihlfil",
+          "to": "ihlâl",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-MOZTURK:60:6",
+          "from": "onlan",
+          "to": "onları",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-MOZTURK:27:29",
+          "from": "gönd erildi",
+          "to": "gönderildi",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:33:55",
+          "from": "oğullan",
+          "to": "oğulları",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-MOZTURK:109:5",
+          "from": "edece k",
+          "to": "edecek",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:69:11",
+          "from": "kapladığın da",
+          "to": "kapladığında",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-MOZTURK:96:9",
+          "from": "Ebü",
+          "to": "Ebû",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-MOZTURK:7:64",
+          "from": "Ayetleıimize",
+          "to": "Ayetlerimize",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-MOZTURK:71:23",
+          "from": "müşıikleıin",
+          "to": "müşriklerin",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-MOZTURK:2:19",
+          "from": "hfili",
+          "to": "hâli",
+          "rule": "sub"
+        }
+      ],
+      "original": "each changed segment keeps its imported text in text_ocr (notes_ocr) and the list ocr_fixes"
+    }
   },
   "panel_note": "added to the panel by the user, 2026-10-09"
 }

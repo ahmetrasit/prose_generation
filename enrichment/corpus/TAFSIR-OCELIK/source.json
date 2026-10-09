@@ -19,7 +19,7 @@
       "hakkin-daveti-kuran-i-kerim-mealive-tefsiri-02": "uploader gunaydin.selami@gmail.com (creator «Lami Aydın», 2024-07-30); volumes 1-5 as separate files (gap fill only)"
     }
   },
-  "notes": "archive.org upload by a third party; in copyright; local research use. Ingested 2026-10-09 (fetch/import_meal_ocelik.py): the commentary after each verse, the surah introductions. Ingested 2026-10-09 (fetch/import_meal_ocelik.py): the commentary after each verse, the surah introductions.",
+  "notes": "archive.org upload by a third party; in copyright; local research use. Ingested 2026-10-09 (fetch/import_meal_ocelik.py): the commentary after each verse, the surah introductions. Ingested 2026-10-09 (fetch/import_meal_ocelik.py): the commentary after each verse, the surah introductions. OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
   "id": "TAFSIR-OCELIK",
   "title": "Hakk'ın Dâveti: Kur'ân-ı Kerîm Meâli ve Tefsîri (tefsir)",
   "raw_shared": [
@@ -103,6 +103,213 @@
     "segments": 3299,
     "tied_to_ayah": 3298,
     "with_cited_ayat": 982,
-    "characters": 4105050
+    "characters": 4105050,
+    "ocr_corrections": {
+      "date": "2026-10-09",
+      "script": "enrichment/v2/fetch/ocr_fix.py",
+      "rules": {
+        "header": "running page/volume headers left inside the text removed (per-source patterns)",
+        "noise": "leftover Arabic-noise punctuation runs (3+ commas/semicolons in a row) removed",
+        "hyphen": "hyphenation leftover 'xx- yy' joined when the joined word is attested in the clean meals",
+        "join": "letter-spaced / split words joined when the joined form is attested and the spaced sequence never occurs in the clean meals",
+        "sub": "non-word turned into an attested word by one known OCR confusion (rı->n, ı->r, fi->â, ...) with a clear winner",
+        "case": "stray capital inside a word lower-cased when the lower-cased form is attested"
+      },
+      "fixes_per_rule": {
+        "sub": 3082,
+        "case": 1356,
+        "join": 20
+      },
+      "segments_changed": 1732,
+      "confusions_used_beyond_core": [
+        "ü>û",
+        "ğ>â"
+      ],
+      "sub_candidates_left_alone_unconfirmed": 56,
+      "space_join_runs_left_alone_ambiguous": 0,
+      "samples": [
+        {
+          "seg": "TAFSIR-OCELIK:48:8#c",
+          "from": "Rasülü'nün",
+          "to": "Rasûlü'nün",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:52:37#c",
+          "from": "Rasülü",
+          "to": "Rasûlü",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:48:8#c",
+          "from": "Rasülü'nün",
+          "to": "Rasûlü'nün",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:83:14#c",
+          "from": "Rasülü",
+          "to": "Rasûlü",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:9:32#c",
+          "from": "nür",
+          "to": "nûr",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:8:61#c",
+          "from": "Rasülü",
+          "to": "Rasûlü",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:87:6#c",
+          "from": "mücize",
+          "to": "mûcize",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:56:10#c",
+          "from": "Müsâ'ya",
+          "to": "Mûsâ'ya",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:9:intro",
+          "from": "Rasülü",
+          "to": "Rasûlü",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:4:24#c",
+          "from": "süretiyle",
+          "to": "sûretiyle",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:45:23#c",
+          "from": "Şartsız",
+          "to": "şartsız",
+          "rule": "case"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:20:5#c",
+          "from": "Müsâ'nın",
+          "to": "Mûsâ'nın",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:6:109#c",
+          "from": "mücizeler",
+          "to": "mûcizeler",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:4:intro",
+          "from": "Şuuru",
+          "to": "şuuru",
+          "rule": "case"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:114:4#c",
+          "from": "Ebü",
+          "to": "Ebû",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:2:213#c",
+          "from": "Rasülü",
+          "to": "Rasûlü",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:31:24#c",
+          "from": "Rasülü'nün",
+          "to": "Rasûlü'nün",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:48:24#c",
+          "from": "Rasülü",
+          "to": "Rasûlü",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:7:115#c",
+          "from": "Müsâ'ya",
+          "to": "Mûsâ'ya",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:2:54#c",
+          "from": "Tür'a",
+          "to": "Tûr'a",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:107:4#c",
+          "from": "Dâvüd",
+          "to": "Dâvûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:3:14#c",
+          "from": "Rasülüm",
+          "to": "Rasûlüm",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:2:283#c",
+          "from": "Şey",
+          "to": "şey",
+          "rule": "case"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:2:181#c",
+          "from": "Dâvüd",
+          "to": "Dâvûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:9:32#c",
+          "from": "Rasülü",
+          "to": "Rasûlü",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:12:39#c",
+          "from": "Hüd",
+          "to": "Hûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:2:140#c",
+          "from": "Rasülü'nün",
+          "to": "Rasûlü'nün",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:51:32#c",
+          "from": "süretiyle",
+          "to": "sûretiyle",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:21:15#c",
+          "from": "Rüh",
+          "to": "Rûh",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-OCELIK:42:47#c",
+          "from": "süretiyle",
+          "to": "sûretiyle",
+          "rule": "sub"
+        }
+      ],
+      "original": "each changed segment keeps its imported text in text_ocr (notes_ocr) and the list ocr_fixes"
+    }
   }
 }

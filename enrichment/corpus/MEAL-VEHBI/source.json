@@ -20,7 +20,7 @@
   },
   "licence": "Public domain: author died 1949. Public Internet Archive upload (hanifisar@gmail.com, 2023); OCR text only.",
   "fetched_at": "2026-10-09",
-  "notes": "Public domain: author died 1949. The Turkish translation blocks of Vehbi's tafsir (printed in bold in the book, in parentheses in the OCR), tied to verses by alignment: each Arabic block of the book is a phrase, a verse or several verses and the OCR lost the Arabic and its verse numbers, so the verse groups (a..a_end) are inferred, not printed (see align and the low-similarity list in the ingestion record). The besmele (1:1) is not translated in the book. OCR quality: running text mostly good; page headers inside paragraphs and Arabic noise leave stray fragments. The commentary is in TAFSIR-VEHBI.",
+  "notes": "Public domain: author died 1949. The Turkish translation blocks of Vehbi's tafsir (printed in bold in the book, in parentheses in the OCR), tied to verses by alignment: each Arabic block of the book is a phrase, a verse or several verses and the OCR lost the Arabic and its verse numbers, so the verse groups (a..a_end) are inferred, not printed (see align and the low-similarity list in the ingestion record). The besmele (1:1) is not translated in the book. OCR quality: running text mostly good; page headers inside paragraphs and Arabic noise leave stray fragments. The commentary is in TAFSIR-VEHBI. OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
   "acquisition": {
     "date": "2026-10-09",
     "state": "raw_downloaded",
@@ -256,7 +256,218 @@
     "segments": 4587,
     "tied_to_ayah": 4587,
     "with_cited_ayat": 0,
-    "characters": 1481686
+    "characters": 1481686,
+    "ocr_corrections": {
+      "date": "2026-10-09",
+      "script": "enrichment/v2/fetch/ocr_fix.py",
+      "rules": {
+        "header": "running page/volume headers left inside the text removed (per-source patterns)",
+        "noise": "leftover Arabic-noise punctuation runs (3+ commas/semicolons in a row) removed",
+        "hyphen": "hyphenation leftover 'xx- yy' joined when the joined word is attested in the clean meals",
+        "join": "letter-spaced / split words joined when the joined form is attested and the spaced sequence never occurs in the clean meals",
+        "sub": "non-word turned into an attested word by one known OCR confusion (rı->n, ı->r, fi->â, ...) with a clear winner",
+        "case": "stray capital inside a word lower-cased when the lower-cased form is attested"
+      },
+      "fixes_per_rule": {
+        "sub": 448,
+        "hyphen": 189,
+        "join": 64,
+        "noise": 1,
+        "case": 2,
+        "header": 2
+      },
+      "segments_changed": 563,
+      "confusions_used_beyond_core": [
+        "g>ğ",
+        "ü>û",
+        "ı>i"
+      ],
+      "sub_candidates_left_alone_unconfirmed": 169,
+      "space_join_runs_left_alone_ambiguous": 0,
+      "samples": [
+        {
+          "seg": "MEAL-VEHBI:28:34",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:39:8",
+          "from": "indin- den",
+          "to": "indinden",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-VEHBI:28:48",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:28:33",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:34:45",
+          "from": "ver- diğimiz",
+          "to": "verdiğimiz",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-VEHBI:41:51",
+          "from": "başma",
+          "to": "başına",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:7:150",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:7:145",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:35:25",
+          "from": "ev- vel",
+          "to": "evvel",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-VEHBI:29:56",
+          "from": "iba- det",
+          "to": "ibadet",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-VEHBI:56:65",
+          "from": "yakı- yorsunuz",
+          "to": "yakıyorsunuz",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-VEHBI:49:17",
+          "from": "vası- tasiyle",
+          "to": "vasıtasiyle",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-VEHBI:7:145",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:5:6",
+          "from": "za- yıf",
+          "to": "zayıf",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-VEHBI:28:30",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:16:28",
+          "from": "Bi- naenaleyh",
+          "to": "Binaenaleyh",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-VEHBI:7:73",
+          "from": "Semüd",
+          "to": "Semûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:4:162",
+          "from": "onlar- dan",
+          "to": "onlardan",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-VEHBI:37:133",
+          "from": "Lüt'un",
+          "to": "Lût'un",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:57:11",
+          "from": "mükâfa- tını",
+          "to": "mükâfatını",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-VEHBI:2:229",
+          "from": "oldugu",
+          "to": "olduğu",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:42:42",
+          "from": "acı- tıcı",
+          "to": "acıtıcı",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-VEHBI:27:14",
+          "from": "in- kâr",
+          "to": "inkâr",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "MEAL-VEHBI:74:10",
+          "from": "süra",
+          "to": "sûra",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:51:45",
+          "from": "Semüd",
+          "to": "Semûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:69:19",
+          "from": "edere k",
+          "to": "ederek",
+          "rule": "join"
+        },
+        {
+          "seg": "MEAL-VEHBI:7:116",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:54:23",
+          "from": "Semüd",
+          "to": "Semûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:2:91",
+          "from": "oldugu",
+          "to": "olduğu",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-VEHBI:37:116",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        }
+      ],
+      "original": "each changed segment keeps its imported text in text_ocr (notes_ocr) and the list ocr_fixes"
+    }
   },
   "panel_note": "added to the panel by the user, 2026-10-09"
 }

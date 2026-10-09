@@ -21,7 +21,7 @@
   ],
   "licence": "Public domain: author died 1949. Public Internet Archive upload (hanifisar@gmail.com, 2023); OCR text only.",
   "fetched_at": "2026-10-09",
-  "notes": "Public domain: author died 1949. The commentary of the Hülâsatü'l-Beyân (Latin-script edition, Mümin Çevik, «Dördüncü Baskı»; vol. 2 printed Ahmet Sait Matbaası, İstanbul, 1967), OCR from archive.org, whole text kept: TAFSIR-VEHBI:S:A is the commentary of the same verse cell as MEAL-VEHBI:S:A (the lead-in sentence, the commentary and the page-foot notes of its blocks; the cell tie is inferred, see MEAL-VEHBI), TAFSIR-VEHBI:S:intro the surah's introduction, frontNNN / backNNN the volume contents, preface, biography and indexes. Only page headers and the Arabic OCR noise are dropped (counted in the ingestion record).",
+  "notes": "Public domain: author died 1949. The commentary of the Hülâsatü'l-Beyân (Latin-script edition, Mümin Çevik, «Dördüncü Baskı»; vol. 2 printed Ahmet Sait Matbaası, İstanbul, 1967), OCR from archive.org, whole text kept: TAFSIR-VEHBI:S:A is the commentary of the same verse cell as MEAL-VEHBI:S:A (the lead-in sentence, the commentary and the page-foot notes of its blocks; the cell tie is inferred, see MEAL-VEHBI), TAFSIR-VEHBI:S:intro the surah's introduction, frontNNN / backNNN the volume contents, preface, biography and indexes. Only page headers and the Arabic OCR noise are dropped (counted in the ingestion record). OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
   "acquisition": {
     "date": "2026-10-09",
     "state": "raw_downloaded",
@@ -257,6 +257,218 @@
     "segments": 4850,
     "tied_to_ayah": 4699,
     "with_cited_ayat": 12,
-    "characters": 9930293
+    "characters": 9930293,
+    "ocr_corrections": {
+      "date": "2026-10-09",
+      "script": "enrichment/v2/fetch/ocr_fix.py",
+      "rules": {
+        "header": "running page/volume headers left inside the text removed (per-source patterns)",
+        "noise": "leftover Arabic-noise punctuation runs (3+ commas/semicolons in a row) removed",
+        "hyphen": "hyphenation leftover 'xx- yy' joined when the joined word is attested in the clean meals",
+        "join": "letter-spaced / split words joined when the joined form is attested and the spaced sequence never occurs in the clean meals",
+        "sub": "non-word turned into an attested word by one known OCR confusion (rı->n, ı->r, fi->â, ...) with a clear winner",
+        "case": "stray capital inside a word lower-cased when the lower-cased form is attested"
+      },
+      "fixes_per_rule": {
+        "sub": 1843,
+        "join": 575,
+        "hyphen": 1016,
+        "case": 19,
+        "header": 3,
+        "noise": 9
+      },
+      "segments_changed": 1792,
+      "confusions_used_beyond_core": [
+        "g>ğ",
+        "s>ş",
+        "ü>û",
+        "ı>i"
+      ],
+      "sub_candidates_left_alone_unconfirmed": 1846,
+      "space_join_runs_left_alone_ambiguous": 0,
+      "samples": [
+        {
+          "seg": "TAFSIR-VEHBI:26:75",
+          "from": "mev-\ncut",
+          "to": "mevcut",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:31:28",
+          "from": "emri-\nmiz",
+          "to": "emrimiz",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:77:17",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:27:56",
+          "from": "Lüt'u",
+          "to": "Lût'u",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:26:53",
+          "from": "olduguna",
+          "to": "olduğuna",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:28:33",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:34:46",
+          "from": "me-\nseleyi",
+          "to": "meseleyi",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:7:130",
+          "from": "Müsâ'nın",
+          "to": "Mûsâ'nın",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:7:127",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:93:8",
+          "from": "fakır",
+          "to": "fakir",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:28:34",
+          "from": "Müsâ'nın",
+          "to": "Mûsâ'nın",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:28:8",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:38:21",
+          "from": "Dâvüd",
+          "to": "Dâvûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:37:78",
+          "from": "İ yi",
+          "to": "İyi",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:84:7",
+          "from": "gü-\nnahlarından",
+          "to": "günahlarından",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:7:128",
+          "from": "İki ncis i",
+          "to": "İkincisi",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:4:79",
+          "from": "de-\nlâlet",
+          "to": "delâlet",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:25:52",
+          "from": "va-\nzife",
+          "to": "vazife",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:11:96",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:5:120",
+          "from": "kıy met",
+          "to": "kıymet",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:4:59",
+          "from": "beyan-\ndan",
+          "to": "beyandan",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:29:24",
+          "from": "Birin cisi",
+          "to": "Birincisi",
+          "rule": "join"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:99:6",
+          "from": "degildir",
+          "to": "değildir",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:46:25",
+          "from": "ih-\nlâk",
+          "to": "ihlâk",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:38:24",
+          "from": "Dâvüd",
+          "to": "Dâvûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:2:249",
+          "from": "Tâlüt",
+          "to": "Tâlût",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:36:15",
+          "from": "ce-\nvabı",
+          "to": "cevabı",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:19:53",
+          "from": "oldugunu",
+          "to": "olduğunu",
+          "rule": "sub"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:26:95",
+          "from": "üze-\nrinde",
+          "to": "üzerinde",
+          "rule": "hyphen"
+        },
+        {
+          "seg": "TAFSIR-VEHBI:40:7",
+          "from": "bera-\nberce",
+          "to": "beraberce",
+          "rule": "hyphen"
+        }
+      ],
+      "original": "each changed segment keeps its imported text in text_ocr (notes_ocr) and the list ocr_fixes"
+    }
   }
 }

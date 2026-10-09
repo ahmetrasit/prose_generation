@@ -19,7 +19,7 @@
       "hakkin-daveti-kuran-i-kerim-mealive-tefsiri-02": "uploader gunaydin.selami@gmail.com (creator «Lami Aydın», 2024-07-30); volumes 1-5 as separate files (gap fill only)"
     }
   },
-  "notes": "archive.org upload by a third party; in copyright; local research use. Ingested 2026-10-09 (fetch/import_meal_ocelik.py) from the OCR text of the five volumes: 6236/6236 verses (3 of them tied into the verse before: their number and line are lost in the OCR). OCR noise from the Arabic text is dropped line by line (counted in ingestion.counts, samples kept); inline OCR noise may remain. Ingested 2026-10-09 (fetch/import_meal_ocelik.py) from the OCR text of the five volumes: 6236/6236 verses (3 of them tied into the verse before: their number and line are lost in the OCR). OCR noise from the Arabic text is dropped line by line (counted in ingestion.counts, samples kept); inline OCR noise may remain.",
+  "notes": "archive.org upload by a third party; in copyright; local research use. Ingested 2026-10-09 (fetch/import_meal_ocelik.py) from the OCR text of the five volumes: 6236/6236 verses (3 of them tied into the verse before: their number and line are lost in the OCR). OCR noise from the Arabic text is dropped line by line (counted in ingestion.counts, samples kept); inline OCR noise may remain. Ingested 2026-10-09 (fetch/import_meal_ocelik.py) from the OCR text of the five volumes: 6236/6236 verses (3 of them tied into the verse before: their number and line are lost in the OCR). OCR noise from the Arabic text is dropped line by line (counted in ingestion.counts, samples kept); inline OCR noise may remain. OCR repair (ocr_fix.py): only certain corrections, originals kept in text_ocr/ocr_fixes; see ingestion.ocr_corrections.",
   "id": "MEAL-OCELIK",
   "title": "Hakk'ın Dâveti: Kur'ân-ı Kerîm Meâli ve Tefsîri (meâl)",
   "coverage": "1-114 (6236/6236 ayat)",
@@ -100,7 +100,213 @@
     "segments": 6233,
     "tied_to_ayah": 6233,
     "with_cited_ayat": 0,
-    "characters": 950226
+    "characters": 950226,
+    "ocr_corrections": {
+      "date": "2026-10-09",
+      "script": "enrichment/v2/fetch/ocr_fix.py",
+      "rules": {
+        "header": "running page/volume headers left inside the text removed (per-source patterns)",
+        "noise": "leftover Arabic-noise punctuation runs (3+ commas/semicolons in a row) removed",
+        "hyphen": "hyphenation leftover 'xx- yy' joined when the joined word is attested in the clean meals",
+        "join": "letter-spaced / split words joined when the joined form is attested and the spaced sequence never occurs in the clean meals",
+        "sub": "non-word turned into an attested word by one known OCR confusion (rı->n, ı->r, fi->â, ...) with a clear winner",
+        "case": "stray capital inside a word lower-cased when the lower-cased form is attested"
+      },
+      "fixes_per_rule": {
+        "case": 1051,
+        "sub": 970
+      },
+      "segments_changed": 1579,
+      "confusions_used_beyond_core": [
+        "ü>û",
+        "ğ>â"
+      ],
+      "sub_candidates_left_alone_unconfirmed": 0,
+      "space_join_runs_left_alone_ambiguous": 0,
+      "samples": [
+        {
+          "seg": "MEAL-OCELIK:18:9",
+          "from": "Rasülüm",
+          "to": "Rasûlüm",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:51:7",
+          "from": "Şekilde",
+          "to": "şekilde",
+          "rule": "case"
+        },
+        {
+          "seg": "MEAL-OCELIK:23:108",
+          "from": "Şöyle",
+          "to": "şöyle",
+          "rule": "case"
+        },
+        {
+          "seg": "MEAL-OCELIK:49:1",
+          "from": "Şeyi",
+          "to": "şeyi",
+          "rule": "case"
+        },
+        {
+          "seg": "MEAL-OCELIK:66:9",
+          "from": "Şartların",
+          "to": "şartların",
+          "rule": "case"
+        },
+        {
+          "seg": "MEAL-OCELIK:40:23",
+          "from": "Müsâ'yı",
+          "to": "Mûsâ'yı",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:18:76",
+          "from": "Şey",
+          "to": "şey",
+          "rule": "case"
+        },
+        {
+          "seg": "MEAL-OCELIK:18:8",
+          "from": "Şeyi",
+          "to": "şeyi",
+          "rule": "case"
+        },
+        {
+          "seg": "MEAL-OCELIK:20:111",
+          "from": "Şeyin",
+          "to": "şeyin",
+          "rule": "case"
+        },
+        {
+          "seg": "MEAL-OCELIK:48:27",
+          "from": "Rasülü'nün",
+          "to": "Rasûlü'nün",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:25:77",
+          "from": "Rasülüm",
+          "to": "Rasûlüm",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:7:82",
+          "from": "Lüt",
+          "to": "Lût",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:7:59",
+          "from": "Nüh'u",
+          "to": "Nûh'u",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:41:45",
+          "from": "Müsâ'ya",
+          "to": "Mûsâ'ya",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:20:135",
+          "from": "Rasülüm",
+          "to": "Rasûlüm",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:19:51",
+          "from": "Rasülüm",
+          "to": "Rasûlüm",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:27:70",
+          "from": "Rasülüm",
+          "to": "Rasûlüm",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:26:220",
+          "from": "Şeyi",
+          "to": "şeyi",
+          "rule": "case"
+        },
+        {
+          "seg": "MEAL-OCELIK:40:65",
+          "from": "Şirk",
+          "to": "şirk",
+          "rule": "case"
+        },
+        {
+          "seg": "MEAL-OCELIK:7:67",
+          "from": "Hüd",
+          "to": "Hûd",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:4:41",
+          "from": "Rasülüm",
+          "to": "Rasûlüm",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:17:101",
+          "from": "Müsâ",
+          "to": "Mûsâ",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:11:47",
+          "from": "Nüh",
+          "to": "Nûh",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:5:117",
+          "from": "Şeyi",
+          "to": "şeyi",
+          "rule": "case"
+        },
+        {
+          "seg": "MEAL-OCELIK:4:19",
+          "from": "Şey",
+          "to": "şey",
+          "rule": "case"
+        },
+        {
+          "seg": "MEAL-OCELIK:22:52",
+          "from": "Rasülüm",
+          "to": "Rasûlüm",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:42:13",
+          "from": "Nüh'a",
+          "to": "Nûh'a",
+          "rule": "sub"
+        },
+        {
+          "seg": "MEAL-OCELIK:56:77",
+          "from": "Şerefli",
+          "to": "şerefli",
+          "rule": "case"
+        },
+        {
+          "seg": "MEAL-OCELIK:31:22",
+          "from": "Şüphesiz",
+          "to": "şüphesiz",
+          "rule": "case"
+        },
+        {
+          "seg": "MEAL-OCELIK:28:6",
+          "from": "Şeyleri",
+          "to": "şeyleri",
+          "rule": "case"
+        }
+      ],
+      "original": "each changed segment keeps its imported text in text_ocr (notes_ocr) and the list ocr_fixes"
+    }
   },
   "panel_note": "added to the panel by the user, 2026-10-09"
 }
