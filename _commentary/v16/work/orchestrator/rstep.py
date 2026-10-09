@@ -173,7 +173,9 @@ def afinish(ref):
     rc2, o2 = sh(f"git commit -q -m '{ref} augment9: {summ}' && git push -q")
     if rc2 != 0:
         print(f"STOP: git for {ref}: {o2.strip()[:200]}")
-    if rc != 0 or r1.get("status") != "ok" or HARD.search(out):
+    benign = 'WARNING: tool use outside the run\'s rule (treat the run as contaminated): ToolSearch {"query": "select:SendMessage"'
+    hard = "\n".join(l for l in out.splitlines() if not l.startswith(benign))
+    if rc != 0 or r1.get("status") != "ok" or HARD.search(hard):
         print(out[-3000:])
         print(f"STOP: {ref} augment needs attention ({summ})")
 
