@@ -46,7 +46,7 @@ python3 -B enrichment/bible/discovery_exec.py run --surah S --run-tag sSSS-YYYYM
 python3 -B enrichment/bible/discovery_exec.py cost --surah S --run-tag sSSS-YYYYMMDD
 python3 -B enrichment/bible/discovery_report.py --surah S --run-tag sSSS-YYYYMMDD --write
 # 3. Merge, prefetch (Sefaria over the network), rebuild the index
-python3 -B enrichment/bible/discovery.py --surah S --run-tag sSSS-YYYYMMDD --targets S:1,…,surah --merge --prefetch
+python3 -B enrichment/bible/discovery.py --surah S --run-tag sSSS-YYYYMMDD --targets S:1,…,surah --merge --prefetch --no-related
 python3 -B enrichment/bible/corpus.py build
 # 4a. Surah page: one Sol max author per image via codex exec, then assemble
 python3 -B enrichment/bible/image_enrich.py prepare --surah S --run-tag sSSS-YYYYMMDD
@@ -72,6 +72,18 @@ python3 -B enrichment/bible/enrich.py finish --surah S --target S:A    # after e
   author ≈ $1.5, Opus high ayah author: see `enrich.py build` (no calibration yet). Record actuals in the
   audit README.
 - `hebrew.py root ROOT | cognates 'ع ص ر' | word WLC:Book.C.V` are allowed in the authors' tool grammars.
+- `--no-related` (used for S103) fetches the named Jewish works the readers proposed from Sefaria but not the
+  targum/midrash/talmud/commentary links of every WLC candidate verse (that is thousands of requests at one per
+  second); `prefetch.json` records the limitation and every unfetched name as a gap. Sefaria often cannot parse
+  a reader's form of a name (for example "Babylonian Talmud, Bava Metzia 83a"); those are gaps, not absences.
+- Reader locator errors (English verse numbers, a book outside its edition) stop a session at snapshot (first
+  turn) or leave it `partial` (follow-up). Repair only the locator with `discovery_first_repair.py` /
+  `discovery_repair.py propose|accept`, after checking the verse in the local corpus, and list each repair in the
+  run's audit README for the user.
+- `sections.py` parses the S103 forms of image `Kaynaklar` items ("(in ROOT B008)", "(in phrase)"). Other forms
+  found in v16 images that still stop `discovery.py` (fix when those surahs are run): S98 two branches without a
+  comma, S114 ayah ranges, S59 ayah lists with "/", S89 "(memory)", S100 an ayah without a word, S106 a "Kur'an:"
+  list.
 
 ## Texts and evidence
 

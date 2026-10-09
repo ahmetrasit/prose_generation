@@ -1,4 +1,15 @@
-# Bible pathway readiness — 2026-10-05
+# Bible pathway readiness — 2026-10-05 (updated 2026-10-09)
+
+## 2026-10-09: Claude Code route, r13 ayah base, Hebrew root layer; S103 in production
+
+The pathway now runs from a Claude Code session (RUNBOOK "Production route", DECISIONS 2026-10-09): ayah pages
+on the frozen r13 readings (the v9 Islamic pages' paragraphs), a Hebrew/Aramaic root and cognate layer
+(`hebrew.py`, Open Scriptures lexicon) with a per-target Semitic root table and a checked decision per Arabic
+root, Luna max + Sol high readers through `codex exec` (`discovery_exec.py`), and Sol max image authors through
+`codex exec` (`image_enrich.py run`). 89 distinct tests pass (65 workflow, 14 image, 10 Semitic/exec).
+S103: discovery done (36 sessions, 5,415 connections, $8.91 API-equivalent; audits/s103-discovery-20261009),
+prefetch of the named Jewish works done (2,582 candidates, 162 gaps, 0 errors; no per-verse Sefaria links),
+image authors and the three Opus ayah authors are the next stage.
 
 The S87 surah pilot is now accepted: **18 Sol max image authors, 346 annotations
 and 3,703 judgments** across all 73 original r13 commentary paragraphs. The

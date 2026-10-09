@@ -30,7 +30,8 @@ def prepare(d, text, started, kind='enrich', output='annotations.jsonl', lookup=
     (d/'prompt.md').write_text(text)
     prompt = (f'{MARK} {d}\n\nRead {d/"prompt.md"} completely and follow it. '
               'Use only the Bible-owned inputs and tools named there. Write only in your call directory. '
-              f'Write records to {d/output}, verdicts.jsonl and gaps.json beside it. '
+              f'Write records to {d/output}, verdicts.jsonl, gaps.json and (when the prompt has a Semitic root table) '
+              'root_verdicts.jsonl beside it. '
               'If no evidence qualifies, create an empty annotations.jsonl and explain why in gaps.json. '
               'Do not spawn agents or call models. Reply briefly after saving the files.\n')
     (d/'spawn.md').write_text(prompt)

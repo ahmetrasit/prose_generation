@@ -54,7 +54,9 @@ def fetch_text(src: Source, ref: str) -> dict | None:
     q = urllib.parse.quote(ref.strip().replace(" ", "_"))
     rel = f"texts/{q}.json"
     st, body = src.fetch(f"{API}/v3/texts/{q}?version=primary&version=translation", rel)
-    if st == 404:
+    if st in (400, 404):  # Sefaria answers 400 for a reference it cannot parse: unavailable here, a gap
+        if st == 400:
+            print(f'NOTE: {ref}: Sefaria cannot parse this reference (400); recorded as a gap', file=sys.stderr)
         return None
     if st != 200 or not body:
         raise ValueError(f'FETCH FAILED: {ref} ({st})')
