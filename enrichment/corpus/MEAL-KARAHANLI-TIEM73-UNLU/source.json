@@ -36,7 +36,7 @@
     "raw/acquired-2026-10-09/gl7.txt": "fd83c33cb0fc428dc04e7f8e8fee0b03b530cc21770519b951c8cfd73ffe12b4",
     "raw/acquired-2026-10-09/gl8.txt": "88b97762ca0540b9139d4b2ccbacc36301b2983ddafa04cc9e5863b7ccd35cf5"
   },
-  "fetched_at": "2026-10-09T16:44:21.357624+00:00",
+  "fetched_at": "2026-10-09T23:09:49.684841+00:00",
   "acquisition": {
     "date": "2026-10-09",
     "state": "raw_downloaded",
@@ -44,9 +44,9 @@
     "ingestion_status": "ingested",
     "note": "OCR texts (djvu.txt) of an archive.org third-party upload; no PDF kept."
   },
-  "coverage": "1-114 (5939/6236 ayat; 297 lost in the OCR, listed in ingestion.missing)",
-  "notes": "Whole TİEM 73 manuscript in Ünlü's transcribed edition (Konya 2018), OCR of a scan with heavy page-margin ornaments. 5939 of 6,236 verses have their Karakhanid line; 297 verses are missing (84 surahs affected) because their line fell into the OCR garbage of the Arabic column; 282 verses had their number lost and were placed by position (`number_lost`). Special letters of the transliteration (â, ä, ö, ü, ı, ğ, ñ and the ligature signs) are often misread: text is OCR as is, not corrected. scholarly edition; archive.org third-party upload; local research use",
-  "segments": 6048,
+  "coverage": "1-114 (5935/6236 ayat; 301 lost in the OCR, listed in ingestion.missing)",
+  "notes": "Whole TİEM 73 manuscript in Ünlü's transcribed edition (Konya 2018), OCR of a scan with heavy page-margin ornaments. 5935 of 6,236 verses have their Karakhanid line; 301 verses are missing (84 surahs affected) because their line fell into the OCR garbage of the Arabic column; 282 verses had their number lost and were placed by position (`number_lost`). Special letters of the transliteration (â, ä, ö, ü, ı, ğ, ñ and the ligature signs) are often misread: text is OCR as is, not corrected. scholarly edition; archive.org third-party upload; local research use",
+  "segments": 6044,
   "ingestion": {
     "date": "2026-10-09",
     "script": "enrichment/v2/fetch/import_meal_karahanli_unlu.py",
@@ -127,21 +127,21 @@
       "64": "1-10,12-18",
       "65": "1-12",
       "66": "1-12",
-      "67": "1-20,22-24,26-28,30",
+      "67": "2-20,22-24,26-28,30",
       "68": "1-18,20,24-50,52",
       "69": "1-9,11-20,22-43,45-50,52",
       "70": "1-2,4-20,22-44",
       "71": "2-9,12-23,25-28",
       "72": "2-20,23,25-28",
       "73": "1-6,8-12,14-20",
-      "74": "1-2,4,6-18,20,22,24,26,28-32,34,36,38-40,42-46,48-56",
+      "74": "1-2,6-18,20,22,24,26,28-32,34,36,38-40,42-46,48-56",
       "75": "1-11,13-33,35-40",
       "76": "1-31",
       "77": "1-37,39,41-46,49",
       "78": "1-10,12-40",
       "79": "1-13,17,19-21,24-30,32-41,43-46",
       "80": "1-7,9,12,14-29,31-42",
-      "81": "1-8,10-26,28-29",
+      "81": "1-8,10-17,19-26,28-29",
       "82": "1-5,7-19",
       "83": "1-4,6-36",
       "84": "1-10,12-15,17-25",
@@ -160,7 +160,7 @@
       "97": "1-5",
       "98": "1-8",
       "99": "1-8",
-      "100": "2-11",
+      "100": "2-6,8-11",
       "101": "1-11",
       "102": "1-8",
       "103": "1-3",
@@ -503,6 +503,7 @@
         11
       ],
       "67": [
+        1,
         21,
         25,
         29
@@ -542,6 +543,7 @@
       ],
       "74": [
         3,
+        4,
         5,
         19,
         21,
@@ -587,6 +589,7 @@
       ],
       "81": [
         9,
+        18,
         27
       ],
       "82": [
@@ -631,7 +634,8 @@
         10
       ],
       "100": [
-        1
+        1,
+        7
       ],
       "104": [
         6
@@ -865,7 +869,7 @@
         18
       ],
       "67": [
-        27,
+        26,
         30
       ],
       "68": [
@@ -893,7 +897,7 @@
         20
       ],
       "74": [
-        44,
+        43,
         56
       ],
       "75": [
@@ -917,7 +921,7 @@
         42
       ],
       "81": [
-        27,
+        26,
         29
       ],
       "82": [
@@ -965,7 +969,7 @@
         19
       ],
       "100": [
-        10,
+        9,
         11
       ],
       "104": [
@@ -1270,7 +1274,12 @@
       "34",
       "93"
     ],
-    "issues": [],
+    "issues": [
+      "67:1: the OCR kept only «o o»: treated as missing",
+      "74:4: the OCR kept only «at»: treated as missing",
+      "81:18: the OCR kept only «li»: treated as missing",
+      "100:7: the OCR kept only «ii»: treated as missing"
+    ],
     "counts": {
       "Karakhanid continuation lines joined to their verse": 2928,
       "lines of ornament tokens only dropped": 16638,
@@ -1321,9 +1330,9 @@
       "/ .. e m ee. p",
       "Dan daslU2il asl O al! Sp ami 4U ein . pr g m >l3 YK"
     ],
-    "segments": 6048,
-    "tied_to_ayah": 6048,
+    "segments": 6044,
+    "tied_to_ayah": 6044,
     "with_cited_ayat": 0,
-    "characters": 618429
+    "characters": 618420
   }
 }

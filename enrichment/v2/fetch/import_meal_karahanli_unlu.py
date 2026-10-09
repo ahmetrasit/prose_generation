@@ -289,6 +289,10 @@ def main() -> None:
             scan(sn, k, cuts[idx], cuts[idx + 1])
 
     # --- coverage
+    # a verse whose «text» is a stray fragment of OCR garbage (fewer than 3 letters: «at», «li») is no text: counted missing
+    for k_ in [k_ for k_, v_ in verses.items() if len(re.findall(r"[A-Za-zÇĞİÖŞÜçğıöşüâîûäñ]", v_["text"])) < 3]:
+        issues.append(f"{k_[0]}:{k_[1]}: the OCR kept only «{verses[k_]['text'].strip()[:10]}»: treated as missing")
+        del verses[k_]
     per_surah: dict[int, list[int]] = {}
     for (sn, n) in verses:
         per_surah.setdefault(sn, []).append(n)
