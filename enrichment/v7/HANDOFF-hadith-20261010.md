@@ -62,8 +62,15 @@ verse. Instead its digest is linked to every verse it names. Measured over S1, S
 - **Segments tied to a verse whose notes are about other verses** (by index range or quotation) are not put into the
   map. `q.py linked V` lists them with their notes, from a per-verse index that `enrichment/v9/linked.py build`
   writes (a quotation search takes ~40 s, so the index is built once per range). Most are pages indexed to a wide
-  range (`96:1-19`) whose text discusses other verses. A spot check measures how often such a segment does discuss
-  the verse after all.
+  range (`96:1-19`) whose text discusses other verses.
+- **Spot check (2026-10-10, `enrichment/v9/work/spot-linked-20261010`).** Over S1, S59 and S87–114 there are 10,940
+  linked pairs whose digested notes do not name the verse.
+  - In 7,690 of them the segment does not contain the verse's own 2–3-word phrases or a verse marker.
+  - A Sonnet reader judged 40 of the other 3,250, sampled by kind and tie: 34 do not discuss the verse; 5 are carried
+    by a note filed under another verse; 1 is a missed point (2.5%). The miss is SAMARRAI-LAMASAT-HALAQAT:p391, whose
+    gloss of 90:2 sits in a note filed under 90:5-6.
+  - Two Asad translations with bracketed glosses are borderline.
+  - Under the 5% threshold, so linking is enough and nothing is re-digested.
 
 Files: `enrichment/v7/digest.py` (`verse_list`), `enrichment/v7/merge.py` (`tier1_rows`, `tier1_segments`,
 `segment_rows`, `row_line`), `enrichment/v9/map.py` (`ROW_FIELDS` + `via`, `about`), `enrichment/v9/q.py` (`linked`),
