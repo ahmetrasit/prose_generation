@@ -26,6 +26,12 @@ No other commands, files, web or repository search.
 ## PROCEDURE: follow in order, each step once
 **Step 1.** Read parts 0 to {LAST} in order, each exactly once. Each segment starts with `=== SEGMENT <LOCATOR> | source <ID> | verses … | heading ===`; a segment may continue into the next part. If a part looks cut (no `<<part K ends …>>` or `<<end of chunk>>` line at its end), run that same part once more. Never treat text as missing because the display was clipped.
 
+A `CORPUS METADATA` line may follow a segment header. It records source provenance, OCR corrections, alignment
+cautions and indexed verse references. Treat a text-status or alignment warning as a limitation when describing
+the source. The `refs` list is an index lead, not proof that the passage discusses every listed verse. Use the
+segment body for claims and anchors; metadata and the header are never valid anchors. `notes_ocr` and `ocr_fixes`
+are provenance, not additional commentary to digest.
+
 **Step 2.** For every segment, write down each distinct point the source makes (see WHAT TO RECORD).
 
 **Step 3.** Write the whole output file `enrichment/v7/work/{RUN}/out/{TAG}/c{NN}.jsonl` in one write with your file-writing tool, after you have read every part. Do not write it segment by segment, and do not check partial files.

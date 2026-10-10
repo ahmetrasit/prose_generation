@@ -2,18 +2,19 @@
 """Enrichment v7 verse digests: build the inputs and spawn files, check the outputs. Launches no model.
 
 A digest records what one source says about the verses its segments are tied to: one line per segment,
-one row per claim, each row with a short verbatim anchor. Agents run through enrichment/v5/run_codex.py
-(Codex, at most seven at a time); the same chunk files serve every model.
+one row per claim, each row with a short source-body anchor. Spawn files can be run by native agents or the
+scripted runner; the same chunk files serve every model.
 
   digest.py build RUN (--ayat 100:1 87:6 | --surahs 2 3 | --page PATH --ayah A) --models gpt-6-luna:max --skip-done luna-max --quotes
-  digest.py check RUN [--model TAG] [--chunk N]     every segment answered, every anchor verbatim, and (runs built
-                                                    with row tags) every row's words in its verses and type in the list
+  digest.py check RUN [--model TAG] [--chunk N]     every segment answered, current anchors and required row fields
   digest.py report RUN                              per-model totals and costs
 
 Every skipped source or segment is printed and listed in RUN/manifest.json.
 """
 import argparse
+import hashlib
 import json
+import os
 import re
 import sys
 from collections import defaultdict
@@ -28,9 +29,12 @@ BRIEF = V7 / 'briefs/digest.md'
 # In the 264-agent S1/S87–114 run, none of the 18 chunks below 20k rendered characters exceeded the
 # user's 120k-token context cap; 77 larger chunks did. Keep future v7 extractor inputs smaller.
 DEFAULT_CHUNK_CHARS = 20_000
-# Stage 1 kinds. Meal and translations go to the meal table; lexicon, poetry, wujuh, grammar and hadith
-# are keyed by root or term in a later stage.
-KINDS = ('tafsir', 'tafsir_tr', 'maani', 'nazm', 'isari', 'modern', 'qiraat', 'ulum', 'reference', 'sira')
+# Stage 1 kinds. Verse-indexed hadith has a reliable ayah tie and belongs here; untied hadith
+# still needs a quotation or explicit-citation match. Poetry, wujuh and grammar retain the word route.
+KINDS = ('tafsir', 'tafsir_tr', 'maani', 'nazm', 'isari', 'modern', 'qiraat', 'ulum', 'reference', 'sira', 'hadith')
+PROVENANCE_KEYS = ('text_status', 'marker_found', 'align_uncertain', 'align', 'aligned_by',
+                   'scan_match', 'scan_match_note', 'ocr_fixes', 'notes_ocr', 'refs', 'quran_quotes',
+                   'sahih', 'graded_by', 'duplicate', 'secondary', 'page', 'printed_page')
 GUIDE = {
     'tafsir': 'A Qurʾān commentary. Record the author\'s own explanation of each verse, every view it reports with '
               'who holds it, reports and narrations (the authority at the end of the chain, the gist, any grading '
@@ -52,7 +56,7 @@ GUIDE = {
     'ulum': 'A work on the Qurʾānic sciences. Record what it says about the verse: rhetoric, inimitability, '
             'abrogation, occasions of revelation, structure, with the authorities cited.',
     'reference': 'A reference work. Record what the entry says about the verse and its terms, with the scholars cited.',
-    'hadith': 'A hadith collection, reached because the passage quotes the verse. Record the report, who it goes back '
+    'hadith': 'A hadith collection, indexed to the verse or reached because its passage quotes the verse. Record the report, who it goes back '
               'to, its gist and how it bears on the verse, and any grading the collection states. Mark it none when '
               'the verse words only coincide.',
     'poetry': 'A poetry collection or its commentary, reached because the passage shares the verse\'s words. Record '
@@ -149,18 +153,32 @@ def tag_problems(r):
 
 
 _EXCERPTS = None
+_LEGACY_INPUT_WARNED = set()
+UNVERIFIED_OUTPUT_LOCS = set()
 
 
 def excerpts():
-    """run -> segment locators that run digested only as an excerpt (the quotation packet cut long segments until
-    2026-10-09). Such a segment is not done: a later build digests it whole, and its rows get ids <loc>/fN."""
+    """run -> locators known or conservatively suspected to have been excerpted.
+
+    Current manifests carry excerpt_locs. If an old run lacks the exact input snapshot, every locator in that
+    run is treated as potentially excerpted; an anchor in its output cannot establish full-body coverage.
+    """
     global _EXCERPTS
     if _EXCERPTS is None:
         _EXCERPTS = defaultdict(set)
-        head = re.compile(r'^=== SEGMENT (.+?) \| source .*\[excerpt: characters \d+-\d+ of \d+\]', re.M)
-        for f in (V7 / 'work').glob('*/chunks/*.txt'):
-            for m in head.finditer(f.read_text()):
-                _EXCERPTS[f.parts[-3]].add(m.group(1))
+        for manifest in (V7 / 'work').glob('*/manifest.json'):
+            man = json.loads(manifest.read_text())
+            run = manifest.parent.name
+            _EXCERPTS[run].update(man.get('excerpt_locs', []))
+            for c in man.get('chunks', []):
+                if c.get('source_sha256'):
+                    continue
+                saved = saved_chunk_segments(manifest.parent, c)
+                if saved is None:
+                    if any((manifest.parent / 'out').glob(f"*/c{c['chunk']:02d}.jsonl")):
+                        _EXCERPTS[run].update(c['locs'])
+                else:
+                    _EXCERPTS[run].update(loc for loc, (_, excerpt) in saved.items() if excerpt)
     return _EXCERPTS
 
 
@@ -173,12 +191,21 @@ def unfinished(f):
     entry for the chunk (native sessions) count as finished."""
     run, tag = f.parts[-4], f.parts[-2]
     d = f.parents[2] / 'runs' / f'v7d_{run}_{tag}_{f.stem}'
-    if d.is_dir() and not (d / 'run.json').exists():
+    record = d / 'run.json'
+    if d.is_dir() and (not record.exists() or not _completed_record(record)):
         if f not in _UNFINISHED:
             _UNFINISHED.add(f)
             print(f'NOTE {f.relative_to(V7)}: its agent has not finished; not read (its notes arrive in a later update)')
         return True
     return False
+
+
+def _completed_record(path):
+    try:
+        x = json.loads(path.read_text())
+        return x.get('turn_completed') is True and x.get('returncode') == 0
+    except (OSError, ValueError):
+        return False
 
 
 def row_tags():
@@ -219,13 +246,13 @@ def gather(ayat):
                     extra[r['s'], a].add(r['seg_id'])
         found = {}
         for s, a in ayat:
-            hits = con.execute('SELECT id,seg,src,s,a,coalesce(a_end,a),head,text FROM seg WHERE s=? AND a<=? '
+            hits = con.execute('SELECT id,seg,src,s,a,coalesce(a_end,a),head,text,extra FROM seg WHERE s=? AND a<=? '
                                'AND coalesce(a_end,a)>=?', (s, a, a)).fetchall()
             if extra[s, a]:
                 q = ','.join('?' * len(extra[s, a]))
-                hits += con.execute(f'SELECT id,seg,src,s,a,coalesce(a_end,a),head,text FROM seg WHERE id IN ({q})',
+                hits += con.execute(f'SELECT id,seg,src,s,a,coalesce(a_end,a),head,text,extra FROM seg WHERE id IN ({q})',
                                     list(extra[s, a])).fetchall()
-            for sid, loc, sr, ss, aa, ae, head, text in hits:
+            for sid, loc, sr, ss, aa, ae, head, text, metadata in hits:
                 kind, access, _ = src[sr]
                 why = None
                 if kind not in KINDS:
@@ -243,7 +270,7 @@ def gather(ayat):
                     found[sid]['scope'].append(f'{s}:{a}')
                     continue
                 found[sid] = {'scope': [f'{s}:{a}'], 'loc': loc, 'src': sr, 'kind': kind, 'verses': f'{ss}:{aa}' + (f'-{ae}' if ae != aa else ''),
-                              'head': head or '', 'text': text}
+                              'head': head or '', 'text': text, 'extra': json.loads(metadata or '{}')}
     return src, [found[k] for k in sorted(found)], skipped
 
 
@@ -291,13 +318,16 @@ def normalize_map(text):
 QUOTE_KINDS_ONE = ('ulum', 'wujuh', 'modern', 'reference', 'grammar', 'tafsir', 'tafsir_tr', 'maani', 'nazm', 'isari', 'qiraat')
 QUOTE_KINDS_THREE = ('hadith', 'sira', 'poetry')
 QUOTE_MAX_HITS = 40          # a 1-2 word window in more segments than this is too common alone: its 3-word windows are used
+QUOTE_LIMITS = []
 
 
 def quote_packet(ayat):
     """Segments with no verse key that quote an ayah's own words: windows of 1-3 words that occur in no other ayah
     (1-word windows of at least 4 letters, and only for the kinds in QUOTE_KINDS_ONE; hadith, sīra and poetry need 3
-    words). Lexicon, meal and translations are not searched. Every window, its hits and every too-common window are
-    printed."""
+    words). Explicit citations with the full normalized verse are a conservative fallback. Lexicon, meal and
+    translations are not searched. Window counts and fallback locators are recorded in QUOTE_LIMITS."""
+    global QUOTE_LIMITS
+    QUOTE_LIMITS = []
     with connect() as con:
         quran = {(s, a): normalize_map(t)[0].split() for s, a, t in
                  con.execute("SELECT s, a, text FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran'")}
@@ -307,12 +337,36 @@ def quote_packet(ayat):
                 for i in range(len(words) - n + 1):
                     grams[' '.join(words[i:i + n])].add(v)
         kinds = QUOTE_KINDS_ONE + QUOTE_KINDS_THREE
-        segs = con.execute(f"SELECT seg.seg, seg.src, src.kind, seg.head, seg.text FROM seg JOIN src ON src.id=seg.src "
+        segs = con.execute(f"SELECT seg.seg, seg.src, src.kind, seg.head, seg.text, seg.extra FROM seg JOIN src ON src.id=seg.src "
                            f"WHERE seg.s IS NULL AND src.access='yerel' AND src.kind IN ({','.join('?' * len(kinds))})",
                            kinds).fetchall()
+        # The ref table comes from explicit source citations. It is noisy (indexes and bare references), so a
+        # citation is used only when the segment also contains the ayah's entire normalized Arabic text.
+        surahs = sorted({s for s, _ in ayat})
+        cited = con.execute(f"SELECT ref.s,ref.a,ref.a_end,seg.seg FROM ref JOIN seg ON seg.id=ref.seg_id "
+                            f"JOIN src ON src.id=seg.src WHERE ref.s IN ({','.join('?' * len(surahs))}) "
+                            f"AND seg.s IS NULL AND src.access='yerel' "
+                            f"AND src.kind IN ({','.join('?' * len(kinds))})",
+                            (*surahs, *kinds)).fetchall() if surahs else []
         src_kind = {i: k for i, k in con.execute('SELECT id, kind FROM src')}
-    norm = [(loc, sr, kind, head, text, ' ' + normalize_map(text)[0] + ' ') for loc, sr, kind, head, text in segs]
+    norm = [(loc, sr, kind, head, text, json.loads(metadata or '{}'), ' ' + normalize_map(text)[0] + ' ')
+            for loc, sr, kind, head, text, metadata in segs]
+    by_loc = {g[0]: g for g in norm}
+    citations = defaultdict(set)
+    target = set(ayat)
+    for s, start, end, loc in cited:
+        for a in range(start, end + 1):
+            if (s, a) in target:
+                citations[s, a].add(loc)
     out = {}
+    def add_hit(g, s, a, route):
+        loc, sr, kind, head, body, metadata, _ = g
+        if loc in out:
+            if f'{s}:{a}' not in out[loc]['scope']:
+                out[loc]['scope'].append(f'{s}:{a}')
+            return
+        out[loc] = {'scope': [f'{s}:{a}'], 'loc': loc, 'src': sr, 'kind': src_kind.get(sr, kind),
+                    'verses': f'{s}:{a} ({route})', 'head': head or '', 'text': body, 'extra': metadata}
     for s, a in ayat:
         words = quran.get((s, a), [])
         windows = []
@@ -325,34 +379,107 @@ def quote_packet(ayat):
         # window too common to mean a quotation is never dropped outright: the longer windows that contain it are
         # tried instead (user, 2026-10-09: nothing dropped). A three-word window has no cap.
         windows.sort(key=lambda x: x[0])
+        full = ' ' + ' '.join(words) + ' '
+        fallback_eligible = len(words) >= 3 and len(full.strip()) >= 12
+        limit = {'ayah': f'{s}:{a}', 'unique_windows': {str(n): sum(k == n for k, _ in windows) for n in (1, 2, 3)},
+                 'explicit_ref_candidates': len(citations[s, a]), 'full_verse_fallback_eligible': fallback_eligible,
+                 'full_verse_fallback_rule': 'at least 3 normalized Arabic words and 12 normalized characters including spaces',
+                 'full_verse_fallback': []}
+        QUOTE_LIMITS.append(limit)
+        if not windows:
+            print(f'NOTE quotes {s}:{a}: no unique 1-3 word window; '
+                  + ('only full-verse explicit-citation fallback is available' if fallback_eligible
+                     else 'full-verse fallback is ineligible (under 3 normalized words or 12 characters)'))
+        elif not any(n == 3 for n, _ in windows):
+            fallback_note = ('full-verse explicit-citation fallback only' if fallback_eligible else
+                             'full-verse fallback ineligible (under 3 normalized words or 12 characters)')
+            print(f'NOTE quotes {s}:{a}: no unique 3-word window for untied hadith, sira or poetry; {fallback_note}')
         print(f"quotes {s}:{a}: {len(windows)} unique window(s): " + ' | '.join(w for _, w in windows))
         used = []
         for n, w in windows:
-            if any(m < n and v in w for m, v in used):
+            covered_by_short = any(m < n and f' {v} ' in f' {w} ' for m, v in used)
+            if covered_by_short and n < 3:
                 continue
-            hits = [x for x in norm if f' {w} ' in x[5] and (n >= 3 or x[2] in QUOTE_KINDS_ONE)]
+            # A short window covers only QUOTE_KINDS_ONE. Its three-word extension must still search
+            # hadith, sira and poetry, which require three words.
+            hits = [x for x in norm if f' {w} ' in x[6] and
+                    (x[2] in QUOTE_KINDS_THREE if covered_by_short else n >= 3 or x[2] in QUOTE_KINDS_ONE)]
             if n < 3 and len(hits) > QUOTE_MAX_HITS:
                 print(f"NOTE quotes {s}:{a}: window «{w}» in {len(hits)} segments, too common alone; the longer windows that contain it are used instead")
                 continue
             used.append((n, w))
             print(f"quotes {s}:{a}: «{w}» in {len(hits)} segment(s): " + ', '.join(h[0] for h in hits[:12])
                   + (' …' if len(hits) > 12 else ''))
-            for loc, sr, kind, head, text, _ in hits:
-                if loc in out:
-                    if f'{s}:{a}' not in out[loc]['scope']:
-                        out[loc]['scope'].append(f'{s}:{a}')
-                    continue
-                body, note = text, ''  # the whole segment, never an excerpt (user, 2026-10-09: no cuts anywhere)
-                out[loc] = {'scope': [f'{s}:{a}'], 'loc': loc, 'src': sr, 'kind': src_kind.get(sr, kind),
-                            'verses': f'{s}:{a} (quoted)', 'head': f'{head or ""}{note}', 'text': body}
+            for hit in hits:
+                add_hit(hit, s, a, 'quoted')
+        if fallback_eligible:
+            for loc in sorted(citations[s, a]):
+                hit = by_loc.get(loc)
+                if hit and full in hit[6]:
+                    add_hit(hit, s, a, 'explicit citation + full verse')
+                    limit['full_verse_fallback'].append(loc)
+        if limit['explicit_ref_candidates'] and not limit['full_verse_fallback'] and not windows:
+            print(f"NOTE quotes {s}:{a}: {limit['explicit_ref_candidates']} explicit-reference candidate(s) "
+                  + ('lacked a verified full-verse match' if fallback_eligible else 'were not searched by the short-verse fallback rule'))
     print(f'quotation packet: {len(out)} segment(s), {sum(len(g["text"]) for g in out.values()):,} characters')
     return list(out.values())
 
 
 def segment_input(g):
     """Exact segment text delivered in a chunk, including its locator/header overhead."""
+    metadata = {k: g.get('extra', {}).get(k) for k in PROVENANCE_KEYS if k in g.get('extra', {})}
+    note = ('CORPUS METADATA (provenance/index; not source words or an anchor): '
+            + json.dumps(metadata, ensure_ascii=False, sort_keys=True) + '\n') if metadata else ''
     return (f"=== SEGMENT {g['loc']} | source {g['src']} | verses {g['verses']} | {g['head']} ===\n"
-            f"{g['text'].strip()}\n\n")
+            f"{note}{g['text'].strip()}\n\n")
+
+
+def source_fingerprint(head, body, extra):
+    """Hash the current passage, heading and provenance delivered to a Tier 1 agent."""
+    metadata = {k: extra.get(k) for k in PROVENANCE_KEYS if k in extra}
+    value = {'head': head or '', 'text': body or '', 'provenance': metadata}
+    return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+
+
+def saved_chunk_segments(d, c):
+    """Recover exact input bodies and excerpt markers from a complete legacy chunk snapshot, or None."""
+    n, count = c['chunk'], c.get('parts', 0)
+    if count < 1:
+        return None
+    pieces = []
+    for k in range(count):
+        f = d / 'chunks' / f'c{n:02d}.p{k}.txt'
+        try:
+            raw = f.read_text()
+        except OSError:
+            return None
+        head = f'<<chunk {n} part {k} of 0..{count - 1}>>\n'
+        tail = (f'\n<<part {k} ends; continues in part {k + 1}>>\n'
+                if k + 1 < count else '\n<<end of chunk>>\n')
+        if not raw.startswith(head) or not raw.endswith(tail):
+            return None
+        pieces.append(raw[len(head):-len(tail)])
+    rendered = ''.join(pieces)
+    out, cursor = {}, 0
+    for i, loc in enumerate(c['locs']):
+        marker = f'=== SEGMENT {loc} | source '
+        if not rendered.startswith(marker, cursor):
+            return None
+        end_header = rendered.find(' ===\n', cursor + len(marker))
+        if end_header < 0:
+            return None
+        header = rendered[cursor:end_header]
+        start_body = end_header + len(' ===\n')
+        next_marker = f"=== SEGMENT {c['locs'][i + 1]} | source " if i + 1 < len(c['locs']) else None
+        end_body = rendered.find(next_marker, start_body) if next_marker else len(rendered)
+        if end_body < 0 or not rendered[start_body:end_body].endswith('\n\n'):
+            return None
+        body = rendered[start_body:end_body - 2]
+        if body.startswith('CORPUS METADATA ('):
+            body = body.split('\n', 1)[1] if '\n' in body else ''
+        out[loc] = (body, '[excerpt: characters ' in header)
+        cursor = end_body
+    return out if cursor == len(rendered) else None
 
 
 def chunks(segments, chunk_chars=DEFAULT_CHUNK_CHARS):
@@ -387,14 +514,17 @@ def split_original_chunks(segments, original, selected):
     if unknown:
         raise SystemExit(f'unknown chunks to split: {sorted(unknown)}')
     planned = []
+    legacy_changed = []
     for c in old:
         try:
             group = [by_loc[loc] for loc in c['locs']]
         except KeyError as e:
             raise SystemExit(f'original segment missing from corpus: {e}') from e
         rendered = [len(segment_input(g)) for g in group]
-        if sum(rendered) != c['chars']:
+        if c.get('input_sha256') and hashlib.sha256(''.join(segment_input(g) for g in group).encode()).hexdigest() != c['input_sha256']:
             raise SystemExit(f"original chunk c{c['chunk']:02d} changed in corpus")
+        if not c.get('input_sha256') and sum(rendered) != c['chars']:
+            legacy_changed.append(c['chunk'])
         if c['chunk'] not in selected:
             planned.append((group, c['chunk'], None))
             continue
@@ -408,6 +538,10 @@ def split_original_chunks(segments, original, selected):
             cuts.append((abs(running - half), i))
         cut = min(cuts)[1]
         planned.extend(((group[:cut], c['chunk'], 1), (group[cut:], c['chunk'], 2)))
+    if legacy_changed:
+        print(f'NOTE {len(legacy_changed)} original chunk(s) predate input hashes and have changed rendered lengths '
+              '(new provenance metadata or changed source); review the rebuilt inputs before launch: '
+              + ', '.join(f'c{n:02d}' for n in legacy_changed))
     return planned
 
 
@@ -425,8 +559,8 @@ def build(a):
         raise SystemExit(f'{d} exists; choose a new run name')
     split_plan = getattr(a, 'split_plan', None)
     if split_plan:
-        if a.ayat or a.page or a.skip_done:
-            raise SystemExit('--split-plan uses the original run\'s ayat and locators; omit --ayat, --page and --skip-done')
+        if a.ayat or a.surahs or a.page or a.skip_done or a.skip_planned:
+            raise SystemExit('--split-plan uses the original run\'s ayat and locators; omit other scope and skip options')
         forecast = json.loads(Path(split_plan).read_text())
         original_name = forecast['run']
         original = json.loads((run_dir(original_name) / 'manifest.json').read_text())
@@ -455,8 +589,9 @@ def build(a):
     src, segments, skipped = gather(ayat)
     skipped += surah_level(ayat)
     if split_plan:
+        packet = quote_packet(ayat)
+        by_loc = {g['loc']: g for g in segments + packet}
         expected = [loc for c in original['chunks'] for loc in c['locs']]
-        by_loc = {g['loc']: g for g in segments}
         if len(expected) != len(set(expected)) or any(loc not in by_loc for loc in expected):
             raise SystemExit('original manifest has duplicate or unavailable locators')
         segments = [by_loc[loc] for loc in expected]
@@ -466,30 +601,21 @@ def build(a):
         done = {}
         for tag in a.skip_done:
             for f in sorted((V7 / 'work').glob(f'*/out/{tag}/c*.jsonl')):
-                if f.parts[-4] in getattr(a, 'skip_done_exclude_run', []) or unfinished(f):
+                if f.parts[-4] in getattr(a, 'skip_done_exclude_run', []):
                     continue
-                try:
-                    lines = f.read_text().splitlines()
-                except FileNotFoundError:
-                    print(f'WARNING {f.relative_to(V7)}: vanished while reading (a run in progress?); not counted as done')
-                    continue
-                for i, line in enumerate(lines, 1):
-                    if line.strip():
-                        try:
-                            loc = json.loads(line)['loc']
-                            if loc in excerpts().get(f.parts[-4], set()):
-                                continue  # digested only as an excerpt: not done
-                            done.setdefault(loc, f'{f.parts[-4]}/{tag}')
-                        except ValueError:
-                            print(f'WARNING {f.relative_to(V7)} line {i}: not JSON (a run in progress?); not counted as done')
+                for loc in valid_output_locs(f):
+                    if loc not in excerpts().get(f.parts[-4], set()):
+                        done.setdefault(loc, f'{f.parts[-4]}/{tag}')
         for run in getattr(a, 'skip_planned', None) or []:
             pm = json.loads((run_dir(run) / 'manifest.json').read_text())
+            print(f'NOTE --skip-planned {run}: reserving every locator in its manifest even if its agents are unfinished; reconcile this run after it completes')
             for c in pm['chunks']:
                 for loc in c['locs']:
                     done.setdefault(loc, f'{run} (planned, not finished)')
         cut = {loc for locs in excerpts().values() for loc in locs} - set(done)
         if cut:
-            print(f'NOTE {len(cut)} segment(s) were digested only as excerpts; any of them in scope is digested whole now')
+            print(f'NOTE {len(cut)} segment locator(s) have excerpt or unverified legacy input provenance; '
+                  'any of them in scope is digested from the current full source now')
         kept = []
         for g in segments:
             if g['loc'] in done:
@@ -498,7 +624,9 @@ def build(a):
             else:
                 kept.append(g)
         segments = kept
-    if getattr(a, 'quotes', False):
+    elif a.skip_planned:
+        raise SystemExit('--skip-planned requires --skip-done; planned locators cannot be reserved otherwise')
+    if getattr(a, 'quotes', False) and not split_plan:
         have = {g['loc'] for g in segments}
         done_q = done if a.skip_done else {}
         packet = quote_packet(ayat)
@@ -529,7 +657,10 @@ def build(a):
                      'sources': srcs, 'kinds': kinds,
                      'scope': list(dict.fromkeys(x for g in chunk for x in g['scope'])),
                      'source_lines': [source_line(s, src[s][2], src[s][0]) for s in srcs],
-                     'locs': [g['loc'] for g in chunk], 'chars': len(text), 'parts': len(parts)})
+                     'locs': [g['loc'] for g in chunk], 'chars': len(text), 'parts': len(parts),
+                     'input_sha256': hashlib.sha256(text.encode()).hexdigest(),
+                     'text_sha256': {g['loc']: hashlib.sha256(g['text'].encode()).hexdigest() for g in chunk},
+                     'source_sha256': {g['loc']: source_fingerprint(g['head'], g['text'], g.get('extra', {})) for g in chunk}})
     brief = BRIEF.read_text()
     spawns = []
     for spec in a.models:
@@ -555,7 +686,10 @@ def build(a):
                                'split_plan': split_plan, 'split_from_run': original_name if split_plan else None,
                                'split_chunks': sorted(selected) if split_plan else [],
                                'skip_done_exclude_run': getattr(a, 'skip_done_exclude_run', []),
-                               'chunk_chars': chunk_chars, 'row_tags': True,
+                               'chunk_chars': chunk_chars, 'row_tags': True, 'strict_fields': True,
+                               'excerpt_locs': [],
+                               'quotes': bool(getattr(a, 'quotes', False) or split_plan),
+                               'quote_limits': QUOTE_LIMITS if (getattr(a, 'quotes', False) or split_plan) else [],
                                'chunks': plan, 'skipped': skipped, 'spawn': spawns})
     total = sum(c['chars'] for c in plan)
     print(f'{len(segments)} segments, {len(plan)} chunks, {total:,} characters, {len(spawns)} spawn files')
@@ -574,14 +708,131 @@ def build(a):
         print(f"SKIPPED {k} segment(s): {reason} (each listed in manifest.json)")
 
 
-def check_chunk(d, tag, c, tags=False):
+def line_problems(loc, x, body, tags=False, strict=False):
+    """Problems in one segment's output against the current corpus text."""
+    problems = []
+    rs = x.get('rows')
+    if not isinstance(rs, list):
+        return ['"rows" must be a list']
+    if not rs and not isinstance(x.get('none'), str):
+        problems.append('no rows and no "none" reason')
+    elif not rs and not x['none'].strip():
+        problems.append('no rows and no "none" reason')
+    for j, r in enumerate(rs, 1):
+        if not isinstance(r, dict):
+            problems.append(f'row {j}: must be an object')
+            continue
+        missing = [k for k in ('verses', 'speaker', 'stance', 'claim', 'anchor') if not r.get(k)]
+        if missing:
+            problems.append(f'row {j}: missing {", ".join(missing)}')
+        verses = r.get('verses')
+        valid_verses = isinstance(verses, list) and bool(verses) and all(isinstance(v, str) and re.fullmatch(r'\d{1,3}:\d{1,3}', v) for v in verses)
+        if not valid_verses:
+            problems.append(f'row {j}: "verses" must be a non-empty list of S:A values')
+        elif strict and any(v not in quran() for v in verses):
+            problems.append(f'row {j}: verse is absent from the Quran index')
+        anchor = r.get('anchor')
+        if anchor and (not isinstance(anchor, str) or not contains(body, anchor)):
+            problems.append(f'row {j}: anchor not found in the current segment: {str(anchor)[:80]}')
+        if strict:
+            if r.get('stance') not in ('holds', 'prefers', 'reports', 'rejects'):
+                problems.append(f'row {j}: stance must be holds, prefers, reports or rejects')
+            if not isinstance(r.get('speaker'), str) or not isinstance(r.get('claim'), str):
+                problems.append(f'row {j}: speaker and claim must be text')
+            elif len(r['claim'].split()) > 40:
+                problems.append(f'row {j}: claim exceeds 40 words')
+            if isinstance(anchor, str) and not (min(5, len(body.split())) <= len(anchor.split()) <= 25):
+                problems.append(f'row {j}: anchor must have 5 to 25 words (or use the whole shorter segment)')
+            mentions = r.get('mentions')
+            if not isinstance(mentions, list) or any(not isinstance(v, str) or not re.fullmatch(r'\d{1,3}:\d{1,3}', v) for v in mentions):
+                problems.append(f'row {j}: "mentions" must be a list of S:A values')
+        if tags and valid_verses:
+            problems += [f'row {j}: {p}' for p in tag_problems(r)]
+    return problems
+
+
+def valid_output_locs(f):
+    """Only finished, structurally valid, current-anchor lines assigned to this run's chunk count as done."""
+    if unfinished(f):
+        return set()
+    d = f.parents[2]
+    try:
+        man = json.loads((d / 'manifest.json').read_text())
+        c = next(x for x in man['chunks'] if f.stem == f"c{x['chunk']:02d}")
+        lines = f.read_text().splitlines()
+    except (OSError, ValueError, KeyError, StopIteration) as e:
+        print(f'WARNING {f.relative_to(V7)}: cannot validate against its manifest ({e}); not counted as done')
+        return set()
+    expected = set(c['locs'])
+    saved = None if c.get('source_sha256') else saved_chunk_segments(d, c)
+    if not c.get('source_sha256') and saved is None:
+        UNVERIFIED_OUTPUT_LOCS.update(expected)
+        if d.name not in _LEGACY_INPUT_WARNED:
+            _LEGACY_INPUT_WARNED.add(d.name)
+            print(f'NOTE {d.relative_to(V7)}: legacy input snapshots are unavailable or incomplete; '
+                  'its output locators remain unresolved and must be rebuilt before counting as complete')
+        return set()
+    with connect() as con:
+        source = {loc: (row[0] or '', row[1] or '', json.loads(row[2] or '{}')) for loc in expected
+                  if (row := con.execute('SELECT head,text,extra FROM seg WHERE seg=?', (loc,)).fetchone())}
+    valid, duplicate = set(), set()
+    for i, line in enumerate(lines, 1):
+        if not line.strip():
+            continue
+        try:
+            x = json.loads(line)
+        except ValueError:
+            print(f'WARNING {f.relative_to(V7)} line {i}: not JSON; not counted as done')
+            continue
+        if not isinstance(x, dict) or not isinstance(x.get('loc'), str) or x['loc'] not in expected:
+            print(f'WARNING {f.relative_to(V7)} line {i}: unknown or malformed locator; not counted as done')
+            continue
+        loc = x['loc']
+        if loc in valid:
+            duplicate.add(loc)
+        if loc not in source:
+            duplicate.add(loc)
+            continue
+        head, body, extra = source[loc]
+        if (loc in man.get('excerpt_locs', []) or
+                (c.get('source_sha256') and loc not in c['source_sha256']) or
+                (saved is not None and (loc not in saved or saved[loc][1] or saved[loc][0] != body.strip())) or
+                (c.get('source_sha256', {}).get(loc) and source_fingerprint(head, body, extra) != c['source_sha256'][loc])):
+            duplicate.add(loc)
+            print(f'WARNING {f.relative_to(V7)} {loc}: excerpt or source input changed; not counted as done')
+            continue
+        problems = line_problems(loc, x, body, man.get('row_tags', False), man.get('strict_fields', False))
+        if problems:
+            duplicate.add(loc)
+            print(f'WARNING {f.relative_to(V7)} {loc}: invalid output ({problems[0]}); not counted as done')
+        else:
+            valid.add(loc)
+    return valid - duplicate
+
+
+def check_chunk(d, tag, c, tags=False, strict=False):
     """Problems in one output file: missing, extra or duplicate segments, bad lines, anchors not verbatim."""
     f = d / 'out' / tag / f"c{c['chunk']:02d}.jsonl"
     if not f.exists():
         return [f'{f.name}: no output file'], 0
+    saved = None if c.get('source_sha256') else saved_chunk_segments(d, c)
+    if not c.get('source_sha256') and saved is None:
+        return [f'{f.name}: legacy input snapshot unavailable; output provenance unresolved, rebuild this chunk'], 0
     with connect() as con:
-        text = {loc: con.execute('SELECT text FROM seg WHERE seg=?', (loc,)).fetchone()[0] for loc in c['locs']}
+        source = {loc: (row[0] or '', row[1] or '', json.loads(row[2] or '{}')) for loc in c['locs']
+                  if (row := con.execute('SELECT head,text,extra FROM seg WHERE seg=?', (loc,)).fetchone())}
     problems, seen, n_rows = [], [], 0
+    for loc in c['locs']:
+        if loc not in source:
+            problems.append(f'{loc}: missing from current corpus')
+            continue
+        head, body, extra = source[loc]
+        if saved is not None and (loc not in saved or saved[loc][1] or saved[loc][0] != body.strip()):
+            problems.append(f'{loc}: excerpt or source text changed since build')
+        elif c.get('source_sha256') and loc not in c['source_sha256']:
+            problems.append(f'{loc}: missing source provenance hash')
+        elif c.get('source_sha256', {}).get(loc) and source_fingerprint(head, body, extra) != c['source_sha256'][loc]:
+            problems.append(f'{loc}: source text, heading or provenance changed since build')
     for i, line in enumerate(f.read_text().splitlines(), 1):
         if not line.strip():
             continue
@@ -590,26 +841,15 @@ def check_chunk(d, tag, c, tags=False):
         except ValueError as e:
             problems.append(f'line {i}: not JSON ({e})')
             continue
-        loc = x.get('loc')
-        if loc not in text:
+        loc = x.get('loc') if isinstance(x, dict) else None
+        if loc not in c['locs']:
             problems.append(f'line {i}: locator {loc!r} is not in this chunk')
             continue
         seen.append(loc)
-        rs = x.get('rows')
-        if not isinstance(rs, list):
-            problems.append(f'{loc}: "rows" must be a list')
-            continue
-        if not rs and not (x.get('none') or '').strip():
-            problems.append(f'{loc}: no rows and no "none" reason')
-        for j, r in enumerate(rs, 1):
-            n_rows += 1
-            missing = [k for k in ('verses', 'speaker', 'stance', 'claim', 'anchor') if not r.get(k)]
-            if missing:
-                problems.append(f'{loc} row {j}: missing {", ".join(missing)}')
-            if r.get('anchor') and not contains(text[loc], r['anchor']):
-                problems.append(f'{loc} row {j}: anchor not found verbatim in the segment: {r["anchor"][:80]}')
-            if tags:
-                problems += [f'{loc} row {j}: {p}' for p in tag_problems(r)]
+        if loc in source:
+            problems += [f'{loc}: {p}' for p in line_problems(loc, x, source[loc][1], tags, strict)]
+        if isinstance(x.get('rows'), list):
+            n_rows += len(x['rows'])
     for loc in c['locs']:
         if loc not in seen:
             problems.append(f'{loc}: segment has no line')
@@ -624,13 +864,13 @@ def check(a):
     tags = [a.model] if a.model else sorted(p.name for p in (d / 'out').iterdir())
     plan = [c for c in man['chunks'] if a.chunk in (None, c['chunk'])]
     if a.chunk is not None:  # the agent's own check: print problems or OK, record nothing
-        problems, _ = check_chunk(d, tags[0], plan[0], man.get('row_tags', False))
+        problems, _ = check_chunk(d, tags[0], plan[0], man.get('row_tags', False), man.get('strict_fields', False))
         print('OK' if not problems else '\n'.join(problems[:60]) + (f'\n... {len(problems) - 60} more' if len(problems) > 60 else ''))
         return
     for tag in tags:
         result = {}
         for c in plan:
-            problems, n_rows = check_chunk(d, tag, c, man.get('row_tags', False))
+            problems, n_rows = check_chunk(d, tag, c, man.get('row_tags', False), man.get('strict_fields', False))
             result[f"c{c['chunk']:02d}"] = {'rows': n_rows, 'problems': problems}
             for p in problems:
                 print(f"WARNING {tag} c{c['chunk']:02d}: {p}")
@@ -640,6 +880,7 @@ def check(a):
 
 
 _SESSIONS = None
+_SESSION_ROOTS = None
 
 
 def native_agent_alias(agent):
@@ -650,8 +891,9 @@ def native_agent_alias(agent):
 
 def usage(runs_dir, agent):
     """Usage of one Codex agent: run.json when run_codex.py ran it, else the native session whose agent_path is
-    the agent name (agents spawned by a Codex orchestrator). None when neither exists."""
-    global _SESSIONS
+    the agent name (agents spawned by a Codex orchestrator). Search both live and archived session transcripts;
+    archival preserves the relative path, so a live copy takes precedence. None when neither exists."""
+    global _SESSIONS, _SESSION_ROOTS
     r = runs_dir / agent.rsplit('/', 1)[1] / 'run.json'
     if r.exists():
         x = json.loads(r.read_text())
@@ -660,14 +902,28 @@ def usage(runs_dir, agent):
                 'completed': bool(x.get('turn_completed')) and not x.get('returncode'), 'via': 'run.json'}
     if _SESSIONS is None:
         _SESSIONS = {}
-        for f in (Path.home() / '.codex/sessions').glob('2026/*/*/*.jsonl'):
-            try:
-                with f.open() as h:
-                    meta = json.loads(h.readline()).get('payload', {})
-            except (ValueError, OSError):
+        live_root = Path(os.environ.get('CODEX_SESSIONS_DIR', str(Path.home() / '.codex/sessions')))
+        archive_root = Path(os.environ.get('CODEX_SESSIONS_ARCHIVE_DIR', str(ROOT / '.scratch/codex_sessions_archive')))
+        roots = [p if p.is_absolute() else ROOT / p for p in (archive_root, live_root)]
+        _SESSION_ROOTS = roots
+        # Scan live first, then archive. A transcript moved between those scans is still
+        # found; its preserved relative path also de-duplicates a copy restored for repair.
+        relative_paths = set()
+        for base in reversed(roots):
+            relative_paths.update(f.relative_to(base) for f in base.glob('*/*/*/*.jsonl'))
+        for relative in relative_paths:
+            meta = None
+            for base in reversed(roots):
+                try:
+                    with (base / relative).open() as h:
+                        meta = json.loads(h.readline()).get('payload', {})
+                except (ValueError, OSError):
+                    continue
+                break
+            if meta is None:
                 continue
             if meta.get('agent_path'):
-                _SESSIONS.setdefault(meta['agent_path'], []).append(f)
+                _SESSIONS.setdefault(meta['agent_path'], []).append(relative)
     # Spawn prompts retain their original headers verbatim. Native task names cannot contain
     # the hyphens in those headers, so look for the underscore-only alias as well.
     session_agent = agent if _SESSIONS.get(agent) else native_agent_alias(agent)
@@ -677,7 +933,20 @@ def usage(runs_dir, agent):
     if len(files) > 1:
         print(f'WARNING {agent}: {len(files)} native sessions; costing the latest')
     import account  # enrichment/v5
-    rec = account.session(sorted(files)[-1], session_agent)
+    relative = sorted(files)[-1]
+    rec = None
+    # The archive helper may move a completed transcript during this report. Resolve its
+    # preserved relative path when costing it, and retry from the other location if moved.
+    for base in reversed(_SESSION_ROOTS):
+        try:
+            rec = account.session(base / relative, session_agent)
+        except OSError:
+            continue
+        if rec is not None:
+            break
+    if rec is None:
+        print(f'WARNING {agent}: native transcript disappeared from live and archive locations')
+        return claude_usage(agent)
     return {'usd': rec['usd'], 'requests': rec['requests'], 'peak': rec['max_request_input'],
             'completed': rec['completed'], 'via': 'native session'}
 

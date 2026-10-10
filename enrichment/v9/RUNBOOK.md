@@ -1,16 +1,15 @@
 # Enrichment v9 runbook: one surah, from tier 1 to the enriched pages
 
-For a cold orchestrator in a **Claude Code** session, at the repo root `/Volumes/aro/projects/prose_generation`.
+For a cold orchestrator in a **Claude Code** session, at the root of the active checkout.
 Read this whole file, then `## Production state` at the end, before doing anything. Design and decisions:
 `PLAN.md` ("Decisions" first). Test standard: `T0-103_1.md`. Tier-1 details: `enrichment/v7/RUNBOOK.md` (stage 1).
 The Bible (Ehl-i Kitap) layer has its own runbook: `enrichment/bible/RUNBOOK.md` (stage 6 below).
-Memory notes for this project (`~/.claude/projects/-Volumes-aro-projects-prose-generation/memory/`) hold the user's
-standing rules; the ones this runbook relies on are restated here.
+Project memory notes, when present, hold the user's standing rules; the ones this runbook relies on are restated here.
 
 ## Rules
 
 1. **Scope and quota come from the user.** Report a stage's expected cost before it and the actual cost after it.
-   Current caps (user, 2026-10-09): tier-1 Luna 40 agents, Luna map translations 20, Sol 40, Opus page agents
+   Current caps (user, 2026-10-10 for the requested two batches): tier-1 Luna 60 agents, Luna map translations 20, Sol 40, Opus page agents
    (writers + meals) **3 at a time from S87 on** (S96 had 5), **Bible Opus authors 2 at a time** (a separate cap).
    If a cap is not known, ask. Never Haiku.
 2. **No cuts anywhere.** Never trim, excerpt, sample or drop input or output. Chunking puts whole segments together;
@@ -45,8 +44,10 @@ standing rules; the ones this runbook relies on are restated here.
   cap; top up as each finishes.
 - **Helpers (once per machine boot, before any Codex run):**
   `nohup enrichment/v9/tools/session_archive.sh > /dev/null 2>&1 & echo $! > enrichment/v9/work/session_cleanup.pid`
-  (moves Codex session files idle 30+ min and not open by any process to `/Volumes/aro/codex_sessions_archive/`;
-  never deletes: repairs copy sessions back) and
+  (moves Codex session files idle 30+ min and not open by any process to the directory set by
+  `CODEX_SESSIONS_ARCHIVE_DIR`, defaulting to `<checkout>/.scratch/codex_sessions_archive`; never deletes: repairs copy sessions
+  back; Tier 1 reporting searches both live and archived transcripts; set `CODEX_SESSIONS_ARCHIVE_DIR` before starting
+  the helper, report and repair scripts if the archive is elsewhere) and
   `nohup enrichment/v9/tools/disk_throttle.sh > /dev/null 2>&1 & echo $! > enrichment/v9/work/disk_throttle.pid`
   (SIGSTOPs `codex_run.py` runners under 1.5 GB free on `/`, resumes above 2.5 GB). Keep > 3 GB free (`df -h /`).
 
@@ -69,14 +70,18 @@ committed copy (`cat enrichment/corpus/corpus.sqlite.gz.part* | gunzip > enrichm
 `enrichment/v2/tools/corpus_parts.sh`, then `git add -f enrichment/corpus/corpus.sqlite.gz.part?? enrichment/corpus/corpus.sqlite.gz.stamp.json`, commit, push.
 ```bash
 python3 -B enrichment/v7/digest.py build <tier1 run> --ayat $(cat enrichment/v9/work/prod_sNNN/verses.txt) --models gpt-6-luna:max --skip-done luna-max --quotes [--skip-planned <tier1 runs built but not finished>]
-nohup enrichment/v9/tools/run_until_done.sh 40 enrichment/v7/work/<tier1 run>/runs <log> enrichment/v7/work/<tier1 run>/spawn/luna-max_c*.md &
+nohup enrichment/v9/tools/run_until_done.sh 60 enrichment/v7/work/<tier1 run>/runs <log> enrichment/v7/work/<tier1 run>/spawn/luna-max_c*.md &
 python3 -B enrichment/v7/digest.py check <tier1 run> --model luna-max      # prints every problem (do not tail -1 it)
 python3 -B enrichment/v7/digest.py report <tier1 run>
 ```
 Repair each listed chunk in its session: `tools/repair_t1.sh <tier1 run> NN` (several with `xargs -P`). If its
 session is gone, set the chunk's output and run dir aside (`out_superseded/`, `runs_superseded/` + README line) and run
-its spawn file again. The build takes about 25 s plus 0.35 s per verse. **Never analyse anything twice**
-(`--skip-done`, `--skip-planned`). Tier 1 may also run on the user's other computer (handoff via git: this machine
+its spawn file again. The build takes about 25 s plus 0.35 s per verse. `--skip-done` validates finished lines and
+input provenance; old outputs whose chunk snapshots are missing count as unresolved and are rebuilt. `--skip-planned`
+reserves another built run's locators and requires `--skip-done`. Indexed hadith is
+included in Tier 1. The quotation packet records limited-search ayat and cautious full-verse citation fallback in
+`manifest.json` (`quote_limits`); the fallback requires at least 3 normalized Arabic words and 12 normalized
+characters including spaces. Inspect those limits before claiming quotation coverage. Tier 1 may also run on the user's other computer (handoff via git: this machine
 builds and commits `manifest.json`, `chunks/` (force-added; they are git-ignored), `spawn/`; the other runs and pushes
 `out/` and `runs/*/run.json`).
 

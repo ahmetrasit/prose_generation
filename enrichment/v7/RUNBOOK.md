@@ -1,7 +1,7 @@
 # Enrichment runbook: tier 1 (v7) — read this first
 
-For the orchestrator, a Codex session running **tier 1** (per source segment, Luna max). Run every command from the
-repo root `/Volumes/aro/projects/prose_generation`.
+For the orchestrator, a Codex session running **tier 1** (per source segment, Luna max). Run commands from the
+root of the active checkout.
 
 **Status 2026-10-09.** Tier 1 is the only v7 stage still in use. Everything after it is v9: verse maps
 (`enrichment/v9/map.py`), the writer and the meal block (`enrichment/v9/PLAN.md`). **Do not run v7 stages 1b, 2 or
@@ -9,24 +9,29 @@ repo root `/Volumes/aro/projects/prose_generation`.
 
 **What changed on 2026-10-09 (user: no input or output dropped anywhere in the workflow):**
 - **Always build with `--quotes`.** The quotation packet adds works with no verse index that quote the verses' own
-  words (ulūm, grammar, wujūh, modern bayānī works such as Bint al-Shāṭiʾ's *al-Iʿjāz*, hadith matn). It is
-  digested in the same run; nothing else is needed.
-- **Whole segments only.** The quotation packet no longer cuts long segments to excerpts. Segments that an earlier
-  run digested only as an excerpt (37, all in `q103_1-20261008`) count as not done: the next build that covers them
-  digests them whole (their rows get ids `<loc>/fN`, the excerpt rows keep `<loc>/rN`).
+  words (ulūm, grammar, wujūh, modern bayānī works such as Bint al-Shāṭiʾ's *al-Iʿjāz*, hadith matn).
+  Indexed hadith segments are now Tier 1 inputs too. The packet uses unique Arabic windows and a cautious
+  explicit-citation plus full-verse fallback; `quote_limits` in the manifest records verses that cannot be
+  searched by a unique window. Other untied material may still need the later word stage.
+- **Whole segments only.** The quotation packet no longer cuts long segments to excerpts. The old
+  `q103_1-20261008` run documented 37 excerpts, but its saved chunk parts are absent in this checkout, so their
+  exact locators cannot be recovered. Its outputs stay unresolved for coverage until rebuilt from full current
+  text. New manifests record `excerpt_locs`; legacy manifests need a complete saved input snapshot to count as done.
 - **No edition rule.** A short edition is digested even when its `-FULL` edition covers the verse; the two mostly
   differ. Earlier runs skipped short editions, so builds over already-digested surahs now pick them up.
 - **Row tags** (`words`, `type`) stay in the brief; the v9 maps do not need them, but they are harmless.
 - **Chunk size** is unchanged (20,000 rendered characters; the forecast-split policy below still applies). Chunking
   never drops input: a segment larger than a chunk gets its own chunk, whole.
+- **Corpus provenance** from selected `seg.extra` fields follows the segment header. Agents use it for source
+  status and reference leads; only the body may supply a claim's anchor.
 
 ## Rules
 
 1. **Each stage needs the user's go.** Report the build's numbers first: agents, characters, estimate.
 2. **The orchestrator spawns the agents itself.** Scripts only build inputs and spawn files, check and report.
    - Do **not** use `run.sh` / `run_codex.py` for these runs. They are the scripted fallback, seven at a time.
-   - **Parallelism:** ask the user how many agents at a time before each stage (user, 2026-10-08: "next time ask me
-     for quota"; the earlier default was 60). Keep that cap filled as agents finish; do not wait for a wave.
+   - **Parallelism:** use the user's current cap (60 Luna max agents for the requested two batches). Keep that
+     cap filled as agents finish; do not wait for a wave.
 3. **Do not start a second session for an agent.** A completed agent releases its active slot. If it reports an
    error, send a repair request to that same agent when a slot is available. Report failures to the user.
    Missing work that cannot be repaired is rebuilt as a **new run** (see "When something fails").
@@ -76,8 +81,8 @@ python3 -B enrichment/v7/digest.py build t1_s002-003_20261009 --surahs 2 3 --mod
   page: its own ayah and every verse it cites). Name runs `t1_<scope>_<date>`.
 - The build takes about 25 seconds plus 0.35 seconds per verse for the quotation search; it prints every window it
   searched (`quotes S:A …` lines). Pass the build's `NOTE`, `WARNING` and `SKIPPED` lines to the user verbatim.
-- **What it covers:** every source segment tied to the verses (index range and range overlay), every short and
-  full edition, and the quotation packet.
+- **What it covers:** every eligible source segment tied to the verses (index range and range overlay), including
+  indexed hadith, every short and full edition, and the selected quotation packet.
 - **What it routes elsewhere** (each listed in `work/RUN/manifest.json`, never silently):
   - segments already digested in any earlier run (`--skip-done`), except excerpt-only ones;
   - meal and translations (the v9 meal step reads them), and the Quran text;
@@ -85,6 +90,13 @@ python3 -B enrichment/v7/digest.py build t1_s002-003_20261009 --surahs 2 3 --mod
   - lexica are not searched (the project dictionary is the only lexical source).
 - **Quotation windows too common to mean a quotation** (found in more than 40 segments) are printed as `NOTE … not
   used`; report them, they are a selection rule, not a cut.
+- **Quotation limits:** `manifest.json` records each ayah's unique-window counts and explicit-reference fallback.
+  If no unique window exists, the fallback requires both a source's explicit verse citation and its full normalized
+  Arabic verse in the body. It avoids noisy index-only references but cannot prove all untied material is covered.
+- **Already done:** `--skip-done` counts only finished, valid output lines with verified input provenance. New
+  manifests hash each source's body, heading and selected metadata. Legacy runs need complete saved chunk parts,
+  checked against the current body; if the parts are missing, the output is unresolved even with a valid anchor or
+  a `none` reason. Use `--skip-planned` with `--skip-done` for an active run.
 - **Spawn files:** `enrichment/v7/work/s103-1/spawn/luna-max_c*.md`. Keep up to 60 running at a time.
 - **Outputs:** `work/s103-1/out/luna-max/c*.jsonl`.
 - **Chunk size for new builds:** v7 now defaults to 20,000 rendered input characters per agent. A single
@@ -97,7 +109,8 @@ python3 -B enrichment/v7/digest.py build t1_s002-003_20261009 --surahs 2 3 --mod
   tokens. The forecast is not a hard cap: held-out historical error was 18.5k–23.6k tokens on average.
   The 120k figure remains the post-run reporting cap; the user's pre-run split threshold is 150k.
   `forecast.py` records the training runs, coefficients, held-out results and every chunk estimate in the
-  `forecast*.json` files. `digest.py build --split-plan` reproduces a selected split without changing locators.
+  `forecast*.json` files. `digest.py build --split-plan` reproduces a selected split, including quotation locators.
+  Older manifests lack input hashes; a changed rendered length emits a `NOTE` for review before launch.
 
 After all of them finish:
 
@@ -165,7 +178,7 @@ The rendered page is `work/s103-1/write/render/<tag>/103_1.enriched.tr.md`.
 
 | What happened | What to do |
 |---|---|
-| An agent did not finish (`report` WARNING), or wrote no file (`check`: no output file) | Report it to the user. Ask the same agent to repair its work if possible; do not create a second session with its name. If still missing, with the user's go build a new run with `--skip-done`: it picks up exactly the segments that have no output line anywhere. |
+| An agent did not finish (`report` WARNING), or wrote no file (`check`: no output file) | Report it to the user. Ask the same agent to repair its work if possible; do not create a second session with its name. If still missing, with the user's go build a new run with `--skip-done`: it picks up segments without a valid, finished output line against the current corpus. |
 | `check` lists anchor or field problems in a finished file | Report them and ask that same agent to repair them. |
 | Peak context over 120k (`report` WARNING) | Report it. The output is still valid if `check` passes. |
 | Two tier-2 files for one verse (`merge.load` error) | Two runs consolidated the same verse. Stop and ask the user which one stays. |
@@ -185,7 +198,7 @@ One run per scope, for example `s103-1` for the 103:1 page. Earlier runs:
 | `s12_17_19_20k_exact` | Same 430 ayat, 20k rendered-input alternative, **not run** (862 chunks) |
 | `s12_17_19_pred150k` | First selective split build, **not run** (443 chunks); planning intermediate |
 | `s12_17_19_sel150k` | Final selective forecast build, **not run** (445 chunks); built before 2026-10-09 (no quotation packet, edition rule applied): rebuild with `--surahs 12 17 18 19 … --quotes` instead |
-| `q103_1-20261008` | Quotation packet of the 103:1 page (69 chunks); 37 segments digested only as excerpts (redone whole by later builds) |
+| `q103_1-20261008` | Quotation packet of the 103:1 page (69 chunks); 37 excerpt-only segments documented, exact locators unavailable because its chunk snapshots are absent here; outputs require a new full-input run before reuse |
 
 `--skip-done` makes later runs skip whatever earlier runs digested.
 When building while an unrelated run is still rewriting output files, first verify that the two runs have no

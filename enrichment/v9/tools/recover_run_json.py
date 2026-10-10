@@ -2,13 +2,16 @@
 """Write run.json for agents whose codex_run.py runner was stopped while they ran (the agent itself finished: its
 stream.jsonl has turn.completed or turn.failed and no codex process writes to that run dir any more). Same fields as
 enrichment/v5/run_codex.py, plus "recovered": true. The session file is looked up in ~/.codex/sessions and in the
-archive /Volumes/aro/codex_sessions_archive. Agents still running or with no ending are listed and left alone.
+archive from CODEX_SESSIONS_ARCHIVE_DIR (default: this checkout's .scratch/codex_sessions_archive).
+Agents still running or with no ending are listed and left alone.
 
   recover_run_json.py RUNS_DIR [RUNS_DIR …]
 """
-import hashlib, json, re, subprocess, sys, time
+import hashlib, json, os, re, subprocess, sys, time
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
+SESSION_DIR = Path(os.environ.get('CODEX_SESSIONS_DIR', str(Path.home() / '.codex/sessions')))
+ARCHIVE_DIR = Path(os.environ.get('CODEX_SESSIONS_ARCHIVE_DIR', str(ROOT / '.scratch/codex_sessions_archive')))
 sys.path.insert(0, str(ROOT / 'enrichment/v5'))
 import account  # noqa: E402
 from common import CONTEXT_CAP, dump  # noqa: E402
@@ -43,7 +46,7 @@ for runs in map(Path, sys.argv[1:]):
                'actual_charge_usd': 0, 'recovered': True,
                'charge_note': 'Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates. '
                               'run.json written by recover_run_json.py: the runner was stopped while the agent ran.'}
-        f = next((p for base in (Path.home() / '.codex/sessions', Path('/Volumes/aro/codex_sessions_archive'))
+        f = next((p for base in (SESSION_DIR, ARCHIVE_DIR)
                   for p in base.glob(f'*/*/*/*{thread}.jsonl')), None) if thread else None
         if f:
             s = account.session(f, '')

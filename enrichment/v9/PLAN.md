@@ -24,8 +24,9 @@ and the v8 sift. Keeps v7 tier 1 (`digest.py`) and the tier-2 work as inputs. De
   classical witnesses (2026-10-08).
 - **Sūra-wide questions** (place, count and order of revelation, reports on reciting the sūra): both on the ayah
   page's closing group and on the surah page (2026-10-08).
-- **Sources outside tier 1 must be accounted for** on every page (meal, hadith, poetry, wujūh, translations, works
-  without a verse index, surah-level segments): C1 lists each with its route; none is dropped silently (2026-10-08).
+- **Sources outside tier 1 must be accounted for** on every page. C1 lists indexed meal, translation, poetry,
+  wujūh and surah-level segments with their routes. For untied works, it lists the selected quotation packet and
+  its search limits; the later word stage remains necessary for material that the packet cannot discover.
 - Maps for the whole 103:1 page approved as the test run (`work/map-103_1-20261008`, 36 verses, ≈ $11–14).
   **Done 2026-10-08:** 36/36 completed and checked, $11.34 Sol (API-equivalent, counted), 809 questions, 1,938
   positions; with 12:49 and 6:52 from `maptest-20261008` every verse of the 103:1 page has a map. On 103:1 itself
@@ -69,9 +70,12 @@ page.
 | T0 | Test standard | test page | user + orchestrator, once | expected commitments and positions | seeded by `demo-103_1.md` |
 
 ### C1 Material (script)
-Per verse: verse-tied segments (full-edition rule), range-tied segments, and the quotation packet (works without a
-verse index that quote the verse's words: modern bayānī works, ulūm, wujūh, poetry, hadith matn). Surah-level
-segments are listed for the surah page, never dropped without a line. The manifest marks each required voice as
+Per verse: verse-tied segments (including indexed hadith), range-tied segments, and the selected quotation packet
+(works without a verse index that quote the verse's words: modern bayānī works, ulūm, wujūh, poetry, hadith matn).
+The quotation packet also accepts an explicit verse citation when the full Arabic verse is present in the body
+and has at least 3 normalized words and 12 normalized characters; its manifest records ayat without a unique
+search window or eligible fallback. Surah-level segments are listed for the surah page,
+never dropped without a line. The manifest marks each required voice as
 present or "no text on this verse".
 
 ### C2 Notes (tier 1, unchanged)
