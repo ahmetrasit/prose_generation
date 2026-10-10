@@ -181,14 +181,48 @@ def cmd_recall(a):
             print(msg, flush=True)
 
 
+# English (KJV) -> Hebrew (WLC) verse numbers: versification/eng.json, the Copenhagen Alliance standard mapping
+# (github.com/Copenhagen-Alliance/versification-specification, versification-mappings/standard-mappings/eng.json,
+# fetched 2026-10-09). Paratext book codes in the OT order of OT above.
+PT_OT = ('GEN EXO LEV NUM DEU JOS JDG RUT 1SA 2SA 1KI 2KI 1CH 2CH EZR NEH EST JOB PSA PRO ECC SNG ISA JER LAM EZK DAN '
+         'HOS JOL AMO OBA JON MIC NAM HAB ZEP HAG ZEC MAL').split()
+ENG_TO_MT = None
+
+
+def mt_ref(ref: str) -> str:
+    """The WLC reference of a KJV-numbered Hebrew Bible verse (the same reference where the numbering agrees)."""
+    global ENG_TO_MT
+    if ENG_TO_MT is None:
+        osis_of = dict(zip(PT_OT, [b for b in 'Gen Exod Lev Num Deut Josh Judg Ruth 1Sam 2Sam 1Kgs 2Kgs 1Chr 2Chr Ezra '
+                                   'Neh Esth Job Ps Prov Eccl Song Isa Jer Lam Ezek Dan Hos Joel Amos Obad Jonah Mic Nah '
+                                   'Hab Zeph Hag Zech Mal'.split()]))
+        rng = re.compile(r'^([1-4A-Z]{3}) (\d+):(\d+)(?:-(\d+))?$')
+        ENG_TO_MT = {}
+        for k, v in json.loads((HERE / 'versification' / 'eng.json').read_text())['mappedVerses'].items():
+            a, b = rng.match(k), rng.match(v)
+            if not (a and b and a[1] in osis_of and b[1] in osis_of):
+                continue
+            ea, eb = int(a[3]), int(a[4] or a[3])
+            ma, mb = int(b[3]), int(b[4] or b[3])
+            if eb - ea != mb - ma:
+                raise ValueError(f'versification/eng.json: {k} = {v} has ranges of different length')
+            for i in range(eb - ea + 1):
+                if ea + i > 0:
+                    ENG_TO_MT[f'{osis_of[a[1]]}.{a[2]}.{ea + i}'] = f'{osis_of[b[1]]}.{b[2]}.{ma + i}'
+    return ENG_TO_MT.get(ref, ref)
+
+
 def texts(db, ref: str) -> dict:
+    """KJV text at the KJV reference; WLC at the Hebrew-numbered reference (key 'WLC_ref' when it differs);
+    SBLGNT at the same reference."""
     book = OSIS.match(ref)[1]
-    orig = 'WLC' if book in OT else 'SBLGNT'
     out = {}
-    for src in ('KJV', orig):
-        r = db.execute('select text from seg where seg = ?', (f'{src}:{ref}',)).fetchone()
+    for src, r2 in (('KJV', ref), ('WLC', mt_ref(ref)) if book in OT else ('SBLGNT', ref)):
+        r = db.execute('select text from seg where seg = ?', (f'{src}:{r2}',)).fetchone()
         if r:
             out[src] = r[0]
+            if r2 != ref:
+                out[f'{src}_ref'] = r2
     return out
 
 
@@ -313,8 +347,8 @@ OMISSIONS_TURN = ('Go through the paragraphs once more for verses you have not l
                   'JSON Lines form, drop rows included. Zero rows is a valid answer. Work from memory; do not read files, '
                   'run commands or search.')
 CHECK_TURN = ('Below is the text of every verse you cited: KJV, and the Hebrew (WLC) or Greek (SBLGNT) text at the same '
-              'reference when available. The Hebrew numbering sometimes differs from the KJV\'s; trust the KJV text for '
-              'what the verse says. Check each row against these texts: does the verse say what your note says, and '
+              'reference when available. The Hebrew text is given at its own verse number where that differs from the KJV\'s. '
+              ' Check each row against these texts: does the verse say what your note says, and '
               'does it still pass the test? Then reply with your complete final list in the same JSON Lines form, every '
               'verse of your earlier replies exactly once: keep a row, correct its note or paragraph, or turn it into a drop '
               'row with the reason. If a reference was wrong and you are sure of the right one, put the right one in '
@@ -371,7 +405,8 @@ def one_sol(s: int, tag: str, ayah: str, effort: str, q: dict) -> str:
     shown = [dict(ref=x, text=texts(db, x)) for x in cited]
     block = '\n\n'.join(f"### {m['ref']}\n" + '\n'.join(
         [f"KJV: {m['text'].get('KJV', '(not in our corpus under this reference; drop it unless you are sure what it says)')}"]
-        + [f"{src}: {m['text'][src]}" for src in ('WLC', 'SBLGNT') if src in m['text']]) for m in shown)
+        + [f"{src}{' (Hebrew numbering ' + m['text'][src + '_ref'] + ')' if src + '_ref' in m['text'] else ''}: {m['text'][src]}"
+           for src in ('WLC', 'SBLGNT') if src in m['text']]) for m in shown)
     t3 = CR.turn(d, 3, CHECK_TURN + block, MODELS['sol'], effort, thread=t1['thread_id'])
     if not t3['completed'] or t3.get('error'):
         return f'ERROR {ayah} sol: check turn did not complete ({t3.get("error") or t3["returncode"]}); see {d}'
@@ -456,7 +491,26 @@ def cmd_check(a):
         print(f'{ad.name}: {check_one(ad)}')
 
 
+MARK = {'same': '≈', 'similar': '≈', 'opposite': '≠', 'background': '◦', 'word': 'ʾ'}
+
+
+def verse_lines(db, refs: list[str], quote: str) -> list[str]:
+    """The whole text of every verse of a row: the Hebrew (WLC) or Greek (SBLGNT) and the KJV, from the corpus.
+    A verse the corpus lacks is said so on the page, never left out silently."""
+    out = []
+    for ref in refs:
+        t = texts(db, ref)
+        if not t:
+            out.append(f'{quote}*{ref}: metin derlemde yok*')
+            continue
+        for src in ('WLC', 'SBLGNT', 'KJV'):
+            if src in t:
+                out.append(f"{quote}*{ref} {src}{' ' + t[src + '_ref'].split('.', 1)[1].replace('.', ':') if src + '_ref' in t else ''}:* {t[src]}")
+    return out
+
+
 def cmd_preview(a):
+    db = sqlite3.connect(INDEX)
     for ad in sorted(p for p in run_dir(a.surah, a.tag).iterdir() if (p / 'sol' / 'placed.json').exists()):
         rows = json.loads((ad / 'sol' / 'placed.json').read_text())['rows']
         prose = (HERE / 'work' / f's{a.surah:03d}' / 'pack' / 'numbered' / f'{ad.name}.md').read_text()
@@ -470,14 +524,16 @@ def cmd_preview(a):
             out.append(block)
             m = re.match(r'\[¶(\d+)\]', block.strip())
             for r in by_p.get(int(m[1]) if m else -1, []):
-                mark = {'same': '≈', 'similar': '≈', 'opposite': '≠', 'background': '◦', 'word': 'ʾ'}.get(r.get('way') or r.get('relation'), '·')
-                out.append(f"> **{mark} {', '.join(r['refs'])}** — {r['note_tr']}")
+                mark = MARK.get(r.get('way') or r.get('relation'), '·')
+                out.append('\n>\n'.join([f"> **{mark} {', '.join(r['refs'])}** — {r['note_tr']}"]
+                                         + verse_lines(db, r['refs'], '> ')))
         end = [r for r in rows if r.get('decision') == 'end']
         if end:
             out.append('## Bu ayete benzeyen diğer Kitab-ı Mukaddes ayetleri')
             for r in end:
-                mark = {'same': '≈', 'similar': '≈', 'opposite': '≠', 'background': '◦', 'word': 'ʾ'}.get(r.get('way') or r.get('relation'), '·')
-                out.append(f"- **{mark} {', '.join(r['refs'])}** — {r['note_tr']}")
+                mark = MARK.get(r.get('way') or r.get('relation'), '·')
+                out.append('\n'.join([f"- **{mark} {', '.join(r['refs'])}** — {r['note_tr']}"]
+                                      + verse_lines(db, r['refs'], '  - ')))
         drops = [r for r in rows if r.get('decision') == 'drop']
         if drops:
             out.append('<details><summary>Elenenler (' + str(sum(len(r['refs']) for r in drops)) + ')</summary>\n\n'
