@@ -34,7 +34,8 @@ Work from memory. Do not read files, run commands or search. A later turn will s
 cite, so that you can check it.
 
 Reply with JSON Lines only (one object per line, no Markdown). References are single verses in OSIS form with
-English (KJV) numbering, like Book.Chapter.Verse:
+English (KJV) numbering, like Book.Chapter.Verse, with OSIS book codes (Gen, Exod, Ps, Prov, Eccl, Song, Isa,
+Matt, John, 1Cor, Rev …; not Psa or Ecc):
 
 {"refs": ["Book.C.V", ...], "decision": "place", "paragraphs": [n], "way": "same|opposite|background|word", "note_tr": "..."}
 {"refs": ["Book.C.V"], "decision": "end", "way": "...", "note_tr": "..."}

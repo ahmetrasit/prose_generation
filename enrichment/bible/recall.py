@@ -49,12 +49,16 @@ BOOK_CODES = None
 
 
 def osis(ref: str) -> str | None:
-    """The OSIS form of a reference written with an OSIS code or a full English book name (Hebrews.10.24,
-    1 Peter 1:22, Song of Solomon 2:1), or None. Names resolve only through the edition's book-name table."""
+    """The OSIS form of a reference written with an OSIS code, a Paratext code (Psa.8.4, ECC 1:2) or a full English
+    book name (Hebrews.10.24, 1 Peter 1:22, Song of Solomon 2:1), or None."""
     global BOOK_CODES
     if BOOK_CODES is None:
         from enrichment.bible.discovery import BOOK_CODES as B
-        BOOK_CODES = dict(B, songofsolomon='Song', songofsongs='Song', psalm='Ps', canticles='Song')
+        from enrichment.bible.fetch.bible_text import USFM
+        BOOK_CODES = {**{k.casefold(): v for k, v in USFM.items()},       # Paratext codes: PSA, ECC, JHN …
+                      **{v.casefold(): v for v in USFM.values()},          # OSIS codes in any case
+                      **B, 'songofsolomon': 'Song', 'songofsongs': 'Song', 'psalm': 'Ps', 'canticles': 'Song',
+                      'pss': 'Ps', 'qoh': 'Eccl', 'mat': 'Matt', 'mk': 'Mark', 'lk': 'Luke', 'jn': 'John', 'rm': 'Rom'}
     m = LOOSE.match(ref.strip())
     if not m:
         return None
@@ -421,6 +425,62 @@ def one_sol(s: int, tag: str, ayah: str, effort: str, q: dict) -> str:
     return f"{ayah} sol: {len(r1) - len(r2)}+{len(r2)} -> {len(rows)} rows, ${cost['usd_equivalent']:.3f}; " + check_one(ad)
 
 
+RECHECK_TURN = ('Some verses in your final list were not shown to you with their text (their references were not '
+                'resolved). Below is the text of each: KJV, and the Hebrew (WLC) or Greek (SBLGNT) text, the Hebrew at '
+                'its own verse number where that differs from the KJV\'s. Check those rows as before: does the verse say '
+                'what your note says, and does it still pass the test? Then reply with your complete final list again in '
+                'the same JSON Lines form, every verse of your last reply exactly once, with references in OSIS form '
+                '(Book.Chapter.Verse, e.g. Ps, Eccl, Song, Matt). Do not add new verses. Do not read files, run commands '
+                'or search.\n\n=== VERSES ===\n\n')
+
+
+def text_block(shown: list[dict]) -> str:
+    return '\n\n'.join(f"### {m['ref']}\n" + '\n'.join(
+        [f"KJV: {m['text'].get('KJV', '(not in our corpus under this reference; drop it unless you are sure what it says)')}"]
+        + [f"{src}{' (Hebrew numbering ' + m['text'][src + '_ref'] + ')' if src + '_ref' in m['text'] else ''}: {m['text'][src]}"
+           for src in ('WLC', 'SBLGNT') if src in m['text']]) for m in shown)
+
+
+def one_recheck(s: int, tag: str, ayah: str, effort: str) -> str:
+    """Same-session repair: show Sol the text of every final verse it was not shown, take the final list again."""
+    ad = run_dir(s, tag) / key(ayah)
+    d = ad / 'sol'
+    c = json.loads((ad / 'cited.json').read_text())
+    placed = json.loads((d / 'placed.json').read_text())
+    db = sqlite3.connect(INDEX)
+    seen = {osis(m['ref']) or m['ref'] for m in c['shown'] if 'KJV' in texts(db, osis(m['ref']) or m['ref'])
+            and m['text'].get('KJV')}
+    todo = list(dict.fromkeys(osis(x) or x for r in placed['rows'] if r.get('decision') != 'drop'
+                              for x in r.get('refs') or [] if (osis(x) or x) not in seen))
+    if not todo:
+        return f'{ayah}: nothing to recheck'
+    shown = [dict(ref=x, text=texts(db, x)) for x in todo if OSIS.match(x)]
+    n = max(int(f.name[4:].split('.')[0]) for f in d.glob('turn*.run.json')) + 1
+    thread = json.loads((d / 'turn1.run.json').read_text())['thread_id']
+    t = CR.turn(d, n, RECHECK_TURN + text_block(shown), MODELS['sol'], effort, thread=thread)
+    if not t['completed'] or t.get('error'):
+        return f'ERROR {ayah} sol: recheck turn {n} did not complete ({t.get("error") or t["returncode"]}); see {d}'
+    rows, bad = jsonl((d / f'turn{n}.last.txt').read_text())
+    (d / f'placed.turn{n - 1}.json').write_text((d / 'placed.json').read_text())
+    for m in c['shown']:
+        m['ref'] = osis(m['ref']) or m['ref']
+        m['text'] = texts(db, m['ref'])
+    have = {m['ref'] for m in c['shown']}
+    c['shown'] += [m for m in shown if m['ref'] not in have]
+    c['unresolved'] = [m['ref'] for m in c['shown'] if 'KJV' not in m['text']]
+    c['rechecked'] = c.get('rechecked', []) + [dict(turn=n, refs=todo)]
+    (ad / 'cited.json').write_text(json.dumps(c, ensure_ascii=False, indent=1) + '\n')
+    placed.update(rows=rows, malformed=placed.get('malformed', []) + bad, cost=CR.cost(CR.rollout(thread)))
+    (d / 'placed.json').write_text(json.dumps(placed, ensure_ascii=False, indent=1) + '\n')
+    return f"{ayah} recheck turn {n}: {len(todo)} verse(s) shown, {len(rows)} rows, total ${placed['cost']['usd_equivalent']:.3f}; " + check_one(ad)
+
+
+def cmd_recheck(a):
+    for x in a.ayat.split(','):
+        if x:
+            print(one_recheck(int(x.split(':')[0]), a.tag, x, a.effort), flush=True)
+
+
 def live_sol(tag: str, exclude: set[str]) -> int:
     """codex processes of this tag's Sol calls (their -o path names the call directory), other than `exclude` keys."""
     import subprocess
@@ -473,16 +533,16 @@ def check_one(ad: Path) -> str:
     seen, problems = {}, []
     if (ad / 'cited.json').exists():
         c = json.loads((ad / 'cited.json').read_text())
-        listed = {m['ref'] for m in c['shown']}
-        was = {x for r in placed['rows'] for x in r.get('was') or []}
-        for ref in c['unresolved']:
-            problems.append(f'{ref}: KJV text not in the corpus (Sol saw no text)')
+        listed = {osis(m['ref']) or m['ref'] for m in c['shown'] if m['text'].get('KJV')}
+        was = {osis(x) or x for r in placed['rows'] for x in r.get('was') or []}
+        for r in placed['rows']:
+            r['refs'] = [osis(x) or x for x in r.get('refs') or []]
         for r in placed['rows']:
             for ref in r.get('refs') or []:
                 if ref not in listed and r.get('decision') != 'drop':
                     problems.append(f'{ref}: final verse whose text Sol was not shown')
                     r['added'] = True
-        listed -= was
+        listed -= was - {x for r in placed['rows'] for x in r.get('refs') or []}   # a `was` naming a kept ref (only its form changed) removes nothing
     else:
         listed = {m['ref'] for m in json.loads((ad / 'merged.json').read_text())['items']}
     for i, r in enumerate(placed['rows']):
@@ -599,7 +659,7 @@ def cmd_report(a):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('cmd', choices=('sol', 'recall', 'merge', 'place', 'check', 'preview', 'report'))
+    ap.add_argument('cmd', choices=('sol', 'recheck', 'recall', 'merge', 'place', 'check', 'preview', 'report'))
     ap.add_argument('--surah', type=int, default=0, help='required except for sol')
     ap.add_argument('--cap', type=int, help='sol: at most this many live Sol calls of the tag (top up as each ends)')
     ap.add_argument('--tag', required=True)
@@ -611,9 +671,9 @@ def main():
     ap.add_argument('--brief', default='ayah', choices=('ayah', 'par'), help='recall: par = per-paragraph understanding brief')
     ap.add_argument('--roots', help='merge: also take the verified verses of this roots.py tag')
     a = ap.parse_args()
-    if a.cmd != 'sol' and not a.surah:
+    if a.cmd not in ('sol', 'recheck') and not a.surah:
         raise SystemExit(f'{a.cmd} needs --surah')
-    if a.cmd in ('recall', 'sol') and not a.ayat:
+    if a.cmd in ('recall', 'sol', 'recheck') and not a.ayat:
         raise SystemExit(f'{a.cmd} needs --ayat')
     globals()[f'cmd_{a.cmd}'](a)
 
