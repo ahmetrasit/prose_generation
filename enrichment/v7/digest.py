@@ -53,9 +53,10 @@ GUIDE = {
     'ulum': 'A work on the Qurʾānic sciences. Record what it says about the verse: rhetoric, inimitability, '
             'abrogation, occasions of revelation, structure, with the authorities cited.',
     'reference': 'A reference work. Record what the entry says about the verse and its terms, with the scholars cited.',
-    'hadith': 'A hadith collection, reached because the passage quotes the verse. Record the report, who it goes back '
-              'to, its gist and how it bears on the verse, and any grading the collection states. Mark it none when '
-              'the verse words only coincide.',
+    'hadith': 'A hadith collection, reached because the passage quotes the verse (a chapter heading that opens with '
+              'the verse, or a report). Record each report, who it goes back to, its gist and how it bears on the '
+              'verse, and any grading the collection states; for a chapter heading, also the theme the compiler files '
+              'the verse under. Mark it none when the verse words only coincide.',
     'poetry': 'A poetry collection or its commentary, reached because the passage shares the verse\'s words. Record '
               'the poet, the line\'s point, and the commentator\'s gloss when it bears on the verse\'s words; mark it '
               'none when the words only coincide.',
@@ -271,12 +272,16 @@ _ARABIC_MAP = {'أ': 'ا', 'إ': 'ا', 'آ': 'ا', 'ٱ': 'ا', 'ٰ': 'ا', 'ى':
 
 def normalize_map(text):
     """Arabic letters only, vowel and Quranic marks dropped, alif/yā/hamza forms unified, the dagger alif written out
-    (so Uthmani ٱلصَّٰلِحَٰتِ matches الصالحات). Returns the words joined by single spaces and, per character, its
-    index in the original text."""
-    out, idx, space = [], [], True
+    (so Uthmani ٱلصَّٰلِحَٰتِ matches الصالحات) except after alif maqṣūra, where it only marks the ى already written
+    (so عَلَىٰ matches على; 2026-10-10). Returns the words joined by single spaces and, per character, its index in the
+    original text."""
+    out, idx, space, prev = [], [], True, ''
     for i, ch in enumerate(text or ''):
         if ch in _ARABIC_DROP or ch in ('ـ', 'ء'):
             continue
+        if ch == 'ٰ' and prev == 'ى':
+            continue
+        prev = ch
         ch = _ARABIC_MAP.get(ch, ch)
         if '\u0621' <= ch <= '\u064A':
             out.append(ch)
@@ -297,7 +302,9 @@ QUOTE_MAX_HITS = 40          # a 1-2 word window in more segments than this is t
 def quote_packet(ayat):
     """Segments with no verse key that quote an ayah's own words: windows of 1-3 words that occur in no other ayah
     (1-word windows of at least 4 letters, and only for the kinds in QUOTE_KINDS_ONE; hadith, sīra and poetry need 3
-    words). Lexicon, meal and translations are not searched. Every window, its hits and every too-common window are
+    words). Segments of the QUOTE_KINDS_THREE kinds that do have a verse key are searched too, for the ayat outside
+    that key (a Riyāḍ chapter quotes several verses but is indexed to one; 2026-10-10); for the ayat inside it gather()
+    has them. Lexicon, meal and translations are not searched. Every window, its hits and every too-common window are
     printed."""
     with connect() as con:
         quran = {(s, a): normalize_map(t)[0].split() for s, a, t in
@@ -308,11 +315,22 @@ def quote_packet(ayat):
                 for i in range(len(words) - n + 1):
                     grams[' '.join(words[i:i + n])].add(v)
         kinds = QUOTE_KINDS_ONE + QUOTE_KINDS_THREE
-        segs = con.execute(f"SELECT seg.seg, seg.src, src.kind, seg.head, seg.text FROM seg JOIN src ON src.id=seg.src "
-                           f"WHERE seg.s IS NULL AND src.access='yerel' AND src.kind IN ({','.join('?' * len(kinds))})",
-                           kinds).fetchall()
+        segs = con.execute(f"SELECT seg.id, seg.seg, seg.src, src.kind, seg.head, seg.text, seg.s, seg.a, "
+                           f"coalesce(seg.a_end, seg.a) FROM seg JOIN src ON src.id=seg.src WHERE src.access='yerel' "
+                           f"AND (seg.s IS NULL AND src.kind IN ({','.join('?' * len(kinds))}) OR seg.s IS NOT NULL "
+                           f"AND seg.a IS NOT NULL AND src.kind IN ({','.join('?' * len(QUOTE_KINDS_THREE))}))",
+                           kinds + QUOTE_KINDS_THREE).fetchall()
         src_kind = {i: k for i, k in con.execute('SELECT id, kind FROM src')}
-    norm = [(loc, sr, kind, head, text, ' ' + normalize_map(text)[0] + ' ') for loc, sr, kind, head, text in segs]
+    keyed = {}                   # loc -> the ayat gather() reaches it under (its index range and range overlay)
+    extra = defaultdict(set)
+    if OVERLAY.exists():
+        for r in rows(OVERLAY):
+            extra[r['seg_id']].update((r['s'], x) for x in range(r['indexed_end'] + 1, r['a_end'] + 1))
+    for sid, loc, _, _, _, _, ss, aa, ae in segs:
+        if ss is not None:
+            keyed[loc] = {(ss, x) for x in range(aa, ae + 1)} | extra[sid]
+    norm = [(loc, sr, kind, head, text, ' ' + normalize_map(text)[0] + ' ')
+            for _, loc, sr, kind, head, text, _, _, _ in segs]
     out = {}
     for s, a in ayat:
         words = quran.get((s, a), [])
@@ -329,14 +347,19 @@ def quote_packet(ayat):
         print(f"quotes {s}:{a}: {len(windows)} unique window(s): " + ' | '.join(w for _, w in windows))
         used = []
         for n, w in windows:
-            if any(m < n and v in w for m, v in used):
+            # A shorter window inside this one already found every QUOTE_KINDS_ONE segment this one would; hadith,
+            # sīra and poetry are matched only by three-word windows, so those are still searched for them.
+            only_three = any(m < n and v in w for m, v in used)
+            if only_three and n < 3:
                 continue
-            hits = [x for x in norm if f' {w} ' in x[5] and (n >= 3 or x[2] in QUOTE_KINDS_ONE)]
+            hits = [x for x in norm if f' {w} ' in x[5] and (n >= 3 or x[2] in QUOTE_KINDS_ONE)
+                    and not (only_three and x[2] not in QUOTE_KINDS_THREE) and (s, a) not in keyed.get(x[0], ())]
             if n < 3 and len(hits) > QUOTE_MAX_HITS:
                 print(f"NOTE quotes {s}:{a}: window «{w}» in {len(hits)} segments, too common alone; the longer windows that contain it are used instead")
                 continue
             used.append((n, w))
-            print(f"quotes {s}:{a}: «{w}» in {len(hits)} segment(s): " + ', '.join(h[0] for h in hits[:12])
+            print(f"quotes {s}:{a}: «{w}» in {len(hits)} segment(s){' (hadith, sīra, poetry only)' if only_three else ''}: "
+                  + ', '.join(h[0] for h in hits[:12])
                   + (' …' if len(hits) > 12 else ''))
             for loc, sr, kind, head, text, _ in hits:
                 if loc in out:
@@ -344,8 +367,11 @@ def quote_packet(ayat):
                         out[loc]['scope'].append(f'{s}:{a}')
                     continue
                 body, note = text, ''  # the whole segment, never an excerpt (user, 2026-10-09: no cuts anywhere)
+                key = sorted(keyed.get(loc, ()))
                 out[loc] = {'scope': [f'{s}:{a}'], 'loc': loc, 'src': sr, 'kind': src_kind.get(sr, kind),
-                            'verses': f'{s}:{a} (quoted)', 'head': f'{head or ""}{note}', 'text': body}
+                            'verses': f'{s}:{a} (quoted' + (f'; indexed {key[0][0]}:{key[0][1]}'
+                                                             + (f'-{key[-1][1]}' if len(key) > 1 else '') if key else '') + ')',
+                            'head': f'{head or ""}{note}', 'text': body}
     print(f'quotation packet: {len(out)} segment(s), {sum(len(g["text"]) for g in out.values()):,} characters')
     return list(out.values())
 
@@ -500,16 +526,22 @@ def build(a):
                 kept.append(g)
         segments = kept
     if getattr(a, 'quotes', False):
-        have = {g['loc'] for g in segments}
+        have = {g['loc']: g for g in segments}
         done_q = done if a.skip_done else {}
         packet = quote_packet(ayat)
         for g in packet:
             if g['loc'] in done_q:
                 skipped.append({'ayah': ','.join(g['scope']), 'loc': g['loc'], 'src': g['src'],
                                 'reason': f"already digested in {done_q[g['loc']]}"})
-            elif g['loc'] not in have:
+            elif g['loc'] in have:        # an indexed segment gathered for one ayah and quoting another of the run
+                h = have[g['loc']]
+                more = [v for v in g['scope'] if v not in h['scope']]
+                if more:
+                    h['scope'] += more
+                    h['verses'] += f" (also quoted: {', '.join(more)})"
+            else:
                 segments.append(g)
-                have.add(g['loc'])
+                have[g['loc']] = g
     with connect() as con:
         verse_text = {f'{s}:{x}': con.execute("SELECT text FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran' "
                                               'AND s=? AND a=?', (s, x)).fetchone()[0] for s, x in ayat}

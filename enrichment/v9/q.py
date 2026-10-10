@@ -36,8 +36,9 @@ def key(ayah):
 
 
 def plain(text):
-    """Arabic without vowels and with letter variants folded (as in digest), for matching."""
-    return (text or '').translate(_DROP).translate(_MAP)
+    """Arabic without vowels and with letter variants folded (as in digest), for matching; the dagger alif after ى is
+    dropped, as in digest.normalize_map (عَلَىٰ → على)."""
+    return (text or '').translate(_DROP).replace('ىٰ', 'ى').translate(_MAP)
 
 
 def located(ayah):
