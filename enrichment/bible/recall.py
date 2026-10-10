@@ -421,14 +421,46 @@ def one_sol(s: int, tag: str, ayah: str, effort: str, q: dict) -> str:
     return f"{ayah} sol: {len(r1) - len(r2)}+{len(r2)} -> {len(rows)} rows, ${cost['usd_equivalent']:.3f}; " + check_one(ad)
 
 
+def live_sol(tag: str, exclude: set[str]) -> int:
+    """codex processes of this tag's Sol calls (their -o path names the call directory), other than `exclude` keys."""
+    import subprocess
+    ps = subprocess.run(['ps', '-ax', '-o', 'command='], capture_output=True, text=True, check=True).stdout
+    mark = f'/recall/{tag}/'
+    return len({l.split(mark)[1].split('/')[0] for l in ps.splitlines() if 'codex' in l and mark in l} - exclude)
+
+
 def cmd_sol(a):
+    """Ayat may come from several surahs (--ayat 96:1,87:1,...; --surah is then ignored). With --cap N, an ayah starts
+    only while fewer than N Sol calls of this tag are live, counting calls started by other processes."""
+    import threading
+    import time
     q = quran()
-    ayat = a.ayat.split(',')
+    ayat = [x for x in a.ayat.split(',') if x]
     for x in ayat:
-        if x not in q or int(x.split(':')[0]) != a.surah:
-            raise SystemExit(f'{x}: not an ayah of surah {a.surah}')
-    with cf.ThreadPoolExecutor(a.parallel) as ex:
-        for msg in ex.map(lambda x: one_sol(a.surah, a.tag, x, a.effort, q), ayat):
+        if x not in q:
+            raise SystemExit(f'{x}: not an ayah')
+    if a.cap:
+        own, lock, mine = set(), threading.Lock(), {key(x) for x in ayat}
+
+        def gated(x):
+            while True:
+                with lock:
+                    if len(own) + live_sol(a.tag, mine) < a.cap:
+                        own.add(x)
+                        break
+                time.sleep(20)
+            try:
+                return one_sol(int(x.split(':')[0]), a.tag, x, a.effort, q)
+            except Exception as e:  # one ayah's failure is reported, never stops the others
+                return f'ERROR {x} sol: {type(e).__name__}: {e}'
+            finally:
+                with lock:
+                    own.discard(x)
+        work, n = gated, a.cap
+    else:
+        work, n = (lambda x: one_sol(int(x.split(':')[0]), a.tag, x, a.effort, q)), a.parallel
+    with cf.ThreadPoolExecutor(n) as ex:
+        for msg in ex.map(work, ayat):
             print(msg, flush=True)
 
 
@@ -568,7 +600,8 @@ def cmd_report(a):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('cmd', choices=('sol', 'recall', 'merge', 'place', 'check', 'preview', 'report'))
-    ap.add_argument('--surah', type=int, required=True)
+    ap.add_argument('--surah', type=int, default=0, help='required except for sol')
+    ap.add_argument('--cap', type=int, help='sol: at most this many live Sol calls of the tag (top up as each ends)')
     ap.add_argument('--tag', required=True)
     ap.add_argument('--ayat')
     ap.add_argument('--models', default='luna,terra')
@@ -578,6 +611,8 @@ def main():
     ap.add_argument('--brief', default='ayah', choices=('ayah', 'par'), help='recall: par = per-paragraph understanding brief')
     ap.add_argument('--roots', help='merge: also take the verified verses of this roots.py tag')
     a = ap.parse_args()
+    if a.cmd != 'sol' and not a.surah:
+        raise SystemExit(f'{a.cmd} needs --surah')
     if a.cmd in ('recall', 'sol') and not a.ayat:
         raise SystemExit(f'{a.cmd} needs --ayat')
     globals()[f'cmd_{a.cmd}'](a)
