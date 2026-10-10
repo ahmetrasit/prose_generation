@@ -10,6 +10,12 @@
    in the closing section, or drops it with a reason. Every listed ref must appear exactly once.
 4. preview: Markdown of the prose with the notes after their paragraphs and the closing section.
 
+Production route (user, 2026-10-09): `sol` alone. One Sol session per ayah reads the frozen numbered prose (plus the
+ayah's roots table from roots.py, no model call) and places verses from memory under the four ways (prompts/
+sol_page.md); turn 2 in the same session shows the KJV/WLC/SBLGNT text of every cited verse and takes the final
+list. The recall/merge/place steps above are the earlier test route.
+
+  recall.py sol     --surah S --tag T --ayat S:A,S:A [--parallel 3] [--effort high]
   recall.py recall  --surah S --tag T --ayat S:A,S:A [--models luna,terra] [--parallel 6] [--prose]
   recall.py merge   --surah S --tag T
   recall.py place   --surah S --tag T [--parallel 3] [--effort high]
@@ -299,12 +305,104 @@ def one_place(s: int, tag: str, ad: Path, effort: str) -> str:
     return f"{ad.name} sol: {len(rows)} rows, {len(bad)} malformed, ${cost['usd_equivalent']:.3f}; " + check_one(ad)
 
 
+CHECK_TURN = ('Below is the text of every verse you cited: KJV, and the Hebrew (WLC) or Greek (SBLGNT) text at the same '
+              'reference when available. The Hebrew numbering sometimes differs from the KJV\'s; trust the KJV text for '
+              'what the verse says. Check each row against these texts: does the verse say what your note says, and '
+              'does it still pass the test? Then reply with your complete final list in the same JSON Lines form, every '
+              'verse of your first reply exactly once: keep a row, correct its note or paragraph, or turn it into a drop '
+              'row with the reason. If a reference was wrong and you are sure of the right one, put the right one in '
+              '`refs` and the wrong one in `"was": [...]`. Do not add new verses. Do not read files, run commands or '
+              'search.\n\n=== VERSES ===\n\n')
+
+
+def jsonl(text: str) -> tuple[list[dict], list[str]]:
+    """Rows of a JSON Lines reply with refs in OSIS form; every unreadable line or ref is reported."""
+    rows, bad = [], []
+    for line in text.splitlines():
+        if not line.strip():
+            continue
+        try:
+            r = json.loads(line)
+        except ValueError:
+            bad.append(line[:160])
+            continue
+        for k in ('refs', 'was'):
+            if k in r:
+                fixed = [osis(x) or x for x in r[k]]
+                bad += [f'not an OSIS ref: {x}' for x in fixed if not OSIS.match(x)]
+                r[k] = fixed
+        rows.append(r)
+    return rows, bad
+
+
+def one_sol(s: int, tag: str, ayah: str, effort: str, q: dict) -> str:
+    """The single Sol call of an ayah: turn 1 places from memory, turn 2 checks against the verse texts."""
+    from enrichment.bible import roots as RT
+    ad = run_dir(s, tag) / key(ayah)
+    d = ad / 'sol'
+    if (d / 'placed.json').exists():
+        return f'{ayah} sol: done already'
+    d.mkdir(parents=True, exist_ok=True)
+    prose = (HERE / 'work' / f's{s:03d}' / 'pack' / 'numbered' / f'{key(ayah)}.md').read_text().strip()
+    prompt = ((HERE / 'prompts' / 'sol_page.md').read_text().replace('{{REF}}', ayah).replace('{{ARABIC}}', q[ayah])
+              .replace('{{ROOTS}}', RT.table_text(RT.ayah_roots(ayah)).strip()).replace('{{PROSE}}', prose))
+    (d / 'prompt.md').write_text(prompt)
+    t1 = CR.turn(d, 1, prompt, MODELS['sol'], effort)
+    if not t1['completed'] or not t1['thread_id']:
+        return f'ERROR {ayah} sol: turn 1 did not complete (rc {t1["returncode"]}); see {d}'
+    r1, b1 = jsonl((d / 'turn1.last.txt').read_text())
+    cited = list(dict.fromkeys(x for r in r1 for x in r.get('refs') or [] if OSIS.match(x)))
+    db = sqlite3.connect(INDEX)
+    shown = [dict(ref=x, text=texts(db, x)) for x in cited]
+    block = '\n\n'.join(f"### {m['ref']}\n" + '\n'.join(
+        [f"KJV: {m['text'].get('KJV', '(not in our corpus under this reference; drop it unless you are sure what it says)')}"]
+        + [f"{src}: {m['text'][src]}" for src in ('WLC', 'SBLGNT') if src in m['text']]) for m in shown)
+    t2 = CR.turn(d, 2, CHECK_TURN + block, MODELS['sol'], effort, thread=t1['thread_id'])
+    if not t2['completed'] or t2.get('error'):
+        return f'ERROR {ayah} sol: check turn did not complete ({t2.get("error") or t2["returncode"]}); see {d}'
+    rows, bad = jsonl((d / 'turn2.last.txt').read_text())
+    cost = CR.cost(CR.rollout(t1['thread_id']))
+    (ad / 'cited.json').write_text(json.dumps(dict(ayah=ayah, turn1_rows=r1, turn1_malformed=b1, shown=shown,
+                                                   unresolved=[m['ref'] for m in shown if 'KJV' not in m['text']]),
+                                              ensure_ascii=False, indent=1) + '\n')
+    (d / 'placed.json').write_text(json.dumps(dict(ayah=ayah, model=MODELS['sol'], effort=effort, brief='sol_page',
+                                                   rows=rows, malformed=b1 + bad, cost=cost),
+                                              ensure_ascii=False, indent=1) + '\n')
+    return f"{ayah} sol: {len(r1)} -> {len(rows)} rows, ${cost['usd_equivalent']:.3f}; " + check_one(ad)
+
+
+def cmd_sol(a):
+    q = quran()
+    ayat = a.ayat.split(',')
+    for x in ayat:
+        if x not in q or int(x.split(':')[0]) != a.surah:
+            raise SystemExit(f'{x}: not an ayah of surah {a.surah}')
+    with cf.ThreadPoolExecutor(a.parallel) as ex:
+        for msg in ex.map(lambda x: one_sol(a.surah, a.tag, x, a.effort, q), ayat):
+            print(msg, flush=True)
+
+
 def check_one(ad: Path) -> str:
-    merged = json.loads((ad / 'merged.json').read_text())
+    """Single-Sol runs: every verse of turn 1 must have a final decision (directly or via `was`), and every final
+    verse must be one whose text Sol was shown. Placement runs: every merged verse must have a decision."""
     placed = json.loads((ad / 'sol' / 'placed.json').read_text())
     paras = set(map(int, re.findall(r'\[¶(\d+)\]', (HERE / 'work' / f"s{int(ad.name.split('_')[0]):03d}" / 'pack'
                                                      / 'numbered' / f'{ad.name}.md').read_text())))
-    listed, seen, problems = {m['ref'] for m in merged['items']}, {}, []
+    seen, problems = {}, []
+    if (ad / 'cited.json').exists():
+        c = json.loads((ad / 'cited.json').read_text())
+        listed = {m['ref'] for m in c['shown']}
+        was = {x for r in placed['rows'] for x in r.get('was') or []}
+        for ref in c['unresolved']:
+            problems.append(f'{ref}: KJV text not in the corpus (Sol saw no text)')
+        for r in placed['rows']:
+            for ref in r.get('refs') or []:
+                if ref not in listed and r.get('decision') != 'drop':
+                    problems.append(f'{ref}: final verse whose text Sol was not shown')
+                    r['added'] = True
+        listed -= was
+    else:
+        listed = {m['ref'] for m in json.loads((ad / 'merged.json').read_text())['items']}
     for i, r in enumerate(placed['rows']):
         dec = r.get('decision')
         if dec not in ('place', 'end', 'drop'):
@@ -394,7 +492,7 @@ def cmd_report(a):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('cmd', choices=('recall', 'merge', 'place', 'check', 'preview', 'report'))
+    ap.add_argument('cmd', choices=('sol', 'recall', 'merge', 'place', 'check', 'preview', 'report'))
     ap.add_argument('--surah', type=int, required=True)
     ap.add_argument('--tag', required=True)
     ap.add_argument('--ayat')
@@ -405,8 +503,8 @@ def main():
     ap.add_argument('--brief', default='ayah', choices=('ayah', 'par'), help='recall: par = per-paragraph understanding brief')
     ap.add_argument('--roots', help='merge: also take the verified verses of this roots.py tag')
     a = ap.parse_args()
-    if a.cmd == 'recall' and not a.ayat:
-        raise SystemExit('recall needs --ayat')
+    if a.cmd in ('recall', 'sol') and not a.ayat:
+        raise SystemExit(f'{a.cmd} needs --ayat')
     globals()[f'cmd_{a.cmd}'](a)
 
 

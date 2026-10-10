@@ -52,7 +52,15 @@ python3 -B enrichment/bible/corpus.py build
 python3 -B enrichment/bible/image_enrich.py prepare --surah S --run-tag sSSS-YYYYMMDD
 python3 -B enrichment/bible/image_enrich.py run --surah S --run-tag sSSS-YYYYMMDD --parallel 20      # background
 python3 -B enrichment/bible/image_enrich.py assemble --surah S --run-tag sSSS-YYYYMMDD
-# 4b. Ayah pages: prepare, then spawn one Opus high agent per call with the exact text of its spawn.md
+# 4b. Ayah pages (user, 2026-10-09): ONE Sol call per ayah on the frozen numbered prose (prompts/sol_page.md:
+#     same / opposite / background / word; the one-sentence understanding test opens every note; failures are drop
+#     rows with that reason). Turn 2 in the same session shows the KJV/WLC/SBLGNT text of every cited verse and
+#     takes the final list. No discovery, merge or Opus author for ayah pages.
+python3 -B enrichment/bible/recall.py sol --surah S --tag sol-YYYYMMDD --ayat S:1,S:2,… --parallel 3
+python3 -B enrichment/bible/recall.py check   --surah S --tag sol-YYYYMMDD
+python3 -B enrichment/bible/recall.py preview --surah S --tag sol-YYYYMMDD
+python3 -B enrichment/bible/recall.py report  --surah S --tag sol-YYYYMMDD
+# Old route (superseded for ayah pages): spawn one Opus high agent per call with the exact text of its spawn.md
 python3 -B enrichment/bible/enrich.py spawn --surah S --target ayat
 #     agent type: enrich-page-high (model opus, effort high; tools Read, Write, Edit, Bash)
 python3 -B enrichment/bible/enrich.py finish --surah S --target S:A    # after each agent replies
