@@ -86,7 +86,8 @@ def own_text(ayah, rows_tag, views_tag):
         if r['src'] != cur:
             cur = r['src']
             out.append(f"\n## {r['src']}: {r['author']}" + (f", d. {r['death']} AH" if r['death'] else ''))
-        out.append(f"[{r['id']}] {r['speaker']} | {r['stance']} | {r['claim']} «{r.get('anchor', '')}»")
+        about = f"(about {', '.join(r.get('about') or []) or 'another verse'}; names this verse) " if r.get('via') == 'mentions' else ''
+        out.append(f"[{r['id']}] {r['speaker']} | {r['stance']} | {about}{r['claim']} «{r.get('anchor', '')}»")
     views, known = merge.load(ayah, views_tag)
     return '\n'.join(out) + '\n\n' + merge.compact(ayah, views, known), {r['id'] for r in rs}
 

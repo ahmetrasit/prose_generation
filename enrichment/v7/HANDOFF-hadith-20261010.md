@@ -48,23 +48,51 @@ Sonnet code review: fix 1 OK; fixes 2–6 OK after three rounds (two small follo
 
   Their existing digests stay in the old runs, but these segments are no longer counted as material for those ayat.
 
+## One digest serves every verse it names (2026-10-10, decided with the user)
+
+A segment is digested once. The brief already asks for the whole segment ("Cover the whole segment, not only the
+verses in scope"), and each row names the verses it is about. A segment is therefore never digested again for another
+verse. Instead its digest is linked to every verse it names. Measured over S1, S59 and S87–114, before this change:
+
+- **Range rows were invisible.** 6,676 rows name a range (`105:3-5`) and about 1,000 more use other forms (`92:7,10,12`,
+  a bare number). `merge.tier1_rows` matched only exact `S:A`, so no map saw these rows. Now
+  `digest.verse_list` expands them: +7,627 notes over the 319 ayat (105:4 +193, from 246).
+- **Mentions were ignored.** A row about another verse that quotes or names this one (its `mentions`) is now filed
+  under this verse too, marked `(about X; names this verse)`: +8,452 notes (96:1 +170).
+- **Segments tied to a verse whose notes are about other verses** (by index range or quotation) are not put into the
+  map. `q.py linked V` lists them with their notes, from a per-verse index that `enrichment/v9/linked.py build`
+  writes (a quotation search takes ~40 s, so the index is built once per range). Most are pages indexed to a wide
+  range (`96:1-19`) whose text discusses other verses. A spot check measures how often such a segment does discuss
+  the verse after all.
+
+Files: `enrichment/v7/digest.py` (`verse_list`), `enrichment/v7/merge.py` (`tier1_rows`, `tier1_segments`,
+`segment_rows`, `row_line`), `enrichment/v9/map.py` (`ROW_FIELDS` + `via`, `about`), `enrichment/v9/q.py` (`linked`),
+`enrichment/v9/linked.py`. Note IDs are unchanged and no existing note is lost.
+
+**Existing maps:** they gain these notes through `map.py update-all`. That is a Sol run, so its cost is reported and
+approved before it runs.
+- `q.stale` does not change, so meals are not blocked meanwhile.
+- `tools/ready_pages.py` lists such verses as "tier-1 notes not in the map yet" until the update runs.
+- `map.py refresh_rows` refreshes the notes a map has and reports the new ones instead of refusing.
+- v7 tier 2 (`merge.py build/update`) takes range rows but not mention rows (`mentions=False`).
+
+**Verse values:** `digest.verse_list` also handles en dashes and annotated values ("Qur'an 2:255", "Surah Yusuf
+12:5"). It does not read a Bible reference ("Luke 1:5", "Ps 23:1") or anything after it in the same value, a number
+after free text ("2:5, p. 12"), a reversed or cross-sūra range, or an ayah number above 286.
+`linked.py build` prints how many tier-1 verse values it could not read and logs each distinct one under
+`enrichment/v9/linked/logs/`. On the first build there were 793 values, 97 distinct, mostly `*`, empty strings or
+names.
+
 ## To do on the tier-1 computer
 
-1. `git pull`, then `python3 -B enrichment/v2/tools/corpus.py fresh`. The index must be "current"; the code change
+1. `git pull`, then `python3 -B enrichment/v2/tools/corpus.py fresh`. The index must be "current"; this change
    does not touch the index.
-2. **S59 and S88–114** have no tier-1 run yet. The first build with this code (`--quotes`) includes the new material
-   automatically.
-3. **S1, S87, S96 and S103** already have runs. Build one top-up run over all of them together, so each new segment is
-   digested once with its full scope:
-   `digest.py build <RUN> --surahs 1 87 96 103 --models gpt-6-luna:max --skip-done luna-max --quotes`.
-   Only segments not yet digested are picked. Check the build's printed segment and character totals, and the
-   cost forecast, before running.
-4. Run it, push `out/` and `runs/*/run.json` as usual, then run `digest.py check/report`.
-5. Any focus-ayah map already built for these ayat lacks this material. `enrichment/v9/material.py` lists the new
-   segments under "quotes" once they are digested.
-
-## Known limitation (not changed)
-
-`--skip-done` is keyed by locator. A segment digested for one ayah in an earlier run is not digested again for another
-verse it quotes in a later run. It is recorded as "already digested", not dropped silently. No RIYAD segment had been
-digested before this fix, so building each range in one run (steps 2–3) avoids the problem for them.
+2. Build tier 1 for the whole range once, with the quotation packet:
+   `digest.py build <RUN> --surahs 1 59 87 88 … 114 --models gpt-6-luna:max --skip-done luna-max --quotes`.
+   Only segments never digested are picked: the new hadith and quotation material, sources imported after the
+   earlier runs (96:1 has 30 undigested segments, Turkish tafsirs and hadith among them), and S59, which has no
+   run of its own. Already-digested segments are skipped on purpose: their digests are linked, not redone. Check the
+   printed totals and the forecast before running.
+3. Run it, push `out/` and `runs/*/run.json` as usual, then run `digest.py check/report`.
+4. `python3 -B enrichment/v9/linked.py build --surahs 1 59 87 88 … 114` (about 3 minutes, no model), so
+   `q.py linked` works for the range. Rebuild it after any corpus rebuild.

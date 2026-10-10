@@ -209,6 +209,57 @@ def parse_ayah(text):
     return int(s), int(a)
 
 
+_VERSE_TOKEN = re.compile(r'(?:(\d+):)?(\d+)(?:\s*-\s*(?:(\d+):)?(\d+))?')
+_DASHES = str.maketrans({'–': '-', '—': '-', '‒': '-', '−': '-'})
+_WORD_BEFORE = re.compile(r"([^\W\d_][\w'’ʾ.-]*)\W*$")   # the word just before a verse item, if any
+_BIBLE = set("""genesis gen exodus exod ex leviticus lev numbers num deuteronomy deut dt joshua josh judges judg ruth
+samuel sam kings kgs chronicles chron chr ezra nehemiah neh esther esth job psalm psalms ps psa pss proverbs prov pr
+ecclesiastes eccl eccles qoheleth song songs canticles cant isaiah isa jeremiah jer lamentations lam ezekiel ezek
+daniel dan hosea hos joel amos obadiah obad jonah micah mic nahum nah habakkuk hab zephaniah zeph haggai hag
+zechariah zech malachi mal matthew matt mt mark mk luke lk john jn acts romans rom corinthians cor galatians gal
+ephesians eph philippians phil colossians col thessalonians thess timothy tim titus philemon phlm hebrews heb james
+jas peter pet pt jude revelation rev apocalypse maccabees macc sirach sir ecclesiasticus tobit tob wisdom wis baruch
+bar judith jdt esdras esd torah tanakh gospel bible septuagint lxx talmud mishnah gn lv nm jos jgs jb prv sg jl jon ob
+zep zec rv rm revelations""".split())
+_GAP = re.compile(r'^[\s,;"\'&]*$')                 # what may stand between two items of one list
+RANGE_MAX = 300              # a written range longer than this is taken as a mistake, not expanded
+AYAH_MAX = 286               # the longest sūra; a larger ayah number is not a verse
+
+
+def verse_list(values, rejected=None):
+    """Every S:A a row's `verses` or `mentions` value names. Agents mostly write ["87:6"], but also ranges ("105:3-5",
+    "25:48–89"), lists in one string ("92:7,10,12", "92:3,5-7"), lists joined into one string, and annotated values
+    ("Qur'an 2:255", "Surah Yusuf 12:5", "2:255 (Ayat al-Kursi)"). An ayah number without a surah takes the surah of
+    the item before it, only when nothing but separators stands between them. An item right after a Bible book's name
+    (_BIBLE: "Luke 1:5", "Acts 14:8-28", "1 Samuel 17") and every item after it in the same value, a range across
+    sūras, reversed or longer than RANGE_MAX, an ayah above AYAH_MAX and a number with no surah are not read; when
+    `rejected` is a list, each value with such an item, or with nothing read, is appended to it (2026-10-10)."""
+    out = []
+    for v in values if isinstance(values, list) else [values] if isinstance(values, str) else []:
+        text = str(v).translate(_DASHES)
+        s, end, got, bad, bible = None, 0, [], False, False
+        for m in _VERSE_TOKEN.finditer(text):
+            sur, a, sur2, b = m.groups()
+            before = text[end:m.start()]
+            if not _GAP.match(before):
+                s = None                     # free text in between: a bare number after it is not an ayah
+            w = _WORD_BEFORE.search(before)
+            end = m.end()
+            if bible or (w and w.group(1).lower().rstrip('.') in _BIBLE):
+                bible, bad = True, True      # a Bible reference: it, and what follows it in this value, is not read
+                continue
+            s = int(sur) if sur else s
+            a, b = int(a), int(b) if b else int(a)
+            if s is None or (sur2 and int(sur2) != s) or a < 1 or b < a or b - a > RANGE_MAX or b > AYAH_MAX:
+                bad = True
+                continue
+            got += [f'{s}:{x}' for x in range(a, b + 1)]
+        if (bad or not got) and rejected is not None:
+            rejected.append(v)
+        out += got
+    return list(dict.fromkeys(out))
+
+
 def gather(ayat):
     """Segments tied to the ayat (index range plus range overlay), stage-1 kinds, text held locally."""
     skipped = []

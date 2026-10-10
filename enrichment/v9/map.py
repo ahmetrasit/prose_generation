@@ -35,7 +35,7 @@ from digest import PART_CHARS, ROOT, TYPES, connect, dump  # noqa: E402
 
 BRIEF = V9 / 'briefs/map.md'
 BRIEF_UPDATE = V9 / 'briefs/map-update.md'
-ROW_FIELDS = ('src', 'author', 'death', 'speaker', 'stance', 'claim', 'anchor', 'mentions')
+ROW_FIELDS = ('src', 'author', 'death', 'speaker', 'stance', 'claim', 'anchor', 'mentions', 'via', 'about')
 BIG = 90_000  # input characters above which a verse is printed as large (never split)
 
 
@@ -146,12 +146,12 @@ def refresh_rows(a):
         f = m / 'rows' / f"{key(p['ayah'])}.json"
         old = json.loads(f.read_text())
         rs = {r['id']: r for r in merge.tier1_rows(None, man['from'], p['ayah'], quiet=True)}
-        if set(rs) != set(old):
-            print(f"WARNING {p['ayah']}: tier-1 notes changed since the map was built "
-                  f"({len(set(rs) - set(old))} new, {len(set(old) - set(rs))} gone); not refreshed")
-            continue
-        dump(f, {i: {x: rs[i].get(x) for x in ROW_FIELDS} for i in old})
-        print(f"{p['ayah']}: {len(old)} notes refreshed")
+        new, gone = set(rs) - set(old), set(old) - set(rs)
+        if gone:
+            print(f"WARNING {p['ayah']}: {len(gone)} saved notes are no longer in tier 1; kept as saved")
+        dump(f, {i: {x: rs[i].get(x) for x in ROW_FIELDS} if i in rs else old[i] for i in old})
+        print(f"{p['ayah']}: {len(old) - len(gone)} notes refreshed"
+              + (f"; {len(new)} new tier-1 notes are not in the map (map.py update)" if new else ''))
 
 
 QID = re.compile(r'^\d+:\d+/q\d+$')
