@@ -131,7 +131,7 @@ cost of every stage against the estimate (`report` commands; Opus from `page_sta
 ### 6. Bible layer (after the surah's Islamic enrichment is complete)
 Follow `enrichment/bible/RUNBOOK.md` ("Production route from a Claude Code session"). Models: discovery readers Luna
 max + Sol high, surah-page image authors Sol max. Ayah pages (user, 2026-10-09): **one Sol call per ayah** on the
-frozen prose, `recall.py sol` (prompts/sol_page.md; turn 2 checks every cited verse's text); no Opus author. The author prompts
+frozen prose, `recall.py sol` (Sol max, 3 turns: place, omissions, check against every cited verse's text); no Opus author. The author prompts
 carry the relevance rule (user, 2026-10-09: accept only a shared scene, claim, image, argument or formula, or its
 reversal; keyword-only candidates are rejected with that reason). An accepted page is never rewritten in place: a
 revision is `enrich.py spawn --surah S --target S:A --attempt N --revise`, then `finish … --attempt N --trial`,

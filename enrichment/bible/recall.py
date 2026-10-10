@@ -12,10 +12,10 @@
 
 Production route (user, 2026-10-09): `sol` alone. One Sol session per ayah reads the frozen numbered prose (plus the
 ayah's roots table from roots.py, no model call) and places verses from memory under the four ways (prompts/
-sol_page.md); turn 2 in the same session shows the KJV/WLC/SBLGNT text of every cited verse and takes the final
-list. The recall/merge/place steps above are the earlier test route.
+sol_page.md); turn 2 asks for what it left out; turn 3 in the same session shows the KJV/WLC/SBLGNT text of every
+cited verse and takes the final list. The recall/merge/place steps above are the earlier test route.
 
-  recall.py sol     --surah S --tag T --ayat S:A,S:A [--parallel 3] [--effort high]
+  recall.py sol     --surah S --tag T --ayat S:A,S:A [--parallel 3] --effort max
   recall.py recall  --surah S --tag T --ayat S:A,S:A [--models luna,terra] [--parallel 6] [--prose]
   recall.py merge   --surah S --tag T
   recall.py place   --surah S --tag T [--parallel 3] [--effort high]
@@ -305,11 +305,18 @@ def one_place(s: int, tag: str, ad: Path, effort: str) -> str:
     return f"{ad.name} sol: {len(rows)} rows, {len(bad)} malformed, ${cost['usd_equivalent']:.3f}; " + check_one(ad)
 
 
+OMISSIONS_TURN = ('Go through the paragraphs once more for verses you have not listed yet that pass the same test: verses '
+                  'that state a paragraph\'s point the other way round, so the difference shows what is distinctive here; '
+                  'words a paragraph discusses whose Hebrew or Aramaic relatives in the roots table the Bible uses in a way '
+                  'that makes the paragraph clearer; images, customs and practices whose background the Bible shows, even '
+                  'with no shared word; and paragraphs you gave few or no verses. Reply only with the new rows, in the same '
+                  'JSON Lines form, drop rows included. Zero rows is a valid answer. Work from memory; do not read files, '
+                  'run commands or search.')
 CHECK_TURN = ('Below is the text of every verse you cited: KJV, and the Hebrew (WLC) or Greek (SBLGNT) text at the same '
               'reference when available. The Hebrew numbering sometimes differs from the KJV\'s; trust the KJV text for '
               'what the verse says. Check each row against these texts: does the verse say what your note says, and '
               'does it still pass the test? Then reply with your complete final list in the same JSON Lines form, every '
-              'verse of your first reply exactly once: keep a row, correct its note or paragraph, or turn it into a drop '
+              'verse of your earlier replies exactly once: keep a row, correct its note or paragraph, or turn it into a drop '
               'row with the reason. If a reference was wrong and you are sure of the right one, put the right one in '
               '`refs` and the wrong one in `"was": [...]`. Do not add new verses. Do not read files, run commands or '
               'search.\n\n=== VERSES ===\n\n')
@@ -336,7 +343,8 @@ def jsonl(text: str) -> tuple[list[dict], list[str]]:
 
 
 def one_sol(s: int, tag: str, ayah: str, effort: str, q: dict) -> str:
-    """The single Sol call of an ayah: turn 1 places from memory, turn 2 checks against the verse texts."""
+    """The single Sol session of an ayah: turn 1 places from memory, turn 2 adds what it left out (other way round,
+    word, background, thin paragraphs), turn 3 checks every cited verse against its text and gives the final list."""
     from enrichment.bible import roots as RT
     ad = run_dir(s, tag) / key(ayah)
     d = ad / 'sol'
@@ -350,25 +358,32 @@ def one_sol(s: int, tag: str, ayah: str, effort: str, q: dict) -> str:
     t1 = CR.turn(d, 1, prompt, MODELS['sol'], effort)
     if not t1['completed'] or not t1['thread_id']:
         return f'ERROR {ayah} sol: turn 1 did not complete (rc {t1["returncode"]}); see {d}'
+    t2 = CR.turn(d, 2, OMISSIONS_TURN, MODELS['sol'], effort, thread=t1['thread_id'])
+    if not t2['completed'] or t2.get('error'):
+        return f'ERROR {ayah} sol: omissions turn did not complete ({t2.get("error") or t2["returncode"]}); see {d}'
     r1, b1 = jsonl((d / 'turn1.last.txt').read_text())
+    r2, b2 = jsonl((d / 'turn2.last.txt').read_text())
+    for r in r2:
+        r['turn'] = 2
+    r1, b1 = r1 + r2, b1 + b2
     cited = list(dict.fromkeys(x for r in r1 for x in r.get('refs') or [] if OSIS.match(x)))
     db = sqlite3.connect(INDEX)
     shown = [dict(ref=x, text=texts(db, x)) for x in cited]
     block = '\n\n'.join(f"### {m['ref']}\n" + '\n'.join(
         [f"KJV: {m['text'].get('KJV', '(not in our corpus under this reference; drop it unless you are sure what it says)')}"]
         + [f"{src}: {m['text'][src]}" for src in ('WLC', 'SBLGNT') if src in m['text']]) for m in shown)
-    t2 = CR.turn(d, 2, CHECK_TURN + block, MODELS['sol'], effort, thread=t1['thread_id'])
-    if not t2['completed'] or t2.get('error'):
-        return f'ERROR {ayah} sol: check turn did not complete ({t2.get("error") or t2["returncode"]}); see {d}'
-    rows, bad = jsonl((d / 'turn2.last.txt').read_text())
+    t3 = CR.turn(d, 3, CHECK_TURN + block, MODELS['sol'], effort, thread=t1['thread_id'])
+    if not t3['completed'] or t3.get('error'):
+        return f'ERROR {ayah} sol: check turn did not complete ({t3.get("error") or t3["returncode"]}); see {d}'
+    rows, bad = jsonl((d / 'turn3.last.txt').read_text())
     cost = CR.cost(CR.rollout(t1['thread_id']))
-    (ad / 'cited.json').write_text(json.dumps(dict(ayah=ayah, turn1_rows=r1, turn1_malformed=b1, shown=shown,
+    (ad / 'cited.json').write_text(json.dumps(dict(ayah=ayah, turn1_rows=r1, turn1_malformed=b1, turn2_new=len(r2), shown=shown,
                                                    unresolved=[m['ref'] for m in shown if 'KJV' not in m['text']]),
                                               ensure_ascii=False, indent=1) + '\n')
     (d / 'placed.json').write_text(json.dumps(dict(ayah=ayah, model=MODELS['sol'], effort=effort, brief='sol_page',
                                                    rows=rows, malformed=b1 + bad, cost=cost),
                                               ensure_ascii=False, indent=1) + '\n')
-    return f"{ayah} sol: {len(r1)} -> {len(rows)} rows, ${cost['usd_equivalent']:.3f}; " + check_one(ad)
+    return f"{ayah} sol: {len(r1) - len(r2)}+{len(r2)} -> {len(rows)} rows, ${cost['usd_equivalent']:.3f}; " + check_one(ad)
 
 
 def cmd_sol(a):
