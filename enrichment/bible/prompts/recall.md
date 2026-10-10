@@ -6,7 +6,7 @@ The whole surah {{SURAH}}, for context only:
 
 {{SURAH_TEXT}}
 
-From memory, list the verses of the Hebrew Bible and the New Testament that say very nearly the same thing as the
+{{COMMENTARY}}From memory, list the verses of the Hebrew Bible and the New Testament that say very nearly the same thing as the
 focus ayah, or exactly the opposite.
 
 - Judge each verse on what it says in its own place: the same claim, command, promise, warning, oath, image, scene

@@ -19,8 +19,9 @@ Rules:
 
 - Every listed verse appears in exactly one row. Consecutive or closely joined verses that make one point may share
   one row (list them all in `refs`).
-- A note is written in Turkish for an advanced reader: what the verse says, in its own context, and exactly how it
-  matches or reverses the paragraph's point (or the ayah's, for `end`). Quote the verse briefly in Turkish
+- A note is written in Turkish for an advanced reader. Its first sentence says plainly why the verse is here: which
+  point of the paragraph (or of the ayah, for `end`) it says again or says the other way round. Only then what the
+  verse says in its own context, and where the two meet or part. Quote the verse briefly in Turkish
   translation. No source talk, no hedging about dependence: say what the texts share or where they part.
 - You may add a verse that is not listed only if you are sure of it; mark it `"added": true`.
 - Do not read files, run commands or search. Everything you need is here.

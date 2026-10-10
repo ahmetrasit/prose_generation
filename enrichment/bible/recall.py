@@ -10,7 +10,7 @@
    in the closing section, or drops it with a reason. Every listed ref must appear exactly once.
 4. preview: Markdown of the prose with the notes after their paragraphs and the closing section.
 
-  recall.py recall  --surah S --tag T --ayat S:A,S:A [--models luna,terra] [--parallel 6]
+  recall.py recall  --surah S --tag T --ayat S:A,S:A [--models luna,terra] [--parallel 6] [--prose]
   recall.py merge   --surah S --tag T
   recall.py place   --surah S --tag T [--parallel 3] [--effort high]
   recall.py check   --surah S --tag T
@@ -100,14 +100,22 @@ def parse(text: str) -> tuple[list[dict], list[str]]:
     return rows, bad
 
 
-def one_recall(s: int, tag: str, ayah: str, model: str, q: dict) -> str:
+def commentary(s: int, ayah: str, prose: bool) -> str:
+    if not prose:
+        return ''
+    text = (HERE / 'work' / f's{s:03d}' / 'pack' / 'numbered' / f'{key(ayah)}.md').read_text()
+    return ('A Turkish commentary on the focus ayah, showing how it is read here. Cover the claims, images and '
+            'readings it develops as well as the ayah itself:\n\n' + text.strip() + '\n\n')
+
+
+def one_recall(s: int, tag: str, ayah: str, model: str, q: dict, prose: bool = False) -> str:
     d = run_dir(s, tag) / key(ayah) / model
     if (d / 'rows.json').exists():
         return f'{ayah} {model}: done already'
     d.mkdir(parents=True, exist_ok=True)
     surah = '\n'.join(f'{r} {t}' for r, t in q.items() if r.split(':')[0] == str(s) and not r.endswith(':0'))
     prompt = ((HERE / 'prompts' / 'recall.md').read_text().replace('{{REF}}', ayah).replace('{{ARABIC}}', q[ayah])
-              .replace('{{SURAH}}', str(s)).replace('{{SURAH_TEXT}}', surah))
+              .replace('{{SURAH}}', str(s)).replace('{{SURAH_TEXT}}', surah).replace('{{COMMENTARY}}', commentary(s, ayah, prose)))
     (d / 'prompt.md').write_text(prompt)
     t1 = CR.turn(d, 1, prompt, MODELS[model], 'max')
     if not t1['completed'] or not t1['thread_id']:
@@ -144,7 +152,7 @@ def cmd_recall(a):
             raise SystemExit(f'{x}: not an ayah of surah {a.surah}')
     jobs = [(x, m) for x in ayat for m in a.models.split(',')]
     with cf.ThreadPoolExecutor(a.parallel) as ex:
-        for msg in ex.map(lambda j: one_recall(a.surah, a.tag, j[0], j[1], q), jobs):
+        for msg in ex.map(lambda j: one_recall(a.surah, a.tag, j[0], j[1], q, a.prose), jobs):
             print(msg, flush=True)
 
 
@@ -352,6 +360,7 @@ def main():
     ap.add_argument('--models', default='luna,terra')
     ap.add_argument('--parallel', type=int, default=6)
     ap.add_argument('--effort', default='high')
+    ap.add_argument('--prose', action='store_true', help='recall: include the frozen ayah commentary')
     a = ap.parse_args()
     if a.cmd == 'recall' and not a.ayat:
         raise SystemExit('recall needs --ayat')
