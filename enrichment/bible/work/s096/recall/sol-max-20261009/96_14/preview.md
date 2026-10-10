@@ -100,11 +100,11 @@
 
 > **◦ Gen.1.14** — Gökteki ışıkların işaret, mevsim ve günler için konması, göğü okuyarak yön bulmanın zamana ilişkin yanını gösterir. Yaratılış anlatısında ışıklar zamanı ayırt ettirir; burada yıldız yolculuğa yön verir.
 >
-> {bible:וַיֹּ֣אמֶר אֱלֹהִ֗ים יְהִ֤י מְאֹרֹת֙ בִּרְקִ֣יעַ הַשָּׁמַ֔יִם לְהַבְדִּ֕יל בֵּ֥ין הַיּ֖וֹם וּבֵ֣ין הַלָּ֑יְלָה וְהָי֤וּ לְאֹתֹת֙ וּלְמ֣וֹעֲדִ֔ים וּלְיָמִ֖ים וְשָׁנִֽים׃, tr:¶ And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years:, gloss:Tanrı şöyle buyurdu: “Gökkubbede gündüzü geceden ayıracak, yeryüzünü aydınlatacak ışıklar olsun. Belirtileri, mevsimleri, günleri, yılları göstersin.” Ve öyle oldu., source:Gen.1.14}
+> {bible:וַיֹּ֣אמֶר אֱלֹהִ֗ים יְהִ֤י מְאֹרֹת֙ בִּרְקִ֣יעַ הַשָּׁמַ֔יִם לְהַבְדִּ֕יל בֵּ֥ין הַיּ֖וֹם וּבֵ֣ין הַלָּ֑יְלָה וְהָי֤וּ לְאֹתֹת֙ וּלְמ֣וֹעֲדִ֔ים וּלְיָמִ֖ים וְשָׁנִֽים׃, tr:¶ And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years:, gloss:Tanrı şöyle buyurdu: “Gökkubbede gündüzü geceden ayıracak, yeryüzünü aydınlatacak ışıklar olsun. Belirtileri, mevsimleri, günleri, yılları göstersin.” Ve öyle oldu., source:Gen.1.14 (Türkçe Gen.1.14-15 birlikte)}
 
 > **◦ Matt.2.2, Matt.2.9** — Yıldızı görüp anlamlandıran yolcuların ardından yıldızın önlerinden gitmesi, göksel işaretin tanınarak yola dönüştüğünü gösterir. Bilgeler yıldızı gördükleri için tapınmaya geldiklerini söyler, sonra yıldız onları çocuğun bulunduğu yere götürür; burada yıldız yaratılmış düzenin yol işaretidir.
 >
-> {bible:λέγοντες· Ποῦ ἐστιν ὁ τεχθεὶς βασιλεὺς τῶν Ἰουδαίων; εἴδομεν γὰρ αὐτοῦ τὸν ἀστέρα ἐν τῇ ἀνατολῇ καὶ ἤλθομεν προσκυνῆσαι αὐτῷ., tr:Saying, Where is he that is born King of the Jews? for we have seen his star in the east, and are come to worship him., gloss:İsa'nın Kral Hirodes devrinde Yahudiye'nin Beytlehem Kenti'nde doğmasından sonra bazı yıldızbilimciler doğudan Yeruşalim'e gelip şöyle dediler: “Yahudiler'in Kralı olarak doğan çocuk nerede? Doğuda O'nun yıldızını gördük ve O'na tapınmaya geldik.”, source:Matt.2.2}
+> {bible:λέγοντες· Ποῦ ἐστιν ὁ τεχθεὶς βασιλεὺς τῶν Ἰουδαίων; εἴδομεν γὰρ αὐτοῦ τὸν ἀστέρα ἐν τῇ ἀνατολῇ καὶ ἤλθομεν προσκυνῆσαι αὐτῷ., tr:Saying, Where is he that is born King of the Jews? for we have seen his star in the east, and are come to worship him., gloss:İsa'nın Kral Hirodes devrinde Yahudiye'nin Beytlehem Kenti'nde doğmasından sonra bazı yıldızbilimciler doğudan Yeruşalim'e gelip şöyle dediler: “Yahudiler'in Kralı olarak doğan çocuk nerede? Doğuda O'nun yıldızını gördük ve O'na tapınmaya geldik.”, source:Matt.2.2 (Türkçe Matt.2.1-2 birlikte)}
 >
 > {bible:οἱ δὲ ἀκούσαντες τοῦ βασιλέως ἐπορεύθησαν, καὶ ἰδοὺ ὁ ἀστὴρ ὃν εἶδον ἐν τῇ ἀνατολῇ προῆγεν αὐτούς, ἕως ἐλθὼν ⸀ἐστάθη ἐπάνω οὗ ἦν τὸ παιδίον., tr:When they had heard the king, they departed; and, lo, the star, which they saw in the east, went before them, till it came and stood over where the young child was., gloss:Yıldızbilimciler, kralı dinledikten sonra yola çıktılar. Doğuda görmüş oldukları yıldız onlara yol gösteriyordu, çocuğun bulunduğu yerin üzerine varınca durdu., source:Matt.2.9}
 
@@ -114,7 +114,7 @@
 
 > **≈ Ps.19.1** — Göklerin Tanrı'nın yüceliğini ilan etmesi, yaratılmışların Rablerini tanıtan işaretler olarak düşünülebileceğini açıklar. Mezmur göğü Tanrı'nın el işini duyuran bir tanık gibi konuşturur; paragrafta yaratılmış türlerin her biri bir alâmet sayılır.
 >
-> {bible:הַשָּׁמַ֗יִם מְֽסַפְּרִ֥ים כְּבֽוֹד־אֵ֑ל וּֽמַעֲשֵׂ֥ה יָ֝דָ֗יו מַגִּ֥יד הָרָקִֽיעַ׃, tr:To the chief Musician, A Psalm of David. The heavens declare the glory of God; and the firmament sheweth his handywork., gloss:Gökler Tanrı'nın görkemini açıklamakta, Gökkubbe ellerinin eserini duyurmakta., source:Ps.19.1}
+> {bible:הַשָּׁמַ֗יִם מְֽסַפְּרִ֥ים כְּבֽוֹד־אֵ֑ל וּֽמַעֲשֵׂ֥ה יָ֝דָ֗יו מַגִּ֥יד הָרָקִֽיעַ׃, tr:To the chief Musician, A Psalm of David. The heavens declare the glory of God; and the firmament sheweth his handywork., gloss:Müzik şefi için - Davut'un mezmuru Gökler Tanrı'nın görkemini açıklamakta, Gökkubbe ellerinin eserini duyurmakta., source:Ps.19.1}
 
 > **◦ Acts.14.17** — Yağmurun ve verimli mevsimlerin Tanrı'nın tanıklığı sayılması, yaratılmış düzendeki işaretlerin yol göstermenin ötesinde Tanrı'yı tanıtabildiğini açıklar. Pavlus Tanrı'nın kendisini tanıksız bırakmadığını, insanlara yağmur ve ürün verdiğini söyler; paragraf da dünyayı alâmetlerle dolu görür.
 >
@@ -124,7 +124,7 @@
 
 > **◦ Num.2.2** — Kabilelerin kendi sancakları yanında konaklaması, görülen bir işaretin tanınınca kimlik ve yer bildirmesini somutlaştırır. İsraillilere ailelerinin alâmetini taşıyan sancakların çevresine yerleşmeleri söylenir; paragraftaki sancak da görme ile tanımayı aynı nesnede buluşturur.
 >
-> {bible:אִ֣ישׁ עַל־דִּגְל֤וֹ בְאֹתֹת֙ לְבֵ֣ית אֲבֹתָ֔ם יַחֲנ֖וּ בְּנֵ֣י יִשְׂרָאֵ֑ל מִנֶּ֕גֶד סָבִ֥יב לְאֹֽהֶל־מוֹעֵ֖ד יַחֲנֽוּ׃, tr:Every man of the children of Israel shall pitch by his own standard, with the ensign of their father’s house: far off about the tabernacle of the congregation shall they pitch., gloss:RAB Musa'yla Harun'a, “İsrailliler sancaklarının altında, aile bayraklarıyla Buluşma Çadırı'ndan biraz ötede çepeçevre konaklasın” dedi., source:Num.2.2}
+> {bible:אִ֣ישׁ עַל־דִּגְל֤וֹ בְאֹתֹת֙ לְבֵ֣ית אֲבֹתָ֔ם יַחֲנ֖וּ בְּנֵ֣י יִשְׂרָאֵ֑ל מִנֶּ֕גֶד סָבִ֥יב לְאֹֽהֶל־מוֹעֵ֖ד יַחֲנֽוּ׃, tr:Every man of the children of Israel shall pitch by his own standard, with the ensign of their father’s house: far off about the tabernacle of the congregation shall they pitch., gloss:RAB Musa'yla Harun'a, “İsrailliler sancaklarının altında, aile bayraklarıyla Buluşma Çadırı'ndan biraz ötede çepeçevre konaklasın” dedi., source:Num.2.2 (Türkçe Num.2.1-2 birlikte)}
 
 > **◦ Josh.4.6, Josh.4.7** — Çocukların taşları görüp ‘Bunlar ne demek?’ diye sorması, bir işaretin görülmesinin onu tanımaya yetmediğini açıklar. Taşların Şeria'da yaşananı hatırlattığı onlara anlatılacaktır; paragraftaki sancak da anlamı bilindiğinde bilgi verir.
 >
@@ -178,7 +178,7 @@
 
 > **≈ Luke.18.10, Luke.18.11, Luke.18.12, Luke.18.13, Luke.18.14** — Ferisinin dua ederken kendini üstün sayıp öteki dua edenin aklanması, kişinin öz hükmünün ilahî hükümle çatışabileceğini gösterir. Ferisi ‘Ben ötekiler gibi değilim’ der; İsa ise merhamet isteyen vergi görevlisinin aklandığını söyler. Burada da kişinin kendini yeterli görmesi kendi verdiği hükümdür.
 >
-> {bible:Ἄνθρωποι δύο ἀνέβησαν εἰς τὸ ἱερὸν προσεύξασθαι, ⸀ὁ εἷς Φαρισαῖος καὶ ὁ ἕτερος τελώνης., tr:Two men went up into the temple to pray; the one a Pharisee, and the other a publican., gloss:Kendi doğruluklarına güvenip başkalarına tepeden bakan bazı kişilere İsa şu benzetmeyi anlattı: “Biri Ferisi, öbürü vergi görevlisi iki kişi dua etmek üzere tapınağa çıktı., source:Luke.18.10}
+> {bible:Ἄνθρωποι δύο ἀνέβησαν εἰς τὸ ἱερὸν προσεύξασθαι, ⸀ὁ εἷς Φαρισαῖος καὶ ὁ ἕτερος τελώνης., tr:Two men went up into the temple to pray; the one a Pharisee, and the other a publican., gloss:Kendi doğruluklarına güvenip başkalarına tepeden bakan bazı kişilere İsa şu benzetmeyi anlattı: “Biri Ferisi, öbürü vergi görevlisi iki kişi dua etmek üzere tapınağa çıktı., source:Luke.18.10 (Türkçe Luke.18.9-10 birlikte)}
 >
 > {bible:ὁ Φαρισαῖος σταθεὶς ⸂πρὸς ἑαυτὸν ταῦτα⸃ προσηύχετο· Ὁ θεός, εὐχαριστῶ σοι ὅτι οὐκ εἰμὶ ⸀ὥσπερ οἱ λοιποὶ τῶν ἀνθρώπων, ἅρπαγες, ἄδικοι, μοιχοί, ἢ καὶ ὡς οὗτος ὁ τελώνης·, tr:The Pharisee stood and prayed thus with himself, God, I thank thee, that I am not as other men [are], extortioners, unjust, adulterers, or even as this publican., gloss:Ferisi ayakta kendi kendine şöyle dua etti: ‘Tanrım, öbür insanlara –soygunculara, hak yiyenlere, zina edenlere– ya da şu vergi görevlisine benzemediğim için sana şükrederim., source:Luke.18.11}
 >

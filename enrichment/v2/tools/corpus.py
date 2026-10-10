@@ -514,7 +514,7 @@ def fresh() -> int:
         if isinstance(st, dict):
             same = st.get("sqlite_sha256") == sha256(index)
             print(f"committed gz parts ({st.get('built_at')}): " + ("hold this index" if same else
-                  "DIFFER from this index (regenerate them with tools/corpus_parts.sh, commit, push)"))
+                  "DIFFER from this index (regenerate them with tools/corpus_parts.sh, then sources_sync.py --commit)"))
         else:
             print(f"committed gz parts: stamp {st or 'missing'} (corpus.sqlite.gz.stamp.json); regenerate with "
                   "tools/corpus_parts.sh")

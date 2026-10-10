@@ -76,7 +76,7 @@
 >
 > {bible:Ἄνθρωπος δέ τις ἦν πλούσιος, καὶ ἐνεδιδύσκετο πορφύραν καὶ βύσσον εὐφραινόμενος καθʼ ἡμέραν λαμπρῶς., tr:¶ There was a certain rich man, which was clothed in purple and fine linen, and fared sumptuously every day:, gloss:“Zengin bir adam vardı. Mor, ince keten giysiler giyer, bolluk içinde her gün eğlenirdi., source:Luke.16.19}
 >
-> {bible:πτωχὸς δέ ⸀τις ὀνόματι ⸀Λάζαρος ἐβέβλητο πρὸς τὸν πυλῶνα αὐτοῦ εἱλκωμένος, tr:And there was a certain beggar named Lazarus, which was laid at his gate, full of sores,, gloss:Her tarafı yara içinde olan Lazar adında yoksul bir adam bu zenginin kapısının önüne bırakılırdı; zenginin sofrasından düşen kırıntılarla karnını doyurmaya can atardı. Bir yandan da köpekler gelip onun yaralarını yalardı., source:Luke.16.20}
+> {bible:πτωχὸς δέ ⸀τις ὀνόματι ⸀Λάζαρος ἐβέβλητο πρὸς τὸν πυλῶνα αὐτοῦ εἱλκωμένος, tr:And there was a certain beggar named Lazarus, which was laid at his gate, full of sores,, gloss:Her tarafı yara içinde olan Lazar adında yoksul bir adam bu zenginin kapısının önüne bırakılırdı; zenginin sofrasından düşen kırıntılarla karnını doyurmaya can atardı. Bir yandan da köpekler gelip onun yaralarını yalardı., source:Luke.16.20 (Türkçe Luke.16.20-21 birlikte)}
 >
 > {bible:εἶπεν δὲ Ἀβραάμ· Τέκνον, μνήσθητι ὅτι ⸀ἀπέλαβες τὰ ἀγαθά σου ἐν τῇ ζωῇ σου, καὶ Λάζαρος ὁμοίως τὰ κακά· νῦν δὲ ὧδε παρακαλεῖται σὺ δὲ ὀδυνᾶσαι., tr:But Abraham said, Son, remember that thou in thy lifetime receivedst thy good things, and likewise Lazarus evil things: but now he is comforted, and thou art tormented., gloss:“İbrahim, ‘Oğlum’ dedi, ‘Yaşamın boyunca senin iyilik payını, Lazar'ın da kötülük payını aldığını unutma. Şimdiyse o burada teselli ediliyor, sen de azap çekiyorsun., source:Luke.16.25}
 
@@ -210,7 +210,7 @@
 
 > **≈ Luke.18.9, Luke.18.11** — Kişinin kendisi hakkında verdiği olumlu hükmün başkasına tepeden bakmaya uzanması, Ferisi'nin duasında görünür. İsa, kendilerinin doğru olduğuna güvenenlerden söz eder; Ferisi ‘Öteki insanlar gibi değilim’ diye dua eder. Buradaki kendini görme de kişinin kendisine verdiği hükümdür.
 >
-> {bible:Εἶπεν δὲ ⸀καὶ πρός τινας τοὺς πεποιθότας ἐφʼ ἑαυτοῖς ὅτι εἰσὶν δίκαιοι καὶ ἐξουθενοῦντας τοὺς λοιποὺς τὴν παραβολὴν ταύτην·, tr:And he spake this parable unto certain which trusted in themselves that they were righteous, and despised others:, gloss:Kendi doğruluklarına güvenip başkalarına tepeden bakan bazı kişilere İsa şu benzetmeyi anlattı: “Biri Ferisi, öbürü vergi görevlisi iki kişi dua etmek üzere tapınağa çıktı., source:Luke.18.9}
+> {bible:Εἶπεν δὲ ⸀καὶ πρός τινας τοὺς πεποιθότας ἐφʼ ἑαυτοῖς ὅτι εἰσὶν δίκαιοι καὶ ἐξουθενοῦντας τοὺς λοιποὺς τὴν παραβολὴν ταύτην·, tr:And he spake this parable unto certain which trusted in themselves that they were righteous, and despised others:, gloss:Kendi doğruluklarına güvenip başkalarına tepeden bakan bazı kişilere İsa şu benzetmeyi anlattı: “Biri Ferisi, öbürü vergi görevlisi iki kişi dua etmek üzere tapınağa çıktı., source:Luke.18.9 (Türkçe Luke.18.9-10 birlikte)}
 >
 > {bible:ὁ Φαρισαῖος σταθεὶς ⸂πρὸς ἑαυτὸν ταῦτα⸃ προσηύχετο· Ὁ θεός, εὐχαριστῶ σοι ὅτι οὐκ εἰμὶ ⸀ὥσπερ οἱ λοιποὶ τῶν ἀνθρώπων, ἅρπαγες, ἄδικοι, μοιχοί, ἢ καὶ ὡς οὗτος ὁ τελώνης·, tr:The Pharisee stood and prayed thus with himself, God, I thank thee, that I am not as other men [are], extortioners, unjust, adulterers, or even as this publican., gloss:Ferisi ayakta kendi kendine şöyle dua etti: ‘Tanrım, öbür insanlara –soygunculara, hak yiyenlere, zina edenlere– ya da şu vergi görevlisine benzemediğim için sana şükrederim., source:Luke.18.11}
 
@@ -408,7 +408,7 @@
 
 > **≈ Heb.9.27** — İnsanın yolunun kaçınılmaz bir hesaplaşmaya çıkması, azanın ‘dönüş yeri’ sözünü belirginleştirir. İbranilere mektup ‘İnsanlara bir kez ölmek, ardından yargı vardır’ der; paragraftaki dönüş de kendini yeterli gören kişinin hesaba varmasıdır.
 >
-> {bible:καὶ καθʼ ὅσον ἀπόκειται τοῖς ἀνθρώποις ἅπαξ ἀποθανεῖν, μετὰ δὲ τοῦτο κρίσις,, tr:And as it is appointed unto men once to die, but after this the judgment:, gloss:İnsanın bir kez ölmesi, sonra da yargılanması kaçınılmaz olduğu gibi, Mesih de birçoklarının günahlarını yüklenmek için bir kez kurban edildi. İkinci kez, günah yüklenmek için değil, kurtuluş getirmek için kendisini bekleyenlere görünecektir., source:Heb.9.27}
+> {bible:καὶ καθʼ ὅσον ἀπόκειται τοῖς ἀνθρώποις ἅπαξ ἀποθανεῖν, μετὰ δὲ τοῦτο κρίσις,, tr:And as it is appointed unto men once to die, but after this the judgment:, gloss:İnsanın bir kez ölmesi, sonra da yargılanması kaçınılmaz olduğu gibi, Mesih de birçoklarının günahlarını yüklenmek için bir kez kurban edildi. İkinci kez, günah yüklenmek için değil, kurtuluş getirmek için kendisini bekleyenlere görünecektir., source:Heb.9.27 (Türkçe Heb.9.27-28 birlikte)}
 
 > **≠ Matt.23.12** — Kendini yüksek yere koyanın sonunun alçalma olması, azanın tasarladığı konum ile varacağı yer arasındaki farkı açıklar. İsa ‘Kendini yücelten alçaltılacak, kendini alçaltan yüceltilecek’ der; paragraftaki yüksek ve yalnız insanın yolu da kendi yüceliğini boşa çıkarır.
 >

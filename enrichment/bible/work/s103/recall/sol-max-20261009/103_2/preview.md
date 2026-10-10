@@ -68,7 +68,7 @@
 
 > **ʾ Ps.23.1** — Eksilmenin bir duygu değil, elde bulunması gerekenin yokluğu olduğu belirginleşir. Mezmur “RAB çobanımdır, eksiğim olmaz” derken İbranice ḥsr fiilini kullanır. Çobanla karşılanan ihtiyaç, kayıp kelimesinin duygudan önce bir açık bildirmesini somutlaştırır.
 >
-> {bible:מִזְמ֥וֹר לְדָוִ֑ד יְהוָ֥ה רֹ֝עִ֗י לֹ֣א אֶחְסָֽר׃, tr:A Psalm of David. The LORD [is] my shepherd; I shall not want., gloss:RAB çobanımdır, Eksiğim olmaz., source:Ps.23.1}
+> {bible:מִזְמ֥וֹר לְדָוִ֑ד יְהוָ֥ה רֹ֝עִ֗י לֹ֣א אֶחְסָֽר׃, tr:A Psalm of David. The LORD [is] my shepherd; I shall not want., gloss:Davut'un mezmuru RAB çobanımdır, Eksiğim olmaz., source:Ps.23.1}
 
 > **ʾ Eccl.1.15** — Eksikliğin bir ruh hâli değil, hesabın tutmayan kalemi olabileceği anlaşılır. Vaiz “Eksik olan sayılamaz” der; “eksik” için İbranice ḥesrôn kullanılır. Sayılabilir bir toplamın karşısındaki bu açık, kaybın bir hesap olarak okunmasını destekler.
 >
@@ -84,9 +84,7 @@
 >
 > {bible:καὶ φοβηθεὶς ἀπελθὼν ἔκρυψα τὸ τάλαντόν σου ἐν τῇ γῇ· ἴδε ἔχεις τὸ σόν., tr:And I was afraid, and went and hid thy talent in the earth: lo, [there] thou hast [that is] thine., gloss:Bu nedenle korktum, gidip senin verdiğin talantı toprağa gömdüm. İşte, al paranı!’, source:Matt.25.25}
 >
-> {bible:ἀποκριθεὶς δὲ ὁ κύριος αὐτοῦ εἶπεν αὐτῷ· Πονηρὲ δοῦλε καὶ ὀκνηρέ, ᾔδεις ὅτι θερίζω ὅπου οὐκ ἔσπειρα καὶ συνάγω ὅθεν οὐ διεσκόρπισα;, tr:His lord answered and said unto him, [Thou] wicked and slothful servant, thou knewest that I reap where I sowed not, and gather where I have not strawed:, gloss:“Efendisi ona şu karşılığı verdi: ‘Kötü ve tembel köle! Ekmediğim yerden biçtiğimi, harman savurmadığım yerden devşirdiğimi bildiğine göre paramı faize vermeliydin. Ben de geldiğimde onu faiziyle geri alırdım..., source:Matt.25.26}
->
-> {bible:ἔδει ⸂σε οὖν⸃ βαλεῖν ⸂τὰ ἀργύριά⸃ μου τοῖς τραπεζίταις, καὶ ἐλθὼν ἐγὼ ἐκομισάμην ἂν τὸ ἐμὸν σὺν τόκῳ., tr:Thou oughtest therefore to have put my money to the exchangers, and [then] at my coming I should have received mine own with usury., gloss:“Efendisi ona şu karşılığı verdi: ‘Kötü ve tembel köle! Ekmediğim yerden biçtiğimi, harman savurmadığım yerden devşirdiğimi bildiğine göre paramı faize vermeliydin. Ben de geldiğimde onu faiziyle geri alırdım..., source:Matt.25.27}
+> {bible:ἀποκριθεὶς δὲ ὁ κύριος αὐτοῦ εἶπεν αὐτῷ· Πονηρὲ δοῦλε καὶ ὀκνηρέ, ᾔδεις ὅτι θερίζω ὅπου οὐκ ἔσπειρα καὶ συνάγω ὅθεν οὐ διεσκόρπισα; ἔδει ⸂σε οὖν⸃ βαλεῖν ⸂τὰ ἀργύριά⸃ μου τοῖς τραπεζίταις, καὶ ἐλθὼν ἐγὼ ἐκομισάμην ἂν τὸ ἐμὸν σὺν τόκῳ., tr:His lord answered and said unto him, [Thou] wicked and slothful servant, thou knewest that I reap where I sowed not, and gather where I have not strawed: Thou oughtest therefore to have put my money to the exchangers, and [then] at my coming I should have received mine own with usury., gloss:“Efendisi ona şu karşılığı verdi: ‘Kötü ve tembel köle! Ekmediğim yerden biçtiğimi, harman savurmadığım yerden devşirdiğimi bildiğine göre paramı faize vermeliydin. Ben de geldiğimde onu faiziyle geri alırdım..., source:Matt.25.26-27}
 
 [¶7] Bu hesap yalnız parayla tutulmaz. Kaybın aynı adla anıldığı başka bir sermaye de vardır: {ar:المقتنيات النفسية كالصحة والسلامة والعقل والإيمان والثواب, tr:el-muktenayâtu'n-nefsiyye ke's-sıhhati ve's-selâmeti ve'l-akli ve'l-îmâni ve's-sevâb, gloss:sağlık, esenlik, akıl, iman ve sevap gibi kişinin kendine ait edinimleri, source:"خ س ر,B004"}. Böyle okununca ayetteki insan neşeli de olabilir, işleri yolunda da görünebilir; hüküm onun ruh hâlini değil defterini okur. Türkçedeki "hüsran" kişinin fark ettiği bir acıdır; ayetteki husr ise fark edilmeden de büyüyebilen bir açıktır.
 
@@ -264,9 +262,7 @@
 
 > **≈ Matt.13.20, Matt.13.21** — İlk iyilik karşısındaki güvenin, sınama gelince köksüz olduğu ortaya çıkabilir. Ekinci benzetmesinde sözü sevinçle alan kişi “kendisinde kök olmadığı” için sıkıntı veya baskı doğunca sendeleyip düşer. Kenarda duran kulluğun sınamada dönmesiyle aynı kırılma görünür.
 >
-> {bible:ὁ δὲ ἐπὶ τὰ πετρώδη σπαρείς, οὗτός ἐστιν ὁ τὸν λόγον ἀκούων καὶ εὐθὺς μετὰ χαρᾶς λαμβάνων αὐτόν,, tr:But he that received the seed into stony places, the same is he that heareth the word, and anon with joy receiveth it;, gloss:Kayalık yerlere ekilen ise işittiği sözü hemen sevinçle kabul eden, ama kök salamadığı için ancak bir süre dayanan kişidir. Böyle biri Tanrı sözünden ötürü sıkıntı ya da zulme uğrayınca hemen sendeleyip düşer., source:Matt.13.20}
->
-> {bible:οὐκ ἔχει δὲ ῥίζαν ἐν ἑαυτῷ ἀλλὰ πρόσκαιρός ἐστιν, γενομένης δὲ θλίψεως ἢ διωγμοῦ διὰ τὸν λόγον εὐθὺς σκανδαλίζεται., tr:Yet hath he not root in himself, but dureth for a while: for when tribulation or persecution ariseth because of the word, by and by he is offended., gloss:Kayalık yerlere ekilen ise işittiği sözü hemen sevinçle kabul eden, ama kök salamadığı için ancak bir süre dayanan kişidir. Böyle biri Tanrı sözünden ötürü sıkıntı ya da zulme uğrayınca hemen sendeleyip düşer., source:Matt.13.21}
+> {bible:ὁ δὲ ἐπὶ τὰ πετρώδη σπαρείς, οὗτός ἐστιν ὁ τὸν λόγον ἀκούων καὶ εὐθὺς μετὰ χαρᾶς λαμβάνων αὐτόν, οὐκ ἔχει δὲ ῥίζαν ἐν ἑαυτῷ ἀλλὰ πρόσκαιρός ἐστιν, γενομένης δὲ θλίψεως ἢ διωγμοῦ διὰ τὸν λόγον εὐθὺς σκανδαλίζεται., tr:But he that received the seed into stony places, the same is he that heareth the word, and anon with joy receiveth it; Yet hath he not root in himself, but dureth for a while: for when tribulation or persecution ariseth because of the word, by and by he is offended., gloss:Kayalık yerlere ekilen ise işittiği sözü hemen sevinçle kabul eden, ama kök salamadığı için ancak bir süre dayanan kişidir. Böyle biri Tanrı sözünden ötürü sıkıntı ya da zulme uğrayınca hemen sendeleyip düşer., source:Matt.13.20-21}
 
 > **≠ Jas.1.12** — Sınama gelince dönen kişinin karşısında, sınamaya dayananın sonucu görülür. Yakup “Sınamaya dayanan kişi mutludur; denenince yaşam tacını alacaktır” der. Kenar üzerinde duran kişi sınamada iki dünyayı yitirir; burada dayanma yaşamla sonuçlanır.
 >

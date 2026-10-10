@@ -148,7 +148,7 @@
 
 > **◦ Luke.4.16** — Okumanın düzenli ibadet toplantısında tanınan bir görev olduğunu gösterir. İsa, âdeti üzere Şabat günü havraya girer ve ‘okumak için ayağa kalkar’; paragraftaki okuyan ve ibadet eden kişi ilişkisi somutlaşır.
 >
-> {bible:Καὶ ἦλθεν ⸀εἰς Ναζαρά, οὗ ἦν τεθραμμένος, καὶ εἰσῆλθεν κατὰ τὸ εἰωθὸς αὐτῷ ἐν τῇ ἡμέρᾳ τῶν σαββάτων εἰς τὴν συναγωγήν, καὶ ἀνέστη ἀναγνῶναι., tr:¶ And he came to Nazareth, where he had been brought up: and, as his custom was, he went into the synagogue on the sabbath day, and stood up for to read., gloss:İsa, büyüdüğü Nasıra Kenti'ne geldiğinde her zamanki gibi Şabat Günü havraya gitti. Kutsal Yazılar'ı okumak üzere ayağa kalkınca O'na Peygamber Yeşaya'nın Kitabı verildi. Kitabı açarak şu sözlerin yazılı olduğu yeri buldu:, source:Luke.4.16}
+> {bible:Καὶ ἦλθεν ⸀εἰς Ναζαρά, οὗ ἦν τεθραμμένος, καὶ εἰσῆλθεν κατὰ τὸ εἰωθὸς αὐτῷ ἐν τῇ ἡμέρᾳ τῶν σαββάτων εἰς τὴν συναγωγήν, καὶ ἀνέστη ἀναγνῶναι., tr:¶ And he came to Nazareth, where he had been brought up: and, as his custom was, he went into the synagogue on the sabbath day, and stood up for to read., gloss:İsa, büyüdüğü Nasıra Kenti'ne geldiğinde her zamanki gibi Şabat Günü havraya gitti. Kutsal Yazılar'ı okumak üzere ayağa kalkınca O'na Peygamber Yeşaya'nın Kitabı verildi. Kitabı açarak şu sözlerin yazılı olduğu yeri buldu:, source:Luke.4.16 (Türkçe Luke.4.16-17 birlikte)}
 
 > **≈ Rev.1.3** — Sesli okumanın dinleme ve söyleneni tutmayla birlikte dinî bir eylem olabildiğini gösterir. Vahiy kitabı ‘okuyana, peygamberlik sözlerini dinleyenlere ve yazılanları tutanlara ne mutlu’ der; okuma kulluk hayatına bağlanır.
 >
@@ -204,7 +204,7 @@
 
 > **≈ 2Tim.3.15, 2Tim.3.16** — Yazılı ilahî sözün değerinin insana hikmet kazandırması ve öğretmesiyle görülebildiğini açıklar. Pavlus kutsal yazıların Mesih'e iman yolunda ‘kurtuluş için bilge kılabildiğini’ ve Tanrı esini olarak ‘öğretmek ... için yararlı’ olduğunu söyler; burada metnin yararı Hristiyan bağlamında anlatılır.
 >
-> {bible:καὶ ὅτι ἀπὸ βρέφους ⸀ἱερὰ γράμματα οἶδας, τὰ δυνάμενά σε σοφίσαι εἰς σωτηρίαν διὰ πίστεως τῆς ἐν Χριστῷ Ἰησοῦ·, tr:And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus., gloss:Sense öğrendiğin ve güvendiğin ilkelere bağlı kal. Çünkü bunları kimlerden öğrendiğini biliyorsun. Mesih İsa'ya iman aracılığıyla seni bilge kılıp kurtuluşa kavuşturacak güçte olan Kutsal Yazılar'ı da çocukluğundan beri biliyorsun., source:2Tim.3.15}
+> {bible:καὶ ὅτι ἀπὸ βρέφους ⸀ἱερὰ γράμματα οἶδας, τὰ δυνάμενά σε σοφίσαι εἰς σωτηρίαν διὰ πίστεως τῆς ἐν Χριστῷ Ἰησοῦ·, tr:And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus., gloss:Sense öğrendiğin ve güvendiğin ilkelere bağlı kal. Çünkü bunları kimlerden öğrendiğini biliyorsun. Mesih İsa'ya iman aracılığıyla seni bilge kılıp kurtuluşa kavuşturacak güçte olan Kutsal Yazılar'ı da çocukluğundan beri biliyorsun., source:2Tim.3.15 (Türkçe 2Tim.3.14-15 birlikte)}
 >
 > {bible:πᾶσα γραφὴ θεόπνευστος καὶ ὠφέλιμος πρὸς διδασκαλίαν, πρὸς ⸀ἐλεγμόν, πρὸς ἐπανόρθωσιν, πρὸς παιδείαν τὴν ἐν δικαιοσύνῃ,, tr:All scripture [is] given by inspiration of God, and [is] profitable for doctrine, for reproof, for correction, for instruction in righteousness:, gloss:Kutsal Yazılar'ın tümü Tanrı esinlemesidir ve öğretmek, azarlamak, yola getirmek, doğruluk konusunda eğitmek için yararlıdır., source:2Tim.3.16}
 
@@ -232,11 +232,7 @@
 
 > **≠ Jas.2.2, Jas.2.3, Jas.2.4** — Maddi bolluk kişiye daha yüksek değer atfetmeye dönüşünce yoksulun nasıl aşağılandığını gösterir. Toplantıda altın yüzüklü kişiye ‘iyi yerde otur’, yoksula ‘orada ayakta dur’ denir; serveti rütbe saymanın toplumsal sonucu görünür olur.
 >
-> {bible:ἐὰν γὰρ εἰσέλθῃ ⸀εἰς συναγωγὴν ὑμῶν ἀνὴρ χρυσοδακτύλιος ἐν ἐσθῆτι λαμπρᾷ, εἰσέλθῃ δὲ καὶ πτωχὸς ἐν ῥυπαρᾷ ἐσθῆτι,, tr:For if there come unto your assembly a man with a gold ring, in goodly apparel, and there come in also a poor man in vile raiment;, gloss:Toplandığınız yere altın yüzüklü, şık giyimli bir adamla kirli giysiler içinde yoksul bir adam geldiğinde, şık giyimliye ilgiyle, “Sen şuraya, iyi yere otur”, yoksula da, “Sen orada dur” ya da “Ayaklarımın dibine otur” derseniz, aranızda ayrım yapmış, kötü düşünceli yargıçlar gibi davranmış olmuyor musunuz?, source:Jas.2.2}
->
-> {bible:⸂ἐπιβλέψητε δὲ⸃ ἐπὶ τὸν φοροῦντα τὴν ἐσθῆτα τὴν λαμπρὰν καὶ ⸀εἴπητε· Σὺ κάθου ὧδε καλῶς, καὶ τῷ πτωχῷ εἴπητε· Σὺ στῆθι ⸂ἢ κάθου ἐκεῖ⸃ ὑπὸ τὸ ὑποπόδιόν μου,, tr:And ye have respect to him that weareth the gay clothing, and say unto him, Sit thou here in a good place; and say to the poor, Stand thou there, or sit here under my footstool:, gloss:Toplandığınız yere altın yüzüklü, şık giyimli bir adamla kirli giysiler içinde yoksul bir adam geldiğinde, şık giyimliye ilgiyle, “Sen şuraya, iyi yere otur”, yoksula da, “Sen orada dur” ya da “Ayaklarımın dibine otur” derseniz, aranızda ayrım yapmış, kötü düşünceli yargıçlar gibi davranmış olmuyor musunuz?, source:Jas.2.3}
->
-> {bible:⸀οὐ διεκρίθητε ἐν ἑαυτοῖς καὶ ἐγένεσθε κριταὶ διαλογισμῶν πονηρῶν;, tr:Are ye not then partial in yourselves, and are become judges of evil thoughts?, gloss:Toplandığınız yere altın yüzüklü, şık giyimli bir adamla kirli giysiler içinde yoksul bir adam geldiğinde, şık giyimliye ilgiyle, “Sen şuraya, iyi yere otur”, yoksula da, “Sen orada dur” ya da “Ayaklarımın dibine otur” derseniz, aranızda ayrım yapmış, kötü düşünceli yargıçlar gibi davranmış olmuyor musunuz?, source:Jas.2.4}
+> {bible:ἐὰν γὰρ εἰσέλθῃ ⸀εἰς συναγωγὴν ὑμῶν ἀνὴρ χρυσοδακτύλιος ἐν ἐσθῆτι λαμπρᾷ, εἰσέλθῃ δὲ καὶ πτωχὸς ἐν ῥυπαρᾷ ἐσθῆτι, ⸂ἐπιβλέψητε δὲ⸃ ἐπὶ τὸν φοροῦντα τὴν ἐσθῆτα τὴν λαμπρὰν καὶ ⸀εἴπητε· Σὺ κάθου ὧδε καλῶς, καὶ τῷ πτωχῷ εἴπητε· Σὺ στῆθι ⸂ἢ κάθου ἐκεῖ⸃ ὑπὸ τὸ ὑποπόδιόν μου, ⸀οὐ διεκρίθητε ἐν ἑαυτοῖς καὶ ἐγένεσθε κριταὶ διαλογισμῶν πονηρῶν;, tr:For if there come unto your assembly a man with a gold ring, in goodly apparel, and there come in also a poor man in vile raiment; And ye have respect to him that weareth the gay clothing, and say unto him, Sit thou here in a good place; and say to the poor, Stand thou there, or sit here under my footstool: Are ye not then partial in yourselves, and are become judges of evil thoughts?, gloss:Toplandığınız yere altın yüzüklü, şık giyimli bir adamla kirli giysiler içinde yoksul bir adam geldiğinde, şık giyimliye ilgiyle, “Sen şuraya, iyi yere otur”, yoksula da, “Sen orada dur” ya da “Ayaklarımın dibine otur” derseniz, aranızda ayrım yapmış, kötü düşünceli yargıçlar gibi davranmış olmuyor musunuz?, source:Jas.2.2-4}
 
 > **≠ 1John.3.17** — İyiliği içte kapatmanın ihtiyaç sahibini nasıl mahrum bıraktığını gösterir. Dünya malı olan biri yoksul kardeşini görüp ‘merhametini ona kapatırsa’, Tanrı sevgisinin onda nasıl kalacağı sorulur; tutulup aktarılmayan ikram sorgulanır.
 >
@@ -433,7 +429,7 @@
 
 > **≈ Ps.23.1** — ‘Rabbin’ hitabındaki kişisel bağın ihtiyaçların karşılanacağına güven doğurduğunu gösterir. Mezmurcu ‘RAB çobanımdır; eksiğim olmaz’ der; veren, hitap edilen kişinin kendi koruyucusu olarak duyulur.
 >
-> {bible:מִזְמ֥וֹר לְדָוִ֑ד יְהוָ֥ה רֹ֝עִ֗י לֹ֣א אֶחְסָֽר׃, tr:A Psalm of David. The LORD [is] my shepherd; I shall not want., gloss:RAB çobanımdır, Eksiğim olmaz., source:Ps.23.1}
+> {bible:מִזְמ֥וֹר לְדָוִ֑ד יְהוָ֥ה רֹ֝עִ֗י לֹ֣א אֶחְסָֽר׃, tr:A Psalm of David. The LORD [is] my shepherd; I shall not want., gloss:Davut'un mezmuru RAB çobanımdır, Eksiğim olmaz., source:Ps.23.1}
 
 > **≈ Isa.43.1** — Rabbin doğrudan sahiplenerek seslenmesi, kişisel hitabın güvence yönünü gösterir. RAB İsrail'e tekil hitapla ‘Seni adınla çağırdım; sen benimsin’ der; ‘Rabbin’ sözündeki yakınlık doğrudan seslenişte görünür.
 >
