@@ -224,9 +224,11 @@ def texts(db, ref: str) -> dict:
     book = OSIS.match(ref)[1]
     out = {}
     for src, r2 in (('KJV', ref), ('TURNTB', ref), ('WLC', mt_ref(ref)) if book in OT else ('SBLGNT', ref)):
-        r = db.execute('select text from seg where seg = ?', (f'{src}:{r2}',)).fetchone()
+        r = db.execute('select text, extra from seg where seg = ?', (f'{src}:{r2}',)).fetchone()
         if r:
             out[src] = r[0]
+            if src == 'TURNTB' and r[1] and json.loads(r[1]).get('bridge'):
+                out['TURNTB_bridge'] = json.loads(r[1])['bridge']   # the translation joins this verse with others
             if r2 != ref:
                 out[f'{src}_ref'] = r2
     return out
@@ -630,20 +632,36 @@ MARK = {'same': '≈', 'similar': '≈', 'opposite': '≠', 'background': '◦',
 
 def verse_lines(db, refs: list[str], quote: str) -> list[str]:
     """One tag per verse, the prose's tag structure with a `bible` field (user, 2026-10-09):
-    {bible:<WLC or SBLGNT>, tr:<KJV>, gloss:<Kutsal Kitap 2009>, source:<OSIS ref, KJV numbering>}. A text the
-    corpus lacks is written as "—" and printed as a NOTE, never left out silently."""
-    out = []
+    {bible:<WLC or SBLGNT>, tr:<KJV>, gloss:<Kutsal Kitap 2009>, source:<OSIS ref, KJV numbering>}. Where the Turkish
+    joins verses (TURNTB `bridge`), the row's verses of one range share one tag (source = the range) and the Turkish
+    is given once; a range only partly in the row says so in `source`. A text the corpus lacks is written as "—"
+    and printed as a NOTE, never left out silently."""
+    groups = []
     for ref in refs:
         t = texts(db, ref)
-        orig = t.get('WLC') or t.get('SBLGNT')
-        vals = [orig, t.get('KJV'), t.get('TURNTB')]
-        for name, v in zip(('original', 'KJV', 'TURNTB'), vals):
-            if not v:
-                print(f'NOTE: {ref}: no {name} text in the corpus; written as "—"')
-            elif '}' in v or re.search(r', (tr|gloss|source):', v):
-                print(f'NOTE: {ref}: {name} text contains a tag delimiter; check the rendering')
-        o, en, tr = (v or '—' for v in vals)
-        out.append(f'{quote}{{bible:{o}, tr:{en}, gloss:{tr}, source:{ref}}}')
+        br = t.get('TURNTB_bridge')
+        if groups and br and groups[-1][0] == br:
+            groups[-1][1].append((ref, t))
+        else:
+            groups.append((br, [(ref, t)]))
+    out = []
+    for br, members in groups:
+        for ref, t in members:
+            for name, v in (('original', t.get('WLC') or t.get('SBLGNT')), ('KJV', t.get('KJV')), ('TURNTB', t.get('TURNTB'))):
+                if not v:
+                    print(f'NOTE: {ref}: no {name} text in the corpus; written as "—"')
+                elif '}' in v or re.search(r', (tr|gloss|source):', v):
+                    print(f'NOTE: {ref}: {name} text contains a tag delimiter; check the rendering')
+        o = ' '.join((t.get('WLC') or t.get('SBLGNT') or '—') for _, t in members)
+        en = ' '.join(t.get('KJV') or '—' for _, t in members)
+        tr = members[0][1].get('TURNTB') or '—'
+        refs_here = [r for r, _ in members]
+        if br:
+            whole = len(refs_here) > 1 and refs_here[0] == br.split('-')[0]
+            src = br if whole else f"{', '.join(refs_here)} (Türkçe {br} birlikte)"
+        else:
+            src = refs_here[0]
+        out.append(f'{quote}{{bible:{o}, tr:{en}, gloss:{tr}, source:{src}}}')
     return out
 
 
