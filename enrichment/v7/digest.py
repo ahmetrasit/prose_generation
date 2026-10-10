@@ -28,9 +28,10 @@ BRIEF = V7 / 'briefs/digest.md'
 # In the 264-agent S1/S87–114 run, none of the 18 chunks below 20k rendered characters exceeded the
 # user's 120k-token context cap; 77 larger chunks did. Keep future v7 extractor inputs smaller.
 DEFAULT_CHUNK_CHARS = 20_000
-# Stage 1 kinds. Meal and translations go to the meal table; lexicon, poetry, wujuh, grammar and hadith
-# are keyed by root or term in a later stage.
-KINDS = ('tafsir', 'tafsir_tr', 'maani', 'nazm', 'isari', 'modern', 'qiraat', 'ulum', 'reference', 'sira')
+# Stage 1 kinds. Meal and translations go to the meal table; lexicon, poetry, wujuh and grammar are keyed by root
+# or term in a later stage. Hadith segments indexed to a verse (Riyāḍ al-Ṣāliḥīn chapters that open with it) are
+# stage 1 (2026-10-10); unindexed hadith reach the verse only through quote_packet.
+KINDS = ('tafsir', 'tafsir_tr', 'maani', 'nazm', 'isari', 'modern', 'qiraat', 'ulum', 'reference', 'sira', 'hadith')
 GUIDE = {
     'tafsir': 'A Qurʾān commentary. Record the author\'s own explanation of each verse, every view it reports with '
               'who holds it, reports and narrations (the authority at the end of the chain, the gist, any grading '
