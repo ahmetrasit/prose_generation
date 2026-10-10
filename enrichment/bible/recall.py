@@ -224,9 +224,11 @@ def texts(db, ref: str) -> dict:
     book = OSIS.match(ref)[1]
     out = {}
     for src, r2 in (('KJV', ref), ('TURNTB', ref), ('WLC', mt_ref(ref)) if book in OT else ('SBLGNT', ref)):
-        r = db.execute('select text from seg where seg = ?', (f'{src}:{r2}',)).fetchone()
+        r = db.execute('select text, extra from seg where seg = ?', (f'{src}:{r2}',)).fetchone()
         if r:
             out[src] = r[0]
+            if src == 'TURNTB' and r[1] and json.loads(r[1]).get('bridge'):
+                out['TURNTB_bridge'] = json.loads(r[1])['bridge']   # the translation joins this verse with others
             if r2 != ref:
                 out[f'{src}_ref'] = r2
     return out
@@ -381,6 +383,7 @@ def jsonl(text: str) -> tuple[list[dict], list[str]]:
                 if not isinstance(r[k], list) or not all(isinstance(x, str) for x in r[k]):
                     bad.append(f'"{k}" is not a list of references: {line[:120]}')
                     r[k] = [x for x in r[k] if isinstance(x, str)] if isinstance(r[k], list) else []
+                bad += [f'unknown or ambiguous book code: {x}' for x in r[k] if osis(x) is None]
                 fixed = [osis(x) or x for x in r[k]]
                 bad += [f'not an OSIS ref: {x}' for x in fixed if not OSIS.match(x)]
                 r[k] = fixed
@@ -398,7 +401,7 @@ def resume_turn(d: Path, n: int, text: str, effort: str, thread: str | None = No
             return r
     if (d / f'turn{n}.stream.jsonl').exists():
         k = 1 + len(list(d.glob(f'turn{n}.failed-*.stream.jsonl')))
-        for f in d.glob(f'turn{n}.*'):
+        for f in list(d.glob(f'turn{n}.*')):
             if '.failed-' not in f.name:
                 f.rename(d / f.name.replace(f'turn{n}.', f'turn{n}.failed-{k}.', 1))
         print(f'NOTE {d}: unfinished turn {n} set aside as turn{n}.failed-{k}.*; running it again', flush=True)
@@ -562,7 +565,7 @@ def check_one(ad: Path) -> str:
     placed = json.loads((ad / 'sol' / 'placed.json').read_text())
     paras = set(map(int, re.findall(r'\[¶(\d+)\]', (HERE / 'work' / f"s{int(ad.name.split('_')[0]):03d}" / 'pack'
                                                      / 'numbered' / f'{ad.name}.md').read_text())))
-    seen, problems = {}, []
+    seen, problems, notes = {}, [], []
     if (ad / 'cited.json').exists():
         c = json.loads((ad / 'cited.json').read_text())
         listed = {osis(m['ref']) or m['ref'] for m in c['shown']}                       # every verse of turns 1-2
@@ -570,8 +573,14 @@ def check_one(ad: Path) -> str:
         for r in placed['rows']:
             r['refs'] = [osis(x) or x for x in r.get('refs') or []]
         final = {x for r in placed['rows'] for x in r['refs']}
-        # a `was` counts only on a row that names its replacement; one naming a kept ref removes nothing
-        was = {osis(x) or x for r in placed['rows'] if r['refs'] for x in r.get('was') or []} - final
+        # a `was` counts only on a row that names its replacement in the same book; one naming a kept ref removes nothing
+        was = set()
+        for r in placed['rows']:
+            for x in {osis(y) or y for y in r.get('was') or []} - final:
+                if r['refs'] and any(y.split('.')[0] == x.split('.')[0] for y in r['refs']):
+                    was.add(x)
+                elif r['refs']:
+                    problems.append(f"{x}: replaced via was by {r['refs']} from another book (no decision for it)")
         for r in placed['rows']:
             if r.get('was') and not r['refs']:
                 problems.append(f"row with was {r['was']} names no replacement")
@@ -582,7 +591,7 @@ def check_one(ad: Path) -> str:
                     r['added'] = True
         listed -= was
         if was:
-            problems.append(f'NOTE (not a failure) {len(was)} reference(s) replaced via was: {sorted(was)[:6]}')
+            notes.append(f'NOTE {len(was)} reference(s) replaced via was: {sorted(was)[:6]}')
     else:
         listed = {m['ref'] for m in json.loads((ad / 'merged.json').read_text())['items']}
     for i, r in enumerate(placed['rows']):
@@ -610,7 +619,8 @@ def check_one(ad: Path) -> str:
         problems.append(f"{len(placed['malformed'])} malformed line(s)")
     n = {k: sum(len(r.get('refs') or []) for r in placed['rows'] if r.get('decision') == k) for k in ('place', 'end', 'drop')}
     return (f"placed {n['place']}, end {n['end']}, dropped {n['drop']}; "
-            + ('check OK' if not problems else f'{len(problems)} problem(s): ' + '; '.join(problems[:6])))
+            + ('check OK' if not problems else f'{len(problems)} problem(s): ' + '; '.join(problems[:6]))
+            + ''.join(f'; {x}' for x in notes))
 
 
 def cmd_place(a):
@@ -630,20 +640,39 @@ MARK = {'same': '≈', 'similar': '≈', 'opposite': '≠', 'background': '◦',
 
 def verse_lines(db, refs: list[str], quote: str) -> list[str]:
     """One tag per verse, the prose's tag structure with a `bible` field (user, 2026-10-09):
-    {bible:<WLC or SBLGNT>, tr:<KJV>, gloss:<Kutsal Kitap 2009>, source:<OSIS ref, KJV numbering>}. A text the
-    corpus lacks is written as "—" and printed as a NOTE, never left out silently."""
-    out = []
+    {bible:<WLC or SBLGNT>, tr:<KJV>, gloss:<Kutsal Kitap 2009>, source:<OSIS ref, KJV numbering>}. Where the Turkish
+    joins verses (TURNTB `bridge`), the row's verses of one range share one tag (source = the range) and the Turkish
+    is given once; a range only partly in the row says so in `source`. A text the corpus lacks is written as "—"
+    and printed as a NOTE, never left out silently."""
+    groups = []
     for ref in refs:
         t = texts(db, ref)
-        orig = t.get('WLC') or t.get('SBLGNT')
-        vals = [orig, t.get('KJV'), t.get('TURNTB')]
-        for name, v in zip(('original', 'KJV', 'TURNTB'), vals):
-            if not v:
-                print(f'NOTE: {ref}: no {name} text in the corpus; written as "—"')
-            elif '}' in v or re.search(r', (tr|gloss|source):', v):
-                print(f'NOTE: {ref}: {name} text contains a tag delimiter; check the rendering')
-        o, en, tr = (v or '—' for v in vals)
-        out.append(f'{quote}{{bible:{o}, tr:{en}, gloss:{tr}, source:{ref}}}')
+        br = t.get('TURNTB_bridge')
+        if groups and br and groups[-1][0] == br:
+            groups[-1][1].append((ref, t))
+        else:
+            groups.append((br, [(ref, t)]))
+    out = []
+    for br, members in groups:
+        for ref, t in members:
+            for name, v in (('original', t.get('WLC') or t.get('SBLGNT')), ('KJV', t.get('KJV')), ('TURNTB', t.get('TURNTB'))):
+                if not v:
+                    print(f'NOTE: {ref}: no {name} text in the corpus; written as "—"')
+                elif '}' in v or re.search(r', (tr|gloss|source):', v):
+                    print(f'NOTE: {ref}: {name} text contains a tag delimiter; check the rendering')
+        o = ' '.join((t.get('WLC') or t.get('SBLGNT') or '—') for _, t in members)
+        en = ' '.join(t.get('KJV') or '—' for _, t in members)
+        tr = members[0][1].get('TURNTB') or '—'
+        refs_here = [r for r, _ in members]
+        if br:
+            start, end = br.split('-')
+            b, c, _ = start.split('.')
+            end = end if '.' in end else f'{c}.{end}'
+            whole = len(refs_here) > 1 and refs_here[0] == start and refs_here[-1] == f'{b}.{end}'
+            src = br if whole else f"{', '.join(refs_here)} (Türkçe {br} birlikte)"
+        else:
+            src = refs_here[0]
+        out.append(f'{quote}{{bible:{o}, tr:{en}, gloss:{tr}, source:{src}}}')
     return out
 
 

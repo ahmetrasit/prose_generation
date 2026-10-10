@@ -65,9 +65,12 @@ verse those pages cite. Report the counts and the expected cost to the user.
 were a day older than the index, without that day's tafsir and meal imports; a build from them gathers a different
 set of segments.) `python3 -B enrichment/v2/tools/corpus.py fresh` must print `current`. `STALE` lines → rebuild
 (`corpus.py build`, no enrichment calls running) and run `fresh` again. On another machine, first reassemble the
-committed copy (`cat enrichment/corpus/corpus.sqlite.gz.part* | gunzip > enrichment/corpus/corpus.sqlite`); if
+copy from the PRIVATE repo `ahmetrasit/prose_generation_sources` cloned beside this one (`git -C ../prose_generation_sources
+pull`; `cp ../prose_generation_sources/enrichment/corpus/corpus.sqlite.gz.stamp.json enrichment/corpus/`; `cat
+../prose_generation_sources/enrichment/corpus/corpus.sqlite.gz.part?? | gunzip > enrichment/corpus/corpus.sqlite`); if
 `fresh` then says the parts DIFFER from the index or STALE, stop and ask for fresh parts. After every rebuild here:
-`enrichment/v2/tools/corpus_parts.sh`, then `git add -f enrichment/corpus/corpus.sqlite.gz.part?? enrichment/corpus/corpus.sqlite.gz.stamp.json`, commit, push.
+`enrichment/v2/tools/corpus_parts.sh`, then `python3 -B enrichment/v2/tools/sources_sync.py --commit`. **This repo is
+public: never `git add -f` the corpus database copies or any raw/ file here** (copyrighted texts; user, 2026-10-09).
 ```bash
 python3 -B enrichment/v7/digest.py build <tier1 run> --ayat $(cat enrichment/v9/work/prod_sNNN/verses.txt) --models gpt-6-luna:max --skip-done luna-max --quotes [--skip-planned <tier1 runs built but not finished>]
 nohup enrichment/v9/tools/run_until_done.sh 60 enrichment/v7/work/<tier1 run>/runs <log> enrichment/v7/work/<tier1 run>/spawn/luna-max_c*.md &
@@ -84,6 +87,13 @@ included in Tier 1. The quotation packet records limited-search ayat and cautiou
 characters including spaces. Inspect those limits before claiming quotation coverage. Tier 1 may also run on the user's other computer (handoff via git: this machine
 builds and commits `manifest.json`, `chunks/` (force-added; they are git-ignored), `spawn/`; the other runs and pushes
 `out/` and `runs/*/run.json`).
+
+One verified digest serves every verse named by its rows, including ranges and annotated lists; `mentions` links
+carry an explicit label identifying the verse the point is about. The checker, material report and row readers
+share the validation and provenance rules. Build `python3 -B enrichment/v9/linked.py build --surahs <range>` once
+per range for `q.py linked <S:A>` lookups of tied segments whose notes discuss other verses. The index records
+quotation limits; rebuild it after corpus or citation changes. Existing maps gain newly linked notes through the
+separately approved `map.py update-all` Sol run.
 
 ### 2. Verse maps (Sol high): new verses, then updates of existing maps
 ```bash
@@ -154,8 +164,9 @@ compare, and `enrich.py supersede … --attempt N` (the old page moves to `out/s
 - One directory per source (`source.json` versioned; `segments.jsonl` and `raw/` local, git-ignored). Importers:
   `enrichment/v2/fetch/import_meal_*.py` (`--dry`, ingestion record with issues, counts and `missing`).
 - Importers write source files only; **rebuild the index once afterwards**: `python3 -B enrichment/v2/tools/corpus.py build`,
-  then regenerate the committed copy (`enrichment/v2/tools/corpus_parts.sh`, `git add -f` the parts and the stamp,
-  commit, push). `corpus.py fresh` says whether the index and the committed parts are current.
+  then regenerate the copy (`enrichment/v2/tools/corpus_parts.sh`) and mirror it with raw/ into the private repo
+  (`python3 -B enrichment/v2/tools/sources_sync.py --commit`). `corpus.py fresh` says whether the index and the parts
+  are current. raw/ and the database copies live only in `prose_generation_sources` (private); this repo is public.
 - OCR corrections: `enrichment/v2/fetch/ocr_fix.py SOURCE_ID [--dry]` (confident fixes only; originals kept in
   `text_ocr`, each fix in `ocr_fixes`, summary in the ingestion record).
 - Every missing verse of a meal source is recorded in its `source.json` (`ingestion.missing` + notes); a meal

@@ -18,7 +18,7 @@
 
 > **◦ Ps.25.1** — İlahi adresi sözün başına koymanın yönü eylemden önce işittirdiğini gösterir. “Sana, ey RAB, canımı yükseltirim” cümlesi önce “sana” der, ardından canın yükselmesini anlatır. Burada duanın, paragrafta ise dönüşün yönü öne alınır.
 >
-> {bible:לְדָוִ֡ד אֵלֶ֥יךָ יְ֝הוָ֗ה נַפְשִׁ֥י אֶשָּֽׂא׃, tr:[A Psalm] of David. Unto thee, O LORD, do I lift up my soul., gloss:Ya RAB, bütün varlığımla sana yaklaşıyorum,, source:Ps.25.1}
+> {bible:לְדָוִ֡ד אֵלֶ֥יךָ יְ֝הוָ֗ה נַפְשִׁ֥י אֶשָּֽׂא׃, tr:[A Psalm] of David. Unto thee, O LORD, do I lift up my soul., gloss:Davut'un mezmuru Ya RAB, bütün varlığımla sana yaklaşıyorum,, source:Ps.25.1}
 
 > **◦ Ps.65.2** — Gelişten önce yönün söylenmesinin hedefi dinleyiciye önce duyurduğunu gösterir. “Duayı işiten, sana bütün insanlar gelecek” sözünde İbranice “sana” ifadesi “bütün insanlar gelecek” sözünden önce durur. Burada dua için geliş, paragrafta Rabbe dönüş anlatılır.
 >
@@ -58,7 +58,7 @@
 
 > **≈ Ps.24.1** — Rabbin sahip oluşunun insanları da kapsadığını açıkça söyler. “Yeryüzü, içindekiler ve üzerinde yaşayanlar RAB’bindir” sözü, kendini sahipsiz sanan insanın da O’na ait olduğunu gösterir.
 >
-> {bible:לְדָוִ֗ד מִ֫זְמ֥וֹר לַֽ֭יהוָה הָאָ֣רֶץ וּמְלוֹאָ֑הּ תֵּ֝בֵ֗ל וְיֹ֣שְׁבֵי בָֽהּ׃, tr:A Psalm of David. The earth [is] the LORD’s, and the fulness thereof; the world, and they that dwell therein., gloss:RAB'bindir yeryüzü ve içindeki her şey, Dünya ve üzerinde yaşayanlar;, source:Ps.24.1}
+> {bible:לְדָוִ֗ד מִ֫זְמ֥וֹר לַֽ֭יהוָה הָאָ֣רֶץ וּמְלוֹאָ֑הּ תֵּ֝בֵ֗ל וְיֹ֣שְׁבֵי בָֽהּ׃, tr:A Psalm of David. The earth [is] the LORD’s, and the fulness thereof; the world, and they that dwell therein., gloss:Davut'un mezmuru RAB'bindir yeryüzü ve içindeki her şey, Dünya ve üzerinde yaşayanlar;, source:Ps.24.1}
 
 > **≈ Rom.14.8** — Yaşarken ve ölürken aynı Rabbe ait olmanın dönüşün adresiyle bağını belirginleştirir. “Yaşasak da ölsek de Rabbe aitiz” denir. Sahiplik, ölümle sona eren bir ilişki olarak anlatılmaz.
 >
@@ -116,7 +116,7 @@
 
 > **≈ Rom.4.17, Rom.4.19** — Hayatın başlangıcındaki imkânsızlığın diriliş umuduyla neden birlikte düşünüldüğünü açık eder. İbrahim’e verilen çocuk vaadinde Tanrı “ölüleri dirilten, var olmayanı varmış gibi çağıran” diye anılır; Sâre’nin rahmi de ölü sayılır. Buradaki örnek doğumdur; paragraf aynı kudreti insanın geri döndürülmesine uygular.
 >
-> {bible:καθὼς γέγραπται ὅτι Πατέρα πολλῶν ἐθνῶν τέθεικά σε), κατέναντι οὗ ἐπίστευσεν θεοῦ τοῦ ζῳοποιοῦντος τοὺς νεκροὺς καὶ καλοῦντος τὰ μὴ ὄντα ὡς ὄντα·, tr:(As it is written, I have made thee a father of many nations,) before him whom he believed, [even] God, who quickeneth the dead, and calleth those things which be not as though they were., gloss:Bu nedenle vaat, Tanrı'nın lütfuna dayanmak ve İbrahim'in bütün soyu için güvence altına alınmak üzere imana bağlı kılınmıştır. İbrahim'in soyu yalnız Kutsal Yasa'ya bağlı olanlar değil, aynı zamanda İbrahim'in imanına sahip olanlardır. “Seni birçok ulusun babası yaptım” diye yazılmış olduğu gibi İbrahim, iman ettiği Tanrı'nın –ölülere yaşam veren, var olmayanı buyruğuyla var eden Tanrı'nın– gözünde hepimizin babasıdır., source:Rom.4.17}
+> {bible:καθὼς γέγραπται ὅτι Πατέρα πολλῶν ἐθνῶν τέθεικά σε), κατέναντι οὗ ἐπίστευσεν θεοῦ τοῦ ζῳοποιοῦντος τοὺς νεκροὺς καὶ καλοῦντος τὰ μὴ ὄντα ὡς ὄντα·, tr:(As it is written, I have made thee a father of many nations,) before him whom he believed, [even] God, who quickeneth the dead, and calleth those things which be not as though they were., gloss:Bu nedenle vaat, Tanrı'nın lütfuna dayanmak ve İbrahim'in bütün soyu için güvence altına alınmak üzere imana bağlı kılınmıştır. İbrahim'in soyu yalnız Kutsal Yasa'ya bağlı olanlar değil, aynı zamanda İbrahim'in imanına sahip olanlardır. “Seni birçok ulusun babası yaptım” diye yazılmış olduğu gibi İbrahim, iman ettiği Tanrı'nın –ölülere yaşam veren, var olmayanı buyruğuyla var eden Tanrı'nın– gözünde hepimizin babasıdır., source:Rom.4.17 (Türkçe Rom.4.16-17 birlikte)}
 >
 > {bible:καὶ μὴ ἀσθενήσας τῇ ⸀πίστει κατενόησεν τὸ ἑαυτοῦ ⸀σῶμα νενεκρωμένον, ἑκατονταετής που ὑπάρχων, καὶ τὴν νέκρωσιν τῆς μήτρας Σάρρας,, tr:And being not weak in faith, he considered not his own body now dead, when he was about an hundred years old, neither yet the deadness of Sara’s womb:, gloss:Yüz yaşına yaklaşmışken, ölü denebilecek bedenini ve Sara'nın ölü rahmini düşündüğünde imanı zayıflamadı., source:Rom.4.19}
 
@@ -196,7 +196,7 @@
 
 > **≈ Heb.9.27** — Ölümden sonra dünyadaki işleri düzeltme isteğinin neden gecikmiş olduğunu açık eder. “İnsanlara bir kez ölmek, ardından yargı” belirlenmiştir. Bu sıra, ölümden sonraki yönün dünyada yeniden çalışma isteğiyle değişmediğini gösterir.
 >
-> {bible:καὶ καθʼ ὅσον ἀπόκειται τοῖς ἀνθρώποις ἅπαξ ἀποθανεῖν, μετὰ δὲ τοῦτο κρίσις,, tr:And as it is appointed unto men once to die, but after this the judgment:, gloss:İnsanın bir kez ölmesi, sonra da yargılanması kaçınılmaz olduğu gibi, Mesih de birçoklarının günahlarını yüklenmek için bir kez kurban edildi. İkinci kez, günah yüklenmek için değil, kurtuluş getirmek için kendisini bekleyenlere görünecektir., source:Heb.9.27}
+> {bible:καὶ καθʼ ὅσον ἀπόκειται τοῖς ἀνθρώποις ἅπαξ ἀποθανεῖν, μετὰ δὲ τοῦτο κρίσις,, tr:And as it is appointed unto men once to die, but after this the judgment:, gloss:İnsanın bir kez ölmesi, sonra da yargılanması kaçınılmaz olduğu gibi, Mesih de birçoklarının günahlarını yüklenmek için bir kez kurban edildi. İkinci kez, günah yüklenmek için değil, kurtuluş getirmek için kendisini bekleyenlere görünecektir., source:Heb.9.27 (Türkçe Heb.9.27-28 birlikte)}
 
 > **≠ 2Sam.12.23** — Ölümden sonraki yönün yaşayanların dünyasına geri açılmadığını ters yönden söyler. Davut ölen çocuğu için “Ben ona gideceğim, o bana dönmeyecek” der. Burada varış çocuğun bulunduğu yer diye anlatılır; paragrafta dönüşün adresi Rabbin huzurudur.
 >
@@ -212,7 +212,7 @@
 
 > **≈ Acts.3.19** — İnsanın şimdi yapabileceği dönüşün eski günahlarının silinmesine yöneldiğini açık eder. “Tövbe edin ve dönün ki günahlarınız silinsin” çağrısı yapılır. Paragraftaki vazgeçme, hesap gelmeden önce sonuç doğurabilecek bir eylemdir.
 >
-> {bible:μετανοήσατε οὖν καὶ ἐπιστρέψατε ⸀πρὸς τὸ ἐξαλειφθῆναι ὑμῶν τὰς ἁμαρτίας,, tr:¶ Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord;, gloss:Öyleyse, günahlarınızın silinmesi için tövbe edin ve Tanrı'ya dönün. Öyle ki, Rab size yenilenme fırsatları versin ve sizin için önceden belirlenen Mesih'i, yani İsa'yı göndersin., source:Acts.3.19}
+> {bible:μετανοήσατε οὖν καὶ ἐπιστρέψατε ⸀πρὸς τὸ ἐξαλειφθῆναι ὑμῶν τὰς ἁμαρτίας,, tr:¶ Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord;, gloss:Öyleyse, günahlarınızın silinmesi için tövbe edin ve Tanrı'ya dönün. Öyle ki, Rab size yenilenme fırsatları versin ve sizin için önceden belirlenen Mesih'i, yani İsa'yı göndersin., source:Acts.3.19 (Türkçe Acts.3.19-20 birlikte)}
 
 > **≈ Jer.6.16** — İnsanın hâlâ yoldayken iyi yola girebileceğini ve bunu reddedebileceğini gösterir. “Eski yolları sorun, iyi yolda yürüyün; canlarınıza huzur bulursunuz” çağrısına halk “Yürümeyeceğiz” diye cevap verir. Paragraftaki şimdi yapılabilen dönüşün açık kapısı ve insanın direnişi burada birlikte görünür.
 >
@@ -357,7 +357,7 @@
 
 > **≈ Ps.90.1** — Kulun Tanrı’ya yönelişini ait olduğu yere varış olarak anlamayı kolaylaştırır. “Ya Rab, kuşaklar boyunca meskenimiz sen oldun” sözü, paragraftaki yerleşme ve geri gelme resimlerinin odağına Tanrı’nın kendisini koyar.
 >
-> {bible:תְּפִלָּה֮ לְמֹשֶׁ֪ה אִֽישׁ־הָאֱלֹ֫הִ֥ים אֲֽדֹנָ֗י מָע֣וֹן אַ֭תָּה הָיִ֥יתָ לָּ֗נוּ בְּדֹ֣ר וָדֹֽר׃, tr:A Prayer of Moses the man of God. Lord, thou hast been our dwelling place in all generations., gloss:Ya Rab, barınak oldun bize Kuşaklar boyunca., source:Ps.90.1}
+> {bible:תְּפִלָּה֮ לְמֹשֶׁ֪ה אִֽישׁ־הָאֱלֹ֫הִ֥ים אֲֽדֹנָ֗י מָע֣וֹן אַ֭תָּה הָיִ֥יתָ לָּ֗נוּ בְּדֹ֣ר וָדֹֽר׃, tr:A Prayer of Moses the man of God. Lord, thou hast been our dwelling place in all generations., gloss:Tanrı adamı Musa'nın duası Ya Rab, barınak oldun bize Kuşaklar boyunca., source:Ps.90.1}
 
 <details><summary>Elenenler (21)</summary>
 

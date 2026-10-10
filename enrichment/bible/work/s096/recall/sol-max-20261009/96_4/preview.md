@@ -142,7 +142,7 @@
 
 > **◦ Rev.14.9** — Karşıt bir alın işaretinin tapınma bağlılığını göstermesi, üçüncü meleğin uyarısında görünür. «Canavara ve suretine tapıp alnına ya da eline onun işaretini alan» kişiden söz edilir; işaret burada hangi tarafa bağlandığını bildirir.
 >
-> {bible:Καὶ ἄλλος ἄγγελος τρίτος ἠκολούθησεν αὐτοῖς λέγων ἐν φωνῇ μεγάλῃ· Εἴ τις προσκυνεῖ τὸ θηρίον καὶ τὴν εἰκόνα αὐτοῦ, καὶ λαμβάνει χάραγμα ἐπὶ τοῦ μετώπου αὐτοῦ ἢ ἐπὶ τὴν χεῖρα αὐτοῦ,, tr:And the third angel followed them, saying with a loud voice, If any man worship the beast and his image, and receive [his] mark in his forehead, or in his hand,, gloss:Onları üçüncü bir melek izledi. Yüksek sesle şöyle diyordu: “Bir kimse canavara ve heykeline taparsa, alnına ya da eline canavarın işaretini koydurursa, Tanrı gazabının kâsesinde saf olarak hazırlanmış Tanrı öfkesinin şarabından içecektir. Böylelerine kutsal meleklerin ve Kuzu'nun önünde ateş ve kükürtle işkence edilecek., source:Rev.14.9}
+> {bible:Καὶ ἄλλος ἄγγελος τρίτος ἠκολούθησεν αὐτοῖς λέγων ἐν φωνῇ μεγάλῃ· Εἴ τις προσκυνεῖ τὸ θηρίον καὶ τὴν εἰκόνα αὐτοῦ, καὶ λαμβάνει χάραγμα ἐπὶ τοῦ μετώπου αὐτοῦ ἢ ἐπὶ τὴν χεῖρα αὐτοῦ,, tr:And the third angel followed them, saying with a loud voice, If any man worship the beast and his image, and receive [his] mark in his forehead, or in his hand,, gloss:Onları üçüncü bir melek izledi. Yüksek sesle şöyle diyordu: “Bir kimse canavara ve heykeline taparsa, alnına ya da eline canavarın işaretini koydurursa, Tanrı gazabının kâsesinde saf olarak hazırlanmış Tanrı öfkesinin şarabından içecektir. Böylelerine kutsal meleklerin ve Kuzu'nun önünde ateş ve kükürtle işkence edilecek., source:Rev.14.9 (Türkçe Rev.14.9-10 birlikte)}
 
 ## Kalem: tekrar tekrar yontulan kamış
 
@@ -256,7 +256,7 @@
 
 > **≈ Luke.1.3, Luke.1.4** — Düzenli yazının okurda güvenilir bilgi oluşturması, Luka'nın önsözünde açıkça amaçlanır. «Sana sırayla yazmayı uygun gördüm ... öğrendiklerinin sağlamlığını bilesin» der; burada düzen, bir anlatının kuruluşuyla gösterilir.
 >
-> {bible:ἔδοξε κἀμοὶ παρηκολουθηκότι ἄνωθεν πᾶσιν ἀκριβῶς καθεξῆς σοι γράψαι, κράτιστε Θεόφιλε,, tr:It seemed good to me also, having had perfect understanding of all things from the very first, to write unto thee in order, most excellent Theophilus,, gloss:Sayın Teofilos, Birçok kişi aramızda olup bitenlerin tarihçesini yazmaya girişti. Nitekim başlangıçtan beri bu olayların görgü tanığı ve Tanrı sözünün hizmetkârı olanlar bunları bize ilettiler. Ben de bütün bu olayları ta başından özenle araştırmış biri olarak bunları sana sırasıyla yazmayı uygun gördüm., source:Luke.1.3}
+> {bible:ἔδοξε κἀμοὶ παρηκολουθηκότι ἄνωθεν πᾶσιν ἀκριβῶς καθεξῆς σοι γράψαι, κράτιστε Θεόφιλε,, tr:It seemed good to me also, having had perfect understanding of all things from the very first, to write unto thee in order, most excellent Theophilus,, gloss:Sayın Teofilos, Birçok kişi aramızda olup bitenlerin tarihçesini yazmaya girişti. Nitekim başlangıçtan beri bu olayların görgü tanığı ve Tanrı sözünün hizmetkârı olanlar bunları bize ilettiler. Ben de bütün bu olayları ta başından özenle araştırmış biri olarak bunları sana sırasıyla yazmayı uygun gördüm., source:Luke.1.3 (Türkçe Luke.1.1-3 birlikte)}
 >
 > {bible:ἵνα ἐπιγνῷς περὶ ὧν κατηχήθης λόγων τὴν ἀσφάλειαν., tr:That thou mightest know the certainty of those things, wherein thou hast been instructed., gloss:Öyle ki, sana verilen bilgilerin doğruluğunu bilesin., source:Luke.1.4}
 
@@ -268,7 +268,7 @@
 
 > **◦ Ps.45.1** — Dilin yazıcı kalemine benzetilmesi, düzenlenmiş söz ile yazı arasındaki imge bağını görünür kılar. Kral için ezgi söyleyen mezmurcu «Dilim çevik bir yazıcının kalemidir» der; burada konu vahiy muhatabının aklı değil, hazırlanmış şiirdir.
 >
-> {bible:רָ֘חַ֤שׁ לִבִּ֨י ׀ דָּ֘בָ֤ר ט֗וֹב אֹמֵ֣ר אָ֭נִי מַעֲשַׂ֣י לְמֶ֑לֶךְ לְ֝שׁוֹנִ֗י עֵ֤ט ׀ סוֹפֵ֬ר מָהִֽיר׃, tr:To the chief Musician upon Shoshannim, for the sons of Korah, Maschil, A Song of loves. My heart is inditing a good matter: I speak of the things which I have made touching the king: my tongue [is] the pen of a ready writer., gloss:Yüreğimden güzel sözler taşıyor, Kral için söylüyorum şiirlerimi, Dilim usta bir yazarın kalemi gibi olsun., source:Ps.45.1}
+> {bible:רָ֘חַ֤שׁ לִבִּ֨י ׀ דָּ֘בָ֤ר ט֗וֹב אֹמֵ֣ר אָ֭נִי מַעֲשַׂ֣י לְמֶ֑לֶךְ לְ֝שׁוֹנִ֗י עֵ֤ט ׀ סוֹפֵ֬ר מָהִֽיר׃, tr:To the chief Musician upon Shoshannim, for the sons of Korah, Maschil, A Song of loves. My heart is inditing a good matter: I speak of the things which I have made touching the king: my tongue [is] the pen of a ready writer., gloss:Müzik şefi için - “Zambaklar” makamında Korahoğulları'nın Maskili - Aşk ilahisi Yüreğimden güzel sözler taşıyor, Kral için söylüyorum şiirlerimi, Dilim usta bir yazarın kalemi gibi olsun., source:Ps.45.1}
 
 ## Tükenen kalem, tükenmeyen söz
 
@@ -358,7 +358,7 @@
 
 > **≠ Luke.1.2** — Bulunulmayan bir olayın bilgisinin nasıl edinildiği, Luka'nın görgü tanıklarını belirtmesiyle daha keskinleşir. Olaylar «başından beri görgü tanığı olanların bize aktardığı» yolla gelir; paragraftaki görülmemiş an ise vahiy olarak bildirilir.
 >
-> {bible:καθὼς παρέδοσαν ἡμῖν οἱ ἀπʼ ἀρχῆς αὐτόπται καὶ ὑπηρέται γενόμενοι τοῦ λόγου,, tr:Even as they delivered them unto us, which from the beginning were eyewitnesses, and ministers of the word;, gloss:Sayın Teofilos, Birçok kişi aramızda olup bitenlerin tarihçesini yazmaya girişti. Nitekim başlangıçtan beri bu olayların görgü tanığı ve Tanrı sözünün hizmetkârı olanlar bunları bize ilettiler. Ben de bütün bu olayları ta başından özenle araştırmış biri olarak bunları sana sırasıyla yazmayı uygun gördüm., source:Luke.1.2}
+> {bible:καθὼς παρέδοσαν ἡμῖν οἱ ἀπʼ ἀρχῆς αὐτόπται καὶ ὑπηρέται γενόμενοι τοῦ λόγου,, tr:Even as they delivered them unto us, which from the beginning were eyewitnesses, and ministers of the word;, gloss:Sayın Teofilos, Birçok kişi aramızda olup bitenlerin tarihçesini yazmaya girişti. Nitekim başlangıçtan beri bu olayların görgü tanığı ve Tanrı sözünün hizmetkârı olanlar bunları bize ilettiler. Ben de bütün bu olayları ta başından özenle araştırmış biri olarak bunları sana sırasıyla yazmayı uygun gördüm., source:Luke.1.2 (Türkçe Luke.1.1-3 birlikte)}
 
 > **≈ Gal.1.11, Gal.1.12** — İnsanlardan öğrenilmeyen bir haberin vahiy yoluyla gelmesi, Pavlus'un kendi müjdesinin kaynağını açıklamasında görünür. «Onu insandan almadım, insandan öğrenmedim; İsa Mesih'in vahyiyle aldım» der; onun konusu müjde, paragrafın konusu görülmemiş bir olaydır.
 >
@@ -394,7 +394,7 @@
 
 > **≈ Ps.19.1** — Yaratılmış bir şeyin kendisiyle bilgi vermesi, göklerin tanıklığında görünür. «Gökler Tanrı'nın görkemini anlatır, gökkubbe ellerinin işini bildirir»; mezmur göğü, paragraf yaratılmış dünyanın her türünü işaret olarak okur.
 >
-> {bible:הַשָּׁמַ֗יִם מְֽסַפְּרִ֥ים כְּבֽוֹד־אֵ֑ל וּֽמַעֲשֵׂ֥ה יָ֝דָ֗יו מַגִּ֥יד הָרָקִֽיעַ׃, tr:To the chief Musician, A Psalm of David. The heavens declare the glory of God; and the firmament sheweth his handywork., gloss:Gökler Tanrı'nın görkemini açıklamakta, Gökkubbe ellerinin eserini duyurmakta., source:Ps.19.1}
+> {bible:הַשָּׁמַ֗יִם מְֽסַפְּרִ֥ים כְּבֽוֹד־אֵ֑ל וּֽמַעֲשֵׂ֥ה יָ֝דָ֗יו מַגִּ֥יד הָרָקִֽיעַ׃, tr:To the chief Musician, A Psalm of David. The heavens declare the glory of God; and the firmament sheweth his handywork., gloss:Müzik şefi için - Davut'un mezmuru Gökler Tanrı'nın görkemini açıklamakta, Gökkubbe ellerinin eserini duyurmakta., source:Ps.19.1}
 
 > **≈ Job.12.7, Job.12.8, Job.12.9** — Yaratılmışların kendilerinin öğretici işaretler olması, hayvanlara ve toprağa danışma çağrısında açıkça söylenir. «Hayvanlara sor, sana öğretsinler ... toprağa söyle, sana öğretsin» sözlerini, bunlarda «RAB'bin elinin» tanınacağı sorusu izler.
 >

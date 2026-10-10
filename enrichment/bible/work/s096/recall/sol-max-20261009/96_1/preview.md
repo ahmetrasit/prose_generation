@@ -234,7 +234,7 @@
 
 > **≈ Ps.23.1** — İhtiyacın Rabbin bakımıyla karşılanması, rubbâ'daki ihtiyaç ile iyiliğin aynı ilişkinin iki ucu olmasını açıklar. ‘Rab çobanımdır, eksiğim olmaz’ diyen kişi yeterliliği kendine değil çobanın bakımına bağlar.
 >
-> {bible:מִזְמ֥וֹר לְדָוִ֑ד יְהוָ֥ה רֹ֝עִ֗י לֹ֣א אֶחְסָֽר׃, tr:A Psalm of David. The LORD [is] my shepherd; I shall not want., gloss:RAB çobanımdır, Eksiğim olmaz., source:Ps.23.1}
+> {bible:מִזְמ֥וֹר לְדָוִ֑ד יְהוָ֥ה רֹ֝עִ֗י לֹ֣א אֶחְסָֽר׃, tr:A Psalm of David. The LORD [is] my shepherd; I shall not want., gloss:Davut'un mezmuru RAB çobanımdır, Eksiğim olmaz., source:Ps.23.1}
 
 ## Yaratmak: ölçmek, işlemek, düzeltmek
 

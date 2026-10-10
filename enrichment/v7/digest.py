@@ -56,9 +56,10 @@ GUIDE = {
     'ulum': 'A work on the Qurʾānic sciences. Record what it says about the verse: rhetoric, inimitability, '
             'abrogation, occasions of revelation, structure, with the authorities cited.',
     'reference': 'A reference work. Record what the entry says about the verse and its terms, with the scholars cited.',
-    'hadith': 'A hadith collection, indexed to the verse or reached because its passage quotes the verse. Record the report, who it goes back '
-              'to, its gist and how it bears on the verse, and any grading the collection states. Mark it none when '
-              'the verse words only coincide.',
+    'hadith': 'A hadith collection, indexed to the verse or reached because its passage quotes the verse (a chapter '
+              'heading that opens with the verse, or a report). Record each report, who it goes back to, its gist '
+              'and how it bears on the verse, and any grading the collection states; for a chapter heading, also '
+              'the theme the compiler files the verse under. Mark it none when the verse words only coincide.',
     'poetry': 'A poetry collection or its commentary, reached because the passage shares the verse\'s words. Record '
               'the poet, the line\'s point, and the commentator\'s gloss when it bears on the verse\'s words; mark it '
               'none when the words only coincide.',
@@ -145,8 +146,8 @@ def tag_problems(r):
         for w in words:
             if w == WHOLE:
                 continue
-            if not any(all(word_position(x, v) is not None for x in str(w).split()) for v in r.get('verses') or []):
-                out.append(f'word «{w}» is not in the text of {", ".join(r.get("verses") or []) or "its verses"}')
+            if not any(all(word_position(x, v) is not None for x in str(w).split()) for v in verse_list(r.get('verses'))):
+                out.append(f'word «{w}» is not in the text of {", ".join(verse_list(r.get("verses"))) or "its verses"}')
     if typ not in TYPES:
         out.append(f'type «{typ}» is not one of: {", ".join(TYPES)}')
     return out
@@ -234,6 +235,57 @@ def parse_ayah(text):
     return int(s), int(a)
 
 
+_VERSE_TOKEN = re.compile(r'(?:(\d+):)?(\d+)(?:\s*-\s*(?:(\d+):)?(\d+))?')
+_DASHES = str.maketrans({'–': '-', '—': '-', '‒': '-', '−': '-'})
+_WORD_BEFORE = re.compile(r"([^\W\d_][\w'’ʾ.-]*)\W*$")   # the word just before a verse item, if any
+_BIBLE = set("""genesis gen exodus exod ex leviticus lev numbers num deuteronomy deut dt joshua josh judges judg ruth
+samuel sam kings kgs chronicles chron chr ezra nehemiah neh esther esth job psalm psalms ps psa pss proverbs prov pr
+ecclesiastes eccl eccles qoheleth song songs canticles cant isaiah isa jeremiah jer lamentations lam ezekiel ezek
+daniel dan hosea hos joel amos obadiah obad jonah micah mic nahum nah habakkuk hab zephaniah zeph haggai hag
+zechariah zech malachi mal matthew matt mt mark mk luke lk john jn acts romans rom corinthians cor galatians gal
+ephesians eph philippians phil colossians col thessalonians thess timothy tim titus philemon phlm hebrews heb james
+jas peter pet pt jude revelation rev apocalypse maccabees macc sirach sir ecclesiasticus tobit tob wisdom wis baruch
+bar judith jdt esdras esd torah tanakh gospel bible septuagint lxx talmud mishnah gn lv nm jos jgs jb prv sg jl jon ob
+zep zec rv rm revelations""".split())
+_GAP = re.compile(r'^[\s,;"\'&]*$')                 # what may stand between two items of one list
+RANGE_MAX = 300              # a written range longer than this is taken as a mistake, not expanded
+AYAH_MAX = 286               # the longest sūra; a larger ayah number is not a verse
+
+
+def verse_list(values, rejected=None):
+    """Every S:A a row's `verses` or `mentions` value names. Agents mostly write ["87:6"], but also ranges ("105:3-5",
+    "25:48–89"), lists in one string ("92:7,10,12", "92:3,5-7"), lists joined into one string, and annotated values
+    ("Qur'an 2:255", "Surah Yusuf 12:5", "2:255 (Ayat al-Kursi)"). An ayah number without a surah takes the surah of
+    the item before it, only when nothing but separators stands between them. An item right after a Bible book's name
+    (_BIBLE: "Luke 1:5", "Acts 14:8-28", "1 Samuel 17") and every item after it in the same value, a range across
+    sūras, reversed or longer than RANGE_MAX, an ayah above AYAH_MAX and a number with no surah are not read; when
+    `rejected` is a list, each value with such an item, or with nothing read, is appended to it (2026-10-10)."""
+    out = []
+    for v in values if isinstance(values, list) else [values] if isinstance(values, str) else []:
+        text = str(v).translate(_DASHES)
+        s, end, got, bad, bible = None, 0, [], False, False
+        for m in _VERSE_TOKEN.finditer(text):
+            sur, a, sur2, b = m.groups()
+            before = text[end:m.start()]
+            if not _GAP.match(before):
+                s = None                     # free text in between: a bare number after it is not an ayah
+            w = _WORD_BEFORE.search(before)
+            end = m.end()
+            if bible or (w and w.group(1).lower().rstrip('.') in _BIBLE):
+                bible, bad = True, True      # a Bible reference: it, and what follows it in this value, is not read
+                continue
+            s = int(sur) if sur else s
+            a, b = int(a), int(b) if b else int(a)
+            if s is None or not 1 <= s <= 114 or (sur2 and int(sur2) != s) or a < 1 or b < a or b - a > RANGE_MAX or b > AYAH_MAX:
+                bad = True
+                continue
+            got += [f'{s}:{x}' for x in range(a, b + 1)]
+        if (bad or not got) and rejected is not None:
+            rejected.append(v)
+        out += got
+    return list(dict.fromkeys(out))
+
+
 def gather(ayat):
     """Segments tied to the ayat (index range plus range overlay), stage-1 kinds, text held locally."""
     skipped = []
@@ -297,12 +349,16 @@ _ARABIC_MAP = {'أ': 'ا', 'إ': 'ا', 'آ': 'ا', 'ٱ': 'ا', 'ٰ': 'ا', 'ى':
 
 def normalize_map(text):
     """Arabic letters only, vowel and Quranic marks dropped, alif/yā/hamza forms unified, the dagger alif written out
-    (so Uthmani ٱلصَّٰلِحَٰتِ matches الصالحات). Returns the words joined by single spaces and, per character, its
-    index in the original text."""
-    out, idx, space = [], [], True
+    (so Uthmani ٱلصَّٰلِحَٰتِ matches الصالحات) except after alif maqṣūra, where it only marks the ى already written
+    (so عَلَىٰ matches على; 2026-10-10). Returns the words joined by single spaces and, per character, its index in the
+    original text."""
+    out, idx, space, prev = [], [], True, ''
     for i, ch in enumerate(text or ''):
         if ch in _ARABIC_DROP or ch in ('ـ', 'ء'):
             continue
+        if ch == 'ٰ' and prev == 'ى':
+            continue
+        prev = ch
         ch = _ARABIC_MAP.get(ch, ch)
         if '\u0621' <= ch <= '\u064A':
             out.append(ch)
@@ -324,8 +380,10 @@ QUOTE_LIMITS = []
 def quote_packet(ayat):
     """Segments with no verse key that quote an ayah's own words: windows of 1-3 words that occur in no other ayah
     (1-word windows of at least 4 letters, and only for the kinds in QUOTE_KINDS_ONE; hadith, sīra and poetry need 3
-    words). Explicit citations with the full normalized verse are a conservative fallback. Lexicon, meal and
-    translations are not searched. Window counts and fallback locators are recorded in QUOTE_LIMITS."""
+    words). Indexed hadith, sīra and poetry are also searched outside their index range and overlay; gather()
+    supplies their indexed verses. Explicit citations with the full normalized verse are a conservative fallback.
+    Lexicon, meal and translations are not searched. Window counts and fallback locators are recorded in
+    QUOTE_LIMITS."""
     global QUOTE_LIMITS
     QUOTE_LIMITS = []
     with connect() as con:
@@ -337,26 +395,35 @@ def quote_packet(ayat):
                 for i in range(len(words) - n + 1):
                     grams[' '.join(words[i:i + n])].add(v)
         kinds = QUOTE_KINDS_ONE + QUOTE_KINDS_THREE
-        segs = con.execute(f"SELECT seg.seg, seg.src, src.kind, seg.head, seg.text, seg.extra FROM seg JOIN src ON src.id=seg.src "
-                           f"WHERE seg.s IS NULL AND src.access='yerel' AND src.kind IN ({','.join('?' * len(kinds))})",
-                           kinds).fetchall()
+        eligible = (f"(seg.s IS NULL AND src.kind IN ({','.join('?' * len(kinds))}) OR seg.s IS NOT NULL "
+                    f"AND seg.a IS NOT NULL AND src.kind IN ({','.join('?' * len(QUOTE_KINDS_THREE))}))")
+        segs = con.execute(f"SELECT seg.id,seg.seg,seg.src,src.kind,seg.head,seg.text,seg.extra,seg.s,seg.a,"
+                           f"coalesce(seg.a_end,seg.a) FROM seg JOIN src ON src.id=seg.src "
+                           f"WHERE src.access='yerel' AND {eligible}", kinds + QUOTE_KINDS_THREE).fetchall()
         # The ref table comes from explicit source citations. It is noisy (indexes and bare references), so a
         # citation is used only when the segment also contains the ayah's entire normalized Arabic text.
         surahs = sorted({s for s, _ in ayat})
         cited = con.execute(f"SELECT ref.s,ref.a,ref.a_end,seg.seg FROM ref JOIN seg ON seg.id=ref.seg_id "
                             f"JOIN src ON src.id=seg.src WHERE ref.s IN ({','.join('?' * len(surahs))}) "
-                            f"AND seg.s IS NULL AND src.access='yerel' "
-                            f"AND src.kind IN ({','.join('?' * len(kinds))})",
-                            (*surahs, *kinds)).fetchall() if surahs else []
+                            f"AND src.access='yerel' AND {eligible}",
+                            (*surahs, *kinds, *QUOTE_KINDS_THREE)).fetchall() if surahs else []
         src_kind = {i: k for i, k in con.execute('SELECT id, kind FROM src')}
+    keyed = {}                   # locator -> verses reached by its index range and range overlay
+    extra = defaultdict(set)
+    if OVERLAY.exists():
+        for r in rows(OVERLAY):
+            extra[r['seg_id']].update((r['s'], x) for x in range(r['indexed_end'] + 1, r['a_end'] + 1))
+    for sid, loc, _, _, _, _, _, ss, aa, ae in segs:
+        if ss is not None:
+            keyed[loc] = {(ss, x) for x in range(aa, ae + 1)} | extra[sid]
     norm = [(loc, sr, kind, head, text, json.loads(metadata or '{}'), ' ' + normalize_map(text)[0] + ' ')
-            for loc, sr, kind, head, text, metadata in segs]
+            for _, loc, sr, kind, head, text, metadata, _, _, _ in segs]
     by_loc = {g[0]: g for g in norm}
     citations = defaultdict(set)
     target = set(ayat)
     for s, start, end, loc in cited:
         for a in range(start, end + 1):
-            if (s, a) in target:
+            if (s, a) in target and (s, a) not in keyed.get(loc, ()):
                 citations[s, a].add(loc)
     out = {}
     def add_hit(g, s, a, route):
@@ -365,8 +432,11 @@ def quote_packet(ayat):
             if f'{s}:{a}' not in out[loc]['scope']:
                 out[loc]['scope'].append(f'{s}:{a}')
             return
+        key = sorted(keyed.get(loc, ()))
+        indexed = (f'; indexed {key[0][0]}:{key[0][1]}'
+                   + (f'-{key[-1][1]}' if len(key) > 1 else '')) if key else ''
         out[loc] = {'scope': [f'{s}:{a}'], 'loc': loc, 'src': sr, 'kind': src_kind.get(sr, kind),
-                    'verses': f'{s}:{a} ({route})', 'head': head or '', 'text': body, 'extra': metadata}
+                    'verses': f'{s}:{a} ({route}{indexed})', 'head': head or '', 'text': body, 'extra': metadata}
     for s, a in ayat:
         words = quran.get((s, a), [])
         windows = []
@@ -403,12 +473,14 @@ def quote_packet(ayat):
             # A short window covers only QUOTE_KINDS_ONE. Its three-word extension must still search
             # hadith, sira and poetry, which require three words.
             hits = [x for x in norm if f' {w} ' in x[6] and
-                    (x[2] in QUOTE_KINDS_THREE if covered_by_short else n >= 3 or x[2] in QUOTE_KINDS_ONE)]
+                    (x[2] in QUOTE_KINDS_THREE if covered_by_short else n >= 3 or x[2] in QUOTE_KINDS_ONE)
+                    and (s, a) not in keyed.get(x[0], ())]
             if n < 3 and len(hits) > QUOTE_MAX_HITS:
                 print(f"NOTE quotes {s}:{a}: window «{w}» in {len(hits)} segments, too common alone; the longer windows that contain it are used instead")
                 continue
             used.append((n, w))
-            print(f"quotes {s}:{a}: «{w}» in {len(hits)} segment(s): " + ', '.join(h[0] for h in hits[:12])
+            print(f"quotes {s}:{a}: «{w}» in {len(hits)} segment(s){' (hadith, sīra, poetry only)' if covered_by_short else ''}: "
+                  + ', '.join(h[0] for h in hits[:12])
                   + (' …' if len(hits) > 12 else ''))
             for hit in hits:
                 add_hit(hit, s, a, 'quoted')
@@ -432,6 +504,14 @@ def segment_input(g):
             + json.dumps(metadata, ensure_ascii=False, sort_keys=True) + '\n') if metadata else ''
     return (f"=== SEGMENT {g['loc']} | source {g['src']} | verses {g['verses']} | {g['head']} ===\n"
             f"{note}{g['text'].strip()}\n\n")
+
+
+def merge_quote_scope(indexed, quoted):
+    """Keep one full input for a locator, including verses reached by both routes."""
+    more = [v for v in quoted['scope'] if v not in indexed['scope']]
+    if more:
+        indexed['scope'] += more
+        indexed['verses'] += f" (also quoted: {', '.join(more)})"
 
 
 def source_fingerprint(head, body, extra):
@@ -590,7 +670,12 @@ def build(a):
     skipped += surah_level(ayat)
     if split_plan:
         packet = quote_packet(ayat)
-        by_loc = {g['loc']: g for g in segments + packet}
+        by_loc = {g['loc']: g for g in segments}
+        for g in packet:
+            if g['loc'] in by_loc:
+                merge_quote_scope(by_loc[g['loc']], g)
+            else:
+                by_loc[g['loc']] = g
         expected = [loc for c in original['chunks'] for loc in c['locs']]
         if len(expected) != len(set(expected)) or any(loc not in by_loc for loc in expected):
             raise SystemExit('original manifest has duplicate or unavailable locators')
@@ -627,16 +712,18 @@ def build(a):
     elif a.skip_planned:
         raise SystemExit('--skip-planned requires --skip-done; planned locators cannot be reserved otherwise')
     if getattr(a, 'quotes', False) and not split_plan:
-        have = {g['loc'] for g in segments}
+        have = {g['loc']: g for g in segments}
         done_q = done if a.skip_done else {}
         packet = quote_packet(ayat)
         for g in packet:
             if g['loc'] in done_q:
                 skipped.append({'ayah': ','.join(g['scope']), 'loc': g['loc'], 'src': g['src'],
                                 'reason': f"already digested in {done_q[g['loc']]}"})
-            elif g['loc'] not in have:
+            elif g['loc'] in have:        # an indexed segment gathered for one ayah and quoting another of the run
+                merge_quote_scope(have[g['loc']], g)
+            else:
                 segments.append(g)
-                have.add(g['loc'])
+                have[g['loc']] = g
     with connect() as con:
         verse_text = {f'{s}:{x}': con.execute("SELECT text FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran' "
                                               'AND s=? AND a=?', (s, x)).fetchone()[0] for s, x in ayat}
@@ -726,10 +813,13 @@ def line_problems(loc, x, body, tags=False, strict=False):
         if missing:
             problems.append(f'row {j}: missing {", ".join(missing)}')
         verses = r.get('verses')
-        valid_verses = isinstance(verses, list) and bool(verses) and all(isinstance(v, str) and re.fullmatch(r'\d{1,3}:\d{1,3}', v) for v in verses)
+        rejected = []
+        expanded = verse_list(verses, rejected)
+        valid_verses = (isinstance(verses, str) or
+                        isinstance(verses, list) and all(isinstance(v, str) for v in verses)) and bool(expanded) and not rejected
         if not valid_verses:
-            problems.append(f'row {j}: "verses" must be a non-empty list of S:A values')
-        elif strict and any(v not in quran() for v in verses):
+            problems.append(f'row {j}: "verses" must name Quran verses (S:A, ranges or lists)')
+        elif strict and any(v not in quran() for v in expanded):
             problems.append(f'row {j}: verse is absent from the Quran index')
         anchor = r.get('anchor')
         if anchor and (not isinstance(anchor, str) or not contains(body, anchor)):
@@ -744,8 +834,12 @@ def line_problems(loc, x, body, tags=False, strict=False):
             if isinstance(anchor, str) and not (min(5, len(body.split())) <= len(anchor.split()) <= 25):
                 problems.append(f'row {j}: anchor must have 5 to 25 words (or use the whole shorter segment)')
             mentions = r.get('mentions')
-            if not isinstance(mentions, list) or any(not isinstance(v, str) or not re.fullmatch(r'\d{1,3}:\d{1,3}', v) for v in mentions):
-                problems.append(f'row {j}: "mentions" must be a list of S:A values')
+            rejected_mentions = []
+            mentioned = verse_list(mentions, rejected_mentions)
+            if not isinstance(mentions, list) or any(not isinstance(v, str) for v in mentions) or rejected_mentions:
+                problems.append(f'row {j}: "mentions" must be a list of Quran verse references')
+            elif any(v not in quran() for v in mentioned):
+                problems.append(f'row {j}: mentioned verse is absent from the Quran index')
         if tags and valid_verses:
             problems += [f'row {j}: {p}' for p in tag_problems(r)]
     return problems

@@ -3,8 +3,9 @@
 # enrichment/corpus/corpus.sqlite -> corpus.sqlite.gz.partNN (90 MiB each) + corpus.sqlite.gz.stamp.json.
 # Refuses a stale index (corpus.py fresh). The new parts are built and verified (reassembled and compared with the
 # index byte for byte) in a scratch directory; the committed parts are replaced only after that check passes.
-# Then: git add -f the parts and the stamp, commit, push.
-# Reassemble on another machine: cat enrichment/corpus/corpus.sqlite.gz.part* | gunzip > enrichment/corpus/corpus.sqlite
+# Then mirror them to the PRIVATE repo: python3 -B enrichment/v2/tools/sources_sync.py --commit (never git add -f them
+# in prose_generation, which is public). Reassemble elsewhere from the private clone:
+#   cat ../prose_generation_sources/enrichment/corpus/corpus.sqlite.gz.part?? | gunzip > enrichment/corpus/corpus.sqlite
 set -euo pipefail
 cd /Volumes/aro/projects/prose_generation
 C=enrichment/corpus

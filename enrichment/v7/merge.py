@@ -41,61 +41,106 @@ _FILES = {}
 
 
 def _segments(f):
-    """Parsed segment lines of one tier-1 output file, cached by size and mtime (a build reads every file once per
-    verse). Problems are printed when the file is first parsed."""
+    """Verified segment lines, cached while the output, manifest and corpus stay unchanged."""
     try:
         st = f.stat()
-        if _FILES.get(f, (None,))[0] == (st.st_mtime_ns, st.st_size):
+        manifest = (f.parents[2] / 'manifest.json').stat()
+        corpus = (ROOT / 'enrichment/corpus/corpus.sqlite').stat()
+        version = (st.st_mtime_ns, st.st_size, manifest.st_mtime_ns, manifest.st_size,
+                   corpus.st_mtime_ns, corpus.st_size)
+        if _FILES.get(f, (None,))[0] == version:
             return _FILES[f][1]
         lines = f.read_text().splitlines()
     except FileNotFoundError:
         print(f'WARNING {f.relative_to(V7)}: vanished while reading (a run in progress?); skipped')
         return []
+    valid = digest.valid_output_locs(f)
     out = []
     for i, line in enumerate(lines, 1):
         if not line.strip():
             continue
         try:
-            out.append(json.loads(line))
+            x = json.loads(line)
         except ValueError:
             print(f'WARNING {f.relative_to(V7)} line {i}: not JSON (a run in progress?); skipped')
-    _FILES[f] = ((st.st_mtime_ns, st.st_size), out)
+            continue
+        if isinstance(x, dict) and x.get('loc') in valid:
+            out.append(x)
+    _FILES[f] = (version, out)
     return out
 
 
-def tier1_rows(d, tags, ayah, quiet=False):
-    """Every tier-1 row whose verses include the ayah, with a stable id <loc>/rN (N = position in its segment) and its
-    tags (words, type) from the row or a retag run. tags: one model tag or a list; a segment digested under several
-    runs or tags counts once (first tag, then run order). No edition rule (removed 2026-10-09): rows of a short edition X were dropped when
-    X-FULL has rows on the same ayah (printed)."""
+def tier1_segments(tags):
+    """(tag, verified segment line, cut, whole_again), counted once by tag then run order.
+    Unresolved legacy inputs, excerpts, stale sources and invalid outputs cannot supply current notes."""
+    tags = [tags] if isinstance(tags, str) else list(tags)
+    seen = set()
+    for tag in tags:
+        for f in sorted((V7 / 'work').glob(f'*/out/{tag}/c*.jsonl')):  # tier 1 of every run: one database
+            if digest.unfinished(f):
+                continue
+            for x in _segments(f):
+                cut = x['loc'] in digest.excerpts().get(f.parts[-4], set())
+                whole_again = not cut and any(x['loc'] in v for v in digest.excerpts().values())
+                if (x['loc'], cut) in seen:
+                    continue
+                seen.add((x['loc'], cut))
+                yield tag, x, cut, whole_again
+
+
+def full_row(r, n, x, whole_again, tag, src, meta):
+    rid = f"{x['loc']}/{'f' if whole_again else 'r'}{n}"
+    words, typ = (r.get('words'), r.get('type')) if r.get('type') else _TAGS.get(rid, (None, None))
+    m = meta.get(src, {})
+    return {**r, 'id': rid, 'src': src, 'author': m.get('author') or src, 'death': m.get('death_ah'), 'tag': tag,
+            'words': words, 'type': typ}
+
+
+def tier1_rows(d, tags, ayah, quiet=False, mentions=True):
+    """Every tier-1 row about the ayah, with a stable id <loc>/rN (N = position in its segment) and its tags (words,
+    type) from the row or a retag run. tags: one model tag or a list; a segment digested under several runs or tags
+    counts once (first tag, then run order). No edition rule (removed 2026-10-09): rows of a short edition X were dropped when
+    X-FULL has rows on the same ayah (printed).
+    A row is about the ayah when its `verses` name it, ranges and lists included ("105:3-5", "92:7,10,12"), or when only
+    its `mentions` name it: a point about another verse that quotes or names this one. Such a row gets via='mentions'
+    and about=<its verses> (2026-10-10: a digest serves every verse it names; nothing is digested twice). mentions=False
+    leaves those out (v7 tier 2, whose cells are verse words)."""
     global _TAGS
     if _TAGS is None:
         _TAGS = digest.row_tags()
-    tags = [tags] if isinstance(tags, str) else list(tags)
     with connect() as con:
         meta = {i: json.loads(m or '{}') for i, m in con.execute('SELECT id, meta FROM src')}
-        seg_src, out, seen = {}, [], set()
-        for tag in tags:
-            for f in sorted((V7 / 'work').glob(f'*/out/{tag}/c*.jsonl')):  # tier 1 of every run: one database
-                if digest.unfinished(f):
+        seg_src, out = {}, []
+        for tag, x, cut, whole_again in tier1_segments(tags):
+            for n, r in enumerate(x['rows'], 1):
+                vs = digest.verse_list(r.get('verses'))
+                if ayah in vs:
+                    extra = {}
+                elif mentions and ayah in digest.verse_list(r.get('mentions')):
+                    extra = {'via': 'mentions', 'about': vs}
+                else:
                     continue
-                for x in _segments(f):
-                    cut = x['loc'] in digest.excerpts().get(f.parts[-4], set())
-                    whole_again = not cut and any(x['loc'] in v for v in digest.excerpts().values())
-                    if (x['loc'], cut) in seen:
-                        continue
-                    seen.add((x['loc'], cut))
-                    if x['loc'] not in seg_src:
-                        seg_src[x['loc']] = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
-                    for n, r in enumerate(x['rows'], 1):
-                        if ayah in r.get('verses', []):
-                            src = seg_src[x['loc']]
-                            m = meta.get(src, {})
-                            rid = f"{x['loc']}/{'f' if whole_again else 'r'}{n}"
-                            words, typ = (r.get('words'), r.get('type')) if r.get('type') else _TAGS.get(rid, (None, None))
-                            out.append({**r, 'id': rid, 'src': src, 'author': m.get('author') or src,
-                                        'death': m.get('death_ah'), 'tag': tag, 'words': words, 'type': typ})
+                if x['loc'] not in seg_src:
+                    seg_src[x['loc']] = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
+                out.append({**full_row(r, n, x, whole_again, tag, seg_src[x['loc']], meta), **extra})
     return out  # no edition rule: short and FULL editions are both kept (user, 2026-10-09: nothing dropped)
+
+
+def segment_rows(tags, locs):
+    """loc -> its tier-1 rows (as tier1_rows gives them, whatever verse they are about), for the given locators. A
+    segment digested both as an excerpt and whole gives the rows of both, as in tier1_rows."""
+    global _TAGS
+    if _TAGS is None:
+        _TAGS = digest.row_tags()
+    want, out = set(locs), {}
+    with connect() as con:
+        meta = {i: json.loads(m or '{}') for i, m in con.execute('SELECT id, meta FROM src')}
+        for tag, x, cut, whole_again in tier1_segments(tags):
+            if x['loc'] in want:
+                src = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
+                out.setdefault(x['loc'], []).extend(full_row(r, n, x, whole_again, tag, src, meta)
+                                                    for n, r in enumerate(x['rows'], 1))
+    return out
 
 
 def cell_of(r, ayah):
@@ -129,7 +174,8 @@ def cells(ayah, rows):
 def row_line(r):
     who = r['src'] + (f", d. {r['death']}" if r['death'] else '')
     mentions = f" | mentions {', '.join(r.get('mentions') or [])}" if r.get('mentions') else ''
-    return f"[{r['id']}] {who} · {r['speaker']} | {r['stance']} | {r['claim']}{mentions}"
+    about = f"(about {', '.join(r.get('about') or []) or 'another verse'}; names this verse) " if r.get('via') == 'mentions' else ''
+    return f"[{r['id']}] {who} · {r['speaker']} | {r['stance']} | {about}{r['claim']}{mentions}"
 
 
 def cell_text(cid, c, by_id):
@@ -214,7 +260,7 @@ def build(a):
         print(f'SKIPPED {x}: tier 2 already exists for {", ".join(tags)} (use update in its run for new rows)')
     plan = []
     for ayah in [x for x in a.ayat if x not in done]:
-        rs = tier1_rows(d, a.from_tags, ayah)
+        rs = tier1_rows(d, a.from_tags, ayah, mentions=False)
         if not rs:
             print(f'NOTE {ayah}: no tier-1 notes ({", ".join(a.from_tags)}); no tier 2')
             continue
@@ -359,7 +405,7 @@ def update(a):
     changed = False
     for p in man['ayat']:
         old = json.loads((t / 'rows' / f"{key(p['ayah'])}.cells.json").read_text())
-        rs = tier1_rows(d, man['from'], p['ayah'], quiet=True)
+        rs = tier1_rows(d, man['from'], p['ayah'], quiet=True, mentions=False)
         by_id = {r['id']: r for r in rs}
         cs = cells(p['ayah'], rs)
         stale = [cid for cid, c in cs.items() if set(c['rows']) != set(old.get(cid, {}).get('rows', []))]

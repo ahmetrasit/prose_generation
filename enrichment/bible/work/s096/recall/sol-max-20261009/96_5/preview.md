@@ -144,7 +144,7 @@
 
 > **◦ Num.2.2** — Sancağın kalabalık içinde bir topluluğu ayırt ettiren görünür işaret olduğunu somutlaştırır. İsrailoğullarına “Herkes kendi sancağı, baba evinin işareti yanında konaklasın” denir; bu sahne paragraftaki sancak imgesinin gördüğü işi gösterir.
 >
-> {bible:אִ֣ישׁ עַל־דִּגְל֤וֹ בְאֹתֹת֙ לְבֵ֣ית אֲבֹתָ֔ם יַחֲנ֖וּ בְּנֵ֣י יִשְׂרָאֵ֑ל מִנֶּ֕גֶד סָבִ֥יב לְאֹֽהֶל־מוֹעֵ֖ד יַחֲנֽוּ׃, tr:Every man of the children of Israel shall pitch by his own standard, with the ensign of their father’s house: far off about the tabernacle of the congregation shall they pitch., gloss:RAB Musa'yla Harun'a, “İsrailliler sancaklarının altında, aile bayraklarıyla Buluşma Çadırı'ndan biraz ötede çepeçevre konaklasın” dedi., source:Num.2.2}
+> {bible:אִ֣ישׁ עַל־דִּגְל֤וֹ בְאֹתֹת֙ לְבֵ֣ית אֲבֹתָ֔ם יַחֲנ֖וּ בְּנֵ֣י יִשְׂרָאֵ֑ל מִנֶּ֕גֶד סָבִ֥יב לְאֹֽהֶל־מוֹעֵ֖ד יַחֲנֽוּ׃, tr:Every man of the children of Israel shall pitch by his own standard, with the ensign of their father’s house: far off about the tabernacle of the congregation shall they pitch., gloss:RAB Musa'yla Harun'a, “İsrailliler sancaklarının altında, aile bayraklarıyla Buluşma Çadırı'ndan biraz ötede çepeçevre konaklasın” dedi., source:Num.2.2 (Türkçe Num.2.1-2 birlikte)}
 
 [¶12] Bu nesnelerin hepsi aynı işi görür. Yol işareti yolun kendisi değildir. Bir taş yığını ya da bir iz, yolcuya yolun nereden geçtiğini çıkarma imkânı verir. Uzaktaki dağ yürünecek yer değildir, ama yolcu yönünü ona göre bulur. Kumaşın kenar işlemesi kumaşı kumaş yapmaz, ama onu ötekilerden ayırır. Hepsinde iz, bakan için bir ayrımı mümkün kılar. Bu imge yan yana duyulduğunda öğretmek, insanın içine bu tür ayırt edici izler koymak olarak işitilir: bilmediği bir şeyin artık onun için tanınır hale gelmesi. Kuran yeryüzünde konulmuş yol işaretlerini tam bu kelimeyle anar. Allah yeryüzüne sarsılmasın diye dağlar, nehirler ve yollar koyduğunu {ar:لَّعَلَّكُمْ تَهْتَدُونَ, tr:le'alleküm tehtedûn, gloss:umulur ki yolunuzu bulursunuz, source:16:15} diye söyledikten sonra ekler: {ar:وَعَلَٰمَٰتٍۢ ۚ وَبِٱلنَّجْمِ هُمْ يَهْتَدُونَ, tr:ve alâmât, ve bi'n-necmi hum yehtedûn, gloss:ve yol işaretleri koydu, onlar yıldızla da yollarını bulurlar, source:16:16}. İşaretin işi yol buldurmaktır. Bu surede yol bulmanın adı da geçer: on birinci ayet {ar:أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ, tr:e-ra'eyte in kâne ale'l-hudâ, gloss:ya o doğru yol üzerindeyse, gördün mü, source:96:11} diye sorar.
 
@@ -170,7 +170,7 @@
 
 > **◦ Gen.1.14** — Gökteki ışıkların zamanları ayırt ettiren işaretler olması, görülen bir işaretin nasıl ayrım yaptırdığını gösterir. Işıklar “gündüzü geceden ayırsın” ve “zamanlar, günler ve yıllar için işaret olsun” denir; paragrafta gökteki işaret yön buldurur, burada zamanı bildirir.
 >
-> {bible:וַיֹּ֣אמֶר אֱלֹהִ֗ים יְהִ֤י מְאֹרֹת֙ בִּרְקִ֣יעַ הַשָּׁמַ֔יִם לְהַבְדִּ֕יל בֵּ֥ין הַיּ֖וֹם וּבֵ֣ין הַלָּ֑יְלָה וְהָי֤וּ לְאֹתֹת֙ וּלְמ֣וֹעֲדִ֔ים וּלְיָמִ֖ים וְשָׁנִֽים׃, tr:¶ And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years:, gloss:Tanrı şöyle buyurdu: “Gökkubbede gündüzü geceden ayıracak, yeryüzünü aydınlatacak ışıklar olsun. Belirtileri, mevsimleri, günleri, yılları göstersin.” Ve öyle oldu., source:Gen.1.14}
+> {bible:וַיֹּ֣אמֶר אֱלֹהִ֗ים יְהִ֤י מְאֹרֹת֙ בִּרְקִ֣יעַ הַשָּׁמַ֔יִם לְהַבְדִּ֕יל בֵּ֥ין הַיּ֖וֹם וּבֵ֣ין הַלָּ֑יְלָה וְהָי֤וּ לְאֹתֹת֙ וּלְמ֣וֹעֲדִ֔ים וּלְיָמִ֖ים וְשָׁנִֽים׃, tr:¶ And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years:, gloss:Tanrı şöyle buyurdu: “Gökkubbede gündüzü geceden ayıracak, yeryüzünü aydınlatacak ışıklar olsun. Belirtileri, mevsimleri, günleri, yılları göstersin.” Ve öyle oldu., source:Gen.1.14 (Türkçe Gen.1.14-15 birlikte)}
 
 > **≈ Ps.25.4, Ps.25.5** — Yolu bilmenin Rabbe yöneltilen bir öğrenme duası olması, işaret ile hidayet arasındaki bağı açar. Mezmurcu “Yollarını göster, patikalarını öğret; hakikatinde yürüt ve bana öğret” der; burada yolun bilgisi ilahi öğretimden istenir.
 >
@@ -200,7 +200,7 @@
 
 > **≈ Ps.19.1, Ps.19.2** — Yaratılmış âlemin bilgi taşıyan bir işaret gibi konuşması, dünyanın da öğrenmeye aracılık edebileceğini gösterir. “Gökler Tanrı'nın yüceliğini anlatır ... gece geceye bilgi bildirir”; burada göğün görünüşü, paragraftaki işaretlerle dolu âleme karşılık gelir.
 >
-> {bible:הַשָּׁמַ֗יִם מְֽסַפְּרִ֥ים כְּבֽוֹד־אֵ֑ל וּֽמַעֲשֵׂ֥ה יָ֝דָ֗יו מַגִּ֥יד הָרָקִֽיעַ׃, tr:To the chief Musician, A Psalm of David. The heavens declare the glory of God; and the firmament sheweth his handywork., gloss:Gökler Tanrı'nın görkemini açıklamakta, Gökkubbe ellerinin eserini duyurmakta., source:Ps.19.1}
+> {bible:הַשָּׁמַ֗יִם מְֽסַפְּרִ֥ים כְּבֽוֹד־אֵ֑ל וּֽמַעֲשֵׂ֥ה יָ֝דָ֗יו מַגִּ֥יד הָרָקִֽיעַ׃, tr:To the chief Musician, A Psalm of David. The heavens declare the glory of God; and the firmament sheweth his handywork., gloss:Müzik şefi için - Davut'un mezmuru Gökler Tanrı'nın görkemini açıklamakta, Gökkubbe ellerinin eserini duyurmakta., source:Ps.19.1}
 >
 > {bible:י֣וֹם לְ֭יוֹם יַבִּ֣יעַֽ אֹ֑מֶר וְלַ֥יְלָה לְּ֝לַ֗יְלָה יְחַוֶּה־דָּֽעַת׃, tr:Day unto day uttereth speech, and night unto night sheweth knowledge., gloss:Gün güne söz söyler, Gece geceye bilgi verir., source:Ps.19.2}
 

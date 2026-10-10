@@ -8,6 +8,9 @@
   q.py find REGEX [--verse V …] [--page N]
                                      notes whose claim or exact words match (Arabic matched without vowels), with the
                                      position each note sits in; default all mapped verses; 25 per page
+  q.py linked V [--seg LOC …]        segments tied to the verse (its index range, or quoting its words) whose notes do
+                                     not name it (about other verses, or none), with those notes; from the linked.py
+                                     index (2026-10-10)
 
 Maps: enrichment/v9/work/*/map/out/sol-high/<k>.jsonl (the newest when a verse was mapped twice). Output stays under
 24,000 bytes by leaving out whole items (a question, a note, a verse's index, a search hit), never part of one: the
@@ -22,6 +25,7 @@ from pathlib import Path
 
 V9 = Path(__file__).resolve().parent
 sys.path.insert(0, str(V9.parent / 'v7'))
+sys.path.insert(1, str(V9))          # linked.py, also when q is imported from elsewhere
 import digest  # noqa: E402
 
 TAG = 'sol-high'
@@ -36,8 +40,9 @@ def key(ayah):
 
 
 def plain(text):
-    """Arabic without vowels and with letter variants folded (as in digest), for matching."""
-    return (text or '').translate(_DROP).translate(_MAP)
+    """Arabic without vowels and with letter variants folded (as in digest), for matching; the dagger alif after ى is
+    dropped, as in digest.normalize_map (عَلَىٰ → على)."""
+    return (text or '').translate(_DROP).replace('ىٰ', 'ى').translate(_MAP)
 
 
 def located(ayah):
@@ -202,8 +207,71 @@ def cmd_notes(a):
             items.append((i, [f'[{i}] not found']))
             continue
         items.append((i, [f"[{i}] {x['src']} ({x['author']}" + (f", d. {x['death']}" if x['death'] else '') + f") · "
-                          f"{x['speaker']} · {x['stance']} · {x['claim']} «{x.get('anchor') or ''}»"]))
+                          f"{x['speaker']} · {x['stance']} · {about(x)}{x['claim']} «{x.get('anchor') or ''}»"]))
     out(items)
+
+
+def about(x):
+    """'(about 2:106) ' for a note that only names the verse it is filed under (merge.tier1_rows via='mentions')."""
+    return f"(about {', '.join(x.get('about') or []) or 'another verse'}) " if x.get('via') == 'mentions' else ''
+
+
+def cmd_linked(a):
+    import linked
+    import merge
+    f = linked.OUT / f'{key(a.verse)}.json'
+    if not f.exists():
+        print(f'# {a.verse}: no link index (run python3 -B enrichment/v9/linked.py build --ayat {a.verse}, or for its '
+              'whole range)')
+        return
+    idx = json.loads(f.read_text())
+    head = []
+    now = linked.stamp()
+    if any(idx.get(k) != v for k, v in now.items()):
+        head.append(f"NOTE this link index ({idx.get('built_at', 'old format')}) was built from another corpus index, range "
+                    'overlay or link code than the current ones; rebuild it with linked.py build')
+    segs = idx['segments']
+    if a.seg:
+        missing = [s for s in a.seg if s not in segs]
+        head += [f'# {s}: not linked to {a.verse}' for s in missing]
+        segs = {s: segs[s] for s in a.seg if s in segs}
+    rows = merge.segment_rows(a.tier1, segs)
+    items, named, undigested = [], 0, []
+    with digest.connect() as con:
+        meta = {i: json.loads(m or '{}') for i, m in con.execute('SELECT id, meta FROM src')}
+    for loc, s in segs.items():
+        rs = rows.get(loc)
+        if rs is None:
+            undigested.append(loc)
+            continue
+        if any(a.verse in digest.verse_list(r.get('verses')) or a.verse in digest.verse_list(r.get('mentions'))
+               for r in rs):
+            named += 1                       # already reaches the map through tier1_rows
+            if a.seg:
+                head.append(f'# {loc}: its notes name {a.verse}; they are in the map (q.py find, q.py notes)')
+            continue
+        m = meta.get(s['src'], {})
+        about_vs = sorted({v for r in rs for v in digest.verse_list(r.get('verses'))},
+                          key=lambda v: tuple(map(int, v.split(':'))))
+        lines = [f"## {loc} · {s['src']} ({m.get('author') or s['src']}" + (f", d. {m['death_ah']}" if m.get('death_ah') else '')
+                 + f") · {s['kind']} · tied by {'its index range' if s['by'] == 'index' else 'quoting the verse'}: "
+                 f"{s['verses']} · {len(rs)} notes, about {', '.join(about_vs) or 'no verse'}"]
+        lines += [f"[{r['id']}] {r['speaker']} · {r['stance']} · {r['claim']} «{r.get('anchor') or ''}»" for r in rs]
+        if not rs:
+            lines.append('(digested with no notes)')
+        items.append((loc, lines))
+    head.insert(0, f"# {a.verse}: {len(idx['segments'])} linked segments; {named} have notes naming this verse (in its "
+                   f"map already); {len(items)} listed below; {len(undigested)} not digested yet")
+    if undigested:
+        head.append('not digested yet: ' + ', '.join(undigested))
+    sk = idx.get('skipped') or []
+    if sk:
+        why = defaultdict(int)
+        for x in sk:
+            why[x['reason'].split(':')[0]] += 1
+        head.append(f"{len(sk)} more tied by index but not tier-1 material: "
+                    + ', '.join(f'{r} {n}' for r, n in sorted(why.items(), key=lambda x: -x[1])))
+    out(items, head)
 
 
 def cmd_find(a):
@@ -237,7 +305,7 @@ def cmd_find(a):
         for h in hits:
             per[h[0]] += 1
         head.append('per verse: ' + ', '.join(f'{v} {n}' for v, n in per.items()))
-    items = [(i, [f"[{i}] {v} {x['src']} · {x['speaker']} · {x['stance']} · {x['claim']} «{x.get('anchor') or ''}» → {' '.join(w)}"])
+    items = [(i, [f"[{i}] {v} {x['src']} · {x['speaker']} · {x['stance']} · {about(x)}{x['claim']} «{x.get('anchor') or ''}» → {' '.join(w)}"])
              for v, i, x, w in hits[(a.page - 1) * PAGE:a.page * PAGE]]
     out(items, head)   # a hit left out is named: read it with q.py notes
 
@@ -249,8 +317,10 @@ def main():
     p = sub.add_parser('question'); p.add_argument('qids', nargs='+')
     p = sub.add_parser('notes'); p.add_argument('ids', nargs='+')
     p = sub.add_parser('find'); p.add_argument('regex'); p.add_argument('--verse', nargs='+'); p.add_argument('--page', type=int, default=1)
+    p = sub.add_parser('linked'); p.add_argument('verse'); p.add_argument('--seg', nargs='+')
+    p.add_argument('--tier1', nargs='+', default=['luna-max'], help='tier-1 model tags (default luna-max)')
     a = parser.parse_args()
-    {'index': cmd_index, 'question': cmd_question, 'notes': cmd_notes, 'find': cmd_find}[a.cmd](a)
+    {'index': cmd_index, 'question': cmd_question, 'notes': cmd_notes, 'find': cmd_find, 'linked': cmd_linked}[a.cmd](a)
 
 
 if __name__ == '__main__':

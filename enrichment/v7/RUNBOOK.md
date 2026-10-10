@@ -13,6 +13,8 @@ root of the active checkout.
   Indexed hadith segments are now Tier 1 inputs too. The packet uses unique Arabic windows and a cautious
   explicit-citation plus full-verse fallback; `quote_limits` in the manifest records verses that cannot be
   searched by a unique window. Other untied material may still need the later word stage.
+  Indexed hadith, sīra and poetry are also searched for verses outside their index range and overlay; when both
+  routes reach one segment, its scopes are merged into one full input.
 - **Whole segments only.** The quotation packet no longer cuts long segments to excerpts. The old
   `q103_1-20261008` run documented 37 excerpts, but its saved chunk parts are absent in this checkout, so their
   exact locators cannot be recovered. Its outputs stay unresolved for coverage until rebuilt from full current
@@ -97,6 +99,11 @@ python3 -B enrichment/v7/digest.py build t1_s002-003_20261009 --surahs 2 3 --mod
   manifests hash each source's body, heading and selected metadata. Legacy runs need complete saved chunk parts,
   checked against the current body; if the parts are missing, the output is unresolved even with a valid anchor or
   a `none` reason. Use `--skip-planned` with `--skip-done` for an active run.
+- **One verified digest serves every verse it names.** Readers expand ranges and annotated verse lists in
+  `verses` and link `mentions` with an explicit "about another verse" label. The checker and word tags use the
+  same expansion. Readers apply the same output and provenance checks as `--skip-done`; unresolved inputs stay
+  unresolved. `enrichment/v9/linked.py build` creates the index used by `q.py linked` for segments tied to a verse
+  whose notes discuss other verses. Existing maps require the separately approved map update to gain new notes.
 - **Spawn files:** `enrichment/v7/work/s103-1/spawn/luna-max_c*.md`. Keep up to 60 running at a time.
 - **Outputs:** `work/s103-1/out/luna-max/c*.jsonl`.
 - **Chunk size for new builds:** v7 now defaults to 20,000 rendered input characters per agent. A single
