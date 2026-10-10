@@ -12,6 +12,7 @@ import argparse
 import json
 import re
 import shutil
+import subprocess
 import sys
 from pathlib import Path
 
@@ -47,6 +48,10 @@ def main():
     ap.add_argument('run')
     ap.add_argument('--meal')
     a = ap.parse_args()
+    for script, run in [('writer.py', a.run)] + ([('meal.py', a.meal)] if a.meal else []):
+        result = subprocess.run([sys.executable, '-B', str(V9 / script), 'check', run], cwd=writer.ROOT)
+        if result.returncode:
+            raise SystemExit(f'{script} check failed; no rendered artifacts written')
     d = writer.wdir(a.run)
     man = json.loads((d / 'manifest.json').read_text())
     blocks = [json.loads(l) for l in (d / 'out' / man['tag'] / 'blocks.jsonl').read_text().splitlines() if l.strip()]

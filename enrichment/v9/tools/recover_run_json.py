@@ -10,8 +10,10 @@ Agents still running or with no ending are listed and left alone.
 import hashlib, json, os, re, subprocess, sys, time
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
-SESSION_DIR = Path(os.environ.get('CODEX_SESSIONS_DIR', str(Path.home() / '.codex/sessions')))
-ARCHIVE_DIR = Path(os.environ.get('CODEX_SESSIONS_ARCHIVE_DIR', str(ROOT / '.scratch/codex_sessions_archive')))
+SESSION_DIR = Path(os.environ.get('CODEX_SESSIONS_DIR', str(Path.home() / '.codex/sessions'))).expanduser()
+ARCHIVE_DIR = Path(os.environ.get('CODEX_SESSIONS_ARCHIVE_DIR', str(ROOT / '.scratch/codex_sessions_archive'))).expanduser()
+SESSION_DIR = SESSION_DIR if SESSION_DIR.is_absolute() else ROOT / SESSION_DIR
+ARCHIVE_DIR = ARCHIVE_DIR if ARCHIVE_DIR.is_absolute() else ROOT / ARCHIVE_DIR
 sys.path.insert(0, str(ROOT / 'enrichment/v5'))
 import account  # noqa: E402
 from common import CONTEXT_CAP, dump  # noqa: E402
@@ -19,43 +21,75 @@ HEADER = re.compile(r'^<!-- agent (\S+) \| model (\S+) \| effort (\S+) -->')
 live = subprocess.run(['ps', '-ax', '-o', 'command='], capture_output=True, text=True).stdout
 for runs in map(Path, sys.argv[1:]):
     fixed, open_ = 0, []
-    for d in sorted(p for p in runs.iterdir() if p.is_dir() and not (p / 'run.json').exists()):
+    for d in sorted(p for p in runs.iterdir() if p.is_dir()):
+        targets = ([d / 'stream.jsonl'] if not (d / 'run.json').exists() else [])
+        targets += sorted(f for f in d.glob('repair*.stream.jsonl') if not f.with_name(f.name.replace('.stream.jsonl', '.run.json')).exists())
+        if not targets and not (d / '.repair.lock').exists():
+            continue
         if f'{d.name}/' in live:
             open_.append(f'{d.name}: still running')
             continue
-        evs = []
-        for line in (d / 'stream.jsonl').read_text().splitlines() if (d / 'stream.jsonl').exists() else []:
+        lock = d / '.repair.lock'
+        if lock.exists():
             try:
-                evs.append(json.loads(line))
-            except ValueError:
-                pass
-        thread = next((e.get('thread_id') for e in evs if e.get('type') == 'thread.started'), None)
-        done = next((e for e in evs if e.get('type') in ('turn.completed', 'turn.failed')), None)
-        if not done:
-            open_.append(f'{d.name}: no turn ending in stream.jsonl (interrupted)')
+                pid = int((lock / 'pid').read_text())
+                command = subprocess.run(['ps', '-p', str(pid), '-o', 'command='], capture_output=True, text=True, check=False).stdout
+            except (OSError, ValueError):
+                command = 'unknown'
+            if command.strip():
+                open_.append(f'{d.name}: repair lock owner is live or unknown; left alone')
+                continue
+        if not targets:
+            (lock / 'pid').unlink(missing_ok=True)
+            lock.rmdir()
+            fixed += 1
             continue
-        spawn = next((s for s in (runs.parent / 'spawn').glob('*.md') if HEADER.match(s.read_text()) and
-                      HEADER.match(s.read_text()).group(1).endswith('/' + d.name)), None)
-        agent, model, effort = HEADER.match(spawn.read_text()).groups() if spawn else (d.name, '?', '?')
-        commands = sum(1 for e in evs if e.get('type') == 'item.completed' and (e.get('item') or {}).get('type') == 'command_execution')
-        rec = {'agent': agent, 'model': model, 'effort': effort, 'started': None,
-               'ended': time.strftime('%Y-%m-%dT%H:%M:%S', time.localtime((d / 'stream.jsonl').stat().st_mtime)),
-               'returncode': 0 if done['type'] == 'turn.completed' else 1, 'turn_completed': done['type'] == 'turn.completed',
-               'thread_id': thread, 'commands': commands, 'usage': done.get('usage') or {}, 'stderr': '',
-               'prompt_sha256': hashlib.sha256(spawn.read_text().encode()).hexdigest() if spawn else None,
-               'actual_charge_usd': 0, 'recovered': True,
-               'charge_note': 'Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates. '
-                              'run.json written by recover_run_json.py: the runner was stopped while the agent ran.'}
-        f = next((p for base in (SESSION_DIR, ARCHIVE_DIR)
-                  for p in base.glob(f'*/*/*/*{thread}.jsonl')), None) if thread else None
-        if f:
-            s = account.session(f, '')
-            rec.update(session_file=str(f), usd_equivalent=s['usd'], requests=s['requests'],
-                       max_request_input_tokens=s['max_request_input'], over_context_cap=s['max_request_input'] > CONTEXT_CAP)
-        else:
-            print(f'WARNING {d.name}: no session file found; cost unknown')
-        dump(d / 'run.json', rec)
-        fixed += 1
+        for stream in targets:
+            evs = []
+            for line in stream.read_text().splitlines() if stream.exists() else []:
+                try:
+                    evs.append(json.loads(line))
+                except ValueError:
+                    pass
+            thread = next((e.get('thread_id') for e in evs if e.get('type') == 'thread.started'), None)
+            if not thread and (d / 'run.json').exists():
+                thread = json.loads((d / 'run.json').read_text()).get('thread_id')
+            done = next((e for e in reversed(evs) if e.get('type') in ('turn.completed', 'turn.failed')), None)
+            if thread and any(thread in line and 'codex exec' in line for line in live.splitlines()):
+                open_.append(f'{d.name}: its session is still running')
+                continue
+            if not done:
+                open_.append(f'{d.name}: no turn ending in stream.jsonl (interrupted)')
+                continue
+            spawn = next((s for s in (runs.parent / 'spawn').glob('*.md') if HEADER.match(s.read_text()) and
+                          HEADER.match(s.read_text()).group(1).endswith('/' + d.name)), None)
+            agent, model, effort = HEADER.match(spawn.read_text()).groups() if spawn else (d.name, '?', '?')
+            commands = sum(1 for e in evs if e.get('type') == 'item.completed' and (e.get('item') or {}).get('type') == 'command_execution')
+            rec = {'agent': agent, 'model': model, 'effort': effort, 'started': None,
+                   'ended': time.strftime('%Y-%m-%dT%H:%M:%S', time.localtime(stream.stat().st_mtime)),
+                   'returncode': 0 if done['type'] == 'turn.completed' else 1, 'turn_completed': done['type'] == 'turn.completed',
+                   'thread_id': thread, 'commands': commands, 'usage': done.get('usage') or {}, 'stderr': '',
+                   'prompt_sha256': hashlib.sha256(spawn.read_text().encode()).hexdigest() if spawn else None,
+                   'actual_charge_usd': 0, 'recovered': True,
+                   'charge_note': 'Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates. '
+                                  'run.json written by recover_run_json.py: the runner was stopped while the agent ran.'}
+            f = next((p for base in (SESSION_DIR, ARCHIVE_DIR)
+                      for p in base.glob(f'*/*/*/*{thread}.jsonl')), None) if thread else None
+            if f:
+                s = account.session(f, '')
+                rec.update(session_file=str(f), usd_equivalent=s['usd'], requests=s['requests'],
+                           max_request_input_tokens=s['max_request_input'], over_context_cap=s['max_request_input'] > CONTEXT_CAP)
+            else:
+                print(f'WARNING {d.name}: no session file found; cost unknown')
+            target = stream.with_name(stream.name.replace('.stream.jsonl', '.run.json')) if stream.name != 'stream.jsonl' else d / 'run.json'
+            if stream.name != 'stream.jsonl':
+                rec['completion_via'] = target.name
+                rec['repair_cost_unknown'] = f is None
+            dump(target, rec)
+            fixed += 1
+        if lock.exists() and all((f.with_name(f.name.replace('.stream.jsonl', '.run.json')) if f.name != 'stream.jsonl' else d / 'run.json').exists() for f in targets):
+            (lock / 'pid').unlink(missing_ok=True)
+            lock.rmdir()
     print(f'{runs}: {fixed} run.json written; {len(open_)} left alone')
     for x in open_:
         print('  ' + x)

@@ -130,42 +130,70 @@ names.
 
 ## Recheck of all digests for missed verses (`enrichment/v7/recheck.py`, 2026-10-10)
 
-The spot check found a missed point at a rate of about 2.5%. This run looks for every such miss in everything digested
-so far.
+The spot check found one missed point in 40 checked pairs (2.5% of that sample). This
+screened pass looks for missed points about verses not named by a segment's existing
+notes. It does not check additional points about already-named verses and cannot
+establish exhaustive coverage or a corpus-wide miss rate.
 
 - **Candidates.** A candidate pair is a digested segment and a verse that none of its notes names, where the segment
   contains the verse's own words (a 2–3-word window unique to that verse) or, for a verse in its index range, a verse
-  number marker.
-- **Luna's task.** Luna reads each segment with its notes and records only missed points about those verses.
+  number marker. An explicit citation plus the full normalized verse in the body is
+  also accepted (at least 3 normalized words and 12 characters), including repeated
+  verses without a unique window. Named-surah markers must name the segment's surah.
+- **Luna's task.** Luna reads each whole segment with its provenance metadata and the
+  complete earlier notes, including anchors, mentions and tags. It records only new
+  points about the assigned CHECK verses. Metadata never supplies an anchor.
 - **Supplements.** New notes are stored as supplements under `enrichment/v7/recheck/<RUN>/out/`. `merge.tier1_rows`
   reads them beside the digests with IDs `<loc>/x<N>-<RUN>`. No digest is replaced, and a pair is never checked
-  twice.
+  twice after a valid completed answer. Do not build overlapping recheck runs while
+  one is active: unfinished pairs have not been answered and are not skipped.
 - **Scope (user, 2026-10-10).** The run covers verses that have a v9 map, plus S1, S59 and S87–114
   (`enrichment/v7/recheck/scope_s1_s59_s87-114.txt`). The plan on this machine gave 24,613 pairs in 15,439 segments
-  (25.9M characters), about 2,074 Luna agents and about $55 API-equivalent at the tier-1 rate. Not checked by
+  (25.9M source characters), about 2,074 Luna agents and about $55 API-equivalent at the tier-1 rate **before the
+  2026-10-10 workflow review fixes**. These are historical figures, not the current launch budget. Not checked by
   design: 53,959 pairs reached only through a "too-common" 2-word window. These are ordinary prose phrases that occur
-  in a single verse, such as الله تعالى (27:63) or قال ابن; real quotations still match through their 3-word windows.
+  in a single verse, such as الله تعالى (27:63) or قال ابن. Quotations with a unique
+  3-word window can still match; repeated/short/ambiguous wording and implicit
+  interpretations without a recognized reference can remain outside selection.
 
 On the tier-1 computer, after its tier-1 run above, so that new digests are included:
 
 ```bash
-git pull; python3 -B enrichment/v2/tools/corpus.py fresh          # must print "current"
+git pull --no-rebase
+python3 -B enrichment/v2/tools/corpus.py fresh          # must print "current" and exit 0; stop otherwise
 python3 -B enrichment/v7/recheck.py plan --mapped --verses-file enrichment/v7/recheck/scope_s1_s59_s87-114.txt
+# Report the current plan and wait for the stage go before building/launching.
 python3 -B enrichment/v7/recheck.py build recheck_20261010 --mapped --verses-file enrichment/v7/recheck/scope_s1_s59_s87-114.txt
-nohup enrichment/v9/tools/run_until_done.sh 40 enrichment/v7/recheck/recheck_20261010/runs <log> enrichment/v7/recheck/recheck_20261010/spawn/luna-max_c*.md &
+# Choose a fresh RUN name if this directory already exists. Use the approved cap and a real LOG path.
+nohup enrichment/v9/tools/run_until_done.sh CAP enrichment/v7/recheck/recheck_20261010/runs LOG enrichment/v7/recheck/recheck_20261010/spawn/luna-max_c*.md &
+# Wait for the runner to finish, inspect its exit status/log, then check/report.
 python3 -B enrichment/v7/recheck.py check recheck_20261010 --model luna-max     # every problem; repair: tools/repair_recheck.sh recheck_20261010 NN
 python3 -B enrichment/v7/recheck.py report recheck_20261010
 ```
 
-Before you run it, check that the plan's figures are close to the ones above, then report them to the user. They were
-measured before the provenance checks were merged in; since then only valid digests count (79,373 of 80,129 digested
-segments), so the counts may come out slightly lower. `plan` and `build` each take about 12–15 minutes, because every
-tier-1 output is validated first. Recheck lines pass the same validation (`source_sha256` per chunk,
-`strict_fields`, `row_tags`), so a supplement from a stale or invalid line is never read.
+Before launch, report the **current** plan's counts, exact rendered input characters,
+chunk count and estimated cost. The previous figures predate provenance filtering,
+correct named-surah markers, full-verse citation fallback and complete earlier-note
+inputs; changed counts are expected and must be explained. `plan` and `build` each
+can take 12–15 minutes because Tier-1 outputs are validated first. They use the same
+whole-segment packing rules. Every supplement reader, completion tracker and checker
+enforces source provenance, strict fields, row tags **and the CHECK-verse assignment**.
+`check` exits nonzero on problems; `report` distinguishes planned pairs from validated
+completed pairs. Do not treat the plan count or a finished session as a passed check.
 
-**What to push:** `manifest.json`, `spawn/`, `out/` and `runs/*/run.json`. The chunks (`recheck/*/chunks/`) are
+Repair uses `enrichment/v9/tools/repair_recheck.sh RUN NN` (plain or padded N),
+the original thread and portable live/archive session paths. Successful repairs save
+`repairN.run.json` and cumulative session cost. A changed/missing source or missing
+provenance requires a fresh build; no model repair is launched for it.
+
+**What to push:** `manifest.json`, `spawn/`, `out/`, `runs/*/run.json` and
+`runs/*/repair*.run.json`. The chunks (`recheck/*/chunks/`) are
 git-ignored like tier-1 chunks, because they are not needed here. `recheck.py check` reads the segment text from the
 corpus index.
 
 **After the outputs are pulled here,** the maps take the new notes, together with the range and mention notes, through
 one `map.py update-all`. That is a Sol run, so its cost is reported first.
+Changed/removed existing notes require rebuilding their verse map in a fresh run
+with `--supersede OLD_RUN`; an additive update cannot correct old positions. Run
+the map checks after every update, then translate changed questions and build pages.
+See `REVIEW-workflow-20261010.md` for the review and verification record.

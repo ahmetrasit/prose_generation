@@ -34,27 +34,20 @@ LINKED_VERSION = '2026-10-10'
 
 
 def stamp():
-    """What the links depend on, by content, so that a copy reassembled on another machine matches: the corpus index
-    (a hash of its src rows; per source, segment count, text and heading lengths and last id; every verse key; the
-    Qur'an text), the
+    """What the links depend on, by content, so that a copy reassembled on another machine matches: source rows,
+    every segment's full body, heading, metadata and verse keys, the
     explicit-citation rows used by the full-verse fallback, range overlay (sha256), and the link code (the source of
     gather, quote_packet and normalize_map and the constants they use)."""
     h = hashlib.sha256()
     with connect() as con:
         for r in con.execute('SELECT id, kind, access, meta FROM src ORDER BY id'):
             h.update(repr(r).encode())
-        for r in con.execute('SELECT src, count(*), sum(length(text)), sum(length(head)), max(id) FROM seg '
-                             'GROUP BY src ORDER BY src'):
+        for r in con.execute('SELECT id, seg, src, s, a, a_end, head, text, extra FROM seg ORDER BY id'):
             h.update(repr(r).encode())
-        for r in con.execute('SELECT id, seg, src, s, a, a_end FROM seg WHERE s IS NOT NULL ORDER BY id'):
-            h.update(repr(r).encode())       # every verse key: a re-index changes the links
         for r in con.execute('SELECT seg_id, s, a, a_end FROM ref ORDER BY seg_id, s, a, a_end'):
             h.update(repr(r).encode())       # citation changes can change full-verse fallback links
-        for r in con.execute("SELECT seg.id, seg.text FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran' "
-                             'ORDER BY seg.id'):
-            h.update(repr(r).encode())       # the verse text the quotation windows come from
     o = hashlib.sha256(digest.OVERLAY.read_bytes()).hexdigest() if digest.OVERLAY.exists() else None
-    code = ''.join(inspect.getsource(fn) for fn in (digest.gather, digest.quote_packet, digest.normalize_map))
+    code = ''.join(inspect.getsource(fn) for fn in (stamp, digest.gather, digest.quote_packet, digest.normalize_map))
     code += repr((digest.KINDS, digest.QUOTE_KINDS_ONE, digest.QUOTE_KINDS_THREE, digest.QUOTE_MAX_HITS,
                   digest._ARABIC_MAP, sorted(digest._ARABIC_DROP)))
     return {'corpus_sha256': h.hexdigest(), 'overlay_sha256': o,
@@ -67,6 +60,9 @@ def key(ayah):
 
 def build(a):
     if a.surahs:
+        unknown = set(a.surahs) - {int(v.split(':')[0]) for v in digest.quran()}
+        if unknown:
+            raise SystemExit(f'unknown surahs: {sorted(unknown)}')
         with connect() as con:
             ayat = [f'{s}:{x}' for s, x in con.execute(
                 "SELECT s, a FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran' AND s IN (%s) ORDER BY s, a"

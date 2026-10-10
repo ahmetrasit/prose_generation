@@ -126,6 +126,26 @@ python3 -B enrichment/v7/digest.py check s103-1      # every segment answered, e
 python3 -B enrichment/v7/digest.py report s103-1     # cost per run, completion, peak context (cap 120k)
 ```
 
+**Workflow review fixes (2026-10-10).** Check commands print every problem and return
+nonzero on failure; unknown chunk/model selections fail. Coverage/readers track the
+latest same-session repair, including a pending repair, and invalidate caches when
+completion changes. Portable repair wrappers accept padded or plain chunk numbers,
+use the configured live/archive directories, preserve every checker problem and
+save `repairN.run.json`; push those records with the original `run.json`. A changed
+or missing source requires rebuilding the input, not another model repair.
+
+For the screened missed-verse pass, follow `HANDOFF-hadith-20261010.md` and the
+current plan, not its historical agent/cost totals. It checks unnamed verses, uses
+whole segments and complete earlier notes, and records its quotation selection
+limits. CHECK assignments are enforced by the checker and all supplement readers.
+Do not build overlapping recheck runs while one is active.
+
+Existing verse maps must be checked/updated after Tier 1 or supplements change.
+An existing note whose content changes, or whose provenance is no longer valid,
+requires a fresh verse map with `map.py build NEW_RUN ... --supersede OLD_RUN`.
+Saved evidence stays in the old run; additive updates cannot repair its old positions.
+The full review is `REVIEW-workflow-20261010.md`.
+
 ## Stage 1b: retag (v7 record; superseded by v9 maps, do not run)
 
 Rows digested before row tags (runs without `"row_tags": true`) need `words` and `type` before tier 2 groups them

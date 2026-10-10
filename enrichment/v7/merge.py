@@ -49,7 +49,8 @@ def _segments(f):
         manifest = (f.parents[2] / 'manifest.json').stat()
         corpus = (ROOT / 'enrichment/corpus/corpus.sqlite').stat()
         version = (st.st_mtime_ns, st.st_size, manifest.st_mtime_ns, manifest.st_size,
-                   corpus.st_mtime_ns, corpus.st_size)
+                   corpus.st_mtime_ns, corpus.st_size,
+                   digest.run_state(f.parents[2] / 'runs' / f'v7d_{f.parts[-4]}_{f.parts[-2]}_{f.stem}'))
         if _FILES.get(f, (None,))[0] == version:
             return _FILES[f][1]
         lines = f.read_text().splitlines()
@@ -193,9 +194,9 @@ def segment_rows(tags, locs):
                 out.setdefault(x['loc'], []).extend(full_row(r, n, x, whole_again, tag, src, meta)
                                                     for n, r in enumerate(x['rows'], 1))
         for tag, run, x in supplements(tags):
-            if x['loc'] in out:              # a recheck adds to a digested segment only
+            if x['loc'] in want:             # a valid supplement remains evidence even if its base is unresolved
                 src = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
-                out[x['loc']].extend(full_row(r, n, x, False, tag, src, meta, rid=f"{x['loc']}/x{n}-{run}")
+                out.setdefault(x['loc'], []).extend(full_row(r, n, x, False, tag, src, meta, rid=f"{x['loc']}/x{n}-{run}")
                                      for n, r in enumerate(x['rows'], 1) if isinstance(r, dict))
     return out
 

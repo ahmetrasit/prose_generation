@@ -149,6 +149,9 @@ def check(a):
     if qs_ is None:
         print(f"{man['ayah']}: no verse map; positions cannot be checked")
         sys.exit(1)
+    why = Q.stale(man['ayah'])
+    if why:
+        raise SystemExit(f"{man['ayah']}: verse map not current ({why})")
     pids = {x['id'] for q in qs_ for x in q['positions']}
     problems, n = [], 0
     for i, line in enumerate(f.read_text().splitlines(), 1):

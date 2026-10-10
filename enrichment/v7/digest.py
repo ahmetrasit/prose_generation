@@ -144,6 +144,9 @@ def tag_problems(r):
         out.append('"words" must be a non-empty list (verse words, or ["*"] for the whole verse)')
     else:
         for w in words:
+            if not isinstance(w, str) or not w.strip():
+                out.append('each word tag must be non-empty text')
+                continue
             if w == WHOLE:
                 continue
             if not any(all(word_position(x, v) is not None for x in str(w).split()) for v in verse_list(r.get('verses'))):
@@ -192,8 +195,8 @@ def unfinished(f):
     entry for the chunk (native sessions) count as finished."""
     run, tag = f.parts[-4], f.parts[-2]
     d = f.parents[2] / 'runs' / f'v7d_{run}_{tag}_{f.stem}'
-    record = d / 'run.json'
-    if d.is_dir() and (not record.exists() or not _completed_record(record)):
+    record = run_record(d)
+    if d.is_dir() and not completed_record(record):
         if f not in _UNFINISHED:
             _UNFINISHED.add(f)
             print(f'NOTE {f.relative_to(V7)}: its agent has not finished; not read (its notes arrive in a later update)')
@@ -203,10 +206,62 @@ def unfinished(f):
 
 def _completed_record(path):
     try:
-        x = json.loads(path.read_text())
-        return x.get('turn_completed') is True and x.get('returncode') == 0
+        return completed_record(json.loads(path.read_text()))
     except (OSError, ValueError):
         return False
+
+
+def completed_record(record):
+    return isinstance(record, dict) and record.get('turn_completed') is True and record.get('returncode') == 0
+
+
+def run_record(directory):
+    """Latest result of the original session or a same-session repair. Pending repairs are unfinished.
+
+    Older repair scripts saved streams without records. Their final turn event supplies completion;
+    new repairs also save return codes and cumulative session costs in repairN.run.json.
+    """
+    if (directory / '.repair.lock').exists():
+        return None
+    def read(path):
+        try:
+            value = json.loads(path.read_text())
+            return value if isinstance(value, dict) else None
+        except (OSError, ValueError):
+            return None
+    original = read(directory / 'run.json')
+    repairs = {int(m.group(1)) for f in directory.glob('repair*.*')
+               if (m := re.fullmatch(r'repair(\d+)\.(?:stream\.jsonl|run\.json)', f.name))}
+    if not repairs:
+        return original
+    n = max(repairs)
+    record = directory / f'repair{n}.run.json'
+    if record.exists():
+        result = read(record)
+        return {**(original or {}), **result} if result is not None else None
+    stream = directory / f'repair{n}.stream.jsonl'
+    terminal = None
+    try:
+        for line in stream.read_text().splitlines():
+            try:
+                event = json.loads(line)
+            except ValueError:
+                continue
+            if isinstance(event, dict) and event.get('type') in ('turn.started', 'turn.completed', 'turn.failed', 'error'):
+                terminal = event['type']
+    except OSError:
+        return None
+    if terminal != 'turn.completed':
+        return None
+    return {**(original or {}), 'turn_completed': True, 'returncode': 0,
+            'completion_via': 'legacy repair stream', 'repair_cost_unknown': True}
+
+
+def run_state(directory):
+    """File versions that affect whether a cached output is readable."""
+    return tuple(sorted((f.name, s.st_mtime_ns, s.st_size) for f in directory.glob('*')
+                        if f.name in ('run.json', '.repair.lock') or re.fullmatch(r'repair\d+\.(?:stream\.jsonl|run\.json)', f.name)
+                        for s in [f.stat()]))
 
 
 def row_tags():
@@ -654,6 +709,10 @@ def build(a):
     if getattr(a, 'surahs', None):
         if a.ayat or a.page:
             raise SystemExit('give one of --ayat, --surahs, or --page with --ayah')
+        known_surahs = {int(v.split(':')[0]) for v in quran()}
+        unknown = set(a.surahs) - known_surahs
+        if unknown:
+            raise SystemExit(f'unknown surahs: {sorted(unknown)}')
         with connect() as con:
             a.ayat = [f'{s}:{x}' for s, x in con.execute(
                 "SELECT s, a FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran' AND s IN (%s) ORDER BY s, a"
@@ -662,9 +721,15 @@ def build(a):
     elif bool(a.ayat) == bool(a.page):
         raise SystemExit('give one of --ayat, --surahs, or --page with --ayah')
     if a.page:
+        if not a.ayah:
+            raise SystemExit('--page requires --ayah')
         import write  # late import: write imports this module
         a.ayat = write.page_verses(a.page, a.ayah)
         print(f'{a.ayah}: own ayah + {len(a.ayat) - 1} cited verses from {a.page}')
+    a.ayat = list(dict.fromkeys(a.ayat))
+    bad_verses = [v for v in a.ayat if v not in quran()]
+    if bad_verses:
+        raise SystemExit('not verses of the Quran index: ' + ', '.join(bad_verses))
     ayat = [parse_ayah(x) for x in a.ayat]
     src, segments, skipped = gather(ayat)
     skipped += surah_level(ayat)
@@ -858,6 +923,9 @@ def valid_output_locs(f):
         print(f'WARNING {f.relative_to(V7)}: cannot validate against its manifest ({e}); not counted as done')
         return set()
     expected = set(c['locs'])
+    if man.get('kind') == 'recheck' and (not c.get('check') or not c.get('source_sha256')):
+        print(f'WARNING {f.relative_to(V7)}: missing CHECK assignment or source provenance; rebuild this chunk')
+        return set()
     saved = None if c.get('source_sha256') else saved_chunk_segments(d, c)
     if not c.get('source_sha256') and saved is None:
         UNVERIFIED_OUTPUT_LOCS.update(expected)
@@ -895,7 +963,8 @@ def valid_output_locs(f):
             duplicate.add(loc)
             print(f'WARNING {f.relative_to(V7)} {loc}: excerpt or source input changed; not counted as done')
             continue
-        problems = line_problems(loc, x, body, man.get('row_tags', False), man.get('strict_fields', False))
+        problems = chunk_line_problems(loc, x, body, c, man.get('row_tags', False),
+                                       man.get('strict_fields', False), man.get('kind') == 'recheck')
         if problems:
             duplicate.add(loc)
             print(f'WARNING {f.relative_to(V7)} {loc}: invalid output ({problems[0]}); not counted as done')
@@ -904,11 +973,27 @@ def valid_output_locs(f):
     return valid - duplicate
 
 
+def chunk_line_problems(loc, x, body, chunk, tags=False, strict=False, recheck=False):
+    """Row rules shared by stage checkers, coverage accounting and every note reader."""
+    problems = line_problems(loc, x, body, tags, strict)
+    if recheck or 'check' in chunk:
+        check = chunk.get('check', {}).get(loc)
+        if not isinstance(check, list) or not check or any(v not in quran() for v in check):
+            problems.append('missing or invalid CHECK assignment; rebuild this chunk')
+        else:
+            for j, row in enumerate(x.get('rows') if isinstance(x.get('rows'), list) else [], 1):
+                if isinstance(row, dict) and not set(check) & set(verse_list(row.get('verses'))):
+                    problems.append(f'row {j}: "verses" must include one of the CHECK verses: {", ".join(check)}')
+    return problems
+
+
 def check_chunk(d, tag, c, tags=False, strict=False):
     """Problems in one output file: missing, extra or duplicate segments, bad lines, anchors not verbatim."""
     f = d / 'out' / tag / f"c{c['chunk']:02d}.jsonl"
     if not f.exists():
         return [f'{f.name}: no output file'], 0
+    if 'check' in c and not c.get('source_sha256'):
+        return [f'{f.name}: missing source provenance; rebuild this chunk'], 0
     saved = None if c.get('source_sha256') else saved_chunk_segments(d, c)
     if not c.get('source_sha256') and saved is None:
         return [f'{f.name}: legacy input snapshot unavailable; output provenance unresolved, rebuild this chunk'], 0
@@ -936,12 +1021,12 @@ def check_chunk(d, tag, c, tags=False, strict=False):
             problems.append(f'line {i}: not JSON ({e})')
             continue
         loc = x.get('loc') if isinstance(x, dict) else None
-        if loc not in c['locs']:
+        if not isinstance(loc, str) or loc not in c['locs']:
             problems.append(f'line {i}: locator {loc!r} is not in this chunk')
             continue
         seen.append(loc)
         if loc in source:
-            problems += [f'{loc}: {p}' for p in line_problems(loc, x, source[loc][1], tags, strict)]
+            problems += [f'{loc}: {p}' for p in chunk_line_problems(loc, x, source[loc][1], c, tags, strict)]
         if isinstance(x.get('rows'), list):
             n_rows += len(x['rows'])
     for loc in c['locs']:
@@ -956,11 +1041,17 @@ def check(a):
     d = run_dir(a.run)
     man = json.loads((d / 'manifest.json').read_text())
     tags = [a.model] if a.model else sorted(p.name for p in (d / 'out').iterdir())
+    known_tags = {tag_of(*spec.split(':')) for spec in man['models']}
+    if not tags or any(tag not in known_tags for tag in tags):
+        raise SystemExit('unknown model tag or no output model directories')
     plan = [c for c in man['chunks'] if a.chunk in (None, c['chunk'])]
+    if a.chunk is not None and not plan:
+        raise SystemExit(f'unknown chunk: {a.chunk}')
     if a.chunk is not None:  # the agent's own check: print problems or OK, record nothing
         problems, _ = check_chunk(d, tags[0], plan[0], man.get('row_tags', False), man.get('strict_fields', False))
-        print('OK' if not problems else '\n'.join(problems[:60]) + (f'\n... {len(problems) - 60} more' if len(problems) > 60 else ''))
-        return
+        print('OK' if not problems else '\n'.join(problems))
+        return 1 if problems else 0
+    failures = 0
     for tag in tags:
         result = {}
         for c in plan:
@@ -970,7 +1061,9 @@ def check(a):
                 print(f"WARNING {tag} c{c['chunk']:02d}: {p}")
         dump(d / 'out' / tag / 'check.json', result)
         bad = sum(1 for v in result.values() if v['problems'])
+        failures += bad
         print(f'{tag}: {len(result)} chunks checked, {bad} with problems, {sum(v["rows"] for v in result.values())} rows')
+    return 1 if failures else 0
 
 
 _SESSIONS = None
@@ -988,12 +1081,16 @@ def usage(runs_dir, agent):
     the agent name (agents spawned by a Codex orchestrator). Search both live and archived session transcripts;
     archival preserves the relative path, so a live copy takes precedence. None when neither exists."""
     global _SESSIONS, _SESSION_ROOTS
-    r = runs_dir / agent.rsplit('/', 1)[1] / 'run.json'
-    if r.exists():
-        x = json.loads(r.read_text())
+    directory = runs_dir / agent.rsplit('/', 1)[1]
+    if directory.is_dir():
+        x = run_record(directory)
+        if x is None:
+            return {'usd': 0, 'requests': 0, 'peak': 0, 'completed': False, 'via': 'pending or invalid run record'}
+        if x.get('repair_cost_unknown') or 'usd_equivalent' not in x:
+            print(f'WARNING {agent}: session cost is unknown or excludes a legacy repair; recover its accounting')
         return {'usd': x.get('usd_equivalent', 0), 'requests': x.get('requests', 0),
                 'peak': x.get('max_request_input_tokens') or 0,
-                'completed': bool(x.get('turn_completed')) and not x.get('returncode'), 'via': 'run.json'}
+                'completed': completed_record(x), 'via': x.get('completion_via', 'run.json')}
     if _SESSIONS is None:
         _SESSIONS = {}
         live_root = Path(os.environ.get('CODEX_SESSIONS_DIR', str(Path.home() / '.codex/sessions')))
@@ -1081,7 +1178,7 @@ def report(a):
             if x is None:
                 print(f"WARNING {tag} c{c['chunk']:02d}: no run.json and no native session named {agent}")
                 continue
-            done += 1
+            done += bool(x['completed'])
             usd += x['usd']
             reqs += x['requests']
             peak = max(peak, x['peak'])
@@ -1116,8 +1213,8 @@ def main():
     p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--chunk', type=int)
     p = sub.add_parser('report'); p.add_argument('run')
     a = parser.parse_args()
-    {'build': build, 'check': check, 'report': report}[a.cmd](a)
+    return {'build': build, 'check': check, 'report': report}[a.cmd](a)
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main() or 0)

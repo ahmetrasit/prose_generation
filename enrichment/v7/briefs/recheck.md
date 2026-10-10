@@ -23,6 +23,11 @@ No other commands, files, web or repository search.
 ## PROCEDURE: follow in order, each step once
 **Step 1.** Read parts 0 to {LAST} in order, each exactly once. Each segment starts with `=== SEGMENT <LOCATOR> | source <ID> | indexed … | CHECK <verses> | heading ===`, then its text, then `--- notes already taken on this segment ---` with the earlier notes, and ends with `=== END SEGMENT <LOCATOR> ===`. A segment may continue into the next part. If a part looks cut (no `<<part K ends …>>` or `<<end of chunk>>` line at its end), run that same part once more.
 
+A `CORPUS METADATA` line may precede the body. Use its source-quality warnings,
+alignment notes and attribution/grade flags as provenance; it is not source wording
+and cannot supply an anchor. Earlier notes are printed in full as JSON, including
+their anchors, mentions and tags. They are comparison material, not a second source.
+
 **Step 2.** For every segment and every verse after its `CHECK`, decide: does the segment say something about this verse that none of the earlier notes carries? See WHAT COUNTS.
 
 **Step 3.** Write the whole output file `enrichment/v7/recheck/{RUN}/out/{TAG}/c{NN}.jsonl` in one write with your file-writing tool, after you have read every part.

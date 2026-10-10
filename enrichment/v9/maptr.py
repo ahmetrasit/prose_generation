@@ -59,12 +59,45 @@ def complete(t, q):
                and (not p.get('reasons') or txt((tp.get(p['id']) or {}).get('reasons'))) for p in q['positions'])
 
 
+def translation_problems(t, q):
+    """Shared per-question validation for checkers and readers; no partial rendering is published."""
+    problems = []
+    if not isinstance(t, dict) or t.get('id') != q['id']:
+        return ['translation id does not match its assigned question']
+    if not txt(t.get('question')):
+        problems.append(f"{q['id']}: empty question")
+    if q.get('turns_on') and not txt(t.get('turns_on')):
+        problems.append(f"{q['id']}: turns_on not translated")
+    positions = t.get('positions')
+    if not isinstance(positions, list):
+        return problems + [f"{q['id']}: positions must be a list"]
+    by_id = {p['id']: p for p in positions if isinstance(p, dict) and isinstance(p.get('id'), str)}
+    if len(by_id) != len(positions):
+        problems.append(f"{q['id']}: malformed or duplicate position id")
+    for p in q['positions']:
+        x = by_id.get(p['id'], {})
+        if not txt(x.get('position')):
+            problems.append(f"{p['id']}: position not translated")
+        if p.get('reasons') and not txt(x.get('reasons')):
+            problems.append(f"{p['id']}: reasons not translated")
+    extra = set(by_id) - {p['id'] for p in q['positions']}
+    if extra:
+        problems.append(f"{q['id']}: positions not in the map: {', '.join(sorted(extra))}")
+    text = ' '.join([txt(t.get('question')), txt(t.get('turns_on'))]
+                    + [txt(p.get('position')) + ' ' + txt(p.get('reasons')) for p in by_id.values()])
+    if IDS.search(text):
+        problems.append(f"{q['id']}: ids in the text")
+    return problems
+
+
 def build(a):
     d = tdir(a.run)
     if d.exists():
         raise SystemExit(f'{d} exists; use a new run')
     if not (a.ayat or a.ayat_file):
         raise SystemExit('give --ayat or --ayat-file')
+    if a.chunk_chars < 1:
+        raise SystemExit('--chunk-chars must be positive')
     ayat = list(dict.fromkeys(a.ayat or Path(a.ayat_file).read_text().split()))
     todo, skipped, partial = [], 0, 0
     planned = set()
@@ -84,6 +117,9 @@ def build(a):
             print(f"NOTE {man.parents[1].name}: {len(waiting)} chunk(s) not finished (queued or running) count as planned: "
                   f"{' '.join(waiting[:30])}{' …' if len(waiting) > 30 else ''}")
     for v in ayat:
+        why = Q.stale(v)
+        if why:
+            raise SystemExit(f'{v}: map not current ({why}); nothing built')
         qs, _ = Q.load(v)
         if qs is None:
             print(f'NOTE {v}: no verse map; nothing to translate')
@@ -170,28 +206,7 @@ def check_chunk(d, man, c):
         if t['id'] in seen:
             problems.append(f"line {i}: {t['id']} translated twice")
         seen.add(t['id'])
-        if not txt(t.get('question')):
-            problems.append(f"{t['id']}: empty question")
-        if q.get('turns_on') and not txt(t.get('turns_on')):
-            problems.append(f"{t['id']}: turns_on not translated")
-        if not isinstance(t.get('positions') or [], list):
-            problems.append(f"{t['id']}: \"positions\" must be a list")
-            t['positions'] = []
-        tp = {p['id']: p for p in t.get('positions') or [] if isinstance(p, dict) and isinstance(p.get('id'), str)}
-        if len(tp) != len(t.get('positions') or []):
-            problems.append(f"{t['id']}: a position without a text id, or not an object")
-        for p in q['positions']:
-            x = tp.get(p['id'])
-            if x is None or not txt(x.get('position')):
-                problems.append(f"{p['id']}: position not translated")
-            elif p.get('reasons') and not txt(x.get('reasons')):
-                problems.append(f"{p['id']}: reasons not translated")
-        extra = set(tp) - {p['id'] for p in q['positions']}
-        if extra:
-            problems.append(f"{t['id']}: positions not in the map: {', '.join(sorted(extra))}")
-        text = ' '.join([txt(t.get('question')), txt(t.get('turns_on'))] + [txt(x.get('position')) + ' ' + txt(x.get('reasons')) for x in tp.values()])
-        if IDS.search(text):
-            problems.append(f"{t['id']}: ids in the text")
+        problems += translation_problems(t, q)
     for qid in want:
         if qid not in seen and qid not in stale:
             problems.append(f'{qid}: not translated')
@@ -204,10 +219,11 @@ def check_chunk(d, man, c):
 def check(a):
     d = tdir(a.run)
     man = json.loads((d / 'manifest.json').read_text())
+    plan = [c for c in man['chunks'] if a.chunk is None or c['chunk'] == a.chunk]
+    if a.chunk is not None and not plan:
+        raise SystemExit(f'unknown chunk: {a.chunk}')
     bad = 0
-    for c in man['chunks']:
-        if a.chunk and c['chunk'] != a.chunk:
-            continue
+    for c in plan:
         p = check_chunk(d, man, c)
         for x in [x for x in p if x.startswith('NOTE')]:
             print(f"c{c['chunk']:03d}: {x}")
@@ -215,7 +231,7 @@ def check(a):
         if p:
             bad += 1
             print(f"c{c['chunk']:03d}: {len(p)} problem(s)")
-            for x in p[:40]:
+            for x in p:
                 print('  ' + x)
         elif a.chunk:
             print(f"OK c{c['chunk']:03d}: {len(c['questions'])} questions")

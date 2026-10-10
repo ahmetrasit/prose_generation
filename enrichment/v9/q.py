@@ -50,7 +50,15 @@ def located(ayah):
     fs = [f for f in (V9 / 'work').glob(f'*/map/out/{TAG}/{key(ayah)}.jsonl')]
     if not fs:
         return None
-    f = max(fs, key=lambda x: x.stat().st_mtime)
+    active = []
+    for f in fs:
+        man = json.loads((f.parents[2] / 'manifest.json').read_text())
+        p = next((p for p in man['ayat'] if p['ayah'] == ayah), None)
+        if p is not None and not p.get('superseded_by'):
+            active.append(f)
+    if not active:
+        return None
+    f = max(active, key=lambda x: x.stat().st_mtime)
     return f, f.parents[2] / 'rows' / f'{key(ayah)}.json'
 
 
@@ -66,12 +74,23 @@ def stale(ayah):
     p = next((x for x in man['ayat'] if x['ayah'] == ayah), None)
     if p is None:
         return f'not in {m.parent.name} manifest'
+    if p.get('tier1_problem'):
+        return f"{m.parent.name}: {p['tier1_problem']}"
+    import map as M
+    why = M.agents_problem(m, TAG, ayah, p.get('updates', []))
+    if why:
+        return why
     k = key(ayah)
     raws = [m / 'out' / TAG / f'{k}.raw.jsonl'] + [m / 'out' / TAG / f"{k}.u{u['n']}.raw.jsonl"
                                                     for u in p.get('updates', []) if u['tag'] == TAG]
     missing = [r.name for r in raws if not r.exists()]
     if missing:
         return f'{m.parent.name}: no output yet for {", ".join(missing)}'
+    stamp = m / 'out' / TAG / f'{k}.stamp.json'
+    if stamp.exists():
+        if json.loads(stamp.read_text()) != M.assembly_stamp(m, TAG, ayah, p.get('updates', [])):
+            return f'{m.parent.name}: assembled map inputs changed (run map.py check {m.parent.name})'
+        return None
     if loc[0].stat().st_mtime < max(r.stat().st_mtime for r in raws):
         return f'{m.parent.name}: assembled map older than its outputs (run map.py check {m.parent.name})'
     return None
@@ -81,19 +100,32 @@ def load(ayah):
     loc = located(ayah)
     if not loc:
         return None, None
+    why = stale(ayah)
+    if why:
+        raise SystemExit(f'{ayah}: verse map not current ({why})')
     return [json.loads(l) for l in loc[0].read_text().splitlines() if l.strip()], json.loads(loc[1].read_text())
 
 
 def translation(ayah):
     """qid -> Turkish rendering of the verse map's questions (newest translation run wins per question):
     {'src': hash of the English it was made from, 'question', 'turns_on', 'positions': {pid: {'position', 'reasons'}}}."""
+    import maptr
+    qs, _ = load(ayah)
+    current = {q['id']: q for q in qs or []}
     out = {}
     for man in sorted((V9 / 'work').glob('*/maptr/manifest.json'), key=lambda f: f.stat().st_mtime):
         m = json.loads(man.read_text())
-        src = {q: h for c in m['chunks'] for q, h in c['src'].items() if q.split('/')[0] == ayah}
-        if not src:
-            continue
-        for f in (man.parent / 'out' / m['tag']).glob('c*.jsonl'):
+        for c in m['chunks']:
+            src = {qid: h for qid, h in c['src'].items() if qid.split('/')[0] == ayah}
+            if not src:
+                continue
+            directory = man.parent / 'runs' / f"v9t_{man.parents[1].name}_{m['tag']}_c{c['chunk']:03d}"
+            if directory.exists() and not digest.completed_record(digest.run_record(directory)):
+                continue
+            f = man.parent / 'out' / m['tag'] / f"c{c['chunk']:03d}.jsonl"
+            if not f.exists():
+                continue
+            lines, duplicate, seen = [], set(), set()
             for line in f.read_text().splitlines():
                 if not line.strip():
                     continue
@@ -101,11 +133,19 @@ def translation(ayah):
                     t = json.loads(line)
                 except ValueError:
                     continue
-                if not isinstance(t, dict) or t.get('id') not in src:
+                if not isinstance(t, dict) or not isinstance(t.get('id'), str) or t.get('id') not in src:
                     continue
-                prev = out.get(t['id'])
-                if prev and prev['src'] == src[t['id']] and prev['question'] and not (t.get('question') or '').strip():
-                    continue               # an empty newer line never replaces a rendering of the same English
+                qid = t['id']
+                if qid in seen:
+                    duplicate.add(qid)
+                seen.add(qid)
+                q = current.get(qid)
+                if q is None or src[qid] != maptr.qhash(q) or maptr.translation_problems(t, q):
+                    continue
+                lines.append(t)
+            for t in lines:
+                if t['id'] in duplicate:
+                    continue
                 ps = t.get('positions') if isinstance(t.get('positions'), list) else []
                 out[t['id']] = {'src': src[t['id']], 'question': t.get('question') or '', 'turns_on': t.get('turns_on') or '',
                                 'positions': {p['id']: p for p in ps if isinstance(p, dict) and isinstance(p.get('id'), str)}}
@@ -248,7 +288,7 @@ def cmd_linked(a):
                for r in rs):
             named += 1                       # already reaches the map through tier1_rows
             if a.seg:
-                head.append(f'# {loc}: its notes name {a.verse}; they are in the map (q.py find, q.py notes)')
+                head.append(f'# {loc}: its notes name {a.verse}; available to map builds/updates (assembled maps may lag)')
             continue
         m = meta.get(s['src'], {})
         about_vs = sorted({v for r in rs for v in digest.verse_list(r.get('verses'))},
@@ -261,7 +301,7 @@ def cmd_linked(a):
             lines.append('(digested with no notes)')
         items.append((loc, lines))
     head.insert(0, f"# {a.verse}: {len(idx['segments'])} linked segments; {named} have notes naming this verse (in its "
-                   f"map already); {len(items)} listed below; {len(undigested)} not digested yet")
+                   f"Tier 1 reader); {len(items)} listed below; {len(undigested)} lack a valid digest or supplement")
     if undigested:
         head.append('not digested yet: ' + ', '.join(undigested))
     sk = idx.get('skipped') or []

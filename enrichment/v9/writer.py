@@ -71,7 +71,7 @@ def build(a):
     if d.exists():
         raise SystemExit(f'{d} exists; use a new run')
     _, paras, numbered, cites = write7.page(a.page, a.ayah)
-    verses = sorted({v for vs in cites.values() for v in vs}, key=lambda x: tuple(map(int, x.split(':'))))
+    verses = sorted({a.ayah} | {v for vs in cites.values() for v in vs}, key=lambda x: tuple(map(int, x.split(':'))))
     missing = [v for v in verses if not Q.located(v)]
     if missing:
         raise SystemExit(f'no verse map for {len(missing)} cited verse(s): {", ".join(missing)}; map them first')
@@ -155,6 +155,14 @@ def check(a):
     # same-surah verses it names without citing them; full coverage)
     page_verses = set(man['verses']) | {k.replace('-', ':') for k in Q.mapped() if k.split('-')[0] == surah}
     maps = {v: Q.load(v) for v in sorted(page_verses)}
+    missing = [v for v, (qs, _) in maps.items() if qs is None]
+    for v in missing:
+        problems.append(f'{v}: verse map is missing')
+    maps = {v: pair for v, pair in maps.items() if pair[0] is not None}
+    for v in set(man['verses']) | {b.get('verse') for b in ledger if b.get('verse') in page_verses}:
+        why = Q.stale(v)
+        if why:
+            problems.append(f'{v}: map not current ({why})')
     qids = {q['id']: (v, q) for v, (qs, _) in maps.items() for q in qs}
     pids = {p['id']: (v, p) for v, (qs, _) in maps.items() for q in qs for p in q['positions']}
     rows = {i: x for v, (_, rs) in maps.items() for i, x in rs.items()}

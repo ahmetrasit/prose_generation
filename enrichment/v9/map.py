@@ -20,6 +20,7 @@ runs/ (written by enrichment/v5/run_codex.py), out/<TAG>/<k>.raw.jsonl (agent ou
 <k>.md (assembled: question ids <ayah>/qNN, position ids <ayah>/qNN/pN).
 """
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -45,6 +46,42 @@ def mdir(run):
 
 def key(ayah):
     return ayah.replace(':', '-')
+
+
+def row_changes(saved, current):
+    """Semantic changes need a new map; filling a missing legacy anchor is safe metadata repair."""
+    gone = set(saved) - set(current)
+    changed = {i for i in set(saved) & set(current)
+               if any(saved[i].get(k) != current[i].get(k) for k in ROW_FIELDS
+                      if k != 'anchor' or saved[i].get('anchor'))}
+    return gone, changed
+
+
+def snapshot_problem(m, man, ayah):
+    saved = json.loads((m / 'rows' / f'{key(ayah)}.json').read_text())
+    current = {r['id']: r for r in merge.tier1_rows(None, man['from'], ayah, quiet=True)}
+    gone, changed = row_changes(saved, current)
+    if gone or changed:
+        return (f'{len(gone)} saved notes are unavailable/invalid and {len(changed)} changed in tier 1; '
+                'rebuild this verse map in a new run with --supersede; saved evidence was preserved')
+    return None
+
+
+def assembly_stamp(m, tag, ayah, updates):
+    files = [m / 'rows' / f'{key(ayah)}.json', m / 'out' / tag / f'{key(ayah)}.raw.jsonl']
+    files += [m / 'out' / tag / f"{key(ayah)}.u{u['n']}.raw.jsonl" for u in updates if u['tag'] == tag]
+    return {str(f.relative_to(m)): hashlib.sha256(f.read_bytes()).hexdigest() for f in files}
+
+
+def agents_problem(m, tag, ayah, updates):
+    run = m.parent.name
+    names = [agent_name(run, tag, ayah)] + [agent_name(run, tag, ayah, u['n'])
+                                          for u in updates if u['tag'] == tag]
+    for name in names:
+        directory = m / 'runs' / name.rsplit('/', 1)[1]
+        if directory.exists() and not digest.completed_record(digest.run_record(directory)):
+            return f'{name}: its session or latest repair has not completed successfully'
+    return None
 
 
 def agent_name(run, tag, ayah, n=None):
@@ -108,7 +145,7 @@ def build(a):
         elif ayah in planned and not Q.located(ayah):
             print(f'SKIPPED {ayah}: planned in map run {planned[ayah]} (not assembled yet)')
             continue
-        if Q.located(ayah):
+        if Q.located(ayah) and not (a.supersede and Q.located(ayah)[0].parents[3].name == a.supersede):
             print(f'SKIPPED {ayah}: already mapped ({Q.located(ayah)[0].relative_to(V9)}); new notes go through update-all')
             continue
         rs = merge.tier1_rows(None, a.from_tags, ayah)
@@ -139,7 +176,7 @@ def build(a):
 
 
 def refresh_rows(a):
-    """Add fields missing from a run's saved notes (e.g. anchor), from tier 1; the note ids must be exactly the same."""
+    """Refresh missing legacy anchors from verified Tier 1; semantic changes require a new map."""
     m = mdir(a.run)
     man = json.loads((m / 'manifest.json').read_text())
     for p in man['ayat']:
@@ -147,11 +184,16 @@ def refresh_rows(a):
         old = json.loads(f.read_text())
         rs = {r['id']: r for r in merge.tier1_rows(None, man['from'], p['ayah'], quiet=True)}
         new, gone = set(rs) - set(old), set(old) - set(rs)
-        if gone:
-            print(f"WARNING {p['ayah']}: {len(gone)} saved notes are no longer in tier 1; kept as saved")
+        gone, changed = row_changes(old, rs)
+        if gone or changed:
+            p['tier1_problem'] = f'{len(gone)} notes unavailable/invalid, {len(changed)} changed; rebuild with --supersede'
+            print(f"WARNING {p['ayah']}: {p['tier1_problem']}; saved notes kept unchanged")
+            continue
+        p.pop('tier1_problem', None)
         dump(f, {i: {x: rs[i].get(x) for x in ROW_FIELDS} if i in rs else old[i] for i in old})
         print(f"{p['ayah']}: {len(old) - len(gone)} notes refreshed"
               + (f"; {len(new)} new tier-1 notes are not in the map (map.py update)" if new else ''))
+    dump(m / 'manifest.json', man)
 
 
 QID = re.compile(r'^\d+:\d+/q\d+$')
@@ -194,15 +236,21 @@ def position_problems(p, where):
             out.append(f'{where}: "{y}" must be a list of note ids')
     if p.get('reasons') is not None and not isinstance(p['reasons'], str):
         out.append(f'{where}: "reasons" must be text')
+    if 'id' in p and (not isinstance(p['id'], str) or not PID.fullmatch(p['id'])):
+        out.append(f'{where}: invalid position id')
     return out
 
 
 def question_ok(q, where, ayah):
-    if not q.get('question') or not q.get('positions'):
+    if not isinstance(q.get('question'), str) or not q['question'].strip() or not q.get('positions'):
         return [f'{where}: missing question or positions']
     if not isinstance(q['positions'], list):
         return [f'{where}: "positions" must be a list']
+    if 'id' in q and (not isinstance(q['id'], str) or not QID.fullmatch(q['id'])):
+        return [f'{where}: invalid question id']
     out = [x for n, p in enumerate(q['positions'], 1) for x in position_problems(p, f'{where} position {n}')]
+    if q.get('turns_on') is not None and not isinstance(q['turns_on'], str):
+        out.append(f'{where}: turns_on must be text')
     return out + [f'{where}: {x}' for x in digest.tag_problems({'words': q.get('words'), 'type': q.get('type'), 'verses': [ayah]})]
 
 
@@ -270,10 +318,21 @@ def combined(m, tag, ayah, updates=()):
             else:
                 problems.append(f'{where}: not a new question, a new position (question: <question id>) or an '
                                 'addition (position: <position id>)')
-    covered = set()
+    covered, question_ids, position_ids = set(), set(), set()
     for q in qs:
+        qid = q.get('id')
+        if not isinstance(qid, str) or not re.fullmatch(re.escape(ayah) + r'/q\d+', qid):
+            problems.append(f'{qid!r}: question id must belong to {ayah}')
+        elif qid in question_ids:
+            problems.append(f'{qid}: duplicate question id')
+        question_ids.add(str(qid))
         for n, p in enumerate(q['positions'], 1):
             where = p.get('id', f"{q['id']} position {n}")
+            if not isinstance(where, str) or not re.fullmatch(re.escape(str(qid)) + r'/p\d+', where):
+                problems.append(f'{where!r}: position id must belong to its question')
+            elif where in position_ids:
+                problems.append(f'{where}: duplicate position id')
+            position_ids.add(str(where))
             ids = {x: p.get(x) or [] for x in ('rows', 'prefer', 'against')}
             if not ids['rows'] and not ids['against']:
                 problems.append(f'{where}: no note in "rows" or "against"')
@@ -324,6 +383,9 @@ def assemble(m, tag, ayah, qs):
     tmp = m / 'out' / tag / f'{k}.jsonl.tmp'
     tmp.write_text(''.join(json.dumps(q, ensure_ascii=False) + '\n' for q in qs))
     os.replace(tmp, m / 'out' / tag / f'{k}.jsonl')
+    man = json.loads((m / 'manifest.json').read_text())
+    p = next(x for x in man['ayat'] if x['ayah'] == ayah)
+    dump(m / 'out' / tag / f'{k}.stamp.json', assembly_stamp(m, tag, ayah, p.get('updates', [])))
 
 
 def map_text(qs):
@@ -356,9 +418,12 @@ def update(a):
         old = json.loads((m / 'rows' / f'{k}.json').read_text())
         rs = merge.tier1_rows(None, man['from'], ayah, quiet=True)
         ids = {r['id'] for r in rs}
-        gone = set(old) - ids
-        if gone:
-            print(f'WARNING {ayah}: {len(gone)} saved notes are no longer in tier 1; they stay in the map')
+        gone, changed = row_changes(old, {r['id']: r for r in rs})
+        if gone or changed:
+            p['tier1_problem'] = f'{len(gone)} notes unavailable/invalid, {len(changed)} changed; rebuild with --supersede'
+            print(f'WARNING {ayah}: {p["tier1_problem"]}; no update built, saved evidence preserved')
+            continue
+        p.pop('tier1_problem', None)
         new = [r for r in rs if r['id'] not in old]
         if not new:
             print(f'{ayah}: no new notes')
@@ -420,13 +485,24 @@ def check(a):
     for tag in tags:
         for ayah in ayat:
             problems, qs = combined(m, tag, ayah, ups.get(ayah, []))
+            p = next((p for p in man['ayat'] if p['ayah'] == ayah), None)
+            if not a.ayah:
+                why = agents_problem(m, tag, ayah, ups.get(ayah, []))
+                source_problem = snapshot_problem(m, man, ayah)
+                if p:
+                    if source_problem:
+                        p['tier1_problem'] = source_problem
+                    else:
+                        p.pop('tier1_problem', None)
+                if why:
+                    problems.append(why)
+            if p and p.get('tier1_problem'):
+                problems.append(p['tier1_problem'])
             if problems:
                 bad += 1
                 print(f'{tag} {ayah}: {len(problems)} problem(s)')
-                for x in problems[:60]:
+                for x in problems:
                     print('  ' + x)
-                if len(problems) > 60:
-                    print(f'  … and {len(problems) - 60} more')
                 continue
             npos = sum(len(q['positions']) for q in qs)
             if a.ayah:
@@ -434,6 +510,8 @@ def check(a):
             else:
                 assemble(m, tag, ayah, qs)
                 print(f'OK {tag} {ayah}: {len(qs)} questions, {npos} positions, assembled')
+    if not a.ayah:
+        dump(m / 'manifest.json', man)
     if bad:
         sys.exit(1)
 

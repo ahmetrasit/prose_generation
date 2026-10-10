@@ -26,13 +26,17 @@ from common import CONTEXT_CAP, ROOT, dump
 import account
 
 HEADER = re.compile(r'<!-- agent (\S+) \| model (\S+) \| effort (\S+) ')
-SESSIONS = Path.home() / '.codex/sessions'
+SESSIONS = Path(os.environ.get('CODEX_SESSIONS_DIR', str(Path.home() / '.codex/sessions'))).expanduser()
+ARCHIVE = Path(os.environ.get('CODEX_SESSIONS_ARCHIVE_DIR', str(ROOT / '.scratch/codex_sessions_archive'))).expanduser()
+SESSIONS = SESSIONS if SESSIONS.is_absolute() else ROOT / SESSIONS
+ARCHIVE = ARCHIVE if ARCHIVE.is_absolute() else ROOT / ARCHIVE
 
 
 def session_file(thread_id):
-    for f in sorted(SESSIONS.glob('2026/*/*/*.jsonl'), reverse=True):
-        if thread_id and thread_id in f.name:
-            return f
+    if thread_id:
+        for base in (SESSIONS, ARCHIVE):
+            for f in sorted(base.glob(f'*/*/*/*{thread_id}.jsonl'), reverse=True):
+                return f
     return None
 
 

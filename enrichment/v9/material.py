@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Enrichment v9 C1: the material of each verse and its route, so that no source is dropped silently. Launches no
-model; changes nothing.
+model; writes a material report without changing corpus or agent outputs.
 
 For every verse: the segments tied to it (index range and range overlay), split into
   - in tier 1 (digested by the tier-1 model the maps were built from),
@@ -59,7 +59,11 @@ def main():
     ap.add_argument('--ayat', nargs='+', required=True)
     ap.add_argument('--tier1', default='luna-max')
     a = ap.parse_args()
-    ayat = [tuple(map(int, x.split(':'))) for x in a.ayat]
+    a.ayat = list(dict.fromkeys(a.ayat))
+    unknown = [v for v in a.ayat if v not in digest.quran()]
+    if unknown:
+        raise SystemExit('not verses of the Quran index: ' + ', '.join(unknown))
+    ayat = [digest.parse_ayah(v) for v in a.ayat]
     done, unresolved = digested(a.tier1)
     src, found, skipped = digest.gather(ayat)
     quotes = digest.quote_packet(ayat)

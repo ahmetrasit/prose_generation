@@ -36,9 +36,11 @@ Project memory notes, when present, hold the user's standing rules; the ones thi
 ## How agents run
 
 - **Luna and Sol (Codex):** `enrichment/v9/tools/run_until_done.sh CAP RUNS_DIR LOG <spawn files>` with `nohup … &`.
-  It runs `codex_run.py` (atomic claim, one line per agent, `WARNING` for any failure), sets agents that failed at
-  start aside (`rerun_failed_start.py`), retries up to 8 passes, and ends the log with `== done` (preceded by
-  `== WARNING n agent(s)…` when the last pass had warnings). Each agent's record is `<stage>/runs/<agent>/run.json`.
+  It runs `codex_run.py` (atomic claim, one line per agent, `WARNING` for any failure), sets **proven** failures
+  before session creation aside (`rerun_failed_start.py`: no thread, usage or completed items), and retries up to
+  8 passes. Zero shell commands alone never permits a retry. A failed/incomplete session causes a nonzero exit;
+  success means sessions completed, and still requires the stage checker/report. Every spawn must belong to the
+  requested runs directory. Each agent's original record is `<stage>/runs/<agent>/run.json`.
   Beware `A && B &` in bash: it backgrounds the whole chain.
 - **Opus (Claude Code):** agent type `enrich-page-high` (model opus, effort high), one agent per spawn text, at the
   cap; top up as each finishes.
@@ -77,9 +79,12 @@ nohup enrichment/v9/tools/run_until_done.sh 60 enrichment/v7/work/<tier1 run>/ru
 python3 -B enrichment/v7/digest.py check <tier1 run> --model luna-max      # prints every problem (do not tail -1 it)
 python3 -B enrichment/v7/digest.py report <tier1 run>
 ```
-Repair each listed chunk in its session: `tools/repair_t1.sh <tier1 run> NN` (several with `xargs -P`). If its
-session is gone, set the chunk's output and run dir aside (`out_superseded/`, `runs_superseded/` + README line) and run
-its spawn file again. The build takes about 25 s plus 0.35 s per verse. `--skip-done` validates finished lines and
+Repair each listed chunk in its session: `tools/repair_t1.sh <tier1 run> NN` (several with `xargs -P`). The wrappers
+use `tools/repair.py`, configured live/archive paths and a lock per session; plain or padded chunk numbers work.
+They save `repairN.run.json`, preserving the original result and cumulative session cost. Push the repair records
+with `run.json`. Changed/missing source text or provenance requires a fresh build; no model repair is launched.
+If a session is gone, keep its output/records and rebuild missing work in a **new run** with `--skip-done`.
+The build takes about 25 s plus 0.35 s per verse. `--skip-done` validates finished lines and
 input provenance; old outputs whose chunk snapshots are missing count as unresolved and are rebuilt. `--skip-planned`
 reserves another built run's locators and requires `--skip-done`. Indexed hadith is
 included in Tier 1. The quotation packet records limited-search ayat and cautious full-verse citation fallback in
@@ -94,6 +99,11 @@ share the validation and provenance rules. Build `python3 -B enrichment/v9/linke
 per range for `q.py linked <S:A>` lookups of tied segments whose notes discuss other verses. The index records
 quotation limits; rebuild it after corpus or citation changes. Existing maps gain newly linked notes through the
 separately approved `map.py update-all` Sol run.
+
+The screened missed-verse recheck and its current selection/cost rules are in
+`enrichment/v7/HANDOFF-hadith-20261010.md`; review findings and fixes are in
+`enrichment/v7/REVIEW-workflow-20261010.md`. It checks unnamed verses, not every
+possible missed point. Every supplement reader enforces the assigned CHECK verses.
 
 ### 2. Verse maps (Sol high): new verses, then updates of existing maps
 ```bash
@@ -110,7 +120,12 @@ python3 -B enrichment/v9/map.py check <run>       # for EVERY run whose "== <run
 python3 -B enrichment/v9/map.py report <maps run>
 ```
 `build` skips verses that already have a map (`SKIPPED`); `update-all` builds an update only for mapped verses whose
-tier-1 notes grew. Until `check` runs, an updated verse's assembled map is the old one; `writer.py`/`meal.py build`
+tier-1 notes grew. If an existing note changed or is unavailable/invalid, update/refresh/assembly reports a
+rebuild requirement and preserves saved evidence. Rebuild the verse in a new run with `--supersede OLD_RUN`;
+additive updates do not reconsider old positions. After every completed Tier-1/recheck run, run update-all (or
+`ready_pages.py --fresh`) before declaring a map current. The full map check verifies saved notes against current
+Tier 1; new assemblies record hashes of raw outputs and saved notes, so copied timestamps cannot hide changes.
+Until `check` runs, an updated verse's assembled map is the old one; `writer.py`/`meal.py build`
 refuse such a verse (`q.stale`: "assembled map older than its outputs" / "no output yet") — if they refuse, run the
 check, do not work around it. A check's `note X is in no position` on an update → `tools/repair_map.sh RUN S:A N`
 (N = the update number). A base map that fails → `tools/repair_map.sh RUN S:A`; if its session is gone, rebuild the

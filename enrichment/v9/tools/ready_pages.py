@@ -52,6 +52,9 @@ def fresh_problem(ayah, run, p):
     import merge
     m = M.mdir(run)
     man = json.loads((m / 'manifest.json').read_text())
+    problem = M.snapshot_problem(m, man, ayah)
+    if problem:
+        return f'{run}: {problem}'
     saved = set(json.loads((m / 'rows' / f'{M.key(ayah)}.json').read_text()))
     new = [r for r in merge.tier1_rows(None, man['from'], ayah, quiet=True) if r['id'] not in saved]
     return f'{run}: {len(new)} tier-1 note(s) not in the map yet (run map.py update-all)' if new else None
@@ -68,12 +71,16 @@ def ready(ayah, held, cache, build=False, fresh=False):
     ups = [u for u in p.get('updates', []) if u['tag'] == TAG]
     agents = [M.agent_name(run, TAG, ayah)] + [M.agent_name(run, TAG, ayah, u['n']) for u in ups]
     for ag in agents:
-        if not (m / 'runs' / ag.split('/')[-1] / 'run.json').exists():
+        directory = m / 'runs' / ag.split('/')[-1]
+        if not M.digest.completed_record(M.digest.run_record(directory)):
             cache[ayah] = f'{run}: {ag.split("/")[-1]} not finished'
             return cache[ayah]
     problems, qs = M.combined(m, TAG, ayah, p.get('updates', []))
     if problems:
         cache[ayah] = f'{run}: {len(problems)} check problem(s), e.g. {problems[0]}'
+        return cache[ayah]
+    if p.get('tier1_problem'):
+        cache[ayah] = p['tier1_problem']
         return cache[ayah]
     if fresh:
         x = fresh_problem(ayah, run, p)
@@ -83,7 +90,10 @@ def ready(ayah, held, cache, build=False, fresh=False):
     k = M.key(ayah)
     out = m / 'out' / TAG / f'{k}.jsonl'
     raws = [m / 'out' / TAG / f'{k}.raw.jsonl'] + [m / 'out' / TAG / f"{k}.u{u['n']}.raw.jsonl" for u in ups]
-    if not out.exists() or out.stat().st_mtime < max(r.stat().st_mtime for r in raws):
+    stamp = out.with_suffix('.stamp.json')
+    needs_assemble = (not out.exists() or out.stat().st_mtime < max(r.stat().st_mtime for r in raws)
+                      or (stamp.exists() and json.loads(stamp.read_text()) != M.assembly_stamp(m, TAG, ayah, ups)))
+    if needs_assemble:
         if not build:
             NEEDS_ASSEMBLE.add(ayah)
             cache[ayah] = True

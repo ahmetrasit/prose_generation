@@ -16,9 +16,11 @@ from pathlib import Path
 V9 = Path(__file__).resolve().parent
 sys.path.insert(0, str(V9.parent / 'v5'))
 import run_codex  # noqa: E402
+sys.path.insert(0, str(V9.parent / 'v7'))
+import digest  # noqa: E402
 
 
-def one(spawn, retry):
+def one(spawn, retry, runs_dir=None):
     name = str(spawn)
     try:                                   # every failure becomes a printed WARNING line, never a lost result
         m = run_codex.HEADER.match(spawn.read_text())
@@ -26,7 +28,11 @@ def one(spawn, retry):
             return f'WARNING {spawn}: no agent header; skipped'
         name = m.group(1)
         out = spawn.parent.parent / 'runs' / Path(name).name
+        if runs_dir is not None and out.parent.resolve() != runs_dir.resolve():
+            return f'WARNING {name}: spawn belongs to {out.parent}, not the requested runs directory; not launched'
         if (out / 'run.json').exists():
+            if not digest.completed_record(digest.run_record(out)):
+                return f'WARNING {name}: original session or latest repair failed/is unfinished; repair that session'
             return f'{name}: already run, skipped'
         out.parent.mkdir(parents=True, exist_ok=True)
         try:
@@ -34,9 +40,11 @@ def one(spawn, retry):
         except FileExistsError:
             if not retry:
                 return f'WARNING {name}: started earlier without run.json (running or died); not started again'
-            for f in out.iterdir():
-                f.unlink()
-        return run_codex.run(spawn)
+            return f'WARNING {name}: --retry cannot erase an existing session; use same-session repair or startup recovery'
+        result = run_codex.run(spawn)
+        if not digest.completed_record(digest.run_record(out)):
+            return f'WARNING {result}'
+        return result
     except Exception as e:
         return f'WARNING {name}: {type(e).__name__}: {e} (no run.json: recover_run_json.py records its cost)'
 
@@ -46,12 +54,18 @@ def main():
     ap.add_argument('spawn', nargs='+')
     ap.add_argument('--parallel', type=int, required=True)
     ap.add_argument('--retry', action='store_true')
+    ap.add_argument('--runs-dir', type=Path, help='require every spawn to belong to this stage runs directory')
     a = ap.parse_args()
+    if a.parallel < 1:
+        ap.error('--parallel must be positive')
     files = list(dict.fromkeys(Path(s).resolve() for s in a.spawn))   # the same spawn file twice runs once
+    failed = False
     with concurrent.futures.ThreadPoolExecutor(max_workers=a.parallel) as pool:
-        for line in pool.map(lambda f: one(f, a.retry), files):
+        for line in pool.map(lambda f: one(f, a.retry, a.runs_dir), files):
             print(line, flush=True)
+            failed |= line.startswith('WARNING')
+    return 1 if failed else 0
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())

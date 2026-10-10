@@ -25,6 +25,7 @@ Build the run on the machine that runs it (the chunks hold the segment texts; no
   recheck.py report RUN                                      costs, segments, new notes
 """
 import argparse
+import hashlib
 import json
 import re
 import sys
@@ -38,18 +39,22 @@ from digest import (DEFAULT_CHUNK_CHARS, OVERLAY, PART_CHARS, QUOTE_MAX_HITS, RO
 
 HOME = V7 / 'recheck'
 BRIEF = V7 / 'briefs/recheck.md'
+sys.path.insert(0, str(ROOT / 'enrichment/v2/fetch'))
+from openiti_quran import SURAH_NAMES  # names only; no source file is opened
 
 
 def run_dir(run):
     return HOME / run
 
 
-def checked_before():
+def checked_before(tags=None):
     """(loc, verse) pairs a finished recheck agent has already answered, from every recheck run."""
     out = set()
     for man in HOME.glob('*/manifest.json'):
         m = json.loads(man.read_text())
         for tag in m.get('tags', []):
+            if tags is not None and tag not in tags:
+                continue
             for c in m['chunks']:
                 f = man.parent / 'out' / tag / f"c{c['chunk']:02d}.jsonl"
                 if not f.exists():
@@ -67,9 +72,9 @@ def scope_of(a):
     if a.mapped:
         vs |= {f.stem.replace('-', ':') for f in (ROOT / 'enrichment/v9/work').glob('*/map/out/sol-high/*.jsonl')
                if '.' not in f.stem}
-    bad = [v for v in vs if not re.fullmatch(r'\d+:\d+', v)]
+    bad = [v for v in vs if not re.fullmatch(r'\d+:\d+', v) or v not in digest.quran()]
     if bad:
-        raise SystemExit(f'not S:A verses: {", ".join(sorted(bad)[:10])}')
+        raise SystemExit(f'not verses of the Quran index: {", ".join(sorted(bad))}')
     if (a.verses or a.verses_file or a.mapped) and not vs:
         raise SystemExit('the scope options give no verses (no maps found, or an empty verses file); nothing built')
     return (vs or None), a.index_only
@@ -96,6 +101,16 @@ def markers(text, surah):
             continue                         # "(3 men)", "(d. 310 AH)", "(p. 5)": not a verse marker
         if open_ == '[' and not re.search(r'[^\W\d_]', c):
             continue                         # [1], [12]: footnote numbers
+        label = re.split(r'\d', c, maxsplit=1)[0].strip().rstrip(':').strip()
+        if label:
+            normalized = normalize_map(re.sub(r'^سورة\s+', '', label))[0]
+            named = {s for s, names in SURAH_NAMES.items()
+                     if normalized in {normalize_map(name)[0] for name in names.split('|')}}
+            if named:
+                if surah not in named:
+                    continue
+            elif label.lower().rstrip('.') not in ('v', 'vv', 'verse', 'verses', 'آية', 'آيات', 'الآية', 'الآيات'):
+                continue
         for x, y in re.findall(r'(?<![\d.])(\d{1,3})(?:\s*[-–]\s*(\d{1,3}))?(?![\d.])', c):
             a, b = int(x), int(y or x)
             if 1 <= a <= b and b - a <= 50:
@@ -114,13 +129,17 @@ def candidates(tier1, only=None, index_only=False):
     with connect() as con:
         quran = {f'{s}:{a}': t for s, a, t in con.execute(
             "SELECT s, a, text FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran' AND a IS NOT NULL")}
-        meta, locs = {}, list(segs)
+        meta, citations, locs = {}, defaultdict(set), list(segs)
         for i in range(0, len(locs), 900):
             part = locs[i:i + 900]
             for r in con.execute('SELECT seg.id, seg.seg, seg.src, src.kind, seg.s, seg.a, coalesce(seg.a_end, seg.a), '
                                  f"seg.head, seg.text, seg.extra FROM seg JOIN src ON src.id=seg.src WHERE seg.seg IN "
                                  f"({','.join('?' * len(part))})", part):
                 meta[r[1]] = r
+            for s, start, end, loc in con.execute(
+                    'SELECT ref.s, ref.a, coalesce(ref.a_end,ref.a), seg.seg FROM ref JOIN seg ON seg.id=ref.seg_id '
+                    f"WHERE seg.seg IN ({','.join('?' * len(part))})", part):
+                citations[loc].update(f'{s}:{a}' for a in range(start, end + 1))
     missing = [loc for loc in segs if loc not in meta]
     if missing:
         print(f'NOTE {len(missing)} digested locator(s) are not in the corpus index (renamed or removed); not checked: '
@@ -152,8 +171,10 @@ def candidates(tier1, only=None, index_only=False):
             if ' ' in g and g.count(' ') == 1:
                 seen[g] += 1
     common = {g for g, k in seen.items() if k > QUOTE_MAX_HITS}
-    done = checked_before()
-    out, pairs, by_marker, skipped_done, lost_common, no_verse = {}, 0, 0, 0, 0, []
+    done = checked_before(tier1)
+    full = {v: ' ' + ' '.join(w) + ' ' for v, w in words.items()
+            if len(w) >= 3 and len(' '.join(w)) >= 12}
+    out, pairs, by_marker, by_citation, skipped_done, lost_common, no_verse = {}, 0, 0, 0, 0, 0, []
     for loc, (sid, _, src, kind, s, a, ae, head, text, seg_extra) in meta.items():
         named = set()
         for r in segs[loc]:
@@ -165,6 +186,9 @@ def candidates(tier1, only=None, index_only=False):
                 via_common.add(v)
                 continue
             vs.add(v)
+        norm = ' ' + normalize_map(text)[0] + ' '
+        cited = {v for v in citations[loc] if v in full and full[v] in norm}
+        vs |= cited
         if s is not None and a is not None:
             index = {f'{s}:{x}' for x in range(a, ae + 1)} | extra[sid]
             marks = {f'{s}:{n}' for n in markers(text, s)}
@@ -190,9 +214,11 @@ def candidates(tier1, only=None, index_only=False):
         skipped_done += len(again)
         vs = sorted(vs - again)
         by_marker += len(marked & set(vs))
+        by_citation += len(cited & set(vs))
         if vs:
             out[loc] = {'verses': vs, 'marked': sorted(marked & set(vs)), 'src': src, 'kind': kind, 'head': head or '',
-                        'text': text, 'sha': digest.source_fingerprint(head, text, json.loads(seg_extra or '{}')),
+                        'text': text, 'extra': json.loads(seg_extra or '{}'), 'notes': segs[loc],
+                        'sha': digest.source_fingerprint(head, text, json.loads(seg_extra or '{}')),
                         'index': f'{s}:{a}' + (f'-{ae}' if ae != a else '') if s is not None and a is not None else ''}
             pairs += len(vs)
     if no_verse:
@@ -201,41 +227,70 @@ def candidates(tier1, only=None, index_only=False):
     reached = {v for x in out.values() for v in x['verses']}
     counts = {'digested segments': len(segs), 'candidate pairs': pairs, 'segments to check': len(out),
               'characters': sum(len(x['text'] or '') for x in out.values()), 'pairs by marker only': by_marker,
+              'pairs with explicit citation and full verse': by_citation,
               'pairs left out, checked by an earlier recheck': skipped_done,
               'too-common 2-word windows (a pair reached only through one is not checked)': len(common),
               'pairs not checked: reached only through a too-common window': lost_common}
     if only is not None:
         counts['scope verses'] = len(only)
         counts['scope verses with at least one candidate'] = len(reached & only)
+    print('NOTE selection checks unnamed verses only; it cannot establish exhaustive missing-point coverage. '
+          'Common-only matches and quotations without a unique window, marker or verified full-verse citation remain outside it.')
     return out, counts, quran
 
 
 def segment_input(loc, x, notes):
     check = ', '.join(v + (' (number only)' if v in x.get('marked', []) else '') for v in x['verses'])
     lines = [f"=== SEGMENT {loc} | source {x['src']} | indexed {x['index'] or 'none'} | CHECK {check}"
-             f" | {x['head']} ===", (x['text'] or '').strip(), '--- notes already taken on this segment ---']
-    lines += [f"[{n}] verses {', '.join(map(str, r.get('verses') or [])) or '-'} | {r.get('speaker')} | "
-              f"{r.get('stance')} | {r.get('claim')}" for n, r in enumerate(notes, 1) if isinstance(r, dict)] or ['(none)']
+             f" | {x['head']} ==="]
+    provenance = {k: x.get('extra', {})[k] for k in digest.PROVENANCE_KEYS if k in x.get('extra', {})}
+    if provenance:
+        lines.append('CORPUS METADATA (provenance/index; not source words or an anchor): '
+                     + json.dumps(provenance, ensure_ascii=False, sort_keys=True))
+    lines += [(x['text'] or '').strip(), '--- notes already taken on this segment ---']
+    lines += [f'[{n}] ' + json.dumps(r, ensure_ascii=False, sort_keys=True)
+              for n, r in enumerate(notes, 1) if isinstance(r, dict)] or ['(none)']
     return '\n'.join(lines) + f'\n=== END SEGMENT {loc} ===\n\n'
 
 
 LUNA_USD_PER_M = 1.32         # API-equivalent USD per million chunk characters (tier-1 s1_87_114: $13.60 / 10.29M)
-NOTES_FACTOR = 1.6            # chunk characters / segment characters, with the notes printed beside each segment
 
 
 def cmd_plan(a):
-    _, counts, _ = candidates(a.tier1, *scope_of(a))
+    cand, counts, _ = candidates(a.tier1, *scope_of(a))
     for k, v in counts.items():
         print(f'{k}: {v:,}' if isinstance(v, int) else f'{k}: {v}')
-    est = counts['characters'] * NOTES_FACTOR
-    print(f"estimate: about {est / 1e6:.0f}M chunk characters, {est / DEFAULT_CHUNK_CHARS:,.0f} chunks (Luna agents), "
-          f"about ${est / 1e6 * LUNA_USD_PER_M:,.0f} API-equivalent at the tier-1 rate (build prints the exact chunks)")
+    chunks = pack(cand, a.chunk_chars)
+    est = sum(len(segment_input(loc, cand[loc], cand[loc]['notes'])) for loc in cand)
+    print(f"plan: {est:,} rendered chunk characters, {len(chunks):,} chunks per model (Luna agents), "
+          f"about ${est / 1e6 * LUNA_USD_PER_M:,.0f} API-equivalent at the historical tier-1 rate; cost is an estimate")
+
+
+def pack(candidates, chunk_chars):
+    if chunk_chars < 1:
+        raise SystemExit('--chunk-chars must be positive')
+    chunks, cur, size = [], [], 0
+    for loc in sorted(candidates, key=lambda loc: (candidates[loc]['kind'], candidates[loc]['src'], loc)):
+        x = candidates[loc]
+        n = len(segment_input(loc, x, x['notes']))
+        if n > chunk_chars:
+            print(f'NOTE {loc}: {n:,} characters with its notes, over --chunk-chars; it forms a chunk alone')
+        if cur and size + n > chunk_chars:
+            chunks.append(cur)
+            cur, size = [], 0
+        cur.append(loc)
+        size += n
+    if cur:
+        chunks.append(cur)
+    return chunks
 
 
 def cmd_build(a):
     d = run_dir(a.run)
     if d.exists():
         raise SystemExit(f'{d} exists; choose a new run name')
+    if a.chunk_chars < 1:
+        raise SystemExit('--chunk-chars must be positive')
     only, index_only = scope_of(a)
     cand, counts, quran = candidates(a.tier1, only, index_only)
     counts['scope'] = {'verses': len(only) if only else 'all', 'index_only': index_only}
@@ -243,31 +298,10 @@ def cmd_build(a):
         print(f'{k}: {v:,}' if isinstance(v, int) else f'{k}: {v}')
     if not cand:
         raise SystemExit('no candidate pairs')
-    notes = defaultdict(list)                # digest notes, then notes of earlier recheck runs
-    for _, x, _, _ in merge.tier1_segments(a.tier1):
-        if x['loc'] in cand:
-            notes[x['loc']] += x.get('rows') or []
-    for _, _, x in merge.supplements(a.tier1):
-        if x['loc'] in cand:
-            notes[x['loc']] += [r for r in x['rows'] if isinstance(r, dict)]
+    notes = {loc: x['notes'] for loc, x in cand.items()}
     with connect() as con:
         smeta = {i: (k, json.loads(m or '{}')) for i, k, m in con.execute('SELECT id, kind, meta FROM src')}
-    by_src = defaultdict(list)
-    for loc in sorted(cand):
-        by_src[cand[loc]['src']].append(loc)
-    chunks, cur, size = [], [], 0          # whole segments, packed in source order; a larger segment stands alone
-    for sr in sorted(by_src, key=lambda s: (smeta[s][0], s)):
-        for loc in by_src[sr]:
-            n = len(segment_input(loc, cand[loc], notes[loc]))
-            if n > a.chunk_chars:
-                print(f'NOTE {loc}: {n:,} characters with its notes, over --chunk-chars; it forms a chunk alone')
-            if cur and size + n > a.chunk_chars:
-                chunks.append(cur)
-                cur, size = [], 0
-            cur.append(loc)
-            size += n
-    if cur:
-        chunks.append(cur)
+    chunks = pack(cand, a.chunk_chars)
     (d / 'chunks').mkdir(parents=True)
     plan = []
     for n, locs in enumerate(chunks, 1):
@@ -280,6 +314,7 @@ def cmd_build(a):
         plan.append({'chunk': n, 'sources': srcs, 'source_lines': [source_line(s, smeta[s][1], smeta[s][0]) for s in srcs],
                      'locs': locs, 'check': {loc: cand[loc]['verses'] for loc in locs},
                      'source_sha256': {loc: cand[loc]['sha'] for loc in locs},
+                     'input_sha256': hashlib.sha256(text.encode()).hexdigest(),
                      'verses': sorted({v for loc in locs for v in cand[loc]['verses']},
                                       key=lambda v: tuple(map(int, v.split(':')))),
                      'chars': len(text), 'parts': len(parts)})
@@ -310,97 +345,70 @@ def cmd_build(a):
 
 
 def check_chunk(d, tag, c):
-    """Problems in one output file: the tier-1 rules (digest.line_problems, strict, with word tags), the segment's source
-    unchanged since the build (digest.source_fingerprint), one line per segment, and every note about a CHECK verse."""
-    f = d / 'out' / tag / f"c{c['chunk']:02d}.jsonl"
-    if not f.exists():
-        return [f'{f.name}: no output file'], 0
-    with connect() as con:
-        source = {loc: (row[0] or '', row[1] or '', json.loads(row[2] or '{}')) for loc in c['locs']
-                  if (row := con.execute('SELECT head, text, extra FROM seg WHERE seg=?', (loc,)).fetchone())}
-    problems, seen, n_rows = [], [], 0
-    for loc in c['locs']:
-        if loc not in source:
-            problems.append(f'{loc}: no longer in the corpus index (rebuilt after this run was built?)')
-        elif digest.source_fingerprint(*source[loc]) != c['source_sha256'].get(loc):
-            problems.append(f'{loc}: source text changed since the build; rebuild this chunk')
-    for i, line in enumerate(f.read_text().splitlines(), 1):
-        if not line.strip():
-            continue
-        try:
-            x = json.loads(line)
-        except ValueError as e:
-            problems.append(f'line {i}: not JSON ({e})')
-            continue
-        loc = x.get('loc') if isinstance(x, dict) else None
-        if not isinstance(loc, str) or loc not in c['check']:
-            problems.append(f'line {i}: locator {loc!r} is not in this chunk')
-            continue
-        seen.append(loc)
-        if loc not in source:
-            continue
-        problems += [f'{loc} {p}' for p in digest.line_problems(loc, x, source[loc][1], True, True)]
-        check = set(c['check'][loc])          # S:A strings
-        for j, r in enumerate(x.get('rows') if isinstance(x.get('rows'), list) else [], 1):
-            if isinstance(r, dict):
-                n_rows += 1
-                if not check & set(digest.verse_list(r.get('verses'))):
-                    problems.append(f'{loc} row {j}: "verses" must include one of the verses to check here: '
-                                    f'{", ".join(sorted(check))}')
-    for loc in c['locs']:
-        if loc not in seen:
-            problems.append(f'{loc}: segment has no line')
-    for loc in {x for x in seen if seen.count(x) > 1}:
-        problems.append(f'{loc}: more than one line')
-    return problems, n_rows
+    """Use exactly the same source and CHECK rules as coverage and downstream readers."""
+    if not c.get('check') or not c.get('source_sha256'):
+        return ['missing CHECK assignment or source provenance; rebuild this chunk'], 0
+    return digest.check_chunk(d, tag, c, True, True)
 
 
 def cmd_check(a):
     d = run_dir(a.run)
     man = json.loads((d / 'manifest.json').read_text())
     tags = [a.model] if a.model else man['tags']
+    if not tags or any(tag not in man['tags'] for tag in tags):
+        raise SystemExit('unknown model tag or no models in manifest')
+    plan = [c for c in man['chunks'] if a.chunk is None or c['chunk'] == a.chunk]
+    if a.chunk is not None and not plan:
+        raise SystemExit(f'unknown chunk: {a.chunk}')
     bad = 0
     for tag in tags:
-        for c in man['chunks']:
-            if a.chunk and c['chunk'] != a.chunk:
-                continue
+        for c in plan:
             problems, n = check_chunk(d, tag, c)
             for p in problems:
                 print(f"{tag} c{c['chunk']:02d}: {p}")
             bad += len(problems)
-            if a.chunk:
+            if a.chunk is not None:
                 print('OK' if not problems else f'{len(problems)} problem(s)', f'({n} new notes)')
-    if not a.chunk:
+    if a.chunk is None:
         print('OK' if not bad else f'{bad} problem(s)')
+    return 1 if bad else 0
 
 
 def cmd_report(a):
     d = run_dir(a.run)
     man = json.loads((d / 'manifest.json').read_text())
     for tag in man['tags']:
-        usd = done = new = segs_with = 0
+        usd = done = new = segs_with = pairs = segments = 0
         for c in man['chunks']:
             x = digest.usage(d / 'runs', f"/root/v7d_{a.run}_{tag}_c{c['chunk']:02d}")
             if x is None:
                 print(f"WARNING {tag} c{c['chunk']:02d}: no run.json")
                 continue
-            done += 1
             usd += x['usd']
             if not x['completed']:
                 print(f"WARNING {tag} c{c['chunk']:02d}: did not complete ({x['via']}); its notes are not counted")
                 continue
+            done += 1
             f = d / 'out' / tag / f"c{c['chunk']:02d}.jsonl"
+            valid = digest.valid_output_locs(f) if f.exists() else set()
+            if len(valid) != len(c['locs']):
+                print(f"WARNING {tag} c{c['chunk']:02d}: {len(c['locs']) - len(valid)} segment(s) lack valid output; not counted")
+            segments += len(valid)
+            pairs += sum(len(c['check'][loc]) for loc in valid)
             for line in (f.read_text().splitlines() if f.exists() else []):
                 try:
-                    k = len(json.loads(line).get('rows') or [])
+                    row = json.loads(line)
+                    if not isinstance(row, dict) or row.get('loc') not in valid:
+                        continue
+                    k = len(row['rows'])
                 except (ValueError, AttributeError):
                     print(f"WARNING {tag} c{c['chunk']:02d}: unreadable line (run recheck.py check)")
                     continue
                 new += k
                 segs_with += k > 0
-        pairs = sum(len(v) for c in man['chunks'] for v in c['check'].values())
+        planned = sum(len(v) for c in man['chunks'] for v in c['check'].values())
         print(f"{tag}: {done}/{len(man['chunks'])} runs, ${usd:.2f} API-equivalent, {pairs} pairs checked in "
-              f"{sum(len(c['locs']) for c in man['chunks'])} segments, {new} new notes in {segs_with} segments")
+              f"{segments} validated segments ({planned} pairs planned), {new} new notes in {segs_with} segments")
 
 
 def scope(p):
@@ -415,6 +423,7 @@ def main():
     sub = ap.add_subparsers(dest='cmd', required=True)
     p = sub.add_parser('plan')
     p.add_argument('--tier1', nargs='+', default=['luna-max'])
+    p.add_argument('--chunk-chars', type=int, default=DEFAULT_CHUNK_CHARS)
     scope(p)
     p = sub.add_parser('build')
     p.add_argument('run')
@@ -429,8 +438,8 @@ def main():
     p = sub.add_parser('report')
     p.add_argument('run')
     a = ap.parse_args()
-    globals()[f'cmd_{a.cmd}'](a)
+    return globals()[f'cmd_{a.cmd}'](a)
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main() or 0)
