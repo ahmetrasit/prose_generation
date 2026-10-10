@@ -10,12 +10,19 @@ A verse is never split: one agent reads all of its notes.
   map.py check RUN [--model TAG] [--ayah A]   the agent runs it with --model and --ayah until OK; without --ayah:
                                               checks every verse and assembles the finished ones
   map.py report RUN                           cost, questions, positions, notes per verse and model
-  map.py update RUN --model gpt-6-sol:high     notes added to tier 1 since mapping: one agent per verse places them
-                                              in the existing map (ids stay); briefs/map-update.md
+  map.py update RUN --model gpt-6-sol:high     notes added to tier 1 since mapping, and new versions <id>~<k> of
+                                              notes whose content changed: one agent per verse places them in the
+                                              existing map (ids stay); briefs/map-update.md
   map.py update-all --model gpt-6-sol:high [--ayat …]   update in every map run (the run that holds each verse's map)
-  map.py refresh-rows RUN                     add fields missing from saved notes (anchor), same note ids only
+  map.py refresh-rows RUN                     reconcile saved notes with tier 1 without an update (see reconcile)
 
-Files (RUN = enrichment/v9/work/RUN/map): rows/<k>.json (notes by id), rows/<k>.pK.txt (input parts), spawn/,
+Saved notes are the map's evidence and are never removed or rewritten (user, 2026-10-10). A note no longer in Tier 1,
+or whose content changed, stays as mapped and is marked in rows/<k>.tier1.json (q.load shows the mark); a changed
+note's new content enters the map through the next update as <id>~<k>. The full check, update and refresh-rows
+reconcile; nothing here forces a rebuild.
+
+Files (RUN = enrichment/v9/work/RUN/map): rows/<k>.json (notes by id), rows/<k>.tier1.json (withdrawn marks),
+rows/<k>.pK.txt (input parts), spawn/,
 runs/ (written by enrichment/v5/run_codex.py), out/<TAG>/<k>.raw.jsonl (agent output), out/<TAG>/<k>.jsonl and
 <k>.md (assembled: question ids <ayah>/qNN, position ids <ayah>/qNN/pN).
 """
@@ -48,23 +55,101 @@ def key(ayah):
     return ayah.replace(':', '-')
 
 
-def row_changes(saved, current):
-    """Semantic changes need a new map; filling a missing legacy anchor is safe metadata repair."""
-    gone = set(saved) - set(current)
-    changed = {i for i in set(saved) & set(current)
-               if any(saved[i].get(k) != current[i].get(k) for k in ROW_FIELDS
-                      if k != 'anchor' or saved[i].get('anchor'))}
-    return gone, changed
+SEMANTIC = ('src', 'speaker', 'stance', 'claim', 'anchor', 'mentions', 'via', 'about')  # a change needs a new placement
+STATES = {'unavailable': 'no longer in Tier 1', 'changed': 'changed in Tier 1; its new version awaits a map update',
+          'replaced': 'replaced by a newer version'}
 
 
-def snapshot_problem(m, man, ayah):
-    saved = json.loads((m / 'rows' / f'{key(ayah)}.json').read_text())
-    current = {r['id']: r for r in merge.tier1_rows(None, man['from'], ayah, quiet=True)}
-    gone, changed = row_changes(saved, current)
-    if gone or changed:
-        return (f'{len(gone)} saved notes are unavailable/invalid and {len(changed)} changed in tier 1; '
-                'rebuild this verse map in a new run with --supersede; saved evidence was preserved')
-    return None
+def base_id(i):
+    """Tier-1 id of a saved note: <id>~<k> is version k of the note <id> (version 1 has no suffix)."""
+    return i.split('~', 1)[0]
+
+
+def version(i):
+    k = i.partition('~')[2]
+    return int(k) if k.isdigit() else 1
+
+
+def reconcile(saved, current):
+    """Saved notes of a verse map against current Tier 1 (user, 2026-10-10: nothing forces a map rebuild).
+
+    A saved note stays in the map as mapped. One that is no longer in Tier 1 is marked unavailable. When the content
+    of a note's newest saved version differs from Tier 1, that version is marked changed and the new content is
+    offered to the next update as a new note <id>~<k+1>; once the update holds it, older versions are marked
+    replaced. Author and death date, and an anchor missing from a legacy saved note, are refreshed in place.
+
+    Returns (marks, refresh, offer, new): marks {saved id: {'state', 'by'?}}, refresh {saved id: fields},
+    offer [rows re-identified as their next version], new [rows with no saved version], both in Tier-1 order."""
+    clash = [i for i in current if '~' in i]
+    if clash:
+        raise SystemExit(f'tier-1 note ids contain "~", which marks map versions: {", ".join(clash[:5])}')
+    versions = defaultdict(list)
+    for i in saved:
+        versions[base_id(i)].append((version(i), i))
+    marks, refresh, offer, new = {}, {}, [], []
+    for b, vs in versions.items():
+        vs.sort()
+        if b not in current:
+            marks.update({i: {'state': 'unavailable'} for _, i in vs})
+            continue
+        marks.update({i: {'state': 'replaced', 'by': vs[-1][1]} for _, i in vs[:-1]})
+    for b, cur in current.items():
+        if b not in versions:
+            new.append(cur)
+            continue
+        k, latest = max(versions[b])
+        s = saved[latest]
+        if any(s.get(x) != cur.get(x) for x in SEMANTIC if x != 'anchor' or s.get('anchor')):
+            nxt = f'{b}~{k + 1}'
+            marks[latest] = {'state': 'changed', 'by': nxt}
+            offer.append({**cur, 'id': nxt})
+        else:
+            fields = {x: cur.get(x) for x in ROW_FIELDS}
+            if fields != {x: s.get(x) for x in ROW_FIELDS}:
+                refresh[latest] = fields
+    return marks, refresh, offer, new
+
+
+def marks_file(m, ayah):
+    return m / 'rows' / f'{key(ayah)}.tier1.json'
+
+
+def sync_tier1(m, ayah, current, updates=()):
+    """Reconcile one verse's saved notes with current Tier 1 (current: id -> row): refresh metadata in place, write
+    the marks beside the saved notes (rows/<k>.tier1.json; removed when nothing is marked) and print them. An
+    assembled map that was current stays current after a metadata refresh (its stamp is renewed).
+    Returns (offer, new) for an update."""
+    f = m / 'rows' / f'{key(ayah)}.json'
+    saved = json.loads(f.read_text())
+    marks, refresh, offer, new = reconcile(saved, current)
+    if refresh:
+        stamps = {}
+        for st in (m / 'out').glob(f'*/{key(ayah)}.stamp.json'):
+            try:
+                stamps[st] = json.loads(st.read_text()) == assembly_stamp(m, st.parent.name, ayah, updates)
+            except (OSError, ValueError):
+                stamps[st] = False
+        saved.update(refresh)
+        dump(f, saved)
+        for st, was_current in stamps.items():
+            if was_current:
+                dump(st, assembly_stamp(m, st.parent.name, ayah, updates))
+        print(f'{ayah}: author, death date or a missing anchor refreshed for {len(refresh)} saved note(s)')
+    mf = marks_file(m, ayah)
+    old = json.loads(mf.read_text()) if mf.exists() else {}
+    if marks != old:
+        if marks:
+            dump(mf, marks)
+        else:
+            mf.unlink()
+    if marks:
+        counts = defaultdict(int)
+        for x in marks.values():
+            counts[x['state']] += 1
+        print(f'NOTE {ayah}: saved notes kept and marked withdrawn: '
+              + ', '.join(f'{n} {STATES[s]}' for s, n in sorted(counts.items()))
+              + f' ({mf.relative_to(V9)})')
+    return offer, new
 
 
 def assembly_stamp(m, tag, ayah, updates):
@@ -138,6 +223,7 @@ def build(a):
         if man.parents[1].name != a.run:
             for x in json.loads(man.read_text())['ayat']:
                 planned.setdefault(x['ayah'], man.parents[1].name)
+    todo = []
     for ayah in dict.fromkeys(a.ayat):
         if a.supersede and planned.get(ayah) == a.supersede and not Q.located(ayah):
             print(f'NOTE {ayah}: rebuilt here; its map in {a.supersede} failed its check and its agent can no longer be '
@@ -148,7 +234,10 @@ def build(a):
         if Q.located(ayah) and not (a.supersede and Q.located(ayah)[0].parents[3].name == a.supersede):
             print(f'SKIPPED {ayah}: already mapped ({Q.located(ayah)[0].relative_to(V9)}); new notes go through update-all')
             continue
-        rs = merge.tier1_rows(None, a.from_tags, ayah)
+        todo.append(ayah)
+    current = merge.tier1_rows_by_verse(a.from_tags, todo)
+    for ayah in todo:
+        rs = current[ayah]
         if not rs:
             print(f'NOTE {ayah}: no tier-1 notes ({", ".join(a.from_tags)}); no map')
             continue
@@ -176,23 +265,20 @@ def build(a):
 
 
 def refresh_rows(a):
-    """Refresh missing legacy anchors from verified Tier 1; semantic changes require a new map."""
+    """Reconcile every verse's saved notes with Tier 1 (reconcile): refresh author, death date and missing legacy
+    anchors in place, mark unavailable or changed notes; never changes a saved claim."""
     m = mdir(a.run)
     man = json.loads((m / 'manifest.json').read_text())
+    ayat = [p['ayah'] for p in man['ayat'] if not p.get('superseded_by')]
+    current = merge.tier1_rows_by_verse(man['from'], ayat)
     for p in man['ayat']:
-        f = m / 'rows' / f"{key(p['ayah'])}.json"
-        old = json.loads(f.read_text())
-        rs = {r['id']: r for r in merge.tier1_rows(None, man['from'], p['ayah'], quiet=True)}
-        new, gone = set(rs) - set(old), set(old) - set(rs)
-        gone, changed = row_changes(old, rs)
-        if gone or changed:
-            p['tier1_problem'] = f'{len(gone)} notes unavailable/invalid, {len(changed)} changed; rebuild with --supersede'
-            print(f"WARNING {p['ayah']}: {p['tier1_problem']}; saved notes kept unchanged")
+        if p.get('superseded_by'):
             continue
-        p.pop('tier1_problem', None)
-        dump(f, {i: {x: rs[i].get(x) for x in ROW_FIELDS} if i in rs else old[i] for i in old})
-        print(f"{p['ayah']}: {len(old) - len(gone)} notes refreshed"
-              + (f"; {len(new)} new tier-1 notes are not in the map (map.py update)" if new else ''))
+        p.pop('tier1_problem', None)             # written by the 2026-10-10 review version; no longer used
+        offer, new = sync_tier1(m, p['ayah'], {r['id']: r for r in current[p['ayah']]}, p.get('updates', []))
+        if offer or new:
+            print(f"{p['ayah']}: {len(new)} new and {len(offer)} changed tier-1 note(s) are not placed in the map yet "
+                  '(map.py update)')
     dump(m / 'manifest.json', man)
 
 
@@ -411,20 +497,17 @@ def update(a):
     if others:
         print(f'WARNING {a.run}: updates exist for other model tags ({", ".join(others)}); notes already placed by them '
               f'are not offered to {tag}')
+    ayat = [p['ayah'] for p in man['ayat'] if not p.get('superseded_by') and (not a.ayat or p['ayah'] in a.ayat)]
+    current = merge.tier1_rows_by_verse(man['from'], ayat)
     for p in man['ayat']:
         ayah, k = p['ayah'], key(p['ayah'])
-        if p.get('superseded_by') or (a.ayat and ayah not in a.ayat):
+        if ayah not in current:
             continue
+        p.pop('tier1_problem', None)             # written by the 2026-10-10 review version; no longer used
+        offer, new = sync_tier1(m, ayah, {r['id']: r for r in current[ayah]}, p.get('updates', []))
         old = json.loads((m / 'rows' / f'{k}.json').read_text())
-        rs = merge.tier1_rows(None, man['from'], ayah, quiet=True)
-        ids = {r['id'] for r in rs}
-        gone, changed = row_changes(old, {r['id']: r for r in rs})
-        if gone or changed:
-            p['tier1_problem'] = f'{len(gone)} notes unavailable/invalid, {len(changed)} changed; rebuild with --supersede'
-            print(f'WARNING {ayah}: {p["tier1_problem"]}; no update built, saved evidence preserved')
-            continue
-        p.pop('tier1_problem', None)
-        new = [r for r in rs if r['id'] not in old]
+        revised = {r['id']: base_id(r['id']) for r in offer}
+        new = new + offer
         if not new:
             print(f'{ayah}: no new notes')
             continue
@@ -435,13 +518,17 @@ def update(a):
             continue
         n = len(ups) + 1
         f = m / 'spawn' / f'{tag}_{k}.u{n}.md'
-        if f.exists():
-            raise SystemExit(f'{f} exists')
+        if f.exists():                       # an earlier update stopped after its spawn file, before the manifest
+            print(f'WARNING {ayah}: {f.relative_to(ROOT)} exists but the manifest has no update {n}; no update built '
+                  f'for this verse (remove that spawn file and its rows/{k}.u{n}.p*.txt to build it again)')
+            continue
         verse = verse_text(ayah)          # may fail: before anything is written for this verse
         old.update({r['id']: {x: r.get(x) for x in ROW_FIELDS} for r in new})
         order = sorted(new, key=lambda r: (r['death'] if isinstance(r['death'], int) else 9999, r['src'], r['id']))
         text = ('## THE CURRENT MAP\n' + map_text(qs) + '\n## THE NEW NOTES\n'
-                + '\n'.join(merge.row_line(r) for r in order) + '\n')
+                + '\n'.join(merge.row_line(r) + (f' (new version of note {revised[r["id"]]}, whose earlier version '
+                                                  'is already placed)' if r['id'] in revised else '')
+                            for r in order) + '\n')
         parts = [text[i:i + PART_CHARS] for i in range(0, len(text), PART_CHARS)]
         for j, t in enumerate(parts):
             tail = f'\n<<part {j} ends; continues in part {j + 1}>>' if j + 1 < len(parts) else '\n<<end of input>>'
@@ -459,7 +546,8 @@ def update(a):
         dump(m / 'rows' / f'{k}.json', old)   # rows, then the manifest, only once the update is fully written
         dump(m / 'manifest.json', man)
         built += 1
-        print(f'{ayah}: update {n}, {len(new)} new notes, {len(text):,} characters  spawn {f.relative_to(ROOT)}')
+        print(f'{ayah}: update {n}, {len(new)} new notes ({len(revised)} new versions of changed notes), '
+              f'{len(text):,} characters  spawn {f.relative_to(ROOT)}')
     dump(m / 'manifest.json', man)
     print(f'{built} update(s) built')
 
@@ -481,23 +569,24 @@ def check(a):
     for ayah, run in gone.items():
         print(f'SUPERSEDED {ayah}: rebuilt in {run}; not checked here')
     ayat = [a.ayah] if a.ayah else [p['ayah'] for p in man['ayat'] if p['ayah'] not in gone]
+    if not a.ayah:                           # the full check reconciles saved notes with Tier 1 (one pass for all)
+        current = merge.tier1_rows_by_verse(man['from'], ayat)
+        for p in man['ayat']:
+            if p['ayah'] in current:
+                p.pop('tier1_problem', None)     # written by the 2026-10-10 review version; no longer used
+                offer, new = sync_tier1(m, p['ayah'], {r['id']: r for r in current[p['ayah']]}, p.get('updates', []))
+                if offer or new:
+                    print(f"NOTE {p['ayah']}: {len(new)} new and {len(offer)} changed tier-1 note(s) are not placed "
+                          'in the map yet (map.py update)')
+        dump(m / 'manifest.json', man)
     bad = 0
     for tag in tags:
         for ayah in ayat:
             problems, qs = combined(m, tag, ayah, ups.get(ayah, []))
-            p = next((p for p in man['ayat'] if p['ayah'] == ayah), None)
             if not a.ayah:
                 why = agents_problem(m, tag, ayah, ups.get(ayah, []))
-                source_problem = snapshot_problem(m, man, ayah)
-                if p:
-                    if source_problem:
-                        p['tier1_problem'] = source_problem
-                    else:
-                        p.pop('tier1_problem', None)
                 if why:
                     problems.append(why)
-            if p and p.get('tier1_problem'):
-                problems.append(p['tier1_problem'])
             if problems:
                 bad += 1
                 print(f'{tag} {ayah}: {len(problems)} problem(s)')
@@ -510,8 +599,6 @@ def check(a):
             else:
                 assemble(m, tag, ayah, qs)
                 print(f'OK {tag} {ayah}: {len(qs)} questions, {npos} positions, assembled')
-    if not a.ayah:
-        dump(m / 'manifest.json', man)
     if bad:
         sys.exit(1)
 

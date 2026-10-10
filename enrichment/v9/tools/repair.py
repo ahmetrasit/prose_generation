@@ -130,9 +130,8 @@ def main():
         # stream event permits recovery of a dead runner; a live turn must not be resumed.
         if not any(e.get('type') in ('turn.completed', 'turn.failed', 'error') for e in stream):
             raise ValueError('original stream has no terminal event; recover the runner before repairing')
-        previous_streams = sorted(directory.glob('repair*.stream.jsonl'),
-                                  key=lambda f: int(f.name.split('.')[0][6:]))
-        if previous_streams and original is None:
+        # repairN.stream.jsonl, or the oldest wrappers' unnumbered repair.stream.jsonl (digest.run_record: repair 0)
+        if any(directory.glob('repair*.stream.jsonl')) and original is None:
             raise ValueError('latest repair has no completed result; recover it before repairing again')
         check = subprocess.run(checker, cwd=ROOT, capture_output=True, text=True)
         problems = (check.stdout + check.stderr).strip()

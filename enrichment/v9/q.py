@@ -74,8 +74,6 @@ def stale(ayah):
     p = next((x for x in man['ayat'] if x['ayah'] == ayah), None)
     if p is None:
         return f'not in {m.parent.name} manifest'
-    if p.get('tier1_problem'):
-        return f"{m.parent.name}: {p['tier1_problem']}"
     import map as M
     why = M.agents_problem(m, TAG, ayah, p.get('updates', []))
     if why:
@@ -96,22 +94,69 @@ def stale(ayah):
     return None
 
 
+def assembled(loc):
+    """(questions, notes) of an assembled map; a saved note withdrawn from Tier 1 carries its mark under 'tier1'
+    (map.reconcile: {'state': unavailable | changed | replaced, 'by': newer version id})."""
+    rows = json.loads(loc[1].read_text())
+    marks = loc[1].with_name(loc[1].stem + '.tier1.json')     # map.marks_file: rows/<k>.tier1.json
+    if marks.exists():
+        orphan = []
+        for i, x in json.loads(marks.read_text()).items():
+            if i in rows:
+                rows[i] = {**rows[i], 'tier1': x}
+            else:
+                orphan.append(i)
+        if orphan:
+            print(f'NOTE {marks.name}: {len(orphan)} withdrawn mark(s) name notes not in the saved map (run map.py '
+                  f'check on its run): {", ".join(orphan[:5])}')
+    return [json.loads(l) for l in loc[0].read_text().splitlines() if l.strip()], rows
+
+
 def load(ayah):
-    loc = located(ayah)
-    if not loc:
-        return None, None
-    why = stale(ayah)
+    """(questions, notes) of the verse's current map, (None, None) when unmapped; a map that is not current stops."""
+    qs, rows, why = load_current(ayah)
     if why:
         raise SystemExit(f'{ayah}: verse map not current ({why})')
-    return [json.loads(l) for l in loc[0].read_text().splitlines() if l.strip()], json.loads(loc[1].read_text())
+    return qs, rows
+
+
+def load_current(ayah):
+    """(questions, notes, None) of a current map; (None, None, None) when unmapped; (None, None, why) when the
+    assembled map is not current (q.stale), for lookups that report it and go on."""
+    loc = located(ayah)
+    if not loc:
+        return None, None, None
+    try:
+        why = stale(ayah)
+        if why:
+            return None, None, why
+        return (*assembled(loc), None)
+    except (OSError, ValueError) as e:      # a missing or corrupt map file is reported, never a crash of the lookup
+        return None, None, f'map files unreadable: {e}'
+
+
+def withdrawn(x):
+    """' [withdrawn: …]' for a saved note marked by map.reconcile, else ''."""
+    t = x.get('tier1')
+    if not t:
+        return ''
+    import map as M
+    return f" [withdrawn: {M.STATES.get(t['state'], t['state'])}" + (f"; see {t['by']}" if t.get('by') else '') + ']'
 
 
 def translation(ayah):
     """qid -> Turkish rendering of the verse map's questions (newest translation run wins per question):
-    {'src': hash of the English it was made from, 'question', 'turns_on', 'positions': {pid: {'position', 'reasons'}}}."""
+    {'src': hash of the English it was made from, 'question', 'turns_on', 'positions': {pid: {'position', 'reasons'}}}.
+    Renderings are checked against the assembled map, the text a page shows, whether or not newer agent output waits
+    to be assembled."""
     import maptr
-    qs, _ = load(ayah)
-    current = {q['id']: q for q in qs or []}
+    loc = located(ayah)
+    try:
+        qs = assembled(loc)[0] if loc else []
+    except (OSError, ValueError) as e:
+        print(f'NOTE {ayah}: assembled map unreadable ({e}); no translation read')
+        qs = []
+    current = {q['id']: q for q in qs}
     out = {}
     for man in sorted((V9 / 'work').glob('*/maptr/manifest.json'), key=lambda f: f.stat().st_mtime):
         m = json.loads(man.read_text())
@@ -187,7 +232,10 @@ def holders(ids, rows, mark=''):
 def cmd_index(a):
     items = []
     for v in a.verses:
-        qs, rows = load(v)
+        qs, rows, why = load_current(v)
+        if why:
+            items.append((v, [f'# {v}: map not current ({why}); not shown']))
+            continue
         if qs is None:
             items.append((v, [f'# {v}: NO MAP']))
             continue
@@ -204,7 +252,10 @@ def cmd_question(a):
     items = []
     for qid in a.qids:
         v = qid.split('/')[0]
-        qs, rows = load(v)
+        qs, rows, why = load_current(v)
+        if why:
+            items.append((qid, [f'# {qid}: map of {v} not current ({why}); not shown']))
+            continue
         q = next((x for x in qs or [] if x['id'] == qid), None)
         if q is None:
             items.append((qid, [f'# {qid}: not found' + ('' if qs else f' ({v} has no map)')]))
@@ -223,6 +274,9 @@ def cmd_question(a):
                 lines.append(f"  reasons: {p['reasons']}")
             lines.append(f"  holders ({len(p['rows'])} notes): {'; '.join(who)}")
             lines.append(f"  notes: {' '.join(p['rows'])}" + (f" | against: {' '.join(con)}" if con else ''))
+            gone = [r for r in p['rows'] + con if r in rows and rows[r].get('tier1')]
+            if gone:
+                lines.append('  withdrawn (kept as mapped): ' + '; '.join(f'{r}{withdrawn(rows[r])}' for r in gone))
         legend = {}
         for r in rows.values():
             if r['src'] in srcs:
@@ -234,21 +288,24 @@ def cmd_question(a):
 
 
 def cmd_notes(a):
-    items, cache = [], {}
+    items, cache, skipped = [], {}, {}
     for i in a.ids:
         x = None
         for v in mapped():
             if v not in cache:
-                cache[v] = load(v.replace('-', ':'))[1]
+                _, cache[v], why = load_current(v.replace('-', ':'))
+                cache[v] = cache[v] or {}
+                if why:
+                    skipped[v.replace('-', ':')] = why
             if i in cache[v]:
                 x = cache[v][i]
                 break
         if x is None:
-            items.append((i, [f'[{i}] not found']))
+            items.append((i, [f'[{i}] not found' + (' (maps not current were not searched; listed above)' if skipped else '')]))
             continue
         items.append((i, [f"[{i}] {x['src']} ({x['author']}" + (f", d. {x['death']}" if x['death'] else '') + f") · "
-                          f"{x['speaker']} · {x['stance']} · {about(x)}{x['claim']} «{x.get('anchor') or ''}»"]))
-    out(items)
+                          f"{x['speaker']} · {x['stance']} · {about(x)}{x['claim']} «{x.get('anchor') or ''}»{withdrawn(x)}"]))
+    out(items, [f'# {v}: map not current ({why}); not searched' for v, why in skipped.items()])
 
 
 def about(x):
@@ -266,7 +323,7 @@ def cmd_linked(a):
         return
     idx = json.loads(f.read_text())
     head = []
-    now = linked.stamp()
+    now = linked.stamp_cached()
     if any(idx.get(k) != v for k, v in now.items()):
         head.append(f"NOTE this link index ({idx.get('built_at', 'old format')}) was built from another corpus index, range "
                     'overlay or link code than the current ones; rebuild it with linked.py build')
@@ -275,7 +332,8 @@ def cmd_linked(a):
         missing = [s for s in a.seg if s not in segs]
         head += [f'# {s}: not linked to {a.verse}' for s in missing]
         segs = {s: segs[s] for s in a.seg if s in segs}
-    rows = merge.segment_rows(a.tier1, segs)
+    digested = set()
+    rows = merge.segment_rows(a.tier1, segs, digested)
     items, named, undigested = [], 0, []
     with digest.connect() as con:
         meta = {i: json.loads(m or '{}') for i, m in con.execute('SELECT id, meta FROM src')}
@@ -295,10 +353,11 @@ def cmd_linked(a):
                           key=lambda v: tuple(map(int, v.split(':'))))
         lines = [f"## {loc} · {s['src']} ({m.get('author') or s['src']}" + (f", d. {m['death_ah']}" if m.get('death_ah') else '')
                  + f") · {s['kind']} · tied by {'its index range' if s['by'] == 'index' else 'quoting the verse'}: "
-                 f"{s['verses']} · {len(rs)} notes, about {', '.join(about_vs) or 'no verse'}"]
+                 f"{s['verses']} · {len(rs)} notes, about {', '.join(about_vs) or 'no verse'}"
+                 + ('' if loc in digested or not rs else ' · recheck notes only: its digest is not currently valid')]
         lines += [f"[{r['id']}] {r['speaker']} · {r['stance']} · {r['claim']} «{r.get('anchor') or ''}»" for r in rs]
         if not rs:
-            lines.append('(digested with no notes)')
+            lines.append('(digested with no notes)' if loc in digested else '(no valid notes)')
         items.append((loc, lines))
     head.insert(0, f"# {a.verse}: {len(idx['segments'])} linked segments; {named} have notes naming this verse (in its "
                    f"Tier 1 reader); {len(items)} listed below; {len(undigested)} lack a valid digest or supplement")
@@ -321,10 +380,13 @@ def cmd_find(a):
         print(f'invalid regular expression {a.regex!r}: {e}')
         sys.exit(1)
     verses = [v.replace(':', '-') for v in a.verse] if a.verse else mapped()
-    hits, nomap = [], []
+    hits, nomap, notcurrent = [], [], []
     for k in verses:
         v = k.replace('-', ':')
-        qs, rows = load(v)
+        qs, rows, why = load_current(v)
+        if why:
+            notcurrent.append(f'# {v}: map not current ({why}); not searched')
+            continue
         if qs is None:
             nomap.append(v)
             continue
@@ -339,13 +401,13 @@ def cmd_find(a):
     pages = max(1, -(-len(hits) // PAGE))
     head = [f'{len(hits)} notes match' + (f' on {", ".join(a.verse)}' if a.verse else ' on all mapped verses')
             + f'; page {a.page} of {pages}' + (' (no such page)' if a.page > pages else '')]
-    head += [f'# {v}: NO MAP (not searched)' for v in nomap]
+    head += [f'# {v}: NO MAP (not searched)' for v in nomap] + notcurrent
     if not a.verse:
         per = defaultdict(int)
         for h in hits:
             per[h[0]] += 1
         head.append('per verse: ' + ', '.join(f'{v} {n}' for v, n in per.items()))
-    items = [(i, [f"[{i}] {v} {x['src']} · {x['speaker']} · {x['stance']} · {about(x)}{x['claim']} «{x.get('anchor') or ''}» → {' '.join(w)}"])
+    items = [(i, [f"[{i}] {v} {x['src']} · {x['speaker']} · {x['stance']} · {about(x)}{x['claim']} «{x.get('anchor') or ''}»{withdrawn(x)} → {' '.join(w)}"])
              for v, i, x, w in hits[(a.page - 1) * PAGE:a.page * PAGE]]
     out(items, head)   # a hit left out is named: read it with q.py notes
 

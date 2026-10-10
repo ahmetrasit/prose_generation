@@ -9,8 +9,9 @@ verse its page cites is ready; a meal when its focus ayah is.
   ready_pages.py S [--build] [--fresh]
       --build: assemble ready verses and run writer.py/meal.py build for every ready page not built yet (without it,
                nothing is written: a verse that still needs assembling is listed as READY (needs assemble))
-      --fresh: also compare each verse's saved notes with tier 1 (slow): notes added since mapping make it WAIT until
-               `map.py update-all` has run and its update agent finished. Without it, run update-all after tier 1.
+      --fresh: also compare each verse's saved notes with tier 1 (one slow pass): notes added or changed since mapping
+               make it WAIT until `map.py update-all` has run and its update agent finished; notes no longer in tier 1
+               do not (map.py check marks them). Without it, run update-all after tier 1.
 Prints READY / WAIT lines, then the pages built.
 """
 import argparse
@@ -47,17 +48,27 @@ def holders():
     return out
 
 
-def fresh_problem(ayah, run, p):
-    """Notes in tier 1 that the verse's saved notes lack (an update not built yet)."""
+_CURRENT = {}   # tier-1 tags -> verse -> rows, read in one pass for every verse the map runs hold
+
+
+def fresh_problem(ayah, run, p, held):
+    """Notes in tier 1 that the verse's map has not placed yet: new notes, and new versions of changed notes (an update
+    not built yet). Unavailable or changed saved notes do not block; map.py check marks them (map.reconcile)."""
     import merge
     m = M.mdir(run)
     man = json.loads((m / 'manifest.json').read_text())
-    problem = M.snapshot_problem(m, man, ayah)
-    if problem:
-        return f'{run}: {problem}'
-    saved = set(json.loads((m / 'rows' / f'{M.key(ayah)}.json').read_text()))
-    new = [r for r in merge.tier1_rows(None, man['from'], ayah, quiet=True) if r['id'] not in saved]
-    return f'{run}: {len(new)} tier-1 note(s) not in the map yet (run map.py update-all)' if new else None
+    tags = tuple(man['from'])
+    if tags not in _CURRENT:
+        _CURRENT[tags] = merge.tier1_rows_by_verse(list(tags), sorted(held))
+    current = {r['id']: r for r in _CURRENT[tags][ayah]}       # ready() passes only verses in held
+    saved = json.loads((m / 'rows' / f'{M.key(ayah)}.json').read_text())
+    marks, _, offer, new = M.reconcile(saved, current)
+    pulled = sum(1 for x in marks.values() if x['state'] == 'unavailable')
+    if pulled:
+        print(f'NOTE {ayah}: {pulled} saved note(s) no longer in tier 1; kept and marked by map.py check')
+    if offer or new:
+        return f'{run}: {len(new)} new and {len(offer)} changed tier-1 note(s) not placed yet (run map.py update-all)'
+    return None
 
 
 def ready(ayah, held, cache, build=False, fresh=False):
@@ -79,11 +90,8 @@ def ready(ayah, held, cache, build=False, fresh=False):
     if problems:
         cache[ayah] = f'{run}: {len(problems)} check problem(s), e.g. {problems[0]}'
         return cache[ayah]
-    if p.get('tier1_problem'):
-        cache[ayah] = p['tier1_problem']
-        return cache[ayah]
     if fresh:
-        x = fresh_problem(ayah, run, p)
+        x = fresh_problem(ayah, run, p, held)
         if x:
             cache[ayah] = x
             return x
@@ -118,7 +126,8 @@ def main():
     for ayah, path in plan['pages'].items():
         with contextlib.redirect_stdout(io.StringIO()):
             _, _, _, cites = writer.write7.page(path, ayah)
-        verses = sorted({v for vs in cites.values() for v in vs}, key=lambda x: tuple(map(int, x.split(':'))))
+        # the page's own verse too: writer.py build requires its map (it is the focus map)
+        verses = sorted({ayah} | {v for vs in cites.values() for v in vs}, key=lambda x: tuple(map(int, x.split(':'))))
         for kind, run, stage, need in (('writer', plan['runs']['writer'][ayah], 'write', verses),
                                        ('meal', plan['runs']['meal'][ayah], 'meal', [ayah])):
             if (V9 / 'work' / run / stage).exists():

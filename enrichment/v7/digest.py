@@ -8,6 +8,9 @@ scripted runner; the same chunk files serve every model.
   digest.py build RUN (--ayat 100:1 87:6 | --surahs 2 3 | --page PATH --ayah A) --models gpt-6-luna:max --skip-done luna-max --quotes
   digest.py check RUN [--model TAG] [--chunk N]     every segment answered, current anchors and required row fields
   digest.py report RUN                              per-model totals and costs
+  digest.py rejected OUT [--tier1 luna-max]         segments with no valid digest in any run, and the verses that
+                                                    reached them; rebuild them with: build RUN --ayat <ayat> --quotes
+                                                    --skip-done luna-max --only-locs OUT
 
 Every skipped source or segment is printed and listed in RUN/manifest.json.
 """
@@ -230,16 +233,17 @@ def run_record(directory):
         except (OSError, ValueError):
             return None
     original = read(directory / 'run.json')
-    repairs = {int(m.group(1)) for f in directory.glob('repair*.*')
-               if (m := re.fullmatch(r'repair(\d+)\.(?:stream\.jsonl|run\.json)', f.name))}
+    repairs = {int(m.group(1) or 0) for f in directory.glob('repair*.*')     # repair.stream.jsonl (oldest wrappers) = 0
+               if (m := re.fullmatch(r'repair(\d*)\.(?:stream\.jsonl|run\.json)', f.name))}
     if not repairs:
         return original
     n = max(repairs)
-    record = directory / f'repair{n}.run.json'
+    name = f'repair{n}' if n else 'repair'
+    record = directory / f'{name}.run.json'
     if record.exists():
         result = read(record)
         return {**(original or {}), **result} if result is not None else None
-    stream = directory / f'repair{n}.stream.jsonl'
+    stream = directory / f'{name}.stream.jsonl'
     terminal = None
     try:
         for line in stream.read_text().splitlines():
@@ -260,7 +264,7 @@ def run_record(directory):
 def run_state(directory):
     """File versions that affect whether a cached output is readable."""
     return tuple(sorted((f.name, s.st_mtime_ns, s.st_size) for f in directory.glob('*')
-                        if f.name in ('run.json', '.repair.lock') or re.fullmatch(r'repair\d+\.(?:stream\.jsonl|run\.json)', f.name)
+                        if f.name in ('run.json', '.repair.lock') or re.fullmatch(r'repair\d*\.(?:stream\.jsonl|run\.json)', f.name)
                         for s in [f.stat()]))
 
 
@@ -341,16 +345,44 @@ def verse_list(values, rejected=None):
     return list(dict.fromkeys(out))
 
 
+_OVERLAY_ROWS = None
+
+
+def overlay_rows():
+    """Range-overlay rows (enrichment/v5/index/range_overlay.jsonl) with 'seg_id' resolved from the row's locator in the
+    current corpus index. The file stores numeric segment ids, which a corpus rebuild renumbers (2026-10-09: all 81
+    rows pointed at other segments); the locator is stable. A row whose locator is gone, or whose segment's verse key
+    no longer matches the row (same sura, same indexed start and end), is printed and not applied."""
+    global _OVERLAY_ROWS
+    if _OVERLAY_ROWS is None:
+        _OVERLAY_ROWS, dropped, moved = [], [], 0
+        if OVERLAY.exists():
+            with connect() as con:
+                for r in rows(OVERLAY):
+                    hit = con.execute('SELECT id, s, a, coalesce(a_end, a) FROM seg WHERE seg=?', (r.get('seg'),)).fetchone()
+                    if hit is None or (hit[1], hit[2], hit[3]) != (r.get('s'), r.get('a'), r.get('indexed_end')):
+                        dropped.append(f"{r.get('seg')} ({'not in the corpus index' if hit is None else 'verse key changed'})")
+                        continue
+                    moved += hit[0] != r.get('seg_id')
+                    _OVERLAY_ROWS.append({**r, 'seg_id': hit[0]})
+        if moved:
+            print(f'NOTE range overlay: {moved} of {len(_OVERLAY_ROWS) + len(dropped)} rows resolved by locator '
+                  '(the corpus index was renumbered after the overlay was built)')
+        if dropped:
+            print(f'WARNING range overlay: {len(dropped)} row(s) not applied: ' + '; '.join(dropped)
+                  + ' (rebuild it: python3 -B enrichment/v5/ranges.py build)')
+    return _OVERLAY_ROWS
+
+
 def gather(ayat):
     """Segments tied to the ayat (index range plus range overlay), stage-1 kinds, text held locally."""
     skipped = []
     with connect() as con:
         src = {i: (k, acc, json.loads(m or '{}')) for i, k, acc, m in con.execute('SELECT id,kind,access,meta FROM src')}
         extra = defaultdict(set)
-        if OVERLAY.exists():
-            for r in rows(OVERLAY):
-                for a in range(r['indexed_end'] + 1, r['a_end'] + 1):
-                    extra[r['s'], a].add(r['seg_id'])
+        for r in overlay_rows():
+            for a in range(r['indexed_end'] + 1, r['a_end'] + 1):
+                extra[r['s'], a].add(r['seg_id'])
         found = {}
         for s, a in ayat:
             hits = con.execute('SELECT id,seg,src,s,a,coalesce(a_end,a),head,text,extra FROM seg WHERE s=? AND a<=? '
@@ -465,9 +497,8 @@ def quote_packet(ayat):
         src_kind = {i: k for i, k in con.execute('SELECT id, kind FROM src')}
     keyed = {}                   # locator -> verses reached by its index range and range overlay
     extra = defaultdict(set)
-    if OVERLAY.exists():
-        for r in rows(OVERLAY):
-            extra[r['seg_id']].update((r['s'], x) for x in range(r['indexed_end'] + 1, r['a_end'] + 1))
+    for r in overlay_rows():
+        extra[r['seg_id']].update((r['s'], x) for x in range(r['indexed_end'] + 1, r['a_end'] + 1))
     for sid, loc, _, _, _, _, _, ss, aa, ae in segs:
         if ss is not None:
             keyed[loc] = {(ss, x) for x in range(aa, ae + 1)} | extra[sid]
@@ -694,7 +725,7 @@ def build(a):
         raise SystemExit(f'{d} exists; choose a new run name')
     split_plan = getattr(a, 'split_plan', None)
     if split_plan:
-        if a.ayat or a.surahs or a.page or a.skip_done or a.skip_planned:
+        if a.ayat or a.surahs or a.page or a.skip_done or a.skip_planned or getattr(a, 'only_locs', None):
             raise SystemExit('--split-plan uses the original run\'s ayat and locators; omit other scope and skip options')
         forecast = json.loads(Path(split_plan).read_text())
         original_name = forecast['run']
@@ -789,6 +820,21 @@ def build(a):
             else:
                 segments.append(g)
                 have[g['loc']] = g
+    if getattr(a, 'only_locs', None):
+        try:
+            listed = json.loads(Path(a.only_locs).read_text())
+            want = set(listed['locs'] if isinstance(listed, dict) else listed)
+        except (OSError, ValueError, KeyError, TypeError) as e:
+            raise SystemExit(f'--only-locs {a.only_locs}: not a JSON list of locators or a `rejected` file ({e})')
+        kept = [g for g in segments if g['loc'] in want]
+        print(f'--only-locs: {len(kept)} of {len(want)} listed segment(s) gathered by this scope; '
+              f'{len(segments) - len(kept)} other gathered segment(s) left out (not listed)')
+        for loc in sorted(want - {g['loc'] for g in kept}):
+            why = next((s['reason'] for s in skipped if s['loc'] == loc), 'not reached by this scope')
+            print(f'NOT BUILT {loc}: {why}')
+        segments = kept
+        if not segments:
+            raise SystemExit('--only-locs: no listed segment in this scope; nothing built')
     with connect() as con:
         verse_text = {f'{s}:{x}': con.execute("SELECT text FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran' "
                                               'AND s=? AND a=?', (s, x)).fetchone()[0] for s, x in ayat}
@@ -860,6 +906,79 @@ def build(a):
         print(f"SKIPPED {k} segment(s): {reason} (each listed in manifest.json)")
 
 
+def rejected(a):
+    """Segments that a tier-1 run planned but that have no valid digest in any run (no output line, an invalid line,
+    or a source changed since): their notes reach no verse map and no recheck. Writes OUT (JSON): the locators with
+    the runs that planned them, and the verses whose scope reached them, for
+    `digest.py build RUN --ayat <ayat> --quotes --skip-done TAG --only-locs OUT`."""
+    valid, planned, scope, answered, running = set(), defaultdict(set), defaultdict(set), set(), set()
+    for manifest in sorted((V7 / 'work').glob('*/manifest.json')):
+        d = manifest.parent
+        try:
+            man, _ = manifest_of(d)
+            chunks = [c for c in man['chunks'] if isinstance(c, dict) and isinstance(c.get('chunk'), int)]
+            if len(chunks) != len(man['chunks']):
+                print(f"WARNING {d.name}: {len(man['chunks']) - len(chunks)} malformed chunk entr(ies) not listed")
+            specs = [str(s) for s in man.get('models', [])]
+            bad = [s for s in specs if ':' not in s]
+            if bad:
+                print(f'WARNING {d.name}: model spec(s) without an effort not read: {", ".join(bad)}')
+            models = {tag_of(*s.split(':', 1)) for s in specs if ':' in s}
+        except (OSError, ValueError, KeyError, TypeError) as e:
+            print(f'WARNING {d.name}: manifest unreadable ({e}); its chunks are not listed')
+            continue
+        if man.get('kind') == 'recheck' or a.tier1 not in models:
+            continue
+        for c in chunks:
+            f = d / 'out' / a.tier1 / f"c{c['chunk']:02d}.jsonl"
+            locs = c.get('locs') if isinstance(c.get('locs'), list) else []
+            for loc in locs:
+                planned[loc].add(d.name)
+                scope[loc].update(c.get('scope') or man.get('ayat') or [])
+            if f.exists():
+                if unfinished(f):                # its agent is still running: neither answered nor rejected
+                    running.update(locs)
+                    continue
+                answered.update(locs)
+                valid |= valid_output_locs(f)
+    with connect() as con:
+        present = {loc for loc in planned if con.execute('SELECT 1 FROM seg WHERE seg=?', (loc,)).fetchone()}
+    gone = sorted(set(planned) - valid - present)
+    unanswered = defaultdict(int)            # chunks built but never run (tests, pilots): listed only on request
+    for loc in set(planned) - valid - answered:
+        for run in planned[loc]:
+            unanswered[run] += 1
+    if unanswered:
+        print(f'NOTE {len(set(planned) - valid - answered)} planned segment(s) have no output in any run (chunks built '
+              f'but not run){"" if a.include_unanswered else "; not listed (--include-unanswered lists them)"}: '
+              + ', '.join(f'{r} {n}' for r, n in sorted(unanswered.items(), key=lambda x: -x[1])))
+    running -= valid
+    if running:
+        print(f'NOTE {len(running)} segment(s) belong to chunks whose agents have not finished; not listed (run again '
+              'after they finish)')
+
+    def why(loc):
+        if loc in UNVERIFIED_OUTPUT_LOCS:
+            return 'legacy input unverifiable'
+        return 'invalid line or changed source' if loc in answered else 'no output'
+    out = {loc: {'runs': sorted(planned[loc]), 'why': why(loc)}
+           for loc in sorted(set(planned) - valid - running) if loc in present and (loc in answered or a.include_unanswered)}
+    no_scope = [loc for loc in out if not any(v in quran() for v in scope[loc])]
+    if no_scope:
+        print(f'NOTE {len(no_scope)} listed segment(s) have no recorded verse scope, so --ayat cannot reach them; build '
+              'them with a scope that gathers them: ' + ', '.join(no_scope[:10]) + (' …' if len(no_scope) > 10 else ''))
+    ayat = sorted({v for loc in out for v in scope[loc] if v in quran()}, key=lambda v: tuple(map(int, v.split(':'))))
+    dump(Path(a.out), {'tier1': a.tier1, 'locs': out, 'ayat': ayat})
+    reasons = defaultdict(int)
+    for x in out.values():
+        reasons[x['why']] += 1
+    print(f'{len(out)} segment(s) without a valid {a.tier1} digest ({dict(reasons)}), reached by {len(ayat)} verse(s); '
+          f'written {a.out}')
+    if gone:
+        print(f'NOTE {len(gone)} planned locator(s) are no longer in the corpus index; not listed: '
+              + ', '.join(gone[:10]) + (' …' if len(gone) > 10 else ''))
+
+
 def line_problems(loc, x, body, tags=False, strict=False):
     """Problems in one segment's output against the current corpus text."""
     problems = []
@@ -910,14 +1029,31 @@ def line_problems(loc, x, body, tags=False, strict=False):
     return problems
 
 
+_MANIFESTS = {}
+
+
+def manifest_of(d):
+    """A run's manifest.json and its chunks by output stem, parsed once while the file is unchanged (a large run's
+    manifest took ~0.14 s to parse, once per output file)."""
+    f = d / 'manifest.json'
+    st = f.stat()
+    hit = _MANIFESTS.get(f)
+    if hit and hit[0] == (st.st_mtime_ns, st.st_size):
+        return hit[1], hit[2]
+    man = json.loads(f.read_text())
+    by_stem = {f"c{x['chunk']:02d}": x for x in man['chunks']}
+    _MANIFESTS[f] = ((st.st_mtime_ns, st.st_size), man, by_stem)
+    return man, by_stem
+
+
 def valid_output_locs(f):
     """Only finished, structurally valid, current-anchor lines assigned to this run's chunk count as done."""
     if unfinished(f):
         return set()
     d = f.parents[2]
     try:
-        man = json.loads((d / 'manifest.json').read_text())
-        c = next(x for x in man['chunks'] if f.stem == f"c{x['chunk']:02d}")
+        man, by_stem = manifest_of(d)
+        c = by_stem[f.stem]
         lines = f.read_text().splitlines()
     except (OSError, ValueError, KeyError, StopIteration) as e:
         print(f'WARNING {f.relative_to(V7)}: cannot validate against its manifest ({e}); not counted as done')
@@ -1210,10 +1346,15 @@ def main():
     p.add_argument('--split-plan', help='forecast JSON: preserve its original run and split only listed chunks')
     p.add_argument('--chunk-chars', type=int, default=DEFAULT_CHUNK_CHARS,
                    help='target rendered input characters per agent chunk (default: %(default)s); a longer single segment stands alone')
+    p.add_argument('--only-locs', metavar='FILE',
+                   help='digest only these locators (a JSON list, or the file `rejected` writes) among the segments this scope gathers')
     p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--chunk', type=int)
     p = sub.add_parser('report'); p.add_argument('run')
+    p = sub.add_parser('rejected', help='segments planned by a tier-1 run that have no valid digest in any run')
+    p.add_argument('out', help='JSON file to write'); p.add_argument('--tier1', default='luna-max')
+    p.add_argument('--include-unanswered', action='store_true', help='also list segments of chunks that were never run')
     a = parser.parse_args()
-    return {'build': build, 'check': check, 'report': report}[a.cmd](a)
+    return {'build': build, 'check': check, 'report': report, 'rejected': rejected}[a.cmd](a)
 
 
 if __name__ == '__main__':

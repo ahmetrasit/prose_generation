@@ -141,8 +141,8 @@ establish exhaustive coverage or a corpus-wide miss rate.
   also accepted (at least 3 normalized words and 12 characters), including repeated
   verses without a unique window. Named-surah markers must name the segment's surah.
 - **Luna's task.** Luna reads each whole segment with its provenance metadata and the
-  complete earlier notes, including anchors, mentions and tags. It records only new
-  points about the assigned CHECK verses. Metadata never supplies an anchor.
+  earlier notes, one compact line each (verses, mentions, speaker, stance, claim, exact words; user, 2026-10-10).
+  It records only new points about the assigned CHECK verses. Metadata never supplies an anchor.
 - **Supplements.** New notes are stored as supplements under `enrichment/v7/recheck/<RUN>/out/`. `merge.tier1_rows`
   reads them beside the digests with IDs `<loc>/x<N>-<RUN>`. No digest is replaced, and a pair is never checked
   twice after a valid completed answer. Do not build overlapping recheck runs while
@@ -150,7 +150,10 @@ establish exhaustive coverage or a corpus-wide miss rate.
 - **Scope (user, 2026-10-10).** The run covers verses that have a v9 map, plus S1, S59 and S87–114
   (`enrichment/v7/recheck/scope_s1_s59_s87-114.txt`). The plan on this machine gave 24,613 pairs in 15,439 segments
   (25.9M source characters), about 2,074 Luna agents and about $55 API-equivalent at the tier-1 rate **before the
-  2026-10-10 workflow review fixes**. These are historical figures, not the current launch budget. Not checked by
+  2026-10-10 workflow review fixes**. These are historical figures, not the current launch budget. Current plan on this
+  machine (2026-10-10, after the fixes: compact earlier notes, overlay resolved by locator): 24,244 pairs in 15,323
+  segments, 58.4M rendered characters, 3,276 Luna chunks, about $77 API-equivalent at the tier-1 rate (56 segments
+  exceed the chunk size and stand alone). Not checked by
   design: 53,959 pairs reached only through a "too-common" 2-word window. These are ordinary prose phrases that occur
   in a single verse, such as الله تعالى (27:63) or قال ابن. Quotations with a unique
   3-word window can still match; repeated/short/ambiguous wording and implicit
@@ -193,7 +196,7 @@ corpus index.
 
 **After the outputs are pulled here,** the maps take the new notes, together with the range and mention notes, through
 one `map.py update-all`. That is a Sol run, so its cost is reported first.
-Changed/removed existing notes require rebuilding their verse map in a fresh run
-with `--supersede OLD_RUN`; an additive update cannot correct old positions. Run
+Saved notes that left Tier 1 or changed stay in their maps, marked withdrawn; changed notes'
+new content is placed by the same update as `<id>~<k>`. Nothing forces a map rebuild. Run
 the map checks after every update, then translate changed questions and build pages.
-See `REVIEW-workflow-20261010.md` for the review and verification record.
+Reviews: `REVIEW-workflow-20261010.md` and `REVIEW-independent-20261010.md`.

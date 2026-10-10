@@ -25,8 +25,9 @@ No other commands, files, web or repository search.
 
 A `CORPUS METADATA` line may precede the body. Use its source-quality warnings,
 alignment notes and attribution/grade flags as provenance; it is not source wording
-and cannot supply an anchor. Earlier notes are printed in full as JSON, including
-their anchors, mentions and tags. They are comparison material, not a second source.
+and cannot supply an anchor. Each earlier note is one line: the verses it is about,
+the verses it mentions, speaker, stance, claim and its exact words in «». They are
+comparison material, not a second source.
 
 **Step 2.** For every segment and every verse after its `CHECK`, decide: does the segment say something about this verse that none of the earlier notes carries? See WHAT COUNTS.
 

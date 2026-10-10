@@ -136,15 +136,15 @@ or missing source requires rebuilding the input, not another model repair.
 
 For the screened missed-verse pass, follow `HANDOFF-hadith-20261010.md` and the
 current plan, not its historical agent/cost totals. It checks unnamed verses, uses
-whole segments and complete earlier notes, and records its quotation selection
+whole segments and earlier notes in one compact line each, and records its quotation selection
 limits. CHECK assignments are enforced by the checker and all supplement readers.
-Do not build overlapping recheck runs while one is active.
+`recheck.py build` refuses while chunks of earlier recheck runs have no valid answer (`--allow-overlap` overrides).
 
-Existing verse maps must be checked/updated after Tier 1 or supplements change.
-An existing note whose content changes, or whose provenance is no longer valid,
-requires a fresh verse map with `map.py build NEW_RUN ... --supersede OLD_RUN`.
-Saved evidence stays in the old run; additive updates cannot repair its old positions.
-The full review is `REVIEW-workflow-20261010.md`.
+Existing verse maps must be checked/updated after Tier 1 or supplements change. Saved notes that left Tier 1 or
+changed stay in the map, marked withdrawn; a changed note's new content enters through the next `map.py update` as
+`<id>~<k>` (enrichment/v9/RUNBOOK.md, Stage 2). Nothing forces a rebuild. Segments without a valid digest:
+`digest.py rejected OUT`, then `digest.py build … --only-locs OUT`. Reviews: `REVIEW-workflow-20261010.md` and
+`REVIEW-independent-20261010.md`.
 
 ## Stage 1b: retag (v7 record; superseded by v9 maps, do not run)
 

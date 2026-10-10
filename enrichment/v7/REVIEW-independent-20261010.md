@@ -147,3 +147,39 @@ Compact notes (claim, verses, mentions, anchor) would recover most of it.
 2. Fix items 2, 3 and 5 and the item-1 policy in code; each changed script gets its own read-only Sonnet reviewer.
 3. Re-digest or repair the 756 rejected segments (Luna; cost to be planned and approved).
 4. Then run the full map checks, rebuild link indices, and plan and approve the recheck.
+
+## Fixes applied (2026-10-10, same day)
+
+The user agreed with every recommendation: saved notes stay in their maps and are marked, nothing forces a rebuild;
+earlier notes are shown compactly to the recheck agent. The user runs the Luna and Sol agents. Every changed script had
+its own read-only Sonnet reviewer; every patch went back to the same reviewer until it confirmed (13 scripts, up to 3
+rounds). No model job was run; tests used fixtures, a copy of map_s103_20261009 and read-only passes over real data.
+
+| Item | Fix | Verified |
+|---|---|---|
+| 1. Maps blocked | `map.reconcile`/`sync_tier1`: unavailable notes marked in `rows/<k>.tier1.json`; a changed note keeps its mapped version and its new content is offered to the next update as `<id>~<k>` (older version then marked replaced); author/death/missing anchor refreshed in place, stamp renewed; `tier1_problem` no longer used. `q.py` and pages show the marks | 929 maps: 1,525 notes marked in 368 maps, none blocked; copy: full check 80/80 assembled; simulated changed note → update with `~2`, then replaced |
+| 2. Startup retry | proof = failed run, no request/usage/cost, stream of start/error/turn.failed only, every error the known pre-request failure ("workspace routing discovery timed out"); unproven failures listed for review; bad records no longer abort the sweep | 396/396 recorded failures accepted; 0 of 6,014 completed runs; unknown disconnect, reasoning/file/message items rejected |
+| 3. Writer check | stale maps are problems (needed verses) or NOTEs (other same-surah verses); no exit. Same for `q.py index/question/notes/find`, `surah.py`, `maptr.py check`; unreadable map files are reported, not crashes | fixtures |
+| 4. Recheck cost | earlier notes one compact line each (verses, mentions, speaker, stance, claim, exact words) | plan: 58.4M characters, 3,276 chunks, ~$77 (was 68.9M / 3,942 / ~$91) |
+| 5. Speed, translation build | `merge.tier1_rows_by_verse` (one pass for all verses) in map check/update/refresh/build and `ready_pages --fresh`; manifest parse cache in `valid_output_locs`; `maptr.py build` notes and skips unmapped verses | one pass for 925 verses: 182–274 s cold (was ~874 s for the first verse + ~6 s each); rows identical on 6 verses incl. mention rows |
+| Markers | label rule: this surah's name or a verse word, also after other words; another surah named anywhere is rejected; `والآية` accepted; capitalised Latin words other than common leads are taken as possible surah names | 28 fixture cases; a bare Latin name of the same surah ("Fatiha, verse 3" in S1) is still rejected (names table is Arabic only) |
+| Link stamp | `linked.stamp_cached()` (corpus/wal/overlay mtime, size, inode, ctime + code hash) for `q.py linked` | |
+| Repair helper | legacy unnumbered `repair.stream.jsonl` handled (repair 0 in `digest.run_record`) | completion unchanged on all 4,058 run folders |
+| Other | `segment_rows` marks recheck-only segments; recheck `build` refuses while earlier recheck chunks are unanswered (`--allow-overlap`) | |
+
+**New finding, fixed: the range overlay pointed at the wrong segments.** `enrichment/v5/index/range_overlay.jsonl`
+(81 rows) stores numeric segment ids; the 2026-10-09 corpus rebuild renumbered them, so all 81 rows extended the verse
+range of unrelated TAB-FULL pages (it also crashed `gather` on three rows). `digest.overlay_rows()` now resolves each row
+by its locator and prints rows it cannot apply; tier-1 gathering, the quotation packet and the recheck use it. No
+tier-1 run digested a wrong segment under an overlay verse. 30 of the 81 intended overlay segments have no valid
+digest yet. Link indices built before the fix need rebuilding.
+
+**Re-digesting the 756 segments.** `digest.py rejected OUT` lists them (with the verses that reached them);
+`digest.py build RUN --ayat <OUT's ayat> --quotes --skip-done luna-max --only-locs OUT --models gpt-6-luna:max`
+builds exactly those: 756 of 756 gathered, 129 chunks, 2.34M characters (about $3 at the tier-1 rate; probe build
+deleted). Separately, 32,168 segments sit in chunks that were built but never run (s1_r13_augrefs938_20261008 31,317,
+pilot100-20261007 1,015); `--include-unanswered` lists them.
+
+**Still open (decisions for the user, not code):** `update-all` will offer 31,694 tier-1 notes that no map has placed
+yet (range, mention and supplement rows); the 53,839 pairs reached only through too-common windows stay outside the
+recheck; one bad row still discards its whole segment.

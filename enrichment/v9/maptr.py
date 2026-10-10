@@ -116,14 +116,18 @@ def build(a):
         if waiting:
             print(f"NOTE {man.parents[1].name}: {len(waiting)} chunk(s) not finished (queued or running) count as planned: "
                   f"{' '.join(waiting[:30])}{' …' if len(waiting) > 30 else ''}")
+    unmapped = [v for v in ayat if not Q.located(v)]
+    if unmapped:
+        print(f'NOTE {len(unmapped)} verse(s) have no assembled verse map; nothing to translate for them: '
+              + ' '.join(unmapped))
+    not_current = [f'{v} ({why})' for v in ayat if v not in unmapped and (why := Q.stale(v))]
+    if not_current:
+        raise SystemExit(f'{len(not_current)} map(s) not current, nothing built (run map.py check on their runs): '
+                         + '; '.join(not_current))
     for v in ayat:
-        why = Q.stale(v)
-        if why:
-            raise SystemExit(f'{v}: map not current ({why}); nothing built')
-        qs, _ = Q.load(v)
-        if qs is None:
-            print(f'NOTE {v}: no verse map; nothing to translate')
+        if v in unmapped:
             continue
+        qs, _ = Q.load(v)
         have = Q.translation(v)
         for q in qs:
             t = have.get(q['id'])
@@ -171,10 +175,19 @@ def build(a):
 
 
 def check_chunk(d, man, c):
-    want, problems, stale = {}, [], set()
+    want, problems, stale, maps = {}, [], set(), {}
     for qid in c['questions']:
-        qs, _ = Q.load(qid.split('/')[0])
-        q = next((x for x in qs or [] if x['id'] == qid), None)
+        v = qid.split('/')[0]
+        if v not in maps:                  # the assembled map, as q.translation and the pages read it
+            try:
+                loc = Q.located(v)
+                maps[v] = Q.assembled(loc)[0] if loc else []
+            except (OSError, ValueError) as e:
+                maps[v] = None
+                problems.append(f'{v}: assembled verse map unreadable ({e})')
+        if maps[v] is None:
+            continue
+        q = next((x for x in maps[v] if x['id'] == qid), None)
         if q is None:
             problems.append(f'{qid}: no longer in the verse map')
             continue

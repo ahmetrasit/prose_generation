@@ -37,8 +37,9 @@ Project memory notes, when present, hold the user's standing rules; the ones thi
 
 - **Luna and Sol (Codex):** `enrichment/v9/tools/run_until_done.sh CAP RUNS_DIR LOG <spawn files>` with `nohup … &`.
   It runs `codex_run.py` (atomic claim, one line per agent, `WARNING` for any failure), sets **proven** failures
-  before session creation aside (`rerun_failed_start.py`: no thread, usage or completed items), and retries up to
-  8 passes. Zero shell commands alone never permits a retry. A failed/incomplete session causes a nonzero exit;
+  before any model request aside (`rerun_failed_start.py`: failed run, no request, usage or cost, and a stream of
+  only start, error and turn.failed events; a thread id alone proves nothing), and retries up to 8 passes. All 396
+  network failures recorded through 2026-10-10 meet that rule. Zero shell commands alone never permits a retry. A failed/incomplete session causes a nonzero exit;
   success means sessions completed, and still requires the stage checker/report. Every spawn must belong to the
   requested runs directory. Each agent's original record is `<stage>/runs/<agent>/run.json`.
   Beware `A && B &` in bash: it backgrounds the whole chain.
@@ -84,6 +85,17 @@ use `tools/repair.py`, configured live/archive paths and a lock per session; pla
 They save `repairN.run.json`, preserving the original result and cumulative session cost. Push the repair records
 with `run.json`. Changed/missing source text or provenance requires a fresh build; no model repair is launched.
 If a session is gone, keep its output/records and rebuild missing work in a **new run** with `--skip-done`.
+**Range overlay** (`enrichment/v5/index/range_overlay.jsonl`, 81 rows): it stores numeric segment ids, which the
+2026-10-09 corpus rebuild renumbered, so every row pointed at another segment. `digest.overlay_rows()` now resolves
+each row by its locator and prints any row it cannot apply; tier-1 gathering, the quotation packet and the recheck
+use it. No tier-1 run digested a wrong segment under an overlay verse; 30 of the 81 overlay segments have no valid
+digest yet (a `--skip-done` build over their verses picks them up). Link indices built before the fix need rebuilding.
+**Segments without a valid digest** (no output, an invalid line, or a source changed since; 756 on 2026-10-10, 620 of
+them ISLAHI-TADABBUR after the 2026-10-09 corpus rebuild): `python3 -B enrichment/v7/digest.py rejected <file>.json`
+lists them with the verses that reached them; rebuild exactly those with
+`digest.py build <new run> --ayat <the file's ayat> --quotes --skip-done luna-max --only-locs <file>.json --models gpt-6-luna:max`
+(every listed segment the scope does not reach is printed `NOT BUILT`). Their new notes reach the maps through
+`map.py update-all` (changed notes as new versions, see Stage 2).
 The build takes about 25 s plus 0.35 s per verse. `--skip-done` validates finished lines and
 input provenance; old outputs whose chunk snapshots are missing count as unresolved and are rebuilt. `--skip-planned`
 reserves another built run's locators and requires `--skip-done`. Indexed hadith is
@@ -120,11 +132,15 @@ python3 -B enrichment/v9/map.py check <run>       # for EVERY run whose "== <run
 python3 -B enrichment/v9/map.py report <maps run>
 ```
 `build` skips verses that already have a map (`SKIPPED`); `update-all` builds an update only for mapped verses whose
-tier-1 notes grew. If an existing note changed or is unavailable/invalid, update/refresh/assembly reports a
-rebuild requirement and preserves saved evidence. Rebuild the verse in a new run with `--supersede OLD_RUN`;
-additive updates do not reconsider old positions. After every completed Tier-1/recheck run, run update-all (or
-`ready_pages.py --fresh`) before declaring a map current. The full map check verifies saved notes against current
-Tier 1; new assemblies record hashes of raw outputs and saved notes, so copied timestamps cannot hide changes.
+tier-1 notes grew. Saved notes are never removed or rewritten, and nothing forces a rebuild (user, 2026-10-10):
+the full `check`, `update` and `refresh-rows` reconcile each verse with Tier 1 (`map.reconcile`). A saved note no
+longer in Tier 1 stays as mapped and is marked withdrawn in `rows/<k>.tier1.json`; `q.py` prints the mark and pages
+say how many of a position's notes changed or were removed after mapping. A note whose content changed keeps its
+mapped version (marked changed) and its new content is offered to the next update as `<id>~<k>`, placed by the
+update agent like a new note; the older version is then marked replaced. Author and death-date edits and missing
+legacy anchors are refreshed in place. After every completed Tier-1/recheck run, run update-all (or
+`ready_pages.py --fresh`) before declaring a map current. The full check reads Tier 1 once for all of a run's verses;
+new assemblies record hashes of raw outputs and saved notes, so copied timestamps cannot hide changes.
 Until `check` runs, an updated verse's assembled map is the old one; `writer.py`/`meal.py build`
 refuse such a verse (`q.stale`: "assembled map older than its outputs" / "no output yet") — if they refuse, run the
 check, do not work around it. A check's `note X is in no position` on an update → `tools/repair_map.sh RUN S:A N`

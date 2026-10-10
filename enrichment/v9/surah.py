@@ -160,12 +160,18 @@ def status(a):
     import maptr
     stale = 0
     same = {k.replace('-', ':') for k in Q.mapped() if k.split('-')[0] == str(a.surah)}
+    not_current = []
     for v in sorted(set(p['verses']) | same, key=lambda x: tuple(map(int, x.split(':')))):
-        qs, _ = Q.load(v)
+        qs, _, why = Q.load_current(v)
+        if why:
+            not_current.append(f'{v} ({why})')
         if qs:
             tr = Q.translation(v)
             stale += sum(1 for q in qs if tr.get(q['id'], {}).get('src') != maptr.qhash(q))
     print(f'map questions without a current Turkish rendering (cited verses and every mapped verse of S{a.surah}): {stale}')
+    if not_current:
+        print(f'maps not current (run map.py check on their run), not counted above: {len(not_current)}: '
+              + '; '.join(not_current[:10]) + (' …' if len(not_current) > 10 else ''))
     for ayah in p['pages']:
         cells = []
         for run, stage, script in ((p['runs']['writer'][ayah], 'write', 'writer.py'), (p['runs']['meal'][ayah], 'meal', 'meal.py')):

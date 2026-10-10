@@ -16,7 +16,8 @@ digest is replaced and nothing is digested twice. Runs live in enrichment/v7/rec
 outputs are read as digests). Same layout as a tier-1 run: chunks/, spawn/, runs/, out/<TAG>/cNN.jsonl.
 
   recheck.py plan [SCOPE] [--tier1 luna-max]                 counts only: candidate pairs, segments, characters
-  recheck.py build RUN [SCOPE] [--tier1 luna-max] [--models gpt-6-luna:max] [--chunk-chars 20000]
+  recheck.py build RUN [SCOPE] [--tier1 luna-max] [--models gpt-6-luna:max] [--chunk-chars 20000] [--allow-overlap]
+            refuses while chunks of earlier recheck runs have no valid answer (their pairs would be checked twice)
 
 SCOPE (default: every candidate pair): --verses V … or --verses-file F (only these verses are checked), --mapped
 (only verses with a v9 map, plus any --verses), --index-only (only verses inside the segment's own index range).
@@ -25,7 +26,9 @@ Build the run on the machine that runs it (the chunks hold the segment texts; no
   recheck.py report RUN                                      costs, segments, new notes
 """
 import argparse
+import contextlib
 import hashlib
+import io
 import json
 import re
 import sys
@@ -34,8 +37,8 @@ from pathlib import Path
 
 import digest
 import merge
-from digest import (DEFAULT_CHUNK_CHARS, OVERLAY, PART_CHARS, QUOTE_MAX_HITS, ROOT, TYPE_GUIDE, V7, connect, contains,
-                    dump, normalize_map, rows, source_line, tag_of, tag_problems)
+from digest import (DEFAULT_CHUNK_CHARS, PART_CHARS, QUOTE_MAX_HITS, ROOT, TYPE_GUIDE, V7, connect, contains,
+                    dump, normalize_map, source_line, tag_of, tag_problems)
 
 HOME = V7 / 'recheck'
 BRIEF = V7 / 'briefs/recheck.md'
@@ -64,6 +67,25 @@ def checked_before(tags=None):
     return out
 
 
+def unanswered(tags):
+    """Chunks of earlier recheck runs (for these model tags) whose output is missing or not valid for every segment."""
+    out = []
+    for man in sorted(HOME.glob('*/manifest.json')):
+        try:
+            m = json.loads(man.read_text())
+            plan = [(tag, c['chunk'], set(c['locs'])) for tag in m.get('tags', []) if tag in tags for c in m['chunks']]
+        except (OSError, ValueError, KeyError, TypeError) as e:
+            out.append(f'{man.parent.name} (manifest unreadable: {e})')
+            continue
+        for tag, n, locs in plan:
+            f = man.parent / 'out' / tag / f'c{n:02d}.jsonl'
+            with contextlib.redirect_stdout(io.StringIO()):     # per-line warnings; the chunk itself is listed
+                valid = digest.valid_output_locs(f) if f.exists() else set()
+            if valid != locs:
+                out.append(f'{man.parent.name}/{tag}/c{n:02d}')
+    return out
+
+
 def scope_of(a):
     """The verses to check (None = all) and whether only index-range verses count, from the command line."""
     vs = set(a.verses or [])
@@ -86,6 +108,46 @@ _NOT_VERSE = re.compile(r'(?:^|[^\w])(?:p|pp|vol|no|n|s|d|ص|ج|رقم|ت)\.?\s*
 _ONLY_NUMBERS = re.compile(r'^[^\d]{0,20}?[\d\s,،\-–]+$')   # an optional label, then numbers, ranges, separators
 
 
+VERSE_WORDS = {'v', 'vv', 'verse', 'verses', 'ayah', 'ayat', 'āyah', 'āyāt', 'ayet', 'âyet', 'آية', 'آيات', 'الآية',
+               'الآيات', 'الآيتان', 'الآيتين'}
+
+
+LATIN_LEADS = {'see', 'in', 'cf', 'compare', 'also', 'and', 'sura', 'surah', 'sure', 'sūra', 'sūrah', 'q', 'vgl', 'siehe',
+               'bkz', 'ayrıca', 'bakınız'}   # capitalised words that are not surah names
+
+
+def surahs_named(label):
+    """Surah numbers whose name the label is ("البلد", "سورة البلد"), or an empty set."""
+    normalized = normalize_map(re.sub(r'^سورة\s+', '', label.strip(' ،,:')))[0]
+    return {s for s, names in SURAH_NAMES.items()
+            if normalized and normalized in {normalize_map(name)[0] for name in names.split('|')}}
+
+
+def label_fits(label, surah):
+    """Whether the words before a marker's numbers allow it to be this surah's ayah: a name of this surah ("البلد"),
+    a verse word ("vv.", "الآية"), or text ending in a verse word that names no other surah ("سورة البلد الآية",
+    "i.e., verses", "vgl. V."). Any other label ("(c. 1)", "(Buhâri, Tefsir 1, 1)") is not a verse marker."""
+    named = surahs_named(label)
+    if named:
+        return surah in named
+    words = label.split()
+    last = words[-1].lower().strip('.,،:') if words else ''
+    if last not in VERSE_WORDS and not (last[:1] in 'وف' and last[1:] in VERSE_WORDS):   # "والآية", "فالآية"
+        return False
+    rest = words[:-1]
+    named = surahs_named(' '.join(rest)) if rest else set()
+    for i in range(len(rest)):                   # a surah named anywhere before the verse word ("see البلد, verse")
+        for j in (i + 1, i + 2):
+            if j <= len(rest):
+                named |= surahs_named(' '.join(rest[i:j]))
+    if named:
+        return surah in named
+    # Latin labels: the names table is Arabic, so a capitalised word that is not an abbreviation ("Fatiha" in
+    # "see Fatiha, verse 3") may be a surah name: not counted as this surah's marker
+    return not any(re.fullmatch(r'[A-ZÀ-Þ][^\W\d_]+', w.strip(',;:')) and w.strip(',;:').lower() not in LATIN_LEADS
+                   for w in rest)
+
+
 def markers(text, surah):
     """Ayah numbers of this surah that the text marks: "[البلد: 2]", "(2)", "(vv. 9-12)", "﴿2﴾", "(90:2)". A bare number in
     square brackets ("[1]", "[^16]") is a footnote, a "S:A" of another surah is not this surah's ayah, and page or
@@ -102,15 +164,8 @@ def markers(text, surah):
         if open_ == '[' and not re.search(r'[^\W\d_]', c):
             continue                         # [1], [12]: footnote numbers
         label = re.split(r'\d', c, maxsplit=1)[0].strip().rstrip(':').strip()
-        if label:
-            normalized = normalize_map(re.sub(r'^سورة\s+', '', label))[0]
-            named = {s for s, names in SURAH_NAMES.items()
-                     if normalized in {normalize_map(name)[0] for name in names.split('|')}}
-            if named:
-                if surah not in named:
-                    continue
-            elif label.lower().rstrip('.') not in ('v', 'vv', 'verse', 'verses', 'آية', 'آيات', 'الآية', 'الآيات'):
-                continue
+        if label and not label_fits(label, surah):
+            continue
         for x, y in re.findall(r'(?<![\d.])(\d{1,3})(?:\s*[-–]\s*(\d{1,3}))?(?![\d.])', c):
             a, b = int(x), int(y or x)
             if 1 <= a <= b and b - a <= 50:
@@ -145,9 +200,8 @@ def candidates(tier1, only=None, index_only=False):
         print(f'NOTE {len(missing)} digested locator(s) are not in the corpus index (renamed or removed); not checked: '
               + ', '.join(missing[:10]) + (' …' if len(missing) > 10 else ''))
     extra = defaultdict(set)
-    if OVERLAY.exists():
-        for r in rows(OVERLAY):
-            extra[r['seg_id']].update(f"{r['s']}:{x}" for x in range(r['indexed_end'] + 1, r['a_end'] + 1))
+    for r in digest.overlay_rows():          # seg_id resolved by locator (the corpus index renumbers ids)
+        extra[r['seg_id']].update(f"{r['s']}:{x}" for x in range(r['indexed_end'] + 1, r['a_end'] + 1))
     words = {v: normalize_map(t)[0].split() for v, t in quran.items()}
     owner = defaultdict(set)
     for v, w in words.items():
@@ -248,9 +302,20 @@ def segment_input(loc, x, notes):
         lines.append('CORPUS METADATA (provenance/index; not source words or an anchor): '
                      + json.dumps(provenance, ensure_ascii=False, sort_keys=True))
     lines += [(x['text'] or '').strip(), '--- notes already taken on this segment ---']
-    lines += [f'[{n}] ' + json.dumps(r, ensure_ascii=False, sort_keys=True)
-              for n, r in enumerate(notes, 1) if isinstance(r, dict)] or ['(none)']
+    lines += [note_line(n, r) for n, r in enumerate(notes, 1) if isinstance(r, dict)] or ['(none)']
     return '\n'.join(lines) + f'\n=== END SEGMENT {loc} ===\n\n'
+
+
+def note_line(n, r):
+    """An earlier note, compact (user, 2026-10-10: full JSON nearly doubled the run): the verses it is about, the
+    verses it mentions, speaker, stance, claim and its exact words. Word tags and types are left out."""
+    def text(v):
+        return ', '.join(map(str, v)) if isinstance(v, list) else str(v or '')
+    def one(v):
+        return ' '.join(str(v).split()) if v else '-'
+    return (f"[{n}] verses {text(r.get('verses')) or '-'}"
+            + (f" | mentions {text(r.get('mentions'))}" if r.get('mentions') else '')
+            + f" | {one(r.get('speaker'))} | {one(r.get('stance'))} | {one(r.get('claim'))} «{' '.join(str(r.get('anchor') or '').split())}»")
 
 
 LUNA_USD_PER_M = 1.32         # API-equivalent USD per million chunk characters (tier-1 s1_87_114: $13.60 / 10.29M)
@@ -291,6 +356,15 @@ def cmd_build(a):
         raise SystemExit(f'{d} exists; choose a new run name')
     if a.chunk_chars < 1:
         raise SystemExit('--chunk-chars must be positive')
+    tags = [tag_of(*spec.split(':')) for spec in a.models]
+    open_ = unanswered(tags)
+    if open_ and not a.allow_overlap:
+        raise SystemExit(f'{len(open_)} chunk(s) of earlier recheck runs have no valid answer yet (running, failed or '
+                         f'unrepaired): {", ".join(open_[:10])}{" …" if len(open_) > 10 else ""}. Their pairs are not '
+                         'skipped, so a new run would check them twice. Finish or repair them first, or pass '
+                         '--allow-overlap to build anyway.')
+    if open_:
+        print(f'NOTE --allow-overlap: {len(open_)} unanswered chunk(s) of earlier runs; their pairs are checked again here')
     only, index_only = scope_of(a)
     cand, counts, quran = candidates(a.tier1, only, index_only)
     counts['scope'] = {'verses': len(only) if only else 'all', 'index_only': index_only}
@@ -431,6 +505,8 @@ def main():
     scope(p)
     p.add_argument('--models', nargs='+', default=['gpt-6-luna:max'])
     p.add_argument('--chunk-chars', type=int, default=DEFAULT_CHUNK_CHARS)
+    p.add_argument('--allow-overlap', action='store_true',
+                   help='build although chunks of earlier recheck runs have no valid answer yet (their pairs are checked again)')
     p = sub.add_parser('check')
     p.add_argument('run')
     p.add_argument('--model')

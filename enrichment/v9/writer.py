@@ -154,15 +154,26 @@ def check(a):
     # page verses: the cited set, plus every mapped verse of the page's own surah (user, 2026-10-09: a page may cover
     # same-surah verses it names without citing them; full coverage)
     page_verses = set(man['verses']) | {k.replace('-', ':') for k in Q.mapped() if k.split('-')[0] == surah}
-    maps = {v: Q.load(v) for v in sorted(page_verses)}
-    missing = [v for v, (qs, _) in maps.items() if qs is None]
-    for v in missing:
-        problems.append(f'{v}: verse map is missing')
-    maps = {v: pair for v, pair in maps.items() if pair[0] is not None}
-    for v in set(man['verses']) | {b.get('verse') for b in ledger if b.get('verse') in page_verses}:
-        why = Q.stale(v)
-        if why:
+    loaded = {v: Q.load_current(v) for v in sorted(page_verses)}
+    needed = set(man['verses']) | {b.get('verse') for b in ledger if b.get('verse') in page_verses}
+    not_current = {v: why for v, (_, _, why) in loaded.items() if why}
+    for v, why in sorted(not_current.items()):
+        if v in needed:
             problems.append(f'{v}: map not current ({why})')
+        else:
+            print(f'NOTE {v}: same-surah map not current ({why}); its questions and notes are not available to this check')
+    for v in sorted(page_verses):
+        if v not in not_current and loaded[v][0] is None:
+            if v in needed:
+                problems.append(f'{v}: verse map is missing')
+            else:
+                print(f'NOTE {v}: same-surah verse has no assembled map (its runs are superseded or unassembled)')
+    maps = {v: (qs, rs) for v, (qs, rs, why) in loaded.items() if qs is not None}
+
+    def unknown(x, what):
+        v = str(x).split('/')[0]
+        return f'{what} {x} is in a map that is not current ({v})' if v in not_current else None
+
     qids = {q['id']: (v, q) for v, (qs, _) in maps.items() for q in qs}
     pids = {p['id']: (v, p) for v, (qs, _) in maps.items() for q in qs for p in q['positions']}
     rows = {i: x for v, (_, rs) in maps.items() for i, x in rs.items()}
@@ -184,13 +195,14 @@ def check(a):
             problems.append(f'block {bid}: cites no question and no note')
         for x in b.get('questions') or []:
             if x not in qids:
-                problems.append(f'block {bid}: question {x} is not in a verse map of this page')
+                problems.append(f'block {bid}: ' + (unknown(x, 'question') or f'question {x} is not in a verse map of this page'))
         for x in b.get('positions') or []:
             if x not in pids:
-                problems.append(f'block {bid}: position {x} is not in a verse map of this page')
+                problems.append(f'block {bid}: ' + (unknown(x, 'position') or f'position {x} is not in a verse map of this page'))
         for x in b.get('notes') or []:
             if x not in rows:
-                problems.append(f'block {bid}: note {x} is not a note of this page\'s verses')
+                problems.append(f'block {bid}: note {x} is not a note of this page\'s verses'
+                                + (f" (maps not current: {', '.join(sorted(not_current))})" if not_current else ''))
         if IDS.search(b.get('text', '')):
             problems.append(f"block {bid}: ids in the text ({', '.join(sorted(set(IDS.findall(b['text']))))}); ids go only in the id fields")
         cited = set(b.get('notes') or [])

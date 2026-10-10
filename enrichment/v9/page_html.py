@@ -152,10 +152,14 @@ def question_html(qid):
         against = '; '.join(sorted({legend.get(rows[r]['src'], rows[r]['src']) for r in con if r in rows}))
         tp = (t or {}).get('positions', {}).get(p['id'], {})
         pos_txt, why_txt = (tp.get('position') or p['position']), ((tp.get('reasons') or p.get('reasons')) if t else p.get('reasons'))
+        # a note withdrawn from Tier 1 after mapping stays in the map (q.assembled marks it); the reader is told
+        pulled = len({r for r in p['rows'] + con if r in rows and rows[r].get('tier1')})
         items.append(f'<li>{esc_ar(pos_txt)}'
                      + (f' <span class="why">— {esc_ar(why_txt)}</span>' if why_txt else '')
                      + f'<div class="who">{len(p["rows"])} not: {html.escape(who)}'
-                     + (f' · karşı: {html.escape(against)}' if against else '') + '</div></li>')
+                     + (f' · karşı: {html.escape(against)}' if against else '')
+                     + (f' · {pulled} notun kaydı harita hazırlandıktan sonra değişti veya kaldırıldı' if pulled else '')
+                     + '</div></li>')
     qtext = (t['question'] if t else '') or q['question']
     turn = ((t or {}).get('turns_on') if t else '') or q.get('turns_on')
     orig = ''

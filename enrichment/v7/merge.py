@@ -134,34 +134,45 @@ def tier1_rows(d, tags, ayah, quiet=False, mentions=True):
     its `mentions` name it: a point about another verse that quotes or names this one. Such a row gets via='mentions'
     and about=<its verses> (2026-10-10: a digest serves every verse it names; nothing is digested twice). mentions=False
     leaves those out (v7 tier 2, whose cells are verse words)."""
+    return tier1_rows_by_verse(tags, [ayah], mentions)[ayah]
+
+
+def tier1_rows_by_verse(tags, ayat, mentions=True):
+    """tier1_rows for many verses in one pass over tier 1: verse -> its rows, with the same ids, fields and order as
+    tier1_rows gives for that verse alone. Each verse gets its own row dicts; their list values (verses, mentions,
+    words) are shared with the digest cache, as before: callers read rows and never change them in place."""
     global _TAGS
     if _TAGS is None:
         _TAGS = digest.row_tags()
+    want = set(ayat)
+    out = {ayah: [] for ayah in ayat}
+
+    def file_row(row, vs, mentioned):
+        for ayah in want.intersection(vs):
+            out[ayah].append(dict(row))
+        if mentions:
+            for ayah in want.intersection(mentioned) - set(vs):
+                out[ayah].append({**row, 'via': 'mentions', 'about': list(vs)})
+
     with connect() as con:
         meta = {i: json.loads(m or '{}') for i, m in con.execute('SELECT id, meta FROM src')}
-        seg_src, out = {}, []
+        seg_src = {}
         for tag, x, cut, whole_again in tier1_segments(tags):
             for n, r in enumerate(x['rows'], 1):
                 vs = digest.verse_list(r.get('verses'))
-                if ayah in vs:
-                    extra = {}
-                elif mentions and ayah in digest.verse_list(r.get('mentions')):
-                    extra = {'via': 'mentions', 'about': vs}
-                else:
+                mentioned = digest.verse_list(r.get('mentions')) if mentions else []
+                if not want.intersection(vs) and not want.intersection(mentioned):
                     continue
                 if x['loc'] not in seg_src:
                     seg_src[x['loc']] = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
-                out.append({**full_row(r, n, x, whole_again, tag, seg_src[x['loc']], meta), **extra})
+                file_row(full_row(r, n, x, whole_again, tag, seg_src[x['loc']], meta), vs, mentioned)
         for tag, run, x in supplements(tags):     # recheck notes: ids <loc>/x<N>-<RUN>
             for n, r in enumerate(x['rows'], 1):
                 if not isinstance(r, dict):
                     continue
                 vs = digest.verse_list(r.get('verses'))
-                if ayah in vs:
-                    extra = {}
-                elif mentions and ayah in digest.verse_list(r.get('mentions')):
-                    extra = {'via': 'mentions', 'about': vs}
-                else:
+                mentioned = digest.verse_list(r.get('mentions')) if mentions else []
+                if not want.intersection(vs) and not want.intersection(mentioned):
                     continue
                 if x['loc'] not in seg_src:
                     hit = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()
@@ -174,28 +185,38 @@ def tier1_rows(d, tags, ayah, quiet=False, mentions=True):
                     seg_src[x['loc']] = hit[0]
                 if seg_src[x['loc']] is None:
                     continue
-                out.append({**full_row(r, n, x, False, tag, seg_src[x['loc']], meta, rid=f"{x['loc']}/x{n}-{run}"),
-                            **extra})
+                file_row(full_row(r, n, x, False, tag, seg_src[x['loc']], meta, rid=f"{x['loc']}/x{n}-{run}"),
+                         vs, mentioned)
     return out  # no edition rule: short and FULL editions are both kept (user, 2026-10-09: nothing dropped)
 
 
-def segment_rows(tags, locs):
+def segment_rows(tags, locs, digested=None):
     """loc -> its tier-1 rows (as tier1_rows gives them, whatever verse they are about), for the given locators. A
-    segment digested both as an excerpt and whole gives the rows of both, as in tier1_rows."""
+    segment digested both as an excerpt and whole gives the rows of both, as in tier1_rows. digested: a set that
+    receives the locators with a valid digest; a locator in the result but not in it has recheck notes only."""
     global _TAGS
     if _TAGS is None:
         _TAGS = digest.row_tags()
     want, out = set(locs), {}
+    if digested is None:
+        digested = set()
     with connect() as con:
         meta = {i: json.loads(m or '{}') for i, m in con.execute('SELECT id, meta FROM src')}
         for tag, x, cut, whole_again in tier1_segments(tags):
             if x['loc'] in want:
+                digested.add(x['loc'])
                 src = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
                 out.setdefault(x['loc'], []).extend(full_row(r, n, x, whole_again, tag, src, meta)
                                                     for n, r in enumerate(x['rows'], 1))
         for tag, run, x in supplements(tags):
             if x['loc'] in want:             # a valid supplement remains evidence even if its base is unresolved
-                src = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
+                hit = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()
+                if hit is None:
+                    if x['loc'] not in _MISSING_LOC:
+                        _MISSING_LOC.add(x['loc'])
+                        print(f"WARNING recheck {run}: {x['loc']} is not in the corpus index; its notes are not read")
+                    continue
+                src = hit[0]
                 out.setdefault(x['loc'], []).extend(full_row(r, n, x, False, tag, src, meta, rid=f"{x['loc']}/x{n}-{run}")
                                      for n, r in enumerate(x['rows'], 1) if isinstance(r, dict))
     return out
