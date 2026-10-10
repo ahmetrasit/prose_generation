@@ -27,7 +27,7 @@ No other commands, files, web or repository search.
 
 **Step 3.** Write the whole output file `enrichment/v7/recheck/{RUN}/out/{TAG}/c{NN}.jsonl` in one write with your file-writing tool, after you have read every part.
 
-**Step 4.** Run the check command. If it lists problems, fix only the lines it names and run it again, until it prints `OK`. Do not stop while it still lists problems.
+**Step 4.** Run the check command. If it lists problems, fix only the lines it names and run it again, until it prints `OK`. Do not stop while it still lists problems, except one: if a problem says a segment's source changed since the build or is no longer in the corpus index, stop and report it (that chunk must be rebuilt; you cannot fix it).
 
 **Step 5.** Stop. Reply with the number of segments and the number of new notes.
 

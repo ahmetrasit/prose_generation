@@ -157,7 +157,11 @@ python3 -B enrichment/v7/recheck.py check recheck_20261010 --model luna-max     
 python3 -B enrichment/v7/recheck.py report recheck_20261010
 ```
 
-Before you run it, check that the plan's figures are close to the ones above, then report them to the user.
+Before you run it, check that the plan's figures are close to the ones above, then report them to the user. They were
+measured before the provenance checks were merged in; since then only valid digests count (79,373 of 80,129 digested
+segments), so the counts may come out slightly lower. `plan` and `build` each take about 12–15 minutes, because every
+tier-1 output is validated first. Recheck lines pass the same validation (`source_sha256` per chunk,
+`strict_fields`, `row_tags`), so a supplement from a stale or invalid line is never read.
 
 **What to push:** `manifest.json`, `spawn/`, `out/` and `runs/*/run.json`. The chunks (`recheck/*/chunks/`) are
 git-ignored like tier-1 chunks, because they are not needed here. `recheck.py check` reads the segment text from the

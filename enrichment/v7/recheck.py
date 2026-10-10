@@ -52,14 +52,9 @@ def checked_before():
         for tag in m.get('tags', []):
             for c in m['chunks']:
                 f = man.parent / 'out' / tag / f"c{c['chunk']:02d}.jsonl"
-                if not f.exists() or digest.unfinished(f):
+                if not f.exists():
                     continue
-                done = set()
-                for line in f.read_text().splitlines():
-                    try:
-                        done.add(json.loads(line)['loc'])
-                    except (ValueError, KeyError, TypeError):
-                        pass
+                done = digest.valid_output_locs(f)     # finished, valid, source unchanged
                 out |= {(loc, v) for loc in c['locs'] if loc in done for v in c['check'][loc]}
     return out
 
@@ -123,7 +118,7 @@ def candidates(tier1, only=None, index_only=False):
         for i in range(0, len(locs), 900):
             part = locs[i:i + 900]
             for r in con.execute('SELECT seg.id, seg.seg, seg.src, src.kind, seg.s, seg.a, coalesce(seg.a_end, seg.a), '
-                                 f"seg.head, seg.text FROM seg JOIN src ON src.id=seg.src WHERE seg.seg IN "
+                                 f"seg.head, seg.text, seg.extra FROM seg JOIN src ON src.id=seg.src WHERE seg.seg IN "
                                  f"({','.join('?' * len(part))})", part):
                 meta[r[1]] = r
     missing = [loc for loc in segs if loc not in meta]
@@ -159,7 +154,7 @@ def candidates(tier1, only=None, index_only=False):
     common = {g for g, k in seen.items() if k > QUOTE_MAX_HITS}
     done = checked_before()
     out, pairs, by_marker, skipped_done, lost_common, no_verse = {}, 0, 0, 0, 0, []
-    for loc, (sid, _, src, kind, s, a, ae, head, text) in meta.items():
+    for loc, (sid, _, src, kind, s, a, ae, head, text, seg_extra) in meta.items():
         named = set()
         for r in segs[loc]:
             named.update(digest.verse_list(r.get('verses')))
@@ -197,7 +192,7 @@ def candidates(tier1, only=None, index_only=False):
         by_marker += len(marked & set(vs))
         if vs:
             out[loc] = {'verses': vs, 'marked': sorted(marked & set(vs)), 'src': src, 'kind': kind, 'head': head or '',
-                        'text': text,
+                        'text': text, 'sha': digest.source_fingerprint(head, text, json.loads(seg_extra or '{}')),
                         'index': f'{s}:{a}' + (f'-{ae}' if ae != a else '') if s is not None and a is not None else ''}
             pairs += len(vs)
     if no_verse:
@@ -284,6 +279,7 @@ def cmd_build(a):
         srcs = list(dict.fromkeys(cand[loc]['src'] for loc in locs))
         plan.append({'chunk': n, 'sources': srcs, 'source_lines': [source_line(s, smeta[s][1], smeta[s][0]) for s in srcs],
                      'locs': locs, 'check': {loc: cand[loc]['verses'] for loc in locs},
+                     'source_sha256': {loc: cand[loc]['sha'] for loc in locs},
                      'verses': sorted({v for loc in locs for v in cand[loc]['verses']},
                                       key=lambda v: tuple(map(int, v.split(':')))),
                      'chars': len(text), 'parts': len(parts)})
@@ -306,23 +302,28 @@ def cmd_build(a):
             f.write_text(text)
             spawns.append(str(f.relative_to(ROOT)))
         (d / 'out' / tag).mkdir(parents=True)
-    dump(d / 'manifest.json', {'run': a.run, 'tier1': a.tier1, 'models': a.models, 'tags': tags,
+    dump(d / 'manifest.json', {'run': a.run, 'kind': 'recheck', 'row_tags': True, 'strict_fields': True,
+                               'tier1': a.tier1, 'models': a.models, 'tags': tags,
                                'chunk_chars': a.chunk_chars, 'counts': counts, 'chunks': plan, 'spawn': spawns})
     print(f"{len(plan)} chunks, {sum(c['chars'] for c in plan):,} characters, {len(spawns)} spawn files; "
           f"written {d.relative_to(ROOT)}")
 
 
 def check_chunk(d, tag, c):
+    """Problems in one output file: the tier-1 rules (digest.line_problems, strict, with word tags), the segment's source
+    unchanged since the build (digest.source_fingerprint), one line per segment, and every note about a CHECK verse."""
     f = d / 'out' / tag / f"c{c['chunk']:02d}.jsonl"
     if not f.exists():
         return [f'{f.name}: no output file'], 0
     with connect() as con:
-        hit = {loc: con.execute('SELECT text FROM seg WHERE seg=?', (loc,)).fetchone() for loc in c['locs']}
-    gone = [loc for loc, h in hit.items() if h is None]
-    if gone:
-        return [f'{loc}: no longer in the corpus index (rebuilt after this run was built?)' for loc in gone], 0
-    text = {loc: h[0] or '' for loc, h in hit.items()}
+        source = {loc: (row[0] or '', row[1] or '', json.loads(row[2] or '{}')) for loc in c['locs']
+                  if (row := con.execute('SELECT head, text, extra FROM seg WHERE seg=?', (loc,)).fetchone())}
     problems, seen, n_rows = [], [], 0
+    for loc in c['locs']:
+        if loc not in source:
+            problems.append(f'{loc}: no longer in the corpus index (rebuilt after this run was built?)')
+        elif digest.source_fingerprint(*source[loc]) != c['source_sha256'].get(loc):
+            problems.append(f'{loc}: source text changed since the build; rebuild this chunk')
     for i, line in enumerate(f.read_text().splitlines(), 1):
         if not line.strip():
             continue
@@ -332,39 +333,20 @@ def check_chunk(d, tag, c):
             problems.append(f'line {i}: not JSON ({e})')
             continue
         loc = x.get('loc') if isinstance(x, dict) else None
-        if not isinstance(loc, str) or loc not in text:
+        if not isinstance(loc, str) or loc not in c['check']:
             problems.append(f'line {i}: locator {loc!r} is not in this chunk')
             continue
         seen.append(loc)
-        rs = x.get('rows')
-        if not isinstance(rs, list):
-            problems.append(f'{loc}: "rows" must be a list')
+        if loc not in source:
             continue
-        if not rs and not (x.get('none') or '').strip():
-            problems.append(f'{loc}: no rows and no "none" reason')
+        problems += [f'{loc} {p}' for p in digest.line_problems(loc, x, source[loc][1], True, True)]
         check = set(c['check'][loc])          # S:A strings
-        for j, r in enumerate(rs, 1):
-            n_rows += 1
-            if not isinstance(r, dict):
-                problems.append(f'{loc} row {j}: not an object')
-                continue
-            missing = [k for k in ('verses', 'words', 'type', 'speaker', 'stance', 'claim', 'anchor') if not r.get(k)]
-            if missing:
-                problems.append(f'{loc} row {j}: missing {", ".join(missing)}')
-            rej = []
-            vs = digest.verse_list(r.get('verses'), rej)
-            digest.verse_list(r.get('mentions') or [], rej)
-            if rej:
-                problems.append(f'{loc} row {j}: not verses (write S:A): {", ".join(map(str, rej))[:120]}')
-            if not check & set(vs):
-                problems.append(f'{loc} row {j}: "verses" must include one of the verses to check here: '
-                                f'{", ".join(sorted(check))}')
-            if r.get('stance') and r['stance'] not in ('holds', 'prefers', 'reports', 'rejects'):
-                problems.append(f'{loc} row {j}: stance must be holds, prefers, reports or rejects')
-            if r.get('anchor') and not contains(text[loc], r['anchor']):
-                problems.append(f'{loc} row {j}: anchor not found verbatim in the segment: {r["anchor"][:80]}')
-            if r.get('words') and r.get('type'):
-                problems += [f'{loc} row {j}: {p}' for p in tag_problems({**r, 'verses': vs})]
+        for j, r in enumerate(x.get('rows') if isinstance(x.get('rows'), list) else [], 1):
+            if isinstance(r, dict):
+                n_rows += 1
+                if not check & set(digest.verse_list(r.get('verses'))):
+                    problems.append(f'{loc} row {j}: "verses" must include one of the verses to check here: '
+                                    f'{", ".join(sorted(check))}')
     for loc in c['locs']:
         if loc not in seen:
             problems.append(f'{loc}: segment has no line')

@@ -92,7 +92,9 @@ def tier1_segments(tags):
 
 def supplements(tags):
     """(tag, run, segment line) for every finished recheck output (enrichment/v7/recheck/RUN/out/TAG/cNN.jsonl):
-    notes a recheck run added to an already digested segment, for verses its notes did not name (recheck.py)."""
+    notes a recheck run added to an already digested segment, for verses its notes did not name (recheck.py). Lines
+    pass the same validation as digests (_segments: digest.valid_output_locs against the run's manifest, whose chunks
+    carry source_sha256), so a stale or invalid line supplies no notes."""
     tags = [tags] if isinstance(tags, str) else list(tags)
     seen = set()                     # (loc, run): counted once, first tag wins, as tier1_segments does for digests
     for tag in tags:
