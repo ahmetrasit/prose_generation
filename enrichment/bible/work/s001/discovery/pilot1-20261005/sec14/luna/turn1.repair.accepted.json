@@ -1,0 +1,57 @@
+{
+  "policy": "bible-first-turn-repair-v1",
+  "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+  "tool_audit_reviewed": true,
+  "accepted_at": "2026-10-05T15:52:00.740904+00:00",
+  "changes": [
+    {
+      "line": 57,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Joel.2.31",
+        "The dreadful day of YHWH",
+        "The sun and moon darken before the great day of YHWH, a concrete “day of God” judgment image for the commentary's days of punishment."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Joel.3.4",
+        "The dreadful day of YHWH",
+        "The sun and moon darken before the great day of YHWH, a concrete “day of God” judgment image for the commentary's days of punishment."
+      ],
+      "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+    },
+    {
+      "line": 58,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Joel.2.32",
+        "Rescue for those who call on YHWH",
+        "The same oracle promises deliverance to those who call on YHWH, giving the day both judgment and rescue as in the commentary's paired punishment and forgiveness."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Joel.3.5",
+        "Rescue for those who call on YHWH",
+        "The same oracle promises deliverance to those who call on YHWH, giving the day both judgment and rescue as in the commentary's paired punishment and forgiveness."
+      ],
+      "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+    }
+  ],
+  "model_calls": 0,
+  "artifacts": {
+    "turn1.original.tsv": "4b7a4eb098b04bf6919331584ba1c99dbbfaf472d86d3d13c569307f9c47bfe3",
+    "turn1.validation.failed.json": "1623a5791371047812034e5f54db38f09f344bc6bbce0a7ec8288e14756dfbe2",
+    "turn1.tool_calls.json": "458ba6876e8c272464384f822372f137eb98db9375c2a9503539cbe7174d938d",
+    "turn1.repair.proposed.json": "c0baf4b19f1e0d86bdf93750bc8d8fb0d15e8dab6a6e79d311476f0755ab2c51",
+    "turn1.repair.proposed.tsv": "1d2f4451acac2f11a4d39debbecc7746e79aa0f915b4834b365a0261177664aa",
+    "turn1.accepted.tsv": "1d2f4451acac2f11a4d39debbecc7746e79aa0f915b4834b365a0261177664aa"
+  }
+}

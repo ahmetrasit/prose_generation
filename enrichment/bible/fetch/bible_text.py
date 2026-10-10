@@ -15,6 +15,7 @@ fetched twice (ref_common.Source). Nothing here reaches the Islamic pass.
 """
 from __future__ import annotations
 
+import html
 import io
 import re
 import sys
@@ -206,8 +207,10 @@ def turntb() -> None:
                        "with permission; quotations under 100 verses with the source named need no written permission; local "
                        "research copy",
             "notes": "FOR THE BIBLE PASS ONLY, as the Turkish reading text beside WLC/SBLGNT and KJV. seg TURNTB:<OSIS book>."
-                     "<chapter>.<verse> with English (KJV-style) numbering; Psalm headings are titles (verse 0), not part of "
-                     "verse 1. Text without notes and headings (pysword clean).",
+                     "<chapter>.<verse> with English (KJV) numbering. Psalm headings are put before verse 1 (as in KJV; "
+                     "also in `title`). Verses the translation joins carry the joined text and `bridge` (e.g. Gen.1.14-15). "
+                     "Footnotes, cross-references and section headings removed; anything after a chapter's end (the "
+                     "appendix after Rev 22:21) removed.",
             "coverage": "66 books", "urls": ["https://www.crosswire.org/ftpmirror/pub/sword/packages/rawzip/TurNTB.zip"]}
     try:
         from pysword.modules import SwordModules
@@ -218,6 +221,7 @@ def turntb() -> None:
     st, body = src.fetch(META["urls"][0], "turntb/TurNTB.zip")
     if st != 200 or not body:
         raise SystemExit('FETCH FAILED: TurNTB zip; previous segments left intact')
+    raw = {}
     with tempfile.TemporaryDirectory() as tmp:
         zipfile.ZipFile(io.BytesIO(body)).extractall(tmp)
         mods = SwordModules(tmp)
@@ -225,20 +229,72 @@ def turntb() -> None:
         bible = mods.get_bible_from_module("TurNTB")
         for testament in bible.get_structure().get_books().values():
             for bk in testament:
-                b = bk.osis_name
                 for c, n in enumerate(bk.chapter_lengths, 1):
                     for vs in range(1, n + 1):
-                        text = re.sub(r"\s+", " ", bible.get(books=[bk.name], chapters=[c], verses=[vs], clean=True)).strip()
-                        if not text:
-                            empty.append(f"{b}.{c}.{vs}")
-                            continue
-                        segs.append({"seg": f"TURNTB:{b}.{c}.{vs}", "s": None, "a": None, "a_end": None, "page": None,
-                                     "head": f"{NAMES.get(b, b)} {c}:{vs}", "text": text, "book": b, "chapter": c, "verse": vs})
+                        raw[(bk.osis_name, c, vs)] = bible.get(books=[bk.name], chapters=[c], verses=[vs], clean=False)
+    title_re = re.compile(r'<title canonical="true" type="psalm">(.*?)</title>', re.S)
+
+    def clean(x: str) -> str:
+        x = re.sub(r"<note\b.*?</note>", "", x, flags=re.S)
+        x = re.sub(r"<title\b.*?</title>", "", x, flags=re.S)
+        x = re.sub(r"<[^>]+>", "", x)
+        return re.sub(r"\s+", " ", html.unescape(x)).strip()
+
+    text, titles, cut = {}, {}, []
+    for (b, c, vs), x in raw.items():
+        end = x.find("<chapter eID=")              # what follows a chapter's end is not verse text (Rev 22:21 has the
+        if end >= 0 and clean(x[end:]):            # weights and measures tables and the glossary after it)
+            cut.append(f"{b}.{c}.{vs}")
+            x = x[:end]
+        heads = [clean(t) for t in title_re.findall(x)]
+        if heads:
+            titles[(b, c, vs)] = " ".join(heads)
+        text[(b, c, vs)] = clean(x)
+    # verses the translation joins: the module returns the joined text for each number of the range
+    bridge, keys = {}, list(text)
+    for i, key in enumerate(keys):
+        j = i
+        while j + 1 < len(keys) and keys[j + 1][:2] == key[:2] and text[keys[j + 1]] and text[keys[j + 1]] == text[key]:
+            j += 1
+        if j > i and key not in bridge:
+            span = f"{key[0]}.{key[1]}.{key[2]}-{keys[j][2]}"
+            for m in keys[i:j + 1]:
+                bridge[m] = span
+    # English (KJV) alignment where the translation's numbering differs (checked against KJV, 2026-10-09)
+    align = []
+    if not text.get(("2Kgs", 11, 21)) and text.get(("2Kgs", 12, 1)):      # KJV 11:21 is inside the Turkish 12:1
+        text[("2Kgs", 11, 21)] = text[("2Kgs", 12, 1)]
+        bridge[("2Kgs", 11, 21)] = bridge[("2Kgs", 12, 1)] = "2Kgs.11.21-12.1"
+        align.append("2Kgs.11.21: the Turkish joins it to 12:1; both carry the 12:1 text, bridge 2Kgs.11.21-12.1")
+    if text.get(("Rev", 12, 18)):                                          # KJV 13:1 = Turkish 12:18 + 13:1
+        text[("Rev", 13, 1)] = text.pop(("Rev", 12, 18)) + " " + text[("Rev", 13, 1)]
+        bridge[("Rev", 13, 1)] = "Rev.12.18-13.1"
+        align.append("Rev.13.1: the Turkish 12:18 (first half of KJV 13:1) joined to 13:1; no Rev.12.18 segment")
+    if ("3John", 1, 15) in text and not text[("3John", 1, 15)]:
+        text.pop(("3John", 1, 15))
+        align.append("3John.1.15: no such verse in KJV numbering; its words are in the Turkish 1:14")
+    for (b, c, vs), t in text.items():
+        if not t:
+            empty.append(f"{b}.{c}.{vs}")
+            continue
+        if (b, c, vs) in titles and vs == 1:                                # KJV verse 1 carries the psalm heading
+            t = titles[(b, c, vs)] + " " + t
+        seg = {"seg": f"TURNTB:{b}.{c}.{vs}", "s": None, "a": None, "a_end": None, "page": None,
+               "head": f"{NAMES.get(b, b)} {c}:{vs}", "text": t, "book": b, "chapter": c, "verse": vs}
+        if (b, c, vs) in bridge:
+            seg["bridge"] = bridge[(b, c, vs)]
+        if (b, c, vs) in titles:
+            seg["title"] = titles[(b, c, vs)]
+        segs.append(seg)
+    META["versification"] = align
+    META["bridges"] = len(set(bridge.values()))
+    META["cut_after_chapter_end"] = cut
     META["missing"] = empty
-    src.upsert_segments(segs)
+    src.upsert_segments(segs, drop_prefix="TURNTB:")   # the whole edition: segments no longer produced go
     src.update_source(META, urls=META["urls"])
-    print(f"TURNTB: {len(segs)} verses" + (f"; NOTE: {len(empty)} empty verse(s) in the module, recorded as missing in "
-                                          f"source.json: {', '.join(empty[:20])}" if empty else ""))
+    print(f"TURNTB: {len(segs)} verses, {META['bridges']} joined ranges, {sum(1 for x in segs if 'title' in x)} psalm "
+          f"headings; NOTE: text after a chapter end removed at {cut}; versification: {align}"
+          + (f"; NOTE: {len(empty)} empty verse(s) recorded as missing: {', '.join(empty[:20])}" if empty else ""))
 
 
 def main() -> None:

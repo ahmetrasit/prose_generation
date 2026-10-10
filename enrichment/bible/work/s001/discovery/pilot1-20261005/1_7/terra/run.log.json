@@ -1,0 +1,1418 @@
+{
+  "target": "1:7",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/1_7.md",
+  "base_sha256": "d4f04df05637b4bd92389c61f5469485debb18bb8641e0a93582a8fb5d467bd6",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:13:13.968113-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_1_7_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "b008f2f0ce014f892cf8bc46c91eb0c961bbe4902dd939e2f96f78a03b5adb08",
+  "package_sha256": "cea1cb05c5d9c8d877ca2634f066805032df8120071dd12ed28016797fbe7282",
+  "input_sha256": "1db669b0dd2fabfa18ba01378c61c55249a8b17f37a44537027b65db788aefac",
+  "spawn_sha256": "fa1fae94f0317e74ba010b16bfaa776b446f6cc6d7f1a92171d9e26432fadd31",
+  "followup_text_sha256": "5d5ce248df2564a66f87bba9c99110e2d2e0cc6005cefc07ceb9ad47279b350f",
+  "agent_id": "01a10ca4-795c-7603-8fbd-f661651db83f",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-17-48-01a10ca4-795c-7603-8fbd-f661651db83f.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 79,
+  "turn1_sha256": "de593173e1b40c3715015284825d35cf792bab684a3093769f69a8a4b9813556",
+  "turn2": {
+    "completed": true,
+    "rows_total": 102,
+    "rows_added": 23
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 79,
+    "raw_proposal_rows": 23,
+    "unique_additions": 23,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.107.4",
+          "basis": "lost road with no city",
+          "note": "The commentary contrasts aimless disappearance with a road that reaches a known end; Ps 107 first portrays desert wanderers unable to find a road to an inhabited city, a concrete scene of the former condition."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.107.7",
+          "basis": "straight road to a destination",
+          "note": "After the city-less wandering of Ps 107, God leads the travelers by a straight way to a settled city; this gives the commentary's purposeful, destination-bearing sirat a close journey scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.23.3",
+          "basis": "shepherd leading paths of righteousness",
+          "note": "The commentary's road is recognized through a guide and a flock rather than as a bare line; Ps 23 has the divine shepherd restore the traveler and lead him in right paths."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.119.176",
+          "basis": "lost sheep sought by its master",
+          "note": "The final word dalin is heard beside an animal separated from its owner; the psalmist calls himself a lost sheep and asks God to seek him, joining straying to a continuing master-servant relation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.50.6",
+          "basis": "lost sheep misled by shepherds",
+          "note": "Jeremiah calls Israel lost sheep whose shepherds made them wander from mountain to hill and forget their resting place; it directly joins the commentary's bad leader, lost flock, and missed destination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ezek.34.6",
+          "basis": "scattered flock with no seeker",
+          "note": "The ownerless camel image is answered by Ezekiel's sheep scattered over mountains and hills while no one searches for them; the verse makes abandonment by responsible guides part of the straying scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ezek.34.16",
+          "basis": "seeking and restoring the strayed",
+          "note": "Where the commentary leaves open that the stray can cease being lost, God promises to seek the lost sheep and bring back the one driven away; the owner actively reverses dispersion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Num.27.17",
+          "basis": "leader before a flock",
+          "note": "Moses asks for a leader who goes out before and comes in before the community so that Israel will not be sheep without a shepherd; this closely matches the commentary's forward guide and people identified by the road they follow."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.13.21",
+          "basis": "visible guidance on the way",
+          "note": "The commentary treats sirat as an ordinary journey with signs rather than a postmortem bridge; the pillar of cloud and fire goes before Israel to lead its actual day-and-night route."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.23.20",
+          "basis": "guardian on the road to a prepared place",
+          "note": "God's messenger guards Israel on the way and brings it to a prepared destination, furnishing a precise counterpart to the commentary's guided road whose goodness comes from where it leads."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.8.2",
+          "basis": "wilderness guidance tests the heart",
+          "note": "The commentary resists treating favor as an inherited status; Deuteronomy recalls that God led Israel through the wilderness in order to humble and test what was in its heart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.8.16",
+          "basis": "manna as benefit and testing",
+          "note": "The text's provision of manna is said to humble, test, and finally do Israel good; it supplies a close scriptural instance of a bestowed benefit that neither ends moral testing nor guarantees a fixed condition."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.30.16",
+          "basis": "walking as the condition of blessing",
+          "note": "The commentary makes the way belong to those who actually walk it; Deuteronomy couples loving God, walking in his ways, and keeping commands with life, increase, and divine blessing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.18.19",
+          "basis": "Abraham's household keeps the Lord's way",
+          "note": "The commentary distinguishes descent from walking as earlier recipients walked; Abraham's descendants receive the promised outcome through being instructed to keep the Lord's way by righteousness and justice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Judg.2.10",
+          "basis": "a later generation does not know the deeds",
+          "note": "The commentary's procession of guided prophets is followed by descendants who can abandon their way; Judges explicitly introduces a subsequent generation that did not know the Lord or the work done for Israel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ezek.18.20",
+          "basis": "responsibility is not inherited",
+          "note": "The commentary says the road is not inherited merely through descent. Ezekiel states that child and parent do not bear one another's guilt, making moral standing personal rather than genealogical."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.6.16",
+          "basis": "ancient paths requested and refused",
+          "note": "Jeremiah tells the people to ask for the ancient paths, find the good way, and walk in it, but records their refusal; it closely matches the commentary's prior walkers as a real but uncoercive guide."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Prov.13.20",
+          "basis": "companions determine a walker's outcome",
+          "note": "The commentary makes good and bad fellow-travelers decisive. Proverbs says one who walks with the wise becomes wise, while a companion of fools suffers harm."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.119.105",
+          "basis": "lamp for feet and light for a path",
+          "note": "The commentary develops road signs and walking feet; the psalm gives God's word the specific job of a lamp for the foot and a light for the path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.30.21",
+          "basis": "a voice identifies the road at each turn",
+          "note": "The commentary's straight road is a route that must be recognized while walking. Isaiah pictures a word heard behind the traveler saying, \"This is the way; walk in it,\" when turning right or left."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.31.9",
+          "basis": "water and a level road for the returning community",
+          "note": "The commentary joins guided travel, water, and a destination. Jeremiah's restoration oracle leads the weeping returnees by streams of water on an even path where they will not stumble."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.49.10",
+          "basis": "compassion guiding a flock to springs",
+          "note": "The page's shade, water, and flock imagery converges in Isaiah: the compassionate one leads the returned people and guides them by springs of water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.95.10",
+          "basis": "people who err and do not know God's ways",
+          "note": "The commentary separates active straying from an externally received condition. Ps 95 describes a people who go astray in their heart and do not know God's ways, locating the deviation in their own stance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.95.11",
+          "basis": "wrath and failure to enter rest",
+          "note": "The commentary makes wrath and being lost related yet distinct dangers with different ends. Ps 95 has divine wrath bar this erring people from God's rest, making the destination of the negative path explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.32.8",
+          "basis": "turning aside from the commanded way for the calf",
+          "note": "The commentary itself uses the calf episode to show a favored community turning aside. Exodus describes the same community as quickly turning from the commanded way in making the calf."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.32.10",
+          "basis": "wrath after the calf",
+          "note": "The passive maghdub formula is illuminated by the narrative in which divine anger burns against the calf-making people; the source makes the wrath's historical trigger explicit without collapsing it into mere ethnic identity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.32.14",
+          "basis": "intercession and relenting from announced disaster",
+          "note": "The commentary calls wrath an threshold rather than a sealed door. In the calf narrative God relents from the disaster announced against the people after Moses's intercession."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.18.8",
+          "basis": "a people turns and the announced judgment changes",
+          "note": "The commentary connects the gayr/change language to a condition that can move from favor to wrath and back. Jeremiah explicitly says that if the warned nation turns from evil, God relents from the disaster planned for it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ezek.18.21",
+          "basis": "the wicked person turns and lives",
+          "note": "The page's repentance sequence after anger is not merely communal: Ezekiel says that a wicked person who turns from sins and keeps the statutes will live, giving the stray a concrete route of return."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ezek.36.26",
+          "basis": "stone heart replaced by flesh heart",
+          "note": "The commentary contrasts the hard, shield-like texture beside wrath with softening beside favor. Ezekiel's replacement of a heart of stone by a heart of flesh makes that material contrast an explicit transformation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ezek.36.27",
+          "basis": "inner renewal causes walking in statutes",
+          "note": "The commentary links softened interior life to a traversed way. Ezekiel follows the new heart with God's Spirit causing the people to walk in God's statutes, tying transformation directly to a manner of walking."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.22.1",
+          "basis": "returning a brother's strayed animal",
+          "note": "The commentary's dalin carries a stray camel separated from its owner. Deuteronomy legislates the opposite response: do not ignore a brother's ox or sheep that has gone astray, but return it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.22.2",
+          "basis": "caring for an animal when its owner is unknown",
+          "note": "The definition of the lost camel stresses that its owner is not known. Deuteronomy imagines precisely that case and requires keeping the animal until its owner seeks it, so apparent ownerlessness is not final abandonment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Mal.2.8",
+          "basis": "religious guides cause many to stumble",
+          "note": "The commentary warns that the track one follows may belong to a misguiding companion. Malachi accuses priests of departing from the way and causing many to stumble by their instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.53.6",
+          "basis": "sheep each turning to its own way",
+          "note": "The text hears dalin as both loss of a route and a dispersed flock. Isaiah describes all as sheep gone astray, each turning to its own way, giving the self-directed aspect of straying a flock image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ezek.37.12",
+          "basis": "graves opened and bodies brought up",
+          "note": "The commentary pairs a body disappearing into earth with the claim that disappearance need not be annihilation. Ezekiel's vision has God open graves and bring the buried people up from them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.12.2",
+          "basis": "dust sleepers awakened to divergent ends",
+          "note": "The page distinguishes vanishing into earth from a journey with an end. Daniel says that sleepers in the dust awake, with opposed eschatological outcomes, providing a Hebrew Bible answer to the question of the body lost in soil."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.63.10",
+          "basis": "rebellion changes benefactor into enemy",
+          "note": "The commentary follows a community from blessing to wrath when its inner condition changes. Isaiah recalls that the people rebelled and grieved God's spirit, so that their former helper turned to be their enemy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Deut.9.4",
+          "basis": "election is not proof of the recipient's righteousness",
+          "note": "The commentary refuses to make the recipients of favor a permanently righteous lineage. Deuteronomy warns Israel not to explain its gift of land by saying it receives it because of its own righteousness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Phil.3.17",
+          "basis": "walkers who embody an example",
+          "note": "The commentary defines the requested route through people already on it. Paul tells readers to imitate him and to observe those who walk according to the example they have received, an unusually close formulation of a path recognized by walkers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Pet.2.21",
+          "basis": "following another's footsteps",
+          "note": "The trace left by earlier guided people is central to the commentary. First Peter says that Christ left an example so that believers should follow in his footsteps, making the image literal and ethical."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rom.4.12",
+          "basis": "Abrahamic descent defined by walking in faith",
+          "note": "The commentary says Abrahamic relation comes through walking as the earlier recipient walked. Paul calls Abraham father of those who do not merely possess a mark of descent but walk in the footsteps of his faith."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.9.2",
+          "basis": "the community called the Way",
+          "note": "The commentary calls a road by the people who traverse it. Acts uses \"the Way\" as the name for a body of men and women, making route and communal identity inseparable in its own context."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.10.4",
+          "basis": "shepherd goes before and sheep follow his voice",
+          "note": "The page's herd scene requires an owner, a forward guide, and animals that do not remain ownerless. Jesus's shepherd goes ahead of his sheep, who follow because they know his voice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Pet.2.25",
+          "basis": "straying sheep return to shepherd and guardian",
+          "note": "The commentary closes the flock image with a creature separated from its rab/owner. First Peter says its readers were straying like sheep but have returned to the Shepherd and Overseer of their souls."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.15.4",
+          "basis": "owner searches until the lost sheep is found",
+          "note": "The commentary's stray animal can be unrecognizable in the wilderness. Jesus's parable supplies a counter-movement: the owner leaves the ninety-nine and goes after the lost sheep until he finds it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "Lamb shepherds and guides to springs of life",
+          "note": "The commentary joins flock, guidance, and water found on the journey. Revelation makes the Lamb shepherd the worshipers and guide them to springs of the water of life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.10.5",
+          "basis": "privileged wilderness generation still displeases God",
+          "note": "The commentary insists that bestowed favor does not become an inherited guarantee. Paul recalls the exodus generation's shared sacred passage and provision, then says that with most of them God was not pleased and they fell in the wilderness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Cor.10.12",
+          "basis": "present hearers must watch against falling",
+          "note": "Paul turns Israel's wilderness failure into a warning for the church: one who thinks he stands must watch lest he fall. This Christian reading sharpens the commentary's claim that later members cannot rely on former recipients' path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.3.10",
+          "basis": "hearts that wander and do not know God's ways",
+          "note": "Hebrews cites the Ps 95 generation as people who always go astray in heart and do not know God's ways; it carries the commentary's heart-level dalal into an address to present believers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.3.13",
+          "basis": "mutual exhortation against a hardened heart",
+          "note": "The commentary puts companionship beside both guidance and hardening. Hebrews commands daily mutual encouragement so that no member is hardened by sin's deceit, making the community a remedy rather than a source of straying."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rom.2.4",
+          "basis": "kindness intended to lead to repentance",
+          "note": "The commentary distinguishes a gift from a permanent certificate of favor. Paul says God's kindness, forbearance, and patience are meant to lead the recipient to repentance, giving the benefit a directional purpose."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rom.2.5",
+          "basis": "hard heart stores up wrath",
+          "note": "The page sets divine favor's soft texture against anger's hardening. Paul pairs an unrepentant hardened heart with the accumulation of wrath, closely joining the commentary's inner texture and its wrath scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rom.11.22",
+          "basis": "kindness and severity are conditional",
+          "note": "The commentary's same alayhim can move from favor to wrath as a community changes. Paul tells his readers to consider God's kindness and severity, with kindness continuing only if they remain in it and otherwise being cut off."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Jas.5.19",
+          "basis": "one member turns back a wanderer",
+          "note": "The commentary's lost traveler is called by companions toward guidance. James addresses a member who wanders from the truth and another person who turns that wanderer back, giving the image a communal act of restoration."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.15.42",
+          "basis": "body sown in corruption and raised transformed",
+          "note": "The commentary's milk-in-water and body-in-earth images distinguish loss of visible form from annihilation. Paul uses sowing and rising to describe a body that is transformed rather than simply lost in burial."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Cor.10.4",
+          "basis": "wilderness water reread as accompanying rock",
+          "note": "The page's water found along a guided route recalls wilderness provision. Paul rereads Israel's drink from the rock as spiritual drink from a rock that accompanied them, extending the journey-and-water scene into Christian interpretation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.14.6",
+          "basis": "a person named the way to the Father",
+          "note": "The commentary says the requested road is clarified by its prior walkers. John goes further in a distinct Christological direction, placing the way in Jesus's own person as the route to the Father; the contrast helps specify what it means to name a path through a person."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.3.9",
+          "basis": "Abrahamic ancestry does not secure standing",
+          "note": "The commentary denies that a favorable path is automatically inherited. John the Baptist warns his hearers not to claim Abraham as father as a guarantee, making the same anti-genealogical pressure explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.3.17",
+          "basis": "Hebrew noam and paths of peace",
+          "note": "Hebrew נֹעַם (noam, N-ʿ-M, a cognate of the source commentary's Arabic n-ʿ-m label) describes Wisdom's ways as ways of pleasantness and her paths as peace. It gives the commentary's secondary softness and goodness of ni'met a specific Hebrew path-setting without equating the two lexemes' full ranges."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.90.17",
+          "basis": "divine noam resting upon a people",
+          "note": "The same Hebrew N-ʿ-M cognate appears when the psalm asks that God's noam, favor or pleasantness, be upon the community. Its \"upon us\" formulation provides a focused lexical and syntactic bridge to en'amte alayhim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "WLC:Hos.11.9",
+          "basis": "divine anger qualified as unlike human anger",
+          "note": "The commentary explicitly refuses to carry bodily boiling into its account of divine wrath. Hosea declares that God will not execute burning anger because God is not a human, offering a nearby Hebrew Bible qualification of wrath-language."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.12.1",
+          "basis": "witnesses surround a race to be run",
+          "note": "The commentary sees an earlier company leaving a trace for later travelers. Hebrews imagines a cloud of witnesses surrounding present runners, joining predecessors, endurance, and an appointed course without making ancestry itself salvific."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:2Cor.3.3",
+          "basis": "writing on hearts of flesh",
+          "note": "The commentary's hard and soft surfaces become an inner moral contrast. Paul describes Christ's letter as written by the Spirit on tablets of human hearts rather than stone tablets, an interpretive bridge to Ezekiel-like softening."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Jas.1.17",
+          "basis": "good giving comes from the Father",
+          "note": "The active second-person en'amte foregrounds a giver of every benefit. James identifies every good giving and perfect gift as coming down from the Father, a close grammatical-theological counterpart to favor as gift rather than possession."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Jas.1.14",
+          "basis": "one's own desire lures the person away",
+          "note": "The commentary's dalin is an active condition rather than simply an anger imposed from above. James locates temptation in each person's being drawn out and lured by that person's own desire, a concrete account of self-involving deviation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "a constricted way leading to life",
+          "note": "The commentary expressly says that sirat here is not a razor-thin ordeal bridge but an ordinary traveled road. Matthew uses a deliberately constricted gate and hard way leading to life, so its different road image is a useful counter-narrative rather than an equation of the two terms."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "4 Ezra 7:6-9",
+          "basis": "narrow access path between fire and water",
+          "note": "The commentary rejects a narrow bridge reading of sirat. 4 Ezra's vision of a city reached only through a perilously narrow path between fire and deep water supplies a Jewish apocalyptic road image whose contrast clarifies that rejection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Sirach 15:17",
+          "basis": "life and death set before human choice",
+          "note": "The commentary's two negative possibilities and active straying belong to a moral choice rather than a hereditary identity. Sirach sets life and death before a person and says the chosen option will be given, a concise Jewish two-way formulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Tobit 5:16",
+          "basis": "departure with a knowledgeable companion and divine accompaniment",
+          "note": "The commentary's path needs both a human guide and God's guidance. In Tobit's journey narrative, Tobias departs with the apparently human guide Azariah after his father entrusts the journey to God and the accompanying angel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "2 Maccabees 7:14",
+          "basis": "hope of bodily resurrection from God",
+          "note": "The commentary hears dalal as burial and loss into earth but then asks about renewed creation. The fourth martyr expects God to raise the body again, making non-annihilation after death an explicit Jewish answer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Wisdom of Solomon 11:23",
+          "basis": "mercy overlooks sins for repentance",
+          "note": "The commentary makes anger an opening to forgiveness rather than an irrevocable end. Wisdom says God overlooks human sins so that people may repent, giving that transition a Hellenistic Jewish formulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 1:6",
+          "basis": "acquire a teacher and a friend",
+          "note": "The commentary's right road is known through those who have traveled it, and companionship can guide or mislead. Avot's instruction to make for oneself a teacher and acquire a friend gives a compact rabbinic discipline for forming such company."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 2:4",
+          "basis": "do not separate from the community or trust oneself permanently",
+          "note": "The commentary denies that one is safely placed by family descent or a past state. Avot warns against separating from the community and against trusting oneself until death, an ethical reading of the path as ongoing rather than inherited security."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Sotah 14a",
+          "basis": "walking after God by imitating divine deeds",
+          "note": "The commentary describes following guided predecessors as entering the road itself. Sotah interprets walking after God as imitating God's merciful and caring acts, turning the way into practices learned from the divine exemplar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Yoma 86b",
+          "basis": "repentance changes the moral force of past sin",
+          "note": "The commentary's wrath scene is followed by forgiveness and renewed guidance. Yoma's discussion of teshuvah treats return as able to alter how intentional sins are reckoned, a rabbinic intensification of that open path back."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "1QS 3:17-21",
+          "basis": "two spirits and the ways of light and darkness",
+          "note": "The commentary carefully keeps distinct adverse paths rather than assigning every failure to one group. The Rule of the Community says humanity walks under spirits of truth and perversity and speaks of ways of light and darkness, a Second Temple two-path framework."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 1.1",
+          "basis": "the way of life and the way of death",
+          "note": "The commentary contrasts a guided road with divergent forms of loss. The Didache opens its instruction with two ways, one of life and one of death, a concise early Christian reception of route language as communal ethics."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, City of God 14.28",
+          "basis": "two communities formed by two loves",
+          "note": "The commentary treats the three groups as conditions of walking and receiving rather than permanent ethnic boxes. Augustine's two cities arise from opposed loves, an interpretive tradition that likewise grounds divergent communal destinies in an orientation of desire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.95.7",
+          "basis": "people of God's pasture and sheep of his hand",
+          "note": "The earlier part of the Ps 95 sequence calls the worshiping community God's pasture-people and sheep of God's hand. It supplies the flock-and-owner setting that precedes the later verses on erring hearts, unknown ways, and wrath."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.25.4",
+          "basis": "prayer to be taught God's ways",
+          "note": "The commentary is itself a plea to be led along a defined road. Ps 25 asks God to make known God's ways and teach the psalmist God's paths, a direct Hebrew prayer parallel to the request for guidance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.27.11",
+          "basis": "level path amid those lying in wait",
+          "note": "The commentary includes a road vulnerable to an ambush and distinguishes upright travel from being made to stray. Ps 27 asks to be taught God's way and led on a level path specifically because of hostile watchers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.42.16",
+          "basis": "blind travelers led on unknown paths",
+          "note": "The prose treats a route as something found by marks and a traveler as liable to lose it. Isaiah promises to lead blind people by paths they do not know and to turn darkness to light and crooked ground straight before them."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.55.7",
+          "basis": "forsaking a way and returning for mercy",
+          "note": "The commentary makes the lost condition recoverable through a change of walking and repentance. Isaiah commands the wicked to forsake their way and return to the Lord, whose mercy and pardon answer that turn."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.7.24",
+          "basis": "walking in stubborn counsel and going backward",
+          "note": "The commentary contrasts the forward trace of guided people with following one's own desire or misleading predecessors. Jeremiah says the people walked in the counsels of their stubborn evil heart and went backward rather than forward."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.30.3",
+          "basis": "return and gathering after dispersion",
+          "note": "The commentary sets a united company on one route against dispersal from it. Deuteronomy describes God restoring the fortunes of a returning people and gathering them from the peoples among whom they have been scattered."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Num.20.8",
+          "basis": "water for a congregation and its livestock",
+          "note": "The commentary's journey imagery joins a guide, water, and a flock or herd. At Meribah Moses is told that water will come from the rock for the assembled community and its animals, a wilderness provision scene with both elements."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.1.1",
+          "basis": "walking in wicked counsel",
+          "note": "The commentary warns that a track may be defined by the wrong companions and ancestors. Ps 1 locates the blessed person's first refusal in not walking in the counsel of the wicked, before its standing and sitting images of belonging."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.1.79",
+          "basis": "guiding feet into the way of peace",
+          "note": "The commentary repeatedly locates guidance in actual feet and a road rather than an abstract orientation. Zechariah's hymn asks for light that will guide human feet into the way of peace."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.12.35",
+          "basis": "walking in darkness without knowing one's destination",
+          "note": "The commentary distinguishes a traveler carried toward a destination from one who has lost direction. Jesus warns that the person who walks in darkness does not know where he is going, a sharply corresponding formulation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.15.14",
+          "basis": "blind guides and a shared fall",
+          "note": "The commentary makes the identity of the guide decisive and notices sight as necessary for finding the route. Jesus calls the Pharisees blind guides; when blind lead blind, both fall into a pit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.10.5",
+          "basis": "sheep refuse an unknown voice",
+          "note": "The page's flock is safe only when it knows its guide rather than following every track. In the continuation of the shepherd image, sheep flee rather than follow a stranger because they do not know that voice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rom.11.20",
+          "basis": "former branches broken off and present standing by faith",
+          "note": "The commentary argues that a community can pass from favor into judgment rather than carrying favor as descent. Paul says that some branches were broken off through unbelief and that the present reader stands only by faith."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rom.11.23",
+          "basis": "former branches can be grafted in again",
+          "note": "The commentary's movement from wrath through repentance to renewed guidance has a structural counterpart in Paul's claim that excluded branches can be grafted in again if they do not persist in unbelief."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.15.36",
+          "basis": "seed must die before it comes to life",
+          "note": "The commentary's two forms of disappearance ask whether entry into earth means extinction or a directed transformation. Paul's seed image says what is sown does not come to life unless it dies, giving burial-like loss a generative end."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.15.33",
+          "basis": "bad company corrupts good character",
+          "note": "The commentary's bad companion can divert a traveler after guidance has been received. Paul makes the same social mechanism explicit by warning that bad associations corrupt good character."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:2Pet.2.15",
+          "basis": "forsaking the straight way and following Balaam",
+          "note": "The commentary joins departure from a straight track to imitation of a misleading predecessor. Second Peter says false teachers have forsaken the straight way, gone astray, and followed Balaam's way."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.12.13",
+          "basis": "straight paths for feet that heal the lame",
+          "note": "The commentary's road is not merely a verdict but a route that can steady or lose a walker. Hebrews asks the community to make straight paths for its feet so that what is lame is healed rather than dislocated."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 2:9",
+          "basis": "cling to a good way and avoid an evil one",
+          "note": "The commentary examines right paths, false companions, and distinct negative routes. Avot records a debate over the good way to which a person should cleave and the evil way from which one should keep distance, including good and evil friends among the answers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 1:7",
+          "basis": "distance from a bad neighbor and the wicked",
+          "note": "The commentary's companion may either sustain the route or lead one away from it. Avot instructs its reader to keep far from a bad neighbor and not join the wicked, a rabbinic social safeguard for the path."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Makkot 10b",
+          "basis": "one is led in the way one chooses",
+          "note": "The commentary differentiates God's bestowal of guidance from the traveler's active straying. Makkot crystallizes that tension in its maxim that a person is led along the way that person wants to go."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Tobit 4:19",
+          "basis": "prayer that ways be made straight",
+          "note": "Tobit's fatherly instruction combines fidelity, wise counsel, and a prayer that the son's ways be made straight and his paths prosper. It is a Jewish family-to-traveler counterpart to the commentary's route that must be walked rather than merely inherited."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "485ab41cfa939123582014053201f83599c3c21acb5c61406847271c9beea79f",
+    "followup_sha256": "485ab41cfa939123582014053201f83599c3c21acb5c61406847271c9beea79f"
+  },
+  "consolidation_error": null,
+  "list_sha256": "4b619b4317fec02cea7cf38c93fd4bae11ed093ddba1571032059c28b3a27d90",
+  "followup_delivery": [
+    {
+      "call_id": "call_I6OtxdQQCeiQyayS2T99XnjL",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 1004259,
+    "cached_input_tokens": 893440,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47656,
+    "reasoning_output_tokens": 38690,
+    "total_tokens": 1051915
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:42:35.218Z",
+  "artifacts": {
+    "started.json": "fd5ff58190a613744d3227a71b1f8b20274dcda91a9f1797b1498606725a2c09",
+    "input.json": "1db669b0dd2fabfa18ba01378c61c55249a8b17f37a44537027b65db788aefac",
+    "prompt.md": "b008f2f0ce014f892cf8bc46c91eb0c961bbe4902dd939e2f96f78a03b5adb08",
+    "package.md": "cea1cb05c5d9c8d877ca2634f066805032df8120071dd12ed28016797fbe7282",
+    "spawn.md": "fa1fae94f0317e74ba010b16bfaa776b446f6cc6d7f1a92171d9e26432fadd31",
+    "followup.txt": "5d5ce248df2564a66f87bba9c99110e2d2e0cc6005cefc07ceb9ad47279b350f",
+    "turn1.json": "7409cbef5e16a917dc31904959ddf651b48b274b48b350faab0a42fdb1d54207",
+    "turn1.list.tsv": "de593173e1b40c3715015284825d35cf792bab684a3093769f69a8a4b9813556",
+    "followup.tsv": "485ab41cfa939123582014053201f83599c3c21acb5c61406847271c9beea79f",
+    "list.tsv": "4b619b4317fec02cea7cf38c93fd4bae11ed093ddba1571032059c28b3a27d90",
+    "consolidation.json": "752ef8011ec84c70178f3ad6e68fbfcfcf9bb878dccf72b6414160922d30a3fc",
+    "validation.json": "68f667fd3b9f6181e596c50ba7e2a8d32144e84882eba4846157cc769ae56978",
+    "proposal_validation.json": "95b4cf2f0f960d734d6c04b3dc47786457487c5089a3176d2d9ffad390fa6be9",
+    "tool_calls.json": "ea7f8a3c5109e8db9a70bb70db710204d956277571e9c760405ba1e331442060",
+    "session.json": "3c1dc55cc608df9f05b38d75ac2493d47ab0412f97a4f42ddc9488ea7a9cd223",
+    "session.events.jsonl": "a58beb28dc1768c2b9f857ee05a0795ab3266696d33ff983983581a91567079b"
+  }
+}

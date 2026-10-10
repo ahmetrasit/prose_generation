@@ -1,0 +1,197 @@
+{
+  "format": "bible-discovery-v2",
+  "status": "ok",
+  "target": "87:5",
+  "base_sha256": "f390b286196c467ef6521f69cea8c622404322e65e98db67aba4b387e2cee240",
+  "tsv_sha256": "5f9f9bf3f2f9ccb3ad63fa918040c9eb00ece20a88b342a962a43bd6a41806a1",
+  "provenance": [
+    {
+      "target": "87:5",
+      "model": "luna",
+      "run_tag": "prepared-20261005",
+      "path": "prepared-20261005/87_5/luna",
+      "sha256": "9ce44bb102c9379df30b3c6761ad3b8706b9c8fda680f150edf5b439f5443497"
+    },
+    {
+      "target": "87:5",
+      "model": "terra",
+      "run_tag": "prepared-20261005",
+      "path": "prepared-20261005/87_5/terra",
+      "sha256": "bad511eb7fe4273397db6aa24a68e25e098bfbf49fb2ae75015eeb96dc88bf5c"
+    }
+  ],
+  "rows": 114,
+  "findings": [
+    {
+      "target": "87:5",
+      "model": "luna",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_5/luna/list.tsv",
+        "rows": 67,
+        "unique_references": 67,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 35,
+          "medium": 30,
+          "weak": 2
+        },
+        "findings": [
+          {
+            "line": 14,
+            "ref": "Wisdom of Solomon 5:14",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 38,
+            "ref": "Sirach 14:18",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 56,
+            "ref": "Genesis Rabbah 10:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_5/luna/followup.tsv",
+        "rows": 22,
+        "unique_references": 22,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 10,
+          "medium": 10,
+          "weak": 2
+        },
+        "findings": [
+          {
+            "line": 11,
+            "ref": "Genesis Rabbah 10:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    },
+    {
+      "target": "87:5",
+      "model": "terra",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_5/terra/list.tsv",
+        "rows": 89,
+        "unique_references": 89,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 63,
+          "medium": 24,
+          "weak": 2
+        },
+        "findings": [
+          {
+            "line": 18,
+            "ref": "Wisdom of Solomon 5:14",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 36,
+            "ref": "4 Ezra 7:32",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 37,
+            "ref": "2 Baruch 50:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 38,
+            "ref": "Wisdom of Solomon 2:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 52,
+            "ref": "b. Ta'anit 2a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 53,
+            "ref": "Genesis Rabbah 10:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 54,
+            "ref": "Aphrahat, Demonstrations 8:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 73,
+            "ref": "2 Maccabees 7:28",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 85,
+            "ref": "b. Sanhedrin 90b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_5/terra/followup.tsv",
+        "rows": 35,
+        "unique_references": 35,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 19,
+          "medium": 15,
+          "weak": 1
+        },
+        "findings": [
+          {
+            "line": 19,
+            "ref": "2 Maccabees 7:28",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 31,
+            "ref": "b. Sanhedrin 90b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    }
+  ],
+  "confidence": "Unverified reader labels; agreement and follow-up origin do not verify a connection."
+}

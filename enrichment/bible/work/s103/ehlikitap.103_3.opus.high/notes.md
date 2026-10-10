@@ -1,0 +1,41 @@
+# Notes: 103:3 base (PACK/numbered/103_3.md), ehlikitap pass
+
+Paragraphs and claims (Bible-relevant):
+- ¶1 istisna (illa) pulls a group out of universal loss; 1-4-9 word measure. Kayıp = default state.
+- ¶2 singular "insan" vs plural exception; two solitary verbs (iman, amel) + two reciprocal (tevasi bi'l-hakk, bi's-sabr); verb repeated; past tense.
+- ¶3 95:6 and 84:25 same exception ending in wage (ecr gayr memnun); here wage replaced by mutual transmission.
+- ¶4 iman root ء م ن = emn, end of fear; iman as entrusting oneself to a guarantee.
+- ¶5 iste'mene, me'men; 9:6 eblighu me'menehu; refuge.
+- ¶6 Abraham 6:80-82: which party more entitled to security (ehakku bi'l-emn).
+- ¶7 emanet vs hiyanet; emun camel = tested reliability.
+- ¶8 33:72 emanet borne by man.
+- ¶9 iman = tasdik; Joseph's brothers 12:16-18 "ma ente bi-mu'minin lena"; Jacob refuses trust, chooses sabr cemil; amin = "so be it".
+- ¶10 amel = intentional act; well digging/lining; road made by walking; amel leaves a trace.
+- ¶11 umale = wage; muamele; evening wage scene (asr); 29:58-59 ni'me ecru'l-amilin, ellezine saberu.
+- ¶12 18:103-105 ahserine a'malen: works lost; no weight.
+- ¶13 salihat = sound, uncorrupted, opposite of fesad; sulh = peace.
+- ¶14 18:45-46 vegetation turned to chaff; el-bakiyatu's-salihat.
+- ¶15 2:27 those who cut what God ordered joined, spread corruption = hasirun.
+- ¶16 vasa = join thing to thing; night joined to day.
+- ¶17 tevasa'n-nebt: plants join into continuous cover; pasture.
+- ¶18 vasiyyet = word joined to successor; tavsiye = forward instruction to be acted on.
+- ¶19 reciprocal; vasi = giver and receiver.
+- ¶20 2:132-133 Abraham and Jacob's deathbed charge; 6:151-153 "zalikum vassakum bihi", straight path vs scattering ways.
+- ¶21 90:17 tevasav bi's-sabr ve bi'l-merhame; 51:53 e-tevasav bihi (transmitting falsehood).
+- ¶22 hakk = correspondence; door pivot socket; joint; woven cloth; horse foot in print.
+- ¶23 hakk = debt/due; 2:282 ellezi aleyhi'l-hakk (debtor dictates); 2:283 emanet repaid; mutual reminding of what is owed.
+- ¶24 hakika = what must be protected, banner; hıkka young camel; hakhaka overburdening; 6:152 no soul burdened beyond capacity.
+- ¶25 spear; 21:18 hakk hurled at batil; 10:32.
+- ¶26 tehakku = disputing over right; contrast with tevasav.
+- ¶27 el-Hakka = day that gives each person his due by his work; 69:1-3.
+- ¶28 sabr = habs an-nafs an al-jaza'; 70:19-22 helu', jazu' exception.
+- ¶29 masbura = animal held for death; fasting as sabr; waiting for judgement.
+- ¶30 stopper, vessel rim; 7:126 efrig aleyna sabran; 2:250.
+- ¶31 aloe bitter medicine; hard stone, mountain; umm sabur; winter cold.
+- ¶32 sabir = kefil (guarantor); community's sabir stands with them.
+- ¶33 18:28 vasbir nefseke ma'a...; 3:200 isbiru ve sabiru ve rabitu.
+- ¶34 sabr = audacity 2:175.
+- ¶35 subra heap bought without weight; 39:10 wage without reckoning.
+- ¶36 40:55 / 30:60 fasbir inne va'dallahi hakk.
+- ¶37 Luqman 31:13-17: father's charge; truth then patience.
+- ¶38 41:34-35 repel evil with good; enemy becomes friend; only the patient.

@@ -1,0 +1,37 @@
+{
+  "policy": "bible-first-turn-repair-v1",
+  "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+  "tool_audit_reviewed": true,
+  "accepted_at": "2026-10-05T15:51:00.412147+00:00",
+  "changes": [
+    {
+      "line": 22,
+      "before": [
+        "strong",
+        "karsi_anlati",
+        "tevrat",
+        "WLC:Isa.42.16",
+        "blind led on an unknown way",
+        "The commentary's blind people strive toward the path yet cannot see it; Isaiah promises that God will lead blind people on an unfamiliar way, turn darkness to light, and not abandon them."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "karsi_anlati",
+        "WLC:Isa.42.16",
+        "blind led on an unknown way",
+        "The commentary's blind people strive toward the path yet cannot see it; Isaiah promises that God will lead blind people on an unfamiliar way, turn darkness to light, and not abandon them."
+      ],
+      "reason": "Transpose tradition and kind into their declared columns; neither value changes."
+    }
+  ],
+  "model_calls": 0,
+  "artifacts": {
+    "turn1.original.tsv": "621ed21755e844d91c180ebbb5d3e464b722dae3949ebae993528394eb95b948",
+    "turn1.validation.failed.json": "be115a2d8e8d26be8b13237b3a391ba276fc42f33de5ffcc594501c414991c89",
+    "turn1.tool_calls.json": "24c526f31f19f596eed4894531d5c9a816e8a5aaa696a0977a85356401f2b135",
+    "turn1.repair.proposed.json": "70aee9e802259bbdbb5ba2f70dd5526b76912ecaf60355b7461359dbb2bb744f",
+    "turn1.repair.proposed.tsv": "a5dee8e5109bb5b4e1715bd4b04c17b8c911c9d8fc3e223e0e9b7d490a271f8d",
+    "turn1.accepted.tsv": "a5dee8e5109bb5b4e1715bd4b04c17b8c911c9d8fc3e223e0e9b7d490a271f8d"
+  }
+}

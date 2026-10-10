@@ -1,0 +1,1275 @@
+{
+  "target": "87:12",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/87_12.md",
+  "base_sha256": "9524a4a5084efa42fc02a65a73331d4b87df0c5de01144d514ae05d3d179be7e",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T14:08:08.091368-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_87_12_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "bbf904d9084d705628ec4d9493add91fc22e353b104d18e7053e35cc1f2db716",
+  "package_sha256": "ac9a2b224234e7a7c1bf3077186cd88d8ff92bc8e3c8c8b3a070511a0566c8f9",
+  "input_sha256": "cf390bed468e13cd63bd4c6bd38d6d4b66ee8612bae752f0b486659e3a3fa521",
+  "spawn_sha256": "28514f3d7d4b01d6378e0584002a95c45e15d2592377d066f73dc1339789d553",
+  "followup_text_sha256": "c7e22ddf070f07810b14111531b229111bb7485b54ad4e1f2fbc9ade274bfe59",
+  "agent_id": "01a10d42-52af-75d3-bc8f-891ff71f2473",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T14-10-12-01a10d42-52af-75d3-bc8f-891ff71f2473.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 65,
+  "turn1_sha256": "b395b3f353b50f401b20a4176342677806a35e61cfd91a274df8771db9f79378",
+  "turn2": {
+    "completed": true,
+    "rows_total": 91,
+    "rows_added": 26
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 65,
+    "raw_proposal_rows": 26,
+    "unique_additions": 26,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.4.33",
+          "basis": "voice from fire and life",
+          "note": "Israel hears the living God's voice from the midst of fire and lives; this gives Moses' fire a life-giving hearing that reverses the reminder refused before 87:12 and 87:13's no-life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.4.36",
+          "basis": "great fire as discipline and speech",
+          "note": "The verse joins God's great fire to the voice that disciplines Israel and words heard from fire, closely matching the commentary's fire as warning before it becomes the great punitive fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.2",
+          "basis": "Moses, flame, unconsumed bush",
+          "note": "Moses' bush burns without being consumed, the biblical scene behind the commentary's Moses-fire encounter and a concrete counterimage to a fire whose entrant undergoes irreversible burning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.3",
+          "basis": "turning aside toward the great sight",
+          "note": "Moses turns aside toward a burning bush he calls a great sight; the movement toward revelatory fire sharply illuminates the commentary's person who turns away from admonition and enters the great fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.4",
+          "basis": "God's call from the bush",
+          "note": "When Moses turns toward the fire, God calls him by name from it; this supplies the named, summoned counterpart to 87:12's unnamed person known through the fire he enters."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.13.21",
+          "basis": "pillar of fire guiding at night",
+          "note": "YHWH's night fire gives light and leads a travelling people, directly alongside the commentary's distant fire that guides a traveller rather than enclosing a condemned person."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.47.14",
+          "basis": "fire without warmth or a place to sit",
+          "note": "Isaiah's doomed diviners become stubble and find no coal for warming or fire before which to sit, an unusually exact counterpart to the commentary's contrast between warming oneself at a fire and enduring its punishment inside."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.50.11",
+          "basis": "self-kindled fire ending in torment",
+          "note": "Those who kindle their own fire walk by its light but receive torment; it parallels the commentary's self-closing action, where what a person chooses becomes the fire that defines his fate."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.5.24",
+          "basis": "rejected teaching, stubble, consuming fire",
+          "note": "Those who reject YHWH's instruction become like stubble before fire; its explicit sequence of refused teaching, vegetal residue, and burning meets the commentary's reminder, pasture-to-chaff, and great-fire sequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.33",
+          "basis": "prepared, deep and wide pyre",
+          "note": "Topheth is prepared with an abundant, divinely kindled fire and wood; its deliberately immense pyre is a close biblical image for the commentary's great fire awaiting the refuser."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.66.24",
+          "basis": "unquenched fire and undying worm",
+          "note": "The rebels' fire is not quenched and their worm does not die, a direct scriptural comparator for the commentary's fire whose suffering does not resolve into death or restored life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.19",
+          "basis": "arrogant people as stubble in an oven",
+          "note": "Using Hebrew WLC numbering, this verse makes every arrogant evildoer stubble before the coming furnace, directly joining the commentary's misdirected greatness with a consuming great fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.43.2",
+          "basis": "walking through fire without burning",
+          "note": "God promises his own that they may pass through fire without being burned; this makes a precise counterpart to the commentary's distinction between a bounded, saving relation to fire and entry into its punitive interior."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.3.25",
+          "basis": "unharmed men walking within fire",
+          "note": "The three men walk free inside a furnace, unharmed and accompanied by a heavenly figure; this makes their fire a site of divine presence rather than the lasting affliction described for 87:12."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.3.27",
+          "basis": "fire leaves neither smell nor bodily mark",
+          "note": "The survivors' hair, garments, and even smell are untouched by the furnace, a pointed counterimage to the commentary's hot brand and fire as a permanent identifying mark."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.2",
+          "basis": "refiner's fire and endurance",
+          "note": "The coming one is like a refiner's fire and raises the question who can endure it, giving a biblical comparison for the commentary's claim that entering fire means bearing its heat rather than merely touching it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.3",
+          "basis": "fire that refines and purifies",
+          "note": "The refiner sits to purify silver and Levi's descendants; this is the productive artisan-fire that the commentary explicitly distinguishes from the great fire that yields neither death nor life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.13.9",
+          "basis": "fire, refinement, and calling God's name",
+          "note": "The remnant passes through fire, is refined, then calls God's name and is claimed as God's people; it joins the commentary's fire-as-test, name, belonging, and prayer motifs in one sharply different outcome."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.31",
+          "basis": "person and own work burn together",
+          "note": "The strong person becomes tinder and his own work a spark, so both burn with none to quench them; it closely parallels the commentary's claim that the person's doing folds back upon him in fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.5",
+          "basis": "written name and declared belonging",
+          "note": "A person writes 'YHWH's' on his hand and takes Israel's name; this positive sign of ownership and naming stands beside the commentary's animal-brand image and its unnamed person identified instead by fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.2",
+          "basis": "awakening to everlasting life or contempt",
+          "note": "Daniel divides those raised from the dust into everlasting life and everlasting contempt, a direct eschatological counterpart to the commentary's blessed/wretched division and its reflection on life and death in the fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "4 Ezra 7:36",
+          "basis": "furnace of Gehenna opposite place of rest",
+          "note": "4 Ezra sets the displayed furnace of Gehenna opposite the place of rest and paradise, giving Jewish apocalyptic form to the commentary's two opposed destinations after admonition."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.9.43",
+          "basis": "entering life or Gehenna's unquenchable fire",
+          "note": "Jesus contrasts entering life with being cast into Gehenna's unquenchable fire, an especially close New Testament comparison for 87:12–13's fire and its refusal of ordinary life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Mark.9.48",
+          "basis": "Isaiah's undying worm received in Gehenna",
+          "note": "Mark applies the undying worm and unquenched fire to Gehenna, making explicit the Christian reception of Isaiah 66 alongside the commentary's enduring great fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.3.12",
+          "basis": "chaff and unquenchable fire",
+          "note": "The judge gathers wheat but burns chaff with unquenchable fire; it brings the commentary's pasture-residue imagery into a final separation of people before fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.42",
+          "basis": "wicked cast into fiery furnace",
+          "note": "The lawless are thrown into the fiery furnace with weeping and gnashing; its entry, furnace, and sustained misery closely match the commentary's yasla as entering and bearing the fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.41",
+          "basis": "separation into eternal fire",
+          "note": "At the final division, those on the rejected side depart into eternal fire; this gives a direct Gospel comparator to the commentary's two responses to warning and their divergent destinations."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.24",
+          "basis": "unnamed rich man tormented in flame",
+          "note": "In the rich-man story, the unnamed wealthy man pleads from anguish in flame; his wealth, namelessness, and fiery postmortem identity make a close companion to the commentary's fire-branded person."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.27",
+          "basis": "fire consuming adversaries after known truth",
+          "note": "After deliberate sin against received truth, the prospect is judgment and a fiery zeal consuming adversaries; it directly links rejected instruction to the expected punitive fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.1.8",
+          "basis": "flaming fire on those who do not obey",
+          "note": "Flaming fire is inflicted on those who do not know God and do not obey the gospel, matching the commentary's person defined by turning from the summons and meeting the great punishment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.3.36",
+          "basis": "unbelief, life withheld, wrath already remaining",
+          "note": "The disobedient person will not see life while God's wrath remains on him already; this is a close grammatical and theological analogue to the commentary's present designation of a person by a future fiery fate."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.3",
+          "basis": "hoarded gold and silver eating flesh like fire",
+          "note": "The corrosion of hoarded wealth bears witness and eats flesh like fire, directly alongside the commentary's heated hoard that brands the body and reveals what its owner did."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.1",
+          "basis": "divine names written on foreheads",
+          "note": "The Lamb's people bear his and the Father's names on their foreheads, the saving alternative to the commentary's person whose identity is read from his fire rather than named."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.9",
+          "basis": "beast's mark on forehead or hand",
+          "note": "The beast's worshiper receives a visible mark on forehead or hand; this gives a precise apocalyptic counterpart to the commentary's discussion of a bodily brand identifying a person's allegiance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.10",
+          "basis": "marked worshiper tormented with fire",
+          "note": "The marked beast-worshiper is tormented with fire and sulfur, directly joining bodily identification to the fire that follows it, as in the commentary's branding-and-fate image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.11",
+          "basis": "no rest in the fire's lasting smoke",
+          "note": "The torment's smoke rises forever and the marked worshipers have no rest day or night, a close New Testament formulation for the commentary's ongoing fire from which one does not depart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.15",
+          "basis": "name absent from book, person thrown into fire",
+          "note": "The lack of a recorded name determines being thrown into the lake of fire, a pointed counterpart to the commentary's unnamed individual whose fate is disclosed by fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.15",
+          "basis": "refused return and rest",
+          "note": "The prophet offers salvation in returning and rest, but says the hearers were unwilling; read with the chapter's pyre, it specifies the prior refusal that the commentary places before entry into fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.24",
+          "basis": "call refused",
+          "note": "Wisdom says 'I called and you refused,' giving a compact biblical formulation of the commentary's person who withdraws from a spoken reminder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.28",
+          "basis": "calling too late after refusal",
+          "note": "Those who rejected counsel seek Wisdom only when calamity arrives and receive no answer; it parallels the commentary's delayed remembrance when the great fire has already come."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.5.22",
+          "basis": "one's own sin captures its maker",
+          "note": "The wicked is caught in his own iniquities and held by sin's cords, a concrete biblical analogue for the commentary's action that closes over its own agent before the fire follows."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.23.29",
+          "basis": "God's word as fire",
+          "note": "Jeremiah calls the prophetic word fire that shatters rock; it clarifies the commentary's paradox that a rejected admonition can itself be spoken of through fire imagery before punitive fire is entered."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.2.11",
+          "basis": "God alone exalted, human height brought low",
+          "note": "Human haughtiness is lowered while YHWH alone is exalted, directly accompanying the commentary's distinction between greatness rightly given to God and greatness wrongly claimed by a person."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.9.4",
+          "basis": "forehead mark for those grieved by evil",
+          "note": "Ezekiel's forehead mark identifies those who mourn wrongdoing before judgment; this provides a specific positive counterimage to the commentary's permanent fire-brand as a sign of a person's stance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.3.6",
+          "basis": "Aramaic nura, fiery furnace",
+          "note": "Biblical Aramaic נוּרָא (nura, 'fire') names the furnace threatened here, a close Semitic comparator for the commentary's n-w-r fire/light word family and its great fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.12.8",
+          "basis": "Hebrew tsli, roast with fire",
+          "note": "Hebrew צְלִי (tsli, 'roasted') belongs to the ṣ-l-y word family developed in the commentary; Passover's deliberate roasting supplies the finite cooking-fire contrast to yasla's punitive endurance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Mal.3.16",
+          "basis": "Hebrew zkr, remembrance, fear, and name",
+          "note": "Hebrew זכר (zkr, 'remember') is cognate with Arabic dhikr; the verse records fearers, their speech, and a book of remembrance for those who esteem God's name, the positive side of 87:9–15."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.36.5",
+          "basis": "Hebrew kabbir, God's might",
+          "note": "Hebrew כַּבִּיר (kabbir, 'mighty') is a likely cognate of Arabic kabir; Job's attribution of might to God gives the proper recipient of the greatness the commentary contrasts with human arrogance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 57b",
+          "basis": "ordinary fire as one-sixtieth of Gehenna",
+          "note": "The Bavli calls fire one-sixtieth of Gehenna, a Jewish interpretive bridge for the commentary's small, useful worldly fire as a reminder beside the great fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 2:5",
+          "basis": "gold tested in fire, people in humiliation",
+          "note": "Sirach compares the testing of acceptable people to gold in fire, directly engaging the commentary's extension of yasla to ordeal and its contrast between testing fire and final punishment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 3:6",
+          "basis": "righteous tried as gold in furnace",
+          "note": "Wisdom presents the righteous as gold tried in a furnace and accepted by God; it supplies a Jewish eschatological counterpoint to a fire that does not refine its entrant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Targum Jonathan on Isaiah 66:24",
+          "basis": "Isaiah's unquenched fire read as Gehinnam",
+          "note": "The Targum's Aramaic rendering associates Isaiah's undying punishment with Gehinnam; this reception gives the commentary's great fire a specifically Jewish interpretive setting, though its exact expansion should be verified."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.25",
+          "basis": "refusing the one who speaks and not escaping",
+          "note": "Hebrews warns against refusing the speaker, because those who refused did not escape; it is a close exhortational counterpart to 87:11's withdrawal from the reminder before 87:12."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.29",
+          "basis": "God as consuming fire",
+          "note": "Following the warning not to refuse God's voice, Hebrews calls God a consuming fire; it places exhortation and fire together without reducing fire to the same function as punishment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.13",
+          "basis": "fire reveals and tests each work",
+          "note": "The last day reveals each person's work by fire and tests its quality, giving a Christian analogue to the commentary's artisan fire that assesses and separates rather than merely destroys."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.15",
+          "basis": "rescued as through fire",
+          "note": "A person whose work burns suffers loss yet is saved as through fire; this precise limited passage through fire contrasts with the commentary's permanent yasla."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.7",
+          "basis": "faith tested by fire for a final result",
+          "note": "Faith tested like gold by fire is said to result in praise, glory, and honor, another deliberate contrast to the commentary's fire with no productive end."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jude.1.7",
+          "basis": "eternal fire as warning example",
+          "note": "Sodom and Gomorrah undergo the penalty of eternal fire and serve as an example, matching the commentary's insistence that fire is first narrated as a warning or reminder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.3.20",
+          "basis": "evil person avoids light lest deeds be exposed",
+          "note": "The evildoer hates and avoids the light because it exposes works; this clarifies the commentary's light/fire and turning-away imagery as an avoidance of disclosure, not merely a generic darkness trope."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.5",
+          "basis": "storing wrath for oneself",
+          "note": "By an unrepentant heart a person stores up wrath for himself for judgment day, a close moral analogue to the commentary's claim that a person's own action becomes his returning fate."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.25",
+          "basis": "postmortem remembrance and reversal",
+          "note": "Abraham tells the rich man to remember his lifetime goods while he is in torment; it gives a Gospel form to the commentary's late remembering after choosing the near life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.21.8",
+          "basis": "lake of fire called the second death",
+          "note": "Revelation calls the lake burning with fire and sulfur the second death; its deliberate death-language is a useful comparison with 87:13's paradox of neither dying nor living in fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, City of God 21.3",
+          "basis": "enduring bodily punishment in infernal fire",
+          "note": "Augustine argues that resurrected bodies can endure infernal fire without being annihilated, a Christian interpretive attempt to articulate the prolonged fiery condition developed in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.119.105",
+          "basis": "Hebrew ner as lamp and light for a path",
+          "note": "Hebrew נֵר (ner, 'lamp') may be related to Arabic nur; the verse's lamp and light guiding a path specifically fits the commentary's distant fire as a guide, but the etymological link should be checked."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "soydas",
+          "ref": "Peshitta Matthew 6:5",
+          "basis": "Syriac sly for prayer",
+          "note": "The Peshitta's Syriac prayer root ܨܠܝ (sly) is a cognate of Arabic salla's prayer sense, helping keep the commentary's prayer sound-pattern distinct from Arabic yasla 'enter fire'; the exact inflected form should be checked."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.33.14",
+          "basis": "who can dwell with devouring fire",
+          "note": "Zion's sinners ask who can dwell with devouring fire and everlasting burnings; this is an unusually direct biblical formulation for the commentary's person entering and remaining in the great fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.3.2",
+          "basis": "brand plucked from the fire",
+          "note": "Joshua is called a brand plucked from fire, a sharp inverse to the commentary's fire-brand that permanently identifies its subject: here divine rebuke rescues the burning brand."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.17.27",
+          "basis": "unheeded command kindles unquenchable fire",
+          "note": "Jeremiah warns that failure to heed a concrete command will kindle a fire that devours Jerusalem's gates and is not quenched, closely joining refused admonition to irreversible fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.66.12",
+          "basis": "passing through fire and being brought out",
+          "note": "The community says God brought it through fire and water and then out into abundance; this bounded passage and rescue supply the opposite of yasla's fire from which the entrant does not depart."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.6.7",
+          "basis": "coal's touch removes guilt",
+          "note": "The live coal touches the prophet's mouth and removes guilt, making fire the means of purification for a messenger rather than the final affliction of one who shuns the message."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.5",
+          "basis": "death followed by authority to cast into Gehenna",
+          "note": "Jesus distinguishes ordinary killing from God's authority to cast after death into Gehenna, a precise New Testament comparison for the commentary's meditation on fire, death, and life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.23.15",
+          "basis": "making a child of Gehenna",
+          "note": "Jesus calls the converted follower a child of Gehenna, a familial identity assigned by a fiery destination that closely meets the commentary's imagery of origin, belonging, and a person read through fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.16.9",
+          "basis": "scorched people refuse repentance and glory",
+          "note": "After being scorched by fierce heat, people curse God rather than repent or give glory; this directly combines punitive fire with the continued refusal that defines 87:11–12."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.18.8",
+          "basis": "self-exalting luxury ending in fire",
+          "note": "The city that glorified itself and lived in luxury receives plagues and is burned with fire, closely matching the commentary's false greatness, preference for the near life, and ensuing fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.19.20",
+          "basis": "cast alive into lake of fire",
+          "note": "The beast and false prophet are thrown alive into the lake burning with sulfur, a specific apocalyptic comparator for the commentary's paradoxical fiery state beyond ordinary death and life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.10",
+          "basis": "torment day and night forever",
+          "note": "The devil is tormented in the lake of fire day and night forever, directly alongside the commentary's emphasis on ongoing fiery suffering with no release."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.4.24",
+          "basis": "God as consuming fire",
+          "note": "Deuteronomy names YHWH a consuming fire; as the source behind Hebrews 12:29, it sets the commentary's great fire beside the distinct biblical image of divine holiness and jealousy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.6.27",
+          "basis": "carrying fire in one's bosom",
+          "note": "The proverb asks whether someone can carry fire against the chest without burned clothes, concretely sharpening the commentary's distinction between merely approaching fire and undergoing its heat."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.22.20",
+          "basis": "metals gathered and melted in a furnace",
+          "note": "God gathers people as a smith gathers metals into a furnace to melt them in wrath; this is a punitive metallurgical fire alongside the commentary's productive craft-fire and its failure in the great fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.6.6",
+          "basis": "live coal from the altar",
+          "note": "A seraph carries a live coal from the altar toward Isaiah, supplying the liturgical fire that precedes the commentary's contrast between named prayer and the unnamed fire-bound person."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.10.17",
+          "basis": "Israel's light becoming fire and flame",
+          "note": "Israel's Light becomes a fire and its Holy One a flame that consumes thorns; it gives a biblical meeting of light and fire beside the commentary's nar/nur meditation and its divergent paths."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.48.10",
+          "basis": "chosen in the furnace of affliction",
+          "note": "God says Israel has been chosen in the furnace of affliction, a direct biblical use of furnace-heat as ordeal that clarifies the commentary's secondary sense of yasla as suffering a hard trial."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.8",
+          "basis": "thorns, curse, and an end in burning",
+          "note": "Land bearing thorns and thistles is near a curse and ends in burning, carrying the commentary's pasture and useless residue imagery into a warning about receiving and failing to bear fruit from God's word."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.16.8",
+          "basis": "fire permitted to scorch people",
+          "note": "The sun is permitted to scorch people with fire; paired with the following verse's refusal to repent, it adds an apocalyptic scene in which fire does not itself produce the response to warning."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.18.7",
+          "basis": "self-glorification and luxurious near life",
+          "note": "Babylon glorifies herself, lives in luxury, and claims security; its self-assigned greatness and preferred present life provide the antecedent reversed by the fire in the following verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.48",
+          "basis": "rejected words judging on the last day",
+          "note": "The one who rejects Jesus and does not receive his words is judged by that very word on the last day, a close Christian form of the commentary's reminder refused now and fate disclosed later."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.13.46",
+          "basis": "rejecting the word and judging oneself unworthy of life",
+          "note": "Those who thrust aside God's word judge themselves unworthy of eternal life; it directly develops the commentary's self-enclosing logic in which the refuser's own motion defines the outcome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.3.18",
+          "basis": "refined gold offered to the self-called rich",
+          "note": "The self-satisfied rich are counselled to receive gold refined by fire so that they may truly be rich, a targeted counterpoint to the commentary's hoarded metal, branding fire, and false self-sufficiency."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "1 Enoch 103:8",
+          "basis": "sinners' spirits in a furnace of fire",
+          "note": "1 Enoch describes sinners' spirits being cast into a furnace of fire and flame, a Jewish apocalyptic elaboration of the enduring fiery fate; wording and verse division should be verified."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Rosh Hashanah 16b",
+          "basis": "three classes in judgment and Gehinnom",
+          "note": "The Bavli's three-class judgment tradition sends the intermediate through Gehinnom while invoking Zechariah's refining fire, a rabbinic reading of divided destinies and fire as testing rather than simply finality."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "soydas",
+          "ref": "Peshitta Matthew 25:41",
+          "basis": "Syriac nura for eternal fire",
+          "note": "The Peshitta's Syriac nura ('fire') occurs in the eternal-fire saying, providing a Syriac member of the fire/light word family discussed in the commentary; the exact form and edition should be verified."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "6383ac55977fa18dd45f33ca9b87965f851f97f0c4c75dcb55eb0f1e01264582",
+    "followup_sha256": "6383ac55977fa18dd45f33ca9b87965f851f97f0c4c75dcb55eb0f1e01264582"
+  },
+  "consolidation_error": null,
+  "list_sha256": "c6bf19b8a7bcf15f2d75be72ee000de71d4387d21a41fa310e5efedd4046af1a",
+  "followup_delivery": [
+    {
+      "call_id": "call_8KQGoWc3H1icsUwWVKI3fGJ0",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 897968,
+    "cached_input_tokens": 762624,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38061,
+    "reasoning_output_tokens": 30164,
+    "total_tokens": 936029
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:33:43.481Z",
+  "artifacts": {
+    "started.json": "26f4367432b6eefc1ce8d9a62c9f6242768c877fc73afae7450bfdcc4df45f45",
+    "input.json": "cf390bed468e13cd63bd4c6bd38d6d4b66ee8612bae752f0b486659e3a3fa521",
+    "prompt.md": "bbf904d9084d705628ec4d9493add91fc22e353b104d18e7053e35cc1f2db716",
+    "package.md": "ac9a2b224234e7a7c1bf3077186cd88d8ff92bc8e3c8c8b3a070511a0566c8f9",
+    "spawn.md": "28514f3d7d4b01d6378e0584002a95c45e15d2592377d066f73dc1339789d553",
+    "followup.txt": "c7e22ddf070f07810b14111531b229111bb7485b54ad4e1f2fbc9ade274bfe59",
+    "turn1.json": "4e31efa30b953acb723d5ad584765d8dff89cbd3d3603badde4ef850e27de889",
+    "turn1.list.tsv": "b395b3f353b50f401b20a4176342677806a35e61cfd91a274df8771db9f79378",
+    "followup.tsv": "6383ac55977fa18dd45f33ca9b87965f851f97f0c4c75dcb55eb0f1e01264582",
+    "list.tsv": "c6bf19b8a7bcf15f2d75be72ee000de71d4387d21a41fa310e5efedd4046af1a",
+    "consolidation.json": "67e465268067d0ee19db68af04a28cc2fc61140769e8e9bc3a50a385db0990aa",
+    "validation.json": "85247f7c3f10087de782875ad6430ec192f7a162994913b8c6a467c96695ae6a",
+    "proposal_validation.json": "48d4f7841127e20bd81e45b5bbe25b2d456f9ab119c5f0533c4e12b89c5c0f73",
+    "tool_calls.json": "b262f552dd044b00628b2723ca74b1524131724c3567984916ef7a6072d83028",
+    "session.json": "b83ccad7c1ecbb962653df363774e18ebea8258ca6f105ed96c323827f5d28ea",
+    "session.events.jsonl": "60bad1ba61c17ef4eb6d8cc600ee22c5877985e6d9bb0d184539a7fb4cebbb32"
+  }
+}

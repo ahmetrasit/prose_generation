@@ -1,0 +1,1314 @@
+{
+  "target": "sec4",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:21:52.142812-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec4_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "69aff69fa5796abf2885e6a1be0dc79892443949f105abfc92ad04e24daf532a",
+  "package_sha256": "8a467284648526d5e0805a97428504b4918af19036c2028eadfc48e78e999e71",
+  "input_sha256": "c8a6eb5a00eb5302228479956355391c6685eb693b314bce77184e111d021481",
+  "spawn_sha256": "3d1278943ae05b4190a3a64adf5c142f8acfa2fc039f44d7a6d02e87777112c9",
+  "followup_text_sha256": "c861aaef6a8a409661689cf77dc13324cdb97ef538ce847fd7a843e5fa1647c0",
+  "agent_id": "01a10d17-96a7-7693-8aba-445d9574d9b1",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-23-32-01a10d17-96a7-7693-8aba-445d9574d9b1.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 64,
+  "turn1_sha256": "b2405c3a82c82f0a78bcbada60d03f3dd5b56e6ae0259e3add38f443da83733e",
+  "turn2": {
+    "completed": true,
+    "rows_total": 94,
+    "rows_added": 30
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 64,
+    "raw_proposal_rows": 30,
+    "unique_additions": 30,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.5",
+          "basis": "Creator fixes earth's measurements and stretches a line",
+          "note": "Job's creator asks who set the earth's measures and stretched the measuring line over it. It supplies the same concrete move from creating to proportioning that the commentary hears in خلق followed by قدّر."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.28.25",
+          "basis": "wind weighed; waters measured",
+          "note": "God gives the wind a weight and apportions waters by measure. The verse makes cosmic making an act of exact weighting and measurement, matching the commentary's maker sequence rather than a generic creation claim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.12",
+          "basis": "measured waters, heavens, dust, and mountains",
+          "note": "The maker measures waters, marks off heaven, and weighs earth and mountains. Its successive hand-measurements are a close biblical counterpart to the commentary's picture of creation as skilled measuring and setting straight."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 11:20",
+          "basis": "measure, number, and weight",
+          "note": "Wisdom says God arranged all things by measure, number, and weight. This gives an explicit Jewish formulation of the commentary's claim that created things have a determined measure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.3.1",
+          "basis": "a time for every matter",
+          "note": "Qohelet assigns a time to every matter under heaven. It closely meets the commentary's secondary claim that every thing has both a measure and an appointed term."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.26",
+          "basis": "appointed times and territorial boundaries",
+          "note": "Paul says the creator determined the allotted periods and boundaries of the nations. The text extends measured creation into fixed historical limits, the same measure-and-end dimension developed from قدّر."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.4",
+          "basis": "crooked made straight; rough made level",
+          "note": "The preparation of the Lord's way turns crooked ground straight and rough terrain level. This is the physical road-making counterpart to the commentary's سوّى as correcting crookedness before guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.16",
+          "basis": "God leads blind people and levels rough places",
+          "note": "God leads those who cannot see on an unknown way and makes rough places level before them. The verse joins the two actions that the commentary keeps together: smoothing or straightening, then leading toward a way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.45.2",
+          "basis": "goes before and levels the way",
+          "note": "God promises to go before Cyrus and level the elevated ground. Going in front, as the commentary's staff does, is paired here with making a traversable route."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.13.21",
+          "basis": "pillar goes before Israel to lead the way",
+          "note": "The Lord goes before Israel in the pillar in order to lead them on the road. It gives a narrative form to the commentary's explanation that a leading implement receives its name from going ahead of its bearer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.48.17",
+          "basis": "teaching what profits and leading the right way",
+          "note": "God identifies himself as the one who teaches Israel for its profit and leads it in the way it should go. The unusual pairing directly brings 87:9's benefit together with 87:3's guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.3",
+          "basis": "teaching Ephraim to walk, carrying him",
+          "note": "God recalls teaching Ephraim to walk and taking him up in his arms. This depicts the Lord's care as gradual formation and direction, close to the commentary's ربّ as bringing something through stages to completion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.10",
+          "basis": "God's workmanship, created and prepared for a walk",
+          "note": "Believers are God's workmanship, created for works God prepared beforehand so that they would walk in them. The verse makes creation a crafted making with a prepared direction of travel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.13",
+          "basis": "maturity and the measure of full stature",
+          "note": "The community is brought to a mature person and the measure of Christ's full stature. It offers a Christian development of the commentary's phase-by-phase movement to a completed limit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.1.6",
+          "basis": "begun work brought to completion",
+          "note": "The one who began a good work will bring it to completion. Its beginning-to-finish divine workmanship closely parallels the commentary's account of ربّ as completing what is gradually made."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.49.2",
+          "basis": "servant made a polished arrow and hidden in a quiver",
+          "note": "God makes the servant a polished arrow and conceals him in a quiver. This directly meets the commentary's smoothed arrow shaft and arrow-container, while making the fashioned projectile a figure of a divinely directed mission."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.54.16",
+          "basis": "God creates the smith who blows the coal fire and makes a weapon",
+          "note": "The creator is said to make the smith, his coal fire, and the weapon fitted for its task. It makes the commentary's fire, straightening craft, and aimed implement part of a single divine-artisan scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.7.7",
+          "basis": "plumb line set against a built wall",
+          "note": "The Lord stands by a wall made with a plumb line and holds the line himself. This supplies an Israelite image of measuring straightness that turns the commentary's artisanal measuring into an evaluative act."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.11.1",
+          "basis": "measuring reed or rod for temple, altar, and worshipers",
+          "note": "John is given a reed like a rod and commanded to measure the temple, altar, and worshipers. The passage preserves the joined material images of a staff-like implement and exact measurement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.83",
+          "basis": "wineskin in smoke that does not forget statutes",
+          "note": "The speaker has become like a wineskin in smoke but does not forget God's statutes. It tightly joins the commentary's weathered leather vessel with its later concern for a remembrance that remains effective."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.2.22",
+          "basis": "God knows hidden things and darkness",
+          "note": "God reveals deep and hidden things and knows what is in darkness. This is a direct counterpart to 87:7's knowledge of what is openly spoken and what remains concealed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.14",
+          "basis": "hidden deeds brought into judgment",
+          "note": "God will bring every deed, including every hidden thing, into judgment. It adds the judicial consequence to the commentary's open-and-hidden knowledge and its ensuing fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.13",
+          "basis": "no creature hidden before God",
+          "note": "No creature is hidden from God's sight; all are exposed before the one to whom account is given. This follows the same speaker, hiddenness, and accountability structure as 87:7."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.4.5",
+          "basis": "hidden darkness and heart-intentions disclosed at judgment",
+          "note": "The Lord brings to light what is hidden in darkness and discloses the purposes of hearts. It gives a specific New Testament development of concealed knowledge becoming morally consequential."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.9.8",
+          "basis": "reproof helps the wise but provokes the scoffer",
+          "note": "Reproof is hated by a scoffer but loved by the wise. It gives a close sapiential analogue to the commentary's conditional reminder: the same admonition benefits a receptive person and is rejected by another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.16",
+          "basis": "those who fear God and a book of remembrance",
+          "note": "Those who fear the Lord are heard, and a book of remembrance is written before him. The verse specifically links fear with remembrance, the sequence named in 87:9-10."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.15",
+          "basis": "hearing God's voice rather than hardening the heart",
+          "note": "The exhortation says that when God's voice is heard, hearers must not harden their hearts. It is a close response-pattern counterpart to the wretched person who keeps away from the reminder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Ezek.21.26",
+          "basis": "Babylonian king shakes arrows for divination",
+          "note": "At a crossroads the Babylonian king shakes arrows, consults household gods, and examines a liver to choose his route. This is the clearest biblical scene of arrow-divination beside the commentary's Qur'anic prohibition of seeking apportioned outcomes through azlam."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.18.6",
+          "basis": "surveyed land in seven divisions followed by lots",
+          "note": "Joshua orders a written division of the land into seven parts and then casts lots before the Lord. It combines prior measurement and description with the distribution of shares by lot, just as the commentary moves from measure to apportioned portions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.34.17",
+          "basis": "lot cast and land apportioned by a measuring line",
+          "note": "God casts the lot for the creatures and apportions their land with a line. This unusually joins the commentary's two main operations: measured boundary-making and assigned lot."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Prov.16.33",
+          "basis": "lot cast, but its decision from the Lord",
+          "note": "Proverbs says a lot is cast into the lap while every judgment of it comes from the Lord. Against the commentary's ban on divinatory arrows, it supplies a contrasting Israelite maxim that assigns a cast lot's outcome to divine decision."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.26.55",
+          "basis": "inheritance divided by lot among named tribes",
+          "note": "Israel's land inheritance is divided by lot according to ancestral names. The text gives a non-gambling form of the commentary's measured share: a durable allotted possession."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Lev.16.8",
+          "basis": "Aaron's two ritual lots for the goats",
+          "note": "Aaron casts lots to distinguish the goat for the Lord from the goat for Azazel. The regulated cultic lot is a useful counterpoint to the commentary's prohibited lot-arrows, because the difference in ritual setting is the point."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Shabbat 23:2",
+          "basis": "lots for household portions; prohibition of gambling with others",
+          "note": "The Mishnah permits household members to determine portions by lot but forbids doing so with outsiders as gambling. Its legal distinction directly illuminates the commentary's double sense of maysir as distribution of portions and condemned game."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Luke.1.9",
+          "basis": "priestly service assigned by lot",
+          "note": "Zechariah receives the sanctuary task by lot under priestly custom. This is a Christian-scriptural instance of a regulated sacred lot, to be read beside the commentary's sharply negative treatment of divinatory or gambling arrows."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Acts.1.26",
+          "basis": "Matthias selected when the lot falls to him",
+          "note": "After prayer, the apostles cast lots and Matthias receives the lot for the apostolic vacancy. It is a concrete Christian counterpart for lot as discerned communal selection rather than camel-game distribution."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.16.6",
+          "basis": "God as the speaker's portion and holder of his lot",
+          "note": "The psalm calls the Lord the speaker's portion and cup and says that God holds his lot. It provides a theological alternative to a self-sought gambling share: the decisive portion is received from God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.3",
+          "basis": "God apportions a measure of faith to each",
+          "note": "Each person is to think according to the measure of faith God apportioned. The verse turns the commentary's measure-and-share vocabulary into a differentiated divine gift rather than a prize won by chance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.1.11",
+          "basis": "inheritance received according to a prior divine purpose",
+          "note": "The community receives an inheritance after being predestined according to God's purpose. It joins an allotted share to prior determination, a close counterpart to the commentary's measured portion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.1.12",
+          "basis": "share in the inheritance of the saints in light",
+          "note": "The Father qualifies believers for a share in the inheritance of the saints in light. It supplies the positive eschatological share that the commentary contrasts with having no share in the hereafter."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.21.8",
+          "basis": "wicked people's allotted portion in the burning lake",
+          "note": "The listed wicked receive their portion in the lake burning with fire and sulfur. It brings together the commentary's two final terms, allotted share and the great fire, in one eschatological sentence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.66.24",
+          "basis": "unquenched fire and an undying worm for rebels",
+          "note": "The rebels' worm does not die and their fire is not quenched. It is a close Hebrew Bible counterpart to the surah's fire immediately followed by neither dying nor living."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Mark.9.48",
+          "basis": "Isaiah's undying worm and unquenched fire applied to Gehenna",
+          "note": "Jesus cites the undying worm and unquenched fire in teaching about Gehenna. This Christian reuse gives the Isaiah image an explicitly punitive afterlife setting beside the commentary's great fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.57.6",
+          "basis": "Hebrew h-l-q: smooth stones, portion, and lot",
+          "note": "Isaiah plays on smooth valley stones, a person's portion, and lot in one idolatry verse. Hebrew h-l-q is a concrete Semitic cognate meeting for the commentary's Arabic خ ل ق cluster, which likewise develops smoothing and the apportioned خلاق; the cultic setting keeps the comparison specific."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.14.22",
+          "basis": "God Most High in Abraham's oath",
+          "note": "Abraham names the creator God Most High in his oath. Hebrew Elyon and the commentary's al-A'la belong to the same highness vocabulary, while Abraham's presence answers the section's closing turn to Ibrahim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Luke.3.5",
+          "basis": "Isaiah's crooked roads made straight in John the Baptist's preparation",
+          "note": "Luke places the leveling of valleys, straightening of crooked places, and smoothing of rough ways in the preparation for the Lord's coming. It is a specifically Christian reading of the road-making image that the commentary hears in سوّى and هدى."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.4",
+          "basis": "the shepherd goes ahead and sheep follow",
+          "note": "The shepherd brings out his own sheep, goes before them, and they follow. This gives a close living analogue to the commentary's leading staff, named for preceding the one it guides."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.13.17",
+          "basis": "arrow of the Lord's victory shot toward the east",
+          "note": "Elisha orders an eastward shot and calls it the Lord's arrow of victory. It gives the fashioned arrow a prophetic target and direction, like the commentary's hearing of guidance through an arrowhead aimed ahead."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.20.37",
+          "basis": "an arrow beyond the boy signals David's course",
+          "note": "Jonathan's cry that the arrow is beyond the boy functions as a directional signal to the hidden David. This adds a narrative use in which an arrow tells someone where danger and movement lie."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.21.19",
+          "basis": "God opens Hagar's eyes and she fills a water-skin at the well",
+          "note": "After God opens Hagar's eyes to a well, she fills the skin and gives the child water. It puts the commentary's prepared water-skin into a scene of guided provision rather than treating the vessel as a mere shared object."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.9.13",
+          "basis": "wineskins worn out through use",
+          "note": "The Gibeonites display wineskins that were new when filled but are now worn out. This is a concrete biblical analogue to the commentary's account of a leather vessel becoming smooth and spent through use."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.2.22",
+          "basis": "fresh wineskins preserve what they contain",
+          "note": "New wine must be put into fresh wineskins so that both vessel and wine are preserved. Its point depends on the condition and fitness of worked leather containers, an apt counterpart to the commentary's detailed water-skin craftsmanship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.64.8",
+          "basis": "potter, clay, and the work of divine hands",
+          "note": "Israel calls God its potter and itself the work of God's hands. It offers another concrete artisan image for the commentary's claim that creation verbs sound like stages in a maker's work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.44.13",
+          "basis": "human artisan measures and shapes an idol",
+          "note": "A carpenter stretches a line, marks, planes, and compasses an image for a house. The measured craft resembles the commentary's workshop sequence, but Isaiah uses it to expose a human-made idol whereas the Qur'anic sequence predicates measured making of God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.1.7",
+          "basis": "sailors cast lots to identify the cause of disaster",
+          "note": "The sailors cast lots to discover on whose account the storm has come. This is a specific narrative analogue to seeking a hidden judgment through a lot, the sort of divinatory use that makes the Qur'anic ban on arrow-lots intelligible."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Sanhedrin 3:3",
+          "basis": "dice-player disqualified from testimony",
+          "note": "The Mishnah lists a player with dice among people disqualified from giving testimony. Its legal suspicion of gaming supplies a Jewish ethical counterpart to the commentary's contrast between apportioned share and maysir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 3:4",
+          "basis": "ban on divination and related practices",
+          "note": "The Didache tells its reader not to become a diviner or seek such practices. Though it does not name arrows, it provides an early Christian prohibition of the divinatory aim that the commentary identifies in lot-arrows."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Niddah 16b",
+          "basis": "traits allotted at conception but not righteousness or wickedness",
+          "note": "The Talmud imagines an angel asking what a conceived drop will become—strong or weak, wise or foolish, rich or poor—while excluding righteous or wicked. It is a precise Jewish qualification of measured human endowment that preserves the moral choice foregrounded by the commentary's final contrast."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 10:6",
+          "basis": "a heavenly mazal tells each blade of grass to grow",
+          "note": "The midrash says no blade of grass lacks a heavenly mazal that strikes it and says, Grow. It develops divine guidance of created life at the creaturely level, giving a Jewish interpretive analogue to قدر then هدى."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "1QS 3:17-19",
+          "basis": "two spirits appointed for people to walk in until visitation",
+          "note": "The Community Rule says God appoints two spirits in which humans walk until the time of visitation. Its measured duration and directed paths make a specific Second Temple comparison for the commentary's divine determination, guidance, and consequential choice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.11.30",
+          "basis": "easy yoke and light burden",
+          "note": "Jesus calls his yoke easy and burden light. This is a close Christian use of ease as the character of a divinely given way, beside 87:8's promise of being eased toward ease."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.25",
+          "basis": "not a forgetful hearer, but a doer blessed in action",
+          "note": "James contrasts a forgetful hearer with one who persists in the liberating law and is blessed in doing. It gives the commentary's beneficial reminder a practical outcome rather than mere recollection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.15",
+          "basis": "avoid, turn away from, and pass beyond the wicked path",
+          "note": "The father repeatedly commands avoidance of the wicked path: do not enter it, turn away, and pass on. Its verbs give a concrete path-image for the commentary's yatajannabuha, even though the object there is the reminder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.12.8",
+          "basis": "Hebrew tzeli-esh, roasted with fire",
+          "note": "The Passover flesh is to be eaten roasted with fire. Hebrew tz-l-h and Arabic s-l-y are a plausible Semitic lexical meeting for the commentary's fire verb, but the Hebrew passage concerns cooking rather than entering or straightening at a fire, so the semantic link should remain qualified."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.14",
+          "basis": "lights appointed for signs, seasons, days, and years",
+          "note": "The created lights are set in the firmament to mark signs, seasons, days, and years. This gives a creation passage in which making also establishes the measured temporal order and term developed from قدر."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.26.10",
+          "basis": "a boundary inscribed on the waters at light's limit",
+          "note": "God draws a boundary on the face of the waters at the limit between light and darkness. The image is a precise act of measured delimitation within creation, extending the commentary's maker scene beyond tools and objects."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.8.29",
+          "basis": "the sea's limit and earth's foundations marked out",
+          "note": "Wisdom recalls God assigning the sea a limit so its waters do not transgress and marking the earth's foundations. It specifies measurement as a boundary that guides created elements in their proper course."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.9",
+          "basis": "human planning and the Lord establishing steps",
+          "note": "A person's heart plans a way, but the Lord establishes the steps. This compresses the commentary's pondering of how to prepare a matter and the subsequent divine directing of its course."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.11",
+          "basis": "teaching a way of wisdom and leading in upright tracks",
+          "note": "The parental teacher says, I have taught you the way of wisdom and led you in upright tracks. Its joined teaching, leading, and straight path provide a sapiential counterpart to measured preparation followed by guidance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.21",
+          "basis": "a voice identifies the way to walk",
+          "note": "When hearers turn right or left, a voice behind them says, This is the way; walk in it. The verse gives guidance a concrete directional utterance, like the commentary's implement aimed ahead."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.27.17",
+          "basis": "a leader who goes out before and brings the people in",
+          "note": "Moses asks for a leader who will go out before the congregation, bring them out and in, so they will not be sheep without a shepherd. It makes the before-going action a responsible form of guidance in the Moses context named at the end of the surah."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.2",
+          "basis": "remembering the whole way God led in the wilderness",
+          "note": "Israel is commanded to remember the whole way the Lord led it for forty years, including the testing that exposed what was in the heart. This joins remembrance, divine leading, and knowledge of the concealed interior."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.1",
+          "basis": "remember the creator before the evil days",
+          "note": "Qohelet commands remembrance of the creator before the days of decline arrive. It gives the commentary's creation and reminder motifs a single temporal exhortation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.16.7",
+          "basis": "humans see appearance while the Lord sees the heart",
+          "note": "The Lord distinguishes human sight of outward appearance from his own sight of the heart. It is a particularly concrete counterpart to knowing the public and the concealed."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.7.11",
+          "basis": "refusal to listen, turned shoulder, and stopped ears",
+          "note": "The ancestors refuse to pay attention, turn a stubborn shoulder, and make their ears too heavy to hear prophetic instruction. This is a close narrative profile of keeping away from a reminder."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.3.16",
+          "basis": "Scripture profitable for teaching, reproof, correction, and training",
+          "note": "Scripture is called profitable for teaching, reproof, correction, and training in righteousness. It gives a direct Christian account of how a reminder can be beneficial rather than merely repeated."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.3.17",
+          "basis": "person of God made complete and equipped",
+          "note": "The stated result of useful instruction is that God's person becomes complete and equipped for every good work. This translates the commentary's prepared, finished artisan object into moral and communal formation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.7.17",
+          "basis": "what the Lord assigned and the path each person walks",
+          "note": "Each person is to walk as the Lord assigned and as God called. The verse closely unites an apportioned share with a directed way of life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.12.11",
+          "basis": "Spirit apportions gifts individually as it wills",
+          "note": "The one Spirit distributes gifts to each person individually as it wills. This is a direct New Testament counterpart to the commentary's measured portion given by a determining giver rather than won in a game."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.10.13",
+          "basis": "the measure and field God apportioned",
+          "note": "Paul refuses to boast beyond the measure of the field God apportioned to him. The passage uses an assigned measure as a real limit and vocation, preserving both senses in the commentary's قدر."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.21.15",
+          "basis": "golden measuring rod for city, gates, and wall",
+          "note": "The angel holds a golden measuring rod to measure the city, its gates, and its wall. This provides a second, eschatological scene in which a rod and exact measurement belong together."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.25",
+          "basis": "do not refuse the one who speaks",
+          "note": "The readers are warned not to refuse the one who speaks from heaven. It is a direct continuation of the response contrast in 87:9-11: warning becomes deadly when its speaker is avoided."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.41",
+          "basis": "eternal fire prepared for the cursed",
+          "note": "The cursed are told to depart into the eternal fire prepared for the devil and his angels. This is a distinct Christian judgment scene for the great fire, with preparation language that also recalls the commentary's crafted readiness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.3",
+          "basis": "refiner's fire purifying metal",
+          "note": "The Lord sits as a refiner and purifier of silver to cleanse the Levites. It gives fire an artisan's transformative function, close to the commentary's fire used to straighten a staff, while retaining its own priestly context."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.21.14",
+          "basis": "Hagar sent out with bread and a skin of water",
+          "note": "Abraham places bread and a skin of water on Hagar before sending her into the wilderness. As the necessary beginning of the later well scene, it shows the water-skin's carrying function and the vulnerability that makes its refilling significant."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.32.19",
+          "basis": "new wineskins ready to burst",
+          "note": "Elihu compares pent-up speech to wine without a vent, like new wineskins ready to burst. This gives the leather vessel a dynamic of internal pressure, a distinct material counterpart to the commentary's shaken and worked skin."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Esth.3.7",
+          "basis": "Pur cast day by day to select a destructive date",
+          "note": "Haman casts Pur, explicitly a lot, to select the day and month for his plan against the Jews. This is a sharply negative biblical lot scene beside the commentary's concern that a share sought through chance can become morally corrupt."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 3:15",
+          "basis": "all foreseen, yet freedom of choice given",
+          "note": "Avot holds together divine foreknowledge and granted human choice. This is a concise Jewish formulation for reading the commentary's measured determination without collapsing its final moral choosing into fatalism."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 33b",
+          "basis": "everything in Heaven's hands except fear of Heaven",
+          "note": "The Talmud's maxim reserves fear of Heaven from what is in Heaven's hands. It places 87:10's fear within a Jewish distinction between divine determination and responsible response."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.16.13",
+          "basis": "Spirit of truth guides into all truth",
+          "note": "The Spirit of truth will guide the disciples into all truth. It supplies a distinctly Christian form of the commentary's guidance motif, where leading reaches truthful understanding rather than a physical target."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.10",
+          "basis": "discipline for good and a share in holiness",
+          "note": "God's discipline is for the hearers' good so that they may share in holiness. The verse joins staged parental formation, benefit, and received share, three elements the commentary develops separately."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.13",
+          "basis": "fire tests each person's work",
+          "note": "The day reveals each person's work because it is disclosed in fire, which tests its quality. This gives a distinct Christian use of fire as testing crafted work, beside the commentary's staff-shaping fire and punitive fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.2",
+          "basis": "the measure used returns to the measurer",
+          "note": "The measure used in judgment is measured back to the judge. It turns the commentary's measuring vocabulary into an ethical rule of reciprocal assessment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.27.11",
+          "basis": "Hebrew halaq, smooth rather than hairy",
+          "note": "Jacob calls himself a smooth man in contrast with Esau's hairiness. Hebrew h-l-q is a plausible cognate meeting for the commentary's Arabic خ ل ق in its developed smoothness sense, but the verse concerns bodily texture rather than a smoothed arrow or worn skin."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "31d30276b81335cd4066863278fed1e8c132a545d96238757e660d92179b4fd0",
+    "followup_sha256": "31d30276b81335cd4066863278fed1e8c132a545d96238757e660d92179b4fd0"
+  },
+  "consolidation_error": null,
+  "list_sha256": "aca564c24c97ea4051903cfc2be532090bbc612a676b7126dc84367aa7033916",
+  "followup_delivery": [
+    {
+      "call_id": "call_Y07eEOxv7m9yCRoGoPkDEk7Y",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 350778,
+    "cached_input_tokens": 294400,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 25657,
+    "reasoning_output_tokens": 18170,
+    "total_tokens": 376435
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:19:25.226Z",
+  "artifacts": {
+    "started.json": "81fc3dc9d13738953415ed533e71c3475c1b5e7332cc302fdc10761effd16645",
+    "input.json": "c8a6eb5a00eb5302228479956355391c6685eb693b314bce77184e111d021481",
+    "prompt.md": "69aff69fa5796abf2885e6a1be0dc79892443949f105abfc92ad04e24daf532a",
+    "package.md": "8a467284648526d5e0805a97428504b4918af19036c2028eadfc48e78e999e71",
+    "spawn.md": "3d1278943ae05b4190a3a64adf5c142f8acfa2fc039f44d7a6d02e87777112c9",
+    "followup.txt": "c861aaef6a8a409661689cf77dc13324cdb97ef538ce847fd7a843e5fa1647c0",
+    "turn1.json": "2f1f25ca9d0683523126834b5523fef4293196af780b4a4bc9aa573246dd6673",
+    "turn1.list.tsv": "b2405c3a82c82f0a78bcbada60d03f3dd5b56e6ae0259e3add38f443da83733e",
+    "followup.tsv": "31d30276b81335cd4066863278fed1e8c132a545d96238757e660d92179b4fd0",
+    "list.tsv": "aca564c24c97ea4051903cfc2be532090bbc612a676b7126dc84367aa7033916",
+    "consolidation.json": "da53a0c32d346f96ddbbcb6f88e0ceff97f821bb3bff7ebda86dabce173e2625",
+    "validation.json": "e94617d00685d5addf0cf1fa20f1bd4316ef5718fbd95255fb2228fe06e46d36",
+    "proposal_validation.json": "eaccc3e97892d4f82a01a097c736d54ce99fd933b2e1e86f19334b94f6b8fbc2",
+    "tool_calls.json": "4b4e194c047ee9d782d714132c5901559379914cfb9c9c3aa75498bdb98c36d2",
+    "session.json": "e5415d5b4d2625d6c53413a056662646ccdd0f2f16ccb22f9ce719e41348f2ae",
+    "session.events.jsonl": "2e2781f28f9ba5d395d4e370018e89c29fcb507a29ed42dceaf26acc6023f832"
+  }
+}

@@ -1,0 +1,1743 @@
+{
+  "target": "sec14",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:21:58.027247-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec14_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "1eb50db49513af89654f20082ed13ed2b9bcbad6b75df43fcf096ff8e8eed392",
+  "package_sha256": "98a9d0bfcbb6a0557254b319c6ee9d4ee86f4256d58abfd9aa99f30843ee26b0",
+  "input_sha256": "53ed42ddb246f8df00ad9a9a69fc9a9dea0815f4f5e34b59de81dad7635bb6a9",
+  "spawn_sha256": "e8285e175d9b59dbe0dfeac27288752299ceb9b9865654b2aa86b8f8bb078b33",
+  "followup_text_sha256": "d16841fb1b144191f23bc035262945ca429db0ddd3e27efb7436fce8f5acf9b6",
+  "agent_id": "01a10d1b-7262-7bb0-b6c2-9a46d1b7173f",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-27-45-01a10d1b-7262-7bb0-b6c2-9a46d1b7173f.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 81,
+  "turn1_sha256": "a36b29df7e48ddbd6316ab337dda3059f2030e279efe9e626026aea8ccc74509",
+  "turn2": {
+    "completed": true,
+    "rows_total": 127,
+    "rows_added": 46
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 81,
+    "raw_proposal_rows": 46,
+    "unique_additions": 46,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.24.27",
+          "basis": "road and house",
+          "note": "The commentary glosses h-d-y as showing someone both the road and the house. Abraham's servant says that God led him on the road to his master's kinsmen's house, giving the journey image a concrete destination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.13.21",
+          "basis": "guide going before",
+          "note": "YHWH goes before Israel in cloud and fire expressly to lead them on the road. This closely supplies the commentary's claim that the guide is named for advancing ahead of the travelers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.23.20",
+          "basis": "messenger before the way",
+          "note": "The promised messenger is sent before Israel to guard the way and bring them to a prepared place. It joins the commentary's forward guide, safe route, and arrival."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.1.33",
+          "basis": "seeking a campsite ahead",
+          "note": "God goes ahead on Israel's way to seek a place to camp and shows them which route to take. The text makes the guide's prior movement and knowledge of resting place explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.52.12",
+          "basis": "no haste or flight",
+          "note": "The commentary contrasts an unhurried, composed walk with fleeing. Isaiah says the departing people will neither leave in haste nor flee because YHWH goes before them and guards behind."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.4",
+          "basis": "shepherd before sheep",
+          "note": "The commentary's hadi goes ahead and the animal follows readily. Jesus' shepherd goes before his sheep, and they follow because they know his voice, a close Christian pastoral rendering of both actions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.79",
+          "basis": "feet guided into peace",
+          "note": "Zechariah's prophecy says the divine visitation will guide feet into the way of peace. It turns the commentary's road-leading and calm gait into an explicitly salvific destination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.21",
+          "basis": "this is the way",
+          "note": "When a traveler turns right or left, Isaiah's voice says, \"This is the way; walk in it.\" That is a precise counterpart to the commentary's guide who identifies a road rather than merely giving advice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.16",
+          "basis": "unknown paths made smooth",
+          "note": "God leads blind people on unfamiliar roads and makes rough places level. This combines the commentary's guided traveler with its concern for a route made passable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.4",
+          "basis": "mountain and rough ground leveled",
+          "note": "The commentary dwells on a long mountain ridge whose climb is made easier. Isaiah's preparation of the divine way lowers mountains, raises valleys, and smooths rough ground."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Baruch 5:7",
+          "basis": "leveled return road",
+          "note": "Baruch says God orders mountains lowered and valleys filled so Israel can walk safely. Its return procession makes the commentary's high route and divinely eased walking a single scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.3.5",
+          "basis": "mountains low and roads smooth",
+          "note": "Luke applies the leveling of valleys, mountains, crooked places, and rough roads to the coming salvation. It gives a Christian reception of the terrain that the commentary reads as a journey."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.63.13",
+          "basis": "horse without stumbling",
+          "note": "God leads Israel through the depths like a horse in the wilderness so that it does not stumble. This directly links the commentary's guided animal and its light, sure movement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.3.19",
+          "basis": "deer feet on heights",
+          "note": "Habakkuk says God makes his feet like a deer's and lets him tread on high places. It is a compact analogue to the commentary's light legs and mountain-ridge travel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.12",
+          "basis": "unconstrained steps",
+          "note": "Wisdom's path leaves the walker's stride unconfined and prevents stumbling even when running. It concretizes the commentary's easy road and untroubled gait."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Ps.32.9",
+          "basis": "horse and mule under bit",
+          "note": "The commentary imagines a horse that yields easily and follows quickly. Psalm 32 warns against an uncomprehending horse or mule that must be restrained by bit and bridle, an instructive inverse image of responsive guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.3.3",
+          "basis": "horse made obedient",
+          "note": "James puts bits in horses' mouths so that they obey and their whole bodies are guided. Its explicit horse, obedience, and direction closely illuminate the commentary's easy-to-lead mount."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.17.12",
+          "basis": "weak person held by two",
+          "note": "The commentary gives the secondary image of a weakened person sustained between two people. Aaron and Hur support Moses' heavy hands from either side, supplying a concrete biblical pattern of two-sided aid to weakness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.13",
+          "basis": "straight paths for lame feet",
+          "note": "The commentary's route concerns weak movement and a path made easy. Hebrews orders straight paths for the feet so that what is lame is healed rather than put out of joint."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.18.22",
+          "basis": "burden made easier",
+          "note": "Moses' work is too heavy alone, and shared judgment will make it easier for him. This provides a narrative analogue to the commentary's ease as the removal of disabling strain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 5:6",
+          "basis": "guide who knows the road to Media",
+          "note": "Tobiah seeks a companion who knows the road, and Raphael assures him that he knows it from repeated travel. The scene gives the commentary's forward guide a named journey companion and a known destination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.22.11",
+          "basis": "blind traveler led by hand",
+          "note": "After the heavenly encounter leaves Saul unable to see, his companions lead him by hand to Damascus. It offers a concrete Christian counterpart to the commentary's weakened traveler needing bodily guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.34",
+          "basis": "wounded man on an animal",
+          "note": "The commentary turns the promise of ease into a rider-and-mount picture. The Samaritan places the wounded traveler on his own animal and conveys him to care, making the animal an instrument of supported passage."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Num.22.23",
+          "basis": "donkey turns aside before the angel",
+          "note": "The commentary reads the wretched person's tajannub as passing the warning by and keeping it at the roadside. Balaam's donkey turns aside from the road because it sees the armed divine messenger that its rider misses; here the sideways movement is the faithful response to warning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.6.16",
+          "basis": "good path offered and refused",
+          "note": "YHWH tells the people to stand at the roads, ask for the good ancient path, walk it, and find rest; they answer that they will not walk in it. This is a close counterpart to the reminder that the wretched person avoids."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.7.11",
+          "basis": "turning a stubborn shoulder",
+          "note": "Those addressed refuse to heed, turn a rebellious shoulder, and make their ears heavy. The bodily turning away makes unusually concrete the commentary's interpretation of avoiding the reminder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.12",
+          "basis": "word beside the road",
+          "note": "In Luke's explanation, seed beside the road is the word heard and then removed before belief. It gives the commentary's image of keeping the admonition at one's roadside an explicit parabolic setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.15",
+          "basis": "hearing and hardened hearts",
+          "note": "Hebrews repeats the summons to hear God's voice today and not harden the heart. It places the commentary's contrast between fruitful reminder and wretched avoidance in an exhortatory Christian reception."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.5.24",
+          "basis": "stubble, fire, rejected instruction",
+          "note": "Isaiah makes dry grass and stubble burn because the people rejected YHWH's instruction. It binds the commentary's pasture becoming refuse to its adjacent scene of admonition refused and fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.4",
+          "basis": "chaff driven away",
+          "note": "The commentary's pasture ends as ghutha, expendable dark refuse. Psalm 1 gives the wicked the specific image of chaff driven away, adding an ethical use of agricultural residue without equating the texts."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.7",
+          "basis": "grass withers under divine breath",
+          "note": "The pasture in the commentary is brought forth and then becomes dark waste. Isaiah's grass withers and flower fades when the breath of YHWH blows on it, a close vegetation-to-decay image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.11",
+          "basis": "grass withers and flower falls",
+          "note": "James describes the sun's scorching rise: grass withers, its flower falls, and its beauty perishes. This supplies a Christian moral use of the transience visually developed in the commentary's pasture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.3.12",
+          "basis": "chaff burned in unquenchable fire",
+          "note": "The commentary places ghutha beside the wretched person's great fire. Matthew's winnowing scene gathers chaff and burns it, giving an eschatological continuation to that agricultural residue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.3.17",
+          "basis": "toil after Eden",
+          "note": "The commentary explicitly reads Adam's expulsion from the garden as entry into shaqa, hardship. Genesis curses the ground for Adam and makes his eating depend on toil, the matching narrative consequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.3.23",
+          "basis": "expulsion to work the ground",
+          "note": "Genesis sends Adam out of Eden to till the ground from which he was taken. This supplies the expulsion-and-labor scene behind the commentary's Adamic account of hardship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.22.3",
+          "basis": "Abraham saddles a donkey for the journey",
+          "note": "The commentary's rider-and-mount imagery ends by invoking Abraham's plea against idols. Genesis shows Abraham rising, saddling his donkey, and setting out, furnishing a literal Abrahamic journey without identifying its purpose with the Qur'anic prayer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.22",
+          "basis": "casting away images",
+          "note": "The commentary contrasts the wretched person who keeps the reminder at a distance with Abraham's request to be kept from idols. Isaiah commands defiling and casting away idol-images as something unclean."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.24.23",
+          "basis": "put away foreign gods",
+          "note": "Joshua commands Israel to put away the foreign gods among them and incline the heart to YHWH. It makes the commentary's requested separation from idolatry an enacted turn of direction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.1.9",
+          "basis": "turning from idols to God",
+          "note": "The Thessalonians turn to God from idols to serve the living and true God. That conversion gives a New Testament counterpart to Abraham's desire that he and his sons be kept from idol worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.10.14",
+          "basis": "flee idolatry",
+          "note": "Paul's direct command to flee idolatry supplies a Christian imperative for the commentary's inverted use of janb: deliberate distance from the false object rather than distance from divine reminder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 38:13",
+          "basis": "Abraham destroys Terah's idols",
+          "note": "This midrash expands Abraham's anti-idolatry into the episode of smashing Terah's images. It gives Jewish narrative force to the commentary's Abrahamic request for separation from idols, while remaining an interpretive tradition rather than a shared biblical scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Jubilees 12:12–14",
+          "basis": "Abraham burns the idol house",
+          "note": "Jubilees portrays Abram burning the house of idols and the resulting crisis in Terah's household. The expansion makes active rupture with idols the narrative counterpart to the commentary's Abrahamic prayer for protection from them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom 11:20",
+          "basis": "creation by measure number and weight",
+          "note": "The commentary begins with the Creator who creates and proportions. Wisdom says God arranged all things by measure, number, and weight, a particularly exact Jewish articulation of ordered creation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.5",
+          "basis": "determined measurements of earth",
+          "note": "God asks who fixed the earth's measures and stretched a line over it. It supplies a biblical cosmic instance of the measuring and proportioning named in the commentary on 87:2–3."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.28.25",
+          "basis": "weight for wind and measure for waters",
+          "note": "Job describes God assigning weight to wind and measure to waters. This makes the commentary's divine measuring a material ordering of a world through which creatures travel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1QS 3:17–18",
+          "basis": "two spirits for human walking",
+          "note": "The Two Spirits Treatise says that God made humanity and appointed two spirits for people to walk by until visitation. It is an unusually close Second Temple analogue to the commentary's created traveler facing divergent roads."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 1:1",
+          "basis": "two ways of life and death",
+          "note": "The Didache opens with two ways, one of life and one of death. Its explicit road-formulation belongs beside the commentary's one route whose ends become ease or hardship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Epistle of Barnabas 18:1",
+          "basis": "way of light and way of darkness",
+          "note": "Barnabas introduces two ways of teaching and authority, light and darkness. This Christian two-way schema sharpens the commentary's moral split between following guidance and moving away from warning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.13",
+          "basis": "broad way ending in destruction",
+          "note": "Matthew contrasts the broad way that leads to destruction with the life-giving entrance. It gives a concrete New Testament road division for the commentary's opposed courses of ease and hardship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "constricted way leading to life",
+          "note": "The commentary can picture the difficult side as the road of wretchedness, while Matthew calls the life-giving way constricted and hard. The contrary assignment of difficulty makes the comparison interpretively useful rather than a simple equation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "4 Ezra 7:6–9",
+          "basis": "narrow path between fire and water",
+          "note": "4 Ezra imagines the entrance to a city as a single narrow path between fire and deep water. Its perilous route makes the commentary's ridge, choice, and final destination into a vivid Jewish apocalyptic travel scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 15:17",
+          "basis": "life and death set before a person",
+          "note": "Sirach sets life and death before human beings and says each receives what is chosen. It provides a wisdom-text counterpart to the commentary's guided road that divides according to the traveler's response."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 3:5",
+          "basis": "yoke of Torah and released burdens",
+          "note": "Avot says accepting the yoke of Torah removes other yokes, while throwing it off brings them on. This rabbinic interpretation makes the commentary's ease and hardship consequences of what one willingly follows."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.11.30",
+          "basis": "easy yoke and light burden",
+          "note": "The commentary's yusr is ease, compliant following, and light movement. Jesus calls his yoke easy and burden light, a direct Christian moral use of ease in animal-yoke imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Acts.15.10",
+          "basis": "unbearable yoke",
+          "note": "Acts calls a disputed yoke one that neither ancestors nor present hearers could bear. In contrast to the commentary's mount readily yielding to its rider, this verse tests which religious burden is actually bearable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.36.27",
+          "basis": "Spirit causing obedient walking",
+          "note": "God promises to put his spirit within Israel and cause them to walk in his statutes. It supplies a biblical model of divine enablement for the commentary's promise to make a person ready for the easy course."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.8",
+          "basis": "highway on which travelers do not stray",
+          "note": "Isaiah's holy highway is a route on which even inexperienced travelers do not go astray. It joins the commentary's explicit guiding with a road made reliable for its walkers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.7",
+          "basis": "straight way to an inhabited town",
+          "note": "God leads wandering people by a straight way until they reach an inhabited town. Like the commentary's road-and-house gloss, its guidance ends in arrival and habitation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.43.19",
+          "basis": "way in wilderness",
+          "note": "God promises to make a way in wilderness and rivers in desert. This develops the commentary's divine route-making where the natural terrain itself offers no easy passage."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.16.13",
+          "basis": "Spirit guiding into truth",
+          "note": "The Spirit is said to guide the disciples into all truth. It transfers the commentary's guide who shows the road into a Christian account of revelatory direction, rather than treating guidance as mere locomotion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.3",
+          "basis": "pasture shepherding and right tracks",
+          "note": "The commentary moves from pasture to guided travel. Psalm 23's shepherd restores life and guides on right tracks, keeping pasture and route together in a single pastoral image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.2.3",
+          "basis": "ascending mountain to learn God's paths",
+          "note": "Nations go up YHWH's mountain so that he may teach them his ways and they may walk in his paths. It connects the commentary's mountain ascent with instruction that directs walking."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.24.61",
+          "basis": "camel riders following the servant",
+          "note": "After the road-to-house guidance of the same narrative, Rebekah and her companions mount camels and follow the servant. It supplies a literal caravan version of the commentary's rider, animal, and following image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.31.34",
+          "basis": "idols concealed in a camel saddle",
+          "note": "The commentary links a camel-hump covering for riding with Abraham's plea to be kept from idols. Rachel hides household gods in a camel saddle and sits on it, a concrete inverse scene in which idolatry is carried inside the riding equipment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.13",
+          "basis": "riding on the heights of the land",
+          "note": "God makes Israel ride on the heights of the land. It is a poetic counterpart to the commentary's mount and elevated ridge, though it does not itself explain the ease of ascent."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.26.7",
+          "basis": "level path of the righteous",
+          "note": "Isaiah calls the righteous person's path level and says the Upright One makes it even. This adds a moral use of levelness to the commentary's easier, balanced road."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.28.16",
+          "basis": "faith without hurrying",
+          "note": "The commentary's good hedy is not a fleeing rush. Isaiah says the one who trusts will not act in haste, giving calm movement a faith-based interpretation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.19.2",
+          "basis": "hasty feet miss the way",
+          "note": "Proverbs warns that haste of feet makes a person miss the way. It provides a compact wisdom counterpoint to the commentary's measured, unhurried gait."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.7.24",
+          "basis": "walking backward after refusing to hear",
+          "note": "Jeremiah says the people did not listen, walked in their own counsels, and went backward rather than forward. It makes the commentary's contrast between a forward guide and avoidance of admonition spatially explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.6",
+          "basis": "the two ways and the wicked's end",
+          "note": "Psalm 1 contrasts the way known by YHWH with the way of the wicked that perishes. It is a foundational but less pictorial parallel to the commentary's road whose result depends on the traveler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.19",
+          "basis": "choosing life rather than death",
+          "note": "Moses sets life and death, blessing and curse before Israel and calls for choosing life. It provides covenantal language for the commentary's opposed outcomes of a shown way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.19",
+          "basis": "wicked path as darkness and stumbling",
+          "note": "The wicked walk in darkness and do not know what makes them stumble. It complements the commentary's wretched traveler with a path whose very obstacles are unrecognized."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Testament of Asher 1:3–5",
+          "basis": "two ways and two dispositions",
+          "note": "The Testament of Asher describes two ways and corresponding dispositions and outcomes. It is a Jewish para-scriptural development of the moral road division in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "Sirach 6:24–31",
+          "basis": "wisdom's yoke and bonds",
+          "note": "Sirach urges the learner to put neck and shoulder under Wisdom's yoke, which becomes an ornament. It complicates the commentary's easy animal image by treating willingly borne discipline as the route to a good end."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.2",
+          "basis": "bearing one another's burdens",
+          "note": "The commentary's weak walker is sustained by others and its easy route relieves hardship. Paul commands mutual burden-bearing, an ethical counterpart without the travel scene itself."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.10.5",
+          "basis": "sheep flee a stranger",
+          "note": "The commentary treats turning aside from the true reminder as the wretched response. Jesus' sheep flee a stranger precisely because they do not know that voice, showing that withdrawal is right or wrong according to the guide recognized."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.21",
+          "basis": "following in Christ's steps",
+          "note": "Christ leaves an example so believers may follow in his steps. This is a Christian ethical use of the commentary's following-behind-a-guide image, without its animal figure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "Lamb shepherding and guiding to waters",
+          "note": "The Lamb shepherds the redeemed and guides them to springs of living water. It reverses ordinary rider-and-animal roles while retaining the commentary's leading figure and safe destination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Luke.16.23",
+          "basis": "tormented man sees the blessed afar",
+          "note": "The commentary's wrong road culminates with a blessed person looking down to a companion in hell's center. Luke reverses the viewpoint: a tormented rich man sees Abraham and Lazarus far away, a related but differently arranged afterlife sightline."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:2Pet.2.15",
+          "basis": "Balaam as one leaving the straight way",
+          "note": "Second Peter calls corrupt teachers people who leave the straight way and follow Balaam's way. Read beside Numbers 22:23, it turns the donkey-and-road episode into a Christian moral warning relevant to the commentary's guidance and wrong turning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.40.25",
+          "basis": "Hebrew shavah and the source label sawa",
+          "note": "The commentary explicitly gives سوى the sense of equality and a balanced middle. Isaiah uses Hebrew שוה, a likely Semitic cognate, for being equal or comparable to the Holy One; its context checks the equality sense while supplying no camel-saddle image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.3",
+          "basis": "prepare YHWH's way in wilderness",
+          "note": "The commentary treats guidance as showing a real road and making a journey possible. Isaiah's command to prepare YHWH's way and make a highway straight supplies the route-formula that precedes its leveling in 40:4."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.3.4",
+          "basis": "prepare the Lord's way",
+          "note": "Luke quotes the call to prepare the Lord's way and make his paths straight. It is the Christian continuation that supplies the guide-and-road formula distinct from the terrain changes in Luke 3:5."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.57.14",
+          "basis": "remove obstacles from my people's way",
+          "note": "A voice orders a way built up and every obstruction removed from the people's path. This directly realizes the commentary's promise of a road made easy for its walker."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.62.10",
+          "basis": "build highway and clear stones",
+          "note": "The prophet tells people to pass through the gates, build up the highway, and clear its stones. Its public roadwork makes concrete the commentary's eased route rather than a merely inward disposition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.9",
+          "basis": "straight path without stumbling",
+          "note": "God leads the returning people by streams on a straight path where they will not stumble. This closely combines the commentary's guide, light movement, and secure arrival."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.52",
+          "basis": "people led like a flock",
+          "note": "God leads his people out like sheep and guides them through the wilderness like a flock. It gives the commentary's guide-before-followers image an explicitly animal-shaped biblical form."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.105",
+          "basis": "word as lamp for feet and path",
+          "note": "The commentary makes divine guidance a journey and its rejected message a reminder. Psalm 119 calls God's word a lamp for feet and light for a path, joining revelation and locomotion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.6.23",
+          "basis": "commandment as lamp and reproof as way of life",
+          "note": "Proverbs calls commandment a lamp, teaching light, and corrective reproofs the way of life. This makes the commentary's admonition something that should direct a traveler rather than be passed by."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.48.17",
+          "basis": "God teaches and leads the profitable way",
+          "note": "YHWH teaches what benefits and leads Israel in the way it should go. It directly pairs the commentary's divine huda with yusr as a beneficial course."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.143.10",
+          "basis": "good Spirit on level ground",
+          "note": "The psalm asks that God's good Spirit lead the speaker on level ground. It unites the commentary's leading guide with its balanced, easier terrain."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.11",
+          "basis": "continual guidance and strengthened bones",
+          "note": "YHWH promises continual guidance, satisfaction in dry places, and strength for the bones. Its linked guidance and bodily renewal answer the commentary's weak traveler and easy course."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.2",
+          "basis": "green pastures and leading beside waters",
+          "note": "The commentary moves from pasture to guided travel. Psalm 23 makes the shepherd cause rest in green pastures and lead beside quiet waters, preserving both landscape and direction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.3",
+          "basis": "strengthen weak hands and feeble knees",
+          "note": "The commentary's secondary h-d-y image is a weakened person needing support. Isaiah commands the strengthening of weak hands and unsteady knees before its highway vision."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.6",
+          "basis": "lame person leaping like a deer",
+          "note": "Isaiah's lame person leaps like a deer. This is a sharply specific transformation of weak legs into the light, high-country movement developed in the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.12",
+          "basis": "weak hands and feeble knees restored",
+          "note": "Hebrews calls for drooping hands and weak knees to be strengthened. Together with its next verse on straight paths, it supplies the bodily side of the commentary's supported traveler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Sam.22.34",
+          "basis": "deer feet and high places",
+          "note": "God makes the singer's feet like a deer's and sets him on high places. This repeated biblical formulation independently confirms the commentary's light legs and elevated route."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.3.19",
+          "basis": "sweat of the face after exile",
+          "note": "The commentary relates Adam's leaving the garden to hardship. Genesis specifies that he will eat bread by the sweat of his face until returning to the ground, intensifying the toil already named in 3:17."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 40:1",
+          "basis": "heavy yoke on Adam's children",
+          "note": "Sirach describes great toil and a heavy yoke upon the children of Adam. It is a Jewish wisdom expansion of the commentary's Adamic movement from garden ease into hardship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.3.3",
+          "basis": "Moses turns aside to see the sign",
+          "note": "The commentary treats turning aside from the reminder as the wretched movement. Moses says he will turn aside to see the burning bush, making the same spatial gesture an attentive response to a divine sign."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.3.4",
+          "basis": "God calls when Moses has turned aside",
+          "note": "When YHWH sees Moses turn aside to look, God calls him by name. This completes the counter-image: a sideways movement that receives, rather than avoids, divine address."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.1.3",
+          "basis": "fleeing from YHWH's presence",
+          "note": "Jonah physically sets out for Tarshish to flee from YHWH after receiving a commission. The narrative gives the commentary's avoidance of a divine reminder a full journey-shaped enactment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.6.66",
+          "basis": "disciples withdraw and stop walking with Jesus",
+          "note": "After Jesus' difficult teaching, many disciples go back and no longer walk with him. It provides a Christian scene of abandoning a guide after hearing his words, close to the commentary's wretched avoidance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.18.21",
+          "basis": "limping between YHWH and Baal",
+          "note": "Elijah asks how long Israel will limp between two positions and demands following either YHWH or Baal. It fuses the commentary's uneven walking, forked road, and Abrahamic anti-idolatry concern."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.35.2",
+          "basis": "put away foreign gods and purify",
+          "note": "Jacob orders his household to put away foreign gods, purify themselves, and change garments. This is a concrete household enactment of the commentary's wish to be kept apart from idols."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.14.15",
+          "basis": "turn from futile things to the living Creator",
+          "note": "Paul and Barnabas urge idolizing crowds to turn from vain things to the living God who made heaven and earth. It directly connects the commentary's creation claim to its movement away from idolatry."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.6.16",
+          "basis": "temple of God versus idols",
+          "note": "Paul contrasts the temple of the living God with idols. This establishes the Christian side of the commentary's Abrahamic separation between divine worship and false objects."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.6.17",
+          "basis": "come out and be separate",
+          "note": "The command to come out from their midst and be separate gives bodily force to the commentary's janb image of keeping oneself away from a thing; its immediate setting is the idol contrast of 6:16."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.21.8",
+          "basis": "way of life and way of death",
+          "note": "YHWH sets before Jerusalem the way of life and the way of death. The formula supplies a direct prophetic counterpart to the commentary's one journey resolving into opposed ends."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Makkot 10b",
+          "basis": "one is led on the path one chooses",
+          "note": "The Talmud states that a person is led on the way the person wishes to go. This rabbinic maxim is especially close to the commentary's claim that the same divine easing works toward ease or hardship according to the traveler's direction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.19",
+          "basis": "arrogant and evildoers as stubble in fire",
+          "note": "In Hebrew WLC versification, the coming day burns the arrogant and evildoers like stubble. It joins the commentary's vegetal residue, wretchedness, and final fire in one prophetic image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.24",
+          "basis": "all flesh as withering grass",
+          "note": "First Peter repeats that all flesh is grass and that grass withers. It gives the commentary's pasture-to-waste image a Christian scriptural reception centered on mortality."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.11.28",
+          "basis": "weary and burdened people invited to rest",
+          "note": "Before calling his yoke easy, Jesus invites those laboring and heavily burdened to come for rest. This names the human hardship to which the commentary's promise of ease responds."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.5.3",
+          "basis": "commandments not burdensome",
+          "note": "First John says love of God keeps his commandments and that those commandments are not burdensome. It provides a concise Christian analogue to the commentary's ease as obedient responsiveness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.6",
+          "basis": "Jesus as the way",
+          "note": "Jesus identifies himself as the way leading to the Father. This is a concentrated Christian transformation of the commentary's guide, path, and destination pattern."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.10.32",
+          "basis": "Jesus walking ahead toward Jerusalem",
+          "note": "On the road to Jerusalem, Jesus goes ahead of the disciples while they follow in awe and fear. The scene realizes the commentary's guide who moves in front of those on the journey."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.8.12",
+          "basis": "following the light without walking in darkness",
+          "note": "Jesus says that whoever follows him will not walk in darkness but have the light of life. It makes following the true guide the opposite of the commentary's lost or warning-avoiding traveler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.3.24",
+          "basis": "way to the tree of life guarded after Eden",
+          "note": "After expelling Adam, God stations guardians to keep the way to the tree of life. It supplies a route closed by the Edenic fall, a spatial counterpart to the commentary's loss of ease after leaving the garden."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.14",
+          "basis": "riding on the heights of earth",
+          "note": "God promises to make the faithful ride on the heights of the earth. It gives a second prophetic use of riding and high terrain alongside the commentary's mount and mountain ridge."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.27.11",
+          "basis": "lead on a level path",
+          "note": "The psalm asks to be taught YHWH's way and led on a level path because of enemies. It adds a prayerful use of the commentary's guided, balanced road."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.15.24",
+          "basis": "upward path of life away from Sheol",
+          "note": "For the prudent, the path of life leads upward in order to turn from Sheol below. It aligns the commentary's elevated road with its contrasting endpoint in the fire, though it does not share the animal imagery."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.8",
+          "basis": "unfruitful ground ending in burning",
+          "note": "Land bearing thorns and thistles is rejected, near a curse, and ends in burning. This extends the commentary's vegetation-and-fire sequence through a Christian agricultural warning."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.25",
+          "basis": "straying sheep returned to shepherd",
+          "note": "People once strayed like sheep but have returned to the shepherd and overseer of their souls. It gives a Christian recovery-from-wrong-route counterpart to the commentary's guide and its animal family."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.45.18",
+          "basis": "Creator forms and establishes the earth",
+          "note": "The Creator forms, makes, and establishes the earth for habitation rather than emptiness. This enriches the commentary's brief claim that God creates and proportions, though it does not develop the travel imagery."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.10",
+          "basis": "created for works prepared to walk in",
+          "note": "Believers are called God's workmanship, created for works God prepared beforehand so that they may walk in them. It combines the commentary's creation language with a divinely prepared course of action."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.39.19",
+          "basis": "God gives the horse its strength",
+          "note": "God asks Job whether he gives the horse its strength and clothes its neck. It places the equine capacity behind the commentary's readily led horse within the Creator's ordering of creatures."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.21.7",
+          "basis": "garments laid on a mount for Jesus to sit",
+          "note": "The commentary develops a cover placed on a camel's hump and a rider settling on the animal. Matthew narrates garments laid on the donkey and colt before Jesus sits, a literal Christian journey image of mount and seat-covering."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "346d4c2e4983881dee82527d7c129acf642dc45d1feb1e49b19fd9185bcefc93",
+    "followup_sha256": "346d4c2e4983881dee82527d7c129acf642dc45d1feb1e49b19fd9185bcefc93"
+  },
+  "consolidation_error": null,
+  "list_sha256": "537713c5eba09f0fe42f0a241f37c59c1badddd481e34cec6b8036ff1538fef4",
+  "followup_delivery": [
+    {
+      "call_id": "call_f0h1vqr9rJGnjOiQUEls0XV8",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 351237,
+    "cached_input_tokens": 285184,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 45259,
+    "reasoning_output_tokens": 36278,
+    "total_tokens": 396496
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:08:57.972Z",
+  "artifacts": {
+    "started.json": "315e2bd7e8b18480d1a56b3bb84ed65fea70f9a65f2f42d897edf88030208698",
+    "input.json": "53ed42ddb246f8df00ad9a9a69fc9a9dea0815f4f5e34b59de81dad7635bb6a9",
+    "prompt.md": "1eb50db49513af89654f20082ed13ed2b9bcbad6b75df43fcf096ff8e8eed392",
+    "package.md": "98a9d0bfcbb6a0557254b319c6ee9d4ee86f4256d58abfd9aa99f30843ee26b0",
+    "spawn.md": "e8285e175d9b59dbe0dfeac27288752299ceb9b9865654b2aa86b8f8bb078b33",
+    "followup.txt": "d16841fb1b144191f23bc035262945ca429db0ddd3e27efb7436fce8f5acf9b6",
+    "turn1.json": "b464dd410ea42d2a8acce31b27b0bf98de40b361891a59cd554612adc192c751",
+    "turn1.list.tsv": "a36b29df7e48ddbd6316ab337dda3059f2030e279efe9e626026aea8ccc74509",
+    "followup.tsv": "346d4c2e4983881dee82527d7c129acf642dc45d1feb1e49b19fd9185bcefc93",
+    "list.tsv": "537713c5eba09f0fe42f0a241f37c59c1badddd481e34cec6b8036ff1538fef4",
+    "consolidation.json": "5774f51deb14443b81ed1978ab3d82711d509046c32e223803df2daa1508929e",
+    "validation.json": "3eb94e00dfc6192c604375ac33fd66d07f2edcaa333a7628171621f94bad1a4f",
+    "proposal_validation.json": "bd398b4183730ada41f0c7a628942b097c79a06ce76f7f98b64a0bce35e8e3de",
+    "tool_calls.json": "bfe749d2dc162e8dad43cc94dd9064f369c0262cba74fc6086d023dfab5f5108",
+    "session.json": "987c99dc08dd4749748c67a2dfaf4aed5327ae52388e14c31b508e38fcb5d5d0",
+    "session.events.jsonl": "7fe37b1e7064e523860d28a140bf2cd5d7faa9a04c70779dd75196dd2b8c3d86"
+  }
+}

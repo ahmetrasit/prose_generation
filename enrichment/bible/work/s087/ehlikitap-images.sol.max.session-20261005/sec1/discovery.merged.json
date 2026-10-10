@@ -1,0 +1,407 @@
+{
+  "format": "bible-discovery-v2",
+  "status": "ok",
+  "target": "sec1",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "tsv_sha256": "8678358953c9c98d88591231f4427125e891b01c154380fe2cf9b962c03fa4c5",
+  "provenance": [
+    {
+      "target": "sec1",
+      "model": "luna",
+      "run_tag": "prepared-20261005",
+      "path": "prepared-20261005/sec1/luna",
+      "sha256": "a1cdcd5fb9da1747ee17f55b8c8f160523f52d43b2e5a7183bddfe5a3d368dd3"
+    },
+    {
+      "target": "sec1",
+      "model": "terra",
+      "run_tag": "prepared-20261005",
+      "path": "prepared-20261005/sec1/terra",
+      "sha256": "57e67ca112f7df053661c1a642f2bbbba46674a191d20281741302086b657046"
+    }
+  ],
+  "rows": 158,
+  "findings": [
+    {
+      "target": "sec1",
+      "model": "luna",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec1/luna/list.tsv",
+        "rows": 75,
+        "unique_references": 75,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 46,
+          "medium": 29
+        },
+        "findings": [
+          {
+            "line": 6,
+            "ref": "Rashi on Genesis 2:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 16,
+            "ref": "Wisdom of Solomon 5:14",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 18,
+            "ref": "SBLGNT:Jas.5.7",
+            "raw_ref": "SBLGNT:James.5.7",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 25,
+            "ref": "1 Clement 24:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 32,
+            "ref": "WLC:Ezek.34.14",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "רעה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 33,
+            "ref": "WLC:Ezek.37.5",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חיה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 33,
+            "ref": "WLC:Ezek.37.5",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חיה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 37,
+            "ref": "Ta'anit 2a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 41,
+            "ref": "SBLGNT:Jas.1.11",
+            "raw_ref": "SBLGNT:James.1.11",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec1/luna/followup.tsv",
+        "rows": 31,
+        "unique_references": 31,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 21,
+          "medium": 10
+        },
+        "findings": [],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T19:04:51.743506+00:00",
+        "changes": [
+          {
+            "line": 16,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Wis.5.14",
+              "human life like chaff",
+              "The commentary notes that Qur'anic غثاء can describe people swept away after a cry; Wisdom has the wicked confess that their life and hope vanish like wind-driven chaff, carrying the plant-debris image into judgment."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "Wisdom of Solomon 5:14",
+              "human life like chaff",
+              "The commentary notes that Qur'anic غثاء can describe people swept away after a cry; Wisdom has the wicked confess that their life and hope vanish like wind-driven chaff, carrying the plant-debris image into judgment."
+            ],
+            "reason": "Wisdom is not a WLC book; keep the same named-work passage as an unverified secondary candidate."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "43fb62c944ebc9f423a260c447dac93108890c01ca61ef8c54c14c116dc2a2ea",
+          "turn1.validation.failed.json": "cd694d5717ea1d57f832ae4bf694e1f3ada1c112cad5f693c6df4e0a599ba4b2",
+          "turn1.tool_calls.json": "cc73f38f3aa0d1aec66ae40aa38c3a1e1a43275dc4b3f728d2bd2b6a0a64fc0e",
+          "turn1.repair.proposed.json": "aac7e05d956f25c78e1d75d979c882ea8037573ca33d3453661854b7dc228435",
+          "turn1.repair.proposed.tsv": "0b2b34bfc815f511b0912b04302ed92f08117aaf9d5ab3f78f9f8a0830b43a5a",
+          "turn1.accepted.tsv": "0b2b34bfc815f511b0912b04302ed92f08117aaf9d5ab3f78f9f8a0830b43a5a"
+        }
+      }
+    },
+    {
+      "target": "sec1",
+      "model": "terra",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec1/terra/list.tsv",
+        "rows": 136,
+        "unique_references": 134,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 121,
+          "medium": 15
+        },
+        "findings": [
+          {
+            "line": 35,
+            "ref": "WLC:Ezek.34.14",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "רעה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 35,
+            "ref": "WLC:Ezek.34.14",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "מרעה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 35,
+            "ref": "WLC:Ezek.34.14",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "מרעה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 35,
+            "ref": "WLC:Ezek.34.14",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "רעה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 65,
+            "ref": "WLC:Ezek.37.5",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חיה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 65,
+            "ref": "WLC:Ezek.37.5",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חיה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 68,
+            "ref": "WLC:Isa.25.8",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "מות",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 68,
+            "ref": "WLC:Isa.25.8",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "מות",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 78,
+            "ref": "Targum Jonathan on Isaiah 66:24",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 79,
+            "ref": "b. Ta'anit 2a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 80,
+            "ref": "b. Ta'anit 7a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 81,
+            "ref": "4 Ezra 7:32",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 82,
+            "ref": "2 Baruch 50:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 83,
+            "ref": "1 Enoch 51:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 84,
+            "ref": "2 Maccabees 7:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 85,
+            "ref": "Wisdom of Solomon 3:4",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 86,
+            "ref": "1 Clement 24:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 87,
+            "ref": "Augustine, City of God 21.3",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 93,
+            "ref": "Qaddish, opening formula",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 94,
+            "ref": "Mishnah Avot 4:17",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 129,
+            "ref": "Sirach 14:18",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 135,
+            "ref": "Mishnah Ta'anit 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 136,
+            "ref": "Wisdom of Solomon 5:14",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec1/terra/followup.tsv",
+        "rows": 41,
+        "unique_references": 41,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 34,
+          "medium": 7
+        },
+        "findings": [
+          {
+            "line": 34,
+            "ref": "Sirach 14:18",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 40,
+            "ref": "Mishnah Ta'anit 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 41,
+            "ref": "Wisdom of Solomon 5:14",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    }
+  ],
+  "confidence": "Unverified reader labels; agreement and follow-up origin do not verify a connection."
+}

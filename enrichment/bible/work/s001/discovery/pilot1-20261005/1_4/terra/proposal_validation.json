@@ -1,0 +1,35 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/1_4/terra/followup.tsv",
+  "rows": 32,
+  "unique_references": 32,
+  "schema_errors": [],
+  "duplicates": [],
+  "strengths": {
+    "strong": 28,
+    "medium": 4
+  },
+  "findings": [
+    {
+      "line": 18,
+      "ref": "SBLGNT:Jas.5.4",
+      "raw_ref": "SBLGNT:James.5.4",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    },
+    {
+      "line": 25,
+      "ref": "m. Avot 4:22",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 26,
+      "ref": "b. Shabbat 31a",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

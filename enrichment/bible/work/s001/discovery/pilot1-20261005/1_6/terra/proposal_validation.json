@@ -1,0 +1,41 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/1_6/terra/followup.tsv",
+  "rows": 22,
+  "unique_references": 22,
+  "schema_errors": [
+    "line 11: unknown verse in specified edition: WLC:Ps.139.25"
+  ],
+  "duplicates": [],
+  "strengths": {
+    "strong": 18,
+    "medium": 4
+  },
+  "findings": [
+    {
+      "line": 13,
+      "ref": "Sirach 2:6",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 14,
+      "ref": "Wisdom of Solomon 10:10",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 15,
+      "ref": "Tobit 5:21",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 16,
+      "ref": "Mishnah Berakhot 4:5",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

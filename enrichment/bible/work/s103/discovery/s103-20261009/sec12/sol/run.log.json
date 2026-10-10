@@ -1,0 +1,1918 @@
+{
+  "target": "sec12",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:29:04.090711-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_sec12_sol",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "33b9a2b63730deccec29cc0a610f1d88a789632bbcf6098f6389e32c9f0507e1",
+  "package_sha256": "3c4398c13febf5feba7de5c8720895a4a180d08387848b3135f350d1fbdf1680",
+  "input_sha256": "cda82e7637e9b370d5e7b82edc31889b65196802c42ed8619b346dcc65eba9bb",
+  "spawn_sha256": "942c336fe49008440a1a98be9c8973ee4402fb4180b73416a9df9e8ca056b4c2",
+  "followup_text_sha256": "5e120f1149bc27e87cc591e9d76614eeda7de56b82660bc5193e125d5d88fdf0",
+  "agent_id": "01a11f23-0af3-7592-9376-7076251b89c6",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-29-13-01a11f23-0af3-7592-9376-7076251b89c6.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 95,
+  "turn1_sha256": "060e6f386237e31c5bd9cfe97d5f1de479345367c125bd8b198f20efcda705dc",
+  "turn2": {
+    "completed": true,
+    "rows_total": 139,
+    "rows_added": 44
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 95,
+    "raw_proposal_rows": 44,
+    "unique_additions": 44,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.59.5",
+          "basis": "spider web woven by evildoers",
+          "note": "The commentary sets firm weaving against the spider's house; Isaiah says wrongdoers weave spider webs, turning the textile image into a judgment on their deeds."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.59.6",
+          "basis": "web cannot clothe; corrupt works",
+          "note": "The commentary pairs sound fabric with repairing deeds and the frail spider house; Isaiah says their webs cannot serve as clothing because their works are violent, making the failure of the fabric moral as well as material."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.8.14",
+          "basis": "spider's house as confidence",
+          "note": "The commentary's spider house is a deceptive opposite to firm truth; Job calls the godless person's trust a spider's house, connecting fragile shelter to misplaced confidence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.8.15",
+          "basis": "house leaned on but cannot stand",
+          "note": "The commentary contrasts the spider house with a well-founded structure; Job says its owner leans on his house but it will not stand, giving the image its test of load-bearing strength."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.127.1",
+          "basis": "house building and vain toil",
+          "note": "The commentary sets labor that builds against human loss; the psalm says builders labor in vain unless the Lord builds the house, making a sound structure depend on more than human effort."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.127.1",
+          "basis": "ع م ل / Hebrew עמל, table sound correspondence",
+          "note": "The source commentary's عمل supplies building labor; Psalm 127 uses Hebrew עמל of builders' futile toil, a pointed cognate comparison because this labor can still be vain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Eccl.1.3",
+          "basis": "ع م ل / Hebrew עמל, table sound correspondence",
+          "note": "Surah 103 joins human loss to the exception of good work; Ecclesiastes asks what gain a person has from all his עמל under the sun, pressing the same labor-and-gain question without stating that exception."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Eccl.2.11",
+          "basis": "ع م ل / Hebrew עמל, table sound correspondence",
+          "note": "The commentary makes constructive work answer loss; the speaker surveys his works and toil and finds no gain, exposing the opposite outcome for labor considered on its own."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ezra.5.8",
+          "basis": "ص ل ح / Aramaic צלח, table sound correspondence",
+          "note": "The source labels صالحات as repair against corruption; Ezra reports that the temple rebuilding work advances or prospers in the builders' hands, joining the cognate's different sense to actual constructive work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ezra.6.14",
+          "basis": "ص ل ح / Aramaic צלח, table sound correspondence",
+          "note": "The commentary's righteous repair is pictured as building; Ezra says the Jewish elders built and prospered, placing Aramaic צלח inside the completion of a restored house."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Josh.1.8",
+          "basis": "ص ل ح / Hebrew צלח, table sound correspondence",
+          "note": "The source labels صالحات as deeds that repair; Joshua is told to do the written instruction so his way will prosper, joining action and the Hebrew cognate while retaining its sense of success."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.38.10",
+          "basis": "ح ق ق / Hebrew חקק, table sound correspondence",
+          "note": "The source's حق includes a door fitting its socket; God says he fixed the sea's prescribed limit and set its bars and doors, using חקק for an imposed boundary rather than ethical truth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Lev.26.15",
+          "basis": "ح ق ق / Hebrew חקק, table sound correspondence",
+          "note": "The commentary links truth's firm fit to the broken divine covenant; Leviticus says rejecting God's חקות and judgments breaks that covenant, so the cognate statutes mark exactly what is refused."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.26.6",
+          "basis": "clasps joining woven curtains into one dwelling",
+          "note": "The commentary's joined pieces and tight fabric make a sound structure; Exodus joins woven curtains with gold clasps so the tabernacle becomes one, a material version of that double image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.14.1",
+          "basis": "building or tearing down one's house",
+          "note": "The commentary makes repair and building the opposite of undoing; Proverbs says a wise woman builds her house while a foolish one pulls it down with her own hands."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.12",
+          "basis": "repairer of breach",
+          "note": "The commentary says righteous deeds repair what has been broken; Isaiah calls the obedient community the repairer of a breach and restorer of streets, giving repair a social and built form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.37.17",
+          "basis": "two sticks joined into one",
+          "note": "The commentary explains mutual counsel as attaching piece to piece; Ezekiel is commanded to join two named sticks into one in his hand, making reunion visible in an actual joint."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.4.12",
+          "basis": "threefold cord not quickly broken",
+          "note": "The commentary's thread holds when parts are joined; Ecclesiastes says a threefold cord resists breaking in an argument for companions helping one another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.28.16",
+          "basis": "tested cornerstone and secure foundation",
+          "note": "The commentary opposes the firm building to a foundation that collapses; Isaiah lays a tested cornerstone in Zion and says the believer need not panic, joining trust and stability."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.24.3",
+          "basis": "house built and established by wisdom",
+          "note": "The commentary treats sound truth as a structure assembled through good action; Proverbs says wisdom builds a house and understanding establishes it, giving moral skill a structural result."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.24",
+          "basis": "hearing and doing words builds on rock",
+          "note": "The commentary makes good works and firm truth the basis of a sound house; Jesus likens the person who hears and does his words to a builder founding a house on rock."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.26",
+          "basis": "hearing without doing builds on sand",
+          "note": "The commentary says firm speech requires constructive work; Jesus likens a hearer who does not act to a builder on sand, specifying the defective foundation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.27",
+          "basis": "great fall of unsound house",
+          "note": "The commentary's ruined foundation ends in loss; Jesus describes the sandy house's fall in the storm as great, giving the construction image its outcome."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.16",
+          "basis": "joints; each part working; body built up",
+          "note": "The commentary joins the bones' meeting place, attached pieces, and useful work; Ephesians says every joint supplies the body as each part works and the body builds itself up."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.2.19",
+          "basis": "joints and ligaments hold body together",
+          "note": "The source's حق includes the place where bones meet; Colossians says the whole body is supplied and held together by joints and ligaments, making the anatomical join a figure for communal growth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.21",
+          "basis": "whole building fitted together",
+          "note": "The commentary's door fits its place and each piece is joined; Ephesians says the whole building is joined together and grows into a holy temple."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.25",
+          "basis": "truth spoken because members belong together",
+          "note": "The commentary makes firm truth and attaching parts mutually reinforcing; Ephesians commands truth to one's neighbor on the ground that people are members of one another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.29",
+          "basis": "speech good for building others up",
+          "note": "The commentary calls firm speech part of communal construction; Ephesians directs speakers to say what is good for building up hearers according to need."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.3.15",
+          "basis": "house as pillar and support of truth",
+          "note": "The commentary joins a stable house to حق as firm truth; 1 Timothy calls God's household the pillar and support of the truth, making the structural image explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.24",
+          "basis": "one another prompted to good deeds",
+          "note": "The ayah's reciprocal exhortation and good deeds are presented as pieces of one structure; Hebrews asks believers to consider one another so as to stir love and good works."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.25",
+          "basis": "encouraging one another",
+          "note": "The source commentary says recommendation attaches persons like pieces; Hebrews enjoins mutual encouragement in the gathered community, specifying the practice that holds it together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.11",
+          "basis": "encourage and build one another",
+          "note": "The commentary turns reciprocal counsel into building; the letter commands believers to encourage and build up one another in the same breath."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.16",
+          "basis": "teaching and admonishing one another",
+          "note": "The commentary says tavsiye joins the pieces of a community through sound words; Colossians has the word of Christ dwell in them as they teach and admonish one another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.1",
+          "basis": "restore a person caught in fault",
+          "note": "The commentary defines صالحات through repair rather than corruption; Galatians directs spiritually minded believers to restore an erring person gently, making repair a communal deed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.22",
+          "basis": "faith completed by works",
+          "note": "The ayah's believing and doing good are both needed in the commentary's construction; James says Abraham's faith worked with his deeds and was brought to completion by them.",
+          "raw_ref": "SBLGNT:James.2.22",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.5",
+          "basis": "living stones built into a spiritual house",
+          "note": "The commentary makes individual deeds into bricks of a common structure; 1 Peter calls believers living stones being built into a spiritual house for worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.19",
+          "basis": "firm foundation; inscription; turning from wrong",
+          "note": "The commentary puts firmly set truth beside deeds that repair corruption; this verse joins God's firm foundation and its inscribed seal to a call for everyone naming the Lord to turn from unrighteousness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.1.3",
+          "basis": "ص ل ح / Hebrew צלח, table sound correspondence",
+          "note": "The source labels صالحات as constructive deeds; the person delighting in divine instruction is like a planted tree and whatever he does prospers, combining action with the Hebrew cognate's success sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.16",
+          "basis": "speak truth to one another; judge truly",
+          "note": "The commentary makes mutual recommendation in حق part of repairing a community; Zechariah commands truth spoken to one another and true judgments in the gates as practices for restored civic life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.15.2",
+          "basis": "righteous action and truthful speech",
+          "note": "The commentary places good works beside firm speech; the psalm says the person fit to dwell in God's tent walks blamelessly, does right, and speaks truth from the heart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.16",
+          "basis": "faithful people speak to one another",
+          "note": "The commentary's reciprocal counsel helps a community avoid loss; Malachi depicts those who fear the Lord speaking with one another while God listens and records their names."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.13",
+          "basis": "joint kept from failing and healed",
+          "note": "The source's حق can name where bones meet while صالح means repair; Hebrews calls for straight paths so a lame limb is not put out of joint but healed, joining both anatomical fit and restoration."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.12.25",
+          "basis": "no division; members care for each other",
+          "note": "The commentary's joined parts are also people who counsel one another; Paul says bodily members should have no division but equal care for each other."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.14.26",
+          "basis": "speech in assembly for building up",
+          "note": "The commentary calls firmly formed words part of a common building; Paul requires each contribution to the gathering to be for building up the community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.26.3",
+          "basis": "curtains coupled to one another",
+          "note": "The commentary's توصية is a joining of pieces after its woven-cloth image; Exodus prescribes groups of curtains joined to one another, the physical sequence behind a single dwelling."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.26.24",
+          "basis": "boards coupled below and joined above",
+          "note": "The commentary's fitted door and attached parts build a firm house; Exodus requires the tabernacle's corner boards to be joined at both ends, specifying how the structure holds."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.4.6",
+          "basis": "wall joined; people had a mind to work",
+          "note": "The commentary compares righteous joint labor to building; Nehemiah describes the wall joined to half its height because the people had a mind to work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.12.19",
+          "basis": "truthful speech endures",
+          "note": "The commentary calls محقق speech firm; Proverbs says truthful lips are established forever while a lying tongue lasts only a moment, giving stability an ethical speech test."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.12.18",
+          "basis": "wise tongue heals",
+          "note": "The commentary links firm speech with repair; Proverbs opposes words that cut like a sword to a wise tongue that heals."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.12.7",
+          "basis": "righteous house stands when wicked fall",
+          "note": "The commentary's sound structure stands opposite loss; Proverbs says the wicked are overthrown while the house of the righteous stands."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.10.25",
+          "basis": "righteous person as lasting foundation",
+          "note": "The commentary's foundation comparison distinguishes durable truth from sudden collapse; Proverbs says the wicked vanish in a storm but the righteous are an enduring foundation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.28.17",
+          "basis": "justice as line; lies swept from refuge",
+          "note": "The commentary connects a fitted foundation to حق rather than to a merely apparent shelter; Isaiah measures with justice and sweeps away the refuge of lies."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.13.10",
+          "basis": "false peace and whitewashed wall",
+          "note": "The commentary requires sound speech and sound construction together; Ezekiel condemns those who say peace falsely while coating another's weak wall, a deceptive version of both."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.13.11",
+          "basis": "whitewashed wall falls in storm",
+          "note": "The source's unstable foundation collapses; Ezekiel announces that the wall covered with whitewash will fall under rain, hail, and wind because its finish did not make it sound."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.32",
+          "basis": "covenant that people broke",
+          "note": "The commentary juxtaposes broken covenant with cut connections; Jeremiah recalls the covenant the people broke despite God's bond with them, naming the breach to be repaired."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.33",
+          "basis": "law written within as renewed covenant",
+          "note": "The commentary's firmly founded word answers covenant rupture; Jeremiah promises God's instruction written on hearts in a renewed covenant, locating durability in the people themselves."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.30.8",
+          "basis": "ح ق ق / Hebrew חקק, table sound correspondence",
+          "note": "The source calls speech محقق or firmly formed; Isaiah is told to inscribe a warning on a tablet and in a book for lasting witness, showing the cognate's concrete engraving sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.19.24",
+          "basis": "ح ق ق / Hebrew חקק, table sound correspondence",
+          "note": "The source's firm speech is compared with a tightly made object; Job wishes his words engraved in rock forever, using the Hebrew cognate for a physically lasting utterance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.8.29",
+          "basis": "ح ق ق / Hebrew חקק, table sound correspondence",
+          "note": "The source's حق makes a door fit its appointed place; Wisdom says God set or prescribed the sea's boundary and marked the earth's foundations, using the Hebrew cognate for fixed order."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.26.14",
+          "basis": "door turning on hinge",
+          "note": "The commentary singles out the door's foot fitting its socket; Proverbs uses a door turning on its hinge to picture a sluggard stuck in bed, making the same fitted mechanism an image of work withheld."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.4.10",
+          "basis": "companion lifts one who falls",
+          "note": "The commentary's attached pieces save from loss; Ecclesiastes says one companion can lift the other when he falls, supplying the practical benefit of mutual support."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.38.12",
+          "basis": "life cut off like woven cloth",
+          "note": "The commentary's sound thread can be undone and lead to loss; Hezekiah portrays his life as a weaver's work cut from the loom, moving the fabric image to mortality."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.18.4",
+          "basis": "marred vessel remade by potter",
+          "note": "The commentary defines repair as the opposite of spoiling; Jeremiah's potter remakes a spoiled vessel into another, giving an actual artisan's action for that reversal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hag.1.6",
+          "basis": "labor and wages disappearing",
+          "note": "The commentary sets good work against human loss; Haggai says wages go into a bag with holes, making unfruitful labor a tactile image of loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hag.1.9",
+          "basis": "own houses while God's house lies ruined",
+          "note": "The commentary treats proper building as a moral deed; Haggai says the people's labor yields little because each tends his own house while God's house lies in ruins."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.11.3",
+          "basis": "bricks made for a common project",
+          "note": "The commentary uses bricks as an image of work that repairs and joins; Babel's people make bricks for a shared tower whose purpose soon proves misguided, so material coordination is not itself righteous."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.11.4",
+          "basis": "collective building to make a name",
+          "note": "The commentary's tightly joined structure represents truthful, beneficial work; Babel's builders coordinate a city and tower to make a name for themselves, a pointed reversal of the value assigned to cohesion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Pirkei Avot 3:17",
+          "basis": "deeds as roots that keep a tree standing",
+          "note": "Avot interprets the relation of wisdom and deeds through a tree blown by wind: abundant learning with few deeds falls, whereas abundant deeds root it; that sharpens the commentary's claim that firm speech needs constructive action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.15",
+          "basis": "truth spoken in love grows the body",
+          "note": "The commentary makes حق firm speech within a joined community; Ephesians couples speaking truth in love with growth into Christ, placing truthful words inside the body's construction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.20",
+          "basis": "foundation and cornerstone",
+          "note": "The source compares sound and collapsing foundations; Ephesians describes the household of God as built on an apostolic and prophetic foundation with Christ as cornerstone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.10",
+          "basis": "skilled builder and how each builds",
+          "note": "The commentary's builder places bricks as deeds; Paul calls himself a skilled foundation-layer and warns each subsequent builder to consider how he builds on it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.13",
+          "basis": "each builder's work tested by fire",
+          "note": "The commentary distinguishes structurally sound deeds from apparent construction; Paul says fire will disclose each builder's work, adding a test of workmanship to the building image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.6",
+          "basis": "community as house if confidence held",
+          "note": "The commentary contrasts a firm house with the spider's fragile refuge; Hebrews calls believers God's house if they hold fast their confidence and hope."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.13",
+          "basis": "exhort one another against hardening",
+          "note": "The commentary's reciprocal counsel holds pieces together against corruption; Hebrews orders daily mutual exhortation lest sin's deceit harden anyone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.14",
+          "basis": "admonish; help; patience toward all",
+          "note": "The ayah's reciprocal counsel and patience appear together; the letter directs the community to admonish the disorderly, support the weak, and be patient toward all."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.17",
+          "basis": "faith without works is dead",
+          "note": "The commentary places belief beside the labor of doing صالحات; James says faith by itself is dead if it has no works, specifying why a verbal profession does not complete the structure.",
+          "raw_ref": "SBLGNT:James.2.17",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Titus.3.8",
+          "basis": "believers devoted to good works",
+          "note": "The commentary insists belief takes shape in constructive deeds; Titus tells those who have believed God to devote themselves to good works that benefit people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.15",
+          "basis": "correction can regain a brother",
+          "note": "The commentary treats counsel as joining what is severed; Jesus directs a person to confront a sinning brother privately and says listening gains that brother, a relational repair by speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.19.23",
+          "basis": "seamless tunic woven in one piece",
+          "note": "The commentary's tightly woven cloth serves as a picture of integrity; John's soldiers find Jesus' tunic seamless and woven as one piece, giving a concrete garment whose unity matters in the next action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.19.24",
+          "basis": "garment deliberately left untorn",
+          "note": "The commentary quotes the woman who undoes her spun thread; John's soldiers decide against tearing the seamless tunic, preserving a material unity for a different narrative purpose."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.14",
+          "basis": "love binds virtues into completeness",
+          "note": "The commentary says one piece is attached to another to form a firm whole; Colossians calls love the bond of completeness over the listed virtues, translating that join into moral practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.2",
+          "basis": "carry one another's burdens",
+          "note": "The commentary makes reciprocal action prevent a part from failing; Galatians tells believers to bear one another's burdens and thereby fulfill Christ's law."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.19",
+          "basis": "wandering person turned back",
+          "note": "The commentary's repair includes restoring a broken connection; James addresses believers who bring back one who has wandered from the truth, joining truth and communal recovery.",
+          "raw_ref": "SBLGNT:James.5.19",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Shepherd of Hermas, Vision 3.2",
+          "basis": "stones fitted into a tower",
+          "note": "The commentary turns good deeds and attached pieces into a secure building; Hermas sees selected stones fitted into a growing tower, a church image whose individual pieces must be sound."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.59.4",
+          "basis": "false speech preceding spider webs",
+          "note": "The commentary contrasts sound words with the spider's false shelter; Isaiah first says people trust empty pleas and speak lies, then describes their woven spider webs, linking verbal disorder to the defective fabric."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.3",
+          "basis": "bind truth; write it on the heart",
+          "note": "The commentary joins pieces and makes truth a firm word; Proverbs instructs the hearer to bind loyalty and truth around the neck and write them on the heart, joining attachment and inward durability."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.15.5",
+          "basis": "faithful person not shaken",
+          "note": "The commentary's firm truth and work should withstand collapse; the psalm concludes that the person meeting its ethical conditions will never be shaken, supplying the stable-dwelling outcome of verse 2."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.13",
+          "basis": "bear with and forgive one another",
+          "note": "The commentary makes repair a reciprocal act that reconnects parts; Colossians orders believers to bear with and forgive one another when a complaint separates them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.13.11",
+          "basis": "restoration and mutual encouragement",
+          "note": "The commentary pairs repairing what is spoiled with counsel that joins people; Paul's closing charge asks the community to pursue restoration, encourage one another, agree, and live in peace."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.8.13",
+          "basis": "perishing hope of the godless",
+          "note": "The commentary's spider house also pictures loss; Job's immediately preceding verse says the godless person's hope perishes, providing the consequence of trusting the frail house in the next verse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.41.16",
+          "basis": "scales pressed with no air between",
+          "note": "The commentary's fabric is tightly woven and its pieces fit; the description of Leviathan has protective scales so close that air cannot pass, a concrete compression image with no stated ethical application."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.41.17",
+          "basis": "scales clinging inseparably",
+          "note": "The commentary says pieces join into a firm whole; Leviathan's scales cling to one another so they cannot be separated, a physical parallel whose role in Job is creaturely strength."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.10",
+          "basis": "life quickly passes with toil and trouble",
+          "note": "Surah 103 names time and human loss while the commentary seeks fruitful work; the psalm compresses human years into toil and trouble before they pass, though it does not develop the construction image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.15",
+          "basis": "builder suffers loss while escaping",
+          "note": "The commentary's bad foundation carries its builder into loss; Paul says the builder whose work burns suffers loss though the person is saved, a distinct outcome that makes the comparison an uncertain reversal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jude.1.20",
+          "basis": "build yourselves up in faith",
+          "note": "The commentary sees believers' good work as construction; Jude urges the community to build itself up in its holy faith, but supplies no fitted material or foundation in this verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.10.11",
+          "basis": "skin as clothing; bones and sinews knit together",
+          "note": "The commentary combines tightly woven fabric with the place where bones meet; Job addresses God as the one who clothed him with skin and flesh and knit him together with bones and sinews, giving both images one bodily setting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.37.7",
+          "basis": "bone joined to its bone",
+          "note": "The source's حق can mean where two bones meet and its counsel joins separated pieces; Ezekiel reports that at the prophetic word the scattered bones came together, bone to its bone, before the bodies lived."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.37.11",
+          "basis": "dry bones; lost hope; cut off",
+          "note": "The commentary sets joining and repair against loss and severance; the exiles identify themselves as dry bones and say their hope is lost and they are cut off, making the physical reunion of verse 7 answer a declared communal loss."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.15",
+          "basis": "frame intricately woven",
+          "note": "The commentary puts tightly woven fabric beside the meeting of bones; the psalmist describes his bodily frame as intricately woven while hidden in formation, a creation image rather than a moral construction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.4.9",
+          "basis": "two workers and reward for toil",
+          "note": "The commentary makes mutual joining and useful work answer loss; Ecclesiastes says two are better than one because their labor has a good reward, grounding the lifting and unbreakable cord described in the following verses."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.17",
+          "basis": "iron sharpens iron; person sharpens person",
+          "note": "The commentary's tavsiye is reciprocal counsel that strengthens a structure; Proverbs describes one person sharpening another as iron sharpens iron, making mutual improvement a material image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.11.3",
+          "basis": "foundations destroyed; plight of righteous",
+          "note": "The commentary distinguishes the sound foundation from the one that collapses; the psalm asks what the righteous can do if foundations are destroyed, making structural failure an ethical crisis."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.9.11",
+          "basis": "raise fallen shelter; repair breaches",
+          "note": "The commentary defines صالح as repairing damage and presents a secure house as its product; God promises to raise David's fallen booth and repair its breaches, making restoration of a ruined dwelling explicit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.53.11",
+          "basis": "ع م ل / Hebrew עמל, table sound correspondence",
+          "note": "The commentary asks whether work can answer loss through righteousness; Isaiah's servant comes through the toil of his soul to an outcome that makes many righteous, linking the cognate for painful effort to a fruitful result in this verse's own servant context."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Jer.31.36",
+          "basis": "ح ق ق / Hebrew חקק, table sound correspondence",
+          "note": "The source sets firm حق beside a covenant that can be broken; Jeremiah says that if God's fixed cosmic statutes depart, Israel will cease as a people, using the cognate for enduring ordinances to secure the restored relationship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.2.2",
+          "basis": "hearts encouraged and knit together in love",
+          "note": "The commentary makes reciprocal counsel join parts into one whole; Paul seeks encouraged hearts joined together in love as they reach assured understanding, giving verbal support and cohesion one purpose."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.18",
+          "basis": "deed and truth together",
+          "note": "The commentary joins firm truthful speech to constructive works; the letter urges love in deed and truth rather than words alone, making both elements necessary to a real bond."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.9",
+          "basis": "persist in doing good until harvest",
+          "note": "The ayah joins good deeds with mutual counsel in patience; Galatians tells the community not to tire of doing good because a harvest comes if they do not give up, giving endurance a concrete gain."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.58",
+          "basis": "steadfast labor not in vain",
+          "note": "The commentary opposes durable, beneficial work to loss; Paul calls believers steadfast and abundant in the Lord's work because their labor is not vain, joining firmness, work, and gain."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.3.13",
+          "basis": "do not tire of doing good",
+          "note": "The commentary makes righteous work something held together by patience; the letter directly tells brothers not to grow weary in doing good, identifying fatigue as a threat to the work."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.7",
+          "basis": "patience in good work",
+          "note": "The surah names good deeds and patient exhortation as the exception to loss; Paul describes those who persist in good work seeking glory and receiving eternal life, linking sustained action to its outcome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.13",
+          "basis": "body knit in the womb",
+          "note": "The source's woven fabric and joined bones picture sound formation; the psalmist says God knit him in his mother's womb, giving the textile image a personal bodily origin."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.37.8",
+          "basis": "joined bodies still lacking breath",
+          "note": "The commentary treats joined pieces as part of restoration; Ezekiel sees sinews, flesh, and skin cover the assembled bones, yet says there is no breath in them, qualifying how far physical reconstruction alone goes."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.17",
+          "basis": "work of hands made firm",
+          "note": "The commentary wants labor to yield a durable structure rather than loss under time; the prayer asks God to establish the work of human hands, directly turning transient toil into a request for permanence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.22.13",
+          "basis": "unjust house built with unpaid labor",
+          "note": "The source uses a builder's bricklaying for صالح deeds; Jeremiah condemns the man who builds his house unjustly by making a neighbor work without wages, showing that successful construction can embody corruption."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.5.11",
+          "basis": "stone houses built but not inhabited",
+          "note": "The commentary contrasts sound building with loss; Amos tells oppressors that although they built houses of dressed stone they will not live in them, linking unjust work to forfeited shelter."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.12",
+          "basis": "city built with bloodshed",
+          "note": "The commentary's joined building signifies beneficial action; Habakkuk pronounces woe on the person who builds a town with blood, making the shared construction harmful through its means."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.13",
+          "basis": "peoples labor for fire and nothing",
+          "note": "The commentary sets constructive work against loss; the next verse says peoples toil only for fire and weary themselves for nothing, giving the unjust city's building its fruitless end."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.11.8",
+          "basis": "Babel builders scattered",
+          "note": "The earlier Babel scene joins people around brickmaking and a tower; God disperses the builders over the earth, completing the counterexample to the commentary's beneficial joining."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.4.9",
+          "basis": "hands lay foundation and finish house",
+          "note": "The commentary's work places bricks into a sound whole; Zechariah says Zerubbabel's hands laid the temple foundation and will complete it, keeping beginning and completion in the same laboring hands."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.61.4",
+          "basis": "rebuild ruins and repair devastated cities",
+          "note": "The commentary describes صالح as repair after spoilage; Isaiah says the restored people will rebuild ancient ruins and repair devastated cities, making collective recovery a construction task."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.142",
+          "basis": "enduring righteousness and truthful instruction",
+          "note": "The commentary gives حق the force of something firm and rightly set; the psalm joins God's everlasting righteousness to instruction that is truth, linking durability and moral truth without the fabric metaphor."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.160",
+          "basis": "truthful word and enduring judgments",
+          "note": "The source calls a well-formed utterance firm; the psalm says the sum of God's word is truth and every righteous judgment endures, locating verbal soundness in permanence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.25.11",
+          "basis": "word suited to its setting",
+          "note": "The source compares sound speech with a door's foot fitting its socket; Proverbs likens a word spoken at the right time to gold apples in silver settings, giving apt placement an image of material fit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.25.12",
+          "basis": "wise rebuke fitted to listening ear",
+          "note": "The commentary's counsel must attach person to person; Proverbs pairs a wise reprover with an ear that listens, comparing the encounter to a gold ornament, so the fit depends on receiving speech."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.11.10",
+          "basis": "broken staff annulled covenant",
+          "note": "The commentary quotes a divine covenant broken after being bound; Zechariah enacts the opposite direction when the shepherd breaks his staff and thereby annuls his covenant, making the actor and direction of rupture distinct."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.11.14",
+          "basis": "broken staff annuls brotherhood",
+          "note": "The commentary says cutting what ought to be joined leads to loss; the shepherd breaks a second staff to annul the brotherhood between Judah and Israel, an enacted severance of a social bond."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Pirkei Avot 1:17",
+          "basis": "practice greater than exposition",
+          "note": "The commentary insists that firm words become useful through deeds; this teaching says practice is the main thing rather than exposition and cautions against multiplying words, sharpening the distinction between sound speech and empty talk."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.2",
+          "basis": "patience while bearing one another",
+          "note": "The commentary's reciprocal joining must endure strain; Ephesians asks believers to bear with one another in love with humility, gentleness, and patience before urging unity."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.3",
+          "basis": "unity kept in a bond of peace",
+          "note": "The source says recommendation attaches one part to another; Ephesians directs believers to maintain the Spirit's unity in the bond of peace, expressing an ethical joining before its jointed-body image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.9",
+          "basis": "coworkers and God's building",
+          "note": "The commentary turns individual works into a collective building; Paul calls his fellow ministers God's coworkers and the community God's building, identifying both laborers and structure."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.11",
+          "basis": "foundation that cannot be replaced",
+          "note": "The source compares secure and collapsing foundations; Paul says no one can lay a foundation other than Jesus Christ, specifying why the community's building can be sound."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.12",
+          "basis": "contrasting materials laid on foundation",
+          "note": "The commentary's firm fabric and sound bricks imply that materials matter; Paul lists lasting and combustible materials a builder might place on the foundation, preparing for the fire test in the next verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.36",
+          "basis": "endurance after doing God's will",
+          "note": "The ayah names patience alongside good action; Hebrews says believers need endurance so that, having done God's will, they receive the promise, tying perseverance to completed action."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.10",
+          "basis": "do good especially to faith's household",
+          "note": "The commentary treats righteous work as building a community; Galatians urges doing good to everyone, especially the household of faith, identifying the circle in which the work strengthens bonds."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Shepherd of Hermas, Vision 3.3",
+          "basis": "stones rejected from the tower",
+          "note": "The commentary's building holds only when its joined pieces are sound; Hermas's tower vision sets rejected stones beside stones incorporated into it, making the fitness of each component morally consequential."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "1 Clement 37:5",
+          "basis": "small and great bodily members together",
+          "note": "The source compares mutual counsel to parts joined in a body; Clement's discussion of members says the body requires both small and great parts to function together, extending the anatomical image to church order."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "1 Clement 38:1",
+          "basis": "strong provide for weak",
+          "note": "The commentary's good deeds attach people and repair what is weak; Clement asks strong members to care for weak members and rich ones to supply the poor, giving the jointed body a practical obligation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Ignatius, Ephesians 9:1",
+          "basis": "believers as stones of Father's temple",
+          "note": "The commentary builds a sound structure from its believers' deeds; Ignatius pictures his addressees as stones of the Father's temple raised by the cross, with faith and love involved in their movement."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "16e11603b1b1f2b36021d876da2f8eea31c6feb8c5c8e982f5f4e9e045413a52",
+    "followup_sha256": "16e11603b1b1f2b36021d876da2f8eea31c6feb8c5c8e982f5f4e9e045413a52"
+  },
+  "consolidation_error": null,
+  "list_sha256": "3451000ddf11823f20673d56bbaa0a5b107afaf6b1b2c717931fc1609033959e",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 252584,
+    "cached_input_tokens": 208384,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22503,
+    "reasoning_output_tokens": 12314,
+    "total_tokens": 275087
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:35:41.762Z",
+  "artifacts": {
+    "started.json": "7f2063c5c70ab491081be230b6c63e51b1bb355a6bebe9405b1b30fe37f5c0e4",
+    "input.json": "cda82e7637e9b370d5e7b82edc31889b65196802c42ed8619b346dcc65eba9bb",
+    "prompt.md": "33b9a2b63730deccec29cc0a610f1d88a789632bbcf6098f6389e32c9f0507e1",
+    "package.md": "3c4398c13febf5feba7de5c8720895a4a180d08387848b3135f350d1fbdf1680",
+    "spawn.md": "942c336fe49008440a1a98be9c8973ee4402fb4180b73416a9df9e8ca056b4c2",
+    "followup.txt": "5e120f1149bc27e87cc591e9d76614eeda7de56b82660bc5193e125d5d88fdf0",
+    "turn1.json": "ef496c6d4af980bcdfb8a1fda33d97b75da7d539a4e71dd8da8c5f616e3365ba",
+    "turn1.list.tsv": "060e6f386237e31c5bd9cfe97d5f1de479345367c125bd8b198f20efcda705dc",
+    "followup.tsv": "16e11603b1b1f2b36021d876da2f8eea31c6feb8c5c8e982f5f4e9e045413a52",
+    "list.tsv": "3451000ddf11823f20673d56bbaa0a5b107afaf6b1b2c717931fc1609033959e",
+    "consolidation.json": "322c62583b35c667466d78d4f8f64213798a9a457ff4d412345558fc5e46284a",
+    "validation.json": "23af4d8b4b9ccecacc4fb7e8b232c88ceb94696ddab9cdaddfdab1e3945fb066",
+    "proposal_validation.json": "43b5e6a0f102b152c6eadf336b2c865e6398fba09ce16605068bc91a1370fe9c",
+    "tool_calls.json": "f2152fcea5a1e76664da8f3531e5317d6b8da58716392992c31be87e775ecfba",
+    "session.json": "0279890100529fcb627e0d62f41e4db6710ac6beaa8c0a8840f55bf39b5bf42b",
+    "session.events.jsonl": "62f62e09007c630907e699e2e21a7b9af69513ad79270843608e7c0fde9221ac"
+  },
+  "usd_equivalent": 0.355107,
+  "requests": 9,
+  "max_request_input_tokens": 40817,
+  "total_input_tokens": 252584,
+  "total_cached_input_tokens": 208384,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 22503,
+  "policy_notes": [
+    "turn 1 call_6bd60bdb75004179ac8ed91d980b9b6f: local script on its own files (python3)",
+    "turn 1 call_9545a80787734187940df04980cd9e06: local script on its own files (python3)",
+    "turn 1 call_b181934ac0e3476388d74fd2a39475fb: local script on its own files (python3)",
+    "turn 1 call_f7b54166bdf74095b18d228bde3735b2: local script on its own files (python3)"
+  ]
+}

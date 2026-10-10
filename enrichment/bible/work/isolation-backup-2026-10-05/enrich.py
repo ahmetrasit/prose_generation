@@ -1,0 +1,1217 @@
+#!/usr/bin/env python3
+"""Enrichment v2 orchestrator (v16-like, after v16's augment step): one agent call per page, never rerun.
+
+A target is a page: the surah page (`surah`) or one ayah page (`107:3`). Per surah, once:
+  paket   script   pack.py: the reference pack (frozen base, binding, dictionary, lexica, usage, meals, locators)
+Per target:
+  zengin  agent    one call (prompts/common.md + prompts/zengin.md): research, meal review and composition, grounded
+                   in the pack and the corpus files; writes the page's records (annotations.jsonl) and gaps.json
+  then    script   every record checked (validate.py); a failing record is dropped and listed in check.json, never
+                   sent back; the rest rendered into the frozen base (render.py); the page checked byte-exact against
+                   the base; copied to out/sNNN/ (never overwritten); duzeltme records appended to errata.jsonl
+
+Models (--model, comma-separated, each key[:effort]; default opus:high): astra, sol, sol61 run through `codex exec`;
+opus, sonnet through `claude -p`. Every agent can write only in its call directory (Codex's workspace-write sandbox also allows /tmp) and has no network: Codex by its own
+sandbox; Claude by Claude Code's own sandbox (every Bash command sandboxed and auto-allowed, writes only in the
+call directory, no network, no unsandboxed fallback) plus Write/Edit allowed only inside the call directory. Both
+runners get the identical prompt. Read isolation is partial: a Claude call cannot read out/ or the call
+directories that existed when it started, but can read ones created later (parallel runs); a Codex call has no read
+limits. Trials are therefore blind only when run before the page's other calls, one wave at a time. Non-default models get their own call directory (zengin.<page>.<model>.<effort>).
+--trial renders and checks the page in the call directory only: nothing is copied to out/ and no errata are logged
+(for model comparisons).
+Codex Codex keeps each call's session log (~/.codex/sessions/…/rollout-…-<thread id>.jsonl): run.log.json records
+its token totals and the subscription's weekly-limit reading before and after the call; `status` shows a running
+call's tokens live. Rules as in v16: a call directory with started.json is never run again (--attempt N for a deliberate new
+attempt, which gets its own directory); every call is logged in work/ledger.jsonl with its prompt hash.
+
+  python3 enrichment/v2/enrich.py status --surah 107
+  python3 enrichment/v2/enrich.py build  --surah 107 --target surah        (builds a missing pack; sizes the prompts
+                                                                            and estimates the cost; no model call)
+  python3 enrichment/v2/enrich.py run    --surah 107 --target surah [--attempt 2]
+  python3 enrichment/v2/enrich.py run    --surahs 1,87,100 --target surah --parallel 2
+  python3 enrichment/v2/enrich.py accept --surah 100 --target surah --model opus:high   (accept a finished trial page)
+  python3 enrichment/v2/enrich.py confirm-dead --surah 87 --dir zengin.surah.opus.high  (a call whose process is gone)
+run and accept exit 1 when a page fails; every failure prints a WARNING: line.
+--target is required for build and run: surah | S:A | ayat (every ayah page with a base) | all (surah + ayat).
+Without --model, runs use opus:high (the user's choice after the S107/S100 trials). Each call records the sha256 of
+its page's base; a page whose base changed since its call (a pack rebuilt meanwhile) is never accepted.
+"""
+from __future__ import annotations
+
+import argparse
+import concurrent.futures as cf
+import hashlib
+import json
+import os
+import re
+import shutil
+import signal
+import subprocess
+import sys
+import time
+from pathlib import Path
+
+V2 = Path(__file__).resolve().parent
+PG = V2.parents[1]
+WORK = V2 / "work"
+OUT = V2 / "out"
+PROMPTS = V2 / "prompts"
+LEDGER = WORK / "ledger.jsonl"
+ERRATA = V2 / "errata.jsonl"
+EFFORT = "high"
+MODELS = {"astra": ("codex", "gpt-6-astra"), "sol": ("codex", "gpt-6-sol"), "sol61": ("codex", "gpt-6.1-sol"),
+          "opus": ("claude", "claude-opus-5-5"), "sonnet": ("claude", "claude-sonnet-5-5")}
+DEFAULT_MODEL = "astra"   # names the bare call directory (astra at the default effort; S107's first surah call)
+RUN_MODEL = "opus:high"   # the model used when --model is not given (user, 2026-10-04, after the S107/S100 trials)
+MAX_USD = 40          # per Claude call (--max-budget-usd); Codex runs are on the subscription
+TIMEOUT = 8 * 3600    # seconds per call; a call past it is killed and logged as an error
+CLAUDE_TOOLS = "Bash,Read,Write,Edit,Glob,Grep"
+BRIEF = "zengin"          # the Islamic pass; --pass ehlikitap sets "ehlikitap" (the Bible layers, user 2026-10-04)
+GELENEK = {"zengin": "islami", "ehlikitap": "ehlikitap"}
+MODE = "agent"  # "dosya": one tool-free call on a script-built dossier (dossier.py), user 2026-10-04 evening
+SESSIONS = Path.home() / ".codex" / "sessions"
+
+sys.path.insert(0, str(V2))
+sys.path.insert(0, str(PG / "_commentary" / "v16"))
+import agentrun as AR  # noqa: E402  (agent-spawned runs, user 2026-10-04 evening)
+import render as R  # noqa: E402
+import validate as VAL  # noqa: E402
+
+
+def wd(s: int) -> Path:
+    return WORK / f"s{s:03d}"
+
+
+def sha(text: str) -> str:
+    return hashlib.sha256(text.encode()).hexdigest()
+
+
+def log(row: dict) -> None:
+    WORK.mkdir(parents=True, exist_ok=True)
+    with LEDGER.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
+def rel(p: Path) -> str:
+    return str(p.relative_to(PG)) if p.is_relative_to(PG) else str(p)
+
+
+def tag(target: str) -> str:
+    return target.replace(":", "_")
+
+
+def call_dir(s: int, target: str, attempt: int = 1, model: str = DEFAULT_MODEL, effort: str = EFFORT) -> Path:
+    # the bare directory belongs to astra at the default effort (S107's first surah call, astra max, also sits there)
+    name = f"{BRIEF}{'' if MODE == 'agent' else '-' + MODE}.{tag(target)}" + ("" if (model, effort) == (DEFAULT_MODEL, EFFORT) else f".{model}.{effort}")
+    return wd(s) / (name if attempt == 1 else f"{name}.a{attempt}")
+
+
+def page_name(s: int, target: str) -> str:
+    stem = "surah" if target == "surah" else tag(target)
+    return f"{stem}.md" if BRIEF == "zengin" else f"{stem}.{BRIEF}.md"  # the Bible pass has its own page beside the Islamic one
+
+
+def discovery_list(s: int, target: str) -> Path | None:
+    """An explicitly selected, completed Bible discovery handoff."""
+    root = PG / '_commentary/v16/out' / f's{s:03d}' / 'discovery_bible'
+    selection = root / 'selected.json'
+    if not selection.exists():
+        return None
+    entry = json.loads(selection.read_text()).get(target)
+    if not entry:
+        return None
+    path = (root / entry).resolve()
+    if not path.is_relative_to(root.resolve()) or not path.is_file():
+        raise ValueError(f'invalid discovery selection for {target}: {entry}')
+    return path
+
+
+def file_hash(path: Path) -> str:
+    return VAL.C.sha256(path)
+
+
+def bible_inputs(s: int, target: str) -> dict:
+    """Preflight and freeze the exact discovery, prefetch and intertext index."""
+    discovery = discovery_list(s, target)
+    if discovery is None:
+        raise ValueError('no selected Bible discovery; prepare, finish, merge and prefetch discovery first')
+    manifest = discovery.with_suffix('.json')
+    meta = json.loads(manifest.read_text())
+    _, base, info = R.target_page(s, target)
+    if meta.get('status') != 'ok' or meta.get('tsv_sha256') != file_hash(discovery):
+        raise ValueError('Bible discovery is incomplete or changed since merge')
+    if meta.get('base_sha256') != sha(base):
+        raise ValueError('Bible discovery used a different frozen base')
+    prefetch = discovery.parent / 'prefetch.json'
+    fetched = json.loads(prefetch.read_text())
+    if fetched.get('lists', {}).get(discovery.name) != file_hash(discovery) or not fetched.get('complete'):
+        raise ValueError('Bible discovery has no completed matching prefetch report')
+    index = VAL.C.INDEX_INTERTEXT
+    index_manifest = index.with_suffix('.manifest.json')
+    indexed = json.loads(index_manifest.read_text())
+    if indexed.get('index_sha256') != file_hash(index):
+        raise ValueError('intertext index differs from its build manifest')
+    for sid, digest in fetched.get('source_hashes', {}).items():
+        if indexed.get('source_hashes', {}).get(sid) != digest:
+            raise ValueError(f'intertext index must be rebuilt after prefetch of {sid}')
+    if indexed.get('format') != 'intertext-2':
+        raise ValueError('rebuild the intertext index with repaired WLC and segment traditions')
+    return {rel(p): file_hash(p) for p in (discovery, manifest, prefetch, index, index_manifest)}
+
+
+def verify_bible_inputs(started: dict) -> None:
+    saved = started.get('bible_inputs')
+    if not saved:
+        raise ValueError('Bible call lacks its discovery/index input hashes; build a fresh call')
+    for path, digest in saved.items():
+        if not (PG / path).is_file() or file_hash(PG / path) != digest:
+            raise ValueError(f'Bible input changed since the call: {path}')
+
+
+def accepted(s: int, target: str) -> bool:
+    return (OUT / f"s{s:03d}" / page_name(s, target)).exists()
+
+
+def blocked(d: Path) -> bool:
+    return (d / "started.json").exists() or (d / "run.log.json").exists()
+
+
+def targets(s: int) -> list[str]:
+    """The surah page and every ayah page that has a base."""
+    base = json.loads((wd(s) / "pack" / "base.json").read_text(encoding="utf-8"))
+    return ["surah"] + [ref for ref, info in base["ayat"].items() if info]
+
+
+def select(s: int, spec: str) -> list[str]:
+    """--target: surah | S:A | ayat | all."""
+    if spec == "all":
+        return targets(s)
+    if spec == "ayat":
+        return targets(s)[1:]
+    if spec == "surah":
+        return ["surah"]
+    if ":" not in spec or spec.split(":")[0] != str(s) or not spec.split(":")[1].isdigit():
+        raise SystemExit(f"--target {spec!r}: expected surah, ayat, all or {s}:A")
+    return [spec]
+
+
+def missing_ayat(s: int) -> list[str]:
+    """Ayat of the surah with no ayah base (v16 augment9 not run): no ayah page until the pack is rebuilt."""
+    base = json.loads((wd(s) / "pack" / "base.json").read_text(encoding="utf-8"))
+    return [ref for ref, info in base["ayat"].items() if not info]
+
+
+def base_words(s: int, target: str) -> int | None:
+    try:
+        return len(R.target_page(s, target)[1].split())
+    except (OSError, SystemExit, KeyError, ValueError):
+        return None
+
+
+def estimate(s: int, target: str, model: str, effort: str) -> str:
+    """USD estimate for a Claude call from the ledger: past calls of the same model, effort and page kind, scaled by
+    the base's word count (the surah pages ran $0.67–0.98 per 1k base words with Opus high)."""
+    if MODELS[model][0] != "claude":
+        return "subscription (no USD)"
+    kind = ("surah" if target == "surah" else "ayah") + ("" if MODE == "agent" else "-" + MODE)
+    rates, failed, bad = [], [], 0
+    for line in (LEDGER.read_text(encoding="utf-8").splitlines() if LEDGER.exists() else []):
+        try:
+            r = json.loads(line)
+        except json.JSONDecodeError:  # e.g. a row being appended right now
+            bad += 1
+            continue
+        if r.get('brief', 'zengin') != BRIEF:
+            continue
+        if not (r.get("cost_usd") and (r.get("model"), r.get("effort")) == (model, effort)
+                and ("surah" if r.get("target") == "surah" else "ayah") + ("" if r.get("mode", "agent") == "agent" else "-" + r["mode"]) == kind):
+            continue
+        if r.get("status") != "ok":
+            failed.append(r["cost_usd"])
+            continue
+        w = r.get("base_words") or base_words(r["surah"], r["target"])
+        if w:
+            rates.append(r["cost_usd"] / w * 1000)
+    w = base_words(s, target)
+    notes = ([f"{len(failed)} failed calls of this kind cost ${sum(failed):.2f} in all"] if failed else []) + \
+            ([f"{bad} unreadable ledger lines skipped"] if bad else [])
+    tail = f"; {'; '.join(notes)}" if notes else ""
+    if not rates or not w:
+        return f"no calibration yet for {model}:{effort} {kind} pages (base {w or '?'} words){tail}"
+    lo, hi = min(rates), max(rates)
+    return f"${lo * w / 1000:.1f}–{hi * w / 1000:.1f} (base {w:,} words; {len(rates)} past calls){tail}"
+
+
+# ---------------------------------------------------------------- prompt
+
+def header(s: int, target: str, d: Path, runner: str = "codex") -> str:
+    pack = wd(s) / "pack"
+    n = json.loads((pack / "pack.json").read_text(encoding="utf-8"))["ayat"]
+    name = R.target_page(s, target)[0]
+    card = 'SCHEMA_BIBLE_CARD.md' if BRIEF == 'ehlikitap' else 'SCHEMA_CARD.md'
+    for path in (pack / 'numbered' / name, V2 / card):
+        if not path.is_file():
+            raise ValueError(f'missing page input: {path}')
+    py = "python3"
+    if target == "surah":
+        what = f"the surah page of S{s} (base PACK/numbered/surah.md; all ayat 1–{n})"
+    else:
+        what = (f"the ayah page of {target} (base PACK/numbered/{name}; ayah files PACK/ayah/{tag(target)}/); "
+                f"every record's ayet must include {target}")
+    return "\n".join([
+        "# Job", "",
+        f"- Surah: {s} (ayat 1–{n}); ids use S{s:03d}",
+        f"- Target: {target} — {what}",
+        f"- Workspace root: {PG}", f"- PACK: {pack}",
+        f"- Your call directory (write only here): {d}",
+        f"- Schema card: {V2 / card} (read it once; the full reference is {V2 / 'SCHEMA.md'})",
+        f"- Corpus tool: {py} {V2 / 'tools' / 'corpus.py'}",
+        f"- Validator: {py} {V2 / 'validate.py'} --surah {s} --target {target} --annotations "
+        f"{d / 'annotations.jsonl'}" + (" --pass ehlikitap" if BRIEF == "ehlikitap" else ""),
+        f"- Renderer (preview): {py} {V2 / 'render.py'} --surah {s} --target {target} --annotations "
+        f"{d / 'annotations.jsonl'} --out {d / 'preview'}",
+    ] + ([f"- Pass: ehlikitap (the Tevrat and İncil layers; brief ehlikitap.md); corpus tool: {py} "
+          f"{V2 / 'tools' / 'corpus.py'} --intertext (the flag before the subcommand)",
+          "- Prefetch: read prefetch.json beside the selected discovery list; record its gaps in your gaps.json.",
+          "- Discovery list: " + (str(discovery_list(s, target)) if discovery_list(s, target) else
+                                  "none (build only; discovery and prefetch are required before spawn)")]
+         if BRIEF == "ehlikitap" else [])) + "\n"
+
+
+def build_prompt(s: int, target: str, d: Path, runner: str = "codex") -> str:
+    if MODE == "dosya":  # tool-free: the job, the core, the brief, then the dossier (schema card inside it)
+        if target == "surah":
+            raise SystemExit("the dosya mode is for ayah pages")
+        import dossier as DO
+        df = DO.build(s, target, 3000, 24000)
+        head = "\n".join(["# Job", "", f"- Surah: {s}; ids use S{s:03d}", f"- Target: {target} — the ayah page (base in the dossier)",
+                           f"- Your call directory (write only here): {d}", "- Mode: dosya (no tools; everything is in this message)"]) + "\n"
+        return "\n\n".join([head, (PROMPTS / "common.md").read_text(encoding="utf-8"),
+                            (PROMPTS / "zengin_dosya.md").read_text(encoding="utf-8"), df.read_text(encoding="utf-8")])
+    if MODE in ("tur", "dosya2"):  # the cost trials of 2026-10-05 (COST_PLAN.md): an addendum after the two briefs
+        if target == "surah" or BRIEF != "zengin":
+            raise SystemExit(f"mode {MODE} is built for Islamic-pass ayah pages")
+        tail = [f"- Check (run it; never write your own validator): python3 {V2 / 'tools' / 'check.py'} --surah {s} "
+                f"--target {target} --annotations {d / 'annotations.jsonl'}"]
+        reads = required_reads(s, target, d)
+        REQUIRED[str(d)] = reads
+        tail.append("- Files to read completely in your first turn (one Read per line; a file given with line ranges "
+                    "is read in those ranges, because one Read shows at most 25,000 tokens):")
+        for r in reads:
+            tail.append(f"  - {r['path']}" + ("" if len(r["pages"]) == 1 else "  lines " + ", ".join(
+                f"{o}–{o + n - 1} (offset {o}, limit {n})" for o, n in r["pages"])))
+        job = header(s, target, d, runner).rstrip("\n") + "\n" + "\n".join(tail) + "\n"
+        return "\n\n".join([job, (PROMPTS / "common.md").read_text(encoding="utf-8"),
+                            (PROMPTS / "zengin.md").read_text(encoding="utf-8"),
+                            (PROMPTS / f"zengin_{MODE}.md").read_text(encoding="utf-8")])
+    return "\n\n".join([header(s, target, d, runner), (PROMPTS / "common.md").read_text(encoding="utf-8"),
+                        (PROMPTS / f"{BRIEF}.md").read_text(encoding="utf-8")])
+
+
+EXTRACT_FILES: dict[str, list[str]] = {}  # mode dosya2: the extract's part files per call directory
+
+
+def extract_parts(s: int, target: str, d: Path, write: bool) -> list[str]:
+    """Mode dosya2: the bounded corpus extract (dossier.bounded) split into files of at most 24,000 characters (one
+    Read each), written into the call directory when write is set. Returns the file names."""
+    import dossier as DO
+    text, rec = DO.bounded(s, target)
+    parts, cur = [], ""
+    for line in text.splitlines(keepends=True):
+        if len(cur) + len(line) > 24_000 and cur:
+            parts.append(cur)
+            cur = ""
+        cur += line
+    if cur:
+        parts.append(cur)
+    names = [f"extract.{i}.md" for i in range(1, len(parts) + 1)]
+    if write:
+        d.mkdir(parents=True, exist_ok=True)
+        for n, body in zip(names, parts):
+            (d / n).write_text(body, encoding="utf-8")
+        (d / "extract.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    EXTRACT_FILES[str(d)] = names
+    return names
+
+
+REQUIRED: dict[str, list[dict]] = {}  # modes tur, dosya2: the files the agent must read, with their pages
+READ_TOKENS = 20_000  # a Read shows at most 25,000 tokens; pages are cut below that, at this estimate
+
+
+def est_tokens(text: str) -> int:
+    ar = sum(1 for ch in text if "\u0600" <= ch <= "\u06ff")
+    return int(ar / 1.3 + (len(text) - ar) / 2.0)  # conservative: more tokens than the measured ratios
+
+
+def wrapped_base(s: int, target: str, d: Path) -> Path:
+    """The numbered base copied into the call directory with every line over 1,900 characters broken at a space
+    (the Read tool cuts a line at 2,000 characters). Paragraphs stay apart (blank lines), and placement compares
+    words with whitespace squashed, so anchors are unaffected; the page is still rendered into the frozen base."""
+    src = wd(s) / "pack" / "numbered" / f"{tag(target)}.md"
+    out = []
+    for line in src.read_text(encoding="utf-8").splitlines():
+        while len(line) > 1900:
+            cut = line.rfind(" ", 0, 1900)
+            cut = cut if cut > 0 else 1900
+            out.append(line[:cut])
+            line = line[cut:].lstrip(" ")
+        out.append(line)
+    dst = d / f"base.{tag(target)}.md"
+    d.mkdir(parents=True, exist_ok=True)
+    dst.write_text("\n".join(out) + "\n", encoding="utf-8")
+    broke = len(out) - len(src.read_text(encoding="utf-8").splitlines())
+    if broke:
+        print(f"NOTE: {rel(dst)}: {broke} line breaks added to lines over 1,900 characters (the Read tool cuts at 2,000)")
+    return dst
+
+
+def required_reads(s: int, target: str, d: Path) -> list[dict]:
+    """The files a tur or dosya2 page must read in full, each with the line ranges ([offset, limit], 1-based) that
+    keep every Read under the Read tool's cap; a line over 2,000 characters (the Read tool cuts it) is reported."""
+    pk, t = wd(s) / "pack", tag(target)
+    base = d / f"base.{t}.md" if (d / f"base.{t}.md").exists() else pk / "numbered" / f"{t}.md"
+    files = [base] + [pk / "ayah" / t / f"{n}.md" for n in ("words", "dictionary", "meals", "turkish")]
+    files += [pk / "errata_candidates.json", V2 / "SCHEMA_CARD.md"]
+    files += ([pk / "ayah" / t / "sources.md"] if MODE == "tur" else [d / n for n in EXTRACT_FILES.get(str(d), [])])
+    out = []
+    for f in files:
+        if not f.exists():
+            print(f"WARNING: required file {rel(f)} missing: the agent is told to read it")
+            continue
+        lines = f.read_text(encoding="utf-8").splitlines()
+        long = [i + 1 for i, x in enumerate(lines) if len(x) > 2000]
+        if long:
+            print(f"WARNING: {rel(f)}: lines {long[:5]} are over 2,000 characters; the Read tool cuts such lines")
+        pages, start, acc = [], 1, 0
+        for i, line in enumerate(lines, 1):
+            n = est_tokens(line) + 1
+            if acc + n > READ_TOKENS and i > start:
+                pages.append([start, i - start])
+                start, acc = i, 0
+            acc += n
+        pages.append([start, max(1, len(lines) - start + 1)])
+        out.append({"path": str(f), "lines": len(lines), "pages": pages})
+    return out
+
+
+def audit(d: Path, transcript: str | None, required: list[dict]) -> dict:
+    """After the run, from the transcript: every required file read completely (line coverage, the Read tool's
+    partial-view banners counted as what they showed); outputs the harness spilled to files; corpus.py cuts never
+    continued; responses stopped by the output limit. Nothing a cap removed passes unrecorded."""
+    res: dict = {"files_partial": [], "files_unread": [], "spilled": [], "cuts_not_followed": [],
+                 "unshown_notes": 0, "max_tokens_stops": 0}
+    if not transcript or not Path(transcript).exists():
+        res["error"] = "no transcript: coverage not audited"
+        return res
+    uses, results, banners, order = {}, {}, {}, []
+    for line in Path(transcript).read_text(encoding="utf-8").splitlines():
+        try:
+            ev = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        att = ev.get("attachment") or {}
+        if att.get("type") == "read_truncation_notice":
+            banners[att.get("toolUseID")] = att.get("banner", "")
+        msg = ev.get("message") if isinstance(ev.get("message"), dict) else {}
+        if ev.get("type") == "assistant" and msg.get("stop_reason") == "max_tokens":
+            res["max_tokens_stops"] += 1
+        for c in msg.get("content") or [] if isinstance(msg.get("content"), list) else []:
+            if c.get("type") == "tool_use":
+                uses[c["id"]] = c
+                order.append(c["id"])
+            elif c.get("type") == "tool_result":
+                x = c.get("content")
+                results[c.get("tool_use_id")] = x if isinstance(x, str) else "".join(
+                    b.get("text", "") for b in x or [] if isinstance(b, dict))
+    cmds = " ".join(json.dumps(uses[i].get("input"), ensure_ascii=False) for i in order)
+    for r in required:
+        covered = set()
+        for i in order:
+            u = uses[i]
+            if u.get("name") != "Read" or (u.get("input") or {}).get("file_path") != r["path"]:
+                continue
+            o = int((u["input"].get("offset") or 1))
+            n = int(u["input"].get("limit") or 2000)
+            b = banners.get(i, "")
+            m = re.search(r"showing lines (\d+)-(\d+)", b)
+            lo, hi = (int(m.group(1)), int(m.group(2))) if m else (o, o + n - 1)
+            if "<persisted-output>" not in results.get(i, ""):
+                covered.update(range(lo, min(hi, r["lines"]) + 1))
+        if not covered:
+            fp = Path(r["path"])
+            if any(uses[i].get("name") == "Bash" and "<persisted-output>" not in results.get(i, "")
+                   and (str(fp) in (c := str((uses[i].get("input") or {}).get("command", "")))
+                        or (str(fp.parent) in c and fp.name in c)) for i in order):
+                continue  # shown whole by a command (cat …) that did not spill
+            via_spill = False
+            for k, i in enumerate(order):  # a command that named it spilled, and the saved file was read later
+                c = str((uses[i].get("input") or {}).get("command", ""))
+                m = re.search(r"saved to: (\S+)", results.get(i, ""))
+                if m and (str(fp) in c or (str(fp.parent) in c and fp.name in c)) and any(
+                        uses[j].get("name") == "Read" and (uses[j].get("input") or {}).get("file_path") == m.group(1)
+                        for j in order[k + 1:]):
+                    via_spill = True
+            if via_spill:
+                continue  # listed under "spilled" with file_read_later true
+            res["files_unread"].append(r["path"])
+        elif len(covered) < r["lines"]:
+            missing = sorted(set(range(1, r["lines"] + 1)) - covered)
+            res["files_partial"].append(f"{r['path']}: {len(missing)} of {r['lines']} lines never shown "
+                                        f"(first missing line {missing[0]})")
+    later = {i: " ".join(json.dumps(uses[j].get("input"), ensure_ascii=False) for j in order[k + 1:])
+             for k, i in enumerate(order)}
+    for i in order:
+        text = results.get(i, "")
+        if "<persisted-output>" in text:
+            m = re.search(r"saved to: (\S+)", text)
+            res["spilled"].append({"call": json.dumps(uses[i].get("input"), ensure_ascii=False)[:160],
+                                   "file_read_later": bool(m and m.group(1) in later[i])})
+        for loc, frm in re.findall(r"\[cut: `corpus\.py get (\S+) --from (\d+)` for the rest\]", text):
+            if not re.search(re.escape(loc) + r".{0,200}--from", later[i]):
+                res["cuts_not_followed"].append(f"{loc} from {frm}")
+        res["unshown_notes"] += len(re.findall(r"NOTE: \d+ segments not shown", text))
+    return res
+
+
+def agent_type(effort: str) -> str:
+    """The agent definition that fixes the effort (.claude/agents/enrich-page-<effort>.md); general-purpose, whose
+    effort is not set by us, only when it is missing (printed)."""
+    f = PG / ".claude" / "agents" / f"enrich-page-{effort}.md"
+    if f.exists():
+        return f"enrich-page-{effort}"
+    print(f"WARNING: {rel(f)} missing: spawn general-purpose with model opus, whose effort this script cannot set")
+    return "general-purpose"
+
+
+# ---------------------------------------------------------------- call
+
+def run_proc(cmd: list[str], prompt: str, out, err, env: dict, cwd: Path | None = None) -> tuple[int, bool]:
+    """(returncode, timed_out). The call runs in its own process group; on timeout the whole group is killed, so
+    no sandboxed grandchild keeps writing into the call directory after the call is logged."""
+    p = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=out, stderr=err, env=env, cwd=cwd, text=True,
+                         start_new_session=True)
+    try:
+        p.communicate(prompt, timeout=TIMEOUT)
+        return p.returncode, False
+    except subprocess.TimeoutExpired:
+        try:
+            os.killpg(p.pid, signal.SIGKILL)
+        except ProcessLookupError:
+            pass  # the group ended by itself between the timeout and the kill
+        p.wait()
+        return -9, True
+
+
+def call_codex(prompt: str, d: Path, model: str, effort: str) -> dict:
+    last = d / "response.md"
+    cmd = ["codex", "exec", "--ignore-user-config", "-m", model, "-c", f'model_reasoning_effort="{effort}"',
+           "-c", 'web_search="disabled"', "--disable", "skill_search", "--skip-git-repo-check",
+           "-s", "workspace-write", "--json", "-o", str(last), "-C", str(d), "-"]
+    (d / "command.json").write_text(json.dumps({"argv": cmd, "stdin": "prompt.md"}, indent=1) + "\n", encoding="utf-8")
+    env = {**os.environ, "PYTHONDONTWRITEBYTECODE": "1"}
+    with (d / "run.stream.jsonl").open("w", encoding="utf-8") as out, (d / "stderr.log").open("w") as err:
+        returncode, timed_out = run_proc(cmd, prompt, out, err, env)
+    usage, completed, tools, bad = {}, False, 0, 0
+    for line in (d / "run.stream.jsonl").read_text(encoding="utf-8").splitlines():
+        try:
+            ev = json.loads(line)
+        except json.JSONDecodeError:
+            bad += 1  # counted and reported (stream_unparsable), never silently dropped
+            continue
+        if ev.get("type") == "turn.completed":
+            completed, usage = True, ev.get("usage") or {}
+        if ev.get("type") == "item.completed" and (ev.get("item") or {}).get("type") == "command_execution":
+            tools += 1
+    return {"returncode": returncode, "turn_completed": completed, "usage": usage, "commands": tools,
+            "timed_out": timed_out, "stream_unparsable": bad}
+
+
+def others(d: Path) -> list[Path]:
+    """What a trial must not see: accepted pages and every other call directory (other models' records and notes)
+    and the Codex/Claude session stores (transcripts of other calls)."""
+    return ([OUT] + [x for x in sorted(WORK.glob(f"s*/{BRIEF}.*")) if x.is_dir() and x != d]
+            + [Path.home() / ".codex" / "sessions", Path.home() / ".claude" / "projects"])
+
+
+def call_claude(prompt: str, d: Path, model: str, effort: str) -> dict:
+    """One `claude -p` call in the call directory, customizations off (--safe-mode), unlisted actions refused
+    (--permission-mode dontAsk). The stream is kept; the result event carries tokens and the cost in USD."""
+    sid = str(__import__("uuid").uuid4())
+    allowed = [f"Read(/{PG}/**)", f"Write(/{d}/**)", f"Edit(/{d}/**)"]
+    hidden = others(d)
+    denied = [f"{tool}(/{h}/**)" for h in hidden for tool in ("Read", "Edit", "Write")]
+    settings = {"sandbox": {"enabled": True, "failIfUnavailable": True, "autoAllowBashIfSandboxed": True,
+                            "allowUnsandboxedCommands": False, "network": {"allowedDomains": []},
+                            "filesystem": {"allowWrite": [str(d)], "denyRead": [str(h) for h in hidden]}}}
+    cmd = ["claude", "-p", "--model", model, "--effort", effort, "--tools", CLAUDE_TOOLS, "--allowedTools", *allowed,
+           "--disallowedTools", *denied, "--settings", json.dumps(settings), "--max-budget-usd", str(MAX_USD),
+           "--output-format", "stream-json", "--verbose", "--session-id", sid, "--safe-mode",
+           "--permission-mode", "dontAsk"]
+    (d / "command.json").write_text(json.dumps({"argv": cmd, "stdin": "prompt.md"}, indent=1) + "\n", encoding="utf-8")
+    env = {**os.environ, "PYTHONDONTWRITEBYTECODE": "1", "ENRICH_CALL_DIR": str(d),
+           "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "128000",
+           # 5-minute cache: writes cost 1.25x input instead of 2x; turns come every few seconds, so it stays warm
+           "FORCE_PROMPT_CACHING_5M": "1"}
+    with (d / "run.stream.jsonl").open("w", encoding="utf-8") as out, (d / "stderr.log").open("w") as err:
+        returncode, timed_out = run_proc(cmd, prompt, out, err, env, cwd=d)
+    final, tools, denials, bad = {}, 0, 0, 0
+    for line in (d / "run.stream.jsonl").read_text(encoding="utf-8").splitlines():
+        try:
+            ev = json.loads(line)
+        except json.JSONDecodeError:
+            bad += 1  # counted and reported (stream_unparsable), never silently dropped
+            continue
+        if ev.get("type") == "assistant":
+            tools += sum(1 for c in (ev.get("message") or {}).get("content", []) if c.get("type") == "tool_use")
+        if ev.get("type") == "result":
+            final = ev
+            denials = len(ev.get("permission_denials") or [])
+    if final.get("result"):
+        (d / "response.md").write_text(final["result"] + "\n", encoding="utf-8")
+    return {"returncode": returncode,
+            # complete only on a successful result: error_max_turns, error_max_budget_usd … never reach finish()
+            "turn_completed": bool(final) and not final.get("is_error") and final.get("subtype") in (None, "success"),
+            "usage": final.get("usage") or {}, "cost_usd": final.get("total_cost_usd"),
+            "num_turns": final.get("num_turns"), "commands": tools, "permission_denials": denials, "session_id": sid,
+            "result_subtype": final.get("subtype"), "result_is_error": bool(final.get("is_error")),
+            "timed_out": timed_out, "stream_unparsable": bad}
+
+
+def session_file(d: Path) -> Path | None:
+    """The Codex session log of the call in d, found by the thread id the stream starts with."""
+    try:
+        with (d / "run.stream.jsonl").open(encoding="utf-8") as f:
+            tid = json.loads(f.readline()).get("thread_id")
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+    hits = sorted(SESSIONS.glob(f"*/*/*/rollout-*-{tid}.jsonl")) if tid else []
+    return hits[-1] if hits else None
+
+
+def read_session(f: Path) -> dict:
+    """Token totals, the last turn's context, and the weekly-limit readings (first, last) of one session log."""
+    out = {"session": str(f)}
+    for line in f.read_text(encoding="utf-8").splitlines():
+        try:
+            p = json.loads(line).get("payload") or {}
+        except json.JSONDecodeError:
+            continue
+        if p.get("type") != "token_count":
+            continue
+        info = p.get("info") or {}
+        if info.get("total_token_usage"):
+            out["tokens"] = info["total_token_usage"]
+            out["context_tokens_last_turn"] = (info.get("last_token_usage") or {}).get("input_tokens")
+        week = ((p.get("rate_limits") or {}).get("primary") or {}).get("used_percent")
+        if week is not None:
+            out.setdefault("weekly_used_first", week)
+            out["weekly_used_last"] = week
+    return out
+
+
+def weekly_now() -> dict:
+    """The latest weekly-limit reading in any saved session (a baseline before a call; may be hours old)."""
+    for f in sorted(SESSIONS.glob("*/*/*/rollout-*.jsonl"), key=lambda p: p.stat().st_mtime, reverse=True)[:5]:
+        r = read_session(f)
+        if "weekly_used_last" in r:
+            return {"weekly_used": r["weekly_used_last"], "read_from": f.name,
+                    "as_of": time.strftime("%Y-%m-%dT%H:%M:%S%z", time.localtime(f.stat().st_mtime))}
+    return {}
+
+
+def finish(s: int, target: str, d: Path, trial: bool = False, started: dict | None = None) -> dict:
+    """Check the records, drop the failing ones, render, check the page, accept (unless trial). Nothing goes back to
+    the agent. started: the call's started row; if the pack (base or any input) changed since the call, the page is
+    never accepted, and the accepted record names the dictionary the call saw."""
+    ann = d / "annotations.jsonl"
+    if not ann.exists():
+        return {"check": "no annotations.jsonl", "ok": False}
+    started = started or {}
+    if BRIEF == 'ehlikitap':
+        try:
+            verify_bible_inputs(started)
+        except (OSError, ValueError) as e:
+            return {'check': str(e), 'ok': False}
+    dst = OUT / f"s{s:03d}" / page_name(s, target)
+    if not trial and dst.exists():  # before anything is rendered or written
+        return {"check": f"{rel(dst)} exists (never overwrite)", "ok": False}
+    now = R.target_page(s, target)[2]["sha256"]
+    if started.get("base_sha256") and now != started["base_sha256"]:
+        return {"check": f"base changed since the call ({started['base_sha256'][:12]} -> {now[:12]}): never "
+                         f"accepted; run a new attempt on the new base", "ok": False}
+    pack_now = hashlib.sha256((wd(s) / "pack" / "pack.json").read_bytes()).hexdigest()
+    if started.get("pack_sha256") and pack_now != started["pack_sha256"]:
+        return {"check": "the pack was rebuilt since the call (pack.json differs): the page's inputs are no longer "
+                         "the ones the call saw; never accepted; run a new attempt", "ok": False}
+    try:
+        recs = R.load(ann)
+    except SystemExit as e:
+        return {"check": f"annotations.jsonl unreadable: {e}", "ok": False}
+    kept, dropped, warnings = VAL.check_records(s, target, recs, GELENEK[BRIEF])
+    page_dir = d / "page"
+    if page_dir.exists():
+        shutil.rmtree(page_dir)
+    page, placement = R.render(s, target, kept, page_dir)
+    name, base, info = R.target_page(s, target)
+    page_errors = VAL.check_page(page, base, kept) + placement
+    check = {"surah": s, "target": target, "records": len(recs), "kept": len(kept), "dropped": dropped,
+             "warnings": warnings, "page_errors": page_errors}
+    (d / "check.json").write_text(json.dumps(check, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    counts = {"kept": len(kept), "dropped": len(dropped), "warnings": len(warnings)}
+    if dropped and not kept:
+        return {'check': 'all records failed validation (see check.json)', 'ok': False, **counts}
+    if not recs and BRIEF == 'ehlikitap':
+        gaps = d / 'gaps.json'
+        reason = json.loads(gaps.read_text()).get('no_findings_reason') if gaps.exists() else None
+        if not isinstance(reason, str) or not reason.strip():
+            return {'check': 'empty Bible page requires gaps.json no_findings_reason', 'ok': False, **counts}
+    if page_errors:
+        return {"check": f"page errors: {len(page_errors)} (see check.json)", "ok": False, **counts}
+    if trial:
+        return {"check": "ok (trial: page in the call directory only)", "ok": True, **counts}
+    dictionary = started.get("dictionary") or json.loads((wd(s) / "pack" / "pack.json").read_text(encoding="utf-8")).get("dictionary")
+    errata = [r for r in kept if r.get("tur") == "duzeltme"]
+    logged = set()
+    for line in (ERRATA.read_text(encoding="utf-8").splitlines() if ERRATA.exists() else []):
+        try:
+            x = json.loads(line)
+        except json.JSONDecodeError:
+            continue  # a hand-edited line; never rewritten here
+        logged.add((x.get("surah"), x.get("target"), x.get("id"), x.get("taban")))
+    with ERRATA.open("a", encoding="utf-8") as f:  # before the page: an accepted page never lacks its errata
+        for r in errata:
+            if (s, target, r["id"], r.get("taban")) in logged:  # a failed earlier accept already logged it
+                print(f"NOTE: {r['id']} already in errata.jsonl (an earlier accept of this page); not repeated",
+                      flush=True)
+                continue
+            f.write(json.dumps({"surah": s, "target": target, "base": info["path"], "id": r["id"], "taban": r.get("taban"),
+                                "hata": r.get("hata"), "metin": r.get("metin"), "kaynak": r.get("kaynak")},
+                               ensure_ascii=False) + "\n")
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    snapshot = dst.with_suffix('.annotations.jsonl')
+    payload = ''.join(json.dumps(r, ensure_ascii=False) + '\n' for r in kept)
+    # A previous interrupted accept may have written the identical snapshot only.
+    if snapshot.exists() and snapshot.read_text() != payload:
+        return {'check': f'{rel(snapshot)} differs from this result; never overwrite', 'ok': False, **counts}
+    if not snapshot.exists():
+        with snapshot.open('x', encoding='utf-8') as f:
+            f.write(payload)
+    with open(page, "rb") as src, open(dst, "xb") as out:  # exclusive: never overwrite, even in a race
+        out.write(src.read())
+    rec = {"surah": s, "target": target, "accepted_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
+           "page_sha256": hashlib.sha256(dst.read_bytes()).hexdigest(), "base": info,
+           "dictionary": dictionary, "annotations": rel(ann),
+           "accepted_annotations": rel(snapshot), "annotations_sha256": file_hash(snapshot),
+           "bible_inputs": started.get('bible_inputs'),
+           "kept": len(kept), "dropped": [x["id"] for x in dropped]}
+    dst.with_suffix(".json").write_text(json.dumps(rec, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    return {"check": "ok", "ok": True, **counts, "errata": len(errata)}
+
+
+def run_target(s: int, target: str, model: str, effort: str, attempt: int = 1, trial: bool = False) -> dict:
+    runner, model_id = MODELS[model]
+    d = call_dir(s, target, attempt, model, effort)
+    if blocked(d):
+        return {"surah": s, "target": target, "model": model, "status": "skipped",
+                "reason": "started or finished before (never rerun)"}
+    if accepted(s, target) and not trial:
+        return {"surah": s, "target": target, "model": model, "status": "skipped", "reason": "page already accepted"}
+    try:
+        prompt = build_prompt(s, target, d, runner)
+        _, base_text, info = R.target_page(s, target)
+        pack_bytes = (wd(s) / "pack" / "pack.json").read_bytes()
+        pack_sha = hashlib.sha256(pack_bytes).hexdigest()
+        dictionary = json.loads(pack_bytes).get("dictionary")
+        input_hashes = bible_inputs(s, target) if BRIEF == 'ehlikitap' else None
+    except (Exception, SystemExit) as e:  # a missing pack, base or brief stops this job, not the whole batch
+        return {"surah": s, "target": target, "model": model, "status": "error", "reason": f"prompt: {e}"}
+    d.mkdir(parents=True, exist_ok=True)
+    row = {"surah": s, "target": target, "attempt": attempt, "brief": BRIEF, "model": model, "model_id": model_id,
+           "runner": runner, "effort": effort, "trial": trial, "prompt_sha256": sha(prompt), "prompt_chars": len(prompt),
+           "base_sha256": info["sha256"], "base_words": len(base_text.split()), "pack_sha256": pack_sha,
+           "dictionary": dictionary,
+           "bible_inputs": input_hashes,
+           "started": time.strftime("%Y-%m-%dT%H:%M:%S%z")}
+    try:
+        with (d / "started.json").open("x", encoding="utf-8") as f:
+            json.dump(row, f, ensure_ascii=False, indent=1)
+    except FileExistsError:  # another orchestrator started it a moment ago
+        return {"surah": s, "target": target, "model": model, "status": "skipped",
+                "reason": "started by another process (never rerun)"}
+    (d / "prompt.md").write_text(prompt, encoding="utf-8")
+    if runner == "codex":
+        row["weekly_before"] = weekly_now()
+    t0 = time.monotonic()
+    try:
+        if runner == "codex":
+            row.update(call_codex(prompt, d, model_id, effort))
+            sf = session_file(d)
+            row["session"] = read_session(sf) if sf else {"missing": "no Codex session log found for this call"}
+        else:
+            row.update(call_claude(prompt, d, model_id, effort))
+        if row["returncode"] == 0 and row["turn_completed"]:
+            res = finish(s, target, d, trial, row)
+        else:
+            why = ("timed out after %ds" % TIMEOUT if row.get("timed_out") else
+                   f"result {row['result_subtype']}" if row.get("result_subtype") not in (None, "success") else
+                   "result marked is_error" if row.get("result_is_error") else
+                   f"exit code {row['returncode']}" if row["returncode"] else "no result or completed turn in the stream")
+            res = {"check": f"call did not complete ({why}; see stderr.log and run.stream.jsonl)", "ok": False}
+        row["status"] = "ok" if res.pop("ok") else "error"
+        row.update(res)
+    except (Exception, SystemExit) as e:  # keep the record (run.log.json, ledger); never retry automatically
+        row.update(status="error", error=f"{type(e).__name__}: {e}")
+    row["seconds"] = round(time.monotonic() - t0)
+    (d / "run.log.json").write_text(json.dumps(row, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    log(row)
+    return row
+
+
+def spawn_target(s: int, target: str, model: str, effort: str, attempt: int = 1, trial: bool = False) -> dict:
+    """Prepare one page call for an agent the orchestrator spawns (user, 2026-10-04 evening): prompt.md, started.json
+    (the never-rerun guard, with the base and pack hashes), spawn.md with the Agent tool's text. No model call."""
+    runner, model_id = MODELS[model]
+    if runner != "claude":
+        return {"surah": s, "target": target, "model": model, "status": "error",
+                "reason": "spawn is for Claude agents; Codex models run through `run`"}
+    d = call_dir(s, target, attempt, model, effort)
+    if blocked(d):
+        return {"surah": s, "target": target, "model": model, "status": "skipped",
+                "reason": "started or finished before (never rerun)"}
+    if accepted(s, target) and not trial:
+        return {"surah": s, "target": target, "model": model, "status": "skipped", "reason": "page already accepted"}
+    try:
+        if MODE in ("tur", "dosya2"):
+            wrapped_base(s, target, d)
+        if MODE == "dosya2":
+            extract_parts(s, target, d, write=True)
+        prompt = build_prompt(s, target, d, runner)
+        _, base_text, info = R.target_page(s, target)
+        pack_bytes = (wd(s) / "pack" / "pack.json").read_bytes()
+        input_hashes = bible_inputs(s, target) if BRIEF == 'ehlikitap' else None
+    except (Exception, SystemExit) as e:
+        return {"surah": s, "target": target, "model": model, "status": "error", "reason": f"prompt: {e}"}
+    row = {"surah": s, "target": target, "attempt": attempt, "brief": BRIEF, "model": model, "model_id": model_id,
+           "agent_type": agent_type(effort) if MODE in ("tur", "dosya2") else AR.AGENT_TYPE["enrich"],
+           "required_reads": REQUIRED.get(str(d), []),
+           "runner": "agent", "effort": effort, "trial": trial, "prompt_sha256": sha(prompt), "prompt_chars": len(prompt),
+           "base_sha256": info["sha256"], "base_words": len(base_text.split()),
+           "pack_sha256": hashlib.sha256(pack_bytes).hexdigest(), "dictionary": json.loads(pack_bytes).get("dictionary")}
+    row['bible_inputs'] = input_hashes
+    row["mode"] = MODE
+    AR.prepare(d, prompt, row, "enrich-dosya" if MODE == "dosya" else "enrich-parts" if MODE in ("tur", "dosya2")
+               else "enrich", "annotations.jsonl", lookup=False)
+    return {"surah": s, "target": target, "model": model, "status": "prepared", "dir": rel(d),
+            "spawn": rel(d / "spawn.md"), "agent": row["agent_type"]}
+
+
+def unread_sources(s: int, target: str, d: Path) -> list[str]:
+    """Sources with segments tied to the ayah that the agent never named in a tool call (Read path, command) and
+    that its corpus extract (mode dosya2) did not show: the page's silent skips, now recorded (meal, translation
+    and Qur'an-text sources excepted: they reach the agent through the pack)."""
+    if target == "surah":
+        return []
+    import sqlite3
+    sys.path.insert(0, str(V2 / "tools"))
+    import corpus as C
+    index = C.INDEX_INTERTEXT if BRIEF == 'ehlikitap' else C.INDEX
+    con = sqlite3.connect(f"file:{index}?mode=ro", uri=True)
+    a = int(target.split(":")[1])
+    srcs = {r[0] for r in con.execute("SELECT DISTINCT seg.src FROM seg JOIN src ON src.id=seg.src WHERE seg.s=? AND "
+                                       "seg.a<=? AND coalesce(seg.a_end, seg.a)>=? AND src.kind NOT IN "
+                                       "('meal','translation','quran')", (s, a, a))}
+    if BRIEF == 'ehlikitap':
+        path = discovery_list(s, target)
+        if path:
+            report = json.loads((path.parent / 'prefetch.json').read_text())
+            srcs |= {loc.split(':')[0] for item in report['candidates']
+                     for loc in item.get('locators', []) + item.get('related', [])}
+    con.close()
+    seen = ""
+    tc = d / "tool_calls.json"
+    if tc.exists():
+        seen += " ".join(json.dumps(c.get("input"), ensure_ascii=False) for c in json.loads(tc.read_text(encoding="utf-8")))
+    ex = d / "extract.json"
+    if ex.exists():
+        rec = json.loads(ex.read_text(encoding="utf-8"))
+        listed = {x.split(":")[0] for x in rec.get("segments_listed_only", [])}
+        seen += " " + " ".join(f"{x}:" for x in srcs - listed)  # every source with something shown in the extract
+    return sorted(x for x in srcs if f"{x}:" not in seen and f"{x}," not in seen and f"{x} " not in seen)
+
+
+def finish_target(s: int, target: str, d: Path, trial: bool = False) -> dict:
+    """Finish an agent-spawned page call: the agent's annotations.jsonl and its transcript (cost, commands, stop
+    reason), then finish() exactly as after a CLI call; run.log.json and the ledger row as before."""
+    st_path = d / "started.json"
+    if not st_path.exists() or json.loads(st_path.read_text(encoding="utf-8")).get("runner") != "agent":
+        return {"surah": s, "target": target, "status": "error", "reason": f"{rel(d)}: not an agent-spawned call"}
+    if (d / "run.log.json").exists():
+        return {"surah": s, "target": target, "status": "error", "reason": f"{rel(d)}: already finished; never twice"}
+    row = json.loads(st_path.read_text(encoding="utf-8"))
+    t0 = time.mktime(time.strptime(row["started"], "%Y-%m-%dT%H:%M:%S"))
+    parts = sorted(d.glob("annotations.[0-9]*.jsonl"), key=lambda p: int(p.suffixes[-2].lstrip(".")))
+    if parts and not (d / "annotations.jsonl").exists():  # records written in parts (modes tur, dosya2)
+        (d / "annotations.jsonl").write_text("".join(p.read_text(encoding="utf-8").rstrip("\n") + "\n" for p in parts),
+                                            encoding="utf-8")
+        print(f"NOTE: {rel(d)}: annotations.jsonl joined from {', '.join(p.name for p in parts)}")
+        row["parts"] = [p.name for p in parts]
+    elif parts:
+        print(f"WARNING: {rel(d)}: annotations.jsonl and parts ({', '.join(p.name for p in parts)}) both exist: "
+              f"only annotations.jsonl is used")
+    obj = AR.finish(d, "annotations.jsonl")
+    row.update({"output_tokens_est": obj.get("output_tokens_est"), "cost_usd_est": obj.get("cost_usd_est")})
+    if row.get("required_reads"):
+        cov = audit(d, obj.get("transcript"), row["required_reads"])
+        row["coverage"] = cov
+        for k in ("files_unread", "files_partial", "cuts_not_followed"):
+            for x in cov.get(k, []):
+                print(f"WARNING: {rel(d)}: {k.replace('_', ' ')}: {x}")
+        for x in cov.get("spilled", []):
+            print(f"WARNING: {rel(d)}: an output spilled to a file ({'read later' if x['file_read_later'] else 'never read'}): {x['call']}")
+        if cov.get("max_tokens_stops"):
+            print(f"WARNING: {rel(d)}: {cov['max_tokens_stops']} responses stopped at the output-token limit")
+        if cov.get("error"):
+            print(f"WARNING: {rel(d)}: {cov['error']}")
+    unread = unread_sources(s, target, d)
+    if unread:
+        row["unread_sources"] = unread
+        print(f"WARNING: {rel(d)}: {len(unread)} sources tied to {target} were never opened (nor in the extract): "
+              f"{', '.join(unread)}")
+    row.update({"returncode": 0, "turn_completed": not obj.get("is_error") and obj.get("completed", obj.get("stop_reason") in (None, "end_turn")),
+                "usage": obj.get("usage") or {}, "cost_usd": obj.get("total_cost_usd"), "cost_basis": obj.get("cost_basis"),
+                "num_turns": obj.get("num_turns"), "commands": obj.get("tool_calls", 0), "transcript": obj.get("transcript"),
+                "agent_id": obj.get("agent_id"), "stop_reason": obj.get("stop_reason"), "safety_stop": obj.get("safety_stop")})
+    try:
+        if row["turn_completed"]:
+            res = finish(s, target, d, trial, row)
+        else:
+            res = {"check": f"call did not complete ({obj.get('error') or 'stop_reason ' + str(obj.get('stop_reason'))})",
+                   "ok": False}
+        row["status"] = "ok" if res.pop("ok") else "error"
+        row.update(res)
+    except (Exception, SystemExit) as e:
+        row.update(status="error", error=f"{type(e).__name__}: {e}")
+    row["seconds"] = round(time.time() - t0)
+    (d / "run.log.json").write_text(json.dumps(row, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    log(row)
+    return row
+
+
+def merge_page(s: int, target: str) -> bool:
+    """out/sNNN/<page>.merged.md from the accepted Islamic page and the accepted Bible page (whichever exist): the
+    kept records of both, rendered into the frozen base; the Islamic records get gelenek islami. Never overwrites
+    an accepted page; the merged file is rewritten each time."""
+    stem = "surah" if target == "surah" else tag(target)
+    recs, parts, provenance = [], [], {}
+    name, base, info = R.target_page(s, target)
+    metas = {m['id']: m for m in VAL.C.sources()}
+    try:
+        for brief in ('zengin', 'ehlikitap'):
+            filename = f'{stem}.md' if brief == 'zengin' else f'{stem}.ehlikitap.md'
+            page = OUT / f's{s:03d}' / filename
+            rec_path = page.with_suffix('.json')
+            if not rec_path.exists() and not page.exists():
+                continue
+            rec = json.loads(rec_path.read_text())
+            if file_hash(page) != rec['page_sha256']:
+                raise ValueError(f'{filename}: accepted page has changed')
+            if rec['base']['sha256'] != info['sha256']:
+                raise ValueError(f'{filename}: accepted base differs from the current frozen base')
+            original = page.read_text()
+            if rec.get('accepted_annotations'):
+                ann = PG / rec['accepted_annotations']
+                if file_hash(ann) != rec.get('annotations_sha256'):
+                    raise ValueError(f'{filename}: accepted annotation snapshot has changed')
+                rs = R.load(ann)
+            else:
+                # Historical Islamic pages have only the accepted Markdown/hash.
+                # Recover records only when their complete rendered layout matches it.
+                rs, seen = [], set()
+                for r in R.load(PG / rec['annotations']):
+                    if brief == 'zengin':
+                        r.setdefault('gelenek', 'islami')
+                    line = VAL.B.tag_line(r)
+                    if line in original.splitlines() and line not in seen:
+                        rs.append(r)
+                        seen.add(line)
+            if len(rs) != rec['kept']:
+                raise ValueError(f'{filename}: accepted record count differs')
+            rebuilt, errors = R.render_page(base, rs, original.split('\n\n')[0], None, metas)
+            if errors or rebuilt.split('\n## Kaynak kayıtları')[0] != original.split('\n## Kaynak kayıtları')[0]:
+                raise ValueError(f'{filename}: records do not reproduce the accepted page')
+            valid, dropped, _ = VAL.check_records(s, target, rs, GELENEK[brief])
+            if dropped:
+                raise ValueError(f'{filename}: invalid accepted records: {dropped}')
+            recs.extend(valid)
+            parts.append(f'{brief} {len(rs)}')
+            provenance[brief] = {'page': rel(page), 'page_sha256': file_hash(page),
+                                 'manifest_sha256': file_hash(rec_path)}
+        ids = [r['id'] for r in recs]
+        if len(ids) != len(set(ids)):
+            raise ValueError('duplicate IDs across the accepted layers')
+    except (OSError, KeyError, ValueError, SystemExit) as exc:
+        print(f'WARNING: S{s} {target} merge: {exc}', flush=True)
+        return False
+    if not parts:
+        print(f"WARNING: S{s} {target}: no accepted page of either pass; nothing merged", flush=True)
+        return False
+    head = (f"<!-- schema:zenginlestirme {VAL.B.SCHEMA['version']}; target:{'S' + str(s) if target == 'surah' else target}; "
+            f"base:{info['path']} sha256:{info['sha256']}; merged:{time.strftime('%Y-%m-%d')}; layers: {', '.join(parts)} -->")
+    text, errors = R.render_page(base, recs, head, None if target == "surah" else R.AYAH_SECTION, metas)
+    if errors:
+        for e in errors:
+            print(f"WARNING: S{s} {target} merge: {e}", flush=True)
+        return False
+    dst = OUT / f"s{s:03d}" / f"{stem}.merged.md"
+    tmp = dst.with_suffix('.md.tmp')
+    tmp.write_text(text, encoding='utf-8')
+    page_errors = VAL.check_page(tmp, base, recs)
+    if page_errors:
+        tmp.unlink()
+        print(f'WARNING: S{s} {target} merge: {page_errors}', flush=True)
+        return False
+    tmp.replace(dst)
+    dst.with_suffix('.json').write_text(json.dumps({'base': info, 'layers': provenance,
+        'partial': len(parts) < 2, 'page_sha256': file_hash(dst)}, indent=2) + '\n')
+    print(json.dumps({"surah": s, "target": target, "merged": rel(dst), "layers": parts,
+                      'partial': len(parts) < 2}, ensure_ascii=False), flush=True)
+    return True
+
+
+def ensure_pack(s: int) -> bool:
+    if (wd(s) / "pack" / "pack.json").exists():
+        return True
+    p = subprocess.run([sys.executable, "-B", str(V2 / "pack.py"), "--surah", str(s)], capture_output=True, text=True)
+    log({"surah": s, "stage": "paket", "status": "ok" if p.returncode == 0 else "error",
+         "out": (p.stdout + p.stderr)[-1500:], "at": time.strftime("%Y-%m-%dT%H:%M:%S%z")})
+    if p.returncode:
+        print(json.dumps({"surah": s, "stage": "paket", "status": "error", "out": (p.stdout + p.stderr)[-600:]},
+                         ensure_ascii=False), flush=True)
+    return p.returncode == 0
+
+
+# ---------------------------------------------------------------- commands
+
+def status(s: int) -> None:
+    if not (wd(s) / "pack" / "pack.json").exists():
+        print(f"S{s}: no pack")
+        return
+    print(f"S{s}:")
+    for t in targets(s):
+        line = "accepted" if accepted(s, t) else "due"
+        if t != "surah" and not accepted(s, t):
+            try:
+                R.target_page(s, t)
+            except SystemExit as e:
+                line = f"blocked: {e}"
+        for d in sorted(wd(s).glob(f"{BRIEF}.{tag(t)}*")):
+            if d.name != f"{BRIEF}.{tag(t)}" and not d.name.startswith(f"{BRIEF}.{tag(t)}."):
+                continue
+            if (d / "run.log.json").exists():
+                r = json.loads((d / "run.log.json").read_text(encoding="utf-8"))
+                line += (f"\n      {d.name}: {r.get('status')} {r.get('check', '')} kept {r.get('kept', '-')} dropped "
+                         f"{r.get('dropped', '-')} {r.get('seconds', '')}s in {(r.get('usage') or {}).get('input_tokens', '')}"
+                         + (f" ${r['cost_usd']:.2f}" if r.get("cost_usd") else ""))
+            elif (d / "dead.json").exists():
+                dead = json.loads((d / "dead.json").read_text(encoding="utf-8"))
+                line += f"\n      {d.name}: died (confirmed {dead.get('at')}; never rerun; a new attempt needs the go)"
+            elif (d / "started.json").exists():
+                line += f"\n      {d.name}: started (running or interrupted)"
+                started = json.loads((d / "started.json").read_text(encoding="utf-8"))
+                stream = d / "run.stream.jsonl"
+                if started.get("runner") == "claude" and stream.exists():
+                    turns = tools = 0
+                    for ev_line in stream.read_text(encoding="utf-8").splitlines():
+                        try:
+                            ev = json.loads(ev_line)
+                        except json.JSONDecodeError:
+                            continue
+                        if ev.get("type") == "assistant":
+                            turns += 1
+                            tools += sum(1 for c in (ev.get("message") or {}).get("content", [])
+                                         if c.get("type") == "tool_use")
+                    idle = round(time.time() - stream.stat().st_mtime)
+                    line += (f"; so far {turns} assistant events, {tools} tool calls; last activity {idle}s ago"
+                             + (" (finishing: the model is done when run.log.json appears)" if (d / "response.md").exists()
+                                else ""))
+                sf = session_file(d)
+                if sf:
+                    u = read_session(sf)
+                    tok = u.get("tokens") or {}
+                    line += (f"; so far: in {tok.get('input_tokens', 0):,} (cached {tok.get('cached_input_tokens', 0):,}) "
+                             f"out {tok.get('output_tokens', 0):,}; context {u.get('context_tokens_last_turn') or 0:,}; "
+                             f"weekly {u.get('weekly_used_first')}→{u.get('weekly_used_last')}%")
+        print(f"  {t:8} {line}")
+    if missing_ayat(s):
+        print(f"  no ayah base (v16 augment9 not run, or the pack predates it): {', '.join(missing_ayat(s))}")
+
+
+def confirm_dead(s: int, name: str) -> None:
+    """Mark a call that started and never finished as dead (dead.json), after checking that no process still runs
+    it. The directory stays blocked (never rerun); the marker only lets pack.py --force and corpus.py build proceed."""
+    d = wd(s) / name
+    if not (d / "started.json").exists() or (d / "run.log.json").exists():
+        raise SystemExit(f"{rel(d)}: not a started call without run.log.json")
+    ps = subprocess.run(["ps", "-ax", "-o", "pid=,command="], capture_output=True, text=True, check=True).stdout
+    alive = [l.strip()[:120] for l in ps.splitlines()
+             if str(d) in l or ("enrich.py" in l and (" run" in l or " accept" in l))]
+    if alive:  # the orchestrator checks and renders for minutes after the model exits
+        raise SystemExit(f"{rel(d)}: a call or an enrich.py run/accept is still alive: {alive}")
+    recent = max(p.stat().st_mtime for p in d.rglob("*") if p.is_file())
+    if time.time() - recent < 30 * 60:
+        raise SystemExit(f"{rel(d)}: files changed {round((time.time() - recent) / 60)} min ago; wait 30 minutes "
+                         f"of silence before confirming the call dead")
+    row = {"at": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "checked": "no process command line names the directory"}
+    with (d / "dead.json").open("x", encoding="utf-8") as f:
+        json.dump(row, f, ensure_ascii=False, indent=1)
+    log({"surah": s, "stage": "confirm-dead", "dir": rel(d), **row})
+    print(f"{rel(d)}: marked dead; it stays blocked (a new try is --attempt N, with the user's go)")
+
+
+def surahs(arg: str) -> list[int]:
+    out = []
+    for part in arg.split(","):
+        lo, _, hi = part.partition("-")
+        out += list(range(int(lo), int(hi or lo) + 1))
+    return out
+
+
+def model_specs(arg: str, default_effort: str) -> list[tuple[str, str]]:
+    """"sol:max,opus:high" -> [("sol", "max"), ("opus", "high")]; a key without :effort takes --effort."""
+    out = []
+    for part in arg.split(","):
+        key, _, effort = part.strip().partition(":")
+        if key not in MODELS:
+            raise SystemExit(f"unknown model {key!r}; known: {', '.join(MODELS)}")
+        out.append((key, effort or default_effort))
+    return out
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("cmd", choices=("status", "build", "spawn", "finish", "run", "accept", "confirm-dead", "merge"))
+    ap.add_argument("--surah", type=int)
+    ap.add_argument("--surahs")
+    ap.add_argument("--target", help="surah | S:A | ayat | all (required for build, run and accept)")
+    ap.add_argument("--model", default=RUN_MODEL, help=f"key[:effort],... of {', '.join(MODELS)}")
+    ap.add_argument("--effort", default=EFFORT, choices=("low", "medium", "high", "max"))
+    ap.add_argument("--attempt", type=int, default=1)
+    ap.add_argument("--trial", action="store_true", help="render in the call directory only; no out/, no errata")
+    ap.add_argument("--parallel", type=int, default=2)
+    ap.add_argument("--dir", help="confirm-dead: the call directory name (e.g. zengin.surah.opus.high)")
+    ap.add_argument("--mode", choices=("agent", "dosya", "tur", "dosya2"), default="agent",
+                    help="dosya: one tool-free call on a script-built dossier (ayah pages; call dir zengin-dosya.<page>…)")
+    ap.add_argument("--pass", dest="pass_", choices=("zengin", "ehlikitap"), default="zengin",
+                    help="ehlikitap: the Bible pass (its own call dirs, pages <page>.ehlikitap.md, the intertext index)")
+    a = ap.parse_args()
+    global BRIEF, MODE
+    BRIEF = a.pass_
+    MODE = a.mode
+    ss = surahs(a.surahs) if a.surahs else [a.surah]
+    if None in ss:
+        ap.error("--surah or --surahs")
+    if a.cmd == "status":
+        for s in ss:
+            status(s)
+        return
+    if a.cmd == "confirm-dead":
+        if len(ss) != 1 or not a.dir:
+            ap.error("confirm-dead takes --surah and --dir")
+        confirm_dead(ss[0], a.dir)
+        return
+    specs = model_specs(a.model, a.effort)
+    if not a.target:
+        ap.error("--target is required: surah | S:A | ayat | all")
+    if a.cmd == "merge":  # the layers of both passes on one page: islami, then tevrat, then incil after each paragraph
+        failed = 0
+        for s in ss:
+            for t in select(s, a.target):
+                failed += not merge_page(s, t)
+        sys.exit(1 if failed else 0)
+    if a.cmd == "accept":  # a finished trial page becomes the accepted page (no model call)
+        if len(specs) != 1 or a.target in ("ayat", "all"):
+            ap.error("accept takes one --model and one page (--target surah or S:A)")
+        (m, e), = specs
+        for s in ss:
+            d = call_dir(s, a.target, a.attempt, m, e)
+            log_path = d / "run.log.json"
+            row = json.loads(log_path.read_text(encoding="utf-8")) if log_path.exists() else {}
+            if row.get("status") != "ok":
+                raise SystemExit(f"{rel(d)}: no successful run to accept")
+            if not row.get("base_sha256"):
+                print(f"NOTE: {rel(d)} predates base/pack hashing: the base-change guard is skipped for it", flush=True)
+            res = finish(s, a.target, d, trial=False, started=row)
+            ok = res.pop("ok")
+            if ok:  # a failed accept goes to the ledger only; run.log.json keeps the call's own record
+                row["accepted"] = {"at": time.strftime("%Y-%m-%dT%H:%M:%S%z"), **res}
+                log_path.write_text(json.dumps(row, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+            log({"surah": s, "target": a.target, "stage": "accept", "model": m, "effort": e, "dir": rel(d),
+                 "status": "ok" if ok else "error", **res})
+            print(json.dumps({"surah": s, "target": a.target, "dir": rel(d), "status": "ok" if ok else "error", **res},
+                             ensure_ascii=False))
+            if not ok:
+                print(f"WARNING: S{s} {a.target}: not accepted — {res.get('check')}", flush=True)
+                sys.exit(1)
+        return
+    if a.cmd == "run" and len(specs) > 1 and not a.trial:
+        ap.error("several models on the same pages only with --trial (otherwise they race for the accepted page)")
+    jobs, pack_failed = [], 0
+    for s in ss:
+        if not ensure_pack(s):
+            pack_failed += 1
+            print(f"WARNING: S{s}: no pack (pack.py failed; see the line above); no page of S{s} runs", flush=True)
+            continue
+        jobs += [(s, t, m, e) for t in select(s, a.target) for m, e in specs]
+        if a.target in ("ayat", "all") and missing_ayat(s):
+            print(f"NOTE: S{s}: no ayah page for {', '.join(missing_ayat(s))} (no augment9 base in the pack)", flush=True)
+    if a.cmd == "build":
+        for s, t, m, e in jobs:
+            d = call_dir(s, t, a.attempt, m, e)
+            p = build_prompt(s, t, d, MODELS[m][0])
+            skip = (" [exists: will be skipped]" if blocked(d) else
+                    " [page already accepted: will be skipped]" if accepted(s, t) and not a.trial else "")
+            try:
+                R.target_page(s, t)
+            except SystemExit as err:
+                skip += f" [BLOCKED: {err}]"
+            print(f"S{s} {t} {m} ({MODELS[m][1]}, {e}): prompt {len(p):,} chars; estimate {estimate(s, t, m, e)} "
+                  f"-> {rel(d)}{skip}")
+        print(f"{len(jobs)} calls")
+        if pack_failed:
+            sys.exit(1)
+        return
+    failed = pack_failed
+    if a.cmd in ("spawn", "finish"):  # agent-spawned runs: no model call here (user, 2026-10-04 evening)
+        for s, t, m, e in jobs:
+            r = (spawn_target(s, t, m, e, a.attempt, a.trial) if a.cmd == "spawn" else
+                 finish_target(s, t, call_dir(s, t, a.attempt, m, e), a.trial))
+            print(json.dumps({k: r.get(k) for k in ("surah", "target", "model", "status", "dir", "spawn", "agent", "check",
+                                                     "kept", "dropped", "warnings", "errata", "seconds", "cost_usd",
+                                                     "reason", "error", "commands", "stop_reason")
+                              if r.get(k) not in (None, 0, False) or k in ("status",)}, ensure_ascii=False), flush=True)
+            if r.get("status") not in ("ok", "prepared", "skipped"):
+                failed += 1
+                print(f"WARNING: S{s} {t} {m}: {r.get('status')} — {r.get('check') or r.get('reason') or r.get('error')}",
+                      flush=True)
+            elif r.get("status") == "skipped":
+                print(f"NOTE: S{s} {t} {m}: skipped — {r.get('reason')}", flush=True)
+        if failed:
+            sys.exit(1)
+        return
+    with cf.ThreadPoolExecutor(a.parallel) as ex:
+        for r in ex.map(lambda j: run_target(j[0], j[1], j[2], j[3], a.attempt, a.trial), jobs):
+            print(json.dumps({k: r.get(k) for k in ("surah", "target", "model", "status", "check", "kept", "dropped",
+                                                     "warnings", "errata", "seconds", "cost_usd", "reason", "error",
+                                                     "permission_denials", "stream_unparsable", "timed_out")
+                              if r.get(k) not in (None, 0, False) or k in ("status", "kept", "dropped")},
+                             ensure_ascii=False), flush=True)
+            if r.get("status") != "ok":
+                failed += r.get("status") == "error"
+                print(f"WARNING: S{r['surah']} {r['target']} {r.get('model')}: {r.get('status')} — "
+                      f"{r.get('check') or r.get('reason') or r.get('error')}", flush=True)
+    if failed:
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()

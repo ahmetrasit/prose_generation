@@ -1,0 +1,1978 @@
+{
+  "target": "87:11",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/87_11.md",
+  "base_sha256": "2af7d55f064b77eda450e3c94fff45c446a1e641764ad8868597fe9dd6f477d2",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T14:08:06.746289-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_87_11_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "a2c9815333d48233d838b6fdb51f10898c09743b14b927d4fd9ed32ac31eba0f",
+  "package_sha256": "349f96804598ea5b51891a707d5ebcdaec469cfe0b99260c17d83dba52a63cc8",
+  "input_sha256": "1813a616b75976d7015e4b9aab721ea783fe5decb9ec97bc6dda4c8b8d4e3f9d",
+  "spawn_sha256": "b479f4c514f3137a30448332d2a3ed9b330ee0b2039785cb4227adf43a8c9080",
+  "followup_text_sha256": "79ad4ecaf436ef74459730ab255585a1dfb087c5cf10469afe5f6557ca1b4602",
+  "agent_id": "01a10d41-e660-7d72-9980-a37b0112c0fc",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T14-09-45-01a10d41-e660-7d72-9980-a37b0112c0fc.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 85,
+  "turn1_sha256": "f4bfb751d8a70156a3365d7c1ffbe9142a1c3422716eee29cc4cae6c8e0d6a6e",
+  "turn2": {
+    "completed": true,
+    "rows_total": 144,
+    "rows_added": 59
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 85,
+    "raw_proposal_rows": 59,
+    "unique_additions": 59,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.14",
+          "basis": "The word near at mouth and heart",
+          "note": "The commentary says the feminine “it” is the reminder offered in 87:9 and that the worst person keeps it beside him yet at a remove; Deuteronomy says the command is not far away but very near, in mouth and heart, to be done."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.21.14",
+          "basis": "“Depart from us” and rejected knowledge",
+          "note": "The commentary makes the ashqa actively turn away from the reminder; Job quotes the wicked saying to God to depart and that they do not desire knowledge of his ways, a direct speech of refusal, while Job’s context complicates any claim that such rejection is always punished immediately."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.24",
+          "basis": "Wisdom calls and is refused",
+          "note": "The commentary says the same reminder is offered and the difference begins in the hearer; Wisdom says she called and was refused, making rejection rather than the offer the decisive act."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.30",
+          "basis": "Counsel and reproof rejected",
+          "note": "The commentary’s “most wretched” turns aside from admonition; Wisdom says her counsel was rejected and her reproof ignored, then describes the consequence of that response."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.28.9",
+          "basis": "Turning the ear from Torah",
+          "note": "The commentary treats turning from reminder as choosing wrongly what to keep at one’s side; Proverbs says the person who turns an ear away from hearing Torah makes even prayer abhorrent."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.7.24",
+          "basis": "Not listening and walking backward",
+          "note": "The commentary distinguishes the unchanged reminder from the hearer’s response; Jeremiah says the people did not listen or incline their ear, but followed their own counsel and went backward."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.7.11",
+          "basis": "Stopping the ear against prophetic words",
+          "note": "The commentary’s ashqa keeps the reminder at hand but declines it; Zechariah says the people refused to hear, turned a stubborn shoulder, and stopped their ears against the law and the words sent through prophets."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.7.12",
+          "basis": "A hardened heart and unanswered warning",
+          "note": "The commentary connects rejection of the reminder with the person’s own chosen posture; Zechariah says they made their hearts hard so they would not hear the law or prophetic words, followed by the Lord’s anger."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.33.31",
+          "basis": "Hearing without doing",
+          "note": "The commentary says the reminder itself is unchanged while people respond differently; Ezekiel’s hearers come, sit before the prophet, and hear his words, but do not do them because their hearts pursue gain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.33.32",
+          "basis": "The prophet as a pleasing song",
+          "note": "The commentary’s image of keeping admonition nearby yet treating it as alien fits Ezekiel’s hearers, who enjoy the prophet’s voice like a lovely song while not carrying out what he says."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.7",
+          "basis": "“Today” as an open moment to hear",
+          "note": "The commentary presents one reminder offered to all, with the response still open; the psalm addresses its hearers as God’s people and says that today they hear his voice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.8",
+          "basis": "Do not harden the heart",
+          "note": "The commentary contrasts the one who takes warning with the one who avoids it; the psalm warns its hearers not to harden their hearts as in the wilderness rebellion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.35.14",
+          "basis": "The Rechabites obey while Judah will not hear",
+          "note": "The commentary says the same reminder reaches different hearers; Jeremiah contrasts Rechabites who kept their father’s command with Judah, which did not listen when God spoke persistently through prophets."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.2.5",
+          "basis": "A messenger must speak whether hearers heed or refuse",
+          "note": "The commentary separates the act of offering reminder from its reception; Ezekiel is told that the rebellious may hear or refuse, but will know a prophet has been among them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.3.19",
+          "basis": "Responsibility after a warning is given",
+          "note": "The commentary says the messenger offers admonition without controlling the hearer; Ezekiel’s watchman is delivered from guilt after warning, while the warned wicked person remains accountable if he does not turn."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Chr.36.15",
+          "basis": "Repeated messengers sent in compassion",
+          "note": "The commentary emphasizes a single shared call and differing reception; Chronicles says God repeatedly sent messengers because he had compassion on his people and dwelling place."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Chr.36.16",
+          "basis": "Mocking and despising the words",
+          "note": "The commentary’s worst person avoids the reminder and faces its consequence; Chronicles says the people mocked God’s messengers, despised his words, and scoffed at the prophets until judgment came."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.4.6",
+          "basis": "Rejecting knowledge and forgetting Torah",
+          "note": "The commentary links the wretched condition to turning away from reminder; Hosea names the people’s rejection of knowledge and forgetting of God’s law as the cause of their ruin."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.3.5",
+          "basis": "Nineveh receives the warning",
+          "note": "The commentary says the offered reminder is the same while its hearers divide by response; in Jonah, the people of Nineveh believe the warning and undertake repentance rather than dismiss it.",
+          "raw_ref": "WLC:Jon.3.5",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.3.10",
+          "basis": "Turning from evil changes the outcome",
+          "note": "The commentary contrasts turning away from reminder with self-correction; Jonah says God saw that Nineveh turned from its evil way and relented from the announced disaster.",
+          "raw_ref": "WLC:Jon.3.10",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 15.14",
+          "basis": "Human choice and self-directed action",
+          "note": "The commentary reads the response verbs as acts a person does upon oneself; Sirach says God left human beings in the hand of their own inclination, giving a Jewish wisdom parallel for accountable response."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 15.16",
+          "basis": "Fire and water set before the hearer",
+          "note": "The commentary says the same reminder is offered but people choose their response; Sirach pictures fire and water before the person, who stretches out a hand to whichever he chooses."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 15.17",
+          "basis": "Life and death as alternatives",
+          "note": "The commentary places the wretched person at the far end of a chosen response; Sirach explicitly sets life and death before human beings and says each receives what he chooses."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Josh.24.2",
+          "basis": "Abraham’s family served other gods",
+          "note": "The commentary recalls Abraham asking God to keep him and his sons from idol worship; Joshua says Abraham’s ancestors, including Terah, served other gods, supplying the biblical background to the Qur’anic break with idolatry."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.20",
+          "basis": "The word received and made fruitful",
+          "note": "The commentary contrasts one who takes reminder with the one who avoids it; Mark’s good soil hears the word, accepts it, and bears fruit, a concrete positive reception."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.24",
+          "basis": "Hearing and doing as the wise response",
+          "note": "The commentary reads taking reminder and purifying oneself as actions a person undertakes; Jesus calls the hearer who does his words wise and compares him to a house built on rock."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.26",
+          "basis": "Hearing without doing as the ruinous response",
+          "note": "The commentary’s ashqa hears the reminder’s availability yet turns aside; Jesus describes the hearer who does not do his words, whose house falls when the same storm comes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.29",
+          "basis": "Moses and the Prophets are already available",
+          "note": "The commentary says the reminder has been delivered and the hearer is responsible for receiving it; Abraham in the parable tells the rich man’s brothers that they have Moses and the Prophets to hear."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.31",
+          "basis": "A further sign will not cure refusal to hear",
+          "note": "The commentary says those avoiding reminder cannot blame its absence; the parable answers that those who do not hear Moses and the Prophets will not be convinced even if someone rises from the dead."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.24.25",
+          "basis": "Felix fears, then sends Paul away",
+          "note": "The commentary contrasts the one who fears and receives warning with the worst person who turns from it; as Paul speaks of righteousness, self-control, and coming judgment, Felix becomes afraid and tells him to go away."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.7.51",
+          "basis": "Resisting the Spirit as the ancestors did",
+          "note": "The commentary portrays turning away from reminder as a repeated response to divine messengers; Stephen accuses his hearers of resisting the Holy Spirit and doing as their ancestors did when they rejected the prophets."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.12",
+          "basis": "Turning away from the living God",
+          "note": "The commentary’s verb makes withdrawal the person’s own act; Hebrews warns against an unbelieving heart that turns away from the living God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.15",
+          "basis": "Do not harden the heart when the voice is heard",
+          "note": "The commentary links the reminder to a present chance to respond; Hebrews repeats the psalm’s “Today” warning not to harden the heart upon hearing God’s voice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.2",
+          "basis": "The message heard but not beneficial",
+          "note": "The commentary says one unchanged reminder benefits one hearer while another avoids it; Hebrews says the good news came to its hearers but did not benefit them because it was not joined with faith."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.2.15",
+          "basis": "One proclamation among both saved and perishing",
+          "note": "The commentary stresses one reminder offered to all with different reception; Paul calls the apostolic proclamation an aroma of Christ among both those being saved and those perishing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.2.16",
+          "basis": "The same word as life or death",
+          "note": "The commentary says the same reminder yields benefit to one and loss to another; Paul describes the proclamation as an aroma from death to death for one group and from life to life for another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.1.18",
+          "basis": "The word of the cross divides hearers",
+          "note": "The commentary says the reminder itself is unchanged while people receive it differently; Paul says the word of the cross is foolishness to those perishing and God’s power to those being saved."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.22",
+          "basis": "Doers, not hearers only",
+          "note": "The commentary emphasizes that the person does something to himself by taking or avoiding reminder; James tells hearers to become doers of the word and not deceive themselves by hearing alone.",
+          "raw_ref": "SBLGNT:James.1.22",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.23",
+          "basis": "The hearer who sees and forgets",
+          "note": "The commentary contrasts the Prophet’s preserved recitation with the person who lets reminder pass; James likens the hearer who does not act to someone who looks at his face in a mirror.",
+          "raw_ref": "SBLGNT:James.1.23",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.24",
+          "basis": "The hearer turns away and forgets",
+          "note": "The commentary’s image is of one who moves the reminder aside; James says the inactive hearer goes away and immediately forgets what he was like.",
+          "raw_ref": "SBLGNT:James.1.24",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.25",
+          "basis": "Persevering in the word and doing it",
+          "note": "The commentary links self-directed purification to sustained action; James contrasts the forgetful hearer with the one who looks into the law, perseveres, and acts.",
+          "raw_ref": "SBLGNT:James.1.25",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.32",
+          "basis": "One sermon meets mockery and postponement",
+          "note": "The commentary says the reminder is offered but response divides hearers; after Paul speaks of resurrection, some mock and others postpone hearing him again."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.34",
+          "basis": "Some hearers join and believe",
+          "note": "The commentary contrasts the worst person with one who takes the reminder; Acts adds that some listeners join Paul and believe after the same speech that others mocked."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.10.16",
+          "basis": "Not all obey the good news they hear",
+          "note": "The commentary makes reception rather than delivery the point of division; Paul says not all obeyed the good news and cites the question of who believed the report."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.47",
+          "basis": "Jesus’ words are offered for salvation",
+          "note": "The commentary says the reminder is given for benefit, even though its hearers may turn away; Jesus says he came to save the world rather than judge the one who hears his words."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.48",
+          "basis": "The rejected word judges its hearer",
+          "note": "The commentary connects avoiding reminder with the coming fire and consequence; Jesus says the one who rejects him and does not receive his words has a judge, and the word will judge him on the last day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.9.6",
+          "basis": "Seeking death but unable to die",
+          "note": "The commentary reads the condemned state as neither dying nor living; Revelation says those tormented in the vision seek death but cannot find it, a striking parallel with the refusal of death as release."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Josh.24.3",
+          "basis": "Abraham taken from beyond the River",
+          "note": "The commentary says Abraham asks God to keep him away from idols rather than trusting his own power; Joshua recalls God taking Abraham from beyond the River and leading him, a related account of Abraham’s separation under divine guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.5.2",
+          "basis": "Pharaoh refuses Moses’ demand",
+          "note": "The commentary describes Moses inviting Pharaoh to purify himself and then Pharaoh denying and turning away; Exodus has Pharaoh answer Moses and Aaron by asking who the Lord is and refusing to obey his voice, a shared confrontation whose wording and demand differ."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.15",
+          "basis": "Two outcomes placed before Israel",
+          "note": "The commentary develops the division between the one who remembers and the one who avoids reminder; Deuteronomy sets life and good against death and evil before Israel as a covenant decision."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.19",
+          "basis": "“Choose life” after the warning",
+          "note": "The commentary says the response, not the offered reminder, divides people; Moses calls heaven and earth to witness and urges Israel to choose life, making the decision explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.20",
+          "basis": "Wisdom speaks publicly in the streets",
+          "note": "The commentary says the reminder is not delivered privately to only one favored hearer; Proverbs portrays Wisdom crying aloud in public places, where the invitation can be heard before some reject it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.31",
+          "basis": "Eating the fruit of one’s own way",
+          "note": "The commentary describes the response as what a person does to himself by moving the reminder aside; Wisdom says the refusers will eat the fruit of their own way, making consequence follow chosen conduct."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.33",
+          "basis": "Safety for the one who listens",
+          "note": "The commentary contrasts the ashqa with the one who takes reminder; Wisdom promises that the one who listens will dwell securely, giving the positive outcome beside the warning of refusal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.9",
+          "basis": "A people unwilling to hear instruction",
+          "note": "The commentary describes people who choose to turn from reminder; Isaiah calls the people rebellious children unwilling to hear the Lord’s instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.10",
+          "basis": "Requesting smooth words instead of warning",
+          "note": "The commentary says the wretched person treats beneficial reminder as something to avoid; Isaiah’s hearers tell seers not to see and ask for smooth, agreeable things rather than truth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.25.4",
+          "basis": "Prophets sent repeatedly, but no listening",
+          "note": "The commentary distinguishes the universal offer from the hearer’s response; Jeremiah says the Lord persistently sent prophets, yet the people did not listen or incline their ear."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.35.15",
+          "basis": "A call to turn from evil is ignored",
+          "note": "The commentary links rejecting reminder with refusing the offered chance to change; Jeremiah recounts repeated calls to turn from evil and serve God, which Judah did not heed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.33.30",
+          "basis": "Neighbors invite one another to hear the prophet",
+          "note": "The commentary’s side image says the reminder is beside the person, not far away; Ezekiel describes people speaking to one another and inviting one another to hear the Lord’s word from the prophet."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.6",
+          "basis": "Seek the Lord while near",
+          "note": "The commentary says the rejected reminder has reached the hearer and remains within reach; Isaiah urges seeking the Lord while he may be found and calling while he is near."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.7",
+          "basis": "Turning back is still invited",
+          "note": "The commentary contrasts the person who takes the reminder with the person who avoids it; Isaiah calls the wicked to forsake his way and return to the Lord for mercy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.34",
+          "basis": "The resident alien is to be loved as oneself",
+          "note": "The commentary develops “foreign neighbor” as an image for someone kept beside but treated as unrelated; Leviticus commands Israel to love the resident alien as oneself, an ethical counterpoint to treating the nearby reminder as foreign."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.8.11",
+          "basis": "A famine of hearing the Lord’s words",
+          "note": "The commentary stresses that the reminder is offered now and can be put aside; Amos announces a later famine of hearing the Lord’s words, a reversal in which people will lack what the commentary’s hearers still have."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.8.12",
+          "basis": "Searching for a word that cannot be found",
+          "note": "The commentary says the wretched person lets a present reminder pass by; Amos portrays people wandering in search of the Lord’s word and not finding it, sharpening the cost of refusing it while available."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.66.24",
+          "basis": "Unquenched fire and undying worm",
+          "note": "The commentary connects the worst person’s refusal with the great fire and the condition of neither dying nor living; Isaiah pictures the corpses of rebels under an unquenched fire and undying worm, sharing persistent judgment imagery but describing corpses rather than the same paradox of living punishment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Wisdom of Solomon 5:4",
+          "basis": "The wicked later see the righteous vindicated",
+          "note": "The commentary says the one who avoids reminder discovers too late what he has lost; Wisdom depicts the wicked seeing the righteous honored and confessing that they once misjudged him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Wisdom of Solomon 5:6",
+          "basis": "A belated confession of straying from truth",
+          "note": "The commentary connects refusal of reminder to a path whose loss becomes clear after judgment; Wisdom’s wicked confess that they strayed from the way of truth and did not know the path of righteousness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1QS III, 13–IV, 26",
+          "basis": "Two spirits and two paths to opposed outcomes",
+          "note": "The commentary develops a person’s response as the dividing choice between outcomes; the Community Rule organizes human conduct under spirits and paths of truth/light or perversity/darkness, giving a Second Temple Jewish version of moral division."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.14",
+          "basis": "The seed is the word",
+          "note": "The commentary says the one reminder is offered while reception differs; Jesus identifies the seed as the word, so the parable makes the hearer’s response determine whether the same sowing bears fruit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.16",
+          "basis": "Initial reception can fail under pressure",
+          "note": "The commentary’s “remembering” is not merely hearing once; Mark describes hearers who receive the word with joy but fall away when tribulation or persecution comes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.19",
+          "basis": "Worldly cares choke the word",
+          "note": "The commentary connects rejection of reminder to preferring worldly life; Mark says cares, wealth’s deceit, and other desires enter and choke the word so it becomes fruitless."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.15",
+          "basis": "Hearing without understanding or turning",
+          "note": "The commentary distinguishes a person who receives reminder from one who turns away; Jesus cites Isaiah about people who hear without understanding and have closed their eyes lest they turn and be healed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.13.34",
+          "basis": "Jerusalem was unwilling to be gathered",
+          "note": "The commentary says the reminder can be offered while its audience chooses distance; Jesus laments that he wanted to gather Jerusalem’s children but they were unwilling."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.18",
+          "basis": "Take care how you hear",
+          "note": "The commentary says response to the reminder, not its delivery, distinguishes hearers; Jesus warns listeners to take care how they hear, since what one has can be taken away or increased."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.10.22",
+          "basis": "The rich man turns away from a life-giving invitation",
+          "note": "The commentary connects avoidance of reminder with preferring worldly life; Mark says the man who was invited to sell his possessions and follow Jesus went away grieving because he had great wealth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.8",
+          "basis": "Cleanse yourselves and draw near",
+          "note": "The commentary reads purification as work a person does upon himself; James calls double-minded people to cleanse their hands, purify their hearts, and draw near to God.",
+          "raw_ref": "SBLGNT:James.4.8",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.3",
+          "basis": "The hopeful person purifies himself",
+          "note": "The commentary groups remembering, avoiding, and purifying as self-directed actions; John says the one who hopes in Christ purifies himself as Christ is pure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.7",
+          "basis": "The warning remains “Today”",
+          "note": "The commentary treats reminder as presently available and response as decisive; Hebrews says God again appoints a day called Today and repeats the warning not to harden the heart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.11",
+          "basis": "No rest from the torment",
+          "note": "The commentary’s condemned person neither dies nor lives and endures prolonged hardship; Revelation says the worshippers of the beast have no rest day or night, a related but differently framed image of unending punishment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.35",
+          "basis": "Welcoming the stranger",
+          "note": "The commentary develops the nearby reminder as treated like a foreign neighbor; Jesus identifies himself with the stranger who is welcomed, making reception of the socially distant one a test of response."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.9.48",
+          "basis": "The unquenched fire",
+          "note": "The commentary connects the worst person with the great fire and an unending state; Jesus invokes Gehenna where the worm does not die and the fire is not quenched, sharing persistence imagery without equating the scenes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 1.1",
+          "basis": "Two ways, life and death",
+          "note": "The commentary develops a sharp division between the one who takes reminder and the one who avoids it; the Didache opens by setting out a way of life and a way of death and stressing the great difference between them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 5.1",
+          "basis": "The way of death",
+          "note": "The commentary names a worst person by the path he chooses; the Didache’s catalogue of the way of death includes people who hate truth and love falsehood, giving an early Christian moral portrait of that path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Epistle of Barnabas 18.1",
+          "basis": "Way of light and way of darkness",
+          "note": "The commentary’s paired outcomes turn on a person’s response; Barnabas opens its “Two Ways” teaching with the way of light and the way of darkness, adding an early Christian moral framework for opposed paths."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.55.11",
+          "basis": "The word accomplishes its purpose",
+          "note": "The commentary emphasizes a reminder whose hearers may take it or turn away; Isaiah says the word sent by God will accomplish what he desires, a different emphasis on the efficacy of the divine word rather than a claim that every hearer responds alike."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.7",
+          "basis": "Fear of the Lord and despising instruction",
+          "note": "The commentary contrasts the one who fears and remembers with the ashqa who avoids reminder; Proverbs makes fear of the Lord the beginning of knowledge and says fools despise wisdom and instruction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.8.35",
+          "basis": "Finding Wisdom and finding life",
+          "note": "The commentary sets the one who receives reminder against the one who turns aside; Wisdom says finding her brings life and favor from the Lord."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.8.36",
+          "basis": "Harming oneself by hating Wisdom",
+          "note": "The commentary says the wretched person makes his own condition by putting the reminder aside; Wisdom says the one who misses her harms himself and those who hate her love death."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.13.13",
+          "basis": "Despising a word brings ruin",
+          "note": "The commentary links avoiding the offered reminder to the ashqa’s ruin; Proverbs says the person who despises a word will be destroyed, while reverence for the command brings reward."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.81.11",
+          "basis": "Israel would not hear the Lord",
+          "note": "The commentary says the same reminder is offered but some turn from it; the psalm says God’s people would not listen to his voice or submit to him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.81.12",
+          "basis": "Handed over to one’s own counsel",
+          "note": "The commentary treats turning away as the hearer’s own choice; the psalm says God gave the unheeding people over to their stubborn hearts to walk in their own counsels."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.19",
+          "basis": "Willingness and obedience bring good",
+          "note": "The commentary says one person takes the reminder while another rejects it; Isaiah places willingness and obedience opposite rebellion, with the former receiving the land’s good."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.20",
+          "basis": "Refusal and rebellion bring judgment",
+          "note": "The commentary links the ashqa’s avoidance with the consequence of his chosen response; Isaiah says those who refuse and rebel will be devoured by the sword."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.65.12",
+          "basis": "Called, but not answered",
+          "note": "The commentary emphasizes that the reminder has already come to the hearer; Isaiah says God called and spoke but the people did not answer or hear, instead choosing what displeased him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.6.16",
+          "basis": "The offered path is refused",
+          "note": "The commentary contrasts receiving reminder with turning aside; Jeremiah invites the people to stand at the crossroads and ask for the good ancient path, but they answer that they will not walk in it."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.6.17",
+          "basis": "The watchmen’s warning is not heard",
+          "note": "The commentary separates the messenger’s act of warning from the audience’s response; Jeremiah says watchmen sounded the trumpet, but the people replied that they would not listen."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.8.9",
+          "basis": "Rejecting the word of the Lord",
+          "note": "The commentary identifies the ashqa by his refusal of reminder; Jeremiah says the wise have rejected the word of the Lord, so their claim to wisdom is exposed."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.10.16",
+          "basis": "Circumcising the heart",
+          "note": "The commentary reads remembering, avoiding, and purifying as acts done upon oneself; Moses calls Israel to circumcise the heart and stop being stiff-necked, a concrete demand for inward change."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.28",
+          "basis": "Do not postpone good when it is at hand",
+          "note": "The commentary says the reminder is beside the hearer yet treated as a foreign neighbor; Proverbs says not to tell a neighbor to return tomorrow when the needed good is already with you, an ethical parallel to leaving available good within reach unused."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.2",
+          "basis": "Delighting in Torah day and night",
+          "note": "The commentary pictures the reminder as something one may take near and work into oneself; Psalm 1 describes the blessed person delighting in the Lord’s Torah and meditating on it continually."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.6",
+          "basis": "Two ways with opposed endings",
+          "note": "The commentary develops a split between the one who receives reminder and the one who avoids it; Psalm 1 says the Lord knows the righteous way while the wicked way perishes."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.65.10",
+          "basis": "Rain watering the earth",
+          "note": "The commentary’s lexical aside links the south wind and its clouds with the pasture scene in 87:4; Psalm 65 describes God watering the earth and blessing its growth, a specific rain-provision image beside that reading."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.65.13",
+          "basis": "Pastures clothed with flocks",
+          "note": "The commentary links its wind-and-cloud aside to the surah’s pasture; Psalm 65 closes with pastures clothed with flocks and valleys covered with grain, a related scene of rain’s result."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.10",
+          "basis": "A nearby neighbor can be closer than distant kin",
+          "note": "The commentary develops the “side” as the place of either companion or stranger and says the reminder remains beside the person; Proverbs values the neighbor who is near over a brother who is far away, giving relational weight to nearness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.16",
+          "basis": "Wash and make yourselves clean",
+          "note": "The commentary’s triad includes purifying oneself as a deliberate act; Isaiah commands people to wash, make themselves clean, and cease doing evil, a direct ethical image of self-correction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.24.4",
+          "basis": "Clean hands and a pure heart",
+          "note": "The commentary says purification is one of the hearer’s own responses; the psalm describes the person fit to approach God as one with clean hands and a pure heart."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.18.31",
+          "basis": "Make a new heart and turn from transgression",
+          "note": "The commentary links avoiding reminder with a self-made ruin and purification with a chosen response; Ezekiel calls Israel to cast away transgressions and make a new heart and spirit so they may live."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.10.3",
+          "basis": "Moses asks Pharaoh to humble himself",
+          "note": "The commentary’s Moses asks Pharaoh whether he will purify himself, followed by Pharaoh’s rejection; Exodus has Moses and Aaron ask how long Pharaoh will refuse to humble himself before the Lord, making the refusal to heed a direct point of contact."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 5:19",
+          "basis": "Abraham and Balaam as opposed moral types",
+          "note": "The commentary presents Abraham as entrusting himself to God and seeking distance from idolatry; Avot contrasts disciples of Abraham, marked by humility and a good eye, with Balaam’s pride and acquisitiveness, giving a Jewish ethical interpretation of the Abrahamic posture."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.6.9",
+          "basis": "Prophetic speech that is heard but not understood",
+          "note": "The commentary stresses one reminder offered while hearers differ in response; Isaiah’s commission says the people will hear without understanding, framing prophetic speech as a judicial hardening, a different emphasis from the commentary’s open invitation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.6.10",
+          "basis": "Hearing that does not lead to turning",
+          "note": "The commentary contrasts the person who receives admonition with the one who avoids it; Isaiah’s commission describes closed eyes and dull hearts so the people do not turn and be healed, a contrary account of how the warning functions."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.13",
+          "basis": "The broad road leads to destruction",
+          "note": "The commentary develops two opposed responses and their outcomes; Jesus describes a broad gate and road leading to destruction, entered by many, as a concrete image of the destructive path."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "The narrow way leads to life",
+          "note": "The commentary contrasts the ashqa with one who receives reminder; Jesus says the narrow way leads to life and is found by few, giving the other side of the two-path image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.16",
+          "basis": "Hearing or rejecting the messenger",
+          "note": "The commentary says the messenger offers reminder but does not control its reception; Jesus says whoever hears his messengers hears him and whoever rejects them rejects him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.25",
+          "basis": "Do not refuse the one who speaks",
+          "note": "The commentary ties turning away from reminder to judgment; Hebrews warns its hearers not to refuse the one speaking, recalling that those who rejected the earthly warning did not escape."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.4.3",
+          "basis": "People will not endure sound teaching",
+          "note": "The commentary says some turn away from reminder because of their chosen response; Paul warns that people will reject sound teaching and gather teachers to suit their desires."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.4.4",
+          "basis": "Turning the ear from truth",
+          "note": "The commentary makes turning away the decisive act of the ashqa; Paul says people will turn their ears away from the truth and turn aside to myths."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.39",
+          "basis": "The Scriptures testify to life",
+          "note": "The commentary says reminder is already present and offered; Jesus says the hearers search the Scriptures, which testify about him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.40",
+          "basis": "Unwilling to come for life",
+          "note": "The commentary says the wretched one keeps the reminder nearby but will not receive it; Jesus tells his hearers they are unwilling to come to him to have life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.3.19",
+          "basis": "People love darkness rather than light",
+          "note": "The commentary describes the person who chooses distance from beneficial reminder; John says people loved darkness rather than light because their deeds were evil."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.3.20",
+          "basis": "Evil deeds avoid the light",
+          "note": "The commentary’s avoider moves away from the reminder; John says the one who does evil hates the light and does not come to it, lest his deeds be exposed."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.3.21",
+          "basis": "Doing truth and coming into the light",
+          "note": "The commentary contrasts turning away with inward moral change; John says the one who does what is true comes to the light so his deeds may be seen as done in God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.25",
+          "basis": "Love of this life risks losing it",
+          "note": "The commentary links avoiding reminder to preferring the present worldly life; Jesus says the one who loves his life loses it, while the one who hates his life in this world keeps it for eternal life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.7",
+          "basis": "The rejected stone is precious to believers",
+          "note": "The commentary says the same reminder is differently received; Peter says the stone rejected by builders is precious to those who believe, giving a Christian image of one message/object valued by some and refused by others."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.8",
+          "basis": "A stumbling stone for the disobedient",
+          "note": "The commentary portrays the ashqa as turning aside from what is offered; Peter says others stumble because they disobey the word, a specific outcome of rejection."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.13.46",
+          "basis": "The word rejected by some hearers",
+          "note": "The commentary says the reminder’s offer is unchanged but its hearers divide; Paul and Barnabas say their hearers have rejected the word and judged themselves unworthy of eternal life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.13.48",
+          "basis": "Other hearers rejoice and believe",
+          "note": "The commentary contrasts the person who turns away with the one who receives reminder; Acts says Gentile hearers rejoice and believe after the same proclamation that some rejected."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Matt.12.41",
+          "basis": "Jesus makes Nineveh’s repentance a witness",
+          "note": "The commentary treats taking warning as the positive alternative to turning away; Jesus says Nineveh repented at Jonah’s proclamation and will condemn the generation that refuses a greater warning, a Christian rereading of Jonah’s response."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Mark.10.48",
+          "basis": "The crowd silences a blind petitioner",
+          "note": "The commentary recounts a blind man who comes seeking help while another turns away from him; Mark’s crowd rebukes blind Bartimaeus and tells him to be silent, but he cries out all the more."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Mark.10.52",
+          "basis": "The blind petitioner follows the way",
+          "note": "The commentary pairs the blind man’s humble approach with the person who avoids admonition; Jesus restores Bartimaeus and he follows Jesus on the road, a distinct reversal in which the blind petitioner responds and follows."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.14.18",
+          "basis": "Invited guests make excuses",
+          "note": "The commentary says the same reminder is offered but its recipients choose whether to respond; in Jesus’ banquet parable, the invited guests begin making excuses and refuse the invitation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.14.21",
+          "basis": "The blind and poor are brought to the feast",
+          "note": "The commentary’s Abasa scene gives attention to a blind seeker whom a prominent person neglects; after the invited guests refuse, the servant brings the poor, crippled, blind, and lame to the banquet."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.9.39",
+          "basis": "The blind see and the seeing are judged",
+          "note": "The commentary uses the blind visitor to expose the failure of a sighted, socially prominent person to recognize who may benefit; Jesus says he came so that those who do not see may see and those who see may become blind."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.9.41",
+          "basis": "Claimed sight leaves guilt intact",
+          "note": "The commentary opposes the humble blind seeker to the one who turns away; Jesus tells the Pharisees that their claim to see leaves their sin, unlike the blind man whose encounter leads to sight."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.10.14",
+          "basis": "A messenger leaves when a household refuses to hear",
+          "note": "The commentary limits the messenger to offering reminder and leaves response with the audience; Jesus tells messengers to leave and shake the dust off when a house or town will not receive or hear them."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.2.1",
+          "basis": "Pay attention lest one drift away",
+          "note": "The commentary describes the ashqa as moving away from the reminder; Hebrews urges close attention to what has been heard lest hearers drift away from it."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.19",
+          "basis": "Do not quench the Spirit",
+          "note": "The commentary presents refusal as a response that can suppress what is offered; Paul warns the community not to quench the Spirit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.20",
+          "basis": "Do not despise prophecies",
+          "note": "The commentary says the reminder is offered but may be put aside; Paul tells the community not to despise prophetic utterances, a direct instruction against rejecting admonition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.12",
+          "basis": "Work out salvation with fear and trembling",
+          "note": "The commentary reads self-purification and receiving reminder as deliberate action, and distinguishes it from the messenger’s work; Paul tells believers to work out their salvation with fear and trembling."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.13",
+          "basis": "God works in the willing hearer",
+          "note": "The commentary says human response remains dependent on God’s willing; Paul immediately says God is at work in believers both to will and to work, adding divine agency to the self-directed effort."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.3.20",
+          "basis": "Hearing the voice and opening the door",
+          "note": "The commentary says the reminder is beside a person yet may be kept outside; Revelation pictures Christ standing at a door and knocking, with fellowship following if someone hears and opens."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.11.28",
+          "basis": "The burdened are invited to rest",
+          "note": "The commentary contrasts the easy path prepared for the messenger with the hardship of the one who rejects guidance; Jesus invites the weary and burdened to come to him for rest."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.11.30",
+          "basis": "The yoke is easy and the burden light",
+          "note": "The commentary connects wretchedness with hardship opposite the easy path; Jesus describes his yoke as easy and his burden as light, offering a contrasting response to a divine invitation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.10",
+          "basis": "Torment continues day and night forever",
+          "note": "The commentary reads the condemned condition as prolonged, with neither death nor life; Revelation portrays the devil and the beast’s followers as tormented day and night forever, a related image of unending punishment."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "6726672b850e1a2d8300b92997e1369d312a1ccf19f960fa146b06ed9ecc6499",
+    "followup_sha256": "6726672b850e1a2d8300b92997e1369d312a1ccf19f960fa146b06ed9ecc6499"
+  },
+  "consolidation_error": null,
+  "list_sha256": "119332d3a4142f38067a74a2bbec270bcf810d1bb0af1746aa297da04520a9cb",
+  "followup_delivery": [
+    {
+      "call_id": "call_hhGVimm27rCFdallxTr1k9l8",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 582925,
+    "cached_input_tokens": 502016,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 42326,
+    "reasoning_output_tokens": 32039,
+    "total_tokens": 625251
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:26:04.484Z",
+  "artifacts": {
+    "started.json": "09d40b074999cacdd9f192faf376ebfa489e8dae5137848e0a467984051ca58f",
+    "input.json": "1813a616b75976d7015e4b9aab721ea783fe5decb9ec97bc6dda4c8b8d4e3f9d",
+    "prompt.md": "a2c9815333d48233d838b6fdb51f10898c09743b14b927d4fd9ed32ac31eba0f",
+    "package.md": "349f96804598ea5b51891a707d5ebcdaec469cfe0b99260c17d83dba52a63cc8",
+    "spawn.md": "b479f4c514f3137a30448332d2a3ed9b330ee0b2039785cb4227adf43a8c9080",
+    "followup.txt": "79ad4ecaf436ef74459730ab255585a1dfb087c5cf10469afe5f6557ca1b4602",
+    "turn1.json": "fcbf8b3d291d3a1e740766f70674daaae5de1ab96bd4563db0bee09cbc9cb59b",
+    "turn1.list.tsv": "f4bfb751d8a70156a3365d7c1ffbe9142a1c3422716eee29cc4cae6c8e0d6a6e",
+    "followup.tsv": "6726672b850e1a2d8300b92997e1369d312a1ccf19f960fa146b06ed9ecc6499",
+    "list.tsv": "119332d3a4142f38067a74a2bbec270bcf810d1bb0af1746aa297da04520a9cb",
+    "consolidation.json": "558e291b4086a277a92f6187f3bc8bf26a0af026171c20ec4fd31287b60dccce",
+    "validation.json": "fa04993e3d81d560fbb62f2f9d5a7a470220cb6d1bd35cd96821eb5504448ef4",
+    "proposal_validation.json": "45e8232d8a95503f64e3eba7edfaa41293cfa2d08bf9de7947280108c19e5fb9",
+    "tool_calls.json": "6de9fdc355686a778856d2f131addae72ff83b3ad74751f39d021fca83a82e4b",
+    "session.json": "6c2a32307aecbcdc82ec442d3f08b3bfb48c0bfe00f1b6b7fa1b078e00ad2223",
+    "session.events.jsonl": "958f93e5aadc510f16f65c6bbc93cd1ef5b2fa67cd47f1955f9157b57eb4b9df"
+  }
+}

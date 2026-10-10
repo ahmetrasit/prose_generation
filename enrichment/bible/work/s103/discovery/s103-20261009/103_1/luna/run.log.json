@@ -1,0 +1,1709 @@
+{
+  "target": "103:1",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/103_1.md",
+  "base_sha256": "143e749487c29efe30f3fcf2d86e78d2aa115ac78d09b6ef001c5d6469b2b9f9",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:19:52.710998-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_103_1_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "413d15bae1a7661f2b7daefe3a9b05a261516ff37bd810a6503a76f8acefcbb6",
+  "package_sha256": "a648679ae9a31f3f92f6e0fd2686dd2f83147962f034a8241b0f533000d84dd7",
+  "input_sha256": "73f030e93e4a64556f3223486def0fcf83405e01103c60f004ddc2e0c1b2e1ea",
+  "spawn_sha256": "c1ad30bbc26b1444305ca24e970f7150370787b2dac00c140f4d2dc81e6fd17f",
+  "followup_text_sha256": "41b6de6613ebda96eb272d04a30b68ee079f073cb61d75123c54d21c1224d66d",
+  "agent_id": "01a11f1a-80f0-7be2-869f-94160ce785d8",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-19-53-01a11f1a-80f0-7be2-869f-94160ce785d8.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 67,
+  "turn1_sha256": "bfbbee686f168bc29843f2df263009aca45d15598a8aa2e432f582291610ed38",
+  "turn2": {
+    "completed": true,
+    "rows_total": 120,
+    "rows_added": 53
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 67,
+    "raw_proposal_rows": 53,
+    "unique_additions": 53,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.40.11",
+          "basis": "Joseph's prison cupbearer dream; grapes pressed into Pharaoh's cup",
+          "note": "The commentary's imprisoned cupbearer dreams of pressing grapes and serving wine; Genesis gives the same prison dream in which the cupbearer squeezes grapes into Pharaoh's cup, a direct scene parallel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.40.23",
+          "basis": "Cupbearer forgets Joseph",
+          "note": "The commentary says the cupbearer forgets Joseph after his release, leaving Joseph in prison; Genesis likewise says the restored cupbearer did not remember Joseph, making the delay part of the shared story."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.41.1",
+          "basis": "Two-year delay before Pharaoh's dreams",
+          "note": "The commentary makes delayed recollection lengthen Joseph's imprisonment; Genesis marks two full years before Pharaoh dreams and the cupbearer remembers, giving that wait a measured duration."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.41.9",
+          "basis": "Cupbearer recalls his failure",
+          "note": "The commentary's freed cupbearer remembers Joseph only after a long interval; Genesis has him recall his failure before Pharaoh and recount Joseph's prison interpretation, ending the forgotten interval."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.41.48",
+          "basis": "Surplus stored in the cities",
+          "note": "The commentary links Joseph's seven abundant years with preserving grain for scarcity; Genesis says Joseph gathers the produce of those years and stores food in the cities, the same plan of holding yield through time."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.41.53",
+          "basis": "End of the years of plenty",
+          "note": "The commentary orders Joseph's story as abundance, hard years, then renewed yield; Genesis says the seven years of plenty end, marking the same turn in the agricultural calendar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.41.54",
+          "basis": "Famine follows abundance",
+          "note": "The commentary's stored grain is for the years of hardship; Genesis says famine begins and the land still has food in Egypt, showing the preserved yield surviving the time of loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.41.57",
+          "basis": "Stored grain released beyond Egypt",
+          "note": "The commentary's final Joseph year restores productive pressing after scarcity; Genesis has all lands come to Egypt to buy grain, showing stored abundance flowing outward when famine arrives."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.14.23",
+          "basis": "Oath and exclusion from the sworn land",
+          "note": "The commentary places an oath just before a verdict of loss; Numbers says the rebellious generation will not see the land sworn to their ancestors, joining oath, missed inheritance, and a closed future."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.14.24",
+          "basis": "Caleb as the exception",
+          "note": "After the generation is excluded, Numbers singles out Caleb, who followed fully and will enter the land; this gives a precise biblical instance of a general loss followed by an exception for the faithful."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.5",
+          "basis": "A thousand years as a day and night watch",
+          "note": "The commentary holds a long era and a short day-part together; the psalm measures a thousand years as yesterday or a night watch, explicitly collapsing vast time into a brief interval."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.7",
+          "basis": "Morning growth fades by evening",
+          "note": "The commentary hears the afternoon as a closing day with dwindling light and a life nearing its end; the psalm describes grass flourishing in the morning and fading by evening, making mortality visible in the daily cycle."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.11",
+          "basis": "Seventy or eighty years pass quickly",
+          "note": "The commentary says the same word can name an era and a person's age; the psalm measures human years at seventy or eighty and says they soon fly, linking a long life to a finite span."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.11",
+          "basis": "Oath that bars entry into rest",
+          "note": "The commentary's opening oath stands at the threshold of a verdict; the psalm ends its warning with God's sworn denial of entry into rest, a close formal and thematic parallel of oath followed by loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.8.5",
+          "basis": "Merchants impatient for the sacred day to end",
+          "note": "The commentary makes the day's closing edge a time when work and opportunity run short; Amos depicts grain sellers asking when the new moon and Sabbath will end so they can trade and falsify measures, turning sacred time into an obstacle to profit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.8.7",
+          "basis": "An oath against those who exploit the poor",
+          "note": "The commentary's garden owners swear to keep the poor from their harvest; Amos has the Lord swear not to forget merchants who trample the needy, joining oath, withheld food, and judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.24.21",
+          "basis": "Grapes left for the poor",
+          "note": "The commentary's garden owners plan to exclude the poor from their crop; Deuteronomy commands leaving remaining grapes for the stranger, orphan, and widow, setting shared yield against total retention."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.26",
+          "basis": "Withheld grain curses its owner",
+          "note": "The commentary contrasts a hand that keeps produce with one that lets its extract become a gift; Proverbs says people curse the one who withholds grain and bless the seller, making the ethical difference between retention and release explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.9.4",
+          "basis": "Work while it is day",
+          "note": "The commentary hears afternoon as the closing part of the day, when undone work has little time left; Jesus says to do the work while it is day because night comes when no one can work, making the shrinking window explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.6.38",
+          "basis": "Pressed measure overflowing as a gift",
+          "note": "The commentary makes pressing yield an image of generosity when the extract flows out; Jesus describes a measure pressed down, shaken together, and overflowing into another's lap, a striking image of abundance given away."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.24",
+          "basis": "A thirsty tongue with no available sip",
+          "note": "The commentary's dried tongue and failed rescue-sip image meets the rich man after death asking for a drop of water to cool his tongue; Luke makes relief unavailable after the decisive time has passed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.25",
+          "basis": "Fortunes reversed after death",
+          "note": "The commentary's withheld garden yield ends in deprivation; Abraham tells the rich man that he received good things in life while Lazarus received bad, but their conditions are now reversed, making the lost opportunity irreversible."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.20.9",
+          "basis": "Full wage for the eleventh-hour workers",
+          "note": "The commentary's closing hour warns that little time remains to finish work; Jesus' parable pays those hired at the eleventh hour a full denarius, countering the assumption that a late start must mean a diminished share."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Babylonian Talmud, Ta'anit 23a",
+          "basis": "Honi sleeps through seventy years",
+          "note": "The commentary links refuge in a cave with sleep that seems brief to the sleepers but spans centuries; Honi sleeps within a rocky shelter for seventy years and wakes into a changed generation, a Jewish time-dislocation parallel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "Gregory of Tours, Glory of the Martyrs 1.95",
+          "basis": "The Seven Sleepers of Ephesus",
+          "note": "The commentary's cave youths sleep through centuries and wake in a changed age; Gregory recounts the Christian Seven Sleepers of Ephesus in their cave, a direct narrative parallel whose chronology varies among tellings."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.3.11",
+          "basis": "Hebrews repeats the oath of exclusion",
+          "note": "The commentary frames the oath as the threshold to a verdict of loss; Hebrews quotes Psalm 95's oath that the wilderness generation will not enter God's rest, reading the oath as a warning about salvation and missed time."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.4.3",
+          "basis": "Believers enter the promised rest",
+          "note": "The commentary moves from loss to an exception for believers; Hebrews interprets the wilderness oath by saying that those who believe enter the rest, giving faith the role of escape from the exclusion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 89:3",
+          "basis": "Midrash explains Joseph's extra prison years",
+          "note": "The commentary treats the cupbearer's forgetting as a long delay; Genesis Rabbah reads Joseph's doubled plea to be remembered as the reason for two more years in prison, turning the delay into a lesson about reliance and trust."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.23",
+          "basis": "Human labor continues until evening",
+          "note": "The commentary describes asr as the hour when work is nearly done and remaining time narrows; the psalm says people go out to work and labor until evening, giving that closing edge an ordinary workday scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.55.18",
+          "basis": "Prayer at evening, morning, and noon",
+          "note": "The commentary pairs devotion at the day's two edges; the psalmist says he prays at evening, morning, and noon, extending the pattern into a full daily cycle."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.92.3",
+          "basis": "Praise in morning and night",
+          "note": "The commentary hears the day's beginning and close together; the psalm appoints praise of steadfast love in the morning and faithfulness at night, a daily liturgical counterpart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.141.3",
+          "basis": "Prayer as evening offering",
+          "note": "The commentary names the afternoon prayer and the day's closing edge; the psalm asks that prayer rise like incense and raised hands like an evening offering, joining prayer to the late-day rite."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Berakhot 4:1",
+          "basis": "Prayer times bounded by afternoon and evening",
+          "note": "The commentary notes that asr can name the afternoon prayer; the Mishnah sets the afternoon prayer's time until evening, placing a daily prayer within the same shrinking daylight boundary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Berakhot 26b",
+          "basis": "Isaac's evening meditation read as afternoon prayer",
+          "note": "The commentary leaves open whether asr is the afternoon hour or a wider span of time; the Talmud derives the afternoon prayer from Isaac going out to meditate toward evening, giving that hour a Jewish interpretive tradition."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.3.1",
+          "basis": "Prayer at the ninth hour",
+          "note": "The commentary includes the afternoon prayer among possible senses of asr; Acts places Peter and John at the temple at the ninth hour, the hour of prayer, showing a Christian practice at a named late-day hour."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.10.4",
+          "basis": "Alms and prayers remembered",
+          "note": "The commentary describes the squeezed extract as generosity flowing outward; the angel tells Cornelius that his prayers and alms have risen as a memorial, linking devotional practice with concrete giving."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Tertullian, On Prayer 25",
+          "basis": "Third, sixth, and ninth-hour prayer",
+          "note": "The commentary names a fixed afternoon prayer within the day; Tertullian recognizes third, sixth, and ninth hours as customary times for prayer, showing a Christian daily rhythm that includes the closing daylight hours."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.29.39",
+          "basis": "Daily offerings at morning and twilight",
+          "note": "The commentary pairs the day's edges and names the afternoon prayer; Exodus assigns one lamb to morning and another to twilight, a daily ritual cycle ending as daylight closes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.65.11",
+          "basis": "Rain waters furrows and blesses growth",
+          "note": "The commentary traces rain from squeezed clouds to grain and plants; the psalm describes God watering furrows with showers and blessing their growth, a close rain-to-crop sequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.65.12",
+          "basis": "The year crowned with abundance",
+          "note": "The commentary lets asr name both a day-part and a long age, then links time to yield; the psalm says God crowns the year with goodness, joining a temporal cycle to its harvest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.2.24",
+          "basis": "Rain fills threshing floors and vats",
+          "note": "The commentary's squeezed-cloud image leads to grain, plants, and gardens; Joel describes threshing floors full of grain and vats overflowing after rain, a parallel chain from water to agricultural abundance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.4.13",
+          "basis": "Winepress as judgment",
+          "note": "The commentary's pressing can yield a gift or leave a dry remainder; Joel summons the sickle and treading of a full winepress as the nations' judgment, making the same harvest image destructive."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.63.3",
+          "basis": "The divine warrior treads the winepress alone",
+          "note": "The commentary distinguishes the flowing extract from the dry residue; Isaiah pictures God treading the winepress until garments are stained with blood, a counter-image in which pressing signifies judgment rather than bounty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.19",
+          "basis": "The earth's vintage cast into God's winepress",
+          "note": "The commentary's grape pressing may stand for a good yield; Revelation gathers the earth's vintage and casts it into the winepress of divine wrath, giving the harvest image an apocalyptic judgment sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.20",
+          "basis": "Blood flows from the winepress",
+          "note": "The commentary describes pressing as separating liquid from dry pulp; Revelation says blood flows from the trampled winepress, turning that flow into a measure of catastrophic judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.19",
+          "basis": "A rich man counts on many years of stored goods",
+          "note": "The commentary's garden owner has a final crop and an aging life; Luke's rich farmer stores abundant produce and assumes many years ahead, making stored yield a wager on future time."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.20",
+          "basis": "The future ends that night",
+          "note": "The commentary's old orchard owner loses the one harvest on which he depends; God tells Luke's farmer his life is required that very night, making the end of time arrive before expected use of stored goods."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.1.19",
+          "basis": "A great wind kills the children in a collapsing house",
+          "note": "The commentary's garden is destroyed by a whirlwind while its owner has weak descendants; Job reports a wind that collapses a house onto his children, a specific parallel of destructive wind and vulnerable offspring."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.4.6",
+          "basis": "A plant briefly shelters a distressed person",
+          "note": "The commentary calls asr a refuge for the distressed; Jonah's plant grows to shade him from discomfort, giving shelter a temporary, living form that can soon be lost.",
+          "raw_ref": "WLC:Jon.4.6",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.46.2",
+          "basis": "God as refuge in trouble",
+          "note": "The commentary calls the refuge a haven for a person in distress; the psalm names God as refuge and strength, a help in trouble, matching the concrete relation of shelter to pressure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.14.26",
+          "basis": "Children have a refuge",
+          "note": "The commentary says lineage can be a place of refuge; Proverbs says the children of one who fears the Lord have refuge, directly joining descent and protection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.6.16",
+          "basis": "Faith as a protective shield",
+          "note": "The commentary links refuge to armor that wraps and protects the body; Paul describes the shield of faith extinguishing flaming arrows, giving the protective covering an ethical and spiritual use."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.3",
+          "basis": "Testing produces endurance",
+          "note": "The commentary describes time's pressure as extracting an essence and connects the surah's final patience to a bitter extract; James says tested faith produces endurance, a specific ethical parallel between trial and patient strength."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.5",
+          "basis": "The delayed bridegroom and sleeping waiters",
+          "note": "The commentary includes late arrival and a sleep that may last only a moment; Matthew's bridegroom is delayed and the waiting women all grow sleepy and sleep, placing delay and sleep inside a story about readiness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.10",
+          "basis": "The door closes before the late arrivals",
+          "note": "The commentary warns that work left undone near day's end may run out of time; Matthew's late bridesmaids arrive after the door is shut, making delay a lost opportunity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.15.19",
+          "basis": "Menstruation as a timed ritual boundary",
+          "note": "The commentary's lexicon describes the first menstruating girl as held at home for protection; Leviticus assigns menstrual bleeding a seven-day impurity and contact rules, offering a distinct ritual reading of that timed threshold rather than confirming the commentary's protective etymology."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Lev.23.36",
+          "basis": "Arabic ع ص ر / Hebrew עצר; table sound correspondence, unverified",
+          "note": "The package table gives Hebrew עצר a festival-assembly sense; Leviticus marks the eighth day with a sacred assembly, a calendrical use alongside the commentary's afternoon prayer and day-boundary senses, without establishing cognacy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:2Pet.3.8",
+          "basis": "A day and a thousand years",
+          "note": "The commentary holds the long age and short day-part together; Second Peter applies the psalm's thousand-years-as-a-day scale to the apparent delay of the Lord's coming, making divine and human time differ."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:2Pet.3.9",
+          "basis": "Delay as time for repentance",
+          "note": "The commentary includes the sense of a late arrival and the dwindling time left to act; Second Peter interprets apparent delay as patience that gives people time to repent, turning lateness into mercy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.14",
+          "basis": "Life as a mist that appears briefly",
+          "note": "The commentary lets asr range from a long era to a fleeting instant; James calls human life a mist that appears briefly and vanishes, a precise but less developed image of life's short span."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.41.49",
+          "basis": "Arabic ص ب ر / Hebrew צבר; table sound correspondence, unverified",
+          "note": "The commentary links its final word ṣabr, patience, to a bitter tree extract and to waiting through lean years while grain is saved; Genesis says Joseph heaped grain in extraordinary quantity. The table's ص ب ر / צבר match is only an unverified sound correspondence, not proof of cognacy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Judg.13.15",
+          "basis": "Arabic ع ص ر / Hebrew עצר; table sound correspondence, unverified",
+          "note": "The commentary gives the Arabic dictionary sense of al-ʿaṣr as holding or detaining; Manoah asks to detain his visitor while preparing food, using Hebrew עצר. The package table marks the sound match as a candidate only."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:2Kgs.4.24",
+          "basis": "Arabic ع ص ر / Hebrew עצר; table sound correspondence, unverified",
+          "note": "The commentary includes late or slow arrival and the sense of being held back; the Shunammite tells her servant not to slow her journey to Elisha, using Hebrew עצר. This is a precise semantic echo but the table does not verify cognacy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Num.17.13",
+          "basis": "Arabic ع ص ر / Hebrew עצר; table sound correspondence, unverified",
+          "note": "The commentary connects holding tightly with refuge and protection; Aaron stands between the dead and living while the plague is stopped with Hebrew עצר, a protective restraint that echoes that image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.11.17",
+          "basis": "Arabic ع ص ر / Hebrew עצר; table sound correspondence, unverified",
+          "note": "The commentary links squeezed rain clouds to grain and plants; Deuteronomy uses Hebrew עצר for shutting the heavens so rain and crop fail, a relevant withholding sense, though the root match remains unverified."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.12.15",
+          "basis": "Arabic ع ص ر / Hebrew עצר; table sound correspondence, unverified",
+          "note": "The commentary contrasts rain that flows from clouds with a dry, pressed remnant; Job says that when God holds back waters they dry up, and when he releases them they flood the land, a close semantic fit through the table's unverified sound correspondence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.20.18",
+          "basis": "Arabic ع ص ر / Hebrew עצר; table sound correspondence, unverified",
+          "note": "The commentary describes a young woman held at a reproductive threshold; Genesis says God had closed the wombs of Abimelech's household using Hebrew עצר, a specific withholding sense but not proof that the roots are cognate."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.40.14",
+          "basis": "Joseph asks the released cupbearer to remember him",
+          "note": "The commentary notes Joseph's request to be remembered and the cupbearer's later forgetting; Genesis gives the request itself, asking the cupbearer to mention him to Pharaoh and bring him out of prison."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.105.18",
+          "basis": "Joseph confined in fetters",
+          "note": "The commentary places Joseph's waiting in prison; the psalm retells his story as feet bound in fetters until the promised time, giving the confinement a bodily image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.105.19",
+          "basis": "Joseph tested until his word comes true",
+          "note": "The commentary arranges Joseph's prison years around delayed remembrance and eventual release; the psalm says the word of the Lord tested Joseph until what he had said came to pass, interpreting the delay as a trial."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.41.29",
+          "basis": "Seven years of abundance forecast",
+          "note": "The commentary follows Joseph's reading of Pharaoh's dream as a calendar of plenty and scarcity; Genesis predicts seven years of great abundance throughout Egypt, specifying the productive span."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.41.30",
+          "basis": "Seven famine years follow",
+          "note": "The commentary's Joseph narrative turns from years of yield to years of hardship; Genesis forecasts seven years of famine after the abundance, making the saved grain's time horizon explicit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.41.31",
+          "basis": "The plenty is forgotten in famine",
+          "note": "The commentary says the hard years consume what was stored; Genesis adds that the famine is so severe that the former plenty is no longer remembered, a sharper account of yield erased by loss."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.41.47",
+          "basis": "The land produces abundantly during the good years",
+          "note": "The commentary follows the movement from productive years to preserved grain; Genesis says the land yields abundantly through the seven years, the harvest that makes Joseph's storage possible."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.41.56",
+          "basis": "Joseph opens the storehouses in famine",
+          "note": "The commentary ends Joseph's cycle with renewed access to produce after scarcity; Genesis says Joseph opens the storehouses and sells grain during the famine, showing reserve released when need arrives."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.8.4",
+          "basis": "Those who trample the needy",
+          "note": "The commentary's garden owners plan to keep the poor from their crop; Amos addresses people who trample the needy and bring the poor to an end, naming the injustice that the garden scene dramatizes."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.8.6",
+          "basis": "Poor people traded for silver while wheat is sold",
+          "note": "The commentary contrasts hoarded produce with giving; Amos condemns buyers who acquire the poor for silver and sell even wheat refuse, making grain control an instrument of exploitation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.15.7",
+          "basis": "Do not close the hand against the poor",
+          "note": "The commentary describes holding a gift back and excluding the poor from a garden; Deuteronomy forbids hardening the heart or shutting the hand against a poor kinsman, a direct ethical counterpoint."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.15.8",
+          "basis": "Open the hand to meet another's need",
+          "note": "The commentary says squeezing can let its extract flow as generosity; Deuteronomy commands opening the hand and lending enough for the poor person's need, making release the ethical response to scarcity."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.15.10",
+          "basis": "Give freely without a grudging heart",
+          "note": "The commentary contrasts a generous person with one who withholds or reclaims a gift; Deuteronomy commands giving without regret and promises blessing for the work, joining openhandedness to fruitful outcome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.24.19",
+          "basis": "A forgotten sheaf left for the poor",
+          "note": "The commentary's owners plan to keep a garden's entire yield from the poor; Deuteronomy says a forgotten sheaf must remain for the stranger, orphan, and widow, applying release to grain harvest."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ruth.2.15",
+          "basis": "Ruth allowed to glean among the sheaves",
+          "note": "The commentary's garden owners bar the poor from entering; Boaz tells his workers to let Ruth glean even among the sheaves and not reproach her, reversing exclusion in a concrete harvest scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ruth.2.16",
+          "basis": "Extra grain deliberately left for Ruth",
+          "note": "The commentary treats a crop's extract as a gift that may either flow or be retained; Boaz orders handfuls pulled from the bundles and left for Ruth, making generosity exceed mere permission to glean."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ruth.2.20",
+          "basis": "A close relative as guardian and redeemer",
+          "note": "The commentary says ancestry and kinship can be a refuge; Naomi identifies Boaz as a near kinsman and redeemer, where family connection becomes practical protection and provision."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 2:15",
+          "basis": "The day is short, work is abundant, and the master presses",
+          "note": "The commentary calls late afternoon the point when work is nearly done and time for unfinished tasks narrows; this saying makes the same pressure explicit through a short day, much work, and an urgent master."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.7",
+          "basis": "An oath measures the time until oppression ends",
+          "note": "The commentary opens with an oath on time and leaves the promised verdict just beyond the verse; Daniel's angel swears by the living God and gives a measured period whose end coincides with the breaking of the holy people's power."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.12",
+          "basis": "Blessed is the one who waits to the appointed days",
+          "note": "The commentary includes delayed arrival, a fleeting moment, and patience through hard years; Daniel blesses the person who waits and reaches the stated number of days, linking endurance to a measured end."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.10.6",
+          "basis": "An oath that there will be no more delay",
+          "note": "The commentary hears both a broad age and a late, shortened interval in asr; Revelation's angel swears that there will be no more delay before the mystery is completed, joining oath, waiting, and time's end."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.3.18",
+          "basis": "The oath is directed at the disobedient",
+          "note": "The commentary places an oath before a verdict of loss; Hebrews continues its reading of Psalm 95 by identifying those excluded from rest as the disobedient, specifying why the sworn exclusion occurs."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.3.19",
+          "basis": "Unbelief prevents entry",
+          "note": "The commentary moves from a general human loss to an exception for believers; Hebrews says the wilderness generation could not enter because of unbelief, giving the faith contrast a precise interpretive role."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.4.7",
+          "basis": "The present day is still called Today",
+          "note": "The commentary treats a named time as a threshold before action becomes too late; Hebrews says God again appoints a day called Today and warns against hardening the heart, reading the old oath as a present opportunity."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.8.35",
+          "basis": "Prayer when heaven is shut and rain withheld",
+          "note": "The commentary connects prayer at a set time with clouds, rain, and crop yield; Solomon prays for the people when heaven is closed and there is no rain, linking drought, prayer, repentance, and renewed provision."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:1Kgs.8.35",
+          "basis": "Arabic ع ص ر / Hebrew עצר; table sound correspondence, unverified",
+          "note": "The package table marks Hebrew עצר as a possible sound correspondence to Arabic ع ص ر; Solomon's prayer describes heaven being shut so rain stops, a relevant restraint of the rain that the commentary links to yield, without proving cognacy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.142.6",
+          "basis": "God is refuge in the cave prayer",
+          "note": "The commentary treats a cave as refuge for people whose time is hidden from them; Psalm 142's superscription places David in a cave, and the cited verse calls God his refuge and portion while he is in distress."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.18",
+          "basis": "Fleeing for refuge and holding fast to hope",
+          "note": "The commentary joins seeking shelter with clinging tightly to a person or place; Hebrews describes people who have fled for refuge to seize the hope set before them, bringing refuge and grasping together."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.6.10",
+          "basis": "Daniel prays three times each day under threat",
+          "note": "The commentary describes believers praying at the day's edges; Daniel continues praying three times daily toward Jerusalem despite a decree that endangers his life, showing fixed prayer times maintained under pressure."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 8:3",
+          "basis": "The Lord's Prayer said three times daily",
+          "note": "The commentary names the afternoon prayer and describes morning-evening devotion; the Didache directs Christians to pray the Lord's Prayer three times a day, evidence of a timed daily discipline."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.10.3",
+          "basis": "Cornelius prays at the ninth hour",
+          "note": "The commentary leaves open the afternoon-prayer sense of asr; Acts places Cornelius in prayer at the ninth hour when he sees an angel, a distinct Christian scene of late-day devotion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.13.35",
+          "basis": "Evening, midnight, cockcrow, and morning",
+          "note": "The commentary lets one unqualified time-name span an afternoon, an era, or a fleeting interval; Jesus lists the night watches and warns that the master may come at any one of them, making readiness depend on an unknown hour."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.141.3",
+          "basis": "Prayer rises like incense",
+          "note": "The commentary describes perfume swelling and rising behind a passing person; the psalm asks that prayer rise like incense, a distinct connection to the commentary's scent image apart from this verse's evening-offering detail."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Song.4.16",
+          "basis": "Wind releases garden spices and fruit",
+          "note": "The commentary brings together wind, garden produce, and fragrance carried after movement; the Song calls on the winds to blow through a garden so its spices flow and its fruits can be eaten, joining those images in one scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.7.1",
+          "basis": "Fragrance set beside the day of death",
+          "note": "The commentary follows a woman's perfume trail into a reflection on what remains after someone passes and also makes asr a life's closing time; Ecclesiastes says a good name is better than fragrant oil and the day of death better than birth."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.11.6",
+          "basis": "Sow in the morning and keep working in the evening",
+          "note": "The commentary says the late day leaves little time for work still undone and connects time with uncertain yield; Ecclesiastes commands sowing in the morning and not letting the hand rest in the evening because the outcome is unknown."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.2",
+          "basis": "Light darkens as old age approaches",
+          "note": "The commentary hears afternoon's fading light alongside the end of a human life; Ecclesiastes depicts sun, light, moon, and stars darkening as the days of aging arrive, giving that decline a bodily and cosmic image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.4.6",
+          "basis": "A life poured out as departure nears",
+          "note": "The commentary treats squeezing as extracting a life-giving essence and asr as the close of a lifespan; Paul says he is already being poured out as a libation and that the time of his departure has come."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.52",
+          "basis": "Transformation in a moment at the last trumpet",
+          "note": "The commentary holds long ages beside the instant and says a whole lifetime can shrink to a small part of a day; Paul places the change of the dead in a moment, in the twinkling of an eye, at the last trumpet."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.24",
+          "basis": "A grain dies and bears much fruit",
+          "note": "The commentary describes grain protected in its husk through scarcity and later used for food; Jesus says a grain of wheat must fall into the earth and die to bear much fruit, making fruitful release rather than protected storage the condition of abundance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.9",
+          "basis": "Harvest comes in due time to those who do not give up",
+          "note": "The commentary links the final patience-word to waiting through lean years for stored grain to yield; Paul urges continued good work because harvest comes at the proper time if one does not grow weary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 3:6",
+          "basis": "The tested righteous are refined like gold",
+          "note": "The commentary says time's pressure extracts an essence and connects patience with a bitter extract; Wisdom pictures the tested righteous as gold tried in a furnace and accepted like a burnt offering, interpreting pressure as refinement."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.4.18",
+          "basis": "A material gift is a fragrant offering",
+          "note": "The commentary makes pressed yield an image of generosity and perfume a good trace left behind; Paul calls the Philippians' delivered gift a fragrant offering, joining concrete giving with lingering fragrance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.2.14",
+          "basis": "The fragrance of knowledge spreads everywhere",
+          "note": "The commentary describes a scent rising and trailing after movement; Paul says God spreads the fragrance of knowledge through the apostles everywhere, turning a passing procession into a lasting trail."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.2.15",
+          "basis": "Aroma received differently by the saved and perishing",
+          "note": "The commentary contrasts a good trace left behind with destructive dust and loss; Paul says the same aroma is associated with those being saved and those perishing, adding opposed outcomes to the scent image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.15.25",
+          "basis": "Bitter water becomes drinkable",
+          "note": "The commentary's poem imagines water itself as the thing choking the speaker, with no rescuing sip left; at Marah, God shows Moses a tree and the bitter water becomes sweet, a contrasting scene where the obstructing water is made into relief."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.13.8",
+          "basis": "The gardener asks for one more year",
+          "note": "The commentary's old garden owner loses his final yield when there is no time or strength to plant again; Jesus' gardener asks for another year to dig and fertilize the barren tree, making time an opportunity for restoration."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.21",
+          "basis": "Rich toward God rather than oneself",
+          "note": "The commentary contrasts generous outflow with stored yield kept from others; Jesus concludes that the farmer who stores goods for himself is not rich toward God, giving the accumulation scene its ethical verdict."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.26",
+          "basis": "A fixed chasm makes relief impossible",
+          "note": "The commentary's thirsty speaker has no remaining rescue sip; Abraham says a great chasm is fixed between the two places and no one can cross, explaining why the rich man's requested relief cannot arrive."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.2",
+          "basis": "Stored wealth decays",
+          "note": "The commentary's pressed yield can leave only a dry remainder, and its garden owners lose what they tried to retain; James says riches have rotted and garments are moth-eaten, showing stored wealth failing to preserve its owner."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.3",
+          "basis": "Corroded treasure testifies in the last days",
+          "note": "The commentary joins accumulation and the closing time of a life; James says hoarded gold and silver corrode and become evidence against their owners in the last days, making stored wealth a witness to judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.4",
+          "basis": "Withheld wages cry out to God",
+          "note": "The commentary describes a father withholding a child's property and garden owners denying the poor their produce; James says wages kept back from workers cry out, giving retention a concrete social and judicial consequence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.5",
+          "basis": "Luxury before the day of slaughter",
+          "note": "The commentary's aging garden owner loses the yield on which his future depends; James depicts the rich living in pleasure and fattening their hearts for a day of slaughter, joining abundance to an approaching end."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "617a4d98f085f90dbfd0078ced8b57a2378436917fa716497b05d71d715d9294",
+    "followup_sha256": "617a4d98f085f90dbfd0078ced8b57a2378436917fa716497b05d71d715d9294",
+    "initial_file": "turn1.accepted.tsv",
+    "initial_sha256": "855033dde0354fd818d9b7251c8d71bfb93abae9fa8653945449c61a82cda5f5",
+    "raw_initial_sha256": "bfbbee686f168bc29843f2df263009aca45d15598a8aa2e432f582291610ed38"
+  },
+  "consolidation_error": null,
+  "list_sha256": "22d6a767d1e5fc239787987c29f7781c4135fdfdece27d9e598a483a1552d124",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 782848,
+    "cached_input_tokens": 651520,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 93366,
+    "reasoning_output_tokens": 80471,
+    "total_tokens": 876214
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:47:39.363Z",
+  "artifacts": {
+    "started.json": "5e02d47673335da2798d7a43c323fd3a4d9723208d6f0d8aab1086267a151861",
+    "input.json": "73f030e93e4a64556f3223486def0fcf83405e01103c60f004ddc2e0c1b2e1ea",
+    "prompt.md": "413d15bae1a7661f2b7daefe3a9b05a261516ff37bd810a6503a76f8acefcbb6",
+    "package.md": "a648679ae9a31f3f92f6e0fd2686dd2f83147962f034a8241b0f533000d84dd7",
+    "spawn.md": "c1ad30bbc26b1444305ca24e970f7150370787b2dac00c140f4d2dc81e6fd17f",
+    "followup.txt": "41b6de6613ebda96eb272d04a30b68ee079f073cb61d75123c54d21c1224d66d",
+    "turn1.json": "c19c9df0d4390e198488e673b32447a2d21eb2e61428a1bf9d2040884c9b9824",
+    "turn1.list.tsv": "bfbbee686f168bc29843f2df263009aca45d15598a8aa2e432f582291610ed38",
+    "followup.tsv": "617a4d98f085f90dbfd0078ced8b57a2378436917fa716497b05d71d715d9294",
+    "list.tsv": "22d6a767d1e5fc239787987c29f7781c4135fdfdece27d9e598a483a1552d124",
+    "consolidation.json": "770d4fe2f54ef1853bee4fa728def58ee006e09014572c4b8652d4f76ae47496",
+    "validation.json": "f80a0a60487e6d57482bbcea3500867dfa37d1b1f777fae5cb2d9c994e295987",
+    "proposal_validation.json": "f1e6c78fb66ac18d28c4d3796ce242846b961c00c8323c14d2e2ff6ab61dad5e",
+    "tool_calls.json": "81c74a3afa4fd2faea858bc3094c5be5dd087c949b541458d4ab06a81486d704",
+    "session.json": "68cde982c3211dbfdec3c76194800d3ddadfb1b1973c9c47060ba5a584fbac01",
+    "session.events.jsonl": "f5a61b8b0f7c91a5aad4e4763ef9feb659e33eb17e67224c78aec73e44fd1b27",
+    "turn1.original.tsv": "bfbbee686f168bc29843f2df263009aca45d15598a8aa2e432f582291610ed38",
+    "turn1.validation.failed.json": "8fe6a6a69d55eabfbd93613ef7a46788f3b32f2a093ab90deb8aaa4009fdaf6a",
+    "turn1.tool_calls.json": "e536fcfeec72e4c78d582b32a2e62dbe6b970a411548dafb79aa38efddb860e0",
+    "turn1.repair.proposed.json": "082bbec655bcdc014a430c31a22fd096b38aee62b76122bb104df1860c60ada6",
+    "turn1.repair.proposed.tsv": "855033dde0354fd818d9b7251c8d71bfb93abae9fa8653945449c61a82cda5f5",
+    "turn1.accepted.tsv": "855033dde0354fd818d9b7251c8d71bfb93abae9fa8653945449c61a82cda5f5",
+    "turn1.repair.accepted.json": "b288c4eddcdbc4899606b0a60381e42f9191ad4233aeb360d83b74ebc34ef43d"
+  },
+  "first_turn_repair": {
+    "policy": "bible-first-turn-repair-v1",
+    "approval": "Accepted by the Claude Code Bible orchestrator (fork of the 2026-10-09 enrichment session) under the user's production go for S103; locator-only correction verified against the local WLC/SBLGNT/KJV text; no grade, kind, basis or explanation changed; listed for the user's review in the S103 Bible audit README.",
+    "tool_audit_reviewed": true,
+    "accepted_at": "2026-10-09T05:41:53.541692+00:00",
+    "changes": [
+      {
+        "line": 64,
+        "before": [
+          "weak",
+          "tevrat",
+          "soydas",
+          "WLC:Num.16.48",
+          "Arabic ع ص ر / Hebrew עצר; table sound correspondence, unverified",
+          "The commentary connects holding tightly with refuge and protection; Aaron stands between the dead and living while the plague is stopped with Hebrew עצר, a protective restraint that echoes that image."
+        ],
+        "after": [
+          "weak",
+          "tevrat",
+          "soydas",
+          "WLC:Num.17.13",
+          "Arabic ع ص ر / Hebrew עצר; table sound correspondence, unverified",
+          "The commentary connects holding tightly with refuge and protection; Aaron stands between the dead and living while the plague is stopped with Hebrew עצר, a protective restraint that echoes that image."
+        ],
+        "reason": "English verse numbering: KJV Numbers 16:48 (the plague restrained, Hebrew וַתֵּעָצַר) is WLC Numbers 17:13; checked in the local KJV and WLC"
+      }
+    ],
+    "model_calls": 0,
+    "artifacts": {
+      "turn1.original.tsv": "bfbbee686f168bc29843f2df263009aca45d15598a8aa2e432f582291610ed38",
+      "turn1.validation.failed.json": "8fe6a6a69d55eabfbd93613ef7a46788f3b32f2a093ab90deb8aaa4009fdaf6a",
+      "turn1.tool_calls.json": "e536fcfeec72e4c78d582b32a2e62dbe6b970a411548dafb79aa38efddb860e0",
+      "turn1.repair.proposed.json": "082bbec655bcdc014a430c31a22fd096b38aee62b76122bb104df1860c60ada6",
+      "turn1.repair.proposed.tsv": "855033dde0354fd818d9b7251c8d71bfb93abae9fa8653945449c61a82cda5f5",
+      "turn1.accepted.tsv": "855033dde0354fd818d9b7251c8d71bfb93abae9fa8653945449c61a82cda5f5"
+    }
+  },
+  "usd_equivalent": 0.066331,
+  "requests": 11,
+  "max_request_input_tokens": 131301,
+  "total_input_tokens": 782848,
+  "total_cached_input_tokens": 651520,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 93366,
+  "policy_notes": []
+}

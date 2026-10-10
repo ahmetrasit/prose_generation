@@ -1,0 +1,1634 @@
+{
+  "target": "sec9",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:54.904944-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec9_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "c229a120dbe185c1c14abd4a9ac438660e7f19041d397cd831448986aa485425",
+  "package_sha256": "9c3c5cfc4a212c9ae6f82c03a524c31383c10f55b6f963076503750c7c67a418",
+  "input_sha256": "9648bb71fa11c1a7072eac02644406798676234f88cfff02a7b8701541606612",
+  "spawn_sha256": "8e5df4b896d352129ae3df8ca7b7a53fa5a71ce0c01bef95e15ab806d11d43e0",
+  "followup_text_sha256": "a406a3e9fe7ab0ccbc43f93a5a8bb6fbac237989d7ac23f6b0fc7078ea0a9af7",
+  "agent_id": "01a10c9d-52f5-70a0-a511-bb09eded34fa",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-09-59-01a10c9d-52f5-70a0-a511-bb09eded34fa.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 84,
+  "turn1_sha256": "2586a9cf2cc4678da26754abf5b14d369909f07766a2feb19ce7acccd5ba074f",
+  "turn2": {
+    "completed": true,
+    "rows_total": 115,
+    "rows_added": 31
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 84,
+    "raw_proposal_rows": 31,
+    "unique_additions": 31,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.15",
+          "basis": "Moses, Midian, well, journey",
+          "note": "Moses flees to Midian and sits by a well, the direct narrative setting behind the commentary's Musa who reaches the water of Midian while seeking a way on his journey."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.16",
+          "basis": "daughters drawing water for flock",
+          "note": "The verse gives the precise well-side tableau developed beside Qur'an 28:23: Midian's priest has daughters who draw water and fill troughs to water their flock; Exodus says seven where the Qur'anic scene has two."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.2.17",
+          "basis": "Moses aids women and waters flock",
+          "note": "Exodus makes Moses drive off the hostile shepherds and personally water the flock. It is the close counterpart to the commentary's two women who cannot water until the shepherds leave and are then helped by Musa."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.37.24",
+          "basis": "Joseph's pit has no water",
+          "note": "Genesis explicitly calls Joseph's pit empty and waterless. That sharpens the commentary's contrasting Qur'anic well scene, where a caravan's water-drawer lowers a bucket and finds the boy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.37.28",
+          "basis": "travellers draw Joseph from pit",
+          "note": "Midianite traders draw and lift Joseph from the pit and carry him away. The commentary's Qur'anic caravan likewise removes Joseph from a well, but gives the discovery to a water-carrier lowering his bucket."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.21.19",
+          "basis": "journeying mother, opened eyes, well",
+          "note": "When Hagar's water is gone in the wilderness, God opens her eyes to a well. It is a concrete companion to the commentary's traveller whose survival and affairs depend on water being found or brought."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.26.19",
+          "basis": "well of living water",
+          "note": "Isaac's servants dig in a valley and find a well described as living water. Its fresh, discovered source closely meets the commentary's deep, full well and its concern for sweet, abundant water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.29.2",
+          "basis": "well mouth, stone, flocks",
+          "note": "The verse places three flocks at a well whose mouth is covered by a large stone, because the flocks are watered there. It supplies a biblical well-mouth structure for the commentary's beam, pulley, and watering work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.29.10",
+          "basis": "traveller rolls well stone and waters flock",
+          "note": "The travelling Jacob rolls the covering stone from the well's mouth and waters Laban's flock. It joins road, well mechanism, and life-giving water in the way the commentary joins the straight path to the water that sustains a traveller."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.17.6",
+          "basis": "water for a thirsty people",
+          "note": "Water comes from the struck rock so that the people may drink. This gives a wilderness counterpart to the commentary's claim that water is what keeps communal and travelling life standing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.21.16",
+          "basis": "gathered people given water",
+          "note": "At Beer, God commands that the people be gathered so that he may give them water. The collective provisioning clarifies why the commentary treats a well as the support of an affair rather than a private possession."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.21.17",
+          "basis": "song to the well",
+          "note": "Israel answers the provision of water with the command to the well to spring up and with a song. The liturgical address makes the well itself a source of communal life, matching the commentary's concentrated water imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.26.4",
+          "basis": "seasonal rain, yield, fruit",
+          "note": "Seasonal rain makes the land yield produce and trees bear fruit. It directly supplies the rain-to-growing-earth sequence through which the commentary hears the growing Rab and the rain-marked ground."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.11.11",
+          "basis": "land drinks rain from heaven",
+          "note": "The promised land drinks water from rain of the heavens, directly holding together sky, rain, ground, and dependence that the commentary develops under the Arabic sky/cloud naming."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.11.14",
+          "basis": "rain, harvest, grass for animals",
+          "note": "The rain in its season yields grain, wine, oil, and grass for livestock. This is a close biblical analogue to the commentary's sequence from poured water to human food, animal provision, and livelihood."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.18.44",
+          "basis": "small cloud rises from sea",
+          "note": "Elijah's servant sees a small cloud rise from the sea before the rain. It is a focused companion to the commentary's cloud that forms above and becomes the bearer of growing water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.18.45",
+          "basis": "clouds, wind, and heavy rain",
+          "note": "The sky turns dark with clouds and wind before a great rain. Its linked weather actors answer the commentary's prolonged cloud and moist south-wind scene without requiring the same wind direction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.36.27",
+          "basis": "water drops distilled as rain",
+          "note": "Job describes God drawing up drops of water and distilling them as rain. It offers a precise account of the water-to-cloud-to-rain process behind the commentary's layered, plant-growing cloud."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.36.28",
+          "basis": "clouds pour abundant water",
+          "note": "The skies pour water down abundantly on humankind. This gives a direct counterpart to the commentary's gathering of abundant water and rain as public benefit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.37.11",
+          "basis": "moisture loads thick cloud",
+          "note": "The thick cloud is loaded with moisture and then spread abroad. Its particular image of a moisture-bearing cloud parallels the commentary's layered cloud and the wet wind associated with it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.3",
+          "basis": "tree by water, leaf does not wither",
+          "note": "The tree planted by channels of water bears fruit and does not wither. It is the closest biblical image for the commentary's tender plant that remains fresh even through summer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.3",
+          "basis": "green pasture and waters of rest",
+          "note": "The shepherd makes the speaker rest in green pastures and leads beside waters of rest. It combines the commentary's growing ground, water, guidance, and wayfarer in one pastoral line."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.65.11",
+          "basis": "furrows watered, growth blessed",
+          "note": "God waters furrows, softens earth with showers, and blesses its growth. This particularly matches the commentary's first rain writing vegetation into the ground and the cloud that grows plants."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.13",
+          "basis": "watered mountains satisfy earth",
+          "note": "God waters the mountains from his upper chambers, and the earth is satisfied with the fruit of his work. It is a close scriptural formulation of heavenly water sustaining terrestrial growth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.14",
+          "basis": "grass and plants grow from water",
+          "note": "The same hymn says God causes grass to grow for cattle and plants for human cultivation. It supplies the food-and-livestock outcome that the commentary connects to rain and provision."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.35",
+          "basis": "desert turned to pools and springs",
+          "note": "God turns desert into a pool and parched ground into water springs. The reversal makes a concrete companion to rain repairing a people's condition and to water being drawn from otherwise dry ground."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.8",
+          "basis": "clouded sky, rain, grass",
+          "note": "God covers the sky with clouds, prepares rain for earth, and makes grass grow on hills. Its exact three-part image is especially close to the commentary's cloud, rain, and plant meeting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.23",
+          "basis": "rain for seed, rich bread, livestock",
+          "note": "Rain is given for the seed sown in the ground, producing abundant bread and pasture for livestock. This directly meets the commentary's water, food, animals, and sustaining livelihood."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.6",
+          "basis": "waters in wilderness, streams in desert",
+          "note": "Waters break out in the wilderness and streams in the desert. The verse makes the life-restoring turn from dryness to water that the commentary associates with rain, mercy, and fresh life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.41.18",
+          "basis": "rivers, fountains, pools on dry land",
+          "note": "God opens rivers and fountains and turns wilderness into pools and dry ground into springs. This is a direct biblical counterpart to both the commentary's well-water and its fear that water may sink out of reach."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.3",
+          "basis": "water poured on thirsty land",
+          "note": "Water is poured on thirsty land and streams on dry ground. It directly parallels the commentary's rain sent to barren earth, while its following spiritual application makes the literal image more than a weather report."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.49.10",
+          "basis": "guidance to springs of water",
+          "note": "The compassionate guide leads the hungry and thirsty to springs of water. Its explicit joining of guidance, a way, and water is a strong companion to the commentary's straight path beside the sustaining well."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.11",
+          "basis": "continual guidance and watered garden",
+          "note": "God continually guides, satisfies the parched person, and makes that person like a watered garden and an unfailing spring. It closely joins the commentary's guidance, fresh life, and never-failing water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.17.8",
+          "basis": "tree by water stays green in drought",
+          "note": "The water-side tree has green leaves and does not cease bearing fruit in drought. Its drought-resistant freshness is a particularly close counterpart to the commentary's summer-unwithered ribbe plant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.9",
+          "basis": "straight way by watercourses",
+          "note": "God leads the returning people to watercourses on a straight path where they do not stumble. This is an unusually exact meeting of the commentary's dosdoğru yol with water that makes the journey possible."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.47.9",
+          "basis": "water makes every place live",
+          "note": "Where the temple river goes, every living creature lives and the water becomes fresh. It supplies a concentrated account of water's restorative, life-making work behind the commentary's full, sweet, beneficial water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.47.12",
+          "basis": "unwithering leaves beside life-giving water",
+          "note": "Trees beside the river bear fruit continually and their leaves do not wither because their water comes from the sanctuary. It directly amplifies the commentary's enduring green plant and abundant sustaining water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.2.23",
+          "basis": "early and latter rain",
+          "note": "The rain is given in its proper season, including the early and latter rains. It provides a biblical seasonal setting for the commentary's first rain that marks the earth with vegetation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.10.1",
+          "basis": "spring rain, storm clouds, field plants",
+          "note": "God makes storm clouds, gives rain showers, and provides vegetation in every field. The verse has the same cloud-rain-plant sequence developed in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.14.8",
+          "basis": "living waters in summer and winter",
+          "note": "Living waters flow in both summer and winter. Its year-round flow is a close counterpart to the commentary's fresh plant that does not fade in summer and its well of plentiful water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.5.45",
+          "basis": "rain from the heavenly Father",
+          "note": "The Father sends rain on both just and unjust. It gives a New Testament articulation of rain as unearned divine beneficence, relevant to the commentary's rain as mercy and benefit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.4.6",
+          "basis": "weary traveller seated at Jacob's well",
+          "note": "Jesus, wearied by travel, sits at Jacob's well. This makes a close well-side counterpart to the commentary's traveller who reaches water and whose journey depends on it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.4.7",
+          "basis": "woman comes to draw water",
+          "note": "A woman arrives to draw water, turning the well into a meeting between a traveller and a woman obtaining water. It closely accompanies the commentary's Musa, the two women, and the Midian water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.4.10",
+          "basis": "gift of God and living water",
+          "note": "Jesus offers living water at the well. It moves the commentary's full, beneficial well from physical support to a divine gift without erasing the scene of drawing water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.4.14",
+          "basis": "water becomes an inner spring",
+          "note": "The water Jesus gives becomes a spring welling up to eternal life. Its self-renewing spring is a concentrated Christian analogue to the commentary's water that keeps life and affairs standing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.7.38",
+          "basis": "streams of living water",
+          "note": "The believer is described as the source from whom streams of living water flow. It extends the living-water image from the well to an overflowing source, a useful counterpart to the commentary's abundant gathered water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.14.17",
+          "basis": "rain, fruitful seasons, food",
+          "note": "God gives rain from heaven and fruitful seasons, filling people with food and gladness. It exactly connects divine rain with the food and livelihood results developed in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.6",
+          "basis": "planting, watering, divine growth",
+          "note": "Paul plants, Apollos waters, and God gives the growth. Its agricultural distinction makes explicit the commentary's basic figure: water serves growth, yet the giver of growth remains God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.10.1",
+          "basis": "cloud over a travelling people",
+          "note": "Israel's wilderness journey takes place under the cloud. Together with the water in verse 4, this creates a Christian rereading in which cloud and water accompany a people on the way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.10.4",
+          "basis": "water from the rock for the journey",
+          "note": "The wilderness people drink from the spiritual rock that follows them. It is a strong counterpart to the commentary's claim that water beside the traveller sustains the journey and its affairs."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.7",
+          "basis": "land drinks rain and yields plants",
+          "note": "Land that drinks repeatedly falling rain and produces useful vegetation receives blessing. It directly restates the commentary's heavenly water making the earth grow."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.7",
+          "basis": "farmer waits for early and late rain",
+          "note": "The farmer waits for the earth's precious fruit through the early and late rains. It offers a New Testament seasonal analogue to the commentary's first rain and rain-grown vegetation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jude.1.12",
+          "basis": "waterless clouds driven by winds",
+          "note": "Jude's false teachers are waterless clouds carried by winds. This is a deliberate negative inversion of the commentary's moist, rain-bearing cloud that grows plants: a cloud that promises but gives no life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.2.17",
+          "basis": "springs without water and driven mist",
+          "note": "The false teachers are compared to waterless springs and mists driven by storm. Its paired failures of well and cloud form a precise inverse to the commentary's full well and productive cloud."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "guidance to springs of life-water",
+          "note": "The Lamb shepherds and guides the thirsty to springs of the water of life. It closely meets the commentary's way, guidance, shepherding provision, and water that removes want."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.21.6",
+          "basis": "water of life given freely",
+          "note": "The thirsty receive water of life freely from the spring. It gives an eschatological form to the commentary's water as indispensable gift and remedy for need."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.1",
+          "basis": "river of water of life",
+          "note": "A bright river of water of life proceeds from God's throne. The throne-source relationship gives a Christian counterpart to the commentary's unusual claim that water is a kingdom's or traveller's holding power."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.2",
+          "basis": "fruit trees and healing leaves",
+          "note": "The trees beside the life-river bear fruit continually and their leaves serve healing. Its flourishing trees supply a Christian counterpart to the commentary's plant nourished into unfading freshness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.2.6",
+          "basis": "ground-rising water waters soil",
+          "note": "A water source rising from the earth waters the whole ground before rain is mentioned. Because the Hebrew term's exact physical sense is debated, it is a cautious companion to the commentary's two routes of water: sky-rain and water drawn from below."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.24.11",
+          "basis": "camels at well at drawing time",
+          "note": "Abraham's servant stops with camels at a well at the time women come to draw water. It supplies the practical journey-and-well setting behind the commentary's water carried by a traveller."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.24.19",
+          "basis": "woman draws water for camels",
+          "note": "Rebekah draws until the camels have drunk. Her labour at the well gives another concrete biblical instance of water as the support of travellers and animals."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.15.25",
+          "basis": "bitter water made sweet",
+          "note": "The waters at Marah are made sweet so the people can drink. It offers a specific biblical analogue to the commentary's distinction of abundant water that can be called sweet and water that repairs a people's condition."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.7",
+          "basis": "brooks, springs, and underground waters",
+          "note": "The good land is defined by brooks, fountains, and depths issuing in valley and hill. It complements the commentary's deep water-filled well and its concern that a water source might withdraw underground."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.12.3",
+          "basis": "drawing from wells of salvation",
+          "note": "Joyful drawing from wells becomes the image of salvation. The verse gives a scriptural way in which the literal action central to the commentary's pulley and well bears a second, saving sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.41.17",
+          "basis": "needy seek water and find none",
+          "note": "The poor and needy seek water with their tongues parched, and God answers them. It is a direct companion to the commentary's question of who can bring water when a community's water has gone down."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.45.8",
+          "basis": "heavens rain, earth sprouts salvation",
+          "note": "The heavens rain and the earth opens to sprout salvation and righteousness. It recasts the commentary's rain-and-growing-earth image as an ethical and saving figure rather than a purely agricultural one."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.1",
+          "basis": "thirsty invited to water",
+          "note": "The thirsty are invited to come to water without payment. Its invitation turns the commentary's traveller's necessary water into a public gift available to those in need."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.2.13",
+          "basis": "fountain versus broken cistern",
+          "note": "The people abandon a fountain of living water for cracked cisterns that cannot retain water. It offers a negative well-and-storage counterpart to the commentary's gathered water and the structural devices at a well's mouth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.11.11",
+          "basis": "Arabic samāʾ and Hebrew šāmayim",
+          "note": "The commentary's source label س م و develops sky, cloud, rain, and plant under samāʾ. Hebrew šāmayim in this verse is a cognate sky term, but the verse keeps heaven and its rain distinct while making the land drink the rain; that difference is informative rather than evidence for identical usage."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.16.11",
+          "basis": "Arabic n-ʿ-m and Hebrew neʿimot",
+          "note": "The commentary explicitly ties أَنْعَمْتَ and n-ʿ-m to freshness and beneficent support. Hebrew neʿimot, a cognate form here, accompanies the path of life and enduring delight; it gives a linguistic and contextual companion to the commentary's path plus life-giving blessing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.58.12",
+          "basis": "Arabic q-w-m and Hebrew qwm restore",
+          "note": "The commentary's ق و م label names the pulley and what makes an affair stand. Hebrew qwm in this verse describes raising up and restoring enduring foundations; beside the watered-garden guidance of verse 11, it supplies a cognate support-and-restoration sense without claiming a well in Isaiah 58:12."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 5:6",
+          "basis": "Miriam's well among primal gifts",
+          "note": "The Mishnah lists Miriam's well among things prepared at creation's twilight. This later Jewish tradition makes a well a providential provision for Israel, clarifying the commentary's water as what sustains a travelling community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud Ta'anit 9a",
+          "basis": "clouds of glory and Miriam's well",
+          "note": "The Talmud associates Israel's wilderness gifts with the cloud and Miriam's well. Its deliberate pairing is an especially close Jewish counterpart to this section's meeting of growing cloud and well."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud Shabbat 22a",
+          "basis": "Joseph's waterless pit interpreted",
+          "note": "On Genesis 37:24, the Talmud reads \"no water\" as leaving room for snakes and scorpions. The interpretation sharpens the commentary's Joseph contrast: the biblical pit is not a usable water source even when it is not simply empty space."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 70:8",
+          "basis": "Jacob's well water rises",
+          "note": "The common division of Genesis Rabbah says that the water rose to meet Jacob at Haran. That interpretive expansion transforms the covered well of Genesis 29 into a responsive source, useful beside the commentary's well apparatus and abundant water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 60:5",
+          "basis": "Rebekah's well water rises",
+          "note": "The tradition commonly cited at this place has the well water rise for Rebekah as she draws for the camels. It re-reads the traveller-and-well service of Genesis 24 as a sign of blessing, adding a Jewish interpretive layer to the commentary's water as benefit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Ta'anit 1:1",
+          "basis": "seasonal request for rain",
+          "note": "The Mishnah fixes when a community begins mentioning and requesting rain. Its concrete liturgical ordering of rain gives a Jewish communal counterpart to the commentary's rain as mercy and repair rather than merely weather."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud Ta'anit 7a",
+          "basis": "water read as Torah",
+          "note": "The Talmud develops the scriptural comparison of Torah with water. This changes water from material provision into descending and sought instruction, a useful interpretive bridge to the commentary's pairing of guidance with sustaining water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.8.36",
+          "basis": "water encountered on a road",
+          "note": "On a wilderness road the Ethiopian traveller sees water and asks for baptism. The scene is a Christian travel-and-water meeting that gives the commentary's road beside water a ritual extension."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.24",
+          "basis": "grass withers and flower falls",
+          "note": "Human flesh is compared to grass that withers and a flower that falls. As an explicit inverse, it helps define the significance of the commentary's exceptional plant that does not wither in summer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 7:1",
+          "basis": "baptism in living water",
+          "note": "The Didache prefers baptism in living water. Its ritual preference turns running or fresh water into a sign of new life, extending the commentary's literal contrast between a life-giving source and lost water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "Protevangelium of James 11:1",
+          "basis": "Mary goes to draw water",
+          "note": "In the usual chapter division, Mary goes out with a water jar and hears the annunciatory greeting. This Christian apocryphal well-side encounter belongs beside the commentary's women at water, where drawing water becomes a setting for divine gift."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, Tractates on the Gospel of John 15",
+          "basis": "John 4 water read as grace",
+          "note": "Augustine's treatment of the Samaritan-woman scene reads Christ's living water as spiritual grace rather than ordinary well water alone. It shows how a Christian interpreter changes the literal traveller-and-well meeting that parallels the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Origen, Homilies on Genesis 13",
+          "basis": "Isaac's wells read as scripture",
+          "note": "Origen's homily on Isaac's reopened wells treats digging wells as recovering the deep waters of Scripture. The reading gives a Christian interpretive afterlife to the commentary's well as a source that must be reached and kept open."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.9",
+          "basis": "waters gathered into one place",
+          "note": "The waters below the sky are gathered into one place so that dry ground appears. It is a foundational counterpart to the commentary's claim that abundant water is named for its gathering and to its distinction between water above and water held below."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.15.27",
+          "basis": "oasis springs, palms, and encampment",
+          "note": "Israel reaches Elim, with twelve water springs and seventy palms, and camps by the water. This joins a travelling people, a water source, and flourishing vegetation in the concrete way the commentary joins road, well, and growing ground."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.20.17",
+          "basis": "king's highway and wells",
+          "note": "Israel asks to travel on the king's highway while promising not to drink from field, vineyard, or well. The verse unusually binds road, traveller, well water, and king in one practical scene, directly meeting the commentary's straight path and water-as-royal-support imagery."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.21.18",
+          "basis": "well dug by nobles with staffs",
+          "note": "The well is dug by princes and hollowed by nobles with their staffs. As the necessary continuation of the well-song, it makes rulership and a constructed water source meet, closely accompanying the commentary's waters called rulers and its beam-and-pulley well mouth."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Sam.23.15",
+          "basis": "king longs for gate-well water",
+          "note": "David longs for water from the well by Bethlehem's gate. The king's desire for a particular well makes water a royal concern, a concrete biblical companion to the commentary's phrase that a community's waters are its kings."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Sam.23.16",
+          "basis": "men draw and carry well water to David",
+          "note": "David's warriors break through, draw water from the Bethlehem well, and bring it to him. The verse supplies the physical act of drawing and carrying water for a ruler, beside the commentary's pulley, traveller's water, and royal-water wordplay."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.2.21",
+          "basis": "healing bad water and barrenness",
+          "note": "Elisha throws salt into a spring and declares its waters healed, so that death and barrenness will no longer come from it. It gives a sharp biblical counterpart to rain or water improving a people's condition and to the commentary's fresh, beneficial water."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.3.17",
+          "basis": "water without wind or rain",
+          "note": "The valley will be filled with water even though neither wind nor rain is seen. Its explicit separation of water provision from visible wind and rain is a useful contrary configuration beside the commentary's wind moving cloud toward rain."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.29.11",
+          "basis": "Hebrew melekh over flood",
+          "note": "The verse calls YHWH melekh, a cognate of the commentary's م ل ك / mālik label, while placing him over the flood. It gives a substantive Hebrew king-and-water meeting, not merely a shared root, beside the commentary's water as what holds an affair together."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.84.7",
+          "basis": "Baca valley made a spring by rain",
+          "note": "Those crossing the Valley of Baca make it a place of springs, and early rain covers it with blessings. The transforming rain-and-spring image supplies a pilgrimage-scale companion to the commentary's path that cannot be separated from water."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.11.3",
+          "basis": "full clouds empty rain on earth",
+          "note": "When clouds are full, they pour rain on the earth. The compact image answers the commentary's layered cloud, its accumulated moisture, and the eventual transfer of gathered water to the ground."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.20",
+          "basis": "deep sources and dripping skies",
+          "note": "By divine knowledge the depths break open and the skies drip dew. It is a compact biblical pairing of water from below with moisture from above, closely matching the commentary's well-water and heaven-rain as two routes of water."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.25.14",
+          "basis": "cloud and wind without rain",
+          "note": "A person who boasts of a false gift is like clouds and wind with no rain. This negative weather image precisely defines the loss implicit in the commentary's productive cloud: visible cloud and wind do not suffice unless water reaches the earth."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Song.4.15",
+          "basis": "garden fountain and well of living water",
+          "note": "The beloved is called a garden fountain, a well of living waters, and streams flowing from Lebanon. Its gathered garden, well, freshness, and flow make it a particularly close biblical companion to the commentary's full well and unfading vegetation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.27.3",
+          "basis": "God continually waters vineyard",
+          "note": "YHWH guards the vineyard and waters it continually. It supplies the direct divine-cultivator sense that the commentary hears in Rab as the one associated with plant growth."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.32.20",
+          "basis": "sowing by waters with ox and donkey",
+          "note": "The blessed sow beside all waters and let ox and donkey range out. It joins water, cultivation, and working animals, the same practical provision sequence that the commentary traces from rain to food and livestock."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.14.3",
+          "basis": "empty cisterns and communal shame",
+          "note": "The nobles send servants for water, but cisterns have none and the vessels return empty. Its social consequence of missing water is a direct counterpart to the commentary's question of who can bring water when a community's source has withdrawn."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.14.22",
+          "basis": "God alone gives rain",
+          "note": "Jeremiah asks whether foreign gods or the heavens can give showers, and confesses that YHWH made all these things. This makes rain a dependent gift of the creator, closely matching the commentary's rain as mercy and benefit rather than autonomous weather."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.12",
+          "basis": "people become a watered garden",
+          "note": "The restored people receive grain, wine, oil, flock, and herd, and their life becomes like a watered garden. This is the necessary agricultural continuation of the watercourse-and-straight-way image in Jeremiah 31:9 already relevant to the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.6.3",
+          "basis": "God comes as latter rain",
+          "note": "God's coming is compared to rain and to the latter rain watering the earth. It directly supplies the rain-as-divine-mercy reading that the commentary develops around rahmet and revived ground."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.14.5",
+          "basis": "dew makes Israel blossom",
+          "note": "God will be like dew to Israel, and Israel will blossom like the lily. This adds the secondary, non-rain moisture route by which divine beneficence makes a plant fresh and flourishing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.11.6",
+          "basis": "shut sky so rain does not fall",
+          "note": "The witnesses have authority to shut the sky so that rain does not fall during their prophecy. Its withheld-rain image is a specific inverse to the commentary's cloud and rain as mercy that restores life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.11",
+          "basis": "earth made to sprout vegetation",
+          "note": "The earth is commanded to sprout grass, seed-bearing plants, and fruit trees. Read after the gathered-water scene of Genesis 1:9, its own contribution is the created vegetation that corresponds to the commentary's ground marked and grown green."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.5.15",
+          "basis": "cistern and own well as ethical figure",
+          "note": "The proverb commands drinking from one's own cistern and well. It takes the literal infrastructure central to the commentary and makes its contained water an ethical image of faithful, rightly bounded household life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 13:2",
+          "basis": "Adam recognizes need of rain and prays",
+          "note": "In the usual division, the midrash explains the delayed rain of Genesis 2 by saying that rain came after Adam recognized its need and prayed. It adds a Jewish reading in which rain, vegetation, human need, and prayer are deliberately joined."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Eruvin 2:1",
+          "basis": "well enclosures for pilgrims and animals",
+          "note": "The Mishnah permits a distinctive post-and-enclosure arrangement around wells so that festival travellers' animals can be watered. Its legal concern with well-side construction, travellers, and animal water is unusually close to the commentary's detailed well-mouth apparatus."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Babylonian Talmud Ta'anit 23a",
+          "basis": "Honi's prayer for life-giving rain",
+          "note": "The Honi story treats drought-ending rain as a communal need and distinguishes an unhelpful rain from the desired beneficial rain. It gives a Jewish narrative counterpart to the commentary's rain that repairs a people's condition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.7",
+          "basis": "water inaccessible without human help",
+          "note": "The sick man says that when the pool's water is stirred, he has no one to put him in it before another enters. It supplies a Christian scene where need, water, and the absence of a helper meet, a useful counterpart to the women who cannot water without aid."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.13.15",
+          "basis": "leading ox or donkey to water",
+          "note": "Jesus invokes the ordinary act of untying an ox or donkey and leading it to water. The concrete animal-watering practice complements the commentary's water as livelihood and its well scene of flocks needing to be watered."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.8.11",
+          "basis": "bitter water brings death",
+          "note": "The waters become bitter and people die from them. This is a specific negative counterpart to the commentary's sweet, abundant, life-sustaining water and to its image of water repairing rather than harming a community."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Shepherd of Hermas, Vision 3",
+          "basis": "tower founded on water",
+          "note": "Hermas's vision of the Church as a tower built on water explains water as the means through which life is saved. This early Christian interpretation turns water into an actual foundation, closely echoing the commentary's qiwām and milāk language for what keeps a matter standing."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "51c4b98a8097b5cd6396c88e1dedc556d2dcbe91f0b25937e9894fc8acab96d8",
+    "followup_sha256": "51c4b98a8097b5cd6396c88e1dedc556d2dcbe91f0b25937e9894fc8acab96d8",
+    "initial_file": "turn1.accepted.tsv",
+    "initial_sha256": "7426cf2700c049b3c8eb9cbc55d816a58922489193ca4b12491fd6f5f99408fd",
+    "raw_initial_sha256": "2586a9cf2cc4678da26754abf5b14d369909f07766a2feb19ce7acccd5ba074f"
+  },
+  "consolidation_error": null,
+  "list_sha256": "cb2dd96dd3a33696f37b7a8b515de07ab2839ca3218a0fb1e6b8df82fac58ee4",
+  "followup_delivery": [
+    {
+      "call_id": "call_32rZ4ZmqKTe9EyUYDbwaprSs",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 285049,
+    "cached_input_tokens": 203264,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 42515,
+    "reasoning_output_tokens": 33770,
+    "total_tokens": 327564
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:57:01.457Z",
+  "artifacts": {
+    "started.json": "d2200ae38d98591fb33e1b60073e12e7d3513be0fc0b12ffb7ea4fce14486e8e",
+    "input.json": "9648bb71fa11c1a7072eac02644406798676234f88cfff02a7b8701541606612",
+    "prompt.md": "c229a120dbe185c1c14abd4a9ac438660e7f19041d397cd831448986aa485425",
+    "package.md": "9c3c5cfc4a212c9ae6f82c03a524c31383c10f55b6f963076503750c7c67a418",
+    "spawn.md": "8e5df4b896d352129ae3df8ca7b7a53fa5a71ce0c01bef95e15ab806d11d43e0",
+    "followup.txt": "a406a3e9fe7ab0ccbc43f93a5a8bb6fbac237989d7ac23f6b0fc7078ea0a9af7",
+    "turn1.json": "cca27441ab71725e1b6b04cbc729afc4da5d628b09484688e212bd2940cd60bb",
+    "turn1.list.tsv": "2586a9cf2cc4678da26754abf5b14d369909f07766a2feb19ce7acccd5ba074f",
+    "followup.tsv": "51c4b98a8097b5cd6396c88e1dedc556d2dcbe91f0b25937e9894fc8acab96d8",
+    "list.tsv": "cb2dd96dd3a33696f37b7a8b515de07ab2839ca3218a0fb1e6b8df82fac58ee4",
+    "consolidation.json": "d4fd74daceb768622d6e6f6f519b9d8b73e0c563c460748cdf1bea874259ea31",
+    "validation.json": "dc1a26b006b836c4166a86e46ec78999259bdc70603bad144dce138edd452cac",
+    "proposal_validation.json": "379b87c53eeb33188a952db717f1f098b6a37b8a2efe89fe822e03677f7fff0a",
+    "tool_calls.json": "07a487d46f63994135b7c3d4f83f89bcc98e5925de47dd3ad3f47385af6b0408",
+    "session.json": "be166aa951db1387f7613de6fd483b67cf65b702503861b7da78c11573b3195c",
+    "session.events.jsonl": "8aa6c1b8bb7338b7e76a5da32f1c2b415b07b6ac36f63268e5c3c3c125d0d8ee",
+    "turn1.original.tsv": "2586a9cf2cc4678da26754abf5b14d369909f07766a2feb19ce7acccd5ba074f",
+    "turn1.validation.failed.json": "1518e6e01f87e2994b04c9a05b73a4777ea0e7805f1131c38ba98f9c687beb88",
+    "turn1.tool_calls.json": "1c08b8a8b8579f8e6405fb1413094c908ffa44ff2968b5700bc535b452f79bb7",
+    "turn1.repair.proposed.json": "a86cfa62662f1b127e63011bd11404eb0fac4ac01214c94dc6d38c5ad6408ba7",
+    "turn1.repair.proposed.tsv": "7426cf2700c049b3c8eb9cbc55d816a58922489193ca4b12491fd6f5f99408fd",
+    "turn1.accepted.tsv": "7426cf2700c049b3c8eb9cbc55d816a58922489193ca4b12491fd6f5f99408fd",
+    "turn1.repair.accepted.json": "00075e6f2b7f6fa0dc5903ad4ad9eb31348b33a0ed072e127bcda3d236120776"
+  },
+  "first_turn_repair": {
+    "policy": "bible-first-turn-repair-v1",
+    "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+    "tool_audit_reviewed": true,
+    "accepted_at": "2026-10-05T15:51:00.244986+00:00",
+    "changes": [
+      {
+        "line": 70,
+        "before": [
+          "medium",
+          "tevrat",
+          "soydas",
+          "WLC:Ps.16.12",
+          "Arabic n-ʿ-m and Hebrew neʿimot",
+          "The commentary explicitly ties أَنْعَمْتَ and n-ʿ-m to freshness and beneficent support. Hebrew neʿimot, a cognate form here, accompanies the path of life and enduring delight; it gives a linguistic and contextual companion to the commentary's path plus life-giving blessing."
+        ],
+        "after": [
+          "medium",
+          "tevrat",
+          "soydas",
+          "WLC:Ps.16.11",
+          "Arabic n-ʿ-m and Hebrew neʿimot",
+          "The commentary explicitly ties أَنْعَمْتَ and n-ʿ-m to freshness and beneficent support. Hebrew neʿimot, a cognate form here, accompanies the path of life and enduring delight; it gives a linguistic and contextual companion to the commentary's path plus life-giving blessing."
+        ],
+        "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+      }
+    ],
+    "model_calls": 0,
+    "artifacts": {
+      "turn1.original.tsv": "2586a9cf2cc4678da26754abf5b14d369909f07766a2feb19ce7acccd5ba074f",
+      "turn1.validation.failed.json": "1518e6e01f87e2994b04c9a05b73a4777ea0e7805f1131c38ba98f9c687beb88",
+      "turn1.tool_calls.json": "1c08b8a8b8579f8e6405fb1413094c908ffa44ff2968b5700bc535b452f79bb7",
+      "turn1.repair.proposed.json": "a86cfa62662f1b127e63011bd11404eb0fac4ac01214c94dc6d38c5ad6408ba7",
+      "turn1.repair.proposed.tsv": "7426cf2700c049b3c8eb9cbc55d816a58922489193ca4b12491fd6f5f99408fd",
+      "turn1.accepted.tsv": "7426cf2700c049b3c8eb9cbc55d816a58922489193ca4b12491fd6f5f99408fd"
+    }
+  }
+}

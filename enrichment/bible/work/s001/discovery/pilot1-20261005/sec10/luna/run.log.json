@@ -1,0 +1,1329 @@
+{
+  "target": "sec10",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:55.094617-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec10_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "41e5b2ff863b16f8ae5b6013177ef2b53d87dd41c0122f1a4a561247a018c17e",
+  "package_sha256": "817579fbfbe5594fc098b7a50f378637e287e65cd54d6db01bd86f251ffc2ad8",
+  "input_sha256": "052e4c77d67c9cf4c720a00ae7a9a41a9dafb4d07fb1765dc477fcb34e140e63",
+  "spawn_sha256": "4a6278c8abf384f28c354d44b15dca316eb4ee27be93387b5be95c4ba236a7e0",
+  "followup_text_sha256": "812c53621ac87c89ac37f3f788fb391c48f6ba7f8acd16b9e7e37f56cc2e7b0c",
+  "agent_id": "01a10c9d-837e-75b1-afa9-3cad9e8d1afe",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-10-11-01a10c9d-837e-75b1-afa9-3cad9e8d1afe.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 66,
+  "turn1_sha256": "35d8add28bf634261d129dec65ab359348a39160b5a94bd7b7c51c1773f38167",
+  "turn2": {
+    "completed": true,
+    "rows_total": 95,
+    "rows_added": 29
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 66,
+    "raw_proposal_rows": 29,
+    "unique_additions": 29,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.3",
+          "basis": "Ox knows owner; donkey knows manger",
+          "note": "The commentary says a stray camel has an unknown owner but livestock recognize their master; Isaiah turns ox and donkey's recognition into a rebuke because Israel does not know its Lord."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.8.7",
+          "basis": "Birds know appointed seasons",
+          "note": "The commentary contrasts animals that know their owner with people more astray than cattle; Jeremiah says migratory birds know their times while God's people do not know his ordinance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.22.23",
+          "basis": "Donkey sees the angel and leaves the road",
+          "note": "The commentary makes guidance a question of following a lead animal; here Balaam's donkey detects the blocked path that the human seer misses, reversing human and animal discernment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.22.1",
+          "basis": "Straying ox or sheep must be returned",
+          "note": "The commentary's dālle camel has escaped its owner; Torah treats a neighbor's stray livestock as recoverable property and forbids ignoring it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.22.2",
+          "basis": "Keep the animal until its absent owner seeks it",
+          "note": "The commentary defines the stray camel as remaining where its owner is unknown; this law makes the finder temporarily responsible when the owner is not nearby."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.23.4",
+          "basis": "Return an enemy's straying ox or donkey",
+          "note": "The commentary's ownerless camel prompts the question of the finder's relation to its owner; Exodus extends recovery duty even to an enemy's animal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.1",
+          "basis": "The Lord as shepherd; the speaker as sheep",
+          "note": "The commentary links Rabb to an animal's owner; the psalm names God as shepherd and makes the human speaker part of his flock."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.2",
+          "basis": "Shepherd settles sheep in green pasture",
+          "note": "The commentary develops a herd remaining at its pasture and land pleasing for grazing; this verse joins the shepherd's care to settled, nourishing pasture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.3",
+          "basis": "God leads on right paths",
+          "note": "The commentary turns ihdinā into a flock's following its foreleader; the shepherd leads the speaker on right paths, joining guidance to the animal image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.50.10",
+          "basis": "Forest beasts and cattle belong to God",
+          "note": "The commentary glosses its source form rabb (رَبّ) as owner and begins with an owned camel herd; this verse explicitly places wild beasts and cattle under divine ownership."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.50.12",
+          "basis": "The world and all in it belong to God",
+          "note": "The commentary's source gloss says the Rabb of each thing is its owner; the psalm applies ownership universally, beyond a single herd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.4",
+          "basis": "Wanderers lost in an empty desert without a town",
+          "note": "The commentary describes a camel escaping and remaining in a desolate place; this psalm opens with people wandering in waste without an inhabited settlement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.6",
+          "basis": "The lost cry to the Lord for help",
+          "note": "The commentary pairs an ownerless animal's lost state with the surah's request for help; here the wilderness wanderers cry out and receive divine rescue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.7",
+          "basis": "God leads them by a straight way",
+          "note": "The commentary makes the camel's foreleader an image for asking to be guided on the straight path; this verse explicitly joins divine leading to a straight way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.52",
+          "basis": "God leads his people like a flock through the wilderness",
+          "note": "The commentary's flock follows its leading animal; the psalm depicts God leading his people as sheep through a wilderness journey."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.7",
+          "basis": "People are God's pasture flock and hear his voice",
+          "note": "The commentary joins herd ownership to following a leader; the psalm calls the people sheep of God's hand and immediately calls them to hear his voice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.176",
+          "basis": "A lost sheep asks its owner to seek it",
+          "note": "The commentary's dālle camel is lost from its owner; the psalmist calls himself a lost sheep and asks God to seek his servant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.27.17",
+          "basis": "Israel must not be left like sheep without a shepherd",
+          "note": "The commentary says the request for guidance entails a foreleader whom the rest follow; Moses asks for a successor so the congregation will not be leaderless like sheep."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.50.6",
+          "basis": "Lost sheep are led astray by their shepherds",
+          "note": "The commentary contrasts a herd's leader with the danger of losing the way; Jeremiah's people are lost sheep whose own shepherds mislead them, making the guide itself culpable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.6",
+          "basis": "Scattered sheep have no shepherd to seek them",
+          "note": "The commentary's stray camel remains in a wasteland with no known owner; Ezekiel pictures scattered sheep with no shepherd and no one searching for them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.11",
+          "basis": "God himself searches for his sheep",
+          "note": "The commentary's lost camel has an unknown owner; Ezekiel answers with God personally seeking and rescuing his scattered flock."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.12",
+          "basis": "A shepherd gathers a scattered flock",
+          "note": "The commentary's animal is lost in a desolate place; this verse compares God's search to a shepherd inspecting his flock and rescuing sheep dispersed on a cloudy day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.31",
+          "basis": "Israel is God's pasture flock",
+          "note": "The commentary links an animal's owner with its herd; Ezekiel closes by identifying Israel as God's human flock and God as their God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.39.5",
+          "basis": "The wild donkey is released from its bonds",
+          "note": "The commentary distinguishes an owned, tamed camel from ownerless wild herds; Job asks who freed the wild donkey, marking its opposite relation to human ownership."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.39.6",
+          "basis": "The wilderness is the wild donkey's home",
+          "note": "The commentary's camel is stranded in a desolate place while wild asses live outside owned herds; Job makes the wilderness the wild donkey's dwelling."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.39.8",
+          "basis": "The wild donkey searches the mountains for pasture",
+          "note": "The commentary develops pasture as the place a herd stays and names wild-ass herds; Job gives the untamed animal a mountain range to roam for grazing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.39.9",
+          "basis": "The wild ox will not serve a human master",
+          "note": "The commentary's dictionary form al-baʿīr al-muʿabbad is a tarred/tamed camel; Job sets against it a wild ox that will not submit to service."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.39.10",
+          "basis": "The wild ox cannot be harnessed to plow",
+          "note": "The commentary describes a subdued camel within an owned herd; Job specifies the practical limit of human control over the wild ox."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.32.8",
+          "basis": "God teaches and points out the way",
+          "note": "The commentary makes ihdinā a request for the leader of a following herd; the psalm has God promise to instruct and guide the person in the way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.32.9",
+          "basis": "Horse and mule need bit and bridle to be guided",
+          "note": "The commentary treats the flock's voluntarily followed foreleader as an image for guidance; the psalm contrasts an instructed person with animals that must be restrained to come near."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.8.20",
+          "basis": "The king goes out before the people",
+          "note": "The commentary cites the dictionary form milk (مَلِك) for the animal at the head of a herd; Hebrew melek is its Semitic cognate, and Israel asks for a king who will go before them in battle."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.71",
+          "basis": "David is taken from ewes to shepherd Israel",
+          "note": "The commentary's malik is the animal ahead of a herd; this verse makes a former shepherd the ruler appointed over God's people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.72",
+          "basis": "David shepherds and guides with integrity",
+          "note": "The commentary joins a lead animal to guidance of those following; this verse presents Israel's ruler as one who shepherds and guides the people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.16.6",
+          "basis": "Pleasant boundary lines and a good inheritance",
+          "note": "The commentary labels root ن ع م and says camels are called en-naʿam for the good and blessing they bring; Hebrew nʿm in this verse describes pleasant boundaries beside a good inheritance, a cognate semantic field rather than an animal term."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.7.13",
+          "basis": "Blessing includes cattle and flock offspring",
+          "note": "The commentary explains its source form en-naʿam as livestock that brings good and blessing; Deuteronomy lists the increase of cattle and flock among God's covenant blessings."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Psalms of Solomon 17:40",
+          "basis": "A faithful ruler shepherds the Lord's flock in pasture",
+          "note": "The commentary's malik is the herd's foreleader and its hadī guides followers; this Jewish royal hope joins a shepherd-ruler to faithful care and a pasture where sheep do not stumble."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 18:13",
+          "basis": "God turns people back like a shepherd his flock",
+          "note": "The commentary's camel is lost from its owner; Sirach compares God's correction and teaching to a shepherd bringing back his flock."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 11:26",
+          "basis": "All things are God's own",
+          "note": "The commentary's source gloss calls the Rabb of everything its owner; Wisdom grounds God's sparing care in the claim that all things belong to him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.15.4",
+          "basis": "A shepherd searches for one sheep that strayed",
+          "note": "The commentary defines a dālle camel as escaped and ownerless; Jesus' parable gives the lost animal an owner who searches until he finds it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.15.6",
+          "basis": "The found sheep is brought back and celebrated",
+          "note": "The commentary leaves the lost camel separated from its owner; Luke's shepherd returns with the found sheep and gathers friends to celebrate, supplying a recovery scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.15.7",
+          "basis": "Heaven rejoices over a sinner who repents",
+          "note": "The commentary compares human misguidance with a camel that is lost from its owner; Luke interprets the recovered sheep as the sinner who turns back, connecting return to repentance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.18.12",
+          "basis": "A shepherd seeks a wandering sheep",
+          "note": "The commentary's lost camel has no known owner; Matthew's parable has a shepherd leave the ninety-nine to seek the one that wandered."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.13",
+          "basis": "The shepherd rejoices when the sheep is found",
+          "note": "The commentary describes the camel only while lost; Matthew emphasizes the owner's joy at recovery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.14",
+          "basis": "The Father wills that none of the little ones perish",
+          "note": "The commentary contrasts a lost animal with humans more lost than cattle; Matthew uses the shepherd image to say the Father seeks the vulnerable rather than letting one perish."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.9.36",
+          "basis": "People are harassed like sheep without a shepherd",
+          "note": "The commentary says the request for guidance needs a leader ahead of the flock; Jesus sees the crowds as sheep without a shepherd, making the human need for guidance explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.6.34",
+          "basis": "A shepherdless crowd receives teaching",
+          "note": "The commentary makes a leading animal the image behind the request to be guided; Jesus sees the crowd as sheep without a shepherd and begins teaching them, acting as guide."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.3",
+          "basis": "The shepherd calls his own sheep by name",
+          "note": "The commentary says a brand identifies whose camel it is and that the stray camel's owner is unknown; John's shepherd knows and summons each animal as his own."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.4",
+          "basis": "The shepherd goes ahead and the sheep follow",
+          "note": "The commentary's malik is the animal at the head of the herd and its hadī leads the others; Jesus describes the shepherd walking ahead and his sheep following."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.5",
+          "basis": "Sheep do not follow a stranger",
+          "note": "The commentary says the herd follows its foreleader; John adds recognition as the criterion, since sheep flee from an unfamiliar voice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.27",
+          "basis": "The shepherd knows his sheep and they follow him",
+          "note": "The commentary joins owner, animal, and following leader; Jesus says he knows his sheep and they follow his voice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "soydas",
+          "ref": "SBLGNT:John.20.16",
+          "basis": "Mary addresses Jesus as ῥαββουνί",
+          "note": "The commentary's dictionary form rabb (رَبّ) is glossed 'owner'; John's Greek preserves the Aramaic rbb title 'my teacher,' a related Semitic master-title used for a teacher rather than a livestock owner."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.25",
+          "basis": "Straying sheep return to the shepherd and overseer",
+          "note": "The commentary calls the camel dālle when lost from its owner; Peter says his readers were straying like sheep but have returned to the shepherd who watches them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "The Lamb shepherds people to springs of water",
+          "note": "The commentary combines a leading animal with pasture and the request for guidance; Revelation's Lamb becomes shepherd and guides people to springs."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.4",
+          "basis": "Followers go wherever the Lamb goes",
+          "note": "The commentary says a herd follows the lead animal and makes this the force of asking for guidance; Revelation describes people following the Lamb wherever he goes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.30.33",
+          "basis": "Spotted and speckled animals distinguish Jacob's flock",
+          "note": "The commentary says a brand shows whose camel it is; Jacob proposes coat patterns as a visible way to distinguish which animals are his, though these are natural markings, not brands."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.9.4",
+          "basis": "A mark distinguishes those spared from judgment",
+          "note": "The commentary's camel brand identifies the animal's owner; Ezekiel's mark distinguishes people to be spared, shifting identification from property to protection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.8.9",
+          "basis": "The wise are put to shame and reject the Lord's word",
+          "note": "The commentary contrasts animals that recognize an owner with people more astray than cattle; Jeremiah's immediate context extends the bird comparison to the people's rejection of divine instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.100.3",
+          "basis": "People are God's flock and pasture sheep",
+          "note": "The commentary connects an animal to its owner; this liturgical line identifies worshippers as God's people and sheep, adding communal belonging to the flock image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.24.1",
+          "basis": "Earth and its fullness belong to the Lord",
+          "note": "The commentary glosses rabb as the owner of each thing; the psalm states the same universal ownership in a creation hymn."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.2.15",
+          "basis": "Hebrew ʿābad means to work or serve",
+          "note": "The commentary labels root ع ب د in naʿbudu and quotes al-baʿīr al-muʿabbad, a tamed/tarred camel; Genesis uses the cognate Hebrew root for the human's work in Eden, preserving a service/work sense without making the garden animal imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.16.6",
+          "basis": "Hebrew nʿm means pleasant",
+          "note": "The commentary labels source root ن ع م and explains en-naʿam through good and blessing; Hebrew nʿm describes pleasantness here, a cognate sense-family rather than a reference to livestock."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.3.3",
+          "basis": "A bit directs a horse's whole body",
+          "note": "The commentary says the horse's hādī may be its neck or the foremost group; James supplies a different concrete steering image, the bit by which a human turns a horse.",
+          "raw_ref": "SBLGNT:James.3.3",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.3",
+          "basis": "God's servants receive a seal on their foreheads",
+          "note": "The commentary's brand identifies the camel's owner; Revelation's seal marks those who belong to God and are protected, transferring ownership-identification to people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.13.16",
+          "basis": "The beast's mark identifies its adherents",
+          "note": "The commentary's camel brand indicates whose herd an animal belongs to; Revelation's imposed mark signals allegiance to the beast, a hostile counterpart rather than the same kind of ownership."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "Gospel of Thomas 107",
+          "basis": "A shepherd searches for his one lost sheep",
+          "note": "The commentary's dālle camel escapes and remains away from its owner; Thomas preserves a lost-sheep parable in which the shepherd leaves the ninety-nine and seeks the stray."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:1Sam.8.20",
+          "basis": "Hebrew melek is a ruler who goes before the people",
+          "note": "The commentary's dictionary form milk (مَلِك) names the animal at the head of a herd; Hebrew melek is a cognate ruler-title, and this verse gives the king the specific role of going before Israel."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.11",
+          "basis": "Shepherd gathers lambs and gently leads the flock",
+          "note": "The commentary's lead animal and the request for guidance meet Isaiah's shepherd, who gathers lambs, carries them, and gently leads the nursing ewes."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.53.6",
+          "basis": "All people wander like sheep, each to a separate way",
+          "note": "The commentary says a camel can stray from its owner and that some people are more astray than animals; Isaiah makes human wandering itself a sheep-going-astray image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.2.12",
+          "basis": "A gathered flock crowds its fold",
+          "note": "The commentary pictures a herd remaining together at its place; Micah portrays the restored remnant gathered like sheep in a fold and pasture."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.2.13",
+          "basis": "The king and the Lord go before the gathered people",
+          "note": "The commentary's malik and hādī are foreleaders followed by the herd; Micah's gate-breaking leader, king, and Lord pass ahead of the flock."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Chr.18.16",
+          "basis": "Israel is scattered like sheep without a master",
+          "note": "The commentary connects losing a camel's owner with the need for a leader; Micaiah sees Israel dispersed on the hills like sheep without a shepherd, then sent home because they have no master."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.13.7",
+          "basis": "When the shepherd is struck, the sheep scatter",
+          "note": "The commentary says a herd follows its foreleader; Zechariah gives the contrary scene in which losing that leader disperses the flock."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.10.2",
+          "basis": "People wander like sheep because there is no shepherd",
+          "note": "The commentary makes the request for guidance a need for a foreleader; Zechariah explains the people's wandering by the absence of a shepherd."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.14",
+          "basis": "God settles his sheep in good pasture",
+          "note": "The commentary develops merabb as the place camels stay and a pasture the land's inhabitant likes; Ezekiel's shepherd puts the recovered flock on good grazing land."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.15",
+          "basis": "God feeds his flock and gives it rest",
+          "note": "The commentary links owner, herd, and the place where animals remain; God promises both to feed his sheep and to make them lie down."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.10.33",
+          "basis": "The ark goes ahead to find the people a resting place",
+          "note": "The commentary's leader walks before a following herd and its pasture is where it stays; Israel's ark travels ahead to seek a place of rest."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.8.7",
+          "basis": "Sheep, oxen, and wild beasts are under human rule",
+          "note": "The commentary distinguishes owned livestock from wild herds; the psalm specifies domestic flock and oxen alongside beasts of the field under human dominion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.6.7",
+          "basis": "Ants work without a chief or ruler",
+          "note": "The commentary names the bee's leader with the source dictionary form melīku; Proverbs supplies a useful contrast in a social insect whose ordered work needs no ruler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.30.27",
+          "basis": "Locusts march in ranks without a king",
+          "note": "The commentary extends malik to a bee's leader; Proverbs says locusts move together despite having no king, contrasting organized animal following with leaderless coordination."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.4.16",
+          "basis": "Stubborn Israel is compared to a heifer and a lamb in pasture",
+          "note": "The commentary contrasts a tamed camel with straying animals and develops pasture; Hosea calls Israel a stubborn heifer and then invokes a lamb in broad pasture, applying animal behavior to Israel's relation to God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.59.8",
+          "basis": "People do not know the way of peace and make crooked paths",
+          "note": "The commentary pairs the requested straight path with roads that turn aside; Isaiah describes people whose paths are crooked and who therefore do not know peace."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Bava Metzia 27b",
+          "basis": "Lost property is returned by identifying signs",
+          "note": "The commentary says a camel's brand reveals its owner, while a stray camel has an unknown owner; the Bavli's reading of Deuteronomy's return law uses identifying signs to establish who may reclaim a found object."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Psalms of Solomon 17:41",
+          "basis": "The shepherd-king leads the flock in holiness",
+          "note": "The commentary joins the foreleading malik to the guide who takes a herd along a path; this Jewish royal psalm continues its shepherd image by saying the king will lead the people in holiness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.13",
+          "basis": "The broad road leads to destruction",
+          "note": "The commentary develops the straight path alongside deviation; Jesus contrasts a broad road that many enter with the path of life, giving the wrong way a destination."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "Few find the narrow way that leads to life",
+          "note": "The commentary's request for guidance asks for a leader and a straight route; Jesus describes the difficult path to life that few find."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Mark.14.27",
+          "basis": "Jesus applies the struck-shepherd saying to his disciples' flight",
+          "note": "The commentary says followers depend on their herd's foreleader; Mark quotes Zechariah's struck shepherd and interprets the scattered sheep as the disciples who will fall away at Jesus' arrest."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.32",
+          "basis": "The king separates people as a shepherd separates sheep and goats",
+          "note": "The commentary places the herd-leader image beside Malik, owner of Judgment Day; Jesus' judgment scene joins royal authority with a shepherd sorting livestock."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.33",
+          "basis": "Sheep stand at the king's right and goats at his left",
+          "note": "The commentary presents a herd under a leader and names the owner of Judgment Day; Matthew makes the judgment division visible by assigning the sheep and goats opposite sides."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.11",
+          "basis": "The good shepherd gives his life for the sheep",
+          "note": "The commentary distinguishes the known owner from the camel left without one; Jesus defines the true shepherd by risking his life for the flock that belongs to him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.12",
+          "basis": "A hired worker abandons sheep when a wolf comes",
+          "note": "The commentary ties the camel to its owner and herd; John's contrast distinguishes a genuine keeper from a hired hand who does not own the sheep and flees danger."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.13",
+          "basis": "The hired hand flees because the sheep are not his",
+          "note": "The commentary's mark identifies whose camel it is; John makes ownership the reason the hired worker fails to care for the flock."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.16",
+          "basis": "Other sheep are brought into one flock under one shepherd",
+          "note": "The commentary contrasts owned herds with wild flocks outside a known owner; Jesus speaks of gathering other sheep so that they become one flock with one shepherd."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.21.16",
+          "basis": "Peter is charged to shepherd Jesus' sheep",
+          "note": "The commentary's herd follows a foreleader; the risen Jesus delegates care of his own sheep to Peter, distinguishing the flock's owner from its appointed shepherd."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.5.2",
+          "basis": "Elders must shepherd and oversee God's flock",
+          "note": "The commentary develops a leading animal whose herd follows it; Peter assigns human leaders a shepherd's oversight of God's flock, making the guide's duty explicit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.5.4",
+          "basis": "Christ is the chief shepherd",
+          "note": "The commentary uses malik for the animal at the head of the herd; Peter calls Christ the chief shepherd who appears above the delegated flock leaders."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "a0af31c68e0fd9201747be668697df66ab39698fbefd884a7707320fc36ad545",
+    "followup_sha256": "a0af31c68e0fd9201747be668697df66ab39698fbefd884a7707320fc36ad545"
+  },
+  "consolidation_error": null,
+  "list_sha256": "4257b3c4dbcc52e60f53b36c2f61368b8d7df2437b96f8cd49ed0816454a0623",
+  "followup_delivery": [
+    {
+      "call_id": "call_gmDflkFdZ5lQk6U8crwq89zS",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 394231,
+    "cached_input_tokens": 337920,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 46773,
+    "reasoning_output_tokens": 39953,
+    "total_tokens": 441004
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:27:55.521Z",
+  "artifacts": {
+    "started.json": "7b6854cf1138faf808fbc03fac3d7affc1de3352b60a41346e3486c161c18b40",
+    "input.json": "052e4c77d67c9cf4c720a00ae7a9a41a9dafb4d07fb1765dc477fcb34e140e63",
+    "prompt.md": "41e5b2ff863b16f8ae5b6013177ef2b53d87dd41c0122f1a4a561247a018c17e",
+    "package.md": "817579fbfbe5594fc098b7a50f378637e287e65cd54d6db01bd86f251ffc2ad8",
+    "spawn.md": "4a6278c8abf384f28c354d44b15dca316eb4ee27be93387b5be95c4ba236a7e0",
+    "followup.txt": "812c53621ac87c89ac37f3f788fb391c48f6ba7f8acd16b9e7e37f56cc2e7b0c",
+    "turn1.json": "ee5c6d5ebb893e57a12b1122d8a65137cfce0d864c8002251c74bc5923755750",
+    "turn1.list.tsv": "35d8add28bf634261d129dec65ab359348a39160b5a94bd7b7c51c1773f38167",
+    "followup.tsv": "a0af31c68e0fd9201747be668697df66ab39698fbefd884a7707320fc36ad545",
+    "list.tsv": "4257b3c4dbcc52e60f53b36c2f61368b8d7df2437b96f8cd49ed0816454a0623",
+    "consolidation.json": "2698fc0e733400d0c9bcf13d9dd2def368b81250eeac40c181adc6a2a6caf465",
+    "validation.json": "56aa3a530d62744f192b599607db61088d56c563fc7c7b9d6ae86dbd0855e3ee",
+    "proposal_validation.json": "56126ba3b7a9151c59ca3c1aa1ef72ac3f1a398f5bfe89293c2b20d0165816b6",
+    "tool_calls.json": "2fa04f0e0ffb2be86bc94cc8ebd836ef0e9c856b204aa31ab2f85be9ce32ebaa",
+    "session.json": "921bffbbf58b59081b75ad5b1fedcf9dcc525872c3d619adf5b1ae8d0a2433cf",
+    "session.events.jsonl": "fe798a4d9487bad5b7c58ade79bc7eb14acf03631a7dfc24b71396daa709c960"
+  }
+}

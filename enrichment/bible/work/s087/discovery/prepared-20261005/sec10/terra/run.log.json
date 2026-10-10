@@ -1,0 +1,1795 @@
+{
+  "target": "sec10",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:21:55.716019-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec10_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "069cef91418ba118f241a46a3d2d37470b3c4ffe17fa71505d2463831f45efeb",
+  "package_sha256": "b7ada0e8062223e32d389ee3e6967912f795b675ea08bd6c991f1f99c1c3c681",
+  "input_sha256": "cc7d8c0d855eca54ef4531e7e9e51387143a239ce918e60fa0f72f97917a71e8",
+  "spawn_sha256": "a864100f58ed44161d3d9ad90d59c7ee801e411d0c03e173435a595d6e410d79",
+  "followup_text_sha256": "fba69858230b661fc06bdc7dd1e8f8b76533cf68682e38370f80d4b649fc0893",
+  "agent_id": "01a10d19-ede4-7952-9e0b-82843cf6832a",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-26-05-01a10d19-ede4-7952-9e0b-82843cf6832a.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 99,
+  "turn1_sha256": "0a01fd3c3354a0cd540d4f7653b6d98777f47fc4a20a70dc014c2c47e8edded3",
+  "turn2": {
+    "completed": true,
+    "rows_total": 131,
+    "rows_added": 32
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 99,
+    "raw_proposal_rows": 32,
+    "unique_additions": 32,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.7.18",
+          "basis": "praise; name; Most High",
+          "note": "Psalm 7 joins the two terms that open the commentary's axis: the singer praises YHWH and sings to the name of YHWH Most High."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.92.2",
+          "basis": "name of the Most High",
+          "note": "The Sabbath psalm calls it good to sing to the name of the Most High, a close liturgical counterpart to glorifying the Lord's name in 87:1."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.83.19",
+          "basis": "YHWH's name; Most High",
+          "note": "The final petition identifies the one whose name is YHWH as alone Most High over all the earth, opposing a creature's appropriation of that height."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.14.19",
+          "basis": "El Elyon; creator heaven and earth",
+          "note": "Melchizedek blesses Abram by God Most High, maker of heaven and earth; it supplies a biblical divine title whose height belongs to the Creator."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.14.19",
+          "basis": "Hebrew עֶלְיוֹן; Arabic ٱلْأَعْلَى",
+          "note": "The Hebrew title עֶלְיוֹן (Most High) is a cognate comparison for the commentary's ٱلْأَعْلَى, and Gen 14 uses it of the Creator rather than an exalted ruler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.3.26",
+          "basis": "Aramaic Most High; fiery furnace",
+          "note": "Nebuchadnezzar calls the rescued men servants of the Most High God at the mouth of the furnace, holding the high divine title and a decisive fire in one scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.3.26",
+          "basis": "Aramaic עִלָּיָא; ٱلْأَعْلَى",
+          "note": "Daniel's Aramaic עִלָּיָא, used for God beside the furnace, is a cognate witness for the high-title language developed around ٱلْأَعْلَى."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.3.15",
+          "basis": "name and memorial",
+          "note": "God calls YHWH his name forever and his memorial through generations, directly pairing the divine name with remembrance as 87:15 does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.3.15",
+          "basis": "זִכְרִי / ذِكْر",
+          "note": "God's זִכְרִי, “memorial,” is a Hebrew cognate of the commentary's ذِكْر; the verse makes it inseparable from the revealed divine name."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.3.15",
+          "basis": "שֵׁם / ٱسْم",
+          "note": "The verse's שֵׁם, God's enduring name, provides an actual Hebrew cognate comparison for the commentary's ٱسْم rather than a root-label inference."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.20.24",
+          "basis": "name remembered at worship",
+          "note": "At an altar, God promises to come and bless wherever he causes his name to be remembered; this is a spatial worship counterpart to remembering the Lord's name and praying."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.135.13",
+          "basis": "enduring name and memorial",
+          "note": "The psalm sets YHWH's name and memorial across generations, adding durability to the commentary's contrast between divine remembrance and the lower, passing life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.26.8",
+          "basis": "name and remembrance desired",
+          "note": "Isaiah says that YHWH's name and memorial are the soul's desire, making remembered divine naming an act of directed longing rather than mere recollection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.20.8",
+          "basis": "remembered name versus military trust",
+          "note": "Where the commentary contrasts remembering the Lord's name with preferring the near life, the psalm contrasts remembering God's name with trust in chariots and horses."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Neh.9.5",
+          "basis": "exalted glorious name",
+          "note": "The Levites bless God's glorious name as exalted above every blessing and praise, a particularly close formulation of name, elevation, and worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.148.13",
+          "basis": "name exalted above earth and heaven",
+          "note": "The hymn says YHWH's name alone is exalted and his majesty is above earth and heaven, extending the commentary's vertical axis to the whole cosmos."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.113.3",
+          "basis": "name praised from sunrise",
+          "note": "Praise of YHWH's name runs from the sun's rising to its setting; it gives a biblical horizon image to the commentary's rising, visible form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.113.4",
+          "basis": "YHWH high; glory above heavens",
+          "note": "This verse places YHWH high above nations and his glory above the heavens, matching the commentary's move from the Most High to the high heavens."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.22.32",
+          "basis": "sanctify the holy name",
+          "note": "Israel must not profane but sanctify God's holy name, specifying the ethical content of glorifying a divine name."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.36.23",
+          "basis": "great name sanctified among nations",
+          "note": "God vindicates and sanctifies his great name after its profanation; this supplies a public, historical dimension to the commentary's divine-name praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.6.3",
+          "basis": "thrice holy; full glory",
+          "note": "The seraphic acclamation declares God holy while the whole earth is full of glory, a temple vision that gives concrete content to the commentary's tasbih as divine transcendence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.57.15",
+          "basis": "high and lofty; holy name",
+          "note": "The one dwelling in the high and holy place says his name is Holy, binding the commentary's two opening poles, height and divine naming, in one prophetic declaration."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.1.11",
+          "basis": "great name; incense offering",
+          "note": "God's name is great among the nations and receives pure incense; it relates exaltation of the name to a concrete communal act of worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.11.4",
+          "basis": "make a name; tower to heaven",
+          "note": "Babel's builders say “make a name for ourselves” while raising a tower toward heaven, a deliberate human self-elevation that reverses glorification of the Most High's name."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.12.2",
+          "basis": "God makes Abram's name great",
+          "note": "God, rather than Abram, promises to make Abram's name great; this distinguishes bestowed honorable remembrance from the self-made name of Babel and Pharaoh-like pride."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.56.5",
+          "basis": "everlasting name better than descendants",
+          "note": "God grants faithful outsiders an everlasting name better than sons and daughters, making elevated naming a divine gift that outlasts ordinary earthly continuance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.5.2",
+          "basis": "Pharaoh refuses YHWH's claim",
+          "note": "Exodus portrays Pharaoh answering “Who is YHWH?” and refusing obedience; beside the commentary's Pharaoh who claims the highest lordship, this is a rival account of his rejection of the true Lord."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.9.17",
+          "basis": "Pharaoh exalts himself",
+          "note": "God charges Pharaoh with still exalting himself against the people, a direct biblical instance of the commentary's warning that earthly height becomes arrogant tyranny."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.18.11",
+          "basis": "YHWH greater; Egyptians acted proudly",
+          "note": "Jethro confesses YHWH greater than all gods precisely in the affair where Egyptians acted presumptuously, pairing divine greatness with the undoing of proud power."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.2.11",
+          "basis": "human loftiness brought low",
+          "note": "Isaiah says haughty human eyes will be brought low and YHWH alone exalted, making the commentary's high/low axis a judgment on rival elevation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.14.14",
+          "basis": "aspiring to likeness of the Most High",
+          "note": "The taunt's arrogant ruler plans to ascend above clouds and make himself like the Most High; its counter-claim clarifies why a creature's use of supreme height is corrupt."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.5.20",
+          "basis": "heart lifted; throne deposed",
+          "note": "Nebuchadnezzar's heart is lifted up and he is deposed from royal throne, a royal narrative of self-exaltation turned into abasement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.5.23",
+          "basis": "Belshazzar lifts himself against heaven's Lord",
+          "note": "Belshazzar exalts himself against the Lord of heaven and fails to glorify the God who holds his breath, closely matching the commentary's opposition between claimed greatness and divine praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ezek.28.17",
+          "basis": "proud heart; cast to ground",
+          "note": "The Tyrian ruler's heart becomes proud because of his splendor and he is cast to the ground, a vivid vertical reversal for corrupted height."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.28.18",
+          "basis": "proud ruler consumed by fire",
+          "note": "The same ruler's profanation brings fire from his midst to consume him; it joins arrogant elevation and punitive fire without treating divine glory itself as evil."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.19",
+          "basis": "arrogant people in furnace-like day",
+          "note": "In WLC's Hebrew numbering, the coming day burns like an oven and makes all arrogant evildoers stubble, a close judgmental counterpart to the greatest fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.36.5",
+          "basis": "Hebrew כַּבִּיר; Arabic ك ب ر",
+          "note": "Job calls God כַּבִּיר, mighty/great; this is a contextual Hebrew cognate comparison for the commentary's ك ب ر discussion of divine greatness and takbir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.24.1",
+          "basis": "come up to YHWH",
+          "note": "The command to Moses and the elders, “Come up to YHWH,” realizes the commentary's observation that an invitation to come can be a summons toward a height."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.19.20",
+          "basis": "called to mountain summit",
+          "note": "YHWH calls Moses to Sinai's summit and Moses goes up, giving a concrete sacred scene for upward call, divine height, and revelation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.2.2",
+          "basis": "YHWH's house raised above hills",
+          "note": "Isaiah's latter-days vision establishes the mountain of YHWH's house as highest among mountains, a spatial counterpart to the commentary's raised houses for divine remembrance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.2.3",
+          "basis": "come; go up to YHWH's house",
+          "note": "Nations say “Come, let us go up” to YHWH's house for instruction, combining the commentary's upward invitation with a worshiping community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.12.11",
+          "basis": "place for God's name to dwell",
+          "note": "The chosen worship site is where YHWH makes his name dwell, providing a Torah antecedent for the commentary's raised houses where the name is remembered."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:1Kgs.8.29",
+          "basis": "house where God's name is; prayer",
+          "note": "Solomon asks God to attend to the house of which he said “My name shall be there” and to the prayer toward it, closely pairing house, name, and prayer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Chr.7.14",
+          "basis": "humility, prayer, seeking God's face",
+          "note": "The people called by God's name must humble themselves, pray, and seek his face; this joins named belonging, prayer, and the reversal of proud elevation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.6",
+          "basis": "heaven of heavens worships Creator",
+          "note": "The prayer names God alone as maker of heavens and the highest heavens, whose host worships him, a direct counterpart to high heavens and praise of their Creator."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.26",
+          "basis": "lift eyes on high; Creator of stars",
+          "note": "Isaiah commands hearers to lift their eyes on high and see the creator who brings out the starry host, furnishing a biblical celestial counterpart to the high-horizon imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.3.28",
+          "basis": "blessing God after fire",
+          "note": "After deliverance from the furnace, Nebuchadnezzar blesses the God of the servants; the fire becomes a scene of divine praise rather than the final fate of the wicked."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.33",
+          "basis": "fire prepared for a king",
+          "note": "Topheth is prepared deep and wide for the king, with abundant wood kindled by YHWH; it gives the commentary's great fire a royal-judgment analogue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.66.24",
+          "basis": "unquenched fire after rebellion",
+          "note": "The final vision's fire is not quenched against rebels, supplying a prophetic comparison for the lasting punitive fire adjacent to 87:12–13."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.7.11",
+          "basis": "Pharaoh summons Egyptian sorcerers",
+          "note": "Pharaoh calls wise men, sorcerers, and Egyptian magicians, the biblical counterpart to the commentary's Moses-and-magicians scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.7.12",
+          "basis": "Aaron's staff overcomes magicians' staffs",
+          "note": "Aaron's staff swallows the magicians' staffs, a narrative precedent for the claim that Moses will be superior in a contest with magic."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.6",
+          "basis": "Moses fears before divine appearance",
+          "note": "Moses hides his face because he fears to look at God, giving a biblical fear scene for the commentary's frightened Moses before divine reassurance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Kaddish, opening",
+          "basis": "magnified and sanctified great Name",
+          "note": "The Kaddish opens by asking that God's great name be magnified and sanctified, an enduring Jewish liturgical interpretation of praise as elevation of the Name."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Sotah 5a",
+          "basis": "God rejects haughtiness",
+          "note": "The talmudic saying that God and the haughty person cannot dwell together sharpens the commentary's contrast between divine highness and possessed, corrupt greatness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Megillah 31a",
+          "basis": "God's greatness and humility",
+          "note": "Rabbi Yohanan finds divine humility wherever Scripture speaks of divine greatness, a Jewish reading that prevents “Most High” from licensing human domination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Sirach 10:12",
+          "basis": "pride begins by leaving the Lord",
+          "note": "Sirach defines human pride as departure from the Lord, directly interpreting the commentary's self-raised ruler as a theological, not merely social, failure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Wisdom 5:8",
+          "basis": "profit of arrogance and boastful wealth",
+          "note": "The wicked ask what arrogance and vaunted riches profited them, an explicit retrospective judgment on preferring a lower, present life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1 Maccabees 2:62",
+          "basis": "sinner's glory becomes shame",
+          "note": "Mattathias warns that the sinner's glory ends in worms and shame; it makes worldly exaltation transient and degradable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "2 Maccabees 9:12",
+          "basis": "Antiochus abandons superhuman pride",
+          "note": "The stricken king who had thought himself superhuman recognizes that he is mortal, a close royal counter-story to Pharaoh-like claims of supreme height."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.6.9",
+          "basis": "hallowed be your name",
+          "note": "Jesus teaches prayer beginning with the sanctification of the Father's name, a direct Christian liturgical counterpart to glorifying the Lord's name."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.13",
+          "basis": "ask in Jesus' name; Father glorified",
+          "note": "Prayer in Jesus' name is ordered to the Father's glorification, explicitly joining name, prayer, and divine honor as 87:15 does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Phil.2.9",
+          "basis": "God highly exalts and grants the name",
+          "note": "After Christ's self-humbling, God highly exalts him and gives the name above every name, setting bestowed elevation against self-claimed greatness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.11",
+          "basis": "confession brings glory to the Father",
+          "note": "The confession of Jesus as Lord is “to the glory of God the Father,” giving an explicitly verbal act of honoring God beside the commentary's name-praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.2.12",
+          "basis": "proclaiming God's name in assembly",
+          "note": "The Son proclaims God's name among brothers and sings praise in the assembly, a communal form of naming and glorifying God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.13.15",
+          "basis": "praise sacrifice; confessing the name",
+          "note": "Believers continually offer praise to God as lips confess his name, closely paralleling the commentary's remembered name expressed in worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.15.4",
+          "basis": "glorify God's name because he is holy",
+          "note": "The heavenly song asks who will not glorify God's name, for he alone is holy; it fuses name-praise with the holiness content of tasbih."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.4.8",
+          "basis": "hrice holy enthroned Lord",
+          "note": "The living creatures' continual “holy, holy, holy” before the enthroned Almighty offers a Christian heavenly analogue to transcendent praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.1.32",
+          "basis": "Son of the Most High; royal throne",
+          "note": "Gabriel calls Jesus Son of the Most High and promises David's throne, setting a divinely granted royal title beside Pharaoh's falsely appropriated highest lordship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.52",
+          "basis": "mighty lowered; lowly exalted",
+          "note": "Mary's song brings down the mighty from thrones and exalts the lowly, making the commentary's high/low axis a narrative reversal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.12.23",
+          "basis": "Herod takes glory and is struck",
+          "note": "Herod accepts a divine acclamation instead of giving God glory and is struck down, a concrete Christian royal warning against usurped greatness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:2Thess.2.4",
+          "basis": "self-exalting claimant who declares himself God",
+          "note": "The lawless figure exalts himself against every god and declares himself God, a focused Christian counter-picture to Pharaoh's “most high lord” claim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.12.25",
+          "basis": "loving worldly life loses it",
+          "note": "Jesus contrasts loving one's life in this world with keeping it for eternal life, directly matching the commentary's choice between the near life and what endures."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.19",
+          "basis": "treasures on earth decay",
+          "note": "Jesus forbids storing treasure on earth because it decays and is stolen, concretizing why a life preferred as “lower” cannot be the final good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.20",
+          "basis": "treasure in heaven does not decay",
+          "note": "The complementary command locates uncorruptible treasure in heaven, supplying the durable upward alternative to present-world preference."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.16.26",
+          "basis": "gain world; forfeit life",
+          "note": "The question of gaining the whole world while forfeiting one's life gives a sharp ethical measure for the commentary's preference of worldly life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.2",
+          "basis": "mind things above, not earth",
+          "note": "Paul commands a mind set on things above rather than earthly things, an unusually direct verbalized high/low orientation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.3.19",
+          "basis": "minds set on earthly things",
+          "note": "Those whose end is destruction set their minds on earthly things, a New Testament diagnosis of the orientation the commentary calls preference for the lower life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.3.20",
+          "basis": "citizenship is in heaven",
+          "note": "The following verse supplies the opposing allegiance, citizenship in heaven, so the spatial axis becomes a communal identity rather than an abstraction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.2.17",
+          "basis": "world passes; God's will remains",
+          "note": "The world and its desire pass away while the one doing God's will remains forever, closely matching the commentary's present-life versus enduring-good contrast."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.13.14",
+          "basis": "no lasting city here",
+          "note": "Believers have no lasting city here but seek the one to come, a concise Christian analogue to rejecting the nearer life for what abides."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.41",
+          "basis": "eternal fire",
+          "note": "The judgment scene sends the cursed to eternal fire, a direct eschatological counterpart to the commentary's greatest fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.9.48",
+          "basis": "unquenched fire and undying worm",
+          "note": "Jesus' Gehenna citation describes an unquenched fire and an undying worm, a close comparison for the continuing punitive condition surrounding 87:12–13."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.1.8",
+          "basis": "flaming fire at judgment",
+          "note": "The Lord's revelation in flaming fire brings retribution on those who do not know or obey God, making divine judgment rather than mere physical flame the point of the fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.14",
+          "basis": "lake of fire called second death",
+          "note": "Revelation calls the lake of fire the second death, a Christian way of naming final fiery loss beside 87:12–13's paradoxical life/death condition."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:2Tim.3.8",
+          "basis": "Jannes and Jambres oppose Moses",
+          "note": "The letter names Jannes and Jambres as opponents of Moses, preserving a Christian interpretive identification for the Egyptian-magician contest developed in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.4",
+          "basis": "God's face and name on servants",
+          "note": "The final servants see God's face and bear his name on their foreheads, a concentrated Christian pairing of the commentary's sought divine face and remembered name."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.2.14",
+          "basis": "glory in the highest",
+          "note": "The angelic hymn places glory “in the highest,” a concise heavenly response to the commentary's opening Most High and its account of a revelation-bearer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.7.1",
+          "basis": "Melchizedek priest of God Most High",
+          "note": "Hebrews receives Genesis 14's priest of God Most High into a Christian priestly argument, making the older high-title tradition an explicit interpretive resource."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 8:2",
+          "basis": "Lord's Prayer; hallowed Name",
+          "note": "The Didache directs Christians to pray the Lord's Prayer three times daily, preserving “hallowed be your name” as a repeated discipline of name-sanctification."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, City of God 14.28",
+          "basis": "two loves; earthly and heavenly cities",
+          "note": "Augustine's two cities arise from love of self to contempt of God or love of God to contempt of self, an interpretive framework for the commentary's proud earthly height and Godward orientation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Ignatius, To the Romans 6:1",
+          "basis": "refusal of corruptible pleasure",
+          "note": "Ignatius rejects corruptible food and the pleasures of this life in favor of God, a concrete early Christian appropriation of preferring what is lasting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:1Kgs.8.27",
+          "basis": "heaven cannot contain God",
+          "note": "Even while Solomon prays about the name-bearing house, he says the highest heaven cannot contain God; this qualifies a merely spatial reading of raised worship-houses."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Sotah 7:6",
+          "basis": "divine Name in Temple blessing",
+          "note": "The Mishnah distinguishes the Temple's pronunciation of the Name from its substitute outside, giving ritual precision to the commentary's house, name, and worship nexus."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Rosh Hashanah 2:6–8",
+          "basis": "new-moon witnesses; height and direction",
+          "note": "The moon-testimony procedures ask witnesses about the new crescent's position, height, direction, and form, a concrete Jewish reading-world for the commentary's discerned crescent above the horizon."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Hagigah 12b",
+          "basis": "seven heavens; sun and moon",
+          "note": "The talmudic account of layered heavens locates the sun and moon within a structured upper cosmos, expanding the commentary's high-heavens and lunar imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 96,
+        "row": {
+          "line": 96,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Josephus, Antiquities 1.4.2",
+          "basis": "Babel tower as defiant security",
+          "note": "Josephus interprets the tower builders as seeking security and defiance rather than gratitude to God; this intensifies Gen 11's self-raised name in the commentary's terms."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 97,
+        "row": {
+          "line": 97,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Acts.7.48",
+          "basis": "Most High not in handmade houses",
+          "note": "Stephen says the Most High does not dwell in handmade houses, an interpretive tension with the commentary's raised houses: the Name may be worshiped there without containing the Most High."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 98,
+        "row": {
+          "line": 98,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.4.21",
+          "basis": "worship not bound to mountain or Jerusalem",
+          "note": "Jesus anticipates worship no longer bound to a particular mountain or Jerusalem, offering a Christian reframing of elevation and sacred place."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 99,
+        "row": {
+          "line": 99,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Tertullian, On Prayer 3",
+          "basis": "hallowing God's name in believers",
+          "note": "Tertullian explains the opening prayer petition as asking that God's name be held holy in us, interpreting name-sanctification as lived conduct as well as speech."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.8.2",
+          "basis": "majestic name; glory above heavens",
+          "note": "Psalm 8 addresses YHWH by a majestic name throughout the earth and sets his glory above the heavens, bringing name-praise and cosmic height into one line."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.47.3",
+          "basis": "Most High; great king over earth",
+          "note": "The psalm names YHWH Most High and a great king over all the earth, a royal title whose legitimate bearer contrasts with the commentary's self-exalting Pharaoh."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.97.9",
+          "basis": "Most High; exalted above gods",
+          "note": "YHWH is Most High over all the earth and greatly exalted above all gods, extending the commentary's high divine title into a polemic against rival powers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.3",
+          "basis": "proclaim Name; ascribe greatness",
+          "note": "Moses announces that he will proclaim YHWH's name and calls hearers to ascribe greatness to God, a close Torah parallel to name-praise and takbir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.15.1",
+          "basis": "Moses sings YHWH's exaltation over Pharaoh",
+          "note": "Moses' victory song calls YHWH highly exalted after horse and rider are thrown into the sea, directly joining the Moses-Pharaoh setting with rightful divine height."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.15.11",
+          "basis": "majestic holiness; awesome praises",
+          "note": "The song asks who is like YHWH, majestic in holiness and awesome in praises, giving concrete Mosaic language for the commentary's tasbih as transcendence and majesty."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.42.8",
+          "basis": "God's Name and unshared glory",
+          "note": "YHWH says that this is his name and that he gives his glory to no other; it directly answers the commentary's creaturely seizure of divine-high status."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.115.1",
+          "basis": "glory to God's Name, not ourselves",
+          "note": "The prayer explicitly redirects glory from “us” to YHWH's name, a concise liturgical reversal of self-made name and self-glorification."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.29.11",
+          "basis": "greatness, glory, and exalted headship",
+          "note": "David ascribes greatness, glory, and all that is in heaven and earth to YHWH, who is exalted as head above all; it is a comprehensive scriptural form of the commentary's vertical praise."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Hag.1.8",
+          "basis": "go up; build house; God glorified",
+          "note": "The command to go up the mountain, bring wood, and build God's house joins the commentary's upward summons to a house whose purpose is divine glorification."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Obad.1.4",
+          "basis": "star-high nest brought down",
+          "note": "Even if Edom soars like an eagle and sets its nest among stars, God says he will bring it down, a sharp image of corrupted height reversed by God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.49.18",
+          "basis": "death strips wealth and glory",
+          "note": "The wealthy person carries nothing away at death and personal glory does not go down with him, giving the lower present life a concrete terminal limit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.6.27",
+          "basis": "God's Name placed for blessing",
+          "note": "The priestly blessing places God's name upon Israel and God blesses them, a ritual use of the Name that complements the commentary's name, remembrance, and prayer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.17",
+          "basis": "self-attributed power and wealth",
+          "note": "The warning against saying “my power” gained wealth isolates the self-crediting impulse that accompanies the commentary's preference for worldly life and corrupt greatness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.2.7",
+          "basis": "God brings low and lifts up",
+          "note": "Hannah's hymn says that YHWH makes poor and rich, brings low and also lifts up; it gives the commentary's vertical axis a divine reversal in human status."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 4:4",
+          "basis": "be exceedingly humble",
+          "note": "Rabbi Levitas' injunction to be very, very humble supplies a terse Jewish ethical counterweight to the commentary's ruler who turns height into pride."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.49",
+          "basis": "Mighty One; holy Name",
+          "note": "Mary calls the Mighty One's deeds great and his name holy, continuing the name-and-greatness language beside the later reversal of the mighty and lowly in the same song."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.10.13",
+          "basis": "calling on the Lord's Name",
+          "note": "Paul makes calling on the Lord's name the saving response, a direct Christian use of divine naming as invocation rather than self-honor."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.1.21",
+          "basis": "far above every named authority",
+          "note": "The exalted Christ is above every rule, authority, power, dominion, and every name named, using height and naming together to deny final status to worldly powers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.13.6",
+          "basis": "beast blasphemes God's Name",
+          "note": "The beast opens its mouth to blaspheme God and his name, the explicit opposite of the commentary's command to sanctify and glorify the divine name."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.18.7",
+          "basis": "Babylon glorifies herself in luxury",
+          "note": "Babylon glorifies herself, lives luxuriously, and claims secure queenship; this is a concentrated apocalyptic portrait of proud height joined to worldly preference."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.18",
+          "basis": "seen temporary; unseen eternal",
+          "note": "Paul contrasts visible things that are temporary with unseen things that are eternal, closely framing the commentary's choice between the near life and what endures."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.7.31",
+          "basis": "world's present form passes away",
+          "note": "The present form of this world is passing away, a concise counterpart to the commentary's judgment that the selected worldly life is lower and nonlasting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.17",
+          "basis": "rich not haughty or hopeful in wealth",
+          "note": "The rich are not to be haughty or set hope on uncertain wealth, explicitly connecting worldly possession with the pride that the commentary treats as fallen height."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.16",
+          "basis": "better heavenly country",
+          "note": "The faithful desire a better, heavenly country, an exact directional alternative to giving preference to the nearer worldly life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.44",
+          "basis": "human glory versus glory from God",
+          "note": "Jesus contrasts receiving glory from one another with seeking glory from the only God, making human honor a rival to true divine recognition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.17.6",
+          "basis": "God's Name made known",
+          "note": "Jesus says he manifested the Father's name to those given him, a New Testament development of the commentary's claim that a name discloses the one named."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.1.3",
+          "basis": "Majesty on high",
+          "note": "The Son sits at the right hand of the Majesty on high after making purification, a concentrated heavenly-height image that joins exaltation to cleansing rather than arrogance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.16.17",
+          "basis": "servants of the Most High amid divination",
+          "note": "A divining slave calls Paul and companions servants of the Most High God; its setting makes a Christian comparison for the commentary's contest between revelation and magical power."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Acts.17.24",
+          "basis": "Creator not dwelling in handmade shrines",
+          "note": "Paul calls God maker of world and heaven and says he does not dwell in hand-made sanctuaries, a distinct Christian qualification of elevated worship-houses."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Epistle to Diognetus 5:9",
+          "basis": "on earth, citizens of heaven",
+          "note": "The letter describes Christians as passing their days on earth while holding citizenship in heaven, an early Christian interpretation of the vertical choice between present life and a higher homeland."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Origen, On Prayer 23",
+          "basis": "hallowing the divine Name",
+          "note": "Origen treats “hallowed be your name” as a petition about God's name being sanctified in those who pray, extending the commentary's verbal glorification into moral practice."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "81d75dcdff44d4d76a6f4934ec9b23b4493da025e181b747614aea6f78d3526b",
+    "followup_sha256": "81d75dcdff44d4d76a6f4934ec9b23b4493da025e181b747614aea6f78d3526b"
+  },
+  "consolidation_error": null,
+  "list_sha256": "a005c73e29a426906b1f8360e44499ecc42955686916bcbb3f51981e88e84328",
+  "followup_delivery": [
+    {
+      "call_id": "call_9mQ1F9vmusAgbKHKnSo5Xu4e",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 334538,
+    "cached_input_tokens": 280064,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30374,
+    "reasoning_output_tokens": 21813,
+    "total_tokens": 364912
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:17:34.299Z",
+  "artifacts": {
+    "started.json": "37392029dda3a1865fd3ddd5d18fce0b13e4e3efda7f6cfadab3aea2770a581d",
+    "input.json": "cc7d8c0d855eca54ef4531e7e9e51387143a239ce918e60fa0f72f97917a71e8",
+    "prompt.md": "069cef91418ba118f241a46a3d2d37470b3c4ffe17fa71505d2463831f45efeb",
+    "package.md": "b7ada0e8062223e32d389ee3e6967912f795b675ea08bd6c991f1f99c1c3c681",
+    "spawn.md": "a864100f58ed44161d3d9ad90d59c7ee801e411d0c03e173435a595d6e410d79",
+    "followup.txt": "fba69858230b661fc06bdc7dd1e8f8b76533cf68682e38370f80d4b649fc0893",
+    "turn1.json": "aa3fca0cb11e4ad9987b7026a3e7647ba21f1a224f3ca6ef802c4cef98875731",
+    "turn1.list.tsv": "0a01fd3c3354a0cd540d4f7653b6d98777f47fc4a20a70dc014c2c47e8edded3",
+    "followup.tsv": "81d75dcdff44d4d76a6f4934ec9b23b4493da025e181b747614aea6f78d3526b",
+    "list.tsv": "a005c73e29a426906b1f8360e44499ecc42955686916bcbb3f51981e88e84328",
+    "consolidation.json": "0b7c46fb996bedeeee5f7392e2d633cffab0ff733ef3ba343b68ccb719e2ead6",
+    "validation.json": "f0217427ee9e64a5a38cbdbee556e1f4f1bb97c92e92946bc7676023ae53740f",
+    "proposal_validation.json": "8ff9fcd9aa8ed158e6eb58e7f7c01f312e8ea7bd6e731c64ead5655f7c4783de",
+    "tool_calls.json": "3e56bcdc52c90d6353124ae8ec593bf884d4f5446516f8c1f4ebfac3a2d21e5a",
+    "session.json": "f039e20a3e84661b28cd4487a420cc055e7b46455ca047d4f623f6a02ff78b24",
+    "session.events.jsonl": "d6ce8c337e0f01ab9974a09af53ae738e93701ebf0e5cbcdeb114f4f648c1c2c"
+  }
+}

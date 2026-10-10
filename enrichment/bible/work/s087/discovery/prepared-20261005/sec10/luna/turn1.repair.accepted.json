@@ -1,0 +1,37 @@
+{
+  "policy": "bible-first-turn-repair-v1",
+  "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+  "tool_audit_reviewed": true,
+  "accepted_at": "2026-10-05T19:04:52.314957+00:00",
+  "changes": [
+    {
+      "line": 25,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Dan.4.37",
+        "pride humbled, heavenly king praised",
+        "The commentary opposes God’s true highness to a creature’s arrogance; Nebuchadnezzar honors the King of heaven and concludes that those who walk in pride God is able to humble."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Dan.4.34",
+        "pride humbled, heavenly king praised",
+        "The commentary opposes God’s true highness to a creature’s arrogance; Nebuchadnezzar honors the King of heaven and concludes that those who walk in pride God is able to humble."
+      ],
+      "reason": "Use WLC numbering for Nebuchadnezzar praising the heavenly king who humbles the proud; English 4:37 corresponds to WLC 4:34."
+    }
+  ],
+  "model_calls": 0,
+  "artifacts": {
+    "turn1.original.tsv": "f1d8bfd31c4ab180499e59a3e90808e521b72526f8f73b41fefd49f2c2425fd1",
+    "turn1.validation.failed.json": "4f9e6d9e1ccc723a846fe6e9b0c0ba3d0fb71d596e94cd2005263a6422054fac",
+    "turn1.tool_calls.json": "addbc2c80fc78b1bdddbd2e71d7fb527cd6c38af9800efbed5d3c78b98104c60",
+    "turn1.repair.proposed.json": "c7b2bf46b575fe51d0f7cebf69a2fd31d8ad582eeb064a92a24a94b70dbd1c7d",
+    "turn1.repair.proposed.tsv": "dba9f782aa6f2032a8d4e697aeeda8e42dc5737314b4588b46d9d494a58f3e66",
+    "turn1.accepted.tsv": "dba9f782aa6f2032a8d4e697aeeda8e42dc5737314b4588b46d9d494a58f3e66"
+  }
+}

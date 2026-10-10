@@ -1,0 +1,14 @@
+{
+  "turn": 1,
+  "returncode": 0,
+  "completed": true,
+  "thread_id": "01a11f23-022a-7153-8abf-88867b9897d1",
+  "usage": {
+    "input_tokens": 419601,
+    "cached_input_tokens": 379008,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 21016,
+    "reasoning_output_tokens": 8958
+  },
+  "stderr": "2026-10-09T05:29:22.747514Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: IO error: invalid peer certificate: UnknownIssuer, url: wss://chatgpt.com/backend-api/codex/responses\n2026-10-09T05:34:21.781757Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/discovery/s103-20261009/sec1/sol/list.tsv:\nmedium\tincil\tmotif\tSBLGNT:Mal.3.16\tPlaceholder\tPlaceholder\n"
+}

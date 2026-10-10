@@ -1,0 +1,1776 @@
+{
+  "target": "87:7",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/87_7.md",
+  "base_sha256": "ca49f9bdf5b8b52b12108d413fb69bb80b866437e92b77b18ce48ebd3b91b286",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:22:04.637396-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_87_7_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "10a657162f449c10e8e28e72680ebfcdaea4b922ec32a55e35f1731770f17673",
+  "package_sha256": "e7444fdd71e68e65cfe1a422d8466da897419919135130fde3e64dcb3e72dc61",
+  "input_sha256": "918cb55cdd12355ae023b06e23a4f5a8de1db5a52e5fe1480094a041d3c73324",
+  "spawn_sha256": "405a5229a44b16d13ab7bf49ca2ff439b5b894e34a613b9c50677f4b2cf1a212",
+  "followup_text_sha256": "96f2ec26a91e61959100a9fe5f49fd30e58e00f6d63336ac9a94740ceee4472e",
+  "agent_id": "01a10d1f-e4d9-74d0-8d60-1bf8940bba94",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-32-36-01a10d1f-e4d9-74d0-8d60-1bf8940bba94.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 84,
+  "turn1_sha256": "3899ad04ddd981284c15add0b8a70c5351bd402cabc2ec2a1c6455e61bf99658",
+  "turn2": {
+    "completed": true,
+    "rows_total": 124,
+    "rows_added": 40
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_J1L8svK9bCw0CCCfpqlBaNFm",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_J1L8svK9bCw0CCCfpqlBaNFm",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_J1L8svK9bCw0CCCfpqlBaNFm",
+      "message": "apply_patch verification failed: invalid hunk at line 31, 'derinlik, yürek ve gizli izler\tYorumun gizliyi bilip açığa çıkaran Rab tasviri için Sirak Tanrı'nın derinliği ve insan yüreğini araştırdığını, gizli şeylerin izlerini açtığını ve hiçbir sözün ondan saklı olmadığını söyler. Bilme, gizli ve söz aynı pasajda birleşir.' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'"
+    },
+    {
+      "call_id": "call_azlCu3M1FZozVaTTTEROb07j",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_azlCu3M1FZozVaTTTEROb07j",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_azlCu3M1FZozVaTTTEROb07j",
+      "message": "apply_patch verification failed: invalid hunk at line 51, 'tıkanmış kuyuların yeniden kazılması\tYorum, çamurun örttüğü kuyudan suyun yeniden görünmesini unutma ve hatırlama için imge yapar; İshak Filistlilerin kapattığı su kuyularını yeniden kazar. Örtülmüş suyun insan eliyle tekrar açılması aynı somut sahnedir.' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'"
+    }
+  ],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 84,
+    "raw_proposal_rows": 40,
+    "unique_additions": 40,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.21",
+          "basis": "unutulmayan şarkı ve bilen Rab",
+          "note": "Yorumun korunmuş okuma vaadine karşılık Musa'nın şarkısının kuşakların ağzından unutulmayacağı söylenir; aynı ayet Rabbin İsrail'in iç eğilimini önceden bildiğini ekler. Belleğin elde tutuluşunu bilen Tanrı'nın sözü olarak okur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.14.26",
+          "basis": "öğretiyi hatırlatan ilahî yardımcı",
+          "note": "Yorum, okutulan sözün Peygamberin bağımsız malı olmadığını vurgular; İsa burada Yardımcı'nın öğrencilerine söylediği her şeyi hatırlatacağını vaat eder. İki metin de öğretiyi hatırda tutmayı yalnız insan çabasına bırakmaz."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Nedarim 38a",
+          "basis": "Musa'nın unutup armağan edilen Tora'sı",
+          "note": "Yorumdaki unutmayışın verilmiş armağan oluşuna karşılık bu rabbanî anlatı Musa'nın Tora'yı öğrenip unuttuğunu, sonra ona armağan edildiğini söyler. Vahiy belleğinin verende kaldığı fikrine çok yakın bir Yahudi okuma sunar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "4 Ezra 14:38–48",
+          "basis": "iç anlayışın artması ve kayıp kitapların yazılması",
+          "note": "Yorum, unutulmuş vahyin bilen dileyen tarafından yeniden çıkarılabileceği imgesini kurar; Ezra esinli kâseden sonra anlayışının çoğaldığını ve kaybolan yasayı yeniden yazdırdığını anlatır. Kayıp yazının ilahî bağışla geri gelmesi somut bir eşliktir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.19",
+          "basis": "şarkıyı yazmak, öğretmek, ağızlara koymak",
+          "note": "Yorumun okutma ve hatırda tutma sahnesine karşılık bu ayet Musa'ya şarkıyı yazmasını, İsrail'e öğretmesini ve onların ağzına koymasını buyurur. Yazı, öğretim ve sesli tekrar vahyin kalıcılığını birlikte taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.6",
+          "basis": "buyrukların yürekte bulunması",
+          "note": "Yorumdaki göğüste toplanan, henüz dile gelmeyen söz için bu ayet buyrukların yürek üzerinde olmasını ister. Dış ses ile içte korunan söz arasındaki ayrım için doğrudan bir Tora karşılığı verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.11",
+          "basis": "yürekte saklanan söz",
+          "note": "Yorum, gizli kalanın hafızadan kaybolsa bile bilenin bilgisinden kaybolmadığını söyler; mezmurcu günaha düşmemek için Tanrı sözünü yüreğinde sakladığını söyler. Buradaki saklama unutmaya değil, sözün içte muhafazasına hizmet eder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.33",
+          "basis": "Tora'nın içe yazılması",
+          "note": "Yorumda okutulan söz göğüste duran bir şeydir; Yeremya'nın yeni antlaşma vaadinde Tanrı Tora'sını insanların içine koyup yüreklerine yazar. Vahyin kalıcılığını dış metinden iç belleğe taşıyan belirli bir imgedir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.3.3",
+          "basis": "taş levha yerine yürek levhası",
+          "note": "Yorumun verilmiş okuma ve içte tutulan sözüne karşılık Pavlus, Mesih'in mektubunun mürekkeple değil Ruh'la insan yüreklerinin levhalarına yazıldığını söyler. Yazı ile iç hafızayı aynı sahnede birleştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.16",
+          "basis": "sözün içte zengin biçimde ikamet etmesi",
+          "note": "Yorum, yüksek sesli okuma ile göğüste tutulan sözü birlikte duyar; bu ayet Mesih'in sözünün inanlılarda zengin biçimde yaşamasını, öğretme ve mezmurla söylemeyi ister. İçte yerleşen sözün yeniden ses olması belirgindir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.17.14",
+          "basis": "yazılan anı ve silinecek hatıra",
+          "note": "Yorumdaki dileyenin bazı şeyi unutturma ya da yerinde bırakma yetkisine karşılık Rab bu ayette savaşı kitapta anı olarak yazdırır ve Amalek'in hatırasını silmeyi bildirir. Aynı cümlede kayıt, kulakla tekrar ve ilahî silme yan yanadır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Jer.36.28",
+          "basis": "yanan tomarın yeniden yazılması",
+          "note": "Yorum, vahyin dileyenin elinde kalabileceğini ya da kaldırılabileceğini tartışır; Yeremya'da kralın yaktığı ilk tomardaki sözlerin başka bir tomar üzerine yeniden yazılması emredilir. İnsan yok edişi karşısında Tanrı sözü geri getirir ve metnin sahibi olarak kalır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.29.28",
+          "basis": "Tanrı'ya ait gizli, insana ait açıklanmış şeyler",
+          "note": "Yorum, gizli olanı yalnız Rabbin bildiğini ve kula verilmiş bilginin sınırını işler; bu ayet gizli şeyleri Tanrı'ya, açıklanmış olanları ise Tora'yı yapmak üzere insana verir. Bilgi ile sorumluluğun sınırını keskinleştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.2.22",
+          "basis": "derin ve gizli şeyleri bilen ve açan Tanrı",
+          "note": "Yorum, gizliyi bilenin onu toprak üstüne çıkarabileceği imgesini kurar; Daniel Tanrısı derin ve gizli şeyleri açan, karanlıkta olanı bilen olarak över. Bilmek ile gizliyi açmanın aynı özneye bağlanması doğrudandır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.4",
+          "basis": "dile gelmeden bilinen söz",
+          "note": "Yorumun cehr ile göğüste kalan söz ayrımına karşılık mezmur, dilde bir söz daha yokken Rabbin onu bütünüyle bildiğini söyler. Açık ses doğmadan önceki iç sözün bilinmesi ayetin ikiliğini özellikle karşılar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.2",
+          "basis": "iç düşünceyi uzaktan bilmek",
+          "note": "Yorum, insanın kendisine bile gizli kalabilen iç katmandan söz eder; mezmur Tanrı'nın oturup kalkmayı ve düşünceyi uzaktan ayırt ettiğini söyler. Gizli olanın kişiye ait iç hareket olması bakımından belirli bir eşliktir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.12",
+          "basis": "karanlığın Tanrı için gün gibi olması",
+          "note": "Yorumda gece saklanmaya, gündüz açıklığa bağlanır ama bilen için ikisi birdir; mezmurda karanlığın Tanrı'dan gizlemediği ve gecenin gün gibi aydınlık olduğu söylenir. Gün-gece karşıtlığını ilahî bilgi karşısında etkisizleştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.44.22",
+          "basis": "unutma, gizli yürek ve Tanrı'nın araştırması",
+          "note": "Yorum insanın unutmasıyla Rabbin unutmamasını birleştirir; mezmur, halk başka ilahı unutmuş ya da gizlice ellerini açmış olsaydı Tanrı'nın bunu araştıracağını, yüreğin gizlerini bildiğini söyler. Unutma, ibadet ve iç sır aynı bağlamda buluşur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.16.7",
+          "basis": "dış görünüş ve yüreğe bakan Rab",
+          "note": "Yorum, açık işaretle tanınan şey ile izi olmayan gizliyi Rabbin eşitçe bildiğini söyler; Samuel anlatısında insan gözle görüneni görürken Rab yüreği görür. Dışarıdaki görünüş ile gizli iç arasındaki karşıtlık aynıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.8.39",
+          "basis": "bütün insanların yüreğini yalnız Tanrı'nın bilmesi",
+          "note": "Yorumun göğüste gizlenen sözüne karşılık Süleyman, her insanın yüreğini yalnız Tanrı'nın bildiğini dua içinde söyler. Bilginin yalnız ilahî özneye ait oluşunu ibadet bağlamına taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.17.10",
+          "basis": "yüreği araştıran ve içi sınayan Rab",
+          "note": "Yorumda açık söz ile içte kalan söz Tanrı'nın gözünden kaçmaz; Yeremya'da Rab yüreği araştırıp içi sınayarak herkese yoluna göre karşılık verir. Gizli iç bilginin ahlâkî sonucu bu metinde açılır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.8",
+          "basis": "gizli suçların yüzün ışığında durması",
+          "note": "Yorumun gizli olan ile gözü kamaştıran gün ışığı uçları için mezmur gizli suçları Tanrı'nın yüzünün ışığı önüne koyar. Saklı iç durumun ilahî ışıkta açık oluşunu somutlaştırır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.23.24",
+          "basis": "saklanacak yer bulunmaması",
+          "note": "Yorum, gizli kalan şeyin bilenin bilgisinden kaybolamayacağını söyler; Yeremya'da hiç kimsenin Rabbin görmeyeceği gizli bir yere saklanamayacağı ilan edilir. Gizliliğin mekânsal biçimini ele alır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.29.15",
+          "basis": "karanlıkta saklanan tasarıyı gören Rab",
+          "note": "Yorumdaki insanın gizlediği ya da kendinden bile saklı iç söz için İşaya, tasarısını Rabden derine saklayan ve karanlıkta iş görenleri anlatır. Metin onların “kim görüyor” sorusunu ilahî bilginin karşısına koyar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.34.22",
+          "basis": "gizlenmeye izin vermeyen karanlık",
+          "note": "Yorumun gece saklanma imgesi için Eyüp, kötülük işleyenin saklanabileceği koyu karanlık olmadığını söyler. Karanlık mekânının bile Tanrı bilgisinden kaçış sağlamaması belirli bir karşılıktır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.14",
+          "basis": "gizli her işin yargıya getirilmesi",
+          "note": "Yorum, ortaya çıkma gününde gizli hiçbir şeyin saklı kalmadığını anlatır; Vaiz Tanrı'nın iyi ya da kötü her gizli işi yargıya getireceğini söyler. Gizlinin eskatolojik açılması bakımından yakın bir motiftir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom 1:6",
+          "basis": "yüreğin gözlemcisi ve dilin dinleyicisi",
+          "note": "Yorum, yüksek sesle söylenen ile göğüste kalan şeyin birlikte bilindiğini söyler; Bilgelik kitabı Tanrı'yı iç duyguların tanığı, yüreğin gerçek gözlemcisi ve dilin dinleyicisi diye niteler. İç ile sesli sözün iki tarafını da açıkça taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 42:18–20",
+          "basis": "derinlik, yürek ve gizli izler",
+          "note": "Yorumun gizliyi bilip açığa çıkaran Rab tasviri için Sirak Tanrı'nın derinliği ve insan yüreğini araştırdığını, gizli şeylerin izlerini açtığını ve hiçbir sözün ondan saklı olmadığını söyler. Bilme, gizli ve söz aynı pasajda birleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.13",
+          "basis": "Tanrı önünde bütünüyle açık yaratık",
+          "note": "Yorumda gizli kalan bilen için saklı değildir; İbraniler hiçbir yaratığın Tanrı'nın gözünden gizli olmadığını, her şeyin onun önünde açık bulunduğunu söyler. Ayetin açık-gizli karşıtını en doğrudan biçimde yankılar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.4.5",
+          "basis": "karanlıkta saklananı ışığa çıkarma",
+          "note": "Yorum, gizli kalanın bilen dilediğinde yeniden görünür olabileceği yönünü işler; Pavlus Rabbin karanlıktaki gizli şeyleri ışığa çıkarıp yüreklerin amaçlarını açacağını söyler. Gizli ile açık arasındaki geçişe yargı ufku ekler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.2.25",
+          "basis": "insanın içinde olanı bilmek",
+          "note": "Yorumun insanın farkına varmadığı içteki şeyin de bilindiği iddiasına karşılık Yuhanna, İsa'nın insan hakkında tanıklığa ihtiyaç duymadığını, insanın içinde ne olduğunu bildiğini söyler. İç bilgi burada anlatıdaki İsa'ya yüklenir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.1.24",
+          "basis": "bütün yüreklerin bilicisi diye dua",
+          "note": "Yorum, bilen Rab adını kulluk ve dua ile bağlar; havariler seçim duasında Rabbe bütün yürekleri bilen diye seslenir. İlâhî iç bilgi doğrudan ibadet içindeki hitap olur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.2.23",
+          "basis": "yürekleri ve zihinleri araştıran Mesih",
+          "note": "Yorum, göğüste gizleneni bilenin herkese durumuna göre karşılık verdiğini söyler; Vahiy'de Mesih zihinleri ve yürekleri araştırdığını, herkese işine göre vereceğini bildirir. Gizli iç ile hesap arasındaki bağı sürdürür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.15",
+          "basis": "gelecek sözünü Rabbin dilemesine bağlamak",
+          "note": "Yorum, insanın yarın için konuşurken “Allah dilerse” demesi ile 87:7'deki ilahî vaadin istisnasını karşılaştırır; Yakup gelecekte yaşayıp bir iş yapmayı “Rab dilerse” koşuluna bağlar. İnsan tasarısının dileyene bağlı oluşu aynıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.23.13",
+          "basis": "dilediğini yapan değişmez Tanrı",
+          "note": "Yorumda dileyen adsız kader değil, bilgisinin yanında anılan Rabdir; Eyüp Tanrı'nın istediğini yaptığını ve kimsenin onu döndüremediğini söyler. İlâhî istemenin kişisel failine yoğunlaşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.46.10",
+          "basis": "başlangıçtan sonu bildiren ve isteğini yapan Tanrı",
+          "note": "Yorum, dilemenin hemen yanında bilmenin gelmesini belirginleştirir; İşaya Tanrı'nın başlangıçtan sonu bildirdiğini, tasarısının ayakta kalacağını ve arzusunu gerçekleştireceğini söyler. Bilme ile isteme aynı ilahî beyan içinde durur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.1.11",
+          "basis": "iradesinin tasarısına göre her şeyi işleyen Tanrı",
+          "note": "Yorumdaki verilen hafızanın verende kalması için Efesliler, Tanrı'nın her şeyi iradesinin tasarısına göre işlediğini söyler. İlahî istemeyi rastgelelikten çıkarıp tasarıya bağlayan bir Hıristiyan formülüdür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.33.20",
+          "basis": "insanın Tanrı'nın yüzünü görememesi",
+          "note": "Yorum Musa'nın görme isteğinde insan gözünün sınırını dağın dayanamayışıyla anlatır; bu ayette Rab insanın yüzünü görüp yaşayamayacağını söyler. Aynı Musa geleneğinde görünürlük sınırı farklı sahne ayrıntılarıyla kurulur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Deut.4.12",
+          "basis": "ateşten gelen ses, görünmeyen biçim",
+          "note": "Yorum, açıkça görme isteğinin yıldırım ve görme sınırıyla karşılaşmasını işler; Horeb anlatısında İsrail ateşin içinden gelen sesi işitir fakat hiçbir biçim görmez. Görsel talep yerine işitilen vahyi öne çıkaran yakın bir karşı anlatıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.16",
+          "basis": "yaklaşılmaz ışık ve görülmeyen Tanrı",
+          "note": "Yorumun güneşin gözü kamaştırması ile insan görüşünün sınırı için bu ayet Tanrı'nın yaklaşılmaz ışıkta yaşadığını, onu hiçbir insanın görmediğini ya da göremeyeceğini söyler. Görünür ışık ile erişilemez ilahîlik arasındaki gerilimi taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.1.13",
+          "basis": "sessizce yürekten edilen dua",
+          "note": "Yorumdaki cehr ile içteki, duyulmayan ses ayrımına karşılık Hanna yüreğinde dua eder; dudakları oynar ama sesi işitilmez. Gizli sözün bedensel izi ile duyulmayan sesin ayrımı özellikle yakındır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.6",
+          "basis": "gizlide gören Baba'ya dua",
+          "note": "Yorum, açık sesin yanında en içteki gizli yakarışı işler; İsa dua edenin iç odaya girmesini ve gizlide gören Baba'ya yönelmesini ister. Gizli dua Tanrı'nın bilgisiyle ilişkilendirilir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.8",
+          "basis": "söylenmeden önce bilinen ihtiyaç",
+          "note": "Yorumda Rab açık sözü de gizli kalanı da bilir; İsa öğrencilerinin Baba'sının onlar istemeden önce neye ihtiyaçları olduğunu bildiğini söyler. Konuşmadan önceki iç gereksinim için belirli bir paraleldir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.1.13",
+          "basis": "Zekeriya'nın duyulan duası ve Yahya adı",
+          "note": "Yorum, Zekeriya'nın gizli çağrısını ve karşılığında Yahya adlı oğul müjdesini anımsatır; Luka'da meleğin Zekeriya'ya duasının duyulduğunu, Elisabet'in Yahya adlı bir oğul doğuracağını söylemesi aynı kişi ve sonuçları buluşturur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.22",
+          "basis": "gizlinin açığa çıkmak üzere saklanması",
+          "note": "Yorum, gizlilik kökünün açığa çıkarma yüzünü ve unutulanın yeniden ortaya çıkarılmasını işler; İsa gizli olanın görünür kılınmak, saklı olanın açığa çıkmak üzere bulunduğunu söyler. Gizli-açık geçişini doğrudan dile getirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.10.27",
+          "basis": "karanlıkta duyulanı ışıkta, fısıltıyı damda söylemek",
+          "note": "Yorum, içten ve yüksek sesli okuma arasında geçiş düşünür; İsa karanlıkta söyleneni ışıkta, kulağa fısıldananı damlarda ilan etmeyi buyurur. Gizli sesin kamusal söze dönüşmesi somut bir karşılıktır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.14.25",
+          "basis": "yüreğin gizlerinin açılması",
+          "note": "Yorumun gizli iç katmanın bilinip ortaya çıkması için Pavlus, peygamberlik karşısında dışarıdakinin yüreğinin gizlerinin açılacağını anlatır. Gizli olanın açılması ibadet meclisinde Tanrı'nın varlığına götürür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.26.18",
+          "basis": "tıkanmış kuyuların yeniden kazılması",
+          "note": "Yorum, çamurun örttüğü kuyudan suyun yeniden görünmesini unutma ve hatırlama için imge yapar; İshak Filistlilerin kapattığı su kuyularını yeniden kazar. Örtülmüş suyun insan eliyle tekrar açılması aynı somut sahnedir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.21.19",
+          "basis": "açılan göz ve görünen su kuyusu",
+          "note": "Yorumda gizli kalan şey bilen dilediğinde yer üstüne çıkar; Hacer'in gözlerini Tanrı açınca önünde bir su kuyusu görür. Kuyunun var olduğu hâlde görülmez oluşu ve görmeye açılması özellikle yakındır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.2",
+          "basis": "öğretiyi yağmur ve otla anlatmak",
+          "note": "Yorum, okutulan söz ile surenin yağmurdan ota uzanan sahnesini birlikte okur; Musa öğretisinin yağmur gibi damlamasını, çimen üstündeki sağanak gibi inmesini diler. Söz, ses ve otlak imgesini aynı ayette bağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.11",
+          "basis": "Tanrı sözünün isteğini gerçekleştirmesi",
+          "note": "Yorum, ilahî dilemenin okunan sözü yerinde tutan ve sonucunu bilen fail olduğunu söyler; İşaya Tanrı'nın ağzından çıkan sözün boş dönmeyeceğini, istediğini yapacağını bildirir. Sözün kalıcılığı ile ilahî isteme birleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.16",
+          "basis": "Rab önünde anma kitabı ve adı sayanlar",
+          "note": "Yorum, anma ile unutmamayı Rabbin adı ve kullukla bağlar; Malaki'de Rabden korkup adı üzerine düşünenlerin konuşmaları işitilir ve önünde bir anma kitabı yazılır. Ses, ad, korku ve ilahî hatırlama aynı sahnede buluşur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.8",
+          "basis": "başkasıyla paylaşılmayan ilahî ad",
+          "note": "Yorum, surede tek geçen Allah adının kulluk edilen ve adaşı olmayan sahibini işaretlediğini söyler; İşaya'da Rab kendi adını bildirir ve yüceliğini başkasına vermeyeceğini ilan eder. Özel ad ile eşsiz ibadet hakkı arasındaki bağı taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.3.15",
+          "basis": "isim ve kuşaklar boyunca anılma",
+          "note": "Yorum, Allah adını unutma-hatırlama sınırının sahibine bağlar; Musa'ya açıklanan ad için “bu benim adım” ve “kuşaklar boyunca anılışım” denir. İlâhî adın ibadet eden topluluğun hatırlamasında kalışını ekler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Deut.4.9",
+          "basis": "unutmama buyruğu ve insan görevi",
+          "note": "Yorum, 87:6'daki unutmayışı emir değil Peygambere verilmiş haber sayar; Tesniye İsrail'e gördüklerini unutmaması ve çocuklarına öğretmesi için kendini koruma buyruğu verir. Aynı bellek alanında vaat ile insan sorumluluğunun farkını görünür kılar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 3:8",
+          "basis": "öğrenilen Tora'yı unutmanın sorumluluğu",
+          "note": "Yorum, Peygambere “unutma” görevi yüklenmediğini özellikle belirtir; Avot, öğreniminden bir sözü unutanı Tesniye'nin uyarısıyla ağır biçimde sorumlu tutar ve zorlayıcı koşulları ayırır. Unutmayı hukukî-ahlâkî yükümlülük olarak okur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Temurah 16a",
+          "basis": "Musa'dan sonra unutulan hükümler",
+          "note": "Yorumun unutulanın geri getirilebilmesi imgesi için bu Talmud anlatısı Musa'nın ölümünden sonra binlerce hükmün unutulduğunu ve Otniel'in bunları yorum yoluyla geri getirdiğini anlatır. Korunan vahiy vaadinden farklı olarak toplumsal belleğin kırılganlığını gösterir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.34.1",
+          "basis": "kırılmış levhalardaki sözlerin yeniden yazılması",
+          "note": "Yorum, verilen vahyin dileyenin elinde kalışını ve değişme ihtimalini tartışır; Rab Musa'ya ilk kırılan levhalardaki sözleri yeniden yazacağını söyler. Kaybolan maddî yazının ilahî iradeyle yenilenmesi yakın bir metin sahnesidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "4 Ezra 14:21–22",
+          "basis": "yanmış yasa ve yeniden yazma dileği",
+          "note": "Yorumdaki vahyin alınması korkusuna karşılık Ezra, yasanın yakıldığını ve bu yüzden geçmişi bilen kalmadığını söyler; sonra yazabilmek için Tanrı'dan Ruh ister. Metin kaybını ilahî yardım talebine bağlayan apokaliptik karşılıktır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.22.8",
+          "basis": "Tapınakta bulunan yasa kitabı",
+          "note": "Yorum, unutulanın gizli bir yerde kalıp sonra ortaya çıkmasına kuyu imgesiyle yaklaşır; Hilkiya tapınakta yasa kitabını bulur ve onu Şafan'a verir. Saklı metnin yeniden bulunması bu imgeye tarihsel anlatı biçimi verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.49.15",
+          "basis": "insanın unutması ve Tanrı'nın unutmaması",
+          "note": "Yorum insanın unutmasına karşı Rabbin unutkan olmadığını söyler; İşaya emziren annenin bile unutabileceğini ama Tanrı'nın Siyon'u unutmayacağını bildirir. İnsan belleğinin kırılganlığı ile ilahî sadakati karşı karşıya getirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.21",
+          "basis": "Tanrı tarafından unutulmayan kul",
+          "note": "Yorumda hafıza kulun mülkü değil verende duran bir bağıştır; İşaya'da Tanrı biçim verdiği İsrail'e kendisi tarafından unutulmayacağını söyler. Unutmamanın öznesini insan değil Tanrı yapar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.1.15",
+          "basis": "ayrılıktan sonra da hatırlatmayı sağlamak",
+          "note": "Yorumun hatırlatmanın korunmuş sözle ilişkisi için mektup yazarı, ölümünden sonra okuyucuların bu şeyleri her zaman hatırlayabilmesi için çaba göstereceğini söyler. İlâhî garanti yerine yazılı-apostolik bellek tedbiri koyar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.8.10",
+          "basis": "Yeremya'nın yürek yasasını yeni antlaşma diye okumak",
+          "note": "Yorum, okunmuş sözün göğüste durduğunu söyler; İbraniler Yeremya'nın yasayı zihne koyma ve yüreğe yazma vaadini yeni antlaşmanın açıklaması olarak aktarır. Yahudi içe yazılma imgesinin Hıristiyan alımlamasını gösterir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom 9:13",
+          "basis": "insanın Rabbin tasarısını bilememesi",
+          "note": "Yorum, dilemenin hemen ardından insan bilgisinin sınırını vurgular; Bilgelik kitabı Tanrı'nın tasarısını ya da Rabbin ne istediğini kimin bilebileceğini sorar. İnsan isteği ve bilgisi karşısında ilahî dilemenin kapalılığını belirginleştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.9",
+          "basis": "insan tasarısı ve Rabbin yönelttiği adım",
+          "note": "Yorum, insanın kendi yarını için verdiği sözü Allah'ın dilemesine bağlar; Özdeyişler insanın yolunu yüreğinde tasarladığını, fakat adımlarını Rabbin yönelttiğini söyler. Yakup'taki “Rab dilerse” formülünün İbrani hikmetteki karşılığıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.9.18",
+          "basis": "merhamet ve katılığın ilahî isteme altında olması",
+          "note": "Yorum, istisnanın dileyen Rabbe ait olduğunu ve istemenin kişisiz kader olmadığını vurgular; Pavlus Tanrı'nın dilediğine merhamet edip dilediğini katılaştırdığını söyler. İlahî istemeyi insan kaderi tartışmasının içine taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.20.18",
+          "basis": "şimşek karşısında titreyen halk",
+          "note": "Yorum, Musa topluluğunun açıkça görme isteğinin yıldırımla karşılaşmasını anlatır; Sina'da halk gök gürültülerini, şimşekleri, boru sesini ve dumanlı dağı görüp titrer. Görünür teofani ile insan korkusunun ortak sahnesidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Deut.4.33",
+          "basis": "ateşten konuşan Tanrı'yı duyup sağ kalmak",
+          "note": "Yorum, açıklık talebinin insan için yıkıcı sınırını yıldırımla anlatır; Tesniye ateşin içinden konuşan yaşayan Tanrı'nın sesini işitip hayatta kalan halkı benzersiz sayar. Tehlikeli karşılaşma burada görmeden çok işitme üzerinden kurulur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 31a",
+          "basis": "Hanna'nın sessiz duasından dua kuralı",
+          "note": "Yorum, cehrin karşısında sesi kısılmış ve içte kalan duayı ayrıştırır; Berakhot Hanna'nın dudakları oynayıp sesi duyulmamasından, duada dudakların hareket etmesi gerektiği hükmünü çıkarır. Sessizlik ile işitilebilir ses arasını rabbanî ibadet pratiğiyle doldurur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 7a",
+          "basis": "Musa'ya gösterilen ilahî “arka” yorumu",
+          "note": "Yorum Musa'nın görmek isteğinde gözün sınırını işler; bu sugyada “arkamı göreceksin” sözü Tanrı'nın tefillin düğümünü Musa'ya göstermesi diye yorumlanır. Görünmeyen ilahîliğin litürjik bir işaretle dolaylı görünürlüğe çevrilmesi yorum farkı getirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.8.12",
+          "basis": "Rabbin koyu karanlıkta ikamet etmesi",
+          "note": "Yorum, gözün yakalayamadığı gizli ışık ve görünmenin sınırını işler; Süleyman Rabbin koyu karanlıkta ikamet edeceğini söylediğini ilan eder. İlâhî mevcudiyetin açıklık yerine örtüyle tasvir edilmesini ekler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.1.18",
+          "basis": "görülmeyen Tanrı'nın Oğul tarafından açıklanması",
+          "note": "Yorum Musa sahnesinde Tanrı'nın görülme sınırını korur; Yuhanna hiç kimsenin Tanrı'yı görmediğini, Baba'nın bağrındaki biricik Oğul'un onu açıkladığını söyler. Hıristiyan metin görünmezliği korurken açıklamayı Mesih'e bağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.19.15",
+          "basis": "ağzın sözleri ve yüreğin düşüncesi",
+          "note": "Yorum açık ses ile göğüste kalan sözü ayırır; bu mezmur ağızdan çıkan sözlerin ve yüreğin iç düşüncesinin Rabbin önünde kabul edilmesini diler. İbadetteki iki dereceli söyleyişi tek dua cümlesinde buluşturur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.10",
+          "basis": "yağmurun toprağı sulayıp filiz vermesi",
+          "note": "Yorum surenin yağmur, bulut ve kararan ot sahnesini okuma ve bilmeyle bağlar; İşaya gökten inen yağmurun toprağı sulayıp filiz, tohum ve ekmek verdiğini anlatır. İlahî söz benzetmesinin zeminindeki su-ot döngüsünü sağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.4.14",
+          "basis": "içte fışkıran su kaynağı",
+          "note": "Yorum, göğüste duran söz için çamur altındaki kuyu ve tükenmeyen su imgesi kurar; İsa'nın verdiği su içende sonsuz yaşama fışkıran bir kaynak olur. İçte saklı duran ve dışarı taşan su imgesi belirli bir Hıristiyan karşılığıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.27",
+          "basis": "bilinmeyen gizli büyüme",
+          "note": "Yorum, insanın kendisine bile gizli kalan şeyi Tanrı'nın bildiğini vurgular; tohum benzetmesinde ekinci uyurken tohum filizlenip büyür, nasıl olduğunu kendisi bilmez. Gizli süreç ile sınırlı insan bilgisi arasında somut köprü kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.43.25",
+          "basis": "Tanrı'nın dileyerek günahı anmaması",
+          "note": "Yorum, istisnanın bazı şeyi ilahî isteme altında unutturabilmesini tartışır; İşaya Tanrı'nın günahları kendi uğruna silip onları anmayacağını söyler. Unutmanın vahiy değil suç bağlamındaki seçici ilahî biçimini ayırt etmeyi sağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.10.17",
+          "basis": "Yeremya'nın günahları anmama sözünün alımlanması",
+          "note": "Yorum, unutmanın rahmetle ve kayıpla farklı sonuçlar doğurabileceğini işler; İbraniler Yeremya'nın günahları ve yasasızlıkları artık anmama sözünü Mesih'in tek kurbanı bağlamında aktarır. İlâhî hatırlamamanın Hıristiyan yorumdaki işlevini gösterir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.3.5",
+          "basis": "hayat kitabından adı silmeme",
+          "note": "Yorumda hatırda kalmak insan hakkı değil ilahî iradeye bağlıdır; Vahiy galibin adını hayat kitabından asla silmeyeceğini vaat eder. İlahî kayıt ve korunmuş ad imgesini eskatolojik biçimde sunar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.32.15",
+          "basis": "Allah adı ile İbranice Eloah",
+          "note": "Yorum Allah adını kulluk edilen özel ad olarak öne çıkarır; bu ayetteki İbranice Eloah, Arapça Allah ile aynı Sami ad ailesindendir ve yaratıcı Tanrı'nın terk edilmesini anlatır. Yakın dilsel adı somut bir Tora kullanımında gösterir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.2.10",
+          "basis": "Ruh aracılığıyla açılan Tanrı derinlikleri",
+          "note": "Yorum, gizliyi bilenin bazı bilgiyi elçisine açmasını vurgular; Pavlus Tanrı'nın daha önce gizli olan bilgeliği Ruh aracılığıyla açtığını ve Ruh'un Tanrı'nın derinliklerini araştırdığını söyler. Gizli bilginin seçilmiş açıklanması için Hıristiyan karşılıktır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.1.26",
+          "basis": "çağlar boyunca saklı gizemin açılması",
+          "note": "Yorumdaki gizli kalan ile yeniden görünür olma yönüne karşılık Pavlus çağlar ve kuşaklar boyunca gizlenmiş gizemin şimdi kutsallara açıklandığını söyler. Gizliliğin tarih içinde vahiy yoluyla kaldırılmasını anlatır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.16",
+          "basis": "insanların gizli şeylerinin yargılanması",
+          "note": "Yorum, ortaya çıkma gününde gizli hiçbir şeyin saklı kalmadığını söyler; Pavlus Tanrı'nın insanların gizli şeylerini Mesih aracılığıyla yargılayacağı günü bildirir. Gizli içeriği son hesapta görünür ve sorumlu kılar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.18.18",
+          "basis": "peygamberin ağzına konan söz",
+          "note": "Yorumda okutulan ve unutmayışı vaat edilen söz verende kalır; Tesniye'de Rab, peygamber için kendi sözlerini onun ağzına koyacağını bildirir. Vahyin konuşanın kişisel mülkü olmadığını aynı ağız imgesiyle kurar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.4.12",
+          "basis": "ağızla birlikte olan ve söylemeyi öğreten Tanrı",
+          "note": "Yorum, Peygambere okumanın emredilmiş bir görevden çok verilmiş bir vaat olduğunu söyler; Musa'ya Rab ağzıyla birlikte olacağını ve ne söyleyeceğini öğreteceğini vaat eder. Konuşma yetisinin ilahî öğretime bağlılığı doğrudandır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.1.9",
+          "basis": "Yeremya'nın ağzına dokunup söz koymak",
+          "note": "Yorumun göğüste tutulan ama dileyenin elinde kalan vahiy tasvirine karşılık Rab, Yeremya'nın ağzına dokunarak sözlerini onun ağzına koyduğunu söyler. İlâhî sözün peygamberin söyleyişine verilmesini somut bir çağrı sahnesiyle gösterir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.59.21",
+          "basis": "ağızdan ayrılmayan söz",
+          "note": "Yorumdaki unutmayış vaadine karşılık İşaya, Rabbin koyduğu sözlerin peygamberin, soyunun ve soyunun soyunun ağzından ayrılmayacağını bildirir. Sözün kuşaklar boyunca muhafazası özellikle yakındır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.14",
+          "basis": "ağızda ve yürekte çok yakın söz",
+          "note": "Yorum, açık ses ile göğüste korunan sözü ayırır; Tesniye sözü yapmak için insanın ağzına ve yüreğine çok yakın sayar. Aynı vahyi iç hafıza ve söylenen söz olarak iki yerde tutar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.3.7",
+          "basis": "gizli tasarının peygamberlere açılması",
+          "note": "Yorum, gaybı yalnız Rabbin bildiğini ve elçilerinden dilediğine bildirdiğini vurgular; Amos Rabbin işini kulları peygamberlere sırrını açmadan yapmayacağını söyler. Seçilmiş elçiye sınırlı açıklama motifi doğrudandır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.18.17",
+          "basis": "İbrahim'den saklanmayan ilahî iş",
+          "note": "Yorumda gizliyi bilen Rab dilerse onu açığa çıkarır; Sodom bağlamında Rab yapacağı şeyi İbrahim'den gizleyip gizlemeyeceğini sorar. Gizli ilahî kararın seçilmiş bir muhataba bildirilmesi için anlatısal bir eşliktir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.33.3",
+          "basis": "bilinmeyen gizli şeyleri bildirme",
+          "note": "Yorum, insanın ulaşamadığı bilgiyi bilen Rabbe bağlar; Yeremya'ya Rabbe seslenmesi ve bilmediği büyük, erişilmez şeylerin kendisine bildirilmesi söylenir. Gizli bilginin dua üzerine açılması belirgindir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.8.16",
+          "basis": "tanıklığı bağlamak, Tora'yı öğrenciler arasında mühürlemek",
+          "note": "Yorum, vahyin korunması ile dileyenin onu saklı tutabilmesi arasındaki sınırı işler; İşaya tanıklığın bağlanmasını ve Tora'nın öğrenciler arasında mühürlenmesini buyurur. Açıklanmış sözün belli bir çevrede saklanması ayrı bir metinsel sahnedir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.4",
+          "basis": "sözleri kapatıp kitabı mühürlemek",
+          "note": "Yorumdaki istisna, verilmiş vahyin ilahî denetim altında kalmasını anlatır; Daniel'e sözleri kapatması ve kitabı son vakte dek mühürlemesi emredilir. İşitilmiş-yazılmış şeyin geçici olarak gizlenmesi bakımından güçlü bir karşılıktır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.2",
+          "basis": "görünenin yazılıp okunur kılınması",
+          "note": "Yorumun okutma, sözün kalması ve açık olma eksenine karşılık Rab, Habakkuk'a görümü yazıp levhalara açıkça kazımasını, okuyanın koşabilmesini buyurur. Görümün saklı tecrübeden kamusal ve kalıcı yazıya geçişini verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.3.3",
+          "basis": "yenilen tomarla içe alınan söz",
+          "note": "Yorum, okutulan sözün göğüste bir kuyu suyu gibi durması imgesini kurar; Hezekiel tomarı yiyip karnını doldurur ve söz ona bal gibi tatlı gelir. Vahyin dış nesneden içte tutulan şeye dönüşmesi somuttur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.15.16",
+          "basis": "bulunan ve yenilen Tanrı sözleri",
+          "note": "Yorum, gizli kalanın yeniden çıkarılmasını ve unutulan sözün içte kalmasını birlikte düşünür; Yeremya Tanrı'nın sözlerini bulup yediğini, onların yüreğine sevinç olduğunu söyler. Bulunma, içselleştirme ve peygamberlik kimliği aynı ayette birleşir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.28.11",
+          "basis": "saklı olanın ışığa çıkarılması",
+          "note": "Yorum, gizlilik kökünün örtüyü kaldırıp toprak altındakini çıkarma yüzünü açıkça işler; Eyüp'te madenci saklı olanı ışığa çıkarır. Yorumdaki kuyu ve yer altı imgesine belirli bir İbranice sahne ekler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.28.23",
+          "basis": "hikmetin yolunu ve yerini bilen Tanrı",
+          "note": "Yorum, insanın gizli süreçleri bilmemesine karşı Rabbin bilgisine dayanır; Eyüp hikmetin yolunu ve yerini Tanrı'nın anladığını söyler. Yer altından çıkarılan şeylerin ardından yalnız Tanrı'nın bilmesi temasını tamamlar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.20.5",
+          "basis": "yürekteki derin suyu dışarı çekmek",
+          "note": "Yorum, göğüste duran unutulmuş sözü çamur altındaki kuyuyla karşılaştırır; Özdeyişler insan yüreğindeki tasarıyı derin suya, anlayış sahibinin onu dışarı çekmesini de kuyudan su almaya benzetir. İç sır, kuyu ve açığa çıkarma aynı formülde birleşir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.45.3",
+          "basis": "karanlık hazineler, gizli servet ve çağıran ad",
+          "note": "Yorum, gizli olanın bilinebilmesini özel ilahî adla bağlar; İşaya karanlığın hazinelerini ve gizli yerlerin servetini verirken çağıranın Rab olduğunu bilmeyi amaçlar. Gizli-çıkarma-bilme-ad dizisini birleştirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:1Sam.1.19",
+          "basis": "Hanna'yı hatırlayan Rab",
+          "note": "Yorumun sessiz dua ile Rabbin unutmaması arasındaki bağ için Hanna'nın kocasıyla birlikte ibadetinden sonra Rabbin onu hatırladığı söylenir. Daha önceki sessiz dua sahnesine ilahî hatırlama ile verilen cevap eklenir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.29.3",
+          "basis": "kuyu ağzındaki taşın kaldırılması",
+          "note": "Yorum, çamurun örttüğü kuyudan suyun yeniden görünmesini hatırlama imgesine dönüştürür; Yakup anlatısında sürüler toplanınca kuyu ağzındaki taş yuvarlanır ve hayvanlar sulanır. Örtülü suya erişme sahnesi ayrı bir somut karşılıktır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.12.49",
+          "basis": "kendi adına konuşmayan elçi",
+          "note": "Yorum, Peygamberin bilgisi ve hafızasının kendine ait bağımsız güç olmadığını söyler; İsa, kendiliğinden konuşmadığını, Baba'nın ne söyleyeceğini buyurduğunu bildirir. Söylenen vahyin kaynağını konuşandan ayırır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.1.21",
+          "basis": "insan istemiyle gelmeyen peygamberlik",
+          "note": "Yorum, ilahî isteme ile elçiye verilen söz arasındaki bağı kurar; bu ayet peygamberliğin insan istemiyle gelmediğini, insanların Kutsal Ruh tarafından taşınarak Tanrı'dan konuştuklarını söyler. İstem, söz ve peygamberlik aynı formülde buluşur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.13.32",
+          "basis": "vakti yalnız Baba'nın bilmesi",
+          "note": "Yorum, Peygamberin gaybı bilmediği, bilenin Rab olduğu ayrımını özellikle geliştirir; İsa son günün saatini meleklerin ve Oğul'un değil yalnız Baba'nın bildiğini söyler. Elçinin bilgi sınırını ilahî bilgiyle karşılaştırır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.10.4",
+          "basis": "işitilen gök gürültülerini mühürleyip yazmamak",
+          "note": "Yorum, yüksek ses, gizli kalan söz ve vahyin ilahî denetimi üzerine durur; Yuhanna yedi gök gürültüsünün söylediklerini yazmak üzereyken onları mühürlemesi ve yazmaması emredilir. İşitilmiş sözün bilerek kapalı tutulmasına somut örnektir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.1.3",
+          "basis": "yüksek sesle okuyan, işiten ve tutan topluluk",
+          "note": "Yorumun okuma, hatırda tutma ve sesli ibadet hattına karşılık Vahiy okuyan, işiten ve onda yazılanı tutanları kutlar. Bir metnin kamusal ses, dinleme ve koruma yoluyla yaşamasını gösterir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.12.4",
+          "basis": "söylenmesi mümkün olmayan sözler",
+          "note": "Yorum, gizli olanın her zaman insan sesiyle açığa çıkmadığını ve bilgi sınırını işler; Pavlus cennette duyduğu, insanın söylemesine izin verilmeyen sözleri anlatır. İşitilen vahyin dahi insan söyleyişine verilmeyebileceği sınırı ekler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.10",
+          "basis": "krallığın sırlarının bazılarına verilmesi",
+          "note": "Yorum, Rabbin gaybı dilediği elçiye açtığını söyler; İsa krallığın sırlarını bilmenin öğrencilerine verildiğini, başkalarına ise benzetmelerle konuşulduğunu açıklar. Bilginin seçilmiş muhataplara verilmesi için yakın bir Hıristiyan formülüdür."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.12",
+          "basis": "sözün yürek düşüncelerini ayırt etmesi",
+          "note": "Yorum, açık söz ile göğüste gizlenen şeyin Rab tarafından bilinmesini işler; İbraniler Tanrı sözünün yüreğin düşünce ve niyetlerini ayırt ettiğini söyler. Bilinen gizliyi ilahî sözün etkinliğiyle birleştirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.24.45",
+          "basis": "Kutsal Yazıları anlamak için açılan zihin",
+          "note": "Yorum, okunmuş sözün anlaşılması ve tutulmasının ilahî bağış olduğunu vurgular; dirilmiş İsa öğrencilerin zihinlerini Yazıları anlamaları için açar. Bilginin yalnız dinleyenin sahipliği olmadığını anlatır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.26",
+          "basis": "söze dökülmeyen iniltilerle aracılık",
+          "note": "Yorum, sesli okuma ile insanın içinde kalmış söz arasında bir derecelenme kurar; Pavlus Ruh'un zayıflıkta söze dökülmeyen iniltilerle aracılık ettiğini söyler. İç dua, işitilebilir sözün ötesinde ama Tanrı'ya yönelmiş olur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Shabbat 138b",
+          "basis": "Tora'nın unutulup unutulmayacağı üzerine rabbanî tartışma",
+          "note": "Yorumun 87:6–7'deki unutmayış vaadi için bu sugyada Tora'nın İsrail'den unutulacağı iddiası, Tesniye 31:21'deki “unutulmayacak” sözüyle tartışılır. Rabbanî gelenek aynı metin üzerinde bellek kaybı ile ilahî koruma gerilimini işler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.33.11",
+          "basis": "Musa ile yüz yüze konuşma formülü",
+          "note": "Yorum Musa'nın Tanrı'yı görme isteğini insan gözünün sınırıyla anlatır; Çıkış başka bir bağlamda Rabbin Musa'yla bir dostla konuşur gibi yüz yüze konuştuğunu söyler. Görme yasağı ile yakın konuşma formülünün ayrımını incelemeyi gerektirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Num.12.8",
+          "basis": "ağız ağıza konuşma ve Rabbin biçimi",
+          "note": "Yorum, Musa sahnesini görülemezlik sınırıyla okur; Sayılar'da Musa ile ağız ağıza, açıkça konuşulduğu ve onun Rabbin biçimini gördüğü söylenir. Musa geleneğindeki görme ve konuşma iddialarının gerilimini görünür kılar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.32.31",
+          "basis": "Yakup'un yüz yüze görüp yaşaması",
+          "note": "Yorumda yüz yüze görme talebi yıldırım ve bayılma sınırına varır; Yakup Peniel adını Tanrı'yı yüz yüze görüp canının kurtulmasına bağlar. Farklı anlatıdaki hayatta kalma sonucu karşı okuma sağlar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.22.19",
+          "basis": "peygamberlik kitabının sözlerinden eksiltme yasağı",
+          "note": "Yorum vahiyde kaldırma ve unutturma ihtimalini ilahî isteme bağlamında tartışır; Vahiy, kitabın peygamberlik sözlerinden eksiltene karşı ilahî yaptırım ilan eder. İnsan müdahalesiyle metni azaltmaya ilişkin keskin bir karşı anlatıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.25.2",
+          "basis": "Tanrı'nın sakladığı, kralın araştırdığı iş",
+          "note": "Yorum gizliyi bilen Rab ile işaret arayan insan arasında ayrım yapar; Özdeyişler bir işi gizlemeyi Tanrı'nın, araştırmayı kralların yüceliği sayar. Gizlilik ile insan araştırmasının farklı yetkilerini karşılaştırmaya açar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.48.6",
+          "basis": "daha önce bilinmeyen gizli şeylerin duyurulması",
+          "note": "Yorumun gizliyi bilenin gerektiğinde açması yönü için İşaya, şimdiye dek bilinmeyen yeni ve gizli şeylerin duyurulduğunu söyler. Vahyin zamanlı ve seçici açılışını somutlaştırır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.1.8",
+          "basis": "kitabın ağızdan ayrılmaması ve gece gündüz düşünülmesi",
+          "note": "Yorumun sesli okuma ile göğüste saklanan söz çiftine karşılık Yeşu'ya yasa kitabının ağzından ayrılmaması, gece gündüz üzerinde düşünmesi buyurulur. Sürekli ses ve iç düşünme, insan görevine dönüştürülür."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.16.12",
+          "basis": "henüz taşınamayan sözler",
+          "note": "Yorum verilen bilginin ve okunmuş vahyin insan muhatabın elinde sınırsız olmadığını söyler; İsa öğrencilerine söyleyecek daha çok şeyi bulunduğunu ama onların şimdilik taşıyamayacağını bildirir. Açıklamanın muhatabın kapasitesine göre sınırlandığını ekler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.19.12",
+          "basis": "ince sessizlik sesi",
+          "note": "Yorum, cehrin yüksek sesini gizli ve kısık sesle karşılaştırır; İlyas anlatısında rüzgâr, deprem ve ateşten sonra ince bir sessizlik sesi gelir. İlâhî karşılaşmanın gürültü yerine zayıf sesle gelmesi ses motifini derinleştirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Rom.10.8",
+          "basis": "Tesniye'nin ağız-yürek sözünü iman sözü olarak alma",
+          "note": "Yorum, sözün hem ağızda hem göğüste bulunduğunu işler; Pavlus Tesniye'nin yakın sözünü ağız ve yürekle iman edilen Mesih mesajı diye aktarır. Aynı Tora formülünün Hıristiyan alımlamasını verir."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "6e8220fe04ddb29693c32634c0b25478837d138140ffedc6b2c57cb6903a9df8",
+    "followup_sha256": "6e8220fe04ddb29693c32634c0b25478837d138140ffedc6b2c57cb6903a9df8",
+    "initial_file": "turn1.accepted.tsv",
+    "initial_sha256": "dde19e7769c4bc64e8df9f90d4b3694eac6659b83e43133460a4e9b4f6d18d14",
+    "raw_initial_sha256": "3899ad04ddd981284c15add0b8a70c5351bd402cabc2ec2a1c6455e61bf99658"
+  },
+  "consolidation_error": null,
+  "list_sha256": "f4b02471b00979d7c5eee7e4f5347e33a3601dcbae1597e83cb5c4656b1a040a",
+  "followup_delivery": [
+    {
+      "call_id": "call_s7F5cXvhxxN18clr0cF1yVoI",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 1123417,
+    "cached_input_tokens": 1009152,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 71813,
+    "reasoning_output_tokens": 40974,
+    "total_tokens": 1195230
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T19:12:21.494Z",
+  "artifacts": {
+    "started.json": "577536676ad364c897f6e4a2e8b3ed9856463cc24abedb9ee9ce09ed163a02c3",
+    "input.json": "918cb55cdd12355ae023b06e23a4f5a8de1db5a52e5fe1480094a041d3c73324",
+    "prompt.md": "10a657162f449c10e8e28e72680ebfcdaea4b922ec32a55e35f1731770f17673",
+    "package.md": "e7444fdd71e68e65cfe1a422d8466da897419919135130fde3e64dcb3e72dc61",
+    "spawn.md": "405a5229a44b16d13ab7bf49ca2ff439b5b894e34a613b9c50677f4b2cf1a212",
+    "followup.txt": "96f2ec26a91e61959100a9fe5f49fd30e58e00f6d63336ac9a94740ceee4472e",
+    "turn1.json": "a99c34d4b81521ca65745318b15c3175e0c018e5bf842ddf48eca9f27f76063c",
+    "turn1.list.tsv": "3899ad04ddd981284c15add0b8a70c5351bd402cabc2ec2a1c6455e61bf99658",
+    "followup.tsv": "6e8220fe04ddb29693c32634c0b25478837d138140ffedc6b2c57cb6903a9df8",
+    "list.tsv": "f4b02471b00979d7c5eee7e4f5347e33a3601dcbae1597e83cb5c4656b1a040a",
+    "consolidation.json": "51d884f49ccdf2337c9b8dc73779c1faba6fa85ffc9fb68aecbaf5ac25a524ae",
+    "validation.json": "933a79c6ce56754ea89ca8c7d6726acb325d8806f5828016aca6060854747206",
+    "proposal_validation.json": "67e81d7ec59d095aabe9e37d2a8420c086c9db62e2ca25586f8a104bcec1adcb",
+    "tool_calls.json": "7344d5bcc864da827e4a891cce4dcfcb1fbd5fc400acee0da2ec2515af6fae1e",
+    "session.json": "47b9d78034eaf3f7a0a256d8c2c909dced40649745def309a1da44616c5e5101",
+    "session.events.jsonl": "4fc6d9fc9a5d96eacb63ef297b3c604b2d34f669703322586005c4ffb5ead5b1",
+    "turn1.original.tsv": "3899ad04ddd981284c15add0b8a70c5351bd402cabc2ec2a1c6455e61bf99658",
+    "turn1.validation.failed.json": "5ce5b9b69c6e12563715124b7ee8c192dfa4e3b64426e41046405936d9a00f0c",
+    "turn1.tool_calls.json": "023d9bee497893c15ef8ff733a575fa27c20884686aacad9c96426a4cf97a08a",
+    "turn1.repair.proposed.json": "a375712d539776cc2f301a3163488cbc57ae57e0de2f63163ab69f7ff8af8b82",
+    "turn1.repair.proposed.tsv": "dde19e7769c4bc64e8df9f90d4b3694eac6659b83e43133460a4e9b4f6d18d14",
+    "turn1.accepted.tsv": "dde19e7769c4bc64e8df9f90d4b3694eac6659b83e43133460a4e9b4f6d18d14",
+    "turn1.repair.accepted.json": "5feae5be32a048700b986597272bc18081675df1f6d44ee2f1e94e371102e497"
+  },
+  "first_turn_repair": {
+    "policy": "bible-first-turn-repair-v1",
+    "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+    "tool_audit_reviewed": true,
+    "accepted_at": "2026-10-05T19:04:51.154235+00:00",
+    "changes": [
+      {
+        "line": 26,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Ecc.12.14",
+          "gizli her işin yargıya getirilmesi",
+          "Yorum, ortaya çıkma gününde gizli hiçbir şeyin saklı kalmadığını anlatır; Vaiz Tanrı'nın iyi ya da kötü her gizli işi yargıya getireceğini söyler. Gizlinin eskatolojik açılması bakımından yakın bir motiftir."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Eccl.12.14",
+          "gizli her işin yargıya getirilmesi",
+          "Yorum, ortaya çıkma gününde gizli hiçbir şeyin saklı kalmadığını anlatır; Vaiz Tanrı'nın iyi ya da kötü her gizli işi yargıya getireceğini söyler. Gizlinin eskatolojik açılması bakımından yakın bir motiftir."
+        ],
+        "reason": "Correct the unsupported book code Ecc to Eccl; the opened local verse describes judgment of every hidden deed."
+      }
+    ],
+    "model_calls": 0,
+    "artifacts": {
+      "turn1.original.tsv": "3899ad04ddd981284c15add0b8a70c5351bd402cabc2ec2a1c6455e61bf99658",
+      "turn1.validation.failed.json": "5ce5b9b69c6e12563715124b7ee8c192dfa4e3b64426e41046405936d9a00f0c",
+      "turn1.tool_calls.json": "023d9bee497893c15ef8ff733a575fa27c20884686aacad9c96426a4cf97a08a",
+      "turn1.repair.proposed.json": "a375712d539776cc2f301a3163488cbc57ae57e0de2f63163ab69f7ff8af8b82",
+      "turn1.repair.proposed.tsv": "dde19e7769c4bc64e8df9f90d4b3694eac6659b83e43133460a4e9b4f6d18d14",
+      "turn1.accepted.tsv": "dde19e7769c4bc64e8df9f90d4b3694eac6659b83e43133460a4e9b4f6d18d14"
+    }
+  }
+}

@@ -1,0 +1,1625 @@
+{
+  "target": "87:10",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/87_10.md",
+  "base_sha256": "2ea015c0eff5e2b2607db84ad2edcf4eae3b8042765fec2dc164976910a5eb38",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T14:08:06.273419-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_87_10_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "9638f25870a4ea957145bad61f091c0db4d9f2a1306e8163f718b4cc5ffee72c",
+  "package_sha256": "4c10f5edfc846823d77bda8d1a38305e3a3ba97d00df63c0b0d05a5ababa0fa5",
+  "input_sha256": "a1ff2d9b0bb751ae959aa24397492ea064cc99912c21bf76db107cd9b3b4a524",
+  "spawn_sha256": "c8a1c0af45dbd17c11b70d4a965b242b0c97e5492e8d1f2cabb3acd6fb50cb72",
+  "followup_text_sha256": "f4594d38b0d19ed56a752bf3172ab373b07a549c1fae0db684dadb0dadcc92d7",
+  "agent_id": "01a10d41-ac8d-7503-ad15-a3fb42529706",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T14-09-30-01a10d41-ac8d-7503-ad15-a3fb42529706.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 75,
+  "turn1_sha256": "be0abf2634845cc01839278f6235dd24d683798973188872b11ca8a20c351bb1",
+  "turn2": {
+    "completed": true,
+    "rows_total": 117,
+    "rows_added": 42
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 75,
+    "raw_proposal_rows": 42,
+    "unique_additions": 42,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.17.19",
+          "basis": "written Torah, daily reading, fear",
+          "note": "The commentary joins a received text, reverent fear, and active response; the king reads the written Torah daily precisely to learn fear of YHWH and keep its words."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.66.2",
+          "basis": "trembling at the word",
+          "note": "The commentary's unnamed listener is defined by an inward reverence rather than a social label; Isaiah likewise singles out the humble and contrite person who trembles at YHWH's word.",
+          "raw_ref": "WLC:Is.66.2",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.3.19",
+          "basis": "watchman's warning and hearer's refusal",
+          "note": "Like the commentary's limit on the messenger's task, Ezekiel has warned the wicked; if the hearer does not turn, he dies for his own wrong while the watchman is delivered."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.33.31",
+          "basis": "hear words but heart pursues gain",
+          "note": "The people sit before Ezekiel and hear his words but do not do them because their hearts pursue gain, a direct scene of speech reaching listeners without becoming received instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.2",
+          "basis": "word heard but not beneficial",
+          "note": "The announced word did not benefit its hearers because it was not joined with faith, closely matching the commentary's distinction between an offered reminder and one that benefits a receptive person."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.15",
+          "basis": "good heart holds the word",
+          "note": "Jesus's good soil hears the word, holds it fast in an honest and good heart, and bears fruit in perseverance; this gives the commentary's inward taking-up of admonition a concrete narrative figure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.25",
+          "basis": "forgetful hearer and doer",
+          "note": "James contrasts the forgetful hearer with the doer who perseveres, directly joining the commentary's memory-versus-forgetting image to the listener's own enacted response."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.1.3",
+          "basis": "read, hear, keep prophetic words",
+          "note": "The blessing falls on reader, hearers, and keepers together, a close Christian chain from spoken written warning through reception to practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.22.19",
+          "basis": "tender heart when book is heard",
+          "note": "Josiah's tender, humbled heart responds when he hears the words of judgment from the book, supplying a biblical portrait of the inward disposition through which admonition takes effect."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.7",
+          "basis": "today hear his voice",
+          "note": "The psalm's urgent today makes hearing a timely act, closely paralleling the commentary's near-future remembrance before the moment for response has passed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.8",
+          "basis": "do not harden the heart",
+          "note": "The command not to harden the heart names the inward contrary to the commentary's reverent listener who can receive a reminder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.6",
+          "basis": "words upon the heart",
+          "note": "The Torah requires its words to be upon the heart, a precise counterpart to the commentary's insistence that the listener must carry the reminder within rather than merely hear it pass by."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.7",
+          "basis": "repeat and speak the words",
+          "note": "After the words are placed on the heart, they are repeated and spoken through daily life; this illuminates the commentary's path from inward remembrance back to voiced practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.1.8",
+          "basis": "book in mouth, meditation, doing",
+          "note": "Joshua is told to keep the book on his mouth, meditate on it continually, and do it, a compact analogue for the commentary's movement from transmitted speech through inner recollection to action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.11",
+          "basis": "word stored in heart",
+          "note": "The psalmist stores YHWH's word in the heart in order not to sin, giving the commentary's retained rather than lost reminder a moral consequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.16",
+          "basis": "not forgetting the word",
+          "note": "The explicit resolve not to forget the divine word directly accompanies the commentary's ذ ك ر B003 contrast between holding what one has received and letting it escape."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.20.8",
+          "basis": "ذ ك ر B003 and Hebrew זכר",
+          "note": "The source label ذ ك ر B003 concerns remembering and holding; the Hebrew cognate זכר commands active Sabbath remembrance that takes ritual form in sanctifying the day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Mal.3.16",
+          "basis": "זכרון, fearers, and speech",
+          "note": "Those who fear YHWH speak with one another, and a book of remembrance is written before him; the Hebrew זכר family brings together fear, voiced attention, and memorial record."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.3.3",
+          "basis": "remember what was received and heard",
+          "note": "The church is told to remember how it received and heard, then keep it and repent, directly framing remembrance as recovery of a previously received word that still demands action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.2.5",
+          "basis": "remember from where you fell",
+          "note": "The command to remember the height from which one has fallen and return to first works closely matches the commentary's tezekkür as seeking and recovering what has slipped away."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.1.9",
+          "basis": "blindness through forgotten cleansing",
+          "note": "The person lacking virtue is blind and has forgotten cleansing from former sins, an unusually close counterpart to the commentary's pairing of remembered truth with opened sight and later purification."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.8.18",
+          "basis": "eyes, ears, and remembrance",
+          "note": "Jesus joins unseeing eyes, unhearing ears, and failure to remember in one rebuke, closely matching the commentary's contrast between a reminder that opens sight and refusal that does not truly hear."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.6.10",
+          "basis": "heart, ears, eyes, and turning",
+          "note": "Isaiah's hardened heart, heavy ears, and shut eyes prevent hearing, seeing, understanding, and turning; it is the negative counterpart to the commentary's inward alertness becoming sight.",
+          "raw_ref": "WLC:Is.6.10",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.2.1",
+          "basis": "what was heard drifting away",
+          "note": "Hebrews requires closer attention to what was heard lest it drift away, giving a specific image for the commentary's concern that a received thing can escape unless the listener holds it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.2.22",
+          "basis": "recalled saying leading to belief",
+          "note": "After Jesus's resurrection the disciples remember his saying and believe Scripture and his word, a narrative in which recall of a prior utterance becomes renewed understanding and trust."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.28.28",
+          "basis": "fear as wisdom and understanding",
+          "note": "Job identifies fear of the Lord with wisdom and turning from evil with understanding, directly supporting the commentary's claim that reverent fear is bound to knowledge rather than mere fright."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.111.10",
+          "basis": "fear as beginning of wisdom",
+          "note": "The psalm makes fear of YHWH the beginning of wisdom, a concise biblical formulation for the commentary's knowledgeable, reality-responsive fear."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.32.40",
+          "basis": "fear placed within the heart",
+          "note": "YHWH promises to place his fear in the people's hearts so that they will not turn away, paralleling the commentary's presentation of fear as an enduring inward condition that yields faithful response."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.14",
+          "basis": "counsel disclosed to fearers",
+          "note": "YHWH's intimate counsel and covenant are made known to those who fear him, linking fear with the knowing and receiving of divine instruction developed in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.20.20",
+          "basis": "fear before God prevents sin",
+          "note": "Moses distinguishes immediate panic from fear of God set before Israel so that they do not sin, clarifying the commentary's distinction between ordinary fright and reverent, morally active fear."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.7",
+          "basis": "warning about unseen things and reverence",
+          "note": "Noah is warned about things not yet seen and, acting in reverent fear, prepares the ark; this is a close figure for remembering and fearing before judgment becomes visible."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.25",
+          "basis": "gentle correction toward repentance and knowledge",
+          "note": "Gentle instruction is offered in hope that God may grant repentance leading to knowledge of truth, closely echoing the commentary's soft speech to Pharaoh as a possible door into recollection or fear."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.26",
+          "basis": "coming to one's senses from the devil's snare",
+          "note": "The corrected opponents may come to their senses and escape the devil's snare, a precise Christian analogue to the commentary's temptation-triggered remembering, renewed sight, and recovery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.7.13",
+          "basis": "Moses and Aaron before hardened Pharaoh",
+          "note": "Against the commentary's Qur'anic scene of gentle speech offered in hope that Pharaoh may remember or fear, Exodus's shared mission reports Pharaoh's hardened heart and refusal to listen; the differing outcome is the point of the comparison."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.3.2",
+          "basis": "heard report producing fear",
+          "note": "Habakkuk hears YHWH's report and responds with awe, supplying the inverse sequence explicitly considered in the commentary: revelation remembered or heard can awaken fear."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.24",
+          "basis": "wisdom's call refused",
+          "note": "Personified Wisdom calls and stretches out a hand but is refused, a pointed counterpart to the commentary's reminder that can be offered by a speaker yet passed by by its audience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.28",
+          "basis": "late appeal unanswered",
+          "note": "After calamity those who rejected Wisdom call and seek, but receive no answer; it closely parallels the commentary's warning that remembrance after the decisive moment no longer benefits."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.29",
+          "basis": "rejecting knowledge and fear",
+          "note": "The refusal of Wisdom is explained as hatred of knowledge and refusal to choose fear of YHWH, tightly combining the commentary's two central inward conditions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.7.13",
+          "basis": "refused call and unanswered later call",
+          "note": "Because the people did not hear when YHWH called, he would not hear when they later called, giving the commentary's timely-warning and too-late-response structure a prophetic counterpart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.1",
+          "basis": "remember the Creator before evil days",
+          "note": "Qohelet commands remembrance of the Creator while life still affords response, directly matching the commentary's contrast between present remembrance and regret after the time has passed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.17",
+          "basis": "belated repentance sought with tears",
+          "note": "Esau seeks the blessing afterward but finds no place for repentance despite tears, a specific New Testament image for the commentary's ineffectual late turning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.17",
+          "basis": "self-sufficient boast",
+          "note": "Israel's claim that its own power produced wealth gives the commentary's self-sufficient figure a close Torah counterpart: perceived sufficiency obscures dependence and remembrance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.18",
+          "basis": "remembering God rather than self-credit",
+          "note": "The command to remember YHWH as giver of power directly answers the self-credit of the preceding verse, like the commentary's call to recover what self-sufficiency refuses to see."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.3.17",
+          "basis": "self-sufficiency joined to blindness",
+          "note": "Laodicea says it is rich and needs nothing, while not knowing it is poor and blind; this is an exceptionally close counterpart to the commentary's self-satisfied person who sees no lack and so does not seek what was lost."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.3.18",
+          "basis": "eye salve so that you may see",
+          "note": "The counsel to anoint blind eyes so that they may see continues the Laodicean contrast and concretizes the commentary's image of recollection opening the eye."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.55",
+          "basis": "remembering the Name and keeping Torah",
+          "note": "The psalmist remembers YHWH's name in the night and keeps Torah, a direct analogue for the commentary's final movement from inward recollection to voiced divine name and obedient practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.2",
+          "basis": "praise joined to not forgetting benefits",
+          "note": "The soul blesses YHWH by not forgetting his benefits, making praise itself an answer to retained memory as in the commentary's zikir moving back into speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.16",
+          "basis": "word dwelling, admonition, and song",
+          "note": "The word dwelling richly in the community produces teaching, admonition, and sung gratitude, closely paralleling the commentary's arc from spoken reminder through inward retention to worshipful speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.11.24",
+          "basis": "liturgical remembrance",
+          "note": "The command to perform the meal in remembrance of Christ gives the commentary's move from recall to a repeated act of worship a specific Christian liturgical form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.5.26",
+          "basis": "cleansing by the word",
+          "note": "The Messiah sanctifies and cleanses through the word, a close Christian counterpart to the commentary's sequence in which a received reminder leads on toward purification."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.18.20",
+          "basis": "each person bears own wrongdoing",
+          "note": "The individual who sins bears his own iniquity, directly illuminating the commentary's insistence that the unresponsive hearer, rather than the warning messenger, carries the consequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.5",
+          "basis": "each person carries own load",
+          "note": "Paul's maxim that each person carries his own load supplies a New Testament ethical analogue for the commentary's refusal to shift the listener's response or burden onto another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.8",
+          "basis": "withering grass and abiding word",
+          "note": "The grass withers while God's word stands forever, a close counterpart to the surah's meadow turning to refuse and the commentary's contrast between perishing natural forms and a retained divine word.",
+          "raw_ref": "WLC:Is.40.8",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.12",
+          "basis": "active salvation with fear and trembling",
+          "note": "Believers are told to work out salvation with fear and trembling, bringing together the commentary's inward reverence and the listener's personal, active response."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.28",
+          "basis": "reverence, awe, and worship",
+          "note": "Receiving the unshakable kingdom issues in acceptable worship with reverence and awe, closely corresponding to the commentary's movement from fear and remembrance into prayerful praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.7",
+          "basis": "fear God, give glory, judgment near",
+          "note": "The angelic proclamation calls people to fear God and give him glory because judgment has come, an explicit fusion of warning, reverent response, and imminent eschatological time."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.120",
+          "basis": "flesh trembling before judgments",
+          "note": "The psalmist's flesh trembles from fear of YHWH and his judgments, giving the commentary's bodily shudder of reverent hearers a direct biblical analogue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.3.16",
+          "basis": "body trembling on hearing",
+          "note": "Habakkuk's body and lips tremble when he hears, a concrete parallel to the commentary's account of hearing that first causes bodily trembling before a later inward response."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.26",
+          "basis": "Spirit teaching and bringing words to memory",
+          "note": "Jesus promises that the Spirit will teach the disciples and bring his sayings to their remembrance; this places divine agency alongside the commentary's distinction between transmitted speech and the hearer's remembering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.24.8",
+          "basis": "women remember Jesus's words",
+          "note": "The women remember Jesus's earlier words at the empty tomb, a narrative recovery of a prior utterance that changes how they understand the present event."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.4.10",
+          "basis": "remembered Scripture against Satan",
+          "note": "In the temptation scene Jesus answers Satan by voicing Scripture and commanding worship of God alone, a specific image of retained divine words resisting a satanic prompt."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.25",
+          "basis": "remembrance after torment",
+          "note": "Abraham tells the rich man to remember his former life after he is in torment, making explicit the commentary's contrast between useful present recollection and a painful, irreversible memory after judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.31",
+          "basis": "refusal to hear Moses and the prophets",
+          "note": "The claim that one who will not hear Moses and the prophets will not be persuaded even by resurrection speaks to the commentary's image of people passing by an offered reminder while desiring a more exceptional sign."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.21",
+          "basis": "song not forgotten from descendants' mouths",
+          "note": "YHWH's song is promised not to be forgotten from Israel's descendants' mouths, a Torah image for preserving a divinely given utterance across forgetting and recitation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.24",
+          "basis": "all flesh like grass",
+          "note": "The fading grass image recalls the commentary's meadow becoming refuse; Peter uses it to frame the transience of human life before the enduring proclaimed word in the following verse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.25",
+          "basis": "abiding word proclaimed as good news",
+          "note": "The word of the Lord remains forever and is identified as the good news preached to the hearers, a Christian counterpart to the enduring, transmitted reminder set against perishing grass."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 13:5",
+          "basis": "Creator known through created beauty",
+          "note": "The text argues that the greatness and beauty of creatures lead to perception of their Maker, closely serving the commentary's claim that attentive knowledge of creation can ground reverent fear."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 3:9",
+          "basis": "fear of sin preceding wisdom",
+          "note": "Rabbi Hanina ben Dosa says that wisdom endures when fear of sin precedes it, a later Jewish ethical formulation that sharpens the commentary's ordering of inward fear before receptive understanding."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Berakhot 1:5",
+          "basis": "verbal remembrance of the exodus",
+          "note": "The mishnah extends remembrance of the exodus into nighttime recitation, a Jewish liturgical interpretation that helps illuminate the commentary's passage from memory into spoken devotion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Berakhot 33b",
+          "basis": "fear of Heaven and human responsibility",
+          "note": "The rabbinic maxim that all is in Heaven's hands except fear of Heaven gives a pointed later formulation for the commentary's tension between the listener's responsibility and divine sovereignty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Augustine, Confessions 10.17.26",
+          "basis": "God encountered in memory",
+          "note": "Augustine describes finding God in memory after learning him, a Christian theological reflection that enriches the commentary's claim that remembrance is an active return toward what one has received and lost."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.29.4",
+          "basis": "heart to know, eyes to see, ears to hear",
+          "note": "Moses says that Israel has not been given a heart to know, eyes to see, or ears to hear; this complicates and deepens the commentary's discussion of listenerly response as occurring within divine willing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.29.13",
+          "basis": "lips near, heart distant, learned fear",
+          "note": "Isaiah contrasts lip service and a distant heart with a fear learned as human command, a counter-image to the commentary's knowledge-born, inwardly real reverence.",
+          "raw_ref": "WLC:Is.29.13",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.130.4",
+          "basis": "forgiveness leading to fear",
+          "note": "Because forgiveness is with YHWH, he is feared; this supplies another of the commentary's possible sequences, where awareness of God's act awakens reverence rather than merely following it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.48",
+          "basis": "rejected word judging on the last day",
+          "note": "Jesus says the word he has spoken will judge the one who rejects it on the last day, linking the commentary's non-coercive warning to its theme of a final moment when response is no longer open."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.4.9",
+          "basis": "forgetting seen things, heart, transmission",
+          "note": "Moses warns Israel not to forget what its eyes have seen or let it depart from the heart, then commands transmission to children; this closely joins the commentary's retained memory, opened perception, and outward reminder."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.8.2",
+          "basis": "ذ ك ر B003 and Hebrew זכר",
+          "note": "The source's ذ ك ر B003 label concerns active remembering; Israel is commanded to remember the wilderness way, whose testing disclosed what was in the heart and whether the people would keep command."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Num.15.39",
+          "basis": "ذ ك ر B003 and Hebrew זכר",
+          "note": "The tassel is seen so that Israel remembers all YHWH's commandments and does them, giving the commentary's reminder-and-response dynamic a concrete visual and bodily form."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Mal.3.22",
+          "basis": "ذ ك ر B003, Moses's Torah",
+          "note": "The Hebrew command זכרו calls Israel to remember Moses's Torah; beside the surah's final scrolls of Moses, it makes remembrance an explicit return to a received written instruction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.14",
+          "basis": "word near in mouth and heart",
+          "note": "The word is very near, in mouth and heart, in order to do it; this compactly mirrors the commentary's path from speech received inwardly to personal enactment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.19",
+          "basis": "write, teach, put the song in mouths",
+          "note": "YHWH commands Moses to write a song, teach it, and put it in Israel's mouths, a close Torah continuation of the commentary's concern that a transmitted word must be retained and voiced by its hearers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.33",
+          "basis": "Torah written within the heart",
+          "note": "The new covenant places Torah within the people and writes it on their hearts, an especially close counterpart to the commentary's insistence that the reminder must become an inner possession of the listener."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.3.10",
+          "basis": "receive words in heart and hear with ears",
+          "note": "Before Ezekiel speaks to others, he is commanded to receive all God's words in his heart and hear with his ears, directly distinguishing the inward receiver's work from the speaker's delivery."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.33.32",
+          "basis": "words treated as a pleasant song",
+          "note": "The audience treats Ezekiel's message like a beautiful song and hears its words without doing them, a distinct continuation of the commentary's distinction between an utterance arriving and a listener actually taking it up."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.2.1",
+          "basis": "receiving sayings and treasuring commandments",
+          "note": "Wisdom begins when the addressee receives sayings and treasures commandments within, a precise sapiential analogue to the commentary's active holding of what the reminder offers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.2.5",
+          "basis": "understanding fear and finding knowledge",
+          "note": "The result of Wisdom's sought instruction is understanding the fear of YHWH and finding knowledge of God, closely matching the commentary's interrelation of remembered instruction, knowing, and reverent fear."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.28.14",
+          "basis": "continual fear versus hardened heart",
+          "note": "The one who fears continually is blessed, while the one who hardens the heart falls into calamity; this directly pairs the commentary's sustaining fear with its contrary inward closure."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.18",
+          "basis": "opened eyes before instruction",
+          "note": "The psalmist asks for opened eyes to behold wonders from Torah, a focused biblical image for the commentary's claim that recollection can make a person see again."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.130",
+          "basis": "opening of words gives light",
+          "note": "The opening of YHWH's words gives light and understanding to the simple, closely connecting transmitted speech to the commentary's light-bearing recovery of sight."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.7",
+          "basis": "not forgetting God's works and keeping commands",
+          "note": "The next generation is to set hope in God, not forget his deeds, and keep his commands, tying memory of divine acts to obedient response as the commentary does."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.24.7",
+          "basis": "heart to know and return",
+          "note": "YHWH gives the exiles a heart to know him, and they return with their whole heart; this supplies a positive prophetic counterpart to the commentary's inward capacity for recognition and response."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.6",
+          "basis": "seeking while God may be found",
+          "note": "The command to seek YHWH while he may be found gives the commentary's contrast between timely recollection and uselessly late regret a sharp prophetic formulation.",
+          "raw_ref": "WLC:Is.55.6",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.66.24",
+          "basis": "undying worm and unquenched fire",
+          "note": "Isaiah's final vision of the rebels' worm not dying and fire not being quenched directly accompanies the commentary's extension from rejected reminder to a fire in which escape from consequence is no longer possible.",
+          "raw_ref": "WLC:Is.66.24",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.24",
+          "basis": "hearing Jesus's words and doing them",
+          "note": "The wise builder is defined by hearing Jesus's sayings and doing them, a direct Gospel analogue to the commentary's contrast between a reminder merely spoken and one taken up by its listener."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.10.14",
+          "basis": "nonreception and the messenger's departure",
+          "note": "When a house or town will not receive or hear the disciples, they depart and shake off its dust; this illustrates the commentary's non-coercive messenger whose warning does not remove the hearer's responsibility."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.11.28",
+          "basis": "hearing and keeping God's word",
+          "note": "Jesus calls blessed those who hear God's word and keep it, a concise direct counterpart to the commentary's listener who receives an admonition into an active life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.24.32",
+          "basis": "heart burning as Scripture is opened",
+          "note": "The disciples' hearts burn while Jesus speaks and opens the Scriptures, a narrative analogue to the commentary's heard word producing a bodily and inward change before renewed understanding."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.15.8",
+          "basis": "seeking a lost coin until it is found",
+          "note": "The woman's careful search for a lost coin supplies a concrete parabolic counterpart to the commentary's secondary image of tezekkür as pursuing what has escaped rather than passively recalling it."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.15.17",
+          "basis": "coming to oneself and returning",
+          "note": "The prodigal comes to himself, recalls the abundance of his father's house, and begins a return; this narrates the commentary's inward recovery of a lost truth becoming a change of course."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.20.31",
+          "basis": "remembering continual apostolic warning",
+          "note": "Paul tells the elders to stay awake by remembering his three years of unceasing warning, an unusually close apostolic instance of admonition deliberately becoming hearers' recollection."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.10.11",
+          "basis": "past events written as warning",
+          "note": "Israel's earlier events happened as examples and were written for warning later readers, giving the commentary's preserved scenes and admonition a concrete scriptural rationale."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.2.15",
+          "basis": "one proclamation among saved and perishing",
+          "note": "Paul describes the apostolic proclamation as Christ's aroma among both those being saved and those perishing, closely paralleling the commentary's one reminder encountering opposed inward responses."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.2.16",
+          "basis": "death-to-death and life-to-life",
+          "note": "The same aroma is death leading to death for some and life leading to life for others, a precise Christian formulation for the divergent effects of the single offered word developed in the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.7.15",
+          "basis": "obedience remembered with fear and trembling",
+          "note": "Titus's affection grows as he remembers the community's obedience and how they received him with fear and trembling, uniquely joining reception, memory, reverence, and conduct."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.2.13",
+          "basis": "received word working in believers",
+          "note": "The Thessalonians receive the preached message as God's word rather than merely human speech, and it works in believers; this closely complements the commentary's distinction between speech crossing over and the listener's effective reception."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.3.15",
+          "basis": "sacred writings making one wise",
+          "note": "The sacred writings are able to make Timothy wise for salvation through faith, a direct Christian analogue to the commentary's book as a reminder for those who become knowing and responsive."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.4.3",
+          "basis": "itching ears rejecting sound teaching",
+          "note": "Hearers who cannot endure sound teaching gather teachers to suit their own desires, a specific New Testament figure for turning away from offered reminder through a disordered inner preference."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.13",
+          "basis": "daily exhortation against hardened hearts",
+          "note": "Mutual daily exhortation guards against hardening through sin's deceitfulness, closely uniting the commentary's repeated reminder with its contrast between reverent openness and hardening."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.3.1",
+          "basis": "reminder arousing a sincere mind",
+          "note": "The letter deliberately arouses the readers' sincere mind by reminder, making explicit the commentary's model in which an external reminder activates inward discernment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.9.48",
+          "basis": "unending fire and undying worm",
+          "note": "The Gehenna saying's undying worm and unquenched fire closely accompanies the commentary's broader contrast between the timely hearer and the one who reaches enduring fire after rejecting warning."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.1.20",
+          "basis": "knowledge of God through created things",
+          "note": "God's invisible power and divinity are perceived through created things, furnishing a New Testament counterpart to the commentary's claim that attention to creation can yield the knowledge from which reverent fear arises."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.1.21",
+          "basis": "known God not glorified, heart darkened",
+          "note": "Though they know God, the ungodly neither glorify nor thank him and their heart is darkened; this sharply counterpoints the commentary's path from knowing and remembering to naming and worship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 3:17",
+          "basis": "wisdom and fear of sin as reciprocal",
+          "note": "Rabbi Eleazar ben Azariah's reciprocal sayings deny both wisdom without fear of sin and fear of sin without wisdom, a later Jewish formulation for the commentary's claim that fear and recollection or knowledge can lead into one another."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 2:15",
+          "basis": "fear of the Lord and obedience to words",
+          "note": "Sirach says those who fear the Lord do not disobey his words and those who love him keep his ways, a compact Jewish counterpart to the commentary's fearful person who receives reminder in action."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 4.1",
+          "basis": "remembering the one who speaks God's word",
+          "note": "The Didache directs the disciple to remember day and night the one who speaks God's word, an early Christian expansion of the commentary's relation between a messenger's spoken reminder and a hearer's continuing remembrance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.11",
+          "basis": "no rest in eschatological torment",
+          "note": "The worshipers of the beast have no rest day or night amid enduring torment, a Christian image that complements the commentary's secondary treatment of irreversible fire after the time for fruitful recollection."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.3",
+          "basis": "hope leading to self-purification",
+          "note": "Everyone who sets this hope purifies himself, furnishing a Christian analogue to the commentary's secondary sequence in which inward reception and fear move on toward personal purification."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "fe5b77e22ad84828abbb037c8b428d6534edf336be1a686ee9275cc6abb42655",
+    "followup_sha256": "fe5b77e22ad84828abbb037c8b428d6534edf336be1a686ee9275cc6abb42655"
+  },
+  "consolidation_error": null,
+  "list_sha256": "612a13250d5cfb61fecd100cbd1e5799befefa3ebb19bc1881e20abc2176e2de",
+  "followup_delivery": [
+    {
+      "call_id": "call_oDaBV0eGbupqlW4SICIrr5Xv",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 717323,
+    "cached_input_tokens": 631552,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37673,
+    "reasoning_output_tokens": 28818,
+    "total_tokens": 754996
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:35:58.619Z",
+  "artifacts": {
+    "started.json": "17a492dedb0dfeb34bf5a9e308b1ee4361f84d1bddca2dfc64d93452c6e34502",
+    "input.json": "a1ff2d9b0bb751ae959aa24397492ea064cc99912c21bf76db107cd9b3b4a524",
+    "prompt.md": "9638f25870a4ea957145bad61f091c0db4d9f2a1306e8163f718b4cc5ffee72c",
+    "package.md": "4c10f5edfc846823d77bda8d1a38305e3a3ba97d00df63c0b0d05a5ababa0fa5",
+    "spawn.md": "c8a1c0af45dbd17c11b70d4a965b242b0c97e5492e8d1f2cabb3acd6fb50cb72",
+    "followup.txt": "f4594d38b0d19ed56a752bf3172ab373b07a549c1fae0db684dadb0dadcc92d7",
+    "turn1.json": "b28bc9005197a8654aef02a88487375c0f0b501279e28c7bec20df387ea6b897",
+    "turn1.list.tsv": "be0abf2634845cc01839278f6235dd24d683798973188872b11ca8a20c351bb1",
+    "followup.tsv": "fe5b77e22ad84828abbb037c8b428d6534edf336be1a686ee9275cc6abb42655",
+    "list.tsv": "612a13250d5cfb61fecd100cbd1e5799befefa3ebb19bc1881e20abc2176e2de",
+    "consolidation.json": "69061fbec9f270b46cdb8a62cff0c93ad4770c15178fb3737117c4615f32a2cb",
+    "validation.json": "dbe21138dc62e64a07655ff26c4320d2e682733b811fa9558dc882dac2cfb5a1",
+    "proposal_validation.json": "943293ec2698fff3f916d5110f1f8f528fee5592c346b6e512bac966fdab584b",
+    "tool_calls.json": "f45bafeea2556473b877f712130b6b578fe18582eb7ce010a8a3286c1dfc7197",
+    "session.json": "3581c4dc744e5464e532e2db7dd837a19119fc952634612bdac77cf7baa6bde5",
+    "session.events.jsonl": "00b2273597aea83e196b855ec89e9bb25984aff152f149bc2de8195d2d62ba6f"
+  }
+}

@@ -1,0 +1,283 @@
+{
+ "policy": "bible-page-operator-review-v1",
+ "reviewer": "Claude Code Bible orchestrator (fork of the 2026-10-09 enrichment session), at the coordinator's request after its call-by-call review (scratchpad/bible_flagged.txt); mechanical classification by review.py",
+ "transcript": "/Users/ahmetrasit/.claude/projects/-Volumes-aro-projects-prose-generation/6a69a0c0-dd83-4dc9-b0c1-de16e66b19bd/subagents/agent-aea960c799a934769.jsonl",
+ "transcript_sha256": "81938c20b83e235dd4fb844cf430024003e39181aebfa1135c428d938b329eda",
+ "calls": [
+  {
+   "index": 1,
+   "call_id": "toolu_01T2fqDRnP2bEumegSfKXqGo",
+   "name": "Bash",
+   "hash": "5f7969d581ac718a5341308a40589f65255b015fcb153e255618757365766abf",
+   "kind": "read",
+   "reason": "read-only cat on allowed inputs",
+   "auto": true
+  },
+  {
+   "index": 2,
+   "call_id": "toolu_01Fb9iKkcYa9apjMCgc3P6zi",
+   "name": "Bash",
+   "hash": "5c8ab3387101785e9c9d113815e9380e2ee54462062734a0ee3395c020c182ac",
+   "kind": "read",
+   "reason": "read-only cat on allowed inputs",
+   "auto": true
+  },
+  {
+   "index": 3,
+   "call_id": "toolu_01UqnawWTBm7uUqpUWNYKMAb",
+   "name": "Bash",
+   "hash": "39b1d8e11d68c39013edec6da41329d41864d96a518e13f59caa28978d3b4bbe",
+   "kind": "read",
+   "reason": "read-only cat on allowed inputs",
+   "auto": true
+  },
+  {
+   "index": 4,
+   "call_id": "toolu_01EYqa9zxuccGe9MoK9RXftu",
+   "name": "Read",
+   "hash": "7a8fc41711092b35b678ca437a604b1aa12bdcdba482d0209123e2f21d7cc0b1",
+   "kind": "own_output",
+   "reason": "harness-persisted output of an earlier call, announced in this transcript",
+   "auto": true
+  },
+  {
+   "index": 5,
+   "call_id": "toolu_01SaN15fW2U5x123tnu8Rhyq",
+   "name": "Bash",
+   "hash": "c53c6a76abd2cd0442fa83ec8e39f1adede542445af86b3a0cadf3e71860299b",
+   "kind": "read",
+   "reason": "read-only ls on allowed inputs",
+   "auto": true
+  },
+  {
+   "index": 6,
+   "call_id": "toolu_01PzxeQKCCUUPrHKwXNZaAt6",
+   "name": "Write",
+   "hash": "4d6d7d2eb915471571cc8e71d718de51347c41fbcf48774bb3ce876814d1e605",
+   "kind": "helper",
+   "reason": "helper script written to the session scratchpad",
+   "auto": false
+  },
+  {
+   "index": 7,
+   "call_id": "toolu_01DW5Vnne42f5YczgkHB4Ath",
+   "name": "Bash",
+   "hash": "af4bf09a5ce380864a2c76a4f7ef8d08071f7ad1116417cc87f5e7cd4a251187",
+   "kind": "helper",
+   "reason": "helper tsvsum.py on allowed inputs and the call directory",
+   "auto": false
+  },
+  {
+   "index": 8,
+   "call_id": "toolu_01GbdR8uf7BqJ9TaM9ASvJz6",
+   "name": "Read",
+   "hash": "bb82838612b5d3333e6cb0d55af9566bc0712290d5ff2f065cb726821d49197a",
+   "kind": "own_output",
+   "reason": "harness-persisted output of an earlier call, announced in this transcript",
+   "auto": true
+  },
+  {
+   "index": 9,
+   "call_id": "toolu_013L7THNikS9MQSzruRrnYuJ",
+   "name": "Read",
+   "hash": "fae87087cafe5b9c7adb1e1f329f36d61ed9ed4e1ca59b00d60a62d5f14f1123",
+   "kind": "own_output",
+   "reason": "harness-persisted output of an earlier call, announced in this transcript",
+   "auto": true
+  },
+  {
+   "index": 10,
+   "call_id": "toolu_01C6ZAKb7stZcUMTe8uZZQN5",
+   "name": "Bash",
+   "hash": "ec9900d28b30ec4497cd1022e4d89b774f5769456803a00857aeea57cdd4976b",
+   "kind": "read",
+   "reason": "inline python reading allowed inputs",
+   "auto": true
+  },
+  {
+   "index": 11,
+   "call_id": "toolu_018sfBahx46ExVxXbtxE11FA",
+   "name": "Bash",
+   "hash": "2382a19f837e2a0c7ffcad5b3231e27cba87437c73ed7475270bbf157a48ec8c",
+   "kind": "read",
+   "reason": "inline python reading allowed inputs",
+   "auto": true
+  },
+  {
+   "index": 12,
+   "call_id": "toolu_01JJPnqL4GbQa3SgdtqLNPut",
+   "name": "Write",
+   "hash": "6c62d25e94378e67b860932ae76114939707afbb375c2615bcfbb408321f84e4",
+   "kind": "helper",
+   "reason": "helper script written to the session scratchpad",
+   "auto": false
+  },
+  {
+   "index": 13,
+   "call_id": "toolu_014g7EAFiLbxKM23hZt5iDS4",
+   "name": "Bash",
+   "hash": "ceb17bd95f94de5a72730c2dcee08746621ee7b31268d8602c00a6c2a2586bcf",
+   "kind": "helper",
+   "reason": "helper findings.py on allowed inputs and the call directory",
+   "auto": false
+  },
+  {
+   "index": 14,
+   "call_id": "toolu_01VKimfw6Ca99vtfbUjvfKWJ",
+   "name": "Bash",
+   "hash": "fa202e95c6f0bf6ff06265d3f1f855ed121deb55541e08fa0ffb3b66e1c1e2b2",
+   "kind": "read",
+   "reason": "inline python reading allowed inputs",
+   "auto": true
+  },
+  {
+   "index": 15,
+   "call_id": "toolu_01Q9kJA2wAfeJGryTV9xLgnw",
+   "name": "Write",
+   "hash": "bd0b9e4306686c20f5ae58339cd2907880304a2d50381f1c9c17a0a288f68d29",
+   "kind": "helper",
+   "reason": "helper script written to the session scratchpad",
+   "auto": false
+  },
+  {
+   "index": 16,
+   "call_id": "toolu_01HHwhXCow5rBpzeuvjMMWpt",
+   "name": "Bash",
+   "hash": "42a5981612aa0e604d362c5aec3ef5901afc067301780c8fa2973f9cdd2cebc4",
+   "kind": "helper",
+   "reason": "helper prefetch.py on allowed inputs and the call directory",
+   "auto": false
+  },
+  {
+   "index": 18,
+   "call_id": "toolu_01BEq1y4eUXx3s8XvzcXqBhW",
+   "name": "Bash",
+   "hash": "2e7efb7d188a33a1fb96d6cff085a5a4a34c8b1be4081b5031b970df26baa39f",
+   "kind": "read",
+   "reason": "help text of the Bible tool corpus.py",
+   "auto": true
+  },
+  {
+   "index": 27,
+   "call_id": "toolu_0164y9sX6hzFyJ2fdrdeoUcj",
+   "name": "Write",
+   "hash": "a32475a9f3e9bf2645e00ab61c5bdfb6dcdbe69c881ca0ebfffe1f126623610b",
+   "kind": "helper",
+   "reason": "helper script written to the session scratchpad",
+   "auto": false
+  },
+  {
+   "index": 28,
+   "call_id": "toolu_018KGk7rAMVXCaD6eEvbLWLX",
+   "name": "Bash",
+   "hash": "7cfd7f0b9a4b66af3c76cd048dcc69213ed0c36e899b094e166710394ba8c0a6",
+   "kind": "helper",
+   "reason": "helper refs.py on allowed inputs and the call directory",
+   "auto": false
+  },
+  {
+   "index": 76,
+   "call_id": "toolu_018nmVPPJJGZuJkhvb7bWjvz",
+   "name": "Bash",
+   "hash": "3c1a142c02157d87f0c086dd772a4ba1c3aadebc4d1c77a4d5007bd23ea0abc7",
+   "kind": "read",
+   "reason": "read-only grep on allowed inputs",
+   "auto": true
+  },
+  {
+   "index": 77,
+   "call_id": "toolu_01VZrKGmCEMDaxT6F6MzbpMb",
+   "name": "Bash",
+   "hash": "63b40e62d66d60adaad6e663566ec37c2a1eb6a8639afdf5d04dec49a3c68b79",
+   "kind": "read",
+   "reason": "read-only grep on allowed inputs",
+   "auto": true
+  },
+  {
+   "index": 78,
+   "call_id": "toolu_01PJMyPS6KBWjXt5W67boieS",
+   "name": "Read",
+   "hash": "fbb3260fbfe7bab4649ac066631d998eb2701ab2ffc6638a6e504901b0c1efdc",
+   "kind": "read",
+   "reason": "Read of an allowed input",
+   "auto": true
+  },
+  {
+   "index": 88,
+   "call_id": "toolu_01Lw2nbL8Ghi6S7D4fCdUyGa",
+   "name": "Write",
+   "hash": "51ab0276b70c5a47ce28740f2be77f1690692d7062469ad65145b44897e45aeb",
+   "kind": "helper",
+   "reason": "helper script written to the session scratchpad",
+   "auto": false
+  },
+  {
+   "index": 89,
+   "call_id": "toolu_01WpkdpbcD9qfAvdHBQ8CptT",
+   "name": "Bash",
+   "hash": "2d5931e45c6f96b889abdca2cd67f2bf18bff6e59c81e0149c180d6dba054909",
+   "kind": "helper",
+   "reason": "helper gen_verdicts.py on allowed inputs and the call directory",
+   "auto": false
+  },
+  {
+   "index": 90,
+   "call_id": "toolu_011FVrfRAxyYkGqnQhFmxy2V",
+   "name": "Bash",
+   "hash": "d04561da0b03cded9a1cac51dc5843268773f8dd465f2011bd25c187e793a4aa",
+   "kind": "read",
+   "reason": "inline python reading allowed inputs",
+   "auto": true
+  },
+  {
+   "index": 92,
+   "call_id": "toolu_01LBtFjQjYrRggNnLBSffCa8",
+   "name": "Bash",
+   "hash": "005c872953890da2f35e5efe6f443d44481d69723d6a9ece74dcef9d6f64dff3",
+   "kind": "read",
+   "reason": "inline python reading allowed inputs",
+   "auto": true
+  },
+  {
+   "index": 96,
+   "call_id": "toolu_01HwrBdtJUeEihuXbDHrPWyq",
+   "name": "Bash",
+   "hash": "36f50ed3105289bf212f909f288076e6e7ddc5875bee0b08b0783dfa2d220ab0",
+   "kind": "read",
+   "reason": "read-only grep on allowed inputs",
+   "auto": true
+  }
+ ],
+ "helper_copies": [
+  {
+   "call_index": 7,
+   "source": "/private/tmp/claude-502/-Volumes-aro-projects-prose-generation/6a69a0c0-dd83-4dc9-b0c1-de16e66b19bd/scratchpad/tsvsum.py",
+   "copy": "helpers/call007_tsvsum.py",
+   "sha256": "fb66d17bf85564a8c8b0c5e341901475ceae431eb1b84ce25210dbd5e6c9005d"
+  },
+  {
+   "call_index": 13,
+   "source": "/private/tmp/claude-502/-Volumes-aro-projects-prose-generation/6a69a0c0-dd83-4dc9-b0c1-de16e66b19bd/scratchpad/findings.py",
+   "copy": "helpers/call013_findings.py",
+   "sha256": "b091a6f5ff9c5c5f66098dfd2ad51ee1b739da83bf064f8eb2cdf77e4c8f09eb"
+  },
+  {
+   "call_index": 16,
+   "source": "/private/tmp/claude-502/-Volumes-aro-projects-prose-generation/6a69a0c0-dd83-4dc9-b0c1-de16e66b19bd/scratchpad/prefetch.py",
+   "copy": "helpers/call016_prefetch.py",
+   "sha256": "526d7921653bae2afb165e2b05dc41748156133003a4f1e503d01c8498b624da"
+  },
+  {
+   "call_index": 28,
+   "source": "/private/tmp/claude-502/-Volumes-aro-projects-prose-generation/6a69a0c0-dd83-4dc9-b0c1-de16e66b19bd/scratchpad/refs.py",
+   "copy": "helpers/call028_refs.py",
+   "sha256": "6e8d1c2ebfec522ec8d6ca5b5e220bceee661c07518466e97e659eadb2a54cf3"
+  },
+  {
+   "call_index": 89,
+   "source": "/private/tmp/claude-502/-Volumes-aro-projects-prose-generation/6a69a0c0-dd83-4dc9-b0c1-de16e66b19bd/scratchpad/gen_verdicts.py",
+   "copy": "helpers/call089_gen_verdicts.py",
+   "sha256": "63e3ceeadf62bd098177c9eb89943a880b83bb478e9750fbce09dabf33887460"
+  }
+ ]
+}

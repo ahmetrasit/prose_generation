@@ -1,0 +1,1288 @@
+{
+  "target": "sec2",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:21:51.013472-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec2_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "2a0a44c20d7c446173f9bb53602f62e19ec88154628e0cb40b5334ef1809c0d3",
+  "package_sha256": "864bdee8b9c3023e8fd9b3d1be1af36bf6a3f08538acf9dbd7fb6628d8c82e2d",
+  "input_sha256": "99137d1de80c4b9cc12e3cfa42ea877edf599564cd681cf72ff08f904f9ec8af",
+  "spawn_sha256": "e315b9465175808e31a75d40a9447b68b2bb3591cc1fbfe5eb517a34bc99fde7",
+  "followup_text_sha256": "adddd264a92e51fd31bd52ff8c7ba5fbde2c9b7c4f619ea63a18a28291470636",
+  "agent_id": "01a10d16-d000-7c53-aef6-9dcc39296d3f",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-22-41-01a10d16-d000-7c53-aef6-9dcc39296d3f.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 63,
+  "turn1_sha256": "8de0332c2a92a28f7fc4a6d04d1c0e68c1b08e6cc921f8533fc361d00170fef4",
+  "turn2": {
+    "completed": true,
+    "rows_total": 92,
+    "rows_added": 29
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 63,
+    "raw_proposal_rows": 29,
+    "unique_additions": 29,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.40.8",
+          "basis": "withered grass and the word that stands",
+          "note": "Isaiah places fading grass and flower beside God's word that stands forever, joining this commentary's dry pasture and vanishing refuse to its useful reminder and abiding side."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Pet.1.24",
+          "basis": "grass withers and flower falls",
+          "note": "Peter applies the grass-and-flower image to mortal flesh; it gives a close Christian counterpart to the commentary's pasture becoming transient debris."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Pet.1.25",
+          "basis": "word remains forever",
+          "note": "The verse makes the preached word enduring after the preceding grass has withered, a direct analogue for the reminder whose benefit outlasts what goes away."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.3",
+          "basis": "tree by water bearing fruit",
+          "note": "The one formed by instruction is a tree planted by water that continually yields fruit; it supplies the productive, life-giving side of water kept for benefit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.4",
+          "basis": "chaff driven away",
+          "note": "The wicked are like chaff the wind drives away, a precise land-based counterpart to the flood or pot refuse that is scattered, lost, and not retained."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Jer.2.13",
+          "basis": "living fountain and broken cisterns",
+          "note": "Jeremiah contrasts God as a source of living water with human-cut cisterns that cannot retain water. Its failure of retention reverses the commentary's God-created rock hollows that hold sky water, making the contrast instructive."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.114.8",
+          "basis": "rock turned into a pool and flint into a spring",
+          "note": "God makes hard rock a water pool and flint a fountain, directly matching the commentary's unusual attention to water gathered or appearing in rock."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.10",
+          "basis": "rain watering earth for seed and bread",
+          "note": "Rain descends and makes the earth produce food; this is the productive-water half of the commentary's comparison between retained water and a reminder that benefits."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.11",
+          "basis": "word accomplishing its purpose",
+          "note": "Isaiah's following word-image says God's utterance does not return empty but accomplishes its purpose, supplying a textual model for speech evaluated by its benefit rather than its surface appearance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.2",
+          "basis": "teaching as rain and speech as dew",
+          "note": "Moses explicitly casts teaching and speech as rain and dew on vegetation, a direct bridge between beneficial admonition and the commentary's water imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.13.14",
+          "basis": "teaching of the wise as a fountain of life",
+          "note": "The wise person's instruction is a life-giving fountain, joining the commentary's useful reminder to its well of plentiful, clear water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.18.4",
+          "basis": "deep waters and a bubbling fountain of wisdom",
+          "note": "The proverb calls human words deep waters and wisdom's fountain a flowing brook; it makes the word-water connection explicit without reducing the commentary's wells to a mere lexical cognate."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Prov.25.4",
+          "basis": "remove dross so a usable vessel emerges",
+          "note": "Removing silver's dross produces a vessel for the refiner. This closely meets the commentary's furnace scene, where a surface waste separates from metal meant for useful objects."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.119",
+          "basis": "wicked removed like dross; statutes loved",
+          "note": "The psalmist describes the wicked as dross removed from earth and responds by loving God's statutes, pairing discarded matter with enduring, valued instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:2Kgs.3.16",
+          "basis": "valley made full of ditches",
+          "note": "The command to fill a wadi with excavated ditches is a close scene-parallel to the commentary's winding low-lying hollows prepared to receive water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:2Kgs.3.17",
+          "basis": "water filling the wadi and its pits",
+          "note": "Water fills the excavated valley despite the absence of visible rain or wind, extending the preceding ditch scene into an image of water retained in depressions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.22.11",
+          "basis": "reservoir for old-pool water and its maker",
+          "note": "Isaiah names a built reservoir holding former-pool water but rebukes those who do not look to its Maker. It sets human water engineering beside the commentary's created rock cavities and keeps the Creator relation in view."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.11",
+          "basis": "watered garden and unfailing spring",
+          "note": "Divine guidance yields a watered garden and a spring whose waters do not fail, a concentrated counterpart to water that stays, aids people, and is more lasting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.107.35",
+          "basis": "desert made pool and dry ground springs",
+          "note": "The psalm reverses barrenness by making pools and springs from dry land, a direct water-gathering image alongside the commentary's flood-filled hollows."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.36",
+          "basis": "hungry people settle by the water",
+          "note": "The next verse gives the human result of the new water: hungry people establish a habitation. It sharpens the commentary's phrase about what benefits people and remains."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Song.4.15",
+          "basis": "garden fountain, living-water well, Lebanon streams",
+          "note": "The Song joins a well of living water to abundant running streams and a garden, furnishing a rich biblical counterpart for the commentary's plentiful well and water-fed ground."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.41.18",
+          "basis": "springs in valleys and pools in dry land",
+          "note": "God opens fountains in valleys and makes pools and springs in dry country; the verse directly gathers the commentary's hollows, low places, and life-preserving water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.17.8",
+          "basis": "rooted tree remains green and fruitful by water",
+          "note": "A tree stretching roots to a stream does not fear heat or cease bearing fruit. It provides the durable, useful counterpoint to vegetation that becomes scattered and gone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.47.9",
+          "basis": "water wherever the river goes gives life",
+          "note": "Ezekiel's river makes living creatures live wherever it reaches, an expansive counterpart to water as the useful residue rather than the discarded surface matter."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.47.12",
+          "basis": "perennial fruit and healing leaves by the river",
+          "note": "River-fed trees bear new fruit continually and have healing leaves, developing the lasting-benefit side that the commentary distributes between water, usefulness, and endurance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.13.1",
+          "basis": "fountain opened for cleansing",
+          "note": "A fountain is opened to cleanse impurity; this provides a ritual analogue to the commentary's muddy well being cleared until its water appears and is clean."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.36.25",
+          "basis": "clean water removes uncleanness",
+          "note": "Ezekiel's sprinkling of clean water makes cleansing the point of the water image, an explicit interpretive bridge to the commentary's purified, visible well-water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.57.20",
+          "basis": "restless sea casting up mire and dirt",
+          "note": "Isaiah's restless sea throws mire and dirt onto its surface, the negative inverse of the commentary's well cleared of mud so that water can appear clear."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Ezek.34.18",
+          "basis": "remaining water fouled by trampling",
+          "note": "The powerful sheep foul the water left for others. This ethical inversion of clean, beneficial water adds a social consequence to the commentary's insistence that what remains should benefit people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Job.6.17",
+          "basis": "wadi streams dry up and vanish in heat",
+          "note": "Job's unreliable watercourses disappear when heat comes, a close negative counterpart to the commentary's water held in pits and wells rather than lost with passing refuse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.13.3",
+          "basis": "dew, chaff, and smoke driven away",
+          "note": "Hosea layers quickly disappearing dew with wind-driven chaff and smoke, an unusually close biblical cluster for the commentary's floatable debris that is scattered and gone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 5:14",
+          "basis": "wind-driven chaff, frost, smoke, and forgotten guest",
+          "note": "The Wisdom writer depicts the impious hope as material blown or dispersed and as a guest's vanished memory. It closely illuminates the commentary's proverbial sense of refuse that disappears and is not reckoned with."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.3.14",
+          "basis": "what God does endures",
+          "note": "Ecclesiastes says that what God does endures and cannot be altered, a compact counterpart to the commentary's definition of remaining in one's original state against annihilation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.12.2",
+          "basis": "awakening to everlasting life",
+          "note": "Daniel's resurrection scene distinguishes everlasting life from everlasting contempt, giving a Hebrew Bible eschatological analogue for the more enduring hereafter."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "2 Maccabees 7:9",
+          "basis": "resurrection to everlasting renewal of life",
+          "note": "The martyr contrasts present death with the world's King's everlasting renewal. It supplies a Second Temple Jewish formulation of the commentary's claim that the final life is better and more lasting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1 Enoch 48:1",
+          "basis": "inexhaustible fountain of righteousness and springs of wisdom",
+          "note": "The thirsty drink from an inexhaustible fountain and are filled with wisdom; it makes abundant water a specific image for wisdom that benefits and does not run out."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 2:8",
+          "basis": "plastered cistern that loses not a drop",
+          "note": "The saying praises Rabbi Eliezer's retention of teaching as a cistern that loses no water. It turns the commentary's held water into a precise Jewish image of durable remembrance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Avot 6:1",
+          "basis": "ever-strengthening spring and unceasing river",
+          "note": "Study for its own sake makes a person like an ever-strengthening spring and a river that does not cease, an interpretive expansion of beneficial instruction into enduring water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Bava Kamma 82a",
+          "basis": "water interpreted as Torah and recurring public reading",
+          "note": "The Bavli reads Israel's three waterless days as three days without Torah and grounds regular Torah reading in that image. It gives the commentary's beneficial reminder a concrete water-and-remembrance practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Taanit 7a",
+          "basis": "Torah likened to water that descends to low places",
+          "note": "The Bavli's water-Torah comparison adds humility to the commentary's teaching-as-water connection: water leaves high places for low ones, as Torah is received by the humble."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.6.7",
+          "basis": "land drinks rain and yields useful vegetation",
+          "note": "Land that drinks repeated rain and bears a crop useful to its cultivators receives blessing. Its exact useful-water logic closely mirrors the commentary's water that remains and benefits people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Heb.6.8",
+          "basis": "thorns prove worthless and end in burning",
+          "note": "The same field image sets useful rain-fed growth against worthless thorns whose end is burning, adding a Christian antithesis to the commentary's residue versus what is discarded."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.6.48",
+          "basis": "digging deep to rock; flood cannot shake the house",
+          "note": "The hearer who acts digs deep, founds on rock, and withstands a flood. This is a particularly close meeting of useful admonition, a worked depth in rock, and endurance under rushing water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.4.14",
+          "basis": "water becomes a spring into eternal life",
+          "note": "Jesus' water becomes an inner spring that wells into eternal life, bringing together well water, benefit, and the enduring final life named in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.7.38",
+          "basis": "flowing rivers of living water",
+          "note": "The believer is promised flowing living water; it develops the commentary's life-bearing abundance beyond water merely trapped in a well or hollow."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:John.7.39",
+          "basis": "living-water image explained as the Spirit",
+          "note": "The narrator identifies the preceding rivers of living water with the Spirit, giving an internal Christian interpretation that prevents the water image from being read as only physical supply."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.5.26",
+          "basis": "washing of water with the word",
+          "note": "Ephesians explicitly joins cleansing water to the word, a close Christian analogue to the commentary's clear well and reminder that does good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Mark.13.31",
+          "basis": "passing heaven and earth; imperishable words",
+          "note": "Jesus contrasts the passing of heaven and earth with words that will not pass, a direct word-level counterpart to the commentary's contrast between what goes away and what is more lasting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1John.2.17",
+          "basis": "world passes away; God-doer remains forever",
+          "note": "The world and its desire pass away while the one doing God's will remains forever. It gives a concise ethical form to the commentary's passing-versus-abiding contrast."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.27",
+          "basis": "shaken things removed so unshakable things remain",
+          "note": "Hebrews reads cosmic shaking as removal of what can be shaken so that what cannot be shaken may remain, an eschatological counterpart to separating passing surface matter from what stays."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.6.27",
+          "basis": "perishing food and food enduring to eternal life",
+          "note": "Jesus contrasts food that perishes with food enduring to eternal life, directly joining utility, perishing, and the permanent life foregrounded by the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:2Cor.4.18",
+          "basis": "visible temporary and invisible eternal",
+          "note": "Paul explicitly contrasts the temporary seen realm with the eternal unseen one, a close Pauline formulation of the commentary's final better-and-more-enduring horizon."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.15.42",
+          "basis": "perishable body raised imperishable",
+          "note": "The resurrection is sown perishable and raised imperishable, placing the commentary's language of permanence in a bodily Christian eschatological setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.20",
+          "basis": "treasure immune to decay and theft",
+          "note": "Treasure in heaven avoids moth, corrosion, and theft, a concrete Jesus tradition for valuing what lasts over what is consumed or lost."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.15",
+          "basis": "work burned and its maker suffers loss",
+          "note": "In the fire-test of works, what burns is lost. Alongside the commentary's metal-smelting foam, it supplies a Christian judgment image where material does not endure the furnace."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.7",
+          "basis": "perishable gold tested by fire and proven faith",
+          "note": "Peter calls even fire-tested gold perishable while faith is proved through trial, a carefully different but relevant interpretation of the commentary's molten-metal image and its question of what endures."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Jas.1.11",
+          "basis": "scorched grass and fallen flower",
+          "note": "James describes sun-scorched grass, a fallen flower, and fading beauty; it closely echoes the commentary's pasture that becomes dry, transient matter."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:2Pet.2.17",
+          "basis": "waterless springs and storm-driven mists as false teachers",
+          "note": "False teachers are waterless springs and mists driven by a storm. The deliberately unhelpful water image gives a sharp inverse to the commentary's reminder that must benefit and water that truly remains."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Jude.1.12",
+          "basis": "waterless clouds carried by winds and fruitless uprooted trees",
+          "note": "Jude's false teachers promise water but carry none and are wind-driven, fruitless trees. This combines empty water, dispersal, and failed vegetation against the commentary's useful retained water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.3.11",
+          "basis": "one spring cannot issue fresh and bitter water",
+          "note": "James uses a spring's water quality to test speech, giving the commentary's clear well an ethical and verbal extension rather than a merely physical one."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.6",
+          "basis": "wave driven and tossed by wind",
+          "note": "The doubter is a sea-wave driven by wind, a specific instability image that helps mark why the commentary values what settles, remains, and can benefit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.1",
+          "basis": "river of water of life from God's throne",
+          "note": "The final vision's pure river of life flowing from God's throne gives an eschatological culmination to the commentary's contrast between passing surface matter and life-bearing water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.2",
+          "basis": "perpetual fruit and healing leaves by life-water",
+          "note": "The tree beside the life-river bears fruit continually and heals nations, developing the water's durable public benefit beyond the commentary's immediate flood scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.22",
+          "basis": "silver become dross and wine diluted with water",
+          "note": "Isaiah puts debased silver and weakened water in one moral image. Its deliberate dross-and-water pairing is a close biblical companion to the commentary's two-sided flood-and-metal surface waste."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.25",
+          "basis": "God smelts away dross and removes alloy",
+          "note": "God's restorative judgment removes dross from Jerusalem. It gives the commentary's furnace residue a moral purification setting in which what corrupts is taken away so that a renewed community remains."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Mal.3.3",
+          "basis": "refining and purifying silver for righteous offering",
+          "note": "The refiner purifies the Levites like gold and silver so that their offering is righteous. This develops the commentary's molten-metal scene into a distinction between discarded impurity and enduring service."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Jer.6.29",
+          "basis": "refining goes on in vain because wickedness is not removed",
+          "note": "Jeremiah describes a failed furnace process: the fire works but the evil is not separated. It is a pointed inverse to the commentary's clean division in which the useless surface matter actually goes away."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.14.19",
+          "basis": "waters wear stone and wash away earth",
+          "note": "Job makes flowing water an agent that erodes stone and carries soil away, a somber counterpart to the commentary's flood carrying scattered material off its surface."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.17.13",
+          "basis": "roaring waters answered by wind-driven chaff",
+          "note": "Nations roar like many waters yet flee at rebuke like chaff before the wind. The verse unusually joins a water figure to dispersed chaff, close to the commentary's flood and unreckoned debris."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.1.9",
+          "basis": "waters gathered into one place",
+          "note": "Creation begins with waters being gathered so dry land can appear. This is a direct counterpart to the commentary's note that abundant water is named for its gathering, while retaining the creation setting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.26.15",
+          "basis": "wells stopped and filled with earth",
+          "note": "The Philistines block Abraham's wells with earth, the physical inverse of the commentary's well cleared of covering mud so its water can be seen and used."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.26.18",
+          "basis": "Isaac reopens the stopped wells",
+          "note": "Isaac digs again the wells that had been stopped. The recovery of usable water supplies a narrative continuation for the commentary's action of clearing a well until its water reappears."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.26.19",
+          "basis": "well of living water found in a valley",
+          "note": "Isaac's servants find living water while digging in a valley, closely bringing together the commentary's low-lying hollows, plentiful well, and water that can be retained for life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.17.6",
+          "basis": "water from rock for a thirsty people",
+          "note": "Water comes from a rock and the people drink. Unlike a lexical comparison, the shared scene joins rock, abundant water, and direct human benefit that the commentary develops across its word-families."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.21.17",
+          "basis": "singing to a well that springs up",
+          "note": "Israel sings for a well to rise. The liturgical address to a spring offers a communal counterpart to the commentary's gathering water and its opening exhortation to praise the Lord."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.8.7",
+          "basis": "streams, fountains, and depths in valleys and hills",
+          "note": "The promised land is characterized by plentiful water emerging through valleys and hills. It gives a land-scale counterpart to the commentary's wells, hollows, and flood-filled low places."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.2.21",
+          "basis": "bad water healed so death and barrenness cease",
+          "note": "Elisha heals a city's bad water, ending its deadly effect. This gives a narrative extension to the commentary's water made clear and useful rather than left covered or corrupt."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.12.3",
+          "basis": "drawing water from wells of salvation",
+          "note": "The joyful drawing of water from salvation's wells turns stored well-water into a salvation image, complementing the commentary's claim that retained water helps one reach the good."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.93",
+          "basis": "precepts remembered because they give life",
+          "note": "The psalmist vows never to forget God's precepts because through them God gives life. It directly joins the commentary's remembrance condition to demonstrable benefit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 24:30",
+          "basis": "Wisdom as a canal from a river into a garden",
+          "note": "Personified Wisdom describes herself as a canal from a river entering a garden. The scene makes instruction's water a deliberately directed supply rather than passing flood debris."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 24:34",
+          "basis": "teaching poured out for future generations",
+          "note": "In the same water-and-Wisdom sequence, teaching is poured out and left for generations to come. It adds explicit transmission and duration to the commentary's useful reminder and what remains."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Cor.10.4",
+          "basis": "spiritual drink from the rock interpreted as Christ",
+          "note": "Paul identifies Israel's water-giving rock with Christ. This Christian reading brings the commentary's rock-and-water image into a specific typological tradition rather than treating it as a generic well motif."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Heb.4.2",
+          "basis": "message heard but not benefiting its hearers",
+          "note": "Hebrews says that a proclaimed message did not benefit some hearers because it was not joined to faith. It is an unusually exact Christian counterpoint to the commentary's conditional, benefit-bearing reminder."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.4.8",
+          "basis": "piety useful now and for the coming life",
+          "note": "Piety is called beneficial and is said to promise life both now and in the future. The verse tightly pairs the commentary's benefit vocabulary with its final-life horizon."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.3.16",
+          "basis": "Scripture useful for teaching, correction, and training",
+          "note": "Scripture is explicitly useful for teaching and correction, a precise Christian formulation of admonition whose value lies in actually helping its recipient."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:2Cor.5.1",
+          "basis": "destroyed earthly dwelling and eternal heavenly dwelling",
+          "note": "Paul contrasts the destructible earthly tent with an eternal dwelling from God. It gives the commentary's better, more enduring hereafter a concrete dwelling-place form."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.13.14",
+          "basis": "no lasting city here and a future city sought",
+          "note": "Hebrews explicitly denies a lasting city in the present and directs attention to the one to come, closely matching the commentary's contrast between what goes and the more abiding final reality."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.8",
+          "basis": "sowing to decay or to eternal life",
+          "note": "Paul contrasts a harvest of corruption from flesh with eternal life from the Spirit. The agricultural separation adds a Christian ethical form to the commentary's perishing residue and abiding good."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "Lamb guides to springs of life-water",
+          "note": "The Lamb guides the afflicted to springs of life-water and removes tears. This eschatological pastoral use of water sharpens the commentary's claim that the final state is better and enduring."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.21.6",
+          "basis": "water of life freely given to the thirsty",
+          "note": "The enthroned speaker gives life-water freely to the thirsty in the new creation, an explicit final-state counterpart to water as what truly benefits and remains."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Pet.3.20",
+          "basis": "few saved through flood water",
+          "note": "Peter's flood reference makes water the medium through which a few are preserved rather than merely a current that carries refuse away. That reversal gives the commentary's flood image a distinct Christian eschatological reading."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Pet.3.21",
+          "basis": "flood water interpreted through baptism and a good conscience",
+          "note": "The next verse interprets the flood-water figure as baptism, expressly denying a merely bodily washing and locating its benefit in an appeal to God through resurrection."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "fc7bc9944e45d0f397a7e12f787ec2d501f0cabaadf781f24e5f26ede3f87978",
+    "followup_sha256": "fc7bc9944e45d0f397a7e12f787ec2d501f0cabaadf781f24e5f26ede3f87978"
+  },
+  "consolidation_error": null,
+  "list_sha256": "306dfadb755aefdf7b80ae9e1a164730a66d5ece7ac1ea285454f67c65171517",
+  "followup_delivery": [
+    {
+      "call_id": "call_vpaV8P4pyJ5dAgblh8rudUbP",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 245356,
+    "cached_input_tokens": 203264,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33465,
+    "reasoning_output_tokens": 26943,
+    "total_tokens": 278821
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:00:01.597Z",
+  "artifacts": {
+    "started.json": "47ff9d6dd2099b96dc9d1efe5d586fa02db1600e910eccc9b53716c7c3848216",
+    "input.json": "99137d1de80c4b9cc12e3cfa42ea877edf599564cd681cf72ff08f904f9ec8af",
+    "prompt.md": "2a0a44c20d7c446173f9bb53602f62e19ec88154628e0cb40b5334ef1809c0d3",
+    "package.md": "864bdee8b9c3023e8fd9b3d1be1af36bf6a3f08538acf9dbd7fb6628d8c82e2d",
+    "spawn.md": "e315b9465175808e31a75d40a9447b68b2bb3591cc1fbfe5eb517a34bc99fde7",
+    "followup.txt": "adddd264a92e51fd31bd52ff8c7ba5fbde2c9b7c4f619ea63a18a28291470636",
+    "turn1.json": "620ddd7b98e2fd22b87f5eb0a0a5bad4d44e8f5fd6e7c51724b98cfcb64e6c69",
+    "turn1.list.tsv": "8de0332c2a92a28f7fc4a6d04d1c0e68c1b08e6cc921f8533fc361d00170fef4",
+    "followup.tsv": "fc7bc9944e45d0f397a7e12f787ec2d501f0cabaadf781f24e5f26ede3f87978",
+    "list.tsv": "306dfadb755aefdf7b80ae9e1a164730a66d5ece7ac1ea285454f67c65171517",
+    "consolidation.json": "37886a6c0a61e4a8eb42c4372cf761c8e70c7fedb0e772c4ce8014c581ff43cd",
+    "validation.json": "8efabd964b5f2646108a97bf263ff6dd0084b9e7a8512372d278cbdf84fb84ab",
+    "proposal_validation.json": "0e065cfa82e2b8a09e549ba98db783e8ffd890173c53323ddd7ca26bdbaa1cd3",
+    "tool_calls.json": "299799b1d90bebb2b759626f43c7e32891da6aac1e1c1436ae97c6110a0094fe",
+    "session.json": "fc2e6e4dfe4041d03ba07fa412b16ee663bf638a65cdba7c55a2bf846e5e6069",
+    "session.events.jsonl": "83d53811b6300bda637beb8a5715bf840c52a2ac54b425b08e120f8eef396d0a"
+  }
+}

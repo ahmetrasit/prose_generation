@@ -1,0 +1,839 @@
+{
+  "target": "sec8",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:21:54.411567-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec8_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "535816bfc3604bdb858e4f75935ac5ed0b9c99b720976e3a4f17a81733b3f0e8",
+  "package_sha256": "af9ab299a25e105a6566a954b93f7b3f6ffee6c0836b28537616623c90dd6ca5",
+  "input_sha256": "e4278c2e5f62dffe3f0af83adc0d94ffda18fa78c90eed62a02943a3da5d0220",
+  "spawn_sha256": "cea7aba552f7336c695d2d4f39a0d1c410c28b69db52e836bd4b8f6227f8598c",
+  "followup_text_sha256": "318a12c6494366d9835a4b0034bd3c6493b8cf2ea4218e074cd340ececd645c7",
+  "agent_id": "01a10d19-163c-7630-b29e-b3c342111098",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-25-10-01a10d19-163c-7630-b29e-b3c342111098.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 40,
+  "turn1_sha256": "16b2c15def72dbe2f47df8c7db72776a6c3fc48accfc093d91ad668964cbfc32",
+  "turn2": {
+    "completed": true,
+    "rows_total": 57,
+    "rows_added": 17
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 40,
+    "raw_proposal_rows": 17,
+    "unique_additions": 17,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.1",
+          "basis": "Horeb, mountain of God",
+          "note": "Exodus places shepherd Moses at Horeb, the mountain of God; it anchors the commentary's Moses seeing fire from the side of al-Ṭūr in the same mountain-call setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.2",
+          "basis": "flame in an unconsumed bush",
+          "note": "An angel appears to Moses in a flame from within a bush that burns without being consumed. It is the closest Hebrew-Bible fire-theophany to the commentary's fire at which Moses is addressed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.3.3",
+          "basis": "great sight, not a practical beacon",
+          "note": "Moses turns aside to investigate the great sight of a bush that does not burn up; the commentary's Moses first treats the distant fire as a possible ember, warmth, or guide. The different reason for approach is itself illuminating."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.4",
+          "basis": "approach to fire; divine call",
+          "note": "After Moses turns aside, God calls “Moses, Moses” from the bush. This supplies the same sequence of approaching visible fire and then receiving divine speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.3.5",
+          "basis": "holy ground at the flame",
+          "note": "God stops Moses from coming nearer and names the place holy ground; it gives a biblical counterpart for the commentary's blessing and glorification around the fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.10",
+          "basis": "commission from the bush",
+          "note": "At the bush God sends Moses to Pharaoh to bring Israel out. This makes Exodus's commissioning the counterpart to “I have chosen you; listen to revelation” in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.12",
+          "basis": "serve God on this mountain",
+          "note": "God says Israel will serve God on this mountain after liberation. The mountain fire-call is thus ordered toward worship, as the commentary joins Moses's fire journey to remembrance and prayer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.15",
+          "basis": "divine Name and memorial",
+          "note": "God gives Moses the enduring Name and calls it his memorial through generations; this places name-remembrance within the same bush commission that the commentary ends in prayer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.3.15",
+          "basis": "וְזֶה־זִכְרִי / dhikr",
+          "note": "The commentary's وَذَكَرَ / dhikr is matched by Hebrew זִכְרִי, “my memorial,” for the Name. The regular Semitic d/z correspondence supports a word-level link without identifying the Arabic roots for prayer and burning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.4.12",
+          "basis": "voice from the midst of fire",
+          "note": "Moses tells Israel that YHWH spoke from the midst of fire while they saw no form, only a voice. It sharpens the commentary's voiced fire while keeping the speaker distinct from the visible flame."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.4.36",
+          "basis": "great fire and words",
+          "note": "Moses says God showed Israel his great fire on earth and they heard words from the midst of fire. Its explicit great-fire/voice pairing reframes the commentary's opposition of the greatest fire and Moses's greatest signs."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.13.21",
+          "basis": "pillar of fire guides travel",
+          "note": "The pillar of fire gives Israel light so they can travel by night; it is a direct biblical counterpart to the commentary's distant fire lit as a route-marker and to its huda/guidance link."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Dan.3.17",
+          "basis": "serve God at the furnace",
+          "note": "The three Judeans say the God they serve can rescue them from the blazing furnace. This reverses the commentary's fire/prayer polarity: service of God is voiced at the edge of fire as confidence of rescue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.50.11",
+          "basis": "self-kindled fire and pain",
+          "note": "Those who kindle their own fire and walk by its flame are told that they will lie down in pain. It reverses the commentary's small human fire as useful provision and its warning that an ignored reminder ends in greater fire.",
+          "raw_ref": "WLC:Is.50.11",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.66.24",
+          "basis": "rebels; unquenched fire",
+          "note": "At the end of Isaiah, those who rebelled against God are an abhorrence, with a fire that is not quenched. It closely matches the commentary's punitive, inescapable great fire rather than a warming or guiding flame.",
+          "raw_ref": "WLC:Is.66.24",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.30",
+          "basis": "flame of fire in a bush",
+          "note": "Stephen retells that an angel appeared to Moses in wilderness Sinai in a flame of fire in a bush; it is the New Testament's direct recollection of the fire scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.31",
+          "basis": "seeing, approaching, then voice",
+          "note": "Moses sees the sight, approaches to inspect it, and then the Lord's voice comes. The sequence matches the commentary's visible fire leading to a divine address."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.34",
+          "basis": "God sends Moses to Egypt",
+          "note": "The speaking Lord announces that he has seen Israel's affliction and sends Moses to Egypt. This Christian retelling preserves the commissioned response to the fire-theophany that the commentary calls divine choosing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.41",
+          "basis": "eternal fire for the judged",
+          "note": "In the judgment scene, those at the left are told to depart into fire prepared for the devil and angels. It is a direct Christian counterpart to the wretched person entering the great fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.14.9",
+          "basis": "worship of the beast",
+          "note": "John names worship of the beast and receipt of its mark as the opposed cultic act. It supplies a concrete alternative to the commentary's person who remembers the Lord's name and prays; its fire consequence is named in the next verse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.14.10",
+          "basis": "fire and sulfur for the worshiper",
+          "note": "That worshiper is tormented with fire and sulfur before holy angels and the Lamb. This explicitly makes corrupt worship, rather than prayer to God, lead to punitive fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.14.11",
+          "basis": "no rest from the torment",
+          "note": "The smoke of that torment rises forever and its worshipers have no rest day or night. It adds an enduring experiential dimension to the commentary's account of entering and bearing the great fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Mark.9.48",
+          "basis": "undying worm; unquenched fire",
+          "note": "Jesus's Gehenna saying retains the undying worm and unquenched fire. It supplies a concrete Christian form of the commentary's fire that neither releases nor spares its victim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.1.8",
+          "basis": "flaming fire for disobedience",
+          "note": "The Lord is revealed in flaming fire, inflicting vengeance on those who do not know God and do not obey the gospel. This joins rejection of a divine message to fiery judgment, as the commentary joins turning from reminder to the great fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.12.8",
+          "basis": "צְלִי־אֵשׁ, roast with fire",
+          "note": "Passover flesh must be eaten roasted with fire (צְלִי־אֵשׁ). Hebrew צלי/צלה is a likely cognate of the commentary's Arabic ص ل ي cooking sense, giving a concrete domestic-ritual use beside its suffering-in-fire sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.3.6",
+          "basis": "Biblical Aramaic נוּר, fire",
+          "note": "Biblical Aramaic calls the blazing furnace נוּר. Its nūr “fire” is a controlled Semitic beside-word for the commentary's Arabic النار/nūr discussion, while the furnace context prevents importing its road-light sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.6.11",
+          "basis": "Aramaic צְלָא, pray",
+          "note": "Daniel kneels toward Jerusalem, prays, and gives thanks; the Aramaic verb צְלָא is the prayer-side cognate beside the commentary's فَصَلَّى. It reinforces the stated sound-echo with fire vocabulary without collapsing Arabic ص ل و and ص ل ي."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.119.105",
+          "basis": "נֵר, light, and path",
+          "note": "The verse calls God's word a נֵר, “lamp,” for the feet and light for the path. Hebrew nēr is a probable cognate of the commentary's nūr label, and the verse supplies the very path-guidance that its distant fire performs."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:1Kgs.19.12",
+          "basis": "fire followed by thin quiet sound",
+          "note": "At Horeb the sequence is earthquake, fire, then qôl demamah daqqah, a thin quiet sound. That order contrasts with the commentary's Moses, whose call is located at the fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "m. Avot 2:15",
+          "basis": "warmth and danger of sages' coals",
+          "note": "Rabbi Eliezer tells disciples to warm themselves by sages' fire yet beware their coals lest they be burned. It preserves the commentary's exact contrast between approaching fire for warmth and suffering it on entering too far."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Exodus Rabbah 2:5",
+          "basis": "unconsumed bush and Israel's affliction",
+          "note": "Exodus Rabbah reads the burning, unconsumed thornbush as God's presence with Israel in affliction. That reading makes the Sinai fire a sign of solidarity rather than merely route, fuel, or punishment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.43.2",
+          "basis": "walk through fire without burning",
+          "note": "When Israel walks through fire, God promises that the flame will not consume it. This covenantal counter-scene reverses the commentary's entry into fire as endurance of its heat while leaving room for its sacred Moses-fire.",
+          "raw_ref": "WLC:Is.43.2",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "Prayer of Azariah 1:2–3",
+          "basis": "prayer from within the furnace",
+          "note": "Azariah stands in the furnace and begins a spoken prayer blessing the God of the ancestors. The Greek-Jewish addition counterposes prayer inside a human furnace to the commentary's division of the prayerful person from the fire-bound one."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.8.12",
+          "basis": "light followed through darkness",
+          "note": "Jesus calls himself the light of the world and says a follower will not walk in darkness. Though not a fire scene, it is a precise Christian counterpart to the commentary's fire seen from afar as a guide toward the way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.28.2",
+          "basis": "kindled fire for cold travelers",
+          "note": "On Malta the islanders kindle a fire and welcome the shipwrecked group because of cold and rain. Its human fire supplies warmth and shelter, the non-punitive use the commentary sets beside entry into the great fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jude.1.7",
+          "basis": "eternal fire as an example",
+          "note": "Sodom and Gomorrah undergo a penalty of eternal fire and stand as an example. It joins the commentary's two functions of fire: judgment made into a warning or reminder for readers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.18",
+          "basis": "Sinai as blazing fire",
+          "note": "Hebrews recalls Sinai as a mountain with blazing fire, gloom, and tempest. It receives the Moses/Sinai fire tradition that frames the commentary's Mount Ṭūr address."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.28",
+          "basis": "acceptable worship with awe",
+          "note": "Because believers receive an unshakable kingdom, they are urged to offer God acceptable worship with reverence and awe. It places worship as response within Hebrews' immediately fire-marked Sinai discourse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.29",
+          "basis": "God as consuming fire",
+          "note": "Hebrews calls God a consuming fire. Together with its preceding exhortation to worship, it provides a Christian configuration in which reverent worship and divine fire belong together, not only as opposites."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Gregory of Nyssa, Life of Moses 2.20–21",
+          "basis": "unconsumed bush as virgin conception",
+          "note": "Gregory reads the unconsumed burning bush as a figure of the virgin conception: divine fire is present without consuming. This Christian interpretation expands the commentary's sacred, non-hell fire beyond navigation and judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.14.24",
+          "basis": "pillar of fire turns on Egypt",
+          "note": "During the night, YHWH looks down on Egypt's army through the pillar of fire and cloud and throws it into panic. This gives the commentary's route-guiding fire a second biblical role: the same wilderness fire also separates and judges those opposing God's deliverance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.19.18",
+          "basis": "Sinai, smoke, and divine fire",
+          "note": "Sinai smokes because YHWH descends upon it in fire, and the mountain trembles. Its mountain-scale fire is a close Hebrew-Bible counterpart to the commentary's fire seen at the side of al-Ṭūr, distinct from the contained bush."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.18.24",
+          "basis": "call the Name; answer by fire",
+          "note": "Elijah frames the Carmel test as calling on a god's name, with the god who answers by fire shown to be God. It gives a concrete biblical conjunction of divine Name, prayer, and fire beside the commentary's remembrance of the Name and prayer at Moses's fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.21.26",
+          "basis": "David calls; fire answers",
+          "note": "David builds an altar, offers sacrifice, calls to YHWH, and receives an answer in fire from heaven. It provides another single-verse scene in which worshipful invocation, rather than entry into punishment, is answered by fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Lev.10.2",
+          "basis": "fire from before YHWH consumes",
+          "note": "Fire goes out from before YHWH and consumes Nadab and Abihu. Alongside their unauthorized fire in the preceding verse, it complicates the commentary's blessed fire by making uncommanded cultic approach a site of lethal judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Judith 16:17",
+          "basis": "fire and worms in flesh",
+          "note": "Judith's judgment hymn says that God sends fire and worms into the flesh of hostile nations, with pain without end. Its bodily punitive fire is a close Jewish parallel to the commentary's skin-burning account of the great fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.16.24",
+          "basis": "agony and heat in the flame",
+          "note": "The rich man in Hades asks for water to cool his tongue because he is in agony in the flame. It supplies the specific embodied heat and suffering that the commentary draws from the Arabic sense of entering and bearing fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.4.17",
+          "basis": "staff for signs",
+          "note": "At the end of the bush commission, Moses is told to take the staff with which he will perform signs. It gives the Exodus continuation for the commentary's shift from the greatest fire of judgment to the greatest signs shown to Moses."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Lev.10.1",
+          "basis": "unauthorized fire before YHWH",
+          "note": "Nadab and Abihu place fire and incense before YHWH that he had not commanded. The episode requires a distinction between sacred encounter and humanly initiated ritual fire, sharpening the commentary's several ways of approaching fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.6.23",
+          "basis": "lamp, light, and corrective way",
+          "note": "The commandment is called a lamp, Torah a light, and corrective reproofs the way of life. Its joined guidance and admonition supplies a Hebrew formulation for the commentary's road-marker fire, huda, and reminder."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Wisdom of Solomon 18:3",
+          "basis": "flaming pillar as harmless guide",
+          "note": "Wisdom recasts the wilderness pillar as a flaming guide for an unknown journey and a harmless sun for Israel's wandering. That retelling directly develops the commentary's contrast between a helpful distant fire and a destructive one."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 57b",
+          "basis": "ordinary fire as a foretaste of Gehenna",
+          "note": "The rabbinic maxim calls ordinary fire one-sixtieth of Gehenna. It supplies a Jewish interpretive counterpart to the commentary's claim that a small human fire is a reminder of the great punitive fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.2.3",
+          "basis": "fire resting on the gathered",
+          "note": "Tongues as of fire appear, divide, and rest on each person at Pentecost. This non-punitive communal fire offers a Christian counterpart to the commentary's blessed fire around which divine speech and glorification occur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.15.2",
+          "basis": "victors at a fire-mingled sea",
+          "note": "Those victorious over the beast stand at the sea of glass mingled with fire, holding God's harps. It reverses the commentary's fire-bound wretch by placing victorious worshipers beside fire rather than as its sufferers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.15.3",
+          "basis": "song of Moses at the fire scene",
+          "note": "The victors sing the song of Moses and the Lamb, praising God's great and marvelous works. This adds Moses and praise to the preceding fire-mingled scene, echoing the commentary's Moses-fire journey toward worship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.15.4",
+          "basis": "glorify the Name and worship",
+          "note": "The song asks who will not fear the Lord, glorify his Name, and worship him. Its Name-and-worship formula completes the fire-and-Moses sequence with a direct Christian analogue to the commentary's remembering the Lord's Name and praying."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Justin Martyr, Dialogue with Trypho 60",
+          "basis": "bush speaker as pre-existent Christ",
+          "note": "Justin identifies the one who appeared and spoke to Moses in the bush's flame with the pre-existent Christ. This Christian reading changes the identity of the voice at the fire while preserving the fire-theophany shared with the commentary."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "931b5e90171d3afacc05af09887e9e02cc07fd3203a598cc29ee0f044f407f1d",
+    "followup_sha256": "931b5e90171d3afacc05af09887e9e02cc07fd3203a598cc29ee0f044f407f1d"
+  },
+  "consolidation_error": null,
+  "list_sha256": "3624fc0ad9116bb514e55999b50ccc6a23d0c98e1cd9a65e043f04510b8695e9",
+  "followup_delivery": [
+    {
+      "call_id": "call_NHjakBDZ50TQzY8CLoB6zduC",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 412458,
+    "cached_input_tokens": 352256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 27259,
+    "reasoning_output_tokens": 22249,
+    "total_tokens": 439717
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:20:47.822Z",
+  "artifacts": {
+    "started.json": "1048d7ae3744ce652f23c7442229587bc630d5611f51925b0b9a17a82ca74591",
+    "input.json": "e4278c2e5f62dffe3f0af83adc0d94ffda18fa78c90eed62a02943a3da5d0220",
+    "prompt.md": "535816bfc3604bdb858e4f75935ac5ed0b9c99b720976e3a4f17a81733b3f0e8",
+    "package.md": "af9ab299a25e105a6566a954b93f7b3f6ffee6c0836b28537616623c90dd6ca5",
+    "spawn.md": "cea7aba552f7336c695d2d4f39a0d1c410c28b69db52e836bd4b8f6227f8598c",
+    "followup.txt": "318a12c6494366d9835a4b0034bd3c6493b8cf2ea4218e074cd340ececd645c7",
+    "turn1.json": "e8404d53a441a28e3b650bacc26d462d455d026cf1576c2f77f61a7d67bd5e7b",
+    "turn1.list.tsv": "16b2c15def72dbe2f47df8c7db72776a6c3fc48accfc093d91ad668964cbfc32",
+    "followup.tsv": "931b5e90171d3afacc05af09887e9e02cc07fd3203a598cc29ee0f044f407f1d",
+    "list.tsv": "3624fc0ad9116bb514e55999b50ccc6a23d0c98e1cd9a65e043f04510b8695e9",
+    "consolidation.json": "1f3f0b351c5e4afc139e4829d07c4b8a45f03c4380efdc659eeaf48fc1bc24b8",
+    "validation.json": "be8bb7a283613681369d0b791fb2f59172d8d7818caf4774e1e88b6f9c0f7567",
+    "proposal_validation.json": "fea9eec400bdddf0d63c08e354681547d124440084ec5b55fca70826fb0843f1",
+    "tool_calls.json": "bee4b62096a702eef2b9de474d8a12a92b54019f5383784d2a4b8902bddbfed4",
+    "session.json": "40219a59770bd95cf1d700afdad3be128b518595d558164c22376758cb3d0da3",
+    "session.events.jsonl": "3600eb08eb67f64db584f2b4d1852f75448787e6df9692587d8832160c49e6c5"
+  }
+}

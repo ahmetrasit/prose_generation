@@ -1,0 +1,32 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec12/luna/followup.tsv",
+  "rows": 43,
+  "unique_references": 43,
+  "schema_errors": [
+    "line 19: unknown verse in specified edition: WLC:Ps.16.12",
+    "line 21: invalid/empty field",
+    "line 22: unknown verse in specified edition: WLC:Ps.121.9",
+    "line 34: invalid/empty field"
+  ],
+  "duplicates": [],
+  "strengths": {
+    "strong": 29,
+    "medium": 14
+  },
+  "findings": [
+    {
+      "line": 1,
+      "ref": "Wisdom of Solomon 5:6",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 2,
+      "ref": "Wisdom of Solomon 5:7",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

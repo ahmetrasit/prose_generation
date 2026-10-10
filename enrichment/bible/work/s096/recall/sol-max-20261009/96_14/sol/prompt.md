@@ -1,0 +1,156 @@
+Qur'an 96:14:
+
+أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ
+
+Below is a frozen Turkish commentary on this ayah, its paragraphs numbered [¶n]. Do not change, summarise or
+rewrite it.
+
+Add Hebrew Bible and New Testament verses that help the reader understand a particular paragraph, from the Bible's
+side. Similarity alone is not the test, and a verse may help without sharing any word. A verse helps when, after
+reading it, the reader understands that paragraph's point better than before. It can help in four ways:
+
+- same: it says the paragraph's point in its own words, so the reader sees the idea from another scripture;
+- opposite: it says the same matter the other way round, and the difference shows what is distinctive here;
+- background: it shows the world of an image, custom or practice the paragraph relies on, even with no shared word;
+- word: the paragraph is about a word, and the verse shows how its Hebrew or Aramaic relative is used. The roots
+  table below lists every Arabic root of the ayah with the Hebrew and Aramaic roots that correspond to it by regular
+  sound correspondence. A correspondence is a candidate, not proof: some are true cognates, some only sound alike.
+
+The test before you place a verse: say in one sentence what the reader understands about the paragraph's point after
+reading it that they did not before. If you cannot, drop it, with that as the reason. A shared word, root, name or
+broad theme alone is not enough. A verse that only touches a side detail without making the paragraph's point
+clearer is dropped.
+
+Go through every paragraph, including those about single words or images. A paragraph may get no verse. A verse
+that clearly helps the ayah as a whole but no single paragraph may go into a short closing section (`end`); use it
+sparingly. Every verse you considered and dropped gets a drop row with its reason.
+
+The note is written in Turkish for an advanced reader. Its first sentence is the test sentence: what the verse makes
+clearer about the paragraph's point. Then what the verse says, in its own context, quoted briefly in Turkish
+translation, and where it meets or parts from the paragraph. No source talk, no hedging about dependence.
+Consecutive or closely joined verses that make one point share one row.
+
+Work from memory. Do not read files, run commands or search. A later turn will show you the text of every verse you
+cite, so that you can check it.
+
+Reply with JSON Lines only (one object per line, no Markdown). References are single verses in OSIS form with
+English (KJV) numbering, like Book.Chapter.Verse:
+
+{"refs": ["Book.C.V", ...], "decision": "place", "paragraphs": [n], "way": "same|opposite|background|word", "note_tr": "..."}
+{"refs": ["Book.C.V"], "decision": "end", "way": "...", "note_tr": "..."}
+{"refs": ["Book.C.V"], "decision": "drop", "way": "...", "reason": "..."}
+
+=== ROOTS ===
+
+## ع ل م (in the ayah: يَعْلَم)
+* Hebrew עלם (ع→ע ل→ל م→מ): sound correspondence only (unverified); 483 WLC occurrences; `hebrew.py root עלם` lists them
+  - עוֹלָם (ʿôlām) N 'long duration' [H5769; Hebrew; 438 WLC occurrences] Strong: properly, concealed, i.e. the vanishing point; generally, time out of mind (past or future), i.e. (practically) eternity; frequentatively, adverbial (especially with prepositional prefix) always
+  - עֵילוֹם (ʿêlôm) N 'long duration' [H5865; Hebrew; 1 WLC occurrence]
+  - עָלוּמִים (ʿālûmîm) N 'youth' [H5934; Hebrew; 4 WLC occurrences] Strong: (only in plural as abstract) adolescence; figuratively, vigor
+  - עֶ֫לֶם (ʿelem) N 'young man' [H5958; Hebrew; 2 WLC occurrences] Strong: properly, something kept out of sight, i.e. a lad
+  - עָלַם (ʿālam) V 'conceal' [H5956; Hebrew; 28 WLC occurrences] Strong: to veil from sight, i.e. conceal (literally or figuratively)
+  - עַלְמָה (ʿalmâ) N 'young woman' [H5959; Hebrew; 7 WLC occurrences] Strong: a lass (as veiled or private)
+  - תַּעֲלֻמָּהֿ (taʿălummâ) N 'hidden thing' [H8587; Hebrew; 3 WLC occurrences] Strong: a secret
+* Aramaic עלם (ع→ע ل→ל م→מ): sound correspondence only (unverified); 20 WLC occurrences; `hebrew.py root עלם` lists them
+  - עָלַם (ʿālam) N 'perpetuity' [H5957; Aramaic; 20 WLC occurrences] Strong: remote time, i.e. the future or past indefinitely; often adverb, forever
+
+## ء ل ه (in the ayah: ٱللَّهَ)
+* Hebrew אלה (ء→א ل→ל ه→ה): BDB cites an Arabic cognate; 3723 WLC occurrences; `hebrew.py root אלה` lists them
+  - אֵל (ʾēl) N 'god' [H410; Hebrew; 245 WLC occurrences] Strong: strength; as adjective, mighty; especially the Almighty (but used also of any deity)
+  - אֵל (ʾēl) P 'these' [H411; Hebrew; 9 WLC occurrences] Strong: these or those
+  - אֱלֹהַּ (ʾĕlōah) N 'god' [H433; Hebrew; 60 WLC occurrences] Strong: a deity or the Deity
+  - אֵלָה (ʾēlâ) Np 'Elah' [H425; Hebrew; 16 WLC occurrences] Strong: Elah, the name of an Edomite, of four Israelites, and also of a place in Palestine
+  - אֵ֫לֶּה (ʾēlleh) P 'these' [H428; Hebrew; 746 WLC occurrences] Strong: these or those
+  - אָלָה (ʾālâ) V 'wail' [H421; Hebrew; 1 WLC occurrence] Strong: to bewail
+  - אָלָה (ʾālâ) V 'swear' [H422; Hebrew; 6 WLC occurrences] Strong: properly, to adjure, i.e. (usually in a bad sense) imprecate
+  - אָלָה (ʾālâ) N 'oath' [H423; Hebrew; 36 WLC occurrences] Strong: an imprecation
+  - אֱלֹהִים (ʾĕlōhîm) N 'gods' [H430; Hebrew; 2598 WLC occurrences] Strong: gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative
+  - אַלְיָה (ʾalyâ) N 'fat tail' [H451; Hebrew; 5 WLC occurrences] Strong: the stout part, i.e. the fat tail of the Oriental sheep
+  - תַּאֲלָה (taʾălâ) N 'curse' [H8381; Hebrew; 1 WLC occurrence] Strong: an imprecation
+* Aramaic אלה (ء→א ل→ל ه→ה): sound correspondence only (unverified); 96 WLC occurrences; `hebrew.py root אלה` lists them
+  - אֱלָהּ (ʾĕlāh) N 'god' [H426; Aramaic; 95 WLC occurrences] Strong: God
+  - אֵלֶּה (ʾēlleh) Pd 'these' [H429; Aramaic; 1 WLC occurrence]
+
+## ر ء ي (in the ayah: يَرَىٰ)
+* Hebrew ראה (ر→ר ء→א ي→ה): sound correspondence only (unverified); 1507 WLC occurrences; `hebrew.py root ראה` lists them
+  - יְהֹוָה יִרְאֶה (yĕhōwâ yirʾeh) N 'see' [H3070; Hebrew; 0 WLC occurrences] Strong: Jehovah-Jireh, a symbolical name for Mount Moriah
+  - מַרְאֶה (marʾeh) N 'sight' [H4758; Hebrew; 104 WLC occurrences] Strong: a view (the act of seeing); also an appearance (the thing seen), whether (real) a shape (especially if handsome, comeliness; often plural the looks), or (mental) a vision
+  - מַרְאָה (marʾâ) N 'mirror' [H4759b; Hebrew; 1 WLC occurrence] Strong: a vision; also (causatively) a mirror
+  - מַרְאָה (marʾâ) N 'vision' [H4759a; Hebrew; 10 WLC occurrences] Strong: a vision; also (causatively) a mirror
+  - רָאֶה (rāʾeh) A 'seeing' [H7202; Hebrew; 1 WLC occurrence] Strong: seeing, i.e. experiencing
+  - רָאָה (rāʾâ) V 'see' [H7200; Hebrew; 1305 WLC occurrences] Strong: to see, literally or figuratively (in numerous applications, direct and implied, transitive, intransitive and causative)
+  - רֹאֶה (rōʾeh) N 'vision' [H7203b; Hebrew; 1 WLC occurrence] Strong: a seer (as often rendered); but also (abstractly) a vision
+  - רֹאֶה (rōʾeh) Np 'Haroeh (including the article)' [H7204; Hebrew; 1 WLC occurrence] Strong: Roeh, an Israelite
+  - רֹאֶה (rōʾeh) N 'seer' [H7203a; Hebrew; 5 WLC occurrences] Strong: a seer (as often rendered); but also (abstractly) a vision
+  - רְאוּבֵן (rĕʾûbēn) Np 'Reuben' [H7205; Hebrew; 72 WLC occurrences] Strong: Reuben, a son of Jacob
+  - רַאֲוָה (raʾăwâ) V 'see' [H7207; Hebrew; 0 WLC occurrences] Strong: sight, i.e. satisfaction
+  - רְאוּת (rĕʾût) N 'look' [H7212; Hebrew; 1 WLC occurrence] Strong: sight
+  - רְאִי (rĕʾî) N 'mirror' [H7209; Hebrew; 1 WLC occurrence] Strong: a mirror (as seen)
+  - רֳאִי (rŏʾî) N 'looking' [H7210; Hebrew; 5 WLC occurrences] Strong: sight, whether abstractly (vision) or concretely (a spectacle)
+* Hebrew רוה (ر→ר ء→ו ي→ה): sound correspondence only (unverified); 20 WLC occurrences; `hebrew.py root רוה` lists them
+  - רָוֶה (rāweh) A 'watered' [H7302; Hebrew; 3 WLC occurrences] Strong: sated (with drink)
+  - רָוָה (rāwâ) V 'be saturated' [H7301; Hebrew; 14 WLC occurrences] Strong: to slake the thirst (occasionally of other appetites)
+  - רְוָיָה (rĕwāyâ) N 'saturation' [H7310; Hebrew; 2 WLC occurrences] Strong: satisfaction
+  - רִי (rî) N 'moisture' [H7377; Hebrew; 1 WLC occurrence] Strong: irrigation, i.e. a shower
+* Aramaic ראה (ر→ר ء→א ي→ה): sound correspondence only (unverified); 2 WLC occurrences; `hebrew.py root ראה` lists them
+  - רֵו (rēw) N 'appearance' [H7299; Aramaic; 2 WLC occurrences] Strong: aspect
+
+=== COMMENTARY ===
+
+## Öğretilen insan ve bilinmeyen tek şey
+
+[¶1] Ayet bir soru cümlesidir: {ar:أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ, tr:e lem yaʿlem bi-ennallâhe yerâ, gloss:Allah'ın gördüğünü bilmedi mi, source:96:14}. Başta soru eki, hemen ardından olumsuzluk edatı gelir. Bu ikili Arapçada bilgi isteyen bir soru kurmaz, karşıdakini zaten bildiği bir şeyle yüz yüze getirir. Cevap bellidir: biliyordu. Soru, bilinen şeyle yapılan iş arasındaki açıklığı gösterir. Olumsuzluk edatı fiili geçmişe çevirdiği için soru belirli bir ana da bağlanır: dokuzuncu ayetten beri anlatılan adam, namaz kılan bir kulu engellerken, yalanlayıp yüz çevirirken bunu bilmiyor muydu? Öznenin kim olduğu ayette ayrıca söylenmez; fiil, bir önceki ayetin yalanlayıp yüz çevireninden devam eder {source:96:13}.
+
+[¶2] Bu soruyu surenin başı hazırlar. Beşinci ayet Rabbin cömertliğini şöyle anlatır: {ar:عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ, tr:ʿalleme'l-insâne mâ lem yaʿlem, gloss:insana bilmediğini öğretti, source:96:5}. Aynı fiil, aynı olumsuzluk edatıyla, aynı biçimde on dördüncü ayette geri döner; yalnızca başına soru eki gelmiştir. Beşinci ayette bilmemek, insanın yaratılıştan getirdiği bir boşluktur ve Rab onu öğretmeyle doldurur. On dördüncü ayette aynı iki kelime bir suçlamaya dönüşür: kalemle öğretilen, bilmediği pek çok şeyi öğrenen insan, bilmesi gereken bir şeyi bilmiyormuş gibi davranır. Öğretilmiş bilgi ile hayata geçirilen bilgi arasındaki fark, surenin ilk yarısıyla ikinci yarısı arasındaki farktır.
+
+[¶3] Sesin düzeni de aynı yere işaret eder. İlk beş ayet ünsüzle kapanan kelimelerle ilerler ve bu bölümün son kelimesi, beşinci ayetin sonundaki "bilmedi" fiilidir. Altıncı ayetten itibaren her ayet uzun bir â sesiyle biter ve bu dizinin son halkası, bu ayetin son kelimesi olan "görür" fiilidir; on beşinci ayetle ses yeniden değişir. On dördüncü ayet böylece ilk bölümün kafiye kelimesiyle açılır, ikinci bölümün kafiyesiyle kapanır. Surenin iki sesi, bilmek ve görmek, bu tek cümlede birleşir.
+
+[¶4] Fiilin haberi de doğrudan değil, bir edatla bağlanmıştır: bi-enne, "-dığından". Araplar bir haberden habersiz kaldıklarını söylerken {ar:ما علمت بخبرك أي ما شعرت به, tr:mâ ʿalimtu bi-haberike, ey mâ şaʿartu bih, gloss:haberini bilmedim, yani farkına varmadım, source:"ع ل م,B001"} derlerdi. Bu edatla kurulan bilmek, bir bilgiyi elde tutmaktan çok bir şeyin farkına varmak, onu duyumsamaktır. Soru bu tonu taşır: Allah'ın gördüğü, bu adama ulaşmamış bir haber değildir; eksik olan, bu bilginin onda bir farkındalığa dönüşmemesidir.
+
+[¶5] Türkçede ilim kelimesi daralmıştır: okulla, kitapla, uzmanlıkla edinilen bilgiyi anar. Arapçada aynı kökün fiili en sade farkındalığı da adlandırır. Onun karşıtı cehalettir, {ar:العلم نقيض الجهل, tr:el-ʿilmu nakîdu'l-cehl, gloss:bilgi cehaletin karşıtıdır, source:"ع ل م,B001"}, ve bilmek bir şeyi gerçekte olduğu gibi kavramaktır: {ar:إدراك الشيء بحقيقته, tr:idrâku'ş-şey'i bi-hakîkatih, gloss:bir şeyi hakikatiyle kavramak, source:"ع ل م,B001"}. Ayetin sorduğu bilgi bir âlimin bilgisi değildir; herkesin taşıyabileceği ve taşıması gereken bir kavrayıştır.
+
+[¶6] Kurân aynı soru kalıbını başka bir yerde, kendilerine bolluk verilince sözünden dönenler için kullanır. Allah, aralarından bazılarının kendisine söz verdiğini anlatır: lütfundan verirse sadaka verecekler, iyilerden olacaklardır. Verilince ne yaptıkları şöyle söylenir: {ar:فَلَمَّآ ءَاتَىٰهُم مِّن فَضْلِهِۦ بَخِلُوا۟ بِهِۦ وَتَوَلَّوا۟ وَّهُم مُّعْرِضُونَ, tr:fe lemmâ âtâhum min fadlihî bahilû bihî ve tevellev ve hum muʿridûn, gloss:lütfundan onlara verince onda cimrilik ettiler ve büsbütün sırt dönerek yüz çevirdiler, source:9:76}. Az sonra gelen soru bu ayetin sorusuyla aynı kalıptadır: {ar:أَلَمْ يَعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ سِرَّهُمْ وَنَجْوَىٰهُمْ, tr:e lem yaʿlemû ennallâhe yaʿlemu sirrahum ve necvâhum, gloss:Allah'ın onların sırrını ve fısıltılarını bildiğini bilmediler mi, source:9:78}. Orada da önce verilen bolluk, sonra yüz çevirme, sonra "bilmediler mi" sorusu gelir. Bu surede de kendini yeterli gören insan {source:96:7} ve yalanlayıp yüz çeviren adam {source:96:13} aynı soruyla karşılaşır. Sorulan, bir bilginin eksikliği değil, bolluğun unutturduğu bir farkındalıktır.
+
+## Bilmek, işareti tanımaktır
+
+[¶7] Bilmek fiilinin kökü, ailesinde somut bir nesne taşır: işaret. Bu ve bundan sonraki aile imgeleri ayetteki kelimenin anlamının yerine geçmez, onun yanında duyulur; ayet "bilmek" der, imge bilmenin nasıl işlediğini gösterir. Kökün özü, bir şeyin üzerinde onu ötekilerden ayıran bir izdir: {ar:أصل صحيح واحد يدل على أثر بالشيء يتميز به عن غيره, tr:aslun sahîhun vâhidun yedullu ʿalâ eserin bi'ş-şey'i yetemeyyezu bihî ʿan gayrih, gloss:bir şeyin üzerinde onu başkalarından ayıran bir izi gösteren tek, sağlam bir köklü anlam, source:"ع ل م,B002"}. Çölde yolculuk eden için bu iz hayati bir şeydi: {ar:المعلم الأثر يستدل به على الطريق, tr:el-maʿlem el-eseru yustedellu bihî ʿale't-tarîk, gloss:maʿlem, yolu bulmak için kendisine bakılan izdir, source:"ع ل م,B002"}. Uzaktan görünen yüksek dağ da aynı adı taşırdı, {ar:العلم الجبل الطويل, tr:el-ʿalemu'l-cebelu't-tavîl, gloss:alem, yüksek dağdır, source:"ع ل م,B002"}, savaşta taşınan sancak da: {ar:العلم الراية, tr:el-ʿalemu'r-râye, gloss:alem, sancaktır, source:"ع ل م,B002"}. Bir atlı savaşta tanınmak için üzerine bir işaret taktığında da {ar:أعلم الفارس إذا كانت له علامة في الحرب, tr:eʿleme'l-fârisu izâ kânet lehû ʿalâmetun fi'l-harb, gloss:atlı, savaşta kendine bir işaret taktı, source:"ع ل م,B002"} denirdi. Bunların hepsi aynı işi görür: işaret görülür, gören onu tanır ve yolunu, yönünü ya da kimin kim olduğunu ondan çıkarır. Bilmek bu ailede, bir şeyi kendisini ayırt eden işaretinden tanımaktır.
+
+[¶8] Kurân bu işi yeryüzünün düzeninde anlatır. Allah dağları, ırmakları ve yolları yeryüzüne yol bulasınız diye koyduğunu söyler {source:16:15}, sonra ekler: {ar:وَعَلَٰمَٰتٍۢ, tr:ve ʿalâmâtin, gloss:ve yol işaretleri, source:16:16}; {ar:وَبِٱلنَّجْمِ هُمْ يَهْتَدُونَ, tr:ve bi'n-necmi hum yehtedûn, gloss:yıldızla da onlar yollarını bulurlar, source:16:16}. Aynı kökten gelen âlem kelimesi de bu işin bir uzantısı olarak açıklanırdı; her yaratılmış tür kendi başına bir işaret ve bir sancaktır: {ar:العالمون كل جنس من الخلق فهو في نفسه معلم وعلم, tr:el-ʿâlemûn kullu cinsin mine'l-halki fe huve fî nefsihî maʿlemun ve ʿalem, gloss:âlemler, yaratılmışların her türüdür; her biri kendi içinde bir yol işareti ve bir sancaktır, source:"ع ل م,B003"}. Namaz kılan her kul, her rekâtta okunan açılış suresinde Allah'ı bu işaretlerin Rabbi olarak anar: {ar:ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ, tr:el-hamdu lillâhi rabbi'l-ʿâlemîn, gloss:hamd âlemlerin Rabbi Allah'adır, source:1:2}.
+
+[¶9] Görme fiilinin ailesinde de bir sancak vardır. Kelimeyi görme köküne bağlayanlar onu şöyle tanımlar, {ar:الراية العلامة المنصوبة للرؤية, tr:er-râye el-ʿalâmetu'l-mensûbetu li'r-ru'ye, gloss:râye, görülmek için dikilen işarettir, source:"ر ء ي,B011"}, ve onu bilmek kökünün kelimesiyle açıklar: {ar:الراية العلم, tr:er-râyetu'l-ʿalem, gloss:râye, alemdir, source:"ر ء ي,B011"}. Araplar bu kelimeyi hemzesiz söylerdi ve kökü konusunda tek bir kanaat yoktur; bu yüzden burada bir kök birliği değil, iki ayrı ailenin aynı nesneye vardığı bir karşılaşma söz konusudur. Yine de karşılaşma anlamlıdır: ayetin iki fiili, bilmek ve görmek, uzaktan görülmek için dikilmiş ve tanınmak için konmuş aynı direkte buluşur. Bir işaret görülmedikçe bilgi vermez; görülüp de tanınmazsa yine vermez.
+
+[¶10] Sorunun ağırlığı buradan duyulur. Yüz çeviren adamın önünde işaretler dikilidir: surenin başındaki yaratma {source:96:1} ve öğretme {source:96:4}, onun kendi varlığına işlenmiş işaretlerdir. Allah'ın gördüğü bilgisi de böyle bir işarettir ve yol ona bakılarak bulunur. Soru, adamın bu işareti hiç duymadığını söylemez; ona bakarak yürümediğini söyler. On birinci ayetteki {ar:عَلَى ٱلْهُدَىٰٓ, tr:ʿale'l-hudâ, gloss:doğru yol üzerinde, source:96:11} ifadesi de yolculuğun dilindendir; yol ile yön kaybının sahnesi surenin bütününe aittir.
+
+## Kendini gören, bakmaya çağrılan ve gören
+
+[¶11] Görme kökü bu surede beş kez geçer ve öznesi değişir. Yedinci ayette insan kendini görür: {ar:أَن رَّءَاهُ ٱسْتَغْنَىٰٓ, tr:en ra'âhu'stagnâ, gloss:kendini yeterli gördüğü için, source:96:7}. Bu görme gözle değildir. Fiil iki nesne alır, "kendini" ve "yeterli olmuş", ve Araplar görmeyi bilmek anlamında kullandıklarında onu böyle kurarlardı: {ar:بمعنى العلم تتعدى إلى مفعولين, tr:bi-maʿne'l-ʿilmi teteʿaddâ ilâ mefʿûleyn, gloss:bilmek anlamında olunca iki nesne alır, source:"ر ء ي,B002"}. Öznenin ve nesnenin aynı kişi olduğu kuruluş da fiilin bir yargı fiili olduğunu gösterir. Bu, kalbin görmesidir: {ar:الرأي رأي القلب, tr:er-ra'yu ra'yu'l-kalb, gloss:görüş, kalbin görmesidir, source:"ر ء ي,B002"}. Türkçede rey kelimesi sandığa atılan oya daralmıştır; Arapçada rey {ar:الرأي ما يراه الإنسان في الأمر, tr:er-ra'yu mâ yerâhu'l-insânu fi'l-emr, gloss:görüş, insanın bir işte gördüğüdür, source:"ر ء ي,B002"}, insanın bir işe bakıp vardığı kanaattir. Yedinci ayetin insanı kendine bakmış ve kendi hakkında bir rey vermiştir: yeterliyim. Aynı ailedeki ayna, kendine bakıp kendinden hüküm çıkaran bu insanın sahnesine, yedinci ayete aittir.
+
+[¶12] Burada bir çaprazlama vardır. İnsanın "görmesi" aslında bir bilmedir, bir yargıdır; on dördüncü ayette ise ona "bilmek" sorulur ve bilmesi gereken şey bir görmedir. Kendi hakkındaki yanılgısını görme diye yaşayan insana, gerçek görmeyi bilip bilmediği sorulur.
+
+[¶13] Arada sure dinleyene üç kez döner: {ar:أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ, tr:e ra'eyte'llezî yenhâ, gloss:engelleyeni gördün mü, source:96:9}. Bu kalıp gözle görmeyi sormaz; Araplar onu "bana haber ver" yerine kullanır ve içine bir uyarı koyarlardı: {ar:يجري أرأيت مجرى أخبرني وكل ذلك فيه معنى التنبيه, tr:yecrî e ra'eyte mecrâ ahbirnî ve kullu zâlike fîhi maʿne't-tenbîh, gloss:"gördün mü", "bana haber ver" yerine geçer ve hepsinde dikkat çekme anlamı vardır, source:"ر ء ي,B013"}. Üçüncü çağrı yalanlayıp yüz çevireni anar {source:96:13} ve onun cevabı on dördüncü ayettir: söyle bana, yalanlayıp yüz çevirdiyse, Allah'ın gördüğünü bilmiyor mu? "Gördün mü" sorusunun kendisi de bir soru olan bir cümleyle tamamlanması Arapçada bilinen bir kuruluştur; böylece dinleyene yöneltilen üç bakış çağrısı, Allah'ın görmesinde son bulur.
+
+[¶14] Kökün öznesi üç basamakta değişmiştir: insan, dinleyen, Allah. İnsanın görmesi bir nesneye, kendine kapanmıştı. Dinleyenin görmesi bir adama, engelleyene yöneltildi. Allah'ın görmesinin ise hiçbir nesnesi söylenmez: {ar:يَرَىٰ, tr:yerâ, gloss:görür, source:96:14}. Kökün temel anlamı gözle ya da iç kavrayışla bakmaktır, {ar:نظر وإبصار بعين أو بصيرة, tr:nazarun ve ibsârun bi-ʿaynin ev basîra, gloss:gözle ya da basiretle bakmak ve görmek, source:"ر ء ي,B001"}; ayet nasıl gördüğünü söylemez, neyi gördüğünü de söylemez. Söylediği, görmenin var olduğudur.
+
+[¶15] Kökün ettirgen biçimi göstermektir, {ar:أريته الشيء فرآه, tr:ereytuhu'ş-şey'e fe ra'âh, gloss:ona şeyi gösterdim, o da gördü, source:"ر ء ي,B012"}, ve bu gösterme öğretmekle açıklanır: {ar:وبما أراك الله أي بما علمك, tr:ve bimâ erâke'llâhu ey bimâ ʿallemek, gloss:Allah'ın sana gösterdiğiyle, yani sana öğrettiğiyle, source:"ر ء ي,B012"}. Bu kullanım Kurân'dadır: Allah Peygamber'e kitabı hakla indirdiğini, insanlar arasında {ar:بِمَآ أَرَىٰكَ ٱللَّهُ, tr:bimâ erâke'llâh, gloss:Allah'ın sana gösterdiğiyle, source:4:105} hüküm versin diye söyler. Öğretmek görmeyi sağlamaksa, beşinci ayetin öğretmesi ile on dördüncü ayetin görmesi aynı kaynağa döner: insana bilmediğini öğreten, hem görendir hem gösteren. İnsanın kendine bakıp vardığı yargı ise ona gösterilmiş olandan değil, kendi aynasından gelir.
+
+[¶16] Kurân aynı kelimeleri başka bir surede de yan yana getirir. Orada da dinleyene bir soru yöneltilir, {ar:أَفَرَءَيْتَ ٱلَّذِى تَوَلَّىٰ, tr:e fe ra'eyte'llezî tevellâ, gloss:yüz çevireni gördün mü, source:53:33}, ve o adam {ar:وَأَعْطَىٰ قَلِيلًۭا وَأَكْدَىٰٓ, tr:ve aʿtâ kalîlen ve ekdâ, gloss:az verdi, sonra elini çekti, source:53:34}. Ardından sorulur: {ar:أَعِندَهُۥ عِلْمُ ٱلْغَيْبِ فَهُوَ يَرَىٰٓ, tr:e ʿindehû ʿilmu'l-gaybi fe huve yerâ, gloss:yanında görünmeyenin bilgisi var da o mu görüyor, source:53:35}. "Gördün mü", "yüz çevirdi", "bilgi" ve nesnesiz "görüyor" orada da aynı sırayla dizilir; ama orada gören olduğunu sanan adamın kendisidir ve soru, onun böyle bir bilgisi olmadığını söyler. Birkaç ayet sonra görme yön değiştirir; insanın çabası için {ar:وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ, tr:ve enne saʿyehû sevfe yurâ, gloss:ve onun çabası görülecektir, source:53:40} denir ve kısa süre sonra {ar:وَأَنَّ إِلَىٰ رَبِّكَ ٱلْمُنتَهَىٰ, tr:ve enne ilâ rabbike'l-muntehâ, gloss:ve varış Rabbinedir, source:53:42} gelir. Bu surenin sekizinci ayeti de dönüşü aynı biçimde Rabbe bağlar {source:96:8}. İki yer birbirini tamamlar: yüz çeviren, görenin kendisi olduğunu sanır; oysa kendisi görülendir.
+
+## Nesnesi söylenmeyen görme
+
+[¶17] Nesnenin söylenmemesi görmenin sınırını kaldırır. Allah engelleyeni görür; engellenen kulu da görür. Aynı cümle birine tehdit, ötekine güvencedir.
+
+[¶18] Kurân bu iki yüzü, yine nesnesiz bir görmeyle başka bir yerde açıkça gösterir. Allah Mûsâ ile kardeşi Hârûn'u Firavun'a gönderir: {ar:ٱذْهَبَآ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ, tr:izhebâ ilâ firʿavne innehû tagâ, gloss:Firavun'a gidin, çünkü o azdı, source:20:43}. İkisi korkularını söyler: {ar:قَالَا رَبَّنَآ إِنَّنَا نَخَافُ أَن يَفْرُطَ عَلَيْنَآ أَوْ أَن يَطْغَىٰ, tr:kâlâ rabbenâ innenâ nehâfu en yefruta ʿaleynâ ev en yatgâ, gloss:dediler ki: Rabbimiz, bize karşı aşırı gitmesinden ya da azmasından korkuyoruz, source:20:45}. Korktukları fiil, bu surenin altıncı ayetinde insan için söylenen fiildir: {ar:لَيَطْغَىٰٓ, tr:le-yatgâ, gloss:elbette azar, source:96:6}. Allah'ın cevabı şudur: {ar:إِنَّنِى مَعَكُمَآ أَسْمَعُ وَأَرَىٰ, tr:innenî meʿakumâ esmeʿu ve erâ, gloss:ben sizinle beraberim, işitirim ve görürüm, source:20:46}. Orada da görmenin nesnesi yoktur ve söz, azan bir güç ile Allah'ın kullarının karşı karşıya geldiği bir sahnede söylenir. Mûsâ ile Hârûn için bu söz korkuyu gideren bir güvencedir; Firavun için aynı söz, azgınlığının görüldüğü anlamına gelir. Namaz kılan kul ile onu engelleyen adam arasındaki sahne, bu karşılaşmanın küçük bir benzeridir.
+
+[¶19] Güvence yüzü Peygamber'e de söylenir. Allah ona en yakın akrabasını uyarmasını, kendisine uyan inananlara kanat germesini, karşı gelirlerse yaptıklarından uzak olduğunu söylemesini emreder {source:26:216}, sonra şöyle der: {ar:وَتَوَكَّلْ عَلَى ٱلْعَزِيزِ ٱلرَّحِيمِ, tr:ve tevekkel ʿale'l-ʿazîzi'r-rahîm, gloss:güçlü ve merhametli olana dayan, source:26:217}; {ar:ٱلَّذِى يَرَىٰكَ حِينَ تَقُومُ, tr:ellezî yerâke hîne tekûm, gloss:kalktığında seni gören, source:26:218}; {ar:وَتَقَلُّبَكَ فِى ٱلسَّٰجِدِينَ, tr:ve tekallubeke fi's-sâcidîn, gloss:secde edenler arasında dönüp durmanı da, source:26:219}. Orada görmenin nesnesi namazdaki kuldur: ayakta duruşu ve secde edenler arasındaki hareketi. Bu surenin onuncu ayetindeki kul namazdadır {source:96:10} ve son ayette secdeye çağrılır {source:96:19}; on dördüncü ayetin görmesi o duruşu da, o secdeyi de içine alır.
+
+[¶20] Tehdit yüzü ise kendini görülmüyor sanan insana söylenir. Başka bir surede Allah bir adamı anlatır, {ar:يَقُولُ أَهْلَكْتُ مَالًۭا لُّبَدًا, tr:yekûlu ehlektu mâlen lubedâ, gloss:yığın yığın mal harcadım der, source:90:6}, ve sorar: {ar:أَيَحْسَبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌ, tr:e yahsebu en lem yerahû ehad, gloss:onu kimsenin görmediğini mi sanıyor, source:90:7}. Cevap, bu ayetteki gibi soru ekiyle olumsuzluk edatının birleştiği bir sorudur: {ar:أَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ, tr:e lem necʿal lehû ʿayneyn, gloss:ona iki göz vermedik mi, source:90:8}. Göz veren, görendir. Orada malıyla övünen bir insan vardır; bu surede de kendini yeterli gören insanın {source:96:7} hikâyesi, görülmediğini sanırcasına davranmakla sürer.
+
+[¶21] Görme kökü bunun tersini de adlandırır: görülmek için iş yapmayı. {ar:وفعل ذلك رئاء الناس وهو أن يفعل شيئا ليراه الناس, tr:ve feʿale zâlike ri'âe'n-nâsi ve huve en yefʿale şey'en li-yerâhu'n-nâs, gloss:bunu insanlara gösteriş için yaptı; yani insanlar görsün diye bir şey yaptı, source:"ر ء ي,B005"}. Kurân kısa bir surede namaz kılanların bir kısmına yazıklar olsun der: namazlarından gafildirler {source:107:5} ve {ar:ٱلَّذِينَ هُمْ يُرَآءُونَ, tr:ellezîne hum yurâ'ûn, gloss:onlar gösteriş yaparlar, source:107:6}. Onların namazı insanların gözüne göre kılınır. Bu surenin kulu ise başka gözlerin önündedir: bir adam onu engellemek için bakar, dinleyen ona bakmaya çağrılır ve on dördüncü ayet namazın asıl tanığını adlandırır. Kulun namazı görülmek için değil, görüldüğü için kılınır.
+
+## Surede bir kez anılan ad
+
+[¶22] Bu surede Allah'tan hep "Rabbin" diye söz edilir: {ar:ٱقْرَأْ بِٱسْمِ رَبِّكَ, tr:ikra' bi-smi rabbik, gloss:Rabbinin adıyla oku, source:96:1}, {ar:وَرَبُّكَ ٱلْأَكْرَمُ, tr:ve rabbuke'l-ekrem, gloss:ve Rabbin en cömert olandır, source:96:3}, {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inne ilâ rabbike'r-rucʿâ, gloss:dönüş elbette Rabbinedir, source:96:8}. Allah adı yalnızca bu ayette geçer. Rab bir ilişkinin adıdır: Peygamber'e "senin Rabbin" denir; yaratan, en cömert olan, öğreten. On dördüncü ayette söz, namaz kılan kulu engelleyen adama dönmüştür ve o adam için bu ilişki adı kullanılmaz; gelen ad, kendi başına duran addır.
+
+[¶23] Bu adın kökü tapılanı adlandırır. Araplar kulluk etmeyi bu kökle anlatırlardı, {ar:التأله التعبد, tr:et-teellühu't-teʿabbud, gloss:teellüh, kulluk etmektir, source:"ء ل ه,B001"}; tapılan her şey bu adla anılırdı ve {ar:فالإله على هذا هو المعبود, tr:fe'l-ilâhu ʿalâ hâzâ huve'l-maʿbûd, gloss:buna göre ilah tapılandır, source:"ء ل ه,B001"}. Hatta {ar:لا يكون إلاها حتى يكون معبودا, tr:lâ yekûnu ilâhen hattâ yekûne maʿbûdâ, gloss:tapılmadıkça ilah olmaz, source:"ء ل ه,B001"} denirdi. Bir açıklamaya göre Allah adı da bu kelimeden, hemzesi düşüp başına belirlilik takısı gelerek oluşmuş ve Yaratıcıya özgülenmiştir: {ar:الله قيل أصله إله فحذفت همزته وأدخل عليها الألف واللام فخص بالباري تعالى, tr:Allâhu kîle asluhû ilâhun fe huzifet hemzetuhû ve udhile ʿaleyhe'l-elifu ve'l-lâmu fe hussa bi'l-bârî teʿâlâ, gloss:Allah adının aslının ilah olduğu, hemzesi düşürülüp belirlilik takısı eklenerek Yaratıcıya özgülendiği söylenir, source:"ء ل ه,B002"}.
+
+[¶24] Onuncu ayetin kulu, {ar:عَبْدًا إِذَا صَلَّىٰٓ, tr:ʿabden izâ sallâ, gloss:namaz kıldığında bir kulu, source:96:10}, kulluk ederken engellenir. On dördüncü ayette ilk ve tek kez anılan ad, o kulluğun yöneldiği, kökünde tapılanı taşıyan addır. Sahne böylece tamamlanır: bir kul tapınır, bir adam onu engeller ve tapılan bakmaktadır. Engelleyen, kul ile tapılan arasına girer; ama tapılanın gözünün önünde girer. Engellediği şey bir insanın alışkanlığı değil, Allah'a yönelmiş bir eylemdir ve o eylemin muhatabı onu görmektedir. Azan insanın kendini efendi yerine koyuşu ile kulun gerçek efendisi arasındaki karşılaşma, altıncı ayetin azmasından son ayetin "ona boyun eğme" emrine {source:96:19} uzanan surenin bütününe aittir; bu ayetin payı, o karşılaşmada tapılanın adını koymak ve onun gördüğünü söylemektir.

@@ -1,0 +1,2011 @@
+{
+  "target": "sec8",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:29:04.089085-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_sec8_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "d160bb1fa78beb460cbf9a457dce08592a4704285f3a1174910072614f4b7052",
+  "package_sha256": "fdc94540bc19f24b2b0b3796457ada916bd53c0997a8bc794f15b9f0805cb3e1",
+  "input_sha256": "fe454372a53e577fdcae63884b2ccd0870293c50bd867a64a5f024e8e5b5acba",
+  "spawn_sha256": "fd908457e519fe18327c0925f743846f01cb4805248864d21a941c958d37475b",
+  "followup_text_sha256": "470908b69f16be13a54c758aa23923546c99f8f78983bcc764d338adc3f3d093",
+  "agent_id": "01a11f23-03ed-7cd3-a430-8812d77bbf97",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-29-13-01a11f23-03ed-7cd3-a430-8812d77bbf97.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 88,
+  "turn1_sha256": "53f6f4ab37916b75041b180f075ed6b152005b2b7b3852747979d0279daa7a40",
+  "turn2": {
+    "completed": true,
+    "rows_total": 147,
+    "rows_added": 59
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 88,
+    "raw_proposal_rows": 59,
+    "unique_additions": 59,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.37.32",
+          "basis": "Yusuf brothers' bloodied robe; visual testimony",
+          "note": "The commentary quotes the brothers anticipating that Yaqub will not believe them; Genesis has them present Joseph's bloodied robe and ask their father to identify it. Both stage a claim through an object offered for inspection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.37.33",
+          "basis": "Jacob's inference from the robe",
+          "note": "In the commentary's Qur'anic scene Yaqub rejects the brothers' account as something their souls invented; Genesis has him infer from the robe that Joseph was devoured. The changed response to misleading evidence is the point."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.45.26",
+          "basis": "Jacob disbelieves the true report",
+          "note": "The commentary quotes the brothers saying their father would not believe them even if truthful; in Genesis they report Joseph is alive and Jacob does not believe them. The shared family scene turns on whether a report is credible."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.45.27",
+          "basis": "wagons as visible corroboration",
+          "note": "The commentary permits a reading in which seeing precedes confirmation; Genesis says Jacob's spirit revives when he sees the wagons Joseph sent. Here visible evidence changes his response to the report."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.2",
+          "basis": "Moses sees fire",
+          "note": "The commentary quotes Musa saying he saw a fire and may bring back a coal or find guidance; Exodus has Moses see the angel of the LORD in a flame within a bush. The shared encounter presents fire as a visible sign, while the Qur'anic gloss stresses wayfinding."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.3.3",
+          "basis": "turning aside to inspect",
+          "note": "The commentary develops seeing as noticing and examining; Moses turns aside to see why the bush is not consumed. The biblical scene makes looking an inquiry rather than mere sight."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.4.1",
+          "basis": "Moses anticipates disbelief",
+          "note": "The commentary's Yusuf example makes credibility the issue; Moses tells the LORD that Israel will not believe him or listen to his voice. This is a distinct biblical scene where a messenger worries that his report will not be accepted."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.4.5",
+          "basis": "signs intended to elicit belief",
+          "note": "The commentary glosses iman as tasdiq; after giving Moses signs, the LORD says they are meant so Israel may believe that the God of their ancestors appeared to him. The signs explicitly connect visible evidence with assent."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.4.8",
+          "basis": "first and second signs",
+          "note": "The commentary connects seeing with becoming sure; Exodus distinguishes a sign that may fail to persuade from a second sign that may be believed. It gives a staged test of a messenger's claim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.14.31",
+          "basis": "seeing followed by belief",
+          "note": "The commentary says the sequence may be read as seeing and then confirming, though the narrative alone does not require it; Israel sees the great act at the sea, fears the LORD, and believes in him and Moses. This is an explicit biblical sequence of sight and belief."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.42.20",
+          "basis": "words verified by a required check",
+          "note": "The commentary quotes confirmation of a saying; Joseph makes the brothers bring Benjamin so their claim can be tested and they will not die. This is a narrative case where corroboration is demanded before a report is accepted."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.15.6",
+          "basis": "belief reckoned as righteousness",
+          "note": "The commentary joins iman and haqq as the soul's assent to truth; Genesis says Abram believed YHWH and it was reckoned to him as righteousness. The verse links belief with right standing in a concrete promise scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.4.9",
+          "basis": "eyes that saw, teaching descendants",
+          "note": "The commentary describes people who see and pass confirmed truth to one another; Deuteronomy tells Israel not to forget what their eyes saw and to teach it to children and grandchildren. Sight becomes communal transmission across generations."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.25",
+          "basis": "doing commandments as righteousness",
+          "note": "The commentary's exception joins belief to righteous deeds; Deuteronomy says doing the commandments carefully will be righteousness for Israel. This gives a Torah formulation in which right standing is tied to practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.13.4",
+          "basis": "the sign is not enough",
+          "note": "The commentary treats belief as confirmation and cites checking a report; Deuteronomy says not to follow a prophet whose sign succeeds if he urges other gods, because God is testing Israel's love. A striking sign alone does not establish a trustworthy message."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.18.22",
+          "basis": "checking a prophetic word",
+          "note": "The commentary's haqq includes verifying an affair and becoming certain; Deuteronomy says a failed prediction shows that the word was not spoken by the LORD. It gives a specific test for a claim of divine speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.23.1",
+          "basis": "false report and witness",
+          "note": "The commentary contrasts truthful counsel with a report that needs checking; Exodus forbids carrying a false report or joining a malicious witness. The law guards the circulation of claims among a community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.14.15",
+          "basis": "believing every word versus prudence",
+          "note": "The commentary's Yusuf scene concerns whether to accept a claim; Proverbs says the simple believe every word while the prudent consider their steps. It directly distinguishes credulity from discernment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.18.17",
+          "basis": "the second account tests the first",
+          "note": "The commentary links certainty to checking what one is told; Proverbs says the first litigant seems right until another comes and examines him. It makes cross-examination the means by which an initially plausible account is tested."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.12.17",
+          "basis": "truthful witness and deceit",
+          "note": "The commentary's haqq is verified truth passed between people; Proverbs contrasts one who speaks faithfully and declares what is right with a false witness who speaks deceit. The setting is testimony, not an abstract use of truth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.48.9",
+          "basis": "heard and then seen",
+          "note": "The commentary pairs hearing a report with seeing and confirming; the psalm says what the community heard it has now seen in the city of God. It is a compact communal formula for confirmed experience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.4",
+          "basis": "righteousness and faithfulness",
+          "note": "The commentary pairs belief with righteous deeds; Habakkuk says the righteous live by faithfulness. The verse places righteousness and emunah together while leaving open whether the emphasis is trust or fidelity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.2",
+          "basis": "eyewitnesses and transmission",
+          "note": "The commentary moves from seeing or hearing to affirming what was reported; Luke says his account was handed down by eyewitnesses and servants of the word. The verse connects sensory witness with transmitted teaching."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.4",
+          "basis": "certainty about what was taught",
+          "note": "The commentary glosses haqq as verifying an affair and becoming certain; Luke says he writes so Theophilus may know the certainty of what he was taught. This is an explicit account of checked transmission."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.11",
+          "basis": "receive and examine",
+          "note": "The commentary links hearing with confirmation; the Bereans receive Paul's message eagerly and examine the scriptures daily to see whether his claims are so. The scene models welcome joined to verification."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.1.1",
+          "basis": "heard, seen, and touched",
+          "note": "The commentary begins with a person noticing by sight or hearing; First John grounds its proclamation in what the witnesses heard, saw with their eyes, and touched. The sensory sequence supports a claim passed on to others."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.1.3",
+          "basis": "witness passed on for fellowship",
+          "note": "The commentary reads tawasaw as people communicating what they have confirmed to each other; First John proclaims what was seen and heard so its audience may share fellowship. It joins testimony to a community formed by receiving it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.21",
+          "basis": "test everything, retain the good",
+          "note": "The commentary describes confirming an affair and finding it sound; Paul tells the community to test everything and hold fast to what is good. The language directly joins testing with discernment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.4.1",
+          "basis": "test before believing",
+          "note": "The commentary cites checking a report before accepting it; First John says not to believe every spirit but to test the spirits to see whether they are from God. It applies verification to religious claims."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.17",
+          "basis": "faith without works",
+          "note": "The commentary's exception names both belief and righteous deeds; James says faith without works is dead. The verse makes action a condition of living faith."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.21",
+          "basis": "Abraham's action",
+          "note": "The commentary pairs belief with righteous deeds; James points to Abraham offering Isaac as an act by which he was justified. It gives a specific scriptural example of conduct accompanying faith."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.22",
+          "basis": "faith active with works",
+          "note": "The commentary's lexicon glosses iman as confirmation and amal as work; James says Abraham's faith was working with his works and completed by them. This directly joins the two terms' ethical functions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.23",
+          "basis": "Genesis belief fulfilled",
+          "note": "The commentary joins belief and haqq; James cites Abraham's belief being counted as righteousness and says scripture was fulfilled. It reads the belief as realized through the action just described."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.24",
+          "basis": "not by faith alone",
+          "note": "The commentary's exception states belief and deeds together; James concludes that a person is justified by works and not by faith alone. This is the clearest Christian formula matching that pairing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.5.6",
+          "basis": "faith working through love",
+          "note": "The commentary places iman beside righteous action; Paul says what counts is faith working through love. The verse joins belief to an active ethical expression."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.24",
+          "basis": "stirring one another toward good works",
+          "note": "The commentary reads mutual exhortation in haqq as reciprocal transmission; Hebrews tells readers to consider one another and provoke love and good works. It supplies a concrete communal form of counsel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.25",
+          "basis": "encouragement and perseverance",
+          "note": "The commentary pairs mutual counsel with patience; Hebrews tells the community to encourage one another as the day approaches. The counsel sustains a group through waiting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.13",
+          "basis": "daily mutual exhortation",
+          "note": "The commentary says verified truth is conveyed reciprocally; Hebrews commands daily encouragement so no one is hardened by sin's deceit. It gives mutual counsel an explicit protective purpose."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.25",
+          "basis": "truth spoken to a neighbor",
+          "note": "The commentary reads tawasaw bil-haqq as mutual transmission of truth; Ephesians tells members of one body to put away falsehood and speak truth to each other. The verse makes truthful speech a communal obligation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.19",
+          "basis": "wandering from truth",
+          "note": "The commentary allows loss to be read as a failure of seeing and the exception as return through confirmation; James describes someone wandering from the truth and another bringing him back. It makes communal correction a response to deviation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.20",
+          "basis": "bringing someone back from death",
+          "note": "The commentary says the people who exhort one another pass confirmed truth; James says the one who brings a sinner back saves that person's soul from death. It gives correction a specific salvific consequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.14",
+          "basis": "admonish, encourage, and be patient",
+          "note": "The commentary's final pair is reciprocal counsel and patience; Paul tells the community to admonish the disorderly, encourage the fainthearted, help the weak, and be patient with all. The verse combines distinct forms of counsel with sabr-like endurance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 11.8-12",
+          "basis": "test a prophet by conduct",
+          "note": "The commentary joins truth with righteous action; the Didache says a prophet is to be assessed by whether conduct matches teaching. It makes deeds a concrete test of a religious claim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.37.34",
+          "basis": "grief and sabr jamil",
+          "note": "Genesis says Jacob mourns Joseph for many days; the commentary quotes the Qur'anic answer, beautiful patience. The two tellings give distinct responses to the same reported loss without making Genesis deny patience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.45.28",
+          "basis": "affirmation after evidence",
+          "note": "The commentary links seeing with confirming what one has been told; after the wagons arrive, Jacob declares that Joseph is alive and says he will go see him. The verse gives the explicit affirmation following the evidence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.42.20",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The commentary glosses haqq as confirming a saying; Joseph tells his brothers their words will be verified if they bring Benjamin. Genesis uses the Hebrew אמנ root for words made reliable by a check."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.45.26",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The commentary labels iman as confirmation; Genesis uses the Hebrew אמנ root when Jacob does not believe the brothers' true report. The possible cognate appears in the same Yusuf family scene but with truthful news."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.4.5",
+          "basis": "ء م ن / אמן; table sound correspondence, unverified",
+          "note": "The commentary labels iman as tasdiq; Exodus uses the Hebrew אמן root for Israel's believing in Moses' report after signs. The proposed root correspondence adds a lexical link to the scene's evidence-based belief."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.14.31",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The source commentary glosses iman as tasdiq; the Hebrew verb for Israel's belief after seeing the sea uses אמנ. The table's proposed cognate connects the lexical root to a scene of evidence and assent."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.15.6",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The source commentary explicitly glosses iman as tasdiq; Genesis uses the Hebrew אמנ root for Abram's belief. The proposed cognate connects the term to a belief that is counted as righteousness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.12.17",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The commentary joins iman to confirmation and haqq to truth; Proverbs uses אמונה for trustworthy speech in contrast to a false witness. The proposed cognate shows the Hebrew root's sense of reliability in testimony."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.22.4",
+          "basis": "seeing a distant place",
+          "note": "The commentary describes the far-seeing eye as watching from a distance; Genesis says Abraham lifts his eyes and sees the place from afar. This is a concrete biblical image of distant sight preceding action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.22.12",
+          "basis": "action discloses allegiance",
+          "note": "The commentary pairs belief with righteous action; after Abraham does not withhold Isaac, the angel says that now he knows Abraham fears God. The test makes conduct disclose the allegiance professed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.34.9",
+          "basis": "taste and see",
+          "note": "The commentary glosses haqq as correspondence and finding something as it is; the psalm invites its hearers to taste and see that the LORD is good. Sensory testing becomes an image for confirming a claim about God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.3",
+          "basis": "wait for the vision",
+          "note": "The commentary ends its sequence with mutual counsel in patience; Habakkuk says the vision has an appointed time and, even if it seems slow, one must wait for it. Patience is tied to a claim whose fulfillment is awaited."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.7.9",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The commentary explains iman as a person's confirming assent; Deuteronomy calls God נאמן, faithful, as covenant keeper to those who love and obey him. The Hebrew root shifts the emphasis from human assent to divine reliability."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Num.12.7",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The commentary quotes Musa's encounter with fire; Numbers calls Moses נאמן, faithful in all God's house. The same proposed root links the figure who sees a sign with a biblical description of reliable service."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.6.4",
+          "basis": "ء م ن / Aramaic אמנ; table sound correspondence, unverified",
+          "note": "The commentary couples belief with righteous conduct; Biblical Aramaic describes Daniel as מהימן, faithful, when his opponents can find no corruption in him. The root's Aramaic use stresses demonstrated reliability."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Hab.2.4",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The commentary defines iman as assent to truth; Habakkuk says the righteous live by אמונה, often rendered faithfulness. The possible cognate preserves a difference between assent and steadfast fidelity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.4.17",
+          "basis": "ء ن س / אנש; BDB-cited Arabic cognate in table",
+          "note": "The commentary labels al-insan with ء ن س and develops a seeing human; Job asks whether אנוש, a mortal, can be righteous before God. The cognate possibility adds human frailty to the surah's claim about humanity in loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.14.1",
+          "basis": "ء ن س / אנש; BDB-cited Arabic cognate in table",
+          "note": "The commentary develops al-insan as a human who notices and sees; Job calls אנוש short-lived and full of trouble. The proposed cognate adds the Hebrew Bible's mortal, afflicted sense to the universal human condition in loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Eccl.2.11",
+          "basis": "ع م ل / עמל; table sound correspondence, unverified",
+          "note": "The commentary labels righteous deeds with ع م ل and calls the mind's exercise work; Ecclesiastes uses עמל for toil and concludes that the labor brings no gain. The possible root link sets purposeful action against futile toil."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.10.1",
+          "basis": "ح ق ق / חקק; table sound correspondence, unverified",
+          "note": "The commentary's haqq means truth, conformity, and confirmed rightness; Isaiah condemns people who decree חקק decrees of injustice. The proposed root correspondence warns that something prescribed can still be false or unjust."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "Targum Onkelos, Genesis 15:6",
+          "basis": "ء م ن / Aramaic הימן from אמנ; table correspondence, unverified",
+          "note": "The commentary labels iman from ء م ن; Onkelos renders Abraham's belief with an Aramaic form from the אמנ family. The table correspondence is only proposed, while the verse gives a Jewish witness to the cognate's use."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 56:1",
+          "basis": "Abraham sees a cloud on the mountain",
+          "note": "The commentary develops distant sight as perception that can lead to certainty; this midrash reads Abraham's sight of the mountain as seeing a cloud of divine presence, distinguishing his perception from the servants'. It turns seeing into recognition of a sign."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 1:17",
+          "basis": "doing compared with study",
+          "note": "The commentary's exception requires righteous deeds as well as belief; Avot says action is the main thing rather than exposition. The rabbinic maxim gives practice priority in a distinct, concise formulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Makkot 24a",
+          "basis": "Habakkuk's faithfulness as a summary",
+          "note": "The commentary keeps belief, deeds, truth, and patience together; Makkot's list of prophetic summaries ends with Habakkuk's righteous person living by faithfulness. The rabbis make that one principle a compression of the commandments, a different interpretive emphasis."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1QS 5:24-25",
+          "basis": "mutual reproof in truth and humility",
+          "note": "The commentary reads tawasaw bil-haqq as people transmitting confirmed truth to one another; the Community Rule directs members to reprove one another in truth and humility. It makes reciprocal correction a discipline of the community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 2:2",
+          "basis": "steadfastness in calamity",
+          "note": "The commentary ends with people urging one another to patience; Sirach tells the person serving God to set the heart right and be steadfast in a time of calamity. It makes patient endurance part of faithful service."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 2:6",
+          "basis": "trust and hope in God",
+          "note": "The commentary pairs belief with patience; Sirach tells the reader to trust God, hold fast, and hope in him. Its counsel binds trust to endurance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.3",
+          "basis": "faith tested, endurance produced",
+          "note": "The commentary's faith and patience stand together; James says the testing of faith produces endurance. It supplies a causal link between belief and sabr."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.4",
+          "basis": "endurance made complete",
+          "note": "The commentary closes with counsel to patience; James says endurance must complete its work so believers may be mature. It treats patience as an active process rather than passive delay."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.5.3",
+          "basis": "suffering produces endurance",
+          "note": "The commentary couples patience with the path out of loss; Paul says suffering produces endurance. This Christian formulation gives hardship a formative relation to sabr."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.5.4",
+          "basis": "tested character and hope",
+          "note": "The commentary's haqq includes confirmation and certainty; Paul says endurance produces tested character, which produces hope. The progression makes endurance itself a proving process."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.36",
+          "basis": "endurance after doing God's will",
+          "note": "The commentary pairs righteous action with patience; Hebrews says endurance is needed after doing God's will in order to receive the promise. It binds work, waiting, and fulfillment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.38",
+          "basis": "the righteous live by faith",
+          "note": "The commentary makes believers part of the exception to loss; Hebrews quotes the righteous living by faith and warns against shrinking back. It links faith with perseverance under pressure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Rom.4.3",
+          "basis": "Paul reads Genesis 15:6",
+          "note": "The commentary pairs iman with deeds; Paul cites Abraham's belief being counted as righteousness. This Christian reading foregrounds credited belief in the same Abraham text."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Rom.4.5",
+          "basis": "belief apart from a worker's wage",
+          "note": "The commentary's exception explicitly combines belief and deeds; Paul contrasts the worker's wage with the person who believes in the God who justifies the ungodly. This interpretation places emphasis on belief apart from earned payment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.1",
+          "basis": "faith concerning what is unseen",
+          "note": "The commentary permits but does not establish a sight-to-belief reading; Hebrews defines faith as assurance concerning hoped-for things and conviction concerning things not seen. It preserves a contrary Christian account of faith's relation to sight."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.20.29",
+          "basis": "believing without seeing",
+          "note": "The commentary says the sequence does not prove that believers must first see; Jesus blesses those who have not seen and yet believe, after Thomas believes on seeing. The verse states the alternative explicitly."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.5.7",
+          "basis": "walking by faith, not sight",
+          "note": "The commentary's proposed reading moves from sight to confirmation but marks it as unproven; Paul says believers walk by faith rather than sight. This preserves a direct contrary formulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 15.3",
+          "basis": "peaceable mutual correction",
+          "note": "The commentary reads tawasaw bil-haqq as counsel exchanged among people; the Didache instructs members to reprove one another peacefully. It makes correction reciprocal and governs its manner."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.3.13",
+          "basis": "do not tire of doing good",
+          "note": "The commentary pairs righteous action with patience; Paul tells the community not to grow weary in doing good. It directly joins sustained action with endurance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.3.15",
+          "basis": "admonish as a brother",
+          "note": "The commentary's tawasaw is mutual counsel; Paul tells the community to admonish an offender as a brother, not treat him as an enemy. The verse supplies a concrete relational form for correction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, Tractates on John 121",
+          "basis": "faith before sight",
+          "note": "The commentary leaves open whether belief follows seeing; Augustine interprets Jesus' blessing of those who believe without seeing as faith's proper condition. This Christian reading sharpens the alternative already stated in John."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 5:21",
+          "basis": "ages of responsibility",
+          "note": "The commentary's example of orphan property makes observed sound judgment the trigger for handing over wealth; Avot assigns stages of life to commandments, study, and livelihood. The rabbinic age ladder offers a specific, though not identical, account of recognized maturity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.9.39",
+          "basis": "seeing and blindness reversed",
+          "note": "The commentary says the flat Qur'anic wording does not establish loss as blindness and the exception as sight; Jesus explicitly says he came so the blind may see and the seeing become blind. The Gospel makes that metaphorical reversal explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.13.12",
+          "basis": "partial sight in a mirror",
+          "note": "The commentary's source gloss gives the eye a small visible likeness in its pupil; Paul says present sight is like a dim view in a mirror before face-to-face knowledge. The optical analogy is secondary and the images are not identical."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.42.5",
+          "basis": "hearing gives way to sight",
+          "note": "The commentary begins from detecting by sight or hearing and ends with confirmation; Job says he had heard of God by the ear but now his eye sees. This is an explicit passage from received report to firsthand perception."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.10.6",
+          "basis": "report confirmed as true",
+          "note": "The commentary glosses haqq as correspondence and confirmation; the Queen of Sheba tells Solomon that the report she heard in her land was true. Her own assessment names a report matched by what she encounters."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.10.7",
+          "basis": "belief after seeing",
+          "note": "The commentary permits a sight-before-confirmation reading but says the Qur'anic wording does not prove it; the Queen says she did not believe the reports until she came and saw with her own eyes. This is an explicit biblical instance of that sequence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.3.26",
+          "basis": "the response tests the claim",
+          "note": "The commentary links verification with becoming certain about an affair; Solomon's proposed division of the child elicits different responses from the two women. Their reactions supply evidence for identifying the true mother."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.3.27",
+          "basis": "judgment after examination",
+          "note": "The commentary's gloss of haqq includes verifying a matter; Solomon rules that the child belongs to the woman who pleaded for its life. The verse gives the conclusion of a specific test of competing claims."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.1.30",
+          "basis": "acts seen before the refusal",
+          "note": "The commentary allows sight to lead to belief but says that reading is not established by the surah's flat wording; Moses recalls that Israel saw the LORD fight for them in Egypt. This supplies concrete witnessed evidence before the next verse records disbelief."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.1.32",
+          "basis": "disbelief despite witnessed acts",
+          "note": "The commentary's sequence can be read as seeing then confirming, but does not require it; Moses says Israel still did not trust the LORD after recalling those works before their eyes. It is a direct counterexample to sight automatically producing belief."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.6.9",
+          "basis": "seeing without perceiving",
+          "note": "The commentary says loss need not mean blindness and the exception need not mean sight; Isaiah is explicitly told that people will hear without understanding and see without perceiving. This gives the proposed sensory reading an explicit prophetic parallel."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.6.10",
+          "basis": "eyes and ears shut",
+          "note": "The commentary leaves blindness as an unproven reading; Isaiah describes dull hearts, heavy ears, and shut eyes, with turning and healing as the alternative. The passage makes sensory incapacity a judgment rather than a fact implied by loss alone."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.5.21",
+          "basis": "eyes that do not see",
+          "note": "The commentary warns against inferring blindness from the simple statement of loss; Jeremiah addresses a foolish people with eyes that do not see and ears that do not hear. It is another explicit prophetic formulation of that image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.12.2",
+          "basis": "seeing and hearing without response",
+          "note": "The commentary says the surah does not itself state that humanity is blind; Ezekiel calls Israel a rebellious house with eyes to see but not seeing and ears to hear but not hearing. The text names the interpretive condition directly."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.4",
+          "basis": "a voice from the fire",
+          "note": "The commentary cites Musa's sight of fire and notes that the root's range includes hearing; in Exodus, the LORD calls Moses from the bush and Moses answers. This continues the same encounter through an auditory summons."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.4.31",
+          "basis": "hearing, believing, and worshipping",
+          "note": "The commentary links perception, confirmation, and action; Israel hears that the LORD has visited them, believes, and bows in worship. This gives the sensory-to-assent sequence a communal outcome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.27.13",
+          "basis": "belief before seeing",
+          "note": "The commentary allows a sight-to-belief reading but does not make it necessary; the psalmist says he believes he will see the LORD's goodness. This reverses the proposed order and ties faith to hoped-for sight."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.7.9",
+          "basis": "belief and firmness in one saying",
+          "note": "The commentary defines iman as confirmation and haqq as becoming sure; Isaiah says that without believing, the hearers will not be established. The verse makes trust and firmness a deliberate Hebrew wordplay."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Chr.20.20",
+          "basis": "trust in God and prophets",
+          "note": "The commentary glosses iman as accepting a report as true; Jehoshaphat tells Judah to believe in God and his prophets, linking belief with being established and prospering. It applies assent to both divine and prophetic speech."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.89.2",
+          "basis": "faithfulness proclaimed by mouth",
+          "note": "The commentary reads mutual counsel as passing confirmed truth among people; the psalmist says his mouth will make God's faithfulness known to every generation. This is oral transmission across time rather than a private conviction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.17.12",
+          "basis": "hands held steady together",
+          "note": "The commentary ends with people urging one another to patience; Aaron and Hur hold up Moses' hands until sunset so he can persist. The scene gives collective support a concrete role in endurance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.1.32",
+          "basis": "not trusting after God's care",
+          "note": "The commentary's iman means assent; Moses says Israel did not trust God after recalling how God carried them. The verse adds a relational failure to the sight-and-disbelief contrast."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Sanhedrin 5:1",
+          "basis": "seven interrogations of witnesses",
+          "note": "The commentary's Yusuf and news examples turn on whether a report is credible; the Mishnah specifies interrogations for witnesses in capital cases. It makes verification a formal procedure rather than an intuition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Susanna (Theodotion) 51-59",
+          "basis": "separating and testing witnesses",
+          "note": "The commentary cites checking a report before accepting it; Daniel separates the two elders and asks each where they saw Susanna, exposing their incompatible answers. This is a narrative of cross-examination overturning false testimony."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 27:5",
+          "basis": "speech as a test",
+          "note": "The commentary glosses confirming a matter and also develops hearing; Sirach compares testing a person in conversation to testing pottery in a furnace. Speech becomes evidence of character."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 27:7",
+          "basis": "hear before praising",
+          "note": "The commentary connects hearing with verifying what is true; Sirach warns against praising someone before hearing them speak, since this is how people are tested. It gives listening an explicit evidentiary role."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 27:6",
+          "basis": "words reveal inner cultivation",
+          "note": "The commentary says the mind works and the confirmed truth is conveyed; Sirach compares fruit revealing a tree's cultivation with words revealing the thought of a person's heart. It links outward speech to inward disposition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.16",
+          "basis": "fruit tests a prophet",
+          "note": "The commentary pairs belief with righteous deeds and treats truth as something confirmed; Jesus says false prophets are recognized by their fruits. Conduct becomes a test of a religious claim."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.13",
+          "basis": "doers rather than hearers",
+          "note": "The commentary begins with seeing or hearing and then names righteous action; Paul says hearers of the law are not righteous, but doers will be justified. It makes response in action decisive."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.10.17",
+          "basis": "faith comes through hearing",
+          "note": "The commentary notes that perception includes hearing and glosses iman as assent; Paul says faith comes from hearing the message. This gives the hearing-to-belief sequence a direct Christian formulation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.4.39",
+          "basis": "belief from another's report",
+          "note": "The commentary's Yusuf scene concerns whether to credit another person's words; many Samaritans first believe because of the woman's testimony about Jesus. This is a specific instance of received speech producing belief."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.4.42",
+          "basis": "hearing for oneself",
+          "note": "The commentary links heard claims with confirmation; the Samaritans say they now believe not merely because of the woman's speech, since they have heard Jesus themselves and know. The narrative moves from report to firsthand confirmation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.24.11",
+          "basis": "a report first disbelieved",
+          "note": "The commentary cites a report that a listener might reject; the apostles treat the women's account of the empty tomb as nonsense and do not believe them. This is a Gospel scene of a true report meeting disbelief."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.24.12",
+          "basis": "inspection after the report",
+          "note": "The commentary connects verification with seeing what is there; Peter runs to the tomb, sees the linen cloths, and marvels after the women's report. The verse adds physical inspection to the disputed testimony."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.20.27",
+          "basis": "invitation to inspect",
+          "note": "The commentary allows sight to function as verification; Jesus invites Thomas to see and touch his wounds and tells him to become believing. This is a direct scene of testing testimony through sensory evidence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.20.28",
+          "basis": "confession after encounter",
+          "note": "The commentary says iman joins assent to what is found true; Thomas answers Jesus with a confession after the invitation to inspect. This gives the sensory encounter its explicit verbal affirmation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.20.31",
+          "basis": "written testimony intended to produce belief",
+          "note": "The commentary's chain includes truth communicated to others; John says the signs are written so readers may believe and have life. The verse makes a written report the means of later assent."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.22",
+          "basis": "doers, not hearers alone",
+          "note": "The commentary moves from hearing or seeing to righteous action; James commands readers to be doers of the word, not hearers only who deceive themselves. It makes perception without action a self-deception."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.4.31",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The commentary labels iman from ء م ن; Exodus uses the Hebrew אמנ root when Israel believes after hearing that God has visited them. The proposed correspondence links the root to the heard report."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.1.32",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The commentary glosses iman as tasdiq; Moses says Israel did not believe the LORD, using the Hebrew אמנ root. The root occurs in a scene where remembered evidence still fails to produce trust."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.7.9",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The commentary's iman is confirmation; Isaiah repeats forms of the Hebrew אמנ root for believing and being established. The table's sound correspondence is unverified, while the Hebrew wordplay itself is explicit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:2Chr.20.20",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The commentary labels iman with ء م ن; Jehoshaphat uses the Hebrew אמנ root for believing God and the prophets. The proposed cognate appears in a direct exhortation about trust."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.17.12",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The commentary pairs iman with patience; Exodus uses אמונה for Moses' hands remaining steady while Aaron and Hur support him. This root use emphasizes firmness and endurance rather than assent."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.89.2",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The commentary's haqq is truth passed among people; the psalm uses אמונה for God's faithfulness that the speaker announces by mouth to later generations. The possible cognate adds the sense of reliable fidelity."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.27.13",
+          "basis": "ء م ن / אמנ; table sound correspondence, unverified",
+          "note": "The commentary glosses iman as confirmation; the psalm uses the Hebrew אמנ root for believing before seeing the promised goodness. The candidate shows a different temporal relation between faith and sight."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.8.5",
+          "basis": "ء ن س / אנש; BDB-cited Arabic cognate in table",
+          "note": "The commentary labels al-insan with ء ن س; the psalm uses אנוש for mortal humanity, yet says God remembers and crowns it with glory. The proposed cognate adds a counter-image of human dignity beside loss."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.7.13",
+          "basis": "ء ن س / Aramaic אנש; table sound correspondence, unverified",
+          "note": "The commentary's word label is al-insan; Daniel's Aramaic vision has a figure like a son of man receiving dominion. The proposed cognate shows the root in an exalted, not merely frail, human-like figure."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.90.11",
+          "basis": "ع م ل / עמל; table sound correspondence, unverified",
+          "note": "The commentary labels righteous deeds with ع م ل; the psalm uses עמל for the toil and sorrow of human years, which quickly pass. The possible root link adds mortal labor under the surah's language of loss."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.27.13",
+          "basis": "belief looking toward future sight",
+          "note": "The commentary's suggested movement is from seeing to confirmation but is not required; the psalmist believes in order to see the LORD's goodness. The verse preserves the reverse order as a distinct reading."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.17.12",
+          "basis": "sustaining another's endurance",
+          "note": "The commentary's final injunction is reciprocal counsel in patience; Aaron and Hur each support Moses so his hands stay raised through the battle. It depicts endurance sustained through another's help."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Matt.13.13",
+          "basis": "parables and failed perception",
+          "note": "The commentary says blindness is not established by its plain wording; Jesus explains that he speaks in parables because people see without seeing and hear without hearing. This Christian interpretation makes the sensory failure explicit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Matt.13.14",
+          "basis": "Isaiah applied to hearers",
+          "note": "The commentary leaves the blindness reading as an interpretive possibility; Matthew says Isaiah's prophecy is fulfilled in hearers who do not understand. It records a Christian application of the prophetic sensory formula."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Matt.13.15",
+          "basis": "closed eyes and possible healing",
+          "note": "The commentary contrasts loss with a possible process of seeing and testing; Matthew's quotation says closed eyes prevent seeing, understanding, turning, and being healed. It gives that reading a concrete Christian interpretive context."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.16",
+          "basis": "blessed eyes that see",
+          "note": "The commentary allows the exception to be read as seeing, while noting the surah does not prove it; Jesus calls the disciples' seeing eyes and hearing ears blessed. This is an explicit positive counterpart to failed perception."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:John.12.40",
+          "basis": "Isaiah explains unbelief after signs",
+          "note": "The commentary says seeing does not necessarily establish belief; John says that despite Jesus' signs, some did not believe, and cites Isaiah's blinded eyes and hardened heart. It supplies a Christian interpretation of failed response to visible evidence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Acts.28.26",
+          "basis": "Isaiah's hearing formula applied by Paul",
+          "note": "The commentary leaves sensory failure as an unproven reading; Paul quotes Isaiah's command to hear without understanding and see without perceiving when addressing his Roman hearers. This is a later Christian application of the same formula."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Acts.28.27",
+          "basis": "dull heart and refusal to turn",
+          "note": "The commentary's possible reading links perception with return and testing; Paul continues Isaiah's words about a dull heart, closed ears, and eyes, lest hearers turn and be healed. It makes the consequence of failed perception explicit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.8",
+          "basis": "belief without seeing",
+          "note": "The commentary says its text does not establish that belief follows sight; Peter says his readers love and believe in Christ though they have not seen him. This is another direct Christian formulation of faith without sight."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.23",
+          "basis": "a face seen in a mirror",
+          "note": "The commentary cites the eye's small visible likeness in its pupil; James compares a hearer who does not act to someone looking at their face in a mirror. The image links seeing oneself with hearing a word."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.24",
+          "basis": "seeing and then forgetting",
+          "note": "The commentary develops a tiny image seen and then a process of confirmation; James says the mirror-gazer leaves and forgets what he saw. The verse gives a specific failure to retain what perception disclosed."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 27:6",
+          "basis": "fruit reveals cultivation",
+          "note": "The commentary joins inward mental work with outward truth; Sirach says fruit reveals a tree's cultivation just as speech reveals the thought of the heart. This makes observable expression evidence of inner character."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.42.6",
+          "basis": "Job's response after seeing; wording debated",
+          "note": "The commentary joins verification with the soul's submission to truth; after Job says he now sees God, he withdraws or repents. The final Hebrew clause is difficult, so the link between sight and changed posture is tentative."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "486330f89fe119ac5048bdeb70e6b8abb9941066aa701a043fdc862e62d774f1",
+    "followup_sha256": "486330f89fe119ac5048bdeb70e6b8abb9941066aa701a043fdc862e62d774f1"
+  },
+  "consolidation_error": null,
+  "list_sha256": "48fa0274373d2a712d81b97ec39e9556c8006aebd033aa0299cfa11bfc5b0325",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 745205,
+    "cached_input_tokens": 563456,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 101836,
+    "reasoning_output_tokens": 84045,
+    "total_tokens": 847041
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:44:52.147Z",
+  "artifacts": {
+    "started.json": "021af18a9c74ad975161ebe4051f7331bec94126cfa2e4e619d92210b4b52c1e",
+    "input.json": "fe454372a53e577fdcae63884b2ccd0870293c50bd867a64a5f024e8e5b5acba",
+    "prompt.md": "d160bb1fa78beb460cbf9a457dce08592a4704285f3a1174910072614f4b7052",
+    "package.md": "fdc94540bc19f24b2b0b3796457ada916bd53c0997a8bc794f15b9f0805cb3e1",
+    "spawn.md": "fd908457e519fe18327c0925f743846f01cb4805248864d21a941c958d37475b",
+    "followup.txt": "470908b69f16be13a54c758aa23923546c99f8f78983bcc764d338adc3f3d093",
+    "turn1.json": "86e2a0757094d19d958bdafbff565a237028c7b17a34335c20fed01f939c26ce",
+    "turn1.list.tsv": "53f6f4ab37916b75041b180f075ed6b152005b2b7b3852747979d0279daa7a40",
+    "followup.tsv": "486330f89fe119ac5048bdeb70e6b8abb9941066aa701a043fdc862e62d774f1",
+    "list.tsv": "48fa0274373d2a712d81b97ec39e9556c8006aebd033aa0299cfa11bfc5b0325",
+    "consolidation.json": "01a30de97e640713591873f5f0602684f728c43441fdeb2247f856b6600c9d13",
+    "validation.json": "d0bf6578cc900e770636fd96f3c86ed775e883ef62653b4597b8f8f59fcbc4a7",
+    "proposal_validation.json": "50ce3f575645dd36a3ff6c2139ed3753c2344ceeedd207396a3355eff7a6aca0",
+    "tool_calls.json": "b7c39de4c320ea94788bb9f51080cf18818c854097de62124f399de0a5cee352",
+    "session.json": "9517e4948df1689229c88f770b66914a87fa282a736073be1d54ef46cf8e175a",
+    "session.events.jsonl": "4e9cdaae76d54898ec5bff8530a4f8cddc20aa3db23e898844a4d863d7e56ecf"
+  },
+  "usd_equivalent": 0.074727,
+  "requests": 11,
+  "max_request_input_tokens": 117637,
+  "total_input_tokens": 745205,
+  "total_cached_input_tokens": 563456,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 101836,
+  "policy_notes": []
+}

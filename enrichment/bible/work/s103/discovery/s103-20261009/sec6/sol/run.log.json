@@ -1,0 +1,2598 @@
+{
+  "target": "sec6",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:29:04.076867-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_sec6_sol",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "8134fa92f903648679e5c8fb82c40a39f169a3649e70058f5eff6096baba1ae4",
+  "package_sha256": "c6c2a26c29c60e28ff2960d15ab72e45477d8a4e08c1ff601f58251941e94555",
+  "input_sha256": "5e49f8349b761b2416d8ffc6541dba4adfb9df359c792e517ba05ca8da508ca7",
+  "spawn_sha256": "f476b6a60ac1f64e053432c4b832831787daf076b141d49e5a448c176f0d1742",
+  "followup_text_sha256": "5b65272a9e1876d971f6b9ad2dfff82d61844f0229d908a1e611f071c9048206",
+  "agent_id": "01a11f22-fa46-70f0-ad00-996d0acde84e",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-29-09-01a11f22-fa46-70f0-ad00-996d0acde84e.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 134,
+  "turn1_sha256": "d0b2d9fd339ddd64c4f148f5c368d539e06df3b311fe5eb6f8cf25bdb4a54b85",
+  "turn2": {
+    "completed": true,
+    "rows_total": 191,
+    "rows_added": 57
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 134,
+    "raw_proposal_rows": 57,
+    "unique_additions": 57,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.8.7",
+          "basis": "sow wind; reap whirlwind; grain without yield",
+          "note": "Hosea makes wind sown into a whirlwind reaped, then says the stalk has no grain; it joins the commentary's storm, lost harvest, and failed human work in one agricultural judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.7",
+          "basis": "rain drunk by earth; useful crop",
+          "note": "The earth repeatedly drinks rain and grows useful vegetation for its cultivators; this matches the commentary's rain-to-productive-growth sequence and makes the crop's value depend on what it yields."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.8",
+          "basis": "thorns after rain; final burning",
+          "note": "The same watered earth bears thorns and ends in burning; this supplies a direct reversal of the commentary's fruitful growth destroyed at the end."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.19.10",
+          "basis": "fruitful vine by abundant waters",
+          "note": "Ezekiel pictures a mother as a fruitful vine beside abundant water with many branches, paralleling the commentary's watered, connected vegetation as an image of a living group."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.19.12",
+          "basis": "east wind dries fruit; vine burned",
+          "note": "Ezekiel's once fruitful vine is uprooted, dried by the east wind, and consumed by fire; the reversal closely matches the commentary's lifetime yield destroyed by a fiery storm."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.19.14",
+          "basis": "fire from vine consumes fruit",
+          "note": "Fire emerging from the vine's own branch consumes its fruit and leaves no ruling branch; the commentary likewise reads the burned garden as a life's yield and vulnerable future lost together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.41.6",
+          "basis": "east wind blights grain ears",
+          "note": "In Pharaoh's dream thin grain ears are scorched by the east wind; this gives the commentary's grain-ear stage a specific destructive counterpart before the harvest can feed anyone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.41.7",
+          "basis": "thin ears swallow full ears",
+          "note": "Seven thin ears consume the seven full ears in Pharaoh's dream; the image makes accumulated agricultural plenty disappear, as the commentary's late loss does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.41.35",
+          "basis": "صبر / צבר; table sound correspondence only; grain heaped",
+          "note": "Joseph orders grain from the good years to be heaped and guarded against famine; Hebrew צבר matches the commentary's secondary صبر image of piled food, though the table's sound match does not establish etymology."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.41.49",
+          "basis": "صبر / צבר; table sound correspondence only; piled grain",
+          "note": "Joseph heaps grain in immense quantity before famine; the concrete stored-food heap corresponds to the commentary's صبرة of food stacked layer upon layer, without claiming proven cognacy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.41.36",
+          "basis": "stored harvest averts ruin",
+          "note": "Joseph says the collected food will preserve the land through seven famine years; this offers a deliberate preservation of yield against the harvest loss envisaged in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.11.14",
+          "basis": "seasonal rain; gathered grain",
+          "note": "The promised rains in their seasons allow Israel to gather grain, wine, and oil; this reproduces the commentary's move from rain cloud to usable produce."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.11.15",
+          "basis": "pasture for cattle; human satiety",
+          "note": "God gives grass in the fields for livestock so that the people eat and are satisfied; it pairs the commentary's pasture feeding animals with the livelihood that follows."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.11.17",
+          "basis": "عصر / עצר; table sound correspondence only; rain shut off",
+          "note": "The divine closing of the heavens stops rain and thus the land's produce; Hebrew עצר expresses restraint, a pointed reversal of the commentary's rain-releasing cloud and ensuing harvest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.5.2",
+          "basis": "cultivated vineyard; failed fruit",
+          "note": "The beloved prepares a vineyard and expects grapes but receives bad fruit; the text tests the commentary's claim that productive growth can figure the moral result of human work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.5.5",
+          "basis": "vineyard exposed and trampled",
+          "note": "The vineyard's hedge is removed so it can be devoured and trampled; its protection gives way to destruction, as the commentary's flourishing garden does at the end."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.5.6",
+          "basis": "rain withheld from ruined vineyard",
+          "note": "God commands the clouds to give no rain to the now desolate vineyard; this reverses the commentary's rain-to-greenery sequence through judgment on a failed crop."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.5.7",
+          "basis": "fruit of justice expected",
+          "note": "Isaiah identifies the vineyard as Israel and the expected crop as justice and righteousness, clarifying how the commentary's harvest imagery can evaluate human conduct rather than farming alone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.5.24",
+          "basis": "fire consumes crop for rejected law",
+          "note": "Fire consumes stubble and flame dries grass, while rotten roots and blown blossom picture those who rejected God's instruction; the commentary likewise lets a life crop end in fiery moral loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.5.24",
+          "basis": "rain and fixed harvest weeks",
+          "note": "The people fail to acknowledge the giver of seasonal rain who preserves the appointed weeks of harvest; the verse makes rain and harvest an ordered provision with a moral obligation to recognize it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Jer.5.24",
+          "basis": "حق / חקק; table sound correspondence only; harvest ordinance",
+          "note": "Jeremiah's fixed harvest weeks use חקות from the table's חקק family; the prescribed season provides a concrete counterpart to the commentary's conjunction of the crop and its due right, without equating the words."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.5.25",
+          "basis": "wrongdoing withholds good harvest",
+          "note": "Jeremiah says sins have kept those good gifts from the people; the commentary's disappearance of yield likewise turns agricultural loss into a judgment on conduct."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.9",
+          "basis": "harvest edge reserved for poor",
+          "note": "The field's owner must leave the edge and gleanings at harvest; this gives an exact social practice beside the commentary's claim that a crop's right is given on harvest day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.10",
+          "basis": "vineyard gleanings for vulnerable",
+          "note": "Grapes and fallen fruit must be left for the poor and resident alien; the harvest right extends to the commentary's vineyard and makes fruitfulness support others."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.24.19",
+          "basis": "forgotten sheaf belongs to vulnerable",
+          "note": "A sheaf forgotten in the field is to remain for the foreigner, orphan, and widow; it specifies who receives the harvest's due, linking produce to the weak dependents in the commentary's garden scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.7",
+          "basis": "farmer waits for fruit and rains",
+          "note": "James urges patience by the farmer waiting for the precious crop and its early and late rains; the commentary's rain-grown yield is joined here to the explicit virtue of patient endurance.",
+          "raw_ref": "SBLGNT:James.5.7",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.18",
+          "basis": "rain yields earth's fruit",
+          "note": "Elijah prays again, heaven gives rain, and earth produces its fruit; this explicitly joins the commentary's rain cloud to its eventual productive crop in a communal prayer setting.",
+          "raw_ref": "SBLGNT:James.5.18",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.4",
+          "basis": "unpaid harvesters' wages cry out",
+          "note": "The withheld wages of harvest workers cry to the Lord in James's indictment of wealthy landowners; it gives the commentary's harvest due an economic and ethical edge.",
+          "raw_ref": "SBLGNT:James.5.4",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.15",
+          "basis": "fruit borne with patience",
+          "note": "Jesus describes good soil bearing fruit with perseverance after receiving the word; the commentary's patient, connected greenery becomes a specific figure for enduring faithful people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.15.4",
+          "basis": "branch joined to vine bears fruit",
+          "note": "Jesus says a branch cannot bear fruit unless it remains in the vine; this directly illuminates the commentary's unusual image of plants joined together as the condition of living growth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.15.5",
+          "basis": "abiding together yields abundant fruit",
+          "note": "The vine and branches produce much fruit through remaining joined; it supplies a relational image for the commentary's exception of people who sustain one another like contiguous plants."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.15.6",
+          "basis": "severed branch withers and burns",
+          "note": "A branch that does not remain is cast out, dries, is gathered, and burns; it states the exact contrary fate of the commentary's joined vegetation and burning garden."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.7",
+          "basis": "what is sown is reaped",
+          "note": "Paul says a person reaps what he sows; the commentary's crop as the product of a life receives an explicit ethical harvest formula."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.8",
+          "basis": "corrupt or enduring harvest",
+          "note": "Sowing to the flesh yields corruption while sowing to the Spirit yields life; the two outcomes sharpen the commentary's distinction between a ruined yield and enduring good action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.9",
+          "basis": "persist in good; harvest in time",
+          "note": "Paul urges against growing weary in doing good because a harvest will come if one does not give up; it ties the commentary's patient mutual goodness to sustained crop growth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.16",
+          "basis": "abundant land produce",
+          "note": "Jesus begins the rich fool's story with land yielding abundantly; this supplies the productive first stage of the commentary's lifetime crop lost near its end."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.18",
+          "basis": "new barns for gathered harvest",
+          "note": "The man plans larger barns to store grain and goods; his amassed agricultural gain is the counterpart of the commentary's stacked food and accumulated life's produce."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.20",
+          "basis": "life ends before harvest can secure him",
+          "note": "God demands the man's life that night and asks who will own his stores; the reversal mirrors the commentary's late catastrophe that makes an accumulated yield useless."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.6",
+          "basis": "sowing generosity; proportional harvest",
+          "note": "Paul's giving appeal says sparing and generous sowing have corresponding harvests; this adds the commentary's almsgiving setting to its agricultural account of human gain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.9",
+          "basis": "distribution to poor as righteousness",
+          "note": "In Paul's quotation, one who distributes to the poor has righteousness that endures; it explains how the commentary's crop right at harvest becomes a lasting moral yield."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.10",
+          "basis": "seed and bread; harvest of righteousness",
+          "note": "God supplies seed and food and multiplies the harvest of righteousness for givers; the commentary's rain-fed grain and obligation to share meet in this single farming image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.10",
+          "basis": "storehouse tithe; heavenly abundance",
+          "note": "Bringing the tithe into God's storehouse is followed by promised abundance from heaven; it links the commentary's piled produce and due share with renewed provision."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.11",
+          "basis": "crop protected from destroyer",
+          "note": "God promises to restrain the devourer so field fruit is not destroyed and the vine does not fail; it reverses the commentary's loss of a ripened crop after its due has been given."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.3",
+          "basis": "watered tree bears seasonal fruit",
+          "note": "The righteous are a tree planted by channels of water that gives fruit in season; the commentary likewise sees the exceptional faithful as greenery sustained by water and productive time."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.4",
+          "basis": "wicked like windblown chaff",
+          "note": "The wicked are chaff driven by wind, against the fruitful watered tree of the preceding verse; it precisely matches the commentary's contrast of lasting growth and works blown away."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.85.12",
+          "basis": "truth sprouts from earth beneath righteousness",
+          "note": "The psalm pictures truth springing from the earth while righteousness looks down from heaven; it gives the commentary's joined greenery and call to truth a striking common image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.85.13",
+          "basis": "land gives its produce",
+          "note": "The next verse promises the Lord's good gift and the land's yield; it supplies the harvest stage after truth springs from the ground in the preceding verse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.92.15",
+          "basis": "fruit and green growth in old age",
+          "note": "The righteous still bear fruit in old age and remain fresh and green; this is an exact positive alternative to the commentary's aged owner losing a mature garden just when dependents need it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.126.5",
+          "basis": "tears sown; joyful harvest",
+          "note": "Sowing in tears ends in reaping with joy; the agricultural sequence gives patient difficulty before harvest the positive ending preserved by the commentary's exception."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.6.15",
+          "basis": "sow without reaping; pressed crops lost",
+          "note": "Micah threatens that the people will sow but not reap, tread olives yet lack oil, and crush grapes yet not drink wine; this is the commentary's lost harvest in a judgment on unjust gain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hag.1.6",
+          "basis": "much sowing; little gathered",
+          "note": "Haggai lists much seed with little harvest and wages disappearing as if through a pierced purse; it connects the commentary's failed crop to the vanishing gain of human labor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hag.1.9",
+          "basis": "expected harvest blown away",
+          "note": "The people bring home little of what they expected and God blows it away; the image matches the commentary's wind-scattered works and abrupt removal of accumulated yield."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hag.1.10",
+          "basis": "heavens withhold dew; land yield",
+          "note": "Because of the people's neglect, heaven withholds dew and earth withholds its produce; the commentary's rain, growth, and loss are compressed into one reversal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hag.1.11",
+          "basis": "drought strikes grain and labor",
+          "note": "The called drought reaches grain, wine, oil, people, animals, and all labor of hands; it relates a failed harvest to the whole community and its work, as the commentary does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.1.10",
+          "basis": "field ruined; grain destroyed",
+          "note": "Joel's devastated land has ruined fields and grain, alongside dried wine and failing oil; it gives a specific prophetic instance of the commentary's harvest as loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.1.12",
+          "basis": "withered vine and joy",
+          "note": "The vine and fig tree dry up, as do the other fruit trees, while human joy withers; it joins vegetative loss to lived human loss as in the commentary's ruined garden."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.1.19",
+          "basis": "fire devours pasture",
+          "note": "Joel cries to God because fire has devoured the wilderness pastures and burned trees; it gives the commentary's animal-feeding meadow a destructive fiery counterpart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.2.23",
+          "basis": "restored seasonal rain",
+          "note": "Joel promises early and later rain in restored measure; after the destroyed crop, this supplies a recovery of the commentary's rain-to-growth sequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.2.24",
+          "basis": "threshing floors fill with grain",
+          "note": "The restored rains are followed by threshing floors filled with grain and vats with wine and oil; it gives a concrete positive answer to the commentary's lost and heaped harvest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.25.14",
+          "basis": "boasted gift; clouds without rain",
+          "note": "A person boasting of a gift never given is likened to clouds and wind without rain; this applies the commentary's rain cloud to its nearby warning about showy giving whose benefit vanishes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.2",
+          "basis": "showy alms seek human praise",
+          "note": "Jesus warns against giving alms publicly for praise, because such givers have received their reward already; it directly illuminates the commentary's showy spending that yields no lasting benefit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.13.23",
+          "basis": "poor person's crop swept away by injustice",
+          "note": "The poor person's field can provide much food, yet injustice destroys it; the verse makes the commentary's harvest right and lost yield a social issue rather than mere weather."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.11.24",
+          "basis": "خسر / חסר; table sound correspondence only; withheld share causes lack",
+          "note": "The proverb says one who withholds what ought to be given comes to lack; Hebrew מחסור from חסר connects the commentary's lost gain with its duty to give a crop's share, while cognacy remains unverified."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.28.27",
+          "basis": "خسر / חסר; table sound correspondence only; giver has no lack",
+          "note": "The one giving to the poor will have no lack, but ignoring them draws curses; Hebrew מחסור gives an explicit inverse to the commentary's loss and its harvest-day obligation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.23.1",
+          "basis": "خسر / חסר; table sound correspondence only; no lack",
+          "note": "The shepherd's speaker says he lacks nothing; Hebrew אחסר marks provision as the inverse of the commentary's ruined yield, and the following pasture image makes that inverse concrete."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.2",
+          "basis": "green pasture and rest",
+          "note": "The shepherd settles the speaker in green pastures beside quiet water; the commentary's meadow that gives itself to animals becomes a picture of sustained care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.5.27",
+          "basis": "خسر / Aramaic חסר; table sound correspondence only; found deficient",
+          "note": "Daniel declares the king weighed and found lacking; the Aramaic חסיר gives the commentary's loss an explicitly evaluated human life, though the consonant match alone does not prove cognacy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.28.26",
+          "basis": "حق / חקק; table sound correspondence only; rain prescribed",
+          "note": "God sets a prescribed order for rain; the Hebrew חק in a rain passage meets the commentary's rain sequence and its mention of a crop's due, while preserving the difference between ordinance and right."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:1Kgs.8.35",
+          "basis": "عصر / עצר; table sound correspondence only; sky restrained",
+          "note": "Solomon describes heaven shut so there is no rain when Israel sins; עצר names the restraint, contrasting with the commentary's cloud releasing water onto a community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:2Chr.7.13",
+          "basis": "عصر / עצר; table sound correspondence only; closed sky and eaten land",
+          "note": "God says he can shut heaven against rain or send locusts to devour land; עצר makes a concrete opposite to the commentary's pressed rain cloud and fruitful harvest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Chr.7.14",
+          "basis": "communal repentance; land healed",
+          "note": "If God's people turn and pray, he promises to heal their land; this adds a communal ethical remedy to the preceding rain-and-crop destruction and the commentary's collective exception."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Sam.22.12",
+          "basis": "mass of waters in thick clouds; חשר table sound match has different sense",
+          "note": "David's hymn depicts God surrounded by dense water clouds; it supports the commentary's layered, water-filled cloud image on its own terms, while the table's חשר is semantically distinct from Arabic خسر 'loss'."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.26.8",
+          "basis": "waters bound inside cloud",
+          "note": "God binds water within thick clouds without their bursting; this is a direct counterpart to the commentary's cloud filled with rain before releasing it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.36.28",
+          "basis": "clouds pour rain on people",
+          "note": "Job says the skies pour their drops abundantly upon humanity; the rain-laden cloud's release corresponds to the commentary's cloud giving water to a community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.11.3",
+          "basis": "full cloud empties rain on land",
+          "note": "A cloud filled with water pours itself onto earth; this expresses the commentary's compressed rain cloud and its release without requiring a shared root."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.10.1",
+          "basis": "God gives rain and field plants",
+          "note": "Those asking for spring rain receive showers and field plants; the verse carries the commentary's paired images of rain cloud and resulting greenery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.2.5",
+          "basis": "no plants because no rain",
+          "note": "Before the garden's plants had appeared, God had not yet caused rain on the earth; the negation makes rain the missing beginning of the commentary's sequence of growth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.12",
+          "basis": "vine fruit, land produce, heavenly dew",
+          "note": "Zechariah's restored remnant receives a seed of peace, fruitful vine, productive ground, and heavenly dew; this unites the commentary's collective, watered garden, and tangible harvest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.16",
+          "basis": "truth spoken to neighbors after restored harvest",
+          "note": "After promising dew and yield to the remnant, Zechariah commands neighbors to speak truth and judge justly; this connects the commentary's green community to its mutual exhortation in truth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.8",
+          "basis": "cloud, rain, hill grass",
+          "note": "God covers the sky with clouds, prepares rain for the earth, and makes grass grow on hills; this gives the commentary's cloud-to-pasture transition in one verse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.9",
+          "basis": "grass-fed animals receive food",
+          "note": "The next verse says God gives food to animals; it connects the commentary's pasture given to herds to divine provision rather than vegetation alone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Nah.1.3",
+          "basis": "whirlwind and storm; clouds as dust",
+          "note": "Nahum joins a divine whirlwind and tempest with clouds described as dust beneath God's feet; this puts the commentary's rain cloud and dust-raising whirlwind into one memorable storm image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.10",
+          "basis": "rain makes earth sprout, seed and bread",
+          "note": "Rain and snow water the earth so it sprouts and gives seed and bread; the commentary's cloud, joined growth, grain, and food yield follow this same ordered sequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.3",
+          "basis": "water on dry land and descendants",
+          "note": "God promises to pour water on thirsty ground and blessing on descendants; the commentary's rain-fed greenery and concern for weak offspring meet through this joined promise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.4",
+          "basis": "descendants grow like watered vegetation",
+          "note": "Those descendants sprout like grass among watercourses; the verse makes a living group into adjacent flourishing plants, as the commentary does for the mutually supporting faithful."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.32.15",
+          "basis": "fruitful field after outpouring",
+          "note": "An outpouring from above transforms wilderness into a fruitful field; it gives the commentary's rain-to-garden movement a communal renewal sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.32.16",
+          "basis": "justice dwells in fruitful field",
+          "note": "Justice comes to dwell in the transformed fruitful field; the commentary likewise places truth and a crop's due amid flourishing vegetation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.5",
+          "basis": "human generations swept away like grass",
+          "note": "The psalm says God sweeps people away as grass renewing in the morning; it places the commentary's human loss inside the short life cycle of vegetation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.6",
+          "basis": "morning bloom, evening wither",
+          "note": "Grass blossoms in the morning and withers by evening; it closely parallels the commentary's quick turn from luxuriant growth to destroyed yield."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.10",
+          "basis": "old age and brief lifespan",
+          "note": "The psalm reckons a human span as seventy or eighty years, full of trouble and swiftly gone; it adds the late-life horizon of the commentary's elderly garden owner to the nearby grass image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.10",
+          "basis": "rich person fades like flower",
+          "note": "James compares the rich person's passing to a wild flower; it joins the commentary's accumulated material yield with the brief life of vegetation.",
+          "raw_ref": "SBLGNT:James.1.10",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.11",
+          "basis": "scorching heat withers pursuits",
+          "note": "A rising sun with scorching heat dries the grass and drops its flower, as the wealthy fade amid their pursuits; this is another sudden destruction of apparent prosperity.",
+          "raw_ref": "SBLGNT:James.1.11",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.24",
+          "basis": "flesh like grass; flower falls",
+          "note": "The letter quotes human flesh as grass whose flower falls; it transposes the commentary's withering harvest to the brevity of human life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.28",
+          "basis": "blade then ear then full grain",
+          "note": "Jesus describes the earth producing first a blade, then an ear, then full grain in the ear; the commentary's distinctive attention to visible grain husks and mature crop finds a staged analogue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.29",
+          "basis": "harvest when grain permits",
+          "note": "When the grain is ripe, the sower sends the sickle because harvest has come; it provides the decisive harvest moment beside the commentary's produce and harvest-day obligation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 96,
+        "row": {
+          "line": 96,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.22",
+          "basis": "wealth chokes growing seed",
+          "note": "In Jesus' explanation, wealth's deceit chokes the word so it becomes unfruitful; it offers an ethical counterpart to the commentary's showy spending and lost crop."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 97,
+        "row": {
+          "line": 97,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.23",
+          "basis": "good soil yields manyfold",
+          "note": "The receptive person is good soil that bears a multiplied crop; the commentary's exceptional believers likewise appear as productive ground after the warning of loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 98,
+        "row": {
+          "line": 98,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.6",
+          "basis": "seed on bare rock withers for lack of moisture",
+          "note": "Seed on rock sprouts but dries because it has no moisture; the commentary's hard bare stone is a precise contrary surface to its watered, continuous greenery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 99,
+        "row": {
+          "line": 99,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.25",
+          "basis": "rain and wind test true work",
+          "note": "Rain, floods, and winds strike the house that survives because its builder acted on Jesus' words; this gives the commentary's storm a test of lived conduct rather than a mere weather event."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 100,
+        "row": {
+          "line": 100,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.27",
+          "basis": "rain and wind destroy failed work",
+          "note": "The same storm makes the house of the hearer who does not act collapse; it parallels the commentary's image of a whole life's work lost in a violent final event."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 101,
+        "row": {
+          "line": 101,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.6",
+          "basis": "planting and watering; growth from God",
+          "note": "Paul assigns planting and watering to different workers while God causes growth; the commentary's rain-fed community of mutually contributing lives receives a concrete division of work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 102,
+        "row": {
+          "line": 102,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.13",
+          "basis": "fire reveals quality of each work",
+          "note": "Paul says the day exposes each person's work as fire tests its quality; it links the commentary's burning at the end to an evaluation of accumulated human work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 103,
+        "row": {
+          "line": 103,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.15",
+          "basis": "work burns and worker loses",
+          "note": "If a person's work burns, that person suffers loss even though saved; the precise distinction between a life and its ruined product clarifies the commentary's garden consumed late in life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 104,
+        "row": {
+          "line": 104,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.27.16",
+          "basis": "صبر / צבר; table sound correspondence only; piled wealth",
+          "note": "The wicked man may heap silver like dust, yet the following verse gives it to others; צבר matches the commentary's piled store while the context makes accumulation vulnerable to loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 105,
+        "row": {
+          "line": 105,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.39.7",
+          "basis": "صبر / צבר; table sound correspondence only; life's hoard",
+          "note": "The passing human heaps up wealth without knowing who will gather it; צבר joins the commentary's stacked gain to the old-age question of what a life's product finally secures."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 106,
+        "row": {
+          "line": 106,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.17.8",
+          "basis": "vine spreads beside abundant water",
+          "note": "The transplanted vine is set in good soil beside abundant water so it can bear branches and fruit; it parallels the commentary's rain-fed connected plants that grow into yield."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 107,
+        "row": {
+          "line": 107,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.17.10",
+          "basis": "east wind withers planted vine",
+          "note": "Even a planted vine will wither when the east wind touches it; the commentary's productive garden similarly remains vulnerable to a destructive wind."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 108,
+        "row": {
+          "line": 108,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.1.19",
+          "basis": "wind kills children at life's height",
+          "note": "A great wind strikes the house where Job's children are together and kills them; it offers a family-loss counterpart to the commentary's storm scene with vulnerable offspring, though Job's loss is not a garden fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 109,
+        "row": {
+          "line": 109,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.27.21",
+          "basis": "east wind carries away accumulated wealth",
+          "note": "The east wind drives away the wicked person after the account of his piled silver; the commentary likewise makes wind undo accumulated gain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 110,
+        "row": {
+          "line": 110,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.21.18",
+          "basis": "chaff swept by whirlwind",
+          "note": "Job asks whether the wicked become chaff before wind and straw snatched by a whirlwind; the wording puts a human fate in the commentary's image of works scattered by a violent wind."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 111,
+        "row": {
+          "line": 111,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.17.13",
+          "basis": "chaff and dust before whirlwind",
+          "note": "The nations' tumult is rebuked and chased like mountain chaff before wind and rolling dust before a storm; this shares the commentary's dust-raising whirlwind as an image of works unable to remain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 112,
+        "row": {
+          "line": 112,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.8.22",
+          "basis": "seedtime and harvest sustained",
+          "note": "After the flood, God promises seedtime and harvest will continue while the earth remains; this stable cycle sets the ordinary expectation against which the commentary's ruined harvest is a reversal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 113,
+        "row": {
+          "line": 113,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.25",
+          "basis": "one who waters is watered",
+          "note": "The generous person prospers and the one who gives water receives water; the commentary's rain-fed, mutually joined plants become an ethical pattern of reciprocal support."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 114,
+        "row": {
+          "line": 114,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.16.18",
+          "basis": "food shared without lack",
+          "note": "Measured manna leaves neither surplus for the great gatherer nor lack for the small one; it offers an alternative to the commentary's stacked private food by meeting each person's need."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 115,
+        "row": {
+          "line": 115,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.16.18",
+          "basis": "خسر / חסר; table sound correspondence only; no food deficit",
+          "note": "The smaller manna gatherer does not lack, using חסר; the negated deficiency connects the commentary's loss to a shared-food scene that prevents it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 116,
+        "row": {
+          "line": 116,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.8.14",
+          "basis": "surplus answers another's lack",
+          "note": "Paul asks that one community's present abundance supply another's need; this makes the commentary's mutually joined believers and harvest due a concrete exchange of resources."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 117,
+        "row": {
+          "line": 117,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.24",
+          "basis": "consider one another for good works",
+          "note": "The community is to attend to one another so as to stir love and good works; this gives a specific ethical action beside the commentary's joined plants representing believers who mutually urge what is right."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 118,
+        "row": {
+          "line": 118,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.16",
+          "basis": "faithful speak one to another",
+          "note": "Those who fear the Lord speak with one another and are heard and remembered; their reciprocal speech provides a human counterpart to the commentary's plants joining in a faithful group."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 119,
+        "row": {
+          "line": 119,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.26",
+          "basis": "birds fed without barns",
+          "note": "Birds neither sow nor reap nor gather into barns, yet God feeds them; the commentary's stores of grain and pasture for animals meet a different account of secure provision."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 120,
+        "row": {
+          "line": 120,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.30",
+          "basis": "grass lives today, burns tomorrow",
+          "note": "Grass now growing in the field is soon thrown into an oven; the commentary's green abundance suddenly consumed by fire gains a short-lived plant counterpart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 121,
+        "row": {
+          "line": 121,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.30",
+          "basis": "weeds burned, wheat stored",
+          "note": "At harvest the weeds are bundled for burning while wheat is gathered into a barn; this places the commentary's stored grain and final fire at one decisive sorting, though its garden fire acts on an already productive plot."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 122,
+        "row": {
+          "line": 122,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.13.8",
+          "basis": "last season to make fig tree fruitful",
+          "note": "The gardener asks for one more year to tend the fruitless fig tree; this creates a patient interval before the kind of final crop judgment the commentary describes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 123,
+        "row": {
+          "line": 123,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.13.9",
+          "basis": "fruit or cutting down",
+          "note": "If the tree bears after tending it may remain, otherwise it will be cut down; the commentary's survival of fruitful growth and loss of an unproductive garden meet in this conditional ending."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 124,
+        "row": {
+          "line": 124,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.4.7",
+          "basis": "rain allotted unequally to communities",
+          "note": "God withholds rain from one city while another receives it, leaving one field watered and another dry; the commentary's cloud releasing rain upon a group becomes an ethical question of who receives it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 125,
+        "row": {
+          "line": 125,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.4.9",
+          "basis": "blight destroys cultivated trees",
+          "note": "God strikes gardens, vineyards, fig trees, and olive trees with blight and insects; this provides a more gradual counterpart to the commentary's storm destroying a developed crop."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 126,
+        "row": {
+          "line": 126,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.7",
+          "basis": "grass withers at divine breath",
+          "note": "Grass dries and flowers fall when God's breath blows on them; the commentary's wind-driven loss of lush vegetation likewise turns growth into impermanence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 127,
+        "row": {
+          "line": 127,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.29.6",
+          "basis": "whirlwind and devouring fire",
+          "note": "Isaiah pairs whirlwind and tempest with the flame of a devouring fire in a judgment scene; it is a specific storm-and-fire analogue to the commentary's fiery whirlwind, though no crop is named in this verse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 128,
+        "row": {
+          "line": 128,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.5.28",
+          "basis": "fatness and denied orphan's claim",
+          "note": "Jeremiah calls prosperous people fat and sleek while they fail to defend an orphan's claim; it turns the commentary's image of fattening from abundant food toward the obligation to support vulnerable people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 129,
+        "row": {
+          "line": 129,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Ta'anit 3:8",
+          "basis": "prayed-for rain becomes destructive torrent",
+          "note": "Honi asks first for rain, then for rain of favor when the downpour is too violent; the story distinguishes life-giving rain from a damaging storm within the commentary's weather sequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 130,
+        "row": {
+          "line": 130,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.4.42",
+          "basis": "firstfruits grain given as food",
+          "note": "A man brings firstfruits and fresh grain ears to Elisha, who orders them given to the people; the commentary's ears becoming food and a due share can be read beside this concrete communal distribution."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 131,
+        "row": {
+          "line": 131,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Peah 1:1",
+          "basis": "field corner and firstfruits as obligations",
+          "note": "The Mishnah lists the field corner and firstfruits among duties with no fixed measure; it gives a Jewish legal setting for the commentary's claim that a crop carries a right owed to others at harvest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 132,
+        "row": {
+          "line": 132,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.37.11",
+          "basis": "cloud laden with moisture",
+          "note": "Job describes a thick cloud burdened with moisture while its luminous cloud disperses; the burdened cloud resembles the commentary's rain-filled layers, but its release into a community is not explicit here."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 133,
+        "row": {
+          "line": 133,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.26.4",
+          "basis": "seasonal rain and land's produce",
+          "note": "God promises rains in season and land yielding produce for obedience; the sequence is exact, though it does not include the commentary's mutual plant growth or later violent loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 134,
+        "row": {
+          "line": 134,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.3.12",
+          "basis": "grain gathered, chaff burned",
+          "note": "The coming figure gathers wheat into the barn and burns chaff; it juxtaposes stored harvest with final fire, though the commentary's fire consumes a whole garden rather than separated chaff."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.18.44",
+          "basis": "small cloud rises before rain",
+          "note": "Elijah's servant sees a small cloud rising from the sea after repeated inspection; the commentary's rain-bearing cloud gains a narrative moment before its release onto the land."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.18.45",
+          "basis": "clouds, wind, and heavy rain",
+          "note": "The sky darkens with clouds and wind and then heavy rain falls; this joins the commentary's cloud, forceful wind, and needed rainfall in a single scene following drought."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.72.6",
+          "basis": "raining upon cut grass",
+          "note": "The hoped-for king comes like rain on mown grass and showers watering earth; it places restorative rain precisely after cutting, the positive answer to the commentary's lost harvest."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.72.16",
+          "basis": "grain and human flourishing",
+          "note": "Abundant grain covers the land while people flourish like field plants; the psalm turns the commentary's grain crop and joined green community into a linked vision of prosperity."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.13",
+          "basis": "water from above satisfies earth",
+          "note": "God waters mountains from above and earth is filled with the fruit of divine work; this supplies the commentary's downward rain and ensuing yield as one ordered provision."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.14",
+          "basis": "grass for animals; plants for human food",
+          "note": "Grass grows for livestock and cultivated plants provide human food; it directly joins the commentary's meadow for herds to the crop that becomes a community's provision."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.23",
+          "basis": "rain, abundant grain, and broad pasture",
+          "note": "God promises rain for seed, rich grain from the land, and spacious pasture for livestock; the verse contains the commentary's sequence from cloud-water to crop and fed animals."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.37",
+          "basis": "sown fields and planted vineyards yield fruit",
+          "note": "People sow fields and plant vineyards that yield produce; the commentary's grain and vine garden likewise become the usable product of human labor on renewed land."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.38",
+          "basis": "blessed families and livestock multiply",
+          "note": "The following blessing multiplies both people and livestock; it links the commentary's productive pasture to the vulnerable descendants whose future depends on a preserved yield."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.10",
+          "basis": "feed the hungry from one's own resources",
+          "note": "Isaiah calls for giving sustenance to the hungry and meeting the afflicted person's need; this specifies an ethical use for the commentary's grain and its due share."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.11",
+          "basis": "giver becomes a watered garden",
+          "note": "After the command to feed the hungry, the Lord promises the giver will be like a watered garden whose spring does not fail; this makes generous action itself the opposite of the commentary's garden destroyed after showy giving."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.17.8",
+          "basis": "rooted tree bears through drought",
+          "note": "The person who trusts God is a tree rooted by water, remaining green through heat and bearing fruit in drought; this supplies a direct durable counterpart to the commentary's fruitful garden lost to adverse weather."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.10.12",
+          "basis": "sow righteousness; reap mercy; awaited rain",
+          "note": "Hosea calls the people to sow righteousness and reap loyal love until God comes and rains righteousness; it links the commentary's ethical injunction, patient waiting, rain, and harvest in one appeal."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.18",
+          "basis": "fat flock tramples others' pasture",
+          "note": "God rebukes those who feed on good pasture but trample the rest and muddy water for others; the commentary's pasture giving itself to animals meets a precise demand that abundance remain available to the weak."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.19",
+          "basis": "weaker flock inherits spoiled food and water",
+          "note": "The other sheep must consume the trampled pasture and muddied water; this gives the commentary's vulnerable dependents a concrete counterpart harmed when the first beneficiaries misuse a shared meadow."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.20",
+          "basis": "judgment between fat and lean sheep",
+          "note": "God judges between fat and lean sheep; this puts the commentary's fattened animal beside its concern for weak dependents and assigns moral weight to their unequal access to pasture."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.26",
+          "basis": "showers of blessing at the right season",
+          "note": "God promises showers in their season for the restored flock; the commentary's cloud releasing rain upon a community becomes an explicit collective blessing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.27",
+          "basis": "trees and land yield fruit after rain",
+          "note": "The trees and ground yield produce and the people live secure after the promised showers; this completes the commentary's rain-to-harvest sequence with protection from loss."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.14.5",
+          "basis": "dew revives Israel's plant growth",
+          "note": "God promises to be like dew to Israel, who blossoms and puts down roots; the commentary similarly treats renewed vegetation as a living people sustained by water."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.14.7",
+          "basis": "grain revives and vine blossoms",
+          "note": "People return and flourish like grain and bloom like a vine; this gives the commentary's joined green community both its grain crop and vineyard forms."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.9.13",
+          "basis": "harvest overtakes planting",
+          "note": "In promised restoration, the plowman catches the reaper and grape-treader the seed-sower; this is a striking instance of the commentary's continuous growth and yield with no gap between crops."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.9.14",
+          "basis": "plant vineyards and eat their garden fruit",
+          "note": "Restored people plant vineyards and gardens and enjoy their fruit; it reverses the commentary's late disaster by letting the makers retain the mature garden's benefit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.65.21",
+          "basis": "plant vineyards and eat their fruit",
+          "note": "The restored people plant vineyards and eat their own fruit; it is a direct positive inversion of the commentary's owner losing the garden that should have supported him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.65.22",
+          "basis": "long-lived planters keep their yield",
+          "note": "No one else will eat what the people plant, and their days are compared to a tree's days; this answers the commentary's late-life fear that an aged cultivator will lose his accumulated crop."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.65.23",
+          "basis": "no futile labor or children born for calamity",
+          "note": "The people will not labor in vain or bear children for sudden disaster; both claims specifically reverse the commentary's burning garden and elderly owner with vulnerable offspring."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.12",
+          "basis": "grain, herd, and watered garden together",
+          "note": "The restored people stream toward grain, wine, oil, young flock, and herd, becoming like a watered garden; one verse brings together the commentary's crop, pasture animals, and living garden community."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.61.11",
+          "basis": "garden makes righteousness sprout",
+          "note": "As earth brings shoots forth and a garden grows what is sown, God makes righteousness and praise sprout before the nations; this makes the commentary's greenery a direct image of the good works expected from the saved group."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.5.13",
+          "basis": "wealth perishes and son receives nothing",
+          "note": "Ecclesiastes describes wealth lost through a bad venture and a son left with nothing; the combination of vanished lifetime gain and unprovided child closely matches the commentary's aged gardener and weak offspring."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.11.4",
+          "basis": "watching wind and clouds delays sowing and reaping",
+          "note": "One who watches wind never sows and one who studies clouds never reaps; the commentary's cloud, wind, and crop are joined here to the danger that anxious waiting itself can forfeit harvest."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.9",
+          "basis": "firstfruits given from produce",
+          "note": "The instruction to honor God from one's produce and firstfruits provides a concrete practice alongside the commentary's claim that a crop has a due share at harvest."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.10",
+          "basis": "full barns follow given firstfruits",
+          "note": "The ensuing promise of barns filled with plenty turns the commentary's stacked grain into a yield linked to giving rather than showy or withheld charity."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.15.2",
+          "basis": "fruitless branches removed; fruitful branches tended",
+          "note": "Jesus distinguishes a branch removed for bearing no fruit from one pruned to bear more; this adds the maintenance of living, productive attachment to the commentary's plants joined together."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.5",
+          "basis": "fattened hearts on day of slaughter",
+          "note": "James says unjust rich people have fattened their hearts in a day of slaughter, immediately after the unpaid harvesters' cry; it gives the commentary's spring fatness an ominous late reckoning tied to harvest injustice.",
+          "raw_ref": "SBLGNT:James.5.5",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.21.34",
+          "basis": "fruit season brings a claim on vineyard yield",
+          "note": "At harvest time the vineyard owner sends servants to receive its fruit; this is a narrative counterpart to the commentary's assertion that fruit carries a due claim when harvested."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.21.43",
+          "basis": "community judged by fruit produced",
+          "note": "Jesus says the kingdom will be given to a people producing its fruits; it parallels the commentary's exception of a faithful group pictured as an ongoing productive planting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.14",
+          "basis": "mutual counsel and patience with the weak",
+          "note": "Paul directs the community to admonish some, encourage the fainthearted, help the weak, and be patient with everyone; this spells out the mutual exhortation and care for vulnerable members pictured by the commentary's connected plants."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.13",
+          "basis": "exhort one another each day before hardening",
+          "note": "The addressees must encourage one another daily while it is called Today so no one hardens; the commentary's reciprocal exhortation and closing time horizon meet in a concrete repeated practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Shepherd of Hermas, Similitude 2",
+          "basis": "elm supports vine; vine yields fruit",
+          "note": "Hermas sees a vine that bears abundant fruit by clinging to an elm that supports it; this is a particularly close Christian image for the commentary's plants physically joining so that growth can continue."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Shepherd of Hermas, Similitude 2",
+          "basis": "rich supply poor; poor pray for rich",
+          "note": "Hermas explains the elm and vine as materially generous rich people and poor people who pray for them; the joined plants thus yield reciprocal benefit, much as the commentary connects mutual support to the crop's due share."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Taanit 5b",
+          "basis": "watered fruit tree and enduring shoots",
+          "note": "The rabbinic blessing tells of a traveler nourished by a tree's fruit, shade, and water, then wishes its shoots to resemble it; it makes the commentary's productive greenery a source of care and continuity for later generations."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.2",
+          "basis": "watered tree gives fruit every month",
+          "note": "The tree of life stands by the river and yields fruit month after month, with leaves for the nations' healing; it offers the commentary's connected, uninterrupted greenery an enduring communal yield."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.28.38",
+          "basis": "large sowing yields little because devoured",
+          "note": "The people carry much seed to the field yet gather little because locusts consume it; this gives the commentary's human loss a specific crop-failure form within a covenant curse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.28.39",
+          "basis": "vineyard work lost to infestation",
+          "note": "They plant and tend vineyards but cannot drink the wine or gather grapes because worms consume them; it parallels the commentary's carefully built garden that fails to benefit its owner."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.26.20",
+          "basis": "spent labor yields neither crop nor fruit",
+          "note": "The land will not give produce and the trees will not give fruit despite expended strength; the commentary's lost harvest is likewise the loss of a lifetime's labor, though this verse names no storm."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.8.9",
+          "basis": "خسر / חסר; table sound correspondence only; cultivated land without lack",
+          "note": "In a land of abundant food, Israel will lack nothing, using Hebrew חסר; it is the explicit inverse of the commentary's crop as loss, with cognacy still only the table's unverified sound correspondence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.26",
+          "basis": "rain falls where no person lives",
+          "note": "God sends rain even onto uninhabited desert land; it gives a specific counterpoint to the commentary's cloud raining upon a community, showing that the same gift can precede any human receiver."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.27",
+          "basis": "desolate ground makes grass sprout",
+          "note": "The rain satisfies waste ground and brings forth grass; this completes the preceding verse's empty-land rain with growth, extending the commentary's rain-to-pasture sequence beyond settled land."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.4",
+          "basis": "secret giving receives divine reward",
+          "note": "Jesus says giving unseen by others is seen and repaid by the Father; it supplies the positive alternative to the commentary's showy donor whose apparent good is stripped away."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.19",
+          "basis": "stored crop seems to promise many years",
+          "note": "The rich farmer addresses his soul as if stored goods guarantee years of ease; this expectation makes the next verse's sudden end a sharper counterpart to the commentary's late loss of a life's product."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.14",
+          "basis": "growth choked before maturity",
+          "note": "Jesus says the seed crowded by cares, riches, and pleasures never reaches mature fruit; it gives the commentary's threatened crop a specific failure of ripening through worldly entanglement."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.24",
+          "basis": "dying grain produces many seeds",
+          "note": "A wheat grain must fall and die to bear much fruit; it is an inverse agricultural path to the commentary's mature garden destroyed at the end, with the loss occurring before abundance rather than after it."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.15",
+          "basis": "truth spoken in love as growth",
+          "note": "Speaking truth in love, believers grow toward Christ; this joins the commentary's charge to exhort in truth with its unusual image of shared living growth."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.16",
+          "basis": "joined parts cause communal growth",
+          "note": "The whole body is joined and held together, each part working so it grows in love; though anatomical rather than botanical, it develops the commentary's claim that the faithful sustain one another by being connected."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.10",
+          "basis": "do good especially to fellow believers",
+          "note": "Immediately after the promised harvest for persistent good work, Paul directs good to all, especially the household of faith; it identifies the mutual beneficiaries of the commentary's patient moral crop."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.19",
+          "basis": "unfruitful tree thrown into fire",
+          "note": "A tree without good fruit is cut down and cast into fire; this relates the commentary's garden consumed by fire to a moral test of what the planting produced."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Ta'anit 1:1",
+          "basis": "communal remembrance of rain at festival",
+          "note": "The Mishnah debates when rain should first be invoked during the autumn festival; it places the commentary's rain-bearing cloud within a community's timed, recurring liturgical concern."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.6.13",
+          "basis": "strong wind strips unripe fig tree",
+          "note": "Stars fall like unripe figs shaken from a fig tree by strong wind; the comparison gives the commentary's destructive wind a specific instance of fruit torn away before it can support anyone."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "1b83438eb161f271ec162250bcd20656e09c10c6c31812e7d05fb016d7f6457c",
+    "followup_sha256": "1b83438eb161f271ec162250bcd20656e09c10c6c31812e7d05fb016d7f6457c"
+  },
+  "consolidation_error": null,
+  "list_sha256": "70610516b91a198809af8b02e2ab253accf911323a687640351035d961af43f1",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 306525,
+    "cached_input_tokens": 263296,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33766,
+    "reasoning_output_tokens": 19619,
+    "total_tokens": 340291
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:38:20.410Z",
+  "artifacts": {
+    "started.json": "9ae9aa03524fe70e3401bdd9d9c2927257197618190ca9c2d6a0095b45e756d6",
+    "input.json": "5e49f8349b761b2416d8ffc6541dba4adfb9df359c792e517ba05ca8da508ca7",
+    "prompt.md": "8134fa92f903648679e5c8fb82c40a39f169a3649e70058f5eff6096baba1ae4",
+    "package.md": "c6c2a26c29c60e28ff2960d15ab72e45477d8a4e08c1ff601f58251941e94555",
+    "spawn.md": "f476b6a60ac1f64e053432c4b832831787daf076b141d49e5a448c176f0d1742",
+    "followup.txt": "5b65272a9e1876d971f6b9ad2dfff82d61844f0229d908a1e611f071c9048206",
+    "turn1.json": "f18c0fec8d55955f5da165fb4480b05281f07dc89f13efb5052587fa0fe4c3ff",
+    "turn1.list.tsv": "d0b2d9fd339ddd64c4f148f5c368d539e06df3b311fe5eb6f8cf25bdb4a54b85",
+    "followup.tsv": "1b83438eb161f271ec162250bcd20656e09c10c6c31812e7d05fb016d7f6457c",
+    "list.tsv": "70610516b91a198809af8b02e2ab253accf911323a687640351035d961af43f1",
+    "consolidation.json": "ad396bc7292d236068f8722f4c15487e1e59aaf306e77121fe2f0d578db555f0",
+    "validation.json": "b13863dfe71942239a94a9072f7e5b7374aa1ca9c01e1f4330e2c54e985e7c2c",
+    "proposal_validation.json": "801f725afa310394a44f9f58ae75f0dae0c08b21498cc2c9793613d715b34f4b",
+    "tool_calls.json": "29243dcd16ab080ffe3b6c0a3cf28fdafc9bac0b96c4c03e8e75ab3b89792679",
+    "session.json": "97b4822098ec03e66c66df76408ac31d8620db50049228a64df0f63bbe9c5b8d",
+    "session.events.jsonl": "40fd80fe895e1e6731ad126dc05a9f4d431bf3e8db646879d5db4f8c4f5581b8"
+  },
+  "usd_equivalent": 0.476777,
+  "requests": 9,
+  "max_request_input_tokens": 51076,
+  "total_input_tokens": 306525,
+  "total_cached_input_tokens": 263296,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 33766,
+  "policy_notes": [
+    "turn 1 call_c1d214856f094d1ba6e76cba189bd45d: local script on its own files (python3)",
+    "turn 1 call_865998851bbb4f7c957a176837d40fcd: local script on its own files (python3)"
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "format": "bible-discovery-v2",
+  "status": "ok",
+  "target": "sec5",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "tsv_sha256": "4acbf822f3d9a6dfc770bd3887faff2dc30c6eb2ac67b6097335b4073b28144f",
+  "provenance": [
+    {
+      "target": "sec5",
+      "model": "luna",
+      "run_tag": "pilot1-20261005",
+      "path": "pilot1-20261005/sec5/luna",
+      "sha256": "8917909b6b5262bd376631a8d372dc77d756f8485b35fca3543eaa31e89d31fc"
+    },
+    {
+      "target": "sec5",
+      "model": "terra",
+      "run_tag": "pilot1-20261005",
+      "path": "pilot1-20261005/sec5/terra",
+      "sha256": "06cc3fb3106b6eaeab4bac9a9862eeddeba105804a707795d7ce3b568fc612f3"
+    }
+  ],
+  "rows": 293,
+  "findings": [
+    {
+      "target": "sec5",
+      "model": "luna",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec5/luna/list.tsv",
+        "rows": 224,
+        "unique_references": 221,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 207,
+          "medium": 15,
+          "weak": 2
+        },
+        "findings": [
+          {
+            "line": 21,
+            "ref": "m. Avot 3:7",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 22,
+            "ref": "b. Berakhot 35a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 56,
+            "ref": "Wisdom of Solomon 5:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 57,
+            "ref": "Wisdom of Solomon 5:7",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 100,
+            "ref": "Sirach 18:15",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 101,
+            "ref": "Sirach 18:18",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 109,
+            "ref": "Sirach 50:22",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 110,
+            "ref": "Tobit 13:3",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 111,
+            "ref": "Tobit 13:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 112,
+            "ref": "Didache 9.1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 113,
+            "ref": "Didache 9.4",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 114,
+            "ref": "Didache 10.2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 115,
+            "ref": "Didache 10.5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 116,
+            "ref": "Augustine, Confessions 1.1.1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 145,
+            "ref": "b. Rosh Hashanah 17b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 204,
+            "ref": "SBLGNT:Jas.1.5",
+            "raw_ref": "SBLGNT:James.1.5",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 205,
+            "ref": "SBLGNT:Jas.1.17",
+            "raw_ref": "SBLGNT:James.1.17",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 217,
+            "ref": "m. Berakhot 9:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 218,
+            "ref": "b. Berakhot 48b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 219,
+            "ref": "Tobit 12:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 220,
+            "ref": "Judith 16:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 221,
+            "ref": "Judith 16:13",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 222,
+            "ref": "Wisdom of Solomon 10:20",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 223,
+            "ref": "Wisdom of Solomon 10:21",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 224,
+            "ref": "Didache 10.3",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec5/luna/followup.tsv",
+        "rows": 79,
+        "unique_references": 78,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 77,
+          "medium": 2
+        },
+        "findings": [
+          {
+            "line": 59,
+            "ref": "SBLGNT:Jas.1.5",
+            "raw_ref": "SBLGNT:James.1.5",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 60,
+            "ref": "SBLGNT:Jas.1.17",
+            "raw_ref": "SBLGNT:James.1.17",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 72,
+            "ref": "m. Berakhot 9:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 73,
+            "ref": "b. Berakhot 48b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 74,
+            "ref": "Tobit 12:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 75,
+            "ref": "Judith 16:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 76,
+            "ref": "Judith 16:13",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 77,
+            "ref": "Wisdom of Solomon 10:20",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 78,
+            "ref": "Wisdom of Solomon 10:21",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 79,
+            "ref": "Didache 10.3",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    },
+    {
+      "target": "sec5",
+      "model": "terra",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec5/terra/list.tsv",
+        "rows": 130,
+        "unique_references": 129,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 112,
+          "medium": 18
+        },
+        "findings": [
+          {
+            "line": 5,
+            "ref": "Sirach 18:15",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 6,
+            "ref": "Sirach 20:14",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 19,
+            "ref": "SBLGNT:2Cor.8.6",
+            "field": "basis",
+            "language": "Greek",
+            "wording": "χάρις",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 19,
+            "ref": "SBLGNT:2Cor.8.6",
+            "field": "note",
+            "language": "Greek",
+            "wording": "χάρις",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 45,
+            "ref": "Berakhot 7b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 45,
+            "ref": "Berakhot 7b",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "הודאה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 46,
+            "ref": "Berakhot 54b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 63,
+            "ref": "Berakhot 30a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 77,
+            "ref": "Didache 4:7",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 80,
+            "ref": "Didache 1.1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 116,
+            "ref": "Tobit 12:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec5/terra/followup.tsv",
+        "rows": 42,
+        "unique_references": 42,
+        "schema_errors": [
+          "line 19: unknown verse in specified edition: WLC:Ps.23.7"
+        ],
+        "duplicates": [],
+        "strengths": {
+          "strong": 39,
+          "medium": 3
+        },
+        "findings": [
+          {
+            "line": 29,
+            "ref": "Tobit 12:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": {
+        "approval": "2026-10-05 user reply: Apply all 15 recorded follow-up corrections. Exact bundle: enrichment/bible/audits/pilot1-20261005/followup-repairs.proposed.json",
+        "accepted_at": "2026-10-05T16:04:05.154899+00:00",
+        "changes": [
+          {
+            "line": 19,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.23.7",
+              "iyilik ve rahmetin eve varması",
+              "İyilik ve sadık sevginin bütün günler takip etmesi ve YHWH'nin evinde oturma, rahmet, yol ve kutsal evin varışta birleştiği bir mezmur sonudur."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.23.6",
+              "iyilik ve rahmetin eve varması",
+              "İyilik ve sadık sevginin bütün günler takip etmesi ve YHWH'nin evinde oturma, rahmet, yol ve kutsal evin varışta birleştiği bir mezmur sonudur."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          }
+        ],
+        "raw_sha256": "85dd9bc0c8ece3b783f3be0597751cfe9ec304af4c2c9d3749ccbe8f2190dbc1",
+        "accepted_sha256": "83097d2e88ecdcf95c8eb6c9058936bf7ebe99ce02757f9c6c24740e701209a0",
+        "proposal_sha256": "00fa5a4e61f21a5efc0a2850414ed50c1a4aa5a7397be33a0aa13d8d9000850b",
+        "failed_log_sha256": "2b5aed26b867d6dfe956c246b39910242d257c5b931512ca1cda434fb440cdd3",
+        "model_calls": 0,
+        "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+      },
+      "first_turn_repair": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T15:50:59.893043+00:00",
+        "changes": [
+          {
+            "line": 17,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.138.9",
+              "YHWH benim için tamamlayacak",
+              "YHWH'nin “benim için tamamlayacağı” sözü, nimeti bitiren ve düzene koyan Rab fikrini dua biçiminde taşır."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.138.8",
+              "YHWH benim için tamamlayacak",
+              "YHWH'nin “benim için tamamlayacağı” sözü, nimeti bitiren ve düzene koyan Rab fikrini dua biçiminde taşır."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          },
+          {
+            "line": 28,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.103.23",
+              "sonda tekrar Rabbe hamd",
+              "Bütün eserleriyle Rabb'i kutsama çağrısı mezmuru aynı hamdle kapatır; Fâtiha'daki baştaki ve yol sonundaki hamd yankısına biçimsel paraleldir."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.103.22",
+              "sonda tekrar Rabbe hamd",
+              "Bütün eserleriyle Rabb'i kutsama çağrısı mezmuru aynı hamdle kapatır; Fâtiha'daki baştaki ve yol sonundaki hamd yankısına biçimsel paraleldir."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          },
+          {
+            "line": 74,
+            "before": [
+              "medium",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.90.18",
+              "נֹעַם / nʿm ve işi sağlamlaştırmak",
+              "İbr. נֹעַם, hoşluk veya lütuf için N-ʿ-M ailesinin bir kullanımıdır; dua onu işimizin eserini sağlamlaştırmasıyla birleştirir ve yorumdaki iyi hâl ile nimetin tamamlanmasına ihtiyatlı dilsel köprü kurar."
+            ],
+            "after": [
+              "medium",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.90.17",
+              "נֹעַם / nʿm ve işi sağlamlaştırmak",
+              "İbr. נֹעַם, hoşluk veya lütuf için N-ʿ-M ailesinin bir kullanımıdır; dua onu işimizin eserini sağlamlaştırmasıyla birleştirir ve yorumdaki iyi hâl ile nimetin tamamlanmasına ihtiyatlı dilsel köprü kurar."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+          "turn1.validation.failed.json": "150e590375c5b5c098961344013e7e035ffaaf581951714f4b0f454fe35c57b5",
+          "turn1.tool_calls.json": "a2313124d2b6543a3c23975c0098d66e01e37751fd546c07ab0631a33033a68c",
+          "turn1.repair.proposed.json": "3b0e56f3f58809de644bb438f89244b48612f76898cde7f669b5306d515fffce",
+          "turn1.repair.proposed.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4",
+          "turn1.accepted.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4"
+        }
+      }
+    }
+  ],
+  "confidence": "Unverified reader labels; agreement and follow-up origin do not verify a connection."
+}

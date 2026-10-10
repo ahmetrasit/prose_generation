@@ -1,0 +1,84 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_4/luna/list.tsv",
+  "rows": 89,
+  "unique_references": 89,
+  "schema_errors": [],
+  "duplicates": [],
+  "strengths": {
+    "strong": 55,
+    "medium": 34
+  },
+  "findings": [
+    {
+      "line": 8,
+      "ref": "WLC:Ps.23.1",
+      "field": "basis",
+      "language": "Hebrew",
+      "wording": "רעה",
+      "kind": "wording_review",
+      "variant_matches": [],
+      "matching_neighbours": [],
+      "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+    },
+    {
+      "line": 23,
+      "ref": "Genesis Rabbah 10:6",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 33,
+      "ref": "Didache 10:3",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 55,
+      "ref": "Berakhot 35a",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 56,
+      "ref": "Mishnah Berakhot 6:1",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 60,
+      "ref": "SBLGNT:Jas.1.11",
+      "raw_ref": "SBLGNT:James.1.11",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    },
+    {
+      "line": 73,
+      "ref": "Wisdom of Solomon 16:26",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 74,
+      "ref": "Berakhot 43b",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 81,
+      "ref": "1 Clement 24.3",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 84,
+      "ref": "SBLGNT:Jas.5.7",
+      "raw_ref": "SBLGNT:James.5.7",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

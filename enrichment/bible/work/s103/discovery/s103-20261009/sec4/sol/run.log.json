@@ -1,0 +1,2785 @@
+{
+  "target": "sec4",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:29:04.068752-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_sec4_sol",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "99af99f89745773dc85722956c2b3fdf82b94a43a3df955e4daf729eb665be20",
+  "package_sha256": "b5fd8129b2ebdb36b0456dac0dfd13241c353c754a1cf00ceeaa2bd460c2a558",
+  "input_sha256": "cd1182c971d91597295d7598f682b8e5ed39c5e0d9342d0bc9237ec29f7693d9",
+  "spawn_sha256": "5dc2ea3496e7d29938731ef05592916191f5b7b286a3a284d367fe605a9981e0",
+  "followup_text_sha256": "acdcbffbd02d7041c2a1a516438e41cdc9eb5fe7b53d4c7a5363d7b2bac60241",
+  "agent_id": "01a11f23-0d9a-7e92-9a03-a9a51861b988",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-29-14-01a11f23-0d9a-7e92-9a03-a9a51861b988.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 125,
+  "turn1_sha256": "895f64a0117b86309ba857cfabef9e8067507f0bd06597c44348690857221814",
+  "turn2": {
+    "completed": true,
+    "rows_total": 205,
+    "rows_added": 80
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 125,
+    "raw_proposal_rows": 80,
+    "unique_additions": 80,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.32",
+          "basis": "mastering one's spirit",
+          "note": "The commentary makes patience the act of holding one's own self; the proverb ranks the person who rules his spirit above a conqueror, turning restraint into strength."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.25.28",
+          "basis": "uncontrolled spirit and breached city",
+          "note": "The commentary contrasts self-restraint with being held by another; this proverb pictures a person without control of spirit as a city without walls, exposed precisely because the inner guard is absent."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.131.2",
+          "basis": "quieting one's own soul",
+          "note": "The commentary defines patience as keeping the self from outcry; the psalmist says he has calmed and quieted his soul like a weaned child, giving that inner action a concrete image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.39.2",
+          "basis": "guarding mouth under distress",
+          "note": "The commentary's patient person holds the self back from lament; the psalmist resolves to muzzle his mouth while the wicked stand before him, an intentional restraint of speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.29.9",
+          "basis": "princes put hand over mouth",
+          "note": "The commentary places the holding hand alongside restraint of the person; Job recalls princes stopping their words and putting a hand over their mouth, a visible enactment of self-control."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.4.2",
+          "basis": "ع ص ر / עצר, table sound correspondence",
+          "note": "The commentary's asr includes restraining; Eliphaz asks who can restrain words when provoked, using Hebrew עצר for the failure of verbal self-control."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.53.7",
+          "basis": "led to slaughter yet silent",
+          "note": "The commentary's passive captive is held for killing, while its patient person withholds an outcry; the servant is led like a lamb to slaughter and does not open his mouth, joining both positions in one scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.23",
+          "basis": "insulted sufferer refrains and entrusts",
+          "note": "The commentary contrasts being held by others with holding oneself; Jesus, under abuse, neither retaliates nor threatens but entrusts judgment to God, giving the captive person's restraint agency."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.13.10",
+          "basis": "captivity and the endurance of saints",
+          "note": "The commentary opposes the person held by others to the one who practices patience; this verse names captivity and sword death, then identifies the saints' endurance and faith in that situation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.2.10",
+          "basis": "prison, trial, faithfulness to death",
+          "note": "The commentary's prisoner is held toward death and the believer is urged to endure; the church is warned of imprisonment and called to remain faithful even to death."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.6",
+          "basis": "fast that releases bonds",
+          "note": "The commentary calls fasting one form of holding the self and also depicts a person held against his will; Isaiah calls for a fast that loosens bonds and frees the oppressed, joining the two types of holding ethically."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.7",
+          "basis": "fast joined to sharing bread",
+          "note": "The commentary juxtaposes fasting as restraint and the hand that withholds what it could give; Isaiah's chosen fast requires sharing bread with the hungry and bringing the homeless in."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.15.7",
+          "basis": "closing the hand to the poor",
+          "note": "The commentary's tight-handed asir keeps back what he can give; the law forbids hardening the heart or closing the hand against a poor brother."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.15.8",
+          "basis": "open hand and adequate loan",
+          "note": "The commentary depicts the person who holds his hand against giving; this verse commands opening the hand and lending enough for the poor person's need."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.27",
+          "basis": "withholding good within one's power",
+          "note": "The commentary calls the withholding hand a form of asr; the proverb forbids keeping good from those to whom it is due when one's hand has power to do it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.24",
+          "basis": "wrongful withholding leads to want",
+          "note": "The commentary links the tight hand to the human being in loss; this proverb says one person withholds what ought to be given and comes to want, giving that loss an economic form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.17",
+          "basis": "closing compassion despite means",
+          "note": "The commentary's asir has the means to give but holds them; the letter asks how God's love remains in a person who sees a needy brother yet closes compassion while possessing worldly goods."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.42",
+          "basis": "failure to feed and give drink",
+          "note": "The commentary treats the withholding hand as a moral failure; the condemned are told they gave no food or drink to the hungry and thirsty, making a withheld gift decisive in judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.24",
+          "basis": "wealth holder begs relief from flame",
+          "note": "The commentary places withholding beside daring toward fire; the rich man who ignored Lazarus now begs for a finger dipped in water to cool him in the flame, reversing who needs the other's hand."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.25",
+          "basis": "reversal of comfort and agony",
+          "note": "The commentary's gain-hoarding person becomes the one held to loss; Abraham tells the rich man that Lazarus now receives comfort while he is in anguish, explaining the reversal after their lifetimes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.16.26",
+          "basis": "profit that loses the soul",
+          "note": "The commentary pairs a bad purchase with loss and fire; Jesus asks what profit there is in gaining the whole world while forfeiting one's life, a pointed counterpart to buying error at the cost of guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Dan.3.18",
+          "basis": "facing fire for fidelity",
+          "note": "The commentary's inverted patience is brazen acceptance of fire after a bad bargain; Daniel's companions refuse the idol even without rescue, making courage before threatened fire serve fidelity instead."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Dan.3.25",
+          "basis": "companions preserved in fire",
+          "note": "The commentary's wrongdoers are daring toward punitive fire; in Daniel the king sees the faithful captives walking unharmed in the furnace, reversing the moral reason for facing fire and its outcome."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.21",
+          "basis": "poor man denied falling crumbs",
+          "note": "The commentary includes the hand that withholds available goods; Lazarus longs for the crumbs from the rich man's table, so the later flame follows a specific unshared surplus."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.6.27",
+          "basis": "fire held against the chest",
+          "note": "The commentary's phrase about daring toward fire exposes the folly of accepting destructive consequences; the proverb asks whether one can carry fire against the chest without burning one's clothes, in its context a warning against adultery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.50.11",
+          "basis": "walking by one's self-kindled fire",
+          "note": "The commentary links a ruinous choice to apparent boldness before fire; those who kindle their own fire are told to walk by its flames and will lie down in torment, making the chosen flame a judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.41",
+          "basis": "fire after withheld care",
+          "note": "The commentary places a withholding hand beside fire as a dire end; the judgment scene sends those on the left to eternal fire, with their failure to feed and welcome specified in the next verse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.14.24",
+          "basis": "king imposes oath and food restraint",
+          "note": "The commentary distinguishes chosen fasting from a man forcibly made to swear; Saul binds his troops with an oath not to eat until evening, turning restraint into an imposed burden."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.14.26",
+          "basis": "fear of oath keeps hands from food",
+          "note": "The commentary depicts forced oath and a restrained hand; Saul's troops see honey but no one puts a hand to his mouth because they fear the oath, showing bodily cost of imposed restraint."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.26.63",
+          "basis": "high priest adjures silent prisoner",
+          "note": "The commentary's captive is made to swear and faces death; the high priest adjures the previously silent Jesus by the living God to answer about his identity during the trial."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.22.12",
+          "basis": "father does not withhold son",
+          "note": "The commentary names a father holding back his son's property; the angel says Abraham has not withheld his son from God, reversing the direction and object of a father's withholding."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.21.16",
+          "basis": "limit on father's disposal of inheritance",
+          "note": "The commentary pictures a father holding back what belongs to a son; the law bars a father from favoring a later son with the firstborn's portion, constraining paternal control of property."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Luke.15.12",
+          "basis": "father divides property at son's request",
+          "note": "The commentary's father withholds a child's goods; the younger son requests his share and the father divides the estate, a narrative reversal of paternal withholding."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.15.31",
+          "basis": "father says all his goods are son's",
+          "note": "The commentary raises the possibility of a father retaining a son's property; the father assures the elder son that everything he has is his, distinguishing possession from a closed paternal hand."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.30.4",
+          "basis": "daughter's vow in father's house",
+          "note": "The commentary's newly menstruating girl is kept at home; this law situates a young woman's vow while she remains in her father's house, where his authority can affect her commitment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.30.6",
+          "basis": "father restrains daughter's vow",
+          "note": "The commentary's held girl is subject to a household's control; the father can forbid the vow he hears and the daughter is released from it, a concrete form of paternal restraint in that house."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Ketubot 4:4",
+          "basis": "father's authority over minor daughter's goods and vows",
+          "note": "The commentary joins a father controlling a child's property with a young girl kept at home; this legal tradition enumerates a father's rights over his minor daughter's betrothal, earnings, finds and vows, clarifying how household custody includes economic control."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Protevangelium of James 8",
+          "basis": "Mary removed from temple at puberty",
+          "note": "The commentary calls the newly menstruating girl one kept in the house; the priests seek a guardian for twelve-year-old Mary lest her approaching maturity defile the sanctuary, an early Christian account of seclusion and relocation around puberty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.2.15",
+          "basis": "fast and solemn assembly",
+          "note": "The commentary extends self-restraint from a person to a community; Joel orders a sanctified fast and calls a solemn assembly, using the table's Hebrew עצר family for the collective gathering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.16.8",
+          "basis": "ع ص ر / עצר, table sound correspondence",
+          "note": "The commentary's asr includes holding back; the seventh day is an עצרת, a restrained festival assembly in which no work is done, joining communal gathering to a prohibition on action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:2Kgs.17.4",
+          "basis": "ع ص ر / עצר, table sound correspondence",
+          "note": "The commentary's passive patient is confined by others; the Assyrian king confines Hoshea and binds him in prison, using Hebrew עצר for involuntary custody."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Jer.33.1",
+          "basis": "ع ص ر / עצר, table sound correspondence",
+          "note": "The commentary pairs being held with a divine word received while waiting; Jeremiah is still confined in the court of the guard when the Lord's word comes to him, using עצר for custody."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.33.18",
+          "basis": "Lord's eye on those who wait",
+          "note": "The commentary tells the waiting prophet that he is under God's eyes; this psalm says the Lord's eye rests on those who fear him and wait for his faithful love, joining watchfulness to expectation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Chr.16.9",
+          "basis": "divine eyes seek the loyal",
+          "note": "The commentary's patient servant waits under divine sight; the seer says the Lord's eyes range through the earth to strengthen those fully loyal to him, making observation a source of support."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.3.12",
+          "basis": "God's eyes and ears attend the righteous",
+          "note": "The commentary says the waiting person is under God's eyes; this letter applies the scriptural formula of the Lord's eyes toward the righteous and ears toward their prayer, giving the watched person a hearing as well."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jonah.2.1",
+          "basis": "fish holds Jonah",
+          "note": "The commentary invokes the fish's owner as the example a patient prophet must avoid; the Hebrew story first has a great fish swallow Jonah, making his literal confinement the setting of that warning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jonah.2.2",
+          "basis": "Jonah prays from inside fish",
+          "note": "The commentary recalls the fish's owner crying out while constrained; in Hebrew verse numbering Jonah prays to the Lord from the fish's belly, turning confinement into an appeal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jonah.4.9",
+          "basis": "Jonah's anger unto death",
+          "note": "The commentary warns the waiting prophet not to be like the constricted fish's owner; later Jonah tells God he is angry enough to die, identifying the uncontrolled reaction at issue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lam.3.26",
+          "basis": "quiet waiting for deliverance",
+          "note": "The commentary defines patience as waiting under God's judgment without outcry; Lamentations calls it good to wait quietly for the Lord's salvation amid suffering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lam.3.28",
+          "basis": "sitting alone in silence under imposed burden",
+          "note": "The commentary distinguishes holding oneself from being held by another; the sufferer is told to sit alone and silent because a yoke has been laid on him, holding both experiences together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.7",
+          "basis": "farmer waits for precious crop",
+          "note": "The commentary's patience includes waiting rather than merely suppression; James asks believers to be patient until the Lord's coming like a farmer awaiting the crop and its rains.",
+          "raw_ref": "SBLGNT:James.5.7",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.36",
+          "basis": "endurance while awaiting promise",
+          "note": "The commentary tells the prophet to wait for the Lord's judgment; Hebrews says believers need endurance to do God's will and receive what was promised, connecting delay with obedient action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.10.13",
+          "basis": "God limits trial and makes endurance possible",
+          "note": "The commentary joins patient endurance to being under divine care; Paul says God will not allow a trial beyond capacity and will provide a way to endure it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.13",
+          "basis": "exhort one another each day",
+          "note": "The commentary makes patience something believers commend to each other; Hebrews commands daily mutual exhortation lest any heart be hardened by sin."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.24",
+          "basis": "spur one another to love and good works",
+          "note": "The commentary's mutual counsel sits beside faith and righteous action; Hebrews asks members to consider how to provoke one another toward love and good deeds."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.25",
+          "basis": "mutual encouragement as the day approaches",
+          "note": "The commentary expands restraint to a persevering group; Hebrews warns against abandoning assembly and calls for encouraging one another as the day draws near."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.14",
+          "basis": "warn, encourage, support, be patient with all",
+          "note": "The commentary's patience is a shared duty rather than an isolated virtue; Paul orders the community to admonish the idle, encourage the fainthearted, help the weak and be patient toward all."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.13",
+          "basis": "bear with and forgive one another",
+          "note": "The commentary calls believers to recommend patience to one another; Colossians makes that reciprocal by asking each person to bear with and forgive another after a complaint."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.2",
+          "basis": "patience while bearing one another",
+          "note": "The commentary extends the held self to a community that holds together; Ephesians names patience and bearing with one another in love as conduct worthy of the calling."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.12",
+          "basis": "endurance, commandments, faith",
+          "note": "The commentary groups faith, good action and mutual patience as the exception to loss; Revelation identifies the saints' endurance with keeping God's commandments and faith in Jesus."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.12",
+          "basis": "faith and patience inherit promise",
+          "note": "The commentary puts faith beside patience in the saved community; Hebrews tells readers to imitate those who inherit promises through faith and patience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.8.5",
+          "basis": "ء ن س / אנש, table sound correspondence with BDB Arabic note",
+          "note": "The commentary's insan is vulnerable to loss yet addressed by divine care; the psalm asks why God remembers mortal enosh, setting human frailty beside God's attention."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.7.17",
+          "basis": "ء ن س / אנש, table sound correspondence with BDB Arabic note",
+          "note": "The commentary's insan is one held under divine judgment; Job asks why God makes so much of mortal enosh and sets his heart on him, casting close attention as oppressive in his suffering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.7.18",
+          "basis": "being inspected every morning",
+          "note": "The commentary says the patient waits under God's eyes as protection; Job complains that God visits and tests him every morning, preserving a contrary experience of divine surveillance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.7.13",
+          "basis": "ء ن س / Aramaic אנש, table sound correspondence",
+          "note": "The commentary's insan is mortal and at risk of loss; Daniel sees a figure like a son of enash coming with the clouds toward the Ancient of Days, giving the human designation a strikingly exalted setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.7.14",
+          "basis": "kingdom granted to the humanlike figure",
+          "note": "The commentary describes humanity in loss and then an exception; the figure introduced as a son of enash in the previous verse receives an enduring dominion here, making the reversal explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.7.27",
+          "basis": "kingdom given to oppressed holy people",
+          "note": "The commentary makes believing endurance the exception to human loss; after the preceding vision of oppression, Daniel gives the kingdom to the people of the holy ones, a corporate reversal of defeat."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.51.12",
+          "basis": "fear of dying mortal against divine comfort",
+          "note": "The commentary calls the human being frail and liable to loss; God asks why the comforted people fear mortal enosh who dies like grass, while divine reassurance remains available."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.39.7",
+          "basis": "mortal man heaps wealth without knowing heir",
+          "note": "The commentary's tight hand is set beside humanity's loss; this psalm says a person heaps wealth without knowing who will gather it, using צבר, the table's sound match to ص ب ر, here meaning accumulation rather than patience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.39.8",
+          "basis": "wait for God after futile hoarding",
+          "note": "The commentary opposes possessive holding to patient waiting; immediately after describing a person heaping goods without knowing their heir, the psalmist asks what he waits for and names God as hope."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.27.16",
+          "basis": "wicked heaps silver like dust",
+          "note": "The commentary's withholding hand accumulates goods under threat of loss; Job says the wicked may heap up silver like dust, using צבר, the table's sound match to ص ب ر with the distinct sense of accumulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.27.17",
+          "basis": "stored goods pass to the innocent",
+          "note": "The commentary's human holder cannot keep his gain secure; Job says the innocent will divide the wicked person's silver, reversing the hoard described in the preceding verse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.9.3",
+          "basis": "Tyre heaps wealth behind a fortress",
+          "note": "The commentary associates protected stores with a potentially grasping hand; Tyre builds a stronghold and heaps silver and gold like dust, using צבר, the table's sound match to ص ب ر with the distinct sense of piling up."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.9.4",
+          "basis": "stored wealth lost and city consumed by fire",
+          "note": "The commentary links hoarding with ultimate fire; after Tyre's fortified accumulation, the Lord strips its wealth and fire consumes it, showing how a guarded store fails."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.16.2",
+          "basis": "ع ص ر / עצר, table sound correspondence",
+          "note": "The commentary's asr can enclose a girl at reproductive maturity; Sarai says the Lord has restrained her from bearing children, using עצר for an involuntary bodily restriction rather than household confinement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.20.18",
+          "basis": "ع ص ر / עצר, table sound correspondence",
+          "note": "The commentary's house-held girl connects enclosure with reproduction; God has closed the wombs throughout Abimelech's household because of Sarah, using עצר for reproductive restraint, a different subject and cause."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.1.13",
+          "basis": "ع ص ر / עצר, table sound correspondence",
+          "note": "The commentary's collective patience joins moral action to communal holding; God rejects an עצרה, a solemn assembly, when worship is mixed with injustice, warning that the gathered form alone does not suffice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.23.36",
+          "basis": "festival assembly with forbidden work",
+          "note": "The commentary allows holding to describe a whole community; the eighth-day sacred assembly, called עצרת from the table's Hebrew עצר family, is paired with a ban on ordinary work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.28.28",
+          "basis": "grain is crushed but not endlessly",
+          "note": "The commentary's grain is protected in its covering; Isaiah distinguishes grain processing from destruction, saying it is threshed but not pulverized forever, an agricultural counterpart to protection before use."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.3.12",
+          "basis": "wheat gathered after chaff separation",
+          "note": "The commentary imagines grain sheltered in its covering; the winnower separates wheat from chaff and gathers the grain into storage, showing the covering removed when preservation takes a new form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.41.36",
+          "basis": "stored grain reserved through famine",
+          "note": "The commentary's enclosed grain is kept for safety; Joseph proposes keeping grain as a reserve for famine so the land will not perish, shifting protection from a husk to a storehouse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.41.49",
+          "basis": "grain amassed beyond counting",
+          "note": "The commentary's grain is something held in reserve; Joseph stores so much grain that it becomes uncountable, a beneficial form of withholding set against the commentary's selfish tight hand."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.24",
+          "basis": "grain must leave solitary intactness",
+          "note": "The commentary's grain remains protected in its covering; Jesus says a grain that does not fall into the earth and die remains alone, while dying makes it fruitful, a contrary claim about when protected seed must be released."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.3",
+          "basis": "self-denial with oppression",
+          "note": "The commentary makes fasting a kind of self-restraint yet warns about holding others; Isaiah rebukes fasters who pursue their own business and oppress workers on the fast day, exposing the split between the two acts."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Ta'anit 2:1",
+          "basis": "communal fast judged by changed deeds",
+          "note": "The commentary broadens patience to a community and calls fasting a form of restraint; this fast-day exhortation says the people of Nineveh were heeded for changed deeds, making a gathered fast accountable to conduct."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.16",
+          "basis": "fasting can become public display",
+          "note": "The commentary treats fasting as an inward holding of the self; Jesus warns fasters against disfiguring their faces to be seen by others, distinguishing the act from theatrical self-display."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.9.15",
+          "basis": "fast during bridegroom's absence",
+          "note": "The commentary connects patience with waiting and fasting with self-restraint; Jesus says the wedding guests will fast when the bridegroom is taken away, giving voluntary abstinence the time of an absence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.13.2",
+          "basis": "community fasting while discerning direction",
+          "note": "The commentary extends patient holding from a person to a group; the Antioch church worships and fasts when the Spirit speaks, placing shared restraint beside guidance and action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 8:1",
+          "basis": "appointed communal fasting days",
+          "note": "The commentary makes fasting one form of patience in a community; the Didache prescribes shared weekly fast days, showing how the act became a repeated group discipline."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 4:1",
+          "basis": "strength as conquering inclination",
+          "note": "The commentary defines patience as holding the self rather than being held; the saying calls one who conquers his own inclination mighty, interpreting power as inward mastery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 1:6",
+          "basis": "alms sweating in the hand",
+          "note": "The commentary's holding hand can be stingy; the Didache asks that alms remain in the hand until the giver knows the recipient, a distinct form of temporary restraint meant to guide giving rather than avoid it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "1 Clement 38:2",
+          "basis": "rich meet poor person's need",
+          "note": "The commentary's asir withholds resources; this church exhortation tells the rich to supply the poor person's need and the poor to thank God for the provider, turning possession into a reciprocal relation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.7",
+          "basis": "giving without compulsion",
+          "note": "The commentary sets forced oath beside the tight hand; Paul tells each person to give as decided in the heart, not under compulsion, so the release of goods is neither hoarding nor coercion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.16",
+          "basis": "good wishes without food or clothing",
+          "note": "The commentary makes withheld goods a failure of the hand; James asks what good it does to wish warmth and fullness to a needy person without providing bodily necessities.",
+          "raw_ref": "SBLGNT:James.2.16",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.21.26",
+          "basis": "righteous gives without withholding",
+          "note": "The commentary's asir is marked by a hand held closed; the righteous person in this proverb gives and does not hold back, after the preceding clause describes craving all day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 96,
+        "row": {
+          "line": 96,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.13.22",
+          "basis": "inheritance left to descendants",
+          "note": "The commentary names a father withholding a son's goods; the proverb praises a good person who leaves an inheritance to grandchildren, a long view of wealth passed on rather than retained."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 97,
+        "row": {
+          "line": 97,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.9",
+          "basis": "father asked for bread does not give stone",
+          "note": "The commentary imagines a father's hand controlling what his child receives; Jesus' question assumes a father responds to a son's request for bread with food rather than a useless stone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 98,
+        "row": {
+          "line": 98,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.18",
+          "basis": "barns built to contain surplus",
+          "note": "The commentary includes grain kept in protection and wealth held back; the rich farmer plans larger barns for his grain and goods, joining storage to the closed-hand danger."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 99,
+        "row": {
+          "line": 99,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.20",
+          "basis": "soul demanded after goods stored",
+          "note": "The commentary's possessor is still a mortal held to account; God demands the rich farmer's life that night and asks who will own the stored goods, overturning the fantasy of secure possession."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 100,
+        "row": {
+          "line": 100,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Esth.1.8",
+          "basis": "ء ن س / אנס, table sound match; compulsion, not human cognate",
+          "note": "The commentary's forced oath shows one person restraining another; Esther's banquet rule says drinking is without compulsion, a specific reversal of social coercion, though the act is drinking rather than swearing and the Hebrew root is not used for a human being."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 101,
+        "row": {
+          "line": 101,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.8.31",
+          "basis": "oath imposed in a dispute",
+          "note": "The commentary mentions a man made to swear by another; Solomon's prayer envisages an oath being laid on an accused man at the altar and asks God to judge, giving imposed swearing a judicial setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 102,
+        "row": {
+          "line": 102,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.12",
+          "basis": "truthful speech in place of oaths",
+          "note": "The commentary's oath scene makes another person control a man's speech; James forbids oath-taking and asks for plain yes and no, a response to the moral vulnerability of sworn speech.",
+          "raw_ref": "SBLGNT:James.5.12",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 103,
+        "row": {
+          "line": 103,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.36.5",
+          "basis": "confined speaker sends his words outward",
+          "note": "The commentary contrasts a held person with mutually recommended truth; Jeremiah says he is detained and cannot enter the Lord's house, then instructs Baruch to read his scroll there, showing testimony moving despite confinement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 104,
+        "row": {
+          "line": 104,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.16.25",
+          "basis": "prisoners pray and sing while bound",
+          "note": "The commentary's captive can still practice an active form of patience; Paul and Silas pray and sing hymns at midnight in prison while other prisoners listen."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 105,
+        "row": {
+          "line": 105,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.7",
+          "basis": "be still while waiting for the Lord",
+          "note": "The commentary says waiting is a form of patience under divine judgment; the psalm orders the hearer to be still before the Lord and wait rather than fret over a prospering schemer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 106,
+        "row": {
+          "line": 106,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.10",
+          "basis": "prophets model suffering and patience",
+          "note": "The commentary's prophet is told to endure while awaiting the Lord's decision; James names the prophets who spoke in the Lord's name as examples of suffering and patience.",
+          "raw_ref": "SBLGNT:James.5.10",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 107,
+        "row": {
+          "line": 107,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.11",
+          "basis": "Job's endurance and divine outcome",
+          "note": "The commentary joins waiting under pain to divine care; James calls those who endured blessed and points to Job's endurance and the Lord's compassionate outcome.",
+          "raw_ref": "SBLGNT:James.5.11",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 108,
+        "row": {
+          "line": 108,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.2.10",
+          "basis": "accept adversity without sinful speech",
+          "note": "The commentary defines patience as holding back lament under misfortune; Job rebukes his wife's counsel and accepts adversity from God without sinning with his lips in this scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 109,
+        "row": {
+          "line": 109,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.12",
+          "basis": "patient in affliction and constant in prayer",
+          "note": "The commentary's waiting person restrains panic under God's eyes; Paul joins patience in suffering to persistence in prayer, making endurance an active appeal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 110,
+        "row": {
+          "line": 110,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.2",
+          "basis": "community carries one another's burdens",
+          "note": "The commentary moves from one person's held self to shared endurance; Paul commands believers to bear one another's burdens, giving collective patience a practical action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 111,
+        "row": {
+          "line": 111,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.2.16",
+          "basis": "whole household called out to assembly",
+          "note": "The commentary expands holding to a community and evokes domestic enclosure; Joel summons elders, children, nursing infants and even bride and groom from their rooms, showing the fast superseding ordinary household boundaries."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 112,
+        "row": {
+          "line": 112,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.7.36",
+          "basis": "guardian decides about young woman's marriage",
+          "note": "The commentary's girl is subject to household control at maturity; one reading of Paul's ambiguous reference to a man's virgin and her passing youth concerns a father's decision about marriage, though the passage can also be read of a betrothed couple."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 113,
+        "row": {
+          "line": 113,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.79.11",
+          "basis": "prisoners groan and are marked for death",
+          "note": "The commentary's passive patient is someone held for killing; the psalm asks God to hear imprisoned people's groans and preserve those appointed to die, adding a plea for release to the captive scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 114,
+        "row": {
+          "line": 114,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.28.18",
+          "basis": "corrupt trade ends in fire",
+          "note": "The commentary's bad exchange is followed by daring toward fire; Ezekiel condemns unjust trading and says fire will come from the trader's midst and consume him, bringing commerce and punishment into one verse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 115,
+        "row": {
+          "line": 115,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.30",
+          "basis": "debtor jailed until payment",
+          "note": "The commentary says a person can be held as security for what he has earned; the unforgiving servant imprisons a fellow debtor until he pays, making financial liability literal captivity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 116,
+        "row": {
+          "line": 116,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.34",
+          "basis": "unforgiving creditor made the detained debtor",
+          "note": "The commentary contrasts the hand that withholds with the one who becomes held; the master hands the unmerciful servant over to jailers until his debt is paid, reversing his role in the previous imprisonment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 117,
+        "row": {
+          "line": 117,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.5.5",
+          "basis": "children enslaved under household debt",
+          "note": "The commentary links a father's control of goods to the person forcibly held; indebted families say their daughters are already enslaved and their fields belong to others, showing a household's loss of both property and freedom."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 118,
+        "row": {
+          "line": 118,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.8.5",
+          "basis": "impatient merchants wait out rest to sell grain",
+          "note": "The commentary sets patient communal restraint against the grasping hand and protected grain; merchants ask when the new moon and sabbath will end so they can sell grain with dishonest measures, turning waiting into greed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 119,
+        "row": {
+          "line": 119,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.8.6",
+          "basis": "buying the poor and selling inferior grain",
+          "note": "The commentary's bad bargain and tight hand harm other people; Amos accuses merchants of buying the needy for silver and selling sweepings of wheat, joining unjust exchange to grain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 120,
+        "row": {
+          "line": 120,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.21.13",
+          "basis": "closed ear later cries unheard",
+          "note": "The commentary says humans cry out under harm yet withhold good when they have it; the proverb warns that one who shuts his ear to the poor person's cry will cry out and receive no answer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 121,
+        "row": {
+          "line": 121,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.19",
+          "basis": "unjust gain takes the owner's life",
+          "note": "The commentary's bargain for error leads to loss; the proverb says ill-gotten gain takes away the life of its possessors, making acquisition turn against the acquirer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 122,
+        "row": {
+          "line": 122,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.5.11",
+          "basis": "restore fields, houses and interest",
+          "note": "The commentary's father-and-son property scene raises goods held from rightful users; Nehemiah demands that lenders return debtors' fields and houses and remit the interest, providing a communal remedy for the grasping hand."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 123,
+        "row": {
+          "line": 123,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.4.18",
+          "basis": "proclamation of release to captives",
+          "note": "The commentary's captive is held toward death; Jesus' reading of Isaiah announces release to captives, supplying a counter movement to the image of enforced confinement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 124,
+        "row": {
+          "line": 124,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "2 Maccabees 7:9",
+          "basis": "facing lethal torment for covenant hope",
+          "note": "The commentary's inverted patience is rash boldness before fire after rejecting guidance; the tortured brother tells his killer that God will raise those who die for God's laws, a contrary reason for accepting death."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 125,
+        "row": {
+          "line": 125,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "2 Maccabees 7:20",
+          "basis": "mother strengthens sons through execution",
+          "note": "The commentary makes patience a virtue commended between people; the mother watches her seven sons die in one day and bears it with courage because of hope in the Lord, a family form of shared endurance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.17.12",
+          "basis": "hands held steady until sunset",
+          "note": "The commentary distinguishes a person holding himself from another holding his hand, then extends patience to a group; Aaron and Hur physically support Moses' tired hands until sunset while the people endure battle."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.13.3",
+          "basis": "remember prisoners as bound with them",
+          "note": "The commentary's person held by others remains part of the patient community; Hebrews tells readers to remember prisoners as though bound alongside them, turning shared endurance into solidarity."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.36",
+          "basis": "visit the one held in prison",
+          "note": "The commentary places the captive beside the hand that may withhold good; the righteous are commended for coming to the speaker while he was in prison, an action addressed specifically to the held person."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.43",
+          "basis": "failure to visit prisoner",
+          "note": "The commentary's withholding hand and detained person meet in one moral scene; the condemned are told they did not visit the speaker when he was sick or in prison."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.5.22",
+          "basis": "wrongdoer held by cords of his sin",
+          "note": "The commentary says each person is held to what he has earned; the proverb makes that relation physical when the wicked person's own iniquities ensnare him and the cords of his sin hold him fast."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.7.25",
+          "basis": "holy ones handed over for a limited time",
+          "note": "The commentary speaks of an afflicted group that must endure together; Daniel's arrogant king wears out the holy ones and they are given into his hand for a stated time before the kingdom changes hands."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.21.19",
+          "basis": "gain life through endurance",
+          "note": "The commentary calls humanity lost except for those who practice patience; Jesus tells persecuted hearers that by their endurance they will gain their lives, linking loss and preservation directly."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.9.27",
+          "basis": "discipline body and make it a slave",
+          "note": "The commentary sets holding oneself beside being held by another; Paul says he disciplines and enslaves his own body lest he be disqualified, deliberately combining the two positions in one person."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.3",
+          "basis": "strengthen weak hands",
+          "note": "The commentary moves from a person's restraining hand to mutual encouragement; Isaiah commands hearers to strengthen weak hands, making the community's support of frail members concrete."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.4",
+          "basis": "say to the anxious to be strong",
+          "note": "The commentary's believers recommend patience to one another under divine care; Isaiah tells them to address fearful hearts with courage and the promise that God will come and save."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.16",
+          "basis": "speak truth to one another",
+          "note": "The commentary's exception to loss includes mutual counsel in truth; Zechariah commands people to speak truth with their neighbors and render true judgments for peace, giving that counsel a public setting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.25",
+          "basis": "truth spoken because members belong together",
+          "note": "The commentary joins truth to reciprocal counsel within the group; Ephesians tells each person to speak truth to a neighbor because believers are members of one another."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.16",
+          "basis": "teach and admonish one another",
+          "note": "The commentary says the saved community commends truth and patience to its members; Colossians commands mutual teaching and admonition with wisdom, turning shared conviction into speech."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.17",
+          "basis": "reprove neighbor instead of harboring wrong",
+          "note": "The commentary's mutual counsel requires another person's good; the law commands frank correction of a neighbor rather than silently bearing sin on his account."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.14.44",
+          "basis": "oath threatens an unwitting eater with death",
+          "note": "The commentary's forced oath and captive held for killing are separate senses of restraint; Saul's oath leads him to pronounce death on Jonathan for eating honey, showing how an imposed restraint can endanger a person."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.14.45",
+          "basis": "community rescues person condemned by oath",
+          "note": "The commentary makes endurance and right action communal; Saul's people refuse to let Jonathan die under the oath and rescue him, countering imposed restraint through collective intervention."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.2.36",
+          "basis": "Shimei ordered to remain in one city",
+          "note": "The commentary's passive patient is held by another's command; Solomon orders Shimei to build a house in Jerusalem and stay there, making domestic residence a form of custody."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.2.42",
+          "basis": "king recalls oath tied to confinement",
+          "note": "The commentary names a man compelled to swear and then held under another's control; Solomon reminds Shimei of the oath attached to his Jerusalem confinement after he crossed its boundary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.2.46",
+          "basis": "confinement and oath end in execution",
+          "note": "The commentary's coerced oath can converge with being held for death; Solomon orders Shimei executed after finding he violated the oath governing his residence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.23.12",
+          "basis": "oath-bound abstinence used to plan murder",
+          "note": "The commentary calls fasting a type of self-restraint yet also depicts forced oath and a person held for death; conspirators bind themselves by an oath to eat and drink nothing until they kill Paul, turning restraint into violence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.11.17",
+          "basis": "ع ص ر / עצר, table sound match; shut rain",
+          "note": "The commentary's asr includes holding back, and its grain is protected from loss; God warns that he may shut the heavens so rain and produce cease, using the table's Hebrew עצר correspondence for a communal loss of harvest."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:1Kgs.8.35",
+          "basis": "ع ص ر / עצר, table sound correspondence",
+          "note": "The commentary's held grain and waiting community depend on what is released; Solomon envisions heaven restrained from rain because of sin and asks that prayer and repentance be heard, using עצר for divine withholding."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.3",
+          "basis": "wait for the delayed appointed time",
+          "note": "The commentary presents patience as waiting for the Lord's decision; Habakkuk says the vision has an appointed time and instructs the hearer to wait even if it delays."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.4",
+          "basis": "faithfulness amid the delayed vision",
+          "note": "The commentary joins belief to patience as the exception to loss; Habakkuk contrasts the proud person's disordered soul with the righteous one who lives by faithfulness in the delay described just before."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.28.16",
+          "basis": "one who trusts need not hurry",
+          "note": "The commentary sets belief and patient restraint against the human being's haste; Isaiah says the person who trusts the tested foundation will not be hurried, joining trust to freedom from panic."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.30.15",
+          "basis": "quiet trust offered but refused",
+          "note": "The commentary says salvation belongs to those who restrain themselves in faith; God tells Judah that quietness and trust would be their strength, then says they were unwilling, making refusal of patience explicit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.16",
+          "basis": "flight chosen instead of stillness",
+          "note": "The commentary's hasty human will not hold himself; Judah chooses swift horses rather than quiet trust and is told that flight and pursuit will follow, a concrete outcome of the refusal in the previous verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.19",
+          "basis": "slow speech and slow anger",
+          "note": "The commentary opposes the human being's quick distress to holding the self; James commands everyone to be quick to hear but slow to speak and slow to anger.",
+          "raw_ref": "SBLGNT:James.1.19",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.14.29",
+          "basis": "slow anger versus hasty folly",
+          "note": "The commentary's patience is the contrary of impulsive human outcry; the proverb contrasts a person slow to anger with one quick tempered who exalts folly."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.7.9",
+          "basis": "do not hasten to anger in spirit",
+          "note": "The commentary makes patience the restraining of inner agitation; Ecclesiastes warns against being quick in spirit to anger because anger lodges with fools."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.19",
+          "basis": "stored goods mistaken for long rest",
+          "note": "The commentary opposes prudent waiting to a hand that hoards; the rich farmer tells his soul to rest for many years on stored goods, an imagined secure future overturned by the divine demand in the next verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.22.31",
+          "basis": "Satan seeks to sift disciples like wheat",
+          "note": "The commentary's grain is kept in its covering and the community must endure pressure; Jesus says Satan has demanded to sift the disciples like wheat, turning grain processing into an image of testing the group."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.22.32",
+          "basis": "prayer protects faith through sifting",
+          "note": "The commentary's waiting believer is under protective divine attention and encourages others; Jesus says he has prayed that Peter's faith not fail and tells him to strengthen his brothers after he turns back."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Cor.15.37",
+          "basis": "naked grain sown without its mature covering",
+          "note": "The commentary pictures grain guarded by a surrounding husk; Paul says what is sown is a bare grain rather than the body it will have, placing fruitfulness at the point where the old covering is relinquished."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.4.7",
+          "basis": "self-control and prayer near the end",
+          "note": "The commentary links the passing time, the held self and an exception marked by prayer; Peter says the end is near and therefore calls believers to sound judgment and sobriety for prayer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.5.9",
+          "basis": "firm faith amid shared suffering",
+          "note": "The commentary extends patience from one person to a mutually enduring community; Peter tells believers to resist firmly in faith, knowing the same sufferings are being completed among their brothers and sisters elsewhere."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.34",
+          "basis": "care for prisoners despite property loss",
+          "note": "The commentary sets imprisoned people beside the hand that guards possessions; Hebrews recalls sympathy for prisoners and joyful acceptance of property being seized because the community knew of a better possession."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.3.9",
+          "basis": "God's patience delays destruction",
+          "note": "The commentary says waiting occurs under God's watch and ends in judgment; this verse interprets apparent divine delay as patience toward people, giving them time to repent rather than perish."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.3.11",
+          "basis": "conduct measured against coming fire",
+          "note": "The commentary ties daring toward fire to a ruinous moral choice; after describing the world's fiery dissolution, Peter asks what holy and godly conduct is required, reversing reckless exposure into ethical preparation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.4",
+          "basis": "divine forbearance meant for repentance",
+          "note": "The commentary treats patience as a held response to wrongdoing; Paul says God's kindness, forbearance and patience are meant to lead the human being to repentance, extending restraint to God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.5",
+          "basis": "storing wrath through stubbornness",
+          "note": "The commentary's person can hoard what becomes loss at judgment; Paul says a hard, unrepentant heart stores up wrath for the day of God's judgment, a negative counterpart to storing goods."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.9.22",
+          "basis": "divine patience toward those facing destruction",
+          "note": "The commentary sets patient restraint beside judgment on the human being; Paul describes God enduring with much patience vessels of wrath prepared for destruction, delaying the punitive end."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.4.17",
+          "basis": "ء ن س / אנש, table sound correspondence with BDB Arabic note",
+          "note": "The commentary's insan is in loss except for right action; Eliphaz asks whether mortal enosh can be righteous before God, pressing the frail human term into a question about moral standing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.103.15",
+          "basis": "ء ن س / אנש, table sound correspondence with BDB Arabic note",
+          "note": "The commentary's insan stands inside passing time; the psalm compares the days of mortal enosh to grass and a field flower, making human duration visibly fragile."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.9",
+          "basis": "unjust gain used to build a safe nest",
+          "note": "The commentary's withholding hand tries to protect what it has gathered; Habakkuk condemns one who gains evil profit for his house to place his nest high beyond disaster."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.10",
+          "basis": "hoarder's plan costs his own life",
+          "note": "The commentary's possessor becomes the one in loss; Habakkuk says the plan to cut off many peoples has brought shame on the house and forfeited its maker's life, undoing the security sought in the prior verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lam.3.29",
+          "basis": "mouth put in dust while hope remains",
+          "note": "The commentary describes patience as holding back the cry while awaiting deliverance; after the instruction to sit silently under a yoke, Lamentations bids the sufferer put his mouth in dust because hope may remain."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.142.8",
+          "basis": "prisoner asks release and righteous company",
+          "note": "The commentary's held person needs both rescue and the community's patient support; in Hebrew verse numbering the psalmist asks to be brought out of confinement so he can praise God among the righteous."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.23.16",
+          "basis": "friend strengthens threatened man's hand",
+          "note": "The commentary moves from a restraining hand to mutually commended endurance; Jonathan comes to David in danger and strengthens his hand in God, turning the hand into an image of encouragement."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.49.9",
+          "basis": "prisoners told to come out",
+          "note": "The commentary's passive patient is held by another; the servant's commission includes telling prisoners to come out and those in darkness to show themselves, reversing enforced enclosure."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.3.10",
+          "basis": "kept word of endurance, then guarded from trial",
+          "note": "The commentary links mutual persistence with being kept under divine eyes; the risen speaker promises to keep a faithful community from the hour of trial because it has kept his word of endurance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.25",
+          "basis": "patient waiting for unseen hope",
+          "note": "The commentary's patience means waiting for a divine outcome one cannot yet see; Paul says believers wait for what they do not see through endurance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.3",
+          "basis": "faith tested into endurance",
+          "note": "The commentary puts faith and patience together as the exception to human loss; James says the testing of faith produces steadfastness, explaining how the two qualities meet in affliction.",
+          "raw_ref": "SBLGNT:James.1.3",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.4",
+          "basis": "endurance prevents lack",
+          "note": "The commentary describes humanity as in loss unless patience joins faith and good action; James asks that steadfastness complete its work so the believer may be complete and lack nothing.",
+          "raw_ref": "SBLGNT:James.1.4",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.2",
+          "basis": "endured the cross for a future joy",
+          "note": "The commentary contrasts a captive facing death with voluntary patience; Jesus endures the cross and shame for the joy set before him, giving purpose to restraint under execution."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.9.25",
+          "basis": "athlete exercises self-control for a crown",
+          "note": "The commentary calls fasting a bodily form of holding oneself; Paul says athletes exercise self-control in all things for a perishable crown, then points to an imperishable aim."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.4.2",
+          "basis": "long fast brings real hunger",
+          "note": "The commentary identifies fasting as one kind of patience; Jesus fasts forty days and nights and becomes hungry, presenting abstinence as bodily restraint with a cost."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.3",
+          "basis": "hunger teaches dependence beyond bread",
+          "note": "The commentary places being restrained beside patient trust; Moses says God humbled Israel by hunger and fed it manna so it would learn to live by what comes from God's mouth, a communal education through withheld food."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Shepherd of Hermas, Similitude 5.3",
+          "basis": "fasting savings given to needy people",
+          "note": "The commentary places fasting beside the hand that can withhold goods; Hermas' instruction directs a faster to give the cost of the uneaten meal to someone in need, making bodily restraint release resources."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 6b",
+          "basis": "reward of fasting is charity",
+          "note": "The commentary pairs fasting as self-restraint with the ethical problem of withholding; this rabbinic maxim makes charity the reward or fruit of a fast, interpreting abstinence through what the hand gives."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 4:7",
+          "basis": "give from possessions without turning away",
+          "note": "The commentary's withholding hand closes before the needy; Tobit instructs his son to give alms from his possessions and not turn his face from the poor, joining family counsel to generosity."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 4:10",
+          "basis": "alms deliver from death",
+          "note": "The commentary moves from hoarded goods to a person held toward death; Tobit says almsgiving delivers from death and keeps one from darkness, assigning the opened hand a rescuing effect."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 4:1",
+          "basis": "withheld help makes needy eyes wait",
+          "note": "The commentary places waiting beside a hand that withholds; Sirach forbids depriving the poor of life and making the needy person's eyes wait, showing how one person's grasping imposes another's patience."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 18:30",
+          "basis": "restrain appetites",
+          "note": "The commentary defines patience as holding one's own self; Sirach tells the hearer not to follow desires but to restrain appetites, directing the holding inward."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 2:4",
+          "basis": "patient acceptance of humiliating change",
+          "note": "The commentary asks the afflicted person to wait under God's judgment rather than cry out; Sirach tells the hearer to accept what befalls him and be patient in humiliation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 2:19",
+          "basis": "torturers test a righteous person's forbearance",
+          "note": "The commentary's captive held for killing and the patient person can be the same individual; the wicked propose tormenting the righteous man to test his gentleness and forbearance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 2:20",
+          "basis": "righteous person condemned to shameful death",
+          "note": "The commentary's passive patient is restrained toward death; the wicked resolve to condemn the tested righteous man to a shameful death while claiming God will protect him, making the test lethal."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "4 Maccabees 1:1",
+          "basis": "devout reason rules passions",
+          "note": "The commentary treats patience as holding the self even under pressure; the work opens by arguing that pious reason governs passions, a Jewish interpretation of disciplined endurance developed in its martyr stories."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.15.19",
+          "basis": "menstruation imposes contact limits",
+          "note": "The commentary's newly menstruating girl is held inside a house; the law assigns seven days of menstrual impurity and limits contact, supplying a ritual background for seclusion without itself ordering house confinement."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Judg.11.35",
+          "basis": "father's vow constrains daughter's future",
+          "note": "The commentary places a girl under a father's control and also describes forced oath; Jephthah tells his daughter he has vowed to the Lord and cannot take it back, so his own oath determines her fate, though she did not swear it."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.5.2",
+          "basis": "part of sale proceeds held back secretly",
+          "note": "The commentary's holding hand can turn into deception; Ananias keeps part of the proceeds while presenting a gift as though complete, so the retained amount is tied to false speech."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Acts.5.4",
+          "basis": "property remained at the giver's disposal",
+          "note": "The commentary's tight hand is blameworthy when it refuses a rightful good; Peter says the field and its price remained under Ananias's authority, specifying that his wrongdoing was deceit rather than mere retention."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.17",
+          "basis": "harmful designs and false oaths rejected",
+          "note": "The commentary's communal truth-telling stands beside a coerced oath; Zechariah forbids plotting evil against a neighbor and loving a false oath, guarding the group against speech used to injure."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.11",
+          "basis": "mutually encourage and build up",
+          "note": "The commentary makes patience something believers counsel each other to practice; Paul directly tells the community to encourage one another and build each other up."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.5.37",
+          "basis": "plain yes and no rather than sworn control",
+          "note": "The commentary's man is made to swear by someone else; Jesus directs hearers toward plain yes and no, supplying a form of truthful speech that does not depend on an imposed oath."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.6.5",
+          "basis": "imprisonment and hunger together",
+          "note": "The commentary juxtaposes enforced custody with endurance; Paul lists imprisonments alongside hard work, sleeplessness and hunger among apostolic hardships, preceding the patience named in the next verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.6.6",
+          "basis": "patience and kindness in hardship",
+          "note": "The commentary's patient community has to answer distress with good action; Paul follows the preceding list of prisons and deprivations by naming patience and kindness among the qualities of his ministry."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.4.4",
+          "basis": "fasting answered with God's word",
+          "note": "The commentary's fast is a kind of self-restraint oriented toward divine judgment; when hungry after fasting, Jesus answers temptation by saying human life depends on God's word as well as bread."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.13.11",
+          "basis": "gradual gathering versus hasty wealth",
+          "note": "The commentary sets patient holding beside grasping gain; the proverb says wealth gained hastily shrinks while one who gathers little by little increases it, assigning different outcomes to two tempos of acquisition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.19",
+          "basis": "feasting rich man before reversal",
+          "note": "The commentary links the human hand's surplus to later loss; the rich man dresses luxuriously and feasts every day while Lazarus lies at his gate in the next verse, establishing what could have been shared."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "1c9e18342291a57541e976d3ef1f9c8c74defc378ade82638447e6c82794fd0a",
+    "followup_sha256": "1c9e18342291a57541e976d3ef1f9c8c74defc378ade82638447e6c82794fd0a"
+  },
+  "consolidation_error": null,
+  "list_sha256": "d6f1f2cdd21e53bdd1f60edda710322af8bcc07cdb8c5dfebe2dedade6c04be3",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 361892,
+    "cached_input_tokens": 315776,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 35823,
+    "reasoning_output_tokens": 20589,
+    "total_tokens": 397715
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:40:18.869Z",
+  "artifacts": {
+    "started.json": "d65a30402b42c923779ea909a53b9e34fa0003bf0770ae5b5c8127877baa6931",
+    "input.json": "cd1182c971d91597295d7598f682b8e5ed39c5e0d9342d0bc9237ec29f7693d9",
+    "prompt.md": "99af99f89745773dc85722956c2b3fdf82b94a43a3df955e4daf729eb665be20",
+    "package.md": "b5fd8129b2ebdb36b0456dac0dfd13241c353c754a1cf00ceeaa2bd460c2a558",
+    "spawn.md": "5dc2ea3496e7d29938731ef05592916191f5b7b286a3a284d367fe605a9981e0",
+    "followup.txt": "acdcbffbd02d7041c2a1a516438e41cdc9eb5fe7b53d4c7a5363d7b2bac60241",
+    "turn1.json": "d478230c592eee57143d1f05508bc6796ce7283a4cabea0f6abe798d1d5d5def",
+    "turn1.list.tsv": "895f64a0117b86309ba857cfabef9e8067507f0bd06597c44348690857221814",
+    "followup.tsv": "1c9e18342291a57541e976d3ef1f9c8c74defc378ade82638447e6c82794fd0a",
+    "list.tsv": "d6f1f2cdd21e53bdd1f60edda710322af8bcc07cdb8c5dfebe2dedade6c04be3",
+    "consolidation.json": "fd195128b77dea594f37d48aa06f90b8d18a2af11dbd9637a435a8f0d96fa774",
+    "validation.json": "1812ae7b62bd69bb3c0353d7b2ea7f914516d9acdddfdbb1c5c364eeab9cf72b",
+    "proposal_validation.json": "ac9c59bcbbc74d3eb887d2823b750bc2058b3911d17e33d52c1a704ab6af433f",
+    "tool_calls.json": "5c4dbe05a21869e3d2c81af7d8e892317150edc8421052154a19cb788852f04f",
+    "session.json": "de86cc8e49eb12466be74ac338f4a5cbf5a7430282d7e93ce6d61ea3dfa06dd5",
+    "session.events.jsonl": "dfc65b986b1e6fe42af6aa647206f98fd8c9f5be63f1d40e90bece69f88c4d77"
+  },
+  "usd_equivalent": 0.513617,
+  "requests": 11,
+  "max_request_input_tokens": 53767,
+  "total_input_tokens": 361892,
+  "total_cached_input_tokens": 315776,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 35823,
+  "policy_notes": [
+    "turn 1 call_a97ff3915b7042a4b9cdcca8998b43cc: operational tool clock__curr_time",
+    "turn 1 call_13610018c15441b9a45c681928f695b2: operational tool wait",
+    "turn 1 call_74a17621800f4d07bceb76120374f6f6: local script on its own files (python3)"
+  ]
+}

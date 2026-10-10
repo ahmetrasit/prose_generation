@@ -1,0 +1,37 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_17/luna/followup.tsv",
+  "rows": 32,
+  "unique_references": 32,
+  "schema_errors": [],
+  "duplicates": [],
+  "strengths": {
+    "medium": 6,
+    "strong": 26
+  },
+  "findings": [
+    {
+      "line": 12,
+      "ref": "Mishnah Sanhedrin 10:1",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 26,
+      "ref": "SBLGNT:Jas.1.11",
+      "raw_ref": "SBLGNT:James.1.11",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    },
+    {
+      "line": 27,
+      "ref": "SBLGNT:Jas.5.7",
+      "raw_ref": "SBLGNT:James.5.7",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

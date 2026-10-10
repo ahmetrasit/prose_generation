@@ -1,0 +1,57 @@
+{
+  "policy": "bible-first-turn-repair-v1",
+  "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+  "tool_audit_reviewed": true,
+  "accepted_at": "2026-10-05T15:51:00.072159+00:00",
+  "changes": [
+    {
+      "line": 27,
+      "before": [
+        "strong",
+        "incil",
+        "karsi_anlati",
+        "SBLGNT:Jude.5",
+        "Jesus as exodus deliverer and judge",
+        "The commentary recalls God delivering Israel and then judging rebellion; Jude's text names Jesus as the one who saved a people from Egypt and later destroyed unbelievers, a Christological retelling of the scene."
+      ],
+      "after": [
+        "strong",
+        "incil",
+        "karsi_anlati",
+        "SBLGNT:Jude.1.5",
+        "Jesus as exodus deliverer and judge",
+        "The commentary recalls God delivering Israel and then judging rebellion; Jude's text names Jesus as the one who saved a people from Egypt and later destroyed unbelievers, a Christological retelling of the scene."
+      ],
+      "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+    },
+    {
+      "line": 31,
+      "before": [
+        "strong",
+        "tevrat",
+        "soydas",
+        "WLC:Ps.90.18",
+        "no'am of God upon us",
+        "The commentary's n-' -m family joins bestowed favor to softness; Hebrew no'am, a cognate form, asks that God's pleasantness or favor be upon us, closely matching the favor-upon-a-group construction."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "soydas",
+        "WLC:Ps.90.17",
+        "no'am of God upon us",
+        "The commentary's n-' -m family joins bestowed favor to softness; Hebrew no'am, a cognate form, asks that God's pleasantness or favor be upon us, closely matching the favor-upon-a-group construction."
+      ],
+      "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+    }
+  ],
+  "model_calls": 0,
+  "artifacts": {
+    "turn1.original.tsv": "69adea1924dbef7fd84b80b4acf7a5b88ad3c53be0600f25eabe96676fc6c601",
+    "turn1.validation.failed.json": "ecbd34117dd29a76d4ccfdb72285da13ecd0bff4cabb3996f23fedec346c1dbf",
+    "turn1.tool_calls.json": "b44ab6dfc5668b6878ad863306bb243ce2edb9ad523f2d238ecdab2f1f5ef071",
+    "turn1.repair.proposed.json": "d79b3cce5557fa55f3f6d169f8acf3cb9637a14009b7cfee951d45c4252ef742",
+    "turn1.repair.proposed.tsv": "2b6460964f88b919ada197891e2e54c6299e6f5f76016a678111d2629cd28c6d",
+    "turn1.accepted.tsv": "2b6460964f88b919ada197891e2e54c6299e6f5f76016a678111d2629cd28c6d"
+  }
+}

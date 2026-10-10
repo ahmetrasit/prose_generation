@@ -1,0 +1,3 @@
+bible-agent-run: /Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/ehlikitap.103_3.opus.high
+
+Read /Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/ehlikitap.103_3.opus.high/prompt.md completely and follow it. Use only the Bible-owned inputs and tools named there. Write only in your call directory. Write records to /Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/ehlikitap.103_3.opus.high/annotations.jsonl, verdicts.jsonl and gaps.json beside it. If no evidence qualifies, create an empty annotations.jsonl and explain why in gaps.json. Do not spawn agents or call models. Reply briefly after saving the files.

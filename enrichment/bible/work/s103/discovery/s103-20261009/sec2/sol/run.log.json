@@ -1,0 +1,2580 @@
+{
+  "target": "sec2",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:29:04.061558-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_sec2_sol",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "dacf6cb75bcfd1579e460a46562d40dd0fdd6a8eaa73fb72c27c5b95950afdd9",
+  "package_sha256": "12d7acb0a7191b5a687cd4487c67349c3c26ff3681c91da1dc93049826c834f0",
+  "input_sha256": "4bc7b805ff5029588e6d42f0ad982bdef509e8c93e02b95b24cd381c3eb7c231",
+  "spawn_sha256": "89515f479f817db6e9d69768dd6ddc9f53d72149f13fa3d4ed07cf692a9989b6",
+  "followup_text_sha256": "50d51daa8d6106a1cfc557a66b546997444fd7d5c871f87f277866ec0dc2fbd1",
+  "agent_id": "01a11f22-f090-71c2-911c-0a320ba9d7fd",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-29-06-01a11f22-f090-71c2-911c-0a320ba9d7fd.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 130,
+  "turn1_sha256": "d9b7d586891a7e5e2639b968b91ac0d57cf19c7874c6920799f261143fa62b56",
+  "turn2": {
+    "completed": true,
+    "rows_total": 190,
+    "rows_added": 60
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 130,
+    "raw_proposal_rows": 60,
+    "unique_additions": 60,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.5",
+          "basis": "Evening and morning form one day",
+          "note": "The commentary joins night to day as parts of time; Genesis names light day and darkness night, then closes the first day with evening and morning, giving the pair an ordered whole."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.8.22",
+          "basis": "Day/night and winter/summer succession",
+          "note": "The commentary links successive days with winter's appointed interval; the promise that seedtime, harvest, cold, heat, summer, winter, day, and night will not cease makes those alternating parts a stable covenantal rhythm."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.19.3",
+          "basis": "Day speaks to day, night to night",
+          "note": "The commentary pictures adjoining periods as a chain; the psalm has each day pour speech into the next and each night disclose knowledge to the next, making succession itself communicative."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.74.16",
+          "basis": "Day and night belong to God",
+          "note": "The commentary treats the paired periods as more than an undifferentiated flow; the psalm addresses God as owner of both day and night and maker of the luminaries that mark them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.74.17",
+          "basis": "Summer and winter formed by God",
+          "note": "The commentary moves from daily pairs to winter's middle and cold; this verse attributes the formation of summer and winter, as well as earth's bounds, to God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.3.1",
+          "basis": "An appointed time for every affair",
+          "note": "The commentary calls time a sequence of distinct intervals; Ecclesiastes introduces its paired occasions by assigning each affair its own time under heaven."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.3.2",
+          "basis": "Birth and death have their times",
+          "note": "The commentary develops youth, age, and the end of life; this pair places birth and death at separate appointed moments rather than treating a life as a single span."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.4",
+          "basis": "A thousand years like yesterday",
+          "note": "The commentary says a long lifetime shrinks to an evening or a daytime hour when viewed at the end; the psalm compares a thousand years before God to yesterday once passed and to a night watch."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.8.9",
+          "basis": "Humans are of yesterday",
+          "note": "The commentary puts human life inside a vast time before one existed; Bildad says humans are only of yesterday and know little because their earthly days are a shadow."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.12",
+          "basis": "Number days to gain wisdom",
+          "note": "The commentary makes the countable stages of a life matter for righteous action; the psalm asks God to teach humans to count their days so that they acquire a wise heart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.31.16",
+          "basis": "My times are in your hand",
+          "note": "The commentary places the pieces and limits of a person's life under God's ordering; the psalmist entrusts his own times to God's hand while asking deliverance from enemies."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.16",
+          "basis": "Days written before any existed",
+          "note": "The commentary juxtaposes a long time before human existence with life's later stages; the psalm says the speaker's days were recorded when none of them had yet come, placing the life course in divine foreknowledge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.1",
+          "basis": "Remember the creator in youth",
+          "note": "The commentary names youth as one interval of a finite life; Ecclesiastes commands remembrance specifically in youthful days before difficult later years arrive."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.71.18",
+          "basis": "Old age and the next generation",
+          "note": "The commentary joins successive life stages to people sustaining one another; the aged speaker asks not to be forsaken until he tells the next generation of God's power."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 18:9",
+          "basis": "Even a century is a small life span",
+          "note": "The commentary counts human ages and then reduces a whole life to a brief interval; Sirach calls a hundred years a large number of human days before measuring them against eternity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 18:10",
+          "basis": "Few years beside eternal days",
+          "note": "The commentary says lengthy human residence looks like only a small daytime fraction; Sirach likens human years against eternity to a drop of sea water or a grain of sand."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "Wisdom of Solomon 2:2",
+          "basis": "The impious claim death returns them to nonexistence",
+          "note": "The commentary recalls the claim that time alone destroys and counters it with final reckoning; Wisdom puts in the impious speakers' mouths the claim that chance brought them into being and afterward they will be as though they had never existed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 2:5",
+          "basis": "Life as a passing shadow",
+          "note": "The commentary says the long stay contracts to an evening or an hour; the impious speakers in Wisdom compare life to a passing shadow, though the book presents their conclusion about death as mistaken."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.5",
+          "basis": "Truth taught while waiting all day",
+          "note": "The commentary places counsel in truth and patience inside the day's span; the psalmist asks to be taught God's truth and says he waits for God all day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.3",
+          "basis": "Appointed vision, waiting through delay",
+          "note": "The commentary binds patience to a true promise whose fulfillment has its own time; the vision points to its appointed end and the hearer must wait even if it seems delayed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.12",
+          "basis": "Blessed one who waits through counted days",
+          "note": "The commentary makes endurance stretch over a measured interval; Daniel blesses the person who waits to the specified day count, joining a finite duration to perseverance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.2",
+          "basis": "Torah meditated day and night",
+          "note": "The commentary sets truth-oriented persistence across the two periods; the righteous person's meditation on the Torah fills both day and night."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.1.8",
+          "basis": "Day-night instruction becomes action",
+          "note": "The commentary joins right deeds to a time-spanning attachment to truth; Joshua must meditate on the book of Torah day and night so that he acts according to it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.7",
+          "basis": "Teach others at lying down and rising",
+          "note": "The commentary says people become linked through repeated counsel while time passes; Israel is to teach the words to children while sitting, walking, lying down, and rising."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.50.4",
+          "basis": "Morning instruction sustains the weary",
+          "note": "The commentary has people uphold one another through truth across successive mornings; the servant receives an awakened ear morning by morning so he can sustain the weary with a word."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.16",
+          "basis": "The God-fearing speak to one another",
+          "note": "The commentary depicts the surviving group as people bound by reciprocal exhortation; those who fear God speak together, and God attends to them and records their remembrance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.16",
+          "basis": "Speak truth to one's neighbor",
+          "note": "The commentary's mutual counsel is specifically counsel in truth; Zechariah commands each person to speak truth to a neighbor and to render truthful, peace-making judgments."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.21",
+          "basis": "One group urges another to seek God",
+          "note": "The commentary's people attach themselves to one another through counsel; the city's inhabitants invite others to go entreat God and add that they themselves will go."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.39.7",
+          "basis": "Accumulation and ignorance of its heir",
+          "note": "The commentary recalls the preceding surah's race to multiply possessions until death; the psalm says a person heaps wealth without knowing who will gather it after him. Hebrew צבר is the table's sound correspondence to Arabic ṣ-b-r, but this row rests on the developed accumulation motif, not a claimed shared meaning with patience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.20.4",
+          "basis": "Winter labor and later want",
+          "note": "The commentary gives winter's cold a place in patient seasonal time; the sluggard refuses to plow in winter and therefore seeks food at harvest without finding it, showing how one interval governs the next."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.14.5",
+          "basis": "Arabic ḥ-q-q / Hebrew חקק: fixed life limit",
+          "note": "The table offers a sound correspondence only, not proven cognacy; Job says a human's days and months are determined and God set a חק, a limit he cannot pass, a specific counterpart to the commentary's allotted life stages and due times."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Jer.31.35",
+          "basis": "Arabic ḥ-q-q / Hebrew חקק: prescribed light cycles",
+          "note": "The table's proposed sound correspondence is unverified; Jeremiah calls the sun for daylight and the moon and stars for night divinely established ordinances, connecting the commentary's linked periods to a prescribed cosmic order."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Jer.31.36",
+          "basis": "Arabic ḥ-q-q / Hebrew חקק: enduring ordinances",
+          "note": "The table's proposed sound correspondence is unverified; the continued existence of Israel is made contingent on those day-night ordinances departing, linking regular time to the survival of a people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.26.10",
+          "basis": "Arabic ḥ-q-q / Hebrew חקק: inscribed light-dark boundary",
+          "note": "The table's sound correspondence is unverified; Job describes a marked circle on the waters at the boundary of light and darkness, giving the commentary's adjoining night and day a sharply marked boundary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Lev.23.36",
+          "basis": "Arabic ʿ-ṣ-r / Hebrew עצר: eighth-day assembly",
+          "note": "The table gives a sound correspondence, not a proven cognate of time; after seven days of offerings this verse prescribes an eighth-day עצרת, where successive counted days culminate in people assembling."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.16.8",
+          "basis": "Arabic ʿ-ṣ-r / Hebrew עצר: seventh-day assembly",
+          "note": "The table's sound correspondence alone does not establish cognacy; after six days of unleavened bread the seventh is an עצרת, joining a counted sequence to communal gathering as in the commentary's meeting of time and people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Neh.8.18",
+          "basis": "Arabic ʿ-ṣ-r / Hebrew עצר: daily reading, eighth-day assembly",
+          "note": "The table's sound correspondence is unverified; Ezra reads the Torah day by day through the festival, then the people hold an eighth-day עצרת, making repeated instruction and a final joined assembly one timed practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Joel.2.15",
+          "basis": "Arabic ʿ-ṣ-r / Hebrew עצר: call an assembly",
+          "note": "The table's sound correspondence is unverified; the command to blow the trumpet, sanctify a fast, and call an עצרה gives the commentary's people joined through urgent exhortation a concrete communal form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.2.16",
+          "basis": "Every age gathers together",
+          "note": "The commentary names stages of life before showing people joined; Joel's summoned gathering explicitly includes elders, children, nursing infants, bridegroom, and bride."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.1.13",
+          "basis": "Assembly joined to injustice is rejected",
+          "note": "The commentary makes righteous deeds and truth conditions of collective survival; Isaiah refuses an assembly held together with wrongdoing, testing the value of a gathered religious community by its conduct. Hebrew עצרה is the table's sound correspondence to Arabic ʿ-ṣ-r, without proof of cognacy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.24.13",
+          "basis": "Endurance until the end",
+          "note": "The commentary says those who endure remain through the chain of time; Jesus says the one who endures to the end will be saved, making persistence across the whole interval decisive."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.20",
+          "basis": "Stored years collapse into one night",
+          "note": "The commentary contrasts a lifetime of numerical accumulation with its abrupt end; the rich man's planned many years are cut short that very night, and he is asked who will have his stored goods."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.19",
+          "basis": "Possessions imagined to guarantee many years",
+          "note": "The commentary links the competition to increase possessions with failure to notice time passing; the rich man addresses his soul as though stored goods secured many years of rest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.18",
+          "basis": "Enlarged barns for accumulated goods",
+          "note": "The commentary recalls multiplying wealth until the grave; the rich man decides to build larger barns to store all his grain and goods before his mortality is exposed in the story."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.14",
+          "basis": "Life appears briefly and vanishes",
+          "note": "The commentary reduces a seeming long residence to a small interval; James calls human life a vapor that appears a little while and disappears, addressing people who plan future years.",
+          "raw_ref": "SBLGNT:James.4.14",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.3.8",
+          "basis": "One day and a thousand years",
+          "note": "The commentary contrasts long duration with its apparent contraction; this verse reversibly compares one day and a thousand years before the Lord, relativizing ordinary measures of waiting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.3.9",
+          "basis": "Delayed promise and divine patience",
+          "note": "The commentary connects patience to the true promise through a shrinking lifetime; this verse says the promised coming is not slow as some reckon but delayed in divine patience to allow repentance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.26",
+          "basis": "Appointed periods for human peoples",
+          "note": "The commentary divides time into assigned intervals while people remain joined; Paul says God made every nation from one and determined their appointed times and dwelling boundaries."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.7.29",
+          "basis": "The remaining time is shortened",
+          "note": "The commentary says a long life is seen as compressed when its end approaches; Paul tells believers the appointed time has grown short and therefore their ordinary life relations must be held lightly."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.16",
+          "basis": "Outer decline, daily inner renewal",
+          "note": "The commentary tracks bodily life through aging while patience persists across days; Paul says the outer person wastes away but the inner person is renewed day by day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.13",
+          "basis": "Exhort one another every day",
+          "note": "The commentary's people remain joined through reciprocal counsel across linked days; Hebrews commands daily mutual exhortation while it is called Today, to prevent hardening through sin."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.24",
+          "basis": "Stir one another to good works",
+          "note": "The commentary makes shared righteous action part of how people remain connected; Hebrews asks believers to consider one another so as to provoke love and good deeds."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.25",
+          "basis": "Gather and encourage as the Day approaches",
+          "note": "The commentary connects communal exhortation to passing time; Hebrews opposes abandoning assembly and urges increasingly mutual encouragement as the approaching Day is seen."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.20.31",
+          "basis": "Three years of night-and-day admonition",
+          "note": "The commentary ties mutual counsel to morning/evening and a lasting interval; Paul recalls three years in which he warned each person night and day with tears."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.4.2",
+          "basis": "Exhort at every season with patience",
+          "note": "The commentary's counsel and patience fill successive times; the charge to proclaim the word in season and out of season includes correction and exhortation with complete patience and teaching."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.9",
+          "basis": "Good action sustained until its season",
+          "note": "The commentary joins righteous deeds and patience across time; Paul says not to grow weary in doing good because a harvest will come at its proper time if people do not give up."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.13.12",
+          "basis": "Night is advanced, day draws near",
+          "note": "The commentary makes night-to-day transition a call to moral action; Paul says the passing night and approaching day demand casting off dark works and taking up the armor of light."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.9.4",
+          "basis": "Work during the remaining day",
+          "note": "The commentary links right deeds to the short allotted interval; Jesus says the works of the sender must be done while it is day, since night comes when no one can work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.5.16",
+          "basis": "Use the time because days are evil",
+          "note": "The commentary makes limited time the setting for righteous action; Ephesians asks its hearers to make the most of the time because the days are evil."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.18.7",
+          "basis": "Elect cry day and night for justice",
+          "note": "The commentary places truth and patient appeal across daily cycles; Jesus describes God's chosen crying to him day and night for justice in a parable about persistent prayer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.6.10",
+          "basis": "The slain ask how long until judgment",
+          "note": "The commentary connects waiting with a true final reckoning; the slain ask the sovereign Lord how long before he judges and vindicates their blood."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.6.11",
+          "basis": "Rest a little longer until number complete",
+          "note": "The commentary gives patient waiting a finite interval and links the fates of people; the martyrs are told to rest a little longer until their fellow servants are complete."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.12",
+          "basis": "Endurance, divine commands, and faith",
+          "note": "The commentary's surviving group combines belief, deeds, and patience; Revelation characterizes the saints' endurance by keeping God's commandments and faith in Jesus."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.15",
+          "basis": "Speaking truth together builds maturity",
+          "note": "The commentary makes counsel in truth a way people are joined; speaking truth in love is the means by which members grow toward their common head, Christ."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.16",
+          "basis": "The body joined by every working part",
+          "note": "The commentary says the people who remain are added to one another; the body is joined and held together as each part works, building itself up in love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.11",
+          "basis": "Encourage and build one another",
+          "note": "The commentary's repeated reciprocal counsel makes a durable community; Paul explicitly tells believers to encourage one another and build one another up."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.14",
+          "basis": "Admonish, help, and be patient with all",
+          "note": "The commentary couples mutual counsel with patience; this instruction names admonishing the idle, helping the weak, and being patient with everyone as communal practices."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.24.20",
+          "basis": "Winter intensifies the coming ordeal",
+          "note": "The commentary names winter's hard cold as one temporal condition for patience; Jesus tells hearers to pray that their flight does not occur in winter, when that season will worsen their urgent journey."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.92.3",
+          "basis": "Morning mercy and nightly faithfulness",
+          "note": "The commentary pairs morning and evening as recurring occasions for patient devotion; the sabbath psalm assigns proclamation of God's kindness to morning and his faithfulness to nights."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.55",
+          "basis": "Remember God at night and keep law",
+          "note": "The commentary has enduring adherence to truth through the nighttime portion; the psalmist remembers God's name at night and keeps his law."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.148",
+          "basis": "Wake through night watches for instruction",
+          "note": "The commentary makes patient fidelity stretch across night and morning; the psalmist's eyes anticipate the watches of the night to meditate on God's saying."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.55.18",
+          "basis": "Evening, morning, noon prayer",
+          "note": "The commentary explicitly pairs morning with late day; the psalmist names evening, morning, and noon as repeated times of appeal to God, dividing the day into acts of persistence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.42.9",
+          "basis": "Daytime care and nighttime song",
+          "note": "The commentary makes night and day adjoining parts of a lived religious interval; the psalmist expects God's kindness by day and a song-prayer with him at night."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.3.11",
+          "basis": "Human cannot grasp time's whole work",
+          "note": "The commentary says the connected pieces are more than a flat flow; Ecclesiastes says God made each thing fitting in its time while humans cannot discover the work from beginning to end."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.5",
+          "basis": "Old age approaches the lasting home",
+          "note": "The commentary takes youth through decline to the grave; Ecclesiastes' portrait of the aging person's fears ends with going to the lasting home while mourners walk outside."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.10",
+          "basis": "Seventy or eighty years pass quickly",
+          "note": "The commentary catalogs life stages but says all that time can contract at the end; the psalm gives a human span of seventy or eighty years and says it quickly passes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.65.20",
+          "basis": "Infant and elder days transformed",
+          "note": "The commentary counts childhood and old age among life's parts; Isaiah's promised city reverses premature death, saying infants will not live only a few days and elders will complete their days."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.10.19",
+          "basis": "As though never existing, womb to grave",
+          "note": "The commentary recalls a time when a human was not yet a mentioned thing and a later journey to death; Job wishes he had been as though he had not existed, carried directly from womb to grave."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.144.4",
+          "basis": "Days as a passing shadow",
+          "note": "The commentary compresses lifetime into a brief seeming stay; the psalm says human days resemble a shadow that passes away."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.15",
+          "basis": "Human lifetime as grass",
+          "note": "The commentary's phases of life culminate in disappearance; the psalm compares mortal days to grass flourishing briefly as a flower of the field."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.16",
+          "basis": "A passing wind erases its place",
+          "note": "The commentary asks how much of a long life remains at its end; when wind passes over the flower it is gone and its place knows it no more, the next part of the mortal image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Song.2.11",
+          "basis": "Winter has passed",
+          "note": "The commentary calls winter a particular hard interval and ties waiting to its end; the lover announces that winter and its rain are over, so the harsh season has a bounded duration."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.6.8",
+          "basis": "Ant stores food in summer and harvest",
+          "note": "The commentary connects accumulation to passing time; the ant gathers provisions in summer and at harvest, supplying a purposeful seasonal counterpart to accumulation that distracts humans until death."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.27.16",
+          "basis": "Wicked person piles silver",
+          "note": "The commentary recalls competitive increase of possessions before mortality; Job's wicked figure heaps silver like dust and clothing like clay, preparing the reversal in the next verse. Hebrew צבר is the table's sound correspondence to Arabic ṣ-b-r, not a demonstrated shared sense with patience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.27.17",
+          "basis": "Another receives what was piled",
+          "note": "The commentary's hoarder cannot carry accumulated time or goods beyond life's end; Job says the righteous will wear the wicked person's prepared clothes and the innocent will divide his silver."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.41.49",
+          "basis": "Joseph heaps grain across good years",
+          "note": "The commentary recalls multiplying material stores before a later interval; Joseph piles grain beyond counting ahead of famine, giving accumulation a collective preserving purpose. Hebrew צבר is only the table's sound correspondence to Arabic ṣ-b-r; the connection is the concrete stored-grain scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Jer.33.25",
+          "basis": "Arabic ḥ-q-q / Hebrew חקק: day-night statutes",
+          "note": "The table's sound correspondence is unverified; God's fixed ordinances of heaven and earth accompany his covenant with day and night, tying the commentary's alternating periods to continuing communal existence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.38.33",
+          "basis": "Arabic ḥ-q-q / Hebrew חקק: heaven's ordinances",
+          "note": "The table's sound correspondence is unverified; God asks Job whether he knows the ordinances of heaven or can establish their rule on earth, an interpretive bridge from the commentary's due times to cosmic prescription."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.8.29",
+          "basis": "Arabic ḥ-q-q / Hebrew חקק: assigned sea boundary",
+          "note": "The table's sound correspondence is unverified; Wisdom recalls God setting the sea its prescribed limit, a spatial analogue to the commentary's precisely bounded intervals and seasonal middles."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Joel.1.14",
+          "basis": "Arabic ʿ-ṣ-r / Hebrew עצר: communal crisis assembly",
+          "note": "The table's sound correspondence does not prove cognacy; Joel calls a fast and an עצרה in which elders and all inhabitants gather at God's house and cry out, linking group survival to shared action in a hard time."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.7",
+          "basis": "Be still and wait despite evildoer success",
+          "note": "The commentary says patience must be sustained while truth is not yet manifest; the psalm tells its hearer to wait patiently for God rather than fret over a person succeeding in an evil course."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.31",
+          "basis": "Waiting renews strength",
+          "note": "The commentary treats patience as what lets people keep standing through a long interval; Isaiah says those waiting for God renew strength and continue without fainting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lam.3.26",
+          "basis": "Quietly wait for salvation",
+          "note": "The commentary connects a difficult period with patient endurance; Lamentations calls quiet waiting for God's salvation good amid its account of suffering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.6.11",
+          "basis": "Three daily prayers despite hostile decree",
+          "note": "The commentary stretches the act of patience between recurring times of day; Daniel continues praying three times daily even after the written decree against that practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.23",
+          "basis": "People hold onto another to go together",
+          "note": "The commentary says people are added to one another through a shared orientation to God; Zechariah imagines people of many languages grasping a Jew's garment and asking to go with him because God is with the group."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 96,
+        "row": {
+          "line": 96,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.17",
+          "basis": "One person sharpens another",
+          "note": "The commentary's reciprocal exhortation makes persons sustain one another; the proverb compares one person's effect on a friend to iron sharpening iron, giving counsel a mutual formative action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 97,
+        "row": {
+          "line": 97,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 5:21",
+          "basis": "Named ages of a human life",
+          "note": "The commentary explicitly parses youth, maturity, and decline as time's pieces; Avot gives a sequence of ages with different pursuits and capacities, including forty for understanding and seventy for old age. Section numbering varies by edition."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 98,
+        "row": {
+          "line": 98,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 1:6",
+          "basis": "Acquire a friend and a teacher",
+          "note": "The commentary makes people remain linked by guidance; Avot directs a person to make a teacher and acquire a friend, turning endurance into a sustained interpersonal practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 99,
+        "row": {
+          "line": 99,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 1:14",
+          "basis": "If not now, when; if only for self, what am I",
+          "note": "The commentary binds short time to the need for others; Hillel's paired questions reject delay and self-enclosure in the same ethical saying."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 100,
+        "row": {
+          "line": 100,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 2:4",
+          "basis": "Do not defer study until free time",
+          "note": "The commentary says time is spent in successive limited pieces; Avot warns that a hoped-for leisure interval may never come, making present instruction urgent."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 101,
+        "row": {
+          "line": 101,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Shabbat 153a",
+          "basis": "Repent one day before death",
+          "note": "The commentary says a long life can shrink suddenly to its last fraction; the rabbinic explanation of repentance one day before death is to repent each day because no one knows which day will be last."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 102,
+        "row": {
+          "line": 102,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 2a",
+          "basis": "Evening before morning in prayer order",
+          "note": "The commentary puts night and day into a deliberate sequence; the discussion explains beginning the daily Shema with evening by appealing to creation's evening followed by morning, turning Genesis' order into a repeated act."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 103,
+        "row": {
+          "line": 103,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.2.37",
+          "basis": "Prayer and fasting night and day",
+          "note": "The commentary places steadfast worship across the paired periods; the aged Anna serves in the temple with fasting and prayer night and day, joining old age with continuous devotion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 104,
+        "row": {
+          "line": 104,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.25",
+          "basis": "Hope for unseen end requires patience",
+          "note": "The commentary asks people to wait through an interval for a promised resolution; Paul says those hoping for what they do not yet see wait for it with endurance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 105,
+        "row": {
+          "line": 105,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.36",
+          "basis": "Endurance receives the promised thing",
+          "note": "The commentary joins patience to the true promise; Hebrews says endurance is needed after doing God's will so that hearers may receive what was promised."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 106,
+        "row": {
+          "line": 106,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.3.15",
+          "basis": "Divine patience counted as salvation",
+          "note": "The commentary joins the waiting interval to the chance to remain among the saved; Peter explicitly asks readers to regard the Lord's patience as salvation, supplying the purpose of the delay."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 107,
+        "row": {
+          "line": 107,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.7",
+          "basis": "Farmer waits through seasonal rains",
+          "note": "The commentary names winter's severity and the waiting that spans seasons; James asks believers to be patient like a farmer waiting for precious fruit through early and late rain until the Lord's coming.",
+          "raw_ref": "SBLGNT:James.5.7",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 108,
+        "row": {
+          "line": 108,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.10",
+          "basis": "Prophets as examples of patient speech",
+          "note": "The commentary couples truth-telling with endurance; James names prophets who spoke in the Lord's name as examples of suffering and patience.",
+          "raw_ref": "SBLGNT:James.5.10",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 109,
+        "row": {
+          "line": 109,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.10",
+          "basis": "Present opportunity used for good to all",
+          "note": "The commentary says righteous deeds and mutual support occupy limited time; Paul says that while opportunity remains believers should do good to everyone, especially fellow believers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 110,
+        "row": {
+          "line": 110,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.16",
+          "basis": "Teach and admonish one another",
+          "note": "The commentary defines the surviving group through mutual counsel; Colossians asks believers to let Christ's word dwell among them as they teach and admonish one another wisely."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 111,
+        "row": {
+          "line": 111,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.25",
+          "basis": "Speak truth as members of one another",
+          "note": "The commentary brings truth and people being joined into one image; Ephesians gives membership in one body as the reason for each person to speak truth to a neighbor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 112,
+        "row": {
+          "line": 112,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.12",
+          "basis": "Patient affliction with persistent prayer",
+          "note": "The commentary stretches patience between repeated times of worship; Paul joins patience in tribulation to constancy in prayer as the group's practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 113,
+        "row": {
+          "line": 113,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.2",
+          "basis": "Day of the Lord arrives during night",
+          "note": "The commentary juxtaposes the day-night pair with the sudden end of a seeming long stay; Paul says the Lord's day comes like a thief in the night, challenging complacency about the remaining time."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 114,
+        "row": {
+          "line": 114,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.5",
+          "basis": "Believers belong to day, not night",
+          "note": "The commentary makes remaining people a distinct group amid the alternation of night and day; Paul calls believers children of light and day, assigning the temporal images an ethical identity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 115,
+        "row": {
+          "line": 115,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.6",
+          "basis": "Wakefulness instead of sleep",
+          "note": "The commentary develops short sleep and patient alertness across time; Paul tells the community not to sleep as others do but to keep awake and sober in view of the approaching day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 116,
+        "row": {
+          "line": 116,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.18",
+          "basis": "Rich are to become rich in good works",
+          "note": "The commentary contrasts accumulating possessions with righteous action that endures; Paul instructs the rich to be rich in good works and generous to others."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 117,
+        "row": {
+          "line": 117,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.19",
+          "basis": "Store a foundation for the future life",
+          "note": "The commentary's accumulation motif ends at the grave unless joined to right deeds; Paul pictures generosity as storing a firm foundation for the future so that people may grasp true life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 118,
+        "row": {
+          "line": 118,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.11",
+          "basis": "The rich fade in the midst of pursuits",
+          "note": "The commentary says acquisitive effort can consume the person's unnoticed time; James likens a rich person's fading during pursuits to a flower withered by the rising sun.",
+          "raw_ref": "SBLGNT:James.1.11",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 119,
+        "row": {
+          "line": 119,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.11.9",
+          "basis": "Twelve hours mark the usable day",
+          "note": "The commentary treats the day as a bounded segment in which one's way matters; Jesus asks whether the day has twelve hours and connects walking without stumbling to its light."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 120,
+        "row": {
+          "line": 120,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.38",
+          "basis": "Faithful waiting through night watches",
+          "note": "The commentary puts patience across segmented night; Jesus calls servants blessed if found alert when their master comes in the second or third watch."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 121,
+        "row": {
+          "line": 121,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.13.18",
+          "basis": "Pray flight will not be in winter",
+          "note": "The commentary treats winter's cold as a concrete trial inside the calendar; Jesus tells hearers to pray that the expected flight not happen in winter, making season alter the hardship of endurance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 122,
+        "row": {
+          "line": 122,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.4.21",
+          "basis": "Companionship sought before winter",
+          "note": "The commentary links winter's coming with people maintaining one another through time; Paul urges his addressee to come before winter, making the seasonal deadline matter for their meeting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 123,
+        "row": {
+          "line": 123,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.15",
+          "basis": "Communal service day and night",
+          "note": "The commentary makes daily alternation part of continuing allegiance; the rescued multitude stands before God's throne and serves him day and night, extending joined devotion beyond mortal time."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 124,
+        "row": {
+          "line": 124,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.3.5",
+          "basis": "Separate times for scattering and gathering",
+          "note": "The commentary makes successive pieces of time carry opposing actions and later joins people; Ecclesiastes assigns separate times to scattering stones and gathering them, a concrete temporal analogy rather than an explicit claim about people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 125,
+        "row": {
+          "line": 125,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.1.5",
+          "basis": "Known before formation in the womb",
+          "note": "The commentary recalls a span when the human was not yet a mentioned thing; Jeremiah's prophetic commission says God knew him before forming him in the womb, complicating any inference that pre-birth absence means divine unawareness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 126,
+        "row": {
+          "line": 126,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.83",
+          "basis": "Afflicted yet remembers prescribed words",
+          "note": "The commentary makes endurance in truth span harsh conditions; the psalmist describes himself as a wineskin in smoke yet says he has not forgotten God's statutes, though the image is not explicitly winter cold."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 127,
+        "row": {
+          "line": 127,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.9.3",
+          "basis": "Tyre piles silver before its fall",
+          "note": "The commentary recalls abundance amassed before a terminal reversal; Tyre heaps silver like dust in this verse before its wealth is stripped in the next. Hebrew צבר is the table's sound correspondence to Arabic ṣ-b-r, with no asserted patience cognacy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 128,
+        "row": {
+          "line": 128,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.66.9",
+          "basis": "Arabic ʿ-ṣ-r / Hebrew עצר: withholding birth",
+          "note": "The table gives only a sound correspondence; God asks whether he would bring to birth and then restrain delivery, an indirect counterpart to the commentary's movement through appointed life stages and resistance to time stopping."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 129,
+        "row": {
+          "line": 129,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.4.3",
+          "basis": "One not yet born has not seen evil",
+          "note": "The commentary recalls a pre-existence interval in human life; Ecclesiastes calls the unborn person better off because that person has not witnessed oppression, though its judgment about nonexistence has a different purpose."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 130,
+        "row": {
+          "line": 130,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.2.13",
+          "basis": "Fathers and young people addressed separately",
+          "note": "The commentary names distinct stages of a life; the letter addresses fathers and young people with different spiritual descriptions, an analogy through communal age categories rather than a literal lifespan sequence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.14",
+          "basis": "Lights mark days, years, and appointed seasons",
+          "note": "The commentary joins night and day to longer seasonal and lifetime intervals; Genesis assigns the lights the work of marking days, years, and appointed times, making several scales of time depend on the same cycle."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.1.5",
+          "basis": "Sun returns after setting",
+          "note": "The commentary treats morning and late day as recurring joined pieces; Ecclesiastes has the sun rise, set, and hurry back to the place of its rising."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.19",
+          "basis": "Moon marks appointed times and sun its setting",
+          "note": "The commentary places seasonal middles alongside daily transitions; the psalm says the moon was made for appointed times while the sun knows its setting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.5",
+          "basis": "Human years swept away like sleep",
+          "note": "The commentary names a short sleep and says a long human span is later perceived as brief; the psalm says God sweeps humans away like sleep before its morning-grass comparison."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.6",
+          "basis": "Morning growth withers by evening",
+          "note": "The commentary compresses a life into the morning-to-evening interval; the psalm's grass flourishes in the morning and fades by evening, completing the time image begun in the preceding verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.7.4",
+          "basis": "Long night spent waiting for dawn",
+          "note": "The commentary develops broken sleep, morning and evening, and patience stretched between them; Job describes lying down, waiting to rise, and tossing through a seemingly prolonged night until dawn."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.130.6",
+          "basis": "Waiting more than watchmen for morning",
+          "note": "The commentary turns patience into a posture held across night toward morning; the psalmist repeats that his soul waits for the Lord more than watchmen wait for morning."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.49.18",
+          "basis": "Accumulated wealth cannot go through death",
+          "note": "The commentary recalls multiplying possessions until the grave; the psalm says a wealthy person carries none of it away when dying, specifying the limit that accumulation cannot cross."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.4",
+          "basis": "Riches fail at reckoning, righteousness delivers",
+          "note": "The commentary puts accumulated goods beside righteous deeds and final loss; the proverb says wealth is useless on the day of wrath while righteousness delivers from death."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Eccl.12.7",
+          "basis": "Dust returns but spirit returns to God",
+          "note": "The commentary reports the denial that passing time alone destroys humans and recalls final accountability; Ecclesiastes instead says the body returns to dust and the spirit returns to the God who gave it."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Dan.12.2",
+          "basis": "The long dead awaken for judgment",
+          "note": "The commentary's brief-seeming stay ends at a gathering where deniers lose; Daniel says many who sleep in the dust awaken, some to everlasting life and some to shame, supplying a direct alternative to death as time's final word."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.11.9",
+          "basis": "Youth faces later judgment",
+          "note": "The commentary names youth as one stage and ends with reckoning of a whole life; Ecclesiastes tells the young person to rejoice while young but to know God will bring these acts into judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.8.15",
+          "basis": "Arabic ḥ-q-q / Hebrew חקק: decreeing justice",
+          "note": "The package's root table offers an unverified sound correspondence; Wisdom says rulers decree justice by her, linking the commentary's counsel in haqq to enacted right order rather than merely to a seasonal due date."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.12.14",
+          "basis": "Arabic ḥ-q-q / Hebrew חקק: annual perpetual ordinance",
+          "note": "The table offers an unverified sound correspondence; the exodus day is to be remembered as a festival through generations by perpetual חקה, making a fixed calendar date bind successive people."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Jer.33.20",
+          "basis": "Arabic ḥ-q-q / Hebrew חקק: day-night covenant at its time",
+          "note": "The table's proposed sound correspondence is unverified; Jeremiah says the covenant with day and night would have to be broken for either to fail to come at its appointed time, tying the commentary's sequence to reliable recurrence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.10.1",
+          "basis": "Arabic ḥ-q-q / Hebrew חקק: unjust decrees",
+          "note": "The table offers only a sound correspondence; Isaiah denounces those who inscribe unjust decrees, showing that a prescribed order can oppose the commentary's haqq and righteous action when its content is corrupt."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.5.21",
+          "basis": "Gathered festivals rejected without justice",
+          "note": "The commentary says a community persists through righteous conduct, truth, and patience; Amos has God reject its festivals and solemn assemblies, complicating the assumption that recurring gatherings alone preserve a people."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.5.24",
+          "basis": "Justice must flow continually",
+          "note": "The commentary joins truthful counsel to the group's endurance; after rejecting festivals Amos calls for justice to roll like water and righteousness like an enduring stream, identifying the needed practice beyond assembly."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 4:17",
+          "basis": "One hour of repentance and good deeds",
+          "note": "The commentary says long earthly time contracts to an hour and makes righteous action decisive; Avot values one hour of repentance and good deeds in this world while separately valuing an hour of the coming world's peace."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Cor.15.32",
+          "basis": "If the dead do not rise, eat and drink",
+          "note": "The commentary reports deniers who treat mortal time as final; Paul voices the practical conclusion of denying resurrection, eating and drinking because tomorrow brings death, then challenges that premise in his resurrection argument."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.5.29",
+          "basis": "The dead rise according to deeds",
+          "note": "The commentary's final compressed stay ends in loss for deniers and survival through right action; Jesus says those in the tombs come out to resurrection of life or judgment according to what they have done."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.20.12",
+          "basis": "The dead judged from records of deeds",
+          "note": "The commentary reports that time itself is said to destroy and recalls an accounting after a brief-seeming stay; Revelation has the dead stand before the throne as books are opened and each is judged by deeds."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.13",
+          "basis": "Merchants plan a profitable year",
+          "note": "The commentary recalls competitive accumulation that hides life's shortness; James addresses people planning a year of travel and trade for gain, the precise plan exposed as uncertain in the next verse.",
+          "raw_ref": "SBLGNT:James.4.13",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.21",
+          "basis": "Self-stored goods versus wealth toward God",
+          "note": "The commentary opposes multiplication of possessions to deeds that endure; Jesus closes the rich fool's story by contrasting storing up for oneself with being rich toward God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.5",
+          "basis": "Delay produces sleep in a waiting group",
+          "note": "The commentary gives broken sleep a place between periods of waiting; in Jesus' bridegroom story the delay makes all the attendants drowsy and asleep before the decisive arrival."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.10",
+          "basis": "Prepared attendants enter before the door closes",
+          "note": "The commentary asks who remains when an apparently long wait abruptly ends; in the bridegroom story those prepared enter the feast on his arrival and the door is shut."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.1",
+          "basis": "Times and seasons introduce the final Day",
+          "note": "The commentary moves from named periods to a sudden terminal hour; Paul explicitly invokes times and seasons before describing the Lord's Day as unexpectedly arriving in the following verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.58",
+          "basis": "Steadfastness joined to enduring work",
+          "note": "The commentary's remaining group combines persistence with righteous deeds; Paul concludes his resurrection argument by telling believers to be steadfast and always active in the Lord's work because that labor is not futile."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Pet.1.24",
+          "basis": "Human flesh as grass",
+          "note": "The commentary reduces a human lifetime to a passing interval; Peter applies Isaiah's fading-grass image to all flesh, making mortal brevity part of his appeal to a community born through the gospel."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Pet.1.25",
+          "basis": "Enduring word against passing life",
+          "note": "The commentary joins short human life to truth that can hold people together; Peter completes the Isaiah citation by contrasting fading humanity with the Lord's enduring word and identifies that word with what was proclaimed to his hearers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.7",
+          "basis": "A new Today after a long time",
+          "note": "The commentary describes time as linked parts in which an appeal remains open; Hebrews says God appoints another day called Today after a long time, using David's warning to demand a present response."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.6.2",
+          "basis": "Now is the accepted time and day of rescue",
+          "note": "The commentary's finite interval calls for righteous response before the end; Paul applies a promise about the favorable time and salvation day to his hearers' present now."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 16:1",
+          "basis": "Keep watch because the hour is unknown",
+          "note": "The commentary stretches patience through uncertain time before the final contraction; the Didache tells believers to watch their lives and keep lamps ready since they do not know the Lord's hour."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 16:2",
+          "basis": "Meet often; faith must endure to the end",
+          "note": "The commentary connects repeated meetings among people with the need to remain through time; the Didache urges frequent gathering for the soul and says a lifetime of faith is of no benefit unless completed at the end."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.18",
+          "basis": "Lights govern day and night and distinguish them",
+          "note": "The commentary holds night and day together without dissolving their distinction; Genesis says the lights govern the two periods and separate light from darkness, adding ordered difference to their succession."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.136.8",
+          "basis": "Sun governs the day",
+          "note": "The commentary's two daily periods are each assigned a place; the litany names the sun as ruler of the day, with its companion night assignment in the next verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.136.9",
+          "basis": "Moon and stars govern the night",
+          "note": "The commentary pairs night with day as adjacent ordered parts; the litany gives the night to moon and stars after naming the sun's daily rule in the preceding verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.81.4",
+          "basis": "Horn blown at recurring lunar feast",
+          "note": "The commentary extends morning-evening segments to prescribed seasonal observance; the psalm orders the horn at new moon and full moon for the festival day, whose status as statute is given in the next verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.81.5",
+          "basis": "Arabic ḥ-q-q / Hebrew חקק: festival statute",
+          "note": "The root table supplies an unverified sound correspondence; the festival marked in the preceding verse is called a חק for Israel, connecting a recurring appointed day to a shared obligation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.148.6",
+          "basis": "Arabic ḥ-q-q / Hebrew חקק: enduring cosmic decree",
+          "note": "The table's sound correspondence is unverified; God establishes the heavenly bodies permanently and gives them a decree that will not pass, an ordinance behind the commentary's dependable recurring periods."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.8",
+          "basis": "Mortal grass fades while divine word stands",
+          "note": "The commentary joins a vanishing human lifespan to the truth that sustains the community; Isaiah says the grass withers and flower fades but God's word remains forever."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.6",
+          "basis": "Acceptable fasting frees the oppressed",
+          "note": "The commentary ties calendrical practice to righteous action; Isaiah defines God's chosen fast as releasing unjust bonds and freeing the oppressed, giving a concrete ethical test for a designated day."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.9.12",
+          "basis": "Humans do not know their fatal time",
+          "note": "The commentary says a long life can suddenly end in a fraction of a day; Ecclesiastes says people do not know their time and compares their capture by disaster to fish and birds trapped unexpectedly."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Berakhot 1:1",
+          "basis": "Nighttime recitation has a bounded interval",
+          "note": "The commentary makes night a distinct period filled with a sustained religious act; the Mishnah asks when the evening Shema is read and sets competing limits within the night's watches."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Berakhot 1:2",
+          "basis": "Morning recitation begins with visible dawn",
+          "note": "The commentary joins morning to the night before it as a new part of disciplined time; the Mishnah asks when morning Shema begins and uses the ability to distinguish colors to mark the transition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 1:15",
+          "basis": "Fixed instruction must become deeds",
+          "note": "The commentary couples counsel in truth with righteous works; Shammai says to make Torah study regular, speak little, and do much, specifying how words and acts should be ordered across ordinary time."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 2:16",
+          "basis": "Continue the work though it cannot be finished",
+          "note": "The commentary's patient group persists across a life too short to encompass everything; Avot says one need not finish the work but is not free to abandon it."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 4:16",
+          "basis": "Prepare in this life's antechamber",
+          "note": "The commentary treats mortal time as a bounded span before the final meeting; Avot likens this world to an antechamber where one prepares before entering the coming world's hall."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "4 Ezra 4:35",
+          "basis": "Righteous souls ask how long they must wait",
+          "note": "The commentary links patient waiting to the final reckoning; the souls of the righteous ask from their chambers when the reward will arrive, making the interval after death itself a question. Numbering of 4 Ezra varies by edition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "4 Ezra 4:36",
+          "basis": "Waiting ends when the number is complete",
+          "note": "The commentary says people remain linked through a long interval before its end; the angel's reply makes the completion of the number of the righteous the limit of their wait. Numbering of 4 Ezra varies by edition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.7.31",
+          "basis": "The present form of the world is passing",
+          "note": "The commentary says a seemingly stable span is already vanishing; Paul tells those engaged with the world not to live as though its present form were lasting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.36",
+          "basis": "Servants wait to admit the returning master",
+          "note": "The commentary links people through patient readiness during uncertain time; Jesus compares disciples to servants waiting for their master so they can open immediately when he arrives."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.13",
+          "basis": "Unknown day and hour demand watchfulness",
+          "note": "The commentary compresses the end of a long interval into an unexpected moment; the bridegroom parable concludes with an instruction to stay awake because the day and hour are unknown."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.3.10",
+          "basis": "Night-and-day prayer seeks to strengthen others",
+          "note": "The commentary makes mutual support stretch through both parts of the day; Paul describes earnest night-and-day prayer to see his hearers again and supply what their faith lacks."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.3.8",
+          "basis": "Night-and-day labor spares the community",
+          "note": "The commentary connects righteous work across the daily cycle with people sustaining one another; Paul says his group worked night and day so they would burden none of the believers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.2.26",
+          "basis": "An aged witness awaits a promise before death",
+          "note": "The commentary sets divine promise within the finite span of a life; Simeon has been told he will not see death before seeing the Messiah, making his later waiting answer a personal life limit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.20.12",
+          "basis": "One hour compared with the whole day's labor",
+          "note": "The commentary compresses a long stay to an hour and asks what deeds count at its end; the first workers complain that those hired last worked only one hour yet received an equal wage, a parabolic comparison rather than a statement that all lives are equally long."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, Confessions 11.20.26",
+          "basis": "Past, present, and future held in the mind",
+          "note": "The commentary argues that lived time consists of joined pieces rather than a single flat flow; Augustine describes a present of remembered past, attended present, and expected future, offering a later Christian account of how those parts are connected."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.84.12",
+          "basis": "Good not withheld from upright walkers",
+          "note": "The commentary makes righteous conduct the condition of continuing good through time; the psalm says God withholds no good from those who walk uprightly. The verb uses Hebrew עצר, the package's sound correspondence to Arabic ʿ-ṣ-r, but restraint here has no established cognate link to the commentary's time sense."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 2:1",
+          "basis": "The impious call life short and death final",
+          "note": "The commentary reports those who think time alone destroys them; Wisdom assigns to its impious speakers the claim that life is short and no remedy follows death, but the book frames their reasoning as unsound."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "ec10f31c3942f619d3ef0fedf56cdf7fbb9c432f4201e70919e27f2e12c39c6c",
+    "followup_sha256": "ec10f31c3942f619d3ef0fedf56cdf7fbb9c432f4201e70919e27f2e12c39c6c"
+  },
+  "consolidation_error": null,
+  "list_sha256": "8386dd5bb31537ea7bc180994c3909a3290b15cffb713cda1a24e680653237fa",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 245846,
+    "cached_input_tokens": 198656,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 27658,
+    "reasoning_output_tokens": 13879,
+    "total_tokens": 273504
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:36:46.800Z",
+  "artifacts": {
+    "started.json": "e827d57509260a2045627bb7a52003dfb2840bdd9fd87ee77ba441cb3e211c52",
+    "input.json": "4bc7b805ff5029588e6d42f0ad982bdef509e8c93e02b95b24cd381c3eb7c231",
+    "prompt.md": "dacf6cb75bcfd1579e460a46562d40dd0fdd6a8eaa73fb72c27c5b95950afdd9",
+    "package.md": "12d7acb0a7191b5a687cd4487c67349c3c26ff3681c91da1dc93049826c834f0",
+    "spawn.md": "89515f479f817db6e9d69768dd6ddc9f53d72149f13fa3d4ed07cf692a9989b6",
+    "followup.txt": "50d51daa8d6106a1cfc557a66b546997444fd7d5c871f87f277866ec0dc2fbd1",
+    "turn1.json": "b6723bce270a98acffd7fee1d5088e32c3228326b7b26e75ee734cafd5cd1c70",
+    "turn1.list.tsv": "d9b7d586891a7e5e2639b968b91ac0d57cf19c7874c6920799f261143fa62b56",
+    "followup.tsv": "ec10f31c3942f619d3ef0fedf56cdf7fbb9c432f4201e70919e27f2e12c39c6c",
+    "list.tsv": "8386dd5bb31537ea7bc180994c3909a3290b15cffb713cda1a24e680653237fa",
+    "consolidation.json": "f3925dffce0cd8ada35699280578b0a43c5afa0c6a518a00b3ce8f814b3dd590",
+    "validation.json": "c34588e47468f6ded67b90cbdc08e8093d8d7be8dd123906d8c0319c4d33a057",
+    "proposal_validation.json": "3df58710179067ab97e4fd4bfd669f430f8821f5179ee8661fe7453d8527f86b",
+    "tool_calls.json": "2659c767b66efe18d32134a003abac3383fb488631a7dd20b3c99d7b8b8d4dfc",
+    "session.json": "ba4720e137b121b95d4ce834d493e88341485f39ca74c1c66c6706eb6dec3360",
+    "session.events.jsonl": "88453b1ee16d4a99ffbfce233d5bfb3b8555088d928ab45fec5f97d88c12bab7"
+  },
+  "usd_equivalent": 0.410691,
+  "requests": 8,
+  "max_request_input_tokens": 45825,
+  "total_input_tokens": 245846,
+  "total_cached_input_tokens": 198656,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 27658,
+  "policy_notes": []
+}

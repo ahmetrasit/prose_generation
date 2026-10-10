@@ -1,0 +1,128 @@
+Qur'an 96:5:
+
+عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ
+
+Below is a frozen Turkish commentary on this ayah, its paragraphs numbered [¶n]. Do not change, summarise or
+rewrite it.
+
+Add Hebrew Bible and New Testament verses that help the reader understand a particular paragraph, from the Bible's
+side. Similarity alone is not the test, and a verse may help without sharing any word. A verse helps when, after
+reading it, the reader understands that paragraph's point better than before. It can help in four ways:
+
+- same: it says the paragraph's point in its own words, so the reader sees the idea from another scripture;
+- opposite: it says the same matter the other way round, and the difference shows what is distinctive here;
+- background: it shows the world of an image, custom or practice the paragraph relies on, even with no shared word;
+- word: the paragraph is about a word, and the verse shows how its Hebrew or Aramaic relative is used. The roots
+  table below lists every Arabic root of the ayah with the Hebrew and Aramaic roots that correspond to it by regular
+  sound correspondence. A correspondence is a candidate, not proof: some are true cognates, some only sound alike.
+
+The test before you place a verse: say in one sentence what the reader understands about the paragraph's point after
+reading it that they did not before. If you cannot, drop it, with that as the reason. A shared word, root, name or
+broad theme alone is not enough. A verse that only touches a side detail without making the paragraph's point
+clearer is dropped.
+
+Go through every paragraph, including those about single words or images. A paragraph may get no verse. A verse
+that clearly helps the ayah as a whole but no single paragraph may go into a short closing section (`end`); use it
+sparingly. Every verse you considered and dropped gets a drop row with its reason.
+
+The note is written in Turkish for an advanced reader. Its first sentence is the test sentence: what the verse makes
+clearer about the paragraph's point. Then what the verse says, in its own context, quoted briefly in Turkish
+translation, and where it meets or parts from the paragraph. No source talk, no hedging about dependence.
+Consecutive or closely joined verses that make one point share one row.
+
+Work from memory. Do not read files, run commands or search. A later turn will show you the text of every verse you
+cite, so that you can check it.
+
+Reply with JSON Lines only (one object per line, no Markdown). References are single verses in OSIS form with
+English (KJV) numbering, like Book.Chapter.Verse:
+
+{"refs": ["Book.C.V", ...], "decision": "place", "paragraphs": [n], "way": "same|opposite|background|word", "note_tr": "..."}
+{"refs": ["Book.C.V"], "decision": "end", "way": "...", "note_tr": "..."}
+{"refs": ["Book.C.V"], "decision": "drop", "way": "...", "reason": "..."}
+
+=== ROOTS ===
+
+## ع ل م (in the ayah: عَلَّمَ, يَعْلَمْ)
+* Hebrew עלם (ع→ע ل→ל م→מ): sound correspondence only (unverified); 483 WLC occurrences; `hebrew.py root עלם` lists them
+  - עוֹלָם (ʿôlām) N 'long duration' [H5769; Hebrew; 438 WLC occurrences] Strong: properly, concealed, i.e. the vanishing point; generally, time out of mind (past or future), i.e. (practically) eternity; frequentatively, adverbial (especially with prepositional prefix) always
+  - עֵילוֹם (ʿêlôm) N 'long duration' [H5865; Hebrew; 1 WLC occurrence]
+  - עָלוּמִים (ʿālûmîm) N 'youth' [H5934; Hebrew; 4 WLC occurrences] Strong: (only in plural as abstract) adolescence; figuratively, vigor
+  - עֶ֫לֶם (ʿelem) N 'young man' [H5958; Hebrew; 2 WLC occurrences] Strong: properly, something kept out of sight, i.e. a lad
+  - עָלַם (ʿālam) V 'conceal' [H5956; Hebrew; 28 WLC occurrences] Strong: to veil from sight, i.e. conceal (literally or figuratively)
+  - עַלְמָה (ʿalmâ) N 'young woman' [H5959; Hebrew; 7 WLC occurrences] Strong: a lass (as veiled or private)
+  - תַּעֲלֻמָּהֿ (taʿălummâ) N 'hidden thing' [H8587; Hebrew; 3 WLC occurrences] Strong: a secret
+* Aramaic עלם (ع→ע ل→ל م→מ): sound correspondence only (unverified); 20 WLC occurrences; `hebrew.py root עלם` lists them
+  - עָלַם (ʿālam) N 'perpetuity' [H5957; Aramaic; 20 WLC occurrences] Strong: remote time, i.e. the future or past indefinitely; often adverb, forever
+
+## ء ن س (in the ayah: ٱلْإِنسَٰنَ)
+* Hebrew אנש (ء→א ن→נ س→ש): BDB cites an Arabic cognate; 1275 WLC occurrences; `hebrew.py root אנש` lists them
+  - אֱנוֹשׁ (ʾĕnôš) N 'man' [H582; Hebrew; 42 WLC occurrences] Strong: properly, a mortal (and thus differing from the more dignified 120); hence, a man in general (singly or collectively)
+  - אָנַשׁ (ʾānaš) V 'be weak' [H605; Hebrew; 9 WLC occurrences] Strong: to be frail, feeble, or (figuratively) melancholy
+  - אֵשׁ (ʾēš) N 'fire' [H784; Hebrew; 376 WLC occurrences] Strong: fire (literally or figuratively)
+  - אֶשְׁדָּת (ʾešdāt) N 'fire' [H799; Hebrew; 1 WLC occurrence] Strong: a fire-law
+  - אִשֶּׁה (ʾiššeh) N 'an offering made by fire' [H801; Hebrew; 65 WLC occurrences] Strong: properly, a burnt-offering; but occasionally of any sacrifice
+  - אִשָּׁה (ʾiššâ) N 'woman' [H802; Hebrew; 781 WLC occurrences] Strong: a woman
+  - אֶשָּׁה (ʾeššâ) N 'from their fire' [H800; Hebrew; 1 WLC occurrence] Strong: fire
+* Aramaic אנש (ء→א ن→נ س→ש): sound correspondence only (unverified); 26 WLC occurrences; `hebrew.py root אנש` lists them
+  - אֱנָשׁ (ʾĕnāš) N 'man' [H606; Aramaic; 25 WLC occurrences] Strong: a man
+  - נְשִׁין (nĕšîn) N 'wives' [H5389; Aramaic; 1 WLC occurrence]
+* Hebrew אנס (ء→א ن→נ س→ס): sound correspondence only (unverified); 1 WLC occurrences; `hebrew.py root אנס` lists them
+  - אָנַס (ʾānas) V 'compel' [H597; Hebrew; 1 WLC occurrence] Strong: to insist
+* Aramaic אנס (ء→א ن→נ س→ס): sound correspondence only (unverified); 1 WLC occurrences; `hebrew.py root אנס` lists them
+  - אֲנַס (ʾănas) V 'oppress' [H598; Aramaic; 1 WLC occurrence] Strong: figuratively, to distress
+
+=== COMMENTARY ===
+
+## Aynı fiil, dolan iki boşluk
+
+[¶1] Beşinci ayet kendi başına başlamaz. Dördüncüsünün devamıdır. Dördüncü ayet Rabbi {ar:ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ, tr:ellezî alleme bi'l-kalem, gloss:kalemle öğreten, source:96:4} diye tanıtmıştı, ama kime ve neyi öğrettiğini söylememiş, yalnızca aracı anmıştı. Beşinci ayet aynı fiili bu kez "ki o" bağlacı olmadan yeniden söyler ve fiilin iki boş yerini doldurur: öğretilen insandır, öğretilen şey de onun bilmediğidir. Böylece iki ayet bir cümlenin iki yarısı gibi okunur. Önce aracı duyarız, sonra öğrenciyi ve dersi. Kalem bir yanda durur, öğretilen insan öbür yanda, ikisinin arasında da tek fiil vardır.
+
+[¶2] {ar:عَلَّمَ, tr:alleme, gloss:öğretti, source:96:5} fiili iki nesne alır: biri öğrenen, öteki öğrenilen. Arapçada bu fiil bildirmekle öğretmeyi yan yana taşır. {ar:أعلمته بكذا وعلمته تعليما, tr:a'lemtuhû bi-kezâ ve allemtuhû ta'lîmen, gloss:ona şunu bildirdim, ona öğrettim, source:"ع ل م,B001"} denirdi. Öğretmenin ne yaptığı da şu sözle anlatılmıştır: {ar:التعليم تنبيه النفس لتصور المعاني, tr:et-ta'lîmu tenbîhu'n-nefsi li-tasavvuri'l-me'ânî, gloss:öğretmek, insanın içini anlamları kavramaya uyandırmaktır, source:"ع ل م,B001"}. Bu tarife göre öğreten, birinin önüne bir yığın bilgi koymaz. Onun içinde bir şeyi uyandırır, anlamın orada biçim almasını sağlar. Türkçede talim kelimesi daralmıştır: askerin talimi gibi, tekrar ve alıştırma anlamında kullanılır. Ayetteki fiilde ise tekrarın değil, bilmeyen birinin bilir hale gelmesinin sesi vardır.
+
+[¶3] Fiilin öznesi bu ayette adıyla anılmaz. O, üçüncü ayetteki Rabdir: {ar:وَرَبُّكَ ٱلْأَكْرَمُ, tr:ve rabbuke'l-ekrem, gloss:Rabbin en cömert olandır, source:96:3}. Sure, cömertliği andığı yerde hemen öğretmeye geçer. Bu yüzden öğretim burada bir ikram olarak duyulur: en cömert olanın cömertliği, insana bilmediğini vermesinde görünür.
+
+[¶4] Bu ayetin insanı surede yalnız değildir. Üç ardışık sahnede üç kez anılır. İkinci ayette {ar:خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ, tr:halaka'l-insâne min alak, gloss:insanı tutunan bir pıhtıdan yarattı, source:96:2}, beşinci ayette öğretilir, altıncı ayette ise {ar:كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ, tr:kellâ inne'l-insâne le-yatgâ, gloss:hayır, insan gerçekten azar, source:96:6}. İkinci ve beşinci ayetler aynı biçimde kurulur: önce Rabbin fiili gelir, ardından nesne olarak insan. Önce "yarattı insanı", sonra "öğretti insanı". İnsan iki kez Rabbin fiilinin üzerine düştüğü varlıktır. Üçüncü anışta dil değişir. İnsan artık nesne değildir, cümlenin konusu olur ve fiil onundur: azmak. Yaratılmış ve öğretilmiş olan, kendi adına ilk kez davrandığında ölçüyü aşar. Beşinci ayet bu dönemecin hemen öncesinde durur. Ondan sonra gelen her şey, öğretilmiş olanın bunu unutmasıyla ilgilidir.
+
+[¶5] Aynı sıralama Kuran'da başka bir surenin açılışında da vardır. Orada sözü Rahmân olarak anılan Allah'ın kendisi kurar ve önce öğretme gelir, sonra yaratma, sonra yine öğretme: {ar:عَلَّمَ ٱلْقُرْءَانَ, tr:allema'l-kur'ân, gloss:Kuran'ı öğretti, source:55:2}, {ar:خَلَقَ ٱلْإِنسَٰنَ, tr:halaka'l-insân, gloss:insanı yarattı, source:55:3}, {ar:عَلَّمَهُ ٱلْبَيَانَ, tr:allemehu'l-beyân, gloss:ona açıklamayı öğretti, source:55:4}. Bu surede de yaratmayla öğretme aynı varlığın iki yüzü olarak yan yana durur. Aradaki fark şudur: o surede öğretilen şeyin adı vardır, Kuran ve beyan. Bu ayette ise ders yalnızca bir yoklukla tanımlanır.
+
+## Bilmediği: boş başlayan insan
+
+[¶6] Dersin adı {ar:مَا لَمْ يَعْلَمْ, tr:mâ lem ya'lem, gloss:bilmediği şey, source:96:5} ifadesidir. Buradaki "mâ" bir liste açmaz, "her ne ise" der. İnsanın öğrendiği şeyler sayılmaz; ölçüsü, onları öğrenmeden önce bilmiyor olmasıdır. Olumsuzluk da geriye bakar: insan bunları "bilmiyordu", ta ki öğretilinceye kadar. Böylece ayet bilgiyi bir sahiplik olarak değil bir geçiş olarak gösterir: bilmemekten bilmeye. Fiilin kendisi de bunu taşır. Bilmek {ar:العلم نقيض الجهل, tr:el-ilmu nakîdu'l-cehl, gloss:bilgi, bilmemenin karşıtıdır, source:"ع ل م,B001"} diye tanımlanır. Öğretmek, bir insanı bu karşıtlığın bir yanından öbür yanına geçirmektir.
+
+[¶7] İkinci ayetin pıhtısıyla başlayan rahim sahnesi, bu ifadede bir doğuma varır. Kuran insanlara, rahimden çıkışlarını hatırlatırken tam bu boşluğu anar: {ar:وَٱللَّهُ أَخْرَجَكُم مِّنۢ بُطُونِ أُمَّهَٰتِكُمْ لَا تَعْلَمُونَ شَيْـًۭٔا, tr:va'llâhu ahraceküm min butûni ummehâtiküm lâ ta'lemûne şey'â, gloss:Allah sizi annelerinizin karınlarından hiçbir şey bilmez halde çıkardı, source:16:78}. Aynı ayet hemen ardından bilmenin araçlarını sayar: işitme, görme ve kalpler. Sonra amacı söyler: {ar:لَعَلَّكُمْ تَشْكُرُونَ, tr:le'alleküm teşkürûn, gloss:umulur ki şükredersiniz, source:16:78}. İnsan sıfırdan başlar. Bildiği her şey sonradan gelmiştir ve buna verilecek doğru cevap şükürdür.
+
+[¶8] Kuran bu yolun bir de dönüşünü anlatır. Dirilişten şüphe edenlere hitap eden bir ayet, insanın pıhtıdan çocukluğa, oradan olgunluğa varışını sayar, sonra bazılarının ömrün en düşkün çağına geri götürüldüğünü söyler: {ar:لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍۢ شَيْـًۭٔا, tr:li-keylâ ya'leme min ba'di ilmin şey'â, gloss:bildikten sonra hiçbir şey bilmez olsun diye, source:22:5}. Bilgi böylece iki bilmezlik arasında duran bir emanet olarak görünür. Beşinci ayetin "bilmediği" ifadesi bu yayın başını işaret eder; sekizinci ayetin {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inne ilâ rabbike'r-ruc'â, gloss:dönüş elbette Rabbinedir, source:96:8} cümlesi ise insana, verilenin de alanın da kim olduğunu hatırlatır.
+
+[¶9] Bu ayetin insanı ilk öğretilen insanı da hatırlatır. Kuran'da Allah meleklere yeryüzüne bir halife koyacağını bildirir. Sonra {ar:وَعَلَّمَ ءَادَمَ ٱلْأَسْمَآءَ كُلَّهَا, tr:ve alleme âdeme'l-esmâe küllehâ, gloss:Âdem'e bütün adları öğretti, source:2:31} ve bu adları meleklere sorar. Melekler şöyle cevap verir: {ar:سُبْحَٰنَكَ لَا عِلْمَ لَنَآ إِلَّا مَا عَلَّمْتَنَآ, tr:sübhâneke lâ ilme lenâ illâ mâ allemtenâ, gloss:Sen yücesin, bize öğrettiğinden başka bilgimiz yoktur, source:2:32}. Meleklerin cümlesi, beşinci ayetin içeriden söylenişidir. Ayet "öğretti" der; melekler "öğrettiğinden başka yok" diye kabul eder. Bilginin her parçası bir öğretilmenin izidir.
+
+[¶10] Aynı ifade Kuran'da başka yerlerde de geçer ve hep bir lütfa bağlanır. Peygambere hitap eden bir ayet, bir topluluğun onu yoldan çıkarmaya yeltendiğini anlattıktan sonra şöyle der: {ar:وَعَلَّمَكَ مَا لَمْ تَكُن تَعْلَمُ ۚ وَكَانَ فَضْلُ ٱللَّهِ عَلَيْكَ عَظِيمًۭا, tr:ve allemeke mâ lem tekün ta'lem, ve kâne fadlu'llâhi aleyke azîmâ, gloss:sana bilmediğini öğretti, Allah'ın sana lütfu büyüktür, source:4:113}. Korku anında yaya ya da binekli kılınan namazdan söz eden bir başka ayet de güven dönünce yapılacak şeyi söyler: {ar:فَٱذْكُرُوا۟ ٱللَّهَ كَمَا عَلَّمَكُم مَّا لَمْ تَكُونُوا۟ تَعْلَمُونَ, tr:fe'zkürû'llâhe kemâ alleme-küm mâ lem tekûnû ta'lemûn, gloss:size bilmediklerinizi öğrettiği gibi Allah'ı anın, source:2:239}. Öğretilen insanın cevabı anmaktır. Bu surede o cevabın adı son ayette konur: {ar:وَٱسْجُدْ وَٱقْتَرِب, tr:ve'scud ve'kterib, gloss:secde et ve yaklaş, source:96:19}.
+
+## İz, işaret ve yol
+
+[¶11] Bu ayetin kelimelerini, ayetteki anlamlarının yanında, aynı kök ailesinin başka sahneleriyle birlikte de duymak mümkündür. Bu aile imgeleri kelimenin buradaki anlamının yerine geçmez, onun yanında işitilir. Bilmenin kökü için şöyle denmiştir: {ar:أصل صحيح واحد يدل على أثر بالشيء يتميز به عن غيره, tr:aslun sahîhun vâhidun yedullu alâ eserin bi'ş-şey'i yetemeyyezu bihî an gayrih, gloss:bir şeyin üzerinde, onu ötekilerden ayıran bir izi gösteren tek bir kök, source:"ع ل م,B002"}. Aynı harfler, gündelik hayatta bu izin pek çok biçimini adlandırırdı. Savaşta yükseltilen sancak {ar:العلم الراية, tr:el-alemu'r-râye, gloss:alem sancaktır, source:"ع ل م,B002"} diye anılırdı. Uzaktan görünen uzun dağa {ar:العلم الجبل الطويل, tr:el-alemu'l-cebelu't-tavîl, gloss:alem uzun dağdır, source:"ع ل م,B002"} derlerdi. Çölde yolu gösteren işaret ise {ar:المعلم الأثر يستدل به على الطريق, tr:el-ma'lemu'l-eseru yustedellu bihî ale't-tarîk, gloss:ma'lem, yolun nereden geçtiği kendisinden çıkarılan izdir, source:"ع ل م,B002"} diye tarif edilir. Bir kumaşın kenarına işlenen desene de aynı ad verilirdi: {ar:علم الثوب ورقمه في أطرافه, tr:alemu's-sevbi ve rakmuhû fî etrâfih, gloss:kumaşın alemi, kenarlarındaki işlemesidir, source:"ع ل م,B002"}. Savaşa giren atlı, kalabalıkta tanınsın diye üzerine bir nişan takardı: {ar:أعلم الفارس إذا كانت له علامة في الحرب, tr:a'leme'l-fâris, gloss:atlı savaşta kendine bir nişan taktı, source:"ع ل م,B002"}.
+
+[¶12] Bu nesnelerin hepsi aynı işi görür. Yol işareti yolun kendisi değildir. Bir taş yığını ya da bir iz, yolcuya yolun nereden geçtiğini çıkarma imkânı verir. Uzaktaki dağ yürünecek yer değildir, ama yolcu yönünü ona göre bulur. Kumaşın kenar işlemesi kumaşı kumaş yapmaz, ama onu ötekilerden ayırır. Hepsinde iz, bakan için bir ayrımı mümkün kılar. Bu imge yan yana duyulduğunda öğretmek, insanın içine bu tür ayırt edici izler koymak olarak işitilir: bilmediği bir şeyin artık onun için tanınır hale gelmesi. Kuran yeryüzünde konulmuş yol işaretlerini tam bu kelimeyle anar. Allah yeryüzüne sarsılmasın diye dağlar, nehirler ve yollar koyduğunu {ar:لَّعَلَّكُمْ تَهْتَدُونَ, tr:le'alleküm tehtedûn, gloss:umulur ki yolunuzu bulursunuz, source:16:15} diye söyledikten sonra ekler: {ar:وَعَلَٰمَٰتٍۢ ۚ وَبِٱلنَّجْمِ هُمْ يَهْتَدُونَ, tr:ve alâmât, ve bi'n-necmi hum yehtedûn, gloss:ve yol işaretleri koydu, onlar yıldızla da yollarını bulurlar, source:16:16}. İşaretin işi yol buldurmaktır. Bu surede yol bulmanın adı da geçer: on birinci ayet {ar:أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ, tr:e-ra'eyte in kâne ale'l-hudâ, gloss:ya o doğru yol üzerindeyse, gördün mü, source:96:11} diye sorar.
+
+[¶13] Dördüncü ayetin kalemi bu imgeye yakından bağlanır. Kalemin işi bir yüzeye iz bırakmaktır: harfleri birbirinden ayıran çizgiler çizer, tıpkı kumaşın kenarına işlenen desen gibi. Ama kalemin izi ile alemin izi aynı kökten gelmez. Bağlantı bir benzetmedir, kök ortaklığı değil. Dördüncü ayet izin aracını anar, beşinci ayet izin insanın kendisinde nasıl bir bilgiye dönüştüğünü. Kalemle öğreten, insana da bilmediğini öğreten aynı Rabdir.
+
+[¶14] Aynı kök, her namazda okunan Fatiha'nın ikinci ayetinde de durur: {ar:ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ, tr:el-hamdu li'llâhi rabbi'l-âlemîn, gloss:hamd âlemlerin Rabbi Allah'adır, source:1:2}. Âlem için {ar:العالم اسم للفلك وما يحويه وهو في الأصل اسم لما يعلم به, tr:el-âlemu ismun li'l-feleki ve mâ yahvîhi ve huve fi'l-asli ismun limâ yu'lemu bih, gloss:âlem, gök kubbe ile içindekilerin adıdır ve aslında kendisiyle bir şey bilinenin adıdır, source:"ع ل م,B003"} denmiştir. Yaratılmışların her türü için de {ar:كل جنس من الخلق فهو في نفسه معلم وعلم, tr:küllü cinsin mine'l-halki fe-huve fî nefsihî ma'lemun ve alem, gloss:yaratılmışların her türü kendi içinde bir işaret yeri ve bir işarettir, source:"ع ل م,B003"} söylenmiştir. Bu söz yanında duyulduğunda, insana bilmediğini öğreten Rab, aynı zamanda işaretlerle dolu bir dünyanın Rabbidir. Öğretim yalnızca kalemle değil, insanın içinde yaşadığı âlemin kendisiyle de olur.
+
+## Gören, sezen, alışan insan
+
+[¶15] Öğretilen varlığın adı da kendi sahnelerini taşır. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan, source:96:5} kelimesinin kökünde önce bir görünürlük vardır: {ar:الإنس خلاف الجن وسموا لظهورهم, tr:el-insu hilâfu'l-cinni ve summû li-zuhûrihim, gloss:ins, cinin karşıtıdır ve görünür oldukları için böyle adlandırılmışlardır, source:"ء ن س,B001"}. Aynı kök görerek fark etmeyi de adlandırır: {ar:آنسته أبصرته وآنست الصوت سمعته وآنست منه رشدا علمته, tr:ânestuhû ebsartuh, ve ânestu's-savte semi'tuh, ve ânestu minhu ruşden alimtuh, gloss:onu fark ettim yani gördüm, sesi fark ettim yani işittim, onda olgunluk fark ettim yani bunu bildim, source:"ء ن س,B002"}. Bu son kullanımda sezmek doğrudan bilmeye varır. Kuran bu fiili, yetimlerin malını yöneten kişilere verdiği talimatta kullanır: yetimleri evlilik çağına gelinceye kadar sınayın, {ar:فَإِنْ ءَانَسْتُم مِّنْهُمْ رُشْدًۭا فَٱدْفَعُوٓا۟ إِلَيْهِمْ أَمْوَٰلَهُمْ, tr:fe-in ânestum minhum ruşden fe'd'feû ileyhim emvâlehum, gloss:onlarda olgunluk sezerseniz mallarını kendilerine verin, source:4:6}. Burada bilgi, uzun bir gözlemin sonunda belirir.
+
+[¶16] Kuran bu fiili en çok bir gece sahnesinde kullanır. Musa ailesiyle yoldadır, bir ateş görür ve ailesine şöyle der: {ar:ٱمْكُثُوٓا۟ إِنِّىٓ ءَانَسْتُ نَارًۭا لَّعَلِّىٓ ءَاتِيكُم مِّنْهَا بِقَبَسٍ أَوْ أَجِدُ عَلَى ٱلنَّارِ هُدًۭى, tr:imkusû innî ânestu nâran le'allî âtîküm minhâ bi-kabesin ev ecidu ale'n-nâri hudâ, gloss:bekleyin, ben bir ateş fark ettim; belki size ondan bir kor getiririm ya da ateşin başında bir yol gösteren bulurum, source:20:10}. Aynı kökün yakınlık anlamı da bu sahneye dokunur: Araplar gece yolcusuna ya da konaklayana güven veren ateşi de bu kökle anarlardı {source:"ء ن س,B003"}. Musa'nın fark ettiği ateş tam böyle bir ateştir. Ama Musa ateşe vardığında bir kor değil bir söz bulur: {ar:فَلَمَّآ أَتَىٰهَا نُودِىَ يَٰمُوسَىٰٓ, tr:fe-lemmâ etâhâ nûdiye yâ mûsâ, gloss:oraya varınca ona "Ey Musa" diye seslenildi, source:20:11}, ardından {ar:إِنِّىٓ أَنَا۠ رَبُّكَ, tr:innî ene rabbük, gloss:Ben senin Rabbinim, source:20:12} ve {ar:فَٱسْتَمِعْ لِمَا يُوحَىٰٓ, tr:fe'stemi' limâ yûhâ, gloss:vahyolunanı dinle, source:20:13}. Başka bir anlatımda aynı ses ateşin başında {ar:سُبْحَٰنَ ٱللَّهِ رَبِّ ٱلْعَٰلَمِينَ, tr:sübhâna'llâhi rabbi'l-âlemîn, gloss:âlemlerin Rabbi Allah yücedir, source:27:8} der. Sezen insan ışığa yürür, ama orada ona bilmediği öğretilir. Sezmek insanın kendi işidir; bilmediğini öğrenmek ise bir sesin, bir Rabbin işidir. Beşinci ayet bu ikinci adımı adlandırır.
+
+[¶17] Kökün en yaygın anlamı yakınlıktır: {ar:الأنس أنس الإنسان بالشيء إذا لم يستوحش منه, tr:el-unsu unsu'l-insâni bi'ş-şey'i izâ lem yestevhiş minh, gloss:üns, insanın bir şeye yabancılık duymadan alışmasıdır, source:"ء ن س,B003"}. Bunun karşıtı da açıkça söylenir: {ar:الإيناس خلاف الإيحاش, tr:el-înâsu hilâfu'l-îhâş, gloss:alıştırmak, yabancılaştırmanın karşıtıdır, source:"ء ن س,B003"}. Bu imge beşinci ayetin yanında duyulduğunda, bilinmeyen şey yabancı olandır ve öğretmek onu tanıdık kılar. Yaratılmış bir varlık için dünya önce yabancıdır, öğretildikçe ünsiyet kurulan bir yere dönüşür. Bu kelimenin adını taşıyan varlık, öğrendikçe kendi adına uygun hale gelir. Bu bağ bir yorumdur, kök ortaklığı tek başına bunu söylemez; ama ad ile ayetin fiili aynı yöne bakar.
+
+[¶18] Bir imge de gözün içindedir. Araplar göz bebeğine {ar:إنسان العين المثال الذي يرى في السواد, tr:insânu'l-ayni'l-misâlu'llezî yurâ fi's-sevâd, gloss:gözün insanı, gözün karasında görülen küçük suret, source:"ء ن س,B005"} derlerdi. Birinin gözüne yakından bakan, o koyu yüzeyde küçük bir insan görür: kendi yansımasını. Göz bebeği bir ayna gibi çalışır. Bu imge, bilmekle görmenin aynı yüzeyde buluştuğunu hatırlatır. Yedinci ayetin {ar:أَن رَّءَاهُ ٱسْتَغْنَىٰٓ, tr:en ra'âhu'stagnâ, gloss:kendini yeterli gördüğü için, source:96:7} cümlesi, insanın kendine bakıp kendini yeterli bulduğu sahneyi kurar; on dördüncü ayet ise o bakışın karşısına başka bir görmeyi koyar.
+
+## Bilmediğini bilmeyen
+
+[¶19] Beşinci ayetin kelimeleri surenin ikinci yarısında yeniden karşımıza çıkar: {ar:أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ, tr:e-lem ya'lem bi-enna'llâhe yerâ, gloss:Allah'ın gördüğünü bilmez mi, source:96:14}. Aynı fiil, aynı olumsuzluk vardır; yalnızca başına bir soru eklenmiştir. Beşinci ayet, insanın bilmediği şeyleri Rabbinin öğrettiğini söylemişti. On dördüncü ayet, namaz kılan kulu engelleyen adam için sorar: bunca şey öğretilen, en temel şeyi bilmiyor mu? Fiilin buradaki kuruluşu da anlamlıdır. "Bir şeyi bilmek" yerine "bir şeyden haberdar olmak" denir. Bu kullanım Arapçada {ar:ما علمت بخبرك أي ما شعرت به, tr:mâ alimtu bi-haberike ey mâ şa'artu bih, gloss:haberini bilmedim, yani ondan haberim olmadı, source:"ع ل م,B001"} sözünde de görülür. Soru, Allah'ın görmesini bir bilgi olarak değil bir farkındalık olarak sorar. Öğretilen insan, öğretildiğinin farkında değildir.
+
+[¶20] Arada olanı altıncı ve yedinci ayetler söyler: insan, kendini yeterli gördüğü için azar. Kuran bu sapmayı, bilgiyi kendine mal eden birinin ağzından da anlatır. Karun, Musa'nın kavmindendir. Ona öyle hazineler verilmiştir ki anahtarlarını güçlü bir topluluk zor taşır. Kavmi ona şımarmamasını ve {ar:وَٱبْتَغِ فِيمَآ ءَاتَىٰكَ ٱللَّهُ ٱلدَّارَ ٱلْءَاخِرَةَ, tr:vebtegi fîmâ âtâke'llâhu'd-dâra'l-âhira, gloss:Allah'ın sana verdiğinde ahiret yurdunu ara, source:28:77} demesine rağmen o şöyle cevap verir: {ar:إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلْمٍ عِندِىٓ, tr:innemâ ûtîtuhû alâ ilmin indî, gloss:bu bana ancak bende olan bir bilgi sayesinde verildi, source:28:78}. Kuran'ın karşılığı on dördüncü ayetin sorusuyla aynı kalıptadır: {ar:أَوَلَمْ يَعْلَمْ أَنَّ ٱللَّهَ قَدْ أَهْلَكَ مِن قَبْلِهِۦ مِنَ ٱلْقُرُونِ, tr:e-ve-lem ya'lem enna'llâhe kad ehleke min kablihî mine'l-kurûn, gloss:Allah'ın ondan önce nice nesilleri helak ettiğini bilmiyor muydu, source:28:78}. "Bende olan bilgi" diyen adama, bilmediği şey sorulur.
+
+[¶21] Aynı sahne bir başka yerde bütün insanlar için kurulur. İnsana bir sıkıntı dokununca Allah'a yalvarır, sonra ona bir nimet verilince {ar:قَالَ إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلْمٍۭ, tr:kâle innemâ ûtîtuhû alâ ilm, gloss:bu bana ancak bir bilgi sayesinde verildi der, source:39:49} ve Kuran ekler: {ar:بَلْ هِىَ فِتْنَةٌۭ وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ, tr:bel hiye fitnetun ve lâkinne ekserahum lâ ya'lemûn, gloss:hayır, o bir sınamadır, ama çoğu bilmez, source:39:49}. Hemen ardından gelen ayet, yedinci ayetin fiiliyle aynı kökten bir kelimeyle kapanır: daha öncekiler de böyle demişti, {ar:فَمَآ أَغْنَىٰ عَنْهُم مَّا كَانُوا۟ يَكْسِبُونَ, tr:fe-mâ agnâ anhum mâ kânû yeksibûn, gloss:kazandıkları onlara hiçbir yarar sağlamadı, onları yeterli kılmadı, source:39:50}. Kendini yeterli sanan, sonunda kazandığının onu yeterli kılmadığını görür.
+
+[¶22] Bu ayetlerde ortak bir yanılgı vardır: "verildi" kelimesi ağızda durur, ama veren unutulur. Kuran bilgiyi de aynı edilgen fiille anar: ruhu soranlara verilecek cevapta {ar:وَمَآ أُوتِيتُم مِّنَ ٱلْعِلْمِ إِلَّا قَلِيلًۭا, tr:ve mâ ûtîtum mine'l-ilmi illâ kalîlâ, gloss:size bilgiden ancak az bir şey verilmiştir, source:17:85} denir. Beşinci ayet bu unutkanlığın önüne, sure azgınlığı anlatmaya başlamadan önce, bir cümle koyar. Bilginin kaynağını, öğretenin fiiliyle ve öğrenenin eski bilmezliğiyle birlikte söyler. Böylece "bende olan bilgi" sözü daha söylenmeden çürütülmüş olur: insanda olan, ona öğretilmiş olandır.

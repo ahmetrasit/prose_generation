@@ -1,0 +1,7 @@
+# S1 sec11 research notes
+
+Paragraph 55 centers on a stranded mount and a weak walker supported from both sides. Paragraph 56 moves from requested help to standing, structural support, service, and sovereignty. Paragraph 57 joins communal petition to a straight road and bodily gait. Paragraph 58 compares walking states and recurring Qur'anic scenes. The twenty selected annotations use no more than five per paragraph.
+
+The Masoretic text at Genesis 47:31 vocalizes the shared consonants as *bed* and the local WLC lookup lists no staff qere. Hebrews 11:21 explicitly has the Greek *staff* reading, treated as its own witness. The discovery claim about 2 Chronicles 14:11 belongs to 14:10 in WLC; Psalm 23:4's guidance belongs to 23:3, Psalm 23:5's staff to 23:4, Psalm 37:24's established steps to 37:23, Psalm 37:25's upheld fall to 37:24, and Psalm 145:15's bowed people to 145:14. Second Samuel 22:36 lacks the supporting right hand found in Psalm 18:36.
+
+The original-language search recovered Psalm 27:11, an especially close prayer for guidance on a level way; Corpus Coranicum also notes it. Psalm 17:5 and Psalm 20:3 were opened but add less to this section. Luke 22:43 is printed with variant markers in SBLGNT; its textual-witness status was left unresolved. The nineteen missing secondary references in gaps.json are absent from this local snapshot and were not searched or reconstructed.

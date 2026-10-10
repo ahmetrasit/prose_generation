@@ -1,0 +1,70 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec4/luna/list.tsv",
+  "rows": 61,
+  "unique_references": 61,
+  "schema_errors": [],
+  "duplicates": [],
+  "strengths": {
+    "strong": 30,
+    "medium": 29,
+    "weak": 2
+  },
+  "findings": [
+    {
+      "line": 4,
+      "ref": "Wisdom of Solomon 11:20",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 37,
+      "ref": "WLC:Exod.12.9",
+      "field": "basis",
+      "language": "Hebrew",
+      "wording": "צלה",
+      "kind": "wording_review",
+      "variant_matches": [],
+      "matching_neighbours": [],
+      "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+    },
+    {
+      "line": 40,
+      "ref": "Genesis Rabbah 1:1",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 42,
+      "ref": "WLC:Jonah.1.7",
+      "raw_ref": "WLC:Jon.1.7",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    },
+    {
+      "line": 58,
+      "ref": "Pirkei Avot 4:16",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 59,
+      "ref": "Didache 1:1",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 61,
+      "ref": "WLC:Isa.46.5",
+      "field": "basis",
+      "language": "Hebrew",
+      "wording": "שוה",
+      "kind": "wording_review",
+      "variant_matches": [],
+      "matching_neighbours": [],
+      "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

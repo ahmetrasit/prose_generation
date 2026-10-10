@@ -1,0 +1,1474 @@
+{
+  "target": "87:4",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/87_4.md",
+  "base_sha256": "df16654cb3494d2bb23d6b95e5011ce8dc13b4a42faa7afc27e54465a6d171ef",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:22:02.736457-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_87_4_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "63137aec05ae9e77f6779d0a15293b6b923fef63a2b7224dabe6d9456254f79e",
+  "package_sha256": "c47288a6c21ed94f90c1a769d9cc91b36dc3b9137e8982e715808c3908672f7b",
+  "input_sha256": "899919cbb2a38636352bd99dcf779f7b1319d71e40b259ad7c99b62bdc4caab3",
+  "spawn_sha256": "33c21978ae458c07053f5589a9baf030140f0c2f4c9304d1d5ffef16e2f7236e",
+  "followup_text_sha256": "364a9a6f67b441290a9c7fe88da12a84afb1b4e7cbdf68bc10ece91784e57a9c",
+  "agent_id": "01a10d1e-d2d9-78a1-91a1-6c2ef2cbe3a4",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-31-26-01a10d1e-d2d9-78a1-91a1-6c2ef2cbe3a4.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 69,
+  "turn1_sha256": "d5d20e72a2d4310bfb02d2d097a03a071e457f8aa1763b324b37d455f58fb111",
+  "turn2": {
+    "completed": true,
+    "rows_total": 106,
+    "rows_added": 37
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 69,
+    "raw_proposal_rows": 37,
+    "unique_additions": 37,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.147.8",
+          "basis": "cloud, rain, grass made to grow",
+          "note": "The psalm supplies the causal sequence left unspoken in 87:4: God covers the sky with clouds, prepares rain for earth, and makes grass grow. It places the brought-forth pasture between the cloud's appearance and its nourishment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.104.14",
+          "basis": "grass for cattle and food from earth",
+          "note": "God causes grass to grow for cattle and vegetation to yield human food. This makes explicit the commentary's claim that merʿā is grass seen as sustenance for animals and, through them, people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Job.38.27",
+          "basis": "God makes grass sprout in desolation",
+          "note": "In God's speech to Job, rain satisfies the waste land and causes tender grass to sprout. It is a close divine-agent counterpart to bringing pasture out of apparently barren ground."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.11.15",
+          "basis": "grass for livestock, then human satiety",
+          "note": "God promises grass in the fields for Israel's livestock before saying that Israel will eat and be satisfied. The animal-before-human order directly illuminates the commentary's food chain around pasture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.30.23",
+          "basis": "rain for seed and broad pasture",
+          "note": "God gives rain to seed sown in the ground, rich bread from its produce, and broad pasture for livestock. It joins the commentary's rain, growth, food, and grazing scenes in one verse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.55.10",
+          "basis": "rain waters earth, sprouting, seed and bread",
+          "note": "Rain and snow water the earth so that it brings forth and sprouts, supplying seed to the sower and bread to the eater. This gives the full hidden-to-edible growth sequence developed from 87:4."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.2.9",
+          "basis": "God causes growth out of ground",
+          "note": "The LORD God causes trees to sprout out of the ground. Its divine causation and movement from earth into visible life closely match the commentary's concrete sense of إخراج."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.6",
+          "basis": "morning sprouting and evening withering",
+          "note": "Human life is compared to grass that sprouts in the morning and fades and withers in the evening. It gives a tightly ordered life-and-loss counterpart to 87:4–5's green pasture becoming dark debris."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.7",
+          "basis": "grass withers under the LORD's breath",
+          "note": "Grass withers and flower fades when the breath of the LORD blows on it. The verse sharpens the commentary's insistence that the pasture's end, like its emergence, remains under divine action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.8",
+          "basis": "withering grass and enduring divine word",
+          "note": "After grass withers and flowers fade, God's word stands forever. This is a particularly close counterpart to the commentary's contrast between perishable vegetation and the recited word that is not forgotten."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.4",
+          "basis": "chaff driven by wind",
+          "note": "The wicked are likened to chaff driven away by wind. It gives a Hebrew-scriptural use of dry vegetal waste that helps read 87:5's transformed pasture as an image of passing and loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ezek.37.12",
+          "basis": "God opens graves and brings people up",
+          "note": "God promises to open Israel's graves and bring the people up from them. It is a direct second-emergence counterpart to the commentary's move from vegetation coming out of earth to the dead being brought out."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.26.19",
+          "basis": "dead in dust awaken",
+          "note": "The dead live, those dwelling in dust awake, and the earth gives birth to the dead. The earth-to-life movement directly accompanies the commentary's claim that pasture makes resurrection imaginable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.12.2",
+          "basis": "awakening from dust to two outcomes",
+          "note": "Those sleeping in the dust awaken, some to everlasting life and some to shame. It closely parallels the commentary's second emergence and its insistence that the final state divides into contrasting outcomes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.16",
+          "basis": "Midianite daughters at the well with their flock",
+          "note": "Exodus places Moses at a Midian well where the priest's daughters arrive to water their father's flock. It is the same narrative setting behind the commentary's two women, livestock, and Moses at Midian."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.17",
+          "basis": "Moses helps and waters the flock",
+          "note": "Moses intervenes for the women and waters their flock. This is the specific action that stands beside the commentary's account of Musa watering the women's animals before his pastoral years."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.1",
+          "basis": "Moses shepherding Jethro's flock at Horeb",
+          "note": "Moses is tending Jethro's flock when he leads it to Horeb. It directly matches the commentary's portrait of Musa as a shepherd before the fire and prophetic call."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ezek.34.14",
+          "basis": "Hebrew מִרְעֶה and רעה, pasture and shepherding",
+          "note": "Hebrew mirʿeh, “pasture,” and the verb rʿh, “to shepherd/feed,” are cognate with the commentary's merʿā and rāʿā family. Ezekiel's God feeds the flock in good pasture, making explicit the pastoral semantic field that 87:4 evokes without naming God a shepherd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "4 Ezra 7:32",
+          "basis": "earth gives up those sleeping in it",
+          "note": "The apocalypse says that the earth will give up those who sleep in it and the dust those who rest in silence. It supplies a Jewish articulation of the commentary's earth-to-resurrection inference."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "2 Baruch 50:2",
+          "basis": "earth restores the dead it received",
+          "note": "2 Baruch imagines the earth returning the dead it has received and preserved. Its soil as temporary keeper of bodies closely corresponds to the commentary's “another bringing out” from ground."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.14.17",
+          "basis": "rain from heaven, fruitful seasons, food",
+          "note": "Paul's speech describes God giving rains from heaven and fruitful seasons, filling people with food and gladness. It is a direct Christian-scriptural analogue for 87:4's providential pasture as nourishment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.30",
+          "basis": "grass today and oven tomorrow",
+          "note": "Jesus calls the grass of the field present today and thrown into an oven tomorrow, while stressing God's care for it. This matches the commentary's abrupt movement from green pasture to a fire-adjacent perishable end."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.27",
+          "basis": "seed secretly sprouts and grows",
+          "note": "In the seed parable, the sower sleeps and rises while the seed sprouts and grows in a way he does not know. It closely reflects the commentary's hidden seed and root becoming visible vegetation beyond human control."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.28",
+          "basis": "earth yields blade, ear, full grain",
+          "note": "The earth produces first a blade, then an ear, then full grain. Its staged growth gives a New Testament counterpart to the commentary's water-to-plant-to-green-to-grain sequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.7",
+          "basis": "rain-drinking land produces useful crop",
+          "note": "Land drinks rain and produces a useful crop, receiving blessing from God. The verse aligns rain, productive soil, and divine blessing with the commentary's pasture as a granted provision."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.8",
+          "basis": "land yielding thorns ends in burning",
+          "note": "The immediately contrasted land yields thorns and thistles and ends in burning. It gives a specific Christian counterpart to the commentary's patchy fertile and barren ground, and to vegetation's ominous end."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.6",
+          "basis": "planting, watering, God giving growth",
+          "note": "Paul distinguishes his planting and Apollos's watering from God giving the growth. It directly supports the commentary's pedagogical extension: human teaching may cultivate, but emergence and maturation belong to God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.7",
+          "basis": "God alone gives growth",
+          "note": "Neither planter nor waterer is decisive, but God who makes things grow. This is an unusually exact counterpart to the page's focus on who, rather than what mechanism, brings pasture forth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.15.36",
+          "basis": "seed dies before coming to life",
+          "note": "Paul answers the resurrection question by saying a sown thing does not come to life unless it dies. It gives the commentary's pasture-to-resurrection reasoning a direct agricultural form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.15.37",
+          "basis": "bare grain is sown before its future body",
+          "note": "The passage identifies the sown object as bare grain rather than the body it will become. It makes concrete the commentary's contrast between hidden seed, visible plant, and a later embodied emergence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.15.38",
+          "basis": "God gives the seed its body",
+          "note": "God gives the seed a body as he wills. This attributes the transition from grain to formed life to divine choice, like 87:4's attribution of pasture's coming forth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.5.28",
+          "basis": "all in tombs hear and come out",
+          "note": "Jesus says all who are in the tombs will hear his voice and come out. It is a direct verbal and conceptual counterpart to the commentary's second خروج from the earth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.5.29",
+          "basis": "coming out to life or judgment",
+          "note": "Those who come out do so to resurrection of life or resurrection of judgment. This supplies the two final destinations which the commentary sets after vegetation's single temporary course."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.24",
+          "basis": "all flesh as grass that withers",
+          "note": "The epistle quotes the grass-and-flower image for mortal flesh. It is a close Christian reuse of the same vegetal transience that the commentary reads from 87:4 into 87:5."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.25",
+          "basis": "enduring word after grass's fading",
+          "note": "The Lord's word remains forever after the preceding grass image. Like the commentary's comparison of fading pasture with unforgotten recitation, it contrasts transient vegetation with enduring proclamation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "1 Clement 24:5",
+          "basis": "buried seed rises as proof of resurrection",
+          "note": "1 Clement uses a seed sown dry and naked in earth, then rising into life, as an argument for resurrection. It is a close early Christian interpretation of the natural cycle that the commentary presents as evidence for a second emergence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 40a",
+          "basis": "livestock fed before a person eats",
+          "note": "The Talmud reads Deuteronomy 11:15's order as forbidding a person to eat before feeding an animal. That interpretation develops precisely the commentary's observation that pasture first sustains the herd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Exodus Rabbah 2:2",
+          "basis": "Moses's care for a lamb proves him fit to lead Israel",
+          "note": "The midrash makes Moses's compassionate shepherding the test that qualifies him to shepherd Israel. It directly develops the commentary's passage from Musa's flock, staff, and care to the shepherd-leader sense of the root."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.1.11",
+          "basis": "God commands earth to sprout seed-bearing vegetation",
+          "note": "God commands the earth to sprout vegetation, seed-bearing plants, and fruit trees according to kinds. It contributes the created order and measured differentiation that surround 87:4 in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.48.15",
+          "basis": "God shepherded Jacob all his life",
+          "note": "Jacob calls God the one who shepherded him throughout his life. It offers a personal divine-shepherd use of the Hebrew cognate field beside the commentary's cautious pastoral associations of merʿā."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.72",
+          "basis": "shepherding as skilled political guidance",
+          "note": "David shepherds Israel with integrity and guides them with skillful hands. It realizes the commentary's extension from grazing and guarding a flock to leadership that sees a people toward its end."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.2.22",
+          "basis": "God reveals hidden things and knows darkness",
+          "note": "God reveals deep and hidden things and knows what is in darkness. This gives a biblical counterpart to the commentary's linkage of hidden seed, what is brought out, and God's knowledge of concealed things."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.7",
+          "basis": "bringing prisoners out of darkness",
+          "note": "The servant's commission includes bringing prisoners out of a dungeon and those sitting in darkness into light. It provides a specific biblical analogue to the commentary's secondary movement from hidden darkness to an instructed, illuminated human life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.2",
+          "basis": "teaching as rain and dew on grass",
+          "note": "Moses compares his teaching to rain and dew falling on tender grass and vegetation. It joins the page's rain-grown pasture to its later account of instruction that brings people beyond ignorance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.9",
+          "basis": "harvest's edge left for poor and resident alien",
+          "note": "The harvest owner must leave the field's edge and gleanings for the poor and alien. It is a concrete Torah counterpart to the commentary's claim that what the ground yields carries a due share for others."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.26.10",
+          "basis": "firstfruits brought before God in worship",
+          "note": "Israel brings the first of the ground's fruit before the LORD and bows in worship. It pairs agricultural yield with praise, echoing the commentary's ordering of divine provision and sanctifying the Lord's name."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.1",
+          "basis": "water and food without money or price",
+          "note": "The thirsty are invited to water, wine, and milk without money or price. Its gratuitous food image gives a close biblical analogue to the commentary's provision and admonition offered without demanded payment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.50.12",
+          "basis": "God needs no food from creatures",
+          "note": "God says that if hungry he would not tell humans, since the world and its fullness are his. It clarifies the commentary's claim that the giver of pasture does not need a return payment from those who live on it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.3.23",
+          "basis": "being sent out of the garden to the ground",
+          "note": "The LORD sends the human out of Eden to work the ground from which he was taken. It gives a specific biblical instance of the commentary's secondary sense of “bringing out” as removal from an inhabited place rather than plant emergence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.23",
+          "basis": "brought out in order to be brought in",
+          "note": "God brings Israel out from Egypt in order to bring them into the promised land. The out/in pair closely accompanies the commentary's semantic contrast between departure from a place and entry into one."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.15",
+          "basis": "life made in secret in earth-like depths",
+          "note": "The psalmist's frame is not hidden when made in secret and woven in the depths of the earth. It extends the commentary's unseen earth imagery from seed to the hidden beginning of human life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.30",
+          "basis": "God renews the face of the ground",
+          "note": "When God sends his spirit, creatures are created and the face of the ground is renewed. It is a natural-renewal analogue for the commentary's annual revivification of dead land."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.61.11",
+          "basis": "earth's sprouts image righteousness and praise",
+          "note": "As earth brings forth sprouts and a garden makes seed sprout, God causes righteousness and praise to sprout. This is a precise biblical bridge between vegetation emerging from soil and the commentary's cultivation of human understanding."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Peah 1:1",
+          "basis": "peah and firstfruits among required agricultural gifts",
+          "note": "The Mishnah lists the field-corner gift and firstfruits among practices without a fixed measure. It gives Jewish legal shape to the commentary's harvest-as-yield that is not merely possessed but bears a claim for others."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Ta'anit 7a",
+          "basis": "rain compared with resurrection",
+          "note": "The Talmud compares the day of rain with the resurrection of the dead. That explicit rabbinic pairing makes visible the inferential bridge from rain-fed revival of land to resurrection that the commentary draws."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.20",
+          "basis": "good soil receives the word and bears fruit",
+          "note": "Jesus interprets the good soil as hearers who receive the word and bear fruit. It changes the commentary's physically uneven soil into a teaching image, making the interpretive bridge explicit rather than assuming it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.26.18",
+          "basis": "commission to turn people from darkness to light",
+          "note": "Paul's commission opens eyes and turns people from darkness to light. It closely parallels the commentary's secondary use of bringing out as education and deliverance from darkness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.4.5",
+          "basis": "hidden things of darkness brought to light",
+          "note": "At judgment the Lord brings to light what is hidden in darkness and discloses hearts' purposes. It gives a Christian counterpart to the commentary's hidden seed and divine disclosure of what lies concealed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.10.8",
+          "basis": "freely received, freely give",
+          "note": "Jesus tells the disciples to give freely because they received freely. It specifically parallels the commentary's extension from freely given pasture to an admonitory ministry that asks no fee."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.9.18",
+          "basis": "gospel offered without charge",
+          "note": "Paul describes making the gospel free of charge rather than using his right to support. This is the concrete apostolic counterpart to the commentary's unpaid teaching and uncharged provision."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.5.2",
+          "basis": "shepherding God's flock through oversight",
+          "note": "Elders are told to shepherd God's flock while exercising oversight. It closely matches the commentary's semantic account in which grazing, guarding, and watchful responsibility belong together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.11",
+          "basis": "good shepherd gives life for sheep",
+          "note": "Jesus identifies himself as the good shepherd who lays down his life for the sheep. It offers the specifically Christian development of the shepherd image lying at the edge of the commentary's merʿā-root reflection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.6",
+          "basis": "light from darkness gives knowledge",
+          "note": "The Creator who commanded light from darkness shines in hearts to give knowledge. It joins creation, illumination, and learning in the manner of the commentary's move from soil-darkness to instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.2.17",
+          "basis": "world passes but God's doer remains",
+          "note": "The world and its desire pass away, but the one who does God's will remains forever. It supplies a Christian ethical form of the commentary's contrast between transient pasture and what is more enduring."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.11",
+          "basis": "sun withers grass and rich person's flower falls",
+          "note": "The sun's heat withers grass and makes its flower fall while the rich person fades in pursuits. It gives another focused New Testament use of vegetal decline for the passing human condition.",
+          "raw_ref": "SBLGNT:James.1.11",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.24",
+          "basis": "grain dies and bears much fruit",
+          "note": "A grain of wheat falls into earth and dies in order to bear much fruit. It forms a Christological transformation of the seed-death-and-new-life pattern the commentary applies to pasture and later emergence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.17",
+          "basis": "the hidden will become manifest",
+          "note": "Nothing hidden remains without becoming manifest and coming to light. It parallels the commentary's secondary association of bringing forth with making the concealed visible."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.18",
+          "basis": "seen things temporary, unseen eternal",
+          "note": "The visible is temporary while the unseen is eternal. It gives a concise Christian analogue for the commentary's contrast of what emerges and perishes in this world with the lasting final reality."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.26",
+          "basis": "God feeds birds without their sowing or harvesting",
+          "note": "The heavenly Father feeds birds that neither sow nor reap nor store. It complements the commentary's pasture-as-provision theme by making divine feeding independent of the creatures' own agricultural control."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.23.2",
+          "basis": "green pastures and waters under the shepherd's lead",
+          "note": "The psalm's shepherd makes the flock lie down in green pasture and leads it beside waters. It supplies the water and shepherd-led grazing scene that the commentary says is compressed into merʿā."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.23.1",
+          "basis": "Hebrew רֹעִי, “my shepherd,” cognate with رعي",
+          "note": "The Hebrew rōʿî belongs to the rʿh cognate family developed in the commentary for merʿā and rāʿā. The verse gives the compact title “my shepherd,” against which the page's deliberately indirect pastoral language can be assessed."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.29.7",
+          "basis": "Hebrew רְעוּ, “pasture the flock,” after watering",
+          "note": "Jacob tells the shepherds to water the flock and then pasture it. This nonmetaphorical cognate use joins the commentary's sequence of water, grass, animal mouth, and the act of grazing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.7.14",
+          "basis": "shepherding a people with a staff",
+          "note": "The prayer asks God to shepherd his people with his staff and let the flock graze. It brings together the staff, flock, and pastoral rule that the commentary develops from Musa's staff and the merʿā root family."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.27.17",
+          "basis": "leader who leads out and brings in so sheep have a shepherd",
+          "note": "Moses asks for a leader who will go out and come in before the people, lead them out and bring them in, so they are not sheep without a shepherd. It tightly joins the commentary's secondary out/in sense with its leader-shepherd sense."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Lev.26.4",
+          "basis": "rain in season and earth yielding produce",
+          "note": "God promises rain in its season, the land's yield, and fruit from the trees. It is a direct covenantal counterpart to the commentary's source-to-pasture sequence of rain, ground, and provision."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Zech.10.1",
+          "basis": "storm clouds, showers, and field vegetation",
+          "note": "The LORD makes storm clouds, gives showers of rain, and gives vegetation in the field. It closely matches the page's cloud-to-rain-to-plant chain, including the cloud's first visible role."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.11.14",
+          "basis": "seasonal rain before gathered grain, wine, and oil",
+          "note": "God gives the early and latter rain so Israel gathers the field's produce. This provides the rain-and-annual-yield side of the pasture provision that the next verse extends to livestock."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.4.2",
+          "basis": "Moses's staff at the call",
+          "note": "At the call, God asks Moses what is in his hand and he answers, “a staff.” It is the direct Torah counterpart to the commentary's remembered shepherd's staff at the fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.4.3",
+          "basis": "staff cast down and becoming a serpent",
+          "note": "Moses casts the staff down and it becomes a serpent. This supplies the specific transformation noted when the commentary follows the shepherd's staff into the call narrative."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.17.24",
+          "basis": "God makes a green tree wither and a dry tree flourish",
+          "note": "God declares that he brings down the high tree, makes the green tree wither, and makes the dry tree flourish. Its divine reversal gives a close prophetic counterpart to 87:4–5's brought-forth green turning dark, while retaining renewal as God's act."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.11.43",
+          "basis": "command for the dead Lazarus to come out",
+          "note": "Jesus calls the dead Lazarus to come out of the tomb. It is a narrative realization of the commentary's second emergence: a dead human is summoned from the place that held him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.15.42",
+          "basis": "sown in decay and raised in incorruption",
+          "note": "Paul describes the body as sown in corruption and raised in incorruption. It gives the page's perishing vegetation and more lasting future a direct resurrection contrast."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "2 Maccabees 7:14",
+          "basis": "raised to everlasting life, with a contrary final outcome",
+          "note": "A martyr expects God to raise the faithful to everlasting life while denying the persecutor a resurrection to life. It specifically parallels the commentary's move from earthly death to distinct final destinies."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.14.7",
+          "basis": "cut tree sprouts again",
+          "note": "Job observes that a cut tree still has hope because it can sprout again. The natural recovery image gives a focused Hebrew Bible companion to the commentary's vegetation-based inference that death need not be the final state."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.12.22",
+          "basis": "deep things out of darkness brought to light",
+          "note": "God uncovers deep things from darkness and brings gloom to light. It makes explicit the hidden-to-visible movement that the commentary hears in pasture emerging from unseen soil."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.11",
+          "basis": "God's word goes out and accomplishes its purpose",
+          "note": "God's word goes out and succeeds in its appointed work. Following the rain-and-sprouting comparison immediately before it, this verse provides a biblical bridge to the commentary's contrast between fading grass and effective instruction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.7",
+          "basis": "people of God's pasture and sheep of his hand",
+          "note": "In a worship setting, Israel is called the people of God's pasture and the sheep of his hand. It joins praise, divine identity, pasture, and flock in a form particularly close to the commentary's opening “He who” descriptions."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.23.11",
+          "basis": "field's seventh-year yield for poor and wild animals",
+          "note": "The seventh year's field produce is left so the poor may eat and wild animals take what remains. It gives a concrete Torah form to the commentary's pasture as freely available sustenance rather than a commodity retained by its grower."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.24.19",
+          "basis": "forgotten sheaf left for vulnerable neighbors",
+          "note": "A forgotten sheaf must remain for the resident alien, orphan, and widow. This is a distinct harvest-share counterpart to the commentary's claim that land's yield bears a due for others."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.8.22",
+          "basis": "seedtime and harvest as an unbroken seasonal rhythm",
+          "note": "Seedtime and harvest are promised to continue while the earth endures. It supplies the annual rhythm behind the commentary's description of pasture as the year's recurring yield."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.3",
+          "basis": "water on dry ground and spirit on descendants",
+          "note": "God promises water on thirsty ground and streams on dry land, then his spirit on descendants. It explicitly makes physical revival of dry earth the vehicle for a human, spiritual enlargement like the commentary's move from growth to education."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.4",
+          "basis": "descendants sprout among grass beside watercourses",
+          "note": "The recipients of the preceding promise are said to sprout among grass like trees by flowing water. It is a specific biblical use of vegetal emergence to depict a human community's growth."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.3.19",
+          "basis": "return to dust",
+          "note": "The human returns to the dust from which he was taken. It supplies the first half of the commentary's earth–return–second-emergence pattern, while leaving the later resurrection claim to other texts."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.2.21",
+          "basis": "Zipporah given after Moses agrees to dwell with her father",
+          "note": "Exodus says Moses agrees to dwell with the Midianite and is then given Zipporah; the commentary's Qur'anic scene makes marriage contingent on a stated term of shepherding labor. The shared Midian sequence is clear, but the terms of the marriage arrangement differ."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.3",
+          "basis": "tree by water, seasonal fruit, unfading leaf",
+          "note": "The Torah-meditating person is like a water-fed tree with seasonal fruit and a leaf that does not wither. It offers a deliberate counter-image to the commentary's temporary pasture and links lasting fruitfulness to received instruction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.14.22",
+          "basis": "idols cannot give rain; the LORD made all",
+          "note": "Jeremiah asks whether any false gods can make rain and answers by hoping in the LORD who made all things. It is a precise anti-idolatry-and-provision companion to the commentary's worship question around the one who brings hidden life out."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.17.8",
+          "basis": "watered tree stays green in heat and drought",
+          "note": "The trusting person is like a tree by water whose leaves stay green and whose fruit does not fail in drought. It gives a biblical counter-pattern to the green pasture that dries, with endurance read through trust."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.66.14",
+          "basis": "bones flourish like grass",
+          "note": "The restored community's bones flourish like grass as God's hand is made known. This unusually bodily grass image bridges the commentary's vegetal revival with its attention to embodied resurrection."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.6",
+          "basis": "sprouted seed scorched and withered for lack of root",
+          "note": "The sun scorches the sprouted seed and it withers because it has no root. It gives a close specific counterpart to the commentary's green growth that reaches a dry, perishing end."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.29",
+          "basis": "ripened grain and the harvest",
+          "note": "When the grain permits it, the sickle is sent because harvest has come. It adds the completed crop and reaping stage to the page's account of yearly yield and the plant's full course."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.7",
+          "basis": "farmer waits for precious fruit and seasonal rains",
+          "note": "The farmer patiently waits for the earth's valuable fruit through early and latter rains. In its context of awaiting the Lord, it couples the annual crop cycle with expectant eschatological patience.",
+          "raw_ref": "SBLGNT:James.5.7",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.10",
+          "basis": "God supplies seed, bread, and harvest of righteousness",
+          "note": "God supplies seed to the sower and bread for food, then increases the harvest of righteousness. It directly joins material produce, gratuitous provision, and the moral growth that the commentary develops from the pasture image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.17",
+          "basis": "water of life received without price",
+          "note": "The thirsty are invited to take the water of life without cost. It provides an eschatological Christian counterpart to the commentary's theme of life-giving provision and admonition that demand no payment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "the Lamb shepherds and guides to springs of life-water",
+          "note": "The Lamb shepherds the redeemed and guides them to springs of living water. It is a Christian eschatological development of the pasture, care, guidance, and enduring-life complex explored in the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.8",
+          "basis": "sowing for corruption or eternal life",
+          "note": "Sowing to the flesh reaps corruption, while sowing to the Spirit reaps eternal life. The agricultural figure makes the commentary's transient growth and divergent final outcomes into an explicit ethical contrast."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.39",
+          "basis": "harvest as the end of the age",
+          "note": "Jesus identifies the harvest as the end of the age and the reapers as angels. It gives the commentary's annual field imagery an explicitly eschatological culmination without reducing the physical pasture itself to allegory."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "6eb989a9ffe1a2742c9c5b769ba81f885263d431aff4800ad63f2fa2de0823e5",
+    "followup_sha256": "6eb989a9ffe1a2742c9c5b769ba81f885263d431aff4800ad63f2fa2de0823e5"
+  },
+  "consolidation_error": null,
+  "list_sha256": "60a84ce8aa87104145c634448dd235552d5580ac4eb989a797ce8a8f121674c7",
+  "followup_delivery": [
+    {
+      "call_id": "call_iWlhrDJvICQSwXy5C3ev2TIq",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 580938,
+    "cached_input_tokens": 501248,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38208,
+    "reasoning_output_tokens": 29632,
+    "total_tokens": 619146
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:09:34.230Z",
+  "artifacts": {
+    "started.json": "d422ea6027a2811c983332e80b633e6fc09c0f05569ba7c6fb12bcf9f0a3c4e6",
+    "input.json": "899919cbb2a38636352bd99dcf779f7b1319d71e40b259ad7c99b62bdc4caab3",
+    "prompt.md": "63137aec05ae9e77f6779d0a15293b6b923fef63a2b7224dabe6d9456254f79e",
+    "package.md": "c47288a6c21ed94f90c1a769d9cc91b36dc3b9137e8982e715808c3908672f7b",
+    "spawn.md": "33c21978ae458c07053f5589a9baf030140f0c2f4c9304d1d5ffef16e2f7236e",
+    "followup.txt": "364a9a6f67b441290a9c7fe88da12a84afb1b4e7cbdf68bc10ece91784e57a9c",
+    "turn1.json": "1be6b4c4174aa3c5141997219380c24a086d07fbbdf6164359921d08a23017dc",
+    "turn1.list.tsv": "d5d20e72a2d4310bfb02d2d097a03a071e457f8aa1763b324b37d455f58fb111",
+    "followup.tsv": "6eb989a9ffe1a2742c9c5b769ba81f885263d431aff4800ad63f2fa2de0823e5",
+    "list.tsv": "60a84ce8aa87104145c634448dd235552d5580ac4eb989a797ce8a8f121674c7",
+    "consolidation.json": "67c6e78851a540d22fdc9a31e0be886a3b86b38da6c617d681700130e504671e",
+    "validation.json": "14a402b927fbcd3d5c94a8efa55dfb32d80cb1241c017da09f333caf99a6f434",
+    "proposal_validation.json": "d7d0cd57fb086733874a13732dda7d6d2dcea45b44cb4255dd7dab1feb6d77f2",
+    "tool_calls.json": "8b4d74039d718f58de0eb8e4d9f25e8676f504d0ed53eeac40840b45970ea2c2",
+    "session.json": "3412f1eeac24ab751e386c3b78f5e02323cc307a20402091d462e577d53fe091",
+    "session.events.jsonl": "9703cfa67df287976462f74e68a1fbacdac189295772b5710887701139fdf958"
+  }
+}

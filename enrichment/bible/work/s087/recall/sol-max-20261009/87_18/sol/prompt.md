@@ -1,0 +1,130 @@
+Qur'an 87:18:
+
+إِنَّ هَٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ
+
+Below is a frozen Turkish commentary on this ayah, its paragraphs numbered [¶n]. Do not change, summarise or
+rewrite it.
+
+Add Hebrew Bible and New Testament verses that help the reader understand a particular paragraph, from the Bible's
+side. Similarity alone is not the test, and a verse may help without sharing any word. A verse helps when, after
+reading it, the reader understands that paragraph's point better than before. It can help in four ways:
+
+- same: it says the paragraph's point in its own words, so the reader sees the idea from another scripture;
+- opposite: it says the same matter the other way round, and the difference shows what is distinctive here;
+- background: it shows the world of an image, custom or practice the paragraph relies on, even with no shared word;
+- word: the paragraph is about a word, and the verse shows how its Hebrew or Aramaic relative is used. The roots
+  table below lists every Arabic root of the ayah with the Hebrew and Aramaic roots that correspond to it by regular
+  sound correspondence. A correspondence is a candidate, not proof: some are true cognates, some only sound alike.
+
+The test before you place a verse: say in one sentence what the reader understands about the paragraph's point after
+reading it that they did not before. If you cannot, drop it, with that as the reason. A shared word, root, name or
+broad theme alone is not enough. A verse that only touches a side detail without making the paragraph's point
+clearer is dropped.
+
+Go through every paragraph, including those about single words or images. A paragraph may get no verse. A verse
+that clearly helps the ayah as a whole but no single paragraph may go into a short closing section (`end`); use it
+sparingly. Every verse you considered and dropped gets a drop row with its reason.
+
+The note is written in Turkish for an advanced reader. Its first sentence is the test sentence: what the verse makes
+clearer about the paragraph's point. Then what the verse says, in its own context, quoted briefly in Turkish
+translation, and where it meets or parts from the paragraph. No source talk, no hedging about dependence.
+Consecutive or closely joined verses that make one point share one row.
+
+Work from memory. Do not read files, run commands or search. A later turn will show you the text of every verse you
+cite, so that you can check it.
+
+Reply with JSON Lines only (one object per line, no Markdown). References are single verses in OSIS form with
+English (KJV) numbering, like Book.Chapter.Verse:
+
+{"refs": ["Book.C.V", ...], "decision": "place", "paragraphs": [n], "way": "same|opposite|background|word", "note_tr": "..."}
+{"refs": ["Book.C.V"], "decision": "end", "way": "...", "note_tr": "..."}
+{"refs": ["Book.C.V"], "decision": "drop", "way": "...", "reason": "..."}
+
+=== ROOTS ===
+
+## ص ح ف (in the ayah: ٱلصُّحُفِ)
+  no Hebrew or Aramaic root with these corresponding consonants is in the lexicon
+
+## ء و ل (in the ayah: ٱلْأُولَىٰ)
+* Hebrew אל (ء→א و→ו ل→ל): BDB cites an Arabic cognate; 6244 WLC occurrences; `hebrew.py root אל` lists them
+  - אֶל (ʾel) R 'motion to' [H413; Hebrew; 5510 WLC occurrences] Strong: near, with or among; often in general, to
+  - אַל (ʾal) D 'not' [H408; Hebrew; 724 WLC occurrences] Strong: not (the qualified negation, used as a deprecative); once (Job 24:25) as a noun, nothing
+  - אֶלְגָּבִישׁ (ʾelgābîš) N 'hail' [H417; Hebrew; 3 WLC occurrences] Strong: hail (as if a great pearl)
+  - אַלְגּוּמִּים (ʾalgûmmîm) N 'sandal-wood' [H418; Hebrew; 3 WLC occurrences] Strong: sticks of algum wood
+  - אַלְמֻגִּים (ʾalmuggîm) N 'almug' [H484; Hebrew; 3 WLC occurrences] Strong: almug (i.e. probably sandle-wood) sticks
+  - אַלְקוּם (ʾalqûm) N 'band of soldiers' [H510; Hebrew; 1 WLC occurrence] Strong: a non-rising (i.e. resistlessness)
+* Hebrew אול (ء→א و→ו ل→ל): BDB cites an Arabic cognate; 331 WLC occurrences; `hebrew.py root אול` lists them
+  - אֱוִיל (ʾĕwîl) A 'foolish' [H191; Hebrew; 26 WLC occurrences] Strong: (figuratively) silly
+  - אוּל (ʾûl) N 'body' [H193a; Hebrew; 1 WLC occurrence] Strong: the body (as being rolled together); also powerful
+  - אוּל (ʾûl) N 'leading man' [H193b; Hebrew; 1 WLC occurrence] Strong: the body (as being rolled together); also powerful
+  - אֱוִלִי (ʾĕwilî) A 'silly' [H196; Hebrew; 1 WLC occurrence] Strong: silly, foolish; hence (morally) impious
+  - אוּלָם (ʾûlām) N 'porch' [H197; Hebrew; 34 WLC occurrences] Strong: a vestibule (as bound to the building)
+  - אִוֶּ֫לֶת (ʾiwwelet) N 'folly' [H200; Hebrew; 25 WLC occurrences] Strong: silliness
+  - אַ֫יִל (ʾayil) N 'leader' [H352c; Hebrew; 3 WLC occurrences] Strong: properly, strength; hence, anything strong; specifically a chief (politically); also a ram (from his strength); a pilaster (as a strong support); an oak or other strong tree
+  - אַ֫יִל (ʾayil) N 'terebinth' [H352d; Hebrew; 3 WLC occurrences] Strong: properly, strength; hence, anything strong; specifically a chief (politically); also a ram (from his strength); a pilaster (as a strong support); an oak or other strong tree
+  - אַ֫יִל (ʾayil) N 'projecting pillar' [H352b; Hebrew; 22 WLC occurrences] Strong: properly, strength; hence, anything strong; specifically a chief (politically); also a ram (from his strength); a pilaster (as a strong support); an oak or other strong tree
+  - אַ֫יִל (ʾayil) N 'ram' [H352a; Hebrew; 156 WLC occurrences] Strong: properly, strength; hence, anything strong; specifically a chief (politically); also a ram (from his strength); a pilaster (as a strong support); an oak or other strong tree
+  - אַיָּל (ʾayyāl) N 'hart' [H354; Hebrew; 11 WLC occurrences] Strong: a stag or male deer
+  - אַיָּלָה (ʾayyālâ) N 'hind' [H355; Hebrew; 8 WLC occurrences] Strong: a doe or female deer
+  - אֵילָם (ʾêlām) N 'porch' [H361; Hebrew; 15 WLC occurrences] Strong: a pillar-space (or colonnade), i.e. a pale (or portico)
+  - אַיֶּלֶת (ʾayyelet) N 'hind' [H365; Hebrew; 3 WLC occurrences] Strong: a doe
+  - אֵלָה (ʾēlâ) N 'terebinth' [H424; Hebrew; 13 WLC occurrences] Strong: an oak or other strong tree
+  - אֵלוֹן (ʾēlôn) N 'terebinth' [H436; Hebrew; 9 WLC occurrences] Strong: an oak or other strong tree
+* Aramaic אול (ء→א و→ו ل→ל): sound correspondence only (unverified); 6 WLC occurrences; `hebrew.py root אול` lists them
+  - אִילָן (ʾîlān) N 'tree' [H363; Aramaic; 6 WLC occurrences] Strong: a tree
+* Aramaic אל (ء→א و→ו ل→ל): sound correspondence only (unverified); 5 WLC occurrences; `hebrew.py root אל` lists them
+  - אֵל (ʾēl) Pd 'these' [H412; Aramaic; 1 WLC occurrence]
+  - אַל (ʾal) D 'do not' [H409; Aramaic; 4 WLC occurrences]
+* Hebrew איל (ء→א و→י ل→ל): sound correspondence only (unverified); 2 WLC occurrences; `hebrew.py root איל` lists them
+  - אֱיָל (ʾĕyāl) N 'help' [H353; Hebrew; 1 WLC occurrence] Strong: strength
+  - אֱיָלוּת (ʾĕyālût) N 'power' [H360; Hebrew; 1 WLC occurrence] Strong: power; by implication, protection
+
+=== COMMENTARY ===
+
+## Söz yeni değil: vurgu ve "bu"
+
+[¶1] On sekizinci ayet kısa bir hükümdür: {ar:إِنَّ هَٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ, tr:inne hâzâ le-fi's-suhufi'l-ûlâ, gloss:bu, elbette ilk sayfalarda vardır, source:87:18}. Cümle iki kez pekiştirilmiştir. Başta "inne" (şüphesiz) vardır, haberin önünde de "le" (elbette) durur. Arapçada bu çift vurgu, karşısında bir kuşku ya da itiraz sezilen söze uyar. Kuşkunun nereden geldiğini bir önceki iki ayet gösterir. Konuşma orada birden dinleyenlere döner: {ar:بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا, tr:bel tu'sirûne'l-hayâte'd-dunyâ, gloss:hayır, siz dünya hayatını öne koyuyorsunuz, source:87:16}, {ar:وَٱلْءَاخِرَةُ خَيْرٌۭ وَأَبْقَىٰٓ, tr:ve'l-âhiratu hayrun ve ebkâ, gloss:oysa ahiret daha hayırlı ve daha kalıcıdır, source:87:17}. Yakın hayatı öne koyan birine "sonra gelen daha iyidir" denince ilk cevabı bellidir: Bu yeni bir laftır, bu adamın kendi sözüdür. Ayet bu cevabı daha söylenmeden karşılar. Söz yeni değildir, en eski sayfalarda yazılıdır. Ardından gelen son ayet de bu sayfaların kime verildiğini söyler: {ar:صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ, tr:suhufi ibrâhîme ve mûsâ, gloss:İbrahim'in ve Musa'nın sayfaları, source:87:19}.
+
+[¶2] "Hâzâ" (bu) yakındakini gösterir, az önce söylenmiş olanı işaret eder. En yakında duran söz on dördüncü ayetten on yedinci ayete kadar uzanır: {ar:قَدْ أَفْلَحَ مَن تَزَكَّىٰ, tr:kad efleha men tezekkâ, gloss:kendini arıtan kurtuldu, source:87:14}, Rabbinin adını anıp namaz kılan kişi, dünyayı öne koyanlar ve daha hayırlı, daha kalıcı olan ahiret. İşaret bütün sureyi de kapsayabilir, dil buna da izin verir. Ama Kur'an aynı sayfaların içinden başka bir yerde de cümleler aktarır ve bu cümleler en yakın okumayı destekler. Necm suresinde Kur'an yüz çeviren birini gösterir: {ar:أَفَرَءَيْتَ ٱلَّذِى تَوَلَّىٰ, tr:e-fe-raeyte'llezî tevellâ, gloss:yüz çevireni gördün mü, source:53:33}, {ar:وَأَعْطَىٰ قَلِيلًۭا وَأَكْدَىٰٓ, tr:ve a'tâ kalîlen ve ekdâ, gloss:azıcık verdi, sonra elini kesti, source:53:34}. Sonra sorar: {ar:أَمْ لَمْ يُنَبَّأْ بِمَا فِى صُحُفِ مُوسَىٰ, tr:em lem yunebbe' bi-mâ fî suhufi mûsâ, gloss:yoksa Musa'nın sayfalarında olan ona haber verilmedi mi, source:53:36}, {ar:وَإِبْرَٰهِيمَ ٱلَّذِى وَفَّىٰٓ, tr:ve ibrâhîme'llezî veffâ, gloss:ve sözünü tam yerine getiren İbrahim'in sayfalarında olan, source:53:37}. Sayfaların söylediği de arkasından gelir: {ar:أَلَّا تَزِرُ وَازِرَةٌۭ وِزْرَ أُخْرَىٰ, tr:ellâ teziru vâziratun vizra uhrâ, gloss:hiçbir yük taşıyan başkasının yükünü taşımaz, source:53:38}, {ar:وَأَن لَّيْسَ لِلْإِنسَٰنِ إِلَّا مَا سَعَىٰ, tr:ve en leyse li'l-insâni illâ mâ se'â, gloss:insana kendi çabasından başkası yoktur, source:53:39}, {ar:وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ, tr:ve enne sa'yehû sevfe yurâ, gloss:çabası da ileride görülecektir, source:53:40}, {ar:وَأَنَّ إِلَىٰ رَبِّكَ ٱلْمُنتَهَىٰ, tr:ve enne ilâ rabbike'l-muntehâ, gloss:varış Rabbinedir, source:53:42}.
+
+[¶3] Bu cümleler surenin son bölümüyle aynı şeyi söyler. On dördüncü ayetteki arınma dönüşlü bir fiille anlatılır: Kişi kendini arıtır, başkası onu arıtmaz. Necm'deki sayfalar da kimsenin başkasının yükünü taşımadığını söyler. Ahiretin daha kalıcı olması, varışın Rabbe olmasının öbür yüzüdür. İki yerde de sayfalar sırt çeviren birine karşı tanık olarak çağrılır. Necm'de bu kişi yüz çevirir. Burada da en bedbaht olan öğütten uzak durur: {ar:وَيَتَجَنَّبُهَا ٱلْأَشْقَى, tr:ve yetecennebuhe'l-eşkâ, gloss:en bedbaht olan ondan kaçınır, source:87:11}.
+
+[¶4] Kur'an bu cümle kalıbını kendisi için de kullanır. Şuara suresinde Kur'an'ın Âlemlerin Rabbinin indirdiği söz olduğu söylenir. Onu güvenilir ruhun Peygamber'in kalbine apaçık bir Arapçayla indirdiği anlatılır. Ardından şu gelir: {ar:وَإِنَّهُۥ لَفِى زُبُرِ ٱلْأَوَّلِينَ, tr:ve innehû le-fî zuburi'l-evvelîn, gloss:o, elbette öncekilerin yazılarında da vardır, source:26:196}. Cümlenin iskeleti burada da aynıdır: vurgu, "le", "içinde" ve "ilkler". Sonraki ayet bunun neye yaradığını söyler: {ar:أَوَلَمْ يَكُن لَّهُمْ ءَايَةً أَن يَعْلَمَهُۥ عُلَمَٰٓؤُا۟ بَنِىٓ إِسْرَٰٓءِيلَ, tr:e-ve lem yekun lehum âyeten en ya'lemehû ulemâu benî isrâîl, gloss:İsrailoğullarının bilginlerinin onu bilmesi onlar için bir işaret değil mi, source:26:197}. Yeni sözün eski yazıların içinde bulunması onun kimlik belgesidir. Söz kendini yeni bir buluş olarak sunmaz, önceden bilinen bir şeyin dönüşü olarak sunar.
+
+## Sayfa: serilmiş, açık yüzey
+
+[¶5] Ayetteki "suhuf", tek bir "sahîfe"nin çoğuludur. Araplar sahîfe derken üzerine yazı yazılan bir deri parçasını anlardı: {ar:الصحف واحدتها صحيفة وهي القطعة من أدم أبيض أو رق يكتب فيها, tr:es-suhuf vâhidetuhâ sahîfe ve hiye'l-kıt'atu min edemin ebyada ev rakkın yuktebu fîhâ, gloss:suhufun teki sahîfedir, üzerine yazı yazılan ak deri ya da parşömen parçası, source:"ص ح ف,B002"}. Türkçedeki "sayfa" bu kelimeden gelir, ama anlamı daralmıştır. Bugün ciltli bir kitabın numaralı bir yüzü demektir. Arapçadaki sahîfe ise başlı başına bir yazı parçasıdır. Tek başına bir mektup ya da bir belge olabilir ve ciltten önce gelir. Ayetteki "ilk sayfalar" birbirine dikilmiş bir kitabın yaprakları olarak değil, ayrı ayrı yazılmış deri parçaları olarak duyulmalıdır.
+
+[¶6] Kelimenin ailesi bu yaprağın nasıl bir nesne olduğunu da gösterir. Bu aile resimleri ayetteki "yazılı sayfalar" anlamının yanında duyulur, onun yerine geçmez. Kökün temelinde yayılmışlık ve genişlik vardır: {ar:أصل صحيح يدل على انبساط في شيء وسعة, tr:aslun sahîhun yedullu alâ inbisâtin fî şey'in ve se'a, gloss:bir şeydeki yayılmışlığı ve genişliği gösteren sağlam bir kök, source:"ص ح ف,B001"}. Yeryüzünün görünen yüzüne {ar:الصحيف وجه الأرض, tr:es-sahîfu vechu'l-ard, gloss:sahîf yeryüzünün yüzüdür, source:"ص ح ف,B001"} denirdi. İnsan yüzünün derisi de "yüzün sahîfesi" diye anılırdı: {ar:صحيفة الوجه بشرة جلده, tr:sahîfetu'l-vechi beşeratu cildih, gloss:yüzün sahîfesi derisinin dış yüzüdür, source:"ص ح ف,B001"}. Bir başka tanım bu kullanımları birleştirir: {ar:الصحيفة المبسوط من الشيء كصحيفة الوجه, tr:es-sahîfetu'l-mebsûtu mine'ş-şey' ke-sahîfeti'l-vech, gloss:sahîfe, bir şeyin yayılıp serilmiş kısmıdır, yüzün sahîfesi gibi, source:"ص ح ف,B001"}. Yazı yaprağının işi budur. Deri gerilir, düzleştirilir ve üzerine yazılan bir bakışta görünecek biçimde açılır. Katlanmış bir şey değildir. Yüz nasıl taşıdığını gösterirse yaprak da taşıdığını gösterir.
+
+[¶7] Bu resim ayetin iddiasına bir renk katar. Dünyanın değil ahiretin, yakının değil sonrakinin seçilmesi gerektiği gizli bir bilgi olarak saklanmamıştır. En eski zamanlardan beri gerilmiş, açık yüzeylere yazılmıştır. Kur'an başka bir yerde, eksik olanın açık bir yaprak olmadığını da söyler. Müddessir suresinde öğütten kaçan inkârcılar anlatılır: {ar:بَلْ يُرِيدُ كُلُّ ٱمْرِئٍۢ مِّنْهُمْ أَن يُؤْتَىٰ صُحُفًۭا مُّنَشَّرَةًۭ, tr:bel yurîdu kullu'mriin minhum en yu'tâ suhufen muneşşera, gloss:hayır, her biri kendisine açılıp serilmiş sayfalar verilmesini istiyor, source:74:52}. Cevap hemen gelir: {ar:كَلَّا ۖ بَل لَّا يَخَافُونَ ٱلْءَاخِرَةَ, tr:kellâ bel lâ yehâfûne'l-âhira, gloss:hayır, onlar ahiretten korkmuyorlar, source:74:53}. Sonra: {ar:كَلَّآ إِنَّهُۥ تَذْكِرَةٌۭ, tr:kellâ innehû tezkira, gloss:hayır, bu bir öğüttür, source:74:54}, {ar:فَمَن شَآءَ ذَكَرَهُۥ, tr:fe-men şâe zekerah, gloss:dileyen onu anar, source:74:55}. Açık yapraklar zaten vardır. Eksik olan korkudur. Bu sure de aynı şeyi söyler: {ar:سَيَذَّكَّرُ مَن يَخْشَىٰ, tr:se-yezzekkeru men yahşâ, gloss:içi titreyen öğüt alacak, source:87:10}. Yeni bir yaprak istemek, eski yaprakların açıklığından kaçmanın bir yoludur.
+
+[¶8] Ayetteki kelime çoğuldur: İki peygamberin birçok yaprağı. Bir araya toplanmış yapraklara "mushaf" denirdi: {ar:المصحف لأنه صحف جمعت, tr:el-mushafu li-ennehû suhufun cumi'at, gloss:mushafa bu ad verilir çünkü o, toplanmış sayfalardır, source:"ص ح ف,B003"}. Ayet yaprakları bir cilt içinde toplamaz, onları dağınık ve eski haliyle anar. Bu dağınık yaprakları bir araya getiren şey, altıncı ayetteki "okutacağız" fiilinin toplamayla kurduğu sahnedir. Surenin okumayla sayfa arasında kurduğu bu bağ o ayetin kelimeleriyle taşınır.
+
+## Sayfaya bakmadan okunan sayfalar
+
+[¶9] Ayetin kurduğu durumda ince bir nokta vardır. Söz sayfalardadır, ama Peygamber'in eline bir sayfa verilmez. Ona verilen şey okutmadır: {ar:سَنُقْرِئُكَ فَلَا تَنسَىٰٓ, tr:se-nukriuke fe-lâ tensâ, gloss:sana okutacağız, sen de unutmayacaksın, source:87:6}. Kur'an bu ayrımı başka bir yerde açıkça yapar. Ankebut suresinde Allah Peygamber'e şöyle der: {ar:وَمَا كُنتَ تَتْلُوا۟ مِن قَبْلِهِۦ مِن كِتَٰبٍۢ وَلَا تَخُطُّهُۥ بِيَمِينِكَ ۖ إِذًۭا لَّٱرْتَابَ ٱلْمُبْطِلُونَ, tr:ve mâ kunte tetlû min kablihî min kitâbin ve lâ tehuttuhû bi-yemînik izen le'rtâbe'l-mubtilûn, gloss:sen bundan önce hiçbir kitap okumuyordun, onu sağ elinle de yazmıyordun; öyle olsaydı batıla sapanlar şüpheye düşerdi, source:29:48}. Eski sayfalardaki söz Peygamber'e sayfalardan okunarak ulaşmaz, işitilerek ulaşır. "İlk sayfalarda vardır" cümlesinin tanıklık gücü de buradan gelir. Sayfaları okumamış birinin ağzından sayfalardaki söz çıkmaktadır.
+
+[¶10] Beyyine suresi bu durumu tek bir cümleye sığdırır. Ehl-i kitaptan ve müşriklerden inkâr edenlerin açık bir delil gelinceye kadar yerlerinden ayrılmayacakları söylenir: {ar:لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ, tr:lem yekuni'llezîne keferû min ehli'l-kitâbi ve'l-muşrikîne munfekkîne hattâ te'tiyehumu'l-beyyine, gloss:ehl-i kitaptan ve müşriklerden inkâr edenler, açık delil kendilerine gelinceye kadar ayrılacak değillerdi, source:98:1}. Açık delilin ne olduğu da söylenir: {ar:رَسُولٌۭ مِّنَ ٱللَّهِ يَتْلُوا۟ صُحُفًۭا مُّطَهَّرَةًۭ, tr:rasûlun mina'llâhi yetlû suhufen mutahhara, gloss:Allah'tan bir elçi, arınmış sayfalar okuyor, source:98:2}, {ar:فِيهَا كُتُبٌۭ قَيِّمَةٌۭ, tr:fîhâ kutubun kayyime, gloss:içlerinde dosdoğru yazılar var, source:98:3}. Elçi sayfaları okur, ama okunan sayfalar onun sesindedir. Sayfaların dışarıdaki bir arşivde değil, okuyuşun içinde bulunduğu bir durumdur bu. Bu surede sayfalar ayetin sonunda anılır, okutma ise altıncı ayette. Bu ikisi aynı olayın iki ucudur: Allah'ın okuttuğu söz, ilk yaprakların içeriğini sesle yeniden ortaya koyar.
+
+## Taha'nın sonunda aynı yol
+
+[¶11] Kur'an'da "ilk sayfalar" ifadesi bir yerde daha geçer ve orada da bu surenin yolu adım adım tekrarlanır. Taha suresinin sonunda Allah Peygamber'e inkârcıların sözlerine sabretmesini ve tesbih etmesini söyler: {ar:فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ, tr:fasbir alâ mâ yekûlûne ve sebbih bi-hamdi rabbik, gloss:söylediklerine sabret ve Rabbini överek tesbih et, source:20:130}. Bu, surenin ilk ayetindeki emirdir. Sonra dünya hayatının çiçeğine göz dikmemesi istenir ve şöyle denir: {ar:وَرِزْقُ رَبِّكَ خَيْرٌۭ وَأَبْقَىٰ, tr:ve rızku rabbike hayrun ve ebkâ, gloss:Rabbinin rızkı daha hayırlı ve daha kalıcıdır, source:20:131}. Bu, on altıncı ve on yedinci ayetlerin karşıtlığıdır ve hatta aynı iki kelimeyle söylenir. Ardından namaz gelir: {ar:وَأْمُرْ أَهْلَكَ بِٱلصَّلَوٰةِ وَٱصْطَبِرْ عَلَيْهَا, tr:ve'mur ehleke bi's-salâti vastabir aleyhâ, gloss:ailene namazı emret ve ona sabırla devam et, source:20:132}. Bu da on beşinci ayetteki namazdır. Aynı ayet {ar:وَٱلْعَٰقِبَةُ لِلتَّقْوَىٰ, tr:ve'l-âkıbetu li't-takvâ, gloss:sonuç sakınanındır, source:20:132} diye biter. En sonda inkârcıların itirazı ve cevabı yer alır: {ar:وَقَالُوا۟ لَوْلَا يَأْتِينَا بِـَٔايَةٍۢ مِّن رَّبِّهِۦٓ ۚ أَوَلَمْ تَأْتِهِم بَيِّنَةُ مَا فِى ٱلصُّحُفِ ٱلْأُولَىٰ, tr:ve kâlû levlâ ye'tînâ bi-âyetin min rabbih e-ve lem te'tihim beyyinetu mâ fi's-suhufi'l-ûlâ, gloss:"Bize Rabbinden bir işaret getirse ya!" dediler; ilk sayfalarda olanın açık delili onlara gelmedi mi, source:20:133}.
+
+[¶12] İki surede sıra aynıdır: tesbih, dünyanın çekiciliği, "daha hayırlı ve daha kalıcı", namaz ve ilk sayfalar. Bu, ayetin rastgele bir dipnot olmadığını gösterir. İlk sayfaları anmak, bu öğretinin kapanış mührüdür. Taha'da itirazın biçimi de açıkça görülür. İnkârcılar bir işaret ister, cevap ise işaretin zaten geldiğidir. Onlara gelen sözün kendisi, ilk sayfalarda olanın açık delilidir. Bu surenin vurgulu cümlesi de aynı işi görür. Dinleyeni sayfaları aramaya göndermez, işittiği sözün o sayfaların sözü olduğunu söyler.
+
+## İlk olan sonu taşır
+
+[¶13] "Ûlâ", "evvel" (ilk) kelimesinin dişil biçimidir ve burada dişil çoğul "suhuf"a uyar. Kelimenin kökü bir şeyin başlangıcını adlandırır: {ar:الأول وهو مبتدأ الشيء, tr:el-evvelu ve huve mubtedeu'ş-şey', gloss:evvel bir şeyin başlangıcıdır, source:"ء و ل,B001"}. Araplar sürünün önüne geçen deveye de bu kelimeyle ad verirdi: {ar:ناقة أولة وجمل أول إذا تقدما الإبل, tr:nâkatun evveletun ve cemelun evvelu izâ tekaddeme'l-ibil, gloss:develerin önüne geçen dişiye "evvele", erkeğe "evvel" denir, source:"ء و ل,B001"}. Öndeki deve yolu açar, sürü onun izinden yürür. İlk sayfalar da böyle önde yürür ve sonraki söz onların açtığı izden gelir. On altıncı ve on yedinci ayetlerin kelimeleri yakın olanla en arkada geleni bir yürüyüş dizisine yerleştirir. Surenin bu sahnesinde on sekizinci ayetin "ilk" kelimesi dizinin önünü tutar.
+
+[¶14] Ama bu kelimenin asıl şaşırtıcı yanı Kur'an'daki eşindedir. Kur'an'da "ûlâ" çoğu zaman "âhire"nin karşısında, ilk hayatın, yani bu dünyanın adı olarak durur. Duhâ suresinde Allah kuşluk vaktine ve geceye yemin eder, Peygamber'e Rabbinin onu bırakmadığını söyler ve şunu ekler: {ar:وَلَلْءَاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ, tr:ve le'l-âhiratu hayrun leke mine'l-ûlâ, gloss:sonraki senin için öncekinden elbette daha hayırlıdır, source:93:4}. Necm suresinde {ar:فَلِلَّهِ ٱلْءَاخِرَةُ وَٱلْأُولَىٰ, tr:fe-lillâhi'l-âhiratu ve'l-ûlâ, gloss:son da ilk de Allah'ındır, source:53:25} denir. Kasas suresinde {ar:لَهُ ٱلْحَمْدُ فِى ٱلْأُولَىٰ وَٱلْءَاخِرَةِ, tr:lehu'l-hamdu fi'l-ûlâ ve'l-âhira, gloss:ilkte de sonda da övgü onundur, source:28:70} denir. Bu surede ise on yedinci ayet "âhire" ile başlar ve hemen sonraki ayet "ûlâ" ile biter. Kur'an'ı duyan bir kulak bu çiftin iki kelimesini art arda işitir. Ama "ûlâ" bu kez dünya hayatı anlamına gelmez, en eski yazıları niteler. Başka yerlerde ahiretin karşısına konan kelime burada ahireti savunan tanığın sıfatı olur. En eskiye ait olan, sona ait olanın daha hayırlı olduğunu söyler. Bir kelimenin anlamı değişmemiştir. Değişen, ilk olanın hangi tarafta durduğudur.
+
+[¶15] Aynı kök harfleri, başlangıcın yanında dönüşü ve varılan sonu da taşır. Bu da ayetteki "ilk" anlamının yanında duyulan bir resimdir. {ar:آل يؤول أى رجع, tr:âle ye'ûlu ey raca', gloss:geri döndü, source:"ء و ل,B002"} denirdi. Sözün "te'vîl"i ise onun sonu ve vardığı yerdir: {ar:تأويل الكلام وهو عاقبته وما يؤول إليه, tr:te'vîlu'l-kelâmi ve huve âkıbetuhû ve mâ ye'ûlu ileyh, gloss:sözün te'vîli onun sonucu ve vardığı yerdir, source:"ء و ل,B002"}. Bir başka ifade bunu daha da kısa söyler: {ar:التأويل المرجع والمصير, tr:et-te'vîlu'l-merci'u ve'l-masîr, gloss:te'vîl dönülen yer ve varılan sondur, source:"ء و ل,B002"}. Taha'da ilk sayfalar anılmadan hemen önce "sonuç sakınanındır" denmesi bu bağı Kur'an'ın içinde de görünür kılar. İlk sayfaların içeriği tam da bir sonu haber verir: Necm'deki dizinin varış noktası, varışın Rabbe olmasıdır. İlk yazılan şey, her şeyin döneceği yeri söylemiştir.
+
+[¶16] Bundan bir şey daha çıkar. On yedinci ayet ahiretin "daha kalıcı" olduğunu söyler. On sekizinci ayet ise bu sözün kendisinin de kalıcı olduğunu gösterir. Söz en eski yapraklardan Peygamber'in okuyuşuna kadar ayakta kalmıştır. Dünya hayatı geçer, ama kalıcı olanı anlatan söz geçmemiştir. İddia kendi süresiyle kendini doğrular.
+
+## Musa'nın cevabı: ilkler unutulmaz
+
+[¶17] Son ayette sayfaları anılan Musa, Kur'an'da bu surenin sözlerini neredeyse kendi ağzıyla söyler. Taha suresinde Firavun Musa'ya ve kardeşine {ar:فَمَن رَّبُّكُمَا يَٰمُوسَىٰ, tr:fe-men rabbukumâ yâ mûsâ, gloss:Rabbiniz kim, ey Musa, source:20:49} diye sorar. Musa şöyle cevap verir: {ar:رَبُّنَا ٱلَّذِىٓ أَعْطَىٰ كُلَّ شَىْءٍ خَلْقَهُۥ ثُمَّ هَدَىٰ, tr:rabbunâ'llezî a'tâ kulle şey'in halkahû summe hedâ, gloss:Rabbimiz, her şeye yaratılışını veren, sonra yol gösterendir, source:20:50}. Bu, surenin açılışındaki {ar:ٱلَّذِى خَلَقَ فَسَوَّىٰ, tr:ellezî haleka fe-sevvâ, gloss:yaratıp düzenleyen, source:87:2} ve {ar:وَٱلَّذِى قَدَّرَ فَهَدَىٰ, tr:ve'llezî kaddera fe-hedâ, gloss:ölçüp yol gösteren, source:87:3} ayetlerinin iki adımıdır: yaratmak ve yol göstermek. Firavun'un ikinci sorusu bu ayetin kelimesiyle gelir: {ar:قَالَ فَمَا بَالُ ٱلْقُرُونِ ٱلْأُولَىٰ, tr:kâle fe-mâ bâlu'l-kurûni'l-ûlâ, gloss:o halde ilk nesillerin durumu ne olacak, source:20:51}. Musa'nın cevabı şudur: {ar:قَالَ عِلْمُهَا عِندَ رَبِّى فِى كِتَٰبٍۢ ۖ لَّا يَضِلُّ رَبِّى وَلَا يَنسَى, tr:kâle ilmuhâ inde rabbî fî kitâb lâ yadillu rabbî ve lâ yensâ, gloss:onların bilgisi Rabbimin katında bir kitaptadır; Rabbim ne şaşırır ne unutur, source:20:52}.
+
+[¶18] Bu kısa konuşmada ayetin bütün unsurları bir aradadır: "ilk" olanlar, yazılı bir kitap ve unutmayan bir Rab. Firavun'un sorusu bir küçümsemedir. Geçip gitmiş eski nesillerden ne kalmıştır ki? Musa'nın cevabı, ilk olanın kaybolmadığıdır, çünkü yazıldığı yerde unutulmaz. Bu sure de aynı güvenceyi iki kez verir. Altıncı ayette Peygamber'e "unutmayacaksın" denir. On sekizinci ayette en eski sözün hâlâ yerinde durduğu söylenir. İlk nesillerin bilgisi Rabbin katındaki kitapta korunur. İlk sayfaların sözü de okutulan Kur'an'da korunur. İkisinde de "ilk" kelimesi geçmişte kalmış ve unutulmuş bir şeyi değil, korunmuş ve geri getirilmiş bir şeyi anlatır.

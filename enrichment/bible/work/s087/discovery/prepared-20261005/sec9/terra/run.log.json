@@ -1,0 +1,1329 @@
+{
+  "target": "sec9",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:21:55.040803-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec9_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "f87f388ba469a501508e81b4bc7f1b805ba9acf7e6f73e6164dd1191743b045f",
+  "package_sha256": "d15a8c130446a6e8e166877ab74585b05a5cefa9ee24a0c792f5e3601e00c5c6",
+  "input_sha256": "dd9d89feaf650e39cc1ae8b9bf435b1e3a6a46ccde7f526d4c3274c152e96443",
+  "spawn_sha256": "687beeafdf8afb9818cd029b79663b8b5afc45e892e90b0d434fa61a65f687d2",
+  "followup_text_sha256": "bafb19c112e9be91f4593b6b72bd6bd77b10f190a6cdcc81a4ddc063dbe4edd0",
+  "agent_id": "01a10d19-8407-7a23-931c-3a33f7c82f46",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-25-38-01a10d19-8407-7a23-931c-3a33f7c82f46.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 59,
+  "turn1_sha256": "79f3506fe9e25078d364764d64fe836768eb28001aa118aff485564a9c0a7f93",
+  "turn2": {
+    "completed": true,
+    "rows_total": 95,
+    "rows_added": 36
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 59,
+    "raw_proposal_rows": 36,
+    "unique_additions": 36,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.9.6",
+          "basis": "death sought but cannot be found",
+          "note": "Under locust torment people seek death and cannot find it; like the fire-dweller of 87:13, torment continues while the normal exit of death is withheld."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.66.24",
+          "basis": "corpses, undying worm, unquenched fire",
+          "note": "Isaiah calls the rebels corpses, while the worm does not die and the fire is not quenched; that allocation differs from the commentary's conscious fire-inhabitant who is neither dead nor alive."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Targum Jonathan on Isaiah 66:24",
+          "basis": "undying souls in Gehinnom",
+          "note": "The Targum turns Isaiah's corpse-and-fire scene into punishment in Gehinnom in which the sinners' souls do not die, an interpretive move that closely approaches the commentary's deathless fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, City of God 21.3",
+          "basis": "eternal punitive death without extinction",
+          "note": "Augustine argues that the damned can endure punitive death without being annihilated; this gives a Christian account of the continuing, non-living condition the commentary marks in 87:13."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.10",
+          "basis": "fire and sulfur torment",
+          "note": "The beast-worshiper is tormented with fire and sulfur, a concrete New Testament fire-punishment scene beside the commentary's fire where death does not end suffering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.11",
+          "basis": "no rest day or night, smoke forever",
+          "note": "The people under judgment have no rest day or night and their torment's smoke rises forever; this specifically parallels the commentary's exclusion of sleep or a recoverable lapse in the fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.10",
+          "basis": "torment day and night forever",
+          "note": "The devil, beast, and false prophet are tormented day and night for ever and ever, supplying an explicit Christian image of punitive remaining rather than release through death."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.13.5",
+          "basis": "source label م و ت B012; sleep of death",
+          "note": "The psalm asks not to sleep the sleep of death; Hebrew מָוֶת is a genuine cognate of the source label م و ت, and the verse supplies the sleep-as-death figure that the commentary says is unavailable in the fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.2",
+          "basis": "sleepers in dust awaken to enduring fates",
+          "note": "Those sleeping in dust awaken, some to everlasting life and some to disgrace; it makes the commentary's sleep, life, and lasting afterlife distinctions into two final outcomes rather than the suspended state of 87:13."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.11.11",
+          "basis": "sleep and promised awakening",
+          "note": "Jesus calls Lazarus asleep and says that he will awaken him, a recoverable sleep-state set against the commentary's insistence that the fire offers neither sleep nor waking."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.29",
+          "basis": "death when divine breath is withdrawn",
+          "note": "When God takes away creatures' breath, they die and return to dust; this concretizes the commentary's source definition of death as strength or life-force withdrawn from a thing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.30.15",
+          "basis": "source label ح ي ي B013; life and good versus death and evil",
+          "note": "Moses places life and good over against death and evil; Hebrew חַיִּים is cognate with the source label ح ي ي, and the explicit life/good pairing closely supports the commentary's secondary definition of life as benefit and goodness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.34.13",
+          "basis": "source label ح ي ي B013; desiring life and seeing good",
+          "note": "The psalm joins desiring life with loving days in order to see good; its Hebrew life-word is cognate with ح ي ي and gives a precise biblical analogue to the commentary's life/good connection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.19",
+          "basis": "future treasure and the life that is truly life",
+          "note": "Generous use of wealth lays a foundation for the future so that one may grasp \"the life that is truly life\"; it is a pointed counterpart to choosing near worldly life over the enduring real life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.6.27",
+          "basis": "perishing food and food enduring to eternal life",
+          "note": "Jesus contrasts food that perishes with food that endures to eternal life, directly framing a present material pursuit against an abiding life as the commentary does in 87:16-17."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.2.17",
+          "basis": "world passes away, God-doer abides forever",
+          "note": "The world and its desire are passing away, while the one who does God's will abides forever; this is a close formulation of transient worldly life against lasting life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.13.14",
+          "basis": "no enduring city here, one to come",
+          "note": "Believers have no lasting city here but seek the city to come, making the commentary's near-life and abiding-hereafter contrast spatial and communal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.18",
+          "basis": "seen temporary, unseen eternal",
+          "note": "The seen is temporary and the unseen eternal; its explicit temporal-eternal contrast supplies the evaluative frame of \"better and more enduring\" in 87:17."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "Mishnah Avot 4:17",
+          "basis": "one hour in this world and one hour in the world to come",
+          "note": "Avot says both that repentance and good deeds in this world outweigh all life in the world to come and that one hour of bliss there outweighs all life here; its two-sided valuation complicates a simple worldly-life versus afterlife ranking."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.25",
+          "basis": "good things in lifetime, anguish after death",
+          "note": "Abraham contrasts the rich man's good things in his lifetime with his present anguish and Lazarus's comfort; the story concretely tests the commentary's claim that preferring the near life ends in a radically different final condition."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "2 Maccabees 7:9",
+          "basis": "tyrant's torture and everlasting renewal of life",
+          "note": "A tortured brother tells the king that the King of the universe will raise the faithful to an everlasting renewal of life; like the commentary's Pharaoh-and-magicians scene, a ruler's bodily threat is answered by appeal to durable divine life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "2 Maccabees 7:14",
+          "basis": "resurrection to life denied to the persecutor",
+          "note": "The martyr tells the king that he will have no resurrection to life, a direct two-fate response to tyrannical violence that sharpens the commentary's contrast between punishment and the purified person's recompense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.3.17",
+          "basis": "faithful people before a king's fiery threat",
+          "note": "The three Judeans tell the king that their God can rescue them from the blazing furnace and from his hand; this supplies a scriptural tyrant, fire, and faithful confession beside Pharaoh's threatened believers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.8.15",
+          "basis": "Egyptian magicians name God's finger while Pharaoh hardens",
+          "note": "Moses' Egyptian magicians identify the plague as God's finger, but Pharaoh remains hard; the shared Moses-magicians-Pharaoh scene differs from the commentary's magicians who openly believe and receive Pharaoh's threat."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:2Tim.3.8",
+          "basis": "Jannes and Jambres oppose Moses",
+          "note": "The letter names Jannes and Jambres as opponents of Moses and compares false teachers to them; this Christian memory of the magicians reverses the commentary's scene of Pharaoh's magicians becoming faithful."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.1.16",
+          "basis": "source label ح ي ي B006; daughters are to be kept alive",
+          "note": "Pharaoh orders the midwives to kill a Hebrew son but let a daughter live; it is the biblical Pharaoh setting that makes the commentary's \"leave your women alive\" formula a concrete survival claim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Num.31.15",
+          "basis": "source label ح ي ي B006; keep every female alive",
+          "note": "Moses asks whether the women have all been kept alive; Hebrew הַחִיִּיתֶם uses the cognate life root and gives a sharply specific biblical use of the source commentary's \"leaving women alive\" sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.45.7",
+          "basis": "source label ب ق ي B003; preserve a remnant and keep alive",
+          "note": "Joseph says God sent him ahead to preserve a remnant and keep the family alive; this joins remaining after threatened extinction to living, precisely the relation developed under the commentary's remaining/sparing branch."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.39",
+          "basis": "God kills and makes alive",
+          "note": "God declares, \"I kill and I make alive\"; this is a direct Hebrew Bible formulation for the commentary's claim that Abraham assigns both death and life to the Lord."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.2.6",
+          "basis": "God kills, makes alive, lowers and raises",
+          "note": "Hannah's hymn says that the Lord kills and makes alive and brings down to Sheol and raises; it gives a fuller scriptural pattern of divine control over the two poles named in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.21",
+          "basis": "Father raises the dead and gives life",
+          "note": "As the Father raises the dead and gives life, so the Son gives life to whom he wishes; this is a direct Christian articulation of death and life as divine acts."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.11.19",
+          "basis": "Abraham expects God to raise the dead",
+          "note": "Hebrews reads Abraham's offering of Isaac through resurrection: he considers God able to raise even from the dead. That interpretation makes the commentary's Abrahamic death-and-life confession into a specific remembered test."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.3.4",
+          "basis": "serpent promises no death",
+          "note": "The serpent tells the woman that she will not surely die; this is the Torah's direct temptation by a denial of death beside the commentary's satanic offer of a tree of immortality."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.3.22",
+          "basis": "tree of life and living forever",
+          "note": "God bars the human from eating the tree of life and living forever; its actual tree-and-everlasting-life scene provides the closest biblical counterpart to the commentary's deceptive tree of immortality."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 2:23",
+          "basis": "humankind created for incorruption",
+          "note": "Wisdom says God created humans for incorruption and made them in the image of divine eternity; it supplies a late Jewish account of true enduring life against the commentary's false promise of permanence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 2:24",
+          "basis": "death enters through the devil's envy",
+          "note": "Wisdom attributes death's entrance into the world to the devil's envy, a direct Jewish development of the Adam-and-tempter relation that illuminates the commentary's satanic lure of immortality."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.4.9",
+          "basis": "the devil offers earthly kingdoms",
+          "note": "The devil offers Jesus all the kingdoms shown to him if Jesus will worship him; this is a Christian temptation scene in which the tempter offers dominion, alongside the commentary's offer of an imperishable kingdom to Adam."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.7.14",
+          "basis": "everlasting dominion that will not pass away",
+          "note": "The Son of Man receives a dominion that is everlasting and will not pass away; it supplies a divinely granted, genuinely imperishable rule in contrast to the commentary's satanic promise of a kingdom that does not wear out."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.47.9",
+          "basis": "water makes everything live where the river goes",
+          "note": "Every living creature lives wherever Ezekiel's eschatological river goes; this is a close prophetic counterpart to the commentary's paradise water that vivifies whatever it reaches."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.1",
+          "basis": "river of water of life in the final paradise",
+          "note": "John's final city contains a river of the water of life flowing from God's throne, a directly corresponding paradise-water image for the commentary's life-giving water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.2",
+          "basis": "tree of life and leaves for healing",
+          "note": "Beside the river stands the tree of life whose leaves heal the nations; it brings the commentary's life-water and immortality-tree images together in the final garden."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.4.14",
+          "basis": "living water wells up to eternal life",
+          "note": "Jesus promises water that becomes a spring welling up to eternal life, making life-giving water an interior and enduring reality rather than merely a garden image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.26.19",
+          "basis": "the dead live, dust-dwellers awake",
+          "note": "Isaiah calls the dead to live and the dust-dwellers to awake and sing; this eschatological reversal is the positive opposite of the commentary's fire where neither death concludes nor life begins."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.11.25",
+          "basis": "one who dies will live",
+          "note": "Jesus identifies himself as resurrection and life and promises life to the believer who dies; it supplies a concise Christian answer to the commentary's contrast between ordinary death and true enduring life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.46",
+          "basis": "eternal punishment and eternal life",
+          "note": "The final judgment divides people between eternal punishment and eternal life; its paired lasting destinies are a direct comparison for the commentary's fire and enduring afterlife."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.8",
+          "basis": "fading grass and the word standing forever",
+          "note": "Grass withers and the flower fades, but God's word stands forever; this concrete transient/enduring contrast supports the commentary's evaluation of the near life against what remains."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.3.21",
+          "basis": "people longing for death do not find it",
+          "note": "Job describes sufferers who long for death but cannot find it; although it is not a fire judgment, it gives a specific suffering-and-unavailable-death analogue to the commentary's secondary Qur'anic comparison."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.8.36",
+          "basis": "profit from the world and forfeiting one's life",
+          "note": "Jesus asks what profit there is in gaining the whole world while forfeiting one's life; the profit/life juxtaposition closely engages the commentary's claim that life includes benefit and its warning about choosing the worldly life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.25",
+          "basis": "temporary enjoyment versus suffering with God's people",
+          "note": "Moses chooses mistreatment with God's people over the temporary enjoyment of sin, a Pharaoh-linked Christian reading of a choice between passing advantage and a more durable divine horizon."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.24",
+          "basis": "water requested in flame",
+          "note": "The rich man in flame asks for a drop of water to cool his tongue; it sets a denied water-image inside punitive fire against the commentary's paradise water that confers life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "Mishnah Eduyot 2:10",
+          "basis": "ordinary Gehinnom judgment limited to twelve months",
+          "note": "Mishnah Eduyot limits the ordinary judgment of the wicked in Gehinnom to twelve months; that rabbinic duration qualifies the commentary's image of remaining in fire without death."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 18a",
+          "basis": "righteous called living in death, wicked dead in life",
+          "note": "The rabbinic maxim calls the righteous living even in death and the wicked dead even while alive; it makes life and death moral-spiritual categories, a useful interpretive comparison for the commentary's non-biological definition of life as good and benefit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.21.4",
+          "basis": "death will be no more",
+          "note": "In the final renewed creation death is no more; this is the eschatological antithesis to the commentary's punitive place where death is indefinitely withheld."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.14",
+          "basis": "life as a vapor that appears briefly",
+          "note": "James calls present life a vapor appearing for a little while and vanishing, a concrete Christian account of the brevity implied by the commentary's name for the near life.",
+          "raw_ref": "SBLGNT:James.4.14",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.20",
+          "basis": "treasure in heaven not destroyed",
+          "note": "Jesus directs disciples to treasure in heaven where decay and theft do not destroy; it translates the commentary's contrast between perishable present possession and what remains into a practice of investment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:2Thess.1.9",
+          "basis": "eternal destruction as punishment",
+          "note": "The disobedient suffer \"eternal destruction\" away from the Lord; the wording gives a Christian punitive alternative to 87:13's unusual condition in which the condemned do not die, while leaving the meaning of destruction to be read in its own context."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.3.1",
+          "basis": "reputation of life but actual death",
+          "note": "The Sardis church has a name of being alive but is dead; this non-biological use of life and death concretely parallels the commentary's definition of life by active goodness rather than mere survival."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.20.16",
+          "basis": "not leaving any breathing thing alive",
+          "note": "The ban commands that no breathing thing be left alive, using survival as the opposite of total extirpation; this gives a concrete Hebrew Bible counterpart to the commentary's remaining/sparing sense of life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.4.13",
+          "basis": "believers who sleep and hope beyond grief",
+          "note": "Paul calls the deceased \"those who sleep\" and contrasts believers' grief with those without hope; this Christian death-as-sleep idiom supplies the recoverable horizon that the commentary denies to the fire-dweller."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.9.43",
+          "basis": "entering life versus Gehenna's unquenchable fire",
+          "note": "Jesus contrasts entering life, even maimed, with being cast into Gehenna's unquenchable fire; it directly joins the commentary's two outcomes of real life and fire rather than merely naming punishment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.9.48",
+          "basis": "worm does not die and fire is not quenched",
+          "note": "Mark reapplies the Isaiah image within Jesus' Gehenna teaching: the worm does not die and the fire is not quenched. It supplies a Christian continuation of the deathless, unextinguished fire imagery, while the undying subject remains the worm rather than the punished person."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.10.28",
+          "basis": "body and soul destroyed in Gehenna",
+          "note": "Jesus distinguishes human killing of the body from God's ability to destroy both body and soul in Gehenna; this provides a concrete Christian counter-formula to the commentary's fire in which the condemned do not die."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.21.8",
+          "basis": "lake of fire identified as the second death",
+          "note": "The lake burning with fire and sulfur is called the second death. The identification gives the Christian fire a death-name, in pointed contrast to 87:13's non-dying condition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.14.12",
+          "basis": "death as sleep without awakening",
+          "note": "A human being lies down and does not rise, not waking or being roused from sleep until the heavens are no more; Job supplies the unrecovered sleep/death image whose absence is developed in the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.25.8",
+          "basis": "death swallowed forever and tears wiped away",
+          "note": "God swallows up death forever and wipes tears from faces; this is a prophetic final reversal of the commentary's place where death does not provide release and true life is absent."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.35",
+          "basis": "torture refused for a better resurrection",
+          "note": "Some are tortured and refuse release in order to obtain a better resurrection; this is a direct martyr-and-tyrant counterpart to the commentary's believing magicians facing Pharaoh's violence for a more lasting outcome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.1.23",
+          "basis": "departure to be with Christ is far better",
+          "note": "Paul calls departing to be with Christ \"far better,\" an unusually explicit Christian comparative for the commentary's assertion that the afterlife is better than the near life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.5.1",
+          "basis": "earthly tent and eternal heavenly house",
+          "note": "The earthly tent is contrasted with an eternal house in the heavens not made by hands; the image maps present bodily life and a durable future dwelling onto the commentary's transient/enduring division."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.5.4",
+          "basis": "mortality swallowed up by life",
+          "note": "Paul says that what is mortal may be swallowed up by life, a concise Christian expression of life overcoming mortality that illuminates the commentary's definition of true life as permanence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.42",
+          "basis": "perishable body raised imperishable",
+          "note": "Resurrection is sown perishable and raised imperishable; it gives a bodily account of the enduring life set over against death in the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.24",
+          "basis": "passing from death into life",
+          "note": "The believer has passed from death into life and does not come into judgment, a compact Johannine two-destiny formulation beside 87:13's denied life in punishment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.2.7",
+          "basis": "tree of life in God's paradise",
+          "note": "The conqueror is granted food from the tree of life in God's paradise; this is a final Christian counterpart to the commentary's tree of immortality and its distinction between deceptive and true permanence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "waters of life and tears removed",
+          "note": "The Lamb guides the redeemed to springs of waters of life and God wipes every tear; it combines the commentary's paradise water that gives life with an eschatological relief opposite fire-torment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.21.6",
+          "basis": "water of life given freely to the thirsty",
+          "note": "God gives the thirsty person water from the spring of life without payment; it is a direct final-life-water analogue to the commentary's revivifying water in paradise."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.36.10",
+          "basis": "fountain of life with God",
+          "note": "The psalm calls God's presence the fountain of life; it offers a Hebrew poetic precursor for the commentary's link between life, a divine source, and life-giving water."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.14.8",
+          "basis": "living waters flow in every season",
+          "note": "Living waters flow from Jerusalem both in summer and winter, an eschatological water image whose ongoing flow is a close counterpart to the commentary's paradise water and abiding life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.37.14",
+          "basis": "God's Spirit put within the dead so they live",
+          "note": "God promises to put his spirit within the restored people so that they live; this specifies divine reanimation by a life-giving force, the positive opposite of the fire's absence of life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 3:4",
+          "basis": "hope full of immortality despite apparent punishment",
+          "note": "Though the righteous seem punished in human sight, their hope is full of immortality; this late Jewish reversal of apparent death and suffering closely complements the commentary's true, enduring life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "4 Ezra 7:36",
+          "basis": "furnace of Gehenna opposite paradise of delight",
+          "note": "4 Ezra displays the furnace of Gehenna opposite the place of rest and paradise of delight, a Jewish apocalyptic pairing that makes the commentary's fire and true-life alternatives into adjacent final scenes."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 4:16",
+          "basis": "this world as corridor before the world to come",
+          "note": "Avot calls this world a corridor before the world to come and urges preparation here; its spatial-temporal image closely frames the commentary's near worldly life as preparatory rather than abiding."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 17a",
+          "basis": "world to come without bodily needs, righteous enjoy divine splendor",
+          "note": "The rabbinic description removes eating, drinking, and other bodily satisfactions from the world to come while the righteous enjoy divine splendor; it offers a specific Jewish construal of the commentary's true life as more than ordinary worldly vitality."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Tertullian, Apology 48",
+          "basis": "eternal fire that punishes without consuming",
+          "note": "Tertullian's final-judgment account treats eternal fire as ongoing punishment rather than a fire that simply consumes its victims, a patristic counterpart to the commentary's persistent fire; the precise translation should be verified."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.26",
+          "basis": "a fixed chasm prevents passage",
+          "note": "The great chasm between the tormented rich man and Lazarus is fixed so that no one can cross; this continuation of the water-and-fire scene adds the commentary's concern with remaining in a condition without an exit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.26",
+          "basis": "Egyptian riches set against a future reward",
+          "note": "Moses considers reproach greater wealth than Egypt's treasures because he looks to the reward; it separately supplies the Egypt-specific valuation of durable reward over near advantage developed in 87:16-17."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.6.23",
+          "basis": "sin's wage death, God's gift eternal life",
+          "note": "Paul pairs sin's wage of death with God's gift of eternal life, a moral and eschatological life/death contrast that extends the commentary's link between life, goodness, and final outcome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.8",
+          "basis": "sowing to flesh yields corruption, Spirit yields eternal life",
+          "note": "Sowing to the flesh reaps corruption while sowing to the Spirit reaps eternal life; its present choice and later harvest closely match the commentary's worldly preference and enduring consequence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.3.19",
+          "basis": "earthly-minded people have destruction as their end",
+          "note": "Those whose minds are set on earthly things have destruction as their end; this makes the commentary's choice of near life into a concrete moral orientation and eschatological consequence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.3.20",
+          "basis": "heavenly citizenship",
+          "note": "Believers' citizenship is in heaven, giving the alternative to the preceding earthly-minded end a communal home that resonates with the commentary's enduring hereafter."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Eccl.9.5",
+          "basis": "the dead know nothing and have no further reward",
+          "note": "Qohelet says the dead know nothing and no longer have reward; within its under-the-sun argument, this is a sharp Hebrew Bible counterpoint to the commentary's afterlife as the locus of true life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.38.19",
+          "basis": "the living thank God",
+          "note": "Hezekiah says that the living, the living give thanks to God; it makes active grateful goodness a mark of life, supporting the commentary's claim that bare survival without benefit or good is not life in the full sense."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.4",
+          "basis": "riches do not profit on the day of wrath",
+          "note": "Riches do not profit on the day of wrath, while righteousness delivers from death; the proverb joins the commentary's benefit-language to a final reckoning that defeats merely worldly acquisition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.12.28",
+          "basis": "righteous path is life and has no death",
+          "note": "The path of righteousness is life and its way has no death; this ethical use of life gives a precise Hebrew counterpart to the commentary's definition of life through good."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.14.27",
+          "basis": "fear of God as a fountain of life",
+          "note": "The fear of the Lord is a fountain of life that turns one from death's snares; it gives an ethical-metaphorical use of life-water, distinct from the commentary's paradise-water image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Sanhedrin 10:1",
+          "basis": "shares and exclusions in the world to come",
+          "note": "The mishnah grants all Israel a share in the world to come while listing exclusions; it gives a Jewish interpretive map of who receives enduring future life, relevant to the commentary's final division without claiming the same criteria."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Hos.13.14",
+          "basis": "Sheol and death in a disputed redemption formula",
+          "note": "Hosea speaks of ransoming from Sheol and redeeming from death, but the grammar and immediate judgment context make its force disputed; its later life-over-death reception remains a cautious counterpart to the commentary's final death/life contrast."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "5678aab5d64e125a04b8be7d3312946d185c64cb907392363b0936bce9509991",
+    "followup_sha256": "5678aab5d64e125a04b8be7d3312946d185c64cb907392363b0936bce9509991"
+  },
+  "consolidation_error": null,
+  "list_sha256": "8f612090471270cb92379d8674bd82fd435389c2c1394cb004cac89423727f0e",
+  "followup_delivery": [
+    {
+      "call_id": "call_9WT6PuqE0cmHXIRVHyy9hjH5",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 306864,
+    "cached_input_tokens": 259584,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22645,
+    "reasoning_output_tokens": 15143,
+    "total_tokens": 329509
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:09:26.422Z",
+  "artifacts": {
+    "started.json": "408648713d4f3eee9faf1c423487d79da577e3d3cbf9d8b518791a4aa73997dc",
+    "input.json": "dd9d89feaf650e39cc1ae8b9bf435b1e3a6a46ccde7f526d4c3274c152e96443",
+    "prompt.md": "f87f388ba469a501508e81b4bc7f1b805ba9acf7e6f73e6164dd1191743b045f",
+    "package.md": "d15a8c130446a6e8e166877ab74585b05a5cefa9ee24a0c792f5e3601e00c5c6",
+    "spawn.md": "687beeafdf8afb9818cd029b79663b8b5afc45e892e90b0d434fa61a65f687d2",
+    "followup.txt": "bafb19c112e9be91f4593b6b72bd6bd77b10f190a6cdcc81a4ddc063dbe4edd0",
+    "turn1.json": "6e506e8b689917d467b7e1d326a6605868350ccfeb14675d6ab0da7fc23f0c55",
+    "turn1.list.tsv": "79f3506fe9e25078d364764d64fe836768eb28001aa118aff485564a9c0a7f93",
+    "followup.tsv": "5678aab5d64e125a04b8be7d3312946d185c64cb907392363b0936bce9509991",
+    "list.tsv": "8f612090471270cb92379d8674bd82fd435389c2c1394cb004cac89423727f0e",
+    "consolidation.json": "62961d10ecac1e5fd4be2df86f8774f34309327af8302490c758149c79672ece",
+    "validation.json": "f6b355e46181434cc8e5daa3ee22adca565cb1ec18eadd7b32f54ad06a87e745",
+    "proposal_validation.json": "192be14a385d2022543bf5f4bc6d4adcbef79ebff4f84063bbee5952648a3bf1",
+    "tool_calls.json": "f3f90ff6a7cee85f86143f9222f2b589c3c0ec4dc430608394333a5a0d273f2f",
+    "session.json": "ca4530ceee46a6001ca573e4db110446ff444f6e8714b262b7f82eceff2b29ad",
+    "session.events.jsonl": "67ec3e9a1b0cf8f5154c958cd17cf962f95e549854432cd1af52a75b201a5f12"
+  }
+}

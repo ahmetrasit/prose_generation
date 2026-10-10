@@ -1,0 +1,94 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec18/luna/list.tsv",
+  "rows": 76,
+  "unique_references": 73,
+  "schema_errors": [
+    "line 20: unknown verse in specified edition: WLC:Deut.29.29"
+  ],
+  "duplicates": [],
+  "strengths": {
+    "strong": 51,
+    "medium": 18,
+    "weak": 7
+  },
+  "findings": [
+    {
+      "line": 8,
+      "ref": "WLC:Exod.3.15",
+      "field": "basis",
+      "language": "Hebrew",
+      "wording": "זֵכֶר",
+      "kind": "wording_review",
+      "variant_matches": [],
+      "matching_neighbours": [],
+      "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+    },
+    {
+      "line": 37,
+      "ref": "Sirach 17:1",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 38,
+      "ref": "Wisdom of Solomon 11:20",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 54,
+      "ref": "Exodus Rabbah 2:5",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 55,
+      "ref": "Genesis Rabbah 38:13",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 56,
+      "ref": "Jubilees 12:1-8",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 59,
+      "ref": "WLC:Deut.30.19",
+      "field": "basis",
+      "language": "Hebrew",
+      "wording": "חַיִּים",
+      "kind": "wording_review",
+      "variant_matches": [],
+      "matching_neighbours": [],
+      "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+    },
+    {
+      "line": 68,
+      "ref": "SBLGNT:Jas.1.10",
+      "raw_ref": "SBLGNT:James.1.10",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    },
+    {
+      "line": 69,
+      "ref": "SBLGNT:Jas.1.11",
+      "raw_ref": "SBLGNT:James.1.11",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    },
+    {
+      "line": 70,
+      "ref": "SBLGNT:Jas.5.7",
+      "raw_ref": "SBLGNT:James.5.7",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

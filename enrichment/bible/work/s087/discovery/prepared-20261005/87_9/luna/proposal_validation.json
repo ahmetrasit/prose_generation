@@ -1,0 +1,85 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_9/luna/followup.tsv",
+  "rows": 76,
+  "unique_references": 74,
+  "schema_errors": [
+    "line 35: unknown verse in specified edition: WLC:2Chron.36.15",
+    "line 36: unknown verse in specified edition: WLC:2Chron.36.16"
+  ],
+  "duplicates": [],
+  "strengths": {
+    "strong": 73,
+    "medium": 3
+  },
+  "findings": [
+    {
+      "line": 7,
+      "ref": "WLC:Ps.105.5",
+      "field": "note",
+      "language": "Hebrew",
+      "wording": "זכר",
+      "kind": "wording_review",
+      "variant_matches": [],
+      "matching_neighbours": [],
+      "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+    },
+    {
+      "line": 29,
+      "ref": "Wisdom of Solomon 16:6",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 30,
+      "ref": "Wisdom of Solomon 16:7",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 39,
+      "ref": "Mishnah Avot 1:1",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 40,
+      "ref": "b. Shabbat 54b",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 48,
+      "ref": "SBLGNT:Jas.5.19",
+      "raw_ref": "SBLGNT:James.5.19",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    },
+    {
+      "line": 49,
+      "ref": "SBLGNT:Jas.5.20",
+      "raw_ref": "SBLGNT:James.5.20",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    },
+    {
+      "line": 64,
+      "ref": "SBLGNT:Jas.2.3",
+      "raw_ref": "SBLGNT:James.2.3",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    },
+    {
+      "line": 65,
+      "ref": "SBLGNT:Jas.2.5",
+      "raw_ref": "SBLGNT:James.2.5",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

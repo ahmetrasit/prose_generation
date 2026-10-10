@@ -1,0 +1,2003 @@
+{
+  "target": "1:3",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/1_3.md",
+  "base_sha256": "fd3f58bbfae19f4063252a581bc841cbd75346adb30ef4b05ea092cc8971790c",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:13:12.256538-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_1_3_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "e80401d30b63511e7067ece8d808809a7078b8c0a2cb773875d8a5029fcf0a0f",
+  "package_sha256": "4425e98aeb0ac441eacdaad4112dcb1744eebe8cbf5779970364e42bfc0b0579",
+  "input_sha256": "964cfb5a70615af27fd88d79d36eaf698c35aaea07905db801107ce36c63ea7c",
+  "spawn_sha256": "73dcf7d6ee19d99eb0efdd19f51dc59d5b93349ef18689acfd4d7d7b6b0342fd",
+  "followup_text_sha256": "b917f5b1a81867f463a7b8b95484cfa605789821dfdc81d511c3d3404e66252f",
+  "agent_id": "01a10ca2-7ed1-7322-ab30-5ebdf9482c0b",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-15-38-01a10ca2-7ed1-7322-ab30-5ebdf9482c0b.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 95,
+  "turn1_sha256": "8433e77a8c24173f5b64bc514eda836eff7233d1a89c84034790148f7ec40453",
+  "turn2": {
+    "completed": true,
+    "rows_total": 146,
+    "rows_added": 51
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_gbnGMHuzB4Wshgn6XDp4BZ9F",
+      "message": "SyntaxError: unterminated string literal (detected at line 1)"
+    }
+  ],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 95,
+    "raw_proposal_rows": 51,
+    "unique_additions": 51,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.49.15",
+          "basis": "maternal compassion and womb",
+          "note": "The commentary labels Arabic ر ح م and develops its B003 womb image; Isaiah uses Hebrew רחם for a mother's compassion toward the child of her womb, then says God will not forget Zion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.43.30",
+          "basis": "compassion for a brother",
+          "note": "The commentary labels Arabic ر ح م and links its B002 family to kinship; Joseph's Hebrew רחמים are stirred for Benjamin, making compassion visible within a sibling bond."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.43.30",
+          "basis": "kinship awakens compassion",
+          "note": "The commentary's B002 connects womb and close kinship; Joseph's compassion is specifically stirred toward his brother Benjamin, showing the family relation the image evokes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.34.6",
+          "basis": "divine name and mercy formula",
+          "note": "After Israel's breach, God identifies himself as compassionate and gracious, slow to anger and abundant in covenant love; this places mercy inside a self-revelation that also anticipates judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.34.6",
+          "basis": "Hebrew רחום",
+          "note": "The commentary labels Arabic ر ح م as the source root; Exodus uses the Hebrew cognate רחום in God's own name formula, alongside grace, patience, and enduring love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.13",
+          "basis": "fatherly compassion",
+          "note": "The commentary's B003 develops the womb as a protected, nurtured child; the psalm compares God's compassion to a father's pity for his children, giving mercy a close family image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.103.13",
+          "basis": "Hebrew ירחם",
+          "note": "The commentary labels Arabic ر ح م as its source root; the psalm's Hebrew ירחם is a cognate used for a father showing compassion to his children."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Jer.31.20",
+          "basis": "compassion for a child",
+          "note": "The commentary's B002 associates the root family with kinship; Jeremiah uses the Hebrew רחם root for God's compassion toward Ephraim, whom he calls a dear son and child."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.2.25",
+          "basis": "name reversed to compassion",
+          "note": "The commentary shows mercy reaching particular recipients; Hosea reverses Lo-ruhamah's rejection into renewed compassion for Israel, making restoration the concrete outcome."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.7.19",
+          "basis": "compassion and forgiveness",
+          "note": "The commentary says mercy reaches its recipient as good; Micah depicts God again showing compassion by subduing guilt and casting sins away."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.78",
+          "basis": "bowels of mercy and dawn",
+          "note": "The commentary's B003 lets womb imagery accompany Rahim; Zechariah calls God's compassion visceral and says it brings the dawn, so mercy is God's prior saving initiative."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "soydas",
+          "ref": "Peshitta, Luke 1:78",
+          "basis": "Syriac rḥm for mercies",
+          "note": "The commentary labels Arabic ر ح م; the Peshitta uses the Syriac cognate rḥm for God's mercies in Zechariah's line, where mercy brings dawn to the people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.79",
+          "basis": "mercy followed by guidance",
+          "note": "The commentary places mercy before the request for a straight path; Zechariah's next line says the dawn guides feet into peace, turning the prior mercy into direction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.15.20",
+          "basis": "compassion before the plea",
+          "note": "The commentary says care comes before the child can ask; the father sees his returning son, is moved with compassion, and runs to him before hearing his request."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.33",
+          "basis": "compassion becomes aid",
+          "note": "The commentary defines mercy as tenderness that must result in good for its recipient; the Samaritan's compassion moves him to treat the wounded stranger and pay for his care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.37",
+          "basis": "mercy defines neighborliness",
+          "note": "The commentary links mercy to concrete good for the weak; Jesus concludes that the neighbor is the person who acted mercifully, making aid rather than status the measure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.2.18",
+          "basis": "Aramaic רחמין",
+          "note": "The commentary labels Arabic ر ح م; Daniel's Aramaic רחמין is a cognate, and Daniel and his friends ask God for mercy to reveal the dream before the king's threat is carried out."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.30.3",
+          "basis": "compassion after exile",
+          "note": "The commentary labels Arabic ر ح م; Deuteronomy uses the Hebrew cognate רחם as God restores the exiles and gathers them after dispersion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Jonah.4.2",
+          "basis": "compassion restrains judgment",
+          "note": "The commentary labels Arabic ر ح م; Jonah repeats the Hebrew רחום formula and resents that God's compassion and patience have spared Nineveh.",
+          "raw_ref": "WLC:Jon.4.2",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.4.2",
+          "basis": "mercy for an enemy city",
+          "note": "The commentary presents mercy as extending beyond a narrow group; Jonah objects that God's compassion has spared Nineveh, making the outsider the test of mercy.",
+          "raw_ref": "WLC:Jon.4.2",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.33.19",
+          "basis": "sovereignly directed mercy",
+          "note": "The commentary holds together mercy that encompasses all and mercy directed to particular recipients; after Moses' request, God says he grants compassion where he chooses."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.33.19",
+          "basis": "Hebrew ורחמתי",
+          "note": "The commentary labels Arabic ر ح م; God's declaration uses the Hebrew cognate רחם for the compassion he freely grants."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:2Sam.24.14",
+          "basis": "compassion amid plague",
+          "note": "The commentary places mercy beside judgment; David chooses to fall into God's hands because God's Hebrew רחמים are many, even as a plague is being decided."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Sam.24.14",
+          "basis": "judgment in merciful hands",
+          "note": "The commentary balances the day of judgment with the merciful character of its owner; David's choice during the plague rests on God's abundant compassion rather than human hands."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.9",
+          "basis": "mercy over all works",
+          "note": "The commentary distinguishes Rahman’s all-encompassing mercy from mercy directed to particular people; the psalm says the Lord is good to all and his compassion is over all he made."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.14",
+          "basis": "support for the fallen",
+          "note": "The commentary describes mercy as an effective good; the psalm's Lord upholds those who fall and raises the bowed, specifying what divine compassion does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.145.8",
+          "basis": "Hebrew רחום",
+          "note": "The commentary labels Arabic ر ح م; the psalm uses the Hebrew cognate רחום in the familiar compassionate, gracious, slow-to-anger formula."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.9.15",
+          "basis": "mercy freely given",
+          "note": "Paul quotes God's declaration to Moses that compassion is granted by divine choice; this reads mercy as sovereign rather than earned, sharpening the commentary's distinction between expansive and directed mercy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.4.31",
+          "basis": "compassion and covenant memory",
+          "note": "The commentary labels Arabic ر ح م; Deuteronomy uses the Hebrew cognate רחום for the God who will not abandon or forget the covenant after Israel's rebellion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.86.15",
+          "basis": "compassionate divine name",
+          "note": "The commentary labels Arabic ر ح م; the psalm uses Hebrew רחום with grace, patience, and abundant covenant love as the worshiper addresses God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.54.8",
+          "basis": "everlasting compassion",
+          "note": "The commentary contrasts overflowing mercy with lasting mercy; Isaiah's Hebrew רחמים names God's enduring compassion after a brief moment of anger."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.30.18",
+          "basis": "compassion after waiting",
+          "note": "The commentary describes Rahim as an abiding quality; Isaiah uses the Hebrew רחם root for the Lord who waits to show compassion and blesses those who wait for him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Hos.2.25",
+          "basis": "Hebrew וְרִחַמְתִּי",
+          "note": "The commentary labels Arabic ر ح م; Hosea's Hebrew וְרִחַמְתִּי is a cognate form, and the naming reversal turns rejection into restored mercy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Lam.3.22",
+          "basis": "compassions do not fail",
+          "note": "The commentary calls Rahim a lasting quality; the Hebrew רחמים in Lamentations names the compassions that keep the afflicted speaker from being consumed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lam.3.23",
+          "basis": "new every morning",
+          "note": "The commentary distinguishes lasting mercy from a single overflow; Lamentations says God's mercies are new each morning, giving continuity a daily rhythm."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.103.8",
+          "basis": "Hebrew רחום",
+          "note": "The commentary labels Arabic ر ح م; the psalm uses Hebrew רחום in a formula joining compassion with grace, patience, and abundant love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.9",
+          "basis": "anger has a limit",
+          "note": "The commentary sets mercy beside judgment; the next psalmic claim says God does not keep anger forever, explaining how compassion alters the duration of punishment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.2.13",
+          "basis": "return because God is merciful",
+          "note": "The commentary puts mercy before the worshiper's request; Joel calls Israel to return because God is compassionate and slow to anger, so the divine character grounds repentance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Joel.2.13",
+          "basis": "Hebrew ורחום",
+          "note": "The commentary labels Arabic ر ح م; Joel uses the Hebrew cognate רחום in the call to return, beside grace, patience, and covenant love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.17",
+          "basis": "mercy after rebellion",
+          "note": "The commentary holds mercy together with judgment; Nehemiah recalls Israel's wilderness rebellion and says God remained forgiving, gracious, compassionate, and slow to anger."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Nah.1.3",
+          "basis": "slow anger with justice",
+          "note": "The commentary warns that mercy is not a softness that cancels accountability; Nahum joins God's slowness to anger to his power and refusal to leave guilt unjudged."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.130.4",
+          "basis": "forgiveness produces reverence",
+          "note": "The commentary says mercy and the judgment day belong together; the psalm says forgiveness with God is what makes reverence possible rather than eliminating it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.51.3",
+          "basis": "mercy requested after sin",
+          "note": "The commentary has mercy named before any request; this penitential prayer reverses the order, asking God for mercy after guilt and grounding the plea in loyal love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.86.5",
+          "basis": "goodness to those who call",
+          "note": "The commentary says the worshiper is addressed by mercy before asking for help; this prayer names God as forgiving and abundant in love toward all who call on him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.68.6",
+          "basis": "father to orphans",
+          "note": "The commentary's B001 defines mercy as a tenderness that does good, especially to the weak; the psalm names God as father to orphans and defender of widows."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.10.18",
+          "basis": "care for the vulnerable",
+          "note": "The commentary says mercy must reach its recipient as an act; Deuteronomy describes God securing justice for the orphan and widow and loving the resident alien with food and clothing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.136.1",
+          "basis": "praise repeats enduring love",
+          "note": "The commentary places the mercy names inside a sentence of praise; this liturgical refrain makes God's goodness and enduring covenant love the repeated reason for thanksgiving."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.66.13",
+          "basis": "motherly comfort",
+          "note": "The commentary's B003 develops the womb as a place of protection and care; Isaiah compares God's comfort of Jerusalem to a mother comforting her child."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.3",
+          "basis": "taught to walk and carried",
+          "note": "The commentary's B003 portrays a child protected and raised before it can ask; Hosea pictures God teaching Ephraim to walk and taking him in the arms."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.4",
+          "basis": "love that feeds and lifts",
+          "note": "The commentary describes nurture as protection and feeding; Hosea depicts God drawing Israel with cords of love, lifting the yoke, and bending down to feed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Mic.7.19",
+          "basis": "Hebrew ירחמנו",
+          "note": "The commentary labels Arabic ر ح م; Micah's Hebrew ירחמנו is a cognate form, used as God again has compassion and removes the people's guilt."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.36",
+          "basis": "compassion when strength fails",
+          "note": "The commentary emphasizes mercy toward the weak; in the song of judgment, God has compassion on his servants when their strength is gone and no one remains."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.10.10",
+          "basis": "formed inside the womb",
+          "note": "The commentary's B003 gives the womb as the child's protected house; Job compares gestation to curdling milk and forming cheese, a vivid picture of life developing within it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.10.11",
+          "basis": "body knitted together",
+          "note": "The commentary says the womb protects and grows the child; Job describes God clothing him with skin and flesh and knitting him with bones and sinews."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.10.12",
+          "basis": "life and preserving care",
+          "note": "The commentary's B003 links womb-life to provision before a child can ask; Job says God granted life and steadfast love and preserved his spirit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.13",
+          "basis": "woven in the womb",
+          "note": "The commentary's B003 develops the womb as a place where a child is formed and sustained; the psalm says God formed the speaker's inward parts and wove him in his mother's womb."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.1.20",
+          "basis": "womb opened after petition",
+          "note": "The commentary uses the womb as a place of divine nurture before the child can ask; Hannah's story instead shows God answering the parents' plea with a child, a complementary scriptural image of the womb as gift."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.50.20",
+          "basis": "harm turned toward life",
+          "note": "The commentary says mercy may look harsh before its good outcome appears; Joseph says his brothers intended evil, while God intended the event to preserve many lives."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.50",
+          "basis": "mercy across generations",
+          "note": "The commentary's root family includes kinship; Mary's song places God's mercy across generations for those who fear him, linking divine compassion with family succession."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.72",
+          "basis": "mercy remembered for ancestors",
+          "note": "The commentary links mercy to kinship and the sequence of divine care; Zechariah says God's mercy toward the ancestors is shown through remembrance of the covenant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.6.36",
+          "basis": "imitate the merciful Father",
+          "note": "The commentary moves from divine compassion to mercy as action; Jesus commands mercy toward others on the model of the Father's mercy, in a context that includes love of enemies."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.5.7",
+          "basis": "the merciful receive mercy",
+          "note": "The commentary presents mercy as a divine gift preceding human requests; the beatitude links human mercy toward others with receiving mercy from God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.9.13",
+          "basis": "mercy over sacrifice",
+          "note": "The commentary defines mercy as beneficial action, not inward feeling alone; Jesus cites Hosea to prioritize mercy over sacrifice when religious insiders reject his table fellowship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.33",
+          "basis": "forgiveness must become mercy",
+          "note": "The commentary says received mercy should issue in good for its recipient; the king rebukes a servant who received debt-forgiveness but refused comparable mercy to a fellow servant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.40",
+          "basis": "care for the least as service to the king",
+          "note": "The commentary directs mercy toward the vulnerable; Jesus identifies feeding and welcoming the least with service to the king who judges."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.10.47",
+          "basis": "mercy requested before healing",
+          "note": "The commentary names mercy before the servant asks for help; Bartimaeus instead makes mercy itself his plea to Jesus, so the scene turns the prior divine gift into a direct appeal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.18.13",
+          "basis": "mercy before justification",
+          "note": "The commentary places mercy before the servant's plea; the tax collector asks God for mercy as a sinner and leaves justified, so mercy precedes restored standing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.11.32",
+          "basis": "mercy for all after disobedience",
+          "note": "The commentary holds encompassing mercy beside directed mercy; Paul says God has enclosed all in disobedience so that mercy may be shown to all."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.1",
+          "basis": "mercy precedes worship",
+          "note": "The commentary says the mercy names are embedded in praise before the servant speaks; Paul urges bodily worship in view of God's prior mercies."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.1.3",
+          "basis": "Father of mercies and comfort",
+          "note": "The commentary joins mercy with the address to God as Lord; Paul names God the Father of mercies and God of all comfort before describing comfort for afflicted people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.4",
+          "basis": "rich in mercy toward the dead",
+          "note": "The commentary depicts mercy as effective good rather than a feeling; Paul says God, rich in mercy, makes the spiritually dead alive through love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.16",
+          "basis": "mercy from the throne of grace",
+          "note": "The commentary places mercy beside the owner of the judgment day; Hebrews invites people to approach the throne confidently to receive mercy and timely help."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.13",
+          "basis": "mercy over judgment",
+          "note": "The commentary holds mercy and judgment together; James says mercy triumphs over judgment while warning that the merciless face judgment.",
+          "raw_ref": "SBLGNT:James.2.13",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.12",
+          "basis": "compassion becomes kindness",
+          "note": "The commentary defines mercy as tenderness that entails good for the one receiving it; Paul pairs compassionate hearts with kindness, humility, patience, and forgiveness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.17",
+          "basis": "compassion must open the hand",
+          "note": "The commentary says inner tenderness is measured by good reaching the needy; John asks how God's love remains in someone who sees a sibling in need and closes his compassion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.3",
+          "basis": "new birth through great mercy",
+          "note": "The commentary's B003 connects the root family with womb and nurture; Peter says God's great mercy gives believers new birth into living hope."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "soydas",
+          "ref": "Peshitta, Luke 10:37",
+          "basis": "Syriac rḥm for acting mercifully",
+          "note": "The commentary labels Arabic ر ح م; the Peshitta uses the Syriac cognate rḥm for the Samaritan's act of showing mercy to the wounded man."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Origen, Homilies on Luke 34",
+          "basis": "Samaritan as Christ",
+          "note": "The commentary says mercy is known by the good it finally delivers; Origen reads the Samaritan's rescue as Christ healing wounded Adam and carrying him to the inn, turning neighborly mercy into salvation history."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Protevangelium of James 4:1-5:2",
+          "basis": "conception after prayer",
+          "note": "The commentary's B003 sees the womb as a protected home and divine provision; Anna's barrenness ends after prayer and angelic promise, showing another early Christian framing of the womb as gift."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 18:13-14",
+          "basis": "compassion for all flesh",
+          "note": "The commentary contrasts all-encompassing mercy with its directed forms; Sirach says the Lord's compassion extends to all flesh and works through correction and teaching like a shepherd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 11:23-26",
+          "basis": "love for all created things",
+          "note": "The commentary ties mercy to the Lord of all worlds; Wisdom says God has mercy on all and spares what he made because it belongs to him, leaving room for repentance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 12:1-2",
+          "basis": "correction that leads to repentance",
+          "note": "The commentary describes mercy as nurture that brings a recipient toward completion; Wisdom says God's spirit is in all and he corrects offenders little by little so they may turn from evil."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 2:11",
+          "basis": "compassion in distress",
+          "note": "The commentary pairs mercy with trust before asking for help; Sirach names the Lord as compassionate and forgiving, who rescues those who seek him in distress."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 4:10",
+          "basis": "father to the orphan",
+          "note": "The commentary makes the weak a particular recipient of active mercy; Sirach tells the reader to become a father to orphans and promises a filial relation to God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 35:14-17",
+          "basis": "prayer of the oppressed",
+          "note": "The commentary says mercy reaches people in need as an act; Sirach describes God hearing the orphan, widow, and oppressed whose prayer rises to him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 13:2",
+          "basis": "God wounds and restores",
+          "note": "The commentary balances mercy with judgment; Tobit's hymn says God brings down and raises up, wounds and shows mercy, so rule and compassion remain together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Rosh Hashanah 17b",
+          "basis": "thirteen attributes after sin",
+          "note": "The commentary treats mercy as part of God's name before the servant asks; the Talmud reads Exodus 34's attributes as a recitable pattern by which Israel seeks forgiveness after sin."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 7a",
+          "basis": "mercy overcoming anger",
+          "note": "The commentary joins compassion to judgment in one divine character; the Talmud pictures God asking that mercy prevail over anger and that his children be treated beyond strict measure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Shabbat 151b",
+          "basis": "human compassion and divine mercy",
+          "note": "The commentary moves from God's mercy to deeds toward the weak; the Talmud says one who has compassion on creatures receives compassion from heaven."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Sotah 14a",
+          "basis": "mercy enacted by imitation",
+          "note": "The commentary defines mercy as tenderness that produces help; the Talmud interprets walking after God through acts such as clothing the naked, visiting the sick, and comforting mourners."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "Targum Jonathan on Isaiah 49:15",
+          "basis": "Aramaic rḥm and Memra",
+          "note": "The commentary labels Arabic ر ح م and develops a maternal image; the Targum keeps the mother-and-child comparison but makes the Memra the one who will not forget Zion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "Targum Psalms on Psalm 103:13",
+          "basis": "Aramaic parental compassion",
+          "note": "The commentary labels Arabic ر ح م; the Aramaic Targum preserves the father's compassion for children as an image of God's compassion toward those who fear him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.8",
+          "basis": "compassion turns from destruction",
+          "note": "The commentary balances mercy with judgment; Hosea gives God's inward struggle over handing Ephraim to destruction, with compassion overturning the announced consequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.16",
+          "basis": "known before birth",
+          "note": "The commentary says care comes before a child can know or request anything; the psalm says the unformed body and its days were already known to God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "4 Ezra 8:31-32",
+          "basis": "mercy for sinners without merit",
+          "note": "The commentary presents mercy as preceding requests and human deserving; Ezra argues that mercy shown to sinners without righteous deeds is precisely what makes God merciful, pressing the tension with judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.34.7",
+          "basis": "forgiveness and accountability",
+          "note": "The commentary holds mercy beside the judgment day; the next verse after Exodus's mercy formula says God forgives wrongdoing yet does not simply acquit guilt, making the balance explicit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.22.26",
+          "basis": "compassion protects a debtor",
+          "note": "The commentary says mercy must reach the vulnerable as a concrete good; the law protects a poor neighbor's pledged cloak and grounds the rule in God's compassionate character."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.21.17",
+          "basis": "God hears the endangered boy",
+          "note": "The commentary's B003 centers care for a child who cannot yet ask; in the wilderness God hears Ishmael's voice and tells Hagar not to fear, directing care to an abandoned child."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.21.19",
+          "basis": "water found for Hagar and Ishmael",
+          "note": "The commentary describes provision that sustains a child before he can provide for himself; God opens Hagar's eyes to a well, turning rescue into water for mother and child."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.2.6",
+          "basis": "compassion for an exposed infant",
+          "note": "The commentary's B001 says tenderness should do good for its recipient; Pharaoh's daughter pities the exposed infant Moses, making a vulnerable child the object of human compassion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Sam.9.7",
+          "basis": "kindness to a vulnerable kinsman",
+          "note": "The commentary joins mercy to kinship and active provision; David restores land to disabled Mephibosheth and gives him a place at the royal table for Jonathan's sake."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.11",
+          "basis": "eagle guarding its young",
+          "note": "The commentary's B003 pictures the womb as protection and nurture; Moses' song compares God's care for Israel to an eagle spreading its wings and carrying its young."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.72.13",
+          "basis": "Hebrew ירחם for the weak",
+          "note": "The commentary labels Arabic ر ح م as its source root; Psalm 72 uses the Hebrew cognate ירחם for pity on the weak and needy, then says the king saves their lives."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.78.38",
+          "basis": "compassion repeatedly restrains anger",
+          "note": "The commentary balances mercy with judgment; the psalm uses Hebrew רחום as God forgives Israel's wilderness sins, does not destroy them, and repeatedly turns anger aside."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.77.9",
+          "basis": "compassions questioned in anger",
+          "note": "The commentary describes mercy as an enduring quality; the lament uses Hebrew רחמים while asking whether anger has closed off God's compassion, voicing the fear that mercy has ceased."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.40.11",
+          "basis": "compassions asked to preserve",
+          "note": "The commentary labels Arabic ر ح م as its source root; the psalm uses Hebrew רחמים in a plea that God's compassion and faithfulness preserve the speaker from surrounding troubles."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.25.6",
+          "basis": "ancient compassions remembered",
+          "note": "The commentary places mercy before requests for help; the psalm asks God to remember his Hebrew רחמים and covenant love amid a prayer for direction and forgiveness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.71.6",
+          "basis": "trust from the mother's womb",
+          "note": "The commentary's B003 describes the womb as provision before a child can ask; the psalmist says God has sustained him from the womb and has been his praise since birth."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.14",
+          "basis": "human frailty remembered",
+          "note": "The commentary singles out mercy for the weak; the psalm says God remembers that humans are dust and knows their frame, giving compassion a reason grounded in creaturely fragility."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.116.5",
+          "basis": "Hebrew מרחם",
+          "note": "The commentary labels Arabic ر ح م as its source root; the psalm calls God compassionate with a Hebrew form from the cognate root while also naming him gracious and righteous."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.116.6",
+          "basis": "rescue of the simple",
+          "note": "The commentary describes mercy as an act that reaches a recipient; the next verse says the Lord preserves the simple and saves the speaker when brought low."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.19.17",
+          "basis": "kindness to the poor as a loan",
+          "note": "The commentary defines mercy as tenderness that entails practical good; Proverbs says giving to the poor is like lending to the Lord, who repays the deed."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.46.3",
+          "basis": "carried from the womb",
+          "note": "The commentary's B003 treats the womb as a place of protection; Isaiah depicts God carrying Israel from birth and from the womb, extending the image from an individual child to a people."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.46.4",
+          "basis": "care through old age",
+          "note": "The commentary distinguishes an enduring quality from a momentary gift; Isaiah says God will carry and deliver his people even into old age, completing the womb-to-lifespan image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.63.15",
+          "basis": "compassions sought in prayer",
+          "note": "The commentary labels Arabic ر ح م as its source root; Isaiah's prayer uses Hebrew רחמים while asking where God's compassion and zeal have gone, in a plea for renewed aid."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Jer.12.15",
+          "basis": "compassion after uprooting",
+          "note": "The commentary labels Arabic ر ح م; Jeremiah uses the Hebrew cognate as God promises to have compassion on nations after uprooting them and to bring them back."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Lam.3.32",
+          "basis": "compassion after grief",
+          "note": "The commentary says a harsh first appearance may conceal eventual good; Lamentations uses the Hebrew רחם root to say that after causing grief God will show compassion according to abundant love."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lam.3.33",
+          "basis": "God does not afflict willingly",
+          "note": "The commentary says mercy's real face appears in the good ultimately delivered; Lamentations says God does not afflict or grieve people from his heart, interpreting suffering without making harm his delight."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Hab.3.2",
+          "basis": "mercy remembered in wrath",
+          "note": "The commentary joins compassion to judgment; Habakkuk uses Hebrew רחם in asking God to remember mercy in the midst of wrath."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Zech.1.16",
+          "basis": "compassion on Jerusalem restored",
+          "note": "The commentary labels Arabic ر ح م as its source root; Zechariah uses Hebrew רחמים when God says he has returned to Jerusalem with compassion after the city's desolation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ezek.39.25",
+          "basis": "compassion in restoration",
+          "note": "The commentary labels Arabic ر ح م; Ezekiel uses the Hebrew cognate as God promises to restore Jacob and have compassion on all Israel after judgment and exile."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Chr.30.9",
+          "basis": "return welcomed by a merciful God",
+          "note": "The commentary says mercy is named before the worshiper's request; Hezekiah urges the northern Israelites to return for Passover because their God is gracious and compassionate and will not turn away from them."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.9.9",
+          "basis": "compassions despite rebellion",
+          "note": "The commentary labels Arabic ر ح م as its source root; Daniel's Hebrew prayer says compassion and forgiveness belong to God even though the people rebelled."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 12:19",
+          "basis": "lenience teaches humaneness",
+          "note": "The commentary defines mercy as an effective good; Wisdom says God's lenience teaches the righteous to be humane and gives sinners hope of repentance after wrongdoing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "2 Maccabees 6:12-16",
+          "basis": "discipline as correction, not destruction",
+          "note": "The commentary says a severe-looking act may conceal a beneficial purpose; the author interprets Israel's persecution as discipline that corrects the people rather than a wish to destroy them."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 4:7-11",
+          "basis": "almsgiving for the needy",
+          "note": "The commentary says mercy must become a deed for its recipient; Tobit instructs his son to give to the poor and links that aid with deliverance from death."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Yoma 8:9",
+          "basis": "atonement as a Father's cleansing",
+          "note": "The commentary holds mercy beside the day of judgment; Rabbi Akiva's closing teaching pictures Israel's purification as a Father cleansing his children, interpreting atonement through filial care."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.57",
+          "basis": "birth after a barren season",
+          "note": "The commentary's B003 develops the womb as a protected place where a child is formed; Luke reports Elizabeth's promised child being born, the event the next verse names as mercy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.58",
+          "basis": "birth recognized as mercy",
+          "note": "The commentary links the root family with womb and kinship; Elizabeth's neighbors call the Lord's action toward her great mercy after the birth and rejoice with her."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.6.35",
+          "basis": "kindness to the ungrateful",
+          "note": "The commentary presents Rahman as mercy extending broadly; Jesus says God is kind even to the ungrateful and evil, then commands love and practical good toward enemies."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.7.13",
+          "basis": "compassion for a bereaved widow",
+          "note": "The commentary directs mercy toward the weak; Jesus sees a widow in grief, is moved with compassion, and addresses her, locating divine aid in attention to an exposed and mourning person."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.7.15",
+          "basis": "a son restored to his mother",
+          "note": "The commentary joins compassion to the good it delivers and to kinship; after Jesus' compassion in verse 13, this verse says the son lives and is given back to his mother."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.9.36",
+          "basis": "compassion for a shepherdless crowd",
+          "note": "The commentary describes mercy as directed to those in need; Jesus sees crowds as harassed and helpless like sheep without a shepherd and responds with compassion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.4",
+          "basis": "kindness leads to repentance",
+          "note": "The commentary describes mercy as nurture that brings a recipient toward completion; Paul says God's kindness, forbearance, and patience are meant to lead the sinner to repentance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.9.23",
+          "basis": "vessels of mercy prepared for glory",
+          "note": "The commentary distinguishes mercy that encompasses all from mercy directed to particular people; Paul speaks of vessels of mercy prepared for glory before naming the Jews and Gentiles called in the next verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.9.24",
+          "basis": "called from Jews and Gentiles",
+          "note": "The commentary distinguishes mercy that encompasses all from mercy directed to particular people; Paul says God's called community includes both Jews and Gentiles."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Rom.9.25",
+          "basis": "Hosea's restoration oracle reapplied",
+          "note": "The commentary notes that rejected recipients may again receive mercy; Paul quotes Hosea's reversal of not-my-people language for the people God is now calling."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Pet.2.10",
+          "basis": "not shown mercy, now shown mercy",
+          "note": "The commentary links Rahim to mercy directed toward recipients; Peter applies Hosea's name reversal to a Christian community that was formerly outside mercy and now receives it."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.3.9",
+          "basis": "patience delays judgment for repentance",
+          "note": "The commentary holds mercy and the day of judgment together; Peter says the Lord's patience gives people time to repent rather than perish."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.11",
+          "basis": "compassion at the end of Job's trial",
+          "note": "The commentary says mercy may be hidden beneath painful events; James points to Job's endurance and outcome, then names the Lord compassionate and merciful.",
+          "raw_ref": "SBLGNT:James.5.11",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "soydas",
+          "ref": "Peshitta, Luke 7:13",
+          "basis": "Syriac rḥm for compassion",
+          "note": "The commentary labels Arabic ر ح م as its source root; the Peshitta uses the Syriac cognate rḥm for Jesus' compassion toward the bereaved widow."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Titus.3.5",
+          "basis": "salvation through mercy and rebirth",
+          "note": "The commentary's B003 associates the root family with womb and nurture; Titus says God saves according to mercy through washing and rebirth, not through human works."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.32",
+          "basis": "compassion becomes forgiveness",
+          "note": "The commentary says inward tenderness should issue in good for others; Ephesians tells believers to be compassionate and forgiving as God forgave them in Christ."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.1.16",
+          "basis": "mercy as a pattern for others",
+          "note": "The commentary describes mercy reaching particular recipients; Paul says mercy was shown to him so Christ's patience could become an example for later believers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.2.7",
+          "basis": "nursing mother as pastoral image",
+          "note": "The commentary's B003 develops a womb that protects and nourishes; Paul compares his care for the community to a nursing mother cherishing her children."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.4.19",
+          "basis": "labor pains until formation",
+          "note": "The commentary describes a womb that carries a child through stages toward maturity; Paul uses labor pains for his continuing work until Christ is formed in the Galatians."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "60adebd147526e833c67a685beefa13498b805a331b38a3f328edf4730e1ffda",
+    "followup_sha256": "60adebd147526e833c67a685beefa13498b805a331b38a3f328edf4730e1ffda"
+  },
+  "consolidation_error": null,
+  "list_sha256": "de4832c4cd3dbc154db96cecdf5671464c0cdb408dad03936e329917a37fefa6",
+  "followup_delivery": [
+    {
+      "call_id": "call_vdZSloYJahf8aepcOG64BWBH",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 1253270,
+    "cached_input_tokens": 1135616,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 75991,
+    "reasoning_output_tokens": 62204,
+    "total_tokens": 1329261
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:48:53.953Z",
+  "artifacts": {
+    "started.json": "8c76ed8f898f8a13195d5c0da471f69ceafcffbcc62c1dc1959e67d551b573a2",
+    "input.json": "964cfb5a70615af27fd88d79d36eaf698c35aaea07905db801107ce36c63ea7c",
+    "prompt.md": "e80401d30b63511e7067ece8d808809a7078b8c0a2cb773875d8a5029fcf0a0f",
+    "package.md": "4425e98aeb0ac441eacdaad4112dcb1744eebe8cbf5779970364e42bfc0b0579",
+    "spawn.md": "73dcf7d6ee19d99eb0efdd19f51dc59d5b93349ef18689acfd4d7d7b6b0342fd",
+    "followup.txt": "b917f5b1a81867f463a7b8b95484cfa605789821dfdc81d511c3d3404e66252f",
+    "turn1.json": "36660c70653d1827db9b4d60bdfdf994bd5408a4155963e761bdefeea2c1180f",
+    "turn1.list.tsv": "8433e77a8c24173f5b64bc514eda836eff7233d1a89c84034790148f7ec40453",
+    "followup.tsv": "60adebd147526e833c67a685beefa13498b805a331b38a3f328edf4730e1ffda",
+    "list.tsv": "de4832c4cd3dbc154db96cecdf5671464c0cdb408dad03936e329917a37fefa6",
+    "consolidation.json": "f342c0c6a2f3f9114702165e3d074c70d7fbcb04efc799e3208542c578b6ad21",
+    "validation.json": "0c1b6cf88116d1da61f04deb787aaee211fcbfd9f6de99073a7edb3626488eb5",
+    "proposal_validation.json": "38e7b4e1d416a99b3626a64d593eb9b755572cefb17b825f2910f6a84fc39f16",
+    "tool_calls.json": "bd5c342fd9943838357a96d27ff4f4e3a69aa4d57bfcc9508b306508920bd80d",
+    "session.json": "432adcc1580de0d781de835fd87d263490786caf5a756701ca2a01d2e9380c6c",
+    "session.events.jsonl": "300b36c74b7a890165344681466647a101e3ce560d6e1e78c8be9b4beea428fb"
+  }
+}

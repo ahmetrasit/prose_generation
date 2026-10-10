@@ -1,0 +1,1907 @@
+{
+  "target": "sec5",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:53.388054-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec5_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "f11ce0d415ffae91976e1e8a83cc6a6f7c3d9771d9f273c88775c7b5172bcee6",
+  "package_sha256": "fc358ec73c7031af4fe7eb447ce88069d5d5caeb6a987cba1f849dabfc9bc986",
+  "input_sha256": "6adf421441d0fbf70a367642fad22bbfe6e23b63ac28396555673b048813eb2a",
+  "spawn_sha256": "1157318e0b0016d254a14231f8acc6ca1772dd847e952bb564079e95a15615d1",
+  "followup_text_sha256": "7bc6e65db853ec9a35c0f6bb9f866b5c560398d6991962584d48b990ee5c11da",
+  "agent_id": "01a10c9b-af44-7c10-88af-310d5fef0d84",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-08-12-01a10c9b-af44-7c10-88af-310d5fef0d84.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "accepted",
+  "check": "findings",
+  "turn1_rows": 87,
+  "turn1_sha256": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+  "turn2": {
+    "completed": true,
+    "rows_total": 130,
+    "rows_added": 43
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 87,
+    "raw_proposal_rows": 43,
+    "unique_additions": 43,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.10",
+          "basis": "Firavun kızının Musa'yı oğul edinmesi",
+          "note": "Firavun'un Musa'yı sarayında büyüttüğünü nimet diye öne sürmesine karşılık, bu ayet çocuğun Firavun'un kızı tarafından evlat edinilmesini anlatır; ortak sarayda büyütülme sahnesinin temelidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.2.10",
+          "basis": "nimetin sahibi ve başa kakma",
+          "note": "Aynı olayda WLC bakımı Firavun'a değil kızına verir ve hiçbir başa kakma konuşması içermez; bu fark, 26:22'deki Firavun iddiasının nasıl yeniden kurulduğunu görünür kılar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.1.13",
+          "basis": "İsrailoğullarının köleleştirilmesi",
+          "note": "Mısır'ın İsrailoğullarını acımasız hizmete zorlaması, Musa'nın saray bakımını halkın köleleştirilmesinden ayrı tutulamayacak bir nimet diye cevaplamasının arka planıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.21",
+          "basis": "Firavun kızının Musa'yı büyütmesi",
+          "note": "Stefanus, terk edilen Musa'nın Firavun'un kızı tarafından alınıp kendi oğlu gibi yetiştirildiğini söyler; 26:18–22'nin yetiştirme sahnesinin Hristiyan yeniden anlatımıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 18:15",
+          "basis": "iyiliğe azarlama katmamak",
+          "note": "Ben Sira, iyi işe azarlama katmamayı ve armağanı kırıcı sözle bozmamayı buyurur; yorumdaki yetehammedü aleyye sahnesinin açık etik karşıtıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 20:14",
+          "basis": "az verip çok başa kakmak",
+          "note": "Budalanın az verip çok azarladığı armağan, nimeti alıcının başına kakan kişi için en yakın Yahudi hikmet sahnesidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.5",
+          "basis": "cömertçe ve ayıplamadan veren",
+          "note": "Tanrı isteyen herkese cömertçe ve ayıplamadan verir; hem ihsanın serbestliği hem de başa kakmamanın açık karşıtıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.17",
+          "basis": "serveti kendi gücüne yazmamak",
+          "note": "Bollukta “gücüm bana bu serveti yaptı” deme yasağı, alınmış nimeti kendinin gösterip övünmeye karşıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.18",
+          "basis": "servet verme gücünü Tanrıdan bilmek",
+          "note": "Servet kazanma gücünü verenin YHWH olduğunu hatırlama buyruğu, hamdin gerçek verene yönelmesi için karşı hafızadır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.17",
+          "basis": "açılan ilahi el",
+          "note": "Rabbin elini açıp her canlıyı doyurması, yorumun uzanan elden alıcıya geçen iyilik görüntüsüne ilahi özne ve evrensel alıcı verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.15.8",
+          "basis": "açık el ile ihtiyaç gidermek",
+          "note": "Muhtaç kardeşe eli açıp ihtiyacı kadar vermek, in‘âmın iyiliği başkasına ulaştırması için somut Tevrat etiğidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.34.6",
+          "basis": "רַחוּם / rḥm",
+          "note": "Arapça ر ح م etiketinin İbranice soydaşı רַחוּם, Tanrı'nın merhametli ve lütufkâr adı içinde geçer; yorumdaki merhametin iyilik kaynağı oluşuna yazılı paralel sunar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.10",
+          "basis": "bütün yaratıklar üzerindeki iyilik ve rahmet",
+          "note": "YHWH'nin herkese iyi ve bütün işleri üzerinde merhametli olması, Rabbi'l-âlemîn'in iyiliği ile 1:1 ve 1:3 rahmeti arasındaki ilişkiyi özetler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.17",
+          "basis": "iyi ve tam armağan",
+          "note": "Her iyi bağış ve her tam armağan yukarıdan iner; nimet, veren ve tamlık aynı cümlede yorumun en‘ame ile geliştirdiği tamamlanma çağrısıyla buluşur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.14.17",
+          "basis": "iyilik, yağmur ve yiyecek",
+          "note": "Tanrı'nın iyilik yapıp yağmur, verimli mevsimler ve yiyecekle doyurması, 106:3–4'teki besleyen Rabbe kamusal elçi tanıklığıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.57.3",
+          "basis": "benim için tamamlayan Tanrı",
+          "note": "Mezmur Tanrı'yı “benim için tamamlayan” diye çağırır; Rabbin nimeti sonuna kadar götürmesi iddiasına doğrudan tamamlanma dili verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.138.8",
+          "basis": "YHWH benim için tamamlayacak",
+          "note": "YHWH'nin “benim için tamamlayacağı” sözü, nimeti bitiren ve düzene koyan Rab fikrini dua biçiminde taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.1.6",
+          "basis": "başlatılan iyi işi tamamlama",
+          "note": "Tanrı'nın başlattığı iyi işi sonuna dek tamamlayacağı vaadi, iyilik/ihsanın yalnız başlanmayıp bitirilmesi için Hristiyan paralelidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.8.6",
+          "basis": "χάρις hizmetini tamamlama",
+          "note": "Titus'tan, başlattığı χάρις yani bağış toplama iyiliğini tamamlaması istenir; bu, iyiliğin sonuna kadar yapılması motifidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.8",
+          "basis": "lütfun çoğalması ve her iyi iş",
+          "note": "Tanrı lütfu bol bol artırır ki alıcılar her iyi iş için yeterli olsun; yorumdaki en‘ame “artırdı” ile tamamlanan ihsanı tek bağlamda tutar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.15",
+          "basis": "lütuf yayılırken şükranın artması",
+          "note": "Lütuf daha çok kişiye yayıldıkça şükranın Tanrı'nın yüceliğine çoğalması, verilen iyiliğin başkaları arasında hamde dönüşmesiyle örtüşür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.9.2",
+          "basis": "şükretmek ve harikaları anlatmak",
+          "note": "Mezmurcu bütün yüreğiyle YHWH'ye şükreder ve bütün harikalarını anlatır; hamdin verenin iyiliklerini başkalarının yanında sayması oluşuna yakındır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.16.8",
+          "basis": "şükretmek ve halklar arasında bildirmek",
+          "note": "YHWH'ye şükredip yaptıklarını halklar arasında bildirme buyruğu, nimeti anlatmanın kamusal biçimini verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.66.17",
+          "basis": "canıma yaptığını anlatmak",
+          "note": "Tanrı'dan korkanları dinlemeye çağırıp canına ne yaptığını anlatır; alıcının kendi nimetini topluluğa aktarmasıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.100.5",
+          "basis": "şükür, hamd ve adı kutsamak",
+          "note": "Mabet girişinde şükranla girip hamd etmek ve adı kutsamak ayrı ama birlikte eylemlerdir; yorumun hamdi şükürden geniş tutmasına litürjik karşılık verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.2",
+          "basis": "başta Rabbe hamd",
+          "note": "Mezmur, iyilikleri saymadan önce Rabb'i kutsama çağrısıyla açılır; Fâtiha'nın nimet adı gelmeden hamdi öne almasının yapısal karşılığıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.3",
+          "basis": "iyilikleri unutmamak",
+          "note": "Açılış hamdinin hemen ardından bütün iyilikleri unutmama buyruğu gelir; ilk övgünün sonradan sayılacak nimetlere bağlılığını açık eder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.22",
+          "basis": "sonda tekrar Rabbe hamd",
+          "note": "Bütün eserleriyle Rabb'i kutsama çağrısı mezmuru aynı hamdle kapatır; Fâtiha'daki baştaki ve yol sonundaki hamd yankısına biçimsel paraleldir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.10",
+          "basis": "doyunca Rabbe bereket",
+          "note": "Yiyip doyduktan sonra verilen iyi ülke için YHWH'yi kutsama buyruğu, alınan nimete cevap olarak hamd ve şükrandır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.26.10",
+          "basis": "verilen ürün ve secde",
+          "note": "YHWH'nin verdiği toprağın ilk ürününü sunan kişi onun önünde secde eder; bağışın karşılığı olarak ibadet 106:3–4 ile buluşur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.6",
+          "basis": "gelin tapınalım ve eğilelim",
+          "note": "Tapınma çağrısı, hemen sonraki ayetin onun eli altındaki halk tasviriyle birlikte, sağlayıcıya kulluk cevabını verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.7",
+          "basis": "otlağının halkı ve eli altındaki koyunlar",
+          "note": "Halkın onun otlağı ve eli altındaki koyunlar oluşu, 95:6'daki kulluğu koruyan ve besleyen Rabbe cevap olarak temellendirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.11.25",
+          "basis": "Baba, göğün ve yerin Rabbi",
+          "note": "İsa'nın “Sana hamd ederim, Baba, göğün ve yerin Rabbi” hitabı, hamd fiilini 1:2'nin evrensel Rab hitabıyla birleştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.17.15",
+          "basis": "iyileşip Tanrı'yı yüceltmek",
+          "note": "İyileşen Samiriyeli geri dönüp yüksek sesle Tanrı'yı yüceltir; nimet alıcısının hamd cevabını gösterir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.17.16",
+          "basis": "ayaklara kapanıp teşekkür etmek",
+          "note": "Aynı kişi İsa'nın ayaklarına kapanıp teşekkür eder; yanındaki yüceltme ile teşekkürün ayrı eylemler oluşu, hamd ile şükrün geniş-dar ilişkisini düşündürür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.5.19",
+          "basis": "Rabbin yaptığını ve merhametini anlat",
+          "note": "İsa, iyileşene evine dönüp Rabbin ona ne yaptığını ve nasıl merhamet ettiğini anlatmasını emreder; 93:11'de nimeti anlatma emrine doğrudan karşılıktır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.9",
+          "basis": "faziletlerini ilan etmek",
+          "note": "Seçilmiş topluluğun kendisini karanlıktan ışığa çağıranın erdemlerini ilan etmesi, lütfu başkalarına sayan ortak hamddir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.1.3",
+          "basis": "merhametlerin Babası",
+          "note": "Bereket formülü Tanrı'yı merhametlerin Babası ve her tesellinin Tanrısı diye över; rahmetin iyilik kaynağı oluşunu Hristiyan doxolojisine taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.1.3",
+          "basis": "önce bereket, sonra verilmiş bereketler",
+          "note": "Mektup Tanrı'yı kutsayarak açılır ve onun bizi ruhsal bereketlerle bereketlediğini söyler; Fâtiha'nın nimet adından önce hamdi getiren düzenine yakındır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.3",
+          "basis": "merhamet sebebiyle yeniden doğuş",
+          "note": "Tanrı bereketlenir; büyük merhametine göre yeniden doğuş vermiştir: hamd ile ihsanın kaynak-sonuç dizilişidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.15",
+          "basis": "tarif edilemez armağan için şükür",
+          "note": "Tanrı'nın tarif edilemez armağanına şükür, bağış karşısındaki doğrudan cevap olarak durur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.68",
+          "basis": "ziyaret ve kurtuluş için bereket",
+          "note": "Zekeriya, Tanrı halkını ziyaret edip kurtardığı için “kutsansın” diyerek ilahi iyiliğin övgüye dönüşmesini anlatır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.12",
+          "basis": "göksel şükür doxolojisi",
+          "note": "Taht çevresindeki sözler bereket, yücelik, hikmet ve şükranı Tanrı'ya verir; yolun ve cennetin sonunda dönen hamd için eskatolojik paraleldir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.5.13",
+          "basis": "bütün yaratılışın bereketi",
+          "note": "Gökte, yerde ve denizde bütün yaratılış tahttakine bereket, onur, yücelik ve kudret verir; âlemlerin Rabbine hamdin kozmik karşılığıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 7b",
+          "basis": "Leah'nın הודאה'sı",
+          "note": "Berakhot, Leah'nın “bu kez YHWH'ye şükredeceğim” sözünü ilk açık teşekkür diye okur; alınan çocuk/nimet karşısında hamdin Yahudi yorum geleneğini açar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 54b",
+          "basis": "kurtuluş sonrası ha-gomel",
+          "note": "Talmud, denizden geçen, çölde yürüyen, hastalıktan çıkan ve hapisden kurtulanın topluluk önünde şükür berekesi söylemesini ister; iyiliği duyurma ve yolun sonunda hamd için somut ritüeldir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.7",
+          "basis": "doğru yolda yerleşik kente götürmek",
+          "note": "YHWH onları doğru yolda yerleşecekleri şehre götürür; lütuf olarak yol ve hedefin Fâtiha 1:6–7'ye en yakın mezmur sahnesidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.4",
+          "basis": "canı yenileyip doğruluk yollarında yürütmek",
+          "note": "Canı yenileyip doğruluk yollarında yürütmesi, nimeti iyileştirme ile yol gösterme olarak birleştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.6",
+          "basis": "yolları düz kılmak",
+          "note": "Tanrı'yı bütün yollarda tanımanın sonucu yolların düz kılınmasıdır; sırât-ı müstakîm ifadesinin kısa hikmet karşılığıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.11",
+          "basis": "sürekli rehberlik ve doyurma",
+          "note": "YHWH'nin sürekli yol göstermesi, kuraklıkta doyurması ve güç vermesi, tamamlanan nimet ile hidayetin aynı vaatte birleşmesidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.48.17",
+          "basis": "yarar öğretmek ve gidilecek yolda götürmek",
+          "note": "Kurtarıcı YHWH hem yarar sağlayanı öğretir hem gidilecek yolda götürür; Rabbin ihsanı tamamlayıp yolu vermesiyle kesişir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.13.21",
+          "basis": "yolda önden götüren YHWH",
+          "note": "Bulut ve ateşle halkın önünde gidip yolu gösteren YHWH, topluluğa verilen yönlendirme nimetine tarihsel sahne sağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.18.19",
+          "basis": "İbrahim seçildi, YHWH yolunu korusun",
+          "note": "İbrahim'in seçilmesi, ev halkına YHWH yolunu tutturma amacı taşır; 16:121'de seçilen İbrahim'in doğru yola iletilmesiyle ortak yapıdadır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.28.15",
+          "basis": "Yakup'a verilen sözün tamamlanması",
+          "note": "Tanrı Yakup'u bırakmayıp ona söylediklerini yapıncaya dek yanında olacağını vaat eder; 12:6'da Yakup hanesine tamamlanacak nimet için ata anlatısıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.50.24",
+          "basis": "atalara vaat edilen ülkeye götürme",
+          "note": "Yusuf, Tanrı'nın halkı ziyaret edip İbrahim, İshak ve Yakup'a ant içtiği ülkeye çıkaracağını söyler; nimetin aile ve soy boyunca tamamlanmasıyla buluşur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.105.10",
+          "basis": "Yakup ve İsrail için kalıcı antlaşma",
+          "note": "Antlaşmanın Yakup'a yasa, İsrail'e ebedi antlaşma olarak konması, 12:6'daki nimetin tek kişiden haneye yayılmasına karşılık verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.51.2",
+          "basis": "İbrahim'i çağırıp bereketlemek",
+          "note": "YHWH'nin tek başına çağırdığı İbrahim'i bereketleyip çoğaltması, seçilmiş ataya uzanan ve soya yayılan nimet anlatısıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.19.8",
+          "basis": "tam Torah ve canın yenilenmesi",
+          "note": "YHWH'nin Torahı tamdır ve canı yeniler; 5:3'te dinin kemale ermesi ile hidayet arasındaki Tevrat içi ölçüyü verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.3.12",
+          "basis": "kurtarış sonrası ibadet",
+          "note": "Tanrı halkı Mısır'dan çıkardığında bu dağda kendisine kulluk edeceklerdir; kurtarıcı ihsanın 106:3'teki ibadet cevabına paraleldir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.12",
+          "basis": "bollukta vereni unutmamak",
+          "note": "Evler, su kuyuları, bağlar ve doyma ardından YHWH'yi unutmama uyarısı, nimete karşı ibadeti besleyen hafızayı koyar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.13",
+          "basis": "veren Rabbe korku ve kulluk",
+          "note": "Bolluk bağlamının sonucunda yalnız YHWH'den korkup ona kulluk etme buyruğu gelir; sağlanan nimet ile kulluk bağını kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.8.48",
+          "basis": "ülke, şehir ve ev yönüne dua",
+          "note": "Sürgündeki halk, verdiği ülkeye, seçtiği şehre ve Süleyman'ın yaptığı eve yönelerek dua eder; 2:150'de yüzün bir eve döndürülmesiyle somut yöneliş paralelidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 30a",
+          "basis": "kalbi Tapınağa yöneltme",
+          "note": "Talmud, dışarıdaki kişinin kalbini İsrail'e, Kudüs'e, Mabede ve Kutsallar Kutsalı'na yöneltmesini öğretir; kıblenin ev ve yön görüntüsü için Yahudi ibadet okumasıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.78",
+          "basis": "merhametten doğan göksel ziyaret",
+          "note": "Tanrı'nın şefkatli merhameti yüzünden yukarıdan doğan ışık ziyaret eder; 1:1 ve 1:3'teki rahmetin hidayete kaynak olmasıyla birleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.79",
+          "basis": "ayakları esenlik yoluna yöneltmek",
+          "note": "Bu ziyaretin işi ayakları esenlik yoluna yöneltmektir; nimet ile yol gösterme bağı için doğrudan İncil paralelidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Titus.2.11",
+          "basis": "kurtuluş getiren lütfun görünmesi",
+          "note": "Tanrı'nın lütfu kurtuluş getirerek görünür; in‘âmın alınan bir armağan oluşuna Hristiyan karşılıktır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Titus.2.12",
+          "basis": "lütfun yaşam yolunda eğitmesi",
+          "note": "Aynı lütuf insanları ölçülü, adil ve dindarca yaşamaya eğitir; lütuf sadece verili şey değil, yürünecek yolu biçimleyen güçtür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "kılavuz çoban ve hayat suları",
+          "note": "Kuzu onları güdecek, hayat sularının pınarlarına yöneltecek ve Tanrı gözyaşlarını silecektir; yol nimeti ile varıştaki iyiliği birleştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.3.3",
+          "basis": "Rabbin yolunu hazırlamak ve yolları düz kılmak",
+          "note": "Yahya'nın ilanı Rabbin yolunu hazırlamayı ve yolları düz kılmayı söyler; sırât-ı müstakîm için gelişe hazırlayan bir yol imgesidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.4.21",
+          "basis": "ne dağda ne Yeruşalim'de ibadet",
+          "note": "İbadetin ne bu dağda ne de Yeruşalim'de yapılacağı saat, kıblenin yüzü eve döndürmesiyle aynı kutsal yön meselesine farklı Hristiyan cevap verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.4.23",
+          "basis": "Ruh ve hakikatte ibadet",
+          "note": "Gerçek tapınanların Baba'ya Ruh ve hakikatte tapınması, yer-yön merkezli ibadete dair bir önceki ayetin olumlu Hristiyan karşı anlatısıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Heb.10.14",
+          "basis": "tek sunuyla sonsuza dek yetkin kılmak",
+          "note": "Mesih'in tek sunusunun kutsananları sonsuza dek yetkin kıldığı iddiası, 5:3'te dinin tamamlanmasına ilişkin Kur'anî ifadeyle farklı bir Hristiyan tamamlama anlatısı kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Acts.7.19",
+          "basis": "Firavun'un halka zulmü",
+          "note": "Firavun'un soya kötü davranıp bebekleri ölüme bırakması, sarayda büyütülmeyi lütuf sayan sözün baskı politikasıyla gerilimini Hristiyan anlatıda da kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.90.17",
+          "basis": "נֹעַם / nʿm ve işi sağlamlaştırmak",
+          "note": "İbr. נֹעַם, hoşluk veya lütuf için N-ʿ-M ailesinin bir kullanımıdır; dua onu işimizin eserini sağlamlaştırmasıyla birleştirir ve yorumdaki iyi hâl ile nimetin tamamlanmasına ihtiyatlı dilsel köprü kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.25.14",
+          "basis": "vermediği armağanla övünen kişi",
+          "note": "Verilmeyen armağanla övünen kişi yağmursuz buluta benzetilir; insanlara karşı kendini ihsan sahibi gösterme tersini hedef alır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.2",
+          "basis": "sadakayı insan övgüsü için duyurmak",
+          "note": "Sadakayı borazanla duyuranların insanlardan övgü araması, iyiliği başkaları önünde kendine paye yapmakla ilgili Hristiyan uyarıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 4:7",
+          "basis": "verirken homurdanmamak",
+          "note": "Didache verirken tereddüt etmemeyi ve homurdanmamayı söyler; armağanı alıcıya serzeniş yapmama yönünde erken Hristiyan etik paraleldir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.4.7",
+          "basis": "aldığını kendi malı gibi övünmemek",
+          "note": "Her şeyi almış olanın, almamış gibi övünmemesi, nimeti kendi başarı ya da başkasına karşı üstünlük diye göstermeyi tersine çevirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.6",
+          "basis": "iki yolun farklı sonu",
+          "note": "YHWH'nin doğru kişilerin yolunu tanıması ve kötülerin yolunun yok oluşu, nimet verilen yol ile dışlanan yol ayrımına kısa bir iki-yol paralelidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 1.1",
+          "basis": "yaşam ve ölümün iki yolu",
+          "note": "Didache yaşam yolu ile ölüm yolunu karşı karşıya koyar; 1:7'deki toplulukların ayrılan yollarına erken Hristiyan etik köprü kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "hayata götüren yol",
+          "note": "Dar yolun hayata götürmesi ve az kişinin onu bulması, doğru yolun varışını Fâtiha'daki nimetli yol düşüncesiyle buluşturur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.14.6",
+          "basis": "İsa'nın kendisini yol diye tanıtması",
+          "note": "Fâtiha Tanrı'dan yola iletmesini ister; bu ayet İsa'nın kendisini Baba'ya giden yol diye tanıtır. Aynı yol iddiası farklı bir Hristiyan kurulum alır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.5.17",
+          "basis": "Yasa ve Peygamberleri yerine getirmek",
+          "note": "İsa'nın Yasa ve Peygamberleri kaldırmaya değil yerine getirmeye geldiği sözü, 5:3'teki dinin tamamlanmasıyla karşılaştırılacak bir Hristiyan tamamlama iddiasıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Rom.15.8",
+          "basis": "atalara verilen vaatleri doğrulamak",
+          "note": "Mesih'in sünnetlilere hizmetinin atalara verilen vaatleri doğrulamak için olduğu yorumu, Yakup hanesine uzanan nimetin Hristiyan okumasını verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Gal.3.8",
+          "basis": "İbrahim'de ulusların bereketlenmesi",
+          "note": "Pavlus, “sende bütün uluslar bereketlenecek” sözünü İbrahim'e önceden müjde diye okur; seçilmiş ve bereketlenen İbrahim için belirgin Hristiyan yorum köprüsüdür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.25",
+          "basis": "hayat, soluk ve her şeyi veren",
+          "note": "Her insana hayatı, soluğu ve her şeyi veren Tanrı, 1:2'deki bütün âlemlerin Rabbine evrensel sağlayıcı olarak karşılık verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.25.9",
+          "basis": "kurtuluşta sevinç ve Tanrıyı tanıma",
+          "note": "Kurtuluş gününde “işte Tanrımız budur” deyip sevinme, yola varanların 7:43'teki hamdiyle karşılaştırılacak nihai kurtuluş cevabıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.8",
+          "basis": "yol gösteren iyilik için şükretmek",
+          "note": "Doğru yolda yerleşecekleri şehre götürülmelerinin ardından YHWH'ye sadık sevgisi ve insanlara harikaları için şükretme çağrısı gelir; yol nimeti ile hamdi doğrudan birleştirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.9",
+          "basis": "aç ve susuzu iyi şeylerle doyurmak",
+          "note": "YHWH'nin susayan canı doyurup aç canı iyi şeylerle doldurması, 106:4'teki açlığı gideren Rab ve verilen nimet ilişkisini tamamlar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.116.12",
+          "basis": "bütün iyiliklere karşılık verme",
+          "note": "Mezmurcu “bana bütün iyilikleri için YHWH'ye ne vereceğim?” diye sorar; alıcının nimete hamd ve karşılıkla cevap vermesi için yalın bir formüldür."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.136.1",
+          "basis": "iyi olan Rabbe şükretmek",
+          "note": "YHWH'nin iyi oluşu ve kalıcı sadık sevgisi için şükretme formülü, rahmetten doğan iyilik ile el-hamdın temel litürjik bağını verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.8",
+          "basis": "bol iyiliğin adını yaymak",
+          "note": "Mezmur, Tanrı'nın bol iyiliğinin anısını coşkuyla yaymayı söyler; verenin iyiliklerini başkaları önünde sayan hamd için belirgin bir karşılıktır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.29.12",
+          "basis": "zenginlik, onur ve güç veren el",
+          "note": "Zenginlik ve onurun Tanrı'dan geldiğini, onun elinin büyütüp güç verdiğini söyler; yorumdaki uzanan el, Rab ve ihsanın kaynağını birleştirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.29.13",
+          "basis": "verene şükür ve adını övme",
+          "note": "İlahi elden gelen zenginlik ve gücün hemen ardından topluluk Tanrı'ya şükredip yüce adını över; nimetten hamde geçişin gerekli devamıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.15",
+          "basis": "gökten ekmek, kayadan su ve verilmiş ülke",
+          "note": "İsrail'in açlığına ekmek, susuzluğuna su verilip vaat edilen ülkeye girme emri verilmesi, besleme ile topluluk nimeti ve hedefe götürülmeyi tek tarihsel dua içinde toplar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.19",
+          "basis": "yolda bırakmayan bulut ve ateş",
+          "note": "Tanrı'nın merhametinden ötürü bulut sütununu gündüz yolu göstermek, ateşi gece aydınlatmak için halktan ayırmaması, hidayetin tamamlanmış nimetin bir parçası oluşudur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.20",
+          "basis": "iyi Ruh, manna ve su",
+          "note": "İyi Ruhun öğretişi ile manna ve suyun birlikte verilmesi, ilahi iyilikte yol eğitimi ile maddi beslemenin ayrılmadığını gösterir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.16.12",
+          "basis": "doyurucu ekmek ve Rabbin tanınması",
+          "note": "Mısır'dan çıkanlara akşam et, sabah doyacakları ekmek verilir ki YHWH'yi bilsinler; 106:3–4'te besleyen Rabbe kulluk/tanıma cevabını besler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.3",
+          "basis": "açlık, manna ve öğretici besleme",
+          "note": "YHWH'nin halkı aç bırakıp manna ile doyurması, rızkın insanı sözüyle yaşatmak için verilen eğitici bir nimet oluşunu anlatır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.26.11",
+          "basis": "hane ve yabancıyla verilen iyilikte sevinmek",
+          "note": "Kişinin hanesi, Levili ve yabancıyla Tanrı'nın verdiği bütün iyi şeylere sevinmesi, nimetin 1:7'deki gibi topluluğa yayıldığını ve ortak karşılık doğurduğunu gösterir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.24.13",
+          "basis": "çalışılmamış toprak ve kurulmamış şehir armağanı",
+          "note": "Tanrı'nın çalışmadıkları toprak, kurmadıkları şehir ve dikmedikleri bağları İsrail'e vermesi, nimetin insanın kendi harcamasına yazılamayacağını somutlaştırır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.24.14",
+          "basis": "verilmiş nimete cevap olarak Rabbe kulluk",
+          "note": "Verilen ülke ve ürünler anlatıldıktan sonra İsrail'e YHWH'den korkup ona kulluk etmesi emredilir; 106:3–4'ün rızık-kulluk düzeniyle doğrudan eşleşir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.7.8",
+          "basis": "sevgi, atalara yemin ve kurtuluş",
+          "note": "YHWH'nin sevgisi ve atalara verdiği yemini tutması nedeniyle İsrail'i Mısır'dan çıkarması, rahmetin soy boyunca tamamlanan nimete dönüşmesi için ana Tevrat ifadesidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.48.16",
+          "basis": "Yakup hanesine uzanan kurtuluş ve bereket",
+          "note": "Yakup, kendisini kötülükten kurtaran meleğin çocukları bereketlemesini ve atalarının adının onlarda sürmesini ister; 12:6'daki Yakup ailesine tamamlanacak nimet için aile içi sahnedir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.3.13",
+          "basis": "istenenden fazlasını vermek",
+          "note": "Tanrı Süleyman'a istemediği zenginlik ve onuru da vereceğini söyler; en‘ame'nin fazlasını verme ve artırma ikincil anlamına somut anlatıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.6",
+          "basis": "iyilik ve rahmetin eve varması",
+          "note": "İyilik ve sadık sevginin bütün günler takip etmesi ve YHWH'nin evinde oturma, rahmet, yol ve kutsal evin varışta birleştiği bir mezmur sonudur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.5",
+          "basis": "Rabbin yollarını öğretmesini istemek",
+          "note": "Dua eden, YHWH'nin yollarını kendisine bildirmesini ve patikalarını öğretmesini ister; ihdinâ sırâtal-müstakîm'in yalvarış biçimine yakındır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.6",
+          "basis": "hakikatte yöneltmek ve öğretmek",
+          "note": "YHWH'den hakikatte yöneltmesini ve öğretmesini istemek, yolun yalnız yön değil ilahi eğitim olarak da verilen nimet oluşunu açar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.27.12",
+          "basis": "yol öğretmek ve düz patikada götürmek",
+          "note": "YHWH'nin yolunu öğretmesi ve düşmanlar yüzünden düz patikada götürmesi için dua, sırât-ı müstakîm isteğinin yakın mezmur paralelidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.105",
+          "basis": "ayağa kandil, patikaya ışık",
+          "note": "Tanrı sözü ayağa kandil ve patikaya ışık olur; hidayetin yolda yürümeyi mümkün kılan nimet oluşunu kısa bir imgeyle taşır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.21",
+          "basis": "“yol budur, onda yürüyün”",
+          "note": "Arkadan gelen sesin “yol budur, onda yürüyün” demesi, doğru yolun doğrudan ilahi yönlendirme olarak verilmesidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.8",
+          "basis": "kutsallık yolu ve sapmayan yolcular",
+          "note": "Kutsallık yolunda yolcuların, hatta bilgisizlerin bile, yoldan sapmayacağı vaadi; nimet verilenlerin yolu ile sapmışların ayrımına yakın bir peygamberlik imgesidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.43.19",
+          "basis": "çölde yol ve ıssızda ırmak",
+          "note": "Tanrı'nın çölde yol, ıssız yerde ırmak yapması, hidayet ile doyurucu ihsanın en zor yerde birlikte yaratılmasıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.49.10",
+          "basis": "merhamet edenin doyurup suya yöneltmesi",
+          "note": "Açlık ve susuzluğun kalkması, merhamet edenin halkı su pınarlarına götürmesi; rahmet, rızık ve yolun tek vaatte birleşmesidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.9",
+          "basis": "babalık, su akıntıları ve düz yol",
+          "note": "Tanrı ağlayanları su akıntılarına, sendelemeyecekleri düz yola götürür ve kendisini İsrail'in babası diye açıklar; Rabbin koruyan iyiliği ile hidayetin birleşik sahnesidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 12:6",
+          "basis": "Tanrı'nın yaptıklarını yaşayanlara bildirmek",
+          "note": "Refael, Tanrı'yı bereketlemeyi, onun kendileri için yaptıklarını yaşayanların önünde tanımayı ve işlerini herkese duyurmayı buyurur; 93:11'in Yahudi anlatı karşılığıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.49",
+          "basis": "Kudretlinin bana büyük şeyler yapması",
+          "note": "Meryem, Kudretli'nin kendisi için büyük işler yaptığını yüceltici bir ilahide söyler; alıcının nimetini hamd içinde ilan etmesidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.54",
+          "basis": "İsrail'e merhameti hatırlayarak yardım etmek",
+          "note": "Tanrı'nın kul İsrail'e yardımının merhameti hatırlaması olarak anlatılması, 12:6'daki haneye ve atalara uzanan nimete Hristiyan ilahi paralelidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.6.11",
+          "basis": "şükürle ekmeği dağıtmak",
+          "note": "İsa ekmekleri alır, şükreder ve oturanlara diledikleri kadar dağıtır; veren el, doyurma ve şükür aynı sahnede birleşir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.4.4",
+          "basis": "yiyeceği şükranla kabul etmek",
+          "note": "Tanrı'nın yarattığı her iyi şeyin şükranla kabul edildiğinde reddedilmemesi, rızka verilen açık Hristiyan teşekkür cevabıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.11",
+          "basis": "zenginleştiren lütuf ve çoğalan şükran",
+          "note": "Her cömertlik için her bakımdan zenginleştirilmek, elçiler aracılığıyla Tanrı'ya şükran doğurur; artırılmış nimet ile hamdin zinciridir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.4.10",
+          "basis": "alınan armağanı birbirine hizmette kullanmak",
+          "note": "Herkes aldığı armağanı birbirine hizmet etmekte kullanır; iyiliğin bir elden ötekine ulaştırılması olarak in‘âmın cemaat içi biçimidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.10",
+          "basis": "lütufla hazırlanmış iyi işlerde yürümek",
+          "note": "Tanrı'nın önceden hazırladığı iyi işlerde yürümek üzere yaratılma, bağışlanan lütuf ile yolun birlikte yaşanmasıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.13.21",
+          "basis": "her iyi şeyle donatıp iradeyi yapmak",
+          "note": "Tanrı'nın iradesini yapmak için her iyi şeyle donatması ve içeride işlemesi, Rabbin iyiliği tamamlama ve düzene koyma işlevine Hristiyan karşılıktır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.21.6",
+          "basis": "tamamlanma ve hayat suyunun karşılıksız verilmesi",
+          "note": "“Tamamlandı” ilanıyla susayana hayat suyunun karşılıksız verilmesi, nimetin tamamlanması, bağış ve son varış temasını tek eskatolojik cümlede toplar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.22.25",
+          "basis": "iktidar sahibinin “iyilik yapan” diye anılması",
+          "note": "Ulusların kralları egemenlik sürer ve yetkililer “iyilik yapanlar” diye anılır; Firavun'un yetiştirme iyiliğini iktidar diliyle başa kakmasına eleştirel bir siyasi karşılıktır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.6.35",
+          "basis": "karşılık beklemeden iyilik ve ödünç",
+          "note": "Düşmanlara iyilik edip geri ödeme ummadan ödünç verme buyruğu, iyiliği alıcı üzerinde alacak veya üstünlük aracına çevirmemeyi Tanrı'nın iyiliğine bağlar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.20.35",
+          "basis": "vermenin almaktan daha bereketli oluşu",
+          "note": "İsa'ya atfedilen vermenin almaktan daha bereketli olduğu sözü, yorumun elden ele geçen iyilik imgesine belirgin ama daha genel bir etik paralel sağlar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.17",
+          "basis": "zevk için bolca sağlayan Tanrı",
+          "note": "Tanrı'nın zevk almak için her şeyi bolca sağladığı sözü, en‘ame'nin fazlasını verme ve artırma yönüne açık fakat anlatısız bir karşılıktır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.11",
+          "basis": "gündelik ekmeği verene yönelen dua",
+          "note": "Gündelik ekmeğin Baba'dan istenmesi, 106:4'teki rızkın gerçek kaynağına yönelen daha dolaylı bir dua paralelidir."
+        }
+      }
+    ],
+    "proposal_file": "followup.accepted.tsv",
+    "proposal_sha256": "83097d2e88ecdcf95c8eb6c9058936bf7ebe99ce02757f9c6c24740e701209a0",
+    "followup_sha256": "85dd9bc0c8ece3b783f3be0597751cfe9ec304af4c2c9d3749ccbe8f2190dbc1",
+    "initial_file": "turn1.accepted.tsv",
+    "initial_sha256": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4",
+    "raw_initial_sha256": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80"
+  },
+  "consolidation_error": null,
+  "list_sha256": "b8e52b6a860db3ce011b6fcd8f39c0781263f330a3a36caa9b16618c71c83f1e",
+  "followup_delivery": [
+    {
+      "call_id": "call_hqvVmekGXii0IPZW19Cudz0P",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 324128,
+    "cached_input_tokens": 219648,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 56454,
+    "reasoning_output_tokens": 46118,
+    "total_tokens": 380582
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:57:46.767Z",
+  "artifacts": {
+    "started.json": "dc77b6d444a4753216819deb9631abd657b2d40b4ba548a95359dac7c4de22bb",
+    "input.json": "6adf421441d0fbf70a367642fad22bbfe6e23b63ac28396555673b048813eb2a",
+    "prompt.md": "f11ce0d415ffae91976e1e8a83cc6a6f7c3d9771d9f273c88775c7b5172bcee6",
+    "package.md": "fc358ec73c7031af4fe7eb447ce88069d5d5caeb6a987cba1f849dabfc9bc986",
+    "spawn.md": "1157318e0b0016d254a14231f8acc6ca1772dd847e952bb564079e95a15615d1",
+    "followup.txt": "7bc6e65db853ec9a35c0f6bb9f866b5c560398d6991962584d48b990ee5c11da",
+    "turn1.json": "f44b89116e1e39648112e8016d61df67153f5f8a4207447b16aac16a9a4c4c99",
+    "turn1.list.tsv": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+    "followup.tsv": "85dd9bc0c8ece3b783f3be0597751cfe9ec304af4c2c9d3749ccbe8f2190dbc1",
+    "list.tsv": "b8e52b6a860db3ce011b6fcd8f39c0781263f330a3a36caa9b16618c71c83f1e",
+    "consolidation.json": "9039e50bba7ef9dbc0439ab6d55c2152199a07f488ffc5706911e32a7cc0171a",
+    "validation.json": "c8a8b2e6687aaff26e32492404b77cd62b1248c427fc3006d9e02460d83b0ffe",
+    "proposal_validation.json": "2ea13cebbcac96476c8f37e470ecc858b5e2f0728cd5869c70501d599498fbd0",
+    "tool_calls.json": "d8519028ee52571af0a0b1425e924f10bd3762297432556a44cd8d1499eb20a5",
+    "session.json": "7f746eddb0b841d96de2e2f6a1b33c62cd8a741d20563d2998ed7bca25ca746d",
+    "session.events.jsonl": "851b53762b3291bbc0a1b16fcf481595de9b218039baf64e58e0d87ba20ed3d9",
+    "run.failed.log.json": "2b5aed26b867d6dfe956c246b39910242d257c5b931512ca1cda434fb440cdd3",
+    "validation.failed.json": "150e590375c5b5c098961344013e7e035ffaaf581951714f4b0f454fe35c57b5",
+    "repair.proposed.json": "00fa5a4e61f21a5efc0a2850414ed50c1a4aa5a7397be33a0aa13d8d9000850b",
+    "followup.repair.proposed.tsv": "83097d2e88ecdcf95c8eb6c9058936bf7ebe99ce02757f9c6c24740e701209a0",
+    "followup.accepted.tsv": "83097d2e88ecdcf95c8eb6c9058936bf7ebe99ce02757f9c6c24740e701209a0",
+    "repair.accepted.json": "ad52e138c5287ec746ee68cf9dda7a96bffed7af5856be279bdc1c53efb37a8c",
+    "turn1.original.tsv": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+    "turn1.validation.failed.json": "150e590375c5b5c098961344013e7e035ffaaf581951714f4b0f454fe35c57b5",
+    "turn1.tool_calls.json": "a2313124d2b6543a3c23975c0098d66e01e37751fd546c07ab0631a33033a68c",
+    "turn1.repair.proposed.json": "3b0e56f3f58809de644bb438f89244b48612f76898cde7f669b5306d515fffce",
+    "turn1.repair.proposed.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4",
+    "turn1.accepted.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4",
+    "turn1.repair.accepted.json": "6d2809296948fa9c85a1a9af4ef5301da0a4ae1315d87af9ef6399746ee31563"
+  },
+  "first_turn_repair": {
+    "policy": "bible-first-turn-repair-v1",
+    "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+    "tool_audit_reviewed": true,
+    "accepted_at": "2026-10-05T15:50:59.893043+00:00",
+    "changes": [
+      {
+        "line": 17,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Ps.138.9",
+          "YHWH benim için tamamlayacak",
+          "YHWH'nin “benim için tamamlayacağı” sözü, nimeti bitiren ve düzene koyan Rab fikrini dua biçiminde taşır."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Ps.138.8",
+          "YHWH benim için tamamlayacak",
+          "YHWH'nin “benim için tamamlayacağı” sözü, nimeti bitiren ve düzene koyan Rab fikrini dua biçiminde taşır."
+        ],
+        "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+      },
+      {
+        "line": 28,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Ps.103.23",
+          "sonda tekrar Rabbe hamd",
+          "Bütün eserleriyle Rabb'i kutsama çağrısı mezmuru aynı hamdle kapatır; Fâtiha'daki baştaki ve yol sonundaki hamd yankısına biçimsel paraleldir."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Ps.103.22",
+          "sonda tekrar Rabbe hamd",
+          "Bütün eserleriyle Rabb'i kutsama çağrısı mezmuru aynı hamdle kapatır; Fâtiha'daki baştaki ve yol sonundaki hamd yankısına biçimsel paraleldir."
+        ],
+        "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+      },
+      {
+        "line": 74,
+        "before": [
+          "medium",
+          "tevrat",
+          "soydas",
+          "WLC:Ps.90.18",
+          "נֹעַם / nʿm ve işi sağlamlaştırmak",
+          "İbr. נֹעַם, hoşluk veya lütuf için N-ʿ-M ailesinin bir kullanımıdır; dua onu işimizin eserini sağlamlaştırmasıyla birleştirir ve yorumdaki iyi hâl ile nimetin tamamlanmasına ihtiyatlı dilsel köprü kurar."
+        ],
+        "after": [
+          "medium",
+          "tevrat",
+          "soydas",
+          "WLC:Ps.90.17",
+          "נֹעַם / nʿm ve işi sağlamlaştırmak",
+          "İbr. נֹעַם, hoşluk veya lütuf için N-ʿ-M ailesinin bir kullanımıdır; dua onu işimizin eserini sağlamlaştırmasıyla birleştirir ve yorumdaki iyi hâl ile nimetin tamamlanmasına ihtiyatlı dilsel köprü kurar."
+        ],
+        "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+      }
+    ],
+    "model_calls": 0,
+    "artifacts": {
+      "turn1.original.tsv": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+      "turn1.validation.failed.json": "150e590375c5b5c098961344013e7e035ffaaf581951714f4b0f454fe35c57b5",
+      "turn1.tool_calls.json": "a2313124d2b6543a3c23975c0098d66e01e37751fd546c07ab0631a33033a68c",
+      "turn1.repair.proposed.json": "3b0e56f3f58809de644bb438f89244b48612f76898cde7f669b5306d515fffce",
+      "turn1.repair.proposed.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4",
+      "turn1.accepted.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4"
+    }
+  },
+  "repair": {
+    "approval": "2026-10-05 user reply: Apply all 15 recorded follow-up corrections. Exact bundle: enrichment/bible/audits/pilot1-20261005/followup-repairs.proposed.json",
+    "accepted_at": "2026-10-05T16:04:05.154899+00:00",
+    "changes": [
+      {
+        "line": 19,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Ps.23.7",
+          "iyilik ve rahmetin eve varması",
+          "İyilik ve sadık sevginin bütün günler takip etmesi ve YHWH'nin evinde oturma, rahmet, yol ve kutsal evin varışta birleştiği bir mezmur sonudur."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Ps.23.6",
+          "iyilik ve rahmetin eve varması",
+          "İyilik ve sadık sevginin bütün günler takip etmesi ve YHWH'nin evinde oturma, rahmet, yol ve kutsal evin varışta birleştiği bir mezmur sonudur."
+        ],
+        "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+      }
+    ],
+    "raw_sha256": "85dd9bc0c8ece3b783f3be0597751cfe9ec304af4c2c9d3749ccbe8f2190dbc1",
+    "accepted_sha256": "83097d2e88ecdcf95c8eb6c9058936bf7ebe99ce02757f9c6c24740e701209a0",
+    "proposal_sha256": "00fa5a4e61f21a5efc0a2850414ed50c1a4aa5a7397be33a0aa13d8d9000850b",
+    "failed_log_sha256": "2b5aed26b867d6dfe956c246b39910242d257c5b931512ca1cda434fb440cdd3",
+    "model_calls": 0,
+    "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+  }
+}

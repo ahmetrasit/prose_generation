@@ -1,0 +1,287 @@
+{
+  "surah": 103,
+  "target": "103:1",
+  "brief": "ehlikitap",
+  "attempt": 1,
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": "high",
+  "base_sha256": "143e749487c29efe30f3fcf2d86e78d2aa115ac78d09b6ef001c5d6469b2b9f9",
+  "base_words": 3371,
+  "pack_sha256": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20",
+  "bible_inputs": {
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1.merged.tsv": "dc9d00e3cff121eb978ddcc99975a80cba370116ef6990690039d49858054cc9",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1.merged.json": "7b9888f9f20d84d315a44d808fe966988180c296e7c304b42fa71d6bb905147a",
+    "enrichment/bible/work/s103/discovery/s103-20261009/prefetch.json": "36fe427e69f203d8c99df1fbff3423b565be9be10b2ef777e332ad8cadfa82b1",
+    "enrichment/bible/work/s103/discovery/selected.json": "59d98d45cbbedc9690450ff0fd6d1d46042d96ea480ff2fdb0aff4bec506ee81",
+    "enrichment/bible/corpus/corpus.sqlite": "161a4734ebbfe94479a08a175c6b99852d83779771757c6afafeccb7c49c0fe3",
+    "enrichment/bible/corpus/corpus.manifest.json": "a7cc2a70a9cd34e127315e93151cd13e7f4213956911529c71a764aff9d3ba5d",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/run.log.json": "458def7408136beafe65993ca0b2876273a39ffc869fe105c62293f9d3b8c88e",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/started.json": "5e02d47673335da2798d7a43c323fd3a4d9723208d6f0d8aab1086267a151861",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/input.json": "73f030e93e4a64556f3223486def0fcf83405e01103c60f004ddc2e0c1b2e1ea",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/prompt.md": "413d15bae1a7661f2b7daefe3a9b05a261516ff37bd810a6503a76f8acefcbb6",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/package.md": "a648679ae9a31f3f92f6e0fd2686dd2f83147962f034a8241b0f533000d84dd7",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/spawn.md": "c1ad30bbc26b1444305ca24e970f7150370787b2dac00c140f4d2dc81e6fd17f",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/followup.txt": "41b6de6613ebda96eb272d04a30b68ee079f073cb61d75123c54d21c1224d66d",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/turn1.json": "c19c9df0d4390e198488e673b32447a2d21eb2e61428a1bf9d2040884c9b9824",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/turn1.list.tsv": "bfbbee686f168bc29843f2df263009aca45d15598a8aa2e432f582291610ed38",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/followup.tsv": "617a4d98f085f90dbfd0078ced8b57a2378436917fa716497b05d71d715d9294",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/list.tsv": "22d6a767d1e5fc239787987c29f7781c4135fdfdece27d9e598a483a1552d124",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/consolidation.json": "770d4fe2f54ef1853bee4fa728def58ee006e09014572c4b8652d4f76ae47496",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/validation.json": "f80a0a60487e6d57482bbcea3500867dfa37d1b1f777fae5cb2d9c994e295987",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/proposal_validation.json": "f1e6c78fb66ac18d28c4d3796ce242846b961c00c8323c14d2e2ff6ab61dad5e",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/tool_calls.json": "81c74a3afa4fd2faea858bc3094c5be5dd087c949b541458d4ab06a81486d704",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/session.json": "68cde982c3211dbfdec3c76194800d3ddadfb1b1973c9c47060ba5a584fbac01",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/session.events.jsonl": "f5a61b8b0f7c91a5aad4e4763ef9feb659e33eb17e67224c78aec73e44fd1b27",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/turn1.original.tsv": "bfbbee686f168bc29843f2df263009aca45d15598a8aa2e432f582291610ed38",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/turn1.validation.failed.json": "8fe6a6a69d55eabfbd93613ef7a46788f3b32f2a093ab90deb8aaa4009fdaf6a",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/turn1.tool_calls.json": "e536fcfeec72e4c78d582b32a2e62dbe6b970a411548dafb79aa38efddb860e0",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/turn1.repair.proposed.json": "082bbec655bcdc014a430c31a22fd096b38aee62b76122bb104df1860c60ada6",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/turn1.repair.proposed.tsv": "855033dde0354fd818d9b7251c8d71bfb93abae9fa8653945449c61a82cda5f5",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/turn1.accepted.tsv": "855033dde0354fd818d9b7251c8d71bfb93abae9fa8653945449c61a82cda5f5",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/luna/turn1.repair.accepted.json": "b288c4eddcdbc4899606b0a60381e42f9191ad4233aeb360d83b74ebc34ef43d",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/run.log.json": "8950ca15a1857cd419fc2f887f87cbf426b7d25f7fc252f56f68f4bfad72ff53",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/started.json": "98ac2c0dac3998e4f1df4eefcc6a555bdc777c81d0eb2cf55a63c0b690c08976",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/input.json": "73f030e93e4a64556f3223486def0fcf83405e01103c60f004ddc2e0c1b2e1ea",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/prompt.md": "47175a95334f4ee5e2af9e92e1bb9f58a0c9782b3949ef3e2ab56d26dc45a90d",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/package.md": "a648679ae9a31f3f92f6e0fd2686dd2f83147962f034a8241b0f533000d84dd7",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/spawn.md": "a5a024c1428e443c294e5b5d91b8fd6e8777b2f16e221a59e861a79355552f38",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/followup.txt": "c7be68b907a656f2173588aa3b4e1f93654aac36f62501c425565b6e79cc2207",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/turn1.json": "e31bf1f4214ac2bc63f3dd08599028b26480b7afe41c9846704c6c069480dc53",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/turn1.list.tsv": "d05867d0ace2e72d6e343ae4f8e3129af4c3feed74794a961311237a49ba2aef",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/followup.tsv": "f900331df41c9fae5c634344c24e9e2e8cab720acaf9889df8ba345831fe1a3d",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/list.tsv": "0e19102d26071e31b1a14fff72118957a18296f7173b06da68e5156d8e11d6df",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/consolidation.json": "f413ff9d420b3861b79fdce49a599ed0d6198bc13a07c15f7ab662177f6c68f6",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/validation.json": "ef31ab76e1f41c928b5b738e7b26ae8be7305459301c533fbf9bb67b86c15093",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/proposal_validation.json": "b70befa3b6a0e38ecd647a81c0ae2992fbd3a4a49dc35488cdf45eaa7fba3caf",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/tool_calls.json": "97a50abe36c15ad71bb67a693ec808da6a2131cf98e8a44f9d099947788a3082",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/session.json": "bbb5a232e36ecc04d5bd3404766388e51486e7f862971999ab70bfd07219daab",
+    "enrichment/bible/work/s103/discovery/s103-20261009/103_1/sol/session.events.jsonl": "d44bf02de788d994fabc58900eeb5e874fbb6d42db55abc27713e5e90c675ab0",
+    "enrichment/bible/corpus/CORPUSCORANICUM/segments.jsonl": "a47fbce979df7070baef798b0128d711f340e0be07ee2464b3663c438e2abfd8",
+    "enrichment/bible/corpus/CORPUSCORANICUM-INTERTEXT/segments.jsonl": "539c28ec0c6ca11b3ecdc353752d0b1b21cb3e35d0b96e117a512862ad74f670",
+    "enrichment/bible/corpus/KJV/segments.jsonl": "dd38a916322a032d87d24632341dc68386ceb7d9211f94eec6fcd49025a0eefa",
+    "enrichment/bible/corpus/QURAN/segments.jsonl": "d2410017c3ae8741b6c076a20c037df05c607cb5edcacfcde15f513729ef3722",
+    "enrichment/bible/corpus/SBLGNT/segments.jsonl": "4c4082cb563dd0b00bc53c9da3b83886069118b2eb20dc2e4fa8dc472c3cc41d",
+    "enrichment/bible/corpus/SEFARIA/segments.jsonl": "cc8b4a2b68fd4bbcc36c9aef4433e22968d4cbed3d29f396cf15acdfaa621336",
+    "enrichment/bible/corpus/TDVIA/segments.jsonl": "086b3769e4f01bce616bb3815d8d9c064e441f72fd9cec3fd6c88c2fad12559f",
+    "enrichment/bible/corpus/WLC/segments.jsonl": "65392d2668d2bccd2d84d2bd8f5a1be7dcdc6b57ebac54860f39ec2316c66bce",
+    "enrichment/bible/corpus/ACADEMIC/source.json": "560a276907e57223d8e65d4f26157e7e06780cc1bdce62493d9cb6d60ae36851",
+    "enrichment/bible/corpus/ASAD-NOTES/source.json": "917eb10ce3fdb00e89d84376100ce5eea4d16ea0aecfd861d7ff83b86dba2125",
+    "enrichment/bible/corpus/CORPUSCORANICUM/source.json": "b0af23dd8291d98c13cddff469fc574952b0dcb91c22fbb9ea4fd868865d1cf3",
+    "enrichment/bible/corpus/CORPUSCORANICUM-INTERTEXT/source.json": "b3a0fd68b34c85e8c9d521daab4d972565bcbce5ea6a6e5eecc052340c89c67d",
+    "enrichment/bible/corpus/EQ/source.json": "584d59375da94cf90dd7d31ff347bd5e6e34606dc2d2ee074bcec1b8e705e828",
+    "enrichment/bible/corpus/KHULI/source.json": "953d3466b21b111443dfe43af6b3a41e6ffa058519f005cb5bf820cdc1337a52",
+    "enrichment/bible/corpus/KJV/source.json": "951d7759c9d1825ee63e27648bd5f133118162b5699b0acfbb27cf6c6e3b761a",
+    "enrichment/bible/corpus/NEUWIRTH-KORAN1/source.json": "15b8302e5688d7c2b6cab17d6bfee0c068a428b7d6a4465d2d56da78cfc9ff8f",
+    "enrichment/bible/corpus/NOLDEKE-GDQ/source.json": "d2834fa2cfbb61a9b38d2b37d450db1cee3cfc7aadfae3dbb624f44202763351",
+    "enrichment/bible/corpus/QURAN/source.json": "dfcb659f58ebb2cc9e566f67a0b5dab6b9fa4f2544b92bb7ad7b912582cd5c49",
+    "enrichment/bible/corpus/SBLGNT/source.json": "9149d831be5ad488e415b4ca71be29f6947c94ee754819a49a3158af5a94a894",
+    "enrichment/bible/corpus/SEFARIA/source.json": "cee54bd3c2db09f9135aadb5257d94e41f727f0c86b703d49726c4dbfe5c5843",
+    "enrichment/bible/corpus/TDVIA/source.json": "2de15b08dc195d8d70277a45a30558ddcea205d778e8bcc36ca1e7abc93e50fb",
+    "enrichment/bible/corpus/WLC/source.json": "56d47879eb28e1c533656c0cf3f1da35b1a44bbfc1db05f3066c550d289f458a",
+    "enrichment/bible/work/s103/pack/base.json": "efa2c53db709e7231af5071bcf073cad4d57057f8c219228a480583c44817c58",
+    "enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "enrichment/bible/work/s103/pack/numbered/103_2.md": "e1271acfb3a791f2442b15d5177b896d6bd40ac9ede38ff8db6d513eb456df9b",
+    "enrichment/bible/work/s103/pack/numbered/103_3.md": "eaec8b0dc74a6162659e19f627241ad7b47c0ad4c4e0623e901f4f083299f817",
+    "enrichment/bible/work/s103/pack/numbered/103_1.md": "3faa277a4c7409a28912689d5ddd3213656d71d247478737c72aadd2b8965ed5",
+    "enrichment/bible/work/s103/pack/numbered/surah.md": "f776b575cf6e79ac80154289121911fcda9fb283b74286041179ee9156448669",
+    "enrichment/bible/work/s103/pack/base/103_2.md": "5a40a719f7333038a1de371602a4779750462f7707f552899676ee3a53c517db",
+    "enrichment/bible/work/s103/pack/base/103_3.md": "b1ba8705fa019df3b281ed519fc7cd8a3a395a045a2435a70eb1a4e84333800c",
+    "enrichment/bible/work/s103/pack/base/103_1.md": "143e749487c29efe30f3fcf2d86e78d2aa115ac78d09b6ef001c5d6469b2b9f9",
+    "enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "enrichment/bible/corpus/HEBLEX/index.json": "51cef12db416b6d8dc02b7e41cf5fa94fb137ddd655c71321c8ae42a8f2403d9"
+  },
+  "estimate": "no calibration yet for opus:high ayah pages (base 3371 words)",
+  "semitic_roots": [
+    "ص ب ر",
+    "ع ص ر"
+  ],
+  "started": "2026-10-09T01:56:44",
+  "prompt_sha256": "eb0101227fd54e5b75927887de5c78877323fb852f00c56ceb0dec1e8a0f2fd7",
+  "runner": "agent",
+  "output": "annotations.jsonl",
+  "cost_usd": 5.714877,
+  "cost_basis": "nominal transcript estimate using Bible-local accounting snapshot",
+  "transcript": "/Users/ahmetrasit/.claude/projects/-Volumes-aro-projects-prose-generation/6a69a0c0-dd83-4dc9-b0c1-de16e66b19bd/subagents/agent-ae7d5224ee89172fe.jsonl",
+  "usage": {
+    "input": 108,
+    "cache_5m": 602510,
+    "cache_1h": 0,
+    "cache_read": 10052777,
+    "output": 34567
+  },
+  "stop_reason": "tool_use",
+  "allowed_beyond_original_grammar": [
+    {
+      "index": 1,
+      "call_id": "toolu_017QBY7ZiFpG2KaxBDKCNxbL",
+      "kind": "read",
+      "allowed_by": "widened grammar",
+      "reason": "read-only cat on allowed inputs"
+    },
+    {
+      "index": 2,
+      "call_id": "toolu_01TSfNTp1QpG8K2B6MbnwQ1g",
+      "kind": "read",
+      "allowed_by": "widened grammar",
+      "reason": "read-only cat on allowed inputs"
+    },
+    {
+      "index": 3,
+      "call_id": "toolu_01CrDjBZvh3AAdyBWxyH4XpT",
+      "kind": "read",
+      "allowed_by": "widened grammar",
+      "reason": "read-only ls on allowed inputs"
+    },
+    {
+      "index": 4,
+      "call_id": "toolu_01R345M8MQCDqBXJNpuGnBGM",
+      "kind": "own_output",
+      "allowed_by": "widened grammar",
+      "reason": "harness-persisted output of an earlier call, announced in this transcript"
+    },
+    {
+      "index": 5,
+      "call_id": "toolu_01Jkp9hhw68MKsSTeaK1HHfC",
+      "kind": "read",
+      "allowed_by": "widened grammar",
+      "reason": "read-only head on allowed inputs; read-only echo on allowed inputs; read-only wc on allowed inputs"
+    },
+    {
+      "index": 6,
+      "call_id": "toolu_01CtrGzNjN8PmiGN7nAasjBU",
+      "kind": "own_edit",
+      "allowed_by": "operator review",
+      "reason": "mkdir of the call directory or scratchpad"
+    },
+    {
+      "index": 7,
+      "call_id": "toolu_01FxJsMv4WJCuD6uyEzDuAbE",
+      "kind": "read",
+      "allowed_by": "widened grammar",
+      "reason": "read-only head on allowed inputs; read-only echo on allowed inputs; inline python reading allowed inputs (without -I)"
+    },
+    {
+      "index": 8,
+      "call_id": "toolu_01MYUmCCcsCX5BRdwUoBVkTH",
+      "kind": "helper",
+      "allowed_by": "operator review",
+      "reason": "helper script written to the session scratchpad"
+    },
+    {
+      "index": 9,
+      "call_id": "toolu_014upeT9Sm54MQkirj1dvV3w",
+      "kind": "helper",
+      "allowed_by": "operator review",
+      "reason": "helper dump.py on allowed inputs and the call directory"
+    },
+    {
+      "index": 10,
+      "call_id": "toolu_01MteourbarTx2PNuyJPtrpw",
+      "kind": "own_output",
+      "allowed_by": "widened grammar",
+      "reason": "harness-persisted output of an earlier call, announced in this transcript"
+    },
+    {
+      "index": 11,
+      "call_id": "toolu_01ThxWSfQbvjf8i4tcTdZUYH",
+      "kind": "helper",
+      "allowed_by": "operator review",
+      "reason": "helper script written to the session scratchpad"
+    },
+    {
+      "index": 12,
+      "call_id": "toolu_01N8cew5AHmnUSNBUHGsnUMe",
+      "kind": "helper",
+      "allowed_by": "operator review",
+      "reason": "helper pf.py on allowed inputs and the call directory"
+    },
+    {
+      "index": 43,
+      "call_id": "toolu_018PudTTsMgfPdYAdodF22c9",
+      "kind": "read",
+      "allowed_by": "widened grammar",
+      "reason": "read-only grep on allowed inputs; read-only head on allowed inputs"
+    },
+    {
+      "index": 46,
+      "call_id": "toolu_01VGApxGE8tSgKwj1mcVufhD",
+      "kind": "read",
+      "allowed_by": "widened grammar",
+      "reason": "read-only grep on allowed inputs"
+    },
+    {
+      "index": 52,
+      "call_id": "toolu_015tNEhhPSrqiWW58V4NPv2A",
+      "kind": "own_edit",
+      "allowed_by": "widened grammar",
+      "reason": "sed -i on own call-directory files; read-only grep on allowed inputs"
+    },
+    {
+      "index": 53,
+      "call_id": "toolu_01FLzkEpNvQ5VcgZVpZ2veWZ",
+      "kind": "helper",
+      "allowed_by": "operator review",
+      "reason": "helper script written to the session scratchpad"
+    },
+    {
+      "index": 54,
+      "call_id": "toolu_01WQTVefi9SmG1ynCCPiATVj",
+      "kind": "helper",
+      "allowed_by": "operator review",
+      "reason": "helper build_verdicts.py on allowed inputs and the call directory"
+    },
+    {
+      "index": 55,
+      "call_id": "toolu_01A19f1HZrxuF4yxnWA9v6bK",
+      "kind": "helper",
+      "allowed_by": "operator review",
+      "reason": "helper script written to the session scratchpad"
+    },
+    {
+      "index": 56,
+      "call_id": "toolu_018t7WgPheuqGQPDvQJ6rUGK",
+      "kind": "helper",
+      "allowed_by": "operator review",
+      "reason": "helper build_verdicts.py on allowed inputs and the call directory"
+    },
+    {
+      "index": 58,
+      "call_id": "toolu_01LAG9GUes5hHLkk6neob2aD",
+      "kind": "helper",
+      "allowed_by": "operator review",
+      "reason": "helper script written to the session scratchpad"
+    },
+    {
+      "index": 59,
+      "call_id": "toolu_011TgbJB175Kka7fXdGmz93T",
+      "kind": "helper",
+      "allowed_by": "operator review",
+      "reason": "helper build_gaps.py on allowed inputs and the call directory"
+    },
+    {
+      "index": 62,
+      "call_id": "toolu_01QpYWDoQ1hLUcmmEzUsipkj",
+      "kind": "read",
+      "allowed_by": "widened grammar",
+      "reason": "inline python reading allowed inputs"
+    },
+    {
+      "index": 70,
+      "call_id": "toolu_01HKsUmdUsY5wgekrTioQq8a",
+      "kind": "read",
+      "allowed_by": "widened grammar",
+      "reason": "print-only sed on allowed inputs; read-only cut on allowed inputs"
+    }
+  ],
+  "tool_use_outside_rule": [],
+  "operator_review_sha256": "220c45667f390267a5e099d455c4788145ce4e8f9a9136b31324713c80dad7cc",
+  "reaudit_of": "run.log.failed-1.json",
+  "status": "ok",
+  "check": "ok",
+  "kept": 65,
+  "dropped": 0,
+  "warnings": 0,
+  "errata": 0,
+  "seconds": 4221
+}

@@ -1,0 +1,2267 @@
+{
+  "target": "87:18",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/87_18.md",
+  "base_sha256": "358fa63515f29b9372f2495b75ab45f0a2f82b71e57342a2217966543f6f9593",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T14:08:13.303329-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_87_18_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "2898770fe78b72dd8bd4cee43339c36bc9d945ecf3b16f7476d13410ef8fe723",
+  "package_sha256": "ee349c459177493704a29cf88fc4da39cc92ae56da6953dceb65d453c41f66e7",
+  "input_sha256": "9c2ac540f20419f3f4ca0a8ebd7076af26101e41c126187ccf856be3c4539a86",
+  "spawn_sha256": "96e495fb0c78d717f9751cb1731468a3b7bc243e01fc445d8fc4b3e22aabb89d",
+  "followup_text_sha256": "abc349902504ad2cc149e25e48a46eb83a257bb46b09ea8da3005d6d42a5fc9c",
+  "agent_id": "01a10d44-5939-7b60-bfce-93a692d2b93e",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T14-12-25-01a10d44-5939-7b60-bfce-93a692d2b93e.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 108,
+  "turn1_sha256": "9a5c4ebac2199137f125aa1f38228ca4a2a8449c3a227b499ad1f941b6d37b94",
+  "turn2": {
+    "completed": true,
+    "rows_total": 167,
+    "rows_added": 59
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 108,
+    "raw_proposal_rows": 59,
+    "unique_additions": 59,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.24.4",
+          "basis": "Moses writes covenant words",
+          "note": "The commentary names Moses as recipient of the first pages; after Sinai, Moses writes the LORD's words in a book, locating the written witness in Moses' own scriptural story."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.24.7",
+          "basis": "Book of the Covenant read aloud",
+          "note": "The commentary links old pages to a recited teaching; here Moses reads the written covenant in the people's hearing, and they answer by undertaking to obey it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.31.24",
+          "basis": "Moses completes the written Torah",
+          "note": "The commentary says the current warning is already in ancient pages; this verse explicitly says Moses completed writing the words of the Torah in a book."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.26",
+          "basis": "Book kept as a witness",
+          "note": "The commentary calls the first pages a witness against the charge of novelty; Moses orders the completed book placed beside the ark as a witness against Israel, giving the text a future-testimony role."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.11",
+          "basis": "Public reading of the Torah",
+          "note": "The commentary connects scripture with a message heard rather than a page handed to the Prophet; Moses orders the Torah read aloud before all Israel at the appointed gathering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.12",
+          "basis": "All Israel hears and learns",
+          "note": "The commentary's pages preserve instruction for later hearers; this assembly includes men, women, children, and resident aliens so they hear, learn, and fear the LORD."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.13",
+          "basis": "Children learn through hearing",
+          "note": "The commentary says the word reaches a later generation without the Prophet consulting a page; Moses specifically includes children who have not known the Torah, so they hear and learn it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.8.8",
+          "basis": "Reading with explanation",
+          "note": "The commentary presents recitation as the means by which written teaching becomes present to hearers; in Nehemiah, Levites read from the Torah and explain its sense so the assembly understands."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.36.4",
+          "basis": "Jeremiah dictates a scroll",
+          "note": "The commentary contrasts old written pages with the Prophet's received recitation; Jeremiah dictates the LORD's words and Baruch writes them on a scroll, making the prophet's speech a written document."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.36.10",
+          "basis": "Baruch reads the scroll publicly",
+          "note": "The commentary joins ancient pages to audible proclamation; Baruch reads Jeremiah's scroll in the temple before the gathered people and officials."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.36.28",
+          "basis": "The burned words are rewritten",
+          "note": "The commentary says the teaching endured from the first pages to its present recitation; after Jehoiakim burns the scroll, Jeremiah is told to write the same words again, showing the message surviving destruction of its copy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.2",
+          "basis": "A vision made readable",
+          "note": "The commentary pictures old writing as an open, legible surface; Habakkuk is told to write the vision plainly on tablets so a reader can run with it, explicitly joining a written revelation to its public transmission."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.6",
+          "basis": "Words kept in the heart",
+          "note": "The commentary says the pages' message reaches the Prophet as recitation and is retained; Moses commands Israel to keep these words in the heart, joining scripture with inward memory."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.7",
+          "basis": "Words recited to children",
+          "note": "The commentary treats the old teaching as a living word heard by later people; Deuteronomy requires parents to teach and speak it at home, on the road, at bedtime, and at rising."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.3",
+          "basis": "What fathers heard is told onward",
+          "note": "The commentary answers the claim that the message is new by locating it among earlier generations; the psalm says its teaching was heard and known from the fathers who told it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.4",
+          "basis": "The next generation is not left ignorant",
+          "note": "The commentary says an ancient warning remains present rather than forgotten; the psalm refuses to hide the fathers' praise-worthy acts from their children and pledges to tell the next generation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.7",
+          "basis": "Remembering leads to trust and obedience",
+          "note": "The commentary links recited remembrance to fear of God and the surah's counsel; Psalm 78 says the next generation should hope in God, not forget his works, and keep his commands."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.7",
+          "basis": "Ask the elders about days of old",
+          "note": "The commentary answers “we never heard this from our ancestors” by asserting ancient continuity; Moses tells the audience to remember former days and ask their fathers and elders."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.14",
+          "basis": "The word is near, in mouth and heart",
+          "note": "The commentary says the Prophet receives the pages' content by recitation rather than by handling them; Deuteronomy describes the commandment as near, in the hearer's mouth and heart, ready to be done."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.8",
+          "basis": "God's word outlasts fading life",
+          "note": "The commentary says the world passes but the statement about the lasting hereafter has itself endured; Isaiah contrasts withering grass and flowers with God's word standing forever."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.89",
+          "basis": "The word fixed forever",
+          "note": "The commentary treats the first pages as a durable witness across generations; the psalm says God's word is established in heaven forever, supplying a concrete scriptural image of permanence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.16",
+          "basis": "A book of remembrance for the God-fearing",
+          "note": "The commentary connects fear of God, remembrance, and preserved pages; Malachi describes those who fear the LORD speaking together while a book of remembrance is written before him for them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.4",
+          "basis": "Prophetic words sealed for the end",
+          "note": "The commentary says the first writing bears witness to the final outcome; Daniel is told to shut up and seal the words until the time of the end, a different but concrete model of an ancient text preserved for a later age."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.24.16",
+          "basis": "Each person answers for their own sin",
+          "note": "The commentary joins self-purification to the saying that no bearer carries another's burden; Deuteronomy's legal rule says parent and child are not executed for one another's sin, but each for their own."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.18.20",
+          "basis": "A child does not bear a parent's iniquity",
+          "note": "The commentary reads purification as one's own act and cites the rule that none bears another's load; Ezekiel explicitly assigns guilt to the person who sins, not to that person's father or son."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.18.21",
+          "basis": "Turning from sin brings life",
+          "note": "The commentary's “one who purifies himself” is an individual turning toward good; Ezekiel says the person who turns from transgression, keeps the statutes, and does right shall live."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.30",
+          "basis": "Each dies for their own iniquity",
+          "note": "The commentary's cited page teaching denies transferred burdens; Jeremiah answers the sour-grapes proverb by saying each person dies for their own iniquity, sharpening the move from inherited blame to individual responsibility."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.13",
+          "basis": "Fear God and keep the commandments",
+          "note": "The commentary's nearby verses join fearing God, purification, and prayer to the choice of the hereafter; Ecclesiastes closes by making fear of God and keeping his commandments the whole human duty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.14",
+          "basis": "Every deed comes to judgment",
+          "note": "The commentary places the more enduring hereafter against present preference; Ecclesiastes grounds that contrast in God's judgment of every deed, including what is hidden."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.2",
+          "basis": "Awakening to everlasting life",
+          "note": "The commentary says the hereafter is better and more enduring than present life; Daniel's sleepers awake, some to everlasting life and others to disgrace, giving that future a resurrection setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.49.17",
+          "basis": "Wealth cannot follow at death",
+          "note": "The commentary challenges preferring the near life to the lasting one; Psalm 49 says a person takes nothing from wealth at death and that splendor does not descend after him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "Wisdom of Solomon 2:6",
+          "basis": "The wicked choose immediate pleasure",
+          "note": "The commentary rejects preferring the present life because the hereafter is more enduring; Wisdom 2 puts the opposite case in the mouths of the wicked, who urge one another to enjoy present goods and youth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "Wisdom of Solomon 3:1",
+          "basis": "The righteous are safe beyond apparent death",
+          "note": "The commentary says the afterlife is the better, abiding outcome; Wisdom says the souls of the righteous are in God's hand and seem only to have died, directly overturning a worldly judgment of their fate."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "2 Maccabees 7:9",
+          "basis": "A martyr chooses resurrection over survival",
+          "note": "The commentary says the later life is better than the near one; the second brother accepts death under torture while confessing that the King of the world will raise the faithful to renewed life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "2 Maccabees 7:14",
+          "basis": "Hope beyond death",
+          "note": "The commentary makes the enduring hereafter the reason not to privilege present life; the fourth brother says he hopes to be raised by God, while his persecutor has no share in resurrection to life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.2.17",
+          "basis": "The world passes; God's will remains",
+          "note": "The commentary contrasts the passing world with what is more enduring; John says the world and its desire are passing away, while the one who does God's will remains forever."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.26",
+          "basis": "Moses values the future reward above Egypt",
+          "note": "The commentary names Moses' pages as a source for rejecting worldly preference; Hebrews depicts Moses refusing Egypt's treasures and choosing reproach because he was looking to the reward."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.8.36",
+          "basis": "The whole world cannot outweigh life",
+          "note": "The commentary asks why one would prefer the near world over the lasting hereafter; Jesus asks what profit it is to gain the whole world and forfeit one's life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.20",
+          "basis": "Treasure that does not decay",
+          "note": "The commentary calls the hereafter more enduring than worldly life; Jesus tells hearers to store treasure in heaven, where moth and rust do not destroy it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.18",
+          "basis": "Visible things are temporary",
+          "note": "The commentary says the world passes while the message about the hereafter lasts; Paul contrasts what is seen and temporary with what is unseen and eternal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.15.4",
+          "basis": "Earlier writings teach and sustain hope",
+          "note": "The commentary says 87:18 answers novelty by locating its teaching in first pages; Paul says what was written in former times was written for present instruction and endurance, to give hope."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.10.11",
+          "basis": "Ancient events written for later admonition",
+          "note": "The commentary treats old pages as a warning to present hearers who prefer the world; Paul says the earlier events occurred as examples and were written down for admonition of later generations."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Gal.3.8",
+          "basis": "Scripture preached beforehand to Abraham",
+          "note": "The commentary names Abraham among the recipients of the first pages; Paul reads Genesis as scripture foreseeing the Gentiles' justification and announcing the gospel beforehand to Abraham."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:John.5.46",
+          "basis": "Moses' writing witnesses to a later message",
+          "note": "The commentary answers that the present teaching is not a new invention by naming Moses' pages; Jesus says Moses wrote about him, making the older Torah a witness to a later proclamation and criticizing hearers who reject both."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.26.22",
+          "basis": "Paul claims continuity with Moses and the prophets",
+          "note": "The commentary's central claim is that the current warning was already in ancient pages; Paul tells Agrippa that he says nothing beyond what Moses and the prophets said would happen."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.3.15",
+          "basis": "Scripture known from childhood guides salvation",
+          "note": "The commentary describes an old text whose recited teaching still instructs its hearers; Timothy's sacred writings, known from childhood, are said to make him wise for salvation through faith in Christ."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.24",
+          "basis": "Flesh fades like grass",
+          "note": "The commentary's adjacent claim is that worldly life passes while its message endures; Peter compares all flesh to grass and its glory to a flower that falls."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.25",
+          "basis": "The preached word endures",
+          "note": "The commentary says the ancient pages' statement has survived to the Prophet's recitation; Peter says the Lord's word remains forever and identifies it with the gospel preached to his readers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.12",
+          "basis": "The dead judged from opened books",
+          "note": "The commentary links pages, deeds, and the eventual outcome; Revelation depicts books opened at judgment and the dead judged according to what was written in them and what they had done."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.5",
+          "basis": "Each carries their own load",
+          "note": "The commentary's reading of purification is personal and is paired with “no bearer bears another's burden”; Paul says each person will carry their own load."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.14.12",
+          "basis": "Each gives an account to God",
+          "note": "The commentary connects the old pages' warning with each person's own conduct; Paul says each of us will give an account of himself to God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.5.10",
+          "basis": "Each receives for deeds done in the body",
+          "note": "The commentary links personal purification and the enduring hereafter; Paul says all must appear before Christ's judgment seat so each may receive for what was done in the body."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.6",
+          "basis": "God repays according to deeds",
+          "note": "The commentary pairs individual action with the coming outcome; Paul says God will repay each person according to their deeds, explicitly connecting conduct and judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.7",
+          "basis": "Eternal life for those seeking what lasts",
+          "note": "The commentary says the afterlife is better and more enduring; Paul specifies eternal life for those who persevere in good work while seeking glory, honor, and immortality."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.3",
+          "basis": "Hope purifies the hopeful person",
+          "note": "The commentary says the successful person “purifies himself”; John uses the same reflexive moral pattern, saying everyone with this hope purifies himself as Christ is pure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.8",
+          "basis": "Clean hands and purified hearts",
+          "note": "The commentary joins purification to remembrance of God and prayer; James calls those drawing near to God to cleanse their hands and purify their hearts.",
+          "raw_ref": "SBLGNT:James.4.8",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.15",
+          "basis": "Prayer with unclean hands is rejected",
+          "note": "The commentary places purification beside remembering God's name and prayer; Isaiah depicts worshippers spreading hands in prayer, but God refuses to hear because their hands are full of blood."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.16",
+          "basis": "Wash and make yourselves clean",
+          "note": "The commentary says the person who purifies himself succeeds; Isaiah's answer to corrupt worship is a concrete command to wash and cleanse, then cease doing evil."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.17",
+          "basis": "Purity expressed as justice",
+          "note": "The commentary links purification and prayer, not mere ritual display; Isaiah specifies learning good, seeking justice, and defending the vulnerable as the ethical turn that follows cleansing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.14",
+          "basis": "God brings grass up for cattle",
+          "note": "The commentary links the surah's opening pasture to Moses' description of God sending rain and bringing out plants; the psalm says God makes grass grow for livestock and plants for human use."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Luke.16.29",
+          "basis": "Moses and the prophets already speak",
+          "note": "The commentary says people asking for new sheets lack fear, since the old pages already give warning; in Jesus' story Abraham answers a dead rich man's request by pointing to Moses and the prophets, which his brothers should hear."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Luke.16.31",
+          "basis": "A new sign cannot replace hearing scripture",
+          "note": "The commentary says another page would not cure refusal to heed the existing warning; Abraham's reply is that those who will not hear Moses and the prophets will not be persuaded even by someone rising from the dead."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.10.12",
+          "basis": "Fear, love, and service",
+          "note": "The commentary joins fear of God to purification and prayer; Moses asks Israel to fear the LORD, walk in his ways, love and serve him with all the heart and soul."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.6",
+          "basis": "God purifies the heart",
+          "note": "The commentary describes a person purifying himself, while Ezekiel and other texts personalize responsibility; Deuteronomy adds that God circumcises the heart so Israel may love him, making divine aid part of inner renewal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.19",
+          "basis": "Choose life rather than death",
+          "note": "The commentary says hearers prefer the near life despite the better hereafter; Moses sets life and death before Israel and urges them to choose life by loving and clinging to God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.2",
+          "basis": "The righteous meditate on Torah continually",
+          "note": "The commentary says the old word is recited, remembered, and acted on; Psalm 1 locates the righteous person's delight in the LORD's instruction, meditated on day and night."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.6",
+          "basis": "Two paths end differently",
+          "note": "The commentary's world/hereafter contrast culminates in different outcomes; Psalm 1 says the LORD knows the way of the righteous while the way of the wicked perishes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.49.16",
+          "basis": "Do not envy worldly splendor",
+          "note": "The commentary rebukes preference for worldly life; Psalm 49 tells the hearer not to fear when another grows rich and his household's glory increases, setting up the death-boundary made explicit in v.17."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.24.12",
+          "basis": "God weighs the heart and repays deeds",
+          "note": "The commentary says each person's choice matters and cites the rule that no one bears another's burden; Proverbs answers the excuse “we did not know” by saying the heart-weigher sees and repays each according to work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.18.30",
+          "basis": "Turn and live",
+          "note": "The commentary's purification is a person's own turning, not a transferred act; Ezekiel calls the house of Israel to repent and turn from transgressions so iniquity will not be a stumbling block."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.22",
+          "basis": "Remember Moses' Torah before the coming day",
+          "note": "The commentary names Moses' pages and says their teaching addresses the final outcome; Malachi closes by telling Israel to remember the Torah commanded to Moses at Horeb before the coming day of the LORD."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.46.10",
+          "basis": "The end announced from the beginning",
+          "note": "The commentary says the first pages already tell where all things will end; Isaiah portrays God as declaring the end from the beginning and bringing his purpose to completion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.1.8",
+          "basis": "Moses' book leads the successor",
+          "note": "The commentary pictures the first writings as going ahead and later speech following their path; Joshua, Moses' successor, is told to keep the Torah book in his mouth, meditate on it, and act according to it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.26.5",
+          "basis": "Abraham obeys God's commandments",
+          "note": "The commentary names Abraham as recipient of ancient pages; Genesis says Abraham obeyed God's voice and kept his charge, commandments, statutes, and instructions, giving a concrete ancestral precedent for the teaching."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.15.6",
+          "basis": "Abraham's faith counted as righteousness",
+          "note": "The commentary names Abraham among the first recipients; Genesis presents Abraham believing God and being counted righteous, the verse Paul later treats as an early scriptural witness to faith."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 44:20",
+          "basis": "Abraham keeps the law and covenant",
+          "note": "The commentary's final verse names Abraham and Moses together; Ben Sira remembers Abraham as keeping the law of the Most High and entering a covenant, showing a Jewish retelling that makes him a model of ancient fidelity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 45:1",
+          "basis": "Moses' memory is praised",
+          "note": "The commentary names Moses as bearer of the old pages; Ben Sira's praise of the ancestors turns to Moses as beloved by God and honored, adding a Jewish wisdom portrait of the named lawgiver."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 64:4",
+          "basis": "Abraham observed Torah before Sinai",
+          "note": "The commentary's “first pages” include Abraham as well as Moses; this midrash reads Genesis 26:5 to say Abraham kept the Torah before it was given, extending the antiquity of revealed practice to the patriarch."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Targum Onqelos on Genesis 26:5",
+          "basis": "Abraham's obedience rendered as Torah observance",
+          "note": "The commentary names Abraham's pages but leaves their contents open; Onqelos renders the Genesis account in terms of Abraham keeping God's commandments and teachings, giving an Aramaic interpretive bridge from the patriarch to Torah."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 3:16",
+          "basis": "A ledger records every deed",
+          "note": "The commentary connects enduring pages with personal accountability; Avot pictures an open book and a recording hand alongside judgment, making written record a rabbinic image for the moral accounting implied by the pages."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1 Enoch 81:1",
+          "basis": "Heavenly tablets record human deeds",
+          "note": "The commentary says a divine book preserves what happened to the first generations; Enoch is shown heavenly tablets and reads what is written there, an apocalyptic expansion of memory and record beyond earthly pages."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1 Enoch 47:3",
+          "basis": "The righteous are remembered in books",
+          "note": "The commentary links fearers and a preserved record; Enoch depicts the books of the righteous and their prayers brought before the Lord of Spirits, a Jewish apocalyptic counterpart to a heavenly book of remembrance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Josephus, Against Apion 1.38",
+          "basis": "A bounded ancient scriptural collection",
+          "note": "The commentary answers that the message is not a new invention by locating it in first pages; Josephus defends the antiquity and counted extent of Jewish sacred books, showing how a Jewish author argued for a stable inherited corpus."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, City of God 10.32",
+          "basis": "Christian religion claimed as ancient",
+          "note": "The commentary answers novelty by saying the teaching was present in the first pages; Augustine argues that what is now called the Christian religion existed among the ancients from the beginning, a patristic reading of present faith as recovery rather than late invention."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.9",
+          "basis": "Purity by guarding the word",
+          "note": "The commentary joins self-purification to the recited old teaching; Psalm 119 asks how a young person's way can be kept pure and answers by guarding it according to God's word."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.11",
+          "basis": "The word stored in the heart",
+          "note": "The commentary says revelation reaches the Prophet by recitation and is not forgotten; the psalmist stores God's word in the heart to avoid sin, linking remembered scripture with moral purification."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.24.4",
+          "basis": "Clean hands and a pure heart in worship",
+          "note": "The commentary joins purification to prayer; the psalm describes the one who may ascend God's holy place as having clean hands and a pure heart, tying inward and outward purity to worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.51.12",
+          "basis": "A prayer for a clean heart",
+          "note": "The commentary describes the person who purifies himself; David asks God to create a clean heart in him, adding a distinct emphasis on purification received from God rather than self-congratulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.22.8",
+          "basis": "A lost Torah scroll is rediscovered",
+          "note": "The commentary says first-page teaching endured into the present; in Kings, Hilkiah finds a Torah book in the temple after it had been absent from the king's practice, and its recovery prompts reform, complicating any simple picture of uninterrupted access."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.36.23",
+          "basis": "A king burns the scroll",
+          "note": "The commentary says the old word has lasted; Jeremiah's scroll is cut and burned by Jehoiakim, a concrete counter-image of the vulnerability of the physical page before the message is rewritten in v.28."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 3:4",
+          "basis": "The righteous' hope is full of immortality",
+          "note": "The commentary calls the hereafter more enduring than this life; Wisdom says the righteous may seem punished at death, yet their hope is full of immortality, correcting the worldly reading of their fate."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 3:9",
+          "basis": "Those who trust God abide with him",
+          "note": "The commentary calls the later life more enduring; Wisdom says those who trust God will understand truth and abide with him in love, specifying the lasting communion behind its reversal of worldly judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 12:8",
+          "basis": "Prayer, fasting, and almsgiving together",
+          "note": "The commentary pairs purification and prayer and its refs mention prayer with almsgiving; Tobit says prayer is good with fasting and almsgiving, giving a Jewish ethical-worship combination rather than treating prayer as an isolated rite."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.19",
+          "basis": "Treasure laid up for the future life",
+          "note": "The commentary contrasts present worldly preference with the lasting hereafter; Paul tells the rich to store up treasure as a foundation for the future and take hold of the life that is truly life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.21",
+          "basis": "Riches gathered only for oneself do not last",
+          "note": "The commentary warns against preferring the near life; Jesus' rich fool stores goods for himself but dies that night, and the story calls him poor toward God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 96,
+        "row": {
+          "line": 96,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.16",
+          "basis": "The patriarchs seek a better country",
+          "note": "The commentary names Abraham among the first pages and says the hereafter is better; Hebrews reads the patriarchs as desiring a better, heavenly country and a city prepared by God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 97,
+        "row": {
+          "line": 97,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.1.2",
+          "basis": "The gospel promised beforehand in scripture",
+          "note": "The commentary's claim is that the present word is already in the earliest writings; Paul introduces the gospel as promised beforehand through God's prophets in holy scriptures."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 98,
+        "row": {
+          "line": 98,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Luke.24.27",
+          "basis": "Moses and the prophets interpreted as witnesses",
+          "note": "The commentary says the recent teaching is contained in earlier pages; Luke depicts Jesus interpreting what the scriptures say about him, beginning with Moses and all the prophets, a Christian rereading of the old texts as testimony to the present."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 99,
+        "row": {
+          "line": 99,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.4.21",
+          "basis": "A written prophecy declared fulfilled in hearing",
+          "note": "The commentary joins pages to a word heard in the present; after reading Isaiah in the synagogue, Jesus says the scripture has been fulfilled in the hearers' hearing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 100,
+        "row": {
+          "line": 100,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.10",
+          "basis": "Earlier prophets searched the promised grace",
+          "note": "The commentary says the first pages already contain the later warning; Peter describes prophets who searched and inquired about the grace now announced, connecting prior revelation with a later proclamation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 101,
+        "row": {
+          "line": 101,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.12",
+          "basis": "Earlier prophets served later hearers",
+          "note": "The commentary says the old word has reached the Prophet's audience; Peter says the prophets were serving not themselves but later readers, to whom the gospel is now announced."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 102,
+        "row": {
+          "line": 102,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.3.2",
+          "basis": "A letter read in human hearts",
+          "note": "The commentary says the pages' content can be present without a page in the Prophet's hand; Paul calls the Corinthians a letter known and read by all, a human community serving as written testimony."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 103,
+        "row": {
+          "line": 103,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.3.3",
+          "basis": "Writing by the Spirit on hearts",
+          "note": "The commentary contrasts a physical page with a message recited and retained; Paul says the Spirit writes on tablets of human hearts rather than stone, developing a Christian image of inwardly carried scripture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 104,
+        "row": {
+          "line": 104,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.1.1",
+          "basis": "God spoke formerly through prophets",
+          "note": "The commentary says the same enduring warning was present in older pages; Hebrews describes God speaking to ancestors through prophets in many times and ways, then frames the present as a further stage of that speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 105,
+        "row": {
+          "line": 105,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.7.1",
+          "basis": "Self-cleansing perfected in fear of God",
+          "note": "The commentary joins purification with fear and prayer; Paul urges believers to cleanse themselves from defilement and perfect holiness in fear of God, an explicit ethical counterpart to the surah's purifier who fears."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 106,
+        "row": {
+          "line": 106,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Luke.18.14",
+          "basis": "The repentant prayer is accepted over self-display",
+          "note": "The commentary warns that self-purification is not self-praise; Jesus' parable ends with the tax collector, not the self-congratulating Pharisee, going home justified, clarifying the difference between turning toward God and claiming one's own merit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 107,
+        "row": {
+          "line": 107,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.7.11",
+          "basis": "Moses' signs and Pharaoh's magicians",
+          "note": "The commentary cites opponents of Moses calling his clear signs fabricated magic and unheard by their ancestors; Exodus stages a Moses-and-Pharaoh sign contest in which Pharaoh's magicians answer with their arts, a related scene framed as rival performance rather than ancestral novelty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 108,
+        "row": {
+          "line": 108,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.22.10",
+          "basis": "The recovered book is read to the king",
+          "note": "The commentary presents the ancient pages as a witness to the present; the king's secretary reads the rediscovered Torah book to Josiah, but the episode concerns recovery after neglect, so the link is about renewed hearing rather than uninterrupted preservation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.17.14",
+          "basis": "Write and recite to Joshua",
+          "note": "The commentary joins preserved pages to a word received and recited; God tells Moses both to write the Amalek remembrance in a book and to recite it in Joshua's hearing, combining writing, memory, and oral succession."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.17.18",
+          "basis": "The king makes a copy of the Torah",
+          "note": "The commentary says the old pages guide present conduct; Deuteronomy requires a king to write a copy of the Torah, making the text a concrete guide for a later ruler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.17.19",
+          "basis": "The king reads the Torah throughout life",
+          "note": "The commentary warns against preferring the near world's status; the king must read his copy all his life to learn fear of God and avoid exalting himself over his kin."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.19",
+          "basis": "A written song taught by heart as witness",
+          "note": "The commentary links ancient pages with recitation and remembrance; Moses is told to write a song, teach it to Israel, and put it in their mouths as a witness for later generations."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.21",
+          "basis": "The song witnesses when Israel forgets",
+          "note": "The commentary says a lasting divine record stands against neglect of the warning; Deuteronomy anticipates Israel's later turning away and says the taught song will testify because it will not be forgotten by their descendants."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.4.9",
+          "basis": "Teach the remembered revelation to descendants",
+          "note": "The commentary answers “we did not hear this from our ancestors” by asserting an ancient message; Moses warns Israel not to forget what it saw at Horeb and to make it known to children and grandchildren."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.30.2",
+          "basis": "Words of prophecy written in a book",
+          "note": "The commentary says the current recitation is already in ancient pages; Jeremiah is specifically commanded to write all the words spoken to him in a book, preserving a prophetic message for later hearers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.8",
+          "basis": "A book as a witness for future time",
+          "note": "The commentary describes old pages as a public witness to a present warning; Isaiah is told to write the message on a tablet and in a book so it may stand for a future day as a witness forever."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.59.21",
+          "basis": "Words remain in mouths across generations",
+          "note": "The commentary says the first-pages message has endured to the Prophet's recitation; Isaiah promises that God's words placed in the speaker's mouth will not depart from him, his children, or descendants."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.33",
+          "basis": "Torah written on the heart",
+          "note": "The commentary says the page's teaching is heard and retained inwardly; Jeremiah's new-covenant promise places God's Torah within the people and writes it on their hearts, an inward counterpart to external pages."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.102.18",
+          "basis": "A record written for a future generation",
+          "note": "The commentary says the message survives from the first pages to present readers; the psalm explicitly says a future generation will praise the LORD and that this should be written down for a people yet to be created."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.2.9",
+          "basis": "A scroll written on both sides",
+          "note": "The commentary asks the reader to picture a separate written sheet rather than a bound codex; Ezekiel sees an opened scroll written on its front and back, a striking prophetic image of a densely inscribed surface."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.3.1",
+          "basis": "The prophet eats the scroll and speaks its words",
+          "note": "The commentary says pages reach the Prophet as an inwardly retained recitation rather than as a page in his hand; Ezekiel is told to eat the scroll and then speak its words to Israel, a bodily enactment of internalized prophecy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.7.10",
+          "basis": "Books opened at the court of judgment",
+          "note": "The commentary links ancient pages with the final accounting of deeds; Daniel's heavenly court sits and books are opened, a Jewish apocalyptic scene of written records at judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.1",
+          "basis": "The delivered are found written in the book",
+          "note": "The commentary says the first generations are not lost because their knowledge is kept in a book with God; Daniel speaks of those found written in the book being delivered at the final crisis."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.51.6",
+          "basis": "The world fades while salvation lasts",
+          "note": "The commentary contrasts the passing world with a teaching that endures; Isaiah says heaven and earth will wear away like clothing while God's salvation and righteousness remain forever."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.73.24",
+          "basis": "Guided now and received to glory afterward",
+          "note": "The commentary joins divine guidance in the surah's opening to the claim that the final destination is with the Lord; the psalmist says God guides him by counsel and afterward receives him to glory."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.73.26",
+          "basis": "God remains when flesh fails",
+          "note": "The commentary says the hereafter is more enduring than worldly life; the psalmist's flesh and heart may fail, but God is his portion forever, a personal formulation of lasting hope."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.49.15",
+          "basis": "God receives the speaker from Sheol",
+          "note": "The commentary says the afterlife is better and more enduring than the present; Psalm 49 contrasts the rich man's death with the speaker's confidence that God will ransom and receive him from Sheol."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.16.10",
+          "basis": "Not abandoned to Sheol",
+          "note": "The commentary's “more enduring” hereafter entails a future beyond death; the psalmist trusts not to be abandoned to Sheol or left to see the Pit, giving that hope a resurrection-shaped expression."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.16.11",
+          "basis": "The path of life ends in lasting joy",
+          "note": "The commentary says the final arrival is with the Lord; Psalm 16 speaks of the path of life and fullness of joy in God's presence forever."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.18",
+          "basis": "The blameless inherit what lasts",
+          "note": "The commentary sets present worldly preference against the enduring hereafter; Psalm 37 says the days of the blameless are known to God and their inheritance endures forever."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.6",
+          "basis": "Purification expressed as freeing the oppressed",
+          "note": "The commentary pairs purification with prayer and cites almsgiving alongside it; Isaiah's chosen fast is to loosen injustice and free the oppressed, giving purification an ethical and social form."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.7",
+          "basis": "Share bread and shelter the poor",
+          "note": "The commentary's nearby purification and prayer are also associated with giving; Isaiah continues by naming bread shared with the hungry, shelter for the homeless, and clothing for the naked as the fast God desires."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.27",
+          "basis": "Pure religion keeps unstained from the world",
+          "note": "The commentary joins purification to worship and warns against preferring worldly life; James defines pure and undefiled religion by care for vulnerable people and keeping oneself unstained by the world.",
+          "raw_ref": "SBLGNT:James.1.27",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.33",
+          "basis": "Alms become treasure that does not fail",
+          "note": "The commentary's references connect purification with giving and the hereafter with lasting reward; Jesus tells disciples to sell possessions, give alms, and make a heavenly purse that does not wear out."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.17",
+          "basis": "Present affliction produces lasting glory",
+          "note": "The commentary contrasts a passing worldly life with what endures; Paul calls present affliction momentary and light in comparison with the eternal weight of glory it produces."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.18",
+          "basis": "Present suffering is outweighed by future glory",
+          "note": "The commentary says the afterlife is better than the near life; Paul says present sufferings are not worth comparing with the glory that will be revealed, giving the contrast an explicit scale."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Cor.15.19",
+          "basis": "Hope limited to this life is inadequate",
+          "note": "The commentary challenges those who prefer worldly life and dismiss the hereafter; Paul argues that if hope in Christ were only for this life, believers would be most pitiable, directly rejecting a this-world-only horizon."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Cor.15.32",
+          "basis": "“Eat and drink” is the rival response to death",
+          "note": "The commentary's opponents prefer the near life over the lasting one; in an argument for resurrection Paul cites the maxim to eat and drink because tomorrow one dies, presenting it as the consequence of denying resurrection."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:2Pet.3.4",
+          "basis": "Scoffers appeal to what has always been",
+          "note": "The commentary answers novelty and skepticism by saying the final warning was already in the first pages; Peter's scoffers ask where the promised coming is and claim everything has continued as from the beginning of creation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.3.10",
+          "basis": "The promised day still arrives",
+          "note": "The commentary says the oldest pages already announce the final outcome; Peter says the day of the Lord will come unexpectedly, carrying the passage's answer to scoffers into its own conclusion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Jer.8.8",
+          "basis": "A prophetic charge of scribal distortion",
+          "note": "The commentary cites the concealment of parts of earlier books but says this teaching is truly in the first pages; Jeremiah's own context accuses scribes of making the LORD's Torah into a lie, a sharp counter-witness about the handling of scripture."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.8.34",
+          "basis": "Joshua reads Moses' law to the assembly",
+          "note": "The commentary pictures the first writing leading later generations; after Moses, Joshua reads the Torah's blessings and curses before all Israel, a distinct public scene of a successor carrying the earlier book forward."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.8.35",
+          "basis": "No word is omitted from the public reading",
+          "note": "The commentary says the pages' teaching is available in the recited message; Joshua leaves out no word of Moses' command before the whole assembly, including women, children, and resident aliens."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.8.3",
+          "basis": "The people attend to a long public reading",
+          "note": "The commentary makes the heard word central to access to old pages; Ezra reads the Torah aloud from morning until midday before the gathered people, whose ears are attentive."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.11",
+          "basis": "The word from God's mouth accomplishes its purpose",
+          "note": "The commentary says the old-page statement has endured into present recitation; Isaiah adds that God's word does not return empty but accomplishes what God intends, explaining the active effect of a message that is heard."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Acts.2.31",
+          "basis": "Peter reads a psalm as prophecy of resurrection",
+          "note": "The commentary says the first pages already tell of the final destination with God; Peter interprets David's words about not being abandoned to Hades as a prophecy of the Messiah's resurrection."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 1:1",
+          "basis": "Torah passes through a named chain",
+          "note": "The commentary pictures the earliest pages leading the later word; Avot opens by tracing Torah from Moses at Sinai through Joshua, elders, prophets, and the Great Assembly, a rabbinic account of transmission across generations."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 1:14",
+          "basis": "Self-responsibility balanced by obligations to others",
+          "note": "The commentary stresses that a person purifies himself and no one bears another's burden; Hillel asks who will act for a person if he does not act for himself, then warns against living only for oneself."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 4:16",
+          "basis": "This world as a vestibule to the world to come",
+          "note": "The commentary says the later life is better and more enduring than the present; Avot compares this world to a vestibule and the world to come to the banquet hall, urging preparation in the former."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Rosh Hashanah 16b",
+          "basis": "Books of judgment opened at the year's beginning",
+          "note": "The commentary links preserved pages and personal deeds; the Talmud describes books opened for the righteous, wicked, and intermediate, developing a Jewish tradition of recorded moral standing and judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1 Enoch 82:1",
+          "basis": "A father hands written books to descendants",
+          "note": "The commentary says what was written for the first generations reaches a later reciter; Enoch tells Methuselah to preserve the books received from his father's hand and pass them to generations of the world."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "4 Ezra 14:45",
+          "basis": "Public books restored after loss",
+          "note": "The commentary says an ancient message is still present in the recited Qur'an; Ezra's apocalyptic account says the twenty-four books he has written are to be made public for worthy and unworthy readers, a tradition of textual restoration and access."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.24.44",
+          "basis": "Law, prophets, and psalms all bear witness",
+          "note": "The commentary says the present teaching is in the earliest pages; Jesus identifies what is written about him in Moses' law, prophets, and psalms as needing fulfillment, an explicit Christian claim that the old corpus anticipates later events."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Rom.10.8",
+          "basis": "Deuteronomy's near word becomes proclaimed faith",
+          "note": "The commentary says the Prophet receives the message orally and that the pages' content is present in recitation; Paul quotes Deuteronomy's word near the mouth and heart as the word of faith he proclaims, giving the old verse a new Christian referent."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.11",
+          "basis": "Hearers test a new proclamation against scripture",
+          "note": "The commentary answers the charge that the current word is novel by pointing to older pages; the Bereans receive Paul's message eagerly but examine the scriptures daily to see whether his claims hold."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.13.32",
+          "basis": "A promise made to the fathers is now announced",
+          "note": "The commentary says the old pages contain the current warning; Paul tells the synagogue that he is bringing good news of what God promised to the fathers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Acts.13.33",
+          "basis": "The fathers' promise interpreted as fulfilled now",
+          "note": "The commentary argues that the present word confirms an earlier one; Paul says God fulfilled the promise to their descendants by raising Jesus and supports the claim with a psalm."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Rom.4.3",
+          "basis": "Paul interprets Abraham's belief as counted righteousness",
+          "note": "The commentary names Abraham among the recipients of the first pages; Paul quotes Genesis 15:6 to make Abraham's belief a scriptural example of righteousness by faith, a distinct reading from Galatians' “gospel preached beforehand.”"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.5.17",
+          "basis": "Jesus claims fulfillment rather than abolition",
+          "note": "The commentary answers that its teaching is not new by locating it in the first pages; Jesus says he came not to abolish the law or prophets but to fulfill them, making continuity an explicit claim."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.39",
+          "basis": "The scriptures testify, yet hearers refuse to come",
+          "note": "The commentary says the old pages already contain the warning and lack of response is the problem; Jesus says the searched scriptures testify about him, while his hearers will not come to him for life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.1.2",
+          "basis": "The same God speaks in the last days through the Son",
+          "note": "The commentary's “first” pages carry a message about the final outcome; Hebrews contrasts God's former speech through prophets with his speech in these last days through the Son, holding continuity and changed mode together."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.8",
+          "basis": "Abraham obeys and leaves without knowing the destination",
+          "note": "The commentary names Abraham among the ancient recipients; Hebrews recalls his obedient departure by faith, showing the patriarch's own response to a divine word as part of the scriptural precedent."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.13",
+          "basis": "The end speaks of first, last, beginning, and end",
+          "note": "The commentary says the first pages already disclose where all things finally arrive; Revelation names the speaker as Alpha and Omega, first and last, beginning and end, a Christian formula joining origin to final outcome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.8",
+          "basis": "Salvation is gift, not grounds for boasting",
+          "note": "The commentary stresses personal purification and responsibility; Paul says salvation is by grace through faith, not from works, adding a Christian boundary against reading moral self-purification as earning rescue."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.10",
+          "basis": "Grace issues in a life of good works",
+          "note": "The commentary does not equate personal action with boasting; Paul continues that those saved by grace are created in Christ for good works, preserving ethical action while denying that it is self-earned salvation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rom.5.19",
+          "basis": "One person's act has consequences for many",
+          "note": "The commentary's cited rule says no one bears another's burden; Paul says one man's disobedience made many sinners and one man's obedience makes many righteous, a distinct corporate account of consequence rather than a simple transfer of personal guilt."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.3.6",
+          "basis": "Letter and Spirit set in interpretive contrast",
+          "note": "The commentary holds together physical pages and a word received inwardly; Paul contrasts the letter that kills with the Spirit that gives life in a discussion of the new covenant, adding a Christian interpretive tension without making him reject scripture."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "7f268c85cd1345a823ed8a1dc33abc866b71c77c09b4f1ca6218db10a602d649",
+    "followup_sha256": "7f268c85cd1345a823ed8a1dc33abc866b71c77c09b4f1ca6218db10a602d649"
+  },
+  "consolidation_error": null,
+  "list_sha256": "cb5d07c4ff1cc931cb2541a165a68602148630684cd192d9035529a4a756daa0",
+  "followup_delivery": [
+    {
+      "call_id": "call_srVWGG1gGIn4QQCfxMWap8ui",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 955967,
+    "cached_input_tokens": 851968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 52986,
+    "reasoning_output_tokens": 39718,
+    "total_tokens": 1008953
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:40:37.923Z",
+  "artifacts": {
+    "started.json": "2a07683c6005fe7dbb533c56a34865f45c69e38fa74e88fe8e90e2c91a0b25d3",
+    "input.json": "9c2ac540f20419f3f4ca0a8ebd7076af26101e41c126187ccf856be3c4539a86",
+    "prompt.md": "2898770fe78b72dd8bd4cee43339c36bc9d945ecf3b16f7476d13410ef8fe723",
+    "package.md": "ee349c459177493704a29cf88fc4da39cc92ae56da6953dceb65d453c41f66e7",
+    "spawn.md": "96e495fb0c78d717f9751cb1731468a3b7bc243e01fc445d8fc4b3e22aabb89d",
+    "followup.txt": "abc349902504ad2cc149e25e48a46eb83a257bb46b09ea8da3005d6d42a5fc9c",
+    "turn1.json": "c8d45d24936c52c4fc83f3bfc0bde79ac07390c4cfcc3cdd2b7b7b6c917068ac",
+    "turn1.list.tsv": "9a5c4ebac2199137f125aa1f38228ca4a2a8449c3a227b499ad1f941b6d37b94",
+    "followup.tsv": "7f268c85cd1345a823ed8a1dc33abc866b71c77c09b4f1ca6218db10a602d649",
+    "list.tsv": "cb5d07c4ff1cc931cb2541a165a68602148630684cd192d9035529a4a756daa0",
+    "consolidation.json": "858cb86b1816e20ca649576d1abed4ae7d0629a58cd14587d927fbf49383cebc",
+    "validation.json": "fb2bf0c63b174d4da88a80a764a7758f6b3f1d261334653c35746f02613107f5",
+    "proposal_validation.json": "0e60615423cc7cf037b80734e9bc789fa1cace8bedf49ae3d94b3767228e8949",
+    "tool_calls.json": "13f561d56a10f6b729f7d1f5bc9f6152c19d4a4885ee836e4924cdac3ad7a79a",
+    "session.json": "630650067cfe23a322148c0e402f30cdd83aff9b71c3dd99f82612e12337bbdd",
+    "session.events.jsonl": "9dbe7b5f417bcfd577dcb480af16e33b2dfeaf25baec08a97d3d5a275912fb3d"
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "format": "bible-discovery-v2",
+  "status": "ok",
+  "target": "87:4",
+  "base_sha256": "df16654cb3494d2bb23d6b95e5011ce8dc13b4a42faa7afc27e54465a6d171ef",
+  "tsv_sha256": "932f51d42e15312eb068079de2626546f1d740e6eb76d9e04c1e33d3c781eceb",
+  "provenance": [
+    {
+      "target": "87:4",
+      "model": "luna",
+      "run_tag": "prepared-20261005",
+      "path": "prepared-20261005/87_4/luna",
+      "sha256": "8ff744f74b73e494070908ba62ce55e2b9541011d4535e04d5dfac1262c765cd"
+    },
+    {
+      "target": "87:4",
+      "model": "terra",
+      "run_tag": "prepared-20261005",
+      "path": "prepared-20261005/87_4/terra",
+      "sha256": "d52e3b1a90e08ada4c73693c97f328b8fd919ad44f4c57e167f79c3872b7995d"
+    }
+  ],
+  "rows": 148,
+  "findings": [
+    {
+      "target": "87:4",
+      "model": "luna",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_4/luna/list.tsv",
+        "rows": 89,
+        "unique_references": 89,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 55,
+          "medium": 34
+        },
+        "findings": [
+          {
+            "line": 8,
+            "ref": "WLC:Ps.23.1",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "רעה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 23,
+            "ref": "Genesis Rabbah 10:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 33,
+            "ref": "Didache 10:3",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 55,
+            "ref": "Berakhot 35a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 56,
+            "ref": "Mishnah Berakhot 6:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 60,
+            "ref": "SBLGNT:Jas.1.11",
+            "raw_ref": "SBLGNT:James.1.11",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 73,
+            "ref": "Wisdom of Solomon 16:26",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 74,
+            "ref": "Berakhot 43b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 81,
+            "ref": "1 Clement 24.3",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 84,
+            "ref": "SBLGNT:Jas.5.7",
+            "raw_ref": "SBLGNT:James.5.7",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_4/luna/followup.tsv",
+        "rows": 29,
+        "unique_references": 29,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 22,
+          "medium": 7
+        },
+        "findings": [
+          {
+            "line": 13,
+            "ref": "Wisdom of Solomon 16:26",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 14,
+            "ref": "Berakhot 43b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 21,
+            "ref": "1 Clement 24.3",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 24,
+            "ref": "SBLGNT:Jas.5.7",
+            "raw_ref": "SBLGNT:James.5.7",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T19:04:50.553861+00:00",
+        "changes": [
+          {
+            "line": 51,
+            "before": [
+              "medium",
+              "tevrat",
+              "motif",
+              "WLC:Pro.27.23",
+              "Attend carefully to the flock",
+              "The commentary gives the shepherd’s work a sense of watching over the herd and its future; Proverbs tells the keeper to know the state of his flock and attend to the herds, making that practical oversight explicit in its own pastoral setting."
+            ],
+            "after": [
+              "medium",
+              "tevrat",
+              "motif",
+              "WLC:Prov.27.23",
+              "Attend carefully to the flock",
+              "The commentary gives the shepherd’s work a sense of watching over the herd and its future; Proverbs tells the keeper to know the state of his flock and attend to the herds, making that practical oversight explicit in its own pastoral setting."
+            ],
+            "reason": "Correct the unsupported book code Pro to the corpus OSIS code Prov; chapter and verse unchanged."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "810b1e319cc6f604724747537a73ad1c42775810b1dcd81aeeb3efcecdb02941",
+          "turn1.validation.failed.json": "19a8edaa4fc016a2afaa208cd3aa9ce89cdc1dff882e1f2763e1c8ef2d994b9f",
+          "turn1.tool_calls.json": "4a8806aa9ba48d30447011944788c16793bae0b1111bc4d901bcad8278c33b53",
+          "turn1.repair.proposed.json": "a623a1df96a9567d348c257577bb9c165cdb0676ade75255c79375f9c3d6c4dd",
+          "turn1.repair.proposed.tsv": "f73198c4de0aed3c24b03a4a1bbcf889f8a7261dc56d04648acd395fec4e61ba",
+          "turn1.accepted.tsv": "f73198c4de0aed3c24b03a4a1bbcf889f8a7261dc56d04648acd395fec4e61ba"
+        }
+      }
+    },
+    {
+      "target": "87:4",
+      "model": "terra",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_4/terra/list.tsv",
+        "rows": 106,
+        "unique_references": 106,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 52,
+          "medium": 54
+        },
+        "findings": [
+          {
+            "line": 18,
+            "ref": "WLC:Ezek.34.14",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "מִרְעֶה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 18,
+            "ref": "WLC:Ezek.34.14",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "רעה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 19,
+            "ref": "4 Ezra 7:32",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 20,
+            "ref": "2 Baruch 50:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 36,
+            "ref": "1 Clement 24:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 37,
+            "ref": "Berakhot 40a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 38,
+            "ref": "Exodus Rabbah 2:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 54,
+            "ref": "Mishnah Peah 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 55,
+            "ref": "Ta'anit 7a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 65,
+            "ref": "SBLGNT:Jas.1.11",
+            "raw_ref": "SBLGNT:James.1.11",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 83,
+            "ref": "2 Maccabees 7:14",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 101,
+            "ref": "SBLGNT:Jas.5.7",
+            "raw_ref": "SBLGNT:James.5.7",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_4/terra/followup.tsv",
+        "rows": 37,
+        "unique_references": 37,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 14,
+          "medium": 23
+        },
+        "findings": [
+          {
+            "line": 14,
+            "ref": "2 Maccabees 7:14",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 32,
+            "ref": "SBLGNT:Jas.5.7",
+            "raw_ref": "SBLGNT:James.5.7",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    }
+  ],
+  "confidence": "Unverified reader labels; agreement and follow-up origin do not verify a connection."
+}

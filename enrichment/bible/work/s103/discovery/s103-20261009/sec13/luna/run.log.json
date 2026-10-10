@@ -1,0 +1,1461 @@
+{
+  "target": "sec13",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:29:04.096534-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_sec13_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "bdeddd1cbdb872c2859f509b961c42eb118bb613ec440e2d942bfe05834369e1",
+  "package_sha256": "b07a557a8ea21d6caf9ee5010ff046391f34197cf1c242f7f995085b8292f052",
+  "input_sha256": "007c00a911ad757ce1dd35bfd670a6208eb991229f7b33c1e1de0846117f48ea",
+  "spawn_sha256": "a99e7174b01fcc15564f8162557a9b9a72e32c0641a84194efa1b4df80c37132",
+  "followup_text_sha256": "e5d536536c336eedd043770bd20b026a1b63d5a8c9289bbe0e785f727c92bce3",
+  "agent_id": "01a11f22-ffef-7f73-9546-54539b42953a",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-29-11-01a11f22-ffef-7f73-9546-54539b42953a.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 57,
+  "turn1_sha256": "a78f688951412dab1130cd5b060f5d9987e1d52e94e3d10482938caa7ff8e2c6",
+  "turn2": {
+    "completed": true,
+    "rows_total": 104,
+    "rows_added": 47
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 57,
+    "raw_proposal_rows": 47,
+    "unique_additions": 47,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.5.27",
+          "basis": "Source root خ س ر; Aramaic חסר; table sound correspondence",
+          "note": "The commentary labels khusr as loss and describes the person found deficient on the scales; Daniel's Aramaic חסר says Belshazzar was found deficient after weighing. The package table marks خ→ח, س→ס, ر→ר as an unverified regular correspondence, so this is a lexical echo in a matching context, not a proven etymology."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.5.27",
+          "basis": "scales; weighed and found deficient",
+          "note": "The commentary's deficient account at judgment is closely matched by Daniel's weighing of Belshazzar and finding him lacking, which ends his kingdom. Daniel applies the measure to a ruler's historical sentence; the commentary extends the image to every person's recompense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.2.3",
+          "basis": "God weighs actions",
+          "note": "Hannah's song says the Lord is a God of knowledge and actions are weighed by him; this gives a direct biblical image for the commentary's scales measuring each person's work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.14",
+          "basis": "all deeds; good and evil",
+          "note": "The commentary says every deed is present for judgment and good is distinguished from evil; Ecclesiastes says God brings every deed, including hidden things, to judgment, whether good or evil."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.17.10",
+          "basis": "each person repaid by deeds",
+          "note": "The commentary makes the day bring each human being face to face with his work; Jeremiah's searching God repays each according to conduct and the fruit of deeds, making the individual accounting explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.24.12",
+          "basis": "weigher of hearts; recompense",
+          "note": "The commentary's scales miss no deed; Proverbs says the one who weighs hearts knows and repays each person according to work, joining scrutiny with recompense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.18.30",
+          "basis": "each judged according to ways",
+          "note": "The commentary describes a universal accounting by deeds; Ezekiel makes the verdict personal, with God judging the house of Israel each according to his ways and calling them to turn."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.2",
+          "basis": "resurrection; two outcomes",
+          "note": "The commentary identifies the Hāqqa with resurrection and judgment; Daniel's sleepers awaken from the dust, some to everlasting life and others to disgrace, supplying an early Jewish scriptural scene of divided destinies."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.18",
+          "basis": "distinguish righteous and wicked",
+          "note": "The commentary's final sorting of good from evil is echoed by Malachi's promised renewed distinction between the righteous and wicked, specifically between serving God and not serving him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.17",
+          "basis": "rebuke one's neighbor",
+          "note": "The commentary makes truth something people mutually urge on one another; Leviticus commands a person to rebuke a neighbor rather than bear sin with him, giving mutual moral correction a concrete communal form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.14.5",
+          "basis": "fixed human term",
+          "note": "Job says a person's days are determined and God sets a limit that cannot be passed; this concretizes the commentary's reading of time as a term that brings each person to reckoning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.31.6",
+          "basis": "just balance; integrity",
+          "note": "Job asks to be weighed in a just balance so God may know his integrity; the commentary's scales test deeds, while Job turns the same image into a plea for an honest verdict on a life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.1",
+          "basis": "honest weights; just scales",
+          "note": "The commentary's judgment uses scales of justice; Proverbs condemns a deceptive balance and delights in a just weight, linking accurate weighing with moral justice in ordinary dealings."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.3",
+          "basis": "appointed time; wait",
+          "note": "The commentary joins a fixed term with patience; Habakkuk says the vision awaits its appointed time and, even if delayed, is to be awaited. Its context is a promised vision, not a final judgment, but it makes waiting an active response to a fixed divine term."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.16",
+          "basis": "speak truth to one another",
+          "note": "The commentary's mutual urging of truth has a close communal counterpart in Zechariah's command to speak truth to one another and judge with truth and peace in the gates; Zechariah locates this ethic in civic restoration."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Eccl.1.3",
+          "basis": "Source root ع م ل; Hebrew עמל; table sound correspondence",
+          "note": "The commentary labels the deeds with ع م ل and presents work within a profit-and-loss account. Ecclesiastes 1:3 asks what gain a person has from all the toil under the sun; עמל is the package table's unverified regular correspondence, and its sense is toil rather than morally good deed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.1.3",
+          "basis": "Source root ص ل ح; Hebrew צלח; table sound correspondence",
+          "note": "The commentary labels the exception's righteous deeds with ص ل ح. In Psalm 1:3 the righteous person's activity prospers; צלח is the package table's unverified regular correspondence, adding a prosperity outcome to the commentary's moral sense of righteous action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 2:1",
+          "basis": "weigh commandment, reward, transgression, loss",
+          "note": "The commentary makes work a moral account of gain and loss; Avot tells a person to weigh a commandment's loss against its reward and a transgression's reward against its loss, then says deeds are recorded in a book."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 3:15",
+          "basis": "world judged; preponderance of deeds",
+          "note": "The commentary's account ends by sorting people according to their work; Avot says the world is judged with goodness and everything depends on the preponderance of deeds, a rabbinic formulation that makes action's cumulative weight explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Kiddushin 40b",
+          "basis": "one deed tips the scales",
+          "note": "The commentary says not even a small deed escapes the balance; Kiddushin teaches that a person should see himself and the world as balanced, since one commandment can tip both toward merit and one transgression toward guilt."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1 Enoch 41:1",
+          "basis": "actions weighed in a balance",
+          "note": "The commentary's scales weigh human deeds; 1 Enoch's heavenly vision explicitly includes the actions of people being weighed in a balance, extending the image into an apocalyptic tour of heaven."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Testament of Abraham, Recension A 13",
+          "basis": "souls; good and evil deeds on scales",
+          "note": "The commentary's balance tests work and separates outcomes; Abraham's vision of judgment has a soul's good and evil deeds weighed, with the result determining its fate, giving a close Jewish apocalyptic scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 3:1",
+          "basis": "righteous souls not lost",
+          "note": "The commentary says humanity is in loss except for the faithful who do good; Wisdom says the souls of the righteous are in God's hand and appear untouched by torment, challenging the inference that visible death means final loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.16.27",
+          "basis": "coming judge repays each by deeds",
+          "note": "The commentary's appointed day brings every person to recompense for work; Jesus says the Son of Man comes in glory and repays each according to what that person has done."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.32",
+          "basis": "all nations; separation",
+          "note": "The commentary describes the final distinction between good and evil; Matthew gathers all nations before the Son of Man, who separates people as a shepherd separates sheep from goats."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.40",
+          "basis": "deeds to the least count as deeds to the king",
+          "note": "The commentary says deeds determine the account; Matthew makes acts of care toward the least of the king's siblings count as acts done to the king, giving the judgment criterion a concrete social face."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.46",
+          "basis": "two final destinies",
+          "note": "The commentary's sorting ends in reward or punishment; Matthew closes the sheep-and-goats judgment with eternal punishment for one group and eternal life for the other."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.6",
+          "basis": "repayment according to work",
+          "note": "The commentary says the day brings every person to account by deeds; Paul states that God repays each according to works, applying the rule without a named exception."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.7",
+          "basis": "perseverance in good work",
+          "note": "The commentary's exception combines righteous work with patience; Paul describes those who persist in good work while seeking glory and honor as receiving eternal life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.8",
+          "basis": "persisting against truth brings wrath",
+          "note": "The commentary warns that persistence can be directed toward deeds of fire; Paul contrasts the good-work endurance with self-seeking disobedience to truth, which meets wrath, preserving the moral direction of perseverance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.5.10",
+          "basis": "each receives for bodily deeds",
+          "note": "The commentary makes every person's work present at judgment; Paul says all must appear before Christ's judgment seat so each receives for what was done in the body, whether good or bad."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.13",
+          "basis": "day reveals work; fire tests it",
+          "note": "The commentary's deeds are brought into view and judged; Paul says the Day discloses each person's work and fire tests what sort it is, giving the image of examination a material test."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.12",
+          "basis": "dead judged by written deeds",
+          "note": "The commentary says what people did is present at judgment; Revelation shows the dead before the throne, books opened, and judgment according to what is written of their deeds."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.12",
+          "basis": "return; recompense; work",
+          "note": "The commentary joins the appointed end to recompense for each person's work; the returning Christ says he brings reward to repay each according to work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.17",
+          "basis": "impartial judge; each person's work",
+          "note": "The commentary says every human faces an account by deeds; Peter calls God the impartial judge of each person's work and makes that expectation shape conduct during exile."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.17",
+          "basis": "faith without works is dead",
+          "note": "The commentary's exception names both belief and righteous action; James argues that faith without works is dead, pressing the same conjunction by insisting that belief must take embodied form.",
+          "raw_ref": "SBLGNT:James.2.17",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.12.36",
+          "basis": "even idle words accounted",
+          "note": "The commentary says tiny deeds are seen and every work is present; Jesus says people answer on judgment day for every careless word, extending accountability to speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.25",
+          "basis": "truth with one's neighbor",
+          "note": "The commentary's truth is mutually urged; Ephesians commands each person to speak truth with a neighbor because believers are members of one another, explicitly tying truthful speech to community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.13",
+          "basis": "exhort one another daily",
+          "note": "The commentary pictures mutual counsel as a protection against loss; Hebrews commands daily mutual exhortation so no one is hardened by sin's deceit, giving the practice a preventive purpose."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.24",
+          "basis": "stir one another to love and good works",
+          "note": "The commentary's people mutually urge one another toward truth and righteous work; Hebrews makes mutual provocation toward love and good works a communal duty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.25",
+          "basis": "encourage as the Day approaches",
+          "note": "The commentary places communal exhortation within an approaching accounting; Hebrews tells the community to encourage one another all the more as the Day draws near."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.36",
+          "basis": "endurance after doing God's will",
+          "note": "The commentary joins patience to the work that reaches its term; Hebrews says endurance is needed after doing God's will in order to receive the promise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.11",
+          "basis": "build one another up",
+          "note": "The commentary's mutual exhortation makes the community responsible for one another; Paul tells the Thessalonians to encourage and build one another up in the immediate context of the Day of the Lord."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.14",
+          "basis": "patience with all",
+          "note": "The commentary pairs mutual counsel with patience; Paul tells the community to admonish the idle, encourage the fainthearted, help the weak, and be patient with everyone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.12",
+          "basis": "endurance; commandments; faith",
+          "note": "The commentary's exception joins belief and good action with patience; Revelation identifies the saints by endurance, keeping God's commandments, and faith in Jesus in an apocalyptic judgment setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.7",
+          "basis": "waiting for the Lord's coming",
+          "note": "The commentary makes patience a qualification before the term arrives; James urges patience until the Lord's coming and compares it to a farmer waiting for the harvest.",
+          "raw_ref": "SBLGNT:James.5.7",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.14.5",
+          "basis": "Source root ح ق ق; Hebrew חֹק; table sound correspondence",
+          "note": "The commentary labels Hāqqa with ح ق ق and explains the day as the due, appointed end of each person's account. Job says human days and months are fixed and their limit is set by God; חֹק is from the package table's unverified חקק correspondence, so the shared prescribed-limit sense is specific but etymology remains unproven."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.62.10",
+          "basis": "humanity light on scales",
+          "note": "The commentary's scales distinguish those whose account is deficient; Psalm 62 says people together are lighter than breath when set on scales. The shared image sharpens a difference: the psalm weighs human worth as vanishing, while the commentary weighs deeds and preserves an exception."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.12",
+          "basis": "numbered days",
+          "note": "The commentary treats time as a finite term before accounting; the prayer asks God to teach people to number their days so they gain a wise heart, making mortality a prompt to live rightly."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.6",
+          "basis": "righteous way; wicked perish",
+          "note": "The commentary's exception separates the righteous from those in loss; Psalm 1 ends by contrasting the way known by the Lord with the way of the wicked that perishes, framing the division as two paths."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Rosh Hashanah 16b",
+          "basis": "three books; annual judgment",
+          "note": "The commentary distinguishes the people who escape loss from those condemned; the rabbinic New Year judgment tradition pictures the righteous, wicked, and intermediate as entered in three books, giving a developed Jewish account of classification at judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 3:9",
+          "basis": "faith; truth; mercy",
+          "note": "The commentary's exception joins belief, righteous action, and truth; Wisdom says those who trust God understand truth and the faithful remain with him in love, grounding the righteous group's future in trust and divine mercy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Cor.3.15",
+          "basis": "work lost; person saved through fire",
+          "note": "The commentary's gloss turns patience toward deeds of fire and punishment; Paul distinguishes the builder from work burned in the fire, saying the person may suffer loss yet be saved through fire. The image assigns loss to failed work rather than necessarily to the worker."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.24.13",
+          "basis": "endure to the end",
+          "note": "The commentary's patience belongs to the people who escape loss; Jesus says the one who endures to the end will be saved, placing perseverance within an apocalyptic warning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 16.2",
+          "basis": "community perfected at the last time",
+          "note": "The commentary makes mutual exhortation and patience part of readiness for the end; the Didache tells believers to gather and seek what benefits their souls because faith will not profit them unless they are found perfected at the last time."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.21.19",
+          "basis": "endurance preserves life",
+          "note": "The commentary presents patience as part of the way out of loss; Jesus' apocalyptic warning says that by endurance the disciples gain their lives, linking steadfastness to survival through the coming crisis."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Shavuot 39a",
+          "basis": "mutual responsibility; Israel as guarantors",
+          "note": "The commentary makes people urge one another toward truth and patience; Shavuot says all Israel are guarantors for one another, adding a covenantal account of why a person's conduct concerns the whole community."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.34.11",
+          "basis": "repayment according to work and way",
+          "note": "The commentary makes each person answer for work at the appointed reckoning; Job says God repays a person according to his work and makes each find according to his way, a direct formulation of individual moral accounting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.2",
+          "basis": "God weighs spirits",
+          "note": "The commentary's scales test deeds; Proverbs adds that God weighs the spirits behind a person's apparently pure ways, bringing motive as well as outward action under scrutiny."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.62.13",
+          "basis": "repaid according to each one's work",
+          "note": "The commentary's deficient account rests on work; this verse says God repays each person according to his work, supplying a distinct recompense formula in the psalm whose earlier verse weighs humanity on scales."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.3.17",
+          "basis": "time to judge every work",
+          "note": "The commentary connects time with the due day and says good and bad works are separated; Ecclesiastes explicitly says there is a time for every matter and work when God judges righteous and wicked."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.7.10",
+          "basis": "court sits; books opened",
+          "note": "The commentary says deeds are present at judgment; Daniel's heavenly court takes its seat and opens books, adding a courtroom and record-book scene distinct from Daniel's weighed king and resurrection."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.7.22",
+          "basis": "judgment for the holy ones",
+          "note": "The commentary separates those whose work preserves them from the lost; after the beasts' oppression Daniel says judgment is given in favor of the holy ones and their time comes to possess the kingdom, adding vindication for the righteous."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.1",
+          "basis": "names written in the book",
+          "note": "The commentary distinguishes those who escape loss; Daniel says those found written in the book are delivered during unparalleled trouble, adding a register of the spared immediately before the resurrection division."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.3.10",
+          "basis": "righteous eat fruit of deeds",
+          "note": "The commentary's exception is marked by righteous work; Isaiah tells the righteous it will be well because they will eat the fruit of their deeds, tying outcome to the person's own conduct."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.3.11",
+          "basis": "wicked receive their deeds",
+          "note": "The commentary's loss and punishment follow bad work; Isaiah gives the converse verdict that it will go badly for the wicked because what their hands have done is repaid to them."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.98.9",
+          "basis": "world judged in righteousness",
+          "note": "The commentary's accounting concerns every person; the psalm pictures the Lord coming to judge the world and peoples with righteousness and equity, extending judgment to the whole inhabited world."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.16",
+          "basis": "book of remembrance",
+          "note": "The commentary says each person's work is present at judgment; Malachi describes a record written before God for those who fear him and esteem his name, preserving the words and deeds of a faithful group."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 4:22",
+          "basis": "life ends in an account before the King",
+          "note": "The commentary brings each human to the term of an account; Avot says every person is born, lives, dies, and must give account before the King of kings, compressing life's whole course into an unavoidable reckoning."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Shabbat 31a",
+          "basis": "questions at heavenly judgment",
+          "note": "The commentary makes faith and work answerable at the end; the Talmud imagines the court asking whether one dealt faithfully, fixed time for Torah, hoped for salvation, and pursued wisdom, turning judgment into concrete questions about a lived life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "4 Ezra (2 Esdras) 7:35",
+          "basis": "judgment, truth, recompense, awakened deeds",
+          "note": "The commentary joins truth, work, and final recompense; 4 Ezra's end-time vision says judgment remains, truth stands, reward is shown, and good and evil deeds awaken, making the moral record explicit at the end."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.29",
+          "basis": "resurrection according to deeds",
+          "note": "The commentary links resurrection and division by work; Jesus describes those who did good rising to life and those who did evil rising to judgment, joining conduct directly to the two outcomes."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.21",
+          "basis": "doing the Father's will",
+          "note": "The commentary's exception includes belief and righteous deeds; Jesus says entry into the kingdom belongs to the one who does the Father's will, distinguishing verbal confession from enacted obedience."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.49",
+          "basis": "end-of-age separation",
+          "note": "The commentary says good and evil are distinguished at the end; Jesus' net parable has angels separate the wicked from the righteous at the close of the age."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.50",
+          "basis": "evil cast into the fiery furnace",
+          "note": "The commentary associates evil work with punishment by fire; the net parable ends with the wicked thrown into a fiery furnace, giving separation a specific punitive outcome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.15",
+          "basis": "word kept; fruit borne with endurance",
+          "note": "The commentary combines truth, good work, and patience; in the seed parable the good soil holds the word in an honest heart and bears fruit with endurance, bringing those elements together in one image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.19.15",
+          "basis": "servants summoned to account",
+          "note": "The commentary says each person's work is brought before the judge; in the minas parable the returning nobleman summons servants to learn what each gained in trade, a concrete audit of entrusted work."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.19.17",
+          "basis": "work rewarded with authority",
+          "note": "The commentary ties work to recompense; the servant praised for faithfulness in a small matter receives authority over cities, making reward proportionate to performed work."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.4.5",
+          "basis": "hidden motives disclosed",
+          "note": "The commentary says work is found present at judgment; Paul says the Lord will bring hidden things to light and disclose the intentions of hearts, adding inward motive to the public accounting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.7",
+          "basis": "sowing and reaping",
+          "note": "The commentary frames work as a loss-and-recompense account; Paul says a person reaps what is sown and that God is not mocked, giving moral consequence the image of harvest."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.8",
+          "basis": "flesh or Spirit; corruption or life",
+          "note": "The commentary divides bad and good work by their end; Paul contrasts sowing to the flesh, which reaps corruption, with sowing to the Spirit, which reaps eternal life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.9",
+          "basis": "patience until the due harvest",
+          "note": "The commentary joins patience to good work before the term arrives; Paul tells the community not to grow weary in doing good because there will be a harvest at the proper time."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.10",
+          "basis": "God does not forget work and love",
+          "note": "The commentary says deeds remain present at judgment; Hebrews says God is not unjust to forget the community's work and love shown in service to the saints, making faithful labor remembered."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.12",
+          "basis": "faith and patience inherit promise",
+          "note": "The commentary's exception joins belief, righteous work, and patience; Hebrews urges imitation of those who inherit the promises through faith and patience."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.1.3",
+          "basis": "work of faith; labor of love; steadfast hope",
+          "note": "The commentary's exception gathers faith, work, and patience in community; Paul remembers the Thessalonians' work produced by faith, labor prompted by love, and endurance grounded in hope."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.1.6",
+          "basis": "God repays affliction",
+          "note": "The commentary says the day binds recompense to deeds; Paul calls it just for God to repay affliction to those who afflict the community, a reversal in which the persecutor receives the measure imposed."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.1.7",
+          "basis": "relief at the Lord's revelation",
+          "note": "The commentary makes the appointed day the end of a period of loss; Paul promises relief to the afflicted when Jesus is revealed from heaven, pairing the same event with vindication for sufferers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.4.5",
+          "basis": "account to the judge of living and dead",
+          "note": "The commentary says every person meets the account; Peter says wrongdoers will give account to the one ready to judge the living and the dead, explicitly universalizing the reckoning."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.13",
+          "basis": "deeds follow the dead",
+          "note": "The commentary says what people have done is present at judgment; Revelation blesses those who die in the Lord and says their deeds follow them, making work accompany a person beyond death."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Justin Martyr, First Apology 12",
+          "basis": "everlasting outcome according to actions",
+          "note": "The commentary's accounting divides people by what they do; Justin says people go to everlasting punishment or salvation according to the merit of their actions, an early Christian defense of judgment by conduct."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.18.25",
+          "basis": "judge of all earth; righteous not swept with wicked",
+          "note": "The commentary says humanity is in loss but preserves an exception; Abraham asks whether the Judge of all earth will destroy the righteous with the wicked, making the justice of a collective sentence depend on distinguishing the righteous."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.8",
+          "basis": "secret sins exposed",
+          "note": "The commentary says deeds are found present at reckoning; the psalm says God sets iniquities and hidden sins before his face, adding the exposure of what a person conceals."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.11.9",
+          "basis": "joy now; judgment for all",
+          "note": "The commentary treats time as a term ending in reckoning; Ecclesiastes permits the young to follow heart and eyes but warns that God will bring them into judgment for all this, joining present action to future accounting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.9.10",
+          "basis": "work only within mortal life",
+          "note": "The commentary makes the present term the span in which work counts; Ecclesiastes urges doing what one's hand finds with strength because there is no work or knowledge in Sheol, making life's limit a reason for action."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Arakhin 16b",
+          "basis": "limits and difficulty of rebuke",
+          "note": "The commentary's mutual counsel in truth recalls Leviticus' command to rebuke a neighbor; the rabbis debate whether people know how to give or receive rebuke, showing how the duty can fail in practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "4 Ezra (2 Esdras) 7:33",
+          "basis": "seat of judgment; patience ends",
+          "note": "The commentary describes a due day that closes the account; 4 Ezra says the Most High appears at the seat of judgment as compassion and long-suffering pass away, giving the end a sharper finality."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 5:1",
+          "basis": "righteous stand boldly at judgment",
+          "note": "The commentary's exception is the group not lost; Wisdom pictures the righteous standing with great confidence before those who oppressed them, adding vindication after apparent defeat."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.23",
+          "basis": "a king settles accounts",
+          "note": "The commentary uses an account image for loss and recompense; Jesus begins a kingdom parable with a king settling accounts with servants, then develops how debt and mercy affect the verdict."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.34",
+          "basis": "forgiven debtor punished for withholding mercy",
+          "note": "The commentary sorts deeds toward punishment or reward; in the parable a servant whose debt was forgiven is handed over after refusing mercy to another, making the treatment of one's neighbor decisive."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.48",
+          "basis": "the spoken word judges at the last day",
+          "note": "The commentary makes truth something mutually upheld and deeds answerable at the end; Jesus says the word he has spoken will judge the hearer on the last day, specifying the received message as a standard."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.14.12",
+          "basis": "each gives account to God",
+          "note": "The commentary brings each person to a personal reckoning; Paul says each of us will give an account of himself to God, stressing individual answerability within a dispute about judging fellow believers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.15",
+          "basis": "sin completed brings death",
+          "note": "The commentary warns of persistence in deeds that lead to fire; James describes desire giving birth to sin and fully grown sin bringing forth death, a specific account of how evil action reaches its outcome.",
+          "raw_ref": "SBLGNT:James.1.15",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.3.11",
+          "basis": "holy conduct while awaiting the Day",
+          "note": "The commentary pairs the approaching term with work and patience; Peter asks what sort of people believers should be in holy conduct and godliness while awaiting the Day of the Lord."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Shepherd of Hermas, Mandate 5",
+          "basis": "patience as a practice of righteousness",
+          "note": "The commentary makes patience part of the work that marks the exception; Hermas contrasts patience with short temper and connects endurance to right conduct, treating patience as morally active rather than passive delay."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "27fb3fc835ee623e328932fd4463f02aa5b9c8c6ca5e642cdfb0f49f621269d8",
+    "followup_sha256": "27fb3fc835ee623e328932fd4463f02aa5b9c8c6ca5e642cdfb0f49f621269d8"
+  },
+  "consolidation_error": null,
+  "list_sha256": "7c20c56b0871a33c2571d635ebce005ee7a2aed4671a7eca79dbb47a82533e86",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 356369,
+    "cached_input_tokens": 282624,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 54075,
+    "reasoning_output_tokens": 43436,
+    "total_tokens": 410444
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:37:31.679Z",
+  "artifacts": {
+    "started.json": "506aaea8206e6b8095d45184469b45210b88ff622935c89c38369a949adcca5d",
+    "input.json": "007c00a911ad757ce1dd35bfd670a6208eb991229f7b33c1e1de0846117f48ea",
+    "prompt.md": "bdeddd1cbdb872c2859f509b961c42eb118bb613ec440e2d942bfe05834369e1",
+    "package.md": "b07a557a8ea21d6caf9ee5010ff046391f34197cf1c242f7f995085b8292f052",
+    "spawn.md": "a99e7174b01fcc15564f8162557a9b9a72e32c0641a84194efa1b4df80c37132",
+    "followup.txt": "e5d536536c336eedd043770bd20b026a1b63d5a8c9289bbe0e785f727c92bce3",
+    "turn1.json": "19dff38de94b3d574e94388a897786dfba66e13214066fbca84b29a7cf0ce63d",
+    "turn1.list.tsv": "a78f688951412dab1130cd5b060f5d9987e1d52e94e3d10482938caa7ff8e2c6",
+    "followup.tsv": "27fb3fc835ee623e328932fd4463f02aa5b9c8c6ca5e642cdfb0f49f621269d8",
+    "list.tsv": "7c20c56b0871a33c2571d635ebce005ee7a2aed4671a7eca79dbb47a82533e86",
+    "consolidation.json": "a42d294ca9d5b68555e7cb95ce263e5e8ce37f3338b14bce2ced5ec55c60d97d",
+    "validation.json": "522e62837f09879e757acf8e678b42a73bd0cf951cf61f3c4c13e001ce03d0de",
+    "proposal_validation.json": "64f2cf74ed25c9c28de286b835359c507b87db7acfd29f87fb3923b699bc43a0",
+    "tool_calls.json": "6c9c7d777c3e40b516c161d66edc8b241ec3fa1854fdb9e0093a300175dcfc72",
+    "session.json": "272f88fea8a690ed90d0b229b8f89e76778f50b93e1f604d02a01df3a80d0973",
+    "session.events.jsonl": "4bd18a9f8d9a1a0632d0885004502f1e5bd6bc74431398d4e7acf171c326fa08"
+  },
+  "usd_equivalent": 0.037238,
+  "requests": 8,
+  "max_request_input_tokens": 71723,
+  "total_input_tokens": 356369,
+  "total_cached_input_tokens": 282624,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 54075,
+  "policy_notes": [
+    "turn 1 call_8777adafc86d4d859d04c7a0ebe3a6b6: local script on its own files (python3)",
+    "turn 1 call_5bbb578fba084175818918372c00e524: local script on its own files (python3)"
+  ]
+}

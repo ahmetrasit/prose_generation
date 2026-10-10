@@ -1,0 +1,1197 @@
+{
+  "target": "sec11",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:21:56.302654-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec11_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "5af82223568815657294552224a5ca6883995847800485824fffa1a73fdd16e8",
+  "package_sha256": "86b63776e0212224d45e2462af10fc1f4fde009eeda49025a35c430c8350cc1b",
+  "input_sha256": "dffeba0038b4f643c4aa1129fe5664de58bca1c6d5e67272374ee886422b71f0",
+  "spawn_sha256": "3bde5034d0fcd959cbc13e66935166c08497886292abb93bd13cba422c85cfd4",
+  "followup_text_sha256": "51233ca82ab7e4ae25ca40cba5adb571e84ad77f315ae2ef445d6b6c323a2858",
+  "agent_id": "01a10d1a-5293-76f0-a255-a133af6498d8",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-26-31-01a10d1a-5293-76f0-a255-a133af6498d8.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 52,
+  "turn1_sha256": "22f999dc3c0f5c69a6ed478b743be047d14374a2849fa99bb656d7488d9243b1",
+  "turn2": {
+    "completed": true,
+    "rows_total": 85,
+    "rows_added": 33
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 52,
+    "raw_proposal_rows": 33,
+    "unique_additions": 33,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.3",
+          "basis": "proclaiming the Name; ascribing greatness",
+          "note": "87:1 commands glorification of the Lord's name; Moses says that he will proclaim YHWH's name and calls his hearers to ascribe greatness to God, joining the two acts in one formula."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.14.20",
+          "basis": "God Most High; blessing",
+          "note": "Melchizedek blesses God Most High after deliverance; the explicit divine title and blessing give a close Hebrew-Bible counterpart to the commentary's Lord Most High whose name is glorified."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.16.29",
+          "basis": "glory due the Name; offering and worship",
+          "note": "The verse moves from giving YHWH the glory due his name to bringing an offering and worshipping, closely matching the commentary's treatment of praise of the Name and formal worship as one practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.1.11",
+          "basis": "Name, sunrise and sunset, pure offering",
+          "note": "Malachi makes YHWH's name great from sunrise to sunset and connects it with incense and a pure offering; it gathers the commentary's daily praise, Name, ritual action, and 14–15 purification link."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.113.3",
+          "basis": "Name praised from sunrise to sunset",
+          "note": "The commentary invokes praise before sunrise and before sunset; this verse explicitly makes the praise of YHWH's name extend from the sun's rising to its setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.8.6",
+          "basis": "blessing the great God; bowing and face-to-ground worship",
+          "note": "Ezra blesses YHWH the great God, and the assembly answers, raises hands, bows, and worships with faces to the ground; it is a compact public analogue to praise, utterance, and bodily prayer together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.3",
+          "basis": "Torah reading, confession, worship",
+          "note": "The people stand to read Torah and then confess and worship; this concretely parallels the commentary's claim that recitation, admonitory remembrance, and prayer belong to the same devotional work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.6.11",
+          "basis": "kneeling, prayer, thanksgiving, three daily times",
+          "note": "Daniel kneels three times a day, prays, and gives thanks before his God, furnishing a specific counterpart to prayer as bodily movement, supplication, praise, and a recurring practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.1.13",
+          "basis": "lips moving; voice unheard; inward prayer",
+          "note": "Hannah speaks in her heart while her lips move and her voice is not heard; the contrast supplies a precise counterpart to the commentary's open vocal prayer or recitation and God's knowledge of what is hidden."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.6",
+          "basis": "bowing and kneeling before the Maker",
+          "note": "The psalm's invitation to worship, bow down, and kneel gives named bodily acts corresponding to the commentary's standing, bowing, prostration, and supplication as prayer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.18.39",
+          "basis": "falling on faces; spoken confession of God",
+          "note": "The people fall on their faces and voice a confession of YHWH; the verse joins the physical prostration and verbal God-remembrance that the commentary treats as a single act."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.22.32",
+          "basis": "holy Name; God sanctifying Israel",
+          "note": "The verse forbids profaning the holy Name and calls God the one who sanctifies Israel, sharpening the commentary's 14–15 linkage between a worshipper's prayer and God's purifying action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zeph.3.9",
+          "basis": "purified speech; calling on the Name; united service",
+          "note": "God gives peoples a purified lip so that they may call on YHWH's name and serve together; it links the commentary's tongue-bound dhikr, purification, and obedient worship without reducing them to mere speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.1.8",
+          "basis": "book in the mouth; meditation; doing",
+          "note": "Joshua is to keep the Torah-book in his mouth, meditate on it day and night, and do it; this closely parallels the commentary's inclusion of recitation, tongue, intention, and obedient action within remembrance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.21",
+          "basis": "song not forgotten from descendants' mouths",
+          "note": "The covenant song is to remain unforgotten from Israel's mouths; it supplies a concrete scriptural analogue to the commentary's movement from being made to recite to not forgetting and then reminding."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.29.13",
+          "basis": "lips honoring God; heart far away",
+          "note": "Isaiah distinguishes lip-honor from a distant heart; it illuminates the commentary's insistence that tesbih involves word, action, and intention, and its warning about heedless prayer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.15",
+          "basis": "outspread hands; many prayers; violence",
+          "note": "God refuses many prayers while the worshippers' hands are full of blood; this gives a pointed ethical counterpart to the commentary's claim that prayer turns people away from indecency and wrong."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Dan.3.6",
+          "basis": "forced prostration to an image; fiery punishment",
+          "note": "The verse orders bodily falling and worship under threat of a burning furnace. Alongside the commentary's prostration as Lord-directed prayer and its fire imagery, it makes the object and moral character of bodily worship decisive."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 50:17",
+          "basis": "falling face-down before God Most High",
+          "note": "The assembled people fall on their faces to worship the Almighty, God Most High; it brings together the commentary's epithet, public liturgy, and prostrating body."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Yoma 3:8",
+          "basis": "explicit Name; kneeling, prostration, blessing",
+          "note": "On hearing the explicit Name from the high priest, priests and people kneel, prostrate, fall on their faces, and bless the Name; this rabbinic liturgy tightly combines the Name and the bodily acts named in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Berakhot 4:4",
+          "basis": "prayer as supplication",
+          "note": "Rabbi Eliezer's dictum that a prayer made fixed is not supplication gives a Jewish interpretive counterpart to the commentary's explicit gloss that salat is du'a, while resisting prayer as empty routine."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 31a",
+          "basis": "Hannah's moving lips and unraised voice",
+          "note": "The Talmud reads Hannah's silent, lip-moving prayer as a source for how the Amidah is voiced. That interpretation makes the commentary's audible prayer or recitation and its hidden dimension a concrete liturgical question."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1QS 10:1",
+          "basis": "blessing the Name at light and darkness",
+          "note": "The Rule of the Community schedules blessing God's name at the turning points of light and darkness, a close sectarian-Jewish analogue to the commentary's praise before sunrise and sunset."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Kaddish, opening doxology",
+          "basis": "magnifying and sanctifying the great Name",
+          "note": "Kaddish begins by asking that God's great name be magnified and sanctified; its congregational formula directly stands beside 87:1's command to glorify the Lord's name."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.9",
+          "basis": "hallowing the Father's name in prayer",
+          "note": "Jesus' model prayer makes the hallowing of God's name its first petition, directly pairing prayer with the treatment of the divine name central to 87:1 and 87:15."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.13.15",
+          "basis": "sacrifice of praise; fruit of lips confessing the Name",
+          "note": "Hebrews calls continual praise the fruit of lips that confess God's name; it closely matches the commentary's dhikr as the Name on the tongue and tesbih as worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.14.15",
+          "basis": "praying and singing praise with spirit and mind",
+          "note": "Paul deliberately pairs prayer and praise in both spirit and mind, providing a close Christian counterpart to the commentary's unified tesbih, remembrance, and prayer with intentional participation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.4.6",
+          "basis": "prayer, supplication, thanksgiving",
+          "note": "Paul joins prayer and supplication with thanksgiving in one act of address to God, closely echoing the commentary's salat as du'a and dhikr as praise and thanks."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.16.25",
+          "basis": "praying and hymn-singing heard by others",
+          "note": "Paul and Silas pray and sing hymns at midnight, with prisoners listening; this is a specific scene of the vocal, audible devotional practice developed from jahr in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.16",
+          "basis": "word dwelling, teaching and admonition, psalms and gratitude",
+          "note": "The verse puts instruction and admonition together with psalms, hymns, spiritual songs, and gratitude; it closely resembles the commentary's intervening recitation, reminder, and worship as one practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.1",
+          "basis": "presenting bodies as living worship",
+          "note": "Paul describes offering bodies as a living sacrifice and worship; it gives a direct Christian analogue to the commentary's claim that worship includes bodily action as well as verbal and intentional devotion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.26.39",
+          "basis": "falling on the face and praying",
+          "note": "Jesus falls on his face and prays in Gethsemane, an explicit conjunction of prostrating posture and supplication comparable to the prayer movements named in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.18.13",
+          "basis": "bodily humility and a plea for mercy",
+          "note": "The tax collector stands at a distance, lowers his eyes, beats his breast, and asks God for mercy; it supplies a concrete Christian scene in which bodily prayer and du'a-like petition are inseparable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.10",
+          "basis": "bowing every knee at a name",
+          "note": "In its Christological setting, the verse makes the response to Jesus' name a universal bending of knees; it is a precise Christian meeting of named confession and the bodily prayer emphasized in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.6",
+          "basis": "prayer in secret; the Father seeing the hidden",
+          "note": "Jesus directs prayer to the hidden place and grounds it in the Father's seeing what is hidden; this complements 87:7 as read in the commentary, where God knows both vocalized and concealed devotion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Matt.15.8",
+          "basis": "lips honoring God; heart distant",
+          "note": "Jesus applies Isaiah's lips-and-heart critique to a dispute about worship and tradition. It provides a Christian interpretive development of the commentary's contrast between tongue-level mention and wholehearted, attentive worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.10.13",
+          "basis": "calling on the Lord's name and salvation",
+          "note": "Paul's citation makes calling on the Lord's name the path to salvation; it gives a specific New Testament meeting with the commentary's sequence of remembering the Name, praying, and flourishing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.6.3",
+          "basis": "threefold holy acclamation; glory filling earth",
+          "note": "The seraphim's antiphonal holy acclamation is a heavenly praise formula for YHWH. It offers a liturgical setting for the commentary's tesbih of the transcendent Lord, though it does not reproduce its prayer sequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.57.15",
+          "basis": "the high and lifted One; holy Name; reviving the lowly",
+          "note": "Isaiah calls God high and lifted up, whose name is Holy, and says that he revives the contrite. This joins the Most High epithet to a divine restoring action relevant to the commentary's praise and purification pairing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.117.1",
+          "basis": "Arabic س ب ح (B001); Hebrew שׁבח",
+          "note": "The commentary labels Arabic س ب ح as B001. Psalm 117 uses the Hebrew Piel imperative שַׁבְּחוּהוּ, “praise him,” a likely Semitic cognate in a summons for all peoples to praise YHWH."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.8.18",
+          "basis": "Arabic ذ ك ر (B004/B005); Hebrew זכר",
+          "note": "The commentary labels ذ ك ر as B004/B005 and develops remembering the Lord. Deuteronomy's זכר, “remember,” directs Israel to remember YHWH as the giver of power, a cognate used for faithful recollection rather than merely saying a word."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.6.11",
+          "basis": "Arabic ص ل و (B002/B003); Biblical Aramaic מְצַלֵּא",
+          "note": "The commentary labels ص ل و as B002/B003. Daniel's Aramaic מְצַלֵּא, “praying,” is a close Aramaic-Syriac cognate form; its repeated kneeling and thanksgiving make the linguistic meeting concrete."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Berakhot 2:2",
+          "basis": "Torah reading, Shema, directing the heart",
+          "note": "The Mishnah asks whether someone already reading Torah fulfils the Shema when its time comes, and makes the answer turn on directing the heart. It clarifies the commentary's claim that recitation can be remembrance and worship only with intention."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Berakhot 5:1",
+          "basis": "directing the heart before prayer",
+          "note": "The early pietists pause before prayer in order to direct their hearts to their Father in heaven; this gives a concrete rabbinic practice for the commentary's inclusion of intention within tesbih and salat."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 26b",
+          "basis": "patriarchal derivation of fixed prayer times",
+          "note": "The Talmud derives the three daily prayer services from Abraham, Isaac, and Jacob. Its interpretive fixing of prayer in the day supplies a Jewish liturgical bridge to the commentary's praise at the sun's turning points."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.3.1",
+          "basis": "the ninth-hour time of prayer",
+          "note": "Peter and John go up together to the temple at the appointed hour of prayer. The scene offers a specific communal, timed counterpart to the commentary's recurring prayer and praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.4.23",
+          "basis": "worship in spirit and truth",
+          "note": "Jesus identifies true worship with spirit and truth. It gives an interpretive complement to the commentary's refusal to reduce worship to bodily movement or spoken formula, while retaining worship as an enacted practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.5.19",
+          "basis": "psalms and hymns spoken and sung in the heart",
+          "note": "The exhortation joins speaking psalms and hymns with singing in the heart to the Lord; it reflects the commentary's double focus on vocal remembrance and inward devotion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.17",
+          "basis": "unceasing prayer",
+          "note": "The command to pray without ceasing provides a Christian analogue to the commentary's repeated, abundant tesbih and remembrance, although it does not prescribe the same ritual form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.13.16",
+          "basis": "doing good and sharing as sacrifices pleasing to God",
+          "note": "This verse calls concrete beneficence and sharing sacrifices pleasing to God. It extends the commentary's word-action-intention account of worship to an explicitly ethical Christian practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.1.9",
+          "basis": "confession, forgiveness, cleansing",
+          "note": "God forgives and cleanses those who confess; it provides a specific Christian pairing of spoken penitential address and divine purification relevant to the commentary's 14–15 relation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 8.3",
+          "basis": "reciting the Lord's Prayer three times daily",
+          "note": "The Didache turns the Lord's Prayer into a thrice-daily discipline. This early Christian rule offers a concrete liturgical counterpart to the commentary's repeated prayer and remembrance around the day."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.96.2",
+          "basis": "singing to YHWH; blessing the Name day by day",
+          "note": "The psalm commands singing to YHWH, blessing his name, and proclaiming salvation from day to day; it supplies a distinct psalmic formulation of the commentary's vocal praise, Name, recitation, and recurring practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.100.4",
+          "basis": "thanksgiving, praise, blessing the Name",
+          "note": "Entering God's courts entails thanksgiving and praise, then giving thanks to him and blessing his name. The verse closely joins the commentary's dhikr as praise and thanks with public worship of the Name."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.16",
+          "basis": "not forgetting God's word",
+          "note": "The psalmist vows not to forget God's word; this is a direct, text-specific counterpart to the commentary's recitation, non-forgetting, and later reminder within the surah's devotional sequence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.171",
+          "basis": "lips pouring out praise after instruction",
+          "note": "The psalmist's lips pour out praise because God teaches statutes. It specifically joins a tongue-level act of praise to received teaching, as the commentary joins Qur'an recitation and dhikr."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.172",
+          "basis": "tongue singing God's word",
+          "note": "The psalmist's tongue sings God's word; this is a precise oral-scriptural parallel to the commentary's statement that reading the Qur'an belongs to remembrance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.141.2",
+          "basis": "prayer as incense; lifted hands as evening offering",
+          "note": "Prayer is likened to incense and raised hands to the evening offering. It supplies a concrete bodily and time-marked analogue to the commentary's prayer as supplication and enacted worship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.56.7",
+          "basis": "house of prayer; accepted offerings",
+          "note": "God's house is called a house of prayer for all peoples, where offerings are accepted. This directly pairs prayer with formal communal worship, an important aspect of the commentary's unified tesbih, dhikr, and salat."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lam.3.41",
+          "basis": "lifting heart with hands to God",
+          "note": "Lamentations calls for lifting both heart and hands to God. The explicit union of inward disposition and visible bodily action sharpens the commentary's word-action-intention account of prayer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.8.22",
+          "basis": "standing before the altar; spreading hands toward heaven",
+          "note": "Solomon stands before the altar in the assembled people's presence and spreads his hands heavenward. It supplies a specific biblical prayer posture alongside the commentary's standing and supplicatory movements."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.8.30",
+          "basis": "supplication heard; divine forgiveness",
+          "note": "Solomon asks God to hear prayer and supplication and to forgive. The verse gives a direct biblical meeting between human du'a-like appeal and the divine cleansing or forgiveness side of the commentary's 14–15 linkage."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezra.9.5",
+          "basis": "evening offering; kneeling; spread hands",
+          "note": "At the evening offering Ezra rises from his self-affliction, falls to his knees, and spreads his hands to God. Its timed and bodily prayer scene closely meets the commentary's descriptions of salat."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.2.10",
+          "basis": "voice of thanksgiving; sacrifice; vowed act",
+          "note": "Jonah promises sacrifice with a voice of thanksgiving and the fulfilment of vows. This compactly combines vocal praise, gratitude, ritual action, and obedience, all senses the commentary assigns to dhikr and tesbih."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.36.25",
+          "basis": "God sprinkling clean water and cleansing",
+          "note": "Ezekiel depicts God cleansing the people from impurity. It does not itself define prayer, but it supplies the divine purification pole required by the commentary's linking of 87:14 to God's purifying salat."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 39:35",
+          "basis": "whole heart and voice; blessing the Lord's Name",
+          "note": "Ben Sira tells hearers to give thanks with all heart and voice and bless the Lord's name. It is an unusually close Jewish synthesis of inward intent, vocal praise, and the Name."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Ta'anit 2a",
+          "basis": "service of the heart interpreted as prayer",
+          "note": "The Talmud asks what service is performed with the heart and answers, prayer. This interpretation directly illuminates the commentary's claim that worship includes intention as well as its audible and bodily forms."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 40b",
+          "basis": "a blessing requires God's Name and kingship",
+          "note": "The rule that a blessing without the Name and kingship is no blessing makes formal invocation of the divine Name a defining liturgical act, a useful rabbinic counterpart to 87:1 and 87:15."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Tamid 5:1",
+          "basis": "public Torah and Shema recitation in temple liturgy",
+          "note": "The daily temple order combines blessings with recitation of Torah passages and the Shema. It gives a concrete Jewish liturgical setting for the commentary's claim that scriptural reading is part of remembrance and worship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.5",
+          "basis": "public prayer performed to be seen",
+          "note": "Jesus criticizes prayer offered for public display. In conjunction with the commentary's treatment of jahr as audible prayer, it makes intention rather than volume the relevant ethical distinction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Matt.15.9",
+          "basis": "vain worship through human teaching",
+          "note": "The continuation of Jesus' Isaiah citation calls worship vain when it teaches merely human precepts. It gives the explicit Christian continuation needed for the commentary's concern with heedless or merely external worship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.1.35",
+          "basis": "prayer before dawn",
+          "note": "Jesus rises while it is still dark and prays in a solitary place. This is a specific Christian scene for the commentary's praise and prayer before the sun's rising."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.10",
+          "basis": "the people praying at the hour of incense",
+          "note": "The whole assembled multitude prays outside during the incense hour. It offers a precise communal and timed liturgical counterpart to the commentary's formal prayer practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.2.37",
+          "basis": "night-and-day service with fasting and prayers",
+          "note": "Anna serves God night and day through fasting and prayers. Her recurring discipline meets the commentary's abundant remembrance and continuing worship without reducing it to one isolated prayer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.10.4",
+          "basis": "prayers and alms as a memorial before God",
+          "note": "Cornelius's prayers and alms ascend as a memorial before God. The passage gives a striking New Testament link between remembrance, prayer, and obedient action, matching the commentary's broad account of dhikr."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.22.16",
+          "basis": "washing away sins while calling on the Name",
+          "note": "Paul is told to be washed from sins while calling on the Lord's name. It specifically joins name-invocation to cleansing, a close Christian meeting of the commentary's remembrance and divine purification relation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.14.25",
+          "basis": "secrets of the heart; falling face-down; worship and confession",
+          "note": "When hidden heart-secrets are disclosed, the hearer falls on his face, worships God, and declares God truly present. This unusually combines the commentary's hidden/open axis, prostration, and voiced God-remembrance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.11",
+          "basis": "every tongue confessing to God's glory",
+          "note": "The verse completes the preceding knee-bending with every tongue's confession to the glory of God the Father. It gives the verbal side of the name-and-body meeting already present in the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.17",
+          "basis": "word and deed in the Name; thanksgiving",
+          "note": "Whatever is done in word or deed is to be done in the Lord's name with thanks. This directly mirrors the commentary's integration of utterance, deed, Name, and gratitude under worship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.2.1",
+          "basis": "supplications, prayers, intercessions, thanksgivings",
+          "note": "The verse deliberately lists supplications, prayers, intercessions, and thanksgivings. It supplies a close Christian comparison to the commentary's semantic expansion of salat and dhikr into du'a, praise, and thanks."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.2.8",
+          "basis": "prayer everywhere; lifted holy hands; moral restraint",
+          "note": "The instruction to pray everywhere with lifted holy hands is joined to rejection of anger and disputing. It connects the commentary's bodily prayer with its ethical claim that prayer opposes wrongdoing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.22",
+          "basis": "drawing near; hearts sprinkled clean; bodies washed",
+          "note": "Hebrews couples approach to God with a true heart and imagery of cleansed hearts and washed bodies. It provides a Christian purification-and-worship analogue to the commentary's 87:14–15 association."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.5.8",
+          "basis": "falling in worship; harps; bowls identified as prayers",
+          "note": "The elders fall before the Lamb while holding harps and bowls of incense identified as the saints' prayers. This heavenly liturgy joins body, praise music, and prayer in a form especially relevant to the commentary's single devotional practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.15.4",
+          "basis": "glorifying the Name and worship by all nations",
+          "note": "The hymn asks who would not glorify the Lord's name and says all nations will come and worship. It directly pairs name-glorification with worship in a Christian doxological formula."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 8.2",
+          "basis": "Lord's Prayer formula; hallowing the Name",
+          "note": "The Didache transmits the Lord's Prayer as the form believers are to pray, including the hallowing of the Father's name. It supplies the early Christian liturgical text that its following thrice-daily rule presupposes."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "256a4507c5162e366f3774a7830f1007991057170ec58c449f13e97556779453",
+    "followup_sha256": "256a4507c5162e366f3774a7830f1007991057170ec58c449f13e97556779453"
+  },
+  "consolidation_error": null,
+  "list_sha256": "993e40e77e8b5db17bd6e4729a533ddbcd67887994d7bf144291fb5663134302",
+  "followup_delivery": [
+    {
+      "call_id": "call_rFXhpLJVqFJY6znUvEuqhY3f",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 313256,
+    "cached_input_tokens": 261632,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 28355,
+    "reasoning_output_tokens": 21739,
+    "total_tokens": 341611
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:07:14.890Z",
+  "artifacts": {
+    "started.json": "d1108f4f3a8c4015ec43d6beb0413d88ab081a6f8e602f558552a49730327e13",
+    "input.json": "dffeba0038b4f643c4aa1129fe5664de58bca1c6d5e67272374ee886422b71f0",
+    "prompt.md": "5af82223568815657294552224a5ca6883995847800485824fffa1a73fdd16e8",
+    "package.md": "86b63776e0212224d45e2462af10fc1f4fde009eeda49025a35c430c8350cc1b",
+    "spawn.md": "3bde5034d0fcd959cbc13e66935166c08497886292abb93bd13cba422c85cfd4",
+    "followup.txt": "51233ca82ab7e4ae25ca40cba5adb571e84ad77f315ae2ef445d6b6c323a2858",
+    "turn1.json": "cc53d55a3f38ea263e4f493b76d4d490ad0db914c82d02049d661563a339158d",
+    "turn1.list.tsv": "22f999dc3c0f5c69a6ed478b743be047d14374a2849fa99bb656d7488d9243b1",
+    "followup.tsv": "256a4507c5162e366f3774a7830f1007991057170ec58c449f13e97556779453",
+    "list.tsv": "993e40e77e8b5db17bd6e4729a533ddbcd67887994d7bf144291fb5663134302",
+    "consolidation.json": "29a17d6fa01fdf4e8b6c54f4278d219ebcb9d6516760727678f2335d8c03d9a7",
+    "validation.json": "6682a8afcf0f58c4343d5b1a8c4e6e4d5b5279d2c69ad867c8780140262844f9",
+    "proposal_validation.json": "127e1dee348c441f6bb6a217f590f1d16809037194ef8db56971a30a3b8006fe",
+    "tool_calls.json": "96250c44764a071d6807a2de5347ab60b4646210204a7c2f67e480bed159ee48",
+    "session.json": "ea91270a9472653f38d55804baf947867c8cddf2d272ca46a7ef00ed2a025b09",
+    "session.events.jsonl": "57c0aab3b19741d2ae93d2866d0756aece54b02cf6d1a12c0287517ed8b94230"
+  }
+}

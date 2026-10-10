@@ -1,0 +1,1535 @@
+{
+  "target": "sec12",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:21:56.873819-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec12_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "bef66745d03e7fd9050612b941f8958caa99f53e92104fbc381393a5546ec4c4",
+  "package_sha256": "fef7030159ed2f04175201e3257bb1c89f8b12f75251769e3455bcf77cc7f448",
+  "input_sha256": "7dad3e464dba495ead94ebd7912027a19677b470f50d403895100131de0ae9f4",
+  "spawn_sha256": "5a76db7ba3f5f3a6b99247e8cb3ecb36b7f441962193fcfb1dbf3f1de51225ac",
+  "followup_text_sha256": "176c96a45004a3a5bead702c173b8a0aa5c756f95621c735e55558157ca52a10",
+  "agent_id": "01a10d1a-c188-7982-a281-1c559c340064",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-26-59-01a10d1a-c188-7982-a281-1c559c340064.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 90,
+  "turn1_sha256": "3f7e0095a6ad2b0b7864a1d858321560dbd676784f5e7c496f1468901fda6f06",
+  "turn2": {
+    "completed": true,
+    "rows_total": 111,
+    "rows_added": 21
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 90,
+    "raw_proposal_rows": 21,
+    "unique_additions": 21,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.4.12",
+          "basis": "God teaches Moses' mouth",
+          "note": "God promises to be with Moses' mouth and teach him what to speak, a direct Mosaic counterpart to 87:6's God-caused recitation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.18.18",
+          "basis": "words put in a prophet's mouth",
+          "note": "YHWH puts words in the coming prophet's mouth and requires him to speak them, closely matching the commentary's active causative sense of making a messenger recite."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.1.9",
+          "basis": "YHWH puts words in Jeremiah's mouth",
+          "note": "The mouth-touching call scene makes prophetic speech a deposited divine word, illuminating 87:6 before the commentary turns to retention."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.59.21",
+          "basis": "words never depart from mouths",
+          "note": "The covenant promises that God's words will not depart from the prophet's mouth or his descendants' mouths, a generational form of the no-forgetting promise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.31.19",
+          "basis": "write, teach, put the song in mouths",
+          "note": "Moses must write the song, teach it, and place it in Israel's mouths; it joins written preservation with learned recitation as the commentary does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.31.21",
+          "basis": "the song will not be forgotten",
+          "note": "The song's continuing presence in descendants' mouths is explicitly said not to be forgotten, an unusually close scriptural analogue to 87:6."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.34.16",
+          "basis": "seek and read YHWH's book; none missing",
+          "note": "In the oracle's announced animal assembly, the reader is sent to YHWH's book and told none will be missing because his Spirit has gathered them; that concrete book-and-gathering image sharpens the commentary's claim that what God collects is not dropped."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Neh.8.8",
+          "basis": "Hebrew q-r-ʾ / Arabic q-r-ʾ",
+          "note": "Hebrew q-r-ʾ is used for public reading of God's written Torah with explanation; its formal cognacy with the commentary's قرأ makes 87:6's recitation a textual and communal act, not only private memory."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Josh.1.8",
+          "basis": "book in the mouth and day-night meditation",
+          "note": "Joshua is told that the Torah book must not depart from his mouth and must be meditated on continually, combining a book, oral repetition, and obedient retention."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.24.4",
+          "basis": "Moses writes all YHWH's words",
+          "note": "Moses' writing of all the spoken words supplies a Mosaic instance of divine speech becoming a durable written collection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.24.7",
+          "basis": "Moses reads the covenant book aloud",
+          "note": "The written covenant is then read in the people's hearing, giving the read-and-hear sequence behind the commentary's movement from gathered words to pages."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.31.24",
+          "basis": "Moses completes writing Torah in a book",
+          "note": "The verse explicitly marks completion of Moses' written Torah, a close biblical comparator for 87:19's named Mosaic sheets."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.26",
+          "basis": "place the Torah book beside the ark",
+          "note": "The finished book is placed beside the ark as a witness, making physical custody part of preserving the words rather than leaving them only to memory."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:2Kgs.22.8",
+          "basis": "lost law book found and read",
+          "note": "Hilkiah finds the book of the Torah in the temple and gives it to Shaphan to read, a narrative reversal of scripture left out of use and then recovered."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.36.2",
+          "basis": "write spoken prophecies on a scroll",
+          "note": "YHWH orders Jeremiah to put all the words spoken against Israel and Judah on a scroll, directly joining oral revelation and a written surface."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.36.4",
+          "basis": "Baruch writes from Jeremiah's mouth",
+          "note": "Baruch writes the divine words from Jeremiah's mouth on a scroll, a particularly close scene of mediated recital becoming pages."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.36.23",
+          "basis": "royal burning of the scroll",
+          "note": "Jehoiakim cuts and burns the written columns; its deliberate loss gives a concrete contrary case to the commentary's claim that divine collection is not dropped."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.36.28",
+          "basis": "rewrite the burned scroll's former words",
+          "note": "After the scroll is burned, YHWH commands another scroll containing the former words, making restoration after textual loss part of the parallel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ezek.3.1",
+          "basis": "eat the scroll, then speak",
+          "note": "Ezekiel is commanded to consume the scroll before speaking to Israel, an embodied image of written revelation being internalized and reissued."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.2",
+          "basis": "write the vision so a reader can run",
+          "note": "The vision is written plainly on tablets for a reader, an explicit practical reason for fixing revelation in readable written form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.8.16",
+          "basis": "bind testimony and seal Torah among disciples",
+          "note": "The prophet binds and seals testimony among disciples, coupling guarded writing to a community that carries it forward."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.119.16",
+          "basis": "I will not forget your word",
+          "note": "The psalmist's pledge not to forget God's word is the direct devotional counterpart to the commentary's contrast between forgetting and preserving."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Prov.3.1",
+          "basis": "do not forget teaching; heart keeps commands",
+          "note": "Forgetting Torah is opposed to the heart's keeping commandments, closely matching the commentary's definition of forgetting as failure to hold what was entrusted."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.15.39",
+          "basis": "visible fringe as a reminder to obey",
+          "note": "The tassel is to be seen so Israel remembers and performs the commands; it gives a material tadhkira-like aid to recall."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.20.8",
+          "basis": "Hebrew z-k-r / Arabic dh-k-r",
+          "note": "The Sabbath command uses Hebrew z-k-r, formally cognate with the commentary's ذ ك ر, for a liturgical remembering that issues in sanctification."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.2.32",
+          "basis": "Israel forgets God despite the bride comparison",
+          "note": "Jeremiah contrasts a bride who remembers her adornments with Israel that has forgotten God for countless days, making forgetfulness concrete as covenantal abandonment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Hos.4.6",
+          "basis": "forgotten Torah answered by divine forgetting",
+          "note": "Because the priests have forgotten God's Torah, God says he will forget their children; this directly parallels the commentary's reciprocal forgetting and judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.49.15",
+          "basis": "God will not forget Zion",
+          "note": "The maternal comparison culminates in God's refusal to forget Zion, a personal counterpart to the unforgetting Lord and his record in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.16",
+          "basis": "book of remembrance for those who fear the Name",
+          "note": "Those who fear YHWH are recorded in a book of remembrance before him, bringing together fear, the divine Name, remembering, and a written record as in 87:9-10 and 15-19."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Mal.3.22",
+          "basis": "remember the Torah of Moses",
+          "note": "The closing command to remember Moses' Torah makes remembrance itself the mode by which a Mosaic written legacy remains operative."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.7.10",
+          "basis": "court sits and books are opened",
+          "note": "The heavenly court's opened books give a biblical image for the commentary's Lord whose knowledge of former generations is securely recorded."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.12.2",
+          "basis": "everlasting life and everlasting contempt",
+          "note": "Daniel's resurrection contrast gives a Hebrew Bible counterpart to 87:16-17's preference for the present life over the enduring future."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.8",
+          "basis": "grass withers but God's word stands forever",
+          "note": "The contrast between perishing grass and the enduring divine word relates the commentary's passing worldly life to retained and lasting revelation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.24.16",
+          "basis": "each person dies for his own sin",
+          "note": "The legal rule rejects transferring a parent's or child's guilt, directly paralleling the commentary's cited content of Abrahamic and Mosaic sheets that no bearer carries another's burden."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ezek.18.20",
+          "basis": "the sinner bears his own iniquity",
+          "note": "Ezekiel's sustained individual-accountability claim is a close theological counterpart to the commentary's 53:38 reading of the earlier sheets."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Eccl.12.7",
+          "basis": "spirit returns to God who gave it",
+          "note": "The return of the spirit to its giver gives a Hebrew Bible formulation beside the commentary's statement that the final endpoint is the Lord."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 2:10",
+          "basis": "plastered cistern that loses not a drop",
+          "note": "The rabbinic praise of learned retention as a cistern that loses no drop closely realizes the commentary's memory-as-container and dropped-object imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 3:8",
+          "basis": "forgetting a word of learning",
+          "note": "The mishnah treats losing even one learned word as grave, making the commentary's forgetting of an entrusted teaching a concrete Torah-study ethic."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 1:1",
+          "basis": "Moses received and transmitted Torah",
+          "note": "Its chain from Moses through successive teachers supplies a Jewish model for the commentary's source label on transmitting a report received from another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Gittin 60a",
+          "basis": "Torah given scroll by scroll or as one whole",
+          "note": "The rabbinic dispute over separate scrolls versus a completed Torah directly frames the commentary's progression from written sheets to a gathered codex as a question about revelation's material form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Kiddushin 82a",
+          "basis": "Abraham fulfilled Torah before Sinai",
+          "note": "By reading Genesis 26:5 as Abraham's observance of the whole Torah before its giving to Moses, the tradition supplies a Jewish bridge to 87:19's Abraham-and-Moses pairing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "4 Ezra 14:21",
+          "basis": "burned law leaves knowledge inaccessible",
+          "note": "Ezra laments that the law has been burned and therefore the past and future cannot be known, a direct apocalypse-era opposite to a protected, retained scripture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "4 Ezra 14:39",
+          "basis": "inspired understanding and retained memory",
+          "note": "After drinking the fiery cup, Ezra's wisdom increases and his spirit retains memory, closely matching divine enablement to remember revelation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "4 Ezra 14:41",
+          "basis": "Ezra dictates while five scribes write",
+          "note": "Five men write what Ezra dictates over forty days, a detailed Jewish scene of inspired speech being gathered into text."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "4 Ezra 14:43",
+          "basis": "ninety-four books written",
+          "note": "The completed production of ninety-four books makes collected written revelation, rather than a single remembered saying, the explicit outcome."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "2 Maccabees 2:13",
+          "basis": "Nehemiah founds a library and collects books",
+          "note": "The account of Nehemiah gathering books about kings, prophets, David, and royal letters gives a rare explicit Jewish image of assembling scattered scriptural materials."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "2 Maccabees 2:14",
+          "basis": "Judas collects books scattered by war",
+          "note": "Judas' recovery of books dispersed through war closely matches the commentary's path from loss and dispersal to gathered pages."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1 Maccabees 1:56",
+          "basis": "books of the law torn and burned",
+          "note": "The persecution's tearing and burning of Torah books provides a historical contrary case to the durable custody imagined by 87:18-19."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Baruch 4:1",
+          "basis": "book of commandments held fast for life",
+          "note": "The text calls the law an enduring book and contrasts holding it fast with forsaking it, directly echoing the commentary's held versus lost revelation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 24:23",
+          "basis": "Mosaic law called the covenant book",
+          "note": "Ben Sira identifies the law commanded by Moses as the book of the Most High's covenant, a Second Temple way of naming a Mosaic written corpus."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Mishnah Avot 4:16",
+          "basis": "this world as corridor before the world to come",
+          "note": "The corridor-and-banquet-hall contrast gives a compact rabbinic analogue to preferring the nearer worldly life over the lasting life to come."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.10.20",
+          "basis": "the Father's Spirit speaks through disciples",
+          "note": "Jesus assures messengers that the Spirit of their Father speaks through them, a New Testament form of divinely enabled prophetic speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.14.26",
+          "basis": "Spirit teaches and reminds disciples",
+          "note": "The Paraclete will teach all things and bring Jesus' words back to memory, directly pairing instruction with divinely secured recollection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.1.14",
+          "basis": "guard the good deposit",
+          "note": "The entrusted teaching is to be guarded through the Holy Spirit, a close Christian analogue to the commentary's definition of forgetting as failing to hold an entrusted thing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.6.10",
+          "basis": "God does not forget faithful work",
+          "note": "God's refusal to forget service makes divine non-forgetting an ethical and judicial claim beside the commentary's Lord who neither strays nor forgets."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.3.3",
+          "basis": "remember what was received and heard; keep it",
+          "note": "The church is commanded to remember received and heard teaching and to keep it, closely mapping receipt, recall, and retention onto 87:6 and 87:9."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.24",
+          "basis": "forgetful hearer after looking",
+          "note": "James' hearer immediately forgets after seeing himself, a specific Christian image of received perception that is not retained or acted on."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.3.2",
+          "basis": "remember prophets' words and apostolic command",
+          "note": "The letter explicitly asks readers to recall former prophetic speech and the apostolic command, joining old writings and present exhortation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.1.15",
+          "basis": "provision for recall after the speaker's departure",
+          "note": "The author seeks to ensure that readers can recall the teaching after his death, making durable remembrance a stated literary purpose."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.22.19",
+          "basis": "do this in remembrance of me",
+          "note": "The meal command turns remembrance into a repeated communal act, a concrete Christian counterpart to the commentary's reminder as an instrument of recall."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.3",
+          "basis": "what was received is delivered onward",
+          "note": "Paul's received-and-delivered formula is a precise early Christian transmission chain for the commentary's sense of passing on a report from another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.2",
+          "basis": "heard teaching entrusted through further teachers",
+          "note": "What Timothy heard is entrusted to reliable people who will teach others, making preservation a multi-generation oral chain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.2.15",
+          "basis": "hold traditions taught by word or letter",
+          "note": "The command explicitly joins oral teaching and written letter as forms of retained tradition, directly comparable to recitation becoming pages."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.2",
+          "basis": "eyewitnesses deliver the word onward",
+          "note": "Luke begins from traditions delivered by eyewitnesses and servants of the word, a narrative account of report transmission before the written Gospel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.16",
+          "basis": "word dwelling richly through teaching and admonition",
+          "note": "The indwelling word produces reciprocal teaching and admonition, a communal version of 87:9's beneficial reminder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Tim.4.13",
+          "basis": "public reading, exhortation, and teaching",
+          "note": "The triad makes public reading serve exhortation and teaching, placing Christian practice beside the commentary's joined recitation and reminder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.1.3",
+          "basis": "reader, hearers, and keepers of written prophecy",
+          "note": "Blessing attaches to the reader, hearers, and those who keep a written prophecy's words, tightly joining book, recitation, hearing, and retention."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.19",
+          "basis": "taking away words from prophecy's book",
+          "note": "The warning against taking away words from the prophetic book gives a Christian textual counterpart to the commentary's insistence that what God gathers is not lost."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.3.3",
+          "basis": "Christ's letter written on hearts",
+          "note": "Paul contrasts ink and stone with the Spirit's writing on human hearts, a Christian reworking of the commentary's relation between held memory and written sheets."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.8.10",
+          "basis": "laws put in minds and written on hearts",
+          "note": "The new-covenant citation makes divine law both mentally placed and internally written, closely paralleling the commentary's movement from memory to inscription."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.10.10",
+          "basis": "take and eat the little scroll",
+          "note": "John consumes the revealed scroll, a New Testament image of a written message entering the prophet before further speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.10.11",
+          "basis": "must prophesy again after the scroll",
+          "note": "After the consumed scroll, John is told to prophesy again to peoples and kings; the sequence echoes internalized text becoming renewed proclamation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.4.13",
+          "basis": "books and especially parchments",
+          "note": "Paul's request for books and parchments gives a concrete Christian reference for the commentary's material sheets of skin or parchment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Gal.6.5",
+          "basis": "each person bears his own load",
+          "note": "Paul's individual load supplies a direct New Testament comparator to the commentary's cited earlier-sheet claim that no bearer bears another's burden."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.3.8",
+          "basis": "each receives wages according to personal labor",
+          "note": "Paul's reward according to one's own labor closely parallels the commentary's cited content that a person has only what he has striven for."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:2Cor.5.10",
+          "basis": "each receives what was done in the body",
+          "note": "Universal appearance before Christ's judgment seat gives the individual recompense setting behind the commentary's sheets-of-Moses-and-Abraham ethics."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Mark.8.36",
+          "basis": "gain the world and forfeit one's life",
+          "note": "Jesus' question about gaining the whole world at the cost of life is a pointed Christian analogue to preferring worldly life over what lasts."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:2Cor.4.18",
+          "basis": "seen things temporary; unseen things eternal",
+          "note": "The visible-temporary versus invisible-eternal contrast states the same valuation pattern developed around 87:16-17."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.11.26",
+          "basis": "Moses values future reward above Egypt's wealth",
+          "note": "Moses judges reproach for the Messiah greater wealth than Egypt's treasures because he looks to reward, a particularly apt Mosaic comparison for 87:16-19."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1John.2.17",
+          "basis": "the world passes; God's doer abides forever",
+          "note": "The world and its desire pass away while the doer of God's will remains forever, directly matching the contrast of worldly preference and endurance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.12",
+          "basis": "dead judged from opened books",
+          "note": "The opened books of judgment make a Christian image of divine record-keeping beside the commentary's unforgetting Lord and the earlier sheets."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Pesachim 117b",
+          "basis": "remember Sabbath over wine",
+          "note": "The rabbinic derivation of Sabbath remembrance over wine interprets the Hebrew cognate z-k-r as enacted recall, sharpening the liturgical side of the commentary's ذ ك ر."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.4.16",
+          "basis": "letters read and exchanged between churches",
+          "note": "A letter is read in one church and exchanged for reading in another, a concrete case of written teaching being circulated rather than left as an isolated page."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.15.4",
+          "basis": "former writings written for present instruction",
+          "note": "Paul presents earlier written scripture as instruction for later readers, a Christian account of how first writings remain active in a new community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Gal.3.8",
+          "basis": "Scripture proclaims good news beforehand to Abraham",
+          "note": "Paul reads the Abrahamic promise as Scripture's advance proclamation of the gospel; it supplies a Christian interpretive analogue, rather than literal Abrahamic pages, for ancient Abrahamic revelation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Gal.3.17",
+          "basis": "Abrahamic covenant temporally distinguished from later law",
+          "note": "Paul's argument separates the Abrahamic promise from the law arriving 430 years later, a different ordering of Abraham and Moses that must remain visible beside 87:18-19's paired sheets."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:John.5.46",
+          "basis": "Moses wrote of Jesus",
+          "note": "Jesus' claim that Moses wrote about him is a Christian rereading of Mosaic writing that changes what a reader finds in the pages named in 87:19."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.29.11",
+          "basis": "sealed book cannot be read",
+          "note": "Isaiah's learned reader cannot read the sealed book, a precise inverse scene to 87:6's divine promise to make the messenger recite and retain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.26.5",
+          "basis": "Abraham obeys commands, statutes, and laws",
+          "note": "Genesis presents Abraham as obedient to divine laws but does not narrate a written Abrahamic corpus; the distinction cautions against simply identifying 87:19's sheets with a Genesis document."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, Confessions 10.8.12",
+          "basis": "fields and palaces of memory",
+          "note": "Augustine's image of memory as a vast interior storehouse gives a Christian interpretive companion to the commentary's container imagery for what is held, retrieved, or dropped."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.3.6",
+          "basis": "Adam takes and eats the forbidden fruit",
+          "note": "Genesis depicts Adam's first transgression as eating fruit in the woman's temptation scene rather than naming forgetfulness; it is the necessary biblical counter-narrative to the commentary's Adam of Q 20:115 who forgets and lacks resolve."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.17.19",
+          "basis": "written Torah read continually to learn fear",
+          "note": "The king keeps a written Torah with him and reads it all his days in order to fear YHWH and keep its words, concentrating the commentary's book, recitation, retention, and fear motifs in one scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.30.14",
+          "basis": "word near in mouth and heart",
+          "note": "The word's nearness in Israel's mouth and heart for doing it gives a compact Torah formulation for revelation that is both recited and inwardly held."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.8",
+          "basis": "write on tablet and book for a future day",
+          "note": "Isaiah is told to inscribe the testimony so it endures as a witness for the future, a specific biblical reason to preserve prophetic speech in writing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.36.32",
+          "basis": "former scroll restored with additional words",
+          "note": "After the burning, Baruch writes the former words from Jeremiah's mouth and many similar words are added; this distinct final step makes remembered speech both recoverable and expandable in a new scroll."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.17.10",
+          "basis": "God gives each according to ways and deeds",
+          "note": "YHWH's searching judgment and recompense according to each person's ways supplies a Hebrew Bible counterpart to the commentary's cited earlier-sheet ethics of personal effort and return."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Eccl.12.14",
+          "basis": "every deed brought into judgment",
+          "note": "The final judgment of every hidden good or evil deed adds the judicial outcome to the commentary's 53:38-42 sequence of individual burden, effort, and return to God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Jubilees 1:1",
+          "basis": "God gives Moses divinely written tablets to teach",
+          "note": "Jubilees opens by having God give Moses tablets of law and commandment already written for teaching Israel, a Second Temple expansion of the Mosaic written-revelation scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.15.21",
+          "basis": "Moses read in synagogues every Sabbath from ancient generations",
+          "note": "James describes Moses as publicly read every Sabbath in city synagogues, a New Testament witness to the continuing recitation of an ancient Mosaic written legacy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.1.3",
+          "basis": "an orderly written account follows received tradition",
+          "note": "After the eyewitness delivery described in Luke 1:2, the author writes an orderly account; the verse supplies the distinct written outcome of the oral transmission already in view."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.15",
+          "basis": "hearers hold the word fast in a good heart",
+          "note": "In the good-soil explanation, hearers retain the word and bear fruit with endurance, a precise Christian image for held rather than dropped revelation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Mark.13.31",
+          "basis": "Jesus' words will not pass away",
+          "note": "The contrast of passing heaven and earth with imperishable words is a direct New Testament counterpart to the commentary's passing worldly life and retained divine speech."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Pet.1.25",
+          "basis": "the Lord's word endures and is preached",
+          "note": "The Petrine reuse of the enduring-word formula identifies that lasting word with the gospel preached to its readers, combining permanence and proclamation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.3.5",
+          "basis": "name not erased from the book of life",
+          "note": "The promise not to erase the conqueror's name gives a Christian book-image for being retained before God, alongside the commentary's contrast between forgetting and divine record."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rom.14.12",
+          "basis": "each person gives an account to God",
+          "note": "Paul's formula of each person giving an account of self directly reinforces the individual accountability the commentary attributes to the earlier sheets."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.19.23",
+          "basis": "Job desires his words inscribed permanently",
+          "note": "Job's wish that his words be written in a book makes durable inscription the response to threatened loss in a non-prophetic setting, extending the commentary's concern with pages that hold what speech might otherwise lose."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Dan.12.4",
+          "basis": "seal the book until the time of the end",
+          "note": "Daniel is told to keep the words secret and seal the book until the end; its guarded, delayed access provides a qualified inverse to 87:6's enabled recital and 87:18's available earlier sheets."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Bava Batra 14b",
+          "basis": "Moses' authorship and the catalog of biblical books",
+          "note": "The rabbinic discussion that attributes Moses' book and other works to named authors is a later Jewish way of organizing the textual corpus behind the commentary's named Mosaic pages."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "b. Hagigah 9b",
+          "basis": "one hundred versus one hundred and one reviews",
+          "note": "The contrast between reviewing a lesson one hundred and one times versus one hundred times supplies a rabbinic practice of repetition aimed at preventing the loss the commentary calls forgetting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "Eusebius, Ecclesiastical History 3.39.4",
+          "basis": "Papias prefers the living voice to information from books",
+          "note": "Papias' reported preference for remembered living testimony over books gives a Christian counter-emphasis: the commentary joins memory to sheets, whereas this reception tradition privileges living recall over written repositories."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Basil, On the Holy Spirit 27.66",
+          "basis": "written teaching and unwritten apostolic tradition",
+          "note": "Basil distinguishes church teaching received from writing from teaching transmitted through unwritten apostolic tradition, a later Christian framework that complicates any simple equation of preserved revelation with pages alone."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "1bd6e5b4ceb7fd230a2a93ae46e64d6df8e514b5ce8bad381e51d51cc47ea01c",
+    "followup_sha256": "1bd6e5b4ceb7fd230a2a93ae46e64d6df8e514b5ce8bad381e51d51cc47ea01c"
+  },
+  "consolidation_error": null,
+  "list_sha256": "f1ec7369435c8bc3a10fcada546545cbcb4ac3db8f7270164b36c041e70e2ce0",
+  "followup_delivery": [
+    {
+      "call_id": "call_nM5TWhMhAOeziN33G425gGib",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 344665,
+    "cached_input_tokens": 287232,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34670,
+    "reasoning_output_tokens": 27379,
+    "total_tokens": 379335
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:10:23.594Z",
+  "artifacts": {
+    "started.json": "086e4def0492677c1e99b93a452e68ba30010bc582ab9aa0fc3f573292be1e12",
+    "input.json": "7dad3e464dba495ead94ebd7912027a19677b470f50d403895100131de0ae9f4",
+    "prompt.md": "bef66745d03e7fd9050612b941f8958caa99f53e92104fbc381393a5546ec4c4",
+    "package.md": "fef7030159ed2f04175201e3257bb1c89f8b12f75251769e3455bcf77cc7f448",
+    "spawn.md": "5a76db7ba3f5f3a6b99247e8cb3ecb36b7f441962193fcfb1dbf3f1de51225ac",
+    "followup.txt": "176c96a45004a3a5bead702c173b8a0aa5c756f95621c735e55558157ca52a10",
+    "turn1.json": "91150ee8f9308da76bc513adb0ca3c2eb47629f1a6dd965b3cb72a4083776c39",
+    "turn1.list.tsv": "3f7e0095a6ad2b0b7864a1d858321560dbd676784f5e7c496f1468901fda6f06",
+    "followup.tsv": "1bd6e5b4ceb7fd230a2a93ae46e64d6df8e514b5ce8bad381e51d51cc47ea01c",
+    "list.tsv": "f1ec7369435c8bc3a10fcada546545cbcb4ac3db8f7270164b36c041e70e2ce0",
+    "consolidation.json": "cefbec882eee5efdaf20d709ca2b971c925d1b5fa545a6e3ed1eff64af9ec9b9",
+    "validation.json": "9c078ae12436981bc690f309bc3244e5af3c9889a80969d146fe435f6d669f55",
+    "proposal_validation.json": "8fb0826e7143d9da52a5a65abe8f6476a469a9bbc5a0f74b5dcab568c30669a3",
+    "tool_calls.json": "8adda27d4a3ca9d637ac279b59bc3a18386ff28b649f4d3bd9cb5bb3c1b428bd",
+    "session.json": "42be1e8382326227c099f2e147df062b67904701f5c6c807ab90a5cb1fb850cc",
+    "session.events.jsonl": "ec2205f91527bddad13049b110e99a3e9be0b538bdd068a1ef61c69f1da72276"
+  }
+}

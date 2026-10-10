@@ -1,0 +1,887 @@
+{
+  "target": "sec4",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:21:51.859587-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec4_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "3256cdbccfb6c06ad4d109b132f06265a7f62305c37ac32676b4829a7a5175e5",
+  "package_sha256": "8a467284648526d5e0805a97428504b4918af19036c2028eadfc48e78e999e71",
+  "input_sha256": "c8a6eb5a00eb5302228479956355391c6685eb693b314bce77184e111d021481",
+  "spawn_sha256": "2af3604540e453d432440a13daea66d9ebe46d48269fc4c1c9cd4c1ad86bc274",
+  "followup_text_sha256": "a19aa95ea9338dd80ca5a678f6e1f4a919bf8ff166e3286b9aa4668dafd65060",
+  "agent_id": "01a10d17-6933-7150-8fa7-ee44240f245c",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-23-20-01a10d17-6933-7150-8fa7-ee44240f245c.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 32,
+  "turn1_sha256": "a1d217343ec0386b8aafbe1ab3cbed2b0b9fb99dd50f7bf20f594b082fe7274b",
+  "turn2": {
+    "completed": true,
+    "rows_total": 61,
+    "rows_added": 29
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 32,
+    "raw_proposal_rows": 29,
+    "unique_additions": 29,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.49.2",
+          "basis": "polished arrow and quiver",
+          "note": "The commentary makes the second and third ayat sound like a shaped, straight arrow whose point leads, and separately notes a bag for arrows; Isaiah's servant is made as a polished arrow and hidden in YHWH's quiver, adding a scriptural image of divine preparation and readiness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.28.25",
+          "basis": "wind weighed and waters measured",
+          "note": "The commentary reads creation through measuring before shaping; Job says God assigned weight to wind and measure to waters, making measure itself part of divine ordering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.12",
+          "basis": "creator measures waters and heavens",
+          "note": "The commentary's craft scene joins creating with sizing and straightening; Isaiah portrays the creator measuring waters, spanning heavens, and weighing mountains, giving that workmanship a cosmic scale."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 11:20",
+          "basis": "measure, number, and weight",
+          "note": "The commentary links خلق and قدر as making and setting a measure; Wisdom says God ordered all things by measure, number, and weight, an unusually exact Jewish formulation of creation as measured order."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.33",
+          "basis": "lot cast, decision from YHWH",
+          "note": "The commentary treats the game arrows as assigning shares by chance and contrasts them with the share set by God; Proverbs says a lot is cast but its decision belongs to YHWH, so the lot is not an independent force."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.48.17",
+          "basis": "teaching for benefit and leading in a way",
+          "note": "The commentary joins the ayat's guiding verb with its reminder's benefit; Isaiah's Redeemer says he teaches what is profitable and leads in the way one should go, bringing those two actions together without implying a cognate."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.9",
+          "basis": "human planning and divine direction",
+          "note": "The commentary's artisan first thinks through how to prepare and straighten an object, then turns to guidance; Proverbs says a person plans a way but YHWH establishes the steps, a close sequence of planning followed by direction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Mal.3.3",
+          "basis": "fire as refining and purification",
+          "note": "The commentary links the staff straightened over fire to the same fire entered by the condemned in 87:12; Malachi's refiner-fire purifies the Levites, giving fire a restorative craft function rather than a punitive end."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.18.10",
+          "basis": "lot divides an inheritance",
+          "note": "The commentary says the game arrows distribute portions and that this chance share is forbidden; Joshua has Israel receive its territorial inheritance by lot before YHWH, a concrete sacred allotment with a different function."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.21.21",
+          "basis": "arrows used for divination",
+          "note": "The commentary's arrows determine a game's shares, while Ezekiel's Babylonian king shakes arrows among other divinations to choose his military route; the shared arrow practice illuminates how a chance sign could direct action, though here it selects a route rather than a portion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.42",
+          "basis": "chosen portion that remains",
+          "note": "The commentary reads 87:16–17 as preferring one share over another and calls the Hereafter better and more enduring; Jesus says Mary chose the good portion that will not be taken away, a close image of a selected, lasting share."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.34",
+          "basis": "better and abiding possession",
+          "note": "The commentary contrasts preference for present life with the better, more lasting Hereafter; Hebrews says believers accept loss of possessions because they know they have a better and abiding possession, spelling out that temporal-versus-enduring choice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.13",
+          "basis": "nothing hidden from God's sight",
+          "note": "The commentary's 87:7 says God knows what is aloud and what is hidden; Hebrews says no creature is hidden from God's sight and all is exposed before him, a direct counterpart to the hidden side of that claim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.19.24",
+          "basis": "lot for the un-torn tunic",
+          "note": "The commentary describes a camel cut into pieces and shares assigned by arrows; John says the soldiers cast lots for Jesus' seamless tunic rather than tear it, an adjacent but distinct use of lots to allocate a possession."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.14.5",
+          "basis": "fixed days and set bounds",
+          "note": "The commentary gives قدر the secondary sense of a thing's amount and term; Job says a person's days are fixed, months numbered, and limit set, making the finite term a specific instance of divinely measured life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.16",
+          "basis": "unformed days recorded beforehand",
+          "note": "The commentary says every thing has an amount and term; the psalmist says his unformed substance and all his days were seen and written before they arrived, joining formation to a measured lifespan."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.3",
+          "basis": "God teaches Ephraim to walk and heals him",
+          "note": "The commentary glosses Rab as bringing something through stages toward completion; Hosea pictures God teaching Ephraim to walk, holding him, and healing him, giving a relational image of gradual nurture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.3",
+          "basis": "restored and led on right paths",
+          "note": "The commentary links the Lord's completing care with guidance and describes a staff that goes ahead of its bearer; the psalm's shepherd restores the speaker and leads him on right paths, combining care and direction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.6",
+          "basis": "crooked ways made straight",
+          "note": "The commentary's arrow-making scene joins straightening what is bent to directing its point; Proverbs says YHWH makes a person's paths straight, bringing straightness and guidance together in a path image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.4",
+          "basis": "stars counted and named",
+          "note": "The commentary connects creation with measuring and assigning each thing its share; the psalm says God counts the stars and calls them by name, a concrete image of creation known and ordered individually."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.16.5",
+          "basis": "the Lord as portion, cup, and lot",
+          "note": "The commentary distinguishes the game's allotted share from the share given by the measure-setter; the psalmist calls YHWH his portion, cup, and lot, recasting allotment as trust in God rather than a game."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.16.6",
+          "basis": "measured boundary lines and secure inheritance",
+          "note": "The commentary says an arrow-game share is measured out and contrasts it with the enduring Hereafter; the psalmist's boundary lines fall in pleasant places and his inheritance is secure, a fixed inheritance rather than a chance stake."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.16.8",
+          "basis": "lots assign the goats' ritual roles",
+          "note": "The commentary rejects the meysir arrows used to assign shares; Leviticus uses lots to distinguish the goat for YHWH from the one for Azazel, showing a ritual allocation rather than gambling."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.19",
+          "basis": "choice between life and death",
+          "note": "The commentary calls 87:16–17 a choice of share between present life and the better Hereafter; Moses sets life and death before Israel and urges them to choose life, turning choice into an ethical decision with consequences."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.22.19",
+          "basis": "garments divided and clothing allotted by lot",
+          "note": "The commentary's game divides a slaughtered camel into portions chosen by arrows; the psalm describes people dividing garments and casting lots for clothing, a specific allocation scene without the game's animal shares."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.16.7",
+          "basis": "God sees the heart rather than appearance",
+          "note": "The commentary says God knows what is public and what is hidden; Samuel contrasts what humans see outwardly with YHWH's regard for the heart, specifying inward knowledge against visible appearance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.4",
+          "basis": "God knows a word before it is spoken",
+          "note": "The commentary names both what is aloud and what is hidden as known to God; the psalmist says God knows his word before it reaches his tongue, extending the claim to speech not yet made public."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.9.4",
+          "basis": "worn, torn, and patched wineskins",
+          "note": "The commentary's waterbag is measured, fitted with side pieces, treated, and eventually worn smooth; Joshua's travelers carry old wineskins that are worn, torn, and patched, a concrete scriptural witness to the used leather vessel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.83",
+          "basis": "a wineskin in smoke and remembrance",
+          "note": "The commentary separately describes a waterbag becoming smooth with use and a reminder that may benefit; the psalmist likens himself to a wineskin in smoke yet says he has not forgotten God's statutes, joining a worn vessel image to remembering, though the psalm's image is distress rather than ordinary use."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.1.26",
+          "basis": "lot selects Matthias after prayer",
+          "note": "The commentary identifies the forbidden game as arrow-drawn allocation of shares; Acts describes the gathered disciples praying and casting lots to select Matthias, a communal appointment rather than a distribution game."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.7.13",
+          "basis": "easy road leads to destruction",
+          "note": "The commentary says God makes the way easy for the addressed messenger and then describes avoidance of the reminder and the great fire; Matthew calls the broad, easy way destruction-bound. The link is limited because the easy way has a different referent, but the contrast makes ease point toward opposite outcomes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "hard way leads to life",
+          "note": "The commentary associates divine facilitation with ease and sets successful guidance against the fire; Matthew says the narrow, hard way leads to life, an explicit reversal of the easy/destructive route in the neighboring verse, though the addressees and settings differ."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.44.13",
+          "basis": "measured carpenter's work makes an idol",
+          "note": "The commentary's opening craft scene has measuring before cutting and shaping; Isaiah describes a carpenter stretching a line, marking, planing, and using a compass to form an idol, making a pointed contrast between measured human manufacture and the Lord who creates in 87:2–3."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.5",
+          "basis": "earth measured with a line",
+          "note": "The commentary links creation to an artisan's measured preparation; Job's creation challenge asks who fixed earth's measurements and stretched a line upon it, giving the image of measurement a concrete construction tool."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.16",
+          "basis": "God leads the blind and levels rough places",
+          "note": "The commentary joins straightening what is bent to the arrow point's guidance; Isaiah says YHWH leads the blind on an unknown road, makes darkness light, and levels rough places, combining the same two actions in a divine-guidance promise."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.13.21",
+          "basis": "YHWH goes before Israel to lead them",
+          "note": "The commentary says a staff is named as a guide because it precedes its bearer; Exodus pictures YHWH going before Israel in a pillar of cloud by day and fire by night to lead them, making the leading-ahead image a narrative act."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.12.9",
+          "basis": "Hebrew צלה and Arabic ṣ-l-y, roasting over fire",
+          "note": "The source commentary labels the Qur'anic word يَصْلَى with root ṣ-l-y and also gives a fire-working sense for straightening a stick; Exodus uses the related Hebrew roast verb for Passover meat cooked over fire, showing a cognate fire-use in its own ritual context."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.97.9",
+          "basis": "Hebrew עליון and Arabic al-aʿlā, the Most High",
+          "note": "The commentary's ayah calls God al-Aʿlā and notes that the same Arabic root names the highest game arrow; the psalm calls YHWH Most High over all the earth, so a related Semitic height term belongs to divine supremacy here, not a gaming share."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.14",
+          "basis": "every deed, including the hidden, brought to judgment",
+          "note": "The commentary says God knows what is public and hidden before describing the condemned person's fire; Ecclesiastes says God brings every deed, including the hidden one, into judgment, joining hidden knowledge to accountability."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Genesis Rabbah 1:1",
+          "basis": "Torah as plan consulted before creation",
+          "note": "The commentary reads creation as craft with planning before shaping; Genesis Rabbah compares a king consulting an architect's plan before building a palace with God consulting Torah before creating the world, supplying a Jewish interpretation of creation as planned workmanship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.18.4",
+          "basis": "potter remakes a spoiled vessel",
+          "note": "The commentary's measure-and-shape sequence evokes preparing an object toward its finished form; Jeremiah watches a potter reshape a spoiled clay vessel as seemed good to him, a concrete craft scene that makes re-forming part of the maker's work."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.1.7",
+          "basis": "lots identify the cause of a calamity",
+          "note": "The commentary describes arrows drawing shares in a game; the sailors cast lots to discover whose account brought the storm, and the lot falls on Jonah, a distinct use of chance to identify responsibility rather than divide goods.",
+          "raw_ref": "WLC:Jon.1.7",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Esth.3.7",
+          "basis": "Pur selects the date for Haman's plan",
+          "note": "The commentary's arrows distribute shares by a lottery; Haman casts Pur to select a date for destroying the Jews, showing a lot used to schedule a fateful act rather than allot portions."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.3",
+          "basis": "whispered words proclaimed from rooftops",
+          "note": "The commentary says God knows what is aloud and what is hidden; Jesus says what was spoken in the dark and whispered in inner rooms will be heard and proclaimed publicly, a specific speech-level counterpart that turns secrecy into disclosure."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.8.36",
+          "basis": "gaining the world at the cost of life",
+          "note": "The commentary says people prefer present life although the Hereafter is better and more enduring; Jesus asks what profit it is to gain the whole world and forfeit one's life, making the cost of that preference explicit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.25",
+          "basis": "worldly good reversed after death",
+          "note": "The commentary contrasts preference for present life with the better lasting Hereafter; Abraham tells the rich man that he received good things in his life while Lazarus received bad, but their conditions are reversed after death, a narrative counterpart to the choice's final share."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.3",
+          "basis": "measure of faith allotted to each",
+          "note": "The commentary's source gloss gives قدر the sense of setting a measure and each person's share; Paul says God has allotted each a measure of faith, a direct Christian example of individualized measure without claiming identical doctrine."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Cor.3.13",
+          "basis": "fire tests each builder's work",
+          "note": "The commentary moves from craft preparation and fire used to straighten a staff to the condemned entering fire; Paul says the Day reveals each person's building work and fire tests it, shifting fire from the final punishment to an assay of workmanship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.12",
+          "basis": "smith works iron over coals",
+          "note": "The commentary describes turning a stick over fire to straighten it and uses the same source-labeled Arabic root in 87:12's fire; Isaiah's smith works iron over coals and hammers it into shape, adding a concrete forge scene where fire serves manufacture."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.127.4",
+          "basis": "sons compared to arrows in a warrior's hand",
+          "note": "The commentary develops a shaped arrow and a quiver-like container; the psalm compares sons of youth to arrows in a warrior's hand, adding a family image in which the prepared arrow represents offspring ready for action."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.21.14",
+          "basis": "Hagar carries a skin of water into the wilderness",
+          "note": "The commentary develops how a leather waterbag is measured, fitted, treated, shaken, and worn; Genesis gives a concrete narrative use of a water skin carried with a child into the wilderness, where its capacity becomes life-critical."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.18.6",
+          "basis": "Israel as clay in the potter's hand",
+          "note": "The commentary's creation verbs are framed as a maker forming and ordering material; Jeremiah explicitly applies the potter-and-clay scene to YHWH and Israel, turning craft into a claim about the maker's authority over a people."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.18.3",
+          "basis": "fixed animal portions for the priest",
+          "note": "The commentary describes slaughtering a camel and sharing its pieces by game arrows, then contrasts that with a measured share from God; Deuteronomy assigns the priest the shoulder, cheeks, and stomach from an ox or sheep, a specific animal share fixed by law rather than chance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.7",
+          "basis": "God gives growth after planting and watering",
+          "note": "The commentary glosses the Rab family as bringing something through stages toward completion; Paul distinguishes planting and watering from God's giving the growth, a compact image of development that culminates through divine action."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Cor.3.15",
+          "basis": "builder saved through the fire",
+          "note": "The commentary's condemned person enters the great fire, while its craft scene uses fire to correct a stick; Paul says a builder's work may burn while the builder himself is saved, even as through fire, distinguishing tested work from final destruction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.3.16",
+          "basis": "scripture is profitable for instruction",
+          "note": "The commentary presents the reminder conditionally in terms of benefit; Timothy says scripture is useful for teaching, correction, and training, making the ethical usefulness of instruction explicit in a Christian context."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.41",
+          "basis": "condemned sent to eternal fire",
+          "note": "The commentary's 87:11–12 moves from avoiding the reminder to entering the great fire; Matthew's judgment scene sends the accursed into eternal fire, a direct eschatological fire counterpart with its own judgment setting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Pirkei Avot 4:16",
+          "basis": "this world as a vestibule before the world to come",
+          "note": "The commentary says people prefer this life although the Hereafter is better and more enduring; Avot calls this world a vestibule before the world to come and urges preparation for the latter, giving the preference a Jewish ethical formulation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 1:1",
+          "basis": "two ways, one of life and one of death",
+          "note": "The commentary contrasts the share chosen in present life with the better Hereafter and the fire awaiting the worst; the Didache opens by setting a way of life against a way of death, framing the moral choice as a path with opposed outcomes."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "soydas",
+          "ref": "SBLGNT:John.1.38",
+          "basis": "Aramaic rabbi, teacher, and Arabic rabb",
+          "note": "The source commentary labels the ayah's رَبّ with root r-b-b and glosses a family of nurturing and completing senses; John's Greek text preserves the Aramaic address Rabbi and explains it as Teacher, a related Semitic authority term with a narrower use here."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.46.5",
+          "basis": "Hebrew שוה, making equal, and Arabic s-w-y",
+          "note": "The source commentary labels سوّى with root s-w-y and explains it as straightening what is crooked; Isaiah uses the related Hebrew verb in asking whom an idol can be made equal to, adding the sense of leveling or equality in a polemic against rival images."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "3fa2556cc743af0c9df391c67e84963e6f39bc467a0881922755e0e7ca161a94",
+    "followup_sha256": "3fa2556cc743af0c9df391c67e84963e6f39bc467a0881922755e0e7ca161a94"
+  },
+  "consolidation_error": null,
+  "list_sha256": "45a71cdee9046f43cd2dbfd79d8d9bee5f6a7f5742b0c400ef3ac3914339292b",
+  "followup_delivery": [
+    {
+      "call_id": "call_eqy1YoCZW90l6u0f9MgD3fh0",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 263405,
+    "cached_input_tokens": 186880,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 43076,
+    "reasoning_output_tokens": 38096,
+    "total_tokens": 306481
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:02:02.870Z",
+  "artifacts": {
+    "started.json": "a9dd1ddecb53870edd7cd5fec3974cfb50ee0e25b3c9aa8edd4fa89dd82a9647",
+    "input.json": "c8a6eb5a00eb5302228479956355391c6685eb693b314bce77184e111d021481",
+    "prompt.md": "3256cdbccfb6c06ad4d109b132f06265a7f62305c37ac32676b4829a7a5175e5",
+    "package.md": "8a467284648526d5e0805a97428504b4918af19036c2028eadfc48e78e999e71",
+    "spawn.md": "2af3604540e453d432440a13daea66d9ebe46d48269fc4c1c9cd4c1ad86bc274",
+    "followup.txt": "a19aa95ea9338dd80ca5a678f6e1f4a919bf8ff166e3286b9aa4668dafd65060",
+    "turn1.json": "f524d4db006c46240be08582eed08251a01527c2fef62f6029dc9af07e23e69c",
+    "turn1.list.tsv": "a1d217343ec0386b8aafbe1ab3cbed2b0b9fb99dd50f7bf20f594b082fe7274b",
+    "followup.tsv": "3fa2556cc743af0c9df391c67e84963e6f39bc467a0881922755e0e7ca161a94",
+    "list.tsv": "45a71cdee9046f43cd2dbfd79d8d9bee5f6a7f5742b0c400ef3ac3914339292b",
+    "consolidation.json": "8653c60dde58d5f3cdd3f182acbd2d04540e1fc0e166c8f773e25b81692b35e7",
+    "validation.json": "ff53db121bc25a5a8f3e26564d0b2761d272780e734930548fd62635707c54b7",
+    "proposal_validation.json": "483571da19f49d258e8bcfc28dd4274679d67e56261dbbbf85c0b9d4a2a0c2a7",
+    "tool_calls.json": "c6ea879dac12b4400d95181bab85ae8cff6da31297f920eaf2719f06fd39a2b5",
+    "session.json": "c7471e45d9d1417a41807f64f39b9646971e1bb4ef897f2f3a26107fd116bd37",
+    "session.events.jsonl": "dc58175e12f21757cbe3dddca0801b98624d4bcb2827cd61b7def7794b40d012"
+  }
+}

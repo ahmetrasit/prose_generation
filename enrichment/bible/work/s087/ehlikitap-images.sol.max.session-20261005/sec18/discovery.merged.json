@@ -1,0 +1,450 @@
+{
+  "format": "bible-discovery-v2",
+  "status": "ok",
+  "target": "sec18",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "tsv_sha256": "bdaddff8dc96b477b640145f6eee3fe6e79f7e9f438433845411cfdfd8bbf38b",
+  "provenance": [
+    {
+      "target": "sec18",
+      "model": "luna",
+      "run_tag": "prepared-20261005",
+      "path": "prepared-20261005/sec18/luna",
+      "sha256": "4e307cdb81d4ac0e88ab4776c295350dc75baee0e80398d26c78bcd32400bfec"
+    },
+    {
+      "target": "sec18",
+      "model": "terra",
+      "run_tag": "prepared-20261005",
+      "path": "prepared-20261005/sec18/terra",
+      "sha256": "83e38dfd2fbd1ae273886d7cf634334f8260cb23f40ed6839ca445c3473856c6"
+    }
+  ],
+  "rows": 260,
+  "findings": [
+    {
+      "target": "sec18",
+      "model": "luna",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec18/luna/list.tsv",
+        "rows": 119,
+        "unique_references": 116,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 87,
+          "medium": 25,
+          "weak": 7
+        },
+        "findings": [
+          {
+            "line": 8,
+            "ref": "WLC:Exod.3.15",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "זֵכֶר",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 37,
+            "ref": "Sirach 17:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 38,
+            "ref": "Wisdom of Solomon 11:20",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 54,
+            "ref": "Exodus Rabbah 2:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 55,
+            "ref": "Genesis Rabbah 38:13",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 56,
+            "ref": "Jubilees 12:1-8",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 59,
+            "ref": "WLC:Deut.30.19",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חַיִּים",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 68,
+            "ref": "SBLGNT:Jas.1.10",
+            "raw_ref": "SBLGNT:James.1.10",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 69,
+            "ref": "SBLGNT:Jas.1.11",
+            "raw_ref": "SBLGNT:James.1.11",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 70,
+            "ref": "SBLGNT:Jas.5.7",
+            "raw_ref": "SBLGNT:James.5.7",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 93,
+            "ref": "Wisdom of Solomon 3:4",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 94,
+            "ref": "Mishnah Avot 4:16",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 95,
+            "ref": "Mishnah Avot 4:17",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 118,
+            "ref": "Didache 1.1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 119,
+            "ref": "Augustine, City of God 21.26",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec18/luna/followup.tsv",
+        "rows": 41,
+        "unique_references": 41,
+        "schema_errors": [
+          "line 16: unknown verse in specified edition: WLC:Wis.3.4"
+        ],
+        "duplicates": [],
+        "strengths": {
+          "strong": 34,
+          "medium": 7
+        },
+        "findings": [
+          {
+            "line": 17,
+            "ref": "Mishnah Avot 4:16",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 18,
+            "ref": "Mishnah Avot 4:17",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 41,
+            "ref": "Didache 1.1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 42,
+            "ref": "Augustine, City of God 21.26",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [
+        {
+          "call_id": "call_uXNrUUVABNbqm0mpc6zju4Tx",
+          "message": "Script failed"
+        },
+        {
+          "call_id": "call_uXNrUUVABNbqm0mpc6zju4Tx",
+          "message": "Script error:"
+        },
+        {
+          "call_id": "call_uXNrUUVABNbqm0mpc6zju4Tx",
+          "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec18/luna/followup.tsv:"
+        }
+      ],
+      "repair": {
+        "approval": "User explicitly authorized the three pending fixes: \"what are those - fixes? if yes, do it\" on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave2.proposed.json; SHA256 43ec2b86e3c316ee5b32018d10399e2acf4840a53698ecc05ce7b3cb2f1de1c7",
+        "accepted_at": "2026-10-05T19:19:19.802359+00:00",
+        "changes": [
+          {
+            "line": 16,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Wis.3.4",
+              "hope of immortality",
+              "The commentary calls the hereafter better and more abiding than worldly life; Wisdom says the righteous dead are at peace and have hope full of immortality, giving that endurance a Jewish wisdom formulation."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "Wisdom of Solomon 3:4",
+              "hope of immortality",
+              "The commentary calls the hereafter better and more abiding than worldly life; Wisdom says the righteous dead are at peace and have hope full of immortality, giving that endurance a Jewish wisdom formulation."
+            ],
+            "reason": "Wisdom is not a WLC book; preserve the same named-work passage as an unverified secondary candidate."
+          }
+        ],
+        "raw_sha256": "f4aeb0fcac78b22c33dfb259f3b27af79ad1eb572e992c25b4c15cfdcc9f7d67",
+        "accepted_sha256": "749dc6725db2e7ad754241cb1158e9b0419a813484c34a08e8797b8cd152cfec",
+        "proposal_sha256": "3d50437f2f8650b43ee5c80f11eea674673cda3add03e7f452141d4a50b5cd2e",
+        "failed_log_sha256": "9b4a8dbc1831b43cb4076c5d4b49b7c373189c8a066bdfbb488266e467f00642",
+        "model_calls": 0,
+        "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+      },
+      "first_turn_repair": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T19:04:52.893468+00:00",
+        "changes": [
+          {
+            "line": 20,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Deut.29.29",
+              "hidden and revealed",
+              "The commentary says God knows what is open and hidden and places a nearly hidden event in Moses' scene; Moses distinguishes secret things belonging to God from revealed things given to Israel, marking a related boundary without equating the subjects."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Deut.29.28",
+              "hidden and revealed",
+              "The commentary says God knows what is open and hidden and places a nearly hidden event in Moses' scene; Moses distinguishes secret things belonging to God from revealed things given to Israel, marking a related boundary without equating the subjects."
+            ],
+            "reason": "The hidden/revealed distinction is WLC Deuteronomy 29:28, corresponding to English 29:29."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "5fdcf06baf3b8f5206973d1bc268d561254eeff05a8587450f61dcca63577d80",
+          "turn1.validation.failed.json": "3605d4cd8bdbd6e00665cedbf50f656863822c726872c45dfbddd0dca3b07863",
+          "turn1.tool_calls.json": "b28d01050f7ce2c09ad838190d3b846920a2972f35aa550b7b16bc52aaef86e1",
+          "turn1.repair.proposed.json": "c157c7f1e0b1b431e6dc59394784ca4399f5413d1a955f05a1ba330d6fb150a9",
+          "turn1.repair.proposed.tsv": "3cf402e72d4b47b4b64b33f81b4215852b54ad1f86e0af814dc11c77258be1fe",
+          "turn1.accepted.tsv": "3cf402e72d4b47b4b64b33f81b4215852b54ad1f86e0af814dc11c77258be1fe"
+        }
+      }
+    },
+    {
+      "target": "sec18",
+      "model": "terra",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec18/terra/list.tsv",
+        "rows": 201,
+        "unique_references": 200,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 170,
+          "medium": 28,
+          "weak": 3
+        },
+        "findings": [
+          {
+            "line": 14,
+            "ref": "Wisdom of Solomon 17:7",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 22,
+            "ref": "2 Maccabees 7:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 23,
+            "ref": "2 Maccabees 7:14",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 24,
+            "ref": "Martyrdom of Polycarp 11.2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 33,
+            "ref": "Sirach 2:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 38,
+            "ref": "Wisdom of Solomon 11:20",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 64,
+            "ref": "Wisdom of Solomon 7:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 83,
+            "ref": "Mishnah Avot 3:8",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 88,
+            "ref": "Mishnah Avot 4:16",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 89,
+            "ref": "Mishnah Avot 4:17",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 93,
+            "ref": "Wisdom of Solomon 3:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 94,
+            "ref": "4 Ezra 7:36",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 98,
+            "ref": "Bava Batra 14b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 99,
+            "ref": "4 Ezra 14:44",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 101,
+            "ref": "Yoma 28b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 108,
+            "ref": "Genesis Rabbah 38:13",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 129,
+            "ref": "Apocalypse of Abraham 1–8",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 130,
+            "ref": "Gregory of Nyssa, Life of Moses II.20–21",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 191,
+            "ref": "Berakhot 17a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 201,
+            "ref": "Jubilees 11:16–17",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec18/terra/followup.tsv",
+        "rows": 71,
+        "unique_references": 71,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 61,
+          "medium": 9,
+          "weak": 1
+        },
+        "findings": [
+          {
+            "line": 61,
+            "ref": "Berakhot 17a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 71,
+            "ref": "Jubilees 11:16–17",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    }
+  ],
+  "confidence": "Unverified reader labels; agreement and follow-up origin do not verify a connection."
+}

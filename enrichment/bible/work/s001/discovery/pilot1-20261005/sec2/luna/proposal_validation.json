@@ -1,0 +1,44 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec2/luna/followup.tsv",
+  "rows": 21,
+  "unique_references": 21,
+  "schema_errors": [],
+  "duplicates": [],
+  "strengths": {
+    "strong": 16,
+    "medium": 5
+  },
+  "findings": [
+    {
+      "line": 3,
+      "ref": "WLC:Deut.32.36",
+      "field": "basis",
+      "language": "Hebrew",
+      "wording": "דִּין",
+      "kind": "wording_review",
+      "variant_matches": [],
+      "matching_neighbours": [],
+      "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+    },
+    {
+      "line": 15,
+      "ref": "1 Enoch 62:9",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 16,
+      "ref": "Babylonian Talmud, Qiddushin 22b",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 21,
+      "ref": "Augustine, Confessions 1.1.1",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

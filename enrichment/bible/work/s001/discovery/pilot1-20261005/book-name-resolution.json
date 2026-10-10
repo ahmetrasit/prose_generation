@@ -1,0 +1,45 @@
+{
+  "resolver": "edition-book-names-v1",
+  "policy": "Only unambiguous known book names; no edition, chapter, verse, grade or explanation changes.",
+  "findings": [
+    {
+      "target": "1:1",
+      "model": "luna",
+      "raw_unchanged": true,
+      "resolved": [
+        {
+          "line": 31,
+          "raw_ref": "WLC:Hosea.6.6",
+          "ref": "WLC:Hos.6.6"
+        },
+        {
+          "line": 44,
+          "raw_ref": "SBLGNT:James.4.15",
+          "ref": "SBLGNT:Jas.4.15"
+        },
+        {
+          "line": 68,
+          "raw_ref": "SBLGNT:James.4.13",
+          "ref": "SBLGNT:Jas.4.13"
+        },
+        {
+          "line": 69,
+          "raw_ref": "SBLGNT:James.4.14",
+          "ref": "SBLGNT:Jas.4.14"
+        }
+      ]
+    },
+    {
+      "target": "sec1",
+      "model": "luna",
+      "raw_unchanged": true,
+      "resolved": [
+        {
+          "line": 47,
+          "raw_ref": "SBLGNT:James.5.19",
+          "ref": "SBLGNT:Jas.5.19"
+        }
+      ]
+    }
+  ]
+}

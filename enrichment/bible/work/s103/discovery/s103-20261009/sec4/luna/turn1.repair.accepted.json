@@ -1,0 +1,37 @@
+{
+  "policy": "bible-first-turn-repair-v1",
+  "approval": "Accepted by the Claude Code Bible orchestrator (fork of the 2026-10-09 enrichment session) under the user's production go for S103; locator-only correction verified against the local WLC/SBLGNT/KJV text; no grade, kind, basis or explanation changed; listed for the user's review in the S103 Bible audit README.",
+  "tool_audit_reviewed": true,
+  "accepted_at": "2026-10-09T05:41:54.143992+00:00",
+  "changes": [
+    {
+      "line": 49,
+      "before": [
+        "medium",
+        "tevrat",
+        "motif",
+        "WLC:Wisd.3.1",
+        "the righteous held in God's hand",
+        "The commentary cites the soul as pledged for what it earns; Wisdom says the souls of the righteous are in God's hand and no torment touches them. It turns being held from punitive custody into protection, qualifying a simple reading of captivity."
+      ],
+      "after": [
+        "medium",
+        "tevrat",
+        "motif",
+        "Wisdom of Solomon 3:1",
+        "the righteous held in God's hand",
+        "The commentary cites the soul as pledged for what it earns; Wisdom says the souls of the righteous are in God's hand and no torment touches them. It turns being held from punitive custody into protection, qualifying a simple reading of captivity."
+      ],
+      "reason": "The Wisdom of Solomon is not in the WLC edition; the row names the work itself (KJV Apocrypha Wis 3:1 checked as finding aid), as in the approved S87 wave2 correction"
+    }
+  ],
+  "model_calls": 0,
+  "artifacts": {
+    "turn1.original.tsv": "5b865de5b60d6249f3e7aa1dbdf1ef6640de1b079c4ec2bcddcf4df75b712bab",
+    "turn1.validation.failed.json": "af9ad9a909227a017f25b61e1ea7e39b5ba389efc06a508988bae87ee331d418",
+    "turn1.tool_calls.json": "971c553021a5a6814720bf3eb235c7eb4a72d70252da90708062787b4b550729",
+    "turn1.repair.proposed.json": "910c27c9666a9dfc8e6f1e7c6b95a4c8173b54175580bfcba0a072cf34260391",
+    "turn1.repair.proposed.tsv": "9af268859a146632d290ce72910b8812f996957d787aca3ee1ed1349fa321b32",
+    "turn1.accepted.tsv": "9af268859a146632d290ce72910b8812f996957d787aca3ee1ed1349fa321b32"
+  }
+}

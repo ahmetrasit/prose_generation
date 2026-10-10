@@ -1,0 +1,93 @@
+{
+  "approval": "2026-10-05 user reply: Apply all 15 recorded follow-up corrections. Exact bundle: enrichment/bible/audits/pilot1-20261005/followup-repairs.proposed.json",
+  "accepted_at": "2026-10-05T16:04:04.986619+00:00",
+  "changes": [
+    {
+      "line": 19,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Ps.16.12",
+        "path of life in God's presence",
+        "The commentary says the sirat goes somewhere; the psalmist says God makes known the path of life, whose destination is joy in God's presence."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Ps.16.11",
+        "path of life in God's presence",
+        "The commentary says the sirat goes somewhere; the psalmist says God makes known the path of life, whose destination is joy in God's presence."
+      ],
+      "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+    },
+    {
+      "line": 21,
+      "before": [
+        "strong",
+        "karsi_anlati",
+        "tevrat",
+        "WLC:Hos.14.10",
+        "righteous walk, transgressors stumble",
+        "The commentary contrasts the guided path with dalal; Hosea's closing line says the Lord's ways are straight, the righteous walk in them, and transgressors stumble."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "karsi_anlati",
+        "WLC:Hos.14.10",
+        "righteous walk, transgressors stumble",
+        "The commentary contrasts the guided path with dalal; Hosea's closing line says the Lord's ways are straight, the righteous walk in them, and transgressors stumble."
+      ],
+      "reason": "Transpose tradition and kind into their declared columns; neither value changes."
+    },
+    {
+      "line": 22,
+      "before": [
+        "medium",
+        "tevrat",
+        "motif",
+        "WLC:Ps.121.9",
+        "guarding the going out and coming in",
+        "The commentary pictures a traveler who leaves sight but has a destination; the psalm's close asks God to guard the worshipper's going out and coming in continually."
+      ],
+      "after": [
+        "medium",
+        "tevrat",
+        "motif",
+        "WLC:Ps.121.8",
+        "guarding the going out and coming in",
+        "The commentary pictures a traveler who leaves sight but has a destination; the psalm's close asks God to guard the worshipper's going out and coming in continually."
+      ],
+      "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+    },
+    {
+      "line": 34,
+      "before": [
+        "strong",
+        "karsi_anlati",
+        "tevrat",
+        "WLC:Jer.31.34",
+        "God chooses not to remember forgiven sin",
+        "The commentary says the Lord neither loses nor forgets; Jeremiah's new-covenant promise says God will forgive and remember sin no more, distinguishing deliberate pardon from loss of knowledge."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "karsi_anlati",
+        "WLC:Jer.31.34",
+        "God chooses not to remember forgiven sin",
+        "The commentary says the Lord neither loses nor forgets; Jeremiah's new-covenant promise says God will forgive and remember sin no more, distinguishing deliberate pardon from loss of knowledge."
+      ],
+      "reason": "Transpose tradition and kind into their declared columns; neither value changes."
+    }
+  ],
+  "raw_sha256": "999e1a18934d55729e31b84112a39edd604344f79d5da5e9cef57f80c0dbd19d",
+  "accepted_sha256": "3e3df6ca9d4dbf9c88ce843507538c6baa7d3c90ca883ff49c582cb4d13292d4",
+  "proposal_sha256": "15bacc3efb6c4ee61f7fbefa2b683784f74882602994cf46413e38ab328f98c6",
+  "failed_log_sha256": "c0b85c57da5f95c63d866de1fb5dda68c8ec7821e8207f15ec3a5799fdffd3a7",
+  "model_calls": 0,
+  "policy": "Raw proposals, failed validation and failed log preserved; no regrading.",
+  "allow_schema_swap": true
+}

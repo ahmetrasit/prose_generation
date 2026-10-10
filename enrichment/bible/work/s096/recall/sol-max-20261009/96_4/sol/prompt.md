@@ -1,0 +1,124 @@
+Qur'an 96:4:
+
+ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ
+
+Below is a frozen Turkish commentary on this ayah, its paragraphs numbered [¶n]. Do not change, summarise or
+rewrite it.
+
+Add Hebrew Bible and New Testament verses that help the reader understand a particular paragraph, from the Bible's
+side. Similarity alone is not the test, and a verse may help without sharing any word. A verse helps when, after
+reading it, the reader understands that paragraph's point better than before. It can help in four ways:
+
+- same: it says the paragraph's point in its own words, so the reader sees the idea from another scripture;
+- opposite: it says the same matter the other way round, and the difference shows what is distinctive here;
+- background: it shows the world of an image, custom or practice the paragraph relies on, even with no shared word;
+- word: the paragraph is about a word, and the verse shows how its Hebrew or Aramaic relative is used. The roots
+  table below lists every Arabic root of the ayah with the Hebrew and Aramaic roots that correspond to it by regular
+  sound correspondence. A correspondence is a candidate, not proof: some are true cognates, some only sound alike.
+
+The test before you place a verse: say in one sentence what the reader understands about the paragraph's point after
+reading it that they did not before. If you cannot, drop it, with that as the reason. A shared word, root, name or
+broad theme alone is not enough. A verse that only touches a side detail without making the paragraph's point
+clearer is dropped.
+
+Go through every paragraph, including those about single words or images. A paragraph may get no verse. A verse
+that clearly helps the ayah as a whole but no single paragraph may go into a short closing section (`end`); use it
+sparingly. Every verse you considered and dropped gets a drop row with its reason.
+
+The note is written in Turkish for an advanced reader. Its first sentence is the test sentence: what the verse makes
+clearer about the paragraph's point. Then what the verse says, in its own context, quoted briefly in Turkish
+translation, and where it meets or parts from the paragraph. No source talk, no hedging about dependence.
+Consecutive or closely joined verses that make one point share one row.
+
+Work from memory. Do not read files, run commands or search. A later turn will show you the text of every verse you
+cite, so that you can check it.
+
+Reply with JSON Lines only (one object per line, no Markdown). References are single verses in OSIS form with
+English (KJV) numbering, like Book.Chapter.Verse:
+
+{"refs": ["Book.C.V", ...], "decision": "place", "paragraphs": [n], "way": "same|opposite|background|word", "note_tr": "..."}
+{"refs": ["Book.C.V"], "decision": "end", "way": "...", "note_tr": "..."}
+{"refs": ["Book.C.V"], "decision": "drop", "way": "...", "reason": "..."}
+
+=== ROOTS ===
+
+## ع ل م (in the ayah: عَلَّمَ)
+* Hebrew עלם (ع→ע ل→ל م→מ): sound correspondence only (unverified); 483 WLC occurrences; `hebrew.py root עלם` lists them
+  - עוֹלָם (ʿôlām) N 'long duration' [H5769; Hebrew; 438 WLC occurrences] Strong: properly, concealed, i.e. the vanishing point; generally, time out of mind (past or future), i.e. (practically) eternity; frequentatively, adverbial (especially with prepositional prefix) always
+  - עֵילוֹם (ʿêlôm) N 'long duration' [H5865; Hebrew; 1 WLC occurrence]
+  - עָלוּמִים (ʿālûmîm) N 'youth' [H5934; Hebrew; 4 WLC occurrences] Strong: (only in plural as abstract) adolescence; figuratively, vigor
+  - עֶ֫לֶם (ʿelem) N 'young man' [H5958; Hebrew; 2 WLC occurrences] Strong: properly, something kept out of sight, i.e. a lad
+  - עָלַם (ʿālam) V 'conceal' [H5956; Hebrew; 28 WLC occurrences] Strong: to veil from sight, i.e. conceal (literally or figuratively)
+  - עַלְמָה (ʿalmâ) N 'young woman' [H5959; Hebrew; 7 WLC occurrences] Strong: a lass (as veiled or private)
+  - תַּעֲלֻמָּהֿ (taʿălummâ) N 'hidden thing' [H8587; Hebrew; 3 WLC occurrences] Strong: a secret
+* Aramaic עלם (ع→ע ل→ל م→מ): sound correspondence only (unverified); 20 WLC occurrences; `hebrew.py root עלם` lists them
+  - עָלַם (ʿālam) N 'perpetuity' [H5957; Aramaic; 20 WLC occurrences] Strong: remote time, i.e. the future or past indefinitely; often adverb, forever
+
+## ق ل م (in the ayah: بِٱلْقَلَمِ)
+  no Hebrew or Aramaic root with these corresponding consonants is in the lexicon
+
+=== COMMENTARY ===
+
+## Yaratan ve öğreten
+
+[¶1] Dördüncü ayet kendi başına duran bir cümle değildir; üçüncü ayetteki Rabbi tanıtan bir sıfat cümlesidir. Okuma emri ikinci kez verilirken Rab {ar:وَرَبُّكَ ٱلْأَكْرَمُ, tr:ve rabbuke'l-ekrem, gloss:Rabbin ise en cömert olandır, source:96:3} diye anılmıştı. {ar:ٱلَّذِى, tr:ellezî, gloss:ki O, source:96:4} bu Rabbe geri döner ve O'nu bir işle tanıtır: {ar:عَلَّمَ بِٱلْقَلَمِ, tr:ʿalleme bi'l-kalem, gloss:kalemle öğretti, source:96:4}. En cömert olanın cömertliği, adının konduğu yerde hemen açıklanır ve bu açıklama bir malın, bir rızkın değil, bir öğretimin adıdır.
+
+[¶2] Sure bu kalıbı ikinci kez kurar. Birinci ayet Rabbi {ar:ٱلَّذِى خَلَقَ, tr:ellezî halak, gloss:ki O yarattı, source:96:1} diye tanıtmış ve fiili nesnesiz bırakmıştı; ikinci ayet fiili tekrarlayıp nesnesini ve malzemesini vermişti: {ar:خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ, tr:halaka'l-insâne min ʿalak, gloss:insanı bir alaktan yarattı, source:96:2}. Dördüncü ve beşinci ayet aynı iki adımı atar. Öğretmek fiili iki nesne alır, öğreneni ve öğrenileni; dördüncü ayet ikisini de söylemez, yalnızca aracı verir. Kime ve neyin öğretildiği bir ayet boyunca askıda kalır, sonra fiil tekrarlanır ve iki nesnesini birden alır: {ar:عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ, tr:ʿalleme'l-insâne mâ lem yaʿlem, gloss:insana bilmediğini öğretti, source:96:5}. Bu askı, dinleyicinin dikkatini bir an için öğretilen şeyden alıp öğretimin yoluna, kalemin kendisine çevirir. Böylece insan surenin açılışında iki kez tanıtılır: neyden yaratıldığıyla, {ar:مِنْ عَلَقٍ, tr:min ʿalak, gloss:bir alaktan, source:96:2}, ve neyle öğretildiğiyle, {ar:بِٱلْقَلَمِ, tr:bi'l-kalem, gloss:kalemle, source:96:4}.
+
+[¶3] Kulak bu iki kelimeyi fiille birlikte de duyar: ʿalak, ʿalleme, kalem. Ayın, lâm, kâf ve mîm sesleri bu üç kelime arasında ikişer ikişer paylaşılır, ama üçü ayrı köklerdendir. Aralarındaki bağ kök kimliği değil, surenin açılışını birbirine diken bir ses yakınlığıdır.
+
+[¶4] Kurân yaratmak ile öğretmeyi bir başka surenin açılışında da yan yana dizer. O sure tek bir adla başlar ve o adın işlerini sayar: {ar:ٱلرَّحْمَٰنُ, tr:er-rahmân, gloss:Rahmân, source:55:1}, {ar:عَلَّمَ ٱلْقُرْءَانَ, tr:ʿalleme'l-kur'ân, gloss:Kurân'ı öğretti, source:55:2}, {ar:خَلَقَ ٱلْإِنسَٰنَ, tr:halaka'l-insân, gloss:insanı yarattı, source:55:3}, {ar:عَلَّمَهُ ٱلْبَيَانَ, tr:ʿallemehu'l-beyân, gloss:ona açıklamayı öğretti, source:55:4}. Orada öğreten, Fatiha'da her namazda anılan adla çağrılır: {ar:ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:er-rahmâni'r-rahîm, gloss:Rahmân, Rahîm, source:1:3}; burada ise en cömert olarak. İki yerde de öğretmek, Rabbin yaratmanın hemen yanında kendini tanıttığı iştir. Üçüncü ayetin cömertlik kökünün Kurân'ın sayfalarını ellerinde taşıyan değerli yazıcılara uzandığı sahne {source:80:16} surenin bütünü içinde okunur; dördüncü ayet o sahneye yalnızca şunu katar: cömertliğin ilk gösterdiği şey bir kalemdir.
+
+## Öğretmek ve iz
+
+[¶5] {ar:عَلَّمَ, tr:ʿalleme, gloss:öğretti, source:96:4} bilmek fiilinin ettirgen biçimidir: birinin bilmesini sağlamak. Araplar iki ettirgen biçimi yan yana kullanırdı: {ar:أعلمته بكذا وعلمته تعليما, tr:aʿlemtuhû bi-kezâ ve ʿallemtuhû taʿlîmâ, gloss:ona şunu bildirdim ve ona öğrettim, source:"ع ل م,B001"}. İkisinin farkı şöyle tarif edilir: bildirmek hızlı bir haberle olur, öğretmek ise tekrarla, öğrenenin içinde bir iz kalıncaya kadar: {ar:التعليم اختص بما يكون بتكرير وتكثير حتى يحصل منه أثر في نفس المتعلم, tr:et-taʿlîmu'htassa bi-mâ yekûnu bi-tekrîrin ve teksîrin hattâ yahsule minhu eserun fî nefsi'l-mutaʿallim, gloss:öğretmek, öğrenenin nefsinde bir iz oluşuncaya dek tekrar ve çoğaltmayla olana özgüdür, source:"memory"}. Öğretmenin iç yüzü de söylenir: {ar:التعليم تنبيه النفس لتصور المعاني, tr:et-taʿlîm tenbîhu'n-nefsi li-tasavvuri'l-meʿânî, gloss:öğretmek, nefsi anlamları kavramaya uyandırmaktır, source:"ع ل م,B001"}. Öğretmek, bilgiyi dışarıdan yerleştirmekten çok, nefsi anlamı kendisi kavramaya uyandırmaktır.
+
+[¶6] Türkçede bu kelime talim olarak yaşar ve askerin tekrar tekrar yaptığı alıştırmayı, idmanı anlatır. Talim tekrarı korumuş ama uyanışı yitirmiştir. Arapçada tekrarın amacı öğrenenin içinde bir anlamın belirmesidir; bir hareket bedene oturduğunda değil, bir anlam nefiste iz bıraktığında öğretim tamamlanır.
+
+[¶7] Bu kökün başka dallarında aynı iz göze görünür hale gelir. Bu imgeler ayetteki öğretmek anlamının yerine geçmez, onun yanında duyulur. Kökün tek aslı, bir şeyi ötekilerden ayıran bir iz olarak anlatılır: {ar:أصل صحيح واحد يدل على أثر بالشيء يتميز به عن غيره, tr:aslun sahîhun vâhidun yedullu ʿalâ eserin bi'ş-şey'i yetemeyyezu bihî ʿan gayrih, gloss:bir şeyde, onu başkalarından ayırt ettiren bir ize delalet eden tek ve sağlam bir asıl, source:"ع ل م,B002"}. Uzaktan görünüp yön veren yüksek dağa {ar:العلم الجبل الطويل, tr:el-ʿalemu'l-cebelu't-tavîl, gloss:alem, uzun dağdır, source:"ع ل م,B002"} denir; yolun üstünde, izlenerek yön bulunan belirtiye de aynı kökten ad verilir: {ar:المعلم الأثر يستدل به على الطريق, tr:el-maʿlemu'l-eseru yustedellu bihî ʿale't-tarîk, gloss:maʿlem, yolu bulmak için kendisinden delil çıkarılan izdir, source:"ع ل م,B002"}. Kumaşın kenarına işlenen nakış da böyle anılır: {ar:علم الثوب ورقمه في أطرافه, tr:ʿalemu's-sevbi ve rakmuhû fî etrâfih, gloss:kumaşın alemi, kenarlarındaki işaretli nakışıdır, source:"ع ل م,B002"}; savaşta kendini tanıtacak bir nişan takan atlı için de {ar:أعلم الفارس إذا كانت له علامة في الحرب, tr:aʿleme'l-fârisu izâ kânet lehû ʿalâmetun fi'l-harb, gloss:atlı, savaşta bir nişanı olduğunda "aʿleme" dendi, source:"ع ل م,B002"} derlerdi. Dağ, iz, nakış, nişan: bunların hepsinde bilmek, bir şeyi ayırt ettiren bir işaretin varlığına bağlıdır. Bu imgelerin yanında dördüncü ayet şöyle de duyulur: öğretmek, insanın içine ayırt ettiren işaretler koymaktır ve bunu yapan araç, bir yüzeye işaret koyan kalemdir.
+
+[¶8] İşaret çizgisi surenin sonunda alına iner. On beşinci ayetin {ar:لَنَسْفَعًۢا, tr:le nesfaʿan, gloss:mutlaka yakalarız, source:96:15} fiili ile son ayetin {ar:وَٱسْجُدْ, tr:vescud, gloss:secde et, source:96:19} emri, biri lekelenmiş, öteki secdeyle izlenmiş iki alının sahnesini taşır; o sahne bu iki ayetin kelimeleriyle kurulur.
+
+## Kalem: tekrar tekrar yontulan kamış
+
+[¶9] {ar:ٱلْقَلَمِ, tr:el-kalem, gloss:kalem, source:96:4} yazı aracıdır: {ar:القلم الذي يكتب به, tr:el-kalemu'llezî yuktebu bih, gloss:kalem, kendisiyle yazılan şeydir, source:"ق ل م,B003"}. Ama adı yazmaktan değil, kesmekten gelir. Tırnak kesmeye {ar:قلمت الظفر وقلمته, tr:kalemtu'z-zufra ve kallemtuh, gloss:tırnağı kestim, source:"ق ل م,B001"} denir; kesilince düşen parçanın da ayrı bir adı vardır: {ar:القلامة ما يسقط من الظفر إذا قلم, tr:el-kulâmetu mâ yeskutu mine'z-zufri izâ kulim, gloss:kulâme, tırnak kesilince ondan düşendir, source:"ق ل م,B001"}. Fiil tırnakla sınırlı kalmaz; sert bir şeyin ucunu yontup düzeltmeyi anlatır: {ar:أصل القلم القص من الشيء الصلب كالظفر وكعب الرمح والقصب, tr:aslu'l-kalmi'l-kassu mine'ş-şey'i's-sulbi ke'z-zufri ve kaʿbi'r-rumhi ve'l-kasab, gloss:kalmın aslı tırnak, mızrak boğumu ve kamış gibi sert bir şeyden kesip almaktır, source:"ق ل م,B001"}; {ar:قلمت الشيء بريته, tr:kalemtu'ş-şey'e bereytuh, gloss:o şeyi kalemledim, yani yonttum, source:"ق ل م,B001"}. Yazı aracının adı da bu işten konmuştur: {ar:إنما سمي قلما لأنه قلم مرة بعد مرة, tr:innemâ summiye kalemen li-ennehû kulime merraten baʿde merra, gloss:ona kalem denmesi, tekrar tekrar yontulduğu içindir, source:"ق ل م,B003"}.
+
+[¶10] Nesnenin nasıl çalıştığını görmek bu adı açar. Kamış serttir ve olduğu haliyle yazmaz. Ucu bıçakla kesilip biçimlendirildiğinde mürekkebi tutar ve yüzeyde iz bırakır. Yazdıkça ucu körelir, yeniden kesilir ve her kesilişte biraz kısalır. Kalem kendinden eksilterek yazar; yazmayı sürdürebilmesi de yeniden kesilmesine bağlıdır. Ondan düşen parça, tırnaktan düşen parça gibi, kalemin bedelidir.
+
+[¶11] Türkçede kalem hâlâ yazı aracıdır; bir dairenin yazı odasına, bir listenin tek tek maddelerine de ad olmuştur. Ama Türkçede kimse kalem derken tırnak kesmeyi, kamıştan kopup düşen parçayı duymaz. Arapça kelime ise bu kesişi adının içinde taşır: kalem, her gün yontulup yenilenen bir uçtur.
+
+[¶12] Öğretmenin tekrarla iz bırakmak olduğu yukarıda görüldü; kalem de tekrar tekrar yontularak iz bırakır. Bu iki kök arasında bir kimlik değil, bir benzerliktir: ayetin aracı, öğretimin kendi biçimini taşır. İkisi de bir kerede değil, yinelenen bir işle sonuç verir. Birinci ve ikinci ayetin yaratma fiili, ölçüp biçen ve pürüzü alan bir ustanın işini de adlandırdığı için, yontulan kamış o ayetlerin kurduğu atölye sahnesinin yanına düşer; yaratan ile kalemle öğretenin aynı ustalıkla çalıştığı sahne, o ayetlerin kelimeleriyle kurulur.
+
+## Kalemin işi: unutmaya ve şüpheye karşı
+
+[¶13] Kurân kalemin ne iş gördüğünü, müminlere borç alışverişini düzenleyen bir ayette ayrıntısıyla anlatır. Allah onlara, belli bir süreye kadar borçlandıklarında borcu yazmalarını söyler: {ar:إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى فَٱكْتُبُوهُ, tr:izâ tedâyentum bi-deynin ilâ ecelin musemmen fektubûh, gloss:belirli bir süreye kadar birbirinize borçlandığınızda onu yazın, source:2:282}. Yazıcıya da şöyle denir: {ar:وَلَا يَأْبَ كَاتِبٌ أَن يَكْتُبَ كَمَا عَلَّمَهُ ٱللَّهُ, tr:ve lâ ye'be kâtibun en yektube kemâ ʿallemehu'llâh, gloss:yazıcı, Allah'ın ona öğrettiği gibi yazmaktan kaçınmasın, source:2:282}. Yazmak burada Allah'ın öğrettiği bir beceridir, dördüncü ayetteki fiille aynı fiil kullanılır. Aynı ayet, iki kadın tanığın neden birlikte istendiğini söylerken hafızanın sapabileceğini açıkça anar: {ar:أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ, tr:en tadılle ihdâhumâ fe-tuzekkire ihdâhume'l-uhrâ, gloss:biri şaşırırsa öteki ona hatırlatsın diye, source:2:282}. Yazmanın gerekçesi de verilir: {ar:ذَٰلِكُمْ أَقْسَطُ عِندَ ٱللَّهِ وَأَقْوَمُ لِلشَّهَٰدَةِ وَأَدْنَىٰٓ أَلَّا تَرْتَابُوٓا۟, tr:zâlikum aksatu ʿinda'llâhi ve akvemu li'ş-şehâdeti ve ednâ ellâ tertâbû, gloss:bu, Allah katında daha adil, tanıklık için daha sağlam ve şüpheye düşmemenize daha yakındır, source:2:282}. Ayet de öğretimle kapanır: {ar:وَٱتَّقُوا۟ ٱللَّهَ ۖ وَيُعَلِّمُكُمُ ٱللَّهُ, tr:vetteku'llâhe ve yuʿallimukumu'llâh, gloss:Allah'tan sakının; Allah size öğretiyor, source:2:282}.
+
+[¶14] Kalemin işi bu ayette açıkça görünür: söz ağızdan çıkıp kaybolur, hafıza sapar, araya şüphe girer; kalem sözü tutar ve günü gelince olduğu gibi geri getirir. Dördüncü ayetin öğretimi de bu tutmanın üzerine kurulur. Kalemle öğretilen şey, öğretenin sesi sustuktan sonra da bekler ve öğrenenin yanında olmadığı bir zamanda, bir yerde yeniden okunabilir.
+
+[¶15] Kurân bir başka surenin başında kaleme yemin eder: {ar:نٓ ۚ وَٱلْقَلَمِ وَمَا يَسْطُرُونَ, tr:nûn, ve'l-kalemi ve mâ yesturûn, gloss:Nûn. Kaleme ve satır satır yazdıklarına andolsun, source:68:1}. Yeminin ardından gelen söz vahyin muhatabına yöneltilir: {ar:مَآ أَنتَ بِنِعْمَةِ رَبِّكَ بِمَجْنُونٍۢ, tr:mâ ente bi-niʿmeti rabbike bi-mecnûn, gloss:sen Rabbinin nimeti sayesinde deli değilsin, source:68:2}. Satırları dizen kalem, sözün dağınık bir sayıklama değil, düzene konmuş bir söz olduğunun tanığı olarak çağrılır.
+
+## Tükenen kalem, tükenmeyen söz
+
+[¶16] Kalemin kendinden eksilterek yazması, Kurân'ın bir başka sahnesini somut kılar. Orada Allah vahyin muhatabına, inkârcılara göklerle yeri kimin yarattığını sorarsa Allah diyeceklerini söyler: {ar:مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ, tr:men halaka's-semâvâti ve'l-ard, gloss:gökleri ve yeri kim yarattı, source:31:25}; ardından {ar:بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ, tr:bel ekseruhum lâ yaʿlemûn, gloss:hayır, çokları bilmez, source:31:25} der. Sonraki ayet her şeyin Allah'ın olduğunu bildirir ve şöyle biter: {ar:إِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ, tr:inna'llâhe huve'l-ganiyyu'l-hamîd, gloss:Allah, hiçbir şeye muhtaç olmayan, övülendir, source:31:26}. Ve kalemler gelir: {ar:وَلَوْ أَنَّمَا فِى ٱلْأَرْضِ مِن شَجَرَةٍ أَقْلَٰمٌۭ وَٱلْبَحْرُ يَمُدُّهُۥ مِنۢ بَعْدِهِۦ سَبْعَةُ أَبْحُرٍۢ مَّا نَفِدَتْ كَلِمَٰتُ ٱللَّهِ, tr:ve lev ennemâ fi'l-ardı min şeceratin aklâmun ve'l-bahru yemudduhû min baʿdihî sebʿatu ebhurin mâ nefidet kelimâtu'llâh, gloss:yeryüzündeki ağaçların hepsi kalem olsa, deniz de ardından yedi deniz daha katılarak mürekkep olsa, Allah'ın sözleri yine tükenmezdi, source:31:27}.
+
+[¶17] Bu sahne, kalemin yontularak kısalan bir araç olduğu bilindiğinde ağırlık kazanır. Bütün ağaçlar kalem olur, her biri yazdıkça kesilir, kısalır, biter; denizler de çekilir. Tükenen araçtır, söz değil. Dördüncü ayetin kalemi de bu ölçüyle durur: Rab kalemle öğretir, ama öğrettiği sözün kaynağı kalemin taşıyabileceğinden geniştir.
+
+[¶18] Bu ayetlerde yan yana duran şeyler surede de yan yanadır: yaratma, kalem, bilmemek ve yeterlilik. Surenin insanı, kendini yeterli gördüğü için azar: {ar:أَن رَّءَاهُ ٱسْتَغْنَىٰٓ, tr:en ra'âhu'stagnâ, gloss:kendini yeterli gördüğü için, source:96:7}. Bu fiil, Allah'ın muhtaç olmayan diye anıldığı sıfatla aynı köktendir. Kalemle öğretilmiş insan, kendisine öğretilenin tükenmez bir kaynaktan geldiğini unutup yeterliliği kendine yazar; o sahne altıncı ve yedinci ayetin kelimeleriyle kurulur.
+
+## Kura kalemi ve tanık olunmayan an
+
+[¶19] Kalem kelimesi bir başka nesneye de ad olmuştur: kura çekilirken atılan işaretli çubuk ya da ok. Bu ok kaleme benzetilerek adlandırılmıştır: {ar:شبه القدح به فقيل قلم, tr:şubbihe'l-kıdhu bihî fe-kîle kalem, gloss:kura oku ona benzetildi ve kalem dendi, source:"ق ل م,B004"}. Nasıl işlediği de anlatılır: {ar:الأقلام ها هنا القداح جعلوا عليها علامات على جهة القرعة, tr:el-aklâmu hâhunâ el-kıdâhu ceʿalû ʿaleyhâ ʿalâmâtin ʿalâ cihati'l-kurʿa, gloss:buradaki kalemler, kura için üzerlerine işaretler koydukları oklardır, source:"ق ل م,B004"}. Çubuklar atılır ve payın kime düştüğü, üzerlerindeki işaretten okunur. Bu tarifte kura kalemini işe yarar kılan şey bir işarettir ve tarifin kendisi işaret için öğretme kökünden bir kelime kullanır. Bu, iki kök arasında bir kimlik değildir; ama yazı kalemi de kura kalemi de ayırt ettiren bir işaret taşıyan bir çubuktur.
+
+[¶20] Kurân bu kura kalemlerini bir sahnede anar. İmran'ın karısı karnındakini Rabbine adar {source:3:35}; Rabbi doğan kızı güzel bir kabulle kabul eder ve onun bakımını Zekeriyya üstlenir {source:3:37}. Birkaç ayet sonra Allah, vahyin muhatabına bu anlatının nereden geldiğini söyler: {ar:ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهِ إِلَيْكَ, tr:zâlike min enbâ'i'l-gaybi nûhîhi ileyk, gloss:bu, sana vahyettiğimiz görünmeyene ait haberlerdendir, source:3:44}; {ar:وَمَا كُنتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَٰمَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ, tr:ve mâ kunte ledeyhim iz yulkûne aklâmehum eyyuhum yekfulu meryem, gloss:Meryem'i hangisi üstlenecek diye kalemlerini atarlarken sen yanlarında değildin, source:3:44}.
+
+[¶21] Kalemin geçtiği bu sahne, tam da tanık olunmamış bir anın bilgisinin verildiği sahnedir. Muhatap orada değildi, kalemlerin atılışını görmedi; bunu ona bildiren, Allah'ın haberidir. Beşinci ayetin bilmediğini öğretti sözü burada somut bir biçim alır: bilgi, bulunulmayan bir yerden, görülmemiş bir andan gelir. Kalemle öğreten Rab, kalemlerin atıldığı anı orada olmayana öğretir; yazı kalemi zamanı ve uzaklığı aşarak öğretir, bu sahnede ise öğretimin kendisi o aşmayı yapar.
+
+## Âlem: kendisiyle bilinen
+
+[¶22] Fatiha'nın ikinci ayetinde her namazda okunan {ar:رَبِّ ٱلْعَٰلَمِينَ, tr:rabbi'l-ʿâlemîn, gloss:âlemlerin Rabbi, source:1:2}, öğretme fiiliyle aynı köktendir. Âlem kelimesi şöyle tarif edilir: {ar:العالم اسم للفلك وما يحويه وهو في الأصل اسم لما يعلم به, tr:el-ʿâlemu ismun li'l-feleki ve mâ yahvîhi ve huve fi'l-asli ismun li-mâ yuʿlemu bih, gloss:âlem, gök kubbenin ve içerdiklerinin adıdır; aslında kendisiyle bilinen şeyin adıdır, source:"ع ل م,B003"}. Yaratılmışların her türü için de şöyle denir: {ar:العالمون كل جنس من الخلق فهو في نفسه معلم وعلم, tr:el-ʿâlemûne kullu cinsin mine'l-halki fe-huve fî nefsihî maʿlemun ve ʿalem, gloss:âlemler, yaratılmışların her bir türüdür; her biri kendi başına bir yol işareti ve bir alemdir, source:"ع ل م,B003"}.
+
+[¶23] Bu tarifte âlem, kalem gibi bir araçtır: kalem kendisiyle yazılan, âlem kendisiyle bilinen şeydir. Sure Rabbi iki ki O cümlesiyle tanıtmıştı: yaratan ve kalemle öğreten. Bu iki cümle, bilmenin iki aracını yan yana getirir. Yaratılmış dünya, her türü bir yol işareti olan âlem olarak öğretir; kalem, yüzeye konan işaretlerle öğretir. Birinin işaretleri yaratılışın kendisindedir, ötekininki yazıdadır; ikisi de işaret koyarak bilmeyi doğurur.
+
+[¶24] Kurân her bilmenin bir öğretimden geldiğini meleklerin ağzından söyler. Allah yeryüzüne bir halife koyacağını bildirdiğinde melekler buna şaşırır; Allah Âdem'e adları öğretir: {ar:وَعَلَّمَ ءَادَمَ ٱلْأَسْمَآءَ كُلَّهَا, tr:ve ʿalleme âdeme'l-esmâ'e kullehâ, gloss:Âdem'e adların hepsini öğretti, source:2:31}, sonra adlandırılanları meleklere gösterip adlarını sorar. Melekler şöyle cevap verir: {ar:سُبْحَٰنَكَ لَا عِلْمَ لَنَآ إِلَّا مَا عَلَّمْتَنَآ, tr:subhâneke lâ ʿilme lenâ illâ mâ ʿallemtenâ, gloss:seni tenzih ederiz, bize öğrettiğinden başka bilgimiz yok, source:2:32}. Bilgi, sahibinin kendinden çıkardığı bir şey değil, öğretilmiş bir şeydir.
+
+[¶25] Surede bu kök dördüncü ve beşinci ayetten sonra bir kez daha döner, bu sefer bir soru olarak. Namaz kılan bir kulu engelleyen adam için sorulur: {ar:أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ, tr:e lem yaʿlem bi-enna'llâhe yerâ, gloss:Allah'ın gördüğünü bilmez mi, source:96:14}. Bilmediğini öğrenen insan, şimdi bildiği bir şey üzerinden sorguya çekilir. Kalemle ve âlemle konan işaretler ona Rabbin varlığını ayırt ettirmek için konmuştu; bu soruda, o işaretleri okumayan insana, kendisine öğretilenin en yalın sonucu hatırlatılır: gören biri vardır.

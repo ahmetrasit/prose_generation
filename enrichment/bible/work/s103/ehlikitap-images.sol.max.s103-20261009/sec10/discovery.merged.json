@@ -1,0 +1,1008 @@
+{
+  "format": "bible-discovery-v2",
+  "status": "ok",
+  "target": "sec10",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "tsv_sha256": "c7ce348f3e8f1b991290e062a2eb0b7cf779e30de0c5a9dd71af7d6dd6878e7e",
+  "provenance": [
+    {
+      "target": "sec10",
+      "model": "luna",
+      "run_tag": "s103-20261009",
+      "path": "s103-20261009/sec10/luna",
+      "sha256": "1c6374d581a65b5790a197c25ccc88402ac4dc699e65a2756c5f3ab62e8f1ebe"
+    },
+    {
+      "target": "sec10",
+      "model": "sol",
+      "run_tag": "s103-20261009",
+      "path": "s103-20261009/sec10/sol",
+      "sha256": "e661a86554aa4e4806fa418b5d041b90207b298fcbcd05019ae72b7464eebc85"
+    }
+  ],
+  "rows": 218,
+  "findings": [
+    {
+      "target": "sec10",
+      "model": "luna",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/discovery/s103-20261009/sec10/luna/list.tsv",
+        "rows": 95,
+        "unique_references": 94,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 56,
+          "medium": 38,
+          "weak": 1
+        },
+        "findings": [
+          {
+            "line": 9,
+            "ref": "WLC:Num.27.11",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חֻקַּת מִשְׁפָּט",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 35,
+            "ref": "WLC:Ps.89.2",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אֱמוּנָה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 40,
+            "ref": "Tobit 4:3",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 41,
+            "ref": "Mishnah Avot 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 42,
+            "ref": "Babylonian Talmud, Bava Batra 147b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 43,
+            "ref": "Testament of Job 46–53",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 44,
+            "ref": "2 Maccabees 7:29",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 63,
+            "ref": "Babylonian Talmud, Pesahim 56a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 83,
+            "ref": "WLC:Ps.2.7",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 86,
+            "ref": "WLC:Dan.6.4",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "מְהֵימַן",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 87,
+            "ref": "Mishnah, Shevuot 4:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 88,
+            "ref": "Genesis Rabbah 98:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 94,
+            "ref": "1 Clement 44:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/discovery/s103-20261009/sec10/luna/followup.tsv",
+        "rows": 42,
+        "unique_references": 42,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 23,
+          "medium": 18,
+          "weak": 1
+        },
+        "findings": [
+          {
+            "line": 10,
+            "ref": "Babylonian Talmud, Pesahim 56a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 30,
+            "ref": "WLC:Ps.2.7",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 33,
+            "ref": "WLC:Dan.6.4",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "מְהֵימַן",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 34,
+            "ref": "Mishnah, Shevuot 4:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 35,
+            "ref": "Genesis Rabbah 98:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 41,
+            "ref": "1 Clement 44:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    },
+    {
+      "target": "sec10",
+      "model": "sol",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/discovery/s103-20261009/sec10/sol/list.tsv",
+        "rows": 169,
+        "unique_references": 169,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 80,
+          "medium": 86,
+          "weak": 3
+        },
+        "findings": [
+          {
+            "line": 22,
+            "ref": "WLC:Num.27.11",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 22,
+            "ref": "WLC:Num.27.11",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חֻקַּת",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 22,
+            "ref": "WLC:Num.27.11",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 33,
+            "ref": "Sirach 2:4",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 45,
+            "ref": "WLC:Gen.15.6",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 45,
+            "ref": "WLC:Gen.15.6",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 46,
+            "ref": "WLC:Isa.7.9",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 46,
+            "ref": "WLC:Isa.7.9",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 47,
+            "ref": "WLC:Hab.2.4",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 47,
+            "ref": "WLC:Hab.2.4",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אֱמוּנָה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 48,
+            "ref": "WLC:Deut.6.20",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 48,
+            "ref": "WLC:Deut.6.20",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חֻקִּים",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 48,
+            "ref": "WLC:Deut.6.20",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 49,
+            "ref": "WLC:Ps.105.10",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 49,
+            "ref": "WLC:Ps.105.10",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חֹק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 49,
+            "ref": "WLC:Ps.105.10",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 50,
+            "ref": "WLC:Job.19.23",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 50,
+            "ref": "WLC:Job.19.23",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 51,
+            "ref": "Pesachim 56a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 72,
+            "ref": "Sirach 33:24",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 73,
+            "ref": "WLC:Ps.39.7",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "צבר",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 77,
+            "ref": "SBLGNT:Jas.5.12",
+            "raw_ref": "SBLGNT:James.5.12",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 100,
+            "ref": "WLC:Exod.17.12",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 100,
+            "ref": "WLC:Exod.17.12",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 101,
+            "ref": "WLC:Deut.7.9",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 101,
+            "ref": "WLC:Deut.7.9",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 102,
+            "ref": "WLC:Ps.89.34",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 102,
+            "ref": "WLC:Ps.89.34",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אֱמוּנָה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 102,
+            "ref": "WLC:Ps.89.34",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 103,
+            "ref": "WLC:Deut.4.40",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 103,
+            "ref": "WLC:Deut.4.40",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 104,
+            "ref": "WLC:Exod.12.14",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 104,
+            "ref": "WLC:Exod.12.14",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חֻקָּה",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 104,
+            "ref": "WLC:Exod.12.14",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 110,
+            "ref": "SBLGNT:Jas.5.10",
+            "raw_ref": "SBLGNT:James.5.10",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 111,
+            "ref": "SBLGNT:Jas.5.11",
+            "raw_ref": "SBLGNT:James.5.11",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 115,
+            "ref": "Augustine, Confessions 9.11.27",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 126,
+            "ref": "WLC:Isa.28.16",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 126,
+            "ref": "WLC:Isa.28.16",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 127,
+            "ref": "WLC:2Chr.20.20",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 127,
+            "ref": "WLC:2Chr.20.20",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 128,
+            "ref": "WLC:Isa.10.1",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 128,
+            "ref": "WLC:Isa.10.1",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 129,
+            "ref": "WLC:Prov.31.5",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 129,
+            "ref": "WLC:Prov.31.5",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 130,
+            "ref": "Mishnah Avot 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 131,
+            "ref": "Tobit 4:3",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 140,
+            "ref": "Didache 4:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 150,
+            "ref": "Sirach 29:14",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 151,
+            "ref": "Sirach 29:15",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 152,
+            "ref": "Sirach 33:22",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 153,
+            "ref": "WLC:Gen.41.35",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "צבר",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 156,
+            "ref": "WLC:Ps.2.7",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 157,
+            "ref": "WLC:Ps.78.37",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 157,
+            "ref": "WLC:Ps.78.37",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 158,
+            "ref": "WLC:Neh.9.8",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 158,
+            "ref": "WLC:Neh.9.8",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/discovery/s103-20261009/sec10/sol/followup.tsv",
+        "rows": 54,
+        "unique_references": 54,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 25,
+          "medium": 29
+        },
+        "findings": [
+          {
+            "line": 11,
+            "ref": "WLC:Isa.28.16",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 11,
+            "ref": "WLC:Isa.28.16",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 12,
+            "ref": "WLC:2Chr.20.20",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 12,
+            "ref": "WLC:2Chr.20.20",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 13,
+            "ref": "WLC:Isa.10.1",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 13,
+            "ref": "WLC:Isa.10.1",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 14,
+            "ref": "WLC:Prov.31.5",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 14,
+            "ref": "WLC:Prov.31.5",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 15,
+            "ref": "Mishnah Avot 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 16,
+            "ref": "Tobit 4:3",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 25,
+            "ref": "Didache 4:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 35,
+            "ref": "Sirach 29:14",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 36,
+            "ref": "Sirach 29:15",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 37,
+            "ref": "Sirach 33:22",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 38,
+            "ref": "WLC:Gen.41.35",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "צבר",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 41,
+            "ref": "WLC:Ps.2.7",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חקק",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 42,
+            "ref": "WLC:Ps.78.37",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 42,
+            "ref": "WLC:Ps.78.37",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 43,
+            "ref": "WLC:Neh.9.8",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 43,
+            "ref": "WLC:Neh.9.8",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "אמנ",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    }
+  ],
+  "confidence": "Unverified reader labels; agreement and follow-up origin do not verify a connection."
+}

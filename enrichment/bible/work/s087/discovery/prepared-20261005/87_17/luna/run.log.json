@@ -1,0 +1,1383 @@
+{
+  "target": "87:17",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/87_17.md",
+  "base_sha256": "f1dd75924dc202fc8a2474609ab70830c4a2db52597ccbebb393dda4012ca32e",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T14:08:12.306367-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_87_17_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "c207711f496f2f9c8967b8eb7168dc1c4dc27ecaccc66854f40b0b6028fe9a83",
+  "package_sha256": "c1fde00e6553a2975866b1180f046cde5dd6070088f2d7b8a8f2f12eefccf66c",
+  "input_sha256": "997e7864c486bcd9e397a26d05b907e4f3e2a8686d51734a060591720230516b",
+  "spawn_sha256": "192c2d31ac0ebdbcae1338aba55ce9dac7b273cef649befe7729bc9e641caef4",
+  "followup_text_sha256": "d1a7a1ac63e4e7c98447e9eef271590583a20bf347fdb922e4f3d381349cb17a",
+  "agent_id": "01a10d43-fc68-7910-b49b-a213bbfbbb7c",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T14-12-01-01a10d43-fc68-7910-b49b-a213bbfbbb7c.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 67,
+  "turn1_sha256": "efb66d5145fe2b9c58b3e28a3949f4302c15674c5e5d87d8f371216067b8841a",
+  "turn2": {
+    "completed": true,
+    "rows_total": 99,
+    "rows_added": 32
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 67,
+    "raw_proposal_rows": 32,
+    "unique_additions": 32,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.19",
+          "basis": "choose life and good",
+          "note": "Moses sets life and death before Israel and commands “choose life”; this gives the commentary’s claim about choosing the better end a covenantal, present-tense counterpart, without making the choice an afterlife doctrine."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.45.7",
+          "basis": "preserved remnant and life",
+          "note": "Joseph says God sent him ahead to preserve a remnant and keep many alive; this makes survival a gift of providence, while the famine remnant is not itself the commentary’s morally good remnant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.3.22",
+          "basis": "living forever barred",
+          "note": "After the transgression, God prevents the humans from eating from the tree of life and living forever; Genesis treats unending earthly life as something to guard against, unlike the commentary’s promised better later life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:1Sam.2.6",
+          "basis": "God’s power over life and Sheol",
+          "note": "Hannah says the LORD kills and makes alive, bringing down to Sheol and raising up; this gives a concrete scriptural form to the commentary’s claim that lasting life belongs to God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Eccl.7.8",
+          "basis": "אחרית and טוב",
+          "note": "“Better is the end of a matter than its beginning” joins Hebrew ʾaḥarit (end, later outcome), cognate with Arabic ākhirah, to טוב (good); the verse states the commentary’s better-later comparison without referring specifically to afterlife."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.23.18",
+          "basis": "אחרית and hope",
+          "note": "The proverb says there is an ʾaḥarit, a future or latter outcome, and one’s hope will not be cut off; the Hebrew after-root and its hope context illuminate the commentary’s awaited, good, enduring future."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.10.14",
+          "basis": "אחרית הימים",
+          "note": "The messenger says the vision concerns what will happen to Daniel’s people in the latter days; Hebrew ʾaḥarit and Arabic ākhirah share the after-root, here naming an eschatological future rather than the afterlife itself."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.19.25",
+          "basis": "אחרון, “at the last”",
+          "note": "Job’s redeemer “at the last” uses the Hebrew after-root related to Arabic ākhirah and voices hope beyond present ruin; whether Job means a postmortem vision is disputed, so the lexical link is firmer than the doctrinal one."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.44.6",
+          "basis": "first and אחרון",
+          "note": "The LORD calls himself “first” and “last” and denies another God; Hebrew ʾaḥaron corresponds to Arabic ākhir, while the verse places the whole sequence under divine sovereignty as the commentary does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.40",
+          "basis": "God lives forever",
+          "note": "In the Song of Moses God swears, “I live forever”; this grounds the commentary’s distinction between creatures that perish and the One who alone possesses enduring life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.57.15",
+          "basis": "God inhabits eternity",
+          "note": "Isaiah names the high and exalted one as dwelling in eternity; this gives a direct counterpart to the commentary’s account of permanence as belonging to God, not to life independently of God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.6",
+          "basis": "flesh as grass and flower",
+          "note": "The prophet compares all flesh to grass and its beauty to a field flower; this recalls the commentary’s pasture that greens and then becomes dry refuse, making present life’s real beauty yet transience visible."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.8",
+          "basis": "grass fades, word stands",
+          "note": "The grass withers and the flower falls, but God’s word stands forever; this directly pairs the commentary’s decaying vegetation with what remains, while locating permanence in divine speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.10",
+          "basis": "rain, seed, and harvest",
+          "note": "Rain and snow water earth so it sprouts and gives seed to the sower and bread to the eater; the verse supplies the commentary’s concrete rain-to-growth scene and connects waiting to provision."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.11",
+          "basis": "word accomplishes its purpose",
+          "note": "The rain image continues as God’s word goes out and accomplishes what God intends; alongside the commentary’s expected rain and lasting good, the verse makes the awaited outcome effective rather than merely delayed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.26.19",
+          "basis": "the dead awake to life",
+          "note": "Isaiah calls the dead to awake and sing, with dew on the dust; this is a direct resurrection counterpart to the commentary’s later life as the fuller life, and its dew also meets the surah’s rain-and-growth imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.12.2",
+          "basis": "everlasting life and shame",
+          "note": "Daniel says sleepers in the dust awake, some to everlasting life and others to shame; this sharply matches the commentary’s point that duration alone is not good, since lasting life and lasting disgrace diverge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.3",
+          "basis": "unequal glory that endures",
+          "note": "The wise and those who lead many to righteousness shine like stars forever; the verse gives a concrete image of enduring honor and differentiated standing in the future order described in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.51.6",
+          "basis": "creation passes, salvation endures",
+          "note": "Heavens vanish and earth wears out, but God’s salvation is forever; this makes the commentary’s contrast between perishable present life and enduring good explicit in a single prophetic scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Genesis Rabbah 9:5",
+          "basis": "“very good” and death",
+          "note": "This midrash reads the creation verdict “very good” as including death; beside the commentary’s insistence that lasting existence must also be good, it warns that goodness and mere survival cannot be collapsed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Pirkei Avot 4:16",
+          "basis": "vestibule before the World-to-Come",
+          "note": "The Mishnah calls this world a vestibule before the World-to-Come and urges preparation there; it makes the commentary’s present choice and later arrival a practical sequence, not two unrelated realms."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Pirkei Avot 4:17",
+          "basis": "both sides of the comparison",
+          "note": "Rabbi Yaakov says one hour of repentance and good deeds in this world outweighs the World-to-Come, yet one hour of its bliss outweighs all this life; this preserves present good while ranking future joy higher, just as the commentary does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 17a",
+          "basis": "the World-to-Come beyond bodily commerce",
+          "note": "The sages picture the World-to-Come without eating, drinking, trade, or rivalry, with the righteous enjoying the divine presence; this interprets later life as a different and lasting good rather than an extension of current consumption."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Kiddushin 39b",
+          "basis": "reward deferred beyond this world",
+          "note": "The Talmud teaches that the reward for commandments is not paid out in this world; this gives a rabbinic account of why the better recompense may be delayed and why immediate prosperity is not the measure of good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Wisdom of Solomon 3:1",
+          "basis": "righteous souls in God’s hand",
+          "note": "The souls of the righteous are in God’s hand and no torment touches them; this presents postmortem life as secure in God, corresponding to the commentary’s claim that permanence rests with its giver."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Wisdom of Solomon 3:4",
+          "basis": "hope full of immortality",
+          "note": "The dead may seem punished, but their hope is full of immortality; this directly joins the commentary’s hope for what comes later to a life that endures."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 3:7",
+          "basis": "shining after trial",
+          "note": "After their trial the righteous shine and judge nations; this supplies a specific image of lasting honor and rank, not simply survival, for the commentary’s differentiated future."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Wisdom of Solomon 5:15",
+          "basis": "righteous live forever",
+          "note": "The righteous live forever and their reward is with the Lord; this directly connects enduring life with good and locates its source in God, as the commentary’s two predicates do."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "2 Maccabees 7:9",
+          "basis": "resurrection to everlasting life",
+          "note": "A tortured brother says the King of the universe will raise them to everlasting renewal of life; this is a direct resurrection counterpart to the commentary’s later, enduring life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "2 Maccabees 7:14",
+          "basis": "no resurrection for the persecutor",
+          "note": "The brother tells the king that there will be no resurrection to life for him; the scene makes the later life a moral distinction, while the commentary’s claim is framed as a choice between better and worse ends."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "2 Maccabees 7:23",
+          "basis": "Creator restores breath and life",
+          "note": "The mother tells her sons that the Creator will give back their breath and life; this grounds lasting life in the Creator’s power, matching the commentary’s insistence that permanence is granted."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.19",
+          "basis": "treasure decays on earth",
+          "note": "Jesus warns that earthly treasure is eaten by moth and rust; this gives a concrete instance of the commentary’s claim that present goods have value but do not remain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.20",
+          "basis": "treasure secure in heaven",
+          "note": "Jesus directs hearers to store treasure in heaven where it is not destroyed; this directly ranks a lasting good above goods exposed to decay, as the commentary’s comparison does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.21",
+          "basis": "treasure directs the heart",
+          "note": "Jesus says the heart follows one’s treasure; this connects the commentary’s deliberate preference for the near life with the practical consequence of what a person chooses to value."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.22",
+          "basis": "wealth chokes the seed",
+          "note": "In the parable, worldly anxiety and wealth’s deceitfulness choke the word so it bears no fruit; this links the commentary’s vegetation imagery to a present-world attachment that prevents lasting good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.16.26",
+          "basis": "gain the world, lose life",
+          "note": "Jesus asks what profit it is to gain the whole world and forfeit one’s life; this sharply states the commentary’s reversal of a choice that treats immediate gain as the better end."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Mark.10.21",
+          "basis": "treasure in heaven and invitation",
+          "note": "Jesus tells the rich man to sell his possessions, give to the poor, have treasure in heaven, and follow him; the promised lasting good is placed directly before someone attached to present wealth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Mark.10.22",
+          "basis": "choosing possessions over the call",
+          "note": "The rich man goes away grieving because he has many possessions; his response makes the commentary’s knowingly choosing the visible present over a better future concrete."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.12.19",
+          "basis": "rich fool’s immediate security",
+          "note": "The rich man plans to store goods for many years and relax; this is a specific picture of assigning permanence to present abundance, the very false security the commentary contests."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.12.20",
+          "basis": "death interrupts the storehouse",
+          "note": "God tells the rich man he will die that night, so his stored goods cannot secure his future; this makes the commentary’s contrast between transient possession and what remains concrete."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.33",
+          "basis": "treasure that does not fail",
+          "note": "Jesus tells disciples to give alms and make purses that do not wear out, with unfailing treasure in heaven; this closely matches present goods exchanged for a durable good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.34",
+          "basis": "heart follows treasure",
+          "note": "Jesus says the heart will be where one’s treasure is; this adds the commentary’s choice-and-preference dimension to the contrast between earthly and lasting goods."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.14.18",
+          "basis": "invited guests choose their own plans",
+          "note": "The first invited guest excuses himself to inspect a field; the banquet already offered is set aside for an immediate possession, concretizing the commentary’s knowingly preferring what is near."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.14.19",
+          "basis": "oxen take precedence over invitation",
+          "note": "Another guest prioritizes testing five yoke of oxen over the prepared feast; the second concrete excuse shows how material opportunity can displace a better offer already in view."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.25",
+          "basis": "present comfort and later reversal",
+          "note": "Abraham tells the rich man he received good things during life while Lazarus now receives comfort; this preserves the commentary’s nuance that present life has real good, yet the later order reverses its priority."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.6.27",
+          "basis": "food that perishes and food enduring",
+          "note": "Jesus contrasts perishable food with food enduring to eternal life; this directly joins the commentary’s material provision imagery to the choice of what lasts."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.25",
+          "basis": "life in this world and eternal life",
+          "note": "Jesus says the one who loves life in this world loses it, while the one who gives it up keeps it for eternal life; this states the commentary’s near/later reversal in an ethical form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.7",
+          "basis": "patient good work seeks immortality",
+          "note": "Paul describes those who persist in good work seeking glory, honor, and immortality as receiving eternal life; this directly joins goodness, endurance, and the future reward in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.9.25",
+          "basis": "race for an imperishable crown",
+          "note": "Paul contrasts athletes’ perishable wreath with the imperishable crown sought by disciplined runners; this meets the commentary’s race image and its point about reserving effort for the lasting end."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.41",
+          "basis": "different glories",
+          "note": "Paul says the sun, moon, and stars differ in glory; in the resurrection argument this gives a concrete analogue for the commentary’s claim that the later life has its own degrees of rank."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.15.42",
+          "basis": "perishable raised imperishable",
+          "note": "The body sown perishable is raised imperishable; this answers the commentary’s contrast between a changing pasture and a life that remains in its renewed state."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.15.53",
+          "basis": "mortal puts on immortality",
+          "note": "Paul says the mortal must put on immortality; this makes enduring life a granted transformation, consonant with the commentary’s claim that permanence belongs to God to give."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.18",
+          "basis": "seen transient, unseen eternal",
+          "note": "Paul contrasts what is seen and temporary with what is unseen and eternal; this gives the commentary’s near-versus-later ranking a clear temporal and epistemic form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.8",
+          "basis": "sowing to Spirit and eternal life",
+          "note": "Paul contrasts sowing to the flesh, which reaps corruption, with sowing to the Spirit, which reaps eternal life; this joins agricultural harvest to the choice between decay and enduring good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.9",
+          "basis": "reaping in due season",
+          "note": "Paul urges persistence in doing good because a harvest comes at the proper time; this supplies the commentary’s image of waiting for a good outcome that arrives later."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.34",
+          "basis": "better and abiding possession",
+          "note": "The believers accept the seizure of their property because they know they have a better and abiding possession; this is an exceptionally close formulation of present loss weighed against lasting good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.35",
+          "basis": "confidence and reward",
+          "note": "The following verse warns them not to throw away their confidence, which has a great reward; it makes the commentary’s deferred reward something to await rather than abandon for immediate relief."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.36",
+          "basis": "promise after endurance",
+          "note": "The author says endurance is needed to receive what God promised; this gives the later good a temporal sequence and links waiting with faithful action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.11.25",
+          "basis": "refusing sin’s fleeting pleasure",
+          "note": "Moses chooses mistreatment with God’s people rather than the temporary pleasure of sin; this is a direct example of refusing immediate enjoyment for a better future allegiance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.11.26",
+          "basis": "reproach counted greater wealth",
+          "note": "Moses considers reproach greater wealth than Egypt’s treasures because he looks to the reward; this concretely revalues present riches in light of a later good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.17",
+          "basis": "hope not set on uncertain riches",
+          "note": "Paul tells the rich not to hope in uncertain wealth but in God, who richly provides; this recognizes material goods as real provision while refusing them the permanence the commentary reserves for God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.18",
+          "basis": "rich in good works",
+          "note": "The wealthy are told to do good, be generous, and ready to share; this gives ethical content to the commentary’s “good” that remains, rather than treating permanence alone as sufficient."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.19",
+          "basis": "treasure for the future",
+          "note": "Such generosity stores up treasure for the future and takes hold of true life; this directly joins present action, later reward, and the fuller life the commentary describes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Pet.1.4",
+          "basis": "imperishable inheritance",
+          "note": "Peter describes an inheritance kept in heaven as imperishable, undefiled, and unfading; this closely matches the commentary’s claim that the later good remains in its first state."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.2.17",
+          "basis": "world passes, God’s will remains",
+          "note": "John says the world and its desire pass away, while the one doing God’s will remains forever; this is a direct ethical and temporal counterpart to the commentary’s contrast between transient preference and lasting good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.46",
+          "basis": "eternal life and eternal punishment",
+          "note": "Jesus distinguishes eternal life from eternal punishment; this supports the commentary’s insistence that permanence by itself is not good and that the lasting outcome must also be judged."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.21.4",
+          "basis": "death no more",
+          "note": "The new creation has no more death, mourning, crying, or pain; this offers a concrete picture of later life as good and enduring, unlike merely remaining in a state without life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Sam.14.14",
+          "basis": "water spilled and the banished",
+          "note": "In her plea about Absalom, the woman of Tekoa compares death to water spilled on the ground, then says God devises means so the banished do not remain outcast; this makes survival a merciful gift, though the scene concerns David’s family rather than resurrection."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.14.2",
+          "basis": "flower that withers",
+          "note": "Job compares a human being’s brief life to a flower that comes forth and withers; this supplies a direct counterpart to the commentary’s pasture turning from green growth into dry refuse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.3",
+          "basis": "tree by streams bearing fruit",
+          "note": "The righteous person is like a tree planted by streams, yielding fruit in season with an unwithered leaf; this offers the commentary’s awaited rain and lasting good as a living contrast to growth that decays."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.17.8",
+          "basis": "green tree through drought",
+          "note": "The one who trusts the LORD is a tree by water whose leaf stays green and does not cease bearing fruit in drought; this joins the commentary’s rain, expected harvest, and good that remains in one concrete image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.3",
+          "basis": "vision that must be awaited",
+          "note": "The vision has an appointed time and, though it seems delayed, the hearer must wait because it will surely come; this directly illuminates the commentary’s watchful hope for a good thing that arrives later."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lam.3.26",
+          "basis": "quietly wait for salvation",
+          "note": "The speaker calls it good to wait quietly for the LORD’s salvation; this gives the commentary’s hope and looking toward what comes later an explicit scriptural practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.31",
+          "basis": "waiting renews strength for the race",
+          "note": "Those who wait for the LORD renew their strength, run without growing weary, and rise on wings; this brings together the commentary’s watchful waiting and its image of reserving strength for the course’s end."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.25.8",
+          "basis": "death swallowed forever",
+          "note": "Isaiah says God will swallow death forever and wipe tears from every face; this gives a direct image of the later life’s permanence as release from death, beyond merely enduring through it."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.65.17",
+          "basis": "new heavens and new earth",
+          "note": "God creates new heavens and a new earth; this is a concrete scriptural account of a second creation to set beside the commentary’s “later” life as the creation that follows the first."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Eccl.9.5",
+          "basis": "the dead know nothing",
+          "note": "Qoheleth says the dead know nothing and have no further reward “under the sun”; this is a genuine counter-voice to the commentary’s later life, and its stated horizon limits the claim to life as observed under the sun."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.7",
+          "basis": "hope perishes with the wicked",
+          "note": "The hope and expected power of the wicked perish when he dies; this contrasts the commentary’s hope for a later good that arrives and remains with confidence attached to present status."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Sanhedrin 10:1",
+          "basis": "share in the World-to-Come",
+          "note": "The Mishnah opens by affirming that Israel has a share in the World-to-Come, then names denials of resurrection among exclusions; this makes later life a doctrinal claim whose acceptance or rejection shapes the reader’s judgment of the commentary’s promise."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.33",
+          "basis": "seek the kingdom first",
+          "note": "Jesus tells hearers to seek first God’s kingdom and righteousness, with ordinary necessities added; this gives the commentary’s reordered preference a concrete form while allowing food and clothing a legitimate place."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.42",
+          "basis": "chosen portion not taken away",
+          "note": "Jesus says Mary chose the good portion that will not be taken from her while Martha is distracted by much service; this matches the commentary’s distinction between a real present activity and the more durable good one ought to choose."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.9",
+          "basis": "money used for lasting welcome",
+          "note": "Jesus tells disciples to use worldly wealth to make friends so they may be welcomed into eternal dwellings when it fails; this turns present possessions into a means toward later shelter, echoing the commentary’s deferred exchange."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.18.30",
+          "basis": "present return and life in the age to come",
+          "note": "Jesus promises those who leave homes and family for God’s kingdom a manifold return in this time and eternal life in the coming age; this keeps present good in view while explicitly ranking the later life as the final horizon."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.4.14",
+          "basis": "water springing to eternal life",
+          "note": "Jesus says the water he gives becomes a spring within the recipient, welling up to eternal life; this links the commentary’s rain-and-water imagery to life that does not run dry."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.21",
+          "basis": "creation freed from corruption",
+          "note": "Paul says creation itself will be liberated from decay into the freedom of God’s children; this supplies a cosmic counterpart to the commentary’s contrast between a pasture that changes and a later life no longer subject to corruption."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.24",
+          "basis": "hope for what is unseen",
+          "note": "Paul says hope concerns what is not seen; this gives the commentary’s claim that the later good is awaited a precise epistemic form rather than treating it as present possession."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.25",
+          "basis": "patiently await hope",
+          "note": "Paul says that if believers hope for what they do not see, they wait for it with patience; this directly joins future expectation to the watchful patience developed in the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.13",
+          "basis": "work tested on the Day",
+          "note": "Each person’s work is revealed and tested by fire on the Day, with reward or loss; this offers a specific account of what endures beyond present labor and supports the commentary’s moral weighing of a life’s yield."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.58",
+          "basis": "labor not in vain",
+          "note": "Paul urges steadfast work because labor in the Lord is not in vain; in the resurrection chapter’s context, this makes present good action matter precisely because death does not erase its outcome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:2Cor.5.4",
+          "basis": "mortality swallowed by life",
+          "note": "Paul hopes that what is mortal will be swallowed up by life; this directly answers the commentary’s contrast between mere persistence and the later life that is positively good."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.11.16",
+          "basis": "desire for a better country",
+          "note": "The patriarchs desire a better, heavenly country and God prepares a city for them; this gives the commentary’s “later” good a homeland image while preserving their forward-looking desire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.13.14",
+          "basis": "city still to come",
+          "note": "The author says believers have no lasting city here but seek the one that is to come; this precisely combines the commentary’s sequence of near and later with its claim that the later dwelling is enduring."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.11",
+          "basis": "rich man fades like a flower",
+          "note": "James compares the rich person to a flower that falls under scorching heat; this connects the commentary’s decay of pasture to wealth’s inability to secure permanence.",
+          "raw_ref": "SBLGNT:James.1.11",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.7",
+          "basis": "farmer waits for rain and fruit",
+          "note": "The farmer waits patiently for the precious crop until it receives the early and late rains; this closely matches the commentary’s watcher who waits for rain and the good harvest that comes afterward.",
+          "raw_ref": "SBLGNT:James.5.7",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.19.17",
+          "basis": "different future rewards",
+          "note": "In the parable of the minas, the faithful servant receives authority over ten cities; the specific reward illustrates the commentary’s claim that the later life has its own ranks and distinctions."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.20.16",
+          "basis": "last and first receive the same wage",
+          "note": "The vineyard parable concludes that the last will be first and the first last after workers hired at different hours receive the same denarius; this complicates the commentary’s picture of ordered degrees by showing a kingdom reward that overturns ordinary ranking."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.5.4",
+          "basis": "unfading crown at the appearing",
+          "note": "When the chief Shepherd appears, faithful elders receive a crown of glory that does not fade; this directly joins future arrival with an enduring good."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.13",
+          "basis": "deeds follow the dead",
+          "note": "A voice blesses the dead who die in the Lord, saying their deeds follow them into rest; this gives a concrete after-death counterpart to the commentary’s image of sending something ahead for one’s life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.22.2",
+          "basis": "tree bearing fruit in the city",
+          "note": "The tree of life in the New Jerusalem bears fruit each month and its leaves heal the nations; this joins the commentary’s plant and harvest imagery to the later life as continuing, restorative provision."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "0a28d8b30a0dc4e69415066cdc570d51103d550cb30b8afc826560f015e4e371",
+    "followup_sha256": "0a28d8b30a0dc4e69415066cdc570d51103d550cb30b8afc826560f015e4e371"
+  },
+  "consolidation_error": null,
+  "list_sha256": "7f104cc2b4a6f6431c464b13eb186f98c69bc3b38f07e7269e3bb780721b20a8",
+  "followup_delivery": [
+    {
+      "call_id": "call_aDVR7mI7FPwMBiNDFnyYY3sE",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 560980,
+    "cached_input_tokens": 489984,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 29479,
+    "reasoning_output_tokens": 22260,
+    "total_tokens": 590459
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:24:39.843Z",
+  "artifacts": {
+    "started.json": "5425ef69f61c4c1968be6d6fdcaffe7911c54d80b41598b7d272fa21eebfa688",
+    "input.json": "997e7864c486bcd9e397a26d05b907e4f3e2a8686d51734a060591720230516b",
+    "prompt.md": "c207711f496f2f9c8967b8eb7168dc1c4dc27ecaccc66854f40b0b6028fe9a83",
+    "package.md": "c1fde00e6553a2975866b1180f046cde5dd6070088f2d7b8a8f2f12eefccf66c",
+    "spawn.md": "192c2d31ac0ebdbcae1338aba55ce9dac7b273cef649befe7729bc9e641caef4",
+    "followup.txt": "d1a7a1ac63e4e7c98447e9eef271590583a20bf347fdb922e4f3d381349cb17a",
+    "turn1.json": "144ca3c4b0fa7d071c2807b4b0dcc0d63909ce5271aedde1f4ce1800206e6017",
+    "turn1.list.tsv": "efb66d5145fe2b9c58b3e28a3949f4302c15674c5e5d87d8f371216067b8841a",
+    "followup.tsv": "0a28d8b30a0dc4e69415066cdc570d51103d550cb30b8afc826560f015e4e371",
+    "list.tsv": "7f104cc2b4a6f6431c464b13eb186f98c69bc3b38f07e7269e3bb780721b20a8",
+    "consolidation.json": "ed54daa9ed924f8f3d325365d8c12094f08728c36504e089216c937fdd48905b",
+    "validation.json": "b96f3dd4d3d80a4cdfa0c2701787f2ca8bae8081a57673ec4923a6d3c9ae1ae4",
+    "proposal_validation.json": "d9e4f06d77b66ea6cd4afc1ae6b1e2b536e1b84db196e93c5dcf2b3ad5a12ef4",
+    "tool_calls.json": "a11610547b9e5014419a99ae74754cf8e65f8095cb5dac8c5a31074fa3dee660",
+    "session.json": "5cec4a31d2d5271e3764c602e91cddbef3c145bb01c48d07c17c98f510a0c777",
+    "session.events.jsonl": "4e51460b0d906d82cb548ba360705f6770832a2499b79f7c25d3e776a0ecf16f"
+  }
+}

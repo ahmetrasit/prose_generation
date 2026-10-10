@@ -1,0 +1,1743 @@
+{
+  "target": "sec18",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:22:00.060369-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec18_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "98a0baaa00ef1c4f893061d6abc83f67a29c13bac2ae3ce113c77e1177da0016",
+  "package_sha256": "55a6a8ffc99b98d825f7575bd0519a3a6a80600d62d11a069be5e9796c31aa88",
+  "input_sha256": "a60706f844f62710d73784b63c2474818c4eea3bddf7df508d8eabcf20e118f4",
+  "spawn_sha256": "9f00efa8ebe6f9343d9f6a3dd404e8e62c835547371b3d6610bcda0e4798d967",
+  "followup_text_sha256": "aabbcac2fcb37d00c879d36ab2a8207085430ccbcd178a1ca4a0aa446ea55448",
+  "agent_id": "01a10d1d-06ff-7f03-acfe-16a3fada8ab8",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-29-28-01a10d1d-06ff-7f03-acfe-16a3fada8ab8.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "accepted",
+  "check": "findings",
+  "turn1_rows": 77,
+  "turn1_sha256": "5fdcf06baf3b8f5206973d1bc268d561254eeff05a8587450f61dcca63577d80",
+  "turn2": {
+    "completed": true,
+    "rows_total": 119,
+    "rows_added": 42
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_uXNrUUVABNbqm0mpc6zju4Tx",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_uXNrUUVABNbqm0mpc6zju4Tx",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_uXNrUUVABNbqm0mpc6zju4Tx",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec18/luna/followup.tsv:"
+    }
+  ],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 77,
+    "raw_proposal_rows": 42,
+    "unique_additions": 42,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.7.18",
+          "basis": "praise of YHWH Most High",
+          "note": "The commentary opens by joining praise of the Lord's name to exalted height; this psalm closes its prayer by singing to YHWH's name as Most High, giving a close liturgical counterpart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.7.18",
+          "basis": "ʿElyon and al-Aʿlā",
+          "note": "The commentary's al-Aʿlā and this verse's Hebrew ʿElyon are cognate Semitic forms for “Most High”; the psalm uses the title while praising YHWH's name."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.2",
+          "basis": "burning bush not consumed",
+          "note": "The prose's Moses approaches a fire that gives guidance rather than consuming him; Exodus presents the flame in the bush without consuming it, making the same fire a sign of divine presence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.4",
+          "basis": "Moses called from the fire",
+          "note": "The commentary places Moses' encounter and instruction at the distant fire; in Exodus the divine voice calls Moses from the bush, so the fire scene becomes a call and response."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.10",
+          "basis": "Moses chosen and commissioned",
+          "note": "The commentary cites Moses being chosen at the fire; Exodus sends Moses to Pharaoh from the bush, joining selection with a mission in the same encounter."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.3.12",
+          "basis": "worship at the mountain",
+          "note": "The commentary links the fire encounter to prayer; God tells Moses that the people will worship God on this mountain, giving the encounter a ritual outcome."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.3.15",
+          "basis": "name as memorial",
+          "note": "The prose connects Moses' encounter with remembering God's name; God says the revealed name is a memorial for all generations, making name and remembrance a specific Mosaic link."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.3.15",
+          "basis": "זֵכֶר memorial and dhikr",
+          "note": "The commentary's Arabic dhikr for remembrance corresponds to Hebrew zēker in Moses' naming speech; the verse itself calls the divine name a memorial across generations."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.13.21",
+          "basis": "fire guiding the road",
+          "note": "The commentary says the distant fire and search for guidance meet in one scene; Exodus later has God lead Israel by a pillar of fire at night, making fire explicitly a guide on the road."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.20.24",
+          "basis": "name remembered at worship",
+          "note": "The commentary links Moses' prayer to remembrance of God's name; the altar instruction promises God's presence and blessing wherever the name is remembered in worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.34.6",
+          "basis": "name proclaimed to Moses",
+          "note": "The commentary joins prayer and divine-name remembrance to Moses; after Sinai God proclaims the divine name and character before him, giving a second Mosaic setting for that conjunction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.34.8",
+          "basis": "Moses bows after the name",
+          "note": "The commentary says the person who remembers the Lord's name prays; after the name is proclaimed, Moses bows his head and worships, connecting name-revelation to embodied devotion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.7.11",
+          "basis": "Pharaoh's magicians",
+          "note": "The commentary stresses that Moses' opponents prostrate and reject Pharaoh; Exodus has Pharaoh's magicians practice secret arts for him, so the Qur'anic conversion reverses their role in the parallel contest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.8.19",
+          "basis": "finger of God",
+          "note": "The commentary presents the magicians as turning against Pharaoh and confessing God's better, lasting rule; Exodus's magicians recognize the plague as God's finger but do not renounce Pharaoh, a more limited recognition."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:2Tim.3.8",
+          "basis": "Jannes and Jambres resist Moses",
+          "note": "The commentary's magicians prostrate and choose God over Pharaoh; Paul's named Egyptian opponents resist Moses and the truth, preserving the opposite outcome in Christian memory."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.7",
+          "basis": "rehearsing words",
+          "note": "The commentary moves from recitation that is not forgotten to a reminder heard by the fearful; Moses commands Israel to repeat God's words continually and teach them to children, a concrete practice of keeping revelation present."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.11",
+          "basis": "public reading",
+          "note": "The commentary describes revealed speech being recited and offered as reminder; Moses orders the law read publicly before all Israel, giving a communal scriptural counterpart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.12",
+          "basis": "hear, learn, fear",
+          "note": "The commentary divides hearers between those who fear and remember and those who turn away; the assembly is to hear the law, learn, and fear the Lord, including children and sojourners."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.13",
+          "basis": "fear throughout life",
+          "note": "The commentary's fearful hearer remembers the reminder; Moses says future generations must hear and learn to fear God all their days in the land."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.29.28",
+          "basis": "hidden and revealed",
+          "note": "The commentary says God knows what is open and hidden and places a nearly hidden event in Moses' scene; Moses distinguishes secret things belonging to God from revealed things given to Israel, marking a related boundary without equating the subjects."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.16",
+          "basis": "book of remembrance",
+          "note": "The commentary joins fear, remembrance, and God's name; Malachi records a book of remembrance for those who fear the Lord and esteem his name, a particularly close ethical and verbal constellation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.24.2",
+          "basis": "Abraham's family and other gods",
+          "note": "The commentary closes by recalling Abraham's plea to be kept from idols; Joshua says Abraham's ancestors served other gods beyond the River, supplying the family setting from which that plea distances him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Josh.24.3",
+          "basis": "Abraham taken from beyond the River",
+          "note": "The commentary names Abraham among the recipients of the earlier pages and recalls his separation from idols; Joshua says God took Abraham from beyond the River and led him through Canaan, giving a scriptural account of his departure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.2.7",
+          "basis": "human formed from earth",
+          "note": "The commentary connects divine forming with an embodied creature; Genesis says God formed the human from dust and breathed life into him, a direct creation scene joining body and ground."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.10.10",
+          "basis": "body formed in the womb",
+          "note": "The commentary's shaping image includes the embryo; Job likens God's formation of his body to milk poured and curdled, a concrete image of prenatal making."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.14",
+          "basis": "woven in the womb",
+          "note": "The commentary joins craft and bodily formation; the psalm says God formed and knit the speaker in the mother's womb, making that joining explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.15",
+          "basis": "body fashioned in hidden depths",
+          "note": "The commentary links a formed body with what is hidden; the psalm says its frame was not hidden while it was made in secret, joining bodily craft to hiddenness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.24",
+          "basis": "formed from the womb and creator",
+          "note": "The commentary moves from bodily formation to the Lord's work in creation; Isaiah calls God the one who formed the speaker from the womb and stretched out the heavens, placing those acts under one creator."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.1.5",
+          "basis": "formed and chosen",
+          "note": "The commentary pairs the shaped creature with Moses' selection; Jeremiah says God knew and consecrated him before forming him in the womb, joining bodily formation to prophetic choice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.11",
+          "basis": "vegetation brought forth",
+          "note": "The commentary's pasture is brought out by the creator and then withers; Genesis commands the earth to bring forth seed-bearing plants and trees, grounding vegetation in divine creation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.25",
+          "basis": "channels for rain",
+          "note": "The commentary links measured water in valleys to divine allotment; God asks who cut a channel for torrents of rain, a precise image of water given a course."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.26",
+          "basis": "rain in uncultivated land",
+          "note": "The commentary joins the valley flood to pasture; Job asks who sends rain on land where no one lives, emphasizing provision beyond human fields."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.27",
+          "basis": "grass sprouts",
+          "note": "The commentary traces water to pasture's growth; Job says rain makes the wilderness satisfied and causes grass to sprout, completing that water-to-vegetation sequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.11",
+          "basis": "streams in the valleys",
+          "note": "The commentary pictures water running through valleys and sustaining pasture; the psalm describes springs giving drink to wild animals among the mountains."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.14",
+          "basis": "grass and useful produce",
+          "note": "The commentary contrasts pasture with refuse and useful remainder; the psalm says God makes grass for cattle and plants for human use, specifying what the land's growth serves."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.25.4",
+          "basis": "dross removed, silver remains",
+          "note": "The commentary links foam from fire to what is discarded while useful material remains; Proverbs says removing dross leaves workable silver, a close refining image for that distinction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 17:1",
+          "basis": "humanity from earth, days allotted",
+          "note": "The commentary joins bodily creation to divine measuring; Sirach says God made humans from earth and allotted them numbered days, bringing formation and measure together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 11:20",
+          "basis": "all things by measure",
+          "note": "The commentary links measured water and the creator's measuring; Wisdom says God ordered all things by measure, number, and weight, extending that ordering to creation as a whole."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.7",
+          "basis": "rain, useful crop",
+          "note": "The commentary contrasts vegetation that becomes refuse with what remains useful; Hebrews compares land drinking frequent rain and yielding a useful crop, an unusually close rain-and-yield image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.8",
+          "basis": "thorns and burning",
+          "note": "The commentary says untended growth dries and is carried away while useful yield remains; Hebrews contrasts thorns with fruitful land and ends the barren plot in burning, making the moral sorting sharper."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.3",
+          "basis": "tree by water",
+          "note": "The commentary sets withering pasture against lasting good; Psalm 1's person who delights in instruction is a watered tree whose leaf does not wither, an enduring fruitful counterpart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.4",
+          "basis": "chaff blown away",
+          "note": "The commentary's dead pasture is carried off by flood; Psalm 1 says the wicked are like chaff driven by wind, using agricultural refuse for a contrasting fate."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.6",
+          "basis": "human life as grass",
+          "note": "The commentary says the preferred worldly life is the same object as the withering pasture; Isaiah declares all flesh grass, turning that image directly toward human transience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.7",
+          "basis": "grass withers",
+          "note": "The commentary describes pasture drying before it is swept away; Isaiah says grass withers when the Lord's breath blows on it, giving decay a divine frame."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.8",
+          "basis": "word endures",
+          "note": "The commentary contrasts transient worldly life with what is better and more lasting; Isaiah's grass fades but God's word stands forever, adding a specific enduring term to the contrast."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Pet.1.24",
+          "basis": "Isaiah's grass applied to human mortality",
+          "note": "The commentary identifies worldly life with withering pasture; Peter reapplies Isaiah's grass-and-flower image to mortal flesh, showing the Christian reception of that transience text."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Pet.1.25",
+          "basis": "word as enduring gospel",
+          "note": "The commentary sets the passing world against the lasting better life; Peter's quotation of Isaiah identifies the enduring word with the gospel preached, a Christian interpretive extension of the contrast."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.8",
+          "basis": "sowing and eternal life",
+          "note": "The commentary calls the present world a field and the hereafter the more lasting yield; Paul contrasts sowing to flesh with sowing to Spirit and names eternal life as the harvest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.9",
+          "basis": "reaping in due season",
+          "note": "The commentary says cultivated land grows and leaves a share; Paul urges perseverance in doing good because the harvest comes in due season."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.10",
+          "basis": "harvest of righteousness",
+          "note": "The commentary joins crop, good work, and a remaining share; Paul says God supplies seed and increases the harvest of righteousness, applying agricultural yield to generous action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.2.17",
+          "basis": "world passes, God's will remains",
+          "note": "The commentary says people prefer worldly life though the hereafter is more lasting; John explicitly contrasts the passing world and its desire with the one who does God's will abiding forever."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.7",
+          "basis": "persistent good and immortality",
+          "note": "The commentary says the cultivated field's yield is lasting good; Paul describes those who persist in good work seeking immortality as receiving eternal life, an ethical counterpart to that lasting yield."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.3.14",
+          "basis": "name revealed, hidden event",
+          "note": "The commentary places what is nearly hidden after Moses' call at the fire; Exodus answers Moses' question with God's revealed name, so the scene pairs hiddenness with disclosure rather than identifying their subjects."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Exodus Rabbah 2:5",
+          "basis": "bush as Israel under oppression",
+          "note": "The commentary reads Moses' fire as guidance rather than punishment; this midrash reads the unconsumed bush as Israel suffering in Egypt without being destroyed, shifting the sign toward collective endurance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 38:13",
+          "basis": "Abraham breaks idols",
+          "note": "The commentary invokes Abraham's request for distance from idols; this midrash's idol-breaking account portrays Abraham actively rejecting his father's idols, making the cited prayer a narrative practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Jubilees 12:1-8",
+          "basis": "Abraham rejects his father's idols",
+          "note": "The commentary recalls Abraham's plea against idolatry; Jubilees expands his break with his father's idol-making household, giving an early Jewish narrative counterpart to the separation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.26",
+          "basis": "words brought to remembrance",
+          "note": "The commentary opens its second movement with a promise of recitation without forgetting; Jesus says the Spirit will remind the disciples of his words, a distinct Christian promise of remembered revelation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.19",
+          "basis": "choose life",
+          "note": "The commentary contrasts preferring worldly life with the better lasting hereafter; Moses urges Israel to choose life by covenant loyalty, a related choice formula whose immediate setting is life in the land."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.30.19",
+          "basis": "חַיִּים and ḥayāt",
+          "note": "The commentary repeats Arabic ḥayāt for worldly life; Moses' choice formula uses Hebrew ḥayyîm, a cognate for life, though here it means covenantal life in the land."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.19",
+          "basis": "treasure on earth",
+          "note": "The commentary says people put worldly life first though another life lasts; Jesus warns against storing treasure on earth, making present attachment the explicit choice at issue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.20",
+          "basis": "treasure in heaven",
+          "note": "The commentary calls the hereafter better and more abiding; Jesus directs disciples to store treasure in heaven, giving a concrete alternative to earthly preference."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.21",
+          "basis": "rich toward God",
+          "note": "The commentary contrasts preferred worldly life with the lasting hereafter; Jesus ends the rich fool's story by contrasting stored earthly goods with being rich toward God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.30",
+          "basis": "wheat and weeds at harvest",
+          "note": "The commentary says dry growth is swept away while useful yield remains; Jesus' parable keeps weeds and wheat until harvest, when the weeds are bound for burning and wheat stored."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.40",
+          "basis": "weeds burned at the end",
+          "note": "The commentary uses dead pasture for the failing worldly life; Jesus interprets weeds as evil and their burning as the end of the age, a specific but differently mapped agricultural judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.13",
+          "basis": "works tested by fire",
+          "note": "The commentary joins fire with the difference between what is lost and what remains useful; Paul says fire tests each person's work, making fire a test of lasting value."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.14",
+          "basis": "work remains and receives reward",
+          "note": "The commentary says useful yield remains and receives its due; Paul says the work that survives the fire receives a reward, an explicit ethical form of that contrast."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.15",
+          "basis": "work burned, person saved",
+          "note": "The commentary contrasts the one who enters fire with the one who performs lasting good; Paul distinguishes burned work from the person saved through fire, complicating the image without equating the passages."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.10",
+          "basis": "rich person as flower",
+          "note": "The commentary says the world-life is also called a flower and does not last; James compares the rich person to a flower brought low, attaching that image to worldly status.",
+          "raw_ref": "SBLGNT:James.1.10",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.11",
+          "basis": "flower fades under heat",
+          "note": "The commentary's pasture dries and the world's flower passes; James describes the sun scorching the flower until it falls, making heat the specific cause of fading.",
+          "raw_ref": "SBLGNT:James.1.11",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.7",
+          "basis": "farmer awaits crop and rain",
+          "note": "The commentary says the cultivated field's yield grows and leaves a share; James pictures a farmer patiently waiting for the earth's precious crop through early and late rains, extending the agricultural image to expectation.",
+          "raw_ref": "SBLGNT:James.5.7",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.65.11",
+          "basis": "watered furrows and blessed growth",
+          "note": "The commentary pictures measured water carrying foam through valleys before useful growth remains; the psalm says God waters furrows and blesses the crop, a related but non-identical account of controlled water and yield."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.16",
+          "basis": "grass and passing wind",
+          "note": "The commentary makes the withering pasture an image for worldly life; the psalm compares human days to grass and says wind passes over it, a close mortality image without the commentary's two-field choice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.17",
+          "basis": "enduring mercy",
+          "note": "The commentary says the hereafter is better and more abiding than the world; the next psalm verse says the Lord's steadfast love lasts from everlasting to everlasting, supplying a divine permanence beside the grass image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.9.48",
+          "basis": "unquenched fire",
+          "note": "The commentary describes the person in the great fire as neither dying nor living; Mark's Gehenna saying depicts fire that is not quenched, a specific shared punishment image with a different emphasis."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.9.6",
+          "basis": "death sought but absent",
+          "note": "The commentary says the one in fire neither dies nor lives; Revelation depicts people seeking death without finding it, a close suspended-death image in a different apocalyptic scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.3.25",
+          "basis": "presence in the furnace",
+          "note": "The commentary contrasts punitive fire with the fire at which Moses receives guidance; Daniel's furnace contains a fourth figure beside the three condemned men, making divine presence visible within lethal fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.3.27",
+          "basis": "unburned in the fire",
+          "note": "The commentary distinguishes one who enters fire from Moses approaching it safely; Daniel's men emerge without bodily harm, a related reversal of fire's destructive action."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.6",
+          "basis": "words on the heart",
+          "note": "The commentary promises recitation without forgetting and then offers a reminder; Moses first says these words must be upon the heart, locating remembrance inwardly before the teaching practice in the next verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.10",
+          "basis": "seven-year reading cycle",
+          "note": "The commentary describes a reminder publicly offered and recited; Moses sets the law's public reading at the seven-year festival, giving the reading a recurring communal setting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.2",
+          "basis": "Moses' teaching falls as rain",
+          "note": "The commentary joins reminder and guidance to rain-fed pasture; in Moses' song, his teaching descends like rain and his speech like dew, bringing recited instruction and the section's water imagery together."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.46",
+          "basis": "Moses' words taken to heart",
+          "note": "The commentary moves from revealed speech to remembrance and admonition; Moses tells Israel to set their hearts on his words and teach them to their children, a direct continuation of the Mosaic reminder theme."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.47",
+          "basis": "the word is your life",
+          "note": "The commentary contrasts a transient worldly life with the better lasting life; Moses calls his words no empty matter but Israel's life, giving the life claim a Mosaic scriptural counterpart."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.10",
+          "basis": "rain yields seed and bread",
+          "note": "The commentary follows water into pasture and distinguishes refuse from useful yield; Isaiah says rain waters earth so it sprouts and provides seed and bread, an especially close image of water becoming useful produce."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.11",
+          "basis": "word does not return empty",
+          "note": "The commentary joins the rain's useful remainder to the offered reminder; Isaiah applies rain's productive return to God's word, which accomplishes its purpose rather than returning empty."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.17.6",
+          "basis": "shrub in the dry desert",
+          "note": "The commentary contrasts untended growth that dries with cultivated yield; Jeremiah depicts the one who trusts in human strength as a desert shrub that does not see good, giving barrenness an ethical cause."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.17.8",
+          "basis": "tree by water keeps yielding",
+          "note": "The commentary says the cultivated field grows and leaves a lasting share; Jeremiah's water-side tree does not cease yielding fruit even in drought, making trust the basis of endurance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.92.8",
+          "basis": "wicked flourish like grass",
+          "note": "The commentary says the preferred worldly life is the withering pasture; the psalm says the wicked sprout like grass only to be destroyed, while the righteous are later pictured as flourishing trees."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.92.14",
+          "basis": "righteous planted in God's house",
+          "note": "The commentary opposes drying pasture to the cultivated field that keeps producing; the psalm pictures the righteous planted in God's courts, grounding the contrasting growth in worship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.92.15",
+          "basis": "fruit in old age",
+          "note": "The commentary says lasting good grows and leaves a remainder; the psalm says the righteous still bear fruit in old age, a pointed image of yield that persists beyond ordinary seasons."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.14.2",
+          "basis": "life as a fading flower",
+          "note": "The commentary says worldly life is also pictured as a flower and does not last; Job says a human comes forth like a flower and withers, a direct human-life use of that image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.10.12",
+          "basis": "breaking fallow ground",
+          "note": "The commentary interprets success through a farmer's work, with a cultivated field yielding lasting good; Hosea commands sowing righteousness, reaping steadfast love, and breaking fallow ground until God sends righteousness like rain."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.2",
+          "basis": "two outcomes after awakening",
+          "note": "The commentary divides people between fire and purification and contrasts their ultimate fates; Daniel says sleepers in the dust awaken to everlasting life or shame, a specific scriptural division after death."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 3:4",
+          "basis": "hope of immortality",
+          "note": "The commentary calls the hereafter better and more abiding than worldly life; Wisdom says the righteous dead are at peace and have hope full of immortality, giving that endurance a Jewish wisdom formulation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 4:16",
+          "basis": "this world as a vestibule",
+          "note": "The commentary says people prefer present worldly life despite the better hereafter; the Mishnah likens this world to a vestibule before the world to come and urges preparation, turning preference into a practical orientation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 4:17",
+          "basis": "good deeds now, bliss hereafter",
+          "note": "The commentary joins cultivated good work to lasting reward and says the hereafter is better than this life; Avot compares one hour of repentance and good deeds here with the world to come, and one hour of its bliss with all this life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.30",
+          "basis": "Moses sees the bush in flame",
+          "note": "The commentary makes the distant fire the place of Moses' encounter; Stephen retells the bush appearing to Moses in a flame, preserving that same scene in Christian memory."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.34",
+          "basis": "God sends Moses to rescue",
+          "note": "The commentary joins the fire to selection and a new path; Stephen's retelling has God send Moses to bring Israel out, spelling out the rescue mission that follows the fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.24",
+          "basis": "hearing and doing the words",
+          "note": "The commentary says the reminder divides people by their response; Jesus compares the one who hears and does his words to a builder, tying reception of instruction to the outcome of a house."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.25",
+          "basis": "flood cannot move the house",
+          "note": "The commentary's flood carries off refuse while useful matter remains; the house built on rock stands through rain, flood, and wind, a close counter-image of what endures the waters."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.26",
+          "basis": "hearing without doing",
+          "note": "The commentary distinguishes those who remember from those who avoid the reminder; Jesus contrasts the hearer who does not act with the wise builder, specifying failure to act as the decisive difference."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.27",
+          "basis": "flood exposes the failed foundation",
+          "note": "The commentary's flood removes what cannot last; Jesus' flood causes the ungrounded house to collapse, dramatizing the consequence of rejecting the words heard."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.11",
+          "basis": "word as seed",
+          "note": "The commentary moves from recited revelation to pasture and a field of outcomes; Jesus identifies the seed as God's word, joining the reminder and agricultural imagery in one interpretation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.15",
+          "basis": "hearing, holding fast, bearing fruit",
+          "note": "The commentary divides hearers and describes cultivated land yielding a lasting share; Jesus says the good soil hears the word, holds it fast, and bears fruit with endurance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.15.5",
+          "basis": "abiding produces fruit",
+          "note": "The commentary says good work grows from a cultivated field and leaves a remainder; Jesus says those who abide in him bear much fruit, making lasting yield depend on remaining in him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.15.6",
+          "basis": "fruitless branches wither and burn",
+          "note": "The commentary links dried growth to loss and fire to two outcomes; Jesus describes an unfruitful branch drying up and being thrown into the fire, a specific but differently framed plant-and-fire image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.15.7",
+          "basis": "words abiding",
+          "note": "The commentary links the remembered word with lasting good; Jesus says his words abide in disciples who abide in him, joining remembered instruction to the fruit-bearing image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.42",
+          "basis": "perishable sown, imperishable raised",
+          "note": "The commentary links the body's formation to pasture and contrasts the transient with the lasting; Paul uses sowing to describe a perishable body raised imperishable, making the agricultural image explicitly bodily and eschatological."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.44",
+          "basis": "natural and spiritual body",
+          "note": "The commentary joins embodied formation to the hereafter's lasting life; Paul distinguishes the natural body from the spiritual body in the resurrection, extending that body-and-future connection."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.18",
+          "basis": "seen temporary, unseen eternal",
+          "note": "The commentary says worldly life is preferred though the hereafter is better and more abiding; Paul explicitly contrasts visible things that are temporary with unseen things that are eternal."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.46",
+          "basis": "eternal punishment and eternal life",
+          "note": "The commentary sets the one in fire against the one purified and praying; Jesus' judgment scene ends with two groups sent to eternal punishment or eternal life, a direct afterlife counterpart to the divided fates."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.26",
+          "basis": "Moses chooses future reward",
+          "note": "The commentary uses the magicians' rejection of Pharaoh's temporary authority and the preference for what lasts; Hebrews says Moses chose reproach over Egypt's treasures because he looked to the reward, applying that choice to Moses himself."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jude.1.13",
+          "basis": "sea waves cast up foam",
+          "note": "The commentary compares flood foam with the refuse of vegetation and contrasts it with useful remainder; Jude calls false teachers wild sea waves foaming up their shame, giving foam a specific image of worthless discharge."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.7",
+          "basis": "grass withers by evening",
+          "note": "The commentary treats withering pasture as the passing worldly life; the psalm says grass flourishes in the morning and fades by evening, an explicit human-time image without the commentary's later-life contrast."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.3",
+          "basis": "wicked like grass",
+          "note": "The commentary says worldly life is a pasture that withers and is swept away; the psalm tells the faithful not to fret because evildoers quickly fade like grass, directly applying the plant image to moral outcomes."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.38",
+          "basis": "peaceful endures",
+          "note": "The commentary contrasts the short-lived world with the abiding hereafter; the psalm asks the reader to mark the blameless person because his future is peace, a related lasting outcome in an ethical contrast."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.18",
+          "basis": "present suffering against future glory",
+          "note": "The commentary contrasts the painful fire of one fate with the better enduring hereafter; Paul says present sufferings are not comparable to the glory to be revealed, giving a Christian formulation of present and future value."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.23",
+          "basis": "imperishable seed and living word",
+          "note": "The commentary joins remembered revelation to the field's lasting yield; Peter says new birth comes through imperishable seed, the living and abiding word, connecting word and agriculture."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 1.1",
+          "basis": "two ways, life and death",
+          "note": "The commentary divides hearers between a destructive fate and purification with prayer; the Didache opens by distinguishing a way of life from a way of death, giving an early Christian ethical frame for the divided response."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, City of God 21.26",
+          "basis": "Paul's fire as postmortem purification",
+          "note": "The commentary distinguishes fire that guides or corrects from fire endured as punishment; Augustine discusses the fire that tests works in 1 Corinthians 3 as a possible temporal purification after death, a Christian interpretation that makes the fire's function contested."
+        }
+      }
+    ],
+    "proposal_file": "followup.accepted.tsv",
+    "proposal_sha256": "749dc6725db2e7ad754241cb1158e9b0419a813484c34a08e8797b8cd152cfec",
+    "followup_sha256": "f4aeb0fcac78b22c33dfb259f3b27af79ad1eb572e992c25b4c15cfdcc9f7d67",
+    "initial_file": "turn1.accepted.tsv",
+    "initial_sha256": "3cf402e72d4b47b4b64b33f81b4215852b54ad1f86e0af814dc11c77258be1fe",
+    "raw_initial_sha256": "5fdcf06baf3b8f5206973d1bc268d561254eeff05a8587450f61dcca63577d80"
+  },
+  "consolidation_error": null,
+  "list_sha256": "01edbdd1f74ea344cb99171fa9dd9906d35fa8f531dc2f934da4919d6b3c0164",
+  "followup_delivery": [
+    {
+      "call_id": "call_4013eab891a14699ac5818cf28d408d9",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 556429,
+    "cached_input_tokens": 502272,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31131,
+    "reasoning_output_tokens": 22393,
+    "total_tokens": 587560
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T19:10:45.390Z",
+  "artifacts": {
+    "started.json": "e1d087f9d36329a7916fde28ebd8b8b79d78b288c809c594fae52b78a0c4ff69",
+    "input.json": "a60706f844f62710d73784b63c2474818c4eea3bddf7df508d8eabcf20e118f4",
+    "prompt.md": "98a0baaa00ef1c4f893061d6abc83f67a29c13bac2ae3ce113c77e1177da0016",
+    "package.md": "55a6a8ffc99b98d825f7575bd0519a3a6a80600d62d11a069be5e9796c31aa88",
+    "spawn.md": "9f00efa8ebe6f9343d9f6a3dd404e8e62c835547371b3d6610bcda0e4798d967",
+    "followup.txt": "aabbcac2fcb37d00c879d36ab2a8207085430ccbcd178a1ca4a0aa446ea55448",
+    "turn1.json": "4aad0fadc2dce0866c5fe06d7a5b98d980bc24d57a1e7a6d9f07c13289c84b88",
+    "turn1.list.tsv": "5fdcf06baf3b8f5206973d1bc268d561254eeff05a8587450f61dcca63577d80",
+    "followup.tsv": "f4aeb0fcac78b22c33dfb259f3b27af79ad1eb572e992c25b4c15cfdcc9f7d67",
+    "list.tsv": "01edbdd1f74ea344cb99171fa9dd9906d35fa8f531dc2f934da4919d6b3c0164",
+    "consolidation.json": "0e40cca93afcccc5b8e4feb7b84bf2ef6aa5e621813f18794cf3e5d991eba460",
+    "validation.json": "2d1f64e4109933181adc3a06dde991a478259d5f58abc493320ee836635b28b5",
+    "proposal_validation.json": "4d827604adff0a9bd900a4fdf9fafb9454151d0553785ae4f5fb9c2d9b73c4ae",
+    "tool_calls.json": "4498357b71dd48f2bcff34434e47822cc1d0f77cd0f861d883d8e36307fbb440",
+    "session.json": "d49c196fdc666231c605339cea4de9ecc557127a15c4a68cfa083da13429869e",
+    "session.events.jsonl": "4bbc2a0a0214da64c91dae46dab2baad6a535d650196d3ce8d878b4dfcac119a",
+    "run.failed.log.json": "9b4a8dbc1831b43cb4076c5d4b49b7c373189c8a066bdfbb488266e467f00642",
+    "validation.failed.json": "3605d4cd8bdbd6e00665cedbf50f656863822c726872c45dfbddd0dca3b07863",
+    "repair.proposed.json": "3d50437f2f8650b43ee5c80f11eea674673cda3add03e7f452141d4a50b5cd2e",
+    "followup.repair.proposed.tsv": "749dc6725db2e7ad754241cb1158e9b0419a813484c34a08e8797b8cd152cfec",
+    "followup.accepted.tsv": "749dc6725db2e7ad754241cb1158e9b0419a813484c34a08e8797b8cd152cfec",
+    "repair.accepted.json": "40ac2a42db53d9c60100e52c1e1ba5262a1687a45330d58861047345ca569308",
+    "turn1.original.tsv": "5fdcf06baf3b8f5206973d1bc268d561254eeff05a8587450f61dcca63577d80",
+    "turn1.validation.failed.json": "3605d4cd8bdbd6e00665cedbf50f656863822c726872c45dfbddd0dca3b07863",
+    "turn1.tool_calls.json": "b28d01050f7ce2c09ad838190d3b846920a2972f35aa550b7b16bc52aaef86e1",
+    "turn1.repair.proposed.json": "c157c7f1e0b1b431e6dc59394784ca4399f5413d1a955f05a1ba330d6fb150a9",
+    "turn1.repair.proposed.tsv": "3cf402e72d4b47b4b64b33f81b4215852b54ad1f86e0af814dc11c77258be1fe",
+    "turn1.accepted.tsv": "3cf402e72d4b47b4b64b33f81b4215852b54ad1f86e0af814dc11c77258be1fe",
+    "turn1.repair.accepted.json": "dec4349dd419c253609c47c43af1d180d465f0b6ddb3be0a77cd90efafe18298"
+  },
+  "first_turn_repair": {
+    "policy": "bible-first-turn-repair-v1",
+    "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+    "tool_audit_reviewed": true,
+    "accepted_at": "2026-10-05T19:04:52.893468+00:00",
+    "changes": [
+      {
+        "line": 20,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Deut.29.29",
+          "hidden and revealed",
+          "The commentary says God knows what is open and hidden and places a nearly hidden event in Moses' scene; Moses distinguishes secret things belonging to God from revealed things given to Israel, marking a related boundary without equating the subjects."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Deut.29.28",
+          "hidden and revealed",
+          "The commentary says God knows what is open and hidden and places a nearly hidden event in Moses' scene; Moses distinguishes secret things belonging to God from revealed things given to Israel, marking a related boundary without equating the subjects."
+        ],
+        "reason": "The hidden/revealed distinction is WLC Deuteronomy 29:28, corresponding to English 29:29."
+      }
+    ],
+    "model_calls": 0,
+    "artifacts": {
+      "turn1.original.tsv": "5fdcf06baf3b8f5206973d1bc268d561254eeff05a8587450f61dcca63577d80",
+      "turn1.validation.failed.json": "3605d4cd8bdbd6e00665cedbf50f656863822c726872c45dfbddd0dca3b07863",
+      "turn1.tool_calls.json": "b28d01050f7ce2c09ad838190d3b846920a2972f35aa550b7b16bc52aaef86e1",
+      "turn1.repair.proposed.json": "c157c7f1e0b1b431e6dc59394784ca4399f5413d1a955f05a1ba330d6fb150a9",
+      "turn1.repair.proposed.tsv": "3cf402e72d4b47b4b64b33f81b4215852b54ad1f86e0af814dc11c77258be1fe",
+      "turn1.accepted.tsv": "3cf402e72d4b47b4b64b33f81b4215852b54ad1f86e0af814dc11c77258be1fe"
+    }
+  },
+  "repair": {
+    "approval": "User explicitly authorized the three pending fixes: \"what are those - fixes? if yes, do it\" on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave2.proposed.json; SHA256 43ec2b86e3c316ee5b32018d10399e2acf4840a53698ecc05ce7b3cb2f1de1c7",
+    "accepted_at": "2026-10-05T19:19:19.802359+00:00",
+    "changes": [
+      {
+        "line": 16,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Wis.3.4",
+          "hope of immortality",
+          "The commentary calls the hereafter better and more abiding than worldly life; Wisdom says the righteous dead are at peace and have hope full of immortality, giving that endurance a Jewish wisdom formulation."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "Wisdom of Solomon 3:4",
+          "hope of immortality",
+          "The commentary calls the hereafter better and more abiding than worldly life; Wisdom says the righteous dead are at peace and have hope full of immortality, giving that endurance a Jewish wisdom formulation."
+        ],
+        "reason": "Wisdom is not a WLC book; preserve the same named-work passage as an unverified secondary candidate."
+      }
+    ],
+    "raw_sha256": "f4aeb0fcac78b22c33dfb259f3b27af79ad1eb572e992c25b4c15cfdcc9f7d67",
+    "accepted_sha256": "749dc6725db2e7ad754241cb1158e9b0419a813484c34a08e8797b8cd152cfec",
+    "proposal_sha256": "3d50437f2f8650b43ee5c80f11eea674673cda3add03e7f452141d4a50b5cd2e",
+    "failed_log_sha256": "9b4a8dbc1831b43cb4076c5d4b49b7c373189c8a066bdfbb488266e467f00642",
+    "model_calls": 0,
+    "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+  }
+}

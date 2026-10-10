@@ -1,0 +1,262 @@
+# S87: ayah 87:3 with its augment9 commentary
+
+## Ayat (Arabic)
+
+87:3	وَٱلَّذِى قَدَّرَ فَهَدَىٰ
+
+## Words, roots and branches named by the frozen surah commentary
+
+These are source labels, not dictionary definitions or verified cross-language cognates.
+
+ayah	word	root	branch	image
+87:3	فَهَدَىٰ	ه د ي	B003	Sürü ve otlak: sahip, öncü, çoban
+87:3	قَدَّرَ	ق د ر	B005	Ölçüp biçmek: ok, tulum ve kura
+87:3	قَدَّرَ	ق د ر	B001	Ölçüp biçmek: ok, tulum ve kura
+87:3	فَهَدَىٰ	ه د ي	B003	Ölçüp biçmek: ok, tulum ve kura
+87:3	قَدَّرَ	ق د ر	B002	Rahimde toplanan, düzene konan beden
+87:3	فَهَدَىٰ	ه د ي	B001	Uzaktan görülen ateş
+87:3	فَهَدَىٰ	ه د ي	B001	Yol ve binek: önde giden, kolaylaşan, yana çekilen
+87:3	فَهَدَىٰ	ه د ي	B003	Yol ve binek: önde giden, kolaylaşan, yana çekilen
+87:3	فَهَدَىٰ	ه د ي	B008	Yol ve binek: önde giden, kolaylaşan, yana çekilen
+87:3	فَهَدَىٰ	ه د ي	B010	Yol ve binek: önde giden, kolaylaşan, yana çekilen
+87:3	فَهَدَىٰ	ه د ي	B003	Koşan dizi: önde, ardında, sonda
+
+## Frozen commentary (Turkish)
+
+## Üç "O ki" ve nesnesi olmayan iki fiil
+
+Sure Peygamber'e verilen bir emirle açılır: {ar:سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى, tr:sebbihi'sme rabbike'l-a'lâ, gloss:en yüce Rabbinin adını tesbih et, source:87:1}. Ardından bu Rabbi tanıtan üç cümle gelir ve her biri "O ki" diye başlar. İkinci ayet {ar:ٱلَّذِى خَلَقَ فَسَوَّىٰ, tr:elleẕî halaka fe-sevvâ, gloss:O ki yarattı ve düzene koydu, source:87:2} der. Dördüncü ayet {ar:وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ, tr:velleẕî ahrace'l-mer'â, gloss:O ki otlağı çıkardı, source:87:4} der. Ortadaki ayet üç kelimedir: {ar:وَٱلَّذِى قَدَّرَ فَهَدَىٰ, tr:velleẕî kaddera fe-hedâ, gloss:O ki ölçüyü koydu, ardından yol gösterdi, source:87:3}. Baştaki "ve" bu ayeti bir öncekinin devamı olarak değil, aynı Rabbin ayrı bir yüzü olarak getirir.
+
+<!-- v16:augment brief=augment9 model=opus para=1 kind=refs -->
+Ayrıca: {source:96:1} Rabbin adıyla verilen emrin hemen ardından gelen "O ki yarattı" tanıtımı; {source:82:7} insana "seni yaratıp düzene koyan" diye hitap eden aynı dizi
+
+İki fiilin de nesnesi yoktur. Arapça bu fiillerle genellikle neyin ölçüldüğünü ve kime yol gösterildiğini söyler. Burada söylemez. Bu bir eksiklik değil, bir genişliktir. İkinci ayette yaratılan neyse, burada ölçülen ve yol gösterilen de odur, yani her şey. Nesne ancak dördüncü ayette görünür ve o da otlaktır. Üç cümle böylece genelden somuta iner. Kur'an başka bir yerde bu sessizliği doldurur. Kendi yaratılışına nankörlük eden insana sorduğu soruda Allah önce {ar:مِن نُّطْفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ, tr:min nutfetin halakahû fe-kaddarah, gloss:onu bir damladan yarattı ve ölçüsünü koydu, source:80:19} der, sonra {ar:ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ, tr:ŝumme's-sebîle yesserah, gloss:sonra yolu ona kolaylaştırdı, source:80:20} diye ekler. Orada ölçülen insandır, gösterilen de yoldur. Bizim ayetimiz bu ikisini adlandırmadığı için hükmü her varlığa yayılır.
+
+<!-- v16:augment brief=augment9 model=opus para=2 kind=prose ref=25:2 -->
+Furkan suresi, göklerin ve yerin mülkü kendisine ait olan, çocuk edinmeyen ve mülkünde ortağı bulunmayanı anlatırken bu iki fiili nesneleriyle birlikte söyler: {ar:وَخَلَقَ كُلَّ شَىْءٍۢ فَقَدَّرَهُۥ تَقْدِيرًۭا, tr:ve halaka kulle şey'in fe-kaddarahû takdîrâ, gloss:her şeyi yarattı ve onu tam bir ölçüyle ölçtü, source:25:2}. Orada yaratılan da ölçülen de açıkça "her şey"dir. Ölçmeyi yaratmaya bağlayan yine "fe" bağlacıdır ve ölçme fiili kendi mastarıyla pekiştirilir.
+
+<!-- v16:augment brief=augment9 model=opus para=2 kind=refs -->
+Ayrıca: {source:54:49} ölçülenin "her şey" olduğunu söyleyen cümle; {source:20:50} hem yaratılışı hem de yol göstermeyi "her şey"e veren Musa'nın cevabı; {source:80:17} {source:80:18} ölçüsü konan insanın nankörlüğü ve neyden yaratıldığı sorusu
+
+İki fiil arasındaki "fe" bağlacı ince bir iş görür. İkinci olayın birincinin hemen ardından ve onun sonucu olarak geldiğini söyler. Ölçü koymakla yol göstermek arasında bir aralık yoktur. Yol, ölçünün devamıdır.
+
+<!-- v16:augment brief=augment9 model=opus para=3 kind=refs -->
+Ayrıca: {source:76:2} {source:76:3} damladan yaratılıp işiten ve gören kılınan insana hemen ardından yolun gösterilmesi; {source:90:8} {source:90:9} {source:90:10} gözlerin, dilin ve dudakların verilmesinin ardından iki yolun gösterilmesi; {source:54:50} her şeyin ölçüyle yaratıldığını söyleyen ayetin ardından Allah'ın işinin göz açıp kapayıncaya kadar tek bir iş olması
+
+Türkçe bu iki kökü iyi tanır, ama daralmış hâlleriyle. "Takdir" bugün çoğunlukla beğenmek demektir, "kader" ise alına yazılmış, değişmez bir yazgı gibi duyulur. "Hidayet" de birinin imana gelmesiyle sınırlanmıştır. Ayetteki fiiller bunlardan daha somut ve daha geniştir. قدّر önce bir insanın işidir. Bir şeyi hazırladığında Araplar {ar:قدرت الشيء أي هيأته, tr:kadartu'ş-şey'e ey heyye'tuh, gloss:onu ölçtüm, yani hazırladım, source:"ق د ر,B005"} der, bir şey birinin kullanımına hazır hâle geldiğinde de {ar:تقدر له الشيء أي تهيأ, tr:tekaddera lehu'ş-şey'u ey teheyye'e, gloss:o şey onun için hazır oldu, source:"ق د ر,B005"} derlerdi. Fiil bir işi nasıl düzleyip hazırlayacağını uzun uzun düşünmeyi de anlatır: {ar:التروية والتفكير في تسوية أمر وتهيئته, tr:et-terviyetu ve't-tefkîru fî tesviyeti emrin ve teh'iyetih, gloss:bir işi nasıl düzleyip hazırlayacağını düşünüp tartmak, source:"ق د ر,B005"}. Bu tanımdaki "düzlemek" kelimesi, ikinci ayetin "düzene koydu" fiiliyle aynı köktendir. İki kök bir değildir, ama Arapça birini anlatırken ötekine başvurur. Ölçmenin özü de miktarı açığa çıkarmaktır: {ar:القدر والتقدير تبيين كمية الشيء, tr:el-kadru ve't-takdîru tebyînu kemmiyyeti'ş-şey', gloss:ölçü ve ölçmek, bir şeyin ne kadar olduğunu ortaya koymaktır, source:"ق د ر,B001"}. Takdir burada beğenmek değil, biçmektir: bir şeyin ne kadar olacağını belirleyip onu işine hazırlamak.
+
+<!-- v16:augment brief=augment9 model=opus para=4 kind=refs -->
+Ayrıca: {source:41:10} yerin azıklarının isteyenler için ölçülüp yerine konması; {source:2:236} geniş imkânlı olanın da darda olanın da kendi gücünce verdiği miktar olarak "kader"
+
+Bu fiilin somut kullanımları ayetteki anlamın yerine geçmez. Onun yanında duyulur ve ona bir el ile bir malzeme kazandırır. En açık örnek demir örgüdür. Kur'an, Davud'a demirin yumuşatıldığını {source:34:10} ve ona bol zırhlar yapması, örgüde ölçüyü tutması emredildiğini anlatır {source:34:11}. Bu söz {ar:قدر في السرد أي أحكمه, tr:kaddir fi's-serdi ey ahkimhu, gloss:örgüde ölçüyü tut, yani onu sağlam kur, source:"ق د ر,B005"} diye açıklanır. Zırh birbirine geçirilmiş halkalardan örülür. Halkalar ve geçmeler birbirine uygun ölçüde olmazsa örgü ya açılır ya da tutmaz. Ölçü burada süs değil, nesnenin işini görebilmesinin şartıdır. Bir şey kendi ölçüsüne tam oturduğunda da {ar:جاء على قدره, tr:câe alâ kaderih, gloss:tam ölçüsünce geldi, source:"ق د ر,B006"} denir.
+
+<!-- v16:augment brief=augment9 model=opus para=5 kind=prose ref=20:40 -->
+Ölçüsünce gelmek bir insanın hayatı için de söylenir. Tâhâ suresinde Allah Musa'ya geçmişini sayar: kız kardeşi yürüyüp gelmiş ve onu kimin büyüteceğini göstermeyi önermiştir, Musa annesine geri döndürülmüştür, öldürdüğü bir candan sonra kederden kurtarılmış, sınanmış ve yıllarca Medyen halkının arasında kalmıştır. Sayım şu sözle biter: {ar:ثُمَّ جِئْتَ عَلَىٰ قَدَرٍۢ يَٰمُوسَىٰ, tr:ŝumme ci'te alâ kaderin yâ Mûsâ, gloss:sonra ey Musa, bir ölçü üzere geldin, source:20:40}. Bir şeyin kendi ölçüsüne tam oturmasını anlatan kalıp burada, uzun bir yolun ve geçen yılların sonunda bir peygamberin gelişini anlatır.
+
+<!-- v16:augment brief=augment9 model=opus para=5 kind=refs -->
+Ayrıca: {source:76:16} gümüş kadehlerin tam ölçüsünce biçilmesi
+
+## Ölçünün içindeki varış ve son
+
+Bir şeyin kaderi, o şeyin kendi olarak nereye kadar uzandığıdır: {ar:مبلغ الشيء وكنهه ونهايته, tr:mebleğu'ş-şey'i ve kunhuhû ve nihâyetuh, gloss:bir şeyin vardığı yer, özü ve sonu, source:"ق د ر,B001"}. Bu tanımda üç şey birlikte durur: varış, öz ve son. Ölçü yalnız boy ve hacim değildir, süreyi de içine alır: {ar:لكل شيء مقدار وأجل, tr:li-kulli şey'in mikdârun ve ecel, gloss:her şeyin bir miktarı ve bir vadesi vardır, source:"ق د ر,B001"}. Fiil Allah'a nispet edildiğinde de aynı yapı korunur: {ar:قضاء الله تعالى الأشياء على مبالغها ونهاياتها, tr:kadâu'llâhi teâlâ el-eşyâe alâ mebâliğihâ ve nihâyâtihâ, gloss:Allah'ın her şeyi varacağı yere ve sonuna göre hükme bağlaması, source:"ق د ر,B002"}. Kur'an bunu genel bir cümleyle de söyler: {ar:إِنَّا كُلَّ شَىْءٍ خَلَقْنَٰهُ بِقَدَرٍۢ, tr:innâ kulle şey'in halaknâhu bi-kader, gloss:biz her şeyi bir ölçüyle yarattık, source:54:49}. "Ölçüyü koydu" demek, her şeye nereye kadar varacağını ve nerede duracağını vermek demektir.
+
+<!-- v16:augment brief=augment9 model=opus para=6 kind=prose ref=77:22 -->
+Mürselât suresi ölçünün süreyi de içine aldığını insanın kendi başlangıcında gösterir. Allah insanı değersiz bir sudan yarattığını ve onu sağlam bir karar yerine koyduğunu hatırlatır {source:77:20} {source:77:21}. Bunun ne kadar süreceğini de şöyle söyler: {ar:إِلَىٰ قَدَرٍۢ مَّعْلُومٍۢ, tr:ilâ kaderin ma'lûm, gloss:bilinen bir ölçüye kadar, source:77:22}. Burada "kader" bir boy ya da hacim değildir. Bir varlığın bir yerde kalacağı sürenin sınırıdır.
+
+<!-- v16:augment brief=augment9 model=opus para=6 kind=refs -->
+Ayrıca: {source:13:8} O'nun katında her şeyin bir miktarı olması; {source:65:3} Allah'ın her şeye bir ölçü koyması; {source:25:2} her şeyi yaratıp ölçüsünü koyması; {source:33:38} Allah'ın emrinin belirlenmiş bir ölçü olması; {source:15:60} {source:27:57} Lut'un karısının geride kalanlar arasında olacağının takdir edilmesi, yani sonunun belirlenmesi; {source:54:12} tufanda suların önceden ölçülmüş bir iş üzere buluşması; {source:56:60} ölümün insanlar arasında takdir edilmesi; {source:80:21} {source:80:22} ölçüsü konan insanın ölüme, kabre ve dirilişe varması
+
+Sure bunu hemen gösterir. Dördüncü ayette otlak çıkar, beşinci ayette {ar:فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ, tr:fe-cealehû ğuŝâen ahvâ, gloss:sonra onu kararmış bir çer çöp yaptı, source:87:5} denir. Otlağın ölçüsünde yeşerdiği gün de vardır, kuruyup karardığı gün de. Ölçünün bir sonu olduğunu bilmek, bu iki ayeti bir çelişki olarak değil, tek bir ölçünün iki ucu olarak okutur. Kur'an aynı şeyi ay için de söyler. Allah ayı konaklara göre ölçmüştür, ay sonunda kuruyup kıvrılmış eski bir hurma salkımı sapı gibi geri döner {source:36:39}. Ölçülen her şey bir yerden geçer ve ölçüsünün ucuna varır. Otlağı besleyen yağmur için de {ar:ينزل المطر بمقدار, tr:yenzilu'l-matar bi-mikdâr, gloss:yağmur belli bir ölçüyle iner, source:"ق د ر,B001"} denirdi.
+
+<!-- v16:augment brief=augment9 model=opus para=7 kind=refs -->
+Ayrıca: {source:36:38} güneşin kendi karar yerine doğru akması ve bunun "takdir" diye anılması; {source:15:21} {source:15:22} hazinelerden ancak belli bir ölçüyle indirilen ve rüzgârlarla gelen yağmur; {source:23:18} gökten ölçüyle indirilip toprağa yerleştirilen su; {source:43:11} gökten ölçüyle inen suyun ölü toprağı diriltmesi; {source:30:54} zayıflıktan güce, güçten yeniden zayıflığa ve yaşlılığa varan insan; {source:16:70} {source:22:5} ömrün en düşkün çağına geri döndürülen insan
+
+Ölçü vermek sınır koymaktır, çünkü sınırı olmayan bir şeyin ölçüsü olmaz. Aynı fiil bir kalıpta açıkça daraltmak anlamına gelir: {ar:قدرت عليه الشيء ضيقته, tr:kadartu aleyhi'ş-şey'e dayyaktuh, gloss:o şeyi ona dar tuttum, source:"ق د ر,B004"}, {ar:ومن قدر عليه رزقه أي ضيق عليه, tr:ve men kudira aleyhi rizkuhû ey duyyika aleyh, gloss:rızkı ölçülen, yani rızkı daraltılan kimse, source:"ق د ر,B004"}. Kur'an insanın bu sınırı nasıl yanlış okuduğunu anlatır. Rabbi onu bollukla sınadığında insan "Rabbim beni ağırladı" der, rızkını ölçüp daralttığında ise "Rabbim beni küçük düşürdü" der {source:89:16}. Hemen ardından gelen ayet "Hayır!" diye başlar {source:89:17}. Üçüncü ayetin ışığında ölçü bir aşağılama değildir. Bir şey yola çıkarılmadan önce ona verilen biçimdir.
+
+<!-- v16:augment brief=augment9 model=opus para=8 kind=prose ref=65:7 -->
+"Rızkı daraltılan" kalıbı Talâk suresinde bir emrin içinde geçer: {ar:وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ, tr:ve men kudira aleyhi rizkuhû fe'l-yunfik mimmâ âtâhu'llâh, gloss:rızkı daraltılan da Allah'ın ona verdiğinden harcasın, source:65:7}. Aynı ayet Allah'ın hiç kimseye ona verdiğinden fazlasını yüklemediğini söyler ve {ar:سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍۢ يُسْرًۭا, tr:se-yec'alu'llâhu ba'de usrin yusrâ, gloss:Allah bir zorluğun ardından bir kolaylık verecektir, source:65:7} diye biter. Daraltılan rızık orada kişinin yükünün ölçüsü olur ve ardından bir kolaylık vaat edilir. Bu "kolaylık" kelimesi, sekizinci ayetteki "en kolay olan" ile aynı köktendir.
+
+<!-- v16:augment brief=augment9 model=opus para=8 kind=refs -->
+Ayrıca: {source:89:15} bollukla sınanınca "Rabbim beni ağırladı" diyen insan; {source:89:18} {source:89:19} "Hayır"ın ardından yoksulu doyurmaya teşvik etmeyen ve mirası yiyip bitiren insanın sayılması; {source:36:40} güneşin ayı yakalayamaması ve her birinin kendi yörüngesinde yüzmesi: ölçünün sınırı; {source:13:26} {source:17:30} {source:28:82} {source:29:62} {source:30:37} {source:34:36} {source:34:39} {source:39:52} {source:42:12} rızkı dilediğine genişleten ve daraltanın Allah olması
+
+## Önden giden: boyun, temren, değnek
+
+"Hidayet" kelimesinin somut kullanımlarında yol göstermek öne geçmektir. Araplar her şeyin ilk ve öndeki bölümüne {ar:الهادي من كل شيء أوله, tr:el-hâdî min kulli şey'in evveluh, gloss:her şeyin hâdîsi onun ilk bölümüdür, source:"ه د ي,B003"} derlerdi. Atlar için {ar:هوادي الخيل أعناقها أو أول رعيل, tr:hevâdi'l-hayli a'nâkuhâ ev evvelu ra'îl, gloss:atların hevâdîsi boyunları ya da ilk bölükleridir, source:"ه د ي,B003"} denirdi. Koşan bir atta önce boyun uzanır, baş hangi yana dönerse gövde oraya gider. Koyunun boynuna da {ar:هادية الشاة الرقبة, tr:hâdiyetu'ş-şâti'r-rakabe, gloss:koyunun hâdiyesi boynudur, source:"ه د ي,B003"} adı verilir. Okun demir ucu {ar:هادي السهم نصله, tr:hâdi's-sehmi nasluh, gloss:okun hâdîsi temrenidir, source:"ه د ي,B003"} diye anılır. Temren gövdenin önünden gider, hedefe ilk o değer ve gövdeyi ardından götürür. Değneğe de aynı ad verilir: {ar:الهادية العصا لأنها تتقدم ممسكها, tr:el-hâdiyetu'l-asâ li-ennehâ tetekaddemu mumsikehâ, gloss:değneğe hâdiye denir, çünkü tutanın önünden gider, source:"ه د ي,B003"}. Öne uzatılan değnek, yürüyenin ayağından önce yere ve engele değer. Kılavuz da bu yüzden aynı adı alır: {ar:الدليل يسمى هاديا لتقدمه, tr:ed-delîlu yusemmâ hâdiyen li-tekaddumih, gloss:kılavuza önden gittiği için hâdî denir, source:"ه د ي,B003"}.
+
+<!-- v16:augment brief=augment9 model=opus para=9 kind=refs -->
+Ayrıca: {source:13:7} her kavim için bir hâdînin, bir kılavuzun bulunması; {source:25:31} kılavuz ve yardımcı olarak Rabbin yetmesi; {source:21:73} {source:32:24} buyrukla yol gösteren önderler
+
+Yol göstermenin tanımı da bu resme uyar: {ar:التقدم للإرشاد, tr:et-tekaddumu li'l-irşâd, gloss:doğru yolu göstermek için öne geçmek, source:"ه د ي,B001"}. Bir başka ifadede de {ar:هديته الطريق والبيت هداية أي عرفته, tr:hedeytuhu't-tarîka ve'l-beyte hidâyeten ey arraftuh, gloss:ona yolu ve evi gösterdim, yani tanıttım, source:"ه د ي,B001"} denir. Hidayet uzaktan parmakla işaret etmek değildir. Önden gidip hem yolu hem de varılacak evi tanıtmaktır.
+
+<!-- v16:augment brief=augment9 model=opus para=10 kind=prose ref=10:35 -->
+Yunus suresinde Peygamber'e, ortak koşanlara ortaklarından hakka yol gösteren biri olup olmadığını sorması ve "Hakka Allah yol gösterir" demesi emredilir. Ardından iki kılavuz karşılaştırılır: {ar:أَفَمَن يَهْدِىٓ إِلَى ٱلْحَقِّ أَحَقُّ أَن يُتَّبَعَ أَمَّن لَّا يَهِدِّىٓ إِلَّآ أَن يُهْدَىٰ, tr:e-fe-men yehdî ile'l-hakkı ehakku en yuttebe'a em men lâ yehiddî illâ en yuhdâ, gloss:hakka yol gösteren mi ardından gidilmeye daha layıktır, yoksa kendisine yol gösterilmedikçe yolunu bulamayan mı?, source:10:35}. Yol gösteren, ardından gidilendir. Kendisi bir kılavuza muhtaç olan ise kimsenin önüne geçemez.
+
+<!-- v16:augment brief=augment9 model=opus para=10 kind=prose ref=47:5 -->
+Muhammed suresinde Allah yolunda öldürülenlerin amellerinin boşa çıkarılmayacağı söylenir {source:47:4}, ardından {ar:سَيَهْدِيهِمْ وَيُصْلِحُ بَالَهُمْ, tr:se-yehdîhim ve yuslihu bâlehum, gloss:onlara yol gösterecek ve hallerini düzeltecektir, source:47:5} denir. Yol bir eve varır: {ar:وَيُدْخِلُهُمُ ٱلْجَنَّةَ عَرَّفَهَا لَهُمْ, tr:ve yudhiluhumu'l-cennete arrafehâ lehum, gloss:ve onları kendilerine tanıttığı cennete koyacaktır, source:47:6}. Yol gösterme burada ölümden sonra söylenir ve varılacak yer, onlara tanıtılmış bir yurttur. "Tanıttı" fiili, yolu ve evi göstermeyi anlatan sözdeki "tanıttım" ile aynı köktendir.
+
+<!-- v16:augment brief=augment9 model=opus para=10 kind=refs -->
+Ayrıca: {source:19:43} {source:40:38} "Bana uyun, size yolu göstereyim" diyen önden gidenin ardından gidilmesi; {source:36:21} ardından gidilecek olanların kendilerinin de yolu tutmuş olması; {source:7:158} ümmî peygambere uyanların yolu bulması; {source:13:27} {source:42:13} O'na yönelenin O'na iletilmesi, yani yolun varacağı yerin Allah olması
+
+Bu resim ayetin sıralamasına yeni bir ışık tutar. Bir şey önce ölçülür, sonra ona bir ön, bir yön verilir. Yönü olmayan iş için Araplar {ar:ليس لهذا الأمر هدية ولا قبلة ولا دبرة ولا وجهة, tr:leyse li-hâẕe'l-emri hidyetun ve lâ kıbletun ve lâ dibratun ve lâ vichetun, gloss:bu işin ne yönü ne önü ne arkası ne de çevrildiği bir yüzü var, source:"ه د ي,B002"} derlerdi. Bir kimsenin tuttuğu yol ve gidiş de aynı kelimeyle söylenir: {ar:هدية فلان وهديه أي طريقته, tr:hidyetu fulânin ve hedyuhû ey tarîkatuh, gloss:falancanın hidyesi ve hedyi, onun tuttuğu yoldur, source:"ه د ي,B002"}. Ölçülüp de yolu gösterilmeyen bir şey, başı sonu belli olmayan bir iş gibi kalırdı. Ayet ölçüden hemen sonra yolu getirerek bunu önler. İkinci ayetin "yarattı" ve "düzene koydu" fiilleri ölçülüp doğrultulmuş bir oku hatırlatır, ve bu ayetin fiili o okun ucunu alıp hedefe dönmesi gibi duyulur. Yaban sürülerinin öncüleri için de {ar:هوادي الوحش متقدماتها الهادية لغيرها, tr:hevâdi'l-vahşi mutekaddimâtuhe'l-hâdiyetu li-ğayrihâ, gloss:yaban hayvanlarının hevâdîsi, ötekilere yol gösteren öndekileridir, source:"ه د ي,B003"} denir. Bu söz, birinci ayetteki Rab ile dördüncü ayetteki otlak arasına bir sürünün önünü yerleştirir.
+
+<!-- v16:augment brief=augment9 model=opus para=11 kind=prose ref=2:150 -->
+Bakara suresinde kıble anlatılırken yön ve hidayet aynı emirde buluşur. Peygamber'e nereden çıkarsa yüzünü Mescid-i Haram'a çevirmesi, müminlere de nerede olurlarsa yüzlerini o yana çevirmeleri emredilir ve emir {ar:وَلَعَلَّكُمْ تَهْتَدُونَ, tr:ve leallekum tehtedûn, gloss:ve yolu bulasınız diye, source:2:150} sözüyle biter. Aynı bölümde kıble kelimesi de geçer {source:2:144}, yön kelimesi de: {ar:وَلِكُلٍّۢ وِجْهَةٌ هُوَ مُوَلِّيهَا, tr:ve li-kullin vichetun huve muvellîhâ, gloss:herkesin yüzünü çevirdiği bir yönü vardır, source:2:148}. Yönü olmayan işi anlatan sözün iki kelimesi böylece, yüzü bir yöne çevirmeyi yolu bulmaya bağlayan bir emrin içinde yer alır.
+
+Kur'an değneği bir peygamberin elinde de gösterir. Musa ateşin başında seçildikten sonra Allah ona sağ elindekinin ne olduğunu sorar {source:20:17}. Musa bunun kendi değneği olduğunu, ona dayandığını, onunla koyunlarına yaprak silkelediğini ve onda başka işleri de bulunduğunu söyler {source:20:18}. O ayette hidayetin kökü geçmez. Buradaki bağ bir benzetmedir, kök birliği değildir. Yine de Arapçanın değneğe "önden giden" adını vermesi ile Musa'nın değneği hem dayanak hem sürüyü besleme aracı olarak anlatması aynı nesnenin iki yüzüdür.
+
+Kökün iki kullanımı daha hidayeti bir yürüyüş olarak duyurur. Güçsüz biri iki kişinin arasında onlara yaslanarak yürüdüğünde {ar:يهادي بين اثنين إذا كان يمشي بينهما معتمدا عليهما من ضعفه وتمايله, tr:yuhâdî beyne'sneyni iẕâ kâne yemşî beynehumâ mu'temiden aleyhimâ min da'fihî ve temâyulih, gloss:zayıflığından ve sendelemesinden iki kişinin arasında onlara dayanarak yürür, source:"ه د ي,B008"} denir. Telaşsız, sakin bir gidiş için de {ar:لم يسرع إسراع المنهزم ولكن على سكون وهدي حسن, tr:lem yusri' isrâa'l-munhezimi ve lâkin alâ sukûnin ve hedyin hasen, gloss:bozguna uğrayan gibi koşmadı, sakin ve güzel bir gidişle yürüdü, source:"ه د ي,B010"} söylenirdi. Bu kullanımlarda yol gösteren yalnızca önde değildir, yanında yürüyenle bir yürüyüşü de paylaşır. Sekizinci ayetin "kolaylaştıracağız" fiili ile on birinci ayetin "uzak durur" fiili bu yol resmini sürdürür.
+
+<!-- v16:augment brief=augment9 model=opus para=13 kind=prose ref=26:62 -->
+Şuarâ suresinde Musa yolun en sıkışık anında aynı fiili söyler. Firavun'un adamları gün doğarken arkalarından gelmiştir {source:26:60}. İki topluluk birbirini görünce Musa'nın yanındakiler {ar:إِنَّا لَمُدْرَكُونَ, tr:innâ le-mudrekûn, gloss:yakalandık, source:26:61} der. Musa'nın cevabı şudur: {ar:كَلَّآ ۖ إِنَّ مَعِىَ رَبِّى سَيَهْدِينِ, tr:kellâ inne maiye rabbî se-yehdîn, gloss:hayır, Rabbim benimledir, bana yol gösterecek, source:26:62}. Yol gösteren burada yolcunun yanındadır. Hemen ardından Musa'ya değneğiyle denize vurması vahyedilir ve deniz yarılır {source:26:63}.
+
+<!-- v16:augment brief=augment9 model=opus para=13 kind=refs -->
+Ayrıca: {source:20:46} Firavun'a giden Musa ile kardeşine "Ben sizinleyim, işitirim ve görürüm" denmesi; {source:29:69} Allah uğrunda çabalayanlara yolların gösterilmesi ve Allah'ın iyilik yapanlarla beraber olması; {source:25:63} Rahman'ın kullarının yeryüzünde vakarla yürümesi; {source:31:19} yürüyüşte ölçülü olma öğüdü
+
+## Armağan, gelin, kurbanlık: varılacak yere ulaştırmak
+
+Türkçedeki "hediye" ile "hidayet" aynı Arapça kökten gelir. Armağan için {ar:الهدية ما أهديت إلى ذي مودة من بر, tr:el-hediyyetu mâ ehdeyte ilâ ẕî meveddetin min birr, gloss:hediye, sevgi beslediğin birine iyilik olarak gönderdiğin şeydir, source:"ه د ي,B004"} denir. Hediyeyi hidayete bağlayan bir incelik vardır. Yol göstermek için {ar:الهداية دلالة بلطف, tr:el-hidâyetu delâletun bi-lutf, gloss:hidayet incelikle yol göstermektir, source:"ه د ي,B001"} denir, armağan için de {ar:الهدية مختصة باللطف, tr:el-hediyyetu muhtassatun bi'l-lutf, gloss:hediye inceliğe özgüdür, source:"ه د ي,B004"}. İkisi de karşıdakini zorlamadan, onun gönlünü gözeterek ona bir şey ulaştırır.
+
+<!-- v16:augment brief=augment9 model=opus para=14 kind=prose ref=20:44 -->
+Tâhâ suresinde Musa ile kardeşi, azan Firavun'a gönderilir {source:20:43} ve onlara nasıl konuşacakları da söylenir: {ar:فَقُولَا لَهُۥ قَوْلًۭا لَّيِّنًۭا لَّعَلَّهُۥ يَتَذَكَّرُ أَوْ يَخْشَىٰ, tr:fe-kûlâ lehû kavlen leyyinen leallehû yeteẕekkeru ev yahşâ, gloss:ona yumuşak bir söz söyleyin; belki öğüt alır ya da korkar, source:20:44}. Azgın birine bile yol yumuşak bir sözle gösterilir. O sözden umulan iki şey, öğüt almak ve korkmak, onuncu ayette öğüt alacağı söylenen kişinin iki fiilidir {source:87:10}.
+
+<!-- v16:augment brief=augment9 model=opus para=14 kind=refs -->
+Ayrıca: {source:16:125} Rabbin yoluna hikmetle ve güzel öğütle çağırmak
+
+Aynı fiil iki somut ulaştırmayı daha adlandırır. Gelini eşinin evine götürmek {ar:هديت العروس إلى زوجها, tr:hedeytu'l-arûse ilâ zevcihâ, gloss:gelini eşine götürdüm, source:"ه د ي,B006"} diye söylenirdi. Kutsal bölgeye gönderilen hayvana da {ar:الهدي ما يهدى إلى الحرم من النعم, tr:el-hedyu mâ yuhdâ ile'l-harami mine'n-ne'am, gloss:hedy, harem bölgesine gönderilen hayvandır, source:"ه د ي,B005"} denir. Bu hayvanın yolculuğu {ar:حتى يبلغ الهدى محله, tr:hattâ yebluğa'l-hedyu mahilleh, gloss:kurbanlık varacağı yere ulaşıncaya kadar, source:"ه د ي,B005"} ve {ar:هديا بالغ الكعبة, tr:hedyen bâliğa'l-Ka'be, gloss:Kâbe'ye ulaşan bir kurbanlık, source:"ه د ي,B005"} diye anlatılır. Her üç kullanımda da bir şey, varması gereken yere götürülür.
+
+<!-- v16:augment brief=augment9 model=opus para=15 kind=refs -->
+Ayrıca: {source:2:196} kurbanlığın varacağı yere ulaşıncaya kadar beklenmesi; {source:5:95} Kâbe'ye ulaşacak bir kurbanlık; {source:48:25} varacağı yere ulaşması engellenen kurbanlık
+
+Burada ayetin iki fiili birbirine kilitlenir. Ölçünün tanımında {ar:مبلغ الشيء, tr:mebleğu'ş-şey', gloss:bir şeyin vardığı yer, source:"ق د ر,B001"} vardı. Kurbanlığın yolculuğu da "ulaşıncaya kadar" diye anlatılır. İki ifade aynı "ulaşmak" fiilinden türemiştir. Bu, iki kökün aynı olduğunu göstermez. Yalnızca iki fiili tanımlayan sözlerin aynı noktada buluştuğunu gösterir. Ayetin sırası bu buluşmayı kendiliğinden kurar. Ölçmek, bir şeyin nereye kadar varacağını belirlemektir. Yol göstermek ise onu oraya götürmektir. Biri hedefi koyar, öteki o hedefe ulaştırır.
+
+<!-- v16:augment brief=augment9 model=opus para=16 kind=refs -->
+Ayrıca: {source:22:33} kurbanlığın varacağı yerin Eski Ev olması; {source:53:42} son varışın Rabbe olması
+
+## Ölçülen şey yol gösterir: gök, yer ve arı
+
+Kur'an bu iki fiili gökte yan yana kullanır. Allah'ı tanıtan bir bölümde önce O'nun tohumu ve çekirdeği yardığı söylenir {source:6:95}. Ardından sabahı yardığı, geceyi dinlenme zamanı, güneşle ayı da hesap ölçüsü yaptığı anlatılır ve "Bu, aziz ve her şeyi bilen olanın takdiridir" denir {source:6:96}. Hemen sonraki ayette yıldızları, kara ile denizin karanlıklarında onlarla yolunuzu bulasınız diye sizin için kıldığı söylenir {source:6:97}. Ölçülen gök cisimleri yolcuya kılavuz olur. Bizim ayetimizde ölçüyle yol göstermek iki ayrı iştir. Orada ölçülen şeyin kendisi başkasına yolu gösterir.
+
+<!-- v16:augment brief=augment9 model=opus para=17 kind=prose ref=6:77 -->
+En'âm suresinde, bu ayetlerden önce İbrahim'in gök cisimlerine bakışı anlatılır. Gece çökünce bir yıldız görür, yıldız batınca "Batanları sevmem" der {source:6:76}. Ayı doğarken görür, o da batınca {ar:لَئِن لَّمْ يَهْدِنِى رَبِّى لَأَكُونَنَّ مِنَ ٱلْقَوْمِ ٱلضَّآلِّينَ, tr:le-in lem yehdinî rabbî le-ekûnenne mine'l-kavmi'd-dâllîn, gloss:Rabbim bana yol göstermezse elbette yolunu şaşıranlardan olurum, source:6:77} der. Güneş de batınca yüzünü gökleri ve yeri yaratana çevirir {source:6:78} {source:6:79}. Yolcuya yol gösteren yıldız, ay ve güneşin her biri batar. İbrahim yol göstermeyi onlardan değil, Rabbinden ister.
+
+<!-- v16:augment brief=augment9 model=opus para=17 kind=refs -->
+Ayrıca: {source:16:16} yolcuların yıldızla yollarını bulması; {source:27:63} kara ve denizin karanlıklarında yol gösterenin Allah olması; {source:6:98} {source:6:99} aynı tanıtımın, insanın yaratılışıyla ve gökten inen suyla çıkarılan yeşillikle devam etmesi; {source:36:38} {source:41:12} "Bu, aziz ve her şeyi bilen olanın takdiridir" sözünün güneş ve gökler için de söylenmesi; {source:10:5} ayın konaklara göre ölçülmesi ki yılların sayısı ve hesap bilinsin
+
+Başka bir yerde Kur'an, müşriklerin bile göğü ve yeri aziz ve her şeyi bilen olanın yarattığını söyleyeceklerini bildirir {source:43:9}. Sonra bu Rabbi, bizim suremizdekine çok benzeyen bir "O ki" dizisiyle anlatır. Yeri size beşik yapan ve yolunuzu bulasınız diye onda size yollar açan O'dur {source:43:10}. Gökten belli bir ölçüyle su indirip onunla ölü bir toprağı dirilten O'dur {source:43:11}. Bütün çiftleri yaratan da O'dur {source:43:12}. Yol bulmak, ölçüyle inen su ve yeşeren toprak orada da art arda gelir. Bizim surede de ölçüyü koyup yol gösterenin hemen ardından otlağı çıkaran gelir. Yolculukta ölçü bir yolun uzunluğu olarak da duyulur. İki yurt arasındaki mesafe için {ar:بين أرضك وأرض فلان ليلة قادرة, tr:beyne arzike ve arzi fulânin leyletun kâdira, gloss:senin toprağınla falancanınki arasında yol alması kolay bir gecelik mesafe var, source:"ق د ر,B006"} denirdi. Bu sözde ölçülü olan yol, yolcuya kolay da gelir.
+
+<!-- v16:augment brief=augment9 model=opus para=18 kind=prose ref=34:18 -->
+Sebe suresinde ölçme fiili yolculuğun kendisine verilir. Allah, Sebe halkı ile bereket verdiği kasabalar arasına birbirinden görünen kasabalar koyduğunu söyler ve devam eder: {ar:وَقَدَّرْنَا فِيهَا ٱلسَّيْرَ ۖ سِيرُوا۟ فِيهَا لَيَالِىَ وَأَيَّامًا ءَامِنِينَ, tr:ve kaddernâ fîhe's-seyr, sîrû fîhâ leyâliye ve eyyâmen âminîn, gloss:oralarda yolculuğu ölçüyle düzenledik; oralarda gecelerce ve günlerce güven içinde yürüyün, source:34:18}. Kasabalar arasındaki yürüyüş ölçülmüştür ve bu ölçünün ardından gelen söz, o yolda güven içinde yürüme emridir.
+
+<!-- v16:augment brief=augment9 model=opus para=18 kind=refs -->
+Ayrıca: {source:29:61} {source:31:25} {source:39:38} gökleri ve yeri kimin yarattığı sorulunca "Allah" diyecekleri; {source:10:31} rızkı, işitmeyi, görmeyi ve işleri kimin düzenlediği sorulunca "Allah" diyecekleri; {source:16:15} {source:21:31} yolunuzu bulasınız diye yeryüzünde açılan yollar; {source:51:49} her şeyden çiftler yaratılması; {source:43:13} {source:43:14} aynı "O ki" dizisinin binekler üzerinde söylenen tesbihle ve Rabbe dönüşle bitmesi
+
+Ayetin fiillerinin nesnesi olmadığı için hüküm insanın ötesine geçer. Kur'an bir hayvanın yolunu da anlatır. Rabbin arıya, dağlardan, ağaçlardan ve insanların kurdukları çardaklardan kendine evler edinmesini vahyetmiştir {source:16:68}. Ardından ona her türlü meyveden yemesini ve Rabbinin kendisi için boyun eğdirilmiş yollarına girmesini söylemiştir. Arının karnından da renkleri türlü türlü bir içecek çıkar {source:16:69}. Bu ayetlerde hidayetin kökü geçmez, ama anlatılan iş aynıdır. Yaratılışı ölçülmüş bir varlığa, o ölçüye uygun bir yol gösterilir. Arı kendi yoluna girer ve meyveden bal çıkarır. Ölçü ile yol, onun yararlı olmasının iki şartıdır.
+
+<!-- v16:augment brief=augment9 model=opus para=19 kind=refs -->
+Ayrıca: {source:20:50} her şeye yaratılışını verip yol göstermesi; {source:24:45} her canlının sudan yaratılıp kendi yürüyüşüyle yürümesi; {source:24:41} göklerde ve yerde olanların, kanat açmış kuşların her birinin kendi namazını ve tesbihini bilmesi; {source:41:12} her göğe kendi işinin vahyedilmesi; {source:67:15} insana da boyun eğdirilmiş yerin sırtlarında yürümesinin ve O'nun rızkından yemesinin söylenmesi
+
+## Musa'nın cevabı, İbrahim'in sözü
+
+Surenin son ayeti, burada söylenenlerin {ar:صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ, tr:suhufi İbrâhîme ve Mûsâ, gloss:İbrahim'in ve Musa'nın sayfaları, source:87:19} içinde de bulunduğunu bildirir. Kur'an o sayfaların metnini vermez. Ama başka yerlerde, bu iki peygamberin ağzından üçüncü ayete çok yakın sözler aktarır.
+
+Firavun, Musa ile kardeşine "Sizin Rabbiniz kim, ey Musa?" diye sorar {source:20:49}. Musa şöyle cevap verir: Rabbimiz, her şeye yaratılışını veren ve sonra yol gösterendir. Bu cevabın son fiili, bizim ayetimizin fiilinin kendisidir {source:20:50}. Firavun önceki nesillerin ne olduğunu sorunca Musa, onların bilgisinin Rabbinin katında bir yazıda olduğunu söyler ve "Rabbim ne şaşırır ne de unutur" der {source:20:52}. Bu sözdeki "şaşırmak" yol göstermenin karşıtıdır. "Unutmak" ise altıncı ayette Peygamber'e verilen {ar:سَنُقْرِئُكَ فَلَا تَنسَىٰٓ, tr:se-nukriuke fe-lâ tensâ, gloss:sana okutacağız, sen de unutmayacaksın, source:87:6} sözünün fiilidir. Musa ardından yeri beşik yapan, onda yollar açan ve gökten su indirip türlü bitkiler çıkaran Rabbi anlatır {source:20:53}. Sözünü {ar:كُلُوا۟ وَٱرْعَوْا۟ أَنْعَٰمَكُمْ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّأُو۟لِى ٱلنُّهَىٰ, tr:kulû ver'av en'âmekum inne fî ẕâlike le-âyâtin li-uli'n-nuhâ, gloss:yiyin ve hayvanlarınızı otlatın; bunda akıl sahipleri için işaretler vardır, source:20:54} diye bağlar. Musa'nın tek cevabı surenin ikinci ayetinden altıncı ayetine kadar olan sırayı izler: yaratılış, yol gösterme, yollar, su ve otlak, unutmama.
+
+<!-- v16:augment brief=augment9 model=opus para=21 kind=prose ref=79:19 -->
+Nâziât suresi aynı karşılaşmanın başını anlatır. Rabbi Musa'ya kutsal Tuvâ vadisinde seslenir {source:79:16} ve onu azan Firavun'a gönderir {source:79:17}. Musa'nın söyleyeceği söz de bildirilir: {ar:فَقُلْ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ, tr:fe-kul hel leke ilâ en tezekkâ, gloss:de ki: arınmaya niyetin var mı?, source:79:18} {ar:وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ, tr:ve ehdiyeke ilâ rabbike fe-tahşâ, gloss:seni Rabbine ileteyim de korkasın, source:79:19}. Rabbin yol göstermesini Firavun'a anlatacak olan Musa, önce kendisi Firavun'un önüne düşen bir kılavuz olarak gönderilir. Teklif edilen iki şey bu surede de bulunur: arınmak, on dördüncü ayette kurtuluşa erenin işidir {source:87:14}, korkmak da onuncu ayette öğüt alanın işidir {source:87:10}. Firavun ise en büyük işareti gördükten sonra yalanlar ve karşı gelir {source:79:20} {source:79:21}.
+
+<!-- v16:augment brief=augment9 model=opus para=21 kind=refs -->
+Ayrıca: {source:20:51} önceki nesillerin hâlini soran Firavun; {source:20:55} aynı sözün topraktan yaratılışla, toprağa dönüşle ve yeniden çıkarılışla sürmesi; {source:26:23} {source:26:24} "Âlemlerin Rabbi nedir?" sorusuna göklerin ve yerin Rabbiyle verilen cevap
+
+Aynı Musa, Firavun'un karşısına çıkmadan önce yolunu kaybetmiş bir yolcudur. Gece ailesiyle giderken uzakta bir ateş görür ve {ar:ٱمْكُثُوٓا۟ إِنِّىٓ ءَانَسْتُ نَارًۭا لَّعَلِّىٓ ءَاتِيكُم مِّنْهَا بِقَبَسٍ أَوْ أَجِدُ عَلَى ٱلنَّارِ هُدًۭى, tr:imkuŝû innî ânestu nâran leallî âtîkum minhâ bi-kabesin ev ecidu ale'n-nâri hudâ, gloss:burada kalın, ben bir ateş gördüm; belki size ondan bir kor getiririm ya da ateşin başında yol gösterecek birini bulurum, source:20:10} der. Buradaki "hudâ" yolcunun aradığı kılavuzdur. Musa'nın ateşin başında bulduğu ise başka türlü bir hidayettir: {ar:وَأَنَا ٱخْتَرْتُكَ فَٱسْتَمِعْ لِمَا يُوحَىٰٓ, tr:ve ene'htertuke fe'stemi' li-mâ yûhâ, gloss:seni ben seçtim, vahyolunanı dinle, source:20:13}. Yol soran adam, Rabbin yol gösterdiğini Firavun'a anlatan elçi olur. Uzaktan görülen ateşin sahnesi ise on ikinci ayetin "ateş" kelimesine dayanır.
+
+<!-- v16:augment brief=augment9 model=opus para=22 kind=prose ref=28:22 -->
+Kasas suresi Musa'nın daha önceki bir yolculuğunu anlatır. Şehrin öbür ucundan koşarak gelen bir adam, ileri gelenlerin onu öldürmek için danıştığını haber verir {source:28:20}. Musa korku içinde, etrafı gözeterek şehirden çıkar ve zalimler topluluğundan kurtarılmayı ister {source:28:21}. Medyen'e yöneldiğinde de şöyle der: {ar:عَسَىٰ رَبِّىٓ أَن يَهْدِيَنِى سَوَآءَ ٱلسَّبِيلِ, tr:asâ rabbî en yehdiyenî sevâe's-sebîl, gloss:umarım Rabbim beni yolun doğrusuna iletir, source:28:22}. Musa ateşi görmeden önce de yolunu Rabbinden isteyen bir yolcudur. İstediği yolun "doğrusu" anlamındaki kelime, ikinci ayetteki "düzene koydu" fiiliyle aynı köktendir.
+
+<!-- v16:augment brief=augment9 model=opus para=22 kind=refs -->
+Ayrıca: {source:20:11} {source:20:12} ateşe varınca Musa'ya seslenilmesi ve Rabbinin kendini tanıtması; {source:27:7} {source:28:29} uzaktan görülen ateşten bir haber ya da kor getirme umudu; {source:20:41} seçilen Musa'nın Allah tarafından kendisi için hazırlanması
+
+İbrahim aynı ikiliyi birinci tekil şahısla söyler. Kavmine ve atalarına taptıkları putları sorar, onların kendisine düşman olduğunu, yalnız âlemlerin Rabbinin dost olduğunu söyler {source:26:77}. Sonra o Rabbi şöyle tanıtır: {ar:ٱلَّذِى خَلَقَنِى فَهُوَ يَهْدِينِ, tr:elleẕî halakanî fe-huve yehdîn, gloss:beni yaratan ve bana yol gösteren O'dur, source:26:78}. Sonraki ayetlerde de kendisini yediren, içiren ve hastalandığında iyileştiren Rabbi anlatır {source:26:79}. İbrahim'in sözünde hem nesne vardır hem zaman değişir: "beni" yaratan, "bana" yol gösteren, hem de şimdi ve sürekli olarak. Üçüncü ayetin geçmiş zamanda ve herkes için söylediği şey, İbrahim'in ağzında süren, kişisel bir ilişkiye dönüşür. Sure de aynı yolu izler. Altıncı ayetten sonra Rabbin yol göstermesi doğrudan Peygamber'e yönelir: ona okutulacak, o unutmayacak, en kolaya kolaylaştırılacaktır.
+
+<!-- v16:augment brief=augment9 model=opus para=23 kind=prose ref=43:27 -->
+Zuhruf suresinde İbrahim babasına ve kavmine onların taptıklarından uzak olduğunu söyler {source:43:26} ve şunu ekler: {ar:إِلَّا ٱلَّذِى فَطَرَنِى فَإِنَّهُۥ سَيَهْدِينِ, tr:illelleẕî fataranî fe-innehû se-yehdîn, gloss:beni yaratan müstesna; O bana yol gösterecektir, source:43:27}. Yaratan ile yol gösteren burada da birdir, ama yol gösterme geleceğe, önünde uzanan bir yola bağlanır. İbrahim'in bu sözü, dönsünler diye soyunda kalıcı bir söz kılınır {source:43:28}.
+
+<!-- v16:augment brief=augment9 model=opus para=23 kind=prose ref=93:7 -->
+Duhâ suresinde bu ayetin fiili, aynı biçimiyle Peygamber'e söylenir. Rabbi onu yetim bulmuş ve barındırmıştır {source:93:6}. {ar:وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ, tr:ve vecedeke dâllen fe-hedâ, gloss:seni yolu bilmez hâlde buldu ve yol gösterdi, source:93:7}. Yoksul bulmuş ve zengin etmiştir {source:93:8}. Fiil orada da "fe" ile gelir ve nesnesiz biter. Kime yol gösterildiğini hitabın kendisi söyler.
+
+<!-- v16:augment brief=augment9 model=opus para=23 kind=refs -->
+Ayrıca: {source:26:75} {source:26:76} kavmine ve eski atalarına neye taptıklarını soran İbrahim; {source:26:80} {source:26:81} {source:26:82} aynı "O ki" dizisinin şifa, ölüm, diriliş ve bağışlanma umuduyla sürmesi; {source:37:99} "Ben Rabbime gidiyorum, O bana yol gösterecek" diyen İbrahim; {source:16:121} nimetlere şükreden İbrahim'in seçilip dosdoğru yola iletilmesi; {source:19:43} kendisine yol gösterilen İbrahim'in babasına "Bana uy, seni düz bir yola ileteyim" demesi; {source:6:161} Peygamber'in "Rabbim beni dosdoğru yola, İbrahim'in dinine iletti" demesi
+
+## Gösterilen yol ve tutulan yol
+
+Arapça yol gösterilmekle yolu tutmayı iki ayrı fiille söyler: {ar:هدي فاهتدى, tr:hudiye fe'htedâ, gloss:ona yol gösterildi, o da yolu tuttu, source:"ه د ي,B001"}. Birinci fiil gösterenin işidir, ikincisi yolcunun. Üçüncü ayet yalnızca birinciyi söyler. İkinciyi surenin geri kalanı insanlar arasında bölüştürür. Sekizinci ayetteki {ar:وَنُيَسِّرُكَ لِلْيُسْرَىٰ, tr:ve nuyessiruke li'l-yusrâ, gloss:seni en kolay olana kolaylaştıracağız, source:87:8} sözüyle yol gösterilen Peygamber, dokuzuncu ayette {ar:فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ, tr:fe-ẕekkir in nefeati'ẕ-ẕikrâ, gloss:öğüt ver, eğer öğüt fayda verirse, source:87:9} emrini alır. Önden giden, kendisi de bir başkasının önüne geçer. Ardından yol ikiye ayrılır: {ar:سَيَذَّكَّرُ مَن يَخْشَىٰ, tr:se-yeẕẕekkeru men yahşâ, gloss:Rabbinden korkan öğüt alacaktır, source:87:10} ve {ar:وَيَتَجَنَّبُهَا ٱلْأَشْقَى, tr:ve yetecennebuhe'l-eşkâ, gloss:en bedbaht olan ise ondan uzak duracaktır, source:87:11}. Gösterilen yol aynıdır. Biri o yolu tutar, öteki yanından geçer.
+
+<!-- v16:augment brief=augment9 model=opus para=24 kind=prose ref=92:10 -->
+Leyl suresi kolaylaştırma fiilini iki yola birden verir. Veren, sakınan ve en güzeli doğrulayan için {source:92:5} {source:92:6} {ar:فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ, tr:fe-se-nuyessiruhû li'l-yusrâ, gloss:onu en kolay olana kolaylaştıracağız, source:92:7} denir. Cimrilik eden, kendini yeterli gören ve en güzeli yalanlayan için ise {source:92:8} {source:92:9} {ar:فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ, tr:fe-se-nuyessiruhû li'l-usrâ, gloss:onu en zor olana kolaylaştıracağız, source:92:10} denir. Sekizinci ayette Peygamber'e verilen söz orada veren ve sakınan için tekrarlanır. Aynı fiil, öbür yolu tutanın önüne de onun tuttuğu yolu açar.
+
+<!-- v16:augment brief=augment9 model=opus para=24 kind=prose ref=39:23 -->
+Zümer suresi öğüdün korkan biriyle nasıl buluştuğunu anlatır. Allah sözün en güzelini, birbirine benzeyen ve tekrarlanan bir kitap olarak indirmiştir. Rablerinden korkanların derileri ondan ürperir, sonra derileri ve kalpleri Allah'ın anılmasına yumuşar. Ayet bu hâlin adını koyar: {ar:ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ, tr:ẕâlike hude'llâhi yehdî bihî men yeşâ', gloss:işte bu, Allah'ın hidayetidir; onunla dilediğine yol gösterir, source:39:23}. Onuncu ayette öğüt alan korkan kişi, burada derisi ürperen ve kalbi Allah'ın anılmasına yumuşayan kişidir. Onun bu hâline de hidayet denir.
+
+<!-- v16:augment brief=augment9 model=opus para=24 kind=refs -->
+Ayrıca: {source:2:272} {source:28:56} öğüt verene göstermenin, yola iletmenin ise Allah'a düşmesi; {source:16:37} Peygamber'in onların yola gelmesine düşkünlüğüne rağmen Allah'ın saptırdığına yol göstermemesi; {source:42:52} kitabı bilmezken vahiyle dosdoğru yola yol gösteren olan Peygamber; {source:17:9} Kur'an'ın en doğru olana yol göstermesi; {source:72:2} doğruya yol gösteren Kur'an'ı dinleyip iman eden cinler; {source:39:18} sözü dinleyip en güzeline uyanların, Allah'ın yol gösterdikleri olması; {source:7:178} {source:17:97} {source:18:17} Allah'ın yol gösterdiği kişinin yolu tutan olması; {source:19:76} {source:47:17} yolu tutanın hidayetinin artırılması; {source:16:36} her ümmete gönderilen elçiden sonra insanların, yol gösterilenler ve sapıklığı hak edenler diye ikiye ayrılması; {source:57:26} Nuh ile İbrahim'in soyunda yolu tutanla yoldan çıkanın ayrılması; {source:6:117} {source:16:125} {source:53:30} {source:68:7} yolundan sapanı da yolu tutanı da en iyi bilenin Rab olması; {source:24:54} elçiye düşenin açıkça bildirmek, itaat edenin de yolu bulmak olması; {source:50:45} zorba olmayan elçinin, tehdidinden korkana Kur'an'la öğüt vermesi; {source:92:14} {source:92:15} {source:92:16} alevli ateşe yalanlayıp yüz çeviren en bedbahttan başkasının girmemesi; {source:20:48} azabın yalanlayıp yüz çevirene olması; {source:20:56} bütün işaretleri gösterildiği hâlde yalanlayıp direnen Firavun; {source:20:72} açık deliller karşısında kendilerini yaratanı seçen sihirbazlar; {source:20:124} {source:20:125} {source:20:126} zikirden yüz çevirip ayetleri unutanın dar geçimi ve kör olarak haşredilmesi; {source:81:26} gösterilen yoldan yüz çevirenlere "Nereye gidiyorsunuz?" diye sorulması
+
+Kur'an bu ayrımı başka yerlerde de açıkça söyler. İnsan için {ar:إِنَّا هَدَيْنَٰهُ ٱلسَّبِيلَ إِمَّا شَاكِرًۭا وَإِمَّا كَفُورًا, tr:innâ hedeynâhu's-sebîle immâ şâkiran ve immâ kefûrâ, gloss:biz ona yolu gösterdik; ister şükreden olsun ister nankör, source:76:3} der. Bir başka yerde {ar:وَهَدَيْنَٰهُ ٱلنَّجْدَيْنِ, tr:ve hedeynâhu'n-necdeyn, gloss:ona iki yüksek yolu gösterdik, source:90:10} der. Verenlerle cimrilik edenleri ayırdığı bir surede de {ar:إِنَّ عَلَيْنَا لَلْهُدَىٰ, tr:inne aleynâ le'l-hudâ, gloss:yol göstermek elbette bize düşer, source:92:12} der. Yol göstermek Rabbin işidir ve eksiksiz yapılmıştır. Yolu tutmak ise yolcunun işidir. Kökün incelikle yol göstermek anlamı da buraya oturur. Hidayet zorla sürüklemek değildir.
+
+<!-- v16:augment brief=augment9 model=opus para=25 kind=prose ref=41:17 -->
+Fussılet suresi bu ayrımı bir kavmin başından geçenlerle gösterir: {ar:وَأَمَّا ثَمُودُ فَهَدَيْنَٰهُمْ فَٱسْتَحَبُّوا۟ ٱلْعَمَىٰ عَلَى ٱلْهُدَىٰ, tr:ve emmâ Ŝemûdu fe-hedeynâhum fe'stehabbu'l-amâ ale'l-hudâ, gloss:Semud'a gelince, onlara yol gösterdik, ama onlar körlüğü hidayete tercih ettiler, source:41:17}. Yol gösterme Semud için de geçmiş zamanla ve eksiksiz söylenir. Yolu tutmayan onların kendisidir. Sonuç da kazandıklarına bağlanır: onları alçaltıcı azabın yıldırımı yakalar, iman edip sakınanlar ise kurtarılır {source:41:18}.
+
+<!-- v16:augment brief=augment9 model=opus para=25 kind=prose ref=91:8 -->
+Şems suresi düzene koymanın ardından gelen bilgiyi adlandırır. Nefse ve onu düzene koyana yemin edilir {source:91:7}, ardından {ar:فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا, tr:fe-elhemehâ fucûrahâ ve takvâhâ, gloss:sonra ona kötülüğünü de sakınmasını da ilham etti, source:91:8} denir. Düzene koyma fiili ikinci ayettekiyle aynıdır ve iki yolun bilgisi onun ardından "fe" ile gelir. Seçim de iki cümleyle söylenir: {ar:قَدْ أَفْلَحَ مَن زَكَّىٰهَا, tr:kad efleha men zekkâhâ, gloss:onu arındıran kurtuluşa ermiştir, source:91:9}. Onu örtüp bastıran ise kaybetmiştir {source:91:10}. Kurtuluş ve arınma, on dördüncü ayetteki sözün iki kelimesidir {source:87:14}.
+
+<!-- v16:augment brief=augment9 model=opus para=25 kind=refs -->
+Ayrıca: {source:76:4} {source:76:5} nankörlerle iyilerin varacağı iki ayrı son; {source:90:11} {source:90:12} gösterilen iki yoldan sarp olanı aşmaya girişmeyen insan; {source:6:149} {source:16:9} "Dileseydi hepinize yol gösterirdi" sözü: hidayetin kimseye zorla verilmemesi; {source:6:35} dileseydi Allah'ın onları hidayet üzerinde toplayacak olması; {source:88:21} {source:88:22} öğüt verenin insanlar üzerinde zorba olmaması; {source:2:256} doğru yol sapıklıktan ayrıldıktan sonra dinde zorlamanın olmaması; {source:81:27} {source:81:28} öğüdün dosdoğru olmayı dileyen için olması; {source:76:30} {source:81:29} yolcunun dilemesinin de Allah'ın dilemesine bağlı olması; {source:49:17} imana iletilmenin Allah'ın lütfu olması; {source:6:125} Allah'ın yol göstermek istediği kişinin göğsünü İslam'a açması; {source:5:105} yolu tutana sapanın sapmasının zarar vermemesi; {source:2:264} {source:3:86} {source:16:104} {source:63:6} gösterileni reddedenlere Allah'ın yol göstermemesi
+
+Bu yüzden her namazda okunan Fatiha'nın isteği, bu ayetin yanında yeni bir anlam kazanır: {ar:ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ihdine's-sırâta'l-mustakîm, gloss:bizi dosdoğru yola ilet, source:1:6}. Üçüncü ayette nesnesi olmayan fiil burada iki nesne alır: "biz" ve "dosdoğru yol". Ayet Rabbin yaptığını genel olarak haber verir, namaz kılan ise aynı şeyi kendisi için ister. On beşinci ayette kurtuluşa eren kişi {ar:وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ, tr:ve ẕekera'sme rabbihî fe-sallâ, gloss:Rabbinin adını anıp namaz kılandır, source:87:15}. Namazında bu isteği dile getiren kişi, "yol gösterdi" sözünü kendi yolculuğuna çevirmiş olur. Kur'an bu isteğin cevabını Adem'in yere indirilişinde verir: {ar:فَمَنِ ٱتَّبَعَ هُدَاىَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ, tr:fe-meni't-tebea hudâye fe-lâ yadillu ve lâ yeşkâ, gloss:kim benim yol göstermemi izlerse ne yolunu şaşırır ne de bedbaht olur, source:20:123}. Bu ayetteki "bedbaht olmak" fiili, on birinci ayetteki "en bedbaht" kelimesiyle aynı köktendir.
+
+<!-- v16:augment brief=augment9 model=opus para=26 kind=refs -->
+Ayrıca: {source:1:7} istenen yolun nimet verilenlerin yolu olması, gazaba uğrayanların ve sapanların yolu olmaması; {source:2:38} hidayete uyanlara korku ve hüzün olmaması; {source:20:47} hidayete uyana selam; {source:20:14} namazın Allah'ı anmak için kılınması; {source:20:121} {source:20:122} Adem'in yolunu şaşırmasının ardından Rabbinin onu seçip yol göstermesi; {source:2:5} Rablerinden bir hidayet üzere olanların kurtuluşa erenler olması; {source:2:142} {source:2:213} {source:10:25} {source:22:54} {source:24:46} dosdoğru yola iletenin Allah olması; {source:5:16} rızasına uyanları esenlik yollarına ve dosdoğru yola iletmesi
+
+## İnsanın kendi ölçüsü
+
+قدّر fiili insan için de kullanılır ve o zaman düşünüp tartmak anlamına gelir: {ar:التقدير من الإنسان التفكر في الأمر, tr:et-takdîru mine'l-insâni't-tefekkuru fi'l-emr, gloss:insanın takdiri, bir iş üzerine düşünmesidir, source:"ق د ر,B005"}. Bir başka ifadede {ar:نظرت فيه ودبرته وقايسته, tr:nazartu fîhi ve debbertuhû ve kâyestuh, gloss:onu inceledim, sonunu düşündüm ve ölçüp karşılaştırdım, source:"ق د ر,B005"} denir. Bu anlamın en ağır örneği Kur'an'dan gelen iki kelimedir: {ar:فكر وقدر, tr:fekkera ve kaddera, gloss:düşündü ve ölçüp biçti, source:"ق د ر,B005"}.
+
+<!-- v16:augment brief=augment9 model=opus para=27 kind=refs -->
+Ayrıca: {source:74:18} düşünüp ölçüp biçen adamın iki fiili
+
+Kur'an bu iki kelimeyi bir adamın hikâyesinde söyler. Allah Peygamber'e, tek başına yarattığı, bol mal ve yanından ayrılmayan oğullar verdiği o adamı kendisine bırakmasını söyler {source:74:11}. Adam daha fazlasını ister, ama Allah'ın ayetlerine karşı inat eder. Ayetler okununca düşünür ve ölçüp biçer {source:74:18}. Kur'an ardından iki kez "Kahrolası, nasıl da ölçüp biçti!" der {source:74:19}. Adam bakar, kaşlarını çatar, sırtını döner, büyüklenir ve sonunda bu sözün yalnızca aktarılan bir büyü, bir insan sözü olduğuna karar verir {source:74:24}. Hükmü de şudur: {ar:سَأُصْلِيهِ سَقَرَ, tr:se-uslîhi sekar, gloss:onu Sekar ateşine sokacağım, source:74:26}. Buradaki "ateşe sokmak" fiili, on ikinci ayetteki {ar:ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ, tr:elleẕî yasle'n-nâra'l-kubrâ, gloss:o en büyük ateşe girecek olan, source:87:12} sözündeki fiille aynı köktendir. Aynı surenin sonunda da Kur'an kendisinin bir öğüt olduğunu ve dileyenin ondan öğüt alacağını söyler {source:74:54}.
+
+<!-- v16:augment brief=augment9 model=opus para=28 kind=refs -->
+Ayrıca: {source:74:12} {source:74:13} adama verilen bol mal ve yanından ayrılmayan oğullar; {source:74:14} {source:74:15} {source:74:16} önüne serilen imkânlar, daha fazlasını istemesi ve ayetlere inadı; {source:74:20} "Kahrolası, nasıl da ölçüp biçti!" sözünün ikinci kez söylenmesi; {source:74:21} {source:74:22} {source:74:23} bakması, kaşlarını çatması, sırt dönmesi ve büyüklenmesi; {source:74:25} "Bu ancak bir insan sözüdür" hükmü; {source:74:27} {source:74:28} Sekar'ın ne bırakan ne de terk eden bir ateş olarak tanıtılması; {source:74:55} dileyenin ondan öğüt alacağı; {source:17:94} hidayet geldiğinde "Allah bir insanı mı elçi gönderdi?" denmesi; {source:64:6} "Bir insan mı bize yol gösterecek?" deyip yüz çevirenler
+
+Bu hikâye ayetin iki fiilini birbirinden ayırıp gösterir. Rab ölçer ve yol gösterir; ölçüsünün ardından gelen bir yön vardır. Adam da ölçer, ama ölçüsü gösterilen yola değil, yoldan dönmeye varır. Öğüdü kendi terazisine koyar ve sonucu kendisi belirler. On birinci ayetteki en bedbahtın öğütten uzak durması, bu adamın yaptığının kısa bir adıdır. İnsanın düşünüp tartması yanlış değildir. İnsan da ölçer, ama Davud'un zırhında olduğu gibi kendisine verilmiş bir ölçüye uyarak ölçer. Yanlış olan, gösterilen yolun yerine kendi ölçüsünü koymaktır. Üçüncü ayet ölçüyü ve yolu aynı Rabbe verir. İnsana kalan, o yolu tutup tutmamaktır.
+
+
+<!-- v16:augment brief=augment9 model=opus para=29 kind=prose ref=6:91 -->
+En'âm suresi Allah'ı yanlış ölçmeyi bir sözle tanımlar: {ar:وَمَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِۦٓ إِذْ قَالُوا۟ مَآ أَنزَلَ ٱللَّهُ عَلَىٰ بَشَرٍۢ مِّن شَىْءٍۢ, tr:ve mâ kadaru'llâhe hakka kadrihî iẕ kâlû mâ enzela'llâhu alâ beşerin min şey', gloss:"Allah hiçbir insana bir şey indirmedi" dediklerinde Allah'ı hakkıyla ölçemediler, source:6:91}. Cevap olarak, Musa'nın getirdiği, insanlara nur ve hidayet olan kitap hatırlatılır. Ölçme fiili burada insanın Allah hakkındaki yargısıdır. Yanılgı da vahyin bir insana inmediğini söylemektir. Müddessir'deki adamın sonunda vardığı "bu ancak bir insan sözüdür" hükmü de aynı yanılgıya dayanır {source:74:25}.
+
+<!-- v16:augment brief=augment9 model=opus para=29 kind=prose ref=55:8 -->
+Rahmân suresi insanın tartısını ona verilmiş bir teraziye bağlar. Göğü yükselten Allah teraziyi de koymuştur {source:55:7}, {ar:أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ, tr:ellâ tatğav fi'l-mîzân, gloss:terazide haddi aşmayasınız diye, source:55:8}. Ardından tartıyı adaletle tutmak ve teraziyi eksik bırakmamak emredilir {source:55:9}. Terazi insanın elindedir, ama onu koyan Allah'tır.
+
+<!-- v16:augment brief=augment9 model=opus para=29 kind=refs -->
+Ayrıca: {source:22:74} {source:39:67} Allah'ı hakkıyla ölçememek; {source:80:17} {source:80:18} {source:80:19} nankör insana "kahrolası" dendikten sonra onu bir damladan yaratıp ölçenin hatırlatılması; {source:74:49} {source:74:50} {source:74:51} öğütten, aslandan kaçan ürkek yaban eşekleri gibi yüz çevirmeleri; {source:74:53} öğütten kaçmanın sebebinin ahiretten korkmamak olması; {source:74:56} öğüt almanın da Allah'ın dilemesine bağlı olması
+
+## Whole surah (Arabic)
+
+87:1	سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى
+87:2	ٱلَّذِى خَلَقَ فَسَوَّىٰ
+87:3	وَٱلَّذِى قَدَّرَ فَهَدَىٰ
+87:4	وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ
+87:5	فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ
+87:6	سَنُقْرِئُكَ فَلَا تَنسَىٰٓ
+87:7	إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ
+87:8	وَنُيَسِّرُكَ لِلْيُسْرَىٰ
+87:9	فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ
+87:10	سَيَذَّكَّرُ مَن يَخْشَىٰ
+87:11	وَيَتَجَنَّبُهَا ٱلْأَشْقَى
+87:12	ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ
+87:13	ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ
+87:14	قَدْ أَفْلَحَ مَن تَزَكَّىٰ
+87:15	وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ
+87:16	بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا
+87:17	وَٱلْءَاخِرَةُ خَيْرٌۭ وَأَبْقَىٰٓ
+87:18	إِنَّ هَٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ
+87:19	صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ

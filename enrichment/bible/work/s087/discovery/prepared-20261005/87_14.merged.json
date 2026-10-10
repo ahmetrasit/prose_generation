@@ -1,0 +1,265 @@
+{
+  "format": "bible-discovery-v2",
+  "status": "ok",
+  "target": "87:14",
+  "base_sha256": "2e43478f289f89dd752fe9510a6a9202160488fbd32a36668a270e2672dbb9e0",
+  "tsv_sha256": "a6a41b8d118776f6df393008aa8d04e873f3fa7898995e7b9cc6ba7ec247b304",
+  "provenance": [
+    {
+      "target": "87:14",
+      "model": "luna",
+      "run_tag": "prepared-20261005",
+      "path": "prepared-20261005/87_14/luna",
+      "sha256": "12881202fe10fa78b13a70ca67b2201625c5bfca214520aca6ec8f32dfbae386"
+    },
+    {
+      "target": "87:14",
+      "model": "terra",
+      "run_tag": "prepared-20261005",
+      "path": "prepared-20261005/87_14/terra",
+      "sha256": "0bcc82512ea0075834e357d89d73dbc2e6cf87abe7b54f61db4c05f5f818f9c7"
+    }
+  ],
+  "rows": 143,
+  "findings": [
+    {
+      "target": "87:14",
+      "model": "luna",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_14/luna/list.tsv",
+        "rows": 100,
+        "unique_references": 100,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 61,
+          "medium": 38,
+          "weak": 1
+        },
+        "findings": [
+          {
+            "line": 18,
+            "ref": "Tobit 12:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 19,
+            "ref": "Sirach 3:30",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 20,
+            "ref": "Mishnah Peah 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 21,
+            "ref": "1QS 4:20-21",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 33,
+            "ref": "SBLGNT:Jas.1.22",
+            "raw_ref": "SBLGNT:James.1.22",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 34,
+            "ref": "SBLGNT:Jas.1.27",
+            "raw_ref": "SBLGNT:James.1.27",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 51,
+            "ref": "Mishnah Avot 4:16",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 52,
+            "ref": "Mishnah Avot 4:17",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 53,
+            "ref": "b. Rosh Hashanah 16b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 54,
+            "ref": "Berakhot 5:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 63,
+            "ref": "SBLGNT:Jas.2.24",
+            "raw_ref": "SBLGNT:James.2.24",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 93,
+            "ref": "b. Berakhot 60b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 94,
+            "ref": "Wisdom of Solomon 3:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 95,
+            "ref": "Wisdom of Solomon 3:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 96,
+            "ref": "SBLGNT:Jas.4.6",
+            "raw_ref": "SBLGNT:James.4.6",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_14/luna/followup.tsv",
+        "rows": 31,
+        "unique_references": 31,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 18,
+          "medium": 13
+        },
+        "findings": [
+          {
+            "line": 24,
+            "ref": "b. Berakhot 60b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 25,
+            "ref": "Wisdom of Solomon 3:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 26,
+            "ref": "Wisdom of Solomon 3:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 27,
+            "ref": "SBLGNT:Jas.4.6",
+            "raw_ref": "SBLGNT:James.4.6",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    },
+    {
+      "target": "87:14",
+      "model": "terra",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_14/terra/list.tsv",
+        "rows": 77,
+        "unique_references": 77,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 61,
+          "medium": 15,
+          "weak": 1
+        },
+        "findings": [
+          {
+            "line": 27,
+            "ref": "Tobit 12:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 28,
+            "ref": "Sirach 3:30",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 52,
+            "ref": "Mishnah Peah 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 53,
+            "ref": "Mishnah Avot 4:17",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 76,
+            "ref": "Babylonian Talmud, Bava Batra 10a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_14/terra/followup.tsv",
+        "rows": 20,
+        "unique_references": 20,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 14,
+          "medium": 6
+        },
+        "findings": [
+          {
+            "line": 19,
+            "ref": "Babylonian Talmud, Bava Batra 10a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    }
+  ],
+  "confidence": "Unverified reader labels; agreement and follow-up origin do not verify a connection."
+}

@@ -1,0 +1,72 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec16/luna/followup.tsv",
+  "rows": 42,
+  "unique_references": 42,
+  "schema_errors": [
+    "line 41: unknown verse in specified edition: SBLGNT:Didache 1:4-5"
+  ],
+  "duplicates": [],
+  "strengths": {
+    "strong": 33,
+    "medium": 8,
+    "weak": 1
+  },
+  "findings": [
+    {
+      "line": 8,
+      "ref": "WLC:Gen.41.51",
+      "field": "basis",
+      "language": "Hebrew",
+      "wording": "נשה",
+      "kind": "wording_review",
+      "variant_matches": [],
+      "matching_neighbours": [],
+      "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+    },
+    {
+      "line": 8,
+      "ref": "WLC:Gen.41.51",
+      "field": "note",
+      "language": "Hebrew",
+      "wording": "נשה",
+      "kind": "wording_review",
+      "variant_matches": [],
+      "matching_neighbours": [],
+      "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+    },
+    {
+      "line": 18,
+      "ref": "Mishnah Avot 4:1",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 19,
+      "ref": "Mishnah Peah 1:1",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 39,
+      "ref": "SBLGNT:Jas.5.2",
+      "raw_ref": "SBLGNT:James.5.2",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    },
+    {
+      "line": 42,
+      "ref": "1 Clement 55:2",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 43,
+      "ref": "Gospel of Thomas 56",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

@@ -1,0 +1,33 @@
+{
+  "approval": "2026-10-05 user reply: Apply all 15 recorded follow-up corrections. Exact bundle: enrichment/bible/audits/pilot1-20261005/followup-repairs.proposed.json",
+  "accepted_at": "2026-10-05T16:04:05.332298+00:00",
+  "changes": [
+    {
+      "line": 116,
+      "before": [
+        "medium",
+        "incil",
+        "motif",
+        "WLC:Ps.147.11",
+        "divine pleasure toward those who hope in love",
+        "The commentary frames wrath opposite divine pleasure; the psalm says the Lord takes pleasure in those who fear him and hope in his steadfast love."
+      ],
+      "after": [
+        "medium",
+        "tevrat",
+        "motif",
+        "WLC:Ps.147.11",
+        "divine pleasure toward those who hope in love",
+        "The commentary frames wrath opposite divine pleasure; the psalm says the Lord takes pleasure in those who fear him and hope in his steadfast love."
+      ],
+      "reason": "The unchanged WLC Psalms witness belongs to the Hebrew Bible. Correct only the mistaken incil tradition label to tevrat; preserve kind, grade, reference, basis and explanation."
+    }
+  ],
+  "raw_sha256": "a595eab0e023d8a9907c27b4064a034651890095908f4d38bb63776b8fa0906d",
+  "accepted_sha256": "2f1819dede3d832620afc8209322017fe6c4391fbfd910933e22f0d7eaf404db",
+  "proposal_sha256": "ad806eb9964e5e92ebcd0d81bf8d79c46128d016d340310ae9e5406bdfa207c9",
+  "failed_log_sha256": "59e15f94cc8c3fe71c77f523f1f93687ab02db58447f928101853fd97b5b3970",
+  "model_calls": 0,
+  "policy": "Raw proposals, failed validation and failed log preserved; no regrading.",
+  "allow_witness_tradition": true
+}

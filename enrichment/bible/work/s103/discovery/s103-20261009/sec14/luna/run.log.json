@@ -1,0 +1,1294 @@
+{
+  "target": "sec14",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:29:04.100198-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_sec14_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "a5b98e547c339327f1e8cab32b7d78da0bec147d859eed921bd7f98b7b48742f",
+  "package_sha256": "39d1344a73956e9fb1da6ce08b1b5a16ac4d81267fbf67ee10e3d1279a0fc4ec",
+  "input_sha256": "64168f5b21070c60b2889e85c0907af494969c92b82cadf9127e38177f99e237",
+  "spawn_sha256": "20807930395822dbdb6d43d4ad6d51f071b1b55f7d7db5ea3d265800cb8c25b9",
+  "followup_text_sha256": "ecac5b7963e9682b032cd6562dd5d9e5c5fe59f35b848c4908c585b72022d44e",
+  "agent_id": "01a11f23-04e0-7b50-b498-251dad32b910",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-29-12-01a11f23-04e0-7b50-b498-251dad32b910.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 53,
+  "turn1_sha256": "9b8befc28012dabe519a56100a0a6d683a4fe94c1504ffd9545eb8c10c1f28e9",
+  "turn2": {
+    "completed": true,
+    "rows_total": 91,
+    "rows_added": 38
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 53,
+    "raw_proposal_rows": 38,
+    "unique_additions": 38,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.49.3",
+          "basis": "low/high and rich/poor together",
+          "note": "The commentary says al-insan includes noble and low; this psalm explicitly addresses low and high, rich and poor together before warning against confidence in wealth, making its wisdom socially comprehensive."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.62.10",
+          "basis": "high and low weighed alike",
+          "note": "The commentary places noble and lowest ranks inside one loss; this verse says low-born are vanity and high-born a lie, together lighter than breath on the scales, turning rank into shared futility."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.34.19",
+          "basis": "God shows no partiality to princes or rich",
+          "note": "The commentary makes lineage and rank irrelevant to humanity's loss; Job describes the Creator as neither favoring princes nor preferring rich over poor, grounding equal standing in God's making of all."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.15",
+          "basis": "neither poor nor great favored in judgment",
+          "note": "The commentary relocates distinction from birth rank to faith and conduct; this law forbids favoring the poor or deferring to the great and requires just judgment, making status irrelevant to assessment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.18.20",
+          "basis": "individual guilt, not a father's",
+          "note": "The commentary refuses inherited lineage as a criterion; Ezekiel says a son does not bear his father's guilt and each person bears his own, making accountability individual rather than genealogical."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.18.21",
+          "basis": "repentance and practiced justice",
+          "note": "Where the note says the surah distinguishes by faith and deeds, Ezekiel says a wicked person who turns and practices justice and righteousness will live, making changed conduct rather than parentage decisive."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.18",
+          "basis": "righteousness and service",
+          "note": "The note says the third ayah distinguishes by faith and work; Malachi's promised distinction is between righteous and wicked, and between one who serves God and one who does not, an ethical-religious axis rather than lineage."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Sanhedrin 4:5",
+          "basis": "one Adam; no superior ancestry",
+          "note": "The commentary breaks lineage's status claim by including noble and low alike; the Mishnah says Adam was created singly so none can boast that their ancestor is greater, an explicit rabbinic rejection of pedigree ranking."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 6:5",
+          "basis": "judgment falls severely on rulers",
+          "note": "The commentary places high and low within the same human loss; Wisdom warns that judgment falls severely on those in high office, showing that rank increases exposure rather than offering shelter."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 5:8",
+          "basis": "wealth and boasting fail at judgment",
+          "note": "The commentary brings rank and loss together; in the wicked.s confession after the righteous are vindicated, Wisdom asks what wealth and arrogance profited them, exposing status as no protection at judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 10:14",
+          "basis": "rulers overturned, humble raised",
+          "note": "The commentary names both high rank and the lowest social position; Sirach says God overturns rulers' thrones and installs the lowly, making earthly rank reversible under divine judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.3.8",
+          "basis": "fruit worthy of repentance",
+          "note": "The commentary says the surah's distinction is made by faith and deeds; John demands conduct that bears fruit worthy of repentance, setting an ethical test beside the following rejection of inherited confidence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.3.9",
+          "basis": "Abrahamic descent cannot secure standing",
+          "note": "The commentary rejects lineage as the basis of distinction; John warns hearers not to rely on Abraham as father and says God can raise children for Abraham from stones, denying inherited pedigree as a guarantee."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.8.39",
+          "basis": "Abraham's children must do Abraham's works",
+          "note": "The commentary says rank by descent gives way to faith and action; Jesus answers a claim of Abrahamic descent by making Abraham-like deeds the test of true kinship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.6",
+          "basis": "judgment according to deeds",
+          "note": "The commentary assigns distinction to belief and righteous work rather than lineage; Paul says God repays each according to deeds, giving the same non-hereditary measure in a judgment setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.11",
+          "basis": "God shows no partiality",
+          "note": "The note's human category includes high and low without exception; Paul says God shows no partiality in judgment, removing social or inherited standing as an advantage."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.17",
+          "basis": "impartial judgment of each person's work",
+          "note": "The commentary says lineage does not decide who is lost and deeds mark the distinction; Peter describes the Father as judging each person's work impartially, closely joining both claims."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.10.34",
+          "basis": "God shows no partiality",
+          "note": "The commentary includes high and low in the same human category; after Peter's vision opens the message to Gentiles, he says God shows no partiality, removing inherited peoplehood as a barrier."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.10.35",
+          "basis": "fear of God and right action across nations",
+          "note": "The commentary makes faith and deeds the dividing criterion; Peter says a person from any nation who fears God and does what is right is acceptable, explicitly replacing ancestry with religious conduct."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.2",
+          "basis": "rings and clothing mark social rank",
+          "note": "The commentary names noble descent and the lowest freedmen; James's assembly scene distinguishes a gold-ringed, finely dressed visitor from a poor person in shabby clothes, making rank's visible signs concrete.",
+          "raw_ref": "SBLGNT:James.2.2",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.3",
+          "basis": "preferential seating for the rich",
+          "note": "The note says status should not decide human worth; James depicts the rich being offered a good seat while the poor are made to stand or sit below, then condemns the community's class judgment.",
+          "raw_ref": "SBLGNT:James.2.3",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.5",
+          "basis": "poor rich in faith and heirs",
+          "note": "The commentary says the later ayah distinguishes by faith and work; James says God chose the poor to be rich in faith and heirs of the kingdom, reversing social rank through faith.",
+          "raw_ref": "SBLGNT:James.2.5",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.9",
+          "basis": "partiality is sin",
+          "note": "The commentary replaces inherited rank with a religious-ethical criterion; James explicitly calls favoritism toward status groups sin, giving the social hierarchy a moral verdict.",
+          "raw_ref": "SBLGNT:James.2.9",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.1.26",
+          "basis": "noble birth among the called",
+          "note": "The commentary contrasts lineage and rank with the surah's criterion of faith and deeds; Paul reminds the Corinthians that few were wise, powerful, or well-born when called, showing the community was not selected by elite status."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.1.27",
+          "basis": "God chooses the weak",
+          "note": "The note includes the lowest ranks within humanity; Paul says God chose the world's weak and foolish to shame the strong and wise, reversing the social measure of worth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.1.28",
+          "basis": "lowly and despised chosen",
+          "note": "The commentary highlights the lowliest freedmen and weak people; Paul says God chose what is low and despised, even what is not, to nullify what is, directly reversing status."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.1.29",
+          "basis": "no human may boast before God",
+          "note": "The commentary removes lineage as a basis for superiority; Paul says God's choice leaves no human able to boast before God, explicitly closing off inherited or social prestige."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.3.28",
+          "basis": "Jew/Greek and slave/free made one",
+          "note": "The commentary says al-insan includes noble and low alike; Paul names Jew/Greek and slave/free distinctions and says they do not divide those in Christ, shifting standing away from inherited and social categories."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.20",
+          "basis": "rich man's death defeats his security",
+          "note": "The commentary pairs rank with human loss; God tells the rich landowner his life is required that night, so accumulated wealth and status cannot secure him from death."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.21",
+          "basis": "rich toward God",
+          "note": "The commentary says the final distinction is not lineage but faith and deeds; Jesus applies the rich fool's story to one who stores treasure for himself but is not rich toward God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.22",
+          "basis": "both die; poor man exalted",
+          "note": "The commentary includes the high and low in humanity's loss; Luke has both Lazarus and the rich man die, but Lazarus is carried to Abraham's side while the rich man is buried, reversing earthly rank."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.25",
+          "basis": "life's status reversed after death",
+          "note": "The note says rank cannot determine the final distinction; Abraham tells the rich man that he received good things in life while Lazarus received bad, but now Lazarus is comforted and he is in anguish."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.12",
+          "basis": "great and small judged by deeds",
+          "note": "The commentary says no human rank escapes the encompassing judgment and deeds distinguish; Revelation pictures the dead, great and small, before the throne and says they are judged by what they did."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.52",
+          "basis": "rulers brought down, humble exalted",
+          "note": "The commentary sets lineage and high/low rank beside universal human loss; Mary's praise says God brings rulers from thrones and exalts the lowly, a direct reversal of social rank."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.22.2",
+          "basis": "one Maker of rich and poor",
+          "note": "The commentary's al-insan embraces noble and low; Proverbs says rich and poor meet because the Lord made them both, grounding their common humanity in one Creator."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.49.18",
+          "basis": "wealth does not follow at death",
+          "note": "The commentary places status and loss in adjacent ayat; the psalm says a dying rich person carries nothing away and his glory does not descend with him, concretizing why wealth cannot secure the human."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Eccl.9.2",
+          "basis": "the same earthly fate for righteous and wicked",
+          "note": "The commentary says humanity is in loss while the next ayah marks a believing, righteous exception; Qoheleth says the same fate comes to righteous and wicked, clean and unclean, in the earthly register of death, sharpening the difference in horizon."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.6.9",
+          "basis": "Noah righteous amid a corrupt generation",
+          "note": "The commentary's Noah scene says elites reject him because low-status people follow; Genesis presents Noah as righteous and blameless amid a corrupt generation, framing the same figure through his conduct without mentioning follower rank."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.16.7",
+          "basis": "heart over stature and appearance",
+          "note": "Samuel initially sees Eliab's stature as kingly, but God says he sees the heart rather than appearance; this parallels the commentary's move away from rank toward an inner moral criterion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.23",
+          "basis": "princes reduced to nothing",
+          "note": "Where the commentary says noble and low ranks share human loss, Isaiah says God reduces princes to nothing and makes rulers as emptiness, portraying status as unable to endure before God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.14.1",
+          "basis": "Arabic ء ن س and Hebrew אנוש; table correspondence, BDB notes Arabic cognate",
+          "note": "The commentary uses insan for humanity and says no rank escapes loss; Job calls אנוש, the human born of woman, few of days and full of trouble, a direct mortal-human use of the table's Arabic-linked Hebrew root."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.103.16",
+          "basis": "Arabic ء ن س and Hebrew אנוש; table correspondence, BDB notes Arabic cognate",
+          "note": "The commentary glosses insan as the human species and khusr as a shared condition; this verse uses אנוש for the human whose days are like grass, using the same human term for vulnerability."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.13.25",
+          "basis": "Arabic خ س ر and Hebrew חסר; table sound correspondence, unverified",
+          "note": "The commentary says the later ayah distinguishes by belief and work; Proverbs contrasts the righteous person's satisfaction with the wicked person's lack, using חסר, the table's unverified sound correspondence, to connect moral standing with shortfall."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.23.2",
+          "basis": "Arabic خ س ر and Hebrew חסר; table sound correspondence, unverified",
+          "note": "The commentary says humanity is in khusr but the next ayah marks an exception; the psalm's speaker says he will not lack under the Lord's shepherding, giving a specific no-lack counterpart and a parallel exception."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.7.13",
+          "basis": "Arabic ء ن س and Aramaic אנש; table sound correspondence, unverified",
+          "note": "The commentary uses insan for the whole human species; Daniel's אנש appears in a singular humanlike figure amid beastly empires, so the cognate's context sharply differs from a collective humanity in loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Pirkei Avot 4:1",
+          "basis": "honor earned by honoring others",
+          "note": "The commentary contrasts lineage and rank with the later ayah's deeds; Ben Zoma defines the honored person as one who honors others, making honor an ethical practice rather than inherited standing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.12.50",
+          "basis": "kinship defined by doing God's will",
+          "note": "The commentary brings lineage under a criterion of faith and action; Jesus calls whoever does the Father's will his brother, sister, and mother, replacing natural descent with obedience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.3.5",
+          "basis": "ancestral and religious credentials",
+          "note": "The commentary calls lineage and rank a human status measure; Paul lists circumcision, Israelite identity, and Benjaminite descent among his credentials, supplying a concrete pedigree catalogue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.3.7",
+          "basis": "former gains counted as loss",
+          "note": "The commentary places lineage/status next to khusr; after listing his pedigree and religious standing, Paul counts those former gains as loss because of Christ, a striking revaluation of inherited prestige."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.2.16",
+          "basis": "elite objection to eating with sinners",
+          "note": "The commentary's Noah accusers discredit him because low-status people follow; scribes object when Jesus eats with tax collectors and sinners, showing religious elites policing association with social outsiders."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.7.49",
+          "basis": "elite contempt for the crowd",
+          "note": "The commentary's Noah narrative has elites call his followers the lowest; Pharisees dismiss the crowd as ignorant of the law and accursed, a close instance of status-bearing leaders discrediting ordinary people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.4.13",
+          "basis": "ordinary followers recognized with Jesus",
+          "note": "The commentary says Noah's elite opponents treat low status as grounds to reject his message; authorities see Peter and John as uneducated and ordinary yet recognize their association with Jesus, a counterexample to status-based dismissal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.22",
+          "basis": "all die in Adam, life in Christ",
+          "note": "The commentary says khusr encompasses humanity without regard to rank; Paul says all die in Adam and all are made alive in Christ, placing humanity under shared death and framing life through Christ."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.2.7",
+          "basis": "God reverses poor and rich",
+          "note": "The commentary places noble and lowest ranks inside one human loss; Hannah's song says YHWH makes poor and rich and brings low and high down or up, making rank reversible under divine sovereignty."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.2.8",
+          "basis": "poor raised to sit with princes",
+          "note": "The commentary names the lowest social ranks; Hannah's song says God raises the poor from dust and seats the needy with princes, directly overturning the status scale used by Noah's accusers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.113.7",
+          "basis": "poor lifted from dust in Hallel",
+          "note": "The commentary recalls the lowest freedmen; this Hallel praise celebrates YHWH lifting the poor from dust and the needy from the ash heap, turning rank reversal into communal liturgy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.113.8",
+          "basis": "needy seated with princes",
+          "note": "The next verse says the needy are seated with princes; it gives the commentary's high/low contrast a liturgical image of the low receiving the highest social seat."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.30.15",
+          "basis": "equal half-shekel for rich and poor",
+          "note": "The census ransom is one half-shekel per person: the rich may not give more and the poor less. This Torah rule gives the commentary's inclusion of high and low a concrete equal measure."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.9.22",
+          "basis": "no boasting in wisdom, might, or wealth",
+          "note": "The commentary treats lineage and rank as human status measures; Jeremiah forbids boasting in wisdom, strength, or riches, showing that several forms of social capital cannot secure standing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.9.23",
+          "basis": "boast in knowing the God who does justice",
+          "note": "Jeremiah redirects boasting to understanding and knowing YHWH, who practices steadfast love, justice, and righteousness; this specifies the commentary's shift from lineage to religious and ethical standing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zeph.3.11",
+          "basis": "haughty removed from God's mountain",
+          "note": "The commentary says high rank cannot exempt anyone from loss; Zephaniah says God will remove the haughty from the holy mountain on the day of judgment, directly lowering status before God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zeph.3.12",
+          "basis": "humble remnant seeks refuge in YHWH",
+          "note": "The commentary makes the distinction by faith and deeds; Zephaniah leaves a humble, lowly people who seek refuge in YHWH's name, joining low status to trust rather than pedigree."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.11.17",
+          "basis": "wild branches share the cultivated root",
+          "note": "The commentary calls the root an image of lineage; Paul pictures Gentile believers grafted into Israel's olive tree to share its root, giving the lineage image a specific scene of inclusion across peoples."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.11.18",
+          "basis": "root supports branches, so do not boast",
+          "note": "The commentary describes people grounding superiority in lineage; Paul tells the grafted branch not to boast over natural branches because the root supports it, explicitly overturning pedigree pride."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.11.20",
+          "basis": "standing by faith, not inherited branch status",
+          "note": "The commentary says distinction turns on faith rather than lineage; Paul says natural branches were broken off through unbelief while Gentile branches stand through faith, then warns against pride."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.9.6",
+          "basis": "descent from Israel is not sufficient",
+          "note": "The commentary denies that lineage determines the human verdict; Paul says not all descended from Israel belong to Israel, distinguishing physical descent from covenant standing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.9.8",
+          "basis": "children of promise, not flesh alone",
+          "note": "Paul explains that children of the flesh are not thereby God's children and that children of promise count as offspring; this gives the commentary's lineage/status issue a specific theological redefinition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.28",
+          "basis": "outward identity does not decide standing",
+          "note": "The commentary says inherited rank is not the criterion; Paul says Jewish identity and circumcision are not merely outward or bodily, challenging status carried by visible ancestry markers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.29",
+          "basis": "inward identity and praise from God",
+          "note": "Paul defines the true identity by circumcision of the heart through the Spirit and praise from God, giving the commentary's move from lineage to inward religious standing a specific formulation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.1.12",
+          "basis": "believers become children of God",
+          "note": "The commentary says lineage does not decide who belongs among the saved; John says those who receive and believe in Jesus' name are given the status of God's children."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.1.13",
+          "basis": "birth not from blood but from God",
+          "note": "John specifies that God's children are not born from blood or human will but from God, directly denying natural descent as the source of religious standing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.21.31",
+          "basis": "outcasts enter before religious leaders",
+          "note": "In Jesus' temple dispute, he says tax collectors and prostitutes are entering God's kingdom ahead of the leaders; this closely matches the commentary's picture of elites discrediting a prophet because low-status people follow him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.21.32",
+          "basis": "belief and repentance distinguish the groups",
+          "note": "Jesus explains that the outcasts believed John while the leaders did not repent after seeing it; this makes response to the message, not public rank, the reason for their different standing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.18.14",
+          "basis": "tax collector justified over Pharisee",
+          "note": "In the paired prayer scene, Jesus says the tax collector goes home justified rather than the Pharisee; the religiously prestigious figure does not outrank the despised man who humbles himself before God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.20.26",
+          "basis": "greatness defined as service",
+          "note": "The commentary names inherited and social rank, then says deeds mark distinction; Jesus says the one who wants to be great must become a servant, replacing status with conduct."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.20.27",
+          "basis": "first place defined as slavery to all",
+          "note": "Jesus continues that the one who wants to be first must become a slave to all, directly reversing the rank logic behind the commentary's noble and lowest social categories."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.12.22",
+          "basis": "weaker parts are indispensable",
+          "note": "The commentary notes that low and weak people remain within the human category; Paul says body parts that seem weaker are indispensable, giving low status a necessary role in the community."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.12.23",
+          "basis": "less honorable parts receive greater honor",
+          "note": "Paul says the body's less honorable parts are treated with greater honor; this is a concrete reversal of rank within the community, not merely a claim that all parts exist."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Eph.2.8",
+          "basis": "salvation as gift through faith",
+          "note": "The commentary says the final distinction is by faith and deeds; Ephesians says salvation comes by grace through faith as God's gift, locating its source in grace and faith rather than human achievement."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Eph.2.9",
+          "basis": "works are not the basis for boasting",
+          "note": "Ephesians says salvation is not from works so that no one may boast, a specific difference from the commentary's formulation that righteous deeds help distinguish the saved."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.8.5",
+          "basis": "Arabic ء ن س and Hebrew אנוש; table correspondence, BDB notes Arabic cognate",
+          "note": "The commentary uses insan for the whole human species; Psalm 8 uses אנוש for the human being whom God remembers and crowns with glory and honor, a direct human-term correspondence with a strikingly dignified context."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.8.5",
+          "basis": "humanity crowned with glory and given dominion",
+          "note": "The commentary says all humanity is in loss regardless of rank; Psalm 8 depicts the human being as remembered, crowned with glory, and given dominion, adding a distinct account of dignity bestowed by God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.16.18",
+          "basis": "Arabic خ س ر and Hebrew חסר; table sound correspondence, unverified",
+          "note": "The commentary says high and low are included in khusr; at manna gathering, those who gather much have no surplus and those who gather little do not חסר, giving the table's unverified root match a specific scene of equal sufficiency."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.2.10",
+          "basis": "one father and Creator, shared obligation",
+          "note": "Malachi asks whether the community has one father and one Creator, then asks why its members betray one another; it connects common origin to ethical duty, while its immediate scope is covenant Israel rather than all humanity."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.26",
+          "basis": "all nations from one ancestor",
+          "note": "The commentary pairs lineage with the universal human category; Paul says God made every nation from one ancestor and appointed their times and boundaries, giving common human origin a concrete biblical formulation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.27",
+          "basis": "all peoples directed to seek God",
+          "note": "Paul continues that the nations' situation is ordered so they might seek God; this adds a shared religious task to the common ancestry in the preceding verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Eph.2.10",
+          "basis": "good works as the result of grace",
+          "note": "The preceding verses deny that works earn salvation, but Ephesians says believers are created in Christ for good works; this preserves a role for deeds while locating them as the result, not the basis, of salvation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "Sanhedrin 37a",
+          "basis": "Adam's seal and each person's uniqueness",
+          "note": "The Mishnah's single Adam is expanded: humanity bears one divine seal, yet no person resembles another and each must regard the world as created for them. This adds individual worth to the commentary's inclusion of every rank."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "1 Clement 13:1",
+          "basis": "Christian reception of Jeremiah's anti-boasting formula",
+          "note": "Clement applies Jeremiah's warning against boasting in wisdom, strength, and wealth to Christian humility, giving an early Christian interpretation of the status critique in Jeremiah 9."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 4:3",
+          "basis": "impartial correction and just judgment",
+          "note": "The church rule commands just judgment and no partiality when correcting transgressions; it gives the commentary's move from rank to religious conduct a concrete communal practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.16",
+          "basis": "associate with the lowly, do not be haughty",
+          "note": "Paul tells the community not to be proud and to associate with the lowly; the Greek can also mean associating with humble things, so this is a specific but textually ambiguous answer to elite distance from low-status people."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "77b7744a8176e3c5fb7ddd4a58700105e2d9c4a6fdc84eef420d618d0b958d77",
+    "followup_sha256": "77b7744a8176e3c5fb7ddd4a58700105e2d9c4a6fdc84eef420d618d0b958d77"
+  },
+  "consolidation_error": null,
+  "list_sha256": "3b4e945570c58049d4d47636a789f713ac7291143b0c9a83abda0313c6eb0e18",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 476883,
+    "cached_input_tokens": 390912,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 70368,
+    "reasoning_output_tokens": 62769,
+    "total_tokens": 547251
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:39:12.306Z",
+  "artifacts": {
+    "started.json": "a1b87b5637b63e5b75efe394d22beb17bc3865dd102d2bebdc8e07cd9fcd6d43",
+    "input.json": "64168f5b21070c60b2889e85c0907af494969c92b82cadf9127e38177f99e237",
+    "prompt.md": "a5b98e547c339327f1e8cab32b7d78da0bec147d859eed921bd7f98b7b48742f",
+    "package.md": "39d1344a73956e9fb1da6ce08b1b5a16ac4d81267fbf67ee10e3d1279a0fc4ec",
+    "spawn.md": "20807930395822dbdb6d43d4ad6d51f071b1b55f7d7db5ea3d265800cb8c25b9",
+    "followup.txt": "ecac5b7963e9682b032cd6562dd5d9e5c5fe59f35b848c4908c585b72022d44e",
+    "turn1.json": "6308ac3c4763342e5271a049f4f8b33dd0f38799d6d981a21d17e6f445305a47",
+    "turn1.list.tsv": "9b8befc28012dabe519a56100a0a6d683a4fe94c1504ffd9545eb8c10c1f28e9",
+    "followup.tsv": "77b7744a8176e3c5fb7ddd4a58700105e2d9c4a6fdc84eef420d618d0b958d77",
+    "list.tsv": "3b4e945570c58049d4d47636a789f713ac7291143b0c9a83abda0313c6eb0e18",
+    "consolidation.json": "60df155dbad5420b9ca1bb4b31f2b79a6b3dfa9d8c4eb78a2b95e2f7156399e5",
+    "validation.json": "b1f60989258b8655e52f09d5114412a28322ab540bf848daae65bbb84cd9575c",
+    "proposal_validation.json": "5791543f71a6a2ff33bdd7a8ae256ebad89624159ecf3ccf6bf5792d7760b2d1",
+    "tool_calls.json": "274112228a9b0536262d5055b01420989807ed68666c47a3cf29c89a2cefa2f9",
+    "session.json": "839495e6eadf6c46c417bb464f08a6434c1ad6d1ffee41d46879ca7a20965263",
+    "session.events.jsonl": "1a254cfedff6f386dbc861df66464343d5c1a8fa36de7386035d98cbb76fc5b4"
+  },
+  "usd_equivalent": 0.04769,
+  "requests": 9,
+  "max_request_input_tokens": 90343,
+  "total_input_tokens": 476883,
+  "total_cached_input_tokens": 390912,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 70368,
+  "policy_notes": [
+    "turn 1 call_0030d91b45e74e4c981416d23b3962b6: local script on its own files (perl)",
+    "turn 1 call_2591b397c0424adf8153bc8d3544664e: local script on its own files (perl)"
+  ]
+}

@@ -1,0 +1,1730 @@
+{
+  "target": "87:8",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/87_8.md",
+  "base_sha256": "24b9ca9adf42d34cdd2521e82d663316d5704914ace73d91efb5f2a17a0175f6",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T14:08:04.195256-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_87_8_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "dcb1a5eceed982b9bd3412dd19a904acfe28cb806fec464c6b3f981012401a2d",
+  "package_sha256": "443327cea296cb24169fba91b8a69c405bd7528e2654bfcfb5c73180237ccbd9",
+  "input_sha256": "74f17388ac5b92660e27b33fd7fe8c73a63de6f16cf1e91249d23bb4ca70dde6",
+  "spawn_sha256": "365dbbcde9cfef01e602c9361d0d62f51d1d7fe2f5c00bca0a2c2a56d1ba7c74",
+  "followup_text_sha256": "8ef40c2ff88d21590c55a9ba628e9fe20ceff678bb07c642e1182bfbe33302cd",
+  "agent_id": "01a10d41-2501-7a20-82ff-65a01da4635f",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T14-08-55-01a10d41-2501-7a20-82ff-65a01da4635f.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 83,
+  "turn1_sha256": "1ad1a08f2f4e4bfcdb3dcea99e0c9036d0fb99820e8d0ccb933058944ee114fd",
+  "turn2": {
+    "completed": true,
+    "rows_total": 126,
+    "rows_added": 43
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 83,
+    "raw_proposal_rows": 43,
+    "unique_additions": 43,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.4.10",
+          "basis": "Musa'nın ağır ağzı ve dili",
+          "note": "Yorum Musa'nın dilindeki düğümün çözülmesini, işi yapacak kişinin de hazırlanmasını açar; Çıkış'ta Musa Firavun görevi karşısında ağzının ve dilinin ağır olduğunu söyler; aynı çağrıdaki konuşma engelini yan yana getirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.4.12",
+          "basis": "Tanrı'nın Musa'nın ağzıyla olması",
+          "note": "Yorumda Allah dili söze hazırlar; ayette YHWH Musa'ya ağzıyla birlikte olacağını ve ne söyleyeceğini öğreteceğini vaat eder; kolaylaştırmanın yalnız görevden değil konuşanın donatılmasından oluştuğunu somutlaştırır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.4.10",
+          "basis": "lisān ve İbranice lāšôn",
+          "note": "Yorumun Musa'nın lisānındaki düğüm ayrıntısına karşılık ayette Musa'nın lāšôn'u ağırdır; Arapça lisān ile İbranice lāšôn aynı Semitik “dil” kelime ailesidir ve aynı Musa sahnesinde konuşma yeterliliğini taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Exodus Rabbah 1:26",
+          "basis": "közün Musa'nın dilini yakması",
+          "note": "Yorum Musa'nın çözülecek dil düğümünü dua bağlamında verir; Exodus Rabbah, çocuk Musa'nın közü ağzına götürmesiyle dili yanan bir Musa anlatısı kurar; rabbinik gelenek konuşma zorluğuna somut bir köken hikâyesi ekler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Acts.7.22",
+          "basis": "Musa'nın sözde güçlü oluşu",
+          "note": "Yorum Musa'nın dinleyiciler anlayabilsin diye dili çözülsün diye dua ettiğini işler; Elçilerin İşleri Musa'yı “sözlerde ve işlerde güçlü” diye niteler; iki gelenekte aynı figürün hitabeti ters yönlerde çizilir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.18.18",
+          "basis": "Musa'nın taşıyamadığı ağır iş",
+          "note": "Yorum Musa'nın işinin kolaylaşması için dua ettiğini ve kolaylığın yükü taşınır kıldığını vurgular; Yitro, halkı yargılama işinin Musa için fazla ağır olduğunu ve tek başına taşıyamayacağını söyler; aynı Musa görevinin yükü burada paylaşım yoluyla hafifler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Num.11.14",
+          "basis": "Musa'nın halk yükünü tek başına taşıyamaması",
+          "note": "Yorumdaki belini büken yük ve Musa'nın kolay iş duasına karşılık Musa, bütün halkı tek başına taşıyamadığını, yükün kendisine fazla ağır geldiğini söyler; peygamberlik hizmetinin yol değil hizmetkâr üzerinde ağırlık oluşturduğunu gösterir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.18.18",
+          "basis": "Peygamberin ağzına konan sözler",
+          "note": "Yorumda okutulan ve unutmayacak olan peygamber daha sonra öğüt verecektir; ayette YHWH peygamberin ağzına kendi sözlerini koyar ve onun emredileni söylemesini ister; sözün ilahî kaynağı ile elçinin ağzı arasındaki bağı verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.1.9",
+          "basis": "Ağza dokunup söz koymak",
+          "note": "Yorum, sözün dile hafif gelmesi ve konuşanın söze hazırlanması üzerinde durur; Yeremya'nın çağrısında YHWH ağza dokunup sözlerini onun ağzına koyar; konuşma yetisinin çağrı anında dışarıdan verildiği bir peygamber örneğidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.50.4",
+          "basis": "Öğretilmiş dil ve uyandırılmış kulak",
+          "note": "Yorum Musa'nın dili çözülsün ki insanlar sözü anlasın der ve peygamberin önce okutulduğunu anlatır; ayet, yorguna söz söylemek için öğretilmiş bir dil ile her sabah dinlemeye uyandırılan kulağı birleştirir; alma ve aktarma aynı kişide hazırlanır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.19",
+          "basis": "Ezginin yazılıp ağızlara konması",
+          "note": "Yorumdaki okutma, unutmama ve ardından hatırlatma zincirine karşılık YHWH Musa'ya ezgiyi yazmasını, İsrail'e öğretmesini ve ağızlarına koymasını buyurur; kalıcı sözün toplulukta ezberlenip öğretilmesi için açık bir modeldir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.59.21",
+          "basis": "Sözün ağızdan ayrılmaması",
+          "note": "Yorum “unutmayacaksın” vaadini ve sözün dile hazır oluşunu işler; ayette YHWH'nin sözü kişinin, çocuklarının ve torunlarının ağzından ayrılmayacaktır; ilahî sözün kuşaklar boyunca ağızda tutulmasıyla karşılaşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.11",
+          "basis": "Emrin erişilmez derecede zor olmaması",
+          "note": "Yorum yusrâ'yı zorluğun karşıtı ve kişinin ona yatkın kılınması olarak açıklar; ayet emrin ne aşırı güç ne de uzak olduğunu söyler; Tanrısal buyruğun imkânsızlaştırılmadığı ortak iddiasını verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.14",
+          "basis": "Sözün ağızda ve yürekte yakın oluşu",
+          "note": "Yorumda söz dile kolay gelir, kişi de söze hazır olur; ayette söz ağızda ve yürektedir ki yapılsın; dışarıdaki yolun düzeltilmesinden çok insanın içi ve ağzındaki hazır oluşa yaklaşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.1.8",
+          "basis": "Ağızdan ayrılmayan kitap ve başarılı yol",
+          "note": "Yorum, okunan söz ile kolaylaşan kişinin yola koyulmasını bağlar; Yeşu'da kitabın ağızdan ayrılmaması ve gece gündüz üzerinde düşünülmesi, yolun başarılı olmasıyla ilişkilidir; söz, bellek ve yürüyüş tek ayette birleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.8.8",
+          "basis": "Okuma ile dinleyenin anlaması",
+          "note": "Yorum Musa'nın “sözümü anlasınlar” dileğini ve kolaylaştırılmış sözle öğüt vermeyi geliştirir; Ezra'nın çevresindeki okuyucular kitabı açıkça okuyup anlamını verir, halkın okumayı anlamasını sağlar; okuyanın yeterliliği ile muhatabın kavrayışı birlikte görünür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.3.10",
+          "basis": "Sözün yürek ve kulakta alınması",
+          "note": "Yorum Allah'ın gizliyi bilen olarak peygamberi söze yatkınlaştırdığını anlatır; Hezekiel'e söylenen bütün sözleri yüreğine alması ve kulaklarıyla dinlemesi buyrulur; dışarıdan gelen vahyin önce içte yerleşmesi karşılığıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.3.17",
+          "basis": "Bekçinin duyup uyarması",
+          "note": "Yorumdaki “öyleyse öğüt ver” emri, kolaylaştırılmış peygamberi hatırlatıcı yapar; Hezekiel bekçi atanır, Tanrı'nın ağzından sözü duyup halkı uyaracaktır; elçinin uyarma görevi ile dinleyicinin sonucu ayrılır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.26",
+          "basis": "Öğretip hatırlatan Ruh",
+          "note": "Yorumda okutma, unutmama ve hatırlatma birbirine bağlanır; Yuhanna'da Paraklet öğrencilere her şeyi öğretip İsa'nın söylediklerini hatırlatacaktır; hatırlamanın ilahî yardım ile korunması doğrudan bir karşılıktır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.21.15",
+          "basis": "Verilen ağız ve hikmet",
+          "note": "Yorum Musa'nın ve peygamberin dilinin söze hazırlanmasını işler; İsa tanıklık verecek öğrencilere karşı konulamayacak bir ağız ve hikmet vereceğini söyler; konuşanın kendisinin göreve donatılması ortak noktadır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.24.45",
+          "basis": "Yazıları anlamak için açılan zihin",
+          "note": "Yorumda kolaylaştırma, kişinin içinde gizli olanı bilenin onu söze yatkın kılmasıdır; İsa öğrencilerin zihinlerini Yazıları anlayabilmeleri için açar; görevden önce içsel kavrayışın açılmasıyla buluşur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.16",
+          "basis": "İçte yaşayan söz, öğretme ve uyarma",
+          "note": "Yorumda söz kolaylaşınca öğüt başlar; ayet Mesih'in sözünün toplulukta bolca yaşamasını, bunun öğretme ve birbirini uyarma doğurmasını ister; içselleşen sözün hatırlatıcı konuşmaya dönüşmesini verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.4.17",
+          "basis": "Güçlenen elçi ve tamamlanan duyuru",
+          "note": "Yorum kolaylığın dinlenmek değil öğüt verme işini sürdürebilmek olduğunu söyler; Pavlus, Rabbin kendisini güçlendirdiğini ve böylece duyurunun tamamlanıp ulusların duymasını anlatır; güç verme doğrudan ilan hizmetine bağlanır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.32",
+          "basis": "Genişletilmiş yürekle koşmak",
+          "note": "Yorum göğsün açılması, kişiye yatkınlık verilmesi ve hafif adımla yol alma imgelerini birleştirir; mezmurcu, Tanrı yüreğini genişlettiği için buyrukların yolunda koşacağını söyler; yolcu içten hazırlanır ve yürüyüşü hızlanır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.12",
+          "basis": "Daralmayan adım ve tökezlemeyen koşu",
+          "note": "Yorumdaki hafif bacaklar ve takılmadan ilerleyen binek, yolun değil hareket edenin kolaylığıdır; Süleyman'ın özdeyişinde yürüyenin adımı sıkışmaz, koşanın ayağı sürçmez; akıcı yürüyüş imgesi somutlaşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.31",
+          "basis": "Yorulmadan koşmak için yenilenen güç",
+          "note": "Yorum yük ortadan kalkmasa da kolay gidişin mümkün olduğunu söyler; Yeşaya'da YHWH'yi bekleyenlerin gücü yenilenir, koşup yorulmazlar; ilahî yardımın yolcunun dayanıklılığında görünmesine karşılıktır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.13.21",
+          "basis": "Önden gidip yolu gösteren Rab",
+          "note": "Yorum 87:3'teki hidayeti önden giden kılavuz, 87:8'i onun ardından yumuşakça gelen yolcu olarak okur; Çıkış'ta YHWH halkın önünden gidip onlara yolu gösterir; rehberin önden gitmesi ayrıntısı aynıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.81.7",
+          "basis": "Omuzdan kaldırılan yük",
+          "note": "Yorum 94. sureden bel büken yükün indirilmesini ve kolaylığın yük altında ilerlemeyi sağladığını alır; mezmurda Tanrı omuzdaki yükü kaldırır ve elleri sepetten kurtarır; yükün yolcudan alınması ortak somut imgedir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.10.27",
+          "basis": "Omuzdan kalkan yük ve boyunduruk",
+          "note": "Yorumdaki yükün indirilmesi, kolaylaştırılan kişinin görevden çekilmemesiyle dengelenir; Yeşaya'da yük omuzdan, boyunduruk boyundan kalkar; beden üzerindeki baskının kaldırılması aynı dilsel sahneyi sağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.1",
+          "basis": "Ağırlığı bırakıp yarışı koşmak",
+          "note": "Yorumdaki binek, yük varken bile iyi adım atar ve kolaylaştırılan kişi yeniden işe konur; İbraniler ağırlığı ve saran günahı bırakıp önlerindeki yarışı sabırla koşmayı buyurur; yük ile sürmekte olan koşu birlikte düşünülür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.11.30",
+          "basis": "Kolay boyunduruk ve hafif yük",
+          "note": "Yorum kolaylığı yalnız yolun düzlüğü değil yük taşıyan kişinin hazırlanışı olarak anlatır; İsa boyunduruğunu kolay, yükünü hafif diye niteler; ağır işin kaldırılması yerine taşınabilir hâle gelmesiyle yakınlaşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.5.3",
+          "basis": "Ağır olmayan buyruklar",
+          "note": "Yorumda vahiy hem ağır söz hem de öğüt için kolaylaştırılmış sözdür; ayet Tanrı buyruklarının ağır olmadığını söyler; ilahî istemin alıcı için taşınabilirliği açıkça paylaşılır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.1.29",
+          "basis": "İçte etkin güçle emek vermek",
+          "note": "Yorum, kolaylaştırmanın kenara çekilmek değil hatırlatma yükünü taşımak olduğunu belirtir; Pavlus kendi emeğini içinde kudretle işleyen enerjiye göre verdiğini söyler; ilahî güç ile süren emek aynı cümlede bulunur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.13",
+          "basis": "İstemek ve yapmak için içte işleyen Tanrı",
+          "note": "Yorum yassara fiilini “hazırlamak, yatkınlık vermek” diye duyar; ayet Tanrı'nın insanda hem istemeyi hem yapmayı gerçekleştirdiğini söyler; eylemden önceki iç yönelişe ilişkin belirgin bir karşılıktır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.13.21",
+          "basis": "İradeyi yapmak için donatılmak",
+          "note": "Yorumdaki kolaylaştırılan kişi öğüt ve hizmet için hazırlanır; ayet Tanrı'nın inanlıları isteğini yapmak üzere her iyi şeyle donatmasını ve onlarda hoşnut olduğu şeyi işlemesini diler; kişi üzerinde gerçekleşen ilahî yeterlilik vurgulanır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.10",
+          "basis": "Boşa olmayan lütuf ve daha çok emek",
+          "note": "Yorumdaki kolaylık çalışmayı sona erdirmez, ardından “öğüt ver” gelir; Pavlus lütfun kendisinde boşa olmadığını, daha çok emek verdiğini ama bunun Tanrı'nın lütfuyla olduğunu söyler; verilmiş imkân ile kesintisiz iş arasındaki bağı kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.10",
+          "basis": "Önceden hazırlanmış işlerde yürümek",
+          "note": "Yorum yolun değil yolcunun en kolaya hazırlandığını vurgular; ayet Tanrı'nın önceden hazırladığı iyi işlerde yürümek üzere insanları yarattığını söyler; hazırlanma ile yürünecek yön aynı ifadede bağlanır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.21",
+          "basis": "Her iyi iş için hazırlanmış kap",
+          "note": "Yorumdaki nuyessiruka, kişiyi bir iş için hazır hâle getirme olarak açıklanır; ayet temizlenmiş kişiyi sahibine yararlı ve her iyi iş için hazırlanmış bir kap diye tanımlar; doğrudan kişi-merkezli hazırlık benzetmesidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.4",
+          "basis": "Dilde belirmeden bilinen söz",
+          "note": "Yorum kolaylaştırma vaadini açık ve gizliyi bilen konuşanın verdiğini özellikle söyler; mezmurda söz henüz dildeyken YHWH'nin onu bütünüyle bildiği belirtilir; gizli bilgi ile dil ilişkisi aynı ayrıntıda buluşur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.2.22",
+          "basis": "Derin ve gizli olanı bilen Tanrı",
+          "note": "Yorum 87:7'nin açık olanı ve gizliyi bilen Rabbini 87:8'in faili yapar; Daniel'de Tanrı derin ve gizli şeyleri açar, karanlıktakini bilir; ilahî bilginin saklı olana erişmesi ortak iddiadır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.13",
+          "basis": "Hiçbir yaratığın gizli olmaması",
+          "note": "Yorumdaki “içte gizli kalanı bilen” failin hazırlamasıyla karşılık ayet hiçbir yaratığın Tanrı'nın gözünden gizli olmadığını söyler; iç hâlin ilahî bilgiye açıklığı korunur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.2.25",
+          "basis": "İnsanın içindekini bilen İsa",
+          "note": "Yorum kolaylaştırmanın insanın gizli tarafını bilen tarafından verildiğini söyler; Yuhanna İsa'nın insanın içinde ne olduğunu bildiğini belirtir; söz alan kişinin içinin bilinmesi iki bağlamda da yetkinlik temelidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.16.14",
+          "basis": "Söze dikkat için açılan yürek",
+          "note": "Yorum, kişiyi sözün ve hidayetin yönüne yatkınlaştırmayı göğsün açılmasıyla açıklar; Rab Lidya'nın yüreğini Pavlus'un söylediklerine dikkat etmesi için açar; muhatabın içsel hazırlanışı doğrudan görünür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.8.2",
+          "basis": "dhikr/tadhkira ve İbranice zkr",
+          "note": "Yorumun dhikr ve tadhkira'sı öğüt almayı, unutmanın karşısında hatırlamayı taşır; ayette İsrail çölde Tanrı'nın kendisini götürdüğü bütün yolu zkr köküyle hatırlar; kök akrabalığı, hatırlama ile ilahî rehberlik bağını da korur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.6.10",
+          "basis": "Ağırlaşan kulak ve kapanan göz",
+          "note": "Yorum aynı sözün inananda hidayet ve şifa, inanmayanın kulağında ağırlık ve gözünde körlük olmasını işler; Yeşaya'nın görevlendirmesi halkın yüreğini kalınlaştırır, kulaklarını ağırlaştırır ve gözlerini kapatır; dinleyici direncinin duyusal dili örtüşür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.7.11",
+          "basis": "İnatçı omuz ve işitmeyen kulak",
+          "note": "Yorumun yumuşakça yön değiştirip rehberi izleyen binek karşıtı, öğütten yana çekilen kişidir; Zekeriya'da halk dinlemeyi reddeder, inatçı omuz çevirir ve kulaklarını işitmez kılar; bedensel direnç ile sözden kaçınma birleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Yoma 72b",
+          "basis": "Torah'ın hayat ya da ölüm iksiri oluşu",
+          "note": "Yorum aynı Kur'an'ın birine hidayet ve şifa, ötekine ağırlık ve körlük oluşunu vurgular; Yoma'da Torah'ın ona layık yaklaşan için hayat, layık olmayan için ölüm iksiri olduğu açıklanır; aynı sözün alıcıya göre ters etkisi rabbinik yorumda keskinleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.2.16",
+          "basis": "Aynı duyurunun ölüm ya da hayat kokusu",
+          "note": "Yorumdaki aynı sözün iki dinleyicide hidayet ya da ağırlık olmasıyla karşılık Pavlus aynı kokunun bir gruba ölümden ölüme, ötekine hayattan hayata olduğunu söyler; mesajın sonucu muhataba göre ayrılır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.15",
+          "basis": "Körelmiş kulak, kapatılmış göz",
+          "note": "Yorumda öğütten kaçan ve kulaklarında ağırlık bulunan kişi tasvir edilir; İsa'nın alıntıladığı ayette halkın kulağı ağır işitir, gözleri kapanır ve yüreği körelir; söze erişemeyen dinleyicinin üçlü tasviri yakındır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.15",
+          "basis": "Sesi işitince yüreği katılaştırmamak",
+          "note": "Yorumda öğüt fayda verecek kişiye yönelir, en bedbaht ise ondan uzaklaşır; ayet “bugün sesini işitirseniz yüreklerinizi katılaştırmayın” diye uyarır; hatırlatmanın zorlamadan çağırdığı karşılık belirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.19",
+          "basis": "Hayat ve ölüm arasında seçim",
+          "note": "Yorum 92. surede kişinin en kolay ya da en zora hazırlanabileceği iki yönü 87:8'e taşır; ayette hayat ve ölüm, bereket ve lanet önüne konur ve hayat seçilmeye çağrılır; yönlerin ahlâkî karşıtlığı somuttur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 15:17",
+          "basis": "İnsanın önündeki hayat ve ölüm",
+          "note": "Yorumda hidayete uyan ile öğütten yüz çevirenin iki sonucu ayrılır; Sirak, insanın önüne hayat ve ölümün konduğunu, seçtiğinin kendisine verileceğini söyler; yola yönelmenin sonuç doğurması Yahudi hikmet geleneğinde açıklaşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1QS 3:17–19",
+          "basis": "Işık ve karanlığın iki ruhu",
+          "note": "Yorum kişinin en kolaya veya en zora hazırlanmasından söz eder; Topluluk Kuralı insanın yürüyüşünü hakikat ve eğrilik ruhlarının iki yoluyla, Tanrı'nın düzenlediği paylarla açıklar; iç yönelim ile kozmik yönlendirme arasındaki gerilimi yanına getirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 1.1",
+          "basis": "Hayat ve ölümün iki yolu",
+          "note": "Yorumdaki kolaylığa ve zorluğa giden karşıt yönlere karşılık Didache öğretisini hayat yolu ile ölüm yolu diye açar; iki ahlâkî güzergâhın sonucu yolcunun gidişine bağlanır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Shabbat 104a",
+          "basis": "Arınmaya gelene yardım, kirlenmeye gelene yol açılması",
+          "note": "Yorum, kişinin hangi yöne hazırlandığına göre kolay ya da zor olana gittiğini söyler; Talmud arınmaya gelenin yardım gördüğünü, kirlenmeye gelene ise bir açıklık verildiğini öğretir; ilahî yardım ile insanın yönelişini birlikte tutan rabbinik bir karşılıktır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, Confessions 10.29.40",
+          "basis": "“Buyurduğunu ver” duası",
+          "note": "Yorumdaki “seni kolaylaştıracağız” emre muhatap kişiye yatkınlık verilmesidir; Augustinus Tanrı'dan buyurduğunu vermesini ve dilediğini buyurmasını ister; ilahî buyruk ile onu yapabilme gücünü bağlayan Hristiyan yorumudur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.17",
+          "basis": "Serveti kendi güçle edinme iddiası",
+          "note": "Yorum, varlığın kolaylığının kişiyi ihtiyaçsız sayıp en zora hazırlayabileceğini söyler; ayette kişi serveti kendi gücü ve elinin kudretiyle yaptığını söylemekle uyarılır; istighnâ'nın kendine yeterlik iddiasına somut bir karşılıktır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.18",
+          "basis": "Servet edinme gücünü verenin hatırlanması",
+          "note": "Yorum malın kolaylığının ilahî hazırlıkla karıştırılmamasını ister; ayet servet edinme gücünü verenin YHWH olduğunu hatırlatır; varlığın kaynağını kendine değil Tanrı'ya bağlayan karşı ağırlıktır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.24",
+          "basis": "Saçanın artması, esirgeyenin eksilmesi",
+          "note": "Yorum en kolaya hazırlananı veren, en zora hazırlananı cimrilik eden diye karşılaştırır; özdeyiş, saçanın daha da arttığını, gerektiğinden çok esirgeyenin ise eksildiğini söyler; verme ile görünür ekonomik kolaylığın ters yüz oluşu aynıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.20",
+          "basis": "Ölüm karşısında yararsız kalan birikim",
+          "note": "Yorum 92:11'i, düşüş geldiğinde malın fayda vermemesiyle en zora giden kendine yeter kişi bağlamında okur; zengin budala bu gece canının isteneceğini ve hazırladığı şeylerin başkasına kalacağını duyar; birikimin son anda koruyamaması ortak ayrıntıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.3.17",
+          "basis": "“Hiçbir şeye ihtiyacım yok” diyen zengin",
+          "note": "Yorumdaki istighnâ, varlıklı olup kimseye muhtaç olmadığını sanan kişinin en zora yönelmesidir; Laodikyalı “zenginim, hiçbir şeye ihtiyacım yok” der ama yoksul ve çıplak olduğunu bilmez; öz-yeterlik yanılgısı neredeyse aynı biçimde görünür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.27",
+          "basis": "Borçlunun bağışlanan borcu",
+          "note": "Yorum darlık içindeki borçluya süre tanımayı ve bağışlamayı kolaylığın maddî yüzüyle ilişkilendirir; benzetmede efendi borçluya acıyıp onu serbest bırakır ve borcunu bağışlar; süre/merhamet yerine daha ileri bir borç kaldırma örneği verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.33",
+          "basis": "Kura atılsa da hükmün YHWH'den oluşu",
+          "note": "Yorum meysirde payın okla rastlantıya bırakılmasını, 87:8'deki ölçen ve hazırlayan failden ayırır; özdeyiş kura kucağa atılsa da her hükmünün YHWH'den olduğunu söyler; pay belirleyen aracın ilahî hükümle yeniden çerçevelenmesini sağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.18.10",
+          "basis": "YHWH önünde kurayla ülke paylaştırmak",
+          "note": "Yorumdaki kesilmiş devenin oklarla paylaştırılması ile ilahî ölçü/paylaştırma karşılaştırılır; Yeşu Şilo'da YHWH önünde kura çeker ve ülkeyi İsrailliler arasında paylaştırır; aynı dağıtım aracı oyun değil kutsal topluluk düzenidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Bava Batra 122a",
+          "basis": "Kura ile Urim ve Tummim'in birlikte işleyişi",
+          "note": "Yorumda meysir payı şansa bırakır, 87:8'de ise fail açıkça “biz”dir; Bava Batra toprak paylaştırmasındaki kurayı Urim ve Tummim yoluyla ilahî bildirimle birlikte açıklar; kuranın bağımsız talih değil tanrısal hükme bağlı okunmasına örnektir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.1.24",
+          "basis": "Yürekleri bilen Rabbe seçim duası",
+          "note": "Yorum, gizliyi bilen fail ile pay/istikamet veren faili birleştirir; elçiler aday seçmeden önce bütün yürekleri bilen Rabbe kimin seçildiğini göstermesi için dua eder; gizli iç bilgisi seçim bağlamına girer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.1.26",
+          "basis": "Matthias için kura çekilmesi",
+          "note": "Yorum meysir kurasını, Allah'ı anma ve namazdan alıkoyan oyun olarak eleştirir; elçiler Matthias'ı on birlerle saymak için kura kullanır; aynı teknik burada para oyunu değil elçilik makamı seçiminin son işlemi olur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.66.24",
+          "basis": "Sönmeyen ateş ve ölmeyen kurt",
+          "note": "Yorum en bedbahtın büyük ateşe gireceğini, orada ne ölü ne diri kalacağını söyler; Yeşaya'nın sonunda isyancıların kurdunun ölmediği ve ateşinin sönmediği görülür; cezayı bitmeyen bedensel azap diliyle betimleyen yakın bir sahnedir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.9.48",
+          "basis": "Ölmeyen kurt, sönmeyen ateş",
+          "note": "Yorumdaki büyük ateş ve ölüm olmayan ceza durumuna karşılık İsa, kurdun ölmediği ve ateşin sönmediği yargı imgesini kullanır; Yeşaya imgesinin Hristiyan metnindeki devamı bu son karşıtlığı genişletir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.18",
+          "basis": "Geçici görünenler ve kalıcı görünmeyenler",
+          "note": "Yorum dünya hayatının tercih edilmesi karşısında ahiretin daha hayırlı ve daha kalıcı oluşunu anar; Pavlus görünenlerin geçici, görünmeyenlerin ebedî olduğunu söyler; değer ölçüsünün şimdiki görünenin ötesine taşınması aynıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.2.17",
+          "basis": "Geçen dünya ve kalan Tanrı isteğini yapan",
+          "note": "Yorumda kalıcı olan ahiret, geçici dünya tercihinin karşısındadır; ayet dünyanın ve arzusunun geçip Tanrı'nın isteğini yapanın sonsuza dek kalacağını söyler; yürünülen yön ile kalıcılık arasındaki bağ sürer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.24",
+          "basis": "Musa'nın kitabı tamamlaması",
+          "note": "Yorum Musa'nın sayfalarını anan surenin bağlamında okutulan söz ve korunan bellek üzerinde durur; ayette Musa Torah sözlerini bir kitaba tamamlayıncaya dek yazar; Musa'ya nispet edilen sayfalara yazılı vahiy tarafından bir komşu metin verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.20.9",
+          "basis": "İçte yakıcı, tutulamayan söz",
+          "note": "Yorum öğüt için kolaylaştırılan sözün başka yerde peygamber üzerine bırakılan ağır söz diye anıldığını söyler; Yeremya söylememeye çalışsa da sözün içinde yakıcı ateş gibi olduğunu ve tutamadığını anlatır; peygamberin sözü taşımasının zorlayıcı yüzünü ekler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.14.9",
+          "basis": "Anlaşılır sözü dille söylemek",
+          "note": "Yorum Musa'nın dilindeki düğümün dinleyiciler onun sözünü anlasın diye çözülmesini ister; Pavlus dil aracılığıyla anlaşılır söz verilmezse söylenenin nasıl bilineceğini sorar; konuşmanın ölçüsünü dinleyenin kavrayışına bağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.16.13",
+          "basis": "Duyduğunu söyleyen ve hakikate götüren Ruh",
+          "note": "Yorumda dile düşen iş öne geçmek değil okunanın ardından gitmektir; ayette Hakikat Ruhu duyduğunu söyleyecek ve öğrencileri bütün hakikate götürecektir; alınan sözün ardından konuşma ve rehberlik birleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.3.19",
+          "basis": "Geyik ayaklarıyla yükseklerde yürümek",
+          "note": "Yorum hafif bacaklı hayvanın sarp yolun kendisini değiştirmeden iyi adımla çıkmasını resmeder; Habakkuk Tanrı'nın ayaklarını geyiğin ayakları gibi kıldığını ve yüksek yerlerde yürüttüğünü söyler; güçlenen yolcunun dik zeminde ilerlemesi karşılığıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.13",
+          "basis": "Ayaklar için düz yollar ve iyileşen sakatlık",
+          "note": "Yorum yolun değil yolcunun kolaylaştırılmasını öne çıkarır; İbraniler ayaklar için düz yollar yapılmasını, sakat olanın yerinden çıkmak yerine iyileşmesini ister; yol düzeni ile yürüyenin onarımı aynı pastoral imge içinde tutulur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.16",
+          "basis": "Pürüzlü yeri düzleyen rehber",
+          "note": "Yorum 87:8'i yolu değil yolcuyu kolaylaştırmak diye ayırır; Yeşaya'da YHWH körleri bilinmeyen yolda götürür ve pürüzlü yerleri düz eder; aynı ilahî kolaylığın burada özellikle güzergâhı değiştiren biçimi, yorumdaki ayrımı görünür kılar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 3:5",
+          "basis": "Torah boyunduruğu ve kaldırılan başka yükler",
+          "note": "Yorum yükün indirilmesinin kişiyi görevden muaf tutmadığını söyler; Avot Torah boyunduruğunu kabul edenin yönetim ve geçim kaygısı boyunduruğundan serbest kalacağını öğretir; dinî yükün başka yükleri hafifleten rabbinik yorumu verilir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 6.2",
+          "basis": "Rabbin boyunduruğunu güce göre taşımak",
+          "note": "Yorum gece okumada “kolay gelen” ölçüsünü ve yükün taşınabilir olmasını birleştirir; Didache bütün Rab boyunduruğunu taşıyabileni yetkin sayar, taşıyamayana yapabildiğini emreder; kapasiteye göre dinî yük alma ilkesi yakındır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "Hayata götüren dar ve sıkışık yol",
+          "note": "Yorum peygambere yöneltilen yusrâ'yı ilahî hazırlıkla “en kolay” yön diye okur; İsa hayata götüren yolu dar ve sıkışık diye niteler; iki metin ahlâkî hedefe giden yolun zorluk dilini farklı kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 3:8",
+          "basis": "Unutulan Torah sözü ve zorlu çalışma istisnası",
+          "note": "Yorumdaki “unutmayacaksın” Allah'ın dilediği istisnasıyla sınırlıdır; Avot bir Torah sözünü unutmayı ağır sayar, fakat çalışması zor olanı istisna eder; unutmanın sorumluluk ve insanî güç sınırı altında rabbinik biçimde tartışıldığını gösterir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.15.1",
+          "basis": "Borçların bırakılması yılı",
+          "note": "Yorum darlık içindeki borçluya süre ve bağışlamayı maddî kolaylık örneği yapar; Tesniye her yedi yılın sonunda borç bırakılmasını buyurur; borçlunun yükünü azaltan toplumsal düzen buna yakın bir karşılıktır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.4.11",
+          "basis": "Ağzı, dilsizi ve sağırlığı yapan Rab",
+          "note": "Yorum Musa'nın dili çözülsün ve peygamber söze hazır kılınsın diye Tanrısal eylemi öne çıkarır; ayette YHWH ağzı yapanın, dilsizi ve sağırı var edenin kendisi olduğunu sorar; konuşma yeterliliği üzerindeki ilahî egemenliği doğrudan ekler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.1",
+          "basis": "Yüreğin tasarısı ve dilden gelen karşılık",
+          "note": "Yorum gizliyi bilenin hem kişiyi hem dilini söze yatkınlaştırdığını söyler; özdeyiş insanın yürek tasarılarını Tanrı'nın verdiği dil karşılığıyla karşılaştırır; iç düzen ile söyleyişin aynı ilahî failde bağlanmasına yakındır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.51.17",
+          "basis": "Açılan dudak ve ilan edilen övgü",
+          "note": "Yorum Musa'nın dil düğümünü ve peygamberin dile hazır oluşunu işler; mezmurcu Rabbin dudaklarını açmasını, böylece ağzının övgüyü ilan etmesini ister; konuşma kabiliyetinin dua ile Tanrı'dan beklenmesi karşılığıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.6",
+          "basis": "Yürek üzerinde duran sözler",
+          "note": "Yorumda okunan söz yalnız dışarıda kalmaz, kişiyi öğüt verme işine hazırlar; ayet bu sözlerin İsrail'in yüreğinde olmasını buyurur; sözün içe yerleşmesi için temel bir Torah formülüdür."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.7",
+          "basis": "Yolda tekrar edilen ve öğretilen söz",
+          "note": "Yorum okuyuşu, hatırlatmayı ve yol imgesini birlikte taşır; ayet sözleri çocuklara öğretmeyi, evde ve yolda onlardan söz etmeyi buyurur; bellek eğitimi ile yürüyüş bağlamı bir araya gelir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.33",
+          "basis": "İçe konup yüreğe yazılan Torah",
+          "note": "Yorum yassara'yı yolun dışını değiştirmekten çok insanı hazırlamak olarak okur; Yeremya Torah'ın insanın içine konup yüreğine yazılacağını vaat eder; normun yolcunun içini biçimlendirmesi daha açık hâle gelir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.36.27",
+          "basis": "İçteki Ruhun buyruklarda yürütmesi",
+          "note": "Yorumdaki en kolaya yatkın kılınan kişi hidayetin yönünde yürür; Hezekiel Tanrı'nın Ruhunu içe koyup halkı buyruklarında yürütmesini anlatır; içsel donatma ile dıştaki yürüyüş tek fiil dizisinde birleşir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.9",
+          "basis": "Tasarlanan yol ve Tanrı'nın kurduğu adımlar",
+          "note": "Yorum yolun değil yolcunun kolaylaştırıldığını, kişinin yönünün de Rab tarafından belirlendiğini vurgular; özdeyiş insanın yolunu tasarladığını ama adımlarını YHWH'nin kurduğunu söyler; yol ile adım atan kişi arasındaki ayrımı taşır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.23",
+          "basis": "Rab tarafından sağlamlaştırılan adımlar",
+          "note": "Yorumdaki hafif adımlar ve yönlendirilmiş yolcuya karşılık mezmur insanın adımlarının YHWH tarafından sağlamlaştırıldığını söyler; kolaylığın doğrudan yürüyenin adımlarında görünmesiyle buluşur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.9",
+          "basis": "Doğru yolda tökezlemeden yürütülmek",
+          "note": "Yorum sarp yolun yok edilmesi yerine kolay adımla alınmasını resmeder; Yeremya'da Tanrı halkı su kaynakları yanında doğru yolda, tökezlemeyecekleri biçimde yürütür; ilahî rehberlik ve yürüyüş yeterliliği birlikte verilir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.21",
+          "basis": "“Bu yoldur, onda yürüyün” sesi",
+          "note": "Yorum 87:3'ün önden giden kılavuzunu, 87:8'in ardından gelen yolcusuyla birleştirir; Yeşaya'da kulaklar sağa ya da sola sapıldığında “bu yoldur, onda yürüyün” diyen sözü işitir; rehberlik yön değiştirene seslenir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.48.17",
+          "basis": "Öğreten ve gidilecek yolda yürüten Rab",
+          "note": "Yorum, okuyuşu veren failin hidayeti de üstlendiğini söyler; ayette YHWH yarar için öğreten ve gidilecek yolda yürüten kurtarıcıdır; öğretme ile yönlendirme aynı ilahî iş olarak görünür."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.143.10",
+          "basis": "İyi Ruhun düz yerde götürmesi",
+          "note": "Yorum kişi yola yatkın kılınırken kolaylığın yük altında da sürdüğünü anlatır; mezmurcu Tanrı'nın isteğini yapmayı öğretmesini ve iyi Ruhunun kendisini düz yerde götürmesini ister; iç eğitim ile elverişli yürüyüş aynı duada buluşur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.1.31",
+          "basis": "Yol boyunca oğlunu taşıyan Tanrı",
+          "note": "Yorumdaki yükü hafifleten fail ve yolcunun kendisine verilen kolaylık, yola ilişkin bir çocuk imgesine açılır; Musa, çölde Tanrı'nın İsrail'i bir babanın oğlunu taşıması gibi bütün yol boyunca taşıdığını hatırlatır; yolcunun taşınması vurgulanır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.46.4",
+          "basis": "Yaşlılığa dek taşıyan ve kurtaran Tanrı",
+          "note": "Yorum yükün indirilmesinin ve kişinin taşınabilir hâle gelmesinin ilahî bir iş olduğunu söyler; Yeşaya'da Tanrı yaratmış, taşımış, taşıyacak ve kurtaracaktır; yük taşıyan insanın Tanrı tarafından taşınması karşı-imgeyi verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.6",
+          "basis": "Boyunduruğu çözmek ve ezileni serbest bırakmak",
+          "note": "Yorum 94. surede yükün indirilmesini, 87:8'de ise kolaylaştırılan kişiyi bir arada okur; Yeşaya'nın kabul edilen orucu boyunduruğun bağlarını çözmek ve ezilenleri özgür bırakmaktır; yükün toplumsal olarak sökülmesi ayrı bir uygulamadır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.15.7",
+          "basis": "Katı yürek ve kapalı elden kaçınmak",
+          "note": "Yorum en zora giden kişiyi cimrilik ve kendine yeterlikle, en kolaya gideni vermekle ilişkilendirir; ayet yoksul kardeşe karşı yüreği katılaştırmamayı ve eli kapatmamağı buyurur; iç sertlik ile vermeyi esirgeme arasındaki bağ aynıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.25.35",
+          "basis": "Yoksullaşan kardeşi desteklemek",
+          "note": "Yorum maddî kolaylığı borçlu ve darlık içindeki kişiyle ilgili merhamet olarak da ele alır; ayet eli zayıflayan kardeşi desteklemeyi, onun yanında yaşayabilmesini buyurur; darlığı paylaşarak hafifletmenin Torah örneğidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Makkot 10b",
+          "basis": "Kişinin gitmek istediği yolda götürülmesi",
+          "note": "Yorum insanın en kolaya ya da en zora hazırlanabileceğini, yönün kişinin gidişini belirlediğini söyler; Makkot “kişinin gitmek istediği yolda götürüldüğünü” öğretir; yol mecazını insan yönelişi ile ilahî karşılık arasında kurar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.17",
+          "basis": "Rab için hazırlanmış bir halk",
+          "note": "Yorum 87:8'i doğrudan kişinin en kolaya hazırlanması diye açıklar; Yahya'nın görevi Rab için “hazırlanmış bir halk” meydana getirmektir; hazırlık dilinin tek tek yol yerine insan topluluğuna yönelmesi yakındır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.7.35",
+          "basis": "Çözülen dil bağı ve doğru konuşma",
+          "note": "Yorum Musa'nın dilindeki düğümün çözülmesini dinleyicilerin anlayacağı konuşmaya bağlar; İsa'nın iyileştirdiği kişinin dil bağı çözülür ve doğru konuşur; düğüm/çözülme ile anlaşılır söyleyişin bedensel sahnesidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.2.4",
+          "basis": "Ruhun verdiği söyleyişle konuşmak",
+          "note": "Yorumda dile düşen iş, kendisine okutulan sözün ardından gitmektir; Pentekost'ta öğrenciler Ruhun kendilerine verdiği söyleyişle başka diller konuşmaya başlar; söz üretme yetisinin ilahî verilişi görünür."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.2.6",
+          "basis": "Her dinleyenin kendi dilinde işitmesi",
+          "note": "Yorum Musa'nın dileğinin dinleyicilerin onun sözünü anlaması olduğunu vurgular; Pentekost kalabalığı öğrencileri kendi lehçesinde konuşurken işitir; konuşanın donatılması ile muhatabın anlama imkânı birlikte gerçekleşir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.1.18",
+          "basis": "Aynı mesajın güç ya da akılsızlık oluşu",
+          "note": "Yorum aynı Kur'an'ın birinde hidayet, ötekinde ağırlık ve körlük olması üzerinde durur; çarmıh sözü mahvolanlara akılsızlık, kurtulanlara Tanrı'nın gücüdür; tek sözün alıcıya göre bölünen etkisi açıkça karşılanır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.12",
+          "basis": "Yüreğin düşünce ve niyetini ayırt eden söz",
+          "note": "Yorum kolaylaştırma sözünü insanın içte gizli kalanı bilenin verdiğini söyler; İbraniler Tanrı sözünün yüreğin düşüncelerini ve niyetlerini ayırt ettiğini anlatır; söz ile saklı iç hâlin bilgisi birleşir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.6.10",
+          "basis": "Dinleyemeyen kulak ve zevk vermeyen Rab sözü",
+          "note": "Yorumda en bedbaht öğütten uzaklaşır, aynı söz inanmayanın kulağında ağırlığa dönüşür; Yeremya halkın kulaklarının dinleyemediğini ve Rab sözünü zevk değil kınama saydığını söyler; reddedilen hatırlatmanın kendi bağlamındaki ayrıntısıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.23",
+          "basis": "Uyarıya dönene açılan sözler",
+          "note": "Yorum “öyleyse öğüt ver” emrini öğüde fayda ile karşılık verecek kişiyle bağlar; Hikmet uyarısına dönenlere ruhunu dökeceğini ve sözlerini bildireceğini vaat eder; hatırlatmaya dönmenin içsel açılış doğurması karşılığıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.6",
+          "basis": "Doğrunun ve kötünün yolu",
+          "note": "Yorum en kolay ile en bedbahtı karşıt güzergâhların uçları olarak işler; mezmur YHWH'nin doğru kişilerin yolunu bildiğini, kötülerin yolunun ise yok olacağını söyler; iki yolun farklı sonu temel bir Torah-mezmur formülünde belirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.19",
+          "basis": "Karanlıktaki kötü yol ve bilinmeyen tökezleme",
+          "note": "Yorum hidayete açık kişiyle sözden uzak duran kişinin ters yönlerini betimler; özdeyiş kötülerin yolunu karanlık sayar ve onların neye tökezlediklerini bilmediklerini söyler; kolay ve güvenli adımın karanlık karşıtını verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.17",
+          "basis": "Servete değil veren Tanrı'ya umut bağlamak",
+          "note": "Yorum varlığın kolaylığının kişiyi ihtiyaçsız sanmaya sürükleyebileceğini söyler; Pavlus zenginlere gururlanmamalarını, belirsiz servete değil her şeyi veren Tanrı'ya umut bağlamalarını buyurur; servet ile sahte güven arasındaki ayrımı taşır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.18",
+          "basis": "Zenginin vermeye ve paylaşmaya hazır olması",
+          "note": "Yorumda en kolaya giden kişi malını verir, cimri ise en zora hazırlanır; Pavlus zenginleri iyilikte zengin, cömert ve paylaşmaya hazır olmaya çağırır; malın doğru yönelişinin verme oluşu ortak etik noktadır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.20",
+          "basis": "Bozulmayan göksel hazine",
+          "note": "Yorum dünya hayatının tercihine karşı daha hayırlı ve daha kalıcı olanı koyar; İsa pasın ve güvelerin bozmadığı, hırsızların çalmadığı gökte hazine biriktirmeyi buyurur; servet bağlamında kalıcılığın ölçüsü değişir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.27.17",
+          "basis": "Halkın önünde giden ve onları çıkarıp getiren önder",
+          "note": "Yorum önden giden kılavuz ile ardından kolay gelen yolcu sahnesi kurar; Musa'nın ardılı halkın önünde çıkıp girecek ve onları çıkarıp getirecektir ki topluluk çobansız koyun olmasın; rehberin önde oluşu topluluk yönetiminde görünür."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.76",
+          "basis": "Rabbin yollarını hazırlamak için önden gitmek",
+          "note": "Yorum 87:8'in özgünlüğünü yolun değil yolcunun hazırlanması olarak ayırır; Zekeriya, oğlunun Rabbin önünde gidip yollarını hazırlayacağını söyler; aynı hazırlık dili burada özellikle güzergâha yönelir ve ayrımı keskinleştirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.2.27",
+          "basis": "İnsana göre Sabbath",
+          "note": "Yorum hastalık ve yolculukta kolaylık tanınmasını, Allah'ın insan için zorluk istememesiyle bağlar; İsa Sabbath'ın insan için yapıldığını söyler; dinî düzenin insanın yükü ve yararı bakımından okunmasına yakın bir ilke sunar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Acts.15.10",
+          "basis": "Taşınamayan boyunduruk",
+          "note": "Yorum ağır söz ile kolaylaştırılmış görev arasındaki gerilimi, ilahî yükün taşınabilir kılınmasıyla çözer; Kudüs toplantısında Petrus bazı Torah gereklerini ne ataların ne kendilerinin taşıyabildiği bir boyunduruk diye niteler; Hristiyan tartışması aynı yük dilini farklı bir düzenleme için kullanır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.3.1",
+          "basis": "Hatırlatma ile uyandırılan temiz düşünce",
+          "note": "Yorum kolaylaştırılmış sözün ardından hatırlatma emri geldiğini söyler; yazar iki mektubuyla okuyucuların temiz düşüncesini hatırlatma yoluyla uyandırdığını açıklar; öğüdün belleği canlandırma işi sürer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.1.3",
+          "basis": "Okuyan, işiten ve tutanların mutluluğu",
+          "note": "Yorum okutma, unutmama ve öğüt alma zincirini geliştirir; Vahiy kitabı sözlerini okuyana, işitenlere ve tutanlara mutluluk verir; yazılı sözün sesli alımı ve uygulanması birlikte sıralanır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.13",
+          "basis": "Tanrı ile mammon arasında hizmet",
+          "note": "Yorum meysirin insanı Allah'ı anmaktan ve namazdan uzaklaştırdığını, servetin de kendine yeterlik yanılsaması yaratabildiğini söyler; İsa kimsenin hem Tanrı'ya hem mammon'a kulluk edemeyeceğini belirtir; maddî bağlılık ile ibadet yöneliminin çatışması somutlaşır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Berakhot 33b",
+          "basis": "Göklerin elinde olanlar ve gök korkusu",
+          "note": "Yorum ilahî hazırlık ile insanın öğüde dönmesi ya da ondan kaçınması arasındaki gerilimi işler; Berakhot her şeyin Göklerin elinde, yalnız gök korkusunun insanın sorumluluğunda olduğunu söyler; rabbinik gelenek yönlendirme ile ahlâkî karşılığı ayırır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Shepherd of Hermas, Mandate 6.2",
+          "basis": "İnsanla birlikte bulunan iyi ve kötü melek",
+          "note": "Yorum kişinin en kolaya veya en zora yatkın kılınmasıyla iki karşıt yönü resmeder; Hermas her insanla iyi ve kötü bir meleğin bulunduğunu ve onların işlerinin ayırt edilmesini öğretir; karşıt iç yönlendirmeyi Hristiyan erken gelenek içinde kişiselleştirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.2.13",
+          "basis": "Ruh tarafından öğretilen sözlerle konuşmak",
+          "note": "Yorumda dili hazırlayan ve ona okunan sözün ardından konuşmasını isteyen ilahî fail vardır; Pavlus ruhsal şeyleri Ruh'un öğrettiği sözlerle anlattığını söyler; söyleyişin söz dağarcığının da ilahî öğretime bağlanmasıyla yakınlaşır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.2",
+          "basis": "İşitilen iyi haberin fayda vermemesi",
+          "note": "Yorum öğüdün ancak bazılarına fayda verdiğini, diğerlerinin ondan uzak kaldığını söyler; İbraniler iyi haberin işitildiği hâlde imanla birleşmeyenlere yarar sağlamadığını bildirir; duyulan söz ile fayda arasındaki şartlı bağ doğrudandır."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "607565bbed2635379e93b3ac967f4f58aa94fd8202fec37a665851ed1df99308",
+    "followup_sha256": "607565bbed2635379e93b3ac967f4f58aa94fd8202fec37a665851ed1df99308"
+  },
+  "consolidation_error": null,
+  "list_sha256": "a7b1f1f30ab21f6ff4c95c5fc624bcac8cd19d44697f482ecb740f1de503cf33",
+  "followup_delivery": [
+    {
+      "call_id": "call_HO2ScV7GbaBnisUMsOW5vR7n",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 384777,
+    "cached_input_tokens": 318976,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47275,
+    "reasoning_output_tokens": 33995,
+    "total_tokens": 432052
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:40:14.838Z",
+  "artifacts": {
+    "started.json": "d6e9bfdb7355ff8bbd614a840bd33f5c3d36ea3553e045932deeae8d41089d30",
+    "input.json": "74f17388ac5b92660e27b33fd7fe8c73a63de6f16cf1e91249d23bb4ca70dde6",
+    "prompt.md": "dcb1a5eceed982b9bd3412dd19a904acfe28cb806fec464c6b3f981012401a2d",
+    "package.md": "443327cea296cb24169fba91b8a69c405bd7528e2654bfcfb5c73180237ccbd9",
+    "spawn.md": "365dbbcde9cfef01e602c9361d0d62f51d1d7fe2f5c00bca0a2c2a56d1ba7c74",
+    "followup.txt": "8ef40c2ff88d21590c55a9ba628e9fe20ceff678bb07c642e1182bfbe33302cd",
+    "turn1.json": "e571af038496c73bc91b78a1b2a7ddfa7c8e35c3d76ba7a71639f41a895ddc67",
+    "turn1.list.tsv": "1ad1a08f2f4e4bfcdb3dcea99e0c9036d0fb99820e8d0ccb933058944ee114fd",
+    "followup.tsv": "607565bbed2635379e93b3ac967f4f58aa94fd8202fec37a665851ed1df99308",
+    "list.tsv": "a7b1f1f30ab21f6ff4c95c5fc624bcac8cd19d44697f482ecb740f1de503cf33",
+    "consolidation.json": "c9b3cba436d9711ff039bf997d286c2820e64c761b0e697fa547366e2c65c172",
+    "validation.json": "e2da31b8673d8b689fb82eb014a7614be454e3e50dd1371244114d01e4d6a9da",
+    "proposal_validation.json": "6c567057c9258fb74e3363d63215d8d976464993ff98a738ba914055b186b029",
+    "tool_calls.json": "b181652442630eff73284d8966309a318fa2fc8853f1696ce28bef2946eba8e7",
+    "session.json": "b1c63e5b137281ed76203e55da8154a91a096ad7b38212dd9aafdd100c2b617e",
+    "session.events.jsonl": "f12aa111f65647d21e6047634b57388f5c01585e955ee8c6f3872af93030ee31"
+  }
+}

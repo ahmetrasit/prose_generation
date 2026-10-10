@@ -1,0 +1,37 @@
+{
+  "policy": "bible-first-turn-repair-v1",
+  "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+  "tool_audit_reviewed": true,
+  "accepted_at": "2026-10-05T19:04:51.743506+00:00",
+  "changes": [
+    {
+      "line": 16,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Wis.5.14",
+        "human life like chaff",
+        "The commentary notes that Qur'anic غثاء can describe people swept away after a cry; Wisdom has the wicked confess that their life and hope vanish like wind-driven chaff, carrying the plant-debris image into judgment."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "Wisdom of Solomon 5:14",
+        "human life like chaff",
+        "The commentary notes that Qur'anic غثاء can describe people swept away after a cry; Wisdom has the wicked confess that their life and hope vanish like wind-driven chaff, carrying the plant-debris image into judgment."
+      ],
+      "reason": "Wisdom is not a WLC book; keep the same named-work passage as an unverified secondary candidate."
+    }
+  ],
+  "model_calls": 0,
+  "artifacts": {
+    "turn1.original.tsv": "43fb62c944ebc9f423a260c447dac93108890c01ca61ef8c54c14c116dc2a2ea",
+    "turn1.validation.failed.json": "cd694d5717ea1d57f832ae4bf694e1f3ada1c112cad5f693c6df4e0a599ba4b2",
+    "turn1.tool_calls.json": "cc73f38f3aa0d1aec66ae40aa38c3a1e1a43275dc4b3f728d2bd2b6a0a64fc0e",
+    "turn1.repair.proposed.json": "aac7e05d956f25c78e1d75d979c882ea8037573ca33d3453661854b7dc228435",
+    "turn1.repair.proposed.tsv": "0b2b34bfc815f511b0912b04302ed92f08117aaf9d5ab3f78f9f8a0830b43a5a",
+    "turn1.accepted.tsv": "0b2b34bfc815f511b0912b04302ed92f08117aaf9d5ab3f78f9f8a0830b43a5a"
+  }
+}

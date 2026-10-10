@@ -1,0 +1,2447 @@
+{
+  "target": "87:2",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/87_2.md",
+  "base_sha256": "f91a6284b66d8dbccb14e8e130d981202c1e4d1cb83388618fa3918fdd4c080c",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:22:01.217095-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_87_2_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "3f1599c615c79b1da23da0366f55dca7ac7d0cd82f370c64a208fd9883c0ab62",
+  "package_sha256": "8fc80cc9d0ff7ac7f08382c2a2bcf26e5726b5fb329be2fd5ac28a8565efa419",
+  "input_sha256": "585409674a1acbd284234f19eaaa0a752c2ca3cb2e8f7ab69a92dce08e6a0248",
+  "spawn_sha256": "8944cf6450da33eae1e1c5140acc9958d98823f305e8dbcc9226088c8d9f16e0",
+  "followup_text_sha256": "65644c30bc1d3c2ae8671036f2f3fa176712675b487b5222353b407be74367f6",
+  "agent_id": "01a10d1d-db7d-7902-9b16-48a8cfed55ac",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-30-23-01a10d1d-db7d-7902-9b16-48a8cfed55ac.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 146,
+  "turn1_sha256": "f3f14b6a045634f346960ab44e77977d73bc8049e8bebdbbf36d097998740749",
+  "turn2": {
+    "completed": true,
+    "rows_total": 181,
+    "rows_added": 35
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 146,
+    "raw_proposal_rows": 35,
+    "unique_additions": 35,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.1.3",
+          "basis": "creation by command",
+          "note": "The commentary grounds praise in the Creator's work rather than a remote epithet; Genesis has light come to be at God's spoken command, giving a concrete scriptural scene of creation by word."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.2.7",
+          "basis": "formed earthling and breath",
+          "note": "The commentary reads 87:2 as including the listener's body and later discusses form before spirit; Genesis depicts YHWH forming the human from soil and breathing life into him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.31",
+          "basis": "completed creation called very good",
+          "note": "The commentary hears خلق and سوى as making and completing a fitting whole; after the six days God sees all that he made as very good, an explicit judgment on completed form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.148.5",
+          "basis": "praise the Name because he commanded creation",
+          "note": "The commentary attaches praise of the Lord's Name to the deeds that identify him; this praise summons creation to praise that Name because he commanded and they came to be."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.6",
+          "basis": "creation in a worship litany",
+          "note": "The commentary treats glorifying the Name as grounded in works; Nehemiah's prayer names the maker of heavens, earth and sea, says he gives life to all, and ends with heaven's host worshiping."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.12",
+          "basis": "measures of waters, sky and mountains",
+          "note": "The commentary holds together creation, measured proportion and the ordered heavens; Isaiah asks who measured the waters, spanned the heavens and weighed the mountains, making cosmic order the Creator's work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.5",
+          "basis": "earth measured and line set",
+          "note": "The commentary's artisan measures before cutting, while the Creator needs no model; Job's question about who set earth's measures and stretched its line makes cosmic measurement a divine act."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.45.18",
+          "basis": "earth formed to be inhabited",
+          "note": "The commentary says the Most High is known inside his work, not moved beyond the sky; Isaiah says the maker formed the earth to be inhabited rather than leaving it empty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.1",
+          "basis": "blessing the Lord in view of his works",
+          "note": "The commentary's opening links praise of the Name to the deeds that reveal the Lord; this psalm blesses YHWH and immediately describes his majestic ordering of light and heavens."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.14",
+          "basis": "grass made for people and animals",
+          "note": "The commentary connects creation's ordering with pasture as provision for people and livestock; the psalm says God makes grass grow for cattle and plants for human use."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.29",
+          "basis": "withdrawn breath and returning dust",
+          "note": "The commentary holds completed form beside aging and decay; the psalm says creatures die and return to dust when God hides his face and takes away their breath."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.30",
+          "basis": "breath creates and renews the earth",
+          "note": "The commentary connects bodily formation, breath and the later reversal of creation; this verse says God sends his spirit, creatures are created, and the face of the ground is renewed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.14",
+          "basis": "praise for a wonderfully made body",
+          "note": "The commentary says the hearer can find the Creator's work in their own body; the psalmist praises God because he is wondrously formed, joining bodily making directly to praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.16",
+          "basis": "unformed substance and numbered days",
+          "note": "The commentary's womb discussion treats the body as shaped before its life unfolds; the psalmist says God's eyes saw his unformed substance and his days were written before they came."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.17",
+          "basis": "God's thoughts beyond counting",
+          "note": "The commentary moves from the body as evidence of its Maker to the Maker's knowledge; in the same psalm, God's thoughts are too many to count, extending the creation scene into divine knowledge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.10.8",
+          "basis": "hands fashioned and shaped the speaker",
+          "note": "The commentary compares creation to measured craft while denying the Creator's dependence on a pattern; Job addresses God as the one whose hands fashioned and shaped him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.10.10",
+          "basis": "embryonic shaping like milk and curd",
+          "note": "The commentary develops the body collected and ordered in the womb; Job depicts conception through the concrete sequence of pouring him out like milk and curdling him like cheese."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.10.11",
+          "basis": "skin, flesh, bones and sinews",
+          "note": "The commentary's body image is one of parts brought into proportion; Job lists skin, flesh, bones and sinews as God's work in forming him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.1.5",
+          "basis": "formed in the womb and appointed to a task",
+          "note": "The commentary links measured making with an apt direction; Jeremiah says God knew, set apart and appointed him before birth, joining prenatal formation to a particular vocation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.12.1",
+          "basis": "Creator forms the human spirit within",
+          "note": "The commentary extends proportioning from the body to inward life; Zechariah names the one who forms the human spirit within as the maker of heavens and earth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.31.15",
+          "basis": "one Maker forms master and servant in the womb",
+          "note": "The commentary locates the Creator's trace in the listener's body; Job says the same maker formed both him and his servant in the womb, giving shared creation an explicit social consequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.11.5",
+          "basis": "unseen formation of bones in the womb",
+          "note": "The commentary stresses that bodily formation exceeds human observation; Qoheleth compares the unknown development of bones in a pregnant woman's womb with God's work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.37.6",
+          "basis": "sinews, flesh, skin before breath",
+          "note": "The commentary discusses a formed body awaiting the breath of life; Ezekiel's dry-bones vision orders sinews, flesh and skin before breath, making restoration follow a bodily sequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.37.10",
+          "basis": "breath makes the assembled bodies live",
+          "note": "The commentary joins completed form to life-giving breath; in Ezekiel's vision the bodies stand alive only after breath enters them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.94.9",
+          "basis": "formed senses imply the Maker hears and sees",
+          "note": "The commentary uses the body as a trace of the Creator's work; the psalm asks whether the one who planted the ear cannot hear and formed the eye cannot see, drawing divine knowledge from bodily design."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.33.15",
+          "basis": "God fashions every heart",
+          "note": "The commentary develops proportioning beyond visible form to inward character; this verse says God fashions the hearts of all and attends to their deeds."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.6",
+          "basis": "the maker who made and established Israel",
+          "note": "The commentary identifies the Lord by what he does; Moses asks whether YHWH is Israel's father and maker, the one who made and established them, making creation grounds for covenant loyalty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.3",
+          "basis": "God rides the clouds as his chariot",
+          "note": "The commentary contrasts the Most High with a being transported beyond the sky; the psalm pictures YHWH riding the clouds, a concrete image for comparison whose own setting celebrates his power over creation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.33.26",
+          "basis": "God rides the heavens to aid Israel",
+          "note": "The commentary says the Most High is known by works rather than carried beyond the sky; Moses' blessing pictures Israel's God riding the heavens to help them, a contrasting sky image framed as protective nearness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.3",
+          "basis": "prepare a straight way for YHWH",
+          "note": "The commentary joins making complete to the straight road of guidance; Isaiah calls for a highway in the wilderness for God, turning a straightened path into preparation for his arrival."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.4",
+          "basis": "valleys raised and rough ground leveled",
+          "note": "The commentary gives سوى both completion and straightening, then links it to a road; Isaiah's next verse levels valleys and mountains and makes rough country a plain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.11",
+          "basis": "just balances belong to YHWH",
+          "note": "The commentary defines the سوى family through balance between things and protection from excess or deficiency; Proverbs applies that measure to fair weights and says the scales belong to YHWH."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.16.6",
+          "basis": "YHWH sets the speaker's allotted portion",
+          "note": "The commentary explicitly labels an Arabic branch of خ ل ق as a measured share; the psalm says the lines fell to the speaker in pleasant places and YHWH holds his lot, a concrete allotment image without importing it as the ayah's main sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.49.2",
+          "basis": "polished arrow hidden until its mission",
+          "note": "The commentary describes an arrow measured, smoothed and aimed as the next ayah's guidance image; Isaiah's servant says God made him a polished arrow and hid him in a quiver until his word was needed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.51.6",
+          "basis": "earth wears out like a garment",
+          "note": "The commentary develops smoothness as the worn nap of a garment and the leveling of a ruined trace; Isaiah says earth wears out like clothing, while the heavens vanish like smoke."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.7",
+          "basis": "grass withers under the Lord's breath",
+          "note": "The commentary follows pasture from emergence to darkened refuse; Isaiah says grass withers when YHWH's breath blows on it, making the created pasture's transience explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.15",
+          "basis": "water given from split rock",
+          "note": "The commentary's rock image is a hollow that catches and holds rainwater; the psalm recalls God splitting rocks in the wilderness and giving drink from the depths, a related but reversed movement of water from rock."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.16",
+          "basis": "streams from the cliff",
+          "note": "The commentary describes a hollow in stone retaining water that would otherwise run off; this verse says God brought streams from the rock and made waters flow down like rivers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.17.6",
+          "basis": "water comes out of the struck rock",
+          "note": "The commentary's rock-and-water image makes stone a place where water is retained; at Horeb God tells Moses to strike the rock, from which water comes for the people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.24.27",
+          "basis": "blessing after God guides a journey",
+          "note": "The commentary joins travel, a mount and remembering the Lord's favor; Abraham's servant blesses YHWH after recognizing that God led him on the way to his master's kin."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.20.8",
+          "basis": "horses contrasted with invoking God's Name",
+          "note": "The commentary places remembrance of the Lord on a rider's back; the psalm contrasts those who trust chariots and horses with those who invoke YHWH's Name."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.115.4",
+          "basis": "idols are made by human hands",
+          "note": "The commentary contrasts the Creator's unmodeled work with human fabrication and false worship; this psalm names silver-and-gold idols as human handiwork."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.115.5",
+          "basis": "idols have mouths but cannot speak",
+          "note": "The commentary rejects the creature's fabricated claim as a counterfeit of the Creator; the psalm's handmade images have mouths that cannot speak and eyes that cannot see."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.115.8",
+          "basis": "makers become like their idols",
+          "note": "The commentary says a lie made by a creature imitates the Creator's act but has no reality; the psalm says idol-makers and trusters become like the speechless images they fashion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.13",
+          "basis": "measured carving made into a human likeness",
+          "note": "The commentary contrasts a human artisan who measures and cuts with the Creator who needs no prior model; Isaiah describes the woodworker measuring and carving an image in human form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.15",
+          "basis": "one piece of wood becomes fuel and an idol",
+          "note": "The commentary exposes created objects as poor substitutes for their Maker; Isaiah says the same wood supplies fire and is also made into a god for worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.17",
+          "basis": "the remnant of wood is called a god",
+          "note": "The commentary's created-versus-counterfeit contrast turns on the maker's false claim; Isaiah's image-maker bows to the leftover wood and asks it to save him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.24",
+          "basis": "Creator stretches the heavens alone",
+          "note": "The commentary says the Lord is known by works and needs no model or partner; Isaiah names YHWH as maker of all things who stretches the heavens alone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.10.12",
+          "basis": "earth established by wisdom and understanding",
+          "note": "The commentary presents creation as measured and completed work; Jeremiah says God made earth by power and established the world by wisdom and understanding."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.10.14",
+          "basis": "idol-makers' images are false and breathless",
+          "note": "The commentary contrasts true creation with fabricated claims; Jeremiah says the images made by craftsmen are a lie and have no breath."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.10.16",
+          "basis": "Maker of all versus worthless idols",
+          "note": "The commentary grounds praise in the one who truly creates; Jeremiah contrasts the portion of Jacob, who made all things, with idols that are not like him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.46.3",
+          "basis": "God bears Israel from the womb",
+          "note": "The commentary's riding image places a human on an animal; Isaiah reverses the carrying relation by portraying God as the one who has carried Israel from birth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.46.4",
+          "basis": "God carries Israel through old age",
+          "note": "The commentary connects formed bodies with later aging and wear; Isaiah promises that the God who carried Israel from the womb will carry them even into old age."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.9.9",
+          "basis": "the humble king comes riding a donkey",
+          "note": "The commentary describes a rider settling on an animal and remembering the Lord; Zechariah's king arrives humbly on a donkey, a royal riding scene whose Gospel reception adds public praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.21.5",
+          "basis": "Jesus enters as king on a donkey",
+          "note": "Matthew applies Zechariah's donkey-riding king to Jesus; beside the commentary's rider who praises the Creator of the mount, the difference is that this crowd welcomes the rider as king."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.21.9",
+          "basis": "crowd blesses the one who comes in the Lord's Name",
+          "note": "The commentary has the mounted worshiper say praise to the Creator who subjected the animal; Matthew's crowd blesses the arriving king in the Lord's Name, shifting the praised figure while retaining the liturgical formula."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.51.12",
+          "basis": "create a clean heart and renew the spirit",
+          "note": "The commentary extends proportioning from the body to the soul's moral direction; this prayer asks God to create a clean heart and renew a steadfast spirit, making inner ordering a new creation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.4.2",
+          "basis": "neither add to nor subtract from the command",
+          "note": "The commentary mentions a separate Arabic form for omitting a letter and places it beside the promise of recitation without forgetting; Moses likewise forbids adding to or subtracting from God's command."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.36.23",
+          "basis": "the king cuts and burns the scroll",
+          "note": "The commentary's secondary root sense is dropping a letter from scripture; Jeremiah depicts Jehoiakim cutting the divine scroll with a knife and burning it, a concrete opposite to preserving recitation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.3.5",
+          "basis": "valleys filled and crooked roads straightened",
+          "note": "Luke applies Isaiah's leveling image to preparation for God's salvation; it gives the commentary's link between completed form and a straight path an explicit prophetic and ethical setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.3.6",
+          "basis": "all flesh sees God's salvation",
+          "note": "The commentary says the Creator's work is witnessed in the hearer's body; Luke's next line says all flesh will see God's salvation, widening the prepared road to a universal audience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.10",
+          "basis": "rain makes the earth bud and seed grow",
+          "note": "The commentary connects ordered creation with water, pasture and provision; Isaiah says rain waters the earth, makes it bud and supplies seed and bread, giving a specific scriptural path from creation to food."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.26",
+          "basis": "birds fed without sowing or harvest",
+          "note": "The commentary treats created life as provision for people and animals; Jesus points to birds that neither sow nor reap yet are fed by the Father, a specific ethical inference from creation's ordering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.28",
+          "basis": "grain grows through stages to full ear",
+          "note": "The commentary describes a shoot strengthening, thickening and standing on its stalk; Mark's seed parable likewise names the ordered sequence of blade, ear and full grain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.24",
+          "basis": "Creator is not contained in human temples",
+          "note": "The commentary says the Most High is not carried beyond the sky and is known by his works; Paul says the Maker of the world does not dwell in temples built by human hands."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.25",
+          "basis": "God gives life and breath rather than receiving service",
+          "note": "The commentary contrasts the Creator with creatures and formed objects; Paul says God is not served by human hands but gives all people life and breath."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.26",
+          "basis": "nations receive appointed times and boundaries",
+          "note": "The commentary's creation includes measured portions and subsequent guidance; Paul says God made every nation and fixed its times and boundaries, then connects those limits to seeking God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.27",
+          "basis": "humans are meant to seek God who is near",
+          "note": "The commentary links a made and proportioned creature to guidance; Paul says the nations' appointed setting is so they might seek God, who is not far from each person."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.29",
+          "basis": "divinity is not gold, stone or human craft",
+          "note": "The commentary contrasts the Creator with images that creatures fabricate; Paul says divine nature cannot be like gold, silver or stone shaped by human art and imagination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.1.3",
+          "basis": "all things came to be through the Word",
+          "note": "The commentary stresses that the Creator needs no prior mold; John says all things came to be through the Word and not one created thing came to be apart from him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.1.16",
+          "basis": "all things created through and for Christ",
+          "note": "The commentary's objectless verb is said to encompass all creation; Colossians names visible and invisible things and every rank as created through and for Christ."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.4.11",
+          "basis": "worship because God created all things",
+          "note": "The commentary grounds the command to glorify the Name in God's creative deeds; Revelation's heavenly worship says all things exist because God willed and created them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.3",
+          "basis": "visible things made from what is not visible",
+          "note": "The commentary says خ ل ق can cover originating without a model as well as bringing forth from something; Hebrews says the visible order was not made from visible things, making the unseen-origin reading explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "2 Maccabees 7:28",
+          "basis": "God made heaven and earth from what did not exist",
+          "note": "The commentary preserves creation both without a prior mold and from something else; the mother in 2 Maccabees explicitly tells her son that God made heaven and earth not from existing things."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 11:20",
+          "basis": "all things ordered by measure, number and weight",
+          "note": "The commentary's measuring artisan image develops creation as proportion rather than decoration; Wisdom says God arranged all things by measure, number and weight."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 42:24",
+          "basis": "paired works and nothing incomplete",
+          "note": "The commentary defines سوى as balance between things and protection from excess or deficiency; Ben Sira says all things are in pairs and God has made nothing incomplete."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 9:1",
+          "basis": "God made all things by his word",
+          "note": "The commentary joins the Creator's work to a command that needs no tool or mold; Solomon's prayer names God as the one who made all things by his word."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 9:2",
+          "basis": "human formed by wisdom",
+          "note": "The commentary's bodily formation becomes a human made in fitting relation to the world; this prayer says God formed humanity by wisdom."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 33:10",
+          "basis": "all humans from earth, then distinguished",
+          "note": "The commentary moves from common creation to each creature's measured share; Ben Sira says all humans come from earth and then describes the Most High distinguishing their ways."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 33:13",
+          "basis": "humanity as clay in the Maker's hand",
+          "note": "The commentary's artisan measures material before shaping it; Ben Sira directly compares the human being in the Maker's hand to clay in the potter's hand."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Targum Onkelos on Genesis 2:7",
+          "basis": "living soul rendered speaking spirit",
+          "note": "The commentary extends bodily making toward inner capacities and the danger of false speech; Onkelos renders the human's resulting life as a speaking spirit, making rational speech part of the creation scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Sanhedrin 4:5",
+          "basis": "one first human, many distinct faces",
+          "note": "The commentary's objectless creation includes every hearer's body; the Mishnah says one human was created first, yet no two people resemble each other, grounding shared origin and individual form in human dignity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.31.3",
+          "basis": "God's spirit equips a human artisan",
+          "note": "The commentary compares measured craft to divine creation without a model; Exodus says Bezalel is filled with God's spirit, wisdom and skill for craftsmanship, making human making a capacity received from the Creator."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.18.4",
+          "basis": "potter remakes a spoiled vessel",
+          "note": "The commentary's craft image distinguishes a maker's measured work from later wear and failure; Jeremiah shows a vessel spoiled in the potter's hand being remade into another form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.64.8",
+          "basis": "we are clay and God our potter",
+          "note": "The commentary uses human craft to illuminate divine forming; Isaiah turns the same relation into confession and plea, calling Israel clay and YHWH its potter."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.9.20",
+          "basis": "the formed thing questions its maker",
+          "note": "The commentary distinguishes the Creator's measured work from a creature's false judgment; Paul asks whether what is formed can say to its molder, Why did you make me this way?"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.12.18",
+          "basis": "God places each member in the body as he wills",
+          "note": "The commentary describes سوى as parts brought into relation without excess or lack; Paul says God arranged each body member in its place, giving that proportioning a communal consequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.12.24",
+          "basis": "God composes the body and honors weaker parts",
+          "note": "The commentary says a sound whole is made by relation among its parts; Paul says God composed the body and gave greater honor to the part that lacked it, turning proportion into care for the weak."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.10",
+          "basis": "created for good works prepared beforehand",
+          "note": "The commentary connects measured making to guidance along a path; Paul calls believers God's workmanship, created in Christ for good works God prepared for them to walk in."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.1.20",
+          "basis": "creation makes God's power perceptible",
+          "note": "The commentary says the Creator is known in the works rather than beyond the sky; Paul says God's invisible power is perceived through what has been made."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.1.23",
+          "basis": "Creator's glory exchanged for images",
+          "note": "The commentary opposes the one who creates to images made by human hands; Paul describes people exchanging the glory of the immortal God for images of mortal humans and animals."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.1.25",
+          "basis": "creature worship replaces Creator worship",
+          "note": "The commentary says a fabricated lie imitates the Creator's act and misdirects worship; Paul says people exchanged truth for a lie and served the creature rather than the Creator."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 13:1",
+          "basis": "failure to know God from created works",
+          "note": "The commentary says the Lord is identified by what he has made; Wisdom criticizes people who failed to recognize the artisan from the beauty of his works."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 13:10",
+          "basis": "handmade images called worthless gods",
+          "note": "The commentary contrasts real creation with false objects of worship; Wisdom calls the nations' handmade idols worthless gods and condemns their makers' craft."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.1.10",
+          "basis": "the Lord laid earth's foundation",
+          "note": "The commentary includes the ordered sky and earth in the Creator's objectless work; Hebrews applies the psalm's creation words to the Son, who laid earth's foundation and made the heavens."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 96,
+        "row": {
+          "line": 96,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.1.11",
+          "basis": "he heavens wear out like clothing",
+          "note": "The commentary develops smoothness as wear that erases the nap of a garment; Hebrews says the heavens will perish and wear out like clothing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 97,
+        "row": {
+          "line": 97,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.21",
+          "basis": "creation freed from decay",
+          "note": "The commentary connects completed creation with the later wearing-down of bodies and land; Paul says creation itself will be freed from its slavery to decay."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 98,
+        "row": {
+          "line": 98,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.20.22",
+          "basis": "Jesus breathes the Spirit onto the disciples",
+          "note": "The commentary connects formed body and breath; after the resurrection Jesus breathes on the disciples and gives the Holy Spirit, reusing the creation gesture for a renewed community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 99,
+        "row": {
+          "line": 99,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.45",
+          "basis": "first Adam lives, last Adam gives life",
+          "note": "The commentary's formation-and-breath sequence is applied to human origin and resurrection; Paul quotes the first Adam as a living being and calls Christ the life-giving Spirit, giving the creation scene an eschatological reading."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 100,
+        "row": {
+          "line": 100,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.2.52",
+          "basis": "Jesus grows in wisdom and stature",
+          "note": "The commentary says a person may reach completion of youth and then receive knowledge; Luke describes Jesus increasing in wisdom and stature, a concrete Christian account of growth toward maturity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 101,
+        "row": {
+          "line": 101,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "Infancy Gospel of Thomas 2.1-4",
+          "basis": "Jesus forms clay sparrows on the Sabbath",
+          "note": "The commentary compares Jesus shaping a clay bird, breathing into it and acting by God's permission; this infancy narrative has the child Jesus make twelve clay sparrows on the Sabbath and clap them alive, relocating the scene to childhood and omitting the Qur'anic repeated permission formula."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 102,
+        "row": {
+          "line": 102,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.2",
+          "basis": "heavens stretched like a tent",
+          "note": "The commentary says the Most High is known in his works rather than displaced beyond the sky; the psalm's next verse describes God stretching out the heavens, making the sky itself an act of his ordering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 103,
+        "row": {
+          "line": 103,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.27",
+          "basis": "humanity created male and female",
+          "note": "The commentary's surrounding creation citations include the making of pairs; Genesis states that God created humanity in his image as male and female, a specific paired form within the creation account."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 104,
+        "row": {
+          "line": 104,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.19.4",
+          "basis": "Jesus invokes creation of male and female",
+          "note": "The commentary notes the created pairs in its wider account; Jesus cites the Creator making male and female and uses their joining to explain marriage, giving that creation formula a relational interpretation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 105,
+        "row": {
+          "line": 105,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.14",
+          "basis": "God remembers humans are dust",
+          "note": "The commentary connects bodily form with the vulnerability of aging; the psalm says God knows our frame and remembers that we are dust, linking care to the material from which humans were made."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 106,
+        "row": {
+          "line": 106,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.42",
+          "basis": "perishable body raised imperishable",
+          "note": "The commentary's wear and leveling imagery reaches bodily death and renewed creation; Paul says the body is sown perishable and raised imperishable, distinguishing the formed body from its resurrection condition."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 107,
+        "row": {
+          "line": 107,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.44",
+          "basis": "natural body raised as spiritual body",
+          "note": "The commentary connects bodily form with breath and resurrection; Paul distinguishes the natural body from the spiritual body, giving the Adamic formation image an eschatological continuation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 108,
+        "row": {
+          "line": 108,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.37.14",
+          "basis": "bones interpreted as the restored house of Israel",
+          "note": "The commentary's womb-and-breath sequence can sound solely bodily; Ezekiel explicitly interprets the assembled bones as all Israel restored to its land, giving the same image a national rather than anatomical referent."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 109,
+        "row": {
+          "line": 109,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.34.7",
+          "basis": "Moses' strength remains at 120",
+          "note": "The commentary connects ordered bodily life with aging's reversal; Deuteronomy presents Moses at 120 with undimmed eye and undiminished vigor, a specific counterexample to simple physical decline."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 110,
+        "row": {
+          "line": 110,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 11:17",
+          "basis": "world formed from formless matter",
+          "note": "The commentary allows both creation without an exemplar and making one thing from another; Wisdom describes God's hand forming the world from formless matter, a distinct ancient Jewish account of the latter possibility."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 111,
+        "row": {
+          "line": 111,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 42:25",
+          "basis": "one work confirms the good of another",
+          "note": "The commentary says a proportioned thing is fitted in relation to other things; Ben Sira adds that one work confirms another's good and that this ordered whole displays divine glory."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 112,
+        "row": {
+          "line": 112,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 9:3",
+          "basis": "human appointed to govern creation",
+          "note": "The commentary links making to the apt direction that follows; Solomon asks for wisdom to govern the world and judge rightly, making the human creature's purpose explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 113,
+        "row": {
+          "line": 113,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 15:14",
+          "basis": "created humans retain choice",
+          "note": "The commentary pairs creation with guidance without describing humans as inert; Ben Sira says God created humans and left them in the hand of their own counsel, making moral agency explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 114,
+        "row": {
+          "line": 114,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 15:16",
+          "basis": "life and death set before human choice",
+          "note": "The commentary develops measured creation and a way to be followed; Ben Sira says fire and water are set before the hearer to choose, clarifying that guidance still addresses an agent."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 115,
+        "row": {
+          "line": 115,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 15:17",
+          "basis": "life or death according to the choice",
+          "note": "The commentary's creation-and-guidance sequence can be read alongside human response; Ben Sira says life and death are before each person and what they choose is given to them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 116,
+        "row": {
+          "line": 116,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 33:15",
+          "basis": "opposite works set against one another",
+          "note": "The commentary describes balance and its contrary, flattening and decay; Ben Sira says the works of the Most High stand in pairs, one opposite the other."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 117,
+        "row": {
+          "line": 117,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Pirkei Avot 3:14",
+          "basis": "human beloved as created in God's image",
+          "note": "The commentary asks the hearer to find the Lord's work in their own body; Akiva's saying makes being created in God's image the reason humanity is beloved."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 118,
+        "row": {
+          "line": 118,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 8:5",
+          "basis": "creation debated by Truth, Peace and Righteousness",
+          "note": "The commentary contrasts the true Creator with lies fabricated by creatures; the midrash places Truth, Peace and Righteousness in debate over humanity's creation, then depicts Truth cast to earth, complicating the ethical meaning of making humans."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 119,
+        "row": {
+          "line": 119,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Niddah 30b",
+          "basis": "fetus taught Torah before birth",
+          "note": "The commentary presents the womb as a place where a body is formed for later direction; this rabbinic image says a fetus is taught Torah before birth and forgets it on entering the world, adding a tradition of prenatal moral capacity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 120,
+        "row": {
+          "line": 120,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1QS III,17–IV,26",
+          "basis": "two spirits and two human paths",
+          "note": "The commentary links inner formation to the later distinction between uprightness and deviation; the Community Rule describes humanity as walking in two spirits, truth and injustice, giving a specific sectarian account of moral direction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 121,
+        "row": {
+          "line": 121,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.18.6",
+          "basis": "Israel is clay in the potter's hand",
+          "note": "The commentary portrays creation as exacting work without making it a fixed mold; Jeremiah applies potter and clay to Israel, where the image concerns a people God may reshape in response to their conduct."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 122,
+        "row": {
+          "line": 122,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.9.21",
+          "basis": "one potter makes vessels for different uses",
+          "note": "The commentary says measured creation makes things fit their purpose; Paul asks whether a potter may use the same clay for different vessels, adding a question of divine choice and human limits."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 123,
+        "row": {
+          "line": 123,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.12.25",
+          "basis": "members care equally for one another",
+          "note": "The commentary's balance is not mere leveling but relational fitness; Paul explains that the body is arranged so there is no division and members care for one another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 124,
+        "row": {
+          "line": 124,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.16",
+          "basis": "joined body grows as each part works",
+          "note": "The commentary's body image treats completion as a relation among parts; Ephesians describes the whole body joined and held together as each part works, producing growth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 125,
+        "row": {
+          "line": 125,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.3.9",
+          "basis": "humans made in God's likeness",
+          "note": "The commentary's praise of the Creator rejects false speech and false worship; James says the same tongue blesses God and curses human beings made in God's likeness, making creation a test of speech.",
+          "raw_ref": "SBLGNT:James.3.9",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 126,
+        "row": {
+          "line": 126,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 13:5",
+          "basis": "greatness of works points to their Maker",
+          "note": "The commentary makes the Creator's works the basis of praise; Wisdom says the greatness and beauty of created things let observers infer their Maker."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 127,
+        "row": {
+          "line": 127,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 15:7",
+          "basis": "the potter shapes vessels from the same clay",
+          "note": "The commentary's artisan scene measures material into a useful form; Wisdom describes a potter shaping the same clay into vessels for different uses, adding a Jewish reflection on craft and purpose."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 128,
+        "row": {
+          "line": 128,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 15:16",
+          "basis": "the maker is mortal but the image has no breath",
+          "note": "The commentary contrasts the living Creator with fabricated forms; Wisdom says the maker is mortal and the handmade image has no breath, sharpening the difference between life-giving creation and craft."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 129,
+        "row": {
+          "line": 129,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.1.12",
+          "basis": "he worn creation is changed while God remains",
+          "note": "The commentary holds ordered creation beside its eventual leveling and decay; Hebrews says the heavens will be rolled up like a cloak and changed while the Lord remains the same."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 130,
+        "row": {
+          "line": 130,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.22",
+          "basis": "creation groans in labor pains",
+          "note": "The commentary traces formation through bodily development and later decay; Paul pictures the whole creation groaning together in labor pains, making decay part of a hoped-for new birth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 131,
+        "row": {
+          "line": 131,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.2.11",
+          "basis": "Moses goes out when grown",
+          "note": "The commentary connects the completion of youth to Moses' later receiving wisdom and judgment; Exodus marks the point when Moses has grown up before he acts among his people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 132,
+        "row": {
+          "line": 132,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Irenaeus, Against Heresies 4.38.3",
+          "basis": "humanity grows gradually toward perfection",
+          "note": "The commentary extends سوى from a complete body to the completion of youth; Irenaeus reads human beings as created immature and brought gradually to perfection, making development a feature of the Creator's pedagogy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 133,
+        "row": {
+          "line": 133,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.3",
+          "basis": "tree by water bears fruit and does not wither",
+          "note": "The commentary contrasts water's useful remainder with foam that washes away; Psalm 1 pictures the righteous as a tree by streams whose fruit endures, adding an ethical reading of what remains fruitful."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 134,
+        "row": {
+          "line": 134,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.4",
+          "basis": "chaff blown away by the wind",
+          "note": "The commentary's flood image distinguishes useful matter from passing foam; Psalm 1 contrasts the enduring tree with wicked people as chaff driven away, applying the separation to conduct."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 135,
+        "row": {
+          "line": 135,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.3.4",
+          "basis": "serpent contradicts the Creator's warning",
+          "note": "The commentary describes fabrication as a creature's internally measured falsehood set against the Creator's true word; the serpent tells the humans they will not die, directly contradicting God's instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 136,
+        "row": {
+          "line": 136,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.15",
+          "basis": "human life like grass and a field flower",
+          "note": "The commentary follows pasture from emergence to withering refuse; this psalm compares human days to grass and the flower of the field, applying the same transience to a life God remembers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 137,
+        "row": {
+          "line": 137,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.16",
+          "basis": "wind passes and the flower is gone",
+          "note": "The commentary treats smoothness from wear as a sign of ending; the psalm says the wind passes over the flower and its place knows it no more, a concrete image of disappearance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 138,
+        "row": {
+          "line": 138,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.7",
+          "basis": "dust returns to earth and spirit to God",
+          "note": "The commentary links formed bodies with aging and death; Qoheleth closes the aging sequence by saying dust returns to earth and the spirit returns to God who gave it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 139,
+        "row": {
+          "line": 139,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.8",
+          "basis": "grass fades but God's word stands",
+          "note": "The commentary juxtaposes fading pasture with the promise that recitation will be preserved; Isaiah says grass withers and flowers fade while God's word stands forever."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 140,
+        "row": {
+          "line": 140,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.6",
+          "basis": "God makes the path straight",
+          "note": "The commentary joins proportioning to guidance along a straight road; Proverbs says to acknowledge God in every way and he will make the paths straight."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 141,
+        "row": {
+          "line": 141,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.5",
+          "basis": "teach the speaker God's paths",
+          "note": "The commentary pairs a made creature with the Creator's guidance; the psalm asks YHWH to lead and teach the speaker in his paths, making direction an explicit response to dependence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 142,
+        "row": {
+          "line": 142,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.6",
+          "basis": "lead in truth and teach",
+          "note": "The commentary connects being made fit with being guided; the psalm asks God to lead the speaker in truth and teach him, a prayer for a path rather than a claim about bodily form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 143,
+        "row": {
+          "line": 143,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.8.6",
+          "basis": "human crowned and given rule over creation",
+          "note": "The commentary says creation's unnamed object includes the hearer; this psalm places humanity within the created order as crowned with glory and given responsibility over God's works."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 144,
+        "row": {
+          "line": 144,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Philo, On the Creation 16-25",
+          "basis": "intelligible paradigm behind the visible world",
+          "note": "The commentary presents the Creator as measuring without consulting a prior mold; Philo reads Genesis through an intelligible paradigm for the cosmos, giving a Jewish interpretation that makes the model question explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 145,
+        "row": {
+          "line": 145,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.46.5",
+          "basis": "Hebrew שוה and Arabic سوى",
+          "note": "The source commentary explicitly labels the سوى root as straightness and balance; Hebrew שוה here means making equal in a challenge about God's incomparability, a likely cognate connection whose lexeme does not by itself establish the Qur'anic verb's meaning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 146,
+        "row": {
+          "line": 146,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.27.11",
+          "basis": "Hebrew חלק and the source's smoothness branch",
+          "note": "The source commentary explicitly labels خ ل ق B008 as smoothness; Hebrew חלק describes Jacob's smooth skin here, a possible cognate with Arabic خ ل ق in that secondary branch, though the etymology is uncertain and does not define 87:2."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.43.1",
+          "basis": "created and formed Israel, called by name",
+          "note": "The commentary says the Lord is identified by deeds rather than a remote epithet; Isaiah names YHWH as the one who created and formed Jacob, redeemed him and called him by name."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.43.7",
+          "basis": "created and formed for God's glory",
+          "note": "The commentary ties glorifying the Lord's Name to the works that identify him; Isaiah says the people called by God's name were created and formed for his glory."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.2",
+          "basis": "formed Israel from the womb",
+          "note": "The commentary develops bodily formation in the womb as a secondary sense alongside creation; Isaiah names YHWH as the one who made and formed Jacob from the womb and will help him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.28.25",
+          "basis": "Hebrew שוה, leveling a field before sowing",
+          "note": "The source commentary explicitly labels سوى with straightening and balance; Isaiah uses Hebrew שוה for leveling a field's surface before seed is sown, a close cognate use in an agricultural setting that does not determine the Qur'anic verb's full sense."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.73",
+          "basis": "hands make and fashion, then grant understanding",
+          "note": "The commentary joins being made to the guidance that follows; the psalmist says God's hands made and fashioned him, then asks for understanding to learn God's commands."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.143.10",
+          "basis": "Spirit leads the speaker on level ground",
+          "note": "The commentary connects proportioning, guidance and the straight path; the psalm asks God to teach his will and let his good Spirit lead the speaker on level ground."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.12.10",
+          "basis": "life and breath of every creature in God's hand",
+          "note": "The commentary treats each body as evidence of its Maker and develops breath as the completion of form; Job says the life of every creature and breath of humankind are in God's hand."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.33.4",
+          "basis": "God's Spirit makes and breath gives life",
+          "note": "The commentary connects bodily formation to life-giving breath; Job says the Spirit of God made him and the breath of the Almighty gives him life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.10.12",
+          "basis": "life, care and steadfast love preserve the spirit",
+          "note": "The commentary says the formed body bears the trace of the Lord's work; Job adds that the same God who formed him granted life and care that preserved his spirit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.28",
+          "basis": "created humans receive a task and blessing",
+          "note": "The commentary links creation to the suitable direction that follows; after creating male and female, Genesis blesses them and gives them a role toward the other creatures."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.96.5",
+          "basis": "idols are nothing, YHWH made the heavens",
+          "note": "The commentary contrasts the Creator with things fabricated for worship; the psalm calls the nations' gods idols and says YHWH made the heavens."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.6",
+          "basis": "worship before YHWH the Maker",
+          "note": "The commentary ties glorification to the Creator's acts; the psalm calls the congregation to bow before YHWH because he is their Maker."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Berakhot 60b",
+          "basis": "blessing for the body's openings and functions",
+          "note": "The commentary asks the hearer to recognize the Creator in the body's fitted parts; this rabbinic blessing thanks God for forming the human body with its openings and cavities, whose obstruction would prevent life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 15:11",
+          "basis": "the Maker forms, inspires soul and breathes life",
+          "note": "The commentary contrasts the living Creator with lifeless images made by artisans; Wisdom says the idol-maker failed to know the one who formed him, inspired an active soul and breathed a living spirit into him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 7:1-6",
+          "basis": "Solomon molded in the womb like every human",
+          "note": "The commentary develops bodily formation before birth and the common human process; Solomon says he too was molded in flesh in his mother's womb and received breath like all people."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 17:3",
+          "basis": "humans made in God's image",
+          "note": "The commentary reads creation as including the listener's own body; Ben Sira says God endowed humans with strength and made them in his image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 17:6",
+          "basis": "eyes, ears and a thinking heart",
+          "note": "The commentary extends proportioned creation to inward and sensory capacities; Ben Sira says God gave humans discernment, eyes, ears and a heart for thinking."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 17:7",
+          "basis": "knowledge of good and evil",
+          "note": "The commentary links making with subsequent moral direction; Ben Sira says God filled humanity with knowledge and understanding and showed them good and evil."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.36.32",
+          "basis": "rewritten scroll includes all former words and more",
+          "note": "The commentary sets the secondary image of omitting a letter beside the promise of preserved recitation; after the king burns the scroll, Jeremiah dictates it again with all its former words and many more."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.14.19",
+          "basis": "water wears stone and washes soil away",
+          "note": "The commentary describes smoothness as wear that flattens a surface; Job says waters wear stones and torrents wash away the soil, giving a direct image of erosion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.26.4",
+          "basis": "Tyre's walls reduced to bare rock",
+          "note": "The commentary connects the smooth rock with a settlement leveled to the ground; Ezekiel's oracle says Tyre's walls and towers will be broken, its dust scraped away and the site left like bare rock."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.3.12",
+          "basis": "Zion plowed like a field and Jerusalem made ruins",
+          "note": "The commentary links سوى's leveling sense to the end of a created settlement; Micah warns that Zion will be plowed like a field and Jerusalem become a heap of ruins because of its rulers' injustice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.11.12",
+          "basis": "woman from man, man through woman, all from God",
+          "note": "The commentary describes parts as fitted in relation and notes created pairs; Paul recalls the creation relation between man and woman but concludes that all things are from God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.1.17",
+          "basis": "all things hold together in Christ",
+          "note": "The commentary's سوى emphasizes that a whole is made complete through relations among its parts; Colossians says all things hold together in Christ, extending that order to the cosmos."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.10.30",
+          "basis": "every hair on the disciples' heads is numbered",
+          "note": "The commentary says the listener can find the Creator's work in the body; in a teaching about the Father's care, Jesus says even the hairs of the disciples' heads are numbered."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.14.17",
+          "basis": "rain, fruitful seasons and food as witness",
+          "note": "The commentary follows creation into pasture and provision for people and animals; Paul says God gives rain, fruitful seasons and food, leaving a witness of his goodness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.11.11",
+          "basis": "man and woman are not independent in the Lord",
+          "note": "The commentary describes proportion as relation rather than mere leveling; Paul says woman and man are not independent of one another in the Lord, giving paired creation a mutual reading."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.16",
+          "basis": "outer person decays while inner person renews",
+          "note": "The commentary develops the worn garment and the reversal of bodily order with age; Paul says the outer person is wasting away while the inner person is renewed day by day."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.23",
+          "basis": "spirit, soul and body kept complete",
+          "note": "The commentary treats fitting form as extending through body and inward life; Paul prays that the whole spirit, soul and body be kept blameless, an explicit Christian formula of integrated completeness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.19",
+          "basis": "moon and sun assigned their times",
+          "note": "The commentary treats the moon's gradual fullness as completion and cites its phases as measured; the psalm says God appointed the moon for seasons and the sun knows its setting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.24",
+          "basis": "all works made in wisdom",
+          "note": "The commentary presents the created world as measured and complete; the psalm marvels at the many works of YHWH and says they were all made in wisdom."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.27",
+          "basis": "creatures wait for food from God",
+          "note": "The commentary describes pasture and crop as provision for living creatures; the psalm says all creatures look to God for their food in its season."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.28",
+          "basis": "God opens his hand and satisfies creatures",
+          "note": "The commentary says the created order is fitted to sustain people and animals; the psalm says God gives food when he opens his hand and satisfies every living thing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 2:23",
+          "basis": "humanity made for incorruption in God's image",
+          "note": "The commentary connects created form with later bodily wearing and death; Wisdom says God made humans for incorruption and in the image of his own eternity, offering a Jewish account in which death is not the intended completion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Jubilees 2:2",
+          "basis": "creation includes the heavenly host",
+          "note": "The commentary says the ayah's objectless creation can encompass all things; Jubilees' creation account includes the heavens and their host, expanding the creation scene beyond the human body."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "03c0e3d1eda08fb7b9357ee539a70dd14ff7a2a342d5727f05639de29002f4d8",
+    "followup_sha256": "03c0e3d1eda08fb7b9357ee539a70dd14ff7a2a342d5727f05639de29002f4d8"
+  },
+  "consolidation_error": null,
+  "list_sha256": "00f16c7bb7f736e8ec9fe8ec94724e8d9f2cf25bffe5ee1ccda6af9242b0eb28",
+  "followup_delivery": [
+    {
+      "call_id": "call_UvtBy4eTGmgX0EtyKYy8C07V",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 1227393,
+    "cached_input_tokens": 1132032,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 78075,
+    "reasoning_output_tokens": 63839,
+    "total_tokens": 1305468
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:27:16.337Z",
+  "artifacts": {
+    "started.json": "e7e6ccb379427b8f8e6cbe42c182c920a321672923073ad060af76880c630650",
+    "input.json": "585409674a1acbd284234f19eaaa0a752c2ca3cb2e8f7ab69a92dce08e6a0248",
+    "prompt.md": "3f1599c615c79b1da23da0366f55dca7ac7d0cd82f370c64a208fd9883c0ab62",
+    "package.md": "8fc80cc9d0ff7ac7f08382c2a2bcf26e5726b5fb329be2fd5ac28a8565efa419",
+    "spawn.md": "8944cf6450da33eae1e1c5140acc9958d98823f305e8dbcc9226088c8d9f16e0",
+    "followup.txt": "65644c30bc1d3c2ae8671036f2f3fa176712675b487b5222353b407be74367f6",
+    "turn1.json": "ad90bbdb22fc92c60248f3a627bda40bd7cd1cad74c291adf0b7255afa578e6b",
+    "turn1.list.tsv": "f3f14b6a045634f346960ab44e77977d73bc8049e8bebdbbf36d097998740749",
+    "followup.tsv": "03c0e3d1eda08fb7b9357ee539a70dd14ff7a2a342d5727f05639de29002f4d8",
+    "list.tsv": "00f16c7bb7f736e8ec9fe8ec94724e8d9f2cf25bffe5ee1ccda6af9242b0eb28",
+    "consolidation.json": "f67fddbb1c1dd1d4a5bd0eaa81515215227c7022b966b409b15c918e1518182b",
+    "validation.json": "90943d809332fd52332f35bd0a77af3683eb8678f138b1e112606b3e5024afb2",
+    "proposal_validation.json": "49c7c398650f45102aff94c2219958ccb02420063c17746a9a5d20029b160ddc",
+    "tool_calls.json": "622a0e38b7f9e1e6ba982856f01f89ccc922f6e73e07479e162a8e1b829c688b",
+    "session.json": "5cac74ed9d45a74273a607ac7ccaf862a612f8e27d68e1648afe77f05ed6457a",
+    "session.events.jsonl": "8b82544a69740afc456f7ee455495756fa450bdb99b4d90faa29e1544da9f647"
+  }
+}

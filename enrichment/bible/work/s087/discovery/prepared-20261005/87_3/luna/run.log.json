@@ -1,0 +1,1912 @@
+{
+  "target": "87:3",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/87_3.md",
+  "base_sha256": "f3ec78fb489687308b2659582b69bb751342c2ee432bf99cde46dba4001f79fd",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:22:01.811751-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_87_3_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "1183d4fa34241df34e51d020d66dc696abd75659ad6aef8d4311753c08306d64",
+  "package_sha256": "6770ac899ac3ba4548bd6e916fce0520f32e0f8dbb16ee4122af03a4f51ce7c3",
+  "input_sha256": "47723d7e10831526c74ae33541e7c2be543bf4bd9071070046028d106f9fdd75",
+  "spawn_sha256": "4c2275a0e56fb6b2224b597cee7967fb89ccee12bcce6230a37cc23f1d0ad6c5",
+  "followup_text_sha256": "53c8acb7bd5bfe253fb4da5b869d87e0c8b07fc23026caaa842ba3ad41e2d0cf",
+  "agent_id": "01a10d1e-376f-71b0-9b6f-1a1203124f6e",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-30-46-01a10d1e-376f-71b0-9b6f-1a1203124f6e.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 102,
+  "turn1_sha256": "304eea90eb1762af01b891939874474cf23a4cb4bba4e364ba2b521159b9553b",
+  "turn2": {
+    "completed": true,
+    "rows_total": 140,
+    "rows_added": 38
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 102,
+    "raw_proposal_rows": 38,
+    "unique_additions": 38,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 11:20",
+          "basis": "measure, number, weight",
+          "note": "The commentary says qaddara assigns each thing its measure and limit; Wisdom says the Creator ordered all things by measure, number and weight, making proportion explicit as the structure of creation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.5",
+          "basis": "earth measured by its maker",
+          "note": "The commentary glosses qaddara as setting the amount of every thing; Job asks who determined earth's measurements and stretched its line, giving that claim a concrete creation image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.12",
+          "basis": "measuring waters and heavens",
+          "note": "The commentary reads God's measure as extending across all creation; Isaiah pictures God measuring waters and marking off the heavens, a direct image of cosmic ordering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.26",
+          "basis": "appointed times and boundaries",
+          "note": "The commentary says measure includes where a thing reaches and when it ends; Acts says God fixed nations' times and habitation boundaries, extending that ordering to human history and geography."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.27",
+          "basis": "people seek and find God",
+          "note": "The commentary joins God's universal measure to guidance; Paul says the bounded times and places are so people will seek God and perhaps find him, giving human purpose to the allotted setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.14.5",
+          "basis": "numbered days and fixed bounds",
+          "note": "The commentary explicitly includes lifespan and endpoint in measure; Job says a person's days are determined and bounds set that cannot be passed, making temporal limit part of created measure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.3.1",
+          "basis": "an appointed season for every matter",
+          "note": "The commentary reads grass's greening and withering as one measured course; Ecclesiastes says every matter under heaven has its season, framing change as timed rather than contradictory."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.3.2",
+          "basis": "time to plant and uproot, be born and die",
+          "note": "The commentary connects pasture's growth and decay with a thing's endpoint; Ecclesiastes sets planting beside uprooting and birth beside death, extending the cycle from vegetation to human life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.31.16",
+          "basis": "life's times held by God",
+          "note": "The commentary says every thing has an amount and term; the psalmist says his times are in God's hand, turning the measure of lifespan into personal trust."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.19",
+          "basis": "moon marks seasons; sun knows its setting",
+          "note": "The commentary links measure to cycles that reach an end; the psalm assigns the moon to appointed seasons and the sun to its setting, showing timekeeping within creation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.27",
+          "basis": "creatures wait for food in due season",
+          "note": "The commentary leaves the object of measuring and guiding unstated so it can cover every being; the psalm says all creatures look to God for food in its season, giving that scope a concrete ecological form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.28",
+          "basis": "God opens his hand and satisfies creatures",
+          "note": "The commentary leaves the object of measuring and guiding unstated so it can cover every being; the psalm says God gives food, creatures gather it and are satisfied when he opens his hand, specifying how that provision arrives."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.29",
+          "basis": "breath withdrawn and creatures die",
+          "note": "The commentary reads growth and withering as two ends of one measured course; the psalm says God takes away creatures' breath and they die and return to dust, making the endpoint explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.30",
+          "basis": "breath sent and earth renewed",
+          "note": "The commentary reads pasture's withering as one end of a measured course; the psalm says God sends breath and creatures are created and the earth renewed, joining an endpoint to renewed life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.31",
+          "basis": "God rejoices in his works",
+          "note": "The commentary presents the course of pasture and its end as part of one ordered work; the psalm closes its creation survey with God's rejoicing in his works, adding affirmation to their measured variety."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.4",
+          "basis": "stars counted and named",
+          "note": "The commentary says measure reaches every created thing; the psalm says God counts the stars and calls each by name, combining number with individual address."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.8",
+          "basis": "rain prepares the earth and grass",
+          "note": "The commentary connects measured rain with pasture's emergence; the psalm says God prepares rain and makes grass grow on the hills, directly joining ordered water to vegetation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.9",
+          "basis": "God feeds young ravens",
+          "note": "The commentary insists that guidance and measure are not limited to humans; the psalm says God gives food even to young ravens that cry, extending providence to vulnerable animals."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.26",
+          "basis": "starry host brought out by number and name",
+          "note": "The commentary says God's measure covers everything; Isaiah says the Creator brings out the host by number and calls each one by name, making universal order both numerical and particular."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.5.22",
+          "basis": "sand set as the sea's boundary",
+          "note": "The commentary defines measure as also setting a limit; Jeremiah says God set sand as a boundary the sea cannot cross, an image of a created force held within its assigned reach."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.26",
+          "basis": "rain on uninhabited land",
+          "note": "The commentary says the objectless verbs include all beings, not only people; Job asks who sends rain on land where no human lives, placing divine provision beyond human use."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.27",
+          "basis": "wilderness made to sprout",
+          "note": "The commentary links measured rain to pasture's growth; Job says rain makes the desolate ground sprout with grass, showing water, land and vegetation in a specific sequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.41",
+          "basis": "food for ravens and their young",
+          "note": "The commentary extends God's guidance beyond humanity; Job asks who provides food for ravens when their young cry to God, making animal dependence part of the Creator's ordering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.39.26",
+          "basis": "hawk's migration by God's wisdom",
+          "note": "The commentary says a created being receives a way suited to its nature; God asks Job whether the hawk flies south by Job's wisdom, presenting animal movement as beyond human control and within divine wisdom."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.8.22",
+          "basis": "seedtime, harvest and recurring seasons",
+          "note": "The commentary reads pasture's green growth and dark decay as stages in one measured course; Genesis promises that seedtime and harvest, cold and heat, summer and winter will continue, adding covenant assurance to natural cycles."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.65.11",
+          "basis": "earth watered and grain prepared",
+          "note": "The commentary says rain descends by a measure that supports pasture; the psalm depicts God watering the land and preparing grain, joining measured provision to harvest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.3",
+          "basis": "tree bearing fruit in its season",
+          "note": "The commentary reads vegetation's growth and withering as a bounded course; the psalm's tree yields fruit in season and keeps its leaf, turning the seasonal image toward the life shaped by Torah."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 43:6",
+          "basis": "moon appointed for seasons and signs",
+          "note": "The commentary connects the moon's measured phases with time and return; Sirach says the moon serves as a sign of times and seasons, presenting the calendar as part of creation's order."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1 Enoch 72:1–4",
+          "basis": "fixed courses and gates of the sun",
+          "note": "The commentary says celestial bodies follow measured courses and mark time; Enoch describes the sun's assigned course through gates, expanding the same motif into an apocalyptic calendar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 10:6",
+          "basis": "heavenly constellation makes each herb grow",
+          "note": "The commentary says God's measure and guidance extend to pasture and every creature; Genesis Rabbah interprets creation by saying each herb has a heavenly constellation that prompts its growth, making divine ordering intimate at the level of a plant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.13.21",
+          "basis": "cloud and fire leading Israel",
+          "note": "The commentary presents hidaya as a guide going ahead on the route; Exodus says the Lord went before Israel in a pillar of cloud by day and fire by night to lead them, giving the image a national journey."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Num.9.18",
+          "basis": "Israel travels when the cloud lifts",
+          "note": "The commentary says guidance determines both direction and the course's timing; Numbers says Israel camped or set out according to the cloud's movement, making rest and travel part of the guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Num.10.33",
+          "basis": "ark goes ahead to seek a resting place",
+          "note": "The commentary describes a guide who leads toward a destination or home; Numbers says the ark traveled ahead for three days to find a resting place, pairing leading with the place sought."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.1.33",
+          "basis": "God goes ahead to find a camp",
+          "note": "The commentary says the guide moves in front and identifies where the journey should end; Moses recalls God going ahead of Israel to search out a place to camp, by fire at night and cloud by day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.32.10",
+          "basis": "God finds and guards Israel in the wilderness",
+          "note": "The commentary develops the image of a guide responsible for a flock; Moses's song recalls God finding Israel in a desert waste, guarding and caring for him, giving the guidance motif a wilderness history."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.11",
+          "basis": "eagle stirs and carries its young",
+          "note": "The commentary links leading with a creature moving ahead and carrying others along; the song compares God's care for Israel to an eagle hovering over its young and bearing them on its pinions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.32.12",
+          "basis": "YHWH alone leads Israel",
+          "note": "The commentary says the guide brings the follower along rather than merely pointing from afar; Moses says YHWH alone led Israel and no foreign god was with him, specifying the source and exclusivity of that guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.12.1",
+          "basis": "Abram goes to a land God will show",
+          "note": "The commentary connects Abraham's confession that his Creator will guide him with a personal journey; Genesis has God tell Abram to go toward a land God will show, making trust in guidance an enacted departure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.24.48",
+          "basis": "servant led by God to the bride",
+          "note": "The commentary notes that h-d-y can mean leading a bride to her husband; Abraham's servant blesses God for leading him on the right path to Rebekah for Isaac, combining guidance and the bride's destination in one scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.2",
+          "basis": "YHWH named as the speaker's shepherd",
+          "note": "The commentary's flock image presents the guide as caretaker; the psalm names YHWH as the speaker's shepherd, making the leader's relation to the follower personal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.3",
+          "basis": "shepherd leads to pasture and water",
+          "note": "The commentary's flock-and-pasture image presents the guide as caretaker; the psalm's shepherd makes the speaker lie in green pastures and leads him beside waters, joining direction to sustenance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.4",
+          "basis": "shepherd leads on right paths",
+          "note": "The commentary distinguishes showing a path from the traveler's following it; the psalm says the shepherd leads the speaker on right paths, supplying the route and the ethical quality of the way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.5",
+          "basis": "staff and presence in a dark valley",
+          "note": "The commentary connects a guide with a staff that reaches the ground before the walker and with shared travel; the psalm says the shepherd remains with the speaker through a dark valley, with rod and staff as comfort."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.43.3",
+          "basis": "light and truth lead to God's dwelling",
+          "note": "The commentary says a guide shows both the path and the home it reaches; the psalm asks God's light and truth to lead the speaker to the holy mountain and dwelling, joining illumination to destination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.77.21",
+          "basis": "Moses and Aaron lead Israel like a flock",
+          "note": "The commentary places a flock's leader between God's sovereignty and pasture; the psalm retells the Exodus as God leading his people like a flock by Moses and Aaron, making human guides agents of divine guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.7",
+          "basis": "lost travelers led to an inhabited city",
+          "note": "The commentary says a guide reveals the way and the home at its end; the psalm describes wanderers in a desert waste whom God leads by a straight way to an inhabited city, closely joining route and arrival."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.105",
+          "basis": "word as lamp for feet and path",
+          "note": "The commentary connects a distant light and a guide with a traveler's way; the psalm calls God's word a lamp for the feet and a light on the path, making instruction something that illuminates the next steps."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.21",
+          "basis": "voice says which way to walk",
+          "note": "The commentary says guidance is more than pointing at a distant destination and includes a direction for the walk; Isaiah describes a voice behind the people telling them, “This is the way; walk in it,” when they turn aside."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.16",
+          "basis": "God leads the blind on unknown roads",
+          "note": "The commentary says the objectless guidance applies broadly and can bring someone to a way not yet known; Isaiah says God will lead the blind by a way they do not know, turn darkness to light and rough places level."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.48.17",
+          "basis": "God teaches and leads in the way to go",
+          "note": "The commentary joins the same Lord's act of measuring with his act of guidance; Isaiah calls God Israel's teacher and the one who leads it in the way it should go, an especially close prophetic formulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.49.10",
+          "basis": "shepherd leads to springs of water",
+          "note": "The commentary joins a guide, pasture and provision; Isaiah's restored people are led by the one who has compassion on them and guided beside springs, giving the shepherd-like journey a restoration setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.11",
+          "basis": "continual guidance in dry ground",
+          "note": "The commentary relates measured rain and pasture to the path of life; Isaiah says the Lord will guide continually and make the people like a watered garden, bringing guidance and sustained provision together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.9",
+          "basis": "God leads Israel beside streams on a straight path",
+          "note": "The commentary says guidance reveals both route and destination; Jeremiah depicts Israel returning with weeping and supplication as God leads them beside streams on a straight path, as a father leads Ephraim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.13",
+          "basis": "God gathers scattered sheep",
+          "note": "The commentary uses a flock's leading to connect care with pasture; Ezekiel says God will bring scattered sheep out from the peoples and gather them from the countries, giving the shepherd image a restoration scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.14",
+          "basis": "God feeds the flock in good pasture",
+          "note": "The commentary names pasture as the concrete provision following guidance; Ezekiel says the flock will feed on rich pasture on Israel's mountains, pairing the shepherd's direction with nourishment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.15",
+          "basis": "shepherd gives the flock rest",
+          "note": "The commentary treats a measured course as including where a creature settles; Ezekiel says God will feed his sheep and make them lie down, adding rest as part of the shepherd's care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.16",
+          "basis": "lost, injured and weak sheep restored",
+          "note": "The commentary's guide image includes leading and care for the flock; Ezekiel's shepherd seeks the lost, binds the injured and strengthens the weak, specifying what the divine shepherd does for those who cannot proceed unaided."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.3",
+          "basis": "God teaches Ephraim to walk",
+          "note": "The commentary develops a form of walking while leaning on another; Hosea says God taught Ephraim to walk and took him up by the arms, making guidance bodily and accompanied."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.4",
+          "basis": "guidance by cords of kindness",
+          "note": "The commentary says hidaya can be gentle guidance rather than forceful dragging; Hosea describes God drawing Israel with human cords and bands of love, giving that noncoercive relation a specific image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.7.14",
+          "basis": "shepherd with staff among pasture lands",
+          "note": "The commentary connects the guide's staff with a flock and its pasture; Micah asks God to shepherd his people with his staff in Bashan and Gilead, making the same image a prayer for restored care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.3",
+          "basis": "shepherd calls sheep and leads them out",
+          "note": "The commentary says the guide goes ahead and knows the way of the flock; Jesus's shepherd calls his own sheep by name and leads them out, making personal recognition part of guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.4",
+          "basis": "shepherd goes ahead; sheep follow",
+          "note": "The commentary distinguishes God's showing from the traveler's following; John says the shepherd goes ahead and the sheep follow because they know his voice, directly separating leader's act from follower's response."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.16",
+          "basis": "one flock and one shepherd",
+          "note": "The commentary places the leader of a flock between the guide and pasture; Jesus says other sheep will be brought in so there will be one flock and one shepherd, extending the image to gathered people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "Lamb shepherds and guides to living springs",
+          "note": "The commentary joins shepherding, guidance and the arrival at provision; Revelation says the Lamb will shepherd the redeemed and guide them to springs of living water, carrying the pastoral image into final restoration."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.8.26",
+          "basis": "angel directs Philip to the Gaza road",
+          "note": "The commentary says guidance can set a person on an actual route; an angel tells Philip to go south to the road from Jerusalem to Gaza, making divine direction concrete in a journey."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.8.29",
+          "basis": "Spirit directs Philip toward the chariot",
+          "note": "The commentary distinguishes the guide's act from the traveler's response; the Spirit tells Philip to approach the chariot, and Philip runs to it, showing guidance received and acted upon."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.16.13",
+          "basis": "Spirit guides into all truth",
+          "note": "The commentary says hidaya is wider than conversion and means guiding a way; Jesus says the Spirit of truth will guide the disciples into all truth, extending guidance to understanding and witness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.2",
+          "basis": "Moses turns toward a flame in the wilderness",
+          "note": "The commentary recalls Moses seeing a distant fire while seeking help on the road; Exodus says a flame in the bush catches Moses's attention, where the traveler encounters the God who will commission him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.10",
+          "basis": "Moses sent to lead Israel out",
+          "note": "The commentary says Moses moves from a traveler looking for guidance to a guide sent before Pharaoh; Exodus says God sends Moses to Pharaoh to bring Israel out, making that change of role a liberation commission."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Wisdom of Solomon 10:17",
+          "basis": "Wisdom guides Israel on a marvelous way",
+          "note": "The commentary presents Moses's account as creation followed by guidance and provision; Wisdom retells the Exodus by saying Wisdom guided the righteous on a marvelous way and sheltered them by day and night, interpreting the journey as Wisdom's work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Wisdom of Solomon 10:18",
+          "basis": "Wisdom brings Israel through the sea",
+          "note": "The commentary says a guide leads followers toward their destination; Wisdom's Exodus retelling says Wisdom brought Israel through the sea, adding the rescue at the route's decisive obstacle."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.30.8",
+          "basis": "food allotted as one's portion",
+          "note": "The commentary says qaddara can mean preparing an amount suited to its recipient; Proverbs asks for the food that is one's portion, making measured provision an ethical request for neither excess nor want."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.16.16",
+          "basis": "manna gathered by each person's need",
+          "note": "The commentary says the measure of a thing prepares it for its use; Moses tells Israel to gather manna according to what each can eat and an omer per person, giving divine provision an explicit daily quantity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.16.18",
+          "basis": "much gathered and little gathered both suffice",
+          "note": "The commentary says measured provision is not humiliation but a fit amount; Exodus says the one who gathered much had no excess and the one who gathered little had no lack, showing the provision's measure by its result."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.19",
+          "basis": "life and death placed before Israel to choose",
+          "note": "The commentary says the same shown path may be followed or avoided, without forced movement; Moses sets life and death before Israel and urges them to choose life, giving the human response an explicit covenant form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 15:14–17",
+          "basis": "human choice between life and death",
+          "note": "The commentary says guidance does not drag the traveler and that people may choose the path; Sirach says God made humans and left them to their own choice, then sets fire and water and life and death before them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 3:15",
+          "basis": "all is foreseen, choice is granted",
+          "note": "The commentary holds divine guidance together with the person's decision to follow or turn aside; Avot's maxim says all is foreseen yet freedom of choice is given, preserving both claims in a Jewish ethical formulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "b. Berakhot 33b",
+          "basis": "fear of Heaven left to human response",
+          "note": "The commentary says showing the road is God's act while taking it is the traveler's; the Talmud says everything is in Heaven's hands except fear of Heaven, marking the human response as the point not compelled."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 1:1–6",
+          "basis": "two ways, life and death",
+          "note": "The commentary says the shown way divides into people who heed instruction and those who avoid it; the Didache opens with the way of life and the way of death, then gives their different conduct, making the moral fork concrete."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.9",
+          "basis": "human plans, Lord establishes steps",
+          "note": "The commentary warns that a person's own measuring can replace the path God shows; Proverbs says the heart plans its way but the Lord establishes a person's steps, distinguishing intention from the course taken."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.13",
+          "basis": "no human instructs God's Spirit",
+          "note": "The commentary calls it a misjudgment to measure God by human assumptions about revelation; Isaiah asks who directed the Spirit of the Lord or taught him the path of justice, refusing to make human judgment the standard."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.3",
+          "basis": "God apportions a measure of faith",
+          "note": "The commentary warns that people should not replace God's measure with their own; Paul tells each person to think soberly according to the measure of faith God apportioned, applying measure to humility and communal life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.7",
+          "basis": "grace given according to Christ's measure",
+          "note": "The commentary says measure fits each thing for its purpose; Paul says grace was given to each according to the measure of Christ's gift, making differentiated vocation a Christian application of measured provision."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.10",
+          "basis": "created for works prepared to walk in",
+          "note": "The commentary links creation to the way that follows immediately after it; Ephesians says believers are created for good works God prepared beforehand for them to walk in, closely joining making and a prepared path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.26",
+          "basis": "Father feeds the birds",
+          "note": "The commentary says the objectless measure and guidance encompass every creature; Jesus points to birds that neither sow nor reap yet are fed by the heavenly Father, making nonhuman provision a sign of God's care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.28",
+          "basis": "God clothes the grass",
+          "note": "The commentary links the measured life of pasture to its growth and decay; Jesus asks disciples to consider how the field's grass grows and is clothed by God, making vegetation an example of provision beyond human effort."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.10.29",
+          "basis": "sparrows fall under the Father's care",
+          "note": "The commentary says God's measure extends to every being; Jesus says not one sparrow falls to the ground apart from the Father, making even a small creature's fate part of that scope."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.10.30",
+          "basis": "hairs counted",
+          "note": "The commentary says measure includes particulars rather than only broad cosmic totals; Jesus says the disciples' hairs are all numbered, turning divine measure into individual knowledge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.14.17",
+          "basis": "rain, fruitful seasons and food",
+          "note": "The commentary connects measured rain to pasture and sustenance; Paul says God gives rain and fruitful seasons, filling people with food and gladness, joining cosmic provision to human experience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.80.2",
+          "basis": "God as shepherd of Israel's flock",
+          "note": "The commentary places the shepherd and flock between guidance and pasture; the psalm calls God Israel's shepherd and asks him to lead Joseph like a flock, making national deliverance a pastoral relation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "b. Ta'anit 2a",
+          "basis": "rain as a key held by God",
+          "note": "The commentary says rain descends in a measured amount and sustains pasture; the Talmud treats rain as a divine key, placing this ecological process among God's reserved acts and communal petitions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.5.2",
+          "basis": "Pharaoh asks who the Lord is",
+          "note": "The commentary highlights Qur'anic Moses answering Pharaoh's “Who is your Lord?” with the Lord who gives each thing its form and guidance; Exodus has Pharaoh ask who YHWH is and refuse obedience, so the Qur'anic scene answers a biblical challenge with a positive account of creation and guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.12.5",
+          "basis": "the chosen place of worship",
+          "note": "The commentary says a sacrificial animal is led until it reaches its appointed sanctuary; Deuteronomy tells Israel to seek the place God chooses for his name and go there, supplying the Torah's destination for pilgrimage."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.12.6",
+          "basis": "offerings brought to the chosen place",
+          "note": "The commentary describes an animal whose journey ends at a sacred destination; Deuteronomy lists offerings Israel is to bring there, giving a specific ritual setting for destination-bound worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.8.2",
+          "basis": "God leads Israel through the wilderness for forty years",
+          "note": "The commentary says a measured path includes its duration and what the traveler learns along it; Moses recalls God leading Israel through the wilderness for forty years to humble and test them, making the journey's time purposeful."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 96,
+        "row": {
+          "line": 96,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1QS 3:13–4:26",
+          "basis": "two spirits and two ways",
+          "note": "The commentary distinguishes God's act of guidance from the person's choice to follow or avoid the way; the Community Rule describes two spirits and their lots shaping opposing ways, making the tension between divine ordering and human conduct explicit in a sectarian frame."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 97,
+        "row": {
+          "line": 97,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.10.23",
+          "basis": "human cannot direct his own steps",
+          "note": "The commentary says a person cannot substitute private judgment for God's guidance; Jeremiah says a person's way is not in his own power and he cannot direct his steps, giving that limit a prayerful formulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 98,
+        "row": {
+          "line": 98,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.7.17",
+          "basis": "life as the Lord assigned and called",
+          "note": "The commentary says every being receives a measure and a way suited to it; Paul tells each person to live in the condition the Lord assigned and God called him to, applying that principle to vocation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 99,
+        "row": {
+          "line": 99,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.2.9",
+          "basis": "star leads the travelers to the child",
+          "note": "The commentary says a celestial light may guide a traveler but is not itself the ultimate guide; Matthew's star goes before the Magi and stops over the child's place, treating the star as a sign that serves a destination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 100,
+        "row": {
+          "line": 100,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, Tractates on the Gospel of John 45",
+          "basis": "shepherd, voice and faithful following",
+          "note": "The commentary reads the guide as one who goes ahead and whose followers choose to follow; Augustine's exposition of John 10 interprets the shepherd's voice and sheep as Christ's authority recognized by the faithful, turning pastoral leading into ecclesial interpretation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 101,
+        "row": {
+          "line": 101,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.13",
+          "basis": "numbering days to gain wisdom",
+          "note": "The commentary says every thing has a measure and term; Moses asks God to teach people to number their days so they may gain a wise heart, turning the allotted lifespan into a discipline of judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 102,
+        "row": {
+          "line": 102,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.17",
+          "basis": "days written before they begin",
+          "note": "The commentary says a creature's endpoint and lifespan belong to its measure; the psalm says the speaker's days were written before one of them existed, giving that claim a personal image of foreknown duration."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.14",
+          "basis": "lights for appointed times",
+          "note": "The commentary says qaddara includes the amount and timing assigned to each thing; Genesis gives the sun and moon their signs, seasons, days and years, making timekeeping part of creation's order."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.24",
+          "basis": "creatures according to their kinds",
+          "note": "The commentary says its objectless measure and guidance extend to every being; Genesis has the earth bring forth living creatures according to their kinds, showing the varied forms within that universal scope."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.8",
+          "basis": "nations allotted with fixed boundaries",
+          "note": "The commentary says qaddara determines how far each thing reaches; in WLC's wording, Moses says the Most High apportioned nations and fixed their boundaries according to the number of Israel's children, extending measured allotment to peoples."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.19.6",
+          "basis": "sun runs its appointed course",
+          "note": "The commentary connects measured celestial paths with time and travel; the psalm compares the sun to a runner that rejoices to complete its course, giving the solar route a vivid motion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.19.7",
+          "basis": "sun's circuit reaches the ends of heaven",
+          "note": "The commentary says a measured thing has a course with an endpoint; the psalm says the sun rises at one end of heaven and its circuit reaches the other, adding the full extent of its route."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.3.6",
+          "basis": "God measures the earth",
+          "note": "The commentary says measure establishes the reach and limit of created things; Habakkuk portrays God standing and measuring the earth before nations tremble, making measurement an act of sovereign judgment over the land."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.2.21",
+          "basis": "God changes times and seasons",
+          "note": "The commentary says a thing's measure includes its term and timing; Daniel blesses God as the one who changes times and seasons and raises or removes kings, extending providential ordering to political history."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.46.10",
+          "basis": "God declares the end from the beginning",
+          "note": "The commentary defines a thing's measure by its reach, essence and end; Isaiah says God declares the end from the beginning and accomplishes his purpose, making the endpoint part of divine intention."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.4",
+          "basis": "each thing made for its purpose and day",
+          "note": "The commentary says measure gives each thing where it will arrive and end; Proverbs says the Lord made everything for its purpose, including the wicked for a day of trouble, specifying purpose and endpoint."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.11",
+          "basis": "just scales belong to the Lord",
+          "note": "The commentary says human weighing must follow the measure God gives; Proverbs says honest scales and weights are the Lord's work, grounding fair human measurement in divine order."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.35",
+          "basis": "no injustice in measures and weights",
+          "note": "The commentary connects divine measure to the human use of a scale; Leviticus forbids injustice in length, weight or capacity, turning measure into a concrete command for commerce."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.36",
+          "basis": "true weights and measures required",
+          "note": "The commentary says people may measure but must honor a measure they did not invent; Leviticus requires honest balances, weights, ephah and hin, giving that limit a practical legal form."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.6",
+          "basis": "God makes the paths straight",
+          "note": "The commentary says the guide both shows a route and leads toward its destination; Proverbs tells the hearer to acknowledge God in all ways so that God will make the paths straight."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.2",
+          "basis": "God weighs the spirit behind human ways",
+          "note": "The commentary says a person's self-measure may be mistaken; Proverbs says people may see their own ways as pure while the Lord weighs their spirits, placing judgment of inward motives with God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.2.3",
+          "basis": "nations learn God's ways and walk in them",
+          "note": "The commentary describes a guide who shows a way that followers then take; Isaiah pictures nations going to God's mountain to be taught his ways and walk in his paths, joining instruction to following."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.32.9",
+          "basis": "God teaches the way with his eye upon the learner",
+          "note": "The commentary says a guide accompanies and identifies the route, not merely pointing from afar; the psalm promises instruction in the way to go and counsel with God's eye upon the person."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.24",
+          "basis": "God establishes a person's steps",
+          "note": "The commentary distinguishes the guide's action from the walker's progress; the psalm says a person's steps are established by the Lord and that the Lord upholds him when he falls, joining direction to support."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.133",
+          "basis": "steps made firm by God's word",
+          "note": "The commentary says the path shown by God must be followed by the traveler; the psalm asks God to make the speaker's steps firm by his word and not let iniquity rule him, making guidance practical and ethical."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.18",
+          "basis": "righteous path grows brighter",
+          "note": "The commentary says the same road is taken by some and avoided by others; Proverbs compares the righteous path to dawn growing brighter, depicting one response as progress toward full light."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.19",
+          "basis": "wicked path is darkness and stumbling",
+          "note": "The commentary says another person turns aside from the shown way; Proverbs describes the wicked person's path as darkness in which he cannot see what makes him stumble, giving the rejected way its own consequence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.16",
+          "basis": "snow and frost given by God",
+          "note": "The commentary presents weather and vegetation as parts of a measured natural course; the psalm says God gives snow like wool and scatters frost like ashes, adding cold season to the ordering of rain and grass."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.18",
+          "basis": "God's word melts ice and releases water",
+          "note": "The commentary reads growth and decay as stages in one course; the psalm says God sends his word, melts the ice and makes waters flow, showing the natural transition from cold to movement."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.28.25",
+          "basis": "the farmer places different seeds in order",
+          "note": "The commentary says qaddara can mean preparing something to fit its use; Isaiah's farmer sows different grains in their proper places, showing practical measure in cultivation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.28.26",
+          "basis": "God teaches the farmer his craft",
+          "note": "The commentary says preparation and measure are first God's work and then human work under a given measure; Isaiah says God instructs the farmer in the right way to proceed, presenting ordinary skill as taught by God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.24.61",
+          "basis": "Rebekah follows the servant toward Isaac",
+          "note": "The commentary notes the concrete sense of escorting a bride to her husband; Genesis says Rebekah and her attendants follow Abraham's servant on the journey, making the bride's movement toward her marriage an enacted image of being led."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.24.67",
+          "basis": "Isaac receives Rebekah as his wife",
+          "note": "The commentary says the bride's guidance has a destination in the husband's home; Genesis ends the journey with Isaac taking Rebekah as his wife, naming the arrival that completes the escort."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Josh.3.4",
+          "basis": "ark leads on a way Israel has not traveled",
+          "note": "The commentary says a guide goes ahead and makes an unknown route knowable; Joshua tells Israel to follow the ark at a distance so they will know the way, because they have not passed that way before."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.79",
+          "basis": "light guides feet into the way of peace",
+          "note": "The commentary connects light, a traveler's feet and the path to a destination; Zechariah says the dawn from on high will shine on those in darkness and guide their feet into the way of peace."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.11.8",
+          "basis": "Abraham departs without knowing the destination",
+          "note": "The commentary presents Abraham's trust that God will guide him on the road ahead; Hebrews says Abraham obeyed the call and went out without knowing where he was going, making that trust a journey into an unknown future."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.1.2",
+          "basis": "a messenger sent ahead to prepare the way",
+          "note": "The commentary says a guide is named for going in front of the traveler; Mark introduces the messenger sent ahead to prepare the Lord's way, giving that image a prophetic and communal role."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.1.3",
+          "basis": "voice prepares a straight road in the wilderness",
+          "note": "The commentary links the way shown with the route the traveler must take; Mark's wilderness voice calls for the Lord's road to be prepared and made straight, turning guidance into communal preparation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 9:11",
+          "basis": "Wisdom will guide and guard the speaker",
+          "note": "The commentary says God's guidance can become a personal, continuing relationship; Solomon asks for Wisdom to accompany him, guide his actions and guard him, turning universal guidance into a prayer for daily direction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.5.27",
+          "basis": "the king weighed and found wanting",
+          "note": "The commentary depicts a man measuring revelation by his own judgment and reaching a false verdict; Daniel interprets the writing against Belshazzar as God having weighed him and found him wanting, reversing who sets the measure."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.32.10",
+          "basis": "do not require bit and bridle",
+          "note": "The commentary says hidaya is gentle leading rather than forced dragging; the psalm warns the hearer not to be like a horse or mule that must be restrained with bit and bridle, making the contrast with coerced movement explicit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Rosh Hashanah 1:2",
+          "basis": "seasons judged for produce and water",
+          "note": "The commentary says rain, pasture and time are measured parts of one natural course; the Mishnah assigns judgments for produce, tree fruit and water to their appointed festivals, giving seasonal provision a Jewish calendar and liturgical frame."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 4:22",
+          "basis": "birth, life and death beyond one's control",
+          "note": "The commentary says each thing has an allotted term and endpoint; Avot says a person is born, lives and dies against his will and will give account, turning the measure of lifespan into a rabbinic reflection on agency."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.6",
+          "basis": "Jesus identifies himself as the way to the Father",
+          "note": "The commentary says guidance joins a route to the home it reaches; Jesus says he is the way and that no one comes to the Father except through him, making the destination personal in John's account."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.14",
+          "basis": "those led by God's Spirit are God's children",
+          "note": "The commentary says guidance is God's act while taking the way identifies the follower; Paul calls those led by God's Spirit children of God, making the response a mark of belonging."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "643600a632736f64fe337db433734c4c250a672253d636aa6d7a865fd8b9c325",
+    "followup_sha256": "643600a632736f64fe337db433734c4c250a672253d636aa6d7a865fd8b9c325"
+  },
+  "consolidation_error": null,
+  "list_sha256": "e30ee8d42f11881f9a7374716d6ae7b807bb874dbd8550eb2be1771b9a88c273",
+  "followup_delivery": [
+    {
+      "call_id": "call_qWdLFFKRSM05rjgmpjU0agpW",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 2381186,
+    "cached_input_tokens": 2252288,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 64684,
+    "reasoning_output_tokens": 47925,
+    "total_tokens": 2445870
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:22:35.007Z",
+  "artifacts": {
+    "started.json": "9a1b1ead4322d927e51910d4dfab7fe81247e05a1b8ed7df5090417f53836319",
+    "input.json": "47723d7e10831526c74ae33541e7c2be543bf4bd9071070046028d106f9fdd75",
+    "prompt.md": "1183d4fa34241df34e51d020d66dc696abd75659ad6aef8d4311753c08306d64",
+    "package.md": "6770ac899ac3ba4548bd6e916fce0520f32e0f8dbb16ee4122af03a4f51ce7c3",
+    "spawn.md": "4c2275a0e56fb6b2224b597cee7967fb89ccee12bcce6230a37cc23f1d0ad6c5",
+    "followup.txt": "53c8acb7bd5bfe253fb4da5b869d87e0c8b07fc23026caaa842ba3ad41e2d0cf",
+    "turn1.json": "5ea44f9cc96f6f04172a3a88b4fe96ac0718da88a8714a6b57cc9d7badd3cf21",
+    "turn1.list.tsv": "304eea90eb1762af01b891939874474cf23a4cb4bba4e364ba2b521159b9553b",
+    "followup.tsv": "643600a632736f64fe337db433734c4c250a672253d636aa6d7a865fd8b9c325",
+    "list.tsv": "e30ee8d42f11881f9a7374716d6ae7b807bb874dbd8550eb2be1771b9a88c273",
+    "consolidation.json": "325d0b63fa26e8da9401ac49a969cccab9a91b7d07dcc97bef8c713d3c141b20",
+    "validation.json": "686834edf79695eb02d743441c19e4bfcf65ccad4f0e9f47b487f8fed4199adb",
+    "proposal_validation.json": "2df4d2e6555039ef6827daed750a3b29086aba4d5620c9a73ca563c4dfe59af8",
+    "tool_calls.json": "ca50bd1ec19d845d3d9668aa5faea6b9d8b55fc6124789e0e3c47646df37d599",
+    "session.json": "0048d4f06444a1043258654482db751d03f16c7a2606835289f09bc16ec54f7d",
+    "session.events.jsonl": "eef2b09a43938ad0933f5f82dd38c20c80d062f2c5ab7c5b6473032891f37934"
+  }
+}

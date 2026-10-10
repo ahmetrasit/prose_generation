@@ -1,0 +1,32 @@
+{
+  "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+  "accepted_at": "2026-10-05T19:04:54.481563+00:00",
+  "changes": [
+    {
+      "line": 41,
+      "before": [
+        "strong",
+        "incil",
+        "motif",
+        "SBLGNT:Didache 1:4-5",
+        "give without seeking return",
+        "The teaching commands love for enemies and giving without demanding repayment; it turns the commentary’s preference for another over self into a specific Christian practice."
+      ],
+      "after": [
+        "strong",
+        "incil",
+        "motif",
+        "Didache 1:4-5",
+        "give without seeking return",
+        "The teaching commands love for enemies and giving without demanding repayment; it turns the commentary’s preference for another over self into a specific Christian practice."
+      ],
+      "reason": "Remove the SBLGNT label from a named non-New-Testament work; keep the same Didache passage as an unverified secondary candidate."
+    }
+  ],
+  "raw_sha256": "aa120bec1247f36b5a6aad9a9c02e2aff1c9877a7e5b4c7d167abec1e3c9e3f1",
+  "accepted_sha256": "8a2cec8c3ccb68d53a149ec5c92199d08c34f0bfc8aa765b428802326719c3c8",
+  "proposal_sha256": "47a128c6b4cc19c139b25913708ff471c4a8f4c59f7f6f1158ebd5bbce9e354a",
+  "failed_log_sha256": "a6d3255ea8901ad1102b4f359bf0fcea66c91ba59e5c10957b60e0315bb9cb72",
+  "model_calls": 0,
+  "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+}

@@ -1,0 +1,1418 @@
+{
+  "target": "sec13",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:21:57.160003-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec13_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "0a0ac755155aa4640414d26bdea2b62f7bf6ba9e9623ee88ec8c2c780be45d27",
+  "package_sha256": "473a31a4bd0e794fa259e789556d9805166aa379befbb94aa1254703b756879a",
+  "input_sha256": "0d9528171395b1a2e3d54bd0aa4680dca8bf27222fac5bebe490a3dc078e1884",
+  "spawn_sha256": "cb6ca93940a1f78b0f42a99b4a07819691774d1181e1e3ca72cff21113ca39b5",
+  "followup_text_sha256": "e93fa130e59c0220d44450ee6db104acdd25a3d356d500f280a7ac7044ae5858",
+  "agent_id": "01a10d1a-ea43-7d70-87b1-d415de95f6dc",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-27-10-01a10d1a-ea43-7d70-87b1-d415de95f6dc.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 67,
+  "turn1_sha256": "84394c4a37743a1fdcd0518142c3984ee3a2cbe91d23ee862381963297abd580",
+  "turn2": {
+    "completed": true,
+    "rows_total": 102,
+    "rows_added": 35
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 67,
+    "raw_proposal_rows": 35,
+    "unique_additions": 35,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.19.15",
+          "basis": "mouth and heart in prayer",
+          "note": "The commentary says remembrance occurs on the tongue and in the heart; the psalm asks that both its mouth's words and its heart's meditation be acceptable to YHWH, joining voiced utterance and inward devotion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.1.13",
+          "basis": "Hannah's silent prayer",
+          "note": "Hannah speaks in her heart, moves her lips, but has no audible voice; this gives the commentary's inward recitation and remembrance a concrete prayer scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Berakhot 31a",
+          "basis": "Hannah as a model for prayer",
+          "note": "The Talmud reads Hannah's moving lips and unheard voice as a rule for prayer: articulate the words without raising the voice, an explicit interpretation of the commentary's inner and audible modes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Berakhot 2:3",
+          "basis": "hearing one's Shema",
+          "note": "The Mishnah disputes whether Shema must be audible to its reciter; this liturgical ruling makes the commentary's distinction between an inward reading and a voiced one consequential."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.14",
+          "basis": "word in mouth and heart",
+          "note": "Moses says the command is near, in Israel's mouth and heart, to be done; the commentary likewise places remembered or recited divine words in both tongue and heart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.10.8",
+          "basis": "word in mouth and heart",
+          "note": "Paul quotes Deuteronomy's near word as the message of faith, confessing with the mouth and believing in the heart; this gives the commentary's two modes of receiving sacred speech a Christian interpretive counterpart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.6",
+          "basis": "words on the heart",
+          "note": "The command's words are to be upon Israel's heart, matching the commentary's claim that remembrance is inward as well as spoken."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.7",
+          "basis": "recite in daily life",
+          "note": "Israel is to repeat the words to children and speak them at home, on the road, at lying down and rising; this makes remembered scripture recurrent speech, not only silent possession."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.1.8",
+          "basis": "Torah in the mouth",
+          "note": "The Torah is not to depart from Joshua's mouth and is to be murmured day and night; this closely joins oral recitation with sustained inward attention, as the commentary does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.8.8",
+          "basis": "reading from the scroll",
+          "note": "The Levites read the Torah from the book and give its sense so the people understand; this is a public, text-in-hand counterpart to the commentary's reading by looking into the text."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.31.11",
+          "basis": "Arabic q-r-ʾ and Hebrew קרא",
+          "note": "The source commentary labels Qur'anic recitation with Arabic q-r-ʾ; here Hebrew q-r-ʾ commands reading the Torah before all Israel, showing the cognate's public scriptural-reading use."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.119.55",
+          "basis": "Arabic dh-k-r and Hebrew זכר",
+          "note": "The source commentary labels remembrance with Arabic dh-k-r; the psalm uses the Hebrew cognate for remembering YHWH's name at night, a private act of recollection that sharpens the commentary's tongue-and-heart account."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.26",
+          "basis": "the Spirit recalls Jesus' words",
+          "note": "Jesus promises that the Holy Spirit will teach the disciples and bring to their memory what he said; this parallels the commentary's divine enabling of recitation without forgetting, while giving the promise a different speaker and setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.2.19",
+          "basis": "words treasured in the heart",
+          "note": "After hearing the shepherds' report, Mary keeps and ponders it in her heart; this shows heard speech being retained inwardly, one side of the commentary's oral and internal reading scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.16",
+          "basis": "word dwelling and song",
+          "note": "The message of Christ is to dwell richly among the community, which teaches and sings psalms with gratitude in the heart; this joins remembered sacred words, voiced praise and inward devotion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.5.19",
+          "basis": "singing in the heart",
+          "note": "The community speaks to one another in psalms and sings to the Lord in its heart; this pairs voiced religious speech with the inward orientation that the commentary assigns to remembrance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.29.28",
+          "basis": "hidden and revealed things",
+          "note": "The Hebrew verse assigns hidden things to YHWH and revealed things to Israel and its children; this directly frames the commentary's claim that the Lord knows what is concealed as well as disclosed. WLC numbering is used."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.2.22",
+          "basis": "darkness and hidden things",
+          "note": "Daniel praises God as the one who reveals deep, hidden things, knows what is in darkness, and has light with him; this closely joins knowing concealment and disclosure, as in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.28.11",
+          "basis": "hidden things brought to light",
+          "note": "In the poem about mining, God-like human searching stops streams and brings hidden things to light; the concrete extraction from earth echoes the commentary's movement from what is covered to what emerges."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.12.22",
+          "basis": "darkness brought into light",
+          "note": "Job says God reveals deep things from darkness and brings deep gloom into light; this gives a direct scriptural image for the commentary's concealed becoming manifest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 1:6",
+          "basis": "tongue and heart observed",
+          "note": "Wisdom says God witnesses the inmost feelings, observes the heart, and hears the tongue; this closely matches the commentary's pairing of voiced remembrance with what remains inward."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 1:7",
+          "basis": "Spirit knows every utterance",
+          "note": "The Spirit of the Lord fills the world and knows what is said; this extends the commentary's claim that speech and its hidden counterpart are known by God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 1:10",
+          "basis": "whisper heard by God",
+          "note": "Wisdom says a jealous ear hears all things and that murmuring does not go unnoticed; this specifically connects quiet, concealed speech with divine knowledge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 42:18",
+          "basis": "hearts and secrets searched",
+          "note": "Sirach says God searches the abyss and the human heart and sees hidden things; this gives the commentary's divine knowledge of concealed matters a close wisdom-text counterpart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 42:19",
+          "basis": "nothing hidden from God",
+          "note": "Sirach adds that no thought escapes God and that he reveals what is hidden; this joins inward thought, concealment and disclosure in the way the commentary does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 23:18",
+          "basis": "sinner trusts darkness",
+          "note": "The sinner supposes that darkness and walls hide his conduct from notice; this is the mistaken secrecy answered by the commentary's statement that the Lord knows what is hidden."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 23:19",
+          "basis": "God's eyes brighter than the sun",
+          "note": "Sirach answers that the Lord's eyes are far brighter than the sun and see every human way; the image connects divine knowledge of hidden conduct with the commentary's paradox that excessive light can itself obstruct sight."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.23.24",
+          "basis": "no hiding place from God",
+          "note": "YHWH asks whether anyone can hide in a secret place beyond his sight and says he fills heaven and earth; this directly supports the commentary's open/hidden pair as two states within divine knowledge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.8.12",
+          "basis": "secret chamber and claimed divine blindness",
+          "note": "The elders act in hidden chambers and say YHWH does not see them; this concrete scene of concealed worship supplies the claim that the commentary's verse rejects by affirming God's knowledge of what is hidden."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.14",
+          "basis": "every hidden deed judged",
+          "note": "Qoheleth says God brings every deed, including every hidden thing, into judgment; this adds an eventual consequence to the commentary's assertion that concealment is no limit on divine knowledge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.8",
+          "basis": "secret sins before God's light",
+          "note": "The psalm places secret sins in the light of God's presence; it joins what is concealed to disclosure and divine sight, echoing the commentary's open/hidden pairing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.4",
+          "basis": "word known before the tongue",
+          "note": "The psalm says YHWH knows the whole word before it reaches the speaker's tongue; this makes divine knowledge of unvoiced as well as spoken content concrete."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.12",
+          "basis": "night is light to God",
+          "note": "The psalm says darkness is not dark to God and night shines like day; this directly answers the commentary's hidden/light contrast without equating darkness with ignorance for God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.16",
+          "basis": "God hears and records remembrance",
+          "note": "Those who fear YHWH speak to one another and meditate on his name; YHWH listens, hears, and a book of remembrance is written. This uniquely joins speech, divine hearing, the name and remembrance as the commentary's scene does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.4.5",
+          "basis": "hidden motives disclosed",
+          "note": "Paul says the Lord will bring hidden things of darkness to light and disclose the purposes of hearts; this fuses the commentary's concealed matters with its inward remembrance and divine knowing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.12",
+          "basis": "word reaches the heart",
+          "note": "Hebrews describes God's word as discerning thoughts and intentions of the heart; this connects recited divine speech to inward content, a specific bridge to the commentary's reading and knowing scenes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.13",
+          "basis": "nothing hidden from God's sight",
+          "note": "Hebrews says no creature is hidden from God and all lie exposed before him; this is a close formulation of the commentary's claim that the Lord knows what is disclosed and concealed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.2.23",
+          "basis": "Christ searches hearts",
+          "note": "The risen Christ says he searches minds and hearts and repays each according to deeds; this gives the commentary's divine knowledge of hidden inward life a Christian apocalyptic counterpart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.10.26",
+          "basis": "concealed things revealed",
+          "note": "Jesus says nothing covered will not be uncovered and nothing hidden will not be known; this closely matches the commentary's movement from concealment to disclosure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.10.27",
+          "basis": "whisper proclaimed aloud",
+          "note": "Jesus contrasts what he tells the disciples in darkness and whispers in the ear with what they must proclaim in the light and from rooftops; this specifically joins the commentary's loud and inward/hidden speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.2",
+          "basis": "nothing concealed stays concealed",
+          "note": "Jesus says what is covered will be uncovered and what is hidden will be known; this repeats the commentary's open/hidden claim in a warning about hypocrisy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.3",
+          "basis": "private-room speech on rooftops",
+          "note": "Jesus says words spoken in private rooms will be proclaimed from rooftops; this is a particularly close speech-level counterpart to the commentary's high voice and hidden utterance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.22",
+          "basis": "secret made manifest",
+          "note": "In the parable discourse, Jesus says what is hidden is meant to be revealed and what is secret to come to light; this parallels the commentary's concealed thing becoming manifest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.17",
+          "basis": "hidden revealed in a hearing context",
+          "note": "Luke says nothing hidden will remain unrevealed and nothing secret unknown, in a passage that also warns listeners to take care how they hear; this links the commentary's hiddenness with its recitation and listening scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.16",
+          "basis": "secrets judged through Christ",
+          "note": "Paul says God judges people's secrets through Jesus Christ; this adds judgment to the commentary's claim that hidden matters are known, while locating it in Christian eschatology."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.6",
+          "basis": "prayer seen in secret",
+          "note": "Jesus instructs the disciple to pray in a closed room, assuring that the Father sees in secret; the commentary also affirms divine knowledge of inward prayer, while Jesus makes secrecy a practice rather than merely a known state."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 2:1",
+          "basis": "seeing eye and hearing ear",
+          "note": "The Mishnah warns that an eye sees, an ear hears, and deeds are recorded; this ethical formulation makes both visible action and audible speech answerable to the all-knowing judge described in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:2Cor.3.14",
+          "basis": "veil over Scripture reading",
+          "note": "Paul interprets Moses' veil as remaining over readers of the old covenant until Christ removes it; this Christian reading makes the commentary's conjunction of recitation, concealment and disclosure a live interpretive question."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:2Cor.3.15",
+          "basis": "veil over the heart",
+          "note": "Paul says a veil lies over the heart when Moses is read; this explicitly joins textual reading to inward concealment, the two fields the commentary brings together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:2Cor.3.16",
+          "basis": "turning removes the veil",
+          "note": "Paul says the veil is removed when one turns to the Lord; this gives a Christian interpretive account of concealment as something lifted through turning toward God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.34.33",
+          "basis": "Moses veils his face",
+          "note": "After speaking with Israel, Moses covers his face; the commentary likewise places disclosure beside covering, though Exodus presents a practice of veiling rather than blindness caused by excess light."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.34.35",
+          "basis": "radiant face and veil",
+          "note": "Israel sees Moses' face shine and he again covers it; this supplies the concrete pairing of visible radiance and a covering that the commentary's excess-light observation invites readers to notice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.22.11",
+          "basis": "light prevents sight",
+          "note": "Paul says he could not see because of the glory of the light; this directly matches the commentary's secondary observation that too much light can itself become a veil."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.29.4",
+          "basis": "whisper from the dust",
+          "note": "Isaiah depicts Jerusalem speaking low from the ground, with speech whispering from the dust; this is a specific convergence of hushed voice and emergence from a covering/earth, though the prophetic scene is humiliation, not recitation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.91.4",
+          "basis": "hidden under pinions",
+          "note": "The psalm pictures refuge under God's pinions; this is a limited image-parallel to the commentary's hidden feathers beneath the wing's upper feathers, though the psalm speaks of protection rather than feather anatomy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.44",
+          "basis": "treasure hidden in a field",
+          "note": "Jesus' parable turns on a treasure concealed in a field and discovered; this gives a concrete instance of the commentary's secondary sense in which what is hidden can be brought out, without making the parable about divine omniscience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.27",
+          "basis": "grass springs in a barren land",
+          "note": "God questions Job about satisfying desolate land and causing grass to sprout; this closely matches the commentary's reading of pasture emerging from earth through rain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.8",
+          "basis": "rain makes grass grow",
+          "note": "The psalm says God prepares rain for the earth and makes grass grow on the mountains; this is a direct creation-motif parallel to the commentary's rain bringing pasture out of soil."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.3",
+          "basis": "water poured on dry ground",
+          "note": "God promises water on thirsty ground and streams on dry land; this supplies the rain/water side of the commentary's emergence scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.4",
+          "basis": "grass-like growth",
+          "note": "The next verse pictures descendants springing up like grass by streams; this gives the commentary's emerging pasture a close image of growth appearing where water reaches dry land."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.14",
+          "basis": "grass for cattle",
+          "note": "The psalm says God makes grass grow for cattle; this is a close claim-level parallel to the commentary's pasture brought forth by the Creator."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.27",
+          "basis": "growth hidden from the farmer",
+          "note": "The seed sprouts and grows while the sower does not know how; this makes the hidden process behind visible growth explicit, joining the commentary's concealed/emergent pair to its pasture image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.4.28",
+          "basis": "earth produces its crop",
+          "note": "The earth produces first the blade, then the head, then full grain; this is a direct emergence-and-growth sequence beside the commentary's pasture brought out from the ground."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.22.19",
+          "basis": "ritual remembrance with thanksgiving",
+          "note": "At the meal Jesus gives thanks and commands the bread to be taken in remembrance of him; this is a specific liturgical pairing of remembrance and prayerful thanksgiving alongside the commentary's remembrance of the Lord's name followed by prayer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.55",
+          "basis": "remembering the divine name at night",
+          "note": "The psalmist remembers YHWH's name at night and keeps his Torah; this is a concrete inward/nighttime counterpart to the commentary's remembrance of the Lord and also illustrates its Arabic-Hebrew cognate link."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.1",
+          "basis": "inner self blesses the name",
+          "note": "The psalm summons all that is within the speaker to bless YHWH's holy name; this closely parallels the commentary's remembrance of the Lord's name with the heart as well as the tongue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.3.5",
+          "basis": "calling on the Lord's name",
+          "note": "Joel promises deliverance to everyone who calls on YHWH's name; this gives the commentary's remembrance of the Lord's name followed by prayer a specific scriptural invocation formula. WLC numbering is used."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.19.4",
+          "basis": "wordless voice",
+          "note": "The heavens have no speech or words, yet their voice is heard throughout the earth; this is a specific nonverbal counterpart to the commentary's movement from a voiced reading to meaning that need not be outwardly spoken."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.19",
+          "basis": "song put in the mouth",
+          "note": "God commands Moses to write a song, teach it to Israel, and put it in their mouths; this joins divinely supplied words, memorization and recitation, adding a communal preservation scene to the commentary's promise of reading without forgetting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.4.9",
+          "basis": "memory kept in the heart",
+          "note": "Israel is warned not to forget what its eyes saw or let it depart from the heart, and to teach children; this makes retention of received revelation a concrete counterpart to the commentary's recitation and memory."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.11",
+          "basis": "word hidden in the heart",
+          "note": "The psalmist stores God's word in the heart; this directly connects the commentary's inward reading with its secondary sense of what is hidden."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.93",
+          "basis": "never forgetting the precepts",
+          "note": "The speaker says he will never forget God's precepts because they gave him life; this is a direct personal counterpart to the promise that recited revelation will not be forgotten."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.2",
+          "basis": "Torah murmured day and night",
+          "note": "The righteous person delights in the Lord's Torah and murmurs on it day and night; this links inward meditation with repeated, potentially subvocal recitation, complementing the commentary's high-voice and inward-reading pair."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.4.12",
+          "basis": "God teaches Moses what to say",
+          "note": "God promises to be with Moses' mouth and teach him what to speak; this is a specific prophetic counterpart to the commentary's divine enabling of the Prophet's recitation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.18.18",
+          "basis": "words put in a prophet's mouth",
+          "note": "God promises to put his words in the coming prophet's mouth, who will speak what God commands; this gives the commentary's divinely enabled recitation a prophetic parallel."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.1.9",
+          "basis": "words placed on Jeremiah's mouth",
+          "note": "YHWH touches Jeremiah's mouth and says he has placed his words there; this closely parallels the commentary's account of God making the Prophet recite."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.59.21",
+          "basis": "word remains in the prophet's mouth",
+          "note": "God promises that his words will remain in the mouth of the prophet and his descendants; this adds enduring transmission to the commentary's promise of recitation and retention."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.10.9",
+          "basis": "confession and belief",
+          "note": "Paul says salvation involves confessing Jesus as Lord with the mouth and believing in the heart; this makes explicit the outward/inward pairing that the commentary develops for recitation and remembrance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.10.10",
+          "basis": "mouth and heart in faith",
+          "note": "Paul assigns belief to the heart and confession to the mouth; this is a direct formula for two modes of religious response, distinct from verse 8's quoted near-word."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.26",
+          "basis": "wordless prayer",
+          "note": "The Spirit intercedes with groanings too deep for words; this supplies a Christian case of prayer that is inward and unvoiced, a specific extension of the commentary's inner recitation scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.27",
+          "basis": "God searches the heart",
+          "note": "Paul says the one who searches hearts knows the Spirit's intention; this directly joins unvoiced prayer to divine knowledge of hidden inward content."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.14.2",
+          "basis": "mysteries spoken to God",
+          "note": "Paul says a person speaking in a tongue speaks mysteries to God and not to people; this gives a precise case of utterance hidden from human hearers yet addressed to God, who knows what the commentary says is hidden."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.14.15",
+          "basis": "praying with spirit and mind",
+          "note": "Paul distinguishes and then joins praying and singing with the spirit and with the mind; this is a particularly close Christian formulation alongside the commentary's tongue-and-heart remembrance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.14.25",
+          "basis": "secrets of the heart disclosed",
+          "note": "Paul says a visitor's heart secrets become manifest through prophecy, leading to worship; this connects inward hidden matter, public speech and prayer in one scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.4.17",
+          "basis": "scroll opened for reading",
+          "note": "Jesus receives Isaiah's scroll, opens it, and finds the passage to read; this is a concrete text-in-hand scene beside the commentary's account of reading by looking into the book."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.8.30",
+          "basis": "scripture read aloud",
+          "note": "Philip hears the Ethiopian reading Isaiah and asks whether he understands; this joins voiced recitation from a written text to inward comprehension, two aspects the commentary holds together."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.4.13",
+          "basis": "public reading of scripture",
+          "note": "Paul directs Timothy to devote himself to public reading, exhortation and teaching; this is a specific Christian liturgical counterpart to the commentary's reading aloud and by sight."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.1.3",
+          "basis": "reader and hearers blessed",
+          "note": "Revelation blesses the one who reads its prophecy aloud and those who hear and keep it; this explicitly combines oral reading, listening and inward retention."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.8.39",
+          "basis": "prayer heard and heart known",
+          "note": "Solomon asks God to hear each person's prayer and plea while noting that God alone knows every human heart; this directly joins spoken supplication with inward knowledge, as the commentary does."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.34.22",
+          "basis": "no hiding place for evildoers",
+          "note": "Job says no darkness or death-shadow can hide wrongdoers from God; this is a specific statement of the commentary's claim that what is concealed remains known."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.94.9",
+          "basis": "God hears and sees",
+          "note": "The psalm asks whether the maker of the ear cannot hear and the maker of the eye cannot see; this specifically unites audible speech and visible disclosure under God's awareness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.94.11",
+          "basis": "God knows human thoughts",
+          "note": "The psalm says YHWH knows that human thoughts are futile; this adds inward thought to the audible and visible dimensions of divine knowing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.20.27",
+          "basis": "God's lamp searches the inner self",
+          "note": "Proverbs calls the human spirit the lamp of YHWH, searching the innermost parts; this gives the commentary's hidden inner life a concrete illumination image, while differing from its warning that excess light can obscure sight."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.29.15",
+          "basis": "secret counsel hidden from God?",
+          "note": "Isaiah condemns people who conceal their plans from YHWH and act in darkness, asking who sees them; this is a concrete human denial of the divine knowledge affirmed by the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.21.19",
+          "basis": "a well seen when eyes are opened",
+          "note": "God opens Hagar's eyes and she sees a well; this is a specific scene of a water source becoming visible, beside the commentary's hidden-water/well example and its movement from concealment to emergence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.8",
+          "basis": "God knows before the request",
+          "note": "Jesus says the Father knows what the disciples need before they ask; this specifically extends the commentary's claim that God knows inward content as well as voiced words."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.105.1",
+          "basis": "call on and proclaim the name",
+          "note": "The psalm calls Israel to give thanks, call on YHWH's name, and make his deeds known; this supplies a liturgical pairing of invoking the divine name and verbal praise beside the commentary's remembrance of the Lord's name followed by prayer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.99.6",
+          "basis": "Samuel calls on God's name",
+          "note": "The verse names Samuel among those who call on YHWH's name and says they called to him and he answered; this is a concrete prayer scene connecting the divine name with invocation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Berakhot 5:1",
+          "basis": "heart-directed prayer",
+          "note": "The Mishnah says the early pietists waited before prayer in order to direct their hearts to God; this gives a Jewish liturgical interpretation of the inward attention that accompanies the commentary's remembrance and prayer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 8:2-3",
+          "basis": "fixed prayer and God's name",
+          "note": "The Didache prescribes the Lord's Prayer three times daily, including the petition that God's name be hallowed; this gives a concrete Christian practice joining repeated recitation, the divine name and prayer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Justin Martyr, First Apology 67.3-4",
+          "basis": "scripture read in assembly",
+          "note": "Justin describes the memoirs of the apostles or prophets being read in the Sunday gathering, followed by instruction; this is a specific Christian public-reading practice alongside the commentary's recitation and text-in-hand reading."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Josephus, Against Apion 2.175-178",
+          "basis": "Sabbath reading of the law",
+          "note": "Josephus says the law is read and learned on the Sabbath; this gives a Jewish communal setting for the commentary's pairing of recitation, hearing and retained scripture."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "4b7b4ea7dfecdc7df474112fc96b13ce12da5a67ddeb30999f12975d39c69e87",
+    "followup_sha256": "4b7b4ea7dfecdc7df474112fc96b13ce12da5a67ddeb30999f12975d39c69e87"
+  },
+  "consolidation_error": null,
+  "list_sha256": "8ba361a4442e5733681bcee0f97037d1414a5e63bacde1e8ef9786ec8bfad4e2",
+  "followup_delivery": [
+    {
+      "call_id": "call_UnQKYJlsJOs6rjjaah5BM3cI",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 529315,
+    "cached_input_tokens": 482816,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 16731,
+    "reasoning_output_tokens": 8620,
+    "total_tokens": 546046
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:08:39.845Z",
+  "artifacts": {
+    "started.json": "c1fe730e29f586389ada6ea92ed9df0d0cab87d5be14070a5ed37618ae0746e7",
+    "input.json": "0d9528171395b1a2e3d54bd0aa4680dca8bf27222fac5bebe490a3dc078e1884",
+    "prompt.md": "0a0ac755155aa4640414d26bdea2b62f7bf6ba9e9623ee88ec8c2c780be45d27",
+    "package.md": "473a31a4bd0e794fa259e789556d9805166aa379befbb94aa1254703b756879a",
+    "spawn.md": "cb6ca93940a1f78b0f42a99b4a07819691774d1181e1e3ca72cff21113ca39b5",
+    "followup.txt": "e93fa130e59c0220d44450ee6db104acdd25a3d356d500f280a7ac7044ae5858",
+    "turn1.json": "d00ee65298c61bbdbac90bf9866eff434e11b69fd13808ff94cf1bf5b5e496be",
+    "turn1.list.tsv": "84394c4a37743a1fdcd0518142c3984ee3a2cbe91d23ee862381963297abd580",
+    "followup.tsv": "4b7b4ea7dfecdc7df474112fc96b13ce12da5a67ddeb30999f12975d39c69e87",
+    "list.tsv": "8ba361a4442e5733681bcee0f97037d1414a5e63bacde1e8ef9786ec8bfad4e2",
+    "consolidation.json": "d1ee21593e999f6f19287f1d658120adaed16ebfdfcc4c1d65e299cd8afd45f0",
+    "validation.json": "b86517c42688fc570f08b5d166901959e3dd643a0c49eecf8016c5f698a833b5",
+    "proposal_validation.json": "8c0940ebd2f5c066b53bb30777c8553bf63d90c9e81eb03aa127cf521e0db059",
+    "tool_calls.json": "21411b1550a79fa70896b5e7414f406bbe0f6a1a2dd98ef20e935c0b7efa2d7e",
+    "session.json": "e765f7160bc4b670db3f2590e6b39c08841b346e4966fca60fe8ba1460a8e54f",
+    "session.events.jsonl": "406ddfdbc5256412062533c59131c8063d9e346e0e35425bf452916b3d4c49b7"
+  }
+}

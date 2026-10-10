@@ -1,0 +1,38 @@
+# S1: image section 11 (Dayanmak ve doğrulmak: destek isteyen yolcu) of the frozen surah commentary
+
+## Ayat (Arabic)
+
+1:4	مَٰلِكِ يَوْمِ ٱلدِّينِ
+1:5	إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+1:6	ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+
+## Words, roots and branches named by the frozen surah commentary
+
+These are source labels, not dictionary definitions or verified cross-language cognates.
+
+ayah	word	root	branch	image
+1:4	مَٰلِكِ	م ل ك	B001, B005	
+1:5	نَعْبُدُ	ع ب د	B007, B011	
+1:5	نَسْتَعِينُ	ع و ن	B001	
+1:6	ٱهْدِنَا	ه د ي	B008, B009, B010	
+1:6	ٱلْمُسْتَقِيمَ	ق و م	B002, B009, B016	
+
+## Frozen commentary (Turkish)
+
+Bir yolcunun bineği yorulur ya da sakatlanır ve yolcu yolda kalır: {ar:أعبد بفلان بمعنى أبدع به إذا كلت راحلته أو عطبت, tr:u'bide bi-fülân, gloss:falanca yolda kaldı, yani bineği yoruldu ya da sakatlandı, source:"ع ب د,B011"}. Bu kelime beşinci ayetteki "na'büdü" ile aynı ailedendir. Altıncı ayetteki "müstakîm" kelimesinin ailesinde de aynı an vardır. Burada "kâme" fiili ayağa kalkmayı değil, olduğu yerde durup kalmayı anlatır: {ar:قامت لفلان دابته إذا كلت أو عيت فلم تسر, tr:kâmet li-fülânin dâbbetüh, gloss:falancanın bineği durdu kaldı, yani yorulup bitti ve yürümez oldu, source:"ق و م,B016"}. Yolcunun kendisi de güçsüzdür: {ar:الهداء الرجل البليد الضعيف, tr:el-hidâü'r-racülü'l-belîdü'd-da'îf, gloss:hidâ, ağır ve güçsüz adamdır, source:"ه د ي,B009"}. Bu adam iki kişinin arasında, onlara yaslanarak yürür: {ar:يهادي بين اثنين إذا كان يمشي بينهما معتمدا عليهما من ضعفه وتمايله, tr:yühâdâ beyne'sneyn, gloss:güçsüzlüğünden ve sendelemesinden dolayı iki kişinin arasında onlara dayanarak yürür, source:"ه د ي,B008"}. Bu yürüyüş şöyle tarif edilir: {ar:التهادي مشي في تمايل يمينا وشمالا, tr:et-tehâdî meşyün fî temâyülin yemînen ve şimâlâ, gloss:tehâdî, sağa sola sallanarak yürümektir, source:"ه د ي,B008"}. "İhdinâ" kelimesinin ailesi, yalnız önden giden kılavuzu değil, iki yandan tutulan güçsüz yolcuyu da içerir.
+
+Beşinci ayetteki {ar:نَسْتَعِينُ, tr:nesteînü, gloss:yardım dileriz, source:1:5} kelimesi bu durumda istenen şeydir. Yardım, insanın dayandığı her şeydir: {ar:كل شيء استعنت به أو أعانك فهو عونك, tr:küllü şey'in este'ante bihî ev eânek fe-hüve avnük, gloss:yardım istediğin ya da sana yardım eden her şey senin avnindir, source:"ع و ن,B001"}. Fiilin kalıbı istemeyi bildirir: {ar:الاستعانة طلب العون, tr:el-isti'ânetü talebü'l-avn, gloss:istiâne, yardım istemektir, source:"ع و ن,B001"}. Yardımın sonucu ise doğrulmaktır: {ar:قام قياما والقومة المرة الواحدة إذا انتصب, tr:kâme kıyâmen, gloss:kalktı, yani dikildi, source:"ق و م,B002"}. Ağaç da köklerinin üzerinde böyle dimdik durur: {ar:تركتموها قائمة على أصولها, tr:teraktümûhâ kâimeten alâ usûlihâ, gloss:onu kökleri üzerinde dikili bıraktınız, source:"ق و م,B002"}. Dayanağın kendisi de aynı köktendir: {ar:القيام العماد, tr:el-kıyâmü'l-imâd, gloss:kıyâm, direktir, source:"ق و م,B009"}. Doğrulan yolcu artık sakin adımlarla yürür: {ar:لم يسرع إسراع المنهزم ولكن على سكون وهدي حسن, tr:lem yüsri' isrâ'a'l-münhezim, velâkin alâ sükûnin ve hedyin hasen, gloss:bozguna uğramış birinin telaşıyla koşmadı, sakin ve güzel bir yürüyüşle gitti, source:"ه د ي,B010"}. Burada "hedy" kelimesi "ihdinâ" ile aynı köktendir ve yürüyüşün kendisine ad verir. Dördüncü ayetteki "mâlik" kelimesinin ailesi bu dik duruşu bir duvar ve bir beden üzerinden anlatır. Duvarın bütünlüğü bu köktendir: {ar:حائط ليس له ملاك أي تماسك, tr:hâitun leyse lehû milâk, gloss:bir arada duracak tutunması olmayan duvar, source:"م ل ك,B001"}. Kökün temel anlamı da budur: {ar:أصل صحيح يدل على قوة في الشيء وصحة, tr:aslun sahîhun yedüllü alâ kuvvetin fi'ş-şey'i ve sıhha, gloss:bir şeydeki güce ve sağlamlığa işaret eden bir köktür, source:"م ل ك,B001"}. Kalp de bedeni bir arada tutan şeydir: {ar:القلب ملاك الجسد, tr:el-kalbü milâkü'l-cesed, gloss:kalp bedenin dayanağıdır, source:"م ل ك,B005"}. "Na'büdü" kelimesinin ailesinde, yolda kalan yolcunun tersi olan sağlamlık da vardır: {ar:العبدة وهي القوة والصلابة, tr:el-abede, ve hiye'l-kuvvetü ve's-salâbe, gloss:abede, güç ve sağlamlıktır, source:"ع ب د,B007"}.
+
+Bu görüntü, surenin beşinci ve altıncı ayetleri arasındaki geçişi görünür kılar. Kulluk ve yardım istemek aynı cümlede yan yana gelir. Ardından yol isteği gelir. Yolu isteyen kişi tek başına yürüyebilecek güçte değildir. Bineği durmuştur, kendisi sendelemektedir ve iki yanından tutulmayı ister. Düz bir meal "yardım dileriz" der. Görüntü ise bu yardımın bir bedene verildiğini gösterir: Dayanılan bir omuz, dikilen bir gövde ve telaşsız bir yürüyüş. "Müstakîm" kelimesi burada yolun düzlüğünün yanında yürüyenin dik duruşunu da duyurur.
+
+Kur'an bu sahneyi birçok yerde kurar. Musa ile Allah'ın katından rahmet ve ilim verilmiş bir kul {source:18:65}, kendilerini ağırlamayan bir kasabada yıkılmak üzere olan bir duvar bulur: {ar:فَوَجَدَا فِيهَا جِدَارًۭا يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُۥ, tr:fe-vecedâ fîhâ cidâran yürîdü en yenkadda fe-ekâmeh, gloss:orada yıkılmak üzere olan bir duvar buldular, o da duvarı doğrulttu, source:18:77}. "Ekâmehû" fiili, "milâk"ı kalmamış bir duvarı ayağa diker. Zülkarneyn'den bir set yapması istenir {source:18:94}. O da bir ücret almaz ve yardım ister: {ar:فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا, tr:fe-eînûnî bi-kuvvetin ec'al beyneküm ve beynehüm radmâ, gloss:bana güçle yardım edin ki aranıza sağlam bir set yapayım, source:18:95}. Yardım burada bir güç olarak verilir ve ortaya çıkan şey ayakta duran bir settir. Yakup, kanlı gömleği gördüğünde yardımı yalnızca Allah'tan bekler: {ar:فَصَبْرٌۭ جَمِيلٌۭ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ, tr:fe-sabrun cemîl, vallâhü'l-müsteânü alâ mâ tesıfûn, gloss:artık bana güzel bir sabır düşer; anlattıklarınıza karşı yardımı istenecek olan Allah'tır, source:12:18}. Peygamberin sözü de aynı kelimeyi taşır: {ar:وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ, tr:ve rabbüne'r-rahmânü'l-müsteân, gloss:Rabbimiz, yardımı istenecek olan Rahman'dır, source:21:112}. Bu cümlede surenin Rab, Rahman ve istiâne kelimeleri bir aradadır. Musa halkına şöyle der: {ar:ٱسْتَعِينُوا۟ بِٱللَّهِ وَٱصْبِرُوٓا۟, tr:ista'înû billâhi vasbirû, gloss:Allah'tan yardım isteyin ve sabredin, source:7:128}. Dayanılacak şeyler de sayılır: {ar:وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ, tr:vesta'înû bi's-sabri ve's-salâ, gloss:sabırla ve namazla yardım isteyin, source:2:45}. Müminler birbirlerinin dayanağı olur: {ar:وَتَعَاوَنُوا۟ عَلَى ٱلْبِرِّ وَٱلتَّقْوَىٰ, tr:ve teâvenû ale'l-birri ve't-takvâ, gloss:iyilik ve takva üzerinde yardımlaşın, source:5:2}. Bu sahnenin iki yürüyüşü bir soruda karşılaştırılır: {ar:أَفَمَن يَمْشِى مُكِبًّا عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ أَمَّن يَمْشِى سَوِيًّا عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ, tr:e-fe men yemşî mükibben alâ vechihî ehdâ em men yemşî seviyyen alâ sırâtın müstakîm, gloss:yüzüstü kapanarak yürüyen mi yolu daha iyi bulur, yoksa dosdoğru bir yolda dimdik yürüyen mi, source:67:22}. Rahman'ın kullarının yürüyüşü de anlatılır: {ar:وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًۭا, tr:ve ibâdü'r-rahmâni'llezîne yemşûne ale'l-ardı hevnâ, gloss:Rahman'ın kulları yeryüzünde vakarla ve yumuşak adımlarla yürürler, source:25:63}. Bu, bozguna uğramış birinin telaşı olmayan "hedy-i hasen"in, yani güzel yürüyüşün Kur'an'daki karşılığıdır.
+
+## Whole surah (Arabic)
+
+1:1	بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+1:2	ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+1:3	ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+1:4	مَٰلِكِ يَوْمِ ٱلدِّينِ
+1:5	إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+1:6	ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+1:7	صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ

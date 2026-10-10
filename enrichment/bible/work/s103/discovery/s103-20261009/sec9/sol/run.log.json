@@ -1,0 +1,2826 @@
+{
+  "target": "sec9",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:29:04.086041-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_sec9_sol",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "a4437e7d8f66601604aee5b56ef65f60a7df6e01a0742f88ca987e9634028656",
+  "package_sha256": "d89777a83db1def7d38f286c90105f8519be027915193a62be880028884bb66c",
+  "input_sha256": "ae24c252866c015ce77021bdaf747f4488de3eaaaadd90fc6a4c131fcbf56150",
+  "spawn_sha256": "2b08a46899d9ed16d390f6ab18d51a6a952fcb41d6cbd5590ff5d15ee6a52ce0",
+  "followup_text_sha256": "fafe420c69568aa86f6d86eddafd775eac14265085b6c4cf04497814bf2d8a5b",
+  "agent_id": "01a11f23-047e-7c52-ad7c-ee871dc176c5",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-29-12-01a11f23-047e-7c52-ad7c-ee871dc176c5.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 146,
+  "turn1_sha256": "f4ab20584db095022a912b8c0654284c84f952c1bba42beff9d2d61a05e485e3",
+  "turn2": {
+    "completed": true,
+    "rows_total": 208,
+    "rows_added": 62
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 146,
+    "raw_proposal_rows": 62,
+    "unique_additions": 62,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.18.17",
+          "basis": "two litigants and a claim to be right",
+          "note": "The commentary opens with opposing parties each claiming haqq; the first litigant in this proverb appears right until the other examines him, making mutual testing of claims necessary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.13.8",
+          "basis": "strife between kin",
+          "note": "Abram asks Lot to end the quarrel between their herdsmen because they are brothers; it gives a concrete family scene for replacing contention with an acknowledged bond."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.23.4",
+          "basis": "return an enemy's lost animal",
+          "note": "The commentary's enemy-to-friend turn takes patient action; the law orders one who meets an enemy's wandering ox or donkey to bring it back to him, acting for an adversary's good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.23.5",
+          "basis": "help one who hates you",
+          "note": "The commentary's former opponents can stand beside one another; the law orders help for the burdened donkey of someone who hates you, turning estrangement into practical cooperation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.25.21",
+          "basis": "feed a hungry enemy",
+          "note": "The commentary combines the reversal of enmity with urging food for the poor; this proverb commands giving bread and water to a hungry, thirsty enemy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.133.1",
+          "basis": "brothers dwelling together",
+          "note": "The commentary's estranged people become a connected company; this psalm calls brothers dwelling together good and pleasant, giving the restored kinship its communal image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.16",
+          "basis": "truthful speech and judgments of peace",
+          "note": "The commentary moves haqq from a disputed possession to something exchanged for peace; this verse requires each to speak truth to his neighbor and render judgments that make peace."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.19",
+          "basis": "love truth and peace",
+          "note": "The commentary joins truth with the removal of estrangement; this command joins loving truth and peace, rather than using a claim of truth to sustain conflict."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.17",
+          "basis": "frank reproof of a neighbor",
+          "note": "The commentary's reciprocal counsel gives another person what he needs; this law requires reproof of a fellow rather than hidden hatred, so truthful correction serves a continuing relationship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.18",
+          "basis": "love of neighbor after grievance",
+          "note": "The commentary replaces mutual grievance with affection; this neighboring law forbids vengeance and grudges against one's people and commands love of neighbor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.16",
+          "basis": "those who fear God speak with one another",
+          "note": "The commentary stresses the reciprocal verb, each giving and receiving counsel; here the God-fearing speak to one another, and their shared speech is remembered before God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.15.18",
+          "basis": "patience stills a quarrel",
+          "note": "The commentary makes sabr the way from enmity to closeness; this proverb says a hot-tempered person stirs strife while one slow to anger quiets contention."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.28",
+          "basis": "whisper separates close friends",
+          "note": "The commentary's friendship and kinship can be severed by contest; this proverb names gossip as what separates intimate companions, showing the reverse movement of its counsel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.17",
+          "basis": "friends sharpen one another",
+          "note": "The commentary's two-sided advising means each helps the other; iron sharpening iron depicts a person's face being sharpened by a friend rather than one-sided instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.6",
+          "basis": "faithful wounds from a friend",
+          "note": "The commentary's close friend can pass truth to another even when difficult; the proverb calls a friend's wounds faithful, making correction an act of loyalty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.85.11",
+          "basis": "steadfast love and faithfulness meet",
+          "note": "The commentary brings truth and restored affection into one relation; this psalm has steadfast love and faithfulness meeting and righteousness and peace kissing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.1.16",
+          "basis": "hear brothers and judge fairly",
+          "note": "The commentary begins in opposed claims and seeks a shared right; this instruction requires judges to hear disputes between brothers and judge rightly, supplying a social practice for adjudication."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.25.1",
+          "basis": "litigants and justified party",
+          "note": "The opening disputants both claim haqq; this law places two disputants before judges who vindicate the righteous and condemn the wicked, keeping a verdict distinct from rival assertions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.17.14",
+          "basis": "stop strife before it spreads",
+          "note": "The commentary depicts reconciliation interrupting fear and separation; this proverb likens the beginning of strife to released water and urges stopping it before a quarrel breaks out."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.20.3",
+          "basis": "withdraw from quarrel",
+          "note": "The commentary reverses the pull of contention; this proverb calls abstaining from strife an honor while a fool breaks into quarrels."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.32.17",
+          "basis": "righteousness makes peace",
+          "note": "The commentary places good deeds beside shared truth and patience; this verse says the work of righteousness will be peace, making just action the condition of settled relations."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.7.9",
+          "basis": "true judgment and mutual mercy",
+          "note": "The commentary's right is to circulate between people and is paired with mercy in its parallel Qur'anic formulation; this command joins true judgments to mercy and compassion toward one another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.7.10",
+          "basis": "care for vulnerable people",
+          "note": "The commentary cites the failure to urge feeding the poor as failed reciprocity; this verse forbids oppression of widow, orphan, sojourner and poor and forbids plotting evil against one another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.7",
+          "basis": "share bread and do not hide from kin",
+          "note": "The commentary's poor person needs active care, while affection preserves human bonds; Isaiah commands sharing bread with the hungry and not hiding from one's own flesh."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.6.6",
+          "basis": "brother sues brother",
+          "note": "The commentary's first scene is two sides disputing right despite their possible bond; Paul names the scandal of a brother bringing a brother to court before unbelievers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.6.5",
+          "basis": "judge disputes between brothers",
+          "note": "The commentary's rival claims need someone to reconcile or judge them; Paul asks whether no wise person in the community can decide a matter between brothers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.6.7",
+          "basis": "lawsuits already a defeat",
+          "note": "The commentary's human being is in loss until a shared ethic replaces contention; Paul calls lawsuits among believers already a defeat and asks why they do not bear wrong."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.1.10",
+          "basis": "one mind instead of divisions",
+          "note": "The commentary turns reciprocal contention into joined counsel; Paul urges the community to agree in speech and be restored to one mind without divisions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.1.11",
+          "basis": "quarrels among brothers",
+          "note": "The commentary begins with a community at odds; Paul reports quarrels among the Corinthian brothers, the precise communal fracture addressed by his appeal to unity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.12.25",
+          "basis": "division destroys collective strength",
+          "note": "The commentary cites quarrelling as the cause of a group's weakened force; Jesus says a kingdom divided against itself is laid waste and a divided city or house will not stand."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.5.9",
+          "basis": "peacemakers",
+          "note": "The commentary says peace removes human estrangement; Jesus calls peacemakers blessed and children of God, assigning positive standing to the reconciling action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.5.24",
+          "basis": "reconcile with brother",
+          "note": "The commentary's fractured bond must be repaired; Jesus instructs a worshiper to first reconcile with a brother who has a grievance, making restored relation prior to the offering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.15",
+          "basis": "private correction of brother",
+          "note": "The commentary makes truth something passed to the other person rather than fought over; Jesus tells one to confront a sinning brother privately with the aim of gaining him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.15",
+          "basis": "truth spoken in love",
+          "note": "The commentary's haqq is shared within recovered affection; speaking truth in love builds growth into Christ, making the manner of transmission part of the truth's work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.25",
+          "basis": "truth to neighbor because members of each other",
+          "note": "The commentary insists each participant gives and receives truth; Paul commands truthful speech to one's neighbor because believers are members of one another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.2",
+          "basis": "patience bearing one another in love",
+          "note": "The commentary links patience to standing beside a companion; Paul joins patience, humility and bearing with one another in love as the practice of shared life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.3",
+          "basis": "unity in bond of peace",
+          "note": "The commentary's separated people are joined again; Paul asks believers to maintain the Spirit's unity in the bond of peace, turning attachment into a sustained task."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.14",
+          "basis": "hostility barrier broken",
+          "note": "The commentary depicts enemies becoming close; Christ makes two groups one and breaks their dividing wall of hostility, an explicit transformation of social distance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.13",
+          "basis": "bear and forgive each other",
+          "note": "The commentary's sabr supports reconciliation where people have complaints; Paul tells believers to bear with and forgive one another when a complaint arises."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.14",
+          "basis": "love as bond",
+          "note": "The commentary names affection and kinship as a bond whose absence marks distance; Paul calls love the bond that completes the virtues."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.16",
+          "basis": "teach and admonish one another",
+          "note": "The commentary's repeated reciprocal verb makes each a giver and receiver of counsel; Paul says the word should dwell richly in the community as members teach and admonish one another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.13",
+          "basis": "exhort one another daily",
+          "note": "The commentary highlights mutual exhortation as the way out of loss; Hebrews commands daily mutual exhortation so no one is hardened by deceitful sin."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.24",
+          "basis": "spur one another to love and good works",
+          "note": "The commentary joins mutual urging to righteous deeds and affection; Hebrews asks believers to consider how to stir each other toward love and good works."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.11",
+          "basis": "encourage and build each other",
+          "note": "The commentary's mutual action makes the community stronger; Paul tells believers to encourage and build one another, noting that they already do so."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.14",
+          "basis": "patient help within the group",
+          "note": "The commentary's companion stands with others in patience; Paul assigns differentiated mutual duties to admonish the idle, encourage the fainthearted, help the weak and be patient with all."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.2",
+          "basis": "bear one another's burdens",
+          "note": "The commentary's members give and receive aid; Paul tells them to bear each other's burdens, turning companionship into a concrete shared action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.20",
+          "basis": "feed the enemy",
+          "note": "The commentary cites both enemy-to-friend reversal and urging care for the poor; Paul commands feeding and giving drink to an enemy in need, locating the reversal in an act of mercy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.21",
+          "basis": "overcome evil with good",
+          "note": "The commentary's enemies become friends through patiently choosing another response; Paul commands overcoming evil with good instead of being overcome by it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.17",
+          "basis": "material care for needy brother",
+          "note": "The commentary invokes the failure to encourage food for the poor; John asks how God's love can remain in one who sees a needy brother and shuts up compassion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.18",
+          "basis": "love in deed and truth",
+          "note": "The commentary's joined good deeds and shared haqq require action; John tells the community to love in deed and truth, not merely in speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.3.18",
+          "basis": "righteousness sown in peace",
+          "note": "The commentary joins righteous works to the ending of quarrel; James says a harvest of righteousness is sown in peace by peacemakers.",
+          "raw_ref": "SBLGNT:James.3.18",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.1",
+          "basis": "quarrels arise within the community",
+          "note": "The commentary begins with two sides contesting right; James asks where their wars and fights come from and locates them in desires at war within them.",
+          "raw_ref": "SBLGNT:James.4.1",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.4.32",
+          "basis": "believers one heart and soul",
+          "note": "The commentary moves from the lone human to a mutually sustaining believing group; Acts depicts the multitude of believers as one heart and soul, with no private claim to possessions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phlm.1.16",
+          "basis": "receive a slave as beloved brother",
+          "note": "The commentary's distant parties become family; Paul asks Philemon to receive Onesimus no longer merely as a slave but as a beloved brother."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.4.2",
+          "basis": "two women urged to agree",
+          "note": "The commentary develops a specific transition from contention to togetherness; Paul appeals to Euodia and Syntyche by name to have the same mind in the Lord."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.4.3",
+          "basis": "companion helps fellow workers",
+          "note": "The commentary's close companion stands by members of the group; Paul asks a true companion to help the two women who worked beside him in the gospel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.2.12",
+          "basis": "fear causes withdrawal from fellowship",
+          "note": "The commentary says peace removes frightened separation; Peter withdraws from eating with Gentiles because he fears the circumcision group, a concrete reverse of shared company."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.2.14",
+          "basis": "truth requires public correction",
+          "note": "The commentary turns contest over haqq into truth shared for the community's good; Paul challenges Peter's withdrawal publicly because it contradicts the truth of the gospel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 1:12",
+          "basis": "Aaron pursues peace",
+          "note": "The commentary treats peace as ending estrangement and drawing people into closeness; Hillel's maxim to be Aaron's disciple joins loving and pursuing peace with loving people and drawing them near Torah."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Avot de-Rabbi Nathan A 12",
+          "basis": "Aaron reconciles quarreling people",
+          "note": "The commentary's two disputants need an action that reconnects them; this elaboration of Aaron as peacemaker depicts him approaching each estranged party to bring about reunion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Sanhedrin 6b",
+          "basis": "compromise as judgment of peace",
+          "note": "The commentary's rivals both assert right, yet peace changes the result; the rabbinic reading of judgment of peace in Zechariah 8:16 identifies compromise as a way to join adjudication and reconciliation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 28:2",
+          "basis": "forgive neighbor's wrong",
+          "note": "The commentary's rival claims need the grievance to end so the bond can resume; Sirach commands forgiveness of a neighbor's wrong and connects that act with receiving pardon in prayer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Eruvin 13b",
+          "basis": "Hillel teaches opponents' words first",
+          "note": "The commentary's reciprocal truth requires receiving as well as giving; the houses dispute law, but Hillel's house wins praise for humility and teaching Shammai's view before its own."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 4:3",
+          "basis": "make peace between those who quarrel",
+          "note": "The commentary moves from arguing parties to active reconciliation; the Didache forbids causing division and directs its reader to make peace among people in dispute."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 14:2",
+          "basis": "reconcile before communal worship",
+          "note": "The commentary repairs ties among believers; the Didache bars a person with a dispute from joining the assembly until reconciled, making peace a condition of its common offering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.33.4",
+          "basis": "Esau embraces Jacob",
+          "note": "The commentary's enemy becomes a close companion; after Jacob fears Esau, Esau runs to embrace and kiss him, giving a narrative instance of hostile distance becoming kinship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.45.15",
+          "basis": "Joseph embraces and talks with brothers",
+          "note": "The commentary's separated kin are joined through interpersonal exchange; after revealing himself, Joseph kisses his brothers and they speak with him, reversing their earlier alienation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.50.17",
+          "basis": "brothers ask Joseph for forgiveness",
+          "note": "The commentary's peace removes the fear that divided relatives; Joseph's brothers ask him to forgive their evil, and Joseph weeps when they speak, placing repaired kinship after wrongdoing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.17.9",
+          "basis": "covering wrong seeks love",
+          "note": "The commentary's peace ends estrangement; this proverb contrasts covering an offense to seek love with repeating it and separating close friends."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.12.20",
+          "basis": "counselors of peace have joy",
+          "note": "The commentary makes mutual counsel an instrument of peace; this proverb opposes deceit in hearts that devise evil to joy among advisers who counsel peace."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.25.9",
+          "basis": "argue case with neighbor directly",
+          "note": "The commentary's rival claims need a social practice short of estrangement; this proverb tells a person to argue his case with his neighbor directly and preserve another's confidence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.9",
+          "basis": "sweet counsel of friend",
+          "note": "The commentary's close friend transmits helpful counsel; this proverb makes the sweetness of a friend come from earnest advice, giving content to affectionate exchange."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.2.6",
+          "basis": "truth and peace in priestly speech",
+          "note": "The commentary joins haqq to reconciliation; Malachi recalls true instruction in Levi's mouth and his walking with God in peace and uprightness, linking reliable teaching with peaceful conduct."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.17",
+          "basis": "seek justice and correct oppression",
+          "note": "The commentary's right is to be practiced and shared, including care for the vulnerable; Isaiah demands learning good, seeking justice, correcting oppression and pleading for widow and orphan."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.5.23",
+          "basis": "perverted judgment despite claims",
+          "note": "The commentary's two sides claiming right need a measure beyond assertion; Isaiah condemns those who justify the wicked for a bribe and deprive the righteous of right."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.9.3",
+          "basis": "truth disappears from dealings",
+          "note": "The commentary's remedy is mutual transmission of truth; Jeremiah depicts the inverse society, where people bend tongues for lies and do not advance by truth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.9.4",
+          "basis": "brother deceives brother",
+          "note": "The commentary moves from estranged rivals to faithful companions; Jeremiah warns that every brother supplants and every neighbor slanders, a concrete collapse of the trusted bond."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.34.15",
+          "basis": "seek and pursue peace",
+          "note": "The commentary makes peace an action that removes estrangement; this psalm commands turning from evil, doing good, and actively seeking and pursuing peace."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.165",
+          "basis": "Torah and abundant peace",
+          "note": "The commentary's haqq is shared toward peaceful belonging; this verse says those who love God's instruction have great peace and are not made to stumble by it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.18.19",
+          "basis": "offended brother hard to regain",
+          "note": "The commentary values the tie of kinship after quarrel; this proverb likens an offended brother to a strong city and disputes to fortress bars, showing why reconciliation takes work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.15.11",
+          "basis": "open hand to poor brother",
+          "note": "The commentary's negative example is failure to urge feeding the needy; this command says to open one's hand to the poor and needy brother in the land."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.21.13",
+          "basis": "refusing the poor brings isolation",
+          "note": "The commentary condemns people who do not stir one another to feed the poor; this proverb says one who closes his ear to the poor person's cry will himself call and not be answered."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.31.8",
+          "basis": "speak for one who cannot speak",
+          "note": "The commentary turns haqq into an interpersonal duty; this verse directs the hearer to open his mouth for those unable to speak and for the rights of the destitute."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.31.9",
+          "basis": "judge righteously for the needy",
+          "note": "The commentary's rival claims require just dealing beyond self-interest; this verse asks the hearer to judge rightly and defend the poor and needy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.9",
+          "basis": "remove oppressive gestures and speech",
+          "note": "The commentary's communal peace requires a change from contention to good action; Isaiah links God's response to removing the yoke, threatening gesture and wicked speech from among the people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.10",
+          "basis": "provide for the hungry",
+          "note": "The commentary points to failure to urge feeding the poor as a defect in shared life; Isaiah requires giving oneself to the hungry and satisfying the afflicted person's need."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.4.9",
+          "basis": "two have return for work",
+          "note": "The commentary contrasts the solitary human in loss with a mutually helpful company; Ecclesiastes says two are better than one because they gain a good return for their labor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.4.10",
+          "basis": "one companion lifts the fallen",
+          "note": "The commentary's companions give and receive aid; Ecclesiastes says one can lift the other when he falls, whereas the solitary person has no one to lift him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.4.12",
+          "basis": "companionship resists attack",
+          "note": "The commentary says quarrelling dissipates a group's strength; Ecclesiastes says one person may be overpowered but two can stand against an attacker."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.24.26",
+          "basis": "honest reply like a kiss",
+          "note": "The commentary joins passed-on truth with affection; this proverb likens an honest answer to a kiss on the lips, making truthful response itself a sign of closeness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.5.23",
+          "basis": "brother's grievance interrupts offering",
+          "note": "The commentary says human bonds must be put right; Jesus makes the brother's grievance significant even at the altar, supplying the circumstance for the reconciliation commanded next."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.5.44",
+          "basis": "love and pray for enemies",
+          "note": "The commentary's hostility is reversed toward intimacy; Jesus directs love and prayer toward enemies and persecutors, making the change an active response to opponents."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.21",
+          "basis": "forgive a repeatedly offending brother",
+          "note": "The commentary's togetherness must survive renewed wrongs; Peter asks how often to forgive a brother who sins against him, identifying a concrete strain on kinship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.22",
+          "basis": "repeated forgiveness",
+          "note": "The commentary's patience sustains restored ties; Jesus' answer to Peter rejects a small limit on forgiving a brother, extending reconciliation beyond a single settlement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phlm.1.15",
+          "basis": "separation followed by lasting return",
+          "note": "The commentary traces a move from frightened distance to enduring attachment; Paul suggests Onesimus was separated from Philemon for a time so Philemon might have him back forever."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 96,
+        "row": {
+          "line": 96,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.9.50",
+          "basis": "be at peace with one another",
+          "note": "The commentary ends with reciprocal action among believers; Jesus explicitly tells his disciples to have peace with one another after their dispute about rank."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 97,
+        "row": {
+          "line": 97,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.33",
+          "basis": "Samaritan moved by compassion",
+          "note": "The commentary's stranger or enemy can become a caring companion; the Samaritan responds with compassion to an injured traveler, crossing a socially fraught boundary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 98,
+        "row": {
+          "line": 98,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.34",
+          "basis": "care for injured stranger",
+          "note": "The commentary cites mercy and the failure to encourage care for the needy; the Samaritan binds the traveler's wounds and takes him to shelter, embodying practical care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 99,
+        "row": {
+          "line": 99,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.37",
+          "basis": "mercy defines the neighbor",
+          "note": "The commentary moves from distance to close relation; Jesus' interlocutor identifies the neighbor as the one who showed mercy, making companionship an action rather than prior kinship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 100,
+        "row": {
+          "line": 100,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.13.4",
+          "basis": "love is patient",
+          "note": "The commentary's affectionate bond is maintained by sabr; Paul's description of love begins with patience and kindness, placing endurance inside interpersonal love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 101,
+        "row": {
+          "line": 101,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.13.6",
+          "basis": "love rejoices with truth",
+          "note": "The commentary binds love to mutual transmission of haqq; Paul says love does not rejoice in wrongdoing but rejoices with truth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 102,
+        "row": {
+          "line": 102,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.13.7",
+          "basis": "love bears and endures",
+          "note": "The commentary's companion stays with the community in patience; Paul's love bears and endures all things, giving that steadfastness a relational subject."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 103,
+        "row": {
+          "line": 103,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.12.25",
+          "basis": "members care for each other without division",
+          "note": "The commentary's reciprocal ethic overcomes separated parties; Paul's body image says members should have the same care for one another so the body has no division."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 104,
+        "row": {
+          "line": 104,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.12.26",
+          "basis": "members suffer and rejoice together",
+          "note": "The commentary's one-sided isolation becomes shared life; Paul's members suffer or rejoice together as each member is affected."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 105,
+        "row": {
+          "line": 105,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.32",
+          "basis": "kindness and reciprocal forgiveness",
+          "note": "The commentary says peace removes estrangement; Paul asks members to be kind and tenderhearted, forgiving one another as God forgave them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 106,
+        "row": {
+          "line": 106,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.16",
+          "basis": "reconciliation in one body",
+          "note": "The commentary's hostile sides become a joined group; Paul describes reconciling both groups to God in one body through the cross and killing the hostility."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 107,
+        "row": {
+          "line": 107,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.10",
+          "basis": "brotherly affection and mutual honor",
+          "note": "The commentary develops the close friend's affection and reciprocal giving; Paul commands brotherly love and outdoing one another in showing honor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 108,
+        "row": {
+          "line": 108,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.18",
+          "basis": "peace with all when possible",
+          "note": "The commentary places responsibility on each party to end contention; Paul instructs believers, so far as it depends on them, to live peaceably with everyone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 109,
+        "row": {
+          "line": 109,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.3.17",
+          "basis": "wisdom gentle and peaceable",
+          "note": "The commentary's truth is passed without quarrel; James describes wisdom from above as peaceable, gentle and open to reason, an ethical mode for exchanging counsel.",
+          "raw_ref": "SBLGNT:James.3.17",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 110,
+        "row": {
+          "line": 110,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.3.16",
+          "basis": "jealous rivalry disorders community",
+          "note": "The commentary cites quarrel as loss of collective strength; James says jealousy and selfish ambition bring disorder and every vile practice.",
+          "raw_ref": "SBLGNT:James.3.16",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 111,
+        "row": {
+          "line": 111,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.19",
+          "basis": "turn a person wandering from truth",
+          "note": "The commentary's counsel is something believers do for one another; James envisages one member bringing back another who has wandered from the truth.",
+          "raw_ref": "SBLGNT:James.5.19",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 112,
+        "row": {
+          "line": 112,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.20",
+          "basis": "recover a sinner from error",
+          "note": "The commentary's mutual counsel averts loss; James says turning a sinner back from error saves that person's soul from death.",
+          "raw_ref": "SBLGNT:James.5.20",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 113,
+        "row": {
+          "line": 113,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.25",
+          "basis": "encourage one another in assembly",
+          "note": "The commentary joins companions who might separate; Hebrews contrasts neglect of meeting together with mutual encouragement as the day approaches."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 114,
+        "row": {
+          "line": 114,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.14",
+          "basis": "pursue peace with everyone",
+          "note": "The commentary presents peace as an active repair of alienation; Hebrews commands pursuing peace with all, alongside holiness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 115,
+        "row": {
+          "line": 115,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.15",
+          "basis": "bitterness troubles many",
+          "note": "The commentary's link between people can be broken by a growing quarrel; Hebrews warns that a bitter root can spring up, cause trouble and defile many."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 116,
+        "row": {
+          "line": 116,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.24",
+          "basis": "God's servant avoids quarrels",
+          "note": "The commentary reverses rival claims into patient counsel; this instruction says the Lord's servant must not quarrel but be kind to everyone and able to teach."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 117,
+        "row": {
+          "line": 117,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.23",
+          "basis": "foolish disputes breed quarrels",
+          "note": "The commentary's opening rivals fight over what they call right; this instruction says foolish and ignorant controversies produce quarrels, supplying a diagnosis of failed counsel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 118,
+        "row": {
+          "line": 118,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.25",
+          "basis": "gentle correction of opponents",
+          "note": "The commentary's truth is conveyed to the other side instead of used for contention; the servant corrects opponents with gentleness in hope of their turning toward truth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 119,
+        "row": {
+          "line": 119,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Titus.3.2",
+          "basis": "avoid quarreling and be gentle",
+          "note": "The commentary's reconciliation changes how people address one another; Titus orders believers to avoid quarrels and show gentleness to all people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 120,
+        "row": {
+          "line": 120,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.2",
+          "basis": "one mind and same love",
+          "note": "The commentary's separate claimants become an affectionate company; Paul asks the Philippians to be of one mind and the same love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 121,
+        "row": {
+          "line": 121,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.14",
+          "basis": "act without disputing",
+          "note": "The commentary calls for righteous action joined to mutual counsel; Paul directs the community to do everything without grumbling or disputes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 122,
+        "row": {
+          "line": 122,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.3.8",
+          "basis": "unity and brotherly love",
+          "note": "The commentary develops closeness from estrangement; Peter asks all to have unity of mind, sympathy, brotherly love and humility."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 123,
+        "row": {
+          "line": 123,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.3.9",
+          "basis": "answer hostility with blessing",
+          "note": "The commentary's enemy-to-friend turn requires patience; Peter forbids returning evil or reviling in kind and commands blessing instead."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 124,
+        "row": {
+          "line": 124,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.3.11",
+          "basis": "seek and pursue peace",
+          "note": "The commentary makes peace an action beyond ceasing a dispute; Peter tells readers to turn from evil, do good, and seek and pursue peace."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 125,
+        "row": {
+          "line": 125,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.14",
+          "basis": "love of brothers and escape from death",
+          "note": "The commentary contrasts the human in loss with believers joined by affection; John says love for brothers marks a passage from death to life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 126,
+        "row": {
+          "line": 126,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.4.20",
+          "basis": "God-love tested by brother-love",
+          "note": "The commentary insists on concrete closeness between believers; John calls one who claims to love God while hating a visible brother a liar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 127,
+        "row": {
+          "line": 127,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.4.21",
+          "basis": "love of God entails love of brother",
+          "note": "The commentary binds faith to affection among companions; John says the command received from God is that the one loving God must also love his brother."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 128,
+        "row": {
+          "line": 128,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.13.34",
+          "basis": "mutual love commanded",
+          "note": "The commentary's members advise and sustain each other in affection; Jesus commands disciples to love one another as he has loved them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 129,
+        "row": {
+          "line": 129,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.13.35",
+          "basis": "mutual love identifies disciples",
+          "note": "The commentary's reciprocal bond defines the believing group; Jesus says others will recognize his disciples by their love for one another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 130,
+        "row": {
+          "line": 130,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.6.1",
+          "basis": "widows neglected amid group division",
+          "note": "The commentary cites neglect of the needy as failure of shared obligation; Acts reports a complaint of Hellenists against Hebrews because their widows were overlooked in daily distribution."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 131,
+        "row": {
+          "line": 131,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Acts.15.39",
+          "basis": "sharp dispute separates coworkers",
+          "note": "The commentary moves contention toward companionship; Paul and Barnabas instead have a sharp disagreement and separate, showing that fellow believers' dispute can remain unresolved in the narrated moment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 132,
+        "row": {
+          "line": 132,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 5:17",
+          "basis": "dispute for heaven's sake",
+          "note": "The commentary initially places claim against claim, then makes truth serve the bond; this maxim distinguishes principled Hillel-Shammai disagreement from Korah's dispute, qualifying any simple condemnation of disagreement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 133,
+        "row": {
+          "line": 133,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Yevamot 14b",
+          "basis": "marriage despite legal disagreement",
+          "note": "The commentary's parties can disagree yet preserve kinship; the houses of Shammai and Hillel did not refrain from marrying one another despite their disputes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 134,
+        "row": {
+          "line": 134,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 8:5",
+          "basis": "Truth and Peace contest creating humanity",
+          "note": "The commentary's human being is threatened by contention while truth and peace must be joined; this midrash personifies Truth and Peace as disputing whether humanity should be created, because humans lie and quarrel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 135,
+        "row": {
+          "line": 135,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Yevamot 65b",
+          "basis": "alter words for peace",
+          "note": "The commentary binds haqq and sulh together; the rabbinic permission to change words for peace presses the question of how truthful speech serves a repaired relationship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 136,
+        "row": {
+          "line": 136,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "1 Clement 46:5",
+          "basis": "strife among one body",
+          "note": "The commentary traces damage from disputes among believers; Clement asks why strife, anger, divisions and war appear among the community, confronting its internal fracture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 137,
+        "row": {
+          "line": 137,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.8.5",
+          "basis": "ء ن س / Hebrew אנש (table sound correspondence)",
+          "note": "The source commentary calls the individual insan lost before mutual aid; this psalm asks what mortal enosh is that God remembers him. The proposed root link is phonetic, while the verse's frailty is a distinct sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 138,
+        "row": {
+          "line": 138,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.4.17",
+          "basis": "ء ن س / Hebrew אנש (table sound correspondence)",
+          "note": "The commentary's disputants each claim right while insan remains vulnerable; Job's speaker asks whether mortal enosh can be righteous before God. The proposed root correspondence illuminates mortal limitation, not the commentary's intimacy sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 139,
+        "row": {
+          "line": 139,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.51.12",
+          "basis": "ء ن س / Hebrew אנש (table sound correspondence)",
+          "note": "The commentary's human being is vulnerable apart from the group; Isaiah asks why one fears mortal enosh who will die like grass. The table's proposed root gives a frailty comparison rather than the commentary's sense of intimacy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 140,
+        "row": {
+          "line": 140,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.10.1",
+          "basis": "ح ق ق / Hebrew חקק (table sound correspondence)",
+          "note": "The commentary's haqq is a shared right rather than a weapon of contention; Isaiah condemns those who decree unjust decrees using the proposed Hebrew root, showing that enacted rules can contradict right."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 141,
+        "row": {
+          "line": 141,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.45.5",
+          "basis": "ص ل ح / Hebrew צלח (table sound correspondence)",
+          "note": "The source commentary uses sulh for removing mutual estrangement; the psalm's royal rider advances for truth, humility and righteousness with a verb from Hebrew צלח. The martial advance differs from interpersonal peace, so the semantic link remains uncertain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 142,
+        "row": {
+          "line": 142,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Jer.12.1",
+          "basis": "ص ل ح / Hebrew צלח (table sound correspondence)",
+          "note": "The commentary pairs salihat with faith and relational right; Jeremiah asks why the wicked's way prospers, using Hebrew צלח. This contrast shows that prospering in the corresponding root's Hebrew use does not itself establish righteous deeds."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 143,
+        "row": {
+          "line": 143,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Joel.1.14",
+          "basis": "ع ص ر / Hebrew עצר (table sound correspondence)",
+          "note": "The source commentary gives asr a secondary sense of affection or kinship; Joel calls a solemn assembly during communal crisis with a noun from Hebrew עצר. The gathering gives a social point of contact, but the roots' meanings may be unrelated."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 144,
+        "row": {
+          "line": 144,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.1.13",
+          "basis": "ع ص ر / Hebrew עצר (table sound correspondence)",
+          "note": "The commentary's asr names a bond whose absence is felt; Isaiah says God cannot bear wrongdoing joined to a solemn assembly, using Hebrew עצר. An assembled group does not guarantee the just relation the commentary seeks."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 145,
+        "row": {
+          "line": 145,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Amos.5.21",
+          "basis": "ع ص ر / Hebrew עצר (table sound correspondence)",
+          "note": "The commentary joins good action with communal attachment; God rejects Israel's festal assemblies in Amos, with Hebrew עצר, making mere gathering insufficient for the commentary's ethical togetherness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 146,
+        "row": {
+          "line": 146,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ezra.6.14",
+          "basis": "ص ل ح / Aramaic צלח (table sound correspondence)",
+          "note": "The commentary's salihat are deeds performed by the believing group; Ezra's elders prosper as they build together under prophetic encouragement, using the proposed Aramaic root. Prosperous progress is a different sense from reconciliation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.37.4",
+          "basis": "brothers cannot speak peaceably",
+          "note": "The commentary begins with estrangement that peace must remove; Joseph's brothers hate him and cannot speak to him in peace, making the broken bond audible in their speech."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.50.21",
+          "basis": "comfort and kindly speech after fear",
+          "note": "The commentary's frightened separation becomes close companionship; Joseph tells his brothers not to fear, promises provision for their children, and speaks to their hearts after their plea for forgiveness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.4.9",
+          "basis": "am I my brother's keeper",
+          "note": "The commentary answers the solitary human's loss through responsibility for companions; Cain evades responsibility for his murdered brother with this question, giving the stark opposite of mutual care."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.6.19",
+          "basis": "sowing discord among brothers",
+          "note": "The commentary moves from quarrels among kin to repaired ties; the list of hated acts ends with a false witness and a person who spreads strife among brothers, connecting untruth to broken fellowship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.10.12",
+          "basis": "hatred stirs strife; love covers offenses",
+          "note": "The commentary reverses contention into affection; this proverb gives both movements in one line, with hatred stirring up disputes and love covering wrongs."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.17.17",
+          "basis": "friend loves through adversity",
+          "note": "The commentary's close friend stands by a suffering group; this proverb says a friend loves at all times and a brother is born for adversity, joining affection to endurance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.18.24",
+          "basis": "friend closer than brother",
+          "note": "The commentary's secondary senses include chosen intimacy and kinship; this proverb says a faithful friend may cling more closely than a brother, showing how a chosen bond can exceed inherited kinship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.42.10",
+          "basis": "pray for disputing friends",
+          "note": "The commentary asks that opposed people exchange good rather than contend over right; after Job's hard dispute with his friends, he prays for them and his fortunes are restored."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.10",
+          "basis": "people set against their neighbors",
+          "note": "The commentary moves from contention to the truth and peace named later in Zechariah 8; this earlier verse recalls a time without peace, when every person was set against his neighbor."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.5.25",
+          "basis": "settle quickly with an accuser",
+          "note": "The commentary's opening parties contest a right; Jesus urges agreement with an accuser while still on the way, providing a concrete settlement before judgment escalates the quarrel."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.17.3",
+          "basis": "rebuke and forgive a brother",
+          "note": "The commentary joins truthful counsel with repaired kinship; Jesus directs a disciple to rebuke a sinning brother and forgive him on repentance, giving both actions their place."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.14.19",
+          "basis": "pursue peace and mutual upbuilding",
+          "note": "The commentary makes each believer responsible for another's progress; Paul calls them to pursue what makes for peace and builds one another up amid disputes over conduct."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.15.14",
+          "basis": "instruct one another",
+          "note": "The commentary stresses that each person both gives and receives counsel; Paul says the Romans are full of goodness and knowledge and able to admonish one another."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.6.8",
+          "basis": "wrong and defraud brothers",
+          "note": "The commentary's claimed right can become injury to the other side; Paul says the litigating Corinthians themselves wrong and defraud their own brothers, reversing the ethic of mutual benefit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.11.21",
+          "basis": "one hungry while another is full",
+          "note": "The commentary cites failure to urge food for the needy; in the Corinthians' common meal, one goes hungry while another becomes drunk, exposing a failed shared table."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.11.33",
+          "basis": "wait for one another at the meal",
+          "note": "The commentary's reciprocity must include material care; Paul tells the gathered Corinthians to wait for one another when they eat, answering the hungry member's exclusion in the same scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.5.13",
+          "basis": "serve one another through love",
+          "note": "The commentary changes mutual action from dispute into affectionate service; Paul commands believers to use freedom to serve one another through love."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.5.15",
+          "basis": "mutual hostility consumes the group",
+          "note": "The commentary says contention weakens a community; Paul warns that biting and devouring one another can end with the disputants consumed by each other."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.1",
+          "basis": "gentle restoration of a member",
+          "note": "The commentary makes counsel a patient act for a companion's good; Paul directs spiritual members to restore someone caught in a transgression gently while watching their own vulnerability."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.15",
+          "basis": "peace governs one body",
+          "note": "The commentary's separated people become a connected believing group; Paul says Christ's peace should rule in their hearts because they were called in one body."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.15",
+          "basis": "seek good for one another",
+          "note": "The commentary's mutual action replaces retaliation; Paul forbids repaying evil for evil and directs believers always to seek good for one another and everyone."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.3.15",
+          "basis": "admonish as brother, not enemy",
+          "note": "The commentary transforms the opponent into a companion through counsel; Paul says the disobedient member is to be admonished as a brother rather than regarded as an enemy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.15",
+          "basis": "brother or sister lacks food and clothes",
+          "note": "The commentary cites failure to urge food for the poor as a breach of mutual obligation; James places a needy brother or sister without daily food before the speaking community.",
+          "raw_ref": "SBLGNT:James.2.15",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Jas.2.16",
+          "basis": "go in peace without giving food",
+          "note": "The commentary insists on good deeds beside faith and on real care for the needy; James depicts someone wishing a needy person peace but withholding bodily necessities, exposing empty peaceful speech.",
+          "raw_ref": "SBLGNT:James.2.16",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.16",
+          "basis": "confess and pray for one another",
+          "note": "The commentary's reciprocal counsel includes receiving help; James commands mutual confession and prayer so members may be healed, joining truthful disclosure to reciprocal care.",
+          "raw_ref": "SBLGNT:James.5.16",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.4.8",
+          "basis": "love covers many sins",
+          "note": "The commentary's patience permits estranged companions to stay together; Peter urges sustained love for one another because love covers a multitude of sins."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.16",
+          "basis": "give life for brothers",
+          "note": "The commentary's close friendship issues in righteous action; John says Christ's laying down his life teaches believers to lay down their lives for brothers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.2.7",
+          "basis": "forgive and comfort the offender",
+          "note": "The commentary's peace removes fearful estrangement; Paul urges the community to forgive and comfort a punished person so excessive sorrow does not overwhelm him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.2.8",
+          "basis": "reaffirm love after discipline",
+          "note": "The commentary turns disagreement toward an enduring bond; Paul asks the community to confirm its love for the person it disciplined, making affection an explicit act of restoration."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Kiddushin 30b",
+          "basis": "study dispute ends in love",
+          "note": "The commentary's two sides can transmit truth and still become companions; this interpretation pictures father and son or teacher and pupil contending fiercely in Torah study yet parting as loving friends."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Bava Metzia 84a",
+          "basis": "challenges between learning companions",
+          "note": "The commentary's reciprocal truth requires a giver and receiver; Rabbi Yohanan mourns Resh Lakish's challenging objections because their exchange developed the teaching, unlike a companion who only confirms him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Ta'anit 23a",
+          "basis": "companionship or death",
+          "note": "The commentary contrasts the human alone in loss with the belonging of companions; the Honi story ends with a scholar unable to find companions and a saying that one needs fellowship or death."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 1:14",
+          "basis": "if only for myself, what am I",
+          "note": "The commentary's solitary human cannot escape loss through self-concern; Hillel's question makes the inadequacy of living only for oneself explicit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 15:3",
+          "basis": "reprove one another in peace",
+          "note": "The commentary turns adversarial truth claims into mutual counsel; the Didache directs communal reproof without anger and in peace, joining correction to a nonhostile manner."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 4:8",
+          "basis": "share with a brother in need",
+          "note": "The commentary's fellowship reaches the needy rather than merely speaking to them; the Didache tells its reader to share possessions with a brother and not claim them as exclusively one's own."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.18.1",
+          "basis": "Jonathan's soul bound to David",
+          "note": "The commentary names affection and kinship as bonds among close friends; Jonathan's soul is knit to David's and he loves David as himself, giving narrative form to chosen attachment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.20.42",
+          "basis": "peace and enduring friendship covenant",
+          "note": "The commentary's close companions remain connected through difficulty; Jonathan sends David away in peace under a covenant binding them and their descendants."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.6.14",
+          "basis": "loyal care due to a suffering friend",
+          "note": "The commentary's patient companion stands beside someone at risk of loss; Job complains that a suffering person should receive steadfast kindness from a friend rather than abandonment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.19.19",
+          "basis": "beloved friends turn against sufferer",
+          "note": "The commentary's lost affection leaves a human isolated; Job laments that intimate friends abhor him and those he loved have turned against him, an inverse of patient companionship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.42.11",
+          "basis": "kin come to comfort Job",
+          "note": "The commentary's isolated sufferer is rejoined by people who stand with him; Job's brothers, sisters and former acquaintances eat with him and comfort him after his ordeal."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.19.11",
+          "basis": "patience overlooks offense",
+          "note": "The commentary's sabr allows enmity to become intimacy; this proverb calls slowness to anger prudent and overlooking an offense a person's glory."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.10",
+          "basis": "keep the friendship bond",
+          "note": "The commentary's secondary asr sense names affection and kinship by their absence; this proverb warns against forsaking one's friend or father's friend when trouble comes."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.7.5",
+          "basis": "mistrust of close companion",
+          "note": "The commentary's reconciliation reverses fear and withdrawal; Micah says not to trust a neighbor or intimate friend, depicting social breakdown at the level of close ties."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Jer.31.34",
+          "basis": "no longer teach neighbor and brother to know God",
+          "note": "The commentary gives believers a continuing duty to urge one another in truth; Jeremiah imagines a new covenant in which neighbor and brother no longer teach each other to know God because all know him, a particular limit on mutual instruction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 6:14",
+          "basis": "faithful friend as shelter",
+          "note": "The commentary's close friend gives security after frightened separation; Sirach calls a faithful friend a sturdy shelter and a treasure, making companionship protective."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.35",
+          "basis": "forgive brother from the heart",
+          "note": "The commentary's peace must heal the bond beneath formal settlement; Jesus closes the unforgiving servant story by requiring forgiveness of one's brother from the heart."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.19",
+          "basis": "two agree together in prayer",
+          "note": "The commentary's reciprocal action draws separated members into concord; Jesus says two who agree on earth about a request will be heard by the Father, within his teaching on community disputes."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.15.15",
+          "basis": "friends receive disclosed knowledge",
+          "note": "The commentary's intimate friend receives truth rather than being held at a distance; Jesus calls disciples friends because he has made known to them what he heard from his Father."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.15.7",
+          "basis": "welcome one another",
+          "note": "The commentary's estranged parties become companions; Paul commands mutual welcome as Christ has welcomed them, giving the bond a concrete reception practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.29",
+          "basis": "speech that builds the other up",
+          "note": "The commentary's mutual exhortation gives another person what is needed; Paul asks for speech suited to building up hearers and giving them grace, rather than harmful talk."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.3",
+          "basis": "jealousy and strife among believers",
+          "note": "The commentary starts with rival claims inside a group; Paul points to jealousy and strife among the Corinthians as evidence of immature, merely human behavior."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.11.22",
+          "basis": "humiliation of those with nothing",
+          "note": "The commentary's failed urging to feed the poor has communal consequences; Paul rebukes the Corinthians for shaming members who have nothing at their shared meal."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.4.9",
+          "basis": "hospitality without grumbling",
+          "note": "The commentary's reciprocal care keeps others close; Peter asks members to show hospitality to one another without complaint, giving affectionate attachment a household practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.19",
+          "basis": "hear first and restrain anger",
+          "note": "The commentary's reciprocal counsel requires receiving the other's word and patient speech; James commands quick hearing, slow speaking and slow anger.",
+          "raw_ref": "SBLGNT:James.1.19",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Titus.3.10",
+          "basis": "warn then separate from divisive person",
+          "note": "The commentary emphasizes holding a group together through counsel; Titus directs warning a divisive person twice and then having nothing further to do with him, marking a limit to maintained companionship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 2:4",
+          "basis": "do not separate from community",
+          "note": "The commentary contrasts the solitary human with a believing company; Hillel's instruction not to separate oneself from the community treats continued belonging as a deliberate duty."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Shabbat 127a",
+          "basis": "make peace between people",
+          "note": "The commentary treats reconciliation as work among opposed people; the rabbinic list of deeds whose benefits extend into the world to come includes making peace between one person and another."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 2:7",
+          "basis": "correct rather than hate a person",
+          "note": "The commentary's counsel must be joined to affection; the Didache forbids hatred and distinguishes those one should correct, pray for, or love beyond oneself."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.8.15",
+          "basis": "ح ق ق / Hebrew חקק (table sound correspondence)",
+          "note": "The commentary's haqq is a claim that must serve right relations; Wisdom says rulers decree what is just, using Hebrew חקק. The proposed consonantal correspondence links right to a public decree, though the Hebrew root's meaning is legal enactment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.90.3",
+          "basis": "ء ن س / Hebrew אנש (table sound correspondence)",
+          "note": "The commentary's insan is vulnerable to loss; the psalm says God returns mortal enosh to dust. The table proposes the root correspondence, while the psalm's concern is mortality rather than intimacy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.7.13",
+          "basis": "ء ن س / Aramaic אנש (table sound correspondence)",
+          "note": "The commentary begins with the human in loss; Daniel's vision presents a human-like figure coming with heaven's clouds, an exalted use of Aramaic enash. The roots may correspond, but the figure is not the commentary's ordinary solitary person."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Testament of Gad 6",
+          "basis": "peaceful speech to someone who sinned",
+          "note": "The commentary's counsel repairs a bond after wrongdoing; this testament urges love among brothers and peaceful speech to someone who sins against a companion. The exact verse division within chapter 6 is uncertain from memory."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "82684baf0996940dbb197ad12c32493834796913787aee17271ef1a6dad3cfba",
+    "followup_sha256": "82684baf0996940dbb197ad12c32493834796913787aee17271ef1a6dad3cfba"
+  },
+  "consolidation_error": null,
+  "list_sha256": "94403a446c3bfc29ab548d6a333ed8c10dbb53677cdbb38767ec314599fcaf09",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 306918,
+    "cached_input_tokens": 267648,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 29327,
+    "reasoning_output_tokens": 14452,
+    "total_tokens": 336245
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:36:46.359Z",
+  "artifacts": {
+    "started.json": "3edc43e9158fa05ce85163dcba5f12cbeed416d486a1765af352ed158a50bdaf",
+    "input.json": "ae24c252866c015ce77021bdaf747f4488de3eaaaadd90fc6a4c131fcbf56150",
+    "prompt.md": "a4437e7d8f66601604aee5b56ef65f60a7df6e01a0742f88ca987e9634028656",
+    "package.md": "d89777a83db1def7d38f286c90105f8519be027915193a62be880028884bb66c",
+    "spawn.md": "2b08a46899d9ed16d390f6ab18d51a6a952fcb41d6cbd5590ff5d15ee6a52ce0",
+    "followup.txt": "fafe420c69568aa86f6d86eddafd775eac14265085b6c4cf04497814bf2d8a5b",
+    "turn1.json": "ae3a804d63c27e5f806733a84c05cdbdb64788b6aaaf8b3b352eb63782007e6f",
+    "turn1.list.tsv": "f4ab20584db095022a912b8c0654284c84f952c1bba42beff9d2d61a05e485e3",
+    "followup.tsv": "82684baf0996940dbb197ad12c32493834796913787aee17271ef1a6dad3cfba",
+    "list.tsv": "94403a446c3bfc29ab548d6a333ed8c10dbb53677cdbb38767ec314599fcaf09",
+    "consolidation.json": "22a97b2199d9176deeaacf68fde8e7d4056e4ae8a49a93fa4cf64ca067df9c1e",
+    "validation.json": "f5b82fd43745f9fa5edf1a9d0b90fac1c548e53b057ad774367bfd921e54de5f",
+    "proposal_validation.json": "40b84a6eeff64f5cc5d5d812f6861a4ad56c47af72f0ec6bda29c5d8ba07153a",
+    "tool_calls.json": "b5d2dacf2fccc9942a29ee101b8eb5705dbad044d4320d1d7f4bb9891df867dd",
+    "session.json": "2502343b0d01fc8606c17232f5ca1470f76075bc89bdc690afd2c57360d034ea",
+    "session.events.jsonl": "3f5d6ebcf5b4a214abef2a05991bc09d87347662285cb627cc65f71bb90cee6a"
+  },
+  "usd_equivalent": 0.42534,
+  "requests": 10,
+  "max_request_input_tokens": 46863,
+  "total_input_tokens": 306918,
+  "total_cached_input_tokens": 267648,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 29327,
+  "policy_notes": [
+    "turn 1 call_e06854fae8b84914871bf8a906ae7558: local script on its own files (python3)"
+  ]
+}

@@ -1,0 +1,4 @@
+The operator finished your session and the final check failed with these errors:
+- verdict 238: evidence was not opened with corpus get: WLC:Exod.33.11
+- verdict 239: evidence was not opened with corpus get: WLC:Ezek.37.22
+Fix only these: open every evidence passage with the corpus get command before citing it, then correct verdicts.jsonl, annotations.jsonl, gaps.json or root_verdicts.jsonl as needed, using the same tool forms as before. Run the image_enrich.py check command until it passes, and reply briefly.

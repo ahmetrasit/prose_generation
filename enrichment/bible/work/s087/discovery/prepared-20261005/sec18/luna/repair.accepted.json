@@ -1,0 +1,32 @@
+{
+  "approval": "User explicitly authorized the three pending fixes: \"what are those - fixes? if yes, do it\" on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave2.proposed.json; SHA256 43ec2b86e3c316ee5b32018d10399e2acf4840a53698ecc05ce7b3cb2f1de1c7",
+  "accepted_at": "2026-10-05T19:19:19.802359+00:00",
+  "changes": [
+    {
+      "line": 16,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Wis.3.4",
+        "hope of immortality",
+        "The commentary calls the hereafter better and more abiding than worldly life; Wisdom says the righteous dead are at peace and have hope full of immortality, giving that endurance a Jewish wisdom formulation."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "Wisdom of Solomon 3:4",
+        "hope of immortality",
+        "The commentary calls the hereafter better and more abiding than worldly life; Wisdom says the righteous dead are at peace and have hope full of immortality, giving that endurance a Jewish wisdom formulation."
+      ],
+      "reason": "Wisdom is not a WLC book; preserve the same named-work passage as an unverified secondary candidate."
+    }
+  ],
+  "raw_sha256": "f4aeb0fcac78b22c33dfb259f3b27af79ad1eb572e992c25b4c15cfdcc9f7d67",
+  "accepted_sha256": "749dc6725db2e7ad754241cb1158e9b0419a813484c34a08e8797b8cd152cfec",
+  "proposal_sha256": "3d50437f2f8650b43ee5c80f11eea674673cda3add03e7f452141d4a50b5cd2e",
+  "failed_log_sha256": "9b4a8dbc1831b43cb4076c5d4b49b7c373189c8a066bdfbb488266e467f00642",
+  "model_calls": 0,
+  "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+}

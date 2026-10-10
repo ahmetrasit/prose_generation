@@ -1,0 +1,465 @@
+{
+  "format": "bible-discovery-v2",
+  "status": "ok",
+  "target": "1:2",
+  "base_sha256": "35b6b3804e386f32141d8ecf3d33bbb9d6bd80c42e088da80ba6261852e081eb",
+  "tsv_sha256": "52d6e123ba18d36c6d937ccb417be9b1ad094c9cc8ea1c937f173b57649f2575",
+  "provenance": [
+    {
+      "target": "1:2",
+      "model": "luna",
+      "run_tag": "pilot1-20261005",
+      "path": "pilot1-20261005/1_2/luna",
+      "sha256": "65a21203f01fe3bdeb5bb76e26f66eae10affff552869774082649400134ac6c"
+    },
+    {
+      "target": "1:2",
+      "model": "terra",
+      "run_tag": "pilot1-20261005",
+      "path": "pilot1-20261005/1_2/terra",
+      "sha256": "57a9a3caf3f6c1af3de18c68cf73fba7d06df3aeed8d9b5b4048b447edb2452b"
+    }
+  ],
+  "rows": 183,
+  "findings": [
+    {
+      "target": "1:2",
+      "model": "luna",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/1_2/luna/list.tsv",
+        "rows": 120,
+        "unique_references": 119,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 82,
+          "medium": 37,
+          "weak": 1
+        },
+        "findings": [
+          {
+            "line": 22,
+            "ref": "Wisdom of Solomon 13:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 23,
+            "ref": "Wisdom of Solomon 13:3",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 24,
+            "ref": "Wisdom of Solomon 13:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 72,
+            "ref": "Mishnah, Berakhot 9:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 73,
+            "ref": "Babylonian Talmud, Berakhot 35a–b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 74,
+            "ref": "Pirkei Avot 6:11",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 75,
+            "ref": "Adon Olam, opening and closing stanzas",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 76,
+            "ref": "Augustine, Confessions 10.6.9–10",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 77,
+            "ref": "Song of the Three Youths, Greek Daniel 3:57–88",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 78,
+            "ref": "Mishnah, Avot 1:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 102,
+            "ref": "Wisdom of Solomon 11:24",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 103,
+            "ref": "Wisdom of Solomon 11:26",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 104,
+            "ref": "Mishnah, Berakhot 9:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 105,
+            "ref": "Sirach 43:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 106,
+            "ref": "Sirach 43:27",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 107,
+            "ref": "Sirach 43:28",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 108,
+            "ref": "Sirach 43:30",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 109,
+            "ref": "Perek Shirah 1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/1_2/luna/followup.tsv",
+        "rows": 37,
+        "unique_references": 37,
+        "schema_errors": [
+          "line 21: unknown verse in specified edition: WLC:Wis.11.24",
+          "line 22: unknown verse in specified edition: WLC:Wis.11.26"
+        ],
+        "duplicates": [],
+        "strengths": {
+          "strong": 27,
+          "medium": 10
+        },
+        "findings": [
+          {
+            "line": 23,
+            "ref": "Mishnah, Berakhot 9:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 24,
+            "ref": "Sirach 43:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 25,
+            "ref": "Sirach 43:27",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 26,
+            "ref": "Sirach 43:28",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 27,
+            "ref": "Sirach 43:30",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 28,
+            "ref": "Perek Shirah 1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": {
+        "approval": "2026-10-05 user reply: Apply all 15 recorded follow-up corrections. Exact bundle: enrichment/bible/audits/pilot1-20261005/followup-repairs.proposed.json",
+        "accepted_at": "2026-10-05T16:04:04.176678+00:00",
+        "changes": [
+          {
+            "line": 21,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Wis.11.24",
+              "God loves all that exists",
+              "The commentary says the Lord's care extends to all created kinds; Wisdom says God loves everything that exists and would not have made anything he hated."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "Wisdom of Solomon 11:24",
+              "God loves all that exists",
+              "The commentary says the Lord's care extends to all created kinds; Wisdom says God loves everything that exists and would not have made anything he hated."
+            ],
+            "reason": "Wisdom is not contained in WLC. Retain a named-work candidate with the original Greek witness unavailable. KJV only helps identify the remembered passage; it cannot verify the connection."
+          },
+          {
+            "line": 22,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Wis.11.26",
+              "all things are God's",
+              "The commentary calls God Rabb of all worlds; Wisdom says God spares all things because they are his and names him lover of life."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "Wisdom of Solomon 11:26",
+              "all things are God's",
+              "The commentary calls God Rabb of all worlds; Wisdom says God spares all things because they are his and names him lover of life."
+            ],
+            "reason": "Wisdom is not contained in WLC. Retain a named-work candidate with the original Greek witness unavailable. KJV only helps identify the remembered passage; it cannot verify the connection."
+          }
+        ],
+        "raw_sha256": "ababe5114395b18f24fa86d42642d929bdc394308b4710351286ea904d7edd23",
+        "accepted_sha256": "beff3dfacc78430479d75618ec9ea0065c44b13fc864b837b1c9091944ee8a40",
+        "proposal_sha256": "223ab8d9ca05623b38e4addfbca168340b5430ce450b05e9b74dcb4d8bd5feb5",
+        "failed_log_sha256": "5a4b254631adb969e968b6d7769ba29880ea799ae9d171958736b7e948675fae",
+        "model_calls": 0,
+        "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+      },
+      "first_turn_repair": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T15:52:01.266685+00:00",
+        "changes": [
+          {
+            "line": 22,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Wis.13.1",
+              "failure to know the maker",
+              "The commentary calls each created kind a sign by which the Lord is known; Wisdom says people who infer no knowledge of God from visible good things fail to recognize their maker through his works."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "Wisdom of Solomon 13:1",
+              "failure to know the maker",
+              "The commentary calls each created kind a sign by which the Lord is known; Wisdom says people who infer no knowledge of God from visible good things fail to recognize their maker through his works."
+            ],
+            "reason": "Wisdom is not contained in WLC. Retain a named-work candidate; original Greek witness remains unavailable. KJV is only a finding aid, not evidence for acceptance."
+          },
+          {
+            "line": 23,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Wis.13.3",
+              "beauty points beyond itself",
+              "The commentary says the worlds are signs that show their Lord; Wisdom argues that the beauty of created things should lead their observer to perceive the maker."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "Wisdom of Solomon 13:3",
+              "beauty points beyond itself",
+              "The commentary says the worlds are signs that show their Lord; Wisdom argues that the beauty of created things should lead their observer to perceive the maker."
+            ],
+            "reason": "Wisdom is not contained in WLC. Retain a named-work candidate; original Greek witness remains unavailable. KJV is only a finding aid, not evidence for acceptance."
+          },
+          {
+            "line": 24,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Wis.13.5",
+              "greatness of creatures",
+              "The commentary treats the whole creation as a field of divine signs; Wisdom says the greatness and beauty of creatures give a proportionate way to perceive their creator."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "Wisdom of Solomon 13:5",
+              "greatness of creatures",
+              "The commentary treats the whole creation as a field of divine signs; Wisdom says the greatness and beauty of creatures give a proportionate way to perceive their creator."
+            ],
+            "reason": "Wisdom is not contained in WLC. Retain a named-work candidate; original Greek witness remains unavailable. KJV is only a finding aid, not evidence for acceptance."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+          "turn1.validation.failed.json": "ff0269cf8bec1e8933f921e6b09f945c7f43d0bf3b0d88e8c5565837c179e9c7",
+          "turn1.tool_calls.json": "f66d4eb96865af5d150ce5747980e7e720a5f592c6a2e2f6cabaf3d9cb0f9202",
+          "turn1.repair.proposed.json": "623e8004a05fd7aea38916dfecc65712345da284a5732ffe8979252b7c54cab7",
+          "turn1.repair.proposed.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee",
+          "turn1.accepted.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee"
+        }
+      }
+    },
+    {
+      "target": "1:2",
+      "model": "terra",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/1_2/terra/list.tsv",
+        "rows": 108,
+        "unique_references": 107,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 75,
+          "medium": 32,
+          "weak": 1
+        },
+        "findings": [
+          {
+            "line": 15,
+            "ref": "Wisdom of Solomon 13:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 17,
+            "ref": "Wisdom of Solomon 13:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 23,
+            "ref": "Augustine, Confessions 10.6.8",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 57,
+            "ref": "SBLGNT:Jas.1.17",
+            "raw_ref": "SBLGNT:James.1.17",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 62,
+            "ref": "Bavli Pesahim 119a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 63,
+            "ref": "Josephus, Antiquities 1.154",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 64,
+            "ref": "Protevangelium of James 8",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 65,
+            "ref": "Mishnah Berakhot 9:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 106,
+            "ref": "Sirach 43:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 107,
+            "ref": "Sirach 43:28",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 108,
+            "ref": "Mishnah Avot 4:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/1_2/terra/followup.tsv",
+        "rows": 29,
+        "unique_references": 29,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 15,
+          "medium": 14
+        },
+        "findings": [
+          {
+            "line": 27,
+            "ref": "Sirach 43:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 28,
+            "ref": "Sirach 43:28",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 29,
+            "ref": "Mishnah Avot 4:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    }
+  ],
+  "confidence": "Unverified reader labels; agreement and follow-up origin do not verify a connection."
+}

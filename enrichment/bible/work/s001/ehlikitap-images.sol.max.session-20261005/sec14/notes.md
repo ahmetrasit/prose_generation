@@ -1,0 +1,7 @@
+# S1 sec14 Bible-pass audit
+
+The local WLC and SBLGNT passages cited in the annotations were opened with `corpus.py --intertext get`. The 455 discovery connections have one verdict each; 14 additional opened references have research verdicts. All 36 refs reported missing by `prefetch.json` are in `gaps.json`, along with the unavailable Peshitta witness needed for the proposed John 3:16 Syriac cognate.
+
+Significant corrections: WLC Ps.19.1, 20.8, 31.3, 34.5, and 84.5–7 were cited for details that occur in the following WLC verses. Isa.49.15 uses a r-ḥ-m compassion verb but `beten` for the child's womb. Dan.7.14 has `malku` for dominion, not the proposed `malkā` form. John 3:16 in the opened SBLGNT has Greek `kosmon`, so the unverified Peshitta cognate was rejected. Rev.6.5 has scales in a famine vision, not a final judgment scale. Deut.24.13 returns a poor debtor's cloak but does not state that God hears the debtor's cry. Gen.18.7 is a hospitality meal, not a sacrifice. In Exod.2.9–10 Moses' own mother nurses him and Pharaoh's daughter later adopts and names him.
+
+The annotation selection focuses on the exact images in ¶66–73: service and path; herd, name and home; royal nurture against divine ownership; anger and falling; written accounts and judgment; Midian's well; heavenly signs; and the prayer's whole movement. The ledger retains specific reasons for omitted close parallels and does not infer textual dependence.

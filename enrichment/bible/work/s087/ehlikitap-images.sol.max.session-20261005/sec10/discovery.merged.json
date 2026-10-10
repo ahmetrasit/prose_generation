@@ -1,0 +1,347 @@
+{
+  "format": "bible-discovery-v2",
+  "status": "ok",
+  "target": "sec10",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "tsv_sha256": "1d477988f79d6288a91cf989da21c6943dfb61987c5f05b3c246c7049bd2d6ab",
+  "provenance": [
+    {
+      "target": "sec10",
+      "model": "luna",
+      "run_tag": "prepared-20261005",
+      "path": "prepared-20261005/sec10/luna",
+      "sha256": "5240ae0cbf2cb2e39d2e5f2442be4407ea433a41ee40a1451151c968cd0ad4ff"
+    },
+    {
+      "target": "sec10",
+      "model": "terra",
+      "run_tag": "prepared-20261005",
+      "path": "prepared-20261005/sec10/terra",
+      "sha256": "3c175add7e164c8d8cd24be8745f75ddfe6fe795c9e17fce406c45d5c8b40da8"
+    }
+  ],
+  "rows": 190,
+  "findings": [
+    {
+      "target": "sec10",
+      "model": "luna",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec10/luna/list.tsv",
+        "rows": 104,
+        "unique_references": 101,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 84,
+          "medium": 20
+        },
+        "findings": [
+          {
+            "line": 35,
+            "ref": "Mishnah Avot 4:16",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 36,
+            "ref": "Mishnah Avot 4:17",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 37,
+            "ref": "Qaddish, opening paragraph",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 38,
+            "ref": "Genesis Rabbah 38:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 39,
+            "ref": "1 Enoch 48:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 50,
+            "ref": "Didache 10:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 91,
+            "ref": "1 Enoch 14:20-22",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 104,
+            "ref": "Origen, Homilies on Luke 8",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec10/luna/followup.tsv",
+        "rows": 42,
+        "unique_references": 42,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 36,
+          "medium": 6
+        },
+        "findings": [
+          {
+            "line": 29,
+            "ref": "1 Enoch 14:20-22",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 42,
+            "ref": "Origen, Homilies on Luke 8",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T19:04:52.314957+00:00",
+        "changes": [
+          {
+            "line": 25,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Dan.4.37",
+              "pride humbled, heavenly king praised",
+              "The commentary opposes God’s true highness to a creature’s arrogance; Nebuchadnezzar honors the King of heaven and concludes that those who walk in pride God is able to humble."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Dan.4.34",
+              "pride humbled, heavenly king praised",
+              "The commentary opposes God’s true highness to a creature’s arrogance; Nebuchadnezzar honors the King of heaven and concludes that those who walk in pride God is able to humble."
+            ],
+            "reason": "Use WLC numbering for Nebuchadnezzar praising the heavenly king who humbles the proud; English 4:37 corresponds to WLC 4:34."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "f1d8bfd31c4ab180499e59a3e90808e521b72526f8f73b41fefd49f2c2425fd1",
+          "turn1.validation.failed.json": "4f9e6d9e1ccc723a846fe6e9b0c0ba3d0fb71d596e94cd2005263a6422054fac",
+          "turn1.tool_calls.json": "addbc2c80fc78b1bdddbd2e71d7fb527cd6c38af9800efbed5d3c78b98104c60",
+          "turn1.repair.proposed.json": "c7b2bf46b575fe51d0f7cebf69a2fd31d8ad582eeb064a92a24a94b70dbd1c7d",
+          "turn1.repair.proposed.tsv": "dba9f782aa6f2032a8d4e697aeeda8e42dc5737314b4588b46d9d494a58f3e66",
+          "turn1.accepted.tsv": "dba9f782aa6f2032a8d4e697aeeda8e42dc5737314b4588b46d9d494a58f3e66"
+        }
+      }
+    },
+    {
+      "target": "sec10",
+      "model": "terra",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec10/terra/list.tsv",
+        "rows": 131,
+        "unique_references": 127,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 115,
+          "medium": 16
+        },
+        "findings": [
+          {
+            "line": 10,
+            "ref": "WLC:Exod.3.15",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "שֵׁם",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 10,
+            "ref": "WLC:Exod.3.15",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "שֵׁם",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 53,
+            "ref": "Kaddish, opening",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 54,
+            "ref": "b. Sotah 5a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 55,
+            "ref": "b. Megillah 31a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 56,
+            "ref": "Sirach 10:12",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 57,
+            "ref": "Wisdom 5:8",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 58,
+            "ref": "1 Maccabees 2:62",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 59,
+            "ref": "2 Maccabees 9:12",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 89,
+            "ref": "Didache 8:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 90,
+            "ref": "Augustine, City of God 14.28",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 91,
+            "ref": "Ignatius, To the Romans 6:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 93,
+            "ref": "Mishnah Sotah 7:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 94,
+            "ref": "Mishnah Rosh Hashanah 2:6–8",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 95,
+            "ref": "b. Hagigah 12b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 96,
+            "ref": "Josephus, Antiquities 1.4.2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 99,
+            "ref": "Tertullian, On Prayer 3",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 115,
+            "ref": "Mishnah Avot 4:4",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 130,
+            "ref": "Epistle to Diognetus 5:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 131,
+            "ref": "Origen, On Prayer 23",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec10/terra/followup.tsv",
+        "rows": 32,
+        "unique_references": 32,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 24,
+          "medium": 8
+        },
+        "findings": [
+          {
+            "line": 16,
+            "ref": "Mishnah Avot 4:4",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 31,
+            "ref": "Epistle to Diognetus 5:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 32,
+            "ref": "Origen, On Prayer 23",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    }
+  ],
+  "confidence": "Unverified reader labels; agreement and follow-up origin do not verify a connection."
+}

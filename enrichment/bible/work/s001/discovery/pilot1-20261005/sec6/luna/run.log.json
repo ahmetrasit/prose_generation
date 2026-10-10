@@ -1,0 +1,3257 @@
+{
+  "target": "sec6",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:53.572997-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec6_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "c8c9285d7846bc14f016e686d22ca0f4ccc8f9cb0b6ef84b7d0f776b2de5e1ed",
+  "package_sha256": "3a743032f108cef2b42f261a7922f367f9128dd7ac6e57ced85c0b1729c5685f",
+  "input_sha256": "11d1affe33ee433bc9fc83a3de52cb6ca029837d10b0b4eb1543107cf28f94fe",
+  "spawn_sha256": "98ed59af56b59c0e7901c98d9ce76b5489bd2bfb3b9255021f9694a40b5ec9fd",
+  "followup_text_sha256": "2379451f9fa796d6732277b9402456029238c35f10caba4f95de7163ec9f0645",
+  "agent_id": "01a10c9b-e1fd-70d0-bb37-0b918d8b31ee",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-08-25-01a10c9b-e1fd-70d0-bb37-0b918d8b31ee.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "accepted",
+  "check": "findings",
+  "turn1_rows": 116,
+  "turn1_sha256": "81e118ef9ffed0840ae8068c7f3931b517c41680733a994540d89fd051d4ee98",
+  "turn2": {
+    "completed": true,
+    "rows_total": 232,
+    "rows_added": 116
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_oJGLVtMn3m7spd4y9yQNHGUr",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_oJGLVtMn3m7spd4y9yQNHGUr",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_oJGLVtMn3m7spd4y9yQNHGUr",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+    },
+    {
+      "call_id": "call_QqEz5oVhTw7VmABucE51sDKp",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_QqEz5oVhTw7VmABucE51sDKp",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_QqEz5oVhTw7VmABucE51sDKp",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+    },
+    {
+      "call_id": "call_3fh630QfG2zPIzRWmN7aAkzM",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_3fh630QfG2zPIzRWmN7aAkzM",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_3fh630QfG2zPIzRWmN7aAkzM",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+    },
+    {
+      "call_id": "call_4nrCoxR39s9YpWqtUnlribFl",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_4nrCoxR39s9YpWqtUnlribFl",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_4nrCoxR39s9YpWqtUnlribFl",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+    },
+    {
+      "call_id": "call_85bXKfpnYn638NTLA1dA5V17",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_85bXKfpnYn638NTLA1dA5V17",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_85bXKfpnYn638NTLA1dA5V17",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+    }
+  ],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 116,
+    "raw_proposal_rows": 118,
+    "unique_additions": 116,
+    "repeated_proposals": [
+      {
+        "proposal": {
+          "line": 117,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.3.6",
+          "basis": "Hebrew חמד as desirable",
+          "note": "The source commentary labels Arabic ح م د and glosses hamd as praise or approval; Genesis uses the related Hebrew form for the tree as desirable to the eyes, showing a desire or attractiveness sense rather than the same act of praising."
+        },
+        "retained": {
+          "phase": 2,
+          "line": 54,
+          "row": {
+            "line": 54,
+            "strength": "strong",
+            "tradition": "tevrat",
+            "kind": "soydas",
+            "ref": "WLC:Gen.3.6",
+            "basis": "Hebrew חמד as desirable",
+            "note": "The source commentary labels Arabic ح م د and glosses hamd as praise or approval; Genesis uses the related Hebrew form for the tree as desirable to the eyes, showing a desire or attractiveness sense rather than the same act of praising."
+          }
+        }
+      },
+      {
+        "proposal": {
+          "line": 118,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.5.21",
+          "basis": "Hebrew חמד as coveting",
+          "note": "The source commentary labels Arabic ح م د and glosses hamd as approval; Deuteronomy uses the related Hebrew form for prohibited desire of a neighbor's property, a contrary ethical use that cautions against collapsing the senses."
+        },
+        "retained": {
+          "phase": 2,
+          "line": 55,
+          "row": {
+            "line": 55,
+            "strength": "strong",
+            "tradition": "tevrat",
+            "kind": "soydas",
+            "ref": "WLC:Deut.5.21",
+            "basis": "Hebrew חמד as coveting",
+            "note": "The source commentary labels Arabic ح م د and glosses hamd as approval; Deuteronomy uses the related Hebrew form for prohibited desire of a neighbor's property, a contrary ethical use that cautions against collapsing the senses."
+          }
+        }
+      }
+    ],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Num.11.31",
+          "basis": "quail brought to camp",
+          "note": "The commentary recalls quail among Israel's provision before warning of wrath; Numbers describes the wind bringing quail into the camp, supplying the wilderness scene behind that recollection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Num.11.33",
+          "basis": "wrath during the meal",
+          "note": "The commentary sets provision beside wrath coming upon people; here the Lord strikes while meat is still between their teeth, making that sequence explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.32.19",
+          "basis": "Moses at the calf",
+          "note": "The commentary recalls Moses returning angry after the calf; Exodus depicts him seeing the calf and breaking the tablets in anger at the foot of the mountain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.32.10",
+          "basis": "divine anger at the calf",
+          "note": "The commentary links the calf episode with wrath upon the people; God tells Moses that his anger burns against Israel and threatens their destruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.32.14",
+          "basis": "anger relented after intercession",
+          "note": "The commentary places wrath beside forgiveness; after Moses pleads for Israel, Exodus says the Lord relented from the threatened disaster."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.9.19",
+          "basis": "Moses pleads during wrath",
+          "note": "The commentary presents Moses returning from the calf in anger and grief; Deuteronomy says he feared the Lord's anger and recounts that the Lord listened to his plea."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.9.20",
+          "basis": "Aaron and intercession",
+          "note": "The commentary connects the calf with threatened wrath; Deuteronomy says the Lord was angry enough with Aaron to destroy him and that Moses prayed for him too."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.78.29",
+          "basis": "quail and satisfaction",
+          "note": "The commentary names manna and quail as gifts preceding the warning; this retelling says Israel ate and was filled after God brought the birds."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.78.31",
+          "basis": "wrath after appetite",
+          "note": "The commentary sets the bestowed food against wrath; this wilderness retelling says God's anger rose against the well-fed people and struck them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.106.19",
+          "basis": "calf at Horeb",
+          "note": "The commentary recalls Moses' angry return after the calf; the psalm retells Israel making and worshiping a calf at Horeb."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.106.23",
+          "basis": "Moses stands in the breach",
+          "note": "The commentary sets wrath alongside forgiveness; this retelling says Moses stood before God in the breach to turn away destruction from the people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.16.13",
+          "basis": "manna and quail provision",
+          "note": "The commentary says God reminds Israel of manna and quail; Exodus describes quail at evening and manna with the morning dew."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.8.16",
+          "basis": "manna, testing, good outcome",
+          "note": "The commentary recalls provision followed by a warning against transgression; Moses says manna humbled and tested Israel, with God intending good for them at the end."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.105.40",
+          "basis": "quail and bread from heaven",
+          "note": "The commentary identifies manna and quail as the gifts recalled before wrath; the psalm's exodus praise names both quail and heaven's bread as God's response to Israel's request."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.30.6",
+          "basis": "anger and favor in contrast",
+          "note": "The commentary sets divine pleasure against wrath; this psalm contrasts a moment of divine anger with a lifetime of favor, giving that opposition a temporal shape."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.6.25",
+          "basis": "shining face as blessing",
+          "note": "The commentary says favor leaves a softened, cooled face; the priestly blessing asks God to make his face shine on the recipient, joining divine favor to a visible face."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.6.26",
+          "basis": "lifted face and peace",
+          "note": "The commentary reads the favored group as bearing a softened face; the blessing asks God to lift his countenance upon Israel and give peace, making face and favorable outcome a single formula."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.89.15",
+          "basis": "blessed people walk in face-light",
+          "note": "The commentary joins the favored group to a shared path and visible faces; the psalm calls blessed the people who walk in the light of God's countenance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.67.1",
+          "basis": "blessing and shining face",
+          "note": "The commentary says bestowed favor is visible in the face; this prayer asks God to bless the people and make his face shine upon them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.67.2",
+          "basis": "God's way made known",
+          "note": "The commentary links bestowed favor with the path of those guided; this psalm asks that God's way and saving power become known among the nations after the face-shining blessing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.34.5",
+          "basis": "radiant faces without shame",
+          "note": "The commentary contrasts faces marked by favor with faces marked by disgrace; here those who look to the Lord become radiant and are not ashamed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.34.16",
+          "basis": "God's face against evildoers",
+          "note": "The commentary says the face bears the outcome of favor or wrath; this psalm sets the Lord's face against evildoers, giving the contrary face-image an explicit judgment setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.4.6",
+          "basis": "anger and fallen face",
+          "note": "The commentary connects anger with a scowling face; God asks Cain why he is angry and why his face has fallen, an unusually close bodily scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.4.7",
+          "basis": "anger at the door and choice",
+          "note": "The commentary makes the angry face part of a moral division; God tells Cain that sin crouches at the door and that he must rule over it, turning the fallen-face scene toward a choice of conduct."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Targum Onkelos on Genesis 4:7",
+          "basis": "fallen face read through forgiveness",
+          "note": "The commentary contrasts an angry, fallen face with favor; Onkelos interprets God's answer to Cain in terms of forgiveness if he does well, making the face scene a question of repentance and restored standing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.15.30",
+          "basis": "light of eyes refreshes the heart",
+          "note": "The commentary says favor cools and settles the eye; Proverbs says light to the eyes gladdens the heart and good news refreshes the bones, a specific bodily image of restored well-being."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.8.1",
+          "basis": "wisdom changes a stern face",
+          "note": "The commentary describes anger as a scowling face and favor as softness; Ecclesiastes says wisdom brightens a person's face and changes its severity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.15",
+          "basis": "bright royal face and rain",
+          "note": "The commentary contrasts the face marked by wrath with the softened face of favor; Proverbs says a king's bright face means life and his favor is like a spring rain cloud."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.19.12",
+          "basis": "wrath and favor as bodily weather",
+          "note": "The commentary's contrast is between anger's harsh face and bestowed good; Proverbs compares a king's anger to a lion's growl and his favor to dew on grass."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.54.8",
+          "basis": "anger-hidden face and lasting compassion",
+          "note": "The commentary contrasts wrath with favor and reads both on the face; Isaiah describes a moment of anger in which God hid his face, set against enduring compassion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.6",
+          "basis": "two ways and their ends",
+          "note": "The commentary ends with two groups on different paths; this psalm contrasts the way of the righteous, watched by the Lord, with the way of the wicked, which perishes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.15",
+          "basis": "life and death set before Israel",
+          "note": "The commentary distinguishes two groups by the path they take; Moses sets life and good against death and evil before Israel, framing the division as a consequential choice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.19",
+          "basis": "choose life for descendants",
+          "note": "The commentary presents a path shared by those receiving favor; Moses calls heaven and earth as witnesses and urges Israel to choose life, including life for their descendants."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.18",
+          "basis": "righteous path as growing light",
+          "note": "The commentary sets the path of the favored against those who go astray; Proverbs depicts the righteous path growing brighter while the next verse gives the wicked's way as darkness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.19",
+          "basis": "wicked way as darkness",
+          "note": "The commentary's two groups take divergent paths; Proverbs says the way of the wicked is darkness and that they do not know what makes them stumble."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.3",
+          "basis": "guided paths and goodness following",
+          "note": "The commentary calls the way of the favored a path walked together; the psalm's shepherd restores the speaker and leads him in paths of righteousness, with goodness and mercy following."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.9",
+          "basis": "humble people taught the way",
+          "note": "The commentary asks for guidance onto the straight path; this psalm says God guides the humble in justice and teaches them his way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.90.17",
+          "basis": "Hebrew נֹעַם upon the people",
+          "note": "The commentary's ن ع م family includes favor and softness; the psalm asks that the Lord's נֹעַם be upon the people and their work, a Hebrew cognate used for divine favor or pleasantness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.3.17",
+          "basis": "Hebrew נעם and peaceful paths",
+          "note": "The commentary links the ن ع م family with good and praise; Proverbs uses Hebrew נעם for wisdom's pleasant ways and says all her paths are peace, joining the cognate to a favored way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.133.1",
+          "basis": "Hebrew נעם in shared dwelling",
+          "note": "The commentary describes the blessed as companions on one path; the psalm calls brothers dwelling together good and נעם, using a Hebrew cognate for the pleasant quality of fellowship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.30.20",
+          "basis": "love, clinging, and long life",
+          "note": "The commentary describes the favored as walking a path together; Moses urges Israel to love God, cling to him, and live, tying fidelity to a continuing way of life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.2",
+          "basis": "two outcomes at awakening",
+          "note": "The commentary places two groups under the judgment of the day; Daniel describes some awakening to everlasting life and others to shame and everlasting contempt."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.3",
+          "basis": "righteous shine like stars",
+          "note": "The commentary says the day's outcome appears on faces; Daniel says the wise and those who lead many to righteousness will shine like the brightness of the sky and stars."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.18",
+          "basis": "distinction between righteous and wicked",
+          "note": "The commentary divides the guided from those under wrath; Malachi says the day will make the distinction between the righteous who serve God and the wicked who do not."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.19",
+          "basis": "day as burning judgment",
+          "note": "The commentary calls the day the bearer of wrath and recompense; Malachi describes the coming day as an oven that consumes the arrogant and evildoers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.20",
+          "basis": "healing sun for those who fear God",
+          "note": "The commentary contrasts a wrath-marked face with a softened, favored one; Malachi sets the coming day against a sun of righteousness with healing for those who fear God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.5.18",
+          "basis": "expected day reversed as darkness",
+          "note": "The commentary says the day carries both wrath and deliverance; Amos warns those expecting the Lord's day that it will be darkness rather than light, a direct reversal of presumed favor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zeph.1.15",
+          "basis": "day of wrath and distress",
+          "note": "The commentary identifies the day as carrying wrath; Zephaniah calls the Lord's day a day of wrath, distress, ruin, darkness, and gloom."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.14",
+          "basis": "deeds brought to judgment",
+          "note": "The commentary makes the day the time when the two outcomes are borne; Ecclesiastes says God will bring every deed, including what is hidden, into judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.34.6",
+          "basis": "merciful and slow to anger",
+          "note": "The commentary sets wrath against favor; after the calf episode God proclaims himself compassionate and slow to anger, framing the same episode with mercy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.34.7",
+          "basis": "forgiving and judging wrongdoing",
+          "note": "The commentary holds forgiveness beside the wrath that falls on others; the covenant proclamation says God forgives iniquity while also addressing wrongdoing, refusing to collapse mercy into impunity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Num.14.18",
+          "basis": "Moses repeats the mercy formula",
+          "note": "The commentary pairs divine wrath with the possibility of forgiveness; after Israel refuses to enter the land, Moses appeals to God's patience and forgiveness using the attributes revealed after the calf."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Num.14.20",
+          "basis": "forgiveness after rebellion",
+          "note": "The commentary contrasts the one upon whom wrath falls with those forgiven; after Moses' plea over Israel's rebellion, God answers that he has forgiven according to Moses' word."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.8",
+          "basis": "anger slow, mercy abundant",
+          "note": "The commentary pairs wrath with favor; the psalm describes God as compassionate, slow to anger, and abundant in steadfast love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.9",
+          "basis": "anger does not last forever",
+          "note": "The commentary contrasts wrath with pardon; the psalm says God will not always accuse or keep anger forever."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.4.2",
+          "basis": "slow anger toward a spared city",
+          "note": "The commentary says some receive wrath while others are forgiven; Jonah objects that God is gracious and slow to anger after Nineveh is spared, making mercy to an outside city the point of his complaint."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.4.11",
+          "basis": "compassion for Nineveh's inhabitants",
+          "note": "The commentary says others are forgiven rather than struck by wrath; God answers Jonah by naming the many people in Nineveh for whom he has compassion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezra.9.8",
+          "basis": "favor that brightens eyes",
+          "note": "The commentary says favor softens and cools the eye; Ezra describes a brief gift of divine favor that brightens the community's eyes and revives them in captivity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 28:2",
+          "basis": "forgive a neighbor and be forgiven",
+          "note": "The commentary opposes wrath to favor and pardon; Sirach says a person who forgives a neighbor's wrong can seek forgiveness for their own sins, linking restraint of anger with receiving mercy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 28:5",
+          "basis": "remember death and cease enmity",
+          "note": "The commentary makes wrath a consequential state; Sirach asks the angry person to remember death and the commandments, then relinquish enmity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Rosh Hashanah 17b",
+          "basis": "Moses' mercy liturgy after sin",
+          "note": "The commentary sets wrath and forgiveness together in the calf story; this rabbinic reading of God's revelation to Moses makes reciting the mercy attributes a liturgical route to forgiveness after Israel sins."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "b. Berakhot 7a",
+          "basis": "mercy restrains anger",
+          "note": "The commentary contrasts divine favor with wrath; this Talmudic prayer asks that God's mercy prevail over his anger, giving the contrast a Jewish devotional formulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1QS 3:18-4:26",
+          "basis": "two spirits, paths, and outcomes",
+          "note": "The commentary distinguishes two groups by the path they follow; the Community Rule describes opposing spirits that direct human conduct and lead to different outcomes at God's visitation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1QS 4:15-18",
+          "basis": "light, peace, and life of truth",
+          "note": "The commentary's favored group walks a guided way and bears a softened face; the Community Rule associates the spirit of truth with enlightenment, peace, and life, giving a Jewish sectarian account of the favorable path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.34",
+          "basis": "invitation to the Father's blessed",
+          "note": "The commentary distinguishes those receiving favor from those under wrath at the day; the Son of Man invites those at his right hand as blessed by the Father into the prepared kingdom."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.41",
+          "basis": "cursed ones depart from the judge",
+          "note": "The commentary uses a passive label for those upon whom wrath has fallen; here the king explicitly addresses the cursed and sends them away, making the judge's agency overt."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.46",
+          "basis": "two final destinies",
+          "note": "The commentary's day carries two opposite outcomes; Matthew closes the judgment scene with punishment for one group and eternal life for the other."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.3.36",
+          "basis": "wrath remains upon the disobedient",
+          "note": "The commentary's phrase describes people with wrath upon them; John says God's wrath remains on the one who disobeys the Son, alongside the alternative of eternal life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.5",
+          "basis": "day of wrath and judgment",
+          "note": "The commentary names the day that bears wrath and recompense; Paul calls it a day of wrath and the revelation of God's righteous judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.7",
+          "basis": "glory, honor, and life for the patient",
+          "note": "The commentary contrasts wrath with the outcome of the guided; Paul sets eternal life and glory for those who persevere in doing good against the day of judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.8",
+          "basis": "wrath for those who reject truth",
+          "note": "The commentary distinguishes the wrath-struck from the guided; Paul describes wrath and fury for those who reject truth and follow unrighteousness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.10",
+          "basis": "glory, honor, and peace",
+          "note": "The commentary sets two groups under judgment; Paul names glory, honor, and peace for everyone who does good, Jew first and Greek as well."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.9.22",
+          "basis": "vessels of wrath and patience",
+          "note": "The commentary contrasts a granted blessing with wrath falling on another group; Paul speaks of vessels of wrath and God's patience toward them, a close but not identical account of agency and judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.9.23",
+          "basis": "vessels of mercy prepared for glory",
+          "note": "The commentary contrasts the wrath-struck with those granted favor; Paul pairs vessels of wrath with vessels of mercy prepared for glory, making the two-group contrast explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Cor.10.6",
+          "basis": "wilderness events as examples",
+          "note": "The commentary reads Israel's food and transgression as a warning; Paul tells the church that these events became examples so they would not desire evil as Israel did."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Cor.10.10",
+          "basis": "grumbling and the destroyer",
+          "note": "The commentary connects Israel's rebellion with wrath; Paul warns the congregation not to grumble as the wilderness generation did, whose people were destroyed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Cor.10.11",
+          "basis": "Israel's story written for later readers",
+          "note": "The commentary uses Israel's provision and punishment to frame the path of the present reader; Paul explicitly says these events were written as instruction for those upon whom the ends of the ages have come."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.41",
+          "basis": "Stephen retells the calf",
+          "note": "The commentary recalls the calf and Moses' anger; Stephen recounts Israel making the calf and offering sacrifice to the work of their hands."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Acts.7.42",
+          "basis": "God turns from persistent worship",
+          "note": "The commentary links the calf with divine wrath; Stephen interprets Israel's idolatry as the point at which God turned away and gave them over to heavenly worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.10",
+          "basis": "straying heart and unknown ways",
+          "note": "The commentary ends with those who lose the path and those guided; Hebrews quotes God's complaint that the wilderness generation always goes astray in heart and has not known his ways."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.17",
+          "basis": "God's anger with the wilderness generation",
+          "note": "The commentary says wrath comes upon a group after rebellion; Hebrews asks with whom God was angry for forty years and answers with those who sinned."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.18",
+          "basis": "exclusion from rest",
+          "note": "The commentary ties the day and the path to each group's end; Hebrews says the disobedient were barred by oath from entering God's rest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.19",
+          "basis": "unbelief blocks entry",
+          "note": "The commentary's lost group does not reach the guided path's end; Hebrews concludes that the wilderness generation could not enter because of unbelief."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.78",
+          "basis": "mercy as dawn from above",
+          "note": "The commentary describes favor as softening the face and lighting its surface; Zechariah's song says God's mercy brings a dawn from on high to visit the people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.79",
+          "basis": "light guides feet into peace's way",
+          "note": "The commentary joins visible favor to a shared path; Zechariah says the dawn shines on those in darkness and guides their feet into the way of peace."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.43",
+          "basis": "righteous shine at the end",
+          "note": "The commentary contrasts the faces of two groups on the day; Jesus says the righteous will shine like the sun in their Father's kingdom after the wicked are removed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.6.16",
+          "basis": "faces hidden from the enthroned one",
+          "note": "The commentary reads the face as bearing the mark of wrath; Revelation's rulers and people ask to be hidden from the face of the enthroned one and from the Lamb's anger."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.6.17",
+          "basis": "the great day of wrath",
+          "note": "The commentary calls the day the bearer of judgment; Revelation's terrified speakers ask who can stand when the great day of divine and Lamb's wrath has arrived."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.9",
+          "basis": "multitude before the throne",
+          "note": "The commentary describes the favored as a community on one path; Revelation shows an uncountable multitude from every nation standing together before the throne and the Lamb."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "the Lamb guides to living springs",
+          "note": "The commentary says the favored are guided on a path and their faces show the outcome; Revelation's Lamb shepherds the multitude, guides them to springs of living water, and wipes away every tear."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.39",
+          "basis": "faithful witnesses await the promise",
+          "note": "The commentary names prophets, truth-affirmers, martyrs, and the righteous as companions; Hebrews gathers faithful exemplars who were commended but had not yet received what was promised."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.40",
+          "basis": "faithful made complete together",
+          "note": "The commentary describes the favored as companions on one path; Hebrews says the earlier faithful are not made complete apart from the later community, extending the company across generations."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.1",
+          "basis": "cloud of witnesses and shared race",
+          "note": "The commentary calls the favored a group walking together; Hebrews pictures a cloud of witnesses surrounding the hearers as they run the race set before them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.3.18",
+          "basis": "faces transformed by glory",
+          "note": "The commentary says favor and judgment are visible on faces; Paul describes people with unveiled faces being transformed as they behold the Lord's glory."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.6",
+          "basis": "God's glory in Christ's face",
+          "note": "The commentary links blessing with a radiant face; Paul locates the knowledge of God's glory in the face of Jesus Christ."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 96,
+        "row": {
+          "line": 96,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.17",
+          "basis": "good gifts descend from above",
+          "note": "The commentary describes benefaction as coming upon the favored; James says every good and perfect gift comes down from above from the Father of lights."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 97,
+        "row": {
+          "line": 97,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.20",
+          "basis": "human anger does not make justice",
+          "note": "The commentary opposes wrath to favor and the straight way; James says human anger does not produce God's righteousness, an ethical warning about anger's outcome."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 98,
+        "row": {
+          "line": 98,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.15.13",
+          "basis": "joy alters the face",
+          "note": "The commentary says favor makes the face soft while anger makes it sullen; Proverbs says a glad heart makes the face cheerful, while sorrow breaks the spirit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 99,
+        "row": {
+          "line": 99,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.106.15",
+          "basis": "gift becomes affliction",
+          "note": "The commentary says provision can precede wrath; the psalm says God granted the people's request but sent a wasting disease with it, complicating the meaning of a bestowed gift."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 100,
+        "row": {
+          "line": 100,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.20",
+          "basis": "face hidden in anger",
+          "note": "The commentary contrasts the two outcomes as marks borne upon a group; Moses' song says God will hide his face from a faithless generation, making withdrawal of favor a visible relational judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 101,
+        "row": {
+          "line": 101,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.22",
+          "basis": "anger as consuming fire",
+          "note": "The commentary describes wrath as a bodily heat that descends; Moses' song pictures God's anger kindling a fire that reaches the depths and consumes the land."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 102,
+        "row": {
+          "line": 102,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.16.6",
+          "basis": "Hebrew נעם in a pleasant inheritance",
+          "note": "The commentary associates ن ع م with good and benefaction; the psalm calls the speaker's allotted inheritance pleasant, using Hebrew נעם for the quality of a received portion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 103,
+        "row": {
+          "line": 103,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.8",
+          "basis": "anger and wrath ruin the way",
+          "note": "The commentary divides people by the path they take; Proverbs-like instruction in this psalm says to abandon anger and wrath because they lead toward evil."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 104,
+        "row": {
+          "line": 104,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.15.1",
+          "basis": "softness turns wrath aside",
+          "note": "The commentary opposes a softened face to anger's scowl; Proverbs says a soft answer turns wrath away while a harsh word stirs it up."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 105,
+        "row": {
+          "line": 105,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.14.27",
+          "basis": "eyes brighten after food",
+          "note": "The commentary says benefaction cools the eye and recalls food given in the wilderness; Jonathan eats honey and his eyes brighten, a concrete bodily sign of refreshment after nourishment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 106,
+        "row": {
+          "line": 106,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.10",
+          "basis": "mercy withholds deserved punishment",
+          "note": "The commentary contrasts wrath with forgiveness; the psalm says God has not dealt with people according to their sins or repaid them according to their iniquities."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 107,
+        "row": {
+          "line": 107,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.4.9",
+          "basis": "Jonah's anger at a spared plant",
+          "note": "The commentary connects anger with a bodily state and with whether wrath falls; Jonah becomes angry over the plant, while God uses that response to challenge his anger at Nineveh's rescue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 108,
+        "row": {
+          "line": 108,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.17",
+          "basis": "slow anger after wilderness rebellion",
+          "note": "The commentary sets the wilderness provision beside wrath and pardon; Nehemiah's communal confession recalls Israel's rebellion and God's readiness to forgive, slow anger, and steadfast love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 109,
+        "row": {
+          "line": 109,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.28",
+          "basis": "wrath followed by rescue",
+          "note": "The commentary says some receive punishment and others forgiveness; Nehemiah recounts that when Israel again did evil, God handed them over and later rescued them when they cried out."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 110,
+        "row": {
+          "line": 110,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.105.43",
+          "basis": "joyful exit from Egypt",
+          "note": "The commentary starts the wrath scene by recalling Israel's rescue from an enemy; the psalm says God brought his people out with joy and singing, supplying the deliverance that precedes wilderness testing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 111,
+        "row": {
+          "line": 111,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Didache 1:1",
+          "basis": "the two ways of life and death",
+          "note": "The commentary closes by distinguishing groups through the path they follow; the Didache opens its teaching with the way of life and the way of death and their sharply different outcomes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 112,
+        "row": {
+          "line": 112,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Barnabas 18:1",
+          "basis": "two ways of light and darkness",
+          "note": "The commentary contrasts a guided way with a path of straying; Barnabas introduces two ways, one of light and one of darkness, extending that moral division in early Christian instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 113,
+        "row": {
+          "line": 113,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Barnabas 20:1",
+          "basis": "dark way and its deeds",
+          "note": "The commentary names a group defined by straying; Barnabas details the way of darkness through its destructive practices, making the wrong path concrete."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 114,
+        "row": {
+          "line": 114,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.7.38",
+          "basis": "weeping at Jesus' feet",
+          "note": "The commentary recalls favored people falling in worship and weeping; Luke depicts a woman weeping at Jesus' feet, wetting and wiping them, an embodied act of grief and devotion that Jesus receives in a forgiveness scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 115,
+        "row": {
+          "line": 115,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.5.7",
+          "basis": "prayer with cries and tears",
+          "note": "The commentary links the favored with prostration and weeping; Hebrews describes Jesus offering prayers and supplications with loud cries and tears, tying bodily humility to being heard."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 116,
+        "row": {
+          "line": 116,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.5.9",
+          "basis": "saved from wrath",
+          "note": "The commentary contrasts those upon whom wrath falls with the forgiven; Paul says those justified by Christ's blood will be saved from wrath through him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.32.11",
+          "basis": "Jacob fears Esau",
+          "note": "The commentary contrasts wrath with favor borne on a face; Jacob asks God to rescue him because he fears Esau, setting up the reversal in their meeting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.33.4",
+          "basis": "Esau welcomes Jacob",
+          "note": "The commentary sets a wrathful face against a softened one; Esau runs to Jacob, embraces and kisses him, then they weep, turning anticipated hostility into welcome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.33.10",
+          "basis": "Esau's face as God's face",
+          "note": "The commentary says favor is visible in the face; Jacob says Esau's favorable reception is like seeing God's face, making acceptance itself the face's mark."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.16.4",
+          "basis": "bread from heaven as a test",
+          "note": "The commentary recalls manna before warning Israel not to transgress over provision; Exodus says the bread from heaven also tests whether they will walk in God's instruction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.8.3",
+          "basis": "manna teaches dependence",
+          "note": "The commentary presents food as a gift that can be followed by judgment; Moses says hunger and manna taught Israel that life depends on God's word, giving the provision a lesson beyond nourishment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.34.29",
+          "basis": "Moses' face shines after the calf",
+          "note": "The commentary recalls Moses' anger at the calf and contrasts two faces; after the renewed covenant, Exodus says Moses' face shines from speaking with God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.78.39",
+          "basis": "mercy turns wrath aside",
+          "note": "The commentary places wilderness wrath beside forgiveness; this retelling says God remembered Israel's mortality and repeatedly turned away his anger instead of destroying them."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.80.5",
+          "basis": "anger against the people's prayer",
+          "note": "The commentary contrasts divine anger with favor; the community asks how long God will be angry at its prayer, making worship itself the setting of the wrath question."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.80.8",
+          "basis": "restoration through a shining face",
+          "note": "The commentary links the two outcomes to faces and says favor softens the face; the community asks God to restore them, make his face shine, and save them."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.99.8",
+          "basis": "forgiveness with accountability",
+          "note": "The commentary sets pardon beside wrath; the psalm says God answered Israel and forgave them while also dealing with their deeds, holding mercy and judgment together."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.106.45",
+          "basis": "covenant remembered after rebellion",
+          "note": "The commentary says some receive wrath while others are forgiven; after recounting Israel's rebellions, the psalm says God remembered the covenant and relented according to abundant mercy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Neh.9.15",
+          "basis": "bread, water, and promised land",
+          "note": "The commentary recalls Israel's rescue and wilderness provision before warning; Nehemiah's prayer recounts bread from heaven, water from rock, and the command to possess the land."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Neh.9.20",
+          "basis": "spirit guides while manna continues",
+          "note": "The commentary joins bestowed provision to a guided way; Nehemiah says God gave his good spirit to instruct Israel and did not withhold manna or water."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Neh.9.27",
+          "basis": "oppression, cry, and rescue",
+          "note": "The commentary contrasts wrath with forgiveness; Nehemiah recounts Israel handed to enemies, crying to God, and receiving rescuers, a cycle of punishment and renewed favor."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.3.10",
+          "basis": "judgment averted after repentance",
+          "note": "The commentary says the day may bring wrath or forgiveness; after Nineveh turns from evil, God sees its deeds and does not bring the announced disaster."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.7",
+          "basis": "leave the wicked way and receive pardon",
+          "note": "The commentary contrasts those on the guided path with those who stray and notes that others are forgiven; Isaiah tells the wicked to forsake their way and return to God, who pardons abundantly."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.6.16",
+          "basis": "the old path refused",
+          "note": "The commentary distinguishes a guided path from straying; Jeremiah asks the people to seek the good way and walk in it for rest, but they answer that they will not walk there."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.2.3",
+          "basis": "nations walk together in God's ways",
+          "note": "The commentary describes the favored as companions on a path; Isaiah pictures many nations going together to learn God's ways and walk in his paths."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.8",
+          "basis": "highway where travelers do not stray",
+          "note": "The commentary asks for guidance on the straight path; Isaiah promises a holy highway for the redeemed on which the unclean cannot pass and travelers will not lose their way."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.10",
+          "basis": "joyful return of the redeemed",
+          "note": "The commentary says the favored follow a path together; Isaiah's redeemed return to Zion singing, with lasting joy and grief fleeing away."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.16",
+          "basis": "the shepherd seeks the lost",
+          "note": "The commentary names those who stray and asks for guidance; Ezekiel's shepherd promises to seek the lost, bring back the straying, bind the injured, and strengthen the weak."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.32.9",
+          "basis": "instruction with God's eye",
+          "note": "The commentary joins the guided path to the eye's settled, favored state; the psalm promises instruction in the way to go and guidance with God's eye upon the learner."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.5",
+          "basis": "lead me in truth and teach me",
+          "note": "The commentary asks to be guided on the straight way; the psalm asks God to lead the speaker in truth and teach him, grounding the path in divine guidance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.6",
+          "basis": "paths of steadfast love",
+          "note": "The commentary describes a way belonging to those receiving favor; the psalm asks God to remember his mercy and steadfast love, which have marked his dealings from of old."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.143.9",
+          "basis": "a way to walk under divine love",
+          "note": "The commentary joins bestowed favor with guidance; the psalm asks God to make known the way in which the speaker should walk because he lifts his soul to God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.143.11",
+          "basis": "the good spirit leads to upright ground",
+          "note": "The commentary asks for guidance to the straight path; the psalm asks God's good spirit to lead the speaker into upright ground."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.21",
+          "basis": "a voice says which way to walk",
+          "note": "The commentary contrasts the guided with those who stray; Isaiah promises that the people will hear a voice directing them to the way whenever they turn aside."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.48.17",
+          "basis": "God teaches and leads",
+          "note": "The commentary treats the favored path as guidance from God; Isaiah names God as the one who teaches what benefits his people and leads them in the way they should go."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.105",
+          "basis": "word as lamp for feet",
+          "note": "The commentary asks for guidance on a straight path; the psalm calls God's word a lamp to the feet and light to the path, making guidance concrete."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.133",
+          "basis": "ordered steps and freedom from sin",
+          "note": "The commentary contrasts a guided course with straying; the psalm asks God to establish the speaker's steps by his word and not let wrongdoing rule him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.85.4",
+          "basis": "anger removed for restoration",
+          "note": "The commentary contrasts wrath with favor; this community prayer says God has taken away anger and turned from fierce wrath after restoring the land."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.85.8",
+          "basis": "mercy and salvation shown",
+          "note": "The commentary says others receive forgiveness instead of wrath; the psalm asks God to show steadfast love and grant salvation to the people."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.77.12",
+          "basis": "remembering God's deeds",
+          "note": "The commentary explains God's days as remembered acts of punishment and pardon; this psalm says the worshipper will remember the Lord's works and meditate on them."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.77.15",
+          "basis": "God's wonders among peoples",
+          "note": "The commentary calls for recalling God's acts across history; the psalm says God works wonders and makes his strength known among the peoples."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.77.21",
+          "basis": "God leads like a shepherd",
+          "note": "The commentary describes those guided together on a path; the psalm concludes its exodus recollection with God leading his people like a flock through Moses and Aaron."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.8",
+          "basis": "God's compassion turns within him",
+          "note": "The commentary contrasts wrath with the forgiveness of others; God asks how he can give Ephraim up and says his compassion is kindled within him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.9",
+          "basis": "anger withheld from Ephraim",
+          "note": "The commentary says wrath falls on some while others are spared; God says he will not execute fierce anger or destroy Ephraim, because he is God and not man."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.7.18",
+          "basis": "God does not retain anger",
+          "note": "The commentary puts forgiveness beside wrath; Micah praises a God who does not hold anger forever and delights in steadfast love."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.7.19",
+          "basis": "iniquity cast away",
+          "note": "The commentary says some receive forgiveness instead of wrath; Micah says God will again show compassion and cast the people's sins into the depths of the sea."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.3.2",
+          "basis": "mercy remembered in wrath",
+          "note": "The commentary says God's days include both punishment and pardon; Habakkuk asks God to remember mercy in the midst of wrath."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.12.1",
+          "basis": "anger turns into comfort",
+          "note": "The commentary contrasts divine wrath with favor; Isaiah's song says that although God was angry, his anger has turned away and he comforts the speaker."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lam.3.31",
+          "basis": "the Lord does not reject forever",
+          "note": "The commentary pairs wrath and forgiveness; Lamentations says the Lord does not cast off forever, even after bringing grief."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lam.3.32",
+          "basis": "compassion after grief",
+          "note": "The commentary says punishment and pardon are both among God's days; Lamentations says God will show compassion according to abundant steadfast love after causing grief."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lam.3.33",
+          "basis": "God does not afflict from his heart",
+          "note": "The commentary distinguishes wrath from bestowed favor; Lamentations says God does not willingly afflict or grieve human beings."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.7.10",
+          "basis": "court sits and books open",
+          "note": "The commentary names a day of recompense for two groups; Daniel's vision shows the court seated and the books opened before the beast is judged."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Zeph.1.15",
+          "basis": "Hebrew יום in the day of wrath",
+          "note": "The source commentary labels Arabic يَوْم and root ي و م, then explains ayyam Allah as days of punishment and pardon; Zephaniah uses the Hebrew cognate יום for the Lord's day of wrath and distress."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.135.3",
+          "basis": "Hebrew נעים in praise",
+          "note": "The source commentary labels ن ع م and says ni'me can be a word of praise; this psalm says to sing praise to God's name because it is נעים, pleasant, joining praise to a Hebrew cognate."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.147.1",
+          "basis": "Hebrew נעים makes praise pleasant",
+          "note": "The source commentary describes the ن ع م family as commendation and goodness; this psalm calls praise good and pleasant, using Hebrew נעים to characterize praise itself."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.16.24",
+          "basis": "Hebrew נעם words heal",
+          "note": "The source commentary gives softness and gentleness as a branch of ن ع م; Proverbs calls words of נעם sweet as honey and healing to the bones, a cognate used for soothing speech and bodily benefit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.27.5",
+          "basis": "Hebrew נעם as God's pleasantness",
+          "note": "The source commentary says favor makes the face soft; the psalm seeks to behold the Lord's נעם in his house, using a Hebrew cognate for divine pleasantness or favor."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Wisdom of Solomon 16:20",
+          "basis": "heavenly bread for Israel",
+          "note": "The commentary recalls manna as provision from God; Wisdom calls it food of angels and bread from heaven, giving the wilderness gift a Jewish sapiential interpretation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 16:21",
+          "basis": "the gift shows divine sweetness",
+          "note": "The commentary contrasts harsh wrath with the softening quality of favor; Wisdom says the manna displayed God's sweetness toward the children he loved."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 16:26",
+          "basis": "manna teaches God's word sustains",
+          "note": "The commentary presents provision as both gift and test; Wisdom says the manna taught Israel that crops do not sustain people by themselves, but God's word preserves those who trust him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.3.6",
+          "basis": "Hebrew חמד as desirable",
+          "note": "The source commentary labels Arabic ح م د and glosses hamd as praise or approval; Genesis uses the related Hebrew form for the tree as desirable to the eyes, showing a desire or attractiveness sense rather than the same act of praising."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.5.21",
+          "basis": "Hebrew חמד as coveting",
+          "note": "The source commentary labels Arabic ح م د and glosses hamd as approval; Deuteronomy uses the related Hebrew form for prohibited desire of a neighbor's property, a contrary ethical use that cautions against collapsing the senses."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.13",
+          "basis": "the broad road leads to destruction",
+          "note": "The commentary ends with a guided path opposed to those who stray; Jesus contrasts the broad road that leads to destruction and the many who enter it."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "the narrow path leads to life",
+          "note": "The commentary asks to be guided to the straight path; Jesus says the narrow gate and hard way lead to life and are found by few."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.13.28",
+          "basis": "prophets inside, others excluded",
+          "note": "The commentary names prophets among the favored and contrasts them with the lost; Jesus describes people seeing Abraham, Isaac, Jacob, and the prophets in God's kingdom while they themselves are cast out."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.13.29",
+          "basis": "gathered company at the kingdom table",
+          "note": "The commentary describes the favored as companions on a path; Jesus pictures people coming from every direction to recline together in God's kingdom."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:John.6.31",
+          "basis": "manna interpreted through bread from heaven",
+          "note": "The commentary recalls manna as a gift to Israel; Jesus' hearers cite the ancestors eating manna and receiving bread from heaven, opening a Christian dispute over who gives the true bread."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:John.6.32",
+          "basis": "the Father gives true bread",
+          "note": "The commentary says God bestowed wilderness food; Jesus corrects the claim that Moses gave the bread and identifies the Father as giver of the true bread from heaven."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:John.6.35",
+          "basis": "Jesus as bread of life",
+          "note": "The commentary recalls manna as provision; Jesus identifies himself as the bread of life and promises that the one coming to him will not hunger."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:John.6.49",
+          "basis": "manna did not prevent death",
+          "note": "The commentary places food beside the final day and its outcomes; Jesus says the ancestors ate manna in the wilderness and died, distinguishing provision from everlasting life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:John.6.50",
+          "basis": "bread from heaven and life",
+          "note": "The commentary connects bestowed favor with the guided path's end; Jesus says the bread from heaven can be eaten so that the eater will not die."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:John.6.51",
+          "basis": "living bread for the world's life",
+          "note": "The commentary recalls God's gift of food to Israel; Jesus calls himself living bread and says the bread he gives is for the life of the world."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Cor.10.1",
+          "basis": "cloud and sea in the exodus",
+          "note": "The commentary begins its wrath scene with Israel rescued from an enemy; Paul recalls that all Israel passed under the cloud and through the sea, reframing the rescue for the church."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Cor.10.2",
+          "basis": "baptized into Moses",
+          "note": "The commentary recalls Israel's deliverance under Moses; Paul interprets the cloud and sea crossing as a baptism into Moses."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Cor.10.3",
+          "basis": "spiritual food in the wilderness",
+          "note": "The commentary names manna as provision; Paul says all Israel ate the same spiritual food, reading the gift typologically."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Cor.10.4",
+          "basis": "spiritual drink from the rock",
+          "note": "The commentary recalls God's provision during the journey; Paul says Israel drank from a spiritual rock and identifies that rock with Christ."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.3",
+          "basis": "children of wrath",
+          "note": "The commentary's passive group is described as those upon whom wrath has fallen; Paul calls people by nature children of wrath, naming a condition before the following mercy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.4",
+          "basis": "God rich in mercy",
+          "note": "The commentary contrasts those under wrath with those who receive favor; Paul turns immediately to God's great mercy and love for people."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.5",
+          "basis": "made alive by grace",
+          "note": "The commentary sets wrath against the outcome of favor; Paul says people dead in trespasses are made alive with Christ by grace."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.5.8",
+          "basis": "once darkness, now light; walk as light",
+          "note": "The commentary joins the path to faces that shine or darken; Paul says the hearers were once darkness but are now light in the Lord and must walk as children of light."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.9",
+          "basis": "called from darkness to light",
+          "note": "The commentary names the favored as a gathered community on a path; Peter describes a chosen people called out of darkness into God's marvelous light."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.10",
+          "basis": "mercy makes a people",
+          "note": "The commentary says a group receives favor while another strays; Peter says those once not a people have become God's people and those without mercy have received mercy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Pet.3.12",
+          "basis": "the Lord's face against evil",
+          "note": "The commentary says the face carries the sign of wrath or favor; Peter says the Lord's eyes are on the righteous and his face is against those who do evil, applying the contrast to Christian conduct."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.15.4",
+          "basis": "the shepherd seeks the lost",
+          "note": "The commentary names those who stray and asks for guidance; Jesus depicts a shepherd going after one lost sheep until he finds it, turning the straying image into a search for restoration."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.15.7",
+          "basis": "joy when the lost repents",
+          "note": "The commentary says some receive forgiveness rather than wrath; Jesus says heaven rejoices over one sinner who repents, interpreting recovery of the lost as joy rather than rejection."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.4.5",
+          "basis": "praise given when the Lord comes",
+          "note": "The commentary glosses hamd as praise and approval and names the day of recompense; Paul says the Lord's coming reveals hidden motives and each person then receives praise from God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.29",
+          "basis": "praise from God, not people",
+          "note": "The commentary describes hamd as approval; Paul says the true inward Jew receives praise from God rather than from human beings."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.43",
+          "basis": "human approval preferred to God's",
+          "note": "The commentary asks whose judgment one approves and sets God's favor against anger; John says some loved human glory more than God's glory, explaining their refusal to confess Jesus."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.1.10",
+          "basis": "pleasing people or God",
+          "note": "The commentary connects praise with approval and divine pleasure; Paul asks whether he seeks human approval or God's and says pleasing people would make him no servant of Christ."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.5.9",
+          "basis": "aim to please the Lord",
+          "note": "The commentary opens the scene with divine pleasure and closes it with judgment; Paul says his aim is to please the Lord before describing the judgment seat in the next verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.5.10",
+          "basis": "each appears before the judgment seat",
+          "note": "The commentary names the day of recompense; Paul says all must appear before Christ's judgment seat and receive according to what they did."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.13",
+          "basis": "God works for his good pleasure",
+          "note": "The commentary says the favored gift is actively bestowed; Paul says God works within the community both to will and to work for his good pleasure."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.28",
+          "basis": "the dead hear and come out",
+          "note": "The commentary names the day of recompense for groups with different outcomes; Jesus speaks of the hour when all in the tombs hear his voice and come out."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.29",
+          "basis": "resurrection to life or judgment",
+          "note": "The commentary divides the judged into opposite destinations; Jesus says those who did good rise to life and those who did evil rise to judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.4",
+          "basis": "the day does not overtake children of light",
+          "note": "The commentary pairs the judgment day with faces that reveal each group's outcome; Paul says believers are not in darkness for the day to overtake them like a thief."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.5",
+          "basis": "children of day and light",
+          "note": "The commentary divides the guided from the straying; Paul calls the community children of light and children of day, not of night or darkness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.1.7",
+          "basis": "relief for the afflicted at revelation",
+          "note": "The commentary sets wrath against the reward of the guided; Paul says the afflicted will receive relief when Jesus is revealed from heaven."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.1.8",
+          "basis": "punishment at the Lord's revelation",
+          "note": "The commentary names wrath coming upon a group; Paul describes punishment for those who do not know God and do not obey the gospel when the Lord is revealed."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.1.10",
+          "basis": "glory among the saints",
+          "note": "The commentary names prophets, martyrs, and the righteous as companions; Paul says Christ comes to be glorified among his saints and marveled at by those who believed."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.23",
+          "basis": "assembly of the righteous in heaven",
+          "note": "The commentary lists prophets, truth-affirmers, martyrs, and righteous companions; Hebrews describes the assembly of the firstborn and the spirits of righteous people made complete."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.13",
+          "basis": "blessed dead whose deeds follow them",
+          "note": "The commentary names martyrs among those receiving favor; Revelation calls the dead who die in the Lord blessed, says they rest from toil, and says their deeds follow them."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.4",
+          "basis": "martyrs share judgment and reign",
+          "note": "The commentary includes martyrs among the favored companions; Revelation pictures those slain for their testimony seated on thrones, given judgment, and reigning with Christ."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 96,
+        "row": {
+          "line": 96,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.12",
+          "basis": "books opened for the dead",
+          "note": "The commentary names the day of recompense; Revelation depicts the dead standing before the throne while books are opened and they are judged by their deeds."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 97,
+        "row": {
+          "line": 97,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.15",
+          "basis": "book of life and the opposite end",
+          "note": "The commentary divides groups by their final outcome; Revelation says those not found in the book of life are thrown into the lake of fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 98,
+        "row": {
+          "line": 98,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.3",
+          "basis": "no more curse",
+          "note": "The commentary contrasts wrath with favor and the guided with the lost; Revelation's final city has no more curse, and God's servants worship there."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 99,
+        "row": {
+          "line": 99,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.4",
+          "basis": "see God's face",
+          "note": "The commentary says faces display the outcome of judgment; Revelation describes the servants seeing God's face and bearing his name on their foreheads."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 100,
+        "row": {
+          "line": 100,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.15",
+          "basis": "shining lights among a crooked generation",
+          "note": "The commentary contrasts the favored path with those who stray and says faces may shine; Paul calls believers blameless children of God who shine like lights in a crooked generation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 101,
+        "row": {
+          "line": 101,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.1.12",
+          "basis": "share the inheritance of the saints in light",
+          "note": "The commentary names prophets and righteous among the favored; Paul gives thanks that believers are qualified to share the inheritance of the saints in light."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 102,
+        "row": {
+          "line": 102,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.1.13",
+          "basis": "transferred from darkness into the Son's kingdom",
+          "note": "The commentary contrasts the guided with those who stray; Paul says God rescued people from darkness and transferred them into the kingdom of his beloved Son, where there is redemption and forgiveness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 103,
+        "row": {
+          "line": 103,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.1.6",
+          "basis": "walking in darkness denies fellowship",
+          "note": "The commentary distinguishes a guided way from straying; John says claiming fellowship while walking in darkness is falsehood."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 104,
+        "row": {
+          "line": 104,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.1.7",
+          "basis": "walking in light brings cleansing",
+          "note": "The commentary connects the favored way with a visible sign of well-being; John says walking in the light brings fellowship and cleansing from sin."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 105,
+        "row": {
+          "line": 105,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 4:1",
+          "basis": "might as mastery of impulse",
+          "note": "The commentary describes anger as boiling blood and desire for revenge; Avot defines the mighty person as one who conquers his own inclination, redirecting strength toward self-command."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 106,
+        "row": {
+          "line": 106,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 5:11",
+          "basis": "anger measured by capacity to reconcile",
+          "note": "The commentary sets anger against pleasure and describes its bodily face; Avot distinguishes temperaments by how readily a person becomes angry and how readily they are appeased."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 107,
+        "row": {
+          "line": 107,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "b. Shabbat 105b",
+          "basis": "anger enacted through destructive acts",
+          "note": "The commentary describes anger as an inward heat with outward bodily signs; the Talmud warns against tearing clothes, breaking vessels, or scattering money in anger, treating those acts as a dangerous loss of moral control."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 108,
+        "row": {
+          "line": 108,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "b. Yoma 85b",
+          "basis": "neighbor's grievance before atonement",
+          "note": "The commentary juxtaposes wrath, pardon, and the way one should follow; this teaching says atonement for wrongs against another person requires first appeasing the injured neighbor."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 109,
+        "row": {
+          "line": 109,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Shabbat 88a",
+          "basis": "crowns removed after the calf",
+          "note": "The commentary recalls a bestowed gift followed by wrath after the calf; this rabbinic account says Israel's crowns from Sinai were removed after the calf, interpreting rebellion as loss of received honor."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 110,
+        "row": {
+          "line": 110,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.11",
+          "basis": "divine pleasure toward those who hope in love",
+          "note": "The source commentary frames wrath opposite divine pleasure; the psalm says the Lord takes pleasure in those who fear him and hope in his steadfast love, a positive community receiving favor."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 111,
+        "row": {
+          "line": 111,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.149.4",
+          "basis": "favor toward the humble",
+          "note": "The source commentary contrasts divine wrath with divine pleasure; the psalm says the Lord takes pleasure in his people and adorns the humble with salvation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 112,
+        "row": {
+          "line": 112,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.6.16",
+          "basis": "a face can be deliberately disfigured",
+          "note": "The commentary reads faces as signs of inward outcomes; Jesus warns that hypocrites disfigure their faces to display fasting, showing that a visible religious face can be staged for human notice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 113,
+        "row": {
+          "line": 113,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.17",
+          "basis": "wash your face in secret",
+          "note": "The commentary gives the face a role in visible favor or wrath; Jesus tells the fasting person to wash and anoint the face so devotion is not performed for human observers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 114,
+        "row": {
+          "line": 114,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.18",
+          "basis": "the Father sees hidden devotion",
+          "note": "The commentary says faces carry a visible mark of judgment; Jesus contrasts public appearance with the Father who sees what is hidden and rewards accordingly."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 115,
+        "row": {
+          "line": 115,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.6",
+          "basis": "faith pleases God",
+          "note": "The commentary sets divine pleasure against wrath; Hebrews says faith is necessary to please God and that those who approach him must trust that he rewards those who seek him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 116,
+        "row": {
+          "line": 116,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.11",
+          "basis": "divine pleasure toward those who hope in love",
+          "note": "The commentary frames wrath opposite divine pleasure; the psalm says the Lord takes pleasure in those who fear him and hope in his steadfast love."
+        }
+      }
+    ],
+    "proposal_file": "followup.accepted.tsv",
+    "proposal_sha256": "2f1819dede3d832620afc8209322017fe6c4391fbfd910933e22f0d7eaf404db",
+    "followup_sha256": "a595eab0e023d8a9907c27b4064a034651890095908f4d38bb63776b8fa0906d"
+  },
+  "consolidation_error": null,
+  "list_sha256": "0fa0643bbe3c04ca1b2aa20297f67bc4d22264715ce7f1f91e63303d6cc05547",
+  "followup_delivery": [
+    {
+      "call_id": "call_bdc1a4a097654dd5a36cd01f9e956fa2",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 1277437,
+    "cached_input_tokens": 1164544,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96353,
+    "reasoning_output_tokens": 73359,
+    "total_tokens": 1373790
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:41:15.835Z",
+  "artifacts": {
+    "started.json": "376599fd9d5080f1f1ff40b6cd19e00bfac47e808015e47e5f801ff42c7ea00d",
+    "input.json": "11d1affe33ee433bc9fc83a3de52cb6ca029837d10b0b4eb1543107cf28f94fe",
+    "prompt.md": "c8c9285d7846bc14f016e686d22ca0f4ccc8f9cb0b6ef84b7d0f776b2de5e1ed",
+    "package.md": "3a743032f108cef2b42f261a7922f367f9128dd7ac6e57ced85c0b1729c5685f",
+    "spawn.md": "98ed59af56b59c0e7901c98d9ce76b5489bd2bfb3b9255021f9694a40b5ec9fd",
+    "followup.txt": "2379451f9fa796d6732277b9402456029238c35f10caba4f95de7163ec9f0645",
+    "turn1.json": "e3708c0c5d809b5dee7fd3b20330e3542270527c8537be70e4a10c63a44b88fb",
+    "turn1.list.tsv": "81e118ef9ffed0840ae8068c7f3931b517c41680733a994540d89fd051d4ee98",
+    "followup.tsv": "a595eab0e023d8a9907c27b4064a034651890095908f4d38bb63776b8fa0906d",
+    "list.tsv": "0fa0643bbe3c04ca1b2aa20297f67bc4d22264715ce7f1f91e63303d6cc05547",
+    "consolidation.json": "ef5bf8b2f37fa28e0580693d16bdec19821bc72556b7cc464e5063f281c7b536",
+    "validation.json": "966bd0106c084f2c1222afb83587ab1a9d637f0ac4e271d95828a9ecaa256887",
+    "proposal_validation.json": "3dfc1dbae2a320fee364b3827aa0e66374847aa53e8524a457390df8aa9a529d",
+    "tool_calls.json": "01c76ce62b11cc43e19ee12b17dfe59bbe6b6569fcdec00b37df4a3dd16a84df",
+    "session.json": "b0f9f2ebea609dae9b9fd6b4ef6ab2b95717c9f74033cbfbb11fed72f844d173",
+    "session.events.jsonl": "0df99cb63a8a1bc23d317ffb2d34ad0ad9c0bf70fee085668ccf40b087aaa7b4",
+    "run.failed.log.json": "59e15f94cc8c3fe71c77f523f1f93687ab02db58447f928101853fd97b5b3970",
+    "validation.failed.json": "26e1ee044ecd9d86b7a526674eb4f6a24c7daa433df4c7f0d36430ded0df5f10",
+    "repair.proposed.json": "ad806eb9964e5e92ebcd0d81bf8d79c46128d016d340310ae9e5406bdfa207c9",
+    "followup.repair.proposed.tsv": "2f1819dede3d832620afc8209322017fe6c4391fbfd910933e22f0d7eaf404db",
+    "followup.accepted.tsv": "2f1819dede3d832620afc8209322017fe6c4391fbfd910933e22f0d7eaf404db",
+    "repair.accepted.json": "4e7c9d863f8b86be8ab7fccb1b9defe60cb4c8eca67d20adfa91491792ccf035"
+  },
+  "repair": {
+    "approval": "2026-10-05 user reply: Apply all 15 recorded follow-up corrections. Exact bundle: enrichment/bible/audits/pilot1-20261005/followup-repairs.proposed.json",
+    "accepted_at": "2026-10-05T16:04:05.332298+00:00",
+    "changes": [
+      {
+        "line": 116,
+        "before": [
+          "medium",
+          "incil",
+          "motif",
+          "WLC:Ps.147.11",
+          "divine pleasure toward those who hope in love",
+          "The commentary frames wrath opposite divine pleasure; the psalm says the Lord takes pleasure in those who fear him and hope in his steadfast love."
+        ],
+        "after": [
+          "medium",
+          "tevrat",
+          "motif",
+          "WLC:Ps.147.11",
+          "divine pleasure toward those who hope in love",
+          "The commentary frames wrath opposite divine pleasure; the psalm says the Lord takes pleasure in those who fear him and hope in his steadfast love."
+        ],
+        "reason": "The unchanged WLC Psalms witness belongs to the Hebrew Bible. Correct only the mistaken incil tradition label to tevrat; preserve kind, grade, reference, basis and explanation."
+      }
+    ],
+    "raw_sha256": "a595eab0e023d8a9907c27b4064a034651890095908f4d38bb63776b8fa0906d",
+    "accepted_sha256": "2f1819dede3d832620afc8209322017fe6c4391fbfd910933e22f0d7eaf404db",
+    "proposal_sha256": "ad806eb9964e5e92ebcd0d81bf8d79c46128d016d340310ae9e5406bdfa207c9",
+    "failed_log_sha256": "59e15f94cc8c3fe71c77f523f1f93687ab02db58447f928101853fd97b5b3970",
+    "model_calls": 0,
+    "policy": "Raw proposals, failed validation and failed log preserved; no regrading.",
+    "allow_witness_tradition": true
+  }
+}

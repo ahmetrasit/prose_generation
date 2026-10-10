@@ -1,0 +1,47 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec3/terra/followup.tsv",
+  "rows": 39,
+  "unique_references": 39,
+  "schema_errors": [],
+  "duplicates": [],
+  "strengths": {
+    "strong": 29,
+    "medium": 10
+  },
+  "findings": [
+    {
+      "line": 10,
+      "ref": "Mishnah Sotah 1:7",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 23,
+      "ref": "1 Enoch 62:3",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 33,
+      "ref": "SBLGNT:Jas.5.4",
+      "raw_ref": "SBLGNT:James.5.4",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    },
+    {
+      "line": 38,
+      "ref": "Testament of Abraham, Recension A, 12–13",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 39,
+      "ref": "Targum Pseudo-Jonathan on Gen.4.10",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

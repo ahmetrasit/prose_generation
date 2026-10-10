@@ -1,0 +1,1862 @@
+{
+  "target": "sec2",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:02:53.577162-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec2_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "5979134dc110b455a8d466dca9b254467c355f97a987727adce6b573cef1e5cd",
+  "package_sha256": "f3de1e740031b9eb9321d16535b4cb05773460759a1d225ef93acb0d4bbd720e",
+  "input_sha256": "90d0c3e8ee5804ee6da9cd88ff05f891c9997a5e2edd8938e8b64b13fc6cb3a1",
+  "spawn_sha256": "b51e8a1b8cc13dbb27d1b27a8a68ea6469db1083f10de1de3894b7564fea23a3",
+  "followup_text_sha256": "09bc1e837dae096482a24907b2dc7f54b1008b2d6e62db330a9e3801701a43e5",
+  "agent_id": "01a10c97-87ea-7590-a636-1f92f03ca15f",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-03-39-01a10c97-87ea-7590-a636-1f92f03ca15f.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 94,
+  "turn1_sha256": "768c8f7c930a9d227a394322259cb98c94ab28d884b2f19e0eed1e59438d663e",
+  "turn2": {
+    "completed": true,
+    "rows_total": 136,
+    "rows_added": 42
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 94,
+    "raw_proposal_rows": 42,
+    "unique_additions": 42,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.24.10",
+          "basis": "master, servant, camels, goods in hand",
+          "note": "Abraham's servant takes his master's camels, with “all the good things of his master” in his hand; the verse supplies a concrete owner-animal-servant tableau for the commentary's property and domestication image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.24.34",
+          "basis": "a servant speaks for his master",
+          "note": "The speaker identifies himself as Abraham's servant, a close narrative counterpart to the owned person speaking in the first person after the commentary's shift to “we worship you.”"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.24.35",
+          "basis": "master's livestock, servants, camels, donkeys",
+          "note": "The servant lists his master's wealth as animals, male and female servants, and camels and donkeys, making the commentary's linked possessions socially concrete."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.39.4",
+          "basis": "Joseph, Egyptian master, house, all in hand",
+          "note": "Joseph serves the Egyptian official, is set over his house, and receives everything the master owns into his hand; this is the biblical Joseph-household setting behind the commentary's human rab/master scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.39.7",
+          "basis": "master's wife commands Joseph",
+          "note": "The Egyptian master's wife orders Joseph to lie with her, the immediate biblical scene corresponding to the commentary's Joseph speaking to the woman in his Egyptian master's house."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.39.8",
+          "basis": "my master, house, withheld possession",
+          "note": "Joseph calls the Egyptian “my master” and describes his control over the house and its goods, giving a precise human-master use alongside the commentary's discussion of rabbi as an owner."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.1.13",
+          "basis": "Arabic ع ب د (source labels B001-B006), Hebrew עבד",
+          "note": "Egyptians force Israelites into harsh service; the Hebrew verb is from עבד, a genuine cognate of the commentary's Arabic ع ب د, and its context preserves the coerced labor side of the root."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.15.14",
+          "basis": "enslaved people and divine judgment",
+          "note": "God says that the nation whom Abraham's descendants serve will be judged; it joins Israel's forced service to judgment, the two poles carried by the commentary's slave language and Day of dīn."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.4.23",
+          "basis": "release my son to serve me",
+          "note": "God tells Pharaoh to release Israel, called God's son, “that he may serve me”; Hebrew תעבדני shares the ʿbd root with naʿbudu and turns release from Pharaoh into service of God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Lev.25.42",
+          "basis": "Israel belongs to God, not sale as slaves",
+          "note": "Because Israelites are God's servants brought from Egypt, they may not be sold in a slave sale; it qualifies the owner-slave analogy by denying an Israelite human master an absolute claim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Lev.25.43",
+          "basis": "do not rule ruthlessly over a servant",
+          "note": "The law prohibits ruthless rule over an impoverished Israelite servant and requires fear of God, placing a divine limit on the domination developed in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Lev.25.55",
+          "basis": "“My servants” and deliverance from Egypt",
+          "note": "God twice calls Israelites “my servants”; the verse makes divine ownership the reason they are not ultimately servants of human owners."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Lev.25.46",
+          "basis": "slaves as inherited possession",
+          "note": "The law permits inherited, permanent possession of foreign slaves, a stark legal counterpart to the commentary's technical treatment of a mamlūk as property."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.21.21",
+          "basis": "slave described as master's money",
+          "note": "The assault law calls the slave the master's “money”; it directly witnesses the property vocabulary that the commentary places inside the master-slave relation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Job.31.15",
+          "basis": "one creator of master and servant",
+          "note": "Job grounds a servant's right to a hearing in the fact that the same maker formed both master and servant in the womb; it answers creation-based ownership with creation-based equality."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.3",
+          "basis": "ox knows owner, donkey its master's manger",
+          "note": "The ox recognizes its owner and the donkey its master's feeding-place, while Israel does not know; animal ownership becomes a rebuke about recognizing and obeying the divine master."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.10.11",
+          "basis": "trained heifer, fair neck, yoke",
+          "note": "Hosea depicts Ephraim as a trained heifer whose neck will be yoked for plowing, a close animal image for the commentary's domestication, submission, and forced labor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.39.9",
+          "basis": "wild ox refuses service and manger",
+          "note": "God asks whether the wild ox will consent to serve a human or lodge by the manger; its refusal marks the limit of human animal mastery that the commentary depicts as divinely granted."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.28",
+          "basis": "human dominion over living creatures",
+          "note": "The creation command tells humankind to subdue the earth and rule the animals, providing a creation account of the animal authority and use developed through the tamed camel and livestock."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.9.2",
+          "basis": "animals placed into human hand",
+          "note": "After the flood, every animal is given into human hands; the phrase makes ownership/control of creatures a concrete parallel to the commentary's hand-held property and subdued animals."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 33:24",
+          "basis": "donkey's burden and slave's work",
+          "note": "Greek Sirach pairs fodder, stick, and burdens for a donkey with bread, discipline, and work for a slave, explicitly yoking animal taming and human subjection as the commentary does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.50.10",
+          "basis": "cattle belong to God",
+          "note": "God claims every forest animal and the cattle on a thousand hills; human possession of livestock is set within the creator's prior ownership."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.6",
+          "basis": "Father who made and acquired you",
+          "note": "The song calls God the Father who made, acquired, and established Israel, closely matching the commentary's claim that createdness establishes a prior divine belonging."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.43.1",
+          "basis": "created, formed, redeemed, “you are mine”",
+          "note": "The creator-former addresses Israel by name and says “you are mine,” an unusually direct biblical formulation of created persons as belonging to God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.21",
+          "basis": "formed servant",
+          "note": "Israel is told, “you are my servant; I formed you,” joining servanthood to divine formation in the same sequence the commentary makes explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.100.3",
+          "basis": "made by God, his people and flock",
+          "note": "WLC's ketiv reads that God made us “and not we [ourselves],” while its qere reads “and we are his”; the verse then calls the people his and the flock of his pasture, so both streams need to be kept distinct in this creation-and-belonging parallel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.18.4",
+          "basis": "all lives are God's",
+          "note": "God declares that every life, parent and child alike, is God's; the assertion broadens the commentary's ownership image from a household slave to all human persons."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.1.6",
+          "basis": "servant honors master, God as master",
+          "note": "Malachi argues from a servant's honor for a master to God's claim on Israel's honor, directly using household hierarchy to define proper reverence for God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.123.2",
+          "basis": "servants' eyes to master's hand",
+          "note": "The psalm compares Israel's eyes toward God to servants' eyes toward a master's hand and a maid's toward her mistress; it is an exact prayer-image of dependent, direct address."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.100.2",
+          "basis": "serve God with gladness",
+          "note": "The liturgical command to serve YHWH joyfully gives a cultic form of service that is more than inward feeling, while changing the commentary's stress on extreme abasement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.6.13",
+          "basis": "Arabic إله/الله (source label ء ل ه B001), Hebrew אלהיך",
+          "note": "The command to fear and serve “YHWH your God” uses Hebrew אלהיך from the same ʾ-l-h family as the commentary's ilāh/Allah label and directs exclusive service toward that God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.20.5",
+          "basis": "Arabic ع ب د (source labels B001-B006), Hebrew עבד",
+          "note": "The prohibition against bowing to or serving other gods uses Hebrew עבד; it gives the cognate root an explicit exclusive-worship setting rather than merely a lexical resemblance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.24.15",
+          "basis": "choose whom to serve; household service",
+          "note": "Joshua makes service a confessed choice—“as for me and my house, we will serve YHWH”—which closely parallels the commentary's movement from an existing status to the servant's own voiced assent."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.45.23",
+          "basis": "every knee bows to God",
+          "note": "God's oath that every knee will bend before him gives a universal biblical scene of bodily submission corresponding to the commentary's claim that all creatures finally come as servants."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.3",
+          "basis": "prepare and straighten God's highway",
+          "note": "The wilderness voice commands a way to be prepared and a highway made straight for God, the nearest biblical counterpart to the commentary's trodden, made-level road."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.4",
+          "basis": "valleys raised, mountains lowered, rough ground level",
+          "note": "The next verse specifies the leveling and smoothing of the road, adding the physical process of subduing terrain rather than only the abstract image of a path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Baruch 5:7",
+          "basis": "level ground for Israel's safe walking",
+          "note": "Baruch says God commands mountains lowered and valleys filled so Israel may walk safely on level ground, a Jewish expansion of Isaiah's road image into divinely prepared passage."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.3.5",
+          "basis": "leveling and smoothing the way",
+          "note": "Luke's Isaian quotation retains valleys filled, mountains lowered, and rough places made smooth; it carries the commentary's rendered-road image into the Gospel's preparation for God's coming."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.1.3",
+          "basis": "prepare the Lord's way, make paths straight",
+          "note": "Mark applies the wilderness-road summons to John's proclamation, making the straightened path a concrete Gospel preparation for the Lord rather than a bare travel image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Berakhot 2:2",
+          "basis": "yoke of heaven and commandments",
+          "note": "Rabbi Joshua ben Korha explains the order of the Shema as first accepting the yoke of the kingdom of heaven and then the yoke of commandments; this gives a Jewish liturgical reading of willingly assumed divine obedience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 1:3",
+          "basis": "servants serving without reward",
+          "note": "Antigonus instructs disciples to serve the master without serving for reward and to keep the fear of heaven; it probes how divine service can be freely offered rather than merely compelled."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Qiddushin 22b",
+          "basis": "ear piercing and servants of God",
+          "note": "The Talmud explains the permanently pierced Hebrew servant through the Sinai claim that Israel belongs to God, criticizing one who acquires a human master; it is a direct Jewish limit on human lordship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.3.7",
+          "basis": "all animal kinds are tamed",
+          "note": "James says every kind of beast, bird, reptile, and sea creature is tamed by humanity, a precise New Testament counterpart to the commentary's language of animal domestication."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.3.8",
+          "basis": "the tongue cannot be tamed",
+          "note": "The immediately following contrast says no human can tame the tongue; it gives the tamed-animal figure a moral reversal in which the human speaker remains resistant to mastery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.4.10",
+          "basis": "worship and serve God alone",
+          "note": "Jesus answers temptation with worship of and service to God alone, a direct Gospel formulation of the exclusive “you we worship” relation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.24",
+          "basis": "no one can serve two masters",
+          "note": "The maxim about serving God or Mammon makes divided mastership impossible, a close counterpart to the commentary's restriction on treating people or possessions as rival lords."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.6.46",
+          "basis": "calling Lord requires obedience",
+          "note": "Jesus asks why people call him “Lord, Lord” but do not do what he says; the verse explicitly joins the master's title to obedience, not to verbal address alone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.17.7",
+          "basis": "servant returns from plowing or shepherding",
+          "note": "Jesus' household example assumes a servant who comes in from field work and still prepares the master's meal, preserving the literal labor-and-master scene that underlies the commentary's slave image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.17.10",
+          "basis": "servants have done only their duty",
+          "note": "After doing all commanded, disciples are to call themselves servants who have only done their duty; it supplies a Christian idiom of obedience and lowly self-description."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Luke.12.37",
+          "basis": "master serves watchful servants",
+          "note": "The returning master dresses for service, seats his servants, and serves them; this deliberately reverses the commentary's one-way household hierarchy and its claim that the master does not lower himself."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.13.13",
+          "basis": "“Teacher and Lord”",
+          "note": "Jesus accepts the disciples' titles “Teacher” and “Lord,” giving the human speech of lordship in the commentary an explicit Gospel parallel before the following reversal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.13.14",
+          "basis": "Lord washes servants' feet",
+          "note": "The one called Lord and Teacher washes disciples' feet and makes it exemplary; the action directly counters the commentary's asymmetry in which humiliation belongs only to the servant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Mark.10.42",
+          "basis": "Gentile rulers lord it over others",
+          "note": "Jesus names dominating rule as the practice of Gentile rulers, making human lordship a social pattern that his teaching will explicitly reject."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Mark.10.43",
+          "basis": "greatness becomes service",
+          "note": "The next verse reverses status: whoever wants greatness must become the others' servant, changing the master-slave scale from ownership to service."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Mark.10.45",
+          "basis": "Son of Man serves and gives ransom",
+          "note": "The Son of Man comes not to be served but to serve and give his life as a ransom, a concentrated counter-scene to a master who only receives service."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Phil.2.6",
+          "basis": "Christ in God's form",
+          "note": "The hymn begins with Christ in God's form, establishing the high status whose subsequent self-emptying makes its relation to the commentary's unlowered owner deliberate rather than generic humility."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Phil.2.7",
+          "basis": "form of a slave",
+          "note": "Christ takes the form of a slave; the verse turns the commentary's owned and humbled slave role into the role voluntarily assumed by the exalted figure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Phil.2.8",
+          "basis": "humbled obedience to death",
+          "note": "The hymn explicitly says he humbled himself and became obedient unto death, matching the commentary's association of worship/service with abasement while reversing who undergoes it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Phil.2.9",
+          "basis": "God highly exalts the humbled one",
+          "note": "God's exaltation follows the slave-form and humbling, giving the commentary's secondary movement from lowliness to honor a markedly different Christian sequence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Phil.2.10",
+          "basis": "every knee bends at Jesus' name",
+          "note": "The universal bending of knees echoes the commentary's eschatological servanthood, but directs it in the hymn's Christological pattern."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Phil.2.11",
+          "basis": "every tongue confesses Jesus as Lord",
+          "note": "The final confession calls Jesus “Lord” to the Father's glory, pairing the master's title, universal confession, and worship after the servant-form reversal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.6.16",
+          "basis": "slaves of the one obeyed",
+          "note": "Paul states that a person becomes a slave of the one obeyed, whether sin leading to death or obedience leading to righteousness; it closely binds slavery to obedience as the commentary's dīn discussion does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.6.22",
+          "basis": "freed from sin, enslaved to God",
+          "note": "Paul calls believers both freed from sin and enslaved to God, a consciously paradoxical account of divine belonging and moral freedom."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Cor.7.22",
+          "basis": "slave as Lord's freedperson, free as Christ's slave",
+          "note": "Paul reverses ordinary social labels: the enslaved called in the Lord is free, while the free person is Christ's slave; it sharply reframes the commentary's fixed owner-slave status."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Cor.7.23",
+          "basis": "bought at a price; do not become human slaves",
+          "note": "Because believers were bought at a price, Paul warns them not to become slaves of humans; divine purchase becomes an argument against human mastery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Gal.4.7",
+          "basis": "no longer slave but child and heir",
+          "note": "The believer is no longer a slave but a child and heir through God, changing the household relation from permanent servitude to filial inheritance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rom.8.15",
+          "basis": "not slavery to fear but adoption",
+          "note": "Paul contrasts a spirit of slavery leading to fear with adoption that cries “Abba, Father,” offering a different mode of direct address and belonging from the commentary's servile abasement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Eph.6.9",
+          "basis": "earthly masters share a Master in heaven",
+          "note": "Christian masters must stop threatening because their own and their slaves' Master is in heaven and shows no partiality; the verse limits human ownership from above."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.24",
+          "basis": "God made the world and is Lord of heaven and earth",
+          "note": "Paul calls the creator Lord of heaven and earth, a New Testament statement of comprehensive divine sovereignty over the worlds named in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.25",
+          "basis": "God is not served as needing anything",
+          "note": "God is not served by human hands as though he needed anything, because he gives life and breath to all; it closely supports the commentary's insistence that the true owner lacks no helper and is not reduced by need."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.6.20",
+          "basis": "bought with a price and glorify God",
+          "note": "Believers are said to have been bought at a price and therefore to glorify God bodily, joining ownership language to a lived act of worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.14.4",
+          "basis": "another person's household servant",
+          "note": "A believer is called another's household servant who stands or falls before his own Lord; the verse makes mastership a reason not to usurp judgment over someone else's servant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.14",
+          "basis": "master entrusts property to servants",
+          "note": "The parable begins with a man entrusting his own property to his servants, preserving the master-property-servant relation that the commentary treats as a single image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.19",
+          "basis": "master returns to settle accounts",
+          "note": "The servants' master returns after a long time and settles accounts with them, a literal parabolic meeting of ownership, service, and the reckoning associated with the Day of dīn."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Luke.15.22",
+          "basis": "father restores the returning son with honor",
+          "note": "The father answers the returning son's household shame with robe, ring, and sandals, making the master's house a place of restorative honor rather than the fixed abasement expected in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.7",
+          "basis": "fear, glory, judgment, worship the creator",
+          "note": "The angel announces judgment and commands worship of the maker of heaven, earth, sea, and springs, bringing creator-ownership and Day-of-judgment worship together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.19.5",
+          "basis": "all God's servants praise him",
+          "note": "A heavenly voice calls all God's servants, great and small, to praise him; it provides a direct apocalyptic equivalent to praise voiced by those who belong to God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.19.10",
+          "basis": "fellow servant; worship God",
+          "note": "The angel refuses John's prostration, identifies as a fellow servant, and commands worship of God; it sharply distinguishes servanthood from receiving worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.3",
+          "basis": "God's servants serve in the final city",
+          "note": "In the city of God's throne and the Lamb's throne, the servants will serve him; the final setting gives an eschatological counterpart to universal divine service."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.3.5",
+          "basis": "Moses as servant in God's whole house",
+          "note": "Moses is faithful as a servant in all God's house, preserving the commentary's house/master/servant relation in an explicitly theological household."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Heb.3.6",
+          "basis": "Christ as Son over God's house",
+          "note": "The contrast makes Christ Son over God's house and the believers that house, distinguishing sonship and household membership from slave status."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.4",
+          "basis": "third-person shepherd narration turns to “you”",
+          "note": "Psalm 23 moves from “he” as the shepherd who leads in verses 1-3 to direct “you” in verse 4; its exact pronoun turn offers a literary analogue to the commentary's movement from third-person praise to second-person address, though its figure is shepherd and flock."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.7.10",
+          "basis": "Arabic د ي ن (source labels B001, B004), Aramaic דינא",
+          "note": "Daniel's Aramaic heavenly court says that the dīn sat and books were opened; the cognate juridical word keeps the judgment sense of “Day of dīn” beside the commentary's developed obedience and ownership senses."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.6.5",
+          "basis": "Arabic م ل ك (source label B002), Hebrew מלך",
+          "note": "Isaiah sees YHWH as “the King”; Hebrew מלך shares the m-l-k root with the commentary's Mālik label, while the verse contributes royal sovereignty rather than treating the Hebrew word as a property term."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "1QS 8:13-16",
+          "basis": "prepare the way through Torah study",
+          "note": "The Community Rule applies Isaiah's wilderness-way language to a separated group preparing God's way by studying and doing Torah, an interpretive conversion of road-making into disciplined obedience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 3:5",
+          "basis": "yoke of Torah releases other yokes",
+          "note": "The mishnah says accepting the yoke of Torah removes the yoke of government and worldly burdens; it develops divine submission as release from rival subjections."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "Sirach 33:30",
+          "basis": "servant treated as brother",
+          "note": "After its donkey-and-slave discipline imagery, Sirach tells the owner to treat a servant as a brother; the nearby ethical reversal complicates a reading of the owned person as only property."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.8.35",
+          "basis": "slave and son in the household",
+          "note": "Jesus says a slave does not remain in the household forever but the son does; it uses the house image to contrast slave impermanence with filial permanence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.15.15",
+          "basis": "no longer servants but friends",
+          "note": "Jesus no longer calls disciples servants because a servant does not know the master's affairs, but friends; intimate disclosure revises the distance assumed by the master-property model."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Phlm.1.16",
+          "basis": "no longer a slave but a beloved brother",
+          "note": "Paul asks that Onesimus be received no longer merely as a slave but as a beloved brother in the Lord, an explicit Christian re-description of an owned person's relation.",
+          "raw_ref": "SBLGNT:Philem.1.16",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Didache 4:10",
+          "basis": "master and slave hope in the same God",
+          "note": "The Didache forbids bitter commands to male or female slaves because both slave and master hope in the same God; it applies common divine lordship to household conduct."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, City of God 19.15",
+          "basis": "creation, animal rule, slavery after sin",
+          "note": "Augustine argues that the created order gives humans rule over irrational creatures, while human slavery is bound to sin; this Christian reading separates animal dominion from a natural right to own persons."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Gregory of Nyssa, Homilies on Ecclesiastes 4",
+          "basis": "buying humans made in God's image",
+          "note": "Gregory's homily on Ecclesiastes 2:7 attacks the purchase of human beings by appealing to their divine image and created freedom, a pointed patristic challenge to calling a person property."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.15.19",
+          "basis": "returning son asks to be a hired servant",
+          "note": "The returning son proposes admission to his father's house as a hired servant; paired with the father's response in verse 22, it makes the commentary's servant-at-the-master's-house image a precise Gospel encounter."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.20.17",
+          "basis": "house, servants, ox, donkey, every possession",
+          "note": "The anti-coveting command gathers a neighbor's house, male and female servants, ox, donkey, and other possessions into one household inventory, closely matching the commentary's owner-house-animal-slave tableau."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.21.5",
+          "basis": "servant chooses master, wife, children, household",
+          "note": "The Hebrew servant says that he loves his master, wife, and children and will not go free; this gives a legal counter-case in which continued belonging is explicitly voiced as a choice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.21.6",
+          "basis": "doorpost, pierced ear, permanent service",
+          "note": "The master brings the willing servant to the doorpost and pierces his ear for lifelong service, a concrete ritualization of ownership and enduring service in the master's house."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.23.12",
+          "basis": "Sabbath rest for ox, donkey, servant",
+          "note": "The Sabbath command joins the ox and donkey to the child of the slave woman and resident alien in receiving rest, placing a divine limit on the labor imposed upon both working animals and dependent people."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Deut.5.14",
+          "basis": "servant rests “as you do”",
+          "note": "The Decalogue's Sabbath law requires the male and female servant to rest as the owner rests; it turns the master-slave relation into an equality of rest before God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.14.5",
+          "basis": "Israel released from serving Egypt",
+          "note": "When Israel has gone, Egypt describes the loss as letting them go “from serving us”; the phrasing gives the Pharaoh-Israel bondage in the commentary a direct narrative counterpart."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.39.9",
+          "basis": "human master bounded by sin against God",
+          "note": "Joseph says his master has withheld nothing but his wife, yet refuses because the act would be a sin against God; the human householder's wide control is subordinated to a higher Lord."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.116.16",
+          "basis": "direct “I am your servant”; bonds loosed",
+          "note": "The psalmist directly calls himself God's servant and son of God's maidservant, then says God has loosed his bonds; it keeps divine servanthood and liberation together in one prayer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.6",
+          "basis": "bow, kneel, maker",
+          "note": "The congregation is summoned to bow down and kneel before YHWH its maker, a close liturgical image of embodied abasement before the creator."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.7",
+          "basis": "people of pasture, flock of God's hand",
+          "note": "The worshippers are God's people and the flock of his hand; it combines animal dependence, the owner's hand, and collective divine belonging."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.12.10",
+          "basis": "life of animals and humans in God's hand",
+          "note": "Job places the life of every living creature and the breath of all humanity in God's hand, extending the commentary's hand-held possession figure beyond livestock to all life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.41.11",
+          "basis": "everything under heaven belongs to God",
+          "note": "God asks who could give first so that God owed repayment, because all under heaven is God's; it joins universal possession to divine non-dependence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.24.1",
+          "basis": "earth and inhabitants belong to YHWH",
+          "note": "The psalm's opening ownership formula gives YHWH the earth, its fullness, the world, and its inhabitants, an explicit scriptural horizon for “Lord of the worlds.”"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.29.14",
+          "basis": "all comes from God; gifts returned",
+          "note": "David's praise says all things come from God and that Israel gives only what is already God's; it makes praise an acknowledgment that human possessions remain received goods."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Prov.17.2",
+          "basis": "wise servant shares a son's inheritance",
+          "note": "A prudent servant rules over a shameful son and shares the inheritance with the brothers, overturning a fixed hierarchy of owner, household, and slave."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.18",
+          "basis": "one guarding a master is honored",
+          "note": "Proverbs says the one who keeps or attends to a master will be honored, a compact wisdom parallel to the commentary's secondary possibility that service and honor meet."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.52.13",
+          "basis": "exalted servant",
+          "note": "God's servant is described as raised, lifted up, and greatly exalted, supplying a scriptural servant-and-honor trajectory beside the commentary's muʿabbad sense."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.58.6",
+          "basis": "fasting that breaks every yoke",
+          "note": "The fast God chooses loosens bonds, frees the oppressed, and breaks every yoke; it makes worship answer human subjugation by liberation rather than by extending it."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.64.8",
+          "basis": "Father, potter, clay, work of hands",
+          "note": "The prayer calls God Father and potter and the people clay made by God's hand, a creation-and-forming image for dependence that does not reduce them to household property."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.18.6",
+          "basis": "clay in potter's hand, house of Israel",
+          "note": "God compares the house of Israel to clay in a potter's hand, a particularly close biblical image for formed material held under a maker's authority."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Dan.3.18",
+          "basis": "refusal to serve gods or worship the image",
+          "note": "The Judean servants tell the king that they will neither serve his gods nor worship his golden image, a concrete refusal of a ruler's imposed cultic mastery."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.33.22",
+          "basis": "judge, lawgiver, king",
+          "note": "YHWH is named Israel's judge, lawgiver, and king; the verse gathers the judicial and sovereign dimensions that meet in the commentary's Mālik of the Day of dīn."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.14",
+          "basis": "God brings every deed into judgment",
+          "note": "The closing maxim says God will bring every deed, hidden or open, into judgment, providing an explicit Hebrew Bible counterpart to the reckoning implied by Day of dīn."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Zech.9.9",
+          "basis": "humble king riding a donkey",
+          "note": "Zion's king comes righteous and victorious yet humble, mounted on a donkey; the royal figure unites authority, lowliness, and a domesticated animal in a configuration that reverses the commentary's unlowered master."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.13",
+          "basis": "make straight paths for feet",
+          "note": "Hebrews commands straight paths for the feet so that the lame may be healed rather than put out of joint, turning the made-level road into a communal moral action."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.21.5",
+          "basis": "gentle king mounted on donkey",
+          "note": "Matthew presents the king as gentle and mounted on a donkey, carrying Zechariah's master-humility-and-domesticated-animal figure into the Gospel entry scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.18.26",
+          "basis": "servant falls before master over debt",
+          "note": "The servant falls down before his master and begs for patience over the debt, giving a literal scene of servile prostration, ownership, and reckoning."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.18.27",
+          "basis": "master releases servant and forgives debt",
+          "note": "The master is moved with compassion, releases the servant, and cancels the debt; this masterly authority is expressed through liberation rather than permanent subjection."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.4.24",
+          "basis": "direct prayer to creator as Sovereign Master",
+          "note": "The community addresses God as despota, the Sovereign Master who made heaven, earth, sea, and all in them; it joins direct address, mastery, and creation in one prayer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.10.25",
+          "basis": "Cornelius falls at a human's feet",
+          "note": "Cornelius falls at Peter's feet and prostrates before him, staging the very transfer of honor to a human figure that the commentary's limit on human lords excludes."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Acts.10.26",
+          "basis": "Peter refuses human prostration",
+          "note": "Peter raises Cornelius and says that he too is human, turning the preceding act into an explicit rejection of worshipful elevation of a person."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.1",
+          "basis": "bodies offered as living sacrifice and worship",
+          "note": "Paul calls the presentation of embodied life to God a living sacrifice and rational worship, giving worship a concrete, whole-person form beyond a merely verbal confession."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.24",
+          "basis": "slaves serve the Lord Christ",
+          "note": "In an instruction to household slaves, Paul says that the service ultimately rendered is to the Lord Christ and promises an inheritance, placing earthly service under a different master and reward."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Pet.2.16",
+          "basis": "free people as slaves of God",
+          "note": "Believers are to live as free people while also as God's slaves; the deliberate pairing gives a Christian reversal of the commentary's ordinary contrast between freedom and owned status."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.28",
+          "basis": "acceptable worship with reverence and awe",
+          "note": "The community is to offer acceptable worship to God with reverence and awe because it receives an unshakable kingdom, a liturgical form of humble service before sovereignty."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.5.10",
+          "basis": "all appear before Christ's judgment seat",
+          "note": "All people must appear before Christ's judgment seat to receive according to their deeds, an individual accounting scene for the Day of dīn dimension."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.31",
+          "basis": "a fixed day for judging the world",
+          "note": "Paul says God has fixed a day on which he will judge the world in righteousness, making the day-and-judgment element explicit in the same speech that calls God creator and Lord."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.15",
+          "basis": "only Sovereign, King of kings, Lord of lords",
+          "note": "The doxology calls God the only Sovereign and the King of kings and Lord of lords, a compact New Testament royal-master formulation beside Mālik."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.4.11",
+          "basis": "direct praise to the creator",
+          "note": "The heavenly elders say directly, “You are worthy,” because God created all things by his will; it closely joins praise, direct address, and creation-based sovereignty."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.6.10",
+          "basis": "Sovereign Lord asked to judge",
+          "note": "The martyrs address God as Sovereign Lord and ask when God will judge, bringing master-language and the delayed final judgment into a single direct prayer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Qiddushin 20a",
+          "basis": "acquiring a Hebrew servant acquires a master",
+          "note": "The Talmud's maxim that one who acquires a Hebrew servant acquires a master develops Torah's service law into a reversal: the owner must meet the servant's needs so fully that mastery is ethically displaced."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Ignatius, To Polycarp 4:3",
+          "basis": "slaves serve for God's glory and better freedom",
+          "note": "Ignatius tells enslaved Christians to serve more diligently for God's glory so that they may receive a better freedom from God, preserving the tension between social servitude and divine freedom."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "72ad8f0e0ce2c6696b29c6054cb52017a8da65463012ae4dc1512a20f2b40fc1",
+    "followup_sha256": "72ad8f0e0ce2c6696b29c6054cb52017a8da65463012ae4dc1512a20f2b40fc1"
+  },
+  "consolidation_error": null,
+  "list_sha256": "77ed378daf6ab69e8e3e7e1e311cd6fe011bf726cfbcd2fa592c991135ec153c",
+  "followup_delivery": [
+    {
+      "call_id": "call_zsfWoQMqU9gFbaf3rrmSor0i",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 344635,
+    "cached_input_tokens": 232960,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 52911,
+    "reasoning_output_tokens": 44042,
+    "total_tokens": 397546
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:45:26.323Z",
+  "artifacts": {
+    "started.json": "1b73954664c52ab8df3f1f821acae81469ea2db8e4628a7dba03497c99dc3214",
+    "input.json": "90d0c3e8ee5804ee6da9cd88ff05f891c9997a5e2edd8938e8b64b13fc6cb3a1",
+    "prompt.md": "5979134dc110b455a8d466dca9b254467c355f97a987727adce6b573cef1e5cd",
+    "package.md": "f3de1e740031b9eb9321d16535b4cb05773460759a1d225ef93acb0d4bbd720e",
+    "spawn.md": "b51e8a1b8cc13dbb27d1b27a8a68ea6469db1083f10de1de3894b7564fea23a3",
+    "followup.txt": "09bc1e837dae096482a24907b2dc7f54b1008b2d6e62db330a9e3801701a43e5",
+    "turn1.json": "678a1860609ff7142b66803efb0f3bfb5f63164656c1308c2fad4f2beeb95e84",
+    "turn1.list.tsv": "768c8f7c930a9d227a394322259cb98c94ab28d884b2f19e0eed1e59438d663e",
+    "followup.tsv": "72ad8f0e0ce2c6696b29c6054cb52017a8da65463012ae4dc1512a20f2b40fc1",
+    "list.tsv": "77ed378daf6ab69e8e3e7e1e311cd6fe011bf726cfbcd2fa592c991135ec153c",
+    "consolidation.json": "5999df95fc3e798a567f763bdbe147f5cbc3d40131e6b616af17668a5312d6c0",
+    "validation.json": "89158ac5f3ce529bfe2857844cfeaa71198e5abf422bcda5c02b7b907075f0d3",
+    "proposal_validation.json": "4c47b2b7ca09a4408d0144f6255107320997a67fbab2feb72f92b778bfd2793a",
+    "tool_calls.json": "ae4db314d2bb9f385131688e31b074e159f73c0de08b025e9c356cb975fb3a38",
+    "session.json": "6e6c4d122dc6819460e6dc260e14e15d318c94a80dfc78e3c7087f6aad119cd6",
+    "session.events.jsonl": "0807fcb1263d4b68baafc5223c0d0080b7dcbf53c28e97e939cc6aa67c98990f"
+  }
+}

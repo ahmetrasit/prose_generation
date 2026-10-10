@@ -1,0 +1,3008 @@
+{
+  "target": "sec5",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:53.204703-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec5_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "2f56f4cb33da3c9309f8e508230bdc0e7840e82efff25b18a961d039fb1c6734",
+  "package_sha256": "fc358ec73c7031af4fe7eb447ce88069d5d5caeb6a987cba1f849dabfc9bc986",
+  "input_sha256": "6adf421441d0fbf70a367642fad22bbfe6e23b63ac28396555673b048813eb2a",
+  "spawn_sha256": "f5fb73b19fc340dba7ece43e0daf472b668f213b7f350c9b272ccf9f993f6bcf",
+  "followup_text_sha256": "b0f6cabe1709554cf64db56d50d7ffff7fe147caf345a8d53065cafbfac04b89",
+  "agent_id": "01a10c9b-73f6-72f1-844d-54f49f6164f1",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-07-56-01a10c9b-73f6-72f1-844d-54f49f6164f1.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 145,
+  "turn1_sha256": "71c51026a019a1cbec790d3aeb638d1ae62538424858b18d4c9f5dbc49d77857",
+  "turn2": {
+    "completed": true,
+    "rows_total": 224,
+    "rows_added": 79
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 145,
+    "raw_proposal_rows": 79,
+    "unique_additions": 79,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.34.6",
+          "basis": "Arabic r-ḥ-m; Hebrew raḥum",
+          "note": "The commentary labels ar-Raḥmān and ar-Raḥīm with Arabic root r-ḥ-m; YHWH names himself raḥum and gracious here, giving the mercy cognate a divine self-description."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.4.31",
+          "basis": "Arabic r-ḥ-m; Hebrew raḥum",
+          "note": "The commentary's mercy words share a Semitic root with Moses' raḥum; Deuteronomy grounds that compassion in God's refusal to abandon the covenant people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Lam.3.22",
+          "basis": "Arabic r-ḥ-m; Hebrew raḥamim",
+          "note": "The commentary repeats mercy in 1:1 and 1:3; Lamentations uses the cognate raḥamim for compassion that has not ended, renewed each morning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.8",
+          "basis": "compassionate and gracious formula",
+          "note": "The commentary makes mercy the source of bestowed good; the psalm describes YHWH as compassionate, gracious, slow to anger, and abundant in steadfast love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.16.6",
+          "basis": "Arabic n-ʿ-m; Hebrew noʿam",
+          "note": "The commentary labels anʿamta with Arabic n-ʿ-m and glosses the gift as a good state; the cognate Hebrew pleasantness word describes the allotted inheritance as pleasant places, though it does not mean a bestowed favor here."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.3.17",
+          "basis": "Arabic n-ʿ-m; Hebrew noʿam",
+          "note": "The commentary calls the bestowed favor a path-gift; the cognate Hebrew noʿam describes Wisdom's ways as pleasant and her paths as peace, a limited lexical bridge to the commentary's path image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.2.48",
+          "basis": "Arabic r-b-b; Aramaic rav",
+          "note": "The commentary identifies Rabb as the giver who completes beneficence; Daniel's Aramaic cognate rav means chief or superior for Daniel's appointment, showing related lordly rank language without the commentary's beneficence sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.26.8",
+          "basis": "outstretched hand delivering a people",
+          "note": "The commentary pictures niʿma as a hand extending good; Israel's creed says God brought them out with a strong hand and outstretched arm, naming the rescue behind their received good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.26.9",
+          "basis": "land given as provision",
+          "note": "The commentary says the gift becomes a community's path; Israel recounts being brought into a land flowing with milk and honey before presenting its first fruits."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.26.10",
+          "basis": "first fruits and worship",
+          "note": "The commentary says the recipient answers a gift with hamd; the offerer sets the first fruits before God and bows, turning received land into a grateful act."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.26.11",
+          "basis": "shared rejoicing over good",
+          "note": "The commentary makes a bestowed favor belong to a community; Israel rejoices in every good received with Levite and resident alien, extending the response to fellow recipients."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.10",
+          "basis": "bless after eating and satisfaction",
+          "note": "The commentary says praise answers received favor; Moses commands Israel to eat, be satisfied, and bless YHWH for the good land."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.11",
+          "basis": "remembering the benefactor",
+          "note": "The commentary contrasts praise of the giver with forgetting the gift; Moses warns that fullness can lead Israel to forget YHWH."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.17",
+          "basis": "self-credit for provision",
+          "note": "The commentary warns against claiming one's own spending as a favor; Moses anticipates Israel saying its own power made its wealth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.18",
+          "basis": "remembering who gives capacity",
+          "note": "The commentary locates the gift in its giver; Moses tells Israel to remember YHWH, who gives the power to make wealth and confirms the covenant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.18.8",
+          "basis": "recounting acts of deliverance",
+          "note": "The commentary's hamd includes telling another person the giver's good acts; Moses recounts to Jethro what YHWH did for Israel and the hardships from which he rescued them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.18.9",
+          "basis": "another hears and rejoices",
+          "note": "The commentary pictures praise of the benefactor in another's presence; Jethro rejoices at the good YHWH has done for Israel after hearing Moses' account."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.18.10",
+          "basis": "blessing the giver publicly",
+          "note": "The commentary links reporting God's favor with praise; Jethro blesses YHWH before naming the rescue from Egypt and Pharaoh."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.29.13",
+          "basis": "praise and thanks for received gifts",
+          "note": "The commentary places hamd before the named favor; David's assembly blesses God's glorious name and gives thanks for all that comes from him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.29.14",
+          "basis": "received gifts returned to God",
+          "note": "The commentary treats the recipient's praise as an answer to favor; David says that all things come from God and that the offering is given from what is already God's."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "m. Avot 3:7",
+          "basis": "giving from what belongs to God",
+          "note": "The commentary depicts the giver's good passing to a recipient; Rabbi Elazar ben Azariah says to give God what is God's, since the person and possessions are God's, interpreting David's words in 1 Chronicles 29:14."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Berakhot 35a",
+          "basis": "blessing before benefiting from the world",
+          "note": "The commentary says hamd answers a received favor; the rabbis rule that one may not enjoy worldly benefit without a blessing, making praise a recognition of God's ownership and gift."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.22.23",
+          "basis": "praise proclaimed in the assembly",
+          "note": "The commentary says the recipient recounts the benefactor's goodness before others; the rescued speaker promises to tell God's name to his brothers and praise him in the congregation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.22.26",
+          "basis": "poor eat, are satisfied, and praise",
+          "note": "The commentary joins received provision to praise; in the same psalm's assembly the poor eat and are satisfied, and those seeking God praise him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.34.2",
+          "basis": "boasting in the giver",
+          "note": "The commentary distinguishes recounting God's favors from boasting in one's own giving; the psalmist's soul boasts in YHWH, so the humble hear and rejoice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.34.4",
+          "basis": "praise after rescue",
+          "note": "The commentary makes praise the recipient's response; the psalmist magnifies YHWH and reports that God answered and delivered him from fear."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.66.16",
+          "basis": "telling what God did",
+          "note": "The commentary's hamd includes telling others about the giver's favors; the psalmist invites God-fearers to hear what God did for him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.105.1",
+          "basis": "making God's deeds known among peoples",
+          "note": "The commentary says the benefactor's kindnesses are recounted to others; the psalm commands thanks to YHWH and making his deeds known among the peoples."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.105.2",
+          "basis": "singing and speaking of wonders",
+          "note": "The commentary's praise names the giver's good before others; the psalm calls for singing and telling all God's wondrous works."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.100.4",
+          "basis": "thanksgiving at God's gates",
+          "note": "The commentary says praise answers received good; worshippers enter with thanksgiving and praise, naming God as their benefactor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.100.5",
+          "basis": "goodness and enduring love",
+          "note": "The commentary roots good in mercy; the psalm grounds praise in God's goodness and enduring steadfast love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.2",
+          "basis": "not forgetting benefits",
+          "note": "The commentary says recipients recount the giver's favors; the psalmist tells his own soul not to forget all God's benefits."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.3",
+          "basis": "forgiveness and healing as benefits",
+          "note": "The commentary describes nimah as good bestowed on a recipient; the psalm names forgiveness and healing among God's benefits."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.4",
+          "basis": "redemption and crowning with love",
+          "note": "The commentary pictures favor as a gift reaching its recipient; the psalm says God redeems life and crowns the speaker with steadfast love and compassion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.5",
+          "basis": "satisfaction with good",
+          "note": "The commentary's secondary gloss says giving can mean adding beyond enough; the psalm says God satisfies life with good and renews youth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.103.8",
+          "basis": "cognate mercy with graciousness",
+          "note": "The commentary labels its repeated ar-Raḥmān/ar-Raḥīm with Arabic r-ḥ-m; this psalm uses the cognate compassion language alongside grace and abundant steadfast love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.8",
+          "basis": "thanks for steadfast love and wonders",
+          "note": "The commentary says beneficiaries recount good received; the psalm repeatedly calls the redeemed to thank YHWH for his steadfast love and wonderful works."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.9",
+          "basis": "filling the hungry",
+          "note": "The commentary says the giver's favor reaches a needy recipient; the psalm says God satisfies the thirsty and fills the hungry with good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.116.12",
+          "basis": "how to repay received benefits",
+          "note": "The commentary makes hamd the recipient's answer to favor; the psalmist asks what he can return to YHWH for all his benefits."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.116.14",
+          "basis": "vows before the people",
+          "note": "The commentary includes telling God's favors before others; the psalmist fulfills his vows to YHWH in the presence of all God's people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.8",
+          "basis": "compassion and abundant love",
+          "note": "The commentary makes divine mercy the source of good; the psalm praises YHWH as gracious, compassionate, slow to anger, and great in steadfast love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.16",
+          "basis": "the open hand satisfies creatures",
+          "note": "The commentary visualizes a hand extending a gift; the psalm says God opens his hand and satisfies the desire of every living thing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.21",
+          "basis": "all flesh praises the giver",
+          "note": "The commentary says the recipient's praise names the benefactor; the psalm ends by calling all flesh to bless God's holy name forever."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.4",
+          "basis": "asking to be shown God's ways",
+          "note": "The commentary calls the bestowed favor a path-gift; the psalmist asks God to make his ways known."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.5",
+          "basis": "being led in truth",
+          "note": "The commentary says the gift is completed by walking the path; the psalm asks God to lead and teach the speaker because God is his salvation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.10",
+          "basis": "all paths are love and faithfulness",
+          "note": "The commentary joins divine favor to the path; the psalm says all YHWH's paths are steadfast love and faithfulness for those who keep his covenant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.1",
+          "basis": "YHWH as shepherd and provider",
+          "note": "The commentary names Rabb as the one completing good and making the recipient's way possible; the psalm calls YHWH shepherd and says the speaker lacks nothing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.3",
+          "basis": "led in paths of righteousness",
+          "note": "The commentary calls the bestowed favor a path-gift; the shepherd psalm says God restores the soul and leads the speaker in right paths."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.6",
+          "basis": "two opposed ways",
+          "note": "The commentary asks for the path of those favored and distinguishes them from the other groups; the psalm contrasts the way YHWH knows with the way of the wicked that perishes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.18",
+          "basis": "righteous way as growing light",
+          "note": "The commentary calls the gift a path on which one walks; Proverbs depicts the righteous person's way as a light growing brighter toward day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.19",
+          "basis": "wicked way as darkness",
+          "note": "The commentary sets the favored path against those who stray; Proverbs contrasts the dark way of the wicked, who stumble without knowing what made them fall."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.19",
+          "basis": "choosing life rather than death",
+          "note": "The commentary asks for the path of the favored rather than the opposing path; Moses sets life and death before Israel and urges them to choose life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.20",
+          "basis": "loving and holding fast to God",
+          "note": "The commentary says the gift is completed by walking the path; Moses identifies life with loving, obeying, and holding fast to YHWH."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.10",
+          "basis": "hearts that stray and do not know God's ways",
+          "note": "The commentary distinguishes those who receive guidance from those who stray; the psalm identifies the wilderness generation by their wandering hearts and failure to know God's ways."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.11",
+          "basis": "divine anger and exclusion from rest",
+          "note": "The commentary names those under anger as the contrary group; the psalm's wilderness oracle ends with God's oath that they will not enter his rest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 5:6",
+          "basis": "we strayed from the way of truth",
+          "note": "The commentary contrasts the sought path with those who stray; the wicked in Wisdom confess that they left the way of truth and righteousness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 5:7",
+          "basis": "wandering through lawlessness",
+          "note": "The commentary excludes those who lose the way; the same confession says the wicked wearied themselves on paths of lawlessness, giving the wandering a moral setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.13",
+          "basis": "the broad way leading to destruction",
+          "note": "The commentary asks for one path and distinguishes its recipients from those astray; Jesus says the wide gate and broad way lead to destruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "the narrow way leading to life",
+          "note": "The commentary asks for the path of the favored; Jesus contrasts the narrow gate and hard way that lead to life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.68",
+          "basis": "blessing God for redemption",
+          "note": "The commentary makes hamd the answer to received favor; Zechariah begins by blessing Israel's God for visiting and redeeming his people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.72",
+          "basis": "mercy and covenant remembered",
+          "note": "The commentary connects the path of the favored to divine mercy; Zechariah says the redemption enacts mercy promised to the ancestors and remembrance of the covenant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.78",
+          "basis": "compassion as source of dawn",
+          "note": "The commentary says mercy is the source of beneficence; Zechariah attributes the coming dawn to the tender mercy of God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.79",
+          "basis": "guiding feet into the way of peace",
+          "note": "The commentary joins received favor to a path; Zechariah says the dawn will guide feet into the way of peace."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.8",
+          "basis": "salvation as gift by grace",
+          "note": "The commentary says the path is a favor received from God; Paul describes salvation as grace through faith and God's gift."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.9",
+          "basis": "no boasting in one's own works",
+          "note": "The commentary rejects claiming one's own expenditure as a favor; Paul excludes boasting because salvation is not from works."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.10",
+          "basis": "walking in prepared good works",
+          "note": "The commentary says the favor is completed by walking the path; Paul says God made believers for good works prepared for them to walk in."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.1.6",
+          "basis": "God completes the work begun",
+          "note": "The commentary's B002 gloss on Rabb is completion of beneficence and its path ends in walking; Paul trusts God to complete the good work begun in the believers until Christ's day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.6.11",
+          "basis": "thanks before abundant provision",
+          "note": "The commentary says praise answers a gift and its B010 gloss includes giving more; Jesus gives thanks, distributes the loaves, and feeds the crowd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.6.12",
+          "basis": "surplus gathered after satisfaction",
+          "note": "The commentary says anʿama can mean adding beyond enough; after the crowd is filled, Jesus orders the surplus fragments gathered so none is lost."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.1.16",
+          "basis": "fullness received as grace upon grace",
+          "note": "The commentary's secondary gloss says a gift may be increased beyond measure; John says all received from Christ's fullness, grace upon grace."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.1.4",
+          "basis": "thanks for grace given in Christ",
+          "note": "The commentary makes praise the response to a received gift; Paul thanks God for grace given to the Corinthian believers in Christ."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.1.8",
+          "basis": "God sustains believers to the end",
+          "note": "The commentary links a completed favor to a walked path; Paul says Christ will strengthen the community to the end, blameless at his day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.4.7",
+          "basis": "what was received leaves no ground to boast",
+          "note": "The commentary warns against advertising what one spent as one's own merit; Paul asks what anyone has that was not received and rejects boasting as though it were not received."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.1.21",
+          "basis": "failure to glorify or give thanks",
+          "note": "The commentary presents praise as the due answer to received good; Paul describes people who knew God yet neither glorified him nor gave thanks."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.4",
+          "basis": "kindness leading to repentance",
+          "note": "The commentary says mercy is the source of the favor that guides a person; Paul says God's kindness, forbearance, and patience lead toward repentance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.11.18",
+          "basis": "don't boast over the branches",
+          "note": "The commentary warns against self-praise for a favor received; Paul tells grafted-in Gentiles not to boast over the natural branches because the root supports them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.11.22",
+          "basis": "kindness and severity",
+          "note": "The commentary distinguishes those receiving favor from those under anger; Paul sets God's kindness toward believers beside severity toward those who fell, and warns the former to continue in kindness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.17.15",
+          "basis": "the healed man glorifies God aloud",
+          "note": "The commentary says the recipient recounts the giver's favor; one healed leper returns, loudly glorifying God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.17.16",
+          "basis": "returning to give thanks",
+          "note": "The commentary makes hamd the recipient's answer to a gift; the Samaritan falls at Jesus' feet and thanks him after healing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.17.18",
+          "basis": "the foreigner returns to praise God",
+          "note": "The commentary says praise of the benefactor should be voiced; Jesus asks whether only the foreigner returned to give glory to God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.14.17",
+          "basis": "food, gladness, and witness to God's goodness",
+          "note": "The commentary connects divine favor to the provision of good; Paul says God gave rain, fruitful seasons, food, and gladness, leaving witness among the nations."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.15",
+          "basis": "grace multiplying thanksgiving to God's glory",
+          "note": "The commentary says the recipient's praise follows God's favor; Paul says grace reaching more people multiplies thanksgiving to God's glory."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.8",
+          "basis": "abundant grace and sufficiency",
+          "note": "The commentary's B010 branch says giving may exceed what is sufficient; Paul says God can make grace abound so believers have sufficiency for every good work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.11",
+          "basis": "generosity producing thanksgiving",
+          "note": "The commentary says the giver's good reaches a recipient who praises; Paul says generosity enriches the giver and produces thanksgiving to God through the recipients."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.12",
+          "basis": "need supplied and many thanksgivings",
+          "note": "The commentary links conveyed good with praise of its source; Paul says the service supplies the saints' needs and overflows in many thanksgivings to God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.13",
+          "basis": "recipients glorify God",
+          "note": "The commentary depicts beneficiaries recounting the giver's good; Paul says recipients glorify God for the donors' confession and generous sharing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.15",
+          "basis": "thanks for God's inexpressible gift",
+          "note": "The commentary says praise answers a gift; Paul closes the account of giving by thanking God for his inexpressible gift."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.9",
+          "basis": "called from darkness to proclaim praises",
+          "note": "The commentary asks for the path of people favored by God; Peter describes a people called from darkness into marvelous light to proclaim God's excellencies."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.10",
+          "basis": "once not a people, now recipients of mercy",
+          "note": "The commentary identifies a community by the favor it received; Peter says those once outside the people have become God's people and have received mercy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.3",
+          "basis": "blessing God for new birth and hope",
+          "note": "The commentary makes hamd the answer to a favor; Peter blesses God for new birth to a living hope through Jesus' resurrection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.4",
+          "basis": "an inheritance kept for recipients",
+          "note": "The commentary says the favor belongs to a community and its path; Peter names an imperishable inheritance kept in heaven for believers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.7",
+          "basis": "faith tested toward praise and honor",
+          "note": "The commentary makes the path end in a completed favor; Peter says tested faith will result in praise, glory, and honor at Jesus' revelation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.12",
+          "basis": "thanksgiving and praise before the throne",
+          "note": "The commentary places hamd as the fitting answer to God's favor; the heavenly assembly ascribes blessing, glory, wisdom, thanksgiving, honor, power, and might to God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "the Lamb shepherds and guides to water",
+          "note": "The commentary joins divine favor with a path; the Lamb shepherds the multitude and guides them to springs of living water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.2",
+          "basis": "public almsgiving for human praise",
+          "note": "The commentary distinguishes recounting God's favors from holding one's own generosity over people; Jesus warns that public almsgiving for recognition receives its reward from people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 96,
+        "row": {
+          "line": 96,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.3",
+          "basis": "the giver does not advertise the gift",
+          "note": "The commentary condemns self-credit for one's spending; Jesus says the giver's left hand should not know what the right hand gives."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 97,
+        "row": {
+          "line": 97,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.4",
+          "basis": "giving without seeking recognition",
+          "note": "The commentary contrasts service with self-praise; Jesus says secret giving is seen and rewarded by the Father."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 98,
+        "row": {
+          "line": 98,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.18.11",
+          "basis": "self-congratulation framed as thanks",
+          "note": "The commentary distinguishes praise of the giver from claiming one's own merit; the Pharisee thanks God while boasting that he is unlike other people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 99,
+        "row": {
+          "line": 99,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.18.14",
+          "basis": "the self-exalting and humble are reversed",
+          "note": "The commentary contrasts benefactor-praise with self-praise; Jesus says the self-exalting Pharisee is not justified, while the humble tax collector is."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 100,
+        "row": {
+          "line": 100,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 18:15",
+          "basis": "do not add reproach to a gift",
+          "note": "The commentary describes hamd's reverse as rubbing one's favor in another's face; Ben Sira directly says not to add reproach or hurtful words when doing good or giving."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 101,
+        "row": {
+          "line": 101,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 18:18",
+          "basis": "a grudging gift can wound",
+          "note": "The commentary warns that the recipient can be humiliated by a favor held over them; Ben Sira says a gift from a grudging person dims the eyes, showing how manner changes the gift."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 102,
+        "row": {
+          "line": 102,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.27",
+          "basis": "compassionate cancellation of a debt",
+          "note": "The commentary pictures good passing from one hand to another; the king has compassion and cancels a servant's debt, a received favor that sets up the servant's obligation toward another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 103,
+        "row": {
+          "line": 103,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.33",
+          "basis": "failure to pass received mercy onward",
+          "note": "The commentary says an act of kindness is carried to another; the king condemns the forgiven servant for failing to show his fellow servant the mercy he received."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 104,
+        "row": {
+          "line": 104,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.6.35",
+          "basis": "God's kindness to the ungrateful",
+          "note": "The commentary says mercy is the source of beneficence; Jesus describes God as kind even to the ungrateful and evil, then commands love of enemies."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 105,
+        "row": {
+          "line": 105,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.6.36",
+          "basis": "imitating the merciful Father",
+          "note": "The commentary presents receiving God's mercy as the ground of a favored way; Jesus tells disciples to be merciful as their Father is merciful."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 106,
+        "row": {
+          "line": 106,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.4.19",
+          "basis": "love as a response to prior love",
+          "note": "The commentary makes the recipient's response follow the giver's favor; John says believers love because God first loved them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 107,
+        "row": {
+          "line": 107,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.17",
+          "basis": "received goods shared with a brother",
+          "note": "The commentary's hand-to-hand image traces good from giver to recipient; John asks how God's love can remain in someone who sees a needy brother and closes the heart despite possessing the world's goods."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 108,
+        "row": {
+          "line": 108,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.18",
+          "basis": "love enacted rather than merely spoken",
+          "note": "The commentary contrasts genuine praise and giving with words that claim merit; John requires love in deed and truth, giving the response a practical form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 109,
+        "row": {
+          "line": 109,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 50:22",
+          "basis": "bless God for all his works",
+          "note": "The commentary makes praise the recipient's answer to God's favor; Ben Sira blesses the God who does great things everywhere and asks that God grant joy of heart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 110,
+        "row": {
+          "line": 110,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 13:3",
+          "basis": "declare God's greatness among the nations",
+          "note": "The commentary says God's favor should be told to others; Tobit calls Israel to declare God's greatness before the nations and praise him in Jerusalem."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 111,
+        "row": {
+          "line": 111,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 13:6",
+          "basis": "turn back and bless God",
+          "note": "The commentary joins received mercy with a public response; Tobit says those who turn to God with their whole heart will bless him in truth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 112,
+        "row": {
+          "line": 112,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 9.1",
+          "basis": "thanksgiving over cup and bread",
+          "note": "The commentary makes hamd the recipient's response to a gift; the community's meal prayer gives thanks over the cup and broken bread as gifts from God through Jesus."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 113,
+        "row": {
+          "line": 113,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 9.4",
+          "basis": "gathering the Church as one people",
+          "note": "The commentary says favor belongs to a community and its path; the Eucharistic prayer asks that the scattered Church be gathered into God's kingdom, like bread once scattered and made one."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 114,
+        "row": {
+          "line": 114,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 10.2",
+          "basis": "thanksgiving for gifts of knowledge and life",
+          "note": "The commentary says praise follows what God gives; after the meal the community thanks the holy Father for his name, knowledge, faith, and immortality given through Jesus."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 115,
+        "row": {
+          "line": 115,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 10.5",
+          "basis": "the prayer ends in glory to God",
+          "note": "The commentary says the opening hamd returns at the end of the path; the Didache's thanksgiving closes by ascribing glory to God forever."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 116,
+        "row": {
+          "line": 116,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, Confessions 1.1.1",
+          "basis": "praise as the creature's response to its maker",
+          "note": "The commentary places hamd before naming the specific gift; Augustine opens by praising God as creator and says human beings are made for God, so praise is the fitting response to dependence itself."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 117,
+        "row": {
+          "line": 117,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.15.1",
+          "basis": "song after deliverance",
+          "note": "The commentary says recipients answer good with praise; after Israel is rescued from Egypt, Moses and Israel sing to YHWH about the victory."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 118,
+        "row": {
+          "line": 118,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.15.2",
+          "basis": "God as strength and salvation",
+          "note": "The commentary's praise names the giver and his good; the song calls YHWH strength, song, and salvation, joining worship to received deliverance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 119,
+        "row": {
+          "line": 119,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.12.1",
+          "basis": "anger turns and comfort is received",
+          "note": "The commentary distinguishes those under anger from those given favor; Isaiah's rescued speaker says God's anger has turned away and he has comforted him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 120,
+        "row": {
+          "line": 120,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.12.4",
+          "basis": "making God's deeds known",
+          "note": "The commentary says one should recount the giver's favor; Isaiah calls the people to thank YHWH and make his deeds known among the peoples."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 121,
+        "row": {
+          "line": 121,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.12.5",
+          "basis": "singing of God's great deeds",
+          "note": "The commentary's hamd is voiced before others; Isaiah calls the people to sing because God has done gloriously and make it known throughout the earth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 122,
+        "row": {
+          "line": 122,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.12.6",
+          "basis": "rejoicing in the Holy One among the people",
+          "note": "The commentary links divine favor to a community's road; Isaiah calls Zion to shout and sing because the Holy One is great in Israel's midst."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 123,
+        "row": {
+          "line": 123,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.43.21",
+          "basis": "people formed to declare praise",
+          "note": "The commentary says the recipient's answer is praise; Isaiah says the people God formed are to recount God's praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 124,
+        "row": {
+          "line": 124,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.48.17",
+          "basis": "God teaches the way to walk",
+          "note": "The commentary says the favor is a path-gift; Isaiah names YHWH as teacher who leads Israel in the way it should go."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 125,
+        "row": {
+          "line": 125,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.12",
+          "basis": "being led out in joy and peace",
+          "note": "The commentary says the gift is completed by walking the way; Isaiah depicts the redeemed going out with joy and being led in peace."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 126,
+        "row": {
+          "line": 126,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.63.7",
+          "basis": "recounting God's loving-kindnesses",
+          "note": "The commentary says praise can tell others the giver's favors; Isaiah's speaker publicly recounts YHWH's acts of steadfast love and praise for Israel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 127,
+        "row": {
+          "line": 127,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.63.9",
+          "basis": "God's compassion carries the people",
+          "note": "The commentary makes mercy the source of good bestowed on a people; Isaiah says God saved them in love and pity and carried them through their days."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 128,
+        "row": {
+          "line": 128,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.9.23",
+          "basis": "boasting in strength or wealth is rejected",
+          "note": "The commentary rejects making one's own expenditure a public merit; Jeremiah says the wise, mighty, and rich must not boast in their own wisdom, power, or riches."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 129,
+        "row": {
+          "line": 129,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.9.24",
+          "basis": "boast only in knowing the God who does kindness",
+          "note": "The commentary says praise should name the benefactor's goodness; Jeremiah permits boasting only in understanding and knowing YHWH, who practices steadfast love, justice, and righteousness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 130,
+        "row": {
+          "line": 130,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.3.17",
+          "basis": "rejoicing despite absent harvest",
+          "note": "The commentary says hamd reaches beyond thanking for a particular material gift; Habakkuk imagines the loss of figs, grapes, olives, fields, and flock."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 131,
+        "row": {
+          "line": 131,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.3.18",
+          "basis": "rejoicing in God as salvation",
+          "note": "The commentary's praise is directed to the giver rather than only to goods; Habakkuk rejoices in YHWH and exults in the God of salvation despite the failed harvest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 132,
+        "row": {
+          "line": 132,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.2.10",
+          "basis": "Pharaoh's daughter, rather than Pharaoh, adopts Moses",
+          "note": "The commentary recalls Pharaoh claiming Moses' upbringing as a favor; Exodus says Pharaoh's daughter draws the child from the water and adopts him, shifting the rescuer from the king to his daughter."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 133,
+        "row": {
+          "line": 133,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.1.11",
+          "basis": "Pharaoh's regime imposes forced labor",
+          "note": "The commentary's Pharaoh reproaches Moses with a personal favor while Moses answers with Israel's oppression; Exodus presents Pharaoh as the ruler who sets taskmasters over Israel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 134,
+        "row": {
+          "line": 134,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.1.13",
+          "basis": "Egyptians make Israel serve harshly",
+          "note": "The commentary says Moses answers the favor-reproach by naming Pharaoh's enslavement of Israel; Exodus narrates the Egyptians' ruthless forced labor as the background that reverses the king's claim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 135,
+        "row": {
+          "line": 135,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Acts.7.21",
+          "basis": "Pharaoh's daughter takes Moses as her son",
+          "note": "The commentary places the claim of raising Moses in Pharaoh's mouth; Stephen's retelling attributes his rescue and adoption to Pharaoh's daughter, preserving the household upbringing but changing the agent."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 136,
+        "row": {
+          "line": 136,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Heb.11.24",
+          "basis": "Moses refuses the status of Pharaoh's daughter's son",
+          "note": "The commentary presents a royal upbringing invoked as a favor; Hebrews says Moses later refused to be called the son of Pharaoh's daughter, emphasizing his break with that household identity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 137,
+        "row": {
+          "line": 137,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.4.2",
+          "basis": "compassion shown beyond the expected group",
+          "note": "The commentary asks for the path of those favored; Jonah resents God's graciousness and compassion toward Nineveh, exposing the tension over who receives mercy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 138,
+        "row": {
+          "line": 138,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.15",
+          "basis": "Jeshurun grows full and forgets the giver",
+          "note": "The commentary warns that good must be answered with praise rather than taken for granted; Moses says Jeshurun grew fat, then forsook the God who made him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 139,
+        "row": {
+          "line": 139,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.23",
+          "basis": "he people receive provision from heaven",
+          "note": "The commentary describes favor as good conveyed to a recipient; the psalm says God opened heaven and rained manna to feed Israel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 140,
+        "row": {
+          "line": 140,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.32",
+          "basis": "the people remain ungrateful after wonders",
+          "note": "The commentary makes praise the fitting response to received benefits; despite God's wonders, the people continue to sin and fail to trust."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 141,
+        "row": {
+          "line": 141,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.38",
+          "basis": "God repeatedly turns from anger",
+          "note": "The commentary distinguishes divine mercy from anger; the psalm says God is compassionate, forgives, and often turns away his anger from the people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 142,
+        "row": {
+          "line": 142,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.111.4",
+          "basis": "merciful and gracious remembrance of wonders",
+          "note": "The commentary links mercy with the praise-worthy giver; the psalm says God made his wonders remembered and is gracious and compassionate."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 143,
+        "row": {
+          "line": 143,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.136.1",
+          "basis": "thanks for God's goodness and enduring love",
+          "note": "The commentary says praise answers received good; the litany begins by thanking God for goodness and repeats enduring love through its account of creation and deliverance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 144,
+        "row": {
+          "line": 144,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.145.8",
+          "basis": "Arabic r-ḥ-m; Hebrew raḥum",
+          "note": "The commentary's ar-Raḥmān/ar-Raḥīm share the Semitic mercy root with the psalm's raḥum; the verse describes God's compassion, patience, and great love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 145,
+        "row": {
+          "line": 145,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Rosh Hashanah 17b",
+          "basis": "Moses' mercy attributes become a repeated prayer form",
+          "note": "The commentary repeats the mercy formula in 1:1 and 1:3; the rabbis read Exodus 34:6 as the order of divine attributes Moses was taught to invoke whenever Israel sins and seeks forgiveness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.34.8",
+          "basis": "bowing and worship after the mercy formula",
+          "note": "The commentary presents mercy as the source of good and hamd as the response; after YHWH proclaims compassion, Moses bows to the ground and worships."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.34.9",
+          "basis": "mercy requested for a people on the way",
+          "note": "The commentary links the favor of a people to their path; Moses asks God to go among them, pardon their sin, and take them as his inheritance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.2.1",
+          "basis": "Hannah rejoices in received salvation",
+          "note": "The commentary makes praise the recipient's answer to favor; after Samuel's birth Hannah rejoices in YHWH and his salvation, telling of God's reversal of her condition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Sam.7.18",
+          "basis": "humility before an unexpected promise",
+          "note": "The commentary describes hamd as response to a gift; David asks who he is and what his house is that God has brought him this far, receiving the promised future as undeserved good."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Sam.7.22",
+          "basis": "praise of the incomparable giver",
+          "note": "The commentary says praise names the benefactor; David declares that there is no one like YHWH and no God besides him after hearing the promise to his house."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Sam.7.28",
+          "basis": "God's words and promised good",
+          "note": "The commentary says the recipient recognizes the giver's good; David calls God's words true and recalls that God has promised this good to his servant."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.24.13",
+          "basis": "land received without the people's labor",
+          "note": "The commentary describes favor as good conveyed to a community; Joshua recalls that God gave Israel land, cities, vineyards, and olive groves they had not made or planted."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.24.14",
+          "basis": "serving the giver in gratitude",
+          "note": "The commentary makes worship an answer to benefit; Joshua therefore tells Israel to fear and serve YHWH sincerely, remembering God's prior acts."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.24.15",
+          "basis": "choosing the path of service",
+          "note": "The commentary asks for the way of those favored; Joshua puts rival forms of service before Israel and calls the people to choose whom they will serve."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.12.24",
+          "basis": "remembering great deeds as a reason to serve",
+          "note": "The commentary makes praise the recipient's answer to good; Samuel tells Israel to fear and serve YHWH faithfully and consider the great things he has done for them."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.30.13",
+          "basis": "thanksgiving after deliverance",
+          "note": "The commentary says the recipient's praise returns at the journey's end; after God turns mourning into dancing, the psalmist says his soul will sing praise and give thanks forever. (Hebrew WLC numbering.)"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.40.11",
+          "basis": "announcing salvation in the congregation",
+          "note": "The commentary says God's favors are recounted before others; the psalmist does not hide God's deliverance, faithfulness, and love from the great congregation. (Hebrew WLC numbering.)"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.67.2",
+          "basis": "blessing that makes God's way known",
+          "note": "The commentary joins a bestowed favor to a path; the psalm asks God to bless the people so that God's way and saving power become known on earth. (Hebrew WLC numbering.)"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.67.5",
+          "basis": "nations rejoice under God's just guidance",
+          "note": "The commentary asks for a path of divine favor; the psalm calls the nations to rejoice because God judges peoples with equity and guides the nations on earth. (Hebrew WLC numbering.)"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.67.8",
+          "basis": "blessing that reaches the ends of the earth",
+          "note": "The commentary describes a community receiving favor; the psalm asks God to bless Israel so that all the ends of the earth fear him. (Hebrew WLC numbering.)"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.40.11",
+          "basis": "proclaiming love and faithfulness publicly",
+          "note": "The commentary's account of hamd includes telling another person the giver's goodness; this verse says the speaker has not concealed God's steadfast love and faithfulness from the assembly. (Hebrew WLC numbering.)"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.84.7",
+          "basis": "pilgrim path refreshed by blessing",
+          "note": "The commentary calls the received favor a path-gift; pilgrims crossing the Valley of Baca make it a spring, and the early rain covers it with blessings. (Hebrew WLC numbering.)"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.89.2",
+          "basis": "God's love and faithfulness told for generations",
+          "note": "The commentary says the benefactor's good is told aloud; the psalmist says he will sing of YHWH's steadfast love and make his faithfulness known through every generation. (Hebrew WLC numbering.)"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.13",
+          "basis": "compassion pictured as a father's care",
+          "note": "The commentary grounds good in mercy; the psalm compares YHWH's compassion for those who fear him to a father's compassion for his children."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.22",
+          "basis": "thanksgiving sacrifice and narrated deeds",
+          "note": "The commentary includes recounting a giver's favor before others; the psalm tells the redeemed to offer thanksgiving sacrifices and tell God's works with songs of joy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.116.17",
+          "basis": "thanksgiving as a public act of worship",
+          "note": "The commentary makes hamd the response to a received benefit; the psalmist offers a thanksgiving sacrifice and calls on YHWH's name after asking how to repay God's benefits."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.7",
+          "basis": "publicly recounting abundant goodness",
+          "note": "The commentary says recipients tell the benefactor's kindnesses; the psalm says they pour out the memory of God's abundant goodness and sing of his righteousness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.9",
+          "basis": "compassion extending to all creatures",
+          "note": "The commentary presents mercy as the source of bestowed good; the psalm says YHWH is good to all and his compassion extends to all he has made."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.146.5",
+          "basis": "happiness grounded in God as helper",
+          "note": "The commentary identifies the favored as a people whose good comes from God; the psalm calls blessed the person whose help is the God of Jacob and whose hope rests in YHWH."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.146.7",
+          "basis": "food given to the hungry",
+          "note": "The commentary's image is good reaching a recipient; the psalm praises God who executes justice for the oppressed and gives food to the hungry."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.26.7",
+          "basis": "the righteous person's level path",
+          "note": "The commentary calls favor a path on which one walks; Isaiah says the way of the righteous is level and God makes it smooth."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.8",
+          "basis": "the Holy Way for the redeemed",
+          "note": "The commentary asks for the path of those given favor; Isaiah depicts a holy highway on which the redeemed walk and from which the unclean are excluded."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.10",
+          "basis": "the redeemed return with praise and joy",
+          "note": "The commentary says the path ends in completed favor; Isaiah says YHWH's ransomed return to Zion with singing and everlasting joy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.49.10",
+          "basis": "compassion guides recipients to springs",
+          "note": "The commentary links mercy, provision, and a path; Isaiah says the compassionate one guides the redeemed and leads them beside springs of water so they do not hunger or thirst."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.3",
+          "basis": "everlasting love drawing a people",
+          "note": "The commentary makes mercy the source of favor; YHWH says he has loved Israel with an everlasting love and drawn the people with steadfast love."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.9",
+          "basis": "leading the people on a straight path",
+          "note": "The commentary says the favor is completed by walking a way; YHWH leads the returning people by streams of water on a straight path where they will not stumble."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.17",
+          "basis": "mercy despite a people's refusal to follow",
+          "note": "The commentary distinguishes the favored path from those who stray; Nehemiah's prayer recounts Israel's rebellion yet calls God gracious, compassionate, slow to anger, and abundant in steadfast love."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.20",
+          "basis": "instruction and provision given together",
+          "note": "The commentary links a bestowed good to guidance along the way; Nehemiah's prayer says God gave his good spirit to instruct the people and supplied manna and water."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.25",
+          "basis": "fullness and delight in great goodness",
+          "note": "The commentary says recipients should answer favor with praise; Nehemiah recalls that Israel ate, was filled, and delighted in God's great goodness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.26",
+          "basis": "rebellion after abundance",
+          "note": "The commentary contrasts the guided community with those who reject the way; Nehemiah says Israel became disobedient and killed the prophets who warned them after God had given them rest and abundance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.31",
+          "basis": "compassion that does not abandon",
+          "note": "The commentary presents mercy as a source of continuing favor; Nehemiah says God did not make a complete end of Israel or abandon them because of his great mercies."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.7.18",
+          "basis": "God delights in mercy and forgives",
+          "note": "The commentary connects divine mercy to the favored community; Micah praises the God who pardons iniquity and does not retain anger forever because he delights in steadfast love."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.7.19",
+          "basis": "compassion that removes wrongdoing",
+          "note": "The commentary describes mercy as good reaching its recipients; Micah says God again has compassion and casts the people's sins away."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.7.20",
+          "basis": "steadfast love kept to the ancestors",
+          "note": "The commentary treats favor as a communal inheritance; Micah says God keeps faith and steadfast love promised to Abraham and Jacob."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.46",
+          "basis": "Mary magnifies God in response to favor",
+          "note": "The commentary says the receiver answers a gift with praise; Mary publicly magnifies the Lord and rejoices in God her savior."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.49",
+          "basis": "God has done great things for Mary",
+          "note": "The commentary's hamd recounts the giver's good; Mary says the Mighty One has done great things for her and names his holiness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.50",
+          "basis": "mercy extending across generations",
+          "note": "The commentary presents mercy as the source of blessing; Mary says God's mercy extends from generation to generation to those who fear him."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.52",
+          "basis": "God raises the lowly and brings down rulers",
+          "note": "The commentary distinguishes those given favor from the contrary way; Mary's song describes God reversing status by bringing rulers down and exalting the lowly."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.53",
+          "basis": "hungry people filled with good",
+          "note": "The commentary says favor is a gift delivered to recipients; Mary sings that God fills the hungry with good things and sends the rich away empty."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.5.45",
+          "basis": "sun and rain given to just and unjust",
+          "note": "The commentary identifies mercy as the source of good; Jesus says the Father gives sun and rain to both evil and good, extending divine beneficence beyond a single favored group."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.10.8",
+          "basis": "freely received good freely passed on",
+          "note": "The commentary pictures favor passing from hand to hand; Jesus tells disciples that what they received freely they should give freely as they heal and proclaim."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.3.8",
+          "basis": "the healed man walks and praises God",
+          "note": "The commentary joins a received favor to its path and response; the healed man enters the temple walking and leaping while praising God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.3.9",
+          "basis": "the public sees the recipient praising",
+          "note": "The commentary says the beneficiary can voice praise before others; everyone sees the formerly lame man walking and praising God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.25",
+          "basis": "God gives life and breath to all",
+          "note": "The commentary describes the giver as the source of good; Paul says God is not served as though needy, since he himself gives all people life, breath, and everything."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.11.35",
+          "basis": "no one first gives to God",
+          "note": "The commentary says the beneficiary answers a gift with praise rather than claiming merit; Paul asks who has ever given God something first so that God must repay."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.11.36",
+          "basis": "all things come from God and return to him",
+          "note": "The commentary makes the giver's favor the source and goal of the recipient's path; Paul says all things are from, through, and for God, to whom glory belongs."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.10",
+          "basis": "work attributed to grace rather than self",
+          "note": "The commentary warns against presenting one's own effort as a merit; Paul says he worked hard, yet attributes what he is and his work to God's grace."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.1.3",
+          "basis": "God as Father of mercies",
+          "note": "The commentary names mercy as the source of good; Paul blesses the Father of mercies and God of all comfort."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.1.4",
+          "basis": "comfort received and passed to others",
+          "note": "The commentary pictures beneficence moving from giver to recipient; Paul says God comforts believers so they can comfort others in the trouble they themselves have received comfort through."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.1.12",
+          "basis": "thanks for a share in the inheritance",
+          "note": "The commentary says a community receives a path and a gift; Paul gives thanks to the Father who qualified believers to share in the inheritance of the saints in light."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.1.13",
+          "basis": "transfer from darkness into a kingdom",
+          "note": "The commentary contrasts the favored path with those astray; Paul says God rescued believers from the authority of darkness and transferred them into the Son's kingdom."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.2.6",
+          "basis": "walk in the one received",
+          "note": "The commentary says favor is completed by walking its path; Paul tells believers to walk in Christ Jesus, whom they received."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.2.7",
+          "basis": "walking with thanksgiving",
+          "note": "The commentary joins the path of favor to praise; Paul describes believers as rooted and built up in Christ, abounding in thanksgiving."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.5",
+          "basis": "God gives wisdom without reproach",
+          "note": "The commentary says a gift can be ruined by holding it over its recipient; James says God gives wisdom generously to all and does not reproach the one who asks.",
+          "raw_ref": "SBLGNT:James.1.5",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.17",
+          "basis": "every good gift comes from above",
+          "note": "The commentary says all good reaches the recipient from its giver; James says every good giving and perfect gift comes down from the Father of lights.",
+          "raw_ref": "SBLGNT:James.1.17",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.1.3",
+          "basis": "divine power grants what leads to life",
+          "note": "The commentary joins bestowed favor with a path to walk; Peter says God's power has granted everything needed for life and godliness, calling believers by glory and excellence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.17",
+          "basis": "riches are gifts, not grounds for pride",
+          "note": "The commentary rejects self-credit for what one has received; Paul tells the rich not to be arrogant but to hope in God, who richly provides all things to enjoy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.18",
+          "basis": "received wealth used generously for others",
+          "note": "The commentary depicts good passing from hand to hand; Paul tells the wealthy to do good, be generous, and ready to share."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.4.10",
+          "basis": "stewarding a gift for one another",
+          "note": "The commentary pictures favor as good delivered to another; Peter tells each person to use the gift received to serve others as a steward of God's varied grace."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Titus.3.5",
+          "basis": "salvation from mercy rather than deeds",
+          "note": "The commentary makes divine mercy the source of favor; Titus says God saved people through mercy, not righteous works they had done."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Titus.3.7",
+          "basis": "grace makes recipients heirs in hope",
+          "note": "The commentary says favor is a gift that carries a community toward its end; Titus says believers justified by grace become heirs according to the hope of eternal life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.13.15",
+          "basis": "praise voiced as the fruit of lips",
+          "note": "The commentary says the recipient should recount the benefactor's good; Hebrews calls believers to offer continual praise to God, the fruit of lips that confess his name."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jude.1.24",
+          "basis": "God keeps recipients from stumbling",
+          "note": "The commentary asks for a path that does not stray; Jude praises God who is able to keep believers from stumbling and present them blameless."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jude.1.25",
+          "basis": "glory to the only God at the journey's end",
+          "note": "The commentary says the opening praise returns at the end of the path; Jude's closing doxology gives glory, majesty, power, and authority to God through Jesus Christ."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.4.11",
+          "basis": "creatures acknowledge the giver of all things",
+          "note": "The commentary makes praise the response to God's favor; the heavenly elders worship the creator because all things exist by his will."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.10",
+          "basis": "salvation belongs to God and the Lamb",
+          "note": "The commentary names a community by the favor it received; the multitude cries that salvation belongs to God and the Lamb before the elders' full doxology."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "m. Berakhot 9:5",
+          "basis": "blessing God for adversity as well as good",
+          "note": "The commentary says hamd is broader than thanks for a discrete favor; the Mishnah requires a blessing for bad events as for good, extending praise beyond a favorable outcome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Berakhot 48b",
+          "basis": "food blessings traced to manna and land",
+          "note": "The commentary places praise after a received benefit; the rabbis attribute the blessings after meals to Moses at the manna, Joshua on entering the land, and David and Solomon at Jerusalem, reading Israel's liturgy through successive gifts."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 12:6",
+          "basis": "command to declare God's deeds to the living",
+          "note": "The commentary says the recipient should tell others about the giver's favor; Raphael tells Tobit and Tobias to bless God, give thanks, and declare God's works before all the living."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Judith 16:1",
+          "basis": "a victory hymn directed to God",
+          "note": "The commentary says a beneficiary answers good with public praise; after Israel's deliverance Judith begins a song to her God with instruments."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Judith 16:13",
+          "basis": "singing a new song for God's strength",
+          "note": "The commentary describes praise that tells the giver's deeds; Judith sings a new song to God and praises his greatness and invincible power."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 10:20",
+          "basis": "the delivered people bless God's holy name",
+          "note": "The commentary makes praise follow received deliverance; Wisdom says the righteous sang praise and blessed God's holy name after their rescue."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 10:21",
+          "basis": "wisdom opens mouths to praise",
+          "note": "The commentary says God's favor includes the capacity to praise; Wisdom says the divine Wisdom opened the mouths of the mute and made the tongues of infants clear."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 10.3",
+          "basis": "food given so people may thank the creator",
+          "note": "The commentary says recipients answer God's provision with hamd; the post-meal prayer says God gave food and drink to humanity so that people might thank him, then names the community's spiritual food and drink."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "ec95990d434de811e8c85d9620d560c176e4cd39d2995a5d4278e287875d701b",
+    "followup_sha256": "ec95990d434de811e8c85d9620d560c176e4cd39d2995a5d4278e287875d701b"
+  },
+  "consolidation_error": null,
+  "list_sha256": "83d6f579c6e7e159a4cfd5a3a0b048d61c40af8743e2419581644f386df9aef1",
+  "followup_delivery": [
+    {
+      "call_id": "call_6fFudV3cFa2XYHzRveDkfAwr",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 401124,
+    "cached_input_tokens": 338944,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 52404,
+    "reasoning_output_tokens": 38527,
+    "total_tokens": 453528
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:28:50.344Z",
+  "artifacts": {
+    "started.json": "bfdd91789dceb24b6bf1124420b992d973481b013c963eb362cb04fd1e003c1f",
+    "input.json": "6adf421441d0fbf70a367642fad22bbfe6e23b63ac28396555673b048813eb2a",
+    "prompt.md": "2f56f4cb33da3c9309f8e508230bdc0e7840e82efff25b18a961d039fb1c6734",
+    "package.md": "fc358ec73c7031af4fe7eb447ce88069d5d5caeb6a987cba1f849dabfc9bc986",
+    "spawn.md": "f5fb73b19fc340dba7ece43e0daf472b668f213b7f350c9b272ccf9f993f6bcf",
+    "followup.txt": "b0f6cabe1709554cf64db56d50d7ffff7fe147caf345a8d53065cafbfac04b89",
+    "turn1.json": "9c5916be46e17de8cff53cb9201e6e89a7955c76191db797e84aeaf5bcf698df",
+    "turn1.list.tsv": "71c51026a019a1cbec790d3aeb638d1ae62538424858b18d4c9f5dbc49d77857",
+    "followup.tsv": "ec95990d434de811e8c85d9620d560c176e4cd39d2995a5d4278e287875d701b",
+    "list.tsv": "83d6f579c6e7e159a4cfd5a3a0b048d61c40af8743e2419581644f386df9aef1",
+    "consolidation.json": "8733d89d2765cb94db5d5d45cf27bc7e1f1cc04e79eda763a635d55504895dc6",
+    "validation.json": "1fdf5a97bd9947d7d04a0f99e1665b7d48896351a0599d0828afe157597f8e03",
+    "proposal_validation.json": "32d23ee2860b69c039c122480b4f750320a6700520f41c7567dcaea3072e30ca",
+    "tool_calls.json": "58bf092946385ac9516e1c82066bf7c257e2d7ba1bab2b2946dcb7f7612b623e",
+    "session.json": "847e58d5c402fd14872cf18b89cae95a9f916edf868f82f5482ca2ac46a0f801",
+    "session.events.jsonl": "d0208af2bb866de34bf35a4a3dc76eba08de5ccb69dc9cd5b368615b45dd112b"
+  }
+}

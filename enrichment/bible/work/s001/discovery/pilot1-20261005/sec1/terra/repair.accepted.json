@@ -1,0 +1,32 @@
+{
+  "approval": "2026-10-05 user reply: Apply all 15 recorded follow-up corrections. Exact bundle: enrichment/bible/audits/pilot1-20261005/followup-repairs.proposed.json",
+  "accepted_at": "2026-10-05T16:04:04.676479+00:00",
+  "changes": [
+    {
+      "line": 3,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Ps.23.7",
+        "dwelling in the LORD's house",
+        "The psalm's guided traveler ends by dwelling in the LORD's house, supplying the homeward terminus paired with the commentary's route."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Ps.23.6",
+        "dwelling in the LORD's house",
+        "The psalm's guided traveler ends by dwelling in the LORD's house, supplying the homeward terminus paired with the commentary's route."
+      ],
+      "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+    }
+  ],
+  "raw_sha256": "0a6cf393567c06e62566470aaae6141f2b4445f9a5286d1aaaf50d8ecda325b7",
+  "accepted_sha256": "3ec4589b1e745921afa15594fef6b91f7a7f7c49bdbe03ee4313013ab2d54b25",
+  "proposal_sha256": "2331565fde40c5cb6fef21efb5d4676d9a5517a9f0372ee9c3ff59fd0ee166ec",
+  "failed_log_sha256": "30a9eaf65eee85da92058f8d494c9aa23841b34ab7674e301009de293279cb05",
+  "model_calls": 0,
+  "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+}

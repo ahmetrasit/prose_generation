@@ -1,0 +1,1640 @@
+{
+  "target": "sec1",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:29:04.059798-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_sec1_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "909620c857a9a38d3ff5f8dd8ad6015b13abfa2bebffe4849bf51f791db5f1c9",
+  "package_sha256": "254e4af30aa8ccd0f8500d54c3ce0e30fb98c311b46bd173c06e0220906ecb9b",
+  "input_sha256": "48d251a10a2e217ea3e9bedc8ab21d7d720b2d66545c366c6a25e3f96de6a227",
+  "spawn_sha256": "458ddfb463c75c0ebc3847c2e51ab60eff06a59e5b7778f2cc6e1ce3ffa7dc17",
+  "followup_text_sha256": "35443a44243647d3a65ae41952a0800899391c8ab095d465d5fb40c5dbee7fd2",
+  "agent_id": "01a11f23-05a0-7311-9e05-29bb433f5bec",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-29-13-01a11f23-05a0-7311-9e05-29bb433f5bec.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 91,
+  "turn1_sha256": "465905c036d51f82d78526e7512f6a4ac263c4b558e716c13dca207107a5639c",
+  "turn2": {
+    "completed": true,
+    "rows_total": 118,
+    "rows_added": 27
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 91,
+    "raw_proposal_rows": 27,
+    "unique_additions": 27,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.12.9",
+          "basis": "merchant; deceitful scales",
+          "note": "The commentary makes loss a market account and names underweighing; Hosea condemns a merchant who keeps deceitful scales and loves to oppress. It joins commercial fraud to character."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.8.5",
+          "basis": "false ephah and heavy shekel",
+          "note": "The commentary's underweight scale has a close market scene here: sellers shrink the measure, enlarge the shekel, and wait for the Sabbath to end. Amos exposes fraud hidden behind ordinary trade."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.8.6",
+          "basis": "buying the poor for silver",
+          "note": "The commentary treats a person's due share as a debt; Amos's merchants want to acquire the poor for silver and the needy for sandals. The passage shows false trade turning into human exploitation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.35",
+          "basis": "false measures and weights",
+          "note": "The commentary describes a light scale pan and a diminished measure; Leviticus forbids falsifying measures of length, weight, or capacity. It makes fair exchange a covenantal duty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.36",
+          "basis": "just balance, weights, and measures",
+          "note": "Where the commentary contrasts a short measure with a full one, Leviticus specifies the correct balance and standard measures. The detail grounds just trade in a public rule."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.1",
+          "basis": "false balance",
+          "note": "The commentary's underweight scale is condemned directly: Proverbs calls a false balance an abomination and contrasts it with a full weight. The text adds the moral status of the market device."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.6.11",
+          "basis": "wicked scales and false weights",
+          "note": "The commentary's seller who gives short measure is echoed by Micah's question about acquitting wicked scales and a bag of false weights. The prophet makes commercial fraud a test of justice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.25.15",
+          "basis": "full weight and long days",
+          "note": "The commentary sets the loss of capital against time running out; Deuteronomy links a full, just weight with long life in the land. Honest trade sustains communal life across time."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.13",
+          "basis": "wages kept overnight",
+          "note": "The commentary says a worker's wage has come due; Leviticus forbids keeping a hired worker's pay overnight. It gives the due wage a concrete deadline."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.24.14",
+          "basis": "oppressing the poor hired worker",
+          "note": "The commentary treats work as labor that earns a right; Deuteronomy forbids oppressing a needy hired worker, whether Israelite or resident foreigner. It extends wage justice beyond one's own kin."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.24.15",
+          "basis": "pay before sunset",
+          "note": "The commentary's day laborer reaches the wage deadline at day's end; Deuteronomy requires payment before sunset because the worker depends on it, and says the worker may cry to God. It makes delay a matter of life and justice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.31.7",
+          "basis": "wages changed ten times",
+          "note": "The commentary presents wage as a worker's due; Jacob tells his household that Laban deceived him and repeatedly changed his wages. The narrative gives a concrete case of an employer manipulating the account."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.22.13",
+          "basis": "neighbor's labor without pay",
+          "note": "The commentary says the worker's wage is due; Jeremiah condemns a ruler who builds by making his neighbor work without pay. The unpaid labor is framed as injustice in the ruler's household and public power."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.7.2",
+          "basis": "laborer waiting for wages",
+          "note": "The commentary pictures the day laborer reaching the end of work and awaiting pay; Job compares human life to a hired worker longing for shade and waiting for wages. The image makes mortality itself feel like exhausting labor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hag.1.6",
+          "basis": "wages in a purse with holes",
+          "note": "The commentary describes principal steadily dwindling; Haggai pictures people earning wages only to put them into a pierced purse, alongside meager harvest and food. It turns economic loss into the felt result of wasted labor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.2.22",
+          "basis": "gain from toil under the sun",
+          "note": "The commentary makes time the capital spent in work; Ecclesiastes asks what a person gains from all toil and anxious effort under the sun. The question sharpens the uncertainty of labor's return."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.9.10",
+          "basis": "work before death",
+          "note": "The commentary says the market will close and the worker's day will end; Ecclesiastes urges doing with might what one's hand finds, because there is no work in Sheol. It makes finite time the condition for action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.2",
+          "basis": "spending and laboring without satisfaction",
+          "note": "The commentary warns that capital can be spent without profit; Isaiah asks why people spend money on what is not bread and labor for what does not satisfy. The prophet turns failed exchange into a summons to seek what truly nourishes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.13.11",
+          "basis": "wealth dwindling or gathering gradually",
+          "note": "The commentary describes a trade that eats away at principal; Proverbs contrasts wealth that dwindles with wealth gathered little by little. It adds a scriptural contrast between erosion and patient accumulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.1",
+          "basis": "uncertain tomorrow",
+          "note": "The commentary makes each passing moment part of the capital being spent; Proverbs warns against boasting about tomorrow because one does not know what a day will bring. It grounds the deadline in uncertainty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.16",
+          "basis": "speak truth to one's neighbor",
+          "note": "The commentary says people counsel one another to the truth and to each person's right; Zechariah commands each person to speak truth to a neighbor and judge truthfully at the gates. It gives mutual truth-telling a civic setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.17",
+          "basis": "rebuke a neighbor",
+          "note": "The commentary's reciprocal counsel implies speaking when another is wrong; Leviticus commands rebuking a neighbor rather than silently bearing sin. It makes moral correction part of mutual responsibility."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.24.19",
+          "basis": "gleanings left for the vulnerable",
+          "note": "The commentary calls haqq a person's due share; Deuteronomy requires a forgotten sheaf to remain for the foreigner, orphan, and widow. It makes the vulnerable person's claim visible in ordinary harvest work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.25.4",
+          "basis": "do not muzzle the threshing ox",
+          "note": "The commentary includes work done by hands and the wage due for labor; Deuteronomy forbids muzzling an ox while it threshes. The law recognizes a worker's right to benefit while producing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah, Avot 2:15",
+          "basis": "short day, abundant work, great reward",
+          "note": "The commentary's human life is capital spent in work and paid at day's end; Rabbi Tarfon says the day is short, the work abundant, and the reward great. The saying compresses the commentary's time-and-wage image into one maxim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah, Avot 3:16",
+          "basis": "open shop, ledger, daily collectors",
+          "note": "The commentary imagines time as capital and a final account; Avot depicts the world as an open shop with credit, a ledger, and collectors making daily rounds. It turns daily life into a debt that will be collected."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah, Avot 4:17",
+          "basis": "one hour for deeds in this world",
+          "note": "The commentary insists that work must be done before the market closes; Avot says one hour of repentance and good deeds in this world outweighs the whole life of the world to come. It makes present time the irreplaceable arena of action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Babylonian Talmud, Bava Metzia 83a",
+          "basis": "porters' wages and confiscated cloaks",
+          "note": "The commentary treats a laborer's wage as a right; in this story an employer takes porters' cloaks after they break barrels, and Rav orders him to return the cloaks and pay them. The case gives worker rights priority over the employer's loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 5:7",
+          "basis": "do not delay turning back",
+          "note": "The commentary ends with a person asking for a little more time to give and do right; Sirach warns not to delay turning to the Lord, since judgment can come suddenly. It makes postponement itself a danger."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 11:19",
+          "basis": "wealth cannot secure one's remaining time",
+          "note": "The commentary rejects the belief that amassed wealth can outlast time; Sirach describes a rich person who plans to enjoy his goods but does not know how soon he will die and leave them. It directly joins capital to a life one cannot extend."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 5:15",
+          "basis": "reward of the righteous",
+          "note": "The commentary pictures righteous workers receiving their wage; Wisdom says the righteous live forever and their reward is with the Lord. It gives the wage image an explicitly enduring outcome."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.3.1",
+          "basis": "ninth-hour prayer",
+          "note": "The commentary names al-ʿaṣr as the afternoon prayer; Acts says Peter and John went to the temple at the ninth hour of prayer. The shared practice is an afternoon prayer rhythm, not an identical named rite."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.9.4",
+          "basis": "work while it is day",
+          "note": "The commentary sets the day worker's labor against the day's end; Jesus says his work must be done while it is day, since night is coming when no one can work. The saying makes the workday a figure for a closing opportunity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.20.8",
+          "basis": "workers paid at evening",
+          "note": "The commentary's day laborer reaches the wage deadline at the day's end; in Jesus' vineyard parable the owner orders the workers called and paid when evening comes. The scene directly joins a day's labor to its wage."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.7",
+          "basis": "laborer worthy of wages",
+          "note": "The commentary treats wages as the worker's due; Jesus tells the traveling disciples that the laborer deserves his wages while they stay in a household. It applies the wage-right formula to religious workers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.2",
+          "basis": "steward called to account",
+          "note": "The commentary makes business an account whose capital can be lost; the rich man in Jesus' parable demands an account from a steward accused of squandering his property. It makes stewardship answerable before the owner."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.10",
+          "basis": "faithful or dishonest with little",
+          "note": "The commentary glosses trust as the opposite of betrayal; Jesus says faithfulness in little predicts faithfulness in much, and dishonesty in little predicts dishonesty in much. The next verse applies this to money, making trust a test of stewardship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.19",
+          "basis": "settling accounts after a long time",
+          "note": "The commentary says capital is spent as time passes; in the talents parable the master returns after a long time and settles accounts with the servants entrusted with money. It links investment, delay, and reckoning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.19.13",
+          "basis": "trade until the master's return",
+          "note": "The commentary makes the market open only for a limited time; the nobleman tells servants to conduct business with the entrusted money until he returns. The parable makes the interval before return a period of accountable investment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.19.15",
+          "basis": "returns examined for gains",
+          "note": "The commentary imagines an account closing after a period of work; on returning, the nobleman summons the servants to learn what each gained in trade. The scene makes the yield of entrusted capital reviewable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.19",
+          "basis": "treasure consumed by moth and rust",
+          "note": "The commentary warns that what one owns is used up; Jesus says earthly treasure is vulnerable to moth, rust, and thieves. It supplies a concrete image of stored capital that cannot be secured."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.20",
+          "basis": "treasure that does not decay",
+          "note": "Against the commentary's eroding principal, Jesus tells hearers to store treasure in heaven where moth and rust do not destroy. It redirects investment toward a durable return."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.19",
+          "basis": "rich man expects many years of ease",
+          "note": "The commentary rejects the idea that wealth makes a person outlive time; the rich fool tells his soul to rest because he has goods stored for many years. The speech exposes the assumed conversion of capital into extra life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.20",
+          "basis": "soul required that night",
+          "note": "The commentary says a market will close and a person may then ask for more time; God tells the rich fool his life is required that very night. It makes the deadline sudden and non-negotiable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.13",
+          "basis": "merchants plan trade and profit",
+          "note": "The commentary treats lifetime as capital spent in exchange; James addresses people planning to travel, trade, and make a profit for a year. The passage puts the trader's plan inside an uncertain lifespan."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.14",
+          "basis": "life as a passing mist",
+          "note": "The commentary says the human being remains inside loss as time passes; James calls life a mist that appears briefly and vanishes. It gives the dwindling capital of time an explicit image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.6.2",
+          "basis": "now is the day of salvation",
+          "note": "The commentary warns that the final day has no market or chance to transact; Paul quotes Isaiah to say now is the acceptable time and now the day of salvation. It makes the present the open window for action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.8",
+          "basis": "wage according to labor",
+          "note": "The commentary links work to the wage due; Paul says the planter and waterer are one and each will receive a wage according to labor. It directly connects effort to compensation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Cor.9.10",
+          "basis": "Paul's reading of the unmuzzled ox",
+          "note": "The commentary says the worker has a right to the wage of the work; Paul reads Deuteronomy's rule against muzzling a threshing ox as written for human workers, so the plowman and thresher may share in the crop. This Christian interpretation extends the law's protection to laborers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.5.18",
+          "basis": "worker deserves wages",
+          "note": "The commentary says the wage is owed when work is done; in instructions about elders, Paul cites the saying that the worker deserves his wages. It applies the laborer's due to support for community leaders."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.4",
+          "basis": "withheld harvest wages cry out",
+          "note": "The commentary makes wage a due share; James says the wages withheld from field workers cry out and have reached the Lord of hosts. It links labor injustice to divine hearing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.17",
+          "basis": "faith without works is dead",
+          "note": "The commentary names belief and righteous deeds together; James says faith without works is dead. The passage makes action integral to a living faith, rather than a separate supplement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.1.3",
+          "basis": "work of faith, labor of love, endurance of hope",
+          "note": "The commentary's exception combines belief, righteous work, and patient endurance; Paul recalls the Thessalonians' work of faith, labor of love, and steadfastness of hope. The triad closely joins the same kinds of action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.14",
+          "basis": "mutual correction and patience",
+          "note": "The commentary says people urge one another toward what is right and toward patience; Paul tells the community to admonish the idle, encourage the fainthearted, help the weak, and be patient with all. It supplies concrete forms of reciprocal counsel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.24",
+          "basis": "stir one another to love and good works",
+          "note": "The commentary makes mutual urging toward truth and patience part of the exception; Hebrews tells hearers to consider how to provoke one another to love and good works. It gives mutual exhortation an explicitly ethical aim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.25",
+          "basis": "encourage one another as the Day approaches",
+          "note": "The commentary says the market closes on a coming day; Hebrews commands mutual encouragement all the more as the Day draws near. The approaching deadline intensifies communal action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.36",
+          "basis": "endurance after doing God's will",
+          "note": "The commentary joins patient endurance to a wage still to be received; Hebrews says endurance is needed after doing God's will to receive the promise. It makes waiting part of completed work."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.9",
+          "basis": "harvest in due season",
+          "note": "The commentary's patient worker receives a wage after labor; Paul says not to grow weary in doing good, for a harvest will come in due season if one does not give up. It joins patient action to delayed return."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.8.14",
+          "basis": "abundance supplies another's need",
+          "note": "The commentary calls haqq each person's share and mutual recognition of another's due; Paul says one community's abundance should supply another's need so there may be equality. It turns right share into reciprocal material care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.12",
+          "basis": "reward according to each person's work",
+          "note": "The commentary presents a wage arriving after a period of labor; the returning Christ says he brings recompense to repay each according to work. It makes the final wage explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.58",
+          "basis": "steadfast work not in vain",
+          "note": "The commentary couples labor with patience and a later wage; Paul urges steadfast, abundant work, saying labor in the Lord is not in vain. It assures the worker that present effort has a future result."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.3.10",
+          "basis": "work and daily bread",
+          "note": "The commentary includes manual labor and the wage earned by it; Paul tells the church that one unwilling to work should not eat. It expresses work as a condition of ordinary sustenance, though its context concerns idle members."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.6.1",
+          "basis": "surety for a neighbor",
+          "note": "The commentary's lexical branch calls sabīr a guarantor standing behind a debt; Proverbs addresses someone who has become surety for a neighbor. It shows the personal risk carried by a guarantor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.8.36",
+          "basis": "profit of the world, loss of the self",
+          "note": "The commentary says the ultimate loss is the person and family; Jesus asks what profit it is to gain the whole world and forfeit one's life. The saying puts market gain directly against losing the self."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.46",
+          "basis": "merchant buys the pearl of great value",
+          "note": "The commentary presents faith and righteous action as a better trade; Jesus' merchant sells all he has to buy one pearl of great value. The parable gives costly exchange a positive, kingdom-directed outcome."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.6.20",
+          "basis": "believers bought at a price",
+          "note": "The commentary says God buys the believers' selves and promises a return; Paul says the community was bought at a price and therefore should glorify God in the body. The purchase image makes belonging entail action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.5.9",
+          "basis": "people purchased for God by blood",
+          "note": "The commentary pictures God as buyer of believers' lives; the heavenly song says the slain one purchased people for God by his blood. The image parallels redemption as costly acquisition while naming a different purchaser's price."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.18",
+          "basis": "ransom not paid in silver or gold",
+          "note": "The commentary's divine purchase turns a person's life into capital; Peter says believers were ransomed from inherited futile conduct not with perishable silver or gold. It keeps the purchase image while changing both price and emphasis."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.7",
+          "basis": "farmer waits for the crop",
+          "note": "The commentary makes patience the condition of receiving a later wage; James compares patient endurance to a farmer waiting for the precious crop. It gives patience a concrete work-and-harvest scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.8",
+          "basis": "patience because the Lord's coming is near",
+          "note": "The commentary urges mutual patience as the end approaches; James tells hearers to be patient and establish their hearts because the Lord's coming is near. It binds endurance to a closing time."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.12",
+          "basis": "faith and patience inherit promises",
+          "note": "The commentary pairs belief with patience and a future wage; Hebrews urges imitation of those who inherit promises through faith and patience. It makes endurance part of receiving what is promised."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phlm.1.18",
+          "basis": "another person stands behind a debt",
+          "note": "The commentary's lexical branch calls sabīr a guarantor; Paul tells Philemon to charge any debt or wrong by Onesimus to Paul's own account. It gives the guarantor image a concrete personal act of bearing another's liability."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah, Avot 1:17",
+          "basis": "action over study alone",
+          "note": "The commentary's exception requires belief expressed through righteous deeds; Avot says action is the essential thing, not study alone. It gives Jewish ethical weight to the move from conviction to practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 5:8",
+          "basis": "what profit came from wealth and boasting",
+          "note": "The commentary calls loss a failed account; at judgment Wisdom has the wicked ask what profit their wealth and boasting brought. It turns the market's profit question into a final moral reckoning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.20.15",
+          "basis": "owner's generosity beyond proportional hours",
+          "note": "The commentary presents work as earning a due wage, while also saying the patient receive reward beyond calculation; the vineyard owner gives the same denarius for one hour and a full day and defends his generosity. The parable presses gift beyond proportional labor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.9",
+          "basis": "use wealth for lasting dwellings",
+          "note": "The commentary asks whether capital is spent on a durable return; Jesus tells disciples to use worldly wealth in a way that may welcome them into eternal dwellings. The link is a deliberate investment whose payoff exceeds the market."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.4.4",
+          "basis": "wage counted as debt, not gift",
+          "note": "The commentary says a worker's wage is due and uses the language of a right; Paul says a worker's wage is reckoned as debt rather than grace. His argument about justification makes the earned-wage analogy precise while distinguishing it from a gift."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Rom.1.17",
+          "basis": "Paul's reception of Habakkuk's faithfulness",
+          "note": "The commentary makes belief a condition for escaping loss; Paul quotes Habakkuk's righteous one living by faith in his account of the gospel's revealed righteousness. This Christian reading shifts the verse toward faith in the gospel from Habakkuk's faithful endurance under threat."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.20.12",
+          "basis": "workers protest equal pay for unequal hours",
+          "note": "The commentary speaks of the due wage for labor; the first-hired workers protest that the one-hour workers were made equal to them after they bore the day's heat. The complaint exposes the tension between measured effort and equal payment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.21",
+          "basis": "rich toward God rather than stored wealth",
+          "note": "The commentary says amassed property cannot make its owner outlive time; Jesus concludes that the person who stores treasure for himself but is not rich toward God is a fool. It gives the alternative to temporal accumulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.26",
+          "basis": "fixed gulf after death",
+          "note": "The commentary says the final day has no market in which to act or settle accounts; in the rich man and Lazarus story a fixed gulf prevents passage after death. It pictures the irreversibility of the closed opportunity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Phil.3.7",
+          "basis": "former gains counted as loss",
+          "note": "The commentary distinguishes a losing trade from the profitable exchange of faith and deeds; Paul says what had been gain he now counts as loss because of Christ. The passage reverses the account's valuation, making apparent profit a loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.8.6",
+          "basis": "selling grain refuse as good grain",
+          "note": "The commentary describes a market where the scale makes a short measure; Amos's sellers wait to sell even the refuse of grain. This adds deception about quality to the commentary's image of deception by weight."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Eccl.2.22",
+          "basis": "Arabic root ع م ل; package table's unverified sound correspondence to Hebrew עמל",
+          "note": "The commentary labels ʿamal as intentional work, manual labor, and its wage; Ecclesiastes uses עמל for toil and asks its gain. The shared labor term links work to uncertain return, though the table does not verify cognacy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.15.6",
+          "basis": "Arabic root ء م ن; package table's unverified sound correspondence to Hebrew אמנ",
+          "note": "The commentary labels belief with the root ء م ن; Genesis says Abram trusted God and it was counted as righteousness. The Hebrew usage adds trust in a promise to the commentary's faith-and-action condition; cognacy remains unverified."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Hab.2.4",
+          "basis": "Arabic root ء م ن; package table's unverified sound correspondence to Hebrew אמנ",
+          "note": "The commentary makes belief one condition for escaping loss; Habakkuk says the righteous live by faithfulness (emunah) amid arrogant violence. The Hebrew context adds steadfast fidelity to belief; the table's correspondence is unverified."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "Babylonian Talmud, Shabbat 31a",
+          "basis": "Arabic root ء م ن; package table's unverified sound correspondence to Hebrew/Aramaic אמנ",
+          "note": "The commentary glosses amānah as trust opposed to betrayal; at judgment the Talmud asks whether a person conducted business faithfully. This joins trust to commerce in the same concrete setting, though cognacy is unverified."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.41.49",
+          "basis": "Arabic root ص ب ر; package table's unverified sound correspondence to Hebrew צבר",
+          "note": "The commentary's source lexical branch calls صبرة a heap sold without measure; Genesis uses צבר for Joseph's grain piled like sea sand beyond counting. The same heap image supports a possible cognate, but the Hebrew describes storage, not an unmeasured sale."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.13.25",
+          "basis": "Arabic root خ س ر; package table's unverified sound correspondence to Hebrew חסר",
+          "note": "The commentary labels loss by خ س ر, including a deficit; Proverbs says the wicked person's belly lacks, using חסר. The specific lack-image fits, but the package offers only an unverified sound correspondence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Josh.1.8",
+          "basis": "Arabic root ص ل ح; package table's unverified sound correspondence to Hebrew צלח",
+          "note": "The commentary labels righteous deeds صالحات; Joshua uses צלח for prospering through attention to Torah. The sound and success-related usage may illuminate the label, but the meanings differ and cognacy is unverified."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.30.8",
+          "basis": "Arabic root ح ق ق; package table's unverified sound correspondence to Hebrew חקק",
+          "note": "The commentary glosses haqq as a person's right or share; Proverbs calls daily bread the speaker's prescribed portion (חֹק). The shared allotment sense is specific, but the root connection remains unverified."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.11",
+          "basis": "just balances belong to the Lord",
+          "note": "The commentary treats a short measure as a concrete market loss; Proverbs says just balances and weights belong to the Lord. This adds divine ownership to the duty of accurate trade."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.31.6",
+          "basis": "God weighs the speaker in just scales",
+          "note": "The commentary joins deficient scales to a final account; Job asks to be weighed in a just balance so God may know his integrity. The verse brings commercial measurement into divine judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.5.14",
+          "basis": "wealth lost in a bad venture",
+          "note": "The commentary describes trade consuming its principal; Ecclesiastes says wealth can be lost in a bad venture, leaving a father with nothing to pass on. It gives the loss of capital a concrete household consequence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.5.15",
+          "basis": "nothing carried away from toil",
+          "note": "The commentary says accumulated wealth cannot outlast a person's time; Ecclesiastes says a person leaves as naked as at birth and takes nothing from toil. It makes the final loss bodily and irreversible."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.23.5",
+          "basis": "wealth takes wings",
+          "note": "The commentary rejects the belief that wealth can secure a person's future; Proverbs says wealth can suddenly make wings and fly away. It adds an image of capital disappearing beyond its owner's control."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.4",
+          "basis": "riches fail on the day of wrath",
+          "note": "The commentary contrasts a losing trade with the righteous path; Proverbs says riches do not profit on the day of wrath, while righteousness delivers from death. It directly contrasts wealth with the return of right conduct."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.1",
+          "basis": "remember the creator before difficult days",
+          "note": "The commentary says a late plea for more time comes after the market has closed; Ecclesiastes urges remembering the creator in youth before the difficult days arrive. It makes the timing of good action urgent."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.11",
+          "basis": "faithfulness with money and true riches",
+          "note": "The commentary sets trust against betrayal in a commercial setting; Jesus says that failure to be faithful with unrighteous wealth means no one will entrust true riches. It makes money management a test of trustworthiness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.13",
+          "basis": "God and wealth as rival masters",
+          "note": "The commentary frames the righteous trade as choosing the lasting good over a losing exchange; Jesus says a person cannot serve both God and mammon. It makes wealth a question of allegiance, not merely its amount."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.27",
+          "basis": "money placed with bankers for interest",
+          "note": "The commentary describes capital invested for gain; in the talents parable the master says the servant should have placed the money with bankers so it could return with interest. It makes the expected return explicit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.21",
+          "basis": "faithful servant receives greater charge",
+          "note": "The commentary connects faithful work to a wage; the master praises a servant faithful over a little, entrusts him with much, and invites him into joy. It adds increased responsibility as the reward for stewardship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.20.13",
+          "basis": "agreed denarius as a worker's due",
+          "note": "The commentary says a wage is an obligation once due; the vineyard owner answers a complaint by pointing to the agreed denarius. This gives the parable's wage a contractual basis alongside its generosity to later workers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.2.10",
+          "basis": "faithful through death, crowned with life",
+          "note": "The commentary couples patience with a wage at the end of the worker's time; Revelation tells Smyrna to remain faithful even to death and promises the crown of life. It makes endurance under threat part of the reward image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.33",
+          "basis": "selling goods to give alms and store unfailing treasure",
+          "note": "The commentary presents a trade whose return does not fail and recalls a plea for time to give charity; Jesus tells hearers to sell possessions, give to the poor, and provide an unfailing heavenly treasure. It makes generosity a deliberate transfer from perishable wealth."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.19.17",
+          "basis": "lending to the Lord by helping the poor",
+          "note": "The commentary says God is the buyer and guarantor of a promised return; Proverbs says whoever is generous to the poor lends to the Lord, who repays the giver. It casts care for the poor as a loan whose return comes from God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.14.14",
+          "basis": "repayment at the resurrection",
+          "note": "The commentary links righteous deeds to a later wage; Jesus says a host who invites the poor, disabled, lame, and blind will be repaid at the resurrection of the righteous. It specifies generosity that cannot be repaid in the present market."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.40",
+          "basis": "service to the least counted as service to the king",
+          "note": "The commentary says mutual counsel must recognize another person's due; in the judgment scene the king identifies care for the least of his siblings as care for himself. It gives acts of service a direct relation to the final judge."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 4:9",
+          "basis": "alms stored as treasure for a future day",
+          "note": "The commentary contrasts wealth that perishes with a trade that does not fail; Tobit says alms lay up a good treasure for the day of need. It makes generosity a future-oriented deposit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.27.17",
+          "basis": "others receive the wealth the hoarder prepared",
+          "note": "The commentary says wealth cannot outlast its owner; Job says the righteous will wear the garments the wicked prepared and the innocent will divide the silver. This neighboring verse makes the transfer of accumulated wealth explicit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.6",
+          "basis": "God rewards those who seek him",
+          "note": "The commentary makes belief one condition of escaping loss and describes a later wage; Hebrews says faith is necessary to approach God and that God rewards those who seek him. It joins faith to expected recompense."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Babylonian Talmud, Shabbat 31a",
+          "basis": "fixed times for Torah study at judgment",
+          "note": "The commentary treats a person's time as capital that must be spent before the account closes; Shabbat 31a asks at judgment whether one fixed times for Torah study. This adds deliberate use of time to the passage's separate question about honest business."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.17.12",
+          "basis": "shared support keeps hands steady until sunset",
+          "note": "The commentary joins mutual urging to patience with the end of the workday; Aaron and Hur support Moses' hands until sunset so they remain steady. The scene adds physical, shared endurance through the day's limit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.32.4",
+          "basis": "Arabic root ء م ن; package table's unverified sound correspondence to Hebrew אמנ",
+          "note": "The commentary glosses amānah as trust opposed to betrayal; Deuteronomy calls God faithful and without injustice. This Hebrew use joins fidelity to justice, though the root correspondence remains unverified."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.15.8",
+          "basis": "Arabic root خ س ر; package table's unverified sound correspondence to Hebrew חסר",
+          "note": "The commentary defines loss through diminution and deficiency; Deuteronomy commands opening a hand to a poor person for whatever he lacks (חסר). It connects lack to a neighbor's material need, though cognacy is unverified."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.39.7",
+          "basis": "Arabic root ص ب ر; package table's unverified sound correspondence to Hebrew צבר",
+          "note": "The commentary's Arabic lexical branch calls a ṣubrah a heap sold without weighing; the psalm uses צבר for heaping up wealth and says the person does not know who will gather it. The heap becomes a warning about wealth outliving its owner; cognacy is unverified."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.27.16",
+          "basis": "Arabic root ص ب ر; package table's unverified sound correspondence to Hebrew צבר",
+          "note": "The commentary's lexical branch connects ṣubrah with a heap; Job says the wicked may heap up silver like dust. The shared heap image is specific, while the sound correspondence remains unverified."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.17.12",
+          "basis": "Arabic root ء م ن; package table's unverified sound correspondence to Hebrew אמנ",
+          "note": "The commentary's Arabic lexical gloss associates amānah with trust and firmness; Exodus describes Moses' hands as steady (emunah) until sunset. The Hebrew usage gives the root a bodily sense of sustained firmness, but the sound correspondence is unverified."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "aff8d89e36f0681945a319290ea9d12df576f0087247c9e6cdeb047792ba90dd",
+    "followup_sha256": "aff8d89e36f0681945a319290ea9d12df576f0087247c9e6cdeb047792ba90dd"
+  },
+  "consolidation_error": null,
+  "list_sha256": "fe245535079af5295d6dac7bd25418d78bd339f278876d1b7ec6ccc41a54bdba",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 733726,
+    "cached_input_tokens": 576768,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 78540,
+    "reasoning_output_tokens": 64002,
+    "total_tokens": 812266
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:41:09.273Z",
+  "artifacts": {
+    "started.json": "42110afbeb589eb41f1456ebb29ab19caae9ff1b30b0341467474caf8778778e",
+    "input.json": "48d251a10a2e217ea3e9bedc8ab21d7d720b2d66545c366c6a25e3f96de6a227",
+    "prompt.md": "909620c857a9a38d3ff5f8dd8ad6015b13abfa2bebffe4849bf51f791db5f1c9",
+    "package.md": "254e4af30aa8ccd0f8500d54c3ce0e30fb98c311b46bd173c06e0220906ecb9b",
+    "spawn.md": "458ddfb463c75c0ebc3847c2e51ab60eff06a59e5b7778f2cc6e1ce3ffa7dc17",
+    "followup.txt": "35443a44243647d3a65ae41952a0800899391c8ab095d465d5fb40c5dbee7fd2",
+    "turn1.json": "3166e958070ad10893d54a9a309ee030a3dceeb446abd5951010f3624909e121",
+    "turn1.list.tsv": "465905c036d51f82d78526e7512f6a4ac263c4b558e716c13dca207107a5639c",
+    "followup.tsv": "aff8d89e36f0681945a319290ea9d12df576f0087247c9e6cdeb047792ba90dd",
+    "list.tsv": "fe245535079af5295d6dac7bd25418d78bd339f278876d1b7ec6ccc41a54bdba",
+    "consolidation.json": "5b7c903dd5561894a4d3a8a11f8b1f1b6f74864416f25c2590f40d8d77e95651",
+    "validation.json": "43fb32b5c146806d571bc4d9f271fdb4aabd48a4a67e07c168f4456d11aafaf7",
+    "proposal_validation.json": "14cc67688bf5df39f9a48f7101e300eff99024c03c463c5f13f471a780d81ec6",
+    "tool_calls.json": "f4df061b9cea56581b6b8ce80271424849fc7505718c0fd4e0208e7097e24c04",
+    "session.json": "21091aad88468134af2fb0f4b248379884fceaf0c4774d42f33a14da02ca0a8c",
+    "session.events.jsonl": "04e77e55c6c70fd7b8fed6d72ce08bfea6682e90afe7be70bf979e3c973b8e9e"
+  },
+  "usd_equivalent": 0.060733,
+  "requests": 11,
+  "max_request_input_tokens": 99296,
+  "total_input_tokens": 733726,
+  "total_cached_input_tokens": 576768,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 78540,
+  "policy_notes": [
+    "turn 1 call_ded58b20497f4b779d23fb6dc3b9fd39: local script on its own files (perl)",
+    "turn 1 call_2f84c95c23af4c48b0226b70b96cdfbd: scratch file in the system temp directory: /private/tmp/s103-luna-ordered.tsv",
+    "turn 1 call_2f84c95c23af4c48b0226b70b96cdfbd: local script on its own files (perl)",
+    "turn 1 call_e8823361f54b435d823e3b5f6d0753e7: local script on its own files (perl)",
+    "turn 1 call_32e08a60d75747a59085416dbbe75aa6: local script on its own files (perl)"
+  ]
+}

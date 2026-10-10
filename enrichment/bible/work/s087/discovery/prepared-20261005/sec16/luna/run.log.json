@@ -1,0 +1,1605 @@
+{
+  "target": "sec16",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:21:58.889059-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec16_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "fc9bbb099813a9cccd5b2775f94803e35691d9d3df7de798be6544b6350d23c5",
+  "package_sha256": "91dd19b75520f6305e1b172adde70a90cd7a716b7ac53141fba1c3f3cd001b03",
+  "input_sha256": "dca4fd8ed18919c4a7130c05a463c0cf57c48e6826505dff48d8c79ee77d9fd2",
+  "spawn_sha256": "84a6bdf0760a2b9d0effed206d62d2b3a1ab0bff19970ac6ca375093cd8f2cfd",
+  "followup_text_sha256": "38cfad20bcb2f4ad848854fa9ee8a78e598237169cc7aa036e11ca2ed9446607",
+  "agent_id": "01a10d1c-4cc7-7aa2-b50f-71443eab4dc6",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-28-40-01a10d1c-4cc7-7aa2-b50f-71443eab4dc6.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "accepted",
+  "check": "findings",
+  "turn1_rows": 70,
+  "turn1_sha256": "2611b45ca3fefc3cccee5c6f7c240f3dc92ed6a236bfd67ec4b136b281158723",
+  "turn2": {
+    "completed": true,
+    "rows_total": 113,
+    "rows_added": 43
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 70,
+    "raw_proposal_rows": 43,
+    "unique_additions": 43,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.4",
+          "basis": "wicked as chaff",
+          "note": "Psalm 1 calls the wicked wind-driven chaff; that makes the commentary’s 87:5 debris a human moral image as well as dead vegetation, set against the righteous tree."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.3",
+          "basis": "tree that does not wither",
+          "note": "The commentary places 87:5’s spent pasture opposite 87:17’s good and abiding lot; Psalm 1’s planted tree bears fruit and its leaf does not wither."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.6",
+          "basis": "grass and fading flower",
+          "note": "Isaiah says all flesh is grass and its beauty a field flower; this gives the pasture’s decay in 87:5 a direct image of mortal transience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.8",
+          "basis": "word enduring forever",
+          "note": "After grass and flower fade, Isaiah says God’s word stands forever; beside 87:6’s promised recitation and 87:17’s abiding good, the contrast joins fading growth to enduring revelation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.73.25",
+          "basis": "desire in heaven and earth",
+          "note": "The psalmist says there is none in heaven besides God and nothing on earth he desires; this is a concrete preference for God over earthly life and goods."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.73.26",
+          "basis": "God as lasting portion",
+          "note": "When flesh and heart fail, God remains the psalmist’s portion forever; that makes 87:17’s better, more lasting share a personal trust rather than a material asset."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.49.17",
+          "basis": "wealth left at death",
+          "note": "The rich person takes nothing when he dies; the verse sharply limits the value of the worldly goods preferred in 87:16."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.102.27",
+          "basis": "creation changes, God remains",
+          "note": "The heavens and earth wear out and change, while God remains the same; this gives 87:17’s permanence a creation-scale contrast."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.51.6",
+          "basis": "earth wears out, salvation endures",
+          "note": "Isaiah says earth and heavens pass while God’s salvation and righteousness endure; it closely frames the commentary’s contrast between transient dunya and what lasts."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.15",
+          "basis": "human life like grass",
+          "note": "Human days are like grass and a field flower that passes; this echoes 87:5’s pasture turned to debris and the commentary’s low valuation of worldly life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.17",
+          "basis": "steadfast love everlasting",
+          "note": "Against the human flower that fades, the next verse says God’s steadfast love is everlasting; it supplies a specific enduring counterpart to the commentary’s 87:17."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.19",
+          "basis": "wicked as burned stubble",
+          "note": "In WLC numbering (English Malachi 4:1), the coming day makes the arrogant and evildoers stubble consumed by fire; it links discarded vegetation with the fate of the rejected."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.1.25",
+          "basis": "dross removed by refining",
+          "note": "God says he will smelt away Zion’s dross; this gives the commentary’s “chosen ones with no dregs” an interpretive counterpart in purification."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.22.18",
+          "basis": "Israel called metal dross",
+          "note": "Ezekiel calls the house of Israel dross in a smelting furnace; unlike the commentary’s image of a low human class, the metaphor indicts a whole corrupt people as refuse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.19",
+          "basis": "choose life or death",
+          "note": "Moses sets life and death before Israel and urges them to choose life; it is a concrete scriptural choice of a life-giving course, though Deuteronomy frames it as covenantal life rather than the Qur’anic afterlife contrast."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.25.34",
+          "basis": "birthright traded for food",
+          "note": "Esau eats and sells his birthright, then the narrator says he despised it; the scene shows immediate bodily appetite displacing a more valuable inheritance, like the commentary’s critique of preferring the lower lot."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.5.15",
+          "basis": "remnant seeking good and justice",
+          "note": "Amos tells Israel to hate evil, love good, and establish justice, with the hope that God may be gracious to Joseph’s remnant; this concretizes the commentary’s bakiyya as a moral remainder holding to goodness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.19.18",
+          "basis": "remnant that did not bow",
+          "note": "God preserves seven thousand who have not bowed to Baal; the faithful remnant gives a concrete Jewish-scriptural instance of the commentary’s people retaining their religion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.2",
+          "basis": "everlasting life or contempt",
+          "note": "Daniel’s sleepers awake to everlasting life or everlasting disgrace; this directly supplies divergent lasting outcomes for the commentary’s better afterlife."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Eccl.3.19",
+          "basis": "human and animal death",
+          "note": "Qoheleth says humans and animals share the same fate and all return to dust; this resists reading mortal life as a route to distinct postmortem destinies."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Eccl.3.21",
+          "basis": "uncertain upward spirit",
+          "note": "Qoheleth asks who knows whether the human spirit goes upward and the animal spirit downward; the question expressly leaves uncertain the afterlife distinction asserted by 87:17."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Eccl.9.5",
+          "basis": "dead know nothing",
+          "note": "Qoheleth says the dead know nothing and have no further reward; this is a direct countervoice to the commentary’s claim that the afterlife is the better, more abiding lot."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Prov.16.8",
+          "basis": "righteous little over unjust abundance",
+          "note": "Proverbs says a little with righteousness is better than great revenues with injustice; it qualifies the commentary’s lexicon note that wealth merits “good” only when abundant and from a clean source by making integrity outweigh abundance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.16",
+          "basis": "little of righteous better",
+          "note": "The psalm says the righteous person’s little is better than the abundance of many wicked; it joins “better” to clean moral source while reversing the lexicon’s emphasis on plenty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 4:16",
+          "basis": "world as antechamber",
+          "note": "Avot calls this world an antechamber before the world to come and urges preparation for the banquet hall; it makes the commentary’s worldly/afterlife contrast a practical choice of where to prepare."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 4:17",
+          "basis": "better hour in world to come",
+          "note": "Avot says an hour of bliss in the world to come is better than the whole life of this world; this directly states the comparison in 87:16–17, while also valuing repentance and good deeds in this life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "2 Maccabees 7:9",
+          "basis": "resurrection after martyrdom",
+          "note": "One son refuses the king’s terms and trusts the King of the universe to raise him to renewed life; fidelity is chosen over a threatened present life for enduring life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "2 Maccabees 7:14",
+          "basis": "death accepted for resurrection",
+          "note": "A brother says he prefers death at human hands while relying on God to raise him; his choice under pressure resembles the commentary’s contrast of temporal life and a better lasting future."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "2 Maccabees 7:36",
+          "basis": "short pain, ever-flowing life",
+          "note": "The surviving brother contrasts brief suffering with the brothers’ share in ever-flowing life; it makes the temporal-versus-abiding comparison explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 3:1",
+          "basis": "souls held by God",
+          "note": "The souls of the righteous are in God’s hand and are at peace despite seeming lost; this answers the commentary’s debris/forgetting side with what remains secure before God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 3:4",
+          "basis": "hope of immortality",
+          "note": "Though the righteous seem punished and dead, their hope is full of immortality; this gives 87:17’s lasting good a specific postmortem sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.3.12",
+          "basis": "wheat gathered, chaff burned",
+          "note": "John’s winnowing image gathers wheat into the barn and burns chaff; it directly joins the commentary’s debris image to a separation of lasting good from refuse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.3.17",
+          "basis": "wheat and chaff at judgment",
+          "note": "Luke’s parallel report likewise gathers wheat and burns chaff; its own version makes the commentary’s sorting of selected and discarded outcomes eschatological."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.30",
+          "basis": "weeds gathered for burning",
+          "note": "At harvest the weeds are gathered and burned while wheat is stored; the parable gives the commentary’s “selection” a concrete scene of separating what is retained from what is discarded."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.48",
+          "basis": "good fish and bad fish",
+          "note": "The net’s good fish are kept in vessels and the bad thrown away; this closely matches the commentary’s selected, dreg-free lot versus discarded residue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.32",
+          "basis": "sheep separated from goats",
+          "note": "The Son of Man separates all nations as a shepherd separates sheep and goats; this makes the commentary’s two lots a final moral sorting of people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.46",
+          "basis": "eternal punishment and life",
+          "note": "The separated groups go to eternal punishment or eternal life; it gives concrete lasting consequences to the selection scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.19",
+          "basis": "treasures decay on earth",
+          "note": "Jesus warns that earthly treasure is vulnerable to moth and corrosion; this explains why the life and goods preferred in 87:16 cannot be the abiding good of 87:17."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.20",
+          "basis": "treasure in heaven",
+          "note": "Jesus instead directs disciples to treasure in heaven where it is not destroyed; this supplies a specific enduring alternative to earthly preference."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.8.36",
+          "basis": "gain the world, lose life",
+          "note": "Jesus asks what profit it is to gain the whole world and forfeit one’s life; this directly rebukes the preference for worldly life in 87:16."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.42",
+          "basis": "chosen portion not taken away",
+          "note": "Jesus says Mary chose the good portion that will not be taken from her; it combines choosing what is better with its permanence, as in 87:17."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.20",
+          "basis": "rich fool dies that night",
+          "note": "God tells the prosperous barn-builder that his life is demanded that night; this exposes the fragility of the worldly accumulation preferred in 87:16."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.21",
+          "basis": "not rich toward God",
+          "note": "Jesus concludes that the one who stores treasure for himself but is not rich toward God is a fool; the contrast gives moral content to what counts as good wealth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.25",
+          "basis": "reversal after death",
+          "note": "Abraham tells the rich man he received good things in life while Lazarus received bad, but now Lazarus is comforted and he is in anguish; this is a concrete reversal of worldly valuation in the afterlife."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.25",
+          "basis": "life in this world versus eternal life",
+          "note": "Jesus says the one who loves life in this world loses it, while the one who hates it keeps it for eternal life; this directly addresses the preference named in 87:16."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.3.8",
+          "basis": "all things counted as rubbish",
+          "note": "Paul counts all his former gains as loss and rubbish compared with gaining Christ; this makes the commentary’s debris image a deliberate revaluation of worldly status and profit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.3",
+          "basis": "others counted more significant",
+          "note": "Paul tells believers in humility to count others more significant than themselves; this is a concrete ethical use of the preference verb’s sense of putting another ahead of oneself."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.4",
+          "basis": "look to others’ interests",
+          "note": "Paul says not to look only to one’s own interests but also to those of others; it completes the commentary’s sense of īthār as preferring another over self."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.34",
+          "basis": "better and abiding possession",
+          "note": "Believers accept confiscation of property because they know they have a better and abiding possession; this nearly reproduces the commentary’s contrast between worldly goods and what is better and lasting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.25",
+          "basis": "choose hardship over sin’s pleasure",
+          "note": "Moses chooses mistreatment with God’s people over the temporary enjoyment of sin; this makes the choice against present worldly pleasure explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.26",
+          "basis": "greater wealth and future reward",
+          "note": "Moses regards reproach as greater wealth than Egypt’s treasures because he looks to the reward; the verse directly reorders worldly wealth by an enduring good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.35",
+          "basis": "refuse release for better resurrection",
+          "note": "Some tortured witnesses refuse release so they may obtain a better resurrection; this gives preference for the afterlife a concrete cost in present life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.2.17",
+          "basis": "world passes, God’s will remains",
+          "note": "The world and its desires pass away, but the one doing God’s will abides forever; this directly pairs 87:16’s worldly life with 87:17’s lasting alternative."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.24",
+          "basis": "flesh as grass",
+          "note": "Peter quotes Isaiah’s grass and flower fading to describe all flesh; this brings the commentary’s pasture/debris image into an explicit contrast with permanence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Pet.1.25",
+          "basis": "Isaiah’s word applied to gospel",
+          "note": "Peter applies Isaiah’s enduring word to the good news preached to his hearers; this Christian reading makes the commentary’s recitation in 87:6 an enduring proclamation amid fading life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.18",
+          "basis": "seen temporary, unseen eternal",
+          "note": "Paul contrasts visible things that are temporary with unseen things that are eternal; this states the temporal/permanent valuation underlying 87:16–17."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.1.23",
+          "basis": "departing with Christ far better",
+          "note": "Paul desires to depart and be with Christ because that is far better; it directly values the future with Christ above present life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.1.24",
+          "basis": "remaining for others’ sake",
+          "note": "Paul says staying in the flesh is more necessary for the Philippians; read beside his desire to depart, this shows present life chosen for service to others rather than its own worldly advantage."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.17",
+          "basis": "hope not in uncertain riches",
+          "note": "Paul tells the rich not to set hope on uncertain wealth but on God; this sharpens the commentary’s question of which goods deserve to be preferred."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.19",
+          "basis": "treasure for the future",
+          "note": "Rich believers are to store a good foundation for the future and take hold of real life; this connects wealth rightly used with a more enduring life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.10",
+          "basis": "rich person fades like flower",
+          "note": "James says the rich person will pass away like a field flower; the image echoes the commentary’s pasture that becomes debris and exposes worldly status as transient.",
+          "raw_ref": "SBLGNT:James.1.10",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.11",
+          "basis": "flower withers in heat",
+          "note": "The next verse depicts the flower falling and its beauty perishing; it extends the specific fading-flower image against the permanence of 87:17.",
+          "raw_ref": "SBLGNT:James.1.11",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.1.9",
+          "basis": "eternal destruction",
+          "note": "Paul describes the fate of those who reject God as eternal destruction; this is a contrary lasting outcome to the good and abiding afterlife in 87:17."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.12",
+          "basis": "gold beside hay and straw",
+          "note": "Paul contrasts durable building materials with wood, hay, and straw; this gives the commentary’s distinction between selected quality and debris a testable image of works."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.13",
+          "basis": "work tested by fire",
+          "note": "Each person’s work is revealed and tested by fire; beside 87:5’s debris and 87:17’s better lasting lot, the verse makes the sorting depend on what endures the test."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.20",
+          "basis": "honorable and dishonorable vessels",
+          "note": "A household contains gold and silver vessels as well as wooden and earthen ones, some for honor and some for dishonor; this is a concrete image of differentiated worth rather than a shared story."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.21",
+          "basis": "cleansed vessel for honorable use",
+          "note": "The one who cleanses himself becomes a vessel set apart for honorable use; this adds purification to the commentary’s image of selecting what contains no dross."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "2 Clement 6:1-7",
+          "basis": "this world and the next as opposed masters",
+          "note": "The homily says the present and coming worlds are enemies and asks what profit is gaining the whole world while losing one’s soul; it turns the commentary’s choice into an explicit refusal to serve both."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, Sermon 103",
+          "basis": "Martha’s present service and Mary’s lasting portion",
+          "note": "Augustine reads Martha’s activity as the present life and Mary’s contemplation as the life to come; this interprets Luke’s portion “not taken away” as the permanent good over the present age."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "John Chrysostom, Homilies on Matthew 20",
+          "basis": "heavenly treasure through almsgiving",
+          "note": "Chrysostom reads Jesus’ contrast between earthly and heavenly treasure as a call to give wealth to the poor; this makes the commentary’s choice of the better good an ethical use of possessions."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zeph.3.12",
+          "basis": "humble remnant seeks refuge",
+          "note": "Zephaniah says God leaves a humble and lowly people who take refuge in him; this unites the commentary’s “low” valuation and its bakiyya that still has religious substance, reversing any equation of low social standing with refuse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zeph.3.13",
+          "basis": "remnant does no injustice",
+          "note": "The remnant of Israel speaks no lies and does no injustice; this makes the commentary’s morally intact remainder concrete, rather than treating what remains as mere debris."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.1.17",
+          "basis": "midwives defy Pharaoh",
+          "note": "The midwives fear God and refuse Pharaoh’s order to kill the Hebrew boys; this is a specific biblical choice of divine allegiance over a threatening ruler’s power in this life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.8.23",
+          "basis": "magicians recognize God’s sign",
+          "note": "In WLC numbering (English Exodus 8:19), Pharaoh’s magicians call the plague “the finger of God” but remain in the Egyptian narrative without the Qur’anic magicians’ explicit refusal of Pharaoh and acceptance of death; the difference sharpens the commentary’s choice-under-threat scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.3.18",
+          "basis": "refusal despite the furnace",
+          "note": "The three Judeans say they will not serve the king’s gods even if God does not rescue them; this is another concrete choice of fidelity over threatened present life, like the magicians in the commentary’s cited Qur’anic scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.19",
+          "basis": "song placed in Israel’s mouths",
+          "note": "Moses is told to write and teach a song for Israel and put it in their mouths; this connects 87:6’s divinely given recitation with a text deliberately made memorable across generations."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.21",
+          "basis": "song not forgotten",
+          "note": "The song will not be forgotten from descendants’ mouths even amid calamity; this is a concrete scriptural counterpoint to 87:6’s promise that the prophet will not forget recitation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.41.51",
+          "basis": "Hebrew נשה, forget",
+          "note": "The commentary labels Arabic نسي (n-s-y) in 87:6; Hebrew נשה (n-š-h), in Joseph’s “God made me forget” name explanation, is a related weak-root form. Here forgetting is relief from past hardship, unlike the Qur’anic promise of retained recitation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.23.18",
+          "basis": "Hebrew אַחֲרִית, future",
+          "note": "The commentary’s form ٱلْءَاخِرَة (al-ākhirah) and Hebrew אַחֲרִית (ʾaḥarit), “future/outcome,” reflect the cognate Semitic root ʾ-ḥ-r/ʾ-kh-r; Proverbs uses it for the wise person’s hoped-for future, not unambiguously for a postmortem realm."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.15.16",
+          "basis": "little with fear of God",
+          "note": "Proverbs calls a little with fear of the LORD better than great treasure with turmoil; this gives the commentary’s “good” wealth a moral condition and contests abundance as the measure of worth."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.19",
+          "basis": "lowly with the poor preferred",
+          "note": "Proverbs says it is better to be lowly among the poor than share spoil with the proud; this reverses the commentary’s low/dunyā pole by making low social position preferable to proud worldly gain."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.22.1",
+          "basis": "good name chosen over riches",
+          "note": "A good name is to be chosen over great riches, and favor over silver and gold; this directly joins the commentary’s language of choosing to a reordering of material value."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.13.11",
+          "basis": "wealth gained hastily dwindles",
+          "note": "Proverbs says wealth acquired by vaporous means dwindles while gradual gathering grows; this adds a concrete warning about the source and durability of the wealth discussed in the commentary’s khayr gloss."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.16",
+          "basis": "does not forget the word",
+          "note": "The psalmist delights in God’s statutes and says he will not forget the word; it gives a human devotional counterpart to 87:6’s promised retention of recitation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.24.19",
+          "basis": "forgotten sheaf left for the vulnerable",
+          "note": "Israel must leave a forgotten sheaf for the immigrant, orphan, and widow; what is accidentally left behind becomes provision for low-status people, qualifying the commentary’s image of discarded residue as worthless."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.9",
+          "basis": "field edge reserved for the poor",
+          "note": "The harvest is not to be cut to the edge, and gleanings are left for the poor and immigrant; this gives “what remains” an ethical use rather than the contemptuous sense of dregs."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Eccl.9.9",
+          "basis": "enjoy life as one’s portion",
+          "note": "Qoheleth urges enjoyment of life with one’s spouse during one’s fleeting days under the sun; this is a specific counter-valuation of present life alongside the commentary’s preference for the afterlife."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 4:1",
+          "basis": "true wealth as contentment",
+          "note": "Avot asks who is rich and answers: one who rejoices in his portion; this interprets wealth through contentment rather than the commentary’s lexicon note about material abundance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Peah 1:1",
+          "basis": "this-world fruit and future principal",
+          "note": "The Mishnah says loving-kindness and honoring parents yield fruit in this world while their principal remains for the world to come; its opening discussion of field-corner gleanings also makes a deliberately retained remnant fruitful rather than refuse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.13",
+          "basis": "broad road ends in destruction",
+          "note": "Jesus sets a broad way leading to destruction against a narrow way; this makes the commentary’s choice between the lower and better lot a concrete decision with opposed ends."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "narrow way leads to life",
+          "note": "The narrow way leads to life and is found by few; it adds the positive outcome to the two-way choice that 87:16–17 presents."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.30",
+          "basis": "field grass valued despite fading",
+          "note": "Jesus says God clothes grass that is alive today and thrown into the oven tomorrow; unlike the commentary’s use of spent pasture as a figure of the low lot, the image argues that even transient grass is cared for and grounds trust."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.19.21",
+          "basis": "treasure in heaven over possessions",
+          "note": "Jesus tells the rich inquirer to sell his possessions, give to the poor, and follow him for treasure in heaven; this makes the better, lasting choice costly and relational."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.19.22",
+          "basis": "wealth prevents the choice",
+          "note": "The inquirer leaves grieving because he has many possessions; the narrative concretely shows worldly wealth winning out over the offered lasting good."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.10.29",
+          "basis": "leaving goods for the gospel",
+          "note": "Jesus promises recognition to those who leave house, kin, or lands for him and the gospel; this gives a concrete cost to choosing the enduring good over present attachments."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.10.30",
+          "basis": "eternal life in the coming age",
+          "note": "The promise culminates in eternal life in the coming age; this supplies the lasting outcome that frames the worldly losses of the preceding verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.33",
+          "basis": "imperishable treasure through giving",
+          "note": "Jesus tells disciples to sell possessions and give alms, storing unfailing treasure in heaven; it joins the commentary’s selfless preference for others to its better, more lasting good."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.14.13",
+          "basis": "invite those unable to repay",
+          "note": "Jesus says to invite the poor, disabled, lame, and blind rather than repayable guests; this enacts the commentary’s preference for another over oneself."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.14.14",
+          "basis": "repayment at resurrection",
+          "note": "The host who cannot be repaid now will be repaid at the resurrection of the righteous; it connects selfless preference with a future reward instead of worldly return."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.40",
+          "basis": "service to the least and the kingdom",
+          "note": "The king identifies care for the least with service to himself; in the scene’s inheritance of the kingdom, this makes the commentary’s giving priority to another an act with lasting consequence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.4.35",
+          "basis": "goods distributed by need",
+          "note": "The early community lays sale proceeds at the apostles’ feet and distributes to each as needed; this gives the commentary’s prefer-others sense a concrete communal practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.5.29",
+          "basis": "obey God rather than humans",
+          "note": "The apostles answer threats by saying they must obey God rather than human authorities; this is a concise Christian parallel to choosing divine truth under worldly coercion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.20.35",
+          "basis": "giving more blessed than receiving",
+          "note": "Paul recalls Jesus’ saying that giving is more blessed than receiving; this directly illuminates the commentary’s definition of īthār as preferring another through generosity."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.16",
+          "basis": "Esau sells inheritance for one meal",
+          "note": "Hebrews calls Esau profane because he sells his birthright for one meal; it interprets the Genesis scene as a choice of immediate appetite over inheritance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.12.17",
+          "basis": "lost blessing cannot be recovered",
+          "note": "Hebrews adds that Esau later seeks the blessing with tears but cannot reverse the outcome; this Christian reading stresses the lasting cost of choosing immediate appetite."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.13.14",
+          "basis": "no lasting city here",
+          "note": "Hebrews says believers have no lasting city here but seek the one to come; it is an exact spatial formulation of preferring the abiding future to present worldly life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.16",
+          "basis": "outer wasting, inner renewal",
+          "note": "Paul says the outer person is wasting away while the inner person is renewed day by day; this adds an inward, present renewal to the commentary’s contrast between decaying debris and abiding good."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.11.5",
+          "basis": "remnant by gracious election",
+          "note": "Paul describes a remnant according to grace’s election; the verse joins the commentary’s retained bakiyya to its image of selecting the worthy lot."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.2",
+          "basis": "riches and clothing decay",
+          "note": "James says riches have rotted and garments are moth-eaten; this concretely exposes the perishability of the goods preferred in 87:16.",
+          "raw_ref": "SBLGNT:James.5.2",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.6",
+          "basis": "contentment as great gain",
+          "note": "Paul calls godliness with contentment great gain; this counters a material reading of “good” wealth by locating true gain in a moral disposition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 1:4-5",
+          "basis": "give without seeking return",
+          "note": "The teaching commands love for enemies and giving without demanding repayment; it turns the commentary’s preference for another over self into a specific Christian practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "1 Clement 55:2",
+          "basis": "self-sale to feed others",
+          "note": "Clement recalls believers who sold themselves into slavery and used the price to feed others; this is an extreme concrete instance of preferring another’s need over one’s own freedom."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Gospel of Thomas 56",
+          "basis": "world called a corpse",
+          "note": "Thomas says one who knows the world has found a corpse and that the world is not worthy of that person; this is a specific, radical devaluation of the world alongside the commentary’s low/dregs imagery, though it does not itself state an afterlife contrast."
+        }
+      }
+    ],
+    "proposal_file": "followup.accepted.tsv",
+    "proposal_sha256": "8a2cec8c3ccb68d53a149ec5c92199d08c34f0bfc8aa765b428802326719c3c8",
+    "followup_sha256": "aa120bec1247f36b5a6aad9a9c02e2aff1c9877a7e5b4c7d167abec1e3c9e3f1"
+  },
+  "consolidation_error": null,
+  "list_sha256": "a0527cd83b385a6bf04ec7b996b62aa63b90e97552d4345e8afc1ca1aa30bfb8",
+  "followup_delivery": [
+    {
+      "call_id": "call_rfdLQOj6XlrXYFZysyO9mAgK",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 343275,
+    "cached_input_tokens": 289024,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31759,
+    "reasoning_output_tokens": 24142,
+    "total_tokens": 375034
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:13:35.830Z",
+  "artifacts": {
+    "started.json": "f57caefd41b8100278cf6815c4b7e7eefc74a559d911433b19bcb8ba358dabec",
+    "input.json": "dca4fd8ed18919c4a7130c05a463c0cf57c48e6826505dff48d8c79ee77d9fd2",
+    "prompt.md": "fc9bbb099813a9cccd5b2775f94803e35691d9d3df7de798be6544b6350d23c5",
+    "package.md": "91dd19b75520f6305e1b172adde70a90cd7a716b7ac53141fba1c3f3cd001b03",
+    "spawn.md": "84a6bdf0760a2b9d0effed206d62d2b3a1ab0bff19970ac6ca375093cd8f2cfd",
+    "followup.txt": "38cfad20bcb2f4ad848854fa9ee8a78e598237169cc7aa036e11ca2ed9446607",
+    "turn1.json": "333f5e373dadeaed1284b05d2b4350c3eec7784a4cf09d72454ff4c786e7d5e3",
+    "turn1.list.tsv": "2611b45ca3fefc3cccee5c6f7c240f3dc92ed6a236bfd67ec4b136b281158723",
+    "followup.tsv": "aa120bec1247f36b5a6aad9a9c02e2aff1c9877a7e5b4c7d167abec1e3c9e3f1",
+    "list.tsv": "a0527cd83b385a6bf04ec7b996b62aa63b90e97552d4345e8afc1ca1aa30bfb8",
+    "consolidation.json": "daf114bf781a45d10c723da7edcc8f754f779ea605b8b568a704fde21c93c521",
+    "validation.json": "1e8f54c292e8df6e8c9430657a2b95cec997d38ad447a06ce64bb70f894f7e93",
+    "proposal_validation.json": "d263f2b6c3fc319adace711ca58ba37582866ccc77fa2e171ccefd8553d17685",
+    "tool_calls.json": "463446ae60a44bade0fb1910348459360574a50d66c6f8968c99abdd7b3cfd11",
+    "session.json": "774045b610fadb50489ba743e0f45e6a6edc7827f9fd155c494027588f0f924f",
+    "session.events.jsonl": "4e37dea7732dfb1e19f74e083425438562a923dd00311e9370b33b03c6b9d422",
+    "run.failed.log.json": "a6d3255ea8901ad1102b4f359bf0fcea66c91ba59e5c10957b60e0315bb9cb72",
+    "validation.failed.json": "b2241b535c307913e3556c5686b9fa6563ca84fb8bc697a4018feaf17bf74ee0",
+    "repair.proposed.json": "47a128c6b4cc19c139b25913708ff471c4a8f4c59f7f6f1158ebd5bbce9e354a",
+    "followup.repair.proposed.tsv": "8a2cec8c3ccb68d53a149ec5c92199d08c34f0bfc8aa765b428802326719c3c8",
+    "followup.accepted.tsv": "8a2cec8c3ccb68d53a149ec5c92199d08c34f0bfc8aa765b428802326719c3c8",
+    "repair.accepted.json": "444572eace8b70cd5ed184c8dafa0e6f8a664676da1ebf9d80f614518c8a1021"
+  },
+  "repair": {
+    "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+    "accepted_at": "2026-10-05T19:04:54.481563+00:00",
+    "changes": [
+      {
+        "line": 41,
+        "before": [
+          "strong",
+          "incil",
+          "motif",
+          "SBLGNT:Didache 1:4-5",
+          "give without seeking return",
+          "The teaching commands love for enemies and giving without demanding repayment; it turns the commentary’s preference for another over self into a specific Christian practice."
+        ],
+        "after": [
+          "strong",
+          "incil",
+          "motif",
+          "Didache 1:4-5",
+          "give without seeking return",
+          "The teaching commands love for enemies and giving without demanding repayment; it turns the commentary’s preference for another over self into a specific Christian practice."
+        ],
+        "reason": "Remove the SBLGNT label from a named non-New-Testament work; keep the same Didache passage as an unverified secondary candidate."
+      }
+    ],
+    "raw_sha256": "aa120bec1247f36b5a6aad9a9c02e2aff1c9877a7e5b4c7d167abec1e3c9e3f1",
+    "accepted_sha256": "8a2cec8c3ccb68d53a149ec5c92199d08c34f0bfc8aa765b428802326719c3c8",
+    "proposal_sha256": "47a128c6b4cc19c139b25913708ff471c4a8f4c59f7f6f1158ebd5bbce9e354a",
+    "failed_log_sha256": "a6d3255ea8901ad1102b4f359bf0fcea66c91ba59e5c10957b60e0315bb9cb72",
+    "model_calls": 0,
+    "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+  }
+}

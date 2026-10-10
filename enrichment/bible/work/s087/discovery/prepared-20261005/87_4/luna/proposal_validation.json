@@ -1,0 +1,41 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_4/luna/followup.tsv",
+  "rows": 29,
+  "unique_references": 29,
+  "schema_errors": [],
+  "duplicates": [],
+  "strengths": {
+    "strong": 22,
+    "medium": 7
+  },
+  "findings": [
+    {
+      "line": 13,
+      "ref": "Wisdom of Solomon 16:26",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 14,
+      "ref": "Berakhot 43b",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 21,
+      "ref": "1 Clement 24.3",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 24,
+      "ref": "SBLGNT:Jas.5.7",
+      "raw_ref": "SBLGNT:James.5.7",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

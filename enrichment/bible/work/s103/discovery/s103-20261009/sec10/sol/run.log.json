@@ -1,0 +1,2303 @@
+{
+  "target": "sec10",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:29:04.092443-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_sec10_sol",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "28fedfeda6cde48cd82f75e33aa3d9fc96864734e8908e8c625cd14a28fe4dcd",
+  "package_sha256": "7adf0648639875e21b099790a04a585adf73a4f969189c454c421d53c898bb69",
+  "input_sha256": "c138a75066859fd994aa0f27dbb146a7d8fc70c004c15dc17d8fc6726230da7b",
+  "spawn_sha256": "072e56c224417c5085412e364f74a1aabd2e46f80b39f5cf39daf86193065f33",
+  "followup_text_sha256": "9e364edf79a9920cfb11f4aa87ab4b03dd835033d7ffbb6d200637f2b5b90865",
+  "agent_id": "01a11f22-fa48-7aa2-8fd7-0a138c7f755c",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-29-09-01a11f22-fa48-7aa2-8fd7-0a138c7f755c.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 115,
+  "turn1_sha256": "d49cd4ff0bf8e6c11b658b816102e5a333bbbce6989d889d9946fc991570c820",
+  "turn2": {
+    "completed": true,
+    "rows_total": 169,
+    "rows_added": 54
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 115,
+    "raw_proposal_rows": 54,
+    "unique_additions": 54,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.49.1",
+          "basis": "Jacob summons sons before death",
+          "note": "Jacob calls his sons to hear what will happen to them; the commentary reads mutual counsel as a word handed on at the edge of death, while its cited Qur'anic Jacob asks specifically whom they will worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.47.29",
+          "basis": "Jacob's burial charge and oath",
+          "note": "As death approaches Jacob makes Joseph swear to bury him with his fathers; it joins a dying instruction, an heir and a binding oath in one scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.50.25",
+          "basis": "Joseph binds descendants by oath",
+          "note": "Dying Joseph makes Israel's sons swear to carry his bones away when God visits them; an obligation is entrusted to a later generation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.18.19",
+          "basis": "Abraham commands children after him",
+          "note": "God chooses Abraham so he will command his children and household after him to keep the Lord's way by doing righteousness and justice; faith and right conduct are transmitted together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.35.2",
+          "basis": "Jacob instructs household on worship",
+          "note": "Jacob orders his household to put away foreign gods and purify themselves; this supplies an earlier concrete worship instruction beside the commentary's deathbed question about what his sons will worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.7",
+          "basis": "teach the words to children",
+          "note": "Israel is told to repeat the commanded words to its children in daily settings; counsel becomes a continuing intergenerational duty like the commentary's inherited recommendation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.5",
+          "basis": "command fathers to teach children",
+          "note": "God establishes testimony in Jacob and commands fathers to make it known to their children; the commentary's passed-on faith has a precise communal analogue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.6",
+          "basis": "children yet unborn tell their children",
+          "note": "The next generation is to arise and tell its own children; this explicitly extends the chain beyond the first recipients of the bequest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:1Kgs.2.1",
+          "basis": "David charges Solomon before dying",
+          "note": "When David's death draws near he gives Solomon a charge; this is a royal deathbed instance of instruction left to someone who must act after the speaker."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.2.3",
+          "basis": "David's charge to keep statutes",
+          "note": "David tells Solomon to keep God's charge and walk in his ways; the inherited instruction has religious practice, rather than property alone, as its subject."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.29",
+          "basis": "Moses warns what follows his death",
+          "note": "Moses says Israel will turn aside after his death, making the survival of a transmitted charge after the speaker's absence the explicit issue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.22.6",
+          "basis": "entrusted silver or goods",
+          "note": "A person gives a neighbor silver or goods for safekeeping and the goods are stolen; this is the concrete entrusted property behind the commentary's emanet image. This is WLC verse 22:6."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.22.7",
+          "basis": "custodian answers before God",
+          "note": "If the thief is not found, the householder must come before God about the neighbor's property; custody creates accountable testimony, as in the commentary's deathbed trust."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.22.10",
+          "basis": "oath between two custodial parties",
+          "note": "An oath of the Lord settles whether the keeper has touched the owner's animal, and the owner accepts it; entrusted goods and an oath share a single legal scene. This is WLC verse 22:10."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.19.15",
+          "basis": "two or three witnesses establish a matter",
+          "note": "A single witness cannot establish a charge, whereas two or three can; it gives legal weight to the commentary's pair of witnesses at a bequest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.19.18",
+          "basis": "judges investigate false witness",
+          "note": "Judges must examine testimony carefully and determine whether a witness lied; this matches the commentary's concern that a first bequest testimony may prove deceptive."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.19.19",
+          "basis": "false witness suffers intended harm",
+          "note": "The false witness receives the consequence intended for the accused; the commentary's replacement oath likewise treats corrupt testimony as a wrong requiring correction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.5.1",
+          "basis": "witness under public adjuration",
+          "note": "A person who hears an adjuration and can testify but fails to tell what was seen or known bears guilt; oath and the duty to disclose meet in the commentary's witness scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.8.31",
+          "basis": "oath before the altar",
+          "note": "A person accused by a neighbor comes to swear before God's altar; the commentary likewise places a disputed oath after communal worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.8.32",
+          "basis": "vindicate the righteous under oath",
+          "note": "Solomon asks God to judge the sworn dispute and vindicate the righteous; this specifies the concern for a truer testimony when a first oath is suspect."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Num.27.7",
+          "basis": "daughters' rightful inheritance",
+          "note": "God declares Zelophehad's daughters' claim right and commands their father's inheritance be transferred to them; the commentary treats heirs' portions as enforceable rights."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Num.27.11",
+          "basis": "חקק sound correspondence; inheritance statute",
+          "note": "The inheritance sequence ends by making its order a fixed statute of judgment; Hebrew חֻקַּת from the table's חקק correspondence links prescribed law to the commentary's binding haqq, without equating the two senses."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.21.16",
+          "basis": "father may not redirect firstborn status",
+          "note": "A father with loved and unloved wives cannot favor the loved wife's son when allocating his estate; the bequest must respect a preexisting heir's right."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.21.17",
+          "basis": "firstborn receives double portion",
+          "note": "The father must recognize the unloved wife's firstborn with a double share; this concretizes a binding inheritance portion despite personal preference."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.46.16",
+          "basis": "prince's gift to son becomes inheritance",
+          "note": "When the prince gives from his property to a son, it belongs to his sons as inherited possession; this tests the commentary's image of a father's gift and heirs' rights."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Ezek.46.17",
+          "basis": "gift to servant reverts at release",
+          "note": "A prince's gift to a servant reverts to the prince at the year of liberty, while the son's inheritance in the preceding verse persists; it sharply qualifies the commentary's father who takes back a gift."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.43.9",
+          "basis": "Judah guarantees Benjamin",
+          "note": "Judah personally stands surety for Benjamin and offers to bear blame if he fails to return him; the Genesis Joseph story supplies a guarantor with a specific obligation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.44.32",
+          "basis": "Judah recalls his pledge",
+          "note": "Before Joseph, Judah says he became surety for the boy to his father; the guarantor's earlier word remains binding in a later crisis."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.44.33",
+          "basis": "Judah offers himself in the boy's place",
+          "note": "Judah asks to remain a slave instead of Benjamin, putting his own body behind the guarantee; this makes the commentary's image of a surety standing behind another concrete."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.122",
+          "basis": "God asked to stand surety",
+          "note": "The psalmist asks God to be surety for the servant's good against oppressors; the commentary's kefil image extends here from a human promisor to divine protection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.7.22",
+          "basis": "Jesus guarantor of a better covenant",
+          "note": "Jesus is called the guarantor of a better covenant; the commentary's kefil and binding inherited obligation meet in a person who stands behind a covenant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.4",
+          "basis": "father relays his father's teaching",
+          "note": "The speaker recalls that his father taught him to hold fast to words and keep commandments; advice is received and passed on, the commentary's generational chain in miniature."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 2:4",
+          "basis": "accept hardship patiently, my child",
+          "note": "The address to a child instructs acceptance and patience through humiliation; it joins parental admonition with the precise adversity borne in the commentary's Luqman scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.14",
+          "basis": "admonish, support and be patient with all",
+          "note": "Paul asks the community to admonish the idle, encourage the fainthearted, help the weak and be patient with everyone; mutual counsel and patience operate together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.24",
+          "basis": "provoke one another to good works",
+          "note": "The assembly must consider how to stir one another to love and good works; the commentary's mutual charge has an enacted ethical goal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.25",
+          "basis": "keep assembling and encourage one another",
+          "note": "Believers are told to encourage one another as the day approaches; counsel is repeated communally under awareness of limited time."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.2",
+          "basis": "entrust teaching to teachers of others",
+          "note": "What Timothy heard before witnesses is to be entrusted to faithful people able to teach others; testimony, faithful custody and another generation of speakers coincide."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.1.14",
+          "basis": "guard the good deposit",
+          "note": "Timothy is told to guard an entrusted good deposit through the Holy Spirit; the commentary's bequeathed instruction is explicitly treated as something in custody."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.20.32",
+          "basis": "Paul's farewell entrusts elders to God",
+          "note": "In his farewell Paul commends the elders to God and the word able to give inheritance; the departing speaker hands over care and names a future inheritance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.1.15",
+          "basis": "remember teaching after my departure",
+          "note": "Expecting his departure, the writer promises to enable continued remembrance afterward; instruction deliberately survives the speaker's death."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.9.16",
+          "basis": "death and testament",
+          "note": "The argument says a testament requires the death of its maker; it places the commentary's deathbed transfer of binding words beside an explicit death and inheritance analogy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.9.17",
+          "basis": "testament takes force after death",
+          "note": "The next verse says a testament becomes effective on death; it specifies the moment at which a speaker's word binds the living."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.9.15",
+          "basis": "promised eternal inheritance",
+          "note": "Christ mediates a new covenant so the called receive the promised eternal inheritance; the bequest image is used for a religious promise rather than divided property."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.13.34",
+          "basis": "farewell command to love one another",
+          "note": "At the farewell meal Jesus gives a new command to love one another; a departing teacher leaves a reciprocal obligation to his community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.15.6",
+          "basis": "אמנ sound correspondence; Abraham believes",
+          "note": "Abraham trusts the Lord and it is reckoned to him as righteousness; the table's אמנ correspondence links the commentary's faith to a patriarchal act with ethical standing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.7.9",
+          "basis": "אמנ sound correspondence; trust and firmness",
+          "note": "Isaiah warns that if the addressed king and house do not trust, they will not stand firm; the verse plays on אמנ twice, making steadfastness the practical stake of belief."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Hab.2.4",
+          "basis": "אמנ sound correspondence; fidelity through crisis",
+          "note": "The righteous lives by faithfulness while facing the proud oppressor; Hebrew אֱמוּנָה from the table connects the commentary's belief with endurance under strain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.6.20",
+          "basis": "חקק sound correspondence; child asks about statutes",
+          "note": "A child asks what the Lord's decrees mean, prompting parental explanation; חֻקִּים from the table's חקק correspondence turns prescribed right into transmitted teaching."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.105.10",
+          "basis": "חקק sound correspondence; decree to Jacob",
+          "note": "God confirms the promise to Jacob as a statute and enduring covenant; Hebrew חֹק from the table's חקק correspondence joins fixed obligation to the patriarchal chain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.19.23",
+          "basis": "חקק sound correspondence; enduring inscribed words",
+          "note": "Job wishes his words written and inscribed in a book; the table's חקק verb gives a concrete form to the commentary's word left behind, though Job seeks a record of his protest rather than an heir's instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Pesachim 56a",
+          "basis": "Jacob's sons confess God's unity",
+          "note": "The rabbinic account has the dying Jacob fear a fault in his sons, who answer with the Shema; it turns the patriarch's final exchange into the very question of inherited worship developed from Qur'an 2:133."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.11.21",
+          "basis": "Jacob's final blessings interpreted as faith",
+          "note": "Hebrews describes Jacob's blessing of Joseph's sons as an act of faith at death; it interprets the deathbed transfer as trust in a future he will not see."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.11.22",
+          "basis": "Joseph's dying charge interpreted as faith",
+          "note": "Hebrews interprets Joseph's instruction about his bones and Israel's exodus at death as an act of faith; it makes the generational obligation depend on confidence in a future event."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.1.5",
+          "basis": "faith inherited from grandmother and mother",
+          "note": "Timothy's sincere faith is remembered as having lived first in his grandmother Lois and mother Eunice; this is a named household chain for the commentary's bequeathed belief."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.20",
+          "basis": "death interrupts plans for stored goods",
+          "note": "God tells a man his life is required that night and asks who will own what he prepared; the commentary's warning that one may lose the chance to leave a bequest becomes an explicit question about successors."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.14",
+          "basis": "Moses' death and Joshua's commission",
+          "note": "With Moses' death near, he is told to summon Joshua for a charge; it gives the commentary's instruction across a departing generation a named successor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.23",
+          "basis": "Joshua told to be strong and courageous",
+          "note": "Joshua receives a charge to lead Israel into the land and not lose courage; fortitude accompanies a transferred task, close to the commentary's counsel joined with sabr."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.24.15",
+          "basis": "choose whom your household will serve",
+          "note": "Joshua sets before Israel a choice of whom to serve and declares his household's allegiance; this is a public answer to the commentary's question of worship after a leader departs."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.29.13",
+          "basis": "covenant oath not limited to hearers",
+          "note": "Moses explicitly says he makes the covenant and oath with more than the immediate audience; this frames the inherited religious obligation as publicly sworn."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.29.14",
+          "basis": "covenant includes absent successors",
+          "note": "Moses names both those standing there and those not present; the commentary's charge passing beyond its immediate hearers has a precise covenantal counterpart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.6.20",
+          "basis": "keep parents' commands",
+          "note": "A child is told to keep a father's command and not forsake a mother's teaching; this supports the commentary's practical definition of advice as instruction to act."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.13.22",
+          "basis": "inheritance to children's children",
+          "note": "A good person leaves an inheritance to grandchildren; the commentary's tangible shares and generational gift are joined in one maxim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.25.5",
+          "basis": "Abraham grants all to Isaac",
+          "note": "Abraham gives all he has to Isaac; the patriarchal transmission of faith in the commentary also has an explicit material inheritance in Genesis."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.25.6",
+          "basis": "gifts to other sons during life",
+          "note": "Abraham gives gifts to concubines' sons during his life and sends them away from Isaac; the verse shows how a living father distinguishes gifts from the main inheritance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.42.37",
+          "basis": "Reuben pledges his own sons",
+          "note": "Reuben offers his sons as a guarantee for Benjamin's return; before Judah's surety, the Genesis Joseph story offers a stark alternate form of standing behind another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.6.1",
+          "basis": "becoming surety for another",
+          "note": "A parent warns a son against pledging himself for a neighbor or stranger; it makes the guarantor's moral exposure explicit where the commentary names the kefil."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.15",
+          "basis": "cost of standing surety",
+          "note": "The proverb warns that one who guarantees a stranger suffers, while refusal is secure; it supplies the risk implicit in the commentary's surety image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.1.14",
+          "basis": "Spirit as pledge of inheritance",
+          "note": "The Spirit is called a pledge of believers' inheritance until redemption; an assurance stands behind a promised future possession, connecting guarantor and bequest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.1.22",
+          "basis": "Spirit given as pledge",
+          "note": "God gives the Spirit in hearts as a pledge; the promise is secured before fulfillment, analogous to the commentary's guarantor standing behind a future delivery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.15.12",
+          "basis": "father divides property while alive",
+          "note": "The younger son asks for his share and the father divides his property between them; it supplies a narrative test case for the commentary's distinction between a living father's gift and inherited portions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.15.31",
+          "basis": "father affirms elder son's share",
+          "note": "The father tells the elder son that all he has is his; even after the younger son has spent his portion, the remaining heir's claim is explicitly preserved."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 33:24",
+          "basis": "instructed timing of inheritance",
+          "note": "The sage advises assigning the inheritance at the end of life; this specifies the commentary's moment when a living person's control becomes a charge to heirs."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.39.7",
+          "basis": "wealth heaped with unknown successor",
+          "note": "Amid reflection on life's brevity, a person heaps up wealth without knowing who will gather it; this sharpens the commentary's concern to assign goods before death. Hebrew צבר here means heap, not Arabic sabr's patience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.27.16",
+          "basis": "wicked person piles up silver",
+          "note": "A wicked person heaps silver and stores clothing, but the following verse assigns them to others; the commentary's estate can outlast the owner without preserving the owner's intended control."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.27.17",
+          "basis": "others divide accumulated goods",
+          "note": "The righteous will wear the stored clothing and the innocent divide the silver; this reverses the accumulator's claim to determine who receives his goods."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.5.34",
+          "basis": "Jesus forbids swearing oaths",
+          "note": "Jesus instructs his hearers not to swear at all; the commentary's bequest witnesses are required to swear, so the texts put a different weight on compelled truth telling."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Jas.5.12",
+          "basis": "truthful speech without oath",
+          "note": "James forbids oaths and requires an unambiguous yes or no; the commentary's oath secures disputed bequest testimony by a legal act that James tells his audience to avoid.",
+          "raw_ref": "SBLGNT:James.5.12",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.26.63",
+          "basis": "Jesus adjured under oath",
+          "note": "The high priest adjures the detained Jesus by the living God to answer, and Jesus has been silent; a compelled religious oath appears in an interrogation, unlike the commentary's estate witnesses."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.16",
+          "basis": "two or three witnesses establish a matter",
+          "note": "Jesus cites the two or three witness rule when a private rebuke fails; the commentary's disputed testimony likewise requires a claim to be publicly established."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.5.19",
+          "basis": "witnesses required for accusation",
+          "note": "An accusation against an elder is not received without two or three witnesses; the procedure shows why an initial claim needs independently accountable testimony."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.13",
+          "basis": "request to divide inheritance",
+          "note": "A person asks Jesus to tell a brother to divide an inheritance; the commentary's regulated heirs' shares are here voiced as a contested family demand."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.15",
+          "basis": "warning following inheritance dispute",
+          "note": "Jesus warns the disputants against greed and says life does not consist in possessions; the estate scene adds a moral check on the commentary's concern for rightful shares."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.11",
+          "basis": "encourage and build one another",
+          "note": "Paul asks believers to encourage and build each other up, and the next exhortation specifies patience with all; this is a communal pattern of mutual counsel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.16",
+          "basis": "teach and admonish one another",
+          "note": "The community is to let Christ's word dwell richly and teach and admonish one another; a received word is actively passed among peers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.2",
+          "basis": "patience bears one another",
+          "note": "Humility and patience are expressed by bearing with one another in love; the commentary's mutual recommendation of sabr is lived as responsibility for others."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.15",
+          "basis": "truth spoken in love",
+          "note": "The community is to speak truth in love so the body grows; truth becomes a reciprocal act rather than a private possession."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.4.2",
+          "basis": "exhort with patience and teaching",
+          "note": "Timothy is charged to reprove, rebuke and exhort with complete patience and teaching; the commentary's linked counsel and endurance are applied to instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.4.6",
+          "basis": "Paul's approaching departure",
+          "note": "Paul describes himself as being poured out and his departure near; the surrounding charge to Timothy becomes a deliberate word handed on before death."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.1.14",
+          "basis": "writer expects to lay aside his body",
+          "note": "The writer says his bodily dwelling will soon be put off, immediately before promising enduring remembrance; the bequest of teaching is motivated by expected death."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.2.15",
+          "basis": "hold received traditions",
+          "note": "Believers are told to stand firm and hold traditions taught orally or by letter; the commentary's inherited charge is preserved in two concrete channels."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jude.1.3",
+          "basis": "faith handed over once for all",
+          "note": "Jude urges a community to contend for the faith entrusted to the saints; a received deposit calls for continued action by those who inherit it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.22.20",
+          "basis": "farewell cup and new covenant",
+          "note": "At the final meal Jesus calls the cup the new covenant in his blood; a departing speaker leaves a binding religious relation to his followers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.2",
+          "basis": "Jesus presumes almsgiving",
+          "note": "Jesus says when giving alms, do not display it for praise; beside the commentary's Qur'anic Jesus commanded to give alms, the Gospel describes how his hearers should give."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.5",
+          "basis": "Jesus presumes prayer",
+          "note": "Jesus says when praying, do not perform it for spectators; beside the commentary's Qur'anic Jesus commanded to pray, the Gospel passes prayer instruction to hearers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.10.4",
+          "basis": "prayers and alms remembered together",
+          "note": "Cornelius is told his prayers and alms have ascended before God; the two practices paired in the commentary's speech of Jesus are joined in a remembered disciple's life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 96,
+        "row": {
+          "line": 96,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.11.2",
+          "basis": "Jesus teaches prayer to followers",
+          "note": "Jesus answers a disciple's request by giving words to pray; the Qur'anic command laid on Jesus becomes a practice he hands to his followers in this scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 97,
+        "row": {
+          "line": 97,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.17.13",
+          "basis": "prophets relay one demand",
+          "note": "God warns Israel and Judah through every prophet and seer to turn back and keep his commandments; it gives concrete precedent for the commentary's one charge passing through messengers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 98,
+        "row": {
+          "line": 98,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.1.1",
+          "basis": "God speaks through prophets across generations",
+          "note": "God formerly spoke to the ancestors by prophets in many ways; it parallels the commentary's continuous chain of divine instruction to successive messengers."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 99,
+        "row": {
+          "line": 99,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.1.2",
+          "basis": "God speaks in the Son in last days",
+          "note": "The following verse presents speech through the Son in the last days; it marks a specifically Christian culmination beside the commentary's sequence from Noah to Jesus."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 100,
+        "row": {
+          "line": 100,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.17.12",
+          "basis": "אמנ sound correspondence; supported hands stay steady",
+          "note": "Others support Moses' hands until sunset, and they remain אֱמוּנָה, steady; the table's אמנ family makes firmness a supported communal action beside the commentary's faith and patience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 101,
+        "row": {
+          "line": 101,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.7.9",
+          "basis": "אמנ sound correspondence; faithful covenant keeper",
+          "note": "God is called faithful and keeps covenant and loyalty with those who love and obey him to a thousand generations; the table's אמנ family joins trustworthiness to a long inherited obligation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 102,
+        "row": {
+          "line": 102,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.89.34",
+          "basis": "אמנ sound correspondence; faithful covenant promise",
+          "note": "God says his steadfast love will not be removed or his faithfulness made false; אֱמוּנָה from the table's אמנ field marks the reliability of a promise continuing to descendants."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 103,
+        "row": {
+          "line": 103,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.4.40",
+          "basis": "חקק sound correspondence; statutes and descendants",
+          "note": "Israel must keep God's statutes so that it goes well with them and their children after them; the table's חקק correspondence joins prescribed duty to the commentary's bequest across generations."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 104,
+        "row": {
+          "line": 104,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.12.14",
+          "basis": "חקק sound correspondence; perpetual observance",
+          "note": "The Passover day is to be kept as a statute through generations; Hebrew חֻקָּה from the table's חקק correspondence makes a binding inherited instruction into a recurring act."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 105,
+        "row": {
+          "line": 105,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.7",
+          "basis": "hope in God and keep commandments",
+          "note": "The purpose of telling children is that they set hope in God, remember his works and keep his commands; transmitted faith and action are both named."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 106,
+        "row": {
+          "line": 106,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.48.21",
+          "basis": "Jacob promises God will accompany sons",
+          "note": "As death nears Jacob says God will be with his sons and bring them back to their fathers' land; the parting word carries a future promise beyond the father's life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 107,
+        "row": {
+          "line": 107,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.30.3",
+          "basis": "spoken vow becomes obligation",
+          "note": "A person who vows to the Lord or binds himself by oath must not break his word but do what he said; the commentary's binding testament and weighty oath meet in the force of an utterance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 108,
+        "row": {
+          "line": 108,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.8",
+          "basis": "parental teaching addressed to a son",
+          "note": "A son is instructed to hear his father's discipline and not abandon his mother's teaching; the form of address matches the commentary's Luqman instructing his son."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 109,
+        "row": {
+          "line": 109,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.34",
+          "basis": "wait patiently and keep the way",
+          "note": "The psalm calls its hearer to wait for the Lord and keep his way amid the wicked's apparent success; obedience and endurance are joined as in the commentary's final counsel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 110,
+        "row": {
+          "line": 110,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.10",
+          "basis": "prophets as examples of patience",
+          "note": "James points to prophets who spoke in the Lord's name as examples of suffering and patience; it unites the commentary's messenger chain with the sabr expected of those who inherit their charge.",
+          "raw_ref": "SBLGNT:James.5.10",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 111,
+        "row": {
+          "line": 111,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.11",
+          "basis": "Job's endurance remembered",
+          "note": "The community is told it has heard of Job's endurance and seen the Lord's outcome; endurance is transmitted as a remembered example to later hearers.",
+          "raw_ref": "SBLGNT:James.5.11",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 112,
+        "row": {
+          "line": 112,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.9.12",
+          "basis": "people do not know their time",
+          "note": "Like fish in a net and birds in a snare, people are caught by sudden calamity; it makes concrete the commentary's warning that death may arrive before a bequest can be made."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 113,
+        "row": {
+          "line": 113,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.24.44",
+          "basis": "unexpected end allows no preparation",
+          "note": "Jesus tells disciples to be ready because the Son of Man comes at an unexpected hour; this is an indirect analogue to the commentary's people overtaken before they can leave an instruction, although the verse concerns the Son of Man's coming."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 114,
+        "row": {
+          "line": 114,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.17.3",
+          "basis": "plea for someone to be surety",
+          "note": "Job asks God for a pledge and who will give surety for him; the legal image resembles the commentary's kefil, though Job's disputed standing before God differs from Joseph's announced reward."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 115,
+        "row": {
+          "line": 115,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, Confessions 9.11.27",
+          "basis": "Monica's final request to her sons",
+          "note": "Near death Monica asks her sons to remember her at the Lord's altar; this is a Christian example of a dying parent's religious charge, though it concerns memorial prayer rather than inheritance or a sworn witness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.1.7",
+          "basis": "Joshua inherits law with courage",
+          "note": "Joshua is told to be strong and carefully do all the law Moses commanded him; a successor receives both an actionable charge and the endurance needed to carry it out."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.46",
+          "basis": "command children to obey all the words",
+          "note": "Moses tells Israel to set its heart on his warning and command its children to observe the law; the dying generation actively passes an obligation to the next."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.28.9",
+          "basis": "David charges Solomon to know his father's God",
+          "note": "David tells his son Solomon to know the God of his father and serve him wholeheartedly; the commentary's inherited worship and practical instruction meet in a father's direct charge."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.71.18",
+          "basis": "aged speaker tells the next generation",
+          "note": "The aged psalmist asks not to be forsaken until he has declared God's power to the next generation; an approaching end makes transmission of testimony urgent."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.35.6",
+          "basis": "ancestor's injunction still binds descendants",
+          "note": "The Rechabites refuse wine because their ancestor Jonadab commanded them and their children never to drink it; a concrete instruction continues after its speaker's death."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.35.14",
+          "basis": "Jonadab's words observed to this day",
+          "note": "God cites the Rechabites' continuing obedience to their ancestor's instruction as a rebuke to Judah's failure to heed repeated divine speech; inherited counsel becomes a measure of faithfulness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.5.21",
+          "basis": "denial of an entrusted deposit",
+          "note": "The law treats deception over a neighbor's deposited goods as a breach against the Lord; it gives moral and legal weight to the commentary's emanet left in another's keeping. This uses WLC numbering."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.5.22",
+          "basis": "false oath about another's property",
+          "note": "The same law names finding lost property, denying it and swearing falsely; the commentary's suspicion of corrupt sworn testimony concerns an equally concrete property dispute. This uses WLC numbering."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.31.50",
+          "basis": "God witnesses treatment of daughters",
+          "note": "Laban tells Jacob that if he mistreats Laban's daughters, God is witness even with no human observer; a father's concern for descendants is secured by testimony beyond his presence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.15.4",
+          "basis": "oath honored even at personal cost",
+          "note": "The person fit to dwell with God swears to his own hurt and does not change his word; it clarifies the weight of the commentary's binding oath when keeping it becomes burdensome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.28.16",
+          "basis": "אמנ sound correspondence; believer does not hurry",
+          "note": "The one who trusts the tested cornerstone will not hurry in panic; Hebrew אמנ from the table joins believing with a concrete form of patient steadiness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:2Chr.20.20",
+          "basis": "אמנ sound correspondence; trust and be established",
+          "note": "Jehoshaphat tells Judah to trust the Lord and be established, then trust his prophets and prosper; the verse repeats אמנ and links firm faith to heeding a transmitted prophetic word."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.10.1",
+          "basis": "חקק sound correspondence; unjust decrees",
+          "note": "Isaiah condemns those who decree oppressive decrees; Hebrew חקק from the table shows that a binding rule can itself be unjust, sharpening the commentary's concern about an unfair will."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.31.5",
+          "basis": "חקק sound correspondence; forgetting decree harms rights",
+          "note": "A king who drinks may forget what is decreed and distort the poor person's legal claim; Hebrew חקק from the table puts prescribed law and vulnerable claimants in the same maternal admonition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 1:1",
+          "basis": "Torah handed through named generations",
+          "note": "The rabbinic chain has Moses receive Torah and hand it to Joshua, then elders, prophets and the Great Assembly; it interprets religious instruction as an inherited trust across successive speakers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 4:3",
+          "basis": "dying father's instructions to his son",
+          "note": "Believing he may die, Tobit calls Tobias and charges him to bury him and care for his mother; a dying speaker gives a son concrete duties to perform afterward."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phlm.1.18",
+          "basis": "Paul assumes Onesimus's debt",
+          "note": "Paul asks Philemon to charge to him anything Onesimus owes or any wrong he has done; he personally stands behind another's liability like the commentary's kefil."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phlm.1.19",
+          "basis": "Paul writes his promise to repay",
+          "note": "Paul writes with his own hand that he will repay Onesimus's debt; the guarantor's undertaking becomes an explicit, durable promise."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.3.14",
+          "basis": "continue in learning received from others",
+          "note": "Timothy is told to continue in what he learned, knowing the people from whom he learned it; the received charge depends on identifiable transmitters and continued practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.3.15",
+          "basis": "scripture known since childhood",
+          "note": "Timothy has known the sacred writings from infancy, and they can make him wise for salvation; the inherited word is a specific text learned before adulthood."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.11.23",
+          "basis": "what Paul received he handed on",
+          "note": "Paul explicitly says he handed to the Corinthians what he received about the Lord's final meal; a departing speaker's act becomes a repeated communal instruction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.3",
+          "basis": "gospel handed on as received",
+          "note": "Paul says he handed on as first importance what he received, beginning with Christ's death for sins; belief is carried by a deliberate chain of testimony."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.17.20",
+          "basis": "future believers through disciples' word",
+          "note": "Jesus prays at his farewell for people who will believe through his disciples' word; his instruction moves beyond those present to a future generation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.3.2",
+          "basis": "remember prophets and apostolic command",
+          "note": "Readers are to remember the words spoken by holy prophets and the Lord's command through apostles; the charge crosses a chain of messengers and remains active in its hearers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 4:9",
+          "basis": "teach children fear of God from youth",
+          "note": "The community's instruction tells parents to teach sons and daughters reverence for God from childhood; the inherited religious charge is made a household duty."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.23.14",
+          "basis": "Joshua speaks as his death nears",
+          "note": "Joshua says he is going the way of all the earth and reminds Israel that God's promises have not failed; a leader's last speech preserves a standard for successors."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.22.13",
+          "basis": "father links obedience and courage",
+          "note": "David tells Solomon he will prosper if he observes the statutes given through Moses and urges him to be strong, courageous and unafraid; inherited law is paired with fortitude."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.47",
+          "basis": "transmitted words are life",
+          "note": "Moses says the commanded word is no empty thing but Israel's life, by which their days in the land will be prolonged; the inherited counsel has an explicitly future consequence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.22.8",
+          "basis": "judges resolve disputed entrusted goods",
+          "note": "A dispute over an animal, garment or lost article is brought by both parties before God for judgment; this supplies a procedure when a custodian's claim about entrusted property is contested. This uses WLC numbering."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.5.24",
+          "basis": "restitution after property deception",
+          "note": "The wrongdoer must restore the property in full and add a fifth when guilt is acknowledged; the commentary's correction of an unjust transfer has a concrete restitution analogue. This uses WLC numbering."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.16",
+          "basis": "speak truth and judge for peace",
+          "note": "People are told to speak truth to one another and render truthful judgments that make for peace; mutual truth telling has the restorative legal effect sought when a bequest is disputed."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.17",
+          "basis": "false oath rejected with harmful intent",
+          "note": "The next instruction rejects plotting harm against a neighbor and loving a false oath; the commentary's contested witnesses unite the same dangers of malice and sworn deception."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.23.1",
+          "basis": "refuse malicious witness partnership",
+          "note": "Israel is forbidden to spread a false report or join a wicked person as a malicious witness; the rule addresses collusion behind the commentary's suspect testimony."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.24.28",
+          "basis": "unfounded testimony against a neighbor",
+          "note": "The proverb forbids becoming a witness against a neighbor without cause and deceiving with one's lips; it spells out the ethical fault when legal testimony is manufactured."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 29:14",
+          "basis": "stand surety for a neighbor",
+          "note": "The sage praises becoming surety for a neighbor while contrasting it with a shameless person's failure to do so; it supplies a Jewish ethical valuation of the commentary's kefil."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 29:15",
+          "basis": "remember the surety's costly aid",
+          "note": "The beneficiary is warned not to forget a guarantor who has exposed himself for another; the commentary's surety carries a personal cost beyond merely announcing a pledge."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 33:22",
+          "basis": "keep control before distributing inheritance",
+          "note": "The sage says it is better for children to seek from a living parent than for that parent to depend on them; this qualifies the commentary's image of a father trying to retrieve a gift already made."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.41.35",
+          "basis": "Joseph stores grain for future need",
+          "note": "Joseph directs grain to be collected under Pharaoh for the coming famine; this supplies the food administration behind the Joseph story's promised load of grain, independently of Hebrew צבר, whose heaping sense is unrelated to Arabic sabr."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.36.4",
+          "basis": "prophet entrusts his words to a scribe",
+          "note": "Baruch writes the words Jeremiah dictates on a scroll; the commentary's advice passed to another to act becomes a specific transfer of a prophet's speech."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.36.5",
+          "basis": "restrained speaker must use a delegate",
+          "note": "Jeremiah says he is barred from entering the Lord's house, so Baruch must carry and read the message; a speaker's inability to act makes a successor's faithful performance necessary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.2.7",
+          "basis": "חקק sound correspondence; decree given to a son",
+          "note": "The king recites the Lord's decree declaring him a son; Hebrew חֹק from the table connects a prescribed word to a father-son relation, though it is a royal oracle rather than an inheritance allotment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.78.37",
+          "basis": "אמנ sound correspondence; unfaithful covenant hearers",
+          "note": "The generation instructed about God's deeds is said to be unfaithful to his covenant; Hebrew אמנ from the table supplies the contrary case to the commentary's inherited faithfulness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Neh.9.8",
+          "basis": "אמנ sound correspondence; Abraham's faithful heart",
+          "note": "The prayer says God found Abraham's heart faithful and made covenant with him; the table's אמנ family joins the patriarch's trust to a promise carried to descendants."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.10.2",
+          "basis": "unjust decrees dispossess widows and orphans",
+          "note": "The continuation says the decrees deprive the needy of justice and make widows and orphans prey; it specifies whose rights are injured when prescribed allocations are corrupted."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.4.14",
+          "basis": "Paul admonishes as a father",
+          "note": "Paul says he writes to admonish the Corinthians as beloved children; spiritual parenthood supplies the commentary's personal relation between adviser and heir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.4.17",
+          "basis": "Timothy sent to remind churches",
+          "note": "Paul sends Timothy to remind the Corinthians of his ways in Christ, as he teaches in every church; a recipient of instruction becomes its bearer to another group."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.4.9",
+          "basis": "practice what was learned and received",
+          "note": "Paul asks believers to put into practice what they learned, received, heard and saw in him; the inherited word includes conduct for its recipients to enact."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.6.4",
+          "basis": "parents bring children up in admonition",
+          "note": "Fathers are told to raise children in the Lord's discipline and instruction; household advice is a sustained responsibility, as in the commentary's father-to-child counsel."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.20.29",
+          "basis": "danger after Paul's departure",
+          "note": "Paul says destructive wolves will enter after he leaves; the farewell charge anticipates dangers the recipients must meet when the original speaker is gone."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.20.31",
+          "basis": "remember prolonged admonition",
+          "note": "Paul tells elders to stay alert and remember that he admonished each with tears for three years; the departing teacher leaves a remembered practice of warning."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.1.12",
+          "basis": "reminder despite known truth",
+          "note": "The writer intends to keep reminding hearers even though they know and are established in the truth; repeated counsel protects what will remain after his departure."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.13.1",
+          "basis": "two or three witnesses in apostolic dispute",
+          "note": "Paul invokes the rule that a matter is established by two or three witnesses before his next visit; the commentary's bequest dispute likewise requires accountable plurality in testimony."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.8.17",
+          "basis": "two witnesses in Jesus' defense",
+          "note": "Jesus cites the legal rule that the testimony of two people is true while defending his own witness; the estate-witness formula is reused in a different dispute over credibility."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.8.18",
+          "basis": "Father joins Son as witness",
+          "note": "Jesus says he bears witness and the Father who sent him also bears witness; the preceding two-witness rule is given an unusual father-son application."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "77c44a24e6ff12d8a74c863d76c891f9e0ee00cb44008d086fe68300d5268c7e",
+    "followup_sha256": "77c44a24e6ff12d8a74c863d76c891f9e0ee00cb44008d086fe68300d5268c7e"
+  },
+  "consolidation_error": null,
+  "list_sha256": "c1d79f64af48ecc89dec27599f845fd7ccd57a916948a0a7f7c9e94fdb6b7dc6",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 365472,
+    "cached_input_tokens": 308096,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 29551,
+    "reasoning_output_tokens": 17081,
+    "total_tokens": 395023
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:37:30.072Z",
+  "artifacts": {
+    "started.json": "acc6a36504c02d3a6438af45fba6972d8820834dd31b6c5a08c458b0898ca2f3",
+    "input.json": "c138a75066859fd994aa0f27dbb146a7d8fc70c004c15dc17d8fc6726230da7b",
+    "prompt.md": "28fedfeda6cde48cd82f75e33aa3d9fc96864734e8908e8c625cd14a28fe4dcd",
+    "package.md": "7adf0648639875e21b099790a04a585adf73a4f969189c454c421d53c898bb69",
+    "spawn.md": "072e56c224417c5085412e364f74a1aabd2e46f80b39f5cf39daf86193065f33",
+    "followup.txt": "9e364edf79a9920cfb11f4aa87ab4b03dd835033d7ffbb6d200637f2b5b90865",
+    "turn1.json": "54922e344cc52064e75212a3a482fc5ae6c625c54bfa1d4d2f0bdfd7bcbd6b08",
+    "turn1.list.tsv": "d49cd4ff0bf8e6c11b658b816102e5a333bbbce6989d889d9946fc991570c820",
+    "followup.tsv": "77c44a24e6ff12d8a74c863d76c891f9e0ee00cb44008d086fe68300d5268c7e",
+    "list.tsv": "c1d79f64af48ecc89dec27599f845fd7ccd57a916948a0a7f7c9e94fdb6b7dc6",
+    "consolidation.json": "c0e65c6034283412937c6914a59fdd0c385b0c7f85dcec49a0b6790cb3deacc2",
+    "validation.json": "e932d9977a8fce3ea26442bb9782d6c44c86278a9408ca39294bce977a5d3699",
+    "proposal_validation.json": "b465acb2e90055879afd9d2264b0c2e106a6f6cf30a538c6068eac692350e188",
+    "tool_calls.json": "8708830676a2f0e56b5f5deb6ef88eaff6797970b2c91b0816b246e3f6672274",
+    "session.json": "eba0b99b59a37f735639423fcb22f712287d06dfb03e945b8aaa9ea20481e198",
+    "session.events.jsonl": "608d92d7a95e39e5ceab406c8718a1ba0081219cff3f6e1fbd47ca761c110a6d"
+  },
+  "usd_equivalent": 0.471881,
+  "requests": 11,
+  "max_request_input_tokens": 47315,
+  "total_input_tokens": 365472,
+  "total_cached_input_tokens": 308096,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 29551,
+  "policy_notes": []
+}

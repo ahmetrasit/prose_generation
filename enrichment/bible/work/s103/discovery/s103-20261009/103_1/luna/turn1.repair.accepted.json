@@ -1,0 +1,37 @@
+{
+  "policy": "bible-first-turn-repair-v1",
+  "approval": "Accepted by the Claude Code Bible orchestrator (fork of the 2026-10-09 enrichment session) under the user's production go for S103; locator-only correction verified against the local WLC/SBLGNT/KJV text; no grade, kind, basis or explanation changed; listed for the user's review in the S103 Bible audit README.",
+  "tool_audit_reviewed": true,
+  "accepted_at": "2026-10-09T05:41:53.541692+00:00",
+  "changes": [
+    {
+      "line": 64,
+      "before": [
+        "weak",
+        "tevrat",
+        "soydas",
+        "WLC:Num.16.48",
+        "Arabic ع ص ر / Hebrew עצר; table sound correspondence, unverified",
+        "The commentary connects holding tightly with refuge and protection; Aaron stands between the dead and living while the plague is stopped with Hebrew עצר, a protective restraint that echoes that image."
+      ],
+      "after": [
+        "weak",
+        "tevrat",
+        "soydas",
+        "WLC:Num.17.13",
+        "Arabic ع ص ر / Hebrew עצר; table sound correspondence, unverified",
+        "The commentary connects holding tightly with refuge and protection; Aaron stands between the dead and living while the plague is stopped with Hebrew עצר, a protective restraint that echoes that image."
+      ],
+      "reason": "English verse numbering: KJV Numbers 16:48 (the plague restrained, Hebrew וַתֵּעָצַר) is WLC Numbers 17:13; checked in the local KJV and WLC"
+    }
+  ],
+  "model_calls": 0,
+  "artifacts": {
+    "turn1.original.tsv": "bfbbee686f168bc29843f2df263009aca45d15598a8aa2e432f582291610ed38",
+    "turn1.validation.failed.json": "8fe6a6a69d55eabfbd93613ef7a46788f3b32f2a093ab90deb8aaa4009fdaf6a",
+    "turn1.tool_calls.json": "e536fcfeec72e4c78d582b32a2e62dbe6b970a411548dafb79aa38efddb860e0",
+    "turn1.repair.proposed.json": "082bbec655bcdc014a430c31a22fd096b38aee62b76122bb104df1860c60ada6",
+    "turn1.repair.proposed.tsv": "855033dde0354fd818d9b7251c8d71bfb93abae9fa8653945449c61a82cda5f5",
+    "turn1.accepted.tsv": "855033dde0354fd818d9b7251c8d71bfb93abae9fa8653945449c61a82cda5f5"
+  }
+}

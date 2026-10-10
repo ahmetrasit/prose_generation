@@ -1,0 +1,47 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec1/terra/followup.tsv",
+  "rows": 35,
+  "unique_references": 35,
+  "schema_errors": [
+    "line 3: unknown verse in specified edition: WLC:Ps.23.7"
+  ],
+  "duplicates": [],
+  "strengths": {
+    "strong": 21,
+    "medium": 14
+  },
+  "findings": [
+    {
+      "line": 16,
+      "ref": "Wisdom 10:17",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 17,
+      "ref": "Baruch 3:13",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 18,
+      "ref": "Baruch 5:9",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 19,
+      "ref": "4 Ezra 7:3–16",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 20,
+      "ref": "Berakhot 29b",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

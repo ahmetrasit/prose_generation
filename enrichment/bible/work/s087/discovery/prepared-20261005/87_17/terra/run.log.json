@@ -1,0 +1,1379 @@
+{
+  "target": "87:17",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/87_17.md",
+  "base_sha256": "f1dd75924dc202fc8a2474609ab70830c4a2db52597ccbebb393dda4012ca32e",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T14:08:12.788001-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_87_17_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "bbca88ed2f1b25bee3383f460ddfa441300d1c03f752dfce8c2a9b1a5079266e",
+  "package_sha256": "c1fde00e6553a2975866b1180f046cde5dd6070088f2d7b8a8f2f12eefccf66c",
+  "input_sha256": "997e7864c486bcd9e397a26d05b907e4f3e2a8686d51734a060591720230516b",
+  "spawn_sha256": "0523eea118068ec294eab3c7f6084e82fc87b76e3f7a5c4261811f192dcd8872",
+  "followup_text_sha256": "2eb4c52a0c67b99f163c6c31aa2e1860dd57fb9220f20018610f6ccc755f7737",
+  "agent_id": "01a10d44-2e5c-7931-b209-b88dda701524",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T14-12-14-01a10d44-2e5c-7931-b209-b88dda701524.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 58,
+  "turn1_sha256": "a353a05ff03fa4258ed2eb53e67a592ee5681f2ec9c8c4aeda4dff65933de904",
+  "turn2": {
+    "completed": true,
+    "rows_total": 98,
+    "rows_added": 40
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_jBqfdlcGmqGdi0CAO003jpMz",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_jBqfdlcGmqGdi0CAO003jpMz",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_jBqfdlcGmqGdi0CAO003jpMz",
+      "message": "apply_patch verification failed: invalid hunk at line 38, 'görünürde ölüm, ölümsüzlükle dolu umut\tDoğrular insanların gözünde cezalandırılmış görünse de umutlarının ölümsüzlükle dolu olduğu söylenir; görünene göre yapılan tercih ile kalıcı, henüz görünmeyen hayat arasındaki yorum gerilimini taşır.' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'"
+    }
+  ],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 58,
+    "raw_proposal_rows": 40,
+    "unique_additions": 40,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.10.34",
+          "basis": "daha iyi ve kalıcı sahiplik; yağmalanan mallar",
+          "note": "87:17'nin \"daha hayırlı ve daha kalıcı\" hükmünü, malları yağmalansa da daha iyi ve kalıcı bir sahipliğe sahip olduklarını bilenlerin sevinciyle doğrudan somutlaştırır; yakın mal kaybı, sonraki dayanıklı kazanca göre tartılır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "2 Maccabees 7:9",
+          "basis": "işkence altında ebedî hayata diriliş",
+          "note": "Şehit kardeş, şimdiki hayatının elinden alınmasına karşılık evrenin Kralının onu ebedî hayat için dirilteceğini söyler; 87:16-17'deki yakın hayat pahasına sonraki, hayırlı hayatı seçme gerilimini açıkça kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.18.30",
+          "basis": "bu zamanda karşılık ve gelecek çağda ebedî hayat",
+          "note": "Ayet hem \"bu zamanda\" daha çoğunu hem \"gelecek çağda\" ebedî hayatı vaat eder; yorumun yakındaki payı inkâr etmeyip sonraki hayatı üstün tutan iki kefesine yakındır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.12.25",
+          "basis": "bu dünyadaki hayatı sevmek ya da ebedî hayata saklamak",
+          "note": "İsa'nın bu dünyadaki hayatını sevenin onu yitirmesi, ondan vazgeçenin ise onu ebedî hayata saklaması, yorumdaki yakın hayatı öne alma ile kalıcı hayat için önden verme karşıtlığını kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.6.27",
+          "basis": "bozulan yiyecek ve ebedî hayata kalan yiyecek",
+          "note": "Geçici yiyecek için değil ebedî hayata kalan yiyecek için emek verme buyruğu, yorumun hasat, geçimlik ve \"kalan iyi işler\" dilini somut bir besin karşıtlığıyla yan yana getirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.19",
+          "basis": "gelecek için temel biriktirmek; gerçek hayat",
+          "note": "Zenginlere gelecek için sağlam temel biriktirip \"gerçek hayata\" sarılmaları söylenir; yorumun malın burada kalması, ertelenmiş karşılık ve sonraki hayatın asıl hayat oluşu aynı cümlede birleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:2Cor.4.18",
+          "basis": "görünen geçici, görünmeyen ebedî",
+          "note": "Görünenlerin geçici, görünmeyenlerin ebedî oluşu, yorumun yakın olanın göz önünde bulunmasına rağmen daha iyi ve kalıcı olanın tercih edilmesi gerektiği savını doğrudan karşılar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.15.42",
+          "basis": "bozulur ekilen beden, bozulmaz diriltilen beden",
+          "note": "Diriliş bedenini bozulur ile bozulmaz diye ayırması, yorumun bekânın yalnız uzunluk değil yok oluşa ve değişmeye karşı ilk halinde kalma olduğu açıklamasına belirli bir diriliş karşılığı verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.12.2",
+          "basis": "ebedî hayat ve ebedî utanç için uyanış",
+          "note": "Topraktaki uykudan uyananların ebedî hayat ile ebedî utanç arasında ayrılması, yorumun sonraki hayatta hayırla kalmak ile hayırsız kalıcılığın ayrıldığı iki ihtimali netleştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Eccl.7.8",
+          "basis": "אַחֲרִית ve טוֹב; son başlangıçtan iyidir",
+          "note": "İbranicede Arapça ء خ ر ile soydas olan אַחֲרִית'in \"son/sonraki\" anlamı, \"bir şeyin sonu başlangıcından iyidir\" karşılaştırmasında geçer; yorumun ahiretin önce sıralama sıfatı olduğu okumaya tam bir Semitik örnek ekler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.8",
+          "basis": "ot solur, çiçek düşer, Tanrı sözü ayakta durur",
+          "note": "Yorumun yeşil otlağın kuru döküntüye dönüşmesi ile değişmeden kalan arasında kurduğu kefe, bu ayette solan ot ve kalıcı Tanrı sözüyle açık biçimde tekrar edilir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.11",
+          "basis": "kavuran güneş, solan ot ve geçip giden zengin",
+          "note": "Yakup, güneşin ot ve çiçeği soldurmasını zenginin işleri içinde solmasına benzetir; yorumdaki yakın hayatın bitkisi, malı ve kalıcılık iddiası arasındaki bağı özel olarak keskinleştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.7",
+          "basis": "çiftçinin değerli ürün ve erken-geç yağmur için bekleyişi",
+          "note": "Çiftçinin toprağın değerli ürününü ve erken-geç yağmuru sabırla beklemesi, yorumun şimşeği ve yağmuru gözleyip gelecek hasada umut bağlama tasvirine doğrudan bir tarım ve bekleyiş karşılığı verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.23.18",
+          "basis": "אַחֲרִית ve תִּקְוָה; kesilmeyen umut",
+          "note": "Arapça ء خ ر ile soydas אַחֲרִית burada gelecek/son için kullanılır ve umutun kesilmeyeceği söylenir; bu, yorumun sonraki olanı umutla gözlemek ve onun sona kalacağı güvencesiyle bağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.3",
+          "basis": "belirlenmiş vakit için görüm; gecikse de bekle",
+          "note": "Görümün belirlenmiş vakte ait olduğu, gecikiyor görünse de bekleneceği ve mutlaka geleceği söylenir; yorumdaki vadeye bırakılmış bedel ve ufuktaki geleceği kollama için kesin, fakat peşin olmayan bir vaat modeli sunar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.25",
+          "basis": "görülmeyen umut için sabırla beklemek",
+          "note": "Görmediği şeye umut bağlayanların sabırla beklemesi, yorumun eldeki otla yetinmeyip henüz görünmeyen yağmurun iyi ve kalıcı gelişini kollama imgesini yorumlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.9",
+          "basis": "iyilikte yılmamak ve uygun vakitte biçmek",
+          "note": "İyilik yapmaktan yılmayanların vakti gelince biçeceği vaadi, yorumun tarla, ürün, kalan iyilik ve gecikmiş fakat güvenilir karşılık bağını taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.15.16",
+          "basis": "seçilmiş ve kalan meyve",
+          "note": "İsa'nın seçip gönderdiği kişilerin \"kalan meyve\" vermesi, yorumun hayır ile seçilmişlik arasındaki bağını ve kalıcı iyi işlerin ürün imgesini tek bir deyimde birleştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.13",
+          "basis": "Rabde ölenlerin dinlenmesi ve işlerinin onları izlemesi",
+          "note": "Ölenlerin işlerinin kendilerini izlemesi, yorumun kişinin malını geride bırakması fakat kalıcı iyi işlerin sonraki hayata geçmesi düşüncesine belirli bir eskatolojik karşılık verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.16",
+          "basis": "tek başına ölümsüzlüğe sahip olan Tanrı",
+          "note": "Yorum kalıcılığın insanın kendi malı değil Allah'ın elinde olduğunu vurgular; bu ayetin Tanrı'nın tek başına ölümsüzlüğe sahip olduğunu söylemesi aynı teolojik sınırı kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.51.6",
+          "basis": "yıpranan yer ve gök; ebedî kurtuluş",
+          "note": "Göklerin duman gibi dağılması ve yerin eskimesi karşısında kurtuluşun ebedî kalması, yorumun yakın hayatın değişmesi ile Allah katındaki kalıcılık arasındaki farkını kozmik ölçekte açar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.13.14",
+          "basis": "burada kalıcı kent yok, gelecek kent aranır",
+          "note": "\"Burada kalıcı kentimiz yoktur; gelecek olanı ararız\" sözü, yorumun yakın ve sonraki hayatı aynı yolun şimdi ve sonra gelen durağı olarak düşünmesine yerleşim/yurt imgesiyle eşlik eder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1John.2.17",
+          "basis": "dünya ve arzusu geçer, Tanrı'nın isteğini yapan kalır",
+          "note": "Dünya arzusu ile birlikte geçerken Tanrı'nın isteğini yapanın ebediyen kalması, yorumdaki yakın olana verilen sınırlı pay ile hayır içinde kalma ayrımını eylem üzerinden kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.42",
+          "basis": "daha iyi payın seçilmesi ve alınmaması",
+          "note": "Meryem'in Rabbin sözünü dinlerken \"iyi payı\" seçtiği ve bunun ondan alınmayacağı söylenir; aynı anda görünen meşguliyet ile daha iyi, kalıcı pay arasındaki yorum sahnesine yakındır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.15",
+          "basis": "hayat ve iyilik karşısında ölüm ve kötülük",
+          "note": "Musa'nın hayatla iyiliği ölümle kötülüğün karşısına koyması, yorumun hayrın seçenin aradığı şey oluşu ve yanlışlığın seçme fiilinde değil sıralanan hedefte olması fikrine etik bir ikili verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.25.34",
+          "basis": "bir öğün için doğuştan hakkın hor görülmesi",
+          "note": "Esav'ın yiyip içtikten sonra doğuştan hakkını hor görmesi, yorumun peşin küçük menfaat uğruna vadeli ve büyük karşılığın satılması imgesine anlatısal bir örnek sağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.12.16",
+          "basis": "Esav'ın tek öğün için doğuştan hakkını satması",
+          "note": "İbraniler, Tekvin'deki Esav sahnesini tek öğün uğruna paha biçilmez hakkını satan, kutsalı hor gören kişi olarak okur; bu yorum, 87:16'daki yakın hayatı öne alma için doğrudan yorum geleneği oluşturur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.12.17",
+          "basis": "sonradan istenen bereket ve gözyaşlı pişmanlık",
+          "note": "Esav'ın daha sonra bereketi istemesine rağmen onu bulamaması, yorumdaki ölüm ya da azap anında istenen kısa erteleme ve geç tanımanın fayda vermemesi motifini belirli bir yorumla yan yana getirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.11.24",
+          "basis": "Firavun kızının oğlu diye anılmayı reddetmek",
+          "note": "Musa'nın Firavun hanedanındaki görünen kimliği reddetmesi, yorumun yakın hayatta hazır bulunan üstünlüğü değil daha büyük sadakat ve karşılığı seçme sahnesine anlatısal bir başlangıç verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.11.26",
+          "basis": "Mısır hazinelerinden büyük sayılan karşılık",
+          "note": "Mısır'ın görünen hazinelerine karşı beklenen karşılığı daha büyük servet saymak, yorumun yakın malı değil daha hayırlı sonraki karşılığı seçme çağrısını açıkça işler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.11.8",
+          "basis": "İbrahim'in henüz bilmediği miras yerine çıkışı",
+          "note": "İbrahim'in bilmediği bir yere, miras alacağı yere doğru çıkışı, yorumdaki İbrahim'in ilk sayfalarında bildirilen sonraki yurt ve eldeki yerden sonra gelen vaat için hareket etme temasına anlatısal bir bağ verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.10",
+          "basis": "temelleri olan, mimarı Tanrı olan kent",
+          "note": "İbrahim'in beklediği temelli kent, yorumda ahiretin \"yurt\" ve yerleşip kalınacak yer olarak açılmasıyla, ayrıca bu haberin İbrahim'in ilk sayfalarına bağlanmasıyla buluşur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.20",
+          "basis": "yıpranmayan ve çalınmayan göksel hazine",
+          "note": "Güve, pas ve hırsızdan etkilenmeyen hazine biriktirme buyruğu, yorumun malın bitmesi ile Allah katında kalan şeyin daha iyi ve kalıcı oluşu arasındaki ekonomik kefeyi taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.8.36",
+          "basis": "bütün dünyayı kazanıp canı yitirmek",
+          "note": "Dünyayı kazanma ile canı kaybetme arasındaki kazanç-zarar hesabı, yorumun yakın hayatı sonrakine karşılık satın alma ve yanlış ticaret olarak anlattığı tercihi yoğunlaştırır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.12.20",
+          "basis": "biriktirene o gece canının istenmesi",
+          "note": "Ambarları dolduran kişinin o gece canı istenir ve hazırladıklarının kime kalacağı sorulur; yorumdaki hasat, malın geride kalması ve ölümde geç gelen fark ediş aynı sahnede birleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.16.25",
+          "basis": "hayat boyunca iyi şeyler ve sonradan tersine dönen durum",
+          "note": "Zengin'in hayatında iyi şeyleri, Lazarus'un ise kötülükleri almış olması; sonraki durumda Lazarus'un teselli, zenginin acı çekmesi, yorumun iki hayatın terazisinin sonra kurulmasıyla paraleldir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Wisdom of Solomon 3:4",
+          "basis": "görünürde ölüm, ölümsüzlükle dolu umut",
+          "note": "Doğrular insanların gözünde cezalandırılmış görünse de umutlarının ölümsüzlükle dolu olduğu söylenir; görünene göre yapılan tercih ile kalıcı, henüz görünmeyen hayat arasındaki yorum gerilimini taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "Mishnah Avot 4:17",
+          "basis": "bu dünyadaki tevbe ve işler; gelecek dünyadaki saadet",
+          "note": "Rabbi Ya'akov karşılaştırmayı iki yöne böler: bu dünyada bir saatlik tevbe ve iyi iş, gelecek dünyanın bütün hayatından; gelecek dünyanın bir saatlik saadeti de bu dünyanın bütün hayatından üstündür. Bu, yorumun yakın hayatın tümüyle değersiz olmadığını söyleyen nüansını keskin bir karşı okuma ile sınar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Eruvin 22a",
+          "basis": "bugün yapmak, yarın karşılığını almak",
+          "note": "Talmud'un emirleri \"bugün yapmak, yarın karşılığını almak\" diye açıklaması, yorumdaki vadeli satış ve şimdi verilen şeyin sonraki, güvenilir bedeli için yapılması imgesine rabbanî bir ödül yorumu ekler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Pet.1.4",
+          "basis": "bozulmaz, lekesiz, solmaz miras",
+          "note": "Bozulmaz, lekesiz ve solmaz mirasın gökte saklandığı vaadi, yorumun kalıcılığı ilk halinde değişmeden durmak diye açması ve sonraki hayatın daha hayırlı oluşuyla doğrudan birleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.5.1",
+          "basis": "adil ve sadık bir kişi uğruna kentin bağışlanması",
+          "note": "Yorumdaki yeryüzünde bozgunculuğu önleyecek \"kalan hayır\" sahipleri fikri, Yeruşalim'de adalet ve sadakat arayan tek kişi bulunursa kentin bağışlanacağı bu sahnede şehir ölçeğinde karşılık bulur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.7.23",
+          "basis": "yıkımdan sonra yalnız Nuh ve yanındakilerin kalması",
+          "note": "Yorumun kalmanın merhametle bağışlanması ve Nuh soyunun kalanlar kılınması örneği, tufanda yalnız Nuh ile gemidekilerin hayatta bırakıldığı bu ayette somut bir kurtarılan kalıntı sahnesi bulur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.6",
+          "basis": "ilk ve son olan tek Tanrı",
+          "note": "Yorumun önde-arkada sırası ile kalıcılığın sahibinin Allah oluşu, YHWH'nin kendisini ilk ve son diye adlandırmasında zaman sırasını ilahî tekliğe bağlayan bir benzerlik bulur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.13",
+          "basis": "başlangıç ve son, ilk ve son",
+          "note": "İsa'nın kendisini başlangıç-son ve ilk-son diye adlandırması, yorumun ahireti gündelik sıralama ve ön-arka yönüyle işitmesi ile ilahî egemenliğin bu sırayı kuşatması arasında Hristiyan bir karşılık kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:2Cor.5.1",
+          "basis": "yıkılan yersel çadır ve ebedî göksel yapı",
+          "note": "Yersel beden-çadırın yıkılması karşısında Tanrı'dan ebedî bir konutun bulunması, yorumun yakın ve sonraki hayatı iki ayrı değil ardışık hayat bölümleri ve \"yurt\" olarak açıklamasına somut bir yapı imgesi ekler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Phil.1.23",
+          "basis": "ayrılıp Mesih'le olmanın çok daha iyi oluşu",
+          "note": "Pavlus'un bedenden ayrılıp Mesih'le olmayı \"çok daha iyi\" sayması, 87:17'nin sonraki hayat için kullandığı doğrudan üstünlük karşılaştırmasına kişisel ölüm eşiğinde bir Hristiyan karşılık verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.21.4",
+          "basis": "eski şeylerin geçmesi ve ölümün olmaması",
+          "note": "Yeni düzende ölümün, yasın ve acının kalkması; eski şeylerin geçmesi, yorumun kalıcılığı ne ölmek ne de değişmek olarak düşünmesiyle ve hayırla kalıcılığı azaptan ayırmasıyla buluşur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.46.10",
+          "basis": "başlangıçtan אַחֲרִית'i bildirmek",
+          "note": "Arapça ء خ ر ile soydas אַחֲרִית burada \"son/sonraki\"dir; Tanrı'nın başlangıçtan sonu bildirmesi, yorumdaki sonraki haberin ilk sayfalarda zaten verilmiş olması iddiasına zaman sırası üzerinden eşlik eder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "Mishnah Avot 4:16",
+          "basis": "bu dünya koridor, gelecek dünya ziyafet salonu",
+          "note": "Yorum yakın ve sonrakini aynı yolun iki uzunluğu diye tutarken Mişna bu dünyayı gelecek dünyanın önündeki koridor, ötekini salon olarak mekânsallaştırır; ortak hazırlık sırası ile ayrılan iki mekân tasavvuru arasındaki fark burada önemlidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Wisdom of Solomon 2:6",
+          "basis": "mevcut iyilikleri hızla tüketmeye çağrı",
+          "note": "Kötüler mevcut iyiliklerden hızla yararlanmaya çağırır; bu, yorumdaki hemen geleni sevip sonra geleni bırakma ve faydalanmanın kişiyi oyalaması eleştirisinin kendi bağlamındaki anlatısal karşılığıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 4:9",
+          "basis": "gelecekteki ihtiyaç günü için iyi hazine",
+          "note": "Sadaka verenin kendisi için ihtiyaç günü adına iyi hazine biriktirmesi, yorumdaki kalıcı iyi iş, ölümden önce verme ve ertelenmiş karşılık fikirlerini özel bir hayır eylemiyle bağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Shepherd of Hermas, Similitude 1.1",
+          "basis": "yabancı ülkede yaşamak ve uzaktaki şehir",
+          "note": "Hermas, Tanrı kullarının yabancı bir ülkede yaşadığını ve şehirlerinin uzakta olduğunu söyleyerek mevcut mülk biriktirmeyi sorgular; yorumun yakın yol ile sonra gelen yurt ve ticaret metaforuna erken Hristiyan bir yolcu-okuması getirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Eccl.3.13",
+          "basis": "emek içindeki yiyip içme ve iyiyi görmenin Tanrı armağanı",
+          "note": "Yorum, yakın hayatın hayrı ve süresini bütünüyle inkâr etmez; Vaiz'in yiyip içip emekte iyiyi görmeyi Tanrı armağanı sayması, bu payı daha üstün sonraki hayatla karşılaştırmadan koruyan bir karşı denge verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Cor.7.31",
+          "basis": "dünyayı kullanmak, ona tam bağlanmamak",
+          "note": "Dünyayı kullananların ona tam sahipmiş gibi davranmaması gerektiği, çünkü biçimi geçmektedir; yorumun hatayı dünyayı yaşamakta değil onu ilk sıraya koymakta bulan ince ayrımına yakındır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.2",
+          "basis": "doyurmayan şeye para ve emek harcamak; iyiyi yemek",
+          "note": "Doyurmayan şeye para, tatmin etmeyene emek harcamayı sorgulayıp \"iyi\" olanı yemeye çağırması, yorumun peşin küçük bedel ile daha hayırlı olanı seçme ve çarşı diliyle kurduğu karşılaştırmaya somut bir alışveriş paraleli sağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.13",
+          "basis": "bugün-yarın alıp satıp kâr etme tasarısı",
+          "note": "Yakup'un bugün ya da yarın bir şehre gidip alıp satma ve kâr etme tasarlayan tüccarları anması, yorumun yakın kazancı önceleyen çarşı ve vade sahnesine kendi bağlamında karşılık verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.14",
+          "basis": "hayatın kısa süre görünen buhar oluşu",
+          "note": "Ertesinin ne getireceğini bilmeyen kişilerin hayatı kısa süre görünen ve sonra kaybolan buhara benzetilir; yorumun ticaretle birleşen yakın hayatın sahte kalıcılık iddiasını bu geçicilik yargısıyla karşılar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.36",
+          "basis": "efendinin dönüşünü bekleyen hizmetkârlar",
+          "note": "Efendilerinin dönüşünü bekleyip kapıyı hemen açacak hizmetkârlar, yorumun ufku gözleyen ve sonra geleceğini bilen kişinin uyanık bekleyişine kişilerarası bir sahne sağlar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.26.19",
+          "basis": "ölülerin yaşaması ve cesetlerin kalkması",
+          "note": "Ölülerin yaşayacağı ve yerde yatanların kalkıp sevinçle haykıracağı vaadi, yorumun sonraki hayatın ikinci yaratılış ve asıl hayat oluşuna doğrudan bir İbrani Kitabı diriliş karşılığı verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.12.3",
+          "basis": "bilge kişilerin yıldızlar gibi sonsuza dek parlaması",
+          "note": "Bilgelerin gök parıltısı gibi, birçoklarını doğruluğa döndürenlerin yıldızlar gibi sonsuza dek parlaması; yorumun sonraki hayattaki dereceler, hayır ve kalıcılık diline ayrı bir ödül ve derece boyutu ekler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.25.8",
+          "basis": "ölümün sonsuza dek yutulması ve gözyaşlarının silinmesi",
+          "note": "YHWH'nin ölümü sonsuza dek yutması ve gözyaşlarını silmesi, yorumun hayırla kalmanın ölümsüzlükten fazlası, acı ve azaptan ayrılmış gerçek hayat olduğu vurgusuyla birleşir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.65.17",
+          "basis": "yeni gökler, yeni yer ve eski şeylerin unutulması",
+          "note": "Yeni göklerle yeni yerin yaratılması ve eskilerin hatırlanmaması, yorumun \"sonraki yaratılış\" ve ilk halin geçip başka bir hayat düzeninin gelmesi açıklamasına açık bir yaratılış karşılığı verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.7.18",
+          "basis": "sonsuz çağlar boyunca sahip olunacak krallık",
+          "note": "En Yüce'nin kutsallarının krallığı sonsuz çağlar boyunca alıp sahiplenmesi, yorumun sonraki yurda yerleşme ve hayır içinde kalma tasvirini siyasal-yurtluk bir süreklilik olarak işler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.4",
+          "basis": "gazap gününde servetin yararsızlığı; doğruluğun ölümden kurtarması",
+          "note": "Servetin gazap gününde fayda vermeyip doğruluğun ölümden kurtarması, yorumun yakın malın kalıcı karşılığa çevrilememesi ve iyi olanın sonradan belirleyici olması düşüncesini ticari bir ölçüyle karşılar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.20.21",
+          "basis": "acele edinilen mirasın sonunda bereketsiz kalması",
+          "note": "Başta aceleyle edinilen mirasın sonunda bereketli olmayacağı söylenir; yorumun peşin ve küçük menfaat uğruna sonraki büyük değeri ters sıralamak diye açıkladığı tercihe kısa bir bilgelik karşılığıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Hag.2.9",
+          "basis": "אַחֲרוֹן ile önceki ihtişamdan büyük sonraki ihtişam",
+          "note": "İbranicede ء خ ر ile soydas אַחֲרוֹן, tapınağın \"sonraki\" ihtişamının öncekinden büyük olması için kullanılır; yorumun ahiretin önce zaman sırası bildiren sıfat olduğu, sonra da üstünlük kazandığı açıklamasını başka bir bağlamda gösterir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.3.22",
+          "basis": "hayat ağacından yiyip sonsuza dek yaşama ihtimali",
+          "note": "İnsanın hayat ağacından yiyip sonsuza dek yaşamasının engellenmesi, yorumdaki kalıcılığın insanın kendine ait olmadığı ve onu verecek kudretin elinde bulunduğu savına yaratılış anlatısından belirli bir karşılık sağlar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.14",
+          "basis": "her gizli iş için son hüküm",
+          "note": "Vaiz'in Tanrı'nın her işi, iyi ya da kötü olsun, hükme getireceğini söylemesi; yorumdaki bilerek yapılan seçimin sonradan ortaya çıkması ve iki hayat arasındaki hesabın tamamlanması temasını taşır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Wisdom of Solomon 5:15",
+          "basis": "doğruların sonsuza dek yaşaması ve ödüllerinin Rabde olması",
+          "note": "Doğruların sonsuza dek yaşadığı ve ödüllerinin Rab katında olduğu söylenir; bu, yorumun \"Allah katında olan\"ın daha hayırlı ve daha kalıcı oluşundan ahirete geçişini doğrudan karşılar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "2 Maccabees 7:14",
+          "basis": "kötü için yaşama dirilişi umudunun olmaması",
+          "note": "Dördüncü kardeş, Tanrı'nın elinden gelecek yaşama diriliş umudunun zalim için bulunmadığını söyler; yorumdaki kalıcılığın tek başına hayır olmadığı, sonraki hayatta iki ayrı sonuç olduğu ayrımına karşılık verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 29:11",
+          "basis": "En Yüce'nin buyruğuna göre hazine biriktirmek",
+          "note": "Sirak, hazineyi En Yüce'nin buyruğuna göre saklamanın altından daha yararlı olduğunu söyler; yorumdaki gerçek ticaret, ertelenmiş karşılık ve kalıcı hayır işlemesiyle somutlaşır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Shabbat 153a",
+          "basis": "ölümden önce bir gün tevbe etme buyruğu",
+          "note": "Rabbi Eli'ezer'in \"ölümünden bir gün önce tevbe et\" sözü, ölüm vaktinde daha kısa bir mühlet isteyen kişinin geç kalmış pişmanlığına karşı her gün hazırlıklı olmayı öğreten rabbanî yorumdur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Pesachim 50a",
+          "basis": "gelecek dünyada tersine dönmüş makamlar",
+          "note": "Rabbi Yosef'in gelecek dünyayı üsttekilerin aşağıda, aşağıdakilerin yukarıda olduğu tersine dönmüş bir dünya olarak görmesi, yorumun sonraki hayatta derecelerin yeniden kurulması ve ön-arka sırasının tersine çevrilmesiyle buluşur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.20.36",
+          "basis": "artık ölememek ve dirilişin çocukları olmak",
+          "note": "Gelecek çağa layık görülenlerin artık ölemeyeceği ve dirilişin çocukları olduğu söylenir; yorumun kalıcılığı yaşamın dolu biçimiyle, \"ne ölür ne yaşar\" cezasının tersine ayırmasına doğrudan karşılık verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.46",
+          "basis": "ebedî ceza ve ebedî hayatın iki sonucu",
+          "note": "İnsanların ebedî cezaya ya da ebedî hayata gidişi, yorumun hayırla kalıcılığı kalıcı azaptan ayıran ve sonraki hayatın iki ihtimalini koruyan açıklamasına en açık ikili karşılığı verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.11.25",
+          "basis": "diriliş ve hayat olan kişi; ölse de yaşamak",
+          "note": "İsa'nın kendisini diriliş ve hayat diye tanımlaması, inananın ölse bile yaşayacağını söylemesiyle yorumun sonraki hayatın yalnız \"hayat\" diye anılması ve ölümün kalıcılığı bozmadığı düşüncesini birleştirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Tim.4.8",
+          "basis": "şimdiki ve gelecek hayat için vaat",
+          "note": "Beden eğitiminin sınırlı faydasına karşı Tanrı yoluna bağlılığın hem şimdiki hem gelecek hayat için vaat taşıması, yorumun yakındaki hayrı silmeden sonrakini daha üstün ve kalıcı tutan ölçüsüne özellikle yakındır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Cor.15.53",
+          "basis": "çürümenin çürümezliği, ölümün ölümsüzlüğü giymesi",
+          "note": "Çürüyenin çürümezliği ve ölümlünün ölümsüzlüğü giymesi, yorumun bekâ'yı yok oluşun karşıtı ve hayatın kendi tam anlamı diye kurmasına doğrudan bedensel bir karşılık verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.58",
+          "basis": "Rabde emeğin boş olmaması",
+          "note": "Diriliş tartışmasının sonunda Rabdeki emeğin boş olmadığının söylenmesi, yorumun kalıcı iyi işler ile beklenen hasat arasındaki bağını emek ve karşılık diliyle taşır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.4.14",
+          "basis": "ebedî hayata fışkıran su kaynağı",
+          "note": "Verilen suyun ebedî hayata fışkıran kaynak olması, yorumun gökten suya, ota ve kalıcı hayata uzanan yağmur imgesini yok olmayan hayat veren suyla karşılaştırır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.4.36",
+          "basis": "ebedî hayat için ürün toplayan biçici ve ücret",
+          "note": "Biçicinin ücret alıp ebedî hayat için ürün toplaması, yorumun hasat, vadeli bedel ve kalıcı iyi işlerin karşılığı metaforlarını tek bir tarla ve ücret sahnesinde bir araya getirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.36",
+          "basis": "sabırdan sonra vaadi alma",
+          "note": "İrade yerine getirildikten sonra vaadi almak için sabrın gerekli olması, yorumun daha sonra gelecek güvenilir bedeli gözlemek ve ilk anda tüm gücü harcamamak öğesine doğrudan eşlik eder."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.13",
+          "basis": "vaatleri uzaktan görüp selamlamak ve yabancı sayılmak",
+          "note": "Vaatleri almadan ölenlerin onları uzaktan görüp selamlaması ve kendilerini yabancı/konuk sayması, yorumun ufka bakarak bekleme ve yakındaki yurt yerine sonra gelen yurdu arama imgesine yakındır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.11.16",
+          "basis": "daha iyi, göksel ülke ve hazırlanmış kent",
+          "note": "\"Daha iyi\" göksel bir ülkeyi arayanlara Tanrı'nın kent hazırlaması, 87:17'nin üstünlük sözü ile yorumun sonraki hayatı yurt ve kalıcı yerleşim diye açmasını doğrudan birleştirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:2Pet.3.13",
+          "basis": "vaat edilen yeni gökler ve yeni yer; doğruluğun ikameti",
+          "note": "Vaade göre doğruluğun ikamet ettiği yeni gökleri ve yeri beklemek, yorumun ikinci yaratılış, bekleyiş ve hayırla kalıcı yurt motiflerini birlikte karşılar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.3.12",
+          "basis": "asla dışarı çıkmayacak tapınak sütunu",
+          "note": "Galibin Tanrı tapınağında sütun kılınıp artık dışarı çıkmayacağı vaadi, yorumun yerleşip durulan yurt ve kalıcılığın sadece uzun sürmek değil güvenli yerinde sabit kalmak olduğu fikrine karşılık verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.22.5",
+          "basis": "sonsuz çağlar boyunca hüküm sürmek",
+          "note": "Tanrı'nın ışığında sonsuz çağlar boyunca hüküm süreceklerin sahnesi, yorumun sonraki hayatın hayırla kalıcı olması ve dereceli üstünlük diliyle buluşur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.3.13",
+          "basis": "geridekini unutup öndekine uzanmak",
+          "note": "Pavlus'un geridekini unutup öndekine doğru uzanması, yorumun ء خ ر kökünü önde-arkada, koşu ve sıra olarak işiten ayrıntısına hedefe yönelmiş bir yarış karşılığı verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.3.14",
+          "basis": "hedefe doğru yukarı çağrının ödülü için koşmak",
+          "note": "Ödül için hedefe doğru koşmak, yorumun dünya yarışında hızını tüketmek yerine sonraki bağışlanma ve cennete doğru yarışmayı seçme imgesini amaç ve ödülle belirginleştirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.13.11",
+          "basis": "acele kazanılan servetin eksilmesi, el emeğiyle birikenin artması",
+          "note": "Acele kazanılan servetin eksilmesi ile azar azar toplananın artması, yorumun ilk anda bütün koşu gücünü tüketmemek ve peşin küçük kazanç yerine sona kalanı gözetmek tasvirine bilgelik bağlamı verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.11.1",
+          "basis": "birçok gün sonra bulunacak ekmek",
+          "note": "Suyun üzerine atılan ekmeğin birçok gün sonra bulunacağı sözü, yorumun vadeli satışta bugünden verilen şeyin sonra gelen karşılığı ve beklenen hasat metaforuna temkinli bir gecikmiş dönüş örneği ekler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lam.3.26",
+          "basis": "YHWH'nin kurtuluşunu sessizce beklemenin iyi oluşu",
+          "note": "YHWH'nin kurtuluşunu sessizce beklemenin iyi olduğu yargısı, yorumdaki umudun geleceğe bakmak ve sonra gelecek iyiliğin güvenilirliğine dayanmak oluşunu kısa bir formülle karşılar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.22.30",
+          "basis": "ülke yok edilmesin diye gedikte duracak kişi arayışı",
+          "note": "YHWH'nin ülkeyi yok etmemek için duvar örecek ve gedikte duracak bir kişi araması, yorumdaki bozgunculuğu önleyecek \"kalan hayır\" sahiplerinin yokluğu yüzünden şehirlerin yok olması temasına olumsuz bir anlatı karşılığıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.13.30",
+          "basis": "sonların ilk, ilklerin son olması",
+          "note": "Krallık bağlamında sonların ilk, ilklerin son olacağı sözü, yorumun ön-arka sırası, dereceler ve yakın hayatın yanlış kurulmuş önceliğinin sonradan tersine çevrilmesiyle belirli bir eskatolojik bağ kurar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.22",
+          "basis": "dünya kaygısı ve servet aldatısının sözü boğması",
+          "note": "Dünya kaygısı ile servetin aldatısı sözü boğup meyvesiz bırakır; yorumun görünen ticaret ve eğlencenin ilahî zikri geride bırakması, ayrıca kalıcı ürün vermeme uyarısına karşılık verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.14.18",
+          "basis": "satın alınan tarla yüzünden ziyafet çağrısını reddetmek",
+          "note": "Satın aldığı tarlayı görme gerekçesiyle ziyafet davetinden izin isteyen adam, yorumdaki göz önündeki malın daha değerli çağrının önüne konması ve çarşı diliyle kurulan yanlış tercih sahnesine somut bir anlatı ekler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "Augustine, City of God 14.28",
+          "basis": "iki sevginin kurduğu yersel ve göksel şehirler",
+          "note": "Augustinus yersel ve göksel şehri iki sevginin ürünü olarak ayırır; yorum yakın ve sonrakini aynı hayatın iki uzunluğu diye tutarken bu gelenek onları iki karşıt yurttaşlık düzeni olarak keskinleştirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Martyrdom of Polycarp 11.2",
+          "basis": "bir saat süren ateş ve gelecek yargının ebedî ateşi",
+          "note": "Polykarp geçici ateşle gelecek yargının ebedî cezasını karşılaştırır; yorumun kalıcılığın tek başına hayır olmadığı, hayırlı kalıcılığın kalıcı azaptan ayrıldığı uyarısına erken Hristiyan bir karşılık verir."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "072f50cf756389bdd147479c7031c9815ee0b4f3aa4c3b6347a6873c04e941d9",
+    "followup_sha256": "072f50cf756389bdd147479c7031c9815ee0b4f3aa4c3b6347a6873c04e941d9"
+  },
+  "consolidation_error": null,
+  "list_sha256": "ab57d4c042fc33fd05ec1613d7f7cfb7acb149287debea7a6ef4f52b3a4e59c1",
+  "followup_delivery": [
+    {
+      "call_id": "call_W9KLkIEK9SgsGZElcSvK9NzL",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 1140129,
+    "cached_input_tokens": 1037568,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47472,
+    "reasoning_output_tokens": 31149,
+    "total_tokens": 1187601
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T19:07:46.179Z",
+  "artifacts": {
+    "started.json": "7c01e92ae05eb971be2b66bdbb0adc79ab97a9f01bd1136a722c0104b3b7fe1e",
+    "input.json": "997e7864c486bcd9e397a26d05b907e4f3e2a8686d51734a060591720230516b",
+    "prompt.md": "bbca88ed2f1b25bee3383f460ddfa441300d1c03f752dfce8c2a9b1a5079266e",
+    "package.md": "c1fde00e6553a2975866b1180f046cde5dd6070088f2d7b8a8f2f12eefccf66c",
+    "spawn.md": "0523eea118068ec294eab3c7f6084e82fc87b76e3f7a5c4261811f192dcd8872",
+    "followup.txt": "2eb4c52a0c67b99f163c6c31aa2e1860dd57fb9220f20018610f6ccc755f7737",
+    "turn1.json": "1b41243d686c38c84f4ddd6fc31a9e94c7afcc13c2f7628dd67a9bbf0be79cab",
+    "turn1.list.tsv": "a353a05ff03fa4258ed2eb53e67a592ee5681f2ec9c8c4aeda4dff65933de904",
+    "followup.tsv": "072f50cf756389bdd147479c7031c9815ee0b4f3aa4c3b6347a6873c04e941d9",
+    "list.tsv": "ab57d4c042fc33fd05ec1613d7f7cfb7acb149287debea7a6ef4f52b3a4e59c1",
+    "consolidation.json": "377864541a946c7559d2b0c98407c772206d5f106fea83cb875b8bf72f3c2de5",
+    "validation.json": "b6361cbbcdf729e9e8603d16342008e6c7a3a713e08ddd3dd607222107decfa4",
+    "proposal_validation.json": "a3fadaf4cf40c9d3de17648efe14dac9df9602034388a824b4192ef69ec2fe88",
+    "tool_calls.json": "c8f275451584687efc05ba3e0c9190c9fa0190f3d141938d443962d59ae55fcb",
+    "session.json": "a1cb561ca4de970495d945e7137b6211976144ac3f2fcb97a1495ac91de834e4",
+    "session.events.jsonl": "b70c3539020dd7f1e97c26b5c3eed71c32e0acb253f88116934377ef91a8ad55"
+  }
+}

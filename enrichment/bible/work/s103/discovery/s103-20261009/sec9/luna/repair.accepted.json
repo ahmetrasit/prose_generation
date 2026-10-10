@@ -1,0 +1,32 @@
+{
+  "approval": "Accepted by the Claude Code Bible orchestrator (fork of the 2026-10-09 enrichment session) under the user's production go for S103; locator-only correction verified against the local WLC/SBLGNT/KJV text; no grade, kind, basis or explanation changed; listed for the user's review in the S103 Bible audit README.",
+  "accepted_at": "2026-10-09T05:41:54.735527+00:00",
+  "changes": [
+    {
+      "line": 10,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Ps.120.8",
+        "peace offered but met with war",
+        "The speaker says he is for peace while those around him want war; this preserves a counter-case to the commentary's hopeful passage from mutual speech to peace."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Ps.120.7",
+        "peace offered but met with war",
+        "The speaker says he is for peace while those around him want war; this preserves a counter-case to the commentary's hopeful passage from mutual speech to peace."
+      ],
+      "reason": "Psalm 120 has seven verses; the cited words (I am for peace, they are for war) are WLC and KJV Psalm 120:7; checked locally"
+    }
+  ],
+  "raw_sha256": "daef2edcf421ecc192c8fefe648d2bb97b23cd1b38b63817d93cc26fde7a3420",
+  "accepted_sha256": "c107f2c0837fa7c25edf0024847e14b8204a5b07f4ea117b7392bfdc94d55d8a",
+  "proposal_sha256": "577ea18969f7cdb7d0c8d31cb186569a49a4030cf24d0f40dc57610f7038da6e",
+  "failed_log_sha256": "7c0a4d66341862dd5384facf6bd64376dae190f4fb92962b47004ea4526165d4",
+  "model_calls": 0,
+  "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+}

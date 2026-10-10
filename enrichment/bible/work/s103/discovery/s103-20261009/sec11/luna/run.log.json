@@ -1,0 +1,1176 @@
+{
+  "target": "sec11",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:29:04.082784-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_sec11_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "ba28ca61c40bb45722b03f078f5224405ed67befc9f507d666e74d3e15a4f9df",
+  "package_sha256": "3c95957d62df6910cd3dc42dc6376616190cb99b415aa9c6c7eb3665b5b93d6d",
+  "input_sha256": "334c8ff3de8430728e038eb6c7b520bedd488a8da776bf5e283dd9cfc5900b5c",
+  "spawn_sha256": "566b629d6cc2179f1820600c1d330232cbd0ab2ecad7ab294310840485510ca9",
+  "followup_text_sha256": "6bc4c98561e2a232b2f6ab53dc01bd5039e81baa0b8519936856b3bcfa0f0546",
+  "agent_id": "01a11f23-0a65-7d40-a417-b5378693e8f0",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-29-14-01a11f23-0a65-7d40-a417-b5378693e8f0.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 48,
+  "turn1_sha256": "e16bfebb03af44cb141d74b4d462c634423dec055340594dfe016d56fdc6d2c7",
+  "turn2": {
+    "completed": true,
+    "rows_total": 82,
+    "rows_added": 34
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 48,
+    "raw_proposal_rows": 34,
+    "unique_additions": 34,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.64.4",
+          "basis": "sharpened tongue as sword; bitter word as arrow",
+          "note": "In the psalm's complaint about concealed plotting, enemies sharpen their tongues like swords and aim bitter speech as an arrow; this gives the commentary's haqq-as-projectile image a speech weapon, but puts it in malicious mouths."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.64.5",
+          "basis": "hidden shot at the blameless",
+          "note": "The next verse makes the blameless person the hidden target; it concretizes the commentary's human-as-target image while reversing its straight, righteous thrust into an ambush."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.64.8",
+          "basis": "God's sudden arrow wounds",
+          "note": "The psalm answers the attackers with God's arrow suddenly wounding them; this supplies a divine counterstroke against corrupt speech, akin to the commentary's haqq overcoming batil."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.28.17",
+          "basis": "justice as line; righteousness as plumb; lies swept away",
+          "note": "Isaiah makes justice the measuring line and righteousness the plumb, then says hail sweeps away refuge in lies; the commentary's loss-as-deviation and haqq-as-force meet in a judgment that aligns and destroys false shelter."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.9.14",
+          "basis": "YHWH's arrow flashes like lightning",
+          "note": "As YHWH appears to defend his people, his arrow goes out like lightning; this gives the commentary's divinely cast haqq a projectile image, with national deliverance as its setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.49.2",
+          "basis": "mouth like sharp sword; servant as polished arrow",
+          "note": "Isaiah describes the servant's mouth as a sharp sword and the servant as an arrow hidden in God's quiver; this joins speech to a force that can reach its target, as the commentary does with haqq and the penetrating lance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.45.6",
+          "basis": "sharpened arrows in the king's enemies' hearts",
+          "note": "The royal poem says the king's arrows are sharp and peoples fall in the heart of his enemies; this is a direct image of a true-force weapon reaching inward, while adding a king's victory setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.16.12",
+          "basis": "speaker set up as God's target",
+          "note": "Job says God seized and shattered him, then set him up as a target; it concretizes the commentary's human-as-target image as unwanted divine assault rather than a righteous blow."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.16.13",
+          "basis": "archers pierce the kidneys",
+          "note": "Job's complaint continues with archers surrounding him and an arrow piercing his kidneys; this matches the commentary's lance reaching the body's inside, but casts the hit as merciless suffering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.12.18",
+          "basis": "reckless speech pierces like a sword; wise speech heals",
+          "note": "Proverbs contrasts rash words that stab like sword thrusts with a wise tongue that heals; it warns that the commentary's penetrating force is not automatically haqq, since harmful speech can pierce while wisdom repairs."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.25.18",
+          "basis": "false witness as club, sword, and sharp arrow",
+          "note": "In a warning about testimony against a neighbor, Proverbs makes false speech a whole arsenal; this reverses the commentary's image of haqq as the projectile that defeats falsehood by making false witness itself the weapon."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 18:15-16",
+          "basis": "all-powerful word as sharp sword in Egypt's judgment",
+          "note": "In the Passover judgment, God's word leaps into the doomed land as a stern warrior carrying a sharp sword and fills it with death; this gives the commentary's cast haqq a personified verbal weapon and a deliverance-through-judgment context."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 21:3",
+          "basis": "iniquity as a two-edged sword with incurable wounds",
+          "note": "Sirach says wrongdoing itself is a two-edged sword whose wounds cannot be healed; beside the commentary's forceful true blow against falsehood, it assigns the piercing weapon to sin and its damage to the victim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.12",
+          "basis": "God's word sharper than a two-edged sword, reaching joints and marrow",
+          "note": "Hebrews describes God's living word as penetrating to the body's innermost divisions and judging thoughts; it closely matches the commentary's strike that passes through to the inside, while locating the penetration in discernment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.19.15",
+          "basis": "sword from the rider's mouth strikes nations",
+          "note": "The apocalyptic rider's mouth-sword strikes the nations; this makes utterance itself a weapon, close to the commentary's haqq hurled against batil, and adds a public judgment scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.19.11",
+          "basis": "rider called Faithful and True wages righteous war",
+          "note": "Before the mouth-sword appears, the rider is called Faithful and True and judges and makes war in righteousness; this binds truth and right judgment to the force of the strike, as the commentary binds haqq to its direct hit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.6.17",
+          "basis": "sword of the Spirit identified as God's word",
+          "note": "In the armor passage, the Spirit's sword is God's word; this makes the commentary's forceful action a verbal weapon, while Ephesians places it among the community's defensive equipment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.9.26",
+          "basis": "running without aim and boxing the air rejected",
+          "note": "Paul says he does not run aimlessly or box as one beating air; this names the wasted, off-target action that the commentary uses khusr to evoke, and makes disciplined direction the condition for effective effort."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.10.4",
+          "basis": "weapons demolish strongholds",
+          "note": "Paul's weapons are powerful for demolishing strongholds; this gives the commentary's haqq-against-batil image an inward, nonmaterial battle setting rather than a physical spear."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.10.5",
+          "basis": "arguments pulled down and thoughts taken captive",
+          "note": "Paul names arguments raised against knowledge of God and says thoughts are taken captive; this specifies the inner target of the weapons in the preceding verse, analogous to the commentary's blow that reaches inward."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.25",
+          "basis": "truth spoken to each neighbor as members of one body",
+          "note": "After rejecting falsehood, Ephesians commands each person to speak truth to a neighbor because they are members of one another; this is a concrete communal form of the commentary's mutual exhortation to haqq."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.14",
+          "basis": "admonish, encourage, help, and be patient with all",
+          "note": "Paul assigns mutual correction and encouragement for different members of the community, then patience toward all; this closely joins the commentary's reciprocal counsel with its sabr, while spelling out whom that care serves."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.24",
+          "basis": "stir one another to love and good works",
+          "note": "Hebrews tells its hearers to consider how to stir one another toward love and good works; this gives a specific communal practice corresponding to the commentary's repeated mutual exhortation and directed action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.8.15",
+          "basis": "word held fast, fruit borne with patience",
+          "note": "In Jesus' explanation of the good soil, hearers hold fast the word and bear fruit with patience; this joins inward reception, good action, and sabr in one image, adding a fruitful alternative to the commentary's missed or misdirected strike."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Luke.3.5",
+          "basis": "Isaiah's crooked road applied to John's call to prepare",
+          "note": "Luke applies Isaiah's road-making language to John's wilderness preaching: crooked ways are made straight as people prepare for the Lord. This Christian reading turns the commentary's khusr-as-deviation into a call for moral preparation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.45.5",
+          "basis": "ride for truth, meekness, and righteousness",
+          "note": "The royal poem pictures its king riding for truth, humility, and righteousness; this supplies the commentary's haqq with a public, ethical and victorious register, before the arrows reach enemies in the next verse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Neh.9.13",
+          "basis": "Arabic source root ح ق ق / Hebrew חקק; table's sound correspondence, unverified",
+          "note": "The source commentary uses haqq for the direct, right blow; Nehemiah calls God's judgments straight, Torah true, and statutes good, giving the table's tentative ح ق ق / חקק correspondence a normative law-and-truth setting without claiming the roots are proven cognates."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Eccl.1.15",
+          "basis": "Arabic source root خ س ر / Hebrew חסר; table's sound correspondence only, unverified",
+          "note": "The commentary glosses source khusr as loss and deviation; Qoheleth says the crooked cannot be straightened and what is lacking cannot be counted, giving the tentative root pairing a concrete lack sense alongside the commentary's missed line."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.1.15",
+          "basis": "crooked cannot be straightened; lack cannot be counted",
+          "note": "Qoheleth pairs an unstraightenable crooked thing with an uncountable lack; this directly joins the commentary's khusr-as-deviation to loss, but leaves the image as an irreparable defect rather than a missed thrust."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Eccl.1.3",
+          "basis": "Arabic source root ع م ل / Hebrew עמל; table's sound correspondence only, unverified",
+          "note": "The commentary labels the source word وَعَمِلُوا root ع م ل and describes acting with the spear; Qoheleth's Hebrew עמל is toil, and the question of what profit human labor yields adds the possibility of effort without gain while keeping the root link tentative."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.27",
+          "basis": "do not turn right or left; turn the foot from evil",
+          "note": "Wisdom's instruction not to swerve to either side gives a moral-path version of the commentary's loss as leaving the line; it makes the deviation a choice to avoid."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.5.4",
+          "basis": "seduction ends bitter and sharp as a two-edged sword",
+          "note": "The wisdom warning says the alluring woman's end is bitter and cuts like a two-edged sword; beside the commentary's right, penetrating haqq, it shows that a forceful word can wound destructively instead."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.5.6",
+          "basis": "ways wander from the path of life",
+          "note": "The warning says her paths wander and she does not know it; this gives the commentary's khusr-as-deviation a concrete ethical path, with a sharp speech-image in the same warning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.3",
+          "basis": "righteous tree planted by streams bears fruit in season",
+          "note": "The psalm's planted tree yields fruit at its time and does not wither; it gives the commentary's contrast between aimed action and loss a stable, fruitful image of the righteous person's way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.4",
+          "basis": "wicked are chaff driven by wind",
+          "note": "The psalm contrasts the rooted tree with wicked people as wind-driven chaff; this pictures the commentary's loss as failure to stay fixed on a course, adding an image of displacement rather than a missed shot."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.8.5",
+          "basis": "source word ٱلْإِنسَٰن root ء ن س / Hebrew אֱנוֹשׁ; table correspondence, BDB cites Arabic cognate",
+          "note": "The source ayah labels al-insan with root ء ن س; Psalm 8 asks why God remembers enosh and attends to him, giving the shared human term a scene of divine care that complicates the commentary's human-as-target and loss image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.8.6",
+          "basis": "human crowned with glory and given dominion",
+          "note": "The psalm says God crowns the human with glory and honor and gives him rule over the works of God's hands; this is a specific exalted counter-image to the commentary's target-like human and the ayah's general loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.4",
+          "basis": "crooked ground made straight for the Lord's road",
+          "note": "Isaiah's return-road vision levels rough ground and makes crooked places straight; this gives the commentary's khusr-as-deviation a literal road image and a restoration context."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.17.12",
+          "basis": "Aaron and Hur support Moses' arms until sunset",
+          "note": "During Israel's battle with Amalek, companions physically hold Moses' tiring arms steady until sunset; this gives the commentary's counsel to sabr a communal image of sustaining effort rather than leaving endurance to an isolated person."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.17",
+          "basis": "iron sharpens iron; one person sharpens another",
+          "note": "The proverb uses reciprocal sharpening as an image of one person's effect on another; beside the commentary's repeated mutual exhortation and spear imagery, it pictures counsel as beneficial honing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Rosh Hashanah 3:8",
+          "basis": "Moses' raised hands re-read as Israel's upward attention",
+          "note": "The Mishnah asks whether Moses' hands themselves won the battle, then says Israel prevailed when they looked upward and submitted their hearts to God; this interpretation shifts Exodus' battle image from bodily force to directed communal attention, a useful counter-reading beside the commentary's aimed strike."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "4 Ezra 13:10-11",
+          "basis": "messianic figure's fiery breath destroys the gathered enemy",
+          "note": "In Ezra's vision, the human-like deliverer routs the assembled enemy with fire issuing from his mouth rather than a hand-held weapon; this is a distinct apocalyptic version of the commentary's forceful word, replacing the spear's penetration with consuming breath."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.6.14",
+          "basis": "truth as belt and righteousness as breastplate",
+          "note": "In Paul's battle equipment, truth and righteousness protect the body rather than serve as the commentary's offensive thrust; the shared pairing clarifies how the same virtues can be imagined as guarding against error."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.25",
+          "basis": "meeting together and encouraging one another",
+          "note": "Hebrews joins continued assembly to mutual encouragement as the day approaches; it adds the gathered setting for the commentary's reciprocal counsel and the persistence implied by sabr."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.2",
+          "basis": "patience, bearing with one another in love",
+          "note": "Ephesians describes communal life through patience and bearing with one another; this gives the commentary's sabr a specifically relational practice, though it does not repeat its advice-to-one-another formula."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.7",
+          "basis": "steadfast endurance in doing good",
+          "note": "Paul describes people who persist in doing good while seeking glory and honor; this directly joins the commentary's amal and sabr, adding an eschatological outcome to sustained action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.1",
+          "basis": "run the set race with endurance",
+          "note": "Hebrews tells its hearers to run the race set before them with endurance; this combines the commentary's straight-course image with sabr, making patient persistence the means of staying on course."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.3.4",
+          "basis": "Isaiah's wilderness oracle assigned to John's preaching",
+          "note": "Luke introduces the Isaiah quotation as the word of God coming to John in the wilderness; this Christian reception relocates the road-preparation image into John's public call, complementing the straightened-path detail in the following verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.11.4",
+          "basis": "righteous judgment; rod of the mouth strikes earth; breath kills the wicked",
+          "note": "Isaiah's just ruler judges the poor rightly, strikes the earth with his mouth's rod, and kills the wicked by his breath; this is a close verbal-impact counterpart to the commentary's haqq as a direct, penetrating blow against batil."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.23.29",
+          "basis": "God's word as fire and a hammer breaking rock",
+          "note": "Jeremiah compares God's word to fire and a hammer that shatters rock; this gives the commentary's haqq-as-projectile a second image of forceful impact and adds the destruction of hard resistance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.55.11",
+          "basis": "sent word accomplishes its purpose and does not return empty",
+          "note": "Isaiah compares God's sent word to rain that makes the earth fruitful and says it accomplishes its purpose; this is a precise counter-image to the commentary's missed strike, where the true word reaches its intended result."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.5.14",
+          "basis": "prophetic words made fire that consumes the people",
+          "note": "God makes his words in Jeremiah's mouth fire and the people wood to be consumed; this turns speech into a forceful strike, while casting its target as a resistant people under judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.14",
+          "basis": "word near in mouth and heart in order to do it",
+          "note": "Deuteronomy places the command in mouth and heart so it can be done; this joins inward reception to action, sharpening the commentary's image of haqq entering the body and amal as force put to work."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.33",
+          "basis": "Torah written within and on the heart",
+          "note": "In the new-covenant promise, God writes Torah on the people's inward parts and hearts; this gives the commentary's penetrating strike an inward inscription counterpart and makes its truth a lasting disposition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.8.8",
+          "basis": "wise woman's words are righteous and not crooked",
+          "note": "Wisdom says all her words are righteous, with none crooked or perverse; this explicitly joins truth and straightness, the commentary's haqq and its contrast between a true line and deviation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.8.9",
+          "basis": "wise words are straight to the discerning",
+          "note": "Wisdom's words are clear and straight to those who understand; this adds the hearer's recognition of alignment to the commentary's straight-shot image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 28:17",
+          "basis": "tongue's blow breaks bones",
+          "note": "Sirach contrasts a whip's bruise with a tongue's blow that breaks bones; it gives speech the commentary's bodily force and inward reach, while emphasizing harmful speech rather than haqq."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 28:18",
+          "basis": "more are fallen by the tongue than by the sword",
+          "note": "Sirach says more people fall through the tongue than through the sword; this intensifies the commentary's weapon image by making speech more destructive than physical arms."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 5:17-20",
+          "basis": "justice as armor; wrath sharpened as a sword",
+          "note": "In its judgment scene, Wisdom clothes God in righteousness and justice and sharpens wrath as a sword; this gives the commentary's moral conflict a divine-war image while assigning the blade to judgment rather than to haqq itself."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.7.13",
+          "basis": "source word ٱلْإِنسَٰن root ء ن س / Aramaic אֱנָשׁ; table's sound correspondence only, unverified",
+          "note": "The source ayah labels al-insan with root ء ن س; Daniel's Aramaic vision uses anash for a human-like figure coming with the clouds, a distinct singular use of the table's tentative correspondence rather than the commentary's general humanity."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.7.14",
+          "basis": "human-like figure receives dominion and an everlasting kingdom",
+          "note": "Daniel gives the human-like figure dominion and a kingdom serving all peoples; this adds an exalted apocalyptic human counter-image to the commentary's human set as target and the ayah's general loss."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Eccl.4.8",
+          "basis": "Arabic source roots ع م ل / Hebrew עמל and خ س ر / Hebrew חסר; both table correspondences unverified",
+          "note": "Qoheleth describes unending toil and asks why the solitary worker labors while depriving himself of good; the verse brings the table's tentative work and lack correspondences together as effort that leaves a person without its benefit, contrasting the commentary's aimed action."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.4.9",
+          "basis": "two workers have good return for their toil",
+          "note": "Qoheleth says two are better than one because their toil has a good return; this gives the commentary's action and mutual counsel a concrete cooperative setting, in which shared effort improves the result."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.4.10",
+          "basis": "one companion lifts the other when he falls",
+          "note": "The passage says one companion can lift the other after a fall; this makes the commentary's mutual counsel to patience practical support against a person's loss of footing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.10.10",
+          "basis": "blunt iron takes more force; wisdom brings success",
+          "note": "Qoheleth says blunt iron requires more strength, while wisdom helps one succeed; this is a concrete tool-and-force image beside the commentary's spear, whose directed action must make an effective strike."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.14.23",
+          "basis": "Arabic source root خ س ر / Hebrew חסר; table's sound correspondence only, unverified",
+          "note": "The commentary glosses source khusr as loss; Proverbs uses the Hebrew lack form and contrasts profit in labor with poverty from mere talk, giving the tentative root pairing a concrete outcome of failed effort."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.14.23",
+          "basis": "profit from labor contrasted with lack from mere talk",
+          "note": "Proverbs says toil yields profit but mere speech leads to lack; this speaks to the commentary's distinction between forceful action and loss, adding a warning that words without effective work can leave a deficit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.13",
+          "basis": "the broad road leads to destruction",
+          "note": "Jesus describes a broad way leading to destruction; this makes the commentary's khusr-as-deviation a path with a stated end, and contrasts the many who take it with the ayah's exception."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "the narrow way leads to life and few find it",
+          "note": "Jesus contrasts the difficult way leading to life, found by few, with destruction's broad way; this adds the exception's narrow, directed course to the commentary's loss-as-deviation image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.19",
+          "basis": "one among the community wanders from the truth and is brought back",
+          "note": "James describes a believer wandering from truth and another person bringing him back; this closely joins the commentary's deviation from the line to its mutual counsel in haqq.",
+          "raw_ref": "SBLGNT:James.5.19",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.20",
+          "basis": "turning a sinner back saves a soul from death",
+          "note": "James says the person who turns a sinner back from his erring way saves him from death; this makes correction of deviation a concrete rescue from loss.",
+          "raw_ref": "SBLGNT:James.5.20",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.2.37",
+          "basis": "listeners are pierced in the heart by Peter's proclamation",
+          "note": "After Peter's speech, listeners are pierced in the heart and ask what to do; this gives the commentary's truthful impact an inward human response and connects penetration to changed action."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.19.34",
+          "basis": "a soldier pierces Jesus' side with a spear",
+          "note": "John recounts a soldier piercing Jesus' side and blood and water emerging; this is a literal bodily counterpart to the commentary's lance entering the inside, while its passion context makes the pierced person a victim rather than a target of righteous counsel."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.12",
+          "basis": "saints' endurance with God's commandments and faith",
+          "note": "Revelation identifies the saints by endurance, keeping God's commandments, and faith; this directly brings sabr together with belief and action, adding an apocalyptic picture of the ayah's exception."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.4.2",
+          "basis": "preach the word, correct and exhort with patience",
+          "note": "Paul tells Timothy to proclaim the word, correct, rebuke, and exhort with all patience; this closely combines the commentary's truth and reciprocal advice with sabr as the manner of correction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.16",
+          "basis": "Christ's word teaches and admonishes people mutually",
+          "note": "The community is to let Christ's word dwell richly as its members teach and admonish one another; this gives the commentary's mutual counsel to truth a word-centered communal form, with song and thanksgiving as its setting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.13",
+          "basis": "daily mutual exhortation guards against sin's deception",
+          "note": "Hebrews commands daily mutual exhortation so no one hardens through sin's deceit; this links the commentary's counsel in truth to preventing a person's deviation and adds a daily communal practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.3",
+          "basis": "testing produces endurance",
+          "note": "James says the testing of faith produces endurance; this describes sabr as formed under pressure, giving the commentary's human target image a process of remaining steadfast through impact.",
+          "raw_ref": "SBLGNT:James.1.3",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.4",
+          "basis": "endurance completes its work so one lacks nothing",
+          "note": "James says endurance should complete its work so a person becomes complete and lacks nothing; this joins the commentary's sabr and amal to an explicit overcoming of lack.",
+          "raw_ref": "SBLGNT:James.1.4",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.13.6",
+          "basis": "love rejoices with the truth",
+          "note": "Paul says love does not rejoice in wrongdoing but rejoices with truth; this gives the commentary's haqq a communal ethical setting, where truth marks the difference between right and wrong action."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.13.7",
+          "basis": "love bears and endures all things",
+          "note": "Paul describes love as bearing and enduring all things; this supplies a relational form of sabr alongside the commentary's reciprocal counsel, distinct from mere aim or force."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.13",
+          "basis": "make straight paths for the feet so the lame may heal",
+          "note": "Hebrews commands straight paths for feet so the lame limb may be healed rather than dislocated; this combines the commentary's straight trajectory with its bodily penetration image, and turns straightness toward restoration."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "6b334291bf8dba6aedbc04f19c177bfd16aa5552a52c656d8d6d149701ff9c7d",
+    "followup_sha256": "6b334291bf8dba6aedbc04f19c177bfd16aa5552a52c656d8d6d149701ff9c7d"
+  },
+  "consolidation_error": null,
+  "list_sha256": "f777834c65c922d7de7908dfaaebe53d6aa2d8ee8889c0093f1da9069cf82bd4",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 214108,
+    "cached_input_tokens": 107264,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 56755,
+    "reasoning_output_tokens": 50241,
+    "total_tokens": 270863
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:37:01.583Z",
+  "artifacts": {
+    "started.json": "c65fe1aae5433e00fdcd5b9e41efbaa64fa76af321ba3743bc7ec43a2b91f226",
+    "input.json": "334c8ff3de8430728e038eb6c7b520bedd488a8da776bf5e283dd9cfc5900b5c",
+    "prompt.md": "ba28ca61c40bb45722b03f078f5224405ed67befc9f507d666e74d3e15a4f9df",
+    "package.md": "3c95957d62df6910cd3dc42dc6376616190cb99b415aa9c6c7eb3665b5b93d6d",
+    "spawn.md": "566b629d6cc2179f1820600c1d330232cbd0ab2ecad7ab294310840485510ca9",
+    "followup.txt": "6bc4c98561e2a232b2f6ab53dc01bd5039e81baa0b8519936856b3bcfa0f0546",
+    "turn1.json": "b2e235c0f25677cd2ab7bca9acae60c88d1ca0ff0072092418664a46f259f81c",
+    "turn1.list.tsv": "e16bfebb03af44cb141d74b4d462c634423dec055340594dfe016d56fdc6d2c7",
+    "followup.tsv": "6b334291bf8dba6aedbc04f19c177bfd16aa5552a52c656d8d6d149701ff9c7d",
+    "list.tsv": "f777834c65c922d7de7908dfaaebe53d6aa2d8ee8889c0093f1da9069cf82bd4",
+    "consolidation.json": "191889c2fc05ff001fdd04e2cbb86f0cd0cbb201c44b56af6f276d8673d3e2f2",
+    "validation.json": "87018fa5064928f4a6ee2ec13a5bb64ea4790b774e4f598336aaddd173014e5e",
+    "proposal_validation.json": "3939e7208413eac9593b5cb4ae77a610e7f42c15d88d15fd37efd1a3c3f0bab3",
+    "tool_calls.json": "12c8b624961f9240c5609fae11f12e6fff57a831cba06b49358329ce6bf6192f",
+    "session.json": "968645131c4ffb0a596929239b17f8d7b1f3ff2e0db4f458b6acee67e67f83dd",
+    "session.events.jsonl": "50cdd978dd32fa7f727dfc304b44ba3dad5c37c2a4c1aa3d09f68c1c41336305"
+  },
+  "usd_equivalent": 0.040135,
+  "requests": 5,
+  "max_request_input_tokens": 72641,
+  "total_input_tokens": 214108,
+  "total_cached_input_tokens": 107264,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 56755,
+  "policy_notes": [
+    "turn 2 call_85eb7f47e2394525b59f15194b8242d8: follow-up turn ran a command on its own followup.tsv: cat > /Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/discovery/s103-20261009/sec11/luna/followup.tsv <<'EOF'\nstrong\ttevrat\tmotif\tWLC:Isa.11.4"
+  ]
+}

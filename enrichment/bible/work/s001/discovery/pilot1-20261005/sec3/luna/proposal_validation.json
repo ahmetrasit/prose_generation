@@ -1,0 +1,53 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec3/luna/followup.tsv",
+  "rows": 30,
+  "unique_references": 29,
+  "schema_errors": [],
+  "duplicates": [],
+  "strengths": {
+    "strong": 24,
+    "medium": 6
+  },
+  "findings": [
+    {
+      "line": 13,
+      "ref": "m. Avot 4:22",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 14,
+      "ref": "m. Avot 4:22",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 20,
+      "ref": "SBLGNT:Jas.2.13",
+      "raw_ref": "SBLGNT:James.2.13",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    },
+    {
+      "line": 27,
+      "ref": "Wisdom of Solomon 5:1",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 28,
+      "ref": "b. Shabbat 31a",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 30,
+      "ref": "Wisdom of Solomon 6:4",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

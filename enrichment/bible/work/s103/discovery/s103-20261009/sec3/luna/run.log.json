@@ -1,0 +1,1444 @@
+{
+  "target": "sec3",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:29:04.062932-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_sec3_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "b92c2bf9c84d1c587747878f4a5d4d92d4bb49b4af582f26da3b07b5a27d72d4",
+  "package_sha256": "f4e3fe7bf28cbce732c3c6bb50bfb9365dd9ec678021574f537437cdd2b3f1ca",
+  "input_sha256": "953559d619c6ab7e6dc306a64c787367fe1f93e1246e321683a3dcb006428a56",
+  "spawn_sha256": "96b23421a04850289ec8dea79eba734ecbedc6213cd4595f36fa8619b255ad27",
+  "followup_text_sha256": "12e0e055e68132f4be8cd61a62e01e99014aaf3544cf8138293597b9a33cca57",
+  "agent_id": "01a11f22-ffe9-7e32-99e9-32c752dc147b",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-29-10-01a11f22-ffe9-7e32-99e9-32c752dc147b.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 60,
+  "turn1_sha256": "2e422a397fbc00cec2c2308a22a910c0e8eea46435e61cf91b5d11311eb090ee",
+  "turn2": {
+    "completed": true,
+    "rows_total": 102,
+    "rows_added": 42
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 60,
+    "raw_proposal_rows": 42,
+    "unique_additions": 42,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.40.11",
+          "basis": "Commentary's 12:36 prison dream; grapes pressed into a cup",
+          "note": "The imprisoned cupbearer dreams of taking grapes and pressing them into Pharaoh's cup, giving the commentary's prison grape-press scene in its own narrative setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.32.19",
+          "basis": "Wine with no vent; new wineskins ready to burst",
+          "note": "The commentary's cork holds squeezed liquid in a bottle; Elihu instead likens unspoken words to fermenting wine with no vent, so the same containment intensifies pressure toward rupture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Song.4.12",
+          "basis": "Locked garden; sealed spring",
+          "note": "The commentary's stopper keeps the bitter extract inside its vessel; the poem's sealed spring likewise contains a source, but presents closure as erotic exclusivity rather than medicine."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Jer.2.13",
+          "basis": "Living fountain; cracked cisterns",
+          "note": "The commentary ends with a sealed bottle that retains its medicinal essence, whereas Jeremiah's chosen cisterns are cracked and cannot hold water, making failed containment a charge against Judah."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.15.25",
+          "basis": "Marah's bitter water and the wood",
+          "note": "At Marah the people cannot drink bitter water until Moses throws a tree into it and it becomes sweet; this reverses the commentary's bitter tree extract, which remains bitter yet is named medicine."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.15.26",
+          "basis": "YHWH as healer",
+          "note": "After the bitter-water episode, YHWH identifies himself as Israel's healer; this makes explicit the healing frame that the commentary gives to bitter sabr, though the remedy and bitterness work differently."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Lam.1.15",
+          "basis": "Judah trodden as grapes in a winepress",
+          "note": "The lament says the Lord has trodden Judah like grapes in a press; the commentary's human squeezed into loss becomes a crushed people here, and the press yields devastation rather than a useful essence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.63.3",
+          "basis": "Winepress trodden in wrath; blood on garments",
+          "note": "The divine speaker treads the press in anger and blood stains his clothing, a direct counter-image to the commentary's extracted juice as good and generous giving."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Joel.4.13",
+          "basis": "Ripe harvest; vats overflowing with wickedness",
+          "note": "The harvest press overflows because the nations' wickedness is great; the shared pressing and yield imagery makes the commentary's beneficial extract read against a judgment harvest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.20.7",
+          "basis": "Fig cake applied to a boil; recovery",
+          "note": "Isaiah orders a fig cake laid on Hezekiah's boil and Hezekiah recovers; this gives a concrete plant-based remedy alongside the commentary's bitter tree extract called medicine."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 38:4",
+          "basis": "Medicines created from the earth",
+          "note": "Sirach says the Lord made medicines from the earth and a sensible person does not reject them; it supplies a Jewish wisdom frame for the commentary's medicinal plant exudate as a beneficial natural substance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.11.17",
+          "basis": "Commentary label root ع ص ر; Hebrew עצר, table sound correspondence only",
+          "note": "The Hebrew verb עצר closes the heavens so rain and yield cease; this restraint is the agricultural inverse of the commentary's squeezing that releases juice and, in its Yusuf comparison, marks relief after scarcity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.2.7",
+          "basis": "Commentary label root خ س ر; Hebrew חסר, table sound correspondence only",
+          "note": "Moses says Israel lacked nothing during the wilderness years; the cognate sense of lack gives a direct counter-reading to the commentary's human placed in decrease and loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.7.17",
+          "basis": "Commentary label root ء ن س; Hebrew אנש, regular sound correspondence and BDB Arabic-cognate note",
+          "note": "Job asks what אנוש, a mortal human, is that God gives him such attention; it lends the commentary's generic human between pressure and loss a specific mortal and vulnerable register."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.7",
+          "basis": "Treasure in earthen vessels",
+          "note": "Paul places treasure in fragile earthen vessels; this gives a close vessel image for the commentary's bottled essence, while locating the value in the vessel's contents rather than in a bitter remedy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:2Cor.4.8",
+          "basis": "Afflicted but not crushed",
+          "note": "Paul says the community is pressed yet not crushed; this directly answers the commentary's image of the human as squeezed matter that decreases, with pressure failing to exhaust the people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:2Cor.4.9",
+          "basis": "Struck down but not destroyed",
+          "note": "Paul distinguishes being struck down from being destroyed; this counters the commentary's equation of human pressure with decrease by describing survival after blows."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.5.3",
+          "basis": "Tribulation produces endurance",
+          "note": "Paul says affliction produces endurance, which gives the commentary's squeezed, bitter sabr a developmental reading: pressure can generate the quality that sustains a person."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.5.5",
+          "basis": "God's love poured into hearts",
+          "note": "Paul says God's love has been poured into believers' hearts; the commentary specifically notes Qur'anic patience poured over people, and this supplies a Christian liquid metaphor for an inward virtue, while naming love rather than patience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.11",
+          "basis": "Painful discipline later yields peaceful fruit",
+          "note": "Discipline is painful in the present but later yields peaceful fruit; this gives a precise interpretive bridge to the commentary's bitter medicine, whose discomfort is paired with healing benefit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.12",
+          "basis": "Saints' endurance, God's commands, and faith in Jesus",
+          "note": "The verse defines the saints by endurance, keeping God's commands, and faith in Jesus; this closely gathers patience, faithful action, and belief in the kind of people the commentary exempts from loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.9",
+          "basis": "Persistence in doing good and harvest in due season",
+          "note": "Paul urges doing good without weariness because a harvest comes in due time if one does not give up; this joins the commentary's righteous action and patience to an agricultural yield."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.24",
+          "basis": "Stirring one another to love and good works",
+          "note": "The addressees are told to provoke one another toward love and good works; this closely matches the commentary's reciprocal counsel and righteous deeds, though it specifies love rather than truth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.25",
+          "basis": "Encouraging one another",
+          "note": "The assembly is to encourage one another as the day approaches; this supplies the reciprocal communal action behind the commentary's repeated mutual exhortation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.19",
+          "basis": "Turning a wanderer back from truth",
+          "note": "James addresses fellow believers and says that whoever turns a brother back from wandering from the truth performs a communal corrective act like the commentary's mutual counsel in truth.",
+          "raw_ref": "SBLGNT:James.5.19",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.20",
+          "basis": "Saving a soul from death",
+          "note": "James adds that bringing the wanderer back saves that person's soul from death; this makes the truth-directed mutual correction a rescue from loss, not merely instruction.",
+          "raw_ref": "SBLGNT:James.5.20",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.25",
+          "basis": "Speak truth each with the neighbor",
+          "note": "Paul commands each person to put away falsehood and speak truth with the neighbor because they belong to one another; this is a direct communal truth-speaking analogue to the commentary's mutual counsel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.7",
+          "basis": "Perseverance in doing good leads to eternal life",
+          "note": "Paul describes those who persist in doing good and seek glory and immortality as receiving eternal life; this combines the commentary's good action and patience in a salvific outcome."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Eph.2.8",
+          "basis": "Salvation as a gift through faith",
+          "note": "Paul says salvation is by grace through faith and is God's gift; set beside the commentary's list of belief and righteous deeds, this frames the ground of rescue differently."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Eph.2.9",
+          "basis": "Not from works, so no one may boast",
+          "note": "Paul explicitly denies that salvation is from works, while the commentary includes righteous deeds in the description of those outside loss; the contrast concerns how deeds relate to rescue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.10",
+          "basis": "Created for good works",
+          "note": "Paul immediately says believers are created in Christ for good works; this keeps the contrast from erasing action and offers a distinct account of deeds as the intended result of salvation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.12",
+          "basis": "Faith and patience inherit the promises",
+          "note": "The author urges imitation of those who inherit promises through faith and patience; this directly pairs two qualities named in the commentary's saved group."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.58",
+          "basis": "Steadfast work is not in vain",
+          "note": "Paul calls the community steadfast and abundant in the Lord's work, assuring them that their labor is not empty; this counters the commentary's language of human loss with enduring good action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.3",
+          "basis": "Testing of faith produces endurance",
+          "note": "James says the testing of faith produces endurance; this gives the commentary's bitter, pressed sabr an explicit formation process under trial.",
+          "raw_ref": "SBLGNT:James.1.3",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.4",
+          "basis": "Endurance completes its work",
+          "note": "James says endurance must have its full effect so people become complete; this interprets patience as a formed quality with a beneficial end, like the commentary's medicine metaphor.",
+          "raw_ref": "SBLGNT:James.1.4",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.13",
+          "basis": "Daily mutual exhortation prevents hardening",
+          "note": "The community must exhort one another daily so no one is hardened by sin's deceit; this gives the commentary's mutual counsel a concrete protective purpose against moral loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.20",
+          "basis": "Enduring suffering while doing good",
+          "note": "Peter asks what credit there is in enduring punishment for wrongdoing, then calls it grace to endure suffering while doing good; this tightly joins patient endurance to righteous action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.7",
+          "basis": "The farmer patiently waits for precious fruit",
+          "note": "James tells the community to wait patiently like a farmer for the earth's precious crop; it links patience to delayed yield, though the image is cultivation rather than extraction.",
+          "raw_ref": "SBLGNT:James.5.7",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Ignatius, Ephesians 20:2",
+          "basis": "Eucharist as medicine of immortality",
+          "note": "Ignatius calls the shared Eucharist medicine of immortality and an antidote to death; this Christian interpretation turns the commentary's medicinal image toward communal nourishment and rescue from death."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.9",
+          "basis": "Honoring God with wealth",
+          "note": "The verse commands honoring YHWH with one's wealth and first produce; beside the commentary's claim that extracted juice figures good and generosity, it makes abundance an act of giving."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.10",
+          "basis": "Vats filled with new wine",
+          "note": "The next verse promises vats brimming with new wine; the commentary's juice as beneficial abundance finds a concrete biblical image of overflowing produce."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.15",
+          "basis": "Wine gladdens the human heart",
+          "note": "The psalm names wine as what gladdens the human heart; it gives a biblical instance of the commentary's extracted juice as goodness for people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Judg.9.13",
+          "basis": "Wine gladdens God and humans",
+          "note": "In Jotham's fable the vine says its wine gladdens God and people; this concretely parallels the commentary's report that Arabs make expressed juice a figure for good and generosity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.5.2",
+          "basis": "A winepress prepared for grapes but wild grapes produced",
+          "note": "The vineyard owner builds a winepress expecting good grapes but finds wild grapes; the image makes the commentary's generous essence contingent on a yield that can instead disappoint."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.41.30",
+          "basis": "Seven years of famine after seven years of plenty",
+          "note": "Joseph's dream interpretation predicts seven lean years after abundance; it parallels the commentary's sequence of scarcity and eventual relief while preserving a different order from its pressing year."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.41.56",
+          "basis": "Storehouses opened during famine",
+          "note": "When famine covers the land, Joseph opens the storehouses; this connects the commentary's retained essence in a closed bottle with stored provision later released to sustain people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.48.11",
+          "basis": "Wine left on its lees and not poured between vessels",
+          "note": "Moab's undisturbed wine retains its flavor because it has not been poured from vessel to vessel; the commentary's cork likewise preserves a liquid, but Jeremiah makes stillness a figure for complacency."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Ps.75.9",
+          "basis": "The cup of divine wrath and its dregs",
+          "note": "The psalm's cup contains foaming wine and dregs that the wicked must drink; it turns contained liquid toward judgment rather than the commentary's medicinal extract."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Pesachim 10:5",
+          "basis": "Maror eaten to recall Egyptian oppression",
+          "note": "At the Passover meal bitter herbs are part of the narrated memory of bondage; this makes bitterness a communal ritual of remembered suffering, unlike the commentary's bitter remedy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 11:13",
+          "basis": "Fish gall and restored sight",
+          "note": "Tobit's father regains sight after fish gall is applied; this is a concrete natural-substance cure alongside the commentary's medicinal tree exudate, though its source is animal rather than plant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.20.18",
+          "basis": "Commentary label root ع ص ر; Hebrew עצר, table sound correspondence only",
+          "note": "The Hebrew form עצר says YHWH had closed every womb in Abimelech's house; this related closure gives a bodily analogue to the commentary's stopper sealing a vessel, with withheld fertility instead of preserved medicine."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.18.28",
+          "basis": "Commentary label root خ س ر; Hebrew חסר, table sound correspondence only",
+          "note": "Abraham asks whether five righteous people might be lacking from fifty; the Hebrew cognate makes decrease numerical and ties the missing count to whether a city is spared."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Ta'anit 7a",
+          "basis": "Colleagues sharpen one another in Torah",
+          "note": "The Talmud applies iron sharpening iron to scholars who sharpen one another in Torah; this interprets mutual counsel as reciprocal learning and correction, a specific Jewish account of the commentary's tawāṣī relation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.17",
+          "basis": "Iron sharpens iron",
+          "note": "The proverb says one person sharpens another as iron sharpens iron; this gives mutual exhortation a concrete image of improvement through another's words."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 2:4",
+          "basis": "Accept what comes and be patient in humiliation",
+          "note": "Sirach tells the reader to accept what comes and be patient in humiliation; it links patience to receiving painful experience, an explicit bridge to the commentary's bitter remedy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 2:5",
+          "basis": "Gold tested in fire; acceptable people in humiliation",
+          "note": "Sirach compares tested people to gold in a furnace; it supplies a refining image in which affliction tests and qualifies, alongside the commentary's pressure that produces bitter sabr."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.4.2",
+          "basis": "Correct, rebuke, and exhort with patience and teaching",
+          "note": "Paul charges Timothy to preach, correct, and exhort with patience and teaching; unlike the commentary's mutual practice, this is a ministerial instruction, but it joins truth-directed correction to patience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.5.4",
+          "basis": "Endurance produces tested character and hope",
+          "note": "Paul says endurance produces tested character and hope; this continues the commentary's image of a beneficial quality formed through pressure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.41.49",
+          "basis": "Commentary label root ص ب ر; Hebrew צבר, table sound correspondence only",
+          "note": "The Hebrew verb צבר describes Joseph piling up grain beyond measure; beside the commentary's corked bottle retaining squeezed essence, the narrow connection is accumulation and storage, not a shared sense of patience."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.7.13",
+          "basis": "Commentary label root ء ن س; Aramaic אנש, table sound correspondence only and unverified",
+          "note": "Daniel sees one like a bar enash, a humanlike figure who receives dominion; this contrasts the commentary's collective humanity with a singular exalted use of the related Aramaic word."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lam.4.4",
+          "basis": "Tongue of the infant clings from thirst",
+          "note": "The commentary names a thirst-dried tongue as maʿṣūr; in Jerusalem's siege the infant's tongue clings to the palate for thirst, making the bodily image concrete in a scene of deprivation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.41.17",
+          "basis": "Tongue fails for thirst; water is promised",
+          "note": "The needy have no water and their tongue fails from thirst; this closely matches the commentary's dried tongue, while Isaiah's promised springs reverse depletion with relief."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.30.16",
+          "basis": "Commentary label root ع ص ر; Hebrew עצר, table sound correspondence only",
+          "note": "The proverb names the closed womb with עצר; this table correspondence links the commentary's root to bodily closure, while the proverb's unsatisfied earth and water add a distinct thirst setting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.30.16",
+          "basis": "Closed womb and earth unsatisfied with water",
+          "note": "The proverb places a closed womb beside earth that is never satisfied with water; this meets the commentary's closure and thirst images together, but as unsated lack rather than a bottle retaining medicine."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.5.24",
+          "basis": "Bitter water that brings a curse",
+          "note": "The suspected woman is made to drink water of bitterness that brings a curse; this is a concrete counter-use of bitter liquid beside the commentary's bitter plant extract called medicine."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Num.5.27",
+          "basis": "Bitter water brings bodily affliction",
+          "note": "The ritual's consequence is that the water becomes bitter within the woman and brings a curse; bitterness here exposes and punishes rather than healing as in the commentary's medicinal sabr."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Lam.3.15",
+          "basis": "Bitterness and wormwood as affliction",
+          "note": "The speaker says he has been filled with bitterness and wormwood; the plant bitterness is imposed misery, a counter-reading to the commentary's painful but beneficial remedy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.8.11",
+          "basis": "Wormwood makes waters bitter and kills many",
+          "note": "The star named Wormwood makes the waters bitter and many die from them; this directly reverses the commentary's bitter plant extract as medicine by making bitter liquid lethal."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.10.9",
+          "basis": "Scroll sweet in the mouth, bitter in the stomach",
+          "note": "John is told to eat the scroll, which will be sweet in his mouth but bitter in his stomach; the two-stage taste gives the commentary's swallowed bitter medicine a distinct prophetic counterpart."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.10.10",
+          "basis": "Sweet taste turns bitter after eating",
+          "note": "John reports that the scroll tasted sweet and then made his stomach bitter; this locates bitterness after ingestion, unlike the commentary's bitter extract whose bitterness is already the medicinal quality."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.27.34",
+          "basis": "Wine mixed with gall is offered and refused",
+          "note": "Jesus is offered wine mixed with gall and refuses it after tasting; this gives a specific bitter drink in a suffering scene, but the text presents no healing benefit like the commentary's medicine."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.15.23",
+          "basis": "Wine mixed with myrrh is refused",
+          "note": "Mark says wine mixed with myrrh is offered to Jesus and he does not take it; the plant resin in a wine drink recalls the commentary's plant-derived bitter essence, though Mark does not call it bitter or medicinal."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.19.28",
+          "basis": "Jesus says he thirsts",
+          "note": "At the crucifixion Jesus says he thirsts; this is a specific bodily thirst scene beside the commentary's dried tongue, with the speaker's impending death making the need unresolved."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.19.29",
+          "basis": "Sour wine lifted to the thirsty Jesus",
+          "note": "The bystanders raise sour wine to Jesus after he says he thirsts; the drink is acidic relief in a death scene, not the beneficial bitter remedy described in the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Mark.2.22",
+          "basis": "New wine bursts wineskins",
+          "note": "Jesus says new wine put into old wineskins bursts them and both wine and skins are lost; unlike the commentary's corked bottle retaining a medicinal essence, this vessel fails under pressure and causes loss."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.14.19",
+          "basis": "Earth's grapes thrown into the winepress of wrath",
+          "note": "The angel gathers the earth's grapes and throws them into God's great winepress; this directly turns the commentary's pressing that yields good essence into an apocalyptic harvest of wrath."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.14.20",
+          "basis": "Winepress trodden; blood flows out",
+          "note": "The press is trodden outside the city and blood flows from it; this specifies the destructive yield of the preceding winepress, in contrast to the commentary's useful extracted juice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.17.14",
+          "basis": "Jar of meal and jug of oil do not fail during drought",
+          "note": "Elijah promises that the widow's jar and jug will not be emptied until rain returns; the contained provision in scarcity parallels the commentary's stored essence and its Yusuf scene of relief after famine."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.17.16",
+          "basis": "The jar and jug remain supplied",
+          "note": "The narrative says the widow's jar and jug did not fail as promised; this continuation shows stored liquid and food sustaining life through drought, unlike a one-time extracted dose."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.4.6",
+          "basis": "Oil fills every borrowed vessel and then stops",
+          "note": "The widow's oil keeps filling containers until there is no vessel left, when the flow stops; it gives a precise parallel to liquid collected and held by a vessel, with provision released rather than a corked medicine."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.9.13",
+          "basis": "Treader of grapes overtaken by the sower; hills drip wine",
+          "note": "Amos pictures restoration so abundant that grape-treading overlaps sowing and mountains drip sweet wine; this makes pressing the sign of relief and plenty, as in the commentary's post-scarcity year."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Judg.6.11",
+          "basis": "Gideon threshes wheat in a winepress to hide it",
+          "note": "Gideon works grain in a winepress while hiding from Midianite raiders; the press belongs to threatened subsistence here, unlike the commentary's press as the sign that scarcity has ended."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.34.11",
+          "basis": "Commentary label root خ س ر; Hebrew חסר, table sound correspondence only",
+          "note": "The verse says young lions lack and hunger while those who seek YHWH lack no good thing; Hebrew חסר gives the commentary's decrease a direct cognate contrast between want and provision."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.12",
+          "basis": "Put on patience with other virtues",
+          "note": "Paul tells the community to put on compassion, kindness, humility, gentleness, and patience; this places patience among shared ethical dispositions, extending the commentary's community defined by sabr."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.13",
+          "basis": "Bear with and forgive one another",
+          "note": "The addressees are told to bear with and forgive one another; this gives the commentary's mutual counsel in patience a concrete practice of forbearance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.16",
+          "basis": "Teach and admonish one another with the word",
+          "note": "Paul tells the community to teach and admonish one another with wisdom as Christ's word dwells among them; this is a close communal counterpart to mutual counsel in truth."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.14",
+          "basis": "Admonish, encourage, help, and be patient with all",
+          "note": "Paul urges the church to admonish the idle, encourage the fainthearted, help the weak, and be patient with everyone; this combines mutual moral care with patience in concrete cases."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.15",
+          "basis": "Seek the good of one another and everyone",
+          "note": "The church must not repay evil for evil but always pursue good for one another and all; this connects reciprocal ethical counsel to doing good."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.24",
+          "basis": "The Lord's servant must be patient and able to teach",
+          "note": "Paul describes the Lord's servant as not quarrelsome but patient and able to teach; this joins patient conduct to truthful instruction, though it is pastoral rather than reciprocal."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.25",
+          "basis": "Correct opponents gently toward knowledge of truth",
+          "note": "The servant is to correct opponents gently in hope that God grants them knowledge of truth; this directly joins correction and truth, adding a one-directional teaching scene to the commentary's mutual counsel."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.14",
+          "basis": "Can faith without works save?",
+          "note": "James asks whether a person who claims faith but has no works can be saved; this directly tests the commentary's pairing of belief and righteous action, making their relation explicit.",
+          "raw_ref": "SBLGNT:James.2.14",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.17",
+          "basis": "Faith without works is dead",
+          "note": "James says faith without works is dead; this gives a specific Christian account of why belief and deeds belong together in the commentary's exception from loss.",
+          "raw_ref": "SBLGNT:James.2.17",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rom.2.8",
+          "basis": "Disobedience to truth brings wrath",
+          "note": "Paul contrasts those who obey truth with those who disobey truth and pursue unrighteousness, who receive wrath; this counters the commentary's mutual truth-counsel by depicting refusal of truth as a path to judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Luke.9.24",
+          "basis": "Losing life for Jesus saves it",
+          "note": "Jesus says the one who loses life for his sake will save it; this reverses the commentary's general human loss into a paradoxical self-loss that leads to rescue."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.12",
+          "basis": "Enduring trial leads to the crown of life",
+          "note": "James calls blessed the person who endures trial and promises the crown of life; this connects patience under pressure to a salvific outcome.",
+          "raw_ref": "SBLGNT:James.1.12",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.1.7",
+          "basis": "Tested faith compared with refined gold",
+          "note": "Peter says tested faith, more precious than perishable gold refined by fire, will result in praise and honor; this gives pressure a refining yield, though by fire rather than squeezing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.15.2",
+          "basis": "Pruning a fruitful branch for more fruit",
+          "note": "Jesus says the vinedresser prunes the fruitful branch so it bears more fruit; this gives the commentary's grape and pressure images a contrasting cultivation model where cutting increases future yield."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.26.39",
+          "basis": "Jesus asks that the cup pass, then submits",
+          "note": "Jesus asks whether the cup can pass but submits to the Father's will; the cup makes suffering a drink-like burden, while the scene adds willing endurance rather than the commentary's extracted medicine."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.26.42",
+          "basis": "Jesus accepts the cup he must drink",
+          "note": "Jesus says that if the cup cannot pass unless he drinks it, the Father's will be done; this continuation turns the cup from a requested escape into accepted suffering."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.10",
+          "basis": "God supplies seed and increases the harvest of righteousness",
+          "note": "Paul uses seed, bread, and an increased harvest of righteousness; this connects agricultural yield to the commentary's good essence and gives generosity an ethical harvest image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.9.11",
+          "basis": "Enrichment for generosity",
+          "note": "Paul says the community is enriched in every way for generosity; this closely matches the commentary's report that expressed juice serves as a figure for goodness and giving."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.30.16",
+          "basis": "Commentary label root ع ص ر; Hebrew עצר, table sound correspondence only",
+          "note": "The proverb's closed womb uses the Hebrew root the table matches to Arabic ع ص ر; it supplies a bodily use of closure distinct from pressing and from the bottle-stopper sense in the commentary."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "7b4900d53602327794bae6284e43c80f29964e5a87c8f261feca3816ebabef9c",
+    "followup_sha256": "7b4900d53602327794bae6284e43c80f29964e5a87c8f261feca3816ebabef9c"
+  },
+  "consolidation_error": null,
+  "list_sha256": "f14180466e9c3763ff89604caa28b0dceb62015b7312fa33af0c0d164bfd9140",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 263278,
+    "cached_input_tokens": 161280,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 57886,
+    "reasoning_output_tokens": 50471,
+    "total_tokens": 321164
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:38:07.192Z",
+  "artifacts": {
+    "started.json": "9e466d91cbc204419f92a9208df5be06235c343ecb6ed32a654ecf270b981700",
+    "input.json": "953559d619c6ab7e6dc306a64c787367fe1f93e1246e321683a3dcb006428a56",
+    "prompt.md": "b92c2bf9c84d1c587747878f4a5d4d92d4bb49b4af582f26da3b07b5a27d72d4",
+    "package.md": "f4e3fe7bf28cbce732c3c6bb50bfb9365dd9ec678021574f537437cdd2b3f1ca",
+    "spawn.md": "96b23421a04850289ec8dea79eba734ecbedc6213cd4595f36fa8619b255ad27",
+    "followup.txt": "12e0e055e68132f4be8cd61a62e01e99014aaf3544cf8138293597b9a33cca57",
+    "turn1.json": "e33f9112eca0adba0dd2c60763cb4fef1468719a655ca919ff1a2379e592e7e3",
+    "turn1.list.tsv": "2e422a397fbc00cec2c2308a22a910c0e8eea46435e61cf91b5d11311eb090ee",
+    "followup.tsv": "7b4900d53602327794bae6284e43c80f29964e5a87c8f261feca3816ebabef9c",
+    "list.tsv": "f14180466e9c3763ff89604caa28b0dceb62015b7312fa33af0c0d164bfd9140",
+    "consolidation.json": "7d9c25d94f7a4a19048831982536a1b94ba9a112b746b1f20a3b3592003e5241",
+    "validation.json": "53163dfd03be0618c833b4fe1f20fe92d19e962e0ada237a209d517d567bf039",
+    "proposal_validation.json": "51612a9ed6900e858156cb90e34a0f91177928be1609a75c7af9a27a1c921267",
+    "tool_calls.json": "72f7f949870f917cc27c34c46f4d25438081ede3f462649e97dce261c926aad1",
+    "session.json": "e510ccc48262efaea015d630fc220c0713dd8b6fec4302ffefbce03d51e3c4d0",
+    "session.events.jsonl": "cc0fedb587acbc4c9e0e381873a0ad36f4c9463816e16772d3c1cf39d5d741ac"
+  },
+  "usd_equivalent": 0.040756,
+  "requests": 6,
+  "max_request_input_tokens": 73691,
+  "total_input_tokens": 263278,
+  "total_cached_input_tokens": 161280,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 57886,
+  "policy_notes": [
+    "turn 1 call_3da6c8898e7e4797b6a3ba1837733da9: local script on its own files (perl)"
+  ]
+}

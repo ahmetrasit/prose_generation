@@ -1,0 +1,1803 @@
+{
+  "target": "sec15",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md",
+  "base_sha256": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/base/surah.md": "2f8e8bbd31d8de3c75b65b7d716efa09f3a4aee5c7a372fb2c9d21cdb1af6eb8",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/quran.json": "03d6aa266afc9012a1b9f78c4be5d165693ad1408630a2bf77c6fcacc9528f47",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s103/pack/pack.json": "48c8fef0a603f7aefa14cdfbe1810b5ca3b45b4dbb09f13ad25433b1e84bbc20"
+  },
+  "started": "2026-10-09T01:29:04.100748-04:00",
+  "runner": "codex-exec",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s103_s103_20261009_sec15_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "s103-20261009",
+  "prompt_sha256": "adec24a599be5c106842193ecc31037ca4cce0a97edead3871d2ac75447ff254",
+  "package_sha256": "f0d20348bef7e476bc63a8625d92de794996cf5563c9ac1fd0b30c90097ee699",
+  "input_sha256": "a9a4069f758daf196d7add3b4069808b3be51bce41f55f7992dfccffb1ad72bf",
+  "spawn_sha256": "58636d53b9876ea64f2d3d8b02610bea983219f6c8abaa5ae83f8505c4e2c7c6",
+  "followup_text_sha256": "fa1ef7a375664c428ca5b5a2caa672f0c7ba635b5e0a003c6ff5f3aff62e5ebe",
+  "agent_id": "01a11f22-fbaf-7a22-b67b-9e2158f39b77",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/09/rollout-2026-10-09T01-29-09-01a11f22-fbaf-7a22-b67b-9e2158f39b77.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 92,
+  "turn1_sha256": "bb67bc49264eef518b18f34f32189fb220339c318f7d4598039a49df9284ee5c",
+  "turn2": {
+    "completed": true,
+    "rows_total": 131,
+    "rows_added": 39
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 92,
+    "raw_proposal_rows": 39,
+    "unique_additions": 39,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.40.11",
+          "basis": "Joseph in prison; grapes pressed into Pharaoh’s cup",
+          "note": "The commentary joins Joseph’s confinement to pressing; in Joseph’s prison story the cupbearer dreams of squeezing grapes into Pharaoh’s cup, while the dream belongs to the cupbearer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.41.48",
+          "basis": "Joseph stores the abundant harvest",
+          "note": "The commentary’s Yusuf year makes relief follow scarcity; Genesis has Joseph gather the abundant years’ produce into storehouses so the later famine can be survived."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.105.18",
+          "basis": "Joseph fettered",
+          "note": "The commentary pairs Joseph’s imprisonment with patience; the psalm retelling puts his feet in fetters and his neck in iron, making confinement part of the Joseph story."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.105.19",
+          "basis": "Joseph tested while awaiting the promise",
+          "note": "The commentary makes patience meet detention; the next line of the psalm says the Lord’s word tested Joseph until its fulfillment, giving his confinement a waiting-for-release dimension."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.20",
+          "basis": "Stored harvest interrupted by death",
+          "note": "The commentary’s aged gardener loses the yield before enjoying it; Jesus’ rich farmer plans many years around his abundant stores, then is told that his life ends that night."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.18.17",
+          "basis": "Merchants’ wealth lost in one hour",
+          "note": "The commentary compresses accumulated produce and capital into sudden loss; Revelation says Babylon’s great wealth is laid waste in one hour, as merchants watch their trade collapse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.7",
+          "basis": "Crop, rain, and patience",
+          "note": "The commentary joins rain, fruit, and sabr; James tells the farmer to wait patiently for the precious crop until it receives the early and late rains, making delay before yield the point."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.6",
+          "basis": "Life flourishes, then withers at evening",
+          "note": "The commentary reads asr as the evening of a life; the psalm compares human flourishing to grass that sprouts in the morning and withers by evening."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.10",
+          "basis": "Brief lifespan and toil",
+          "note": "The commentary makes a lifetime’s yield vulnerable at its late hour; the psalm counts human years as short and full of toil, then quickly gone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.2",
+          "basis": "Light and rain clouds dim before old age",
+          "note": "The commentary layers life’s late afternoon with rain and its destructive turn; Ecclesiastes pictures sun, moon, and stars darkening and clouds returning after rain in its approach to death."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.92.14",
+          "basis": "Fruit still borne in old age",
+          "note": "The commentary’s old owner loses his garden as age advances; the psalm instead pictures the righteous still bearing fruit in old age, a concrete counter-image of fruitful late life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 2:15",
+          "basis": "Short day, much work, pressing master",
+          "note": "The commentary treats time as expiring capital and deeds as urgent; Tarfon says the day is short, the work abundant, and the Master of the House presses, joining time, labor, and accountability."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 2:16",
+          "basis": "Do not desist from unfinished work",
+          "note": "The commentary’s closing community keeps transmitting good action within limited time; Tarfon says one need not finish the work but is not free to desist, adding persistence without claiming control of the outcome."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Peah 1:1",
+          "basis": "Good deeds as fruit and principal",
+          "note": "The commentary makes good works the lasting yield of time; Peah says certain deeds bear fruit in this world while their principal remains for the world to come, an explicit investment image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.6",
+          "basis": "Release the bound and break the yoke",
+          "note": "The commentary defines the steep ascent through freeing a captive; Isaiah’s fast is to loose wicked bonds, undo the yoke, and let the oppressed go free."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.7",
+          "basis": "Give bread to the hungry",
+          "note": "The commentary names feeding on a day of hunger as part of the ascent; Isaiah places sharing bread with the hungry in the same account of true fasting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.23.5",
+          "basis": "Lift an enemy’s overloaded donkey",
+          "note": "The commentary moves from struggle toward companionship and mentions a beast of burden; Torah commands helping even an enemy’s donkey rise under its load, making cooperation concrete."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.34",
+          "basis": "A wounded traveler carried on an animal",
+          "note": "The commentary’s road and burden imagery turns toward care; the Samaritan binds the robbed traveler’s wounds and places him on his own animal, converting a dangerous road encounter into help."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.35",
+          "basis": "Feed the hungry",
+          "note": "The commentary makes feeding the hungry part of the difficult ascent; in Jesus’ judgment scene, feeding the hungry is named as a deed by which people answer the king."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.36",
+          "basis": "Visit the imprisoned",
+          "note": "The commentary pairs release from captivity with feeding; Jesus’ judgment scene separately names visiting a person in prison, connecting practical care to final reckoning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.20",
+          "basis": "Feed an enemy",
+          "note": "The commentary’s movement from enmity to fellowship has a concrete ethic in Paul’s instruction to feed a hungry enemy, answering hostility with care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.2",
+          "basis": "Bear one another’s burdens",
+          "note": "The commentary turns from the isolated person to mutual counsel; Paul tells the community to carry one another’s burdens, making shared endurance an enacted duty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.4.10",
+          "basis": "A companion lifts the fallen",
+          "note": "The commentary’s steep path and transition into togetherness meet Ecclesiastes’ image of one companion raising another who falls on the road of life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.4.12",
+          "basis": "A cord holds companions together",
+          "note": "The commentary reads holding together as rescue from danger; Ecclesiastes says a three-strand cord is not quickly broken, giving the communal bond a material image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.19.15",
+          "basis": "Two or three witnesses establish a matter",
+          "note": "The commentary’s deathbed bequest depends on witnesses; Deuteronomy likewise rejects a single witness and requires two or three for a charge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.5.1",
+          "basis": "Witness called under oath",
+          "note": "The commentary gathers oath, testimony, and truth at the moment of a bequest; Leviticus treats hearing a public oath and withholding testimony as a legal offense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.9.16",
+          "basis": "Death activates a will or covenant",
+          "note": "The commentary’s death-triggered bequest meets Hebrews’ use of Greek diathēkē as a will: the writer uses the testator’s death to explain how the covenant takes effect."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.32.10",
+          "basis": "Signed deed, witnesses, and weighed silver",
+          "note": "The commentary says the debt scene joins market and trust; Jeremiah records a land purchase with a signed deed, witnesses, and silver weighed out, a close transactional analogue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.32.14",
+          "basis": "Sealed deeds kept in an earthen vessel",
+          "note": "The commentary joins financial trust to preserved contents; Jeremiah orders sealed and open copies of the deed stored in a jar so they last, showing custody protecting a transaction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 29:3",
+          "basis": "Promise and honesty in lending",
+          "note": "The commentary brings debt together with trust; Sirach tells a lender to keep a promise and deal faithfully with the borrower, making reliability part of credit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Shabbat 31a",
+          "basis": "Faithful business dealings at judgment",
+          "note": "The commentary joins market trust to the day when deeds are faced; the Talmud’s first judgment question is whether one dealt faithfully in business."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.11",
+          "basis": "Faithfulness with wealth and entrusted riches",
+          "note": "The commentary’s debt verse brings commerce and trust together; Jesus asks who will entrust true riches to someone unfaithful with worldly wealth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phlm.1.18",
+          "basis": "Another’s debt charged to Paul",
+          "note": "The commentary’s testament and debt scenes make obligation transferable; Paul tells Philemon to charge any debt or wrong by Onesimus to him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phlm.1.19",
+          "basis": "A written promise to repay",
+          "note": "The commentary joins a financial obligation to trust; Paul says he writes in his own hand that he will repay, turning personal assurance into a written pledge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.6",
+          "basis": "A friend’s wounds can be faithful",
+          "note": "The commentary lets truth be a straight, painful blow; Proverbs says a friend’s wounds may be trusted, presenting frank correction as a form of loyalty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.8.16",
+          "basis": "Speak truth to one another",
+          "note": "The commentary’s mutual counsel is centered on truth; Zechariah commands neighbors to speak truth and render judgments that make for peace."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.25",
+          "basis": "Truth spoken among interdependent members",
+          "note": "The commentary turns truth into reciprocal counsel within a community; Paul says to speak truth with one’s neighbor because members belong to one another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.2",
+          "basis": "Entrusted teaching passed to further teachers",
+          "note": "The commentary ends with truth and patience changing hands; Paul tells Timothy to entrust what he heard to faithful people able to teach others, an explicit chain of transmission."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.14",
+          "basis": "Encourage the weak and be patient with all",
+          "note": "The commentary’s community counsels patience; Paul joins encouraging the fainthearted and helping the weak to the instruction to be patient with everyone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.24",
+          "basis": "Provoke one another to good works",
+          "note": "The commentary makes mutual counsel issue in righteous action; Hebrews says to consider how to spur one another toward love and good works."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.13",
+          "basis": "The Day tests each person’s work",
+          "note": "The commentary imagines deeds fitting like building material and truth as the day of reckoning; Paul says the Day reveals each builder’s work and fire tests it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.5",
+          "basis": "People built together as living stones",
+          "note": "The commentary pictures righteous action as bricks set in place; Peter calls believers living stones being built into a spiritual house, making the community itself constructed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.16",
+          "basis": "Each part builds the whole body",
+          "note": "The commentary’s believers add to one another; Paul’s body is joined through each supporting part and builds itself up in love."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.12.25",
+          "basis": "Members care for one another",
+          "note": "The commentary’s mutual counsel makes the group interdependent; Paul says the body’s members should have the same care for one another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.32",
+          "basis": "Patience as rule over oneself",
+          "note": "The commentary reads sabr as self-restraint; Proverbs says ruling one’s spirit is greater than taking a city, making inner restraint the achievement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 2:4",
+          "basis": "Patience in adversity",
+          "note": "The commentary treats patience as something retained through hardship; Sirach tells the faithful to accept what befalls them and be patient in humiliation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 2:5",
+          "basis": "Faithfulness tested like gold in fire",
+          "note": "The commentary’s patience has a bitter, fiery trial aspect; Sirach says the faithful are tested in the furnace of humiliation as gold is tested in fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Dan.3.18",
+          "basis": "Faithfulness chosen despite the furnace",
+          "note": "The commentary calls condemned people’s readiness for fire a perverse patience; Daniel’s three youths accept the possibility of fire rather than worship another god, reversing what endurance serves."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.14",
+          "basis": "Every deed brought into judgment",
+          "note": "The commentary says the day makes each person face their work; Ecclesiastes says every deed, including what is hidden, comes into judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.5.27",
+          "basis": "Weighed and found wanting",
+          "note": "The commentary links severed kinship to scales that come up light; Daniel’s wall-writing scene weighs a king and finds him wanting, making weight a verdict on conduct."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.14.20",
+          "basis": "Righteousness cannot be transferred to a child",
+          "note": "The commentary places severed kinship beside individual weighing; Ezekiel says even Noah, Daniel, and Job could save only themselves, not sons or daughters, so family ties do not transfer standing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.6",
+          "basis": "Each repaid according to deeds",
+          "note": "The commentary says the day confronts everyone with their work; Paul states that God repays each person according to deeds."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.12",
+          "basis": "The dead judged by recorded deeds",
+          "note": "The commentary joins the loss of kinship with personal weighing; Revelation depicts the dead judged from books according to what they had done."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.14.12",
+          "basis": "A seemingly right road ends in death",
+          "note": "The commentary describes the human as straying within time; Proverbs warns that a way can seem right yet end in death, specifying the danger of misjudgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.8.36",
+          "basis": "Profit that costs one’s life",
+          "note": "The commentary describes human life as capital that can melt into loss; Jesus asks what is gained by acquiring the whole world if one forfeits oneself."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.13",
+          "basis": "A year of trade and expected profit",
+          "note": "The commentary treats time as capital; James depicts merchants planning a year in a city to trade and make profit, exposing life’s plans to uncertainty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.14",
+          "basis": "Life as a passing mist",
+          "note": "The commentary reads the time of a human life as brief and vulnerable; James calls life a vapor that appears briefly and then vanishes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.9",
+          "basis": "Patient good work bears a later harvest",
+          "note": "The commentary closes with deeds and patience transmitted together; Paul urges persistence in doing good because a harvest comes in its season if people do not give up."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.1.6",
+          "basis": "Self-control and endurance after faith",
+          "note": "The commentary’s believers join faith to good action and sabr; Peter’s sequence adds self-control and endurance to faith-informed virtue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.12",
+          "basis": "Faithful community defined by endurance",
+          "note": "The commentary gathers belief, right action, and patience in a community; Revelation names the saints’ endurance together with keeping God’s commands and faith in Jesus."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.7.31",
+          "basis": "The world’s form is passing away",
+          "note": "The commentary treats time and worldly capital as expiring; Paul tells believers to use the world without clinging to it because its present form is passing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.19",
+          "basis": "Earthly treasure can be destroyed or stolen",
+          "note": "The commentary’s accumulated fruit and capital remain vulnerable; Jesus warns that earthly stores are exposed to moth, corrosion, and thieves."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.5.2",
+          "basis": "Vineyard, grapes, and winepress",
+          "note": "The commentary’s garden contains grapes and fruit meant for pressing; Isaiah’s cultivated vineyard has a winepress prepared for its expected grapes, though its yield proves different."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.5.6",
+          "basis": "A vineyard ruined when rain is withheld",
+          "note": "The commentary’s garden is destroyed by a sudden storm after fruitfulness; Isaiah instead makes a failed vineyard waste and withholds rain, a distinct judgment pattern."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.1.19",
+          "basis": "A violent wind destroys a house amid accumulated loss",
+          "note": "The commentary makes a whirlwind erase what was gathered; Job’s children die when a great wind collapses the house during their feast, after earlier losses of property."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hag.1.6",
+          "basis": "Wages vanish into a bag with holes",
+          "note": "The commentary says human capital melts away; Haggai pictures earned wages disappearing into a bag with holes, tying loss to futile labor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.5.13",
+          "basis": "Wealth perishes in a bad venture",
+          "note": "The commentary’s garden loses its accumulated yield at the moment of expectation; Ecclesiastes describes wealth kept to its owner’s hurt and lost through a disastrous venture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.23.5",
+          "basis": "Wealth grows wings and flies away",
+          "note": "The commentary makes stored capital vulnerable to sudden disappearance; Proverbs pictures riches sprouting wings and flying off, turning possession into impermanence."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.4",
+          "basis": "Riches fail on the day of wrath",
+          "note": "The commentary contrasts loss with deeds that carry a person through judgment; Proverbs says riches cannot deliver on the day of wrath but righteousness delivers from death."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.21",
+          "basis": "Borrowing without repayment",
+          "note": "The commentary links debt to trust; the psalm contrasts a wicked borrower who does not repay with a righteous person who gives generously."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.15.2",
+          "basis": "Release of debts",
+          "note": "The commentary develops debt as one face of truth; Deuteronomy commands release of loans at the appointed remission, connecting obligation to mercy within the community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.1",
+          "basis": "Honest weights in trade",
+          "note": "The commentary brings market trust and truthful judgment together; Proverbs condemns false scales and approves accurate weights in commerce."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.5.34",
+          "basis": "A general ban on swearing",
+          "note": "The commentary’s witness scene uses an oath to establish a bequest; Jesus’ sermon tells disciples not to swear, giving a contrasting ethic for truthful speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.25",
+          "basis": "A house stands through rain and wind",
+          "note": "The commentary juxtaposes ruined gardens with refuge; Jesus’ house on rock survives rain, floods, and wind because its builder acts on his words."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.27",
+          "basis": "A house collapses in the storm",
+          "note": "The commentary calls the spider’s house an inadequate refuge and describes a storm ruining a garden; Jesus’ house built on sand falls when rain, flood, and wind strike."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.8.14",
+          "basis": "Trust as a spider’s web",
+          "note": "The commentary makes the spider house a refuge that fails; Job says the confidence of the godless is like a spider’s web, matching the fragile shelter image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.59.6",
+          "basis": "Spider webs cannot clothe",
+          "note": "The commentary links the spider’s house to textile and failed protection; Isaiah says webs cannot serve as garments, making the woven product useless as covering."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.91.2",
+          "basis": "God as refuge and fortress",
+          "note": "The commentary contrasts a spider’s false shelter with real security; the psalm names God as refuge and fortress, supplying a contrasting image of protection."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.32.2",
+          "basis": "Shelter from storm and heat",
+          "note": "The commentary layers refuge with rain and tempest; Isaiah pictures a just ruler as shelter from wind and storm, a safe counterpart to the fragile garden or web."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.38.13",
+          "basis": "Ropes pull Jeremiah out of a pit",
+          "note": "The commentary says a community is pulled back from an edge; Jeremiah is physically drawn from a cistern by ropes, a concrete rescue image with a different meaning from the shared covenant rope."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.10.10",
+          "basis": "A message sweet in the mouth and bitter inside",
+          "note": "The commentary calls patience a bitter essence kept and passed on; John eats a scroll that tastes sweet and turns bitter in his stomach, making internalized truth costly."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.10.11",
+          "basis": "A received message must be spoken onward",
+          "note": "The commentary ends with truth and patience changing hands; after eating the scroll, John is told to prophesy again to peoples and nations, connecting inward reception to transmission."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.13.44",
+          "basis": "A person sells all to gain hidden treasure",
+          "note": "The commentary names buying error as a ruinous bargain; Jesus’ parable reverses the valuation, as a man sells what he has to gain a treasure worth more."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.5.3",
+          "basis": "Affliction produces endurance",
+          "note": "The commentary imagines pressure and patience meeting; Paul says suffering produces endurance, interpreting hardship as a source of steadfastness rather than only loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.12",
+          "basis": "Faith and patience inherit promises",
+          "note": "The commentary’s final community joins belief and patience; Hebrews says faith and patience characterize those who inherit the promises."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.11.30",
+          "basis": "A yoke and burden made light",
+          "note": "The commentary defines the ascent through a burden and a freed neck; Jesus describes his own yoke as easy and burden as light, recasting burden as sustaining discipleship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.5.1",
+          "basis": "Freedom from slavery’s yoke",
+          "note": "The commentary makes freeing a captive the answer to the steep ascent; Paul says Christ set people free and warns them not to return to a yoke of slavery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.8",
+          "basis": "Pressed but not crushed",
+          "note": "The commentary opens with pressure that can destroy accumulated yield; Paul describes believers as hard pressed but not crushed, distinguishing pressure from final loss."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.4.17",
+          "basis": "Light affliction and a weight of glory",
+          "note": "The commentary joins time’s pressure to scales and loss; Paul contrasts brief affliction with an eternal weight of glory, reversing the apparent measure of value."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.19",
+          "basis": "Good works stored as future treasure",
+          "note": "The commentary makes righteous deeds the secure yield of mortal time; Timothy tells the rich to be rich in good works and store treasure for the future."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 4:16",
+          "basis": "This life as a vestibule before the next world",
+          "note": "The commentary treats time as a limited span whose use determines what follows; Avot compares this world to a vestibule in which one prepares before entering the banquet hall."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.9.17",
+          "basis": "A will takes effect after death",
+          "note": "The commentary’s bequest is activated by impending death; Hebrews’ next legal step says a will takes effect only after death, sharpening the contrast between present custody and later transfer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.40.23",
+          "basis": "Joseph forgotten in confinement",
+          "note": "The commentary pairs Joseph’s prison with patience; after the cupbearer is restored, he forgets Joseph, adding the concrete delay of being left confined and unremembered."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.41.1",
+          "basis": "Two years pass before Joseph is recalled",
+          "note": "The commentary makes detention and patience meet; Genesis marks two full years before Pharaoh’s dream brings the imprisoned Joseph back into view, specifying the length of the wait."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.47.29",
+          "basis": "A dying patriarch asks for an oath about burial",
+          "note": "The commentary’s testament scene joins approaching death, trust, and obligation; Jacob, near death, asks Joseph to swear that he will not bury him in Egypt."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.47.31",
+          "basis": "The deathbed request is secured by an oath",
+          "note": "The commentary places oath and bequest together at death; Joseph swears to Jacob’s burial request, turning a dying person’s instruction into an entrusted duty."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.50.25",
+          "basis": "A final oath entrusted to the next generation",
+          "note": "The commentary joins death, custody, and what passes between people; Joseph makes Israel’s descendants swear to carry his bones when God visits them."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.1.16",
+          "basis": "Fire consumes accumulated flocks and servants",
+          "note": "The commentary’s ruined garden includes a destructive fiery storm; in Job’s sequence of calamities, fire from heaven consumes sheep and servants, one part of the sudden loss of his holdings."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.90.12",
+          "basis": "Numbering days to gain wisdom",
+          "note": "The commentary treats time as expiring capital; the psalm asks to be taught to number one’s days so the heart may gain wisdom, turning limited time into a prompt for action."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.2",
+          "basis": "Meditating on instruction day and night",
+          "note": "The commentary says communal counsel joins like night and day; the psalmist meditates on Torah day and night, making ethical instruction a sustained practice across time."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.3",
+          "basis": "A righteous tree bears fruit in season and does not wither",
+          "note": "The commentary’s fruitful garden is destroyed at the moment of expected yield; Psalm 1 pictures the righteous as a watered tree whose seasonal fruit remains, a counter-image of stability."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.8.2",
+          "basis": "Summer fruit announces the end",
+          "note": "The commentary layers ripe produce with life’s late hour and the end of time; Amos’s basket of summer fruit signals that Israel’s end has arrived, making harvest itself an omen of ending."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.8",
+          "basis": "Human growth fades while the word endures",
+          "note": "The commentary moves from mortal time to truth that is transmitted and kept; Isaiah contrasts fading grass and flowers with the enduring word of God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.3",
+          "basis": "Truth bound at the neck and written on the heart",
+          "note": "The commentary joins truth to holding and binding; Proverbs tells the reader to bind faithfulness and truth around the neck and write them on the heart, combining tethering with inward preservation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.6.1",
+          "basis": "A person becomes surety for a neighbor",
+          "note": "The commentary gives patience the secondary image of a guarantor and joins trust to debt; Proverbs depicts someone pledging security for a neighbor, making the guarantee a concrete accepted burden."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.22.25",
+          "basis": "A pledged garment returned before sunset",
+          "note": "The commentary joins debt, holding, and release within passing time; Exodus requires a creditor to return a poor borrower’s garment by sunset, so the pledge cannot become lasting captivity."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.15.14",
+          "basis": "A freed servant sent away with produce",
+          "note": "The commentary defines the ascent through freeing a captive and feeding the hungry; Deuteronomy says not to send a released servant away empty-handed but to provide from flock, threshing floor, and winepress."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.4.1",
+          "basis": "A creditor threatens to take a widow’s sons as slaves",
+          "note": "The commentary brings debt and release from captivity together; the widow’s unpaid debt puts her sons at risk of enslavement, making the financial obligation a threat to family freedom."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.4.7",
+          "basis": "Oil sold to pay debt and preserve a livelihood",
+          "note": "The commentary’s debt and release scenes meet in Elisha’s instruction: the widow sells the multiplied oil, pays the creditor, and lives on what remains."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 29:15",
+          "basis": "Remember the one who stood as guarantor",
+          "note": "The commentary calls patience a guarantor; Sirach warns not to forget the kindness of one who guaranteed a neighbor’s debt and risked much on that person’s behalf."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.7.22",
+          "basis": "Jesus as guarantor of a better covenant",
+          "note": "The commentary’s secondary guarantor image meets Hebrews’ explicit description of Jesus as guarantor, applying financial surety language to the covenant."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.1.13",
+          "basis": "Truth heard, believed, and sealed",
+          "note": "The commentary gathers belief, truth, and what is kept; Ephesians says its readers heard the word of truth, believed, and were sealed with the promised Spirit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.1.14",
+          "basis": "A seal that guarantees inheritance",
+          "note": "The commentary calls patience a guarantor and ends with what is preserved; Ephesians calls the Spirit the guarantee of inheritance until redemption."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.2",
+          "basis": "Patience expressed by bearing with one another",
+          "note": "The commentary turns patience into reciprocal communal counsel; Paul joins humility, patience, and bearing with one another in love."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.3",
+          "basis": "Unity held by a bond of peace",
+          "note": "The commentary pictures people holding together; Paul urges preservation of the Spirit’s unity through a bond of peace."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.13.6",
+          "basis": "Love rejoices with truth",
+          "note": "The commentary makes truth the content of mutual counsel; Paul says love rejoices with the truth, placing truthful conduct inside communal ethics."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.13.7",
+          "basis": "Love bears and endures all things",
+          "note": "The commentary presents patience as a quality exchanged within the community; Paul describes love as bearing and enduring all things, a sustained communal form of sabr."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.7",
+          "basis": "Patient persistence in good work",
+          "note": "The commentary’s exception to loss joins belief, good deeds, and patience; Paul describes those who persist patiently in good work as seeking glory and eternal life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.13",
+          "basis": "Daily mutual exhortation prevents hardening",
+          "note": "The commentary’s community advises one another; Hebrews commands daily encouragement so that no one is hardened by sin’s deceit, specifying both the repeated action and its danger."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.36",
+          "basis": "Endurance after doing God’s will",
+          "note": "The commentary closes with good action and patience held together; Hebrews says endurance is needed after doing God’s will in order to receive what is promised."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.1",
+          "basis": "Lay aside weight and run with endurance",
+          "note": "The commentary makes the steep ascent a road with a load; Hebrews tells runners to lay aside every weight and run the set race with endurance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 4:11",
+          "basis": "Good deeds as advocates and a shield",
+          "note": "The commentary says deeds distinguish those who escape loss; Avot pictures a commandment as an advocate and repentance with good deeds as a shield against punishment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.11",
+          "basis": "The word stored in the heart",
+          "note": "The commentary ends with truth received and preserved; the psalmist stores God’s word in the heart as a safeguard against sin, making inward keeping an ethical act."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.5.16",
+          "basis": "Time treated as something to redeem",
+          "note": "The commentary calls time capital that can be spent or lost; Paul urges believers to make the most of the time because the days are evil, giving time an explicit economic value."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.19",
+          "basis": "Ripe grapes cast into the winepress of judgment",
+          "note": "The commentary layers fruit, pressing, and the end; Revelation gathers ripe grapes and casts them into God’s great winepress, making the press a harvest image of judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.15.58",
+          "basis": "Steadfast work is not in vain",
+          "note": "The commentary says most human effort is loss but closes with faithful work and patience; Paul calls believers steadfast and abundant in the Lord’s work, assuring them that such labor is not empty."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.13.8",
+          "basis": "One more year for a fruitless tree",
+          "note": "The commentary overlaps orchard, aging time, and the risk of losing fruit; the gardener asks for one more year to tend the barren fig tree, making patience a limited extension before judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.8.32",
+          "basis": "Truth as a means of release",
+          "note": "The commentary joins truth to freeing a captive; Jesus says knowing the truth will make his hearers free, recasting liberation as an effect of truth."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.23.29",
+          "basis": "The word as fire and a rock-breaking hammer",
+          "note": "The commentary gives truth the image of a straight blow; Jeremiah compares God’s word to fire and a hammer that breaks rock, making truthful speech forceful rather than merely abstract."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.19.26",
+          "basis": "A dying Jesus entrusts his mother",
+          "note": "The commentary’s testament scene gathers approaching death, entrusted care, and a transfer between people; Jesus from the cross gives his mother and the beloved disciple to one another."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.19.27",
+          "basis": "The entrusted person is received into a home",
+          "note": "The commentary says trust and custody meet at death; the disciple takes Mary into his own home, carrying out the deathbed entrustment as practical care."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "30af503b801cbba1296d02f6d42d1af14d995c5677d36adedf066a6328a106a0",
+    "followup_sha256": "30af503b801cbba1296d02f6d42d1af14d995c5677d36adedf066a6328a106a0"
+  },
+  "consolidation_error": null,
+  "list_sha256": "7a2f0bbca5c8bb2a1ac3494d3bf1c7a856a302683c1e45ef10781a8ddbfaf478",
+  "followup_delivery": [
+    {
+      "call_id": "codex-exec-resume",
+      "encrypted": false,
+      "matches": true
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 320647,
+    "cached_input_tokens": 240128,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 71980,
+    "reasoning_output_tokens": 60657,
+    "total_tokens": 392627
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "API-equivalent at codexrun.RATES (Codex subscription; usage counts)",
+  "completed_at": "2026-10-09T05:40:32.794Z",
+  "artifacts": {
+    "started.json": "54f89a39017c88455fa55ea0cf1700eb0f1f06ae05f2c6031ee9fd8f38dc8171",
+    "input.json": "a9a4069f758daf196d7add3b4069808b3be51bce41f55f7992dfccffb1ad72bf",
+    "prompt.md": "adec24a599be5c106842193ecc31037ca4cce0a97edead3871d2ac75447ff254",
+    "package.md": "f0d20348bef7e476bc63a8625d92de794996cf5563c9ac1fd0b30c90097ee699",
+    "spawn.md": "58636d53b9876ea64f2d3d8b02610bea983219f6c8abaa5ae83f8505c4e2c7c6",
+    "followup.txt": "fa1ef7a375664c428ca5b5a2caa672f0c7ba635b5e0a003c6ff5f3aff62e5ebe",
+    "turn1.json": "0717a2057a9d607eed425f095b81ad88c868f175ee430c29b062accc4b34acb7",
+    "turn1.list.tsv": "bb67bc49264eef518b18f34f32189fb220339c318f7d4598039a49df9284ee5c",
+    "followup.tsv": "30af503b801cbba1296d02f6d42d1af14d995c5677d36adedf066a6328a106a0",
+    "list.tsv": "7a2f0bbca5c8bb2a1ac3494d3bf1c7a856a302683c1e45ef10781a8ddbfaf478",
+    "consolidation.json": "d74aae490851d2b632a93bb2a09f991bae55f671adb579669039d0361320c53b",
+    "validation.json": "fdfb887d07dd8c82a0ae52dab82f99744136e44721f297eec815991b720dd01a",
+    "proposal_validation.json": "c659c86c526091ec43d9d2a634d9880e48cc1daac1ec31ac1166727f90e7d3a6",
+    "tool_calls.json": "2f99e850114e7f2e45ed5070cf918ceb74008d83c696e0604496951e8028eec0",
+    "session.json": "6e080e26fa4eb27ee0ccb59141c027b710d6cbadec7dac03f0ff18a35313f5ac",
+    "session.events.jsonl": "97714440915f940d2bf8270e78f674696acf847e322407c793e0bbc24bbf12a7"
+  },
+  "usd_equivalent": 0.046443,
+  "requests": 6,
+  "max_request_input_tokens": 86976,
+  "total_input_tokens": 320647,
+  "total_cached_input_tokens": 240128,
+  "total_cache_write_input_tokens": 0,
+  "total_output_tokens": 71980,
+  "policy_notes": []
+}

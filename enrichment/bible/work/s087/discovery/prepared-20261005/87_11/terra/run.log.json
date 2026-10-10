@@ -1,0 +1,1106 @@
+{
+  "target": "87:11",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/87_11.md",
+  "base_sha256": "2af7d55f064b77eda450e3c94fff45c446a1e641764ad8868597fe9dd6f477d2",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T14:08:07.177760-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_87_11_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "800e3c9afce3ce5d92ca389a1d8752b2eb0b7415171a3b235786de3dda1eebd1",
+  "package_sha256": "349f96804598ea5b51891a707d5ebcdaec469cfe0b99260c17d83dba52a63cc8",
+  "input_sha256": "1813a616b75976d7015e4b9aab721ea783fe5decb9ec97bc6dda4c8b8d4e3f9d",
+  "spawn_sha256": "dd1e45aa9ca368dbf872c4894f9fc078d44d34caf6a06a54c520433f13362914",
+  "followup_text_sha256": "beb0c1337c94fab3ff704adb40c2957b278fe2656f488e4a821a12464694e51f",
+  "agent_id": "01a10d42-03f2-72e3-90b6-e70128f73aed",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T14-09-52-01a10d42-03f2-72e3-90b6-e70128f73aed.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 59,
+  "turn1_sha256": "0f4e63041c6d353dfe9feb8a97393bda1b4e7df485a12ab3c02efbb49901b4ae",
+  "turn2": {
+    "completed": true,
+    "rows_total": 78,
+    "rows_added": 19
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 59,
+    "raw_proposal_rows": 19,
+    "unique_additions": 19,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.2",
+          "basis": "same message, benefit, faith",
+          "note": "The commentary says one admonition becomes beneficial only in its receiver; Hebrews says the good news reached the wilderness generation too, but the heard word did not benefit them because it was not joined with faith."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.7",
+          "basis": "fear and instruction",
+          "note": "The fearful recipient of the reminder is set against the one who shuns it; Proverbs makes fear of YHWH the beginning of knowledge and says fools despise wisdom and discipline."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.7.11",
+          "basis": "refusal, shoulder, ears",
+          "note": "The page pictures deliberate sidelining rather than panic flight; Zechariah's ancestors refuse to heed, turn a stubborn shoulder, and stop their ears against prophetic correction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.7.12",
+          "basis": "hardened heart against Torah",
+          "note": "Zechariah says they made their heart hard lest they hear Torah and the former prophetic words sent by the Spirit, identifying the offence as rejecting a word that has actually arrived."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.6.16",
+          "basis": "offered path, chosen refusal",
+          "note": "God sets out ancient paths in which rest could be found, but the people answer that they will not walk there; this closely matches the offered guidance and chosen refusal in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.7.24",
+          "basis": "not inclining ear, own counsel",
+          "note": "Instead of inclining their ear, people walk after their own counsel and stubborn heart and go backward; it makes self-directed turning from the reminder an alternative course, not a lack of access."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.3.19",
+          "basis": "warning, turning, responsibility",
+          "note": "Ezekiel warns the wicked to turn; if the listener does not turn, he dies in iniquity while the watchman has discharged his task. This closely frames the commentary's non-coercive admonisher and responsible hearer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.33.32",
+          "basis": "hearing without doing",
+          "note": "The audience hears Ezekiel's words as a pleasant song but does not do them; this is a concrete counterpart to advice kept beside oneself rather than taken inward."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.24",
+          "basis": "Wisdom's refused call",
+          "note": "Wisdom's call and extended hand are refused, providing a particular scene of one offered instruction being rejected."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.1.25",
+          "basis": "neglected counsel and reproof",
+          "note": "Those addressed neglect all counsel and refuse reproof, an exact ethical reversal of taking a beneficial reminder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.7",
+          "basis": "today hear his voice",
+          "note": "The liturgical call to hear God's voice today makes hearing a present response to divine address, closely framing the split between receiving and avoiding the reminder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.95.8",
+          "basis": "do not harden the heart",
+          "note": "After the call to hear, the worshiper is told not to harden the heart as at Meribah; it gives the commentary's inward resistance a concrete historical and liturgical form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.2.1",
+          "basis": "paying attention, drifting away",
+          "note": "Hebrews tells hearers to pay much closer attention to what they heard lest they drift away, capturing the page's quiet, continuing movement of putting admonition to one side."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.13.46",
+          "basis": "thrusting aside the word",
+          "note": "Paul says opponents thrust the word of God aside and thereby judge themselves unworthy of eternal life; the self-directed rejection and outcome closely match the ashqa's active avoidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.22",
+          "basis": "hearer and doer",
+          "note": "James calls those who hear the word without doing it self-deceived, sharpening the commentary's claim that the issue is what a person does with unchanged counsel."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.25",
+          "basis": "forgetful hearer and blessing",
+          "note": "James contrasts the forgetful hearer with the doer who remains at the perfect law and is blessed, directly accompanying the commentary's identification of turning from signs with forgetting them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.2.15",
+          "basis": "one proclamation, two receptions",
+          "note": "Paul's one ministry is an aroma among those being saved and those perishing; the shared proclamation yielding divided hearers mirrors the commentary's single reminder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.2.16",
+          "basis": "death to death, life to life",
+          "note": "The one aroma becomes death to death for some and life to life for others, supplying a compact Christian form of the page's same word and opposed destiny pattern."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.1.18",
+          "basis": "one word, perishing and saved",
+          "note": "The word of the cross is folly to those perishing but God's power to those being saved, another specific instance of one preached message differently received."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.40",
+          "basis": "unwillingness to come for life",
+          "note": "Jesus addresses people who search Scripture yet are unwilling to come to him for life; it connects proximity to revealed words with an active refusal of their life-giving offer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.4.4",
+          "basis": "turning hearing from truth",
+          "note": "People turn their hearing away from truth and turn toward myths; this gives the page's turning from remembrance a particular alternative object."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.12.2",
+          "basis": "eyes and ears unused",
+          "note": "Ezekiel's rebellious house has eyes to see and ears to hear yet does neither, directly illuminating the page's post-refusal blindness as a moral response to signs rather than lack of organs."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.20",
+          "basis": "open ears without hearing",
+          "note": "YHWH's servant sees much but does not observe and has open ears but does not hear, adding a prophetic image for instruction available yet spiritually unreceived."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.3.17",
+          "basis": "self-sufficiency, wretchedness, blindness",
+          "note": "The self-satisfied speaker claims to need nothing but is called wretched, poor, blind, and naked. These terms concentrate the page's self-sufficiency, wretchedness, judgmental blindness, and Edenic exposure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.4.9",
+          "basis": "do not forget what was seen",
+          "note": "Moses tells Israel to guard itself lest it forget what it has seen and to transmit it, a direct Torah counterpart to the commentary's moral reading of forgotten signs."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.11",
+          "basis": "forgetting enacted in disobedience",
+          "note": "Moses warns Israel not to forget YHWH by failing to keep commandments, making forgetting an enacted refusal as the page does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.32.8",
+          "basis": "turning aside to the calf",
+          "note": "Israel quickly turns aside from the commanded way to make and worship a calf; it is a concrete biblical inversion of the commentary's contrast between shunning idols and shunning God's reminder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.12.21",
+          "basis": "do not turn aside after non-profit",
+          "note": "Samuel forbids turning aside after empty things that cannot profit or deliver; the page reverses this relation when the wretched treats beneficial admonition as the thing to avoid."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.11.16",
+          "basis": "deceived heart and other gods",
+          "note": "Israel is warned lest the heart be deceived so that it turns aside to serve other gods, supplying the inward deception behind the inversion of proper avoidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.7.1",
+          "basis": "self-cleansing in fear of God",
+          "note": "Paul asks believers to cleanse themselves from every defilement and complete holiness in fear of God, closely joining self-work, purification, and fear as the commentary joins them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.3",
+          "basis": "purifying oneself",
+          "note": "Everyone whose hope is fixed on him purifies himself; the active reflexive act is a direct Christian analogue for the commentary's account of tazakka as work done on oneself."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.3.17",
+          "basis": "post-garden toil after disobedience",
+          "note": "In Genesis the ground is cursed and eating becomes toil because the command was disobeyed. The page's post-garden hunger and hardship belongs beside this account, while its differently specified privations remain meaningful."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.3.19",
+          "basis": "sweat, bread, death",
+          "note": "Genesis defines post-garden hardship as bread by sweat until return to dust; the page sets this mortal toil-and-death frame beside its later fire in which one neither dies nor lives."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Josh.24.2",
+          "basis": "Terah and ancestral idolatry",
+          "note": "Joshua says Terah and Abraham's ancestors served other gods beyond the River; the page turns that family background into Abraham's explicit anti-idol admonition and withdrawal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 38:13",
+          "basis": "Abraham exposes powerless idols",
+          "note": "Genesis Rabbah has Abraham expose the powerlessness of Terah's idols, a Jewish interpretive counterpart to the page's Abraham asking his father why he worships things that cannot hear, see, or help before separating from them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.5.2",
+          "basis": "Pharaoh refuses Moses's demand",
+          "note": "Pharaoh's refusal to obey YHWH in response to Moses supplies the Hebrew Bible scene behind the page's Moses invitation to purification and Pharaoh's denial and turning away."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.66.24",
+          "basis": "undying worm and unquenched fire",
+          "note": "Isaiah's rebels are displayed where the worm does not die and fire is not quenched, giving a Hebrew Bible image of enduring punitive fire beside the great fire and non-ending condition developed on the page."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.9.48",
+          "basis": "undying worm and unquenched fire",
+          "note": "Jesus cites the undying worm and unquenched fire, closely paralleling the page's fate of entering great fire without death or life."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.46",
+          "basis": "eternal punishment and eternal life",
+          "note": "Jesus's final separation sends some to eternal punishment and the righteous to eternal life, supplying the page's polarized ultimate consequences in a judgment scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.11",
+          "basis": "no rest in unending torment",
+          "note": "The smoke of idol-worshipers' torment rises for ages and they have no rest day or night, a specifically relentless Christian image for the commentary's prolonged, unrelieved fire."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.16.26",
+          "basis": "worldly gain and forfeited life",
+          "note": "Jesus asks what profit lies in gaining the whole world while forfeiting life; it mirrors the page's claim that the shunner substitutes worldly life for a beneficial reminder and loses lasting good."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.2.17",
+          "basis": "passing world and enduring obedience",
+          "note": "The world and its desire pass away whereas the one doing God's will remains forever, directly accompanying the commentary's contrast of preferred worldly life with a better, more lasting hereafter."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.4",
+          "basis": "kindness leading to repentance",
+          "note": "God's kindness is meant to lead a person to repentance even when it is despised; this illuminates Moses's gentle invitation to Pharaoh to purify himself and the subsequent refusal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Heb.3.13",
+          "basis": "daily exhortation against hardening",
+          "note": "Hebrews reads the Psalm's today as a mandate for daily mutual exhortation so none is hardened by sin's deceit, making sustained reminder a guard against the refusal described on the page."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 3:8",
+          "basis": "forgetting a word of learning",
+          "note": "The page calls final blindness a response to signs forgotten; Avot treats forgetting even one learned word as spiritually grave while distinguishing involuntary difficulty, sharpening the moral rather than merely mnemonic sense of forgetting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.36.25",
+          "basis": "cleansing from idols",
+          "note": "God promises to cleanse Israel from uncleanness and idols; beside Abraham's plea to be kept from idols and the purified person in the page, it foregrounds divine protection as well as human response."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.4.8",
+          "basis": "draw near and purify",
+          "note": "Draw near to God, cleanse hands, and purify hearts joins nearness and self-purification, helping the page's spatial language of the side and its call to purification read together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.147",
+          "basis": "rising before dawn, hope in word",
+          "note": "The psalmist rises before dawn, cries for help, and hopes in God's word; it gives a particular biblical night posture joining departure from bed, prayer, and receptive hope rather than avoidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.13.20",
+          "basis": "wise and foolish companions",
+          "note": "Walking with the wise makes one wise while companionship with fools brings harm, lending moral force to the page's companion and alien-neighbor reading of what stands at a person's side."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 2:9",
+          "basis": "good or evil friend and neighbor",
+          "note": "Rabbi Yohanan's disciples name good friend and good neighbor as ways of good, and evil friend or neighbor as ways to avoid; this gives a rabbinic companion reading for the page's side as either guide or estranged neighbor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.15",
+          "basis": "life and good, death and evil",
+          "note": "Moses sets before Israel life and good versus death and evil, giving the page's extremes of ease and wretchedness a covenantal two-way framework."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.13",
+          "basis": "broad way to destruction",
+          "note": "Jesus's broad way leads to destruction and many enter it; the page's road image creates a specific comparison with an easy-seeming route terminating in ruin."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "narrow hard way to life",
+          "note": "Jesus calls the way leading to life narrow and hard and says few find it, creating an illuminating tension with the commentary's easy way and hard ascent."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Baruch 3:9",
+          "basis": "hear commandments of life",
+          "note": "Baruch calls Israel to hear commandments of life and learn wisdom, a deliberate address to the hearing recipient that fits the page's reminder received by one person and avoided by another."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Baruch 3:13",
+          "basis": "walking God's way and enduring peace",
+          "note": "Baruch says that walking in God's way would mean living in peace forever, closely paralleling the page's Adam passage where following divine guidance prevents wandering and wretchedness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.2.25",
+          "basis": "naked yet unashamed in Eden",
+          "note": "Genesis says the garden pair are naked yet unashamed, whereas the page's Qur'anic Adam passage defines Eden by absence of nakedness. The difference matters because the commentary treats nakedness as a concrete index of hardship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.7.13",
+          "basis": "Pharaoh hardened and not listening",
+          "note": "Pharaoh's heart is hardened and he does not listen to Moses and Aaron; set beside the page's emphasis on self-initiated avoidance, this biblical hardening language makes a relevant agency difference."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.20.14",
+          "basis": "lake of fire as second death",
+          "note": "Revelation calls the lake of fire the second death, while the page insists its fire's inhabitant neither dies nor lives; the different death language creates a careful counter-reading of final punishment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.29",
+          "basis": "hearing Moses and the prophets",
+          "note": "Abraham tells the rich man's brothers to hear Moses and the prophets; the page invokes Abraham and Moses around a warning that proximity to revelation does not compel reception."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.25",
+          "basis": "refusing the one who speaks",
+          "note": "Against the page's offered reminder and non-coercive teacher, Hebrews warns hearers not to refuse the one speaking; its contrast between an earthly warning and a heavenly address makes rejection of a delivered warning liable to judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.48.17",
+          "basis": "teaching for profit and leading",
+          "note": "The commentary calls the reminder beneficial and contrasts guidance with self-directed avoidance; Isaiah has YHWH teach his people for their profit and lead them in the way they should go."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.48.18",
+          "basis": "attention to commandments and peace",
+          "note": "Isaiah says attention to the commandments would have made peace like a river; this adds the foregone good to the commentary's claim that the wretched person treats benefit as harm."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.15",
+          "basis": "returning, rest, unwillingness",
+          "note": "YHWH offers salvation in returning and rest and strength in quietness and trust, then says the hearers were unwilling; it closely forms the page's offered guidance and personally chosen refusal."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.21",
+          "basis": "a word saying walk this way",
+          "note": "When the people turn right or left, their ears hear a word behind them saying this is the way and to walk in it; this is a precise alternative to passing the available reminder by on the road."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.6.9",
+          "basis": "hearing and seeing without reception",
+          "note": "Isaiah's commission tells the audience to keep hearing and seeing without understanding or perceiving, a direct prophetic scene of words and signs present yet unreceived."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.6.10",
+          "basis": "divinely dulled heart, ears, and eyes",
+          "note": "Isaiah is commanded to make heart dull, ears heavy, and eyes blind; the page instead narrates avoidance as the person's action and blindness as a later consequence, so the agency and sequence form a material counter-reading."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.8.18",
+          "basis": "eyes, ears, and remembering",
+          "note": "Jesus asks disciples whether they have eyes but do not see, ears but do not hear, and whether they do not remember; it closely joins the page's forgotten signs with its final blindness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.10.3",
+          "basis": "Pharaoh refuses to humble himself",
+          "note": "Moses and Aaron ask Pharaoh how long he will refuse to humble himself before YHWH, a direct biblical expression of the page's invitation to Pharaoh to purify himself and his refusal."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.9.34",
+          "basis": "Pharaoh makes his heart heavy",
+          "note": "After relief from the plague Pharaoh sins again and makes his heart heavy; this explicit self-hardening is a distinct counterpart to the page's self-directed turning from the warning."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.3.19",
+          "basis": "desire as god and earthly mind",
+          "note": "The page says the self-directed person makes desire into an idol; Paul describes people whose god is their belly, whose end is destruction, and whose minds are set on earthly things."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.26",
+          "basis": "deliberate sin after knowledge of truth",
+          "note": "Hebrews describes deliberate persistence in sin after receiving knowledge of the truth; it makes received revelation, rather than lack of exposure, the setting for culpable rejection."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.10.27",
+          "basis": "fearful judgment and consuming fire",
+          "note": "The fearful expectation of judgment and fire consuming adversaries gives the previous verse's rejection a concrete punitive outcome alongside the commentary's great fire."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.23.37",
+          "basis": "offered gathering, human unwillingness",
+          "note": "Jesus wishes to gather Jerusalem's children but says they were unwilling; it gives an offer of protection that does not coerce its addressees, like the page's reminder."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Lev.15.16",
+          "basis": "washing after seminal emission",
+          "note": "The page treats junub as temporary distance from prayer ended by washing; Leviticus requires a man with seminal emission to wash his whole body and remain unclean until evening, a close ritual analogue with a differently framed sacred boundary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.15.31",
+          "basis": "separation from impurity and sanctuary",
+          "note": "Leviticus orders Israel to be kept separate from impurity lest it defile the tabernacle and bring death; it supplies the cultic-boundary dimension beside the page's temporary washing before return to prayer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.73.28",
+          "basis": "nearness of God as good",
+          "note": "The page reads its side-language as regret over what was neglected in God's nearness; the psalmist calls the nearness of God his good, giving that spatial claim a positive biblical pole."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phil.2.12",
+          "basis": "working salvation with fear and trembling",
+          "note": "The commentary treats remembering, avoidance, and purification as personally enacted forms and joins purification to fear; Paul commands believers to work out salvation with fear and trembling."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.10.52",
+          "basis": "blind seeker restored and following the way",
+          "note": "Unlike the page's unnamed blind visitor, Mark's Bartimaeus receives sight and follows Jesus on the way; it is an indirect but specific counterpart to the blind person who comes toward the teacher rather than avoiding the offered guidance."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "5e3d94d020e71b7b19fc4e812de7fc2d343d8d7d4f6ea9f0b3023ee8ad5b9488",
+    "followup_sha256": "5e3d94d020e71b7b19fc4e812de7fc2d343d8d7d4f6ea9f0b3023ee8ad5b9488"
+  },
+  "consolidation_error": null,
+  "list_sha256": "c406daf80ff09cc445662fb9b7549c260f739c971c8ef63d3f37bfc729dc1438",
+  "followup_delivery": [
+    {
+      "call_id": "call_WhZALTGFfjA5U4Nt04rQ8Wre",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 976114,
+    "cached_input_tokens": 874752,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 43244,
+    "reasoning_output_tokens": 36733,
+    "total_tokens": 1019358
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:30:33.910Z",
+  "artifacts": {
+    "started.json": "ef74e05a64278623f60d77f1db5f4c7771d1376af946e25be13e0dce82f621c6",
+    "input.json": "1813a616b75976d7015e4b9aab721ea783fe5decb9ec97bc6dda4c8b8d4e3f9d",
+    "prompt.md": "800e3c9afce3ce5d92ca389a1d8752b2eb0b7415171a3b235786de3dda1eebd1",
+    "package.md": "349f96804598ea5b51891a707d5ebcdaec469cfe0b99260c17d83dba52a63cc8",
+    "spawn.md": "dd1e45aa9ca368dbf872c4894f9fc078d44d34caf6a06a54c520433f13362914",
+    "followup.txt": "beb0c1337c94fab3ff704adb40c2957b278fe2656f488e4a821a12464694e51f",
+    "turn1.json": "a5d1513dcfdfd20fe09ebc7894dcb98a951c94a820351e6ecd1d4247ce1e25c1",
+    "turn1.list.tsv": "0f4e63041c6d353dfe9feb8a97393bda1b4e7df485a12ab3c02efbb49901b4ae",
+    "followup.tsv": "5e3d94d020e71b7b19fc4e812de7fc2d343d8d7d4f6ea9f0b3023ee8ad5b9488",
+    "list.tsv": "c406daf80ff09cc445662fb9b7549c260f739c971c8ef63d3f37bfc729dc1438",
+    "consolidation.json": "c52d0be8f2508204e8ab278d22bfd0ab3457d6be00fc6507a9c7a008323f3d8f",
+    "validation.json": "aac7bcef634ef59cd7aba38c60a708a18a640233e01fada0f3921adb93bf2591",
+    "proposal_validation.json": "384af4730d8b4bd6a7623c54bd432ba036835c310fae3dc99b819e1ab4ba11fa",
+    "tool_calls.json": "5095e632fd8f100cd2c3dab26de200f7ff418728ff08eb3851153a041c503bca",
+    "session.json": "da9453d5f871892618eb014f7afabc3a2ecbaf3eacd9216e420de27a0050bdbf",
+    "session.events.jsonl": "caecb66e510d83be25fe29693abf26922b6e2ede87d4f71e62601148648535f9"
+  }
+}

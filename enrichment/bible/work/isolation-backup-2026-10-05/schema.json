@@ -1,0 +1,1608 @@
+{
+  "schema": "zenginlestirme",
+  "version": "3.3",
+  "updated": "2026-10-05",
+  "note": "Machine keys and values are ASCII-folded Turkish. `label` gives display text per language (tr with diacritics, en, de); `def` is the definition agents follow. The validator, the renderer and the reader app read this file; SCHEMA.md explains the rules around it.",
+  "languages": [
+    "tr",
+    "en",
+    "de"
+  ],
+  "block": {
+    "syntax": "one physical line: {key:value, key:\"quoted value\", ...}; enum values unquoted, everything else double-quoted; multiple values in one field are pipe-separated inside quotes",
+    "required": [
+      "id",
+      "gelenek",
+      "tur",
+      "ayet",
+      "islev",
+      "iliski",
+      "durum",
+      "kat",
+      "metin",
+      "kaynak"
+    ],
+    "id_pattern": "Islamic: S<surah, 3 digits>-<kod of tur>-<NNN>, e.g. S107-HDS-001. Bible: S<sss>-<TEV for tevrat, INC for incil>-<kod of tur>-<NNN>, e.g. S001-TEV-PRL-001 or S001-INC-MTF-001. Unique across all layers of a page.",
+    "word_limits": {
+      "temel": 80,
+      "ek": 80,
+      "arastirma": 120
+    },
+    "placement": "every record carries `paragraf`, the number of a prose paragraph of its page's base (numbered from 1 as in v16's augment; headings and Kaynaklar lines unnumbered), and `capa`, at least three exact words of that paragraph confirming the number. The block is rendered right after that paragraph. There are no end-of-page blocks: a record whose number is out of range or whose capa is not in that paragraph is dropped. Both passes number the same frozen base, so their blocks merge by paragraph."
+  },
+  "fields": {
+    "id": {
+      "label": {
+        "tr": "Kimlik",
+        "en": "ID",
+        "de": "Kennung"
+      },
+      "def": "unique within the page"
+    },
+    "gelenek": {
+      "label": {
+        "tr": "Gelenek",
+        "en": "Tradition",
+        "de": "Tradition"
+      },
+      "def": "which literature the block belongs to; one per block. The Islamic pass stamps islami (the script adds it); in the Bible pass each block is tevrat or incil",
+      "enum": "gelenek"
+    },
+    "tur": {
+      "label": {
+        "tr": "Tür",
+        "en": "Type",
+        "de": "Art"
+      },
+      "def": "what kind of information the block carries",
+      "enum": "tur"
+    },
+    "ayet": {
+      "label": {
+        "tr": "Âyet",
+        "en": "Verse",
+        "de": "Vers"
+      },
+      "def": "the ayah or range of this page the block is about: \"107:3\", \"107:1-3\"; several with |. Other passages the block cites go in metin and kaynak, not here"
+    },
+    "islev": {
+      "label": {
+        "tr": "İşlev",
+        "en": "Function",
+        "de": "Funktion"
+      },
+      "def": "why the block stands at this point of the page",
+      "enum": "islev"
+    },
+    "iliski": {
+      "label": {
+        "tr": "İlişki",
+        "en": "Relation",
+        "de": "Bezug"
+      },
+      "def": "how the cited source relates to this ayah",
+      "enum": "iliski"
+    },
+    "durum": {
+      "label": {
+        "tr": "Durum",
+        "en": "Status",
+        "de": "Status"
+      },
+      "def": "epistemic status of the block's claim relative to its source",
+      "enum": "durum"
+    },
+    "kat": {
+      "label": {
+        "tr": "Katman",
+        "en": "Layer",
+        "de": "Ebene"
+      },
+      "def": "display layer",
+      "enum": "kat"
+    },
+    "metin": {
+      "label": {
+        "tr": "Metin",
+        "en": "Text",
+        "de": "Text"
+      },
+      "def": "the block's prose, in the page language, within the word limit of its layer"
+    },
+    "kaynak": {
+      "label": {
+        "tr": "Kaynak",
+        "en": "Source",
+        "de": "Quelle"
+      },
+      "def": "source locators, pipe-separated: <ID>:<locator> exactly as in the corpus (TAB:107:3, MUSLIM:2985, ELMALILI:107:2, LISAN:دعع), or \"hafiza\" for model memory; Bible locators use OSIS book abbreviations (WLC:Gen.22.2, SBLGNT:Matt.6.5)"
+    },
+    "guc": {
+      "label": {
+        "tr": "Güç",
+        "en": "Strength",
+        "de": "Stärke"
+      },
+      "def": "strength of a connection to the project's reading",
+      "enum": "guc",
+      "required_for": {
+        "tur": [
+          "yenilik",
+          "elenen",
+          "ayet_ayet",
+          "vucuh"
+        ],
+        "islev": [
+          "oncul"
+        ]
+      }
+    },
+    "klasik_tanik": {
+      "label": {
+        "tr": "Klasik tanıklık",
+        "en": "Classical attestation",
+        "de": "Klassische Bezeugung"
+      },
+      "def": "how far a project finding is attested in the checked sources; on a yenilik block, or on the oncul block of an attested finding",
+      "enum": "klasik_tanik",
+      "required_for": {
+        "tur": [
+          "yenilik"
+        ]
+      }
+    },
+    "taranan": {
+      "label": {
+        "tr": "Taranan kaynaklar",
+        "en": "Sources checked",
+        "de": "Geprüfte Quellen"
+      },
+      "def": "corpus IDs actually searched, pipe-separated",
+      "required_for": {
+        "tur": [
+          "yenilik"
+        ]
+      }
+    },
+    "tarama": {
+      "label": {
+        "tr": "Tarama kapsamı",
+        "en": "Search scope",
+        "de": "Suchumfang"
+      },
+      "def": "whether the check ran over the per-ayah slice only or over whole-book texts",
+      "enum": "tarama",
+      "required_for": {
+        "tur": [
+          "yenilik"
+        ]
+      }
+    },
+    "derece": {
+      "label": {
+        "tr": "Derece",
+        "en": "Grade",
+        "de": "Grad"
+      },
+      "def": "hadith/report grade; hadis blocks accept only sahih",
+      "enum": "derece",
+      "required_for": {
+        "tur": [
+          "hadis",
+          "esbab"
+        ]
+      }
+    },
+    "derece_veren": {
+      "label": {
+        "tr": "Derece veren",
+        "en": "Graded by",
+        "de": "Bewertet von"
+      },
+      "def": "who grades it: Buhârî | Müslim for the Sahihayn, named graders for other books (as the corpus records them); empty only with derece:degerlendirilmedi"
+    },
+    "tarihsellik": {
+      "label": {
+        "tr": "Tarihsellik",
+        "en": "Historicity",
+        "de": "Historizität"
+      },
+      "def": "historical standing of an event or chronology claim",
+      "enum": "tarihsellik",
+      "required_for": {
+        "tur": [
+          "esbab",
+          "nuzul"
+        ]
+      }
+    },
+    "kiraat_turu": {
+      "label": {
+        "tr": "Kıraat türü",
+        "en": "Reading type",
+        "de": "Lesart-Typ"
+      },
+      "def": "standing of a reading",
+      "enum": "kiraat_turu",
+      "required_for": {
+        "tur": [
+          "kiraat"
+        ]
+      }
+    },
+    "sozluk": {
+      "label": {
+        "tr": "Sözlük",
+        "en": "Lexicon",
+        "de": "Lexikon"
+      },
+      "def": "which lexicon(s) the observation comes from, pipe-separated corpus IDs; PROJE = the project dictionary (../dictionary via quran-data); modern Arabic dictionaries only inside anlam_tarihi",
+      "required_for": {
+        "tur": [
+          "lugat"
+        ]
+      }
+    },
+    "mutercim": {
+      "label": {
+        "tr": "Mütercim",
+        "en": "Translator",
+        "de": "Übersetzer"
+      },
+      "def": "meal source ID (MEAL-OKUYAN), several with |, or \"ortak\" for a loss shared across the panel",
+      "required_for": {
+        "tur": [
+          "meal"
+        ]
+      }
+    },
+    "terim": {
+      "label": {
+        "tr": "Terim",
+        "en": "Term",
+        "de": "Begriff"
+      },
+      "def": "the Arabic word or expression in question",
+      "required_for": {
+        "tur": [
+          "meal",
+          "vucuh",
+          "anlam_tarihi"
+        ]
+      }
+    },
+    "kayip": {
+      "label": {
+        "tr": "Kayıp türü",
+        "en": "Loss type",
+        "de": "Verlustart"
+      },
+      "def": "what a translation loses, pipe-separated",
+      "enum": "kayip",
+      "required_for": {
+        "tur": [
+          "meal"
+        ]
+      }
+    },
+    "yon": {
+      "label": {
+        "tr": "Yön",
+        "en": "Direction",
+        "de": "Richtung"
+      },
+      "def": "loss or gain; a relay step can be both against different poles",
+      "enum": "yon"
+    },
+    "kiyas": {
+      "label": {
+        "tr": "Kıyas",
+        "en": "Compared with",
+        "de": "Verglichen mit"
+      },
+      "def": "the pole a meal is judged against: the Arabic, or the intermediate text it was translated from",
+      "enum": "kiyas"
+    },
+    "taban": {
+      "label": {
+        "tr": "Taban alıntısı",
+        "en": "Base quote",
+        "de": "Basiszitat"
+      },
+      "def": "exact short quote of the base text being corrected; must occur verbatim in the base",
+      "required_for": {
+        "tur": [
+          "duzeltme"
+        ]
+      }
+    },
+    "hata": {
+      "label": {
+        "tr": "Hata türü",
+        "en": "Error type",
+        "de": "Fehlerart"
+      },
+      "def": "kind of error in the base",
+      "enum": "hata",
+      "required_for": {
+        "tur": [
+          "duzeltme"
+        ]
+      }
+    },
+    "alim": {
+      "label": {
+        "tr": "Âlim",
+        "en": "Scholar",
+        "de": "Gelehrter"
+      },
+      "def": "named authority the block reports"
+    },
+    "ravi": {
+      "label": {
+        "tr": "Râvi",
+        "en": "Transmitter",
+        "de": "Überlieferer"
+      },
+      "def": "transmitter of a report"
+    },
+    "koken": {
+      "label": {
+        "tr": "Köken",
+        "en": "Origin",
+        "de": "Ursprung"
+      },
+      "def": "earliest traceable source of a report"
+    },
+    "tekrar": {
+      "label": {
+        "tr": "Tekrarlayanlar",
+        "en": "Repeated in",
+        "de": "Wiederholt in"
+      },
+      "def": "later works repeating the same report unchanged, pipe-separated IDs"
+    },
+    "gerekce": {
+      "label": {
+        "tr": "Gerekçe",
+        "en": "Reason",
+        "de": "Begründung"
+      },
+      "def": "reason for a rejection or a grade"
+    },
+    "not": {
+      "label": {
+        "tr": "Not",
+        "en": "Note",
+        "de": "Anmerkung"
+      },
+      "def": "short technical note"
+    },
+    "bag": {
+      "label": {
+        "tr": "Bağ",
+        "en": "Connection claim",
+        "de": "Verbindungsanspruch"
+      },
+      "def": "what the block claims about the link between the Qur'an and the other text; a parallel is not a dependence, so the weakest fitting value is used",
+      "enum": "bag",
+      "required_for": {
+        "gelenek": [
+          "tevrat",
+          "incil"
+        ]
+      }
+    },
+    "tarihleme": {
+      "label": {
+        "tr": "Tarihleme",
+        "en": "Dating",
+        "de": "Datierung"
+      },
+      "def": "date of the cited text relative to the Qur'an (as the scholarship dates it)",
+      "enum": "tarihleme",
+      "required_for": {
+        "gelenek": [
+          "tevrat",
+          "incil"
+        ]
+      }
+    },
+    "nusha": {
+      "label": {
+        "tr": "Nüsha",
+        "en": "Text witness",
+        "de": "Textzeuge"
+      },
+      "def": "the witness or text family quoted; readings differ, and the Qur'an's closest match may be the Syriac or Greek, not the Hebrew. Pipe-separated when several are compared",
+      "enum": "nusha",
+      "required_for": {
+        "gelenek": [
+          "tevrat",
+          "incil"
+        ]
+      }
+    }
+  },
+  "enums": {
+    "gelenek": {
+      "islami": {
+        "label": {
+          "tr": "İslâmî literatür",
+          "en": "Islamic literature",
+          "de": "Islamische Literatur"
+        },
+        "def": "the Islamic-literature pass: tafsir, hadith, lexica, meals and the rest of the main corpus"
+      },
+      "tevrat": {
+        "label": {
+          "tr": "Tevrat ve Yahudi geleneği",
+          "en": "Hebrew Bible and Jewish tradition",
+          "de": "Hebräische Bibel und jüdische Tradition"
+        },
+        "def": "the Hebrew Bible in any witness (Masoretic, Septuagint, Peshitta, Targum), the Psalms (Zebur) included; Jewish pseudepigrapha; Mishnah, Talmud, midrash"
+      },
+      "incil": {
+        "label": {
+          "tr": "İncil ve Hristiyan geleneği",
+          "en": "New Testament and Christian tradition",
+          "de": "Neues Testament und christliche Tradition"
+        },
+        "def": "the New Testament in any witness (Greek, Peshitta, Diatessaron); Christian apocrypha (Protevangelium of James, Infancy Gospels); Church Fathers; Syriac homilies. A Hebrew Bible text read through Christian exegesis is two blocks: the text (tevrat), its Christian reading (incil)"
+      }
+    },
+    "tur": {
+      "tefsir_rivayet": {
+        "kod": "TRV",
+        "label": {
+          "tr": "Rivâyet tefsiri",
+          "en": "Transmitted exegesis",
+          "de": "Überlieferte Exegese"
+        },
+        "def": "explanations of Companions/Successors as transmitted (Mujāhid, Muqātil, Ṭabarī's aqwāl, al-Durr al-manthūr)",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "tefsir_dirayet": {
+        "kod": "TDR",
+        "label": {
+          "tr": "Dirâyet tefsiri",
+          "en": "Analytical exegesis",
+          "de": "Analytische Exegese"
+        },
+        "def": "an exegete's own analysis: language, reasoning, theology (Zamakhsharī, Rāzī, Ibn ʿĀshūr, Elmalılı, Kur'an Yolu)",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "isari": {
+        "kod": "ISR",
+        "label": {
+          "tr": "İşârî tefsir",
+          "en": "Allusive (Sufi) reading",
+          "de": "Allusive (sufische) Deutung"
+        },
+        "def": "ishārī readings (Qushayrī, Sulamī, Tustarī, Bursevî); labelled as such, never as dirayet",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "nazm": {
+        "kod": "NZM",
+        "label": {
+          "tr": "Nazım",
+          "en": "Coherence",
+          "de": "Kohärenz"
+        },
+        "def": "sequence, adjacency, surah unity, surah-to-surah relation; structural form (ring, symmetry, rhyme groups) with islev:yapi",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "nuzul": {
+        "kod": "NZL",
+        "label": {
+          "tr": "Nüzul",
+          "en": "Revelation history",
+          "de": "Offenbarungsgeschichte"
+        },
+        "def": "Makkī/Madanī, revelation order and chronology lists (Itqān, Ibn ʿĀshūr; Nöldeke, Neuwirth reported beside them)",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "esbab": {
+        "kod": "ESB",
+        "label": {
+          "tr": "Esbâb-ı nüzul",
+          "en": "Occasion of revelation",
+          "de": "Offenbarungsanlass"
+        },
+        "def": "isnād-bearing occasion reports of any grade, each with derece and tarihsellik shown",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "hadis": {
+        "kod": "HDS",
+        "label": {
+          "tr": "Hadis",
+          "en": "Hadith",
+          "de": "Hadith"
+        },
+        "def": "Prophetic hadith; sahih only (Bukhārī, Muslim, or sunan reports every named grader calls sahih)",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "kiraat": {
+        "kod": "KRT",
+        "label": {
+          "tr": "Kıraat",
+          "en": "Reading",
+          "de": "Lesart"
+        },
+        "def": "canonical and non-canonical readings and their linguistic justification (ḥujja)",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "lugat": {
+        "kod": "LGT",
+        "label": {
+          "tr": "Lugat",
+          "en": "Lexicon",
+          "de": "Lexikon"
+        },
+        "def": "synchronic lexical evidence: senses, branches, the lexica's own wording and shawāhid",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "vucuh": {
+        "kod": "VCH",
+        "label": {
+          "tr": "Vücuh ve nezâir",
+          "en": "Sense inventory",
+          "de": "Bedeutungsinventar"
+        },
+        "def": "the senses a word takes across the Qur'an, from the wujūh wa-naẓāʾir books (Muqātil, Dāmghānī, Ibn al-Jawzī) and the usage table",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "nahiv": {
+        "kod": "NHV",
+        "label": {
+          "tr": "Nahiv",
+          "en": "Grammar",
+          "de": "Grammatik"
+        },
+        "def": "syntax, iʿrāb, morphology that bears on meaning",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "belagat": {
+        "kod": "BLG",
+        "label": {
+          "tr": "Belâgat",
+          "en": "Rhetoric",
+          "de": "Rhetorik"
+        },
+        "def": "rhetoric, majāz, imagery, iʿjāz theory (Zamakhsharī, Jurjānī, Asās)",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "ayet_ayet": {
+        "kod": "AYT",
+        "label": {
+          "tr": "Âyetle tefsir",
+          "en": "Qur'an by Qur'an",
+          "de": "Koran durch Koran"
+        },
+        "def": "a Qur'anic passage that explains, extends or contrasts this one",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "anlam_tarihi": {
+        "kod": "ANT",
+        "label": {
+          "tr": "Anlam tarihi",
+          "en": "Semantic history",
+          "de": "Bedeutungsgeschichte"
+        },
+        "def": "diachronic change only: pre-Qur'anic → Qur'anic → later Arabic → Turkish loanword drift",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "tarihi_baglam": {
+        "kod": "TBG",
+        "label": {
+          "tr": "Tarihî bağlam",
+          "en": "Historical setting",
+          "de": "Historischer Kontext"
+        },
+        "def": "sourced setting: sīra, Mecca, material culture, institutions",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "fikih": {
+        "kod": "FKH",
+        "label": {
+          "tr": "Fıkıh",
+          "en": "Law",
+          "de": "Recht"
+        },
+        "def": "legal readings; optional",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "kelam": {
+        "kod": "KLM",
+        "label": {
+          "tr": "Kelâm",
+          "en": "Theology",
+          "de": "Theologie"
+        },
+        "def": "theological debate; optional",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "meal": {
+        "kod": "MEL",
+        "label": {
+          "tr": "Meal incelemesi",
+          "en": "Translation review",
+          "de": "Übersetzungsprüfung"
+        },
+        "def": "how Turkish (and relay) translations render a term: what they keep, lose or add",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "modern": {
+        "kod": "MDR",
+        "label": {
+          "tr": "Modern çalışma",
+          "en": "Modern scholarship",
+          "de": "Moderne Forschung"
+        },
+        "def": "modern Islamic and Western scholarship, kept apart from classical attestation",
+        "gelenek": [
+          "islami",
+          "tevrat",
+          "incil"
+        ]
+      },
+      "yenilik": {
+        "kod": "YNL",
+        "label": {
+          "tr": "Yenilik denetimi",
+          "en": "Novelty audit",
+          "de": "Neuheitsprüfung"
+        },
+        "def": "how far a finding of the base is attested, written only when no antecedent was found (klasik_tanik bulunamadi or yapitaslari); an attested finding carries klasik_tanik on its oncul block. At most one per paragraph; always kat:arastirma",
+        "gelenek": [
+          "islami"
+        ]
+      },
+      "paralel": {
+        "kod": "PRL",
+        "label": {
+          "tr": "Paralel anlatı",
+          "en": "Parallel narrative",
+          "de": "Parallelerzählung"
+        },
+        "def": "the same figure, scene or story told in the other scripture (Abraham's sacrifice, Joseph, the sleepers)",
+        "gelenek": [
+          "tevrat",
+          "incil"
+        ]
+      },
+      "motif": {
+        "kod": "MTF",
+        "label": {
+          "tr": "Ortak motif",
+          "en": "Shared motif",
+          "de": "Gemeinsames Motiv"
+        },
+        "def": "a shared image, formula or ethical motif without a shared story (praying to be seen: Mt 6:5 and 107:6)",
+        "gelenek": [
+          "tevrat",
+          "incil"
+        ]
+      },
+      "karsi_anlati": {
+        "kod": "KRA",
+        "label": {
+          "tr": "Karşı anlatı",
+          "en": "Counter-version",
+          "de": "Gegenfassung"
+        },
+        "def": "the Qur'an tells it differently, corrects or answers it (Mary, the crucifixion, the calf); the difference is the point",
+        "gelenek": [
+          "tevrat",
+          "incil"
+        ]
+      },
+      "soydas": {
+        "kod": "SYD",
+        "label": {
+          "tr": "Soydaş kelime",
+          "en": "Cognate",
+          "de": "Kognat"
+        },
+        "def": "a Hebrew, Aramaic or Syriac cognate of the Qur'anic word and how the other scripture uses it; loan claims only with named scholarship",
+        "gelenek": [
+          "tevrat",
+          "incil"
+        ]
+      },
+      "yorum_gelenegi": {
+        "kod": "YGL",
+        "label": {
+          "tr": "Yorum geleneği",
+          "en": "Exegetical tradition",
+          "de": "Auslegungstradition"
+        },
+        "def": "Jewish or Christian interpretation of the parallel text (Targum, midrash, Talmud; Church Fathers, Syriac homilies such as Ephrem and Jacob of Serugh)",
+        "gelenek": [
+          "tevrat",
+          "incil"
+        ]
+      },
+      "elenen": {
+        "kod": "ELN",
+        "label": {
+          "tr": "Elenen aday",
+          "en": "Rejected candidate",
+          "de": "Verworfener Kandidat"
+        },
+        "def": "a connection considered and rejected, kept for audit",
+        "gelenek": [
+          "islami",
+          "tevrat",
+          "incil"
+        ]
+      },
+      "kaynak_notu": {
+        "kod": "KNT",
+        "label": {
+          "tr": "Kaynak notu",
+          "en": "Source note",
+          "de": "Quellenhinweis"
+        },
+        "def": "source criticism: provenance, attribution, edition, isnād caveats",
+        "gelenek": [
+          "islami",
+          "tevrat",
+          "incil"
+        ]
+      },
+      "yontem": {
+        "kod": "YNT",
+        "label": {
+          "tr": "Yöntem notu",
+          "en": "Method note",
+          "de": "Methodenhinweis"
+        },
+        "def": "a methodological limit or distinction the reader needs here",
+        "gelenek": [
+          "islami",
+          "tevrat",
+          "incil"
+        ]
+      },
+      "duzeltme": {
+        "kod": "DZT",
+        "label": {
+          "tr": "Düzeltme",
+          "en": "Erratum",
+          "de": "Berichtigung"
+        },
+        "def": "an error in the frozen base: wrong label, quotation, ayah number, fact or rendering; also logged to errata.jsonl",
+        "gelenek": [
+          "islami",
+          "tevrat",
+          "incil"
+        ]
+      }
+    },
+    "islev": {
+      "dayanak": {
+        "label": {
+          "tr": "Dayanak",
+          "en": "Anchor",
+          "de": "Anker"
+        },
+        "def": "the received contextual meaning"
+      },
+      "erken_tanik": {
+        "label": {
+          "tr": "Erken tanık",
+          "en": "Early witness",
+          "de": "Früher Zeuge"
+        },
+        "def": "an early attestation of an interpretation or sense"
+      },
+      "aciklama": {
+        "label": {
+          "tr": "Açıklama",
+          "en": "Clarification",
+          "de": "Erläuterung"
+        },
+        "def": "clarifies wording, grammar, referent or a distinction"
+      },
+      "destek": {
+        "label": {
+          "tr": "Destek",
+          "en": "Corroboration",
+          "de": "Bestätigung"
+        },
+        "def": "independently supports a reading already on the page"
+      },
+      "oncul": {
+        "label": {
+          "tr": "Öncül",
+          "en": "Antecedent",
+          "de": "Vorläufer"
+        },
+        "def": "a source that already states (part of) a finding of the base"
+      },
+      "itiraz": {
+        "label": {
+          "tr": "İtiraz",
+          "en": "Counter-evidence",
+          "de": "Gegenbeleg"
+        },
+        "def": "an argument that a reading of the base cannot hold here (grammar, near-synonymy, root identity, reading); not a mere preference"
+      },
+      "tercih": {
+        "label": {
+          "tr": "Tercih",
+          "en": "Preference",
+          "de": "Präferenz"
+        },
+        "def": "a source's stated preference among readings (\"the correct view is X\"); reported, not adjudicated"
+      },
+      "tasnif": {
+        "label": {
+          "tr": "Tasnif",
+          "en": "Enumeration",
+          "de": "Aufzählung"
+        },
+        "def": "a source lists several senses without choosing (Māwardī, Ibn al-Jawzī)"
+      },
+      "ihtilaf": {
+        "label": {
+          "tr": "İhtilaf",
+          "en": "Disagreement",
+          "de": "Dissens"
+        },
+        "def": "a genuine disagreement among sources"
+      },
+      "anlam_alani": {
+        "label": {
+          "tr": "Anlam alanı",
+          "en": "Semantic range",
+          "de": "Bedeutungsbreite"
+        },
+        "def": "several live senses of a word or expression"
+      },
+      "gelisim": {
+        "label": {
+          "tr": "Gelişim",
+          "en": "Development",
+          "de": "Entwicklung"
+        },
+        "def": "how an interpretation or sense changed over time"
+      },
+      "sinir": {
+        "label": {
+          "tr": "Sınır",
+          "en": "Constraint",
+          "de": "Grenze"
+        },
+        "def": "what the ayah or a reading does not say; prevents an overreading"
+      },
+      "karsit": {
+        "label": {
+          "tr": "Karşıt",
+          "en": "Contrast",
+          "de": "Kontrast"
+        },
+        "def": "an opposite or counter-scene that sharpens the reading"
+      },
+      "sonuc": {
+        "label": {
+          "tr": "Sonuç",
+          "en": "Consequence",
+          "de": "Konsequenz"
+        },
+        "def": "why a distinction matters for understanding"
+      },
+      "fazilet": {
+        "label": {
+          "tr": "Fazilet",
+          "en": "Merit",
+          "de": "Vorzug"
+        },
+        "def": "reports on the merit of a surah or ayah"
+      },
+      "yapi": {
+        "label": {
+          "tr": "Yapı",
+          "en": "Structure",
+          "de": "Struktur"
+        },
+        "def": "formal structure: ring, symmetry, rhyme groups, parallelism"
+      }
+    },
+    "iliski": {
+      "dogrudan": {
+        "label": {
+          "tr": "Doğrudan",
+          "en": "Direct",
+          "de": "Direkt"
+        },
+        "def": "the source explicitly treats this ayah or phrase (Bible pass: a text the scholarship reads as directly addressed by this ayah)"
+      },
+      "tematik": {
+        "label": {
+          "tr": "Tematik",
+          "en": "Thematic",
+          "de": "Thematisch"
+        },
+        "def": "same theme, not an explanation of this ayah"
+      },
+      "lafzi": {
+        "label": {
+          "tr": "Lafzî",
+          "en": "Lexical",
+          "de": "Lexikalisch"
+        },
+        "def": "linked through the same word, root or expression"
+      },
+      "yapisal": {
+        "label": {
+          "tr": "Yapısal",
+          "en": "Structural",
+          "de": "Strukturell"
+        },
+        "def": "linked through position, sequence or form"
+      },
+      "karsilastirmali": {
+        "label": {
+          "tr": "Karşılaştırmalı",
+          "en": "Comparative",
+          "de": "Vergleichend"
+        },
+        "def": "a comparison across sources, readings or translations"
+      }
+    },
+    "durum": {
+      "acik": {
+        "label": {
+          "tr": "Açık",
+          "en": "Explicit",
+          "de": "Explizit"
+        },
+        "def": "stated in the cited source"
+      },
+      "aktarilan": {
+        "label": {
+          "tr": "Aktarılan",
+          "en": "Reported",
+          "de": "Berichtet"
+        },
+        "def": "the source transmits it; its truth is not established"
+      },
+      "tartismali": {
+        "label": {
+          "tr": "Tartışmalı",
+          "en": "Disputed",
+          "de": "Umstritten"
+        },
+        "def": "competing reports or positions"
+      },
+      "cikarim": {
+        "label": {
+          "tr": "Çıkarım",
+          "en": "Inferred",
+          "de": "Erschlossen"
+        },
+        "def": "inferred from evidence, not stated"
+      },
+      "yorum": {
+        "label": {
+          "tr": "Yorum",
+          "en": "Interpretive",
+          "de": "Interpretativ"
+        },
+        "def": "an interpretive synthesis (the base's or the block's)"
+      },
+      "degerlendirilmedi": {
+        "label": {
+          "tr": "Değerlendirilmedi",
+          "en": "Not assessed",
+          "de": "Nicht geprüft"
+        },
+        "def": "not checked against a source; required for model memory"
+      }
+    },
+    "kat": {
+      "temel": {
+        "label": {
+          "tr": "Temel",
+          "en": "Core",
+          "de": "Kern"
+        },
+        "def": "shown by default: what an advanced reader should see first at that point"
+      },
+      "ek": {
+        "label": {
+          "tr": "Ek",
+          "en": "Extended",
+          "de": "Erweitert"
+        },
+        "def": "shown by default: supporting detail"
+      },
+      "arastirma": {
+        "label": {
+          "tr": "Araştırma",
+          "en": "Research",
+          "de": "Forschung"
+        },
+        "def": "hidden by default (the reader opens it): audit trail, novelty detail, rejected candidates, technical source criticism"
+      }
+    },
+    "guc": {
+      "dogrudan": {
+        "label": {
+          "tr": "Doğrudan",
+          "en": "Direct",
+          "de": "Direkt"
+        },
+        "def": "direct support for the reading in context"
+      },
+      "guclu": {
+        "label": {
+          "tr": "Güçlü",
+          "en": "Strong",
+          "de": "Stark"
+        },
+        "def": "a strongly illuminating link that is not the primary meaning"
+      },
+      "ikincil": {
+        "label": {
+          "tr": "İkincil",
+          "en": "Resonant",
+          "de": "Resonant"
+        },
+        "def": "a legitimate secondary resonance that keeps the primary meaning intact"
+      },
+      "zayif": {
+        "label": {
+          "tr": "Zayıf",
+          "en": "Weak",
+          "de": "Schwach"
+        },
+        "def": "possible but thinly constrained"
+      },
+      "reddedildi": {
+        "label": {
+          "tr": "Reddedildi",
+          "en": "Rejected",
+          "de": "Verworfen"
+        },
+        "def": "considered and rejected"
+      }
+    },
+    "klasik_tanik": {
+      "acik": {
+        "label": {
+          "tr": "Açık",
+          "en": "Explicit",
+          "de": "Explizit"
+        },
+        "def": "the same connection is stated in a checked source"
+      },
+      "kismi": {
+        "label": {
+          "tr": "Kısmî",
+          "en": "Partial",
+          "de": "Teilweise"
+        },
+        "def": "an important part is stated; the base adds the rest"
+      },
+      "yapitaslari": {
+        "label": {
+          "tr": "Yapıtaşları",
+          "en": "Building blocks only",
+          "de": "Nur Bausteine"
+        },
+        "def": "the ingredients are attested separately; the combination is not"
+      },
+      "bulunamadi": {
+        "label": {
+          "tr": "Bulunamadı",
+          "en": "Not found",
+          "de": "Nicht gefunden"
+        },
+        "def": "no parallel in the listed sources; never an absolute claim"
+      }
+    },
+    "tarama": {
+      "dilim": {
+        "label": {
+          "tr": "Âyet dilimi",
+          "en": "Verse slice",
+          "de": "Versausschnitt"
+        },
+        "def": "only the per-ayah texts of this surah were searched; a negative result is weak"
+      },
+      "tam": {
+        "label": {
+          "tr": "Tam metin",
+          "en": "Whole texts",
+          "de": "Volltexte"
+        },
+        "def": "whole-book texts were searched across the Qur'an"
+      }
+    },
+    "derece": {
+      "sahih": {
+        "label": {
+          "tr": "Sahih",
+          "en": "Sound",
+          "de": "Gesund"
+        },
+        "def": "sahih by the named authority"
+      },
+      "hasan": {
+        "label": {
+          "tr": "Hasen",
+          "en": "Good",
+          "de": "Gut"
+        },
+        "def": "esbab only"
+      },
+      "zayif": {
+        "label": {
+          "tr": "Zayıf",
+          "en": "Weak",
+          "de": "Schwach"
+        },
+        "def": "esbab only"
+      },
+      "mevzu": {
+        "label": {
+          "tr": "Mevzû",
+          "en": "Fabricated",
+          "de": "Erfunden"
+        },
+        "def": "esbab only"
+      },
+      "ihtilafli": {
+        "label": {
+          "tr": "İhtilaflı",
+          "en": "Graders disagree",
+          "de": "Uneinheitlich"
+        },
+        "def": "esbab only; name the graders"
+      },
+      "degerlendirilmedi": {
+        "label": {
+          "tr": "Değerlendirilmedi",
+          "en": "Not graded",
+          "de": "Nicht bewertet"
+        },
+        "def": "esbab only; no grade found"
+      }
+    },
+    "tarihsellik": {
+      "sabit": {
+        "label": {
+          "tr": "Sabit",
+          "en": "Established",
+          "de": "Gesichert"
+        },
+        "def": "independently established"
+      },
+      "muhtemel": {
+        "label": {
+          "tr": "Muhtemel",
+          "en": "Probable",
+          "de": "Wahrscheinlich"
+        },
+        "def": "probable"
+      },
+      "belirsiz": {
+        "label": {
+          "tr": "Belirsiz",
+          "en": "Uncertain",
+          "de": "Unsicher"
+        },
+        "def": "uncertain"
+      },
+      "tartismali": {
+        "label": {
+          "tr": "Tartışmalı",
+          "en": "Contested",
+          "de": "Umstritten"
+        },
+        "def": "competing reports"
+      }
+    },
+    "kiraat_turu": {
+      "mutevatir": {
+        "label": {
+          "tr": "Mütevâtir",
+          "en": "Canonical",
+          "de": "Kanonisch"
+        },
+        "def": "one of the canonical readings"
+      },
+      "sazz": {
+        "label": {
+          "tr": "Şâz",
+          "en": "Non-canonical",
+          "de": "Nichtkanonisch"
+        },
+        "def": "a non-canonical reading"
+      },
+      "sahabe": {
+        "label": {
+          "tr": "Sahâbe kıraati",
+          "en": "Companion reading",
+          "de": "Gefährtenlesart"
+        },
+        "def": "a reading reported from a Companion's codex, often explanatory"
+      },
+      "belirsiz": {
+        "label": {
+          "tr": "Belirsiz",
+          "en": "Unclassified",
+          "de": "Unklassifiziert"
+        },
+        "def": "standing not established"
+      }
+    },
+    "kayip": {
+      "kelime": {
+        "label": {
+          "tr": "Yanlış kelime",
+          "en": "Wrong word",
+          "de": "Falsches Wort"
+        },
+        "def": "a different concept (ṣudūr rendered as kalp)"
+      },
+      "eleman": {
+        "label": {
+          "tr": "Düşen öge",
+          "en": "Dropped element",
+          "de": "Fehlendes Element"
+        },
+        "def": "a preposition, pronoun, number, emphasis, conjunction or voice the Turkish could have kept"
+      },
+      "aralik": {
+        "label": {
+          "tr": "Daralan anlam",
+          "en": "Collapsed range",
+          "de": "Verengte Bedeutung"
+        },
+        "def": "several live senses narrowed to one"
+      },
+      "ekleme": {
+        "label": {
+          "tr": "İşaretsiz ekleme",
+          "en": "Unmarked addition",
+          "de": "Unmarkierter Zusatz"
+        },
+        "def": "the translator's own words presented as the text"
+      },
+      "kayma": {
+        "label": {
+          "tr": "Türkçe kayma",
+          "en": "Turkish drift",
+          "de": "Türkische Verschiebung"
+        },
+        "def": "a loanword whose Turkish sense has shifted (namaz, din, ibadet)"
+      },
+      "isaretleme": {
+        "label": {
+          "tr": "İşaret değişimi",
+          "en": "Marking change",
+          "de": "Markierungswechsel"
+        },
+        "def": "brackets, italics or notes changed so an addition no longer looks like one"
+      },
+      "aktarma": {
+        "label": {
+          "tr": "Aktarma kayması",
+          "en": "Relay drift",
+          "de": "Relais-Verschiebung"
+        },
+        "def": "a difference that comes from translating an intermediate text (Asad's English, Mawdudi's Urdu), not the Arabic"
+      }
+    },
+    "yon": {
+      "kayip": {
+        "label": {
+          "tr": "Kayıp",
+          "en": "Loss",
+          "de": "Verlust"
+        },
+        "def": "the translation loses against the pole"
+      },
+      "kazanc": {
+        "label": {
+          "tr": "Kazanç",
+          "en": "Gain",
+          "de": "Gewinn"
+        },
+        "def": "the translation recovers something against the pole"
+      }
+    },
+    "kiyas": {
+      "arapca": {
+        "label": {
+          "tr": "Arapça",
+          "en": "Arabic",
+          "de": "Arabisch"
+        },
+        "def": "judged against the Arabic"
+      },
+      "ara_metin": {
+        "label": {
+          "tr": "Ara metin",
+          "en": "Intermediate text",
+          "de": "Zwischentext"
+        },
+        "def": "judged against the text it was translated from"
+      }
+    },
+    "hata": {
+      "kaynak_etiketi": {
+        "label": {
+          "tr": "Kaynak etiketi",
+          "en": "Source label",
+          "de": "Quellenangabe"
+        },
+        "def": "a wrong source or lexicon label"
+      },
+      "alinti": {
+        "label": {
+          "tr": "Alıntı",
+          "en": "Quotation",
+          "de": "Zitat"
+        },
+        "def": "a misquoted text"
+      },
+      "ayet_no": {
+        "label": {
+          "tr": "Âyet numarası",
+          "en": "Verse number",
+          "de": "Versnummer"
+        },
+        "def": "a wrong reference"
+      },
+      "olgu": {
+        "label": {
+          "tr": "Olgu",
+          "en": "Fact",
+          "de": "Tatsache"
+        },
+        "def": "a factual error"
+      },
+      "ceviri": {
+        "label": {
+          "tr": "Çeviri",
+          "en": "Rendering",
+          "de": "Wiedergabe"
+        },
+        "def": "a wrong rendering of the Arabic"
+      }
+    },
+    "bag": {
+      "benzerlik": {
+        "label": {
+          "tr": "Benzerlik",
+          "en": "Similarity",
+          "de": "Ähnlichkeit"
+        },
+        "def": "the texts resemble each other; nothing is claimed about a relation (the default)"
+      },
+      "ortak_havza": {
+        "label": {
+          "tr": "Ortak havza",
+          "en": "Shared milieu",
+          "de": "Gemeinsames Milieu"
+        },
+        "def": "both draw on a tradition current in Late Antiquity; no direction claimed"
+      },
+      "muhatap": {
+        "label": {
+          "tr": "Muhatap",
+          "en": "Addressed",
+          "de": "Adressiert"
+        },
+        "def": "named scholarship argues the Qur'an addresses, answers or corrects this tradition; requires alim"
+      },
+      "etki_iddiasi": {
+        "label": {
+          "tr": "Etki iddiası",
+          "en": "Dependence claim",
+          "de": "Abhängigkeitsthese"
+        },
+        "def": "named scholarship argues dependence; reported as that scholar's claim, never as fact; requires alim; impossible for a text dated after the Qur'an"
+      }
+    },
+    "tarihleme": {
+      "kuran_oncesi": {
+        "label": {
+          "tr": "Kur'an öncesi",
+          "en": "Pre-Qur'anic",
+          "de": "Vorkoranisch"
+        },
+        "def": "written down before the early 7th century"
+      },
+      "cagdas": {
+        "label": {
+          "tr": "Çağdaş",
+          "en": "Contemporary",
+          "de": "Zeitgenössisch"
+        },
+        "def": "roughly contemporary with the Qur'an"
+      },
+      "kuran_sonrasi": {
+        "label": {
+          "tr": "Kur'an sonrası",
+          "en": "Post-Qur'anic",
+          "de": "Nachkoranisch"
+        },
+        "def": "redacted after the Qur'an (e.g. Pirqe de-Rabbi Eliezer); may preserve older material, which the block must argue"
+      },
+      "belirsiz": {
+        "label": {
+          "tr": "Belirsiz",
+          "en": "Uncertain",
+          "de": "Unsicher"
+        },
+        "def": "dating disputed or unknown"
+      }
+    },
+    "nusha": {
+      "masoretik": {
+        "label": {
+          "tr": "Masoretik metin",
+          "en": "Masoretic text",
+          "de": "Masoretischer Text"
+        },
+        "def": "the Hebrew Bible (Westminster Leningrad Codex)"
+      },
+      "septuaginta": {
+        "label": {
+          "tr": "Septuaginta",
+          "en": "Septuagint",
+          "de": "Septuaginta"
+        },
+        "def": "the Greek Old Testament"
+      },
+      "pesitta": {
+        "label": {
+          "tr": "Peşitta",
+          "en": "Peshitta",
+          "de": "Peschitta"
+        },
+        "def": "the Syriac Bible, Old and New Testament"
+      },
+      "targum": {
+        "label": {
+          "tr": "Targum",
+          "en": "Targum",
+          "de": "Targum"
+        },
+        "def": "Aramaic renderings of the Hebrew Bible"
+      },
+      "yunanca_ahit": {
+        "label": {
+          "tr": "Yunanca Ahd-i Cedîd",
+          "en": "Greek New Testament",
+          "de": "Griechisches Neues Testament"
+        },
+        "def": "the Greek New Testament"
+      },
+      "diatessaron": {
+        "label": {
+          "tr": "Diatessaron",
+          "en": "Diatessaron",
+          "de": "Diatessaron"
+        },
+        "def": "Tatian's gospel harmony, through its witnesses"
+      },
+      "apokrif": {
+        "label": {
+          "tr": "Apokrif",
+          "en": "Apocrypha",
+          "de": "Apokryphen"
+        },
+        "def": "Jewish pseudepigrapha or Christian apocrypha"
+      },
+      "rabbani": {
+        "label": {
+          "tr": "Rabbânî literatür",
+          "en": "Rabbinic literature",
+          "de": "Rabbinische Literatur"
+        },
+        "def": "Mishnah, Talmud, midrash"
+      },
+      "patristik": {
+        "label": {
+          "tr": "Kilise babaları",
+          "en": "Church Fathers",
+          "de": "Kirchenväter"
+        },
+        "def": "Greek and Latin patristic writing"
+      },
+      "suryani": {
+        "label": {
+          "tr": "Süryânî literatür",
+          "en": "Syriac literature",
+          "de": "Syrische Literatur"
+        },
+        "def": "Syriac homilies and hymns (Ephrem, Jacob of Serugh, Narsai)"
+      }
+    }
+  },
+  "rules": [
+    {
+      "id": "hadis_sahih",
+      "def": "tur:hadis requires derece:sahih and derece_veren naming Buhârî, Müslim or the graders recorded in the corpus; merit (fazilet) reports are hadith and follow the same rule; a weak Prophetic attribution of a sound Companion statement is reported as the Companion's (tefsir_rivayet)"
+    },
+    {
+      "id": "hafiza",
+      "def": "kaynak:hafiza (or a corpus source with access hafiza) requires durum:degerlendirilmedi; forbidden for tur hadis and nuzul, for derece, and for Turkish loanword history in anlam_tarihi"
+    },
+    {
+      "id": "itiraz_vs_tercih",
+      "def": "a source preferring another reading is islev:tercih; islev:itiraz needs an argument that the base's reading cannot hold here"
+    },
+    {
+      "id": "yenilik_scope",
+      "def": "klasik_tanik:bulunamadi with tarama:dilim must say in metin that only the per-ayah slice was searched"
+    },
+    {
+      "id": "modern_dictionaries",
+      "def": "modern Arabic dictionaries (VASIT, MUHIT, HANSWEHR) may be cited only in anlam_tarihi, as evidence of later drift"
+    },
+    {
+      "id": "paragraf_zorunlu",
+      "def": "every block names its prose paragraph (paragraf) and quotes at least three words of it (capa); it is rendered right after that paragraph; a block whose number and words do not match is dropped"
+    },
+    {
+      "id": "gelenek_ayrimi",
+      "def": "each block belongs to one gelenek and its tur must allow it. islami blocks cite no Bible, Jewish or Christian source (kind intertext); tevrat and incil blocks cite only sources of their own gelenek, plus the Qur'an text and modern scholarship. The passes run separately and never read each other's records"
+    },
+    {
+      "id": "paralel_bagimlilik_degil",
+      "def": "a parallel is not a dependence: bag defaults to benzerlik; muhatap and etki_iddiasi require alim and a source that argues it; etki_iddiasi is impossible with tarihleme:kuran_sonrasi"
+    },
+    {
+      "id": "yenilik_tek",
+      "def": "a separate yenilik block only when no antecedent was found, kat:arastirma, at most one per paragraph; an attested finding carries klasik_tanik/taranan/tarama on its oncul block"
+    },
+    {
+      "id": "okuma_akisi",
+      "def": "blocks are read right after their paragraph: no 'taban' in metin (say şerh or state the point), no closing disclaimers, each point once on the page, at most five blocks after one paragraph"
+    }
+  ]
+}

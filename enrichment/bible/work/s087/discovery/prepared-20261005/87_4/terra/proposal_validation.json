@@ -1,0 +1,29 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_4/terra/followup.tsv",
+  "rows": 37,
+  "unique_references": 37,
+  "schema_errors": [],
+  "duplicates": [],
+  "strengths": {
+    "strong": 14,
+    "medium": 23
+  },
+  "findings": [
+    {
+      "line": 14,
+      "ref": "2 Maccabees 7:14",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 32,
+      "ref": "SBLGNT:Jas.5.7",
+      "raw_ref": "SBLGNT:James.5.7",
+      "kind": "reference_alias",
+      "resolver": "edition-book-names-v2",
+      "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}
