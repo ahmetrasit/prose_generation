@@ -58,7 +58,9 @@ def osis(ref: str) -> str | None:
         BOOK_CODES = {**{k.casefold(): v for k, v in USFM.items()},       # Paratext codes: PSA, ECC, JHN …
                       **{v.casefold(): v for v in USFM.values()},          # OSIS codes in any case
                       **B, 'songofsolomon': 'Song', 'songofsongs': 'Song', 'psalm': 'Ps', 'canticles': 'Song',
-                      'pss': 'Ps', 'qoh': 'Eccl', 'mat': 'Matt', 'mk': 'Mark', 'lk': 'Luke', 'jn': 'John', 'rm': 'Rom'}
+                      'pss': 'Ps', 'qoh': 'Eccl', 'mat': 'Matt', 'mk': 'Mark', 'lk': 'Luke', 'rm': 'Rom'}
+        for amb in ('jud', 'sol', 'jn'):   # Judges/Jude, Song/Wisdom, John/Jonah: never guessed (None is reported)
+            BOOK_CODES.pop(amb, None)
     m = LOOSE.match(ref.strip())
     if not m:
         return None
@@ -371,13 +373,36 @@ def jsonl(text: str) -> tuple[list[dict], list[str]]:
         except ValueError:
             bad.append(line[:160])
             continue
+        if not isinstance(r, dict):
+            bad.append(f'not a JSON object: {line[:140]}')
+            continue
         for k in ('refs', 'was'):
             if k in r:
+                if not isinstance(r[k], list) or not all(isinstance(x, str) for x in r[k]):
+                    bad.append(f'"{k}" is not a list of references: {line[:120]}')
+                    r[k] = [x for x in r[k] if isinstance(x, str)] if isinstance(r[k], list) else []
                 fixed = [osis(x) or x for x in r[k]]
                 bad += [f'not an OSIS ref: {x}' for x in fixed if not OSIS.match(x)]
                 r[k] = fixed
         rows.append(r)
     return rows, bad
+
+
+def resume_turn(d: Path, n: int, text: str, effort: str, thread: str | None = None) -> dict:
+    """Turn n of a Sol session: reuse a completed turn, set aside a started-but-unfinished one (its files move to
+    turnN.failed-K.*, printed), then run it. Never starts a completed turn twice."""
+    rec = d / f'turn{n}.run.json'
+    if rec.exists():
+        r = json.loads(rec.read_text())
+        if r.get('completed') and not r.get('error') and (d / f'turn{n}.last.txt').exists():
+            return r
+    if (d / f'turn{n}.stream.jsonl').exists():
+        k = 1 + len(list(d.glob(f'turn{n}.failed-*.stream.jsonl')))
+        for f in d.glob(f'turn{n}.*'):
+            if '.failed-' not in f.name:
+                f.rename(d / f.name.replace(f'turn{n}.', f'turn{n}.failed-{k}.', 1))
+        print(f'NOTE {d}: unfinished turn {n} set aside as turn{n}.failed-{k}.*; running it again', flush=True)
+    return CR.turn(d, n, text, MODELS['sol'], effort, thread=thread)
 
 
 def one_sol(s: int, tag: str, ayah: str, effort: str, q: dict) -> str:
@@ -393,10 +418,10 @@ def one_sol(s: int, tag: str, ayah: str, effort: str, q: dict) -> str:
     prompt = ((HERE / 'prompts' / 'sol_page.md').read_text().replace('{{REF}}', ayah).replace('{{ARABIC}}', q[ayah])
               .replace('{{ROOTS}}', RT.table_text(RT.ayah_roots(ayah)).strip()).replace('{{PROSE}}', prose))
     (d / 'prompt.md').write_text(prompt)
-    t1 = CR.turn(d, 1, prompt, MODELS['sol'], effort)
+    t1 = resume_turn(d, 1, prompt, effort)
     if not t1['completed'] or not t1['thread_id']:
         return f'ERROR {ayah} sol: turn 1 did not complete (rc {t1["returncode"]}); see {d}'
-    t2 = CR.turn(d, 2, OMISSIONS_TURN, MODELS['sol'], effort, thread=t1['thread_id'])
+    t2 = resume_turn(d, 2, OMISSIONS_TURN, effort, t1['thread_id'])
     if not t2['completed'] or t2.get('error'):
         return f'ERROR {ayah} sol: omissions turn did not complete ({t2.get("error") or t2["returncode"]}); see {d}'
     r1, b1 = jsonl((d / 'turn1.last.txt').read_text())
@@ -411,7 +436,7 @@ def one_sol(s: int, tag: str, ayah: str, effort: str, q: dict) -> str:
         [f"KJV: {m['text'].get('KJV', '(not in our corpus under this reference; drop it unless you are sure what it says)')}"]
         + [f"{src}{' (Hebrew numbering ' + m['text'][src + '_ref'] + ')' if src + '_ref' in m['text'] else ''}: {m['text'][src]}"
            for src in ('WLC', 'SBLGNT') if src in m['text']]) for m in shown)
-    t3 = CR.turn(d, 3, CHECK_TURN + block, MODELS['sol'], effort, thread=t1['thread_id'])
+    t3 = resume_turn(d, 3, CHECK_TURN + block, effort, t1['thread_id'])
     if not t3['completed'] or t3.get('error'):
         return f'ERROR {ayah} sol: check turn did not complete ({t3.get("error") or t3["returncode"]}); see {d}'
     rows, bad = jsonl((d / 'turn3.last.txt').read_text())
@@ -420,7 +445,7 @@ def one_sol(s: int, tag: str, ayah: str, effort: str, q: dict) -> str:
                                                    unresolved=[m['ref'] for m in shown if 'KJV' not in m['text']]),
                                               ensure_ascii=False, indent=1) + '\n')
     (d / 'placed.json').write_text(json.dumps(dict(ayah=ayah, model=MODELS['sol'], effort=effort, brief='sol_page',
-                                                   rows=rows, malformed=b1 + bad, cost=cost),
+                                                   rows=rows, malformed=bad, cost=cost),   # turns 1-2: cited.json
                                               ensure_ascii=False, indent=1) + '\n')
     return f"{ayah} sol: {len(r1) - len(r2)}+{len(r2)} -> {len(rows)} rows, ${cost['usd_equivalent']:.3f}; " + check_one(ad)
 
@@ -455,9 +480,11 @@ def one_recheck(s: int, tag: str, ayah: str, effort: str) -> str:
     if not todo:
         return f'{ayah}: nothing to recheck'
     shown = [dict(ref=x, text=texts(db, x)) for x in todo if OSIS.match(x)]
-    n = max(int(f.name[4:].split('.')[0]) for f in d.glob('turn*.run.json')) + 1
+    done = [int(f.name[4:].split('.')[0]) for f in d.glob('turn*.run.json') if '.failed-' not in f.name
+            and json.loads(f.read_text()).get('completed')]
+    n = max(done) + 1
     thread = json.loads((d / 'turn1.run.json').read_text())['thread_id']
-    t = CR.turn(d, n, RECHECK_TURN + text_block(shown), MODELS['sol'], effort, thread=thread)
+    t = resume_turn(d, n, RECHECK_TURN + text_block(shown), effort, thread)
     if not t['completed'] or t.get('error'):
         return f'ERROR {ayah} sol: recheck turn {n} did not complete ({t.get("error") or t["returncode"]}); see {d}'
     rows, bad = jsonl((d / f'turn{n}.last.txt').read_text())
@@ -470,7 +497,7 @@ def one_recheck(s: int, tag: str, ayah: str, effort: str) -> str:
     c['unresolved'] = [m['ref'] for m in c['shown'] if 'KJV' not in m['text']]
     c['rechecked'] = c.get('rechecked', []) + [dict(turn=n, refs=todo)]
     (ad / 'cited.json').write_text(json.dumps(c, ensure_ascii=False, indent=1) + '\n')
-    placed.update(rows=rows, malformed=placed.get('malformed', []) + bad, cost=CR.cost(CR.rollout(thread)))
+    placed.update(rows=rows, malformed=bad, cost=CR.cost(CR.rollout(thread)))
     (d / 'placed.json').write_text(json.dumps(placed, ensure_ascii=False, indent=1) + '\n')
     return f"{ayah} recheck turn {n}: {len(todo)} verse(s) shown, {len(rows)} rows, total ${placed['cost']['usd_equivalent']:.3f}; " + check_one(ad)
 
@@ -518,7 +545,12 @@ def cmd_sol(a):
                     own.discard(x)
         work, n = gated, a.cap
     else:
-        work, n = (lambda x: one_sol(int(x.split(':')[0]), a.tag, x, a.effort, q)), a.parallel
+        def work(x):
+            try:
+                return one_sol(int(x.split(':')[0]), a.tag, x, a.effort, q)
+            except Exception as e:
+                return f'ERROR {x} sol: {type(e).__name__}: {e}'
+        n = a.parallel
     with cf.ThreadPoolExecutor(n) as ex:
         for msg in ex.map(work, ayat):
             print(msg, flush=True)
@@ -533,20 +565,30 @@ def check_one(ad: Path) -> str:
     seen, problems = {}, []
     if (ad / 'cited.json').exists():
         c = json.loads((ad / 'cited.json').read_text())
-        listed = {osis(m['ref']) or m['ref'] for m in c['shown'] if m['text'].get('KJV')}
-        was = {osis(x) or x for r in placed['rows'] for x in r.get('was') or []}
+        listed = {osis(m['ref']) or m['ref'] for m in c['shown']}                       # every verse of turns 1-2
+        texted = {osis(m['ref']) or m['ref'] for m in c['shown'] if m['text'].get('KJV')}
         for r in placed['rows']:
             r['refs'] = [osis(x) or x for x in r.get('refs') or []]
+        final = {x for r in placed['rows'] for x in r['refs']}
+        # a `was` counts only on a row that names its replacement; one naming a kept ref removes nothing
+        was = {osis(x) or x for r in placed['rows'] if r['refs'] for x in r.get('was') or []} - final
         for r in placed['rows']:
-            for ref in r.get('refs') or []:
-                if ref not in listed and r.get('decision') != 'drop':
+            if r.get('was') and not r['refs']:
+                problems.append(f"row with was {r['was']} names no replacement")
+            for ref in r['refs']:
+                if ref not in texted and r.get('decision') != 'drop':
                     problems.append(f'{ref}: final verse whose text Sol was not shown')
+                if ref not in listed:
                     r['added'] = True
-        listed -= was - {x for r in placed['rows'] for x in r.get('refs') or []}   # a `was` naming a kept ref (only its form changed) removes nothing
+        listed -= was
+        if was:
+            problems.append(f'NOTE (not a failure) {len(was)} reference(s) replaced via was: {sorted(was)[:6]}')
     else:
         listed = {m['ref'] for m in json.loads((ad / 'merged.json').read_text())['items']}
     for i, r in enumerate(placed['rows']):
         dec = r.get('decision')
+        if not r.get('refs'):
+            problems.append(f'row {i}: no refs')
         if dec not in ('place', 'end', 'drop'):
             problems.append(f'row {i}: decision {dec!r}')
         if dec == 'place' and (not r.get('paragraphs') or not set(r['paragraphs']) <= paras):
@@ -613,7 +655,7 @@ def cmd_preview(a):
         by_p = {}
         for r in rows:
             if r.get('decision') == 'place':
-                for p in r['paragraphs']:
+                for p in r.get('paragraphs') or []:
                     by_p.setdefault(p, []).append(r)
         out = []
         for block in prose.split('\n\n'):

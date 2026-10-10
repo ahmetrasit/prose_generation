@@ -16,10 +16,9 @@ Work: enrichment/bible/work/sSSS/roots/T/<S_A>/<model>/.
 from __future__ import annotations
 
 import argparse
+import atexit
 import concurrent.futures as cf
-import contextlib
 import gzip
-import io
 import json
 import re
 import shutil
@@ -47,6 +46,7 @@ def qac() -> sqlite3.Connection:
     with _QAC_LOCK:
         if _QAC_FILE is None:
             tmp = Path(tempfile.mkdtemp()) / 'qac.sqlite'
+            atexit.register(shutil.rmtree, tmp.parent, ignore_errors=True)
             with gzip.open(QAC) as src, tmp.open('wb') as dst:
                 shutil.copyfileobj(src, dst)
             _QAC_FILE = tmp
@@ -74,8 +74,7 @@ def table_text(roots) -> str:
     out = []
     for r, words in roots:
         out.append(f"## {r} (in the ayah: {', '.join(words)})")
-        with contextlib.redirect_stdout(io.StringIO()):
-            out += H.cmd_cognates(r, full=False)[1:]
+        out += H.cmd_cognates(r, full=False)[1:]   # returns lines, prints nothing
         out.append('')
     return '\n'.join(out)
 

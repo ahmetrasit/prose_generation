@@ -23,6 +23,7 @@ import itertools
 import json
 import re
 import sys
+import threading
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
@@ -182,18 +183,24 @@ def lemma_entries(lemma, morph, by_strong, entries):
 
 # ------------------------------------------------------------------------------------------------------------ lookups
 _DATA = None
+_DATA_LOCK = threading.Lock()
 
 
 def data() -> dict:
+    """The Hebrew root index with its families; built once, under a lock, and published only when complete
+    (recall.py calls it from many threads)."""
     global _DATA
     if _DATA is None:
-        if not INDEX.exists():
-            raise SystemExit(f'no {INDEX}: run `hebrew.py build`')
-        _DATA = json.loads(INDEX.read_text(encoding='utf-8'))
-        fam = {}
-        for eid, r in _DATA['entries'].items():
-            fam.setdefault((r['lang'], r['key']), []).append(eid)
-        _DATA['families'] = fam
+        with _DATA_LOCK:
+            if _DATA is None:
+                if not INDEX.exists():
+                    raise SystemExit(f'no {INDEX}: run `hebrew.py build`')
+                d = json.loads(INDEX.read_text(encoding='utf-8'))
+                fam = {}
+                for eid, r in d['entries'].items():
+                    fam.setdefault((r['lang'], r['key']), []).append(eid)
+                d['families'] = fam
+                _DATA = d
     return _DATA
 
 

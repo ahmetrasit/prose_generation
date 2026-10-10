@@ -474,6 +474,53 @@ def build(force: bool = False) -> None:
     print(f"indexed {total} segments -> {index.relative_to(PG)}")
 
 
+STAMP = CORPUS / "corpus.sqlite.gz.stamp.json"   # versioned: what the committed corpus.sqlite.gz.partNN hold
+
+
+def fresh() -> int:
+    """Is the index current? Every source.json must equal the copy the index stored at build time (a new source,
+    a removed one, or a changed record means rebuild), and no segments.jsonl may be newer than the index. Also says
+    whether the committed gz parts (STAMP) hold this index. Prints STALE lines; returns 1 when stale."""
+    index = INDEX_INTERTEXT if INTERTEXT else INDEX
+    if not index.exists():
+        print(f"STALE: {index.relative_to(PG)} missing (reassemble the parts: cat corpus.sqlite.gz.part* | gunzip, or build)")
+        return 1
+    con = sqlite3.connect(index.resolve().as_uri() + "?mode=ro", uri=True)
+    stored = {i: json.loads(m) for i, m in con.execute("SELECT id, meta FROM src")}
+    built = index.stat().st_mtime
+    stale = []
+    for meta in sources():
+        kind, sid = meta.get("kind"), meta["id"]
+        if (INTERTEXT and kind not in {"intertext", "quran", "modern", "reference"}) or \
+                (not INTERTEXT and kind in EXCLUDED_KINDS):
+            continue
+        if sid not in stored:
+            stale.append(f"{sid}: source not in the index")
+        elif stored.pop(sid) != meta:
+            stale.append(f"{sid}: source.json changed since the index was built")
+        seg = source_dir(sid) / "segments.jsonl"
+        if seg.exists() and seg.stat().st_mtime > built:
+            stale.append(f"{sid}: segments.jsonl newer than the index")
+    stale += [f"{sid}: in the index, no source.json any more" for sid in stored]
+    for x in stale:
+        print(f"STALE {x}")
+    print(f"{index.relative_to(PG)}: " + ("current" if not stale else f"{len(stale)} problem(s): rebuild with "
+                                          "`corpus.py build` (no enrichment calls running)"))
+    if not INTERTEXT:
+        try:
+            st = json.loads(STAMP.read_text()) if STAMP.exists() else None
+        except (OSError, ValueError) as e:
+            st = f"unreadable ({e})"
+        if isinstance(st, dict):
+            same = st.get("sqlite_sha256") == sha256(index)
+            print(f"committed gz parts ({st.get('built_at')}): " + ("hold this index" if same else
+                  "DIFFER from this index (regenerate them with tools/corpus_parts.sh, commit, push)"))
+        else:
+            print(f"committed gz parts: stamp {st or 'missing'} (corpus.sqlite.gz.stamp.json); regenerate with "
+                  "tools/corpus_parts.sh")
+    return 1 if stale else 0
+
+
 def parse_ref(ref: str) -> tuple[int, int, int]:
     """'2:255' -> (2, 255, 255); '20:125-127' -> (20, 125, 127)."""
     s, rest = ref.split(":")
@@ -705,6 +752,7 @@ def main() -> None:
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("import-local")
     p.add_argument("--only", default="")
+    p = sub.add_parser("fresh", help="is the index current with every source? (run before tier 1 and meal builds)")
     p = sub.add_parser("build")
     p.add_argument("--force", action="store_true", help="build even while enrichment calls are running")
     p = sub.add_parser("sources")
@@ -749,6 +797,8 @@ def main() -> None:
         only = set(x for x in a.only.split(",") if x)
         for f in IMPORTERS:
             f(only)
+    elif a.cmd == "fresh":
+        sys.exit(fresh())
     elif a.cmd == "build":
         build(a.force)
     elif a.cmd == "sources":

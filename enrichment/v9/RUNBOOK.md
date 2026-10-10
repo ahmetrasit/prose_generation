@@ -60,6 +60,13 @@ Pages are the base r13 readings (`_commentary/v16/out/S_A/*/S_A.reading.tr.md`, 
 verse those pages cite. Report the counts and the expected cost to the user.
 
 ### 1. Tier 1 (Luna max), including the quotation packet
+**First, on the machine that builds the run: is the corpus index current?** (user, 2026-10-09: the committed gz parts
+were a day older than the index, without that day's tafsir and meal imports; a build from them gathers a different
+set of segments.) `python3 -B enrichment/v2/tools/corpus.py fresh` must print `current`. `STALE` lines → rebuild
+(`corpus.py build`, no enrichment calls running) and run `fresh` again. On another machine, first reassemble the
+committed copy (`cat enrichment/corpus/corpus.sqlite.gz.part* | gunzip > enrichment/corpus/corpus.sqlite`); if
+`fresh` then says the parts DIFFER from the index or STALE, stop and ask for fresh parts. After every rebuild here:
+`enrichment/v2/tools/corpus_parts.sh`, then `git add -f enrichment/corpus/corpus.sqlite.gz.part?? enrichment/corpus/corpus.sqlite.gz.stamp.json`, commit, push.
 ```bash
 python3 -B enrichment/v7/digest.py build <tier1 run> --ayat $(cat enrichment/v9/work/prod_sNNN/verses.txt) --models gpt-6-luna:max --skip-done luna-max --quotes [--skip-planned <tier1 runs built but not finished>]
 nohup enrichment/v9/tools/run_until_done.sh 40 enrichment/v7/work/<tier1 run>/runs <log> enrichment/v7/work/<tier1 run>/spawn/luna-max_c*.md &
@@ -116,7 +123,7 @@ enrichment/v9/tools/page_status.sh S A            # writer and meal check + Opus
 Spawn one `enrich-page-high` agent per block, at the Opus cap. Each writer runs its own check and final pass; a page
 may cover any mapped verse of its own surah (full coverage). **Meals read `enrichment/corpus/corpus.sqlite` at build
 time:** build them only when the corpus is current (meal imports and OCR corrections done, then
-`python3 -B enrichment/v2/tools/corpus.py build`). The meal table lists all 93+ meal/translation sources; the ones
+`python3 -B enrichment/v2/tools/corpus.py build`; `corpus.py fresh` prints `current`). The meal table lists all 93+ meal/translation sources; the ones
 with `panel: true` in their `enrichment/corpus/<ID>/source.json` come first (22 since 2026-10-09).
 When a page's writer AND meal pass: `python3 -B enrichment/v9/render.py <writer run> --meal <meal run>`, commit, push.
 
@@ -141,7 +148,9 @@ compare, and `enrich.py supersede … --attempt N` (the old page moves to `out/s
 
 - One directory per source (`source.json` versioned; `segments.jsonl` and `raw/` local, git-ignored). Importers:
   `enrichment/v2/fetch/import_meal_*.py` (`--dry`, ingestion record with issues, counts and `missing`).
-- Importers write source files only; **rebuild the index once afterwards**: `python3 -B enrichment/v2/tools/corpus.py build`.
+- Importers write source files only; **rebuild the index once afterwards**: `python3 -B enrichment/v2/tools/corpus.py build`,
+  then regenerate the committed copy (`enrichment/v2/tools/corpus_parts.sh`, `git add -f` the parts and the stamp,
+  commit, push). `corpus.py fresh` says whether the index and the committed parts are current.
 - OCR corrections: `enrichment/v2/fetch/ocr_fix.py SOURCE_ID [--dry]` (confident fixes only; originals kept in
   `text_ocr`, each fix in `ocr_fixes`, summary in the ingestion record).
 - Every missing verse of a meal source is recorded in its `source.json` (`ingestion.missing` + notes); a meal
