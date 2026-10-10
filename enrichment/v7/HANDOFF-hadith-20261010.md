@@ -127,3 +127,41 @@ names.
 3. Run it, push `out/` and `runs/*/run.json` as usual, then run `digest.py check/report`.
 4. `python3 -B enrichment/v9/linked.py build --surahs 1 59 87 88 … 114` (about 3 minutes, no model), so
    `q.py linked` works for the range. Rebuild it after any corpus rebuild.
+
+## Recheck of all digests for missed verses (`enrichment/v7/recheck.py`, 2026-10-10)
+
+The spot check found a missed point at a rate of about 2.5%. This run looks for every such miss in everything digested
+so far.
+
+- **Candidates.** A candidate pair is a digested segment and a verse that none of its notes names, where the segment
+  contains the verse's own words (a 2–3-word window unique to that verse) or, for a verse in its index range, a verse
+  number marker.
+- **Luna's task.** Luna reads each segment with its notes and records only missed points about those verses.
+- **Supplements.** New notes are stored as supplements under `enrichment/v7/recheck/<RUN>/out/`. `merge.tier1_rows`
+  reads them beside the digests with IDs `<loc>/x<N>-<RUN>`. No digest is replaced, and a pair is never checked
+  twice.
+- **Scope (user, 2026-10-10).** The run covers verses that have a v9 map, plus S1, S59 and S87–114
+  (`enrichment/v7/recheck/scope_s1_s59_s87-114.txt`). The plan on this machine gave 24,613 pairs in 15,439 segments
+  (25.9M characters), about 2,074 Luna agents and about $55 API-equivalent at the tier-1 rate. Not checked by
+  design: 53,959 pairs reached only through a "too-common" 2-word window. These are ordinary prose phrases that occur
+  in a single verse, such as الله تعالى (27:63) or قال ابن; real quotations still match through their 3-word windows.
+
+On the tier-1 computer, after its tier-1 run above, so that new digests are included:
+
+```bash
+git pull; python3 -B enrichment/v2/tools/corpus.py fresh          # must print "current"
+python3 -B enrichment/v7/recheck.py plan --mapped --verses-file enrichment/v7/recheck/scope_s1_s59_s87-114.txt
+python3 -B enrichment/v7/recheck.py build recheck_20261010 --mapped --verses-file enrichment/v7/recheck/scope_s1_s59_s87-114.txt
+nohup enrichment/v9/tools/run_until_done.sh 40 enrichment/v7/recheck/recheck_20261010/runs <log> enrichment/v7/recheck/recheck_20261010/spawn/luna-max_c*.md &
+python3 -B enrichment/v7/recheck.py check recheck_20261010 --model luna-max     # every problem; repair: tools/repair_recheck.sh recheck_20261010 NN
+python3 -B enrichment/v7/recheck.py report recheck_20261010
+```
+
+Before you run it, check that the plan's figures are close to the ones above, then report them to the user.
+
+**What to push:** `manifest.json`, `spawn/`, `out/` and `runs/*/run.json`. The chunks (`recheck/*/chunks/`) are
+git-ignored like tier-1 chunks, because they are not needed here. `recheck.py check` reads the segment text from the
+corpus index.
+
+**After the outputs are pulled here,** the maps take the new notes, together with the range and mention notes, through
+one `map.py update-all`. That is a Sol run, so its cost is reported first.

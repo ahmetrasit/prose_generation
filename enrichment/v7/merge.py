@@ -38,6 +38,8 @@ def key(ayah):
 
 _TAGS = None
 _FILES = {}
+_BAD_SUPPLEMENT = set()
+_MISSING_LOC = set()
 
 
 def _segments(f):
@@ -88,8 +90,32 @@ def tier1_segments(tags):
                 yield tag, x, cut, whole_again
 
 
-def full_row(r, n, x, whole_again, tag, src, meta):
-    rid = f"{x['loc']}/{'f' if whole_again else 'r'}{n}"
+def supplements(tags):
+    """(tag, run, segment line) for every finished recheck output (enrichment/v7/recheck/RUN/out/TAG/cNN.jsonl):
+    notes a recheck run added to an already digested segment, for verses its notes did not name (recheck.py)."""
+    tags = [tags] if isinstance(tags, str) else list(tags)
+    seen = set()                     # (loc, run): counted once, first tag wins, as tier1_segments does for digests
+    for tag in tags:
+        for f in sorted((V7 / 'recheck').glob(f'*/out/{tag}/c*.jsonl')):
+            if digest.unfinished(f):
+                continue
+            bad = 0
+            for x in _segments(f):
+                if not (isinstance(x, dict) and isinstance(x.get('loc'), str) and isinstance(x.get('rows'), list)):
+                    bad += 1
+                    continue
+                bad += sum(not isinstance(r, dict) for r in x['rows'])
+                if (x['loc'], f.parts[-4]) in seen:
+                    continue
+                seen.add((x['loc'], f.parts[-4]))
+                yield tag, f.parts[-4], x
+            if bad and f not in _BAD_SUPPLEMENT:
+                _BAD_SUPPLEMENT.add(f)
+                print(f'WARNING {f.relative_to(V7)}: {bad} malformed line(s) or note(s) not read (recheck.py check)')
+
+
+def full_row(r, n, x, whole_again, tag, src, meta, rid=None):
+    rid = rid or f"{x['loc']}/{'f' if whole_again else 'r'}{n}"
     words, typ = (r.get('words'), r.get('type')) if r.get('type') else _TAGS.get(rid, (None, None))
     m = meta.get(src, {})
     return {**r, 'id': rid, 'src': src, 'author': m.get('author') or src, 'death': m.get('death_ah'), 'tag': tag,
@@ -123,6 +149,30 @@ def tier1_rows(d, tags, ayah, quiet=False, mentions=True):
                 if x['loc'] not in seg_src:
                     seg_src[x['loc']] = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
                 out.append({**full_row(r, n, x, whole_again, tag, seg_src[x['loc']], meta), **extra})
+        for tag, run, x in supplements(tags):     # recheck notes: ids <loc>/x<N>-<RUN>
+            for n, r in enumerate(x['rows'], 1):
+                if not isinstance(r, dict):
+                    continue
+                vs = digest.verse_list(r.get('verses'))
+                if ayah in vs:
+                    extra = {}
+                elif mentions and ayah in digest.verse_list(r.get('mentions')):
+                    extra = {'via': 'mentions', 'about': vs}
+                else:
+                    continue
+                if x['loc'] not in seg_src:
+                    hit = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()
+                    if hit is None:
+                        if x['loc'] not in _MISSING_LOC:
+                            _MISSING_LOC.add(x['loc'])
+                            print(f"WARNING recheck {run}: {x['loc']} is not in the corpus index; its notes are not read")
+                        seg_src[x['loc']] = None
+                        continue
+                    seg_src[x['loc']] = hit[0]
+                if seg_src[x['loc']] is None:
+                    continue
+                out.append({**full_row(r, n, x, False, tag, seg_src[x['loc']], meta, rid=f"{x['loc']}/x{n}-{run}"),
+                            **extra})
     return out  # no edition rule: short and FULL editions are both kept (user, 2026-10-09: nothing dropped)
 
 
@@ -140,6 +190,11 @@ def segment_rows(tags, locs):
                 src = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
                 out.setdefault(x['loc'], []).extend(full_row(r, n, x, whole_again, tag, src, meta)
                                                     for n, r in enumerate(x['rows'], 1))
+        for tag, run, x in supplements(tags):
+            if x['loc'] in out:              # a recheck adds to a digested segment only
+                src = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
+                out[x['loc']].extend(full_row(r, n, x, False, tag, src, meta, rid=f"{x['loc']}/x{n}-{run}")
+                                     for n, r in enumerate(x['rows'], 1) if isinstance(r, dict))
     return out
 
 
