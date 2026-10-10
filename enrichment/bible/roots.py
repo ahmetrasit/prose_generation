@@ -26,6 +26,7 @@ import shutil
 import sqlite3
 import sys
 import tempfile
+import threading
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -36,17 +37,22 @@ from enrichment.bible import codexrun as CR, hebrew as H, recall as RC  # noqa: 
 QAC = ROOT.parent / 'quran-data' / 'data' / 'morphology' / 'qac.sqlite.gz'
 RELATIONS = ('same', 'narrowed', 'broadened', 'shifted', 'false_friend', 'none')
 OSIS = RC.OSIS
-_QAC = None
+_QAC_FILE, _QAC_LOCK, _QAC_LOCAL = None, threading.Lock(), threading.local()
 
 
 def qac() -> sqlite3.Connection:
-    global _QAC
-    if _QAC is None:
-        tmp = Path(tempfile.mkdtemp()) / 'qac.sqlite'
-        with gzip.open(QAC) as src, tmp.open('wb') as dst:
-            shutil.copyfileobj(src, dst)
-        _QAC = sqlite3.connect(tmp)
-    return _QAC
+    """The QAC morphology database: unpacked once per process, one connection per thread (sqlite3 connections
+    cannot cross threads)."""
+    global _QAC_FILE
+    with _QAC_LOCK:
+        if _QAC_FILE is None:
+            tmp = Path(tempfile.mkdtemp()) / 'qac.sqlite'
+            with gzip.open(QAC) as src, tmp.open('wb') as dst:
+                shutil.copyfileobj(src, dst)
+            _QAC_FILE = tmp
+    if getattr(_QAC_LOCAL, 'con', None) is None:
+        _QAC_LOCAL.con = sqlite3.connect(_QAC_FILE)
+    return _QAC_LOCAL.con
 
 
 def ayah_roots(ayah: str) -> list[tuple[str, list[str]]]:
