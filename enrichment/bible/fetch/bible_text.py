@@ -5,6 +5,8 @@ enrichment/bible/corpus/, kind `intertext` (never in the Islamic index; indexed 
   bible_text.py wlc        Hebrew Bible, Westminster Leningrad Codex (openscriptures/morphhb OSIS XML, CC BY 4.0)
   bible_text.py sblgnt     Greek New Testament, SBLGNT (LogosBible/SBLGNT, CC BY 4.0)
   bible_text.py kjv        King James Version with the Apocrypha (ebible.org eng-kjv, public domain), the English aid
+  bible_text.py turntb     Kutsal Kitap Yeni Çeviri 2009 (CrossWire SWORD module TurNTB), the Turkish aid; needs the
+                           `pysword` package (run with a Python that has it; not part of `all`)
   bible_text.py all
 
 Locators are OSIS: WLC:Gen.22.2, SBLGNT:Matt.6.5, KJV:Gen.22.2 (schema.json, kaynak). One segment per verse; the
@@ -194,12 +196,57 @@ def kjv() -> None:
     print(f"KJV: {n} verses" + (f"; NOTE: unknown book codes skipped: {', '.join(sorted(unknown))}" if unknown else ""))
 
 
+def turntb() -> None:
+    META = {"id": "TURNTB", "title": "Kutsal Kitap. Eski ve Yeni Antlaşma (Yeni Çeviri)",
+            "author": "Kitab-ı Mukaddes Şirketi ve Yeni Yaşam Yayınları, Nisan 2009; CrossWire SWORD module TurNTB 2.1.1",
+            "death_ah": None, "kind": "intertext", "gelenek": ["tevrat", "incil"], "tradition": "Turkish Bible (Protestant canon)",
+            "language": "tr", "edition": "CrossWire SWORD zText module TurNTB 2.1.1 (text from the publishers in USFM, 2011; "
+                                          "updates 2013), versification NRSV (English numbering)", "access": "yerel", "locator": "osis",
+            "licence": "© The Bible Society in Turkey and New Life Publications 2009, all rights reserved; CrossWire distributes "
+                       "with permission; quotations under 100 verses with the source named need no written permission; local "
+                       "research copy",
+            "notes": "FOR THE BIBLE PASS ONLY, as the Turkish reading text beside WLC/SBLGNT and KJV. seg TURNTB:<OSIS book>."
+                     "<chapter>.<verse> with English (KJV-style) numbering; Psalm headings are titles (verse 0), not part of "
+                     "verse 1. Text without notes and headings (pysword clean).",
+            "coverage": "66 books", "urls": ["https://www.crosswire.org/ftpmirror/pub/sword/packages/rawzip/TurNTB.zip"]}
+    try:
+        from pysword.modules import SwordModules
+    except ImportError:
+        raise SystemExit('turntb needs the pysword package (pip install pysword); nothing written')
+    import tempfile
+    src, segs, empty = Source("TURNTB"), [], []
+    st, body = src.fetch(META["urls"][0], "turntb/TurNTB.zip")
+    if st != 200 or not body:
+        raise SystemExit('FETCH FAILED: TurNTB zip; previous segments left intact')
+    with tempfile.TemporaryDirectory() as tmp:
+        zipfile.ZipFile(io.BytesIO(body)).extractall(tmp)
+        mods = SwordModules(tmp)
+        mods.parse_modules()
+        bible = mods.get_bible_from_module("TurNTB")
+        for testament in bible.get_structure().get_books().values():
+            for bk in testament:
+                b = bk.osis_name
+                for c, n in enumerate(bk.chapter_lengths, 1):
+                    for vs in range(1, n + 1):
+                        text = re.sub(r"\s+", " ", bible.get(books=[bk.name], chapters=[c], verses=[vs], clean=True)).strip()
+                        if not text:
+                            empty.append(f"{b}.{c}.{vs}")
+                            continue
+                        segs.append({"seg": f"TURNTB:{b}.{c}.{vs}", "s": None, "a": None, "a_end": None, "page": None,
+                                     "head": f"{NAMES.get(b, b)} {c}:{vs}", "text": text, "book": b, "chapter": c, "verse": vs})
+    META["missing"] = empty
+    src.upsert_segments(segs)
+    src.update_source(META, urls=META["urls"])
+    print(f"TURNTB: {len(segs)} verses" + (f"; NOTE: {len(empty)} empty verse(s) in the module, recorded as missing in "
+                                          f"source.json: {', '.join(empty[:20])}" if empty else ""))
+
+
 def main() -> None:
     what = sys.argv[1:] or ["all"]
     if "all" in what:
         what = ["wlc", "sblgnt", "kjv"]
     for w in what:
-        {"wlc": wlc, "sblgnt": sblgnt, "kjv": kjv}[w]()
+        {"wlc": wlc, "sblgnt": sblgnt, "kjv": kjv, "turntb": turntb}[w]()
 
 
 if __name__ == "__main__":

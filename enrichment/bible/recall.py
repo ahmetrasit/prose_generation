@@ -213,11 +213,11 @@ def mt_ref(ref: str) -> str:
 
 
 def texts(db, ref: str) -> dict:
-    """KJV text at the KJV reference; WLC at the Hebrew-numbered reference (key 'WLC_ref' when it differs);
-    SBLGNT at the same reference."""
+    """KJV and TURNTB (Kutsal Kitap 2009, English numbering) at the KJV reference; WLC at the Hebrew-numbered
+    reference (key 'WLC_ref' when it differs); SBLGNT at the same reference."""
     book = OSIS.match(ref)[1]
     out = {}
-    for src, r2 in (('KJV', ref), ('WLC', mt_ref(ref)) if book in OT else ('SBLGNT', ref)):
+    for src, r2 in (('KJV', ref), ('TURNTB', ref), ('WLC', mt_ref(ref)) if book in OT else ('SBLGNT', ref)):
         r = db.execute('select text from seg where seg = ?', (f'{src}:{r2}',)).fetchone()
         if r:
             out[src] = r[0]
@@ -495,17 +495,21 @@ MARK = {'same': '≈', 'similar': '≈', 'opposite': '≠', 'background': '◦',
 
 
 def verse_lines(db, refs: list[str], quote: str) -> list[str]:
-    """The whole text of every verse of a row: the Hebrew (WLC) or Greek (SBLGNT) and the KJV, from the corpus.
-    A verse the corpus lacks is said so on the page, never left out silently."""
+    """One tag per verse, the prose's tag structure with a `bible` field (user, 2026-10-09):
+    {bible:<WLC or SBLGNT>, tr:<KJV>, gloss:<Kutsal Kitap 2009>, source:<OSIS ref, KJV numbering>}. A text the
+    corpus lacks is written as "—" and printed as a NOTE, never left out silently."""
     out = []
     for ref in refs:
         t = texts(db, ref)
-        if not t:
-            out.append(f'{quote}*{ref}: metin derlemde yok*')
-            continue
-        for src in ('WLC', 'SBLGNT', 'KJV'):
-            if src in t:
-                out.append(f"{quote}*{ref} {src}{' ' + t[src + '_ref'].split('.', 1)[1].replace('.', ':') if src + '_ref' in t else ''}:* {t[src]}")
+        orig = t.get('WLC') or t.get('SBLGNT')
+        vals = [orig, t.get('KJV'), t.get('TURNTB')]
+        for name, v in zip(('original', 'KJV', 'TURNTB'), vals):
+            if not v:
+                print(f'NOTE: {ref}: no {name} text in the corpus; written as "—"')
+            elif '}' in v or re.search(r', (tr|gloss|source):', v):
+                print(f'NOTE: {ref}: {name} text contains a tag delimiter; check the rendering')
+        o, en, tr = (v or '—' for v in vals)
+        out.append(f'{quote}{{bible:{o}, tr:{en}, gloss:{tr}, source:{ref}}}')
     return out
 
 

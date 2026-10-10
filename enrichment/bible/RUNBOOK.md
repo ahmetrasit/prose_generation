@@ -37,6 +37,8 @@ never start a session twice (every runner skips finished work and prints `WARNIN
 ```sh
 # 0. Sources (once per machine): lexicon, Hebrew root index, Bible index
 python3 -B enrichment/bible/fetch/hebrew_lexicon.py && python3 -B enrichment/bible/hebrew.py build
+# Turkish verse text (Kutsal Kitap 2009, CrossWire TurNTB) needs a Python with pysword + requests:
+#   python3 -m venv V && V/bin/pip install pysword==0.2.8 requests && V/bin/python -B enrichment/bible/fetch/bible_text.py turntb
 python3 -B enrichment/bible/corpus.py build
 # 1. Frozen pack: r13 ayah readings + original r13 images
 python3 -B enrichment/bible/pack.py --surah S --ayah-base r13
@@ -58,7 +60,8 @@ python3 -B enrichment/bible/image_enrich.py assemble --surah S --run-tag sSSS-YY
 #     paragraphs); turn 3 shows the KJV/WLC/SBLGNT text of every cited verse and takes the final list. Sol max. No discovery, merge or Opus author for ayah pages.
 python3 -B enrichment/bible/recall.py sol --surah S --tag sol-YYYYMMDD --ayat S:1,S:2,… --parallel 3 --effort max
 python3 -B enrichment/bible/recall.py check   --surah S --tag sol-YYYYMMDD
-python3 -B enrichment/bible/recall.py preview --surah S --tag sol-YYYYMMDD
+python3 -B enrichment/bible/recall.py preview --surah S --tag sol-YYYYMMDD   # each verse as
+#     {bible:<WLC|SBLGNT>, tr:<KJV>, gloss:<Kutsal Kitap>, source:<OSIS, KJV numbering>} under its note
 python3 -B enrichment/bible/recall.py report  --surah S --tag sol-YYYYMMDD
 # Old route (superseded for ayah pages): spawn one Opus high agent per call with the exact text of its spawn.md
 python3 -B enrichment/bible/enrich.py spawn --surah S --target ayat
