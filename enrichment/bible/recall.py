@@ -56,10 +56,16 @@ def osis(ref: str) -> str | None:
     return f'{code}.{int(m[2])}.{int(m[3])}' if code else None
 STRENGTH = ('strong', 'medium', 'weak')
 RELATION = ('similar', 'opposite')
+WAYS = ('same', 'opposite', 'background', 'word')     # per-paragraph brief (recall_par.md)
 FOLLOWUP = ('Review your recall once more for verses that qualify under the same rules and are not in your list yet: '
             'the other Testament, other books, other distinct claims or images of the ayah, and verses that say the '
             'opposite. Reply only with the new rows, in the same four-field TSV. Zero rows is a valid answer. Answer '
             'from memory only; do not read files, run commands or search.')
+FOLLOWUP_PAR = ('Go through the paragraphs once more for verses that would help a reader understand them and are not in '
+                'your list yet: paragraphs you gave few or no rows, images and customs whose background the Bible shows, '
+                'words whose Hebrew or Aramaic relatives it uses, and verses that say a paragraph\'s point the other way '
+                'round. Reply only with the new rows, in the same five-field TSV. Zero rows is a valid answer. Answer '
+                'from memory only; do not read files, run commands or search.')
 OT = set('Gen Exod Lev Num Deut Josh Judg Ruth 1Sam 2Sam 1Kgs 2Kgs 1Chr 2Chr Ezra Neh Esth Job Ps Prov Eccl Song Isa '
          'Jer Lam Ezek Dan Hos Joel Amos Obad Jonah Mic Nah Hab Zeph Hag Zech Mal'.split())
 
@@ -87,6 +93,14 @@ def parse(text: str) -> tuple[list[dict], list[str]]:
         if not line.strip():
             continue
         f = [x.strip() for x in line.split('\t')]
+        if len(f) == 5 and f[0].lstrip('¶').isdigit():          # per-paragraph brief
+            par, way, st, ref, ex = f
+            way, st = way.lower(), st.lower()
+            if way not in WAYS or st not in STRENGTH or not osis(ref):
+                bad.append(f'bad way/strength/ref: {line[:120]}')
+                continue
+            rows.append(dict(paragraph=int(par.lstrip('¶')), relation=way, strength=st, ref=osis(ref), explanation=ex))
+            continue
         if len(f) != 4:
             bad.append(f'not four fields: {line[:120]}')
             continue
@@ -108,19 +122,24 @@ def commentary(s: int, ayah: str, prose: bool) -> str:
             'readings it develops as well as the ayah itself:\n\n' + text.strip() + '\n\n')
 
 
-def one_recall(s: int, tag: str, ayah: str, model: str, q: dict, prose: bool = False) -> str:
+def one_recall(s: int, tag: str, ayah: str, model: str, q: dict, prose: bool = False, brief: str = 'ayah') -> str:
     d = run_dir(s, tag) / key(ayah) / model
     if (d / 'rows.json').exists():
         return f'{ayah} {model}: done already'
     d.mkdir(parents=True, exist_ok=True)
     surah = '\n'.join(f'{r} {t}' for r, t in q.items() if r.split(':')[0] == str(s) and not r.endswith(':0'))
-    prompt = ((HERE / 'prompts' / 'recall.md').read_text().replace('{{REF}}', ayah).replace('{{ARABIC}}', q[ayah])
-              .replace('{{SURAH}}', str(s)).replace('{{SURAH_TEXT}}', surah).replace('{{COMMENTARY}}', commentary(s, ayah, prose)))
+    if brief == 'par':
+        com = (HERE / 'work' / f's{s:03d}' / 'pack' / 'numbered' / f'{key(ayah)}.md').read_text().strip()
+        tmpl, follow = 'recall_par.md', FOLLOWUP_PAR
+    else:
+        com, tmpl, follow = commentary(s, ayah, prose), 'recall.md', FOLLOWUP
+    prompt = ((HERE / 'prompts' / tmpl).read_text().replace('{{REF}}', ayah).replace('{{ARABIC}}', q[ayah])
+              .replace('{{SURAH}}', str(s)).replace('{{SURAH_TEXT}}', surah).replace('{{COMMENTARY}}', com))
     (d / 'prompt.md').write_text(prompt)
     t1 = CR.turn(d, 1, prompt, MODELS[model], 'max')
     if not t1['completed'] or not t1['thread_id']:
         return f'ERROR {ayah} {model}: turn 1 did not complete (rc {t1["returncode"]}); see {d}'
-    t2 = CR.turn(d, 2, FOLLOWUP, MODELS[model], 'max', thread=t1['thread_id'])
+    t2 = CR.turn(d, 2, follow, MODELS[model], 'max', thread=t1['thread_id'])
     if not t2['completed'] or t2.get('error'):
         return f'ERROR {ayah} {model}: follow-up did not complete ({t2.get("error") or t2["returncode"]}); see {d}'
     r1, b1 = parse((d / 'turn1.last.txt').read_text())
@@ -136,7 +155,7 @@ def one_recall(s: int, tag: str, ayah: str, model: str, q: dict, prose: bool = F
     except ValueError as e:
         cost = {'usd_equivalent': None, 'note': str(e), **{f'total_{k}': (t1['usage'].get(k, 0) + t2['usage'].get(k, 0))
                                                          for k in CR.KEYS}}
-    (d / 'rows.json').write_text(json.dumps(dict(ayah=ayah, model=MODELS[model], effort='max', rows=r1 + r2,
+    (d / 'rows.json').write_text(json.dumps(dict(ayah=ayah, model=MODELS[model], effort='max', brief=brief, rows=r1 + r2,
                                                  malformed=b1 + b2, tool_calls=tools, cost=cost),
                                             ensure_ascii=False, indent=1) + '\n')
     usd = cost.get('usd_equivalent')
@@ -152,7 +171,7 @@ def cmd_recall(a):
             raise SystemExit(f'{x}: not an ayah of surah {a.surah}')
     jobs = [(x, m) for x in ayat for m in a.models.split(',')]
     with cf.ThreadPoolExecutor(a.parallel) as ex:
-        for msg in ex.map(lambda j: one_recall(a.surah, a.tag, j[0], j[1], q, a.prose), jobs):
+        for msg in ex.map(lambda j: one_recall(a.surah, a.tag, j[0], j[1], q, a.prose, a.brief), jobs):
             print(msg, flush=True)
 
 
@@ -191,7 +210,9 @@ def cmd_merge(a):
             r = json.loads(f.read_text())
             for row in r['rows']:
                 m = merged.setdefault(row['ref'], dict(ref=row['ref'], readers=[], strength=row['strength'],
-                                                        relations=[], notes=[]))
+                                                        relations=[], notes=[], paragraphs=[]))
+                if row.get('paragraph') is not None and row['paragraph'] not in m['paragraphs']:
+                    m['paragraphs'].append(row['paragraph'])
                 rd = f.parent.name
                 if rd not in m['readers']:
                     m['readers'].append(rd)
@@ -199,7 +220,26 @@ def cmd_merge(a):
                     m['strength'] = row['strength']
                 if row['relation'] not in m['relations']:
                     m['relations'].append(row['relation'])
-                m['notes'].append(f"{rd}: {row['explanation']}")
+                m['notes'].append(f"{rd}" + (f" (¶{row['paragraph']})" if row.get('paragraph') is not None else '')
+                                  + f": {row['explanation']}")
+        if a.roots:
+            for f in sorted((HERE / 'work' / f's{a.surah:03d}' / 'roots' / a.roots / ad.name).glob('*/rows.json')):
+                r = json.loads(f.read_text())
+                cog = {x['ar']: x for x in r['rows'] if x['kind'] == 'root'}
+                for row in r['rows']:
+                    if row['kind'] != 'verse' or row.get('check') not in ('verified', 'nearby'):
+                        continue
+                    c = cog.get(row['ar'], {})
+                    m = merged.setdefault(row['ref'], dict(ref=row['ref'], readers=[], strength='medium', relations=[],
+                                                            notes=[], paragraphs=[]))
+                    rd = f'roots-{f.parent.name}'
+                    if rd not in m['readers']:
+                        m['readers'].append(rd)
+                    if 'word' not in m['relations']:
+                        m['relations'].append('word')
+                    m['notes'].append(f"{rd}: Arabic {row['ar']} ~ Hebrew {c.get('he')} ({c.get('relation')}: "
+                                      f"{c.get('note', '')}) {row['explanation']}"
+                                      + (f" [Hebrew text has the root at WLC {row['wlc_ref']}]" if row.get('wlc_ref') else ''))
         items = sorted(merged.values(), key=lambda m: (STRENGTH.index(m['strength']), -len(m['readers'])))
         unresolved = []
         for m in items:
@@ -218,7 +258,8 @@ def verses_block(items: list[dict]) -> str:
     out = []
     for m in items:
         rel = '/'.join(m['relations'])
-        lines = [f"### {m['ref']} ({m['strength']}, {rel})"]
+        hint = f"; readers' paragraph hint: {', '.join('¶' + str(p) for p in m['paragraphs'])}" if m.get('paragraphs') else ''
+        lines = [f"### {m['ref']} ({m['strength']}, {rel}{hint})"]
         if 'KJV' in m['text']:
             lines.append(f"KJV: {m['text']['KJV']}")
         else:
@@ -316,13 +357,13 @@ def cmd_preview(a):
             out.append(block)
             m = re.match(r'\[¶(\d+)\]', block.strip())
             for r in by_p.get(int(m[1]) if m else -1, []):
-                mark = '≈' if r.get('relation') == 'similar' else '≠'
+                mark = {'same': '≈', 'similar': '≈', 'opposite': '≠', 'background': '◦', 'word': 'ʾ'}.get(r.get('way') or r.get('relation'), '·')
                 out.append(f"> **{mark} {', '.join(r['refs'])}** — {r['note_tr']}")
         end = [r for r in rows if r.get('decision') == 'end']
         if end:
             out.append('## Bu ayete benzeyen diğer Kitab-ı Mukaddes ayetleri')
             for r in end:
-                mark = '≈' if r.get('relation') == 'similar' else '≠'
+                mark = {'same': '≈', 'similar': '≈', 'opposite': '≠', 'background': '◦', 'word': 'ʾ'}.get(r.get('way') or r.get('relation'), '·')
                 out.append(f"- **{mark} {', '.join(r['refs'])}** — {r['note_tr']}")
         drops = [r for r in rows if r.get('decision') == 'drop']
         if drops:
@@ -361,6 +402,8 @@ def main():
     ap.add_argument('--parallel', type=int, default=6)
     ap.add_argument('--effort', default='high')
     ap.add_argument('--prose', action='store_true', help='recall: include the frozen ayah commentary')
+    ap.add_argument('--brief', default='ayah', choices=('ayah', 'par'), help='recall: par = per-paragraph understanding brief')
+    ap.add_argument('--roots', help='merge: also take the verified verses of this roots.py tag')
     a = ap.parse_args()
     if a.cmd == 'recall' and not a.ayat:
         raise SystemExit('recall needs --ayat')
