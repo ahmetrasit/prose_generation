@@ -25,11 +25,11 @@ The 165 RIYAD segments that have a verse key were caught by neither path.
 | # | Fix | Commit |
 |---|---|---|
 | 1 | `'hadith'` added to `KINDS`, so `gather()` digests the 165 verse-indexed hadith segments | 7ece8a7e1 |
-| 2 | `GUIDE['hadith']` now says "a chapter heading that opens with the verse, or a report" and asks for the theme the compiler files the verse under | (this commit) |
-| 3 | `quote_packet()` also searches indexed hadith/sīra/poetry segments, for the ayat **outside** their key (a chapter quotes several verses but is indexed to one); the ayat inside the key stay with `gather()`. `verses` reads `S:A (quoted; indexed S:A-E)`. In `build()`, a quote hit already gathered for another ayah of the same run has its scope merged, and `verses` adds `(also quoted: S:A)` | (this commit) |
-| 4 | Older bug found while testing: a 3-word window was skipped when a shorter window inside it had already matched. Hadith, sīra and poetry match only on 3-word windows, so they almost never got a chance. Such a window is now still searched, for those kinds only | (this commit) |
-| 5 | Older bug found while testing: `normalize_map()` turned Uthmani ىٰ into "يا" (عَلَىٰ → عليا, إِلَىٰ → اليا), which plain-text على never matched. It also made some windows look unique when they were not. The dagger alif after ى is now dropped | (this commit) |
-| 6 | `q.py` `plain()` (the writer's search tool) drops the dagger alif after ى the same way, so it agrees with `normalize_map()` | (this commit) |
+| 2 | `GUIDE['hadith']` now says "a chapter heading that opens with the verse, or a report" and asks for the theme the compiler files the verse under | d54815a9d |
+| 3 | `quote_packet()` also searches indexed hadith/sīra/poetry segments, for the ayat **outside** their key (a chapter quotes several verses but is indexed to one); the ayat inside the key stay with `gather()`. `verses` reads `S:A (quoted; indexed S:A-E)`. In `build()`, a quote hit already gathered for another ayah of the same run has its scope merged, and `verses` adds `(also quoted: S:A)` | d54815a9d |
+| 4 | Older bug found while testing: a 3-word window was skipped when a shorter window inside it had already matched. Hadith, sīra and poetry match only on 3-word windows, so they almost never got a chance. Such a window is now still searched, for those kinds only | d54815a9d |
+| 5 | Older bug found while testing: `normalize_map()` turned Uthmani ىٰ into "يا" (عَلَىٰ → عليا, إِلَىٰ → اليا), which plain-text على never matched. It also made some windows look unique when they were not. The dagger alif after ى is now dropped | d54815a9d |
+| 6 | `q.py` `plain()` (the writer's search tool) drops the dagger alif after ى the same way, so it agrees with `normalize_map()` | d54815a9d |
 
 Sonnet code review: fix 1 OK; fixes 2–6 OK after three rounds (two small follow-ups: the `also quoted` note and fix 6).
 
